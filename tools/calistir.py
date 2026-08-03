@@ -107,7 +107,7 @@ def durum_yaz(n):
 
     # Depoya gonder. Basarisiz olursa sessiz gec - is akisini bozmasin.
     for c in ["git pull --rebase --autostash",
-              "git add DURUM.txt ilerleme.txt",
+              "git add DURUM.txt",
               'git commit -m "durum: %d/%d"' % (n, len(ADIMLAR)),
               "git push"]:
         subprocess.call(c, shell=True,
