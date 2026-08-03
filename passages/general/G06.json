@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0",
+  "passage_id": "G06",
+  "module": "general",
+  "section": 3,
+  "title": "Why Volunteers Tend to Report Better Health",
+  "topic": "toplum / gönüllülük ve sağlık",
+  "word_count": 795,
+  "paragraphs": [
+    {
+      "label": "A",
+      "text": "Governments and charities routinely encourage citizens to volunteer, largely for the benefit of the causes and communities involved, but a growing body of research asks a different question: does volunteering also change the life of the volunteer? A study published in PLOS ONE examined one part of that question directly, testing whether people who give their time regularly go on to report better health than those who do not, and, if so, how that benefit might come about."
+    },
+    {
+      "label": "B",
+      "text": "The researchers drew on the sixth round of the European Social Survey, a large study carried out in 2012 and 2013 across 29 countries, from long-standing European Union members to nations such as Russia and Israel. After excluding respondents with incomplete income information, the analysis covered 42,926 individuals. Volunteering was recorded as a simple yes-or-no measure, based on whether a person had taken part in unpaid work for an organisation at least once every six months, while health was self-reported on a five-point scale running from \"very bad\" to \"very good\"."
+    },
+    {
+      "label": "C",
+      "text": "People who volunteered rated their own health noticeably higher than those who did not, even after the researchers accounted for differences in gender, age, education, migration background and religious observance. The size of this gap was similar to the difference in reported health between men and women, or between people five years apart in age, small on any single measure but consistent and unlikely to be due to chance. Self-rated health might seem like a subjective measure, but earlier research has repeatedly shown it to reliably predict future illness and mortality, which is one reason the team chose it as their main outcome."
+    },
+    {
+      "label": "D",
+      "text": "Volunteering itself varied enormously across the countries surveyed. More than four in ten respondents in Germany, the Netherlands and Norway said they volunteered regularly, compared with fewer than one in ten in Bulgaria, Hungary and Lithuania. Across the whole sample, volunteers were somewhat more likely to be male, more highly educated and more religious than non-volunteers, and somewhat less likely to be elderly or to have migrated from another country."
+    },
+    {
+      "label": "E",
+      "text": "One plausible explanation is that volunteering pays off financially: it can widen a person's professional network, build skills and demonstrate reliability to future employers, all of which might raise household income, and higher income is itself strongly linked to better self-rated health. The data supported the first half of this chain: volunteers did report somewhat higher household income than non-volunteers, and the researchers confirmed that income, in turn, was closely tied to health."
+    },
+    {
+      "label": "F",
+      "text": "When the researchers traced how much of the overall volunteering-health link could be explained by this income route, however, the answer was: not very much. Income differences accounted for well under a fifth of the total association between volunteering and self-rated health. The remaining four-fifths, the larger part of the story by a wide margin, operated through some other mechanism the income data could not capture."
+    },
+    {
+      "label": "G",
+      "text": "To make sure this result was not an artefact of how the data were collected, the researchers reran their analysis several times under different conditions: using only respondents who were part of the labour force, testing alternative definitions of how often someone had to volunteer to count as a volunteer, and adding further control variables such as parental education and household size. They also examined whether people who declined to report their income, about eleven per cent of the original sample, differed systematically from those who did, since this could have biased the results. In every version of the analysis the same basic pattern held: a small, statistically reliable health advantage for volunteers, only a modest share of which ran through income."
+    },
+    {
+      "label": "H",
+      "text": "The authors suggest several candidate explanations for this unexplained majority of the effect, while stressing that their data cannot confirm any of them directly. Volunteering may build a sense of purpose and social connection, both repeatedly linked to wellbeing in other research; it often involves physical activity, from standing at a community event to walking a delivery route; and some physiologists have proposed that helping others may even influence the body's stress-regulating hormones. Which, if any, of these pathways matters most remains an open question."
+    },
+    {
+      "label": "I",
+      "text": "The authors are careful to describe their results as an association rather than proof that volunteering causes better health. People who choose to volunteer may already differ from those who do not in ways the study could not fully measure, such as having more free time, better baseline health, or a generally more sociable disposition, and any of these could independently explain part of the pattern. They argue that the strongest way to settle the question would be an experiment that randomly assigns some people the opportunity to volunteer and tracks their health afterwards, and they call for exactly this kind of study to follow their own."
+    }
+  ],
+  "texts": null,
+  "source": {
+    "origin": "PLOS ONE",
+    "title": "Volunteering, income and health",
+    "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0173139",
+    "license": "CC BY 4.0",
+    "attribution": "Adapted from Detollenaere J, Willems S, Baert S (2017) Volunteering, income and health. PLoS ONE 12(3): e0173139, published under CC BY 4.0.",
+    "adapted": true
+  },
+  "notes": "Kaynak makalenin regresyon/aracilik analizi bolumlerinden yeniden yazildi; standart sapma katsayilari, p degerleri ve bootstrap yontem detaylari cikarildi, bulgular sade dille anlatildi."
+}

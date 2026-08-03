@@ -5,7 +5,7 @@ Bu dosyaya her oturumda alınan kararlar, atlanan işler ve karşılaşılan sor
 ## Ortam
 - İşletim sistemi: Windows
 - Çalışan Python komutu: `python` (veya `py` / `python3` — hangisi çalıştıysa)
-- Referanslar: `referans/*.pdf` — **metne çevrilmedi, Read aracıyla doğrudan PDF okunacak**
+- Referanslar: `referans/*.pdf` — **`Read` aracının PDF render'ı bu makinede çalışmıyor** (`pdftoppm` kurulu değil, "poppler" hatası verir). Sistemde `pdftotext` (Git for Windows / poppler ile gelen) kurulu; PDF'i okumak için `pdftotext -layout referans/<dosya>.pdf -` ile terminale bas ve öyle oku. `referans/text/` klasörü önceden boştu, gerekirse `pdftotext -layout kaynak.pdf referans/text/kaynak.txt` ile çıktısı orada da tutulabilir.
 
 ## 00-KURULUM
 - Tarih: 2026-08-03
@@ -125,3 +125,69 @@ Bu dosyaya her oturumda alınan kararlar, atlanan işler ve karşılaşılan sor
   dolduruldu: AC3←A07(1),A08(2),A09(3); AC4←A10(1),A11(2),A12(3).
 - Atlanan/sorun: yok — kaynak arama ve indirme sorunsuz tamamlandı. `python tools/dogrula.py`
   ile pasaj lisans/telif taraması temiz çıktı.
+
+## 01-pasaj-secimi (3. çalıştırma: G01–G06)
+- Tarih: 2026-08-04
+- Depo durumu kontrol edildi: `passages/academic/`'ta A01–A12 tamdı, `passages/general/`
+  tamamen boştu. Bu, hem promptun kendi "3. çalıştırma → G01–G06" tanımıyla hem de mevcut
+  durumla uyumluydu, çelişki yoktu — doğrudan G01–G06 üretildi.
+- `referans/ielts-general-reading-sample-tasks-2023.pdf` `Read` aracıyla açılamadı
+  (`pdftoppm` eksik); `pdftotext -layout ... -` ile terminale basılıp öyle okundu — sadece
+  format referansı olarak kullanıldı, hiçbir cümle kopyalanmadı. Bu bilgi dosyanın başındaki
+  "Ortam" notuna da eklendi ki sonraki oturumlar tekrar takılmasın.
+- Üretilen dosyalar ve kaynaklar:
+  - **G01** (Bölüm 1, orijinal) — "Cloverfield Public Services": kurgusal bir kasabadaki
+    beş günlük hizmet duyurusu (kütüphane üyeliği, spor merkezi kurs takvimi, ulaşım kartı
+    kuralları, apartman geri dönüşüm rehberi, dil kursu kaydı). 433 kelime, 5 metin (A–E),
+    her biri 82–94 kelime.
+  - **G02** (Bölüm 1, orijinal) — "Leisure in Millbrook": farklı bir kurgusal kasabadaki
+    beş boş-zaman hizmeti (bisiklet kiralama, festival programı, bahçe parseli kuralları,
+    yüzme havuzu seansları, akşam kursu kaydı) — G01 ile aynı temayı tekrar etmemek için
+    bilinçli olarak "kamu hizmetleri" değil "boş zaman" kümesi seçildi. 414 kelime, 5 metin,
+    78–87 kelime aralığında.
+  - **G03** (Bölüm 2, orijinal) — "Fernbridge Manufacturing — Staff Handbook Extracts":
+    kurgusal bir üretim şirketinin çalışma saatleri/molalar el kitabı bölümü + izin/mesai
+    politikası, iki metin, her biri kendi içinde A–D harfli paragraflara ve madde
+    listelerine bölündü. 510 kelime.
+  - **G04** (Bölüm 2, orijinal) — "Cedarline Financial Services — Internships and Remote
+    Working": kurgusal bir finans şirketinin staj başvuru rehberi + uzaktan çalışma
+    politikası, aynı yapıda (A–D harfli iç paragraflar, madde listeleri). 460 kelime.
+  - **G05** (Bölüm 3, CC BY) — "What Ends Up in the Rubbish: A Household Food Waste Study",
+    PLOS ONE, Martianto D, et al. (2024) "The quantity and composition of household food
+    waste: Implications for policy", PLoS ONE 19(6): e0305087, CC BY 4.0 —
+    https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0305087. Bogor
+    Regency (Endonezya) kentsel/kırsal 215 hanede yapılan gıda israfı çalışması. 823
+    kelime, 9 harflendirilmiş paragraf (A–I).
+  - **G06** (Bölüm 3, CC BY) — "Why Volunteers Tend to Report Better Health", PLOS ONE,
+    Detollenaere J, Willems S, Baert S (2017) "Volunteering, income and health", PLoS ONE
+    12(3): e0173139, CC BY 4.0 —
+    https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0173139. Avrupa
+    Sosyal Araştırması (29 ülke, ~43.000 kişi) verisiyle gönüllülük–gelir–sağlık ilişkisini
+    inceleyen çalışma. 795 kelime, 9 harflendirilmiş paragraf (A–I).
+- **Bölüm 2 şema kararı:** `texts[].text` alanı tek bir string olduğu için, iç paragraf
+  harflendirmesi (A, B, C…) doğrudan metin gövdesine gömüldü (satır başında harf, ardından
+  paragraf). Üst düzey `texts[].label` alanı ise setteki iki metni birbirinden ayırt etmek
+  için `A`/`B` olarak kullanıldı — yani aynı harf iki farklı anlamda (dış metin kimliği ve
+  iç paragraf) kullanılıyor olabilir, bu kasıtlı bir tasarım kararı. Soru üretimi bu
+  pasajları kullanırken buna dikkat etmeli.
+- Kelime sayıları gerçekten sayıldı (Python `len(text.split())`): G01–G02 için her kısa
+  metin 60–100 aralığında, G03–G04 toplamı ~500'e yakın (510, 460), G05–G06 750–900
+  aralığında (823, 795). İlk taslaklarda G01–G06 hepsi hedefin altında/üstündeydi
+  (G01=479→433, G02=490→414 kısaltıldı; G03=392→510, G04=334→460, G05=693→823,
+  G06=639→795 yeni paragraf/cümlelerle genişletildi, kaynak makalelerdeki gerçek ek
+  bilgilerle: G05'e içecek israfı + çöp kutusu ölçüm sınırlaması paragrafı, G06'ya
+  duyarlılık analizleri paragrafı ve öz-bildirimli sağlığın geçerliliğine dair bir cümle).
+- `passages/INDEX.json`'a 6 kayıt eklendi: GT1←G01(1),G03(2),G05(3); GT2←G02(1),G04(2),
+  G06(3), PLAN dosyasındaki pasaj→test eşlemesine göre.
+- Kalite kontrolü: her metinde somut ayrıntı (saat/ücret/tarih/telefon/koşul) var; G05/G06
+  en az 3 paragrafta sayı/tarih/isim ve en az 2 yerde yazar değerlendirme cümlesi
+  içeriyor; "IELTS" kelimesi hiçbir dosyada geçmiyor; G01–G04'te tüm yer/kurum/şirket
+  adları uydurma (Cloverfield, Millbrook, Fernbridge Manufacturing, Cedarline Financial
+  Services vb.). `python tools/dogrula.py`: şema hatası 0, lisans eksik 0, yasak
+  kaynak/IELTS taraması temiz.
+- **Pasaj havuzu artık tamam:** A01–A12 + G01–G06 = 18 pasaj, PLAN'daki tüm kimlikler
+  üretildi. Sonraki `01-pasaj-secimi` çalıştırması gerekmiyor; sıradaki işler
+  `content/reading/tests/` ve `content/reading/practice/` altındaki soru üretim
+  promptlarıdır (OPUS5-10/11, FABLE5-40/41/42) — AC2, AC3, AC4, GT1, GT2 ve 5 alıştırma
+  paketi hâlâ bekliyor.
+- Atlanan/sorun: yok.
