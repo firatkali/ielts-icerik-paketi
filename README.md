@@ -88,9 +88,16 @@ Masaüstündeki **IELTS CALISTIR** kısayoluna çift tıkla.
 - Enter'a basmanı ister.
 - Claude açılır, kendi kendine çalışır. **Sen hiçbir şey yazmayacaksın**, sadece
   beklersin (10-20 dakika).
-- Bitince tek soru sorar: ekranda *"... tamam"* yazdı mı?
-  **E** (evet) / **H** (hayır) / **L** (limit doldu) — birini yaz, Enter.
-- Kapat. Bir dahaki sefere yine çift tıkla, kaldığı yerden devam eder.
+- İş bitince Claude *"... tamam, sıradaki dosya ..."* diye bir mesaj yazar.
+  **O mesajı görünce `/exit` yaz, Enter'a bas** — Claude kapanır.
+
+  ⚠️ Claude'a kendin bir şey yazma. Sıradaki işi program başlatacak; elle yazarsan
+  takibi şaşar.
+- Claude kapanınca arkadaki siyah pencerede bir soru bekliyor olacak:
+  **E** (evet, o mesajı gördüm) / **H** (hayır) / **L** (limit doldu) — birini yaz, Enter.
+
+  ⚠️ **E demeden sıradaki işe geçmez.** Demezsen bir dahaki sefere aynı işi tekrar yapar.
+- Pencereyi kapat. Bir dahaki sefere yine çift tıkla, kaldığı yerden devam eder.
 
 **Toplam 19 iş var.** Her iş birden çok kez çalışabilir — program kendi takip ediyor.
 
