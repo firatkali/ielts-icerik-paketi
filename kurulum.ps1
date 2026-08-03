@@ -74,13 +74,14 @@ Basla "Masaustune kisayollar koyuluyor"
 try {
     $ws = New-Object -ComObject WScript.Shell
     foreach ($k in @(@{ ad = "IELTS CALISTIR"; hedefDosya = "CALISTIR.bat" },
-                     @{ ad = "IELTS KONTROL"; hedefDosya = "KONTROL.bat" })) {
+                     @{ ad = "IELTS KONTROL"; hedefDosya = "KONTROL.bat" },
+                     @{ ad = "IELTS DURUM"; hedefDosya = "DURUM.txt" })) {
         $lnk = $ws.CreateShortcut("$([Environment]::GetFolderPath('Desktop'))\$($k.ad).lnk")
         $lnk.TargetPath = "$hedef\$($k.hedefDosya)"
         $lnk.WorkingDirectory = $hedef
         $lnk.Save()
     }
-    Tamam "Masaustunde 'IELTS CALISTIR' ve 'IELTS KONTROL' kisayollari olustu"
+    Tamam "Masaustunde 3 kisayol olustu: KONTROL, CALISTIR, DURUM"
 } catch {
     Uyari "Kisayol olusturulamadi. $hedef klasorundeki dosyalari kullan."
 }

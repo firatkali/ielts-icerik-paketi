@@ -13,7 +13,7 @@ import sys
 KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
-from calistir import ADIMLAR, ilerleme_oku  # noqa: E402
+from calistir import ADIMLAR, ilerleme_oku, liste_goster  # noqa: E402
 
 gecen = 0
 kalan = 0
@@ -110,10 +110,9 @@ def main():
     if n >= len(ADIMLAR):
         print("  Butun isler bitmis gorunuyor.")
     else:
-        ad, model, dosya, _ = ADIMLAR[n]
-        print("  Sirada: adim %d / %d  -  %s" % (n + 1, len(ADIMLAR), ad))
-        print("  Kullanilacak model: %s" % model)
         print()
+        liste_goster(n)
+        ad, model, dosya, _ = ADIMLAR[n]
         print("  Calistirilacak komut (SIMDI CALISTIRILMIYOR):")
         print("    claude --model %s \"prompts/%s ...\"" % (model, dosya))
 

@@ -11,7 +11,7 @@ import sys
 
 KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 ILERLEME = os.path.join(KOK, "ilerleme.txt")
-DURUM = os.path.join(KOK, "DURUM.md")
+DURUM = os.path.join(KOK, "DURUM.txt")
 
 # (kisa ad, model, prompt dosyasi, ek talimat)
 ADIMLAR = [
@@ -62,35 +62,52 @@ def ilerleme_yaz(n):
         f.write(str(n))
 
 
-def durum_yaz(n):
-    """Isaretlenmis is listesini uretir ve depoya gonderir."""
-    bugun = datetime.date.today().strftime("%d.%m.%Y")
-    satirlar = [
-        "# Nerede kaldık",
-        "",
-        "**%d / %d iş bitti.**  Son güncelleme: %s" % (n, len(ADIMLAR), bugun),
-        "",
-        "Bu liste kendiliğinden güncelleniyor, elle dokunma.",
-        "",
-    ]
+def liste_satirlari(n):
+    """Is listesini satir satir uretir. Hem ekranda hem dosyada ayni gorunur."""
+    satirlar = []
     for i, (ad, model, _, _) in enumerate(ADIMLAR):
         if i < n:
-            satirlar.append("- [x] ~~%s~~" % ad)
+            satirlar.append("  [BITTI]  %s" % ad)
         elif i == n:
-            satirlar.append("- [ ] **%s**  ← sırada bu var (%s)" % (ad, model))
+            satirlar.append("  [SIRADA] %s" % ad)
         else:
-            satirlar.append("- [ ] %s" % ad)
+            satirlar.append("  [ ]      %s" % ad)
+    return satirlar
+
+
+def liste_goster(n):
+    print("  Toplam %d isten %d tanesi bitti." % (len(ADIMLAR), n))
+    print()
+    for s in liste_satirlari(n):
+        print(s)
+    print()
+
+
+def durum_yaz(n):
+    """Is listesini dosyaya yazar ve depoya gonderir."""
+    bugun = datetime.datetime.now().strftime("%d.%m.%Y %H:%M")
+    satirlar = ["IELTS ICERIK URETIMI - NEREDE KALDIK",
+                "=" * 62,
+                "",
+                "  %d isten %d tanesi bitti." % (len(ADIMLAR), n),
+                "  Son guncelleme: %s" % bugun,
+                "",
+                "  (Bu dosya kendiliginden guncelleniyor, elle dokunma.)",
+                "",
+                "-" * 62,
+                ""]
+    satirlar += liste_satirlari(n)
     satirlar.append("")
 
     try:
         with open(DURUM, "w", encoding="utf-8") as f:
-            f.write("\n".join(satirlar))
+            f.write("\r\n".join(satirlar))
     except Exception:
         return
 
     # Depoya gonder. Basarisiz olursa sessiz gec - is akisini bozmasin.
     for c in ["git pull --rebase --autostash",
-              "git add DURUM.md ilerleme.txt",
+              "git add DURUM.txt ilerleme.txt",
               'git commit -m "durum: %d/%d"' % (n, len(ADIMLAR)),
               "git push"]:
         subprocess.call(c, shell=True,
@@ -122,10 +139,13 @@ def main():
         print()
         return 0
 
+    print()
+    liste_goster(n)
+    cizgi("-")
+
     ad, model, dosya, ek = ADIMLAR[n]
     print()
-    print("  Adim %d / %d" % (n + 1, len(ADIMLAR)))
-    print("  Is: %s" % ad)
+    print("  Simdi yapilacak: %s" % ad)
     print("  Model: %s" % model)
     print()
     print("  Claude simdi acilacak ve kendi kendine calisacak.")
