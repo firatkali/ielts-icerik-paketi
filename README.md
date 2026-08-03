@@ -56,7 +56,17 @@ irm https://raw.githubusercontent.com/firatkali/ielts-icerik-paketi/main/kurulum
 ```
 
 5-15 dakika sürer, bu sırada bir sürü yazı akacak — normal, karışma.
-İki kez giriş isteyecek: tarayıcı açılınca hesabınla gir ve **"Authorize"** de.
+
+**Ortada iki kez giriş isteyecek.** Sırayla şunlar olacak:
+
+*GitHub girişi* — arka arkaya birkaç soru sorar (`Where do you use GitHub?`,
+`preferred protocol?` gibi). **Hepsinde Enter'a bas**, ilk seçenekler zaten doğru.
+Sonra ekranda `ABCD-1234` gibi 8 karakterlik bir kod çıkar: **o kodu kopyala**,
+Enter'a bas, tarayıcı açılır, kodu oraya yapıştır ve **Authorize**'a tıkla.
+
+*Claude girişi* — yine tarayıcı açılır, Claude hesabınla gir ve izin ver.
+
+İkisi bitince kurulum kendi kendine devam eder.
 
 Bitince masaüstünde iki kısayol olacak: **IELTS KONTROL** ve **IELTS CALISTIR**.
 
