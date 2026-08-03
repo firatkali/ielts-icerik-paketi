@@ -1,3 +1,26 @@
+# Ne yapıyoruz
+
+IELTS'e hazırlanan insanlar için bir uygulama yapıyorum. Uygulamanın içine koyacak
+soruya ihtiyacım var — senin yardım ettiğin kısım bu.
+
+Soruları sen yazmıyorsun, Claude yazıyor. Bu klasördeki program da Claude'a ne
+yapacağını sırayla söylüyor: hangi konu, hangi soru tipi, kaç tane, hangi kurallara
+göre. Sen sadece başlatıyorsun.
+
+**Sonunda çıkacak olan, kabaca 1.300 soru:**
+
+- 6 okuma testi (her biri 40 soru) + ayrıca soru tipi alıştırmaları
+- 6 dinleme testi (her biri 40 soru) + alıştırmalar
+- 440 konuşma sorusu ve konuşma kartı
+- 110 yazma görevi
+- Bunlara temel olacak 18 okuma metni
+
+Üretilen her şey iki kez kontrolden geçiyor: bir model soruyu yazıyor, **başka bir
+model** cevap anahtarını görmeden aynı soruyu çözüyor. Tutmayan sorular eleniyor.
+Bu kontroller de listedeki işlerin arasında.
+
+---
+
 # Ne yapacaksın
 
 Üç adım. Hepsi bu.
