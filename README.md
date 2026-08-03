@@ -7,6 +7,15 @@ Soruları sen yazmıyorsun, Claude yazıyor. Bu klasördeki program da Claude'a 
 yapacağını sırayla söylüyor: hangi konu, hangi soru tipi, kaç tane, hangi kurallara
 göre. Sen sadece başlatıyorsun.
 
+**Sorular nereden çıkıyor?** İlk iş, IELTS'in resmi sitesindeki örnek sınav
+dosyalarını indirmek — 40'tan fazla belge. Bunlar gerçek sınavın nasıl göründüğünü
+gösteriyor: soru kaç kelimeyle sorulur, seçenekler nasıl yazılır, cevap anahtarı
+nasıl olur. Claude bunlara bakıp **aynı formatta yeni sorular** yazıyor.
+
+Resmi belgelerden **kopya alınmıyor** — o sorular telifli, kullanamayız. Sadece
+biçimi örnek alınıyor. Soruların dayandığı okuma metinleri de NASA, PLOS ve OpenStax
+gibi serbestçe kullanılabilen kaynaklardan seçiliyor.
+
 **Sonunda çıkacak olan, kabaca 1.300 soru:**
 
 - 6 okuma testi (her biri 40 soru) + ayrıca soru tipi alıştırmaları
