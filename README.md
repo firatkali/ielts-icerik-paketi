@@ -6,6 +6,29 @@
 
 ---
 
+## Bir kereye mahsus kurulum
+
+Terminale sırayla yapıştır, her birinden sonra Enter:
+
+**1)** Projeyi indir:
+```
+git clone https://github.com/firatkali/ielts-icerik-paketi.git ~/Desktop/ielts-paketi
+```
+
+**2)** GitHub'a bağlan — tarayıcı açılır, hesabınla giriş yap, "Authorize" de:
+```
+gh auth login
+```
+
+**3)** Klasöre gir:
+```
+cd ~/Desktop/ielts-paketi
+```
+
+Bu kadar. Bir daha yapmayacaksın.
+
+---
+
 ## Her dosya için 6 adım
 
 **1.** Terminalde `claude` yaz, Enter.
@@ -22,7 +45,7 @@
 
 **4.** Dosyayı aç, **içindekilerin hepsini** kopyala, yapıştır, Enter.
 
-**5.** Bitmesini bekle. Claude sonucu kendisi kaydedip yükler.
+**5.** Bitmesini bekle. Claude sonucu kendisi kaydedip GitHub'a yükler.
 
 **6.** `/exit` yaz, çık. Sonraki dosyaya geç → 1. adımdan tekrar.
 
@@ -43,4 +66,4 @@ Numara sırasına göre git:
 
 - **Uzun sürüyor:** normal, bazıları 10-15 dakika. Bekle.
 - **Ters gitti:** `/exit` yaz, terminali kapat, baştan aç.
-- **Anlamadığın bir şey:** bana yaz.
+- **`gh auth login` çalışmadı** veya **anlamadığın bir şey:** bana yaz.
