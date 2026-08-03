@@ -59,16 +59,30 @@ Write-Host ""
 Read-Host "    Hazir oldugunda ENTER'a bas"
 gh auth login
 
-Basla "Masaustune kisayol koyuluyor"
+Basla "Claude girisi"
+claude auth status *> $null
+if ($LASTEXITCODE -eq 0) {
+    Tamam "Claude'a zaten giris yapilmis"
+} else {
+    Write-Host "    Tarayici acilacak, Claude hesabinla giris yap."
+    Write-Host ""
+    Read-Host "    Hazir oldugunda ENTER'a bas"
+    claude auth login
+}
+
+Basla "Masaustune kisayollar koyuluyor"
 try {
     $ws = New-Object -ComObject WScript.Shell
-    $lnk = $ws.CreateShortcut("$([Environment]::GetFolderPath('Desktop'))\IELTS CALISTIR.lnk")
-    $lnk.TargetPath = "$hedef\CALISTIR.bat"
-    $lnk.WorkingDirectory = $hedef
-    $lnk.Save()
-    Tamam "Masaustunde 'IELTS CALISTIR' kisayolu olustu"
+    foreach ($k in @(@{ ad = "IELTS CALISTIR"; hedefDosya = "CALISTIR.bat" },
+                     @{ ad = "IELTS KONTROL"; hedefDosya = "KONTROL.bat" })) {
+        $lnk = $ws.CreateShortcut("$([Environment]::GetFolderPath('Desktop'))\$($k.ad).lnk")
+        $lnk.TargetPath = "$hedef\$($k.hedefDosya)"
+        $lnk.WorkingDirectory = $hedef
+        $lnk.Save()
+    }
+    Tamam "Masaustunde 'IELTS CALISTIR' ve 'IELTS KONTROL' kisayollari olustu"
 } catch {
-    Uyari "Kisayol olusturulamadi. $hedef klasorundeki CALISTIR dosyasini kullan."
+    Uyari "Kisayol olusturulamadi. $hedef klasorundeki dosyalari kullan."
 }
 
 Write-Host ""

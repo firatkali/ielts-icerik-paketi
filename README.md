@@ -1,49 +1,56 @@
 # Ne yapacaksın
 
-İki şey. Hepsi bu.
+Üç adım. Hepsi bu.
 
 ---
 
-## 1) Bir kereye mahsus kurulum
+## 1) Kurulum (bir kez)
 
 **a)** E-postandaki GitHub davetini kabul et (yeşil **"Accept invitation"** düğmesi).
 Gelmediyse: [buradan kabul et](https://github.com/firatkali/ielts-icerik-paketi/invitations)
 
-**b)** Başlat menüsüne `PowerShell` yaz, aç. Aşağıdaki satırı kopyalayıp yapıştır, Enter:
+**b)** Başlat menüsüne `PowerShell` yaz, aç. Şu satırı yapıştır, Enter:
 
 ```
 irm https://raw.githubusercontent.com/firatkali/ielts-icerik-paketi/main/kurulum.ps1 | iex
 ```
 
-Gerisini kendi halleder. 5-15 dakika sürer. Ortada bir yerde GitHub girişi isteyecek:
-sorulara Enter'a basıp geç, tarayıcı açılınca **"Authorize"** de.
+5-15 dakika sürer. İki kez giriş isteyecek — tarayıcı açılınca **"Authorize"** de.
 
-Bitince masaüstünde **IELTS CALISTIR** diye bir kısayol olacak.
+Bitince masaüstünde iki kısayol olacak: **IELTS KONTROL** ve **IELTS CALISTIR**.
 
 ---
 
-## 2) Çalıştır
+## 2) Kontrol et
 
-Masaüstündeki **IELTS CALISTIR** kısayoluna **çift tıkla.**
+Masaüstündeki **IELTS KONTROL** kısayoluna çift tıkla.
 
-- Sana ne yapacağını söyler, Enter'a basmanı ister.
-- Claude açılır ve kendi kendine çalışır. **Sen hiçbir şey yazmayacaksın**, sadece
-  bekleyeceksin (10-20 dakika).
-- Bitince sana tek bir soru sorar: ekranda *"... tamam"* yazdı mı?
+Hiçbir şey üretmez, hiçbir şey harcamaz — sadece kurulumun doğru olup olmadığını söyler.
+Hepsinde **[ OK ]** yazıyorsa hazırsın. **[SORUN]** varsa altındaki adımı yap, tekrar çalıştır.
+
+---
+
+## 3) Çalıştır
+
+Masaüstündeki **IELTS CALISTIR** kısayoluna çift tıkla.
+
+- Enter'a basmanı ister.
+- Claude açılır, kendi kendine çalışır. **Sen hiçbir şey yazmayacaksın**, sadece
+  beklersin (10-20 dakika).
+- Bitince tek soru sorar: ekranda *"... tamam"* yazdı mı?
   **E** (evet) / **H** (hayır) / **L** (limit doldu) — birini yaz, Enter.
-- Sonra kapat. Bir dahaki sefere yine çift tıkla, kaldığı yerden devam eder.
+- Kapat. Bir dahaki sefere yine çift tıkla, kaldığı yerden devam eder.
 
-**Toplam 19 iş var.** Her iş birden çok kez çalışabilir — program kendi takip ediyor,
-sen sadece çift tıklamaya devam et.
+**Toplam 19 iş var.** Her iş birden çok kez çalışabilir — program kendi takip ediyor.
 
 ---
 
 ## Bilmen gereken 3 şey
 
-**"Limit doldu" yazacak.** Bu normal, bozulmadı. Claude'un söylediği saati bekle, sonra
-tekrar çift tıkla. Yapılan iş kaydedildi, hiçbir şey kaybolmuyor.
+**"Limit doldu" yazacak.** Normal, bozulmadı. Claude'un söylediği saati bekle, tekrar
+çift tıkla. Yapılan iş kaydedildi, hiçbir şey kaybolmuyor.
 
-**İş birkaç haftaya yayılacak.** Bir günde bitmez. Acelesi yok.
+**Birkaç haftaya yayılacak.** Bir günde bitmez, acelesi yok.
 
 **Bilgisayarı istediğin zaman kapatabilirsin.** Her iş bitince sonuç kaydediliyor.
 
@@ -53,8 +60,8 @@ tekrar çift tıkla. Yapılan iş kaydedildi, hiçbir şey kaybolmuyor.
 
 | Ne görüyorsun | Ne yap |
 |---|---|
-| "Python bulunamadı" | Kurulumu tekrar çalıştır (1-b adımı) |
+| "Python bulunamadı" | Kurulumu tekrar çalıştır (1-b) |
 | "winget bulunamadı" | Microsoft Store → "App Installer" ara → güncelle → kurulumu tekrar çalıştır |
-| Kısayol yok | `C:\ielts-paketi` klasörünü aç, içindeki **CALISTIR** dosyasına çift tıkla |
+| Kısayol yok | `C:\ielts-paketi` klasörünü aç, içindeki **KONTROL** / **CALISTIR** dosyalarını kullan |
 | Claude izin istiyor | "Yes" seç |
 | Başka bir şey | Bana yaz, ekran görüntüsü at |
