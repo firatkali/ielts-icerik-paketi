@@ -29,13 +29,11 @@ Bu kadar. Bir daha yapmayacaksın.
 
 ---
 
-## Her dosya için 6 adım
+## Her dosya için 5 adım
 
 **1.** Terminalde `claude` yaz, Enter.
 
-**2.** **3 kere Shift+Tab** bas — oto moda geçer.
-
-**3.** Dosya adının başına bak, modeli seç:
+**2.** Dosya adının başına bak, modeli seç:
 
 | Dosya adı | Yaz ve Enter'a bas |
 |---|---|
@@ -43,11 +41,11 @@ Bu kadar. Bir daha yapmayacaksın.
 | `FABLE5-` ile başlıyorsa | `/model fable` |
 | `CAPRAZ-` ile başlıyorsa | dosyanın içinde yazıyor |
 
-**4.** Dosyayı aç, **içindekilerin hepsini** kopyala, yapıştır, Enter.
+**3.** Dosyayı aç, **içindekilerin hepsini** kopyala, yapıştır, Enter.
 
-**5.** Bitmesini bekle. Claude sonucu kendisi kaydedip GitHub'a yükler.
+**4.** Bitmesini bekle. Claude sonucu kendisi kaydedip GitHub'a yükler.
 
-**6.** `/exit` yaz, çık. Sonraki dosyaya geç → 1. adımdan tekrar.
+**5.** `/exit` yaz, çık. Sonraki dosyaya geç → 1. adımdan tekrar.
 
 ---
 
@@ -65,5 +63,6 @@ Numara sırasına göre git:
 ## Takılırsan
 
 - **Uzun sürüyor:** normal, bazıları 10-15 dakika. Bekle.
+- **Claude izin isterse:** "Yes" seç. (Normalde sormaz, ayarlar hazır — ama beklenmedik bir şey çıkarsa sorabilir.)
 - **Ters gitti:** `/exit` yaz, terminali kapat, baştan aç.
 - **`gh auth login` çalışmadı** veya **anlamadığın bir şey:** bana yaz.
