@@ -52,6 +52,10 @@ Masaüstündeki **IELTS CALISTIR** kısayoluna çift tıkla.
 
 **Toplam 19 iş var.** Her iş birden çok kez çalışabilir — program kendi takip ediyor.
 
+Nerede kaldığını görmek istersen: **[DURUM.md](DURUM.md)** dosyasına bak. Biten işler
+üstü çizili, sıradaki kalın yazılı. Her iş bitince kendiliğinden güncelleniyor — sen de
+görüyorsun, ben de.
+
 ---
 
 ## Bilmen gereken 3 şey

@@ -4,12 +4,14 @@ CALISTIR.bat bu dosyayi calistirir. Kullanicidan beklenen: Enter'a basmak ve
 is bitince E/H demek. Model secimi, dosya sirasi, komut yazimi burada halloluyor.
 """
 
+import datetime
 import os
 import subprocess
 import sys
 
 KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 ILERLEME = os.path.join(KOK, "ilerleme.txt")
+DURUM = os.path.join(KOK, "DURUM.md")
 
 # (kisa ad, model, prompt dosyasi, ek talimat)
 ADIMLAR = [
@@ -58,6 +60,41 @@ def ilerleme_oku():
 def ilerleme_yaz(n):
     with open(ILERLEME, "w", encoding="utf-8") as f:
         f.write(str(n))
+
+
+def durum_yaz(n):
+    """Isaretlenmis is listesini uretir ve depoya gonderir."""
+    bugun = datetime.date.today().strftime("%d.%m.%Y")
+    satirlar = [
+        "# Nerede kaldık",
+        "",
+        "**%d / %d iş bitti.**  Son güncelleme: %s" % (n, len(ADIMLAR), bugun),
+        "",
+        "Bu liste kendiliğinden güncelleniyor, elle dokunma.",
+        "",
+    ]
+    for i, (ad, model, _, _) in enumerate(ADIMLAR):
+        if i < n:
+            satirlar.append("- [x] ~~%s~~" % ad)
+        elif i == n:
+            satirlar.append("- [ ] **%s**  ← sırada bu var (%s)" % (ad, model))
+        else:
+            satirlar.append("- [ ] %s" % ad)
+    satirlar.append("")
+
+    try:
+        with open(DURUM, "w", encoding="utf-8") as f:
+            f.write("\n".join(satirlar))
+    except Exception:
+        return
+
+    # Depoya gonder. Basarisiz olursa sessiz gec - is akisini bozmasin.
+    for c in ["git pull --rebase --autostash",
+              "git add DURUM.md ilerleme.txt",
+              'git commit -m "durum: %d/%d"' % (n, len(ADIMLAR)),
+              "git push"]:
+        subprocess.call(c, shell=True,
+                        stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
 
 
 def sor(soru, gecerli):
@@ -131,6 +168,7 @@ def main():
 
     if c == "E":
         ilerleme_yaz(n + 1)
+        durum_yaz(n + 1)
         print()
         if n + 1 >= len(ADIMLAR):
             print("  BUTUN ISLER BITTI. Tesekkurler!")
