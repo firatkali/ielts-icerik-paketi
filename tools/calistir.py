@@ -20,8 +20,12 @@ def _yay(ad, model, dosya, kez, ek=""):
         etiket = ad if kez == 1 else "%s (%d/%d)" % (ad, i + 1, kez)
         talimat = ek
         if kez > 1:
-            talimat = ("%s Bu %d. calistirma (toplam %d). Prompt dosyasindaki "
-                       "%d. calistirmaya ait bolumu yap." % (ek, i + 1, kez, i + 1)).strip()
+            # Numaraya degil, eksige bak: boylece bir calistirma atlanirsa ya da
+            # sira kayarsa is bosta kalmaz.
+            talimat = ("%s Bu, bu dosyanin %d. calistirmasi (toplam %d). Once depoda "
+                       "hangi gruplarin zaten uretildigine bak; prompt dosyasindaki "
+                       "calistirma listesinden HENUZ URETILMEMIS ilk grubu yap. "
+                       "Zaten var olani tekrar uretme." % (ek, i + 1, kez)).strip()
         cikti.append((etiket, model, dosya, talimat, ad))
     return cikti
 
