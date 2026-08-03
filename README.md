@@ -2,7 +2,19 @@
 
 `prompts` klasöründe **13 dosya** var. Her dosyayı **ayrı bir Claude oturumunda** çalıştıracaksın.
 
-**13 dosya = 13 ayrı oturum.** Bir oturuma sadece bir dosya yapıştır.
+**Bir oturuma sadece bir dosya yapıştır.**
+
+## 🔴 Önemli: çoğu dosya birden çok kez çalıştırılır
+
+Bir dosyayı yapıştırdığında Claude **o dosyanın sadece bir parçasını** yapar, kaydeder ve
+biter. Aynı dosyayı tekrar yapıştırdığında **kaldığı yerden devam eder** — nerede
+kaldığını kendisi bulur.
+
+Ne zaman duracaksın? Claude *"… tamam"* dediğinde (ör. "OPUS5-10 tamam"). O dosyayla işin
+bitmiştir, sıradakine geçersin.
+
+Her dosyanın en üstünde kaç kez çalıştırılacağı yazıyor. Toplamda **yaklaşık 90 oturum**
+olacak. Sıkıcı ama her oturum kısa.
 
 ---
 
@@ -41,13 +53,19 @@ cd ~/Desktop/ielts-paketi && claude
 |---|---|
 | `OPUS5-` ile başlıyorsa | `/model opus` |
 | `FABLE5-` ile başlıyorsa | `/model fable` |
-| `CAPRAZ-` ile başlıyorsa | dosyanın içinde yazıyor |
+| `CAPRAZ-` ile başlıyorsa | dosyanın içindeki tabloya bak |
+| `00-` ve `99-` | `/model sonnet` |
+| `01-` | `/model opus` |
+
+Dosyanın en üstünde de büyük harfle yazıyor — oradan da teyit edebilirsin.
 
 **3.** Prompt dosyasını aç: Masaüstündeki `ielts-paketi` klasörüne gir, `prompts` klasörünü aç, sıradaki dosyaya çift tıkla. Açılan yazının **hepsini** seç (`Cmd+A`), kopyala (`Cmd+C`), Claude'a yapıştır, Enter.
 
 **4.** Bitmesini bekle. Claude sonucu kendisi kaydedip GitHub'a yükler.
 
-**5.** `/exit` yaz, çık. Sonraki dosyaya geç → 1. adımdan tekrar.
+**5.** `/exit` yaz, çık.
+- Claude *"… tamam"* demediyse: **aynı dosyayı** yeni bir oturumda tekrar yapıştır (1. adımdan).
+- *"… tamam"* dediyse: sonraki dosyaya geç.
 
 ---
 
