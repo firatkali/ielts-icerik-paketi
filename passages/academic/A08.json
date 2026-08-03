@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0",
+  "passage_id": "A08",
+  "module": "academic",
+  "section": null,
+  "title": "An Earthquake Writes Its Story Across a Glacier",
+  "topic": "iklim / jeoloji / okyanus",
+  "word_count": 714,
+  "paragraphs": [
+    {
+      "label": "A",
+      "text": "On 6 December 2025 a magnitude 7.0 earthquake struck the St Elias Mountains, a heavily glaciated range straddling the border between the Yukon Territory in Canada and Alaska in the United States. The epicentre lay in remote terrain roughly 90 kilometres north of the coastal town of Yakutat, Alaska, an area so thinly populated that the quake caused no reported casualties, yet its effects on the surrounding landscape were extraordinary. Within seconds the shaking triggered landslides and snow avalanches across a wide swathe of the mountains, tearing loose rock and ice from slopes above one of the region's largest ice bodies, Hubbard Glacier."
+    },
+    {
+      "label": "B",
+      "text": "The United States Geological Survey later identified more than 700 potential landslides and snow avalanches associated with the earthquake, most of them concentrated to the northwest of the epicentre along the line of the fault rupture. Mapping this kind of damage is unusually difficult in a glaciated landscape, because the usual method, comparing ground displacement before and after an earthquake, depends on being able to see the bedrock that has moved. Here, ice more than 700 metres thick in places sits on top of that bedrock. As one geophysicist involved in the analysis put it, in this setting the cryosphere is effectively covering up the geosphere, so scientists had to look for other clues."
+    },
+    {
+      "label": "C",
+      "text": "The clue researchers turned to came from a newly launched satellite instrument, NISAR, a joint mission of NASA and the Indian Space Research Organisation that carries a synthetic aperture radar capable of measuring subtle changes in surface texture. Rough, broken debris scatters radar energy strongly and appears bright in the resulting images, while smooth, undisturbed ice reflects comparatively little and appears dark. By comparing an image captured on 8 December, only two days after the earthquake, with a baseline image from 26 November, before the quake, analysts could see large new patches of brightness spreading across slopes that had previously appeared smooth and dark, a direct signature of freshly broken rock and snow."
+    },
+    {
+      "label": "D",
+      "text": "The most conspicuous single event showed up as a wide cascade of debris pouring down the flank of Mount King George, while further landslide scars were visible around Mount Logan, Canada's tallest peak. A ground survey carried out on 12 December confirmed what the satellite images had suggested from orbit: extensive new debris fields, some stretching for kilometres, now lay across terrain that had been buried under clean snow and ice only weeks before."
+    },
+    {
+      "label": "E",
+      "text": "The scale of the disturbance startled even experienced glaciologists studying the imagery. One researcher who had spent years monitoring the region's ice remarked that the sheer number and magnitude of the avalanches and landslides was astounding, adding that nothing comparable had been documented there before. The comment reflects how unusual it is for a single earthquake to reshape so much terrain across such a wide and largely inaccessible mountain range in a matter of seconds."
+    },
+    {
+      "label": "F",
+      "text": "Adding to the complexity, a tributary glacier flowing from the slopes near Mount King George had already entered a fast-moving surge phase in November, weeks before the earthquake struck, and was travelling downslope at up to 6,000 metres a year, roughly 50 feet every day. Rather than being interrupted by the earthquake, this surging glacier appears to be acting as a natural conveyor belt, carrying the newly generated avalanche and landslide debris steadily downhill towards the sea."
+    },
+    {
+      "label": "G",
+      "text": "Because the affected region is essentially uninhabited, the earthquake caused no direct threat to towns or infrastructure. It does, however, create new hazards for mountaineers and scientific expeditions that use Yakutat as a staging point for trips into the St Elias Mountains, since previously stable slopes and crevasse fields may now be masked by loose debris or freshly exposed ice."
+    },
+    {
+      "label": "H",
+      "text": "For scientists, the episode illustrates the value of combining satellite radar with ground observation in places too remote and too dangerous to monitor continuously by other means. Without an instrument able to detect subtle changes in surface roughness from space, a transformation of this scale, more than 700 landslides across a mountain range few people will ever visit, could easily have gone unrecorded. As satellites like NISAR continue to collect data over the coming years, researchers expect to build a far more detailed picture of how large earthquakes reshape glaciated mountain landscapes that conventional survey methods cannot reach."
+    }
+  ],
+  "texts": null,
+  "source": {
+    "origin": "NASA Earth Observatory",
+    "title": "Landslide and Avalanche Debris Litter Hubbard Glacier",
+    "url": "https://science.nasa.gov/earth/earth-observatory/landslide-and-avalanche-debris-litter-hubbard-glacier/",
+    "license": "Kamu malı (public domain)",
+    "attribution": "Adapted from NASA Earth Observatory, \"Landslide and Avalanche Debris Litter Hubbard Glacier.\"",
+    "adapted": true
+  },
+  "notes": "NASA Earth Observatory haberinden yeniden yazildi; teknik radar terminolojisi sadelestirildi, dogrudan alintilar dolayli anlatima cevrildi."
+}

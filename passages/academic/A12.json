@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0",
+  "passage_id": "A12",
+  "module": "academic",
+  "section": null,
+  "title": "Does a Nap Help You Remember as Well as a Night's Sleep?",
+  "topic": "sağlık / insan davranışı",
+  "word_count": 731,
+  "paragraphs": [
+    {
+      "label": "A",
+      "text": "It has long been established that sleep plays an active role in strengthening new memories, a process researchers call consolidation, rather than the brain simply pausing while asleep. What is less well understood is whether a brief nap during the day offers the same benefit as an entire night of sleep, a question with practical relevance in cultures where daytime napping is common and in societies where a full night's sleep is often in short supply."
+    },
+    {
+      "label": "B",
+      "text": "To address this, researchers designed two separate experiments comparing the effects of nocturnal sleep and daytime napping on the retention of newly learned word pairs. The first experiment used a between-subjects design, meaning that different participants were assigned to a sleep group or a wake group, while the second used a within-subject design in which the same participants experienced both a nap and a period of wakefulness on different days, allowing more direct comparison."
+    },
+    {
+      "label": "C",
+      "text": "In the first experiment, 60 young adults, with an average age of 21.9 and a standard deviation of 4.2 years, 17 of them male, were divided into the two groups. The sleep group learned a list of word pairs at nine in the evening and were tested on their recall the following morning at nine, after a normal night's sleep. The wake group learned the same material at nine in the morning and were tested twelve hours later, at nine that evening, having remained awake throughout. In both groups, participants studied 80 word pairs in total, 40 of them semantically related, such as pairs of words already connected in meaning, and 40 entirely unrelated, and were later given a cued recall test in which one word of each pair was shown and they had to supply the other."
+    },
+    {
+      "label": "D",
+      "text": "The second experiment recruited 34 participants who napped at least once a week, with an average age of 21.9 and a standard deviation of 2.8 years, 11 of them male. Each learned 40 related and 40 unrelated word pairs at half past one in the afternoon, then either took a 90-minute nap, during which brain activity was recorded using polysomnography, or remained awake for an equivalent period. To reduce the grogginess that can follow a nap and distort test performance, all participants completed a 30-minute puzzle game before their final recall test."
+    },
+    {
+      "label": "E",
+      "text": "The results revealed a clear difference depending on the type of material being remembered. For semantically related word pairs, nocturnal sleep produced a substantially larger improvement in recall than daytime napping did, with a standardised effect size of 0.58 compared with only 0.15 for napping. For unrelated word pairs, however, nocturnal sleep and napping produced very similar benefits, with effect sizes of 0.71 and 0.68 respectively, showing that a nap could match a full night's sleep when the material being learned had no prior connection to existing knowledge."
+    },
+    {
+      "label": "F",
+      "text": "Naps in the second experiment lasted an average of 64.1 minutes and consisted mainly of Stage 2 sleep, a lighter stage than the deep sleep typically associated with the middle of a full night. Neither the exact length of a nap nor the particular stages of sleep it contained showed any significant relationship with how much memory improved, suggesting that simply having the opportunity to nap mattered more than its precise internal structure."
+    },
+    {
+      "label": "G",
+      "text": "The researchers concluded that sleep, whether at night or during the day, preferentially benefits the kind of memory processing that is more vulnerable to being forgotten in the first place, namely brand-new associations with no existing link to prior knowledge. Nocturnal sleep's clear advantage for semantically related pairs, they argue, points to a different, more demanding process, one that involves weaving new information into an existing web of related knowledge, a task that a short nap appears less able to complete than a full night of sleep with its longer cycles of deep and REM sleep."
+    },
+    {
+      "label": "H",
+      "text": "For anyone relying on naps to study or to compensate for lost sleep, the practical implication is mixed. A nap appears genuinely useful for retaining new, unconnected information, such as an unfamiliar name or a new vocabulary item studied in isolation, about as effectively as a full night's sleep would. However, the findings caution against assuming that a nap can substitute for a night's sleep when the task involves integrating new material with things already known, since that particular kind of consolidation seems to depend on the longer, more complex architecture of nocturnal sleep."
+    }
+  ],
+  "texts": null,
+  "source": {
+    "origin": "PLOS ONE",
+    "title": "Comparing the Effects of Nocturnal Sleep and Daytime Napping on Declarative Memory Consolidation",
+    "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0108100",
+    "license": "CC BY 4.0",
+    "attribution": "Adapted from Lo JC, Dijk D-J, Groeger JA. Comparing the Effects of Nocturnal Sleep and Daytime Napping on Declarative Memory Consolidation. PLoS ONE 9(9): e108100, published under CC BY 4.0.",
+    "adapted": true
+  },
+  "notes": "Kaynak makaleden yeniden yazildi; iki deneyin yontem detaylari sadelestirildi, istatistiksel anlamlilik degerleri (p degerleri) metinden cikarildi, etki buyuklukleri (Cohen's d) sayisal olarak korundu."
+}

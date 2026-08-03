@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0",
+  "passage_id": "A11",
+  "module": "academic",
+  "section": null,
+  "title": "Why a Walk in a Snowy Forest Calms the Mind",
+  "topic": "sağlık / insan davranışı",
+  "word_count": 796,
+  "paragraphs": [
+    {
+      "label": "A",
+      "text": "It is now widely accepted that spending time in natural surroundings can reduce stress and improve mood, an effect researchers often describe as psychological restoration. Most of the evidence behind this claim, however, comes from studies conducted in green, leafy forests during spring or summer. Far less is known about whether the same benefit holds in winter, when trees are bare or covered in snow, a question of particular interest in northern countries such as Finland, where winter conditions dominate roughly half of the year. This gap in the evidence matters because northern populations cannot simply wait for spring to seek the psychological benefits nature is thought to provide; if snow weakens or removes the effect, alternative strategies might be needed for the colder half of the year."
+    },
+    {
+      "label": "B",
+      "text": "To investigate, researchers recruited 22 healthy university students, 11 women and 11 men, with an average age of 22.5, from a university of applied sciences in southern Finland. The participants were split into two groups and took part in a crossover experiment, meaning that each person experienced both a forest condition and a comparison condition, in a different order depending on their group, allowing the researchers to compare each person against themselves rather than relying solely on differences between separate groups. Randomly assigning the order in which each group encountered the two conditions also helped guard against the possibility that simply being tested a second time, regardless of environment, might by itself improve participants' reported mood."
+    },
+    {
+      "label": "C",
+      "text": "In the forest condition, participants walked for five minutes to reach a stand of Norway spruce and silver birch trees, roughly 80 and 20 per cent of the stand respectively, ranging in age from 80 to 108 years and fully covered in snow, where they spent 15 minutes simply standing or sitting quietly. In the comparison condition, participants instead walked two minutes to a spot on campus where they spent 15 minutes viewing nearby buildings, an environment the researchers deliberately chose to be calm and free of traffic rather than obviously stressful. In both conditions participants were asked not to talk, use their phones or smoke, and were positioned apart from one another to avoid distraction."
+    },
+    {
+      "label": "D",
+      "text": "The forest sessions took place in late January, in conditions typical of a Finnish winter: an average temperature of minus 7.23 degrees Celsius, 20 to 25 centimetres of snow covering the ground and trees, humidity of 94.25 per cent, and only a light wind of 1.13 metres per second."
+    },
+    {
+      "label": "E",
+      "text": "Before and after each 15-minute exposure, participants completed four separate questionnaires. The Profile of Mood States, a 65-item scale, measured six mood dimensions including tension, anger, depression, fatigue, confusion and vigour. The Positive and Negative Affect Schedule, a shorter 20-item scale, captured broader positive and negative emotional states. A six-item Restorative Outcome Scale assessed how mentally refreshing participants found the environment, and a four-item Subjective Vitality Scale measured their sense of energy. All four instruments were administered as paper questionnaires immediately before and again immediately after each 15-minute period, so that any change could be attributed specifically to the intervening exposure rather than to the simple passage of time."
+    },
+    {
+      "label": "F",
+      "text": "After the forest exposure, five of the six negative mood states measured by the Profile of Mood States, tension-anxiety, anger-hostility, depression-dejection, fatigue and confusion, all decreased significantly. Vigour, unusually, did not rise. The clearest effect of the entire study appeared on the Restorative Outcome Scale, which increased sharply after time in the forest, indicating that participants found the snow-covered woodland strongly refreshing even though it produced no accompanying jump in energy."
+    },
+    {
+      "label": "G",
+      "text": "The pattern after the building condition was essentially the reverse. All five of the same negative mood indicators increased significantly, positive emotions on the broader affect scale fell while negative emotions rose, subjective vitality declined, and restorativeness scores dropped by roughly half compared with their level before the exposure, suggesting that even a calm, traffic-free campus scene was mildly draining relative to a walk in the snow."
+    },
+    {
+      "label": "H",
+      "text": "The researchers suggest that snow itself may partly explain why vigour failed to rise after the forest visit, since a thick covering of snow hides the green vegetation that other studies have linked to increased energy and alertness, leaving only the calming, restorative effect intact rather than the more energising one. They stress that their sample was small and drawn from a single institution, and recommend that future work test longer exposure times, other seasons, and participants from different cultural backgrounds before the findings are treated as general conclusions about winter forests. As a pilot study, its conclusions should be treated as an initial signal rather than a settled finding, but they nonetheless indicate that the calming effect of a forest is not simply switched off by the absence of green leaves and the presence of snow and near-freezing temperatures."
+    }
+  ],
+  "texts": null,
+  "source": {
+    "origin": "PLOS ONE",
+    "title": "The effects of viewing a winter forest landscape with the ground and trees covered in snow on the psychological relaxation of young Finnish adults: A pilot study",
+    "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0244799",
+    "license": "CC BY 4.0",
+    "attribution": "Adapted from Bielinis E, Janeczko E, Takayama N, Zawadzka A, Słupska A, Piętka S, Lipponen M, Bielinis L. The effects of viewing a winter forest landscape with the ground and trees covered in snow on the psychological relaxation of young Finnish adults: A pilot study. PLOS ONE, published under CC BY 4.0.",
+    "adapted": true
+  },
+  "notes": "Kaynak makaleden yeniden yazildi; kurum adi genel ifadeyle anildi, tarih 'late January' olarak genellendi, istatistiksel test adlari (p degerleri, eta-kare) metinden cikarildi."
+}

@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0",
+  "passage_id": "A10",
+  "module": "academic",
+  "section": null,
+  "title": "What Kind of Office Actually Works?",
+  "topic": "toplum / iş dünyası",
+  "word_count": 760,
+  "paragraphs": [
+    {
+      "label": "A",
+      "text": "Few questions in modern office design generate as much disagreement as whether open-plan layouts help or harm the people who work in them. Advocates argue that removing walls encourages collaboration and speeds up communication between colleagues, while critics point to noise, distraction and a loss of privacy. Open-plan arrangements have nonetheless become the default choice for many growing companies, partly because they are cheaper to build and easier to reconfigure than offices divided into permanent rooms. Much of this debate rests on personal impression rather than controlled comparison, which is what prompted researchers at a technology company headquartered in Amsterdam, with 5,580 employees at its main campus, to test the question directly rather than rely on opinion alone."
+    },
+    {
+      "label": "B",
+      "text": "The team designed a crossover experiment involving 288 employees drawn from 22 teams across different departments. Using a Latin square design, in which every team eventually experienced every condition but in a different order, the teams rotated through four distinct office layouts, each for a two-week period: a conventional open-plan office with minimal separation between desks, acting as the baseline; a zoned open-plan design with soundproof doors dividing spaces into rooms holding no more than 40 people; an activity-based design offering unassigned desks alongside dedicated focus rooms and collaboration areas; and a team-office design with large, partly enclosed cubicles seating four to six people behind sound-absorbing panels."
+    },
+    {
+      "label": "C",
+      "text": "To evaluate the four designs, the researchers combined several sources of evidence. Employees completed regular questionnaires measuring satisfaction, engagement, enjoyment, sense of energy, flow, and perceived productivity. At the same time, environmental sensors continuously logged noise levels, temperature, lighting, humidity, carbon dioxide concentration and how many desks were occupied. As an independent, behavioural proxy for technical output, the researchers also tracked the number of software code commits each team produced, and observers recorded how people actually used the different spaces, noting details such as how often employees wore headphones, retreated to quiet corners, or held impromptu conversations at their desks."
+    },
+    {
+      "label": "D",
+      "text": "The results showed a clear ranking among the four designs. Compared with the open-plan baseline, the zoned open-plan layout produced 12 per cent higher satisfaction scores and 17 per cent higher perceived productivity, while the team-office design produced 8 per cent higher satisfaction and 10 per cent higher perceived productivity. The activity-based design, despite its popularity in contemporary office trends, performed worse than the open-plan baseline on both measures, with satisfaction and productivity scores roughly 14 per cent lower."
+    },
+    {
+      "label": "E",
+      "text": "A similar pattern emerged for flow, the psychological state of being deeply absorbed and focused on a task. Employees in team offices reported flow scores 12 per cent higher than those in the open-plan condition, and employees in the zoned open-plan design reported flow scores 15 per cent higher, suggesting that both partly enclosed layouts allowed for more sustained concentration than either the fully open or the fully unassigned arrangement."
+    },
+    {
+      "label": "F",
+      "text": "The sensor data offered a possible explanation. Noise levels in the open-plan office exceeded recommended safe limits between 20 and 30 per cent more often than in any of the alternative designs. Employees appeared to respond to this with their feet as well as their opinions: once a team's exposure to the open-plan condition ended, desk occupancy in whichever design followed it rose by about 4 per cent, a change the researchers interpreted as a behavioural preference for the newer arrangement rather than simply a novelty effect."
+    },
+    {
+      "label": "G",
+      "text": "Not every measure varied with office design, however. Neither the number of software code commits produced by each team nor employees' self-reported energy levels showed a statistically significant difference between the four layouts, indicating that at least some aspects of daily work performance were largely unaffected by where people happened to be sitting that fortnight. This absence of any measurable effect on code output is itself informative, since it suggests that experienced software engineers accustomed to their tools were not obviously slowed down or sped up by a change of layout, even though the same change clearly affected how comfortable they felt while working."
+    },
+    {
+      "label": "H",
+      "text": "Taken together, the researchers concluded that the open-plan office design, so often adopted as a cost-effective default, was rated more poorly by employees than every alternative tested, coincided with higher unsafe noise levels, and was the layout employees seemed least inclined to return to once they had experienced something else. They caution, though, that the findings come from a single technology company with its own particular culture and workflows, and that organisations considering a similar redesign would do well to test alternatives with their own staff rather than assume the same ranking will hold everywhere."
+    }
+  ],
+  "texts": null,
+  "source": {
+    "origin": "PLOS ONE",
+    "title": "The work environment pilot: An experiment to determine the optimal office design for a technology company",
+    "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0232943",
+    "license": "CC BY 4.0",
+    "attribution": "Adapted from Pitchforth J, Nelson-White E, van den Helder M, Oosting W. The work environment pilot: An experiment to determine the optimal office design for a technology company. PLOS ONE 15(5): e0232943, published under CC BY 4.0.",
+    "adapted": true
+  },
+  "notes": "Kaynak makaleden yeniden yazildi; sirket adi genel ifadeyle ('bir teknoloji sirketi') anildi, istatistiksel yontem detaylari sadelestirildi."
+}

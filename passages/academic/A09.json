@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0",
+  "passage_id": "A09",
+  "module": "academic",
+  "section": null,
+  "title": "The Brain That Turned to Glass",
+  "topic": "tarih / arkeoloji",
+  "word_count": 753,
+  "paragraphs": [
+    {
+      "label": "A",
+      "text": "When Mount Vesuvius erupted in AD 79, it did not merely bury the Roman towns around the Bay of Naples in ash, as popular accounts of neighbouring Pompeii often suggest. At Herculaneum, closer to the volcano, the town was overwhelmed instead by a series of pyroclastic flows, fast-moving currents of superheated gas and volcanic debris that can reach temperatures of around 500 degrees Celsius. These flows swept through the streets and buildings so quickly that many residents were killed almost instantly, and over the following days the town was sealed beneath roughly 20 metres of volcanic deposits, a burial so complete that timber roof beams, food, and even fabric survived for centuries in a way rarely seen at other Roman sites."
+    },
+    {
+      "label": "B",
+      "text": "Among the victims uncovered during excavations of the Collegium Augustalium, a public building in the town centre, was a young man of around 20 years old, found lying face down on a wooden bed where he had apparently been sleeping when the flows arrived. His remains had been known to archaeologists since the 1960s, but a more recent examination revealed something unexpected: a dark, glassy material inside his skull, distinct in appearance from the surrounding bone and ash."
+    },
+    {
+      "label": "C",
+      "text": "Detailed analysis showed that this material was not a mineral deposit or later contamination but vitrified human brain tissue, tissue that had been converted directly into a glass-like solid. Vitrification of this kind is exceptionally rare in the natural world because it demands a very particular sequence of events: organic material must be heated fast enough and to a high enough temperature to prevent normal decomposition, and then cooled again almost as quickly, before it has time to burn away entirely. Researchers described the find as possibly the best-preserved example ever recovered of ancient human neuronal tissue."
+    },
+    {
+      "label": "D",
+      "text": "To confirm and characterise the discovery, the research team combined several techniques. Scanning electron microscopy allowed them to visualise the fine internal structure of the glassy material at extremely high magnification, while energy-dispersive X-ray spectroscopy measured its chemical composition. A custom image-processing method, developed to detect the repeating pattern typical of myelin, the fatty sheath that wraps around nerve fibres, helped distinguish genuine neural structures from random glassy debris. Finally, comparison against reference databases of proteins expressed in the human brain provided independent confirmation of the tissue's origin."
+    },
+    {
+      "label": "E",
+      "text": "The structural measurements were remarkably precise. Axons in the vitrified brain tissue measured on average 717.7 nanometres in diameter, close to the typical range for white matter in a living brain, while axons from the preserved spinal cord measured around 672 nanometres. Individual cell bodies ranged from 2.7 to 14.2 micrometres across, and the myelin sheaths retained their characteristic multilayered structure, complete with the regular repeating pattern seen under a microscope in ordinary, unfossilised nervous tissue. Even microtubules, the tiny internal scaffolding of individual cells, were still visible, measuring around 23 nanometres in diameter."
+    },
+    {
+      "label": "F",
+      "text": "Chemical analysis added further weight to the identification. The team detected seven distinct proteins known to be expressed specifically in brain tissue, including one involved in stabilising the internal skeleton of nerve cells and another essential for communication between neurons. Because these proteins are not associated with bone, ash or other materials likely to be found inside a skull, their presence strongly supports the conclusion that the glassy material genuinely originated from the man's brain and spinal cord rather than from some other source."
+    },
+    {
+      "label": "G",
+      "text": "By atomic composition the vitrified material was dominated by carbon and oxygen, the two elements that make up the bulk of organic tissue, at roughly 65 and 31 per cent respectively. Researchers argue that only an extremely narrow set of thermal conditions, rapid heating followed by almost immediate cooling, could have produced this particular combination of extreme temperature exposure and structural preservation, since either slower heating or slower cooling would most likely have destroyed the tissue rather than turning it to glass."
+    },
+    {
+      "label": "H",
+      "text": "The case is regarded as a rare and valuable window into human biology at the cellular level from antiquity, offering detail that is almost never available from skeletal remains alone. At the same time, the researchers are careful to note that the finding describes a single individual under an unusual and highly specific set of volcanic conditions, and cannot be assumed to apply broadly across other victims at Herculaneum or Pompeii. Even so, it raises the possibility that comparable, glass-preserved soft tissue may yet be identified elsewhere in the town, offering archaeologists an unprecedented, if narrow, glimpse into the physiology of people who died nearly two thousand years ago."
+    }
+  ],
+  "texts": null,
+  "source": {
+    "origin": "PLOS ONE",
+    "title": "Preservation of neurons in an AD 79 vitrified human brain",
+    "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0240017",
+    "license": "CC BY 4.0",
+    "attribution": "Adapted from Petrone P, Giordano G, Vezzoli E, et al. Preservation of neurons in an AD 79 vitrified human brain. PLoS ONE 15(10): e0240017, published under CC BY 4.0.",
+    "adapted": true
+  },
+  "notes": "Kaynak makaleden yeniden yazildi; laboratuvar yontem detaylari (SEM, EDS, MATLAB goruntu isleme) sadelestirildi, atif numaralari cikarildi."
+}

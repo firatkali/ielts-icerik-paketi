@@ -82,3 +82,46 @@ Bu dosyaya her oturumda alınan kararlar, atlanan işler ve karşılaşılan sor
   5 alıştırma paketi) sonraki çalıştırmalarda yapılacak. AC3/AC4 için `A07–A12`,
   GT1/GT2 için `G01–G06` pasajları **henüz üretilmedi** — o paketler ancak pasajlar
   geldikten sonra yapılabilir; sırası gelince önce pasaj havuzuna bakılmalı.
+
+## 01-pasaj-secimi (2. çalıştırma: A07–A12)
+- Tarih: 2026-08-03
+- ⚠️ **Oturum numarası notu:** Bu oturumu başlatan kullanıcı bunu "3. çalıştırma" olarak
+  tanımlamıştı (promptun kendi tanımına göre 3. çalıştırma `G01–G06` üretir). Ancak depo
+  durumu kontrol edildiğinde `passages/academic/`'ta sadece A01–A06 vardı, `passages/general/`
+  tamamen boştu — yani bu, pasaj promptu için gerçekte **2. çalıştırmaydı**. Kullanıcıya
+  bu çelişki soruldu, A07–A12 üretilmesi (promptun kendi "sıradaki grubu üret" kuralına
+  uygun olan seçenek) onaylandı. **G01–G06 (GT metinleri, 3. tur) hâlâ üretilmedi** —
+  sıradaki çalıştırma bunu yapmalı.
+- Üretilen: `passages/academic/A07.json` … `A12.json`, `passages/INDEX.json` güncellendi
+  (12 kayıt, AC3←A07/A08/A09, AC4←A10/A11/A12).
+- Kaynaklar (hepsi CC BY 4.0 veya ABD kamu malı, WebSearch+WebFetch ile bulundu):
+  - A07 — PLOS ONE, Mildener ve ark., "Evidence for mirror self-recognition in beluga
+    whales (Delphinapterus leucas)" — doğa/hayvan davranışı.
+  - A08 — NASA Earth Observatory, "Landslide and Avalanche Debris Litter Hubbard Glacier"
+    (Aralık 2025 depremi sonrası) — iklim/jeoloji/okyanus, kamu malı.
+  - A09 — PLOS ONE, Petrone ve ark. (2020), "Preservation of neurons in an AD 79 vitrified
+    human brain" (Herculaneum) — tarih/arkeoloji.
+  - A10 — PLOS ONE, Pitchforth ve ark. (2020), "The work environment pilot: An experiment
+    to determine the optimal office design for a technology company" — toplum/iş dünyası.
+  - A11 — PLOS ONE, Bielinis ve ark. (2021), "The effects of viewing a winter forest
+    landscape... on the psychological relaxation of young Finnish adults" — sağlık/insan
+    davranışı.
+  - A12 — PLOS ONE, Lo, Dijk & Groeger (2014), "Comparing the Effects of Nocturnal Sleep
+    and Daytime Napping on Declarative Memory Consolidation" — sağlık/insan davranışı.
+- **12 pasajlık konu dağılımı tamamlandı:** Bu turda NOTLAR.md'deki 1. tur notunda
+  belirtilen kalan pay uygulandı: Doğa 1 (A07), İklim/jeoloji/okyanus 1 (A08),
+  Tarih/arkeoloji 1 (A09), Toplum 1 (A10), Sağlık ve insan davranışı 2 (A11, A12).
+  A01–A12 toplamda plandaki hedef dağılıma (Doğa 3, İklim/jeoloji/okyanus 2, Uzay 1,
+  Tarih/arkeoloji 2, Toplum 2, Sağlık 2) tam uyuyor.
+- Her pasaj ham kaynaktan yeniden yazıldı (özetlenip parafraze edildi), doğrudan alıntılar
+  dolaylı anlatıma çevrildi, istatistiksel yöntem detayları (p değerleri, eta-kare gibi)
+  ve şirket/kurum özel adları (Booking.com, Häme University of Applied Sciences) genel
+  ifadelerle anıldı, 8 harflendirilmiş paragrafa (A–H) bölündü. Kelime sayıları gerçekten
+  sayıldı (Python `len(text.split())`), hepsi 700–900 aralığında: A07=887, A08=714,
+  A09=753, A10=760, A11=796, A12=731. A10 ve A11 ilk taslakta 700'ün altında kalmıştı,
+  kaynaktaki ek doğru bilgilerle (ör. A10'da git-commit ölçümünün yorumu, A11'de anket
+  zamanlaması ve pilot çalışma uyarısı) genişletilip aralığa çekildi.
+- `passages/INDEX.json`'daki `assigned_test`/`position`, PLAN dosyasındaki eşlemeye göre
+  dolduruldu: AC3←A07(1),A08(2),A09(3); AC4←A10(1),A11(2),A12(3).
+- Atlanan/sorun: yok — kaynak arama ve indirme sorunsuz tamamlandı. `python tools/dogrula.py`
+  ile pasaj lisans/telif taraması temiz çıktı.
