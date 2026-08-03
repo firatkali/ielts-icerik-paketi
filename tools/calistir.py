@@ -13,35 +13,58 @@ KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 ILERLEME = os.path.join(KOK, "ilerleme.txt")
 DURUM = os.path.join(KOK, "DURUM.txt")
 
-# (kisa ad, model, prompt dosyasi, ek talimat)
-ADIMLAR = [
-    ("Kurulum", "sonnet", "00-KURULUM.md", ""),
-    ("Okuma metinlerini topla", "sonnet", "01-pasaj-secimi.md", ""),
-    ("Okuma - bosluk doldurma tipleri", "opus", "OPUS5-10-okuma-tamamlama-tipleri.md", ""),
-    ("Okuma - bilgi eslestirme", "opus", "OPUS5-11-okuma-bilgi-eslestirme.md", ""),
-    ("Dinleme - konusma metinleri", "opus", "OPUS5-20-dinleme-senaryolar.md", ""),
-    ("Dinleme - kolay sorular", "opus", "OPUS5-21-dinleme-guvenli-sorular.md", ""),
-    ("Konusma ve yazma gorevleri", "opus", "OPUS5-30-konusma-ve-yazma-gorevleri.md", ""),
-    ("Okuma - dogru/yanlis/verilmemis", "fable", "FABLE5-40-okuma-dogru-yanlis-verilmemis.md", ""),
-    ("Okuma - coktan secmeli", "fable", "FABLE5-41-okuma-coktan-secmeli.md", ""),
-    ("Okuma - eslestirme tipleri", "fable", "FABLE5-42-okuma-eslestirme-tipleri.md", ""),
-    ("Dinleme - zor sorular", "fable", "FABLE5-43-dinleme-riskli-sorular.md", ""),
-    ("Kontrol 1/7", "opus", "CAPRAZ-90-dogrulama.md",
-     "Bu 1. calistirma: true-false-not-given ve yes-no-not-given paketlerini dogrula."),
-    ("Kontrol 2/7", "opus", "CAPRAZ-90-dogrulama.md",
-     "Bu 2. calistirma: okumadaki multiple-choice ve multiple-choice-multi paketlerini dogrula."),
-    ("Kontrol 3/7", "opus", "CAPRAZ-90-dogrulama.md",
-     "Bu 3. calistirma: matching-headings, matching-features ve matching-sentence-endings paketlerini dogrula."),
-    ("Kontrol 4/7", "opus", "CAPRAZ-90-dogrulama.md",
-     "Bu 4. calistirma: dinlemedeki multiple-choice ve matching paketlerini dogrula."),
-    ("Kontrol 5/7", "fable", "CAPRAZ-90-dogrulama.md",
-     "Bu 5. calistirma: okumadaki tamamlama tiplerini dogrula (note/table/flow-chart/summary/sentence completion, short-answer, diagram-labelling)."),
-    ("Kontrol 6/7", "fable", "CAPRAZ-90-dogrulama.md",
-     "Bu 6. calistirma: matching-information paketini dogrula."),
-    ("Kontrol 7/7", "fable", "CAPRAZ-90-dogrulama.md",
-     "Bu 7. calistirma: dinlemedeki form-completion, plan-map-diagram-labelling ve tamamlama paketlerini dogrula."),
-    ("Son teslim", "sonnet", "99-teslim-formati.md", ""),
+def _yay(ad, model, dosya, kez, ek=""):
+    """Bir gorevi, prompt dosyasinin istedigi calistirma sayisi kadar adima boler."""
+    cikti = []
+    for i in range(kez):
+        etiket = ad if kez == 1 else "%s (%d/%d)" % (ad, i + 1, kez)
+        talimat = ek
+        if kez > 1:
+            talimat = ("%s Bu %d. calistirma (toplam %d). Prompt dosyasindaki "
+                       "%d. calistirmaya ait bolumu yap." % (ek, i + 1, kez, i + 1)).strip()
+        cikti.append((etiket, model, dosya, talimat, ad))
+    return cikti
+
+
+_KONTROL_ISLERI = [
+    ("opus", "true-false-not-given ve yes-no-not-given paketlerini dogrula."),
+    ("opus", "okumadaki multiple-choice ve multiple-choice-multi paketlerini dogrula."),
+    ("opus", "matching-headings, matching-features ve matching-sentence-endings paketlerini dogrula."),
+    ("opus", "dinlemedeki multiple-choice ve matching paketlerini dogrula."),
+    ("fable", "okumadaki tamamlama tiplerini dogrula (note/table/flow-chart/summary/"
+              "sentence completion, short-answer, diagram-labelling)."),
+    ("fable", "matching-information paketini dogrula."),
+    ("fable", "dinlemedeki form-completion, plan-map-diagram-labelling ve tamamlama "
+              "paketlerini dogrula."),
 ]
+
+# (ekranda gorunen ad, model, prompt dosyasi, ek talimat, grup adi)
+ADIMLAR = (
+    _yay("Kurulum", "sonnet", "00-KURULUM.md", 1)
+    + _yay("Okuma metinlerini topla", "sonnet", "01-pasaj-secimi.md", 3)
+    + _yay("Okuma - bosluk doldurma tipleri", "opus",
+           "OPUS5-10-okuma-tamamlama-tipleri.md", 10)
+    + _yay("Okuma - bilgi eslestirme", "opus",
+           "OPUS5-11-okuma-bilgi-eslestirme.md", 3)
+    + _yay("Dinleme - konusma metinleri", "opus",
+           "OPUS5-20-dinleme-senaryolar.md", 6)
+    + _yay("Dinleme - kolay sorular", "opus",
+           "OPUS5-21-dinleme-guvenli-sorular.md", 12)
+    + _yay("Konusma ve yazma gorevleri", "opus",
+           "OPUS5-30-konusma-ve-yazma-gorevleri.md", 16)
+    + _yay("Okuma - dogru/yanlis/verilmemis", "fable",
+           "FABLE5-40-okuma-dogru-yanlis-verilmemis.md", 8)
+    + _yay("Okuma - coktan secmeli", "fable",
+           "FABLE5-41-okuma-coktan-secmeli.md", 4)
+    + _yay("Okuma - eslestirme tipleri", "fable",
+           "FABLE5-42-okuma-eslestirme-tipleri.md", 8)
+    + _yay("Dinleme - zor sorular", "fable",
+           "FABLE5-43-dinleme-riskli-sorular.md", 9)
+    + [("Capraz kontrol (%d/7)" % (i + 1), model, "CAPRAZ-90-dogrulama.md",
+        "Bu %d. calistirma: %s" % (i + 1, is_), "Capraz kontrol")
+       for i, (model, is_) in enumerate(_KONTROL_ISLERI)]
+    + _yay("Son teslim", "sonnet", "99-teslim-formati.md", 1)
+)
 
 
 def cizgi(karakter="="):
@@ -63,20 +86,29 @@ def ilerleme_yaz(n):
 
 
 def liste_satirlari(n):
-    """Is listesini satir satir uretir. Hem ekranda hem dosyada ayni gorunur."""
-    satirlar = []
-    for i, (ad, model, _, _) in enumerate(ADIMLAR):
+    """Is listesini gruplayarak uretir. Hem ekranda hem dosyada ayni gorunur."""
+    gruplar = []
+    for i, adim in enumerate(ADIMLAR):
+        grup = adim[4]
+        if not gruplar or gruplar[-1][0] != grup:
+            gruplar.append([grup, 0, 0])
+        gruplar[-1][1] += 1
         if i < n:
+            gruplar[-1][2] += 1
+
+    satirlar = []
+    for ad, toplam, biten in gruplar:
+        if biten >= toplam:
             satirlar.append("  [BITTI]  %s" % ad)
-        elif i == n:
-            satirlar.append("  [SIRADA] %s" % ad)
+        elif biten == 0:
+            satirlar.append("  [ ]      %s   (%d calistirma)" % (ad, toplam))
         else:
-            satirlar.append("  [ ]      %s" % ad)
+            satirlar.append("  [SIRADA] %s   (%d/%d bitti)" % (ad, biten, toplam))
     return satirlar
 
 
 def liste_goster(n):
-    print("  Toplam %d isten %d tanesi bitti." % (len(ADIMLAR), n))
+    print("  Toplam %d calistirmanin %d tanesi bitti." % (len(ADIMLAR), n))
     print()
     for s in liste_satirlari(n):
         print(s)
@@ -89,7 +121,7 @@ def durum_yaz(n):
     satirlar = ["IELTS ICERIK URETIMI - NEREDE KALDIK",
                 "=" * 62,
                 "",
-                "  %d isten %d tanesi bitti." % (len(ADIMLAR), n),
+                "  %d calistirmanin %d tanesi bitti." % (len(ADIMLAR), n),
                 "  Son guncelleme: %s" % bugun,
                 "",
                 "  (Bu dosya kendiliginden guncelleniyor, elle dokunma.)",
@@ -150,7 +182,7 @@ def main():
     liste_goster(n)
     cizgi("-")
 
-    ad, model, dosya, ek = ADIMLAR[n]
+    ad, model, dosya, ek, _grup = ADIMLAR[n]
     print()
     print("  Simdi yapilacak: %s" % ad)
     print("  Model: %s" % model)

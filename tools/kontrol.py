@@ -112,7 +112,7 @@ def main():
     else:
         print()
         liste_goster(n)
-        ad, model, dosya, _ = ADIMLAR[n]
+        ad, model, dosya = ADIMLAR[n][0], ADIMLAR[n][1], ADIMLAR[n][2]
         print("  Calistirilacak komut (SIMDI CALISTIRILMIYOR):")
         print("    claude --model %s \"prompts/%s ...\"" % (model, dosya))
 

@@ -99,7 +99,8 @@ Masaüstündeki **IELTS CALISTIR** kısayoluna çift tıkla.
   ⚠️ **E demeden sıradaki işe geçmez.** Demezsen bir dahaki sefere aynı işi tekrar yapar.
 - Pencereyi kapat. Bir dahaki sefere yine çift tıkla, kaldığı yerden devam eder.
 
-**Toplam 19 iş var.** Her iş birden çok kez çalışabilir — program kendi takip ediyor.
+**Toplam 88 çalıştırma var** (13 iş, her biri birkaç kez tekrarlanıyor).
+Program hangisinde olduğunu kendi takip ediyor.
 
 Hangi işlerin bittiğini zaten her çalıştırmada ekranda göreceksin. Ayrıca masaüstündeki
 **IELTS DURUM** kısayoluna çift tıklarsan liste Not Defteri'nde açılır. Kendiliğinden
