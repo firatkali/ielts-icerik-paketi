@@ -21,7 +21,8 @@ Oturum başında hangi paketin bittiğine bak, sıradaki bitmemişi yap. Hepsi b
 
 1. `content/PLAN-soru-dagilimi.md` — A, B, D bölümleri, telif ve kalite kuralları
 2. İlgili pasajlar: `passages/academic/*.json` / `passages/general/*.json`
-3. Format referansı — `referans/text/`:
+3. Format referansı — aşağıdakileri oku. `referans/text/` klasörü boşsa
+   `referans/<aynı ad>.pdf` dosyasını **Read aracıyla** aç (Read PDF okuyabiliyor):
    - `ielts-academic-reading-computer-delivered-matching-features-answer-key.txt`
    - `ielts-academic-reading-computer-delivered-matching-sentence-endings-answer-key.txt`
    - `ielts-general-training-reading-computer-delivered-matching-features-answer-key.txt`
@@ -252,8 +253,7 @@ yenisini üret. Eleme sayısını `NOTLAR.md`'ye yaz.
 
 ## Bitirince
 
-```bash
-cd ~/Desktop/ielts-paketi
+```
 git add -A
 git commit -m "okuma AC1: eslestirme tipleri (9 soru)"
 git pull --rebase
@@ -261,4 +261,3 @@ git push
 ```
 
 **Kullanıcıya soru sorma.**
-</content>

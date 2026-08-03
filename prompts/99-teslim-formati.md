@@ -79,200 +79,49 @@ true_false_not_given · yes_no_not_given · multiple_choice · multiple_choice_m
 
 # 2. Doğrulama scriptini çalıştır
 
-```bash
-cd ~/Desktop/ielts-paketi
-python3 - <<'PY'
-import json, glob, os, re, collections
-
-ZORUNLU_ZARF = ["schema_version","set_id","skill","test_id","practice",
-                "question_type","generated_by","instructions"]
-ZORUNLU_ITEM = ["number","prompt","answer","evidence","explanation","difficulty"]
-TIPLER = set("""note_completion table_completion flow_chart_completion summary_completion
-sentence_completion short_answer diagram_labelling form_completion
-plan_map_diagram_labelling matching_information matching_headings matching_features
-matching_sentence_endings matching true_false_not_given yes_no_not_given
-multiple_choice multiple_choice_multi""".split())
-
-hatalar, sayim, flagged = [], collections.Counter(), 0
-dosyalar = sorted(glob.glob("content/**/*.json", recursive=True))
-dosyalar = [d for d in dosyalar if "/scripts/" not in d and "/DOGRULAMA/" not in d
-            and not d.endswith("MANIFEST.json")]
-
-for p in dosyalar:
-    try:
-        d = json.load(open(p))
-    except Exception as e:
-        hatalar.append(f"{p}: JSON bozuk — {e}"); continue
-
-    for k in ZORUNLU_ZARF:
-        if k not in d: hatalar.append(f"{p}: zarf alanı eksik '{k}'")
-    if d.get("question_type") not in TIPLER:
-        hatalar.append(f"{p}: bilinmeyen question_type '{d.get('question_type')}'")
-
-    gruplar = d.get("groups") or [{"items": d.get("items", [])}]
-    nums = []
-    for g in gruplar:
-        for it in g.get("items", []):
-            nums.append(it.get("number"))
-            for k in ZORUNLU_ITEM:
-                if k not in it: hatalar.append(f"{p}: soru {it.get('number')} — alan eksik '{k}'")
-            if not it.get("answer"):
-                hatalar.append(f"{p}: soru {it.get('number')} — cevap boş")
-            ev = it.get("evidence")
-            ng = str(it.get("answer")).upper()
-            if not ev and "NOT GIVEN" not in ng:
-                hatalar.append(f"{p}: soru {it.get('number')} — evidence boş")
-            if it.get("status") == "flagged":
-                flagged += 1
-            exp = it.get("explanation") or ""
-            if exp and not re.search(r"[çğıöşüÇĞİÖŞÜ]", exp) and len(exp.split()) > 6:
-                hatalar.append(f"{p}: soru {it.get('number')} — explanation Türkçe olmayabilir")
-            sayim[d.get("skill","?") + "/" + ("practice" if d.get("practice") else "test")] += (
-                2 if it.get("select_count") == 2 else 1)
-
-    if len(set(map(str, nums))) != len(nums):
-        hatalar.append(f"{p}: tekrar eden soru numarası var")
-
-print("=== SORU SAYILARI ===")
-for k, v in sorted(sayim.items()): print(f"  {k}: {v}")
-print(f"  TOPLAM: {sum(sayim.values())}")
-print(f"  İşaretli (flagged) soru: {flagged}")
-print(f"\n=== HATA: {len(hatalar)} ===")
-for h in hatalar[:200]: print(" -", h)
-if len(hatalar) > 200: print(f" … ve {len(hatalar)-200} tane daha")
-PY
+```
+python tools/dogrula.py
 ```
 
-Çıkan hataları **düzelt** (eksik alanları doldur, bozuk JSON'ları onar). Düzeltemediğin
-hatayı rapora yaz.
+Bu tek komut dört şeyi birden kontrol eder ve rapor basar:
 
-⚠️ **Eksik alanı uydurma cevapla doldurma.** Kanıt (`evidence`) eksikse kaynağa bak,
-gerçekten bul. Bulamıyorsan soruyu `status: "flagged"` yap ve rapora yaz.
+1. **Şema** — eksik zorunlu alan, bozuk JSON, bilinmeyen soru tipi, boş cevap, boş kanıt,
+   Türkçe olmayan açıklama, tekrar eden soru numarası
+2. **Tam test bütünlüğü** — her testin 1–40 arası kesintisiz olup olmadığı
+3. **Pasaj lisansları** — `source.license` boş olan pasajlar
+4. **Telif taraması** — kullanıcıya görünen metinde "IELTS" geçmesi, yasak kaynak adları
+
+Hiçbir dosyayı değiştirmez, sadece söyler.
+
+## Çıkan hataları düzelt
+
+- **Eksik alan** → kaynağa bak, gerçek değeri bul, doldur.
+- ⚠️ **Uydurma cevapla doldurma.** Kanıt (`evidence`) eksikse pasajı/senaryoyu aç ve
+  gerçekten ara. Bulamıyorsan o soruyu `"status": "flagged"` yap ve rapora yaz.
+- **Kullanıcıya görünen metinde "IELTS"** geçiyorsa temizle (dosya adlarında ve JSON
+  alan adlarında kalabilir, sorun değil).
+- **Eksik soru numarası** varsa hangi promptun üretmesi gerektiğini
+  `content/PLAN-soru-dagilimi.md`'deki yerleşim tablosundan bul ve rapora yaz.
+
+Düzelttikten sonra `python tools/dogrula.py` komutunu tekrar çalıştır, temiz çıkana kadar.
+Düzeltemediğin hataları rapora yaz.
 
 ---
 
-# 3. Tam testlerin bütünlüğünü kontrol et
+# 3. `MANIFEST.json` üret
 
-Her tam test **tam 40 soru** ve **1'den 40'a kesintisiz numara** içermeli.
+Uygulamanın içeriği yüklemek için okuyacağı tek dosya.
 
-```bash
-cd ~/Desktop/ielts-paketi
-python3 - <<'PY'
-import json, glob, os, collections
-for kok, testler in [("content/reading/tests", ["AC1","AC2","AC3","AC4","GT1","GT2"]),
-                     ("content/listening/tests", ["L1","L2","L3","L4","L5","L6"])]:
-    for t in testler:
-        nums = set()
-        for p in glob.glob(f"{kok}/{t}/*.json"):
-            d = json.load(open(p))
-            for g in (d.get("groups") or [{"items": d.get("items", [])}]):
-                for it in g.get("items", []):
-                    n = str(it.get("number"))
-                    if "-" in n:
-                        a, b = n.split("-"); nums.update([int(a), int(b)])
-                    else:
-                        nums.add(int(n))
-        eksik = sorted(set(range(1, 41)) - nums)
-        fazla = sorted(n for n in nums if n < 1 or n > 40)
-        durum = "TAM" if not eksik and not fazla else "EKSİK"
-        print(f"{t}: {len(nums)}/40  {durum}  eksik={eksik} fazla={fazla}")
-PY
+```
+python tools/manifest.py
 ```
 
-Eksik numara varsa **hangi promptun üretmesi gerektiğini** rapora yaz
-(`content/PLAN-soru-dagilimi.md`'deki yerleşim tablosundan bak).
+Script `content/MANIFEST.json` yazar ve beceri bazında **hedef / üretilen / fark**
+tablosunu basar. Bu tabloyu birebir rapora geçireceksin.
 
 ---
 
-# 4. `MANIFEST.json` üret
-
-Uygulamanın içeriği yüklemek için kullanacağı tek dosya.
-
-```bash
-cd ~/Desktop/ielts-paketi
-python3 - <<'PY'
-import json, glob, os, datetime, collections
-
-def items(d):
-    out = []
-    for g in (d.get("groups") or [{"items": d.get("items", [])}]):
-        out += g.get("items", [])
-    return out
-
-kayit = []
-for p in sorted(glob.glob("content/**/*.json", recursive=True)):
-    if "/DOGRULAMA/" in p or p.endswith("MANIFEST.json"): continue
-    d = json.load(open(p))
-    if "/scripts/" in p:
-        kayit.append({"path": p, "kind": "listening_script",
-                      "script_id": d.get("script_id"), "test_id": d.get("test_id"),
-                      "section": d.get("section"), "word_count": d.get("word_count"),
-                      "answer_points": len(d.get("answer_points") or [])})
-        continue
-    its = items(d)
-    kayit.append({
-        "path": p, "kind": "question_set", "set_id": d.get("set_id"),
-        "skill": d.get("skill"), "module": d.get("module"),
-        "test_id": d.get("test_id"), "practice": d.get("practice"),
-        "question_type": d.get("question_type"), "generated_by": d.get("generated_by"),
-        "passage_id": d.get("passage_id"), "script_id": d.get("script_id"),
-        "count": sum(2 if i.get("select_count") == 2 else 1 for i in its),
-        "flagged": sum(1 for i in its if i.get("status") == "flagged"),
-    })
-
-for p in sorted(glob.glob("passages/**/*.json", recursive=True)):
-    if p.endswith("INDEX.json"): continue
-    d = json.load(open(p))
-    kayit.append({"path": p, "kind": "passage", "passage_id": d.get("passage_id"),
-                  "module": d.get("module"), "word_count": d.get("word_count"),
-                  "license": (d.get("source") or {}).get("license")})
-
-toplam = collections.Counter()
-for k in kayit:
-    if k["kind"] == "question_set":
-        toplam[k["skill"]] += k["count"]
-
-man = {"generated_at": datetime.date.today().isoformat(),
-       "schema_version": "1.0",
-       "totals": dict(toplam),
-       "total_questions": sum(toplam.values()),
-       "total_flagged": sum(k.get("flagged", 0) for k in kayit if k["kind"] == "question_set"),
-       "entries": kayit}
-json.dump(man, open("content/MANIFEST.json", "w"), ensure_ascii=False, indent=2)
-print("MANIFEST.json yazıldı. Toplam soru:", man["total_questions"],
-      "| işaretli:", man["total_flagged"])
-PY
-```
-
----
-
-# 5. Telif son kontrolü
-
-```bash
-cd ~/Desktop/ielts-paketi
-grep -ril "ielts" content/ passages/ --include=*.json | head -20
-grep -ril -E "cambridge|british council|idp|wikipedia|the conversation" content/ passages/ --include=*.json | head -20
-```
-
-- Adaya gösterilecek metinlerde ("prompt", "instructions", pasaj metni) **"IELTS"
-  geçmemeli.** Geçiyorsa temizle.
-- İkinci komut çıktı verirse **mutlaka bak** — telifli kaynağa atıf varsa o içerik
-  şüphelidir, rapora yaz.
-- Bütün pasajlarda `source.license` dolu mu kontrol et:
-
-```bash
-python3 -c "
-import json,glob
-for p in sorted(glob.glob('passages/**/*.json',recursive=True)):
-    if p.endswith('INDEX.json'): continue
-    d=json.load(open(p)); s=d.get('source') or {}
-    if not s.get('license'): print('LİSANS EKSİK:', p)
-"
-```
-
----
-
-# 6. `TESLIM-RAPORU.md` yaz
+# 4. `TESLIM-RAPORU.md` yaz
 
 Depo köküne şu raporu yaz:
 
@@ -316,10 +165,9 @@ Sayıları **scriptlerin çıktısından** al, tahmin etme.
 
 ---
 
-# 7. Commit + push
+# 5. Commit + push
 
-```bash
-cd ~/Desktop/ielts-paketi
+```
 git add -A
 git commit -m "teslim: manifest, sema dogrulamasi, teslim raporu"
 git pull --rebase
@@ -330,4 +178,3 @@ Bittiğinde kullanıcıya **tek cümle** söyle: toplam kaç soru üretildi, ka�
 eksik kalan var mı.
 
 **Kullanıcıya soru sorma.**
-</content>

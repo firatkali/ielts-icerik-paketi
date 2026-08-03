@@ -34,48 +34,21 @@ Adımlar sırayla uygulanır, atlanmaz, sıra değiştirilmez.
 
 ## Adım 1 — Kör kopya üret (sen okumadan)
 
-Aşağıdaki scripti olduğu gibi çalıştır. `PAKET` değerini bu oturumun paketine göre değiştir.
+Aşağıdaki komutu çalıştır. Paket adlarını bu oturumun tablosundan al (birden çok paket
+adını aynı komutta arka arkaya yazabilirsin).
 
-```bash
-cd ~/Desktop/ielts-paketi
-mkdir -p /tmp/ielts-kor /tmp/ielts-cevap content/DOGRULAMA
-
-export PAKET="true-false-not-given"   # <-- bu oturumun paketi (3. adımda da kullanılacak)
-
-python3 - "$PAKET" <<'PY'
-import json, sys, glob, os, pathlib
-
-paket = sys.argv[1]
-STRIP = {"answer","accepted_variants","evidence","evidence_locator","explanation",
-         "contradiction_point","not_given_justification","scan_note","distractor_analysis",
-         "heading_check","feature_check","grammar_check","uniqueness_check",
-         "answer_point_id","turn_index","distractor_used","difficulty","status",
-         "flag_reason","example"}
-
-def clean(o):
-    if isinstance(o, dict):
-        return {k: clean(v) for k, v in o.items() if k not in STRIP}
-    if isinstance(o, list):
-        return [clean(v) for v in o]
-    return o
-
-paths = sorted(glob.glob(f"content/**/{paket}.json", recursive=True))
-os.makedirs("/tmp/ielts-kor", exist_ok=True)
-for p in paths:
-    d = json.load(open(p))
-    out = "/tmp/ielts-kor/" + p.replace("/", "__")
-    json.dump({"_source": p, "data": clean(d)}, open(out, "w"),
-              ensure_ascii=False, indent=2)
-print(f"{len(paths)} dosya kör kopyalandı:")
-for p in paths: print(" ", p)
-PY
 ```
+python tools/kor-kopya.py true-false-not-given yes-no-not-given
+```
+
+Script `dogrulama/kor/` klasörüne cevapsız kopyaları yazar. Bu klasör `.gitignore`'da,
+depoya gitmez.
 
 Hiç dosya bulunmadıysa o paket henüz üretilmemiştir — `NOTLAR.md`'ye yaz ve çık.
 
-**Paket adları** (`PAKET` değişkenine yazılacak):
+**Paket adları** (komutun sonuna yazılacak):
 
-| Oturum | `PAKET` değerleri (sırayla, her biri için scripti tekrar çalıştır) |
+| Oturum | Paket adları |
 |---|---|
 | 1 | `true-false-not-given`, `yes-no-not-given` |
 | 2 | `multiple-choice` (okuma), `multiple-choice-multi` |
@@ -91,7 +64,7 @@ dinleme dosyalarını `skill` alanından ayırt et; **sadece kendi becerine ait 
 
 ## Adım 2 — Kör dosyaları çöz
 
-Şimdi `/tmp/ielts-kor/` altındaki dosyaları Read ile aç. Her soru için:
+Şimdi `dogrulama/kor/` altındaki dosyaları Read ile aç. Her soru için:
 
 1. İlgili kaynağı oku:
    - Okuma sorusu → `passages/academic/<id>.json` veya `passages/general/<id>.json`
@@ -102,7 +75,7 @@ dinleme dosyalarını `skill` alanından ayırt et; **sadece kendi becerine ait 
 
 **Bu adımda karşılaştırma yapma.** Orijinal dosyaya bakma, "acaba doğru muyum" diye kontrol etme.
 
-Cevaplarını şu biçimde `/tmp/ielts-cevap/<kör-dosya-adı>` olarak kaydet:
+Cevaplarını şu biçimde `dogrulama/cevap/<kör-dosya-adıyla-aynı-ad>` olarak kaydet:
 
 ```json
 {
@@ -122,71 +95,14 @@ hâlinde `answers` içine yaz, `number` değerleri zaten benzersiz olmalı; değ
 
 ## Adım 3 — Karşılaştırmayı SCRIPT yapsın
 
-Elle karşılaştırma yapma. Bu scripti çalıştır:
+Elle karşılaştırma yapma. Bu komutu çalıştır (sondaki isim rapor dosyasının adı olur):
 
-```bash
-cd ~/Desktop/ielts-paketi
-python3 - <<'PY'
-import json, glob, os, datetime
-
-def norm(a):
-    if a is None: return []
-    if not isinstance(a, list): a = [a]
-    return sorted(str(x).strip().lower() for x in a)
-
-def items_of(d):
-    out = []
-    for g in (d.get("groups") or [{"items": d.get("items", [])}]):
-        for it in g.get("items", []):
-            out.append(it)
-    return out
-
-rapor = []
-for cev in sorted(glob.glob("/tmp/ielts-cevap/*.json")):
-    c = json.load(open(cev))
-    src = c["_source"]
-    if not os.path.exists(src):
-        rapor.append({"file": src, "error": "kaynak dosya yok"}); continue
-    orig = json.load(open(src))
-    key = {str(it.get("number")): it for it in items_of(orig)}
-    uyusan = uyusmayan = 0
-    detay = []
-    for a in c["answers"]:
-        n = str(a["number"])
-        it = key.get(n)
-        if it is None:
-            detay.append({"number": n, "durum": "orijinalde yok"}); continue
-        ok = norm(a["answer"]) == norm(it.get("answer"))
-        if ok and a.get("confidence", 5) >= 3:
-            uyusan += 1
-        else:
-            uyusmayan += 1
-            detay.append({
-                "number": n,
-                "dogrulayici": a["answer"],
-                "orijinal": it.get("answer"),
-                "confidence": a.get("confidence"),
-                "gerekce": a.get("reasoning", ""),
-                "durum": "uyusmadi" if not ok else "dusuk_guven"
-            })
-    rapor.append({"file": src, "toplam": len(c["answers"]),
-                  "uyusan": uyusan, "uyusmayan": uyusmayan, "detay": detay})
-
-os.makedirs("content/DOGRULAMA", exist_ok=True)
-paket = os.environ.get("PAKET", "paket")
-out = f"content/DOGRULAMA/{paket}.json"
-json.dump({"tarih": datetime.date.today().isoformat(), "sonuclar": rapor},
-          open(out, "w"), ensure_ascii=False, indent=2)
-
-t = sum(r.get("toplam", 0) for r in rapor)
-u = sum(r.get("uyusmayan", 0) for r in rapor)
-print(f"Toplam {t} soru, {u} sorunlu ({(u/t*100 if t else 0):.1f}%)")
-print("Rapor:", out)
-PY
+```
+python tools/karsilastir.py true-false-not-given
 ```
 
-⚠️ `PAKET` değişkeni her yeni Bash komutunda sıfırlanır — bu scripti çalıştırmadan hemen
-önce `export PAKET="true-false-not-given"` satırını tekrar çalıştır ki rapor doğru isimle kaydedilsin.
+Script şunu basar: kaç soru uyuştu, kaç tanesi sorunlu, uyuşma oranı, ve **hangi soruların
+işaretlenmesi gerektiği**. Raporu `content/DOGRULAMA/<ad>.json` olarak kaydeder.
 
 ## Adım 4 — Sorunlu soruları işaretle
 
@@ -245,8 +161,7 @@ Uyuşma oranı %85'in altındaysa `RAPOR.md`'de **büyük harfle** uyar.
 
 `NOTLAR.md` sonuna: hangi paket doğrulandı, hangi modelle, oran, işaretlenen sayısı.
 
-```bash
-cd ~/Desktop/ielts-paketi
+```
 git add -A
 git commit -m "dogrulama: dogru-yanlis-verilmemis (80 soru, 9 isaretli)"
 git pull --rebase
@@ -254,4 +169,3 @@ git push
 ```
 
 **Kullanıcıya soru sorma. Hiçbir soruyu silme — sadece işaretle.**
-</content>

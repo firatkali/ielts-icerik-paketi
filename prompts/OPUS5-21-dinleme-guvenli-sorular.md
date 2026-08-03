@@ -248,8 +248,7 @@ Alıştırma dosyasında birden çok küme olduğu için şema şöyle sarmalan�
 
 `NOTLAR.md` sonuna: hangi paket, kaç soru, seçilen tipler, kullanılan `answer_point_id`'ler.
 
-```bash
-cd ~/Desktop/ielts-paketi
+```
 git add -A
 git commit -m "dinleme L1: guvenli sorular (29 soru)"
 git pull --rebase
@@ -257,4 +256,3 @@ git push
 ```
 
 **Kullanıcıya soru sorma.**
-</content>

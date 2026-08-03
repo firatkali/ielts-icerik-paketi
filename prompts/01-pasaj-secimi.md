@@ -194,8 +194,7 @@ Ayrıca `passages/INDEX.json` dosyasını oluştur/güncelle — tüm pasajları
    kaynaklardan, atlanan/değiştirilen bir şey var mı.
 4. Commit + push:
 
-```bash
-cd ~/Desktop/ielts-paketi
+```
 git add -A
 git commit -m "pasaj: A01-A06 (PLOS/NASA/OpenStax, CC BY)"
 git pull --rebase
@@ -206,4 +205,3 @@ Commit mesajını ürettiğin gruba göre yaz. Push hata verirse `git pull --reb
 
 **Kullanıcıya soru sorma.** Bir kaynak bulunamıyorsa başka bir kaynağa geç, kararı
 `NOTLAR.md`'ye yaz.
-</content>

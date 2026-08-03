@@ -232,8 +232,7 @@ Testin 4 bölümü için tek tek:
 `NOTLAR.md` sonuna: hangi test, 4 bölümün konuları, kullanılan aksanlar, kelime sayıları.
 (Sonraki testlerde konu tekrarını önlemek için bu şart.)
 
-```bash
-cd ~/Desktop/ielts-paketi
+```
 git add -A
 git commit -m "dinleme L1: 4 bolum senaryosu"
 git pull --rebase
@@ -241,4 +240,3 @@ git push
 ```
 
 **Kullanıcıya soru sorma.**
-</content>

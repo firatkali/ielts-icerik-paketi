@@ -19,7 +19,7 @@ Her oturumun başında hangi paketin bittiğine bak, sıradaki bitmemişi yap. H
 
 1. `content/PLAN-soru-dagilimi.md` (A, B, D bölümleri + telif ve kalite kuralları)
 2. İlgili pasajlar: `passages/academic/*.json`, `passages/general/*.json`
-3. Format referansı: `referans/text/ielts-general-training-reading-computer-delivered-matching-information-answer-key.txt`
+3. Format referansı (klasör boşsa aynı adlı `.pdf`'i Read ile aç): `referans/text/ielts-general-training-reading-computer-delivered-matching-information-answer-key.txt`
    ve `referans/text/ielts-academic-reading-sample-tasks-2023.txt` (yönerge kalıbı için)
 
 ---
@@ -156,8 +156,7 @@ sorularla aynı bilgiyi sorma.
 
 `NOTLAR.md` sonuna paketi ve elenen soruları yaz, sonra:
 
-```bash
-cd ~/Desktop/ielts-paketi
+```
 git add -A
 git commit -m "okuma: bilgi eslestirme AC1-AC4 (20 soru)"
 git pull --rebase
@@ -165,4 +164,3 @@ git push
 ```
 
 **Kullanıcıya soru sorma.**
-</content>

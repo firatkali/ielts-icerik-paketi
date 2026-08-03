@@ -239,8 +239,7 @@ Uyuşmayan soruyu sil ve yerine yenisini üret. Kaç soru elediğini `NOTLAR.md`
 
 ## Bitirince
 
-```bash
-cd ~/Desktop/ielts-paketi
+```
 git add -A
 git commit -m "okuma AC1: dogru-yanlis-verilmemis (7 soru)"
 git pull --rebase
@@ -248,4 +247,3 @@ git push
 ```
 
 **Kullanıcıya soru sorma.**
-</content>

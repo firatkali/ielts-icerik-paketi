@@ -235,8 +235,7 @@ Her dosya için tek tek doğrula, eksik varsa düzelt:
 `NOTLAR.md` sonuna ekle: hangi paket yapıldı, kaç soru, hangi pasajlar, seçilen alt tipler,
 elenen soru varsa sebebi.
 
-```bash
-cd ~/Desktop/ielts-paketi
+```
 git add -A
 git commit -m "okuma AC1: tamamlama tipleri (15 soru)"
 git pull --rebase
@@ -244,4 +243,3 @@ git push
 ```
 
 Commit mesajını yaptığın pakete göre yaz. **Kullanıcıya soru sorma.**
-</content>

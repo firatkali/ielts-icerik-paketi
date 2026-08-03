@@ -26,7 +26,8 @@ savunulabilir seçenek → soru haksız. Bu dosyanın tamamı bu ikisini önleme
 
 1. `content/PLAN-soru-dagilimi.md` — A, B, D bölümleri, telif ve kalite kuralları
 2. İlgili pasajlar: `passages/academic/*.json` / `passages/general/*.json`
-3. Format referansı — `referans/text/`:
+3. Format referansı — aşağıdakileri oku. `referans/text/` klasörü boşsa
+   `referans/<aynı ad>.pdf` dosyasını **Read aracıyla** aç (Read PDF okuyabiliyor):
    - `ielts-academic-reading-computer-delivered-multiple-choice-one-answer-answer-key.txt`
    - `ielts-academic-reading-computer-delivered-multiple-choice-more-than-one-answer-answer-key.txt`
    - `ielts-general-training-reading-computer-delivered-multiple-choice-answer-key.txt`
@@ -221,8 +222,7 @@ yenisini üret. Eleme sayısını `NOTLAR.md`'ye yaz.
 
 ## Bitirince
 
-```bash
-cd ~/Desktop/ielts-paketi
+```
 git add -A
 git commit -m "okuma AC1-AC2: coktan secmeli (8 soru)"
 git pull --rebase
@@ -230,4 +230,3 @@ git push
 ```
 
 **Kullanıcıya soru sorma.**
-</content>

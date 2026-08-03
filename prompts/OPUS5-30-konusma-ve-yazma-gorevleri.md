@@ -414,8 +414,7 @@ dil ve iletişim · suç ve ceza
 `NOTLAR.md` sonuna **kullandığın bütün konu başlıklarını listele** — sonraki oturumların
 tekrardan kaçınması buna bağlı.
 
-```bash
-cd ~/Desktop/ielts-paketi
+```
 git add -A
 git commit -m "konusma part1: 5 konu x 10 soru (50 soru)"
 git pull --rebase
@@ -423,4 +422,3 @@ git push
 ```
 
 **Kullanıcıya soru sorma.**
-</content>

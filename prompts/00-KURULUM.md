@@ -4,10 +4,22 @@ Bu dosya mekanik bir kurulum işidir, güçlü modele gerek yok.
 
 ---
 
-Sen Claude Code'sun ve `~/Desktop/ielts-paketi` klasöründe çalışıyorsun. Bu, bir IELTS
+Sen Claude Code'sun ve `C:\ielts-paketi` klasöründe çalışıyorsun (Windows). Bu, bir IELTS
 hazırlık uygulaması için içerik üreten bir depodur.
 
 **Bu oturumda görevin:** çalışma ortamını kurmak. Soru üretmeyeceksin.
+
+## 🖥️ Ortam notu — Windows
+
+Bu depo Windows makinede çalıştırılıyor. Bu yüzden:
+- **Kabuk komutlarını sadeleştir.** Karmaşık bash kalıpları (`heredoc`, `while read`,
+  boru zincirleri) Windows'ta kırılabilir. Bütün ağır iş `tools/` klasöründeki Python
+  scriptlerine taşındı — sen onları çağır.
+- **Python komutu `python`'dur** (`python3` değil). `python` çalışmazsa sırayla `py` ve
+  `python3` dene, çalışanı `NOTLAR.md`'ye yaz — sonraki oturumlar onu kullanır.
+- Dosya yollarını **eğik çizgiyle** yaz (`content/reading/tests`) — Python ve git ikisini
+  de anlar.
+- `pdftotext`, `jq`, `sed`, `awk` gibi araçların **yok sayıl**; onlara ihtiyaç duyma.
 
 ## Genel kurallar (bu depodaki HER oturum için geçerli)
 
@@ -22,100 +34,35 @@ hazırlık uygulaması için içerik üreten bir depodur.
 
 ## Adım 1 — Klasörleri oluştur
 
-```bash
-cd ~/Desktop/ielts-paketi
-mkdir -p referans/text passages/academic passages/general \
-         content/reading/tests content/reading/practice \
-         content/listening/scripts content/listening/tests content/listening/practice \
-         content/speaking/part1 content/speaking/part2-3 \
-         content/writing/academic-task1 content/writing/general-task1 content/writing/task2
+```
+python -c "import os;[os.makedirs(d,exist_ok=True) for d in ['referans','passages/academic','passages/general','content/reading/tests','content/reading/practice','content/listening/scripts','content/listening/tests','content/listening/practice','content/speaking/part1','content/speaking/part2-3','content/writing/academic-task1','content/writing/general-task1','content/writing/task2']]"
 ```
 
 ## Adım 2 — Resmi referans belgelerini indir
 
-Bunlar IELTS'in kendi sitesindeki ücretsiz örnek belgeler. **Depoya yüklenmezler**
-(`.gitignore` engelliyor) — sadece senin bilgisayarında format referansı olarak dururlar.
+Bunlar IELTS'in kendi sitesindeki ücretsiz örnek belgeler — 43 PDF. **Depoya
+yüklenmezler** (`.gitignore` engelliyor); sadece bu bilgisayarda format referansı olarak
+dururlar. Telifli oldukları için depoda tutulamıyorlar.
 
-Aşağıdaki komutu olduğu gibi çalıştır:
-
-```bash
-cd ~/Desktop/ielts-paketi/referans
-UA="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36"
-
-cat > /tmp/ielts-urls.txt <<'EOF'
-https://ielts.org/cdn/Sample-tests/ielts-academic-reading-sample-tasks-2023.pdf
-https://ielts.org/cdn/Sample-tests/ielts-academic-writing-sample-tasks-2023.pdf
-https://ielts.org/cdn/Sample-tests/ielts-general-reading-sample-tasks-2023.pdf
-https://ielts.org/cdn/Sample-tests/ielts-general-training-writing-sample-tasks-2023.pdf
-https://ielts.org/cdn/ielts-sample-tests/ielts-listening-sample-tasks-2023.pdf
-https://ielts.org/cdn/ielts-sample-tests/ielts-speaking-sample-tasks-2023.pdf
-https://ielts.org/cdn/ielts-sample-tests/ielts-listening/ielts-listening-answer-sheet-sample.pdf
-https://ielts.org/cdn/ielts-sample-tests/ielts-reading/ielts-reading-answer-sheet-sample.pdf
-https://ielts.org/cdn/computer-delivered-sample-tests-academic-writing/ielts-academic-writing-example-responses-to-parts-1-and-2-with-band-scores-and-examiner-comments.pdf
-https://ielts.org/cdn/computer-delivered-sample-tests-general-training-writing/ielts-general-training-writing-example-responses-to-parts-1-and-2-with-band-scores-and-examiner-comments.pdf
-https://ielts.org/cdn/computer-delivered-sample-tests-academic-reading/ielts-academic-reading-computer-delivered-identifying-information-true-flase-not-given-answer-key.pdf
-https://ielts.org/cdn/computer-delivered-sample-tests-academic-reading/ielts-academic-reading-computer-delivered-matching-features-answer-key.pdf
-https://ielts.org/cdn/computer-delivered-sample-tests-academic-reading/ielts-academic-reading-computer-delivered-matching-sentence-endings-answer-key.pdf
-https://ielts.org/cdn/computer-delivered-sample-tests-academic-reading/ielts-academic-reading-computer-delivered-multiple-choice-more-than-one-answer-answer-key.pdf
-https://ielts.org/cdn/computer-delivered-sample-tests-academic-reading/ielts-academic-reading-computer-delivered-multiple-choice-one-answer-answer-key.pdf
-https://ielts.org/cdn/computer-delivered-sample-tests-academic-reading/ielts-academic-reading-computer-delivered-note-completion-answer-key.pdf
-https://ielts.org/cdn/computer-delivered-sample-tests-academic-reading/ielts-academic-reading-computer-delivered-sentence-completion-answer-key.pdf
-https://ielts.org/cdn/computer-delivered-sample-tests-academic-reading/ielts-academic-reading-computer-delivered-summary-completion-selecting-from-list-of-words-or-phrases-answer-key.pdf
-https://ielts.org/cdn/computer-delivered-sample-tests-academic-reading/ielts-academic-reading-computer-delivered-summary-completion-selecting-words-from-text-answer-key.pdf
-https://ielts.org/cdn/computer-delivered-sample-tests-academic-reading/ielts-academic-reading-computer-delivered-table-completion-answer-key.pdf
-https://ielts.org/cdn/computer-delivered-sample-tests-general-training-reading/ielts-general-training-reading-computer-delivered-identifying-information-true-false-not-given-answer-key.pdf
-https://ielts.org/cdn/computer-delivered-sample-tests-general-training-reading/ielts-general-training-reading-computer-delivered-matching-features-answer-key.pdf
-https://ielts.org/cdn/computer-delivered-sample-tests-general-training-reading/ielts-general-training-reading-computer-delivered-matching-information-answer-key.pdf
-https://ielts.org/cdn/computer-delivered-sample-tests-general-training-reading/ielts-general-training-reading-computer-delivered-multiple-choice-answer-key.pdf
-https://ielts.org/cdn/computer-delivered-sample-tests-general-training-reading/ielts-general-training-reading-computer-delivered-note-completion-answer-key.pdf
-https://ielts.org/cdn/computer-delivered-sample-tests-general-training-reading/ielts-general-training-reading-computer-delivered-sentence-completion-answer-key.pdf
-https://ielts.org/cdn/computer-delivered-sample-tests-general-training-reading/ielts-general-training-reading-computer-delivered-summary-completion-answer-key.pdf
-https://ielts.org/cdn/computer-delivered-sample-tests-listening/ielts-listening-computer-delivered-flow-chart-completion-answer-key.pdf
-https://ielts.org/cdn/computer-delivered-sample-tests-listening/ielts-listening-computer-delivered-flow-chart-completion-transcript.pdf
-https://ielts.org/cdn/computer-delivered-sample-tests-listening/ielts-listening-computer-delivered-multiple-choice-more-than-one-answer-answer-key.pdf
-https://ielts.org/cdn/computer-delivered-sample-tests-listening/ielts-listening-computer-delivered-multiple-choice-more-than-one-answer-transcript.pdf
-https://ielts.org/cdn/computer-delivered-sample-tests-listening/ielts-listening-computer-delivered-multiple-choice-one-answer-answer-key.pdf
-https://ielts.org/cdn/computer-delivered-sample-tests-listening/ielts-listening-computer-delivered-multiple-choice-one-answer-transcript.pdf
-https://ielts.org/cdn/computer-delivered-sample-tests-listening/ielts-listening-computer-delivered-note-completion-answer-key.pdf
-https://ielts.org/cdn/computer-delivered-sample-tests-listening/ielts-listening-computer-delivered-note-completion-transcript.pdf
-https://ielts.org/cdn/computer-delivered-sample-tests-listening/ielts-listening-computer-delivered-plan-map-diagram-labelling-answer-key.pdf
-https://ielts.org/cdn/computer-delivered-sample-tests-listening/ielts-listening-computer-delivered-plan-map-diagram-labelling-transcript.pdf
-https://ielts.org/cdn/computer-delivered-sample-tests-listening/ielts-listening-computer-delivered-sentence-completion-answer-key.pdf
-https://ielts.org/cdn/computer-delivered-sample-tests-listening/ielts-listening-computer-delivered-sentence-completion-transcript.pdf
-https://ielts.org/cdn/computer-delivered-sample-tests-listening/ielts-listening-computer-delivered-short-answer-answer-key.pdf
-https://ielts.org/cdn/computer-delivered-sample-tests-listening/ielts-listening-computer-delivered-short-answer-transcript.pdf
-https://ielts.org/cdn/computer-delivered-sample-tests-listening/ielts-listening-computer-delivered-table-completion-answer-key.pdf
-https://ielts.org/cdn/computer-delivered-sample-tests-listening/ielts-listening-computer-delivered-table-completion-transcript.pdf
-EOF
-
-while read -r u; do
-  [ -z "$u" ] && continue
-  curl -sSL -A "$UA" -o "$(basename "$u")" "$u"
-done < /tmp/ielts-urls.txt
-
-ls -la *.pdf | wc -l
+```
+python tools/indir.py
 ```
 
-**Beklenen sonuç: 43 PDF.** Daha az indiyse eksikleri tekrar dene. Hiçbiri inmediyse
-(ör. internet/erişim sorunu) durma — `NOTLAR.md`'ye "referans PDF'leri inmedi" yaz ve
-devam et; sonraki promptlar referans olmadan da çalışabilir, sadece format kontrolü zayıflar.
+Script inen dosyaları atlar, sadece eksikleri indirir — **hata alırsan aynı komutu
+tekrar çalıştır.**
 
-## Adım 3 — PDF'leri metne çevir
+**Beklenen: 43 PDF.** Birkaçı inmediyse sorun değil, devam et. Hiçbiri inmediyse
+(internet/erişim sorunu) yine durma — `NOTLAR.md`'ye "referans PDF'leri inmedi" yaz ve
+devam et; promptlar referans olmadan da çalışır, sadece format kontrolü zayıflar.
 
-```bash
-cd ~/Desktop/ielts-paketi/referans
-if command -v pdftotext >/dev/null 2>&1; then
-  for f in *.pdf; do pdftotext -layout "$f" "text/${f%.pdf}.txt"; done
-  ls text/*.txt | wc -l
-else
-  echo "pdftotext YOK"
-fi
-```
+## Adım 3 — Referansları nasıl okuyacaksın
 
-`pdftotext YOK` çıktısını aldıysan:
-- Önce `brew install poppler` dene, sonra yukarıdaki döngüyü tekrar çalıştır.
-- O da olmuyorsa sorun değil: sonraki promptlarda `.txt` yerine doğrudan `.pdf` dosyasını
-  **Read aracıyla** okuyacaksın (Read aracı PDF okuyabiliyor). Bunu `NOTLAR.md`'ye yaz.
+**PDF'leri metne çevirmeye çalışma.** Windows'ta o araçlar yok. Sonraki promptlar sana
+`referans/text/<ad>.txt` diyecek; o klasör boş olacak. O zaman doğrudan
+`referans/<ad>.pdf` dosyasını **Read aracıyla** aç — Read aracı PDF okuyabiliyor.
+
+Bu kuralı `NOTLAR.md`'ye yaz ki sonraki oturumlar boşuna uğraşmasın.
+
 
 ## Adım 4 — Soru dağılım planını depoya yaz
 
@@ -132,18 +79,21 @@ bu dosyayı okuyacak. **Hiçbir şey değiştirme, kısaltma, yorumlama — bire
 
 Bu dosyaya her oturumda alınan kararlar, atlanan işler ve karşılaşılan sorunlar yazılır.
 
+## Ortam
+- İşletim sistemi: Windows
+- Çalışan Python komutu: `python` (veya `py` / `python3` — hangisi çalıştıysa)
+- Referanslar: `referans/*.pdf` — **metne çevrilmedi, Read aracıyla doğrudan PDF okunacak**
+
 ## 00-KURULUM
 - Tarih: <bugünün tarihi>
 - İnen referans PDF sayısı: <sayı>
-- pdftotext var mı: <evet/hayır>
 ```
 
 ## Adım 6 — Commit + push
 
-```bash
-cd ~/Desktop/ielts-paketi
+```
 git add -A
-git commit -m "kurulum: klasörler, soru dağılım planı, notlar"
+git commit -m "kurulum: klasorler, soru dagilim plani, notlar"
 git pull --rebase
 git push
 ```
@@ -365,5 +315,4 @@ Soru tipi dosya adları (kebab-case, sabit):
 5. **Birebir kopya cümle yasak.** Soru kökü pasajdaki cümlenin aynısı olamaz — eş anlamlı
    kelime ve yapı değişikliği (paraphrase) şart. Aksi hâlde soru "kelime arama"ya dönüşür.
 6. **Cevaplar pasajın tamamına yayılsın**, tek paragrafta yığılmasın.
-</content>
 </invoke>

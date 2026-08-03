@@ -24,7 +24,8 @@ Oturum başında hangi paketin bittiğine bak, sıradaki bitmemişi yap. Hepsi b
 1. `content/PLAN-soru-dagilimi.md` — E ve F bölümleri, telif ve kalite kuralları
 2. Yapacağın testin senaryoları: `content/listening/scripts/L1-S2.json` ve `L1-S3.json`
    (özellikle `turns`, `answer_points` ve `distractor` alanları)
-3. Format referansı — `referans/text/`:
+3. Format referansı — aşağıdakileri oku. `referans/text/` klasörü boşsa
+   `referans/<aynı ad>.pdf` dosyasını **Read aracıyla** aç (Read PDF okuyabiliyor):
    - `ielts-listening-computer-delivered-multiple-choice-one-answer-answer-key.txt`
    - `ielts-listening-computer-delivered-multiple-choice-one-answer-transcript.txt`
    - `ielts-listening-computer-delivered-multiple-choice-more-than-one-answer-answer-key.txt`
@@ -230,8 +231,7 @@ Uyuşmayan soruyu sil, yenisini üret. Eleme sayısını `NOTLAR.md`'ye yaz.
 
 ## Bitirince
 
-```bash
-cd ~/Desktop/ielts-paketi
+```
 git add -A
 git commit -m "dinleme L1: riskli sorular (11 soru)"
 git pull --rebase
@@ -239,4 +239,3 @@ git push
 ```
 
 **Kullanıcıya soru sorma.**
-</content>
