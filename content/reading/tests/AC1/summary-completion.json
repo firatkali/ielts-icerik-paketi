@@ -1,0 +1,68 @@
+{
+  "schema_version": "1.0",
+  "set_id": "AC1-summary-completion",
+  "skill": "reading",
+  "module": "academic",
+  "test_id": "AC1",
+  "practice": false,
+  "passage_id": "A03",
+  "question_type": "summary_completion",
+  "generated_by": "opus",
+  "instructions": "Complete the summary below. Choose NO MORE THAN TWO WORDS from the passage for each answer.",
+  "word_limit": "NO MORE THAN TWO WORDS",
+  "word_bank": null,
+  "visual": null,
+  "stem_block": "A reef that is already living in tomorrow's sea\n\nMaug is what is left of a volcano that fell in on itself, so that three small islands now sit in a ring around a drowned (36) ........ . Molten rock below the seabed feeds openings that pour carbon dioxide straight into the water beside a living reef. A visiting team fixed recording instruments in place, while divers underwater marked fresh growth on the corals with (37) ........ and collected material to be examined later. Their readings show that the water closest to the openings is slightly more acidic than the rest of the reef, and that the seabed there is taken over by (38) ........ instead of healthy coral. A second piece of research found that minute organisms bore into the skeletons far more heavily in this water, speeding up (39) ........ and weakening the reef from the inside. Because these changes resemble what reefs elsewhere may meet before this century ends, the island is now treated as an early (40) ........ .",
+  "items": [
+    {
+      "number": 36,
+      "prompt": "Maug is what is left of a volcano that fell in on itself, so that three small islands now sit in a ring around a drowned (36) ........ .",
+      "answer": ["caldera"],
+      "accepted_variants": ["caldera"],
+      "evidence": "Maug is what remains of a volcano that collapsed long ago, leaving three small islands arranged in a rough circle around a flooded caldera.",
+      "evidence_locator": { "paragraph": "B", "sentence": 2 },
+      "explanation": "Paragraf B, üç küçük adanın su altında kalmış bir kalderanın çevresinde daire biçiminde dizildiğini söylüyor; bu yüzden cevap 'caldera'.",
+      "difficulty": "easy"
+    },
+    {
+      "number": 37,
+      "prompt": "A visiting team fixed recording instruments in place, while divers underwater marked fresh growth on the corals with (37) ........ and collected material to be examined later.",
+      "answer": ["dye"],
+      "accepted_variants": ["dye"],
+      "evidence": "The team deployed instruments to continuously record temperature, light, the partial pressure of carbon dioxide, seawater pH and water currents, while divers collected coral cores, applied dye to mark new growth, and used funnels to capture bubbles of gas escaping from the vents for laboratory analysis.",
+      "evidence_locator": { "paragraph": "D", "sentence": 2 },
+      "explanation": "Paragraf D'de dalgıçların yeni büyümeyi işaretlemek için boya sürdüğü belirtiliyor; boşluk bu işaretlemenin neyle yapıldığını sorduğu için cevap 'dye'.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 38,
+      "prompt": "Their readings show that the water closest to the openings is slightly more acidic than the rest of the reef, and that the seabed there is taken over by (38) ........ instead of healthy coral.",
+      "answer": ["weedy algae"],
+      "accepted_variants": ["weedy algae", "algae"],
+      "evidence": "Immediately around the vents, weedy algae tend to dominate the seafloor, while reefs only a short distance away, in less acidified water, remain visibly healthier and more coral-dominated.",
+      "evidence_locator": { "paragraph": "F", "sentence": 2 },
+      "explanation": "Paragraf F, bacaların hemen çevresinde deniz tabanına yosunun hâkim olduğunu, biraz uzaktaki resiflerin ise daha sağlıklı kaldığını söylüyor; bu yüzden cevap 'weedy algae'.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 39,
+      "prompt": "A second piece of research found that minute organisms bore into the skeletons far more heavily in this water, speeding up (39) ........ and weakening the reef from the inside.",
+      "answer": ["bioerosion"],
+      "accepted_variants": ["bioerosion"],
+      "evidence": "It found that in the naturally acidified water near the vents, microscopic boring organisms colonised coral skeletons more heavily, accelerating a process called bioerosion in which the skeleton is weakened and broken down from within.",
+      "evidence_locator": { "paragraph": "G", "sentence": 2 },
+      "explanation": "Paragraf G, iskeleti içeriden delen mikroskobik canlıların hızlandırdığı sürecin adını 'bioerosion' olarak veriyor; bu yüzden cevap 'bioerosion'.",
+      "difficulty": "hard"
+    },
+    {
+      "number": 40,
+      "prompt": "Because these changes resemble what reefs elsewhere may meet before this century ends, the island is now treated as an early (40) ........ .",
+      "answer": ["warning system"],
+      "accepted_variants": ["warning system"],
+      "evidence": "For that reason, scientists regard the island less as a curiosity than as an early warning system, showing in the present what the consequences of a warmer, more acidic ocean could look like almost everywhere else.",
+      "evidence_locator": { "paragraph": "H", "sentence": 2 },
+      "explanation": "Paragraf H, bilim insanlarının adayı bir merak konusundan çok erken uyarı sistemi olarak gördüğünü söylüyor; bu yüzden cevap 'warning system'.",
+      "difficulty": "medium"
+    }
+  ]
+}

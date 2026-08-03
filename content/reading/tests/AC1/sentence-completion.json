@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0",
+  "set_id": "AC1-sentence-completion",
+  "skill": "reading",
+  "module": "academic",
+  "test_id": "AC1",
+  "practice": false,
+  "passage_id": "A02",
+  "question_type": "sentence_completion",
+  "generated_by": "opus",
+  "instructions": "Complete the sentences below. Choose NO MORE THAN TWO WORDS from the passage for each answer.",
+  "word_limit": "NO MORE THAN TWO WORDS",
+  "word_bank": null,
+  "visual": null,
+  "stem_block": null,
+  "items": [
+    {
+      "number": 19,
+      "prompt": "In the first stage of the study, some pairs were kept in tanks split by a (19) ........ , so each animal could watch its neighbour without ever touching or smelling it.",
+      "answer": ["transparent divider"],
+      "accepted_variants": ["transparent divider"],
+      "evidence": "Half the pairs sat in neighbouring tanks separated by a transparent divider, allowing them to see but not touch or smell each other, since the water supplies were kept fully separate.",
+      "evidence_locator": { "paragraph": "C", "sentence": 2 },
+      "explanation": "Paragraf C, çiftlerin yarısının saydam bir bölmeyle ayrıldığını, böylece birbirlerini görüp dokunamadıklarını söylüyor; bu yüzden cevap 'transparent divider'.",
+      "difficulty": "easy"
+    },
+    {
+      "number": 20,
+      "prompt": "Once the animals began sharing a tank, one of each pair came to win most encounters, so that a (20) ........ took shape over the three days.",
+      "answer": ["dominance hierarchy"],
+      "accepted_variants": ["dominance hierarchy"],
+      "evidence": "Across these encounters a dominance hierarchy consistently emerged, with the stronger animal in each pair winning an average of seventy-six per cent of interactions, and physical contact and defensive ink-jetting both became less frequent as the three days went on and the pair grew more familiar with one another.",
+      "evidence_locator": { "paragraph": "D", "sentence": 3 },
+      "explanation": "Paragraf D'de her çiftte güçlü olan hayvanın karşılaşmaların çoğunu kazandığı ve bir baskınlık düzeninin ortaya çıktığı yazıyor; bu yüzden cevap 'dominance hierarchy'.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 21,
+      "prompt": "A change in which animal held the stronger position was recorded only in pairs made up of (21) ........ .",
+      "answer": ["two strangers"],
+      "accepted_variants": ["two strangers", "strangers"],
+      "evidence": "Reversals of dominance, in which the previously subordinate animal became the stronger one, occurred only when the pair consisted of two strangers, in eight of the twelve such pairings; no reversal of this kind was seen among reunited familiar pairs, and no ink was released by any octopus during this final test.",
+      "evidence_locator": { "paragraph": "F", "sentence": 4 },
+      "explanation": "Paragraf F, baskınlığın yer değiştirmesinin yalnızca iki yabancıdan oluşan çiftlerde görüldüğünü, tanıdık çiftlerde hiç görülmediğini söylüyor; bu yüzden cevap 'two strangers'.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 22,
+      "prompt": "Reacting with less hostility to an animal that is already known has been given the name of the (22) ........ effect by researchers working on other groups.",
+      "answer": ["dear enemy"],
+      "accepted_variants": ["dear enemy"],
+      "evidence": "Repeated costly fights between the same two animals would waste energy and risk injury to no purpose, so an octopus that can recognise a familiar neighbour and respond to it with reduced aggression, a pattern long described in other species as the \"dear enemy\" effect, stands to gain from avoiding needless conflict.",
+      "evidence_locator": { "paragraph": "H", "sentence": 2 },
+      "explanation": "Paragraf H, tanıdık bir komşuya daha az saldırganlıkla karşılık verme örüntüsünün başka türlerde 'dear enemy' etkisi diye adlandırıldığını belirtiyor; bu yüzden cevap 'dear enemy'.",
+      "difficulty": "hard"
+    }
+  ]
+}

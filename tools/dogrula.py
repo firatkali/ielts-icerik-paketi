@@ -141,6 +141,8 @@ def main():
                        re.I)
     ielts_gecen, yasak_gecen = [], []
     for p in dosyalar + ortak.bul("passages/**/*.json"):
+        if p.endswith("INDEX.json"):
+            continue
         with open(ortak.yol(p), encoding="utf-8") as f:
             ham = f.read()
         d = json.loads(ham)

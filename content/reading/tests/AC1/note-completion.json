@@ -1,0 +1,78 @@
+{
+  "schema_version": "1.0",
+  "set_id": "AC1-note-completion",
+  "skill": "reading",
+  "module": "academic",
+  "test_id": "AC1",
+  "practice": false,
+  "passage_id": "A01",
+  "question_type": "note_completion",
+  "generated_by": "opus",
+  "instructions": "Complete the notes below. Choose ONE WORD ONLY from the passage for each answer.",
+  "word_limit": "ONE WORD ONLY",
+  "word_bank": null,
+  "visual": null,
+  "stem_block": "Testing insight in an Asian elephant\n\nThe set-up\n- Food placed high above the ground, hanging from a (1) ........\n- A stick made of (2) ........ lay beside the animals but was ignored at first\n\nWhat Kandula did\n- First success came in session number (3) ........\n- A tractor (4) ........ served the same purpose once the cube was taken away\n- He recalled where the cube lay after it had been hidden round a (5) ........\n\nWhy earlier tests failed\n- The trunk picks up touch and smell as keenly as a human (6) ........ does",
+  "items": [
+    {
+      "number": 1,
+      "prompt": "Food placed high above the ground, hanging from a (1) ........",
+      "answer": ["cable"],
+      "accepted_variants": ["cable"],
+      "evidence": "A piece of fruit was suspended from an overhead cable, well beyond the reach of an outstretched trunk.",
+      "evidence_locator": { "paragraph": "B", "sentence": 3 },
+      "explanation": "Paragraf B, meyvenin hortumun uzanamayacağı kadar yüksekte, tepedeki bir kablodan sarkıtıldığını söylüyor; boşluk yiyeceğin asıldığı şeyi istediği için cevap 'cable'.",
+      "difficulty": "easy"
+    },
+    {
+      "number": 2,
+      "prompt": "A stick made of (2) ........ lay beside the animals but was ignored at first",
+      "answer": ["bamboo"],
+      "accepted_variants": ["bamboo"],
+      "evidence": "To make the task solvable, the researchers also offered a bamboo stick long enough, in principle, to knock the food down.",
+      "evidence_locator": { "paragraph": "B", "sentence": 4 },
+      "explanation": "Paragraf B'de araştırmacıların verdiği çubuğun bambudan olduğu belirtiliyor; boşluk çubuğun malzemesini sorduğu için cevap 'bamboo'.",
+      "difficulty": "easy"
+    },
+    {
+      "number": 3,
+      "prompt": "First success came in session number (3) ........",
+      "answer": ["seventh"],
+      "accepted_variants": ["seventh"],
+      "evidence": "The turning point came in the seventh session.",
+      "evidence_locator": { "paragraph": "C", "sentence": 1 },
+      "explanation": "Paragraf C, dönüm noktasının yedinci oturumda yaşandığını söylüyor; ilk başarının hangi oturumda geldiği sorulduğu için cevap 'seventh'.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 4,
+      "prompt": "A tractor (4) ........ served the same purpose once the cube was taken away",
+      "answer": ["tyre"],
+      "accepted_variants": ["tyre", "tire"],
+      "evidence": "His success was not limited to the cube itself: when it was removed, he pushed a large tractor tyre into use as a substitute platform, and with smaller objects he attempted, less successfully, to stack them on top of one another.",
+      "evidence_locator": { "paragraph": "D", "sentence": 4 },
+      "explanation": "Paragraf D, küp ortadan kaldırıldığında Kandula'nın yerine büyük bir traktör lastiğini basamak olarak kullandığını anlatıyor; bu yüzden cevap 'tyre'.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 5,
+      "prompt": "He recalled where the cube lay after it had been hidden round a (5) ........",
+      "answer": ["corner"],
+      "accepted_variants": ["corner"],
+      "evidence": "On one occasion the researchers hid the cube around a corner, in a walled passage invisible from the point where he entered the enclosure.",
+      "evidence_locator": { "paragraph": "E", "sentence": 2 },
+      "explanation": "Paragraf E'de küpün bir köşenin arkasına, girişten görünmeyen duvarlı bir geçide saklandığı yazıyor; saklandığı yer sorulduğu için cevap 'corner'.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 6,
+      "prompt": "The trunk picks up touch and smell as keenly as a human (6) ........ does",
+      "answer": ["fingertip"],
+      "accepted_variants": ["fingertip"],
+      "evidence": "An elephant's trunk is above all a sensory organ, packed with nerve endings and capable of an extraordinarily fine sense of smell and touch, comparable in sensitivity to a human fingertip.",
+      "evidence_locator": { "paragraph": "F", "sentence": 3 },
+      "explanation": "Paragraf F, hortumun duyarlılığını insan parmak ucununkiyle kıyaslıyor; karşılaştırmanın neyle yapıldığı sorulduğu için cevap 'fingertip'.",
+      "difficulty": "hard"
+    }
+  ]
+}
