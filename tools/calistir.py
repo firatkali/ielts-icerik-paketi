@@ -85,25 +85,40 @@ def ilerleme_yaz(n):
         f.write(str(n))
 
 
-def liste_satirlari(n):
-    """Is listesini gruplayarak uretir. Hem ekranda hem dosyada ayni gorunur."""
+def liste_satirlari(n, detayli=False):
+    """Is listesini gruplayarak uretir.
+
+    detayli=True ise her grubun altina o gruba ait tek tek calistirmalari da yazar
+    (88 satir) - boylece atlanmis bir calistirma varsa gorunur.
+    """
     gruplar = []
     for i, adim in enumerate(ADIMLAR):
         grup = adim[4]
         if not gruplar or gruplar[-1][0] != grup:
-            gruplar.append([grup, 0, 0])
-        gruplar[-1][1] += 1
+            gruplar.append([grup, [], 0])
+        gruplar[-1][1].append(i)
         if i < n:
             gruplar[-1][2] += 1
 
     satirlar = []
-    for ad, toplam, biten in gruplar:
+    for ad, indeksler, biten in gruplar:
+        toplam = len(indeksler)
         if biten >= toplam:
             satirlar.append("  [BITTI]  %s" % ad)
         elif biten == 0:
             satirlar.append("  [ ]      %s   (%d calistirma)" % (ad, toplam))
         else:
             satirlar.append("  [SIRADA] %s   (%d/%d bitti)" % (ad, biten, toplam))
+
+        if detayli and toplam > 1:
+            for sira, i in enumerate(indeksler, 1):
+                if i < n:
+                    im = "x"
+                elif i == n:
+                    im = ">"
+                else:
+                    im = " "
+                satirlar.append("             [%s] %d. calistirma" % (im, sira))
     return satirlar
 
 
@@ -113,6 +128,48 @@ def liste_goster(n):
     for s in liste_satirlari(n):
         print(s)
     print()
+
+
+HEDEFLER = [("Okuma sorusu", "content/reading", 400),
+            ("Dinleme sorusu", "content/listening", 360),
+            ("Konusma sorusu", "content/speaking", 440),
+            ("Yazma gorevi", "content/writing", 110)]
+
+
+def _soru_say(klasor):
+    """Bir beceri klasorundeki gercek soru sayisini sayar."""
+    import glob
+    import json
+    toplam = 0
+    desen = os.path.join(KOK, klasor, "**", "*.json")
+    for p in glob.glob(desen, recursive=True):
+        if "/scripts/" in p.replace(os.sep, "/") or "DOGRULAMA" in p:
+            continue
+        try:
+            with open(p, encoding="utf-8") as f:
+                d = json.load(f)
+        except Exception:
+            continue
+        if isinstance(d, list):
+            toplam += len(d)
+        elif isinstance(d, dict):
+            for g in (d.get("groups") or [{"items": d.get("items") or []}]):
+                toplam += len(g.get("items") or [])
+    return toplam
+
+
+def uretim_satirlari():
+    """Depoda gercekten ne birikmis - E demek yetmez, sayim yalan soylemez."""
+    import glob
+    satirlar = ["URETILEN ICERIK (dosyalardan sayildi)", ""]
+    for ad, klasor, hedef in HEDEFLER:
+        var = _soru_say(klasor)
+        satirlar.append("  %-16s %5d / %d" % (ad, var, hedef))
+    pasaj = [p for p in glob.glob(os.path.join(KOK, "passages", "**", "*.json"),
+                                  recursive=True) if "INDEX" not in p]
+    satirlar.append("  %-16s %5d / %d" % ("Okuma metni", len(pasaj), 18))
+    satirlar.append("")
+    return satirlar
 
 
 def durum_yaz(n):
@@ -128,7 +185,9 @@ def durum_yaz(n):
                 "",
                 "-" * 62,
                 ""]
-    satirlar += liste_satirlari(n)
+    satirlar += uretim_satirlari()
+    satirlar += ["-" * 62, "", "IS LISTESI", ""]
+    satirlar += liste_satirlari(n, detayli=True)
     satirlar.append("")
 
     try:
