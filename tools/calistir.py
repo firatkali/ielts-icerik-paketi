@@ -122,8 +122,15 @@ def sor(soru, gecerli):
         print("   Anlamadim. Sunlardan birini yaz: " + " / ".join(gecerli))
 
 
+def guncelle():
+    """Baslarken depodan son surumu ceker - duzeltmeler gecikmesin diye."""
+    subprocess.call("git pull --rebase --autostash", shell=True,
+                    stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+
+
 def main():
     os.chdir(KOK)
+    guncelle()
     n = ilerleme_oku()
 
     print()
