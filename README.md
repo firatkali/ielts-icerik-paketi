@@ -88,43 +88,37 @@ Hepsinde **[ OK ]** yazıyorsa hazırsın. **[SORUN]** varsa altındaki adımı 
 
 ## 3) Çalıştır
 
-Masaüstündeki **IELTS CALISTIR** kısayoluna çift tıkla.
+Masaüstündeki **IELTS CALISTIR** kısayoluna çift tıkla. **Hepsi bu.**
 
-- Enter'a basmanı ister.
-- Claude açılır, kendi kendine çalışır. **Sen hiçbir şey yazmayacaksın**, sadece
-  beklersin (10-20 dakika).
-- İş bitince Claude *"... tamam, sıradaki dosya ..."* diye bir mesaj yazar.
-  **O mesajı görünce `/exit` yaz, Enter'a bas** — Claude kapanır.
+Program buradan sonrasını kendi yapar: Claude'u açar, işin bitmesini bekler, sonucu
+kaydedip yükler, sıradaki işe geçer. **Toplam 88 iş var**, hepsini sırayla yürütür.
 
-  ⚠️ Claude'a kendin bir şey yazma. Sıradaki işi program başlatacak; elle yazarsan
-  takibi şaşar.
+- **Sen hiçbir şey yazmayacaksın.** Enter'a basmak, `/exit` yazmak, E/H demek yok.
+- Ekranda tek satır durum göreceksin: kaçıncı işte olduğu ve o işin ne kadar sürdüğü.
+- **Kota dolarsa durmaz.** "Kota bekleniyor" yazıp geri sayıma geçer, saati gelince
+  kaldığı yerden devam eder. Bu sırada hiçbir şey harcanmaz.
+- **Pencereyi kapatma.** Kapanırsa üretim durur (yapılan işler kaybolmaz).
+- Bilgisayarın uyuması program tarafından engellenir. Ekran kilitlenebilir, sorun değil.
+- Durdurmak istersen pencerede **Ctrl + C**. Kaldığı yer kaydedilir; tekrar çift
+  tıklarsan oradan devam eder.
 
-  ⚠️ Arada bir Claude sana numaralı bir seçenek listesi sorabilir. O zaman
-  **"(Önerilen)" yazan seçeneği** ok tuşuyla seç ve Enter'a bas. Emin değilsen
-  bana ekran görüntüsü at.
-- Claude kapanınca arkadaki siyah pencerede bir soru bekliyor olacak:
-  **E** (evet, o mesajı gördüm) / **H** (hayır) / **L** (limit doldu) — birini yaz, Enter.
+⚠️ **İlk çalıştırmada bir kerelik bir adım isteyebilir:** "bu klasöre güveniyor musun"
+sorusunu bir kez senin onaylaman gerekir. Program ne yapacağını ekranda yazar, 1 dakika sürer.
 
-  ⚠️ **E demeden sıradaki işe geçmez.** Demezsen bir dahaki sefere aynı işi tekrar yapar.
-- Pencereyi kapat. Bir dahaki sefere yine çift tıkla, kaldığı yerden devam eder.
-
-**Toplam 88 çalıştırma var** (13 iş, her biri birkaç kez tekrarlanıyor).
-Program hangisinde olduğunu kendi takip ediyor.
-
-Hangi işlerin bittiğini zaten her çalıştırmada ekranda göreceksin. Ayrıca masaüstündeki
-**IELTS DURUM** kısayoluna çift tıklarsan liste Not Defteri'nde açılır. Kendiliğinden
-güncelleniyor, elle dokunma.
+Hangi işlerin bittiğini masaüstündeki **IELTS DURUM** kısayolundan görebilirsin.
+Kendiliğinden güncelleniyor, elle dokunma.
 
 ---
 
 ## Bilmen gereken 3 şey
 
-**"Limit doldu" yazacak.** Normal, bozulmadı. Claude'un söylediği saati bekle, tekrar
-çift tıkla. Yapılan iş kaydedildi, hiçbir şey kaybolmuyor.
+**"Kota doldu" yazacak.** Normal, bozulmadı. Program bekleyip kendi devam eder,
+senin bir şey yapmana gerek yok.
 
-**Birkaç haftaya yayılacak.** Bir günde bitmez, acelesi yok.
+**Birkaç güne/haftaya yayılacak.** Bir oturumda bitmez, acelesi yok.
 
-**Bilgisayarı istediğin zaman kapatabilirsin.** Her iş bitince sonuç kaydediliyor.
+**Bilgisayarı istediğin zaman kapatabilirsin.** Her iş bitince sonuç kaydediliyor;
+tekrar çift tıkladığında kaldığı yerden devam eder.
 
 ---
 
@@ -137,5 +131,6 @@ güncelleniyor, elle dokunma.
 | "Python bulunamadı" | Kurulumu tekrar çalıştır (1-b) |
 | "winget bulunamadı" | Microsoft Store → "App Installer" ara → güncelle → kurulumu tekrar çalıştır |
 | Kısayol yok | `C:\ielts-paketi` klasörünü aç, içindeki **KONTROL** / **CALISTIR** dosyalarını kullan |
-| Claude izin istiyor | "Yes" seç |
+| "Bu klasöre güveniyor musun" | Bir kez `claude` yaz → güvendiğini söyleyen seçeneği seç → `/exit` → tekrar çift tıkla |
+| "DURDU" yazıp kapandı | Bana ekran görüntüsü at, ben bakayım |
 | Başka bir şey | Bana yaz, ekran görüntüsü at |

@@ -1,17 +1,33 @@
-"""Adim adim calistirici - arkadasin tek dokunacagi sey.
+"""Otomatik calistirici - arkadasin tek dokunacagi sey.
 
-CALISTIR.bat bu dosyayi calistirir. Kullanicidan beklenen: Enter'a basmak ve
-is bitince E/H demek. Model secimi, dosya sirasi, komut yazimi burada halloluyor.
+CALISTIR.bat bu dosyayi calistirir. Bir kez baslatiliyor, kalan butun isleri
+sirayla kendi yapiyor: Claude'u acar, isi bitmesini bekler, sonucu dogrular,
+ilerlemeyi kaydeder, sonraki ise gecer.
+
+Kota dolarsa durmaz: sifirlanma saatini bekleyip kaldigi yerden devam eder.
+Ekstra kullanim (extra usage) kapali oldugu icin bu bekleme sirasinda hicbir
+sey harcanmaz. Bilgisayarin uyumasi da engellenir.
 """
 
 import datetime
 import os
+import re
 import subprocess
 import sys
+import threading
+import time
 
 KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 ILERLEME = os.path.join(KOK, "ilerleme.txt")
 DURUM = os.path.join(KOK, "DURUM.txt")
+UYARILAR = os.path.join(KOK, "UYARILAR.txt")
+
+# Bir is bu kadar surerse takilmistir - oldurup tekrar denenir.
+ADIM_ZAMAN_ASIMI = 120 * 60
+# Kota mesajindan saat okunamazsa bu kadar beklenir.
+LIMIT_VARSAYILAN_BEKLEME = 35 * 60
+# Ayni is ust uste bu kadar sonucsuz kalirsa program durur (sonsuz donguye girmesin).
+AZAMI_DENEME = 3
 
 def _yay(ad, model, dosya, kez, ek=""):
     """Bir gorevi, prompt dosyasinin istedigi calistirma sayisi kadar adima boler."""
@@ -213,16 +229,17 @@ def bicim_kontrolu():
     """Her turdan sonra yerel kontrol: sema hatasi, telif izi, isaretli soru.
 
     Token harcamaz. Tam test butunlugu bilerek gosterilmiyor - uretim surerken
-    testlerin eksik olmasi normal, gurultu yapar.
+    testlerin eksik olmasi normal, gurultu yapar. Bulunan sorunlarin listesini
+    dondurur; bos liste = sorun yok.
     """
     try:
         p = subprocess.run([sys.executable, os.path.join("tools", "dogrula.py")],
                            capture_output=True, text=True, timeout=180, cwd=KOK)
     except Exception:
-        return
+        return []
     cikti = (p.stdout or "") + (p.stderr or "")
     if not cikti.strip():
-        return
+        return []
 
     sorunlar = []
     for satir in cikti.splitlines():
@@ -236,17 +253,7 @@ def bicim_kontrolu():
         elif "lisansi eksik:" in s and not s.endswith("lisansi eksik: 0"):
             sorunlar.append(s)
 
-    print()
-    if sorunlar:
-        cizgi("!")
-        print("  BICIM KONTROLU: DIKKAT")
-        for s in sorunlar:
-            print("    - %s" % s)
-        print()
-        print("  Uretim durmasin, devam et - ama bu ekranin fotografini bana at.")
-        cizgi("!")
-    else:
-        print("  Bicim kontrolu: sorun yok.")
+    return sorunlar
 
 
 def sor(soru, gecerli):
@@ -257,21 +264,243 @@ def sor(soru, gecerli):
         print("   Anlamadim. Sunlardan birini yaz: " + " / ".join(gecerli))
 
 
+# --------------------------------------------------------------------------
+# Otomatik calistirma
+# --------------------------------------------------------------------------
+
+def uyku_engelle(ac=True):
+    """Windows'ta bilgisayarin uyumasini engeller - gece boyu calisabilsin.
+
+    Ekran yine kilitlenebilir, sorun degil; engellenen sadece uyku.
+    """
+    try:
+        import ctypes
+        ES_CONTINUOUS = 0x80000000
+        ES_SYSTEM_REQUIRED = 0x00000001
+        bayrak = (ES_CONTINUOUS | ES_SYSTEM_REQUIRED) if ac else ES_CONTINUOUS
+        ctypes.windll.kernel32.SetThreadExecutionState(bayrak)
+    except Exception:
+        pass  # Windows disi ya da izin yok - is akisini bozmasin.
+
+
+def guven_var_mi(yol=None):
+    """Bu klasor Claude'un gozunde 'guvenilir' mi diye bakar.
+
+    Guven verilmemisse .claude/settings.json'daki izinler YOK SAYILIYOR. Soru
+    sormayan kipte Claude izin isteyemedigi icin is de yapamaz, sessizce bos doner.
+    Guveni koddan vermiyoruz - onay ekranini atlamak dogru olmaz, kullanici bir kez
+    kendisi onaylar.
+    """
+    import json
+    try:
+        with open(yol or os.path.expanduser("~/.claude.json"), encoding="utf-8") as f:
+            d = json.load(f)
+        return bool(d.get("projects", {}).get(KOK, {}).get("hasTrustDialogAccepted"))
+    except Exception:
+        return False
+
+
+def _kabuk(komut, zaman_asimi=60):
+    try:
+        p = subprocess.run(komut, shell=True, capture_output=True, text=True,
+                           cwd=KOK, timeout=zaman_asimi, errors="replace")
+        return (p.stdout or "").strip()
+    except Exception:
+        return ""
+
+
+def repo_imzasi():
+    """Deponun o anki hali. Is gercekten yapildi mi bunu karsilastirarak anlariz.
+
+    'E' demeyi insana sormak yerine dosyalara bakiyoruz: yeni gonderi, kaydedilmemis
+    degisiklik ya da artan soru sayisi = is yapilmis demektir.
+    """
+    import glob
+    head = _kabuk("git rev-parse HEAD")
+    kirli = _kabuk("git status --porcelain")
+    sayi = sum(_soru_say(k) for _, k, _ in HEDEFLER)
+    pasaj = len([p for p in glob.glob(os.path.join(KOK, "passages", "**", "*.json"),
+                                      recursive=True) if "INDEX" not in p])
+    return (head, kirli, sayi + pasaj)
+
+
+LIMIT_IZLERI = ("usage limit", "rate limit", "limit reached", "limit will reset",
+                "resets at", "out of usage", "quota exceeded", "too many requests")
+
+
+def limit_izi_var(cikti):
+    d = (cikti or "").lower()
+    return any(iz in d for iz in LIMIT_IZLERI)
+
+
+def reset_suresi(cikti):
+    """Kota mesajindaki saatten kac saniye beklenecegini cikarir."""
+    m = re.search(r"reset\w*\s+at\s+(\d{1,2})(?::(\d{2}))?\s*(am|pm)?", cikti or "", re.I)
+    if not m:
+        return None
+    saat, dakika = int(m.group(1)), int(m.group(2) or 0)
+    ap = (m.group(3) or "").lower()
+    if ap == "pm" and saat < 12:
+        saat += 12
+    if ap == "am" and saat == 12:
+        saat = 0
+    if saat > 23:
+        return None
+    simdi = datetime.datetime.now()
+    hedef = simdi.replace(hour=saat, minute=dakika, second=0, microsecond=0)
+    if hedef <= simdi:
+        hedef += datetime.timedelta(days=1)
+    # Iki dakika pay: saat tam dolmadan denersen yine reddeder.
+    return int((hedef - simdi).total_seconds()) + 120
+
+
+def geri_sayim(saniye, basligi):
+    """Beklerken ekranda kalan sureyi gosterir."""
+    bitis = time.time() + saniye
+    try:
+        while True:
+            kalan = int(bitis - time.time())
+            if kalan <= 0:
+                break
+            sys.stdout.write("\r  %s  Devam etmeye %02d:%02d:%02d kaldi.   "
+                             % (basligi, kalan // 3600, (kalan % 3600) // 60, kalan % 60))
+            sys.stdout.flush()
+            time.sleep(5)
+    finally:
+        sys.stdout.write("\r" + " " * 72 + "\r")
+        sys.stdout.flush()
+
+
+def claude_calistir(model, talimat):
+    """Claude'u kendi kendine calisacak sekilde acar, bitmesini bekler.
+
+    Soru sormayan kipte calisir (-p): isini bitirince kendi kapanir, kimsenin
+    '/exit' yazmasi gerekmez. Ekranda gecen sure gosterilir ki donmus sanilmasin.
+    """
+    guvenli = talimat.replace('"', "'")
+    komut = ('claude -p --model %s --permission-mode acceptEdits "%s"'
+             % (model, guvenli))
+    try:
+        p = subprocess.Popen(komut, shell=True, cwd=KOK, stdout=subprocess.PIPE,
+                             stderr=subprocess.STDOUT, text=True, errors="replace")
+    except Exception as e:
+        return 1, "claude baslatilamadi: %s" % e
+
+    parcalar = []
+
+    def oku():
+        try:
+            for satir in p.stdout:
+                parcalar.append(satir)
+        except Exception:
+            pass
+
+    t = threading.Thread(target=oku, daemon=True)
+    t.start()
+
+    basla = time.time()
+    asildi = False
+    try:
+        while p.poll() is None:
+            gecen = int(time.time() - basla)
+            sys.stdout.write("\r  Calisiyor... %d dk %02d sn.  (karisma, kendi bitirecek)   "
+                             % (gecen // 60, gecen % 60))
+            sys.stdout.flush()
+            if gecen > ADIM_ZAMAN_ASIMI:
+                asildi = True
+                p.kill()
+                break
+            time.sleep(5)
+    except KeyboardInterrupt:
+        p.kill()
+        raise
+    finally:
+        sys.stdout.write("\r" + " " * 72 + "\r")
+        sys.stdout.flush()
+
+    t.join(timeout=10)
+    cikti = "".join(parcalar)
+    if asildi:
+        cikti += "\n[program notu: is cok uzadi, durduruldu]"
+    return (p.returncode if p.returncode is not None else 1), cikti
+
+
+def uyari_kaydet(satirlar):
+    """Sorunlari dosyaya da yazar - arkadas ekranda kacirsa bile kaybolmasin."""
+    try:
+        with open(UYARILAR, "a", encoding="utf-8") as f:
+            f.write("\r\n".join(["", datetime.datetime.now().strftime("%d.%m.%Y %H:%M")]
+                                + ["  - %s" % s for s in satirlar]) + "\r\n")
+    except Exception:
+        pass
+
+
 def guncelle():
     """Baslarken depodan son surumu ceker - duzeltmeler gecikmesin diye."""
     subprocess.call("git pull --rebase --autostash", shell=True,
                     stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
 
 
+def bir_adim(n):
+    """Tek bir isi calistirir. Doner: 'bitti' / 'limit' / 'olmadi' / 'eksik'."""
+    ad, model, dosya, ek, _grup = ADIMLAR[n]
+    yol = "prompts/" + dosya
+    if not os.path.exists(os.path.join(KOK, yol)):
+        print("  HATA: %s bulunamadi." % yol)
+        return "eksik", ""
+
+    print()
+    cizgi("-")
+    print("  [%d / %d]  %s" % (n + 1, len(ADIMLAR), ad))
+    print("  Model: %s   Baslama: %s"
+          % (model, datetime.datetime.now().strftime("%H:%M")))
+    cizgi("-")
+
+    talimat = ("%s dosyasini bastan sona oku ve icindeki butun talimatlari uygula. "
+               "Bana soru sorma, isini bitirince sonucu kaydet ve GitHub'a yukle." % yol)
+    if ek:
+        talimat += " " + ek
+
+    once = repo_imzasi()
+    _kod, cikti = claude_calistir(model, talimat)
+    ilerledi = repo_imzasi() != once
+
+    # Kota mesajini yalnizca is ilerlemediyse kota saymak yanlis olur: is bitip
+    # kota da dolmus olabilir. Bu yuzden ikisi ayri sorular.
+    #  - ilerledi   -> is yapildi, sirayi ilerlet
+    #  - limit izi  -> devam etmeden once sifirlanmayi bekle
+    if ilerledi:
+        return ("bitti_limitli" if limit_izi_var(cikti) else "bitti"), cikti
+    if limit_izi_var(cikti):
+        return "limit", cikti
+    return "olmadi", cikti
+
+
 def main():
     os.chdir(KOK)
     guncelle()
+    uyku_engelle(True)
     n = ilerleme_oku()
 
     print()
     cizgi()
-    print("  IELTS ICERIK URETIMI")
+    print("  IELTS ICERIK URETIMI - OTOMATIK")
     cizgi()
+
+    if not guven_var_mi():
+        print()
+        print("  BIR KERELIK ADIM GEREKIYOR.")
+        print()
+        print("  Bu klasore henuz 'guveniyorum' demedin. Demeden Claude kendi")
+        print("  kendine calisamaz.")
+        print()
+        print("  Yapilacak (1 dakika):")
+        print("    1) Bu pencerede sunu yaz:  claude")
+        print("    2) Cikan soruda guvendigini soyleyen secenegi sec (Enter).")
+        print("    3) Sonra  /exit  yazip cik.")
+        print("    4) CALISTIR'a tekrar cift tikla.")
+        print()
+        return 1
 
     if n >= len(ADIMLAR):
         print()
@@ -284,69 +513,76 @@ def main():
     print()
     liste_goster(n)
     cizgi("-")
-
-    ad, model, dosya, ek, _grup = ADIMLAR[n]
+    print("  Buradan sonrasi kendi kendine calisir. Yapman gereken bir sey yok.")
+    print("  Kota dolarsa program beklemeye gecer, saati gelince devam eder.")
+    print("  Bilgisayarin uyumasi engellendi - pencereyi kapatma, yeter.")
     print()
-    print("  Simdi yapilacak: %s" % ad)
-    print("  Model: %s" % model)
-    print()
-    print("  Claude simdi acilacak ve kendi kendine calisacak.")
-    print("  Sen bir sey yazmayacaksin, sadece bitmesini bekleyeceksin.")
-    print("  (10-20 dakika surebilir. Sabirli ol.)")
-    print()
+    print("  Durdurmak istersen: Ctrl + C  (kaldigi yer kaydedilir)")
     cizgi("-")
-    input("  Baslamak icin ENTER'a bas...")
-    print()
 
-    yol = "prompts/" + dosya
-    if not os.path.exists(os.path.join(KOK, yol)):
-        print("  HATA: %s bulunamadi." % yol)
-        print("  PowerShell'e sunu yaz: cd C:\\ielts-paketi ; git pull")
-        print()
-        return 1
-
-    talimat = ("%s dosyasini bastan sona oku ve icindeki butun talimatlari uygula. "
-               "Bana soru sorma, isini bitirince sonucu kaydet ve GitHub'a yukle." % yol)
-    if ek:
-        talimat += " " + ek
-
+    deneme = 0
     try:
-        subprocess.call('claude --model %s "%s"' % (model, talimat), shell=True)
-    except Exception as e:
-        print("  Claude baslatilamadi: %s" % e)
-        print("  PowerShell'i kapatip yeniden ac, tekrar dene.")
-        return 1
+        while n < len(ADIMLAR):
+            sonuc, cikti = bir_adim(n)
+
+            if sonuc == "eksik":
+                print("  Depo eksik gorunuyor. PowerShell'e sunu yaz:")
+                print("     cd C:\\ielts-paketi ; git pull")
+                return 1
+
+            if sonuc == "limit":
+                sure = reset_suresi(cikti) or LIMIT_VARSAYILAN_BEKLEME
+                print("  Kota doldu. Hicbir sey kaybolmadi, hicbir sey harcanmiyor.")
+                geri_sayim(sure, "Kota bekleniyor.")
+                print("  Devam ediliyor...")
+                continue
+
+            if sonuc in ("bitti", "bitti_limitli"):
+                n += 1
+                deneme = 0
+                ilerleme_yaz(n)
+                print("  Bitti. (%d / %d)" % (n, len(ADIMLAR)))
+                if sonuc == "bitti_limitli":
+                    sure = reset_suresi(cikti) or LIMIT_VARSAYILAN_BEKLEME
+                    print("  Bu arada kota doldu. Beklenip devam edilecek.")
+                    geri_sayim(sure, "Kota bekleniyor.")
+            else:
+                deneme += 1
+                print("  Bu turda yeni bir sey uretilmedi (%d. deneme)." % deneme)
+                if deneme >= AZAMI_DENEME:
+                    uyari_kaydet(["'%s' isi %d kez denendi, sonuc alinamadi."
+                                  % (ADIMLAR[n][0], deneme)])
+                    print()
+                    cizgi("!")
+                    print("  DURDU: ayni is %d kez denendi, ilerleme olmadi." % deneme)
+                    print("  Firat'a haber ver, bu ekranin fotografini at.")
+                    cizgi("!")
+                    durum_yaz(n)
+                    return 1
+                geri_sayim(60, "Tekrar denenecek.")
+
+            sorunlar = bicim_kontrolu()
+            if sorunlar:
+                uyari_kaydet(sorunlar)
+                print("  Bicim uyarisi (uretim devam ediyor, UYARILAR.txt'ye yazildi):")
+                for s in sorunlar:
+                    print("    - %s" % s)
+
+            durum_yaz(n)
+
+    except KeyboardInterrupt:
+        print()
+        print("  Durduruldu. Kaldigi yer kaydedildi (%d / %d)." % (n, len(ADIMLAR)))
+        print("  CALISTIR'a tekrar cift tiklarsan buradan devam eder.")
+        durum_yaz(n)
+        return 0
+    finally:
+        uyku_engelle(False)
 
     print()
     cizgi()
-    print("  Claude kapandi.")
-    bicim_kontrolu()
-    print()
-    print("  Ekranda '... tamam' yazan bir mesaj gordun mu?")
-    print("    E = evet, gordum        -> sonraki ise geciyoruz")
-    print("    H = hayir, gormedim     -> ayni is devam ediyor, tekrar calistir")
-    print("    L = limit doldu dedi    -> beklemen lazim, ayni is devam ediyor")
-    print()
-    c = sor("  Cevabin (E / H / L): ", ["E", "H", "L"])
-
-    if c == "E":
-        ilerleme_yaz(n + 1)
-        print()
-        if n + 1 >= len(ADIMLAR):
-            print("  BUTUN ISLER BITTI. Tesekkurler!")
-        else:
-            print("  Kaydedildi. Siradaki is: %s" % ADIMLAR[n + 1][0])
-            print("  CALISTIR dosyasina tekrar cift tikla.")
-    elif c == "L":
-        print()
-        print("  Sorun degil, hicbir sey kaybolmadi.")
-        print("  Claude'un soyledigi saati bekle, sonra CALISTIR'a tekrar cift tikla.")
-    else:
-        print()
-        print("  Tamam. CALISTIR'a tekrar cift tikla, ayni isten devam edecek.")
-
-    # Cevap ne olursa olsun listeyi tazele: uretim sayimi degismis olabilir.
-    durum_yaz(n + 1 if c == "E" else n)
+    print("  BUTUN ISLER BITTI. Tesekkurler!")
+    cizgi()
     print()
     return 0
 
