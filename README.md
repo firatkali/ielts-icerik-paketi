@@ -9,13 +9,22 @@
 **a)** E-postandaki GitHub davetini kabul et (yeşil **"Accept invitation"** düğmesi).
 Gelmediyse: [buradan kabul et](https://github.com/firatkali/ielts-icerik-paketi/invitations)
 
-**b)** Başlat menüsüne `PowerShell` yaz, aç. Şu satırı yapıştır, Enter:
+**b)** Klavyeden **Windows tuşuna** bas (sol altta, pencere şeklindeki tuş).
+Açılan yere `powershell` yaz. En üstte çıkan **Windows PowerShell**'e tıkla.
+
+> PowerShell, Windows'ta hazır gelen siyah bir yazı penceresidir. Bir şey kurman
+> gerekmiyor, sadece açman yeterli. Korkutucu görünüyor ama tek yapacağın şey
+> aşağıdaki satırı yapıştırmak.
+
+Siyah pencere açılınca şu satırı **kopyala**, pencerenin içine **sağ tıkla** (yapıştırır),
+sonra **Enter**'a bas:
 
 ```
 irm https://raw.githubusercontent.com/firatkali/ielts-icerik-paketi/main/kurulum.ps1 | iex
 ```
 
-5-15 dakika sürer. İki kez giriş isteyecek — tarayıcı açılınca **"Authorize"** de.
+5-15 dakika sürer, bu sırada bir sürü yazı akacak — normal, karışma.
+İki kez giriş isteyecek: tarayıcı açılınca hesabınla gir ve **"Authorize"** de.
 
 Bitince masaüstünde iki kısayol olacak: **IELTS KONTROL** ve **IELTS CALISTIR**.
 
@@ -60,6 +69,8 @@ Masaüstündeki **IELTS CALISTIR** kısayoluna çift tıkla.
 
 | Ne görüyorsun | Ne yap |
 |---|---|
+| PowerShell'i bulamıyorum | Windows tuşu → `powershell` yaz → çıkan ilk sonuca tıkla |
+| Yapıştıramıyorum | Pencerenin içine sağ tıkla, kendisi yapıştırır (Ctrl+V çalışmayabilir) |
 | "Python bulunamadı" | Kurulumu tekrar çalıştır (1-b) |
 | "winget bulunamadı" | Microsoft Store → "App Installer" ara → güncelle → kurulumu tekrar çalıştır |
 | Kısayol yok | `C:\ielts-paketi` klasörünü aç, içindeki **KONTROL** / **CALISTIR** dosyalarını kullan |
