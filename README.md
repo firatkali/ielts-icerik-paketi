@@ -8,30 +8,32 @@
 
 ## Bir kereye mahsus kurulum
 
-Terminale sırayla yapıştır, her birinden sonra Enter:
+**1) Daveti kabul et.**
+E-postana GitHub'dan bir davet geldi (konu: *"firatkali has invited you to collaborate"*). İçindeki yeşil **"Accept invitation"** düğmesine bas.
+Gelmediyse: [github.com/firatkali/ielts-icerik-paketi/invitations](https://github.com/firatkali/ielts-icerik-paketi/invitations) adresine gir, oradan kabul et.
 
-**1)** Projeyi indir:
+**2) Projeyi bilgisayarına indir.** Terminale yapıştır, Enter:
 ```
 git clone https://github.com/firatkali/ielts-icerik-paketi.git ~/Desktop/ielts-paketi
 ```
+Masaüstünde `ielts-paketi` diye bir klasör oluşacak.
 
-**2)** GitHub'a bağlan — tarayıcı açılır, hesabınla giriş yap, "Authorize" de:
+**3) GitHub'a bağlan.** Terminale yapıştır, Enter:
 ```
 gh auth login
 ```
+Sorular soracak — hepsinde Enter'a basıp geç, sonunda tarayıcı açılır, hesabınla giriş yapıp **"Authorize"** de.
 
-**3)** Klasöre gir:
-```
-cd ~/Desktop/ielts-paketi
-```
-
-Bu kadar. Bir daha yapmayacaksın.
+Kurulum bitti. Bir daha yapmayacaksın.
 
 ---
 
 ## Her dosya için 5 adım
 
-**1.** Terminalde `claude` yaz, Enter.
+**1.** Terminale bunu yapıştır, Enter — Claude açılır:
+```
+cd ~/Desktop/ielts-paketi && claude
+```
 
 **2.** Dosya adının başına bak, modeli seç:
 
@@ -41,7 +43,7 @@ Bu kadar. Bir daha yapmayacaksın.
 | `FABLE5-` ile başlıyorsa | `/model fable` |
 | `CAPRAZ-` ile başlıyorsa | dosyanın içinde yazıyor |
 
-**3.** Dosyayı aç, **içindekilerin hepsini** kopyala, yapıştır, Enter.
+**3.** Prompt dosyasını aç: Masaüstündeki `ielts-paketi` klasörüne gir, `prompts` klasörünü aç, sıradaki dosyaya çift tıkla. Açılan yazının **hepsini** seç (`Cmd+A`), kopyala (`Cmd+C`), Claude'a yapıştır, Enter.
 
 **4.** Bitmesini bekle. Claude sonucu kendisi kaydedip GitHub'a yükler.
 
@@ -60,9 +62,20 @@ Numara sırasına göre git:
 
 ---
 
+## Fırat yeni dosya eklerse
+
+Terminale yapıştır, Enter — yeni dosyalar iner:
+```
+cd ~/Desktop/ielts-paketi && git pull
+```
+
+---
+
 ## Takılırsan
 
 - **Uzun sürüyor:** normal, bazıları 10-15 dakika. Bekle.
 - **Claude izin isterse:** "Yes" seç. (Normalde sormaz, ayarlar hazır — ama beklenmedik bir şey çıkarsa sorabilir.)
+- **`prompts` klasörü boş görünüyor:** `git pull` komutunu çalıştır (yukarıda).
 - **Ters gitti:** `/exit` yaz, terminali kapat, baştan aç.
-- **`gh auth login` çalışmadı** veya **anlamadığın bir şey:** bana yaz.
+- **`git` veya `gh` komutu bulunamadı diyor:** bana yaz, kurulum lazım.
+- **Anlamadığın bir şey:** bana yaz.
