@@ -290,7 +290,6 @@ def main():
 
     if c == "E":
         ilerleme_yaz(n + 1)
-        durum_yaz(n + 1)
         print()
         if n + 1 >= len(ADIMLAR):
             print("  BUTUN ISLER BITTI. Tesekkurler!")
@@ -304,6 +303,9 @@ def main():
     else:
         print()
         print("  Tamam. CALISTIR'a tekrar cift tikla, ayni isten devam edecek.")
+
+    # Cevap ne olursa olsun listeyi tazele: uretim sayimi degismis olabilir.
+    durum_yaz(n + 1 if c == "E" else n)
     print()
     return 0
 
