@@ -1,4 +1,4 @@
-# ⚠️ BU DOSYAYI ÇALIŞTIRMADAN ÖNCE: `/model opus`
+# ⚠️ BU DOSYAYI ÇALIŞTIRMADAN ÖNCE: `/model sonnet`
 
 Bu dosya **3 kez** çalıştırılır (her seferinde ayrı oturum):
 - **1. çalıştırma:** `A01`–`A06`

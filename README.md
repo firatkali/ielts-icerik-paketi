@@ -16,6 +16,18 @@ bitmiştir, sıradakine geçersin.
 Her dosyanın en üstünde kaç kez çalıştırılacağı yazıyor. Toplamda **yaklaşık 90 oturum**
 olacak. Sıkıcı ama her oturum kısa.
 
+## ⏳ Kullanım limiti dolacak — bu normal
+
+Claude Pro'nun 5 saatlik kullanım limiti var. Bu iş ağır olduğu için **limite düzenli
+olarak takılacaksın.** Claude *"limit doldu, şu saatte sıfırlanacak"* dediğinde:
+
+- **Hiçbir şey bozulmadı.** O ana kadar yapılan iş kaydedildi ve GitHub'a yüklendi.
+- Yazan saati bekle, sonra **aynı dosyayı** yeni bir oturumda tekrar yapıştır.
+  Claude kaldığı yerden devam eder.
+- Bekleme sırasında bilgisayarı kapatabilirsin, bir şey kaybolmaz.
+
+Bu yüzden iş bir günde bitmez — birkaç haftaya yayılacak. Acele etme, sırayı bozma.
+
 ---
 
 # Bir kereye mahsus kurulum (Windows)
@@ -104,7 +116,7 @@ cd C:\ielts-paketi ; claude
 | Dosya adı şununla başlıyorsa | Yazacağın |
 |---|---|
 | `00-` | `/model sonnet` |
-| `01-` | `/model opus` |
+| `01-` | `/model sonnet` |
 | `OPUS5-` | `/model opus` |
 | `FABLE5-` | `/model fable` |
 | `CAPRAZ-` | dosyanın içindeki tabloya bak (bazısı opus, bazısı fable) |
@@ -164,6 +176,9 @@ cd C:\ielts-paketi ; git pull
 # Takılırsan
 
 - **Uzun sürüyor:** normal, bazıları 10-15 dakika. Bekle.
+- **"Limit doldu" diyor:** normal, yukarıdaki bölümü oku. Bekle ve aynı dosyayı tekrar yapıştır.
+- **`/model opus` yazınca kabul etmiyor:** Claude Code güncel değil olabilir. `/exit` yaz,
+  PowerShell'e `claude update` yaz, sonra tekrar dene.
 - **Claude izin isterse:** "Yes" seç. (Normalde sormaz, ayarlar hazır.)
 - **`prompts` klasörü boş görünüyor:** `git pull` çalıştır (yukarıda).
 - **`claude`, `git`, `gh` veya `python` "tanınmıyor" diyor:** o programın kurulumu
