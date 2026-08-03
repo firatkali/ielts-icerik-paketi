@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "passage_id": "A03",
+  "module": "academic",
+  "section": null,
+  "title": "The Volcano That Shows Us Tomorrow's Ocean",
+  "topic": "iklim / jeoloji / okyanus",
+  "word_count": 721,
+  "paragraphs": [
+    { "label": "A", "text": "Maug is an uninhabited volcanic island in the Commonwealth of the Northern Mariana Islands, roughly 450 miles north of Guam in the western Pacific. Few people ever visit it, yet the shallow waters around it have become one of the most closely studied coral reef sites in the world, because Maug offers scientists something no laboratory tank can fully replicate: a real reef living permanently in the acidified seawater that much of the ocean is expected to experience within decades. Studying such a site removes much of the guesswork involved in predicting how marine ecosystems will actually respond, rather than merely how individual organisms behave under short-term laboratory stress." },
+    { "label": "B", "text": "The island's unusual chemistry comes from its geology. Maug is what remains of a volcano that collapsed long ago, leaving three small islands arranged in a rough circle around a flooded caldera. Magma still sits beneath the seafloor, and along the inner shoreline of the caldera it drives shallow vents that continuously release carbon dioxide gas directly into the water beside a living coral reef, a combination that is extremely rare anywhere on Earth." },
+    { "label": "C", "text": "Ocean acidification is one of the most pressing consequences of rising atmospheric carbon dioxide: as the ocean absorbs more of the gas, seawater chemistry shifts and becomes more acidic, making it harder for corals and other marine organisms to build their skeletons and shells. Predicting the long-term effects of this slow global process is difficult in a laboratory, where experiments typically run for only weeks or months. At Maug, by contrast, the reef has already been living for years in conditions similar to those the wider ocean is not expected to reach for decades, effectively offering a preview of the future." },
+    { "label": "D", "text": "A research team led by the coral ecologist Ian Enochs, of NOAA's Cooperative Institute for Marine and Atmospheric Studies at the University of Miami, carried out a detailed survey at Maug beginning in May 2014, with a follow-up visit planned for that August. The team deployed instruments to continuously record temperature, light, the partial pressure of carbon dioxide, seawater pH and water currents, while divers collected coral cores, applied dye to mark new growth, and used funnels to capture bubbles of gas escaping from the vents for laboratory analysis." },
+    { "label": "E", "text": "The first results showed that, close to the vents, surface water pH was locally lowered by 0.1 to 0.2 pH units compared with the surrounding reef. That is the same order of change scientists project for the global ocean as a whole due to human carbon dioxide emissions, which is what makes the site so valuable: rather than modelling a hypothetical future, researchers can measure how a real reef community actually behaves under it." },
+    { "label": "F", "text": "The carbon dioxide appears to reshape the reef community itself, not just the water's chemistry. Immediately around the vents, weedy algae tend to dominate the seafloor, while reefs only a short distance away, in less acidified water, remain visibly healthier and more coral-dominated. This pattern matches a broader concern among reef scientists: that as oceans acidify, algae may increasingly outcompete corals for space, gradually replacing complex reef habitat with simpler algal turf." },
+    { "label": "G", "text": "A related study of the Maug reef, published separately in the journal PLOS ONE, focused on what happens inside coral skeletons rather than on the seafloor surface. It found that in the naturally acidified water near the vents, microscopic boring organisms colonised coral skeletons more heavily, accelerating a process called bioerosion in which the skeleton is weakened and broken down from within. Over time, faster bioerosion could outpace the corals' ability to grow and repair themselves, threatening the structural integrity of the reef even where live coral is still present, since a reef's three-dimensional skeleton provides shelter for a huge range of other marine species, not just the corals themselves." },
+    { "label": "H", "text": "Taken together, the findings from Maug support a troubling projection: researchers argue that the changes already visible on this remote reef, weaker skeletons, a shift toward algae, and altered water chemistry, are broadly comparable to what coral reefs worldwide are likely to experience by the end of this century if current trends in ocean acidification continue. For that reason, scientists regard the island less as a curiosity than as an early warning system, showing in the present what the consequences of a warmer, more acidic ocean could look like almost everywhere else." }
+  ],
+  "texts": null,
+  "source": {
+    "origin": "NOAA (Atlantic Oceanographic and Meteorological Laboratory / Office of Ocean Exploration and Research)",
+    "title": "Volcanic Island of Maug Provides Natural Lab for Ocean Acidification",
+    "url": "https://www.aoml.noaa.gov/maug-provides-natural-lab-for-ocean-acidification/",
+    "license": "Kamu malı (ABD federal kurumu)",
+    "attribution": "Adapted from NOAA/AOML public-domain reporting on the Maug ocean acidification research, led by Ian Enochs (NOAA/CIMAS, University of Miami).",
+    "adapted": true
+  },
+  "notes": "NOAA/AOML sayfasi ve ilgili PLOS ONE calismasinin ozeti temel alinarak yeniden yazildi; teknik detaylar sadelestirildi, genel okur icin anlatim kuruldu."
+}
