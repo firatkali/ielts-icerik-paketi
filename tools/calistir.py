@@ -209,6 +209,46 @@ def durum_yaz(n):
                         stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
 
 
+def bicim_kontrolu():
+    """Her turdan sonra yerel kontrol: sema hatasi, telif izi, isaretli soru.
+
+    Token harcamaz. Tam test butunlugu bilerek gosterilmiyor - uretim surerken
+    testlerin eksik olmasi normal, gurultu yapar.
+    """
+    try:
+        p = subprocess.run([sys.executable, os.path.join("tools", "dogrula.py")],
+                           capture_output=True, text=True, timeout=180, cwd=KOK)
+    except Exception:
+        return
+    cikti = (p.stdout or "") + (p.stderr or "")
+    if not cikti.strip():
+        return
+
+    sorunlar = []
+    for satir in cikti.splitlines():
+        s = satir.strip()
+        if s.startswith("=== SEMA HATALARI:") and not s.endswith("0 ==="):
+            sorunlar.append(s.replace("===", "").strip())
+        elif "gecen dosya:" in s and not s.endswith(": 0"):
+            sorunlar.append(s)
+        elif s.startswith("isaretli (flagged)") and not s.endswith(" 0"):
+            sorunlar.append(s)
+        elif "lisansi eksik:" in s and not s.endswith("lisansi eksik: 0"):
+            sorunlar.append(s)
+
+    print()
+    if sorunlar:
+        cizgi("!")
+        print("  BICIM KONTROLU: DIKKAT")
+        for s in sorunlar:
+            print("    - %s" % s)
+        print()
+        print("  Uretim durmasin, devam et - ama bu ekranin fotografini bana at.")
+        cizgi("!")
+    else:
+        print("  Bicim kontrolu: sorun yok.")
+
+
 def sor(soru, gecerli):
     while True:
         c = input(soru).strip().upper()
@@ -280,6 +320,7 @@ def main():
     print()
     cizgi()
     print("  Claude kapandi.")
+    bicim_kontrolu()
     print()
     print("  Ekranda '... tamam' yazan bir mesaj gordun mu?")
     print("    E = evet, gordum        -> sonraki ise geciyoruz")
