@@ -3,6 +3,9 @@ chcp 65001 >nul
 title IELTS kurulum kontrolu
 cd /d "%~dp0"
 
+rem Once son surumu cek, sonra kontrol et.
+git pull --rebase --autostash >nul 2>&1
+
 where python >nul 2>&1
 if %errorlevel%==0 (
     python tools\kontrol.py

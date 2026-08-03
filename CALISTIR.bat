@@ -3,6 +3,9 @@ chcp 65001 >nul
 title IELTS icerik uretimi
 cd /d "%~dp0"
 
+rem Program baslamadan once son surumu cek - duzeltmeler gecikmeden gelsin.
+git pull --rebase --autostash >nul 2>&1
+
 where python >nul 2>&1
 if %errorlevel%==0 (
     python tools\calistir.py
