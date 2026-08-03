@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Read",
+      "Write",
+      "Edit",
+      "Glob",
+      "Grep",
+      "WebFetch",
+      "Bash(git:*)",
+      "Bash(mkdir:*)",
+      "Bash(curl:*)",
+      "Bash(pdftotext:*)",
+      "Bash(ls:*)",
+      "Bash(cat:*)"
+    ]
+  }
+}
