@@ -16,6 +16,11 @@ Resmi belgelerden **kopya alınmıyor** — o sorular telifli, kullanamayız. Sa
 biçimi örnek alınıyor. Soruların dayandığı okuma metinleri de NASA, PLOS ve OpenStax
 gibi serbestçe kullanılabilen kaynaklardan seçiliyor.
 
+> 🚫 **Cambridge IELTS kitaplarını (Book 1-19) kullanma.** İnternette dolaşan
+> kopyaları korsan; oradan tek bir soru bile içeri girerse uygulama şikâyet üzerine
+> mağazadan kaldırılır. O dosyaları açma, Claude'a gösterme, bu klasöre koyma.
+> İhtiyacımız olan resmi örnekleri program kendi indirdi.
+
 **Sonunda çıkacak olan, kabaca 1.300 soru:**
 
 - 6 okuma testi (her biri 40 soru) + ayrıca soru tipi alıştırmaları
@@ -93,6 +98,10 @@ Masaüstündeki **IELTS CALISTIR** kısayoluna çift tıkla.
 
   ⚠️ Claude'a kendin bir şey yazma. Sıradaki işi program başlatacak; elle yazarsan
   takibi şaşar.
+
+  ⚠️ Arada bir Claude sana numaralı bir seçenek listesi sorabilir. O zaman
+  **"(Önerilen)" yazan seçeneği** ok tuşuyla seç ve Enter'a bas. Emin değilsen
+  bana ekran görüntüsü at.
 - Claude kapanınca arkadaki siyah pencerede bir soru bekliyor olacak:
   **E** (evet, o mesajı gördüm) / **H** (hayır) / **L** (limit doldu) — birini yaz, Enter.
 
