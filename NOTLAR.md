@@ -736,3 +736,97 @@ Bu dosyaya her oturumda alınan kararlar, atlanan işler ve karşılaşılan sor
   etiketlemesi için uygun. SVG'ler prompt kurallarına göre tek parça, sabit renksiz,
   `viewBox`'lı ve numaralı kutulu olmalı; `question_type` alanı `diagram_labelling`,
   ek zorunlu alan `visual`.
+
+## OPUS5-10 (10. çalıştırma: alıştırma — diyagram / plan etiketleme)
+
+- Tarih: 2026-08-04
+- Depo kontrolü: altı tam test (AC1–AC4 15'er, GT1–GT2 13'er = 86 soru) ve
+  `content/reading/practice/` altındaki dört dosya (`sentence-completion`,
+  `note-completion`, `summary-completion` 15'er, `short-answer` 10) tamdı →
+  çalıştırma listesindeki **10. paket (alıştırma: diyagram / plan etiketleme, 10 soru)**
+  tek kalan işti, o yapıldı. **OPUS5-10 böylece bitti: 86 + 65 = 151 soru.**
+- Üretilen dosya: `content/reading/practice/diagram-labelling.json` — soru **1–10**,
+  pasajlar **G01 (1–3), G02 (4–5), G03 (6–8), G04 (9–10)**.
+- **Pasaj seçimi:** 9. çalıştırmanın bilinçli kararı gereği akademik pasajların
+  kontenjanı dolmuştu; elde yalnız G01–G04 (4'er) ve G06 (1) vardı. Dördü de bu pakete
+  girdi, G06'ya dokunulmadı (özet tamamlamada bitişik boşluk gerektiren tek pasaj payı
+  olarak bırakmanın anlamı kalmadı, ama tek soruluk bir beşinci diyagram gereksizdi).
+  Alıştırma genelinde pasaj başına soru sayısı: A01–A12 ve G05 4/4, G01 3, G02 2, G03 3,
+  G04 2, G06 3 — **hiçbiri 4'ü aşmıyor**.
+- **Tam testle çakışma önleme:** G01 ve G02'ye OPUS5-10'un tam test payı hiç dokunmamıştı
+  (GT1/GT2'nin 15–20, 25–27, 37–40 soruları G03/G04/G05/G06'dan geliyor), bu yüzden bu
+  ikisinde serbest seçim yapıldı. G03'te GT1'in kullandığı cümleler (A metni A/3, B/5,
+  C/1, D/1; B metni A/1, B/2, B/5, C/1, D/2) dışarıda bırakıldı; diyagram A metninin
+  **A/1, A/2 ve B/4** cümlelerinden kuruldu. G04'te GT2'nin kullandığı A metni tümüyle
+  ve B metninin A/1, B/5, D/2 cümleleri dışarıda bırakıldı; diyagram B metninin
+  **B/2 ve B/4** cümlelerinden kuruldu. Denetim, hiçbir `evidence` cümlesinin öteki
+  dokuz soru dosyasındaki bir `evidence` ile birebir çakışmadığını doğruladı.
+- **Dört ayrı görsel, tek `visual` alanı:** prompt şeması `visual`ı grup düzeyinde
+  tanımlıyor, ama 10 soru dört ayrı pasajdan geliyor. Şemayı bozmamak için **tek bir SVG
+  tuvali** üretildi; içinde yatay çizgilerle ayrılmış dört bölüm var (Diagram A/B/C/D),
+  her bölümün başlığında hangi pasaja ait olduğu yazıyor. Boşluk numaraları tuval boyunca
+  1'den 10'a kesintisiz ilerliyor ve her numara hem SVG'de hem ilgili `prompt`ta geçiyor.
+- **Seçilen görseller ve gerekçe** (pasaj somut bir nesne/süreç/mekân anlatmalı kuralı):
+  - **A — Elm Court atık akışı (G01):** binadan çıkan üç atık akımının şeması; boşluklar
+    çöp alanının arkasındaki blok, takvimin asıldığı yer, büyük eşya toplamasının
+    ayarlandığı birim.
+  - **B — Millbrook bisiklet kiralama (G02):** yerleştirme istasyonu direkleri, bisiklet
+    ve kasklı sürücü çizimi; boşluklar istasyonun adı ve sürücünün kendi getirmesi
+    gereken parça.
+  - **C — Fernbridge iş günü (G03):** 6.00–22.00 zaman çizgisi; vardiya çubukları, çekirdek
+    saat kuşağı ve mola kutuları. En "gerçek diyagram" duran bölüm bu.
+  - **D — Cedarline evden çalışma düzeni (G04):** masa, dizüstü, yönlendirici, telefon;
+    boşluklar izin verilen en düşük bağlantı hızı ve çekirdek saatlerde yanıt verilecek
+    kanal.
+  - Yalnızca `rect`, `circle`, `line`, `path`, `polygon`, `text` kullanıldı; `viewBox`
+    var, sabit `width`/`height` yok, renkler yalnız `#000`/`#fff`/`none`, yazı
+    `font-size="12"`, `font-family="sans-serif"`. `alt` alanı Türkçe ve her boşluğun ne
+    sorduğunu anlatıyor.
+- Kelime sınırı: **`NO MORE THAN THREE WORDS AND/OR A NUMBER`** — tek sayısal cevap
+  (`10 Mbps`) yüzünden sayı içeren kalıp seçildi. En uzun cevap iki kelime; `15-minute`
+  tireli olduğu için tek kelime sayılıyor.
+- **Sıra kuralı** her pasaj bloğu içinde ayrı ayrı uygulandı: G01 D1→D2→D4,
+  G02 A1→A3, G03 A/A1→A/A2→A/B4, G04 B/B2→B/B4; bölümler de pasaj kimliği sırasında.
+- Elenen soru: yok. **Vazgeçilen cevap adayları:** G01'de `Monday` / `Tuesdays and Fridays`
+  (gün adları A ve E metinlerinde de geçiyor, benzersizlik kuralı); G02'de `£350` ve `£90`
+  (bir tuvalde sayısal cevap yığılmasın diye) ve `lane swimming` (`lane sessions` ile aynı
+  boşluğa savunulabilir ikinci bir cevap üretiyordu); G03'te `late` (pasajda 5 kez:
+  `late shift`, `lateness`, `no later than`), `10-minute` ve `30-minute` (üç mola süresinden
+  ikisi aynı anda sorulunca çeldirici değil kafa karışıklığı oluyordu — ikisi de şemada
+  **verili** bırakıldı, yalnız `15-minute` soruldu), `four weeks` (iki yerde); G04'te
+  `laptops` (üçüncü bir masaüstü etiketi şemayı kalabalıklaştırıyordu), `core hours`
+  (6. sorunun cevabı olduğu için aynı cevabın iki kez çıkmaması adına), `client-facing`
+  ve `ten weeks` (FABLE5-41'in 21–24 çoktan seçmeli malzemesi kalsın diye).
+- Doğrulama: geçici denetim scriptleriyle (`tools/_p10_uret.py`, `tools/_p10_kontrol.py`,
+  `tools/_p10_ortusme.py` — üçü de silindi) JSON geçerliliği, zarf alanlarının tamlığı,
+  `stem_block`/`word_bank`ın null olması, soru sayısı (10), numara aralığı (1–10), her
+  boşluk numarasının hem `prompt`ta hem SVG'de bulunması, `evidence`in pasajda **birebir**
+  geçişi, `evidence_locator`ın (metin + paragraf + kaçıncı cümle) o cümleye birebir denk
+  gelmesi, cevabın kendi `evidence`ı içinde bulunması, cevabın pasajdaki geçiş sayısı
+  (**hepsi tam 1**), kelime sınırı, `accepted_variants` bütünlüğü, cevap tekrarı, pasaj içi
+  sıra kuralı, alıştırma genelinde pasaj başına soru sayısı (≤4), öteki dokuz soru
+  dosyasındaki `evidence` cümleleriyle çakışma, soru kökü–pasaj örtüşmesi,
+  `explanation`ların Türkçe ve dolu olması, zorluk çeşitliliği (easy 4, medium 4, hard 2),
+  "IELTS" geçmemesi; ayrıca **SVG'ye özel**: XML olarak ayrıştırılabilirlik, izinli eleman
+  listesi, `viewBox` varlığı, sabit `width`/`height` olmaması, izinli renkler, metinlerin
+  tuval ve kutu sınırlarını taşmaması, kutuların üst üste binmemesi. İlk turda çıkan
+  hatalar düzeltildi: (1) açıklamalar Türkçe karakter içermiyordu, hepsi yeniden yazıldı;
+  (2) B ve D bölümlerinde etiket metinleri kutularını taşıyordu, düzen yeniden
+  yerleştirildi (etiket kutuları çizimin sağına/altına alındı, kılavuz çizgiler çizimin
+  üstünden geçmeyecek şekilde yönlendirildi); (3) 4. sorunun kökü ile pasaj arasında
+  5 kelimelik (`from any of the twelve`) örtüşme vardı, cümle yeniden yazıldı; (4) SVG'de
+  `the colour-coded calendar in the` ifadesi birebir kopyaydı, `posted in` ile kırıldı.
+  Kalan tek 5 kelimelik örtüşme saat ifadeleri (`10 a.m. to 4 p.m.`, `2 p.m. to 10 p.m.`)
+  — bunlar veri, parafraze edilemez, bilerek bırakıldı. Son turda **hata 0**.
+  Ardından `python tools/dogrula.py`: **şema hatası 0**, okuma sorusu **151**
+  (tam test 86 + alıştırma 65), pasaj lisansı eksik 0, görünür metinde IELTS 0,
+  yasak kaynak 0.
+- Denetim scriptindeki cümle bölücü hakkında not: pasajlarda `a.m.` / `p.m.` ve ondalık
+  sayılar (`37.5`, `1.30`) var; naif `.`-bölücü `evidence_locator` doğrulamasını yanlış
+  yere düşürüyor. Bölme yalnız noktalama **büyük harfle** devam ediyorsa yapılmalı,
+  ondalık sayılar korunmalı. **Sonraki oturumlar GT metinleriyle çalışırken bunu
+  hatırlasın.**
+- Atlanan/sorun: yok. **OPUS5-10 TAMAM — 10 paketin 10'u da bitti: 151 soru**
+  (AC1–AC4 15'er, GT1–GT2 13'er, alıştırma 15+15+15+10+10). Okuma tarafında kalan işler
+  başka promptlarda: OPUS5-11 (bilgi eşleştirme), FABLE5-40/41/42. `ilerleme.txt` 14'e
+  çekildi, `DURUM.txt` yeniden üretildi (88 çalıştırmanın 14'ü).
