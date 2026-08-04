@@ -5,7 +5,7 @@ Bu dosyaya her oturumda alınan kararlar, atlanan işler ve karşılaşılan sor
 ## Ortam
 - İşletim sistemi: Windows
 - Çalışan Python komutu: `python` (veya `py` / `python3` — hangisi çalıştıysa)
-- Referanslar: `referans/*.pdf` — **`Read` aracının PDF render'ı bu makinede çalışmıyor** (`pdftoppm` kurulu değil, "poppler" hatası verir). Sistemde `pdftotext` (Git for Windows / poppler ile gelen) kurulu; PDF'i okumak için `pdftotext -layout referans/<dosya>.pdf -` ile terminale bas ve öyle oku. `referans/text/` klasörü önceden boştu, gerekirse `pdftotext -layout kaynak.pdf referans/text/kaynak.txt` ile çıktısı orada da tutulabilir.
+- Referanslar: `referans/*.pdf` — **önce doğrudan `Read` dene.** Metin katmanı olan PDF'ler (dinleme transkriptleri, cevap anahtarları) `Read` ile sorunsuz açılıyor. Yalnız taranmış/görüntü tabanlı olanlar (ör. `*-sample-tasks-2023.pdf`) render gerektiriyor ve **`pdftoppm` bu makinede kurulu olmadığı için** "poppler" hatası veriyor. O durumda `pdftotext` (Git for Windows / poppler ile gelen) kurulu; `pdftotext -layout referans/<dosya>.pdf -` ile terminale bas ve öyle oku — ama bu komut oturuma göre izin isteyebiliyor. `referans/text/` klasörü boş; gerekirse `pdftotext -layout kaynak.pdf referans/text/kaynak.txt` ile çıktısı orada tutulabilir.
 
 ## 00-KURULUM
 - Tarih: 2026-08-03
@@ -1053,3 +1053,97 @@ Bu dosyaya her oturumda alınan kararlar, atlanan işler ve karşılaşılan sor
   Ardından `python tools/dogrula.py`: **şema hatası 0**, okuma sorusu **200** (tam test 120
   + alıştırma 80), pasaj lisansı eksik 0, IELTS 0, yasak kaynak 0.
 - Atlanan/sorun: yok. **OPUS5-11 tamamen bitti (3/3 paket, 49 soru).**
+
+## OPUS5-20 (1. çalıştırma: L1 — dört bölümün senaryo metni)
+
+- Tarih: 2026-08-04
+- Depo kontrolü: `content/listening/scripts/` **tamamen boştu** ve NOTLAR.md'de hiç dinleme
+  kaydı yoktu → çalıştırma listesindeki ilk üretilmemiş grup **L1** idi, o yapıldı.
+  Bu oturumda **soru üretilmedi** (promptun kuralı); 40 soru sonradan `OPUS5-21` ve
+  `FABLE5-43` tarafından bu metinlerden çıkarılacak.
+- Üretilen dosyalar: `content/listening/scripts/L1-S1.json` … `L1-S4.json`.
+
+### L1 — konu, aksan, kelime sayısı (sonraki testlerde TEKRAR EDİLMEYECEK)
+
+| Bölüm | Konu (havuzdaki karşılığı) | Ortam | Aksanlar | Kelime | Bilgi noktası | Çeldirici |
+|---|---|---|---|---|---|---|
+| 1 | **yaz kampı kaydı** — telefonla kayıt | 2 kişi | F1 `en-GB` + M1 `en-AU` | 840 | 23 | 8 |
+| 2 | **yeni bir müze** — Weavers' Yard tanıtımı | 1 kişi | F1 `en-GB` | 870 | 31 | 4 |
+| 3 | **grup sunumu planlama** — topluluk enerjisi | 3 kişi | F1 `en-GB` + M1 `en-CA` + F2 `en-AU` | 942 | 27 | 6 |
+| 4 | **kentsel tarım** — akademik ders | 1 kişi | M1 `en-GB` | 949 | 27 | 5 |
+
+  ⚠️ **L2–L6 için:** yukarıdaki dört konu bir daha kullanılmayacak. 4. bölüm aksanı
+  tablodaki döngüye göre ilerlemeli: L2 `en-AU`, L3 `en-CA`, L4 `en-GB`, L5 `en-AU`,
+  L6 `en-CA`. Kelime aralıkları gerçekten sayıldı (`len(text.split())`, bütün repliklerin
+  toplamı) ve hepsi hedefin içinde: 750–850 / 800–900 / 850–950 / 850–950.
+- **Şemaya eklenen iki alan** (sonraki bölümler de aynısını kullanmalı, soru üreten
+  promptlar buna dayanacak):
+  - `turn_index_base: 0` — prompt şemasındaki `turn_index` alanının 0 mı 1 mi tabanlı
+    olduğu belirsizdi; **0 tabanlı** (yani `turns` dizisinin indeksi) seçildi ve bu alanla
+    açıkça belgelendi. Her `answer_points` kaydına ayrıca **`speaker`** alanı da kondu, ki
+    3. bölümde "kim ne dedi" sorusu için turns'e geri dönmek gerekmesin.
+  - `speakers[].voice` — prompt "aksanı `voice` alanına yaz" diyor, şema örneği ise
+    `accent` kullanıyor. İkisi de yazıldı, değerleri birebir aynı (seslendirme aracı
+    hangisini okursa okusun çalışsın diye).
+- **Çeldirici (distractor) düzeltmeleri** — bölüm başına en az 3 şartı fazlasıyla karşılandı:
+  - S1 (8): yaş (on → on bir), tarih (13 → 20 Temmuz), açılış saati (dokuz → dokuzu çeyrek
+    geçe), ücret (210 → 185 pound), ödeme (kart → banka havalesi), etkinlik (kano →
+    okçuluk), buluşma yeri (ana kapı → spor salonu), yaş grubu adı (Otters → Kingfisher).
+  - S2 (4): kapalı gün (Pazartesi → Salı), tur saatleri (11.30/14.30 → 11.00/14.00),
+    yıllık kart (25 → 22 pound), dokunma seansı (Pazar → Cumartesi).
+  - S3 (6): hafta (10 → 9), oda (seminer odası B → medya odası), süre (15 → 12 dakika),
+    veri kaynağı (ulusal anket → belediye açık veri portalı), kayıt biçimi (video → ses),
+    kaynakça kılavuzu (geçen yılın el kitabı → ders sayfası).
+  - S4 (5): zirve yılı (1950'ler → 1940'lar), bahçe alanı (5.000 → 2.000 m²), verim
+    (on beş kat → yaklaşık üç kat), en çok bildirilen fayda (egzersiz → insanlarla temas),
+    şehrin kendi sebzesini üretme oranı (üçte bir → yaklaşık yüzde beş).
+- **S2 `spatial_description`:** 12 öğeli zemin kat + merdiven başı planı (main entrance,
+  ticket desk, café, shop, cloakroom, workshop room, weaving gallery, lecture theatre,
+  lift, courtyard garden, reading room, temporary exhibition gallery), tarif 6–9.
+  repliklerde, `on your left` · `opposite` · `next to` · `at the far end` · `between … and …` ·
+  `straight ahead` · `at the top of the stairs` · `at the back of` yön belirteçleriyle.
+- **S3 görüş ayrımı:** Nadia (F1) rüzgâr kooperatifini savunuyor (on iki yıllık kayıt var)
+  ve röportajların **filmini** çekmek istiyor; Callum (M1) okul çatısı güneş projesini
+  savunuyor (kimse çalışmamış) ve klip yerine **alıntıyı slayta** koymak istiyor; danışman
+  (F2) okulları destekliyor ama uzlaşma olarak **ses kaydı + slaytta metin** öneriyor.
+  Üç ayrı görüş sahibi de `answer_points` içinde `kind: opinion` ile işaretli.
+- **Doğrulama:** iki geçici betik yazıldı ve iş bitince silindi.
+  - `tools/_l1_uret.py` (üretici): `turn_index` değerlerini **elle yazmak yerine** her
+    `quote`u repliklerde arayarak hesapladı ve alıntı birden çok replikte (ya da hiç)
+    geçiyorsa üretimi durdurdu — bu sayede alıntı/indeks uyuşmazlığı baştan imkânsız oldu.
+    Kelime sayısı ve `estimated_minutes` (kelime/150) da burada hesaplandı.
+  - `tools/_l1_kontrol.py` (denetleyici): JSON geçerliliği, zorunlu alanlar, kimlik
+    tutarlılığı, gerçek kelime sayısının aralıkta olması, `word_count` alanının sayımla
+    uyuşması, konuşmacı kodlarının tanımlı olması, **aksan dağılımının tablodaki gibi
+    olması**, `answer_points` sayısı (≥15), `distractor` sayısı (≥3), her alıntının kendi
+    repliğinde **birebir** ve metnin tamamında **tek** geçmesi, `speaker` alanının replikle
+    uyuşması, `kind` değerlerinin izinli listede olması, bilgi noktalarının **metne
+    yayılması** (her çeyrekte en az 2), S2'de plan öğesi sayısı + yön belirteçleri + her
+    etiketin metinde geçmesi, S3'te en az iki konuşmacıdan ayrı görüş, "IELTS" geçmemesi,
+    Amerikan yazımı taraması ve metinde rakam bulunmaması. **İlk turda hata 0.**
+  - Ardından `python tools/dogrula.py`: **şema hatası 0**, pasaj lisansı eksik 0,
+    görünür metinde IELTS 0, yasak kaynak 0. (Senaryolar soru dosyası olmadığı için
+    "L1 0/40 EKSIK" satırı beklenen durumdur; 40 soru OPUS5-21 + FABLE5-43'ten gelecek.)
+- **Yazım/telif kararları:** İngiliz İngilizcesi (`centre`, `programme`, `theatre`,
+  `travelled`, `metres`) — betik Amerikan biçimlerini ayrıca taradı. Metinde **hiç rakam
+  yok**, sayılar konuşulduğu gibi yazıldı (`eighteen forty-two`, `a hundred and
+  eighty-five`, `oh seven nine four one, double two six, three one five`); tek istisna
+  kâğıt boyu `A4`. 1. bölümde harf harf söyleme bir kez var (`Ferreira — F-E-R-R-E-I-R-A`).
+  Bütün kişi/kurum/yer adları uydurma (Willowbank, Weavers' Yard, Larkspur Road,
+  Netherfield, Foundry Lane, Bridge Street, Kingfisher/Otters grupları). Din, siyaset,
+  savaş, hastalık, kişisel dram konusu yok — 4. bölümde bahçeciliğin tarihi anlatılırken
+  savaş dönemi kampanyalarına **bilinçli olarak girilmedi**, yerine 19. yüzyıl
+  düzenlemeleri ve arsa satışı kullanıldı.
+- **Referans PDF'leri:** `referans/text/` klasörü yine yoktu ve `pdftotext` bu oturumda da
+  izin alamadı. Ancak beş dinleme transkripti (`note-completion`, `table-completion`,
+  `plan-map-diagram-labelling`, `multiple-choice-one-answer`, `short-answer`) **`Read`
+  aracıyla doğrudan açılabildi** — bunlar metin tabanlı PDF'ler. Yalnız
+  `ielts-listening-sample-tasks-2023.pdf` render gerektirdiği için açılamadı (`pdftoppm`
+  yok). ⚠️ **Ortam notunun düzeltmesi:** "Read PDF'i açamıyor" tamamen doğru değil —
+  metin katmanı olan PDF'ler `Read` ile açılıyor, yalnız taranmış/görüntü tabanlı olanlar
+  açılmıyor. Sonraki oturumlar önce `Read` denemeli.
+  Transkriptlerden yalnız konuşma ritmi, duraksama ve bilgi verme hızı alındı; **tek bir
+  replik kopyalanmadı**, sahne/isim/senaryo taklit edilmedi (referanslardaki mobilya
+  ilanı, quilt shop turu, öğrenci sebatı anketi, tez görüşmesi ve moda şirketi sunumu
+  konularının hiçbiri kullanılmadı).
+- Atlanan/sorun: yok. **OPUS5-20'de 6 testten 1'i tamam;** kalan L2, L3, L4, L5, L6.

@@ -1,0 +1,539 @@
+{
+  "schema_version": "1.0",
+  "script_id": "L1-S2",
+  "skill": "listening",
+  "test_id": "L1",
+  "section": 2,
+  "generated_by": "opus",
+  "setting": "Yeni acilan bir yerel dokuma/sanayi muzesinde ziyaretcilere yapilan tanitim konusmasi",
+  "context_line": "You will hear a member of staff welcoming visitors to a museum that has recently opened.",
+  "word_count": 870,
+  "estimated_minutes": 5.8,
+  "turn_index_base": 0,
+  "speakers": [
+    {
+      "code": "F1",
+      "role": "muze ziyaretci hizmetleri sorumlusu",
+      "gender": "female",
+      "accent": "en-GB",
+      "voice": "en-GB",
+      "age_band": "35-50",
+      "pace": "normal, yon tarifi bolumunde biraz daha yavas"
+    }
+  ],
+  "turns": [
+    {
+      "speaker": "F1",
+      "text": "Good morning, everyone, and welcome to Weavers' Yard. My name's Rosalind and I look after visitor services here. Before I let you loose in the galleries I'll take about ten minutes to explain what's in the building, where to find it, and one or two things that have changed since our leaflet was printed."
+    },
+    {
+      "speaker": "F1",
+      "text": "The museum itself only opened to the public in April, but the building is a good deal older. It went up in eighteen forty-two as a grain warehouse, and it later spent almost a century as a rope works. After the rope works closed the site stood empty for eleven years before the trust took it on, and if you look up in the main hall you can still see the original iron hooks in the roof."
+    },
+    {
+      "speaker": "F1",
+      "text": "We're open every day from ten in the morning until five in the afternoon, and on Thursdays we stay open late — until eight — which is when the evening talks are held. Our closing day used to be Monday, and that's what the leaflet still says, but since the beginning of this month we've closed on Tuesdays instead. Do make a note of that if you're thinking of coming back."
+    },
+    {
+      "speaker": "F1",
+      "text": "Getting into the permanent galleries costs nothing at all. The temporary exhibition upstairs — at the moment it's a display of hand-printed wallpaper — is six pounds, although anyone under sixteen goes in free, and there's a family ticket at fourteen pounds fifty which covers up to five people."
+    },
+    {
+      "speaker": "F1",
+      "text": "There are guided tours twice a day. We originally advertised them for half past eleven and half past two, but people kept missing the first one, so they now set off from the ticket desk at eleven and at two. A tour takes about forty-five minutes. You don't need to book unless you're in a party of more than eight."
+    },
+    {
+      "speaker": "F1",
+      "text": "If you think you might come back more than once, the annual pass is worth a look. It was twenty-five pounds when we launched and we've since brought it down to twenty-two. It gets you into every temporary exhibition, ten per cent off anything in the shop, and an invitation to the members' preview evening, which is the first Wednesday of the month."
+    },
+    {
+      "speaker": "F1",
+      "text": "Now let me walk you round the ground floor, because the building is a little confusing the first time. As you come in through the main entrance on Bridge Street, the ticket desk is straight ahead of you, and the café is immediately on your left, looking out over the water. Opposite the café, on your right, is the shop, and the cloakroom is next to the shop, tucked in under the stairs."
+    },
+    {
+      "speaker": "F1",
+      "text": "Walk past the ticket desk and you come into a long corridor. The first door on your left is the workshop room, where the children's activities take place at weekends. Beyond it, at the far end of that corridor, is the weaving gallery — that's the room most people come for, with six working looms and a volunteer demonstrating on most afternoons."
+    },
+    {
+      "speaker": "F1",
+      "text": "Directly opposite the weaving gallery, on the other side of the corridor, you'll find the lecture theatre, and between the lecture theatre and the shop there's a lift for anyone who'd rather not take the stairs. Last of all, the courtyard garden is through the glass doors at the back of the café, and there are picnic tables out there if the weather behaves."
+    },
+    {
+      "speaker": "F1",
+      "text": "Upstairs there are two more spaces: the reading room, at the top of the stairs on your right, where the local history collection is kept, and the temporary exhibition gallery, which runs the whole length of the north side."
+    },
+    {
+      "speaker": "F1",
+      "text": "A few practical points while I have you. You're very welcome to take photographs, but please switch the flash off, because it fades the dyed textiles. Any bag bigger than a small rucksack should go in the cloakroom. And food and drink are fine in the café and out in the courtyard, but not in the galleries themselves."
+    },
+    {
+      "speaker": "F1",
+      "text": "We also run handling sessions, where you can pick up and examine objects that aren't on display. They were on Sunday mornings when we started, but they've moved to Saturdays, at eleven, and there's no charge. If you'd like to do more than visit, we're always short of volunteers — the front desk has a form, and the only firm requirement is one morning a fortnight."
+    },
+    {
+      "speaker": "F1",
+      "text": "One thing visitors often ask about is the mill wheel. It's being rebuilt at the moment by two joiners who are using the original drawings, and it should be turning again by the autumn. Until then the space where it sits is fenced off, so please don't be tempted past the barrier — the floor in there is uneven."
+    },
+    {
+      "speaker": "F1",
+      "text": "Finally, getting here. The nearest car park is on Foundry Lane, about three minutes away on foot, and it's free at weekends. The number fourteen bus stops directly outside our door, and if you're coming by bicycle the racks are just inside the gate. Right — that's everything from me. The first tour leaves in five minutes from the ticket desk, and I'll be on the desk all morning if anything I've said needs repeating."
+    }
+  ],
+  "answer_points": [
+    {
+      "id": "L1-S2-01",
+      "kind": "date",
+      "value": "1842",
+      "quote": "It went up in eighteen forty-two as a grain warehouse",
+      "turn_index": 1,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "note_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L1-S2-02",
+      "kind": "object",
+      "value": "rope works",
+      "quote": "it later spent almost a century as a rope works",
+      "turn_index": 1,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "note_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L1-S2-03",
+      "kind": "duration",
+      "value": "11 years",
+      "quote": "the site stood empty for eleven years",
+      "turn_index": 1,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "note_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L1-S2-04",
+      "kind": "object",
+      "value": "iron hooks",
+      "quote": "you can still see the original iron hooks in the roof",
+      "turn_index": 1,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "short_answer",
+        "note_completion"
+      ]
+    },
+    {
+      "id": "L1-S2-05",
+      "kind": "time",
+      "value": "10.00-17.00",
+      "quote": "open every day from ten in the morning until five in the afternoon",
+      "turn_index": 2,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "table_completion",
+        "note_completion"
+      ]
+    },
+    {
+      "id": "L1-S2-06",
+      "kind": "time",
+      "value": "20.00 on Thursdays",
+      "quote": "on Thursdays we stay open late — until eight",
+      "turn_index": 2,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "table_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L1-S2-07",
+      "kind": "rule",
+      "value": "closed on Tuesdays",
+      "quote": "we've closed on Tuesdays instead",
+      "turn_index": 2,
+      "speaker": "F1",
+      "distractor": "Monday",
+      "suggested_types": [
+        "multiple_choice",
+        "note_completion"
+      ]
+    },
+    {
+      "id": "L1-S2-08",
+      "kind": "price",
+      "value": "6 pounds",
+      "quote": "is six pounds, although anyone under sixteen goes in free",
+      "turn_index": 3,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "table_completion",
+        "note_completion"
+      ]
+    },
+    {
+      "id": "L1-S2-09",
+      "kind": "price",
+      "value": "14 pounds 50 (family ticket)",
+      "quote": "there's a family ticket at fourteen pounds fifty",
+      "turn_index": 3,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "table_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L1-S2-10",
+      "kind": "time",
+      "value": "11.00 and 14.00",
+      "quote": "they now set off from the ticket desk at eleven and at two",
+      "turn_index": 4,
+      "speaker": "F1",
+      "distractor": "11.30 and 14.30",
+      "suggested_types": [
+        "multiple_choice",
+        "table_completion"
+      ]
+    },
+    {
+      "id": "L1-S2-11",
+      "kind": "duration",
+      "value": "45 minutes",
+      "quote": "A tour takes about forty-five minutes.",
+      "turn_index": 4,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "note_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L1-S2-12",
+      "kind": "rule",
+      "value": "booking needed for groups over 8",
+      "quote": "unless you're in a party of more than eight",
+      "turn_index": 4,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "multiple_choice",
+        "note_completion"
+      ]
+    },
+    {
+      "id": "L1-S2-13",
+      "kind": "price",
+      "value": "22 pounds",
+      "quote": "we've since brought it down to twenty-two",
+      "turn_index": 5,
+      "speaker": "F1",
+      "distractor": "25 pounds",
+      "suggested_types": [
+        "multiple_choice",
+        "note_completion"
+      ]
+    },
+    {
+      "id": "L1-S2-14",
+      "kind": "advantage",
+      "value": "10 per cent off in the shop",
+      "quote": "ten per cent off anything in the shop",
+      "turn_index": 5,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "matching",
+        "note_completion"
+      ]
+    },
+    {
+      "id": "L1-S2-15",
+      "kind": "place",
+      "value": "café — immediately left of the main entrance",
+      "quote": "the café is immediately on your left",
+      "turn_index": 6,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "plan_map_diagram_labelling"
+      ]
+    },
+    {
+      "id": "L1-S2-16",
+      "kind": "place",
+      "value": "shop — opposite the café, on the right",
+      "quote": "Opposite the café, on your right, is the shop",
+      "turn_index": 6,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "plan_map_diagram_labelling"
+      ]
+    },
+    {
+      "id": "L1-S2-17",
+      "kind": "place",
+      "value": "cloakroom — next to the shop, under the stairs",
+      "quote": "the cloakroom is next to the shop, tucked in under the stairs",
+      "turn_index": 6,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "plan_map_diagram_labelling"
+      ]
+    },
+    {
+      "id": "L1-S2-18",
+      "kind": "place",
+      "value": "workshop room — first door on the left of the corridor",
+      "quote": "The first door on your left is the workshop room",
+      "turn_index": 7,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "plan_map_diagram_labelling"
+      ]
+    },
+    {
+      "id": "L1-S2-19",
+      "kind": "place",
+      "value": "weaving gallery — far end of the corridor",
+      "quote": "at the far end of that corridor, is the weaving gallery",
+      "turn_index": 7,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "plan_map_diagram_labelling"
+      ]
+    },
+    {
+      "id": "L1-S2-20",
+      "kind": "place",
+      "value": "lecture theatre — opposite the weaving gallery",
+      "quote": "on the other side of the corridor, you'll find the lecture theatre",
+      "turn_index": 8,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "plan_map_diagram_labelling"
+      ]
+    },
+    {
+      "id": "L1-S2-21",
+      "kind": "place",
+      "value": "lift — between the lecture theatre and the shop",
+      "quote": "between the lecture theatre and the shop there's a lift",
+      "turn_index": 8,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "plan_map_diagram_labelling"
+      ]
+    },
+    {
+      "id": "L1-S2-22",
+      "kind": "place",
+      "value": "courtyard garden — behind the café",
+      "quote": "the courtyard garden is through the glass doors at the back of the café",
+      "turn_index": 8,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "plan_map_diagram_labelling"
+      ]
+    },
+    {
+      "id": "L1-S2-23",
+      "kind": "place",
+      "value": "reading room — top of the stairs on the right",
+      "quote": "the reading room, at the top of the stairs on your right",
+      "turn_index": 9,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "plan_map_diagram_labelling"
+      ]
+    },
+    {
+      "id": "L1-S2-24",
+      "kind": "rule",
+      "value": "no flash photography",
+      "quote": "please switch the flash off",
+      "turn_index": 10,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "multiple_choice",
+        "note_completion"
+      ]
+    },
+    {
+      "id": "L1-S2-25",
+      "kind": "reason",
+      "value": "flash fades the dyed textiles",
+      "quote": "because it fades the dyed textiles",
+      "turn_index": 10,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "multiple_choice",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L1-S2-26",
+      "kind": "time",
+      "value": "Saturdays at 11.00",
+      "quote": "they've moved to Saturdays, at eleven",
+      "turn_index": 11,
+      "speaker": "F1",
+      "distractor": "Sunday mornings",
+      "suggested_types": [
+        "multiple_choice",
+        "table_completion"
+      ]
+    },
+    {
+      "id": "L1-S2-27",
+      "kind": "limitation",
+      "value": "one morning a fortnight",
+      "quote": "the only firm requirement is one morning a fortnight",
+      "turn_index": 11,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "note_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L1-S2-28",
+      "kind": "object",
+      "value": "mill wheel",
+      "quote": "One thing visitors often ask about is the mill wheel.",
+      "turn_index": 12,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "short_answer",
+        "note_completion"
+      ]
+    },
+    {
+      "id": "L1-S2-29",
+      "kind": "reason",
+      "value": "the floor is uneven",
+      "quote": "the floor in there is uneven",
+      "turn_index": 12,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "multiple_choice",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L1-S2-30",
+      "kind": "address",
+      "value": "Foundry Lane",
+      "quote": "The nearest car park is on Foundry Lane",
+      "turn_index": 13,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "note_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L1-S2-31",
+      "kind": "number",
+      "value": "bus number 14",
+      "quote": "The number fourteen bus stops directly outside our door",
+      "turn_index": 13,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "note_completion",
+        "short_answer"
+      ]
+    }
+  ],
+  "spatial_description": {
+    "kind": "plan",
+    "subject": "Weavers' Yard muzesinin zemin kati (ve merdiven basi)",
+    "elements": [
+      {
+        "label": "main entrance",
+        "position": "Bridge Street cephesi, binanin giris yuzu"
+      },
+      {
+        "label": "ticket desk",
+        "position": "girisin tam karsisinda, duz ileride"
+      },
+      {
+        "label": "café",
+        "position": "girisden hemen solda, su cephesine bakiyor"
+      },
+      {
+        "label": "shop",
+        "position": "kafenin tam karsisinda, sagda"
+      },
+      {
+        "label": "cloakroom",
+        "position": "magazanin yaninda, merdivenin altinda"
+      },
+      {
+        "label": "workshop room",
+        "position": "uzun koridorda soldaki ilk kapi"
+      },
+      {
+        "label": "weaving gallery",
+        "position": "koridorun en ucunda"
+      },
+      {
+        "label": "lecture theatre",
+        "position": "dokuma galerisinin tam karsisi, koridorun oteki yani"
+      },
+      {
+        "label": "lift",
+        "position": "konferans salonu ile magaza arasinda"
+      },
+      {
+        "label": "courtyard garden",
+        "position": "kafenin arkasindaki cam kapilardan cikilan avlu"
+      },
+      {
+        "label": "reading room",
+        "position": "ust katta, merdiven basinda sagda"
+      },
+      {
+        "label": "temporary exhibition gallery",
+        "position": "ust katta, kuzey cephesi boyunca"
+      }
+    ],
+    "quote_turn_indexes": [
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  "notes": "turn_index degerleri 0 tabanlidir. Dort celdirici duzeltme var: kapali gun (Pazartesi -> Sali), tur saatleri (11.30/14.30 -> 11.00/14.00), yillik kart ucreti (25 -> 22 pound), dokunma seanslari (Pazar -> Cumartesi). Mekan tarifi 6-9. repliklerde, on iki ogeli."
+}

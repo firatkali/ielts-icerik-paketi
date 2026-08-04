@@ -1,0 +1,433 @@
+{
+  "schema_version": "1.0",
+  "script_id": "L1-S4",
+  "skill": "listening",
+  "test_id": "L1",
+  "section": 4,
+  "generated_by": "opus",
+  "setting": "Kentsel tarim uzerine akademik ders",
+  "context_line": "You will hear a lecturer giving a talk about growing food in cities.",
+  "word_count": 949,
+  "estimated_minutes": 6.3,
+  "turn_index_base": 0,
+  "speakers": [
+    {
+      "code": "M1",
+      "role": "ogretim uyesi",
+      "gender": "male",
+      "accent": "en-GB",
+      "voice": "en-GB",
+      "age_band": "40-60",
+      "pace": "normal, sayilarda ve duzeltmelerde yavas"
+    }
+  ],
+  "turns": [
+    {
+      "speaker": "M1",
+      "text": "Good afternoon. Today we're looking at urban agriculture — food grown inside cities rather than carried into them. I want to do three things: sketch where the idea comes from, set out the main forms it takes today, and be honest about what it can and cannot deliver."
+    },
+    {
+      "speaker": "M1",
+      "text": "Let's start with the history, because growing food in towns is not a new invention. In this country the practice was formalised in the nineteenth century, when a series of Acts obliged local authorities to provide allotments — small rented plots — for households with no garden. The number of plots reached its peak in the nineteen forties. You'll see the nineteen fifties in some textbooks, but that is already the downward slope. From the peak the total fell steadily for fifty years, as plot land was sold off for housing. What is new is the scale of today's revival, and the fact that councils and companies now drive it as much as individual growers."
+    },
+    {
+      "speaker": "M1",
+      "text": "Broadly, urban agriculture takes three forms. The first, and by far the most common, is the community garden: a shared piece of ground, usually on land that has no other use — the edge of a housing estate, a former car park. The second is the commercial rooftop farm, which puts soil beds or greenhouses on the flat roof of an existing building. And the third is the controlled-environment farm, often called vertical farming, in which crops are grown in stacked trays indoors under artificial light."
+    },
+    {
+      "speaker": "M1",
+      "text": "Some numbers. A survey published two years ago examined forty-one cities across Europe and North America. Its central finding was that the median community garden occupied about two thousand square metres and supplied around thirty households. You will see five thousand square metres quoted for the same survey, but that figure includes paths, sheds and parking. Rooftop farms were far rarer — fewer than one city in five had a commercial one — but individually much larger, and the biggest in the survey covered a hectare and a half."
+    },
+    {
+      "speaker": "M1",
+      "text": "Yields are where you must be most careful. For years it was said that a well-run urban plot produces up to fifteen times as much per square metre as a conventional field. More careful work puts the realistic figure at about three times, and only for salad crops and soft fruit. For staples — wheat, potatoes — the urban advantage disappears entirely."
+    },
+    {
+      "speaker": "M1",
+      "text": "So, the benefits. The most obvious one is distance: the average vegetable eaten in a British city has travelled a very long way, and produce grown on the same street has travelled almost none. But transport is a smaller share of a food's total footprint than most people assume — the accepted figure is around eleven per cent, and for most vegetables it is lower still."
+    },
+    {
+      "speaker": "M1",
+      "text": "The stronger environmental arguments concern the fabric of the city itself. A planted roof holds back rainfall: measurements on one test building suggested that around half of a heavy shower was retained rather than running straight into the drains, which matters in cities with combined sewers. Planted surfaces also cool their surroundings. On the hottest afternoons, the difference recorded between a green roof and a bare one reached three degrees."
+    },
+    {
+      "speaker": "M1",
+      "text": "There is a social argument too, perhaps the most robust of the three. A study of community gardens in one northern city found that the benefit participants reported most often was not the food at all, but the contact with other people. Sixty-eight per cent named it. Exercise came second. An earlier study had put exercise at the top, but from a much smaller sample. Saving money, interestingly, came bottom of the list."
+    },
+    {
+      "speaker": "M1",
+      "text": "Now the limitations — three you should always raise. The first is soil. Ground that has been built on may carry residues from earlier industry, and lead is the usual concern. Testing is inexpensive and should come first. Where levels are high, the standard response is not to abandon the site, but to build raised beds and bring in clean compost from outside."
+    },
+    {
+      "speaker": "M1",
+      "text": "The second limitation is energy, and this is where vertical farming struggles. Growing indoors means supplying the light the sun provides free. Even with efficient lamps, the electricity needed to raise a kilogram of lettuce is substantial, and the environmental case for the whole system rests entirely on where that electricity comes from. A vertical farm on a low-carbon grid may make sense; the same building on a coal-fired grid does not."
+    },
+    {
+      "speaker": "M1",
+      "text": "The third limitation is land. Urban ground is expensive, and a plot producing vegetables worth a few hundred pounds a year is competing with uses worth a great deal more. That is why so many successful projects sit on land nobody else wants — under power lines, on contaminated ground, on roofs — and why the projects that fail are so often the ones on ordinary building plots."
+    },
+    {
+      "speaker": "M1",
+      "text": "So where does that leave us? My own view is that urban agriculture should be judged mainly by what it does for the city, rather than by how much food it produces. Water, heat and social contact are real and measurable. Feeding the population is not a realistic aim. One claim you'll meet repeatedly is that a city could grow a third of its own vegetables. When a research team tested that against an actual street plan, allowing for shade, ownership and roof strength, the answer came out closer to five per cent."
+    },
+    {
+      "speaker": "M1",
+      "text": "For next week, please read the two chapters on the reading list and come with one example of an urban growing project you can describe in a couple of minutes. It does not have to be a success. The failures are usually more instructive."
+    }
+  ],
+  "answer_points": [
+    {
+      "id": "L1-S4-01",
+      "kind": "object",
+      "value": "allotments",
+      "quote": "obliged local authorities to provide allotments",
+      "turn_index": 1,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "note_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L1-S4-02",
+      "kind": "date",
+      "value": "the 1940s",
+      "quote": "The number of plots reached its peak in the nineteen forties.",
+      "turn_index": 1,
+      "speaker": "M1",
+      "distractor": "the 1950s",
+      "suggested_types": [
+        "note_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L1-S4-03",
+      "kind": "duration",
+      "value": "50 years",
+      "quote": "the total fell steadily for fifty years",
+      "turn_index": 1,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "note_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L1-S4-04",
+      "kind": "reason",
+      "value": "plot land was sold for housing",
+      "quote": "as plot land was sold off for housing",
+      "turn_index": 1,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "summary_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L1-S4-05",
+      "kind": "object",
+      "value": "community garden",
+      "quote": "the most common, is the community garden",
+      "turn_index": 2,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "flow_chart_completion",
+        "note_completion"
+      ]
+    },
+    {
+      "id": "L1-S4-06",
+      "kind": "object",
+      "value": "rooftop farm",
+      "quote": "The second is the commercial rooftop farm",
+      "turn_index": 2,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "note_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L1-S4-07",
+      "kind": "object",
+      "value": "vertical farming (stacked trays, artificial light)",
+      "quote": "crops are grown in stacked trays indoors under artificial light",
+      "turn_index": 2,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "note_completion",
+        "summary_completion"
+      ]
+    },
+    {
+      "id": "L1-S4-08",
+      "kind": "number",
+      "value": "41 cities",
+      "quote": "examined forty-one cities across Europe and North America",
+      "turn_index": 3,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "note_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L1-S4-09",
+      "kind": "number",
+      "value": "2,000 square metres",
+      "quote": "occupied about two thousand square metres",
+      "turn_index": 3,
+      "speaker": "M1",
+      "distractor": "5,000 square metres",
+      "suggested_types": [
+        "note_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L1-S4-10",
+      "kind": "number",
+      "value": "30 households",
+      "quote": "supplied around thirty households",
+      "turn_index": 3,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "note_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L1-S4-11",
+      "kind": "number",
+      "value": "fewer than one city in five",
+      "quote": "fewer than one city in five had a commercial one",
+      "turn_index": 3,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "summary_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L1-S4-12",
+      "kind": "number",
+      "value": "1.5 hectares",
+      "quote": "the biggest in the survey covered a hectare and a half",
+      "turn_index": 3,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "note_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L1-S4-13",
+      "kind": "number",
+      "value": "about three times",
+      "quote": "puts the realistic figure at about three times",
+      "turn_index": 4,
+      "speaker": "M1",
+      "distractor": "fifteen times",
+      "suggested_types": [
+        "note_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L1-S4-14",
+      "kind": "limitation",
+      "value": "no urban advantage for staple crops",
+      "quote": "the urban advantage disappears entirely",
+      "turn_index": 4,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "summary_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L1-S4-15",
+      "kind": "number",
+      "value": "about 11 per cent",
+      "quote": "the accepted figure is around eleven per cent",
+      "turn_index": 5,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "note_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L1-S4-16",
+      "kind": "advantage",
+      "value": "about half of a heavy shower retained",
+      "quote": "around half of a heavy shower was retained",
+      "turn_index": 6,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "summary_completion",
+        "note_completion"
+      ]
+    },
+    {
+      "id": "L1-S4-17",
+      "kind": "number",
+      "value": "three degrees",
+      "quote": "the difference recorded between a green roof and a bare one reached three degrees",
+      "turn_index": 6,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "note_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L1-S4-18",
+      "kind": "number",
+      "value": "68 per cent",
+      "quote": "Sixty-eight per cent named it.",
+      "turn_index": 7,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "note_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L1-S4-19",
+      "kind": "advantage",
+      "value": "contact with other people",
+      "quote": "but the contact with other people",
+      "turn_index": 7,
+      "speaker": "M1",
+      "distractor": "exercise",
+      "suggested_types": [
+        "summary_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L1-S4-20",
+      "kind": "reason",
+      "value": "saving money was ranked last",
+      "quote": "Saving money, interestingly, came bottom of the list.",
+      "turn_index": 7,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "multiple_choice",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L1-S4-21",
+      "kind": "object",
+      "value": "lead",
+      "quote": "lead is the usual concern",
+      "turn_index": 8,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "short_answer",
+        "note_completion"
+      ]
+    },
+    {
+      "id": "L1-S4-22",
+      "kind": "rule",
+      "value": "build raised beds and import clean compost",
+      "quote": "to build raised beds and bring in clean compost from outside",
+      "turn_index": 8,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "flow_chart_completion",
+        "summary_completion"
+      ]
+    },
+    {
+      "id": "L1-S4-23",
+      "kind": "limitation",
+      "value": "the source of the electricity decides the case",
+      "quote": "rests entirely on where that electricity comes from",
+      "turn_index": 9,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "summary_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L1-S4-24",
+      "kind": "limitation",
+      "value": "urban land is expensive",
+      "quote": "Urban ground is expensive",
+      "turn_index": 10,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "summary_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L1-S4-25",
+      "kind": "place",
+      "value": "land nobody else wants (power lines, contaminated ground, roofs)",
+      "quote": "so many successful projects sit on land nobody else wants",
+      "turn_index": 10,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "summary_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L1-S4-26",
+      "kind": "number",
+      "value": "closer to five per cent",
+      "quote": "the answer came out closer to five per cent",
+      "turn_index": 11,
+      "speaker": "M1",
+      "distractor": "a third of a city's vegetables",
+      "suggested_types": [
+        "note_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L1-S4-27",
+      "kind": "opinion",
+      "value": "judge urban agriculture by what it does for the city",
+      "quote": "should be judged mainly by what it does for the city",
+      "turn_index": 11,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "multiple_choice",
+        "summary_completion"
+      ]
+    }
+  ],
+  "spatial_description": null,
+  "notes": "turn_index degerleri 0 tabanlidir. Bes celdirici duzeltme var: zirve yili (1950'ler -> 1940'lar), bahce alani (5.000 -> 2.000 metrekare), verim (on bes kat -> yaklasik uc kat), en cok bildirilen fayda (egzersiz -> insanlarla temas), sehrin kendi sebzesini uretme orani (ucte bir -> yaklasik yuzde bes). L1 icin 4. bolum aksani en-GB."
+}

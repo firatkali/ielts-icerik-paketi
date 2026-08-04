@@ -1,0 +1,532 @@
+{
+  "schema_version": "1.0",
+  "script_id": "L1-S1",
+  "skill": "listening",
+  "test_id": "L1",
+  "section": 1,
+  "generated_by": "opus",
+  "setting": "Bir yaz aktivite kampina telefonla kayit yaptirma",
+  "context_line": "You will hear a father booking a place for his daughter at a summer activity camp.",
+  "word_count": 840,
+  "estimated_minutes": 5.6,
+  "turn_index_base": 0,
+  "speakers": [
+    {
+      "code": "F1",
+      "role": "kamp kayit gorevlisi",
+      "gender": "female",
+      "accent": "en-GB",
+      "voice": "en-GB",
+      "age_band": "30-45",
+      "pace": "normal"
+    },
+    {
+      "code": "M1",
+      "role": "kayit yaptiran veli",
+      "gender": "male",
+      "accent": "en-AU",
+      "voice": "en-AU",
+      "age_band": "35-50",
+      "pace": "normal, sorularda hafif yavas"
+    }
+  ],
+  "turns": [
+    {
+      "speaker": "F1",
+      "text": "Good morning, Willowbank Activity Camps. How can I help?"
+    },
+    {
+      "speaker": "M1",
+      "text": "Morning. I'd like to book a place for my daughter on one of your summer programmes — that is, if you've still got room."
+    },
+    {
+      "speaker": "F1",
+      "text": "We have, although a couple of the sessions are filling up. Let me take a few details. Could I start with your surname?"
+    },
+    {
+      "speaker": "M1",
+      "text": "It's Ferreira."
+    },
+    {
+      "speaker": "F1",
+      "text": "Sorry, would you mind spelling that for me?"
+    },
+    {
+      "speaker": "M1",
+      "text": "Not at all. That's Ferreira — F-E-R-R-E-I-R-A."
+    },
+    {
+      "speaker": "F1",
+      "text": "Thank you. And your daughter's first name, and how old she is?"
+    },
+    {
+      "speaker": "M1",
+      "text": "Her name's Alina. She's ten — no, hang on, she has a birthday at the end of June, so she'll be eleven by the time the camp starts."
+    },
+    {
+      "speaker": "F1",
+      "text": "Eleven, lovely. That puts her in the middle age band, which we call the Kingfisher group — that's the one for ten to twelve year olds. The younger children are the Otters."
+    },
+    {
+      "speaker": "M1",
+      "text": "Kingfisher. I'll tell her, she'll like that."
+    },
+    {
+      "speaker": "F1",
+      "text": "And which session did you have in mind? We run three: one in July, one at the beginning of August and one right at the end of the summer."
+    },
+    {
+      "speaker": "M1",
+      "text": "July, ideally. I've got it written down as starting on the thirteenth."
+    },
+    {
+      "speaker": "F1",
+      "text": "That was the date we first advertised, but we've put it back by a week — it now begins on Monday the twentieth of July."
+    },
+    {
+      "speaker": "M1",
+      "text": "That suits us better, as it happens. And how long does it run for?"
+    },
+    {
+      "speaker": "F1",
+      "text": "It's two weeks, so the last day is the Friday of the week after."
+    },
+    {
+      "speaker": "M1",
+      "text": "Right. What are the daily times?"
+    },
+    {
+      "speaker": "F1",
+      "text": "We used to open the gates at nine, but a lot of parents were getting caught in the school traffic, so drop-off is now quarter past nine, and pick-up is at half past three."
+    },
+    {
+      "speaker": "M1",
+      "text": "Quarter past nine to half past three — that works around my shifts. And what does it cost?"
+    },
+    {
+      "speaker": "F1",
+      "text": "The standard fee for the fortnight is two hundred and ten pounds. If you book before the end of May, though, there's an early booking rate of a hundred and eighty-five."
+    },
+    {
+      "speaker": "M1",
+      "text": "We're comfortably inside that, so a hundred and eighty-five."
+    },
+    {
+      "speaker": "F1",
+      "text": "And is there a second child coming? Families sending more than one get ten per cent off the second place."
+    },
+    {
+      "speaker": "M1",
+      "text": "No, just Alina. Do I need to pay the whole thing today?"
+    },
+    {
+      "speaker": "F1",
+      "text": "No, we only take a deposit of thirty pounds to hold the place — though I should say that the deposit isn't refundable. The balance is due on the first morning."
+    },
+    {
+      "speaker": "M1",
+      "text": "That's fine. Can I give you a card number now?"
+    },
+    {
+      "speaker": "F1",
+      "text": "We did take cards, but since the spring everything's gone through bank transfer instead, so I'll send you the account details by email."
+    },
+    {
+      "speaker": "M1",
+      "text": "No problem at all."
+    },
+    {
+      "speaker": "F1",
+      "text": "Could I take your address?"
+    },
+    {
+      "speaker": "M1",
+      "text": "It's forty-two Larkspur Road — Larkspur like the flower — and the town is Netherfield."
+    },
+    {
+      "speaker": "F1",
+      "text": "Forty-two Larkspur Road, Netherfield. And a daytime number?"
+    },
+    {
+      "speaker": "M1",
+      "text": "My mobile's best: oh seven nine four one, double two six, three one five."
+    },
+    {
+      "speaker": "F1",
+      "text": "Got that. Now, every child picks one main activity for the fortnight. In the Kingfisher group the choices are canoeing, archery or pottery."
+    },
+    {
+      "speaker": "M1",
+      "text": "She'd set her heart on canoeing, but her cousin did archery with you last year and hasn't stopped talking about it since, so put her down for archery."
+    },
+    {
+      "speaker": "F1",
+      "text": "Archery, then. Those sessions are on Tuesday and Thursday afternoons, and the rest of the week the group does a bit of everything."
+    },
+    {
+      "speaker": "M1",
+      "text": "Sounds good. Is there anything she needs to bring with her?"
+    },
+    {
+      "speaker": "F1",
+      "text": "A packed lunch on four days — on Fridays we give the children a hot meal in the dining hall, so nothing's needed then. She'll also want a waterproof jacket, because we go outside in almost any weather, plus a sun hat and a refillable bottle."
+    },
+    {
+      "speaker": "M1",
+      "text": "And is there anything you'd rather she left at home?"
+    },
+    {
+      "speaker": "F1",
+      "text": "Yes — we ask families not to send mobile phones. The group leaders carry phones and will ring you straight away if there's ever a problem. Fizzy drinks aren't allowed either, I'm afraid."
+    },
+    {
+      "speaker": "M1",
+      "text": "Understood. Where do we drop her off?"
+    },
+    {
+      "speaker": "F1",
+      "text": "That's changed as well, I should warn you. It used to be the main gate, but there's building work along that side, so we're meeting at the sports pavilion, right at the far end of the car park."
+    },
+    {
+      "speaker": "M1",
+      "text": "The sports pavilion. Is there any transport laid on, out of interest?"
+    },
+    {
+      "speaker": "F1",
+      "text": "There's a minibus, yes, and there's no extra charge for it. It leaves from outside the library at quarter to nine."
+    },
+    {
+      "speaker": "M1",
+      "text": "That might be easier on some mornings. Any forms to fill in?"
+    },
+    {
+      "speaker": "F1",
+      "text": "Just the one — a medical form. I'll attach it to the confirmation email, and we need it back by the fifth of July at the latest."
+    },
+    {
+      "speaker": "M1",
+      "text": "The fifth of July. I'll do it this evening."
+    },
+    {
+      "speaker": "F1",
+      "text": "Perfect. And if your plans change, we can move her to a different session free of charge up to fourteen days beforehand."
+    },
+    {
+      "speaker": "M1",
+      "text": "Good to know."
+    },
+    {
+      "speaker": "F1",
+      "text": "Right, I'll process the booking now, and the confirmation should reach you within the hour."
+    },
+    {
+      "speaker": "M1",
+      "text": "Thanks very much for your help."
+    },
+    {
+      "speaker": "F1",
+      "text": "You're welcome. We'll see Alina on the twentieth."
+    }
+  ],
+  "answer_points": [
+    {
+      "id": "L1-S1-01",
+      "kind": "name",
+      "value": "Ferreira",
+      "quote": "That's Ferreira — F-E-R-R-E-I-R-A.",
+      "turn_index": 5,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "form_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L1-S1-02",
+      "kind": "number",
+      "value": "11",
+      "quote": "she'll be eleven by the time the camp starts",
+      "turn_index": 7,
+      "speaker": "M1",
+      "distractor": "10",
+      "suggested_types": [
+        "form_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L1-S1-03",
+      "kind": "name",
+      "value": "Kingfisher",
+      "quote": "which we call the Kingfisher group",
+      "turn_index": 8,
+      "speaker": "F1",
+      "distractor": "Otters",
+      "suggested_types": [
+        "form_completion",
+        "note_completion"
+      ]
+    },
+    {
+      "id": "L1-S1-04",
+      "kind": "date",
+      "value": "20 July",
+      "quote": "it now begins on Monday the twentieth of July",
+      "turn_index": 12,
+      "speaker": "F1",
+      "distractor": "13 July",
+      "suggested_types": [
+        "form_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L1-S1-05",
+      "kind": "duration",
+      "value": "two weeks",
+      "quote": "It's two weeks, so the last day is the Friday of the week after.",
+      "turn_index": 14,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "form_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L1-S1-06",
+      "kind": "time",
+      "value": "9.15 (quarter past nine)",
+      "quote": "drop-off is now quarter past nine",
+      "turn_index": 16,
+      "speaker": "F1",
+      "distractor": "9.00",
+      "suggested_types": [
+        "form_completion",
+        "table_completion"
+      ]
+    },
+    {
+      "id": "L1-S1-07",
+      "kind": "time",
+      "value": "3.30 (half past three)",
+      "quote": "pick-up is at half past three",
+      "turn_index": 16,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "form_completion",
+        "table_completion"
+      ]
+    },
+    {
+      "id": "L1-S1-08",
+      "kind": "price",
+      "value": "185 pounds",
+      "quote": "there's an early booking rate of a hundred and eighty-five",
+      "turn_index": 18,
+      "speaker": "F1",
+      "distractor": "210 pounds",
+      "suggested_types": [
+        "form_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L1-S1-09",
+      "kind": "number",
+      "value": "10 per cent",
+      "quote": "get ten per cent off the second place",
+      "turn_index": 20,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "form_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L1-S1-10",
+      "kind": "price",
+      "value": "30 pounds",
+      "quote": "we only take a deposit of thirty pounds to hold the place",
+      "turn_index": 22,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "form_completion",
+        "note_completion"
+      ]
+    },
+    {
+      "id": "L1-S1-11",
+      "kind": "rule",
+      "value": "deposit is non-refundable",
+      "quote": "the deposit isn't refundable",
+      "turn_index": 22,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "note_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L1-S1-12",
+      "kind": "rule",
+      "value": "bank transfer",
+      "quote": "everything's gone through bank transfer instead",
+      "turn_index": 24,
+      "speaker": "F1",
+      "distractor": "card payment",
+      "suggested_types": [
+        "form_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L1-S1-13",
+      "kind": "address",
+      "value": "42 Larkspur Road",
+      "quote": "It's forty-two Larkspur Road",
+      "turn_index": 27,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "form_completion"
+      ]
+    },
+    {
+      "id": "L1-S1-14",
+      "kind": "number",
+      "value": "07941 226 315",
+      "quote": "oh seven nine four one, double two six, three one five",
+      "turn_index": 29,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "form_completion"
+      ]
+    },
+    {
+      "id": "L1-S1-15",
+      "kind": "object",
+      "value": "archery",
+      "quote": "put her down for archery",
+      "turn_index": 31,
+      "speaker": "M1",
+      "distractor": "canoeing",
+      "suggested_types": [
+        "form_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L1-S1-16",
+      "kind": "time",
+      "value": "Tuesday and Thursday afternoons",
+      "quote": "Those sessions are on Tuesday and Thursday afternoons",
+      "turn_index": 32,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "table_completion",
+        "note_completion"
+      ]
+    },
+    {
+      "id": "L1-S1-17",
+      "kind": "object",
+      "value": "waterproof jacket",
+      "quote": "She'll also want a waterproof jacket",
+      "turn_index": 34,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "note_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L1-S1-18",
+      "kind": "rule",
+      "value": "hot meal provided on Fridays",
+      "quote": "on Fridays we give the children a hot meal in the dining hall",
+      "turn_index": 34,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "table_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L1-S1-19",
+      "kind": "rule",
+      "value": "no mobile phones",
+      "quote": "we ask families not to send mobile phones",
+      "turn_index": 36,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "note_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L1-S1-20",
+      "kind": "place",
+      "value": "sports pavilion",
+      "quote": "we're meeting at the sports pavilion",
+      "turn_index": 38,
+      "speaker": "F1",
+      "distractor": "main gate",
+      "suggested_types": [
+        "form_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L1-S1-21",
+      "kind": "time",
+      "value": "8.45 (quarter to nine)",
+      "quote": "It leaves from outside the library at quarter to nine.",
+      "turn_index": 40,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "form_completion",
+        "table_completion"
+      ]
+    },
+    {
+      "id": "L1-S1-22",
+      "kind": "date",
+      "value": "5 July",
+      "quote": "we need it back by the fifth of July",
+      "turn_index": 42,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "form_completion",
+        "note_completion"
+      ]
+    },
+    {
+      "id": "L1-S1-23",
+      "kind": "limitation",
+      "value": "free change up to 14 days before",
+      "quote": "free of charge up to fourteen days beforehand",
+      "turn_index": 44,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "note_completion",
+        "short_answer"
+      ]
+    }
+  ],
+  "spatial_description": null,
+  "notes": "turn_index degerleri 0 tabanlidir (turns dizisinin indeksi). Yedi celdirici duzeltme var: yas (on -> on bir), baslangic tarihi (13 -> 20 Temmuz), acilis saati (dokuz -> dokuzu ceyrek gece), ucret (210 -> 185 pound), odeme yontemi (kart -> banka havalesi), etkinlik (kano -> okculuk), bulusma yeri (ana kapi -> spor salonu). Harf harf soyleme 5. replikte."
+}

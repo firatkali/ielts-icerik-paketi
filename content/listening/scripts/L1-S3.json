@@ -1,0 +1,543 @@
+{
+  "schema_version": "1.0",
+  "script_id": "L1-S3",
+  "skill": "listening",
+  "test_id": "L1",
+  "section": 3,
+  "generated_by": "opus",
+  "setting": "Iki ogrencinin danismanlariyla grup sunumu planlama gorusmesi",
+  "context_line": "You will hear two students discussing a group presentation with their tutor.",
+  "word_count": 942,
+  "estimated_minutes": 6.3,
+  "turn_index_base": 0,
+  "speakers": [
+    {
+      "code": "F1",
+      "role": "ogrenci (Nadia)",
+      "gender": "female",
+      "accent": "en-GB",
+      "voice": "en-GB",
+      "age_band": "19-24",
+      "pace": "normal"
+    },
+    {
+      "code": "M1",
+      "role": "ogrenci (Callum)",
+      "gender": "male",
+      "accent": "en-CA",
+      "voice": "en-CA",
+      "age_band": "19-24",
+      "pace": "normal, itiraz ederken biraz hizli"
+    },
+    {
+      "code": "F2",
+      "role": "danisman ogretim uyesi",
+      "gender": "female",
+      "accent": "en-AU",
+      "voice": "en-AU",
+      "age_band": "40-55",
+      "pace": "normal, aciklamalarda yavas"
+    }
+  ],
+  "turns": [
+    {
+      "speaker": "F2",
+      "text": "Right, come in, both of you. So — the group presentation. Where have you got to?"
+    },
+    {
+      "speaker": "F1",
+      "text": "We've settled on a topic, at least. We want to look at community energy schemes — projects where local people own the generation themselves instead of buying from a large supplier."
+    },
+    {
+      "speaker": "F2",
+      "text": "Good, that's a manageable subject. Before we go any further, though, two things have changed since the module handbook came out. The presentation was down for week ten; it's been brought forward to week nine, so you'll be presenting on the eighteenth."
+    },
+    {
+      "speaker": "M1",
+      "text": "The eighteenth. That's nearly a fortnight earlier than we'd planned for."
+    },
+    {
+      "speaker": "F2",
+      "text": "It is, and the room's different too. It was going to be seminar room B, but that's being redecorated, so you'll be in the media suite on the first floor. The one advantage is that the equipment in there is a great deal better."
+    },
+    {
+      "speaker": "F1",
+      "text": "How long have we got?"
+    },
+    {
+      "speaker": "F2",
+      "text": "Fifteen minutes was the original plan, but with three groups presenting in the same session I've had to cut it to twelve, plus five minutes of questions at the end. And I do mean twelve — I stop people at the limit."
+    },
+    {
+      "speaker": "M1",
+      "text": "Twelve minutes between the two of us. That's tight."
+    },
+    {
+      "speaker": "F2",
+      "text": "It is, which is why I'd suggest no more than ten slides. Most groups put far too much text on the screen and then read it out, and that is the single most common reason people lose marks."
+    },
+    {
+      "speaker": "F1",
+      "text": "Can I ask how it's marked?"
+    },
+    {
+      "speaker": "F2",
+      "text": "Sixty per cent goes on the quality of the analysis, twenty on delivery, and twenty on how you handle the questions afterwards. Notice that the questions are worth as much as the delivery — groups tend to forget that and prepare nothing at all for them."
+    },
+    {
+      "speaker": "M1",
+      "text": "We'd talked about two possible case studies. There's a wind co-operative up in the hills, and there's a scheme that put solar panels on a set of primary school roofs."
+    },
+    {
+      "speaker": "F1",
+      "text": "I was keen on the wind one, because it's been running for twelve years and there's a proper record of what happened to it."
+    },
+    {
+      "speaker": "M1",
+      "text": "I'd rather do the solar scheme, though. The wind co-operative has been written about so often that we'd only be summarising other people's work. Nobody's really looked at the schools, and two of the governors have said they'd talk to us."
+    },
+    {
+      "speaker": "F2",
+      "text": "I'd go with the schools as well, for the reason Callum gives. Original material always reads better, and you can still bring the wind project in as a comparison."
+    },
+    {
+      "speaker": "F1",
+      "text": "All right, the schools it is. I do still think we need that longer record, though, so I'll use the wind scheme when I set out the background."
+    },
+    {
+      "speaker": "F2",
+      "text": "That's a sensible compromise. What about data?"
+    },
+    {
+      "speaker": "M1",
+      "text": "We were going to use the national household energy survey."
+    },
+    {
+      "speaker": "F2",
+      "text": "You can, but it's three years old now and it won't tell you anything about your particular schools. The council's open data portal has the actual generation figures, updated every month — start there, and use the national survey only for context."
+    },
+    {
+      "speaker": "F1",
+      "text": "The other thing we disagree about is the interviews. I want to film the governors and play two short clips, maybe forty seconds each. It brings real voices into the room."
+    },
+    {
+      "speaker": "M1",
+      "text": "And I think that's a risk. Video goes wrong more often than it works, and forty seconds of somebody talking is forty seconds we can't spend on the analysis. I'd rather put their words on the slide and read them out."
+    },
+    {
+      "speaker": "F2",
+      "text": "You're both partly right. Video is the thing that fails, in my experience — nine times out of ten it's the sound. Record audio instead, keep each clip to about twenty seconds, and have the transcript on the slide behind it. Then if the audio does let you down, you simply read it."
+    },
+    {
+      "speaker": "F1",
+      "text": "That's fair. I'd have hated to lose them altogether."
+    },
+    {
+      "speaker": "F2",
+      "text": "How are you splitting the work?"
+    },
+    {
+      "speaker": "F1",
+      "text": "I'll do the introduction and the policy background, Callum takes the case study and the figures, and we'll write the conclusion together so that it doesn't sound like two separate talks."
+    },
+    {
+      "speaker": "F2",
+      "text": "Good. Make sure you both speak in the second half as well — a group where one person disappears after five minutes always looks unbalanced."
+    },
+    {
+      "speaker": "M1",
+      "text": "Is there a handout?"
+    },
+    {
+      "speaker": "F2",
+      "text": "One side of A4, and I'd like an electronic copy by noon on the day before, so that I can print it for everybody. Put your references on it, and follow the guide on the module page — not the version in last year's handbook, which is out of date."
+    },
+    {
+      "speaker": "F1",
+      "text": "Should we practise in the actual room?"
+    },
+    {
+      "speaker": "F2",
+      "text": "Definitely. You can book the media suite through the department office, and I'd book it twice if you can — once early, to get the timing right, and once the day before. Take a stopwatch, or use your phone. Almost every group I've taught has overrun on the first run-through by three or four minutes."
+    },
+    {
+      "speaker": "M1",
+      "text": "And when do we need to book by?"
+    },
+    {
+      "speaker": "F2",
+      "text": "The office takes bookings up to a week ahead, so the Friday would be the safe day. Oh — and one more thing. Email me your outline by the end of next week. It only needs to be half a page, but it lets me tell you if you're heading in the wrong direction while there's still time to change course."
+    },
+    {
+      "speaker": "F1",
+      "text": "We'll get that over to you. Is there anything you'd particularly avoid?"
+    },
+    {
+      "speaker": "F2",
+      "text": "Two things. Don't open with a definition of community energy — everybody in the room has read the same chapter. And don't finish on a summary slide; finish on the one question your case study leaves open."
+    },
+    {
+      "speaker": "M1",
+      "text": "Right. Thank you, that's very useful."
+    },
+    {
+      "speaker": "F2",
+      "text": "See you both next week."
+    }
+  ],
+  "answer_points": [
+    {
+      "id": "L1-S3-01",
+      "kind": "date",
+      "value": "18th, week 9",
+      "quote": "it's been brought forward to week nine, so you'll be presenting on the eighteenth",
+      "turn_index": 2,
+      "speaker": "F2",
+      "distractor": "week ten",
+      "suggested_types": [
+        "sentence_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L1-S3-02",
+      "kind": "place",
+      "value": "media suite (first floor)",
+      "quote": "you'll be in the media suite on the first floor",
+      "turn_index": 4,
+      "speaker": "F2",
+      "distractor": "seminar room B",
+      "suggested_types": [
+        "sentence_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L1-S3-03",
+      "kind": "duration",
+      "value": "12 minutes",
+      "quote": "I've had to cut it to twelve",
+      "turn_index": 6,
+      "speaker": "F2",
+      "distractor": "15 minutes",
+      "suggested_types": [
+        "sentence_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L1-S3-04",
+      "kind": "duration",
+      "value": "5 minutes of questions",
+      "quote": "plus five minutes of questions at the end",
+      "turn_index": 6,
+      "speaker": "F2",
+      "distractor": null,
+      "suggested_types": [
+        "sentence_completion",
+        "note_completion"
+      ]
+    },
+    {
+      "id": "L1-S3-05",
+      "kind": "rule",
+      "value": "no more than 10 slides",
+      "quote": "I'd suggest no more than ten slides",
+      "turn_index": 8,
+      "speaker": "F2",
+      "distractor": null,
+      "suggested_types": [
+        "sentence_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L1-S3-06",
+      "kind": "reason",
+      "value": "reading text off the slides loses most marks",
+      "quote": "that is the single most common reason people lose marks",
+      "turn_index": 8,
+      "speaker": "F2",
+      "distractor": null,
+      "suggested_types": [
+        "multiple_choice",
+        "matching"
+      ]
+    },
+    {
+      "id": "L1-S3-07",
+      "kind": "number",
+      "value": "60 per cent for the analysis",
+      "quote": "Sixty per cent goes on the quality of the analysis",
+      "turn_index": 10,
+      "speaker": "F2",
+      "distractor": null,
+      "suggested_types": [
+        "table_completion",
+        "sentence_completion"
+      ]
+    },
+    {
+      "id": "L1-S3-08",
+      "kind": "number",
+      "value": "20 per cent for handling questions",
+      "quote": "twenty on how you handle the questions afterwards",
+      "turn_index": 10,
+      "speaker": "F2",
+      "distractor": null,
+      "suggested_types": [
+        "table_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L1-S3-09",
+      "kind": "opinion",
+      "value": "Nadia favoured the wind co-operative (twelve-year record)",
+      "quote": "I was keen on the wind one, because it's been running for twelve years",
+      "turn_index": 12,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "matching",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L1-S3-10",
+      "kind": "opinion",
+      "value": "Callum favoured the schools scheme (nobody has studied it)",
+      "quote": "Nobody's really looked at the schools",
+      "turn_index": 13,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "matching",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L1-S3-11",
+      "kind": "opinion",
+      "value": "the tutor also chose the schools, for originality",
+      "quote": "Original material always reads better",
+      "turn_index": 14,
+      "speaker": "F2",
+      "distractor": null,
+      "suggested_types": [
+        "matching",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L1-S3-12",
+      "kind": "object",
+      "value": "the wind scheme is used in the background section",
+      "quote": "I'll use the wind scheme when I set out the background",
+      "turn_index": 15,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "sentence_completion",
+        "matching"
+      ]
+    },
+    {
+      "id": "L1-S3-13",
+      "kind": "limitation",
+      "value": "the national survey is three years old",
+      "quote": "it's three years old now",
+      "turn_index": 18,
+      "speaker": "F2",
+      "distractor": null,
+      "suggested_types": [
+        "sentence_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L1-S3-14",
+      "kind": "object",
+      "value": "the council's open data portal",
+      "quote": "The council's open data portal has the actual generation figures",
+      "turn_index": 18,
+      "speaker": "F2",
+      "distractor": "the national household energy survey",
+      "suggested_types": [
+        "sentence_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L1-S3-15",
+      "kind": "opinion",
+      "value": "Nadia wants filmed interview clips",
+      "quote": "I want to film the governors and play two short clips",
+      "turn_index": 19,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "matching",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L1-S3-16",
+      "kind": "opinion",
+      "value": "Callum wants the quotations on the slide instead",
+      "quote": "I'd rather put their words on the slide and read them out",
+      "turn_index": 20,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "matching",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L1-S3-17",
+      "kind": "advantage",
+      "value": "audio clips of about 20 seconds",
+      "quote": "Record audio instead, keep each clip to about twenty seconds",
+      "turn_index": 21,
+      "speaker": "F2",
+      "distractor": "forty-second video clips",
+      "suggested_types": [
+        "sentence_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L1-S3-18",
+      "kind": "reason",
+      "value": "it is usually the sound that fails",
+      "quote": "nine times out of ten it's the sound",
+      "turn_index": 21,
+      "speaker": "F2",
+      "distractor": null,
+      "suggested_types": [
+        "multiple_choice",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L1-S3-19",
+      "kind": "rule",
+      "value": "both students must speak in the second half",
+      "quote": "Make sure you both speak in the second half as well",
+      "turn_index": 25,
+      "speaker": "F2",
+      "distractor": null,
+      "suggested_types": [
+        "sentence_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L1-S3-20",
+      "kind": "rule",
+      "value": "handout of one side of A4",
+      "quote": "One side of A4",
+      "turn_index": 27,
+      "speaker": "F2",
+      "distractor": null,
+      "suggested_types": [
+        "sentence_completion",
+        "note_completion"
+      ]
+    },
+    {
+      "id": "L1-S3-21",
+      "kind": "time",
+      "value": "noon the day before",
+      "quote": "an electronic copy by noon on the day before",
+      "turn_index": 27,
+      "speaker": "F2",
+      "distractor": null,
+      "suggested_types": [
+        "sentence_completion",
+        "table_completion"
+      ]
+    },
+    {
+      "id": "L1-S3-22",
+      "kind": "rule",
+      "value": "referencing guide on the module page",
+      "quote": "follow the guide on the module page",
+      "turn_index": 27,
+      "speaker": "F2",
+      "distractor": "last year's handbook",
+      "suggested_types": [
+        "sentence_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L1-S3-23",
+      "kind": "place",
+      "value": "the department office (room booking)",
+      "quote": "You can book the media suite through the department office",
+      "turn_index": 29,
+      "speaker": "F2",
+      "distractor": null,
+      "suggested_types": [
+        "sentence_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L1-S3-24",
+      "kind": "number",
+      "value": "three or four minutes over",
+      "quote": "has overrun on the first run-through by three or four minutes",
+      "turn_index": 29,
+      "speaker": "F2",
+      "distractor": null,
+      "suggested_types": [
+        "sentence_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L1-S3-25",
+      "kind": "date",
+      "value": "Friday (booking deadline)",
+      "quote": "so the Friday would be the safe day",
+      "turn_index": 31,
+      "speaker": "F2",
+      "distractor": null,
+      "suggested_types": [
+        "sentence_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L1-S3-26",
+      "kind": "rule",
+      "value": "half-page outline by the end of next week",
+      "quote": "Email me your outline by the end of next week",
+      "turn_index": 31,
+      "speaker": "F2",
+      "distractor": null,
+      "suggested_types": [
+        "sentence_completion",
+        "note_completion"
+      ]
+    },
+    {
+      "id": "L1-S3-27",
+      "kind": "advantage",
+      "value": "end on an open question, not a summary",
+      "quote": "finish on the one question your case study leaves open",
+      "turn_index": 33,
+      "speaker": "F2",
+      "distractor": null,
+      "suggested_types": [
+        "multiple_choice",
+        "sentence_completion"
+      ]
+    }
+  ],
+  "spatial_description": null,
+  "notes": "turn_index degerleri 0 tabanlidir. Alti celdirici duzeltme var: hafta (10 -> 9), oda (seminer odasi B -> medya odasi), sure (15 -> 12 dakika), veri kaynagi (ulusal anket -> belediye acik veri portali), kayit bicimi (video -> ses), kaynakca kilavuzu (gecen yilin el kitabi -> ders sayfasi). Gorus ayrimi: Nadia ruzgar kooperatifi + filmli klip; Callum okul cati gunes projesi + slaytta alinti; danisman okullari destekliyor ama Nadia'nin kliplerini ses kaydi olarak koruyor."
+}
