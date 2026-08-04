@@ -1,0 +1,618 @@
+{
+  "schema_version": "1.0",
+  "script_id": "L4-S2",
+  "skill": "listening",
+  "test_id": "L4",
+  "section": 2,
+  "generated_by": "opus",
+  "setting": "Yeniden acilan bir geri donusum merkezinin saha sorumlusunun mahalle sakinlerine tanitim konusmasi",
+  "context_line": "You will hear the supervisor of a household recycling centre talking to local residents about the rebuilt site and how to use it.",
+  "word_count": 890,
+  "estimated_minutes": 5.9,
+  "turn_index_base": 0,
+  "speakers": [
+    {
+      "code": "F1",
+      "role": "geri donusum merkezi saha sorumlusu",
+      "gender": "female",
+      "accent": "en-GB",
+      "voice": "en-GB",
+      "age_band": "35-55",
+      "pace": "normal, plan tarifinde yavas"
+    }
+  ],
+  "turns": [
+    {
+      "speaker": "F1",
+      "text": "Good evening. I'm the site supervisor at the Halstock recycling centre on Ferry Lane. Since we reopened a fortnight ago I've been asked the same dozen questions over and over, so I thought I'd answer them all at once."
+    },
+    {
+      "speaker": "F1",
+      "text": "Some background. The old site was built in nineteen eighty-four. It had one lane and eleven containers, and on a Saturday the queue reached onto the bypass. We closed it in March, and the rebuilding took fourteen months. I said a year in the newsletter, and I was wrong — fourteen."
+    },
+    {
+      "speaker": "F1",
+      "text": "The biggest change is that it is now a split-level site. You drive up a ramp and tip downwards into the containers, instead of carrying bags up steps. Nobody has to lift anything above shoulder height any more, and that alone has almost ended the accidents."
+    },
+    {
+      "speaker": "F1",
+      "text": "Let me take you round it. You come in off Ferry Lane through the entrance barrier, which reads your number plate as you arrive. Immediately on your left is the site office — the green cabin with the hatch in the side. The toilets and the drinking water point are behind the site office."
+    },
+    {
+      "speaker": "F1",
+      "text": "Opposite the office, on your right, is the small car park, for people visiting the reuse shop, not dropping waste off. There are eight spaces and they fill up on a Sunday. The reuse shop itself is next to the car park, in the long single-storey building, and the textiles bank stands at the near end of that same building."
+    },
+    {
+      "speaker": "F1",
+      "text": "Straight ahead of you, where the lane widens out, are the garden waste bays. There are four of them now. I know the leaflet still says three — that was the old site. Beyond them the lane divides, and the left-hand side takes you up the ramp."
+    },
+    {
+      "speaker": "F1",
+      "text": "Along the right-hand side of the ramp are the skips for wood, rubble and scrap metal, in that order as you climb. At the far end of the ramp are the two large containers for general waste — whatever is genuinely left over. And between the end of the ramp and the exit barrier you'll find the banks for glass, cans and plastic bottles. Those used to sit beside the office; they are down by the exit now."
+    },
+    {
+      "speaker": "F1",
+      "text": "Two more buildings. The electrical store is opposite the reuse shop; anything with a plug or a battery goes in there, and a member of staff will carry it in for you. The paint and chemicals store is at the back of the site, next to the wood skip, behind a locked gate. You don't go inside — you hand things across at the counter."
+    },
+    {
+      "speaker": "F1",
+      "text": "Now, the rules, because several have changed. Cars come in as they always did: no booking, nothing to fill in. Vans, pickups and anything towing a trailer need a permit, and the permit has to be applied for online at least three working days ahead. You used to sign a form at the gate; that stopped the day we reopened, and the staff genuinely cannot make an exception."
+    },
+    {
+      "speaker": "F1",
+      "text": "The permit is free and it gives you twelve visits a year. What we're trying to stop is building waste arriving in a borrowed van, because that counts as trade waste and we aren't allowed to take it. And soil and rubble from a household are limited to four bags a visit."
+    },
+    {
+      "speaker": "F1",
+      "text": "Opening hours. We're open from eight in the morning until six, and from November until February we shut at four instead, because there is still no lighting on the upper level. We close one day a week, and that has moved: it was Wednesday for years and it is now Tuesday."
+    },
+    {
+      "speaker": "F1",
+      "text": "The reuse shop keeps its own hours — Friday, Saturday and Sunday, ten until four. It was Saturdays only at the old site. Everything in it has been checked and tested, prices start at a pound, and the takings go into the site's community fund, which paid for the bicycle repair sessions at the youth centre."
+    },
+    {
+      "speaker": "F1",
+      "text": "A few awkward items. Cooking oil: pour it into a bottle, screw the lid on tightly and hand it in at the office, never into the general containers. Batteries go into the clear tube by the office door. Plasterboard has to be kept separate and you'll be asked to put it in the yellow bay. Gas bottles we can't take at all — the supplier will take those back."
+    },
+    {
+      "speaker": "F1",
+      "text": "Two things we've added. There's a repair session on the first Saturday of the month, from ten until one, in the room at the back of the reuse shop, where volunteers look at small electrical items, bicycles and clothing. And there's a swap shelf by the shop door — books, plant pots, jigsaw puzzles. Help yourself, no charge."
+    },
+    {
+      "speaker": "F1",
+      "text": "Safety, briefly. Children stay in the vehicle, please. Nobody reverses onto the ramp on their own — a member of staff will guide you in, and will park it for you if you'd rather. Closed shoes rather than sandals. And you can't take anything back out of a container once it's been tipped: it belongs to the council from that moment — that's the insurance."
+    },
+    {
+      "speaker": "F1",
+      "text": "Finally, we're short of volunteers for the shop — two hours a week is all it takes — and there's a sheet on the noticeboard by the office window. Right. Questions."
+    }
+  ],
+  "answer_points": [
+    {
+      "id": "L4-S2-01",
+      "kind": "date",
+      "value": "1984",
+      "quote": "The old site was built in nineteen eighty-four",
+      "turn_index": 1,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "note_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L4-S2-02",
+      "kind": "number",
+      "value": "one lane and eleven containers",
+      "quote": "It had one lane and eleven containers",
+      "turn_index": 1,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "note_completion",
+        "table_completion"
+      ]
+    },
+    {
+      "id": "L4-S2-03",
+      "kind": "duration",
+      "value": "14 months to rebuild",
+      "quote": "the rebuilding took fourteen months",
+      "turn_index": 1,
+      "speaker": "F1",
+      "distractor": "a year",
+      "suggested_types": [
+        "note_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L4-S2-04",
+      "kind": "advantage",
+      "value": "you tip downwards from a ramp instead of climbing steps",
+      "quote": "You drive up a ramp and tip downwards into the containers",
+      "turn_index": 2,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "multiple_choice",
+        "sentence_completion"
+      ]
+    },
+    {
+      "id": "L4-S2-05",
+      "kind": "advantage",
+      "value": "nothing has to be lifted above shoulder height",
+      "quote": "Nobody has to lift anything above shoulder height any more",
+      "turn_index": 2,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "multiple_choice",
+        "sentence_completion"
+      ]
+    },
+    {
+      "id": "L4-S2-06",
+      "kind": "rule",
+      "value": "the entrance barrier reads your number plate",
+      "quote": "which reads your number plate as you arrive",
+      "turn_index": 3,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "short_answer",
+        "sentence_completion"
+      ]
+    },
+    {
+      "id": "L4-S2-07",
+      "kind": "place",
+      "value": "site office — immediately on the left",
+      "quote": "Immediately on your left is the site office",
+      "turn_index": 3,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "plan_map_diagram_labelling"
+      ]
+    },
+    {
+      "id": "L4-S2-08",
+      "kind": "place",
+      "value": "toilets and water point behind the site office",
+      "quote": "The toilets and the drinking water point are behind the site office",
+      "turn_index": 3,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "plan_map_diagram_labelling"
+      ]
+    },
+    {
+      "id": "L4-S2-09",
+      "kind": "place",
+      "value": "car park opposite the office, 8 spaces",
+      "quote": "There are eight spaces and they fill up on a Sunday",
+      "turn_index": 4,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "plan_map_diagram_labelling",
+        "note_completion"
+      ]
+    },
+    {
+      "id": "L4-S2-10",
+      "kind": "place",
+      "value": "reuse shop next to the car park",
+      "quote": "The reuse shop itself is next to the car park",
+      "turn_index": 4,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "plan_map_diagram_labelling"
+      ]
+    },
+    {
+      "id": "L4-S2-11",
+      "kind": "place",
+      "value": "textiles bank at the near end of the shop building",
+      "quote": "the textiles bank stands at the near end of that same building",
+      "turn_index": 4,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "plan_map_diagram_labelling"
+      ]
+    },
+    {
+      "id": "L4-S2-12",
+      "kind": "number",
+      "value": "4 garden waste bays",
+      "quote": "There are four of them now.",
+      "turn_index": 5,
+      "speaker": "F1",
+      "distractor": "3",
+      "suggested_types": [
+        "plan_map_diagram_labelling",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L4-S2-13",
+      "kind": "place",
+      "value": "wood, rubble and scrap metal skips along the right of the ramp",
+      "quote": "Along the right-hand side of the ramp are the skips for wood, rubble and scrap metal",
+      "turn_index": 6,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "plan_map_diagram_labelling"
+      ]
+    },
+    {
+      "id": "L4-S2-14",
+      "kind": "place",
+      "value": "general waste containers at the far end of the ramp",
+      "quote": "At the far end of the ramp are the two large containers",
+      "turn_index": 6,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "plan_map_diagram_labelling"
+      ]
+    },
+    {
+      "id": "L4-S2-15",
+      "kind": "place",
+      "value": "glass, cans and plastic banks between the ramp and the exit",
+      "quote": "between the end of the ramp and the exit barrier you'll find the banks for glass, cans and plastic bottles",
+      "turn_index": 6,
+      "speaker": "F1",
+      "distractor": "beside the site office",
+      "suggested_types": [
+        "plan_map_diagram_labelling",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L4-S2-16",
+      "kind": "place",
+      "value": "electrical store opposite the reuse shop",
+      "quote": "The electrical store is opposite the reuse shop",
+      "turn_index": 7,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "plan_map_diagram_labelling"
+      ]
+    },
+    {
+      "id": "L4-S2-17",
+      "kind": "place",
+      "value": "paint and chemicals store at the back, next to the wood skip",
+      "quote": "The paint and chemicals store is at the back of the site, next to the wood skip",
+      "turn_index": 7,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "plan_map_diagram_labelling"
+      ]
+    },
+    {
+      "id": "L4-S2-18",
+      "kind": "rule",
+      "value": "paint and chemicals are handed over at the counter",
+      "quote": "you hand things across at the counter",
+      "turn_index": 7,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "sentence_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L4-S2-19",
+      "kind": "rule",
+      "value": "vans need a permit applied for online 3 working days ahead",
+      "quote": "the permit has to be applied for online at least three working days ahead",
+      "turn_index": 8,
+      "speaker": "F1",
+      "distractor": "signing a form at the gate",
+      "suggested_types": [
+        "note_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L4-S2-20",
+      "kind": "rule",
+      "value": "the permit is free and allows 12 visits a year",
+      "quote": "it gives you twelve visits a year",
+      "turn_index": 9,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "note_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L4-S2-21",
+      "kind": "limitation",
+      "value": "trade waste cannot be accepted",
+      "quote": "that counts as trade waste and we aren't allowed to take it",
+      "turn_index": 9,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "multiple_choice",
+        "sentence_completion"
+      ]
+    },
+    {
+      "id": "L4-S2-22",
+      "kind": "limitation",
+      "value": "soil and rubble limited to 4 bags a visit",
+      "quote": "soil and rubble from a household are limited to four bags a visit",
+      "turn_index": 9,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "note_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L4-S2-23",
+      "kind": "time",
+      "value": "open 8 a.m. to 6 p.m.",
+      "quote": "We're open from eight in the morning until six",
+      "turn_index": 10,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "table_completion",
+        "note_completion"
+      ]
+    },
+    {
+      "id": "L4-S2-24",
+      "kind": "reason",
+      "value": "winter closing is earlier because the upper level has no lighting",
+      "quote": "because there is still no lighting on the upper level",
+      "turn_index": 10,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "multiple_choice",
+        "sentence_completion"
+      ]
+    },
+    {
+      "id": "L4-S2-25",
+      "kind": "date",
+      "value": "closed on Tuesdays",
+      "quote": "it was Wednesday for years and it is now Tuesday",
+      "turn_index": 10,
+      "speaker": "F1",
+      "distractor": "Wednesday",
+      "suggested_types": [
+        "table_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L4-S2-26",
+      "kind": "time",
+      "value": "reuse shop open Friday to Sunday, 10 to 4",
+      "quote": "Friday, Saturday and Sunday, ten until four",
+      "turn_index": 11,
+      "speaker": "F1",
+      "distractor": "Saturdays only",
+      "suggested_types": [
+        "table_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L4-S2-27",
+      "kind": "price",
+      "value": "shop prices start at a pound",
+      "quote": "prices start at a pound",
+      "turn_index": 11,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "note_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L4-S2-28",
+      "kind": "rule",
+      "value": "shop takings go to the community fund",
+      "quote": "the takings go into the site's community fund",
+      "turn_index": 11,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "sentence_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L4-S2-29",
+      "kind": "rule",
+      "value": "cooking oil goes into a sealed bottle handed in at the office",
+      "quote": "pour it into a bottle, screw the lid on tightly and hand it in at the office",
+      "turn_index": 12,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "note_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L4-S2-30",
+      "kind": "place",
+      "value": "batteries go in the tube by the office door",
+      "quote": "Batteries go into the clear tube by the office door",
+      "turn_index": 12,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "note_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L4-S2-31",
+      "kind": "place",
+      "value": "plasterboard goes in the yellow bay",
+      "quote": "you'll be asked to put it in the yellow bay",
+      "turn_index": 12,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "note_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L4-S2-32",
+      "kind": "limitation",
+      "value": "gas bottles are not accepted; the supplier takes them back",
+      "quote": "Gas bottles we can't take at all",
+      "turn_index": 12,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "multiple_choice",
+        "sentence_completion"
+      ]
+    },
+    {
+      "id": "L4-S2-33",
+      "kind": "time",
+      "value": "repair session, first Saturday of the month, 10 to 1",
+      "quote": "a repair session on the first Saturday of the month, from ten until one",
+      "turn_index": 13,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "note_completion",
+        "table_completion"
+      ]
+    },
+    {
+      "id": "L4-S2-34",
+      "kind": "rule",
+      "value": "children must stay in the vehicle",
+      "quote": "Children stay in the vehicle, please.",
+      "turn_index": 14,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "multiple_choice",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L4-S2-35",
+      "kind": "rule",
+      "value": "nothing may be taken back out of a container",
+      "quote": "you can't take anything back out of a container once it's been tipped",
+      "turn_index": 14,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "multiple_choice",
+        "sentence_completion"
+      ]
+    },
+    {
+      "id": "L4-S2-36",
+      "kind": "duration",
+      "value": "volunteers give 2 hours a week",
+      "quote": "two hours a week is all it takes",
+      "turn_index": 15,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "note_completion",
+        "short_answer"
+      ]
+    }
+  ],
+  "spatial_description": {
+    "kind": "plan",
+    "subject": "Halstock geri donusum merkezinin saha plani",
+    "elements": [
+      {
+        "label": "entrance barrier",
+        "position": "Ferry Lane cephesindeki giris, plakayi okuyan bariyer"
+      },
+      {
+        "label": "site office",
+        "position": "girisden hemen solda, yesil kabin"
+      },
+      {
+        "label": "toilets and water point",
+        "position": "saha ofisinin arkasi"
+      },
+      {
+        "label": "car park",
+        "position": "ofisin tam karsisi, sagda, sekiz yer"
+      },
+      {
+        "label": "reuse shop",
+        "position": "otoparkin yaninda, tek katli uzun binada"
+      },
+      {
+        "label": "textiles bank",
+        "position": "ayni binanin yakin ucunda"
+      },
+      {
+        "label": "garden waste bays",
+        "position": "girisin tam karsisinda, yolun genisledigi yerde"
+      },
+      {
+        "label": "ramp",
+        "position": "bahce atigi bolmelerinin otesinde, yolun sol kolu"
+      },
+      {
+        "label": "wood, rubble and scrap metal skips",
+        "position": "rampanin sag tarafi boyunca, bu sirayla"
+      },
+      {
+        "label": "containers for general waste",
+        "position": "rampanin en ucunda, iki buyuk konteyner"
+      },
+      {
+        "label": "glass, cans and plastic banks",
+        "position": "rampanin sonu ile cikis bariyeri arasinda (eskiden ofisin yanindaydi)"
+      },
+      {
+        "label": "electrical store",
+        "position": "yeniden kullanim dukkaninin tam karsisi"
+      },
+      {
+        "label": "paint and chemicals store",
+        "position": "sahanin arkasinda, ahsap konteynerinin yaninda, kilitli kapinin ardinda"
+      }
+    ],
+    "quote_turn_indexes": [
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  "notes": "turn_index degerleri 0 tabanlidir. Alti celdirici duzeltme var: insaat suresi (bir yil -> on dort ay), bahce atigi bolmesi (uc -> dort), cam/kutu kumbaralarinin yeri (ofisin yani -> cikis bariyeri), van izni (kapida form -> uc is gunu once cevrimici basvuru), kapali gun (Carsamba -> Sali), dukkan gunleri (yalniz Cumartesi -> Cuma-Pazar). Plan tarifi 3-7. repliklerde, on uc ogeli. Metinde rakam yok."
+}

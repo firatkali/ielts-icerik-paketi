@@ -1,0 +1,532 @@
+{
+  "schema_version": "1.0",
+  "script_id": "L4-S4",
+  "skill": "listening",
+  "test_id": "L4",
+  "section": 4,
+  "generated_by": "opus",
+  "setting": "Cevre bilimi dersinde gurultu kirliligi uzerine ders anlatimi",
+  "context_line": "You will hear part of a lecture about noise pollution, how it is measured and how it can be reduced.",
+  "word_count": 949,
+  "estimated_minutes": 6.3,
+  "turn_index_base": 0,
+  "speakers": [
+    {
+      "code": "F1",
+      "role": "ogretim uyesi",
+      "gender": "female",
+      "accent": "en-GB",
+      "voice": "en-GB",
+      "age_band": "40-60",
+      "pace": "normal, olculu"
+    }
+  ],
+  "turns": [
+    {
+      "speaker": "F1",
+      "text": "Good morning. Last week, air quality; this week, the other invisible pollutant — noise. Let me begin by being precise about the word itself."
+    },
+    {
+      "speaker": "F1",
+      "text": "Sound is physical: a pressure wave you can measure. Noise is a judgement — it is sound that somebody does not want. That matters, because two people in the same street, exposed to exactly the same measured level, will not report the same amount of annoyance. The gap between them is not a measurement error; it is the subject of the research."
+    },
+    {
+      "speaker": "F1",
+      "text": "The unit is the decibel, and the scale is logarithmic. A rise of ten decibels represents ten times the sound energy, and is heard as roughly twice as loud. So if you double the traffic on a road, you do not add ten decibels. You add three. That is twice the energy, and it is close to the smallest change most people notice at all."
+    },
+    {
+      "speaker": "F1",
+      "text": "Measurement. A sound level meter applies a weighting, because the ear is far less sensitive to low frequencies, and the weighting used for environmental work discounts the low end heavily. The level is then averaged over time, and for policy we use a whole-day indicator which adds a penalty of five decibels to the evening and ten to the night: the same lorry is judged far more intrusive at two in the morning."
+    },
+    {
+      "speaker": "F1",
+      "text": "Mapping. In many countries any built-up area above a threshold population must produce a strategic noise map and refresh it every five years — not every three, the figure in older textbooks. The maps are modelled rather than measured. You feed in traffic counts, speeds, the heights of the buildings and the hardness of the ground, and the model predicts a level at a grid of points across each frontage. Then you count the people living behind those frontages."
+    },
+    {
+      "speaker": "F1",
+      "text": "So what dominates? Road traffic, overwhelmingly. You will sometimes see it put at two thirds of the exposed population; the more recent figures put it nearer four fifths. Railways come a long way second and aircraft third, though aircraft generate a far higher volume of complaint per person exposed."
+    },
+    {
+      "speaker": "F1",
+      "text": "Break road noise down. Below about forty kilometres an hour, what you are hearing is the engine and the exhaust. Above that, the dominant source is the contact between the tyre and the road surface. Which is why electric vehicles make much less difference to street noise than people expect: they are quiet in a car park and no quieter at all on a bypass."
+    },
+    {
+      "speaker": "F1",
+      "text": "Control, then. The hierarchy always runs in this order: at the source, along the path, at the receiver."
+    },
+    {
+      "speaker": "F1",
+      "text": "At the source you can change the surface. A porous asphalt with an open texture absorbs part of the sound generated in the tyre tread. You will see five decibels quoted; on a road that has silted up after a few years, three to four is a more honest figure, and the benefit decays steadily as the pores fill. You can also change the speed: dropping a limit from fifty to thirty kilometres an hour is worth somewhere around two to three decibels, and costs almost nothing."
+    },
+    {
+      "speaker": "F1",
+      "text": "Along the path, the tool is the barrier, and a barrier works by breaking the line of sight between the source and the ear. If you can see the wheels, the wall isn't working. A well-placed barrier will give you five to ten decibels, and an earth bund does the same work while looking like landscape."
+    },
+    {
+      "speaker": "F1",
+      "text": "And here is a myth you should be able to correct. Trees are not an acoustic barrier: a thin screen along a road does essentially nothing to the measured level. The figure people carry in their heads is something like ten metres of planting; the research suggests you need a dense belt of something closer to thirty metres before you get even a couple of decibels. What trees achieve is different: they hide the road, and people who cannot see the traffic report less annoyance at the same measured level."
+    },
+    {
+      "speaker": "F1",
+      "text": "At the receiver you are into glazing, and there is a trap. Secondary glazing works, and the width of the gap between the panes matters more than the thickness of the glass; but a sealed bedroom in July is unbearable, so the window gets opened and everything that was paid for is lost. The better answer is planning: put the bedrooms on the quiet side of the building."
+    },
+    {
+      "speaker": "F1",
+      "text": "Two further findings. Character matters as much as level: a steady hum is tolerated far better than the same energy delivered as a series of bangs, and a tone standing out from the background provokes complaints well below the level you would predict. And control matters: noise that people believe to be necessary is reported as very much less annoying than identical noise from a source they feel they have no say over."
+    },
+    {
+      "speaker": "F1",
+      "text": "The ecology, briefly — that is where the field is moving. Birds in noisy places sing at a higher pitch than the same species in quiet places, and they start earlier in the morning; the low frequencies of traffic mask the low end of their song. Some species simply thin out within a few hundred metres of a busy road, on otherwise good habitat — so a road takes away more habitat than the strip of asphalt it occupies."
+    },
+    {
+      "speaker": "F1",
+      "text": "For the practical next week: you will each sign out a meter, choose two locations and log for an hour at each, in fifteen-minute blocks. One on a main road, one somewhere you would call quiet. Write down what you can hear as well as what the instrument says — that column is what we will spend the seminar arguing about."
+    }
+  ],
+  "answer_points": [
+    {
+      "id": "L4-S4-01",
+      "kind": "rule",
+      "value": "noise = sound somebody does not want",
+      "quote": "it is sound that somebody does not want",
+      "turn_index": 1,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "short_answer",
+        "sentence_completion"
+      ]
+    },
+    {
+      "id": "L4-S4-02",
+      "kind": "reason",
+      "value": "identical measured levels produce different annoyance",
+      "quote": "will not report the same amount of annoyance",
+      "turn_index": 1,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "multiple_choice",
+        "sentence_completion"
+      ]
+    },
+    {
+      "id": "L4-S4-03",
+      "kind": "rule",
+      "value": "the decibel scale is logarithmic",
+      "quote": "the scale is logarithmic",
+      "turn_index": 2,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "note_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L4-S4-04",
+      "kind": "number",
+      "value": "+10 dB = ten times the energy, heard as twice as loud",
+      "quote": "A rise of ten decibels represents ten times the sound energy",
+      "turn_index": 2,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "note_completion",
+        "sentence_completion"
+      ]
+    },
+    {
+      "id": "L4-S4-05",
+      "kind": "number",
+      "value": "doubling the traffic adds 3 dB",
+      "quote": "You add three.",
+      "turn_index": 2,
+      "speaker": "F1",
+      "distractor": "10 decibels",
+      "suggested_types": [
+        "multiple_choice",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L4-S4-06",
+      "kind": "limitation",
+      "value": "3 dB is about the smallest change people notice",
+      "quote": "it is close to the smallest change most people notice at all",
+      "turn_index": 2,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "sentence_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L4-S4-07",
+      "kind": "rule",
+      "value": "weighting discounts low frequencies",
+      "quote": "the weighting used for environmental work discounts the low end heavily",
+      "turn_index": 3,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "summary_completion",
+        "sentence_completion"
+      ]
+    },
+    {
+      "id": "L4-S4-08",
+      "kind": "number",
+      "value": "penalty of 5 dB for evening, 10 dB for night",
+      "quote": "adds a penalty of five decibels to the evening and ten to the night",
+      "turn_index": 3,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "note_completion",
+        "flow_chart_completion"
+      ]
+    },
+    {
+      "id": "L4-S4-09",
+      "kind": "duration",
+      "value": "noise maps refreshed every 5 years",
+      "quote": "refresh it every five years",
+      "turn_index": 4,
+      "speaker": "F1",
+      "distractor": "every 3 years",
+      "suggested_types": [
+        "note_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L4-S4-10",
+      "kind": "rule",
+      "value": "maps are modelled, not measured",
+      "quote": "The maps are modelled rather than measured.",
+      "turn_index": 4,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "short_answer",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L4-S4-11",
+      "kind": "object",
+      "value": "model inputs: traffic counts, speeds, building heights, ground hardness",
+      "quote": "traffic counts, speeds, the heights of the buildings and the hardness of the ground",
+      "turn_index": 4,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "note_completion",
+        "flow_chart_completion"
+      ]
+    },
+    {
+      "id": "L4-S4-12",
+      "kind": "number",
+      "value": "road traffic affects nearer four fifths of those exposed",
+      "quote": "the more recent figures put it nearer four fifths",
+      "turn_index": 5,
+      "speaker": "F1",
+      "distractor": "two thirds",
+      "suggested_types": [
+        "multiple_choice",
+        "summary_completion"
+      ]
+    },
+    {
+      "id": "L4-S4-13",
+      "kind": "rule",
+      "value": "railways second, aircraft third",
+      "quote": "Railways come a long way second and aircraft third",
+      "turn_index": 5,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "note_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L4-S4-14",
+      "kind": "advantage",
+      "value": "aircraft draw more complaints per person exposed",
+      "quote": "aircraft generate a far higher volume of complaint per person exposed",
+      "turn_index": 5,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "multiple_choice",
+        "sentence_completion"
+      ]
+    },
+    {
+      "id": "L4-S4-15",
+      "kind": "number",
+      "value": "below 40 km/h the engine dominates",
+      "quote": "Below about forty kilometres an hour, what you are hearing is the engine and the exhaust",
+      "turn_index": 6,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "note_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L4-S4-16",
+      "kind": "rule",
+      "value": "above that speed tyre-road contact dominates",
+      "quote": "the dominant source is the contact between the tyre and the road surface",
+      "turn_index": 6,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "summary_completion",
+        "sentence_completion"
+      ]
+    },
+    {
+      "id": "L4-S4-17",
+      "kind": "limitation",
+      "value": "electric vehicles are no quieter at speed",
+      "quote": "they are quiet in a car park and no quieter at all on a bypass",
+      "turn_index": 6,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "multiple_choice",
+        "sentence_completion"
+      ]
+    },
+    {
+      "id": "L4-S4-18",
+      "kind": "rule",
+      "value": "control hierarchy: source, path, receiver",
+      "quote": "at the source, along the path, at the receiver",
+      "turn_index": 7,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "flow_chart_completion",
+        "note_completion"
+      ]
+    },
+    {
+      "id": "L4-S4-19",
+      "kind": "number",
+      "value": "porous asphalt gives 3 to 4 dB in practice",
+      "quote": "three to four is a more honest figure",
+      "turn_index": 8,
+      "speaker": "F1",
+      "distractor": "5 decibels",
+      "suggested_types": [
+        "multiple_choice",
+        "note_completion"
+      ]
+    },
+    {
+      "id": "L4-S4-20",
+      "kind": "limitation",
+      "value": "the benefit decays as the pores fill",
+      "quote": "the benefit decays steadily as the pores fill",
+      "turn_index": 8,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "sentence_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L4-S4-21",
+      "kind": "number",
+      "value": "50 to 30 km/h saves about 2 to 3 dB",
+      "quote": "dropping a limit from fifty to thirty kilometres an hour is worth somewhere around two to three decibels",
+      "turn_index": 8,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "note_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L4-S4-22",
+      "kind": "rule",
+      "value": "a barrier works by breaking the line of sight",
+      "quote": "a barrier works by breaking the line of sight between the source and the ear",
+      "turn_index": 9,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "summary_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L4-S4-23",
+      "kind": "number",
+      "value": "a well-placed barrier gives 5 to 10 dB",
+      "quote": "A well-placed barrier will give you five to ten decibels",
+      "turn_index": 9,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "note_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L4-S4-24",
+      "kind": "object",
+      "value": "an earth bund does the same job and looks like landscape",
+      "quote": "an earth bund does the same work while looking like landscape",
+      "turn_index": 9,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "sentence_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L4-S4-25",
+      "kind": "number",
+      "value": "a tree belt must be about 30 metres deep",
+      "quote": "you need a dense belt of something closer to thirty metres",
+      "turn_index": 10,
+      "speaker": "F1",
+      "distractor": "10 metres",
+      "suggested_types": [
+        "multiple_choice",
+        "note_completion"
+      ]
+    },
+    {
+      "id": "L4-S4-26",
+      "kind": "advantage",
+      "value": "trees reduce annoyance because they hide the road",
+      "quote": "people who cannot see the traffic report less annoyance at the same measured level",
+      "turn_index": 10,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "multiple_choice",
+        "summary_completion"
+      ]
+    },
+    {
+      "id": "L4-S4-27",
+      "kind": "rule",
+      "value": "the gap between the panes matters more than the thickness of the glass",
+      "quote": "the width of the gap between the panes matters more than the thickness of the glass",
+      "turn_index": 11,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "sentence_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L4-S4-28",
+      "kind": "limitation",
+      "value": "an opened window loses the benefit of glazing",
+      "quote": "the window gets opened and everything that was paid for is lost",
+      "turn_index": 11,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "multiple_choice",
+        "sentence_completion"
+      ]
+    },
+    {
+      "id": "L4-S4-29",
+      "kind": "advantage",
+      "value": "put bedrooms on the quiet side of the building",
+      "quote": "put the bedrooms on the quiet side of the building",
+      "turn_index": 11,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "note_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L4-S4-30",
+      "kind": "rule",
+      "value": "a steady hum is tolerated better than bangs",
+      "quote": "a steady hum is tolerated far better than the same energy delivered as a series of bangs",
+      "turn_index": 12,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "summary_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L4-S4-31",
+      "kind": "reason",
+      "value": "perceived control reduces reported annoyance",
+      "quote": "is reported as very much less annoying than identical noise from a source they feel they have no say over",
+      "turn_index": 12,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "multiple_choice",
+        "sentence_completion"
+      ]
+    },
+    {
+      "id": "L4-S4-32",
+      "kind": "rule",
+      "value": "birds in noisy places sing higher and start earlier",
+      "quote": "sing at a higher pitch than the same species in quiet places",
+      "turn_index": 13,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "note_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L4-S4-33",
+      "kind": "limitation",
+      "value": "some species thin out within a few hundred metres of a road",
+      "quote": "Some species simply thin out within a few hundred metres of a busy road",
+      "turn_index": 13,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "summary_completion",
+        "sentence_completion"
+      ]
+    },
+    {
+      "id": "L4-S4-34",
+      "kind": "duration",
+      "value": "log for an hour at each site in 15-minute blocks",
+      "quote": "log for an hour at each, in fifteen-minute blocks",
+      "turn_index": 14,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "note_completion",
+        "short_answer"
+      ]
+    }
+  ],
+  "spatial_description": null,
+  "notes": "turn_index degerleri 0 tabanlidir. Bes celdirici duzeltme var: trafigin iki katina cikmasi (on desibel -> uc desibel), gurultu haritasi yenileme araligi (uc yil -> bes yil), karayolu payi (ucte iki -> yaklasik beste dort), gozenekli asfaltin kazanci (bes desibel -> uc-dort desibel), agac seridi derinligi (on metre -> otuz metre). Ingiliz Ingilizcesinde 'meter' olcum aleti, 'metre' uzunluk birimidir; ikisi de bilerek kullanildi. Metinde rakam yok."
+}

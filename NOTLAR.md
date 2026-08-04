@@ -1367,3 +1367,134 @@ Bu dosyaya her oturumda alınan kararlar, atlanan işler ve karşılaşılan sor
   sahne/isim/senaryo taklit edilmedi (ikinci el mobilya ilanı, quilt shop turu, tez
   görüşmesi ve moda şirketi sunumu sahnelerinin hiçbiri kullanılmadı).
 - Atlanan/sorun: yok. **OPUS5-20'de 6 testten 3'ü tamam;** kalan L4, L5, L6.
+
+## OPUS5-20 (4. çalıştırma: L4 — dört bölümün senaryo metni)
+
+- Tarih: 2026-08-04
+- Depo kontrolü: `content/listening/scripts/` altında `L1-S1…S4`, `L2-S1…S4` ve `L3-S1…S4`
+  vardı → çalıştırma listesindeki ilk üretilmemiş grup **L4** idi, o yapıldı. Bu oturumda da
+  **soru üretilmedi** (promptun kuralı); 40 soru sonradan `OPUS5-21` ve `FABLE5-43` tarafından
+  bu metinlerden çıkarılacak.
+- Üretilen dosyalar: `content/listening/scripts/L4-S1.json` … `L4-S4.json`.
+
+### L4 — konu, aksan, kelime sayısı (sonraki testlerde TEKRAR EDİLMEYECEK)
+
+| Bölüm | Konu (havuzdaki karşılığı) | Ortam | Aksanlar | Kelime | Bilgi noktası | Çeldirici |
+|---|---|---|---|---|---|---|
+| 1 | **kayıp eşya bildirimi** — otobüs şirketinin kayıp eşya bürosuna telefon | 2 kişi | M1 `en-AU` + F1 `en-GB` | 842 | 28 | 7 |
+| 2 | **geri dönüşüm merkezi** — yeniden açılan Halstock merkezinin tanıtımı + saha planı | 1 kişi | F1 `en-GB` | 890 | 36 | 6 |
+| 3 | **poster hazırlığı** — iki öğrenci + danışman, araştırma günü posteri | 3 kişi | M1 `en-GB` + F1 `en-AU` + F2 `en-CA` | 946 | 33 | 7 |
+| 4 | **gürültü kirliliği** — akademik ders | 1 kişi | F1 `en-GB` | 949 | 34 | 5 |
+
+  ⚠️ **L5–L6 için:** L1 (yaz kampı kaydı · yeni bir müze · grup sunumu planlama · kentsel
+  tarım), L2 (taşınma şirketi · kütüphane yenilemesi · saha araştırması raporu · antik su
+  sistemleri), L3 (spor salonu üyeliği · doğa yürüyüşü rotaları · staj değerlendirmesi ·
+  tohum bankaları) ve yukarıdaki dört konu bir daha kullanılmayacak. **Havuzda kalan (her
+  bölümde tam dörder konu, iki test kaldı):** 1. bölüm — araç kiralama, konaklama başvurusu,
+  sağlık merkezi randevusu, bisiklet turu rezervasyonu; 2. bölüm — toplum bahçesi projesi,
+  gönüllü programı, yerel çiftlik pazarı, festival programı; 3. bölüm — tez konusu seçimi,
+  laboratuvar deneyi sonucu, anket tasarımı, kaynak taraması; 4. bölüm — uyku ve hafıza,
+  deniz plastikleri, davranışsal ekonomi, yapay ışık ve doğa.
+  4. bölüm aksanı döngüsü: **L5 `en-AU`, L6 `en-CA`.**
+  ⚠️ 3. bölüm için L3'te yazılan uyarı geçerliliğini koruyor: **"tez konusu seçimi" seçilirse**
+  referans `multiple-choice-one-answer` transkripti tam olarak bir tez görüşmesi sahnesi;
+  sahne, disiplin ve akış belirgin biçimde farklı kurulmalı.
+- **Şema:** L1'de kararlaştırılan düzen aynen sürdürüldü — `turn_index_base: 0`, her
+  `answer_points` kaydında ek `speaker` alanı, `speakers[]` içinde hem `accent` hem `voice`
+  (değerleri birebir aynı). Aksan–cinsiyet eşlemesi yine değiştirildi: 1. bölümde bu kez
+  **görevli `en-AU` erkek / müşteri `en-GB` kadın** (L1'de GB kadın + AU erkek, L2'de GB erkek
+  + AU kadın, L3'te AU kadın + GB erkek olmuştu — dördü de farklı); 3. bölümde öğrenciler
+  `en-GB` erkek + `en-AU` kadın, danışman `en-CA` kadın; 4. bölümde `en-GB` kadın anlatıcı
+  (L1-S4 `en-GB` erkekti).
+- **1. bölüm bu kez bir bildirim/şikâyet sahnesi** (L1 kayıt, L2 fiyat teklifi, L3 üyelik
+  olmuştu): kaybedilen eşyanın tarifi form tamamlama için doğal olarak renk, malzeme, içerik,
+  koltuk yeri, referans numarası gibi çok sayıda somut veri taşıyor.
+- **Çeldirici (distractor) düzeltmeleri** — bölüm başına en az 3 şartı fazlasıyla karşılandı:
+  - S1 (7): sefer numarası (dört yüz seksen altı → dört yüz seksen iki), tarih (Salı dokuz →
+    Çarşamba on), çanta rengi (lacivert → koyu yeşil), saklama süresi (iki hafta → üç ay),
+    teslim yeri (otogar → Canal Road deposu), açılış saati (internet sitesindeki sekiz →
+    sekiz buçuk), teslim ücreti (beş pound → üç pound).
+  - S2 (6): yeniden inşa süresi (bir yıl → on dört ay), bahçe atığı bölmesi (broşürdeki üç →
+    dört), cam/kutu/pet kumbaralarının yeri (ofisin yanı → çıkış bariyeri), van izni (kapıda
+    form imzalama → üç iş günü önce çevrimiçi başvuru), kapalı gün (Çarşamba → Salı), dükkân
+    günleri (yalnız Cumartesi → Cuma-Pazar).
+  - S3 (7): gövde puntosu (yirmi dört → en az otuz), plotter süresi (iki gün → üç iş günü),
+    pano boyu (küçük panolar → geçen yıldan beri büyük), özet teslim tarihi (on bir → on sekiz;
+    on bir başlık kaydı tarihiydi), özet kelime sınırı (üç yüz → iki yüz elli), mekân (seminer
+    bloğu → kütüphane atriyumu), jüriye konuşma süresi (beş dakika → iki dakika).
+  - S4 (5): trafiğin iki katına çıkması (on desibel → üç desibel), gürültü haritası yenileme
+    aralığı (üç yıl → beş yıl), karayolunun payı (üçte iki → yaklaşık beşte dört), gözenekli
+    asfaltın kazancı (beş desibel → uygulamada üç-dört), ağaç şeridi derinliği (on metre →
+    otuz metre).
+- **S2 `spatial_description`:** `kind: "plan"`, on üç öğeli saha planı (entrance barrier,
+  site office, toilets and water point, car park, reuse shop, textiles bank, garden waste
+  bays, ramp, wood/rubble/scrap metal skips, containers for general waste, glass/cans/plastic
+  banks, electrical store, paint and chemicals store). Tarif 3–7. repliklerde;
+  `immediately on your left` · `opposite` · `next to` · `at the far end` · `between … and …` ·
+  `straight ahead` · `behind` · `beyond` yön belirteçleriyle. Cam kumbaralarının yeri bilinçli
+  olarak önce eski yeriyle anılıp düzeltiliyor (plan sorusu için hazır çeldirici).
+- **S3 görüş ayrımı (üç kişi, üç eksende ayrışıyor):**
+  - *Yerleşim:* Idris (M1) yöntemin sol üste gelmesini istiyor; Anneke (F1) bulgunun en üste
+    gelmesini savunuyor; danışman (F2) soruyu en üste, sonuçları ortaya, yöntemi alt şeride
+    koyduruyor.
+  - *Şekil sayısı:* Idris üç ayrı grafik; Anneke tek birleşik grafik + bir fotoğraf; danışman
+    Anneke'nin düzenini seçip üstüne yağış olayı sayılarını gösteren küçük bir tablo ekletiyor.
+  - *Baskı:* Idris bölümün ücretsiz plotter'ı; Anneke gecikmemek için paralı kopya dükkânı;
+    danışman plotter'ı seçiyor ama şimdi rezerve ettiriyor (üç iş günü).
+  Üçünün de görüşü `answer_points` içinde `kind: opinion` ile işaretli (M1 3, F1 3, F2 2 —
+  toplam 8 görüş kaydı), yani eşleştirme ve çoktan seçmeli için fazlasıyla malzeme var.
+- **Doğrulama:** L1–L3'teki iki betikli düzen tekrarlandı; her ikisi de iş bitince silindi.
+  - `tools/_l4_uret.py` (üretici): `turn_index` değerlerini elle yazmak yerine her `quote`u
+    repliklerde arayarak hesapladı; alıntı hiç geçmiyorsa ya da birden çok replikte geçiyorsa
+    üretimi durdurdu. Kelime sayısı ve `estimated_minutes` (kelime/150) burada hesaplandı.
+  - `tools/_l4_kontrol.py` (denetleyici): JSON geçerliliği, zorunlu alanlar, kimlik
+    tutarlılığı, gerçek kelime sayısının aralıkta olması ve `word_count` ile uyuşması,
+    `estimated_minutes` doğruluğu, konuşmacı kodlarının tanımlı ve hepsinin kullanılmış
+    olması, `accent`/`voice` eşitliği, aksan dağılımının tablodaki gibi olması,
+    `answer_points` sayısı (≥15), `distractor` sayısı (≥3), id tekrarı, her alıntının kendi
+    repliğinde birebir ve metnin tamamında **tek** geçmesi, `speaker` alanının replikle
+    uyuşması, `kind` değerlerinin izinli listede olması, bilgi noktalarının metne yayılması
+    (her çeyrekte en az 2), S2'de plan öğesi sayısı + yön belirteçleri + her etiketin metinde
+    geçmesi, S1/S3/S4'te `spatial_description`ın boş olması, S3'te en az iki konuşmacıdan ayrı
+    görüş, S1'de harf harf söyleme, "IELTS" geçmemesi, kelime sınırlı Amerikan yazımı taraması
+    ve metinde rakam bulunmaması denetlendi. **İlk turda iki uyarı çıktı, ikisi de düzeltildi:**
+    (1) plan öğesi `general waste containers` metinde birebir geçmiyordu — S2 metnindeki cümle
+    "the two large containers for general waste" olarak yazılıp etiket `containers for general
+    waste` yapıldı; (2) Amerikan yazımı taraması `check` kelimesini yakalıyordu — bu **yanlış
+    alarmdı**, İngiliz İngilizcesinde de "check" fiili doğrudur (Amerikan/İngiliz farkı para
+    anlamındaki `check`/`cheque` çiftidir), tarama listesi düzeltildi. Düzeltmeden sonra
+    **hata 0**.
+  - İlk taslakta üç bölümün kelime sayısı hedefin üstündeydi (1135 / 1099 / 1316); bilgi
+    noktası taşımayan süs cümleleri budanarak aralığa çekildi (890 / 946 / 949; S1 zaten
+    842 idi). **Hiçbir `answer_point` elenmedi** — en büyük budama 4. bölümdeydi (dersin
+    düzenlemeye dair ara yorum paragrafı kaldırıldı, kalan paragraflar sıkıştırıldı), 2.
+    bölümde tanıtım konuşmasının tekrar eden nezaket cümleleri atıldı.
+  - Ardından `python tools/dogrula.py`: **şema hatası 0**, pasaj lisansı eksik 0, görünür
+    metinde IELTS 0, yasak kaynak 0. ("L4 0/40 EKSIK" satırı beklenen durumdur.)
+- **Yazım/telif kararları:** İngiliz İngilizcesi — metinde geçen ayırt edici biçimler `centre`,
+  `licence` (isim), `single-storey`, `colour`, `metres`, `tyre`, `kilometres`. Amerikan
+  karşılıkları (`center`, `color`, `program`, `analyze`, `toward`, `behavior`, `gray`, `curb`,
+  `elevator` vb.) kelime sınırlı düzenli ifadeyle tarandı, hiçbiri geçmiyor.
+  ⚠️ **Bilinçli istisna:** 4. bölümde `meter` iki kez geçiyor ama **ölçüm aleti** anlamında
+  (sound level meter); uzunluk birimi her yerde `metre`/`metres`. İngiliz İngilizcesinde bu
+  ayrım doğrudur, bu yüzden `meter` tarama listesinden çıkarıldı — sonraki oturumlar bunu
+  bilerek kullansın. Metinde **hiç rakam yok**; sayılar konuşulduğu gibi yazıldı (`nineteen
+  eighty-four`, `oh seven nine three, double four one, eight oh six`, `two hundred and fifty`,
+  `four eighty-two`). 1. bölümde harf harf söyleme bir kez var (`Thurlbeck —
+  T-H-U-R-L-B-E-C-K`). Bütün kişi/kurum/yer adları uydurma (Marchwood Coaches, Ruth Thurlbeck,
+  Canal Road, Halstock, Ferry Lane, Fenwick Street, Idris, Anneke). 4. bölümde **hiçbir gerçek
+  ülke, şehir ya da kurum adı anılmadı** ("in many countries" gibi genel ifadeler kullanıldı);
+  din, siyaset, savaş, hastalık, kişisel dram yok — gürültünün sağlık etkileri yerine
+  rahatsızlık algısı, ölçüm ve planlama üzerinde duruldu.
+- ℹ️ **Konu çakışması kontrolü:** L3 notunda "L4–L6'da tohum/bahçe temasına bir daha
+  girilmemesi iyi olur" deniyordu; L4-S2'de `garden waste bays` geçiyor ama bu bahçecilik
+  değil **atık ayrıştırması** bağlamındadır, konu tekrarı sayılmadı. L4-S4 (gürültü) bilinçli
+  olarak **deniz gürültüsü** ve **gece ışığı / yaban hayat** açılımlarından uzak tutuldu, ki
+  L5–L6'da "deniz plastikleri" ve "yapay ışık ve doğa" konuları serbest kalsın.
+- **Referans PDF'leri:** `note-completion` ve `plan-map-diagram-labelling` dinleme
+  transkriptleri bu oturumda `Read` ile doğrudan açıldı (metin katmanlı PDF'ler);
+  `ielts-listening-sample-tasks-2023.pdf` yine render gerektirdiği için açılamadı
+  (`referans/text/` klasörü hâlâ yok). Transkriptlerden yalnız konuşma ritmi, duraksama ve
+  bilgi verme hızı alındı; **tek bir replik kopyalanmadı**, sahne/isim/senaryo taklit edilmedi
+  (ikinci el mobilya ilanı ve quilt shop turu sahnelerinin hiçbiri kullanılmadı).
+- Atlanan/sorun: yok. **OPUS5-20'de 6 testten 4'ü tamam;** kalan L5, L6.

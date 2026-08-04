@@ -1,0 +1,598 @@
+{
+  "schema_version": "1.0",
+  "script_id": "L4-S1",
+  "skill": "listening",
+  "test_id": "L4",
+  "section": 1,
+  "generated_by": "opus",
+  "setting": "Bir otobus sirketinin kayip esya burosuna telefonla kayip canta bildirimi",
+  "context_line": "You will hear a woman telephoning a coach company's lost property office about a bag she has left behind.",
+  "word_count": 842,
+  "estimated_minutes": 5.6,
+  "turn_index_base": 0,
+  "speakers": [
+    {
+      "code": "M1",
+      "role": "kayip esya burosu gorevlisi",
+      "gender": "male",
+      "accent": "en-AU",
+      "voice": "en-AU",
+      "age_band": "30-45",
+      "pace": "normal"
+    },
+    {
+      "code": "F1",
+      "role": "cantasini kaybeden yolcu",
+      "gender": "female",
+      "accent": "en-GB",
+      "voice": "en-GB",
+      "age_band": "25-40",
+      "pace": "normal"
+    }
+  ],
+  "turns": [
+    {
+      "speaker": "M1",
+      "text": "Good afternoon, Marchwood Coaches, lost property office."
+    },
+    {
+      "speaker": "F1",
+      "text": "Oh, hello. I think I left a bag on one of your coaches yesterday, and I'm hoping somebody's handed it in."
+    },
+    {
+      "speaker": "M1",
+      "text": "Let's find out. I'll take some details and then go and look in the store. Which service were you on?"
+    },
+    {
+      "speaker": "F1",
+      "text": "The four eighty-six — the one that goes out to the airport."
+    },
+    {
+      "speaker": "M1",
+      "text": "The four eighty-six is the retail park service. The airport coach is the four eighty-two. Does that sound more like it?"
+    },
+    {
+      "speaker": "F1",
+      "text": "Four eighty-two, then. Sorry — I'd only used it once before."
+    },
+    {
+      "speaker": "M1",
+      "text": "No trouble at all. And which day was this?"
+    },
+    {
+      "speaker": "F1",
+      "text": "Tuesday the ninth — no, hang on. Tuesday was my day off. It was Wednesday, so the tenth."
+    },
+    {
+      "speaker": "M1",
+      "text": "Wednesday the tenth. And what time did it leave?"
+    },
+    {
+      "speaker": "F1",
+      "text": "Twenty past four from the bus station. It got in about quarter to six, which was later than it should have been."
+    },
+    {
+      "speaker": "M1",
+      "text": "That'll be the afternoon driver. Whereabouts were you sitting?"
+    },
+    {
+      "speaker": "F1",
+      "text": "Three rows from the back, on the left-hand side. I put the bag in the rack above me and then walked off without it."
+    },
+    {
+      "speaker": "M1",
+      "text": "That's where most things end up, so that's promising. Now, describe the bag for me."
+    },
+    {
+      "speaker": "F1",
+      "text": "It's a rucksack. Navy — sorry, ignore that, the navy one is my old one. This one is dark green, with a grey stripe across the front pocket."
+    },
+    {
+      "speaker": "M1",
+      "text": "Dark green rucksack, grey stripe. Is there a name on it anywhere?"
+    },
+    {
+      "speaker": "F1",
+      "text": "There's a luggage tag, but the writing on it has gone very faint."
+    },
+    {
+      "speaker": "M1",
+      "text": "I'll take your name anyway and put it on the record."
+    },
+    {
+      "speaker": "F1",
+      "text": "It's Ruth Thurlbeck."
+    },
+    {
+      "speaker": "M1",
+      "text": "Could you spell the surname for me?"
+    },
+    {
+      "speaker": "F1",
+      "text": "Thurlbeck — T-H-U-R-L-B-E-C-K. Everybody wants to put an O in it."
+    },
+    {
+      "speaker": "M1",
+      "text": "Thank you. And a number we can reach you on during the day?"
+    },
+    {
+      "speaker": "F1",
+      "text": "Oh seven nine three, double four one, eight oh six."
+    },
+    {
+      "speaker": "M1",
+      "text": "Lovely. And what was inside? The more detail you can give me, the better — we get a great many dark rucksacks in here."
+    },
+    {
+      "speaker": "F1",
+      "text": "A grey jumper, a paperback, a pair of walking boots and a small camera in a black case. Oh, and a set of keys with a wooden fob."
+    },
+    {
+      "speaker": "M1",
+      "text": "Nothing else valuable? A wallet, a laptop?"
+    },
+    {
+      "speaker": "F1",
+      "text": "No, thankfully. It's the camera I mind about — there are photographs on it that I haven't copied anywhere else."
+    },
+    {
+      "speaker": "M1",
+      "text": "Let me have a look on the system while you're on the line. Right — I've got two green rucksacks from Wednesday. One of them came in off the four eighty-two, and it's got boots and a camera in it. I'd say that's yours."
+    },
+    {
+      "speaker": "F1",
+      "text": "Oh, what a relief. I'd more or less written it off. Somebody at work told me you only hang on to things for a fortnight."
+    },
+    {
+      "speaker": "M1",
+      "text": "That's the town buses. On the coaches we keep everything for three months, and anything unclaimed after that goes to the charity we work with."
+    },
+    {
+      "speaker": "F1",
+      "text": "Good to know. So where do I come and collect it?"
+    },
+    {
+      "speaker": "M1",
+      "text": "Not the bus station, which is where people always go first. The lost property office moved out to the depot on Canal Road in the spring."
+    },
+    {
+      "speaker": "F1",
+      "text": "Canal Road — is that the one behind the swimming pool?"
+    },
+    {
+      "speaker": "M1",
+      "text": "That's the one. Come in by the side entrance next to the fuel pumps, though, rather than the main gate. The main gate is for vehicles only and the barrier won't lift for anybody on foot."
+    },
+    {
+      "speaker": "F1",
+      "text": "And what are your hours?"
+    },
+    {
+      "speaker": "M1",
+      "text": "Weekdays, half past eight until five. On Saturdays we close at half past twelve, and we don't open at all on Sundays."
+    },
+    {
+      "speaker": "F1",
+      "text": "The website says eight."
+    },
+    {
+      "speaker": "M1",
+      "text": "It does, and I keep asking them to change it. We lost the early half hour when the office moved. It's half past eight now."
+    },
+    {
+      "speaker": "F1",
+      "text": "Right. What do I need to bring with me?"
+    },
+    {
+      "speaker": "M1",
+      "text": "Something with your name on it — a driving licence or a bank card will do — and the reference number I'm about to give you. If you send somebody else, they'll need their own identification and a short note from you giving them permission."
+    },
+    {
+      "speaker": "F1",
+      "text": "Fine. Go on, then."
+    },
+    {
+      "speaker": "M1",
+      "text": "The reference is M for Marchwood, then two, oh, seven, four."
+    },
+    {
+      "speaker": "F1",
+      "text": "M, two oh seven four. And is there anything to pay?"
+    },
+    {
+      "speaker": "M1",
+      "text": "There's a handling charge of three pounds. It was five until they revised the policy in April, so you've caught us at the right moment."
+    },
+    {
+      "speaker": "F1",
+      "text": "I can live with three. Could you post it to me instead? I'm at work all week."
+    },
+    {
+      "speaker": "M1",
+      "text": "We can post it, but for a rucksack that size it's twelve pounds, and it takes about five working days. Most people decide to come in."
+    },
+    {
+      "speaker": "F1",
+      "text": "Then I'll come in on Saturday morning."
+    },
+    {
+      "speaker": "M1",
+      "text": "Before eleven, if you can — it's quiet then and you won't have to wait. One last thing: is there anything on the camera that would tell it apart from anybody else's?"
+    },
+    {
+      "speaker": "F1",
+      "text": "It's got a red strap, and my initials are scratched into the bottom of it."
+    },
+    {
+      "speaker": "M1",
+      "text": "That's exactly what I need. I'll write that on the label now, and I'll ring you if anything changes before Saturday."
+    }
+  ],
+  "answer_points": [
+    {
+      "id": "L4-S1-01",
+      "kind": "number",
+      "value": "482 (airport service)",
+      "quote": "The airport coach is the four eighty-two.",
+      "turn_index": 4,
+      "speaker": "M1",
+      "distractor": "486",
+      "suggested_types": [
+        "form_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L4-S1-02",
+      "kind": "date",
+      "value": "Wednesday 10th",
+      "quote": "It was Wednesday, so the tenth.",
+      "turn_index": 7,
+      "speaker": "F1",
+      "distractor": "Tuesday 9th",
+      "suggested_types": [
+        "form_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L4-S1-03",
+      "kind": "time",
+      "value": "4.20 p.m. departure",
+      "quote": "Twenty past four from the bus station.",
+      "turn_index": 9,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "form_completion",
+        "table_completion"
+      ]
+    },
+    {
+      "id": "L4-S1-04",
+      "kind": "time",
+      "value": "arrived about 5.45 p.m.",
+      "quote": "It got in about quarter to six",
+      "turn_index": 9,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "form_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L4-S1-05",
+      "kind": "place",
+      "value": "three rows from the back, left-hand side",
+      "quote": "Three rows from the back, on the left-hand side.",
+      "turn_index": 11,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "form_completion",
+        "note_completion"
+      ]
+    },
+    {
+      "id": "L4-S1-06",
+      "kind": "place",
+      "value": "in the overhead rack",
+      "quote": "I put the bag in the rack above me",
+      "turn_index": 11,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "sentence_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L4-S1-07",
+      "kind": "object",
+      "value": "rucksack",
+      "quote": "It's a rucksack.",
+      "turn_index": 13,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "form_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L4-S1-08",
+      "kind": "object",
+      "value": "dark green",
+      "quote": "This one is dark green",
+      "turn_index": 13,
+      "speaker": "F1",
+      "distractor": "navy",
+      "suggested_types": [
+        "form_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L4-S1-09",
+      "kind": "object",
+      "value": "grey stripe across the front pocket",
+      "quote": "with a grey stripe across the front pocket",
+      "turn_index": 13,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "note_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L4-S1-10",
+      "kind": "name",
+      "value": "Thurlbeck",
+      "quote": "Thurlbeck — T-H-U-R-L-B-E-C-K.",
+      "turn_index": 19,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "form_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L4-S1-11",
+      "kind": "number",
+      "value": "07793 441 806",
+      "quote": "Oh seven nine three, double four one, eight oh six.",
+      "turn_index": 21,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "form_completion"
+      ]
+    },
+    {
+      "id": "L4-S1-12",
+      "kind": "object",
+      "value": "camera in a black case",
+      "quote": "a small camera in a black case",
+      "turn_index": 23,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "note_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L4-S1-13",
+      "kind": "object",
+      "value": "walking boots",
+      "quote": "a pair of walking boots",
+      "turn_index": 23,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "note_completion",
+        "table_completion"
+      ]
+    },
+    {
+      "id": "L4-S1-14",
+      "kind": "object",
+      "value": "keys with a wooden fob",
+      "quote": "a set of keys with a wooden fob",
+      "turn_index": 23,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "note_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L4-S1-15",
+      "kind": "reason",
+      "value": "the photographs on the camera are not copied anywhere else",
+      "quote": "there are photographs on it that I haven't copied anywhere else",
+      "turn_index": 25,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "multiple_choice",
+        "sentence_completion"
+      ]
+    },
+    {
+      "id": "L4-S1-16",
+      "kind": "duration",
+      "value": "3 months",
+      "quote": "we keep everything for three months",
+      "turn_index": 28,
+      "speaker": "M1",
+      "distractor": "a fortnight",
+      "suggested_types": [
+        "form_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L4-S1-17",
+      "kind": "rule",
+      "value": "unclaimed items go to a charity",
+      "quote": "anything unclaimed after that goes to the charity we work with",
+      "turn_index": 28,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "sentence_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L4-S1-18",
+      "kind": "place",
+      "value": "the depot on Canal Road",
+      "quote": "moved out to the depot on Canal Road",
+      "turn_index": 30,
+      "speaker": "M1",
+      "distractor": "the bus station",
+      "suggested_types": [
+        "form_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L4-S1-19",
+      "kind": "place",
+      "value": "side entrance by the fuel pumps",
+      "quote": "Come in by the side entrance next to the fuel pumps",
+      "turn_index": 32,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "multiple_choice",
+        "note_completion"
+      ]
+    },
+    {
+      "id": "L4-S1-20",
+      "kind": "time",
+      "value": "weekdays 8.30 a.m. to 5 p.m.",
+      "quote": "Weekdays, half past eight until five.",
+      "turn_index": 34,
+      "speaker": "M1",
+      "distractor": "8 a.m. (as printed on the website)",
+      "suggested_types": [
+        "form_completion",
+        "table_completion"
+      ]
+    },
+    {
+      "id": "L4-S1-21",
+      "kind": "time",
+      "value": "Saturdays close at 12.30",
+      "quote": "On Saturdays we close at half past twelve",
+      "turn_index": 34,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "table_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L4-S1-22",
+      "kind": "rule",
+      "value": "bring identification and the reference number",
+      "quote": "a driving licence or a bank card will do",
+      "turn_index": 38,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "note_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L4-S1-23",
+      "kind": "rule",
+      "value": "anyone collecting for you needs identification and a written note",
+      "quote": "they'll need their own identification and a short note from you",
+      "turn_index": 38,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "sentence_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L4-S1-24",
+      "kind": "number",
+      "value": "reference M2074",
+      "quote": "M for Marchwood, then two, oh, seven, four",
+      "turn_index": 40,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "form_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L4-S1-25",
+      "kind": "price",
+      "value": "3 pounds handling charge",
+      "quote": "There's a handling charge of three pounds.",
+      "turn_index": 42,
+      "speaker": "M1",
+      "distractor": "5 pounds",
+      "suggested_types": [
+        "form_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L4-S1-26",
+      "kind": "price",
+      "value": "12 pounds to post it",
+      "quote": "for a rucksack that size it's twelve pounds",
+      "turn_index": 44,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "form_completion",
+        "table_completion"
+      ]
+    },
+    {
+      "id": "L4-S1-27",
+      "kind": "duration",
+      "value": "about 5 working days by post",
+      "quote": "it takes about five working days",
+      "turn_index": 44,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "note_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L4-S1-28",
+      "kind": "object",
+      "value": "red strap and initials scratched on the bottom",
+      "quote": "It's got a red strap, and my initials are scratched into the bottom of it.",
+      "turn_index": 47,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "note_completion",
+        "short_answer"
+      ]
+    }
+  ],
+  "spatial_description": null,
+  "notes": "turn_index degerleri 0 tabanlidir. Yedi celdirici duzeltme var: sefer numarasi (dort yuz seksen alti -> dort yuz seksen iki), tarih (Sali dokuz -> Carsamba on), canta rengi (lacivert -> koyu yesil), saklama suresi (iki hafta -> uc ay), teslim yeri (otogar -> Canal Road deposu), acilis saati (sekiz -> sekiz bucuk), teslim ucreti (bes pound -> uc pound). Harf harf soyleme bir kez var (Thurlbeck). Metinde rakam yok."
+}

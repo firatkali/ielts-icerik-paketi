@@ -1,0 +1,633 @@
+{
+  "schema_version": "1.0",
+  "script_id": "L4-S3",
+  "skill": "listening",
+  "test_id": "L4",
+  "section": 3,
+  "generated_by": "opus",
+  "setting": "Iki ogrenci ve danismanlarinin bolum arastirma gununde sunulacak posteri hazirlamasi",
+  "context_line": "You will hear two students discussing a conference poster with their tutor.",
+  "word_count": 946,
+  "estimated_minutes": 6.3,
+  "turn_index_base": 0,
+  "speakers": [
+    {
+      "code": "M1",
+      "role": "ogrenci (Idris)",
+      "gender": "male",
+      "accent": "en-GB",
+      "voice": "en-GB",
+      "age_band": "20-25",
+      "pace": "normal"
+    },
+    {
+      "code": "F1",
+      "role": "ogrenci (Anneke)",
+      "gender": "female",
+      "accent": "en-AU",
+      "voice": "en-AU",
+      "age_band": "20-25",
+      "pace": "normal, biraz hizli"
+    },
+    {
+      "code": "F2",
+      "role": "danisman ogretim uyesi",
+      "gender": "female",
+      "accent": "en-CA",
+      "voice": "en-CA",
+      "age_band": "40-55",
+      "pace": "normal, olculu"
+    }
+  ],
+  "turns": [
+    {
+      "speaker": "F2",
+      "text": "Come in, both of you. Right — the poster for the research day. How far have you got?"
+    },
+    {
+      "speaker": "M1",
+      "text": "We've got all the results and about half a draft, but we can't agree on the layout, which is why we're here."
+    },
+    {
+      "speaker": "F2",
+      "text": "Then let's start there. Remind me what the project measured, in one sentence — that sentence is what belongs across the top."
+    },
+    {
+      "speaker": "F1",
+      "text": "We measured how much rainwater ran off three kinds of paving — ordinary concrete slabs, permeable blocks with gaps between them, and gravel — on the same slope, over eight weeks."
+    },
+    {
+      "speaker": "F2",
+      "text": "Good — that's your title. Now, the argument."
+    },
+    {
+      "speaker": "M1",
+      "text": "I think the method has to be the first thing anybody sees. Top left, with the diagram of the plots and the collection tanks. Nobody can judge the numbers without knowing how we got them."
+    },
+    {
+      "speaker": "F1",
+      "text": "And that's exactly what stops people reading posters. Nobody stands in front of one for ten minutes. Put the finding at the top — the permeable blocks cut the run-off by rather more than half — and let the method come afterwards."
+    },
+    {
+      "speaker": "F2",
+      "text": "You're both partly right, and there's a standard answer. The question goes at the top in one line, big. The results go in the middle, where the eye lands first. And the method goes along the bottom as a narrow strip, small, with the diagram in it. Nobody has ever complained that a method was too far down."
+    },
+    {
+      "speaker": "F2",
+      "text": "It survives, but it shrinks. Now, figures — how many are you planning?"
+    },
+    {
+      "speaker": "M1",
+      "text": "Three graphs. One for each surface."
+    },
+    {
+      "speaker": "F1",
+      "text": "Which is three graphs with identical axes and three lines that could sit on one. I'd rather have a single graph with all three on it, and then one photograph of the plots after heavy rain, because that picture says more than the numbers."
+    },
+    {
+      "speaker": "F2",
+      "text": "Anneke is right about combining them. I'd add one thing, though: a small table showing how many rainfall events you captured on each surface, because the first question any judge asks is how many."
+    },
+    {
+      "speaker": "M1",
+      "text": "Fine. What about colour? I'd put the three surfaces in red, green and blue."
+    },
+    {
+      "speaker": "F2",
+      "text": "Change the red and the green. Roughly one man in twelve can't reliably tell those two apart, and one of your judges is among them. Use different line shapes as well — dashed, dotted, solid — and it stops mattering."
+    },
+    {
+      "speaker": "F1",
+      "text": "And the text — we've written far too much. There's about eight hundred words on the draft."
+    },
+    {
+      "speaker": "F2",
+      "text": "Cut it to half that. The commonest failing every year is too much text. If a sentence doesn't change what a reader thinks, take it out."
+    },
+    {
+      "speaker": "M1",
+      "text": "How big should the type be? I've been working at twenty-four point for the body text."
+    },
+    {
+      "speaker": "F2",
+      "text": "Too small. Nothing under thirty for the body, and the title wants to be readable from about three metres away. Print one corner of it at full size, pin it up and walk down the corridor — that's the only test that works."
+    },
+    {
+      "speaker": "F1",
+      "text": "And printing. The department's plotter is free, but there's always a queue."
+    },
+    {
+      "speaker": "M1",
+      "text": "There is, but the copy shop on Fenwick Street charges eighteen pounds, and I'd rather spend nothing."
+    },
+    {
+      "speaker": "F1",
+      "text": "And I'd rather pay eighteen pounds than miss the deadline. Two groups missed it last year."
+    },
+    {
+      "speaker": "F2",
+      "text": "Use the plotter, but book it now. It takes three working days, not two — everybody assumes two, and that's how those groups came unstuck. Send the file on Monday, collect it on Thursday."
+    },
+    {
+      "speaker": "M1",
+      "text": "And what size are the boards? I'd assumed the small ones."
+    },
+    {
+      "speaker": "F2",
+      "text": "The department moved to the larger boards last year, so you have more room than you think. Don't fill it. White space is a large part of what makes a poster readable."
+    },
+    {
+      "speaker": "F1",
+      "text": "When's the abstract due? I've got the eleventh in my diary."
+    },
+    {
+      "speaker": "F2",
+      "text": "The abstract is due on the eighteenth. The eleventh was for registering a title, which you've both done. And the limit is two hundred and fifty words, not three hundred — they tightened it and the form rejects anything longer."
+    },
+    {
+      "speaker": "M1",
+      "text": "Where is it being held? I'd assumed the seminar block."
+    },
+    {
+      "speaker": "F2",
+      "text": "The atrium in the library — better lit and considerably noisier. You'll be beside your poster for the whole afternoon session, from two until half past four."
+    },
+    {
+      "speaker": "F1",
+      "text": "Do we have to give a talk as well?"
+    },
+    {
+      "speaker": "F2",
+      "text": "Two minutes each to the judges when they come round, and no slides. Some of you were told five minutes; that was when it ran in the seminar block, with a screen. Two minutes, and they will stop you."
+    },
+    {
+      "speaker": "M1",
+      "text": "What are they actually marking?"
+    },
+    {
+      "speaker": "F2",
+      "text": "Four things, weighted equally: whether the question is clear, whether the figures can be read from a distance, whether you understand your own limitations, and how you answer questions. That third one is where most groups lose marks: a line saying what your study couldn't show is worth more than another graph."
+    },
+    {
+      "speaker": "F1",
+      "text": "We do have one. All eight weeks were summer weeks, so we have nothing at all on frozen ground."
+    },
+    {
+      "speaker": "F2",
+      "text": "Then say exactly that, in your own words. Now — who's doing what?"
+    },
+    {
+      "speaker": "M1",
+      "text": "I'll redraw the diagram and build the combined graph."
+    },
+    {
+      "speaker": "F1",
+      "text": "I'll cut the text and write the abstract, and I'll do the handout — a single page with the graph and our contact details. How many copies?"
+    },
+    {
+      "speaker": "F2",
+      "text": "Thirty is plenty. And send me the whole thing as a draft by the Friday before, not the night before — I can't help you at eleven o'clock on the Sunday."
+    },
+    {
+      "speaker": "M1",
+      "text": "One last thing — can we put a square code linking to the data file?"
+    },
+    {
+      "speaker": "F2",
+      "text": "Yes, and put it at eye height rather than down in a corner. Check it works from a phone before you print — you can't fix it afterwards."
+    }
+  ],
+  "answer_points": [
+    {
+      "id": "L4-S3-01",
+      "kind": "object",
+      "value": "three paving types: concrete slabs, permeable blocks, gravel",
+      "quote": "ordinary concrete slabs, permeable blocks with gaps between them, and gravel",
+      "turn_index": 3,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "note_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L4-S3-02",
+      "kind": "duration",
+      "value": "8 weeks of measurement",
+      "quote": "on the same slope, over eight weeks",
+      "turn_index": 3,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "sentence_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L4-S3-03",
+      "kind": "opinion",
+      "value": "Idris: the method should come first, top left",
+      "quote": "I think the method has to be the first thing anybody sees",
+      "turn_index": 5,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "matching",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L4-S3-04",
+      "kind": "opinion",
+      "value": "Anneke: the finding should be at the top",
+      "quote": "Put the finding at the top",
+      "turn_index": 6,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "matching",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L4-S3-05",
+      "kind": "advantage",
+      "value": "permeable blocks cut run-off by more than half",
+      "quote": "the permeable blocks cut the run-off by rather more than half",
+      "turn_index": 6,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "sentence_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L4-S3-06",
+      "kind": "opinion",
+      "value": "tutor: question at the top, results in the middle, method as a strip along the bottom",
+      "quote": "the method goes along the bottom as a narrow strip",
+      "turn_index": 7,
+      "speaker": "F2",
+      "distractor": null,
+      "suggested_types": [
+        "matching",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L4-S3-07",
+      "kind": "opinion",
+      "value": "Idris: three graphs, one per surface",
+      "quote": "Three graphs. One for each surface.",
+      "turn_index": 9,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "matching",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L4-S3-08",
+      "kind": "opinion",
+      "value": "Anneke: one combined graph plus a photograph",
+      "quote": "a single graph with all three on it, and then one photograph of the plots after heavy rain",
+      "turn_index": 10,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "matching",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L4-S3-09",
+      "kind": "opinion",
+      "value": "tutor: combine the graphs but add a table of the number of rainfall events",
+      "quote": "a small table showing how many rainfall events you captured on each surface",
+      "turn_index": 11,
+      "speaker": "F2",
+      "distractor": null,
+      "suggested_types": [
+        "matching",
+        "sentence_completion"
+      ]
+    },
+    {
+      "id": "L4-S3-10",
+      "kind": "reason",
+      "value": "judges ask how many events were captured",
+      "quote": "the first question any judge asks is how many",
+      "turn_index": 11,
+      "speaker": "F2",
+      "distractor": null,
+      "suggested_types": [
+        "multiple_choice",
+        "sentence_completion"
+      ]
+    },
+    {
+      "id": "L4-S3-11",
+      "kind": "rule",
+      "value": "avoid red and green together; vary line shapes",
+      "quote": "Change the red and the green.",
+      "turn_index": 13,
+      "speaker": "F2",
+      "distractor": null,
+      "suggested_types": [
+        "multiple_choice",
+        "note_completion"
+      ]
+    },
+    {
+      "id": "L4-S3-12",
+      "kind": "reason",
+      "value": "roughly one man in twelve cannot tell red from green",
+      "quote": "Roughly one man in twelve can't reliably tell those two apart",
+      "turn_index": 13,
+      "speaker": "F2",
+      "distractor": null,
+      "suggested_types": [
+        "multiple_choice",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L4-S3-13",
+      "kind": "limitation",
+      "value": "cut the text from 800 words to about half",
+      "quote": "Cut it to half that.",
+      "turn_index": 15,
+      "speaker": "F2",
+      "distractor": null,
+      "suggested_types": [
+        "sentence_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L4-S3-14",
+      "kind": "rule",
+      "value": "body text at least 30 point",
+      "quote": "Nothing under thirty for the body",
+      "turn_index": 17,
+      "speaker": "F2",
+      "distractor": "24 point",
+      "suggested_types": [
+        "note_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L4-S3-15",
+      "kind": "rule",
+      "value": "title readable from about 3 metres",
+      "quote": "the title wants to be readable from about three metres away",
+      "turn_index": 17,
+      "speaker": "F2",
+      "distractor": null,
+      "suggested_types": [
+        "sentence_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L4-S3-16",
+      "kind": "rule",
+      "value": "test by printing one corner at full size",
+      "quote": "Print one corner of it at full size",
+      "turn_index": 17,
+      "speaker": "F2",
+      "distractor": null,
+      "suggested_types": [
+        "multiple_choice",
+        "note_completion"
+      ]
+    },
+    {
+      "id": "L4-S3-17",
+      "kind": "opinion",
+      "value": "Idris: use the free departmental plotter",
+      "quote": "I'd rather spend nothing",
+      "turn_index": 19,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "matching",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L4-S3-18",
+      "kind": "opinion",
+      "value": "Anneke: pay the copy shop rather than risk the deadline",
+      "quote": "I'd rather pay eighteen pounds than miss the deadline",
+      "turn_index": 20,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "matching",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L4-S3-19",
+      "kind": "price",
+      "value": "18 pounds at the copy shop",
+      "quote": "the copy shop on Fenwick Street charges eighteen pounds",
+      "turn_index": 19,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "note_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L4-S3-20",
+      "kind": "duration",
+      "value": "the plotter needs 3 working days",
+      "quote": "It takes three working days, not two",
+      "turn_index": 21,
+      "speaker": "F2",
+      "distractor": "2 days",
+      "suggested_types": [
+        "sentence_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L4-S3-21",
+      "kind": "object",
+      "value": "the larger poster boards",
+      "quote": "The department moved to the larger boards last year",
+      "turn_index": 23,
+      "speaker": "F2",
+      "distractor": "the small boards",
+      "suggested_types": [
+        "multiple_choice",
+        "note_completion"
+      ]
+    },
+    {
+      "id": "L4-S3-22",
+      "kind": "advantage",
+      "value": "white space makes a poster readable",
+      "quote": "White space is a large part of what makes a poster readable",
+      "turn_index": 23,
+      "speaker": "F2",
+      "distractor": null,
+      "suggested_types": [
+        "sentence_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L4-S3-23",
+      "kind": "date",
+      "value": "abstract due on the 18th",
+      "quote": "The abstract is due on the eighteenth.",
+      "turn_index": 25,
+      "speaker": "F2",
+      "distractor": "the 11th",
+      "suggested_types": [
+        "note_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L4-S3-24",
+      "kind": "number",
+      "value": "abstract limit 250 words",
+      "quote": "the limit is two hundred and fifty words, not three hundred",
+      "turn_index": 25,
+      "speaker": "F2",
+      "distractor": "300 words",
+      "suggested_types": [
+        "sentence_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L4-S3-25",
+      "kind": "place",
+      "value": "the atrium in the library",
+      "quote": "The atrium in the library",
+      "turn_index": 27,
+      "speaker": "F2",
+      "distractor": "the seminar block",
+      "suggested_types": [
+        "multiple_choice",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L4-S3-26",
+      "kind": "time",
+      "value": "afternoon session 2 until 4.30",
+      "quote": "from two until half past four",
+      "turn_index": 27,
+      "speaker": "F2",
+      "distractor": null,
+      "suggested_types": [
+        "note_completion",
+        "table_completion"
+      ]
+    },
+    {
+      "id": "L4-S3-27",
+      "kind": "duration",
+      "value": "2 minutes to the judges, no slides",
+      "quote": "Two minutes each to the judges when they come round, and no slides.",
+      "turn_index": 29,
+      "speaker": "F2",
+      "distractor": "5 minutes",
+      "suggested_types": [
+        "multiple_choice",
+        "sentence_completion"
+      ]
+    },
+    {
+      "id": "L4-S3-28",
+      "kind": "rule",
+      "value": "four equally weighted marking criteria",
+      "quote": "Four things, weighted equally",
+      "turn_index": 31,
+      "speaker": "F2",
+      "distractor": null,
+      "suggested_types": [
+        "note_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L4-S3-29",
+      "kind": "advantage",
+      "value": "stating a limitation is worth more than another graph",
+      "quote": "a line saying what your study couldn't show is worth more than another graph",
+      "turn_index": 31,
+      "speaker": "F2",
+      "distractor": null,
+      "suggested_types": [
+        "sentence_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L4-S3-30",
+      "kind": "limitation",
+      "value": "all the data came from summer weeks; nothing on frozen ground",
+      "quote": "we have nothing at all on frozen ground",
+      "turn_index": 32,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "sentence_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L4-S3-31",
+      "kind": "number",
+      "value": "30 copies of the handout",
+      "quote": "Thirty is plenty.",
+      "turn_index": 36,
+      "speaker": "F2",
+      "distractor": null,
+      "suggested_types": [
+        "short_answer",
+        "note_completion"
+      ]
+    },
+    {
+      "id": "L4-S3-32",
+      "kind": "date",
+      "value": "draft to the tutor by the Friday before",
+      "quote": "send me the whole thing as a draft by the Friday before",
+      "turn_index": 36,
+      "speaker": "F2",
+      "distractor": null,
+      "suggested_types": [
+        "sentence_completion",
+        "note_completion"
+      ]
+    },
+    {
+      "id": "L4-S3-33",
+      "kind": "place",
+      "value": "put the square code at eye height",
+      "quote": "put it at eye height rather than down in a corner",
+      "turn_index": 38,
+      "speaker": "F2",
+      "distractor": null,
+      "suggested_types": [
+        "multiple_choice",
+        "sentence_completion"
+      ]
+    }
+  ],
+  "spatial_description": null,
+  "notes": "turn_index degerleri 0 tabanlidir. Yedi celdirici duzeltme var: govde punto (yirmi dort -> otuz), plotter suresi (iki gun -> uc is gunu), pano boyu (kucuk -> buyuk), ozet teslim tarihi (on bir -> on sekiz), ozet kelime siniri (uc yuz -> iki yuz elli), mekan (seminer blogu -> kutuphane atriyumu), konusma suresi (bes dakika -> iki dakika). Uc konusmacinin gorusu uc eksende ayrisiyor: yerlesim duzeni, sekil sayisi, baski yeri. Metinde rakam yok."
+}
