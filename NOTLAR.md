@@ -907,3 +907,90 @@ Bu dosyaya her oturumda alınan kararlar, atlanan işler ve karşılaşılan sor
   **bir harfin iki kez cevap olması kaçınılmaz**; o zaman `NB` satırı **konmalı**.
 - Atlanan/sorun: yok. **1. paket bitti: 20 soru.** Kalan: 2. paket (GT1+GT2, 14 soru),
   3. paket (alıştırma, 15 soru).
+
+## OPUS5-11 (2. çalıştırma: GT1 + GT2 bilgi eşleştirme)
+- Tarih: 2026-08-04
+- Depo kontrolü: `matching-information.json` yalnız `AC1`–`AC4` altında vardı (5'er soru,
+  tam) → prompt dosyasındaki üç paketten bitmemiş ilki **2. paket (GT1 + GT2)** idi, o
+  yapıldı. **14 soru** (2 test × 7) üretildi, plandaki 1–7 aralığıyla birebir aynı.
+- Üretilen dosyalar:
+  - `content/reading/tests/GT1/matching-information.json` — soru 1–7, pasaj **G01**
+  - `content/reading/tests/GT2/matching-information.json` — soru 1–7, pasaj **G02**
+- **Yönerge:** her iki metin setinde de tam **beş kısa metin** (A–E) olduğu için ikisinde
+  de aynı kalıp: `Look at the five notices, A-E. For which notice are the following
+  statements true? Write the correct letter, A-E, in boxes 1-7 on your answer sheet.
+  NB You may use any letter more than once.` Academic paketinin tersine `NB` satırı
+  **iki dosyaya da kondu**, çünkü 7 soru 5 metne dağıldığı için tekrar kaçınılmaz
+  (1. çalıştırmanın sonundaki not böyle öngörmüştü).
+- **Cevap dağılımı** (aynı harf en fazla 2 kez, ilk metin A ve son metin E her sette var,
+  sıra metin sırasına göre değil):
+  - GT1 → E · A · C · B · D · A · B  (A×2, B×2, C, D, E)
+  - GT2 → C · A · E · B · A · D · E  (A×2, E×2, B, C, D)
+  İki test bilerek farklı dağılım kullanıyor (GT1'de A ve B ikişer, GT2'de A ve E ikişer),
+  aday iki testte aynı örüntüyü öğrenmesin diye.
+- **Sorulan bilgi türleri bilerek çeşitlendirildi:** ön koşul/işlem (GT1/1 düzey belirleme,
+  GT1/2 adres belgesi), ceza ve ek ücret (GT1/3 çıkışta okutmama, GT2/5 24 saati aşan
+  iade), izin/onay (GT1/4 veli onayı, GT2/1 yapı yüksekliği sınırı), bilginin nereden
+  bulunacağı (GT1/5 girişteki çizelge), kısıtlama (GT1/6 ayırtılmış eserin süresi
+  uzatılamaz), takvim istisnası (GT1/7 yarıyıl haftası, GT2/4 pazar erken bitiş),
+  para tutulması ve iadesi (GT2/2), alternatif erişim yolu (GT2/3 telefonla kayıt),
+  kural karşılaştırması (GT2/6 bir seansta zorunlu ötekinde isteğe bağlı), asgari
+  katılımcı şartı (GT2/7).
+- **Elenen / değiştirilen sorular:**
+  - **G01, "ödünç alınabilecek en fazla eşya sayısı" sorusu atıldı** (Tuzak yok ama
+    çakışma vardı): kanıtı A metninin 3. cümlesiydi, aynı cümle 6. sorunun (ayırtılmış
+    eserin uzatılamaması) kanıtı olarak daha iyi iş görüyordu. Aynı cümleden iki soru
+    çıkarmamak için 2. soru A'nın 2. cümlesine (adres belgesi) çevrildi.
+  - **G02, "yaş sınırının altındakilerin ücretsiz girişi" sorusu (B) atıldı.** B metni on
+    iki yaş altını yetişkinle birlikte ücretsiz alıyor, D metni ise üç yaş altını
+    ücretsiz alıyor; "belirli bir yaşın altında giriş ücretsiz" ifadesi iki metne birden
+    uyduğu için soru geçersiz olurdu (Tuzak 1). Yerine B için **pazar günü erken bitiş**
+    soruldu, tek metne ait.
+  - **G02, "kullanıcının kendi güvenlik donanımını getirmesi" sorusu (A) atıldı.** A
+    kaskın verilmediğini söylüyor, D bone takmanın kulvar seanslarında zorunlu olduğunu
+    söylüyor; "kişinin kendi ekipmanını getirmesi" ikisine de çekilebilirdi. A için
+    bunun yerine 90 sterlinlik geçici blokaj ve 350 sterlinlik kayıp bedeli soruldu.
+- **Tuzak 2 için ek denetim:** denetim scriptine, soru kökündeki her içerik kelimesinin
+  (5+ harf) pasajın **yalnızca doğru metninde** geçip geçmediğine bakan bir kontrol
+  eklendi — böyle bir kelime varsa aday pasajı okumadan eşleştirme yapabilir. İlk turda
+  üç kök takıldı ve yeniden yazıldı: GT1/1'de `completed`+`first` (ikisi de yalnız E'de),
+  GT1/5'te `every` (yalnız D'de), GT2/3'te `start` (yalnız E'de). Ayrıca GT1/5'teki
+  "exact dates" ve GT2/6'daki "session" gibi birebir yankılar da temizlendi. Son hâlde
+  hiçbir kökte tek metne özgü kelime kalmadı; buna karşılık **yanlış yöne çeken** ortak
+  kelimeler bilerek bırakıldı (ör. GT2/3'teki "reserve" kelimesi pasajda yalnız D'de
+  "pool is reserved for school lessons" biçiminde geçiyor — cevap E, yani kelime
+  eşleştirmesi yapan adayı cezalandırıyor).
+- Doğrulama: geçici denetim scriptiyle (`tools/_p11b_kontrol.py` — silindi) JSON
+  geçerliliği, zarf alanlarının tamlığı, `passage_id`nin pasajla uyuşması, `options`
+  listesinin gerçek metin harfleriyle aynı olması, yönergedeki **metin sayısı, harf
+  aralığı ve kutu numaralarının** gerçek değerlere uyması, soru sayısı (7) ve numara
+  aralığı (1–7), `answer`/`accepted_variants` tutarlılığı, `evidence`in doğru metinde
+  **birebir** geçişi ve **başka metinde geçmemesi**, `evidence_locator`ın (metin + kaçıncı
+  cümle) o cümleye birebir denk gelmesi, `uniqueness_check`in dolu olması ve en az bir
+  başka metni **adıyla** elemesi, aynı harfin en fazla 2 kez cevap olması, ilk ve son
+  metinden soru gelmesi, `NB` satırının tekrar durumuyla tutarlılığı, cevapların metin
+  sırasında dizilmemesi, iki sorunun **aynı cümleyi** kullanmaması, zorluk çeşitliliği,
+  açıklamaların Türkçe olması, görünür metinde "IELTS" geçmemesi ve soru kökü ile pasaj
+  arasında 3–4 kelimelik birebir örtüşme bulunmaması denetlendi. Yapısal denetim ilk
+  turda **hata 0** verdi; yalnız yukarıdaki Tuzak 2 kontrolü üç kök yakaladı, düzeltmeden
+  sonra **hata 0**. Ardından `python tools/dogrula.py`: **şema hatası 0**, okuma sorusu
+  **185** (tam test 120 + alıştırma 65), pasaj lisansı eksik 0, görünür metinde IELTS 0,
+  yasak kaynak 0. GT1 ve GT2 artık 20/40.
+- `evidence_locator` biçimi: G01/G02 beş ayrı kısa metinden oluşuyor ve metinlerin iç
+  paragraf harflendirmesi yok, bu yüzden `{ "text": "A", "sentence": n }` kullanıldı
+  (G03/G04'te olduğu gibi ayrıca `paragraph` alanı yok; Academic dosyalarındaki
+  `paragraph` alanının karşılığı burada `text`).
+- Aynı testteki öteki setlerle örtüşme yok: GT1/GT2'nin şu ana kadar üretilmiş öteki
+  dosyaları 2. ve 3. bölüm pasajlarını (G03/G05, G04/G06) kullanıyor, **G01 ve G02'ye ilk
+  kez bu sette dokunuldu**. 1. bölümün öteki soru grubu olan 8–14 (TRUE/FALSE/NOT GIVEN,
+  FABLE5-40) aynı metin setinden gelecek — o oturum bu dosyadaki `evidence` cümlelerini
+  önce okumalı; şu an kullanılan cümleler: G01 A/2, A/3, B/1, B/4, C/4, D/2, E/1 ve
+  G02 A/2, A/4, B/2, C/4, D/4, E/2, E/4.
+- Referans PDF'leri: `referans/text/` klasörü bu oturumda da yoktu (yalnız `referans/*.pdf`
+  var). Yönerge kalıbı prompt dosyasında verilen General Training kalıbından alındı.
+- Atlanan/sorun: yok. **2. paket bitti: 14 soru. OPUS5-11'de 3 paketten 2'si tamam
+  (34 soru).** Kalan: 3. paket (alıştırma, 15 soru) — orada `test_id` `null`, `practice`
+  `true`, numaralar 1'den başlıyor, her item'a `passage_id` yazılıyor, aynı pasajdan en
+  fazla 4 soru çıkıyor ve **tam testlerdeki bilgiler tekrar sorulmuyor** (AC1–AC4 ve
+  GT1–GT2 `matching-information.json` dosyalarının `evidence` alanları önce topluca
+  okunmalı).
