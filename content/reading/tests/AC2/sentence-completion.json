@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0",
+  "set_id": "AC2-sentence-completion",
+  "skill": "reading",
+  "module": "academic",
+  "test_id": "AC2",
+  "practice": false,
+  "passage_id": "A05",
+  "question_type": "sentence_completion",
+  "generated_by": "opus",
+  "instructions": "Complete the sentences below. Choose NO MORE THAN TWO WORDS from the passage for each answer.",
+  "word_limit": "NO MORE THAN TWO WORDS",
+  "word_bank": null,
+  "visual": null,
+  "stem_block": null,
+  "items": [
+    {
+      "number": 19,
+      "prompt": "The team knew that, if the reading worked, the grains would count among the earliest samples of (19) ........ ever obtained from an archaeological find.",
+      "answer": ["plant DNA"],
+      "accepted_variants": ["plant DNA"],
+      "evidence": "Success would place the wheat among the oldest plant DNA ever recovered and analysed, and would let the researchers compare it precisely with modern wheat species rather than relying on the shape of the grain alone, which can be an unreliable guide to a plant's genetic identity.",
+      "evidence_locator": { "paragraph": "C", "sentence": 2 },
+      "explanation": "Paragraf C, işin başarılı olması hâlinde buğdayın bugüne dek elde edilmiş en eski bitki DNA'ları arasına gireceğini söylüyor; bu yüzden cevap 'plant DNA'.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 20,
+      "prompt": "So that no modern genetic material could reach the ancient samples, the work was split between two (20) ........ , one in Britain and one in Turkey.",
+      "answer": ["separate laboratories"],
+      "accepted_variants": ["separate laboratories", "separate labs"],
+      "evidence": "To avoid contaminating the ancient samples with modern DNA, the extraction and analysis were carried out in two physically separate laboratories, one at the University of Manchester in the United Kingdom and the other at Middle East Technical University in Turkey.",
+      "evidence_locator": { "paragraph": "D", "sentence": 1 },
+      "explanation": "Paragraf D, modern DNA bulaşmasını önlemek için işin birbirinden fiziksel olarak ayrı iki laboratuvarda yapıldığını söylüyor; kelime sınırı iki olduğu için cevap 'separate laboratories'.",
+      "difficulty": "easy"
+    },
+    {
+      "number": 21,
+      "prompt": "A stretch of genetic material carried only by six-chromosome wheat, known as the (21) ........ , turned up in grains that shape alone had put down as einkorn and emmer.",
+      "answer": ["D genome"],
+      "accepted_variants": ["D genome"],
+      "evidence": "From these samples the team recovered thirty-two DNA sequences in total, and among them were fragments containing the so-called D genome, a segment of genetic material found only in hexaploid wheat.",
+      "evidence_locator": { "paragraph": "E", "sentence": 3 },
+      "explanation": "Paragraf E, yalnızca altı kromozom takımlı (hexaploid) buğdayda bulunan genetik parçanın adını 'D genome' olarak veriyor; bu yüzden cevap 'D genome'.",
+      "difficulty": "hard"
+    },
+    {
+      "number": 22,
+      "prompt": "By the usual account, the growing of einkorn began in the (22) ........ area in the south of Turkey.",
+      "answer": ["Karacadağ"],
+      "accepted_variants": ["Karacadağ", "Karacadag"],
+      "evidence": "Simple wheat domestication is usually traced to the Fertile Crescent around twelve thousand years ago, with the region of Karacadağ in southern Turkey generally credited as the birthplace of einkorn cultivation specifically.",
+      "evidence_locator": { "paragraph": "G", "sentence": 2 },
+      "explanation": "Paragraf G, einkorn tarımının doğduğu yer olarak genellikle Türkiye'nin güneyindeki Karacadağ bölgesinin kabul edildiğini söylüyor; bu yüzden cevap 'Karacadağ'.",
+      "difficulty": "medium"
+    }
+  ]
+}

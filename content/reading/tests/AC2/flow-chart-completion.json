@@ -1,0 +1,78 @@
+{
+  "schema_version": "1.0",
+  "set_id": "AC2-flow-chart-completion",
+  "skill": "reading",
+  "module": "academic",
+  "test_id": "AC2",
+  "practice": false,
+  "passage_id": "A04",
+  "question_type": "flow_chart_completion",
+  "generated_by": "opus",
+  "instructions": "Complete the flow-chart below. Choose NO MORE THAN THREE WORDS AND/OR A NUMBER from the passage for each answer.",
+  "word_limit": "NO MORE THAN THREE WORDS AND/OR A NUMBER",
+  "word_bank": null,
+  "visual": null,
+  "stem_block": "From first sighting to an official name\n\nThe Near-Infrared Camera records ten long exposures, each of (1) ........ , while a faint speck is followed against the star background for roughly six hours.\n    ↓\nThe speck is accepted as a body circling Uranus and is entered in the records under the provisional (2) ........ S/2025 U1.\n    ↓\nAs the object is too faint to measure directly, its width is put at some ten kilometres, on the assumption that it (3) ........ light much as Uranus's other small moons do.\n    ↓\nIts path proves to be almost circular and to lie in the gap between Bianca and (4) ........ , not far from the plane of the planet's equator.\n    ↓\nThe moon is counted as the (5) ........ member of the planet's crowd of small inner satellites.\n    ↓\nA lasting name, drawn from plays and poetry rather than from myth, still has to be approved by the (6) ........ .",
+  "items": [
+    {
+      "number": 1,
+      "prompt": "The Near-Infrared Camera records ten long exposures, each of (1) ........ , while a faint speck is followed against the star background for roughly six hours.",
+      "answer": ["forty minutes"],
+      "accepted_variants": ["forty minutes"],
+      "evidence": "On 2 February 2025, Webb's Near-Infrared Camera captured a series of ten long-exposure images, each lasting forty minutes, over a period of roughly six hours, tracking a faint point of light moving against the background of stars in a pattern consistent with an object orbiting Uranus itself.",
+      "evidence_locator": { "paragraph": "B", "sentence": 2 },
+      "explanation": "Paragraf B, on ayrı görüntünün her birinin kırk dakika sürdüğünü söylüyor; boşluk tek bir pozlamanın süresini istediği için cevap 'forty minutes'. Altı saat, on pozlamanın tamamının yayıldığı süredir.",
+      "difficulty": "easy"
+    },
+    {
+      "number": 2,
+      "prompt": "The speck is accepted as a body circling Uranus and is entered in the records under the provisional (2) ........ S/2025 U1.",
+      "answer": ["designation"],
+      "accepted_variants": ["designation"],
+      "evidence": "The newly found body has been given the provisional designation S/2025 U1.",
+      "evidence_locator": { "paragraph": "C", "sentence": 1 },
+      "explanation": "Paragraf C, yeni bulunan gök cismine S/2025 U1 'provisional designation'ının (geçici adlandırma kodunun) verildiğini söylüyor; bu yüzden cevap 'designation'.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 3,
+      "prompt": "As the object is too faint to measure directly, its width is put at some ten kilometres, on the assumption that it (3) ........ light much as Uranus's other small moons do.",
+      "answer": ["reflects"],
+      "accepted_variants": ["reflects"],
+      "evidence": "Because it has not been imaged in enough detail to measure directly, its size has to be estimated: assuming it reflects light in a similar way to Uranus's other small moons, astronomers calculate a diameter of about six miles, or ten kilometres, making it one of the smallest moons known anywhere in the solar system.",
+      "evidence_locator": { "paragraph": "C", "sentence": 2 },
+      "explanation": "Paragraf C'de çap hesabının, cismin ışığı diğer küçük uydular gibi yansıttığı varsayımına dayandığı belirtiliyor; boşluk bu varsayımdaki fiili istediği için cevap 'reflects'.",
+      "difficulty": "hard"
+    },
+    {
+      "number": 4,
+      "prompt": "Its path proves to be almost circular and to lie in the gap between Bianca and (4) ........ , not far from the plane of the planet's equator.",
+      "answer": ["Ophelia"],
+      "accepted_variants": ["Ophelia"],
+      "evidence": "Its orbit lies roughly 35,000 miles, or 56,000 kilometres, from the centre of Uranus, in the gap between two previously known moons, Ophelia and Bianca.",
+      "evidence_locator": { "paragraph": "D", "sentence": 1 },
+      "explanation": "Paragraf D, yörüngenin daha önce bilinen iki uydu olan Ophelia ile Bianca arasındaki boşlukta yer aldığını söylüyor; Bianca soruda verildiği için cevap 'Ophelia'.",
+      "difficulty": "easy"
+    },
+    {
+      "number": 5,
+      "prompt": "The moon is counted as the (5) ........ member of the planet's crowd of small inner satellites.",
+      "answer": ["fourteenth"],
+      "accepted_variants": ["fourteenth", "14th"],
+      "evidence": "With this addition, Uranus's known moon count rises to twenty-nine, and the new object becomes the fourteenth member of its group of small inner moons, a crowd that orbits far closer to the planet than its five largest and best-known satellites, Miranda, Ariel, Umbriel, Titania and Oberon.",
+      "evidence_locator": { "paragraph": "E", "sentence": 1 },
+      "explanation": "Paragraf E, yeni cismin küçük iç uydular grubunun on dördüncü üyesi olduğunu söylüyor; yirmi dokuz sayısı ise Uranüs'ün bilinen bütün uydularının toplamıdır, bu yüzden cevap 'fourteenth'.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 6,
+      "prompt": "A lasting name, drawn from plays and poetry rather than from myth, still has to be approved by the (6) ........ .",
+      "answer": ["International Astronomical Union"],
+      "accepted_variants": ["International Astronomical Union"],
+      "evidence": "Following long tradition, Uranus's moons are named not after figures from classical mythology, as is usual elsewhere in the solar system, but after characters drawn from the plays of Shakespeare and the poetry of Alexander Pope; the newcomer's eventual name will still need formal approval from the International Astronomical Union.",
+      "evidence_locator": { "paragraph": "E", "sentence": 2 },
+      "explanation": "Paragraf E, uydunun kalıcı adının Uluslararası Astronomi Birliği'nin resmî onayını gerektirdiğini belirtiyor; bu yüzden cevap 'International Astronomical Union'.",
+      "difficulty": "medium"
+    }
+  ]
+}

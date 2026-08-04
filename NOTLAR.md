@@ -191,3 +191,61 @@ Bu dosyaya her oturumda alınan kararlar, atlanan işler ve karşılaşılan sor
   promptlarıdır (OPUS5-10/11, FABLE5-40/41/42) — AC2, AC3, AC4, GT1, GT2 ve 5 alıştırma
   paketi hâlâ bekliyor.
 - Atlanan/sorun: yok.
+
+## OPUS5-10 (2. çalıştırma: AC2 tam testi)
+- Tarih: 2026-08-04
+- Depo kontrolü: `content/reading/tests/` altında yalnız `AC1/` vardı (15 soru, tam),
+  `content/reading/practice/` klasörü hiç yoktu → çalıştırma listesindeki **2. paket (AC2)**
+  sıradaki bitmemiş işti, o yapıldı. **15 soru** üretildi, hedefle birebir aynı.
+- Üretilen dosyalar:
+  - `content/reading/tests/AC2/flow-chart-completion.json` — soru 1–6, pasaj **A04**
+  - `content/reading/tests/AC2/sentence-completion.json` — soru 19–22, pasaj **A05**
+  - `content/reading/tests/AC2/summary-completion.json` — soru 36–40, pasaj **A06**
+- **Seçilen alt tipler ve gerekçe:**
+  - 1–6 için **akış şeması tamamlama** seçildi (AC1'de not tamamlama kullanılmıştı, tekrar
+    edilmedi). A04 yeni bir Uranüs uydusunun bulunmasını sırayla anlatıyor: gözlem →
+    geçici kod → çap tahmini → yörüngenin ölçülmesi → katalogda sıra → kalıcı ad onayı.
+    Bu zincir pasajda B→C→D→E sırasıyla ilerlediği için akış şeması hem doğal hem de sıra
+    kuralına uygun. **Tablo denendi ve vazgeçildi:** A04'teki tek gerçek karşılaştırma
+    Voyager 2 (paragraf F) ile Webb (paragraf B) arasında; tablo satırları bu ikisini
+    yan yana koyduğunda cevapların pasajdaki geçiş sırası bozuluyordu.
+  - 19–22 **cümle tamamlama**, `NO MORE THAN TWO WORDS` (A05).
+  - 36–40 için özet tamamlamanın **listeden kelime seçme** alt tipi kullanıldı
+    (`word_bank` dolu: A–J, 10 seçenek, 5 doğru + 5 çeldirici). AC1'de metinden kelime
+    seçme (`word_bank: null`) kullanılmıştı; NOTLAR'daki "en az bir Academic testte
+    listeden seçme olsun" notu böylece karşılandı.
+  - ⚠️ **AC3–AC4 için not:** 1–6 aralığında tablo tamamlama hâlâ hiç kullanılmadı; A07–A12
+    içinde karşılaştırmalı yapısı olan bir pasaj varsa oraya tablo konsun. Özet
+    tamamlamada AC3/AC4'ten en az birinde yine metinden kelime seçme kullanılabilir.
+- **Şema kararı (listeden seçme alt tipi):** `word_bank` alanı `[{"letter": "A", "text":
+  "..."}, ...]` biçiminde nesne listesi olarak yazıldı. Bu alt tipte `answer` **harf**
+  tutuyor (`["A"]`), `accepted_variants` ise harfi *ve* seçeneğin metnini birlikte kabul
+  ediyor (`["A", "a controlled experiment", "controlled experiment"]`) — uygulama hangisiyle
+  karşılaştırırsa çalışsın diye. `word_limit` bu alt tipte anlamsız olduğu için `null`.
+  Sonraki listeden-seçme dosyaları da bu düzeni izlemeli.
+- Kelime sınırları: 1–6 `NO MORE THAN THREE WORDS AND/OR A NUMBER` (soru 6'nın cevabı
+  `International Astronomical Union` üç kelime); 19–22 `NO MORE THAN TWO WORDS`;
+  36–40 sınırsız (listeden seçme). Bütün cevaplar sınıra uyuyor.
+- Elenen soru: yok. **Vazgeçilen cevap adayları:** A04'te `ten kilometres` (pasaj çapı
+  "about six miles, or ten kilometres" diye veriyor — iki cevap da savunulabilirdi,
+  benzersiz değil), `hexaploid` (A05'te 4 kez geçiyor), `spelt` (A05'te 2 kez).
+  Yerlerine tek geçişli `reflects`, `fourteenth`, `plant DNA`, `D genome` seçildi.
+  A06'nın çeldirici listesine bilinçli olarak **rastgeleleştirme** çağrıştıran bir seçenek
+  konmadı: pasaj hem "effectively randomised" hem "as if ... a controlled experiment"
+  diyor, ikisi de listede olsaydı 36. sorunun iki savunulabilir cevabı olurdu.
+- Doğrulama: geçici bir denetim scriptiyle her dosya için JSON geçerliliği, soru numara
+  aralığı (1–6 / 19–22 / 36–40), `evidence`in pasajda **birebir** geçişi,
+  `evidence_locator` (paragraf + kaçıncı cümle) doğruluğu, cevabın pasajdaki geçiş sayısı
+  (hepsi 1), `evidence` konumuna göre **sıra kuralı**, kelime sınırı, cevap tekrarı,
+  soru kökü ile pasaj arasında 6+ kelimelik birebir örtüşme olmaması (hepsi 0),
+  `explanation` alanlarının Türkçe olması, `stem_block` boşluk numaralarının soru
+  numaralarıyla eşleşmesi ve "IELTS" geçmemesi tek tek denetlendi — **hata 0**.
+  Ardından `python tools/dogrula.py`: **şema hatası 0**, okuma sorusu 30 (AC1 15 + AC2 15),
+  görünür metinde IELTS 0, yasak kaynak 0. Geçici script silindi.
+- Referans PDF'leri: `referans/text/` klasörü bu oturumda da yoktu. Cevap anahtarı
+  PDF'lerinden ikisi (`sentence-completion`, `summary-completion-selecting-from-list`)
+  `Read` ile açıldı — bunlar yalnız cevap listesi içeriyor, yönerge cümlesi yok.
+  `ielts-academic-reading-sample-tasks-2023.pdf` render edilemedi (`pdftoppm` yok) ve
+  `pdftotext` bu oturumda izin verilmediği için çalıştırılamadı; yönerge kalıpları
+  prompt dosyasında verilen üç kalıptan ve AC1'in yerleşik biçiminden alındı.
+- Atlanan/sorun: yok.
