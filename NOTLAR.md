@@ -664,3 +664,75 @@ Bu dosyaya her oturumda alınan kararlar, atlanan işler ve karşılaşılan sor
   sorusu tek pasajdan çıkarılamaz**; G01–G04'ün somut mekân/plan anlatan metinleri
   (ör. spor merkezi, geri dönüşüm düzeni, fabrika vardiya akışı) plan etiketleme için
   değerlendirilmeli.
+
+## OPUS5-10 (9. çalıştırma: alıştırma — kısa cevap)
+
+- Tarih: 2026-08-04
+- Depo kontrolü: altı tam test (AC1–AC4 15'er, GT1–GT2 13'er = 86 soru) ve
+  `content/reading/practice/` altındaki üç dosya (`sentence-completion`, `note-completion`,
+  `summary-completion` — 15'er soru) tamdı → çalıştırma listesindeki **9. paket
+  (alıştırma: kısa cevap, 10 soru)** sıradaki bitmemiş işti, o yapıldı.
+- Üretilen dosya: `content/reading/practice/short-answer.json` — soru **1–10**,
+  pasajlar **A01, A02, A03, A04, A05, A06, A07, A08, A09, A12** (her birinden **1 soru**).
+- **Pasaj seçimi — kasıtlı bir denge kararı:** "aynı pasajdan en fazla 4 alıştırma sorusu"
+  kuralı gereği elde kalan kontenjan şuydu: A01–A09 + A12'de 1'er (7. paket her birinden
+  3 soru almıştı), G06'da 1, G01–G04'te 4'er. Kısa cevap tipi her soruyu **bağımsız**
+  sorduğu için 1'er kontenjanla çalışmaya en uygun tip odur; buna karşılık **10. paket
+  (diyagram/plan etiketleme)** tek bir görsel altında 2–4 numaralı etiket ister, yani
+  aynı pasajdan birkaç soru çıkarabilmek zorundadır. Bu yüzden akademik pasajların kalan
+  1'er kontenjanı bu pakete verildi ve **G01–G04'ün 16 kontenjanı bütünüyle 10. pakete
+  bırakıldı**. Sonuç: alıştırmada A01–A12 ve G05 4/4 dolu, G06'da 1, G01–G04'te 4'er
+  kontenjan kaldı — 10 diyagram sorusu için fazlasıyla yeterli.
+- **Tam testle ve öteki alıştırmalarla çakışma önleme:** her soru, o pasajda ne tam testin
+  ne de 7./8. paketin dokunduğu bir **cümleden** üretildi (A01 D2, A02 B1, A03 C2,
+  A04 F2, A05 C1, A06 H1, A07 B2, A08 D1, A09 D2, A12 D3). Denetim, hiçbir `evidence`
+  cümlesinin altı tam testteki ya da öteki üç alıştırma dosyasındaki bir `evidence` ile
+  birebir çakışmadığını doğruladı.
+- **Alt tip / yönerge kararı:** kısa cevabın tek yönergesi var; `NO MORE THAN THREE WORDS
+  AND/OR A NUMBER` seçildi, çünkü dosyada tarih (`24 January 1986`), yaş (`8,400 years`)
+  ve üç kelimelik terimler (`transactive memory system`, `scanning electron microscopy`)
+  birlikte bulunuyor. Öteki alıştırma dosyaları `NO MORE THAN TWO WORDS` kullanıyordu;
+  böylece alıştırma seti üç kelime sınırının ikisini de gösteriyor. Tireli kelimeler
+  (`30-minute`) tek kelime sayıldı.
+- **Şema:** 7. ve 8. paketteki düzen sürdürüldü — `test_id: null`, `practice: true`,
+  grup düzeyinde `passage_id: null`, **item düzeyinde `passage_id`** dolu,
+  `stem_block: null` (kısa cevapta zorunlu), `word_bank: null`, `visual: null`.
+  Her `prompt`, hangi pasajın okunacağını belirten `Question n refers to Passage Axx.`
+  cümlesiyle başlıyor (7. paketteki `Questions 1-3 refer to ...` kalıbının tekil hâli).
+  `module: "academic"` — dosyadaki on pasajın hepsi akademik.
+- **Sıra kuralı** bu dosyada kendiliğinden sağlanıyor: her pasajdan tek soru var, sorular
+  da pasaj kimliği sırasında diziliyor.
+- Elenen soru: yok. **Vazgeçilen cevap adayları:** A01'de `concrete cube` ve `seven`
+  (birden çok geçiş / 7. paketteki `seventh` ile karışma), A03'te `450 miles` ve
+  `Fertile Crescent` (pasajda iki kez), A04'te `Voyager 2` (iki kez) ve SETI Institute
+  (gerçek kişi adına bağlı olduğu için), A05'te `hexaploid`, `spelt`, `charred` (çok
+  geçiş) ve `James Mellaart` (gerçek kişi adı kuralı), A06'da `977` (sayısal cevap
+  fazlalaşmasın diye) ve F paragrafındaki yüzdeler (AC2'nin 39. sorusuyla aynı bilgiye
+  fazla yakın), A08'de `7.0` ve `700` (700 pasajda üç kez), A12'de `Stage 2 sleep`
+  (AC4'ün 40. sorusunun kanıt cümlesine bitişik olduğu için).
+- Doğrulama: geçici denetim scriptiyle (`tools/_p9_kontrol.py`, sonra silindi) JSON
+  geçerliliği, zarf alanlarının tamlığı, `stem_block`ın null olması, soru sayısı (10),
+  numara aralığı (1–10), `evidence`in pasajda **birebir** geçişi, `evidence_locator`ın
+  (paragraf + kaçıncı cümle) o cümleye birebir denk gelmesi, cevabın kendi `evidence`ı
+  içinde bulunması, cevabın pasajdaki geçiş sayısı (**hepsi tam 1**), kelime sınırı
+  (≤3 kelime), `accepted_variants` bütünlüğü, cevap tekrarı, sıra kuralı, **alıştırma
+  genelinde pasaj başına soru sayısı (≤4)**, tam test ve öteki alıştırma dosyalarındaki
+  `evidence` cümleleriyle çakışma, soru kökü ile pasaj arasında 6+ kelimelik birebir
+  örtüşme olmaması, `explanation`ların Türkçe ve dolu olması, zorluk çeşitliliği
+  (easy 4, medium 4, hard 2) ve "IELTS" geçmemesi denetlendi. **İlk turda hata 0.**
+  Ardından `python tools/dogrula.py`: **şema hatası 0**, okuma sorusu 141 (tam test 86 +
+  alıştırma 55), pasaj lisansı eksik 0, görünür metinde IELTS 0, yasak kaynak 0.
+- Referans PDF'leri: `referans/text/` klasörü bu oturumda da yoktu; kısa cevap yönergesi
+  prompt dosyasındaki üç kalıptan (`NO MORE THAN THREE WORDS AND/OR A NUMBER`) ve
+  AC1–GT2'nin yerleşik biçiminden alındı.
+- Atlanan/sorun: yok. **OPUS5-10'da 10 paketten 9'u tamam** (86 tam test + 55 alıştırma =
+  141 soru). Kalan tek paket: **10** (diyagram / plan etiketleme, 10 soru).
+  **Sıradaki oturum için not:** kontenjan yalnızca **G01–G04'te 4'er** ve **G06'da 1**;
+  akademik pasajların hepsi doldu. Yani 10 diyagram sorusu G01–G04'ten çıkarılmalı
+  (ör. dört ayrı görsel, her birinde 2–3 numaralı etiket). Bu metinler somut mekân ve
+  düzen anlatıyor: G01 kütüphane/spor merkezi/geri dönüşüm düzeni, G02 bisiklet kiralama
+  noktaları, festival alanı, bahçe parselleri ve havuz seansları, G03 fabrika vardiya ve
+  giriş-çıkış akışı, G04 staj başvuru aşamaları ve uzaktan çalışma düzeni — plan/akış
+  etiketlemesi için uygun. SVG'ler prompt kurallarına göre tek parça, sabit renksiz,
+  `viewBox`'lı ve numaralı kutulu olmalı; `question_type` alanı `diagram_labelling`,
+  ek zorunlu alan `visual`.

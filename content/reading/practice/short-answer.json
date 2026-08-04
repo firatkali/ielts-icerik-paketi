@@ -1,0 +1,128 @@
+{
+  "schema_version": "1.0",
+  "set_id": "practice-short-answer",
+  "skill": "reading",
+  "module": "academic",
+  "test_id": null,
+  "practice": true,
+  "passage_id": null,
+  "question_type": "short_answer",
+  "generated_by": "opus",
+  "instructions": "Answer the questions below. Choose NO MORE THAN THREE WORDS AND/OR A NUMBER from the passage for each answer.",
+  "word_limit": "NO MORE THAN THREE WORDS AND/OR A NUMBER",
+  "word_bank": null,
+  "visual": null,
+  "stem_block": null,
+  "items": [
+    {
+      "number": 1,
+      "passage_id": "A01",
+      "prompt": "Question 1 refers to Passage A01. On the day after his first success, how many times did the young elephant repeat his solution within one session?",
+      "answer": ["nine times"],
+      "accepted_variants": ["nine times", "nine", "9 times", "9"],
+      "evidence": "About two minutes after an unreachable branch was hung up, Kandula rolled the cube into place and stood on it, and he repeated the trick nine times within a single session.",
+      "evidence_locator": { "paragraph": "D", "sentence": 2 },
+      "explanation": "Paragraf D, ertesi gün Kandula'nın küpü yerine yuvarlayıp üstüne çıktığını ve bu çözümü tek bir oturum içinde dokuz kez tekrarladığını söylüyor; bu yüzden cevap 'nine times'.",
+      "difficulty": "easy"
+    },
+    {
+      "number": 2,
+      "passage_id": "A02",
+      "prompt": "Question 2 refers to Passage A02. From which stretch of water were the animals used in the experiment taken?",
+      "answer": ["Bay of Naples"],
+      "accepted_variants": ["Bay of Naples", "the Bay of Naples"],
+      "evidence": "The researchers collected sixty octopuses from the Bay of Naples over two summer seasons and formed twenty-four pairs, each matched so that the two animals differed in weight by no more than fifteen per cent.",
+      "evidence_locator": { "paragraph": "B", "sentence": 1 },
+      "explanation": "Paragraf B, altmış ahtapotun iki yaz mevsimi boyunca Napoli Körfezi'nden toplandığını söylüyor; soru hayvanların nereden alındığını sorduğu için cevap 'Bay of Naples'.",
+      "difficulty": "easy"
+    },
+    {
+      "number": 3,
+      "passage_id": "A03",
+      "prompt": "Question 3 refers to Passage A03. According to the passage, how long do laboratory studies of this slow global process normally last?",
+      "answer": ["weeks or months"],
+      "accepted_variants": ["weeks or months"],
+      "evidence": "Predicting the long-term effects of this slow global process is difficult in a laboratory, where experiments typically run for only weeks or months.",
+      "evidence_locator": { "paragraph": "C", "sentence": 2 },
+      "explanation": "Paragraf C, laboratuvarda yürütülen deneylerin genellikle yalnızca haftalar ya da aylar sürdüğünü söylüyor; bu yüzden cevap 'weeks or months'.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 4,
+      "passage_id": "A04",
+      "prompt": "Question 4 refers to Passage A04. On what date did the earlier spacecraft mission make its close approach to Uranus?",
+      "answer": ["24 January 1986"],
+      "accepted_variants": ["24 January 1986", "24 January, 1986", "January 24 1986", "24 January"],
+      "evidence": "NASA's Voyager 2 spacecraft flew past Uranus on 24 January 1986, capturing the only close-up images of the planet's moons that exist to this day, and yet it did not detect this moon at all.",
+      "evidence_locator": { "paragraph": "F", "sentence": 2 },
+      "explanation": "Paragraf F, Voyager 2'nin Uranüs'ün yanından 24 Ocak 1986'da geçtiğini söylüyor; soru bu yakın geçişin tarihini sorduğu için cevap '24 January 1986'.",
+      "difficulty": "easy"
+    },
+    {
+      "number": 5,
+      "passage_id": "A05",
+      "prompt": "Question 5 refers to Passage A05. Roughly how old was the burnt grain that the team tried to recover genetic material from?",
+      "answer": ["8,400 years"],
+      "accepted_variants": ["8,400 years", "8400 years", "8,400 years old", "8400 years old"],
+      "evidence": "An international research team set out to change that by attempting to extract and read ancient DNA directly from the charred grains, roughly 8,400 years old.",
+      "evidence_locator": { "paragraph": "C", "sentence": 1 },
+      "explanation": "Paragraf C, ekibin yaklaşık 8.400 yıllık kömürleşmiş tanelerden DNA çıkarmaya çalıştığını söylüyor; bu yüzden cevap '8,400 years'.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 6,
+      "passage_id": "A06",
+      "prompt": "Question 6 refers to Passage A06. Which idea do the researchers draw on to explain how a well-established team knows which member to turn to?",
+      "answer": ["transactive memory system"],
+      "accepted_variants": ["transactive memory system", "a transactive memory system"],
+      "evidence": "The researchers interpret the pattern through the idea of a transactive memory system, in which effective teams develop a shared, largely implicit sense of who knows what, letting members find the right person to ask rather than needing constant interaction.",
+      "evidence_locator": { "paragraph": "H", "sentence": 1 },
+      "explanation": "Paragraf H, bulguların 'transactive memory system' (aktarımlı bellek sistemi) fikriyle yorumlandığını, yani ekiplerin kimin neyi bildiğine dair ortak bir sezgi geliştirdiğini söylüyor; bu yüzden cevap 'transactive memory system'.",
+      "difficulty": "hard"
+    },
+    {
+      "number": 7,
+      "passage_id": "A07",
+      "prompt": "Question 7 refers to Passage A07. In total, how many sessions were the four whales involved in?",
+      "answer": ["98"],
+      "accepted_variants": ["98", "98 sessions", "ninety-eight"],
+      "evidence": "Between February and November 2001 the animals took part in 98 separate sessions split into two phases.",
+      "evidence_locator": { "paragraph": "B", "sentence": 2 },
+      "explanation": "Paragraf B, hayvanların Şubat–Kasım 2001 arasında iki aşamaya bölünmüş 98 ayrı oturuma katıldığını söylüyor; bu yüzden cevap '98'.",
+      "difficulty": "easy"
+    },
+    {
+      "number": 8,
+      "passage_id": "A08",
+      "prompt": "Question 8 refers to Passage A08. Which summit does the passage identify as the highest in Canada?",
+      "answer": ["Mount Logan"],
+      "accepted_variants": ["Mount Logan", "Logan"],
+      "evidence": "The most conspicuous single event showed up as a wide cascade of debris pouring down the flank of Mount King George, while further landslide scars were visible around Mount Logan, Canada's tallest peak.",
+      "evidence_locator": { "paragraph": "D", "sentence": 1 },
+      "explanation": "Paragraf D, Kanada'nın en yüksek zirvesi olarak Mount Logan'ı anıyor ve heyelan izlerinin bu dağın çevresinde görüldüğünü söylüyor; bu yüzden cevap 'Mount Logan'.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 9,
+      "passage_id": "A09",
+      "prompt": "Question 9 refers to Passage A09. Which technique revealed the fine inner structure of the glass-like substance at very high magnification?",
+      "answer": ["scanning electron microscopy"],
+      "accepted_variants": ["scanning electron microscopy", "Scanning electron microscopy", "SEM"],
+      "evidence": "Scanning electron microscopy allowed them to visualise the fine internal structure of the glassy material at extremely high magnification, while energy-dispersive X-ray spectroscopy measured its chemical composition.",
+      "evidence_locator": { "paragraph": "D", "sentence": 2 },
+      "explanation": "Paragraf D, camsı maddenin ince iç yapısının taramalı elektron mikroskobuyla görüntülendiğini, kimyasal bileşiminin ise ayrı bir yöntemle ölçüldüğünü söylüyor; bu yüzden cevap 'scanning electron microscopy'.",
+      "difficulty": "hard"
+    },
+    {
+      "number": 10,
+      "passage_id": "A12",
+      "prompt": "Question 10 refers to Passage A12. What did everyone in the second study complete before the last recall test, so that drowsiness would not affect their scores?",
+      "answer": ["30-minute puzzle game"],
+      "accepted_variants": ["30-minute puzzle game", "a 30-minute puzzle game", "30 minute puzzle game", "puzzle game"],
+      "evidence": "To reduce the grogginess that can follow a nap and distort test performance, all participants completed a 30-minute puzzle game before their final recall test.",
+      "evidence_locator": { "paragraph": "D", "sentence": 3 },
+      "explanation": "Paragraf D, uyku sersemliğinin test sonucunu bozmaması için bütün katılımcıların son hatırlama testinden önce 30 dakikalık bir bulmaca oyunu oynadığını söylüyor; bu yüzden cevap '30-minute puzzle game'.",
+      "difficulty": "medium"
+    }
+  ]
+}
