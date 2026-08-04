@@ -1,0 +1,183 @@
+{
+  "schema_version": "1.0",
+  "set_id": "practice-summary-completion",
+  "skill": "reading",
+  "module": "both",
+  "test_id": null,
+  "practice": true,
+  "passage_id": null,
+  "question_type": "summary_completion",
+  "generated_by": "opus",
+  "instructions": "Complete the summaries below. Choose NO MORE THAN TWO WORDS from the passage for each answer.",
+  "word_limit": "NO MORE THAN TWO WORDS",
+  "word_bank": null,
+  "visual": null,
+  "stem_block": "Passage A10 — What Kind of Office Actually Works?\n\nOnce all four layouts had been tried, two of them stood out. Both the zoned open-plan room and the team office beat the plain open-plan baseline on how content the staff felt and on how productive they believed themselves to be, while the activity-based arrangement, for all its (1) ........ in current office fashion, finished below the baseline on both counts. The same two layouts also came top for flow, the mental state in which a person is completely (2) ........ in the task at hand, which points to partial enclosure as an aid to lasting concentration. The sensors hinted at a reason: in the plain open-plan room, noise crossed the recommended (3) ........ far more often than in the other three rooms. Not everything shifted with the furniture, though. The volume of code a team produced barely moved, which the authors read as a sign that seasoned (4) ........ using familiar tools are neither slowed nor hurried by a change of room, however differently that room makes them feel.\n\nPassage A11 — Why a Walk in a Snowy Forest Calms the Mind\n\nNature is widely believed to relieve stress, but almost all the proof comes from woodland that is green and (5) ........ , visited in the warmer months, which leaves open what happens where winter fills half the year. To find out, a small group of Finnish students each spent quiet time both among snow-covered trees and beside campus buildings, an order-balanced (6) ........ design that let every volunteer serve as their own comparison. The wood lowered five of the six negative moods on the main scale, though not the sixth; the strongest result of the whole study came on the measure of how mentally refreshing a place feels, which rose (7) ........ once the fifteen minutes among the trees were over. The buildings produced the opposite picture, with negative moods up, vitality down and refreshment roughly halved, so that even a quiet, traffic-free view of a campus proved mildly (8) ........ beside a spell in the snow.\n\nPassage G05 — What Ends Up in the Rubbish: A Household Food Waste Study\n\nBecause families are poor judges of their own rubbish, the team gathered what each home actually binned on eight days in a row and put it on (9) ........ precise to within two grams. Drinks were handled separately, every household keeping a week-long (10) ........ of what was poured away and how much of it. Across the two districts the yearly figure came to 77 kilograms a head, of which just over a third could still have been eaten; the rest was the sort of material any kitchen produces, such as skins, bones and (11) ........ . The sharpest contrast was between town and country: city households threw out almost (12) ........ the weight recorded in the rural sub-district, and a larger share of what they discarded was still fit to eat, a difference the researchers tied partly to the roughly twofold gap in what the two groups earned and spent.\n\nPassage G06 — Why Volunteers Tend to Report Better Health\n\nThe evidence came from a Europe-wide survey of nearly 43,000 people in 29 countries. Volunteering was reduced to a plain yes or no, while each respondent placed their own health somewhere on a (13) ........ scale whose ends were labelled 'very bad' and 'very good'. Those who gave their time rated themselves healthier than those who did not, and the gap survived adjustment for background differences; the team defends this apparently soft measure by pointing out that it has been shown again and again to forecast later illness and (14) ........ . How common volunteering was varied hugely from one country to the next, and volunteers as a group tended to be men, to have stayed longer in education and to be more religious, while they were less often (15) ........ or migrants from elsewhere.",
+  "items": [
+    {
+      "number": 1,
+      "passage_id": "A10",
+      "prompt": "Both the zoned open-plan room and the team office beat the plain open-plan baseline on how content the staff felt and on how productive they believed themselves to be, while the activity-based arrangement, for all its (1) ........ in current office fashion, finished below the baseline on both counts.",
+      "answer": ["popularity"],
+      "accepted_variants": ["popularity"],
+      "evidence": "The activity-based design, despite its popularity in contemporary office trends, performed worse than the open-plan baseline on both measures, with satisfaction and productivity scores roughly 14 per cent lower.",
+      "evidence_locator": { "paragraph": "D", "sentence": 3 },
+      "explanation": "Paragraf D, etkinlik temelli düzenin çağdaş ofis modasındaki popülerliğine rağmen iki ölçüte de temel düzenin altında kaldığını söylüyor; boşluk bu yaygın beğeniyi karşıladığı için cevap 'popularity'.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 2,
+      "passage_id": "A10",
+      "prompt": "The same two layouts also came top for flow, the mental state in which a person is completely (2) ........ in the task at hand, which points to partial enclosure as an aid to lasting concentration.",
+      "answer": ["absorbed"],
+      "accepted_variants": ["absorbed"],
+      "evidence": "A similar pattern emerged for flow, the psychological state of being deeply absorbed and focused on a task.",
+      "evidence_locator": { "paragraph": "E", "sentence": 1 },
+      "explanation": "Paragraf E, akışı (flow) bir işe derinlemesine dalmış ve odaklanmış olma hâli diye tanımlıyor; boşluk bu tanımdaki 'dalmış' sözcüğünü istediği için cevap 'absorbed'.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 3,
+      "passage_id": "A10",
+      "prompt": "The sensors hinted at a reason: in the plain open-plan room, noise crossed the recommended (3) ........ far more often than in the other three rooms.",
+      "answer": ["safe limits"],
+      "accepted_variants": ["safe limits"],
+      "evidence": "Noise levels in the open-plan office exceeded recommended safe limits between 20 and 30 per cent more often than in any of the alternative designs.",
+      "evidence_locator": { "paragraph": "F", "sentence": 2 },
+      "explanation": "Paragraf F, açık ofiste gürültünün önerilen güvenli sınırları öteki düzenlere göre çok daha sık aştığını söylüyor; aşılan şey sorulduğu için cevap 'safe limits'.",
+      "difficulty": "easy"
+    },
+    {
+      "number": 4,
+      "passage_id": "A10",
+      "prompt": "The volume of code a team produced barely moved, which the authors read as a sign that seasoned (4) ........ using familiar tools are neither slowed nor hurried by a change of room, however differently that room makes them feel.",
+      "answer": ["software engineers"],
+      "accepted_variants": ["software engineers", "engineers"],
+      "evidence": "This absence of any measurable effect on code output is itself informative, since it suggests that experienced software engineers accustomed to their tools were not obviously slowed down or sped up by a change of layout, even though the same change clearly affected how comfortable they felt while working.",
+      "evidence_locator": { "paragraph": "G", "sentence": 3 },
+      "explanation": "Paragraf G, kod çıktısındaki değişmezliği, araçlarına alışkın deneyimli yazılım mühendislerinin düzen değişikliğinden belirgin biçimde etkilenmemesine bağlıyor; bu yüzden cevap 'software engineers'.",
+      "difficulty": "hard"
+    },
+    {
+      "number": 5,
+      "passage_id": "A11",
+      "prompt": "Nature is widely believed to relieve stress, but almost all the proof comes from woodland that is green and (5) ........ , visited in the warmer months, which leaves open what happens where winter fills half the year.",
+      "answer": ["leafy"],
+      "accepted_variants": ["leafy"],
+      "evidence": "Most of the evidence behind this claim, however, comes from studies conducted in green, leafy forests during spring or summer.",
+      "evidence_locator": { "paragraph": "A", "sentence": 2 },
+      "explanation": "Paragraf A, kanıtların çoğunun ilkbahar ya da yazın yeşil, yapraklı ormanlarda yapılan çalışmalardan geldiğini söylüyor; 'green' zaten verildiği için boşluğa gelen 'leafy'.",
+      "difficulty": "easy"
+    },
+    {
+      "number": 6,
+      "passage_id": "A11",
+      "prompt": "To find out, a small group of Finnish students each spent quiet time both among snow-covered trees and beside campus buildings, an order-balanced (6) ........ design that let every volunteer serve as their own comparison.",
+      "answer": ["crossover"],
+      "accepted_variants": ["crossover", "cross-over"],
+      "evidence": "The participants were split into two groups and took part in a crossover experiment, meaning that each person experienced both a forest condition and a comparison condition, in a different order depending on their group, allowing the researchers to compare each person against themselves rather than relying solely on differences between separate groups.",
+      "evidence_locator": { "paragraph": "B", "sentence": 2 },
+      "explanation": "Paragraf B, her katılımcının iki koşulu da farklı sırayla yaşadığı bu düzeni 'crossover' deneyi diye adlandırıyor ve amacını kişiyi kendisiyle karşılaştırmak olarak açıklıyor; bu yüzden cevap 'crossover'.",
+      "difficulty": "hard"
+    },
+    {
+      "number": 7,
+      "passage_id": "A11",
+      "prompt": "The wood lowered five of the six negative moods on the main scale, though not the sixth; the strongest result of the whole study came on the measure of how mentally refreshing a place feels, which rose (7) ........ once the fifteen minutes among the trees were over.",
+      "answer": ["sharply"],
+      "accepted_variants": ["sharply"],
+      "evidence": "The clearest effect of the entire study appeared on the Restorative Outcome Scale, which increased sharply after time in the forest, indicating that participants found the snow-covered woodland strongly refreshing even though it produced no accompanying jump in energy.",
+      "evidence_locator": { "paragraph": "F", "sentence": 3 },
+      "explanation": "Paragraf F, çalışmanın en belirgin etkisinin ormanda geçirilen süreden sonra keskin biçimde yükselen tazeleyicilik ölçeğinde görüldüğünü söylüyor; artışın biçimi sorulduğu için cevap 'sharply'.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 8,
+      "passage_id": "A11",
+      "prompt": "The buildings produced the opposite picture, with negative moods up, vitality down and refreshment roughly halved, so that even a quiet, traffic-free view of a campus proved mildly (8) ........ beside a spell in the snow.",
+      "answer": ["draining"],
+      "accepted_variants": ["draining"],
+      "evidence": "All five of the same negative mood indicators increased significantly, positive emotions on the broader affect scale fell while negative emotions rose, subjective vitality declined, and restorativeness scores dropped by roughly half compared with their level before the exposure, suggesting that even a calm, traffic-free campus scene was mildly draining relative to a walk in the snow.",
+      "evidence_locator": { "paragraph": "G", "sentence": 2 },
+      "explanation": "Paragraf G, sakin ve trafiksiz kampüs manzarasının bile kardaki yürüyüşe kıyasla hafifçe yorucu olduğunu söylüyor; bu yüzden cevap 'draining'.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 9,
+      "passage_id": "G05",
+      "prompt": "Because families are poor judges of their own rubbish, the team gathered what each home actually binned on eight days in a row and put it on (9) ........ precise to within two grams.",
+      "answer": ["digital scales"],
+      "accepted_variants": ["digital scales", "scales"],
+      "evidence": "Rather than relying on households to estimate their own waste, which tends to produce unreliable figures, the research team physically collected, sorted and weighed the solid food waste from each home's rubbish over eight consecutive days, using digital scales accurate to two grams.",
+      "evidence_locator": { "paragraph": "B", "sentence": 1 },
+      "explanation": "Paragraf B, ekibin sekiz gün boyunca topladığı katı gıda atığını iki gram hassasiyetli dijital terazilerle tarttığını söylüyor; tartımın neyle yapıldığı sorulduğu için cevap 'digital scales'.",
+      "difficulty": "easy"
+    },
+    {
+      "number": 10,
+      "passage_id": "G05",
+      "prompt": "Drinks were handled separately, every household keeping a week-long (10) ........ of what was poured away and how much of it.",
+      "answer": ["diary"],
+      "accepted_variants": ["diary"],
+      "evidence": "Discarded drinks were tracked separately: participants kept a seven-day diary noting the type and amount of any beverage poured away.",
+      "evidence_locator": { "paragraph": "B", "sentence": 2 },
+      "explanation": "Paragraf B, dökülen içeceklerin ayrı izlendiğini ve katılımcıların yedi günlük bir günlük tuttuğunu söylüyor; bir haftalık kaydın adı sorulduğu için cevap 'diary'.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 11,
+      "passage_id": "G05",
+      "prompt": "Across the two districts the yearly figure came to 77 kilograms a head, of which just over a third could still have been eaten; the rest was the sort of material any kitchen produces, such as skins, bones and (11) ........ .",
+      "answer": ["eggshells"],
+      "accepted_variants": ["eggshells", "egg shells"],
+      "evidence": "Just over a third of this, about 29 kilograms, was still perfectly edible when discarded; the remaining 48 kilograms consisted of inedible parts such as fruit peels, bones and eggshells that are a normal by-product of cooking rather than genuine waste.",
+      "evidence_locator": { "paragraph": "C", "sentence": 2 },
+      "explanation": "Paragraf C, kalan 48 kilogramın kabuk, kemik ve yumurta kabuğu gibi yenmeyen parçalardan oluştuğunu söylüyor; listede verilmeyen üçüncü örnek istendiği için cevap 'eggshells'.",
+      "difficulty": "easy"
+    },
+    {
+      "number": 12,
+      "passage_id": "G05",
+      "prompt": "The sharpest contrast was between town and country: city households threw out almost (12) ........ the weight recorded in the rural sub-district, and a larger share of what they discarded was still fit to eat, a difference the researchers tied partly to the roughly twofold gap in what the two groups earned and spent.",
+      "answer": ["double"],
+      "accepted_variants": ["double"],
+      "evidence": "City dwellers in Cibinong generated 79.4 kilograms of food waste per person a year, almost double the 45.8 kilograms recorded in rural Sukajaya, and a significantly higher proportion of the urban total, 38.2%, was edible food compared with 23.4% in rural areas.",
+      "evidence_locator": { "paragraph": "D", "sentence": 2 },
+      "explanation": "Paragraf D, kentte kişi başına 79,4 kilogramlık atığın kırsaldaki 45,8 kilogramın neredeyse iki katı olduğunu söylüyor; bu yüzden cevap 'double'.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 13,
+      "passage_id": "G06",
+      "prompt": "Volunteering was reduced to a plain yes or no, while each respondent placed their own health somewhere on a (13) ........ scale whose ends were labelled 'very bad' and 'very good'.",
+      "answer": ["five-point"],
+      "accepted_variants": ["five-point", "five point"],
+      "evidence": "Volunteering was recorded as a simple yes-or-no measure, based on whether a person had taken part in unpaid work for an organisation at least once every six months, while health was self-reported on a five-point scale running from \"very bad\" to \"very good\".",
+      "evidence_locator": { "paragraph": "B", "sentence": 3 },
+      "explanation": "Paragraf B, sağlığın 'çok kötü'den 'çok iyi'ye uzanan beş noktalı bir ölçekle kendi beyanına göre kaydedildiğini söylüyor; ölçeğin türü sorulduğu için cevap 'five-point'.",
+      "difficulty": "easy"
+    },
+    {
+      "number": 14,
+      "passage_id": "G06",
+      "prompt": "Those who gave their time rated themselves healthier than those who did not, and the gap survived adjustment for background differences; the team defends this apparently soft measure by pointing out that it has been shown again and again to forecast later illness and (14) ........ .",
+      "answer": ["mortality"],
+      "accepted_variants": ["mortality"],
+      "evidence": "Self-rated health might seem like a subjective measure, but earlier research has repeatedly shown it to reliably predict future illness and mortality, which is one reason the team chose it as their main outcome.",
+      "evidence_locator": { "paragraph": "C", "sentence": 3 },
+      "explanation": "Paragraf C, öz-bildirimli sağlığın öznel görünse de ileriki hastalıkları ve ölümlülüğü güvenilir biçimde öngördüğünün defalarca gösterildiğini söylüyor; 'illness' zaten verildiği için boşluğa gelen 'mortality'.",
+      "difficulty": "hard"
+    },
+    {
+      "number": 15,
+      "passage_id": "G06",
+      "prompt": "How common volunteering was varied hugely from one country to the next, and volunteers as a group tended to be men, to have stayed longer in education and to be more religious, while they were less often (15) ........ or migrants from elsewhere.",
+      "answer": ["elderly"],
+      "accepted_variants": ["elderly"],
+      "evidence": "Across the whole sample, volunteers were somewhat more likely to be male, more highly educated and more religious than non-volunteers, and somewhat less likely to be elderly or to have migrated from another country.",
+      "evidence_locator": { "paragraph": "D", "sentence": 3 },
+      "explanation": "Paragraf D, gönüllülerin yaşlı olma ya da başka bir ülkeden göç etmiş olma ihtimalinin biraz daha düşük olduğunu söylüyor; bu yüzden cevap 'elderly'.",
+      "difficulty": "medium"
+    }
+  ]
+}

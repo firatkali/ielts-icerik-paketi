@@ -585,3 +585,82 @@ Bu dosyaya her oturumda alınan kararlar, atlanan işler ve karşılaşılan sor
     yörüngeleri), **A08** (buzul üzerindeki heyelan/uydu görüntüleme düzeni) ve **A09**
     (Herculaneum'un piroklastik akıntı altında gömülmesi). SVG'ler prompt kurallarına göre
     tek parça, sabit renksiz ve `viewBox`'lı olmalı.
+
+## OPUS5-10 (8. çalıştırma: alıştırma — özet tamamlama)
+
+- Tarih: 2026-08-04
+- Depo kontrolü: altı tam test (AC1–AC4 15'er, GT1–GT2 13'er = 86 soru) ve
+  `content/reading/practice/` altındaki iki dosya (`sentence-completion.json`,
+  `note-completion.json` — 15'er soru) tamdı → çalıştırma listesindeki **8. paket
+  (alıştırma: özet tamamlama, 15 soru)** sıradaki bitmemiş işti, o yapıldı.
+- Üretilen dosya: `content/reading/practice/summary-completion.json` — soru **1–15**,
+  pasajlar **A10 (1–4), A11 (5–8), G05 (9–12), G06 (13–15)**.
+- **Pasaj seçimi zorunluluktan geldi:** "aynı pasajdan en fazla 4 alıştırma sorusu" kuralı
+  gereği A01–A09 ve A12'de yalnızca 1'er kontenjan kalmıştı (7. pakette her birinden 3 soru
+  çıkmıştı). Özet tamamlama bir pasajdan **bitişik 3–4 boşluk** ister, tek boşlukla özet
+  kurulamaz; bu yüzden alıştırmada hiç kullanılmamış olan **A10, A11, G05, G06** seçildi.
+  A10 ve A11 4'er soruyla kontenjanını doldurdu, G05 4, G06 3 soru aldı (G06'da 1 kontenjan
+  kaldı). **9. ve 10. paketler için kalan kontenjan:** A01–A09 + A12'de 1'er, G06'da 1,
+  G01–G04'te 4'er soru.
+- **Alt tip kararı — hepsi metinden kelime seçme (`word_bank: null`):** prompt şeması
+  "bir dosya = bir soru grubu (aynı yönergeyi paylaşan sorular)" diyor ve `instructions`,
+  `word_limit`, `word_bank` alanlarının üçü de **grup düzeyinde**; tek dosyada iki alt tipi
+  karıştırmak bu şemayı bozardı (7. çalıştırma notundaki "8+7 bölüşümü" önerisi bu yüzden
+  uygulanmadı). Metinden seçme tercih edildi çünkü (a) tam testlerde listeden seçme 3
+  (AC2, AC4, GT2), metinden seçme 2 (AC1, GT1) kez kullanılmıştı — bu dosyayla denge 3–3
+  oldu; (b) alıştırmanın asıl öğrettiği beceri cevabın pasajda **birebir** bulunması,
+  öteki iki alıştırma dosyasıyla da tutarlı.
+- **Tam testle çakışma önleme** (her pasajda testin dokunmadığı paragraflar seçildi):
+  - A10: AC4 not tamamlama A, B, C, F, H kullanmıştı → alıştırma **D, E, F(2. cümle), G**
+  - A11: AC4 cümle tamamlama C, D, E, H kullanmıştı → alıştırma **A, B, F, G**
+  - G05: GT1 özeti E–I kullanmıştı → alıştırma **B, C, D**
+  - G06: GT2 özeti F–I kullanmıştı → alıştırma **B, C, D**
+  Denetim, `evidence` cümlelerinin altı tam testteki hiçbir `evidence` ile birebir
+  çakışmadığını da doğruladı.
+- **Şema kararı — `module: "both"`:** dosya hem Academic (A10, A11) hem General (G05, G06)
+  pasajı kapsıyor; `99-teslim-formati.md` bu alan için `academic · general · both`
+  değerlerine izin verdiğinden `both` yazıldı. Öteki alıştırma alanları 7. paketteki
+  düzeni izliyor: `test_id: null`, `practice: true`, grup düzeyinde `passage_id: null`,
+  **item düzeyinde `passage_id`** dolu. `stem_block` dört ayrı özet paragrafından oluşuyor,
+  her biri `Passage <kimlik> — <başlık>` başlığı taşıyor, boşluk numaraları 1'den 15'e
+  kesintisiz ilerliyor.
+- Kelime sınırı: **`NO MORE THAN TWO WORDS`** (öteki iki alıştırma dosyasıyla aynı).
+  Sayısal cevap bilinçli olarak kullanılmadı, böylece "AND/OR A NUMBER" kalıbına gerek
+  kalmadı. Tireli kelimeler tek kelime sayıldı (`five-point`). En uzun cevaplar iki kelime:
+  `safe limits`, `software engineers`, `digital scales`.
+- **Sıra kuralı** her pasaj bloğu içinde ayrı ayrı uygulandı: A10 D3→E1→F2→G3,
+  A11 A2→B2→F3→G2, G05 B1→B2→C2→D2, G06 B3→C3→D3.
+- Elenen soru: yok. **Vazgeçilen cevap adayları** (hepsi benzersizlik kuralına takıldı,
+  yani pasajda birden çok kez geçiyor): A10'da `ranking` (D ve H), `concentration`
+  (C'deki "carbon dioxide concentration" ile çakışıyor), `flow` (C ve E), `code commits`
+  (C ve G), `energy` (C ve G); A11'de `vigour` (E, F, H), `vitality` (E ve G), `half`
+  (A ve G), `Finland` (A ve B); G05'te `regency` (A ve C), `Cibinong` / `Sukajaya`
+  (A ve D), `income` (D'de iki kez), `eight` ("eight consecutive days" ve I'deki
+  "eight-day snapshot"); G06'da `income` (çok geçiyor), `religious` (C ve D).
+  Ayrıca G05'te `peels` adayı, GT1 testinde `peelings` cevabı kullanıldığı için
+  karışıklık yaratmasın diye bırakıldı, yerine `eggshells` alındı.
+- Doğrulama: geçici denetim scriptiyle (`tools/_p8_kontrol.py`, sonra silindi) JSON
+  geçerliliği, soru sayısı (15), numara aralığı (1–15), her `prompt`un `stem_block` içinde
+  geçmesi ve boşluk numarasının eşleşmesi, `evidence`in pasajda **birebir** geçişi,
+  `evidence_locator`ın (paragraf + kaçıncı cümle) o cümleye birebir denk gelmesi, cevabın
+  pasajdaki geçiş sayısı (**hepsi tam 1**), cevabın kendi `evidence`ı içinde bulunması,
+  kelime sınırı, `accepted_variants` bütünlüğü, pasaj içi sıra kuralı, cevap tekrarı,
+  **alıştırma genelinde pasaj başına soru sayısı (≤4)**, tam testlerdeki `evidence`
+  cümleleriyle çakışma, soru kökü ile pasaj arasında 6+ kelimelik birebir örtüşme
+  olmaması, `explanation`ların Türkçe ve dolu olması, zorluk çeşitliliği (easy 5,
+  medium 7, hard 3) ve "IELTS" geçmemesi denetlendi. **İlk turda hata 0.** Ardından
+  `python tools/dogrula.py`: **şema hatası 0**, okuma sorusu 131 (tam test 86 + alıştırma
+  45), pasaj lisansı eksik 0, görünür metinde IELTS 0, yasak kaynak 0.
+- Referans PDF'leri: `referans/text/` klasörü bu oturumda da yoktu; yönerge kalıpları
+  prompt dosyasındaki üç kalıptan ve AC1–GT2'nin yerleşik biçiminden alındı
+  (özet için "Complete the summaries below." çoğul yazıldı, çünkü dosyada dört ayrı özet var).
+- Atlanan/sorun: yok. **OPUS5-10'da 10 paketten 8'i tamam** (86 tam test + 45 alıştırma =
+  131 soru). Kalan 2 paket: **9** (kısa cevap, 10) ve **10** (diyagram/plan etiketleme, 10).
+  **Sıradaki oturumlar için not:** kısa cevapta pasaj başına kalan kontenjan dar
+  (A01–A09 + A12'de 1'er, G06'da 1); rahat çalışma alanı **G01–G04** (her birinde 4
+  kontenjan, alıştırmada hiç kullanılmadılar). 10. paketin diyagram adayları için
+  7. çalıştırma notundaki liste (A03, A04, A08, A09) geçerliliğini koruyor, ancak
+  bu pasajların her birinde yalnız 1 alıştırma kontenjanı kaldığı için **10 diyagram
+  sorusu tek pasajdan çıkarılamaz**; G01–G04'ün somut mekân/plan anlatan metinleri
+  (ör. spor merkezi, geri dönüşüm düzeni, fabrika vardiya akışı) plan etiketleme için
+  değerlendirilmeli.
