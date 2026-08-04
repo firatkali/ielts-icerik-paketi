@@ -1,0 +1,78 @@
+{
+  "schema_version": "1.0",
+  "set_id": "GT1-note-completion",
+  "skill": "reading",
+  "module": "general",
+  "test_id": "GT1",
+  "practice": false,
+  "passage_id": "G03",
+  "question_type": "note_completion",
+  "generated_by": "opus",
+  "instructions": "Complete the notes below. Choose NO MORE THAN THREE WORDS AND/OR A NUMBER from the passage for each answer.",
+  "word_limit": "NO MORE THAN THREE WORDS AND/OR A NUMBER",
+  "word_bank": null,
+  "visual": null,
+  "stem_block": "Notes for new employees\n\nShift pattern\n- The pattern changes every four weeks; the new one is put up on the staff (15) ........ by the Friday before at the latest\n\nBreaks\n- Colleagues in one team do not stop at the same moment — their breaks are (16) ........ so that no line is left with nobody on it\n\nRecording hours\n- Coming in and going out, lunch included, is registered with the (17) ........ by the staff entrance\n\nExchanging a shift\n- Ask the supervisor in writing two days beforehand, on a (18) ........ picked up at the staff office\n\nAnnual leave\n- Someone working full time receives (19) ........ of paid leave a year, with public holidays counted inside that total\n- Time off is booked on the online (20) ........ , a fortnight ahead as a minimum",
+  "items": [
+    {
+      "number": 15,
+      "prompt": "Shift pattern: The pattern changes every four weeks; the new one is put up on the staff (15) ........ by the Friday before at the latest",
+      "answer": ["noticeboard"],
+      "accepted_variants": ["noticeboard", "notice board"],
+      "evidence": "Shift patterns rotate every four weeks and are published on the staff noticeboard no later than the preceding Friday.",
+      "evidence_locator": { "text": "A", "paragraph": "A", "sentence": 3 },
+      "explanation": "A metninin A paragrafı, dört haftada bir değişen vardiya düzeninin en geç bir önceki cuma personel ilan panosunda yayımlandığını söylüyor; bu yüzden cevap 'noticeboard'.",
+      "difficulty": "easy"
+    },
+    {
+      "number": 16,
+      "prompt": "Breaks: Colleagues in one team do not stop at the same moment — their breaks are (16) ........ so that no line is left with nobody on it",
+      "answer": ["staggered"],
+      "accepted_variants": ["staggered"],
+      "evidence": "Breaks must be staggered within each team so that production lines are never left unattended.",
+      "evidence_locator": { "text": "A", "paragraph": "B", "sentence": 5 },
+      "explanation": "A metninin B paragrafı, üretim hatları boş kalmasın diye takım içindeki molaların kaydırmalı düzenlenmesi gerektiğini söylüyor; bu yüzden cevap 'staggered'.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 17,
+      "prompt": "Recording hours: Coming in and going out, lunch included, is registered with the (17) ........ by the staff entrance",
+      "answer": ["card reader"],
+      "accepted_variants": ["card reader", "card-reader"],
+      "evidence": "All staff must clock in and out using the card reader at the staff entrance, including for lunch breaks.",
+      "evidence_locator": { "text": "A", "paragraph": "C", "sentence": 1 },
+      "explanation": "A metninin C paragrafı, öğle molaları dâhil giriş çıkışların personel girişindeki kart okuyucuyla kaydedildiğini söylüyor; bu yüzden cevap 'card reader'.",
+      "difficulty": "easy"
+    },
+    {
+      "number": 18,
+      "prompt": "Exchanging a shift: Ask the supervisor in writing two days beforehand, on a (18) ........ picked up at the staff office",
+      "answer": ["shift-swap form"],
+      "accepted_variants": ["shift-swap form", "shift swap form"],
+      "evidence": "Employees who wish to swap an assigned shift with a colleague must submit the request in writing to their supervisor at least 48 hours in advance, using the shift-swap form available from the staff office.",
+      "evidence_locator": { "text": "A", "paragraph": "D", "sentence": 1 },
+      "explanation": "A metninin D paragrafı, vardiya değişimi isteğinin 48 saat önceden, personel ofisinden alınan vardiya değişim formuyla yapıldığını söylüyor; 'shift-swap' tireli olduğu için cevap iki kelime sayılıyor.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 19,
+      "prompt": "Annual leave: Someone working full time receives (19) ........ of paid leave a year, with public holidays counted inside that total",
+      "answer": ["28 days"],
+      "accepted_variants": ["28 days", "28"],
+      "evidence": "Full-time employees are entitled to 28 days of paid annual leave per year, including public holidays.",
+      "evidence_locator": { "text": "B", "paragraph": "A", "sentence": 1 },
+      "explanation": "B metninin A paragrafı, tam zamanlı çalışanların resmî tatiller dâhil yılda 28 gün ücretli izin hakkı olduğunu söylüyor; bu yüzden cevap '28 days'.",
+      "difficulty": "easy"
+    },
+    {
+      "number": 20,
+      "prompt": "Annual leave: Time off is booked on the online (20) ........ , a fortnight ahead as a minimum",
+      "answer": ["staff portal"],
+      "accepted_variants": ["staff portal"],
+      "evidence": "Submit requests through the online staff portal at least two weeks in advance.",
+      "evidence_locator": { "text": "B", "paragraph": "B", "sentence": 2 },
+      "explanation": "B metninin B paragrafı, izin taleplerinin en az iki hafta önceden çevrimiçi personel portalından iletildiğini söylüyor; soru kökünde 'online' verildiği için boşluğa gelen 'staff portal'.",
+      "difficulty": "medium"
+    }
+  ]
+}

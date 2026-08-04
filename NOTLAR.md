@@ -385,3 +385,61 @@ Bu dosyaya her oturumda alınan kararlar, atlanan işler ve karşılaşılan sor
 - Atlanan/sorun: yok. **OPUS5-10'da 10 paketten 4'ü tamam;** kalan 6 paket GT1, GT2 ve
   4 alıştırma paketi (7, 8, 9, 10 — bunlardan 7. paket iki dosya). Dört Academic testin de
   OPUS5-10 payı (60 soru) bitti; `content/reading/practice/` hâlâ boş.
+
+## OPUS5-10 (5. çalıştırma: GT1 tam testi)
+- Tarih: 2026-08-04
+- Depo kontrolü: `content/reading/tests/` altında `AC1/`–`AC4/` vardı (15'er soru, tam),
+  `GT1/`, `GT2/` ve `content/reading/practice/` yoktu/boştu → çalıştırma listesindeki
+  **5. paket (GT1)** sıradaki bitmemiş işti, o yapıldı. **13 soru** üretildi, plandaki
+  GT payıyla (15–20, 25–27, 37–40) birebir aynı. (Kullanıcı bu oturumu "4. çalıştırma"
+  diye tanımlamıştı; AC3/AC4 oturumlarındaki aynı kayma sürüyor, promptun "sıradaki
+  bitmemiş paketi yap" kuralı uygulandı.)
+- Üretilen dosyalar:
+  - `content/reading/tests/GT1/note-completion.json` — soru 15–20, pasaj **G03** (2. bölüm)
+  - `content/reading/tests/GT1/sentence-completion.json` — soru 25–27, pasaj **G03**
+  - `content/reading/tests/GT1/summary-completion.json` — soru 37–40, pasaj **G05** (3. bölüm)
+- **Seçilen alt tipler ve gerekçe:**
+  - 15–20 için **not tamamlama**. AC4 notundaki öneriye uyuldu (GT'de bu aralıkta yalnız
+    not/tablo olabiliyor; **GT2'de tablo tamamlama kullanılırsa iki tip de görülmüş olur**).
+    G03 bir personel el kitabı: vardiya, mola, giriş çıkış, izin, mesai başlıkları
+    *paralel karşılaştırma* değil *ayrı ayrı kurallar* olduğu için tablo zorlamaydı;
+    başlıklı madde listesi metnin kendi düzenine oturuyor. Cevaplar A metninin A–B–C–D
+    paragraflarına ve B metninin A–B paragraflarına yayıldı, sıra korundu.
+  - 25–27 **cümle tamamlama**, `NO MORE THAN TWO WORDS`, yine G03 (plan 2. bölümü şart
+    koşuyor). Çakışmayı önlemek için **iş bölümü yapıldı:** notlar A metninin tamamını +
+    B metninin izin hakkı/talebi kısmını, cümleler B metninin aralık onayı, mesai ücreti
+    ve ayrılışta ödeme kısımlarını hedefliyor. Aynı cümleden iki soru çıkarılmadı.
+  - 37–40 için özet tamamlamanın **metinden kelime seçme** alt tipi (`word_bank: null`),
+    `ONE WORD ONLY`. GT tarafında henüz alt tip kullanılmamıştı; **GT2'de listeden seçme
+    yapılırsa GT dengesi de 1–1 olur** (Academic zaten 2–2). Özet G05'in E–I paragraflarını
+    kapsıyor, yani FABLE5-42'nin başlık eşleştirmesi ve FABLE5-40'ın YES/NO/NG'si için
+    A–D paragrafları serbest kalıyor.
+- Kelime sınırları: 15–20 `NO MORE THAN THREE WORDS AND/OR A NUMBER` (`28 days` sayı
+  içerdiği için bu kalıp seçildi; en uzun cevap iki kelime), 25–27 `NO MORE THAN TWO WORDS`
+  (hepsi tam iki kelime), 37–40 `ONE WORD ONLY` (hepsi tek kelime). Bütün cevaplar sınıra
+  uyuyor. `shift-swap form` tireli olduğu için iki kelime sayılıyor.
+- Elenen soru: yok. **Vazgeçilen cevap adayları:** G03'te `four weeks` (hem vardiya
+  döngüsünde hem uzun izin ihbarında geçiyor — benzersizlik kuralı), `eleven hours`
+  (metinde `eleven hours' rest` biçiminde, kesme işareti yüzünden cevap sınırı tartışmalı
+  olurdu), `time off in lieu` (dört kelime, sınırı aşıyor), `staff office` (soru kökünde
+  ipucu olarak zaten verildi). G05'te `rice` (çok geçiyor), `income` (D'de iki kez),
+  `inedible` (C ve E), `compost/composted` (F ve H'de üç geçiş) elendi; yerlerine tek
+  geçişli `peelings`, `refrigerator`, `convenience`, `prevention` seçildi.
+- Doğrulama: geçici denetim scriptiyle (`tools/_gt1_kontrol.py`, sonra silindi) üç dosya
+  için JSON geçerliliği, numara aralığı (15–20 / 25–27 / 37–40), `evidence`in pasajda
+  **birebir** geçişi, cevabın pasajdaki geçiş sayısı (**hepsi tam 1**), sıra kuralı
+  (cevabın kendi konumuna göre), kelime sınırı, cevap tekrarı, soru kökü ile pasaj
+  arasında 6+ kelimelik birebir örtüşme olmaması, `explanation`ların Türkçe olması,
+  `stem_block` boşluk numaralarının soru numaralarıyla eşleşmesi, zorluk çeşitliliği,
+  zarf alanlarının tamlığı ve "IELTS" geçmemesi denetlendi. **İlk turda hata 0.**
+  Ardından `python tools/dogrula.py`: **şema hatası 0**, okuma sorusu 73 (60 + GT1'in 13'ü),
+  pasaj lisansı eksik 0, görünür metinde IELTS 0, yasak kaynak 0.
+- G03'ün iç yapısı yüzünden `evidence_locator`a **`text` alanı eklendi** — yani
+  text: A, paragraph: C, sentence: 1 biçiminde: G03 iki ayrı el kitabı metninden oluşuyor
+  ve her metnin kendi içinde A–D paragrafları var, tek başına paragraf harfi belirsiz
+  kalıyordu. **GT2'de G04 için de aynı düzen kullanılmalı.** G05 tek parça olduğu için
+  orada eski biçim (`paragraph` + `sentence`) korundu.
+- Referans PDF'leri: `referans/text/` klasörü bu oturumda da yoktu. Yönerge kalıpları
+  prompt dosyasındaki üç kalıptan ve AC1–AC4'ün yerleşik biçiminden alındı.
+- Atlanan/sorun: yok. **OPUS5-10'da 10 paketten 5'i tamam;** kalan 5 paket GT2 ve 4
+  alıştırma paketi (7, 8, 9, 10 — 7. paket iki dosya). `content/reading/practice/` hâlâ boş.

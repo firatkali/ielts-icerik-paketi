@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0",
+  "set_id": "GT1-summary-completion",
+  "skill": "reading",
+  "module": "general",
+  "test_id": "GT1",
+  "practice": false,
+  "passage_id": "G05",
+  "question_type": "summary_completion",
+  "generated_by": "opus",
+  "instructions": "Complete the summary below. Choose ONE WORD ONLY from the passage for each answer.",
+  "word_limit": "ONE WORD ONLY",
+  "word_bank": null,
+  "visual": null,
+  "stem_block": "What was thrown out, and why\n\nCereals, and rice above all, made up the largest slice of the edible waste, with vegetables not far behind, while the biggest inedible category by some way was (37) ........ from fruit and vegetables, chiefly the skins of bananas and mangoes. Drinks added a little more: modest quantities of coffee and tea went down the sink, usually because more had been brewed than anyone meant to finish. Asked to account for their losses, families in the two districts said much the same things — food going mouldy, a change in the feel of meat or fish, and bread that keeps for too short a time. Dairy items, meanwhile, were regularly overlooked at the back of the (38) ........ and only thrown out once it was too late. Country households still wasted far less, since leftovers there were more often turned into compost or given to animals; town households leaned instead towards (39) ........ and bought more than they required. For the authors, the lesson is that policy has so far dealt with collecting and disposing of waste rather than its (40) ........ , and that campaigns need to name the particular foods concerned.",
+  "items": [
+    {
+      "number": 37,
+      "prompt": "The biggest inedible category by some way was (37) ........ from fruit and vegetables, chiefly the skins of bananas and mangoes.",
+      "answer": ["peelings"],
+      "accepted_variants": ["peelings"],
+      "evidence": "Among inedible waste, fruit and vegetable peelings, dominated by banana and mango skins, made up the largest category by far.",
+      "evidence_locator": { "paragraph": "E", "sentence": 3 },
+      "explanation": "Paragraf E, yenmeyen atık içinde en büyük payı muz ve mango kabuklarının başı çektiği meyve sebze kabuklarının aldığını söylüyor; bu yüzden cevap 'peelings'.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 38,
+      "prompt": "Dairy items, meanwhile, were regularly overlooked at the back of the (38) ........ and only thrown out once it was too late.",
+      "answer": ["refrigerator"],
+      "accepted_variants": ["refrigerator"],
+      "evidence": "Dairy products were frequently forgotten at the back of the refrigerator until they had to be discarded.",
+      "evidence_locator": { "paragraph": "G", "sentence": 4 },
+      "explanation": "Paragraf G, süt ürünlerinin sık sık buzdolabının arka tarafında unutulup atılmak zorunda kalındığını söylüyor; bu yüzden cevap 'refrigerator'.",
+      "difficulty": "easy"
+    },
+    {
+      "number": 39,
+      "prompt": "Town households leaned instead towards (39) ........ and bought more than they required.",
+      "answer": ["convenience"],
+      "accepted_variants": ["convenience"],
+      "evidence": "Urban residents, by contrast, tended to favour convenience and were more prone to buying more than they needed, a pattern the researchers connect to busier schedules and greater purchasing power rather than carelessness.",
+      "evidence_locator": { "paragraph": "H", "sentence": 3 },
+      "explanation": "Paragraf H, kentte yaşayanların kolaylığı öne aldığını ve ihtiyaçtan fazlasını satın almaya daha yatkın olduğunu söylüyor; bu yüzden cevap 'convenience'.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 40,
+      "prompt": "For the authors, the lesson is that policy has so far dealt with collecting and disposing of waste rather than its (40) ........ , and that campaigns need to name the particular foods concerned.",
+      "answer": ["prevention"],
+      "accepted_variants": ["prevention"],
+      "evidence": "The authors argue that food waste policy in Indonesia, as in many countries, has focused on collection and disposal rather than prevention, and that meaningful reductions will depend on tackling the specific items and behaviours identified in the study, rather than treating food waste as a single undifferentiated problem.",
+      "evidence_locator": { "paragraph": "I", "sentence": 1 },
+      "explanation": "Paragraf I, gıda atığı politikasının bugüne dek toplama ve bertarafa odaklandığını, önlemeyi ise ihmal ettiğini söylüyor; bu yüzden cevap 'prevention'.",
+      "difficulty": "hard"
+    }
+  ]
+}
