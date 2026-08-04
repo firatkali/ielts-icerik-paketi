@@ -1,0 +1,424 @@
+{
+  "schema_version": "1.0",
+  "script_id": "L2-S4",
+  "skill": "listening",
+  "test_id": "L2",
+  "section": 4,
+  "generated_by": "opus",
+  "setting": "Eski cag su sistemleri uzerine akademik ders",
+  "context_line": "You will hear part of a lecture about how water was moved and stored before modern pumps.",
+  "word_count": 943,
+  "estimated_minutes": 6.3,
+  "turn_index_base": 0,
+  "speakers": [
+    {
+      "code": "M1",
+      "role": "ogretim uyesi",
+      "gender": "male",
+      "accent": "en-AU",
+      "voice": "en-AU",
+      "age_band": "45-60",
+      "pace": "normal, sayilarda yavas"
+    }
+  ],
+  "turns": [
+    {
+      "speaker": "M1",
+      "text": "Good morning. Today we move from geography to engineering. How did people move water, and store it, with no fuel, no pumps and no pipes as we would understand the word? Three answers: the underground channel, the rock-cut cistern and the stepped well. Then the question that interests me most, which is how any of them were kept working."
+    },
+    {
+      "speaker": "M1",
+      "text": "Start with the underground channel. You find water where a slope meets a plain, where rain that fell on high ground sits in gravel below the surface, and you sink a well down to it. Then, from out on the plain, you dig a tunnel back towards that well, rising very slightly as it goes. When the tunnel reaches the water, the water runs out along it to the surface, and it keeps running for as long as the water table holds up."
+    },
+    {
+      "speaker": "M1",
+      "text": "Everything depends on the gradient of that tunnel, and the figure is worth remembering: about one in a thousand. You will sometimes see one in a hundred quoted, and I quoted it myself here two years ago; that figure belongs to the access shafts, not to the channel. A channel at one in a hundred moves water quickly enough to cut into its own floor, and the roof comes down. Too flat, and silt settles instead of travelling, and the channel blocks."
+    },
+    {
+      "speaker": "M1",
+      "text": "Which brings me to the shafts. Along the line of the tunnel, vertical shafts were sunk every twenty to thirty metres. They let the diggers lift out the spoil, they ventilate a tunnel barely a metre wide, and, the one that matters most, they give access for maintenance for as long as the system is in use. Most channels run for a few kilometres; the longest recorded is over seventy. You will still read that the technique is five thousand years old. The securely dated examples are closer to three thousand."
+    },
+    {
+      "speaker": "M1",
+      "text": "Two advantages are usually claimed, and both stand up. The first is that water arrives by gravity, so the running cost of the system is labour rather than energy. The second is evaporation. I have seen it written that an open canal crossing a hot plain loses half of what enters it; the field measurements support something nearer a third. Losses from an underground channel are under five per cent."
+    },
+    {
+      "speaker": "M1",
+      "text": "The limitations are just as real. A channel of this kind cannot be turned off. It delivers whatever the aquifer will give, day and night, whether the fields need it or not, which is why almost every system of this type ends in a holding pond. And it is only ever as good as the water table beneath it: drop that table with a modern borehole, and a tunnel that has run for eight hundred years is dry within a season."
+    },
+    {
+      "speaker": "M1",
+      "text": "The second technology is the cistern. Where there is no aquifer to tap, you catch what falls: roofs and courtyards were shaped so that rain ran into a chamber cut in rock. Two details matter, and the first is the lining. To make a rough chamber hold water at all, builders plastered it with lime mixed with crushed pottery. I have said lime plaster in the past, as though the lime did all the work; the analyses suggest it is the crushed pottery that makes the lining flexible enough not to craze when the rock moves."
+    },
+    {
+      "speaker": "M1",
+      "text": "The second detail: the good systems do not send the first rain into the tank at all. A small settling basin took the dust and the droppings off the roof, and only when that basin was full did the water spill over into the cistern."
+    },
+    {
+      "speaker": "M1",
+      "text": "A household chamber four metres by three and three deep holds enough to carry a family and a few animals through five or six rainless months, provided it is not shared. The limitation of a cistern is arithmetical rather than structural. Rain that does not fall cannot be caught."
+    },
+    {
+      "speaker": "M1",
+      "text": "Third, the stepped well. Flights of stairs descend around a shaft, so that whatever the level of the water in a given season, there is a step at the waterline. Some are five storeys deep. And they were not only water sources; the lowest chambers stay about ten degrees cooler than the surface in high summer."
+    },
+    {
+      "speaker": "M1",
+      "text": "So, maintenance. Every one of these technologies fails without regular, dull, unglamorous work. The channels had to be cleared of silt on a cycle of a few years, the cisterns emptied and swept before the rains, the steps repaired after every flood. Who did it, and why?"
+    },
+    {
+      "speaker": "M1",
+      "text": "In most documented cases the answer is the users themselves, and the reason lies in how ownership was arranged. Water from a shared channel was not sold by volume; nobody could measure volume. It was owned as time. A household held a share expressed as, say, one hour of the flow every twelve days. You will see ten days in the older literature, but the documents from the region I work on give twelve. Your hour was worth nothing if the channel was blocked, and so the duty to send a man to the clearing works came attached to the share itself."
+    },
+    {
+      "speaker": "M1",
+      "text": "When these systems failed in the last century, they mostly did not fail because somebody invented a better pump. They failed when the link between using the water and maintaining the channel was broken, when the share stopped carrying the obligation with it."
+    },
+    {
+      "speaker": "M1",
+      "text": "For next week, read the chapter on rainwater harvesting in the module reader, and come with one example of a system of this kind still in use somewhere today. Not one from the reader: find your own. Thank you."
+    }
+  ],
+  "answer_points": [
+    {
+      "id": "L2-S4-01",
+      "kind": "number",
+      "value": "one in a thousand",
+      "quote": "the figure is worth remembering: about one in a thousand",
+      "turn_index": 2,
+      "speaker": "M1",
+      "distractor": "one in a hundred",
+      "suggested_types": [
+        "note_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L2-S4-02",
+      "kind": "reason",
+      "value": "too steep a channel erodes its own floor and collapses",
+      "quote": "moves water quickly enough to cut into its own floor, and the roof comes down",
+      "turn_index": 2,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "note_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L2-S4-03",
+      "kind": "reason",
+      "value": "too flat and silt settles, blocking the channel",
+      "quote": "silt settles instead of travelling, and the channel blocks",
+      "turn_index": 2,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "note_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L2-S4-04",
+      "kind": "number",
+      "value": "every 20 to 30 metres",
+      "quote": "vertical shafts were sunk every twenty to thirty metres",
+      "turn_index": 3,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "note_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L2-S4-05",
+      "kind": "advantage",
+      "value": "the shafts allow maintenance",
+      "quote": "they give access for maintenance for as long as the system is in use",
+      "turn_index": 3,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "note_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L2-S4-06",
+      "kind": "number",
+      "value": "over 70 kilometres",
+      "quote": "the longest recorded is over seventy",
+      "turn_index": 3,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "note_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L2-S4-07",
+      "kind": "date",
+      "value": "about 3,000 years old",
+      "quote": "The securely dated examples are closer to three thousand",
+      "turn_index": 3,
+      "speaker": "M1",
+      "distractor": "5,000 years old",
+      "suggested_types": [
+        "note_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L2-S4-08",
+      "kind": "advantage",
+      "value": "running cost is labour, not energy",
+      "quote": "the running cost of the system is labour rather than energy",
+      "turn_index": 4,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "summary_completion",
+        "sentence_completion"
+      ]
+    },
+    {
+      "id": "L2-S4-09",
+      "kind": "number",
+      "value": "about a third lost from an open canal",
+      "quote": "the field measurements support something nearer a third",
+      "turn_index": 4,
+      "speaker": "M1",
+      "distractor": "half",
+      "suggested_types": [
+        "note_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L2-S4-10",
+      "kind": "number",
+      "value": "under 5 per cent",
+      "quote": "Losses from an underground channel are under five per cent",
+      "turn_index": 4,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "note_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L2-S4-11",
+      "kind": "limitation",
+      "value": "the flow cannot be switched off",
+      "quote": "A channel of this kind cannot be turned off.",
+      "turn_index": 5,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "summary_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L2-S4-12",
+      "kind": "object",
+      "value": "a holding pond",
+      "quote": "almost every system of this type ends in a holding pond",
+      "turn_index": 5,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "note_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L2-S4-13",
+      "kind": "limitation",
+      "value": "it depends on the water table",
+      "quote": "it is only ever as good as the water table beneath it",
+      "turn_index": 5,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "summary_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L2-S4-14",
+      "kind": "object",
+      "value": "lime mixed with crushed pottery",
+      "quote": "builders plastered it with lime mixed with crushed pottery",
+      "turn_index": 6,
+      "speaker": "M1",
+      "distractor": "lime plaster alone",
+      "suggested_types": [
+        "note_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L2-S4-15",
+      "kind": "reason",
+      "value": "crushed pottery keeps the lining from cracking",
+      "quote": "it is the crushed pottery that makes the lining flexible enough not to craze",
+      "turn_index": 6,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "summary_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L2-S4-16",
+      "kind": "object",
+      "value": "a settling basin",
+      "quote": "A small settling basin took the dust and the droppings off the roof",
+      "turn_index": 7,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "flow_chart_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L2-S4-17",
+      "kind": "duration",
+      "value": "5 or 6 rainless months",
+      "quote": "holds enough to carry a family and a few animals through five or six rainless months",
+      "turn_index": 8,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "note_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L2-S4-18",
+      "kind": "limitation",
+      "value": "rain that does not fall cannot be caught",
+      "quote": "Rain that does not fall cannot be caught",
+      "turn_index": 8,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "summary_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L2-S4-19",
+      "kind": "number",
+      "value": "five storeys deep",
+      "quote": "Some are five storeys deep.",
+      "turn_index": 9,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "note_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L2-S4-20",
+      "kind": "advantage",
+      "value": "about ten degrees cooler than the surface",
+      "quote": "stay about ten degrees cooler than the surface in high summer",
+      "turn_index": 9,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "note_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L2-S4-21",
+      "kind": "duration",
+      "value": "cleared every few years",
+      "quote": "cleared of silt on a cycle of a few years",
+      "turn_index": 10,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "flow_chart_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L2-S4-22",
+      "kind": "rule",
+      "value": "water was owned as time, not volume",
+      "quote": "It was owned as time.",
+      "turn_index": 11,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "summary_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L2-S4-23",
+      "kind": "duration",
+      "value": "one hour every twelve days",
+      "quote": "one hour of the flow every twelve days",
+      "turn_index": 11,
+      "speaker": "M1",
+      "distractor": "every ten days",
+      "suggested_types": [
+        "note_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L2-S4-24",
+      "kind": "reason",
+      "value": "the duty to maintain came with the share",
+      "quote": "the duty to send a man to the clearing works came attached to the share itself",
+      "turn_index": 11,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "summary_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L2-S4-25",
+      "kind": "reason",
+      "value": "systems failed when share and obligation were separated",
+      "quote": "when the share stopped carrying the obligation with it",
+      "turn_index": 12,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "summary_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L2-S4-26",
+      "kind": "object",
+      "value": "one example still in use today",
+      "quote": "come with one example of a system of this kind still in use somewhere today",
+      "turn_index": 13,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "short_answer",
+        "note_completion"
+      ]
+    }
+  ],
+  "spatial_description": null,
+  "notes": "turn_index degerleri 0 tabanlidir. Bes celdirici duzeltme var: egim (yuzde bir -> binde bir), yas (bes bin -> uc bin yil), acik kanal kaybi (yari -> yaklasik ucte bir), siva (saf kirec -> kirec + ogutulmus comlek), su siras dongusu (on gun -> on iki gun). 4. bolum aksani L2 icin en-AU (dongu: L1 en-GB, L2 en-AU, L3 en-CA...)."
+}

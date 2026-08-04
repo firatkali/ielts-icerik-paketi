@@ -1147,3 +1147,109 @@ Bu dosyaya her oturumda alınan kararlar, atlanan işler ve karşılaşılan sor
   ilanı, quilt shop turu, öğrenci sebatı anketi, tez görüşmesi ve moda şirketi sunumu
   konularının hiçbiri kullanılmadı).
 - Atlanan/sorun: yok. **OPUS5-20'de 6 testten 1'i tamam;** kalan L2, L3, L4, L5, L6.
+
+## OPUS5-20 (2. çalıştırma: L2 — dört bölümün senaryo metni)
+
+- Tarih: 2026-08-04
+- Depo kontrolü: `content/listening/scripts/` altında yalnız `L1-S1…S4` vardı → çalıştırma
+  listesindeki ilk üretilmemiş grup **L2** idi, o yapıldı. Bu oturumda da **soru
+  üretilmedi** (promptun kuralı); 40 soru sonradan `OPUS5-21` ve `FABLE5-43` tarafından bu
+  metinlerden çıkarılacak.
+- Üretilen dosyalar: `content/listening/scripts/L2-S1.json` … `L2-S4.json`.
+
+### L2 — konu, aksan, kelime sayısı (sonraki testlerde TEKRAR EDİLMEYECEK)
+
+| Bölüm | Konu (havuzdaki karşılığı) | Ortam | Aksanlar | Kelime | Bilgi noktası | Çeldirici |
+|---|---|---|---|---|---|---|
+| 1 | **taşınma şirketi** — telefonla fiyat alma ve tarih ayırtma | 2 kişi | M1 `en-GB` + F1 `en-AU` | 841 | 25 | 7 |
+| 2 | **kütüphane yenilemesi** — Marlbrook kütüphanesi yeniden açılış konuşması | 1 kişi | F1 `en-GB` | 865 | 25 | 7 |
+| 3 | **saha araştırması raporu** — dere üzerinde su kalitesi/omurgasız sayımı | 3 kişi | M1 `en-GB` + F1 `en-CA` + M2 `en-AU` | 946 | 23 | 7 |
+| 4 | **antik su sistemleri** — akademik ders | 1 kişi | M1 `en-AU` | 943 | 26 | 5 |
+
+  ⚠️ **L3–L6 için:** L1'in konuları (yaz kampı kaydı · yeni bir müze · grup sunumu
+  planlama · kentsel tarım) ve yukarıdaki dört konu bir daha kullanılmayacak. Havuzda kalan:
+  1. bölüm — araç kiralama, spor salonu üyeliği, konaklama başvurusu, kayıp eşya bildirimi,
+  sağlık merkezi randevusu, bisiklet turu rezervasyonu; 2. bölüm — toplum bahçesi projesi,
+  gönüllü programı, yerel çiftlik pazarı, doğa yürüyüşü rotaları, geri dönüşüm merkezi,
+  festival programı; 3. bölüm — staj değerlendirmesi, tez konusu seçimi, laboratuvar deneyi
+  sonucu, anket tasarımı, kaynak taraması, poster hazırlığı; 4. bölüm — uyku ve hafıza,
+  deniz plastikleri, davranışsal ekonomi, gürültü kirliliği, tohum bankaları, yapay ışık ve
+  doğa. 4. bölüm aksanı döngüsü: L3 `en-CA`, L4 `en-GB`, L5 `en-AU`, L6 `en-CA`.
+- **Şema:** L1'de kararlaştırılan düzen aynen sürdürüldü — `turn_index_base: 0`, her
+  `answer_points` kaydında ek `speaker` alanı, `speakers[]` içinde hem `accent` hem `voice`
+  (değerleri birebir aynı). 1. bölümde konuşmacı rolleri L1'e göre ters çevrildi (bu kez
+  görevli `en-GB` erkek, müşteri `en-AU` kadın), 3. bölümde de aksan–cinsiyet eşlemesi
+  değiştirildi (öğrenciler M1 `en-GB` / F1 `en-CA`, danışman M2 `en-AU`) — seslendirmede
+  altı testin hep aynı ses dizilimiyle çıkmaması için.
+- **Çeldirici (distractor) düzeltmeleri** — bölüm başına en az 3 şartı fazlasıyla karşılandı:
+  - S1 (7): adres (Selby Lane → Weir Street), ev tipi (daire → üç yatak odalı ev), tarih
+    (3 Ekim Cumartesi → 2 Ekim Cuma), keşif randevusu (Salı 10.30 → Salı 11.00), ambalaj
+    (battaniye → ahşap sandık), süre (beş saat → altı saat), ödeme (telefonda kart →
+    e-postayla ödeme bağlantısı).
+  - S2 (7): kapalı kalma süresi (bir yıl → on sekiz ay), ısıtma (gaz kazanı → ısı pompası),
+    geç açılış günü (Çarşamba → Perşembe), kimlik (iki belge → adres yazan tek belge),
+    ödünç sınırı (on iki → on beş), kahve köşesinin yeri (çalışma odasının yanı → tam
+    karşısı), okuma grubu (ayın ilk Salısı → ikinci Salısı).
+  - S3 (7): alan sayısı (altı → beş), ikinci ziyaret (dört hafta sonra → temmuz ortası),
+    tayin düzeyi (tür → familya), oksijen ölçümü (metre → kimyasal test kiti), en temiz
+    nokta (ormandaki üst nokta → bostanların arkası), kelime sınırı (üç bin → iki bin beş
+    yüz), teslim tarihi (on iki → on dokuz).
+  - S4 (5): eğim (yüzde bir → binde bir), yaş (beş bin → üç bin yıl), açık kanal kaybı
+    (yarısı → yaklaşık üçte bir), sıva (saf kireç → kireç + öğütülmüş çömlek), su sırası
+    döngüsü (on gün → on iki gün).
+- **S2 `spatial_description`:** 12 öğeli zemin kat + birinci kat planı (main entrance,
+  returns machine, enquiry desk, newspaper and magazine area, children's library, meeting
+  room, lift, computer suite, quiet study room, local history room, coffee point, garden),
+  tarif 5–8. repliklerde, `on your left` · `straight ahead` · `opposite` · `between … and …` ·
+  `at the far end` · `behind` · `at the top of the stairs` · `next to` yön belirteçleriyle.
+  Kahve köşesinin yeri bilinçli olarak önce yanlış söylenip düzeltiliyor (plan sorusu için
+  hazır çeldirici).
+- **S3 görüş ayrımı:** Rhys (M1) raporun **alan alan** düzenlenmesini istiyor ve çalışmanın
+  zayıflığını **örneklem sayısına** bağlıyor; Marisol (F1) **değişken değişken** düzenlemeyi
+  savunuyor ve zayıflığı **hep yağmurdan sonra örnekleme yapılmış olmasına** bağlıyor;
+  danışman (M2) değişken düzenini seçiyor ama başa alanları tanıtan bir sayfa koyduruyor ve
+  iki sınırlamayı da yazdırıyor (Marisol'ünki önce). Ek ayrılık: ham verinin tamamı eke
+  konsun (Marisol) ↔ metinde özet tablo yeter (Rhys); danışman eki seçiyor. Üç görüş sahibi
+  de `answer_points` içinde `kind: opinion` ile işaretli (toplam 6 görüş kaydı).
+- **Doğrulama:** L1'deki iki betikli düzen tekrarlandı, ikisi de iş bitince silindi.
+  - `tools/_l2_uret.py` (üretici): `turn_index` değerlerini elle yazmak yerine her `quote`u
+    repliklerde arayarak hesapladı; alıntı hiç geçmiyorsa ya da birden çok replikte
+    geçiyorsa üretimi durdurdu. Kelime sayısı ve `estimated_minutes` (kelime/150) burada
+    hesaplandı.
+  - `tools/_l2_kontrol.py` (denetleyici): JSON geçerliliği, zorunlu alanlar, kimlik
+    tutarlılığı, gerçek kelime sayısının aralıkta olması ve `word_count` ile uyuşması,
+    konuşmacı kodlarının tanımlı **ve hepsinin kullanılmış** olması, `accent`/`voice`
+    eşitliği, aksan dağılımının tablodaki gibi olması, `answer_points` sayısı (≥15),
+    `distractor` sayısı (≥3), id tekrarı, her alıntının kendi repliğinde birebir ve metnin
+    tamamında **tek** geçmesi, `speaker` alanının replikle uyuşması, `kind` değerlerinin
+    izinli listede olması, bilgi noktalarının metne yayılması (her çeyrekte en az 2), S2'de
+    plan öğesi sayısı + yön belirteçleri + her etiketin metinde geçmesi, S3'te en az iki
+    konuşmacıdan ayrı görüş, S1'de harf harf söyleme, "IELTS" geçmemesi, Amerikan yazımı
+    taraması ve metinde rakam bulunmaması. **İlk turda tek uyarı çıktı ve o da yanlış
+    alarmdı:** Amerikan yazımı taraması `liter` dizisini "older li*ter*ature" içinde
+    yakalıyordu; tarama kelime sınırlı düzenli ifadeye çevrildi, ardından **hata 0**.
+  - İlk taslakta dört bölümün de kelime sayısı hedefin üstündeydi (869 / 967 / 1012 / 1334);
+    bilgi noktası taşımayan süs cümleleri budanarak aralığa çekildi (841 / 865 / 946 / 943).
+    En büyük budama 4. bölümdeydi: ders üç teknolojiyi (yeraltı kanalı, sarnıç, basamaklı
+    kuyu) koruyarak yaklaşık üçte bir oranında sıkıştırıldı, hiçbir `answer_point` elenmedi.
+  - Ardından `python tools/dogrula.py`: **şema hatası 0**, pasaj lisansı eksik 0, görünür
+    metinde IELTS 0, yasak kaynak 0. ("L2 0/40 EKSIK" satırı beklenen durumdur.)
+- **Yazım/telif kararları:** İngiliz İngilizcesi — metinde geçen ayırt edici biçimler
+  `metres`, `kilometres`, `storeys`, `neighbour`, `enquiry`, `organise`, `café`; denetim
+  betiği ayrıca Amerikan karşılıklarını (`center`, `program`, `analyze`, `liters`, `toward`,
+  `license` vb.) kelime sınırlı düzenli ifadeyle taradı, hiçbiri geçmiyor. Metinde **hiç rakam yok**;
+  sayılar konuşulduğu gibi yazıldı (`nineteen oh six`, `oh seven six three three, double
+  four one, nine oh two`, `two thousand five hundred`, `one in a thousand`). 1. bölümde harf
+  harf söyleme bir kez var (`Haugland — H-A-U-G-L-A-N-D`). Bütün kişi/kurum/yer adları
+  uydurma (Hartfield Removals, Petra Haugland, Selby Court, Weir Street, Ashcombe, Marlbrook,
+  Grange Road, Rhys, Marisol). 4. bölümde **hiçbir gerçek yer, halk ya da arkeolojik alan
+  adı anılmadı** — teknolojiler jenerik olarak ("yamacın eteği", "kurak bir ova") anlatıldı;
+  din, siyaset, savaş, hastalık, kişisel dram yok.
+- **Referans PDF'leri:** beş dinleme transkripti (`note-completion`, `table-completion`,
+  `plan-map-diagram-labelling`, `multiple-choice-one-answer`, `short-answer`) bu oturumda da
+  `Read` ile doğrudan açıldı (L1 notundaki düzeltme doğrulandı); `ielts-listening-sample-
+  tasks-2023.pdf` yine render gerektirdiği için açılamadı. Transkriptlerden yalnız konuşma
+  ritmi, duraksama ve bilgi verme hızı alındı; **tek bir replik kopyalanmadı**, sahne/isim/
+  senaryo taklit edilmedi (referanslardaki ikinci el mobilya ilanı, quilt shop turu, öğrenci
+  sebatı anketi, tez görüşmesi ve moda şirketi sunumu konularının hiçbiri kullanılmadı).
+- Atlanan/sorun: yok. **OPUS5-20'de 6 testten 2'si tamam;** kalan L3, L4, L5, L6.

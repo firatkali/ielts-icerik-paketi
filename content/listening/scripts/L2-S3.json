@@ -1,0 +1,519 @@
+{
+  "schema_version": "1.0",
+  "script_id": "L2-S3",
+  "skill": "listening",
+  "test_id": "L2",
+  "section": 3,
+  "generated_by": "opus",
+  "setting": "Iki ogrencinin danismanlariyla dere uzerinde yaptiklari saha arastirmasi raporunu gorusmesi",
+  "context_line": "You will hear two students discussing their field research report with their tutor.",
+  "word_count": 946,
+  "estimated_minutes": 6.3,
+  "turn_index_base": 0,
+  "speakers": [
+    {
+      "code": "M2",
+      "role": "modul danismani",
+      "gender": "male",
+      "accent": "en-AU",
+      "voice": "en-AU",
+      "age_band": "45-60",
+      "pace": "normal, aciklamalarda yavas"
+    },
+    {
+      "code": "M1",
+      "role": "ogrenci (Rhys)",
+      "gender": "male",
+      "accent": "en-GB",
+      "voice": "en-GB",
+      "age_band": "20-25",
+      "pace": "normal"
+    },
+    {
+      "code": "F1",
+      "role": "ogrenci (Marisol)",
+      "gender": "female",
+      "accent": "en-CA",
+      "voice": "en-CA",
+      "age_band": "20-25",
+      "pace": "normal, hafif hizli"
+    }
+  ],
+  "turns": [
+    {
+      "speaker": "M2",
+      "text": "Right, come in, both of you. So — the brook survey. Tell me how the fieldwork actually went."
+    },
+    {
+      "speaker": "M1",
+      "text": "Better than we expected, on the whole. We got round five of the sites."
+    },
+    {
+      "speaker": "M2",
+      "text": "Five? Your proposal said six."
+    },
+    {
+      "speaker": "M1",
+      "text": "It did. The one we lost was the stretch below the weir. The footbridge you have to cross to reach it has been fenced off since the winter storms, and there's no other way in without wading."
+    },
+    {
+      "speaker": "F1",
+      "text": "We did consider wading, and then thought better of it. That's the deepest part of the whole brook, and we were on our own."
+    },
+    {
+      "speaker": "M2",
+      "text": "Quite right too. Five is plenty, as long as the method section says why it's five rather than pretending six was never the plan. Now — dates."
+    },
+    {
+      "speaker": "F1",
+      "text": "We sampled twice at each site. The first round was the last week of May. The second was supposed to be four weeks after that, but it slipped to the middle of July, because the brook was in flood for most of June."
+    },
+    {
+      "speaker": "M2",
+      "text": "That gap is worth a sentence of its own, because it changes what you're allowed to compare."
+    },
+    {
+      "speaker": "M1",
+      "text": "That's roughly what we argued about on the walk back to the car."
+    },
+    {
+      "speaker": "M2",
+      "text": "Go on, then. I like an argument."
+    },
+    {
+      "speaker": "M1",
+      "text": "I think the report should be organised site by site. Five sections, one for each place, with everything we measured in it. That's the order we collected it in, and the reader can picture the brook running down the valley as they read."
+    },
+    {
+      "speaker": "F1",
+      "text": "And I think that hides the pattern completely. If you go site by site, the reader has to hold five sets of numbers in their head before they notice that oxygen fell everywhere in July. I'd organise it by variable — one section on oxygen, one on flow, one on the invertebrates — with the sites as columns inside each section."
+    },
+    {
+      "speaker": "M2",
+      "text": "You're each right about something. Marisol's structure shows the trend, and the trend is what the marking criteria reward. Rhys's is easier to write. Do it by variable, but open with a single page describing the five sites, so the reader has the geography before the numbers start."
+    },
+    {
+      "speaker": "M1",
+      "text": "I can live with that."
+    },
+    {
+      "speaker": "M2",
+      "text": "Good. Methods. Invertebrates first."
+    },
+    {
+      "speaker": "F1",
+      "text": "Kick sampling. Three minutes with the net at each site, and always the same person doing the kicking, so that the effort was consistent. That was Rhys."
+    },
+    {
+      "speaker": "M1",
+      "text": "And we identified to family level rather than to species, which is what the standard scoring system uses anyway. Species would have taken us until Christmas."
+    },
+    {
+      "speaker": "M2",
+      "text": "Sensible. And the physical measurements?"
+    },
+    {
+      "speaker": "M1",
+      "text": "Flow we did with a float over a ten-metre stretch, timed three times and averaged. Depth and width we took every metre across the channel."
+    },
+    {
+      "speaker": "F1",
+      "text": "Oxygen was where it went wrong. The meter wouldn't calibrate on the first morning — the buffer solution was out of date — so for that whole visit we fell back on the chemical test kit."
+    },
+    {
+      "speaker": "M2",
+      "text": "And in July?"
+    },
+    {
+      "speaker": "F1",
+      "text": "The meter, with a fresh solution."
+    },
+    {
+      "speaker": "M2",
+      "text": "Then say so plainly, and whatever you do, don't put the two sets of readings on the same line of the same graph without a note. Different method, different error."
+    },
+    {
+      "speaker": "M1",
+      "text": "We've drawn them as two separate lines already."
+    },
+    {
+      "speaker": "M2",
+      "text": "Good. So what did you find?"
+    },
+    {
+      "speaker": "M1",
+      "text": "The headline is that the cleanest water wasn't where we assumed it would be. We'd expected the top site, up in the woods, to score highest. In fact the best score came from the stretch behind the allotments, which has heavy shade and a gravel bed."
+    },
+    {
+      "speaker": "F1",
+      "text": "And the worst was the site by the car park, where the bed is more or less silt. We found eleven families there, against twenty-three at the allotments."
+    },
+    {
+      "speaker": "M2",
+      "text": "A contrast like that is your report, really. Now — limitations. What do you think is the weakest part of the study?"
+    },
+    {
+      "speaker": "M1",
+      "text": "The sample size. Two visits to five sites is ten samples in total. That isn't much to build an argument on."
+    },
+    {
+      "speaker": "F1",
+      "text": "I'd point at something else. Both our visits came within a few days of heavy rain, so everything we measured describes the brook in one condition. If we'd sampled in a dry spell, the picture might have been completely different."
+    },
+    {
+      "speaker": "M2",
+      "text": "Put both in, but put Marisol's first. An examiner will notice the weather before they think to count your samples."
+    },
+    {
+      "speaker": "M1",
+      "text": "What do we do with the raw data?"
+    },
+    {
+      "speaker": "F1",
+      "text": "I want all of it in an appendix. Every reading, every count."
+    },
+    {
+      "speaker": "M1",
+      "text": "That's fifteen pages of tables nobody will ever read. A summary table in the text does the same job."
+    },
+    {
+      "speaker": "M2",
+      "text": "The raw data goes in the appendix, and the appendix doesn't count towards your word limit. The photographs I'd leave out, unless a photograph shows something a sentence can't. A picture of a stream tells the reader very little."
+    },
+    {
+      "speaker": "M1",
+      "text": "Speaking of the word limit — it's three thousand, isn't it?"
+    },
+    {
+      "speaker": "M2",
+      "text": "It was, for last year's group. It's two thousand five hundred now, and that's a maximum rather than a target. Nobody has ever lost marks with me for being concise."
+    },
+    {
+      "speaker": "F1",
+      "text": "And the deadline? I've got the twelfth written down."
+    },
+    {
+      "speaker": "M2",
+      "text": "The twelfth was the draft deadline on the old timetable. The final report is due on the nineteenth, at midday, and as one single file — not one document per section."
+    },
+    {
+      "speaker": "M1",
+      "text": "Is there anything that has to go on the front?"
+    },
+    {
+      "speaker": "M2",
+      "text": "A cover sheet with both your names on it, and the signed risk assessment attached at the back. Without the risk assessment I'm not allowed to mark fieldwork at all."
+    },
+    {
+      "speaker": "F1",
+      "text": "It's in my folder. I'll scan it tonight."
+    },
+    {
+      "speaker": "M2",
+      "text": "Then I'll see you both on Friday at two, and we'll go through the draft graphs. Bring the July readings printed out, would you."
+    }
+  ],
+  "answer_points": [
+    {
+      "id": "L2-S3-01",
+      "kind": "number",
+      "value": "5 sites",
+      "quote": "We got round five of the sites.",
+      "turn_index": 1,
+      "speaker": "M1",
+      "distractor": "6 sites",
+      "suggested_types": [
+        "sentence_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L2-S3-02",
+      "kind": "reason",
+      "value": "the footbridge has been fenced off",
+      "quote": "The footbridge you have to cross to reach it has been fenced off since the winter storms",
+      "turn_index": 3,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "multiple_choice",
+        "sentence_completion"
+      ]
+    },
+    {
+      "id": "L2-S3-03",
+      "kind": "date",
+      "value": "middle of July",
+      "quote": "it slipped to the middle of July",
+      "turn_index": 6,
+      "speaker": "F1",
+      "distractor": "four weeks after May",
+      "suggested_types": [
+        "sentence_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L2-S3-04",
+      "kind": "reason",
+      "value": "the brook was in flood through June",
+      "quote": "because the brook was in flood for most of June",
+      "turn_index": 6,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "multiple_choice",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L2-S3-05",
+      "kind": "opinion",
+      "value": "Rhys wants the report organised site by site",
+      "quote": "I think the report should be organised site by site.",
+      "turn_index": 10,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "matching",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L2-S3-06",
+      "kind": "opinion",
+      "value": "Marisol wants the report organised by variable",
+      "quote": "I'd organise it by variable",
+      "turn_index": 11,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "matching",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L2-S3-07",
+      "kind": "opinion",
+      "value": "the tutor asks for variables, plus a page describing the sites",
+      "quote": "Do it by variable, but open with a single page describing the five sites",
+      "turn_index": 12,
+      "speaker": "M2",
+      "distractor": null,
+      "suggested_types": [
+        "matching",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L2-S3-08",
+      "kind": "duration",
+      "value": "3 minutes",
+      "quote": "Three minutes with the net at each site",
+      "turn_index": 15,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "sentence_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L2-S3-09",
+      "kind": "rule",
+      "value": "identify to family level",
+      "quote": "we identified to family level rather than to species",
+      "turn_index": 16,
+      "speaker": "M1",
+      "distractor": "species level",
+      "suggested_types": [
+        "sentence_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L2-S3-10",
+      "kind": "number",
+      "value": "10 metres",
+      "quote": "Flow we did with a float over a ten-metre stretch",
+      "turn_index": 18,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "sentence_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L2-S3-11",
+      "kind": "object",
+      "value": "the chemical test kit",
+      "quote": "for that whole visit we fell back on the chemical test kit",
+      "turn_index": 19,
+      "speaker": "F1",
+      "distractor": "the oxygen meter",
+      "suggested_types": [
+        "sentence_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L2-S3-12",
+      "kind": "reason",
+      "value": "the buffer solution had expired",
+      "quote": "the buffer solution was out of date",
+      "turn_index": 19,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "multiple_choice",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L2-S3-13",
+      "kind": "place",
+      "value": "behind the allotments",
+      "quote": "the best score came from the stretch behind the allotments",
+      "turn_index": 25,
+      "speaker": "M1",
+      "distractor": "the top site in the woods",
+      "suggested_types": [
+        "sentence_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L2-S3-14",
+      "kind": "number",
+      "value": "11 families by the car park",
+      "quote": "We found eleven families there, against twenty-three at the allotments",
+      "turn_index": 26,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "sentence_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L2-S3-15",
+      "kind": "opinion",
+      "value": "Rhys thinks the sample size is the weakness",
+      "quote": "The sample size. Two visits to five sites is ten samples in total.",
+      "turn_index": 28,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "matching",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L2-S3-16",
+      "kind": "opinion",
+      "value": "Marisol thinks sampling only after rain is the weakness",
+      "quote": "Both our visits came within a few days of heavy rain",
+      "turn_index": 29,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "matching",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L2-S3-17",
+      "kind": "rule",
+      "value": "raw data goes in the appendix and is not counted",
+      "quote": "the appendix doesn't count towards your word limit",
+      "turn_index": 34,
+      "speaker": "M2",
+      "distractor": null,
+      "suggested_types": [
+        "sentence_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L2-S3-18",
+      "kind": "rule",
+      "value": "photographs should be left out",
+      "quote": "The photographs I'd leave out, unless a photograph shows something a sentence can't.",
+      "turn_index": 34,
+      "speaker": "M2",
+      "distractor": null,
+      "suggested_types": [
+        "multiple_choice",
+        "sentence_completion"
+      ]
+    },
+    {
+      "id": "L2-S3-19",
+      "kind": "number",
+      "value": "2,500 words",
+      "quote": "It's two thousand five hundred now",
+      "turn_index": 36,
+      "speaker": "M2",
+      "distractor": "3,000 words",
+      "suggested_types": [
+        "sentence_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L2-S3-20",
+      "kind": "date",
+      "value": "the 19th at midday",
+      "quote": "The final report is due on the nineteenth, at midday",
+      "turn_index": 38,
+      "speaker": "M2",
+      "distractor": "the 12th",
+      "suggested_types": [
+        "sentence_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L2-S3-21",
+      "kind": "rule",
+      "value": "submit as one single file",
+      "quote": "as one single file",
+      "turn_index": 38,
+      "speaker": "M2",
+      "distractor": null,
+      "suggested_types": [
+        "sentence_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L2-S3-22",
+      "kind": "object",
+      "value": "the signed risk assessment",
+      "quote": "the signed risk assessment attached at the back",
+      "turn_index": 40,
+      "speaker": "M2",
+      "distractor": null,
+      "suggested_types": [
+        "sentence_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L2-S3-23",
+      "kind": "time",
+      "value": "Friday at 2",
+      "quote": "I'll see you both on Friday at two",
+      "turn_index": 42,
+      "speaker": "M2",
+      "distractor": null,
+      "suggested_types": [
+        "sentence_completion",
+        "short_answer"
+      ]
+    }
+  ],
+  "spatial_description": null,
+  "notes": "turn_index degerleri 0 tabanlidir. Yedi celdirici duzeltme var: alan sayisi (alti -> bes), ikinci ziyaret (dort hafta sonra -> temmuz ortasi), tayin duzeyi (tur -> familya), oksijen olcumu (metre -> kimyasal test kiti), en temiz nokta (ormandaki ust nokta -> bostanlarin arkasi), kelime siniri (uc bin -> iki bin bes yuz), teslim tarihi (on iki -> on dokuz). Gorus ayrimi: Rhys raporu alan alan duzenlemek ve zayifligi ornek sayisina baglamak istiyor; Marisol degisken degisken duzenlemek ve zayifligi yagmur sonrasi orneklemeye baglamak istiyor; danisman degisken duzenini seciyor ama alan tanitimi sayfasini sart kosuyor ve iki sinirlamayi da yazdiriyor. Ek ayrilik: ham verinin eke konmasi (Marisol) ile ozet tablo (Rhys)."
+}

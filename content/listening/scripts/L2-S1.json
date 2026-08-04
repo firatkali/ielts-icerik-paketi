@@ -1,0 +1,559 @@
+{
+  "schema_version": "1.0",
+  "script_id": "L2-S1",
+  "skill": "listening",
+  "test_id": "L2",
+  "section": 1,
+  "generated_by": "opus",
+  "setting": "Bir tasinma (nakliyat) sirketiyle telefonda fiyat alma ve tarih ayirtma",
+  "context_line": "You will hear a woman arranging a house move with a removals company.",
+  "word_count": 841,
+  "estimated_minutes": 5.6,
+  "turn_index_base": 0,
+  "speakers": [
+    {
+      "code": "M1",
+      "role": "nakliyat sirketi musteri danismani",
+      "gender": "male",
+      "accent": "en-GB",
+      "voice": "en-GB",
+      "age_band": "30-45",
+      "pace": "normal"
+    },
+    {
+      "code": "F1",
+      "role": "tasinan musteri",
+      "gender": "female",
+      "accent": "en-AU",
+      "voice": "en-AU",
+      "age_band": "30-45",
+      "pace": "normal, sorularda hafif hizli"
+    }
+  ],
+  "turns": [
+    {
+      "speaker": "M1",
+      "text": "Good afternoon, Hartfield Removals. How can I help you?"
+    },
+    {
+      "speaker": "F1",
+      "text": "Hi there. I'm moving house next month, and I wanted to get a quote — and book a date, if I can."
+    },
+    {
+      "speaker": "M1",
+      "text": "Of course. I'll take a few details and then we can talk about prices. Could I have your name first?"
+    },
+    {
+      "speaker": "F1",
+      "text": "It's Petra Haugland."
+    },
+    {
+      "speaker": "M1",
+      "text": "Haugland. Would you mind spelling the surname for me?"
+    },
+    {
+      "speaker": "F1",
+      "text": "Not at all. That's Haugland — H-A-U-G-L-A-N-D."
+    },
+    {
+      "speaker": "M1",
+      "text": "Thank you. And a phone number we can reach you on, on the day itself?"
+    },
+    {
+      "speaker": "F1",
+      "text": "The best one's my mobile — oh seven six three three, double four one, nine oh two."
+    },
+    {
+      "speaker": "M1",
+      "text": "Got that. And where are we moving you from?"
+    },
+    {
+      "speaker": "F1",
+      "text": "Flat nine, Selby Court. Everyone round here says Selby Lane, but that's only the footpath at the side — the postal address is Weir Street."
+    },
+    {
+      "speaker": "M1",
+      "text": "Weir Street, then. Which floor are you on?"
+    },
+    {
+      "speaker": "F1",
+      "text": "Second floor. And before you ask, there's no lift, I'm afraid."
+    },
+    {
+      "speaker": "M1",
+      "text": "I'll make a note of it. Stairs change the time rather than the price. And where are you going to?"
+    },
+    {
+      "speaker": "F1",
+      "text": "A place called Ashcombe. It's about forty minutes north of here, just off the main road."
+    },
+    {
+      "speaker": "M1",
+      "text": "We cover Ashcombe, that's no trouble at all. Is that another flat?"
+    },
+    {
+      "speaker": "F1",
+      "text": "No, a house this time — three bedrooms. That's rather the point. I did the last move myself with a hired van and two friends."
+    },
+    {
+      "speaker": "M1",
+      "text": "Very wise. And what date did you have in mind?"
+    },
+    {
+      "speaker": "F1",
+      "text": "Saturday the third of October. It's been in my diary for weeks."
+    },
+    {
+      "speaker": "M1",
+      "text": "I can do the third, but two warnings. Saturdays carry a surcharge, and that weekend is the start of half term round here, so the roads will be slow. If you can be flexible, the Friday — the second — is quieter and it's cheaper."
+    },
+    {
+      "speaker": "F1",
+      "text": "Actually, the Friday would work. I've got leave I have to use up anyway. Let's say the second."
+    },
+    {
+      "speaker": "M1",
+      "text": "Booked in. Now, before we quote properly, we'd normally send someone out to look at what you're taking. It only takes twenty minutes or so."
+    },
+    {
+      "speaker": "F1",
+      "text": "When could that happen?"
+    },
+    {
+      "speaker": "M1",
+      "text": "We've a slot on Tuesday at half past ten. Sorry — ignore that, it's just gone. The next one free is Tuesday at eleven."
+    },
+    {
+      "speaker": "F1",
+      "text": "Eleven suits me better anyway."
+    },
+    {
+      "speaker": "M1",
+      "text": "Right. In the meantime, an estimate. For a three-bedroom move over that sort of distance, with two men and a large van, you're looking at three hundred and forty pounds."
+    },
+    {
+      "speaker": "F1",
+      "text": "And if I wanted you to do the packing as well?"
+    },
+    {
+      "speaker": "M1",
+      "text": "That takes it to four hundred and ten. It buys you boxes, tape, paper and two of our staff for the morning before."
+    },
+    {
+      "speaker": "M1",
+      "text": "Either way, the boxes themselves come free — we drop off twenty of them a week before the move, and you only pay for any extra ones you need."
+    },
+    {
+      "speaker": "F1",
+      "text": "Twenty should be plenty. There is one thing I'm nervous about, though. I've got a glass display cabinet that belonged to my grandmother."
+    },
+    {
+      "speaker": "M1",
+      "text": "We build a wooden crate for anything of that sort. It's the one kind of item we won't simply wrap in blankets and hope."
+    },
+    {
+      "speaker": "F1",
+      "text": "That's a relief. How long will the whole thing take?"
+    },
+    {
+      "speaker": "M1",
+      "text": "For a job that size I'd normally say about five hours. With your stairs at one end, call it six."
+    },
+    {
+      "speaker": "F1",
+      "text": "And what time would you arrive?"
+    },
+    {
+      "speaker": "M1",
+      "text": "The crew will be with you between eight and half past. They'll ring when they leave the depot."
+    },
+    {
+      "speaker": "F1",
+      "text": "Is there a deposit?"
+    },
+    {
+      "speaker": "M1",
+      "text": "There is — fifty pounds to hold the date, and the balance on the day. I'll email you a payment link this afternoon. We don't take card details over the phone."
+    },
+    {
+      "speaker": "F1",
+      "text": "Understood. Is there anything I need to sort out at my end?"
+    },
+    {
+      "speaker": "M1",
+      "text": "Two things. The van's seven metres long, so if there's nowhere to stand it outside you'll need a parking permit from the council, and they want at least three working days' notice."
+    },
+    {
+      "speaker": "F1",
+      "text": "There's a loading bay outside, but I'll ring them to be on the safe side."
+    },
+    {
+      "speaker": "M1",
+      "text": "Sensible. The other thing is what we can't carry: no paint, no aerosols and nothing out of the freezer. That's the insurance rather than us being difficult."
+    },
+    {
+      "speaker": "F1",
+      "text": "Speaking of which — are my things actually covered?"
+    },
+    {
+      "speaker": "M1",
+      "text": "Everything's insured as standard up to a thousand pounds per item. If anything's worth more than that, mention it to the surveyor on Tuesday and we'll list it separately."
+    },
+    {
+      "speaker": "F1",
+      "text": "The cabinet might well be. I'll ask him."
+    },
+    {
+      "speaker": "M1",
+      "text": "Please do. And one more thing you might find useful: if the new place isn't ready, we'll store your things free of charge for the first fortnight."
+    },
+    {
+      "speaker": "F1",
+      "text": "That is good to know. The keys are supposed to come through on the Thursday, but you never quite know, do you?"
+    },
+    {
+      "speaker": "M1",
+      "text": "You never do. Can I ask how you heard about us?"
+    },
+    {
+      "speaker": "F1",
+      "text": "My neighbour used you in the spring and hasn't stopped talking about it since."
+    },
+    {
+      "speaker": "M1",
+      "text": "I'll pass that on. Right — your job number is four one seven eight, and the confirmation will be in your inbox within the hour."
+    },
+    {
+      "speaker": "F1",
+      "text": "Four one seven eight. Thanks very much for your help."
+    }
+  ],
+  "answer_points": [
+    {
+      "id": "L2-S1-01",
+      "kind": "name",
+      "value": "Haugland",
+      "quote": "That's Haugland — H-A-U-G-L-A-N-D.",
+      "turn_index": 5,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "form_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L2-S1-02",
+      "kind": "number",
+      "value": "07633 441 902",
+      "quote": "oh seven six three three, double four one, nine oh two",
+      "turn_index": 7,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "form_completion"
+      ]
+    },
+    {
+      "id": "L2-S1-03",
+      "kind": "address",
+      "value": "Weir Street",
+      "quote": "the postal address is Weir Street",
+      "turn_index": 9,
+      "speaker": "F1",
+      "distractor": "Selby Lane",
+      "suggested_types": [
+        "form_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L2-S1-04",
+      "kind": "place",
+      "value": "second floor",
+      "quote": "Second floor.",
+      "turn_index": 11,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "form_completion",
+        "note_completion"
+      ]
+    },
+    {
+      "id": "L2-S1-05",
+      "kind": "limitation",
+      "value": "no lift in the building",
+      "quote": "there's no lift, I'm afraid",
+      "turn_index": 11,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "note_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L2-S1-06",
+      "kind": "place",
+      "value": "Ashcombe",
+      "quote": "A place called Ashcombe.",
+      "turn_index": 13,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "form_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L2-S1-07",
+      "kind": "object",
+      "value": "a three-bedroom house",
+      "quote": "a house this time — three bedrooms",
+      "turn_index": 15,
+      "speaker": "F1",
+      "distractor": "a flat",
+      "suggested_types": [
+        "form_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L2-S1-08",
+      "kind": "date",
+      "value": "Friday 2 October",
+      "quote": "the Friday — the second — is quieter and it's cheaper",
+      "turn_index": 18,
+      "speaker": "M1",
+      "distractor": "Saturday 3 October",
+      "suggested_types": [
+        "form_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L2-S1-09",
+      "kind": "reason",
+      "value": "Saturdays cost more and half term slows the roads",
+      "quote": "Saturdays carry a surcharge, and that weekend is the start of half term",
+      "turn_index": 18,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "multiple_choice",
+        "sentence_completion"
+      ]
+    },
+    {
+      "id": "L2-S1-10",
+      "kind": "time",
+      "value": "Tuesday at 11.00",
+      "quote": "The next one free is Tuesday at eleven.",
+      "turn_index": 22,
+      "speaker": "M1",
+      "distractor": "Tuesday at 10.30",
+      "suggested_types": [
+        "form_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L2-S1-11",
+      "kind": "price",
+      "value": "340 pounds",
+      "quote": "you're looking at three hundred and forty pounds",
+      "turn_index": 24,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "form_completion",
+        "table_completion"
+      ]
+    },
+    {
+      "id": "L2-S1-12",
+      "kind": "price",
+      "value": "410 pounds with packing",
+      "quote": "That takes it to four hundred and ten.",
+      "turn_index": 26,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "table_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L2-S1-13",
+      "kind": "number",
+      "value": "20 free boxes",
+      "quote": "we drop off twenty of them a week before the move",
+      "turn_index": 27,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "note_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L2-S1-14",
+      "kind": "object",
+      "value": "a wooden crate",
+      "quote": "We build a wooden crate for anything of that sort.",
+      "turn_index": 29,
+      "speaker": "M1",
+      "distractor": "blankets",
+      "suggested_types": [
+        "note_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L2-S1-15",
+      "kind": "duration",
+      "value": "6 hours",
+      "quote": "With your stairs at one end, call it six.",
+      "turn_index": 31,
+      "speaker": "M1",
+      "distractor": "5 hours",
+      "suggested_types": [
+        "form_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L2-S1-16",
+      "kind": "time",
+      "value": "between 8.00 and 8.30",
+      "quote": "The crew will be with you between eight and half past.",
+      "turn_index": 33,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "form_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L2-S1-17",
+      "kind": "price",
+      "value": "50 pounds deposit",
+      "quote": "fifty pounds to hold the date",
+      "turn_index": 35,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "form_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L2-S1-18",
+      "kind": "rule",
+      "value": "pay by emailed link, not by card on the phone",
+      "quote": "We don't take card details over the phone.",
+      "turn_index": 35,
+      "speaker": "M1",
+      "distractor": "card details over the phone",
+      "suggested_types": [
+        "note_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L2-S1-19",
+      "kind": "number",
+      "value": "7 metres",
+      "quote": "The van's seven metres long",
+      "turn_index": 37,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "note_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L2-S1-20",
+      "kind": "duration",
+      "value": "3 working days",
+      "quote": "they want at least three working days' notice",
+      "turn_index": 37,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "form_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L2-S1-21",
+      "kind": "rule",
+      "value": "no paint, aerosols or frozen food",
+      "quote": "no paint, no aerosols and nothing out of the freezer",
+      "turn_index": 39,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "note_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L2-S1-22",
+      "kind": "price",
+      "value": "1,000 pounds per item",
+      "quote": "up to a thousand pounds per item",
+      "turn_index": 41,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "form_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L2-S1-23",
+      "kind": "advantage",
+      "value": "two weeks of free storage",
+      "quote": "we'll store your things free of charge for the first fortnight",
+      "turn_index": 43,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "note_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L2-S1-24",
+      "kind": "reason",
+      "value": "recommended by a neighbour",
+      "quote": "My neighbour used you in the spring",
+      "turn_index": 46,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "multiple_choice",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L2-S1-25",
+      "kind": "number",
+      "value": "job number 4178",
+      "quote": "your job number is four one seven eight",
+      "turn_index": 47,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "form_completion",
+        "short_answer"
+      ]
+    }
+  ],
+  "spatial_description": null,
+  "notes": "turn_index degerleri 0 tabanlidir (turns dizisinin indeksi). Alti celdirici duzeltme var: adres (Selby Lane -> Weir Street), tarih (3 Ekim Cumartesi -> 2 Ekim Cuma), kesif randevusu (Sali 10.30 -> Sali 11.00), ambalaj (battaniye -> ahsap sandik), sure (bes saat -> alti saat), odeme (telefonda kart -> e-postayla odeme baglantisi). Harf harf soyleme 5. replikte."
+}
