@@ -1,0 +1,98 @@
+{
+  "schema_version": "1.0",
+  "set_id": "AC3-table-completion",
+  "skill": "reading",
+  "module": "academic",
+  "test_id": "AC3",
+  "practice": false,
+  "passage_id": "A07",
+  "question_type": "table_completion",
+  "generated_by": "opus",
+  "instructions": "Complete the table below. Choose NO MORE THAN TWO WORDS from the passage for each answer.",
+  "word_limit": "NO MORE THAN TWO WORDS",
+  "word_bank": null,
+  "visual": null,
+  "stem_block": null,
+  "table": {
+    "headers": ["Focus", "What the researchers did", "What they saw"],
+    "rows": [
+      [
+        "Phase one: reaction to a reflection",
+        "On certain days one part of the pool held a big two-way mirror; on the rest it was replaced by a clear (1) ........ screen of the same size.",
+        "Acts hardly ever seen at other times — trails of bubbles, gentle (2) ........ , necks stretched out, a flipper turned round — occurred only at the mirror."
+      ],
+      [
+        "Phase two: the mark test",
+        "A safe (3) ........ mark 5–8 cm wide was put where the animal could not see it unaided; on other trials the same contact left nothing visible.",
+        "With a visible mark Natasha held the spot up to the glass for 3 minutes 40 seconds over (4) ........ visits, but with an unseen mark for only (5) ........ over four visits."
+      ],
+      [
+        "Both responsive animals",
+        "Their viewing position at the mirror was noted.",
+        "Each of them studied the reflection with the (6) ........ , hinting that one side of the brain deals with this task."
+      ]
+    ]
+  },
+  "items": [
+    {
+      "number": 1,
+      "prompt": "Phase one — What the researchers did: On certain days one part of the pool held a big two-way mirror; on the rest it was replaced by a clear (1) ........ screen of the same size.",
+      "answer": ["acrylic"],
+      "accepted_variants": ["acrylic"],
+      "evidence": "In the first phase a large two-way mirror was lowered into one section of their pool on some days and, on other days, a transparent acrylic panel of identical size was used instead as a control, so that researchers could distinguish curiosity about a novel object from a specific response to a reflection.",
+      "evidence_locator": { "paragraph": "B", "sentence": 3 },
+      "explanation": "Paragraf B, aynanın olmadığı günlerde kontrol amacıyla aynı boyutta saydam bir akrilik levha kullanıldığını söylüyor; boşluk levhanın malzemesini istediği için cevap 'acrylic'.",
+      "difficulty": "easy"
+    },
+    {
+      "number": 2,
+      "prompt": "Phase one — What they saw: Acts hardly ever seen at other times — trails of bubbles, gentle (2) ........ , necks stretched out, a flipper turned round — occurred only at the mirror.",
+      "answer": ["barrel rolls"],
+      "accepted_variants": ["barrel rolls", "barrel roll"],
+      "evidence": "They lingered near it, angled their bodies to bring particular areas into view, and produced a cluster of behaviours rarely seen elsewhere in their daily routine: blowing strings of bubbles while facing the glass, performing slow barrel rolls, stretching their necks, opening their mouths wide towards the surface and rotating a pectoral flipper as if to inspect it.",
+      "evidence_locator": { "paragraph": "C", "sentence": 2 },
+      "explanation": "Paragraf C, aynanın önünde görülen olağandışı davranışları sıralarken 'performing slow barrel rolls' diyor; listedeki kabarcık, boyun uzatma ve yüzgeç çevirme zaten verildiği için boşluğa gelen 'barrel rolls'.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 3,
+      "prompt": "Phase two — What the researchers did: A safe (3) ........ mark 5–8 cm wide was put where the animal could not see it unaided; on other trials the same contact left nothing visible.",
+      "answer": ["cosmetic"],
+      "accepted_variants": ["cosmetic"],
+      "evidence": "A harmless cosmetic mark, five to eight centimetres across, was applied to a part of the body the whale could not see without a mirror, most often just behind an eye or an ear.",
+      "evidence_locator": { "paragraph": "D", "sentence": 2 },
+      "explanation": "Paragraf D, işaretin zararsız bir kozmetik boya olduğunu ve beş ile sekiz santimetre büyüklüğünde olduğunu söylüyor; bu yüzden cevap 'cosmetic'.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 4,
+      "prompt": "Phase two — What they saw: With a visible mark Natasha held the spot up to the glass for 3 minutes 40 seconds over (4) ........ visits.",
+      "answer": ["fourteen"],
+      "accepted_variants": ["fourteen", "14"],
+      "evidence": "When a real mark had been applied, she oriented the marked patch of skin towards the mirror repeatedly, spending a total of three minutes and forty seconds doing so across fourteen separate approaches.",
+      "evidence_locator": { "paragraph": "E", "sentence": 2 },
+      "explanation": "Paragraf E, gerçek işaret varken Natasha'nın toplam üç dakika kırk saniyeyi on dört ayrı yaklaşmaya yaydığını söylüyor; süre soruda verildiği için cevap 'fourteen'.",
+      "difficulty": "easy"
+    },
+    {
+      "number": 5,
+      "prompt": "Phase two — What they saw: ... but with an unseen mark for only (5) ........ over four visits.",
+      "answer": ["twenty-three seconds"],
+      "accepted_variants": ["twenty-three seconds", "23 seconds"],
+      "evidence": "When she carried an invisible sham mark instead, the equivalent behaviour lasted only twenty-three seconds across four approaches, a difference the researchers regarded as strong evidence that she was inspecting the mark itself rather than merely enjoying the mirror.",
+      "evidence_locator": { "paragraph": "E", "sentence": 3 },
+      "explanation": "Paragraf E, görünmeyen sahte işaret uygulandığında aynı davranışın dört yaklaşmada yalnızca yirmi üç saniye sürdüğünü söylüyor; bu yüzden cevap 'twenty-three seconds'.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 6,
+      "prompt": "Both responsive animals — What they saw: Each of them studied the reflection with the (6) ........ , hinting that one side of the brain deals with this task.",
+      "answer": ["right eye"],
+      "accepted_variants": ["right eye"],
+      "evidence": "Both whales, notably, preferred to view the mirror with their right eye, a bias that hints at some degree of lateralised processing in how the brain handles this kind of visual information.",
+      "evidence_locator": { "paragraph": "F", "sentence": 3 },
+      "explanation": "Paragraf F, her iki balinanın da aynaya sağ gözüyle bakmayı tercih ettiğini ve bunun beyinde yanallaşmış bir işleyişe işaret ettiğini söylüyor; bu yüzden cevap 'right eye'.",
+      "difficulty": "hard"
+    }
+  ]
+}

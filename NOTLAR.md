@@ -249,3 +249,67 @@ Bu dosyaya her oturumda alınan kararlar, atlanan işler ve karşılaşılan sor
   `pdftotext` bu oturumda izin verilmediği için çalıştırılamadı; yönerge kalıpları
   prompt dosyasında verilen üç kalıptan ve AC1'in yerleşik biçiminden alındı.
 - Atlanan/sorun: yok.
+
+## OPUS5-10 (3. çalıştırma: AC3 tam testi)
+- Tarih: 2026-08-04
+- Depo kontrolü: `content/reading/tests/` altında `AC1/` ve `AC2/` vardı (15'er soru, tam),
+  `content/reading/practice/` boştu → çalıştırma listesindeki **3. paket (AC3)** sıradaki
+  bitmemiş işti, o yapıldı. **15 soru** üretildi, hedefle birebir aynı.
+  (Kullanıcı bu oturumu "2. çalıştırma" diye tanımlamıştı; depo durumu AC2'nin bittiğini
+  gösterdiği için promptun kendi "sıradaki bitmemiş paketi yap" kuralı uygulandı.)
+- Üretilen dosyalar:
+  - `content/reading/tests/AC3/table-completion.json` — soru 1–6, pasaj **A07**
+  - `content/reading/tests/AC3/sentence-completion.json` — soru 19–22, pasaj **A08**
+  - `content/reading/tests/AC3/summary-completion.json` — soru 36–40, pasaj **A09**
+- **Seçilen alt tipler ve gerekçe:**
+  - 1–6 için **tablo tamamlama** seçildi. AC1'de not, AC2'de akış şeması kullanılmıştı;
+    NOTLAR'daki "tablo hâlâ hiç kullanılmadı" notu böylece karşılandı. A07 (beyaz
+    balinalarda ayna testi) tablo için uygun, çünkü pasaj boyunca ikili karşılaştırmalar
+    var: ayna ↔ kontrol levhası, gerçek işaret ↔ görünmez sahte işaret. Tablo
+    "Odak / Araştırmacılar ne yaptı / Ne gördüler" sütunlarıyla kuruldu; satırlar pasaj
+    sırasını (B → C → D → E → F) izlediği için **sıra kuralı** hücre okuma yönüyle
+    (soldan sağa, yukarıdan aşağı) birebir uyuşuyor.
+  - 19–22 **cümle tamamlama**, bu kez `ONE WORD ONLY` (A08). AC1 ve AC2'de bu aralıkta
+    `NO MORE THAN TWO WORDS` kullanılmıştı; A08 tek kelimelik, tek geçişli teknik terimler
+    (displacement, bright, surge, mountaineers) barındırdığı için daha dar sınır seçildi.
+  - 36–40 için özet tamamlamanın **metinden kelime seçme** alt tipi kullanıldı
+    (`word_bank: null`), NOTLAR'daki "AC3/AC4'ten en az birinde metinden seçme olsun"
+    notuna uygun olarak. Özet A09'un C–G paragraflarını (camlaşmanın koşulları, kullanılan
+    yöntemler, ölçümler, protein kanıtı, ısıl koşullar) kapsıyor.
+  - ⚠️ **AC4 için not:** 1–6 aralığında not / tablo / akış şeması üçünün de kullanılmış
+    olması gerekiyordu; AC4'te bunlardan biri tekrar edilecek — A10'un yapısına bakılıp
+    en uygun olan seçilsin (üç tip de bir kez kullanıldığı için tekrar serbest). Özet
+    tamamlamada AC4'te **listeden kelime seçme** kullanılırsa iki alt tip 2–2 dengelenir.
+- Kelime sınırları: 1–6 `NO MORE THAN TWO WORDS` (en uzun cevap `twenty-three seconds`;
+  tireli kelime tek kelime sayılıyor); 19–22 `ONE WORD ONLY`; 36–40 `NO MORE THAN TWO
+  WORDS`. Bütün cevaplar sınıra uyuyor.
+- Elenen soru: yok. **Vazgeçilen cevap adayları:** A07'de `panel` (pasajda 3 kez geçiyor),
+  `sham` (2 kez) ve `two hours` (27/23 saatlik sürelerle karışma riski); A08'de
+  `cryosphere` — "the cryosphere is effectively covering up the geosphere" cümlesinden
+  soru kurulsaydı `ice` de savunulabilir bir cevap olurdu, tek cevap kuralı gereği
+  bırakıldı; ayrıca `debris` (pasajda çok kez geçiyor). A09'da `myelin` elendi: soru
+  kökünde tanımını vermeden sorulamıyordu, tanım verilince cevap kendiliğinden
+  söylenmiş oluyordu. Yerlerine tek geçişli `acrylic`, `barrel rolls`, `cosmetic`,
+  `displacement`, `surge`, `reference databases`, `microtubules` seçildi.
+- Doğrulama: geçici bir denetim scriptiyle (`tools/_ac3_kontrol.py`, sonra silindi) her
+  dosya için JSON geçerliliği, soru numara aralığı (1–6 / 19–22 / 36–40), `evidence`in
+  pasajda **birebir** geçişi, `evidence_locator` doğruluğu, cevabın pasajdaki geçiş sayısı
+  (**hepsi tam 1**), `evidence` konumuna göre sıra kuralı, kelime sınırı, cevap tekrarı,
+  soru kökü ile pasaj arasında 6+ kelimelik birebir örtüşme olmaması, `explanation`
+  alanlarının Türkçe olması, tablo/özet gövdesindeki boşluk numaralarının soru
+  numaralarıyla eşleşmesi ve "IELTS" geçmemesi denetlendi. **İlk turda 2 hata çıktı ve
+  düzeltildi:** (1) tablo 1. sorusunun kökü A07'den "a large two-way mirror was lowered
+  into" ifadesini birebir taşıyordu → yeniden yazıldı; (2) 38. sorunun
+  `evidence_locator`'ı E/3 girilmişti, doğrusu **E/4** (paragraf E "The structural
+  measurements were remarkably precise." cümlesiyle başlıyor, elle sayarken atlanmış).
+  Düzeltmeden sonra script **hata 0**. Ardından `python tools/dogrula.py`: **şema hatası 0**,
+  okuma sorusu 45 (AC1 15 + AC2 15 + AC3 15), görünür metinde IELTS 0, yasak kaynak 0.
+- Referans PDF'leri: `referans/text/` yine yoktu ve `pdftotext` bu oturumda da izin
+  alamadı. `table-completion` cevap anahtarı PDF'i `Read` ile açıldı — sadece cevap listesi
+  içeriyor, ama sayısal cevaplarda kullanılan `two/2`, `five/5` biçimindeki çift kabul
+  yazımını doğruladı; `accepted_variants` alanları buna göre yazıldı (`fourteen`/`14`,
+  `twenty-three seconds`/`23 seconds`, `seven`/`7`).
+  `ielts-academic-reading-sample-tasks-2023.pdf` yine render edilemedi (`pdftoppm` yok);
+  yönerge kalıpları prompt dosyasındaki üç kalıptan alındı.
+- Atlanan/sorun: yok. **OPUS5-10'da 10 paketten 3'ü tamam;** kalan 7 paket AC4, GT1, GT2 ve
+  5 alıştırma paketi. Alıştırma paketleri için `content/reading/practice/` hâlâ boş.
