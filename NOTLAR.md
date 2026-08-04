@@ -994,3 +994,62 @@ Bu dosyaya her oturumda alınan kararlar, atlanan işler ve karşılaşılan sor
   fazla 4 soru çıkıyor ve **tam testlerdeki bilgiler tekrar sorulmuyor** (AC1–AC4 ve
   GT1–GT2 `matching-information.json` dosyalarının `evidence` alanları önce topluca
   okunmalı).
+
+## OPUS5-11 (3. çalıştırma: alıştırma — bilgi eşleştirme)
+
+- Paket: **alıştırma, 15 soru**. Dosya: `content/reading/practice/matching-information.json`.
+  `test_id` `null`, `practice` `true`, numaralar 1–15, her item'da `passage_id` var.
+  Bununla OPUS5-11'in üç paketi de bitti: 20 (AC1–AC4) + 14 (GT1–GT2) + 15 = **49 soru**.
+- Pasaj seçimi: **A01, A04, A07, A11**. Tam testlerin bilgi eşleştirme setleri A03, A06,
+  A09, A12, G01 ve G02'yi kullanmıştı; alıştırmada bu altı pasaja hiç dokunulmadı, böylece
+  "aynı bilgiyi sorma" kuralı en baştan güvenceye alındı. Dört pasajın da paragraf
+  harflendirmesi A–H olduğu için tek bir `options` listesi ve tek bir yönerge yetti.
+  Pasaj başına 4 + 4 + 4 + 3 soru; sınır olan "aynı pasajdan en fazla 4" aşılmadı.
+- Aynı pasajın tam testteki öteki setleriyle çakışma denetlendi: A01 → AC1
+  `note-completion` (B/3, B/4, C/1, D/4, E/2, F/3), A04 → AC2 `flow-chart-completion`
+  (B/2, C/1, C/2, D/1, E/1, E/2), A07 → AC3 `table-completion` (B/3, C/2, D/2, E/2, E/3,
+  F/3), A11 → AC4 `sentence-completion` (C/1, D/1, E/5, H/1). Bu setteki 15 sorunun hiçbiri
+  bu cümlelerden birini kullanmıyor; aynı paragrafa denk gelenlerde (A01 D ve F, A04 B ve
+  E, A07 B, C, D ve E, A11 C ve E) bilinçli olarak **başka bir cümle** hedeflendi.
+- Harf dağılımı: A2 B2 C2 D2 E1 F2 G2 H2 = 15. **Aynı harf en fazla 2 kez** kuralı sağlandı;
+  sekiz harfin hepsi kullanıldı, yani ilk (A) ve son (H) paragraftan da soru geldi.
+  Cevaplar pasaj sırasında dizilmiyor: A01 → F A H D, A04 → G H B F, A07 → D G B C,
+  A11 → E A C. `NB You may use any letter more than once.` satırı korundu, çünkü set
+  genelinde yedi harf ikişer kez cevap.
+- Yönerge tek pasaja değil dörde birden baktığı için "The passage has..." kalıbı
+  "Each of the passages below has EIGHT paragraphs, A-H." biçiminde kuruldu; hangi sorunun
+  hangi pasaja ait olduğu `stem_block` alanındaki dört satırla veriliyor (alıştırma
+  dosyalarında `summary-completion.json`'daki gruplama biçimiyle aynı mantık). Kutu
+  numarası ("in boxes 27-31 on your answer sheet") alıştırmada anlamsız olduğu için
+  "next to each question" ile değiştirildi.
+- Bilgi türü çeşitliliği: tanım/özet (A01 A, A11 E), sebep açıklaması (A01 F, A07 D),
+  örnek (A01 D), yargı/sonuç (A01 H, A07 G, A04 G), sayısal karşılaştırma (A07 B),
+  zaman bilgisi (A04 F, A07 C), kısıtlama (A04 H, A04 B), pratik gerekçe (A11 A),
+  yöntem kuralı (A11 C). Zorluk: 3 easy, 8 medium, 4 hard.
+- Tuzak 1 (birden çok paragrafa uyan ifade) için her sorunun ardından o pasajın sekiz
+  paragrafı tek tek tarandı ve `uniqueness_check` alanına karışabilecek paragraflar
+  **adıyla** yazıldı. Bu denetimde **iki soru elendi**:
+  - A07 (beluga) A paragrafı için düşünülen "ayna testinin nasıl yapıldığının genel
+    tanımı" sorusu **atıldı**: D paragrafı aynı işlemin bu çalışmadaki uygulamasını
+    anlatıyor ve "tanım" ile "uygulama" ayrımı adaydan haksız bir yorum istiyordu. A07'nin
+    A paragrafı yerine B paragrafı kullanıldı, ikinci A cevabı A11'den alındı.
+  - A01 (fil) H paragrafı için ilk yazılan "dar tasarlanmış tek bir testten hüküm vermeye
+    karşı uyarı" sorusu **atıldı**: F paragrafı da "sorun hayvanların zekâsında değil,
+    sunulan araçlardaydı" diyor ve iki cevap da savunulabilir hâle geliyordu. Yerine H'nin
+    ilk cümlesindeki **üç özelliğin bir arada** değerlendirilmesi soruldu; C, D ve E bu
+    özellikleri ayrı ayrı anlatıyor ama hiçbiri üçünü birleştirmiyor.
+- Tuzak 2 (kelime eşleşmesiyle bulunabilen soru) için soru kökündeki içerik kelimeleri
+  pasajın paragraflarına karşı tarandı; yalnızca bir ya da iki paragrafta geçen kelimeler
+  işaretlendi. Bu tarama **sekiz soru kökünde** ayırt edici kelime yakaladı ve hepsi
+  yeniden yazıldı: `incapable`/`species`/`simply` (soru 3), `platform`/`stood` (4), `today`
+  (5), `procedure`/`without` (9), `capacity` (10), `spent`/`front` (11), `bodies` (12),
+  `evidence` (14). Düzeltme sonrası geriye yalnızca pasajın geneline yayılmış sıradan
+  kelimeler kaldı (`animal's`, `authors`, `learning`, `hung`, `place`).
+- Yapısal denetim (yazılan kontrol betiğiyle): 15 `evidence` alanının hepsi kendi
+  paragrafında **birebir** geçiyor ve aynı pasajın başka hiçbir paragrafında geçmiyor;
+  `evidence_locator`ın paragraf harfi cevapla aynı ve verilen cümle numarası o cümleye
+  denk düşüyor; `uniqueness_check`, `explanation`, `accepted_variants` ve `difficulty`
+  alanlarının hiçbiri boş değil; numaralar 1–15 kesintisiz; görünür metinde "IELTS" yok.
+  Ardından `python tools/dogrula.py`: **şema hatası 0**, okuma sorusu **200** (tam test 120
+  + alıştırma 80), pasaj lisansı eksik 0, IELTS 0, yasak kaynak 0.
+- Atlanan/sorun: yok. **OPUS5-11 tamamen bitti (3/3 paket, 49 soru).**
