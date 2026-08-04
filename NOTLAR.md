@@ -2641,3 +2641,126 @@ Cevaplar: 1 `250` · 2 `photo identification` · 3 `14` · 4 `Thursdays` · 5 `4
   doğalı (`L1-S3` … `L6-S3`); tam testlerde her 3. bölümden yalnızca 4'er nokta
   kullanıldığı için o senaryolarda bol boş bilgi noktası var, ayrıca 7. ve 8. paketlerin
   kullandığı 1./4. bölüm senaryolarıyla hiç çakışmaz.
+
+## OPUS5-21 (9. çalıştırma: alıştırma — cümle tamamlama, 15 soru)
+
+- Tarih: 2026-08-04
+- Depo kontrolü: `content/listening/tests/` altında **`L1/` … `L6/`** tam (6 × 29 = 174),
+  `content/listening/practice/` altında **`note-completion.json`** (7. paket) ve
+  **`table-completion.json`** (8. paket) vardı → çalıştırma listesindeki ilk üretilmemiş
+  paket **9 — alıştırma: cümle tamamlama** idi, o yapıldı. 24 senaryonun hepsi yerinde,
+  hiçbirine dokunulmadı, yeni bilgi noktası eklenmedi.
+- Çıktı: `content/listening/practice/sentence-completion.json` — **15 soru, 4 küme**,
+  `test_id: null`, `practice: true`, numaralar 1'den 15'e. Cümle tamamlamada gövde
+  olmadığı için `stem_block` **ve** `table` her düzeyde `null`; boşluk doğrudan
+  `prompt` içinde (`(n) ........`).
+- 15 sorunun 15'i de hazır `answer_points` kayıtlarına oturdu.
+
+### Kümeler, senaryolar ve seçilen bilgi noktaları
+
+| Küme | Senaryo | Bölüm | Sorular | Konu | Kelime sınırı |
+|---|---|---|---|---|---|
+| `P-SC-01` | `L2-S3` | 3 | 1–4 | dere üzerindeki saha araştırması raporu | TWO WORDS |
+| `P-SC-02` | `L3-S3` | 3 | 5–8 | staj sonrası teslim edilecek işler | TWO WORDS |
+| `P-SC-03` | `L4-S3` | 3 | 9–12 | konferans posteri tasarımı | TWO WORDS |
+| `P-SC-04` | `L5-S3` | 3 | 13–15 | anket tasarımı | TWO WORDS |
+
+- Kümeler **4 + 4 + 4 + 3**; hiçbir senaryodan 4'ten fazla soru yok.
+- **Dört kümenin dördü de 3. bölüm** senaryosundan: cümle tamamlama tam testte 27–30
+  aralığında, yani 3. bölümde geçiyor; alıştırmanın da aynı ses tipinde (2–4 kişilik
+  akademik tartışma) olması gerçek sınav deneyimine en yakın olanı. 8. paketin sonunda
+  bırakılan not da bunu öneriyordu.
+- Senaryolar 7. ve 8. paketlerle **hiç çakışmıyor** (onlar 1. ve 4. bölümleri kullandı),
+  dolayısıyla senaryo başına 4 soru sınırı hiçbir yerde zorlanmadı. `L1-S3` ve `L6-S3`
+  bilerek boş bırakıldı — sonraki paketlerde (kısa cevap, akış şeması) elde yedek
+  3. bölüm senaryosu kalsın diye.
+- Tam testler her 3. bölüm senaryosundan yalnızca 4 nokta kullandığı için havuz genişti;
+  seçilen 15 noktanın hiçbiri tam testlerde ya da öteki iki alıştırma dosyasında yok
+  (kesişim betikle çıkarıldı, **boş**).
+
+### Kullanılan `answer_point_id` değerleri
+
+| Küme | Kimlikler |
+|---|---|
+| `P-SC-01` (L2-S3) | `L2-S3-01`, `L2-S3-11`, `L2-S3-13`, `L2-S3-21` |
+| `P-SC-02` (L3-S3) | `L3-S3-09`, `L3-S3-13`, `L3-S3-27`, `L3-S3-30` |
+| `P-SC-03` (L4-S3) | `L4-S3-02`, `L4-S3-14`, `L4-S3-21`, `L4-S3-33` |
+| `P-SC-04` (L5-S3) | `L5-S3-04`, `L5-S3-15`, `L5-S3-25` |
+
+Cevaplar: 1 `five` · 2 `test kit` · 3 `allotments` · 4 `single file` · 5 `3,500` ·
+6 `appendix` · 7 `module page` · 8 `department` · 9 `eight weeks` · 10 `30` ·
+11 `larger` · 12 `eye height` · 13 `120` · 14 `voucher` · 15 `library system`.
+
+Çeldiricili bilgi noktasından çıkan sorular (cevap her zaman **düzeltilmiş** değer):
+1 (altı alan → beş), 2 (ölçer → kimyasal test kiti), 3 (ormandaki üst nokta →
+bostanların arkası), 5 (4.000 → 3.500 kelime), 6 (ayrı teslim → ek), 7 (e-posta →
+ders sayfası), 10 (24 punto → 30 punto), 11 (küçük panolar → büyük panolar),
+13 (100 → 120 yanıt). Toplam **9 soru**, 15'in yarısından fazlası.
+
+### Doğrulama
+
+- Denetim betiği depoda: `tools/_p09_kontrol.py` (7. ve 8. paketinkinin cümle tamamlama
+  sürümü). Dosyayı **diskten geri okuyup** sınıyor.
+- Denetlenenler: zarf alanları (`practice`, `test_id`, `question_type`, `stem_block`,
+  `table`, `options`, `visual`), küme boyu 3–5, küme başına `context_line`, senaryo
+  başına en fazla 4 soru, her `answer_point_id`nin senaryoda var olması ve **hem tam
+  testlerde hem öteki alıştırma dosyalarında** kullanılmamış olması, `turn_index`in
+  bilgi noktasıyla birebir uyuşması, küme içi sıranın geri gitmemesi, nefes payı, her
+  `evidence`in ilgili replikte **birebir** geçmesi, **`accepted_variants` dahil** kelime
+  sınırı, promptta doğru numaralı boşluğun bulunması, **2. altın kural** (soru kökü
+  sesteki cümlenin sadeleştirilmiş kopyası mı), numaraların 1–15 dizisi olması,
+  açıklamaların Türkçe ve dolu olması, "IELTS" taraması. **Hata 0.**
+- Betiğin bıraktığı iki uyarı **elle incelendi ve kabul edildi** (ikisi de altın kural
+  6'nın "sayı rakamla yazılabilir" maddesi; ses sayıyı kelimeyle söylüyor):
+  soru 5 "three thousand five hundred words" → `3,500`; soru 13 "a minimum of a hundred
+  and twenty completed responses" → `120`.
+- Kelime sınırını aşan altı varyant (`chemical test kit`, `three thousand five hundred`,
+  `the module page`, `a hundred and twenty`, `one hundred and twenty`,
+  `the library system`) betik uyarınca **silindi** — 8. paketteki kararın aynısı: kendi
+  koyduğumuz sınırı geçen bir yazım kabul listesinde duramaz.
+- Ardından `python tools/dogrula.py`: **şema hatası 0**, görünür metinde IELTS 0,
+  yasak kaynak 0, `listening/practice` sayacı **45** (15 + 15 + 15).
+
+### Bilinçli sapmalar
+
+1. **Dört kümede de `TWO WORDS AND/OR A NUMBER` sınırı var.** `ONE WORD` yine
+   kullanılmadı: seçilen noktaların yarısı iki kelimelik ("test kit", "single file",
+   "module page", "eight weeks", "eye height", "library system") ve tek kelimeye indirmek
+   eş anlamlı/kısaltılmış yazmak demek olurdu — 1. altın kural buna izin vermiyor.
+   Birim ve ölçü sözcükleri boşluğun **dışında** bırakıldı (`(5) ........ words`,
+   `(10) ........ point`), böylece cevap tek jeton kalıyor.
+2. **Nefes payı 3. bölüm için sıkı uygulandı.** Hepsi karşılıklı konuşma olduğu için
+   iki cevap arasında en az iki replik var; gerçek aralıklar çok daha geniş
+   (`L2-S3`: 1, 19, 25, 38 · `L3-S3`: 9, 13, 27, 31 · `L4-S3`: 3, 17, 23, 38 ·
+   `L5-S3`: 7, 21, 34). Tartışmalarda görüş ayrılıkları uzun sürdüğü için cevapların
+   seyrek olması ayrıca gerekiyordu: aralardaki repliklerin çoğu `FABLE5-43`'ün
+   eşleştirme/çoktan seçmeli sorularına ait görüş noktaları.
+3. **Cevap türü dağılımı:** her küme içinde ardışık iki cevap farklı türden —
+   sayı/nesne/yer/kural (P-SC-01), sayı/nesne/yer/kurum (P-SC-02),
+   süre/sayı/sıfat/yer (P-SC-03), sayı/nesne/sistem (P-SC-04). Toplamda 4 sayı,
+   11 kelime; hiçbir kümede iki sayı yan yana değil.
+4. **Soru kökleri baştan sona yeniden ifade edildi** (2. altın kural). Örnek: ses
+   "Nothing under thirty for the body" diyor, soru kökü "the tutor sets a lower limit of
+   (10) ........ point"; ses "put it at eye height rather than down in a corner" diyor,
+   soru kökü "should be placed at (12) ........ rather than in a corner" — boşluğa gelen
+   kelime birebir, çevresi değil. Betik bu kuralı sadeleştirilmiş metin karşılaştırmasıyla
+   ayrıca sınıyor.
+
+### Telif / yazım
+
+- İngiliz İngilizcesi (`allotments`, `metre`, `programme` bağlamı, `£`); bütün kişi,
+  kurum ve yer adları senaryolardan geliyor, hepsi uydurma. Görünür metinde "IELTS" yok.
+- ⚠️ **Referans PDF'leri bu oturumda da açılamadı:** `referans/` altında yalnızca `.pdf`
+  var, `referans/text/` hâlâ üretilmemiş ve `Read` aracı PDF için poppler istiyor, ortamda
+  yok (`ielts-listening-computer-delivered-sentence-completion-answer-key.pdf` denendi,
+  aynı hata). Yönerge kalıbı L1–L6 tam testlerinin cümle tamamlama setlerinden devralındı
+  ("Complete the sentences below. Write NO MORE THAN TWO WORDS AND/OR A NUMBER for each
+  answer."). Yeni biçim icat edilmedi; referanstan **tek bir cümle, soru ya da senaryo
+  kopyalanmadı**.
+- Atlanan/sorun: yok. **OPUS5-21'de 12 paketten 9'u tamam;** sıradaki paket
+  **10 — alıştırma: akış şeması tamamlama (15 soru)**, dosyası
+  `content/listening/practice/flow-chart-completion.json`. Sonraki oturuma not: akış
+  şeması 4. bölümde (ders) geçiyor, yani **`L*-S4` senaryolarına** yönelmek doğal olur;
+  7. paket `L2-S4` ve `L6-S4`'ten soru çıkarmıştı, 8. paket `L1-S4`'ten üç soru aldı, o
+  yüzden `L3-S4`, `L4-S4`, `L5-S4` en rahat üçlü. Akış şemasında adımların **sıra**
+  bildirmesi şart: gövdeyi `stem_block` içinde ok (`↓`) ile kur, `table` null kalsın.
