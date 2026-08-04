@@ -1942,3 +1942,157 @@ dizisine `turn_index` sırası bozulmayacak yere eklendi (kimlik numarası sıra
   cümle, soru ya da senaryo kopyalanmadı**.
 - Bütün kişi/kurum/yer adları senaryolardan geliyor, hepsi uydurma.
 - Atlanan/sorun: yok. **OPUS5-21'de 12 paketten 3'ü tamam;** sıradaki **L4**.
+
+## OPUS5-21 (4. çalıştırma: L4 — güvenli sorular, 29 soru)
+
+- Tarih: 2026-08-04
+- Depo kontrolü: `content/listening/tests/` altında **`L1/`, `L2/` ve `L3/`** vardı,
+  `content/listening/practice/` boştu → çalıştırma listesindeki ilk üretilmemiş paket
+  **L4** idi, o yapıldı. Ön koşul sağlandı: `L4-S1` … `L4-S4` senaryoları yerinde.
+- 11–15 ve 21–26 aralıkları **boş bırakıldı** (FABLE5-43'ün işi); `tools/dogrula.py`
+  "L4 29/40 EKSIK eksik=[11–15, 21–26]" diyor, beklenen durum budur.
+
+### Seçilen tipler ve dosyalar
+
+| Soru | Bölüm | Tip | Dosya | Kelime sınırı |
+|---|---|---|---|---|
+| 1–10 | S1 | `note_completion` | `content/listening/tests/L4/note-completion.json` | TWO WORDS |
+| 16–20 | S2 | `plan_map_diagram_labelling` (**kelime yazma**) | `…/plan-map-diagram-labelling.json` | TWO WORDS |
+| 27–30 | S3 | `sentence_completion` | `…/sentence-completion.json` | TWO WORDS |
+| 31–35 | S4 | `short_answer` | `…/short-answer.json` | THREE WORDS |
+| 36–40 | S4 | `flow_chart_completion` | `…/flow-chart-completion.json` | **ONE WORD** |
+
+L3'ün bıraktığı üç uyarının **üçü de** bu oturumda kapatıldı:
+
+- **1–10 için tip:** L3, "L4-S1 bir kayıp eşya bildirimi, `note_completion` için en uygun
+  aday" demişti — öyle yapıldı. Dört testin dağılımı artık **form / tablo / form / not**.
+- **Etiketleme alt tipi:** L1 harf, L2 kelime, L3 harf, **L4 kelime yazma** — dönüşüm
+  sürüyor. ⚠️ **L5 harf seçme (A–H)** olsun.
+- **31–40 bölünmesi:** L1 = not + kısa cevap, L2 = akış şeması + not, L3 = özet + kısa
+  cevap, **L4 = kısa cevap (31–35) + akış şeması (36–40)**. Akış şeması L3'ün istediği
+  gibi tekrar denendi. ⚠️ **L5–L6:** dört testte de kullanılmamış bir düzen kalsın diye
+  en az birinde `table_completion` 4. bölümde denensin.
+- **Sıralama yeniliği:** ilk kez kısa cevap bloğu **önce**, tamamlama bloğu **sonra**
+  geldi. Nedeni teknik: L4-S4 dersinde denetim hiyerarşisi (kaynak → yol → alıcı)
+  7–11. paragraflarda anlatılıyor; akış şeması oraya oturunca kısa cevaplar zorunlu
+  olarak 1–5. paragraflara düştü. Böylece 4. bölümün on cevabı **on ayrı paragrafa**
+  dağıldı (1, 2, 3, 4, 5, 7, 8, 9, 10, 11).
+- **Kelime sınırı çeşitliliği:** akış şemasının beş cevabı da tek kelime/sayı seçilerek
+  `ONE WORD AND/OR A NUMBER` ikinci kez kullanıldı (L3'te 1. bölümdeydi).
+
+### Kullanılan `answer_point_id` değerleri
+
+| Set | Kimlikler |
+|---|---|
+| `L4-note-completion` | `L4-S1-01`, `L4-S1-02`, `L4-S1-06`, `L4-S1-08`, `L4-S1-10`, `L4-S1-11`, `L4-S1-17`, `L4-S1-19`, `L4-S1-22`, `L4-S1-25` |
+| `L4-plan-map-diagram-labelling` | `L4-S2-07`, `L4-S2-11`, **`L4-S2-37` (yeni)**, `L4-S2-13`, `L4-S2-16` |
+| `L4-sentence-completion` | `L4-S3-20`, `L4-S3-22`, `L4-S3-25`, `L4-S3-30` |
+| `L4-short-answer` | `L4-S4-01`, `L4-S4-05`, `L4-S4-07`, `L4-S4-09`, `L4-S4-12` |
+| `L4-flow-chart-completion` | `L4-S4-18`, `L4-S4-20`, `L4-S4-24`, `L4-S4-25`, `L4-S4-29` |
+
+- **Senaryoya eklenen tek yeni bilgi noktası:** `L4-S2-37` — "the left-hand side takes you
+  up the ramp" (5. replik, rampanın konumu). 18 numaralı soru buna dayanıyor; şema
+  gereği `answer_point_id` boş bırakılmadı, `content/listening/scripts/L4-S2.json`
+  güncellendi. Başka hiçbir senaryo dosyasına dokunulmadı.
+- Çeldiricili bilgi noktasından çıkan sorular (cevap her zaman **düzeltilmiş** değer):
+  `L4-S1-01` (486 → 482), `L4-S1-02` (Salı → Çarşamba), `L4-S1-08` (lacivert → koyu
+  yeşil), `L4-S1-25` (5 £ → 3 £), `L4-S3-20` (2 gün → 3 iş günü), `L4-S3-25` (seminer
+  bloğu → kütüphane atriyumu), `L4-S4-05` (10 dB → 3 dB), `L4-S4-09` (3 yıl → 5 yıl),
+  `L4-S4-12` (üçte iki → beşte dört), `L4-S4-25` (10 m → 30 m). Toplam **10 soru** —
+  şimdiye kadarki en yüksek oran (29 sorunun 10'u).
+- Bilinçli kullanılmayan çeldiriciler: `L4-S1-16` (iki hafta → üç ay) — üç ay değeri
+  7. sorunun kökünde veri olarak zaten yazılı, iki kez sorulmadı; `L4-S2-12`
+  (3 → 4 bahçe atığı bölmesi) ve `L4-S2-25` (Çarşamba → Salı) — ikisi de `FABLE5-43`'ün
+  çoktan seçmeli alanına daha uygun, ona bırakıldı; `L4-S3-23` (11 → 18) ve `L4-S3-27`
+  (5 → 2 dakika) — 27–30 aralığında yalnızca dört soru var, 3. bölümün geri kalanı
+  `FABLE5-43`'e ait.
+
+### Doğrulama
+
+- Üç geçici betik yazıldı (`tools/_l4_plan.py` çizim + üretim, `tools/_l4_ascii.py`
+  ASCII izdüşüm, `tools/_l4_kontrol.py` denetleyici); üçü de **diskten okuyarak** sınadı
+  ve iş bitince silindi.
+- Denetlenenler: her `evidence`in senaryo repliğinde **birebir** geçmesi ve doğru
+  `turn_index`te olması, `turn_index`in bilgi noktasıyla uyuşması, set içi **artan sıra**,
+  aynı bilgi noktasının iki kez kullanılmaması, **`accepted_variants` dahil** kelime
+  sınırı, açıklamaların gerçek Türkçe karakter içermesi, `answer`ın `accepted_variants`
+  içinde olması, `stem_block` boşluk numaralarının item numaralarıyla birebir aynı olması,
+  soru numaralarının planla birebir aynı olması (29 soru; boş: 11–15, 21–26) ve görünür
+  metinde "IELTS" taraması. **Sonuç: 0 hata**, kalan 12 uyarı yalnızca aşağıdaki 1
+  numaralı bilinçli sapmanın uyarıları.
+- İlk turda çıkan **5 gerçek hata düzeltildi**, hepsi kelime sınırı: 1. soruda
+  `"four eighty two"`, 6. soruda boşluklu iki telefon yazımı, 16. soruda
+  `"the site office"`, 19. soruda `"scrap metal skip"` iki kelimeyi aşıyordu. Telefon
+  numarasının asıl cevabı bu yüzden bitişik yazıma (`07793441806`) çevrildi.
+- SVG yine **geometrik olarak** sınandı (depoda SVG → PNG çevirici hâlâ yok): izinli öge
+  listesi (`svg rect line path polygon text` — dışında öge yok), tek renk `#000`,
+  `fill="none"`, sabit `width`/`height` yok, bütün koordinatlar `viewBox` içinde, tek
+  satır string. Ayrıca **kutu-kutu ve yazı-yazı çakışma taraması** yapıldı: ilk turda iki
+  çakışma çıktı (elektrikli eşya deposu ile ilk bahçe atığı bölmesi üst üste biniyordu;
+  rampaya giden yol deponun içinden geçiyordu). Bölmeler ve rampa kuzeye kaydırılıp
+  yol 382. satıra alındı → **0 çakışma**.
+- ASCII izdüşüm **gözle** okundu: giriş altta ortada (ok içeri bakıyor), bariyer yolun
+  üstünde, yol kuzeye çıkıyor; solunda 16, onun arkasında tuvaletler/su noktası; sağında
+  tam karşısında otopark, otoparkın kuzeyinde uzun bina (yakın uçta 17, ötesinde REUSE
+  SHOP), yolun batısında REUSE SHOP'un tam karşısında 20; tam ileride dört bahçe atığı
+  bölmesi; ötesinde yol ikiye ayrılıyor, sol kol 18 (yukarı okları var), sağındaki
+  konteynerler aşağıdan yukarı WOOD → RUBBLE → 19; ahşabın yanında boya/kimyasal deposu;
+  rampanın ucunda iki genel atık konteyneri; oradan çıkışa giden yol üzerinde cam-kutu-
+  plastik kumbaraları, sonra çıkış bariyeri. Tarifle birebir uyuyor.
+- Ardından `python tools/dogrula.py`: **şema hatası 0**, görünür metinde IELTS 0,
+  yasak kaynak 0, L4 29/40.
+
+### Bilinçli sapmalar
+
+1. **"İki cevap aynı replikte olmasın" kuralı 1. ve 3. bölümde tam, 2. ve 4. bölümde
+   paragraf düzeyinde uygulandı.** 1. bölümde iki cevap arasında her zaman **en az bir
+   replik** var (replikler: 4, 7, 11, 13, 19, 21, 28, 32, 38, 42 — en dar aralık iki
+   replik); 3. bölümde de öyle (21, 23, 27, 32). 2. ve 4. bölüm **tek kişilik anlatım**
+   olduğu için "replik" = paragraf; oralarda **her paragrafta tam olarak bir cevap**
+   kuralı uygulandı — 2. bölümde 5 soru 5 ayrı paragrafa (3, 4, 5, 6, 7), 4. bölümde
+   10 soru 10 ayrı paragrafa (1, 2, 3, 4, 5, 7, 8, 9, 10, 11) dağıldı. L1–L3'teki
+   uygulamanın aynısı.
+2. **4. bölümün son üç paragrafı (ekoloji ve uygulama ödevi) soru dışı bırakıldı.**
+   Sebep: paragraf başına bir cevap kuralı korunacaksa 12–14. paragraflar dörtten fazla
+   soru taşıyamıyordu ve akış şeması bütün olarak 7–11. paragraflara oturuyordu. L3'te de
+   aynı tercih yapılmıştı (orada da son paragraflar boş kalmıştı).
+3. **Kelime yazma alt tipinde belirsizlik riski olan iki nokta bilerek soru yapılmadı:**
+   tuvaletler (seste "tuvaletler **ve** içme suyu noktası" birlikte geçiyor, iki savunulabilir
+   cevap doğardı) ve bahçe atığı bölmeleri (`garden waste bays` üç kelime, TWO WORDS
+   sınırını aşardı). İkisi de planda **etiketi verilmiş sabit referans** olarak kullanıldı.
+4. **Cevap türü dağılımı:** 1. bölüm **6 kelime / 4 sayı** (Çarşamba, raf, koyu yeşil,
+   soyadı, hayır kurumu, yakıt pompaları, banka kartı ↔ 482, telefon, 3 £); 2. bölümün
+   beşi de yer adı (kelime yazma alt tipinin doğası); 3. bölümde 3 kelime + 1 sayı;
+   4. bölümde 4 sayı/oran (3 dB, beş yıl, beşte dört, 30 m) + 6 kelime.
+5. **18 numaralı soru zincirli değil:** rampa, "bahçe atığı bölmelerinin ötesinde yolun
+   sol kolu" tarifiyle bulunuyor; bölmeler planda etiketli olduğu için aday 16 ve 17'yi
+   bilmeden de 18'i çözebiliyor. Aynı şekilde 19 (ahşap ve moloz yazılı) ve 20 (REUSE
+   SHOP yazılı) kendi bağımsız çıpalarına dayanıyor.
+
+### Plan çizimi (2. bölüm) — kelime yazma alt tipi
+
+- `viewBox="0 0 600 800"`, sabit `width`/`height` yok, yalnızca `rect`/`line`/`path`/
+  `polygon`/`text`, hep `#000` çizgi, dolgu yok, tek satır string, 70 öge.
+- `"kind": "plan"` — bina değil, **saha planı**: yol iki paralel çizgi, rampa yukarı
+  yönü iki `path` çevron (ok) ile, giriş/çıkış bariyerleri kalın (`stroke-width="3"`)
+  çizgiyle gösterildi.
+- Boşluklar **numara + altına kısa çizgi** olarak çizildi (`16`…`20`), harf yok,
+  `options` `null`, `word_limit` dolu — kelime yazma alt tipi.
+- **Sabit referanslar (etiketi verilmiş):** `MAIN ENTRANCE (Ferry Lane)` (+ içeri bakan
+  ok), `entrance barrier`, `drive`, `TOILETS AND WATER POINT`, `CAR PARK`, `REUSE SHOP`,
+  `GARDEN WASTE BAYS`, `WOOD`, `RUBBLE`, `PAINT AND CHEMICALS`, `GENERAL WASTE`,
+  `GLASS, CANS AND PLASTIC BANKS`, `exit barrier` ve kuzey oku `N`.
+
+### Telif / yazım
+
+- İngiliz İngilizcesi (`tyre`, `licence`, `metre`, `£`, `rucksack`, `modelled`);
+  `accepted_variants` içinde hoşgörü olarak yalnızca `judgment` (Amerikan) kabul ediliyor.
+  Görünür metinde "IELTS" yok.
+- ⚠️ **Referans PDF'leri bu oturumda da açılamadı:** `Read` aracı `pdftoppm` (poppler)
+  istiyor, ortamda yok; `referans/text/` klasörü hâlâ üretilmemiş. Yönerge kalıpları
+  L1–L3 setlerinden devralındı ("Complete the notes below…", "Label the plan below.
+  Write NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.", "Complete the
+  flow-chart below…", "Answer the questions below…"). Yeni biçim icat edilmedi;
+  referanstan **tek bir cümle, soru ya da senaryo kopyalanmadı**.
+- Bütün kişi/kurum/yer adları senaryolardan geliyor, hepsi uydurma.
+- Atlanan/sorun: yok. **OPUS5-21'de 12 paketten 4'ü tamam;** sıradaki **L5**.

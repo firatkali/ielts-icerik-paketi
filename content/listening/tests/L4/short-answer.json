@@ -1,0 +1,116 @@
+{
+  "schema_version": "1.0",
+  "set_id": "L4-short-answer",
+  "skill": "listening",
+  "test_id": "L4",
+  "section": 4,
+  "practice": false,
+  "script_id": "L4-S4",
+  "question_type": "short_answer",
+  "generated_by": "opus",
+  "instructions": "Answer the questions below. Write NO MORE THAN THREE WORDS AND/OR A NUMBER for each answer.",
+  "word_limit": "NO MORE THAN THREE WORDS AND/OR A NUMBER",
+  "options": null,
+  "visual": null,
+  "stem_block": null,
+  "table": null,
+  "items": [
+    {
+      "number": 31,
+      "prompt": "Sound can be measured; what does the lecturer say noise is instead?",
+      "answer": [
+        "a judgement"
+      ],
+      "accepted_variants": [
+        "a judgement",
+        "judgement",
+        "a judgment",
+        "judgment"
+      ],
+      "evidence": "Noise is a judgement",
+      "answer_point_id": "L4-S4-01",
+      "turn_index": 1,
+      "distractor_used": null,
+      "explanation": "Ses ölçülebilen fiziksel bir olay; gürültü ise bir değerlendirme, yani birinin istemediği ses. Aynı düzeyi duyan iki kişinin rahatsızlığı bu yüzden farklı oluyor.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 32,
+      "prompt": "If the amount of traffic on a road doubles, by how many decibels does the level go up?",
+      "answer": [
+        "3"
+      ],
+      "accepted_variants": [
+        "3",
+        "three",
+        "3 decibels",
+        "three decibels",
+        "3 dB"
+      ],
+      "evidence": "You add three.",
+      "answer_point_id": "L4-S4-05",
+      "turn_index": 2,
+      "distractor_used": "10 decibels",
+      "explanation": "Ölçek logaritmik olduğu için trafiğin ikiye katlanması on desibel değil üç desibel ekliyor; bu da çoğu insanın fark edebildiği en küçük değişime yakın.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 33,
+      "prompt": "Which part of the frequency range does the weighting used for environmental work play down?",
+      "answer": [
+        "the low end"
+      ],
+      "accepted_variants": [
+        "the low end",
+        "low end",
+        "low frequencies",
+        "the low frequencies",
+        "low"
+      ],
+      "evidence": "the weighting used for environmental work discounts the low end heavily",
+      "answer_point_id": "L4-S4-07",
+      "turn_index": 3,
+      "distractor_used": null,
+      "explanation": "Kulak alçak frekanslara çok daha duyarsız olduğu için ölçüm cihazı bir ağırlıklandırma uyguluyor ve alçak uçtaki sesleri büyük ölçüde saymıyor.",
+      "difficulty": "hard"
+    },
+    {
+      "number": 34,
+      "prompt": "How often does a large built-up area have to renew its strategic noise map?",
+      "answer": [
+        "every five years"
+      ],
+      "accepted_variants": [
+        "every five years",
+        "every 5 years",
+        "five years",
+        "5 years"
+      ],
+      "evidence": "refresh it every five years",
+      "answer_point_id": "L4-S4-09",
+      "turn_index": 4,
+      "distractor_used": "every 3 years",
+      "explanation": "Eski ders kitaplarındaki üç yıl rakamı geçerli değil; harita beş yılda bir yenileniyor.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 35,
+      "prompt": "According to the more recent figures, what share of the exposed population is affected by road traffic?",
+      "answer": [
+        "four fifths"
+      ],
+      "accepted_variants": [
+        "four fifths",
+        "four-fifths",
+        "4/5",
+        "nearer four fifths"
+      ],
+      "evidence": "the more recent figures put it nearer four fifths",
+      "answer_point_id": "L4-S4-12",
+      "turn_index": 5,
+      "distractor_used": "two thirds",
+      "explanation": "Eskiden üçte iki diye geçen oran yeni rakamlarda beşte dörde yaklaşıyor; demiryolu ikinci, uçak üçüncü sırada.",
+      "difficulty": "medium"
+    }
+  ]
+}

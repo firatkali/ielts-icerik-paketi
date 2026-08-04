@@ -1,0 +1,188 @@
+{
+  "schema_version": "1.0",
+  "set_id": "L4-note-completion",
+  "skill": "listening",
+  "test_id": "L4",
+  "section": 1,
+  "practice": false,
+  "script_id": "L4-S1",
+  "question_type": "note_completion",
+  "generated_by": "opus",
+  "instructions": "Complete the notes below. Write NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+  "word_limit": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
+  "options": null,
+  "visual": null,
+  "stem_block": "MARCHWOOD COACHES - LOST PROPERTY REPORT\n\nThe journey\nService: the (1) ........ (the airport coach)\nDay of travel: (2) ........\nSeat: three rows from the back, on the left\nThe bag was left in the (3) ........ above the seat\n\nThe bag\nType: rucksack\nColour: (4) ........ , with a grey stripe on the front pocket\nInside: jumper, paperback, walking boots, camera, keys\n\nThe passenger\nSurname: (5) ........\nDaytime telephone: (6) ........\n\nCollecting the bag\nBags are held for three months; after that they go to a (7) ........\nAddress: the depot on Canal Road\nGo in by the side entrance, beside the (8) ........\nTake the reference number and proof of name,\ne.g. a driving licence or a (9) ........\nHandling charge: £(10) ........",
+  "table": null,
+  "items": [
+    {
+      "number": 1,
+      "prompt": "Service: the (1) ........ (the airport coach)",
+      "answer": [
+        "482"
+      ],
+      "accepted_variants": [
+        "482",
+        "four eighty-two"
+      ],
+      "evidence": "The airport coach is the four eighty-two.",
+      "answer_point_id": "L4-S1-01",
+      "turn_index": 4,
+      "distractor_used": "486",
+      "explanation": "Yolcu önce dört yüz seksen altıyı söylüyor; görevli düzeltiyor: o sefer perakende parkına gidiyor, havalimanı otobüsü dört yüz seksen iki.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 2,
+      "prompt": "Day of travel: (2) ........",
+      "answer": [
+        "Wednesday"
+      ],
+      "accepted_variants": [
+        "Wednesday",
+        "Wed"
+      ],
+      "evidence": "It was Wednesday, so the tenth.",
+      "answer_point_id": "L4-S1-02",
+      "turn_index": 7,
+      "distractor_used": "Tuesday",
+      "explanation": "Yolcu önce Salı diyor, sonra Salı'nın izin günü olduğunu hatırlayıp kendini düzeltiyor: yolculuk Çarşamba günü yapılmış.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 3,
+      "prompt": "The bag was left in the (3) ........ above the seat",
+      "answer": [
+        "rack"
+      ],
+      "accepted_variants": [
+        "rack",
+        "luggage rack",
+        "overhead rack"
+      ],
+      "evidence": "I put the bag in the rack above me",
+      "answer_point_id": "L4-S1-06",
+      "turn_index": 11,
+      "distractor_used": null,
+      "explanation": "Çanta koltuğun üstündeki rafa konmuş ve yolcu inerken orada unutulmuş; görevli de kayıpların çoğunun oradan çıktığını söylüyor.",
+      "difficulty": "easy"
+    },
+    {
+      "number": 4,
+      "prompt": "Colour: (4) ........ , with a grey stripe on the front pocket",
+      "answer": [
+        "dark green"
+      ],
+      "accepted_variants": [
+        "dark green"
+      ],
+      "evidence": "This one is dark green",
+      "answer_point_id": "L4-S1-08",
+      "turn_index": 13,
+      "distractor_used": "navy",
+      "explanation": "Yolcu önce lacivert diyor ama hemen düzeltiyor: lacivert olan eski çantası; kaybolan çanta koyu yeşil.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 5,
+      "prompt": "Surname: (5) ........",
+      "answer": [
+        "Thurlbeck"
+      ],
+      "accepted_variants": [
+        "Thurlbeck"
+      ],
+      "evidence": "Thurlbeck — T-H-U-R-L-B-E-C-K.",
+      "answer_point_id": "L4-S1-10",
+      "turn_index": 19,
+      "distractor_used": null,
+      "explanation": "Soyadı seste harf harf söyleniyor: T-H-U-R-L-B-E-C-K. Yazımı zor olduğu için ancak harflendiği için sorulabiliyor.",
+      "difficulty": "easy"
+    },
+    {
+      "number": 6,
+      "prompt": "Daytime telephone: (6) ........",
+      "answer": [
+        "07793441806"
+      ],
+      "accepted_variants": [
+        "07793441806",
+        "07793 441806"
+      ],
+      "evidence": "Oh seven nine three, double four one, eight oh six.",
+      "answer_point_id": "L4-S1-11",
+      "turn_index": 21,
+      "distractor_used": null,
+      "explanation": "Numara gruplar hâlinde söyleniyor; 'double four' iki tane dört demektir, yani 07793 441806.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 7,
+      "prompt": "Bags are held for three months; after that they go to a (7) ........",
+      "answer": [
+        "charity"
+      ],
+      "accepted_variants": [
+        "charity"
+      ],
+      "evidence": "anything unclaimed after that goes to the charity we work with",
+      "answer_point_id": "L4-S1-17",
+      "turn_index": 28,
+      "distractor_used": null,
+      "explanation": "Üç ay içinde alınmayan eşyalar şirketin birlikte çalıştığı hayır kurumuna devrediliyor.",
+      "difficulty": "easy"
+    },
+    {
+      "number": 8,
+      "prompt": "Go in by the side entrance, beside the (8) ........",
+      "answer": [
+        "fuel pumps"
+      ],
+      "accepted_variants": [
+        "fuel pumps",
+        "fuel pump"
+      ],
+      "evidence": "Come in by the side entrance next to the fuel pumps",
+      "answer_point_id": "L4-S1-19",
+      "turn_index": 32,
+      "distractor_used": null,
+      "explanation": "Ana kapı yalnızca araçlara açık ve bariyer yayalar için kalkmıyor; girişin yakıt pompalarının yanındaki yan kapıdan yapılması gerekiyor.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 9,
+      "prompt": "Take the reference number and proof of name, e.g. a driving licence or a (9) ........",
+      "answer": [
+        "bank card"
+      ],
+      "accepted_variants": [
+        "bank card"
+      ],
+      "evidence": "a driving licence or a bank card will do",
+      "answer_point_id": "L4-S1-22",
+      "turn_index": 38,
+      "distractor_used": null,
+      "explanation": "Üzerinde adın yazdığı herhangi bir belge yeterli sayılıyor: ehliyet ya da banka kartı.",
+      "difficulty": "easy"
+    },
+    {
+      "number": 10,
+      "prompt": "Handling charge: £(10) ........",
+      "answer": [
+        "3"
+      ],
+      "accepted_variants": [
+        "3",
+        "three",
+        "£3",
+        "3 pounds"
+      ],
+      "evidence": "There's a handling charge of three pounds.",
+      "answer_point_id": "L4-S1-25",
+      "turn_index": 42,
+      "distractor_used": "£5",
+      "explanation": "Ücret nisanda yapılan değişikliğe kadar beş sterlinmiş; artık üç sterlin.",
+      "difficulty": "medium"
+    }
+  ]
+}

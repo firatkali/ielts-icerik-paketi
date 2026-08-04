@@ -1,0 +1,85 @@
+{
+  "schema_version": "1.0",
+  "set_id": "L4-sentence-completion",
+  "skill": "listening",
+  "test_id": "L4",
+  "section": 3,
+  "practice": false,
+  "script_id": "L4-S3",
+  "question_type": "sentence_completion",
+  "generated_by": "opus",
+  "instructions": "Complete the sentences below. Write NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+  "word_limit": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
+  "options": null,
+  "visual": null,
+  "stem_block": null,
+  "table": null,
+  "items": [
+    {
+      "number": 27,
+      "prompt": "The departmental plotter has to be booked (27) ........ working days before the poster is needed.",
+      "answer": [
+        "three"
+      ],
+      "accepted_variants": [
+        "three",
+        "3"
+      ],
+      "evidence": "It takes three working days, not two",
+      "answer_point_id": "L4-S3-20",
+      "turn_index": 21,
+      "distractor_used": "two",
+      "explanation": "Herkes iki gün sandığı için geçen yıl iki grup teslim tarihini kaçırmış; çizici aslında üç iş günü istiyor.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 28,
+      "prompt": "The tutor says a poster becomes far easier to read if a good deal of (28) ........ is left on it.",
+      "answer": [
+        "white space"
+      ],
+      "accepted_variants": [
+        "white space",
+        "whitespace"
+      ],
+      "evidence": "White space is a large part of what makes a poster readable",
+      "answer_point_id": "L4-S3-22",
+      "turn_index": 23,
+      "distractor_used": null,
+      "explanation": "Bölüm büyük panolara geçtiği için yer bol; danışman bu yeri doldurmamayı, boşluk bırakmayı öğütlüyor.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 29,
+      "prompt": "This year the research day is being held in the (29) ........ of the library.",
+      "answer": [
+        "atrium"
+      ],
+      "accepted_variants": [
+        "atrium"
+      ],
+      "evidence": "The atrium in the library",
+      "answer_point_id": "L4-S3-25",
+      "turn_index": 27,
+      "distractor_used": "the seminar block",
+      "explanation": "Idris seminer bloğunu varsayıyor; danışman düzeltiyor: etkinlik kütüphanenin atriyumunda, daha aydınlık ama daha gürültülü bir yerde yapılacak.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 30,
+      "prompt": "As all the readings were taken in summer, the study can say nothing about (30) ........ ground.",
+      "answer": [
+        "frozen"
+      ],
+      "accepted_variants": [
+        "frozen"
+      ],
+      "evidence": "we have nothing at all on frozen ground",
+      "answer_point_id": "L4-S3-30",
+      "turn_index": 32,
+      "distractor_used": null,
+      "explanation": "Sekiz haftanın tamamı yaz aylarına denk geldiği için donmuş zemine dair hiçbir veri yok; danışman bunu sınırlılık olarak yazmalarını istiyor.",
+      "difficulty": "medium"
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "schema_version": "1.0",
+  "set_id": "L4-plan-map-diagram-labelling",
+  "skill": "listening",
+  "test_id": "L4",
+  "section": 2,
+  "practice": false,
+  "script_id": "L4-S2",
+  "question_type": "plan_map_diagram_labelling",
+  "generated_by": "opus",
+  "instructions": "Label the plan below. Write NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+  "word_limit": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
+  "options": null,
+  "visual": {
+    "kind": "plan",
+    "svg": "<svg viewBox=\"0 0 600 800\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\"><line x1=\"40\" y1=\"30\" x2=\"520\" y2=\"30\" stroke=\"#000\" stroke-width=\"1\"/><line x1=\"40\" y1=\"30\" x2=\"40\" y2=\"720\" stroke=\"#000\" stroke-width=\"1\"/><line x1=\"520\" y1=\"30\" x2=\"520\" y2=\"190\" stroke=\"#000\" stroke-width=\"1\"/><line x1=\"520\" y1=\"250\" x2=\"520\" y2=\"720\" stroke=\"#000\" stroke-width=\"1\"/><line x1=\"40\" y1=\"720\" x2=\"245\" y2=\"720\" stroke=\"#000\" stroke-width=\"1\"/><line x1=\"305\" y1=\"720\" x2=\"520\" y2=\"720\" stroke=\"#000\" stroke-width=\"1\"/><line x1=\"245\" y1=\"720\" x2=\"245\" y2=\"400\" stroke=\"#000\" stroke-width=\"1\"/><line x1=\"305\" y1=\"720\" x2=\"305\" y2=\"400\" stroke=\"#000\" stroke-width=\"1\"/><line x1=\"247\" y1=\"706\" x2=\"303\" y2=\"706\" stroke=\"#000\" stroke-width=\"3\"/><text x=\"312\" y=\"710\" text-anchor=\"start\">entrance barrier</text><text x=\"275\" y=\"676\" text-anchor=\"middle\">drive</text><line x1=\"275\" y1=\"778\" x2=\"275\" y2=\"745\" stroke=\"#000\" stroke-width=\"1\"/><polygon points=\"275,733 268,747 282,747\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"275\" y=\"792\" text-anchor=\"middle\">MAIN ENTRANCE (Ferry Lane)</text><line x1=\"570\" y1=\"120\" x2=\"570\" y2=\"80\" stroke=\"#000\" stroke-width=\"1\"/><polygon points=\"570,68 564,82 576,82\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"570\" y=\"142\" text-anchor=\"middle\">N</text><rect x=\"95\" y=\"575\" width=\"130\" height=\"85\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"160\" y=\"618\" text-anchor=\"middle\">16</text><line x1=\"135\" y1=\"628\" x2=\"185\" y2=\"628\" stroke=\"#000\" stroke-width=\"1\"/><rect x=\"95\" y=\"490\" width=\"130\" height=\"68\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"160\" y=\"518\" text-anchor=\"middle\">TOILETS AND</text><text x=\"160\" y=\"534\" text-anchor=\"middle\">WATER POINT</text><rect x=\"95\" y=\"395\" width=\"130\" height=\"72\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"160\" y=\"424\" text-anchor=\"middle\">20</text><line x1=\"135\" y1=\"434\" x2=\"185\" y2=\"434\" stroke=\"#000\" stroke-width=\"1\"/><rect x=\"330\" y=\"410\" width=\"150\" height=\"152\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><line x1=\"330\" y1=\"500\" x2=\"480\" y2=\"500\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"405\" y=\"460\" text-anchor=\"middle\">REUSE SHOP</text><text x=\"405\" y=\"527\" text-anchor=\"middle\">17</text><line x1=\"380\" y1=\"537\" x2=\"430\" y2=\"537\" stroke=\"#000\" stroke-width=\"1\"/><rect x=\"330\" y=\"575\" width=\"150\" height=\"85\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"405\" y=\"622\" text-anchor=\"middle\">CAR PARK</text><rect x=\"185\" y=\"300\" width=\"58\" height=\"60\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><rect x=\"248\" y=\"300\" width=\"58\" height=\"60\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><rect x=\"311\" y=\"300\" width=\"58\" height=\"60\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><rect x=\"374\" y=\"300\" width=\"58\" height=\"60\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"95\" y=\"320\" text-anchor=\"middle\">GARDEN</text><text x=\"95\" y=\"338\" text-anchor=\"middle\">WASTE BAYS</text><path d=\"M 262,400 L 262,382 L 139,382 L 139,300\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><path d=\"M 288,400 L 288,382 L 450,382 L 450,215\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><line x1=\"100\" y1=\"300\" x2=\"100\" y2=\"100\" stroke=\"#000\" stroke-width=\"1\"/><line x1=\"178\" y1=\"300\" x2=\"178\" y2=\"100\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"139\" y=\"215\" text-anchor=\"middle\">18</text><line x1=\"114\" y1=\"225\" x2=\"164\" y2=\"225\" stroke=\"#000\" stroke-width=\"1\"/><path d=\"M 116,270 L 139,254 L 162,270\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><path d=\"M 116,160 L 139,144 L 162,160\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><rect x=\"190\" y=\"240\" width=\"88\" height=\"50\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"234\" y=\"270\" text-anchor=\"middle\">WOOD</text><rect x=\"190\" y=\"175\" width=\"88\" height=\"50\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"234\" y=\"205\" text-anchor=\"middle\">RUBBLE</text><rect x=\"190\" y=\"110\" width=\"88\" height=\"50\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"234\" y=\"135\" text-anchor=\"middle\">19</text><line x1=\"209\" y1=\"145\" x2=\"259\" y2=\"145\" stroke=\"#000\" stroke-width=\"1\"/><rect x=\"295\" y=\"235\" width=\"125\" height=\"60\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"357\" y=\"262\" text-anchor=\"middle\">PAINT AND</text><text x=\"357\" y=\"280\" text-anchor=\"middle\">CHEMICALS</text><rect x=\"100\" y=\"40\" width=\"82\" height=\"52\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"141\" y=\"72\" text-anchor=\"middle\">GENERAL</text><rect x=\"192\" y=\"40\" width=\"82\" height=\"52\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"233\" y=\"72\" text-anchor=\"middle\">WASTE</text><path d=\"M 178,98 L 300,98 L 300,215 L 508,215\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><rect x=\"330\" y=\"120\" width=\"140\" height=\"75\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"400\" y=\"145\" text-anchor=\"middle\">GLASS, CANS</text><text x=\"400\" y=\"163\" text-anchor=\"middle\">AND PLASTIC</text><text x=\"400\" y=\"181\" text-anchor=\"middle\">BANKS</text><line x1=\"520\" y1=\"196\" x2=\"520\" y2=\"244\" stroke=\"#000\" stroke-width=\"3\"/><line x1=\"508\" y1=\"215\" x2=\"548\" y2=\"215\" stroke=\"#000\" stroke-width=\"1\"/><polygon points=\"560,215 546,209 546,221\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"556\" y=\"185\" text-anchor=\"middle\">exit barrier</text></svg>",
+    "alt": "Halstock geri dönüşüm merkezinin saha planı. Ana giriş (Ferry Lane), giriş bariyeri, iç yol, tuvaletler ve su noktası, otopark, tek katlı uzun binadaki yeniden kullanım dükkânı, dört bahçe atığı bölmesi, ahşap ve moloz konteynerleri, boya ve kimyasal deposu, genel atık konteynerleri, cam-kutu-plastik kumbaraları, çıkış bariyeri ve kuzey oku etiketli; 16-20 numaralı beş yer etiketsiz bırakılmış. Rampanın yukarı yönü ok işaretleriyle gösterilmiştir.",
+    "labels": [
+      "16",
+      "17",
+      "18",
+      "19",
+      "20"
+    ]
+  },
+  "stem_block": null,
+  "table": null,
+  "items": [
+    {
+      "number": 16,
+      "prompt": "Space 16 on the plan",
+      "answer": [
+        "site office"
+      ],
+      "accepted_variants": [
+        "site office",
+        "office"
+      ],
+      "evidence": "Immediately on your left is the site office",
+      "answer_point_id": "L4-S2-07",
+      "turn_index": 3,
+      "distractor_used": null,
+      "explanation": "Ferry Lane'deki giriş bariyerinden geçince hemen solda kalan yeşil kabin saha ofisidir; tuvaletler ve su noktası da planda onun arkasında etiketli duruyor.",
+      "difficulty": "easy"
+    },
+    {
+      "number": 17,
+      "prompt": "Space 17 on the plan",
+      "answer": [
+        "textiles bank"
+      ],
+      "accepted_variants": [
+        "textiles bank",
+        "textile bank"
+      ],
+      "evidence": "the textiles bank stands at the near end of that same building",
+      "answer_point_id": "L4-S2-11",
+      "turn_index": 4,
+      "distractor_used": null,
+      "explanation": "Yeniden kullanım dükkânı otoparkın yanındaki tek katlı uzun binada; tekstil kumbarası aynı binanın girişe yakın ucunda, yani planda dükkânın güneyindeki bölümde.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 18,
+      "prompt": "Space 18 on the plan",
+      "answer": [
+        "ramp"
+      ],
+      "accepted_variants": [
+        "ramp",
+        "the ramp"
+      ],
+      "evidence": "the left-hand side takes you up the ramp",
+      "answer_point_id": "L4-S2-37",
+      "turn_index": 5,
+      "distractor_used": null,
+      "explanation": "Bahçe atığı bölmelerinin ötesinde yol ikiye ayrılıyor; sol kol yukarı, rampaya çıkıyor. Planda yukarı yönü ok işaretleriyle gösterilen dar koridor budur.",
+      "difficulty": "easy"
+    },
+    {
+      "number": 19,
+      "prompt": "Space 19 on the plan",
+      "answer": [
+        "scrap metal"
+      ],
+      "accepted_variants": [
+        "scrap metal",
+        "metal"
+      ],
+      "evidence": "Along the right-hand side of the ramp are the skips for wood, rubble and scrap metal",
+      "answer_point_id": "L4-S2-13",
+      "turn_index": 6,
+      "distractor_used": null,
+      "explanation": "Rampanın sağ tarafındaki konteynerler yukarı çıkış yönünde ahşap, moloz, hurda metal sırasındadır; planda ilk ikisi yazılı olduğu için en üstteki hurda metal konteyneridir.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 20,
+      "prompt": "Space 20 on the plan",
+      "answer": [
+        "electrical store"
+      ],
+      "accepted_variants": [
+        "electrical store",
+        "electricals store"
+      ],
+      "evidence": "The electrical store is opposite the reuse shop",
+      "answer_point_id": "L4-S2-16",
+      "turn_index": 7,
+      "distractor_used": null,
+      "explanation": "Fişi ya da pili olan her şey elektrikli eşya deposuna gidiyor; bu depo yeniden kullanım dükkânının tam karşısında, yolun batı tarafındadır.",
+      "difficulty": "medium"
+    }
+  ]
+}

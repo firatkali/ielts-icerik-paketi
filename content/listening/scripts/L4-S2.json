@@ -547,6 +547,18 @@
         "note_completion",
         "short_answer"
       ]
+    },
+    {
+      "id": "L4-S2-37",
+      "kind": "place",
+      "value": "the left-hand branch beyond the garden waste bays goes up the ramp",
+      "quote": "the left-hand side takes you up the ramp",
+      "turn_index": 5,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "plan_map_diagram_labelling"
+      ]
     }
   ],
   "spatial_description": {

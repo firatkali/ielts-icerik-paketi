@@ -1,0 +1,101 @@
+{
+  "schema_version": "1.0",
+  "set_id": "L4-flow-chart-completion",
+  "skill": "listening",
+  "test_id": "L4",
+  "section": 4,
+  "practice": false,
+  "script_id": "L4-S4",
+  "question_type": "flow_chart_completion",
+  "generated_by": "opus",
+  "instructions": "Complete the flow-chart below. Write ONE WORD AND/OR A NUMBER for each answer.",
+  "word_limit": "ONE WORD AND/OR A NUMBER",
+  "options": null,
+  "visual": null,
+  "stem_block": "BRINGING DOWN THE NOISE FROM A ROAD\n\nWork through the options in this order:\nat the source → along the path → at the (36) ........\n↓\nAT THE SOURCE\nA surface with an open texture takes in part of the noise made in the\ntyre tread, but the gain shrinks as the (37) ........ fill\nA lower speed limit is worth two to three decibels and costs almost nothing\n↓\nALONG THE PATH\nA barrier is only working while it hides the wheels from view\nAn earth bund does the same job and passes for (38) ........\nA line of trees changes nothing unless the belt is some (39) ........ metres deep\n↓\nAT THE RECEIVER\nSecondary glazing is thrown away the moment a window is opened, so it is\nbetter to plan the building with its (40) ........ away from the road",
+  "table": null,
+  "items": [
+    {
+      "number": 36,
+      "prompt": "at the source → along the path → at the (36) ........",
+      "answer": [
+        "receiver"
+      ],
+      "accepted_variants": [
+        "receiver"
+      ],
+      "evidence": "at the source, along the path, at the receiver",
+      "answer_point_id": "L4-S4-18",
+      "turn_index": 7,
+      "distractor_used": null,
+      "explanation": "Gürültü denetiminde sıralama hep aynıdır: önce kaynakta, sonra yol boyunca, en son alıcıda önlem alınır.",
+      "difficulty": "easy"
+    },
+    {
+      "number": 37,
+      "prompt": "A surface with an open texture takes in part of the noise made in the tyre tread, but the gain shrinks as the (37) ........ fill",
+      "answer": [
+        "pores"
+      ],
+      "accepted_variants": [
+        "pores"
+      ],
+      "evidence": "the benefit decays steadily as the pores fill",
+      "answer_point_id": "L4-S4-20",
+      "turn_index": 8,
+      "distractor_used": null,
+      "explanation": "Gözenekli asfaltın kazancı zamanla azalıyor, çünkü gözenekler dolduğu için yüzey sesi emmez hâle geliyor.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 38,
+      "prompt": "An earth bund does the same job and passes for (38) ........",
+      "answer": [
+        "landscape"
+      ],
+      "accepted_variants": [
+        "landscape"
+      ],
+      "evidence": "an earth bund does the same work while looking like landscape",
+      "answer_point_id": "L4-S4-24",
+      "turn_index": 9,
+      "distractor_used": null,
+      "explanation": "Toprak set duvarla aynı işi görüyor ama görünüş olarak arazinin bir parçası gibi durduğu için tercih ediliyor.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 39,
+      "prompt": "A line of trees changes nothing unless the belt is some (39) ........ metres deep",
+      "answer": [
+        "30"
+      ],
+      "accepted_variants": [
+        "30",
+        "thirty"
+      ],
+      "evidence": "you need a dense belt of something closer to thirty metres",
+      "answer_point_id": "L4-S4-25",
+      "turn_index": 10,
+      "distractor_used": "10 metres",
+      "explanation": "İnsanların aklındaki on metrelik ağaç şeridi ölçülen düzeyi değiştirmiyor; birkaç desibel için otuz metreye yakın sık bir kuşak gerekiyor.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 40,
+      "prompt": "Secondary glazing is thrown away the moment a window is opened, so it is better to plan the building with its (40) ........ away from the road",
+      "answer": [
+        "bedrooms"
+      ],
+      "accepted_variants": [
+        "bedrooms",
+        "bedroom"
+      ],
+      "evidence": "put the bedrooms on the quiet side of the building",
+      "answer_point_id": "L4-S4-29",
+      "turn_index": 11,
+      "distractor_used": null,
+      "explanation": "Kapalı tutulması gereken cam yazın açıldığı için kazanç kayboluyor; asıl çözüm yatak odalarını binanın sessiz tarafına yerleştirmek.",
+      "difficulty": "medium"
+    }
+  ]
+}
