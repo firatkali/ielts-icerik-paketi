@@ -1,0 +1,85 @@
+{
+  "schema_version": "1.0",
+  "set_id": "L5-sentence-completion",
+  "skill": "listening",
+  "test_id": "L5",
+  "section": 3,
+  "practice": false,
+  "script_id": "L5-S3",
+  "question_type": "sentence_completion",
+  "generated_by": "opus",
+  "instructions": "Complete the sentences below. Write NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+  "word_limit": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
+  "options": null,
+  "visual": null,
+  "stem_block": null,
+  "table": null,
+  "items": [
+    {
+      "number": 27,
+      "prompt": "The questionnaire is to be tried out first on (27) ........ people who have no connection with the project.",
+      "answer": [
+        "20"
+      ],
+      "accepted_variants": [
+        "20",
+        "twenty"
+      ],
+      "evidence": "Twenty, and not on each other.",
+      "answer_point_id": "L5-S3-16",
+      "turn_index": 24,
+      "distractor_used": "10",
+      "explanation": "Marit pilot uygulamayı on kişiyle yapmayı düşünüyor; danışman sayıyı yirmiye çıkarıyor ve arkadaşlar üzerinde denenmemesini istiyor.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 28,
+      "prompt": "Neither the tables nor the questionnaire adds to the word count, because both belong in the (28) ........",
+      "answer": [
+        "appendix"
+      ],
+      "accepted_variants": [
+        "appendix"
+      ],
+      "evidence": "Tables and the questionnaire itself go in the appendix and aren't counted.",
+      "answer_point_id": "L5-S3-22",
+      "turn_index": 30,
+      "distractor_used": null,
+      "explanation": "Rapor 2.500 kelime; tablolar ve anket formu ekte yer aldığı için bu sınıra dahil edilmiyor.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 29,
+      "prompt": "The seminar room has been taken away from the students, so they will now work in the (29) ........ on the second floor.",
+      "answer": [
+        "study pods"
+      ],
+      "accepted_variants": [
+        "study pods",
+        "study pod"
+      ],
+      "evidence": "You've got the study pods on the second floor instead",
+      "answer_point_id": "L5-S3-24",
+      "turn_index": 34,
+      "distractor_used": "the seminar room",
+      "explanation": "Perşembe günleri için ayırtılan seminer odası ders programına verilmiş; öğrencilere ikinci kattaki çalışma kabinleri tahsis edilmiş.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 30,
+      "prompt": "The tutor asks to be sent the (30) ........ before the pilot is carried out rather than after it.",
+      "answer": [
+        "draft questionnaire"
+      ],
+      "accepted_variants": [
+        "draft questionnaire"
+      ],
+      "evidence": "And send me the draft questionnaire before you pilot it, not afterwards.",
+      "answer_point_id": "L5-S3-30",
+      "turn_index": 40,
+      "distractor_used": null,
+      "explanation": "Danışmanın son uyarısı: anket taslağı pilot uygulamadan sonra değil, önce kendisine gönderilmeli.",
+      "difficulty": "easy"
+    }
+  ]
+}

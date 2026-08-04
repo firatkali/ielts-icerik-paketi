@@ -1,0 +1,103 @@
+{
+  "schema_version": "1.0",
+  "set_id": "L5-summary-completion",
+  "skill": "listening",
+  "test_id": "L5",
+  "section": 4,
+  "practice": false,
+  "script_id": "L5-S4",
+  "question_type": "summary_completion",
+  "generated_by": "opus",
+  "instructions": "Complete the summary below. Write ONE WORD AND/OR A NUMBER for each answer.",
+  "word_limit": "ONE WORD AND/OR A NUMBER",
+  "options": null,
+  "visual": null,
+  "stem_block": "HOW THE PLASTIC MOVES, AND HOW IT IS COUNTED\n\nA fragment reaching the sea floats to begin with. Sunlight and the movement of the water leave the polymer brittle enough to break apart, and living organisms then form a coating over each piece — the lecturer's name for this is (36) ......... The added weight takes the particle downwards; in colder water the coating is grazed off, the particle lifts again, and a great deal of the material is therefore oscillating rather than lying still on the bottom.\n\nSamples at the surface are taken with a manta trawl pulled along beside a boat. Two such studies can be set against each other only when both of them report the (37) ........ size of the net, and a great many papers never do. Dated cores give a cleaner record: the first plastic particles turn up in sediment from the (38) ........, and the amount has roughly doubled every fifteen years since. On beaches, where the counting is largely done by volunteers, ten kinds of product make up some three quarters of what is recorded, and (39) ........, which escape during transport rather than being thrown away, are listed on their own in almost every survey.\n\nFour responses are ranked: better design, extended producer responsibility, interception in rivers — of limited use, since booms work only in low flow — and, most valuable of all, (40) ........ the monitoring, so that size classes and reporting units are agreed.",
+  "table": null,
+  "items": [
+    {
+      "number": 36,
+      "prompt": "living organisms then form a coating over each piece — the lecturer's name for this is (36) ........",
+      "answer": [
+        "biofouling"
+      ],
+      "accepted_variants": [
+        "biofouling",
+        "bio-fouling"
+      ],
+      "evidence": "we call that biofouling",
+      "answer_point_id": "L5-S4-13",
+      "turn_index": 6,
+      "distractor_used": null,
+      "explanation": "Kırılan parçanın yüzeyinde canlıların oluşturduğu tabakaya biyokirlenme deniyor; parçacığı ağırlaştırıp batıran şey bu tabaka.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 37,
+      "prompt": "Two such studies can be set against each other only when both of them report the (37) ........ size of the net",
+      "answer": [
+        "mesh"
+      ],
+      "accepted_variants": [
+        "mesh"
+      ],
+      "evidence": "you cannot put two studies side by side unless you know the mesh each of them used",
+      "answer_point_id": "L5-S4-18",
+      "turn_index": 7,
+      "distractor_used": null,
+      "explanation": "Ağ gözü daraldıkça metreküpte sayılan parçacık artıyor; bu yüzden göz açıklığı bildirilmeyen iki çalışma karşılaştırılamıyor.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 38,
+      "prompt": "the first plastic particles turn up in sediment from the (38) ........",
+      "answer": [
+        "1950s"
+      ],
+      "accepted_variants": [
+        "1950s",
+        "1950's"
+      ],
+      "evidence": "show plastic particles appearing first in layers laid down in the nineteen fifties",
+      "answer_point_id": "L5-S4-19",
+      "turn_index": 8,
+      "distractor_used": null,
+      "explanation": "Korunaklı havzalardan alınan tarihli karotlarda plastik ilk kez elli yılların katmanlarında görülüyor; miktar o günden beri yaklaşık on beş yılda bir ikiye katlanıyor.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 39,
+      "prompt": "and (39) ........, which escape during transport rather than being thrown away, are listed on their own in almost every survey",
+      "answer": [
+        "pellets"
+      ],
+      "accepted_variants": [
+        "pellets",
+        "pellet"
+      ],
+      "evidence": "The other category worth naming is pellets — the raw granules that are melted down to make everything else.",
+      "answer_point_id": "L5-S4-23",
+      "turn_index": 9,
+      "distractor_used": null,
+      "explanation": "Peletler, her şeyin eritilerek yapıldığı ham granüller; atılarak değil taşıma sırasında kaybedildikleri için ayrı bir kalem olarak sayılıyorlar.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 40,
+      "prompt": "and, most valuable of all, (40) ........ the monitoring, so that size classes and reporting units are agreed",
+      "answer": [
+        "standardising"
+      ],
+      "accepted_variants": [
+        "standardising",
+        "standardizing"
+      ],
+      "evidence": "And fourth — least photogenic, most useful — standardising the monitoring.",
+      "answer_point_id": "L5-S4-28",
+      "turn_index": 11,
+      "distractor_used": null,
+      "explanation": "Dördüncü ve öğretim üyesine göre en yararlı adım, izlemenin standartlaştırılması; alandaki tartışmanın yarısı okyanusa değil aritmetiğe dair.",
+      "difficulty": "medium"
+    }
+  ]
+}

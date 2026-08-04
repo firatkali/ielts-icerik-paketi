@@ -1,0 +1,192 @@
+{
+  "schema_version": "1.0",
+  "set_id": "L5-form-completion",
+  "skill": "listening",
+  "test_id": "L5",
+  "section": 1,
+  "practice": false,
+  "script_id": "L5-S1",
+  "question_type": "form_completion",
+  "generated_by": "opus",
+  "instructions": "Complete the form below. Write NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+  "word_limit": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
+  "options": null,
+  "visual": null,
+  "stem_block": "HOLLOWFIELD CYCLE TOURS - GREENWAY RIDE\nBooking form\n\nDate of ride: Saturday (1) ........ August\nDeparture: (2) ........ a.m.\nName: (3) ........\nLocal address: (4) ........ Mill Lane\nPrice per rider: £(5) ........\nLength of route: (6) ........ kilometres\nLunch: included; the group stops at a (7) ........ halfway round\nRider must bring: a (8) ........\nMeeting point: the (9) ........, Priory Street\nBooking reference: (10) ........",
+  "table": null,
+  "items": [
+    {
+      "number": 1,
+      "prompt": "Date of ride: Saturday (1) ........ August",
+      "answer": [
+        "29"
+      ],
+      "accepted_variants": [
+        "29",
+        "29th",
+        "twenty-ninth"
+      ],
+      "evidence": "I could offer you the twenty-ninth.",
+      "answer_point_id": "L5-S1-01",
+      "turn_index": 6,
+      "distractor_used": "22",
+      "explanation": "Müşteri önce ayın yirmi ikisini istiyor, ama o gün dolu; görevlinin önerdiği ve müşterinin kabul ettiği tarih ayın yirmi dokuzu.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 2,
+      "prompt": "Departure: (2) ........ a.m.",
+      "answer": [
+        "9.15"
+      ],
+      "accepted_variants": [
+        "9.15",
+        "9:15",
+        "09.15",
+        "09:15"
+      ],
+      "evidence": "So that's quarter past nine, not quarter to ten.",
+      "answer_point_id": "L5-S1-03",
+      "turn_index": 8,
+      "distractor_used": "9.45",
+      "explanation": "Ayın son hafta sonunda tur her zamankinden yarım saat önce başlıyor; kalkış dokuz kırk beş değil, dokuz on beş.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 3,
+      "prompt": "Name: (3) ........",
+      "answer": [
+        "Ferrandez"
+      ],
+      "accepted_variants": [
+        "Ferrandez"
+      ],
+      "evidence": "Yes, it's Ferrandez. That's F-E-R-R-A-N-D-E-Z.",
+      "answer_point_id": "L5-S1-04",
+      "turn_index": 11,
+      "distractor_used": null,
+      "explanation": "Rezervasyonu yaptıran kişi soyadını harf harf söylüyor: F-E-R-R-A-N-D-E-Z.",
+      "difficulty": "easy"
+    },
+    {
+      "number": 4,
+      "prompt": "Local address: (4) ........ Mill Lane",
+      "answer": [
+        "14A"
+      ],
+      "accepted_variants": [
+        "14A",
+        "14a",
+        "fourteen A"
+      ],
+      "evidence": "Number fourteen — no, hang on, it's fourteen A.",
+      "answer_point_id": "L5-S1-07",
+      "turn_index": 15,
+      "distractor_used": "14",
+      "explanation": "Müşteri önce on dört diyor, sonra kendini düzeltiyor: kaldıkları pansiyonun numarası 14A.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 5,
+      "prompt": "Price per rider: £(5) ........",
+      "answer": [
+        "35"
+      ],
+      "accepted_variants": [
+        "35",
+        "£35",
+        "35 pounds"
+      ],
+      "evidence": "The ride is thirty-five pounds a head",
+      "answer_point_id": "L5-S1-09",
+      "turn_index": 20,
+      "distractor_used": null,
+      "explanation": "Kişi başı tur ücreti 35 pound; hibrit ya da yol bisikleti bu fiyata dahil, yalnızca elektrikli bisiklet ek ücrete tabi.",
+      "difficulty": "easy"
+    },
+    {
+      "number": 6,
+      "prompt": "Length of route: (6) ........ kilometres",
+      "answer": [
+        "42"
+      ],
+      "accepted_variants": [
+        "42",
+        "forty-two"
+      ],
+      "evidence": "The loop is forty-two kilometres.",
+      "answer_point_id": "L5-S1-12",
+      "turn_index": 26,
+      "distractor_used": "38",
+      "explanation": "Broşürde hâlâ 38 kilometre yazıyor; ilkbaharda güzergâh ana yoldan kaçınmak için değiştirilince mesafe 42 kilometreye çıkmış.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 7,
+      "prompt": "Lunch: included; the group stops at a (7) ........ halfway round",
+      "answer": [
+        "farm café"
+      ],
+      "accepted_variants": [
+        "farm café",
+        "farm cafe"
+      ],
+      "evidence": "We stop at a farm café at the halfway point.",
+      "answer_point_id": "L5-S1-15",
+      "turn_index": 30,
+      "distractor_used": null,
+      "explanation": "Öğle yemeği fiyata dahil; grup yolun yarısındaki çiftlik kafesinde mola veriyor.",
+      "difficulty": "easy"
+    },
+    {
+      "number": 8,
+      "prompt": "Rider must bring: a (8) ........",
+      "answer": [
+        "water bottle"
+      ],
+      "accepted_variants": [
+        "water bottle"
+      ],
+      "evidence": "What we can't lend you is a water bottle, so do bring one of those.",
+      "answer_point_id": "L5-S1-18",
+      "turn_index": 32,
+      "distractor_used": null,
+      "explanation": "Kask şirket tarafından veriliyor; ödünç verilemeyen, yani katılımcının kendisinin getirmesi gereken şey su matarası.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 9,
+      "prompt": "Meeting point: the (9) ........, Priory Street",
+      "answer": [
+        "Waterside Depot"
+      ],
+      "accepted_variants": [
+        "Waterside Depot"
+      ],
+      "evidence": "so the meeting point is now the Waterside Depot on Priory Street",
+      "answer_point_id": "L5-S1-22",
+      "turn_index": 36,
+      "distractor_used": "station car park",
+      "explanation": "Grup eskiden istasyon otoparkında toplanıyordu; otobüslere engel olduğu için buluşma yeri Priory Street'teki Waterside Depot'a taşınmış.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 10,
+      "prompt": "Booking reference: (10) ........",
+      "answer": [
+        "GW941"
+      ],
+      "accepted_variants": [
+        "GW941",
+        "GW 941",
+        "G-W-941"
+      ],
+      "evidence": "It's G-W-nine four one.",
+      "answer_point_id": "L5-S1-25",
+      "turn_index": 44,
+      "distractor_used": null,
+      "explanation": "Görevli öğleden sonra gönderilecek onay yazısındaki referansı harf ve rakam olarak veriyor: G-W-941.",
+      "difficulty": "medium"
+    }
+  ]
+}
