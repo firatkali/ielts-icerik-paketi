@@ -1,0 +1,188 @@
+{
+  "schema_version": "1.0",
+  "set_id": "L3-form-completion",
+  "skill": "listening",
+  "test_id": "L3",
+  "section": 1,
+  "practice": false,
+  "script_id": "L3-S1",
+  "question_type": "form_completion",
+  "generated_by": "opus",
+  "instructions": "Complete the form below. Write ONE WORD AND/OR A NUMBER for each answer.",
+  "word_limit": "ONE WORD AND/OR A NUMBER",
+  "options": null,
+  "visual": null,
+  "stem_block": "QUARRY FIELDS LEISURE CENTRE - MEMBERSHIP FORM\n\nPersonal details\nSurname: (1) ........\nAddress: flat (2) ........, Pennyfield Court, Pennyfield Road\n\nMembership\nType chosen: full membership\nCost: £(3) ........ a month\n(off-peak membership: weekdays only, ends at (4) ........ p.m.)\nPayment: direct debit, taken on the (5) ........ of each month\nTo cancel: inform the centre in (6) ........, one month beforehand\n\nBefore using the gym\nInduction with an instructor: lasts roughly (7) ........ minutes\nWhat to bring: a towel, plus indoor (8) ........\n\nOther information\nClasses: booked online or through the app - not by (9) ........\nClimbing wall: shut until the end of (10) ........",
+  "table": null,
+  "items": [
+    {
+      "number": 1,
+      "prompt": "Surname: (1) ........",
+      "answer": [
+        "Kirkegaard"
+      ],
+      "accepted_variants": [
+        "Kirkegaard"
+      ],
+      "evidence": "Kirkegaard — K-I-R-K-E-G-A-A-R-D.",
+      "answer_point_id": "L3-S1-01",
+      "turn_index": 5,
+      "distractor_used": null,
+      "explanation": "Soyadı seste harf harf söyleniyor: K-I-R-K-E-G-A-A-R-D. Yazımı zor olduğu için ancak harflendiği için sorulabiliyor.",
+      "difficulty": "easy"
+    },
+    {
+      "number": 2,
+      "prompt": "Address: flat (2) ........, Pennyfield Court, Pennyfield Road",
+      "answer": [
+        "9"
+      ],
+      "accepted_variants": [
+        "9",
+        "nine"
+      ],
+      "evidence": "It's flat nine, Pennyfield Court, and that's on Pennyfield Road.",
+      "answer_point_id": "L3-S1-02",
+      "turn_index": 7,
+      "distractor_used": "flat 2",
+      "explanation": "Müşteri önce iki numarayı söyleyip hemen düzeltiyor: eski adresi orasıymış, yeni adresi dokuz numaralı daire.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 3,
+      "prompt": "Cost: £(3) ........ a month",
+      "answer": [
+        "38"
+      ],
+      "accepted_variants": [
+        "38",
+        "thirty-eight",
+        "£38"
+      ],
+      "evidence": "The full one is thirty-eight pounds a month and gets you in whenever we're open.",
+      "answer_point_id": "L3-S1-05",
+      "turn_index": 10,
+      "distractor_used": null,
+      "explanation": "Tam üyelik ayda otuz sekiz sterlin; yirmi altı sterlinlik olan sınırlı saatli (off-peak) üyeliktir ve müşteri onu almıyor.",
+      "difficulty": "easy"
+    },
+    {
+      "number": 4,
+      "prompt": "(off-peak membership: weekdays only, ends at (4) ........ p.m.)",
+      "answer": [
+        "4"
+      ],
+      "accepted_variants": [
+        "4",
+        "four",
+        "4pm"
+      ],
+      "evidence": "It was five until the spring, but it's four now.",
+      "answer_point_id": "L3-S1-07",
+      "turn_index": 12,
+      "distractor_used": "5 p.m.",
+      "explanation": "Dışarıdaki afişte beş yazıyor ama danışman afişin eskidiğini söylüyor: sınırlı saatli üyelik artık saat dörtte bitiyor.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 5,
+      "prompt": "Payment: direct debit, taken on the (5) ........ of each month",
+      "answer": [
+        "first"
+      ],
+      "accepted_variants": [
+        "first",
+        "1st",
+        "1"
+      ],
+      "evidence": "It comes out by direct debit on the first of the month.",
+      "answer_point_id": "L3-S1-10",
+      "turn_index": 16,
+      "distractor_used": "the 15th",
+      "explanation": "Ödeme ayın birinde çekiliyor; on beşi eski uygulamaydı ve Ocak ayında herkes ayın birine geçirilmiş.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 6,
+      "prompt": "To cancel: inform the centre in (6) ........, one month beforehand",
+      "answer": [
+        "writing"
+      ],
+      "accepted_variants": [
+        "writing"
+      ],
+      "evidence": "you just give us a month's notice in writing if you want to stop",
+      "answer_point_id": "L3-S1-11",
+      "turn_index": 18,
+      "distractor_used": null,
+      "explanation": "Asgari sözleşme süresi kalkmış; üyelikten çıkmak için bir ay önceden yazılı bildirim yeterli.",
+      "difficulty": "easy"
+    },
+    {
+      "number": 7,
+      "prompt": "Induction with an instructor: lasts roughly (7) ........ minutes",
+      "answer": [
+        "40"
+      ],
+      "accepted_variants": [
+        "40",
+        "forty"
+      ],
+      "evidence": "It takes about forty minutes.",
+      "answer_point_id": "L3-S1-13",
+      "turn_index": 20,
+      "distractor_used": "an hour",
+      "explanation": "Müşteriye bir saat denmiş ama kondisyon testi ayrı randevuya alındığı için tanıtım turu artık kırk dakika sürüyor.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 8,
+      "prompt": "What to bring: a towel, plus indoor (8) ........",
+      "answer": [
+        "trainers"
+      ],
+      "accepted_variants": [
+        "trainers"
+      ],
+      "evidence": "Bring a towel and a pair of indoor trainers",
+      "answer_point_id": "L3-S1-16",
+      "turn_index": 26,
+      "distractor_used": null,
+      "explanation": "Stüdyo zemini yenilendiği için dışarıda giyilmiş ayakkabıyla girilemiyor; havlunun yanında kapalı alan spor ayakkabısı isteniyor.",
+      "difficulty": "easy"
+    },
+    {
+      "number": 9,
+      "prompt": "Classes: booked online or through the app - not by (9) ........",
+      "answer": [
+        "telephone"
+      ],
+      "accepted_variants": [
+        "telephone",
+        "phone"
+      ],
+      "evidence": "we stopped taking bookings over the telephone",
+      "answer_point_id": "L3-S1-21",
+      "turn_index": 30,
+      "distractor_used": null,
+      "explanation": "Ders kaydı yalnızca internet sitesinden ya da uygulamadan yapılıyor; telefonla rezervasyon alınması bırakılmış.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 10,
+      "prompt": "Climbing wall: shut until the end of (10) ........",
+      "answer": [
+        "April"
+      ],
+      "accepted_variants": [
+        "April"
+      ],
+      "evidence": "That reopens at the end of April.",
+      "answer_point_id": "L3-S1-22",
+      "turn_index": 32,
+      "distractor_used": null,
+      "explanation": "Tırmanma duvarı tutamakları değiştirildiği için kapalı; nisan sonunda yeniden açılıyor.",
+      "difficulty": "medium"
+    }
+  ]
+}

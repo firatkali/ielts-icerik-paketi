@@ -311,6 +311,19 @@
       ]
     },
     {
+      "id": "L3-S4-27",
+      "kind": "limitation",
+      "value": "during regeneration some plants cross with the neighbouring row",
+      "quote": "a few cross with the neighbouring row",
+      "turn_index": 8,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "short_answer",
+        "summary_completion"
+      ]
+    },
+    {
       "id": "L3-S4-19",
       "kind": "rule",
       "value": "duplicate held at a second site, ideally abroad",

@@ -1,0 +1,92 @@
+{
+  "schema_version": "1.0",
+  "set_id": "L3-short-answer",
+  "skill": "listening",
+  "test_id": "L3",
+  "section": 4,
+  "practice": false,
+  "script_id": "L3-S4",
+  "question_type": "short_answer",
+  "generated_by": "opus",
+  "instructions": "Answer the questions below. Write NO MORE THAN THREE WORDS AND/OR A NUMBER for each answer.",
+  "word_limit": "NO MORE THAN THREE WORDS AND/OR A NUMBER",
+  "options": null,
+  "visual": null,
+  "stem_block": null,
+  "table": null,
+  "items": [
+    {
+      "number": 37,
+      "prompt": "When a sample is grown out again, what may some of the plants cross with?",
+      "answer": [
+        "the neighbouring row"
+      ],
+      "accepted_variants": [
+        "the neighbouring row",
+        "neighbouring row",
+        "the neighboring row",
+        "neighboring row"
+      ],
+      "evidence": "a few cross with the neighbouring row",
+      "answer_point_id": "L3-S4-27",
+      "turn_index": 8,
+      "distractor_used": null,
+      "explanation": "Yeniden üretim her seferinde bir seçme yapıyor: bazı tohumlar çimlenmiyor, bazıları da yan sıradaki bitkilerle melezleniyor.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 38,
+      "prompt": "Which piece of equipment failing has been the commonest cause of losses?",
+      "answer": [
+        "a freezer"
+      ],
+      "accepted_variants": [
+        "a freezer",
+        "freezer",
+        "the freezer"
+      ],
+      "evidence": "the commonest cause of loss over the past fifty years has been a freezer failing quietly over a long weekend",
+      "answer_point_id": "L3-S4-20",
+      "turn_index": 9,
+      "distractor_used": null,
+      "explanation": "Koleksiyonların yedeğinin ikinci bir yerde tutulmasının sebebi sıradan: elli yılın en sık kayıp nedeni sessizce bozulan bir dondurucu.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 39,
+      "prompt": "What term is used for seeds that can be dried and frozen without being killed?",
+      "answer": [
+        "orthodox"
+      ],
+      "accepted_variants": [
+        "orthodox",
+        "orthodox seeds"
+      ],
+      "evidence": "Everything I have described works for what are called orthodox seeds — seeds that tolerate drying and freezing.",
+      "answer_point_id": "L3-S4-21",
+      "turn_index": 10,
+      "distractor_used": null,
+      "explanation": "Anlatılan bütün yöntem kurumaya ve donmaya dayanan tohumlar için geçerli; bunlara ortodoks tohum deniyor.",
+      "difficulty": "easy"
+    },
+    {
+      "number": 40,
+      "prompt": "How cold is it kept when only the embryo is frozen in liquid nitrogen?",
+      "answer": [
+        "minus 196 degrees"
+      ],
+      "accepted_variants": [
+        "minus 196 degrees",
+        "-196 degrees",
+        "minus 196",
+        "-196"
+      ],
+      "evidence": "You can freeze the embryo alone in liquid nitrogen, at minus a hundred and ninety-six degrees",
+      "answer_point_id": "L3-S4-25",
+      "turn_index": 11,
+      "distractor_used": null,
+      "explanation": "Kurumaya dayanmayan türlerde seçeneklerden biri yalnızca embriyonun sıvı azotta, eksi yüz doksan altı derecede dondurulması.",
+      "difficulty": "medium"
+    }
+  ]
+}

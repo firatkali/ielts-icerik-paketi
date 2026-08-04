@@ -1790,3 +1790,155 @@ yazıldı; üçü de iş bitince silindi.
   below…") format referansıdır, telif kapsamında değildir.
 - Bütün kişi/kurum/yer adları senaryolardan geliyor, hepsi uydurma.
 - Atlanan/sorun: yok. **OPUS5-21'de 12 paketten 2'si tamam;** sıradaki **L3**.
+
+---
+
+## OPUS5-21 (3. çalıştırma: L3 — güvenli sorular, 29 soru)
+
+- Tarih: 2026-08-04
+- Depo kontrolü: `content/listening/tests/` altında **`L1/` ve `L2/`** vardı,
+  `content/listening/practice/` boştu → çalıştırma listesindeki ilk üretilmemiş paket
+  **L3** idi, o yapıldı. Ön koşul sağlandı: `L3-S1` … `L3-S4` senaryoları yerinde.
+- 11–15 ve 21–26 aralıkları **boş bırakıldı** (FABLE5-43'ün işi); `tools/dogrula.py`
+  "L3 29/40 EKSIK eksik=[11–15, 21–26]" diyor, beklenen durum budur.
+
+### Seçilen tipler ve dosyalar
+
+| Soru | Bölüm | Tip | Dosya | Kelime sınırı |
+|---|---|---|---|---|
+| 1–10 | S1 | `form_completion` | `content/listening/tests/L3/form-completion.json` | **ONE WORD** |
+| 16–20 | S2 | `plan_map_diagram_labelling` (**harf seçme, A–H**) | `…/plan-map-diagram-labelling.json` | — (harf) |
+| 27–30 | S3 | `sentence_completion` | `…/sentence-completion.json` | TWO WORDS |
+| 31–36 | S4 | `summary_completion` | `…/summary-completion.json` | TWO WORDS |
+| 37–40 | S4 | `short_answer` | `…/short-answer.json` | THREE WORDS |
+
+L2'nin bıraktığı uyarılardan ikisi bu oturumda kapatıldı:
+
+- **Etiketleme alt tipi:** L1 harf seçme, L2 kelime yazma, **L3 yine harf seçme** —
+  dönüşüm sürüyor. ⚠️ **L4 kelime yazma** olsun.
+- **31–40 bölünmesi:** L1 = not + kısa cevap, L2 = akış şeması + not,
+  **L3 = özet (31–36) + kısa cevap (37–40)** — L2'nin istediği `summary_completion`
+  düzeni kullanıldı. ⚠️ **L4–L6:** en az birinde akış şeması tekrar denensin, altı
+  testin hepsi aynı olmasın.
+- **1–10 için tip:** L3-S1 bir spor merkezine **üyelik kaydı** (ad, adres, telefon,
+  ödeme talimatı) → kural gereği **form**. L2'nin "en az bir testte `note_completion`
+  denensin" uyarısı bu senaryoya uymuyordu. ⚠️ **L4 buna en uygun aday:** L4-S1 bir
+  **kayıp eşya bildirimi** (kayıt/rezervasyon değil, karşılaştırma da yok) → orada
+  `note_completion` kullanılsın.
+- **Kelime sınırında yenilik:** 1. bölümün on cevabı da tek kelime ya da tek sayı olacak
+  şekilde seçildi, böylece ilk kez `ONE WORD AND/OR A NUMBER` yönergesi kullanılabildi
+  (L1 ve L2'de bütün setler TWO WORDS'tü; sınır çeşitliliği artsın diye).
+
+### Kullanılan `answer_point_id` değerleri
+
+| Set | Kimlikler |
+|---|---|
+| `L3-form-completion` | `L3-S1-01`, `L3-S1-02`, `L3-S1-05`, `L3-S1-07`, `L3-S1-10`, `L3-S1-11`, `L3-S1-13`, `L3-S1-16`, `L3-S1-21`, `L3-S1-22` |
+| `L3-plan-map-diagram-labelling` | `L3-S2-15`, `L3-S2-18`, `L3-S2-20`, `L3-S2-22`, `L3-S2-35` |
+| `L3-sentence-completion` | `L3-S3-21`, `L3-S3-23`, `L3-S3-24`, `L3-S3-26` |
+| `L3-summary-completion` | `L3-S4-01`, `L3-S4-05`, `L3-S4-08`, `L3-S4-10`, `L3-S4-14`, `L3-S4-15` |
+| `L3-short-answer` | `L3-S4-27`, `L3-S4-20`, `L3-S4-21`, `L3-S4-25` |
+
+- Çeldiricili bilgi noktasından çıkan sorular (cevap her zaman **düzeltilmiş** değer):
+  `L3-S1-02` (flat 2 → flat 9), `L3-S1-07` (saat 5 → saat 4), `L3-S1-10` (ayın 15'i →
+  ayın 1'i), `L3-S1-13` (bir saat → 40 dakika), `L3-S3-24` (15 → 12 dakika),
+  `L3-S3-26` (13 Kasım → 20 Kasım), `L3-S4-05` (30 → 50 bitki), `L3-S4-14` (%75 → %85),
+  `L3-S4-15` (5 yıl → 10 yıl). Toplam **9 soru**.
+- Kullanılmayan iki büyük çeldirici bilinçli bırakıldı: `L3-S1-15` (Perşembe → Cuma)
+  — doğru gün ancak bir **sonraki** replikte kesinleşiyor, komşu replikte zaten 8. soru
+  vardı; `L3-S2-08` (5 mil → 4,5 mil) — rota uzunlukları `FABLE5-43`'ün çoktan seçmeli
+  alanına daha uygun.
+
+### Senaryo dosyalarına eklenen iki yeni bilgi noktası
+
+`answer_point_id` hiçbir yerde null bırakılmadı; karşılığı olmayan iki bilgi için
+senaryoya yeni kayıt açıldı. **Replik metinlerine dokunulmadı**, sadece `answer_points`
+dizisine `turn_index` sırası bozulmayacak yere eklendi (kimlik numarası sıralı değil,
+`turn_index` sıralı):
+
+- `L3-S2-35` — "the boardwalk across the marsh, between the lake and the meadow"
+  (replik 9) → soru 20. Mevcut `L3-S2-25` aynı repliği kullanıyor ama yalnızca **yeniden
+  açılış tarihini** taşıyor; haritada gereken şey **konum** bilgisiydi.
+- `L3-S4-27` — "a few cross with the neighbouring row" (replik 8) → soru 37. 8. replikteki
+  hazır nokta (`L3-S4-18`) soyut bir sonuç cümlesiydi ("artık toplanan popülasyon değil");
+  kısa cevap için somut ve tek karşılığı olan bu ifade gerekti.
+
+### Doğrulama
+
+- Bu oturumda **üretim betiği yazılmadı** — beş dosya doğrudan yazıldı, ardından
+  bağımsız bir denetleyici (`tools/_l3_kontrol.py`) ve bir ASCII izdüşüm betiği
+  (`tools/_l3_ascii.py`) her şeyi **diskten okuyarak** sınadı; ikisi de iş bitince silindi.
+- Denetlenenler: her `evidence`in senaryo repliğinde **birebir** geçmesi ve doğru
+  `turn_index`te olması, `turn_index`in bilgi noktasıyla uyuşması, set içi **artan sıra**,
+  aynı bilgi noktasının iki kez kullanılmaması, **`accepted_variants` dahil** kelime
+  sınırı, açıklamaların gerçek Türkçe karakter içermesi, soru numaralarının planla birebir
+  aynı olması (29 soru; boş: 11–15, 21–26) ve görünür metinde "IELTS" taraması.
+  **Sonuç: 0 hata**, geri kalan yalnızca aşağıdaki 1 numaralı bilinçli sapmanın uyarıları.
+- İlk turda çıkan **2 gerçek hata düzeltildi**: soru 4'te `"4 p.m."`, soru 8'de
+  `"trainers (indoor)"` varyantları ONE WORD sınırını aşıyordu; ikisi de silindi.
+- SVG yine **geometrik olarak** sınandı (depoda SVG → PNG çevirici hâlâ yok): izinli öge
+  listesi (`svg rect circle line path polygon text` — dışında öge yok), tek renk `#000`,
+  `fill="none"`, sabit `width`/`height` yok, bütün koordinatlar `viewBox` içinde.
+- ASCII izdüşüm **gözle** okundu: giriş altta ortada (ok içeri bakıyor), yol yukarı
+  çıkıyor, solunda ziyaretçi merkezi — sağında C (otopark) tam karşısında; tuvaletler
+  merkezin arkasında; yolun bittiği yerde bilgi kulübesi; A (piknik) kulübe ile göl
+  arasında; adacık gölün içinde, G (kuş gözlem) adacıkla **aynı hizada** doğu kıyısında,
+  H onun altında; D (kireç ocağı) G'nin ötesinde, gölün en uzak ucunda; E (tahta yol)
+  gölün kuzeyindeki sazlık işaretlerinin arasında, göl ile B (çayır) arasında; F
+  (seyir noktası) en tepede. Tarifle birebir uyuyor.
+- Ardından `python tools/dogrula.py`: **şema hatası 0**, görünür metinde IELTS 0,
+  yasak kaynak 0, L3 29/40.
+
+### Bilinçli sapmalar
+
+1. **"İki cevap aynı replikte olmasın" kuralı 1. ve 3. bölümde tam, 2. ve 4. bölümde
+   kısmen uygulandı.** 1. bölümde iki cevap arasında her zaman **en az bir replik** var
+   (replikler: 5, 7, 10, 12, 16, 18, 20, 26, 30, 32); 3. bölümde de öyle (19, 23, 25, 27).
+   2. ve 4. bölüm **tek kişilik anlatım** olduğu için "replik" = paragraf; oralarda
+   **her paragrafta en fazla bir cevap** kuralı uygulandı — 2. bölümde 5 soru 5 ayrı
+   paragrafa (5, 6, 7, 8, 9), 4. bölümde 10 soru 10 ayrı paragrafa (1, 2, 4, 5, 6, 7, 8,
+   9, 10, 11) dağıldı. L1 ve L2'de 2. bölümde aynı paragrafta iki cevap kalmıştı;
+   **bu oturumda o da giderildi**, çünkü tahta yolun konumu (replik 9) soruya çevrilerek
+   beşinci paragraf kazanıldı.
+2. **Harita çeldiricisi:** D (kireç ocağı) ile E (tahta yol) coğrafi olarak yakın —
+   ikisi de gölün kuzeyinde. Ayrım iki şeyle kuruluyor: E **sazlık işaretlerinin**
+   üstünde ("across the marsh"), D ise **gölün ucunda, gözlem kulübesinin ötesinde**.
+   Ayrıca 20 sorulduğunda D zaten 19'un cevabı olarak harcanmış oluyor. Bilerek bırakılan
+   zorluk; 20 numaralı soru bu yüzden `hard` işaretlendi.
+3. Etiketleme setinde harfler **soru sırasına göre artmıyor** (C, A, G, D, E) — aday
+   sırayı tahmin edemesin diye harfler konumlara karışık dağıtıldı. B, F, H hiç doğru
+   cevap değil (çayır, seyir noktası, gölet inceleme platformu).
+4. Cevap türü dağılımı: 1. bölüm **5 kelime / 5 sayı** (soyadı, yazılı bildirim, spor
+   ayakkabısı, telefon, ay adı ↔ daire no, aidat, saat, ödeme günü, dakika); 4. bölümün
+   10 sorusunda 4 sayı, 6 kelime/terim; 3. bölümde 2 kelime + 1 sayı + 1 tarih.
+
+### Plan çizimi (2. bölüm) — harf seçme alt tipi
+
+- `viewBox="0 0 540 650"`, sabit `width`/`height` yok, yalnızca `rect`/`circle`/`line`/
+  `path`/`polygon`/`text`, hep `#000` çizgi, dolgu yok, tek satır string.
+- Bu sefer **bina planı değil, açık alan haritası** (`"kind": "map"`): göl bir `polygon`,
+  adacık `circle`, patikalar `path`, bataklık **sazlık tutamları** (üçer kısa `line`)
+  ile gösterildi.
+- Seçenekler L1'deki gibi **daire içinde harf** (`circle r="11"` + ortalanmış `text`);
+  her harf tam olarak bir alanın içinde ve o alanda başka yazı yok.
+- **Sabit referanslar (etiketi verilmiş):** `MAIN ENTRANCE (Cranmore Road)` (+ içeri bakan
+  ok), `drive`, `VISITOR CENTRE`, `TOILETS`, `INFORMATION HUT`, `LAKE`, `island` ve
+  kuzey oku `N`. Aday ister girişten ister gölden başlayabiliyor.
+- Her boşluğun **bağımsız** bir çıpası var: C → ziyaretçi merkezinin karşısı, yolun öbür
+  yanı; A → bilgi kulübesi ile göl arası; G → adacığın karşısı; D → gölün uzak ucu,
+  kulübenin ötesi; E → sazlığın üstü, göl ile çayır arası.
+
+### Telif / yazım
+
+- İngiliz İngilizcesi (`neighbouring`, `per cent`, `£`, `trainers`); Amerikan yazım
+  tarandı, yok — yalnızca `accepted_variants` içinde hoşgörü olarak `neighboring`
+  kabul ediliyor. Görünür metinde "IELTS" yok.
+- ⚠️ **Referans PDF'leri bu oturumda açılamadı:** ortamda `pdftoppm` (poppler) yok,
+  `pypdf`/`PyPDF2`/`fitz` de kurulu değil; `referans/text/` klasörü hâlâ yok. Bu yüzden
+  yönerge kalıpları ve cevap anahtarı biçimi, aynı PDF'lerden çıkarılmış olan **L1 ve L2
+  setlerinden** devralındı ("Complete the form below…", "Label the map below. Write the
+  correct letter, A–H, next to Questions 16–20.", "Complete the summary below…",
+  "Answer the questions below…"). Yeni bir biçim icat edilmedi; referanstan **tek bir
+  cümle, soru ya da senaryo kopyalanmadı**.
+- Bütün kişi/kurum/yer adları senaryolardan geliyor, hepsi uydurma.
+- Atlanan/sorun: yok. **OPUS5-21'de 12 paketten 3'ü tamam;** sıradaki **L4**.

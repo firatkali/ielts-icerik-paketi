@@ -1,0 +1,88 @@
+{
+  "schema_version": "1.0",
+  "set_id": "L3-sentence-completion",
+  "skill": "listening",
+  "test_id": "L3",
+  "section": 3,
+  "practice": false,
+  "script_id": "L3-S3",
+  "question_type": "sentence_completion",
+  "generated_by": "opus",
+  "instructions": "Complete the sentences below. Write NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+  "word_limit": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
+  "options": null,
+  "visual": null,
+  "stem_block": null,
+  "table": null,
+  "items": [
+    {
+      "number": 27,
+      "prompt": "So that the order of events is still clear, Tamsin will add a one-page (27) ........ , which does not count towards the word limit.",
+      "answer": [
+        "timeline"
+      ],
+      "accepted_variants": [
+        "timeline",
+        "time line"
+      ],
+      "evidence": "put a one-page timeline at the front as a figure",
+      "answer_point_id": "L3-S3-21",
+      "turn_index": 19,
+      "distractor_used": null,
+      "explanation": "Danışman, beceri temelli yapıyı seçen öğrencinin hikâyeyi kaybetmemesi için rapora en başa bir sayfalık zaman çizelgesi koymasını öneriyor.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 28,
+      "prompt": "Marks are lost only when a student takes no notice of a (28) ........ restriction.",
+      "answer": [
+        "confidentiality"
+      ],
+      "accepted_variants": [
+        "confidentiality"
+      ],
+      "evidence": "Nobody is penalised for a confidentiality restriction, but you are penalised for ignoring one.",
+      "answer_point_id": "L3-S3-23",
+      "turn_index": 23,
+      "distractor_used": null,
+      "explanation": "Yayımlanmamış işi gösterememek ceza sebebi değil; ceza, gizlilik kısıtlamasının yok sayılmasına veriliyor.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 29,
+      "prompt": "Each student now speaks for (29) ........ minutes and then takes questions for a further five.",
+      "answer": [
+        "twelve"
+      ],
+      "accepted_variants": [
+        "twelve",
+        "12"
+      ],
+      "evidence": "Twelve minutes, and five for questions.",
+      "answer_point_id": "L3-S3-24",
+      "turn_index": 25,
+      "distractor_used": "15 minutes",
+      "explanation": "Sunum geçen yıla kadar on beş dakikaydı; bütün sınıf sunum yapmaya başlayınca on iki dakikaya indirilmiş.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 30,
+      "prompt": "The log book has to be handed in together with the report on (30) ........ .",
+      "answer": [
+        "20 November"
+      ],
+      "accepted_variants": [
+        "20 November",
+        "20th November",
+        "November 20",
+        "November 20th"
+      ],
+      "evidence": "The report and the log book go in together on the twentieth of November.",
+      "answer_point_id": "L3-S3-26",
+      "turn_index": 27,
+      "distractor_used": "13 November",
+      "explanation": "İlk takvimde on üç Kasım yazıyordu ama danışman bunun üzerini çizdiriyor: teslim tarihi yirmi Kasım.",
+      "difficulty": "hard"
+    }
+  ]
+}

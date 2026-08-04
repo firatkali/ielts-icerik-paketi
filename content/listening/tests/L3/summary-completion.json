@@ -1,0 +1,123 @@
+{
+  "schema_version": "1.0",
+  "set_id": "L3-summary-completion",
+  "skill": "listening",
+  "test_id": "L3",
+  "section": 4,
+  "practice": false,
+  "script_id": "L3-S4",
+  "question_type": "summary_completion",
+  "generated_by": "opus",
+  "instructions": "Complete the summary below. Write NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+  "word_limit": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
+  "options": null,
+  "visual": null,
+  "stem_block": "HOW SEED REACHES THE STORE\n\nSeed was first stored with future plant breeding in mind in the (31) ........, when breeders saw older varieties vanishing from farms; cold stores came about half a century later.\n\nIn the field, a team is told to gather seed from a minimum of (32) ........ plants and to leave at least four-fifths of the ripe seed behind. Drying is deliberately slow, because seed that dries too quickly on the surface forms a (33) ........ and the moisture is then locked in. Once the seed has been sealed, how good the (34) ........ is matters more than which jar has been used.\n\nA sample is germinated before anything is put away, and the whole collection goes back to the field team if fewer than (35) ........ per cent of the seeds grow. After that the test is repeated every (36) ........ years, although each one uses up seed.",
+  "table": null,
+  "items": [
+    {
+      "number": 31,
+      "prompt": "Seed was first stored with future plant breeding in mind in the (31) ........",
+      "answer": [
+        "1920s"
+      ],
+      "accepted_variants": [
+        "1920s",
+        "the 1920s",
+        "nineteen twenties",
+        "1920's"
+      ],
+      "evidence": "The first collections kept deliberately for future breeding date from the nineteen twenties",
+      "answer_point_id": "L3-S4-01",
+      "turn_index": 1,
+      "distractor_used": null,
+      "explanation": "İlk bilinçli koleksiyonlar yirmili yıllara dayanıyor; soğuk depo ise ancak yetmişli yıllarda geliyor.",
+      "difficulty": "easy"
+    },
+    {
+      "number": 32,
+      "prompt": "a team is told to gather seed from a minimum of (32) ........ plants",
+      "answer": [
+        "fifty"
+      ],
+      "accepted_variants": [
+        "fifty",
+        "50"
+      ],
+      "evidence": "the guidance is to sample from at least fifty plants",
+      "answer_point_id": "L3-S4-05",
+      "turn_index": 2,
+      "distractor_used": "30 plants",
+      "explanation": "Eski el kitaplarında otuz bitki geçiyor ama sonraki modellemeler çalışma alt sınırını elli bitkiye çıkarmış.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 33,
+      "prompt": "seed that dries too quickly on the surface forms a (33) ........ and the moisture is then locked in",
+      "answer": [
+        "hard skin"
+      ],
+      "accepted_variants": [
+        "hard skin",
+        "skin"
+      ],
+      "evidence": "seed dried too quickly on the outside forms a hard skin that traps water inside",
+      "answer_point_id": "L3-S4-08",
+      "turn_index": 4,
+      "distractor_used": null,
+      "explanation": "Kurutma bilerek yavaş yapılıyor: hızlı kuruyan tohumun dışında sert bir kabuk oluşuyor ve su içeride kalıyor.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 34,
+      "prompt": "Once the seed has been sealed, how good the (34) ........ is matters more than which jar has been used.",
+      "answer": [
+        "seal"
+      ],
+      "accepted_variants": [
+        "seal"
+      ],
+      "evidence": "the seal matters more than the container",
+      "answer_point_id": "L3-S4-10",
+      "turn_index": 5,
+      "distractor_used": null,
+      "explanation": "Contası kötü bir kavanoz tohumun havadan yeniden su almasına yol açıyor; bu yüzden kabın kendisinden çok kapatma önemli.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 35,
+      "prompt": "the whole collection goes back to the field team if fewer than (35) ........ per cent of the seeds grow",
+      "answer": [
+        "85"
+      ],
+      "accepted_variants": [
+        "85",
+        "eighty-five",
+        "eighty five"
+      ],
+      "evidence": "if fewer than eighty-five per cent come up, the collection is not accepted",
+      "answer_point_id": "L3-S4-14",
+      "turn_index": 6,
+      "distractor_used": "75 per cent",
+      "explanation": "Konuşmacının öğrendiği eşik yüzde yetmiş beşti; eşik o zamandan beri yüzde seksen beşe yükseltilmiş.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 36,
+      "prompt": "After that the test is repeated every (36) ........ years, although each one uses up seed.",
+      "answer": [
+        "ten"
+      ],
+      "accepted_variants": [
+        "ten",
+        "10"
+      ],
+      "evidence": "the interval most banks now work to is ten years",
+      "answer_point_id": "L3-S4-15",
+      "turn_index": 7,
+      "distractor_used": "five years",
+      "explanation": "Yeniden test aralığı eskiden beş yıldı; test her seferinde iki yüz tohum harcadığı için çoğu banka artık on yılda bir test yapıyor.",
+      "difficulty": "hard"
+    }
+  ]
+}
