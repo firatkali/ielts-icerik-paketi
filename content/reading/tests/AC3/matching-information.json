@@ -1,0 +1,70 @@
+{
+  "schema_version": "1.0",
+  "set_id": "AC3-matching-information",
+  "skill": "reading",
+  "module": "academic",
+  "test_id": "AC3",
+  "practice": false,
+  "passage_id": "A09",
+  "question_type": "matching_information",
+  "generated_by": "opus",
+  "instructions": "The passage has EIGHT paragraphs, A-H. Which paragraph contains the following information? Write the correct letter, A-H, in boxes 27-31 on your answer sheet.",
+  "options": ["A", "B", "C", "D", "E", "F", "G", "H"],
+  "items": [
+    {
+      "number": 27,
+      "prompt": "how long the remains had been on record before anything odd was noticed in them",
+      "answer": ["B"],
+      "accepted_variants": ["B"],
+      "evidence": "His remains had been known to archaeologists since the 1960s, but a more recent examination revealed something unexpected: a dark, glassy material inside his skull, distinct in appearance from the surrounding bone and ash.",
+      "evidence_locator": { "paragraph": "B", "sentence": 2 },
+      "uniqueness_check": "Buluntunun onlarca yıldır bilinmesine rağmen tuhaflığın çok sonra fark edildiğini söyleyen tek paragraf B. A paragrafı da bir tarih veriyor ama bu patlamanın tarihi, kazı ya da inceleme tarihi değil; C ve D sonraki analizleri anlatıyor, ne zaman bulunduğunu değil.",
+      "explanation": "B paragrafı, kalıntıların 1960'lardan beri arkeologlarca bilindiğini, kafatasının içindeki koyu camsı maddenin ise ancak daha yeni bir incelemede fark edildiğini söylüyor.",
+      "difficulty": "easy"
+    },
+    {
+      "number": 28,
+      "prompt": "a warning against assuming that the same thing happened to other victims",
+      "answer": ["H"],
+      "accepted_variants": ["H"],
+      "evidence": "At the same time, the researchers are careful to note that the finding describes a single individual under an unusual and highly specific set of volcanic conditions, and cannot be assumed to apply broadly across other victims at Herculaneum or Pompeii.",
+      "evidence_locator": { "paragraph": "H", "sentence": 2 },
+      "uniqueness_check": "Bulgunun tek bir kişiye ait olduğu ve başkalarına genellenemeyeceği uyarısı yalnız H paragrafında. G paragrafı da bir sınırlamadan söz ediyor ama orada dar olan şey ısıl koşullar aralığıdır, bulgunun kapsamı değil; C bulgunun ne kadar ender olduğunu söylüyor, genellenemezliğini değil.",
+      "explanation": "H paragrafı, bulgunun çok özel volkanik koşullar altındaki tek bir bireyi anlattığını ve başka kurbanlara genellenemeyeceğini vurguluyor.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 29,
+      "prompt": "measurements showing that preserved nerve fibres were close in width to those of a living person",
+      "answer": ["E"],
+      "accepted_variants": ["E"],
+      "evidence": "Axons in the vitrified brain tissue measured on average 717.7 nanometres in diameter, close to the typical range for white matter in a living brain, while axons from the preserved spinal cord measured around 672 nanometres.",
+      "evidence_locator": { "paragraph": "E", "sentence": 2 },
+      "uniqueness_check": "Korunmuş sinir liflerinin kalınlığını yaşayan bir beyindekilerle karşılaştıran sayılar yalnız E paragrafında. G paragrafı da sayı veriyor ama bunlar madde içindeki elementlerin yüzdeleri; D hangi cihazların kullanıldığını anlatıyor, hiçbir ölçüm sonucu vermiyor.",
+      "explanation": "E paragrafı, camlaşmış dokudaki aksonların ortalama 717,7 nanometre olduğunu ve bunun yaşayan bir beyindeki ak maddenin olağan aralığına yakın olduğunu söylüyor.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 30,
+      "prompt": "a comparison between the way two neighbouring towns were overwhelmed",
+      "answer": ["A"],
+      "accepted_variants": ["A"],
+      "evidence": "When Mount Vesuvius erupted in AD 79, it did not merely bury the Roman towns around the Bay of Naples in ash, as popular accounts of neighbouring Pompeii often suggest.",
+      "evidence_locator": { "paragraph": "A", "sentence": 1 },
+      "uniqueness_check": "İki komşu kentin nasıl yok olduğunu karşılaştıran tek paragraf A: küllerle gömülme ile kızgın gaz akıntılarının süpürmesi karşı karşıya konuyor. H paragrafı da her iki kentin adını anıyor, ama yalnızca bulgunun oralara genellenemeyeceğini söylerken; yıkımın biçimini hiçbir yerde anlatmıyor.",
+      "explanation": "A paragrafı, patlamanın komşu kenti anlatan yaygın anlatımdaki gibi yalnızca kül yağdırmadığını, buradaki kentin kızgın gaz ve moloz akıntılarıyla süpürüldüğünü söylüyor.",
+      "difficulty": "hard"
+    },
+    {
+      "number": 31,
+      "prompt": "the use of particular molecules to rule out ash and bone as the material's source",
+      "answer": ["F"],
+      "accepted_variants": ["F"],
+      "evidence": "Because these proteins are not associated with bone, ash or other materials likely to be found inside a skull, their presence strongly supports the conclusion that the glassy material genuinely originated from the man's brain and spinal cord rather than from some other source.",
+      "evidence_locator": { "paragraph": "F", "sentence": 3 },
+      "uniqueness_check": "Kül ve kemiğin kaynak olarak elenmesini belirli moleküllere dayandıran tek paragraf F. C paragrafı maddenin mineral birikimi ya da sonradan bulaşma olmadığını söylüyor ama bunun gerekçesini vermiyor; D yalnızca hangi yöntemlerin birleştirildiğini sıralıyor.",
+      "explanation": "F paragrafı, saptanan moleküllerin kemik veya külle ilişkili olmadığını, bu yüzden camsı maddenin gerçekten beyin ve omurilikten geldiği sonucunu güçlendirdiğini söylüyor.",
+      "difficulty": "medium"
+    }
+  ]
+}

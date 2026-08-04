@@ -830,3 +830,80 @@ Bu dosyaya her oturumda alınan kararlar, atlanan işler ve karşılaşılan sor
   (AC1–AC4 15'er, GT1–GT2 13'er, alıştırma 15+15+15+10+10). Okuma tarafında kalan işler
   başka promptlarda: OPUS5-11 (bilgi eşleştirme), FABLE5-40/41/42. `ilerleme.txt` 14'e
   çekildi, `DURUM.txt` yeniden üretildi (88 çalıştırmanın 14'ü).
+
+## OPUS5-11 (1. çalıştırma: AC1–AC4 bilgi eşleştirme)
+- Tarih: 2026-08-04
+- Depoda hiçbir `matching-information.json` yoktu → prompt dosyasındaki üç paketten
+  bitmemiş ilki **1. paket (AC1 + AC2 + AC3 + AC4)** idi, o yapıldı.
+  **20 soru** (4 test × 5) üretildi, plandaki 27–31 aralığıyla birebir aynı.
+- Üretilen dosyalar:
+  - `content/reading/tests/AC1/matching-information.json` — soru 27–31, pasaj **A03**
+  - `content/reading/tests/AC2/matching-information.json` — soru 27–31, pasaj **A06**
+  - `content/reading/tests/AC3/matching-information.json` — soru 27–31, pasaj **A09**
+  - `content/reading/tests/AC4/matching-information.json` — soru 27–31, pasaj **A12**
+- **Yönerge:** dört pasajın da tam **8 paragrafı** (A–H) olduğu için hepsinde aynı kalıp:
+  `The passage has EIGHT paragraphs, A-H. ... Write the correct letter, A-H, in boxes
+  27-31 on your answer sheet.` Dört sette de beş cevabın hepsi **farklı harf** olduğundan
+  `NB You may use any letter more than once.` satırı **hiçbirine konmadı** (prompt bu
+  satırı yalnız gerçek tekrar varsa istiyor).
+- **Cevap dağılımı** (hepsi tekrarsız, ilk paragraf A ve son paragraf H her sette var,
+  sıra pasaj sırasına göre değil — prompt bunu tercih ediyor):
+  - AC1 → C · H · A · G · E
+  - AC2 → F · A · H · B · D
+  - AC3 → B · H · E · A · F
+  - AC4 → D · A · H · G · C
+- **Sorulan bilgi türleri bilerek çeşitlendirildi:** karşılaştırma (AC1/29 ekosistem–tek
+  canlı, AC3/30 iki kentin yok oluşu), tanım/açıklama (AC1/27 asitlenmenin kimyası,
+  AC2/31 verimlilik ölçüsü, AC4/28 uykunun etkin rolü), sayısal bulgu (AC1/31 pH farkı,
+  AC2/27 kıdeme göre azalan kazanç, AC3/29 akson kalınlığı), yöntem ayrıntısı (AC2/30
+  ilk altı ayın dışarıda bırakılması, AC3/31 moleküllerle eleme, AC4/27 sersemliğe karşı
+  önlem, AC4/31 ipuçlu hatırlama), sonuç/yorum (AC1/30 iskelete bağımlı türler, AC4/30
+  unutulmaya açık anılar), öngörü ve uygulama (AC1/28 yüzyıl sonu, AC2/29 yönetici
+  tavsiyesi), sınırlama (AC3/28 tek bireye genellenemezlik).
+- **Elenen / değiştirilen sorular (Tuzak 1 — birden çok paragrafa uyan ifade):**
+  - **A03, "laboratuvarın sınırı" sorusu atıldı.** C paragrafı deneylerin yalnız hafta-ay
+    sürdüğünü, A paragrafı ise laboratuvar tankının gerçeği taklit edemediğini söylüyor;
+    "laboratuvarın yetersizliği" diye sorulsa iki paragraf da savunulabilirdi. Yerine A
+    için **ekosistem–tek canlı ayrımı**, C için **asitlenmenin kimyası** soruldu; ikisi
+    de tek paragrafta.
+  - **A09, "camlaşmanın neden çok ender olduğu" sorusu atıldı.** Hızlı ısınma + hızlı
+    soğuma koşulu hem C hem G paragrafında geçiyor (C nedeni, G ise dar ısıl aralığı
+    anlatıyor) — cevap tartışmalı olurdu. C ve G'nin ikisi de bu sette kullanılmadı.
+  - **A06, "beklentiye ters çıkan sonuç" sorusu (G) atıldı.** E paragrafı "ilk sonuç
+    yaygın bir varsayıma ters düştü", G paragrafı "bu bulgu apaçık açıklamayı
+    karmaşıklaştırdı" diyor; ikisi de aynı ifadeye uyuyordu. G bu sette hiç kullanılmadı.
+  - **A06/31 ilk hâli değiştirildi:** kökü "çalışanın kendi beyanına güvenilmemesi" idi ve
+    kanıtı D paragrafının 2. cümlesiydi; bu cümle **aynı testin** `summary-completion`
+    36–40 setinde (37. soru) zaten kullanılmıştı. Aynı adayın aynı cümleyi iki kez
+    çözmemesi için soru D'nin 1. cümlesine (verimlilik ölçüsünün tanımı) çevrildi.
+  - **A06/30'un kökünde `records` kelimesi vardı**, pasajda bu kelime yalnız B
+    paragrafında geçiyordu — kelime eşleşmesiyle bulunma riski (Tuzak 2). Kök
+    "the choice to ignore what employees produced during their opening months" olarak
+    yeniden yazıldı.
+- **Aynı testteki öteki setlerle örtüşme:** dört pasajın `summary-completion` setleri
+  aynı pasajları kullandığı için her soru, o testteki öteki dosyaların `evidence`
+  cümleleriyle tek tek karşılaştırıldı; tek çakışma (AC2/31) yukarıda anlatıldığı gibi
+  giderildi. Bilgi düzeyinde de tekrar edilen olgu yok: örneğin A03'te özet tamamlama
+  `bioerosion` terimini soruyor, bilgi eşleştirme aynı paragrafın **başka türlere barınak
+  olma** cümlesini hedefliyor.
+- Doğrulama: geçici denetim scriptiyle (`tools/_p11_kontrol.py` — silindi) JSON
+  geçerliliği, zarf alanlarının tamlığı, `options` listesinin gerçek paragraf harfleriyle
+  aynı olması, yönergedeki **paragraf sayısı ve kutu numaralarının** gerçek değerlere
+  uyması, soru sayısı (5) ve numara aralığı (27–31), `answer`/`accepted_variants`
+  tutarlılığı, `evidence`in pasajda **birebir** geçişi, `evidence_locator`ın (paragraf +
+  kaçıncı cümle) o cümleye birebir denk gelmesi, kanıt paragrafının cevap harfiyle aynı
+  olması, `uniqueness_check`in **dolu olması ve en az bir başka paragrafı adıyla elemesi**,
+  aynı harfin en fazla 2 kez cevap olması, ilk ve son paragraftan soru gelmesi, `NB`
+  satırının tekrar durumuyla tutarlılığı, cevapların pasaj sırasında dizilmemesi,
+  açıklamaların Türkçe olması, görünür metinde "IELTS" geçmemesi ve **soru kökü ile pasaj
+  arasında 4 kelimelik birebir örtüşme bulunmaması**. İki turda çıkan iki hata
+  (yukarıdaki AC2/31 cümle çakışması ve AC2/30 kelime eşleşmesi) düzeltildi, son turda
+  **hata 0**. Ardından `python tools/dogrula.py`: **şema hatası 0**, okuma sorusu **171**
+  (tam test 106 + alıştırma 65), pasaj lisansı eksik 0, görünür metinde IELTS 0,
+  yasak kaynak 0.
+- Sonraki çalıştırmalara not: 2. paket **GT1 + GT2** (soru 1–7, G01/G02 metin setleri) —
+  orada yönerge Academic kalıbı değil, *"Look at the five notices, A-E. For which notice
+  are the following statements true?"* kalıbı olacak ve 7 soru 4–5 metne dağıtılacağı için
+  **bir harfin iki kez cevap olması kaçınılmaz**; o zaman `NB` satırı **konmalı**.
+- Atlanan/sorun: yok. **1. paket bitti: 20 soru.** Kalan: 2. paket (GT1+GT2, 14 soru),
+  3. paket (alıştırma, 15 soru).
