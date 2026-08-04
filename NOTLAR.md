@@ -505,3 +505,83 @@ Bu dosyaya her oturumda alınan kararlar, atlanan işler ve karşılaşılan sor
   testlerde kullanılan cümlelerden kaçınmak için AC1–AC4 ve GT1–GT2'nin
   `sentence-completion` / `note-completion` / `table-completion` / `flow-chart-completion`
   dosyalarındaki `evidence` alanları önce topluca okunmalı.
+
+## OPUS5-10 (7. çalıştırma: alıştırma — cümle tamamlama + not tamamlama)
+
+- Tarih: 2026-08-04
+- Depo kontrolü: `content/reading/tests/` altındaki altı tam test (AC1–AC4 15'er, GT1–GT2
+  13'er = 86 soru) tamdı, `content/reading/practice/` **boştu** → çalıştırma listesindeki
+  **7. paket** sıradaki bitmemiş işti. Bu paket iki dosya üretir, toplam **30 soru**.
+- Üretilen dosyalar:
+  - `content/reading/practice/sentence-completion.json` — soru **1–15**, pasajlar
+    **A01, A02, A03, A04, A05** (her birinden 3 soru)
+  - `content/reading/practice/note-completion.json` — soru **1–15**, pasajlar
+    **A06, A07, A08, A09, A12** (her birinden 3 soru)
+- **Alt tip kararı:** plan D bölümü bu satırı "not / tablo tamamlama" diye tanımlıyor;
+  **not tamamlama** seçildi. Gerekçe: tam testlerde tablo tamamlama zaten iki kez
+  (AC3/A07, GT2/G04) ve akış şeması bir kez (AC2/A04) kullanıldı, not tamamlama ise
+  yalnızca AC1, AC4 ve GT1'de geçiyordu; ayrıca bu alıştırma dosyası **beş ayrı pasajı**
+  kapsadığı için madde işaretli not blokları tek bir tabloya göre çok daha doğal duruyor.
+  `stem_block` içinde her pasaj için ayrı başlıklı bir not bloğu var
+  (`Passage A06 — <başlık>` biçiminde), boşluk numaraları dosya boyunca 1'den 15'e
+  kesintisiz ilerliyor.
+- **Pasaj seçimi ve çakışma önleme:** iki dosya **hiçbir pasajı paylaşmıyor**
+  (cümle tamamlama A01–A05, not tamamlama A06–A09 + A12). Pasaj başına 3 soru — kuraldaki
+  "en fazla 4" sınırının altında; böylece 8, 9 ve 10. paketlere yer kaldı. Tam testteki
+  soruyla aynı bilgiyi hedeflememek için her pasajda **tam testin dokunmadığı paragraflar**
+  seçildi:
+  - A01: AC1 B–F kullanmıştı → alıştırma A, G, H
+  - A02: AC1 C, D, F(4. cümle), H kullanmıştı → alıştırma B, F(2. cümle), G
+  - A03: AC1 B, D, F, G, H kullanmıştı → alıştırma A, C, E
+  - A04: AC2 B, C, D, E kullanmıştı → alıştırma A, F, H
+  - A05: AC2 C, D, E, G kullanmıştı → alıştırma A, F, H
+  - A06: AC2 C, D, E, F, G kullanmıştı → alıştırma A, B, H
+  - A07: AC3 B, C, D, E, F kullanmıştı → alıştırma A, G, H
+  - A08: AC3 B, C, F, G kullanmıştı → alıştırma A, D, H
+  - A09: AC3 C, D, E, F, G kullanmıştı → alıştırma A, B, H
+  - A12: AC4 B, C, E, F kullanmıştı → alıştırma D, G, H
+- **Sıra kuralı** her pasaj bloğu içinde ayrı ayrı uygulandı (aynı pasajın üç sorusu
+  metindeki geçiş sırasına göre); dosya düzeyinde pasajlar da kimlik sırasında.
+- Kelime sınırı: **her iki dosyada da `NO MORE THAN TWO WORDS`**. Rakamla yazılan sayılar
+  ve tireli kelimeler tek kelime sayıldı: `47`, `500`, `1952`, `90 kilometres`,
+  `12 December`, `forty years`, `brand-new associations`. En uzun cevap iki kelime.
+- **Alıştırma dosyalarının şeması:** `test_id: null`, `practice: true`, grup düzeyinde
+  `passage_id: null` (dosya birden çok pasajı kapsadığı için) ve **item düzeyinde
+  `passage_id`** dolu. Cümle tamamlamada `stem_block: null`, ilk sorularda hangi pasajın
+  okunacağını belirten `Questions 1-3 refer to Passage A01.` biçiminde bir başlangıç var.
+- **Elenen/değiştirilen sorular:** iki aday denetimde düştü ve yenisiyle değiştirildi.
+  (1) A04 için `Voyager 2` cevabı — ifade pasajda iki kez geçiyor (F ve H paragrafları),
+  benzersizlik kuralına takıldı; yerine aynı paragrafın 3. cümlesinden `forty years` üretildi.
+  (2) A01 `concrete cube`, A12 `consolidation`, A07 `narwhals`, A05 `spelt`, A03 `450 miles`
+  adayları da aynı sebeple (pasajda birden çok geçiş) hiç yazılmadan elendi. Ayrıca A05'te
+  `James Mellaart` cevabı, telif kuralındaki "gerçek kişi adı kullanma" ilkesine yaklaştığı
+  için bilerek terk edildi, yerine `1952` alındı.
+- **Soru kökü ↔ pasaj örtüşmesi** otomatik denetlendi (6+ kelimelik birebir örtüşme yasağı);
+  iki not maddesi bu yüzden yeniden yazıldı: A07'nin tür listesi sırası değiştirildi
+  (`orcas, bottlenose dolphins, Asian elephants, a few great apes...`) ve A08'in deprem
+  merkezi maddesi `north of Yakutat on the coast` biçimine çevrildi.
+- Doğrulama: geçici denetim scriptiyle (`tools/_p7_kontrol.py`, sonra silindi) iki dosya
+  için JSON geçerliliği, soru sayısı (15+15), numara aralığı (1–15), `evidence`in pasajda
+  **birebir** geçişi, `evidence_locator`ın (paragraf + kaçıncı cümle) o cümleye **birebir**
+  denk gelmesi, cevabın pasajdaki geçiş sayısı (**hepsi tam 1**), cevabın kendi
+  `evidence`ı içinde bulunması, kelime sınırı, `accepted_variants` bütünlüğü, pasaj içi
+  sıra kuralı, cevap tekrarı, pasaj başına soru sayısı (≤4), tam testlerdeki `evidence`
+  cümleleriyle çakışma, soru kökü–pasaj örtüşmesi, `explanation`ların Türkçe ve dolu olması,
+  zorluk çeşitliliği, zorunlu alanların tamlığı, `stem_block` boşluk numaralarının soru
+  numaralarıyla eşleşmesi, her `prompt`un `stem_block` içinde geçmesi ve "IELTS" geçmemesi
+  denetlendi. Son turda **hata 0**. Ardından `python tools/dogrula.py`: **şema hatası 0**,
+  okuma sorusu 116 (tam test 86 + alıştırma 30), pasaj lisansı eksik 0, görünür metinde
+  IELTS 0, yasak kaynak 0.
+- Atlanan/sorun: yok. **OPUS5-10'da 10 paketten 7'si tamam** (86 tam test + 30 alıştırma =
+  116 soru). Kalan 3 paket: **8** (özet tamamlama, 15), **9** (kısa cevap, 10),
+  **10** (diyagram/plan etiketleme, 10) — toplam 35 soru.
+  **Sıradaki oturumlar için not:**
+  - 8. paket (özet tamamlama, 15): tam testlerde AC1/A03 ve GT1/G05 *metinden seçme*,
+    AC2/A06, AC4/A12, GT2/G06 *listeden seçme* kullandı. Alıştırmada iki alt tipin ikisini
+    de göstermek iyi olur (ör. 8 + 7 bölüşümü). Henüz **hiç dokunulmamış pasajlar: A10, A11
+    ve bütün GT metinleri G01, G02** — özet tamamlama için A10/A11 ve G05/G06 uygun uzunlukta.
+  - 10. paket (diyagram etiketleme): pasajın somut bir nesne/süreç/mekân anlatması şart.
+    Havuzda buna en uygun olanlar **A03** (Maug kalderası + vent'ler), **A04** (Uranüs iç uydu
+    yörüngeleri), **A08** (buzul üzerindeki heyelan/uydu görüntüleme düzeni) ve **A09**
+    (Herculaneum'un piroklastik akıntı altında gömülmesi). SVG'ler prompt kurallarına göre
+    tek parça, sabit renksiz ve `viewBox`'lı olmalı.
