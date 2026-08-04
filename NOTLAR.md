@@ -313,3 +313,75 @@ Bu dosyaya her oturumda alınan kararlar, atlanan işler ve karşılaşılan sor
   yönerge kalıpları prompt dosyasındaki üç kalıptan alındı.
 - Atlanan/sorun: yok. **OPUS5-10'da 10 paketten 3'ü tamam;** kalan 7 paket AC4, GT1, GT2 ve
   5 alıştırma paketi. Alıştırma paketleri için `content/reading/practice/` hâlâ boş.
+
+## OPUS5-10 (4. çalıştırma: AC4 tam testi)
+- Tarih: 2026-08-04
+- Depo kontrolü: `content/reading/tests/` altında `AC1/`, `AC2/`, `AC3/` vardı (15'er soru,
+  tam), `content/reading/practice/` boştu → çalıştırma listesindeki **4. paket (AC4)**
+  sıradaki bitmemiş işti, o yapıldı. **15 soru** üretildi, hedefle birebir aynı.
+  (Kullanıcı bu oturumu "3. çalıştırma" diye tanımlamıştı; depo durumu AC3'ün bittiğini
+  gösterdiği için promptun kendi "sıradaki bitmemiş paketi yap" kuralı uygulandı — aynı
+  kayma AC3 oturumunda da vardı.)
+- Üretilen dosyalar:
+  - `content/reading/tests/AC4/note-completion.json` — soru 1–6, pasaj **A10**
+  - `content/reading/tests/AC4/sentence-completion.json` — soru 19–22, pasaj **A11**
+  - `content/reading/tests/AC4/summary-completion.json` — soru 36–40, pasaj **A12**
+- **Seçilen alt tipler ve gerekçe:**
+  - 1–6 için **not tamamlama** seçildi. AC1 not, AC2 akış şeması, AC3 tablo kullanmıştı;
+    üç tip de birer kez kullanıldığı için AC4'te tekrar serbestti (AC3 notundaki karar).
+    A10 (dört ofis düzeninin karşılaştırıldığı deney) ilk bakışta tabloya uygun görünüyor
+    ama **tablo denendi ve vazgeçildi:** dört düzenin *tanımları* B paragrafında,
+    *sonuçları* D ve E'de veriliyor; satırları düzenlere ayıran bir tablo, hücreler
+    soldan sağa okunduğunda B↔D arasında ileri geri zıplıyor ve **sıra kuralını**
+    bozuyordu. Not tamamlamada cevaplar A–B–B–C–F–H'ye yayıldı, sıra korundu.
+    Akış şeması da elendi: A10 sıralı bir süreç değil, paralel bir karşılaştırma anlatıyor.
+  - 19–22 **cümle tamamlama**, `NO MORE THAN TWO WORDS` (A11).
+  - 36–40 için özet tamamlamanın **listeden kelime seçme** alt tipi kullanıldı
+    (`word_bank` dolu: A–J, 10 seçenek, 5 doğru + 5 çeldirici), AC3 notundaki "AC4'te
+    listeden seçme kullanılırsa iki alt tip 2–2 dengelenir" önerisine uygun olarak.
+    **Academic özet tamamlama dengesi artık 2–2:** AC1 ve AC3 metinden seçme, AC2 ve AC4
+    listeden seçme. Şema, AC2'de kararlaştırılan düzeni izliyor (`answer` harf tutuyor,
+    `accepted_variants` harfi ve seçenek metnini birlikte kabul ediyor, `word_limit: null`).
+  - ⚠️ **GT1/GT2 için not:** GT'de 15–20 aralığı yalnız not/tablo tamamlama olabiliyor
+    (akış şeması plana göre yok). GT1'de biri, GT2'de öteki kullanılırsa iki tip de
+    görülmüş olur. Özet tamamlamada (37–40) GT tarafında henüz hiçbir alt tip
+    kullanılmadı; ikisinden birinde listeden seçme yapılabilir.
+- **Alt tip dağılımı özeti (Academic, 1–6):** AC1 not · AC2 akış şeması · AC3 tablo ·
+  AC4 not. Üç tip de en az bir kez kullanıldı, plandaki "dört Academic testte hepsi aynı
+  tip olmasın" şartı karşılandı.
+- Kelime sınırları: 1–6 `ONE WORD ONLY` (bütün cevaplar tek kelime; `sound-absorbing`
+  tireli olduğu için tek kelime sayılıyor); 19–22 `NO MORE THAN TWO WORDS` (en uzunu
+  `silver birch`); 36–40 sınırsız (listeden seçme, `word_limit: null`). Bütün cevaplar
+  sınıra uyuyor.
+- Elenen soru: yok. **Vazgeçilen cevap adayları:** A10'da `noise` (pasajda 4 kez geçiyor:
+  A, C, F, H), `code commits` (2 kez: C ve G), `unassigned` (2 kez: B ve E), `energy`
+  (2 kez), `default` (2 kez), `ranking` (2 kez) — hepsi benzersizlik kuralına takıldı.
+  A11'de `snow` (9 kez) ve `vitality` (2 kez) elendi; ayrıca E paragrafındaki `flow`
+  tanımı soru kökünde verilmeden sorulamadığı, verilince de cevabı ele verdiği için
+  bırakıldı. Yerlerine tek geçişli `reconfigure`, `soundproof`, `sound-absorbing`,
+  `headphones`, `novelty`, `workflows`, `silver birch`, `humidity`, `passage`,
+  `vegetation` seçildi. A12'nin çeldirici listesine bilinçli olarak `between-subjects`,
+  `unrelated in meaning` ve `the length of the nap` kondu — üçü de pasajda geçen ama
+  ilgili boşlukta **yanlış** olan ifadeler, yani gerçek çeldirici; `deeper sleep` ve
+  `much weaker results` ise pasajın söylemediği yönde çeldirici.
+- Doğrulama: geçici bir denetim scriptiyle (`tools/_ac4_kontrol.py`, sonra silindi) her
+  dosya için JSON geçerliliği, soru numara aralığı (1–6 / 19–22 / 36–40), `evidence`in
+  pasajda **birebir** geçişi, `evidence_locator` doğruluğu, cevabın pasajdaki geçiş sayısı
+  (**hepsi tam 1**), sıra kuralı, kelime sınırı, cevap tekrarı, soru kökü ile pasaj
+  arasında 6+ kelimelik birebir örtüşme olmaması, `explanation` alanlarının Türkçe olması,
+  gövdedeki boşluk numaralarının soru numaralarıyla eşleşmesi, `word_bank` seçenek/
+  çeldirici sayısı ve "IELTS" geçmemesi denetlendi. **İlk turda 2 hata çıktı ve
+  düzeltildi:** (1) 21. sorunun kökü A11'den "so that any change could be" ifadesini
+  birebir taşıyordu → cümle yeniden yazıldı; (2) sıra kuralı denetiminin kendisi hatalıydı
+  — 2. ve 3. sorular B paragrafının **aynı uzun cümlesini** kanıt olarak paylaştığı için
+  kanıt cümlesinin konumuna bakan kontrol eşitlik görüp hata veriyordu; metinden seçme
+  tiplerinde **cevabın kendi konumuna** bakacak şekilde düzeltildi (`soundproof` cümle
+  içinde `sound-absorbing`den önce geçiyor, sıra gerçekte doğruydu). Düzeltmeden sonra
+  script **hata 0**. Ardından `python tools/dogrula.py`: **şema hatası 0**, okuma sorusu 60
+  (AC1–AC4 × 15), pasaj lisansı eksik 0, görünür metinde IELTS 0, yasak kaynak 0.
+- Referans PDF'leri: `referans/text/` klasörü bu oturumda da yoktu ve `pdftotext` yine
+  çalıştırılamadı. Yönerge kalıpları prompt dosyasındaki üç kalıptan ve AC1–AC3'ün
+  yerleşik biçiminden alındı; listeden seçme yönergesi AC2'deki kalıbın aynısı.
+- Atlanan/sorun: yok. **OPUS5-10'da 10 paketten 4'ü tamam;** kalan 6 paket GT1, GT2 ve
+  4 alıştırma paketi (7, 8, 9, 10 — bunlardan 7. paket iki dosya). Dört Academic testin de
+  OPUS5-10 payı (60 soru) bitti; `content/reading/practice/` hâlâ boş.

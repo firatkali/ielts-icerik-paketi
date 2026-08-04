@@ -1,0 +1,79 @@
+{
+  "schema_version": "1.0",
+  "set_id": "AC4-summary-completion",
+  "skill": "reading",
+  "module": "academic",
+  "test_id": "AC4",
+  "practice": false,
+  "passage_id": "A12",
+  "question_type": "summary_completion",
+  "generated_by": "opus",
+  "instructions": "Complete the summary using the list of words and phrases, A-J, below.",
+  "word_limit": null,
+  "word_bank": [
+    { "letter": "A", "text": "a chance to sleep" },
+    { "letter": "B", "text": "awake" },
+    { "letter": "C", "text": "between-subjects" },
+    { "letter": "D", "text": "connected in meaning" },
+    { "letter": "E", "text": "deeper sleep" },
+    { "letter": "F", "text": "equal benefits" },
+    { "letter": "G", "text": "much weaker results" },
+    { "letter": "H", "text": "the length of the nap" },
+    { "letter": "I", "text": "unrelated in meaning" },
+    { "letter": "J", "text": "within-subject" }
+  ],
+  "visual": null,
+  "stem_block": "Sleep, naps and remembering word pairs\n\nTwo studies asked how well freshly learned word pairs survive either a night of sleep or a short daytime rest. In the earlier one, different volunteers were placed in a sleeping group and a waking group; the later one instead used a (36) ........ design, so that the very same volunteers went through both a rest and a matching stretch of time without one. In the earlier study, one group met 80 pairs late in the evening and was tested twelve hours afterwards, while the other met them at the start of the day and stayed (37) ........ until an evening test. Where the two halves of a pair were already (38) ........ , a whole night of sleep improved recall far more than a rest of an hour and a half did. Where no such link existed, the two produced almost (39) ........ . Neither how long a rest ran nor which stages it contained predicted the size of the gain, which suggests that simply getting (40) ........ counted for more than the internal shape of that sleep.",
+  "items": [
+    {
+      "number": 36,
+      "prompt": "In the earlier one, different volunteers were placed in a sleeping group and a waking group; the later one instead used a (36) ........ design, so that the very same volunteers went through both a rest and a matching stretch of time without one.",
+      "answer": ["J"],
+      "accepted_variants": ["J", "within-subject", "within subject"],
+      "evidence": "The first experiment used a between-subjects design, meaning that different participants were assigned to a sleep group or a wake group, while the second used a within-subject design in which the same participants experienced both a nap and a period of wakefulness on different days, allowing more direct comparison.",
+      "evidence_locator": { "paragraph": "B", "sentence": 2 },
+      "explanation": "Paragraf B, ikinci deneyin aynı katılımcıların hem şekerlemeyi hem de uyanık geçen dönemi yaşadığı 'within-subject' tasarımı kullandığını söylüyor; bu yüzden doğru seçenek J.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 37,
+      "prompt": "In the earlier study, one group met 80 pairs late in the evening and was tested twelve hours afterwards, while the other met them at the start of the day and stayed (37) ........ until an evening test.",
+      "answer": ["B"],
+      "accepted_variants": ["B", "awake"],
+      "evidence": "The wake group learned the same material at nine in the morning and were tested twelve hours later, at nine that evening, having remained awake throughout.",
+      "evidence_locator": { "paragraph": "C", "sentence": 3 },
+      "explanation": "Paragraf C, uyanık grubun sabah dokuzda öğrenip akşam dokuzda sınandığını ve bu süre boyunca uyanık kaldığını söylüyor; bu yüzden doğru seçenek B.",
+      "difficulty": "easy"
+    },
+    {
+      "number": 38,
+      "prompt": "Where the two halves of a pair were already (38) ........ , a whole night of sleep improved recall far more than a rest of an hour and a half did.",
+      "answer": ["D"],
+      "accepted_variants": ["D", "connected in meaning"],
+      "evidence": "For semantically related word pairs, nocturnal sleep produced a substantially larger improvement in recall than daytime napping did, with a standardised effect size of 0.58 compared with only 0.15 for napping.",
+      "evidence_locator": { "paragraph": "E", "sentence": 2 },
+      "explanation": "Paragraf E, gece uykusunun şekerlemeye belirgin üstünlüğünün anlamca ilişkili kelime çiftlerinde ortaya çıktığını söylüyor; bu yüzden doğru seçenek D.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 39,
+      "prompt": "Where no such link existed, the two produced almost (39) ........ .",
+      "answer": ["F"],
+      "accepted_variants": ["F", "equal benefits"],
+      "evidence": "For unrelated word pairs, however, nocturnal sleep and napping produced very similar benefits, with effect sizes of 0.71 and 0.68 respectively, showing that a nap could match a full night's sleep when the material being learned had no prior connection to existing knowledge.",
+      "evidence_locator": { "paragraph": "E", "sentence": 3 },
+      "explanation": "Paragraf E, ilişkisiz çiftlerde gece uykusu ile şekerlemenin çok benzer (0,71'e karşı 0,68) yarar sağladığını söylüyor; bu yüzden doğru seçenek F.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 40,
+      "prompt": "Neither how long a rest ran nor which stages it contained predicted the size of the gain, which suggests that simply getting (40) ........ counted for more than the internal shape of that sleep.",
+      "answer": ["A"],
+      "accepted_variants": ["A", "a chance to sleep", "chance to sleep"],
+      "evidence": "Neither the exact length of a nap nor the particular stages of sleep it contained showed any significant relationship with how much memory improved, suggesting that simply having the opportunity to nap mattered more than its precise internal structure.",
+      "evidence_locator": { "paragraph": "F", "sentence": 2 },
+      "explanation": "Paragraf F, ne şekerlemenin süresinin ne de içerdiği evrelerin bellek kazanımıyla anlamlı bir ilişki gösterdiğini, önemli olanın uyuma fırsatının bulunması olduğunu söylüyor; bu yüzden doğru seçenek A.",
+      "difficulty": "hard"
+    }
+  ]
+}

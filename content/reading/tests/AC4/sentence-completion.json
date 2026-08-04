@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0",
+  "set_id": "AC4-sentence-completion",
+  "skill": "reading",
+  "module": "academic",
+  "test_id": "AC4",
+  "practice": false,
+  "passage_id": "A11",
+  "question_type": "sentence_completion",
+  "generated_by": "opus",
+  "instructions": "Complete the sentences below. Choose NO MORE THAN TWO WORDS from the passage for each answer.",
+  "word_limit": "NO MORE THAN TWO WORDS",
+  "word_bank": null,
+  "visual": null,
+  "stem_block": null,
+  "items": [
+    {
+      "number": 19,
+      "prompt": "Four fifths of the trees the volunteers stood among were Norway spruce, the remaining fifth being ........ .",
+      "answer": ["silver birch"],
+      "accepted_variants": ["silver birch", "silver birch trees"],
+      "evidence": "In the forest condition, participants walked for five minutes to reach a stand of Norway spruce and silver birch trees, roughly 80 and 20 per cent of the stand respectively, ranging in age from 80 to 108 years and fully covered in snow, where they spent 15 minutes simply standing or sitting quietly.",
+      "evidence_locator": { "paragraph": "C", "sentence": 1 },
+      "explanation": "Paragraf C, ağaçlığın kabaca yüzde 80'inin ladin, yüzde 20'sinin ise huş olduğunu söylüyor; kalan beşte biri oluşturan tür sorulduğu için cevap 'silver birch'.",
+      "difficulty": "easy"
+    },
+    {
+      "number": 20,
+      "prompt": "The air on the days of the outdoor sessions was almost windless and extremely damp, with ........ measured at 94.25 per cent.",
+      "answer": ["humidity"],
+      "accepted_variants": ["humidity"],
+      "evidence": "The forest sessions took place in late January, in conditions typical of a Finnish winter: an average temperature of minus 7.23 degrees Celsius, 20 to 25 centimetres of snow covering the ground and trees, humidity of 94.25 per cent, and only a light wind of 1.13 metres per second.",
+      "evidence_locator": { "paragraph": "D", "sentence": 1 },
+      "explanation": "Paragraf D, orman oturumlarındaki koşulları sıralarken nem oranını yüzde 94,25 olarak veriyor; yüzde 94,25 ile ölçülen büyüklük sorulduğu için cevap 'humidity'.",
+      "difficulty": "easy"
+    },
+    {
+      "number": 21,
+      "prompt": "All four scales were filled in on paper right before and right after the quarter of an hour, making it possible to credit any shift to the setting itself rather than to the mere ........ of time.",
+      "answer": ["passage"],
+      "accepted_variants": ["passage"],
+      "evidence": "All four instruments were administered as paper questionnaires immediately before and again immediately after each 15-minute period, so that any change could be attributed specifically to the intervening exposure rather than to the simple passage of time.",
+      "evidence_locator": { "paragraph": "E", "sentence": 5 },
+      "explanation": "Paragraf E, ölçeklerin 15 dakikanın hemen öncesinde ve hemen sonrasında doldurulmasının nedenini, değişimin 'yalnızca zamanın geçmesine' değil ortama bağlanabilmesi olarak açıklıyor; bu yüzden cevap 'passage'.",
+      "difficulty": "hard"
+    },
+    {
+      "number": 22,
+      "prompt": "One explanation put forward for the absence of any rise in vigour is that a thick white layer conceals the green ........ which earlier work has tied to sharper alertness.",
+      "answer": ["vegetation"],
+      "accepted_variants": ["vegetation"],
+      "evidence": "The researchers suggest that snow itself may partly explain why vigour failed to rise after the forest visit, since a thick covering of snow hides the green vegetation that other studies have linked to increased energy and alertness, leaving only the calming, restorative effect intact rather than the more energising one.",
+      "evidence_locator": { "paragraph": "H", "sentence": 1 },
+      "explanation": "Paragraf H, dinçliğin artmamasını karın, başka çalışmaların enerji ve uyanıklıkla ilişkilendirdiği yeşil bitki örtüsünü örtmesiyle açıklıyor; bu yüzden cevap 'vegetation'.",
+      "difficulty": "medium"
+    }
+  ]
+}
