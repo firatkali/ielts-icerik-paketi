@@ -2419,3 +2419,108 @@ L5'in bıraktığı iki uyarı:
 - Atlanan/sorun: yok. **OPUS5-21'de 12 paketten 6'sı tamam;** tam testler bitti, sıradaki
   paket **7 — alıştırma: form / not tamamlama (15 soru)**, dosyası
   `content/listening/practice/note-completion.json`.
+
+## OPUS5-21 (7. çalıştırma: alıştırma — form / not tamamlama, 15 soru)
+
+- Tarih: 2026-08-04
+- Depo kontrolü: `content/listening/tests/` altında **`L1/` … `L6/`** tamamdı (6 × 29 = 174),
+  `content/listening/practice/` **boştu** → çalıştırma listesindeki ilk üretilmemiş paket
+  **7 — alıştırma: form / not tamamlama** idi, o yapıldı. 24 senaryonun hepsi yerinde.
+- Çıktı: `content/listening/practice/note-completion.json` — **15 soru, 4 küme**,
+  `test_id: null`, `practice: true`, numaralar 1'den 15'e.
+- Senaryo dosyalarına **dokunulmadı**; 15 sorunun 15'i de hazır bilgi noktalarına oturdu.
+
+### Kümeler, senaryolar ve seçilen tipler
+
+| Küme | Senaryo | Tip | Sorular | Kelime sınırı | Konu |
+|---|---|---|---|---|---|
+| `P-FN-01` | `L1-S1` | `form_completion` | 1–4 | TWO WORDS | yaz kampına telefonla kayıt |
+| `P-FN-02` | `L5-S1` | `note_completion` | 5–8 | TWO WORDS | rehberli bisiklet turu rezervasyonu |
+| `P-FN-03` | `L2-S4` | `note_completion` | 9–12 | TWO WORDS | pompa öncesi su taşıma/depolama dersi |
+| `P-FN-04` | `L6-S4` | `note_completion` | 13–15 | TWO WORDS | davranışsal ekonomi dersi |
+
+- Kümeler **4 + 4 + 4 + 3**, yani hepsi promptun istediği 3–5 aralığında ve hiçbir
+  senaryodan 4'ten fazla soru çıkmadı.
+- Denge bilinçli: iki **1. bölüm** (karşılıklı konuşma → biri form, biri not) + iki
+  **4. bölüm** (tek kişilik ders → not). Dört ayrı testten (L1, L2, L5, L6) alındı ki
+  aynı testi baştan sona çalışan aday alıştırmada da aynı sesi dinlemesin.
+- **Gövdelerde tam test cevabı sızdırılmadı:** `stem_block` içindeki verilmiş bilgiler
+  (ör. "the July fortnight", "helmets are handed out") kasten tam testte soru olmayan
+  ayrıntılardan seçildi.
+
+### Kullanılan `answer_point_id` değerleri
+
+| Küme | Kimlikler |
+|---|---|
+| `P-FN-01` (L1-S1) | `L1-S1-02`, `L1-S1-07`, `L1-S1-19`, `L1-S1-22` |
+| `P-FN-02` (L5-S1) | `L5-S1-10`, `L5-S1-19`, `L5-S1-24`, `L5-S1-26` |
+| `P-FN-03` (L2-S4) | `L2-S4-07`, `L2-S4-08`, `L2-S4-19`, `L2-S4-22` |
+| `P-FN-04` (L6-S4) | `L6-S4-07`, `L6-S4-17`, `L6-S4-23` |
+
+Hiçbiri tam testlerde kullanılmadı — 174 sorunun `answer_point_id` listesi betikle
+çıkarılıp kesişim **boş** olduğu doğrulandı ("Tam testteki soruyla aynı bilgi noktasını
+kullanma" kuralı).
+
+Cevaplar: 1 `11` · 2 `3.30` · 3 `mobile phones` · 4 `5 July` · 5 `12` ·
+6 `waterproof jacket` · 7 `72 hours` · 8 `high wind` · 9 `3,000` · 10 `labour` ·
+11 `five storeys` · 12 `time` · 13 `framing` · 14 `11` · 15 `two days`.
+
+Çeldiricili bilgi noktasından çıkan sorular (cevap her zaman **düzeltilmiş** değer):
+1 (10 → 11 yaş), 8 (yağmur → şiddetli rüzgâr), 9 (5.000 → 3.000 yıl),
+15 (iki hafta → iki gün). Toplam **4 soru**, 15'te dörtte birden fazla.
+
+### Doğrulama
+
+- Denetim betiği depoda: `tools/_p07_kontrol.py`. Dosyayı **diskten geri okuyup** sınıyor.
+- Denetlenenler: zarf alanları (`practice`, `test_id`, `question_type`), küme boyu 3–5,
+  senaryo başına en fazla 4 soru, her `answer_point_id`nin senaryoda **var olması** ve
+  tam testlerde **kullanılmamış** olması, `turn_index`in bilgi noktasıyla birebir uyuşması,
+  küme içi sıranın geri gitmemesi, nefes payı, her `evidence`in ilgili replikte **birebir**
+  geçmesi, **`accepted_variants` dahil** kelime sınırı (harf içeren jeton = kelime),
+  `prompt`un `stem_block` içinde bulunması, her numara için gövdede boşluk olması,
+  numaraların 1–15 dizisi olması, açıklamaların Türkçe ve dolu olması, "IELTS" taraması.
+  **Hata 0.**
+- Betiğin bıraktığı iki uyarı **elle incelendi ve kabul edildi** (ikisi de altın kural 6'nın
+  "sayı/tarih rakamla da yazılabilir" maddesi): soru 2 seste "half past three" olarak
+  geçiyor, cevap `3.30`; soru 4 seste "the fifth of July", cevap `5 July`. İkisinin de
+  `accepted_variants` listesi yazılı biçimleri kapsıyor (`3:30`, `3.30 pm`, `15.30`;
+  `5th July`, `July 5`, `July 5th`).
+- Ardından `python tools/dogrula.py`: **şema hatası 0**, görünür metinde IELTS 0,
+  yasak kaynak 0, `listening/practice` sayacı **15**.
+
+### Bilinçli sapmalar
+
+1. **Dört kümenin dördünde de `TWO WORDS AND/OR A NUMBER` sınırı var.** Tam testlerde
+   sınır çeşitlendirilmişti; burada `ONE WORD` bilinçli olarak kullanılmadı, çünkü
+   seçilen bilgi noktalarının yarısı iki kelimelik ("mobile phones", "waterproof jacket",
+   "five storeys", "two days") ve eş anlamlı kısaltma yazmak 1. altın kuralı çiğnerdi.
+   Yüzdelik ve tarih sorularında boşluk **birimin dışına** alındı (`(14) ........ per cent`,
+   `about (9) ........ years`) — böylece cevap tek jeton kaldı, sınır zorlanmadı.
+2. **Nefes payı kuralı bölüm tipine göre uygulandı.** Karşılıklı konuşmalarda
+   (`L1-S1`: 7, 16, 36, 42 · `L5-S1`: 20, 32, 42, 46) iki cevap arasında en az iki replik
+   var. Tek kişilik derslerde "replik" = paragraf sayıldığı için ayrı paragraf yeterli
+   görüldü (`L2-S4`: 3, 4, 9, 11 · `L6-S4`: 2, 5, 7) — L1–L6'nın 4. bölüm setlerinde de
+   uygulama aynıydı (ör. `L6-note-completion` 0,1,2,3,4,5). Denetim betiği bu ayrımı
+   senaryonun `speakers` sayısına bakarak yapıyor.
+3. **Cevap türü dağılımı:** her küme içinde ardışık iki cevap farklı türden —
+   sayı/saat/nesne/tarih (P-FN-01), fiyat/nesne/süre/olay (P-FN-02),
+   sayı/kavram/sayı/kavram (P-FN-03), terim/sayı/süre (P-FN-04). Toplamda 7 sayı-tarih,
+   8 kelime.
+
+### Telif / yazım
+
+- İngiliz İngilizcesi (`£`, `labour`, `storeys`, `behavioural`); `accepted_variants`
+  hoşgörü olarak `labor`, `stories`, `2 days`, `high winds` biçimlerini de kabul ediyor.
+  Görünür metinde "IELTS" yok, gerçek kişi/kurum adı yok — bütün adlar senaryolardan.
+- ⚠️ **Referans PDF'leri bu oturumda da açılamadı:** `referans/` altında yalnızca `.pdf`
+  var, `referans/text/` hâlâ üretilmemiş ve `Read` aracı PDF için poppler istiyor, ortamda
+  yok. Yönerge kalıpları L1–L6 setlerinden devralındı ("Complete the form below…",
+  "Complete the notes below. Write NO MORE THAN TWO WORDS AND/OR A NUMBER for each
+  answer."). Yeni biçim icat edilmedi; referanstan **tek bir cümle, soru ya da senaryo
+  kopyalanmadı**.
+- Atlanan/sorun: yok. **OPUS5-21'de 12 paketten 7'si tamam;** sıradaki paket
+  **8 — alıştırma: tablo tamamlama (15 soru)**, dosyası
+  `content/listening/practice/table-completion.json`. Sonraki oturuma not: form/not
+  paketinde `L1-S1`, `L5-S1`, `L2-S4`, `L6-S4` senaryolarından dörder/üçer soru çıktı;
+  tabloda **başka senaryolara** yönelmek (ör. `L3-S1`, `L4-S1`, `L6-S1`, `L1-S4`) hem
+  senaryo başına 4 soru sınırını rahatlatır hem alıştırma havuzunu yayar.

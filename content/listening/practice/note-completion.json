@@ -1,0 +1,343 @@
+{
+  "schema_version": "1.0",
+  "set_id": "practice-note-completion",
+  "skill": "listening",
+  "test_id": null,
+  "section": null,
+  "practice": true,
+  "question_type": "note_completion",
+  "generated_by": "opus",
+  "instructions": "Complete the form or the notes below. Write NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+  "word_limit": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
+  "options": null,
+  "visual": null,
+  "groups": [
+    {
+      "group_id": "P-FN-01",
+      "script_id": "L1-S1",
+      "question_type": "form_completion",
+      "context_line": "You will hear a father booking a place for his daughter at a summer activity camp.",
+      "instructions": "Complete the form below. Write NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+      "word_limit": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
+      "table": null,
+      "stem_block": "WILLOWBANK ACTIVITY CAMPS — BOOKING FORM\n\nChild's age when the camp begins: (1) ........\nSession booked: the July fortnight\nChildren are collected each day at: (2) ........\nPlease leave at home: fizzy drinks and (3) ........\nMedical form must be returned by: (4) ........",
+      "items": [
+        {
+          "number": 1,
+          "script_id": "L1-S1",
+          "prompt": "Child's age when the camp begins: (1) ........",
+          "answer": [
+            "11"
+          ],
+          "accepted_variants": [
+            "11",
+            "eleven"
+          ],
+          "evidence": "she'll be eleven by the time the camp starts",
+          "answer_point_id": "L1-S1-02",
+          "turn_index": 7,
+          "distractor_used": "10",
+          "explanation": "Baba önce kızının on yaşında olduğunu söylüyor, sonra haziran sonundaki doğum gününü hatırlayıp düzeltiyor: kamp başladığında on bir olacak.",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "script_id": "L1-S1",
+          "prompt": "Children are collected each day at: (2) ........",
+          "answer": [
+            "3.30"
+          ],
+          "accepted_variants": [
+            "3.30",
+            "3:30",
+            "3.30 pm",
+            "15.30"
+          ],
+          "evidence": "pick-up is at half past three",
+          "answer_point_id": "L1-S1-07",
+          "turn_index": 16,
+          "distractor_used": null,
+          "explanation": "Görevli günlük saatleri verirken çocukların alınma saatinin üç buçuk olduğunu söylüyor; değişen yalnızca bırakma saatidir.",
+          "difficulty": "easy"
+        },
+        {
+          "number": 3,
+          "script_id": "L1-S1",
+          "prompt": "Please leave at home: fizzy drinks and (3) ........",
+          "answer": [
+            "mobile phones"
+          ],
+          "accepted_variants": [
+            "mobile phones",
+            "mobile phone",
+            "phones"
+          ],
+          "evidence": "we ask families not to send mobile phones",
+          "answer_point_id": "L1-S1-19",
+          "turn_index": 36,
+          "distractor_used": null,
+          "explanation": "Kamp ailelerden cep telefonu göndermemelerini istiyor; grup liderlerinde telefon olduğu için gerekirse hemen aranıyorlar.",
+          "difficulty": "easy"
+        },
+        {
+          "number": 4,
+          "script_id": "L1-S1",
+          "prompt": "Medical form must be returned by: (4) ........",
+          "answer": [
+            "5 July"
+          ],
+          "accepted_variants": [
+            "5 July",
+            "5th July",
+            "July 5",
+            "July 5th"
+          ],
+          "evidence": "we need it back by the fifth of July",
+          "answer_point_id": "L1-S1-22",
+          "turn_index": 42,
+          "distractor_used": null,
+          "explanation": "Doldurulacak tek belge sağlık formu; onay e-postasına eklenecek ve en geç 5 Temmuz'da geri gönderilmesi gerekiyor.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "group_id": "P-FN-02",
+      "script_id": "L5-S1",
+      "question_type": "note_completion",
+      "context_line": "You will hear a woman booking places on a guided cycle ride.",
+      "instructions": "Complete the notes below. Write NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+      "word_limit": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
+      "table": null,
+      "stem_block": "HOLLOWFIELD CYCLE TOURS — THE GREENWAY RIDE\n\nBikes\n- the ride fee already covers a standard hybrid or a road bike\n- an electric bike costs an extra £(5) ........ (per bike, for the whole day)\n\nWhat to bring\n- helmets are handed out, but riders need their own water bottle\n- the item riders most often forget: a (6) ........\n\nBooking\n- the deposit comes back in full if you cancel more than (7) ........ ahead\n- the company itself calls the ride off only for (8) ........",
+      "items": [
+        {
+          "number": 5,
+          "script_id": "L5-S1",
+          "prompt": "an electric bike costs an extra £(5) ........ (per bike, for the whole day)",
+          "answer": [
+            "12"
+          ],
+          "accepted_variants": [
+            "12",
+            "twelve",
+            "£12",
+            "12 pounds"
+          ],
+          "evidence": "The electric ones carry a supplement of twelve pounds.",
+          "answer_point_id": "L5-S1-10",
+          "turn_index": 20,
+          "distractor_used": null,
+          "explanation": "Tur ücreti hibrit ve yarış bisikletini kapsıyor; elektrikli bisiklet için on iki sterlinlik ek ücret alınıyor.",
+          "difficulty": "medium"
+        },
+        {
+          "number": 6,
+          "script_id": "L5-S1",
+          "prompt": "the item riders most often forget: a (6) ........",
+          "answer": [
+            "waterproof jacket"
+          ],
+          "accepted_variants": [
+            "waterproof jacket",
+            "waterproof"
+          ],
+          "evidence": "And the thing people always leave behind is a waterproof jacket.",
+          "answer_point_id": "L5-S1-19",
+          "turn_index": 32,
+          "distractor_used": null,
+          "explanation": "Kask şirket tarafından veriliyor, matarayı bisikletçi getiriyor; en sık unutulan parça ise yağmurluk oluyor.",
+          "difficulty": "easy"
+        },
+        {
+          "number": 7,
+          "script_id": "L5-S1",
+          "prompt": "the deposit comes back in full if you cancel more than (7) ........ ahead",
+          "answer": [
+            "72 hours"
+          ],
+          "accepted_variants": [
+            "72 hours",
+            "seventy-two hours",
+            "72 hrs"
+          ],
+          "evidence": "If you cancel more than seventy-two hours before, we refund the deposit in full.",
+          "answer_point_id": "L5-S1-24",
+          "turn_index": 42,
+          "distractor_used": null,
+          "explanation": "Yetmiş iki saatten önce yapılan iptalde kapora tümüyle iade ediliyor; bu sürenin içine girilirse yanıyor.",
+          "difficulty": "medium"
+        },
+        {
+          "number": 8,
+          "script_id": "L5-S1",
+          "prompt": "the company itself calls the ride off only for (8) ........",
+          "answer": [
+            "high wind"
+          ],
+          "accepted_variants": [
+            "high wind",
+            "high winds"
+          ],
+          "evidence": "The only thing that stops us is high wind.",
+          "answer_point_id": "L5-S1-26",
+          "turn_index": 46,
+          "distractor_used": "rain",
+          "explanation": "Yağmurda tur yapılıyor; turu iptal ettiren tek şey şiddetli rüzgâr ve karar bir önceki akşam veriliyor.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "group_id": "P-FN-03",
+      "script_id": "L2-S4",
+      "question_type": "note_completion",
+      "context_line": "You will hear part of a lecture about how water was moved and stored before modern pumps.",
+      "instructions": "Complete the notes below. Write NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+      "word_limit": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
+      "table": null,
+      "stem_block": "MOVING AND STORING WATER BEFORE MODERN PUMPS\n\nUnderground channels\n- age of the examples that can be dated with confidence: about (9) ........ years\n- water moves by gravity, so what has to be paid for is (10) ........ , not fuel\n\nStepped wells\n- the deepest of them descend as far as (11) ........\n\nOwnership and upkeep\n- a household's share was measured in (12) ........ , never in volume",
+      "items": [
+        {
+          "number": 9,
+          "script_id": "L2-S4",
+          "prompt": "age of the examples that can be dated with confidence: about (9) ........ years",
+          "answer": [
+            "3,000"
+          ],
+          "accepted_variants": [
+            "3,000",
+            "3000",
+            "three thousand"
+          ],
+          "evidence": "The securely dated examples are closer to three thousand.",
+          "answer_point_id": "L2-S4-07",
+          "turn_index": 3,
+          "distractor_used": "5,000",
+          "explanation": "Konuşmacı beş bin yıllık olduğu yönündeki yaygın iddiayı reddediyor: güvenilir biçimde tarihlenen örnekler üç bin yıla yakın.",
+          "difficulty": "medium"
+        },
+        {
+          "number": 10,
+          "script_id": "L2-S4",
+          "prompt": "water moves by gravity, so what has to be paid for is (10) ........ , not fuel",
+          "answer": [
+            "labour"
+          ],
+          "accepted_variants": [
+            "labour",
+            "labor"
+          ],
+          "evidence": "the running cost of the system is labour rather than energy",
+          "answer_point_id": "L2-S4-08",
+          "turn_index": 4,
+          "distractor_used": null,
+          "explanation": "Su yer çekimiyle aktığı için sistemin işletme maliyeti enerji değil, insan emeğidir.",
+          "difficulty": "medium"
+        },
+        {
+          "number": 11,
+          "script_id": "L2-S4",
+          "prompt": "the deepest of them descend as far as (11) ........",
+          "answer": [
+            "five storeys"
+          ],
+          "accepted_variants": [
+            "five storeys",
+            "5 storeys",
+            "five stories",
+            "5 stories"
+          ],
+          "evidence": "Some are five storeys deep.",
+          "answer_point_id": "L2-S4-19",
+          "turn_index": 9,
+          "distractor_used": null,
+          "explanation": "Basamaklı kuyuların bazıları beş kat derinliğe iniyor; en alttaki odalar yazın yüzeyden serin kalıyor.",
+          "difficulty": "easy"
+        },
+        {
+          "number": 12,
+          "script_id": "L2-S4",
+          "prompt": "a household's share was measured in (12) ........ , never in volume",
+          "answer": [
+            "time"
+          ],
+          "accepted_variants": [
+            "time"
+          ],
+          "evidence": "It was owned as time.",
+          "answer_point_id": "L2-S4-22",
+          "turn_index": 11,
+          "distractor_used": null,
+          "explanation": "Hacim ölçülemediği için paylar zaman olarak tanımlanıyordu; bakım yükümlülüğü de bu paya bağlıydı.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "group_id": "P-FN-04",
+      "script_id": "L6-S4",
+      "question_type": "note_completion",
+      "context_line": "You will hear a lecturer talking about behavioural economics and how findings from it are tested in the field.",
+      "instructions": "Complete the notes below. Write NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+      "word_limit": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
+      "table": null,
+      "stem_block": "BEHAVIOURAL ECONOMICS — SEMINAR NOTES\n\n- changing the wording of a choice changes the choice: this is called (13) ........\n- automatic saving scheme: average share of pay saved rose to (14) ........ per cent in four years\n- letters about unpaid bills: a reminder sent (15) ........ before the deadline works best",
+      "items": [
+        {
+          "number": 13,
+          "script_id": "L6-S4",
+          "prompt": "changing the wording of a choice changes the choice: this is called (13) ........",
+          "answer": [
+            "framing"
+          ],
+          "accepted_variants": [
+            "framing"
+          ],
+          "evidence": "the wording of a choice changes the choice. That's framing.",
+          "answer_point_id": "L6-S4-07",
+          "turn_index": 2,
+          "distractor_used": null,
+          "explanation": "Yargılar bir referans noktasına göre verildiği için seçeneğin nasıl ifade edildiği seçimi değiştiriyor; bu etkinin adı çerçeveleme.",
+          "difficulty": "easy"
+        },
+        {
+          "number": 14,
+          "script_id": "L6-S4",
+          "prompt": "automatic saving scheme: average share of pay saved rose to (14) ........ per cent in four years",
+          "answer": [
+            "11"
+          ],
+          "accepted_variants": [
+            "11",
+            "eleven"
+          ],
+          "evidence": "the average saving rate went from about three per cent to eleven per cent over four years",
+          "answer_point_id": "L6-S4-17",
+          "turn_index": 5,
+          "distractor_used": null,
+          "explanation": "Zam geldiğinde devreye giren tasarruf planında ortalama tasarruf oranı dört yılda yüzde üçten yüzde on bire çıkıyor.",
+          "difficulty": "medium"
+        },
+        {
+          "number": 15,
+          "script_id": "L6-S4",
+          "prompt": "letters about unpaid bills: a reminder sent (15) ........ before the deadline works best",
+          "answer": [
+            "two days"
+          ],
+          "accepted_variants": [
+            "two days",
+            "2 days"
+          ],
+          "evidence": "a reminder that arrives two days before a deadline consistently beats one that arrives two weeks before",
+          "answer_point_id": "L6-S4-23",
+          "turn_index": 7,
+          "distractor_used": "two weeks",
+          "explanation": "Son ödeme gününden iki hafta önce gelen hatırlatma değil, iki gün önce gelen hatırlatma daha iyi sonuç veriyor.",
+          "difficulty": "medium"
+        }
+      ]
+    }
+  ]
+}
