@@ -1,0 +1,559 @@
+{
+  "schema_version": "1.0",
+  "script_id": "L6-S4",
+  "skill": "listening",
+  "test_id": "L6",
+  "section": 4,
+  "generated_by": "opus",
+  "setting": "Davranissal ekonomi uzerine akademik ders",
+  "context_line": "You will hear a lecturer talking about behavioural economics and how findings from it are tested in the field.",
+  "word_count": 942,
+  "estimated_minutes": 6.3,
+  "turn_index_base": 0,
+  "speakers": [
+    {
+      "code": "M1",
+      "role": "ogretim uyesi",
+      "gender": "male",
+      "accent": "en-CA",
+      "voice": "en-CA",
+      "age_band": "40-60",
+      "pace": "olculu, akademik"
+    }
+  ],
+  "turns": [
+    {
+      "speaker": "M1",
+      "text": "Good morning. Today I want to pull the term's work together under the heading of behavioural economics. The standard model assumes a decision-maker with stable preferences, complete information and unlimited attention. It's a simplification, but from the nineteen seventies onwards a pair of psychologists published a series of experiments showing that everyday choices break the model in ways that are systematic. The errors aren't random noise; they run in the same direction for most people most of the time."
+    },
+    {
+      "speaker": "M1",
+      "text": "The first building block is the reference point. We judge an outcome not in absolute terms but as a gain or a loss from wherever we happen to be standing. And losses weigh more heavily than gains of the same size. You'll see that ratio quoted as three to one. The careful estimates actually put it closer to two to one, and it explains why people hold on to a falling investment long after they would have sold a rising one."
+    },
+    {
+      "speaker": "M1",
+      "text": "Because judgements are made against a reference point, the wording of a choice changes the choice. That's framing. In one study a rail operator described the same service in two ways on identical leaflets: nine in ten trains arrive on time, or one in ten trains is delayed. Identical information — and the second version produced nearly twice as many complaints over the following month."
+    },
+    {
+      "speaker": "M1",
+      "text": "The most powerful single tool, though, is the default: what happens if you do nothing. When workplace saving schemes required staff to fill in a form in order to join, participation ran at about one in four. When the same schemes enrolled staff automatically and asked them to fill in a form in order to leave, participation rose to roughly nine in ten. It was reported at the time that nobody opted out. That isn't right — a small minority always does — but the shift is enormous, and the paperwork is identical in both directions."
+    },
+    {
+      "speaker": "M1",
+      "text": "So why should a form matter that much? Three reasons, and you should be able to separate them. The first is effort: any small obstacle, however trivial, thins out the people who get to the other side of it. The second is the implied recommendation — a default carries a quiet message that this is the normal thing to do. The third is delay. Most people intend to deal with the form, and go on intending it."
+    },
+    {
+      "speaker": "M1",
+      "text": "That third reason takes us to present bias. When we compare a cost today with a benefit next year, we discount the future steeply, and inconsistently: next month's version of us is expected to be disciplined in a way that this month's never is. One well-known scheme works around the problem: people commit today to saving more later, with the extra contribution starting only when their next pay rise arrives, so nothing leaves the current pay packet. In the firms that trialled it, the average saving rate went from about three per cent to eleven per cent over four years."
+    },
+    {
+      "speaker": "M1",
+      "text": "More choice is not automatically better either. In a much-quoted experiment, a stall offering two dozen varieties of jam stopped six in ten of the people walking past, while a stall with only six varieties stopped three in ten. But of those who stopped, about one in thirty bought a jar at the large display, against nearly one in three at the small one."
+    },
+    {
+      "speaker": "M1",
+      "text": "Findings of this kind moved into government over the last fifteen years. The best documented example is a letter: householders who hadn't paid a bill were told that most people in their street had already paid. Payment rates rose. How far up is where you have to be careful. The figure that reached the newspapers was fifteen percentage points, which came from a single pilot in one town. Across the larger trials the effect settles at about five percentage points. Timing matters too: a reminder that arrives two days before a deadline consistently beats one that arrives two weeks before."
+    },
+    {
+      "speaker": "M1",
+      "text": "Now, the criticisms. First, size. When one of these interventions is repeated across many sites, the average effect is often around half of what the original study reported, partly because striking results are more likely to be published than dull ones. Second, durability: several effects shrink once the novelty goes, and a few disappear within a year. Third, scope. A nudge cannot do the work of a price or a regulation."
+    },
+    {
+      "speaker": "M1",
+      "text": "The fourth criticism is the most interesting. Somebody has to choose the default, and that somebody has interests of their own. The same techniques that help you save can keep you subscribed to something you no longer want — an obstacle course rather than a nudge. You need a test that separates the two, and the usual one is whether the person's own goals are being served."
+    },
+    {
+      "speaker": "M1",
+      "text": "A word about method, since next week's reading is methodological. What changed the field was the field experiment: real customers or taxpayers, randomly allocated to different versions of a letter or a form, with sample sizes in the tens of thousands. Compare the early laboratory work, where sixty students made hypothetical choices for token payments. Random allocation is what allows you to say the wording caused the difference, and registering your prediction publicly before you collect the data is what stops the analysis being adjusted afterwards."
+    },
+    {
+      "speaker": "M1",
+      "text": "Finally, the assessment. The essay is fifteen hundred words. The hand-in was week eight on the original timetable, but it's now the Friday of week nine, and that's confirmed. Your reading is chapter four, not chapter three — chapter three was on last year's list. And for the seminar, bring one example of a default you've come across in the past week."
+    }
+  ],
+  "answer_points": [
+    {
+      "id": "L6-S4-01",
+      "kind": "object",
+      "value": "stable preferences, complete information, unlimited attention",
+      "speaker": "M1",
+      "quote": "The standard model assumes a decision-maker with stable preferences, complete information and unlimited attention.",
+      "turn_index": 0,
+      "distractor": null,
+      "suggested_types": [
+        "note_completion",
+        "summary_completion"
+      ]
+    },
+    {
+      "id": "L6-S4-02",
+      "kind": "date",
+      "value": "the 1970s",
+      "speaker": "M1",
+      "quote": "from the nineteen seventies onwards a pair of psychologists published a series of experiments",
+      "turn_index": 0,
+      "distractor": null,
+      "suggested_types": [
+        "note_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L6-S4-03",
+      "kind": "advantage",
+      "value": "the errors are systematic, not random",
+      "speaker": "M1",
+      "quote": "The errors aren't random noise; they run in the same direction for most people most of the time",
+      "turn_index": 0,
+      "distractor": null,
+      "suggested_types": [
+        "summary_completion",
+        "sentence_completion"
+      ]
+    },
+    {
+      "id": "L6-S4-04",
+      "kind": "object",
+      "value": "the reference point",
+      "speaker": "M1",
+      "quote": "The first building block is the reference point.",
+      "turn_index": 1,
+      "distractor": null,
+      "suggested_types": [
+        "note_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L6-S4-05",
+      "kind": "number",
+      "value": "about two to one",
+      "speaker": "M1",
+      "quote": "The careful estimates actually put it closer to two to one",
+      "turn_index": 1,
+      "distractor": "three to one",
+      "suggested_types": [
+        "note_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L6-S4-06",
+      "kind": "reason",
+      "value": "people keep a falling investment they would have sold if it were rising",
+      "speaker": "M1",
+      "quote": "why people hold on to a falling investment long after they would have sold a rising one",
+      "turn_index": 1,
+      "distractor": null,
+      "suggested_types": [
+        "short_answer",
+        "summary_completion"
+      ]
+    },
+    {
+      "id": "L6-S4-07",
+      "kind": "object",
+      "value": "framing",
+      "speaker": "M1",
+      "quote": "the wording of a choice changes the choice. That's framing.",
+      "turn_index": 2,
+      "distractor": null,
+      "suggested_types": [
+        "note_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L6-S4-08",
+      "kind": "number",
+      "value": "nearly twice as many complaints",
+      "speaker": "M1",
+      "quote": "the second version produced nearly twice as many complaints over the following month",
+      "turn_index": 2,
+      "distractor": null,
+      "suggested_types": [
+        "summary_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L6-S4-09",
+      "kind": "number",
+      "value": "about one in four (opt-in)",
+      "speaker": "M1",
+      "quote": "required staff to fill in a form in order to join, participation ran at about one in four",
+      "turn_index": 3,
+      "distractor": null,
+      "suggested_types": [
+        "table_completion",
+        "note_completion"
+      ]
+    },
+    {
+      "id": "L6-S4-10",
+      "kind": "number",
+      "value": "about nine in ten (automatic enrolment)",
+      "speaker": "M1",
+      "quote": "participation rose to roughly nine in ten",
+      "turn_index": 3,
+      "distractor": "nobody opted out",
+      "suggested_types": [
+        "table_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L6-S4-11",
+      "kind": "limitation",
+      "value": "a small minority still opts out",
+      "speaker": "M1",
+      "quote": "That isn't right — a small minority always does",
+      "turn_index": 3,
+      "distractor": null,
+      "suggested_types": [
+        "multiple_choice",
+        "sentence_completion"
+      ]
+    },
+    {
+      "id": "L6-S4-12",
+      "kind": "reason",
+      "value": "effort — a small obstacle thins the numbers",
+      "speaker": "M1",
+      "quote": "The first is effort: any small obstacle, however trivial, thins out the people who get to the other side of it.",
+      "turn_index": 4,
+      "distractor": null,
+      "suggested_types": [
+        "flow_chart_completion",
+        "note_completion"
+      ]
+    },
+    {
+      "id": "L6-S4-13",
+      "kind": "reason",
+      "value": "the default implies a recommendation",
+      "speaker": "M1",
+      "quote": "a default carries a quiet message that this is the normal thing to do",
+      "turn_index": 4,
+      "distractor": null,
+      "suggested_types": [
+        "note_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L6-S4-14",
+      "kind": "reason",
+      "value": "delay — people go on intending to act",
+      "speaker": "M1",
+      "quote": "The third is delay. Most people intend to deal with the form, and go on intending it.",
+      "turn_index": 4,
+      "distractor": null,
+      "suggested_types": [
+        "note_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L6-S4-15",
+      "kind": "object",
+      "value": "present bias",
+      "speaker": "M1",
+      "quote": "That third reason takes us to present bias.",
+      "turn_index": 5,
+      "distractor": null,
+      "suggested_types": [
+        "note_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L6-S4-16",
+      "kind": "rule",
+      "value": "the extra contribution starts with the next pay rise",
+      "speaker": "M1",
+      "quote": "with the extra contribution starting only when their next pay rise arrives",
+      "turn_index": 5,
+      "distractor": null,
+      "suggested_types": [
+        "flow_chart_completion",
+        "sentence_completion"
+      ]
+    },
+    {
+      "id": "L6-S4-17",
+      "kind": "number",
+      "value": "from 3 per cent to 11 per cent in four years",
+      "speaker": "M1",
+      "quote": "the average saving rate went from about three per cent to eleven per cent over four years",
+      "turn_index": 5,
+      "distractor": null,
+      "suggested_types": [
+        "note_completion",
+        "table_completion"
+      ]
+    },
+    {
+      "id": "L6-S4-18",
+      "kind": "number",
+      "value": "six in ten stopped at the large display",
+      "speaker": "M1",
+      "quote": "a stall offering two dozen varieties of jam stopped six in ten of the people walking past",
+      "turn_index": 6,
+      "distractor": null,
+      "suggested_types": [
+        "table_completion",
+        "note_completion"
+      ]
+    },
+    {
+      "id": "L6-S4-19",
+      "kind": "number",
+      "value": "about one in thirty bought at the large display",
+      "speaker": "M1",
+      "quote": "about one in thirty bought a jar at the large display, against nearly one in three at the small one",
+      "turn_index": 6,
+      "distractor": null,
+      "suggested_types": [
+        "table_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L6-S4-20",
+      "kind": "object",
+      "value": "a letter saying most neighbours had already paid",
+      "speaker": "M1",
+      "quote": "householders who hadn't paid a bill were told that most people in their street had already paid",
+      "turn_index": 7,
+      "distractor": null,
+      "suggested_types": [
+        "summary_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L6-S4-21",
+      "kind": "number",
+      "value": "about five percentage points",
+      "speaker": "M1",
+      "quote": "Across the larger trials the effect settles at about five percentage points",
+      "turn_index": 7,
+      "distractor": "fifteen percentage points",
+      "suggested_types": [
+        "note_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L6-S4-22",
+      "kind": "reason",
+      "value": "the larger figure came from one pilot in one town",
+      "speaker": "M1",
+      "quote": "The figure that reached the newspapers was fifteen percentage points, which came from a single pilot in one town.",
+      "turn_index": 7,
+      "distractor": null,
+      "suggested_types": [
+        "multiple_choice",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L6-S4-23",
+      "kind": "advantage",
+      "value": "a reminder two days before the deadline works best",
+      "speaker": "M1",
+      "quote": "a reminder that arrives two days before a deadline consistently beats one that arrives two weeks before",
+      "turn_index": 7,
+      "distractor": "two weeks before",
+      "suggested_types": [
+        "multiple_choice",
+        "sentence_completion"
+      ]
+    },
+    {
+      "id": "L6-S4-24",
+      "kind": "number",
+      "value": "about half the original effect",
+      "speaker": "M1",
+      "quote": "the average effect is often around half of what the original study reported",
+      "turn_index": 8,
+      "distractor": null,
+      "suggested_types": [
+        "summary_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L6-S4-25",
+      "kind": "reason",
+      "value": "striking results are published more often than dull ones",
+      "speaker": "M1",
+      "quote": "partly because striking results are more likely to be published than dull ones",
+      "turn_index": 8,
+      "distractor": null,
+      "suggested_types": [
+        "multiple_choice",
+        "summary_completion"
+      ]
+    },
+    {
+      "id": "L6-S4-26",
+      "kind": "limitation",
+      "value": "effects shrink as the novelty fades",
+      "speaker": "M1",
+      "quote": "several effects shrink once the novelty goes, and a few disappear within a year",
+      "turn_index": 8,
+      "distractor": null,
+      "suggested_types": [
+        "note_completion",
+        "sentence_completion"
+      ]
+    },
+    {
+      "id": "L6-S4-27",
+      "kind": "limitation",
+      "value": "a nudge cannot replace a price or a regulation",
+      "speaker": "M1",
+      "quote": "A nudge cannot do the work of a price or a regulation.",
+      "turn_index": 8,
+      "distractor": null,
+      "suggested_types": [
+        "multiple_choice",
+        "sentence_completion"
+      ]
+    },
+    {
+      "id": "L6-S4-28",
+      "kind": "opinion",
+      "value": "whoever sets the default has interests of their own",
+      "speaker": "M1",
+      "quote": "Somebody has to choose the default, and that somebody has interests of their own.",
+      "turn_index": 9,
+      "distractor": null,
+      "suggested_types": [
+        "multiple_choice",
+        "summary_completion"
+      ]
+    },
+    {
+      "id": "L6-S4-29",
+      "kind": "rule",
+      "value": "the test is whether the person's own goals are served",
+      "speaker": "M1",
+      "quote": "the usual one is whether the person's own goals are being served",
+      "turn_index": 9,
+      "distractor": null,
+      "suggested_types": [
+        "sentence_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L6-S4-30",
+      "kind": "object",
+      "value": "the field experiment",
+      "speaker": "M1",
+      "quote": "What changed the field was the field experiment: real customers or taxpayers, randomly allocated to different versions of a letter or a form",
+      "turn_index": 10,
+      "distractor": null,
+      "suggested_types": [
+        "note_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L6-S4-31",
+      "kind": "number",
+      "value": "samples in the tens of thousands",
+      "speaker": "M1",
+      "quote": "with sample sizes in the tens of thousands",
+      "turn_index": 10,
+      "distractor": "sixty students in the laboratory",
+      "suggested_types": [
+        "note_completion",
+        "table_completion"
+      ]
+    },
+    {
+      "id": "L6-S4-32",
+      "kind": "advantage",
+      "value": "random allocation shows the wording caused the difference",
+      "speaker": "M1",
+      "quote": "Random allocation is what allows you to say the wording caused the difference",
+      "turn_index": 10,
+      "distractor": null,
+      "suggested_types": [
+        "sentence_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L6-S4-33",
+      "kind": "advantage",
+      "value": "registering the prediction before collecting data",
+      "speaker": "M1",
+      "quote": "registering your prediction publicly before you collect the data is what stops the analysis being adjusted afterwards",
+      "turn_index": 10,
+      "distractor": null,
+      "suggested_types": [
+        "summary_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L6-S4-34",
+      "kind": "number",
+      "value": "1,500 words",
+      "speaker": "M1",
+      "quote": "The essay is fifteen hundred words.",
+      "turn_index": 11,
+      "distractor": null,
+      "suggested_types": [
+        "note_completion",
+        "form_completion"
+      ]
+    },
+    {
+      "id": "L6-S4-35",
+      "kind": "date",
+      "value": "Friday of week nine",
+      "speaker": "M1",
+      "quote": "it's now the Friday of week nine, and that's confirmed",
+      "turn_index": 11,
+      "distractor": "week eight",
+      "suggested_types": [
+        "multiple_choice",
+        "note_completion"
+      ]
+    },
+    {
+      "id": "L6-S4-36",
+      "kind": "object",
+      "value": "chapter four",
+      "speaker": "M1",
+      "quote": "Your reading is chapter four, not chapter three",
+      "turn_index": 11,
+      "distractor": "chapter three",
+      "suggested_types": [
+        "multiple_choice",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L6-S4-37",
+      "kind": "rule",
+      "value": "bring one example of a default from the past week",
+      "speaker": "M1",
+      "quote": "bring one example of a default you've come across in the past week",
+      "turn_index": 11,
+      "distractor": null,
+      "suggested_types": [
+        "sentence_completion",
+        "short_answer"
+      ]
+    }
+  ],
+  "spatial_description": null,
+  "notes": "turn_index degerleri 0 tabanlidir. Alti celdirici duzeltme var: kayip kacinma orani (uc'e bir -> ikiye bir), otomatik kayitta cikan olmadigi iddiasi (kimse cikmadi -> kucuk bir azinlik cikiyor), mektup etkisi (on bes puan -> bes puan), hatirlatma zamani (iki hafta -> iki gun once), odev teslimi (dokuzuncu hafta, sekizinci degil), okuma (dorduncu bolum, ucuncu degil). Gercek kisi, kurum ya da ulke adi anilmadi; deneyler tarif edilerek verildi."
+}

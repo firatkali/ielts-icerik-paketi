@@ -1,0 +1,553 @@
+{
+  "schema_version": "1.0",
+  "script_id": "L5-S2",
+  "skill": "listening",
+  "test_id": "L5",
+  "section": 2,
+  "generated_by": "opus",
+  "setting": "Bir kasaba festivalinin programini ve saha yerlesimini anlatan tanitim konusmasi",
+  "context_line": "You will hear the co-ordinator of a riverside festival explaining this year's programme and the layout of the site.",
+  "word_count": 804,
+  "estimated_minutes": 5.4,
+  "turn_index_base": 0,
+  "speakers": [
+    {
+      "code": "M1",
+      "role": "festival koordinatoru",
+      "gender": "male",
+      "accent": "en-GB",
+      "voice": "en-GB",
+      "age_band": "35-55",
+      "pace": "normal, saha tarifinde yavas"
+    }
+  ],
+  "turns": [
+    {
+      "speaker": "M1",
+      "text": "Good evening, and thank you for coming along. I co-ordinate the Netherby Riverside Festival, and as this is the first year we've run it across a whole weekend rather than a single afternoon, I thought I'd take you through what has changed and, more usefully, where everything is going to be."
+    },
+    {
+      "speaker": "M1",
+      "text": "So, dates first. We're on the second and third of September. Gates open at half past ten on the Saturday. I know the leaflet says eleven, but we brought it forward once the bus timetable was published, so please ignore the leaflet on that one. On the Sunday we start an hour later, at half past eleven, which gives the stewards a lie-in."
+    },
+    {
+      "speaker": "M1",
+      "text": "Tickets. A weekend ticket is eighteen pounds. It was fifteen last year and I'm sorry about the increase, but the cost of hiring the meadow has gone up. A single day is eleven pounds, and anyone under sixteen comes in free, provided they're with an adult. If you book online you'll be sent a code, and you exchange the code for a wristband at the gate. Do look after it — we can't replace a lost wristband, and the same one won't get two people in."
+    },
+    {
+      "speaker": "M1",
+      "text": "Now, the site, because it's laid out quite differently this year. You come in through the main gate, which is off Bridge Road at the southern end of the meadow. As you walk through, the box office is immediately on your left; that's where the codes are swapped for wristbands. Opposite the box office, on your right, is the information point, and the lost property cabin sits next to it."
+    },
+    {
+      "speaker": "M1",
+      "text": "Straight ahead of you, at the far end of the meadow, is the main stage. It faced the river last year, which meant the sound travelled straight across to the houses on the other bank, and we heard about it. This year it faces back towards the gate."
+    },
+    {
+      "speaker": "M1",
+      "text": "Between the information point and the main stage, on the right-hand side, you'll find the craft marquee. Beyond the marquee, running along the hedge, are the food stalls, and the toilets are behind them, with a free water point beside the toilets. Fill your bottle there rather than buying one."
+    },
+    {
+      "speaker": "M1",
+      "text": "On the left-hand side, next to the box office, is the workshop tent. Past the workshop tent, at the western end of the meadow, is the family field, and that's where the storytelling and the puppet shows happen. The riverside path runs behind the main stage and stays open all weekend — it's a public right of way, so nothing may be parked or stacked on it. And the cycle racks are outside the gate, on the left of the entrance path."
+    },
+    {
+      "speaker": "M1",
+      "text": "Which brings me to getting there. There is no parking on the meadow at all. The park-and-ride operates from the leisure centre car park, and the shuttle bus runs every fifteen minutes. The poster said every twenty, but we've managed to hire a second bus. Parking at the leisure centre costs four pounds for the day, and the last bus back leaves at twenty past eleven."
+    },
+    {
+      "speaker": "M1",
+      "text": "The programme itself. On Saturday the main stage opens with the community choir at midday, and the headline act comes on at eight. Sunday finishes earlier — the final set is at six, and that's a condition of our licence, so there's no chance of stretching it."
+    },
+    {
+      "speaker": "M1",
+      "text": "The workshops used to be Saturday only; from this year they run on both days. They're free, but you do have to put your name down at the information point on the morning itself, because each session takes twelve people and they fill up fast. The one to book early is willow weaving — last year we turned more people away from that single workshop than from all the others put together."
+    },
+    {
+      "speaker": "M1",
+      "text": "A few practical points. The food stalls take cards as well as cash, which they didn't last year. What you can't bring onto the site is glass of any kind; that's the one condition our licence is strict about, and the stewards will ask you to leave bottles at the gate. Dogs are welcome on a lead, though not in the family field, where the younger children are."
+    },
+    {
+      "speaker": "M1",
+      "text": "If the weather turns, head for the craft marquee — it holds three hundred, and we'd rather have you dry than damp. And if you would like to be involved, we're still short of stewards for the Sunday afternoon. Volunteers get a weekend wristband and a meal voucher, and the shift is four hours."
+    },
+    {
+      "speaker": "M1",
+      "text": "Finally, the full programme is on our website now, and printed copies will be at the information point from the tenth of August. If you'd rather ask a person, the festival office is open on weekday mornings. Thank you, and I hope to see a good many of you on the meadow."
+    }
+  ],
+  "answer_points": [
+    {
+      "id": "L5-S2-01",
+      "kind": "date",
+      "value": "2 and 3 September",
+      "quote": "We're on the second and third of September.",
+      "turn_index": 1,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "note_completion",
+        "form_completion"
+      ]
+    },
+    {
+      "id": "L5-S2-02",
+      "kind": "time",
+      "value": "10.30 (Saturday opening)",
+      "quote": "Gates open at half past ten on the Saturday.",
+      "turn_index": 1,
+      "speaker": "M1",
+      "distractor": "11.00 (as printed in the leaflet)",
+      "suggested_types": [
+        "table_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L5-S2-03",
+      "kind": "time",
+      "value": "11.30 (Sunday opening)",
+      "quote": "On the Sunday we start an hour later, at half past eleven",
+      "turn_index": 1,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "table_completion",
+        "note_completion"
+      ]
+    },
+    {
+      "id": "L5-S2-04",
+      "kind": "price",
+      "value": "18 pounds (weekend ticket)",
+      "quote": "A weekend ticket is eighteen pounds.",
+      "turn_index": 2,
+      "speaker": "M1",
+      "distractor": "15 pounds (last year's price)",
+      "suggested_types": [
+        "table_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L5-S2-05",
+      "kind": "reason",
+      "value": "the cost of hiring the meadow has risen",
+      "quote": "but the cost of hiring the meadow has gone up",
+      "turn_index": 2,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "multiple_choice",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L5-S2-06",
+      "kind": "price",
+      "value": "11 pounds (single day)",
+      "quote": "A single day is eleven pounds",
+      "turn_index": 2,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "table_completion"
+      ]
+    },
+    {
+      "id": "L5-S2-07",
+      "kind": "limitation",
+      "value": "under-16s free if accompanied by an adult",
+      "quote": "and anyone under sixteen comes in free, provided they're with an adult",
+      "turn_index": 2,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "multiple_choice",
+        "sentence_completion"
+      ]
+    },
+    {
+      "id": "L5-S2-08",
+      "kind": "rule",
+      "value": "lost wristbands are not replaced",
+      "quote": "we can't replace a lost wristband, and the same one won't get two people in",
+      "turn_index": 2,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "multiple_choice",
+        "sentence_completion"
+      ]
+    },
+    {
+      "id": "L5-S2-09",
+      "kind": "place",
+      "value": "box office — immediately left of the main gate",
+      "quote": "the box office is immediately on your left",
+      "turn_index": 3,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "plan_map_diagram_labelling"
+      ]
+    },
+    {
+      "id": "L5-S2-10",
+      "kind": "place",
+      "value": "information point — opposite the box office, on the right",
+      "quote": "Opposite the box office, on your right, is the information point",
+      "turn_index": 3,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "plan_map_diagram_labelling"
+      ]
+    },
+    {
+      "id": "L5-S2-11",
+      "kind": "place",
+      "value": "main stage — far (northern) end, facing the gate",
+      "quote": "This year it faces back towards the gate.",
+      "turn_index": 4,
+      "speaker": "M1",
+      "distractor": "facing the river (last year's position)",
+      "suggested_types": [
+        "plan_map_diagram_labelling",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L5-S2-12",
+      "kind": "reason",
+      "value": "sound carried across to the houses",
+      "quote": "which meant the sound travelled straight across to the houses on the other bank",
+      "turn_index": 4,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "multiple_choice",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L5-S2-13",
+      "kind": "place",
+      "value": "craft marquee — between the information point and the main stage",
+      "quote": "Between the information point and the main stage, on the right-hand side, you'll find the craft marquee.",
+      "turn_index": 5,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "plan_map_diagram_labelling"
+      ]
+    },
+    {
+      "id": "L5-S2-14",
+      "kind": "place",
+      "value": "water point — beside the toilets",
+      "quote": "with a free water point beside the toilets",
+      "turn_index": 5,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "plan_map_diagram_labelling",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L5-S2-15",
+      "kind": "place",
+      "value": "family field — western end, beyond the workshop tent",
+      "quote": "Past the workshop tent, at the western end of the meadow, is the family field",
+      "turn_index": 6,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "plan_map_diagram_labelling"
+      ]
+    },
+    {
+      "id": "L5-S2-16",
+      "kind": "rule",
+      "value": "the riverside path must be kept clear (public right of way)",
+      "quote": "it's a public right of way, so nothing may be parked or stacked on it",
+      "turn_index": 6,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "sentence_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L5-S2-17",
+      "kind": "place",
+      "value": "cycle racks — outside the gate, left of the entrance path",
+      "quote": "And the cycle racks are outside the gate, on the left of the entrance path.",
+      "turn_index": 6,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "plan_map_diagram_labelling"
+      ]
+    },
+    {
+      "id": "L5-S2-18",
+      "kind": "place",
+      "value": "park-and-ride from the leisure centre car park",
+      "quote": "The park-and-ride operates from the leisure centre car park",
+      "turn_index": 7,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "note_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L5-S2-19",
+      "kind": "number",
+      "value": "every 15 minutes (shuttle bus)",
+      "quote": "and the shuttle bus runs every fifteen minutes",
+      "turn_index": 7,
+      "speaker": "M1",
+      "distractor": "every 20 minutes (as on the poster)",
+      "suggested_types": [
+        "table_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L5-S2-20",
+      "kind": "price",
+      "value": "4 pounds (day parking)",
+      "quote": "Parking at the leisure centre costs four pounds for the day",
+      "turn_index": 7,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "table_completion",
+        "note_completion"
+      ]
+    },
+    {
+      "id": "L5-S2-21",
+      "kind": "time",
+      "value": "11.20 p.m. (last bus back)",
+      "quote": "and the last bus back leaves at twenty past eleven",
+      "turn_index": 7,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "note_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L5-S2-22",
+      "kind": "time",
+      "value": "8 p.m. (Saturday headline act)",
+      "quote": "and the headline act comes on at eight",
+      "turn_index": 8,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "table_completion"
+      ]
+    },
+    {
+      "id": "L5-S2-23",
+      "kind": "reason",
+      "value": "the licence requires the Sunday finish at six",
+      "quote": "the final set is at six, and that's a condition of our licence",
+      "turn_index": 8,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "multiple_choice",
+        "sentence_completion"
+      ]
+    },
+    {
+      "id": "L5-S2-24",
+      "kind": "rule",
+      "value": "workshops now run on both days",
+      "quote": "The workshops used to be Saturday only; from this year they run on both days.",
+      "turn_index": 9,
+      "speaker": "M1",
+      "distractor": "Saturday only",
+      "suggested_types": [
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L5-S2-25",
+      "kind": "rule",
+      "value": "workshop names taken at the information point on the morning itself",
+      "quote": "but you do have to put your name down at the information point on the morning itself",
+      "turn_index": 9,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "sentence_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L5-S2-26",
+      "kind": "number",
+      "value": "12 people per workshop session",
+      "quote": "because each session takes twelve people",
+      "turn_index": 9,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "note_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L5-S2-27",
+      "kind": "object",
+      "value": "willow weaving (most popular workshop)",
+      "quote": "The one to book early is willow weaving",
+      "turn_index": 9,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "multiple_choice",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L5-S2-28",
+      "kind": "limitation",
+      "value": "no glass may be brought on site",
+      "quote": "What you can't bring onto the site is glass of any kind",
+      "turn_index": 10,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "multiple_choice",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L5-S2-29",
+      "kind": "limitation",
+      "value": "dogs allowed on a lead but not in the family field",
+      "quote": "Dogs are welcome on a lead, though not in the family field",
+      "turn_index": 10,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "multiple_choice",
+        "sentence_completion"
+      ]
+    },
+    {
+      "id": "L5-S2-30",
+      "kind": "number",
+      "value": "300 (capacity of the craft marquee)",
+      "quote": "head for the craft marquee — it holds three hundred",
+      "turn_index": 11,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "note_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L5-S2-31",
+      "kind": "advantage",
+      "value": "volunteers get a weekend wristband and a meal voucher",
+      "quote": "Volunteers get a weekend wristband and a meal voucher, and the shift is four hours.",
+      "turn_index": 11,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "multiple_choice",
+        "note_completion"
+      ]
+    },
+    {
+      "id": "L5-S2-32",
+      "kind": "date",
+      "value": "10 August (printed programmes available)",
+      "quote": "printed copies will be at the information point from the tenth of August",
+      "turn_index": 12,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "note_completion",
+        "short_answer"
+      ]
+    }
+  ],
+  "spatial_description": {
+    "kind": "plan",
+    "subject": "Netherby Riverside Festival saha plani (Cowley Meadow)",
+    "elements": [
+      {
+        "label": "main gate",
+        "position": "Bridge Road cephesi, cayirin guney ucu"
+      },
+      {
+        "label": "box office",
+        "position": "ana kapidan girince hemen solda"
+      },
+      {
+        "label": "information point",
+        "position": "bilet gisesinin tam karsisi, sagda"
+      },
+      {
+        "label": "lost property cabin",
+        "position": "danisma noktasinin hemen yaninda"
+      },
+      {
+        "label": "main stage",
+        "position": "tam karsida, cayirin en ucunda; bu yil yuzu kapiya donuk"
+      },
+      {
+        "label": "craft marquee",
+        "position": "danisma noktasi ile sahne arasinda, sag tarafta"
+      },
+      {
+        "label": "food stalls",
+        "position": "cadirin otesinde, cit boyunca"
+      },
+      {
+        "label": "toilets",
+        "position": "yemek tezgahlarinin arkasinda"
+      },
+      {
+        "label": "water point",
+        "position": "tuvaletlerin yaninda, ucretsiz"
+      },
+      {
+        "label": "workshop tent",
+        "position": "sol tarafta, bilet gisesinin yaninda"
+      },
+      {
+        "label": "family field",
+        "position": "atolye cadirinin otesinde, cayirin bati ucunda"
+      },
+      {
+        "label": "riverside path",
+        "position": "ana sahnenin arkasindan gecen kamuya acik yol"
+      },
+      {
+        "label": "cycle racks",
+        "position": "kapinin disinda, giris yolunun solunda"
+      }
+    ],
+    "quote_turn_indexes": [
+      3,
+      4,
+      5,
+      6
+    ]
+  },
+  "notes": "turn_index degerleri 0 tabanlidir. Bes celdirici duzeltme var: acilis saati (brosurdeki on bir -> on bucuk), hafta sonu bileti (on bes -> on sekiz), sahnenin yonu (nehre bakiyordu -> kapiya bakiyor), servis sikligi (afisteki yirmi dakika -> on bes dakika), atolye gunleri (yalniz Cumartesi -> iki gun de). Saha plani on uc ogeli; tarif 3-6. repliklerde. Metinde rakam yok."
+}

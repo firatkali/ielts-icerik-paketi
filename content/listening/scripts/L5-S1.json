@@ -1,0 +1,581 @@
+{
+  "schema_version": "1.0",
+  "script_id": "L5-S1",
+  "skill": "listening",
+  "test_id": "L5",
+  "section": 1,
+  "generated_by": "opus",
+  "setting": "Rehberli bir bisiklet turu icin telefonla rezervasyon",
+  "context_line": "You will hear a woman telephoning a cycle tour company to book places on a guided ride.",
+  "word_count": 828,
+  "estimated_minutes": 5.5,
+  "turn_index_base": 0,
+  "speakers": [
+    {
+      "code": "M1",
+      "role": "bisiklet turu sirketi gorevlisi",
+      "gender": "male",
+      "accent": "en-GB",
+      "voice": "en-GB",
+      "age_band": "30-45",
+      "pace": "normal"
+    },
+    {
+      "code": "F1",
+      "role": "tur icin yer ayirtan musteri",
+      "gender": "female",
+      "accent": "en-AU",
+      "voice": "en-AU",
+      "age_band": "25-40",
+      "pace": "normal"
+    }
+  ],
+  "turns": [
+    {
+      "speaker": "M1",
+      "text": "Good morning, Hollowfield Cycle Tours."
+    },
+    {
+      "speaker": "F1",
+      "text": "Oh, hello. I'd like to book places on one of your guided rides — the one that follows the old railway line, if you're still running it."
+    },
+    {
+      "speaker": "M1",
+      "text": "We are. That's the Greenway ride. It goes out every weekend right through the summer, and there's a shorter version on Wednesday evenings."
+    },
+    {
+      "speaker": "F1",
+      "text": "The weekend one, please. My sister and I are over here for a few days."
+    },
+    {
+      "speaker": "M1",
+      "text": "Lovely. Which weekend were you thinking of?"
+    },
+    {
+      "speaker": "F1",
+      "text": "The twenty-second of August, if you've got room."
+    },
+    {
+      "speaker": "M1",
+      "text": "Let me see. The twenty-second is fully booked, I'm afraid — a college group took the last places on Friday. I could offer you the twenty-ninth."
+    },
+    {
+      "speaker": "F1",
+      "text": "The twenty-ninth would suit us just as well. That's a Saturday too, isn't it?"
+    },
+    {
+      "speaker": "M1",
+      "text": "It is. One thing to be aware of, though — on the last weekend of the month we set off half an hour earlier than usual. So that's quarter past nine, not quarter to ten."
+    },
+    {
+      "speaker": "F1",
+      "text": "Quarter past nine. Right, I'm writing this down."
+    },
+    {
+      "speaker": "M1",
+      "text": "Can I take a name for the booking?"
+    },
+    {
+      "speaker": "F1",
+      "text": "Yes, it's Ferrandez. That's F-E-R-R-A-N-D-E-Z."
+    },
+    {
+      "speaker": "M1",
+      "text": "Thank you. And a number we can reach you on?"
+    },
+    {
+      "speaker": "F1",
+      "text": "Oh four one two, double three seven, nine oh six. It's an overseas mobile, so email may be easier for anything that isn't urgent."
+    },
+    {
+      "speaker": "M1",
+      "text": "I'll take an email as well, but we like a phone number for the day itself, in case anybody gets separated from the group. And I need a local address for the insurance."
+    },
+    {
+      "speaker": "F1",
+      "text": "We're at the guest house on Mill Lane. Number fourteen — no, hang on, it's fourteen A. The one with the blue door."
+    },
+    {
+      "speaker": "M1",
+      "text": "Fourteen A Mill Lane. That's five minutes from us on foot, which is handy. Now, two riders — will you be bringing your own bikes or hiring from us?"
+    },
+    {
+      "speaker": "F1",
+      "text": "We'd need to hire. Are they all the same sort?"
+    },
+    {
+      "speaker": "M1",
+      "text": "There are three sorts. The standard hybrid, which is what most people go out on; a road bike, if anyone wants to push on a bit; and we've got eight electric ones."
+    },
+    {
+      "speaker": "F1",
+      "text": "And does that change the price?"
+    },
+    {
+      "speaker": "M1",
+      "text": "The ride is thirty-five pounds a head, and a hybrid is included in that. A road bike is the same. The electric ones carry a supplement of twelve pounds."
+    },
+    {
+      "speaker": "F1",
+      "text": "Twelve pounds — is that per hour?"
+    },
+    {
+      "speaker": "M1",
+      "text": "Per bike, for the whole day."
+    },
+    {
+      "speaker": "F1",
+      "text": "Then we'll take one electric and one hybrid. My sister would rather not push herself up the hills."
+    },
+    {
+      "speaker": "M1",
+      "text": "Very wise. There's one climb about two thirds of the way round that catches people out."
+    },
+    {
+      "speaker": "F1",
+      "text": "How far is the whole thing?"
+    },
+    {
+      "speaker": "M1",
+      "text": "The loop is forty-two kilometres. The leaflet still says thirty-eight, but we altered the route in the spring to keep off a stretch of main road, and that added four."
+    },
+    {
+      "speaker": "F1",
+      "text": "And what time would we be back?"
+    },
+    {
+      "speaker": "M1",
+      "text": "We aim to be back at half past three. Six hours, near enough, once you allow for stops."
+    },
+    {
+      "speaker": "F1",
+      "text": "Is any food provided?"
+    },
+    {
+      "speaker": "M1",
+      "text": "Lunch is included. We stop at a farm café at the halfway point. There's a vegetarian option, but we do need to know in advance, because they prepare everything the night before."
+    },
+    {
+      "speaker": "F1",
+      "text": "One vegetarian, then. Is there anything we ought to bring with us?"
+    },
+    {
+      "speaker": "M1",
+      "text": "Helmets we hand out, and they're compulsory on every ride we run. What we can't lend you is a water bottle, so do bring one of those. Gloves are worth having. And the thing people always leave behind is a waterproof jacket."
+    },
+    {
+      "speaker": "F1",
+      "text": "A waterproof, in August?"
+    },
+    {
+      "speaker": "M1",
+      "text": "You'd be surprised. Oh — and I should mention that we don't allow trailers on this route. Children are welcome, but they ride their own bikes, and the minimum age is twelve."
+    },
+    {
+      "speaker": "F1",
+      "text": "It's only the two of us. Where do we meet you?"
+    },
+    {
+      "speaker": "M1",
+      "text": "We used to gather in the station car park, but we were getting in the way of the buses, so the meeting point is now the Waterside Depot on Priory Street."
+    },
+    {
+      "speaker": "F1",
+      "text": "Waterside Depot, Priory Street. Is there anywhere to leave a car?"
+    },
+    {
+      "speaker": "M1",
+      "text": "There is, but it fills early. Since you're so close, I'd walk."
+    },
+    {
+      "speaker": "F1",
+      "text": "We will. And how do you want paying?"
+    },
+    {
+      "speaker": "M1",
+      "text": "We take a deposit of ten pounds a person now, and the balance on the day. Card is fine for both."
+    },
+    {
+      "speaker": "F1",
+      "text": "Good. What happens if something comes up and we can't make it?"
+    },
+    {
+      "speaker": "M1",
+      "text": "If you cancel more than seventy-two hours before, we refund the deposit in full. Inside seventy-two hours, I'm afraid you lose it."
+    },
+    {
+      "speaker": "F1",
+      "text": "That seems fair enough. Will I get something in writing?"
+    },
+    {
+      "speaker": "M1",
+      "text": "I'll email a confirmation this afternoon with your reference on it. It's G-W-nine four one. Quote that if you ring us."
+    },
+    {
+      "speaker": "F1",
+      "text": "G-W-nine four one. And what happens if the weather turns?"
+    },
+    {
+      "speaker": "M1",
+      "text": "We ride in rain quite happily. The only thing that stops us is high wind. If we do call it off you get the whole amount back, and we normally decide by seven o'clock the evening before."
+    },
+    {
+      "speaker": "F1",
+      "text": "Right. Thank you, that's everything I needed."
+    },
+    {
+      "speaker": "M1",
+      "text": "My pleasure. We'll see you on the twenty-ninth, quarter past nine."
+    }
+  ],
+  "answer_points": [
+    {
+      "id": "L5-S1-01",
+      "kind": "date",
+      "value": "29 August",
+      "quote": "I could offer you the twenty-ninth.",
+      "turn_index": 6,
+      "speaker": "M1",
+      "distractor": "22 August",
+      "suggested_types": [
+        "form_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L5-S1-02",
+      "kind": "reason",
+      "value": "a college group took the last places",
+      "quote": "a college group took the last places on Friday",
+      "turn_index": 6,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "multiple_choice",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L5-S1-03",
+      "kind": "time",
+      "value": "9.15 (quarter past nine)",
+      "quote": "So that's quarter past nine, not quarter to ten.",
+      "turn_index": 8,
+      "speaker": "M1",
+      "distractor": "9.45 (quarter to ten)",
+      "suggested_types": [
+        "form_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L5-S1-04",
+      "kind": "name",
+      "value": "Ferrandez",
+      "quote": "Yes, it's Ferrandez. That's F-E-R-R-A-N-D-E-Z.",
+      "turn_index": 11,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "form_completion"
+      ]
+    },
+    {
+      "id": "L5-S1-05",
+      "kind": "number",
+      "value": "0412 337 906",
+      "quote": "Oh four one two, double three seven, nine oh six.",
+      "turn_index": 13,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "form_completion"
+      ]
+    },
+    {
+      "id": "L5-S1-06",
+      "kind": "reason",
+      "value": "for the insurance",
+      "quote": "And I need a local address for the insurance.",
+      "turn_index": 14,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "short_answer",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L5-S1-07",
+      "kind": "address",
+      "value": "14A Mill Lane",
+      "quote": "Number fourteen — no, hang on, it's fourteen A.",
+      "turn_index": 15,
+      "speaker": "F1",
+      "distractor": "14 Mill Lane",
+      "suggested_types": [
+        "form_completion"
+      ]
+    },
+    {
+      "id": "L5-S1-08",
+      "kind": "number",
+      "value": "eight electric bikes",
+      "quote": "and we've got eight electric ones",
+      "turn_index": 18,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "form_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L5-S1-09",
+      "kind": "price",
+      "value": "35 pounds per person",
+      "quote": "The ride is thirty-five pounds a head",
+      "turn_index": 20,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "form_completion",
+        "table_completion"
+      ]
+    },
+    {
+      "id": "L5-S1-10",
+      "kind": "price",
+      "value": "12 pounds supplement for an electric bike",
+      "quote": "The electric ones carry a supplement of twelve pounds.",
+      "turn_index": 20,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "form_completion",
+        "table_completion"
+      ]
+    },
+    {
+      "id": "L5-S1-11",
+      "kind": "rule",
+      "value": "the supplement is per bike for the whole day, not per hour",
+      "quote": "Per bike, for the whole day.",
+      "turn_index": 22,
+      "speaker": "M1",
+      "distractor": "per hour",
+      "suggested_types": [
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L5-S1-12",
+      "kind": "duration",
+      "value": "42 kilometres",
+      "quote": "The loop is forty-two kilometres.",
+      "turn_index": 26,
+      "speaker": "M1",
+      "distractor": "38 kilometres",
+      "suggested_types": [
+        "form_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L5-S1-13",
+      "kind": "reason",
+      "value": "the route was changed to avoid a main road",
+      "quote": "but we altered the route in the spring to keep off a stretch of main road",
+      "turn_index": 26,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "multiple_choice",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L5-S1-14",
+      "kind": "time",
+      "value": "3.30 (half past three)",
+      "quote": "We aim to be back at half past three.",
+      "turn_index": 28,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "form_completion",
+        "sentence_completion"
+      ]
+    },
+    {
+      "id": "L5-S1-15",
+      "kind": "place",
+      "value": "farm café (halfway point)",
+      "quote": "We stop at a farm café at the halfway point.",
+      "turn_index": 30,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "form_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L5-S1-16",
+      "kind": "rule",
+      "value": "a vegetarian lunch must be ordered in advance",
+      "quote": "There's a vegetarian option, but we do need to know in advance, because they prepare everything the night before.",
+      "turn_index": 30,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "sentence_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L5-S1-17",
+      "kind": "rule",
+      "value": "helmets are provided and compulsory",
+      "quote": "Helmets we hand out, and they're compulsory on every ride we run.",
+      "turn_index": 32,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "multiple_choice",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L5-S1-18",
+      "kind": "object",
+      "value": "water bottle",
+      "quote": "What we can't lend you is a water bottle, so do bring one of those.",
+      "turn_index": 32,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "form_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L5-S1-19",
+      "kind": "object",
+      "value": "waterproof jacket",
+      "quote": "And the thing people always leave behind is a waterproof jacket.",
+      "turn_index": 32,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "short_answer",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L5-S1-20",
+      "kind": "limitation",
+      "value": "no trailers on this route",
+      "quote": "we don't allow trailers on this route",
+      "turn_index": 34,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "multiple_choice",
+        "sentence_completion"
+      ]
+    },
+    {
+      "id": "L5-S1-21",
+      "kind": "limitation",
+      "value": "minimum age 12",
+      "quote": "and the minimum age is twelve",
+      "turn_index": 34,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "form_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L5-S1-22",
+      "kind": "place",
+      "value": "Waterside Depot, Priory Street",
+      "quote": "so the meeting point is now the Waterside Depot on Priory Street",
+      "turn_index": 36,
+      "speaker": "M1",
+      "distractor": "station car park",
+      "suggested_types": [
+        "form_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L5-S1-23",
+      "kind": "price",
+      "value": "10 pounds deposit per person",
+      "quote": "We take a deposit of ten pounds a person now, and the balance on the day.",
+      "turn_index": 40,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "form_completion",
+        "table_completion"
+      ]
+    },
+    {
+      "id": "L5-S1-24",
+      "kind": "rule",
+      "value": "deposit refunded only if cancelled more than 72 hours before",
+      "quote": "If you cancel more than seventy-two hours before, we refund the deposit in full.",
+      "turn_index": 42,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "sentence_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L5-S1-25",
+      "kind": "number",
+      "value": "GW941",
+      "quote": "It's G-W-nine four one.",
+      "turn_index": 44,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "form_completion"
+      ]
+    },
+    {
+      "id": "L5-S1-26",
+      "kind": "reason",
+      "value": "high wind (the only thing that cancels a ride)",
+      "quote": "The only thing that stops us is high wind.",
+      "turn_index": 46,
+      "speaker": "M1",
+      "distractor": "rain",
+      "suggested_types": [
+        "multiple_choice",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L5-S1-27",
+      "kind": "time",
+      "value": "7 p.m. the evening before",
+      "quote": "and we normally decide by seven o'clock the evening before",
+      "turn_index": 46,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "form_completion",
+        "sentence_completion"
+      ]
+    }
+  ],
+  "spatial_description": null,
+  "notes": "turn_index degerleri 0 tabanlidir. Alti celdirici duzeltme var: tarih (yirmi iki -> yirmi dokuz), kalkis saati (dokuz kirk bes -> dokuz on bes), adres (on dort -> on dort A), ucret birimi (saat basi -> gun basi/bisiklet basi), mesafe (otuz sekiz -> kirk iki), bulusma yeri (istasyon otoparki -> Waterside Depot). Harf harf soyleme bir kez var (Ferrandez). Metinde rakam yok."
+}

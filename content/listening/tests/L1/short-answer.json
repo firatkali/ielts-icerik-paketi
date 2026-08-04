@@ -1,0 +1,88 @@
+{
+  "schema_version": "1.0",
+  "set_id": "L1-short-answer",
+  "skill": "listening",
+  "test_id": "L1",
+  "section": 4,
+  "practice": false,
+  "script_id": "L1-S4",
+  "question_type": "short_answer",
+  "generated_by": "opus",
+  "instructions": "Answer the questions below. Write NO MORE THAN THREE WORDS AND/OR A NUMBER for each answer.",
+  "word_limit": "NO MORE THAN THREE WORDS AND/OR A NUMBER",
+  "options": null,
+  "visual": null,
+  "stem_block": null,
+  "table": null,
+  "items": [
+    {
+      "number": 37,
+      "prompt": "Which metal left behind by earlier industry worries growers most?",
+      "answer": [
+        "lead"
+      ],
+      "accepted_variants": [
+        "lead"
+      ],
+      "evidence": "lead is the usual concern",
+      "answer_point_id": "L1-S4-21",
+      "turn_index": 8,
+      "distractor_used": null,
+      "explanation": "Üzerine daha önce yapı yapılmış toprakta eski sanayiden kalıntılar bulunabiliyor; en sık endişe duyulan metal kurşun.",
+      "difficulty": "easy"
+    },
+    {
+      "number": 38,
+      "prompt": "Which crop does the speaker use to show how much electricity indoor growing needs?",
+      "answer": [
+        "lettuce"
+      ],
+      "accepted_variants": [
+        "lettuce"
+      ],
+      "evidence": "the electricity needed to raise a kilogram of lettuce is substantial",
+      "answer_point_id": "L1-S4-28",
+      "turn_index": 9,
+      "distractor_used": null,
+      "explanation": "Konuşmacı kapalı ortamda üretimin elektrik maliyetini bir kilo marul örneğiyle anlatıyor.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 39,
+      "prompt": "When an actual street plan was tested, what share of its vegetables could a city grow?",
+      "answer": [
+        "five per cent"
+      ],
+      "accepted_variants": [
+        "five per cent",
+        "5 per cent",
+        "5%",
+        "5 percent",
+        "five percent"
+      ],
+      "evidence": "the answer came out closer to five per cent",
+      "answer_point_id": "L1-S4-26",
+      "turn_index": 11,
+      "distractor_used": "a third",
+      "explanation": "Sık tekrarlanan iddia, bir şehrin sebzesinin üçte birini üretebileceğidir; gerçek bir sokak planı üzerinde sınandığında sonuç yüzde beşe yakın çıkmış.",
+      "difficulty": "hard"
+    },
+    {
+      "number": 40,
+      "prompt": "In the speaker's view, which projects usually teach more?",
+      "answer": [
+        "failures"
+      ],
+      "accepted_variants": [
+        "failures",
+        "the failures"
+      ],
+      "evidence": "The failures are usually more instructive.",
+      "answer_point_id": "L1-S4-29",
+      "turn_index": 12,
+      "distractor_used": null,
+      "explanation": "Öğrencilerden getirecekleri örneğin başarılı olması beklenmiyor; konuşmacıya göre başarısız projeler daha öğretici.",
+      "difficulty": "easy"
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "schema_version": "1.0",
+  "set_id": "L1-plan-map-diagram-labelling",
+  "skill": "listening",
+  "test_id": "L1",
+  "section": 2,
+  "practice": false,
+  "script_id": "L1-S2",
+  "question_type": "plan_map_diagram_labelling",
+  "generated_by": "opus",
+  "instructions": "Label the plan below. Write the correct letter, A–H, next to Questions 16–20.",
+  "word_limit": null,
+  "options": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H"
+  ],
+  "visual": {
+    "kind": "plan",
+    "svg": "<svg viewBox=\"0 0 480 360\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\"><line x1=\"60\" y1=\"45\" x2=\"410\" y2=\"45\" stroke=\"#000\" stroke-width=\"2\"/><line x1=\"60\" y1=\"45\" x2=\"60\" y2=\"310\" stroke=\"#000\" stroke-width=\"2\"/><line x1=\"410\" y1=\"45\" x2=\"410\" y2=\"310\" stroke=\"#000\" stroke-width=\"2\"/><line x1=\"60\" y1=\"310\" x2=\"205\" y2=\"310\" stroke=\"#000\" stroke-width=\"2\"/><line x1=\"253\" y1=\"310\" x2=\"410\" y2=\"310\" stroke=\"#000\" stroke-width=\"2\"/><rect x=\"63\" y=\"48\" width=\"127\" height=\"82\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><rect x=\"63\" y=\"133\" width=\"127\" height=\"40\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><rect x=\"63\" y=\"176\" width=\"127\" height=\"66\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><rect x=\"63\" y=\"245\" width=\"127\" height=\"62\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><rect x=\"193\" y=\"48\" width=\"72\" height=\"194\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><rect x=\"193\" y=\"245\" width=\"72\" height=\"62\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"229\" y=\"145\" text-anchor=\"middle\" transform=\"rotate(-90 229 145)\">corridor</text><rect x=\"268\" y=\"48\" width=\"139\" height=\"148\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><rect x=\"268\" y=\"199\" width=\"72\" height=\"43\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><rect x=\"343\" y=\"199\" width=\"64\" height=\"43\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><rect x=\"268\" y=\"245\" width=\"72\" height=\"62\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><rect x=\"343\" y=\"245\" width=\"64\" height=\"62\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><line x1=\"343\" y1=\"220\" x2=\"407\" y2=\"220\" stroke=\"#000\" stroke-width=\"1\"/><line x1=\"343\" y1=\"228\" x2=\"407\" y2=\"228\" stroke=\"#000\" stroke-width=\"1\"/><line x1=\"343\" y1=\"236\" x2=\"407\" y2=\"236\" stroke=\"#000\" stroke-width=\"1\"/><rect x=\"8\" y=\"245\" width=\"45\" height=\"62\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><rect x=\"16\" y=\"256\" width=\"13\" height=\"9\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><rect x=\"32\" y=\"278\" width=\"13\" height=\"9\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><line x1=\"53\" y1=\"266\" x2=\"63\" y2=\"266\" stroke=\"#000\" stroke-width=\"1\"/><line x1=\"53\" y1=\"284\" x2=\"63\" y2=\"284\" stroke=\"#000\" stroke-width=\"1\"/><rect x=\"200\" y=\"250\" width=\"58\" height=\"11\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"229\" y=\"276\" text-anchor=\"middle\">TICKET</text><text x=\"229\" y=\"289\" text-anchor=\"middle\">DESK</text><text x=\"304\" y=\"280\" text-anchor=\"middle\">SHOP</text><text x=\"375\" y=\"213\" text-anchor=\"middle\">STAIRS</text><circle cx=\"126\" cy=\"89\" r=\"11\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"126\" y=\"93\" text-anchor=\"middle\">A</text><circle cx=\"126\" cy=\"153\" r=\"11\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"126\" y=\"157\" text-anchor=\"middle\">G</text><circle cx=\"126\" cy=\"209\" r=\"11\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"126\" y=\"213\" text-anchor=\"middle\">H</text><circle cx=\"126\" cy=\"276\" r=\"11\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"126\" y=\"280\" text-anchor=\"middle\">F</text><circle cx=\"337\" cy=\"122\" r=\"11\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"337\" y=\"126\" text-anchor=\"middle\">E</text><circle cx=\"304\" cy=\"220\" r=\"11\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"304\" y=\"224\" text-anchor=\"middle\">B</text><circle cx=\"375\" cy=\"285\" r=\"11\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"375\" y=\"289\" text-anchor=\"middle\">C</text><circle cx=\"30\" cy=\"297\" r=\"11\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"30\" y=\"301\" text-anchor=\"middle\">D</text><line x1=\"205\" y1=\"310\" x2=\"205\" y2=\"300\" stroke=\"#000\" stroke-width=\"1\"/><line x1=\"253\" y1=\"310\" x2=\"253\" y2=\"300\" stroke=\"#000\" stroke-width=\"1\"/><line x1=\"229\" y1=\"350\" x2=\"229\" y2=\"318\" stroke=\"#000\" stroke-width=\"1\"/><polygon points=\"229,312 224,324 234,324\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"229\" y=\"336\" text-anchor=\"middle\">MAIN ENTRANCE</text><line x1=\"445\" y1=\"62\" x2=\"445\" y2=\"30\" stroke=\"#000\" stroke-width=\"1\"/><polygon points=\"445,20 440,32 450,32\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"445\" y=\"76\" text-anchor=\"middle\">N</text></svg>",
+    "alt": "Weavers' Yard müzesinin zemin kat planı. Ana giriş, bilet bankosu, mağaza ve merdiven etiketli; A-H harfli sekiz konum etiketsiz bırakılmış.",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H"
+    ]
+  },
+  "stem_block": null,
+  "table": null,
+  "items": [
+    {
+      "number": 16,
+      "prompt": "Café",
+      "answer": [
+        "F"
+      ],
+      "accepted_variants": [
+        "F"
+      ],
+      "evidence": "the café is immediately on your left, looking out over the water",
+      "answer_point_id": "L1-S2-15",
+      "turn_index": 6,
+      "distractor_used": null,
+      "explanation": "Ana girişten içeri girildiğinde kafe hemen solda kalıyor; planda girişin solundaki oda F.",
+      "difficulty": "easy"
+    },
+    {
+      "number": 17,
+      "prompt": "Cloakroom",
+      "answer": [
+        "C"
+      ],
+      "accepted_variants": [
+        "C"
+      ],
+      "evidence": "the cloakroom is next to the shop, tucked in under the stairs",
+      "answer_point_id": "L1-S2-17",
+      "turn_index": 6,
+      "distractor_used": null,
+      "explanation": "Vestiyer mağazanın bitişiğinde ve merdivenin altındadır; planda mağaza ile merdivenin yanındaki oda C.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 18,
+      "prompt": "Workshop room",
+      "answer": [
+        "H"
+      ],
+      "accepted_variants": [
+        "H"
+      ],
+      "evidence": "The first door on your left is the workshop room",
+      "answer_point_id": "L1-S2-18",
+      "turn_index": 7,
+      "distractor_used": null,
+      "explanation": "Bilet bankosu geçilip koridora girildiğinde soldaki ilk kapı atölye odasıdır; planda koridorun solundaki ilk oda H.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 19,
+      "prompt": "Weaving gallery",
+      "answer": [
+        "A"
+      ],
+      "accepted_variants": [
+        "A"
+      ],
+      "evidence": "Beyond it, at the far end of that corridor, is the weaving gallery",
+      "answer_point_id": "L1-S2-19",
+      "turn_index": 7,
+      "distractor_used": null,
+      "explanation": "Dokuma galerisi atölyenin ötesinde, koridorun en ucundadır; planda kuzey uçtaki oda A.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 20,
+      "prompt": "Lecture theatre",
+      "answer": [
+        "E"
+      ],
+      "accepted_variants": [
+        "E"
+      ],
+      "evidence": "Directly opposite the weaving gallery, on the other side of the corridor, you'll find the lecture theatre",
+      "answer_point_id": "L1-S2-20",
+      "turn_index": 8,
+      "distractor_used": null,
+      "explanation": "Konferans salonu dokuma galerisinin tam karşısında, koridorun öbür yanındadır; planda E.",
+      "difficulty": "hard"
+    }
+  ]
+}

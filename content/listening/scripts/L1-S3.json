@@ -536,6 +536,19 @@
         "multiple_choice",
         "sentence_completion"
       ]
+    },
+    {
+      "id": "L1-S3-28",
+      "kind": "rule",
+      "value": "do not open with a definition",
+      "quote": "Don't open with a definition of community energy",
+      "turn_index": 33,
+      "speaker": "F2",
+      "distractor": null,
+      "suggested_types": [
+        "sentence_completion",
+        "multiple_choice"
+      ]
     }
   ],
   "spatial_description": null,

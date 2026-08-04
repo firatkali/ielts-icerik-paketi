@@ -1,0 +1,85 @@
+{
+  "schema_version": "1.0",
+  "set_id": "L1-sentence-completion",
+  "skill": "listening",
+  "test_id": "L1",
+  "section": 3,
+  "practice": false,
+  "script_id": "L1-S3",
+  "question_type": "sentence_completion",
+  "generated_by": "opus",
+  "instructions": "Complete the sentences below. Write NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+  "word_limit": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
+  "options": null,
+  "visual": null,
+  "stem_block": null,
+  "table": null,
+  "items": [
+    {
+      "number": 27,
+      "prompt": "When they list their sources, the students must follow the guide that appears on the (27) ........ .",
+      "answer": [
+        "module page"
+      ],
+      "accepted_variants": [
+        "module page"
+      ],
+      "evidence": "follow the guide on the module page — not the version in last year's handbook, which is out of date",
+      "answer_point_id": "L1-S3-22",
+      "turn_index": 27,
+      "distractor_used": "last year's handbook",
+      "explanation": "Danışman geçen yılın el kitabındaki sürümün eskidiğini söylüyor; kaynakça kılavuzu ders sayfasından alınacak.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 28,
+      "prompt": "A rehearsal slot in the room where they will speak is arranged through the (28) ........ .",
+      "answer": [
+        "department office"
+      ],
+      "accepted_variants": [
+        "department office"
+      ],
+      "evidence": "You can book the media suite through the department office",
+      "answer_point_id": "L1-S3-23",
+      "turn_index": 29,
+      "distractor_used": null,
+      "explanation": "Sunumun yapılacağı medya odası bölüm ofisi aracılığıyla rezerve ediliyor.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 29,
+      "prompt": "As reservations cannot be made more than seven days ahead, they should book the room on (29) ........ .",
+      "answer": [
+        "Friday"
+      ],
+      "accepted_variants": [
+        "Friday",
+        "the Friday"
+      ],
+      "evidence": "The office takes bookings up to a week ahead, so the Friday would be the safe day.",
+      "answer_point_id": "L1-S3-25",
+      "turn_index": 31,
+      "distractor_used": null,
+      "explanation": "Ofis en fazla bir hafta öncesinden rezervasyon aldığı için güvenli gün cuma.",
+      "difficulty": "hard"
+    },
+    {
+      "number": 30,
+      "prompt": "The tutor tells them that their opening should not be a (30) ........ of community energy.",
+      "answer": [
+        "definition"
+      ],
+      "accepted_variants": [
+        "definition",
+        "a definition"
+      ],
+      "evidence": "Don't open with a definition of community energy",
+      "answer_point_id": "L1-S3-28",
+      "turn_index": 33,
+      "distractor_used": null,
+      "explanation": "Salondaki herkes aynı bölümü okuduğu için danışman sunuma bir tanımla başlanmamasını söylüyor.",
+      "difficulty": "medium"
+    }
+  ]
+}

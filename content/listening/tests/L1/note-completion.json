@@ -1,0 +1,123 @@
+{
+  "schema_version": "1.0",
+  "set_id": "L1-note-completion",
+  "skill": "listening",
+  "test_id": "L1",
+  "section": 4,
+  "practice": false,
+  "script_id": "L1-S4",
+  "question_type": "note_completion",
+  "generated_by": "opus",
+  "instructions": "Complete the notes below. Write NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+  "word_limit": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
+  "options": null,
+  "visual": null,
+  "stem_block": "GROWING FOOD IN CITIES\n\nBackground\n• 19th-century laws forced councils to supply (31) ........ to households without a garden\n• the number of plots then dropped for half a century\n\nThree forms today\n• the (32) ........ — much the commonest, on ground nobody else has a use for\n• a farm on the flat roof of an existing building\n• an indoor farm lit by lamps\n\nWhat the survey found\n• a typical shared garden covers roughly (33) ........ square metres\n• a realistic yield is about (34) ........ times that of a field, and only for salad and soft fruit\n\nWhat it does for the city\n• a planted roof held back about (35) ........ of one heavy downpour\n• what gardeners mentioned most was (36) ........ with other people, not the food",
+  "table": null,
+  "items": [
+    {
+      "number": 31,
+      "prompt": "19th-century laws forced councils to supply (31) ........ to households without a garden",
+      "answer": [
+        "allotments"
+      ],
+      "accepted_variants": [
+        "allotments",
+        "allotment"
+      ],
+      "evidence": "a series of Acts obliged local authorities to provide allotments",
+      "answer_point_id": "L1-S4-01",
+      "turn_index": 1,
+      "distractor_used": null,
+      "explanation": "On dokuzuncu yüzyıl yasaları belediyeleri, bahçesi olmayan hanelere kiralık küçük parseller (allotment) vermeye zorlamış.",
+      "difficulty": "easy"
+    },
+    {
+      "number": 32,
+      "prompt": "the (32) ........ — much the commonest, on ground nobody else has a use for",
+      "answer": [
+        "community garden"
+      ],
+      "accepted_variants": [
+        "community garden",
+        "community gardens"
+      ],
+      "evidence": "The first, and by far the most common, is the community garden",
+      "answer_point_id": "L1-S4-05",
+      "turn_index": 2,
+      "distractor_used": null,
+      "explanation": "Üç biçimden açık ara en yaygını, başka bir işlevi olmayan arazide kurulan ortak bahçe.",
+      "difficulty": "easy"
+    },
+    {
+      "number": 33,
+      "prompt": "a typical shared garden covers roughly (33) ........ square metres",
+      "answer": [
+        "2,000"
+      ],
+      "accepted_variants": [
+        "2,000",
+        "2000",
+        "two thousand"
+      ],
+      "evidence": "the median community garden occupied about two thousand square metres and supplied around thirty households",
+      "answer_point_id": "L1-S4-09",
+      "turn_index": 3,
+      "distractor_used": "5,000",
+      "explanation": "Aynı araştırma için 5.000 metrekare de aktarılıyor, ama o rakam yolları, kulübeleri ve otoparkı içeriyor; ortanca değer 2.000 metrekare.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 34,
+      "prompt": "a realistic yield is about (34) ........ times that of a field, and only for salad and soft fruit",
+      "answer": [
+        "three"
+      ],
+      "accepted_variants": [
+        "three",
+        "3"
+      ],
+      "evidence": "More careful work puts the realistic figure at about three times",
+      "answer_point_id": "L1-S4-13",
+      "turn_index": 4,
+      "distractor_used": "fifteen",
+      "explanation": "Yıllarca on beş kat verim iddia edilmiş; daha dikkatli çalışmalar gerçekçi rakamı yaklaşık üç kata çekiyor.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 35,
+      "prompt": "a planted roof held back about (35) ........ of one heavy downpour",
+      "answer": [
+        "half"
+      ],
+      "accepted_variants": [
+        "half",
+        "a half",
+        "50%",
+        "50 per cent"
+      ],
+      "evidence": "around half of a heavy shower was retained rather than running straight into the drains",
+      "answer_point_id": "L1-S4-16",
+      "turn_index": 6,
+      "distractor_used": null,
+      "explanation": "Bir deneme binasındaki ölçümler, şiddetli yağışın yaklaşık yarısının bitkili çatıda tutulduğunu gösteriyor.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 36,
+      "prompt": "what gardeners mentioned most was (36) ........ with other people, not the food",
+      "answer": [
+        "contact"
+      ],
+      "accepted_variants": [
+        "contact"
+      ],
+      "evidence": "the benefit participants reported most often was not the food at all, but the contact with other people",
+      "answer_point_id": "L1-S4-19",
+      "turn_index": 7,
+      "distractor_used": "exercise",
+      "explanation": "Katılımcıların en sık andığı fayda yiyecek ya da egzersiz değil, başka insanlarla kurulan temas.",
+      "difficulty": "hard"
+    }
+  ]
+}

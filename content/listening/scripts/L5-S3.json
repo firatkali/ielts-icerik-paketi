@@ -1,0 +1,602 @@
+{
+  "schema_version": "1.0",
+  "script_id": "L5-S3",
+  "skill": "listening",
+  "test_id": "L5",
+  "section": 3,
+  "generated_by": "opus",
+  "setting": "Iki ogrenci ve danismanlarinin bir anket calismasinin tasarimini gorusmesi",
+  "context_line": "You will hear two students discussing the design of a questionnaire with their tutor.",
+  "word_count": 892,
+  "estimated_minutes": 5.9,
+  "turn_index_base": 0,
+  "speakers": [
+    {
+      "code": "M1",
+      "role": "ogrenci (Devan)",
+      "gender": "male",
+      "accent": "en-GB",
+      "voice": "en-GB",
+      "age_band": "20-25",
+      "pace": "normal"
+    },
+    {
+      "code": "F1",
+      "role": "ogrenci (Marit)",
+      "gender": "female",
+      "accent": "en-CA",
+      "voice": "en-CA",
+      "age_band": "20-25",
+      "pace": "normal, biraz hizli"
+    },
+    {
+      "code": "M2",
+      "role": "danisman (Dr Osgood)",
+      "gender": "male",
+      "accent": "en-AU",
+      "voice": "en-AU",
+      "age_band": "45-60",
+      "pace": "olcülü"
+    }
+  ],
+  "turns": [
+    {
+      "speaker": "M2",
+      "text": "Come in, both of you. Right — the high street survey. Where have you got to?"
+    },
+    {
+      "speaker": "M1",
+      "text": "We've got a draft questionnaire. We just don't agree on very much of what's in it."
+    },
+    {
+      "speaker": "M2",
+      "text": "Good. Disagreeing now is a great deal cheaper than disagreeing in three weeks' time. Start with the sample."
+    },
+    {
+      "speaker": "M1",
+      "text": "I'd go for a hundred responses, all of them face to face on the street. A hundred feels achievable across two Saturdays, and you can see who you're talking to."
+    },
+    {
+      "speaker": "F1",
+      "text": "I'd rather have a hundred and fifty, and I'd get there by putting a link online — the residents' page, the library newsletter, that sort of thing. Standing in the rain with a clipboard for a hundred people is two lost weekends."
+    },
+    {
+      "speaker": "M2",
+      "text": "A hundred and fifty is the better number, Marit, but you can't reach it that way. The people who answer a link on a residents' page are the people who already care about the high street. That's self-selection, and it will bend everything you find."
+    },
+    {
+      "speaker": "F1",
+      "text": "So the online version is worthless?"
+    },
+    {
+      "speaker": "M2",
+      "text": "Not worthless — supplementary. Run both, but the street sample is the main one and the online results go in an appendix. And the department expects a minimum of a hundred and twenty completed responses at this level, so a hundred wouldn't have been enough anyway."
+    },
+    {
+      "speaker": "M1",
+      "text": "A hundred and twenty. All right, I'll take that."
+    },
+    {
+      "speaker": "M2",
+      "text": "With quotas. If you stop whoever is easiest to stop, you will come back with students and retired people and almost nobody in between. Set a target for each age band and hold yourselves to it."
+    },
+    {
+      "speaker": "F1",
+      "text": "Which bands would you use?"
+    },
+    {
+      "speaker": "M2",
+      "text": "Under twenty-five, twenty-five to sixty, and over sixty. Three is plenty for a project this size."
+    },
+    {
+      "speaker": "M1",
+      "text": "Then there's the other thing we don't agree on — the questions themselves. I want them open. Ask somebody what would bring them into the town centre more often and you learn things you'd never have thought to ask about."
+    },
+    {
+      "speaker": "F1",
+      "text": "And you get a hundred and twenty answers that no two people would code the same way. I'd use a five-point scale throughout. It takes ninety seconds in a doorway, and at the end of it you have something you can actually add up."
+    },
+    {
+      "speaker": "M2",
+      "text": "You're each half right. Closed questions for the body of it — Marit's scale is fine — and then two open ones at the very end, where a refusal costs you nothing. That way Devan gets his surprises and Marit gets her numbers."
+    },
+    {
+      "speaker": "M1",
+      "text": "How long should the whole thing take?"
+    },
+    {
+      "speaker": "M2",
+      "text": "Under four minutes. Past four minutes people begin walking off mid-sentence, and a half-finished form is worse than no form at all."
+    },
+    {
+      "speaker": "F1",
+      "text": "What about when we do it? I'd go on a weekday. People aren't rushing, and they'll give you the time."
+    },
+    {
+      "speaker": "M1",
+      "text": "Saturday, surely. That's when the high street is actually busy."
+    },
+    {
+      "speaker": "M2",
+      "text": "One of each, and say so in your method section. A Saturday sample on its own tells you about people who shop at weekends, which isn't the question you set out to answer."
+    },
+    {
+      "speaker": "F1",
+      "text": "Should we offer people anything for taking part?"
+    },
+    {
+      "speaker": "M2",
+      "text": "A prize draw is allowed — a voucher, nothing large. The value has to go in the information sheet."
+    },
+    {
+      "speaker": "M1",
+      "text": "And we pilot it first, presumably?"
+    },
+    {
+      "speaker": "F1",
+      "text": "On ten people, I thought."
+    },
+    {
+      "speaker": "M2",
+      "text": "Twenty, and not on each other. Friends read the question you meant to write rather than the one you actually wrote. Try it on people who have never heard of the project."
+    },
+    {
+      "speaker": "M1",
+      "text": "When does the ethics form have to be handed in? I've got the twelfth written down."
+    },
+    {
+      "speaker": "M2",
+      "text": "It was the twelfth. They've brought it forward to the fifth, because the committee is sitting a week earlier this term. And nothing happens on the street until it's approved, so don't be casual about it."
+    },
+    {
+      "speaker": "F1",
+      "text": "Does the information sheet go in with the form?"
+    },
+    {
+      "speaker": "M2",
+      "text": "It does, along with the consent wording. One page each, and no more than that."
+    },
+    {
+      "speaker": "M1",
+      "text": "What length is the report?"
+    },
+    {
+      "speaker": "M2",
+      "text": "Two thousand five hundred words. I know the handbook still says two thousand; it was raised this year and the handbook hasn't caught up. Tables and the questionnaire itself go in the appendix and aren't counted."
+    },
+    {
+      "speaker": "F1",
+      "text": "And there's a presentation on top of that?"
+    },
+    {
+      "speaker": "M2",
+      "text": "Ten minutes, and then five for questions. Not fifteen of your own — I've had to stop people halfway, and all that preparation goes to waste."
+    },
+    {
+      "speaker": "M1",
+      "text": "Where are we supposed to work? We'd booked the seminar room for Thursdays."
+    },
+    {
+      "speaker": "M2",
+      "text": "The seminar room has gone to the timetabled classes, I'm afraid. You've got the study pods on the second floor instead — book those through the library system, two hours at a time."
+    },
+    {
+      "speaker": "F1",
+      "text": "One last thing. How do we record the answers out on the street — on paper, or straight onto something?"
+    },
+    {
+      "speaker": "M1",
+      "text": "Paper. Batteries die, and people think you're not listening if you're staring at a screen."
+    },
+    {
+      "speaker": "F1",
+      "text": "A tablet, though. It goes straight into the spreadsheet and there's no typing up afterwards."
+    },
+    {
+      "speaker": "M2",
+      "text": "Whichever you settle on, do the same thing all the way through. What I would say is that typing up a hundred and twenty paper forms takes far longer than anyone expects — set aside a full day for it. And back up whatever you collect the same evening."
+    },
+    {
+      "speaker": "M1",
+      "text": "So: a hundred and twenty, quotas by age, mostly closed questions, pilot on twenty, ethics form by the fifth."
+    },
+    {
+      "speaker": "M2",
+      "text": "That's it. And send me the draft questionnaire before you pilot it, not afterwards."
+    }
+  ],
+  "answer_points": [
+    {
+      "id": "L5-S3-01",
+      "kind": "opinion",
+      "value": "Devan: 100 responses, all face to face",
+      "quote": "I'd go for a hundred responses, all of them face to face on the street.",
+      "turn_index": 3,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "matching",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L5-S3-02",
+      "kind": "opinion",
+      "value": "Marit: 150 responses collected through an online link",
+      "quote": "I'd rather have a hundred and fifty, and I'd get there by putting a link online",
+      "turn_index": 4,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "matching",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L5-S3-03",
+      "kind": "limitation",
+      "value": "self-selection in an online sample",
+      "quote": "That's self-selection, and it will bend everything you find.",
+      "turn_index": 5,
+      "speaker": "M2",
+      "distractor": null,
+      "suggested_types": [
+        "multiple_choice",
+        "sentence_completion"
+      ]
+    },
+    {
+      "id": "L5-S3-04",
+      "kind": "number",
+      "value": "120 completed responses (department minimum)",
+      "quote": "the department expects a minimum of a hundred and twenty completed responses at this level",
+      "turn_index": 7,
+      "speaker": "M2",
+      "distractor": "100",
+      "suggested_types": [
+        "sentence_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L5-S3-05",
+      "kind": "opinion",
+      "value": "tutor: run both, street sample main, online results in an appendix",
+      "quote": "Run both, but the street sample is the main one and the online results go in an appendix.",
+      "turn_index": 7,
+      "speaker": "M2",
+      "distractor": null,
+      "suggested_types": [
+        "matching",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L5-S3-06",
+      "kind": "rule",
+      "value": "quotas for each age band",
+      "quote": "Set a target for each age band and hold yourselves to it.",
+      "turn_index": 9,
+      "speaker": "M2",
+      "distractor": null,
+      "suggested_types": [
+        "sentence_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L5-S3-07",
+      "kind": "number",
+      "value": "three age bands: under 25, 25-60, over 60",
+      "quote": "Under twenty-five, twenty-five to sixty, and over sixty.",
+      "turn_index": 11,
+      "speaker": "M2",
+      "distractor": null,
+      "suggested_types": [
+        "note_completion",
+        "table_completion"
+      ]
+    },
+    {
+      "id": "L5-S3-08",
+      "kind": "opinion",
+      "value": "Devan: open questions reveal the unexpected",
+      "quote": "I want them open. Ask somebody what would bring them into the town centre more often and you learn things you'd never have thought to ask about.",
+      "turn_index": 12,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "matching",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L5-S3-09",
+      "kind": "opinion",
+      "value": "Marit: a five-point scale throughout, because open answers cannot be coded consistently",
+      "quote": "And you get a hundred and twenty answers that no two people would code the same way. I'd use a five-point scale throughout.",
+      "turn_index": 13,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "matching",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L5-S3-10",
+      "kind": "opinion",
+      "value": "tutor: closed questions in the body, two open ones at the end",
+      "quote": "Closed questions for the body of it — Marit's scale is fine — and then two open ones at the very end, where a refusal costs you nothing.",
+      "turn_index": 14,
+      "speaker": "M2",
+      "distractor": null,
+      "suggested_types": [
+        "matching",
+        "sentence_completion"
+      ]
+    },
+    {
+      "id": "L5-S3-11",
+      "kind": "duration",
+      "value": "under 4 minutes (maximum length of the interview)",
+      "quote": "Under four minutes. Past four minutes people begin walking off mid-sentence",
+      "turn_index": 16,
+      "speaker": "M2",
+      "distractor": null,
+      "suggested_types": [
+        "sentence_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L5-S3-12",
+      "kind": "opinion",
+      "value": "Marit: a weekday, because people are not in a hurry",
+      "quote": "I'd go on a weekday. People aren't rushing, and they'll give you the time.",
+      "turn_index": 17,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "matching",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L5-S3-13",
+      "kind": "opinion",
+      "value": "Devan: Saturday, when the high street is busy",
+      "quote": "Saturday, surely. That's when the high street is actually busy.",
+      "turn_index": 18,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "matching",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L5-S3-14",
+      "kind": "opinion",
+      "value": "tutor: one weekday and one Saturday, stated in the method section",
+      "quote": "One of each, and say so in your method section.",
+      "turn_index": 19,
+      "speaker": "M2",
+      "distractor": null,
+      "suggested_types": [
+        "matching",
+        "sentence_completion"
+      ]
+    },
+    {
+      "id": "L5-S3-15",
+      "kind": "rule",
+      "value": "a prize draw is allowed; its value must appear in the information sheet",
+      "quote": "A prize draw is allowed — a voucher, nothing large. The value has to go in the information sheet.",
+      "turn_index": 21,
+      "speaker": "M2",
+      "distractor": null,
+      "suggested_types": [
+        "multiple_choice",
+        "sentence_completion"
+      ]
+    },
+    {
+      "id": "L5-S3-16",
+      "kind": "number",
+      "value": "20 people in the pilot",
+      "quote": "Twenty, and not on each other.",
+      "turn_index": 24,
+      "speaker": "M2",
+      "distractor": "10",
+      "suggested_types": [
+        "note_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L5-S3-17",
+      "kind": "reason",
+      "value": "friends read the intended question rather than the written one",
+      "quote": "Friends read the question you meant to write rather than the one you actually wrote.",
+      "turn_index": 24,
+      "speaker": "M2",
+      "distractor": null,
+      "suggested_types": [
+        "multiple_choice",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L5-S3-18",
+      "kind": "date",
+      "value": "the 5th (ethics form deadline)",
+      "quote": "They've brought it forward to the fifth, because the committee is sitting a week earlier this term.",
+      "turn_index": 26,
+      "speaker": "M2",
+      "distractor": "the 12th",
+      "suggested_types": [
+        "note_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L5-S3-19",
+      "kind": "rule",
+      "value": "no fieldwork before ethics approval",
+      "quote": "And nothing happens on the street until it's approved",
+      "turn_index": 26,
+      "speaker": "M2",
+      "distractor": null,
+      "suggested_types": [
+        "sentence_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L5-S3-20",
+      "kind": "limitation",
+      "value": "information sheet and consent wording: one page each",
+      "quote": "One page each, and no more than that.",
+      "turn_index": 28,
+      "speaker": "M2",
+      "distractor": null,
+      "suggested_types": [
+        "note_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L5-S3-21",
+      "kind": "number",
+      "value": "2,500 words (report length)",
+      "quote": "Two thousand five hundred words.",
+      "turn_index": 30,
+      "speaker": "M2",
+      "distractor": "2,000 words (as in the handbook)",
+      "suggested_types": [
+        "note_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L5-S3-22",
+      "kind": "rule",
+      "value": "tables and the questionnaire go in the appendix and are not counted",
+      "quote": "Tables and the questionnaire itself go in the appendix and aren't counted.",
+      "turn_index": 30,
+      "speaker": "M2",
+      "distractor": null,
+      "suggested_types": [
+        "sentence_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L5-S3-23",
+      "kind": "duration",
+      "value": "10 minutes presentation plus 5 for questions",
+      "quote": "Ten minutes, and then five for questions.",
+      "turn_index": 32,
+      "speaker": "M2",
+      "distractor": "15 minutes",
+      "suggested_types": [
+        "note_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L5-S3-24",
+      "kind": "place",
+      "value": "study pods on the second floor",
+      "quote": "You've got the study pods on the second floor instead",
+      "turn_index": 34,
+      "speaker": "M2",
+      "distractor": "the seminar room",
+      "suggested_types": [
+        "note_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L5-S3-25",
+      "kind": "rule",
+      "value": "study pods booked through the library system, two hours at a time",
+      "quote": "book those through the library system, two hours at a time",
+      "turn_index": 34,
+      "speaker": "M2",
+      "distractor": null,
+      "suggested_types": [
+        "sentence_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L5-S3-26",
+      "kind": "opinion",
+      "value": "Devan: record answers on paper",
+      "quote": "Paper. Batteries die, and people think you're not listening if you're staring at a screen.",
+      "turn_index": 36,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "matching",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L5-S3-27",
+      "kind": "opinion",
+      "value": "Marit: record answers on a tablet, straight into the spreadsheet",
+      "quote": "A tablet, though. It goes straight into the spreadsheet and there's no typing up afterwards.",
+      "turn_index": 37,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "matching",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L5-S3-28",
+      "kind": "opinion",
+      "value": "tutor: be consistent; allow a full day for typing up paper forms",
+      "quote": "Whichever you settle on, do the same thing all the way through.",
+      "turn_index": 38,
+      "speaker": "M2",
+      "distractor": null,
+      "suggested_types": [
+        "matching",
+        "sentence_completion"
+      ]
+    },
+    {
+      "id": "L5-S3-29",
+      "kind": "advantage",
+      "value": "back up the data the same evening",
+      "quote": "And back up whatever you collect the same evening.",
+      "turn_index": 38,
+      "speaker": "M2",
+      "distractor": null,
+      "suggested_types": [
+        "sentence_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L5-S3-30",
+      "kind": "rule",
+      "value": "the draft questionnaire must be sent to the tutor before the pilot",
+      "quote": "And send me the draft questionnaire before you pilot it, not afterwards.",
+      "turn_index": 40,
+      "speaker": "M2",
+      "distractor": null,
+      "suggested_types": [
+        "sentence_completion",
+        "multiple_choice"
+      ]
+    }
+  ],
+  "spatial_description": null,
+  "notes": "turn_index degerleri 0 tabanlidir. Alti celdirici duzeltme var: ornek buyuklugu (yuz -> yuz yirmi), pilot sayisi (on -> yirmi), etik formu tarihi (on iki -> bes), rapor kelime siniri (iki bin -> iki bin bes yuz), sunum suresi (on bes -> on arti bes), calisma mekani (seminer odasi -> ikinci kattaki calisma kabinleri). Gorus ayrimi dort eksende: ornekleme yontemi, soru tipi, saha gunu, kayit araci; ucunun de gorusu ayri ayri isaretli. Metinde rakam yok."
+}

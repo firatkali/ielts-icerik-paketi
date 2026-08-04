@@ -1,0 +1,695 @@
+{
+  "schema_version": "1.0",
+  "script_id": "L6-S3",
+  "skill": "listening",
+  "test_id": "L6",
+  "section": 3,
+  "generated_by": "opus",
+  "setting": "Iki ogrencinin bir derleme odevi icin kaynak taramasini konu uzmani kutuphaneciyle planlamasi",
+  "context_line": "You will hear two students discussing their literature search for a review assignment with a subject librarian.",
+  "word_count": 898,
+  "estimated_minutes": 6.0,
+  "turn_index_base": 0,
+  "speakers": [
+    {
+      "code": "F1",
+      "role": "ogrenci (Rhian)",
+      "gender": "female",
+      "accent": "en-GB",
+      "voice": "en-GB",
+      "age_band": "19-24",
+      "pace": "normal"
+    },
+    {
+      "code": "M1",
+      "role": "ogrenci (Tomas)",
+      "gender": "male",
+      "accent": "en-CA",
+      "voice": "en-CA",
+      "age_band": "19-24",
+      "pace": "normal"
+    },
+    {
+      "code": "F2",
+      "role": "konu uzmani kutuphaneci (Ms Harrow)",
+      "gender": "female",
+      "accent": "en-AU",
+      "voice": "en-AU",
+      "age_band": "35-55",
+      "pace": "biraz yavas, aciklayici"
+    }
+  ],
+  "turns": [
+    {
+      "speaker": "F2",
+      "text": "Come in, both of you. You're the pair doing the review on school playground design, is that right?"
+    },
+    {
+      "speaker": "F1",
+      "text": "That's us. I'm Rhian, and this is Tomas. We've settled on the topic, but we're stuck on where to search."
+    },
+    {
+      "speaker": "F2",
+      "text": "That's the usual place to be stuck. How long is the review meant to be?"
+    },
+    {
+      "speaker": "M1",
+      "text": "Three thousand words, I thought."
+    },
+    {
+      "speaker": "F1",
+      "text": "It was, but they changed it over the summer. The module page says two thousand five hundred now — it's the handbook that hasn't been updated."
+    },
+    {
+      "speaker": "F2",
+      "text": "Then work to the module page. And when does it have to be in?"
+    },
+    {
+      "speaker": "F1",
+      "text": "The eleventh of November. There's a ten-minute presentation as well, with five minutes of questions after it."
+    },
+    {
+      "speaker": "F2",
+      "text": "Right. Two and a half thousand words means you can't review everything, so what you need is a search you can defend, not a search that finds every article ever written. Where have you looked so far?"
+    },
+    {
+      "speaker": "M1",
+      "text": "Just the main library search box. I typed the whole question in, got four hundred and twelve results and gave up."
+    },
+    {
+      "speaker": "F2",
+      "text": "Four hundred and twelve is what a whole sentence gets you. Let's build the search properly instead. How many ideas are there in your question?"
+    },
+    {
+      "speaker": "F1",
+      "text": "Two, I suppose. Playground design, and how active the children are."
+    },
+    {
+      "speaker": "F2",
+      "text": "Two concepts, so two lists of words. In the first list: playground, play area, school grounds. In the second: physical activity, active play, movement."
+    },
+    {
+      "speaker": "M1",
+      "text": "And we join them with 'or' inside each list?"
+    },
+    {
+      "speaker": "F2",
+      "text": "'Or' within a list, 'and' between the two lists. Put the phrases in inverted commas so they're searched as phrases, and put an asterisk after 'activ' — that picks up activity, active and activities in one go."
+    },
+    {
+      "speaker": "M1",
+      "text": "How many databases should we be searching? I'd put five on our plan."
+    },
+    {
+      "speaker": "F1",
+      "text": "Five is too many, though. I'd rather do two properly and then follow up the references in the best papers."
+    },
+    {
+      "speaker": "F2",
+      "text": "I'm with Rhian on the number, but I'd add something neither of you has. Use the Education Research Index and Movement and Health Abstracts for the published work, and then go to the local authority reports collection."
+    },
+    {
+      "speaker": "M1",
+      "text": "Are we allowed to use reports? They're not peer-reviewed."
+    },
+    {
+      "speaker": "F2",
+      "text": "You're allowed to use them as long as you say what they are. Playground schemes tend to be evaluated by councils rather than by universities, so if you leave the reports out you'll miss almost everything that's been written about cost."
+    },
+    {
+      "speaker": "F1",
+      "text": "What about how far back we go? I was going to say the last ten years."
+    },
+    {
+      "speaker": "M1",
+      "text": "Ten years cuts out the studies everybody cites, though. The ones people keep referring to are from the nineteen nineties. I'd go back twenty."
+    },
+    {
+      "speaker": "F2",
+      "text": "There's a middle way. Run the systematic search over ten years, which keeps it manageable, and then pick the older papers up deliberately, by looking at who the recent articles cite. Explain that in your method and it's perfectly defensible."
+    },
+    {
+      "speaker": "F1",
+      "text": "That would keep us both happy, actually."
+    },
+    {
+      "speaker": "F2",
+      "text": "Now, filters. Tick peer-reviewed on the two databases. But don't tick the one that says full text available."
+    },
+    {
+      "speaker": "M1",
+      "text": "Why not? That's the box I always tick."
+    },
+    {
+      "speaker": "F2",
+      "text": "Because it hides everything we can order in for you, and that's a great deal of material. You'd be choosing your evidence by what happens to be on the shelf."
+    },
+    {
+      "speaker": "M1",
+      "text": "Fair enough. So how many results should we be expecting?"
+    },
+    {
+      "speaker": "F2",
+      "text": "With those terms and a ten-year limit, about eighty-six in the first database — that's what came up when I ran it this morning. Screen the abstracts down to roughly thirty studies."
+    },
+    {
+      "speaker": "F1",
+      "text": "And how should we divide that up?"
+    },
+    {
+      "speaker": "M1",
+      "text": "By database, surely. I'll do one, you do the other."
+    },
+    {
+      "speaker": "F1",
+      "text": "I'd rather we both screened the first fifty, so we know we're applying the same rules, and split the rest after that."
+    },
+    {
+      "speaker": "F2",
+      "text": "Rhian's way is safer. Two people screening separately from day one drift apart faster than you'd believe. There's a screening sheet on the module page — use it, and write down why you rejected each item."
+    },
+    {
+      "speaker": "M1",
+      "text": "Something else we disagree about. How do we keep the references? Rhian wants a shared folder with the files in it."
+    },
+    {
+      "speaker": "F1",
+      "text": "It's simpler. Everybody knows how a folder works."
+    },
+    {
+      "speaker": "M1",
+      "text": "Until there are two hundred files in it called 'download nine'. I'd use the reference software."
+    },
+    {
+      "speaker": "F2",
+      "text": "The software, definitely, and set up a group library so you're both adding to the same one. It also formats your citations, which will save you an evening. There's a session on it on Tuesday, at half past two."
+    },
+    {
+      "speaker": "F1",
+      "text": "Is that the one in Room B?"
+    },
+    {
+      "speaker": "F2",
+      "text": "It was, but it's moved — it's in the training room on the second floor now. Bring a laptop if you can."
+    },
+    {
+      "speaker": "M1",
+      "text": "Two last things. Can we export the results all at once?"
+    },
+    {
+      "speaker": "F2",
+      "text": "Two hundred records at a time, that's the limit. And save your search in each database before you close it, and note down the date you ran it — that date has to go in your method section, and everyone forgets it."
+    },
+    {
+      "speaker": "F1",
+      "text": "When should we come back to you?"
+    },
+    {
+      "speaker": "F2",
+      "text": "Book a follow-up through the website. The appointments are thirty minutes and you need to book at least two days ahead. And meet each other every week."
+    },
+    {
+      "speaker": "M1",
+      "text": "We'd said Fridays for that."
+    },
+    {
+      "speaker": "F1",
+      "text": "Thursday would be better for me — on Fridays I'm in the laboratory until six."
+    },
+    {
+      "speaker": "F2",
+      "text": "Thursdays at four, then. If the abstracts are screened by the end of next week, you'll have a fortnight left to write, which is about right."
+    }
+  ],
+  "answer_points": [
+    {
+      "id": "L6-S3-01",
+      "kind": "number",
+      "value": "2,500 words",
+      "speaker": "F1",
+      "quote": "The module page says two thousand five hundred now — it's the handbook that hasn't been updated.",
+      "turn_index": 4,
+      "distractor": "3,000 words",
+      "suggested_types": [
+        "sentence_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L6-S3-02",
+      "kind": "date",
+      "value": "11 November",
+      "speaker": "F1",
+      "quote": "The eleventh of November.",
+      "turn_index": 6,
+      "distractor": null,
+      "suggested_types": [
+        "sentence_completion",
+        "note_completion"
+      ]
+    },
+    {
+      "id": "L6-S3-03",
+      "kind": "duration",
+      "value": "10 minutes plus 5 for questions",
+      "speaker": "F1",
+      "quote": "There's a ten-minute presentation as well, with five minutes of questions after it.",
+      "turn_index": 6,
+      "distractor": null,
+      "suggested_types": [
+        "sentence_completion",
+        "table_completion"
+      ]
+    },
+    {
+      "id": "L6-S3-04",
+      "kind": "number",
+      "value": "412 results",
+      "speaker": "M1",
+      "quote": "I typed the whole question in, got four hundred and twelve results and gave up.",
+      "turn_index": 8,
+      "distractor": null,
+      "suggested_types": [
+        "short_answer",
+        "sentence_completion"
+      ]
+    },
+    {
+      "id": "L6-S3-05",
+      "kind": "reason",
+      "value": "the whole question was typed in as one sentence",
+      "speaker": "F2",
+      "quote": "Four hundred and twelve is what a whole sentence gets you.",
+      "turn_index": 9,
+      "distractor": null,
+      "suggested_types": [
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L6-S3-06",
+      "kind": "object",
+      "value": "two concepts, two lists of search words",
+      "speaker": "F2",
+      "quote": "Two concepts, so two lists of words.",
+      "turn_index": 11,
+      "distractor": null,
+      "suggested_types": [
+        "sentence_completion",
+        "flow_chart_completion"
+      ]
+    },
+    {
+      "id": "L6-S3-07",
+      "kind": "rule",
+      "value": "OR within a list, AND between the lists",
+      "speaker": "F2",
+      "quote": "'Or' within a list, 'and' between the two lists.",
+      "turn_index": 13,
+      "distractor": null,
+      "suggested_types": [
+        "sentence_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L6-S3-08",
+      "kind": "rule",
+      "value": "inverted commas for phrases",
+      "speaker": "F2",
+      "quote": "Put the phrases in inverted commas so they're searched as phrases",
+      "turn_index": 13,
+      "distractor": null,
+      "suggested_types": [
+        "sentence_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L6-S3-09",
+      "kind": "object",
+      "value": "an asterisk after 'activ'",
+      "speaker": "F2",
+      "quote": "put an asterisk after 'activ' — that picks up activity, active and activities in one go",
+      "turn_index": 13,
+      "distractor": null,
+      "suggested_types": [
+        "short_answer",
+        "sentence_completion"
+      ]
+    },
+    {
+      "id": "L6-S3-10",
+      "kind": "opinion",
+      "value": "Tomas wanted five databases",
+      "speaker": "M1",
+      "quote": "How many databases should we be searching? I'd put five on our plan.",
+      "turn_index": 14,
+      "distractor": "five databases",
+      "suggested_types": [
+        "matching",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L6-S3-11",
+      "kind": "opinion",
+      "value": "Rhian prefers two databases plus reference chasing",
+      "speaker": "F1",
+      "quote": "I'd rather do two properly and then follow up the references in the best papers.",
+      "turn_index": 15,
+      "distractor": null,
+      "suggested_types": [
+        "matching",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L6-S3-12",
+      "kind": "opinion",
+      "value": "the librarian backs two databases but adds a third source",
+      "speaker": "F2",
+      "quote": "I'm with Rhian on the number, but I'd add something neither of you has.",
+      "turn_index": 16,
+      "distractor": null,
+      "suggested_types": [
+        "matching",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L6-S3-13",
+      "kind": "object",
+      "value": "the local authority reports collection",
+      "speaker": "F2",
+      "quote": "and then go to the local authority reports collection",
+      "turn_index": 16,
+      "distractor": null,
+      "suggested_types": [
+        "sentence_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L6-S3-14",
+      "kind": "reason",
+      "value": "most evidence on cost is in council evaluations",
+      "speaker": "F2",
+      "quote": "if you leave the reports out you'll miss almost everything that's been written about cost",
+      "turn_index": 18,
+      "distractor": null,
+      "suggested_types": [
+        "multiple_choice",
+        "sentence_completion"
+      ]
+    },
+    {
+      "id": "L6-S3-15",
+      "kind": "opinion",
+      "value": "Rhian wanted a ten-year range",
+      "speaker": "F1",
+      "quote": "I was going to say the last ten years.",
+      "turn_index": 19,
+      "distractor": null,
+      "suggested_types": [
+        "matching",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L6-S3-16",
+      "kind": "opinion",
+      "value": "Tomas wanted twenty years, for the older key studies",
+      "speaker": "M1",
+      "quote": "The ones people keep referring to are from the nineteen nineties. I'd go back twenty.",
+      "turn_index": 20,
+      "distractor": "twenty years",
+      "suggested_types": [
+        "matching",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L6-S3-17",
+      "kind": "advantage",
+      "value": "ten-year search plus citation chasing for older papers",
+      "speaker": "F2",
+      "quote": "Run the systematic search over ten years, which keeps it manageable, and then pick the older papers up deliberately, by looking at who the recent articles cite.",
+      "turn_index": 21,
+      "distractor": null,
+      "suggested_types": [
+        "sentence_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L6-S3-18",
+      "kind": "rule",
+      "value": "tick peer-reviewed",
+      "speaker": "F2",
+      "quote": "Tick peer-reviewed on the two databases.",
+      "turn_index": 23,
+      "distractor": null,
+      "suggested_types": [
+        "sentence_completion",
+        "table_completion"
+      ]
+    },
+    {
+      "id": "L6-S3-19",
+      "kind": "limitation",
+      "value": "do not use the full-text-available filter",
+      "speaker": "F2",
+      "quote": "But don't tick the one that says full text available.",
+      "turn_index": 23,
+      "distractor": "full text available",
+      "suggested_types": [
+        "multiple_choice",
+        "sentence_completion"
+      ]
+    },
+    {
+      "id": "L6-S3-20",
+      "kind": "reason",
+      "value": "it hides material the library can order in",
+      "speaker": "F2",
+      "quote": "Because it hides everything we can order in for you",
+      "turn_index": 25,
+      "distractor": null,
+      "suggested_types": [
+        "multiple_choice",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L6-S3-21",
+      "kind": "number",
+      "value": "about 86 results",
+      "speaker": "F2",
+      "quote": "about eighty-six in the first database",
+      "turn_index": 27,
+      "distractor": null,
+      "suggested_types": [
+        "sentence_completion",
+        "flow_chart_completion"
+      ]
+    },
+    {
+      "id": "L6-S3-22",
+      "kind": "number",
+      "value": "about 30 studies",
+      "speaker": "F2",
+      "quote": "Screen the abstracts down to roughly thirty studies.",
+      "turn_index": 27,
+      "distractor": null,
+      "suggested_types": [
+        "flow_chart_completion",
+        "sentence_completion"
+      ]
+    },
+    {
+      "id": "L6-S3-23",
+      "kind": "opinion",
+      "value": "Tomas wanted to split the screening by database",
+      "speaker": "M1",
+      "quote": "By database, surely. I'll do one, you do the other.",
+      "turn_index": 29,
+      "distractor": null,
+      "suggested_types": [
+        "matching",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L6-S3-24",
+      "kind": "opinion",
+      "value": "Rhian wants the first fifty screened by both of them",
+      "speaker": "F1",
+      "quote": "I'd rather we both screened the first fifty, so we know we're applying the same rules",
+      "turn_index": 30,
+      "distractor": null,
+      "suggested_types": [
+        "matching",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L6-S3-25",
+      "kind": "reason",
+      "value": "separate screeners apply the rules differently",
+      "speaker": "F2",
+      "quote": "Two people screening separately from day one drift apart faster than you'd believe.",
+      "turn_index": 31,
+      "distractor": null,
+      "suggested_types": [
+        "multiple_choice",
+        "sentence_completion"
+      ]
+    },
+    {
+      "id": "L6-S3-26",
+      "kind": "object",
+      "value": "the screening sheet on the module page",
+      "speaker": "F2",
+      "quote": "There's a screening sheet on the module page — use it, and write down why you rejected each item.",
+      "turn_index": 31,
+      "distractor": null,
+      "suggested_types": [
+        "sentence_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L6-S3-27",
+      "kind": "opinion",
+      "value": "Rhian prefers a shared folder of files",
+      "speaker": "F1",
+      "quote": "It's simpler. Everybody knows how a folder works.",
+      "turn_index": 33,
+      "distractor": "a shared folder",
+      "suggested_types": [
+        "matching",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L6-S3-28",
+      "kind": "opinion",
+      "value": "Tomas prefers the reference software",
+      "speaker": "M1",
+      "quote": "Until there are two hundred files in it called 'download nine'. I'd use the reference software.",
+      "turn_index": 34,
+      "distractor": null,
+      "suggested_types": [
+        "matching",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L6-S3-29",
+      "kind": "advantage",
+      "value": "a group library, and citations formatted automatically",
+      "speaker": "F2",
+      "quote": "set up a group library so you're both adding to the same one. It also formats your citations",
+      "turn_index": 35,
+      "distractor": null,
+      "suggested_types": [
+        "multiple_choice",
+        "sentence_completion"
+      ]
+    },
+    {
+      "id": "L6-S3-30",
+      "kind": "time",
+      "value": "Tuesday at 2.30",
+      "speaker": "F2",
+      "quote": "There's a session on it on Tuesday, at half past two.",
+      "turn_index": 35,
+      "distractor": null,
+      "suggested_types": [
+        "note_completion",
+        "table_completion"
+      ]
+    },
+    {
+      "id": "L6-S3-31",
+      "kind": "place",
+      "value": "the training room on the second floor",
+      "speaker": "F2",
+      "quote": "it's in the training room on the second floor now",
+      "turn_index": 37,
+      "distractor": "Room B",
+      "suggested_types": [
+        "multiple_choice",
+        "note_completion"
+      ]
+    },
+    {
+      "id": "L6-S3-32",
+      "kind": "limitation",
+      "value": "200 records per export",
+      "speaker": "F2",
+      "quote": "Two hundred records at a time, that's the limit.",
+      "turn_index": 39,
+      "distractor": null,
+      "suggested_types": [
+        "sentence_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L6-S3-33",
+      "kind": "rule",
+      "value": "save the search and note the date it was run",
+      "speaker": "F2",
+      "quote": "note down the date you ran it — that date has to go in your method section",
+      "turn_index": 39,
+      "distractor": null,
+      "suggested_types": [
+        "sentence_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L6-S3-34",
+      "kind": "duration",
+      "value": "30-minute appointment, booked two days ahead",
+      "speaker": "F2",
+      "quote": "The appointments are thirty minutes and you need to book at least two days ahead.",
+      "turn_index": 41,
+      "distractor": null,
+      "suggested_types": [
+        "note_completion",
+        "sentence_completion"
+      ]
+    },
+    {
+      "id": "L6-S3-35",
+      "kind": "time",
+      "value": "Thursdays at four",
+      "speaker": "F2",
+      "quote": "Thursdays at four, then.",
+      "turn_index": 44,
+      "distractor": "Fridays",
+      "suggested_types": [
+        "multiple_choice",
+        "note_completion"
+      ]
+    },
+    {
+      "id": "L6-S3-36",
+      "kind": "reason",
+      "value": "Rhian is in the laboratory until six on Fridays",
+      "speaker": "F1",
+      "quote": "on Fridays I'm in the laboratory until six",
+      "turn_index": 43,
+      "distractor": null,
+      "suggested_types": [
+        "multiple_choice",
+        "short_answer"
+      ]
+    }
+  ],
+  "spatial_description": null,
+  "notes": "turn_index degerleri 0 tabanlidir. Bes celdirici duzeltme var: kelime siniri (uc bin -> iki bin bes yuz), veri tabani sayisi (bes -> iki + rapor koleksiyonu), tarih araligi (yirmi -> on yil + atif takibi), oturum yeri (Room B -> ikinci kattaki egitim odasi), haftalik bulusma (Cuma -> Persembe). Gorus ayrimi dort eksende: veri tabani sayisi, tarih araligi, tarama isbolumu, kaynak yonetimi. Rhian (F1) ve Tomas (M1) her seferinde ayri, kutuphaneci (F2) her seferinde gerekcesiyle taraf tutuyor ya da uzlasma oneriyor."
+}

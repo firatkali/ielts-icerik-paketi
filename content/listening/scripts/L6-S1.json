@@ -1,0 +1,653 @@
+{
+  "schema_version": "1.0",
+  "script_id": "L6-S1",
+  "skill": "listening",
+  "test_id": "L6",
+  "section": 1,
+  "generated_by": "opus",
+  "setting": "Bir ogrencinin telefonla yurt (konaklama) basvurusu yapmasi",
+  "context_line": "You will hear a student telephoning a college accommodation office about applying for a room in a hall of residence.",
+  "word_count": 837,
+  "estimated_minutes": 5.6,
+  "turn_index_base": 0,
+  "speakers": [
+    {
+      "code": "F1",
+      "role": "konaklama ofisi danismani",
+      "gender": "female",
+      "accent": "en-AU",
+      "voice": "en-AU",
+      "age_band": "30-45",
+      "pace": "normal"
+    },
+    {
+      "code": "M1",
+      "role": "basvuruyu yapan ogrenci",
+      "gender": "male",
+      "accent": "en-GB",
+      "voice": "en-GB",
+      "age_band": "18-25",
+      "pace": "normal"
+    }
+  ],
+  "turns": [
+    {
+      "speaker": "F1",
+      "text": "Good afternoon, Accommodation Office, Ardleigh College. Sorry to keep you waiting. How can I help?"
+    },
+    {
+      "speaker": "M1",
+      "text": "Hello. I've got a place on a course starting in September, and I'd like to apply for a room in one of the halls."
+    },
+    {
+      "speaker": "F1",
+      "text": "Certainly. I can take the details now and start the application off for you. Could I have your full name?"
+    },
+    {
+      "speaker": "M1",
+      "text": "It's Oliver Brathwaite."
+    },
+    {
+      "speaker": "F1",
+      "text": "And the surname — how do you spell that?"
+    },
+    {
+      "speaker": "M1",
+      "text": "It's Brathwaite — B-R-A-T-H-W-A-I-T-E. Most people put an extra letter in the middle, but there isn't one."
+    },
+    {
+      "speaker": "F1",
+      "text": "Thank you. And which course are you joining?"
+    },
+    {
+      "speaker": "M1",
+      "text": "Environmental Engineering. It's the three-year one — there's a four-year version with a placement, but I'm not doing that."
+    },
+    {
+      "speaker": "F1",
+      "text": "Lovely. And a contact number for you?"
+    },
+    {
+      "speaker": "M1",
+      "text": "It's oh seven eight one, double four two, nine oh six."
+    },
+    {
+      "speaker": "F1",
+      "text": "Let me read that back to you — oh seven eight one, double four two, nine oh six."
+    },
+    {
+      "speaker": "M1",
+      "text": "That's the one."
+    },
+    {
+      "speaker": "F1",
+      "text": "And an address for the paperwork?"
+    },
+    {
+      "speaker": "M1",
+      "text": "It's twenty-two Hartlow Road, in Marsden."
+    },
+    {
+      "speaker": "F1",
+      "text": "Right. Now, we have three halls taking first-year students, but only two are open to new applications."
+    },
+    {
+      "speaker": "M1",
+      "text": "A friend of mine said Thornbury Hall was the one to go for."
+    },
+    {
+      "speaker": "F1",
+      "text": "It has been popular, yes, but Thornbury is being re-roofed over the winter, so we've taken it out of the offer this year. Your choice is between Wharton Court and Cadnam House."
+    },
+    {
+      "speaker": "M1",
+      "text": "Ah, that changes things. What's the difference between the two?"
+    },
+    {
+      "speaker": "F1",
+      "text": "Wharton Court is nearly all standard single rooms. You get a study bedroom and you share a kitchen with five other students."
+    },
+    {
+      "speaker": "M1",
+      "text": "And Cadnam?"
+    },
+    {
+      "speaker": "F1",
+      "text": "Cadnam House is the newer block, so the rooms there are en-suite — you have your own shower room. The kitchens are bigger and they're shared between eight."
+    },
+    {
+      "speaker": "M1",
+      "text": "OK. And what's the rent?"
+    },
+    {
+      "speaker": "F1",
+      "text": "A standard room at Wharton is a hundred and eighteen pounds a week. The en-suite rooms are a hundred and forty-five."
+    },
+    {
+      "speaker": "M1",
+      "text": "Sorry — I'm fairly sure the website said a hundred and thirty-two for the en-suite."
+    },
+    {
+      "speaker": "F1",
+      "text": "That's last year's figure. The pages are being updated this week, but from September it's a hundred and forty-five, I'm afraid."
+    },
+    {
+      "speaker": "M1",
+      "text": "Fair enough. And how long does the contract run for?"
+    },
+    {
+      "speaker": "F1",
+      "text": "Thirty-eight weeks. It was forty until this year, but we've shortened it, which means the halls now close over the spring break."
+    },
+    {
+      "speaker": "M1",
+      "text": "So I'd have to take everything home?"
+    },
+    {
+      "speaker": "F1",
+      "text": "You can leave one box in the store room in the basement, but otherwise the rooms have to be cleared. There's also a deposit of two hundred and fifty pounds, which you get back after the final inspection."
+    },
+    {
+      "speaker": "M1",
+      "text": "And when does that have to be paid?"
+    },
+    {
+      "speaker": "F1",
+      "text": "Within ten days of accepting the offer. The application form itself has to reach us by the thirtieth of June."
+    },
+    {
+      "speaker": "M1",
+      "text": "Really? I had the twenty-third written down."
+    },
+    {
+      "speaker": "F1",
+      "text": "The twenty-third is the closing date for the scholarships. For accommodation you've got until the thirtieth."
+    },
+    {
+      "speaker": "M1",
+      "text": "Good, that gives me a bit more time. Is there anything I need to send with the form?"
+    },
+    {
+      "speaker": "F1",
+      "text": "A copy of your offer letter, and some photo identification — a passport or a driving licence is fine."
+    },
+    {
+      "speaker": "M1",
+      "text": "That's easy enough. And when would I actually move in?"
+    },
+    {
+      "speaker": "F1",
+      "text": "Move-in day is Saturday the fourteenth of September, and arrivals are between ten in the morning and four in the afternoon."
+    },
+    {
+      "speaker": "M1",
+      "text": "The letter I was sent said the twelfth."
+    },
+    {
+      "speaker": "F1",
+      "text": "That'll be the welcome programme for students travelling from abroad, which starts two days earlier. For everybody else it's the fourteenth."
+    },
+    {
+      "speaker": "M1",
+      "text": "And where do I collect the keys?"
+    },
+    {
+      "speaker": "F1",
+      "text": "From the porter's lodge on Cadnam Street. People do tend to head for main reception first, but the keys aren't kept there. Bring your student card with you."
+    },
+    {
+      "speaker": "M1",
+      "text": "Noted. Can I bring a car?"
+    },
+    {
+      "speaker": "F1",
+      "text": "Not in the first year, no — parking permits only go to students in their final year. There is a covered cycle store at the back of Wharton Court, though, and the number three one bus stops right outside the gate."
+    },
+    {
+      "speaker": "M1",
+      "text": "How far is it to the engineering building?"
+    },
+    {
+      "speaker": "F1",
+      "text": "It's about a twelve-minute walk from Wharton, and a little less from Cadnam."
+    },
+    {
+      "speaker": "M1",
+      "text": "Is there somewhere to do washing?"
+    },
+    {
+      "speaker": "F1",
+      "text": "There's a laundry in the basement of Wharton Court, and the machines are card operated. Our staff clean the shared kitchens once a week, on Thursdays."
+    },
+    {
+      "speaker": "M1",
+      "text": "The rota on the open day said Wednesdays."
+    },
+    {
+      "speaker": "F1",
+      "text": "It did, and some of the noticeboards still say that, but the cleaning moved to Thursdays last term."
+    },
+    {
+      "speaker": "M1",
+      "text": "Right. Anything else I should know before I come?"
+    },
+    {
+      "speaker": "F1",
+      "text": "Two things people always ask about. Candles and heaters aren't allowed anywhere in the halls, and if you'd rather be somewhere quiet, tick the box on the form — there are two quiet floors in Cadnam."
+    },
+    {
+      "speaker": "M1",
+      "text": "I'd like that, actually. I'm a light sleeper."
+    },
+    {
+      "speaker": "F1",
+      "text": "I'll make a note of it. I'll email the form to you this afternoon, and your reference is H-R, nine four two. Put that on anything you send us."
+    },
+    {
+      "speaker": "M1",
+      "text": "H-R, nine four two. Thanks very much for your help."
+    },
+    {
+      "speaker": "F1",
+      "text": "You're welcome. Get the form back to us before the thirtieth and you'll be absolutely fine."
+    }
+  ],
+  "answer_points": [
+    {
+      "id": "L6-S1-01",
+      "kind": "name",
+      "value": "Brathwaite",
+      "speaker": "M1",
+      "quote": "It's Brathwaite — B-R-A-T-H-W-A-I-T-E.",
+      "turn_index": 5,
+      "distractor": null,
+      "suggested_types": [
+        "form_completion"
+      ]
+    },
+    {
+      "id": "L6-S1-02",
+      "kind": "object",
+      "value": "Environmental Engineering",
+      "speaker": "M1",
+      "quote": "Environmental Engineering. It's the three-year one",
+      "turn_index": 7,
+      "distractor": "the four-year course with a placement",
+      "suggested_types": [
+        "form_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L6-S1-03",
+      "kind": "duration",
+      "value": "three years",
+      "speaker": "M1",
+      "quote": "there's a four-year version with a placement, but I'm not doing that",
+      "turn_index": 7,
+      "distractor": "four years",
+      "suggested_types": [
+        "form_completion"
+      ]
+    },
+    {
+      "id": "L6-S1-04",
+      "kind": "number",
+      "value": "07 81 442 906",
+      "speaker": "M1",
+      "quote": "It's oh seven eight one, double four two, nine oh six.",
+      "turn_index": 9,
+      "distractor": null,
+      "suggested_types": [
+        "form_completion"
+      ]
+    },
+    {
+      "id": "L6-S1-05",
+      "kind": "address",
+      "value": "22 Hartlow Road, Marsden",
+      "speaker": "M1",
+      "quote": "It's twenty-two Hartlow Road, in Marsden.",
+      "turn_index": 13,
+      "distractor": null,
+      "suggested_types": [
+        "form_completion"
+      ]
+    },
+    {
+      "id": "L6-S1-06",
+      "kind": "reason",
+      "value": "it is being re-roofed",
+      "speaker": "F1",
+      "quote": "Thornbury is being re-roofed over the winter, so we've taken it out of the offer this year",
+      "turn_index": 16,
+      "distractor": "Thornbury Hall",
+      "suggested_types": [
+        "multiple_choice",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L6-S1-07",
+      "kind": "place",
+      "value": "Wharton Court and Cadnam House",
+      "speaker": "F1",
+      "quote": "Your choice is between Wharton Court and Cadnam House.",
+      "turn_index": 16,
+      "distractor": null,
+      "suggested_types": [
+        "form_completion",
+        "matching"
+      ]
+    },
+    {
+      "id": "L6-S1-08",
+      "kind": "number",
+      "value": "five",
+      "speaker": "F1",
+      "quote": "you share a kitchen with five other students",
+      "turn_index": 18,
+      "distractor": null,
+      "suggested_types": [
+        "form_completion",
+        "table_completion"
+      ]
+    },
+    {
+      "id": "L6-S1-09",
+      "kind": "object",
+      "value": "en-suite (own shower room)",
+      "speaker": "F1",
+      "quote": "the rooms there are en-suite — you have your own shower room",
+      "turn_index": 20,
+      "distractor": null,
+      "suggested_types": [
+        "table_completion",
+        "matching"
+      ]
+    },
+    {
+      "id": "L6-S1-10",
+      "kind": "number",
+      "value": "eight",
+      "speaker": "F1",
+      "quote": "The kitchens are bigger and they're shared between eight.",
+      "turn_index": 20,
+      "distractor": null,
+      "suggested_types": [
+        "table_completion"
+      ]
+    },
+    {
+      "id": "L6-S1-11",
+      "kind": "price",
+      "value": "118 pounds a week",
+      "speaker": "F1",
+      "quote": "A standard room at Wharton is a hundred and eighteen pounds a week.",
+      "turn_index": 22,
+      "distractor": null,
+      "suggested_types": [
+        "form_completion",
+        "table_completion"
+      ]
+    },
+    {
+      "id": "L6-S1-12",
+      "kind": "price",
+      "value": "145 pounds a week",
+      "speaker": "F1",
+      "quote": "from September it's a hundred and forty-five, I'm afraid",
+      "turn_index": 24,
+      "distractor": "132 pounds a week",
+      "suggested_types": [
+        "form_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L6-S1-13",
+      "kind": "duration",
+      "value": "38 weeks",
+      "speaker": "F1",
+      "quote": "Thirty-eight weeks. It was forty until this year, but we've shortened it",
+      "turn_index": 26,
+      "distractor": "40 weeks",
+      "suggested_types": [
+        "form_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L6-S1-14",
+      "kind": "limitation",
+      "value": "one box in the basement store room",
+      "speaker": "F1",
+      "quote": "You can leave one box in the store room in the basement, but otherwise the rooms have to be cleared.",
+      "turn_index": 28,
+      "distractor": null,
+      "suggested_types": [
+        "sentence_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L6-S1-15",
+      "kind": "price",
+      "value": "250 pounds deposit",
+      "speaker": "F1",
+      "quote": "a deposit of two hundred and fifty pounds, which you get back after the final inspection",
+      "turn_index": 28,
+      "distractor": null,
+      "suggested_types": [
+        "form_completion"
+      ]
+    },
+    {
+      "id": "L6-S1-16",
+      "kind": "duration",
+      "value": "within 10 days of accepting the offer",
+      "speaker": "F1",
+      "quote": "Within ten days of accepting the offer.",
+      "turn_index": 30,
+      "distractor": null,
+      "suggested_types": [
+        "form_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L6-S1-17",
+      "kind": "date",
+      "value": "30 June",
+      "speaker": "F1",
+      "quote": "For accommodation you've got until the thirtieth.",
+      "turn_index": 32,
+      "distractor": "23 June",
+      "suggested_types": [
+        "form_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L6-S1-18",
+      "kind": "reason",
+      "value": "the scholarship closing date",
+      "speaker": "F1",
+      "quote": "The twenty-third is the closing date for the scholarships.",
+      "turn_index": 32,
+      "distractor": null,
+      "suggested_types": [
+        "multiple_choice",
+        "matching"
+      ]
+    },
+    {
+      "id": "L6-S1-19",
+      "kind": "object",
+      "value": "offer letter and photo identification",
+      "speaker": "F1",
+      "quote": "A copy of your offer letter, and some photo identification — a passport or a driving licence is fine.",
+      "turn_index": 34,
+      "distractor": null,
+      "suggested_types": [
+        "note_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L6-S1-20",
+      "kind": "date",
+      "value": "Saturday 14 September",
+      "speaker": "F1",
+      "quote": "Move-in day is Saturday the fourteenth of September",
+      "turn_index": 36,
+      "distractor": "12 September",
+      "suggested_types": [
+        "form_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L6-S1-21",
+      "kind": "time",
+      "value": "between 10am and 4pm",
+      "speaker": "F1",
+      "quote": "arrivals are between ten in the morning and four in the afternoon",
+      "turn_index": 36,
+      "distractor": null,
+      "suggested_types": [
+        "form_completion",
+        "table_completion"
+      ]
+    },
+    {
+      "id": "L6-S1-22",
+      "kind": "place",
+      "value": "the porter's lodge on Cadnam Street",
+      "speaker": "F1",
+      "quote": "From the porter's lodge on Cadnam Street.",
+      "turn_index": 40,
+      "distractor": "main reception",
+      "suggested_types": [
+        "short_answer",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L6-S1-23",
+      "kind": "rule",
+      "value": "no parking permit in the first year",
+      "speaker": "F1",
+      "quote": "parking permits only go to students in their final year",
+      "turn_index": 42,
+      "distractor": null,
+      "suggested_types": [
+        "sentence_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L6-S1-24",
+      "kind": "place",
+      "value": "covered cycle store behind Wharton Court",
+      "speaker": "F1",
+      "quote": "There is a covered cycle store at the back of Wharton Court",
+      "turn_index": 42,
+      "distractor": null,
+      "suggested_types": [
+        "note_completion"
+      ]
+    },
+    {
+      "id": "L6-S1-25",
+      "kind": "number",
+      "value": "bus 31",
+      "speaker": "F1",
+      "quote": "the number three one bus stops right outside the gate",
+      "turn_index": 42,
+      "distractor": null,
+      "suggested_types": [
+        "form_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L6-S1-26",
+      "kind": "duration",
+      "value": "12 minutes",
+      "speaker": "F1",
+      "quote": "It's about a twelve-minute walk from Wharton",
+      "turn_index": 44,
+      "distractor": null,
+      "suggested_types": [
+        "form_completion",
+        "sentence_completion"
+      ]
+    },
+    {
+      "id": "L6-S1-27",
+      "kind": "place",
+      "value": "basement of Wharton Court (card operated)",
+      "speaker": "F1",
+      "quote": "There's a laundry in the basement of Wharton Court, and the machines are card operated.",
+      "turn_index": 46,
+      "distractor": null,
+      "suggested_types": [
+        "note_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L6-S1-28",
+      "kind": "date",
+      "value": "Thursdays",
+      "speaker": "F1",
+      "quote": "the cleaning moved to Thursdays last term",
+      "turn_index": 48,
+      "distractor": "Wednesdays",
+      "suggested_types": [
+        "table_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L6-S1-29",
+      "kind": "rule",
+      "value": "no candles or heaters",
+      "speaker": "F1",
+      "quote": "Candles and heaters aren't allowed anywhere in the halls",
+      "turn_index": 50,
+      "distractor": null,
+      "suggested_types": [
+        "sentence_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L6-S1-30",
+      "kind": "number",
+      "value": "two quiet floors in Cadnam",
+      "speaker": "F1",
+      "quote": "there are two quiet floors in Cadnam",
+      "turn_index": 50,
+      "distractor": null,
+      "suggested_types": [
+        "note_completion"
+      ]
+    },
+    {
+      "id": "L6-S1-31",
+      "kind": "number",
+      "value": "HR 942",
+      "speaker": "F1",
+      "quote": "your reference is H-R, nine four two",
+      "turn_index": 52,
+      "distractor": null,
+      "suggested_types": [
+        "form_completion"
+      ]
+    }
+  ],
+  "spatial_description": null,
+  "notes": "turn_index degerleri 0 tabanlidir. Yedi celdirici duzeltme var: yurt (Thornbury -> Wharton/Cadnam), en-suite ucreti (yuz otuz iki -> yuz kirk bes), sozlesme suresi (kirk -> otuz sekiz hafta), son basvuru (yirmi uc -> otuz Haziran), giris gunu (on iki -> on dort Eylul), anahtar yeri (ana resepsiyon -> Cadnam Street kapicilik), temizlik gunu (Carsamba -> Persembe). Harf harf soyleme bir kez: Brathwaite."
+}

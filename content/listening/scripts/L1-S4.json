@@ -376,6 +376,19 @@
       ]
     },
     {
+      "id": "L1-S4-28",
+      "kind": "object",
+      "value": "lettuce",
+      "quote": "the electricity needed to raise a kilogram of lettuce is substantial",
+      "turn_index": 9,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "short_answer",
+        "note_completion"
+      ]
+    },
+    {
       "id": "L1-S4-24",
       "kind": "limitation",
       "value": "urban land is expensive",
@@ -425,6 +438,19 @@
       "suggested_types": [
         "multiple_choice",
         "summary_completion"
+      ]
+    },
+    {
+      "id": "L1-S4-29",
+      "kind": "opinion",
+      "value": "failures are more instructive than successes",
+      "quote": "The failures are usually more instructive.",
+      "turn_index": 12,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "short_answer",
+        "multiple_choice"
       ]
     }
   ],

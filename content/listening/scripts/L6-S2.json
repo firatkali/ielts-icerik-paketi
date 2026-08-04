@@ -1,0 +1,615 @@
+{
+  "schema_version": "1.0",
+  "script_id": "L6-S2",
+  "skill": "listening",
+  "test_id": "L6",
+  "section": 2,
+  "generated_by": "opus",
+  "setting": "Yerel bir ciftci pazarinin kapali hale tasinmasini ve yeni yerlesimini anlatan tanitim konusmasi",
+  "context_line": "You will hear the manager of a farmers' market talking to local residents about the market's move into a covered hall.",
+  "word_count": 878,
+  "estimated_minutes": 5.9,
+  "turn_index_base": 0,
+  "speakers": [
+    {
+      "code": "F1",
+      "role": "pazar yoneticisi",
+      "gender": "female",
+      "accent": "en-GB",
+      "voice": "en-GB",
+      "age_band": "35-55",
+      "pace": "normal"
+    }
+  ],
+  "turns": [
+    {
+      "speaker": "F1",
+      "text": "Thanks for coming this evening. I manage the Saturday farmers' market, and I'm here to talk you through the move — after eleven years of standing in the rain in Colworth Square, we're taking the market indoors, into the old covered hall on Peveril Street. The builders finish this month, and our first market in the hall is on the fifth of April."
+    },
+    {
+      "speaker": "F1",
+      "text": "Let me start with the times, because they've changed. We'll open every Saturday from half past eight in the morning until three in the afternoon. I know the leaflet says nine o'clock — that was the plan, but the traders asked for an earlier start, so it's half past eight, and please do tell your neighbours."
+    },
+    {
+      "speaker": "F1",
+      "text": "We're also adding a second market day from June. We trialled a Thursday last summer and hardly anybody came, so the extra day will be a Wednesday, with the same opening hours. And you won't have to think about the weather any more — the hall is fully covered, so we open whatever the forecast says."
+    },
+    {
+      "speaker": "F1",
+      "text": "In the square we could only fit nineteen stalls. The hall has room for thirty-two, and twenty-eight of those are already spoken for. The rule about where the goods come from hasn't changed: everything sold has to be grown, caught or made within forty miles of the town. What has changed is the range. Along with the fruit and vegetable growers we now have a fish counter, a stall selling honey and preserves, and — new this year — a refill shop, where you bring your own containers."
+    },
+    {
+      "speaker": "F1",
+      "text": "Now, the hall is a different shape from the square, so let me take you round it. You come in through the main entrance, which is the wide doorway facing Peveril Street. Immediately on your left is the information desk. That's where you'll find me."
+    },
+    {
+      "speaker": "F1",
+      "text": "Opposite the information desk, on your right, is the flower stall. We've put it by the doors on purpose, so that the scent reaches you as you come in. Next to the information desk is the bread and cake stall, and beyond that, sharing the same long counter, the cheese counter."
+    },
+    {
+      "speaker": "F1",
+      "text": "The fish counter is the one people ask about. Outside, it stood right by the entrance, and several of you have assumed it will be there again. It won't — it's at the far end of the left-hand aisle, because that corner is the only part of the building with proper drainage."
+    },
+    {
+      "speaker": "F1",
+      "text": "Down the centre of the hall run the vegetable stalls, in two long rows, with the honey and preserves stall between the rows and the side door. Straight ahead of you, at the far end under the clock, is the demonstration kitchen, and the seating area is in front of it — twenty-four chairs."
+    },
+    {
+      "speaker": "F1",
+      "text": "Behind the seating area, in the north-east corner, you'll find the refill shop, and the toilets are past the refill shop, through the door with the green sign above it. The only thing outside the gate is the cycle racks, so do lock your bicycle there rather than in the loading yard behind the hall, which is for traders' vans."
+    },
+    {
+      "speaker": "F1",
+      "text": "The cooking demonstrations run twice on each market day. For years they began at eleven, but we've moved the first one to half past twelve, so that it catches people at lunchtime, and the second is at half past two. Each demonstration lasts forty minutes and there's no charge, but you do need to put your name on the list at the information desk, because there are only thirty places."
+    },
+    {
+      "speaker": "F1",
+      "text": "For younger visitors, there's a free session on the first Saturday of every month, where children plant something in a pot and take it home. It's aimed at five to eleven year olds, it starts at ten, and a parent has to stay with them — that's a condition of our insurance."
+    },
+    {
+      "speaker": "F1",
+      "text": "The number eighteen bus stops at the end of Peveril Street; it used to be the twelve, but the route was changed in January. If you drive, the Baxter Street car park is a two-minute walk away. The sign at the barrier still says two hours free, but the council extended that to three in the spring."
+    },
+    {
+      "speaker": "F1",
+      "text": "We're introducing a loyalty card as well. It was going to cost five pounds a year, but the traders have agreed to fund it between them, so it will be free. You get it stamped at any stall, and the tenth stamp is worth a pound off your shopping. There's also a vegetable box scheme, delivered on Tuesdays, at twelve pounds for the small box and twenty for the large one."
+    },
+    {
+      "speaker": "F1",
+      "text": "If any of you would like a stall of your own, the application form is on the market website and it has to be back with us by the twenty-second of February. A full pitch costs eighteen pounds a day — that has gone up from fifteen, but the price now includes electricity. A half pitch is ten."
+    },
+    {
+      "speaker": "F1",
+      "text": "And finally, we need volunteers. Six people each week, mainly for setting up between seven and half past eight, and one person on the information desk. Have a word with me at the end. Oh — and bring your own bags, because from April the traders have agreed to stop handing out plastic ones altogether."
+    }
+  ],
+  "answer_points": [
+    {
+      "id": "L6-S2-01",
+      "kind": "place",
+      "value": "the covered hall on Peveril Street",
+      "speaker": "F1",
+      "quote": "we're taking the market indoors, into the old covered hall on Peveril Street",
+      "turn_index": 0,
+      "distractor": "Colworth Square",
+      "suggested_types": [
+        "note_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L6-S2-02",
+      "kind": "date",
+      "value": "5 April",
+      "speaker": "F1",
+      "quote": "our first market in the hall is on the fifth of April",
+      "turn_index": 0,
+      "distractor": null,
+      "suggested_types": [
+        "note_completion",
+        "form_completion"
+      ]
+    },
+    {
+      "id": "L6-S2-03",
+      "kind": "time",
+      "value": "8.30am",
+      "speaker": "F1",
+      "quote": "it's half past eight, and please do tell your neighbours",
+      "turn_index": 1,
+      "distractor": "9.00am",
+      "suggested_types": [
+        "multiple_choice",
+        "table_completion"
+      ]
+    },
+    {
+      "id": "L6-S2-04",
+      "kind": "time",
+      "value": "3pm",
+      "speaker": "F1",
+      "quote": "every Saturday from half past eight in the morning until three in the afternoon",
+      "turn_index": 1,
+      "distractor": null,
+      "suggested_types": [
+        "table_completion"
+      ]
+    },
+    {
+      "id": "L6-S2-05",
+      "kind": "date",
+      "value": "Wednesday",
+      "speaker": "F1",
+      "quote": "the extra day will be a Wednesday, with the same opening hours",
+      "turn_index": 2,
+      "distractor": "Thursday",
+      "suggested_types": [
+        "multiple_choice",
+        "note_completion"
+      ]
+    },
+    {
+      "id": "L6-S2-06",
+      "kind": "advantage",
+      "value": "it opens in any weather",
+      "speaker": "F1",
+      "quote": "the hall is fully covered, so we open whatever the forecast says",
+      "turn_index": 2,
+      "distractor": null,
+      "suggested_types": [
+        "multiple_choice",
+        "sentence_completion"
+      ]
+    },
+    {
+      "id": "L6-S2-07",
+      "kind": "number",
+      "value": "32 stalls",
+      "speaker": "F1",
+      "quote": "The hall has room for thirty-two, and twenty-eight of those are already spoken for.",
+      "turn_index": 3,
+      "distractor": "19 stalls",
+      "suggested_types": [
+        "note_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L6-S2-08",
+      "kind": "rule",
+      "value": "produced within 40 miles of the town",
+      "speaker": "F1",
+      "quote": "everything sold has to be grown, caught or made within forty miles of the town",
+      "turn_index": 3,
+      "distractor": null,
+      "suggested_types": [
+        "sentence_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L6-S2-09",
+      "kind": "object",
+      "value": "a refill shop (bring your own containers)",
+      "speaker": "F1",
+      "quote": "new this year — a refill shop, where you bring your own containers",
+      "turn_index": 3,
+      "distractor": null,
+      "suggested_types": [
+        "note_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L6-S2-10",
+      "kind": "place",
+      "value": "main entrance — wide doorway on Peveril Street",
+      "speaker": "F1",
+      "quote": "You come in through the main entrance, which is the wide doorway facing Peveril Street.",
+      "turn_index": 4,
+      "distractor": null,
+      "suggested_types": [
+        "plan_map_diagram_labelling"
+      ]
+    },
+    {
+      "id": "L6-S2-11",
+      "kind": "place",
+      "value": "information desk — immediately on the left of the entrance",
+      "speaker": "F1",
+      "quote": "Immediately on your left is the information desk.",
+      "turn_index": 4,
+      "distractor": null,
+      "suggested_types": [
+        "plan_map_diagram_labelling"
+      ]
+    },
+    {
+      "id": "L6-S2-12",
+      "kind": "place",
+      "value": "flower stall — opposite the information desk, on the right",
+      "speaker": "F1",
+      "quote": "Opposite the information desk, on your right, is the flower stall.",
+      "turn_index": 5,
+      "distractor": null,
+      "suggested_types": [
+        "plan_map_diagram_labelling"
+      ]
+    },
+    {
+      "id": "L6-S2-13",
+      "kind": "reason",
+      "value": "so its scent reaches shoppers at the door",
+      "speaker": "F1",
+      "quote": "We've put it by the doors on purpose, so that the scent reaches you as you come in.",
+      "turn_index": 5,
+      "distractor": null,
+      "suggested_types": [
+        "multiple_choice",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L6-S2-14",
+      "kind": "place",
+      "value": "bread and cake stall — next to the information desk",
+      "speaker": "F1",
+      "quote": "Next to the information desk is the bread and cake stall",
+      "turn_index": 5,
+      "distractor": null,
+      "suggested_types": [
+        "plan_map_diagram_labelling"
+      ]
+    },
+    {
+      "id": "L6-S2-15",
+      "kind": "place",
+      "value": "cheese counter — beyond the bread and cake stall",
+      "speaker": "F1",
+      "quote": "beyond that, sharing the same long counter, the cheese counter",
+      "turn_index": 5,
+      "distractor": null,
+      "suggested_types": [
+        "plan_map_diagram_labelling"
+      ]
+    },
+    {
+      "id": "L6-S2-16",
+      "kind": "place",
+      "value": "fish counter — at the far end of the left-hand aisle",
+      "speaker": "F1",
+      "quote": "it's at the far end of the left-hand aisle",
+      "turn_index": 6,
+      "distractor": "by the entrance, where it stood in the square",
+      "suggested_types": [
+        "plan_map_diagram_labelling",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L6-S2-17",
+      "kind": "reason",
+      "value": "it is the only corner with proper drainage",
+      "speaker": "F1",
+      "quote": "because that corner is the only part of the building with proper drainage",
+      "turn_index": 6,
+      "distractor": null,
+      "suggested_types": [
+        "short_answer",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L6-S2-18",
+      "kind": "place",
+      "value": "vegetable stalls — two rows down the centre",
+      "speaker": "F1",
+      "quote": "Down the centre of the hall run the vegetable stalls, in two long rows",
+      "turn_index": 7,
+      "distractor": null,
+      "suggested_types": [
+        "plan_map_diagram_labelling"
+      ]
+    },
+    {
+      "id": "L6-S2-19",
+      "kind": "place",
+      "value": "demonstration kitchen — straight ahead at the far end, under the clock",
+      "speaker": "F1",
+      "quote": "Straight ahead of you, at the far end under the clock, is the demonstration kitchen",
+      "turn_index": 7,
+      "distractor": null,
+      "suggested_types": [
+        "plan_map_diagram_labelling"
+      ]
+    },
+    {
+      "id": "L6-S2-20",
+      "kind": "place",
+      "value": "seating area — in front of the demonstration kitchen",
+      "speaker": "F1",
+      "quote": "the seating area is in front of it — twenty-four chairs",
+      "turn_index": 7,
+      "distractor": null,
+      "suggested_types": [
+        "plan_map_diagram_labelling"
+      ]
+    },
+    {
+      "id": "L6-S2-21",
+      "kind": "place",
+      "value": "refill shop — behind the seating area, north-east corner",
+      "speaker": "F1",
+      "quote": "Behind the seating area, in the north-east corner, you'll find the refill shop",
+      "turn_index": 8,
+      "distractor": null,
+      "suggested_types": [
+        "plan_map_diagram_labelling"
+      ]
+    },
+    {
+      "id": "L6-S2-22",
+      "kind": "place",
+      "value": "toilets — past the refill shop",
+      "speaker": "F1",
+      "quote": "the toilets are past the refill shop, through the door with the green sign above it",
+      "turn_index": 8,
+      "distractor": null,
+      "suggested_types": [
+        "plan_map_diagram_labelling"
+      ]
+    },
+    {
+      "id": "L6-S2-23",
+      "kind": "place",
+      "value": "cycle racks — outside the gate",
+      "speaker": "F1",
+      "quote": "The only thing outside the gate is the cycle racks",
+      "turn_index": 8,
+      "distractor": "the loading yard behind the hall",
+      "suggested_types": [
+        "plan_map_diagram_labelling",
+        "sentence_completion"
+      ]
+    },
+    {
+      "id": "L6-S2-24",
+      "kind": "time",
+      "value": "12.30pm",
+      "speaker": "F1",
+      "quote": "we've moved the first one to half past twelve",
+      "turn_index": 9,
+      "distractor": "11.00am",
+      "suggested_types": [
+        "table_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L6-S2-25",
+      "kind": "duration",
+      "value": "40 minutes",
+      "speaker": "F1",
+      "quote": "Each demonstration lasts forty minutes and there's no charge",
+      "turn_index": 9,
+      "distractor": null,
+      "suggested_types": [
+        "note_completion",
+        "table_completion"
+      ]
+    },
+    {
+      "id": "L6-S2-26",
+      "kind": "limitation",
+      "value": "only 30 places — put your name on the list",
+      "speaker": "F1",
+      "quote": "you do need to put your name on the list at the information desk, because there are only thirty places",
+      "turn_index": 9,
+      "distractor": null,
+      "suggested_types": [
+        "sentence_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L6-S2-27",
+      "kind": "rule",
+      "value": "a parent must stay with the child",
+      "speaker": "F1",
+      "quote": "a parent has to stay with them — that's a condition of our insurance",
+      "turn_index": 10,
+      "distractor": null,
+      "suggested_types": [
+        "multiple_choice",
+        "sentence_completion"
+      ]
+    },
+    {
+      "id": "L6-S2-28",
+      "kind": "number",
+      "value": "bus 18",
+      "speaker": "F1",
+      "quote": "The number eighteen bus stops at the end of Peveril Street",
+      "turn_index": 11,
+      "distractor": "bus 12",
+      "suggested_types": [
+        "note_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L6-S2-29",
+      "kind": "duration",
+      "value": "three hours free parking",
+      "speaker": "F1",
+      "quote": "but the council extended that to three in the spring",
+      "turn_index": 11,
+      "distractor": "two hours free",
+      "suggested_types": [
+        "multiple_choice",
+        "note_completion"
+      ]
+    },
+    {
+      "id": "L6-S2-30",
+      "kind": "price",
+      "value": "free (funded by the traders)",
+      "speaker": "F1",
+      "quote": "the traders have agreed to fund it between them, so it will be free",
+      "turn_index": 12,
+      "distractor": "5 pounds a year",
+      "suggested_types": [
+        "multiple_choice",
+        "note_completion"
+      ]
+    },
+    {
+      "id": "L6-S2-31",
+      "kind": "date",
+      "value": "Tuesdays",
+      "speaker": "F1",
+      "quote": "There's also a vegetable box scheme, delivered on Tuesdays",
+      "turn_index": 12,
+      "distractor": null,
+      "suggested_types": [
+        "table_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L6-S2-32",
+      "kind": "price",
+      "value": "12 pounds small box, 20 pounds large",
+      "speaker": "F1",
+      "quote": "at twelve pounds for the small box and twenty for the large one",
+      "turn_index": 12,
+      "distractor": null,
+      "suggested_types": [
+        "table_completion",
+        "form_completion"
+      ]
+    },
+    {
+      "id": "L6-S2-33",
+      "kind": "date",
+      "value": "22 February",
+      "speaker": "F1",
+      "quote": "it has to be back with us by the twenty-second of February",
+      "turn_index": 13,
+      "distractor": null,
+      "suggested_types": [
+        "note_completion",
+        "form_completion"
+      ]
+    },
+    {
+      "id": "L6-S2-34",
+      "kind": "price",
+      "value": "18 pounds a day (electricity included)",
+      "speaker": "F1",
+      "quote": "A full pitch costs eighteen pounds a day — that has gone up from fifteen, but the price now includes electricity",
+      "turn_index": 13,
+      "distractor": "15 pounds a day",
+      "suggested_types": [
+        "table_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L6-S2-35",
+      "kind": "number",
+      "value": "six volunteers a week",
+      "speaker": "F1",
+      "quote": "Six people each week, mainly for setting up between seven and half past eight",
+      "turn_index": 14,
+      "distractor": null,
+      "suggested_types": [
+        "note_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L6-S2-36",
+      "kind": "rule",
+      "value": "no plastic bags from April — bring your own",
+      "speaker": "F1",
+      "quote": "from April the traders have agreed to stop handing out plastic ones altogether",
+      "turn_index": 14,
+      "distractor": null,
+      "suggested_types": [
+        "sentence_completion",
+        "multiple_choice"
+      ]
+    }
+  ],
+  "spatial_description": {
+    "kind": "plan",
+    "subject": "Peveril Street kapali halindeki ciftci pazarinin zemin plani",
+    "elements": [
+      {
+        "label": "main entrance",
+        "position": "Peveril Street'e bakan genis kapi, guney cephesi"
+      },
+      {
+        "label": "information desk",
+        "position": "girisin hemen solunda"
+      },
+      {
+        "label": "flower stall",
+        "position": "danisma masasinin karsisinda, girisin sagi"
+      },
+      {
+        "label": "bread and cake stall",
+        "position": "danisma masasinin yaninda, sol siranin basi"
+      },
+      {
+        "label": "cheese counter",
+        "position": "ekmek tezgahinin devaminda, ayni uzun tezgah"
+      },
+      {
+        "label": "fish counter",
+        "position": "sol koridorun en ucunda (drenaj olan kose)"
+      },
+      {
+        "label": "vegetable stalls",
+        "position": "salonun ortasinda iki uzun sira"
+      },
+      {
+        "label": "honey and preserves stall",
+        "position": "sebze siralari ile yan kapi arasinda"
+      },
+      {
+        "label": "demonstration kitchen",
+        "position": "tam karsida, en ucta, saatin altinda"
+      },
+      {
+        "label": "seating area",
+        "position": "mutfagin onunde, yirmi dort sandalye"
+      },
+      {
+        "label": "refill shop",
+        "position": "oturma alaninin arkasinda, kuzeydogu kosesi"
+      },
+      {
+        "label": "toilets",
+        "position": "dolum dukkanini gecince, yesil tabelali kapidan"
+      },
+      {
+        "label": "cycle racks",
+        "position": "bahce kapisinin disinda"
+      },
+      {
+        "label": "loading yard",
+        "position": "salonun arkasi, yalniz saticilarin araclari"
+      }
+    ],
+    "quote_turn_indexes": [
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  "notes": "turn_index degerleri 0 tabanlidir. Yedi celdirici duzeltme var: acilis saati (dokuz -> sekiz bucuk), ikinci pazar gunu (Persembe -> Carsamba), tezgah sayisi (on dokuz -> otuz iki), balik tezgahinin yeri (giris -> sol koridorun ucu), gosteri saati (on bir -> on iki bucuk), otobus (on iki -> on sekiz), ucretsiz otopark suresi (iki -> uc saat), sadakat karti (bes pound -> ucretsiz), tezgah ucreti (on bes -> on sekiz pound). Plan tarifi 4-8. repliklerde."
+}
