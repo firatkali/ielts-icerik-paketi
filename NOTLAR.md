@@ -1632,3 +1632,161 @@ L1–L4 senaryo oturumlarındaki iki betikli düzen tekrarlandı; ikisi de iş b
   referansıdır, telif kapsamında değildir.
 - Bütün kişi/kurum/yer adları senaryolardan geliyor, hepsi uydurma.
 - Atlanan/sorun: yok. **OPUS5-21'de 12 paketten 1'i tamam;** sıradaki **L2**.
+
+## OPUS5-21 (2. çalıştırma: L2 — güvenli sorular, 29 soru)
+
+- Tarih: 2026-08-04
+- Depo kontrolü: `content/listening/tests/` altında **yalnızca `L1/`** vardı,
+  `content/listening/practice/` boştu → çalıştırma listesindeki ilk üretilmemiş paket
+  **L2** idi, o yapıldı. Ön koşul sağlandı: `L2-S1` … `L2-S4` senaryoları yerinde.
+- 11–15 ve 21–26 aralıkları **boş bırakıldı** (FABLE5-43'ün işi); `tools/dogrula.py`
+  "L2 29/40 EKSIK eksik=[11–15, 21–26]" diyor, beklenen durum budur.
+
+### Seçilen tipler ve dosyalar
+
+| Soru | Bölüm | Tip | Dosya | Kelime sınırı |
+|---|---|---|---|---|
+| 1–10 | S1 | `table_completion` | `content/listening/tests/L2/table-completion.json` | TWO WORDS |
+| 16–20 | S2 | `plan_map_diagram_labelling` (**kelime yazma**) | `…/plan-map-diagram-labelling.json` | TWO WORDS |
+| 27–30 | S3 | `sentence_completion` | `…/sentence-completion.json` | TWO WORDS |
+| 31–35 | S4 | `flow_chart_completion` | `…/flow-chart-completion.json` | TWO WORDS |
+| 36–40 | S4 | `note_completion` | `…/note-completion.json` | TWO WORDS |
+
+Üç seçim de L1'in bıraktığı nota uyuyor (L1 kaydındaki ⚠️ maddeleri):
+
+- **1–10 için tip:** senaryo yine bir rezervasyon, ama içinde gerçek bir **karşılaştırma**
+  var (paketlemesiz 340 £ / paketlemeli 410 £, cumartesi / cuma) → kural gereği **tablo**.
+  Altı testte hepsi `form` olmasın diye bilinçli seçim; L1 = form, L2 = tablo.
+  ⚠️ **L3–L6:** en az bir testte de `note_completion` denensin.
+- **31–40 bölünmesi:** L1 = 31–36 not + 37–40 kısa cevap; L2 = **31–35 akış şeması +
+  36–40 not**. ⚠️ **L3–L6:** en az bir testte daha akış şeması, en az birinde de
+  `summary_completion` + kısa cevap düzeni kullanılsın.
+- **Etiketleme alt tipi:** L1 harf seçme (A–H) idi, L2 **kelime yazma**
+  (`options: null`, `word_limit` dolu). ⚠️ **L3 harf seçme**, sonra dönüşümlü devam.
+
+### Kullanılan `answer_point_id` değerleri
+
+| Set | Kimlikler |
+|---|---|
+| `L2-table-completion` | `L2-S1-01`, `L2-S1-02`, `L2-S1-03`, `L2-S1-06`, `L2-S1-08`, `L2-S1-10`, `L2-S1-12`, `L2-S1-14`, `L2-S1-15`, `L2-S1-21` |
+| `L2-plan-map-diagram-labelling` | `L2-S2-15`, `L2-S2-26`, `L2-S2-27`, `L2-S2-28`, `L2-S2-20` |
+| `L2-sentence-completion` | `L2-S3-17`, `L2-S3-19`, `L2-S3-20`, `L2-S3-22` |
+| `L2-flow-chart-completion` | `L2-S4-27`, `L2-S4-01`, `L2-S4-05`, `L2-S4-10`, `L2-S4-12` |
+| `L2-note-completion` | `L2-S4-14`, `L2-S4-16`, `L2-S4-21`, `L2-S4-23`, `L2-S4-25` |
+
+- Çeldiricili bilgi noktasından çıkan sorular (cevap her zaman **düzeltilmiş** değer):
+  `L2-S1-03` (Selby Lane→Weir Street), `L2-S1-08` (3 Ekim cumartesi→2 Ekim cuma),
+  `L2-S1-10` (salı 10.30→salı 11.00), `L2-S1-14` (battaniye→ahşap sandık),
+  `L2-S1-15` (5→6 saat), `L2-S2-20` (pencerenin yanı→tam karşısı), `L2-S3-19`
+  (3.000→2.500 kelime), `L2-S3-20` (ayın 12'si→19'u), `L2-S4-01` (yüzde bir→binde bir),
+  `L2-S4-14` (saf kireç→kireç + ezilmiş çömlek), `L2-S4-23` (10→12 gün).
+  Toplam **11 soru**.
+
+### Senaryo dosyalarına eklenen dört yeni bilgi noktası
+
+`answer_point_id` hiçbir yerde null bırakılmadı; karşılığı olmayan dört bilgi için
+senaryoya yeni kayıt açıldı (`tools/_o21b_nokta_ekle.py`, iş bitince silindi).
+**Replik metinlerine dokunulmadı**, sadece `answer_points` dizisi büyüdü ve dizi
+`turn_index` sırasında kalacak şekilde araya eklendi (bu yüzden kimlik numaraları
+artık sıralı değil, ama `turn_index` sıralı — betik bunu doğruluyor):
+
+- `L2-S2-26` — "Opposite that, on the far side of the room, is the children's library"
+  (replik 6) → soru 17
+- `L2-S2-27` — "Between the children's library and the lift there's a small room we're
+  calling the meeting room." (replik 7) → soru 18
+- `L2-S2-28` — "behind the fiction shelves, you'll find the computer suite"
+  (replik 7) → soru 19
+- `L2-S4-27` — "rain that fell on high ground sits in gravel below the surface"
+  (replik 1) → soru 31
+
+ℹ️ L2-S2'de plan tarifi için hazır bilgi noktası yalnızca dört taneydi (15, 16, 17, 20)
+ve 15 ile 16 **aynı cümlede** geçiyor; beş soruluk bir etiketleme seti için yeni nokta
+açmak zorunluydu. L1'in uyarısına uyularak kimlikler `turn_index` üzerinden değil
+**içerik** üzerinden eşleştirildi; denetleyici de cevabın bilgi noktasının
+`quote`/`value` alanında geçmesini şart koşuyor.
+
+### Doğrulama
+
+L1 oturumundaki iki betikli düzen tekrarlandı, üstüne bir de ASCII izdüşüm betiği
+yazıldı; üçü de iş bitince silindi.
+
+- `tools/_o21b_uret.py` (üretici): `turn_index` elle yazılmadı — her `evidence` senaryo
+  repliklerinde arandı, **birden çok replikte geçiyorsa ya da hiç geçmiyorsa üretim
+  durdu**; ayrıca bulunan replik ile bilgi noktasının `turn_index` değeri karşılaştırıldı.
+  Plan SVG'si koddan üretildi (elle kaçış karakteri yazılmadı).
+- `tools/_o21b_kontrol.py` (denetleyici; üreticiden bağımsız, her şeyi diskten okur):
+  zarf/item alanları, `evidence`in senaryoda **birebir ve tek** geçmesi, `turn_index`
+  doğruluğu, bilgi noktasının gerçekten o bilgiyi taşıması, kimlik tekrarı, cevabın
+  kanıtta birebir geçmesi (rakamlı cevaplarda esnek), cevabın `accepted_variants`
+  içinde olması, **`accepted_variants` dahil** kelime sınırı, yönergede sınırın yazılı
+  olması, açıklamaların gerçek Türkçe karakter içermesi, `difficulty`, prompt ile
+  `stem_block`/tablo eşleşmesi, gövdedeki boşluk numaralarının item numaralarıyla birebir
+  aynı olması, tipe göre `stem_block`/`table`/`visual` null kuralları, bölüm içi **sıra
+  kuralı**, soru numaralarının planla birebir aynı olması, 11–15 / 21–26 aralıklarının
+  boş kalması ve "IELTS" taraması. **Sonuç: 0 hata, 1 uyarı** (aşağıdaki bilinçli sapma).
+- SVG yine **geometrik olarak** sınandı (depoda SVG → PNG çevirici yok; `cairosvg`,
+  `svglib`, `Pillow`, `matplotlib` — hiçbiri kurulu değil): bütün koordinatların
+  `viewBox` içinde kalması, izinli öge/renk listesi, sabit `width`/`height` olmaması,
+  **hiçbir yazının bir dikdörtgenin kenarını kesmemesi** (L1'deki `STAIRS` hatasının
+  tekrarını önleyen kontrol), oda dikdörtgenlerinin çakışmaması, her boşluk numarasının
+  **tam olarak bir** odanın içinde olması ve o odada başka yazı bulunmaması, kuzey oku
+  ile giriş etiketinin varlığı.
+- `tools/_o21b_ascii.py` planı kaba bir ASCII izdüşüme çevirdi ve yerleşim **gözle**
+  okundu: 19 sol üst, roman raflarının üstünde; 17 sağ üst (bahçe kapılı), 18 ile
+  asansör onun altında; 16 girişin solunda; gazete/dergi sağ ön cephede; birinci katta
+  20 merdiven başının solunda, sessiz çalışma odasının karşısında. Tarifle birebir uyuyor.
+- Ardından `python tools/dogrula.py`: **şema hatası 0**, görünür metinde IELTS 0,
+  yasak kaynak 0, L2 29/40.
+
+### Bilinçli sapmalar
+
+1. **"İki cevap aynı replikte olmasın" kuralı 2. bölümde yine tam uygulanamadı.**
+   Plan tarifi tek kişilik anlatımın 5–8. repliklerinde (paragraflarında) geçiyor; 5 soru
+   için 4 paragraf var. **18 ile 19 aynı paragrafta ama ayrı cümlelerde** (aralarında
+   toplantı odası kiralama ücreti cümlesi var). Denetleyici bunu `UYARI` sayar; aynı
+   **cümlede** olsalardı `HATA` verirdi. Bu yüzden 15 (iade makinesi) ile 16 (danışma
+   masası) bilgi noktalarından yalnızca biri soruya çevrildi — ikisi tek cümlede geçiyor,
+   diğeri planda **sabit referans** olarak verildi.
+2. 4. bölümde (14 paragraflık ders, 10 soru) her paragrafta **en fazla bir** cevap
+   kuralı uygulandı; sorular 1., 2., 3., 4., 5., 6., 7., 10., 11. ve 12. repliklere
+   dağıldı. 1. ve 3. bölümde kural **tam** uygulandı: iki cevap arasında her zaman en az
+   bir replik var (1. bölümde en az iki replik).
+3. Etiketleme setinde bütün cevaplar doğal olarak yer adı; "aynı tür yığılmasın" kuralı
+   bu tipe uygulanamaz. Diğer setlerde tür dağılımı geniş — 1. bölüm 5 kelime / 5 sayı
+   dengesinde (soyadı, sokak adı, yerleşim adı, eşya, madde ↔ telefon, gün, saat, fiyat,
+   süre); 4. bölümde 10 sorunun yalnızca 2'si sayı.
+
+### Plan çizimi (2. bölüm) — kelime yazma alt tipi
+
+- `viewBox="0 0 500 620"`, sabit `width`/`height` yok, sadece `rect`/`line`/`polygon`/
+  `text`, hep `#000` çizgi, dolgu yok, tek satır string. **İki katlı**: üstte
+  `GROUND FLOOR`, altta `FIRST FLOOR` — kahve köşesi (20) yalnızca birinci katta
+  anlatıldığı için ikinci kat çizmek zorunluydu.
+- Boşluklar `16 .........` biçiminde **numara + noktalı çizgi** (harf seçme alt tipinde
+  daireli harfler kullanılmıştı).
+- **Sabit referanslar (etiketi verilmiş):** `MAIN ENTRANCE (Grange Road)` (+ içeri bakan
+  ok), `ENQUIRY DESK`, `NEWSPAPERS AND MAGAZINES`, `FICTION SHELVES`, `LIFT`, `GARDEN`,
+  `STAIRS`, `QUIET STUDY ROOM`, `LOCAL HISTORY ROOM`, `landing` ve kuzey oku `N`.
+- Her boşluğun **bağımsız** bir çıpası var, aday zincire mecbur kalmasın diye:
+  16 → girişin solu; 17 → bahçeye açılan kapı; 18 → çocuk kütüphanesi ile asansör arası;
+  19 → roman raflarının arkası; 20 → çalışma odasının karşısı + merdiven başı.
+- ⚠️ Bilinen küçük kusur: 17 numaralı odanın bahçe kapısı, odanın kendi dikdörtgen kenarı
+  (x=398) ile dış duvardaki boşluk (x=400) üst üste geldiği için "kesik duvar" yerine
+  bahçeye giden **iki paralel çizgi** olarak okunuyor. Belirsizlik yaratmıyor (17'nin
+  yerini ayrıca "gazete alanının karşısı, salonun öbür ucu" tarifi de veriyor), ama
+  sonraki etiketleme oturumları kapı boşluğu istiyorsa odayı `rect` yerine **dört ayrı
+  `line`** ile çizsin.
+
+### Telif / yazım
+
+- İngiliz İngilizcesi (`metres`, `fortnight`, `per cent`, `£`); Amerikan yazım tarandı,
+  yok. Görünür metinde "IELTS" yok.
+- Referans PDF'lerinden bu oturumda `table-completion`, `flow-chart-completion` ve
+  `sentence-completion` **cevap anahtarları** açıldı (`referans/text/` klasörü hâlâ yok,
+  PDF'ler doğrudan `Read` ile okundu). Üçü de yalnızca numara + cevap listesi; **tek bir
+  soru metni, senaryo ya da plan kopyalanmadı** — sadece cevap anahtarı biçimi
+  (`tutor(s)`, `time(-)management` gibi esneklik gösterimi) doğrulandı. Yönerge kalıpları
+  ("Complete the table below…", "Complete the flow-chart below…", "Label the plan
+  below…") format referansıdır, telif kapsamında değildir.
+- Bütün kişi/kurum/yer adları senaryolardan geliyor, hepsi uydurma.
+- Atlanan/sorun: yok. **OPUS5-21'de 12 paketten 2'si tamam;** sıradaki **L3**.

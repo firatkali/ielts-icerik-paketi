@@ -1,0 +1,86 @@
+{
+  "schema_version": "1.0",
+  "set_id": "L2-sentence-completion",
+  "skill": "listening",
+  "test_id": "L2",
+  "section": 3,
+  "practice": false,
+  "script_id": "L2-S3",
+  "question_type": "sentence_completion",
+  "generated_by": "opus",
+  "instructions": "Complete the sentences below. Write NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+  "word_limit": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
+  "options": null,
+  "visual": null,
+  "stem_block": null,
+  "table": null,
+  "items": [
+    {
+      "number": 27,
+      "prompt": "Every reading the students took should be placed in an (27) ........, which is left out of the word count.",
+      "answer": [
+        "appendix"
+      ],
+      "accepted_variants": [
+        "appendix"
+      ],
+      "evidence": "The raw data goes in the appendix, and the appendix doesn't count towards your word limit.",
+      "answer_point_id": "L2-S3-17",
+      "turn_index": 34,
+      "distractor_used": null,
+      "explanation": "Ham verinin tamamı eke konacak; danışmana göre ek, kelime sınırının dışında tutuluyor.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 28,
+      "prompt": "This year the report must not run to more than (28) ........ words.",
+      "answer": [
+        "2,500"
+      ],
+      "accepted_variants": [
+        "2,500",
+        "2500"
+      ],
+      "evidence": "It's two thousand five hundred now",
+      "answer_point_id": "L2-S3-19",
+      "turn_index": 36,
+      "distractor_used": "3,000",
+      "explanation": "Geçen yılki grup için sınır üç bin kelimeydi; bu yılki sınır iki bin beş yüz ve bu bir hedef değil üst sınır.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 29,
+      "prompt": "The finished report has to be handed in on the (29) ........ at midday.",
+      "answer": [
+        "nineteenth"
+      ],
+      "accepted_variants": [
+        "nineteenth",
+        "19th",
+        "19"
+      ],
+      "evidence": "The final report is due on the nineteenth, at midday",
+      "answer_point_id": "L2-S3-20",
+      "turn_index": 38,
+      "distractor_used": "the twelfth",
+      "explanation": "Öğrencinin defterindeki on iki, eski takvimdeki taslak tarihidir; bitmiş rapor ayın on dokuzunda öğlen teslim edilecek.",
+      "difficulty": "hard"
+    },
+    {
+      "number": 30,
+      "prompt": "Along with a cover sheet, the students have to attach the signed (30) ........ at the back.",
+      "answer": [
+        "risk assessment"
+      ],
+      "accepted_variants": [
+        "risk assessment"
+      ],
+      "evidence": "the signed risk assessment attached at the back",
+      "answer_point_id": "L2-S3-22",
+      "turn_index": 40,
+      "distractor_used": null,
+      "explanation": "Kapak sayfasının yanında imzalı risk değerlendirmesi de gerekiyor; o olmadan danışman saha çalışmasını değerlendiremiyor.",
+      "difficulty": "medium"
+    }
+  ]
+}

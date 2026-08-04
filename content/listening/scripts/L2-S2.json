@@ -295,6 +295,30 @@
       ]
     },
     {
+      "id": "L2-S2-26",
+      "kind": "place",
+      "value": "children's library opposite the newspaper area",
+      "quote": "Opposite that, on the far side of the room, is the children's library",
+      "turn_index": 6,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "plan_map_diagram_labelling"
+      ]
+    },
+    {
+      "id": "L2-S2-27",
+      "kind": "place",
+      "value": "meeting room between the children's library and the lift",
+      "quote": "Between the children's library and the lift there's a small room we're calling the meeting room.",
+      "turn_index": 7,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "plan_map_diagram_labelling"
+      ]
+    },
+    {
       "id": "L2-S2-18",
       "kind": "price",
       "value": "8 pounds an hour",
@@ -305,6 +329,18 @@
       "suggested_types": [
         "table_completion",
         "short_answer"
+      ]
+    },
+    {
+      "id": "L2-S2-28",
+      "kind": "place",
+      "value": "computer suite behind the fiction shelves",
+      "quote": "behind the fiction shelves, you'll find the computer suite",
+      "turn_index": 7,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "plan_map_diagram_labelling"
       ]
     },
     {

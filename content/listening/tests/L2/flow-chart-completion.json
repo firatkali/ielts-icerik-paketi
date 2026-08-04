@@ -1,0 +1,102 @@
+{
+  "schema_version": "1.0",
+  "set_id": "L2-flow-chart-completion",
+  "skill": "listening",
+  "test_id": "L2",
+  "section": 4,
+  "practice": false,
+  "script_id": "L2-S4",
+  "question_type": "flow_chart_completion",
+  "generated_by": "opus",
+  "instructions": "Complete the flow-chart below. Write NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+  "word_limit": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
+  "options": null,
+  "visual": null,
+  "stem_block": "HOW AN UNDERGROUND CHANNEL WAS BUILT AND USED\n\nFind the point where the high ground meets the plain — rain that fell on\nthe hills is lying in (31) ........ under the surface\n↓\nSink a well down to that water\n↓\nFrom out on the plain, dig a tunnel back towards the well, rising at\nroughly one in a (32) ........\n↓\nSink vertical shafts along the line of the tunnel — they take out the\nspoil, bring in air and, above all, allow (33) ........\n↓\nThe water reaches the surface under its own weight; under (34) ........\nper cent of it is lost on the way\n↓\nThe flow cannot be switched off, so the channel ends in a (35) ........",
+  "table": null,
+  "items": [
+    {
+      "number": 31,
+      "prompt": "rain that fell on the hills is lying in (31) ........ under the surface",
+      "answer": [
+        "gravel"
+      ],
+      "accepted_variants": [
+        "gravel"
+      ],
+      "evidence": "rain that fell on high ground sits in gravel below the surface",
+      "answer_point_id": "L2-S4-27",
+      "turn_index": 1,
+      "distractor_used": null,
+      "explanation": "Yamacın ovayla buluştuğu yerde, yüksekte düşen yağmur yüzeyin altındaki çakılda birikiyor.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 32,
+      "prompt": "dig a tunnel back towards the well, rising at roughly one in a (32) ........",
+      "answer": [
+        "thousand"
+      ],
+      "accepted_variants": [
+        "thousand",
+        "1,000",
+        "1000"
+      ],
+      "evidence": "the figure is worth remembering: about one in a thousand",
+      "answer_point_id": "L2-S4-01",
+      "turn_index": 2,
+      "distractor_used": "one in a hundred",
+      "explanation": "Yüzde bir eğim tünelin değil, hava bacalarının rakamıdır; kanalın eğimi binde bir olmalı.",
+      "difficulty": "hard"
+    },
+    {
+      "number": 33,
+      "prompt": "they take out the spoil, bring in air and, above all, allow (33) ........",
+      "answer": [
+        "maintenance"
+      ],
+      "accepted_variants": [
+        "maintenance"
+      ],
+      "evidence": "they give access for maintenance for as long as the system is in use",
+      "answer_point_id": "L2-S4-05",
+      "turn_index": 3,
+      "distractor_used": null,
+      "explanation": "Dikey bacaların üç işlevi var; konuşmacıya göre en önemlisi, sistem kullanıldığı sürece bakıma erişim sağlamaları.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 34,
+      "prompt": "under (34) ........ per cent of it is lost on the way",
+      "answer": [
+        "five"
+      ],
+      "accepted_variants": [
+        "five",
+        "5"
+      ],
+      "evidence": "Losses from an underground channel are under five per cent",
+      "answer_point_id": "L2-S4-10",
+      "turn_index": 4,
+      "distractor_used": null,
+      "explanation": "Açık kanalda kayıp yaklaşık üçte birken, yeraltı kanalında yüzde beşin altında kalıyor.",
+      "difficulty": "easy"
+    },
+    {
+      "number": 35,
+      "prompt": "the channel ends in a (35) ........",
+      "answer": [
+        "holding pond"
+      ],
+      "accepted_variants": [
+        "holding pond"
+      ],
+      "evidence": "almost every system of this type ends in a holding pond",
+      "answer_point_id": "L2-S4-12",
+      "turn_index": 5,
+      "distractor_used": null,
+      "explanation": "Kanal kapatılamadığı için su gece gündüz akıyor; bu yüzden sistemlerin ucunda neredeyse her zaman bir biriktirme havuzu bulunuyor.",
+      "difficulty": "medium"
+    }
+  ]
+}

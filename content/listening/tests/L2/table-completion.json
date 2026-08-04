@@ -1,0 +1,253 @@
+{
+  "schema_version": "1.0",
+  "set_id": "L2-table-completion",
+  "skill": "listening",
+  "test_id": "L2",
+  "section": 1,
+  "practice": false,
+  "script_id": "L2-S1",
+  "question_type": "table_completion",
+  "generated_by": "opus",
+  "instructions": "Complete the table below. Write NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+  "word_limit": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
+  "options": null,
+  "visual": null,
+  "stem_block": null,
+  "table": {
+    "headers": [
+      "",
+      "Details",
+      "Notes"
+    ],
+    "rows": [
+      [
+        "Customer",
+        "Surname: (1) ........",
+        "first name Petra"
+      ],
+      [
+        "Contact",
+        "Mobile: (2) ........",
+        "the best number on the day itself"
+      ],
+      [
+        "Moving from",
+        "Flat 9, Selby Court, (3) ........",
+        "second floor, and no lift"
+      ],
+      [
+        "Moving to",
+        "a three-bedroom house in (4) ........",
+        "about 40 minutes to the north"
+      ],
+      [
+        "Date",
+        "Friday the (5) ........ of October",
+        "quieter roads and a lower price"
+      ],
+      [
+        "Visit to price the job",
+        "Tuesday at (6) ........",
+        "lasts about 20 minutes"
+      ],
+      [
+        "Cost",
+        "£340 without packing",
+        "£(7) ........ if the firm packs as well"
+      ],
+      [
+        "Fragile items",
+        "a (8) ........ is built for them",
+        "e.g. the customer's glass cabinet"
+      ],
+      [
+        "Time needed",
+        "about (9) ........ hours",
+        "longer than usual because of the stairs"
+      ],
+      [
+        "Not carried",
+        "paint, (10) ........ and frozen food",
+        "a rule set by the insurers"
+      ]
+    ]
+  },
+  "items": [
+    {
+      "number": 1,
+      "prompt": "Surname: (1) ........",
+      "answer": [
+        "Haugland"
+      ],
+      "accepted_variants": [
+        "Haugland"
+      ],
+      "evidence": "That's Haugland — H-A-U-G-L-A-N-D.",
+      "answer_point_id": "L2-S1-01",
+      "turn_index": 5,
+      "distractor_used": null,
+      "explanation": "Soyadı ses kaydında harf harf söyleniyor: H-A-U-G-L-A-N-D.",
+      "difficulty": "easy"
+    },
+    {
+      "number": 2,
+      "prompt": "Mobile: (2) ........",
+      "answer": [
+        "07633 441 902"
+      ],
+      "accepted_variants": [
+        "07633 441 902",
+        "07633 441902",
+        "07633441902"
+      ],
+      "evidence": "oh seven six three three, double four one, nine oh two",
+      "answer_point_id": "L2-S1-02",
+      "turn_index": 7,
+      "distractor_used": null,
+      "explanation": "Müşteri taşınma günü için cep numarasını veriyor; 'double four' iki tane dört demek, yani numara 07633 441 902.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 3,
+      "prompt": "Flat 9, Selby Court, (3) ........",
+      "answer": [
+        "Weir Street"
+      ],
+      "accepted_variants": [
+        "Weir Street"
+      ],
+      "evidence": "the postal address is Weir Street",
+      "answer_point_id": "L2-S1-03",
+      "turn_index": 9,
+      "distractor_used": "Selby Lane",
+      "explanation": "Mahallede herkes Selby Lane dese de orası yandaki patika; posta adresi Weir Street.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 4,
+      "prompt": "a three-bedroom house in (4) ........",
+      "answer": [
+        "Ashcombe"
+      ],
+      "accepted_variants": [
+        "Ashcombe"
+      ],
+      "evidence": "A place called Ashcombe.",
+      "answer_point_id": "L2-S1-06",
+      "turn_index": 13,
+      "distractor_used": null,
+      "explanation": "Taşınılacak yer, kuzeyde yaklaşık kırk dakika uzaklıktaki Ashcombe adlı yerleşim.",
+      "difficulty": "easy"
+    },
+    {
+      "number": 5,
+      "prompt": "Friday the (5) ........ of October",
+      "answer": [
+        "second"
+      ],
+      "accepted_variants": [
+        "second",
+        "2nd",
+        "2"
+      ],
+      "evidence": "the Friday — the second — is quieter and it's cheaper",
+      "answer_point_id": "L2-S1-08",
+      "turn_index": 18,
+      "distractor_used": "third",
+      "explanation": "Müşterinin aklında ayın üçü, cumartesi vardı; görevli bir gün öncesini, yani cuma ikisini öneriyor ve müşteri kabul ediyor.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 6,
+      "prompt": "Tuesday at (6) ........",
+      "answer": [
+        "11.00"
+      ],
+      "accepted_variants": [
+        "11.00",
+        "11:00",
+        "11",
+        "11 am",
+        "11.00 am",
+        "eleven",
+        "11 o'clock",
+        "eleven o'clock"
+      ],
+      "evidence": "The next one free is Tuesday at eleven.",
+      "answer_point_id": "L2-S1-10",
+      "turn_index": 22,
+      "distractor_used": "10.30",
+      "explanation": "Görevli önce salı 10.30'u söylüyor, sonra o saatin dolduğunu fark ediyor; keşif ziyareti salı saat 11'e alınıyor.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 7,
+      "prompt": "£(7) ........ if the firm packs as well",
+      "answer": [
+        "410"
+      ],
+      "accepted_variants": [
+        "410",
+        "£410",
+        "410 pounds"
+      ],
+      "evidence": "That takes it to four hundred and ten.",
+      "answer_point_id": "L2-S1-12",
+      "turn_index": 26,
+      "distractor_used": null,
+      "explanation": "İki adam ve büyük araçla taşıma 340 pound; paketlemeyi de şirket yaparsa fiyat 410 pounda çıkıyor.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 8,
+      "prompt": "a (8) ........ is built for them",
+      "answer": [
+        "wooden crate"
+      ],
+      "accepted_variants": [
+        "wooden crate",
+        "crate"
+      ],
+      "evidence": "We build a wooden crate for anything of that sort.",
+      "answer_point_id": "L2-S1-14",
+      "turn_index": 29,
+      "distractor_used": "blankets",
+      "explanation": "Kırılacak eşyalar battaniyeye sarılmıyor; bu tür parçalar için ahşap sandık yapılıyor.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 9,
+      "prompt": "about (9) ........ hours",
+      "answer": [
+        "six"
+      ],
+      "accepted_variants": [
+        "six",
+        "6"
+      ],
+      "evidence": "With your stairs at one end, call it six.",
+      "answer_point_id": "L2-S1-15",
+      "turn_index": 31,
+      "distractor_used": "five",
+      "explanation": "Bu büyüklükte bir iş normalde beş saat sürüyor; asansörsüz ikinci kat yüzünden süre altı saate çıkıyor.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 10,
+      "prompt": "paint, (10) ........ and frozen food",
+      "answer": [
+        "aerosols"
+      ],
+      "accepted_variants": [
+        "aerosols",
+        "aerosol"
+      ],
+      "evidence": "no paint, no aerosols and nothing out of the freezer",
+      "answer_point_id": "L2-S1-21",
+      "turn_index": 39,
+      "distractor_used": null,
+      "explanation": "Sigorta kuralı gereği boya, aerosol kutuları ve dondurulmuş gıda araca alınmıyor.",
+      "difficulty": "easy"
+    }
+  ]
+}

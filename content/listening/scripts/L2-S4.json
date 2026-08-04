@@ -81,6 +81,19 @@
   ],
   "answer_points": [
     {
+      "id": "L2-S4-27",
+      "kind": "place",
+      "value": "water sitting in gravel below the surface",
+      "quote": "rain that fell on high ground sits in gravel below the surface",
+      "turn_index": 1,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "flow_chart_completion",
+        "short_answer"
+      ]
+    },
+    {
       "id": "L2-S4-01",
       "kind": "number",
       "value": "one in a thousand",
