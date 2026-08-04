@@ -1253,3 +1253,117 @@ Bu dosyaya her oturumda alınan kararlar, atlanan işler ve karşılaşılan sor
   senaryo taklit edilmedi (referanslardaki ikinci el mobilya ilanı, quilt shop turu, öğrenci
   sebatı anketi, tez görüşmesi ve moda şirketi sunumu konularının hiçbiri kullanılmadı).
 - Atlanan/sorun: yok. **OPUS5-20'de 6 testten 2'si tamam;** kalan L3, L4, L5, L6.
+
+## OPUS5-20 (3. çalıştırma: L3 — dört bölümün senaryo metni)
+
+- Tarih: 2026-08-04
+- Depo kontrolü: `content/listening/scripts/` altında `L1-S1…S4` ve `L2-S1…S4` vardı →
+  çalıştırma listesindeki ilk üretilmemiş grup **L3** idi, o yapıldı. Bu oturumda da **soru
+  üretilmedi** (promptun kuralı); 40 soru sonradan `OPUS5-21` ve `FABLE5-43` tarafından bu
+  metinlerden çıkarılacak.
+- Üretilen dosyalar: `content/listening/scripts/L3-S1.json` … `L3-S4.json`.
+
+### L3 — konu, aksan, kelime sayısı (sonraki testlerde TEKRAR EDİLMEYECEK)
+
+| Bölüm | Konu (havuzdaki karşılığı) | Ortam | Aksanlar | Kelime | Bilgi noktası | Çeldirici |
+|---|---|---|---|---|---|---|
+| 1 | **spor salonu üyeliği** — spor merkezi kayıt masasında yüz yüze üyelik | 2 kişi | F1 `en-AU` + M1 `en-GB` | 773 | 25 | 6 |
+| 2 | **doğa yürüyüşü rotaları** — Stonecrop kır parkında üç yeni rota + park haritası | 1 kişi | M1 `en-GB` | 876 | 34 | 4 |
+| 3 | **staj değerlendirmesi** — iki öğrenci + danışman, staj sonrası teslimler | 3 kişi | F1 `en-AU` + M1 `en-CA` + F2 `en-GB` | 945 | 30 | 4 |
+| 4 | **tohum bankaları** — akademik ders | 1 kişi | F1 `en-CA` | 949 | 26 | 4 |
+
+  ⚠️ **L4–L6 için:** L1 (yaz kampı kaydı · yeni bir müze · grup sunumu planlama · kentsel
+  tarım), L2 (taşınma şirketi · kütüphane yenilemesi · saha araştırması raporu · antik su
+  sistemleri) ve yukarıdaki dört konu bir daha kullanılmayacak. **Havuzda kalan:**
+  1. bölüm — araç kiralama, konaklama başvurusu, kayıp eşya bildirimi, sağlık merkezi
+  randevusu, bisiklet turu rezervasyonu; 2. bölüm — toplum bahçesi projesi, gönüllü programı,
+  yerel çiftlik pazarı, geri dönüşüm merkezi, festival programı; 3. bölüm — tez konusu seçimi,
+  laboratuvar deneyi sonucu, anket tasarımı, kaynak taraması, poster hazırlığı; 4. bölüm —
+  uyku ve hafıza, deniz plastikleri, davranışsal ekonomi, gürültü kirliliği, yapay ışık ve
+  doğa. Havuzda **tam beşer konu kaldı, üç test kaldı** — sıkışıklık yok.
+  4. bölüm aksanı döngüsü: **L4 `en-GB`, L5 `en-AU`, L6 `en-CA`.**
+  ⚠️ 3. bölüm için ayrıca: **"tez konusu seçimi" seçilirse dikkat** — referans
+  `multiple-choice-one-answer` transkripti tam olarak bir tez görüşmesi sahnesi; o konuyu
+  yaparken sahne, disiplin ve akış belirgin biçimde farklı kurulmalı.
+- **Şema:** L1'de kararlaştırılan düzen aynen sürdürüldü — `turn_index_base: 0`, her
+  `answer_points` kaydında ek `speaker` alanı, `speakers[]` içinde hem `accent` hem `voice`
+  (değerleri birebir aynı). Aksan–cinsiyet eşlemesi yine değiştirildi (1. bölümde bu kez
+  görevli `en-AU` kadın / müşteri `en-GB` erkek; 3. bölümde öğrenciler `en-AU` kadın +
+  `en-CA` erkek, danışman `en-GB` kadın; 4. bölümde ilk kez kadın anlatıcı) — altı testin
+  seslendirmede hep aynı ses dizilimiyle çıkmaması için.
+- **3. bölüm bu kez üç konuşmacılı ama iki öğrenci + bir danışman kurgusuyla**, L1/L2'deki
+  "iki öğrenci aynı işi planlıyor" düzeninden farklı olarak **iki ayrı stajın**
+  karşılaştırılması üzerine kuruldu; böylece görüş ayrımı doğal olarak çıkıyor.
+- **Çeldirici (distractor) düzeltmeleri** — bölüm başına en az 3 şartı karşılandı:
+  - S1 (6): adres (flat two → flat nine), off-peak saati (beş → dört), ödeme günü (ayın on
+    beşi → ayın biri), induction süresi (bir saat → kırk dakika), induction günü (Perşembe
+    dolu → Cuma), buluşma yeri (spor salonu girişi → kayıt masası).
+  - S2 (4): mavi rota uzunluğu (beş mil → dört buçuk mil), tahta yolun açılışı (mayıs sonu →
+    haziran ortası), rehberli yürüyüş günü (ayın ilk Cumartesi → ilk Pazar), çalılık temizleme
+    günü (Perşembe → Salı).
+  - S3 (4): rapor kelime sınırı (dört bin → üç bin beş yüz), sunum süresi (on beş → on iki
+    dakika), teslim tarihi (on üç → yirmi Kasım), günlüğün teslim biçimi (ayrı belge → rapora
+    ek).
+  - S4 (4): örnekleme (otuz bitki → elli bitki), depolama sıcaklığı (eksi on sekiz → eksi
+    yirmi), çimlenme eşiği (yüzde yetmiş beş → yüzde seksen beş), yeniden test aralığı (beş
+    yıl → on yıl).
+- **S2 `spatial_description`:** bu kez `kind: "map"` (L1 ve L2'de `plan` idi — bina değil,
+  açık alan tarif ediliyor). 12 öğe: main entrance, visitor centre, car park, toilets,
+  information hut, picnic area, bird hide, pond-dipping platform, lime kiln, wildflower
+  meadow, viewpoint, boardwalk. Tarif 5–9. repliklerde; `immediately on your left` ·
+  `opposite` · `at the back of` · `straight ahead of you` · `between … and …` · `next to` ·
+  `beyond` · `at the far end` · `above` yön belirteçleriyle.
+- **S3 görüş ayrımı (üç kişi, üç eksende ayrışıyor):**
+  - *Stajın en değerli yanı:* Tamsin (F1) sakinler toplantılarına oturmak; Corin (M1) kendi
+    başına verilen sayım verisi işi (toplantıları "slayt okuma" diye eliyor).
+  - *Günlük sıklığı:* Tamsin iki haftada bir; Corin haftalık; danışman (F2) haftalık ama
+    yüz kelimelik kısa girdiler.
+  - *Rapor yapısı:* Tamsin kronolojik; Corin beceri temelli; danışman Corin'in yapısını
+    seçiyor, Tamsin'e uzlaşma olarak başa bir sayfalık zaman çizelgesi koyduruyor.
+  Her üç konuşmacının görüşü de `answer_points` içinde `kind: opinion` ile işaretli
+  (toplam 9 görüş kaydı) — eşleştirme ve çoktan seçmeli için fazlasıyla malzeme var.
+- **Doğrulama:** L1/L2'deki iki betikli düzen tekrarlandı, ikisi de iş bitince silindi.
+  - `tools/_l3_uret.py` (üretici): `turn_index` değerlerini elle yazmak yerine her `quote`u
+    repliklerde arayarak hesapladı; alıntı hiç geçmiyorsa ya da birden çok replikte geçiyorsa
+    üretimi durdurdu. Kelime sayısı ve `estimated_minutes` (kelime/150) burada hesaplandı.
+  - `tools/_l3_kontrol.py` (denetleyici): L2'deki denetim listesinin aynısı — JSON
+    geçerliliği, zorunlu alanlar, kimlik tutarlılığı, gerçek kelime sayısının aralıkta olması
+    ve `word_count` ile uyuşması, `estimated_minutes` doğruluğu, konuşmacı kodlarının tanımlı
+    ve hepsinin kullanılmış olması, `accent`/`voice` eşitliği, aksan dağılımının tablodaki
+    gibi olması, `answer_points` sayısı (≥15), `distractor` sayısı (≥3), id tekrarı, her
+    alıntının kendi repliğinde birebir ve metnin tamamında **tek** geçmesi, `speaker`
+    alanının replikle uyuşması, `kind` değerlerinin izinli listede olması, bilgi noktalarının
+    metne yayılması (her çeyrekte en az 2), S2'de plan öğesi sayısı + yön belirteçleri + her
+    etiketin metinde geçmesi, S1/S3/S4'te `spatial_description`ın boş olması, S3'te en az iki
+    konuşmacıdan ayrı görüş, S1'de harf harf söyleme, "IELTS" geçmemesi, kelime sınırlı
+    Amerikan yazımı taraması ve metinde rakam bulunmaması. **İlk turda hata 0.**
+  - İlk taslakta S2 (968), S3 (958) ve S4 (1061) hedefin üstündeydi; bilgi noktası taşımayan
+    süs cümleleri budanarak aralığa çekildi (876 / 945 / 949). **Hiçbir `answer_point`
+    elenmedi** — budama yalnız cevap taşımayan betimleyici cümlelerde yapıldı (en büyük
+    budama S4'te: giriş, örnekleme ve yeniden üretim paragrafları sıkıştırıldı, dersin
+    "solan fotoğraf" benzetmesi korundu).
+  - Ardından `python tools/dogrula.py`: **şema hatası 0**, pasaj lisansı eksik 0, görünür
+    metinde IELTS 0, yasak kaynak 0. ("L3 0/40 EKSIK" satırı beklenen durumdur.)
+- **Yazım/telif kararları:** İngiliz İngilizcesi — metinde geçen ayırt edici biçimler
+  `centre`, `programme`, `colour-coded`, `modelling`, `towards`, `neighbouring`. Amerikan
+  karşılıkları (`center`, `program`, `color`, `analyze`, `meter`, `toward`, `behavior` vb.
+  46 kelimelik liste) kelime sınırlı düzenli ifadeyle tarandı, hiçbiri geçmiyor. Metinde **hiç rakam yok**;
+  sayılar konuşulduğu gibi yazıldı (`nineteen sixty-eight`, `oh seven eight two, double one
+  four, six oh nine`, `minus a hundred and ninety-six`, `a mile and a half`). 1. bölümde harf
+  harf söyleme bir kez var (`Kirkegaard — K-I-R-K-E-G-A-A-R-D`). Bütün kişi/kurum/yer adları
+  uydurma (Quarry Fields, Adam Kirkegaard, Pennyfield Court/Road, Stonecrop Country Park,
+  Cranmore Road, Redgate Housing Trust, Pelham Analytics, Tamsin, Corin). 4. bölümde
+  **hiçbir gerçek tohum bankası, kurum ya da ülke adı anılmadı**; din, siyaset, savaş,
+  hastalık, kişisel dram yok.
+- ℹ️ **Bilinçli kabul edilen küçük yankı:** L2-S2'de kütüphanenin "seed library" tohum
+  değişim hizmeti geçiyor, L3-S4 ise bilimsel tohum bankalarını anlatıyor. Farklı testler,
+  farklı bölümler ve tamamen farklı içerik olduğu için konu tekrarı sayılmadı; yine de
+  L4–L6'da tohum/bahçe temasına bir daha girilmemesi iyi olur.
+- **Referans PDF'leri:** dört dinleme transkripti (`note-completion`,
+  `plan-map-diagram-labelling`, `multiple-choice-one-answer`, `short-answer`) bu oturumda da
+  `Read` ile doğrudan açıldı; `ielts-listening-sample-tasks-2023.pdf` yine render
+  gerektirdiği için açılamadı (`referans/text/` klasörü hâlâ yok). Transkriptlerden yalnız
+  konuşma ritmi, duraksama ve bilgi verme hızı alındı; **tek bir replik kopyalanmadı**,
+  sahne/isim/senaryo taklit edilmedi (ikinci el mobilya ilanı, quilt shop turu, tez
+  görüşmesi ve moda şirketi sunumu sahnelerinin hiçbiri kullanılmadı).
+- Atlanan/sorun: yok. **OPUS5-20'de 6 testten 3'ü tamam;** kalan L4, L5, L6.

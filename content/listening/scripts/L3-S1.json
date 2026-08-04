@@ -1,0 +1,510 @@
+{
+  "schema_version": "1.0",
+  "script_id": "L3-S1",
+  "skill": "listening",
+  "test_id": "L3",
+  "section": 1,
+  "generated_by": "opus",
+  "setting": "Bir spor merkezinde uyelik icin gorusme — musteri kayit masasinda",
+  "context_line": "You will hear a man joining a leisure centre and talking to a membership adviser at the reception desk.",
+  "word_count": 773,
+  "estimated_minutes": 5.2,
+  "turn_index_base": 0,
+  "speakers": [
+    {
+      "code": "F1",
+      "role": "uyelik danismani",
+      "gender": "female",
+      "accent": "en-AU",
+      "voice": "en-AU",
+      "age_band": "25-40",
+      "pace": "normal"
+    },
+    {
+      "code": "M1",
+      "role": "yeni uye olacak musteri",
+      "gender": "male",
+      "accent": "en-GB",
+      "voice": "en-GB",
+      "age_band": "30-45",
+      "pace": "normal"
+    }
+  ],
+  "turns": [
+    {
+      "speaker": "F1",
+      "text": "Good morning — welcome to Quarry Fields. Are you here for a class, or is it something I can help with at the desk?"
+    },
+    {
+      "speaker": "M1",
+      "text": "I'd like to join, if that's still something you do in person. I moved into the area at the end of last month and I keep walking past."
+    },
+    {
+      "speaker": "F1",
+      "text": "We do, and you've picked a good week — the pool reopened on Monday after the resurfacing work. Let me take a few details and then I'll go through the options with you. Can I start with your name?"
+    },
+    {
+      "speaker": "M1",
+      "text": "It's Adam Kirkegaard."
+    },
+    {
+      "speaker": "F1",
+      "text": "Could you spell the surname for me?"
+    },
+    {
+      "speaker": "M1",
+      "text": "Of course. Kirkegaard — K-I-R-K-E-G-A-A-R-D. People usually want to put an S in the middle of it."
+    },
+    {
+      "speaker": "F1",
+      "text": "Thank you. And your address?"
+    },
+    {
+      "speaker": "M1",
+      "text": "Flat two, Pennyfield Court — sorry, ignore that, that's where I was living before. It's flat nine, Pennyfield Court, and that's on Pennyfield Road."
+    },
+    {
+      "speaker": "F1",
+      "text": "Flat nine. And a telephone number, ideally a mobile."
+    },
+    {
+      "speaker": "M1",
+      "text": "Oh seven eight two, double one four, six oh nine."
+    },
+    {
+      "speaker": "F1",
+      "text": "Lovely. Now, there are two kinds of membership. The full one is thirty-eight pounds a month and gets you in whenever we're open. The off-peak one is twenty-six, and that's weekdays only, before four in the afternoon."
+    },
+    {
+      "speaker": "M1",
+      "text": "Before five, I thought — that's what the poster outside says."
+    },
+    {
+      "speaker": "F1",
+      "text": "Ah, the poster is out of date, I'm afraid. It was five until the spring, but it's four now. I'll ask somebody to change it."
+    },
+    {
+      "speaker": "M1",
+      "text": "Four is no good for me — I don't finish work until half past five. I'd better take the full one."
+    },
+    {
+      "speaker": "F1",
+      "text": "That's fine. There's usually a joining fee of twenty pounds on top, but we're not charging it this month, so you've saved yourself that. Are you a student, by any chance?"
+    },
+    {
+      "speaker": "M1",
+      "text": "Not any more, sadly."
+    },
+    {
+      "speaker": "F1",
+      "text": "I only ask because students and anyone over sixty-five get a fifth off, and I'd hate for you to pay more than you need to. Right — payment. It comes out by direct debit on the first of the month."
+    },
+    {
+      "speaker": "M1",
+      "text": "Somebody at work told me it went out in the middle of the month."
+    },
+    {
+      "speaker": "F1",
+      "text": "It did, the fifteenth, but everyone moved over to the first in January. And there's no minimum contract any more — you just give us a month's notice in writing if you want to stop."
+    },
+    {
+      "speaker": "M1",
+      "text": "That's better than I expected. What about the gym itself — can I simply walk in?"
+    },
+    {
+      "speaker": "F1",
+      "text": "Not the first time. Everybody has to do an induction before they use the gym floor. One of the instructors takes you round the machines and sets up a programme for you. It takes about forty minutes."
+    },
+    {
+      "speaker": "M1",
+      "text": "I was told an hour."
+    },
+    {
+      "speaker": "F1",
+      "text": "It was an hour when the fitness test was part of it. That's a separate appointment now, so the induction itself is shorter. When would suit you?"
+    },
+    {
+      "speaker": "M1",
+      "text": "Is there anything on Thursday evening?"
+    },
+    {
+      "speaker": "F1",
+      "text": "Thursday is fully booked, I'm sorry to say. I could do Friday at quarter to seven, or Saturday morning at ten."
+    },
+    {
+      "speaker": "M1",
+      "text": "Friday, please."
+    },
+    {
+      "speaker": "F1",
+      "text": "Friday it is. Bring a towel and a pair of indoor trainers — the studio floor was relaid over the summer, and we can't let anyone onto it in shoes that have been worn outside."
+    },
+    {
+      "speaker": "M1",
+      "text": "Understood. Do I need to bring a photograph?"
+    },
+    {
+      "speaker": "F1",
+      "text": "No, we take it here at the desk. Your card gets posted out within ten days; until it arrives, just give your name and we'll find you on the system."
+    },
+    {
+      "speaker": "M1",
+      "text": "And classes — how far ahead can I book?"
+    },
+    {
+      "speaker": "F1",
+      "text": "Seven days, and the booking opens at six in the morning. The popular ones go within a few minutes, so it's worth setting an alarm. It's all done through the website or the app; we stopped taking bookings over the telephone."
+    },
+    {
+      "speaker": "M1",
+      "text": "What else is here, besides the pool and the gym?"
+    },
+    {
+      "speaker": "F1",
+      "text": "A sports hall, two squash courts, a studio, and a climbing wall — although the climbing wall is shut at the moment while the holds are replaced. That reopens at the end of April."
+    },
+    {
+      "speaker": "M1",
+      "text": "I might try the squash. One more thing — the car park. Am I going to come back to a ticket on the windscreen?"
+    },
+    {
+      "speaker": "F1",
+      "text": "Not if you type your registration into the tablet by the entrance. That gives you three hours free. And the lockers don't take coins any more, so don't stand there hunting for change the way everybody else does — you set your own code."
+    },
+    {
+      "speaker": "M1",
+      "text": "That's everything, I think. Thank you."
+    },
+    {
+      "speaker": "F1",
+      "text": "You're welcome. I'll print the direct debit form and you can sign it now. And on Friday come to this desk rather than to the gym entrance, because the instructor collects you from here."
+    }
+  ],
+  "answer_points": [
+    {
+      "id": "L3-S1-01",
+      "kind": "name",
+      "value": "Kirkegaard",
+      "quote": "Kirkegaard — K-I-R-K-E-G-A-A-R-D",
+      "turn_index": 5,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "form_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L3-S1-02",
+      "kind": "address",
+      "value": "flat 9, Pennyfield Court",
+      "quote": "It's flat nine, Pennyfield Court",
+      "turn_index": 7,
+      "speaker": "M1",
+      "distractor": "flat 2",
+      "suggested_types": [
+        "form_completion",
+        "note_completion"
+      ]
+    },
+    {
+      "id": "L3-S1-03",
+      "kind": "address",
+      "value": "Pennyfield Road",
+      "quote": "and that's on Pennyfield Road",
+      "turn_index": 7,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "form_completion"
+      ]
+    },
+    {
+      "id": "L3-S1-04",
+      "kind": "number",
+      "value": "07821 146 09 (mobile)",
+      "quote": "Oh seven eight two, double one four, six oh nine.",
+      "turn_index": 9,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "form_completion"
+      ]
+    },
+    {
+      "id": "L3-S1-05",
+      "kind": "price",
+      "value": "38 pounds a month (full)",
+      "quote": "The full one is thirty-eight pounds a month",
+      "turn_index": 10,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "form_completion",
+        "table_completion"
+      ]
+    },
+    {
+      "id": "L3-S1-06",
+      "kind": "price",
+      "value": "26 pounds a month (off-peak)",
+      "quote": "The off-peak one is twenty-six",
+      "turn_index": 10,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "table_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L3-S1-07",
+      "kind": "time",
+      "value": "off-peak ends at 4 p.m.",
+      "quote": "It was five until the spring, but it's four now.",
+      "turn_index": 12,
+      "speaker": "F1",
+      "distractor": "5 p.m.",
+      "suggested_types": [
+        "table_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L3-S1-08",
+      "kind": "price",
+      "value": "20 pounds joining fee, waived this month",
+      "quote": "There's usually a joining fee of twenty pounds on top, but we're not charging it this month",
+      "turn_index": 14,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "note_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L3-S1-09",
+      "kind": "rule",
+      "value": "a fifth off for students and the over-65s",
+      "quote": "students and anyone over sixty-five get a fifth off",
+      "turn_index": 16,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "sentence_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L3-S1-10",
+      "kind": "date",
+      "value": "direct debit on the 1st of the month",
+      "quote": "It comes out by direct debit on the first of the month",
+      "turn_index": 16,
+      "speaker": "F1",
+      "distractor": "the 15th",
+      "suggested_types": [
+        "form_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L3-S1-11",
+      "kind": "rule",
+      "value": "one month's notice in writing to leave",
+      "quote": "you just give us a month's notice in writing",
+      "turn_index": 18,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "sentence_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L3-S1-12",
+      "kind": "rule",
+      "value": "induction required before using the gym floor",
+      "quote": "Everybody has to do an induction before they use the gym floor",
+      "turn_index": 20,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "note_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L3-S1-13",
+      "kind": "duration",
+      "value": "40 minutes",
+      "quote": "It takes about forty minutes.",
+      "turn_index": 20,
+      "speaker": "F1",
+      "distractor": "an hour",
+      "suggested_types": [
+        "form_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L3-S1-14",
+      "kind": "reason",
+      "value": "the fitness test is now a separate appointment",
+      "quote": "That's a separate appointment now, so the induction itself is shorter",
+      "turn_index": 22,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "multiple_choice",
+        "sentence_completion"
+      ]
+    },
+    {
+      "id": "L3-S1-15",
+      "kind": "time",
+      "value": "Friday at 6.45",
+      "quote": "I could do Friday at quarter to seven",
+      "turn_index": 24,
+      "speaker": "F1",
+      "distractor": "Thursday evening",
+      "suggested_types": [
+        "form_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L3-S1-16",
+      "kind": "object",
+      "value": "a towel and indoor trainers",
+      "quote": "Bring a towel and a pair of indoor trainers",
+      "turn_index": 26,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "note_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L3-S1-17",
+      "kind": "reason",
+      "value": "the studio floor was relaid, so no outdoor shoes",
+      "quote": "the studio floor was relaid over the summer",
+      "turn_index": 26,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "multiple_choice",
+        "sentence_completion"
+      ]
+    },
+    {
+      "id": "L3-S1-18",
+      "kind": "rule",
+      "value": "the photograph is taken at the desk",
+      "quote": "we take it here at the desk",
+      "turn_index": 28,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "multiple_choice",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L3-S1-19",
+      "kind": "duration",
+      "value": "card posted within 10 days",
+      "quote": "Your card gets posted out within ten days",
+      "turn_index": 28,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "form_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L3-S1-20",
+      "kind": "rule",
+      "value": "classes bookable 7 days ahead, from 6 a.m.",
+      "quote": "Seven days, and the booking opens at six in the morning",
+      "turn_index": 30,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "note_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L3-S1-21",
+      "kind": "limitation",
+      "value": "no bookings by telephone",
+      "quote": "we stopped taking bookings over the telephone",
+      "turn_index": 30,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "multiple_choice",
+        "sentence_completion"
+      ]
+    },
+    {
+      "id": "L3-S1-22",
+      "kind": "limitation",
+      "value": "climbing wall shut until the end of April",
+      "quote": "That reopens at the end of April.",
+      "turn_index": 32,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "note_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L3-S1-23",
+      "kind": "duration",
+      "value": "3 hours free parking",
+      "quote": "That gives you three hours free.",
+      "turn_index": 34,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "form_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L3-S1-24",
+      "kind": "rule",
+      "value": "lockers need a code, not a coin",
+      "quote": "you set your own code",
+      "turn_index": 34,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "multiple_choice",
+        "sentence_completion"
+      ]
+    },
+    {
+      "id": "L3-S1-25",
+      "kind": "place",
+      "value": "meet at the reception desk",
+      "quote": "come to this desk rather than to the gym entrance",
+      "turn_index": 36,
+      "speaker": "F1",
+      "distractor": "the gym entrance",
+      "suggested_types": [
+        "multiple_choice",
+        "short_answer"
+      ]
+    }
+  ],
+  "spatial_description": null,
+  "notes": "turn_index degerleri 0 tabanlidir. Bes celdirici duzeltme var: adres (flat two -> flat nine), off-peak saati (bes -> dort), odeme gunu (ayin on besi -> ayin biri), induction suresi (bir saat -> kirk dakika), induction gunu (Persembe -> Cuma). Harf harf soyleme bir kez var (Kirkegaard). Metinde rakam yok."
+}

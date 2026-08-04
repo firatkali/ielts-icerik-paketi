@@ -1,0 +1,566 @@
+{
+  "schema_version": "1.0",
+  "script_id": "L3-S3",
+  "skill": "listening",
+  "test_id": "L3",
+  "section": 3,
+  "generated_by": "opus",
+  "setting": "Staj sonrasi degerlendirme gorusmesi — iki ogrenci ve danisman ogretim uyesi",
+  "context_line": "You will hear two students discussing their completed work placements with their tutor.",
+  "word_count": 945,
+  "estimated_minutes": 6.3,
+  "turn_index_base": 0,
+  "speakers": [
+    {
+      "code": "F1",
+      "role": "ogrenci (Tamsin)",
+      "gender": "female",
+      "accent": "en-AU",
+      "voice": "en-AU",
+      "age_band": "20-25",
+      "pace": "normal"
+    },
+    {
+      "code": "M1",
+      "role": "ogrenci (Corin)",
+      "gender": "male",
+      "accent": "en-CA",
+      "voice": "en-CA",
+      "age_band": "20-25",
+      "pace": "normal"
+    },
+    {
+      "code": "F2",
+      "role": "danisman ogretim uyesi",
+      "gender": "female",
+      "accent": "en-GB",
+      "voice": "en-GB",
+      "age_band": "40-60",
+      "pace": "normal"
+    }
+  ],
+  "turns": [
+    {
+      "speaker": "F2",
+      "text": "Right — you're both back from your placements, so this is the meeting where we work out what you have to hand in and when. Tamsin, you were at the housing trust, weren't you?"
+    },
+    {
+      "speaker": "F1",
+      "text": "Redgate Housing Trust, yes. Six weeks, four days a week — I kept Fridays for the reading."
+    },
+    {
+      "speaker": "F2",
+      "text": "And Corin, you were with the transport consultancy."
+    },
+    {
+      "speaker": "M1",
+      "text": "Pelham Analytics. Eight weeks in the end, because they asked me to stay on for the last fortnight and I said yes."
+    },
+    {
+      "speaker": "F2",
+      "text": "Which is fine for the module — anything over six weeks counts the same. Let's start with what was actually useful, because that is what the report has to be about. Tamsin?"
+    },
+    {
+      "speaker": "F1",
+      "text": "Honestly, the most valuable part was being allowed to sit in on the residents' meetings. I didn't say a word for the first three, but you learn more about how a decision really gets made in one of those than in a whole term of lectures. They gave me a project as well, a leaflet, but I could have done that at home."
+    },
+    {
+      "speaker": "M1",
+      "text": "See, I'd say the opposite. The meetings I went to were mostly people reading slides at one another. What made the difference for me was being handed something of my own — they gave me part of the cycle-count data and asked me to work out why two of the counters disagreed."
+    },
+    {
+      "speaker": "F1",
+      "text": "And did you?"
+    },
+    {
+      "speaker": "M1",
+      "text": "One of them had been knocked out of line by a lorry, which nobody had noticed for about five months. But the point is that it was mine — if I had got it wrong, it would have gone out in something they were going to publish."
+    },
+    {
+      "speaker": "F2",
+      "text": "That's a useful disagreement, and it's worth putting into your reports rather than smoothing it over. Now — the assessment. There are three pieces: the log book, the reflective report and a presentation. The report is three thousand five hundred words this year."
+    },
+    {
+      "speaker": "F1",
+      "text": "The handbook says four thousand."
+    },
+    {
+      "speaker": "F2",
+      "text": "The handbook you have is last year's. It came down to three thousand five hundred when we added the presentation, and there's a ten per cent margin either way. Don't go hunting for the extra five hundred words."
+    },
+    {
+      "speaker": "M1",
+      "text": "And the log book — does that carry a mark of its own?"
+    },
+    {
+      "speaker": "F2",
+      "text": "No, it's pass or fail, but you can't pass the module without it. One entry a week, signed by your workplace supervisor. It used to be handed in separately; this year it goes in as an appendix."
+    },
+    {
+      "speaker": "F1",
+      "text": "Can I say something about the log book? Weekly was too often. By the fourth week I was writing the same three sentences, and it stopped being honest. Fortnightly would have been better."
+    },
+    {
+      "speaker": "M1",
+      "text": "I'd keep it weekly. When I came to write the report I couldn't remember which week anything had happened in, and the log was the only thing that told me."
+    },
+    {
+      "speaker": "F2",
+      "text": "I'll take that to the module meeting. My own view is that weekly is right but the entries have grown too long — a hundred words is plenty, and nobody needs a narrative. Now, structure. How were you each planning to organise the report?"
+    },
+    {
+      "speaker": "F1",
+      "text": "Week by week. Start at the beginning and go through to the end — it's what happened, so it's easy to follow."
+    },
+    {
+      "speaker": "M1",
+      "text": "Mine won't work like that. I'd rather do it by skill — a section on the data work, a section on writing for a client, a section on working in a team — because the same skill turns up again in the second week and the seventh, and chronological order splits it up."
+    },
+    {
+      "speaker": "F2",
+      "text": "Corin's structure is the one I'd recommend, and it's the one that reads better at the top of the mark range, because it forces you to compare rather than narrate. Tamsin, if you're worried about losing the story, put a one-page timeline at the front as a figure. That doesn't count towards the word limit."
+    },
+    {
+      "speaker": "F1",
+      "text": "That solves it, thank you."
+    },
+    {
+      "speaker": "F2",
+      "text": "The other thing that separates a good report from a middling one is evidence. Don't tell me you got better at explaining technical material — show me the thing you wrote in your first week and the thing you wrote in your last one, and let them speak."
+    },
+    {
+      "speaker": "M1",
+      "text": "Are we allowed to include work we did for them? Some of it isn't published yet."
+    },
+    {
+      "speaker": "F2",
+      "text": "Ask your supervisor, and if the answer is no, describe it instead and say why you can't show it. Nobody is penalised for a confidentiality restriction, but you are penalised for ignoring one."
+    },
+    {
+      "speaker": "F1",
+      "text": "And the presentation — how long?"
+    },
+    {
+      "speaker": "F2",
+      "text": "Twelve minutes, and five for questions. It was fifteen minutes until last year, but with the whole cohort presenting we simply ran out of afternoons. Slides are optional, and two of the best ones last year had none at all."
+    },
+    {
+      "speaker": "M1",
+      "text": "What's the deadline?"
+    },
+    {
+      "speaker": "F2",
+      "text": "The report and the log book go in together on the twentieth of November. The original timetable said the thirteenth, so cross that out — the twentieth. And they go through the module page, not by email, because emailed work doesn't generate a receipt."
+    },
+    {
+      "speaker": "F1",
+      "text": "Is there a draft stage?"
+    },
+    {
+      "speaker": "F2",
+      "text": "I'll read one section, not the whole thing, and it has to reach me by the sixth of November. Send it as a document rather than as a link, because half the links I was sent last year had expired."
+    },
+    {
+      "speaker": "M1",
+      "text": "One last thing — the reference from the workplace. Do we chase that, or do you?"
+    },
+    {
+      "speaker": "F2",
+      "text": "We do. Your supervisor gets the form directly from the department, so you needn't ask them for anything. What you should do is write and thank them, which isn't assessed and matters more than most of what is."
+    }
+  ],
+  "answer_points": [
+    {
+      "id": "L3-S3-01",
+      "kind": "duration",
+      "value": "Tamsin: 6 weeks, 4 days a week",
+      "quote": "Six weeks, four days a week",
+      "turn_index": 1,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "sentence_completion",
+        "table_completion"
+      ]
+    },
+    {
+      "id": "L3-S3-02",
+      "kind": "place",
+      "value": "Redgate Housing Trust",
+      "quote": "Redgate Housing Trust, yes.",
+      "turn_index": 1,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "matching",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L3-S3-03",
+      "kind": "duration",
+      "value": "Corin: 8 weeks",
+      "quote": "Eight weeks in the end",
+      "turn_index": 3,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "table_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L3-S3-04",
+      "kind": "reason",
+      "value": "he was asked to stay on for a further fortnight",
+      "quote": "they asked me to stay on for the last fortnight",
+      "turn_index": 3,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "multiple_choice",
+        "sentence_completion"
+      ]
+    },
+    {
+      "id": "L3-S3-05",
+      "kind": "opinion",
+      "value": "Tamsin: the residents' meetings were the most valuable part",
+      "quote": "the most valuable part was being allowed to sit in on the residents' meetings",
+      "turn_index": 5,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "matching",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L3-S3-06",
+      "kind": "opinion",
+      "value": "Corin: being given a task of his own mattered most",
+      "quote": "What made the difference for me was being handed something of my own",
+      "turn_index": 6,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "matching",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L3-S3-07",
+      "kind": "opinion",
+      "value": "Corin found the meetings he attended unhelpful",
+      "quote": "The meetings I went to were mostly people reading slides at one another",
+      "turn_index": 6,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "matching",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L3-S3-08",
+      "kind": "reason",
+      "value": "a counter had been knocked out of line by a lorry",
+      "quote": "One of them had been knocked out of line by a lorry",
+      "turn_index": 8,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "multiple_choice",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L3-S3-09",
+      "kind": "number",
+      "value": "report: 3,500 words",
+      "quote": "The report is three thousand five hundred words this year.",
+      "turn_index": 9,
+      "speaker": "F2",
+      "distractor": "4,000 words",
+      "suggested_types": [
+        "sentence_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L3-S3-10",
+      "kind": "rule",
+      "value": "10 per cent margin on the word limit",
+      "quote": "there's a ten per cent margin either way",
+      "turn_index": 11,
+      "speaker": "F2",
+      "distractor": null,
+      "suggested_types": [
+        "sentence_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L3-S3-11",
+      "kind": "rule",
+      "value": "the log book is pass or fail",
+      "quote": "it's pass or fail, but you can't pass the module without it",
+      "turn_index": 13,
+      "speaker": "F2",
+      "distractor": null,
+      "suggested_types": [
+        "multiple_choice",
+        "sentence_completion"
+      ]
+    },
+    {
+      "id": "L3-S3-12",
+      "kind": "rule",
+      "value": "one entry a week, signed by the workplace supervisor",
+      "quote": "One entry a week, signed by your workplace supervisor",
+      "turn_index": 13,
+      "speaker": "F2",
+      "distractor": null,
+      "suggested_types": [
+        "note_completion",
+        "sentence_completion"
+      ]
+    },
+    {
+      "id": "L3-S3-13",
+      "kind": "rule",
+      "value": "the log book goes in as an appendix",
+      "quote": "this year it goes in as an appendix",
+      "turn_index": 13,
+      "speaker": "F2",
+      "distractor": "handed in separately",
+      "suggested_types": [
+        "sentence_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L3-S3-14",
+      "kind": "opinion",
+      "value": "Tamsin: the log book should be fortnightly",
+      "quote": "Fortnightly would have been better.",
+      "turn_index": 14,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "matching",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L3-S3-15",
+      "kind": "opinion",
+      "value": "Corin: the log book should stay weekly",
+      "quote": "I'd keep it weekly.",
+      "turn_index": 15,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "matching",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L3-S3-16",
+      "kind": "opinion",
+      "value": "tutor: keep it weekly but make entries shorter",
+      "quote": "a hundred words is plenty, and nobody needs a narrative",
+      "turn_index": 16,
+      "speaker": "F2",
+      "distractor": null,
+      "suggested_types": [
+        "matching",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L3-S3-17",
+      "kind": "opinion",
+      "value": "Tamsin: organise the report chronologically",
+      "quote": "Week by week. Start at the beginning and go through to the end",
+      "turn_index": 17,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "matching",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L3-S3-18",
+      "kind": "opinion",
+      "value": "Corin: organise the report by skill",
+      "quote": "I'd rather do it by skill",
+      "turn_index": 18,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "matching",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L3-S3-19",
+      "kind": "opinion",
+      "value": "tutor: recommends Corin's structure",
+      "quote": "Corin's structure is the one I'd recommend",
+      "turn_index": 19,
+      "speaker": "F2",
+      "distractor": null,
+      "suggested_types": [
+        "matching",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L3-S3-20",
+      "kind": "advantage",
+      "value": "a structure by skill forces comparison rather than narration",
+      "quote": "it forces you to compare rather than narrate",
+      "turn_index": 19,
+      "speaker": "F2",
+      "distractor": null,
+      "suggested_types": [
+        "sentence_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L3-S3-21",
+      "kind": "object",
+      "value": "a one-page timeline as a figure, outside the word limit",
+      "quote": "put a one-page timeline at the front as a figure",
+      "turn_index": 19,
+      "speaker": "F2",
+      "distractor": null,
+      "suggested_types": [
+        "sentence_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L3-S3-22",
+      "kind": "advantage",
+      "value": "evidence: compare early and late pieces of writing",
+      "quote": "show me the thing you wrote in your first week and the thing you wrote in your last one",
+      "turn_index": 21,
+      "speaker": "F2",
+      "distractor": null,
+      "suggested_types": [
+        "sentence_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L3-S3-23",
+      "kind": "rule",
+      "value": "confidential work is described, not shown",
+      "quote": "Nobody is penalised for a confidentiality restriction",
+      "turn_index": 23,
+      "speaker": "F2",
+      "distractor": null,
+      "suggested_types": [
+        "sentence_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L3-S3-24",
+      "kind": "duration",
+      "value": "presentation: 12 minutes plus 5 for questions",
+      "quote": "Twelve minutes, and five for questions.",
+      "turn_index": 25,
+      "speaker": "F2",
+      "distractor": "15 minutes",
+      "suggested_types": [
+        "sentence_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L3-S3-25",
+      "kind": "reason",
+      "value": "shortened because the whole cohort now presents",
+      "quote": "with the whole cohort presenting we simply ran out of afternoons",
+      "turn_index": 25,
+      "speaker": "F2",
+      "distractor": null,
+      "suggested_types": [
+        "multiple_choice",
+        "sentence_completion"
+      ]
+    },
+    {
+      "id": "L3-S3-26",
+      "kind": "date",
+      "value": "hand-in: 20 November",
+      "quote": "The report and the log book go in together on the twentieth of November.",
+      "turn_index": 27,
+      "speaker": "F2",
+      "distractor": "13 November",
+      "suggested_types": [
+        "sentence_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L3-S3-27",
+      "kind": "rule",
+      "value": "submit through the module page, not by email",
+      "quote": "they go through the module page, not by email",
+      "turn_index": 27,
+      "speaker": "F2",
+      "distractor": null,
+      "suggested_types": [
+        "sentence_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L3-S3-28",
+      "kind": "date",
+      "value": "draft section by 6 November",
+      "quote": "it has to reach me by the sixth of November",
+      "turn_index": 29,
+      "speaker": "F2",
+      "distractor": null,
+      "suggested_types": [
+        "sentence_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L3-S3-29",
+      "kind": "rule",
+      "value": "send the draft as a document, not a link",
+      "quote": "Send it as a document rather than as a link",
+      "turn_index": 29,
+      "speaker": "F2",
+      "distractor": null,
+      "suggested_types": [
+        "sentence_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L3-S3-30",
+      "kind": "rule",
+      "value": "the department requests the workplace reference",
+      "quote": "Your supervisor gets the form directly from the department",
+      "turn_index": 31,
+      "speaker": "F2",
+      "distractor": null,
+      "suggested_types": [
+        "multiple_choice",
+        "sentence_completion"
+      ]
+    }
+  ],
+  "spatial_description": null,
+  "notes": "turn_index degerleri 0 tabanlidir. Dort celdirici duzeltme var: rapor kelime siniri (dort bin -> uc bin bes yuz), sunum suresi (on bes -> on iki dakika), teslim tarihi (on uc -> yirmi Kasim), gunlugun teslim bicimi (ayri belge -> rapora ek). Gorus ayrimi: Tamsin toplantilari / kronolojik yapiyi / iki haftada bir gunlugu savunuyor, Corin kendi projesini / beceri temelli yapiyi / haftalik gunlugu savunuyor, danisman beceri temelli yapiyi secip haftalik ama kisa gunluk oneriyor. Metinde rakam yok."
+}
