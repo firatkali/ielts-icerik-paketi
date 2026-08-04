@@ -283,21 +283,122 @@ def uyku_engelle(ac=True):
         pass  # Windows disi ya da izin yok - is akisini bozmasin.
 
 
-def guven_var_mi(yol=None):
-    """Bu klasor Claude'un gozunde 'guvenilir' mi diye bakar.
+GUVEN_ISARETI = os.path.join(KOK, ".guven-ok")
 
-    Guven verilmemisse .claude/settings.json'daki izinler YOK SAYILIYOR. Soru
-    sormayan kipte Claude izin isteyemedigi icin is de yapamaz, sessizce bos doner.
-    Guveni koddan vermiyoruz - onay ekranini atlamak dogru olmaz, kullanici bir kez
-    kendisi onaylar.
+
+def _yol_esit(a, b):
+    """Windows'ta buyuk/kucuk harf ve slash yonu farki yol esitligini bozmasin."""
+    return (os.path.normcase(os.path.normpath(a or "")) ==
+            os.path.normcase(os.path.normpath(b or "")))
+
+
+def guven_kaydi_var_mi(yol=None):
+    """Claude'un ayar dosyasinda bu klasor icin onay kaydi duruyor mu diye bakar.
+
+    Kayit KESIN kanit degil: Claude guncellenince ya da ayar dosyasi sifirlaninca
+    kaybolabiliyor, alanin adi da surumden surume degisebiliyor. Bu yuzden 'hayir'
+    cevabi tek basina programi durdurmaz - asagidaki gercek sinama karar verir.
     """
     import json
     try:
         with open(yol or os.path.expanduser("~/.claude.json"), encoding="utf-8") as f:
             d = json.load(f)
-        return bool(d.get("projects", {}).get(KOK, {}).get("hasTrustDialogAccepted"))
     except Exception:
         return False
+    for anahtar, deger in (d.get("projects") or {}).items():
+        if not _yol_esit(anahtar, KOK):
+            continue
+        if not isinstance(deger, dict):
+            continue
+        # Alan adi surumle degisebilir - icinde 'trust' gecen ne varsa kabul et.
+        for ad, v in deger.items():
+            if "trust" in ad.lower() and v:
+                return True
+    return False
+
+
+def sinama_calisti_mi():
+    """Claude'a en ucuz istegi gonderip gercekten is yapabiliyor mu diye bakar.
+
+    Kayda degil sonuca bakiyoruz: guven verilmemisse Claude bu kipte cevap
+    uretemez, bos ya da hatayla doner. Sonuc olumluysa bir daha sormamak icin
+    isaret dosyasi birakilir (bos yere token harcanmasin).
+    """
+    try:
+        p = subprocess.run('claude -p --model sonnet "Sadece su kelimeyi yaz: HAZIR"',
+                           shell=True, cwd=KOK, capture_output=True, text=True,
+                           timeout=180, errors="replace")
+    except Exception:
+        return False
+    cikti = ((p.stdout or "") + (p.stderr or "")).strip()
+    if p.returncode != 0 or "HAZIR" not in cikti.upper():
+        return False
+    try:
+        with open(GUVEN_ISARETI, "w", encoding="utf-8") as f:
+            f.write(datetime.datetime.now().strftime("%d.%m.%Y %H:%M"))
+    except Exception:
+        pass
+    return True
+
+
+def onay_ekranini_ac():
+    """Onay penceresini programin kendisi acar - kullanicinin komut yazmasi gerekmez.
+
+    Eskiden ekrana 'bu pencerede claude yaz' yaziliyordu ama pencere o sirada tus
+    bekliyordu: basilan tus pencereyi kapatiyor, tarif edilen adim uygulanamiyordu.
+    Simdi Claude ayni pencerede aciliyor, cikinca akis kaldigi yerden suruyor.
+    """
+    print()
+    cizgi("-")
+    print("  TEK SEFERLIK ONAY")
+    print()
+    print("  Simdi Claude acilacak ve bu klasore guvenip guvenmedigini soracak.")
+    print("  Yapman gereken:")
+    print("     1) Cikan soruda guvendigini soyleyen secenegi sec, Enter'a bas.")
+    print("     2) Sonra  /exit  yazip cik.")
+    print("  Cikinca program kendi kendine devam edecek, baska bir sey yapma.")
+    cizgi("-")
+    print()
+    try:
+        input("  Hazir oldugunda Enter'a bas... ")
+    except EOFError:
+        pass
+    try:
+        subprocess.call("claude", shell=True, cwd=KOK)
+    except Exception as e:
+        print("  Claude acilamadi: %s" % e)
+
+
+def guven_hazirla():
+    """Uretime baslamadan once Claude'un calisir durumda oldugundan emin olur.
+
+    Doner: True (devam edilebilir) / False (durulmali).
+    """
+    if os.path.exists(GUVEN_ISARETI) or guven_kaydi_var_mi():
+        return True
+
+    print()
+    print("  Claude hazir mi diye kontrol ediliyor (bir kac saniye)...")
+    if sinama_calisti_mi():
+        return True
+
+    onay_ekranini_ac()
+
+    print()
+    print("  Tekrar kontrol ediliyor...")
+    if sinama_calisti_mi() or guven_kaydi_var_mi():
+        print("  Tamam, devam ediliyor.")
+        return True
+
+    print()
+    cizgi("!")
+    print("  Claude hala calismiyor.")
+    print("  Once giris yapman gerekiyor olabilir. Bu pencerede sunu dene:")
+    print("     claude")
+    print("  Sonra CALISTIR'a tekrar cift tikla.")
+    print("  Duzelmezse Firat'a bu ekranin fotografini at.")
+    cizgi("!")
+    return False
 
 
 def _kabuk(komut, zaman_asimi=60):
@@ -487,19 +588,7 @@ def main():
     print("  IELTS ICERIK URETIMI - OTOMATIK")
     cizgi()
 
-    if not guven_var_mi():
-        print()
-        print("  BIR KERELIK ADIM GEREKIYOR.")
-        print()
-        print("  Bu klasore henuz 'guveniyorum' demedin. Demeden Claude kendi")
-        print("  kendine calisamaz.")
-        print()
-        print("  Yapilacak (1 dakika):")
-        print("    1) Bu pencerede sunu yaz:  claude")
-        print("    2) Cikan soruda guvendigini soyleyen secenegi sec (Enter).")
-        print("    3) Sonra  /exit  yazip cik.")
-        print("    4) CALISTIR'a tekrar cift tikla.")
-        print()
+    if not guven_hazirla():
         return 1
 
     if n >= len(ADIMLAR):
