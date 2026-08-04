@@ -1,0 +1,84 @@
+{
+  "schema_version": "1.0",
+  "set_id": "L6-summary-completion",
+  "skill": "listening",
+  "test_id": "L6",
+  "section": 4,
+  "practice": false,
+  "script_id": "L6-S4",
+  "question_type": "summary_completion",
+  "generated_by": "opus",
+  "instructions": "Complete the summary below. Write ONE WORD AND/OR A NUMBER for each answer.",
+  "word_limit": "ONE WORD AND/OR A NUMBER",
+  "options": null,
+  "visual": null,
+  "stem_block": "NUDGES IN PUBLIC POLICY, AND HOW THEY ARE TESTED\n\nHouseholds behind with a bill were sent a letter saying that most of their neighbours had already paid, and payment rates went up. How far up is disputed: the figure the papers carried came from one pilot in a single town, while the larger trials put the rise at about (37) ........ percentage points. Repeating an intervention across many sites usually leaves an effect only around (38) ........ the size of the one first published, partly because striking results are easier to publish than dull ones, and some effects fade once the novelty has gone. There is also the question of who chooses the default, since that person has interests of their own; what separates help from obstruction is whether the arrangement advances the (39) ........ of the individual concerned. Method matters as well: allocating real customers at random is what shows that the wording caused the difference, and (40) ........ the prediction openly in advance keeps the analysis from being reworked later.",
+  "table": null,
+  "items": [
+    {
+      "number": 37,
+      "prompt": "the larger trials put the rise at about (37) ........ percentage points",
+      "answer": [
+        "five"
+      ],
+      "accepted_variants": [
+        "five",
+        "5"
+      ],
+      "evidence": "Across the larger trials the effect settles at about five percentage points",
+      "answer_point_id": "L6-S4-21",
+      "turn_index": 7,
+      "distractor_used": "fifteen",
+      "explanation": "Gazetelere yansıyan on beş puanlık artış tek bir kasabadaki pilot uygulamadan geliyor; geniş denemelerde etki beş puan civarında kalıyor.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 38,
+      "prompt": "Repeating an intervention across many sites usually leaves an effect only around (38) ........ the size of the one first published",
+      "answer": [
+        "half"
+      ],
+      "accepted_variants": [
+        "half"
+      ],
+      "evidence": "the average effect is often around half of what the original study reported",
+      "answer_point_id": "L6-S4-24",
+      "turn_index": 8,
+      "distractor_used": null,
+      "explanation": "Aynı müdahale çok sayıda yerde tekrarlandığında ortalama etki, ilk çalışmanın bildirdiğinin yaklaşık yarısı kadar çıkıyor.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 39,
+      "prompt": "what separates help from obstruction is whether the arrangement advances the (39) ........ of the individual concerned",
+      "answer": [
+        "goals"
+      ],
+      "accepted_variants": [
+        "goals"
+      ],
+      "evidence": "the usual one is whether the person's own goals are being served",
+      "answer_point_id": "L6-S4-29",
+      "turn_index": 9,
+      "distractor_used": null,
+      "explanation": "Yönlendirme ile engel çıkarmayı ayırt etmek için sorulan olağan soru, kişinin kendi hedeflerine hizmet edilip edilmediğidir.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 40,
+      "prompt": "(40) ........ the prediction openly in advance keeps the analysis from being reworked later",
+      "answer": [
+        "registering"
+      ],
+      "accepted_variants": [
+        "registering"
+      ],
+      "evidence": "registering your prediction publicly before you collect the data is what stops the analysis being adjusted afterwards",
+      "answer_point_id": "L6-S4-33",
+      "turn_index": 10,
+      "distractor_used": null,
+      "explanation": "Yöntem bölümünün ikinci güvencesi: tahminin veri toplanmadan önce açıkça kaydedilmesi, sonradan analizin değiştirilmesini engelliyor.",
+      "difficulty": "hard"
+    }
+  ]
+}

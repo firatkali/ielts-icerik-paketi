@@ -1,0 +1,85 @@
+{
+  "schema_version": "1.0",
+  "set_id": "L6-sentence-completion",
+  "skill": "listening",
+  "test_id": "L6",
+  "section": 3,
+  "practice": false,
+  "script_id": "L6-S3",
+  "question_type": "sentence_completion",
+  "generated_by": "opus",
+  "instructions": "Complete the sentences below. Write NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+  "word_limit": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
+  "options": null,
+  "visual": null,
+  "stem_block": null,
+  "table": null,
+  "items": [
+    {
+      "number": 27,
+      "prompt": "Reading the abstracts should bring the list down to about (27) ........ studies.",
+      "answer": [
+        "30"
+      ],
+      "accepted_variants": [
+        "30",
+        "thirty"
+      ],
+      "evidence": "Screen the abstracts down to roughly thirty studies.",
+      "answer_point_id": "L6-S3-22",
+      "turn_index": 27,
+      "distractor_used": "86",
+      "explanation": "Seksen altı, kütüphanecinin sabah denediği aramanın ilk veri tabanında verdiği sonuç sayısı; özetler elendikten sonra geriye yaklaşık otuz çalışma kalması bekleniyor.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 28,
+      "prompt": "Reasons for rejecting an item have to be written on the (28) ........ from the module page.",
+      "answer": [
+        "screening sheet"
+      ],
+      "accepted_variants": [
+        "screening sheet"
+      ],
+      "evidence": "There's a screening sheet on the module page — use it, and write down why you rejected each item.",
+      "answer_point_id": "L6-S3-26",
+      "turn_index": 31,
+      "distractor_used": null,
+      "explanation": "Kütüphaneci ders sayfasındaki eleme formunun kullanılmasını ve elenen her kaynağın gerekçesinin yazılmasını istiyor.",
+      "difficulty": "easy"
+    },
+    {
+      "number": 29,
+      "prompt": "In the reference software the students should set up a (29) ........ so that their records all go to the same place.",
+      "answer": [
+        "group library"
+      ],
+      "accepted_variants": [
+        "group library"
+      ],
+      "evidence": "set up a group library so you're both adding to the same one",
+      "answer_point_id": "L6-S3-29",
+      "turn_index": 35,
+      "distractor_used": null,
+      "explanation": "Ortak klasör yerine kaynak yönetim yazılımı öneriliyor; ikisinin de aynı yere eklemesi için bir grup kütüphanesi kurmaları gerekiyor.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 30,
+      "prompt": "No more than (30) ........ can be downloaded from a database in one go.",
+      "answer": [
+        "200 records"
+      ],
+      "accepted_variants": [
+        "200 records",
+        "200"
+      ],
+      "evidence": "Two hundred records at a time, that's the limit.",
+      "answer_point_id": "L6-S3-32",
+      "turn_index": 39,
+      "distractor_used": null,
+      "explanation": "Dışarı aktarma işlemi seferde iki yüz kayıtla sınırlı; kütüphaneci bunu aramanın kaydedilmesi uyarısıyla birlikte veriyor.",
+      "difficulty": "medium"
+    }
+  ]
+}

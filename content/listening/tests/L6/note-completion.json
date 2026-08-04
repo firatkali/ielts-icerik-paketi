@@ -1,0 +1,123 @@
+{
+  "schema_version": "1.0",
+  "set_id": "L6-note-completion",
+  "skill": "listening",
+  "test_id": "L6",
+  "section": 4,
+  "practice": false,
+  "script_id": "L6-S4",
+  "question_type": "note_completion",
+  "generated_by": "opus",
+  "instructions": "Complete the notes below. Write NO MORE THAN THREE WORDS AND/OR A NUMBER for each answer.",
+  "word_limit": "NO MORE THAN THREE WORDS AND/OR A NUMBER",
+  "options": null,
+  "visual": null,
+  "stem_block": "BEHAVIOURAL ECONOMICS\n\nThe standard model\n- a decision-maker whose preferences never change\n- someone who holds every piece of information needed\n- attention that is (31) ........\n\nReference points\n- an outcome is read as a gain or a loss from where we happen to be\n- the ratio of a loss to a gain of the same size is nearer (32) ........ than the figure usually quoted\n\nFraming\n- one rail company printed the same punctuality figures two ways\n- the negative version almost doubled the number of (33) ........ in the month that followed\n\nDefaults\n- form needed in order to join a workplace savings scheme: about one in four took part\n- automatic enrolment, form needed in order to leave: about (34) ........ took part\n\nWhy a default works\n- effort: even a trivial obstacle reduces the numbers\n- the default quietly says what is normal\n- (35) ........: the intention to act is never carried out\n\nPresent bias\n- staff agree now to save more, but the extra money is only taken from the (36) ........",
+  "table": null,
+  "items": [
+    {
+      "number": 31,
+      "prompt": "- attention that is (31) ........",
+      "answer": [
+        "unlimited"
+      ],
+      "accepted_variants": [
+        "unlimited"
+      ],
+      "evidence": "The standard model assumes a decision-maker with stable preferences, complete information and unlimited attention.",
+      "answer_point_id": "L6-S4-01",
+      "turn_index": 0,
+      "distractor_used": null,
+      "explanation": "Standart modelin üç varsayımı sıralanıyor; notlarda boş bırakılan üçüncüsü sınırsız dikkat.",
+      "difficulty": "easy"
+    },
+    {
+      "number": 32,
+      "prompt": "- the ratio of a loss to a gain of the same size is nearer (32) ........ than the figure usually quoted",
+      "answer": [
+        "two to one"
+      ],
+      "accepted_variants": [
+        "two to one",
+        "2 to 1",
+        "2:1",
+        "two-to-one"
+      ],
+      "evidence": "The careful estimates actually put it closer to two to one",
+      "answer_point_id": "L6-S4-05",
+      "turn_index": 1,
+      "distractor_used": "three to one",
+      "explanation": "Öğretim üyesi yaygın olarak aktarılan üçe bir oranını düzeltiyor: dikkatli tahminler ikiye bire daha yakın.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 33,
+      "prompt": "- the negative version almost doubled the number of (33) ........ in the month that followed",
+      "answer": [
+        "complaints"
+      ],
+      "accepted_variants": [
+        "complaints"
+      ],
+      "evidence": "the second version produced nearly twice as many complaints over the following month",
+      "answer_point_id": "L6-S4-08",
+      "turn_index": 2,
+      "distractor_used": null,
+      "explanation": "Aynı dakiklik bilgisi olumsuz ifade edildiğinde izleyen ay gelen şikâyet sayısı neredeyse ikiye katlanıyor.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 34,
+      "prompt": "- automatic enrolment, form needed in order to leave: about (34) ........ took part",
+      "answer": [
+        "nine in ten"
+      ],
+      "accepted_variants": [
+        "nine in ten",
+        "9 in 10",
+        "9 in ten",
+        "nine in 10"
+      ],
+      "evidence": "participation rose to roughly nine in ten",
+      "answer_point_id": "L6-S4-10",
+      "turn_index": 3,
+      "distractor_used": "nobody opted out",
+      "explanation": "Otomatik kayıtta katılım onda dokuza çıkıyor; o dönemde aktarılan hiç kimsenin çıkmadığı iddiası ise doğru değil.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 35,
+      "prompt": "- (35) ........: the intention to act is never carried out",
+      "answer": [
+        "delay"
+      ],
+      "accepted_variants": [
+        "delay"
+      ],
+      "evidence": "The third is delay. Most people intend to deal with the form, and go on intending it.",
+      "answer_point_id": "L6-S4-14",
+      "turn_index": 4,
+      "distractor_used": null,
+      "explanation": "Varsayılan seçeneğin işe yaramasının üçüncü nedeni erteleme: insanlar formu doldurmaya niyetlenir ama niyette kalır.",
+      "difficulty": "easy"
+    },
+    {
+      "number": 36,
+      "prompt": "- staff agree now to save more, but the extra money is only taken from the (36) ........",
+      "answer": [
+        "next pay rise"
+      ],
+      "accepted_variants": [
+        "next pay rise",
+        "pay rise",
+        "next pay-rise"
+      ],
+      "evidence": "with the extra contribution starting only when their next pay rise arrives",
+      "answer_point_id": "L6-S4-16",
+      "turn_index": 5,
+      "distractor_used": null,
+      "explanation": "Bugüne yönelik yanlılığı aşmak için ek katkı bugünkü maaştan değil, bir sonraki zamdan itibaren alınıyor.",
+      "difficulty": "medium"
+    }
+  ]
+}

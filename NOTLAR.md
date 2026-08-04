@@ -2255,3 +2255,167 @@ L4'ün bıraktığı iki uyarının **ikisi de** karşılandı:
   referanstan **tek bir cümle, soru ya da senaryo kopyalanmadı**.
 - Bütün kişi/kurum/yer adları senaryolardan geliyor, hepsi uydurma.
 - Atlanan/sorun: yok. **OPUS5-21'de 12 paketten 5'i tamam;** sıradaki **L6**.
+
+---
+
+## OPUS5-21 (6. çalıştırma: L6 — güvenli sorular, 29 soru)
+
+- Tarih: 2026-08-04
+- Depo kontrolü: `content/listening/tests/` altında **`L1/` … `L5/`** vardı,
+  `content/listening/practice/` hâlâ boştu → çalıştırma listesindeki ilk üretilmemiş paket
+  **L6** idi, o yapıldı. Ön koşul sağlandı: `L6-S1` … `L6-S4` senaryoları yerinde.
+- Bununla **altı tam testin tamamlama/etiketleme yarısı bitti** (6 × 29 = 174 soru).
+- 11–15 ve 21–26 aralıkları **boş bırakıldı** (FABLE5-43'ün işi); `tools/dogrula.py`
+  "L6 29/40 EKSIK eksik=[11–15, 21–26]" diyor, beklenen durum budur.
+
+### Seçilen tipler ve dosyalar
+
+| Soru | Bölüm | Tip | Dosya | Kelime sınırı |
+|---|---|---|---|---|
+| 1–10 | S1 | `form_completion` | `content/listening/tests/L6/form-completion.json` | TWO WORDS |
+| 16–20 | S2 | `plan_map_diagram_labelling` (**kelime yazma**) | `…/plan-map-diagram-labelling.json` | TWO WORDS |
+| 27–30 | S3 | `sentence_completion` | `…/sentence-completion.json` | TWO WORDS |
+| 31–36 | S4 | `note_completion` | `…/note-completion.json` | **THREE WORDS** |
+| 37–40 | S4 | `summary_completion` | `…/summary-completion.json` | **ONE WORD** |
+
+L5'in bıraktığı iki uyarı:
+
+- **Etiketleme alt tipi:** L5 "L6 kelime yazma olsun" demişti, öyle yapıldı. Altı testin
+  dizisi: L1 harf, L2 kelime, L3 harf, L4 kelime, L5 harf, **L6 kelime** — dönüşüm tamam,
+  üç harf seçme + üç kelime yazma.
+- **31–40 bölünmesi:** L5 "6+4 denensin **ve `short_answer` yeniden kullanılsın**"
+  demişti. **6+4 uygulandı** (31–36 not + 37–40 özet) ama `short_answer` bilinçli olarak
+  alınmadı; gerekçe aşağıda "Bilinçli sapmalar" 1. maddede.
+- **1–10 için tip:** L6-S1 telefonla **yurt başvurusu** (kayıt), promptun kuralı gereği
+  `form`. Altı testin dağılımı: **form / tablo / form / not / form / form**.
+- **Kelime sınırı çeşitliliği:** tek testte üç ayrı sınır kullanıldı — 4. bölümün notunda
+  `THREE WORDS` (L1–L5'te 4. bölümde hiç kullanılmamıştı; "two to one", "nine in ten",
+  "next pay rise" cevapları için gerekiyordu), özette `ONE WORD`, gerisinde `TWO WORDS`.
+
+### Kullanılan `answer_point_id` değerleri
+
+| Set | Kimlikler |
+|---|---|
+| `L6-form-completion` | `L6-S1-01`, `L6-S1-02`, `L6-S1-05`, `L6-S1-06`, `L6-S1-09`, `L6-S1-12`, `L6-S1-14`, `L6-S1-17`, `L6-S1-22`, `L6-S1-31` |
+| `L6-plan-map-diagram-labelling` | `L6-S2-12`, `L6-S2-16`, `L6-S2-19`, `L6-S2-21`, `L6-S2-23` |
+| `L6-sentence-completion` | `L6-S3-22`, `L6-S3-26`, `L6-S3-29`, `L6-S3-32` |
+| `L6-note-completion` | `L6-S4-01`, `L6-S4-05`, `L6-S4-08`, `L6-S4-10`, `L6-S4-14`, `L6-S4-16` |
+| `L6-summary-completion` | `L6-S4-21`, `L6-S4-24`, `L6-S4-29`, `L6-S4-33` |
+
+- **Senaryo dosyalarına hiç dokunulmadı** — 29 sorunun 29'u da senaryolarda hazır olan
+  bilgi noktalarına oturdu, yeni `answer_point` eklemek gerekmedi (L5'te de öyleydi).
+- Çeldiricili bilgi noktasından çıkan sorular (cevap her zaman **düzeltilmiş** değer):
+  4 (arkadaşın önerdiği Thornbury → çatısı yenilendiği için kapalı), 6 (132 → 145 £),
+  8 (23 → 30 Haziran), 9 (ana resepsiyon → kapıcılık odası), 17 (girişin yanı → sol
+  koridorun ucu), 20 (arkadaki yükleme avlusu → kapının dışı), 27 (86 sonuç → 30 çalışma),
+  32 (üçe bir → ikiye bir), 34 ("kimse çıkmadı" → onda dokuz), 37 (15 → 5 puan).
+  Toplam **10 soru**, L4–L5'le aynı oran.
+- Bilinçli kullanılmayan çeldiriciler: `L6-S1-03` (dört yıllık → üç yıllık program) —
+  bölüm adı 2. soruda zaten soruldu, süre formda verilmiş bilgi olarak duruyor;
+  `L6-S1-13` (40 → 38 hafta) ve `L6-S1-20` (12 → 14 Eylül) — form on soruyu doldurduğu
+  için sözleşme süresi gövdeye verilmiş bilgi, taşınma günü ise dışarıda kaldı;
+  `L6-S1-28` (Çarşamba → Perşembe temizlik) — 1. bölümde iki tarih/gün cevabı yığılmasın
+  diye alınmadı; `L6-S2-03` (9.00 → 8.30), `L6-S2-05` (Perşembe → Çarşamba),
+  `L6-S2-07` (19 → 32 tezgâh), `L6-S2-24` (11.00 → 12.30), `L6-S2-28` (12 → 18 numaralı
+  otobüs), `L6-S2-29` (2 → 3 saat), `L6-S2-30` (5 £ → ücretsiz), `L6-S2-34` (15 → 18 £) —
+  hepsi 2. bölümün 11–15 aralığına, yani `FABLE5-43`'ün çoktan seçmeli alanına bırakıldı;
+  `L6-S3-01` (3.000 → 2.500 kelime), `L6-S3-10` (5 → 2 veri tabanı), `L6-S3-16`
+  (20 → 10 yıl), `L6-S3-19` (tam metin süzgeci), `L6-S3-31` (Room B → 2. kattaki eğitim
+  odası), `L6-S3-35` (Cuma → Perşembe) — 3. bölümde bana yalnızca dört soru düşüyor,
+  gerisi 21–26 aralığında `FABLE5-43`'ün; `L6-S4-23` (iki hafta → iki gün önce
+  hatırlatma) — 37. soru aynı paragraftan çıkıyor, paragraf başına bir cevap kuralı gereği
+  ikincisi alınmadı; `L6-S4-31` (60 öğrencilik laboratuvar → on binlerce kişilik alan
+  denemesi) ve `L6-S4-35`/`L6-S4-36` (8. hafta → 9. hafta, 3. bölüm → 4. bölüm) —
+  özet 10. replikte bittiği için 11. paragraf (duyurular) soru dışı kaldı.
+
+### Doğrulama
+
+- Üretim ve denetim tek geçici betikte toplandı (`tools/_l6_sorular.py`); dosyaları
+  yazdıktan sonra **diskten geri okuyup** sınıyor, depoda duruyor (L5'in `_l5q_*`
+  betikleri silinmişti; bu betik yeniden üretilebilirlik için bırakıldı, `tools/_l6_uret.py`
+  OPUS5-20'den kalma, ona dokunulmadı).
+- Denetlenenler: her `evidence`in senaryo repliğinde **birebir** geçmesi, `turn_index`in
+  bilgi noktasıyla uyuşması, set içi sıranın geri gitmemesi, **`accepted_variants` dahil**
+  kelime sınırı (harf içeren jeton = kelime), `prompt`un `stem_block` içinde birebir
+  bulunması, her soru numarası için gövdede boşluk olması, 29 numaranın planla birebir
+  aynı dizide olması, açıklamaların dolu olması, "IELTS" taraması.
+- Plan SVG'si ayrıca ölçüldü: yalnızca `rect`/`line`/`circle`/`polygon`/`text` (60 öge),
+  tek renk `#000`, `fill="none"`, sabit `width`/`height` yok, bütün koordinatlar
+  `viewBox="0 0 620 740"` içinde, tek satır string, **kutu-kutu ve yazı-yazı çakışması 0**.
+- ASCII izdüşüm **gözle** okundu: kuzey yukarıda, ana giriş güneyde (Peveril Street),
+  girişin solunda DANIŞMA MASASI, sağında 16; batı duvarında uzun tezgâh (güneyde EKMEK VE
+  PASTA, kuzeyde PEYNİR), sol koridorun en ucunda 17; ortada iki SEBZE SIRASI, doğuda BAL
+  VE REÇEL ile yan kapı; kuzey uçta saatin altında 18, hemen güneyinde OTURMA ALANI;
+  kuzeydoğu köşede 19, ondan geçilen ek odada tuvaletler; kapının dışında 20, salonun
+  arkasında YÜKLEME AVLUSU. Tarifle birebir uyuyor.
+- Ardından `python tools/dogrula.py`: **şema hatası 0**, görünür metinde IELTS 0,
+  yasak kaynak 0, L6 29/40.
+
+### Bilinçli sapmalar
+
+1. **L5'in `short_answer` önerisi uygulanmadı, yerine `summary_completion` seçildi.**
+   L5'in asıl istediği 5+5 dışına çıkmaktı; **6+4 uygulandı**. `short_answer` alınsaydı
+   31–36 not + 37–40 kısa cevap çıkacaktı ki bu **L1'in bölünmesinin birebir aynısı**
+   olurdu. Altı testin 4. bölüm eşleşmeleri şimdi altısı da farklı: L1 not+kısa,
+   L2 akış+not, L3 özet+kısa, L4 kısa+akış, L5 tablo+özet, **L6 not+özet**. Tip başına
+   düşen kullanım da dengelendi (not 3, kısa cevap 3, özet 3, akış 2, tablo 1) ve
+   `short_answer` zaten 11. alıştırma paketinde 15 soruyla ayrıca üretilecek.
+2. **"İki cevap aynı replikte olmasın" kuralı 1. ve 3. bölümde tam uygulandı.**
+   1. bölümde cevaplar 5, 7, 13, 16, 20, 24, 28, 32, 40, 52 numaralı repliklerde — en dar
+   aralık iki replik; 3. bölümde 27, 31, 35, 39. 2. ve 4. bölüm **tek kişilik anlatım**
+   olduğu için "replik" = paragraf; 4. bölümde 10 cevap **10 ayrı paragrafa** (0–5 ve
+   7–10) dağıldı. L1–L5'teki uygulamanın aynısı.
+3. **2. bölümde 19 ve 20 aynı paragraftan (8. replik) çıkıyor — L5'ten sonra ikinci kez.**
+   Sebep yine yapısal: L6-S2'de salonu tarif eden yalnızca **beş** paragraf var (4–8) ve
+   4. paragrafta soru yapılabilecek tek yer (danışma masası) sabit referans olarak
+   planda verilmek zorundaydı. İki cevabın arasında tam bir cümle var (dolum dükkânı →
+   **tuvaletler** → bisiklet park yeri), yani nefes payı iki repliklik diyalog aralığından
+   dar değil.
+4. **4. bölümün 6. ve 9. paragrafları soru dışı bırakıldı.** 6. paragraftaki reçel
+   deneyinin bütün sayıları ("onda altısı", "otuzda bir") üç kelimeyi aşıyor, tek
+   kelimelik/üç kelimelik bir boşluğa oturmuyor; 9. paragrafın içeriği (varsayılanı kim
+   seçiyor) özetin **verilen** metninde bağlam olarak duruyor, boşluk aynı paragrafın
+   sonuna (kişinin kendi hedefleri) konuldu.
+5. **Notta `THREE WORDS` sınırı bilinçli:** 32 ("two to one") ve 34 ("nine in ten") seste
+   böyle geçiyor; eş anlamlı kısaltma yazmak 1. altın kuralı çiğneyeceği için sınır
+   genişletildi. `accepted_variants` rakamlı yazımları da kabul ediyor (`2:1`, `9 in 10`).
+6. **Cevap türü dağılımı:** 1. bölüm 6 kelime / 4 sayı-kod (Brathwaite, Environmental
+   Engineering, re-roofed, en-suite, one box, porter's lodge ↔ 22 Hartlow Road, 145,
+   30 June, HR 942); 2. bölümün beşi de iki kelimelik ad; 3. bölümde 3 kelime + 1 sayı;
+   4. bölümde 7 kelime + 3 sayı. Hiçbir bölümde arka arkaya iki aynı türden cevap yok.
+7. **16–20 zincirli değil:** 16 etiketli danışma masasına, 17 sol koridora ve tarif edilen
+   köşeye, 18 saate, 19 etiketli oturma alanına, 20 bahçe kapısına dayanıyor. Aday 16'yı
+   bilmeden de 19'u çözebiliyor.
+
+### Plan çizimi (2. bölüm) — kelime yazma alt tipi
+
+- `viewBox="0 0 620 740"`, sabit `width`/`height` yok, yalnızca `rect`/`line`/`circle`/
+  `polygon`/`text`, hep `#000` çizgi, dolgu yok, tek satır string, 60 öge.
+- `"kind": "plan"` — Peveril Street'teki kapalı hal: duvarlar çizgilerle, ana giriş güney
+  duvarındaki boşlukla, yan kapı ve tuvalet kapısı doğu duvarındaki iki boşlukla, giriş
+  yolu bahçe kapısından caddeye inen iki paralel çizgiyle gösterildi.
+- Boşluklar **numaralı kutu** (16–20), `options` `null`, `word_limit` `TWO WORDS` —
+  kelime yazma alt tipi. Cevaplar: 16 flower stall, 17 fish counter,
+  18 demonstration kitchen, 19 refill shop, 20 cycle racks.
+- **Sabit referanslar (etiketi verilmiş):** `MAIN ENTRANCE` (+ içeri bakan ok),
+  `INFORMATION DESK`, `BREAD & CAKE STALL`, `CHEESE COUNTER`, `VEGETABLE STALLS` (iki
+  sıra), `HONEY & PRESERVES`, `SEATING AREA (24 chairs)`, `clock`, `toilets`, `side door`,
+  `GATE`, `LOADING YARD`, `PEVERIL STREET` ve kuzey oku `N`.
+
+### Telif / yazım
+
+- İngiliz İngilizcesi (`£`, `en-suite`, `porter's lodge`, `behavioural`, `neighbours`);
+  `accepted_variants` içinde hoşgörü olarak `ensuite`/`en suite`, `reroofed`, `2:1`,
+  `9 in 10` kabul ediliyor. Görünür metinde "IELTS" yok.
+- ⚠️ **Referans PDF'leri bu oturumda da açılamadı:** `referans/` altında yalnızca `.pdf`
+  var, `referans/text/` hâlâ üretilmemiş ve `Read` aracı PDF için `pdftoppm` (poppler)
+  istiyor, ortamda yok. Yönerge kalıpları L1–L5 setlerinden devralındı ("Complete the form
+  below…", "Label the plan below. Write NO MORE THAN TWO WORDS AND/OR A NUMBER for each
+  answer.", "Complete the sentences below…", "Complete the notes below…", "Complete the
+  summary below…"). Yeni biçim icat edilmedi; referanstan **tek bir cümle, soru ya da
+  senaryo kopyalanmadı**.
+- Bütün kişi/kurum/yer adları senaryolardan geliyor, hepsi uydurma; 4. bölümdeki deneyler
+  gerçek kişi/kurum adı verilmeden tarif edildi.
+- Atlanan/sorun: yok. **OPUS5-21'de 12 paketten 6'sı tamam;** tam testler bitti, sıradaki
+  paket **7 — alıştırma: form / not tamamlama (15 soru)**, dosyası
+  `content/listening/practice/note-completion.json`.

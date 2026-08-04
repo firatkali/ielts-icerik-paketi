@@ -1,0 +1,196 @@
+{
+  "schema_version": "1.0",
+  "set_id": "L6-form-completion",
+  "skill": "listening",
+  "test_id": "L6",
+  "section": 1,
+  "practice": false,
+  "script_id": "L6-S1",
+  "question_type": "form_completion",
+  "generated_by": "opus",
+  "instructions": "Complete the form below. Write NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+  "word_limit": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
+  "options": null,
+  "visual": null,
+  "stem_block": "ARDLEIGH COLLEGE - HALL OF RESIDENCE APPLICATION\n\nApplicant\nSurname: (1) ........\nCourse: (2) ........ (three-year programme)\nAddress: (3) ........, Marsden\n\nHalls open to first-year applicants\nThornbury Hall: closed to applicants this year - the building is being (4) ........\nWharton Court: study bedroom, kitchen shared with five other students, £118 a week\nCadnam House: bigger kitchens; every room is (5) ........\nRent at Cadnam House from September: £(6) ........ a week\n\nContract (38 weeks)\nRooms are emptied over the spring break, but (7) ........ may be left in the basement store room\nCompleted form must reach the office by (8) ........ June\n\nArrival\nKeys are handed out at the (9) ........ on Cadnam Street\nWrite reference (10) ........ on anything sent to the office",
+  "table": null,
+  "items": [
+    {
+      "number": 1,
+      "prompt": "Surname: (1) ........",
+      "answer": [
+        "Brathwaite"
+      ],
+      "accepted_variants": [
+        "Brathwaite"
+      ],
+      "evidence": "It's Brathwaite — B-R-A-T-H-W-A-I-T-E.",
+      "answer_point_id": "L6-S1-01",
+      "turn_index": 5,
+      "distractor_used": null,
+      "explanation": "Soyadı seste harf harf söyleniyor: B-R-A-T-H-W-A-I-T-E; öğrenci ortada fazladan harf olmadığını da ekliyor.",
+      "difficulty": "easy"
+    },
+    {
+      "number": 2,
+      "prompt": "Course: (2) ........ (three-year programme)",
+      "answer": [
+        "Environmental Engineering"
+      ],
+      "accepted_variants": [
+        "Environmental Engineering",
+        "environmental engineering"
+      ],
+      "evidence": "Environmental Engineering. It's the three-year one",
+      "answer_point_id": "L6-S1-02",
+      "turn_index": 7,
+      "distractor_used": null,
+      "explanation": "Öğrenci bölümünü söyleyip hemen ardından üç yıllık programda olduğunu belirtiyor; yerleştirmeli dört yıllık sürümü almıyor.",
+      "difficulty": "easy"
+    },
+    {
+      "number": 3,
+      "prompt": "Address: (3) ........, Marsden",
+      "answer": [
+        "22 Hartlow Road"
+      ],
+      "accepted_variants": [
+        "22 Hartlow Road",
+        "22 Hartlow Rd"
+      ],
+      "evidence": "It's twenty-two Hartlow Road, in Marsden.",
+      "answer_point_id": "L6-S1-05",
+      "turn_index": 13,
+      "distractor_used": null,
+      "explanation": "Adres yazıyla söyleniyor: yirmi iki Hartlow Road; şehir adı (Marsden) formda zaten verilmiş durumda.",
+      "difficulty": "easy"
+    },
+    {
+      "number": 4,
+      "prompt": "Thornbury Hall: closed to applicants this year - the building is being (4) ........",
+      "answer": [
+        "re-roofed"
+      ],
+      "accepted_variants": [
+        "re-roofed",
+        "reroofed",
+        "re roofed"
+      ],
+      "evidence": "Thornbury is being re-roofed over the winter, so we've taken it out of the offer this year",
+      "answer_point_id": "L6-S1-06",
+      "turn_index": 16,
+      "distractor_used": null,
+      "explanation": "Öğrencinin arkadaşı Thornbury'yi önerse de yurt bu yıl başvuruya kapalı: kış boyunca çatısı yenileniyor.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 5,
+      "prompt": "Cadnam House: bigger kitchens; every room is (5) ........",
+      "answer": [
+        "en-suite"
+      ],
+      "accepted_variants": [
+        "en-suite",
+        "ensuite",
+        "en suite"
+      ],
+      "evidence": "the rooms there are en-suite — you have your own shower room",
+      "answer_point_id": "L6-S1-09",
+      "turn_index": 20,
+      "distractor_used": null,
+      "explanation": "Cadnam House daha yeni blok olduğu için odaların kendi duş odası var; danışman bunu en-suite diye adlandırıyor.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 6,
+      "prompt": "Rent at Cadnam House from September: £(6) ........ a week",
+      "answer": [
+        "145"
+      ],
+      "accepted_variants": [
+        "145",
+        "£145",
+        "145 pounds"
+      ],
+      "evidence": "from September it's a hundred and forty-five, I'm afraid",
+      "answer_point_id": "L6-S1-12",
+      "turn_index": 24,
+      "distractor_used": "132",
+      "explanation": "Öğrenci sitedeki yüz otuz iki rakamını hatırlatıyor ama o geçen yıla ait; Eylül'den itibaren en-suite oda haftada yüz kırk beş pound.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 7,
+      "prompt": "Rooms are emptied over the spring break, but (7) ........ may be left in the basement store room",
+      "answer": [
+        "one box"
+      ],
+      "accepted_variants": [
+        "one box",
+        "1 box"
+      ],
+      "evidence": "You can leave one box in the store room in the basement, but otherwise the rooms have to be cleared.",
+      "answer_point_id": "L6-S1-14",
+      "turn_index": 28,
+      "distractor_used": null,
+      "explanation": "Sözleşme kısaldığı için yurtlar bahar tatilinde kapanıyor; bodrumdaki depoya kişi başı yalnızca bir kutu bırakılabiliyor.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 8,
+      "prompt": "Completed form must reach the office by (8) ........ June",
+      "answer": [
+        "30"
+      ],
+      "accepted_variants": [
+        "30",
+        "30th",
+        "thirtieth",
+        "the thirtieth"
+      ],
+      "evidence": "For accommodation you've got until the thirtieth.",
+      "answer_point_id": "L6-S1-17",
+      "turn_index": 32,
+      "distractor_used": "23",
+      "explanation": "Öğrencinin not aldığı yirmi üç burs başvurusunun son günü; konaklama formu için son tarih Haziran'ın otuzu.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 9,
+      "prompt": "Keys are handed out at the (9) ........ on Cadnam Street",
+      "answer": [
+        "porter's lodge"
+      ],
+      "accepted_variants": [
+        "porter's lodge",
+        "porters lodge",
+        "porter’s lodge"
+      ],
+      "evidence": "From the porter's lodge on Cadnam Street.",
+      "answer_point_id": "L6-S1-22",
+      "turn_index": 40,
+      "distractor_used": "main reception",
+      "explanation": "Çoğu öğrenci önce ana resepsiyona gidiyor ama anahtarlar orada durmuyor; anahtarlar Cadnam Street'teki kapıcılık odasından alınıyor.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 10,
+      "prompt": "Write reference (10) ........ on anything sent to the office",
+      "answer": [
+        "HR 942"
+      ],
+      "accepted_variants": [
+        "HR 942",
+        "HR942",
+        "H-R 942",
+        "HR-942"
+      ],
+      "evidence": "your reference is H-R, nine four two",
+      "answer_point_id": "L6-S1-31",
+      "turn_index": 52,
+      "distractor_used": null,
+      "explanation": "Görüşmenin sonunda verilen başvuru referansı H-R ve dokuz dört iki; öğrenci de tekrarlayarak doğruluyor.",
+      "difficulty": "easy"
+    }
+  ]
+}
