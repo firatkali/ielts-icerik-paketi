@@ -4980,3 +4980,56 @@ sınırında tartışmalı kaldığı için hiç yazılmadı.
 - **DURUM.txt / ilerleme.txt elle güncellenmedi** (sayaçları `tools/calistir.py` yazıyor).
 - Atlanan/sorun: yok. Sıradaki iş **8. çalıştırma: YES/NO/NOT GIVEN alıştırması
   (`content/reading/practice/yes-no-not-given.json`, 15 soru)** — FABLE5-40'ın son paketi.
+
+## FABLE5-40 (8. çalıştırma: YES / NO / NOT GIVEN alıştırması, 15 soru — **paket tamam**)
+
+### Üretilen
+
+- `content/reading/practice/yes-no-not-given.json` — soru 1–15, dört pasaja bölündü:
+  **A06** (uzaktan çalışmada deneyimli takım arkadaşları) 1–4, **A10** (ofis tasarımı
+  deneyi) 5–8, **A11** (karlı ormanın sakinleştirici etkisi) 9–12, **A12** (şekerleme ve
+  bellek) 13–15. `test_id` null, `practice` true, her item'da `passage_id`, `stem_block`
+  soru–pasaj eşlemesini yazıyor.
+- Pasaj seçimi: 7. çalıştırmada YNNG için ayrılan görüş ağırlıklı havuzdan (A03, A06,
+  A10, A11, A12) dört pasaj alındı; G05/G06 tam test YNNG'de kullanıldığı için dışarıda
+  bırakıldı. A03 yine atlandı (kanıt cümleleri büyük ölçüde tükenmişti). Dördünde de
+  kanıt olarak **yazar yargısı** cümleleri seçildi ("unusually rigorous", "did not
+  appear here", "clear ranking", "essentially the reverse", "findings caution against"
+  vb.), salt veri cümlesi kanıt yapılmadı.
+- Dağılım 6 YES / 5 NO / 4 NOT GIVEN; ardışık üç soru aynı cevabı almıyor. Kanıtlar her
+  pasaj grubunda metin sırasını izliyor (A06: C1→E3→H3, A10: A1→D1→E2, A11: A1→G1→H3,
+  A12: E1→H3); NOT GIVEN sorular konularının ele alındığı yere yerleştirildi (1: A/H,
+  8: H, 10: B, 13: C–D).
+
+### Taslakta elenen adaylar (2)
+
+1. "Employees rated the open-plan design less favourably than any other layout tested"
+   (YES adayı, A10 H/1) — H/1 "rated more poorly than every alternative" dese de D/2–D/3
+   etkinlik temelli tasarımın memnuniyette açık plan tabanının ~%14 **altında** kaldığını
+   söylüyor; pasajın içinde gerilim olduğu için Adım 1'de karar değişti, atıldı. Yerine
+   E/2'nin yarı kapalı düzenler yargısına dayanan YES (soru 7) kondu.
+2. "Watching star teammates at work produced a clear gain in employees' own performance"
+   (NO adayı, A06, kapsam belirtilmemiş hali) — E/3'teki "Whatever benefit workers
+   usually gain" ifadesi genel düzlemde faydayı kabul eder okunabildiği için ifade
+   çalışma kapsamına sabitlenmeden belirsiz kalıyordu; "In the study, ..." kapsamıyla
+   yeniden yazıldı (soru 3). Ayrıca E/2 kanıt olarak bilerek kullanılmadı — AC2 özet
+   tamamlamada zaten harcanmıştı (kanıt çakışması yasağı).
+
+### Doğrulama
+
+- `python tools/_f40_kontrol.py PR-YNNG` → **hata 0, uyarı 0** (YNNG yönerge kalıbı,
+  numara aralığı 1–15, pasaj başına ≤4 soru, birebir evidence + locator, NO'da
+  contradiction_point, NG'de üç şartlı gerekçe, ≤20 kelime, 6 kelimelik örtüşme,
+  dağılım/ardışıklık, grup içi kanıt sırası, genelleme kotası, IELTS taraması, bütün
+  okuma paketlerine karşı kanıt çakışması).
+- `tools/_f40_gerileme.py` listesine PR-YNNG eklendi; koşu → AC1–AC4, GT1, GT2,
+  PR-TFNG, PR-YNNG **sekizi de hata 0, uyarı 0**.
+- Aşırı genelleme kotası: **hiç kullanılmadı** (sınır 2, kullanılan 0).
+- İfade kelime sayıları: 11–17; hepsi tek cümle, tek iddia.
+- Son kontrol: 15 soru cevap anahtarına bakılmadan aday gibi baştan çözüldü, on beşi de
+  anahtarla uyuştu — **son turda silinen soru yok** (elemeler yukarıda, taslak aşamasında).
+- `python tools/dogrula.py` → **şema hatası 0**, `reading/practice` 95 → **110**.
+  Pasaj lisansı eksik 0, görünür metinde IELTS 0, yasak kaynak 0.
+- **DURUM.txt / ilerleme.txt elle güncellenmedi** (sayaçları `tools/calistir.py` yazıyor).
+- Atlanan/sorun: yok. FABLE5-40'ın 8 iş paketinin tamamı üretildi (AC1–AC4 TFNG,
+  GT1–GT2 TFNG+YNNG, alıştırma TFNG, alıştırma YNNG = 80 soru) — **FABLE5-40 tamam**.
