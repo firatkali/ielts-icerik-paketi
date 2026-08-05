@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "set_id": "T2-21",
+  "skill": "writing",
+  "module": "both",
+  "task": 2,
+  "generated_by": "opus",
+  "pattern": "opinion",
+  "prompt": "In many schools a student's final result depends almost entirely on examinations sat at the end of the course. Some people believe that the work a student produces throughout the year should count instead.\n\nTo what extent do you agree or disagree?",
+  "instruction_line": "You should spend about 40 minutes on this task. Write at least 250 words.",
+  "min_words": 250,
+  "minutes": 40,
+  "topic_area": "eğitim",
+  "key_points": [
+    "Görev açık bir tutum bekliyor: katılıyorum / katılmıyorum / kısmen katılıyorum",
+    "Asıl karşılaştırma 'yıl boyu üretilen iş' ile 'dönem sonu sınavı' arasında — sınavların yorucu olduğunu söylemek tek başına yetmez",
+    "En az iki gerekçe + somut örnek: sürekli değerlendirme çalışmayı yıla yayar ve tek bir günün rastlantısını azaltır; sınav ise herkes için aynı koşulda, karşılaştırılabilir bir ölçüm verir",
+    "Karşı görüşe kısa bir kabul beklenir: yıl içi işler öğretmen yükünü artırır ve evden alınan destek eşitsizliğini sonuca taşıyabilir",
+    "Sonuçta tutum yeniden ve net biçimde ifade edilmeli"
+  ],
+  "common_mistakes": [
+    "Tutum belirtmeden yalnızca sınavların iyi ve kötü yanlarını sıralamak",
+    "'Sınavın yerine geçmeli mi' sorusunu atlayıp genel olarak sınav kaygısı üzerine yazmak",
+    "Örnek vermeden soyut genellemelerde kalmak",
+    "250 kelimenin altında kalmak"
+  ],
+  "difficulty": "medium"
+}

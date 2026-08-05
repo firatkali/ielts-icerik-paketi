@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "set_id": "T2-31",
+  "skill": "writing",
+  "module": "both",
+  "task": 2,
+  "generated_by": "opus",
+  "pattern": "problem_solution",
+  "prompt": "Rivers and lakes near towns are increasingly polluted by waste from homes, farms and factories.\n\nWhat problems does this cause and what measures could be taken?",
+  "instruction_line": "You should spend about 40 minutes on this task. Write at least 250 words.",
+  "min_words": 250,
+  "minutes": 40,
+  "topic_area": "çevre",
+  "key_points": [
+    "Görevin iki yarısı da yazılmalı: önce sorunlar, sonra alınabilecek önlemler",
+    "En az iki somut sorun: içme ve sulama suyunun bozulması, balık ve diğer canlıların yok olması, arıtma ve sağlık maliyeti, kıyıdaki geçim ve dinlenme alanlarının kaybı",
+    "Önlemler sorunlarla eşleşmeli: atık suyun boşaltılmadan önce arıtılması, tarımda gübre kullanımının azaltılması, düzenli denetim ve kirletene maliyet yükleme, halkın izleme çalışmalarına katılması",
+    "Kaynak ayrımı yapmak yazıyı güçlendirir: hane, tarım ve sanayi farklı önlemler gerektirir",
+    "Sonuçta hangi önlemin öncelikli olduğuna dair kısa bir değerlendirme beklenir"
+  ],
+  "common_mistakes": [
+    "Genel olarak 'çevre kirliliği' yazıp suya odaklanmamak",
+    "Önlemleri sorunlarla ilişkilendirmeden sıralamak",
+    "Uzmanlık gerektiren kimyasal ayrıntıya girmeye çalışmak",
+    "250 kelimenin altında kalmak"
+  ],
+  "difficulty": "easy"
+}

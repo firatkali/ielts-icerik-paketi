@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "set_id": "T2-37",
+  "skill": "writing",
+  "module": "both",
+  "task": 2,
+  "generated_by": "opus",
+  "pattern": "double_question",
+  "prompt": "In many countries a growing number of people work for themselves rather than for a single employer.\n\nWhy is this happening? Is it a positive or a negative development?",
+  "instruction_line": "You should spend about 40 minutes on this task. Write at least 250 words.",
+  "min_words": 250,
+  "minutes": 40,
+  "topic_area": "iş hayatı",
+  "key_points": [
+    "İki soru da ayrı ayrı yanıtlanmalı: önce nedenler, sonra olumlu mu olumsuz mu",
+    "Nedenler: uzaktan çalışmayı mümkün kılan araçların ucuzlaması, iş bulmayı kolaylaştıran çevrim içi aracılar, kalıcı iş güvencesinin azalması, saatini kendi belirleme isteği",
+    "Olumlu yön: zaman esnekliği, birden çok gelir kaynağı, bakım sorumluluğu olanlara uygunluk, yeteneğin daha geniş bir pazara açılması",
+    "Olumsuz yön: düzensiz gelir, hastalık ve emeklilik güvencesinin olmaması, iş ile ev sınırının silinmesi, yalnız çalışmanın getirdiği yalıtım",
+    "Sonuçta net bir değerlendirme yapılmalı; koşullu bir hüküm verilecekse hangi koşulda olumlu olduğu açıklanmalı"
+  ],
+  "common_mistakes": [
+    "Yalnızca nedenleri yazıp değerlendirme sorusunu atlamak",
+    "İki soruyu birbirine karıştırıp tek bir karışık paragraf yazmak",
+    "Somut örnek vermeden genel geçer ifadelerde kalmak",
+    "250 kelimenin altında kalmak"
+  ],
+  "difficulty": "medium"
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "set_id": "T2-30",
+  "skill": "writing",
+  "module": "both",
+  "task": 2,
+  "generated_by": "opus",
+  "pattern": "problem_solution",
+  "prompt": "In many towns the number of vehicles on the roads keeps rising, and journeys that once took a few minutes now take far longer.\n\nWhat problems does this cause and what measures could be taken?",
+  "instruction_line": "You should spend about 40 minutes on this task. Write at least 250 words.",
+  "min_words": 250,
+  "minutes": 40,
+  "topic_area": "ulaşım",
+  "key_points": [
+    "Görevin iki yarısı da yazılmalı: önce sorunlar, sonra alınabilecek önlemler",
+    "En az iki somut sorun: kaybedilen zaman ve gecikmelerin işe/okula yansıması; ayrıca kirli hava ve gürültü, acil araçların geç kalması",
+    "Önlemler sorunlarla eşleşmeli: sık ve güvenilir toplu taşıma, güvenli yürüyüş ve bisiklet yolları, iş saatlerinin yayılması, merkezde park yerinin sınırlanması",
+    "Her önlemin nasıl işlediği kısaca açıklanmalı — yalnızca liste yeterli değil",
+    "Sonuç bölümünde hangi önlemin en etkili olacağına dair kısa bir değerlendirme beklenir"
+  ],
+  "common_mistakes": [
+    "Yalnızca sorunları uzun uzun yazıp önlemlere birkaç satır ayırmak",
+    "Önlemleri sorunlarla ilişkilendirmeden madde madde saymak",
+    "Belirli bir şehri veya ülkenin uygulamasını varsaymak",
+    "250 kelimenin altında kalmak"
+  ],
+  "difficulty": "easy"
+}

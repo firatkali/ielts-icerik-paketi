@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "set_id": "T2-22",
+  "skill": "writing",
+  "module": "both",
+  "task": 2,
+  "generated_by": "opus",
+  "pattern": "opinion",
+  "prompt": "As towns and farmland spread, wild areas and the creatures that live in them are steadily being lost. Some people argue that protecting what remains should come before any further development.\n\nTo what extent do you agree or disagree?",
+  "instruction_line": "You should spend about 40 minutes on this task. Write at least 250 words.",
+  "min_words": 250,
+  "minutes": 40,
+  "topic_area": "çevre",
+  "key_points": [
+    "Görev açık bir tutum bekliyor: katılıyorum / katılmıyorum / kısmen katılıyorum",
+    "Asıl soru koruma ile gelişme arasındaki öncelik — doğanın değerli olduğunu söylemek tek başına yetmez",
+    "En az iki gerekçe + somut örnek: bir kez yok olan yaşam alanı geri getirilemez ve temiz su, verimli toprak gibi karşılıksız faydalar buna bağlıdır",
+    "Karşı görüşe kısa bir kabul beklenir: artan nüfusun konuta ve gıdaya ihtiyacı vardır; koşulsuz öncelik yerine sınırlı alan, telafi ya da yoğun yapılaşma önerilebilir",
+    "Sonuçta tutum yeniden ve net biçimde ifade edilmeli"
+  ],
+  "common_mistakes": [
+    "'Öncelik' boyutunu atlayıp genel bir doğa güzellemesi yazmak",
+    "Karşı tarafın gerekçesini (konut, gıda, iş) hiç anmamak",
+    "Uzmanlık gerektiren sayı ve teknik ayrıntıya girmeye çalışmak — bu görevde gerekmiyor",
+    "250 kelimenin altında kalmak"
+  ],
+  "difficulty": "hard"
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "set_id": "T2-36",
+  "skill": "writing",
+  "module": "both",
+  "task": 2,
+  "generated_by": "opus",
+  "pattern": "advantages_disadvantages",
+  "prompt": "In many countries young adults are staying in the family home for longer before setting up a household of their own.\n\nDo the advantages outweigh the disadvantages?",
+  "instruction_line": "You should spend about 40 minutes on this task. Write at least 250 words.",
+  "min_words": 250,
+  "minutes": 40,
+  "topic_area": "aile ve toplum",
+  "key_points": [
+    "Görev bir hüküm bekliyor: avantajlar dezavantajlardan ağır basıyor mu",
+    "Avantaj tarafı: masrafların paylaşılması ve birikim yapabilme, kuşaklar arası günlük yardımlaşma, yaşlı aile bireyine destek",
+    "Dezavantaj tarafı: bağımsız karar almanın ve ev idaresini öğrenmenin gecikmesi, evde kalabalık ve gerginlik, taşınma gerektiren iş fırsatlarının kaçırılması",
+    "İki taraf tartıldıktan sonra net bir sonuca varılmalı",
+    "Nedenin bir kısmının konut maliyeti ve iş güvencesizliği olduğu anılabilir, ama görev yine de fayda–zarar tartısını istiyor"
+  ],
+  "common_mistakes": [
+    "Yalnızca nedenleri açıklayıp fayda–zarar tartısını yapmamak",
+    "Tek bir aile modelini herkes için geçerli saymak",
+    "Hüküm vermeden iki tarafı listelemek",
+    "250 kelimenin altında kalmak"
+  ],
+  "difficulty": "easy"
+}

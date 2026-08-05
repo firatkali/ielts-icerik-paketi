@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "set_id": "T2-33",
+  "skill": "writing",
+  "module": "both",
+  "task": 2,
+  "generated_by": "opus",
+  "pattern": "problem_solution",
+  "prompt": "Borrowing money for everyday purchases has become very easy, and many households now owe more than they can comfortably repay.\n\nWhat problems does this cause and what measures could be taken?",
+  "instruction_line": "You should spend about 40 minutes on this task. Write at least 250 words.",
+  "min_words": 250,
+  "minutes": 40,
+  "topic_area": "tüketim",
+  "key_points": [
+    "Görevin iki yarısı da yazılmalı: önce sorunlar, sonra alınabilecek önlemler",
+    "En az iki somut sorun: faiz yükünün geliri eritmesi ve beklenmedik bir masrafta ödemelerin aksaması; ailede gerginlik ve sağlık üzerindeki etkisi; borcun kapatılması için yeni borç alınması",
+    "Önlemler sorunlarla eşleşmeli: okulda temel bütçe ve borç eğitimi, kredi ve taksit koşullarının sade ve görünür yazılması, ödeme gücünün önceden denetlenmesi, ücretsiz borç danışmanlığı",
+    "Sorunun bir kısmının kolay erişimden ve satış noktasındaki anlık tekliflerden geldiği belirtilmeli",
+    "Sonuçta hangi önlemin daha kalıcı sonuç vereceğine dair kısa bir değerlendirme beklenir"
+  ],
+  "common_mistakes": [
+    "Konuyu 'insanlar savurgandır' diye ahlaki bir yargıya indirgemek",
+    "Önlem bölümünü tek cümleyle geçmek",
+    "Belirli bir bankayı, ürünü ya da ülkenin düzenlemesini varsaymak",
+    "250 kelimenin altında kalmak"
+  ],
+  "difficulty": "medium"
+}

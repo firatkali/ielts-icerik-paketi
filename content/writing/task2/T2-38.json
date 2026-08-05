@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "set_id": "T2-38",
+  "skill": "writing",
+  "module": "both",
+  "task": 2,
+  "generated_by": "opus",
+  "pattern": "double_question",
+  "prompt": "A growing number of people share detailed accounts of their private lives on platforms that anyone can see.\n\nWhy is this happening? Is it a positive or a negative development?",
+  "instruction_line": "You should spend about 40 minutes on this task. Write at least 250 words.",
+  "min_words": 250,
+  "minutes": 40,
+  "topic_area": "medya",
+  "key_points": [
+    "İki soru da ayrı ayrı yanıtlanmalı: önce nedenler, sonra olumlu mu olumsuz mu",
+    "Nedenler: paylaşmanın teknik olarak çok kolaylaşması, ilgi ve onay görme isteği, benzer deneyimi yaşayanları bulma arayışı, paylaşımın gelire dönüşebilmesi",
+    "Olumlu yön: uzaktaki yakınlarla bağ, tabu sayılan sorunların konuşulabilir hâle gelmesi, destek toplulukları, ortak bilgi ve deneyim",
+    "Olumsuz yön: paylaşılan bilginin kalıcı olması ve geri alınamaması, mahremiyetin ve rıza vermemiş kişilerin (özellikle çocukların) korunmaması, kıyaslamanın yarattığı baskı",
+    "Sonuçta net bir değerlendirme yapılmalı; 'ne paylaşıldığına bağlı' denecekse ayrım açıkça kurulmalı"
+  ],
+  "common_mistakes": [
+    "Sosyal medyanın genel yarar ve zararlarını yazıp 'özel hayatın paylaşılması' odağını kaybetmek",
+    "Değerlendirme sorusunu yanıtsız bırakmak",
+    "Gerçek bir platform, kişi ya da marka adı kullanmak",
+    "250 kelimenin altında kalmak"
+  ],
+  "difficulty": "hard"
+}

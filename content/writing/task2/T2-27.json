@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "set_id": "T2-27",
+  "skill": "writing",
+  "module": "both",
+  "task": 2,
+  "generated_by": "opus",
+  "pattern": "discuss_both_views",
+  "prompt": "Some people think the money a region earns from visitors should be spent on protecting its traditions, crafts and historic places. Others believe it should go to roads, hospitals and schools that serve local residents.\n\nDiscuss both these views and give your own opinion.",
+  "instruction_line": "You should spend about 40 minutes on this task. Write at least 250 words.",
+  "min_words": 250,
+  "minutes": 40,
+  "topic_area": "turizm",
+  "key_points": [
+    "İki harcama önceliği de ayrı ayrı, dengeli biçimde açıklanmalı",
+    "Koruma tarafı: bölgeyi ziyarete değer kılan şey korunmazsa gelir kaynağı da kaybolur; el sanatları geçim ve kimlik demektir",
+    "Yerel hizmet tarafı: ziyaretçi yolu, suyu ve sağlık merkezini zaten yıpratır; gelirin oradan yaşayanlara dönmesi adildir",
+    "Kendi görüşü açıkça söylenmeli; oran ya da koşul önerilecekse (örneğin belirli bir payın ayrılması) bu net yazılmalı",
+    "İki tarafın da zayıf yanı anılmalı: yalnızca korumaya harcamak yerel ihtiyaçları ihmal eder, yalnızca altyapıya harcamak uzun vadede çekiciliği yok eder"
+  ],
+  "common_mistakes": [
+    "Turizmin genel yarar ve zararlarını yazıp harcama tercihine hiç girmemek",
+    "Bir görüşü savunup diğerini yalnızca çürütmek için anmak",
+    "Kendi görüşünü belirtmemek",
+    "250 kelimenin altında kalmak"
+  ],
+  "difficulty": "medium"
+}

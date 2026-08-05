@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "set_id": "T2-24",
+  "skill": "writing",
+  "module": "both",
+  "task": 2,
+  "generated_by": "opus",
+  "pattern": "opinion",
+  "prompt": "Some people believe that when employers choose between candidates for a job, personal qualities such as reliability and the ability to work with others matter more than qualifications and experience.\n\nTo what extent do you agree or disagree?",
+  "instruction_line": "You should spend about 40 minutes on this task. Write at least 250 words.",
+  "min_words": 250,
+  "minutes": 40,
+  "topic_area": "iş hayatı",
+  "key_points": [
+    "Görev açık bir tutum bekliyor: katılıyorum / katılmıyorum / kısmen katılıyorum",
+    "Asıl iddia bir karşılaştırma: kişisel nitelikler diplomadan ve deneyimden daha mı önemli — ikisinin de gerekli olduğunu söyleyip geçmek yetmez",
+    "En az iki gerekçe + somut örnek: teknik bilgi işbaşında öğretilebilirken güvenilirlik ve uyum kolay öğretilemez",
+    "Karşı görüşe kısa bir kabul beklenir: bazı işlerde belge ve deneyim güvenlik ya da yasal zorunluluktur, ayrıca kişisel nitelikleri ölçmek özneldir",
+    "Sonuçta tutum yeniden ve net biçimde ifade edilmeli; 'işe göre değişir' denecekse hangi işlerde hangisinin ağır bastığı açıklanmalı"
+  ],
+  "common_mistakes": [
+    "Karşılaştırmayı atlayıp iyi bir çalışanın özelliklerini saymak",
+    "Tutum belirtmeden 'her ikisi de önemlidir' deyip bırakmak",
+    "Somut iş örneği vermeden soyut genellemede kalmak",
+    "250 kelimenin altında kalmak"
+  ],
+  "difficulty": "medium"
+}

@@ -4229,3 +4229,101 @@ okla verildi ki "merdivenin başında sağda" ifadesi tek anlama gelsin.
   **E paketi, oturum 2 (15. çalıştırma)** — `T2-21`–`T2-40`: 20 deneme konusu, kalıp kotası
   önerisi **opinion 5 · her iki görüş 4 · sorun–çözüm 4 · avantaj–dezavantaj 3 · iki soruluk
   4**. Yukarıdaki yirmi konu ve kaçınılan konuşma/Academic başlıkları tekrar edilmeyecek.
+
+
+---
+
+## OPUS5-30 (15. çalıştırma: yazma 2. görev — oturum 2, 20 deneme konusu)
+
+- Tarih: 2026-08-05
+- Depo kontrolü: `content/speaking/part1/` **T01–T20 tam**, `content/speaking/part2-3/`
+  **C01–C60 tam**, `content/writing/academic-task1/` **AT01–AT30 tam**,
+  `content/writing/general-task1/` **GT01–GT20 tam**, `content/writing/task2/` **T2-01–T2-20
+  dolu, gerisi boş**. Çalıştırma listesindeki sıradaki bitmemiş paket **E paketi, oturum 2
+  (15. çalıştırma)** idi, o yapıldı. Var olan hiçbir dosyaya dokunulmadı. **20 birim**
+  üretildi, hedefle aynı.
+- Üretilen dosyalar — `content/writing/task2/T2-21.json` … `T2-40.json`:
+  - **opinion (5):** T2-21 dönem sonu sınavı yerine yıl boyu üretilen işin sayılması ·
+    T2-22 kalan yaban alanlarının korunması her türlü yapılaşmanın önünde gelmeli mi ·
+    T2-23 küçük çocuklara yönelik reklamın tümden yasaklanması · T2-24 işe alımda kişisel
+    niteliklerin diploma ve deneyimden önemli olup olmadığı · T2-25 hafif ihlallerde para
+    cezası yerine topluma yararlı ücretsiz çalışma
+  - **her iki görüş (4):** T2-26 halk sağlığı için sağlıksız gıdayı pahalılaştırmak mı
+    beslenme/egzersiz eğitimi mi · T2-27 turizm gelirinin gelenek ve tarihî yerlere mi yoksa
+    yerel yol–hastane–okula mı harcanması · T2-28 ikinci dile ilkokulun ilk yıllarında mı
+    başlanmalı yoksa ana dil oturana kadar beklenmeli mi · T2-29 kent arazisinin sakinlerin
+    ürün yetiştirmesine mi konuta mı ayrılması
+  - **sorun–çözüm (4):** T2-30 araç sayısının artması ve yolculuk sürelerinin uzaması ·
+    T2-31 kent yakınındaki nehir ve göllerin hane/tarım/sanayi atığıyla kirlenmesi ·
+    T2-32 yaşlı sayısı artarken eğitimli bakım personelinin yetmemesi · T2-33 gündelik
+    alışverişte borçlanmanın kolaylaşması ve hanelerin ödeme gücünü aşması
+  - **avantaj–dezavantaj (3):** T2-34 uzaktan kumanda edilen ve ev içi rutini kaydeden
+    cihazlar · T2-35 az sayıda yerde üretilen film/müzik/dizinin her yerde izlenmesi ·
+    T2-36 genç yetişkinlerin aile evinde daha uzun süre kalması
+  - **iki soruluk (4):** T2-37 tek bir işverene bağlı olmadan kendi hesabına çalışanların
+    artması · T2-38 özel hayatın herkese açık platformlarda ayrıntılı paylaşılması ·
+    T2-39 eskiden devletin yürüttüğü hizmetlerin özel şirketlere geçmesi · T2-40 alışverişin
+    ihtiyaç değil boş zaman etkinliği hâline gelmesi
+- **Kalıp kotası:** altmışın hedefi **opinion 14 · her iki görüş 12 · sorun–çözüm 11 ·
+  avantaj–dezavantaj 11 · iki soruluk 12**. Bu oturumda 14. oturumun bıraktığı öneriye
+  birebir uyularak **5 · 4 · 4 · 3 · 4** üretildi. **Kırk dosyanın toplamı: opinion 10 ·
+  her iki görüş 8 · sorun–çözüm 8 · avantaj–dezavantaj 6 · iki soruluk 8.**
+  **16. oturuma (T2-41–T2-60) kalan: opinion 4 · her iki görüş 4 · sorun–çözüm 3 ·
+  avantaj–dezavantaj 5 · iki soruluk 4** — toplam 20, kota tam tutar.
+- **Konu alanı dağılımı (bu oturum):** eğitim 1 · sağlık 1 · teknoloji 1 · aile ve toplum 1 ·
+  iş hayatı 2 · çevre 2 · medya 2 · tüketim 2 · şehir hayatı 1 · ulaşım 1 · kültür ve gelenek 1 ·
+  turizm 1 · devletin rolü 1 · yaşlanan nüfus 1 · dil ve iletişim 1 · suç ve ceza 1.
+  **Kırk dosyadan sonraki toplam:** eğitim, sağlık, teknoloji, aile ve toplum, iş hayatı,
+  çevre, medya, tüketim = **3'er**; şehir hayatı, ulaşım, kültür ve gelenek, turizm,
+  devletin rolü, yaşlanan nüfus, dil ve iletişim, suç ve ceza = **2'şer**.
+  **16. oturumun kuralı:** altmışta hedef 12 alan × 4 + 4 alan × 3 olduğuna göre şu anda
+  3'te olan sekiz alan **birer kez daha**, 2'de olan sekiz alandan dördü **ikişer**, kalan
+  dördü **birer** kez daha kullanılacak (8 + 8 + 4 = 20). Hangi dört alanın 3'te kalacağını
+  16. oturum seçer; öneri: şehir hayatı, ulaşım, turizm, suç ve ceza 3'te kalsın.
+- **Tekrar kaçınma:** (1) paket içi ve `T2-01`–`T2-20` ile konu cümlesi/`topic_area` çakışması
+  script ile tarandı → **0 tekrar**; (2) **C01–C60'ın 180 konuşma 3. bölüm sorusuyla**
+  otomatik kesişim taraması yapıldı — bu yüzden şu konular yazılmadı: onarmak mı yenisini
+  almak mı (C22/C56), gündelik ürün atığının azaltılması (C52), giysilerin erken değiştirilmesi
+  (C07), sessiz alanların azalması (C04), esnek başlangıç saatleri (C40), haberin yalnızca
+  çevrim içi takip edilmesi (C59), reklamın alıcıya etkisi (C48), makinelerin işleri
+  devralması (C46/C54), turist kalabalığının yayılması (C06); (3) **AT01–AT30 veri
+  konularıyla** örtüşme yok — bu yüzden su tüketimi (AT09), arazi kullanımı (AT19), hava
+  kirliliği (AT27), geri dönüşüm (AT01) ve haber kaynakları (AT30) deneme konusu yapılmadı;
+  (4) **GT01–GT20 mektup durumlarıyla** örtüşme yok.
+- **Format kararları 14. oturumla birebir sürdürüldü:** `prompt` = 1–2 cümlelik konu + boş
+  satır + kalıp cümlesinin birebir standart hâli; alan adları ve **alan sırası** `T2-01` ile
+  aynı; `key_points` **5**, `common_mistakes` **3–4**; `key_points` her zaman (a) görevin
+  sorduğu asıl şeyi, (b) iki tarafın gerekçelerini, (c) tutum/hüküm zorunluluğunu içeriyor.
+  Açıklama alanlarında vurgu için yıldız işareti kullanılmadı — 14. oturumla aynı düz metin.
+- **Kalite ölçütü:** her konuda iki karşıt görüş de savunulabilir; hiçbiri uzman bilgisi
+  istemiyor; ülkeye özgü politika, olay, kurum veya yasa geçmiyor (T2-39 özelleştirmeyi
+  bilinçle ülke adı ve siyasi tartışma olmadan kurdu); kutuplaştırıcı temalar yok — script
+  tarıyor. Gerçek marka/kişi/program adı yok; prompt'larda özel ad hiç kullanılmadı. Görünür
+  metin İngiliz İngilizcesi (`programmes`, `rubbish`, `neighbourhood`), açıklama alanları Türkçe.
+- **Ayrıcalık denetimi:** hiçbir konu yurt dışı seyahat geçmişi, araba sahipliği, yüksek gelir
+  ya da belirli bir eğitim düzeyi varsaymıyor; T2-25 para cezasının gelire göre farklı
+  hissedildiğini görevin içine yerleştirdi, T2-40 harcayamayanın dışarıda kalmasını
+  `key_points`'e yazdı, T2-36 tek bir aile modelini varsaymamayı `common_mistakes`'e koydu.
+- Zorluk dağılımı: **easy 4 · medium 12 · hard 4** (14. oturumla aynı).
+- Doğrulama: geçici `tools/_t2_02_uret.py` + `tools/_t2_02_kontrol.py` (iş bitince silindi)
+  JSON geçerliliği, zarf alanlarının **listesi ve sırası**, `set_id` ↔ dosya adı,
+  `skill/module/task`, `instruction_line` birebirliği, kalıp cümlesinin prompt sonunda
+  birebir bulunması, konu cümlesi sayısı (1–2), `key_points`/`common_mistakes` sayısı ve
+  paket içi tekrar, Türkçe/İngilizce ayrımı, Amerikan yazım taraması, yasaklı tema ve gerçek
+  marka taraması, prompt'ta özel ad taraması, görünür metinde "IELTS", **kalıp kotası**,
+  **konu alanı kotası**, kırk dosyalık konu tekrarı ve **konuşma 3. bölüm kesişimi** denetledi.
+  **Hata 0**, 16 uyarının hepsi yanlış pozitif: 15'i "Some people think … Others believe …"
+  ortak kalıbının paylaşılan kelimeleri (`people`, `believe`, `think`, `should`), 1'i
+  T2-28 ~ C50 (`second language`) — C50 "bir dili kimin daha kolay öğrendiği ve çeviri
+  araçları"nı, T2-28 ise "kaçıncı yaşta başlanmalı"yı soruyor, soru farklı.
+- `python tools/dogrula.py` → **şema hatası 0**, `writing/task2` **40** (20 → 40),
+  `writing/task1` 50, speaking 200 + 240 değişmedi, işaretli 0, pasaj lisansı eksik 0,
+  görünür metinde IELTS 0, yasak kaynak 0. Rapordaki "TAM TEST BUTUNLUGU … EKSIK" satırları
+  bu paketle ilgisiz.
+- **DURUM.txt / ilerleme.txt elle güncellenmedi** (sayaç dosyalarını `tools/calistir.py` kendi
+  commit'iyle yazıyor).
+- Atlanan/sorun: yok. **OPUS5-30'da 16 paketten 15'i tamam (530/550 birim).** Sıradaki iş
+  **E paketi, oturum 3 — son paket (16. çalıştırma)** — `T2-41`–`T2-60`: 20 deneme konusu,
+  kalıp kotası **opinion 4 · her iki görüş 4 · sorun–çözüm 3 · avantaj–dezavantaj 5 ·
+  iki soruluk 4**, konu alanı kuralı yukarıda. `T2-01`–`T2-40`'ın kırk konusu ve kaçınılan
+  konuşma/Academic/mektup başlıkları tekrar edilmeyecek. Bu paket bitince **OPUS5-30 tamam**.

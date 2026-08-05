@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "set_id": "T2-29",
+  "skill": "writing",
+  "module": "both",
+  "task": 2,
+  "generated_by": "opus",
+  "pattern": "discuss_both_views",
+  "prompt": "Some people think local authorities should set aside more land in towns for residents to grow food. Others believe that such land would be better used for housing.\n\nDiscuss both these views and give your own opinion.",
+  "instruction_line": "You should spend about 40 minutes on this task. Write at least 250 words.",
+  "min_words": 250,
+  "minutes": 40,
+  "topic_area": "şehir hayatı",
+  "key_points": [
+    "İki kullanım da ayrı ayrı, dengeli biçimde açıklanmalı",
+    "Yetiştirme alanı tarafı: taze ürün, açık havada hareket, komşuların bir araya gelmesi ve yağmur suyunu tutan yeşil zemin",
+    "Konut tarafı: merkeze yakın arsa kıttır, konut açığı doğrudan bir ihtiyaçtır ve boş bırakılan alan kirayı yukarı iter",
+    "Kendi görüşü açıkça söylenmeli; karma bir çözüm önerilecekse (çatı, boş arsa, konutla birlikte planlanan alan) somutlaştırılmalı",
+    "Karar ölçütü belirtilmeli: alanın büyüklüğü, kaç kişiye hizmet ettiği ve başka yerde konut üretilip üretilemeyeceği"
+  ],
+  "common_mistakes": [
+    "Şehirde yeşil alanın önemini anlatıp iki kullanımı karşılaştırmamak",
+    "Bir görüşü hiç savunmadan doğrudan reddetmek",
+    "Kendi görüşünü belirtmemek",
+    "250 kelimenin altında kalmak"
+  ],
+  "difficulty": "medium"
+}

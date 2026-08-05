@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "set_id": "T2-32",
+  "skill": "writing",
+  "module": "both",
+  "task": 2,
+  "generated_by": "opus",
+  "pattern": "problem_solution",
+  "prompt": "As the number of older people grows, many countries do not have enough trained staff to look after those who need help with daily life.\n\nWhat problems does this cause and what measures could be taken?",
+  "instruction_line": "You should spend about 40 minutes on this task. Write at least 250 words.",
+  "min_words": 250,
+  "minutes": 40,
+  "topic_area": "yaşlanan nüfus",
+  "key_points": [
+    "Görevin iki yarısı da yazılmalı: önce sorunlar, sonra alınabilecek önlemler",
+    "En az iki somut sorun: bakımı karşılanamayan yaşlıların güvenliği ve sağlığı; yükün aile bireylerine, çoğunlukla da işini bırakmak zorunda kalan kişilere binmesi; mevcut çalışanların tükenmesi",
+    "Önlemler sorunlarla eşleşmeli: bakım işinin ücret ve statüsünün iyileştirilmesi, kısa ve ücretsiz eğitim programları, evde bakımı destekleyen hizmetler, aileye izin ve nefes alma desteği, komşuluk temelli gönüllü ağlar",
+    "Nedenin bir kısmının işin düşük ücretli ve zor olmasından geldiği belirtilirse çözüm daha ikna edici olur",
+    "Sonuçta hangi önlemin en gerçekçi olduğuna dair kısa bir değerlendirme beklenir"
+  ],
+  "common_mistakes": [
+    "Nüfusun neden yaşlandığını anlatıp asıl sorun olan personel eksiğine geçmemek",
+    "Yalnızca 'devlet daha çok para ayırmalı' demek, mekanizmayı açıklamamak",
+    "Yaşlıları edilgen bir grup gibi tek tip anlatmak",
+    "250 kelimenin altında kalmak"
+  ],
+  "difficulty": "hard"
+}

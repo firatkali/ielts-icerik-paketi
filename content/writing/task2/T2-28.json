@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "set_id": "T2-28",
+  "skill": "writing",
+  "module": "both",
+  "task": 2,
+  "generated_by": "opus",
+  "pattern": "discuss_both_views",
+  "prompt": "Some people think children should start learning a second language in their first years at primary school. Others believe it is better to wait until they have a firm grasp of their own language.\n\nDiscuss both these views and give your own opinion.",
+  "instruction_line": "You should spend about 40 minutes on this task. Write at least 250 words.",
+  "min_words": 250,
+  "minutes": 40,
+  "topic_area": "dil ve iletişim",
+  "key_points": [
+    "İki görüş de ayrı ayrı, dengeli biçimde açıklanmalı",
+    "Erken başlama tarafı: küçük yaşta telaffuz ve dinleme kolay yerleşir, ders oyun yoluyla verilebilir",
+    "Bekleme tarafı: ilk dilde okuma ve yazma oturmadan ikinci dil dikkat ve ders saati çalar; öğretmen bulmak da güçtür",
+    "Kendi görüşü açıkça söylenmeli; 'erken ama sınırlı sürede' gibi orta bir yol savunulacaksa gerekçesi verilmeli",
+    "Yaş, ders saati ve öğretmen niteliği gibi somut değişkenlere değinilmeli — yalnızca 'dil öğrenmek faydalıdır' demek görevi karşılamaz"
+  ],
+  "common_mistakes": [
+    "İkinci dil bilmenin faydalarını sayıp 'ne zaman başlanmalı' sorusunu atlamak",
+    "İki görüşten birini yalnızca bir cümleyle geçmek",
+    "Kendi görüşünü belirtmemek",
+    "250 kelimenin altında kalmak"
+  ],
+  "difficulty": "medium"
+}

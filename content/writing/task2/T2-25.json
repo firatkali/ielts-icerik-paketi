@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "set_id": "T2-25",
+  "skill": "writing",
+  "module": "both",
+  "task": 2,
+  "generated_by": "opus",
+  "pattern": "opinion",
+  "prompt": "Courts can deal with less serious offences in several ways. Some people believe that offenders should be required to do unpaid work that benefits the community instead of paying a fine.\n\nTo what extent do you agree or disagree?",
+  "instruction_line": "You should spend about 40 minutes on this task. Write at least 250 words.",
+  "min_words": 250,
+  "minutes": 40,
+  "topic_area": "suç ve ceza",
+  "key_points": [
+    "Görev açık bir tutum bekliyor: katılıyorum / katılmıyorum / kısmen katılıyorum",
+    "Karşılaştırılan iki seçenek belli: topluma yararlı ücretsiz çalışma ile para cezası — cezaların genel amacını anlatmak tek başına yetmez",
+    "En az iki gerekçe + somut örnek: aynı para cezası gelire göre çok farklı ağırlıkta hissedilir; çalışma cezası ise verilen zararı görünür biçimde telafi eder",
+    "Karşı görüşe kısa bir kabul beklenir: denetim maliyetlidir, herkesin gündüz saatlerinde çalışabilecek durumu yoktur ve bazı ihlallerde caydırıcılık düşebilir",
+    "Sonuçta tutum yeniden ve net biçimde ifade edilmeli"
+  ],
+  "common_mistakes": [
+    "Ağır suçlara kayıp görevin 'hafif ihlal' çerçevesinden çıkmak",
+    "Tutum belirtmeden iki seçeneği listelemek",
+    "Belirli bir ülkenin yasasını veya kurumunu varsaymak",
+    "250 kelimenin altında kalmak"
+  ],
+  "difficulty": "medium"
+}

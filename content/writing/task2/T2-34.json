@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "set_id": "T2-34",
+  "skill": "writing",
+  "module": "both",
+  "task": 2,
+  "generated_by": "opus",
+  "pattern": "advantages_disadvantages",
+  "prompt": "Many homes now contain devices that can be operated from a distance and that record information about the household's daily routines.\n\nDo the advantages outweigh the disadvantages?",
+  "instruction_line": "You should spend about 40 minutes on this task. Write at least 250 words.",
+  "min_words": 250,
+  "minutes": 40,
+  "topic_area": "teknoloji",
+  "key_points": [
+    "Görev bir hüküm bekliyor: avantajlar dezavantajlardan ağır basıyor mu, basmıyor mu",
+    "Avantaj tarafı: enerji ve zaman tasarrufu, güvenlik, yalnız yaşayan ya da hareketi kısıtlı kişiler için bağımsızlık",
+    "Dezavantaj tarafı: toplanan kayıtların kimde kaldığının bilinmemesi, arıza ve bağlantı kesintisinde evin kullanılamaz hâle gelmesi, maliyet ve hızlı eskime",
+    "İki taraf da tartıldıktan sonra net bir sonuca varılmalı; 'duruma göre değişir' denecekse hangi koşulda hangi tarafın ağır bastığı yazılmalı",
+    "Somut ev içi örnek verilmeli — yalnızca soyut 'teknoloji hayatı kolaylaştırır' yeterli değil"
+  ],
+  "common_mistakes": [
+    "İki listeyi yazıp hüküm vermemek",
+    "Yalnızca avantajları anlatıp dezavantaja bir cümle ayırmak",
+    "Gerçek marka veya ürün adı kullanmak",
+    "250 kelimenin altında kalmak"
+  ],
+  "difficulty": "medium"
+}

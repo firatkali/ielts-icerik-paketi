@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "set_id": "T2-26",
+  "skill": "writing",
+  "module": "both",
+  "task": 2,
+  "generated_by": "opus",
+  "pattern": "discuss_both_views",
+  "prompt": "Some people think the best way to improve public health is to make unhealthy food and drink more expensive. Others believe that teaching people about diet and exercise would be more effective.\n\nDiscuss both these views and give your own opinion.",
+  "instruction_line": "You should spend about 40 minutes on this task. Write at least 250 words.",
+  "min_words": 250,
+  "minutes": 40,
+  "topic_area": "sağlık",
+  "key_points": [
+    "İki görüş de ayrı ayrı, dengeli biçimde açıklanmalı; biri tek cümleyle geçiştirilmemeli",
+    "Fiyat tarafı: pahalı olan daha az alınır, elde edilen gelir sağlık hizmetine aktarılabilir",
+    "Eğitim tarafı: bilgi ve alışkanlık kalıcıdır, seçim özgürlüğüne dokunmaz ve tüm gelir gruplarına ulaşır",
+    "Kendi görüşü açıkça söylenmeli — 'ikisi de faydalı' denecekse hangisinin daha ağır bastığı gerekçelendirilmeli",
+    "İki yaklaşımın da zayıf yanına değinilmeli: fiyat artışı dar gelirliyi orantısız etkiler, eğitim ise tek başına yavaş sonuç verir"
+  ],
+  "common_mistakes": [
+    "Yalnızca bir görüşü yazıp diğerini birkaç kelimeyle geçmek",
+    "Kendi görüşünü hiç belirtmemek ya da yalnızca son cümlede ima etmek",
+    "Sağlıklı beslenmenin faydalarını anlatıp iki yöntemi karşılaştırmayı unutmak",
+    "250 kelimenin altında kalmak"
+  ],
+  "difficulty": "medium"
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "set_id": "T2-40",
+  "skill": "writing",
+  "module": "both",
+  "task": 2,
+  "generated_by": "opus",
+  "pattern": "double_question",
+  "prompt": "For many people, shopping has become a way of spending free time rather than something done only when goods are needed.\n\nWhy is this happening? Is it a positive or a negative development?",
+  "instruction_line": "You should spend about 40 minutes on this task. Write at least 250 words.",
+  "min_words": 250,
+  "minutes": 40,
+  "topic_area": "tüketim",
+  "key_points": [
+    "İki soru da ayrı ayrı yanıtlanmalı: önce nedenler, sonra olumlu mu olumsuz mu",
+    "Nedenler: alışveriş yerlerinin kafe, sinema ve oyun alanıyla birlikte tasarlanması, ucuz ve sürekli yenilenen ürün akışı, kapalı ve rahat bir buluşma yeri olması, gezinmenin eğlenceye dönüşmesi",
+    "Olumlu yön: ucuz bir sosyal etkinlik, her havada güvenli bir buluşma noktası, yerel istihdam ve canlı ticaret",
+    "Olumsuz yön: ihtiyaç duyulmayan alımlar ve artan atık, para ve zaman kaybı, boş zamanın harcamaya bağlanması, harcayamayanın dışarıda kalması",
+    "Sonuçta net bir değerlendirme yapılmalı"
+  ],
+  "common_mistakes": [
+    "Yalnızca çevrim içi ile mağaza karşılaştırmasına kayıp asıl konuyu kaçırmak",
+    "Nedenleri yazıp olumlu/olumsuz hükmünü vermemek",
+    "Gerçek mağaza ya da marka adı kullanmak",
+    "250 kelimenin altında kalmak"
+  ],
+  "difficulty": "easy"
+}

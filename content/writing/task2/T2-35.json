@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "set_id": "T2-35",
+  "skill": "writing",
+  "module": "both",
+  "task": 2,
+  "generated_by": "opus",
+  "pattern": "advantages_disadvantages",
+  "prompt": "Films, music and television programmes made in a small number of places are now watched and listened to almost everywhere in the world.\n\nDo the advantages outweigh the disadvantages?",
+  "instruction_line": "You should spend about 40 minutes on this task. Write at least 250 words.",
+  "min_words": 250,
+  "minutes": 40,
+  "topic_area": "kültür ve gelenek",
+  "key_points": [
+    "Görev bir hüküm bekliyor: avantajlar dezavantajlardan ağır basıyor mu",
+    "Avantaj tarafı: ortak bir kültürel dil, başka hayatlara duyulan merak ve anlayış, yabancı dile kolay temas, izleyicinin geniş seçim imkânı",
+    "Dezavantaj tarafı: yerel yapımların seyirci ve gelir kaybetmesi, anlatı ve beğenilerin tek tipleşmesi, az sayıda üreticinin gündemi belirlemesi",
+    "İki taraf tartıldıktan sonra net bir sonuca varılmalı",
+    "Yerel üretimi destekleyen koşullar anılırsa (kota, fon, altyazı ve dublaj) hüküm daha güçlü olur"
+  ],
+  "common_mistakes": [
+    "Belirli bir ülkeyi ya da gerçek yapım/şirket adını anmak",
+    "Yalnızca 'kültür kaybı' üzerine yazıp faydaları hiç ele almamak",
+    "Hüküm vermeden iki tarafı listelemek",
+    "250 kelimenin altında kalmak"
+  ],
+  "difficulty": "medium"
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "set_id": "T2-23",
+  "skill": "writing",
+  "module": "both",
+  "task": 2,
+  "generated_by": "opus",
+  "pattern": "opinion",
+  "prompt": "Advertisements aimed directly at young children appear on screens, inside games and in public places. Some people believe that this kind of advertising should not be permitted at all.\n\nTo what extent do you agree or disagree?",
+  "instruction_line": "You should spend about 40 minutes on this task. Write at least 250 words.",
+  "min_words": 250,
+  "minutes": 40,
+  "topic_area": "medya",
+  "key_points": [
+    "Görev açık bir tutum bekliyor: katılıyorum / katılmıyorum / kısmen katılıyorum",
+    "Asıl soru tümden yasak boyutu — reklamın çocukları etkilediğini söylemek tek başına yetmez",
+    "En az iki gerekçe + somut örnek: küçük çocuk ikna etme niyetini ayırt edemez ve aile üzerinde harcama baskısı oluşur",
+    "Karşı görüşe kısa bir kabul beklenir: reklam gelirleri ücretsiz içeriği ayakta tutar ve denetimin bir kısmı aileye düşer; tam yasak yerine saat, mecra ya da içerik sınırı savunulabilir",
+    "Sonuçta tutum yeniden ve net biçimde ifade edilmeli"
+  ],
+  "common_mistakes": [
+    "Yasak boyutunu atlayıp genel olarak 'reklam çoktur' diye yazmak",
+    "Tutum belirtmeden iki tarafı listelemek",
+    "Yalnızca duygusal dille yazıp gerekçe ve örnek vermemek",
+    "250 kelimenin altında kalmak"
+  ],
+  "difficulty": "medium"
+}
