@@ -1,0 +1,82 @@
+{
+  "schema_version": "1.0",
+  "set_id": "T06-weather-and-seasons",
+  "skill": "speaking",
+  "part": 1,
+  "topic": "Weather and seasons",
+  "topic_tr": "Hava durumu ve mevsimler",
+  "generated_by": "opus",
+  "expected_answer_seconds": [20, 40],
+  "items": [
+    {
+      "number": 1,
+      "prompt": "What is the weather like where you live at this time of year?",
+      "focus": "temel bilgi",
+      "difficulty": "easy",
+      "useful_language": ["it's fairly mild", "we get a lot of rain", "the mornings are chilly", "it can be quite humid"]
+    },
+    {
+      "number": 2,
+      "prompt": "How often do you check the weather forecast?",
+      "focus": "alışkanlık",
+      "difficulty": "easy",
+      "useful_language": ["first thing in the morning", "only if I'm going somewhere", "out of habit", "I glance at it on my phone"]
+    },
+    {
+      "number": 3,
+      "prompt": "What do you usually do on a very hot day?",
+      "focus": "alışkanlık",
+      "difficulty": "easy",
+      "useful_language": ["I stay in the shade", "keep the blinds down", "I drink far more water", "go out early or late"]
+    },
+    {
+      "number": 4,
+      "prompt": "Which season suits you best, and why?",
+      "focus": "tercih ve sebep",
+      "difficulty": "medium",
+      "useful_language": ["it's the most comfortable", "you can be outdoors all day", "the light lasts longer", "everything feels fresher"]
+    },
+    {
+      "number": 5,
+      "prompt": "How does the weather affect what you do in a normal week?",
+      "focus": "açıklama",
+      "difficulty": "medium",
+      "useful_language": ["it can throw my plans out", "I'll walk rather than take the bus", "we end up staying in", "it makes very little difference"]
+    },
+    {
+      "number": 6,
+      "prompt": "What kind of weather did you look forward to when you were a child?",
+      "focus": "geçmiş",
+      "difficulty": "medium",
+      "useful_language": ["we couldn't wait for", "it meant we could play outside", "the whole street would be out", "I remember it being warmer"]
+    },
+    {
+      "number": 7,
+      "prompt": "Why do some people prefer cooler places to hot ones?",
+      "focus": "başkaları açısı ve sebep",
+      "difficulty": "medium",
+      "useful_language": ["they find the heat draining", "you can always put a coat on", "they sleep better", "it suits certain kinds of work"]
+    },
+    {
+      "number": 8,
+      "prompt": "What would you do differently if the weather were warmer all year?",
+      "focus": "varsayım",
+      "difficulty": "hard",
+      "useful_language": ["I'd spend far more time outside", "we'd eat outdoors", "I imagine I'd get restless", "the novelty would wear off"]
+    },
+    {
+      "number": 9,
+      "prompt": "What differences have you noticed in the weather over the past few years?",
+      "focus": "değişim",
+      "difficulty": "hard",
+      "useful_language": ["the seasons seem less defined", "it's far less predictable", "we get sudden downpours", "the summers drag on"]
+    },
+    {
+      "number": 10,
+      "prompt": "How is the weather in your area different from other places you know?",
+      "focus": "karşılaştırma",
+      "difficulty": "hard",
+      "useful_language": ["compared with the coast", "it's much drier inland", "we're sheltered from the wind", "the difference is striking"]
+    }
+  ]
+}
