@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "set_id": "AT22",
+  "skill": "writing",
+  "module": "academic",
+  "task": 1,
+  "generated_by": "opus",
+  "prompt": "The chart below shows the average number of hours worked each week in five types of work in one country in 2002 and in 2022.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+  "instruction_line": "You should spend about 20 minutes on this task. Write at least 150 words.",
+  "min_words": 150,
+  "minutes": 20,
+  "visual": {
+    "kind": "bar_chart",
+    "title": "Average weekly working hours in five types of work, 2002 and 2022",
+    "x_label": "Type of work",
+    "y_label": "Hours worked per week",
+    "categories": ["Farming", "Manufacturing", "Building work", "Shops and cafés", "Information services"],
+    "series": [
+      { "name": "2002", "values": [48, 44, 45, 39, 38] },
+      { "name": "2022", "values": [43, 38, 42, 34, 40] }
+    ],
+    "unit": "saat/hafta",
+    "svg": null,
+    "alt": "Beş iş kolunda haftalık ortalama çalışma saatini 2002 ve 2022 için karşılaştıran sütun grafik."
+  },
+  "visuals": null,
+  "key_points": [
+    "Beş iş kolunun dördünde haftalık çalışma süresi kısalıyor; tek istisna bilgi hizmetleri, orada 38 saatten 40 saate çıkıyor",
+    "Tarım her iki yılda da en uzun çalışılan iş kolu (48 → 43 saat), dolayısıyla sıralamanın tepesi değişmiyor",
+    "En büyük düşüş imalatta: 6 saat (44 → 38); en küçük düşüş inşaatta: 3 saat (45 → 42)",
+    "Sıralamanın alt ucu yer değiştiriyor: 2002'de en kısa süre bilgi hizmetlerindeyken (38 saat), 2022'de bu yer dükkân ve kafelere geçiyor (34 saat)",
+    "İş kolları arasındaki fark biraz daralıyor: 2002'de 10 saatlik aralık (38-48) 2022'de 9 saate iniyor (34-43)",
+    "40 saat eşiğine göre bakıldığında 2002'de üç iş kolu bu eşiğin üzerindeydi; 2022'de yalnızca ikisi üzerinde kalıyor, biri tam 40 saatte, ikisi altında"
+  ],
+  "common_mistakes": [
+    "Tek istisnayı (bilgi hizmetlerindeki artış) atlayıp 'all sectors fell' demek",
+    "İki yılı ayrı ayrı listelemek, aradaki değişimi ve sıra değişimini karşılaştırmamak",
+    "Saat ile yüzdeyi karıştırmak ('working hours fell by 6%')",
+    "Görüş bildirmek ('shorter hours are better for workers') — bu görevde yasak",
+    "Yalnızca en yüksek ve en düşük sütunu anlatıp ortadaki üç iş kolunu hiç anmamak"
+  ],
+  "topic": "iş kollarına göre haftalık çalışma saatleri",
+  "difficulty": "easy"
+}

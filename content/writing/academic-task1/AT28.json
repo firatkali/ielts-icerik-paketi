@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0",
+  "set_id": "AT28",
+  "skill": "writing",
+  "module": "academic",
+  "task": 1,
+  "generated_by": "opus",
+  "prompt": "The chart below shows how much grain, fruit and vegetables were produced in four farming areas of one country in 2023.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+  "instruction_line": "You should spend about 20 minutes on this task. Write at least 150 words.",
+  "min_words": 150,
+  "minutes": 20,
+  "visual": {
+    "kind": "bar_chart",
+    "title": "Production of grain, fruit and vegetables in four farming areas, 2023",
+    "x_label": "Farming area",
+    "y_label": "Production (thousand tonnes)",
+    "categories": ["Eastvale", "Highmoor", "Rivermouth", "South Plain"],
+    "series": [
+      { "name": "Grain", "values": [420, 180, 240, 640] },
+      { "name": "Fruit", "values": [90, 150, 310, 70] },
+      { "name": "Vegetables", "values": [160, 120, 280, 150] }
+    ],
+    "unit": "bin ton",
+    "svg": null,
+    "alt": "Dört tarım bölgesinde tahıl, meyve ve sebze üretimini bin ton olarak karşılaştıran gruplandırılmış sütun grafik."
+  },
+  "visuals": null,
+  "key_points": [
+    "Tahıl üç ürün içinde açık ara en büyüğü: dört bölgede toplam 1.480 bin ton, yani toplam üretimin yarısından fazlası (2.810 bin ton içinde)",
+    "En yüksek tek değer South Plain'in tahıl üretimi (640 bin ton); bu bölge hem toplamda birinci (860 bin ton) hem de en tek yönlü bölge — üretiminin yaklaşık dörtte üçü tahıl",
+    "Rivermouth, meyvenin başı çektiği tek bölge (310 bin ton) ve dört bölgenin toplam meyve üretiminin tam yarısını tek başına karşılıyor",
+    "Highmoor üç üründe de en düşük ya da en düşüğe yakın; 450 bin tonluk toplamıyla en küçük bölge, ancak üç ürünü en dengeli dağılan bölge de o (180 / 150 / 120)",
+    "Eastvale tahıl ağırlıklı (420 bin ton) ama meyvede zayıf (90 bin ton); en az meyveyi ise South Plain üretiyor (70 bin ton)",
+    "Ürünler arası fark ölçeklerde de görülüyor: tahılda bölgeler arası aralık çok geniş (180-640), sebzede ise dar (120-280)"
+  ],
+  "common_mistakes": [
+    "On iki sütunu tek tek okuyup iki ana örüntüyü (tahılın baskınlığı, Rivermouth'un meyvede ayrışması) vermemek",
+    "Bölgeleri ürünlere göre karşılaştırmayı unutup her bölgeyi ayrı bir paragrafta listelemek",
+    "Bin ton birimini düşürmek ('Eastvale produced 420 grain')",
+    "Görüş ya da öneri eklemek ('Highmoor needs to increase its output')",
+    "Toplamları hiç hesaplamayıp hangi bölgenin en çok ürettiğini söylememek"
+  ],
+  "topic": "bölgelere göre tarım ürünü üretimi",
+  "difficulty": "easy"
+}

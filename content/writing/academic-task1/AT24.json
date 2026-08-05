@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "set_id": "AT24",
+  "skill": "writing",
+  "module": "academic",
+  "task": 1,
+  "generated_by": "opus",
+  "prompt": "The table below shows the average number of visits made to a health centre per person in one year, by age group and type of area, in one region in 2023.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+  "instruction_line": "You should spend about 20 minutes on this task. Write at least 150 words.",
+  "min_words": 150,
+  "minutes": 20,
+  "visual": {
+    "kind": "table",
+    "title": "Visits to a health centre per person per year, by age group and area, 2023",
+    "x_label": null,
+    "y_label": null,
+    "chart_data": {
+      "headers": ["Age group", "City areas", "Small towns", "Country areas", "All three areas"],
+      "rows": [
+        ["Under 18", 3.2, 3.0, 2.8, 3.0],
+        ["18-39", 2.4, 2.2, 1.7, 2.1],
+        ["40-64", 4.0, 3.8, 3.3, 3.7],
+        ["65 and over", 8.6, 8.0, 6.8, 7.8]
+      ]
+    },
+    "unit": "ziyaret / kişi / yıl",
+    "svg": null,
+    "alt": "Dört yaş grubunun üç alan türünde kişi başına yıllık sağlık merkezi ziyareti sayısını ve üç alanın ortalamasını gösteren tablo."
+  },
+  "visuals": null,
+  "key_points": [
+    "En belirgin örüntü yaşla birlikte artış: 65 yaş üstü grup üç alan ortalamasında yılda 7,8 ziyaretle en yüksek, 18-39 grubu 2,1 ziyaretle en düşük — aradaki fark yaklaşık dört kat",
+    "Artış düz bir çizgi değil: 18 yaş altı (3,0) ile 18-39 arası (2,1) arasında düşüş var, sonra 40-64'te (3,7) yeniden yükseliyor",
+    "Alan türü sıralaması dört yaş grubunun hepsinde aynı: şehir alanları en yüksek, küçük kasabalar ortada, kırsal alanlar en düşük",
+    "Şehir ile kırsal arasındaki fark yaşlılarda en geniş (8,6'ya karşı 6,8; 1,8 ziyaret), 18 yaş altında ise en dar (3,2'ye karşı 2,8; 0,4 ziyaret)",
+    "En yüksek tek değer şehirdeki 65 yaş üstü grubu (8,6), en düşük tek değer kırsaldaki 18-39 grubu (1,7); ikisi arasında beş kattan fazla fark var",
+    "Son sütun üç alan türünün ortalamasıdır, toplamı değil"
+  ],
+  "common_mistakes": [
+    "Yirmi hücreyi tek tek okuyup iki ana örüntüyü (yaş ↑ ziyaret ↑, şehir > kasaba > kırsal) özetlememek",
+    "18-39 grubundaki düşüşü atlayıp 'visits rise steadily with age' demek",
+    "Ortalamayı toplam sanmak ('people made 3.0 visits in total')",
+    "Sebep açıklamak ya da öneri getirmek ('more health centres should be built in the countryside')",
+    "Ondalık sayıları yuvarlayıp iki hücreyi eşitlemek ve karşılaştırmayı kaybetmek"
+  ],
+  "topic": "sağlık merkezi ziyaretleri",
+  "difficulty": "medium"
+}

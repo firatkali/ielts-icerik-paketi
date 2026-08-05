@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0",
+  "set_id": "AT30",
+  "skill": "writing",
+  "module": "academic",
+  "task": 1,
+  "generated_by": "opus",
+  "prompt": "The pie chart below shows the main source of news for adults in one country in 2024, and the bar chart shows how long four age groups spent following the news each day.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+  "instruction_line": "You should spend about 20 minutes on this task. Write at least 150 words.",
+  "min_words": 150,
+  "minutes": 20,
+  "visual": null,
+  "visuals": [
+    {
+      "kind": "pie_chart",
+      "title": "Main source of news for adults, 2024",
+      "x_label": null,
+      "y_label": null,
+      "categories": ["News websites and apps", "Television", "Social media", "Radio", "Printed newspapers"],
+      "series": [
+        { "name": "2024", "values": [31, 27, 22, 12, 8] }
+      ],
+      "unit": "%",
+      "svg": null,
+      "alt": "Yetişkinlerin 2024'te haberi öncelikle hangi kaynaktan aldığını yüzde olarak gösteren pasta grafik."
+    },
+    {
+      "kind": "bar_chart",
+      "title": "Time spent following the news each day by age group, 2024",
+      "x_label": "Age group",
+      "y_label": "Minutes per day",
+      "categories": ["18-29", "30-44", "45-59", "60 and over"],
+      "series": [
+        { "name": "Average time", "values": [24, 33, 45, 62] }
+      ],
+      "unit": "dakika/gün",
+      "svg": null,
+      "alt": "Dört yaş grubunun günde ortalama kaç dakika haber takip ettiğini gösteren sütun grafik."
+    }
+  ],
+  "key_points": [
+    "Haber siteleri ve uygulamaları en yaygın ana kaynak (%31), televizyon %27 ile hemen arkasında; ikisi arasındaki fark yalnızca 4 puan",
+    "Ekran dışı ve basılı kaynaklar küçük kalıyor: radyo %12, basılı gazete %8 — gazete en küçük dilim ve web sitelerinin dörtte birinden az",
+    "İnternet üzerinden gelen iki kaynak birlikte alındığında (haber siteleri %31 + sosyal medya %22 = %53) yetişkinlerin yarısından fazlasını kapsıyor",
+    "Haber takibine ayrılan süre yaşla birlikte istikrarlı biçimde artıyor: 24 dakikadan 62 dakikaya, yani en yaşlı grup en genç grubun yaklaşık iki buçuk katı süre ayırıyor",
+    "Artış her basamakta hızlanıyor: 18-29'dan 30-44'e 9 dakika, sonra 12 dakika, en son 17 dakika ekleniyor",
+    "İki görsel farklı şeyleri ölçüyor — biri hangi kaynağın kullanıldığını (%), diğeri günlük süreyi (dakika); pasta yaş gruplarına göre ayrılmıyor"
+  ],
+  "common_mistakes": [
+    "İki görselden yalnızca birini anlatmak — görev ikisini de kapsıyor",
+    "Yüzde ile dakikayı karıştırmak ('31% of people watched the news for 24 minutes')",
+    "Pastadaki dağılımı yaş gruplarına bağlamak ('young people mostly use social media') — grafikte böyle bir ayrım yok",
+    "Sütunlardaki artışın hızlandığını fark etmeyip yalnızca en yüksek ve en düşük sütunu vermek",
+    "Sebep uydurmak ya da geleceğe dair tahmin yürütmek ('newspapers will disappear within ten years')"
+  ],
+  "topic": "haber kaynakları ve günlük haber takibi",
+  "difficulty": "hard"
+}

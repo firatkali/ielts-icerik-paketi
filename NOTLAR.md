@@ -3871,3 +3871,102 @@ okla verildi ki "merdivenin başında sağda" ifadesi tek anlama gelsin.
   kalan kotanın tamamı (çizgi 2 · sütun 2 · pasta 1 · tablo 1 · süreç 2 · harita 1 · karma 1).
   9. ve 10. oturumun yirmi konusu tekrar edilmeyecek. Referans metinleri için
   `python tools/pdf_metin.py referans/<ad>.pdf referans/text/<ad>.txt` çalıştırılabilir.
+
+---
+
+## OPUS5-30 (11. çalıştırma: yazma Academic 1. görev — oturum 3, 10 görev — **C paketi tamam**)
+
+- Tarih: 2026-08-05
+- Depo kontrolü: `content/speaking/part1/` **T01–T20 tam** (200 soru), `content/speaking/part2-3/`
+  **C01–C60 tam** (240 birim), `content/writing/academic-task1/` **AT01–AT20 dolu**,
+  `general-task1/` ve `task2/` **boş**. Çalıştırma listesindeki sıradaki bitmemiş paket
+  **C paketi, oturum 3 (11. çalıştırma)** idi, o yapıldı. Var olan hiçbir dosyaya dokunulmadı.
+  **10 birim** üretildi, hedefle aynı. Bununla birlikte **Academic 1. görev paketi (30 görev)
+  tamamlandı.**
+- Üretilen dosyalar — `content/writing/academic-task1/AT21.json` … `AT30.json`:
+  - **çizgi grafik (2):** AT21 üç biçimde kitap satışı, milyon adet (2010–2024) ·
+    AT27 üç şehirde havadaki ince toz, mikrogram/m³ (2005–2025)
+  - **sütun grafik (2):** AT22 beş iş kolunda haftalık çalışma saati (2002 / 2022) ·
+    AT28 dört tarım bölgesinde tahıl, meyve ve sebze üretimi, bin ton (2023)
+  - **pasta grafik (1, iki pasta):** AT23 iki yaş grubunun ev değiştirme sebepleri (2023)
+  - **tablo (1):** AT24 dört yaş grubunun üç alan türünde kişi başına yıllık sağlık merkezi
+    ziyareti (2023)
+  - **süreç şeması (2):** AT25 yünün kırkımdan ipliğe dönüşmesi (çiftlik → fabrika, 8 aşama,
+    kısa liflerin ayrıldığı yan kol) · AT29 buğdaydan paketli ekmeğe (değirmen → fırın,
+    9 aşama, kepeğin ayrıldığı yan kol)
+  - **harita (1):** AT26 Ashcombe kent parkı, 2002 → 2024
+  - **karma (1):** AT30 yetişkinlerin ana haber kaynağı (pasta, 2024) + yaş gruplarına göre
+    günlük haber takip süresi (sütun, 2024)
+- **KULLANILAN GÖREV KONULARI (bu oturum):** kitap biçimlerine göre satışlar · iş kollarına
+  göre haftalık çalışma saatleri · ev değiştirme sebepleri · sağlık merkezi ziyaretleri ·
+  yünün üretimi ve ipliğe dönüştürülmesi · kent parkının dönüşümü (harita) · havadaki ince
+  toz miktarı · bölgelere göre tarım ürünü üretimi · buğdaydan ekmeğe üretim süreci ·
+  haber kaynakları ve günlük haber takibi.
+  **Academic 1. görevde otuz konunun otuzu da farklı; paket kapandı, yeni oturum gerekmiyor.**
+- **Görsel türü kotası (AT01–AT30, hedefle birebir):** çizgi 6/6 · sütun 6/6 · pasta 4/4 ·
+  tablo 4/4 · süreç 4/4 · harita 3/3 · karma 3/3 = **30/30** (denetim scripti doğruladı).
+- **Uydurma yer adları** (gerçek yer/kurum/marka yok): Ashport, Corley, Bellworth (AT27),
+  Eastvale, Highmoor, Rivermouth, South Plain (AT28), Ashcombe ve Mill Road (AT26).
+  Diğer görevlerde bilinçli olarak "one country", "one region" denildi.
+- **Veri tutarlılığı denetlendi:** AT23'te iki pasta da tam **100**, AT30 pastası **100**;
+  AT24'te "üç alanın ortalaması" sütununun dördü de üç hücrenin ortalamasıyla **birebir**
+  tutuyor (3,0 · 2,1 · 3,7 · 7,8); AT28'de bölge toplamları 670 / 450 / 830 / 860 (genel
+  toplam 2.810), Rivermouth'un meyvesi 310 = dört bölgenin meyve toplamının **tam yarısı**,
+  South Plain'in tahılı 640 = kendi üretiminin **%74'ü**; AT21'de yıl toplamları 102 → 172
+  milyon. Her görselde anlatılacak belirgin bir şey var — kesişme (AT21'de sesli kitap ↔
+  e-kitap, AT27'de iki kesişme ve sıralamanın **tamamen tersine dönmesi**), zirve ve geri
+  çekilme (AT21 e-kitap 2019, AT27 Bellworth 2020), tek istisna (AT22'de yalnızca bilgi
+  hizmetlerinde artış), keskin karşıtlık (AT24'te 8,6'ya karşı 1,7; AT28'de meyvede
+  Rivermouth ↔ South Plain), hızlanan artış (AT30'da 9 → 12 → 17 dakika). Düz seri yok
+  (script her seride değişim aralığının tepe değerin %10'unu aştığını doğruladı).
+  Seri sayısı en çok 3, kategori sayısı en çok 6, tablo satırı 4.
+- **SVG kuralları** (AT25 ve AT29 süreç, AT26 harita): `viewBox` var, kökte sabit
+  `width`/`height` **yok**, yalnızca `svg/defs/marker/g/rect/circle/path/text`,
+  `fill`/`stroke` yalnızca `none` ve `black`, `font-size="12"`,
+  `font-family="sans-serif"`; bütün metin/kutu/yol koordinatları `viewBox` içinde ve
+  **kutular çakışmıyor** (ayrı bir geometri scripti her rect çiftini ve her etiketin kendi
+  kutusuna sığdığını denetledi). AT26'da iki durum yan yana ve **`BEFORE (2002)` /
+  `AFTER (2024)`** başlıklı. İki süreç şeması bilinçli olarak farklı düzende: AT25 dörtlü iki
+  sıradan oluşan yılan düzeni, "ON THE FARM / AT THE MILL" ayrımı ve **aşağı** çıkan yan kol;
+  AT29 ise 3+3+3 düzeninde dokuz aşama ve **yukarı** çıkan yan kol. İkisi de doğrusal —
+  döngüsel şema AT15'te vardı, AT05 ise arıtma hattıydı.
+- **Şema kararları:** 9. ve 10. oturumun kararları birebir sürdürüldü — çizgi/sütun/pasta
+  görsellerinde `categories` + `series` doğrudan `visual` içinde, tabloda
+  `chart_data.headers` + `chart_data.rows`, `process`/`map`'te `chart_data: null` + `svg`
+  dolu, karma görevde (AT30) `visual: null` + iki nesnelik `visuals`. `instruction_line`
+  otuz dosyada da aynı, görev metinleri resmî kapanış cümlesiyle bitiyor.
+- **Tekrar kaçınma:** script AT01–AT30'un **topic**, **prompt** ve **görsel başlığı**
+  alanlarını karşılaştırdı — çakışma 0. İçerik düzeyinde de bilinçli ayrım yapıldı: AT21
+  *kitap satışı* (AT02 kütüphane ziyaretiydi), AT22 *çalışma saati* (AT14 günlük zaman
+  kullanımıydı, orada iş yalnızca bir satırdı), AT23 *taşınma sebebi* (AT18 konut
+  **yapımı**ydı), AT24 *sağlık hizmeti kullanımı* (yeni alan), AT26 *park* (AT06 köy, AT16
+  liman), AT27 *hava kalitesi* (AT01 atık, AT03/AT11 enerjiydi), AT28 *tarımsal üretim*
+  (AT19 arazi **payı**ydı), AT30 *haber alışkanlıkları* (AT07 internet **bağlantısı**ydı).
+  Dinleme/okuma paketleriyle senaryo çakışması yok.
+- **Kültürel tarafsızlık:** ülke adı yok, ayrıcalık varsayımı yok, din/alkol/siyaset/savaş/
+  cinsellik yok, gerçek marka/kurum/kişi yok, görünür metinde "IELTS" geçmiyor. Görev
+  metinleri İngiliz İngilizcesinde (`Summarise`, `metre`, `centre` yazımları); denetim
+  scripti Amerikan yazım listesini taradı — 0 eşleşme. Açıklama alanları (`key_points`,
+  `common_mistakes`, `alt`, `topic`) Türkçe.
+- Doğrulama: iki geçici scriptle (`tools/_at11_kontrol.py` ve `tools/_at11_svg.py`, sonra
+  ikisi de silindi) JSON geçerliliği, zarf alanları, `set_id` ↔ dosya adı,
+  `instruction_line`/kapanış kalıbı, `key_points` (4–6) ve `common_mistakes` (3–5) sayısı,
+  görsel türü kotası, pasta toplamları, seri-kategori uzunluk uyumu, düz seri taraması,
+  tablo satır-sütun uyumu ve ortalama sütununun aritmetiği, SVG etiket/renk/`viewBox`/font/
+  sınır/çakışma denetimi, harita `BEFORE`/`AFTER` başlıkları, AT01–AT30 arası topic/prompt/
+  başlık tekrarı denetlendi. **Hata 0** (beş yanlış pozitif: eski dosyalardaki Türkçe
+  cümlelerde Türkçeye özgü harf bulunmaması). İlk turda iki sayısal ifade düzeltildi:
+  AT27'de "7-10 birim" → **"7-11 birim"**, AT22'de 40 saat eşiği cümlesi (2002'de üç, 2022'de
+  iki iş kolu eşiğin üzerinde, biri tam 40 saatte) — ikisi de veriyle birebir uyumlu hâle
+  getirildi.
+- `python tools/dogrula.py` → **şema hatası 0**, `writing/task1` **30** (20 → 30), speaking
+  200 + 240 değişmedi, pasaj lisansı eksik 0, görünür metinde IELTS 0, yasak kaynak 0.
+  Rapordaki "TAM TEST BUTUNLUGU … EKSIK" satırları bu paketle ilgisiz.
+- **DURUM.txt / ilerleme.txt elle güncellenmedi** (sayaç dosyalarını `tools/calistir.py` kendi
+  commit'iyle yazıyor).
+- Atlanan/sorun: yok. **OPUS5-30'da 16 paketten 11'i tamam (470/550 birim).** Sıradaki iş
+  **D paketi, oturum 1 (12. çalıştırma)** — `content/writing/general-task1/` altına
+  `GT01`–`GT10`: 10 mektup görevi. Yirmi mektubun ton kotası **resmi 7 · yarı resmi 7 ·
+  samimi 6** olduğu için bu oturumda dengeli bir kesit alınmalı (örneğin resmi 4 · yarı
+  resmi 3 · samimi 3), kalanı 13. çalıştırmaya bırakılmalı. Academic 1. görevin otuz konusu
+  ve konuşma paketindeki konular tekrar edilmeyecek.

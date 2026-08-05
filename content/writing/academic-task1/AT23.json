@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "set_id": "AT23",
+  "skill": "writing",
+  "module": "academic",
+  "task": 1,
+  "generated_by": "opus",
+  "prompt": "The charts below show the main reason given for moving home by two age groups in one region in 2023.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+  "instruction_line": "You should spend about 20 minutes on this task. Write at least 150 words.",
+  "min_words": 150,
+  "minutes": 20,
+  "visual": {
+    "kind": "pie_chart",
+    "title": "Main reason given for moving home by two age groups, 2023",
+    "x_label": null,
+    "y_label": null,
+    "categories": ["A new job or course of study", "Wanted a larger home", "Lower housing costs", "To live nearer family", "Other reasons"],
+    "series": [
+      { "name": "Movers under 35", "values": [34, 18, 27, 13, 8] },
+      { "name": "Movers aged 35 and over", "values": [11, 12, 22, 42, 13] }
+    ],
+    "unit": "%",
+    "svg": null,
+    "alt": "Ev değiştirme sebeplerinin yüzde dağılımını 35 yaş altı ve 35 yaş üstü taşınanlar için ayrı ayrı gösteren iki pasta grafik; her pasta 100 ediyor."
+  },
+  "visuals": null,
+  "key_points": [
+    "İki grubun ilk sırası tamamen farklı: 35 yaş altında iş ya da öğrenim (%34), 35 yaş üstünde aileye yakın olma (%42) başı çekiyor",
+    "En büyük fark aile sebebinde: %13'e karşı %42, yani üç katından fazla; ikinci büyük fark iş/öğrenimde (%34'e karşı %11)",
+    "Daha düşük konut masrafı iki grupta da ikinci ya da ikinci sıraya yakın ve payları birbirine en yakın kalem (%27'ye karşı %22)",
+    "Daha büyük ev isteği iki grupta da benzer ve orta düzeyde bir pay tutuyor (%18'e karşı %12)",
+    "Genç grupta sebepler iş ve masraf çevresinde toplanıyor (ikisi birlikte %61), yaşlı grupta ise tek bir sebep (aile) baskın",
+    "Diğer sebepler her iki pastada da en küçük ya da en küçüğe yakın dilim (%8 ve %13); her pasta toplamda %100"
+  ],
+  "common_mistakes": [
+    "Payı kişi sayısı gibi anlatmak ('34 people moved for work') — grafikler yüzde veriyor",
+    "İki pastayı sırayla betimleyip iki grup arasında karşılaştırma yapmamak",
+    "En büyük iki dilimde durup küçük dilimleri hiç anmamak",
+    "Sebep uydurmak ya da öneri getirmek ('older people should stay near their families')",
+    "İki pastanın aynı kişileri değil iki ayrı yaş grubunu gösterdiğini gözden kaçırmak"
+  ],
+  "topic": "ev değiştirme sebepleri",
+  "difficulty": "medium"
+}

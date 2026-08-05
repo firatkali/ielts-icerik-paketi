@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0",
+  "set_id": "AT21",
+  "skill": "writing",
+  "module": "academic",
+  "task": 1,
+  "generated_by": "opus",
+  "prompt": "The graph below shows sales of books in three formats in one country between 2010 and 2024.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+  "instruction_line": "You should spend about 20 minutes on this task. Write at least 150 words.",
+  "min_words": 150,
+  "minutes": 20,
+  "visual": {
+    "kind": "line_chart",
+    "title": "Sales of printed books, e-books and audiobooks, 2010-2024",
+    "x_label": "Year",
+    "y_label": "Units sold (millions)",
+    "categories": ["2010", "2013", "2016", "2019", "2022", "2024"],
+    "series": [
+      { "name": "Printed books", "values": [92, 74, 61, 58, 63, 66] },
+      { "name": "E-books", "values": [8, 30, 52, 55, 48, 44] },
+      { "name": "Audiobooks", "values": [2, 5, 12, 26, 45, 62] }
+    ],
+    "unit": "milyon adet",
+    "svg": null,
+    "alt": "Basılı kitap, e-kitap ve sesli kitap satışlarının 2010-2024 arasında milyon adet olarak değişimini gösteren çizgi grafik."
+  },
+  "visuals": null,
+  "key_points": [
+    "Basılı kitap dönemin tamamında en çok satan biçim olarak kalıyor ama tek düze bir eğilim izlemiyor: 92 milyondan 2019'da 58 milyona iniyor, ardından 66 milyona toparlanıyor",
+    "E-kitap önce hızla yükseliyor (8 → 55 milyon), 2019'da zirve yapıyor ve sonra 44 milyona geriliyor — tek zirve-ve-düşüş örüntüsü bu",
+    "Sesli kitap dönem boyunca kesintisiz büyüyor; 2 milyondan 62 milyona çıkarak otuz katından fazla artıyor ve en hızlı büyüyen biçim oluyor",
+    "Tek kesişme 2022 ile 2024 arasında: sesli kitap e-kitabı geçiyor (45'e karşı 48 iken 62'ye karşı 44 oluyor) ve ikinci sıraya yerleşiyor",
+    "Üç biçim arasındaki fark daralıyor: 2010'da en yüksek ile en düşük arasında 90 milyonluk uçurum varken 2024'te bu fark 22 milyona iniyor",
+    "Toplam satış her ölçüm yılında artıyor (yaklaşık 102 milyondan 172 milyona)"
+  ],
+  "common_mistakes": [
+    "Görüş bildirmek ya da sebep uydurmak ('people stopped reading because of phones')",
+    "On sekiz veri noktasını tek tek okuyup üç ana eğilimi (basılı: düşüş sonra toparlanma, e-kitap: zirve sonra düşüş, sesli: sürekli artış) özetlememek",
+    "Kesişmeyi ve sıra değişimini atlamak — grafikteki en çarpıcı olay bu",
+    "Milyon birimini düşürmek ('sales fell to 58') ya da yüzdeyle karıştırmak",
+    "Grafiğin bittiği yerden ileri gitmek ('audiobooks will soon overtake printed books')"
+  ],
+  "topic": "kitap biçimlerine göre satışlar",
+  "difficulty": "medium"
+}
