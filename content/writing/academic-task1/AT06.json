@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0",
+  "set_id": "AT06",
+  "skill": "writing",
+  "module": "academic",
+  "task": 1,
+  "generated_by": "opus",
+  "prompt": "The maps below show the village of Ferndale in 1985 and the same village in 2020.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+  "instruction_line": "You should spend about 20 minutes on this task. Write at least 150 words.",
+  "min_words": 150,
+  "minutes": 20,
+  "visual": {
+    "kind": "map",
+    "title": "The village of Ferndale in 1985 and in 2020",
+    "x_label": null,
+    "y_label": null,
+    "chart_data": null,
+    "unit": null,
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 880 450\" font-family=\"sans-serif\" font-size=\"12\"><g stroke=\"black\" fill=\"none\"><rect x=\"20\" y=\"50\" width=\"390\" height=\"380\"/><rect x=\"450\" y=\"50\" width=\"390\" height=\"380\"/><path d=\"M 20 240 L 410 240\"/><path d=\"M 450 232 L 840 232\"/><path d=\"M 450 248 L 840 248\"/><path d=\"M 20 392 Q 120 372 215 392 T 410 382\"/><path d=\"M 450 392 Q 550 372 645 392 T 840 382\"/><rect x=\"40\" y=\"70\" width=\"200\" height=\"140\"/><rect x=\"470\" y=\"70\" width=\"200\" height=\"140\"/><path d=\"M 520 70 L 520 210\"/><path d=\"M 570 70 L 570 210\"/><path d=\"M 620 70 L 620 210\"/><path d=\"M 470 105 L 670 105\"/><path d=\"M 470 140 L 670 140\"/><path d=\"M 470 175 L 670 175\"/><circle cx=\"300\" cy=\"100\" r=\"18\"/><circle cx=\"332\" cy=\"130\" r=\"18\"/><circle cx=\"300\" cy=\"160\" r=\"18\"/><circle cx=\"730\" cy=\"100\" r=\"18\"/><circle cx=\"762\" cy=\"130\" r=\"18\"/><circle cx=\"730\" cy=\"160\" r=\"18\"/><rect x=\"40\" y=\"270\" width=\"90\" height=\"60\"/><rect x=\"470\" y=\"270\" width=\"110\" height=\"80\"/><rect x=\"160\" y=\"272\" width=\"40\" height=\"30\"/><rect x=\"215\" y=\"272\" width=\"40\" height=\"30\"/><rect x=\"160\" y=\"316\" width=\"40\" height=\"30\"/><rect x=\"590\" y=\"272\" width=\"40\" height=\"30\"/><rect x=\"645\" y=\"272\" width=\"40\" height=\"30\"/><rect x=\"590\" y=\"316\" width=\"40\" height=\"30\"/><rect x=\"300\" y=\"280\" width=\"80\" height=\"40\"/><rect x=\"720\" y=\"268\" width=\"100\" height=\"46\"/><rect x=\"720\" y=\"326\" width=\"100\" height=\"28\"/><rect x=\"600\" y=\"370\" width=\"44\" height=\"26\"/></g><g fill=\"black\" text-anchor=\"middle\"><text x=\"215\" y=\"36\">BEFORE (1985)</text><text x=\"645\" y=\"36\">AFTER (2020)</text><text x=\"140\" y=\"64\">farmland</text><text x=\"570\" y=\"64\">housing estate</text><text x=\"316\" y=\"196\">woodland</text><text x=\"746\" y=\"196\">woodland</text><text x=\"215\" y=\"234\">main road</text><text x=\"645\" y=\"226\">main road (widened)</text><text x=\"85\" y=\"304\">school</text><text x=\"525\" y=\"304\">school</text><text x=\"525\" y=\"320\">(enlarged)</text><text x=\"207\" y=\"364\">houses</text><text x=\"637\" y=\"364\">houses</text><text x=\"340\" y=\"304\">shop</text><text x=\"770\" y=\"294\">supermarket</text><text x=\"770\" y=\"344\">car park</text><text x=\"622\" y=\"412\">new footbridge</text><text x=\"60\" y=\"418\">river</text><text x=\"490\" y=\"418\">river</text></g></svg>",
+    "alt": "Ferndale köyünün 1985 ve 2020'deki hâlini yan yana gösteren iki harita: tarım arazisinin yerini konut sitesi almış, okul büyütülmüş, dükkân süpermarkete dönüşmüş, ana yol genişletilmiş ve nehre yaya köprüsü eklenmiş."
+  },
+  "visuals": null,
+  "key_points": [
+    "Köy 35 yılda kırsal bir yerleşimden çok daha yoğun bir yerleşime dönüşüyor",
+    "Ana yolun kuzeyindeki tarım arazisinin tamamı konut sitesine dönüşüyor — en büyük değişim bu",
+    "Okul aynı yerde kalıyor ama alanı belirgin biçimde genişletiliyor",
+    "Yolun doğusundaki dükkânın yerini bir süpermarket ve yanındaki otopark alıyor",
+    "Ana yol genişletiliyor; nehir üzerine yeni bir yaya köprüsü yapılıyor",
+    "Değişmeyen iki unsur: kuzeydoğudaki orman ve yolun güneyindeki mevcut evler"
+  ],
+  "common_mistakes": [
+    "Yön ve konum dili kullanmamak ('in the north of the village', 'to the east of the main road', 'opposite')",
+    "İki haritayı ayrı ayrı betimleyip değişimi vurgulamamak — bu görevde asıl konu değişim",
+    "Zaman kipini karıştırmak; geçmiş için geniş zaman, bugün için geçmiş zaman kullanmak",
+    "Değişmeden kalan unsurları (orman, evler) hiç anmamak",
+    "Değişimi yorumlamak ('this made life better for residents')"
+  ],
+  "topic": "köy gelişimi (harita)",
+  "difficulty": "medium"
+}

@@ -3693,3 +3693,97 @@ okla verildi ki "merdivenin başında sağda" ifadesi tek anlama gelsin.
   30 görevlik görsel türü kotası (çizgi 6 · sütun 6 · pasta 4 · tablo 4 · süreç 4 · harita 3 ·
   karma 3) üç oturuma bölüneceği için ilk oturumda dengeli bir kesit alınmalı, örneğin
   çizgi 2 · sütun 2 · pasta 2 · tablo 1 · süreç 1 · harita 1 · karma 1.
+
+---
+
+## OPUS5-30 (9. çalıştırma: yazma Academic 1. görev — oturum 1, 10 görev)
+
+- Tarih: 2026-08-05
+- Depo kontrolü: `content/speaking/part1/` **T01–T20 tam** (200 soru), `content/speaking/part2-3/`
+  **C01–C60 tam** (240 birim), `content/writing/` altındaki üç klasör **boştu**. Çalıştırma
+  listesindeki sıradaki bitmemiş paket **C paketi, oturum 1 (9. çalıştırma)** idi, o yapıldı;
+  kullanıcının tanımı depo durumuyla **birebir uyuştu**. Var olan hiçbir dosyaya dokunulmadı.
+  **10 birim** üretildi, hedefle birebir aynı.
+- Üretilen dosyalar — `content/writing/academic-task1/AT01.json` … `AT10.json`:
+  - **çizgi grafik (2):** AT01 üç kasabada geri dönüştürülen evsel atık yüzdesi (1995–2020) ·
+    AT07 dört bölgede evde internet bağlantısı olan hane yüzdesi (2000–2020)
+  - **sütun grafik (2):** AT02 beş yaş grubunun halk kütüphanesi ziyaretleri (2010 / 2022) ·
+    AT08 beş tatil türünde yolculuk sayısı (2005 / 2020)
+  - **pasta grafik (2, ikişer pasta):** AT03 evde enerjinin kullanım amacına göre dağılımı
+    (1990 / 2020) · AT09 iki bölgede tatlı suyun sektörlere göre dağılımı (2020)
+  - **tablo (1):** AT04 bir şehirde işe gidiş yolculuklarının ulaşım türüne göre payı
+    (2015 / 2023) + 2023 ortalama yolculuk süresi
+  - **süreç şeması (1):** AT05 bir kamu binasında yağmur suyunun toplanması ve arıtılması
+  - **harita (1):** AT06 Ferndale köyü, 1985 → 2020
+  - **karma (1):** AT10 nüfusun yaş yapısı (sütun, 2000 / 2025) + toplam nüfus (çizgi, 2000–2025)
+- **KULLANILAN GÖREV KONULARI (bu oturum):** geri dönüşüm oranları · kütüphane ziyaretleri ·
+  ev enerjisi kullanımı · ulaşım tercihi · yağmur suyu toplama ve arıtma · köy gelişimi
+  (harita) · internet kullanımı · tatil türleri · su tüketimi · nüfus yaş dağılımı.
+  **10.–11. oturumda bu on konu tekrar edilmeyecek.** Kalan görsel türü kotası:
+  **çizgi 4 · sütun 4 · pasta 2 · tablo 3 · süreç 3 · harita 2 · karma 2 = 20 görev.**
+- **Uydurma yer adları** (gerçek yer/kurum/marka yok): Marden, Hallowfield, Trentbury (AT01),
+  Ardenholm (AT04), Ferndale (AT06), Eastport, Northvale, Central Plains, Southern Isles
+  (AT07), Northmoor, Calder Bay (AT09).
+- **Veri tutarlılığı denetlendi:** bütün pasta serileri tam **100**; AT04'te iki pay sütunu da
+  **100**; AT10'da iki yaş dağılımı da **100**. Her görselde anlatılacak belirgin bir şey var —
+  kesişme (AT01: yükselen iki kasaba 2005–2010 arasında Hallowfield'ı geçiyor; Trentbury aynı
+  aralıkta Marden'ı geçiyor), sıralama değişimi (AT02 en çok ziyaret eden grup, AT03 ikinci
+  sıranın el değiştirmesi, AT08 en popüler tatil türü), zirve ve sonrasında geri çekilme
+  (AT10 toplam nüfus 2020'de tepe), makasın açılıp daralması (AT07: 22 → 52 → 39 puan),
+  keskin karşıtlık (AT09 tarım %62'ye karşı sanayi %38). Düz seri yok — denetim scripti
+  her seride değişim aralığının tepe değerin %10'unu aştığını ayrıca doğruladı.
+  Seri/kategori sayısı hiçbir görselde 6'yı geçmiyor.
+- **SVG kuralları** (AT05 süreç, AT06 harita): `viewBox` var, kökte sabit `width`/`height`
+  **yok**, yalnızca `svg/defs/marker/g/rect/circle/line/path/polygon/text` etiketleri,
+  `fill`/`stroke` değerleri sadece `none` ve `black`, `font-size="12"`,
+  `font-family="sans-serif"`. AT06'da iki durum yan yana ve **`BEFORE (1985)` / `AFTER (2020)`**
+  diye başlıklandırıldı. AT05 dokuz kutuluk doğrusal bir akış (çatı → oluk → yaprak süzgeci →
+  yer altı deposu → pompa → kum filtresi → morötesi ünite → ara depo → tuvaletler / sulama)
+  artı bir taşma kolu; ok başı tek bir `marker` ile çizildi.
+- **Şema kararları:** grafik ve tablolarda prompt dosyasındaki örnek birebir izlendi — çizgi/
+  sütun/pasta görsellerinde `categories` + `series` **doğrudan `visual` içinde** duruyor
+  (`chart_data` anahtarı hiç yazılmadı, örnek şemada da yok), tabloda `chart_data.headers` +
+  `chart_data.rows` var, `process` ve `map`'te `chart_data: null` + `svg` dolu. Karma görevde
+  (AT10) `visual: null` ve iki nesnelik `visuals` listesi kullanıldı; diğer dokuz dosyada
+  `visuals: null`. `instruction_line` on dosyada da birebir aynı resmî kalıp.
+- **Format referansı — PDF metin çıkarımı bu oturumda çözüldü:** poppler hâlâ kurulu değil ve
+  `Read` PDF açamıyor, ama `tools/pdf_metin.py` (saf Python, `zlib` + içerik akışı ayrıştırma)
+  yazılarak `referans/text/` altına beş dosya çıkarıldı (yazma ve konuşma örnek görevleri +
+  iki band puanlı örnek cevap dosyası). Klasör `.gitignore`'da, depoya girmiyor.
+  Doğrulanan biçim: `You should spend about 20 minutes on this task.` /
+  `Write at least 150 words.` / `Summarise the information by selecting and reporting the
+  main features, and make comparisons where relevant.` — on görevde de bu kalıp kullanıldı.
+  Örnek cevapların sınav yorumlarından çıkan ölçüt (**ana özellikleri seçip öne çıkarma, genel
+  bakış paragrafı, veriyle destekleme, veri dışına çıkan spekülasyon yapmama**) `key_points` ve
+  `common_mistakes` alanlarını biçimlendirdi. **Hiçbir görev metni, veri ya da örnek cevap
+  kopyalanmadı; bütün görseller ve sayılar sıfırdan uyduruldu.**
+- **Tekrar kaçınma:** yazma paketi bu oturumda açıldığı için paket içi tekrar riski yoktu;
+  on konu, on görsel başlığı ve on görev metni birbirinden farklı (script karşılaştırdı).
+  Dinleme/okuma paketlerinde geçen "kütüphane yenilemesi" (L2-S2) ve "geri dönüşüm merkezi"
+  (L4-S2) senaryolarıyla **bilinçli olarak çakışmadı**: AT01 bir tesis turu değil kasaba bazlı
+  **oran** verisi, AT02 ise bina planı değil yaş grubuna göre **ziyaret sayısı**. Konuşma
+  paketindeki konularla da örtüşme yok (görev tipi ve içerik tamamen farklı).
+- **Kültürel tarafsızlık:** bütün konular ülke belirtmeden kurgulandı (yer adları uydurma),
+  ayrıcalık varsaymıyor, din/alkol/siyaset/savaş/cinsellik yok, gerçek marka/kurum/kişi yok,
+  görünür metinde "IELTS" geçmiyor. Açıklama alanları Türkçe, görev metinleri İngiliz
+  İngilizcesinde (`Summarise`, `travelled`, `centre` kullanımı; denetim scripti Amerikan
+  yazım listesini taradı — 0 eşleşme).
+- Doğrulama: geçici denetim scriptiyle (`tools/_at9_kontrol.py`, sonra silindi) JSON
+  geçerliliği, zarf alanları, `set_id` ↔ dosya adı eşleşmesi, `skill/module/task` üçlüsü,
+  `min_words`/`minutes`, `instruction_line` kalıbı, görev metninin resmî kapanış cümlesiyle
+  bitmesi, `key_points` (4–6) ve `common_mistakes` (3–5) sayısı ve Türkçeliği, görsel türü
+  kotası, pasta/pay toplamları, seri uzunlukları, düz seri taraması, tablo satır-sütun
+  uyumu, SVG etiket/renk/`viewBox`/font denetimi ve etiket dengesi, harita `BEFORE`/`AFTER`
+  başlıkları, `alt` metinlerinin Türkçeliği, prompt ve görsel başlığı tekrarı denetlendi.
+  **İlk turda hata 0** (yalnızca iki yanlış pozitif: Türkçe cümlede Türkçeye özgü harf
+  bulunmaması).
+- `python tools/dogrula.py` → **şema hatası 0**, `writing/task1` **10**, speaking 200 + 240
+  değişmedi, pasaj lisansı eksik 0, görünür metinde IELTS 0, yasak kaynak 0. Rapordaki
+  "TAM TEST BUTUNLUGU … EKSIK" satırları bu paketle ilgisiz.
+- **DURUM.txt / ilerleme.txt elle güncellenmedi** (önceki oturumlardaki gerekçe geçerli;
+  sayaç dosyalarını `tools/calistir.py` kendi commit'iyle yazıyor).
+- Atlanan/sorun: yok. **OPUS5-30'da 16 paketten 9'u tamam (450/550 birim).** Sıradaki iş
+  **C paketi, oturum 2** — `content/writing/academic-task1/` altına `AT11`–`AT20`: 10 görev,
+  kalan kotadan dengeli bir kesit (örneğin çizgi 2 · sütun 2 · pasta 1 · tablo 2 · süreç 1 ·
+  harita 1 · karma 1). Yukarıdaki on konu tekrar edilmeyecek. Referans metinleri için
+  `python tools/pdf_metin.py referans/<ad>.pdf referans/text/<ad>.txt` çalıştırılabilir.

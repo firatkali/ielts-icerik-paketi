@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "set_id": "AT09",
+  "skill": "writing",
+  "module": "academic",
+  "task": 1,
+  "generated_by": "opus",
+  "prompt": "The charts below show how fresh water was used by four sectors in two regions of one country in 2020.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+  "instruction_line": "You should spend about 20 minutes on this task. Write at least 150 words.",
+  "min_words": 150,
+  "minutes": 20,
+  "visual": {
+    "kind": "pie_chart",
+    "title": "Fresh water use by sector in two regions, 2020",
+    "x_label": null,
+    "y_label": null,
+    "categories": ["Farming", "Industry", "Homes", "Public services and other"],
+    "series": [
+      { "name": "Northmoor", "values": [62, 14, 18, 6] },
+      { "name": "Calder Bay", "values": [21, 38, 33, 8] }
+    ],
+    "unit": "%",
+    "svg": null,
+    "alt": "İki bölgede tatlı suyun sektörlere göre dağılımını 2020 yılı için gösteren iki pasta grafik."
+  },
+  "visuals": null,
+  "key_points": [
+    "İki bölgenin su kullanımı bambaşka: Northmoor'da tarım (%62), Calder Bay'de sanayi (%38) başı çekiyor",
+    "Northmoor'da tarım payı diğer üç sektörün toplamından (%38) çok daha büyük",
+    "Calder Bay'de pay dağılımı çok daha dengeli; sanayi, evler ve tarım birbirine yakın (%38, %33, %21)",
+    "Evlerin payı Calder Bay'de Northmoor'un yaklaşık iki katı (%33'e karşı %18)",
+    "Kamu hizmetleri ve diğer kullanımlar her iki bölgede de en küçük dilim (%6 ve %8) ve birbirine yakın",
+    "İki grafik de oransal dağılım veriyor, kullanılan su miktarını değil"
+  ],
+  "common_mistakes": [
+    "İki pastayı sırayla anlatıp aralarındaki en çarpıcı farkı (tarım - sanayi karşıtlığı) öne çıkarmamak",
+    "Payı miktar sanmak ('Calder Bay uses more water for industry than Northmoor') — grafiklerde toplam su yok",
+    "Sekiz dilimin hepsini tek tek okumak, en büyük ve en küçük dilimlerle çerçeve kurmamak",
+    "'%' yerine oran dili kullanırken hata yapmak ('a third of', 'nearly two thirds' gibi ifadeleri yanlış eşlemek)"
+  ],
+  "topic": "su tüketimi",
+  "difficulty": "medium"
+}

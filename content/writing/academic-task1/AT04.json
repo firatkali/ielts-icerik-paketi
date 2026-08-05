@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "set_id": "AT04",
+  "skill": "writing",
+  "module": "academic",
+  "task": 1,
+  "generated_by": "opus",
+  "prompt": "The table below gives information about journeys to work in one city in 2015 and 2023, and the average time each journey took in 2023.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+  "instruction_line": "You should spend about 20 minutes on this task. Write at least 150 words.",
+  "min_words": 150,
+  "minutes": 20,
+  "visual": {
+    "kind": "table",
+    "title": "Journeys to work in Ardenholm by mode of transport",
+    "x_label": null,
+    "y_label": null,
+    "chart_data": {
+      "headers": ["Mode of transport", "Share of journeys 2015 (%)", "Share of journeys 2023 (%)", "Average journey time 2023 (minutes)"],
+      "rows": [
+        ["Car", 46, 34, 28],
+        ["Bus or tram", 22, 27, 35],
+        ["Bicycle", 9, 18, 22],
+        ["Walking", 18, 16, 19],
+        ["Train", 5, 5, 41]
+      ]
+    },
+    "unit": "% ve dakika",
+    "svg": null,
+    "alt": "Bir şehirde işe gidiş yolculuklarının 2015 ve 2023'teki ulaşım türü paylarını ve 2023 ortalama yolculuk sürelerini gösteren tablo."
+  },
+  "visuals": null,
+  "key_points": [
+    "Otomobil iki yılda da en yaygın tür ama payı 46'dan 34'e düşerek en büyük kaybı yaşıyor",
+    "Bisikletin payı 9'dan 18'e çıkarak iki katına yükseliyor — oransal olarak en büyük artış",
+    "Otobüs/tramvay payı 22'den 27'ye çıkıyor ve 2023'te ikinci sıraya yerleşiyor",
+    "Yürüyüş hafifçe azalıyor (18 → 16), tren payı 5'te sabit kalıyor",
+    "Süre bakımından tren en uzun (41 dakika), yürüyüş en kısa (19 dakika); en çok büyüyen tür olan bisiklet otomobilden yalnızca 6 dakika daha uzun sürüyor",
+    "Her iki yılda da paylar toplamı 100"
+  ],
+  "common_mistakes": [
+    "Tablodaki her hücreyi tek tek okumak; en büyük artış ve en büyük düşüşü seçmemek",
+    "İki farklı birimi (yüzde payı ve dakika) karıştırmak",
+    "Yalnızca paylara bakıp süre sütununu hiç kullanmamak",
+    "Sebep açıklaması uydurmak ('new cycle lanes were built') — tabloda böyle bir bilgi yok"
+  ],
+  "topic": "ulaşım tercihi",
+  "difficulty": "medium"
+}

@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0",
+  "set_id": "AT07",
+  "skill": "writing",
+  "module": "academic",
+  "task": 1,
+  "generated_by": "opus",
+  "prompt": "The graph below shows the percentage of households with a home internet connection in four regions of one country between 2000 and 2020.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+  "instruction_line": "You should spend about 20 minutes on this task. Write at least 150 words.",
+  "min_words": 150,
+  "minutes": 20,
+  "visual": {
+    "kind": "line_chart",
+    "title": "Households with a home internet connection in four regions, 2000-2020",
+    "x_label": "Year",
+    "y_label": "Households with a connection (%)",
+    "categories": ["2000", "2005", "2010", "2015", "2020"],
+    "series": [
+      { "name": "Eastport", "values": [25, 50, 71, 84, 93] },
+      { "name": "Northvale", "values": [18, 42, 68, 82, 91] },
+      { "name": "Central Plains", "values": [6, 15, 34, 58, 79] },
+      { "name": "Southern Isles", "values": [3, 8, 19, 35, 54] }
+    ],
+    "unit": "%",
+    "svg": null,
+    "alt": "Dört bölgede evinde internet bağlantısı olan hane yüzdesinin 2000-2020 arasındaki artışını gösteren çizgi grafik."
+  },
+  "visuals": null,
+  "key_points": [
+    "Dört bölgede de oran boyunca yükseliyor; hiçbirinde düşüş yok",
+    "Eastport bütün dönem boyunca en yüksek, Southern Isles ise en düşük konumda kalıyor — sıralama hiç değişmiyor",
+    "Eastport ve Northvale neredeyse yan yana ilerliyor ve 2020'de %90'ı aşıyor",
+    "Central Plains en hızlı yakalayan bölge: 2000'de %6 ile Southern Isles'a yakınken 2020'de %79 ile ilk ikiye yaklaşıyor",
+    "En yüksek ile en düşük arasındaki fark 2000'de 22 puan, 2010'da 52 puanla zirve yapıyor, 2020'de 39 puana geriliyor",
+    "En hızlı artış bütün bölgelerde 2000-2010 arasında; 2015'ten sonra üstteki iki bölgede eğri yataylaşıyor"
+  ],
+  "common_mistakes": [
+    "'Hepsi arttı' deyip bitirmek; hız farkını ve makasın önce açılıp sonra daralmasını atlamak",
+    "Yüzdeyi hane sayısıyla karıştırmak ('93 million households')",
+    "Her bölge için beş yılın tamamını okumak; benzer seyreden iki bölgeyi (Eastport ve Northvale) birlikte ele almamak",
+    "Sebep uydurmak ('the government invested in rural areas') — grafikte yok"
+  ],
+  "topic": "internet kullanımı",
+  "difficulty": "medium"
+}

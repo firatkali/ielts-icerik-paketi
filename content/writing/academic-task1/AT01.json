@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "set_id": "AT01",
+  "skill": "writing",
+  "module": "academic",
+  "task": 1,
+  "generated_by": "opus",
+  "prompt": "The graph below shows the percentage of household waste that was recycled in three towns between 1995 and 2020.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+  "instruction_line": "You should spend about 20 minutes on this task. Write at least 150 words.",
+  "min_words": 150,
+  "minutes": 20,
+  "visual": {
+    "kind": "line_chart",
+    "title": "Household waste recycled in three towns, 1995-2020",
+    "x_label": "Year",
+    "y_label": "Percentage of household waste recycled (%)",
+    "categories": ["1995", "2000", "2005", "2010", "2015", "2020"],
+    "series": [
+      { "name": "Marden", "values": [12, 18, 27, 38, 45, 52] },
+      { "name": "Hallowfield", "values": [30, 33, 31, 28, 24, 20] },
+      { "name": "Trentbury", "values": [8, 14, 25, 41, 55, 61] }
+    ],
+    "unit": "%",
+    "svg": null,
+    "alt": "Üç kasabada geri dönüştürülen evsel atık yüzdesinin 1995-2020 arasındaki değişimini gösteren çizgi grafik."
+  },
+  "visuals": null,
+  "key_points": [
+    "Marden ve Trentbury boyunca yükseliyor, Hallowfield ise düşen tek kasaba",
+    "Trentbury en düşükten (%8) başlayıp en yükseğe çıkıyor (%61) — en hızlı artış",
+    "Hallowfield 1995'te en yüksekken (%30) 2020'de en düşük duruma iniyor (%20)",
+    "Her iki yükselen kasaba da Hallowfield'ı 2005 ile 2010 arasında geçiyor; Trentbury aynı aralıkta Marden'ı da geçiyor",
+    "1995'te kasabalar arasındaki fark 22 puanken 2020'de 41 puana çıkıyor"
+  ],
+  "common_mistakes": [
+    "Görüş bildirmek ya da sebep uydurmak ('the council should…', 'because people became greener') — bu görevde veri dışına çıkılmaz",
+    "Altı yılın her birini tek tek okumak, genel eğilimi ve kesişme noktasını vermemek",
+    "Genel bakış (overview) paragrafı yazmamak",
+    "Yüzde ile 'sayı' karıştırmak ('the amount of waste rose' — grafik oran veriyor)"
+  ],
+  "topic": "geri dönüşüm oranları",
+  "difficulty": "medium"
+}

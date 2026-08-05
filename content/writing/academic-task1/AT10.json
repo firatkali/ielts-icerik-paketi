@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.0",
+  "set_id": "AT10",
+  "skill": "writing",
+  "module": "academic",
+  "task": 1,
+  "generated_by": "opus",
+  "prompt": "The chart below shows the age structure of the population of one country in 2000 and 2025, and the graph shows the total population over the same period.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+  "instruction_line": "You should spend about 20 minutes on this task. Write at least 150 words.",
+  "min_words": 150,
+  "minutes": 20,
+  "visual": null,
+  "visuals": [
+    {
+      "kind": "bar_chart",
+      "title": "Population by age group, 2000 and 2025",
+      "x_label": "Age group",
+      "y_label": "Share of the population (%)",
+      "categories": ["0-14", "15-29", "30-44", "45-59", "60-74", "75 and over"],
+      "series": [
+        { "name": "2000", "values": [24, 23, 21, 16, 12, 4] },
+        { "name": "2025", "values": [16, 18, 20, 19, 18, 9] }
+      ],
+      "unit": "%",
+      "svg": null,
+      "alt": "Nüfusun altı yaş grubuna göre yüzde dağılımını 2000 ve 2025 için karşılaştıran sütun grafik."
+    },
+    {
+      "kind": "line_chart",
+      "title": "Total population, 2000-2025",
+      "x_label": "Year",
+      "y_label": "Total population (millions)",
+      "categories": ["2000", "2005", "2010", "2015", "2020", "2025"],
+      "series": [
+        { "name": "Total population", "values": [8.2, 8.9, 9.5, 9.9, 10.1, 10.0] }
+      ],
+      "unit": "milyon kişi",
+      "svg": null,
+      "alt": "Toplam nüfusun 2000-2025 arasında 8,2 milyondan 10,1 milyona çıkıp 2025'te hafifçe gerilemesini gösteren çizgi grafik."
+    }
+  ],
+  "key_points": [
+    "Nüfus yaşlanıyor: 45 yaş üstü üç grubun payı toplamda %32'den %46'ya çıkıyor",
+    "En genç iki grubun payı düşüyor; 0-14 grubu %24'ten %16'ya inerek en büyük düşüşü yaşıyor",
+    "75 yaş ve üzeri payı %4'ten %9'a çıkarak iki katından fazla artıyor, ama iki yılda da en küçük grup olarak kalıyor",
+    "En kalabalık grup değişiyor: 2000'de 0-14, 2025'te 30-44",
+    "Toplam nüfus 8,2 milyondan 10,1 milyona çıkıyor, 2020'de zirve yapıyor ve 2025'te 10,0 milyona hafifçe geriliyor",
+    "Büyüme hızı yavaşlıyor: ilk beş yılda 0,7 milyon artış varken 2015-2020 arasında yalnızca 0,2 milyon; iki görsel birlikte okununca toplam nüfus artarken yaşlı grupların kişi sayısının paydan da hızlı büyüdüğü görülüyor"
+  ],
+  "common_mistakes": [
+    "İki görselden yalnızca birini anlatmak — görev ikisini de kapsıyor",
+    "Yüzde payı ile milyon kişiyi karıştırmak ('24 million children')",
+    "Yaşlanma örüntüsünü tek cümlede özetleyen bir genel bakış (overview) yazmamak",
+    "2020'deki zirveyi ve sonrasındaki küçük düşüşü atlamak",
+    "Nedenlere ya da geleceğe dair tahmin yürütmek ('the birth rate fell because…')"
+  ],
+  "topic": "nüfus yaş dağılımı",
+  "difficulty": "hard"
+}

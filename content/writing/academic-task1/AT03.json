@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0",
+  "set_id": "AT03",
+  "skill": "writing",
+  "module": "academic",
+  "task": 1,
+  "generated_by": "opus",
+  "prompt": "The charts below show how energy was used in an average home in one country in 1990 and in 2020.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+  "instruction_line": "You should spend about 20 minutes on this task. Write at least 150 words.",
+  "min_words": 150,
+  "minutes": 20,
+  "visual": {
+    "kind": "pie_chart",
+    "title": "Household energy use by purpose, 1990 and 2020",
+    "x_label": null,
+    "y_label": null,
+    "categories": ["Space heating", "Water heating", "Cooking", "Lighting", "Appliances and electronics"],
+    "series": [
+      { "name": "1990", "values": [62, 18, 9, 6, 5] },
+      { "name": "2020", "values": [48, 20, 7, 4, 21] }
+    ],
+    "unit": "%",
+    "svg": null,
+    "alt": "Ortalama bir evde enerjinin hangi amaçla kullanıldığını 1990 ve 2020 için gösteren iki pasta grafik."
+  },
+  "visuals": null,
+  "key_points": [
+    "Mekân ısıtması iki yılda da açık ara en büyük kalem, ama payı %62'den %48'e iniyor",
+    "Ev aletleri ve elektronik cihazların payı %5'ten %21'e çıkarak dört katından fazla artıyor ve ikinci sıraya yükseliyor",
+    "Su ısıtması hemen hemen sabit (%18 → %20) ve 1990'da ikinci sıradayken 2020'de üçüncü sıraya düşüyor",
+    "Aydınlatma ve pişirme iki yılda da en küçük paylar; ikisi de biraz azalıyor",
+    "Genel örüntü: ısıtmanın ağırlığı azalıyor, elektrikli cihazlar payı büyüyor; toplam yine %100"
+  ],
+  "common_mistakes": [
+    "Payların yüzde olduğunu unutup 'more energy was used' demek — grafik dağılımı gösteriyor, toplam tüketimi değil",
+    "Beş dilimi iki grafik için tek tek listeleyip en çarpıcı değişimi (cihazlar) öne çıkarmamak",
+    "Sıralama değişimini (ikinci sıranın el değiştirmesi) atlamak",
+    "Görüş ya da tavsiye eklemek ('homes should insulate better')"
+  ],
+  "topic": "ev enerjisi kullanımı",
+  "difficulty": "medium"
+}

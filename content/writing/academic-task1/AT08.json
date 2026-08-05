@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0",
+  "set_id": "AT08",
+  "skill": "writing",
+  "module": "academic",
+  "task": 1,
+  "generated_by": "opus",
+  "prompt": "The chart below shows the number of holiday trips of five different kinds taken by residents of one country in 2005 and in 2020.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+  "instruction_line": "You should spend about 20 minutes on this task. Write at least 150 words.",
+  "min_words": 150,
+  "minutes": 20,
+  "visual": {
+    "kind": "bar_chart",
+    "title": "Holiday trips by type, 2005 and 2020",
+    "x_label": "Type of holiday",
+    "y_label": "Trips per year (millions)",
+    "categories": ["Beach holiday", "City break", "Walking in the countryside", "Staying with relatives", "Outdoor sports holiday"],
+    "series": [
+      { "name": "2005", "values": [8.4, 3.1, 2.2, 6.0, 1.3] },
+      { "name": "2020", "values": [6.2, 7.5, 4.4, 5.8, 2.6] }
+    ],
+    "unit": "milyon yolculuk",
+    "svg": null,
+    "alt": "Bir ülkenin sakinlerinin 2005 ve 2020'de yaptığı beş tatil türündeki yolculuk sayısını karşılaştıran sütun grafik."
+  },
+  "visuals": null,
+  "key_points": [
+    "Toplam tatil yolculuğu 21,0 milyondan 26,5 milyona çıkıyor",
+    "En popüler tatil türü değişiyor: 2005'te deniz tatili (8,4 milyon), 2020'de şehir turu (7,5 milyon)",
+    "Şehir turu iki katından fazla artıyor (3,1 → 7,5 milyon) — en büyük artış",
+    "Deniz tatili düşen tek belirgin kalem (8,4 → 6,2 milyon); akraba ziyareti neredeyse sabit (6,0 → 5,8 milyon)",
+    "Doğa yürüyüşü ve açık hava sporları iki katına yakın artıyor ama iki yılda da en küçük iki kalem olarak kalıyor"
+  ],
+  "common_mistakes": [
+    "Beş türü tek tek listelemek; artan/azalan gruplandırmasını ve sıralama değişimini vermemek",
+    "Rakamları yuvarlarken yanlış yazmak ya da birimi (milyon yolculuk) belirtmemek",
+    "'People' ile 'trips' karıştırmak — grafik yolculuk sayısı veriyor, kişi sayısı değil",
+    "İki yılı ayrı paragraflarda anlatıp hiç karşılaştırma yapmamak"
+  ],
+  "topic": "tatil türleri",
+  "difficulty": "easy"
+}
