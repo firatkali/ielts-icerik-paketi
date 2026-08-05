@@ -2902,3 +2902,152 @@ maddede.
   promptun "Plan / harita / diyagram etiketleme" bölümünde; harf seçme ve kelime yazma
   alt tiplerinin **ikisi de** kullanılmalı (tam testlerde L1–L3 harf seçme, L4–L6 kelime
   yazma dizilişi vardı).
+
+## OPUS5-21 (12. çalıştırma: alıştırma — plan / harita / diyagram etiketleme, 15 soru)
+
+- Tarih: 2026-08-05
+- Depo kontrolü: `content/listening/tests/` altında **`L1/` … `L6/`** tam (6 × 29 = 174);
+  `content/listening/practice/` altında `note-completion.json` (7), `table-completion.json`
+  (8), `sentence-completion.json` (9), `flow-chart-completion.json` (10) **ve**
+  `short-answer.json` (11) vardı. Çalıştırma listesinde geriye tek paket kalmıştı:
+  **12 — alıştırma: plan / harita / diyagram etiketleme**; o yapıldı. 24 senaryonun hepsi
+  yerinde, hiçbirine dokunulmadı, yeni bilgi noktası eklenmedi.
+- Çıktı: `content/listening/practice/plan-map-diagram-labelling.json` — **15 soru,
+  4 küme**, `test_id: null`, `practice: true`, numaralar 1'den 15'e. Etiketlemede gövde
+  çizimin içinde olduğu için `stem_block` **ve** `table` her düzeyde `null`; boşluk
+  işareti (`........`) hiçbir promptta geçmez, boşluklar SVG'nin içinde numaralı.
+- **Bu paketle OPUS5-21 tamam:** 174 tam test + 90 alıştırma = **264 soru**.
+
+### Kümeler, senaryolar ve seçilen alt tipler
+
+| Küme | Senaryo | Bölüm | Sorular | Çizim | Alt tip | Kelime sınırı |
+|---|---|---|---|---|---|---|
+| `P-PM-01` | `L3-S2` | 2 | 1–4 | kır parkı haritası | kelime yazma | THREE WORDS |
+| `P-PM-02` | `L4-S2` | 2 | 5–8 | geri dönüşüm merkezi planı | harf seçme (A–H) | — |
+| `P-PM-03` | `L6-S2` | 2 | 9–12 | kapalı çiftçi pazarı planı | kelime yazma | TWO WORDS |
+| `P-PM-04` | `L1-S2` | 2 | 13–15 | müze zemin + üst kat planı | harf seçme (A–H) | — |
+
+- Kümeler **4 + 4 + 4 + 3**; hiçbir senaryodan 4'ten fazla soru yok.
+- **Dört kümenin dördü de 2. bölüm** senaryosundan: promptun tip tablosunda bu tip
+  yalnızca 2. bölüme yazılı (tam testte 16–20 aralığı) ve `spatial_description` alanı
+  yalnızca `L*-S2` dosyalarında var. Alıştırmalarda 2. bölüm senaryoları **ilk kez**
+  kullanıldı; senaryo başına alıştırma yükü artık `L1-S2` 3, `L3-S2` 4, `L4-S2` 4,
+  `L6-S2` 4.
+- **İki alt tip de kullanıldı** ve tam testlerin tersine çevrildi: tam testlerde `L1`/`L3`
+  harf seçme, `L4`/`L6` kelime yazmaydı; alıştırmada `L1`/`L4` harf seçme, `L3`/`L6`
+  kelime yazma. Aynı senaryoyu iki farklı görevle çalışan aday, planı ezberlemek yerine
+  sesi takip etmek zorunda kalıyor.
+
+### Kullanılan `answer_point_id` değerleri
+
+| Küme | Kimlikler |
+|---|---|
+| `P-PM-01` (L3-S2) | `L3-S2-14`, `L3-S2-17`, `L3-S2-21`, `L3-S2-24` |
+| `P-PM-02` (L4-S2) | `L4-S2-08`, `L4-S2-09`, `L4-S2-15`, `L4-S2-17` |
+| `P-PM-03` (L6-S2) | `L6-S2-11`, `L6-S2-15`, `L6-S2-20`, `L6-S2-22` |
+| `P-PM-04` (L1-S2) | `L1-S2-16`, `L1-S2-21`, `L1-S2-23` |
+
+Cevaplar: 1 `visitor centre` · 2 `information hut` · 3 `pond-dipping platform` ·
+4 `viewpoint` · 5 `C` (tuvaletler ve su noktası) · 6 `A` (otopark) · 7 `E` (cam, kutu ve
+plastik kumbaraları) · 8 `G` (boya ve kimyasal deposu) · 9 `information desk` ·
+10 `cheese counter` · 11 `seating area` · 12 `toilets` · 13 `A` (mağaza) ·
+14 `C` (asansör) · 15 `G` (okuma odası).
+
+Seçilen 15 noktanın hiçbiri tam testlerde ya da öteki beş alıştırma dosyasında yok
+(kesişim betikle çıkarıldı, **boş**). Tam testlerin `L*-S2` planlarında kullandığı beş
+mekân bu pakette **çizimde adıyla yazılı sabit referans** olarak kullanıldı — böylece
+aynı bilgi noktası soru olmadan aday için çapa görevi görüyor (`WEAVING GALLERY`,
+`BIRD HIDE`, `SITE OFFICE`, `RAMP`, `FLOWER STALL` gibi).
+
+### Çizimler
+
+Dört SVG elle çizildi, üretici betikte duruyor (`tools/_p12_uret.py`). Promptun SVG
+kurallarına uyuldu: sadece `rect`, `circle`, `line`, `path`, `polygon`, `text`; tek renk
+`#000`, dolgu yok; `viewBox` var, sabit `width`/`height` yok; `font-size="12"`,
+`font-family="sans-serif"`; her çizimde **kuzey oku**, **giriş oku** ve en az bir adıyla
+yazılı sabit referans noktası var. Harf seçme planlarında sekiz konumun hepsi (A–H)
+daire içinde harfle, kelime yazma planlarında boşluklar numara + alt çizgi ile gösterildi.
+`P-PM-04` iki panelli: solda zemin kat (A–E), sağda üst kat (F–H); merdivenin çıkış yönü
+okla verildi ki "merdivenin başında sağda" ifadesi tek anlama gelsin.
+
+### Doğrulama
+
+- Üretici: `tools/_p12_uret.py`. Denetim betiği: `tools/_p12_kontrol.py`
+  (11. paketinkinin etiketlemeye uyarlanmış hâli). Sınadığı maddeler: zarf alanları,
+  küme boyu (3–5), `context_line`/`instructions` doluluğu, kelime yazma kümelerinde
+  yönergede sınırın yazılı olması, bilgi noktalarının **hem tam testlerde hem öteki
+  alıştırma dosyalarında** kullanılmamış olması, `turn_index`in bilgi noktasıyla birebir
+  uyuşması, sıra kuralı, nefes payı, her `evidence`in ilgili replikte **birebir** geçmesi,
+  kelime cevaplarının replik metninde harfi harfine bulunması, harf cevaplarında soru
+  kökündeki yer adının `evidence` içinde geçmesi, **`accepted_variants` dahil** kelime
+  sınırı, promptta boşluk işareti bulunmaması, seçenek/boşluk etiketinin çizimde gerçekten
+  yer alması, `visual.labels` ile seçenek/numara listesinin örtüşmesi, SVG kuralları
+  (tek satır, `viewBox`, sabit `width`/`height` yok, izinsiz etiket yok, siyah dışı renk
+  yok, XML olarak çözülebilmesi, kuzey oku + giriş + sabit referans), iki alt tipin de
+  kullanılmış olması, numaraların 1–15 dizisi olması, açıklamaların Türkçe ve dolu olması,
+  "IELTS" taraması. **Hata 0, uyarı 0.**
+- Ek geometri kontrolü (tek seferlik, çizimler için): dört SVG'de de `viewBox` dışına
+  taşan nokta **yok**, üst üste binen dikdörtgen **yok**, çakışan metin kutusu **yok**,
+  A–H daireleri ve 1–12 boşluk numaralarının her biri **tam olarak bir** dikdörtgenin
+  içinde. (İki durumda iki etiket aynı dış dikdörtgende: `P-PM-02`de uzun tek katlı bina,
+  `P-PM-03`te uzun tezgâh — ikisi de içinden bölme çizgisiyle ayrılmış, kasıtlı.)
+- Ardından `python tools/dogrula.py`: **şema hatası 0**, görünür metinde IELTS 0,
+  yasak kaynak 0, `listening/practice` sayacı **90** (15 × 6 — alıştırma tarafı tamam).
+
+### Bilinçli sapmalar
+
+1. **`L2-S2` ve `L5-S2` kullanılmadı.** Tam testler bu iki senaryodan beşer mekân noktası
+   almış; geriye `L2-S2`de 2 (`-16` danışma masası, `-17` gazete alanı), `L5-S2`de 2
+   (`-09` bilet gişesi, `-14` su noktası) mekân noktası kalıyor. Küme en az 3 soru olmalı
+   ve **bir küme tek senaryodan** geleceği için bu ikisinden küme kurulamadı. Kalan dört
+   senaryonun kapasitesi tam tamına 4 + 4 + 4 + 3 = **15**; yani paket ancak bu dağılımla
+   çıkıyordu.
+2. **`L1-S2`den 3 soru.** Kullanılmamış noktalar t6 (mağaza), t8 (asansör **ve** avlu
+   bahçesi) ve t9 (okuma odası). 4. altın kural iki cevabın aynı replikte olmasını
+   yasakladığı için t8'den yalnız biri alınabildi → küme 3 soru; dosyadaki en küçük küme
+   bilerek bu oldu.
+3. **`P-PM-01`de THREE WORDS, `P-PM-03`te TWO WORDS.** `pond-dipping platform` tireli
+   yazılınca iki, tiresiz üç kelime; iki yazımın da kabul edilebilmesi için o kümede sınır
+   gevşetildi (`accepted_variants`ta ikisi de var). `P-PM-03`te dört cevabın dördü de iki
+   kelimeye sığdığı için sınır daraltıldı. Zarf düzeyindeki `word_limit` en geniş olanı
+   gösteriyor, kümeler kendi sınırlarını yazıyor; hiçbir cevap kendi kümesinin sınırını
+   aşmıyor.
+4. **Çeldirici 15'te 1** (7. soru: kumbaraların yeri — "ofisin yanındaydı" → çıkış
+   bariyerinin dibi; cevap düzeltilmiş konum). Yapısal sebep: `L*-S2` senaryolarındaki
+   çeldiricilerin büyük çoğunluğu **mekân dışı** (saat, ücret, gün, sayı) ve mekânla
+   ilgili olanlar (`L5-S2` sahnenin yönü, `L6-S2` balık tezgâhının yeri) tam testlerde
+   kullanılmış. Ayırt edicilik bunun yerine **plandaki boş konumlardan** geliyor: harf
+   seçme planlarında sekiz konum var, `P-PM-02`de dördü, `P-PM-04`te beşi sorulmuyor;
+   yani yanlış harfi seçmek çok kolay.
+5. **Cevap türü dağılımı** (8. altın kural). Etiketlemede cevapların tamamı yer adı olmak
+   zorunda; kural bu tipte ancak biçim çeşitliliğiyle uygulanabildi: kelime yazma
+   kümelerinde tek kelime / iki kelime / tireli birleşik dönüşümlü
+   (`viewpoint` – `information hut` – `pond-dipping platform` – `toilets`), harf seçme
+   kümelerinde cevap harfleri planın dört bir yanına dağıtıldı (C·A·E·G ve A·C·G).
+   Hiçbir kümede iki cevap yan yana konumda değil.
+6. **Sıra ve nefes payı.** Dört senaryo da tek konuşmacılı olduğu için "replik" = paragraf
+   sayıldı (betik tek konuşmacıda asgari aralığı 1 tutuyor). Gerçek diziler: `L3-S2`
+   5·6·7·8, `L4-S2` 3·4·6·7, `L6-S2` 4·5·7·8, `L1-S2` 6·8·9 — hepsi artan, hiçbir iki
+   cevap aynı replikte değil ve her kümede cevaplar mekân tarifinin başından sonuna
+   yayıldı.
+7. **Zor yazımlı isim sorulmadı** (6. altın kural). Seste harf harf söylenen ad yok, o
+   yüzden bütün kelime cevapları günlük yazımı belli sözcüklerden seçildi. Amerikan
+   yazımı olabilecek tek cevapta (`visitor centre`) `visitor center` de kabul listesinde;
+   `viewpoint` için ayrık yazım (`view point`) da kabul ediliyor.
+
+### Telif / yazım
+
+- İngiliz İngilizcesi (`centre`, `theatre`, `car park`, `cloakroom`); bütün yer, kurum ve
+  sokak adları senaryolardan geliyor, hepsi uydurma. Görünür metinde "IELTS" yok.
+  Çizimlerdeki bütün etiketler senaryoların `spatial_description` alanından.
+- ⚠️ **Referans PDF'leri bu oturumda da açılamadı:** `referans/` altında yalnızca `.pdf`
+  var, `referans/text/` hâlâ üretilmemiş ve `Read` aracı PDF için poppler istiyor, ortamda
+  yok. Etiketleme yönerge kalıpları L1–L6 tam testlerinin
+  `plan-map-diagram-labelling.json` setlerinden devralındı ("Label the plan below. Write
+  the correct letter, A–H, next to Questions …" ve "Label the plan below. Write NO MORE
+  THAN TWO WORDS AND/OR A NUMBER for each answer."). Yeni biçim icat edilmedi;
+  referanstan **tek bir cümle, soru ya da senaryo kopyalanmadı**.
+- Atlanan/sorun: yok. **OPUS5-21'in 12 paketinin hepsi tamam** (174 tam test sorusu +
+  90 alıştırma sorusu = 264). Dinleme tarafında geriye yalnızca `FABLE5-43` kaldı:
+  her testte boş bırakılan **11–15 ve 21–26** aralıkları ile üç alıştırma dosyası
+  (çoktan seçmeli tek cevaplı, çoktan seçmeli çok cevaplı, eşleştirme).
