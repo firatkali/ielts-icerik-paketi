@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "set_id": "T2-10",
+  "skill": "writing",
+  "module": "both",
+  "task": 2,
+  "generated_by": "opus",
+  "pattern": "problem_solution",
+  "prompt": "In many large cities, homes near the centre have become so expensive that the people who work there have to live a long way away.\n\nWhat problems does this cause and what measures could be taken?",
+  "instruction_line": "You should spend about 40 minutes on this task. Write at least 250 words.",
+  "min_words": 250,
+  "minutes": 40,
+  "topic_area": "şehir hayatı",
+  "key_points": [
+    "İki soru da ayrı ayrı cevaplanmalı: önce sorunlar, sonra önlemler",
+    "En az iki somut sorun: uzun yolculuk süresi, ulaşım maliyeti, merkezdeki işlere eleman bulunamaması",
+    "Sorunlar kişi ve şehir düzeyinde ayrılabilir (yorgunluk / hizmetlerin aksaması)",
+    "Önlemler sorunlarla eşleşmeli: uygun fiyatlı konut yapımı, kira düzenlemesi, iş yerlerini merkez dışına dağıtmak, ulaşım hattı",
+    "Her önlemin kim tarafından uygulanacağı belirtilmeli (yerel yönetim, işveren)"
+  ],
+  "common_mistakes": [
+    "Sorunları uzun uzun yazıp önlemlere bir cümle ayırmak",
+    "Sorunlarla ilgisi olmayan genel çözümler önermek",
+    "Konut fiyatlarının neden yükseldiğini anlatıp sorulan iki soruyu atlamak"
+  ],
+  "difficulty": "medium"
+}

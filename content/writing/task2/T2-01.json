@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "set_id": "T2-01",
+  "skill": "writing",
+  "module": "both",
+  "task": 2,
+  "generated_by": "opus",
+  "pattern": "opinion",
+  "prompt": "Some people believe that every secondary school student should be required to study a practical subject, such as cooking, basic repairs or managing money, alongside their academic subjects.\n\nTo what extent do you agree or disagree?",
+  "instruction_line": "You should spend about 40 minutes on this task. Write at least 250 words.",
+  "min_words": 250,
+  "minutes": 40,
+  "topic_area": "eğitim",
+  "key_points": [
+    "Görev açık bir tutum bekliyor: katılıyorum / katılmıyorum / kısmen katılıyorum",
+    "Asıl soru 'zorunlu olmalı mı' — pratik derslerin faydalı olduğunu söylemek tek başına yetmez",
+    "En az iki gerekçe + somut örnek (hayata hazırlık, herkese eşit erişim, ders saatinin sınırlı olması)",
+    "Karşı görüşe kısa bir kabul beklenir: müfredat zaten dolu, bu beceriler evde de öğrenilebilir",
+    "Sonuçta tutum yeniden ve net biçimde ifade edilmeli"
+  ],
+  "common_mistakes": [
+    "Tutum belirtmeden yalnızca iki tarafı listelemek",
+    "Zorunluluk boyutunu atlayıp genel olarak 'pratik beceriler önemlidir' yazmak",
+    "Örnek vermeden soyut genellemelerde kalmak",
+    "250 kelimenin altında kalmak"
+  ],
+  "difficulty": "easy"
+}

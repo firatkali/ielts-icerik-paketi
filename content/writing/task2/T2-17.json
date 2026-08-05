@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "set_id": "T2-17",
+  "skill": "writing",
+  "module": "both",
+  "task": 2,
+  "generated_by": "opus",
+  "pattern": "double_question",
+  "prompt": "In many places, traditional festivals and customs are now kept up mainly by older members of the community, while younger people take little part in them.\n\nWhy is this happening? Is it a positive or a negative development?",
+  "instruction_line": "You should spend about 40 minutes on this task. Write at least 250 words.",
+  "min_words": 250,
+  "minutes": 40,
+  "topic_area": "kültür ve gelenek",
+  "key_points": [
+    "İki soru da ayrı ayrı ve dengeli cevaplanmalı",
+    "En az iki sebep: hayatın ritmi ve çalışma saatleri, gençlerin başka yerlere taşınması, eğlence seçeneklerinin çoğalması",
+    "Değerlendirme net olmalı: olumlu mu, olumsuz mu, kısmen mi",
+    "Olumsuz yön: ortak hafızanın ve el becerilerinin kaybı; olumlu yön: geleneklerin değişerek yenilenmesi",
+    "Genelleme yerine gerekçelendirilmiş örnekler kullanılmalı"
+  ],
+  "common_mistakes": [
+    "Yalnızca sebepleri yazıp değerlendirme sorusunu atlamak",
+    "Belirli bir dine ya da ülkeye özgü kutlamalardan söz etmek",
+    "'Hem olumlu hem olumsuz' deyip hangisinin ağır bastığını söylememek"
+  ],
+  "difficulty": "medium"
+}

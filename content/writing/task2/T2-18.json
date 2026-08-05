@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "set_id": "T2-18",
+  "skill": "writing",
+  "module": "both",
+  "task": 2,
+  "generated_by": "opus",
+  "pattern": "double_question",
+  "prompt": "More and more people are choosing to spend their holidays in their own region rather than travelling to another country.\n\nWhy is this happening? Is it a positive or a negative development?",
+  "instruction_line": "You should spend about 40 minutes on this task. Write at least 250 words.",
+  "min_words": 250,
+  "minutes": 40,
+  "topic_area": "turizm",
+  "key_points": [
+    "Yapı iki bölümlü: sebepler, ardından değerlendirme",
+    "Sebepler: maliyet, yolculuk süresi ve zahmeti, yakın çevrenin daha iyi tanıtılması",
+    "Değerlendirme açık olmalı ve gerekçeye dayanmalı",
+    "Olumlu yön: yerel işletmelere gelir, daha az yolculuk yükü; olumsuz yön: başka yerleri tanıma fırsatının azalması",
+    "Kimin için olumlu/olumsuz olduğu ayrılabilir (gezginler, yerel halk, hizmet sektörü)"
+  ],
+  "common_mistakes": [
+    "Kendi tatil tercihini anlatan kişisel bir yazıya dönüşmek",
+    "Sebepleri yazıp değerlendirmeyi son cümleye sıkıştırmak",
+    "Yalnızca uçak bileti fiyatı üzerinden tek sebeple yetinmek"
+  ],
+  "difficulty": "easy"
+}

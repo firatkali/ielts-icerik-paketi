@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "set_id": "T2-13",
+  "skill": "writing",
+  "module": "both",
+  "task": 2,
+  "generated_by": "opus",
+  "pattern": "problem_solution",
+  "prompt": "People in many countries now spend most of their working day sitting at a desk, and much of their free time sitting as well.\n\nWhat problems does this cause and what measures could be taken?",
+  "instruction_line": "You should spend about 40 minutes on this task. Write at least 250 words.",
+  "min_words": 250,
+  "minutes": 40,
+  "topic_area": "sağlık",
+  "key_points": [
+    "Sorunlar ve önlemler ayrı paragraflarda ele alınmalı",
+    "En az iki sorun: bedensel rahatsızlıklar, hareketsizliğin uzun vadeli sağlık etkileri, ruh hâli ve enerji düşüşü",
+    "Sorunlar hem birey hem iş yeri açısından ele alınabilir (verim kaybı, devamsızlık)",
+    "Önlemler eşleşmeli: iş yerinde kısa aralar, yürüyerek/bisikletle ulaşım, mahallede erişilebilir spor alanları, okul alışkanlıkları",
+    "Önerilerin uygulanabilirliği açıklanmalı — kimin ne yapacağı belirtilmeli"
+  ],
+  "common_mistakes": [
+    "Tıbbi ayrıntıya girip uzman bilgisi gerektiren iddialarda bulunmak",
+    "Sorun-önlem eşleşmesini kurmadan iki ayrı liste yazmak",
+    "Yalnızca kişisel iradeye dayanan tek bir çözüm önermek"
+  ],
+  "difficulty": "easy"
+}

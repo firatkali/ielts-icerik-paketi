@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "set_id": "T2-05",
+  "skill": "writing",
+  "module": "both",
+  "task": 2,
+  "generated_by": "opus",
+  "pattern": "opinion",
+  "prompt": "Some people say that individuals can do very little to protect the natural environment, and that real change can only come from governments and large companies.\n\nTo what extent do you agree or disagree?",
+  "instruction_line": "You should spend about 40 minutes on this task. Write at least 250 words.",
+  "min_words": 250,
+  "minutes": 40,
+  "topic_area": "çevre",
+  "key_points": [
+    "Soru bireysel eylemin etkisini sorguluyor; tutum bu karşılaştırma üzerinden kurulmalı",
+    "Ölçek farkı ele alınmalı: bir hanenin tüketimi ile sanayi ve düzenleme gücünün karşılaştırılması",
+    "Bireysel eylemin dolaylı etkisi tartışılabilir: talebin değişmesi, oy ve tüketici baskısı, alışkanlığın yayılması",
+    "Karşı görüşe kısa kabul: düzenleme olmadan bireysel çabanın sınırlı kaldığı durumlar",
+    "Sonuçta iki tarafın hangi oranda sorumlu görüldüğü açıkça yazılmalı"
+  ],
+  "common_mistakes": [
+    "Çevre sorunlarını sıralayıp asıl soruyu (kim etkili olabilir) cevaplamamak",
+    "'Herkes elinden geleni yapmalı' diyerek tutumu belirsiz bırakmak",
+    "Uzmanlık gerektiren teknik ayrıntılara veya uydurma sayılara dayanmak"
+  ],
+  "difficulty": "hard"
+}

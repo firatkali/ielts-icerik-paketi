@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "set_id": "T2-12",
+  "skill": "writing",
+  "module": "both",
+  "task": 2,
+  "generated_by": "opus",
+  "pattern": "problem_solution",
+  "prompt": "Many languages that were once widely spoken in a region are now used by only a small number of people, most of them elderly.\n\nWhat problems does this cause and what measures could be taken?",
+  "instruction_line": "You should spend about 40 minutes on this task. Write at least 250 words.",
+  "min_words": 250,
+  "minutes": 40,
+  "topic_area": "dil ve iletişim",
+  "key_points": [
+    "İki bölümlü yapı şart: kaybın yol açtığı sorunlar, ardından önlemler",
+    "Sorunlar somutlaştırılmalı: kuşaklar arası iletişimin kopması, sözlü bilginin kaybı, kültürel kimliğin zayıflaması",
+    "Bir dilin kaybının yalnızca duygusal değil pratik sonuçları da olduğu gösterilmeli",
+    "Önlemler: okulda seçmeli ders, kayıt ve sözlük çalışması, yayın ve dijital içerik, aile içinde kullanım",
+    "Ortak dilin yararına kısa bir kabul yazının dengesini artırır"
+  ],
+  "common_mistakes": [
+    "Yabancı dil öğrenmenin faydalarını anlatarak konudan sapmak",
+    "Belirli bir ülke ya da topluluğu adıyla hedef almak",
+    "Önlem olarak yalnızca 'devlet korumalı' demek, nasıl olacağını yazmamak"
+  ],
+  "difficulty": "hard"
+}

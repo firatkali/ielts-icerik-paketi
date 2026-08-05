@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "set_id": "T2-04",
+  "skill": "writing",
+  "module": "both",
+  "task": 2,
+  "generated_by": "opus",
+  "pattern": "opinion",
+  "prompt": "People in many countries are living longer and remaining healthy for longer. Some argue that the age at which people are expected to stop working should therefore rise.\n\nTo what extent do you agree or disagree?",
+  "instruction_line": "You should spend about 40 minutes on this task. Write at least 250 words.",
+  "min_words": 250,
+  "minutes": 40,
+  "topic_area": "yaşlanan nüfus",
+  "key_points": [
+    "Tutum net olmalı: emeklilik yaşı yükselmeli mi, yükselmemeli mi, koşullu mu",
+    "Uzun yaşam ile çalışma süresi arasındaki bağ açıkça kurulmalı — soru bu bağ üzerine",
+    "Destekleyici gerekçe: deneyimin korunması, çalışan sayısının azalması, emeklilik giderlerinin yükü",
+    "Karşı gerekçe: bedenen yorucu işler, gençlerin iş bulması, sağlık farklılıkları",
+    "Koşullu tutum seçilirse ölçüt belirtilmeli (meslek türü, isteğe bağlılık, kademeli geçiş)"
+  ],
+  "common_mistakes": [
+    "Yaşlanan nüfusu genel olarak anlatıp emeklilik yaşı sorusuna cevap vermemek",
+    "Bütün işleri aynı kabul edip masa başı ile ağır işi ayırmamak",
+    "Yaşlı insanlar hakkında genellemelere dayanmak"
+  ],
+  "difficulty": "medium"
+}

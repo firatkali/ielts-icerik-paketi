@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "set_id": "T2-09",
+  "skill": "writing",
+  "module": "both",
+  "task": 2,
+  "generated_by": "opus",
+  "pattern": "discuss_both_views",
+  "prompt": "Some people believe that grandparents and other relatives should take a large part in raising children. Others think this should be left mainly to the parents.\n\nDiscuss both these views and give your own opinion.",
+  "instruction_line": "You should spend about 40 minutes on this task. Write at least 250 words.",
+  "min_words": 250,
+  "minutes": 40,
+  "topic_area": "aile ve toplum",
+  "key_points": [
+    "İki görüş de çocuğun yararı açısından tartışılmalı",
+    "Geniş aile lehine: deneyim aktarımı, ebeveyne destek, kuşaklar arası bağ",
+    "Ebeveyn lehine: tutarlı kural, sorumluluğun netliği, farklı yetiştirme anlayışlarının çatışması",
+    "Kendi görüş açıkça belirtilmeli; koşullu olabilir (çalışma saatleri, yakınlık, çocuğun yaşı)",
+    "Kültürel olarak nötr kalınmalı; tek bir aile modeli doğru sayılmamalı"
+  ],
+  "common_mistakes": [
+    "Kendi ailesini anlatan kişisel bir yazıya dönüştürmek",
+    "Bir görüşü hiç savunmadan doğrudan reddetmek",
+    "Görüş bildirme kısmını sonuç paragrafında yeni bir konu açarak yapmak"
+  ],
+  "difficulty": "medium"
+}

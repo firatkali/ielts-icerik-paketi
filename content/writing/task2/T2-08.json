@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "set_id": "T2-08",
+  "skill": "writing",
+  "module": "both",
+  "task": 2,
+  "generated_by": "opus",
+  "pattern": "discuss_both_views",
+  "prompt": "Some schools are replacing printed books and paper exercise books with tablets and laptops. Others argue that printed materials should remain central to learning.\n\nDiscuss both these views and give your own opinion.",
+  "instruction_line": "You should spend about 40 minutes on this task. Write at least 250 words.",
+  "min_words": 250,
+  "minutes": 40,
+  "topic_area": "teknoloji",
+  "key_points": [
+    "İki yaklaşım da öğrenme açısından değerlendirilmeli, sadece maliyet üzerinden değil",
+    "Dijital tarafın gerekçeleri: güncellenebilirlik, taşınabilirlik, alıştırmaların çeşitlenmesi",
+    "Basılı tarafın gerekçeleri: dikkat dağılmaması, cihaz ve bağlantı gerektirmemesi, not alma alışkanlığı",
+    "Cihaza erişimi olmayan öğrenciler açısından eşitlik boyutuna değinmek görüşü güçlendirir",
+    "Kendi görüş açık olmalı; karma bir çözüm savunuluyorsa sınırı belirtilmeli"
+  ],
+  "common_mistakes": [
+    "Teknolojinin faydalarını genel olarak anlatıp okul bağlamından kopmak",
+    "'Her ikisi de iyidir' deyip gerekçesiz bir orta yol yazmak",
+    "Kanıt yerine uydurma araştırma sonucu uydurmak"
+  ],
+  "difficulty": "medium"
+}

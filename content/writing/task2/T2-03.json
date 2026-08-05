@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "set_id": "T2-03",
+  "skill": "writing",
+  "module": "both",
+  "task": 2,
+  "generated_by": "opus",
+  "pattern": "opinion",
+  "prompt": "Some people believe that governments should spend more money on preventing crime, for example on activities for young people and better lighting in public places, than on courts and prisons.\n\nTo what extent do you agree or disagree?",
+  "instruction_line": "You should spend about 40 minutes on this task. Write at least 250 words.",
+  "min_words": 250,
+  "minutes": 40,
+  "topic_area": "suç ve ceza",
+  "key_points": [
+    "Soru bir bütçe tercihi kuruyor: önleme mi, yargı ve ceza sistemi mi — taraf belirtilmeli",
+    "En az iki gerekçe, önleyici harcamanın uzun vadeli etkisi veya caydırıcılığın gerekliliği üzerinden",
+    "Somut önleme örneği verilmeli (gençlere yönelik etkinlikler, aydınlatma, meslek edindirme)",
+    "Karşı görüşe kabul: suç işlendiğinde işleyen bir yargı ve ceza sistemi yine de gerekli",
+    "İkisi arasında denge öneriliyorsa hangi durumda hangisinin ağır bastığı açıklanmalı"
+  ],
+  "common_mistakes": [
+    "Belirli bir ülkenin yasalarına veya olayına gönderme yapmak",
+    "Cezaların ağırlığını tartışıp bütçe tercihi sorusunu atlamak",
+    "İddiaları destekleyecek mantıksal zincir kurmadan slogan cümleler yazmak"
+  ],
+  "difficulty": "hard"
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "set_id": "T2-20",
+  "skill": "writing",
+  "module": "both",
+  "task": 2,
+  "generated_by": "opus",
+  "pattern": "double_question",
+  "prompt": "In many countries the number of people who live alone, rather than with family members or housemates, is rising steadily.\n\nWhy is this happening? Is it a positive or a negative development?",
+  "instruction_line": "You should spend about 40 minutes on this task. Write at least 250 words.",
+  "min_words": 250,
+  "minutes": 40,
+  "topic_area": "aile ve toplum",
+  "key_points": [
+    "Sebepler ve değerlendirme ayrı ayrı ele alınmalı",
+    "Sebepler: iş için başka şehre taşınmak, evlenme yaşının yükselmesi, bağımsız yaşamanın tercih edilmesi, uzun yaşam",
+    "Değerlendirme açık bir hüküm içermeli",
+    "Olumlu yön: özgürlük, kendi düzenini kurma; olumsuz yön: yalnızlık riski, konut talebinin ve kaynak kullanımının artması",
+    "Toplum düzeyinde sonuçlara da değinilmeli, yalnızca birey düzeyinde kalınmamalı"
+  ],
+  "common_mistakes": [
+    "Yalnız yaşamanın iyi ya da kötü olduğunu söyleyip sebep sorusunu atlamak",
+    "Yaşlı ya da genç tek bir grup üzerinden bütün eğilimi açıklamak",
+    "Sonuç paragrafında yeni bir sebep ortaya atmak"
+  ],
+  "difficulty": "medium"
+}

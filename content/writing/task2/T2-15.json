@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "set_id": "T2-15",
+  "skill": "writing",
+  "module": "both",
+  "task": 2,
+  "generated_by": "opus",
+  "pattern": "advantages_disadvantages",
+  "prompt": "An increasing number of everyday services, such as banking, paying bills and booking appointments, can now be used only through a website or an application.\n\nDo the advantages outweigh the disadvantages?",
+  "instruction_line": "You should spend about 40 minutes on this task. Write at least 250 words.",
+  "min_words": 250,
+  "minutes": 40,
+  "topic_area": "teknoloji",
+  "key_points": [
+    "İki taraf da yazılmalı ve sonunda açık bir tartı hükmü verilmeli",
+    "Avantajlar: zamandan tasarruf, kesintisiz erişim, kuyruk ve yol masrafının ortadan kalkması",
+    "Dezavantajlar: cihazı veya bağlantısı olmayanların dışarıda kalması, teknik arıza, yardım alamama",
+    "Kimin için avantaj, kimin için dezavantaj olduğu ayrılmalı (genç/yaşlı, şehir/kırsal)",
+    "Cevap koşulluysa koşul belirtilmeli (alternatif kanalların açık tutulması)"
+  ],
+  "common_mistakes": [
+    "Teknolojinin genel faydalarını anlatıp 'yalnızca çevrim içi' koşulunu atlamak",
+    "Hükmü belirsiz bırakmak ('her ikisi de vardır' diyerek bitirmek)",
+    "Dezavantaj bölümünü tek cümleye sıkıştırmak"
+  ],
+  "difficulty": "medium"
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "set_id": "T2-07",
+  "skill": "writing",
+  "module": "both",
+  "task": 2,
+  "generated_by": "opus",
+  "pattern": "discuss_both_views",
+  "prompt": "Some people think it is better to stay with the same employer for most of one's working life. Others believe that changing jobs every few years is more useful.\n\nDiscuss both these views and give your own opinion.",
+  "instruction_line": "You should spend about 40 minutes on this task. Write at least 250 words.",
+  "min_words": 250,
+  "minutes": 40,
+  "topic_area": "iş hayatı",
+  "key_points": [
+    "İki çalışma biçimi de kendi gerekçeleriyle sunulmalı",
+    "Aynı yerde kalmanın yararları: derinlemesine bilgi, güven, yükselme, iş güvencesi",
+    "İş değiştirmenin yararları: yeni beceriler, geniş bakış, ücret ve koşulların iyileşmesi",
+    "Kendi görüş net olmalı ve meslek türüne göre koşullandırılabilir",
+    "Örnekler genel olmalı; gerçek şirket ya da kişi adı kullanılmaz"
+  ],
+  "common_mistakes": [
+    "Yalnızca kendi kişisel planını anlatıp iki görüşü tartışmamak",
+    "Dengeli görünmek adına hiçbir tercih belirtmemek",
+    "Aynı fikri iki paragrafta farklı kelimelerle tekrarlamak"
+  ],
+  "difficulty": "medium"
+}

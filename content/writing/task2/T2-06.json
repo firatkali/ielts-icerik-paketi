@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "set_id": "T2-06",
+  "skill": "writing",
+  "module": "both",
+  "task": 2,
+  "generated_by": "opus",
+  "pattern": "discuss_both_views",
+  "prompt": "Some people think that governments should spend most of their transport budget on buses and trains. Others believe that improving roads for cars and lorries brings greater benefits.\n\nDiscuss both these views and give your own opinion.",
+  "instruction_line": "You should spend about 40 minutes on this task. Write at least 250 words.",
+  "min_words": 250,
+  "minutes": 40,
+  "topic_area": "ulaşım",
+  "key_points": [
+    "Her iki görüş de ayrı ayrı ve dengeli biçimde ele alınmalı",
+    "Toplu taşıma lehine gerekçeler: erişilebilirlik, trafiğin azalması, düşük maliyet",
+    "Yol yatırımı lehine gerekçeler: yük taşımacılığı, kırsal bağlantı, toplu taşımanın ulaşamadığı yerler",
+    "Kendi görüş açıkça belirtilmeli ve tartışılan gerekçelerden çıkmalı",
+    "Görüşün hangi koşulda geçerli olduğu söylenebilir (büyük şehir / seyrek nüfuslu bölge)"
+  ],
+  "common_mistakes": [
+    "İki görüşten birine yalnızca bir iki cümle ayırmak",
+    "Kendi görüşünü hiç yazmamak veya yalnızca son cümlede ima etmek",
+    "İki tarafı özetleyip aralarında hiçbir karşılaştırma yapmamak"
+  ],
+  "difficulty": "medium"
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "set_id": "T2-16",
+  "skill": "writing",
+  "module": "both",
+  "task": 2,
+  "generated_by": "opus",
+  "pattern": "advantages_disadvantages",
+  "prompt": "In some countries the government sets a limit on the number of hours that employees are allowed to work each week.\n\nDo the advantages outweigh the disadvantages?",
+  "instruction_line": "You should spend about 40 minutes on this task. Write at least 250 words.",
+  "min_words": 250,
+  "minutes": 40,
+  "topic_area": "devletin rolü",
+  "key_points": [
+    "Avantaj ve dezavantajlar ayrı ayrı geliştirilmeli, sonra tartı hükmü verilmeli",
+    "Avantajlar: dinlenme hakkı, sağlık ve güvenlik, iş dışı hayata zaman kalması",
+    "Dezavantajlar: daha çok kazanmak isteyenin kısıtlanması, iş yerinin esnekliğini kaybetmesi, kayıt dışı çalışmaya kayış",
+    "Devletin düzenleme yapması ile bireyin seçimi arasındaki gerilime değinilmeli",
+    "Sonuç, yazının gövdesinde verilen gerekçelerden çıkmalı"
+  ],
+  "common_mistakes": [
+    "Uzun çalışma saatlerinin zararlarını anlatıp sınırlamayı hiç tartışmamak",
+    "Gerçek bir ülkenin yasasını örnek göstermek",
+    "İki tarafı yazıp soruyu cevapsız bırakmak"
+  ],
+  "difficulty": "hard"
+}

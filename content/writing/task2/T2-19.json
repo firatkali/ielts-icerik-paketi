@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "set_id": "T2-19",
+  "skill": "writing",
+  "module": "both",
+  "task": 2,
+  "generated_by": "opus",
+  "pattern": "double_question",
+  "prompt": "In many countries, programmes and videos about the daily lives of ordinary people now attract larger audiences than drama or documentaries.\n\nWhy is this happening? Is it a positive or a negative development?",
+  "instruction_line": "You should spend about 40 minutes on this task. Write at least 250 words.",
+  "min_words": 250,
+  "minutes": 40,
+  "topic_area": "medya",
+  "key_points": [
+    "İki soru da cevaplanmalı: neden böyle oluyor ve bu iyi mi kötü mü",
+    "Sebepler: izleyicinin kendini yakın hissetmesi, üretim kolaylığı, kısa ve bölünebilir içerik",
+    "Değerlendirmede taraf net olmalı",
+    "Olumlu yön: farklı hayatların görünür olması, pratik bilgi; olumsuz yön: yüzeysellik, kurgu içeriğe ilginin azalması",
+    "Gerçek program, kanal ya da kişi adı verilmeden genel örnek kullanılmalı"
+  ],
+  "common_mistakes": [
+    "Gerçek bir program ya da ünlü adı vermek",
+    "Medyanın genel etkilerini anlatıp bu değişimin sebebini açıklamamak",
+    "Tek bir sebeple yetinip gerisini tekrar etmek"
+  ],
+  "difficulty": "medium"
+}

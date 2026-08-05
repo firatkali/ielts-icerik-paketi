@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "set_id": "T2-02",
+  "skill": "writing",
+  "module": "both",
+  "task": 2,
+  "generated_by": "opus",
+  "pattern": "opinion",
+  "prompt": "Some people think that employers should be responsible for the health of their staff, for example by providing exercise facilities, healthy meals and regular health checks.\n\nTo what extent do you agree or disagree?",
+  "instruction_line": "You should spend about 40 minutes on this task. Write at least 250 words.",
+  "min_words": 250,
+  "minutes": 40,
+  "topic_area": "sağlık",
+  "key_points": [
+    "Açık bir tutum şart: sorumluluk işverende mi, kişide mi, paylaşılmış mı",
+    "'Sorumluluk' kavramı tartışılmalı — sağlıklı çalışanın iyi bir şey olduğunu söylemek soruyu karşılamaz",
+    "İşveren lehine gerekçe: verimlilik, devamsızlığın azalması, maliyetin işverene dönmesi",
+    "Karşı gerekçe: küçük iş yerlerinin bütçesi, kişinin kendi seçimlerine karışılması",
+    "Kısmi katılım seçilirse sınır net çizilmeli (hangi konuda işveren, hangi konuda birey)"
+  ],
+  "common_mistakes": [
+    "Sağlıklı yaşamın faydalarını anlatıp sorumluluk sorusuna hiç değinmemek",
+    "Yalnızca büyük şirketleri düşünüp küçük iş yerlerini görmezden gelmek",
+    "Tutumu giriş ile sonuçta birbirine zıt biçimde yazmak"
+  ],
+  "difficulty": "medium"
+}

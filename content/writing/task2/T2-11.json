@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "set_id": "T2-11",
+  "skill": "writing",
+  "module": "both",
+  "task": 2,
+  "generated_by": "opus",
+  "pattern": "problem_solution",
+  "prompt": "A large amount of the food that households buy is thrown away without being eaten.\n\nWhat problems does this cause and what measures could be taken?",
+  "instruction_line": "You should spend about 40 minutes on this task. Write at least 250 words.",
+  "min_words": 250,
+  "minutes": 40,
+  "topic_area": "tüketim",
+  "key_points": [
+    "Sorular ayrı ayrı cevaplanmalı: sorunlar bölümü + önlemler bölümü",
+    "En az iki sorun: aile bütçesinin boşa gitmesi, üretim için harcanan su/enerji/arazinin israfı, atık yükü",
+    "Sorunların neden-sonuç zinciriyle açıklanması gerekir, listelenmesi yetmez",
+    "Önlemler farklı düzeylerden gelmeli: hanede planlı alışveriş ve saklama, mağazada porsiyon ve etiket, okulda bilgilendirme",
+    "Önlemlerin uygulanabilir olması beklenir; 'insanlar dikkatli olmalı' tek başına zayıf kalır"
+  ],
+  "common_mistakes": [
+    "Açlık konusuna kayıp asıl soruyu (sorun ve önlem) gözden kaçırmak",
+    "Önlemleri tek bir tarafa (yalnızca devlete) yüklemek",
+    "Konuyu kişisel bir anıyla anlatmak"
+  ],
+  "difficulty": "easy"
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "set_id": "T2-14",
+  "skill": "writing",
+  "module": "both",
+  "task": 2,
+  "generated_by": "opus",
+  "pattern": "advantages_disadvantages",
+  "prompt": "In some schools, children with very different levels of ability are taught together in the same class rather than being placed in separate groups.\n\nDo the advantages outweigh the disadvantages?",
+  "instruction_line": "You should spend about 40 minutes on this task. Write at least 250 words.",
+  "min_words": 250,
+  "minutes": 40,
+  "topic_area": "eğitim",
+  "key_points": [
+    "Hem avantaj hem dezavantaj ele alınmalı; ardından net bir tartı hükmü verilmeli",
+    "Avantajlar: birbirinden öğrenme, etiketlenmenin önlenmesi, sosyal karışım",
+    "Dezavantajlar: öğretmenin aynı anda çok farklı düzeye yetişememesi, hızlı ya da yavaş öğrenenin geride kalması",
+    "Sorunun cevabı açık olmalı: avantajlar ağır basıyor mu, basmıyor mu",
+    "Hangi koşulda dengenin değiştiği söylenebilir (sınıf mevcudu, yardımcı öğretmen)"
+  ],
+  "common_mistakes": [
+    "Avantaj ve dezavantajları sıralayıp hangisinin ağır bastığını söylememek",
+    "Yalnızca bir tarafı yazıp diğerini görmezden gelmek",
+    "Belirli bir ülkenin eğitim sistemini örnek almak"
+  ],
+  "difficulty": "medium"
+}
