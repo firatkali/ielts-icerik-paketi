@@ -40,6 +40,9 @@ KISA_DENEME_SAYISI = 3
 # Bir tur bundan kisa surup hicbir sey uretmediyse, mesaj ne olursa olsun
 # kota/gecici hata sayilir: Claude gercekten calissaydi bu kadar cabuk bitmezdi.
 CABUK_BITTI_ESIGI = 3 * 60
+# Claude Code'un kendi guncellemesi gunde en fazla bir kez denenir; son deneme
+# tarihi bu dosyada tutulur (depoya gonderilmez).
+GUNCELLEME_ISARETI = os.path.join(KOK, ".claude-guncelleme")
 
 def _yay(ad, model, dosya, kez, ek=""):
     """Bir gorevi, prompt dosyasinin istedigi calistirma sayisi kadar adima boler."""
@@ -581,6 +584,9 @@ def gunluk_yaz(n, ad, model, kod, sure, cikti):
     Eskiden cikti sadece bellekte duruyordu: pencere kapaninca ne oldugu
     kaybediliyor, sorun cikinca teshis edilemiyordu. Dosyalar depoya
     gonderilmez (.gitignore), sadece bu bilgisayarda kalir.
+
+    Doner: yazilan dosyanin yolu (yazilamadiysa bos metin) - uyari dosyasina
+    konabilsin diye, sorun uzaktan incelenirken hangi dosyaya bakilacagi belli olsun.
     """
     try:
         os.makedirs(GUNLUK, exist_ok=True)
@@ -590,8 +596,9 @@ def gunluk_yaz(n, ad, model, kod, sure, cikti):
             f.write("adim   : %d - %s\nmodel  : %s\ncikis  : %s\nsure   : %d sn\n%s\n\n"
                     % (n + 1, ad, model, kod, sure, "-" * 62))
             f.write(cikti or "(cikti yok)")
+        return yol
     except Exception:
-        pass
+        return ""
 
 
 def cikti_ozeti(cikti, satir=25):
@@ -618,13 +625,60 @@ def guncelle():
                     stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
 
 
+def claude_guncelle(zorla=False):
+    """Claude Code'u gunceller.
+
+    Neden var: 05.08'de uretim saatlerce durdu. Sebep kota degildi - Claude Code
+    eski surumde kalinca yeni modeller icin ekrana bir soru cikariyor, otomatik
+    kipte o soru cevaplanamadigi icin her tur hatayla bitiyordu. Elle guncelleme
+    gerekiyordu, arkadas bunu bilemez. Artik program kendi yapiyor.
+
+    Gunde bir kez denenir (zorla=True ise sayaca bakmadan). Basarisiz olursa
+    uretim yine baslar - guncelleme sart degil, faydali.
+    """
+    bugun = datetime.datetime.now().strftime("%Y-%m-%d")
+    if not zorla:
+        try:
+            with open(GUNCELLEME_ISARETI, encoding="utf-8") as f:
+                if f.read().strip() == bugun:
+                    return
+        except Exception:
+            pass
+
+    print("  Claude guncelleniyor (bir kac dakika surebilir)...")
+    oldu = False
+    for komut in ("claude update",
+                  "winget upgrade -e --id Anthropic.ClaudeCode "
+                  "--accept-package-agreements --accept-source-agreements --silent"):
+        try:
+            p = subprocess.run(komut, shell=True, capture_output=True, text=True,
+                               cwd=KOK, timeout=15 * 60, errors="replace")
+            if p.returncode == 0:
+                oldu = True
+                break
+        except Exception:
+            continue
+
+    print("  Claude guncel." if oldu else
+          "  Guncelleme yapilamadi - uretim yine de basliyor.")
+    try:
+        with open(GUNCELLEME_ISARETI, "w", encoding="utf-8") as f:
+            f.write(bugun)
+    except Exception:
+        pass
+
+
 def bir_adim(n):
-    """Tek bir isi calistirir. Doner: 'bitti' / 'limit' / 'olmadi' / 'eksik'."""
+    """Tek bir isi calistirir.
+
+    Doner: 'bitti' / 'bitti_limitli' / 'limit' / 'hata' / 'olmadi' / 'eksik'
+    ve (sonuc, cikti, gunluk_yolu).
+    """
     ad, model, dosya, ek, _grup = ADIMLAR[n]
     yol = "prompts/" + dosya
     if not os.path.exists(os.path.join(KOK, yol)):
         print("  HATA: %s bulunamadi." % yol)
-        return "eksik", ""
+        return "eksik", "", ""
 
     print()
     cizgi("-")
@@ -641,25 +695,39 @@ def bir_adim(n):
     once = repo_imzasi()
     kod, cikti, sure = claude_calistir(model, talimat)
     ilerledi = repo_imzasi() != once
-    gunluk_yaz(n, ad, model, kod, sure, cikti)
+    gunluk = gunluk_yaz(n, ad, model, kod, sure, cikti)
 
     # Kota mesajini yalnizca is ilerlemediyse kota saymak yanlis olur: is bitip
     # kota da dolmus olabilir. Bu yuzden ikisi ayri sorular.
     #  - ilerledi   -> is yapildi, sirayi ilerlet
     #  - limit izi  -> devam etmeden once sifirlanmayi bekle
     if ilerledi:
-        return ("bitti_limitli" if limit_izi_var(cikti) else "bitti"), cikti
+        return ("bitti_limitli" if limit_izi_var(cikti) else "bitti"), cikti, gunluk
     if limit_izi_var(cikti):
-        return "limit", cikti
+        return "limit", cikti, gunluk
 
-    # Mesaji tanimaya calismak tek basina yetmiyor: kota dolunca Claude bazen
-    # hicbir sey yazmadan ya da bilmedigimiz bir cumleyle cikiyor. O yuzden
-    # sureye de bakiyoruz - gercekten calissaydi bu is dakikalar surerdi.
-    if sure < CABUK_BITTI_ESIGI or kod != 0:
+    # Buradan asagisi: is ilerlemedi VE kotaya benzer bir mesaj da yok.
+    # Iki ihtimal var ve ayirt etmek onemli, cunku tedavileri farkli:
+    #
+    #  1) Sessiz kota. Kota dolunca Claude bazen hicbir sey yazmadan cikiyor.
+    #     Belirtisi: tur COK CABUK bitiyor - gercekten calissaydi dakikalar surerdi.
+    #     Tedavi: beklemek.
+    #
+    #  2) Gercek aksaklik. Claude uzun sure calisip hatayla cikiyor (05.08'de
+    #     oldugu gibi: eski surum yeni modeli acamiyordu). Bunu "kota" diye
+    #     etiketlemek en pahali hata - program saatlerce sessizce bekler,
+    #     kimse bir sey yapmaz. Tedavi: guncelleme + haber vermek.
+    if sure < CABUK_BITTI_ESIGI:
         print("  Claude %d saniyede, is uretmeden cikti - kota sayiliyor." % sure)
-        return "limit", cikti
+        return "limit", cikti, gunluk
 
-    return "olmadi", cikti
+    if kod != 0:
+        print("  Claude %d saniye calisti ama hatayla cikti (cikis kodu %s)."
+              % (sure, kod))
+        print("  Bu kota DEGIL - kota dolunca bu kadar uzun surmez.")
+        return "hata", cikti, gunluk
+
+    return "olmadi", cikti, gunluk
 
 
 def main():
@@ -672,6 +740,8 @@ def main():
     cizgi()
     print("  IELTS ICERIK URETIMI - OTOMATIK")
     cizgi()
+    print()
+    claude_guncelle()
 
     if not guven_hazirla():
         return 1
@@ -696,9 +766,15 @@ def main():
 
     deneme = 0
     haber_verildi = False
+    hata_ustuste = 0
+    guncelleme_denendi = False
     try:
         while n < len(ADIMLAR):
-            sonuc, cikti = bir_adim(n)
+            sonuc, cikti, gunluk = bir_adim(n)
+
+            if sonuc != "hata":
+                hata_ustuste = 0
+                guncelleme_denendi = False
 
             if sonuc == "eksik":
                 print("  Depo eksik gorunuyor. PowerShell'e sunu yaz:")
@@ -719,6 +795,43 @@ def main():
                     durum_yaz(n)
                 geri_sayim(sure, "Kota bekleniyor.")
                 print("  Devam ediliyor...")
+                continue
+
+            if sonuc == "hata":
+                # Kotayla ayni yerde bekletmiyoruz: bu bir aksaklik, saat gecince
+                # kendiliginden gecmez. Once Claude'u guncellemeyi deniyoruz
+                # (05.08'deki durusun sebebi buydu), sonra haber veriyoruz.
+                hata_ustuste += 1
+                deneme += 1
+                print("  Ayni sekilde %d. kez basarisiz oldu." % hata_ustuste)
+
+                if hata_ustuste == 2 and not guncelleme_denendi:
+                    guncelleme_denendi = True
+                    print("  Once Claude'u guncellemeyi deniyoruz.")
+                    claude_guncelle(zorla=True)
+
+                if hata_ustuste == KISA_DENEME_SAYISI:
+                    cizgi("!")
+                    print("  DIKKAT: Claude ust uste %d turdur hatayla cikiyor."
+                          % hata_ustuste)
+                    print("  BU KOTA DEGIL, gercek bir aksaklik. Beklemek cozmez.")
+                    print("  Firat'a haber ver ve bu dosyayi ona at:")
+                    print("     %s" % (gunluk or "gunluk klasorundeki son dosya"))
+                    cizgi("!")
+                    uyari_kaydet(
+                        ["KOTA DEGIL - GERCEK AKSAKLIK.",
+                         "'%s' isi %d kez ust uste hatayla bitti (uzun surup hata "
+                         "kodu dondurdu; kota dolunca boyle olmaz)."
+                         % (ADIMLAR[n][0], hata_ustuste),
+                         "Claude guncellemesi denendi: %s"
+                         % ("evet" if guncelleme_denendi else "hayir"),
+                         "Ham cikti dosyasi: %s" % (gunluk or "(yazilamadi)"),
+                         "Son cikti:"] + cikti_ozeti(cikti))
+                    durum_yaz(n)
+
+                # Program yine de durmuyor: aksaklik gecici de olabilir.
+                geri_sayim(KISA_BEKLEME if hata_ustuste < KISA_DENEME_SAYISI
+                           else UZUN_BEKLEME, "Tekrar denenecek.")
                 continue
 
             if sonuc in ("bitti", "bitti_limitli"):
