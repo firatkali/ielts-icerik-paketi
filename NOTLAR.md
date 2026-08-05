@@ -4698,3 +4698,107 @@ sınırında tartışmalı kaldığı için hiç yazılmadı.
   Pasaj lisansı eksik 0, görünür metinde IELTS 0, yasak kaynak 0.
 - **DURUM.txt / ilerleme.txt elle güncellenmedi** (sayaçları `tools/calistir.py` yazıyor).
 - Atlanan/sorun: yok. Sıradaki iş **4. çalıştırma: AC4 (pasaj A10, soru 7–13)**.
+
+---
+
+## FABLE5-40 (4. çalıştırma: AC4 — doğru / yanlış / verilmemiş, 7 soru)
+
+- Tarih: 2026-08-05
+- Depo kontrolü: `AC1`, `AC2` ve `AC3` klasörlerinde `true-false-not-given.json` vardı
+  (1.–3. paketler bitmiş); AC4, GT1–GT2 ve iki alıştırma dosyası yoktu. Çalıştırma
+  listesindeki ilk üretilmemiş paket **4 — AC4** idi, o yapıldı; ötekilere dokunulmadı.
+- Çıktı: `content/reading/tests/AC4/true-false-not-given.json` — **7 soru (7–13)**,
+  pasaj `A10` ("What Kind of Office Actually Works?"), `question_type`
+  `true_false_not_given`, `practice: false`, kutu aralığı yönergede **7-13** yazılı.
+
+### Sorular, cevaplar ve dayanak
+
+| No | Cevap | Nereye dayanıyor | Test edilen nokta |
+|---|---|---|---|
+| 7 | TRUE | A/4 | çalışmanın nedeni: tartışmanın kontrollü karşılaştırmadan yoksun olması |
+| 8 | FALSE | B/1 | takım sayısı 22 → "yirmiden az" çelişkisi |
+| 9 | NOT GIVEN | — (konu B/2, F/3) | çalışanlara sıradaki düzenin önceden söylenip söylenmediği |
+| 10 | TRUE | C/3 | sensörlerin ışık ve CO2'yi kesintisiz kaydetmesi |
+| 11 | FALSE | D/3 | etkinlik temelli düzenin açık ofisten **düşük** memnuniyet alması |
+| 12 | NOT GIVEN | — (konu C/3, F) | sıcaklığın düzenlere göre değişip değişmediği |
+| 13 | TRUE | G/2 | kod çıktısında anlamlı fark bulunmaması |
+
+- Dağılım **3 TRUE · 2 FALSE · 2 NOT GIVEN**, sıra `T · F · NG · T · F · NG · T`:
+  hiçbir şık yarıyı geçmiyor, ardışık üç soru aynı cevap değil.
+- **Sıra kuralı:** TRUE/FALSE kanıtları A→B→C→D→G artan sırada; iki NOT GIVEN sorusu da
+  konunun ele alındığı yere oturuyor (9 → B/2'deki dönüşüm düzeni; 12 → C/3'te ölçülen,
+  F'de sonucu tartışılan sensör verisi). Sorular A, B, C, D, F ve G paragraflarına
+  yayıldı; E ve H bu pakette kullanılmadı (E'deki akış sayıları ve H'deki uyarı
+  cümlesi başka paketlerin işi).
+- **A10'un öteki paketiyle çakışma sıfır:** aynı pasajı kullanan `note-completion`
+  (soru 1–6) A/3, B/2, C/4, F/3 ve H/2 cümlelerini kanıt almış; bu paket bilerek
+  **yalnızca A/4, B/1, C/3, D/3, G/2** cümlelerinden kuruldu (betikle karşılaştırıldı,
+  kesişim boş, uyarı 0).
+- Aritmetik/doğrudan karşılaştırma kuralı (prompt'taki "Hata B") iki yerde bilinçli
+  kullanıldı: soru 8 (22 takım → "yirmiden az" yanlış) ve soru 11 ("performed worse …
+  roughly 14 per cent lower" → "daha yüksek" yanlış). İkisi de sayı okuması, çıkarım
+  değil.
+
+### NOT GIVEN gerekçeleri (üç şart)
+
+- **Soru 9:** konu pasajda var — B/2 takımların dört düzen arasında ikişer haftalık
+  dönemlerle döndüğünü ve Latin kare tasarımıyla her takımın sırayı farklı yaşadığını
+  anlatıyor; çürüten cümle yok (sıranın gizlendiği, çalışanların habersiz olduğu hiçbir
+  yerde yazmıyor); doğrulayan cümle de yok — sıranın araştırmacılarca **önceden
+  belirlenmiş** olması onun **çalışanlara bildirildiği** anlamına gelmez, F/3'teki masa
+  doluluğu artışı da davranışsal gözlem, bilgilendirme kanıtı değil.
+- **Soru 12:** konu C/3'te var (sıcaklık, sensörlerin kaydettiği değerler arasında adıyla
+  sayılıyor) ve F sensör verisinin ne gösterdiğini tartışıyor; çürüten cümle yok — F
+  yalnızca gürültü sonucunu veriyor, G/2 "fark çıkmayan ölçütler" derken **yalnızca** kod
+  gönderimi ile enerji düzeyini sayıyor, sıcaklığı anmıyor; doğrulayan cümle de yok —
+  bir değişkenin ölçülmüş olması sonuç çıktığını göstermez. Klasik "ölçüldü / sonucu
+  bildirildi" ayrımı.
+- "Hata A" tuzağı (pasaj söylemiyorsa FALSE sanmak) iki NOT GIVEN'da da hedeflenen hata;
+  buna karşılık soru 8 ve 11 gerçek, tek noktalı çelişki taşıyor.
+
+### Elenen adaylar
+
+Üç adımlı test **5 aday ifadeyi eledi**, hiçbiri dosyaya girmedi:
+
+1. "Şirketin ana kampüsü dışında da ofisleri var" (NOT GIVEN adayı, konu A/4) — A/4
+   "its **main** campus" diyor; "ana" sıfatı başka yerlerin varlığını ima ediyor, yani
+   3. şart (dolaylı doğrulama da olmayacak) sağlanmıyor. NG ile TRUE arasında
+   tartışmalı kaldığı için atıldı.
+2. "Katılımcılara deneye katıldıkları için ek ödeme yapıldı" (NOT GIVEN adayı) —
+   ücretlendirme pasajın konularından biri değil; 1. şart (konu pasajda geçmeli)
+   sağlanmıyor, bu NOT GIVEN değil kötü sorudur. Atıldı.
+3. "Etkinlik temelli düzen dört düzen içinde en düşük akış puanını aldı" (NOT GIVEN
+   adayı, konu E) — E/2 iki yarı kapalı düzenin hem tam açık hem tam serbest düzenden
+   daha iyi olduğunu söylüyor ama etkinlik temelli ile açık ofisi birbiriyle
+   karşılaştırmıyor; teknik olarak NG, ancak "en düşük" iddiası kısmi sıralama yüzünden
+   FALSE diye de savunulabiliyordu. Tartışmalı olduğu için atıldı.
+4. "Açık ofisteki gürültü kulaklık koruması gerektirecek düzeydeydi" (NOT GIVEN adayı,
+   konu F/2) — F/2 "exceeded recommended safe limits" diyor; "güvenli sınırın üstü"
+   koruma gereğini dolaylı olarak ima ediyor, 3. şart sağlanmıyor. Atıldı.
+5. "Açık ofiste güvenli sınırın aşılma sıklığı takım ofisindekinden azdı" (FALSE adayı,
+   F/2) — geçerli ve temiz bir FALSE'tu, ama pakette zaten iki FALSE vardı ve dağılım
+   kotasını bozacaktı; kullanılmadı (ambiguity değil, kota nedeniyle).
+
+### Doğrulama
+
+- `python tools/_f40_kontrol.py AC4` (2. çalıştırmadan devralınan betik; `PASAJ`
+  eşlemesinde AC4 → A10 zaten tanımlıydı) → zarf alanları, yönerge kalıbı, 7–13 dizisi,
+  birebir `evidence` + `evidence_locator.sentence` doğruluğu, FALSE'ta
+  `contradiction_point`, NOT GIVEN'da üç şartlı gerekçe, ≤20 kelime, 6 kelimelik örtüşme
+  taraması, dağılım/ardışıklık, kanıt sırası, genelleme kotası, IELTS taraması,
+  note-completion kesişimi → **hata 0, uyarı 0**.
+- Gerileme kontrolü: AC1, AC2 ve AC3 aynı betikle yeniden koşuldu → üçü de hata 0,
+  uyarı 0.
+- Aşırı genelleme kotası: **hiç kullanılmadı** (sınır 2, kullanılan 0) — bu pakette
+  "all / never / only" türü ucuz FALSE yok, beş sorunun tamamı içerik çelişkisine ya da
+  sayıya dayanıyor.
+- Kelime sayıları 9–15, hiçbiri 20'yi geçmiyor; her ifade tek cümle ve tek iddia.
+- Son kontrol: yedi soru cevap anahtarına bakmadan aday gibi baştan çözüldü, yedisi de
+  anahtarla uyuştu — **son turda silinen soru yok** (elemeler yukarıda, taslak
+  aşamasında).
+- `python tools/dogrula.py` → **şema hatası 0**, `reading/test` 141 → **148**,
+  AC4 20/40 → **27/40** (kalan eksikler 14–18, 23–26, 32–35: başka promptların işi).
+  Pasaj lisansı eksik 0, görünür metinde IELTS 0, yasak kaynak 0.
+- **DURUM.txt / ilerleme.txt elle güncellenmedi** (sayaçları `tools/calistir.py` yazıyor).
+- Atlanan/sorun: yok. Sıradaki iş **5. çalıştırma: GT1 (pasaj G01 soru 8–14 TFNG +
+  pasaj G05 soru 33–36 YES/NO/NOT GIVEN, toplam 11 soru)**.
