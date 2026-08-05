@@ -4802,3 +4802,60 @@ sınırında tartışmalı kaldığı için hiç yazılmadı.
 - **DURUM.txt / ilerleme.txt elle güncellenmedi** (sayaçları `tools/calistir.py` yazıyor).
 - Atlanan/sorun: yok. Sıradaki iş **5. çalıştırma: GT1 (pasaj G01 soru 8–14 TFNG +
   pasaj G05 soru 33–36 YES/NO/NOT GIVEN, toplam 11 soru)**.
+
+## FABLE5-40 (5. çalıştırma: GT1 — doğru / yanlış / verilmemiş + evet / hayır / verilmemiş, 11 soru)
+
+### Üretilen
+
+- `content/reading/tests/GT1/true-false-not-given.json` — G01 (Cloverfield metin seti,
+  A–E), soru 8–14, TRUE/FALSE/NOT GIVEN. Dağılım 3T/2F/2NG, sıra A4 → A5 → B2 → (B3) →
+  C1 → D3 → (E1). Cevaplar beş metnin beşine de yayılıyor.
+- `content/reading/tests/GT1/yes-no-not-given.json` — G05 (hane gıda israfı çalışması),
+  soru 33–36, YES/NO/NOT GIVEN. Dağılım 2Y/1N/1NG, sıra B1 → C2 → F3 → (G). Üç kanıt
+  cümlesi de yazarın kendi sesindeki yargılar: B/1 (öz-tahmin güvenilmez), C/2 (yenmeyen
+  kısımlar "gerçek israf değil"), F/3 ("gerçek ölçek manşet rakamlardan yüksek olabilir").
+
+### Taslakta elenen adaylar (5)
+
+1. "Joining the library costs nothing for people who live in Cloverfield" (TRUE adayı,
+   A/1) — beş yaş altı sakinler hiç üye olamadığı için "kasabada oturan herkes" öznesi
+   tartışmalıydı; Adım 1'de kararsız kaldı, atıldı.
+2. "Replacing a lost card costs more than a single Zone 1 fare" (TRUE adayı, C) —
+   karşılaştırma aritmetik olarak doğruydu ama kanıt iki ayrı cümleye (C/2 + C/5)
+   yayılıyordu; "tek cümle tek başına doğrulamalı" kuralına takıldı, atıldı.
+3. "More extended studies should be completed before the results guide countrywide
+   policy" (YES adayı, I/3) — kanıt cümlesi "They also note..." ile aktarılan yazar
+   görüşüydü, yazarın kendi sesi değildi; "kanıt gerçekten yazar görüşü cümlesi" şartını
+   net sağlamadığı için F/3'teki yazar çıkarımıyla (soru 35) değiştirildi.
+4. "Turning scraps into compost is the most effective way to cut food waste" (NOT GIVEN
+   adayı, H) — H'nin kompostu öven çerçevesi dolaylı doğrulama sayılabilirdi; 3. şart
+   (dolaylı doğrulama da olmayacak) riskliydi, atıldı.
+5. "The researchers were wrong to leave composted food out of their totals" (NOT GIVEN
+   adayı, F) — savunulabilir bir NG'ydi ama kanıt bölgesi soru 35'le aynı cümleye (F/3)
+   biniyordu ve "önemli bir sınır" nitelemesi yazar yargısı diye tartışılabilirdi;
+   yerine G'deki tarih etiketi NG'si (soru 36) kondu.
+
+### Doğrulama
+
+- `tools/_f40_kontrol.py` GT desteğiyle yeniden yazıldı: AC1–AC4 eski davranışla denetlenmeye
+  devam ediyor; GT1/GT2 için hem TFNG (bölüm 1 pasajı, soru 8–14) hem YNNG (bölüm 3
+  pasajı, soru 33–36) tek komutla denetleniyor. G01'deki "a.m. / p.m." kısaltmaları için
+  cümle bölücüye koruma eklendi (yalnız ardından büyük harf geliyorsa yeni cümle).
+  Komşu kanıt çakışması taramasına summary/sentence-completion da eklendi (GT1
+  summary-completion aynı pasajı, G05'i kullanıyor — çakışma çıkmadı).
+- `python tools/_f40_kontrol.py GT1` → iki paket de **hata 0, uyarı 0** (zarf, yönerge
+  kalıbı, numara aralıkları, birebir evidence + locator, FALSE/NO'da contradiction_point,
+  NG'de üç şartlı gerekçe, ≤20 kelime, 6 kelimelik örtüşme, dağılım/ardışıklık, kanıt
+  sırası, genelleme kotası, IELTS taraması).
+- Gerileme: AC1–AC4 aynı betikle yeniden koşuldu → dördü de **hata 0, uyarı 0**.
+- Aşırı genelleme kotası: **hiç kullanılmadı** (sınır 2, kullanılan 0; iki pakette de
+  "all / never / only / the most" yok).
+- İfade kelime sayıları: TFNG 8–14, YNNG 11–14; hepsi tek cümle, tek iddia.
+- Son kontrol: 11 soru cevap anahtarına bakılmadan aday gibi baştan çözüldü, on biri de
+  anahtarla uyuştu — **son turda silinen soru yok** (elemeler yukarıda, taslak aşamasında).
+- `python tools/dogrula.py` → **şema hatası 0**, `reading/test` 148 → **159**,
+  GT1 27/40 → **31/40** (kalan eksikler 21–24 ve 28–32: FABLE5-41 ile FABLE5-42'nin işi).
+  Pasaj lisansı eksik 0, görünür metinde IELTS 0, yasak kaynak 0.
+- **DURUM.txt / ilerleme.txt elle güncellenmedi** (sayaçları `tools/calistir.py` yazıyor).
+- Atlanan/sorun: yok. Sıradaki iş **6. çalıştırma: GT2 (pasaj G02 soru 8–14 TFNG +
+  pasaj G06 soru 33–36 YES/NO/NOT GIVEN, toplam 11 soru)**.
