@@ -1,0 +1,82 @@
+{
+  "schema_version": "1.0",
+  "set_id": "T15-sleep",
+  "skill": "speaking",
+  "part": 1,
+  "topic": "Sleep",
+  "topic_tr": "Uyku",
+  "generated_by": "opus",
+  "expected_answer_seconds": [20, 40],
+  "items": [
+    {
+      "number": 1,
+      "prompt": "How many hours of sleep do you usually get?",
+      "focus": "temel bilgi",
+      "difficulty": "easy",
+      "useful_language": ["around seven on a good night", "nowhere near enough", "it varies during the week", "I make up for it at weekends"]
+    },
+    {
+      "number": 2,
+      "prompt": "What do you normally do in the hour before you go to bed?",
+      "focus": "alışkanlık",
+      "difficulty": "easy",
+      "useful_language": ["I wind down with", "I try to stay off my phone", "I get things ready for the morning", "nothing very restful, I'm afraid"]
+    },
+    {
+      "number": 3,
+      "prompt": "How easy do you find getting up in the morning?",
+      "focus": "alışkanlık",
+      "difficulty": "easy",
+      "useful_language": ["I'm up before the alarm", "it takes me a while to come round", "I keep pressing snooze", "it depends on how dark it is"]
+    },
+    {
+      "number": 4,
+      "prompt": "Which suits you better, a short nap or an early night?",
+      "focus": "tercih ve sebep",
+      "difficulty": "medium",
+      "useful_language": ["a nap leaves me groggy", "twenty minutes is enough to reset", "I'd rather catch up properly", "it depends what the day has been like"]
+    },
+    {
+      "number": 5,
+      "prompt": "What was your bedtime like when you were a child?",
+      "focus": "geçmiş",
+      "difficulty": "medium",
+      "useful_language": ["it was fairly strict", "we were sent up at the same time every night", "I'd read under the covers", "the summers were the hardest"]
+    },
+    {
+      "number": 6,
+      "prompt": "How does a poor night's sleep affect the way you work or study?",
+      "focus": "açıklama",
+      "difficulty": "medium",
+      "useful_language": ["I lose my concentration by midday", "I get short-tempered", "simple tasks take twice as long", "I can push through one bad night"]
+    },
+    {
+      "number": 7,
+      "prompt": "What advice would you give someone who sleeps badly?",
+      "focus": "öneri",
+      "difficulty": "medium",
+      "useful_language": ["keep to the same hours", "get some daylight early on", "leave the screen in another room", "don't lie there watching the clock"]
+    },
+    {
+      "number": 8,
+      "prompt": "What would you do with an extra hour each morning?",
+      "focus": "varsayım",
+      "difficulty": "hard",
+      "useful_language": ["I'd start the day less rushed", "I'd use it for something of my own", "I'd probably just sleep through it", "it would take the pressure off"]
+    },
+    {
+      "number": 9,
+      "prompt": "Why do many people sleep less than they used to?",
+      "focus": "değişim ve sebep",
+      "difficulty": "hard",
+      "useful_language": ["the working day stretches into the evening", "there's always something to watch", "people commute further", "we treat rest as wasted time"]
+    },
+    {
+      "number": 10,
+      "prompt": "How is sleeping somewhere unfamiliar different from sleeping at home?",
+      "focus": "karşılaştırma",
+      "difficulty": "hard",
+      "useful_language": ["you never settle the first night", "every sound wakes you", "there's comfort in your own routine", "some people drop off anywhere"]
+    }
+  ]
+}

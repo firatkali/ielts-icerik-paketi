@@ -1,0 +1,82 @@
+{
+  "schema_version": "1.0",
+  "set_id": "T11-sport-and-exercise",
+  "skill": "speaking",
+  "part": 1,
+  "topic": "Sport and exercise",
+  "topic_tr": "Spor ve egzersiz",
+  "generated_by": "opus",
+  "expected_answer_seconds": [20, 40],
+  "items": [
+    {
+      "number": 1,
+      "prompt": "What kind of exercise do you do in a normal week?",
+      "focus": "temel bilgi",
+      "difficulty": "easy",
+      "useful_language": ["nothing too strenuous", "I try to walk everywhere", "a bit of stretching", "I get most of it from daily life"]
+    },
+    {
+      "number": 2,
+      "prompt": "How often do you get the chance to be active outdoors?",
+      "focus": "alışkanlık",
+      "difficulty": "easy",
+      "useful_language": ["whenever the weather allows", "a couple of times a fortnight", "far less than I'd like", "mainly at weekends"]
+    },
+    {
+      "number": 3,
+      "prompt": "Where do people in your area usually go to keep fit?",
+      "focus": "temel bilgi",
+      "difficulty": "easy",
+      "useful_language": ["there's a park nearby", "a leisure centre", "along the riverside path", "most people just use the streets"]
+    },
+    {
+      "number": 4,
+      "prompt": "Which sport do you most enjoy watching, and why?",
+      "focus": "tercih ve sebep",
+      "difficulty": "medium",
+      "useful_language": ["it's fast-paced", "you can follow it easily", "the atmosphere is what appeals to me", "it's over in an hour"]
+    },
+    {
+      "number": 5,
+      "prompt": "What sort of games did you play at school?",
+      "focus": "geçmiş",
+      "difficulty": "medium",
+      "useful_language": ["we were made to do", "in the playground", "I was never much good at it", "we played whatever we could fit in"]
+    },
+    {
+      "number": 6,
+      "prompt": "How does being active affect the rest of your day?",
+      "focus": "açıklama",
+      "difficulty": "medium",
+      "useful_language": ["it clears my head", "I concentrate far better afterwards", "it leaves me drained", "I sleep more soundly"]
+    },
+    {
+      "number": 7,
+      "prompt": "Why do some people find it hard to exercise regularly?",
+      "focus": "başkaları açısı ve sebep",
+      "difficulty": "medium",
+      "useful_language": ["they can't fit it in", "the results take a while to show", "it's easy to lose momentum", "it feels like a chore"]
+    },
+    {
+      "number": 8,
+      "prompt": "What new sport would you take up if you had more time?",
+      "focus": "varsayım",
+      "difficulty": "hard",
+      "useful_language": ["I've always fancied trying", "something I could pick up quickly", "you don't need much kit", "I'd give it a go"]
+    },
+    {
+      "number": 9,
+      "prompt": "How have attitudes towards keeping fit changed since you were a child?",
+      "focus": "değişim",
+      "difficulty": "hard",
+      "useful_language": ["people are far more aware of it now", "it used to be seen as", "it has become part of everyday talk", "there's more pressure to look a certain way"]
+    },
+    {
+      "number": 10,
+      "prompt": "How is exercising on your own different from doing it in a group?",
+      "focus": "karşılaştırma",
+      "difficulty": "hard",
+      "useful_language": ["you set your own pace", "there's a sense of commitment", "the encouragement makes a difference", "on your own it's easier to give up"]
+    }
+  ]
+}

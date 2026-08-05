@@ -3186,3 +3186,68 @@ okla verildi ki "merdivenin başında sağda" ifadesi tek anlama gelsin.
 - Atlanan/sorun: yok. **OPUS5-30'da 16 paketten 2'si tamam (100/550 birim).** Sıradaki iş
   **oturum 3** (spor ve egzersiz · fotoğraf · kitap ve okuma · teknoloji · uyku), yine
   `content/speaking/part1/` altına `T11`–`T15` kimlikleriyle.
+
+## OPUS5-30 (3. çalıştırma: konuşma 1. bölüm — oturum 3, 5 konu × 10 soru)
+
+- Tarih: 2026-08-05
+- Depo kontrolü: `content/speaking/part1/` altında **T01–T10 tamdı** (100 soru),
+  `content/speaking/part2-3/`, `content/writing/academic-task1/`, `general-task1/` ve
+  `task2/` klasörleri **hâlâ boştu**. Çalıştırma listesindeki sıradaki bitmemiş paket
+  **Konuşma 1. bölüm, oturum 3** idi, o yapıldı; kullanıcının tanımı ("3. çalıştırma")
+  depo durumuyla **birebir uyuştu**. **50 soru** üretildi, hedefle birebir aynı.
+- Üretilen dosyalar (prompt A bölümündeki oturum-3 konu dağılımına birebir uyuldu):
+  - `content/speaking/part1/T11-sport-and-exercise.json` — spor ve egzersiz
+  - `content/speaking/part1/T12-photographs.json` — fotoğraf
+  - `content/speaking/part1/T13-books-and-reading.json` — kitap ve okuma
+  - `content/speaking/part1/T14-technology.json` — teknoloji
+  - `content/speaking/part1/T15-sleep.json` — uyku
+- **KULLANILAN KONULAR (sonraki oturumlar tekrar etmesin):** Hometown · Home and
+  accommodation · Work or study · Free time · Food · Weather and seasons · Music ·
+  Transport · Shopping · Friends · **Sport and exercise · Photographs · Books and
+  reading · Technology · Sleep**.
+  **Oturum 4'e kalan:** seyahat · sanat ve el işi · hayvanlar · zaman yönetimi · komşuluk.
+  Oturum 4 bitince part 1 havuzu (20 konu × 10 soru = 200) tamamlanır; ardından
+  **B paketi — `content/speaking/part2-3/`, 15 kart × 4 oturum** başlar.
+- 1. oturumdaki **soru kurgusu kararı sürdürüldü:** yardımcı fiille başlayan soru yalnızca
+  seçenekli olduğunda kullanılabilir. Bu sette hiç yok — 50 sorunun tamamı wh- / how
+  kalıbında (`Which suits you better, a short nap or an early night?` gibi seçenekli
+  sorular da wh- ile açılıyor), hiçbiri tek kelimeyle kapanmıyor.
+- **Tekrardan kaçınma — bilinçli kalıp dağıtımı yapıldı.** Önceki 10 dosyada
+  `Why do some people…?` üç kez, `…changed in recent years?` iki kez geçmişti. Bu sette
+  `Why do some people…?` yalnız **bir kez** kullanıldı (T11/7); aynı işlevdeki diğer
+  sorular farklı kuruldu: `What makes people want to…` (T12/7), `What stops many adults
+  from…` (T13/7), `What do people gain from…` (T14/7), `What advice would you give…`
+  (T15/7). Değişim soruları da beş ayrı kalıpta: `How have attitudes towards … changed
+  since you were a child?` (T11), `What has changed about the way …?` (T12), `How much has
+  the way people read changed …?` (T13), `How has technology changed the way …?` (T14),
+  `Why do many people sleep less than they used to?` (T15). **15 dosyalık havuzda aynı
+  soru metni iki kez geçmiyor** (script bunu 150 sorunun tamamında denetledi).
+- **Zorluk düzeni** önceki iki oturumla aynı: 1–3 `easy`, 4–7 `medium`, 8–10 `hard`;
+  4. sorudan sonra hiç `easy` yok. Her sette en az 7 farklı `focus` var (temel bilgi ·
+  alışkanlık · tercih ve sebep · açıklama · geçmiş · başkaları açısı ve sebep · öneri ·
+  varsayım · gelecek · görüş · değişim · karşılaştırma).
+- `useful_language`: soru başına 4 ifade, band 7 seviyesinde, İngiliz İngilizcesi
+  (`leisure centre`, `a fortnight`, `get to grips with`, `come round`, `have a go`,
+  `programme`, `groggy`). Kültürel tarafsızlık: T11'de spor salonu üyeliği/ekipman
+  varsayılmıyor ("I get most of it from daily life"), T12'de seyahat ya da pahalı fotoğraf
+  makinesi varsayımı yok, T13'te kitap satın alma gücü varsayılmıyor ("I borrow most of
+  them"), T14'te cihaz sahipliği tek tipe indirgenmiyor, T15'te ev düzeni/oda sayısı
+  hakkında varsayım yok. Din, alkol, siyaset, savaş, sağlık teşhisi geçmiyor; gerçek
+  marka/kurum/kişi adı yok — T14'te uygulama adı yerine `Which application…` soruluyor.
+- Doğrulama: geçici denetim scriptiyle (`tools/_sp3_kontrol.py`, sonra silindi) JSON
+  geçerliliği, zarf alanları, `set_id` ↔ dosya adı eşleşmesi, soru sayısı (tam 10),
+  numara sırası, her sorunun **tek cümle** olması (tek `?`, nokta/noktalı virgül yok,
+  ≤95 karakter), evet/hayırla kapanabilecek kalıplar (seçenekli sorular muaf),
+  `useful_language` sayısı (3–5) ve dosya içi ifade tekrarı, Amerikan yazımı taraması,
+  zorluk düzeni, `focus` çeşitliliği, **15 dosyalık havuzda soru metni tekrarı** ve
+  "IELTS" geçmemesi denetlendi — **ilk turda hata 0.** Ardından
+  `python tools/dogrula.py`: **şema hatası 0**, konuşma sorusu 150 (50+50+50), pasaj
+  lisansı eksik 0, görünür metinde IELTS 0, yasak kaynak 0. `konusma_yazma_denetle()`
+  bu dosyaları da sorunsuz kapsadı, script'te değişiklik gerekmedi.
+- Referans: bu oturumda da referans PDF'i açılmadı — format kararı 1. oturumda
+  `ielts-speaking-sample-tasks-2023.pdf` okunarak verilmiş ve NOTLAR'a yazılmıştı
+  (numaralı kısa sorular düzeni), aynı düzen sürdürüldü. `referans/text/` klasörü hâlâ
+  yok. Hiçbir soru/cümle kopyalanmadı.
+- Atlanan/sorun: yok. **OPUS5-30'da 16 paketten 3'ü tamam (150/550 birim).** Sıradaki iş
+  **oturum 4** (seyahat · sanat ve el işi · hayvanlar · zaman yönetimi · komşuluk), yine
+  `content/speaking/part1/` altına `T16`–`T20` kimlikleriyle.
