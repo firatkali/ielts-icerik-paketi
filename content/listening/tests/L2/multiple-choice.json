@@ -1,0 +1,196 @@
+{
+  "schema_version": "1.0",
+  "set_id": "L2-multiple-choice",
+  "skill": "listening",
+  "test_id": "L2",
+  "section": null,
+  "practice": false,
+  "script_id": null,
+  "question_type": "multiple_choice",
+  "generated_by": "fable",
+  "instructions": "Questions 11-13: Choose the correct letter, A, B or C.\nQuestions 14 and 15: Choose TWO letters, A-E.\nQuestions 21-23: Choose the correct letter, A, B or C.",
+  "box": null,
+  "groups": [
+    {
+      "group_id": "L2-S2-mc-single",
+      "section": 2,
+      "script_id": "L2-S2",
+      "instructions": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "number": 11,
+          "section": 2,
+          "script_id": "L2-S2",
+          "select_count": 1,
+          "prompt": "How long was the library closed for the refurbishment?",
+          "options": [
+            { "letter": "A", "text": "twelve months" },
+            { "letter": "B", "text": "eighteen months" },
+            { "letter": "C", "text": "two years" }
+          ],
+          "answer": ["B"],
+          "evidence": "We closed in March last year expecting to be shut for a year; in the end it took eighteen months",
+          "answer_point_id": "L2-S2-02",
+          "turn_index": 1,
+          "distractor_analysis": {
+            "A": "Söylendi sonra düzeltildi — konuşmacı bir yıl kapalı kalmayı beklediklerini söylüyor; iş sonunda on sekiz ay sürdü.",
+            "C": "Sesle hiç geçmeyen çeldirici — iki yıllık bir süre hiç anılmıyor."
+          },
+          "explanation": "Kütüphaneci bir yıl kapalı kalmayı beklediklerini ama ısıtma boruları yüzünden işin on sekiz ay sürdüğünü söylüyor.",
+          "difficulty": "medium"
+        },
+        {
+          "number": 12,
+          "section": 2,
+          "script_id": "L2-S2",
+          "select_count": 1,
+          "prompt": "How many items can library members now borrow at one time?",
+          "options": [
+            { "letter": "A", "text": "three" },
+            { "letter": "B", "text": "twelve" },
+            { "letter": "C", "text": "fifteen" }
+          ],
+          "answer": ["C"],
+          "evidence": "You can borrow fifteen items at a time; before the refurbishment it was twelve.",
+          "answer_point_id": "L2-S2-11",
+          "turn_index": 4,
+          "distractor_analysis": {
+            "A": "Söylendi ama sorulan bu değil — üç sayısı ödünç süresinin (üç hafta) rakamı, ödünç sınırı değil.",
+            "B": "Söylendi sonra düzeltildi — yenilemeden önceki sınır on ikiydi; artık bir seferde on beş."
+          },
+          "explanation": "Ödünç sınırı yenilemeden önce on ikiydi; şimdi üyeler bir seferde on beş parça alabiliyor.",
+          "difficulty": "easy"
+        },
+        {
+          "number": 13,
+          "section": 2,
+          "script_id": "L2-S2",
+          "select_count": 1,
+          "prompt": "When does the reading group now meet?",
+          "options": [
+            { "letter": "A", "text": "on the first Tuesday of the month" },
+            { "letter": "B", "text": "on the second Tuesday of the month" },
+            { "letter": "C", "text": "on Saturday mornings at half past ten" }
+          ],
+          "answer": ["B"],
+          "evidence": "The reading group meets on the second Tuesday of the month at seven; it used to be the first Tuesday, but the choir has that evening now.",
+          "answer_point_id": "L2-S2-21",
+          "turn_index": 9,
+          "distractor_analysis": {
+            "A": "Söylendi sonra düzeltildi — okuma grubu eskiden ayın ilk Salı'sında toplanıyordu; o akşam artık koronun.",
+            "C": "Söylendi ama sorulan bu değil — Cumartesi sabahı on buçuk, beş yaş altı için masal saatinin zamanı."
+          },
+          "explanation": "Okuma grubu artık ayın ikinci Salı'sında saat yedide toplanıyor; ilk Salı akşamını koro almış.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "group_id": "L2-S2-mc-double",
+      "section": 2,
+      "script_id": "L2-S2",
+      "instructions": "Choose TWO letters, A-E.",
+      "items": [
+        {
+          "number": "14-15",
+          "section": 2,
+          "script_id": "L2-S2",
+          "select_count": 2,
+          "prompt": "Which TWO things does the speaker say about the mural?",
+          "options": [
+            { "letter": "A", "text": "It shows the building as it looked in 1906." },
+            { "letter": "B", "text": "It is displayed in the children's library." },
+            { "letter": "C", "text": "It was painted by local schoolchildren." },
+            { "letter": "D", "text": "It was designed by the community librarian." },
+            { "letter": "E", "text": "A leaflet explains what it contains." }
+          ],
+          "answer": ["C", "E"],
+          "evidence": "That was painted by children from the two primary schools on either side of the park, and each class chose one object from the local history collection to put into it. There's a leaflet by the door that explains what they chose and why.",
+          "answer_point_id": "L2-S2-25",
+          "turn_index": 12,
+          "distractor_analysis": {
+            "A": "Söylendi ama sorulan bu değil — bin dokuz yüz altı binanın açılış yılı; resmin içeriği olarak anılmıyor.",
+            "B": "Söylendi ama sorulan bu değil — çocuk kütüphanesi konuşmanın başka yerinde geçiyor; resim merdiven boşluğunda.",
+            "D": "Sesle hiç geçmeyen çeldirici — resmi kütüphanecinin tasarladığı hiç söylenmiyor."
+          },
+          "explanation": "Duvar resmini parkın iki yanındaki ilkokulların öğrencileri boyamış (C) ve kapının yanındaki broşür resimdekileri açıklıyor (E). İkinci cevap noktası: L2-S2-29.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "group_id": "L2-S3-mc-single",
+      "section": 3,
+      "script_id": "L2-S3",
+      "instructions": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "number": 21,
+          "section": 3,
+          "script_id": "L2-S3",
+          "select_count": 1,
+          "prompt": "Why did the students not survey the site below the weir?",
+          "options": [
+            { "letter": "A", "text": "The footbridge leading to it was shut." },
+            { "letter": "B", "text": "The brook was in flood." },
+            { "letter": "C", "text": "Their tutor said five sites would be enough." }
+          ],
+          "answer": ["A"],
+          "evidence": "The footbridge you have to cross to reach it has been fenced off since the winter storms",
+          "answer_point_id": "L2-S3-02",
+          "turn_index": 3,
+          "distractor_analysis": {
+            "B": "Söylendi ama sorulan bu değil — taşkın Haziran'da ikinci ziyareti geciktiren etken; alanın bırakılma sebebi değil.",
+            "C": "Başkası söyledi — 'beş alan yeter' danışmanın sonradan verdiği onay; alan zaten kapalı köprü yüzünden bırakılmıştı."
+          },
+          "explanation": "Bendin altındaki alana giden yaya köprüsü kış fırtınalarından beri kapalı ve suya girmeden başka giriş yolu yok.",
+          "difficulty": "medium"
+        },
+        {
+          "number": 22,
+          "section": 3,
+          "script_id": "L2-S3",
+          "select_count": 1,
+          "prompt": "When did the students carry out their second round of sampling?",
+          "options": [
+            { "letter": "A", "text": "in the last week of May" },
+            { "letter": "B", "text": "four weeks after the first visit" },
+            { "letter": "C", "text": "in the middle of July" }
+          ],
+          "answer": ["C"],
+          "evidence": "The second was supposed to be four weeks after that, but it slipped to the middle of July, because the brook was in flood for most of June.",
+          "answer_point_id": "L2-S3-03",
+          "turn_index": 6,
+          "distractor_analysis": {
+            "A": "Söylendi ama sorulan bu değil — Mayıs'ın son haftası birinci turun zamanı.",
+            "B": "Söylendi sonra düzeltildi — plan ilk turdan dört hafta sonrasıydı; dere taşkın olunca tarih Temmuz ortasına kaydı."
+          },
+          "explanation": "İkinci tur ilkinden dört hafta sonraya planlanmıştı ama dere Haziran boyunca taşkın olduğu için Temmuz ortasına kaydı.",
+          "difficulty": "medium"
+        },
+        {
+          "number": 23,
+          "section": 3,
+          "script_id": "L2-S3",
+          "select_count": 1,
+          "prompt": "What does Marisol say is wrong with Rhys's suggested structure?",
+          "options": [
+            { "letter": "A", "text": "It would conceal the overall pattern." },
+            { "letter": "B", "text": "It would ignore the order of collection." },
+            { "letter": "C", "text": "It would take longer to write." }
+          ],
+          "answer": ["A"],
+          "evidence": "And I think that hides the pattern completely.",
+          "answer_point_id": "L2-S3-24",
+          "turn_index": 11,
+          "distractor_analysis": {
+            "B": "Başkası söyledi — toplama sırasına göre gitmek Rhys'in kendi düzenini savunma gerekçesi; Marisol'un eleştirisi değil.",
+            "C": "Söylendi ama sorulan bu değil — yazma kolaylığından söz eden danışman ve tersini söylüyor: Rhys'in düzeni daha kolay yazılır."
+          },
+          "explanation": "Marisol, alan alan düzenin genel deseni tamamen gizlediğini söylüyor: okur beş ayrı sayı kümesini akılda tutmak zorunda kalır.",
+          "difficulty": "medium"
+        }
+      ]
+    }
+  ]
+}

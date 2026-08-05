@@ -5824,3 +5824,45 @@ hiç kullanılmadı, kalan on soruda birer kez. Çeldirici türü çeşitliliği
 - Referans olarak `referans/` altındaki dinleme çoktan seçmeli (tek/çok cevap) anahtar +
   transkript PDF'leri ve 2023 örnek görev PDF'i okundu (yalnız format; metin alınmadı).
 - Atlanan/sorun: yok. Sıradaki çalıştırma: **L2** (2/9).
+
+## FABLE5-43 (2. çalıştırma: L2 — riskli sorular, 11 soru)
+
+- **Üretilen:** `content/listening/tests/L2/multiple-choice.json` (11, 12, 13, 14–15 →
+  2. bölüm; 21, 22, 23 → 3. bölüm; L1'deki gibi tek dosya, `groups` + item düzeyinde
+  `section`/`script_id`) + `content/listening/tests/L2/matching.json` (24–26, 3. bölüm).
+  Toplam **11 soru** — L2 artık `dogrula.py`'de **40/40 TAM**.
+- **11–15 bloku seçimi: L2 = çoktan seçmeli (2/3).** L2-S2'nin doğal eşleştirme listesi
+  (etkinlikler: okuma grubu, masal saati, tamir kafesi) tek replikte (9.) yığılı; 3-replik
+  ara kuralıyla 5 öğeli eşleştirme kümesi kurulamıyor. ⚠️ **Kısıt: L3–L6'nın ÜÇÜNDE 11–15
+  bloku eşleştirme olmak zorunda** (3 ÇS / 3 eşleştirme dengesi için).
+- **Yerleşim ve sıra kuralı:** S2 → replikler 1, 4, 9, 12 — OPUS5-21'in plan etiketleme
+  bölgesinin (replik 5–8, sorular 16–20) tamamen dışında; S3 çoktan seçmeli → 3, 6, 11;
+  S3 eşleştirme → 22, 26, 33. Ardışık cevap aralıkları grup içinde ≥3 replik
+  (`tools/_f43_kontrol.py L2` → 0 sorun). 21–26, OPUS5-21'in 27. sorusunun başladığı
+  34. replikten önce bitiyor.
+- **Alıştırma çakışması önlendi:** `practice/sentence-completion.json` L2-S3-01 (beş alan),
+  -11 (kimyasal kit), -13 (bostan), -21 (tek dosya) noktalarını zaten kullanıyor; alan
+  sayısı sorusu taslağı bu yüzden elendi, 21. soru köprü sorusuna (L2-S3-02) çevrildi.
+  24. soru kit noktası yerine yeni "iki yöntem" noktasına (L2-S3-25, replik 22) dayandı.
+- **Çeldirici türleri:** her soruda en az iki farklı tür; "söylendi sonra düzeltildi"
+  6 soruda (11-A, 12-B, 13-A, 22-B, 24-E, 25-D), "başkası söyledi" 2 soruda (21-C, 23-B —
+  yalnız 3. bölümde mümkün), "söylendi ama sorulan bu değil" hepsinde. Sesle hiç geçmeyen çeldirici: 2 (11-C, 14/15-D; soru başına ≤1 ✓).
+  **Kısıt notu (L1-26 emsali):** eşleştirme 26'da (ham veri) kutu ortak olduğu için dört
+  yanlış harfin dördü de tür 3'e düşüyor; dört ayrı gerekçe yine de yazıldı.
+- **Yeni bilgi noktaları senaryolara eklendi:** `L2-S2-29` (broşür, replik 12 — 14–15'in
+  ikinci cevabı, `answer_point_id` tek değer aldığı için 25 yazıldı), `L2-S3-24` (Marisol:
+  desen gizlenir, replik 11), `L2-S3-25` (oksijende iki yöntem, replik 22), `L2-S3-26`
+  (Rhys: kimse okumaz, replik 33).
+- **Elenen taslaklar (2):** alan sayısı sorusu (S3 replik 1 — alıştırmada L2-S3-01 zaten
+  kullanılmış) ve gönüllülük çift sorusu (S2 replik 11 — 9. replikteki 13. soruyla arası
+  2 replik kalıyordu; yerine 12. replikteki duvar resmi çift sorusu yazıldı). Üretilip son
+  kontrolde silinen soru yok: iki senaryo baştan sona okunarak 11 soru anahtara bakılmadan
+  çözüldü, **11/11 uyuştu**.
+- **Harf dengesi:** B, C, B, {C,E}, A, C, A / eşleştirme B, A, C — üst üste aynı harf yok;
+  kutu 5 seçenekli (3 soru + 2 boşta, alt sınır).
+- **Doğrulama:** `python tools/dogrula.py` → şema hatası 0, L2 40/40 TAM, görünür metinde
+  IELTS 0; `python tools/_f43_kontrol.py L2` → 0 sorun.
+- Referans: dinleme çoktan seçmeli (tek/çok cevap) anahtar + transkript PDF'leri okundu
+  (yalnız format; metin alınmadı).
+- Atlanan/sorun: yok. Sıradaki çalıştırma: **L3** (3/9) — ⚠️ 11–15 bloku için eşleştirme
+  öncelikli değerlendirilmeli.

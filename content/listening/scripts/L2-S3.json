@@ -512,6 +512,44 @@
         "sentence_completion",
         "short_answer"
       ]
+    },
+    {
+      "id": "L2-S3-24",
+      "kind": "opinion",
+      "value": "Marisol thinks a site-by-site structure hides the pattern",
+      "quote": "And I think that hides the pattern completely.",
+      "turn_index": 11,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L2-S3-25",
+      "kind": "rule",
+      "value": "the oxygen readings were collected by two different methods",
+      "quote": "Different method, different error.",
+      "turn_index": 22,
+      "speaker": "M2",
+      "distractor": "a single graph line",
+      "suggested_types": [
+        "matching",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L2-S3-26",
+      "kind": "opinion",
+      "value": "Rhys doubts anyone will read the full raw data",
+      "quote": "That's fifteen pages of tables nobody will ever read.",
+      "turn_index": 33,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "matching",
+        "multiple_choice"
+      ]
     }
   ],
   "spatial_description": null,

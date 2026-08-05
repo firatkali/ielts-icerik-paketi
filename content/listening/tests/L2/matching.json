@@ -1,0 +1,79 @@
+{
+  "schema_version": "1.0",
+  "set_id": "L2-matching",
+  "skill": "listening",
+  "test_id": "L2",
+  "section": 3,
+  "practice": false,
+  "script_id": "L2-S3",
+  "question_type": "matching",
+  "generated_by": "fable",
+  "instructions": "What do the speakers say about each of the following sets of data from the survey?\n\nChoose THREE answers from the box and write the correct letter, A-E, next to questions 24-26.",
+  "box": {
+    "label": null,
+    "options": [
+      { "letter": "A", "text": "They differed sharply between two sites." },
+      { "letter": "B", "text": "They were collected in two different ways." },
+      { "letter": "C", "text": "One student doubts anyone will read them." },
+      { "letter": "D", "text": "They were recorded at species level." },
+      { "letter": "E", "text": "They will appear as one line on a graph." }
+    ]
+  },
+  "allow_repeat": false,
+  "items": [
+    {
+      "number": 24,
+      "select_count": 1,
+      "prompt": "the oxygen readings",
+      "options": null,
+      "answer": ["B"],
+      "evidence": "Different method, different error.",
+      "answer_point_id": "L2-S3-25",
+      "turn_index": 22,
+      "distractor_analysis": {
+        "A": "Söylendi ama sorulan bu değil — iki alan arasındaki keskin fark omurgasız sayımlarına ait.",
+        "C": "Söylendi ama sorulan bu değil — Rhys'in 'kimse okumaz' yorumu ekteki ham veri tabloları için.",
+        "D": "Söylendi ama sorulan bu değil — familya/tür düzeltmesi omurgasız tayiniyle ilgili, oksijenle değil.",
+        "E": "Söylendi sonra düzeltildi — danışman iki ölçüm setinin aynı çizgiye konmasını yasaklıyor; Rhys iki ayrı çizgi çizdiklerini söylüyor."
+      },
+      "explanation": "Oksijen ilk ziyarette kimyasal test kitiyle, Temmuz'da metreyle ölçüldü; danışman 'farklı yöntem, farklı hata' diyerek bunu vurguluyor.",
+      "difficulty": "hard"
+    },
+    {
+      "number": 25,
+      "select_count": 1,
+      "prompt": "the invertebrate counts",
+      "options": null,
+      "answer": ["A"],
+      "evidence": "We found eleven families there, against twenty-three at the allotments.",
+      "answer_point_id": "L2-S3-14",
+      "turn_index": 26,
+      "distractor_analysis": {
+        "B": "Söylendi ama sorulan bu değil — iki farklı yöntem oksijen ölçümüne ait; omurgasızlar hep tekme örneklemesiyle toplandı.",
+        "C": "Söylendi ama sorulan bu değil — 'kimse okumaz' yorumu ham veri hakkında.",
+        "D": "Söylendi sonra düzeltildi — tayin tür düzeyinde değil familya düzeyinde yapıldı; tür düzeyi vakit yüzünden bilerek bırakıldı.",
+        "E": "Söylendi ama sorulan bu değil — grafik çizgisi tartışması oksijen verisine ait."
+      },
+      "explanation": "Omurgasız sayımı iki alan arasında keskin fark gösteriyor: otoparktaki alanda 11, bostanların arkasında 23 familya.",
+      "difficulty": "easy"
+    },
+    {
+      "number": 26,
+      "select_count": 1,
+      "prompt": "the raw data",
+      "options": null,
+      "answer": ["C"],
+      "evidence": "That's fifteen pages of tables nobody will ever read.",
+      "answer_point_id": "L2-S3-26",
+      "turn_index": 33,
+      "distractor_analysis": {
+        "A": "Söylendi ama sorulan bu değil — iki alan farkı omurgasız sayımlarının bulgusu.",
+        "B": "Söylendi ama sorulan bu değil — iki yöntem oksijen ölçümü için kullanıldı.",
+        "D": "Söylendi ama sorulan bu değil — familya/tür kararı omurgasız tayiniyle ilgili.",
+        "E": "Söylendi ama sorulan bu değil — tek çizgi uyarısı oksijen grafiği hakkında."
+      },
+      "explanation": "Rhys, ham verinin tamamının eke konmasına karşı çıkıyor: ona göre bu, kimsenin okumayacağı on beş sayfa tablo demek.",
+      "difficulty": "medium"
+    }
+  ]
+}
