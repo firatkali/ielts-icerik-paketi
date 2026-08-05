@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "set_id": "AT13",
+  "skill": "writing",
+  "module": "academic",
+  "task": 1,
+  "generated_by": "opus",
+  "prompt": "The charts below show how an average household in one region divided its spending in 2000 and in 2020.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+  "instruction_line": "You should spend about 20 minutes on this task. Write at least 150 words.",
+  "min_words": 150,
+  "minutes": 20,
+  "visual": {
+    "kind": "pie_chart",
+    "title": "Household spending by category, 2000 and 2020",
+    "x_label": null,
+    "y_label": null,
+    "categories": ["Housing", "Food", "Transport", "Health and education", "Leisure", "Other goods and services"],
+    "series": [
+      { "name": "2000", "values": [24, 30, 14, 9, 11, 12] },
+      { "name": "2020", "values": [32, 19, 15, 14, 13, 7] }
+    ],
+    "unit": "%",
+    "svg": null,
+    "alt": "Ortalama bir hanenin harcamalarının altı kaleme dağılımını 2000 ve 2020 için gösteren iki pasta grafik."
+  },
+  "visuals": null,
+  "key_points": [
+    "En büyük kalem el değiştiriyor: 2000'de gıda (%30) birinciyken 2020'de konut (%32) birinci oluyor",
+    "Gıdanın payı %30'dan %19'a inerek 11 puanla en büyük düşüşü yaşıyor",
+    "Konutun payı %24'ten %32'ye çıkıyor — en büyük artış bu",
+    "Sağlık ve eğitim payı %9'dan %14'e yükselerek oransal olarak en hızlı büyüyen kalem oluyor",
+    "Ulaşım (%14 → %15) ve boş zaman (%11 → %13) neredeyse aynı kalıyor; 'diğer mal ve hizmetler' %12'den %7'ye inerek 2020'de en küçük kalem oluyor",
+    "İki yılda da payların toplamı %100; grafikler dağılımı veriyor, harcanan tutarı değil"
+  ],
+  "common_mistakes": [
+    "Payı tutar gibi anlatmak ('households spent more money on housing') — grafik yalnızca dağılımı gösteriyor",
+    "Altı dilimi iki grafik için sırayla okuyup en çarpıcı değişimleri (gıda ve konut) öne çıkarmamak",
+    "Neredeyse değişmeyen kalemleri (ulaşım, boş zaman) 'arttı' diye abartmak",
+    "Genel bakış paragrafı yazmamak",
+    "Sebep ya da tavsiye eklemek ('housing became too expensive, so…')"
+  ],
+  "topic": "hane harcamalarının dağılımı",
+  "difficulty": "medium"
+}

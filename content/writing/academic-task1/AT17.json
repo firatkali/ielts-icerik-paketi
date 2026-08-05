@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0",
+  "set_id": "AT17",
+  "skill": "writing",
+  "module": "academic",
+  "task": 1,
+  "generated_by": "opus",
+  "prompt": "The graph below shows the percentage of adults in one region who regularly took part in three forms of exercise between 2005 and 2025.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+  "instruction_line": "You should spend about 20 minutes on this task. Write at least 150 words.",
+  "min_words": 150,
+  "minutes": 20,
+  "visual": {
+    "kind": "line_chart",
+    "title": "Adults taking part in three forms of exercise, 2005-2025",
+    "x_label": "Year",
+    "y_label": "Percentage of adults (%)",
+    "categories": ["2005", "2010", "2015", "2020", "2025"],
+    "series": [
+      { "name": "Swimming", "values": [22, 20, 17, 12, 14] },
+      { "name": "Running", "values": [9, 13, 18, 26, 24] },
+      { "name": "Gym and fitness classes", "values": [14, 18, 24, 19, 28] }
+    ],
+    "unit": "%",
+    "svg": null,
+    "alt": "Bir bölgede yetişkinlerin yüzme, koşu ve spor salonu etkinliklerine katılım yüzdesinin 2005-2025 arasındaki değişimini gösteren çizgi grafik."
+  },
+  "visuals": null,
+  "key_points": [
+    "Sıralama tamamen tersine dönüyor: 2005'te yüzme en yaygın (%22), koşu en az yaygın (%9) iken 2025'te yüzme en az (%14), koşu ve spor salonu daha yüksek",
+    "Yüzme boyunca geriliyor (%22'den %12'ye) ve yalnızca son beş yılda hafifçe toparlanıyor (%14)",
+    "Koşu 2020'ye kadar istikrarlı biçimde yükselip %26 ile zirve yapıyor, sonra biraz geriliyor",
+    "Spor salonu ve fitness dersleri 2015'e kadar yükseliyor, 2020'de düşüyor, 2025'te %28 ile bütün dönemin en yüksek değerine çıkıyor — sonunda birinci sırada",
+    "2020 yılı üç seride de kırılma noktası: koşu tepe yaparken yüzme ve spor salonu dip yapıyor",
+    "Kesişmeler var: hem koşu hem spor salonu 2010-2015 arasında yüzmeyi geçiyor; koşu 2015-2020 arasında spor salonunun üzerine çıkıp 2025'te yeniden altına iniyor"
+  ],
+  "common_mistakes": [
+    "Yüzdeyi kişi sayısı gibi anlatmak ('22 adults went swimming')",
+    "Üç seriyi yıl yıl okuyup sıralamanın tersine döndüğünü söylememek",
+    "2020'deki kırılmayı atlamak ya da nedenini uydurmak ('pools were closed')",
+    "Genel bakış (overview) paragrafı yazmamak",
+    "Serilerin toplamının %100 etmesi gerektiğini sanmak — kişi birden fazla etkinlik yapabilir"
+  ],
+  "topic": "düzenli spor katılımı",
+  "difficulty": "medium"
+}

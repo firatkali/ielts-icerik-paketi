@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0",
+  "set_id": "AT20",
+  "skill": "writing",
+  "module": "academic",
+  "task": 1,
+  "generated_by": "opus",
+  "prompt": "The bar chart below shows the number of international visitors to one region in five selected years, and the pie chart shows the reasons they gave for their visit in 2022.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+  "instruction_line": "You should spend about 20 minutes on this task. Write at least 150 words.",
+  "min_words": 150,
+  "minutes": 20,
+  "visual": null,
+  "visuals": [
+    {
+      "kind": "bar_chart",
+      "title": "International visitors to the region, 2010-2022",
+      "x_label": "Year",
+      "y_label": "Visitors (thousands)",
+      "categories": ["2010", "2013", "2016", "2019", "2022"],
+      "series": [
+        { "name": "International visitors", "values": [320, 410, 380, 560, 690] }
+      ],
+      "unit": "bin kişi",
+      "svg": null,
+      "alt": "Bölgeye gelen uluslararası ziyaretçi sayısını 2010-2022 arasındaki beş yıl için gösteren sütun grafik."
+    },
+    {
+      "kind": "pie_chart",
+      "title": "Reasons given for visiting the region, 2022",
+      "x_label": null,
+      "y_label": null,
+      "categories": ["Holiday", "Visiting friends or relatives", "Business", "Study", "Other reasons"],
+      "series": [
+        { "name": "2022", "values": [46, 24, 18, 8, 4] }
+      ],
+      "unit": "%",
+      "svg": null,
+      "alt": "2022'de bölgeyi ziyaret edenlerin belirttiği sebeplerin yüzde dağılımını gösteren pasta grafik."
+    }
+  ],
+  "key_points": [
+    "Ziyaretçi sayısı dönem boyunca iki katından fazla artıyor: 320 binden 690 bine çıkıyor",
+    "Artış düzgün değil: 2016'da 380 bine gerileyerek tek düşüşünü yaşıyor, ardından yeniden yükseliyor",
+    "En hızlı büyüme 2016-2019 arasında (180 bin kişilik artış); 2019-2022 arasındaki artış da yüksek (130 bin)",
+    "2022'de gelenlerin neredeyse yarısı tatil için geliyor (%46) — açık ara en yaygın sebep",
+    "Arkadaş ya da akraba ziyareti %24 ile ikinci, iş %18 ile üçüncü; öğrenim (%8) ve diğer sebepler (%4) birlikte ancak sekizde birlik pay tutuyor",
+    "İki görsel birlikte okununca 2022'deki 690 bin kişinin yaklaşık 317 bininin tatilci olduğu görülüyor"
+  ],
+  "common_mistakes": [
+    "İki görselden yalnızca birini anlatmak — görev ikisini de kapsıyor",
+    "Bin kişi ile yüzdeyi karıştırmak ('46,000 visitors came on holiday')",
+    "Pasta grafiğin yalnızca 2022'yi kapsadığını unutup bütün yıllara yaymak ('most visitors always came on holiday')",
+    "2016'daki düşüşü atlayıp artışı kesintisiz göstermek",
+    "Sebep uydurmak ya da geleceğe dair tahmin yürütmek"
+  ],
+  "topic": "bölgeye gelen uluslararası ziyaretçiler",
+  "difficulty": "hard"
+}

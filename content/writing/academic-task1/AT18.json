@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "set_id": "AT18",
+  "skill": "writing",
+  "module": "academic",
+  "task": 1,
+  "generated_by": "opus",
+  "prompt": "The chart below shows the number of new homes completed in five districts of one city in 2015 and in 2022.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+  "instruction_line": "You should spend about 20 minutes on this task. Write at least 150 words.",
+  "min_words": 150,
+  "minutes": 20,
+  "visual": {
+    "kind": "bar_chart",
+    "title": "New homes completed in five districts, 2015 and 2022",
+    "x_label": "District",
+    "y_label": "Number of new homes completed",
+    "categories": ["Northgate", "Millfield", "Sandcove", "Highbeck", "Lowmoor"],
+    "series": [
+      { "name": "2015", "values": [420, 260, 180, 640, 95] },
+      { "name": "2022", "values": [310, 720, 240, 380, 150] }
+    ],
+    "unit": "konut sayısı",
+    "svg": null,
+    "alt": "Bir şehrin beş ilçesinde 2015 ve 2022'de tamamlanan yeni konut sayısını karşılaştıran sütun grafik."
+  },
+  "visuals": null,
+  "key_points": [
+    "Birinci sıra el değiştiriyor: 2015'te Highbeck (640 konut) açık ara öndeyken 2022'de Millfield (720 konut) öne geçiyor",
+    "Millfield 260'tan 720'ye çıkarak yaklaşık üç katına ulaşıyor — en büyük artış bu",
+    "Highbeck 640'tan 380'e inerek en büyük düşüşü yaşıyor; Northgate de 420'den 310'a geriliyor",
+    "Sandcove (180 → 240) ve Lowmoor (95 → 150) ölçülü biçimde artıyor; Lowmoor iki yılda da en az konutun tamamlandığı ilçe",
+    "Beş ilçenin toplamı 1.595'ten 1.800'e çıkıyor, yani artış sınırlı; asıl değişiklik yapımın ilçeler arasında yer değiştirmesi",
+    "2022'de ilçeler arasındaki fark daha keskin: en yüksek ile en düşük arası 545'ten 570'e çıkıyor"
+  ],
+  "common_mistakes": [
+    "Beş ilçeyi sırayla okuyup en büyük artış ile en büyük düşüşü öne çıkarmamak",
+    "Sıralamanın el değiştirdiğini atlamak",
+    "Konut sayısını yüzde gibi anlatmak ('40% of homes were in Millfield')",
+    "Sebep uydurmak ('land ran out in Highbeck') — grafikte böyle bir bilgi yok"
+  ],
+  "topic": "yeni konut yapımı",
+  "difficulty": "easy"
+}

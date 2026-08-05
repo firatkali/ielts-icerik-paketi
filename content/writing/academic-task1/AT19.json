@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0",
+  "set_id": "AT19",
+  "skill": "writing",
+  "module": "academic",
+  "task": 1,
+  "generated_by": "opus",
+  "prompt": "The table below shows how land was used in one region in 1990, 2005 and 2020.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+  "instruction_line": "You should spend about 20 minutes on this task. Write at least 150 words.",
+  "min_words": 150,
+  "minutes": 20,
+  "visual": {
+    "kind": "table",
+    "title": "Land use in one region, 1990-2020 (percentage of total area)",
+    "x_label": null,
+    "y_label": null,
+    "chart_data": {
+      "headers": ["Type of land", "1990 (%)", "2005 (%)", "2020 (%)"],
+      "rows": [
+        ["Farmland", 52, 45, 36],
+        ["Forest and woodland", 21, 24, 28],
+        ["Built-up land", 12, 18, 26],
+        ["Wetland and open water", 6, 6, 5],
+        ["Other open land", 9, 7, 5]
+      ]
+    },
+    "unit": "%",
+    "svg": null,
+    "alt": "Bir bölgede beş arazi türünün toplam alan içindeki yüzdesini 1990, 2005 ve 2020 için gösteren tablo; her sütun 100 ediyor."
+  },
+  "visuals": null,
+  "key_points": [
+    "Tarım arazisi üç dönemde de en büyük pay ama %52'den %36'ya, yani 16 puan geriliyor — en büyük düşüş bu",
+    "Yerleşim alanı %12'den %26'ya çıkarak iki katından fazla artıyor; artışın büyük bölümü 2005-2020 arasında oluyor",
+    "Orman ve ağaçlık alan her dönemde düzenli olarak büyüyor (%21 → %24 → %28) ve 2020'de ikinci sıraya yerleşiyor",
+    "Sulak alanlar ile diğer açık alanlar küçük ve neredeyse durağan; ikisi de 2020'de %5'e inerek eşitleniyor",
+    "Genel örüntü: tarım arazisi azalırken hem yerleşim hem orman büyüyor, dolayısıyla dağılım üç dönemde giderek dengeleniyor",
+    "Her sütunun toplamı %100; tablo alan büyüklüğünü değil payı veriyor"
+  ],
+  "common_mistakes": [
+    "Payı alan gibi anlatmak ('the region lost 16 hectares of farmland')",
+    "On beş hücreyi tek tek okuyup üç ana eğilimi (tarım ↓, yerleşim ↑, orman ↑) özetlememek",
+    "Orta yılı (2005) atlayıp yalnızca ilk ve son yılı karşılaştırmak — değişimin hızlandığı görülmez",
+    "Küçük ve durağan kalemleri (sulak alan, diğer açık alan) hiç anmamak",
+    "Sebep ya da öngörü eklemek ('farmers sold their land to builders')"
+  ],
+  "topic": "arazi kullanımı",
+  "difficulty": "medium"
+}

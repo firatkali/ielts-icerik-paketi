@@ -3787,3 +3787,87 @@ okla verildi ki "merdivenin başında sağda" ifadesi tek anlama gelsin.
   kalan kotadan dengeli bir kesit (örneğin çizgi 2 · sütun 2 · pasta 1 · tablo 2 · süreç 1 ·
   harita 1 · karma 1). Yukarıdaki on konu tekrar edilmeyecek. Referans metinleri için
   `python tools/pdf_metin.py referans/<ad>.pdf referans/text/<ad>.txt` çalıştırılabilir.
+
+---
+
+## OPUS5-30 (10. çalıştırma: yazma Academic 1. görev — oturum 2, 10 görev)
+
+- Tarih: 2026-08-05
+- Depo kontrolü: `content/speaking/part1/` **T01–T20 tam** (200 soru), `content/speaking/part2-3/`
+  **C01–C60 tam** (240 birim), `content/writing/academic-task1/` **AT01–AT10 dolu**,
+  `general-task1/` ve `task2/` **boş**. Çalıştırma listesindeki sıradaki bitmemiş paket
+  **C paketi, oturum 2 (10. çalıştırma)** idi, o yapıldı; kullanıcının tanımı depo durumuyla
+  birebir uyuştu. Var olan hiçbir dosyaya dokunulmadı. **10 birim** üretildi, hedefle aynı.
+- Üretilen dosyalar — `content/writing/academic-task1/AT11.json` … `AT20.json`:
+  - **çizgi grafik (2):** AT11 dört kaynaktan üretilen elektrik, TWh (1995–2025) ·
+    AT17 üç spor türüne düzenli katılım yüzdesi (2005–2025)
+  - **sütun grafik (2):** AT12 beş bölüm alanına kayıtlı öğrenci sayısı (2010 / 2022) ·
+    AT18 beş ilçede tamamlanan yeni konut sayısı (2015 / 2022)
+  - **pasta grafik (1, iki pasta):** AT13 hane harcamalarının altı kaleme dağılımı (2000 / 2020)
+  - **tablo (2):** AT14 üç yaş grubunun altı etkinliğe ayırdığı günlük ortalama saat (2022) ·
+    AT19 beş arazi türünün toplam alan içindeki payı (1990 / 2005 / 2020)
+  - **süreç şeması (1):** AT15 cam şişelerin toplanıp temizlenip yeniden doldurulması (döngüsel)
+  - **harita (1):** AT16 Westhaven liman bölgesi, 1990 → 2020
+  - **karma (1):** AT20 uluslararası ziyaretçi sayısı (sütun, 2010–2022) + 2022'de ziyaret
+    sebepleri (pasta)
+- **KULLANILAN GÖREV KONULARI (bu oturum):** elektrik üretim kaynakları · bölüm tercihleri ve
+  kayıt sayıları · hane harcamalarının dağılımı · günlük zaman kullanımı · cam şişelerin
+  toplanıp yeniden doldurulması · liman bölgesinin dönüşümü (harita) · düzenli spor katılımı ·
+  yeni konut yapımı · arazi kullanımı · bölgeye gelen uluslararası ziyaretçiler.
+  **11. oturumda bu on konu da, 9. oturumun on konusu da tekrar edilmeyecek.**
+  Kalan görsel türü kotası (son oturum, AT21–AT30):
+  **çizgi 2 · sütun 2 · pasta 1 · tablo 1 · süreç 2 · harita 1 · karma 1 = 10 görev.**
+- **Uydurma yer adları** (gerçek yer/kurum/marka yok): Westhaven (AT16), Northgate, Millfield,
+  Sandcove, Highbeck, Lowmoor (AT18). Diğer görevlerde bilinçli olarak "one country",
+  "one region", "one college" denildi — hiçbir ülkeye/kuruma bağlanmadı.
+- **Veri tutarlılığı denetlendi:** AT13'te iki pasta da tam **100**, AT20 pastası **100**,
+  AT19'da üç yılın sütunu da **100**, AT14'te üç yaş grubunun sütunu da tam **24,0 saat**.
+  AT12 toplamları 2.500 → 3.300, AT18 toplamları 1.595 → 1.800, AT11 toplamları 197 → 267 TWh
+  elle doğrulandı; AT20'de iki görselin birlikte okunmasıyla çıkan 690 × %46 ≈ 317 bin sayısı
+  `key_points` içine kondu. Her görselde anlatılacak belirgin bir şey var — sıralamanın el
+  değiştirmesi (AT11 kömür ↔ rüzgâr+güneş, AT12 işletme ↔ bilişim, AT13 gıda ↔ konut,
+  AT17 yüzme ↔ spor salonu, AT18 Highbeck ↔ Millfield), kesişme (AT11'de üç ayrı kesişme;
+  AT17'de dört), zirve ve geri çekilme (AT11 doğal gaz 2020, AT17 koşu 2020, AT20 2016 dipi),
+  keskin karşıtlık (AT14'te 30-49 yaş 7,5 saat çalışırken 50+ 3,6 saat). Düz seri yok —
+  denetim scripti her seride değişim aralığının tepe değerin %10'unu aştığını doğruladı.
+  Seri sayısı en çok 4, kategori sayısı en çok 7, tablo satırı en çok 6.
+- **SVG kuralları** (AT15 süreç, AT16 harita): `viewBox` var, kökte sabit `width`/`height`
+  **yok**, yalnızca `svg/defs/marker/g/rect/circle/line/path/polygon/text`, `fill`/`stroke`
+  yalnızca `none` ve `black`, `font-size="12"`, `font-family="sans-serif"`; bütün koordinatlar
+  `viewBox` içinde (script sınır taraması yaptı). AT16'da iki durum yan yana ve
+  **`BEFORE (1990)` / `AFTER (2020)`** başlıklı. **AT15 bilinçli olarak döngüsel** bir süreç
+  (AT05 doğrusaldı): sekiz kutu bir halka oluşturuyor, hasarlı şişeler için tek yan kol var,
+  dönüş oku başlangıç kutusuna geri bağlanıyor — böylece adaydan farklı bir dil (döngü, geri
+  dönme) isteniyor.
+- **Şema kararları:** 9. oturumun kararları birebir sürdürüldü — çizgi/sütun/pasta görsellerinde
+  `categories` + `series` doğrudan `visual` içinde, tabloda `chart_data.headers` +
+  `chart_data.rows`, `process`/`map`'te `chart_data: null` + `svg` dolu, karma görevde
+  (AT20) `visual: null` + iki nesnelik `visuals`. `instruction_line` on dosyada da aynı.
+  Görev metinleri resmî kapanış cümlesiyle bitiyor.
+- **Tekrar kaçınma:** script AT01–AT20'nin **topic**, **prompt** ve **görsel başlığı**
+  alanlarını karşılaştırdı — çakışma 0. İçerik düzeyinde de bilinçli ayrım yapıldı: AT11
+  *üretilen elektrik miktarı* (AT03 ev içi enerji *payı* idi), AT17 *spora katılım* (AT08
+  tatil türleriyle ilgisiz), AT13 *harcama payı* (AT04 ulaşım payıydı), AT16 *kıyı/liman*
+  dönüşümü (AT06 iç kesimde bir köydü), AT19 *arazi kullanımı* (yeni alan), AT14 *zaman
+  kullanımı* (yeni alan). Dinleme/okuma paketleriyle senaryo çakışması yok.
+- **Kültürel tarafsızlık:** ülke adı yok, ayrıcalık varsayımı yok, din/alkol/siyaset/savaş/
+  cinsellik yok, gerçek marka/kurum/kişi yok, görünür metinde "IELTS" geçmiyor. Görev metinleri
+  İngiliz İngilizcesinde (`Summarise`, `harbour`, `visitor centre` yazımları kullanıldı);
+  denetim scripti Amerikan yazım listesini taradı — 0 eşleşme. Açıklama alanları (`key_points`, `common_mistakes`, `alt`, `topic`) Türkçe.
+- Doğrulama: geçici denetim scriptiyle (`tools/_at10_kontrol.py`, sonra silindi) JSON
+  geçerliliği, zarf alanları, `set_id` ↔ dosya adı, `instruction_line`/kapanış kalıbı,
+  `key_points` (4–6) ve `common_mistakes` (3–5) sayısı, görsel türü kotası, pasta/sütun
+  toplamları, seri-kategori uzunluk uyumu, düz seri taraması, tablo satır-sütun uyumu,
+  SVG etiket/renk/`viewBox`/font/sınır denetimi, harita `BEFORE`/`AFTER` başlıkları,
+  AT01–AT20 arası topic/prompt/başlık tekrarı denetlendi. **Hata 0** (üç yanlış pozitif:
+  Türkçe cümlede Türkçeye özgü harf bulunmaması).
+- `python tools/dogrula.py` → **şema hatası 0**, `writing/task1` **20** (10 → 20), speaking
+  200 + 240 değişmedi, pasaj lisansı eksik 0, görünür metinde IELTS 0, yasak kaynak 0.
+  Rapordaki "TAM TEST BUTUNLUGU … EKSIK" satırları bu paketle ilgisiz.
+- **DURUM.txt / ilerleme.txt elle güncellenmedi** (sayaç dosyalarını `tools/calistir.py` kendi
+  commit'iyle yazıyor).
+- Atlanan/sorun: yok. **OPUS5-30'da 16 paketten 10'u tamam (460/550 birim).** Sıradaki iş
+  **C paketi, oturum 3** — `content/writing/academic-task1/` altına `AT21`–`AT30`: 10 görev,
+  kalan kotanın tamamı (çizgi 2 · sütun 2 · pasta 1 · tablo 1 · süreç 2 · harita 1 · karma 1).
+  9. ve 10. oturumun yirmi konusu tekrar edilmeyecek. Referans metinleri için
+  `python tools/pdf_metin.py referans/<ad>.pdf referans/text/<ad>.txt` çalıştırılabilir.

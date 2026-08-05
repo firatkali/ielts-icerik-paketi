@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "set_id": "AT12",
+  "skill": "writing",
+  "module": "academic",
+  "task": 1,
+  "generated_by": "opus",
+  "prompt": "The chart below shows the number of students enrolled in five subject areas at one college in 2010 and in 2022.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+  "instruction_line": "You should spend about 20 minutes on this task. Write at least 150 words.",
+  "min_words": 150,
+  "minutes": 20,
+  "visual": {
+    "kind": "bar_chart",
+    "title": "Student enrolment by subject area, 2010 and 2022",
+    "x_label": "Subject area",
+    "y_label": "Number of students enrolled",
+    "categories": ["Business studies", "Engineering", "Health sciences", "Arts and design", "Computing"],
+    "series": [
+      { "name": "2010", "values": [880, 640, 420, 350, 210] },
+      { "name": "2022", "values": [640, 700, 760, 300, 900] }
+    ],
+    "unit": "öğrenci sayısı",
+    "svg": null,
+    "alt": "Bir yüksekokulda beş bölüm alanına kayıtlı öğrenci sayısını 2010 ve 2022 için karşılaştıran sütun grafik."
+  },
+  "visuals": null,
+  "key_points": [
+    "En kalabalık alan değişiyor: 2010'da işletme (880) birinciyken 2022'de bilişim (900) birinci oluyor",
+    "Bilişim 210'dan 900'e çıkarak dört katından fazla artıyor — açık ara en büyük artış",
+    "Sağlık bilimleri 420'den 760'a çıkarak neredeyse ikiye katlanıyor ve ikinci sıraya yerleşiyor",
+    "Düşen iki alan var: işletme 880'den 640'a, sanat ve tasarım 350'den 300'e iniyor; sanat ve tasarım iki yılda da en küçük ya da en küçüğe yakın kalıyor",
+    "Mühendislik ölçülü bir artışla (640 → 700) en istikrarlı alan",
+    "Toplam kayıt 2.500'den 3.300'e çıkıyor, yani artış yalnızca alanlar arası kayma değil, genel büyüme de var"
+  ],
+  "common_mistakes": [
+    "Beş alanı tek tek listeleyip en çarpıcı iki değişimi (bilişim ve işletme) öne çıkarmamak",
+    "Sıralamanın el değiştirdiğini söylememek",
+    "Öğrenci sayısını yüzde gibi anlatmak ('45% studied computing')",
+    "Yorum ya da tahmin eklemek ('computing will keep growing')"
+  ],
+  "topic": "bölüm tercihleri ve kayıt sayıları",
+  "difficulty": "easy"
+}
