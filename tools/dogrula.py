@@ -124,7 +124,7 @@ def main():
             hatalar.append("%s: bilinmeyen question_type '%s'" % (p, qt))
 
         gorulen = []
-        for it in ortak.sorular(d):
+        for g, it in ortak.kumeli_sorular(d):
             no = it.get("number")
             gorulen += ortak.numaralar(it)
 
@@ -132,7 +132,7 @@ def main():
                 if k not in it:
                     hatalar.append("%s: soru %s - alan eksik '%s'" % (p, no, k))
             for k in TIPE_OZEL.get(qt, []):
-                if it.get(k) in (None, "", {}, []) and k not in d:
+                if it.get(k) in (None, "", {}, []) and k not in d and k not in g:
                     hatalar.append("%s: soru %s - tipe ozel alan eksik '%s'" % (p, no, k))
 
             if not it.get("answer"):

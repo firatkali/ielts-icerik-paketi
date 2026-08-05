@@ -1,0 +1,269 @@
+{
+  "schema_version": "1.0",
+  "set_id": "practice-matching-headings",
+  "skill": "reading",
+  "module": "academic",
+  "test_id": null,
+  "practice": true,
+  "question_type": "matching_headings",
+  "generated_by": "fable",
+  "passage_id": null,
+  "instructions": "Choose the correct heading for each paragraph from the list of headings given with each passage. Write the correct number, i-x, on your answer sheet.",
+  "groups": [
+    {
+      "group_id": "P-MH-01",
+      "passage_id": "A01",
+      "instructions": "Questions 1-5 refer to Passage A01 - The Elephant Who Solved a Puzzle Without Practice\n\nThe passage has EIGHT paragraphs, A-H.\n\nChoose the correct heading for paragraphs B-F from the list of headings below.\nWrite the correct number, i-x, in boxes 1-5 on your answer sheet.",
+      "option_list": {
+        "label": "List of Headings",
+        "numbering": "roman",
+        "options": [
+          { "key": "i",    "text": "A skill acquired little by little" },
+          { "key": "ii",   "text": "Recalling where something had been left" },
+          { "key": "iii",  "text": "The arrangement, and an unpromising start" },
+          { "key": "iv",   "text": "What other clever species manage" },
+          { "key": "v",    "text": "A solution that appeared all at once" },
+          { "key": "vi",   "text": "How the keepers taught the young male" },
+          { "key": "vii",  "text": "Why the earlier equipment worked against the animal" },
+          { "key": "viii", "text": "Three animals of different ages" },
+          { "key": "ix",   "text": "A clever species with a puzzling record" },
+          { "key": "x",    "text": "Repeating the feat and varying it" }
+        ]
+      },
+      "example": { "key": "ix", "target": "Paragraph A" },
+      "allow_repeat": false,
+      "items": [
+        {
+          "number": 1,
+          "prompt": "Paragraph B",
+          "answer": ["iii"],
+          "evidence": "For the first several sessions none of the three animals paid the stick any attention at all, even though it lay directly beside them.",
+          "evidence_locator": { "paragraph": "B", "sentence": 5 },
+          "heading_check": "B paragrafı iki işi birden yapıyor ve ikisi de kurulumla ilgili: kimlerin katıldığı, kapalı alanda neyin bulunduğu, meyvenin nereye asıldığı, hangi aracın verildiği — ve sonunda hiçbir hayvanın o araca dönüp bakmadığı. 'iii' hem düzeneği hem de sonuçsuz açılışı karşılıyor. En yakın çeldirici 'viii' (farklı yaşlardan üç hayvan) — ilk cümle gerçekten 33, 61 ve 7 yaşındaki üç fili sayıyor, ama paragraf yaşları hiç karşılaştırmıyor; katılımcı listesi düzeneğin bir ayrıntısı, ana fikri değil.",
+          "feature_check": null,
+          "grammar_check": null,
+          "explanation": "Paragraf B deneyin nasıl kurulduğunu anlatıyor ve ilk oturumlarda hiçbir hayvanın verilen çubuğa ilgi göstermediğini söylüyor.",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "prompt": "Paragraph C",
+          "answer": ["v"],
+          "evidence": "There had been no earlier attempts to push, climb or stack anything nearby; the behaviour appeared abruptly, in a single uninterrupted sequence.",
+          "evidence_locator": { "paragraph": "C", "sentence": 4 },
+          "heading_check": "C paragrafının bütün ağırlığı davranışın **birdenbire** ortaya çıkmasında: yedinci oturumda, önceden hiçbir deneme yapılmamışken, küp yuvarlanıyor, üstüne çıkılıyor ve yiyecek alınıyor — hepsi tek ve kesintisiz bir dizide. 'v' bunu veriyor. En yakın çeldirici 'i' (adım adım kazanılan beceri) — altı oturumluk sonuçsuz bir dönem gerçekten geçmiş, aday bunu 'yavaş öğrenme' diye okuyabilir; ama son cümle tam tersini söylüyor, öncesinde itme, tırmanma ya da üst üste koyma denemesi hiç olmamış.",
+          "feature_check": null,
+          "grammar_check": null,
+          "explanation": "Paragraf C, çözümün yedinci oturumda hiçbir hazırlık denemesi olmadan bir anda ortaya çıkışını anlatıyor.",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "prompt": "Paragraph D",
+          "answer": ["x"],
+          "evidence": "His success was not limited to the cube itself: when it was removed, he pushed a large tractor tyre into use as a substitute platform, and with smaller objects he attempted, less successfully, to stack them on top of one another.",
+          "evidence_locator": { "paragraph": "D", "sentence": 4 },
+          "heading_check": "D paragrafı iki şeyi birlikte gösteriyor: aynı çözümün tekrarlanması (tek oturumda dokuz kez) ve değiştirilerek uygulanması (yiyecek yer değiştirince küpün yeni noktaya yuvarlanması, küp alınınca traktör lastiğinin kullanılması). 'x' ikisini de kapsıyor. En yakın çeldirici 'vi' (bakıcıların genç erkeği eğitmesi) — bakıcılar bu paragrafta geçiyor, ama yaptıkları tek şey yiyeceği başka yere asmak; pasajın hiçbir yerinde öğretme ya da eğitme yok.",
+          "feature_check": null,
+          "grammar_check": null,
+          "explanation": "Paragraf D, çözümün ertesi gün defalarca tekrarlandığını ve yeni konumlara ve başka nesnelere uyarlandığını anlatıyor.",
+          "difficulty": "medium"
+        },
+        {
+          "number": 4,
+          "prompt": "Paragraph E",
+          "answer": ["ii"],
+          "evidence": "The following day, without any hesitation, he walked straight to the passageway where the cube had been left and rolled it out, evidence, the researchers argued, that he recalled precisely where a useful object had been the day before rather than searching at random.",
+          "evidence_locator": { "paragraph": "E", "sentence": 4 },
+          "heading_check": "E paragrafının tek konusu bellek: küp görünmeyen bir geçide saklanıyor, ertesi gün hayvan hiç aramadan doğruca oraya gidiyor. 'ii' bunu karşılıyor. En yakın çeldirici 'x' (tekrarlama ve değiştirme) — burada da bir davranış ertesi gün yineleniyor, ama yinelenen şey çözümün kendisi değil; paragrafın ölçtüğü şey nesnenin **nerede bırakıldığının** hatırlanması.",
+          "feature_check": null,
+          "grammar_check": null,
+          "explanation": "Paragraf E, hayvanın bir gün önce nereye bırakıldığını gördüğü nesneyi ertesi gün doğrudan bulmasını, yani konum belleğini anlatıyor.",
+          "difficulty": "hard"
+        },
+        {
+          "number": 5,
+          "prompt": "Paragraph F",
+          "answer": ["vii"],
+          "evidence": "The authors suggest that the problem lay in the tools previous experiments had offered, not in the animals' intelligence.",
+          "evidence_locator": { "paragraph": "F", "sentence": 2 },
+          "heading_check": "F paragrafı tek bir soruya cevap veriyor: önceki çalışmalar bu yeteneği neden bulamadı? Cevap, sunulan aracın hayvanın en çok güvendiği duyuyu engellemesi. 'vii' bu ana fikri veriyor. En yakın çeldirici 'iv' (başka zeki türlerin başardıkları) — paragrafın ilk cümlesi benzer bulmacaları kolayca çözen akraba türlere değiniyor, ama bu yalnızca sorunun kurulması; paragraf o türleri hiç anlatmıyor, kendi hayvanının donanımını anlatıyor.",
+          "feature_check": null,
+          "grammar_check": null,
+          "explanation": "Paragraf F, önceki deneylerin başarısızlığını hayvanın zekâsına değil, kendisine sunulan aracın hortumun duyusunu engellemesine bağlıyor.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "group_id": "P-MH-02",
+      "passage_id": "A09",
+      "instructions": "Questions 6-10 refer to Passage A09 - The Brain That Turned to Glass\n\nThe passage has EIGHT paragraphs, A-H.\n\nChoose the correct heading for paragraphs B-F from the list of headings below.\nWrite the correct number, i-x, in boxes 6-10 on your answer sheet.",
+      "option_list": {
+        "label": "List of Headings",
+        "numbering": "roman",
+        "options": [
+          { "key": "i",    "text": "Doubts about where the material came from" },
+          { "key": "ii",   "text": "The methods used to check the claim" },
+          { "key": "iii",  "text": "A different kind of destruction, and what it saved" },
+          { "key": "iv",   "text": "Why the material could not be a later addition" },
+          { "key": "v",    "text": "An old find, looked at again" },
+          { "key": "vi",   "text": "Chemical clues pointing to one source" },
+          { "key": "vii",  "text": "Comparing the victim with others in the town" },
+          { "key": "viii", "text": "What the dark substance proved to be" },
+          { "key": "ix",   "text": "Equipment built especially for the site" },
+          { "key": "x",    "text": "Fine structures that survived intact" }
+        ]
+      },
+      "example": { "key": "iii", "target": "Paragraph A" },
+      "allow_repeat": false,
+      "items": [
+        {
+          "number": 6,
+          "prompt": "Paragraph B",
+          "answer": ["v"],
+          "evidence": "His remains had been known to archaeologists since the 1960s, but a more recent examination revealed something unexpected: a dark, glassy material inside his skull, distinct in appearance from the surrounding bone and ash.",
+          "evidence_locator": { "paragraph": "B", "sentence": 2 },
+          "heading_check": "B paragrafının kurduğu karşıtlık zaman üzerine: kalıntılar 1960'lardan beri biliniyordu, yeni bir inceleme beklenmedik bir şey gösterdi. 'v' bu ana fikri veriyor. En yakın çeldirici 'vii' (kurbanın kasabadaki ötekilerle karşılaştırılması) — ilk cümle 'kazılarda ortaya çıkarılan kurbanlar arasında' diye başlıyor, ama paragraf tek bir kişiyi anlatıyor, hiçbir karşılaştırma yapmıyor.",
+          "feature_check": null,
+          "grammar_check": null,
+          "explanation": "Paragraf B, on yıllardır bilinen bir kalıntının yeniden incelenmesinde kafatası içinde beklenmedik camsı bir madde bulunduğunu anlatıyor.",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "prompt": "Paragraph C",
+          "answer": ["viii"],
+          "evidence": "Detailed analysis showed that this material was not a mineral deposit or later contamination but vitrified human brain tissue, tissue that had been converted directly into a glass-like solid.",
+          "evidence_locator": { "paragraph": "C", "sentence": 1 },
+          "heading_check": "C paragrafı camsı maddenin ne olduğunu söylüyor — cama dönüşmüş insan beyin dokusu — ve bunun neden bu kadar ender olduğunu ekliyor. 'viii' maddenin kimliğine, yani paragrafın ana fikrine bağlanıyor. En yakın çeldirici 'iv' (maddenin sonradan eklenmiş olamayacağı) — ilk cümle gerçekten mineral birikimi ve sonraki bulaşma ihtimalini eliyor, ama bu, kimliğin ortaya konuşunun bir adımı; paragraf elemeyi değil, sonucu anlatıyor.",
+          "feature_check": null,
+          "grammar_check": null,
+          "explanation": "Paragraf C, kafatasındaki maddenin cama dönüşmüş beyin dokusu olduğunu ve bu dönüşümün doğada ne kadar ender görüldüğünü açıklıyor.",
+          "difficulty": "medium"
+        },
+        {
+          "number": 8,
+          "prompt": "Paragraph D",
+          "answer": ["ii"],
+          "evidence": "To confirm and characterise the discovery, the research team combined several techniques.",
+          "evidence_locator": { "paragraph": "D", "sentence": 1 },
+          "heading_check": "D paragrafının dört cümlesi de aynı işi sayıyor: bulguyu doğrulamak için kullanılan yöntemler — mikroskopla görüntüleme, kimyasal bileşim ölçümü, örüntü tanıma, veri tabanıyla karşılaştırma. 'ii' bu bütünü karşılıyor. En yakın çeldirici 'ix' (bu alan için özel yapılmış donanım) — üçüncü cümle gerçekten bu iş için geliştirilmiş bir görüntü işleme yönteminden söz ediyor, ama bu dört yöntemden yalnızca biri ve donanım değil; paragrafın ana fikri yöntemlerin bir arada kullanılması.",
+          "feature_check": null,
+          "grammar_check": null,
+          "explanation": "Paragraf D, bulgunun doğrulanması için bir arada kullanılan inceleme yöntemlerini sıralıyor.",
+          "difficulty": "medium"
+        },
+        {
+          "number": 9,
+          "prompt": "Paragraph E",
+          "answer": ["x"],
+          "evidence": "The structural measurements were remarkably precise.",
+          "evidence_locator": { "paragraph": "E", "sentence": 1 },
+          "heading_check": "E paragrafı baştan sona ölçülen yapıları sıralıyor: sinir liflerinin çapı, hücre gövdelerinin boyu, kılıfların çok katmanlı düzeni, hücre içi iskeletin görülebilmesi — hepsi yaşayan dokudakine yakın. 'x' bu ana fikri, yani ince yapıların bozulmadan kalışını veriyor. En yakın çeldirici 'iv' (maddenin sonradan eklenmiş olamayacağı) — böylesine düzenli yapılar dolaylı olarak bunu da destekliyor, ama paragraf bir itirazı çürütmüyor, ölçüm sonuçlarını veriyor.",
+          "feature_check": null,
+          "grammar_check": null,
+          "explanation": "Paragraf E, cama dönüşmüş dokuda sinir hücrelerinin ince yapılarının ölçülebilecek kadar iyi korunduğunu gösteren sayıları veriyor.",
+          "difficulty": "medium"
+        },
+        {
+          "number": 10,
+          "prompt": "Paragraph F",
+          "answer": ["vi"],
+          "evidence": "Because these proteins are not associated with bone, ash or other materials likely to be found inside a skull, their presence strongly supports the conclusion that the glassy material genuinely originated from the man's brain and spinal cord rather than from some other source.",
+          "evidence_locator": { "paragraph": "F", "sentence": 3 },
+          "heading_check": "F paragrafı yalnızca beyinde bulunan yedi proteinin saptanmasını anlatıyor ve bunları maddenin kaynağını belirlemekte kullanıyor. 'vi' hem kimyasal kanıtı hem de tek bir kaynağa işaret etmesini karşılıyor. En yakın çeldirici 'i' (maddenin kaynağına duyulan kuşku) — paragraf gerçekten 'başka bir kaynak' ihtimaline değiniyor, ama onu tartışmıyor, kapatıyor; kuşku değil kanıt paragrafı.",
+          "feature_check": null,
+          "grammar_check": null,
+          "explanation": "Paragraf F, yalnızca beyin dokusunda bulunan proteinlerin saptanmasının maddenin kaynağını kesinleştirdiğini anlatıyor.",
+          "difficulty": "hard"
+        }
+      ]
+    },
+    {
+      "group_id": "P-MH-03",
+      "passage_id": "A12",
+      "instructions": "Questions 11-15 refer to Passage A12 - Does a Nap Help You Remember as Well as a Night's Sleep?\n\nThe passage has EIGHT paragraphs, A-H.\n\nChoose the correct heading for paragraphs B-F from the list of headings below.\nWrite the correct number, i-x, in boxes 11-15 on your answer sheet.",
+      "option_list": {
+        "label": "List of Headings",
+        "numbering": "roman",
+        "options": [
+          { "key": "i",    "text": "Two designs for the same question" },
+          { "key": "ii",   "text": "The stages that make up a night's sleep" },
+          { "key": "iii",  "text": "A short daytime rest, and a pause before testing" },
+          { "key": "iv",   "text": "An everyday habit, and an open question" },
+          { "key": "v",    "text": "What the length of the rest did not explain" },
+          { "key": "vi",   "text": "How the puzzle game changed the scores" },
+          { "key": "vii",  "text": "Learning in the evening, recall in the morning" },
+          { "key": "viii", "text": "Why some pairs were harder to learn" },
+          { "key": "ix",   "text": "A result that depended on the material" },
+          { "key": "x",    "text": "How often the volunteers usually slept in the day" }
+        ]
+      },
+      "example": { "key": "iv", "target": "Paragraph A" },
+      "allow_repeat": false,
+      "items": [
+        {
+          "number": 11,
+          "prompt": "Paragraph B",
+          "answer": ["i"],
+          "evidence": "The first experiment used a between-subjects design, meaning that different participants were assigned to a sleep group or a wake group, while the second used a within-subject design in which the same participants experienced both a nap and a period of wakefulness on different days, allowing more direct comparison.",
+          "evidence_locator": { "paragraph": "B", "sentence": 2 },
+          "heading_check": "B paragrafı iki deneyin **kuruluşunu** karşılaştırıyor: birinde farklı kişiler iki gruba ayrılıyor, ötekinde aynı kişiler her iki durumu da yaşıyor. 'i' bu ana fikri veriyor. En yakın çeldirici 'vii' (akşam öğrenip sabah hatırlama) — B genel olarak gece uykusu ile gündüz uykusunun karşılaştırıldığını söylüyor, ama saatleri ve sınama düzenini vermiyor; o ayrıntı C paragrafında.",
+          "feature_check": null,
+          "grammar_check": null,
+          "explanation": "Paragraf B, aynı soruyu sınamak için kurulan iki farklı deney düzenini tanıtıyor.",
+          "difficulty": "medium"
+        },
+        {
+          "number": 12,
+          "prompt": "Paragraph C",
+          "answer": ["vii"],
+          "evidence": "The sleep group learned a list of word pairs at nine in the evening and were tested on their recall the following morning at nine, after a normal night's sleep.",
+          "evidence_locator": { "paragraph": "C", "sentence": 2 },
+          "heading_check": "C paragrafı bir deneyin akışını saat saat veriyor: bir grup akşam öğrenip sabah sınanıyor, öteki grup sabah öğrenip akşam sınanıyor, arada on iki saat var. 'vii' bu düzeni karşılıyor. En yakın çeldirici 'i' (aynı soru için iki düzen) — burada da iki grup var, ama bunlar iki ayrı deney değil, tek deneyin iki kolu; kuruluşun karşılaştırılması B'nin işi.",
+          "feature_check": null,
+          "grammar_check": null,
+          "explanation": "Paragraf C, gece uykusunu sınayan deneyin ayrıntısını veriyor: bir grup akşam öğrenip sabah, öteki sabah öğrenip akşam sınanıyor.",
+          "difficulty": "hard"
+        },
+        {
+          "number": 13,
+          "prompt": "Paragraph D",
+          "answer": ["iii"],
+          "evidence": "To reduce the grogginess that can follow a nap and distort test performance, all participants completed a 30-minute puzzle game before their final recall test.",
+          "evidence_locator": { "paragraph": "D", "sentence": 3 },
+          "heading_check": "D paragrafı gündüz uykusunu sınayan deneyi anlatıyor: kısa bir uyku, beyin etkinliğinin kaydı ve son sınamadan önce konan ara. 'iii' ikisini birden karşılıyor. En yakın çeldirici 'vi' (bulmaca oyununun puanları nasıl değiştirdiği) — oyun bu paragrafta gerçekten geçiyor, ama bir ölçüm değil bir önlem; pasaj oyunun puanlara etkisini hiçbir yerde vermiyor.",
+          "feature_check": null,
+          "grammar_check": null,
+          "explanation": "Paragraf D, gündüz uykusu deneyini anlatıyor: kısa bir uyku ya da uyanık geçen eş süre, ardından son sınamadan önce konan ara.",
+          "difficulty": "medium"
+        },
+        {
+          "number": 14,
+          "prompt": "Paragraph E",
+          "answer": ["ix"],
+          "evidence": "The results revealed a clear difference depending on the type of material being remembered.",
+          "evidence_locator": { "paragraph": "E", "sentence": 1 },
+          "heading_check": "E paragrafı sonucu tek bir ayrım üzerine kuruyor: anlamca bağlantılı çiftlerde gece uykusu açık ara önde, bağlantısız çiftlerde iki uyku eşit. 'ix' bu ana fikri, yani sonucun malzemenin türüne bağlı olmasını veriyor. En yakın çeldirici 'viii' (bazı çiftlerin neden daha zor öğrenildiği) — paragraf iki çift türünü karşılaştırıyor, ama öğrenme zorluğundan hiç söz etmiyor; ölçtüğü şey öğrenmenin değil, hatırlamanın uyku sonrası kazancı.",
+          "feature_check": null,
+          "grammar_check": null,
+          "explanation": "Paragraf E, uykunun katkısının hatırlanacak malzemenin türüne göre değiştiğini gösteriyor: bağlantılı çiftlerde gece uykusu üstün, bağlantısız çiftlerde fark yok.",
+          "difficulty": "medium"
+        },
+        {
+          "number": 15,
+          "prompt": "Paragraph F",
+          "answer": ["v"],
+          "evidence": "Neither the exact length of a nap nor the particular stages of sleep it contained showed any significant relationship with how much memory improved, suggesting that simply having the opportunity to nap mattered more than its precise internal structure.",
+          "evidence_locator": { "paragraph": "F", "sentence": 2 },
+          "heading_check": "F paragrafı bir olumsuz bulgu paragrafı: süre de, uykunun içindeki evreler de bellek kazancıyla ilişkili çıkmıyor. 'v' bu ana fikri veriyor. En yakın çeldirici 'ii' (gece uykusunu oluşturan evreler) — paragraf gerçekten hafif bir evreden ve derin uykuyla karşılaştırmadan söz ediyor, ama evreleri tanıtmıyor; söylediği şey bu evrelerin sonucu **açıklamadığı**.",
+          "feature_check": null,
+          "grammar_check": null,
+          "explanation": "Paragraf F, gündüz uykusunun süresinin ve içerdiği evrelerin bellek kazancıyla anlamlı bir ilişki göstermediğini belirtiyor.",
+          "difficulty": "hard"
+        }
+      ]
+    }
+  ]
+}

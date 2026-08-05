@@ -43,6 +43,14 @@ def sorular(d):
     return out
 
 
+def kumeli_sorular(d):
+    """Her soruyu ait oldugu kumeyle birlikte verir; kume yoksa dosyanin kendisi."""
+    out = []
+    for g in (d.get("groups") or [d]):
+        out += [(g, it) for it in (g.get("items") or [])]
+    return out
+
+
 def numaralar(it):
     """'34-35' gibi cift cevapli numaralari da acar."""
     n = str(it.get("number"))

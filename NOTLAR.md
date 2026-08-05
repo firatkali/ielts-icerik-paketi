@@ -5559,3 +5559,80 @@ hiç kullanılmadı, kalan on soruda birer kez. Çeldirici türü çeşitliliği
 - Atlanan/sorun: yok. Sıradaki paket: **başlık eşleştirme alıştırması (15 soru)** —
   `content/reading/practice/matching-headings.json`, `groups` sarmalayıcısıyla, tam
   testlerde sorulmamış paragraflardan; çalıştırma listesindeki 6. paket.
+
+## FABLE5-42 (5. çalıştırma: alıştırma — başlık eşleştirme, 15 soru)
+- Tarih: 2026-08-05
+- **Oturum başı durumu:** AC1–AC4 (paket 1–4) ve GT1+GT2 (paket 5) dosyalarının hepsi
+  depoda tam ve commit edilmiş hâldeydi. Çalıştırma listesindeki ilk **üretilmemiş**
+  paket, listedeki **6. paket** olan başlık eşleştirme alıştırmasıydı; bir önceki
+  çalıştırmanın notu da sıradaki paketi böyle bırakmıştı. Hiçbir dosya yeniden
+  üretilmedi.
+- Üretilen dosya (plan D bölümü): `content/reading/practice/matching-headings.json` —
+  **3 küme × 5 soru = 15**, `groups` sarmalayıcısıyla, numaralar 1–15, `test_id: null`,
+  `practice: true`.
+  - `P-MH-01` — pasaj **A01** (fil / içgörü bulmacası), paragraf **B–F**,
+    cevaplar **iii, v, x, ii, vii**, örnek: Paragraph A → `ix`
+  - `P-MH-02` — pasaj **A09** (cama dönüşmüş beyin dokusu), paragraf **B–F**,
+    cevaplar **v, viii, ii, x, vi**, örnek: Paragraph A → `iii`
+  - `P-MH-03` — pasaj **A12** (şekerleme mi gece uykusu mu), paragraf **B–F**,
+    cevaplar **i, vii, iii, ix, v**, örnek: Paragraph A → `iv`
+- **Pasaj seçimi:** tam testlerde başlık eşleştirmesi A02, A05, A08, A11 (AC1–AC4) ile
+  G05, G06 (GT1, GT2) üzerinden sorulmuştu; alıştırma için bu altısı dışarıda bırakıldı.
+  Seçilen A01, A09, A12 başka tiplerde (bilgi eşleştirme, not tamamlama, TFNG, YNNG)
+  kullanılmış olsa da başlık eşleştirme ana fikri ölçtüğü için hedeflenen bilgi ayrı.
+  Her kümede 10 başlık / 5 soru + 1 örnek var, yani 4 başlık boşta kalıyor.
+- Bilerek kurulan yakın çiftler:
+  - A01'de `iii` ile `viii`: B'nin ilk cümlesi üç hayvanı yaşlarıyla sayıyor, ama
+    paragraf yaşları hiç karşılaştırmıyor; ana fikir düzenek artı sonuçsuz açılış.
+  - A01'de `v` ile `i`: altı oturumluk sonuçsuz dönem "adım adım öğrenme" diye
+    okunabiliyor, oysa C'nin son cümlesi öncesinde hiçbir deneme olmadığını söylüyor.
+  - A09'da `viii` ile `iv`: C'nin ilk cümlesi mineral birikimi ve sonraki bulaşma
+    ihtimalini gerçekten eliyor, ama bu kimliğin kurulmasındaki bir adım.
+  - A12'de `iii` ile `vi`: bulmaca oyunu D'de geçiyor ama bir önlem; pasaj oyunun
+    puanlara etkisini hiçbir yerde vermiyor.
+- **Taslakta elenen / değiştirilen (3):**
+  1. A09 için düşünülen "The temperatures needed to produce it" çeldiricisi atıldı —
+     ters kontrolde sorulmayan **G paragrafının** ana fikrine (dar ısınma/soğuma
+     aralığı) gerçekten oturuyordu. Yerine C'nin bir yan cümlesine yaslanan, hiçbir
+     paragrafın ana fikri olmayan "Why the material could not be a later addition"
+     kondu.
+  2. A12 için düşünülen "Advice for anyone planning to study" çeldiricisi atıldı —
+     sorulmayan **H paragrafı** tam olarak bunu yapıyor. Yerine E'ye yakın duran ama
+     pasajda karşılığı olmayan "Why some pairs were harder to learn" kondu.
+  3. A12'de "A ninety-minute nap..." biçimindeki başlık taslağı sayıyı dışarı verdiği
+     için (D'de "90-minute nap" birebir geçiyor, kelime avıyla bulunurdu — kural 6)
+     "A short daytime rest, and a pause before testing" olarak yeniden yazıldı; aynı
+     nedenle `v` başlığında da "nap" yerine "rest" kullanıldı.
+- Ters kontrol (dörder çeldirici, her kümede A–H'nin tamamına karşı sınandı): A01'de
+  `i` hiçbir paragrafa uymuyor (metin tersini söylüyor), `iv` A ve F'nin giriş
+  cümlelerine yaslanıyor, `vi` D'de bakıcılar geçiyor ama öğretme yok, `viii` B'nin
+  katılımcı ayrıntısı. A09'da `i` C ve F kaynak sorusuna değiniyor ama kuşku paragrafı
+  yok, `iv` C'nin yan cümlesi, `vii` H'nin uyarısı (karşılaştırma değil, genelleme
+  sınırlaması), `ix` D'deki dört yöntemden biri. A12'de `ii` F ve G evrelere değiniyor
+  ama evreleri tanıtmıyor, `vi` D'nin önlemi, `viii` E'nin çift türleri, `x` D'nin
+  katılımcı ölçütü. Hiçbiri bir paragrafın ana fikri değil.
+- **Doğrulama:**
+  - `python tools/_f42_kontrol.py content/reading/practice/matching-headings.json` →
+    **0 sorun** (15 `evidence` A01/A09/A12'de birebir, locator'lar doğru, hiçbir başlık
+    pasajda birebir geçmiyor, her kümede boşta çeldirici var, NB ile allow_repeat
+    tutarlı).
+  - `python tools/dogrula.py` → **şema hatası 0**, `reading/practice` 125 → **140**,
+    okuma toplamı 380/400. Pasaj lisansı eksik 0, görünür metinde IELTS 0.
+  - Son kontrol: `tools/kor-kopya.py` ile anahtarsız kopya üretildi, 15 soru aday gibi
+    baştan çözüldü → **15/15 anahtarla uyuştu**; rapor
+    `content/DOGRULAMA/f42-alistirma-baslik-eslestirme.json`. Silinen soru yok
+    (eleme ve değişiklikler yukarıda, taslak aşamasında).
+- **Araç düzeltmesi:** `tools/dogrula.py` `groups` sarmalayıcısını tanımıyordu — tipe
+  özel alanları yalnızca sorunun kendisinde ve dosya zarfında arıyor, **küme**
+  düzeyindeki `option_list` alanını görmüyordu; bu yüzden geçerli dosya 16 sahte hata
+  veriyordu. `tools/ortak.py` içine `kumeli_sorular()` eklendi (her soruyu kendi
+  kümesiyle birlikte verir) ve `dogrula.py`'deki tipe özel alan kontrolü küme zarfına da
+  bakacak biçimde düzeltildi. Kümesiz dosyalarda davranış değişmiyor. Aynı sorun
+  sıradaki iki alıştırma paketini de vururdu.
+- Alıştırma dosyasına, öteki `groups` yapılı dosyalarla aynı olsun diye üst düzey genel
+  bir `instructions` satırı kondu; kümeye özel yönerge (hangi pasaj, hangi kutular) her
+  kümenin kendi `instructions` alanında duruyor.
+- **DURUM.txt / ilerleme.txt elle güncellenmedi** (sayaçları `tools/calistir.py` yazıyor).
+- Atlanan/sorun: yok. Sıradaki paket: **özellik eşleştirme alıştırması (10 soru)** —
+  `content/reading/practice/matching-features.json`, `groups` sarmalayıcısıyla, birden
+  fazla adlandırılmış aktörü olan pasajlardan; çalıştırma listesindeki 7. paket.
