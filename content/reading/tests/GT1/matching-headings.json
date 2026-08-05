@@ -1,0 +1,92 @@
+{
+  "schema_version": "1.0",
+  "set_id": "GT1-matching-headings",
+  "skill": "reading",
+  "module": "general",
+  "test_id": "GT1",
+  "practice": false,
+  "passage_id": "G05",
+  "question_type": "matching_headings",
+  "generated_by": "fable",
+  "instructions": "The passage has NINE paragraphs, A-I.\n\nChoose the correct heading for paragraphs B-F from the list of headings below.\nWrite the correct number, i-x, in boxes 28-32 on your answer sheet.",
+  "option_list": {
+    "label": "List of Headings",
+    "numbering": "roman",
+    "options": [
+      { "key": "i",    "text": "A yearly total, split in two" },
+      { "key": "ii",   "text": "Doubts about what families report" },
+      { "key": "iii",  "text": "Which foods were lost in the greatest quantity" },
+      { "key": "iv",   "text": "Extending the question to a new setting" },
+      { "key": "v",    "text": "How the amounts changed across the seasons" },
+      { "key": "vi",   "text": "How the figures were gathered" },
+      { "key": "vii",  "text": "Skins and other leftovers from preparing meals" },
+      { "key": "viii", "text": "Drinks, and what the count left out" },
+      { "key": "ix",   "text": "How far the two districts differed" },
+      { "key": "x",    "text": "Why one district earns more than another" }
+    ]
+  },
+  "example": { "key": "iv", "target": "Paragraph A" },
+  "allow_repeat": false,
+  "items": [
+    {
+      "number": 28,
+      "prompt": "Paragraph B",
+      "answer": ["vi"],
+      "evidence": "Rather than relying on households to estimate their own waste, which tends to produce unreliable figures, the research team physically collected, sorted and weighed the solid food waste from each home's rubbish over eight consecutive days, using digital scales accurate to two grams.",
+      "evidence_locator": { "paragraph": "B", "sentence": 1 },
+      "heading_check": "B paragrafının üç cümlesi de tek bir işi anlatıyor: rakamların nasıl elde edildiği. Katı atık tartılıyor, içecekler yedi günlük günlükle kaydediliyor, alışveriş ve saklama alışkanlıkları görüşmeyle soruluyor. 'vi' bu bütünü karşılıyor. En yakın çeldirici 'ii' (hanelerin bildirimine duyulan kuşku) — ilk cümlenin yan cümlesi gerçekten öz-tahminin güvenilmez olduğunu söylüyor, ama bu yalnızca yöntem seçiminin gerekçesi; paragraf kuşkuyu tartışmıyor, ölçümü anlatıyor.",
+      "feature_check": null,
+      "grammar_check": null,
+      "explanation": "Paragraf B, atığın nasıl ölçüldüğünü anlatıyor: çöp fiilen toplanıp hassas teraziyle tartılıyor, içecekler günlükle izleniyor, hanelerle görüşme yapılıyor.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 29,
+      "prompt": "Paragraph C",
+      "answer": ["i"],
+      "evidence": "Just over a third of this, about 29 kilograms, was still perfectly edible when discarded; the remaining 48 kilograms consisted of inedible parts such as fruit peels, bones and eggshells that are a normal by-product of cooking rather than genuine waste.",
+      "evidence_locator": { "paragraph": "C", "sentence": 2 },
+      "heading_check": "C paragrafı önce kişi başına yıllık 77 kilogramlık toplamı veriyor, sonra bu toplamı ikiye ayırıyor: yenebilecek durumdaki 29 kilogram ve pişirmenin olağan yan ürünü olan 48 kilogram. 'i' hem toplamı hem ikiye ayrılışı karşılıyor. En yakın çeldirici 'vii' (kabuklar ve mutfak artıkları) — kabuk, kemik, yumurta kabuğu bu paragrafta sayılıyor, ama bunlar ikiye ayrılan toplamın yalnızca bir yakası; paragrafın ana fikri ayrımın kendisi.",
+      "feature_check": null,
+      "grammar_check": null,
+      "explanation": "Paragraf C, kişi başına yıllık toplam atık miktarını veriyor ve bunu yenebilir ile yenemez kısım olarak ikiye ayırıyor.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 30,
+      "prompt": "Paragraph D",
+      "answer": ["ix"],
+      "evidence": "The most unexpected finding was the gap between urban and rural households.",
+      "evidence_locator": { "paragraph": "D", "sentence": 1 },
+      "heading_check": "D paragrafının tamamı iki bölge arasındaki farkı ölçüyor: kentte kişi başına 79,4 kilogram, kırsalda 45,8; kentte atığın %38,2'si yenebilir durumda, kırsalda %23,4. 'ix' bu ana fikri veriyor — farkın büyüklüğünü, nedenini değil; bu yüzden H paragrafıyla (kırsalın neden daha az attığı) karışmıyor. En yakın çeldirici 'x' (bir bölgenin neden daha çok kazandığı) — paragrafın son cümlesi kentli hanelerin yaklaşık iki kat kazanıp harcadığını söylüyor, ama gelirin neden yüksek olduğunu hiç açıklamıyor; gelir burada farkın açıklaması, konusu değil.",
+      "feature_check": null,
+      "grammar_check": null,
+      "explanation": "Paragraf D, kentsel ve kırsal haneler arasındaki büyük atık farkını sayılarla ortaya koyuyor ve bunu kısmen gelir farkına bağlıyor.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 31,
+      "prompt": "Paragraph E",
+      "answer": ["iii"],
+      "evidence": "Rice and other cereals accounted for the single largest share of edible waste, at nearly 17 kilograms per person annually, with vegetables close behind.",
+      "evidence_locator": { "paragraph": "E", "sentence": 1 },
+      "heading_check": "E paragrafı baştan sona hangi yiyeceğin ne kadar atıldığını sıralıyor: tahıllar ve pirinç başta, sebzeler hemen arkada, ardından havuç, lahana, tofu ve tempe. 'iii' bu sıralamayı karşılıyor. En yakın çeldirici 'vii' (kabuklar ve mutfak artıkları) — paragrafın son cümlesi muz ve mango kabuklarının yenmeyen atıkta başı çektiğini söylüyor, ama bu üç cümlelik sıralamanın yalnızca sonuncusu; paragraf ağırlıkla yenebilir yiyeceklerin dökümü.",
+      "feature_check": null,
+      "grammar_check": null,
+      "explanation": "Paragraf E, hangi yiyeceklerin en büyük miktarda atıldığını sıralıyor: önce tahıl ve pirinç, sonra sebzeler ve öteki kalemler.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 32,
+      "prompt": "Paragraph F",
+      "answer": ["viii"],
+      "evidence": "Beverages made up a smaller but still measurable part of the total: households poured away an average of 0.3 kilograms of coffee and 0.2 kilograms of tea per person each year, most often because a pot or cup had been made larger than anyone actually wanted to finish.",
+      "evidence_locator": { "paragraph": "F", "sentence": 1 },
+      "heading_check": "F paragrafı iki şey söylüyor ve ikisi de sayımın kapsamıyla ilgili: dökülen kahve ve çayın toplama eklenmesi, bir de sayımın yalnızca çöp kutusuna gideni (%82,8) ölçtüğü, komposta ya da hayvana giden gıdanın dışarıda kaldığı. 'viii' ikisini birden karşılıyor. En yakın çeldirici 'v' (miktarların mevsimlere göre değişmesi) — paragraf yöntemin bir sınırını anlatıyor, ama bu sınır mevsim değil kapsam; mevsim konusu ancak I paragrafında ve orada da ölçülmediği söyleniyor.",
+      "feature_check": null,
+      "grammar_check": null,
+      "explanation": "Paragraf F, dökülen içecekleri toplama ekliyor ve sayımın yalnızca çöp kutusuna gideni kapsadığını, kompost ile hayvan yemine gidenin dışarıda kaldığını belirtiyor.",
+      "difficulty": "hard"
+    }
+  ]
+}

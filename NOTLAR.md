@@ -5501,3 +5501,61 @@ hiç kullanılmadı, kalan on soruda birer kez. Çeldirici türü çeşitliliği
 - **DURUM.txt / ilerleme.txt elle güncellenmedi** (sayaçları `tools/calistir.py` yazıyor).
 - Atlanan/sorun: yok. Sıradaki paket: **GT1 + GT2** (soru 28–32, başlık eşleştirme,
   pasajlar **G05** ve **G06**) — çalıştırma listesindeki 5. paket.
+
+## FABLE5-42 (4. çalıştırma: GT1 + GT2 — başlık eşleştirme, 5+5 soru)
+- Tarih: 2026-08-05
+- **Oturum başı durumu:** AC1–AC4'ün sekiz dosyası da depoda tam ve commit edilmiş
+  hâldeydi (çalıştırma listesinin 1–4. paketleri). İlk **üretilmemiş** paket listedeki
+  **5. paket** olan GT1 + GT2 başlık eşleştirmesiydi; 3. çalıştırmanın notu da sıradaki
+  paketi böyle bırakmıştı. Hiçbir dosya yeniden üretilmedi.
+- Üretilen dosyalar (plan B bölümü, soru **28–32**, GT 3. bölüm):
+  - `content/reading/tests/GT1/matching-headings.json` — pasaj **G05** (hane gıda israfı
+    çalışması), paragraf **B–F**
+  - `content/reading/tests/GT2/matching-headings.json` — pasaj **G06** (gönüllülük ve
+    sağlık), paragraf **C–G**
+- İki dosyada da **10 başlık / 5 soru + 1 örnek**, 4 başlık boşta. `allow_repeat: false`,
+  yönergede `NB` satırı yok (tutarlı). Sıra kuralı yok.
+  - GT1 cevapları: **vi, i, ix, iii, viii** · örnek: Paragraph A → `iv`
+  - GT2 cevapları: **viii, iv, x, ii, vii** · örnek: Paragraph A → `vi`
+- **GT2'de sorulan aralık bilerek C–G yapıldı** (AC dosyalarındaki B–F yerine): G06'da
+  B paragrafı veri kaynağı ve ölçü tanımlarını anlatıyor, ana fikri "kimler nerede
+  gönüllü oluyor"a fazla yakın duruyordu; C–G aralığı hem bu örtüşmeyi kaldırıyor hem
+  de E ile F'yi (gelir yolunun **önerilmesi** ile gelir payının **küçük çıkması**) yan
+  yana koyup ayırt ediciliği artırıyor.
+- Bilerek kurulan yakın çiftler:
+  - GT1'de **vi ↔ ii**: B'nin ilk cümlesindeki "hane tahmini güvenilmez" yan cümlesi
+    çeldiriciyi besliyor, ama paragrafın ana fikri ölçümün kendisi.
+  - GT1'de **i ↔ vii**: C hem toplamı hem ikiye ayrılışı veriyor; kabuk/kemik yalnızca
+    bir yaka. Aynı çeldirici E'nin son cümlesine de yaslanıyor (iki yönlü çeldirici).
+  - GT2'de **x ↔ ii**: ikisi de gelir üzerine, ayrım "öneri" ile "ölçülen pay" arasında.
+  - GT2'de **vii ↔ ix**: gelirini bildirmeyen ~%11'lik grup G'de gerçekten geçiyor ama
+    sayılan sağlamlık sınamalarından yalnızca biri.
+- **Taslakta elenen / değiştirilen (2):**
+  1. GT1'de `ix` başlığı "A wide gap between town and country" olarak yazılmıştı;
+     kör çözüm turundan sonra **"How far the two districts differed"** ile değiştirildi.
+     Eski hâli, sorulmayan **H** paragrafının ana fikrine (kırsalın **neden** daha az
+     attığı) da oturuyordu; yeni hâl farkın **büyüklüğüne** bağlanıyor, yani yalnızca
+     D'ye. Cevap değişmedi.
+  2. GT1 için düşünülen "Peelings and other by-products of cooking" çeldiricisi atıldı —
+     `peelings` E'de birebir geçiyor, kelime avıyla bulunurdu (kural 6). Yerine pasajda
+     birebir geçmeyen "Skins and other leftovers from preparing meals" kondu.
+- Ters kontrol (her çeldirici A–I'nin tamamına karşı sınandı): GT1'de `ii`→B'nin yan
+  cümlesi, `v`→hiçbir paragraf (mevsim farkı I'de açıkça **ölçülmedi** deniyor), `vii`→C
+  ve E'nin ayrıntısı, `x`→D'nin gelir ayrıntısı (pasaj gelirin **nedenini** hiç
+  açıklamıyor). GT2'de `i`→D listeliyor ama nedenini söylemiyor, `iii`→A'nın giriş
+  cümlesi, `v`→C'nin son cümlesi, `ix`→G'nin ikinci cümlesi. Hiçbiri bir paragrafın ana
+  fikri değil.
+- **Doğrulama:**
+  - `python tools/_f42_kontrol.py` → iki dosya **0 sorun** (on `evidence` G05/G06'da
+    birebir, locator'lar doğru, hiçbir başlık pasajda birebir geçmiyor, boşta çeldirici
+    var, NB–allow_repeat tutarlı).
+  - `python tools/dogrula.py` → **şema hatası 0**, `reading/test` 230 → **240 (hedef
+    tamam)**, **GT1 ve GT2 artık 40/40 — altı okuma tam testinin hepsi bitti.** Pasaj
+    lisansı eksik 0, görünür metinde IELTS 0, yasak kaynak 0.
+  - Son kontrol: `tools/kor-kopya.py` ile anahtarsız kopyalar üretildi, on soru aday gibi
+    baştan çözüldü → **10/10 anahtarla uyuştu**; silinen soru yok (eleme/değişiklik
+    yukarıda, taslak aşamasında).
+- **DURUM.txt / ilerleme.txt elle güncellenmedi** (sayaçları `tools/calistir.py` yazıyor).
+- Atlanan/sorun: yok. Sıradaki paket: **başlık eşleştirme alıştırması (15 soru)** —
+  `content/reading/practice/matching-headings.json`, `groups` sarmalayıcısıyla, tam
+  testlerde sorulmamış paragraflardan; çalıştırma listesindeki 6. paket.

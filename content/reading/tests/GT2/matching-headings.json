@@ -1,0 +1,92 @@
+{
+  "schema_version": "1.0",
+  "set_id": "GT2-matching-headings",
+  "skill": "reading",
+  "module": "general",
+  "test_id": "GT2",
+  "practice": false,
+  "passage_id": "G06",
+  "question_type": "matching_headings",
+  "generated_by": "fable",
+  "instructions": "The passage has NINE paragraphs, A-I.\n\nChoose the correct heading for paragraphs C-G from the list of headings below.\nWrite the correct number, i-x, in boxes 28-32 on your answer sheet.",
+  "option_list": {
+    "label": "List of Headings",
+    "numbering": "roman",
+    "options": [
+      { "key": "i",    "text": "Why unpaid work is commoner in wealthy countries" },
+      { "key": "ii",   "text": "The limited part played by earnings" },
+      { "key": "iii",  "text": "Effects on the people volunteers help" },
+      { "key": "iv",   "text": "Who gives their time, and where" },
+      { "key": "v",    "text": "Why one measure of health was preferred" },
+      { "key": "vi",   "text": "A question about the giver, not the receiver" },
+      { "key": "vii",  "text": "Testing whether the result held up" },
+      { "key": "viii", "text": "The health difference and its size" },
+      { "key": "ix",   "text": "Those who would not state their earnings" },
+      { "key": "x",    "text": "Why earnings might be the connection" }
+    ]
+  },
+  "example": { "key": "vi", "target": "Paragraph A" },
+  "allow_repeat": false,
+  "items": [
+    {
+      "number": 28,
+      "prompt": "Paragraph C",
+      "answer": ["viii"],
+      "evidence": "People who volunteered rated their own health noticeably higher than those who did not, even after the researchers accounted for differences in gender, age, education, migration background and religious observance.",
+      "evidence_locator": { "paragraph": "C", "sentence": 1 },
+      "heading_check": "C paragrafının ana fikri, iki grup arasında bir sağlık farkı bulunması ve bu farkın ne kadar büyük olduğunun tarif edilmesi: denetimlerden sonra da duruyor, büyüklüğü kadın-erkek farkı ya da beş yaşlık yaş farkı kadar. 'viii' bunu veriyor. En yakın çeldirici 'v' (bir sağlık ölçüsünün neden yeğlendiği) — son cümle gerçekten öz-bildirime dayalı ölçünün neden seçildiğini açıklıyor, ama bu bulguyu destekleyen tek bir ayrıntı; paragraf ölçü tartışması değil, farkın kendisi üzerine.",
+      "feature_check": null,
+      "grammar_check": null,
+      "explanation": "Paragraf C, gönüllülerin sağlıklarını belirgin biçimde daha iyi değerlendirdiğini ve bu farkın ne büyüklükte olduğunu anlatıyor.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 29,
+      "prompt": "Paragraph D",
+      "answer": ["iv"],
+      "evidence": "Volunteering itself varied enormously across the countries surveyed.",
+      "evidence_locator": { "paragraph": "D", "sentence": 1 },
+      "heading_check": "D paragrafı iki soruyu birden yanıtlıyor: nerede (Almanya, Hollanda ve Norveç'te on kişiden dördü, Bulgaristan, Macaristan ve Litvanya'da onda birden az) ve kimler (daha çok erkek, daha eğitimli, daha dindar; daha az yaşlı ve göçmen). 'iv' ikisini birden karşılıyor. En yakın çeldirici 'i' (varlıklı ülkelerde neden daha yaygın olduğu) — paragraf zengin ve yoksul ülkeleri yan yana sıralıyor, ama farkın nedenine dair tek kelime etmiyor.",
+      "feature_check": null,
+      "grammar_check": null,
+      "explanation": "Paragraf D, gönüllülüğün ülkeden ülkeye ne kadar değiştiğini ve gönüllülerin hangi özellikleriyle ötekilerden ayrıldığını anlatıyor.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 30,
+      "prompt": "Paragraph E",
+      "answer": ["x"],
+      "evidence": "One plausible explanation is that volunteering pays off financially: it can widen a person's professional network, build skills and demonstrate reliability to future employers, all of which might raise household income, and higher income is itself strongly linked to better self-rated health.",
+      "evidence_locator": { "paragraph": "E", "sentence": 1 },
+      "heading_check": "E paragrafı bir açıklama zinciri kuruyor: gönüllülük ağ ve beceri kazandırır, bu geliri yükseltir, gelir de sağlığı iyileştirir; ardından zincirin ilk halkasının veride desteklendiğini söylüyor. 'x' bu öneriyi karşılıyor. En yakın çeldirici 'ii' (gelirin sınırlı payı) — aynı konu, ama E zincirin kurulması ve doğrulanması üzerine; payın ne kadar küçük çıktığı ancak F paragrafında söyleniyor.",
+      "feature_check": null,
+      "grammar_check": null,
+      "explanation": "Paragraf E, gönüllülüğün geliri yükselterek sağlığı iyileştirebileceği yolunu öne sürüyor ve zincirin ilk halkasının veriyle desteklendiğini belirtiyor.",
+      "difficulty": "hard"
+    },
+    {
+      "number": 31,
+      "prompt": "Paragraph F",
+      "answer": ["ii"],
+      "evidence": "Income differences accounted for well under a fifth of the total association between volunteering and self-rated health.",
+      "evidence_locator": { "paragraph": "F", "sentence": 2 },
+      "heading_check": "F paragrafının tamamı tek bir sonucu bildiriyor: gelir yolu bağlantının beşte birinden azını açıklıyor, geri kalan beşte dördü başka bir mekanizmadan geçiyor. 'ii' bunu veriyor. En yakın çeldirici 'x' (gelirin neden bağlantı olabileceği) — F o öneriyi sınayıp büyük ölçüde yetersiz buluyor; öneriyi kuran paragraf E.",
+      "feature_check": null,
+      "grammar_check": null,
+      "explanation": "Paragraf F, gelir farklarının bağlantının yalnızca küçük bir bölümünü açıkladığını, asıl payın başka bir yoldan geldiğini söylüyor.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 32,
+      "prompt": "Paragraph G",
+      "answer": ["vii"],
+      "evidence": "To make sure this result was not an artefact of how the data were collected, the researchers reran their analysis several times under different conditions: using only respondents who were part of the labour force, testing alternative definitions of how often someone had to volunteer to count as a volunteer, and adding further control variables such as parental education and household size.",
+      "evidence_locator": { "paragraph": "G", "sentence": 1 },
+      "heading_check": "G paragrafı çözümlemenin farklı koşullarda defalarca yinelenmesini ve her seferinde aynı örüntünün çıkmasını anlatıyor; yani sonucun sağlamlık sınavını. 'vii' bunu karşılıyor. En yakın çeldirici 'ix' (gelirini bildirmeyenler) — bu grup gerçekten ikinci cümlede geçiyor, ama sayılan birkaç sınamadan yalnızca biri; paragrafın ana fikri sınamaların bütünü ve sonucun değişmemesi.",
+      "feature_check": null,
+      "grammar_check": null,
+      "explanation": "Paragraf G, sonucun veri toplama biçiminden kaynaklanmadığını göstermek için yapılan sağlamlık sınamalarını ve hepsinde aynı örüntünün çıktığını anlatıyor.",
+      "difficulty": "medium"
+    }
+  ]
+}
