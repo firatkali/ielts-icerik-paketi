@@ -5107,3 +5107,79 @@ Taslakta değiştirilen çeldiriciler (savunulabilirlik testinde elenenler, 3):
   aşamasında).
 - **DURUM.txt / ilerleme.txt elle güncellenmedi** (sayaçları `tools/calistir.py` yazıyor).
 - Atlanan/sorun: yok. Sıradaki paket **2. çalıştırma: AC3 + AC4**.
+
+## FABLE5-41 (2. çalıştırma: AC3 + AC4 — çoktan seçmeli, 8 soru)
+
+Üretilen: `content/reading/tests/AC3/multiple-choice.json` (A09, soru 32–35) ve
+`content/reading/tests/AC4/multiple-choice.json` (A12, soru 32–35). Yerleşim 1.
+çalıştırmadaki gibi: **32, 33 tek cevaplı (A–D) + 34–35 çift cevaplı (A–G, iki numara
+tek soru)**.
+
+### Kanıt seçimi
+
+Her iki pasajın 3. pasaj sıfatıyla zaten iki paketi vardı (27–31 bilgi eşleştirme,
+36–40 özet tamamlama). Önce o iki paketin kullandığı cümleler çıkarıldı, sorular
+kalanlara dayandırıldı:
+
+| Soru | Kanıt | Durum |
+|---|---|---|
+| AC3 32 | A09 A/3 | hiçbir pakette kullanılmamış |
+| AC3 33 | A09 D/3 | hiçbir pakette kullanılmamış |
+| AC3 34–35 | A09 F/2 + G/1 | F/2 özet 39'da **sayı** için, G/1 hiç kullanılmamış |
+| AC4 32 | A12 A/2 | hiçbir pakette kullanılmamış |
+| AC4 33 | A12 C/2 + C/3 | C/3 özet 37'de **uyanık kalma** için |
+| AC4 34–35 | A12 D/2 + F/1 | hiçbir pakette kullanılmamış |
+
+İki kısmi çakışmanın ikisinde de hedef bilgi farklı: özet tamamlama F/2'den yalnız
+"seven" sayısını, buradaki soru nöronlar arası iletişim için gerekli proteinin varlığını
+istiyor; özet 37 C/3'ten "awake" sözcüğünü, buradaki soru iki grubun ortak yanını
+(on iki saatlik aralık) sordurtuyor ve cevap için C/2 ile C/3'ün birlikte okunması
+gerekiyor.
+
+### Sıra kuralı
+
+Kanıtlar metin sırasını izliyor: A09 → A/3, D/3, F–G · A12 → A/2, C/2–3, D–F.
+Cevaplar tek paragrafta yığılmıyor.
+
+### Çeldiriciler
+
+Taslakta değiştirilenler (savunulabilirlik testinde elenenler, 4):
+
+1. AC3 33'te iki çeldirici de "başka aletin işini bu alete yükleme" idi (X ışını ve
+   elektron mikroskobu); türler tekrar etmesin diye biri kapsam kaydırmaya
+   ("her kılıf katmanının sağlam kaldığını doğrulamak"), biri cazip ama yoka
+   (daha büyük örnek kümesi) çevrildi.
+2. AC3 34–35'te doğru ikili başta A ve B idi; alfabenin başında yığılmasın diye
+   seçenekler yeniden sıralandı (B ve F).
+3. AC4 33'te "Her iki grup da aynı sayıda kelime çifti çalıştı" seçeneği atıldı —
+   C/4'e göre bu **doğru**, dolayısıyla çeldirici olamaz. Yerine sabah öğrenmeyi iki
+   gruba birden yayan kapsam kaydırma kondu.
+4. AC4 34–35'te "Şekerlemeler tanınan süreden kısa sürdü" doğru seçeneklerden biri
+   olacaktı (90 dakikalık fırsat, ortalama 64,1 dakika); D/2 "took a 90-minute nap"
+   dediği için fırsat süresi mi uyku süresi mi olduğu tartışmaya açıktı, tartışmasız
+   cevap kuralı gereği çıkarıldı. Yerine F/1'deki hafif uyku evresi kondu.
+
+"Pasajda geçmiyor" gerekçesi soru başına en fazla bir kez kullanıldı; AC4 33 ve
+AC4 34–35'te hiç kullanılmadı.
+
+### Doğrulama
+
+- Altı sorunun altısında `evidence` pasajda **birebir** bulundu (geçici betikle
+  `passages/academic/A09.json` ve `A12.json` tam metnine karşı arandı, betik silindi).
+- Her çeldirici için `distractor_analysis` dolu; harf kümesi doğru cevap hariç bütün
+  seçeneklerle birebir eşleşiyor.
+- Seçenek uzunlukları dengeli: en uzun ≤ 2 × en kısa (AC3 7–8 / 5–7 / 6–8 kelime,
+  AC4 6–10 / 7–9 / 5–7 kelime).
+- Kök + seçenekler: AC3 40 / 34 / 56, AC4 41 / 41 / 54 kelime (sınır 60).
+- Hiçbir seçenek pasaj metninde birebir geçmiyor.
+- Doğru cevap harfleri: AC3 → B, C, {B,F} · AC4 → C, B, {C,E}. Üst üste aynı harf yok.
+- Ölçülen beceriler ayrışıyor: AC3 → yazarın amacı / yöntemin işlevi / kimyasal ayrıntı;
+  AC4 → gerekçe / deney tasarımı karşılaştırması / ayrıntı.
+- `python tools/dogrula.py` → **şema hatası 0**, `reading/test` 178 → **186**.
+  AC3 ve AC4 artık 31/40 (kalan eksikler 14–18 ve 23–26, yani FABLE5-42'nin işi).
+  Pasaj lisansı eksik 0, görünür metinde IELTS 0, yasak kaynak 0.
+- Son kontrol: altı soru da cevap anahtarına bakılmadan aday gibi baştan çözüldü, altısı
+  da anahtarla uyuştu — **son turda silinen soru yok** (elemeler yukarıda, taslak
+  aşamasında).
+- **DURUM.txt / ilerleme.txt elle güncellenmedi** (sayaçları `tools/calistir.py` yazıyor).
+- Atlanan/sorun: yok. Sıradaki paket **3. çalıştırma: GT1 + GT2 (soru 21–24)**.
