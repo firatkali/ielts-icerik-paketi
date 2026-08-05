@@ -4424,3 +4424,92 @@ okla verildi ki "merdivenin başında sağda" ifadesi tek anlama gelsin.
   Academic 1. görev 30 (AT01–AT30), General 1. görev 20 (GT01–GT20), 2. görev 60 (T2-01–T2-60).
   Bu promptun 17. çalıştırması **yok**; yeniden çalıştırılırsa yapılacak iş "OPUS5-30 tamam"
   deyip çıkmaktır.
+
+---
+
+## FABLE5-40 (1. çalıştırma: AC1 — doğru / yanlış / verilmemiş, 7 soru)
+
+- Tarih: 2026-08-05
+- Depo kontrolü: `content/reading/tests/` altında altı testin klasörü de vardı ama
+  **hiçbirinde `true-false-not-given.json` ya da `yes-no-not-given.json` yoktu**
+  (`AC1/` içinde yalnızca note/sentence/summary/matching-information). Çalıştırma
+  listesindeki ilk üretilmemiş paket **1 — AC1** idi, o yapıldı. Öteki paketlere
+  (AC2–AC4, GT1–GT2, iki alıştırma dosyası) dokunulmadı.
+- Çıktı: `content/reading/tests/AC1/true-false-not-given.json` — **7 soru (7–13)**,
+  pasaj `A01` ("The Elephant Who Solved a Puzzle Without Practice"), `question_type`
+  `true_false_not_given`, `practice: false`, kutu aralığı yönergede **7-13** yazılı.
+
+### Sorular, cevaplar ve dayanak
+
+| No | Cevap | Nereye dayanıyor | Test edilen nokta |
+|---|---|---|---|
+| 7 | TRUE | A/3 | önceki içgörü deneylerinde fillerin başarısızlığı ("almost always failed") |
+| 8 | NOT GIVEN | — (konu B) | iki dişinin oturum sayısı |
+| 9 | FALSE | C/4 | küp davranışının kademeli değil ani ortaya çıkışı |
+| 10 | TRUE | D/3 | yiyecek yer değiştirince küpü yeniden konumlandırması |
+| 11 | TRUE | E/4 | ertesi gün küpün bırakıldığı yere doğrudan gitmesi |
+| 12 | FALSE | F/2 | başarısızlığın nedeni: araçlar mı, zekâ mı |
+| 13 | NOT GIVEN | — (konu G) | küpün üstünde görüşünün netleşip netleşmediği |
+
+- Dağılım **3 TRUE · 2 FALSE · 2 NOT GIVEN**, sıra `T · NG · F · T · T · F · NG`:
+  hiçbir şık yarıyı geçmiyor, ardışık üç soru aynı cevap değil.
+- **Sıra kuralı:** TRUE/FALSE kanıtları A→C→D→E→F, iki NOT GIVEN sorusu da konunun
+  geçtiği yere (B ve G) oturuyor. Sorular yedi paragrafa (A–G) yayıldı, tek paragrafta
+  yığılma yok.
+- **A01'in öteki paketiyle çakışma yok:** aynı pasajı kullanan `note-completion`
+  (soru 1–6) kablo, bambu, yedinci oturum, traktör lastiği, köşe ve parmak ucu
+  bilgilerini hedefliyor; bu paket bunların hiçbirini sormuyor, kanıt cümleleri de
+  ayrık (betikle karşılaştırıldı, kesişim boş).
+
+### NOT GIVEN gerekçeleri (üç şart)
+
+- **Soru 8:** konu B paragrafında var (üç katılımcı + "For the first several sessions
+  none of the three animals…"); çürüten cümle yok (hiçbir yerde dişilerin oturum sayısı
+  Kandula'nınkiyle kıyaslanmıyor); doğrulayan cümle de yok (C, D, E yalnızca Kandula'yı
+  anlatıyor). Sayı hiç verilmediği için ne TRUE ne FALSE denebilir.
+- **Soru 13:** konu G paragrafında var — küp basamağının avantajları tek tek sayılıyor
+  (hortum ucunun açık kalması, dokunsal temas, gövdenin yiyeceğe yaklaşması); çürüten
+  cümle yok; doğrulayan cümle de yok, çünkü **pasajda görme duyusu hiç geçmiyor**.
+  E'deki tek görünürlük ifadesi ("invisible from the point where he entered") yiyeceğe
+  değil saklanan küpe ait — gerekçe alanında bu ayrım açıkça yazıldı.
+- İkisi de "Hata A" tuzağının (pasaj söylemiyorsa FALSE sanmak) tersine kuruldu;
+  "Hata B" (kıyas/aritmetiği NOT GIVEN sanmak) için de soru 10 ve 11 bilinçle
+  TRUE bırakıldı.
+
+### Elenen adaylar
+
+Üç adımlı testte **5 aday ifade elendi**, hiçbiri dosyaya girmedi:
+(1) "iki dişi birbirine Kandula'dan yaş olarak daha yakın" — 33/61/7 aritmetiği
+karşılaştırmayı tersine çeviriyordu, cevap tartışmalı; (2) "çubuk yiyeceğe ulaşmak
+için fazla kısaydı" — B "long enough, in principle" diyor, FALSE ama 12. soruyla aynı
+kalıpta ikinci bir ucuz FALSE olurdu; (3) "yedinci oturum ilkinden bir hafta sonraydı"
+— D'deki "The next day"den oturumların günlük olduğu çıkarılabildiği için NOT GIVEN
+belirsizdi; (4) "şempanzeler de Kandula'nınki gibi yuvarlanan bir basamakla denendi"
+— A'daki kutu üst üste koyma ile örtüşme riski; (5) "Kandula dalı almadan önce birkaç
+başarısız deneme yaptı" — C "he could not quite reach with his trunk" dediği için
+kısmen doğrulanıyordu; 9. soru bu yüzden dalı değil **küp davranışının kademeli
+gelişimini** hedefleyecek biçimde yeniden yazıldı.
+
+### Doğrulama
+
+- Denetim betiği depoda: `tools/_f40_kontrol.py`. Dosyayı **diskten geri okuyup**
+  `passages/academic/A01.json` ile karşılaştırıyor.
+- Denetlenenler: zarf alanları, `options` üçlüsü, yönerge kalıbının beş satırı ve
+  kutu aralığı, numaraların 7–13 dizisi, her soruda `scan_note` ve `explanation`,
+  TRUE/FALSE'ta `evidence`in ilgili paragrafta **birebir** bulunması **ve
+  `evidence_locator.sentence`in gerçekten o cümleye denk gelmesi**, FALSE'ta
+  `contradiction_point`, NOT GIVEN'da `evidence`/`contradiction_point`in `null` olması
+  ve gerekçede üç şartın da yazılı olması, ifade uzunluğu (≤20 kelime, tek cümle),
+  **pasajla 6 kelimelik birebir örtüşme taraması** (birebir kopya yasağı), şık dağılımı
+  ve ardışık üçlü kuralı, kanıtların pasaj sırasında artması, aşırı genelleme kotası,
+  görünür metinde "IELTS", note-completion ile kanıt kesişimi. **Hata 0, uyarı 0.**
+- Kelime sayıları 10–14, hiçbiri 20'yi geçmiyor; "all / never / always / every / only"
+  gibi aşırı genelleme **hiçbir soruda** kullanılmadı (kota 2, kullanılan 0).
+- Son kontrol: yedi soru cevap anahtarına bakmadan aday gibi baştan çözüldü, yedisi de
+  anahtarla uyuştu — **silinen soru yok**.
+- `python tools/dogrula.py` → **şema hatası 0**, `reading/test` 120 → **127**,
+  AC1 20/40 → **27/40** (kalan eksikler 14–18, 23–26, 32–35: başka promptların işi).
+  Pasaj lisansı eksik 0, görünür metinde IELTS 0, yasak kaynak 0.
+- **DURUM.txt / ilerleme.txt elle güncellenmedi** (sayaç dosyalarını `tools/calistir.py`
+  kendi commit'iyle yazıyor).
+- Atlanan/sorun: yok. Sıradaki iş **2. çalıştırma: AC2 (pasaj A04, soru 7–13)**.

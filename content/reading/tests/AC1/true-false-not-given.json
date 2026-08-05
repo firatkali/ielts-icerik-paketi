@@ -1,0 +1,99 @@
+{
+  "schema_version": "1.0",
+  "set_id": "AC1-true-false-not-given",
+  "skill": "reading",
+  "module": "academic",
+  "test_id": "AC1",
+  "practice": false,
+  "passage_id": "A01",
+  "question_type": "true_false_not_given",
+  "generated_by": "fable",
+  "instructions": "Do the following statements agree with the information given in the passage?\n\nIn boxes 7-13 on your answer sheet, write\n\nTRUE if the statement agrees with the information\nFALSE if the statement contradicts the information\nNOT GIVEN if there is no information on this",
+  "options": ["TRUE", "FALSE", "NOT GIVEN"],
+  "items": [
+    {
+      "number": 7,
+      "prompt": "Elephants had seldom succeeded at insight tasks in earlier research.",
+      "answer": ["TRUE"],
+      "evidence": "Yet when researchers set them the kind of \"insight\" puzzles that chimpanzees solve in a single flash of understanding, suddenly stacking boxes to reach food hung out of reach rather than learning through trial and error, elephants had almost always failed.",
+      "evidence_locator": { "paragraph": "A", "sentence": 3 },
+      "contradiction_point": null,
+      "not_given_justification": null,
+      "scan_note": "Geçmiş çalışmaların sonucu A paragrafında (3. cümle) ve F paragrafının ilk cümlesinde geçiyor; F 'Why had earlier studies failed' diye sorarak aynı başarısızlığı teyit ediyor, çelişen cümle yok.",
+      "explanation": "Paragraf A, önceki içgörü deneylerinde fillerin 'neredeyse her zaman başarısız olduğunu' söylüyor; 'seldom succeeded' bunun eş anlamlı ifadesi.",
+      "difficulty": "easy"
+    },
+    {
+      "number": 8,
+      "prompt": "The two female elephants took part in as many sessions as Kandula did.",
+      "answer": ["NOT GIVEN"],
+      "evidence": null,
+      "evidence_locator": null,
+      "contradiction_point": null,
+      "not_given_justification": "(1) Konu pasajda var: B paragrafı üç katılımcıyı (33 ve 61 yaşındaki iki dişi ile Kandula) tanıtıyor ve oturumlardan söz ediyor ('For the first several sessions none of the three animals paid the stick any attention at all'). (2) Hiçbir cümle ifadeyi çürütmüyor: pasajın hiçbir yerinde dişilerin Kandula'dan az ya da çok oturuma girdiği söylenmiyor, oturum sayıları hiç verilmiyor. (3) Hiçbir cümle ifadeyi doğrulamıyor: C, D ve E paragrafları yalnızca Kandula'nın oturumlarını anlatıyor, dişilerin oturum sayısına dolaylı olarak bile değinmiyor. Dolayısıyla ne TRUE ne FALSE denebilir.",
+      "scan_note": "Katılımcılar ve oturumlar B paragrafında (1. ve 5. cümle), oturum sayıları C paragrafında ('the seventh session') ve D paragrafında ('nine times within a single session') geçiyor; hiçbirinde iki dişinin kaç oturuma girdiği yazmıyor.",
+      "explanation": "Pasaj üç filin de denendiğini söylüyor ama dişilerin kaç oturuma katıldığını hiç belirtmiyor; bu yüzden Kandula ile karşılaştırma yapılamaz.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 9,
+      "prompt": "The cube-rolling behaviour emerged gradually from earlier attempts to push or climb.",
+      "answer": ["FALSE"],
+      "evidence": "There had been no earlier attempts to push, climb or stack anything nearby; the behaviour appeared abruptly, in a single uninterrupted sequence.",
+      "evidence_locator": { "paragraph": "C", "sentence": 4 },
+      "contradiction_point": "Pasaj daha önce itme, tırmanma ya da üst üste koyma girişimi olmadığını ve davranışın 'aniden' ortaya çıktığını söylüyor; ifade ise davranışın kademeli olarak geliştiğini iddia ediyor. Çelişki tek noktada: kademeli gelişim / ani ortaya çıkış.",
+      "not_given_justification": null,
+      "scan_note": "Çözümün nasıl ortaya çıktığı C paragrafında (3.-4. cümle) ve H paragrafında ('the sudden, error-free appearance of Kandula's solution ... rather than gradual trial-and-error learning') ele alınıyor; ikisi de kademeli gelişimi reddediyor.",
+      "explanation": "Paragraf C, küpü kullanmadan önce hiçbir itme ya da tırmanma denemesi olmadığını, davranışın tek seferde belirdiğini söylüyor — ifade bunun tersini iddia ediyor.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 10,
+      "prompt": "Kandula changed where he placed the cube when the food was moved.",
+      "answer": ["TRUE"],
+      "evidence": "When keepers moved the food to a new position, he adjusted by rolling the cube to the corresponding spot underneath.",
+      "evidence_locator": { "paragraph": "D", "sentence": 3 },
+      "contradiction_point": null,
+      "not_given_justification": null,
+      "scan_note": "Küpün konumlandırılması C paragrafında (küpün dalın altına yuvarlanması), D paragrafında (yiyecek yer değiştirince ayarlaması) ve H paragrafında ('adapt it to new objects and locations') geçiyor; hepsi aynı yönde.",
+      "explanation": "Paragraf D, bakıcılar yiyeceği başka bir yere astığında Kandula'nın küpü buna karşılık gelen noktaya yuvarladığını söylüyor.",
+      "difficulty": "easy"
+    },
+    {
+      "number": 11,
+      "prompt": "The day after the cube was hidden, Kandula went straight to where it lay.",
+      "answer": ["TRUE"],
+      "evidence": "The following day, without any hesitation, he walked straight to the passageway where the cube had been left and rolled it out, evidence, the researchers argued, that he recalled precisely where a useful object had been the day before rather than searching at random.",
+      "evidence_locator": { "paragraph": "E", "sentence": 4 },
+      "contradiction_point": null,
+      "not_given_justification": null,
+      "scan_note": "Küpün saklanması ve hatırlanması yalnızca E paragrafında (2.-4. cümle) anlatılıyor, H paragrafında ise özetleniyor ('to remember where a useful tool had been left'); çelişen cümle yok.",
+      "explanation": "Paragraf E, ertesi gün Kandula'nın hiç duraksamadan küpün bırakıldığı geçide yürüdüğünü söylüyor.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 12,
+      "prompt": "The authors attribute the failure of previous experiments to the animals' limited intelligence.",
+      "answer": ["FALSE"],
+      "evidence": "The authors suggest that the problem lay in the tools previous experiments had offered, not in the animals' intelligence.",
+      "evidence_locator": { "paragraph": "F", "sentence": 2 },
+      "contradiction_point": "Pasaj sorunun sunulan araçlarda olduğunu ve zekâda olmadığını açıkça söylüyor ('not in the animals' intelligence'); ifade başarısızlığı zekâya bağlıyor. Çelişki tek noktada: nedenin araç mı zekâ mı olduğu.",
+      "not_given_justification": null,
+      "scan_note": "Önceki deneylerin neden başarısız olduğu F paragrafında (1.-4. cümle) tartışılıyor, H paragrafında da tekrarlanıyor ('a species may appear incapable of a mental feat simply because the equipment offered does not suit its particular anatomy'); ikisi de zekâ açıklamasını reddediyor.",
+      "explanation": "Paragraf F, sorunun hayvanların zekâsında değil, önceki deneylerin sunduğu araçlarda olduğunu söylüyor — ifade tam tersini iddia ediyor.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 13,
+      "prompt": "Kandula could see the food more clearly once he was standing on the cube.",
+      "answer": ["NOT GIVEN"],
+      "evidence": null,
+      "evidence_locator": null,
+      "contradiction_point": null,
+      "not_given_justification": "(1) Konu pasajda var: G paragrafı küpün basamak olarak sağladığı avantajları tek tek sayıyor — hortum ucunun açık kalması, nesneyle sürekli dokunsal temas ve hayvanın gövdesinin yiyeceğe yaklaşması. (2) Hiçbir cümle ifadeyi çürütmüyor: pasajın hiçbir yerinde Kandula'nın görüşünün küpün üstünde kötüleştiği ya da değişmediği söylenmiyor. (3) Hiçbir cümle ifadeyi doğrulamıyor: pasaj boyunca filin görme duyusundan hiç söz edilmiyor; F ve G paragrafları üstünlüğü yalnızca koku ve dokunma üzerinden kuruyor, G 'lifting the animal's whole body closer to the food' diyerek mesafeden bahsediyor ama görüşün netleştiğini söylemiyor. E paragrafındaki tek görme ifadesi ('invisible from the point where he entered') yiyeceğe değil, saklanan küpe ait.",
+      "scan_note": "Küp basamağının avantajları G paragrafında (1. cümle), hortumun duyuları F paragrafında (3.-4. cümle) sıralanıyor; görme duyusu bu paragrafların hiçbirinde geçmiyor, pasajdaki tek görünürlük ifadesi E paragrafında küpün saklandığı yerle ilgili.",
+      "explanation": "Pasaj küpün faydalarını hortumun açık kalması ve gövdenin yiyeceğe yaklaşması olarak açıklıyor; Kandula'nın yiyeceği daha iyi görüp görmediğine hiç değinmiyor.",
+      "difficulty": "hard"
+    }
+  ]
+}
