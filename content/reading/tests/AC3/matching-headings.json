@@ -1,0 +1,92 @@
+{
+  "schema_version": "1.0",
+  "set_id": "AC3-matching-headings",
+  "skill": "reading",
+  "module": "academic",
+  "test_id": "AC3",
+  "practice": false,
+  "passage_id": "A08",
+  "question_type": "matching_headings",
+  "generated_by": "fable",
+  "instructions": "The passage has EIGHT paragraphs, A-H.\n\nChoose the correct heading for paragraphs B-F from the list of headings below.\nWrite the correct number, i-x, in boxes 14-18 on your answer sheet.",
+  "option_list": {
+    "label": "List of Headings",
+    "numbering": "roman",
+    "options": [
+      { "key": "i",    "text": "A violent shock in empty country" },
+      { "key": "ii",   "text": "Why the usual approach did not work" },
+      { "key": "iii",  "text": "The change between two radar images" },
+      { "key": "iv",   "text": "Sites confirmed by a later visit" },
+      { "key": "v",    "text": "A scale with no recorded parallel" },
+      { "key": "vi",   "text": "Ice that keeps the rubble moving" },
+      { "key": "vii",  "text": "A tally of the slopes that failed" },
+      { "key": "viii", "text": "A partnership between two space agencies" },
+      { "key": "ix",   "text": "The highest summit in the country" },
+      { "key": "x",    "text": "A glacier stopped in its tracks" }
+    ]
+  },
+  "example": { "key": "i", "target": "Paragraph A" },
+  "allow_repeat": false,
+  "items": [
+    {
+      "number": 14,
+      "prompt": "Paragraph B",
+      "answer": ["ii"],
+      "evidence": "As one geophysicist involved in the analysis put it, in this setting the cryosphere is effectively covering up the geosphere, so scientists had to look for other clues.",
+      "evidence_locator": { "paragraph": "B", "sentence": 4 },
+      "heading_check": "B paragrafının dört cümlesinden üçü tek bir noktaya çalışıyor: depremden önceki ve sonraki yer değişimini karşılaştıran alışılmış yöntem burada işlemiyor, çünkü hareket eden ana kayanın üstünü yer yer 700 metreyi aşan buz örtüyor; paragraf da bu yüzden 'başka ipuçlarına bakmak zorunda kaldılar' diye bitiyor. 'ii' bu ana fikri veriyor. En yakın çeldirici 'vii' (yıkılan yamaçların sayımı) — paragrafın ilk cümlesi gerçekten 700'ü aşkın heyelan ve çığdan söz ediyor ve sayı göze çarpıyor; ama bu tek cümlelik bir giriş bilgisi, paragrafın geri kalanı sayımı değil sayımın neden zor olduğunu anlatıyor.",
+      "feature_check": null,
+      "grammar_check": null,
+      "explanation": "Paragraf B, buzul altındaki ana kaya görülemediği için depremden önce ve sonra yer değişimini karşılaştıran olağan yöntemin burada kullanılamadığını anlatıyor.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 15,
+      "prompt": "Paragraph C",
+      "answer": ["iii"],
+      "evidence": "By comparing an image captured on 8 December, only two days after the earthquake, with a baseline image from 26 November, before the quake, analysts could see large new patches of brightness spreading across slopes that had previously appeared smooth and dark, a direct signature of freshly broken rock and snow.",
+      "evidence_locator": { "paragraph": "C", "sentence": 3 },
+      "heading_check": "C paragrafı baştan sona tek bir işi kuruyor: kırık enkaz radar dalgalarını güçlü saçtığı için parlak, bozulmamış buz koyu görünür; öyleyse depremden önce ve sonra çekilmiş iki görüntüyü yan yana koyunca yeni parlak lekeler yıkımın kendisini gösterir. 'iii' bu ana fikri veriyor. En yakın çeldirici 'viii' (iki uzay kurumunun ortaklığı) — aracın iki ülkenin ortak işi olduğu bu paragrafta geçiyor ve dikkat çekici duruyor; ama bu, aracı tanıtan bir yan bilgi, paragrafın derdi ortaklık değil iki görüntü arasındaki farkın neyi ele verdiği.",
+      "feature_check": null,
+      "grammar_check": null,
+      "explanation": "Paragraf C, depremden iki gün sonra ve depremden önce çekilmiş iki radar görüntüsünün karşılaştırılmasıyla yeni kırılmış kaya ve karın nasıl görünür hâle geldiğini anlatıyor.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 16,
+      "prompt": "Paragraph D",
+      "answer": ["iv"],
+      "evidence": "A ground survey carried out on 12 December confirmed what the satellite images had suggested from orbit: extensive new debris fields, some stretching for kilometres, now lay across terrain that had been buried under clean snow and ice only weeks before.",
+      "evidence_locator": { "paragraph": "D", "sentence": 2 },
+      "heading_check": "D paragrafı iki cümlede tek bir hat izliyor: uydu görüntüsünde belli olan yerler adlarıyla veriliyor, sonra 12 Aralık'ta yapılan yer incelemesi bu yerlerdeki yıkımı doğruluyor. 'iv' ikisini birden karşılıyor. En yakın çeldirici 'ix' (ülkenin en yüksek zirvesi) — paragrafta Mount Logan'ın Kanada'nın en yüksek tepesi olduğu geçiyor, üstelik bu kolay yakalanan bir bilgi; ama zirvenin yüksekliği paragrafın söylediği hiçbir şeyi taşımıyor, yalnızca yer tarif eden bir sıfat.",
+      "feature_check": null,
+      "grammar_check": null,
+      "explanation": "Paragraf D, yıkımın en belirgin göründüğü yerleri sayıyor ve 12 Aralık'taki yer incelemesinin uydudan görüleni doğruladığını söylüyor.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 17,
+      "prompt": "Paragraph E",
+      "answer": ["v"],
+      "evidence": "One researcher who had spent years monitoring the region's ice remarked that the sheer number and magnitude of the avalanches and landslides was astounding, adding that nothing comparable had been documented there before.",
+      "evidence_locator": { "paragraph": "E", "sentence": 2 },
+      "heading_check": "E paragrafının üç cümlesi de aynı şeyi söylüyor: bölgeyi yıllardır izleyen uzmanlar bile gördükleri karşısında şaşırdı, çünkü bu ölçekte bir şey daha önce hiç kayda geçmemişti. 'v' bu benzersizliği veriyor. En yakın çeldirici 'vii' (yıkılan yamaçların sayımı) — paragraf çığ ve heyelanların 'sayısı ve büyüklüğü'nden söz ettiği için sayım başlığı yakın duruyor; ama E hiçbir sayı vermiyor, sayıyı veren B paragrafı; buradaki mesele rakam değil, rakamın karşılaştırılacak bir örneğinin olmaması.",
+      "feature_check": null,
+      "grammar_check": null,
+      "explanation": "Paragraf E, deneyimli buzul araştırmacılarının bile yıkımın ölçeği karşısında şaşırdığını ve bölgede benzeri bir olayın daha önce belgelenmediğini anlatıyor.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 18,
+      "prompt": "Paragraph F",
+      "answer": ["vi"],
+      "evidence": "Rather than being interrupted by the earthquake, this surging glacier appears to be acting as a natural conveyor belt, carrying the newly generated avalanche and landslide debris steadily downhill towards the sea.",
+      "evidence_locator": { "paragraph": "F", "sentence": 2 },
+      "heading_check": "F paragrafının iki cümlesi tek bir sonuca varıyor: depremden haftalar önce hızlanmış olan kol buzul deprem yüzünden durmadı, tersine yeni oluşan enkazı yamaç aşağı denize doğru taşıyan bir bant gibi çalışıyor. 'vi' bu ana fikri veriyor. En yakın çeldirici 'x' (yerinde donup kalan buzul) — paragraf 'deprem tarafından kesintiye uğramak yerine' diye kurulduğu için durma ihtimali okuyucunun aklına paragrafın kendisi tarafından sokuluyor; ama cümle tam da bunun olmadığını söylüyor, yani 'x' paragrafın tersini iddia ediyor.",
+      "feature_check": null,
+      "grammar_check": null,
+      "explanation": "Paragraf F, depremden önce hızlanmış olan kol buzulun durmadığını, yeni enkazı düzenli biçimde aşağıya, denize doğru taşıdığını anlatıyor.",
+      "difficulty": "hard"
+    }
+  ]
+}
