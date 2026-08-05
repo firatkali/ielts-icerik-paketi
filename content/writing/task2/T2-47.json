@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "set_id": "T2-47",
+  "skill": "writing",
+  "module": "both",
+  "task": 2,
+  "generated_by": "opus",
+  "pattern": "discuss_both_views",
+  "prompt": "Some people think that employers should be encouraged to keep and to hire workers who are over sixty. Others believe that the posts available should go to younger people who are just beginning their working lives.\n\nDiscuss both these views and give your own opinion.",
+  "instruction_line": "You should spend about 40 minutes on this task. Write at least 250 words.",
+  "min_words": 250,
+  "minutes": 40,
+  "topic_area": "yaşlanan nüfus",
+  "key_points": [
+    "Her iki görüş de ayrı ayrı ele alınmalı, sonunda kendi görüşü açıkça verilmeli",
+    "Yaşlı çalışanlar lehine: yılların getirdiği deneyim ve sakinlik, genç çalışanlara aktarılan bilgi, uzun süre çalışmak isteyen kişinin gelirini ve bağlarını sürdürmesi",
+    "Genç çalışanlar lehine: iş deneyimi olmayanın işe girmekte zorlanması, yeni yöntemlere hızlı uyum, gençlerin uzun süre boşta kalmasının ileride yaratacağı kayıp",
+    "Kendi görüşü gerekçeli olmalı: iş sayısının sabit olduğu varsayımı sorgulanabilir; iki kuşağın aynı işleri istemeyebileceği de söylenebilir",
+    "Somut bir iş kolu örneği verilmeli; yaş üzerinden genelleme yapılmamalı"
+  ],
+  "common_mistakes": [
+    "İki görüşü anlatıp kendi görüşünü belirtmemek",
+    "Emeklilik yaşı tartışmasına kayıp işe alma sorusunu bırakmak",
+    "Bütün yaşlı ya da bütün genç çalışanları tek bir kalıba sokmak",
+    "250 kelimenin altında kalmak"
+  ],
+  "difficulty": "medium"
+}

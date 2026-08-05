@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "set_id": "T2-53",
+  "skill": "writing",
+  "module": "both",
+  "task": 2,
+  "generated_by": "opus",
+  "pattern": "advantages_disadvantages",
+  "prompt": "In some places, young adults are offered a room in an older person's home at a low rent in return for company and help with everyday tasks.\n\nDo the advantages outweigh the disadvantages?",
+  "instruction_line": "You should spend about 40 minutes on this task. Write at least 250 words.",
+  "min_words": 250,
+  "minutes": 40,
+  "topic_area": "yaşlanan nüfus",
+  "key_points": [
+    "Görev bir hüküm bekliyor: avantajlar dezavantajlardan ağır basıyor mu",
+    "Avantaj tarafı: genç için karşılanabilir bir oda, yaşlı kişi için günlük yardım ve arkadaşlık, evde daha uzun süre bağımsız kalabilme, iki kuşağın birbirini tanıması",
+    "Dezavantaj tarafı: mahremiyetin azalması, alışkanlıkların çatışması, yardımın sınırının belirsiz kalması ve gencin bakıcı gibi görülmesi, uyumsuzluk hâlinde iki tarafın da zor durumda kalması",
+    "İki taraf tartıldıktan sonra net bir hüküm verilmeli; hükmün hangi koşullara bağlı olduğu (yazılı anlaşma, deneme süresi, aracı kurum) söylenebilir",
+    "Somut bir günlük örnek verilmeli; yaşlı kişinin yardıma muhtaç olduğu varsayımına düşülmemeli"
+  ],
+  "common_mistakes": [
+    "İki listeyi yazıp hüküm vermemek",
+    "Konuyu genel olarak konut pahalılığına kaydırmak",
+    "Yaşlı insanların hepsinin yalnız ve yardıma muhtaç olduğunu varsaymak",
+    "250 kelimenin altında kalmak"
+  ],
+  "difficulty": "medium"
+}

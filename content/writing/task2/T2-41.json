@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "set_id": "T2-41",
+  "skill": "writing",
+  "module": "both",
+  "task": 2,
+  "generated_by": "opus",
+  "pattern": "opinion",
+  "prompt": "Fish numbers in many coastal waters have fallen sharply. Some people believe that large areas of the sea should be closed to fishing so that stocks can recover, even though this would affect those who earn a living from fishing.\n\nTo what extent do you agree or disagree?",
+  "instruction_line": "You should spend about 40 minutes on this task. Write at least 250 words.",
+  "min_words": 250,
+  "minutes": 40,
+  "topic_area": "çevre",
+  "key_points": [
+    "Görev açık bir tutum bekliyor: katılıyorum / katılmıyorum / kısmen katılıyorum",
+    "Asıl mesele geniş deniz alanlarının avlanmaya kapatılması — genel olarak denizlerin korunması gerektiğini söylemek yetmez",
+    "Destekleyici gerekçeler: stokların yenilenmesi için zaman kazanılması, uzun vadede daha bol ve daha güvenli bir geçim kaynağı, deniz yaşamının bütününün korunması",
+    "Karşı görüşe kabul beklenir: kapatma, geçimini balıkçılıktan sağlayan haneleri kısa vadede zora sokar, denetimi pahalıdır ve avlanma baskısını komşu alanlara kaydırabilir",
+    "Sonuçta tutum net biçimde yinelenmeli; kısmen katılınıyorsa hangi koşulda (alanın büyüklüğü, süresi, geçiş desteği) katılındığı yazılmalı"
+  ],
+  "common_mistakes": [
+    "Tutum belirtmeden yalnızca denizlerin kirliliği üzerine yazmak",
+    "Kapatma önerisini tartışmayıp genel çevre koruma yazısına kaymak",
+    "Geçimini balıkçılıktan sağlayanların durumuna hiç değinmemek",
+    "250 kelimenin altında kalmak"
+  ],
+  "difficulty": "medium"
+}

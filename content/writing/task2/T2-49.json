@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "set_id": "T2-49",
+  "skill": "writing",
+  "module": "both",
+  "task": 2,
+  "generated_by": "opus",
+  "pattern": "problem_solution",
+  "prompt": "In many towns, steps, narrow pavements and vehicles parked on footpaths make it difficult for older residents, people with disabilities and adults with small children to move around.\n\nWhat problems does this cause and what measures could be taken?",
+  "instruction_line": "You should spend about 40 minutes on this task. Write at least 250 words.",
+  "min_words": 250,
+  "minutes": 40,
+  "topic_area": "şehir hayatı",
+  "key_points": [
+    "Yazı iki bölümlü olmalı: önce sorunlar, sonra önlemler; ikisi de aynı ağırlıkta",
+    "Sorunlar: bazı kişilerin evden çıkamaması ve yalnızlaşması, işe, okula ve sağlık hizmetine ulaşamama, düşme ve yaralanma riski, yolu uzatan dolambaçlı güzergâhlar",
+    "Önlemler: kaldırım rampaları ve düz geçişler, kaldırıma park edilmesinin denetlenmesi, otobüs ve durakların erişilebilir hâle getirilmesi, dinlenme bankları ve daha uzun yaya geçiş süreleri",
+    "Önlemler sorunlarla açıkça eşleştirilmeli — hangi önlemin hangi sorunu çözdüğü yazılmalı",
+    "Önlemlerin maliyeti ve kimin uygulayacağı (yerel yönetim, işletmeler, sakinler) kısaca ele alınmalı"
+  ],
+  "common_mistakes": [
+    "Yalnızca sorunları uzun uzun yazıp önlemlere bir cümle ayırmak",
+    "Önlemleri sorunlardan bağımsız bir liste hâlinde sıralamak",
+    "Konuyu trafik sıkışıklığına kaydırıp yaya erişimini bırakmak",
+    "250 kelimenin altında kalmak"
+  ],
+  "difficulty": "medium"
+}

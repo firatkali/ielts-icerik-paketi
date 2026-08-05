@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "set_id": "T2-51",
+  "skill": "writing",
+  "module": "both",
+  "task": 2,
+  "generated_by": "opus",
+  "pattern": "problem_solution",
+  "prompt": "In many countries a large number of newly qualified teachers leave the profession within their first few years of work.\n\nWhat problems does this cause and what measures could be taken?",
+  "instruction_line": "You should spend about 40 minutes on this task. Write at least 250 words.",
+  "min_words": 250,
+  "minutes": 40,
+  "topic_area": "eğitim",
+  "key_points": [
+    "Yazı iki bölümlü olmalı: önce sorunlar, sonra önlemler",
+    "Sorunlar: sınıfların sürekli öğretmen değiştirmesi ve öğrencinin süreklilik kaybı, deneyimli kadronun üzerindeki yükün artması, yetiştirme masrafının boşa gitmesi, kırsal ve küçük okullarda kadro açığının büyümesi",
+    "Önlemler: ilk yıllarda deneyimli bir öğretmenin rehberliği, ders dışı evrak yükünün azaltılması, sınıf mevcudunun düşürülmesi, ücret ve yükselme yolunun netleştirilmesi, zor bölgelerde ek destek",
+    "Önlemler sorunlarla açıkça eşleştirilmeli",
+    "Öğretmenin işten ayrılma nedeninin yalnızca ücret olmadığı (yük, destek eksikliği, saygınlık) görülmeli"
+  ],
+  "common_mistakes": [
+    "Sorun bölümünü öğrenci davranışları üzerine bir yazıya dönüştürmek",
+    "Önlem olarak yalnızca 'maaşlar artırılmalı' demek ve başka önlem üretmemek",
+    "Belirli bir ülkenin eğitim sistemi üzerinden yazmak",
+    "250 kelimenin altında kalmak"
+  ],
+  "difficulty": "medium"
+}

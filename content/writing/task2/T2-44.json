@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "set_id": "T2-44",
+  "skill": "writing",
+  "module": "both",
+  "task": 2,
+  "generated_by": "opus",
+  "pattern": "opinion",
+  "prompt": "Governments spend large sums of money on exploring space. Some people believe that this money would do more good if it were used for needs closer to home, such as housing and health care.\n\nTo what extent do you agree or disagree?",
+  "instruction_line": "You should spend about 40 minutes on this task. Write at least 250 words.",
+  "min_words": 250,
+  "minutes": 40,
+  "topic_area": "devletin rolü",
+  "key_points": [
+    "Görev açık bir tutum bekliyor: katılıyorum / katılmıyorum / kısmen katılıyorum",
+    "Asıl mesele kamu bütçesinin önceliği — uzay araştırmasının ilginç olup olmadığı değil",
+    "Destekleyici gerekçeler: konut ve sağlıkta ihtiyacın bugün ve görünür olması, kısıtlı bütçede acil olanın önce gelmesi, harcamanın sonucunun kısa sürede ölçülebilmesi",
+    "Karşı görüşe kabul beklenir: uzay çalışmaları hava tahmini, haberleşme ve afet takibi gibi günlük yararlar üretir, bilim insanı yetiştirir ve toplam bütçe içindeki payı genelde küçüktür",
+    "Sonuçta tutum yinelenmeli; kısmen katılınıyorsa hangi koşulda hangi harcamanın önde geleceği yazılmalı"
+  ],
+  "common_mistakes": [
+    "Tutum belirtmeden iki harcama alanını yan yana anlatmak",
+    "Belirli bir ülkenin bütçesi ya da politikası üzerinden yazmak",
+    "Uzay araştırmasının günlük hayattaki karşılıklarına hiç değinmemek",
+    "250 kelimenin altında kalmak"
+  ],
+  "difficulty": "hard"
+}

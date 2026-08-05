@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "set_id": "T2-43",
+  "skill": "writing",
+  "module": "both",
+  "task": 2,
+  "generated_by": "opus",
+  "pattern": "opinion",
+  "prompt": "Almost all writing is now done on devices that correct spelling automatically. Some people therefore believe that schools no longer need to spend time teaching spelling and handwriting.\n\nTo what extent do you agree or disagree?",
+  "instruction_line": "You should spend about 40 minutes on this task. Write at least 250 words.",
+  "min_words": 250,
+  "minutes": 40,
+  "topic_area": "dil ve iletişim",
+  "key_points": [
+    "Görev açık bir tutum bekliyor: katılıyorum / katılmıyorum / kısmen katılıyorum",
+    "Asıl soru okulun bu iki beceriye ayırdığı zaman — yazım araçlarının yararlı olduğunu söylemek tek başına cevap değil",
+    "Destekleyici gerekçeler: kazanılan zamanın fikir kurma, düzenleme ve okuma çalışmasına ayrılabilmesi, günlük yazışmanın çoğunun ekranda yapılması",
+    "Karşı görüşe kabul beklenir: düzeltme araçları anlamı yanlış seçebilir, elle yazmanın öğrenmeyi ve hatırlamayı desteklediği düşünülür, sınavda ve cihazın olmadığı durumlarda beceri gerekir",
+    "Sonuçta tutum yinelenmeli; kısmen katılınıyorsa hangi yaşta ne kadar zaman ayrılacağı belirtilmeli"
+  ],
+  "common_mistakes": [
+    "Tutum belirtmeden teknolojinin eğitime etkisi üzerine genel yazı yazmak",
+    "Yazım ile el yazısını hiç ayırmadan tek bir konu gibi ele almak",
+    "Örnek vermeden soyut genellemelerde kalmak",
+    "250 kelimenin altında kalmak"
+  ],
+  "difficulty": "hard"
+}

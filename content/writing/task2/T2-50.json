@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "set_id": "T2-50",
+  "skill": "writing",
+  "module": "both",
+  "task": 2,
+  "generated_by": "opus",
+  "pattern": "problem_solution",
+  "prompt": "Employees in many organisations receive so many written messages each day that a large part of their working time is spent reading and replying to them.\n\nWhat problems does this cause and what measures could be taken?",
+  "instruction_line": "You should spend about 40 minutes on this task. Write at least 250 words.",
+  "min_words": 250,
+  "minutes": 40,
+  "topic_area": "dil ve iletişim",
+  "key_points": [
+    "Yazı iki bölümlü olmalı: önce sorunlar, sonra önlemler; ikisi de eşit ağırlıkta",
+    "Sorunlar: asıl işe ayrılan kesintisiz zamanın kalmaması, önemli bilginin yığın içinde kaybolması, sürekli bölünmenin yorgunluk ve hata üretmesi, mesai dışına taşan yazışma",
+    "Önlemler: kime yazılacağının ve nelerin yazılmayacağının kurala bağlanması, kısa yüz yüze görüşmelerin bazı yazışmaların yerini alması, günün belirli saatlerinin yazışmaya ayrılması, ortak bir yerde tutulan kayıtların herkese tekrar tekrar gönderilmemesi",
+    "Önlemler sorunlarla eşleştirilmeli; hangi önlemin hangi soruna karşılık geldiği açık olmalı",
+    "Önlemlerin kimin sorumluluğunda olduğu (kurum kuralları mı, kişisel alışkanlık mı) belirtilmeli"
+  ],
+  "common_mistakes": [
+    "Sorunları yazıp önlemleri yalnızca 'daha az mesaj gönderilmeli' diye geçiştirmek",
+    "Konuyu genel olarak teknolojinin zararlarına kaydırmak",
+    "Gerçek bir uygulama ya da şirket adı kullanmak",
+    "250 kelimenin altında kalmak"
+  ],
+  "difficulty": "medium"
+}

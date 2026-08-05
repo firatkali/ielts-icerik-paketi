@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "set_id": "T2-52",
+  "skill": "writing",
+  "module": "both",
+  "task": 2,
+  "generated_by": "opus",
+  "pattern": "advantages_disadvantages",
+  "prompt": "Many websites and applications now decide which news, videos and music each person is shown by studying what that person has looked at before.\n\nDo the advantages outweigh the disadvantages?",
+  "instruction_line": "You should spend about 40 minutes on this task. Write at least 250 words.",
+  "min_words": 250,
+  "minutes": 40,
+  "topic_area": "teknoloji",
+  "key_points": [
+    "Görev bir hüküm bekliyor: avantajlar dezavantajlardan ağır basıyor mu, basmıyor mu",
+    "Avantaj tarafı: sınırsız içerik içinde arama zamanının kısalması, kişinin ilgisine yakın yeni işlerle karşılaşması, az bilinen üreticilerin izleyici bulabilmesi",
+    "Dezavantaj tarafı: kişinin yalnızca kendi görüşünü doğrulayan içeriği görmesi, seçimin nasıl yapıldığının bilinmemesi, ekranda geçen sürenin uzaması, verilerin toplanması",
+    "İki taraf tartıldıktan sonra net bir sonuca varılmalı; 'duruma göre' denecekse hangi koşulda hangi tarafın ağır bastığı yazılmalı",
+    "Somut bir günlük örnek verilmeli — soyut 'teknoloji hayatı kolaylaştırır' cümlesi yeterli değil"
+  ],
+  "common_mistakes": [
+    "İki listeyi yazıp hüküm vermemek",
+    "Konuyu genel olarak internetin zararlarına kaydırmak",
+    "Gerçek bir site, uygulama ya da şirket adı kullanmak",
+    "250 kelimenin altında kalmak"
+  ],
+  "difficulty": "hard"
+}

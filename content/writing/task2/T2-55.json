@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "set_id": "T2-55",
+  "skill": "writing",
+  "module": "both",
+  "task": 2,
+  "generated_by": "opus",
+  "pattern": "advantages_disadvantages",
+  "prompt": "Some schools ask families to bring children to school on foot, by bicycle or by bus rather than by car.\n\nDo the advantages outweigh the disadvantages?",
+  "instruction_line": "You should spend about 40 minutes on this task. Write at least 250 words.",
+  "min_words": 250,
+  "minutes": 40,
+  "topic_area": "ulaşım",
+  "key_points": [
+    "Görev bir hüküm bekliyor: avantajlar dezavantajlardan ağır basıyor mu",
+    "Avantaj tarafı: okul kapısındaki yoğunluğun ve egzozun azalması, çocuğun günlük hareket alması, çocukların yol boyunca birbirleriyle vakit geçirmesi, ailelerin yakıt ve park derdinden kurtulması",
+    "Dezavantaj tarafı: uzak oturan ailelerin zorlanması, kötü havada ve karanlıkta güvenlik kaygısı, çalışan ailelerin sabah programına uymaması, güvenli yaya yolu ve otobüs olmayan yerlerde uygulanamaması",
+    "İki taraf tartıldıktan sonra net bir hüküm verilmeli; koşullu sonuçta hangi durumda istisna tanınacağı yazılmalı",
+    "Somut bir örnek verilmeli; her ailenin arabası olduğu ya da herkesin okula yakın oturduğu varsayılmamalı"
+  ],
+  "common_mistakes": [
+    "İki listeyi yazıp hüküm vermemek",
+    "Konuyu genel olarak hava kirliliğine kaydırmak",
+    "Uzak oturan ya da aracı olmayan ailelerin durumunu hiç düşünmemek",
+    "250 kelimenin altında kalmak"
+  ],
+  "difficulty": "easy"
+}

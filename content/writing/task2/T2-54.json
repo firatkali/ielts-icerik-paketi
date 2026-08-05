@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "set_id": "T2-54",
+  "skill": "writing",
+  "module": "both",
+  "task": 2,
+  "generated_by": "opus",
+  "pattern": "advantages_disadvantages",
+  "prompt": "Many towns now use cameras to record what happens in streets, squares and public buildings throughout the day and night.\n\nDo the advantages outweigh the disadvantages?",
+  "instruction_line": "You should spend about 40 minutes on this task. Write at least 250 words.",
+  "min_words": 250,
+  "minutes": 40,
+  "topic_area": "suç ve ceza",
+  "key_points": [
+    "Görev bir hüküm bekliyor: avantajlar dezavantajlardan ağır basıyor mu",
+    "Avantaj tarafı: olaydan sonra ne olduğunun anlaşılması, kayıp eşya ve kaza durumlarında yardım, bazı ihlallerin caydırılması, gece yürüyen kişinin kendini daha güvende hissetmesi",
+    "Dezavantaj tarafı: sürekli izlenme duygusu, kayıtların kimde kaldığı ve ne kadar saklandığı, sorunun başka sokaklara kayması, kurulum ve bakım maliyetinin başka önlemlerden pay alması",
+    "İki taraf tartıldıktan sonra net bir sonuca varılmalı; koşullu bir sonuç verilecekse hangi kuralların gerektiği (erişim, saklama süresi) yazılmalı",
+    "Kameranın tek başına suçu bitirmediği, önleyici başka tedbirlerle birlikte düşünülmesi gerektiği görülmeli"
+  ],
+  "common_mistakes": [
+    "İki listeyi yazıp hüküm vermemek",
+    "Konuyu cezaların ağırlığı tartışmasına kaydırmak",
+    "Belirli bir ülkenin uygulaması ya da yasası üzerinden yazmak",
+    "250 kelimenin altında kalmak"
+  ],
+  "difficulty": "medium"
+}

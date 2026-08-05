@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "set_id": "T2-59",
+  "skill": "writing",
+  "module": "both",
+  "task": 2,
+  "generated_by": "opus",
+  "pattern": "double_question",
+  "prompt": "In many places, visitors now stay in rooms and flats let out by local residents rather than in hotels.\n\nWhy is this happening? Is it a positive or a negative development?",
+  "instruction_line": "You should spend about 40 minutes on this task. Write at least 250 words.",
+  "min_words": 250,
+  "minutes": 40,
+  "topic_area": "turizm",
+  "key_points": [
+    "İki soru da ayrı ayrı yanıtlanmalı: önce nedenler, sonra olumlu mu olumsuz mu",
+    "Nedenler: genelde daha düşük fiyat, mutfaklı ve geniş yerlerin aileler için uygun olması, konaklamanın çevrim içi bulunup birkaç dakikada ayarlanabilmesi, ziyaretçinin sıradan bir mahallede kalmak istemesi",
+    "Olumlu yön: gelirin doğrudan hanelere ve mahalledeki küçük işletmelere gitmesi, otelin bulunmadığı yerlerin ziyaretçi ağırlayabilmesi, ziyaretçilerin şehre yayılması",
+    "Olumsuz yön: uzun süreli kiralık konutun azalması ve kiraların yükselmesi, komşuların gürültü ve sürekli değişen yabancılardan rahatsız olması, güvenlik ve hijyen denetiminin zayıf kalması, otellerdeki işlerin azalması",
+    "Sonuçta net bir değerlendirme yapılmalı; koşullu bir sonuç verilecekse hangi koşulda hangi yönün ağır bastığı yazılmalı"
+  ],
+  "common_mistakes": [
+    "Nedenleri yazıp olumlu/olumsuz sorusunu yanıtsız bırakmak",
+    "Konuyu genel olarak turizmin yararlarına kaydırmak",
+    "Gerçek bir platform ya da otel zinciri adı kullanmak",
+    "250 kelimenin altında kalmak"
+  ],
+  "difficulty": "easy"
+}

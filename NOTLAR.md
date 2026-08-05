@@ -4327,3 +4327,100 @@ okla verildi ki "merdivenin başında sağda" ifadesi tek anlama gelsin.
   kalıp kotası **opinion 4 · her iki görüş 4 · sorun–çözüm 3 · avantaj–dezavantaj 5 ·
   iki soruluk 4**, konu alanı kuralı yukarıda. `T2-01`–`T2-40`'ın kırk konusu ve kaçınılan
   konuşma/Academic/mektup başlıkları tekrar edilmeyecek. Bu paket bitince **OPUS5-30 tamam**.
+
+
+---
+
+## OPUS5-30 (16. çalıştırma: yazma 2. görev — oturum 3, son paket, 20 deneme konusu)
+
+- Tarih: 2026-08-05
+- Depo kontrolü: `content/speaking/part1/` **T01–T20 tam**, `content/speaking/part2-3/`
+  **C01–C60 tam**, `content/writing/academic-task1/` **AT01–AT30 tam**,
+  `content/writing/general-task1/` **GT01–GT20 tam**, `content/writing/task2/` **T2-01–T2-40
+  dolu, T2-41–T2-60 boş**. Çalıştırma listesindeki sıradaki (ve son) bitmemiş paket
+  **E paketi, oturum 3 (16. çalıştırma)** idi, o yapıldı. Var olan hiçbir dosyaya
+  dokunulmadı. **20 birim** üretildi, hedefle aynı.
+- Üretilen dosyalar — `content/writing/task2/T2-41.json` … `T2-60.json`:
+  - **opinion (4):** T2-41 balık stokları toparlansın diye geniş deniz alanlarının
+    avlanmaya kapatılması · T2-42 medyanın tanınmış eğlence/spor isimleri yerine topluma
+    yararlı iş yapanlara yer ayırması · T2-43 otomatik düzeltme varken okulun yazım ve
+    el yazısına zaman ayırması · T2-44 uzay araştırmasına ayrılan paranın konut ve sağlığa
+    aktarılması
+  - **her iki görüş (4):** T2-45 yeni çalışanın deneyimli meslektaş yanında mı yoksa iş
+    yeri dışında resmi eğitimle mi yetişmesi · T2-46 okul sonrası eğitimin vergiyle
+    ücretsiz mi olması yoksa öğrencinin maliyete katkı mı vermesi · T2-47 altmış yaş üstü
+    çalışanların tutulması mı yoksa işe yeni başlayan gençlere öncelik mi · T2-48 yerel
+    âdet ve geleneklerin okulda mı ailede mi yaşatılması
+  - **sorun–çözüm (3):** T2-49 basamak, dar kaldırım ve kaldırıma park yüzünden yaşlıların,
+    engellilerin ve küçük çocuklu yetişkinlerin hareket edememesi · T2-50 iş yerinde günlük
+    yazılı mesaj yükünün çalışma zamanının büyük kısmını yemesi · T2-51 yeni mezun
+    öğretmenlerin ilk birkaç yılda mesleği bırakması
+  - **avantaj–dezavantaj (5):** T2-52 sitelerin herkese geçmiş davranışına göre haber, video
+    ve müzik seçmesi · T2-53 gencin yaşlı bir kişinin evinde düşük kirayla, arkadaşlık ve
+    yardım karşılığı kalması · T2-54 sokak, meydan ve kamu binalarının sürekli kamerayla
+    kaydedilmesi · T2-55 okulun çocukların yürüyerek, bisikletle ya da otobüsle gelmesini
+    istemesi · T2-56 dükkânların gece geç saatlere ve hafta sonuna kadar açık kalması
+  - **iki soruluk (4):** T2-57 öğünlerin evde pişirmek yerine dışarıda yenmesi ya da hazır
+    alınması · T2-58 ailelerin küçülmesi, bir–iki çocuklu hanelerin yaygınlaşması ·
+    T2-59 ziyaretçilerin otel yerine yerel sakinlerin kiraya verdiği oda ve dairelerde
+    kalması · T2-60 boş zamanda aile geçmişinin araştırılması ve yaşlı akrabaların
+    anılarının kaydedilmesi
+- **Kalıp kotası tamamlandı:** bu oturumda 15. oturumun bıraktığı kalan birebir üretildi —
+  **opinion 4 · her iki görüş 4 · sorun–çözüm 3 · avantaj–dezavantaj 5 · iki soruluk 4**.
+  **Altmış dosyanın toplamı: opinion 14 · her iki görüş 12 · sorun–çözüm 11 ·
+  avantaj–dezavantaj 11 · iki soruluk 12** — prompt tablosuyla birebir.
+- **Konu alanı dağılımı (bu oturum):** dil ve iletişim 2 · devletin rolü 2 · yaşlanan nüfus 2 ·
+  kültür ve gelenek 2 · eğitim, sağlık, çevre, iş hayatı, teknoloji, aile ve toplum, tüketim,
+  medya, şehir hayatı, ulaşım, turizm, suç ve ceza 1'er. 15. oturumun önerisine uyuldu:
+  **şehir hayatı, ulaşım, turizm, suç ve ceza 3'te kaldı**, kalan on iki alan **4'e** çıktı.
+  **Altmışın toplamı: 12 alan × 4 + 4 alan × 3 = 60.**
+- **Tekrar kaçınma:** (1) T2-01–T2-40'ın kırk konusuyla ve paket içi çakışma script ile
+  tarandı → **0 tekrar**; (2) **C01–C60'ın 180 konuşma 3. bölüm sorusuyla** otomatik kesişim
+  taraması yapıldı — bu yüzden şu konular yazılmadı: ücret mi ilginç iş mi (C54), müze/spor
+  tesisini kim ödemeli (C51), çevrim içi bilginin güvenilirliği ve kaynak denetimi (C57),
+  yazılı mesajın sohbetin yerini alması (C42), giyimin sadeleşmesi (C07), tamir–yenisini alma
+  (C22/C56), eşya atığı (C52), küçük dükkân–büyük mağaza karşılaştırması (C34), şehir
+  merkezinin araca kapatılması (C47), sessiz alanların azalması (C04); (3) **AT01–AT30 veri
+  konularıyla** örtüşme yok — bu yüzden ev enerjisi (AT03), su tüketimi (AT09), düzenli spor
+  katılımı (AT17), arazi kullanımı (AT19), haber kaynakları (AT30) deneme konusu yapılmadı;
+  (4) **GT01–GT20 mektup durumlarıyla** örtüşme yok.
+- **Format kararları 14. ve 15. oturumla birebir sürdürüldü:** `prompt` = 1–2 cümlelik konu +
+  boş satır + kalıp cümlesinin birebir standart hâli; alan adları ve **alan sırası** `T2-01`
+  ile aynı; `key_points` **5**, `common_mistakes` **3–4**; `key_points` her zaman (a) görevin
+  sorduğu asıl şeyi, (b) iki tarafın gerekçelerini, (c) tutum/hüküm zorunluluğunu içeriyor.
+  Açıklama alanlarında yıldız işareti kullanılmadı.
+- **Kalite ölçütü:** her konuda iki karşıt görüş de savunulabilir; hiçbiri uzman bilgisi
+  istemiyor; ülkeye özgü politika, olay, kurum ya da yasa geçmiyor (T2-44 uzay bütçesini ve
+  T2-46 eğitim harcını bilinçle ülke adı vermeden kurdu); kutuplaştırıcı tema yok — script
+  tarıyor. Gerçek marka/kişi/kurum adı yok; prompt'larda özel ad hiç kullanılmadı. Görünür
+  metin İngiliz İngilizcesi (`pavements`, `organisations`, `practise`, `neighbourhood`),
+  açıklama alanları Türkçe.
+- **Ayrıcalık denetimi:** hiçbir konu araba sahipliği, yurt dışı seyahat geçmişi, yüksek gelir
+  ya da belirli bir eğitim düzeyi varsaymıyor; T2-55 aracı olmayan ve uzakta oturan aileleri
+  görevin içine yerleştirdi, T2-53 "her yaşlı yardıma muhtaçtır" varsayımını
+  `common_mistakes`'e yazdı, T2-58 tek bir aile modelini doğru kabul etmemeyi, T2-60 herkesin
+  aile kayıtlarına ulaşamayabileceğini ekledi.
+- Zorluk dağılımı: **easy 4 · medium 12 · hard 4** (önceki iki oturumla aynı).
+  Altmışın toplamı: easy 12 · medium 36 · hard 12.
+- Doğrulama: geçici `tools/_t2_03_uret.py` + `tools/_t2_03_kontrol.py` (iş bitince silindi)
+  JSON geçerliliği, zarf alanlarının **listesi ve sırası**, `set_id` ↔ dosya adı,
+  `skill/module/task`, `instruction_line` birebirliği, kalıp cümlesinin prompt sonunda birebir
+  bulunması, konu cümlesi sayısı (1–2), `key_points`/`common_mistakes` sayısı, Türkçe/İngilizce
+  ayrımı, Amerikan yazım taraması, yasaklı tema ve gerçek marka taraması, prompt'ta özel ad
+  taraması, görünür metinde "IELTS", **altmışlık kalıp kotası**, **altmışlık konu alanı
+  kotası**, kırk dosyalık konu tekrarı ve **konuşma 3. bölüm kesişimi** denetledi.
+  **Hata 0**, 115 uyarının hepsi yanlış pozitif: 114'ü ortak kalıp cümlelerinin paylaşılan
+  kelimeleri (`agree`, `disagree`, `extent`, `discuss`, `views`, `outweigh`, `happening`,
+  `positive`, `negative`), 1'i T2-49 ~ C32 (`children`, `adults`, `around`) — C32 "çocukların
+  çevresindeki yetişkinlere benzemesi"ni, T2-49 ise yaya erişimini konu alıyor, ilgisiz.
+- `python tools/dogrula.py` → **şema hatası 0**, `writing/task2` **60** (40 → 60),
+  `writing/task1` 50, speaking 200 + 240 değişmedi, işaretli 0, pasaj lisansı eksik 0,
+  görünür metinde IELTS 0, yasak kaynak 0. Rapordaki "TAM TEST BUTUNLUGU … EKSIK" satırları
+  bu paketle ilgisiz.
+- **DURUM.txt / ilerleme.txt elle güncellenmedi** (sayaç dosyalarını `tools/calistir.py` kendi
+  commit'iyle yazıyor).
+- Atlanan/sorun: yok. **OPUS5-30 tamam — 16 paketin 16'sı bitti (550/550 birim):**
+  konuşma 1. bölüm 200 soru (T01–T20), konuşma 2.+3. bölüm 60 kart + 180 soru (C01–C60),
+  Academic 1. görev 30 (AT01–AT30), General 1. görev 20 (GT01–GT20), 2. görev 60 (T2-01–T2-60).
+  Bu promptun 17. çalıştırması **yok**; yeniden çalıştırılırsa yapılacak iş "OPUS5-30 tamam"
+  deyip çıkmaktır.

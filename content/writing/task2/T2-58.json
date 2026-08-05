@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "set_id": "T2-58",
+  "skill": "writing",
+  "module": "both",
+  "task": 2,
+  "generated_by": "opus",
+  "pattern": "double_question",
+  "prompt": "In many countries families are becoming smaller, and households with one or two children are far more common than they were a generation ago.\n\nWhy is this happening? Is it a positive or a negative development?",
+  "instruction_line": "You should spend about 40 minutes on this task. Write at least 250 words.",
+  "min_words": 250,
+  "minutes": 40,
+  "topic_area": "aile ve toplum",
+  "key_points": [
+    "İki soru da ayrı ayrı yanıtlanmalı: önce nedenler, sonra olumlu mu olumsuz mu",
+    "Nedenler: çocuk büyütmenin ve barınmanın maliyeti, kadınların ve erkeklerin uzun süre eğitim görüp işe geç başlaması, şehirde konutun küçük olması, akraba desteğinin azalması, ailenin kaç çocuk isteyeceğine kendi karar verebilmesi",
+    "Olumlu yön: her çocuğa daha çok zaman ve kaynak ayrılması, ebeveynin çalışma ve dinlenme dengesi, konut ve okul üzerindeki baskının azalması",
+    "Olumsuz yön: çalışan sayısının zamanla azalması ve yaşlı nüfusun bakımının ağırlaşması, kardeşsiz büyüyen çocuğun daha az paylaşma alanı bulması, bazı bölgelerde okul ve hizmetlerin küçülmesi",
+    "Sonuçta net bir değerlendirme yapılmalı; iki yön de kabul ediliyorsa hangisinin ağır bastığı yazılmalı"
+  ],
+  "common_mistakes": [
+    "Nedenleri yazıp değerlendirme yapmamak",
+    "Tek bir aile modelini doğru kabul edip diğerlerini eksik saymak",
+    "Belirli bir ülkenin nüfus politikası üzerinden yazmak",
+    "250 kelimenin altında kalmak"
+  ],
+  "difficulty": "medium"
+}

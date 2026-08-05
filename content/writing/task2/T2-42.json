@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "set_id": "T2-42",
+  "skill": "writing",
+  "module": "both",
+  "task": 2,
+  "generated_by": "opus",
+  "pattern": "opinion",
+  "prompt": "Newspapers, television channels and online platforms devote a great deal of space to well-known entertainers and sports players. Some people believe that far more attention should be given instead to those whose daily work benefits society.\n\nTo what extent do you agree or disagree?",
+  "instruction_line": "You should spend about 40 minutes on this task. Write at least 250 words.",
+  "min_words": 250,
+  "minutes": 40,
+  "topic_area": "medya",
+  "key_points": [
+    "Görev açık bir tutum bekliyor: katılıyorum / katılmıyorum / kısmen katılıyorum",
+    "Karşılaştırma iki haber konusu arasında: tanınmış eğlence ve spor isimleri ile toplum için değerli iş yapanlar",
+    "Destekleyici gerekçeler: gençlere daha gerçekçi örnekler sunulması, öğretmen, sağlık çalışanı ve gönüllü gibi işlerin görünür olması, ilginin yalnızca üne değil katkıya verilmesi",
+    "Karşı görüşe kabul beklenir: yayıncılar izlenmeyen içeriği sürdüremez, tanınmış kişiler bazen yararlı konuları geniş kitleye taşır, neyin 'değerli iş' sayıldığı tartışmalıdır",
+    "Sonuçta tutum yinelenmeli; kısmen katılınıyorsa dengenin nasıl kurulacağı somut olarak söylenmeli"
+  ],
+  "common_mistakes": [
+    "Tutum belirtmeden medyanın iyi ve kötü yanlarını sıralamak",
+    "Gerçek bir kişi, program ya da yayın kuruluşu adı kullanmak",
+    "Yalnızca 'ünlülere çok yer ayrılıyor' demekle yetinip alternatifin ne olduğunu yazmamak",
+    "250 kelimenin altında kalmak"
+  ],
+  "difficulty": "medium"
+}

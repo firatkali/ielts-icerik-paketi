@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "set_id": "T2-46",
+  "skill": "writing",
+  "module": "both",
+  "task": 2,
+  "generated_by": "opus",
+  "pattern": "discuss_both_views",
+  "prompt": "Some people think that education after school should be free for everyone and paid for out of taxes. Others believe that students should meet part of the cost themselves.\n\nDiscuss both these views and give your own opinion.",
+  "instruction_line": "You should spend about 40 minutes on this task. Write at least 250 words.",
+  "min_words": 250,
+  "minutes": 40,
+  "topic_area": "devletin rolü",
+  "key_points": [
+    "Her iki görüş de ayrı ayrı ele alınmalı, sonunda kendi görüşü net olmalı",
+    "Ücretsiz eğitim lehine: yeteneğin gelire göre engellenmemesi, borçla mezun olmanın önlenmesi, eğitimli iş gücünün topluma geri dönmesi",
+    "Öğrencinin katkı vermesi lehine: kamu kaynağının sınırlı olması, herkesin yararlanmadığı bir hizmeti herkesin vergisiyle karşılamanın tartışmalı olması, ödeme yapan öğrencinin seçimini daha dikkatli yapması",
+    "Kendi görüşü gerekçeli olmalı; ara bir yol savunuluyorsa (gelire göre katkı, sonradan ödeme, burs) somut biçimde anlatılmalı",
+    "Ülke adı ve gerçek bir politika örneği kullanılmadan genel bir çerçevede yazılmalı"
+  ],
+  "common_mistakes": [
+    "Bir görüşü savunup diğerini yalnızca çürütülecek bir cümle olarak kullanmak",
+    "Belirli bir ülkenin harç sistemi üzerinden yazmak",
+    "Kendi görüşünü sonuç paragrafında ilk kez ve gerekçesiz vermek",
+    "250 kelimenin altında kalmak"
+  ],
+  "difficulty": "hard"
+}

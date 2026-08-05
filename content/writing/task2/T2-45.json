@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "set_id": "T2-45",
+  "skill": "writing",
+  "module": "both",
+  "task": 2,
+  "generated_by": "opus",
+  "pattern": "discuss_both_views",
+  "prompt": "Some people think that new employees learn a job best by working alongside experienced colleagues from their first day. Others believe that a period of formal training away from the workplace prepares them better.\n\nDiscuss both these views and give your own opinion.",
+  "instruction_line": "You should spend about 40 minutes on this task. Write at least 250 words.",
+  "min_words": 250,
+  "minutes": 40,
+  "topic_area": "iş hayatı",
+  "key_points": [
+    "Her iki görüş de ayrı ayrı ve dengeli biçimde ele alınmalı, ardından kendi görüşü açıkça verilmeli",
+    "Deneyimli meslektaşın yanında öğrenme lehine: işin gerçek koşullarını görme, sorular anında cevaplanır, öğrenilen bilgi hemen kullanılır",
+    "Ayrı bir eğitim dönemi lehine: temel bilgilerin sırayla ve eksiksiz verilmesi, hata riskinin düşük olması, herkesin aynı başlangıç noktasından başlaması",
+    "Kendi görüşü gerekçeli olmalı: işin türü (güvenlik gerektiren iş, müşteriyle temas, kısa süreli iş) hangi yolun uygun olduğunu değiştirir",
+    "En az bir somut çalışma ortamı örneği verilmeli; iki yolun birleştirilebileceği söylenecekse nasıl birleştirileceği yazılmalı"
+  ],
+  "common_mistakes": [
+    "İki görüşü anlatıp kendi görüşünü hiç belirtmemek",
+    "Bir görüşe bir paragraf, diğerine iki cümle ayırarak dengeyi bozmak",
+    "Yalnızca kendi görüşünü yazıp diğer görüşü tartışmamak",
+    "250 kelimenin altında kalmak"
+  ],
+  "difficulty": "medium"
+}
