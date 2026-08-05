@@ -99,7 +99,121 @@ ADIMLAR = (
         "Bu %d. calistirma: %s" % (i + 1, is_), "Capraz kontrol")
        for i, (model, is_) in enumerate(_KONTROL_ISLERI)]
     + _yay("Son teslim", "sonnet", "99-teslim-formati.md", 1)
+
+    # --- 2. BOLUM: icerik uretildikten sonra gelen isler -------------------
+    # Buraya kadar SORU uretildi. Bundan sonrasi uretilenin dogrulugunu ve
+    # puanlamanin guvenilirligini olcuyor. Sira onemli: puanlama ayari
+    # bitmeden ornek cevaplar uretilmez (bkz. C1 dosyasindaki bagimlilik).
+    + _yay("Kimlik ve band esigi alanlari", "sonnet",
+           "SONNET5-A0-kimlik-ve-esik.md", 1)
+    + _yay("Puanli ornekleri metne dok", "opus",
+           "OPUS5-A1-yazma-orneklerini-dok.md", 4)
+    + _yay("Degerlendirme talimati", "opus",
+           "OPUS5-A2-degerlendirme-talimati.md", 1)
+    + _yay("Puanlama olcumu - 1. tur", "sonnet",
+           "SONNET5-A3-puanlama-olcumu.md", 4,
+           ek="Bu 1. OLCUM TURU: her ornek 3 kez puanlanacak. Kumeler henuz "
+              "bolunmediyse once kalibrasyon/olcum/kumeler.json'u olustur.")
+    + _yay("Puanlama duzeltmesi - 1", "opus",
+           "OPUS5-A4-puanlama-duzeltmesi.md", 1,
+           ek="Bu 1. DUZELTME. SAKLI KUME: S3 - o kumeye ait hicbir ornege, "
+              "puanina ve sapma satirina BAKMA.")
+    + _yay("Puanlama olcumu - 2. tur", "sonnet",
+           "SONNET5-A3-puanlama-olcumu.md", 2,
+           ek="Bu 2. OLCUM TURU: her ornek 1 kez puanlanacak.")
+    + _yay("Puanlama duzeltmesi - 2", "opus",
+           "OPUS5-A4-puanlama-duzeltmesi.md", 1,
+           ek="Bu 2. DUZELTME. SAKLI KUME: S1 - o kumeye ait hicbir ornege, "
+              "puanina ve sapma satirina BAKMA.")
+    + _yay("Puanlama olcumu - son tur", "sonnet",
+           "SONNET5-A3-puanlama-olcumu.md", 4,
+           ek="Bu 3. (SON) OLCUM TURU: her ornek 3 kez puanlanacak.")
+    + _yay("Puanlama son raporu", "opus",
+           "OPUS5-A4-puanlama-duzeltmesi.md", 1,
+           ek="SON RAPOR calistirmasi: talimati DUZELTME, sadece "
+              "kalibrasyon/olcum/SONUC.md yaz.")
+    + _yay("Bozuk soru ayiklama", "opus",
+           "OPUS5-B1-metinsiz-cozum.md", 8)
+    + _yay("Soru kalitesi - sayisal olculer", "sonnet",
+           "SONNET5-B2-sayisal-olculer.md", 2)
+    + _yay("Ornek cevaplar - yazma", "opus",
+           "OPUS5-C1-ornek-cevaplar.md", 6,
+           ek="Yazma gorevleri icin calistirma.")
+    + _yay("Ornek cevaplar - konusma", "opus",
+           "OPUS5-C1-ornek-cevaplar.md", 4,
+           ek="Konusma kartlari icin calistirma.")
 )
+
+# Her isin NE ISE YARADIGI - durum ekraninda grup satirinin altina yazilir.
+# Arkadas 100'den fazla tur cevirirken ne yaptigini gormeli; yoksa bir sey
+# ters gittiginde fark edemez.
+GRUP_ACIKLAMA = {
+    "Kurulum":
+        "Gerekli resmi belgeleri indirir ve calisma duzenini kurar.",
+    "Okuma metinlerini topla":
+        "Serbest lisansli bilim/egitim kaynaklarindan okuma parcalari secer.",
+    "Okuma - bosluk doldurma tipleri":
+        "Cevabi metinde birebir gecen soru tipleri - en guvenilir tipler.",
+    "Okuma - bilgi eslestirme":
+        "Hangi bilginin hangi paragrafta oldugunu soran sorular.",
+    "Dinleme - konusma metinleri":
+        "Dinleme bolumunun konusma senaryolarini yazar (ses sonra kaydedilecek).",
+    "Dinleme - kolay sorular":
+        "Cevabi konusmada acikca gecen dinleme sorulari.",
+    "Konusma ve yazma gorevleri":
+        "Konusma kartlari ve yazma gorevleri - yapay zekanin degerlendirecegi kisim.",
+    "Okuma - dogru/yanlis/verilmemis":
+        "En hataya acik soru tipi; bu yuzden daha titiz bir modelle yaziliyor.",
+    "Okuma - coktan secmeli":
+        "Celdiricileri (yanlis secenekler) inandirici olmasi gereken sorular.",
+    "Okuma - eslestirme tipleri":
+        "Baslik, ozellik ve cumle sonu eslestirme sorulari.",
+    "Dinleme - zor sorular":
+        "Dinlemenin coktan secmeli ve eslestirme sorulari.",
+    "Capraz kontrol":
+        "Soruyu yazan model degil BASKA bir model soruyu cozer; ayni model ayni "
+        "hatayi iki kez yapar. Uyusmayan sorular isaretlenir.",
+    "Son teslim":
+        "Uretilen her seyi tek bicime getirir ve teslim ozetini yazar.",
+    "Kimlik ve band esigi alanlari":
+        "Her dosyaya hangi sinava ait oldugunu yazar ve 'kac dogru = hangi puan' "
+        "esigini sonradan ayarlanabilir hale getirir.",
+    "Puanli ornekleri metne dok":
+        "Gercek sinav gorevlilerinin puanladigi ornek cevaplari metne dokuyor. "
+        "Bunlar bizim tek dogru cevap anahtarimiz; el yazisi oldugu icin sayfaya "
+        "bakilarak yaziliyor ve HATALARI AYNEN korunuyor.",
+    "Degerlendirme talimati":
+        "Uygulamanin, kullanicinin yazisini ve konusmasini puanlarken kullanacagi "
+        "asil talimati yazar. Urunun tek satis vaadi bu.",
+    "Puanlama olcumu - 1. tur":
+        "Bu adim, yapay zekanin verdigi puanin dogru olup olmadigini olcuyor: "
+        "resmi olarak puanlanmis ornek cevaplari modele puanlatip gercek puanla "
+        "karsilastiriyor.",
+    "Puanlama duzeltmesi - 1":
+        "Olculen sapmanin sebebini bulup talimati duzeltir. Orneklerin bir kismi "
+        "SAKLI tutulur - model ornekleri ezberlediyse orada yakalanir.",
+    "Puanlama olcumu - 2. tur":
+        "Duzeltmenin ise yarayip yaramadigini olcer.",
+    "Puanlama duzeltmesi - 2":
+        "Kalan sapmayi duzeltir; bu turda baska bir ornek kumesi sakli.",
+    "Puanlama olcumu - son tur":
+        "Son durumu olcer; sakli ornekler burada ilk kez degerlendirilir.",
+    "Puanlama son raporu":
+        "Uc turu yan yana koyar, basari olcutleri tuttu mu yazar, kalan riskleri "
+        "durustce sayar. Duzeltme yapilmaz.",
+    "Bozuk soru ayiklama":
+        "Her soru, okuma parcasi HIC GOSTERILMEDEN cozduruluyor. Parcaya bakmadan "
+        "bilinen soru bozuktur: ya secenekleri ele veriyordur ya da genel kulturle "
+        "bilinir. Bu sorular isaretlenir (silinmez).",
+    "Soru kalitesi - sayisal olculer":
+        "Cevap metinde birebir mi geciyor, kanit kac cumleye yayilmis, yanlis "
+        "secenekler metne yakin mi - hesaplanabilir kalite olculeri.",
+    "Ornek cevaplar - yazma":
+        "Her yazma gorevine band 5 / 6,5 / 8 seviyesinde tam ornek cevap yazar. "
+        "Kullanici 'bir ust puan boyle yaziyormus' diye bunlari gorecek.",
+    "Ornek cevaplar - konusma":
+        "Ayni sey konusma kartlari icin - uc seviyede tam ornek konusma.",
+}
 
 
 def cizgi(karakter="="):
@@ -118,6 +232,20 @@ def ilerleme_oku():
 def ilerleme_yaz(n):
     with open(ILERLEME, "w", encoding="utf-8") as f:
         f.write(str(n))
+
+
+def _sar(metin, girinti, genislik):
+    """Uzun aciklamayi ekrana sigacak sekilde satirlara boler."""
+    satirlar, simdiki = [], girinti
+    for kelime in metin.split():
+        if len(simdiki) + len(kelime) + 1 > genislik and simdiki.strip():
+            satirlar.append(simdiki.rstrip())
+            simdiki = girinti + kelime + " "
+        else:
+            simdiki += kelime + " "
+    if simdiki.strip():
+        satirlar.append(simdiki.rstrip())
+    return satirlar
 
 
 def liste_satirlari(n, detayli=False):
@@ -144,6 +272,11 @@ def liste_satirlari(n, detayli=False):
             satirlar.append("  [ ]      %s   (%d calistirma)" % (ad, toplam))
         else:
             satirlar.append("  [SIRADA] %s   (%d/%d bitti)" % (ad, biten, toplam))
+
+        # Bu is ne ise yariyor - bir ya da iki satir, duz Turkce.
+        aciklama = GRUP_ACIKLAMA.get(ad)
+        if detayli and aciklama:
+            satirlar += _sar(aciklama, "           ", 62)
 
         if detayli and toplam > 1:
             for sira, i in enumerate(indeksler, 1):
@@ -625,6 +758,41 @@ def guncelle():
                     stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
 
 
+def _kendi_imzasi():
+    try:
+        st = os.stat(os.path.abspath(__file__))
+        return (st.st_mtime, st.st_size)
+    except Exception:
+        return None
+
+
+# Program acildiginda kendi dosyasinin hali. Her adim sonrasi git pull
+# yapildigi icin bu dosya calisirken degisebilir.
+_ACILIS_IMZASI = _kendi_imzasi()
+
+
+def kendini_tazele():
+    """Is listesi/kod guncellendiyse programi yeniden baslatir.
+
+    Neden: yeni isler depoya eklendiginde calisan surec eski listeyi bellekte
+    tutuyordu; arkadasin pencereyi kapatip acmasi gerekiyordu ve bunu bilmesinin
+    yolu yoktu. Ilerleme dosyada tutuldugu icin yeniden baslatmak bir sey
+    kaybettirmez - program kaldigi isten devam eder.
+    """
+    yeni = _kendi_imzasi()
+    if not _ACILIS_IMZASI or not yeni or yeni == _ACILIS_IMZASI:
+        return
+    print()
+    print("  Is listesi guncellendi - program kendini yeniden baslatiyor.")
+    print("  (Kaldigin yer kayitli, hicbir sey kaybolmuyor.)")
+    print()
+    sys.stdout.flush()
+    try:
+        os.execv(sys.executable, [sys.executable, os.path.abspath(__file__)])
+    except Exception:
+        print("  Yeniden baslatilamadi; eski liste ile devam ediliyor.")
+
+
 def claude_guncelle(zorla=False):
     """Claude Code'u gunceller.
 
@@ -840,6 +1008,8 @@ def main():
                 haber_verildi = False
                 ilerleme_yaz(n)
                 print("  Bitti. (%d / %d)" % (n, len(ADIMLAR)))
+                # Bu adimda depoya yeni isler inmis olabilir.
+                kendini_tazele()
                 if sonuc == "bitti_limitli":
                     sure = reset_suresi(cikti) or LIMIT_VARSAYILAN_BEKLEME
                     print("  Bu arada kota doldu. Beklenip devam edilecek.")

@@ -66,5 +66,10 @@ def soru_dosyalari():
             continue
         if p.endswith("MANIFEST.json") or p.endswith("PLAN-soru-dagilimi.md"):
             continue
+        # Alt cizgiyle baslayan dosyalar soru seti degil, test tanimidir
+        # (ornek: _test.json - band esigi tablosu). Ornek cevap kutuphanesi de
+        # soru degildir; sema kontrolu ikisini de soru sanmamali.
+        if os.path.basename(p).startswith("_") or "/ornek-cevaplar/" in p:
+            continue
         out.append(p)
     return out

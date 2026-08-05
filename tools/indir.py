@@ -6,7 +6,9 @@ Inen dosyalar referans/ klasorune gider ve .gitignore sayesinde depoya YUKLENMEZ
 Telifli olduklari icin depoda tutulmuyorlar; her makinede bir kez indirilirler.
 """
 
+import html as html_mod
 import os
+import re
 import sys
 import urllib.request
 
@@ -62,6 +64,52 @@ DOSYALAR = [
 ]
 
 
+# Konusma bolumunun band puanli ornekleri PDF degil, normal bir web sayfasinda
+# duruyor: 12 ornek, tam dokum + sinav gorevlisi yorumu + band puani. Puanlama
+# ayarinin konusma ayagi tamamen buna dayaniyor.
+SAYFALAR = [
+    ("https://ielts.org/organisations/ielts-for-organisations/understanding-ielts-scoring/"
+     "resources-for-setting-your-ielts-scores", "konusma-band-ornekleri.txt"),
+]
+
+
+def _metne_cevir(ham):
+    """Sayfayi kaba bicimde duz metne cevirir - ayiklamayi model yapacak."""
+    m = ham.decode("utf-8", "replace")
+    m = re.sub(r"(?is)<(script|style|noscript|svg)[^>]*>.*?</\1>", " ", m)
+    m = re.sub(r"(?i)<br\s*/?>", "\n", m)
+    m = re.sub(r"(?i)</(p|div|li|h[1-6]|tr|section)>", "\n", m)
+    m = re.sub(r"(?s)<[^>]+>", " ", m)
+    m = html_mod.unescape(m)
+    m = re.sub(r"[ \t\xa0]+", " ", m)
+    m = re.sub(r"\n\s*\n\s*\n+", "\n\n", m)
+    return "\n".join(s.strip() for s in m.splitlines()).strip()
+
+
+def sayfalari_indir(hedef):
+    inen, atlanan, hata = 0, 0, []
+    for url, ad in SAYFALAR:
+        cikti = os.path.join(hedef, ad)
+        if os.path.exists(cikti) and os.path.getsize(cikti) > 5000:
+            atlanan += 1
+            continue
+        try:
+            istek = urllib.request.Request(url, headers={"User-Agent": UA})
+            with urllib.request.urlopen(istek, timeout=60) as r:
+                veri = r.read()
+            metin = _metne_cevir(veri)
+            if len(metin) < 5000 or "Band" not in metin:
+                hata.append(ad + " (sayfa beklenen icerigi tasimiyor)")
+                continue
+            with open(cikti, "w", encoding="utf-8") as f:
+                f.write(metin)
+            inen += 1
+            print("  indi:", ad)
+        except Exception as e:
+            hata.append("%s (%s)" % (ad, e))
+    return inen, atlanan, hata
+
+
 def main():
     hedef = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
                          "referans")
@@ -89,9 +137,14 @@ def main():
         except Exception as e:
             hata.append("%s (%s)" % (ad, e))
 
+    s_inen, s_atlanan, s_hata = sayfalari_indir(hedef)
+    inen += s_inen
+    atlanan += s_atlanan
+    hata += s_hata
+
     print()
     print("Inen: %d | Zaten vardi: %d | Hata: %d" % (inen, atlanan, len(hata)))
-    print("Toplam beklenen: %d" % len(DOSYALAR))
+    print("Toplam beklenen: %d" % (len(DOSYALAR) + len(SAYFALAR)))
     if hata:
         print("\nInemeyenler:")
         for h in hata:

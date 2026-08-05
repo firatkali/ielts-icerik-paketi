@@ -33,6 +33,14 @@ gibi serbestçe kullanılabilen kaynaklardan seçiliyor.
 model** cevap anahtarını görmeden aynı soruyu çözüyor. Tutmayan sorular eleniyor.
 Bu kontroller de listedeki işlerin arasında.
 
+**Sorular bittikten sonra devam eden ikinci bölüm var.** Uygulamanın asıl vaadi
+"yazını okuyup puan veriyorum" — o puanın doğru olup olmadığı da ölçülmeli. Listenin
+sonundaki işler bunu yapıyor: gerçek sınav görevlilerinin puanladığı örnek cevaplar
+modele puanlatılıyor, verdiği puan gerçeğiyle karşılaştırılıyor, sapma varsa düzeltilip
+yeniden ölçülüyor. Yanında iki iş daha: okuma parçasına bakmadan cevaplanabilen (yani
+bozuk) soruların ayıklanması, ve her göreve farklı seviyelerde örnek cevap yazılması.
+Listede her işin ne işe yaradığı yazıyor — **IELTS DURUM** kısayolundan okuyabilirsin.
+
 ---
 
 # Ne yapacaksın
@@ -91,7 +99,7 @@ Hepsinde **[ OK ]** yazıyorsa hazırsın. **[SORUN]** varsa altındaki adımı 
 Masaüstündeki **IELTS CALISTIR** kısayoluna çift tıkla. **Hepsi bu.**
 
 Program buradan sonrasını kendi yapar: Claude'u açar, işin bitmesini bekler, sonucu
-kaydedip yükler, sıradaki işe geçer. **Toplam 88 iş var**, hepsini sırayla yürütür.
+kaydedip yükler, sıradaki işe geçer. **Toplam 127 iş var**, hepsini sırayla yürütür.
 
 - **Sen hiçbir şey yazmayacaksın.** Enter'a basmak, `/exit` yazmak, E/H demek yok.
 - Ekranda tek satır durum göreceksin: kaçıncı işte olduğu ve o işin ne kadar sürdüğü.

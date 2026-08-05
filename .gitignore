@@ -1,5 +1,6 @@
 referans/*.pdf
 referans/text/
+referans/*.txt
 dogrulama/
 __pycache__/
 *.pyc
@@ -9,3 +10,10 @@ ilerleme.txt
 .guven-ok
 .claude-guncelleme
 gunluk/
+
+# Telifli resmi malzemenin metne dokulmus hali ve ondan uretilen ham olcum
+# kayitlari. Depo PUBLIC; bu dosyalar yayinlanirsa telifli icerigin yeniden
+# dagitimi olur. Yalniz SAYILAR ve raporlar depoya girer.
+kalibrasyon/ornekler/
+kalibrasyon/olcum/tur*/
+kalibrasyon/resmi-cift/
