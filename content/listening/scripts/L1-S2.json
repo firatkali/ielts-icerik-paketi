@@ -473,6 +473,45 @@
         "note_completion",
         "short_answer"
       ]
+    },
+    {
+      "id": "L1-S2-32",
+      "kind": "advantage",
+      "value": "picnic tables in the courtyard garden",
+      "quote": "there are picnic tables out there if the weather behaves",
+      "turn_index": 8,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "multiple_choice",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L1-S2-33",
+      "kind": "advantage",
+      "value": "handling sessions let visitors examine objects not on display",
+      "quote": "you can pick up and examine objects that aren't on display",
+      "turn_index": 11,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "multiple_choice",
+        "note_completion"
+      ]
+    },
+    {
+      "id": "L1-S2-34",
+      "kind": "price",
+      "value": "handling sessions are free",
+      "quote": "there's no charge",
+      "turn_index": 11,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "multiple_choice",
+        "note_completion"
+      ]
     }
   ],
   "spatial_description": {

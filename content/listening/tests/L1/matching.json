@@ -1,0 +1,87 @@
+{
+  "schema_version": "1.0",
+  "set_id": "L1-matching",
+  "skill": "listening",
+  "test_id": "L1",
+  "section": 3,
+  "practice": false,
+  "script_id": "L1-S3",
+  "question_type": "matching",
+  "generated_by": "fable",
+  "instructions": "What is decided about each of the following parts of the presentation?\n\nChoose THREE answers from the box and write the correct letter, A-G, next to questions 24-26.",
+  "box": {
+    "label": null,
+    "options": [
+      { "letter": "A", "text": "It will be used for background information only." },
+      { "letter": "B", "text": "Both speakers will take part in it." },
+      { "letter": "C", "text": "It will be recorded as sound only." },
+      { "letter": "D", "text": "It will be left out of the presentation." },
+      { "letter": "E", "text": "It will be booked through the department office." },
+      { "letter": "F", "text": "It will be limited to five minutes." },
+      { "letter": "G", "text": "It will be the students' main source of data." }
+    ]
+  },
+  "allow_repeat": false,
+  "items": [
+    {
+      "number": 24,
+      "select_count": 1,
+      "prompt": "the national energy survey",
+      "options": null,
+      "answer": ["A"],
+      "evidence": "The council's open data portal has the actual generation figures, updated every month — start there, and use the national survey only for context.",
+      "answer_point_id": "L1-S3-29",
+      "turn_index": 18,
+      "distractor_analysis": {
+        "B": "Söylendi ama sorulan bu değil — iki konuşmacının birlikte yer alması sunumun ikinci yarısı için isteniyor.",
+        "C": "Söylendi ama sorulan bu değil — ses kaydı kararı yönetici görüşmeleri için veriliyor.",
+        "D": "Söylendi ama sorulan bu değil — anket çıkarılmıyor, bağlam için tutuluyor; 'çıkarma' tartışması video klipler hakkındaydı.",
+        "E": "Söylendi ama sorulan bu değil — bölüm bürosundan rezerve edilen şey medya odası.",
+        "F": "Söylendi ama sorulan bu değil — beş dakika sınırı sunum sonundaki soru bölümüne ait.",
+        "G": "Söylendi sonra düzeltildi — Callum önce ulusal anketi kullanacaklarını söylüyor; danışman asıl kaynak olarak belediyenin açık veri portalını gösterip anketi yalnızca bağlama indiriyor."
+      },
+      "explanation": "Danışman asıl üretim rakamları için belediye portalını öneriyor; ulusal anket yalnızca genel bağlam için kullanılacak.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 25,
+      "select_count": 1,
+      "prompt": "the interviews with the school governors",
+      "options": null,
+      "answer": ["C"],
+      "evidence": "Record audio instead, keep each clip to about twenty seconds, and have the transcript on the slide behind it.",
+      "answer_point_id": "L1-S3-17",
+      "turn_index": 21,
+      "distractor_analysis": {
+        "A": "Söylendi ama sorulan bu değil — arka plan bölümünde kullanılacak olan rüzgar projesi, görüşmeler değil.",
+        "B": "Söylendi ama sorulan bu değil — ortak katılım kuralı sunumun ikinci yarısı hakkında.",
+        "D": "Başkası söyledi — klipleri bırakıp alıntıları slayta yazmayı Callum önermişti; danışman görüşmeleri ses kaydı olarak koruyor.",
+        "E": "Söylendi ama sorulan bu değil — büro üzerinden yapılan işlem oda rezervasyonu.",
+        "F": "Söylendi ama sorulan bu değil — beş dakika soru bölümünün süresi; kliplere yirmi saniye sınırı konuyor.",
+        "G": "Söylendi ama sorulan bu değil — ana veri kaynağı belediyenin açık veri portalı."
+      },
+      "explanation": "Danışman videonun sık bozulduğunu söyleyip görüşmelerin ses olarak kaydedilmesini, yazıya dökümün de slaytta durmasını istiyor.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 26,
+      "select_count": 1,
+      "prompt": "the second half of the talk",
+      "options": null,
+      "answer": ["B"],
+      "evidence": "Make sure you both speak in the second half as well — a group where one person disappears after five minutes always looks unbalanced.",
+      "answer_point_id": "L1-S3-19",
+      "turn_index": 25,
+      "distractor_analysis": {
+        "A": "Söylendi ama sorulan bu değil — arka plan kullanımı rüzgar projesiyle ilgili karar.",
+        "C": "Söylendi ama sorulan bu değil — ses kaydı görüşme klipleri için.",
+        "D": "Söylendi ama sorulan bu değil — 'bir kişinin beş dakika sonra ortadan kaybolması' kötü örnek olarak anılıyor; bölümün çıkarılması söz konusu değil.",
+        "E": "Söylendi ama sorulan bu değil — büroya yapılan başvuru medya odasını ayırtmak için.",
+        "F": "Söylendi ama sorulan bu değil — aynı replikte geçen 'beş dakika', kaybolan konuşmacı örneğine ait; ikinci yarıya süre sınırı konmuyor.",
+        "G": "Söylendi ama sorulan bu değil — veri kaynağı kararı anket ve portal hakkında."
+      },
+      "explanation": "Danışman iki öğrencinin de sunumun ikinci yarısında konuşmasını istiyor; aksi hâlde grup dengesiz görünüyor.",
+      "difficulty": "easy"
+    }
+  ]
+}

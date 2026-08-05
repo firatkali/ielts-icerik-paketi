@@ -549,6 +549,19 @@
         "sentence_completion",
         "multiple_choice"
       ]
+    },
+    {
+      "id": "L1-S3-29",
+      "kind": "rule",
+      "value": "the national survey will be used only for context",
+      "quote": "use the national survey only for context",
+      "turn_index": 18,
+      "speaker": "F2",
+      "distractor": "the national household energy survey as main source",
+      "suggested_types": [
+        "matching",
+        "multiple_choice"
+      ]
     }
   ],
   "spatial_description": null,

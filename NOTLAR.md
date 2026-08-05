@@ -5779,3 +5779,48 @@ hiç kullanılmadı, kalan on soruda birer kez. Çeldirici türü çeşitliliği
 - **DURUM.txt / ilerleme.txt elle güncellenmedi** (sayaçları `tools/calistir.py` yazıyor).
 - Atlanan/sorun: yok. **FABLE5-42 tamam** — 8 paketin sekizi de bitti (tam test 46 +
   alıştırma 35 = 81 soru). Bu promptun yeni bir çalıştırması gerekmiyor.
+
+## FABLE5-43 (1. çalıştırma: L1 — riskli sorular, 11 soru)
+
+- **Üretilen:** `content/listening/tests/L1/multiple-choice.json` (11, 12, 13, 14–15 →
+  2. bölüm; 21, 22, 23 → 3. bölüm; prompt kuralı gereği iki bölümün çoktan seçmelisi tek
+  dosyada, `section` ve `script_id` hem küme hem soru düzeyinde) +
+  `content/listening/tests/L1/matching.json` (24–26, 3. bölüm). Toplam **11 soru** —
+  L1 artık `dogrula.py`'de **40/40 TAM**.
+- **11–15 bloku seçimi (altı testte 3 çoktan seçmeli / 3 eşleştirme dengesi):**
+  **L1 = çoktan seçmeli (1/3).** L1-S2'nin dört düzeltmeli çeldirici noktası (kapalı gün,
+  tur saatleri, yıllık kart, dokunma seansı günü) çoktan seçmeliye çok uygundu; eşleştirme
+  kotası sonraki testlerden üçüne bırakıldı.
+- **Yerleşim ve sıra kuralı:** S2 → replikler 2, 5, 8, 11; S3 çoktan seçmeli → 2, 6, 14;
+  S3 eşleştirme → 18, 21, 25. Bütün ardışık cevap çiftleri arasında **en az 3 replik** var
+  (`tools/_f43_kontrol.py` doğruluyor). 21–26, OPUS5-21'in 27–30 cevaplarının başladığı
+  27. replikten önce bitiyor.
+- **Çeldirici türleri:** her soruda en az iki farklı tür; "söylendi sonra düzeltildi"
+  6 soruda (11, 12, 14–15, 21, 22, 24-G), "başkası söyledi" 2 soruda (23, 25 — yalnız
+  3. bölümde mümkün), "söylendi ama sorulan bu değil" hepsinde. **Kısıt notu:** S2 tek
+  konuşmacılı olduğu için "başkası söyledi" türü 2. bölümde yapısal olarak imkânsız;
+  13. soruda ikinci tür olarak soru başına en fazla bir tanesine izin verilen "sesle hiç
+  geçmeyen" çeldirici kullanıldı (tek kullanım). Eşleştirmede kutu ortak olduğu için yanlış
+  harflerin çoğu doğal olarak "başka öğe için söylendi" (tür 3) sınıfına düşüyor; 24 ve 25
+  numaralarda ikinci tür (düzeltildi / başkası söyledi) ayrıca mevcut, 26'da yalnız tür 3
+  kurulabildi — üç ayrı çeldirici gerekçesi yine de yazıldı.
+- **Yeni bilgi noktaları senaryolara eklendi:** `L1-S2-32` (avludaki piknik masaları,
+  replik 8), `L1-S2-33` (sergilenmeyen nesneleri elleme, replik 11), `L1-S2-34` (seans
+  ücretsiz, replik 11 — 14–15 çift sorusunun ikinci cevabı; `answer_point_id` alanı tek
+  değer aldığı için 33 yazıldı, 34 `explanation`'da anılıyor), `L1-S3-29` (ulusal anket
+  yalnız bağlam için, replik 18).
+- **Elenen taslaklar (3):** fotoğraf kuralı sorusu (S2 replik 10) ve asansör konumu sorusu
+  (S2 replik 8) — ikisinde de iki farklı çeldirici türü kurulamıyordu (düzeltme yok, tek
+  konuşmacı); not dağılımı sorusu (S3 replik 10) — her iki çeldirici de aynı türe (tür 3)
+  düşüyordu. Üçünün yerine avlu (13), dokunma seansları (14–15) ve danışman görüşü (23)
+  soruları yazıldı. Üretilip son kontrolde silinen soru yok: senaryolar baştan sona
+  okunarak 11 soru anahtara bakılmadan çözüldü, **11/11 uyuştu**.
+- **Harf dengesi:** tekli cevap dizisi B, A, B, {C,E}, A, C, B / eşleştirme A, C, B —
+  üst üste aynı harf yok; kutu 7 seçenekli (3 soru + 4 boşta).
+- **Doğrulama:** `python tools/dogrula.py` → şema hatası 0, L1 40/40, görünür metinde
+  IELTS 0; `python tools/_f43_kontrol.py L1` → 0 sorun (evidence birebir, replik
+  aralıkları, 10 kelime seçenek sınırı, 50 kelime kök+seçenek sınırı). `_f43_kontrol.py`
+  sonraki L2–L6 çalıştırmaları için depoya kondu.
+- Referans olarak `referans/` altındaki dinleme çoktan seçmeli (tek/çok cevap) anahtar +
+  transkript PDF'leri ve 2023 örnek görev PDF'i okundu (yalnız format; metin alınmadı).
+- Atlanan/sorun: yok. Sıradaki çalıştırma: **L2** (2/9).
