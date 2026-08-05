@@ -1,0 +1,82 @@
+{
+  "schema_version": "1.0",
+  "set_id": "T19-time-management",
+  "skill": "speaking",
+  "part": 1,
+  "topic": "Time management",
+  "topic_tr": "Zaman yönetimi",
+  "generated_by": "opus",
+  "expected_answer_seconds": [20, 40],
+  "items": [
+    {
+      "number": 1,
+      "prompt": "How do you keep track of the things you need to do?",
+      "focus": "alışkanlık",
+      "difficulty": "easy",
+      "useful_language": ["I write everything down", "I keep a list on my phone", "I rely on my memory, which is risky", "I set a reminder the night before"]
+    },
+    {
+      "number": 2,
+      "prompt": "Which part of the week feels busiest for you?",
+      "focus": "temel bilgi",
+      "difficulty": "easy",
+      "useful_language": ["the first couple of days are relentless", "it builds up towards the end of the week", "the weekend is no quieter, just different", "it evens out over the fortnight"]
+    },
+    {
+      "number": 3,
+      "prompt": "How far ahead do you usually plan your week?",
+      "focus": "alışkanlık",
+      "difficulty": "easy",
+      "useful_language": ["a day at a time, mostly", "I sketch it out on Sunday evening", "anything further ahead tends to change", "I plan the fixed things and leave the rest"]
+    },
+    {
+      "number": 4,
+      "prompt": "Which do you find easier, starting a task early or working close to the deadline?",
+      "focus": "tercih ve sebep",
+      "difficulty": "medium",
+      "useful_language": ["pressure focuses my mind", "I'd rather get it off my plate", "leaving it late never ends well", "I do my best thinking at the last minute, oddly"]
+    },
+    {
+      "number": 5,
+      "prompt": "What tends to take up more of your time than it should?",
+      "focus": "açıklama",
+      "difficulty": "medium",
+      "useful_language": ["I get sidetracked by messages", "small jobs expand to fill the morning", "I spend too long getting started", "conversations run on longer than planned"]
+    },
+    {
+      "number": 6,
+      "prompt": "How did you organise your time when you were at school?",
+      "focus": "geçmiş",
+      "difficulty": "medium",
+      "useful_language": ["the timetable did it for me", "I never had to think about it", "I was forever handing things in late", "somebody else kept me to it"]
+    },
+    {
+      "number": 7,
+      "prompt": "What do you do when you have more to get through than time allows?",
+      "focus": "strateji",
+      "difficulty": "medium",
+      "useful_language": ["I work out what can wait", "I do the hardest thing first", "I ask for an extension rather than rush it", "something always has to give"]
+    },
+    {
+      "number": 8,
+      "prompt": "How would your week look if you had one completely free day?",
+      "focus": "varsayım",
+      "difficulty": "hard",
+      "useful_language": ["I'd keep it clear on purpose", "I'd fill it within a week, knowing me", "it would take the pressure off everything else", "I'd use it for the things I keep putting off"]
+    },
+    {
+      "number": 9,
+      "prompt": "Why do so many people feel short of time these days?",
+      "focus": "sebep ve değişim",
+      "difficulty": "hard",
+      "useful_language": ["work follows people home", "there's an expectation of a quick reply", "we try to fit too much in", "being busy has become something to boast about"]
+    },
+    {
+      "number": 10,
+      "prompt": "How is organising your own time different from following someone else's timetable?",
+      "focus": "karşılaştırma",
+      "difficulty": "hard",
+      "useful_language": ["the freedom is harder than it sounds", "a timetable takes the decisions away from you", "you only learn it by getting it wrong", "some people need the structure imposed on them"]
+    }
+  ]
+}

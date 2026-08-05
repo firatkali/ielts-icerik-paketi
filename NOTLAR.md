@@ -3251,3 +3251,87 @@ okla verildi ki "merdivenin başında sağda" ifadesi tek anlama gelsin.
 - Atlanan/sorun: yok. **OPUS5-30'da 16 paketten 3'ü tamam (150/550 birim).** Sıradaki iş
   **oturum 4** (seyahat · sanat ve el işi · hayvanlar · zaman yönetimi · komşuluk), yine
   `content/speaking/part1/` altına `T16`–`T20` kimlikleriyle.
+
+## OPUS5-30 (4. çalıştırma: konuşma 1. bölüm — oturum 4, 5 konu × 10 soru)
+
+- Tarih: 2026-08-05
+- Depo kontrolü: `content/speaking/part1/` altında **T01–T15 tamdı** (150 soru),
+  `content/speaking/part2-3/`, `content/writing/academic-task1/`, `general-task1/` ve
+  `task2/` klasörleri **hâlâ boştu**. Çalıştırma listesindeki sıradaki bitmemiş paket
+  **Konuşma 1. bölüm, oturum 4** idi, o yapıldı; kullanıcının tanımı ("4. çalıştırma")
+  depo durumuyla **birebir uyuştu**. **50 soru** üretildi, hedefle birebir aynı.
+  Bu paketle birlikte **A paketi (konuşma 1. bölüm) tamamlandı: 20 konu × 10 soru = 200.**
+- Üretilen dosyalar (prompt A bölümündeki oturum-4 konu dağılımına birebir uyuldu):
+  - `content/speaking/part1/T16-travel.json` — seyahat
+  - `content/speaking/part1/T17-art-and-crafts.json` — sanat ve el işi
+  - `content/speaking/part1/T18-animals.json` — hayvanlar
+  - `content/speaking/part1/T19-time-management.json` — zaman yönetimi
+  - `content/speaking/part1/T20-neighbours.json` — komşuluk
+- **KULLANILAN KONULAR (part 1 havuzu artık kapalı, hiçbiri tekrar edilmeyecek):**
+  Hometown · Home and accommodation · Work or study · Free time · Food · Weather and
+  seasons · Music · Transport · Shopping · Friends · Sport and exercise · Photographs ·
+  Books and reading · Technology · Sleep · **Travel · Art and crafts · Animals · Time
+  management · Neighbours**.
+  **Sıradaki paket B: `content/speaking/part2-3/`, oturum başına 15 kart + kart başına 3
+  tartışma sorusu, 4 oturum (`C01`–`C60`).** Kart türü kotası 60 kart geneli içindir
+  (kişi 12 · yer 12 · nesne 12 · olay/deneyim 16 · soyut 8); her oturumda dörtte birini
+  (kişi 3 · yer 3 · nesne 3 · olay 4 · soyut 2) üretmek kotayı sonda tutturur.
+  Part 1'de kullanılan 20 konu, kart konusu seçilirken de **doğrudan tekrar edilmemeli**
+  (ör. "Describe a photograph you like" T12'yle çakışır; kartlar daha somut/olaya bağlı
+  kurulmalı).
+- 1. oturumdaki **soru kurgusu kararı sürdürüldü:** yardımcı fiille başlayan soru yalnızca
+  seçenekli olduğunda kullanılabilir. Bu sette bir örnek var (T20/6
+  `Which would you rather have, quiet neighbours or sociable ones?` — `Which` ile açılıyor,
+  T17/4 de aynı biçimde). 50 sorunun tamamı wh- / how kalıbında, hiçbiri tek kelimeyle
+  kapanmıyor.
+- **Tekrardan kaçınma — üç kalıp bilinçli olarak seyreltildi.** Önceki 15 dosyada
+  `How is X different from Y?` sekiz kez, `Why do some people…?` beş kez, `How often do
+  you…?` altı kez geçmişti. Bu sette `How is X different from Y?` yalnız **bir kez**
+  (T18/10); aynı işlevdeki diğer karşılaştırmalar farklı kuruldu:
+  `Which gives more satisfaction, … or …?` (T17/10), `How is organising your own time
+  different from following someone else's timetable?` (T19/10 — tek diğer örnek),
+  `How do relationships between neighbours differ between towns and villages?` (T20/10),
+  `In what ways do people change after…?` (T16/10). `Why do some people…?` bu sette **hiç
+  yok**; yerine `Why do many adults stop…` (T17/7), `Why do so many people feel short of
+  time…` (T19/9), `Why do people in cities often…` (T20/9), `Why are handmade objects
+  becoming popular again…` (T17/9) kullanıldı. **20 dosyalık havuzda 200 sorunun tamamı
+  benzersiz** (script tüm havuzda denetledi).
+- **Zorluk düzeni** önceki üç oturumla aynı: 1–3 `easy`, 4–7 `medium`, 8–10 `hard`;
+  4. sorudan sonra hiç `easy` yok. Her sette en az 7 farklı `focus` var (temel bilgi ·
+  alışkanlık · son deneyim · geçmiş · tercih ve sebep · açıklama · sebep · gözlem · öneri ·
+  strateji · görüş · varsayım · değişim · karşılaştırma · başkaları açısı ve sonuç).
+- `useful_language`: soru başına 4 ifade, band 7 seviyesinde, İngiliz İngilizcesi
+  (`spur-of-the-moment`, `hanging about`, `keen on`, `shop-bought`, `first-name terms`,
+  `keep themselves to themselves`, `off my plate`, `a fortnight`, `organising`).
+  **Kültürel tarafsızlık ve ayrıcalık varsayımı yok:** T16 uçakla/yurt dışına seyahat
+  varsaymıyor — sorular "day out", "somewhere unfamiliar", "school trips" üzerinden
+  kuruldu ve `What kind of places do you enjoy visiting?` ile açılıyor; T17 pahalı malzeme
+  ya da müze erişimi varsaymıyor ("there isn't much on offer, to be honest" seçenek olarak
+  verildi); T18 **evcil hayvan sahipliği varsaymıyor** (soru 2 "how much contact", soru 7
+  başkaları açısından soruluyor); T19 ofis işi ya da esnek çalışma varsaymıyor; T20 müstakil
+  ev/bahçe varsaymıyor ("the ones on my floor", "the flats"). Din, alkol, siyaset, savaş,
+  avcılık, hayvan hakları tartışması, cinsellik geçmiyor; gerçek marka/kurum/kişi adı yok.
+- Doğrulama: geçici denetim scriptiyle (`tools/_sp4_kontrol.py`, sonra silindi) JSON
+  geçerliliği, zarf alanları, `set_id` ↔ dosya adı eşleşmesi, soru sayısı (tam 10),
+  numara sırası, her sorunun **tek cümle** olması (tek `?`, nokta/noktalı virgül yok,
+  ≤95 karakter), evet/hayırla kapanabilecek kalıplar (seçenekli sorular muaf),
+  `useful_language` sayısı (3–5) ve dosya içi ifade tekrarı, Amerikan yazımı taraması,
+  zorluk düzeni, `focus` çeşitliliği, **20 dosyalık havuzda soru metni tekrarı** ve
+  "IELTS" geçmemesi denetlendi — **ilk turda hata 0** (200 benzersiz soru).
+  Ardından `python tools/dogrula.py`: **şema hatası 0**, konuşma sorusu **200**
+  (50+50+50+50), pasaj lisansı eksik 0, görünür metinde IELTS 0, yasak kaynak 0.
+  `konusma_yazma_denetle()` bu dosyaları da sorunsuz kapsadı, script'te değişiklik
+  gerekmedi. Rapordaki "TAM TEST BUTUNLUGU … EKSIK" satırları bu paketle ilgisiz —
+  henüz üretilmemiş okuma/dinleme soru tipleri.
+- Referans: bu oturumda da referans PDF'i açılmadı — format kararı 1. oturumda
+  `ielts-speaking-sample-tasks-2023.pdf` okunarak verilmiş ve NOTLAR'a yazılmıştı
+  (numaralı kısa sorular düzeni), aynı düzen sürdürüldü. `referans/text/` klasörü hâlâ
+  yok. Hiçbir soru/cümle kopyalanmadı. **B paketine başlamadan önce aynı PDF'in 2. ve 3.
+  bölüm sayfaları format için tekrar okunmalı** (kart düzeni ve `You should say:` girintisi).
+- **DURUM.txt / ilerleme.txt bu oturumda elle güncellenmedi.** Bu oturum `CALISTIR.bat`
+  yerine doğrudan başlatıldı; sayaç dosyalarını `tools/calistir.py` kendi commit'iyle
+  ("durum: N/88") yazıyor, elle dokunmak runner'ın ilerlemesini bozabilirdi. DURUM.txt'teki
+  "Konusma sorusu" satırı bir sonraki runner turunda 200/440 olacak.
+- Atlanan/sorun: yok. **OPUS5-30'da 16 paketten 4'ü tamam (200/550 birim).** Sıradaki iş
+  **B paketi, oturum 1** — `content/speaking/part2-3/` altına `C01`–`C15`: 15 kart
+  (kişi 3 · yer 3 · nesne 3 · olay 4 · soyut 2) + her kart için 3 tartışma sorusu = 60 birim.
