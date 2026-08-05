@@ -1,0 +1,180 @@
+{
+  "schema_version": "1.0",
+  "set_id": "practice-matching-sentence-endings",
+  "skill": "reading",
+  "module": "both",
+  "test_id": null,
+  "practice": true,
+  "question_type": "matching_sentence_endings",
+  "generated_by": "fable",
+  "passage_id": null,
+  "instructions": "Complete each sentence in a set with the correct ending from the list given with that set. Write the correct letter on your answer sheet.",
+  "groups": [
+    {
+      "group_id": "P-MSE-01",
+      "passage_id": "A07",
+      "instructions": "Questions 1-5 refer to Passage A07 - The Whale That Recognised Herself in a Mirror\n\nComplete each sentence with the correct ending, A-H.\nWrite the correct letter, A-H, in boxes 1-5 on your answer sheet.",
+      "option_list": {
+        "label": "List of Endings",
+        "numbering": "letter",
+        "options": [
+          { "key": "A", "text": "the whales might otherwise have been reacting simply to an unfamiliar object" },
+          { "key": "B", "text": "the animals had no way of seeing that patch of skin unaided" },
+          { "key": "C", "text": "the whale had been examining the mark itself and not merely the glass" },
+          { "key": "D", "text": "even animals of a capable species did not all behave in the same way" },
+          { "key": "E", "text": "they were aimed at the whale's own body rather than at another animal" },
+          { "key": "F", "text": "the two attentive whales both preferred to use the same eye at the glass" },
+          { "key": "G", "text": "the animals passed more hours before the mirror than before the plain panel" },
+          { "key": "H", "text": "the same ability had arisen separately in quite unrelated groups of animals" }
+        ]
+      },
+      "example": null,
+      "allow_repeat": false,
+      "items": [
+        {
+          "number": 1,
+          "prompt": "On some days a clear panel of the same size was lowered into the pool instead of the mirror because",
+          "answer": ["A"],
+          "evidence": "In the first phase a large two-way mirror was lowered into one section of their pool on some days and, on other days, a transparent acrylic panel of identical size was used instead as a control, so that researchers could distinguish curiosity about a novel object from a specific response to a reflection.",
+          "evidence_locator": { "paragraph": "B", "sentence": 3 },
+          "heading_check": null,
+          "feature_check": null,
+          "grammar_check": "Başlangıç 'because' ile bitiyor; sekiz sonun hepsi özne ve çekimli geçmiş zaman fiili taşıyan tam bir yan cümle olduğu için hepsi bu başlangıca dilbilgisi olarak oturuyor: 'because the whales might...', 'because the animals had...', 'because the same ability had arisen...'. Tekil/çoğul, artikel ya da edat uyumundan doğan bir ipucu yok, çünkü hiçbir son yarım isim öbeği ya da mastar değil. Anlamca en yakın çeldirici G: aynı paragraftan geliyor ve iki nesnenin önünde geçen süreleri karşılaştırıyor, ama o süre bir sonuç, panelin kullanılma nedeni değil.",
+          "explanation": "Paragraf B, aynı boyuttaki saydam panelin kontrol olarak kullanıldığını, böylece yeni bir nesneye duyulan merakın aynadaki yansımaya verilen tepkiden ayrılabildiğini söylüyor.",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "prompt": "The behaviours seen at the glass were counted as self-directed because",
+          "answer": ["E"],
+          "evidence": "These actions, described by the researchers as self-directed rather than social, appeared within the very first mirror session for two of the four animals, Natasha and Maris, after little more than two hours of exposure.",
+          "evidence_locator": { "paragraph": "C", "sentence": 3 },
+          "heading_check": null,
+          "feature_check": null,
+          "grammar_check": "Yine 'because' artı tam yan cümle yapısı var; sekiz sonun hepsi özneyle başlayıp çekimli fiil taşıdığı için hiçbiri dilbilgisi yüzünden elenmiyor. E'deki çoğul 'they' başlangıçtaki 'the behaviours' ile uyuşuyor, ama aynı çoğul özne 1., 3. ve 5. başlangıçlar için de kurulabilir; üstelik F ve G de çoğul özneli, yani 'they' üzerinden bir eleme yolu açılmıyor.",
+          "explanation": "Paragraf C, bu hareketlerin araştırmacılarca toplumsal değil kendine yönelik sayıldığını belirtiyor; yani hayvan başka bir balinaya değil kendi bedenine yöneliyor.",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "prompt": "The cosmetic mark was applied just behind an eye or an ear because",
+          "answer": ["B"],
+          "evidence": "A harmless cosmetic mark, five to eight centimetres across, was applied to a part of the body the whale could not see without a mirror, most often just behind an eye or an ear.",
+          "evidence_locator": { "paragraph": "D", "sentence": 2 },
+          "heading_check": null,
+          "feature_check": null,
+          "grammar_check": "'because' sonrasında bütün sonlar tam cümle olarak işliyor; hiçbir son işaretin konumuna özel bir edat ya da tekil/çoğul uyumu istemiyor. B'deki 'that patch of skin' işaret sıfatı başlangıçtaki bölgeye gönderme yapıyor, ama aynı gönderme 1. ve 4. başlangıçlarda da dilbilgisi açısından kurulabildiği için biçimsel bir ipucu vermiyor.",
+          "explanation": "Paragraf D, işaretin hayvanın ayna olmadan göremeyeceği bir yere konulduğunu söylüyor; göz ya da kulak arkası bu yüzden seçilmiş.",
+          "difficulty": "easy"
+        },
+        {
+          "number": 4,
+          "prompt": "Natasha showed a genuine mark to the mirror far longer than she showed an invisible one, which suggested that",
+          "answer": ["C"],
+          "evidence": "When she carried an invisible sham mark instead, the equivalent behaviour lasted only twenty-three seconds across four approaches, a difference the researchers regarded as strong evidence that she was inspecting the mark itself rather than merely enjoying the mirror.",
+          "evidence_locator": { "paragraph": "E", "sentence": 3 },
+          "heading_check": null,
+          "feature_check": null,
+          "grammar_check": "Başlangıç 'which suggested that' ile bitiyor; bu bağlaç da tıpkı 'because' gibi tam bir yan cümle istiyor ve sekiz sonun hepsi bu yapıyı karşılıyor. Sonların hepsi geçmiş zamanda olduğu için zaman uyumsuzluğundan doğan bir eleme de yok. C'nin öznesi tekil 'the whale', ama D, F, G ve H'nin çoğul özneleri de aynı bağlacı sorunsuz izliyor; sayı uyumu ipucu değil. Dilbilgisi olarak kusursuz oturan ama anlamca yanlış olan H, buradaki en yakın çeldirici.",
+          "explanation": "Paragraf E, gerçek işaretle sahte işaret arasındaki süre farkını, hayvanın aynadan hoşlanması değil işareti incelemesi olarak yorumluyor.",
+          "difficulty": "hard"
+        },
+        {
+          "number": 5,
+          "prompt": "The team refused to treat Maris's response as a failure because",
+          "answer": ["D"],
+          "evidence": "The researchers were careful not to treat this as a failure so much as a reminder that, even among species that can pass the test, individual animals vary enormously in how, and how quickly, they respond, a pattern also documented in chimpanzees and dolphins.",
+          "evidence_locator": { "paragraph": "F", "sentence": 2 },
+          "heading_check": null,
+          "feature_check": null,
+          "grammar_check": "'because' artı tam cümle; bütün sonlar bu kalıbı karşılıyor ve hiçbiri Maris'in tekil öznesine bağlanmak zorunda değil, çünkü sonların hepsinin kendi öznesi var. F burada en cazip çeldirici: aynı paragraftan geliyor ve Maris'ten söz eden bir cümleye dilbilgisi olarak tam oturuyor, ama göz tercihi bir gerekçe değil ayrı bir gözlem.",
+          "explanation": "Paragraf F, testi geçebilen türlerde bile bireylerin tepkilerinin çok değiştiğini hatırlatıyor; bu yüzden Maris'in kendi işaretine bakmaması başarısızlık sayılmıyor.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "group_id": "P-MSE-02",
+      "passage_id": "G06",
+      "instructions": "Questions 6-10 refer to Passage G06 - Why Volunteers Tend to Report Better Health\n\nComplete each sentence with the correct ending, A-H.\nWrite the correct letter, A-H, in boxes 6-10 on your answer sheet.",
+      "option_list": {
+        "label": "List of Endings",
+        "numbering": "letter",
+        "options": [
+          { "key": "A", "text": "it built useful skills and showed employers that someone was dependable" },
+          { "key": "B", "text": "they had not supplied full details of what they earned" },
+          { "key": "C", "text": "it matched the gap between two people born five years apart" },
+          { "key": "D", "text": "more than four in every ten took part regularly in Germany and Norway" },
+          { "key": "E", "text": "it often required people to be up and moving instead of sitting still" },
+          { "key": "F", "text": "volunteers were more likely to be religious than those who stayed at home" },
+          { "key": "G", "text": "the same pattern appeared in every version of the analysis they ran" },
+          { "key": "H", "text": "a trial would hand out the chance to help at random and follow people afterwards" }
+        ]
+      },
+      "example": null,
+      "allow_repeat": false,
+      "items": [
+        {
+          "number": 6,
+          "prompt": "Some of the people surveyed had to be left out of the analysis because",
+          "answer": ["B"],
+          "evidence": "After excluding respondents with incomplete income information, the analysis covered 42,926 individuals.",
+          "evidence_locator": { "paragraph": "B", "sentence": 2 },
+          "heading_check": null,
+          "feature_check": null,
+          "grammar_check": "Başlangıç 'because' ile bitiyor; sekiz sonun hepsi özne ve çekimli fiil taşıyan tam bir cümle olduğu için hepsi buraya dilbilgisi olarak oturuyor. B'nin öznesi çoğul 'they' ve başlangıçtaki 'some of the people' ile uyuşuyor, ama D, F ve G de çoğul özneli; A, C ve E'nin tekil 'it' öznesi de yan cümle olarak sorunsuz işliyor, yani sayı uyumundan cevap çıkarılamıyor.",
+          "explanation": "Paragraf B, gelir bilgisi eksik olan katılımcılar çıkarıldıktan sonra çözümlemenin 42.926 kişiyi kapsadığını söylüyor.",
+          "difficulty": "easy"
+        },
+        {
+          "number": 7,
+          "prompt": "The size of the health difference becomes easier to picture once the authors point out that",
+          "answer": ["C"],
+          "evidence": "The size of this gap was similar to the difference in reported health between men and women, or between people five years apart in age, small on any single measure but consistent and unlikely to be due to chance.",
+          "evidence_locator": { "paragraph": "C", "sentence": 2 },
+          "heading_check": null,
+          "feature_check": null,
+          "grammar_check": "'once the authors point out that' de tıpkı 'because' gibi tam bir yan cümle istiyor ve sekiz sonun hepsi bu yapıda; sonların geçmiş zamanda olması da sorun değil, çünkü aktarılan bulgu geçmişe bakıyor. C'nin 'it' öznesi başlangıçtaki farka gönderme yapıyor, ama aynı 'it' A ve E'de de var; biçimsel eleme yolu açılmıyor. G burada en yakın çeldirici: dilbilgisi olarak kusursuz oturuyor, ancak büyüklükten değil tutarlılıktan söz ediyor.",
+          "explanation": "Paragraf C, farkın büyüklüğünü yaşça beş yıl ayrı iki kişi arasındaki farkla aynı ölçekte gösteriyor.",
+          "difficulty": "medium"
+        },
+        {
+          "number": 8,
+          "prompt": "Regular unpaid work was rare in Bulgaria, Hungary and Lithuania, whereas",
+          "answer": ["D"],
+          "evidence": "More than four in ten respondents in Germany, the Netherlands and Norway said they volunteered regularly, compared with fewer than one in ten in Bulgaria, Hungary and Lithuania.",
+          "evidence_locator": { "paragraph": "D", "sentence": 2 },
+          "heading_check": null,
+          "feature_check": null,
+          "grammar_check": "'whereas' da tam bir cümle istiyor, dolayısıyla aynı sekiz son burada da eksiksiz işliyor; hiçbir son yarım bir öbek olmadığı için karşıtlık bağlacı hiçbirini dışarıda bırakmıyor. D'nin öznesi 'more than four in every ten', F'ninki 'volunteers', G'ninki 'the same pattern' — üçü de bu bağlacı doğal biçimde izliyor, yani karşıtlık yapısından cevap çıkarılamıyor. F en yakın çeldirici: aynı paragraftan bir karşılaştırma, ama ülke değil dindarlık ekseninde.",
+          "explanation": "Paragraf D, düzenli gönüllülüğün Almanya, Hollanda ve Norveç'te on kişide dörtten fazla, adı geçen üç ülkede ise onda birden az olduğunu belirtiyor.",
+          "difficulty": "medium"
+        },
+        {
+          "number": 9,
+          "prompt": "Giving time freely might lift a household's earnings because",
+          "answer": ["A"],
+          "evidence": "One plausible explanation is that volunteering pays off financially: it can widen a person's professional network, build skills and demonstrate reliability to future employers, all of which might raise household income, and higher income is itself strongly linked to better self-rated health.",
+          "evidence_locator": { "paragraph": "E", "sentence": 1 },
+          "heading_check": null,
+          "feature_check": null,
+          "grammar_check": "'because' artı tam cümle kalıbı; sekiz sonun hepsi özne ve çekimli fiil taşıdığı için hiçbiri elenmiyor. A'daki 'it' başlangıçtaki 'giving time freely' ulacına gönderme yapıyor, ama aynı 'it' C ve E'de de var ve onlar da bu başlangıca dilbilgisi olarak oturuyor; H'nin 'a trial would...' kalıbı da 'because' sonrasında kusursuz. Seçim yalnızca anlamla yapılabiliyor.",
+          "explanation": "Paragraf E, gönüllülüğün beceri kazandırdığını ve işverenlere güvenilirliği gösterdiğini, bunun da hane gelirini yükseltebileceğini söylüyor.",
+          "difficulty": "medium"
+        },
+        {
+          "number": 10,
+          "prompt": "Health may also benefit from unpaid work simply because",
+          "answer": ["E"],
+          "evidence": "Volunteering may build a sense of purpose and social connection, both repeatedly linked to wellbeing in other research; it often involves physical activity, from standing at a community event to walking a delivery route; and some physiologists have proposed that helping others may even influence the body's stress-regulating hormones.",
+          "evidence_locator": { "paragraph": "H", "sentence": 2 },
+          "heading_check": null,
+          "feature_check": null,
+          "grammar_check": "Son soruda da bağlaç 'because' ve sekiz sonun hepsi tam cümle olarak arkasına geliyor; sonların uzunlukları da birbirine yakın (11-15 kelime), yani uzunluktan bir ipucu çıkmıyor. E'nin 'it' öznesi ile A ve C'nin 'it' öznesi aynı biçimde, H ise 'a trial' ile başlıyor ama o da dilbilgisi olarak sorunsuz oturuyor; seçim tamamen anlamla yapılıyor.",
+          "explanation": "Paragraf H, gönüllülüğün çoğu zaman bedensel hareket gerektirdiğini — bir etkinlikte ayakta durmaktan dağıtım yolunu yürümeye kadar — olası açıklamalar arasında sayıyor.",
+          "difficulty": "medium"
+        }
+      ]
+    }
+  ]
+}

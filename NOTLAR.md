@@ -5704,3 +5704,78 @@ hiç kullanılmadı, kalan on soruda birer kez. Çeldirici türü çeşitliliği
   8. ve son paket. Orada dikkat: bütün sonlar bütün başlangıçlara **dilbilgisi olarak**
   uymalı ve son sayısı soru sayısından en az 3 fazla olmalı (10 soru → en az 13 son),
   `grammar_check` zorunlu, `example` null, sıra kuralı geçerli.
+
+## FABLE5-42 (7. çalıştırma — listedeki 8. paket: alıştırma — cümle sonu eşleştirme, 10 soru — **paket tamam**)
+- Tarih: 2026-08-06
+- **Oturum başı durumu:** çalıştırma listesindeki 1–7. paketlerin hepsi (AC1–AC4 başlık +
+  özellik, GT1/GT2 başlık, başlık eşleştirme alıştırması 15 soru, özellik eşleştirme
+  alıştırması 10 soru) depoda tam ve commit edilmişti. İlk **üretilmemiş** paket listedeki
+  **8. ve son paket**, cümle sonu eşleştirme alıştırmasıydı. Hiçbir dosya yeniden üretilmedi.
+- Üretilen dosya (plan D bölümü): `content/reading/practice/matching-sentence-endings.json` —
+  **2 küme × 5 soru = 10**, `groups` sarmalayıcısıyla, numaralar 1–10, `test_id: null`,
+  `practice: true`, `module: both`, her kümede `example: null`, `allow_repeat: false`.
+  - `P-MSE-01` — pasaj **A07** (ayna testini geçen beyaz balina), 8 son (A–H),
+    cevaplar **A, E, B, C, D**; boşta çeldiriciler F (sağ göz tercihi), G (ayna/panel
+    önünde geçen saatler), H (yeteneğin ayrı ayrı ortaya çıkması)
+  - `P-MSE-02` — pasaj **G06** (gönüllülük ve sağlık), 8 son (A–H),
+    cevaplar **B, C, D, A, E**; boşta çeldiriciler F (gönüllülerin daha dindar olması),
+    G (bütün çözümleme sürümlerinde aynı örüntü), H (rastgele atamalı deney önerisi)
+- **Son sayısı:** kural "soru sayısından en az 3 fazla". Sorular küme hâlinde geldiği için
+  kural küme başına uygulandı: 5 soru → 8 son (6. çalıştırmanın notundaki "10 soru → en az
+  13 son" hesabı tek düz liste varsayıyordu; `tools/_f42_kontrol.py` da kümeyi ayrı ayrı
+  denetliyor ve 0 sorun verdi).
+- **Dilbilgisi tarafsızlığı (kural 2) — kurulan düzen:** her başlangıç tam bir yan cümle
+  isteyen bir bağlaçla bitiyor (`because`, `whereas`, `which suggested that`,
+  `once the authors point out that`), her son ise **özne + çekimli geçmiş zaman fiili**
+  taşıyan tam bir cümle. Böylece hiçbir son yarım isim öbeği ya da mastar olmadığı için
+  tekil/çoğul, artikel, edat veya fiil çekimi üzerinden eleme yapılamıyor; sonların
+  hepsi 11–15 kelime aralığında tutulup uzunluk ipucu da kapatıldı.
+  - Bu yüzden **C sonundaki özne `she`den `the whale`e çevrildi**: tekil dişil zamir
+    yalnızca Natasha'dan söz eden 4. başlangıca bağlanabildiği için tutarlılık ipucu
+    veriyordu; nötr isim öbeğiyle bütün başlangıçlara eşit uzaklıkta duruyor.
+- **Pasaj seçimi:** eşleştirme tiplerinde şimdiye kadar kullanılan pasajlar dışarıda
+  bırakılamayacak kadar azdı (havuzun tamamı en az bir tipte işlenmiş), o yüzden ölçüt
+  "hangi **bilgi** henüz sorulmamış" oldu. A07'de tam testten (AC3 tablo + TFNG) ve
+  alıştırma bilgi eşleştirmesinden arta kalan ilişkiler, G06'da GT2'nin (başlık + YNNG +
+  özet) dokunmadığı paragraflar hedeflendi. Sıra kuralı geçerli olduğu için başlangıçlar
+  pasaj sırasına dizildi: A07 → B, C, D, E, F; G06 → B, C, D, E, H.
+- **Elenen taslaklar (4) — hepsi çakışma nedeniyle, üretilen sorudan silinen yok:**
+  1. A07 "Natasha gerçek işareti 3 dk 40 sn boyunca gösterdi" sayısal kurgusu atıldı —
+     AC3 tablo tamamlama 14 yaklaşmayı ve 23 saniyeyi zaten istiyor; soru sayıdan değil
+     **karşılaştırmanın yorumundan** kurulacak biçimde yeniden yazıldı (4. soru).
+  2. A07 "yeteneğin birbirinden uzak canlılarda ayrı ayrı ortaya çıkması" başlangıcı
+     atıldı — alıştırma bilgi eşleştirmesi bunu G paragrafı için zaten soruyor; bilgi
+     **boşta çeldirici H**'ye taşındı.
+  3. G06 "kendi beyan edilen sağlık ölçüsünün neden seçildiği" başlangıcı atıldı —
+     GT2 YNNG 34. soru aynı iddiayı test ediyor; yerine C paragrafındaki **farkın
+     büyüklüğü** (beş yıllık yaş farkı) hedeflendi.
+  4. G06 "gelirin payı beşte birin altında" başlangıcı atıldı — GT2 özet tamamlama 37 ve
+     YNNG 36 bu bulguyu tüketmiş; yerine E paragrafındaki **mekanizma** (beceri +
+     güvenilirlik → gelir) kondu.
+- **Çeldiricilerin ters kontrolü:** altı boşta sonun her biri için "bu hangi başlangıca
+  cevap olabilir?" sorusu ayrı ayrı soruldu. En cazip olan G (A07, saatler) 1. soruya
+  dilbilgisi olarak tam oturuyor ama süre panelin kullanılma **nedeni** değil sonucu;
+  F (G06, dindarlık) 8. soruya oturuyor ama karşıtlık ülke ekseninde kurulmuş, dindarlık
+  ekseninde değil. Hiçbiri gerçek cevap hâline gelmedi.
+- **Doğrulama:**
+  - `python tools/_f42_kontrol.py content/reading/practice/matching-sentence-endings.json`
+    → **0 sorun** (10 `evidence` A07/G06'da birebir, locator'lar doğru paragrafı
+    gösteriyor, küme başına 8 son / 5 soru, her kümede boşta çeldirici var, NB yok ve
+    `allow_repeat: false` ile tutarlı, hiçbir son pasajda birebir geçmiyor).
+  - `python tools/dogrula.py` → **şema hatası 0**, `reading/practice` 150 → **160**
+    (plan D bölümü hedefi tamamlandı), okuma toplamı **400/400**. Pasaj lisansı eksik 0,
+    görünür metinde IELTS 0.
+  - İlk turda `dogrula.py` 10 "explanation Türkçe olmayabilir" hatası verdi: Türkçe
+    alanları ASCII yazmıştım, denetim `[çğıöşüÇĞİÖŞÜ]` arıyor. Bütün `explanation` ve
+    `grammar_check` alanları tam diakritikle yeniden yazıldı.
+  - Son kontrol: `tools/kor-kopya.py` ile anahtarsız kopya üretildi, 10 soru aday gibi
+    baştan çözüldü → **10/10 anahtarla uyuştu**; rapor
+    `content/DOGRULAMA/f42-alistirma-cumle-sonu-eslestirme.json`. Silinen soru yok.
+  - `dogrulama/cevap/` içindeki 6. çalıştırmadan kalan özellik eşleştirme cevap dosyası
+    rapora karışmasın diye silindi (`dogrulama/` zaten depoya gitmiyor).
+- `tools/_f42s_kapsam.py` (7. çalıştırmadan kalan geçici kapsam sayacı) commit'e dâhil —
+  pasaj başına soru sayısını ve verilen pasajın bütün soru köklerini döküyor, sonraki
+  çakışma kontrollerinde işe yarıyor.
+- **DURUM.txt / ilerleme.txt elle güncellenmedi** (sayaçları `tools/calistir.py` yazıyor).
+- Atlanan/sorun: yok. **FABLE5-42 tamam** — 8 paketin sekizi de bitti (tam test 46 +
+  alıştırma 35 = 81 soru). Bu promptun yeni bir çalıştırması gerekmiyor.
