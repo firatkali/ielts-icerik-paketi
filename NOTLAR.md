@@ -4915,3 +4915,68 @@ sınırında tartışmalı kaldığı için hiç yazılmadı.
 - **DURUM.txt / ilerleme.txt elle güncellenmedi** (sayaçları `tools/calistir.py` yazıyor).
 - Atlanan/sorun: yok. Sıradaki iş **7. çalıştırma: TRUE/FALSE/NOT GIVEN alıştırması
   (`content/reading/practice/true-false-not-given.json`, 15 soru)**.
+
+## FABLE5-40 (7. çalıştırma: TRUE / FALSE / NOT GIVEN alıştırması, 15 soru)
+
+### Üretilen
+
+- `content/reading/practice/true-false-not-given.json` — soru 1–15, dört pasaja bölündü:
+  **A02** (ahtapotlarda birey tanıma) 1–4, **A05** (Çatalhöyük buğdayı) 5–8,
+  **A08** (buzul üzerindeki deprem izleri) 9–12, **A09** (camlaşmış beyin dokusu) 13–15.
+  Pasaj başına en fazla 4 soru kuralına uyuldu; `test_id` null, `practice` true, her
+  item'da `passage_id` var, `stem_block` hangi soruların hangi pasaja ait olduğunu yazıyor.
+- Pasaj seçimi: tam testlerde TFNG için kullanılan pasajlar (A01, A04, A07, A10, G01,
+  G02) ve YNNG için kullanılanlar (G05, G06) dışarıda bırakıldı. Kalanlar arasından, o
+  ana kadar en az kanıt cümlesi harcanmış olanlar seçildi (A02/A05/A08 sekizer, A09 on
+  dört). A03 bilerek atlandı: AC1 matching-information + summary-completion + alıştırma
+  cümle tamamlama zaten 14 cümlesini tüketmişti. Görüş ağırlıklı pasajlar (A03, A06,
+  A10, A11, A12, G05, G06) 8. çalıştırmadaki YES/NO/NOT GIVEN alıştırması için bırakıldı.
+- Dağılım 6 TRUE / 5 FALSE / 4 NOT GIVEN; ardışık üç soru aynı cevabı almıyor. Kanıtlar
+  her pasaj grubunun içinde metin sırasını izliyor (A02: B2→C3→F3, A05: B1→B3→G3,
+  A08: B1→F2→G1, A09: A3→C1).
+
+### Taslakta elenen adaylar (4)
+
+1. "Octopuses kept behind an opaque divider behaved more aggressively during cohabitation"
+   (NOT GIVEN adayı, A02) — H/3'teki "vision alone ... was enough to produce weaker
+   measurable differences" cümlesi bölme türüne göre bir davranış farkı ima ettiği için
+   NOT GIVEN ile FALSE arasında savunulabilir kaldı; Adım 3'ün ikinci şartı sağlanmadı, atıldı.
+2. "Ink was released more often by strangers than by familiar pairs in the final test"
+   (FALSE adayı, A02 F/4) — soru sağlamdı ama kanıt cümlesi AC1 cümle tamamlamanın 21.
+   sorusunda zaten kullanılmıştı (tam testte kullanılan cümle yasağı); yerine F/3'e
+   dayanan TRUE (soru 4) kondu.
+3. "The two laboratories obtained results that disagreed with one another" (NOT GIVEN
+   adayı, A05 D/1) — E paragrafındaki "the team recovered thirty-two DNA sequences in
+   total" ifadesi sonuçların birleştirildiğini, dolayısıyla uyuştuğunu ima ediyor
+   okunabiliyordu; Adım 3'ün üçüncü şartı takıldı, atıldı.
+4. "Similar vitrified tissue has since been found at Pompeii" (NOT GIVEN adayı, A09) —
+   H/3'teki "may yet be identified elsewhere in the town" ifadesi "henüz bulunmadı"
+   biçiminde okunabildiği için FALSE ile NOT GIVEN arasında kaldı; yerine yaş tayini
+   yöntemine dayanan temiz NOT GIVEN (soru 14) kondu.
+
+### Doğrulama
+
+- `tools/_f40_kontrol.py` alıştırma paketlerini de denetleyecek şekilde genişletildi:
+  `python tools/_f40_kontrol.py PR-TFNG` (8. çalıştırma için `PR-YNNG` de hazır). Çok
+  pasajlı yapıya uygun olarak zarf alanları (`test_id` null, `practice` true,
+  `passage_id` null, `module` item'lardan türetiliyor), 1'den başlayan numaralar,
+  pasaj başına ≤4 soru kotası, kanıt sırasının **her pasaj grubu içinde** ayrı
+  denetlenmesi, `stem_block`ın bütün pasajları anması ve kanıt çakışmasının bütün
+  okuma paketlerine karşı taranması eklendi.
+- `python tools/_f40_kontrol.py PR-TFNG` → **hata 0, uyarı 0** (yönerge kalıbı,
+  numara aralığı 1–15, birebir evidence + locator, FALSE'ta contradiction_point,
+  NG'de üç şartlı gerekçe, ≤20 kelime, 6 kelimelik örtüşme, dağılım/ardışıklık,
+  kanıt sırası, genelleme kotası, IELTS taraması, kanıt çakışması).
+- Gerileme: `python tools/_f40_gerileme.py` (yeni yardımcı betik) AC1–AC4, GT1, GT2 ve
+  PR-TFNG'yi tek komutta koşuyor → **yedisi de hata 0, uyarı 0**.
+- Aşırı genelleme kotası: **hiç kullanılmadı** (sınır 2, kullanılan 0).
+- İfade kelime sayıları: 11–16; hepsi tek cümle, tek iddia.
+- Kanıt çakışması: 15 sorunun hiçbirinin kanıt cümlesi başka bir okuma paketinde
+  kullanılmıyor (betik bütün `content/reading` ağacını tarıyor).
+- Son kontrol: 15 soru cevap anahtarına bakılmadan aday gibi baştan çözüldü, on beşi de
+  anahtarla uyuştu — **son turda silinen soru yok** (elemeler yukarıda, taslak aşamasında).
+- `python tools/dogrula.py` → **şema hatası 0**, `reading/practice` 80 → **95**.
+  Pasaj lisansı eksik 0, görünür metinde IELTS 0, yasak kaynak 0.
+- **DURUM.txt / ilerleme.txt elle güncellenmedi** (sayaçları `tools/calistir.py` yazıyor).
+- Atlanan/sorun: yok. Sıradaki iş **8. çalıştırma: YES/NO/NOT GIVEN alıştırması
+  (`content/reading/practice/yes-no-not-given.json`, 15 soru)** — FABLE5-40'ın son paketi.
