@@ -5442,3 +5442,62 @@ hiç kullanılmadı, kalan on soruda birer kez. Çeldirici türü çeşitliliği
     soru yok** (elemeler yukarıda, taslak aşamasında).
 - **DURUM.txt / ilerleme.txt elle güncellenmedi** (sayaçları `tools/calistir.py` yazıyor).
 - Atlanan/sorun: yok. Sıradaki paket: **AC3** (14–18 + 23–26, pasaj **A08**).
+
+## FABLE5-42 (3. çalıştırma: AC3 devralındı + AC4 üretildi — başlık + özellik eşleştirme, 9+9 soru)
+- Tarih: 2026-08-05
+- **Oturum başı durumu:** AC3'ün iki dosyası depoda **tam ama commit edilmemiş** hâlde
+  bulundu (NOTLAR kaydı da yoktu) — önceki oturum dosyaları yazdıktan sonra doğrulama/
+  commit adımlarına gelemeden kesilmiş. Talimat gereği AC3 **yeniden üretilmedi**;
+  eksik kalan adımları burada tamamlandı:
+  - `python tools/_f42_kontrol.py` AC3 iki dosya → **0 sorun** (dokuz `evidence` A08'de
+    birebir, locator'lar doğru).
+  - Kör kopya üzerinden dokuz AC3 sorusu aday gibi çözüldü → **9/9 anahtarla uyuştu**.
+  - AC3 dosyaları bu oturumda kendi commit'iyle depoya alındı.
+- Çalıştırma listesinin ilk **üretilmemiş** paketi **AC4** idi, o yapıldı. Üretilen
+  dosyalar (ikisi de pasaj **A11**, "kar altındaki ormanın sakinleştirici etkisi"):
+  - `content/reading/tests/AC4/matching-headings.json` — soru **14–18**, paragraf B–F
+  - `content/reading/tests/AC4/matching-features.json` — soru **23–26**
+- Başlık listesi **10 başlık / 5 soru + 1 örnek** (örnek: Paragraph A → `iii`), 4 başlık
+  boşta. Cevaplar: ii, v, ix, vi, viii (sıra kuralı yok).
+- **Özellik eşleştirmesi anket (ölçek) listesiyle yapıldı** (A Profile of Mood States ·
+  B Positive and Negative Affect Schedule · C Restorative Outcome Scale · D Subjective
+  Vitality Scale). A11'de adlandırılmış birden çok araştırmacı yok (tek ekip), promptun
+  2. kuralı kişi listesini yasaklıyor; "kategori" izni pasajın dört ölçeğiyle kullanıldı.
+  **D (Subjective Vitality Scale) hiçbir ifadenin cevabı değil** — boşta çeldirici,
+  üstelik pasajda gerçek bulgusu (bina sonrası düşüş) olduğu için inandırıcı.
+  **C iki kez cevap** (23 ve 25) → `allow_repeat: true` + yönergede `NB` satırı var,
+  tutarlı (bu setin ilk `allow_repeat=true` dosyası; resmî özellik anahtarında da aynı
+  harf iki kez kullanılıyor). Cevaplar: C, A, C, B.
+- Yakın çiftler bilerek kuruldu: **24, A ile B'yi** ayırıyor (ikisi de olumsuz duyguyu
+  ölçüyor; ama orman sonrası düşüş pasajda açıkça POMS'a bağlı ve "çoğu" kaydı 6 boyutun
+  5'ine oturuyor) · **25, C ile D'yi** ayırıyor (bina sonrası ikisi de düştü; "yaklaşık
+  yarıya" ölçüsü yalnızca C'ye bağlanmış).
+- **Taslakta elenenler (3):**
+  1. F için "Refreshed but no livelier" başlığı atıldı — `refresh` kökü F'de birebir
+     geçiyor (`strongly refreshing`), kelime avıyla bulunurdu (kural 6). Yerine
+     "Calmer but not more energetic" kondu.
+  2. B için "Each volunteer measured against themselves" atıldı — B'de
+     `compare each person against themselves` birebir var. Yerine pasajda geçmeyen
+     araştırma deyimiyle "Each person acting as their own control" kondu.
+  3. "How snow conceals what invigorates" çeldiricisi atıldı — H paragrafının ana
+     fikrini (karın enerji veren yeşili örtmesi) **gerçekten** karşılıyordu. Yerine
+     hiçbir paragrafa uymayan, yalnızca D'nin soğuk ayrıntısına yaslanan "The health
+     risks of standing in severe cold" kondu. Ayrıca canlılık düşüşünü soran ifade
+     taslağı atıldı — D'yi cevap yapıp boşta çeldirici bırakmıyordu (kural 5).
+- Çeldiricilerin gölgelediği paragraflar: `i`→F (tersini söylüyor: canlılık artmadı),
+  `iv`→D (soğuk ayrıntısı, risk yok), `vii`→C (tersini söylüyor + `deliberately` kelime
+  tuzağı), `x`→E (madde sayısı ≠ süre). Hiçbiri sorulan bir paragrafın ana fikri değil.
+- **Doğrulama:**
+  - `python tools/_f42_kontrol.py` → AC4 iki dosya **0 sorun** (dokuz `evidence` A11'de
+    birebir, locator'lar doğru, NB–allow_repeat tutarlı, boşta çeldirici var).
+  - `python tools/dogrula.py` → **şema hatası 0**, `reading/test` 212 → **230**,
+    **AC3 ve AC4 artık 40/40 TAM — dört Academic testin hepsi bitti.** Pasaj lisansı
+    eksik 0, görünür metinde IELTS 0, yasak kaynak 0.
+  - Son kontrol: `tools/kor-kopya.py` ile anahtar silinmiş kopyalar üretildi; AC4'ün
+    dokuz sorusu (ve yukarıda anılan AC3'ün dokuzu) aday gibi baştan çözüldü, **18/18
+    anahtarla uyuştu** — son turda silinen soru yok (elemeler yukarıda, taslak aşamasında).
+- Yan iş: `referans/text/ielts-academic-reading-sample-tasks-2023.txt` çıkarıldı
+  (`tools/pdf_metin.py` ile; başlık eşleştirme format örneği buradan okundu).
+- **DURUM.txt / ilerleme.txt elle güncellenmedi** (sayaçları `tools/calistir.py` yazıyor).
+- Atlanan/sorun: yok. Sıradaki paket: **GT1 + GT2** (soru 28–32, başlık eşleştirme,
+  pasajlar **G05** ve **G06**) — çalıştırma listesindeki 5. paket.

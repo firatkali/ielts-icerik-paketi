@@ -1,0 +1,70 @@
+{
+  "schema_version": "1.0",
+  "set_id": "AC4-matching-features",
+  "skill": "reading",
+  "module": "academic",
+  "test_id": "AC4",
+  "practice": false,
+  "passage_id": "A11",
+  "question_type": "matching_features",
+  "generated_by": "fable",
+  "instructions": "Look at the following statements and the list of questionnaires below.\n\nMatch each statement with the correct questionnaire, A-D.\nWrite the correct letter, A-D, in boxes 23-26 on your answer sheet.\n\nNB You may use any letter more than once.",
+  "option_list": {
+    "label": "List of Questionnaires",
+    "numbering": "letter",
+    "options": [
+      { "key": "A", "text": "the Profile of Mood States" },
+      { "key": "B", "text": "the Positive and Negative Affect Schedule" },
+      { "key": "C", "text": "the Restorative Outcome Scale" },
+      { "key": "D", "text": "the Subjective Vitality Scale" }
+    ]
+  },
+  "example": null,
+  "allow_repeat": true,
+  "items": [
+    {
+      "number": 23,
+      "prompt": "It produced the single most striking result of the whole experiment.",
+      "answer": ["C"],
+      "evidence": "The clearest effect of the entire study appeared on the Restorative Outcome Scale, which increased sharply after time in the forest, indicating that participants found the snow-covered woodland strongly refreshing even though it produced no accompanying jump in energy.",
+      "evidence_locator": { "paragraph": "F", "sentence": 3 },
+      "feature_check": "Karıştırılabilecek öğe A: orman sonrasında altı olumsuz duygu durumundan beşinin anlamlı biçimde düşmesi de güçlü bir bulgu, aday 'en çarpıcı sonuç' deyince onu düşünebilir. Ama pasaj dereceyi kendisi koyuyor: 'bütün çalışmanın en açık etkisi' ifadesi yalnızca C'deki keskin artışa bağlanmış; A'nın bulgusu çoklu ama 'en açık' diye nitelenen o değil.",
+      "grammar_check": null,
+      "explanation": "Paragraf F, bütün çalışmanın en açık etkisinin, orman sonrasında keskin biçimde yükselen dinlendiricilik ölçeğinde görüldüğünü söylüyor.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 24,
+      "prompt": "Most of the unpleasant states it measures eased after the time among the trees.",
+      "answer": ["A"],
+      "evidence": "After the forest exposure, five of the six negative mood states measured by the Profile of Mood States, tension-anxiety, anger-hostility, depression-dejection, fatigue and confusion, all decreased significantly.",
+      "evidence_locator": { "paragraph": "F", "sentence": 1 },
+      "feature_check": "Karıştırılabilecek öğe B: o da olumsuz duyguları ölçüyor, bu yüzden 'hoş olmayan durumlar hafifledi' ifadesi ilk bakışta ikisine de yakışıyor — 24 asıl ayırt ediciliğini buradan alıyor. İki ipucu A'yı seçtiriyor: pasaj orman sonrası düşüşü açıkça 'Profile of Mood States ile ölçülen' durumlara bağlıyor (B'nin orman sonrası sonucu hiç verilmiyor, B yalnızca bina koşulunda anılıyor) ve 'çoğu' kaydı altı boyutun beşine oturuyor; B zaten iki uçlu tek bir ölçek, 'çoğu' orada karşılıksız kalıyor.",
+      "grammar_check": null,
+      "explanation": "Paragraf F, bu ölçeğin kaydettiği altı olumsuz duygu durumundan beşinin orman deneyiminden sonra anlamlı biçimde azaldığını söylüyor.",
+      "difficulty": "hard"
+    },
+    {
+      "number": 25,
+      "prompt": "After participants viewed the buildings, its scores fell to around half their earlier level.",
+      "answer": ["C"],
+      "evidence": "All five of the same negative mood indicators increased significantly, positive emotions on the broader affect scale fell while negative emotions rose, subjective vitality declined, and restorativeness scores dropped by roughly half compared with their level before the exposure, suggesting that even a calm, traffic-free campus scene was mildly draining relative to a walk in the snow.",
+      "evidence_locator": { "paragraph": "G", "sentence": 2 },
+      "feature_check": "Karıştırılabilecek öğe D: bina koşulundan sonra öznel canlılık da düştü, aynı cümlede anılıyor — 25 asıl ayırt ediciliğini buradan alıyor. Ama 'yaklaşık yarıya inme' ölçüsü pasajda yalnızca dinlendiricilik puanlarına bağlanmış; D'nin düşüşü için hiçbir büyüklük verilmiyor. Ölçünün sahibi C.",
+      "grammar_check": null,
+      "explanation": "Paragraf G, bina koşulundan sonra dinlendiricilik puanlarının, öncesindeki düzeye kıyasla kabaca yarıya düştüğünü söylüyor.",
+      "difficulty": "hard"
+    },
+    {
+      "number": 26,
+      "prompt": "Though briefer than the fullest measure, it registered feelings at both ends of the emotional range.",
+      "answer": ["B"],
+      "evidence": "The Positive and Negative Affect Schedule, a shorter 20-item scale, captured broader positive and negative emotional states.",
+      "evidence_locator": { "paragraph": "E", "sentence": 3 },
+      "feature_check": "Karıştırılabilecek öğe D: dört maddelik canlılık ölçeği listedeki en kısa araç, 'daha kısa' kaydını o da karşılıyor. Ama ifadenin ikinci yarısı eliyor: D yalnızca enerji duygusunu, yani tek ucu ölçüyor; duygu yelpazesinin iki ucunu birden (olumlu ve olumsuz) kaydeden, 65 maddelik en kapsamlı ölçekten kısa olan araç B. A da elenir: en dolu ölçek zaten kendisi, 'ondan kısa' tarifine uymaz.",
+      "grammar_check": null,
+      "explanation": "Paragraf E, bu ölçeğin 20 maddelik daha kısa bir araç olduğunu ve hem olumlu hem olumsuz duygu durumlarını kaydettiğini söylüyor.",
+      "difficulty": "medium"
+    }
+  ]
+}
