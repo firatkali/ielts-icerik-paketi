@@ -1,0 +1,82 @@
+{
+  "schema_version": "1.0",
+  "set_id": "T05-food",
+  "skill": "speaking",
+  "part": 1,
+  "topic": "Food",
+  "topic_tr": "Yemek",
+  "generated_by": "opus",
+  "expected_answer_seconds": [20, 40],
+  "items": [
+    {
+      "number": 1,
+      "prompt": "What kind of food do you eat most often?",
+      "focus": "alışkanlık",
+      "difficulty": "easy",
+      "useful_language": ["I live mainly on", "something quick and simple", "I'm not a fussy eater", "home-cooked meals"]
+    },
+    {
+      "number": 2,
+      "prompt": "How often do you eat together with family or friends?",
+      "focus": "alışkanlık",
+      "difficulty": "easy",
+      "useful_language": ["most evenings", "once or twice a week", "we make a point of", "our schedules rarely match"]
+    },
+    {
+      "number": 3,
+      "prompt": "Who does most of the cooking where you live?",
+      "focus": "temel bilgi",
+      "difficulty": "easy",
+      "useful_language": ["we take it in turns", "I do most of it myself", "I'm still learning", "I only cook the basics"]
+    },
+    {
+      "number": 4,
+      "prompt": "What did you like to eat when you were a child?",
+      "focus": "geçmiş",
+      "difficulty": "medium",
+      "useful_language": ["I was very fond of", "I couldn't stand", "my tastes have changed since then", "it takes me back"]
+    },
+    {
+      "number": 5,
+      "prompt": "Which meal of the day matters most to you, and why?",
+      "focus": "tercih ve sebep",
+      "difficulty": "medium",
+      "useful_language": ["it sets me up for the day", "that's when we all sit down", "I can take my time over it", "I tend to skip"]
+    },
+    {
+      "number": 6,
+      "prompt": "What kind of food would you never get tired of?",
+      "focus": "tercih",
+      "difficulty": "medium",
+      "useful_language": ["I could eat it every day", "you can't really go wrong with", "it never seems to get boring", "the flavour is quite mild"]
+    },
+    {
+      "number": 7,
+      "prompt": "Why do you think people enjoy eating out in restaurants?",
+      "focus": "başkaları açısı ve sebep",
+      "difficulty": "hard",
+      "useful_language": ["it's a social occasion", "no washing-up afterwards", "a chance to try something unfamiliar", "it feels like a treat"]
+    },
+    {
+      "number": 8,
+      "prompt": "How have eating habits in your area changed in recent years?",
+      "focus": "değişim",
+      "difficulty": "hard",
+      "useful_language": ["people are far more health-conscious", "ready meals have taken over", "there's much more variety now", "fewer families sit down together"]
+    },
+    {
+      "number": 9,
+      "prompt": "What kind of dish would you like to learn to cook?",
+      "focus": "gelecek",
+      "difficulty": "hard",
+      "useful_language": ["I'd love to master", "it looks trickier than it is", "I'd need someone to show me", "I've had a go at it before"]
+    },
+    {
+      "number": 10,
+      "prompt": "How is an ordinary weekday meal different from one prepared for a special occasion?",
+      "focus": "karşılaştırma",
+      "difficulty": "hard",
+      "useful_language": ["far more effort goes into it", "it's thrown together in minutes", "there are several courses", "everyone lends a hand"]
+    }
+  ]
+}

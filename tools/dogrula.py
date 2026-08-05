@@ -34,9 +34,64 @@ TIPE_OZEL = {
 TESTLER = [("content/reading/tests", ["AC1", "AC2", "AC3", "AC4", "GT1", "GT2"]),
            ("content/listening/tests", ["L1", "L2", "L3", "L4", "L5", "L6"])]
 
+# Konusma / yazma birimlerinde cevap anahtari yoktur (OPUS5-30), bu yuzden
+# ZORUNLU_ZARF / ZORUNLU_ITEM yerine kendi zorunlu alanlari denetlenir.
+SOZLU_YAZILI_ZARF = ["schema_version", "set_id", "skill", "generated_by"]
+
 
 def turkce_mi(s):
     return bool(re.search(r"[çğıöşüÇĞİÖŞÜ]", s))
+
+
+def konusma_yazma_denetle(p, d, hatalar, sayim):
+    """content/speaking ve content/writing altindaki birimleri denetler."""
+    for k in SOZLU_YAZILI_ZARF:
+        if k not in d:
+            hatalar.append("%s: zarf alani eksik '%s'" % (p, k))
+
+    if d.get("skill") == "speaking" and d.get("part") == 1:
+        items = d.get("items") or []
+        if not items:
+            hatalar.append("%s: items bos" % p)
+        for it in items:
+            for k in ["number", "prompt", "focus", "difficulty", "useful_language"]:
+                if k not in it:
+                    hatalar.append("%s: soru %s - alan eksik '%s'"
+                                   % (p, it.get("number"), k))
+        sayim["speaking/part1"] += len(items)
+
+    elif d.get("skill") == "speaking":
+        p2, p3 = d.get("part2") or {}, d.get("part3") or {}
+        for k in ["title", "bullets", "closing", "follow_up"]:
+            if not p2.get(k):
+                hatalar.append("%s: part2 alani eksik '%s'" % (p, k))
+        if len(p2.get("bullets") or []) != 3:
+            hatalar.append("%s: part2 tam 3 madde olmali" % p)
+        if not str(p2.get("closing", "")).lower().startswith("and explain"):
+            hatalar.append("%s: part2 closing 'and explain' ile baslamali" % p)
+        for it in (p3.get("items") or []):
+            for k in ["number", "prompt", "focus", "difficulty"]:
+                if k not in it:
+                    hatalar.append("%s: part3 soru %s - alan eksik '%s'"
+                                   % (p, it.get("number"), k))
+        if len(p3.get("items") or []) != 3:
+            hatalar.append("%s: part3 tam 3 soru olmali" % p)
+        sayim["speaking/part2-3"] += 1 + len(p3.get("items") or [])
+
+    elif d.get("skill") == "writing":
+        for k in ["module", "task", "prompt", "instruction_line", "min_words",
+                  "minutes", "key_points", "common_mistakes"]:
+            if k not in d:
+                hatalar.append("%s: zarf alani eksik '%s'" % (p, k))
+        if not (d.get("key_points") or []):
+            hatalar.append("%s: key_points bos" % p)
+        if d.get("task") == 1 and d.get("module") == "academic" \
+                and not (d.get("visual") or d.get("visuals")):
+            hatalar.append("%s: academic 1. gorevde visual/visuals yok" % p)
+        sayim["writing/task%s" % d.get("task")] += 1
+
+    else:
+        hatalar.append("%s: bilinmeyen skill '%s'" % (p, d.get("skill")))
 
 
 def main():
@@ -54,6 +109,10 @@ def main():
             d = ortak.oku(p)
         except Exception as e:
             hatalar.append("%s: JSON bozuk - %s" % (p, e))
+            continue
+
+        if d.get("skill") in ("speaking", "writing"):
+            konusma_yazma_denetle(p, d, hatalar, sayim)
             continue
 
         for k in ZORUNLU_ZARF:
@@ -150,6 +209,8 @@ def main():
             "i": d.get("instructions"),
             "s": [it.get("prompt") for it in ortak.sorular(d)],
             "p": d.get("paragraphs"), "t": d.get("texts"), "b": d.get("stem_block"),
+            # konusma / yazma birimleri (OPUS5-30)
+            "w": d.get("prompt"), "k2": d.get("part2"), "k3": d.get("part3"),
         }, ensure_ascii=False)
         if re.search(r"ielts", gorunur, re.I):
             ielts_gecen.append(p)

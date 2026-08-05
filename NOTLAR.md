@@ -3051,3 +3051,77 @@ okla verildi ki "merdivenin başında sağda" ifadesi tek anlama gelsin.
   90 alıştırma sorusu = 264). Dinleme tarafında geriye yalnızca `FABLE5-43` kaldı:
   her testte boş bırakılan **11–15 ve 21–26** aralıkları ile üç alıştırma dosyası
   (çoktan seçmeli tek cevaplı, çoktan seçmeli çok cevaplı, eşleştirme).
+
+## OPUS5-30 (1. çalıştırma: konuşma 1. bölüm — oturum 1, 5 konu × 10 soru)
+
+- Tarih: 2026-08-05
+- Depo kontrolü: `content/speaking/`, `content/writing/` ve bütün alt klasörleri
+  (`part1`, `part2-3`, `academic-task1`, `general-task1`, `task2`) **tamamen boştu**;
+  `NOTLAR.md` içinde "OPUS5-30" ya da "konuşma" geçen tek bir kayıt yoktu. Yani bu, bu
+  promptun gerçekten **1. çalıştırmasıydı** ve çalıştırma listesindeki ilk paket
+  (**Konuşma 1. bölüm, oturum 1**) yapıldı. **50 soru** üretildi, hedefle birebir aynı.
+- Üretilen dosyalar (prompt A bölümündeki oturum-1 konu dağılımına birebir uyuldu):
+  - `content/speaking/part1/T01-hometown.json` — memleket
+  - `content/speaking/part1/T02-accommodation.json` — ev / daire
+  - `content/speaking/part1/T03-work-or-study.json` — iş veya çalışma
+  - `content/speaking/part1/T04-free-time.json` — boş zaman
+  - `content/speaking/part1/T05-food.json` — yemek
+- **KULLANILAN KONULAR (sonraki oturumlar tekrar etmesin):** Hometown · Home and
+  accommodation · Work or study · Free time · Food.
+  **Oturum 2'ye kalan:** hava durumu ve mevsimler · müzik · ulaşım · alışveriş · arkadaşlar.
+  **Oturum 3:** spor ve egzersiz · fotoğraf · kitap ve okuma · teknoloji · uyku.
+  **Oturum 4:** seyahat · sanat ve el işi · hayvanlar · zaman yönetimi · komşuluk.
+- **Soru kurgusu kararı — "evet/hayır" kuralı ile "ilk 3 soru `Do you…?` olsun" tavsiyesi
+  çatışıyor.** Prompt hem `Do you…?` kalıbını örnek veriyor hem de "evet/hayırla kapanan
+  soru yazma" diyor. Çözüm: ilk üç soru da **wh- / how often** kalıbında yazıldı
+  (`Where is your hometown?`, `How often do you go into the centre…?`), yardımcı fiille
+  başlayan tek soru **seçenekli** kuruldu (`Do you work, or are you a student?` — resmî
+  örnekteki açılışın işlevsel karşılığı, kopya değil). Böylece hiçbir soru tek kelimeyle
+  kapanmıyor. **Sonraki oturumlar bu düzeni sürdürsün.**
+- Her sette 10 sorunun **odak (`focus`) alanları** promptun listesini dolaşıyor: temel bilgi
+  / tanımlama · alışkanlık · tercih · sebep · geçmiş · değişim · başkaları açısı ·
+  varsayım · gelecek · karşılaştırma. Set başına en az 7 farklı `focus` var, hiçbir soru
+  metni beş dosya boyunca tekrar etmiyor.
+- **Zorluk düzeni:** her sette 1–3 `easy`, 4–7 çoğunlukla `medium`, 8–10 `hard` (soyutlaşan
+  ve gerekçe isteyen sorular sona konuldu). 4. sorudan sonra hiç `easy` yok.
+- `useful_language`: soru başına 4 ifade, band 7 seviyesinde, İngiliz İngilizcesi
+  (`flat`, `centre`, `outskirts`, `washing-up`, `have a go at`). Kültürel tarafsızlık için
+  aday hakkında hiçbir varsayım yok: T02'de "kendi eviniz mi" sorulmuyor, T03 hem çalışan
+  hem öğrenci için işliyor, T05'te alkol/din/bayram geçmiyor, T01'de "ülkeniz" değil
+  "memleketiniz" ekseni kullanılıyor.
+- Doğrulama: geçici denetim scriptiyle (`tools/_sp1_kontrol.py`, sonra silindi) beş dosya
+  için JSON geçerliliği, zarf alanlarının tamlığı, `set_id` ↔ dosya adı eşleşmesi,
+  soru sayısı (tam 10), numaraların 1–10 sırası, her sorunun **tek cümle** olması (tek `?`,
+  ≤95 karakter), evet/hayırla kapanabilecek kalıpların yakalanması, `useful_language`
+  sayısı (3–5) ve içinde tekrar olmaması, zorluk düzeni, `focus` çeşitliliği ve "IELTS"
+  geçmemesi denetlendi — **ilk turda hata 0.**
+- ⚠️ **`tools/dogrula.py` genişletildi.** Script yalnız okuma/dinleme soru setleri için
+  yazılmıştı: her dosyada `test_id` · `practice` · `question_type` · `instructions` zarf
+  alanlarını ve her soruda `answer` · `explanation` · `evidence` arıyordu. Konuşma/yazma
+  birimlerinde **cevap anahtarı yok** (promptun kendi ifadesi), dolayısıyla beş yeni dosya
+  script'e 200'ü aşkın sahte hata bastırıyor ve çıkış kodunu 1 yapıp gerçek hataları
+  görünmez kılıyordu. Eklenen `konusma_yazma_denetle()` fonksiyonu `skill` alanı
+  `speaking`/`writing` olan dosyaları kendi şemasına göre denetliyor
+  (part1 → `items` + alanlar; part2-3 → tam 3 madde, `and explain…` ile başlayan `closing`,
+  3 tartışma sorusu; writing → `module`/`task`/`prompt`/`key_points`, academic 1. görevde
+  `visual` ya da `visuals` zorunlu) ve sayımı `speaking/part1`, `speaking/part2-3`,
+  `writing/task1|2` başlıklarıyla ayrı raporluyor. Telif taramasındaki `gorunur` sözlüğüne
+  de yazma `prompt`u ile `part2`/`part3` eklendi ki "IELTS" araması bu dosyaları da kapsasın.
+  Sonuç: `python tools/dogrula.py` → **şema hatası 0**, konuşma sorusu 50, görünür metinde
+  IELTS 0, yasak kaynak 0. **Sonraki OPUS5-30 oturumları bu denetimden geçmeli.**
+- ℹ️ **DURUM.txt sayacı için not:** `tools/calistir.py` içindeki `_soru_say()` yalnızca
+  üst düzey `items` / `groups` listesini sayıyor. Part 1 dosyaları doğru sayılıyor (50),
+  ama **part2-3 dosyalarında sorular `part2`/`part3` altında** olduğu için o paketler
+  geldiğinde DURUM.txt'deki "Konusma sorusu" satırı olduğundan az gösterecek. Sayaç
+  bilgilendirme amaçlı, üretimi engellemiyor; düzeltilecekse `_soru_say()`e part2-3 dalı
+  eklenmeli.
+- Referans: `referans/ielts-speaking-sample-tasks-2023.pdf` bu oturumda **`Read` aracıyla
+  sorunsuz açıldı** (önceki oturumlardaki poppler sorunu bu dosyada çıkmadı) ve yalnız
+  format referansı olarak kullanıldı: 1. bölümde görevlinin konu geçiş cümlesi + numaralı
+  kısa sorular düzeni, 2. bölümde `Describe …` + `You should say:` + üç madde + `and
+  explain …` kalıbı, 3. bölümde konudan soyutlanmış genel sorular. **Tek bir soru, cümle
+  ya da replik kopyalanmadı**; örnekteki konular (home town/accommodation) bizim oturum-1
+  listemizle örtüşüyor ama sorular baştan yazıldı.
+- Atlanan/sorun: yok. **OPUS5-30'da 16 paketten 1'i tamam (50/550 birim).** Sıradaki iş
+  **oturum 2** (hava durumu ve mevsimler · müzik · ulaşım · alışveriş · arkadaşlar),
+  yine `content/speaking/part1/` altına `T06`–`T10` kimlikleriyle.

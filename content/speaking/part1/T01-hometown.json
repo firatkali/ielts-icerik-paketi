@@ -1,0 +1,82 @@
+{
+  "schema_version": "1.0",
+  "set_id": "T01-hometown",
+  "skill": "speaking",
+  "part": 1,
+  "topic": "Hometown",
+  "topic_tr": "Memleket",
+  "generated_by": "opus",
+  "expected_answer_seconds": [20, 40],
+  "items": [
+    {
+      "number": 1,
+      "prompt": "Where is your hometown?",
+      "focus": "temel bilgi",
+      "difficulty": "easy",
+      "useful_language": ["it's located in", "in the north-east of", "a fair distance from", "a coastal town"]
+    },
+    {
+      "number": 2,
+      "prompt": "How would you describe the area where you grew up?",
+      "focus": "tanımlama",
+      "difficulty": "easy",
+      "useful_language": ["a quiet residential area", "fairly built-up", "surrounded by farmland", "there isn't much going on"]
+    },
+    {
+      "number": 3,
+      "prompt": "How often do you go into the centre of your hometown?",
+      "focus": "alışkanlık",
+      "difficulty": "easy",
+      "useful_language": ["every couple of weeks", "hardly ever", "whenever I get the chance", "it's only a short bus ride"]
+    },
+    {
+      "number": 4,
+      "prompt": "What do most people there do in their free time?",
+      "focus": "başkaları açısı",
+      "difficulty": "medium",
+      "useful_language": ["people tend to", "a popular thing to do is", "there's a market every", "families gather in"]
+    },
+    {
+      "number": 5,
+      "prompt": "Which part of your hometown do you enjoy most, and why?",
+      "focus": "tercih ve sebep",
+      "difficulty": "medium",
+      "useful_language": ["what I like about it is", "it has a certain atmosphere", "you can walk for miles", "it's away from the traffic"]
+    },
+    {
+      "number": 6,
+      "prompt": "What did you enjoy doing there when you were younger?",
+      "focus": "geçmiş",
+      "difficulty": "medium",
+      "useful_language": ["we used to", "I'd spend hours", "looking back on it", "it was where I first"]
+    },
+    {
+      "number": 7,
+      "prompt": "How has your hometown changed over the last ten years?",
+      "focus": "değişim",
+      "difficulty": "medium",
+      "useful_language": ["it's grown enormously", "they've knocked down", "it's become far busier", "a lot of new housing has gone up"]
+    },
+    {
+      "number": 8,
+      "prompt": "Why do some people prefer to stay in the town where they were born?",
+      "focus": "sebep",
+      "difficulty": "hard",
+      "useful_language": ["a sense of belonging", "close ties with", "familiar surroundings", "moving away is a big step"]
+    },
+    {
+      "number": 9,
+      "prompt": "What would make your hometown a better place for young families?",
+      "focus": "öneri ve gelecek",
+      "difficulty": "hard",
+      "useful_language": ["what it really needs is", "more green space", "affordable housing", "that would make a real difference"]
+    },
+    {
+      "number": 10,
+      "prompt": "How is your hometown different from other places you have lived in or visited?",
+      "focus": "karşılaştırma",
+      "difficulty": "hard",
+      "useful_language": ["compared with", "the pace of life is slower", "far less crowded", "it doesn't have the same"]
+    }
+  ]
+}
