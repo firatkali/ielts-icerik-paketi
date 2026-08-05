@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.0",
+  "set_id": "GT2-yes-no-not-given",
+  "skill": "reading",
+  "module": "general",
+  "test_id": "GT2",
+  "practice": false,
+  "passage_id": "G06",
+  "question_type": "yes_no_not_given",
+  "generated_by": "fable",
+  "instructions": "Do the following statements agree with the claims of the writer in the passage?\n\nIn boxes 33-36 on your answer sheet, write\n\nYES if the statement agrees with the claims of the writer\nNO if the statement contradicts the claims of the writer\nNOT GIVEN if it is impossible to say what the writer thinks about this",
+  "options": ["YES", "NO", "NOT GIVEN"],
+  "items": [
+    {
+      "number": 33,
+      "prompt": "Governments should be doing more to encourage people to volunteer.",
+      "answer": ["NOT GIVEN"],
+      "evidence": null,
+      "evidence_locator": null,
+      "contradiction_point": null,
+      "not_given_justification": "(1) Konu pasajda geçiyor: A/1 hükümetlerin ve yardım kuruluşlarının vatandaşları gönüllülüğe düzenli olarak teşvik ettiğini söylüyor. (2) Pasajda ifadeyi çürüten hiçbir cümle yok: yazar hiçbir yerde mevcut teşvikin yeterli ya da gereksiz olduğunu savunmuyor, dolayısıyla NO denemez. (3) Pasajda ifadeyi doğrulayan hiçbir cümle yok — dolaylı olarak bile: yazar gönüllülüğün gönüllüye faydası konusunda temkinli (I paragrafında nedenselliğin kanıtlanmadığını vurguluyor) ve herhangi bir politika önerisinde bulunmuyor; teşvikin artırılması gerektiği görüşü pasajın hiçbir yerinde yok.",
+      "scan_note": "Hükümet teşviki A/1'de geçiyor. I/3'teki çağrı bir deney tasarımına yönelik, hükümet politikasına değil; başka paragrafta hükümetler anılmıyor.",
+      "explanation": "Pasaj hükümetlerin gönüllülüğü teşvik ettiğini aktarıyor ama yazar bu teşvikin artırılması gerekip gerekmediği konusunda hiçbir görüş belirtmiyor.",
+      "difficulty": "hard"
+    },
+    {
+      "number": 34,
+      "prompt": "People's assessments of their own health are a dependable guide to their future health.",
+      "answer": ["YES"],
+      "evidence": "Self-rated health might seem like a subjective measure, but earlier research has repeatedly shown it to reliably predict future illness and mortality, which is one reason the team chose it as their main outcome.",
+      "evidence_locator": { "paragraph": "C", "sentence": 3 },
+      "contradiction_point": null,
+      "not_given_justification": null,
+      "scan_note": "Öz-bildirimli sağlık ölçüsü B/2'de tanımlanıyor (beş basamaklı ölçek); güvenilirliğine ilişkin yazar yargısı C/3'te. C/1–2 gönüllülerle gönüllü olmayanlar arasındaki farkı anlatıyor; hiçbir paragraf ölçünün güvenilmez olduğunu ileri sürmüyor.",
+      "explanation": "Yazar, öznel görünse de öz-bildirimli sağlığın gelecekteki hastalık ve ölümü güvenilir biçimde öngördüğünün önceki araştırmalarda defalarca gösterildiğini söylüyor.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 35,
+      "prompt": "The idea that volunteering can bring financial benefits is a plausible one.",
+      "answer": ["YES"],
+      "evidence": "One plausible explanation is that volunteering pays off financially: it can widen a person's professional network, build skills and demonstrate reliability to future employers, all of which might raise household income, and higher income is itself strongly linked to better self-rated health.",
+      "evidence_locator": { "paragraph": "E", "sentence": 1 },
+      "contradiction_point": null,
+      "not_given_justification": null,
+      "scan_note": "Mali açıklama E paragrafında ortaya konuyor: E/1 yazarın bu açıklamayı akla yatkın bulduğu cümle, E/2 verinin zincirin ilk yarısını desteklediğini söylüyor. F payın küçük çıktığını gösteriyor ama bu, açıklamanın akla yatkınlığını geri almıyor; yazar hiçbir yerde bu fikri reddetmiyor.",
+      "explanation": "Yazar, gönüllülüğün maddi olarak kazandırabileceği fikrini 'akla yatkın bir açıklama' olarak sunuyor; veri de gönüllülerin biraz daha yüksek gelir bildirdiğini doğruluyor.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 36,
+      "prompt": "Differences in income explain most of the health advantage associated with volunteering.",
+      "answer": ["NO"],
+      "evidence": "The remaining four-fifths, the larger part of the story by a wide margin, operated through some other mechanism the income data could not capture.",
+      "evidence_locator": { "paragraph": "F", "sentence": 3 },
+      "contradiction_point": "Yazar, gelirle açıklanamayan kalan beşte dörtlük payın 'açık farkla hikâyenin daha büyük kısmı' olduğunu ve başka bir mekanizmadan geçtiğini söylüyor; ifade çoğunluğu gelirin açıkladığını savunuyor. Çelişki tek noktada: gelir payının çoğunluk olup olmaması.",
+      "not_given_justification": null,
+      "scan_note": "Gelir mekanizmasının payı E (bağın kurulması), F (beşte birin epey altında kalması, kalan beşte dördün başka mekanizmada olması) ve G/3'te (her analizde payın mütevazı kalması) işleniyor. E/2 gelir-sağlık bağını doğruluyor ama payın çoğunluk olmadığını F söylüyor; G/3 aynı bulguyu yineliyor.",
+      "explanation": "Yazara göre gelir farkları toplam ilişkinin ancak küçük bir kısmını açıklıyor; açık farkla daha büyük olan beşte dörtlük kısım başka bir mekanizmadan geçiyor.",
+      "difficulty": "medium"
+    }
+  ]
+}

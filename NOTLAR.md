@@ -4859,3 +4859,59 @@ sınırında tartışmalı kaldığı için hiç yazılmadı.
 - **DURUM.txt / ilerleme.txt elle güncellenmedi** (sayaçları `tools/calistir.py` yazıyor).
 - Atlanan/sorun: yok. Sıradaki iş **6. çalıştırma: GT2 (pasaj G02 soru 8–14 TFNG +
   pasaj G06 soru 33–36 YES/NO/NOT GIVEN, toplam 11 soru)**.
+
+## FABLE5-40 (6. çalıştırma: GT2 — doğru / yanlış / verilmemiş + evet / hayır / verilmemiş, 11 soru)
+
+### Üretilen
+
+- `content/reading/tests/GT2/true-false-not-given.json` — G02 (Millbrook boş zaman
+  metin seti, A–E), soru 8–14, TRUE/FALSE/NOT GIVEN. Dağılım 3T/2F/2NG, sıra A3 → (B1)
+  → B3 → C3 → D3 → (E1) → E3. Cevaplar beş metnin beşine de yayılıyor. Kanıt cümleleri
+  aynı pasajı kullanan `matching-information.json`ın (soru 1–7) kanıtlarıyla hiç
+  çakışmıyor (o set A2/A4, B2, C4, D4, E2/E4 cümlelerini kullanıyor).
+- `content/reading/tests/GT2/yes-no-not-given.json` — G06 (gönüllülük-gelir-sağlık
+  çalışması), soru 33–36, YES/NO/NOT GIVEN. Dağılım 2Y/1N/1NG, sıra (A1) → C3 → E1 →
+  F3. Üç kanıt cümlesi de yazarın kendi sesindeki yargılar: C/3 (öz-bildirimli sağlık
+  "güvenilir öngörücü"), E/1 ("one plausible explanation"), F/3 ("açık farkla hikâyenin
+  daha büyük kısmı"). Aynı pasajı kullanan `summary-completion.json`ın kanıtlarıyla
+  (F2, G3, H1, I1) çakışma yok.
+
+### Taslakta elenen adaylar (4)
+
+1. "Damaged bicycles incur a £90 repair charge" (FALSE adayı, A/2) — pasaj 90 sterlini
+   iade edilene kadar tutulan geçici blokaj olarak anlatıyor, hasar hâlinde ne kadar
+   kesileceğini söylemiyor; FALSE ile NOT GIVEN arasında savunulabilir kaldı, Adım 1'de
+   kararsızlık çıkınca atıldı.
+2. "Swimmers are required to wear a cap during family sessions" (FALSE adayı, D/4) —
+   soru sağlamdı ama kanıt cümlesi (D/4) aynı testin matching-information 6. sorusunun
+   kanıtıyla birebir aynıydı ve aynı olguyu (zorunlu/isteğe bağlı bone) ikinci kez test
+   ediyordu; D/3'teki giriş ücreti FALSE'uyla (soru 12) değiştirildi.
+3. "Randomly assigning people to volunteer would be the best way to test whether
+   volunteering improves health" (YES adayı, I/3) — kanıt "They argue..." ile aktarılan
+   yazar görüşüydü, yazarın kendi sesi değil; GT1'de 3 no.lu adayın elenme gerekçesiyle
+   aynı nedenden atıldı.
+4. "The study offers definite proof that volunteering leads to better health" (NO adayı,
+   I/1) — kanıt cümlesi (I/1) summary-completion 40. sorusunun kanıtıyla birebir aynıydı
+   (betiğin komşu taraması uyarı verecekti); yerine F/3'e dayanan gelir-payı NO'su
+   (soru 36) kondu.
+
+### Doğrulama
+
+- `python tools/_f40_kontrol.py GT2` → iki paket de **hata 0, uyarı 0** (zarf, yönerge
+  kalıbı, numara aralıkları 8–14 / 33–36, birebir evidence + locator, FALSE/NO'da
+  contradiction_point, NG'de üç şartlı gerekçe, ≤20 kelime, 6 kelimelik örtüşme,
+  dağılım/ardışıklık, kanıt sırası, genelleme kotası, IELTS taraması). Betikte değişiklik
+  gerekmedi; G02'nin "a.m. / p.m." kısaltmaları 5. çalıştırmada eklenen korumayla
+  sorunsuz bölündü.
+- Gerileme: AC1–AC4 ve GT1 aynı betikle yeniden koşuldu → beşi de **hata 0, uyarı 0**.
+- Aşırı genelleme kotası: TFNG'de 1 soru ("every year", soru 9 — NG tuzağı olarak
+  bilinçli), YNNG'de 0; sınır 2, aşılmadı.
+- İfade kelime sayıları: TFNG 8–15, YNNG 10–14; hepsi tek cümle, tek iddia.
+- Son kontrol: 11 soru cevap anahtarına bakılmadan aday gibi baştan çözüldü, on biri de
+  anahtarla uyuştu — **son turda silinen soru yok** (elemeler yukarıda, taslak aşamasında).
+- `python tools/dogrula.py` → **şema hatası 0**, `reading/test` 159 → **170**,
+  GT2 20/40 → **31/40** (kalan eksikler 21–24 ve 28–32: FABLE5-41 ile FABLE5-42'nin işi).
+  Pasaj lisansı eksik 0, görünür metinde IELTS 0, yasak kaynak 0.
+- **DURUM.txt / ilerleme.txt elle güncellenmedi** (sayaçları `tools/calistir.py` yazıyor).
+- Atlanan/sorun: yok. Sıradaki iş **7. çalıştırma: TRUE/FALSE/NOT GIVEN alıştırması
+  (`content/reading/practice/true-false-not-given.json`, 15 soru)**.
