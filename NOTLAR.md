@@ -5636,3 +5636,71 @@ hiç kullanılmadı, kalan on soruda birer kez. Çeldirici türü çeşitliliği
 - Atlanan/sorun: yok. Sıradaki paket: **özellik eşleştirme alıştırması (10 soru)** —
   `content/reading/practice/matching-features.json`, `groups` sarmalayıcısıyla, birden
   fazla adlandırılmış aktörü olan pasajlardan; çalıştırma listesindeki 7. paket.
+
+## FABLE5-42 (6. çalıştırma: alıştırma — özellik eşleştirme, 10 soru)
+- Tarih: 2026-08-05
+- **Oturum başı durumu:** paket 1–5 (AC1–AC4 + GT1/GT2) ve paket 6 (başlık eşleştirme
+  alıştırması, `content/reading/practice/matching-headings.json`) depoda tam ve commit
+  edilmiş hâldeydi. Çalıştırma listesindeki ilk **üretilmemiş** paket, listedeki
+  **7. paket** olan özellik eşleştirme alıştırmasıydı. Hiçbir dosya yeniden üretilmedi.
+- Üretilen dosya (plan D bölümü): `content/reading/practice/matching-features.json` —
+  **2 küme × 5 soru = 10**, `groups` sarmalayıcısıyla, numaralar 1–10, `test_id: null`,
+  `practice: true`, `module: both` (bir akademik + bir GT pasajı).
+  - `P-MF-01` — pasaj **A10** (hangi ofis düzeni işe yarıyor), liste dört ofis düzeni
+    (A sade açık ofis / B bölgelere ayrılmış açık ofis / C sabit masasız düzen /
+    D takım ofisi), cevaplar **A, B, D, B, A**, `allow_repeat: true` + NB satırı
+  - `P-MF-02` — pasaj **G05** (ev içi gıda israfı), liste beş yiyecek-içecek türü
+    (A pirinç ve tahıllar / B sebzeler / C ekmek / D et, balık, yumurta /
+    E kahve ve çay), cevaplar **A, D, C, E, E**, `allow_repeat: true` + NB satırı
+- **Pasaj seçimi:** tam testlerde özellik eşleştirmesi A02, A05, A08, A11 üzerinden
+  sorulmuştu, bu dördü dışarıda bırakıldı. Kalan pasajlarda önce hangi olguların
+  başka tiplerde zaten sorulduğuna bakıldı; A10 (yalnızca AC4 not tamamlama + TFNG) ve
+  G05 (GT1 başlık eşleştirme + özet + YNNG) en az işlenmiş, aynı zamanda içinde
+  ayırt edilebilir **kategori listesi** barındıran iki pasaj olduğu için seçildi.
+  A10'da dört ofis düzeni, G05'te yiyecek-içecek türleri liste kuruyor.
+- **Elenen küme taslakları (2) — hepsi çakışma nedeniyle, soru silinmedi:**
+  1. **A06** (uzaktan çalışma) için kurulan "deneyimli ekip / üretken ekip / birinci yıl /
+     ikinci yıl" listesi atıldı: AC2 özet tamamlamada 38. soru zaten "yıldız çalışanların
+     yanında kazanç yok", 40. soru "deneyimli ekipler daha az mesajlaşıyor" bilgisini
+     soruyor; alıştırma aynı bilgiyi tekrar etmiş olurdu (plan D bölümü uyarısı).
+  2. **A07** (beyaz balina / ayna) için kurulan "ayna / saydam panel / gerçek işaret /
+     sahte işaret" listesi atıldı: AC3 tablo tamamlama işaretin boyutunu, 3 dk 40 sn'yi,
+     14 yaklaşmayı, 23 saniyeyi ve sağ göz tercihini zaten tüketmiş. Aynı nedenle A04
+     (Uranüs uydusu) da elendi — AC2 akış şeması pasajın sayısal ayrıntılarını almış.
+- **Elenen tekil ifade taslakları (3):**
+  1. A10 için "bu düzende odalar ses geçirmeyen kapılarla bölünmüştü" ifadesi atıldı —
+     AC4 not tamamlamanın 2. sorusu tam olarak `soundproof` cevabını istiyor; aynı
+     nedenle takım ofisinin "sesi emen paneller" ayrıntısı da (not tamamlama 3. soru)
+     kullanılmadı. Yerlerine D ve E paragraflarındaki sayısal karşılaştırmalar kondu.
+  2. A10 için "gözde bir düzen olmasına karşın karşılaştırma düzeninin altında kaldı"
+     (cevap C) ifadesi atıldı — AC4 TFNG 11. soru aynı karşılaştırmayı yapıyor. C böylece
+     hiçbir ifadeye cevap olmayan **boşta çeldirici** oldu (kural 5).
+  3. G05 için "gereğinden fazla hazırlandığı için atıldı" ilk taslağı, G paragrafındaki
+     "ailenin yiyebileceğinden çok pirinç pişirme" yüzünden A ile E arasında iki
+     savunulabilir cevap üretiyordu; ifade "içmek" fiiliyle yeniden yazılınca yalnızca
+     kahve/çaya (E) uyar hâle geldi. G05'te sebzeler (B) boşta çeldirici.
+- Bilerek kurulan yakın çiftler (kural 4): A10'da 2. ve 3. soru B ile D'yi yüzdelerden
+  ayırmaya zorluyor (memnuniyet %12'ye %8, algılanan üretkenlik %17'ye %10), 4. soruda
+  işe kapılma puanı cümlenin başında D'yi (%12) gösterip sonunda B'yi (%15) veriyor.
+  G05'te 6. soru A ile B'yi ("hemen arkada" olan sebzeler), 7. ve 8. soru aynı cümle
+  içindeki üç ayrı gerekçeyi (küflenme / doku değişikliği / kısa raf ömrü) ayırmayı
+  gerektiriyor.
+- **Doğrulama:**
+  - `python tools/_f42_kontrol.py content/reading/practice/matching-features.json` →
+    **0 sorun** (10 `evidence` A10/G05'te birebir, locator'lar doğru, liste 4 ve 5 öğe,
+    her kümede boşta çeldirici var, NB ile `allow_repeat` tutarlı, hiçbir ifade pasajdan
+    kopya değil).
+  - `python tools/dogrula.py` → **şema hatası 0**, `reading/practice` 140 → **150**,
+    okuma toplamı 390/400. Pasaj lisansı eksik 0, görünür metinde IELTS 0.
+  - Son kontrol: `tools/kor-kopya.py` ile anahtarsız kopya üretildi, 10 soru aday gibi
+    baştan çözüldü → **10/10 anahtarla uyuştu**; rapor
+    `content/DOGRULAMA/f42-alistirma-ozellik-eslestirme.json`. Silinen soru yok.
+  - `dogrulama/cevap/` içinde 5. çalıştırmadan kalan başlık eşleştirme cevap dosyası
+    duruyordu ve rapora karışıyordu (25 soru); silindikten sonra rapor yalnızca bu
+    paketi kapsıyor. `dogrulama/` zaten depoya gitmiyor.
+- **DURUM.txt / ilerleme.txt elle güncellenmedi** (sayaçları `tools/calistir.py` yazıyor).
+- Atlanan/sorun: yok. Sıradaki paket: **cümle sonu eşleştirme alıştırması (10 soru)** —
+  `content/reading/practice/matching-sentence-endings.json`, çalıştırma listesindeki
+  8. ve son paket. Orada dikkat: bütün sonlar bütün başlangıçlara **dilbilgisi olarak**
+  uymalı ve son sayısı soru sayısından en az 3 fazla olmalı (10 soru → en az 13 son),
+  `grammar_check` zorunlu, `example` null, sıra kuralı geçerli.

@@ -1,0 +1,173 @@
+{
+  "schema_version": "1.0",
+  "set_id": "practice-matching-features",
+  "skill": "reading",
+  "module": "both",
+  "test_id": null,
+  "practice": true,
+  "question_type": "matching_features",
+  "generated_by": "fable",
+  "passage_id": null,
+  "instructions": "Look at the statements in each set and the list of options given with that set. Match each statement with the correct letter and write it on your answer sheet.",
+  "groups": [
+    {
+      "group_id": "P-MF-01",
+      "passage_id": "A10",
+      "instructions": "Questions 1-5 refer to Passage A10 - What Kind of Office Actually Works?\n\nLook at the following statements and the list of office layouts below.\n\nMatch each statement with the correct layout, A-D.\nWrite the correct letter, A-D, in boxes 1-5 on your answer sheet.\n\nNB You may use any letter more than once.",
+      "option_list": {
+        "label": "List of Office Layouts",
+        "numbering": "letter",
+        "options": [
+          { "key": "A", "text": "the plain open-plan office used as the point of comparison" },
+          { "key": "B", "text": "the zoned open-plan design" },
+          { "key": "C", "text": "the activity-based design" },
+          { "key": "D", "text": "the team-office design" }
+        ]
+      },
+      "example": null,
+      "allow_repeat": true,
+      "items": [
+        {
+          "number": 1,
+          "prompt": "Readings taken here showed sound going beyond the level regarded as safe more frequently than anywhere else.",
+          "answer": ["A"],
+          "evidence": "Noise levels in the open-plan office exceeded recommended safe limits between 20 and 30 per cent more often than in any of the alternative designs.",
+          "evidence_locator": { "paragraph": "F", "sentence": 2 },
+          "heading_check": null,
+          "feature_check": "Karıştırılabilecek öğe C: etraflarında sabit masası olmayan, ortak alanlara ve gelip geçen konuşmalara açık bir düzen sezgisel olarak en gürültülü seçenek gibi durur, üstelik C bütün ölçümlerde en kötü sonucu almış durumda. Ama pasaj gürültü ölçümünü tek bir cümlede veriyor ve orada karşılaştırmayı açıkça 'seçeneklerin herhangi birinden' diye kuruyor — yani C dahil bütün alternatiflerin üstünde kalan, karşılaştırma ölçütü olarak kullanılan sade açık ofis. B ve D de elenir: ikisi de ses yalıtımlı kapılar ya da sesi emen paneller sayesinde bu ölçümde daha iyi durumda.",
+          "grammar_check": null,
+          "explanation": "Paragraf F, güvenli sınırın aşılmasının sade açık ofiste, öteki düzenlerin herhangi birine göre yüzde 20-30 daha sık görüldüğünü söylüyor.",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "prompt": "Of the four arrangements, this one brought the largest rise in how much work staff believed they were getting done.",
+          "answer": ["B"],
+          "evidence": "Compared with the open-plan baseline, the zoned open-plan layout produced 12 per cent higher satisfaction scores and 17 per cent higher perceived productivity, while the team-office design produced 8 per cent higher satisfaction and 10 per cent higher perceived productivity.",
+          "evidence_locator": { "paragraph": "D", "sentence": 2 },
+          "feature_check": "Karıştırılabilecek öğe D: takım ofisi de karşılaştırma düzenine göre algılanan üretkenliği artırıyor, dolayısıyla 'yükseldi' bilgisi tek başına ayırt etmiyor. Ayırt edici olan büyüklük: bölgelere ayrılmış açık ofiste yüzde 17, takım ofisinde yüzde 10. C zaten elenir, çünkü onun puanları karşılaştırma düzeninin altına düşüyor; A da elenir, ölçümün kendisi ona göre yapılıyor.",
+          "heading_check": null,
+          "grammar_check": null,
+          "explanation": "Paragraf D, algılanan üretkenlikteki en büyük artışın (yüzde 17) bölgelere ayrılmış açık ofiste görüldüğünü belirtiyor.",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "prompt": "Staff here were more content than in the layout used for comparison, but the gain fell short of what one of the other alternatives achieved.",
+          "answer": ["D"],
+          "evidence": "Compared with the open-plan baseline, the zoned open-plan layout produced 12 per cent higher satisfaction scores and 17 per cent higher perceived productivity, while the team-office design produced 8 per cent higher satisfaction and 10 per cent higher perceived productivity.",
+          "evidence_locator": { "paragraph": "D", "sentence": 2 },
+          "feature_check": "Karıştırılabilecek öğe B: iki düzen de memnuniyeti yükseltiyor, bu yüzden ifadenin ilk yarısı ikisine de uyuyor. Ayrım ikinci yarıda: 'bir başka seçeneğin ulaştığı artışın altında kalma' yalnızca yüzde 8'lik takım ofisi için doğru; yüzde 12 ile bölgelere ayrılmış açık ofis dördünün en yükseği, onun üstünde bir seçenek yok. C de yanlış olur, çünkü orada memnuniyet artmıyor, düşüyor.",
+          "heading_check": null,
+          "grammar_check": null,
+          "explanation": "Paragraf D'ye göre takım ofisi memnuniyeti yüzde 8 artırıyor; bu, bölgelere ayrılmış açık ofisin yüzde 12'lik artışının altında kalıyor.",
+          "difficulty": "hard"
+        },
+        {
+          "number": 4,
+          "prompt": "Employees working here said they were more deeply caught up in the task in front of them than in any other arrangement.",
+          "answer": ["B"],
+          "evidence": "Employees in team offices reported flow scores 12 per cent higher than those in the open-plan condition, and employees in the zoned open-plan design reported flow scores 15 per cent higher, suggesting that both partly enclosed layouts allowed for more sustained concentration than either the fully open or the fully unassigned arrangement.",
+          "evidence_locator": { "paragraph": "E", "sentence": 2 },
+          "feature_check": "Karıştırılabilecek öğe D: cümlede önce takım ofisi geçiyor ve o da açık ofisten yüzde 12 yüksek çıkıyor; sırayı takip eden aday ilk gördüğü seçeneği işaretleyebilir. Ama aynı cümlenin devamı bölgelere ayrılmış açık ofis için yüzde 15 veriyor, yani en yüksek değer onda. A ve C elenir: cümlenin sonu, kısmen kapalı iki düzenin hem tamamen açık hem de sabit masası olmayan düzenden daha sürekli bir odaklanma sağladığını söylüyor.",
+          "heading_check": null,
+          "grammar_check": null,
+          "explanation": "Paragraf E, işe kapılma puanlarının en yüksek olduğu düzenin yüzde 15 ile bölgelere ayrılmış açık ofis olduğunu gösteriyor.",
+          "difficulty": "hard"
+        },
+        {
+          "number": 5,
+          "prompt": "Once people had tried the alternatives, this was the arrangement they appeared least willing to go back to.",
+          "answer": ["A"],
+          "evidence": "Taken together, the researchers concluded that the open-plan office design, so often adopted as a cost-effective default, was rated more poorly by employees than every alternative tested, coincided with higher unsafe noise levels, and was the layout employees seemed least inclined to return to once they had experienced something else.",
+          "evidence_locator": { "paragraph": "H", "sentence": 1 },
+          "feature_check": "Karıştırılabilecek öğe C: puan tablosunda en kötü sonuç onda olduğu için 'kimsenin dönmek istemediği düzen' sezgisi adayı C'ye çekebilir. Ama geri dönme isteği ayrı bir bulgu: pasaj bunu yalnızca sade açık ofis için, hem masa doluluğundaki artışa hem de son değerlendirmeye dayanarak söylüyor; C için böyle bir davranış ölçümü verilmiyor.",
+          "heading_check": null,
+          "grammar_check": null,
+          "explanation": "Paragraf H, çalışanların başka bir düzeni denedikten sonra en az geri dönmek istedikleri düzenin sade açık ofis olduğunu belirtiyor.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "group_id": "P-MF-02",
+      "passage_id": "G05",
+      "instructions": "Questions 6-10 refer to Passage G05 - What Ends Up in the Rubbish: A Household Food Waste Study\n\nLook at the following statements and the list of food and drink types below.\n\nMatch each statement with the correct type, A-E.\nWrite the correct letter, A-E, in boxes 6-10 on your answer sheet.\n\nNB You may use any letter more than once.",
+      "option_list": {
+        "label": "List of Food and Drink Types",
+        "numbering": "letter",
+        "options": [
+          { "key": "A", "text": "rice and other cereals" },
+          { "key": "B", "text": "vegetables" },
+          { "key": "C", "text": "bread" },
+          { "key": "D", "text": "meat, fish and eggs" },
+          { "key": "E", "text": "coffee and tea" }
+        ]
+      },
+      "example": null,
+      "allow_repeat": true,
+      "items": [
+        {
+          "number": 6,
+          "prompt": "By weight, households got rid of more of this than of anything else they could still have eaten.",
+          "answer": ["A"],
+          "evidence": "Rice and other cereals accounted for the single largest share of edible waste, at nearly 17 kilograms per person annually, with vegetables close behind.",
+          "evidence_locator": { "paragraph": "E", "sentence": 1 },
+          "feature_check": "Karıştırılabilecek öğe B: aynı cümle sebzeleri hemen arkada gösteriyor ve pasajın başka yerlerinde sebzeler tahıllarla birlikte anılıyor, bu yüzden ikisi de akla yakın duruyor. Ama 'en büyük tek pay' açıkça pirinç ve tahıllara veriliyor; sebzeler ikinci sırada. D ve E elenir: bunların ağırlıkları çok daha küçük, içecekler kişi başına yarım kilonun altında.",
+          "heading_check": null,
+          "grammar_check": null,
+          "explanation": "Paragraf E, yenebilir atığın en büyük tek payının kişi başına yılda yaklaşık 17 kilo ile pirinç ve öteki tahıllara ait olduğunu, sebzelerin hemen arkadan geldiğini söylüyor.",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "prompt": "What was thrown out in this group was lost mainly because the food no longer felt as it should.",
+          "answer": ["D"],
+          "evidence": "Spoilage and mould accounted for most losses of rice, vegetables, bread and packaged goods; changes in texture explained much of the waste among meat, fish, eggs, tofu and tempeh; and short shelf life was blamed for bread in particular.",
+          "evidence_locator": { "paragraph": "G", "sentence": 2 },
+          "feature_check": "Karıştırılabilecek öğe A ve B: aynı cümle onların da neden atıldığını veriyor, dolayısıyla 'bozulma' ile 'dokunun değişmesi' birbirine karışabilir. Ama cümle bu iki nedeni ayrı ayrı ve farklı yiyeceklere bağlıyor: küflenme pirinç, sebze, ekmek ve paketli ürünler için; dokudaki değişme ise et, balık, yumurta ve soya ürünleri için. C de elenir, ekmeğin kendi nedeni cümlenin sonunda ayrıca veriliyor.",
+          "heading_check": null,
+          "grammar_check": null,
+          "explanation": "Paragraf G, dokudaki değişikliğin et, balık ve yumurta gibi ürünlerdeki atığın büyük bölümünü açıkladığını belirtiyor.",
+          "difficulty": "medium"
+        },
+        {
+          "number": 8,
+          "prompt": "This one was named on its own as being thrown away because it stayed usable for only a short while.",
+          "answer": ["C"],
+          "evidence": "Spoilage and mould accounted for most losses of rice, vegetables, bread and packaged goods; changes in texture explained much of the waste among meat, fish, eggs, tofu and tempeh; and short shelf life was blamed for bread in particular.",
+          "evidence_locator": { "paragraph": "G", "sentence": 2 },
+          "feature_check": "Karıştırılabilecek öğe D: et ve balık da çabuk bozulan ürünler olduğu için 'kısa süre dayanma' onlara da yakışıyor. Ama pasaj bu nedeni tek bir ürüne, ekmeğe bağlıyor ve bunu 'özellikle' diyerek ayırıyor; et ve balık için verdiği neden dokudaki değişiklik. A ve B elenir: onların nedeni küflenme olarak veriliyor.",
+          "heading_check": null,
+          "grammar_check": null,
+          "explanation": "Paragraf G'nin son bölümü, kısa raf ömrünün özellikle ekmek için gösterilen neden olduğunu söylüyor.",
+          "difficulty": "medium"
+        },
+        {
+          "number": 9,
+          "prompt": "Households kept a written record of what they threw out in this group instead of it being weighed from their bins.",
+          "answer": ["E"],
+          "evidence": "Discarded drinks were tracked separately: participants kept a seven-day diary noting the type and amount of any beverage poured away.",
+          "evidence_locator": { "paragraph": "B", "sentence": 2 },
+          "feature_check": "Karıştırılabilecek öğe A: pirinç en çok atılan ürün olduğu için ölçüm yönteminin de ona özel olduğu düşünülebilir. Ama pasaj katı yiyeceklerin hepsinin sekiz gün boyunca toplanıp tartıldığını, yalnızca dökülen içeceklerin ayrı tutulup yedi günlük bir günlükle kaydedildiğini söylüyor. B, C ve D de aynı nedenle elenir: hepsi katı yiyecek, hepsi tartılmış.",
+          "heading_check": null,
+          "grammar_check": null,
+          "explanation": "Paragraf B, dökülen içeceklerin tartılmadığını, katılımcıların tuttuğu yedi günlük bir günlükle kaydedildiğini belirtiyor.",
+          "difficulty": "medium"
+        },
+        {
+          "number": 10,
+          "prompt": "The usual reason for getting rid of this was that a larger amount had been made than anyone wanted to drink.",
+          "answer": ["E"],
+          "evidence": "Beverages made up a smaller but still measurable part of the total: households poured away an average of 0.3 kilograms of coffee and 0.2 kilograms of tea per person each year, most often because a pot or cup had been made larger than anyone actually wanted to finish.",
+          "evidence_locator": { "paragraph": "F", "sentence": 1 },
+          "feature_check": "Karıştırılabilecek öğe A: 'gereğinden fazla hazırlama' gerekçesi pasajda pirinç için de geçiyor — bir ailenin yiyebileceğinden çok pirinç ya da yemek pişirmek sayılan nedenler arasında. Ayrım fiilde: burada söz konusu olan içmek, yani demlenen ya da doldurulan miktarın fazla gelmesi; bu da yalnızca kahve ve çaya uyuyor. B, C, D elenir, onlar için verilen nedenler bozulma, raf ömrü ve doku değişikliği.",
+          "heading_check": null,
+          "grammar_check": null,
+          "explanation": "Paragraf F, kahve ve çayın çoğunlukla demlenen ya da doldurulan miktarın içilebilecekten fazla olması yüzünden döküldüğünü söylüyor.",
+          "difficulty": "hard"
+        }
+      ]
+    }
+  ]
+}
