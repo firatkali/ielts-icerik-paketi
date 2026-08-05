@@ -1,0 +1,82 @@
+{
+  "schema_version": "1.0",
+  "set_id": "AC2-multiple-choice",
+  "skill": "reading",
+  "module": "academic",
+  "test_id": "AC2",
+  "practice": false,
+  "passage_id": "A06",
+  "question_type": "multiple_choice",
+  "generated_by": "fable",
+  "instructions": "Choose the correct letter, A, B, C or D.\nWrite the correct letter in boxes 32 and 33 on your answer sheet.\n\nChoose TWO letters, A-G.\nWrite the correct letters in boxes 34 and 35 on your answer sheet.",
+  "items": [
+    {
+      "number": 32,
+      "select_count": 1,
+      "prompt": "What did combining the three sets of records allow the researchers to do?",
+      "options": [
+        { "letter": "A", "text": "Follow employees as they moved between departments" },
+        { "letter": "B", "text": "See each person's output alongside who their teammates were" },
+        { "letter": "C", "text": "Check company figures against what staff reported themselves" },
+        { "letter": "D", "text": "Cover a longer period than one source alone" }
+      ],
+      "answer": ["B"],
+      "evidence": "Combining these three sources let the researchers see not only how much each employee produced, but who they were working alongside and how often they exchanged messages with teammates in a given month.",
+      "evidence_locator": { "paragraph": "B", "sentence": 4 },
+      "distractor_analysis": {
+        "A": "Kapsam kaydırma — kayıtlar tek bir departmandan alınıyor, dolayısıyla departmanlar arası hareketi izlemek söz konusu değil; kaynaklardan birinin personel dosyaları olması bunu akla yatkın kılıyor.",
+        "C": "Yakın ama eksik — çalışanın kendi beyanına dayanan ölçüler pasajda anılıyor, ama karşılaştırma malzemesi olarak değil, kaçınılan bir belirsizlik kaynağı olarak.",
+        "D": "Cazip ama yok — inceleme dönemi bir yılla sınırlı ve bu süre kaynak sayısına bağlı değil; birleştirmenin sağladığı şey daha uzun süre değil, daha geniş bilgi."
+      },
+      "explanation": "Paragraf B, üç kaynağın birleştirilmesinin araştırmacılara yalnız her çalışanın ne kadar ürettiğini değil, kiminle birlikte çalıştığını ve takım arkadaşlarıyla ne sıklıkta yazıştığını da gösterdiğini söylüyor.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 33,
+      "select_count": 1,
+      "prompt": "What did the finding on internal messaging call into question?",
+      "options": [
+        { "letter": "A", "text": "The claim that messaging can be measured at all" },
+        { "letter": "B", "text": "The finding that new staff gain from experience" },
+        { "letter": "C", "text": "The rule that teams are formed by joining order" },
+        { "letter": "D", "text": "The idea that experienced teams communicate more" }
+      ],
+      "answer": ["D"],
+      "evidence": "A further finding complicated the obvious explanation that experienced teams simply talk to one another more.",
+      "evidence_locator": { "paragraph": "G", "sentence": 1 },
+      "distractor_analysis": {
+        "A": "Cazip ama yok — mesajlaşma kayıtları üç veri kaynağından biri olarak sayılıyor, yani ölçülebilirlikleri tartışma konusu değil.",
+        "B": "Kapsam kaydırma — yeni çalışanların deneyimli takımlardan kazandığı belirtiliyor ve bu bulgu çürütülmüyor, tersine sayılarla destekleniyor.",
+        "C": "Yer değiştirme — katılma sırasına göre takım kurma gerçekten şirketin kuralı, ama mesajlaşma bulgusu bu kuralı değil, deneyimle iletişim arasında varsayılan bağı sarsıyor."
+      },
+      "explanation": "Paragraf G, deneyimli takımların birbiriyle daha çok konuştuğu yolundaki apaçık görünen açıklamanın yeni bir bulguyla karmaşıklaştığını söylüyor.",
+      "difficulty": "medium"
+    },
+    {
+      "number": "34-35",
+      "select_count": 2,
+      "prompt": "Which TWO reasons are given for star colleagues having no effect?",
+      "options": [
+        { "letter": "A", "text": "Teams were formed by joining order" },
+        { "letter": "B", "text": "Top performers were scattered across teams" },
+        { "letter": "C", "text": "Pay reflects each employee's own output" },
+        { "letter": "D", "text": "New staff were excluded from the analysis" },
+        { "letter": "E", "text": "Star performers messaged teammates less often" },
+        { "letter": "F", "text": "Colleagues never meet one another in person" },
+        { "letter": "G", "text": "Contracts fix the hours each worker gives" }
+      ],
+      "answer": ["C", "F"],
+      "evidence": "In an office, visibly high-performing colleagues can motivate others through social comparison and peer pressure, but Caster pays employees according to individual output alone, removing much of the incentive to match a team's overall performance; without face-to-face contact to reinforce that pressure further, it appears to have little effect at all.",
+      "evidence_locator": { "paragraph": "H", "sentence": 2 },
+      "distractor_analysis": {
+        "A": "Yakın ama eksik — takımların katılma sırasına göre kurulduğu doğru, ama bu kural etkinin neden görünmediğini değil, bulgunun neden güvenilir sayıldığını açıklıyor.",
+        "B": "Yer değiştirme — en iyi çalışanları takımlara dağıtmak metinde uygulanmış bir düzen olarak değil, yazarın sonunda önermediği bir yönetim alışkanlığı olarak geçiyor.",
+        "D": "Kapsam kaydırma — dışarıda bırakılan şey çalışanların ilk altı ayı; yeni personelin kendisi analizde var, üstelik en büyük kazanç onlarda bulunuyor.",
+        "E": "Yer değiştirme — az iletişimle ilgili bulgu, verimli çalışanların düşük iletişimli ortamlarda daha iyi iş çıkardığını söylüyor; bu kişilerin daha az mesaj yazdığı iddia edilmiyor.",
+        "G": "Yakın ama eksik — her sözleşmenin sabit otuz saat ayırdığı doğru, ama bu bilgi çıktının nasıl ölçüldüğüyle ilgili, akran etkisinin yokluğuyla değil."
+      },
+      "explanation": "Paragraf H, şirketin yalnızca bireysel çıktıya göre ödeme yapmasının takıma yetişme güdüsünü ortadan kaldırdığını, yüz yüze temas da olmadığı için akran baskısının neredeyse hiç işlemediğini söylüyor.",
+      "difficulty": "hard"
+    }
+  ]
+}

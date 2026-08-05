@@ -5033,3 +5033,77 @@ sınırında tartışmalı kaldığı için hiç yazılmadı.
 - **DURUM.txt / ilerleme.txt elle güncellenmedi** (sayaçları `tools/calistir.py` yazıyor).
 - Atlanan/sorun: yok. FABLE5-40'ın 8 iş paketinin tamamı üretildi (AC1–AC4 TFNG,
   GT1–GT2 TFNG+YNNG, alıştırma TFNG, alıştırma YNNG = 80 soru) — **FABLE5-40 tamam**.
+
+---
+
+## FABLE5-41 (1. çalıştırma: AC1 + AC2 — çoktan seçmeli, 8 soru)
+
+Üretilen: `content/reading/tests/AC1/multiple-choice.json` (A03, soru 32–35) ve
+`content/reading/tests/AC2/multiple-choice.json` (A06, soru 32–35). Her iki grup da
+promptun açık talimatına göre kuruldu: **32, 33 tek cevaplı (A–D) + 34–35 çift cevaplı
+(A–G, iki numara tek soru)**. Kontrol listesindeki "3 tek + 1 çift" ifadesi 5 numara
+gerektirirdi; plandaki 32–35 aralığı 4 numara olduğu için promptun somut yerleşim
+talimatı esas alındı.
+
+### Kanıt seçimi — en sıkı kısıt buydu
+
+A03 ve A06'nın cümlelerinin büyük bölümü zaten harcanmıştı (AC1/AC2 bilgi eşleştirme +
+özet tamamlama, ayrıca alıştırma paketleri). Çakışmayı önlemek için önce her iki pasajın
+**kullanılmamış cümleleri** çıkarıldı ve sorular yalnız onlara dayandırıldı:
+
+| Soru | Kanıt | Durum |
+|---|---|---|
+| AC1 32 | A03 B/1 + B/3 | hiçbir pakette kullanılmamış |
+| AC1 33 | A03 D/1 | hiçbir pakette kullanılmamış |
+| AC1 34–35 | A03 F/1 + G/1 | hiçbir pakette kullanılmamış |
+| AC2 32 | A06 B/4 | hiçbir pakette kullanılmamış |
+| AC2 33 | A06 G/1 | hiçbir pakette kullanılmamış |
+| AC2 34–35 | A06 H/2 | **alıştırma not tamamlama 3 ile aynı cümle** |
+
+Son satır tek istisna: A06'da tek cümlede iki ayrı sebep barındıran başka yer kalmamıştı
+(çift cevaplı soru bunu gerektiriyor). Hedef bilgi farklı — alıştırma "individual output"
+boşluğunu doldurtuyor, buradaki soru yıldız çalışanların etkisiz kalmasının iki sebebini
+sordurtuyor. AC2'nin kendi 27–31 ve 36–40 sorularıyla çakışma yok.
+
+### Sıra kuralı
+
+Promptun 3. soru kökü kuralı gereği kanıtlar metin sırasını izliyor:
+A03 → B/1, D/1, F/1–G/1 · A06 → B/4, G/1, H/2. Cevaplar tek paragrafta yığılmıyor.
+
+### Çeldiriciler
+
+Her soruda en az üç ayrı çeldirici türü var; "pasajda geçmiyor" gerekçesi soru başına
+en fazla bir kez kullanıldı (AC2 34–35'te hiç kullanılmadı — beş çeldiricinin beşi de
+pasajda dayanağı olan yanlış okumalar).
+
+Taslakta değiştirilen çeldiriciler (savunulabilirlik testinde elenenler, 3):
+
+1. AC1 34–35, "Records of the water's acidity and temperature" — soru kökü "dalgıçların
+   topladığı malzeme" iken aletlerin sürekli kaydettiği veriler de "sonradan analiz için
+   alındı" diye savunulabiliyordu. Sorunun tamamı D paragrafından F–G'ye taşındı
+   (ayrıca D/2 zaten AC1 özet tamamlamada kanıt olarak kullanılmıştı).
+2. AC1 32, "The reef has grown back since the volcano collapsed" — aynı fikir 33'te de
+   çeldirici olacaktı; tekrarı önlemek için "To account for the unusual warmth of the
+   surrounding sea" (yer değiştirme) ile değiştirildi.
+3. AC2 34–35, "Managers gave experienced employees fewer check-ins" — H/4'te bu bir
+   **öneri**, uygulanmış bir düzen değil; aynı listede B seçeneğiyle (yıldızların
+   dağıtılması) anlamca fazla yakındı. Yerine "Star performers messaged teammates less
+   often" (G/2'nin bulgusunu özneye kaydıran yer değiştirme) kondu.
+
+### Doğrulama
+
+- Altı sorunun altısında `evidence` pasajda **birebir** bulundu (Grep ile tek tek
+  arandı, hepsi 1 eşleşme).
+- Seçenek uzunlukları dengeli: her grupta en uzun seçenek en kısanın iki katının altında.
+- Doğru cevap harfleri: AC1 → B, A, {C,F} · AC2 → B, D, {C,F}. Üst üste aynı harf yok.
+- Ölçülen beceriler ayrışıyor: AC1 → yazarın amacı / ayrıntı / kapsam;
+  AC2 → ayrıntı / argüman yapısı / sebep.
+- Kök + seçenekler tek cevaplı sorularda 40–46 kelime (sınır 60).
+- `python tools/dogrula.py` → **şema hatası 0**, `reading/test` 170 → **178**.
+  AC1 ve AC2 artık 31/40 (kalan eksikler 14–18 ve 23–26, yani FABLE5-42'nin işi).
+  Pasaj lisansı eksik 0, görünür metinde IELTS 0, yasak kaynak 0.
+- Son kontrol: altı soru da cevap anahtarına bakılmadan aday gibi baştan çözüldü, altısı
+  da anahtarla uyuştu — **son turda silinen soru yok** (elemeler yukarıda, taslak
+  aşamasında).
+- **DURUM.txt / ilerleme.txt elle güncellenmedi** (sayaçları `tools/calistir.py` yazıyor).
+- Atlanan/sorun: yok. Sıradaki paket **2. çalıştırma: AC3 + AC4**.
