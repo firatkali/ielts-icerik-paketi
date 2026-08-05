@@ -5183,3 +5183,68 @@ AC4 34–35'te hiç kullanılmadı.
   aşamasında).
 - **DURUM.txt / ilerleme.txt elle güncellenmedi** (sayaçları `tools/calistir.py` yazıyor).
 - Atlanan/sorun: yok. Sıradaki paket **3. çalıştırma: GT1 + GT2 (soru 21–24)**.
+
+## FABLE5-41 (3. çalıştırma: GT1 + GT2 — çoktan seçmeli, 8 soru)
+
+Üretilen: `content/reading/tests/GT1/multiple-choice.json` (G03, soru 21–24) ve
+`content/reading/tests/GT2/multiple-choice.json` (G04, soru 21–24). Yerleşim AC'deki
+düzenin GT karşılığı: **21, 22 tek cevaplı (A–D) + 23–24 çift cevaplı (A–G, iki numara
+tek soru)**.
+
+### Kanıt seçimi
+
+GT 2. bölüm setlerinin (G03, G04) zaten ikişer paketi vardı (GT1: not tamamlama 15–20 +
+cümle tamamlama 25–27; GT2: tablo tamamlama 15–20 + cümle tamamlama 25–27). O paketlerin
+kullandığı cümleler önce çıkarıldı, sorular kalanlara dayandırıldı:
+
+| Soru | Kanıt | Durum |
+|---|---|---|
+| GT1 21 | G03 A-metni C/2 | C/1 (kart okuyucu) not 17'de; C/2 hiç kullanılmamış |
+| GT1 22 | G03 A-metni D/2 | D/1 (takas formu) not 18'de; D/2 hiç kullanılmamış |
+| GT1 23–24 | G03 B-metni C/2 + C/3 | C/1'in "double time" kısmı cümle 26'da; C/2–3 hiç kullanılmamış |
+| GT2 21 | G04 A-metni D/2 | D/1 (mentor) tablo 20'de; D/2 hiç kullanılmamış |
+| GT2 22 | G04 B-metni A/2 | A/1 (deneme süresi) cümle 25'te; A/2 hiç kullanılmamış |
+| GT2 23–24 | G04 B-metni B/4 + D/1 | B/5'in ekipman kısmı cümle 26'da; B/4 ve D/1 hiç kullanılmamış |
+
+### Sıra kuralı
+
+Kanıtlar metin sırasını izliyor: G03 → A-metni C, A-metni D, B-metni C · G04 → A-metni D,
+B-metni A, B-metni B–D. Cevaplar iki metne de yayılıyor.
+
+### Çeldiriciler
+
+Taslakta elenen/değiştirilenler (savunulabilirlik testi, 3):
+
+1. GT1 22'de "istek yalnızca bir gün önceden yapıldıysa" çeldiricisi atıldı — 48 saat
+   kuralına göre bu da geçerli bir ret sebebi olurdu, yani **savunulabilirdi**. Yerine
+   panodaki düzeni değiştirme (cazip ama yok) kondu.
+2. GT2 23–24'te "haftada en az iki gün ofise gelmek" çeldirisi atıldı — uzaktan çalışma
+   en fazla üç günle sınırlı olduğundan beş günlük haftada bu **matematiksel olarak
+   doğru** çıkıyordu. Yerine ofiste düzenli toplantı (cazip ama yok) kondu.
+3. GT2 22'de "düzenlemeleri daha sık gözden geçirilir" çeldirisi, soru içinde çeldirici
+   türü çeşitliliği ikiye düştüğü için ekipman ödemesine (cazip ama yok) çevrildi.
+
+"Pasajda geçmiyor" gerekçesi soru başına en fazla bir kez kullanıldı; GT1 21, GT1 22,
+GT2 22 ve GT2 23–24'te birer kez, GT1 23–24 ve GT2 21'de hiç.
+
+### Doğrulama
+
+- Altı sorunun altısında `evidence` pasajda **birebir** bulundu
+  (`tools/_f41_gt_kontrol.py` ile `passages/general/G03.json` ve `G04.json` tam metnine
+  karşı arandı; betik depoda duruyor).
+- Her çeldirici için `distractor_analysis` dolu; harf kümesi doğru cevap hariç bütün
+  seçeneklerle birebir eşleşiyor (betik kontrol ediyor).
+- Seçenek uzunlukları dengeli: en uzun ≤ 2 × en kısa (betik kontrol ediyor, uyarı 0).
+- Kök + seçenekler: GT1 42 / 40 / 58, GT2 45 / 49 / 59 kelime (sınır 60).
+- Hiçbir seçenek pasaj metninde birebir geçmiyor (betik kontrol ediyor).
+- Doğru cevap harfleri: GT1 → A, C, {B,E} · GT2 → C, A, {B,D}. Üst üste aynı harf yok.
+- Ölçülen beceriler ayrışıyor: GT1 → prosedür / ret koşulu / politika taraması;
+  GT2 → koşullu çıkarım / belirli grup hakkında ayrıntı / yükümlülük taraması.
+- `python tools/dogrula.py` → **şema hatası 0**, `reading/test` 186 → **194**.
+  GT1 ve GT2 artık 35/40 (kalan eksik 28–32, yani FABLE5-42'nin başlık eşleştirmesi).
+  Pasaj lisansı eksik 0, görünür metinde IELTS 0, yasak kaynak 0.
+- Son kontrol: altı soru da cevap anahtarına bakılmadan aday gibi baştan çözüldü, altısı
+  da anahtarla uyuştu — **son turda silinen soru yok** (elemeler yukarıda, taslak
+  aşamasında).
+- **DURUM.txt / ilerleme.txt elle güncellenmedi** (sayaçları `tools/calistir.py` yazıyor).
+- Atlanan/sorun: yok. Sıradaki paket **4. çalıştırma: alıştırma (15 soru)**.

@@ -1,0 +1,82 @@
+{
+  "schema_version": "1.0",
+  "set_id": "GT1-multiple-choice",
+  "skill": "reading",
+  "module": "general",
+  "test_id": "GT1",
+  "practice": false,
+  "passage_id": "G03",
+  "question_type": "multiple_choice",
+  "generated_by": "fable",
+  "instructions": "Choose the correct letter, A, B, C or D.\nWrite the correct letter in boxes 21 and 22 on your answer sheet.\n\nChoose TWO letters, A-G.\nWrite the correct letters in boxes 23 and 24 on your answer sheet.",
+  "items": [
+    {
+      "number": 21,
+      "select_count": 1,
+      "prompt": "What must an employee who forgets their clock-in card do?",
+      "options": [
+        { "letter": "A", "text": "Tell their supervisor before the shift is over" },
+        { "letter": "B", "text": "Ask the staff office to record their hours" },
+        { "letter": "C", "text": "Collect a spare card from the staff entrance" },
+        { "letter": "D", "text": "Accept that the day's pay will be delayed" }
+      ],
+      "answer": ["A"],
+      "evidence": "Employees who forget their card should report to their supervisor within the same shift; repeated failure to clock in correctly may result in pay being withheld until hours are verified manually.",
+      "evidence_locator": { "text": "A", "paragraph": "C", "sentence": 2 },
+      "distractor_analysis": {
+        "B": "Yer değiştirme — personel ofisi pasajda vardiya değişim formunun alındığı yer; saatlerin elle doğrulanması ise tekrarlanan ihmallerde devreye giren işlem, kartını unutan çalışanın başvuracağı yol değil.",
+        "C": "Cazip ama yok — kart okuyucunun personel girişinde olduğu söyleniyor ama yedek karttan hiç söz edilmiyor; makul göründüğü için seçiliyor.",
+        "D": "Kapsam kaydırma — maaşın bekletilmesi tek seferlik unutmanın değil, tekrar tekrar doğru giriş yapmamanın sonucu olarak veriliyor."
+      },
+      "explanation": "A metninin C paragrafı, kartını unutan çalışanın aynı vardiya içinde amirine haber vermesi gerektiğini söylüyor.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 22,
+      "select_count": 1,
+      "prompt": "A shift swap will be turned down if it would",
+      "options": [
+        { "letter": "A", "text": "leave a worker with too many weekly hours." },
+        { "letter": "B", "text": "alter the pattern shown on the noticeboard." },
+        { "letter": "C", "text": "give too little rest between two shifts." },
+        { "letter": "D", "text": "take too many people out of one team." }
+      ],
+      "answer": ["C"],
+      "evidence": "Both employees remain responsible for meeting their required weekly hours, and swaps that would leave fewer than eleven hours' rest between shifts will not be approved.",
+      "evidence_locator": { "text": "A", "paragraph": "D", "sentence": 2 },
+      "distractor_analysis": {
+        "A": "Yakın ama eksik — haftalık saat yükümlülüğü aynı cümlede geçiyor ama ret sebebi olarak değil; takas yapılsa da iki çalışanın kendi saatlerinden sorumlu kaldığı söyleniyor.",
+        "B": "Cazip ama yok — düzenin panoda asıldığı doğru, ama yayımlanan düzeni değiştiren takasın reddedileceğine dair bir kural pasajda yok.",
+        "D": "Yer değiştirme — aynı bölümden en fazla üç kişinin aynı anda ayrılabilmesi izin politikasının kuralı; vardiya takası şartı olarak öne sürülüyor."
+      },
+      "explanation": "A metninin D paragrafı, iki vardiya arasında on bir saatten az dinlenme bırakacak takasların onaylanmayacağını söylüyor.",
+      "difficulty": "medium"
+    },
+    {
+      "number": "23-24",
+      "select_count": 2,
+      "prompt": "Which TWO statements about overtime are correct?",
+      "options": [
+        { "letter": "A", "text": "It is always paid at a single rate" },
+        { "letter": "B", "text": "It needs approval before it is worked" },
+        { "letter": "C", "text": "It cannot exceed ten hours a month" },
+        { "letter": "D", "text": "It is requested through the staff portal" },
+        { "letter": "E", "text": "It can sometimes be swapped for time off" },
+        { "letter": "F", "text": "It is mainly available on public holidays" },
+        { "letter": "G", "text": "It is added automatically to monthly pay" }
+      ],
+      "answer": ["B", "E"],
+      "evidence": "Overtime must be authorised in advance by a line manager; unauthorised overtime will not be paid. Staff who accumulate more than ten hours of overtime in a single month may choose to take the excess as time off in lieu instead of payment.",
+      "evidence_locator": { "text": "B", "paragraph": "C", "sentence": 2 },
+      "distractor_analysis": {
+        "A": "Kapsam kaydırma — 1,5 kat standart oran gerçekten veriliyor ama resmî tatil çalışması iki katından ödeniyor; tek oran iddiası pasajdaki iki ayrı oranı teke indiriyor.",
+        "C": "Kapsam kaydırma — on saat bir üst sınır değil; ayda on saatten fazla mesai biriktirenlere fazlasını izinle değiştirme seçeneği tanınıyor, yani aşmak mümkün.",
+        "D": "Yer değiştirme — çevrimiçi personel portalı izin taleplerinin verildiği yer; fazla mesai için gereken şey amirin önceden onayı.",
+        "F": "Yer değiştirme — resmî tatiller yalnız ücret oranını (iki katı) etkiliyor; seçenek bu bilgiyi mesainin ne zaman yapıldığına taşıyor.",
+        "G": "Yakın ama eksik — fazla mesainin ödendiği doğru ama otomatik değil; önceden onaylanmamış mesainin hiç ödenmeyeceği açıkça belirtiliyor."
+      },
+      "explanation": "B metninin C paragrafı, fazla mesainin önceden bir amir tarafından onaylanması gerektiğini ve ayda on saati aşan kısmın ödeme yerine izin olarak kullanılabileceğini söylüyor.",
+      "difficulty": "hard"
+    }
+  ]
+}
