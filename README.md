@@ -96,7 +96,9 @@ kaydedip yükler, sıradaki işe geçer. **Toplam 88 iş var**, hepsini sırayla
 - **Sen hiçbir şey yazmayacaksın.** Enter'a basmak, `/exit` yazmak, E/H demek yok.
 - Ekranda tek satır durum göreceksin: kaçıncı işte olduğu ve o işin ne kadar sürdüğü.
 - **Kota dolarsa durmaz.** "Kota bekleniyor" yazıp geri sayıma geçer, saati gelince
-  kaldığı yerden devam eder. Bu sırada hiçbir şey harcanmaz.
+  kaldığı yerden devam eder. Bu sırada hiçbir şey harcanmaz. **Program kendi kendine
+  kapanmaz** — takılsa bile aralıkları açıp denemeye devam eder, senin yeniden
+  başlatman gerekmez.
 - **Pencereyi kapatma.** Kapanırsa üretim durur (yapılan işler kaybolmaz).
 - Bilgisayarın uyuması program tarafından engellenir. Ekran kilitlenebilir, sorun değil.
 - Durdurmak istersen pencerede **Ctrl + C**. Kaldığı yer kaydedilir; tekrar çift
@@ -132,5 +134,10 @@ tekrar çift tıkladığında kaldığı yerden devam eder.
 | "winget bulunamadı" | Microsoft Store → "App Installer" ara → güncelle → kurulumu tekrar çalıştır |
 | Kısayol yok | `C:\ielts-paketi` klasörünü aç, içindeki **KONTROL** / **CALISTIR** dosyalarını kullan |
 | "Bu klasöre güveniyor musun" | Bir kez `claude` yaz → güvendiğini söyleyen seçeneği seç → `/exit` → tekrar çift tıkla |
-| "DURDU" yazıp kapandı | Bana ekran görüntüsü at, ben bakayım |
+| Uzun süredir aynı işte duruyor | Bırak dursun, kendi deneyecek. Yarım günden uzun sürerse bana yaz |
+| Pencere kapanmış | Tekrar çift tıkla, kaldığı yerden devam eder |
 | Başka bir şey | Bana yaz, ekran görüntüsü at |
+
+💡 **İstersen bilgisayar her açıldığında kendiliğinden başlasın:** klasördeki
+**ACILISTA-BASLAT** dosyasına çift tıkla, `1` yaz, Enter. Böylece bilgisayar
+yeniden başlasa bile üretim kaldığı yerden sürer. Kapatmak için aynı dosya, `2`.

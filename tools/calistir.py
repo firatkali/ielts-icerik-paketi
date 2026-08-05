@@ -7,6 +7,12 @@ ilerlemeyi kaydeder, sonraki ise gecer.
 Kota dolarsa durmaz: sifirlanma saatini bekleyip kaldigi yerden devam eder.
 Ekstra kullanim (extra usage) kapali oldugu icin bu bekleme sirasinda hicbir
 sey harcanmaz. Bilgisayarin uyumasi da engellenir.
+
+Program HICBIR KOSULDA kendini kapatmaz. Eskiden ust uste ucuncu sonucsuz
+turdan sonra kapaniyordu; kota dolunca da o yola dustugu icin her 5 saatte bir
+elle yeniden baslatmak gerekiyordu. Artik sonucsuz turda aralari acarak
+denemeye devam ediyor, durumu UYARILAR.txt'ye yazip depoya gonderiyor.
+Her turun ham ciktisi 'gunluk' klasorune yazilir (depoya gitmez).
 """
 
 import datetime
@@ -26,8 +32,14 @@ UYARILAR = os.path.join(KOK, "UYARILAR.txt")
 ADIM_ZAMAN_ASIMI = 120 * 60
 # Kota mesajindan saat okunamazsa bu kadar beklenir.
 LIMIT_VARSAYILAN_BEKLEME = 35 * 60
-# Ayni is ust uste bu kadar sonucsuz kalirsa program durur (sonsuz donguye girmesin).
-AZAMI_DENEME = 3
+# Ilk denemeler bu kadar arayla, sonrakiler uzun arayla yapilir.
+KISA_BEKLEME = 60
+UZUN_BEKLEME = 20 * 60
+# Bu kadar sonucsuz denemeden sonra kisa bekleme birakilir, uzun beklemeye gecilir.
+KISA_DENEME_SAYISI = 3
+# Bir tur bundan kisa surup hicbir sey uretmediyse, mesaj ne olursa olsun
+# kota/gecici hata sayilir: Claude gercekten calissaydi bu kadar cabuk bitmezdi.
+CABUK_BITTI_ESIGI = 3 * 60
 
 def _yay(ad, model, dosya, kez, ek=""):
     """Bir gorevi, prompt dosyasinin istedigi calistirma sayisi kadar adima boler."""
@@ -178,8 +190,15 @@ def _soru_say(klasor):
             if d.get("skill") == "speaking" and d.get("part2"):
                 toplam += 1 + len((d.get("part3") or {}).get("items") or [])
                 continue
-            for g in (d.get("groups") or [{"items": d.get("items") or []}]):
-                toplam += len(g.get("items") or [])
+            if d.get("groups"):
+                for g in d["groups"]:
+                    toplam += len(g.get("items") or [])
+            elif d.get("items") is not None:
+                toplam += len(d["items"])
+            else:
+                # Yazma gorevleri: her dosya tek bir gorev, icinde soru listesi yok.
+                # 'items' aramak bunlari sifir gosteriyordu.
+                toplam += 1
     return toplam
 
 
@@ -431,7 +450,9 @@ def repo_imzasi():
 
 
 LIMIT_IZLERI = ("usage limit", "rate limit", "limit reached", "limit will reset",
-                "resets at", "out of usage", "quota exceeded", "too many requests")
+                "resets at", "out of usage", "quota exceeded", "too many requests",
+                "5-hour limit", "weekly limit", "session limit", "upgrade to",
+                "429", "capacity constraints", "you've reached your")
 
 
 def limit_izi_var(cikti):
@@ -439,13 +460,7 @@ def limit_izi_var(cikti):
     return any(iz in d for iz in LIMIT_IZLERI)
 
 
-def reset_suresi(cikti):
-    """Kota mesajindaki saatten kac saniye beklenecegini cikarir."""
-    m = re.search(r"reset\w*\s+at\s+(\d{1,2})(?::(\d{2}))?\s*(am|pm)?", cikti or "", re.I)
-    if not m:
-        return None
-    saat, dakika = int(m.group(1)), int(m.group(2) or 0)
-    ap = (m.group(3) or "").lower()
+def _saatten_saniye(saat, dakika, ap):
     if ap == "pm" and saat < 12:
         saat += 12
     if ap == "am" and saat == 12:
@@ -458,6 +473,31 @@ def reset_suresi(cikti):
         hedef += datetime.timedelta(days=1)
     # Iki dakika pay: saat tam dolmadan denersen yine reddeder.
     return int((hedef - simdi).total_seconds()) + 120
+
+
+def reset_suresi(cikti):
+    """Kota mesajindaki sifirlanma anindan kac saniye beklenecegini cikarir.
+
+    Mesajin bicimi surumden surume degisiyor - tek kalıba guvenmek programi kor
+    birakmisti. Uc bicim de deneniyor:
+      1) 'Claude AI usage limit reached|1754409600'  (unix zaman damgasi)
+      2) '...will reset at 3pm' / '...resets at 15:00'
+      3) '...resets 3pm'  ('at' olmadan)
+    Hicbiri tutmazsa None doner, cagiran taraf varsayilan sureyi kullanir.
+    """
+    metin = cikti or ""
+
+    m = re.search(r"limit reached\s*\|\s*(\d{9,})", metin, re.I)
+    if m:
+        kalan = int(m.group(1)) - int(time.time())
+        if 0 < kalan < 24 * 3600:
+            return kalan + 120
+
+    m = re.search(r"reset\w*\s+(?:at\s+)?(\d{1,2})(?::(\d{2}))?\s*(am|pm)?", metin, re.I)
+    if m:
+        return _saatten_saniye(int(m.group(1)), int(m.group(2) or 0),
+                               (m.group(3) or "").lower())
+    return None
 
 
 def geri_sayim(saniye, basligi):
@@ -528,7 +568,38 @@ def claude_calistir(model, talimat):
     cikti = "".join(parcalar)
     if asildi:
         cikti += "\n[program notu: is cok uzadi, durduruldu]"
-    return (p.returncode if p.returncode is not None else 1), cikti
+    return ((p.returncode if p.returncode is not None else 1), cikti,
+            int(time.time() - basla))
+
+
+GUNLUK = os.path.join(KOK, "gunluk")
+
+
+def gunluk_yaz(n, ad, model, kod, sure, cikti):
+    """Her turun ham ciktisini diske yazar.
+
+    Eskiden cikti sadece bellekte duruyordu: pencere kapaninca ne oldugu
+    kaybediliyor, sorun cikinca teshis edilemiyordu. Dosyalar depoya
+    gonderilmez (.gitignore), sadece bu bilgisayarda kalir.
+    """
+    try:
+        os.makedirs(GUNLUK, exist_ok=True)
+        yol = os.path.join(GUNLUK, "%s-adim%02d.log"
+                           % (datetime.datetime.now().strftime("%Y%m%d-%H%M%S"), n + 1))
+        with open(yol, "w", encoding="utf-8", errors="replace") as f:
+            f.write("adim   : %d - %s\nmodel  : %s\ncikis  : %s\nsure   : %d sn\n%s\n\n"
+                    % (n + 1, ad, model, kod, sure, "-" * 62))
+            f.write(cikti or "(cikti yok)")
+    except Exception:
+        pass
+
+
+def cikti_ozeti(cikti, satir=25):
+    """Ciktinin son satirlari - uyari dosyasina konur, sorun uzaktan gorulebilsin."""
+    satirlar = [s.rstrip() for s in (cikti or "").splitlines() if s.strip()]
+    if not satirlar:
+        return ["(Claude hicbir sey yazmadan cikti)"]
+    return satirlar[-satir:]
 
 
 def uyari_kaydet(satirlar):
@@ -568,8 +639,9 @@ def bir_adim(n):
         talimat += " " + ek
 
     once = repo_imzasi()
-    _kod, cikti = claude_calistir(model, talimat)
+    kod, cikti, sure = claude_calistir(model, talimat)
     ilerledi = repo_imzasi() != once
+    gunluk_yaz(n, ad, model, kod, sure, cikti)
 
     # Kota mesajini yalnizca is ilerlemediyse kota saymak yanlis olur: is bitip
     # kota da dolmus olabilir. Bu yuzden ikisi ayri sorular.
@@ -579,6 +651,14 @@ def bir_adim(n):
         return ("bitti_limitli" if limit_izi_var(cikti) else "bitti"), cikti
     if limit_izi_var(cikti):
         return "limit", cikti
+
+    # Mesaji tanimaya calismak tek basina yetmiyor: kota dolunca Claude bazen
+    # hicbir sey yazmadan ya da bilmedigimiz bir cumleyle cikiyor. O yuzden
+    # sureye de bakiyoruz - gercekten calissaydi bu is dakikalar surerdi.
+    if sure < CABUK_BITTI_ESIGI or kod != 0:
+        print("  Claude %d saniyede, is uretmeden cikti - kota sayiliyor." % sure)
+        return "limit", cikti
+
     return "olmadi", cikti
 
 
@@ -615,6 +695,7 @@ def main():
     cizgi("-")
 
     deneme = 0
+    haber_verildi = False
     try:
         while n < len(ADIMLAR):
             sonuc, cikti = bir_adim(n)
@@ -625,8 +706,17 @@ def main():
                 return 1
 
             if sonuc == "limit":
+                deneme += 1
                 sure = reset_suresi(cikti) or LIMIT_VARSAYILAN_BEKLEME
                 print("  Kota doldu. Hicbir sey kaybolmadi, hicbir sey harcanmiyor.")
+                # Ayni is cok uzun suredir donuyorsa kota degil, gercek bir aksaklik
+                # olabilir. Program yine durmaz ama Firat'a haber gider.
+                if deneme == 8 and not haber_verildi:
+                    haber_verildi = True
+                    uyari_kaydet(["'%s' isi %d kez kota/bos donusle karsilasti; "
+                                  "program beklemeye devam ediyor. Son cikti:"
+                                  % (ADIMLAR[n][0], deneme)] + cikti_ozeti(cikti))
+                    durum_yaz(n)
                 geri_sayim(sure, "Kota bekleniyor.")
                 print("  Devam ediliyor...")
                 continue
@@ -634,6 +724,7 @@ def main():
             if sonuc in ("bitti", "bitti_limitli"):
                 n += 1
                 deneme = 0
+                haber_verildi = False
                 ilerleme_yaz(n)
                 print("  Bitti. (%d / %d)" % (n, len(ADIMLAR)))
                 if sonuc == "bitti_limitli":
@@ -641,19 +732,22 @@ def main():
                     print("  Bu arada kota doldu. Beklenip devam edilecek.")
                     geri_sayim(sure, "Kota bekleniyor.")
             else:
+                # ONEMLI: burada ARTIK PROGRAM KAPANMIYOR. Eskiden 3 sonucsuz
+                # denemeden sonra kendini kapatiyordu; kota dolunca da bu yola
+                # dustugu icin arkadasin her seferinde elle baslatmasi gerekiyordu.
                 deneme += 1
                 print("  Bu turda yeni bir sey uretilmedi (%d. deneme)." % deneme)
-                if deneme >= AZAMI_DENEME:
-                    uyari_kaydet(["'%s' isi %d kez denendi, sonuc alinamadi."
-                                  % (ADIMLAR[n][0], deneme)])
-                    print()
-                    cizgi("!")
-                    print("  DURDU: ayni is %d kez denendi, ilerleme olmadi." % deneme)
-                    print("  Firat'a haber ver, bu ekranin fotografini at.")
-                    cizgi("!")
+                if deneme == KISA_DENEME_SAYISI and not haber_verildi:
+                    haber_verildi = True
+                    uyari_kaydet(["'%s' isi %d kez sonucsuz kaldi; program denemeye "
+                                  "devam ediyor. Son cikti:"
+                                  % (ADIMLAR[n][0], deneme)] + cikti_ozeti(cikti))
                     durum_yaz(n)
-                    return 1
-                geri_sayim(60, "Tekrar denenecek.")
+                if deneme < KISA_DENEME_SAYISI:
+                    geri_sayim(KISA_BEKLEME, "Tekrar denenecek.")
+                else:
+                    print("  Uzun aralikla denemeye gecildi - pencereyi kapatma.")
+                    geri_sayim(UZUN_BEKLEME, "Tekrar denenecek.")
 
             sorunlar = bicim_kontrolu()
             if sorunlar:
