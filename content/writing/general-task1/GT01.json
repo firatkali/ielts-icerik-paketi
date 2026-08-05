@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "set_id": "GT01",
+  "skill": "writing",
+  "module": "general",
+  "task": 1,
+  "generated_by": "opus",
+  "tone": "formal",
+  "prompt": "For the past two months the evening buses on the route you use to travel home from work have often been late or have not run at all. The bus company has not explained the change.\n\nWrite a letter to the manager of the bus company. In your letter:\n\n- explain which journey you make and how often you make it\n- describe the problems the unreliable service has caused you\n- say what you would like the company to do",
+  "instruction_line": "You should spend about 20 minutes on this task. Write at least 150 words.",
+  "salutation_hint": "Dear Sir or Madam,",
+  "min_words": 150,
+  "minutes": 20,
+  "key_points": [
+    "Yolculuk somut olarak tanımlanmalı: hangi hat, hangi saat, haftada kaç kez",
+    "Sorunun süresi ve sıklığı verilmeli — 'sometimes late' değil, iki aydır süren düzenli bir aksama",
+    "Aksamanın yol açtığı sonuç anlatılmalı (uzun bekleme, eve geç varma, başka bir yol için ek ücret)",
+    "Net bir talep yazılmalı: açıklama, seferlerin düzeltilmesi ya da bir yanıt verilmesi",
+    "Ton baştan sona resmi ve şikâyetçi olsa da nazik kalmalı"
+  ],
+  "common_mistakes": [
+    "Üç maddeden birini, çoğunlukla üçüncüsünü atlamak",
+    "Resmi mektupta günlük dil ve kısaltma kullanmak ('it's been awful', 'don't')",
+    "Sadece kızgınlığı anlatıp somut talep yazmamak",
+    "'Dear Sir or Madam' ile başlayıp 'Best wishes' ile kapatmak (kapanış 'Yours faithfully' olmalı)"
+  ],
+  "topic": "otobüs seferlerindeki aksamalar",
+  "difficulty": "medium"
+}

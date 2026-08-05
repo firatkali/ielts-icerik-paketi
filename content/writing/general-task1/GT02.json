@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "set_id": "GT02",
+  "skill": "writing",
+  "module": "general",
+  "task": 1,
+  "generated_by": "opus",
+  "tone": "formal",
+  "prompt": "A community garden near your home has put up a notice asking for volunteers to help with planting and with keeping the paths and beds tidy at weekends.\n\nWrite a letter to the organiser of the garden. In your letter:\n\n- explain why you would like to help\n- describe any useful skills or experience you have\n- say when you would be able to come",
+  "instruction_line": "You should spend about 20 minutes on this task. Write at least 150 words.",
+  "salutation_hint": "Dear Sir or Madam,",
+  "min_words": 150,
+  "minutes": 20,
+  "key_points": [
+    "Mektup bir başvuru: baştan hangi ilana yanıt verildiği belirtilmeli",
+    "Yardım etme sebebi kişisel ve inandırıcı olmalı (bahçe işini sevmek, mahalleye katkı, yeni insanlarla tanışmak)",
+    "Beceri/deneyim somut anlatılmalı — deneyim yoksa 'öğrenmeye istekli olmak' da geçerli bir cevaptır",
+    "Uygunluk zamanı net verilmeli: hangi günler, hangi saatler, ne kadar süreyle",
+    "Kapanışta bir sonraki adım istenmeli (görüşme, bilgi, kayıt)"
+  ],
+  "common_mistakes": [
+    "İş başvurusu gibi uzun bir özgeçmiş yazıp üç maddeyi dengelememek",
+    "Zaman uygunluğunu belirsiz bırakmak ('whenever you need me')",
+    "Resmi başvuru mektubunda fazla samimi bir ton kullanmak",
+    "Nasıl ulaşılacağını (telefon/e-posta yerine 'I look forward to hearing from you') yazmayı unutmak"
+  ],
+  "topic": "gönüllü başvurusu",
+  "difficulty": "easy"
+}

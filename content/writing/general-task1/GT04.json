@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "set_id": "GT04",
+  "skill": "writing",
+  "module": "general",
+  "task": 1,
+  "generated_by": "opus",
+  "tone": "formal",
+  "prompt": "Six weeks ago you ordered some equipment for a hobby from an online shop. The shop promised delivery within ten days, but the order has still not arrived.\n\nWrite a letter to the customer service department of the shop. In your letter:\n\n- give the details of the order and when you placed it\n- explain what you have already done to solve the problem\n- say what you now expect the shop to do",
+  "instruction_line": "You should spend about 20 minutes on this task. Write at least 150 words.",
+  "salutation_hint": "Dear Sir or Madam,",
+  "min_words": 150,
+  "minutes": 20,
+  "key_points": [
+    "Sipariş tanımlanmalı: ne alındı, hangi tarihte, sipariş numarası ve ödenen tutar",
+    "Vaat edilen teslim süresi ile geçen süre karşılaştırılmalı (on gün ↔ altı hafta)",
+    "İkinci madde 'şimdiye kadar ne yapıldığını' istiyor: telefon, e-posta, kaç kez, hangi yanıt",
+    "Talep tek ve net olmalı: hemen teslim, iade ya da ücretin geri ödenmesi",
+    "Beklenen yanıt süresi ve iletişim bilgisi kapanışta verilmeli"
+  ],
+  "common_mistakes": [
+    "İkinci maddeyi atlayıp doğrudan şikâyetten talebe geçmek",
+    "Tarih ve sipariş bilgisi vermeden 'my order' demek",
+    "Aynı şikâyeti farklı cümlelerle tekrarlayıp 150 kelimeyi doldurmaya çalışmak",
+    "Resmi mektupta konuşma dili ve ünlem kullanmak"
+  ],
+  "topic": "gecikmiş sipariş",
+  "difficulty": "easy"
+}

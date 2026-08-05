@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "set_id": "GT05",
+  "skill": "writing",
+  "module": "general",
+  "task": 1,
+  "generated_by": "opus",
+  "tone": "semi-formal",
+  "prompt": "The heating in the flat you rent stopped working four days ago and the weather has turned much colder.\n\nWrite a letter to your landlord. In your letter:\n\n- describe what is wrong with the heating\n- explain how the problem is affecting you\n- say what you would like your landlord to do and when",
+  "instruction_line": "You should spend about 20 minutes on this task. Write at least 150 words.",
+  "salutation_hint": "Dear Mr Halstead,",
+  "min_words": 150,
+  "minutes": 20,
+  "key_points": [
+    "Arıza somut anlatılmalı: ne zaman başladı, hangi odalarda, ne denendi",
+    "Etkisi günlük hayat üzerinden verilmeli (soğuk odalar, evde çalışamama, sıcak su sorunu)",
+    "Üçüncü madde iki bilgi istiyor: hem ne yapılması hem de ne zaman yapılması gerektiği",
+    "Ev sahibiyle ilişki yarı resmi: nazik ama kararlı bir ton, isimle hitap",
+    "Erişim için uygun gün/saat önermek talebi somutlaştırır"
+  ],
+  "common_mistakes": [
+    "'Ne zaman' kısmını yazmayıp üçüncü maddeyi yarım bırakmak",
+    "Yarı resmi mektupta ya fazla resmi ('Dear Sir or Madam') ya da fazla senli benli bir dil kullanmak",
+    "Tehdit edici bir ton kullanmak ('I will stop paying the rent')",
+    "Sorunu 'the heating is broken' deyip ayrıntı vermeden geçmek"
+  ],
+  "topic": "kiralık evde arıza",
+  "difficulty": "easy"
+}

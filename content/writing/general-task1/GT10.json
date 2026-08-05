@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "set_id": "GT10",
+  "skill": "writing",
+  "module": "general",
+  "task": 1,
+  "generated_by": "opus",
+  "tone": "informal",
+  "prompt": "A friend invited you to a special meal to celebrate the opening of the small business they have just started, but at the last minute you were unable to go.\n\nWrite a letter to your friend. In your letter:\n\n- apologise and explain why you could not come\n- ask how the evening went\n- suggest a way of meeting your friend soon",
+  "instruction_line": "You should spend about 20 minutes on this task. Write at least 150 words.",
+  "salutation_hint": "Dear Ruya,",
+  "min_words": 150,
+  "minutes": 20,
+  "key_points": [
+    "Özür baştan ve içtenlikle yapılmalı, sonra sebep anlatılmalı",
+    "Sebep inandırıcı ve son dakika gelişmesine uygun olmalı",
+    "Arkadaşın haberini önemseyen gerçek sorular sorulmalı (kaç kişi geldi, nasıl geçti)",
+    "Buluşma önerisi somut olmalı: ne zaman, nerede, ne yapılacak",
+    "Yeni işi için tebrik ve iyi dilek cümlesi beklenir"
+  ],
+  "common_mistakes": [
+    "Sadece özür dileyip diğer iki maddeyi geçiştirmek",
+    "Samimi mektupta resmi kalıplara kaymak ('I regret to inform you')",
+    "Soru sormak yerine baştan sona kendinden söz etmek",
+    "Buluşma önerisini belirsiz bırakmak ('let's meet up soon')"
+  ],
+  "topic": "davete katılamama ve özür",
+  "difficulty": "medium"
+}

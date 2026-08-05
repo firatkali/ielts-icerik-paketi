@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "set_id": "GT09",
+  "skill": "writing",
+  "module": "general",
+  "task": 1,
+  "generated_by": "opus",
+  "tone": "informal",
+  "prompt": "You will be away from home for a week and you need someone to keep an eye on your flat while you are away.\n\nWrite a letter to a friend. In your letter:\n\n- say why you will be away and for how long\n- explain what you would like your friend to do\n- offer to do something for your friend in return",
+  "instruction_line": "You should spend about 20 minutes on this task. Write at least 150 words.",
+  "salutation_hint": "Dear Tomas,",
+  "min_words": 150,
+  "minutes": 20,
+  "key_points": [
+    "Yokluk süresi ve sebebi net verilmeli: hangi tarihler arası, neden",
+    "İstenen yardım maddelenmeden ama sırayla anlatılmalı (çiçekleri sulamak, postayı almak, perdeleri açmak)",
+    "Anahtarın nasıl teslim edileceği gibi pratik bir ayrıntı beklenir",
+    "Karşılığında bir teklif yapılmalı — rica dengelenmeli",
+    "Ton samimi ve rica ölçülü: arkadaşın 'hayır' diyebilmesine yer bırakılmalı"
+  ],
+  "common_mistakes": [
+    "Yapılacakları uzun bir liste hâlinde madde madde yazmak (mektup düz metin olmalı)",
+    "Karşılık teklifini (üçüncü madde) atlamak",
+    "Ricayı emir gibi kurmak ('You must water the plants every day')",
+    "Tarihleri hiç vermeyip 'next week' deyip geçmek"
+  ],
+  "topic": "arkadaştan rica",
+  "difficulty": "easy"
+}

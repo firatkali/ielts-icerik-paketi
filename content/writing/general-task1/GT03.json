@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "set_id": "GT03",
+  "skill": "writing",
+  "module": "general",
+  "task": 1,
+  "generated_by": "opus",
+  "tone": "formal",
+  "prompt": "The bill you have just received from the company that supplies your home internet connection includes a charge for an extra service that you never asked for.\n\nWrite a letter to the company. In your letter:\n\n- give the details of your account and of the bill\n- explain which charge is wrong and why\n- say what you would like the company to do about it",
+  "instruction_line": "You should spend about 20 minutes on this task. Write at least 150 words.",
+  "salutation_hint": "Dear Sir or Madam,",
+  "min_words": 150,
+  "minutes": 20,
+  "key_points": [
+    "Hesabı tanımlayan bilgiler verilmeli: hesap numarası, adres, faturanın tarihi ve dönemi",
+    "Yanlış olan kalem tam olarak gösterilmeli — tutar ve satır adı",
+    "Bu hizmetin hiç istenmediği açıkça söylenmeli; varsa sözleşmeye/önceki faturalara dayandırılmalı",
+    "Talep net olmalı: kalemin silinmesi, düzeltilmiş fatura ve fazla ödendiyse iade",
+    "Yazılı bir yanıt için makul bir süre istemek mektubu güçlendirir"
+  ],
+  "common_mistakes": [
+    "Hesabı tanımlayacak hiçbir bilgi vermeden şikâyet etmek",
+    "Suçlayıcı ve öfkeli bir dil kullanmak ('you have cheated me')",
+    "Sadece 'bu fatura yanlış' deyip hangi kalemin yanlış olduğunu göstermemek",
+    "Mektubu resmi kapanış kalıbı ve imza satırı olmadan bitirmek"
+  ],
+  "topic": "hatalı fatura",
+  "difficulty": "medium"
+}

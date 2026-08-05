@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "set_id": "GT08",
+  "skill": "writing",
+  "module": "general",
+  "task": 1,
+  "generated_by": "opus",
+  "tone": "informal",
+  "prompt": "You have decided to move to a different town next month. A friend of yours does not know about this yet.\n\nWrite a letter to your friend. In your letter:\n\n- explain why you have decided to move\n- describe the new town and where you will be living\n- invite your friend to come and stay with you",
+  "instruction_line": "You should spend about 20 minutes on this task. Write at least 150 words.",
+  "salutation_hint": "Dear Nadia,",
+  "min_words": 150,
+  "minutes": 20,
+  "key_points": [
+    "Haber doğal bir açılışla verilmeli, sonra taşınma sebebi anlatılmalı",
+    "Yeni kasaba ve ev tarif edilmeli: büyüklük, çevre, ulaşım, evin özellikleri",
+    "Davet somut olmalı: ne zaman, ne kadar süreyle, birlikte neler yapılabilir",
+    "Ton samimi: kısaltmalar, doğrudan sorular, sıcak bir kapanış",
+    "Arkadaşın hâlini soran bir cümle mektubu daha gerçekçi kılar"
+  ],
+  "common_mistakes": [
+    "Samimi mektupta resmi kalıplara kaymak ('I am writing to inform you')",
+    "Daveti belirsiz bırakmak ('come sometime')",
+    "Üç maddeden sadece ikisini işleyip yeni yeri hiç tarif etmemek",
+    "Paragrafsız tek blok yazmak"
+  ],
+  "topic": "başka bir kasabaya taşınma",
+  "difficulty": "easy"
+}

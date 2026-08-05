@@ -3970,3 +3970,81 @@ okla verildi ki "merdivenin başında sağda" ifadesi tek anlama gelsin.
   samimi 6** olduğu için bu oturumda dengeli bir kesit alınmalı (örneğin resmi 4 · yarı
   resmi 3 · samimi 3), kalanı 13. çalıştırmaya bırakılmalı. Academic 1. görevin otuz konusu
   ve konuşma paketindeki konular tekrar edilmeyecek.
+
+---
+
+## OPUS5-30 (12. çalıştırma: yazma General 1. görev — oturum 1, 10 mektup görevi)
+
+- Tarih: 2026-08-05
+- Depo kontrolü: `content/speaking/part1/` **T01–T20 tam**, `content/speaking/part2-3/`
+  **C01–C60 tam**, `content/writing/academic-task1/` **AT01–AT30 tam**,
+  `content/writing/general-task1/` **boş**, `content/writing/task2/` **boş**. Çalıştırma
+  listesindeki sıradaki bitmemiş paket **D paketi, oturum 1 (12. çalıştırma)** idi, o
+  yapıldı. Var olan hiçbir dosyaya dokunulmadı. **10 birim** üretildi, hedefle aynı.
+- Üretilen dosyalar — `content/writing/general-task1/GT01.json` … `GT10.json`:
+  - **resmi (4):** GT01 akşam otobüs seferlerinin gecikmesi/iptali → otobüs şirketi müdürü ·
+    GT02 mahalle bostanına gönüllü başvurusu → bahçe sorumlusu · GT03 internet faturasında
+    istenmemiş hizmet kalemi → şirketin kendisi · GT04 altı haftadır gelmeyen çevrim içi
+    sipariş → müşteri hizmetleri
+  - **yarı resmi (3):** GT05 kiralık dairede çalışmayan ısıtma → ev sahibi (`Dear Mr
+    Halstead,`) · GT06 üç aylık kursa denk gelen çalışma saatlerinin değiştirilmesi →
+    yönetici (`Dear Ms Farrow,`) · GT07 çatı onarımının gürültüsü ve yan yoldan geçiş ricası
+    → komşu (`Dear Mr Ellery,`)
+  - **samimi (3):** GT08 başka kasabaya taşınma haberi + davet (`Dear Nadia,`) ·
+    GT09 bir hafta şehir dışındayken daireye göz kulak olma ricası (`Dear Tomas,`) ·
+    GT10 arkadaşın yeni işi için verdiği yemeğe katılamama ve özür (`Dear Ruya,`)
+- **KULLANILAN MEKTUP DURUMLARI (13. çalıştırmada tekrar edilmeyecek):** güvenilmez otobüs
+  seferi şikâyeti · gönüllü başvurusu · hatalı fatura kalemi · gecikmiş çevrim içi sipariş ·
+  kiralık evde ısıtma arızası · çalışma saati değişikliği talebi · ev tadilatı + komşuya
+  geçiş ricası · başka kasabaya taşınma haberi ve davet · evi kollama ricası · davete
+  katılamama ve özür.
+- **Ton kotası:** yirmi mektubun hedefi **resmi 7 · yarı resmi 7 · samimi 6**. Bu oturumda
+  **resmi 4 · yarı resmi 3 · samimi 3** üretildi. **13. çalıştırmaya (GT11–GT20) kalan:
+  resmi 3 · yarı resmi 4 · samimi 3.**
+- **İşlev (function) çeşitliliği** bilinçli dağıtıldı: şikâyet (GT01, GT03, GT04), başvuru
+  (GT02), talep/onarım (GT05, GT06), bilgilendirme + rica (GT07), haber + davet (GT08),
+  rica + karşılık teklifi (GT09), özür + öneri (GT10). 13. oturum için henüz kullanılmamış
+  işlevler: teşekkür, öneri/tavsiye verme, bilgi isteme (enquiry), iptal/erteleme bildirimi,
+  kayıp eşya dışında bir arıza bildirimi, tavsiye mektubu, davete cevap verme.
+- **Tekrar kaçınma dört eksende yapıldı:** (1) paket içinde durum, `topic` ve `prompt`
+  çakışması yok (script karşılaştırdı); (2) Academic 1. görevin otuz konusuyla (su tüketimi,
+  enerji, geri dönüşüm, kütüphane ziyareti, tarım, hava kalitesi …) hiçbir kesişme yok —
+  mektuplar veri değil durum üzerine kurulu; (3) **dinleme senaryolarıyla çakışma bilinçle
+  önlendi**: L4-S1 zaten *otobüs şirketinin kayıp eşya bürosu* olduğu için kayıp eşya
+  mektubu yazılmadı, L2-S1 *taşınma şirketiyle telefon* olduğu için GT08 nakliyat değil
+  arkadaşa haber/davet üzerine kuruldu, L3-S1 *spor salonu üyeliği*, L1-S1 *yaz kampı
+  kaydı*, L5-S1 *bisiklet turu rezervasyonu*, L6-S1 *yurt başvurusu* ve L2-S2 *kütüphane
+  yenilemesi* konuları da kullanılmadı (resmi örnek görevlerdeki kütüphane/öğrenci yurdu
+  durumlarından uzak durmanın ayrıca telif gerekçesi var); (4) konuşma kartlarıyla
+  (C01–C60) durum örtüşmesi yok.
+- **Format kararları (yirmi mektupta da sürecek):** görev metni 2–3 cümlelik durum +
+  `Write a letter to …. In your letter:` + **tam 3 madde** (`- ` ile, sonunda nokta yok).
+  `instruction_line` on dosyada da aynı. Selamlama `salutation_hint` alanında:
+  resmi `Dear Sir or Madam,`, yarı resmi `Dear Mr/Ms <soyadı>,`, samimi `Dear <ad>,`.
+  Şemaya sadık kalındı — alan adları ve **alan sırası** promptun `GT01` örneğiyle birebir;
+  `key_points` 5, `common_mistakes` 4 (kapanış kalıbı/ton hatası her mektupta hatırlatıldı).
+- **Uydurma isimler** (gerçek kişi/kurum/marka yok): Halstead, Farrow, Ellery, Nadia, Tomas,
+  Ruya. Şirketler bilinçli olarak isimsiz ("the bus company", "an online shop", "the company
+  that supplies your home internet connection") — böylece aday hiçbir ülkeye bağlanmıyor.
+- **Kültürel tarafsızlık ve ayrıcalık denetimi:** hiçbir görev seyahat geçmişi, araba, ikinci
+  ev, yurt dışı deneyimi ya da yüksek gelir varsaymıyor; ev sahibi/kiracı, iş yeri, komşu,
+  arkadaş ilişkileri evrensel. Din/alkol/siyaset/savaş/cinsellik yok (script tarıyor).
+  Görünür metin İngiliz İngilizcesinde, açıklama alanları Türkçe.
+- Doğrulama: geçici `tools/_gt01_kontrol.py` (iş bitince silindi) JSON geçerliliği, zarf
+  alanlarının **listesi ve sırası**, `set_id` ↔ dosya adı, `skill/module/task`,
+  `instruction_line` birebirliği, üç madde kuralı ve madde noktalaması, durum cümlesi sayısı,
+  ton ↔ selamlama uyumu, `key_points`/`common_mistakes` sayısı, Türkçe/İngilizce ayrımı,
+  Amerikan yazım taraması, yasaklı tema taraması, görünür metinde "IELTS" ve paket içi
+  prompt/topic tekrarı denetledi. **Hata 0** (iki yanlış pozitif: Türkçeye özgü harf
+  içermeyen iki Türkçe cümle).
+- `python tools/dogrula.py` → **şema hatası 0**, `writing/task1` **40** (30 → 40), speaking
+  200 + 240 değişmedi, işaretli 0, pasaj lisansı eksik 0, görünür metinde IELTS 0, yasak
+  kaynak 0. Rapordaki "TAM TEST BUTUNLUGU … EKSIK" satırları bu paketle ilgisiz.
+- **DURUM.txt / ilerleme.txt elle güncellenmedi** (sayaç dosyalarını `tools/calistir.py` kendi
+  commit'iyle yazıyor).
+- Atlanan/sorun: yok. **OPUS5-30'da 16 paketten 12'si tamam (480/550 birim).** Sıradaki iş
+  **D paketi, oturum 2 (13. çalıştırma)** — `GT11`–`GT20`: 10 mektup görevi, ton kotası
+  **resmi 3 · yarı resmi 4 · samimi 3**. Bu oturumun on durumu ve yukarıdaki dinleme
+  senaryoları tekrar edilmeyecek; kullanılmamış işlevler listesinden yararlanılmalı.
+  Ardından **E paketi (14.–16. çalıştırma)** `content/writing/task2/` altına 3 × 20 deneme
+  konusu.

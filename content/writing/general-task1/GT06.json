@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "set_id": "GT06",
+  "skill": "writing",
+  "module": "general",
+  "task": 1,
+  "generated_by": "opus",
+  "tone": "semi-formal",
+  "prompt": "You have been accepted onto a short training course that takes place on two mornings a week for the next three months. The course times clash with your normal working hours.\n\nWrite a letter to your manager. In your letter:\n\n- explain what the course is and when it takes place\n- describe the change to your working hours that you are asking for\n- say how your usual work would still be done",
+  "instruction_line": "You should spend about 20 minutes on this task. Write at least 150 words.",
+  "salutation_hint": "Dear Ms Farrow,",
+  "min_words": 150,
+  "minutes": 20,
+  "key_points": [
+    "Kurs tanımlanmalı: ne öğretiyor, hangi günler ve saatler, kaç ay sürüyor",
+    "İstenen değişiklik sayıyla verilmeli (hangi günlerde hangi saatlere kaydırma)",
+    "Üçüncü madde çözüm bekliyor: işin nasıl aksamadan yürüyeceğine dair somut bir plan",
+    "Kursun işe katkısı kısaca belirtilirse talep güçlenir",
+    "Ton yarı resmi: isimle hitap, rica kalıpları, karar yöneticiye bırakılır"
+  ],
+  "common_mistakes": [
+    "Yalnızca izin istemek, işin nasıl yürüyeceğini hiç düşünmemek",
+    "Değişikliği belirsiz anlatmak ('I need some free time in the mornings')",
+    "Emir kipiyle yazmak ('Change my hours from Monday')",
+    "Yarı resmi mektupta arkadaşça bir açılış ve kapanış kullanmak"
+  ],
+  "topic": "çalışma saatlerinde değişiklik talebi",
+  "difficulty": "medium"
+}
