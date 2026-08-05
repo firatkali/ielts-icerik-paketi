@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "set_id": "C13",
+  "skill": "speaking",
+  "card_type": "olay",
+  "topic": "Trying something for the first time",
+  "topic_tr": "Bir şeyi ilk kez denemek",
+  "generated_by": "opus",
+  "part2": {
+    "title": "Describe an occasion when you tried something for the first time.",
+    "bullets": [
+      "what you tried",
+      "who was with you",
+      "how difficult you found it"
+    ],
+    "closing": "and explain whether you would do it again.",
+    "preparation_seconds": 60,
+    "speaking_seconds": [90, 120],
+    "follow_up": [
+      "What made you decide to try it?",
+      "How did you feel just before you started?"
+    ],
+    "useful_language": ["I was thrown in at the deep end", "I got the hang of it eventually", "a steep learning curve", "I surprised myself"]
+  },
+  "part3": {
+    "items": [
+      { "number": 1, "prompt": "Why are many adults reluctant to try something completely new?",
+        "focus": "genel açıklama", "difficulty": "medium" },
+      { "number": 2, "prompt": "Do children pick up new skills more easily than adults do?",
+        "focus": "karşılaştırma", "difficulty": "medium" },
+      { "number": 3, "prompt": "How could schools encourage people to keep learning throughout their lives?",
+        "focus": "gelecek / görüş", "difficulty": "hard" }
+    ],
+    "useful_language": ["out of their comfort zone", "pick things up quickly", "lifelong learning"]
+  }
+}

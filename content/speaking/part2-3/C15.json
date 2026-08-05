@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "set_id": "C15",
+  "skill": "speaking",
+  "card_type": "soyut",
+  "topic": "Advice you still remember",
+  "topic_tr": "Hâlâ hatırladığınız bir öğüt",
+  "generated_by": "opus",
+  "part2": {
+    "title": "Describe a piece of advice you were given that you still remember.",
+    "bullets": [
+      "what the advice was",
+      "who gave it to you",
+      "when you were given it"
+    ],
+    "closing": "and explain how this advice has been useful to you.",
+    "preparation_seconds": 60,
+    "speaking_seconds": [90, 120],
+    "follow_up": [
+      "Have you passed this advice on to anyone?",
+      "Was it easy to follow at the time?"
+    ],
+    "useful_language": ["it has stuck with me ever since", "take it on board", "easier said than done", "it has stood me in good stead"]
+  },
+  "part3": {
+    "items": [
+      { "number": 1, "prompt": "Why do people often ignore advice even when it is sound?",
+        "focus": "genel açıklama", "difficulty": "medium" },
+      { "number": 2, "prompt": "Who tends to give more useful advice, family members or colleagues?",
+        "focus": "karşılaştırma", "difficulty": "medium" },
+      { "number": 3, "prompt": "Will people turn to the internet rather than to those they know for guidance?",
+        "focus": "gelecek / görüş", "difficulty": "hard" }
+    ],
+    "useful_language": ["learn the hard way", "take it with a pinch of salt", "increasingly, people are turning to"]
+  }
+}

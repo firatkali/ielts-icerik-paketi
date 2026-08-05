@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "set_id": "C08",
+  "skill": "speaking",
+  "card_type": "nesne",
+  "topic": "A gift you gave",
+  "topic_tr": "Birine verdiğiniz bir hediye",
+  "generated_by": "opus",
+  "part2": {
+    "title": "Describe a gift you gave to someone else.",
+    "bullets": [
+      "what the gift was",
+      "who you gave it to",
+      "why you chose it"
+    ],
+    "closing": "and explain how the other person reacted to it.",
+    "preparation_seconds": 60,
+    "speaking_seconds": [90, 120],
+    "follow_up": [
+      "How long did it take you to decide?",
+      "Would you rather choose a gift yourself or be told what someone wants?"
+    ],
+    "useful_language": ["I racked my brains for ideas", "something they would actually use", "it went down well", "a bit of a gamble"]
+  },
+  "part3": {
+    "items": [
+      { "number": 1, "prompt": "What makes a gift feel thoughtful rather than ordinary?",
+        "focus": "genel açıklama", "difficulty": "medium" },
+      { "number": 2, "prompt": "Which is more appreciated, something handmade or something bought?",
+        "focus": "karşılaştırma", "difficulty": "medium" },
+      { "number": 3, "prompt": "Do you think giving presents will become less common in future?",
+        "focus": "gelecek / görüş", "difficulty": "hard" }
+    ],
+    "useful_language": ["put thought into it", "it is the thought that counts", "on the decline"]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "set_id": "C14",
+  "skill": "speaking",
+  "card_type": "soyut",
+  "topic": "A habit you would like to change",
+  "topic_tr": "Değiştirmek istediğiniz bir alışkanlık",
+  "generated_by": "opus",
+  "part2": {
+    "title": "Describe a habit you would like to change.",
+    "bullets": [
+      "what the habit is",
+      "how long you have had it",
+      "what effect it has on your day"
+    ],
+    "closing": "and explain what makes this habit difficult to change.",
+    "preparation_seconds": 60,
+    "speaking_seconds": [90, 120],
+    "follow_up": [
+      "Have you tried to change it before?",
+      "Who might be able to help you?"
+    ],
+    "useful_language": ["I have fallen into the habit of", "break the habit", "it creeps up on me", "cut down on it gradually"]
+  },
+  "part3": {
+    "items": [
+      { "number": 1, "prompt": "Why do people find it so hard to give up habits they know are unhelpful?",
+        "focus": "genel açıklama", "difficulty": "medium" },
+      { "number": 2, "prompt": "Is it easier to form a new habit or to stop an old one?",
+        "focus": "karşılaştırma", "difficulty": "medium" },
+      { "number": 3, "prompt": "What part should schools play in helping young people build good habits?",
+        "focus": "görüş / öneri", "difficulty": "hard" }
+    ],
+    "useful_language": ["stick to a routine", "willpower alone", "in the long term"]
+  }
+}

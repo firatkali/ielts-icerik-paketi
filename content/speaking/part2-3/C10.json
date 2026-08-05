@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "set_id": "C10",
+  "skill": "speaking",
+  "card_type": "olay",
+  "topic": "Helping a stranger",
+  "topic_tr": "Tanımadığınız birine yardım etmek",
+  "generated_by": "opus",
+  "part2": {
+    "title": "Describe a time when you helped someone you did not know.",
+    "bullets": [
+      "where you were",
+      "what the person needed",
+      "what you did"
+    ],
+    "closing": "and explain how you felt about it afterwards.",
+    "preparation_seconds": 60,
+    "speaking_seconds": [90, 120],
+    "follow_up": [
+      "Did anyone else stop to help?",
+      "Would you do the same again?"
+    ],
+    "useful_language": ["they looked a bit lost", "I gave them a hand with", "it only took a minute", "they were very grateful"]
+  },
+  "part3": {
+    "items": [
+      { "number": 1, "prompt": "Why do some people walk past when a stranger clearly needs help?",
+        "focus": "genel açıklama", "difficulty": "medium" },
+      { "number": 2, "prompt": "Are people more willing to help one another in villages than in cities?",
+        "focus": "karşılaştırma", "difficulty": "medium" },
+      { "number": 3, "prompt": "How could neighbourhoods encourage people to look out for one another?",
+        "focus": "görüş / öneri", "difficulty": "hard" }
+    ],
+    "useful_language": ["lend a hand", "turn a blind eye", "a strong sense of community"]
+  }
+}

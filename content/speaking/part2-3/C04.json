@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "set_id": "C04",
+  "skill": "speaking",
+  "card_type": "yer",
+  "topic": "A quiet place for thinking",
+  "topic_tr": "Düşünmek için gittiğiniz sessiz bir yer",
+  "generated_by": "opus",
+  "part2": {
+    "title": "Describe a quiet place you go to when you want to think.",
+    "bullets": [
+      "where this place is",
+      "how often you go there",
+      "what you usually do while you are there"
+    ],
+    "closing": "and explain why this place helps you to think.",
+    "preparation_seconds": 60,
+    "speaking_seconds": [90, 120],
+    "follow_up": [
+      "Do you go there alone or with someone else?",
+      "How would you feel if the place became busier?"
+    ],
+    "useful_language": ["it is a stone's throw from", "I can hear myself think", "away from it all", "clear my head"]
+  },
+  "part3": {
+    "items": [
+      { "number": 1, "prompt": "Why is it becoming difficult to find quiet places in towns and cities?",
+        "focus": "genel açıklama", "difficulty": "medium" },
+      { "number": 2, "prompt": "Which is more restful for most people, being outdoors or staying indoors?",
+        "focus": "karşılaştırma", "difficulty": "medium" },
+      { "number": 3, "prompt": "Should local authorities do more to protect quiet public spaces?",
+        "focus": "görüş / öneri", "difficulty": "hard" }
+    ],
+    "useful_language": ["a constant background hum", "set aside land for", "in the long run"]
+  }
+}

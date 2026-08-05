@@ -3335,3 +3335,92 @@ okla verildi ki "merdivenin başında sağda" ifadesi tek anlama gelsin.
 - Atlanan/sorun: yok. **OPUS5-30'da 16 paketten 4'ü tamam (200/550 birim).** Sıradaki iş
   **B paketi, oturum 1** — `content/speaking/part2-3/` altına `C01`–`C15`: 15 kart
   (kişi 3 · yer 3 · nesne 3 · olay 4 · soyut 2) + her kart için 3 tartışma sorusu = 60 birim.
+
+## OPUS5-30 (5. çalıştırma: konuşma 2.+3. bölüm — oturum 1, 15 kart + 45 tartışma sorusu)
+
+- Tarih: 2026-08-05
+- Depo kontrolü: `content/speaking/part1/` altında **T01–T20 tamdı** (200 soru, A paketi
+  kapalı), `content/speaking/part2-3/` klasörü **hiç yoktu**, `content/writing/` altındaki
+  üç klasör de boştu. Çalıştırma listesindeki sıradaki bitmemiş paket **B paketi, oturum 1**
+  idi, o yapıldı; kullanıcının tanımı ("5. çalıştırma") depo durumuyla **birebir uyuştu**.
+  **60 birim** üretildi (15 kart + 45 soru), hedefle birebir aynı.
+- Üretilen dosyalar — `content/speaking/part2-3/C01.json` … `C15.json`:
+  - **kişi (3):** C01 sabırlı bir kişi · C02 sohbetinden keyif alınan yaşlı biri ·
+    C03 yakınlarda tanışılan, daha yakından tanınmak istenen biri
+  - **yer (3):** C04 düşünmek için gidilen sessiz bir yer · C05 çevredeki ilginç bir bina ·
+    C06 gidilen çok kalabalık bir yer
+  - **nesne (3):** C07 sık giyilen bir giysi · C08 birine verilen bir hediye ·
+    C09 yanınızdan ayırmadığınız küçük bir eşya
+  - **olay/deneyim (4):** C10 tanınmayan birine yardım etmek · C11 uzun süre beklemek ·
+    C12 planların son anda değişmesi · C13 bir şeyi ilk kez denemek
+  - **soyut (2):** C14 değiştirmek istenen bir alışkanlık · C15 hâlâ hatırlanan bir öğüt
+- **KULLANILAN KART KONULARI (sonraki oturumlar tekrar etmesin):** A patient person ·
+  An older person you enjoy listening to · Someone you met recently · A quiet place for
+  thinking · An interesting building · A crowded place · An item of clothing you wear often ·
+  A gift you gave · A small object you always carry · Helping a stranger · A long wait ·
+  A change of plans · Trying something for the first time · A habit you would like to
+  change · Advice you still remember.
+- **Kart türü kotası:** 60 kartlık hedefin (kişi 12 · yer 12 · nesne 12 · olay 16 · soyut 8)
+  tam dörtte biri üretildi (3·3·3·4·2). **C16–C60 için kalan:** kişi 9 · yer 9 · nesne 9 ·
+  olay 12 · soyut 6 — her oturumda yine 3·3·3·4·2 yapılırsa kota sonda tutar.
+- **Part 1 havuzuyla çakışma bilinçli olarak önlendi.** 20 part 1 konusundan hiçbiri kart
+  konusu olarak alınmadı: fotoğraf yerine "sık giyilen bir giysi", sanat/el işi yerine
+  "birine verilen hediye", komşuluk yerine "tanınmayan birine yardım", zaman yönetimi
+  yerine "planların son anda değişmesi", seyahat yerine "gidilen kalabalık bir yer"
+  kuruldu. Denetim scripti 200 part 1 sorusunun tamamıyla metin karşılaştırması yaptı —
+  **hiçbir soru metni çakışmıyor.**
+- **Şema kararı — `part` alanı yazılmadı.** `tools/dogrula.py` içindeki
+  `konusma_yazma_denetle()` dosyayı `skill == "speaking" and part == 1` ise part 1,
+  **değilse part2-3** sayıyor. Dosyaya `"part": 2` gibi bir alan konsaydı sorun çıkmazdı
+  ama prompt şemasında da yok; denetim scripti `part` alanının **bulunmadığını** ayrıca
+  doğruluyor. Sonraki part2-3 oturumları da bu alanı yazmasın.
+- **Kart biçimi** resmi kalıba uyuyor: başlık `Describe …` ile başlıyor ve tek cümle,
+  tam **3 madde** (hepsi küçük harfle başlıyor, noktasız), son satır `and explain …`,
+  `preparation_seconds: 60`, `speaking_seconds: [90, 120]`, **2 takip sorusu**
+  (`follow_up`), 4 `useful_language` ifadesi.
+- **3. bölüm kuralı — artan soyutluk.** Her dosyada üç soru sırasıyla
+  **genel açıklama → karşılaştırma → gelecek/görüş (ya da öneri)** eksenine oturuyor,
+  zorluk düzeni `medium · medium · hard`. Sorular kişisel değil toplumsal: script her
+  part 3 sorusunda `your`/`yourself` geçişini hata sayıyor (45 soruda 0). Her soru tek
+  cümle, tek `?`, ≤95 karakter.
+- **Kültürel tarafsızlık ve ayrıcalık varsayımı yok:** hiçbir kart para, seyahat geçmişi,
+  ev sahipliği ya da cihaz sahipliği gerektirmiyor — C06 kalabalık bir otobüs/pazar kadar
+  bir etkinlikle de anlatılabiliyor, C07 herhangi bir giysiyle, C09 "küçük bir eşya" ile.
+  Din, alkol, siyaset, savaş, cinsellik geçmiyor; gerçek marka/kurum/kişi adı yok;
+  "IELTS" hiçbir dosyada geçmiyor. `useful_language` İngiliz İngilizcesinde
+  (`neighbourhood`, `queueing`, `make do and mend`, `take it with a pinch of salt`).
+- Doğrulama: geçici denetim scriptiyle (`tools/_sp5_kontrol.py`, sonra silindi) JSON
+  geçerliliği, zarf alanları, `set_id` ↔ dosya adı eşleşmesi, `part` alanının olmaması,
+  kart türü kotası, başlık kalıbı (`Describe …` + tek cümle), madde sayısı (tam 3) ve
+  biçimi, `closing`in `and explain ` ile başlaması, süre alanları, `follow_up` sayısı ve
+  tek soru cümlesi olması, `useful_language` sayısı (3–5) ve dosya içi tekrar, part 3
+  soru sayısı/numara sırası/tek cümle/uzunluk/kişisellik/zorluk düzeni, `focus` ve
+  `topic_tr` alanlarının Türkçe olması, Amerikan yazımı taraması, **15 dosyadaki bütün
+  soru ve takip sorusu metinlerinin benzersizliği**, kart başlıklarının benzersizliği ve
+  **200 part 1 sorusuyla çakışma** denetlendi. **İlk turda 1 hata çıktı ve düzeltildi:**
+  C07 ile C08'in ikinci takip sorusu aynıydı (`Would you choose the same thing again?`) →
+  C08'inki `Would you rather choose a gift yourself or be told what someone wants?` olarak
+  yeniden yazıldı. Sonra **hata 0**. Ardından `python tools/dogrula.py`: **şema hatası 0**,
+  `speaking/part1` 200 + `speaking/part2-3` **60**, pasaj lisansı eksik 0, görünür metinde
+  IELTS 0, yasak kaynak 0. Rapordaki "TAM TEST BUTUNLUGU … EKSIK" satırları bu paketle
+  ilgisiz (henüz üretilmemiş okuma/dinleme soru tipleri).
+- ⚠️ **`tools/calistir.py` düzeltildi (1. oturumda not düşülen sayaç hatası).**
+  `_soru_say()` yalnızca üst düzey `items`/`groups` listesini sayıyordu; part2-3
+  dosyalarında sorular `part2`/`part3` altında olduğu için 15 dosya **0 birim** sayılıyor
+  ve DURUM.txt'teki "Konusma sorusu" satırı olduğundan az gösterecekti. `skill == speaking`
+  ve `part2` dolu olan dosyalar için `1 + len(part3.items)` sayan bir dal eklendi
+  (dogrula.py'deki sayım kuralının aynısı). Kontrol: `Konusma sorusu` artık **260/440**
+  (200 part 1 + 60 part2-3). Bu fonksiyon runner'ın "iş yapıldı mı" izinde de kullanılıyor;
+  değişiklik sayıyı bir kez yukarı çektiği için ilerleme tespitini bozmuyor.
+- Referans: `referans/ielts-speaking-sample-tasks-2023.pdf` bu oturumda **2. ve 3. bölüm
+  sayfaları için tekrar `Read` ile açıldı** (4. oturum notundaki öneri): kart çerçevesi,
+  `You should say:` girintisi, üç maddelik düzen, `and explain …` kapanışı, "rounding off
+  questions" iki soru, 3. bölümde konudan soyutlanmış genel sorular. **Tek bir soru, cümle
+  ya da replik kopyalanmadı** — örnekteki kart konusu ("sahip olunan önemli bir eşya") bu
+  oturumda bilinçli olarak kullanılmadı, nesne kartları farklı eksenlerde kuruldu.
+  `referans/text/` klasörü hâlâ yok.
+- **DURUM.txt / ilerleme.txt elle güncellenmedi** (4. oturumdaki gerekçe geçerli; sayaç
+  dosyalarını `tools/calistir.py` kendi commit'iyle yazıyor).
+- Atlanan/sorun: yok. **OPUS5-30'da 16 paketten 5'i tamam (260/550 birim).** Sıradaki iş
+  **B paketi, oturum 2** — `content/speaking/part2-3/` altına `C16`–`C30`: 15 kart
+  (kişi 3 · yer 3 · nesne 3 · olay 4 · soyut 2) + kart başına 3 tartışma sorusu = 60 birim.

@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "set_id": "C07",
+  "skill": "speaking",
+  "card_type": "nesne",
+  "topic": "An item of clothing you wear often",
+  "topic_tr": "Sık giydiğiniz bir giysi",
+  "generated_by": "opus",
+  "part2": {
+    "title": "Describe an item of clothing that you wear very often.",
+    "bullets": [
+      "what the item is",
+      "when you got it",
+      "when you usually wear it"
+    ],
+    "closing": "and explain why you wear this item so often.",
+    "preparation_seconds": 60,
+    "speaking_seconds": [90, 120],
+    "follow_up": [
+      "Would you choose the same thing again?",
+      "How much longer do you expect it to last?"
+    ],
+    "useful_language": ["it goes with everything", "it is worn at the elbows", "hard-wearing", "I reach for it without thinking"]
+  },
+  "part3": {
+    "items": [
+      { "number": 1, "prompt": "Why do people replace clothes that are still in good condition?",
+        "focus": "genel açıklama", "difficulty": "medium" },
+      { "number": 2, "prompt": "Do people dress more casually now than they did a generation ago?",
+        "focus": "karşılaştırma", "difficulty": "medium" },
+      { "number": 3, "prompt": "Will people own fewer clothes in the future than they do today?",
+        "focus": "gelecek / görüş", "difficulty": "hard" }
+    ],
+    "useful_language": ["a throwaway culture", "make do and mend", "there are signs that"]
+  }
+}

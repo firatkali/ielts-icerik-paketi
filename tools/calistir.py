@@ -173,6 +173,11 @@ def _soru_say(klasor):
         if isinstance(d, list):
             toplam += len(d)
         elif isinstance(d, dict):
+            # Konusma 2.+3. bolum: sorular ust duzey items'ta degil,
+            # part2 (kart = 1 birim) ile part3.items altinda duruyor.
+            if d.get("skill") == "speaking" and d.get("part2"):
+                toplam += 1 + len((d.get("part3") or {}).get("items") or [])
+                continue
             for g in (d.get("groups") or [{"items": d.get("items") or []}]):
                 toplam += len(g.get("items") or [])
     return toplam

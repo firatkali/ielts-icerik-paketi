@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "set_id": "C11",
+  "skill": "speaking",
+  "card_type": "olay",
+  "topic": "A long wait",
+  "topic_tr": "Uzun süre beklemek",
+  "generated_by": "opus",
+  "part2": {
+    "title": "Describe an occasion when you had to wait a long time for something.",
+    "bullets": [
+      "what you were waiting for",
+      "how long the wait was",
+      "what you did while you waited"
+    ],
+    "closing": "and explain how you felt once the waiting was over.",
+    "preparation_seconds": 60,
+    "speaking_seconds": [90, 120],
+    "follow_up": [
+      "Could the wait have been avoided?",
+      "Did anyone explain the delay to you?"
+    ],
+    "useful_language": ["it dragged on for hours", "I killed time by", "there was no end in sight", "it was worth the wait"]
+  },
+  "part3": {
+    "items": [
+      { "number": 1, "prompt": "Why do so many people find waiting frustrating?",
+        "focus": "genel açıklama", "difficulty": "medium" },
+      { "number": 2, "prompt": "Are people less tolerant of delays than they were in the past?",
+        "focus": "karşılaştırma", "difficulty": "medium" },
+      { "number": 3, "prompt": "How might everyday services reduce the time people spend queueing?",
+        "focus": "gelecek / görüş", "difficulty": "hard" }
+    ],
+    "useful_language": ["instant results", "at the click of a button", "cut waiting times"]
+  }
+}
