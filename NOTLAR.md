@@ -4597,3 +4597,104 @@ sınırında tartışmalı kaldığı için hiç yazılmadı.
 - Not: `UYARILAR.txt`'de çalıştırıcının bıraktığı "2/8 işi 3 kez denendi, sonuç
   alınamadı" kaydı vardı; bu oturum o işi tamamladı, kayıt tarihçe olarak duruyor.
 - Atlanan/sorun: yok. Sıradaki iş **3. çalıştırma: AC3 (pasaj A07, soru 7–13)**.
+
+---
+
+## FABLE5-40 (3. çalıştırma: AC3 — doğru / yanlış / verilmemiş, 7 soru)
+
+- Tarih: 2026-08-05
+- Depo kontrolü: `AC1` ve `AC2` klasörlerinde `true-false-not-given.json` vardı (1. ve 2.
+  paket bitmiş); AC3, AC4, GT1–GT2 ve iki alıştırma dosyası yoktu. Çalıştırma
+  listesindeki ilk üretilmemiş paket **3 — AC3** idi, o yapıldı; ötekilere dokunulmadı.
+- Çıktı: `content/reading/tests/AC3/true-false-not-given.json` — **7 soru (7–13)**,
+  pasaj `A07` ("The Whale That Recognised Herself in a Mirror"), `question_type`
+  `true_false_not_given`, `practice: false`, kutu aralığı yönergede **7-13** yazılı.
+
+### Sorular, cevaplar ve dayanak
+
+| No | Cevap | Nereye dayanıyor | Test edilen nokta |
+|---|---|---|---|
+| 7 | TRUE | A/3 | testin ne ölçtüğünün hâlâ tartışmalı olması |
+| 8 | FALSE | B/1 | grubun tamamının dişi olması (erkek yok) |
+| 9 | TRUE | C/3 | iki hayvanın daha ilk ayna oturumunda tepki vermesi |
+| 10 | NOT GIVEN | — (konu A ve D) | işaret uygulanırken uyuşturucu verilip verilmediği |
+| 11 | TRUE | E/1 | üç işaret testinden birini geçmek = ikisini geçememek |
+| 12 | FALSE | F/1 | "equally rich range" / "daha az çeşit" karşıtlığı |
+| 13 | NOT GIVEN | — (konu G) | Monodontidae'nin yalnızca iki türden oluşup oluşmadığı |
+
+- Dağılım **3 TRUE · 2 FALSE · 2 NOT GIVEN**, sıra `T · F · T · NG · T · F · NG`:
+  hiçbir şık yarıyı geçmiyor, ardışık üç soru aynı cevap değil.
+- **Sıra kuralı:** TRUE/FALSE kanıtları A→B→C→E→F artan sırada; iki NOT GIVEN sorusu da
+  konunun ele alındığı yere oturuyor (10 → D, işaretin uygulanması; 13 → G, aile
+  sınıflandırması). Sorular yedi paragrafa yayıldı, D ve G yalnızca NOT GIVEN'larla
+  temsil ediliyor.
+- **A07'nin öteki paketiyle çakışma sıfır:** aynı pasajı kullanan `table-completion`
+  (soru 1–6) B/3, C/2, D/2, E/2, E/3 ve F/3 cümlelerini kanıt almış; bu paket bilerek
+  **yalnızca A/3, B/1, C/3, E/1, F/1** cümlelerinden kuruldu (betikle karşılaştırıldı,
+  kesişim boş, uyarı 0).
+- Aritmetik kuralı (prompt'taki "Hata B") iki yerde bilinçli kullanıldı: soru 11
+  (3 testten 1'i geçildi → 2'si geçilemedi) ve soru 9 ("dört hayvandan ikisi" →
+  "two of the animals"). İkisi de doğrudan sayı okuması, çıkarım değil.
+
+### NOT GIVEN gerekçeleri (üç şart)
+
+- **Soru 10:** konu pasajda var — A/1 ayna testinin genel tarifinde işaretin
+  "an anaesthetised **or** distracted animal" üzerine konduğunu söylüyor, D paragrafı da
+  işaretin belugalara nasıl uygulandığını anlatıyor; çürüten cümle yok (balinaların
+  uyuşturulmadığı ya da uyanık tutulduğu hiçbir yerde yazmıyor); doğrulayan cümle de yok
+  — A'daki kalıp iki seçeneği **birden** verdiği için bu çalışmada hangisinin
+  kullanıldığını göstermez, dolayısıyla "ima ediliyor" da denemez.
+- **Soru 13:** konu G/1'de var (Monodontidae adıyla anılıyor, belugalar ve narvallar
+  sayılıyor); çürüten cümle yok (ailenin başka üyesi adlandırılmıyor, "ikiden fazla tür
+  var" diyen cümle de yok); doğrulayan cümle de yok — G "which **includes** belugas and
+  narwhals" diyor; içermek, ailenin yalnızca o iki türden oluştuğunu göstermez. Klasik
+  "includes / only" ayrımı.
+- "Hata A" tuzağı (pasaj söylemiyorsa FALSE sanmak) iki NOT GIVEN'da da hedeflenen hata;
+  buna karşılık soru 8 ve 12 gerçek çelişki taşıyor, yani aday her ikisini de ayırt
+  etmek zorunda.
+
+### Elenen adaylar
+
+Üç adımlı test **5 aday ifadeyi eledi**, hiçbiri dosyaya girmedi:
+
+1. "İşaret bazı denemelerde yüzgece uygulandı" (NOT GIVEN adayı, konu D) — D "most often
+   just behind an eye or an ear" diyerek başka yerleri açık bırakıyor, ama aynı paragraf
+   işaretin **aynasız görülemeyecek** bir yere konduğunu söylüyor ve C'de balina kendi
+   göğüs yüzgecini "inspect it" diye çeviriyor, yani yüzgecini görebiliyor. İki cümle
+   birleşince cevap FALSE'a kayıyordu → 2. şart sağlanmadı, atıldı.
+2. "Narvalların da aynada kendini tanıdığı gösterildi" (NOT GIVEN adayı, konu A ve G) —
+   A/2 "Only a short list of species has ever been reported to pass: …" listesi **kapalı**
+   okunabiliyor ve narval listede yok; bu hâliyle çürüten cümle sayılabilirdi → NG/FALSE
+   sınırında kaldı, atıldı. Yerine aynı paragraftan "includes / only" ayrımına dayanan
+   soru 13 kuruldu.
+3. "Natasha işaret görünürken çok daha uzun süre inceledi" (TRUE adayı, E/2–E/3) —
+   geçerli bir soruydu ama kanıt cümleleri tablo tamamlama paketinin 4. ve 5. sorularınca
+   kullanılmıştı; aynı sayıları iki kez test etmemek için atıldı, yerine E/1'e dayanan
+   soru 11 yazıldı.
+4. "Balinalar düz panelin önünde aynadakinden çok vakit geçirdi" (FALSE adayı, B/4) —
+   sayı karşılaştırması (27 saat / 23 saat) temizdi, ama "spent … in front of" yapısını
+   bozmadan yazılan her paraphrase ya birebir kopyaya ya da "ilgisini çekti" gibi
+   yoruma kayıyordu; B zaten 1. cümleyle temsil edildiği için atıldı.
+5. "Aynaya güçlü tepki veren iki balina gruptaki en genç hayvanlardı" — pasaj Kathy ve
+   Marina'nın yaşını hiç vermiyor; Natasha "the older of the two" olarak geçse de grup
+   içi yaş sıralaması yok. NG mi FALSE mu tartışmalı kaldığı için hiç yazılmadı.
+
+### Doğrulama
+
+- `python tools/_f40_kontrol.py AC3` (2. çalıştırmadan devralınan betik, test kimliğini
+  argüman alıyor) → zarf alanları, yönerge kalıbı, 7–13 dizisi, birebir `evidence` +
+  `evidence_locator.sentence` doğruluğu, FALSE'ta `contradiction_point`, NOT GIVEN'da üç
+  şartlı gerekçe, ≤20 kelime, 6 kelimelik örtüşme taraması, dağılım/ardışıklık, kanıt
+  sırası, genelleme kotası, IELTS taraması, tablo tamamlama kesişimi →
+  **hata 0, uyarı 0**.
+- Gerileme kontrolü: AC1 ve AC2 aynı betikle yeniden koşuldu → ikisi de hata 0, uyarı 0.
+- Aşırı genelleme kotası: yalnızca soru 13 ("the only") — sınır 2, kullanılan 1.
+- Kelime sayıları 10–14, hiçbiri 20'yi geçmiyor; her ifade tek cümle ve tek iddia.
+- Son kontrol: yedi soru cevap anahtarına bakmadan aday gibi baştan çözüldü, yedisi de
+  anahtarla uyuştu — **son turda silinen soru yok** (elemeler yukarıda, taslak
+  aşamasında).
+- `python tools/dogrula.py` → **şema hatası 0**, `reading/test` 134 → **141**,
+  AC3 20/40 → **27/40** (kalan eksikler 14–18, 23–26, 32–35: başka promptların işi).
+  Pasaj lisansı eksik 0, görünür metinde IELTS 0, yasak kaynak 0.
+- **DURUM.txt / ilerleme.txt elle güncellenmedi** (sayaçları `tools/calistir.py` yazıyor).
+- Atlanan/sorun: yok. Sıradaki iş **4. çalıştırma: AC4 (pasaj A10, soru 7–13)**.

@@ -1,0 +1,99 @@
+{
+  "schema_version": "1.0",
+  "set_id": "AC3-true-false-not-given",
+  "skill": "reading",
+  "module": "academic",
+  "test_id": "AC3",
+  "practice": false,
+  "passage_id": "A07",
+  "question_type": "true_false_not_given",
+  "generated_by": "fable",
+  "instructions": "Do the following statements agree with the information given in the passage?\n\nIn boxes 7-13 on your answer sheet, write\n\nTRUE if the statement agrees with the information\nFALSE if the statement contradicts the information\nNOT GIVEN if there is no information on this",
+  "options": ["TRUE", "FALSE", "NOT GIVEN"],
+  "items": [
+    {
+      "number": 7,
+      "prompt": "Researchers still disagree about what a successful mirror test actually proves.",
+      "answer": ["TRUE"],
+      "evidence": "Whether the test measures genuine self-awareness or something narrower remains contested, but passing it is still treated as one of the clearest behavioural signs that an animal can distinguish its own reflection from that of another individual.",
+      "evidence_locator": { "paragraph": "A", "sentence": 3 },
+      "contradiction_point": null,
+      "not_given_justification": null,
+      "scan_note": "Testin ne ölçtüğü tartışması A paragrafında (3. cümle) ve H paragrafında ('The authors are cautious about overstating what the test proves' ve 'does not necessarily mean an animal possesses the same rich sense of self') ele alınıyor; ikisi de aynı yönde, tartışmanın sürdüğünü destekliyor, çelişen cümle yok.",
+      "explanation": "Paragraf A, testin gerçek bir öz farkındalığı mı yoksa daha dar bir şeyi mi ölçtüğünün hâlâ tartışmalı olduğunu söylüyor; ifade bunun eş anlamlı hâli.",
+      "difficulty": "easy"
+    },
+    {
+      "number": 8,
+      "prompt": "The group of belugas studied contained both male and female animals.",
+      "answer": ["FALSE"],
+      "evidence": "The research took place at the New York Aquarium, run by the Wildlife Conservation Society, and involved four belugas: three adult females named Kathy, Marina and Natasha, and a younger female called Maris, who was Natasha's own daughter.",
+      "evidence_locator": { "paragraph": "B", "sentence": 1 },
+      "contradiction_point": "Pasaj dört hayvanı tek tek sayarken üçünü 'adult females', dördüncüsünü de 'a younger female' diye tanımlıyor; yani grup tamamen dişi. İfade grupta erkek de bulunduğunu iddia ediyor. Çelişki tek noktada: cinsiyet bileşimi.",
+      "not_given_justification": null,
+      "scan_note": "Denek grubunun bileşimi yalnızca B paragrafının 1. cümlesinde veriliyor; hayvan adları E (Natasha), F (Maris ve iki balina) ve H (dört belugadan ikisi) paragraflarında da geçiyor, ama hiçbirinde erkek bir birey anılmıyor.",
+      "explanation": "Paragraf B, çalışmadaki dört belugayı üç yetişkin dişi ve genç bir dişi olarak sayıyor — grupta hiç erkek yok, ifade bunun tersini söylüyor.",
+      "difficulty": "easy"
+    },
+    {
+      "number": 9,
+      "prompt": "Two of the animals reacted in a self-directed way during their first mirror session.",
+      "answer": ["TRUE"],
+      "evidence": "These actions, described by the researchers as self-directed rather than social, appeared within the very first mirror session for two of the four animals, Natasha and Maris, after little more than two hours of exposure.",
+      "evidence_locator": { "paragraph": "C", "sentence": 3 },
+      "contradiction_point": null,
+      "not_given_justification": null,
+      "scan_note": "Aynaya verilen tepkinin ne zaman başladığı C paragrafında (1. cümle 'From the very first sessions' ve 3. cümle) anlatılıyor; oturum düzeni B'de, bireyler arası farklar F ve H'de geçiyor. Hangi hayvanların ilk oturumda tepki verdiğini yalnızca C/3 söylüyor ve çelişen cümle yok.",
+      "explanation": "Paragraf C, kendine yönelik davranışların dört hayvandan ikisinde (Natasha ve Maris) daha ilk ayna oturumunda ortaya çıktığını söylüyor.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 10,
+      "prompt": "The belugas were given an anaesthetic before each mark was applied.",
+      "answer": ["NOT GIVEN"],
+      "evidence": null,
+      "evidence_locator": null,
+      "contradiction_point": null,
+      "not_given_justification": "(1) Konu pasajda var: A paragrafı ayna testinin genel tarifinde işaretin 'an anaesthetised or distracted animal' üzerine konduğunu söylüyor, D paragrafı da işaretin belugalara nasıl ve nereye uygulandığını ayrıntılı anlatıyor. (2) Hiçbir cümle ifadeyi çürütmüyor: pasajın hiçbir yerinde balinaların uyuşturulmadığı, uyanık tutulduğu ya da dikkatlerinin dağıtıldığı söylenmiyor; D yalnızca işaretin boyutunu, yerini ve sahte işlemi anlatıyor. (3) Hiçbir cümle ifadeyi doğrulamıyor — dolaylı olarak bile: A'daki 'anaesthetised or distracted' iki seçeneği birden verdiği için bu çalışmada hangisinin uygulandığını göstermez; 'yazar bunu ima ediyor' denemez.",
+      "scan_note": "İşaretin uygulanması A paragrafında (1. cümle, genel yöntem tarifi) ve D paragrafında (2. ve 3. cümleler: işaretin boyutu, yeri, sahte işlem) geçiyor; E paragrafı gerçek ve sahte işaretin sonuçlarını karşılaştırıyor. Bu paragrafların hiçbirinde balinaların uyuşturulup uyuşturulmadığına dair bir cümle yok.",
+      "explanation": "Pasaj işaretin nereye ve nasıl konduğunu anlatıyor ama bu çalışmada hayvanlara uyuşturucu verilip verilmediğini hiç söylemiyor; A'daki genel tarif 'uyuşturulmuş ya da dikkati dağıtılmış' diyerek iki ihtimali de açık bırakıyor.",
+      "difficulty": "hard"
+    },
+    {
+      "number": 11,
+      "prompt": "Natasha was unsuccessful in two of her three mark tests.",
+      "answer": ["TRUE"],
+      "evidence": "Natasha, the older of the two whales that had shown strong interest in the mirror, passed one of the three mark tests she was given.",
+      "evidence_locator": { "paragraph": "E", "sentence": 1 },
+      "contradiction_point": null,
+      "not_given_justification": null,
+      "scan_note": "Natasha'nın işaret testleri E paragrafında (1. cümle sonuç, 2. ve 3. cümleler gerçek ve sahte işaret verileri) anlatılıyor; aynaya ilgisi C ve F'de, dört hayvandan ikisinin güçlü tepki verdiği H'de geçiyor. Kaç testten kaçını geçtiğini yalnızca E/1 veriyor.",
+      "explanation": "Paragraf E, Natasha'nın kendisine verilen üç işaret testinden birini geçtiğini söylüyor; geriye kalan ikisini geçemediği doğrudan bu sayıdan çıkar.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 12,
+      "prompt": "Maris produced fewer kinds of self-directed action at the mirror than Natasha did.",
+      "answer": ["FALSE"],
+      "evidence": "Maris, by contrast, produced an equally rich range of self-directed behaviours at the mirror but never showed any sign of orienting towards her own mark.",
+      "evidence_locator": { "paragraph": "F", "sentence": 1 },
+      "contradiction_point": "Pasaj Maris'in aynada 'equally rich range', yani aynı zenginlikte bir davranış çeşitliliği sergilediğini söylüyor; ifade onun daha az çeşit gösterdiğini iddia ediyor. Çelişki tek noktada: davranış çeşitliliğinin karşılaştırması (eşit / daha az).",
+      "not_given_justification": null,
+      "scan_note": "Maris'in davranışları C paragrafında (ilk oturumda tepki veren iki hayvandan biri) ve F paragrafında (1.-3. cümleler) geçiyor; Natasha ile karşılaştırma yalnızca F/1'de yapılıyor. Maris'in eksik kaldığı tek nokta işarete yönelme, davranış çeşitliliği değil.",
+      "explanation": "Paragraf F, Maris'in aynada en az Natasha kadar zengin bir kendine yönelik davranış dizisi sergilediğini, yalnızca kendi işaretine yönelmediğini söylüyor — ifade çeşitlilik konusunda tersini iddia ediyor.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 13,
+      "prompt": "Belugas and narwhals are the only members of the Monodontidae family.",
+      "answer": ["NOT GIVEN"],
+      "evidence": null,
+      "evidence_locator": null,
+      "contradiction_point": null,
+      "not_given_justification": "(1) Konu pasajda var: G paragrafının 1. cümlesi Monodontidae ailesini adıyla anıyor ve bu ailenin belugaları ile narvalları kapsadığını söylüyor; A paragrafı da belugaların yunuslardan çok narvallara akraba olduğunu belirtiyor. (2) Hiçbir cümle ifadeyi çürütmüyor: pasaj ailenin başka bir üyesini adlandırmıyor, ailede ikiden fazla tür bulunduğunu söyleyen bir cümle de yok. (3) Hiçbir cümle ifadeyi doğrulamıyor — dolaylı olarak bile: G 'which includes belugas and narwhals' diyor, yani 'içerir'; bir ailenin iki türü içermesi o ailenin yalnızca o iki türden oluştuğunu göstermez, dolayısıyla ima da edilmiyor.",
+      "scan_note": "Monodontidae ve narval A paragrafında (4. cümle, belugaların narvallara akrabalığı) ve G paragrafında (1. cümle, ailenin belugaları ve narvalları içermesi) geçiyor; H paragrafı evrim ağacından söz ediyor ama tür saymıyor. Ailenin toplam üye sayısına dair hiçbir paragrafta bilgi yok.",
+      "explanation": "Pasaj Monodontidae ailesinin belugaları ve narvalları içerdiğini söylüyor, ama ailede başka tür bulunup bulunmadığına hiç değinmiyor; 'içerir' ifadesi 'yalnızca bu ikisi' demek değildir.",
+      "difficulty": "hard"
+    }
+  ]
+}
