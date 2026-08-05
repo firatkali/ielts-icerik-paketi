@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "set_id": "C27",
+  "skill": "speaking",
+  "card_type": "olay",
+  "topic": "Doing something in a hurry",
+  "topic_tr": "Bir şeyi aceleyle yapmak",
+  "generated_by": "opus",
+  "part2": {
+    "title": "Describe a time when you had to do something in a hurry.",
+    "bullets": [
+      "what you had to do",
+      "why you were short of time",
+      "how you managed to finish it"
+    ],
+    "closing": "and explain how you felt once it was over.",
+    "preparation_seconds": 60,
+    "speaking_seconds": [90, 120],
+    "follow_up": [
+      "Were you happy with the result?",
+      "Do you often leave things until the last minute?"
+    ],
+    "useful_language": ["against the clock", "cut it fine", "in a mad rush", "somehow I got there"]
+  },
+  "part3": {
+    "items": [
+      { "number": 1, "prompt": "Why do many people leave important tasks until the last minute?",
+        "focus": "genel açıklama", "difficulty": "medium" },
+      { "number": 2, "prompt": "Is work done quickly always poorer than work done slowly?",
+        "focus": "karşılaştırma", "difficulty": "medium" },
+      { "number": 3, "prompt": "Will everyday life become even faster in the years to come?",
+        "focus": "gelecek / görüş", "difficulty": "hard" }
+    ],
+    "useful_language": ["under time pressure", "at a steady pace", "if anything"]
+  }
+}

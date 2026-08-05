@@ -3424,3 +3424,82 @@ okla verildi ki "merdivenin başında sağda" ifadesi tek anlama gelsin.
 - Atlanan/sorun: yok. **OPUS5-30'da 16 paketten 5'i tamam (260/550 birim).** Sıradaki iş
   **B paketi, oturum 2** — `content/speaking/part2-3/` altına `C16`–`C30`: 15 kart
   (kişi 3 · yer 3 · nesne 3 · olay 4 · soyut 2) + kart başına 3 tartışma sorusu = 60 birim.
+
+## OPUS5-30 (6. çalıştırma: konuşma 2.+3. bölüm — oturum 2, 15 kart + 45 tartışma sorusu)
+
+- Tarih: 2026-08-05
+- Depo kontrolü: `content/speaking/part1/` **T01–T20 tam** (200 soru, A paketi kapalı),
+  `content/speaking/part2-3/` altında **C01–C15 vardı**, `content/writing/` altındaki üç
+  klasör hâlâ boş. Çalıştırma listesindeki sıradaki bitmemiş paket **B paketi, oturum 2**
+  idi, o yapıldı; kullanıcının tanımı ("6. çalıştırma") depo durumuyla **birebir uyuştu**.
+  Var olan hiçbir dosyaya dokunulmadı. **60 birim** üretildi (15 kart + 45 soru),
+  hedefle birebir aynı.
+- Üretilen dosyalar — `content/speaking/part2-3/C16.json` … `C30.json`:
+  - **kişi (3):** C16 bir şeyi iyi anlatan biri · C17 sizi güldüren biri ·
+    C18 sürekli meşgul olan biri
+  - **yer (3):** C19 evinizin yakınında değişmiş bir yer · C20 keyif aldığınız açık hava
+    mekânı · C21 ileride çalışmak/okumak istediğiniz bir yer
+  - **nesne (3):** C22 uzun zamandır sahip olduğunuz bir şey · C23 ödünç aldığınız faydalı
+    bir şey · C24 aldığınız önemli bir mesaj/mektup
+  - **olay/deneyim (4):** C25 bir hatadan ders çıkarmak · C26 bir işi başkalarıyla birlikte
+    bitirmek · C27 bir şeyi aceleyle yapmak · C28 kaybettiğiniz bir şeyi bulmak
+  - **soyut (2):** C29 öğrenmek istediğiniz bir beceri · C30 gurur duyduğunuz bir şey
+- **KULLANILAN KART KONULARI (sonraki oturumlar tekrar etmesin) — bu oturum:** Someone good
+  at explaining things · A person who made you laugh · Someone who is always busy · A place
+  near your home that has changed · An open-air place you enjoy · A place you would like to
+  work or study in · Something you have owned for a long time · Something useful you
+  borrowed · An important message or letter · Learning from a mistake · Working with others
+  to finish something · Doing something in a hurry · Finding something you had lost ·
+  A skill you would like to learn · Something you are proud of.
+  (1. oturumun 15 konusu için 5. çalıştırma notuna bak — toplam 30 konu kullanıldı.)
+- **Kart türü kotası:** 60 kartlık hedefin (kişi 12 · yer 12 · nesne 12 · olay 16 · soyut 8)
+  yarısı üretildi; bu oturum da 3·3·3·4·2. **C31–C60 için kalan:** kişi 6 · yer 6 ·
+  nesne 6 · olay 8 · soyut 4 — kalan iki oturumda yine 3·3·3·4·2 yapılırsa kota sonda tutar.
+- **Tekrar kaçınma üç eksende yapıldı:** (1) C01–C15 kart konularının hiçbiri
+  tekrarlanmadı — nesne kartları bilinçle farklı eksenlere kuruldu (C09 "yanınızda
+  taşınan küçük eşya" varken C22 "uzun süredir sahip olunan", C23 "ödünç alınan",
+  C24 "mesaj/mektup"); (2) 20 part 1 konusuyla çakışma önlendi (teknoloji yerine "önemli
+  bir mesaj", sanat/el işi yerine "öğrenilmek istenen beceri", hava durumu yerine "açık
+  hava mekânı", zaman yönetimi yerine "aceleyle yapılan iş"); (3) bütün kart başlıkları,
+  takip soruları ve part 3 soruları hem kendi aralarında hem C01–C15 hem de **200 part 1
+  sorusuyla** metin bazında karşılaştırıldı — çakışma yok.
+- **Şema kararı — `part` alanı yine yazılmadı** (5. oturumdaki gerekçe: `tools/dogrula.py`
+  `skill == "speaking"` + `part == 1` değilse dosyayı part2-3 sayıyor). Denetim scripti
+  alanın **bulunmadığını** ayrıca doğruladı. Sonraki part2-3 oturumları da yazmasın.
+- **Kart biçimi** aynı: başlık tek cümle ve `Describe …` ile başlıyor, tam **3 madde**
+  (küçük harf, noktasız), `and explain …` kapanışı, `preparation_seconds: 60`,
+  `speaking_seconds: [90, 120]`, **2 takip sorusu**, 4 `useful_language` ifadesi.
+  Part 3'te sırasıyla **genel açıklama → karşılaştırma → gelecek/görüş**, zorluk
+  `medium · medium · hard`. Tek istisna: C25'in üçüncü sorusu gelecek yerine **öneri/görüş**
+  ekseninde ("Should organisations be more open about the mistakes they make?") — prompt
+  "gelecek/görüş" diyor, ikisi de kabul; `focus` alanına `öneri / görüş` yazıldı.
+- **Kültürel tarafsızlık ve ayrıcalık varsayımı yok:** hiçbir kart para, seyahat geçmişi,
+  ev/cihaz sahipliği gerektirmiyor — C20 herhangi bir açık alanla, C22 herhangi bir eski
+  eşyayla, C23 komşudan alınan bir aletle anlatılabiliyor; C21 "çalışmak **ya da** okumak"
+  diyerek hem öğrenciyi hem çalışanı kapsıyor. Din, alkol, siyaset, savaş, cinsellik yok;
+  gerçek marka/kurum/kişi adı yok; "IELTS" hiçbir dosyada geçmiyor. `useful_language`
+  İngiliz İngilizcesinde (`organise`, `neighbourhood`, `humour`, `learnt`, `towards`).
+- Doğrulama: geçici denetim scriptiyle (`tools/_sp6_kontrol.py`, sonra silindi) JSON
+  geçerliliği, zarf alanları, `set_id` ↔ dosya adı eşleşmesi, `part` alanının olmaması,
+  kart türü kotası, başlık kalıbı, madde sayısı/biçimi, `closing` kalıbı, süre alanları,
+  `follow_up` sayısı ve tek soru cümlesi, `useful_language` sayısı (3–5) ve dosya içi
+  tekrar, part 3 soru sayısı/numara sırası/tek cümle/≤95 karakter/kişisellik
+  (`your`/`yourself` yasak — 45 soruda 0)/zorluk düzeni, Amerikan yazım taraması,
+  C16–C30 içi metin benzersizliği, **C01–C15 ve 200 part 1 sorusuyla çakışma** denetlendi.
+  **İlk turda hata 0.** Ardından `python tools/dogrula.py`: **şema hatası 0**,
+  `speaking/part1` 200 + `speaking/part2-3` **120** (30 kart × 4 birim), pasaj lisansı
+  eksik 0, görünür metinde IELTS 0, yasak kaynak 0. Rapordaki "TAM TEST BUTUNLUGU … EKSIK"
+  satırları bu paketle ilgisiz (henüz üretilmemiş okuma/dinleme soru tipleri).
+- ⚠️ **Referans PDF bu oturumda açılamadı:** `Read` ile
+  `referans/ielts-speaking-sample-tasks-2023.pdf` istendi, araç **`pdftoppm` (poppler)
+  kurulu olmadığı için** hata verdi. Format kaybı olmadı — kart düzeni 5. oturumda aynı
+  PDF'ten okunup NOTLAR'a yazılmıştı ve prompt dosyasının kendisinde resmi kalıp birebir
+  duruyor; o düzen sürdürüldü. `referans/text/` klasörü hâlâ yok. **Hiçbir görev metni,
+  soru ya da örnek cevap kopyalanmadı.** Yazma paketlerine (C/D/E) geçen oturumların
+  band puanlı örnek cevap PDF'lerini okuması gerekiyor — **poppler kurulu değilse o
+  dosyalar da açılamayacak**, önce `referans/text/` altına metin çıkarımı gerekebilir.
+- **DURUM.txt / ilerleme.txt elle güncellenmedi** (4.–5. oturumdaki gerekçe geçerli;
+  sayaç dosyalarını `tools/calistir.py` kendi commit'iyle yazıyor).
+- Atlanan/sorun: yok. **OPUS5-30'da 16 paketten 6'sı tamam (320/550 birim).** Sıradaki iş
+  **B paketi, oturum 3** — `content/speaking/part2-3/` altına `C31`–`C45`: 15 kart
+  (kişi 3 · yer 3 · nesne 3 · olay 4 · soyut 2) + kart başına 3 tartışma sorusu = 60 birim.

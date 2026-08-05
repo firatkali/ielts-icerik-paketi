@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "set_id": "C30",
+  "skill": "speaking",
+  "card_type": "soyut",
+  "topic": "Something you are proud of",
+  "topic_tr": "Gurur duyduğunuz bir şey",
+  "generated_by": "opus",
+  "part2": {
+    "title": "Describe something you have done that you are proud of.",
+    "bullets": [
+      "what you did",
+      "how much effort it took",
+      "who knows about it"
+    ],
+    "closing": "and explain why it means a lot to you.",
+    "preparation_seconds": 60,
+    "speaking_seconds": [90, 120],
+    "follow_up": [
+      "Did anyone encourage you at the time?",
+      "Would you like to do something similar again?"
+    ],
+    "useful_language": ["stick with it", "it paid off", "a real sense of achievement", "I surprised myself"]
+  },
+  "part3": {
+    "items": [
+      { "number": 1, "prompt": "Why is it hard for some people to talk about their achievements?",
+        "focus": "genel açıklama", "difficulty": "medium" },
+      { "number": 2, "prompt": "Do people value success at work more than success in family life?",
+        "focus": "karşılaştırma", "difficulty": "medium" },
+      { "number": 3, "prompt": "Will the kinds of achievement that societies admire change over time?",
+        "focus": "gelecek / görüş", "difficulty": "hard" }
+    ],
+    "useful_language": ["set the bar high", "recognition from others", "a shift in values"]
+  }
+}

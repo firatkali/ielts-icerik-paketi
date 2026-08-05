@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "set_id": "C22",
+  "skill": "speaking",
+  "card_type": "nesne",
+  "topic": "Something you have owned for a long time",
+  "topic_tr": "Uzun zamandır sahip olduğunuz bir şey",
+  "generated_by": "opus",
+  "part2": {
+    "title": "Describe something you own that you have had for a long time.",
+    "bullets": [
+      "what the object is",
+      "how you got it",
+      "how you have used it over the years"
+    ],
+    "closing": "and explain why you have kept it for so long.",
+    "preparation_seconds": 60,
+    "speaking_seconds": [90, 120],
+    "follow_up": [
+      "Is it still in good condition?",
+      "Would you pass it on to someone else?"
+    ],
+    "useful_language": ["it has lasted well", "worn but still going", "hold on to it", "it has sentimental value"]
+  },
+  "part3": {
+    "items": [
+      { "number": 1, "prompt": "Why do people find it hard to throw old belongings away?",
+        "focus": "genel açıklama", "difficulty": "medium" },
+      { "number": 2, "prompt": "Are goods made today less durable than those made in the past?",
+        "focus": "karşılaştırma", "difficulty": "medium" },
+      { "number": 3, "prompt": "Will repairing things become more common than replacing them?",
+        "focus": "gelecek / görüş", "difficulty": "hard" }
+    ],
+    "useful_language": ["built to last", "a throwaway attitude", "there is a shift towards"]
+  }
+}

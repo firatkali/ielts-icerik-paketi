@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "set_id": "C18",
+  "skill": "speaking",
+  "card_type": "kişi",
+  "topic": "Someone who is always busy",
+  "topic_tr": "Sürekli meşgul olan biri",
+  "generated_by": "opus",
+  "part2": {
+    "title": "Describe someone you know who is always busy.",
+    "bullets": [
+      "who this person is",
+      "what keeps them so busy",
+      "how they organise their time"
+    ],
+    "closing": "and explain how you feel about the way this person lives.",
+    "preparation_seconds": 60,
+    "speaking_seconds": [90, 120],
+    "follow_up": [
+      "Would you like to be as busy as this person?",
+      "Do they ever find time to rest?"
+    ],
+    "useful_language": ["they are always on the go", "juggle several things at once", "make time for", "run off their feet"]
+  },
+  "part3": {
+    "items": [
+      { "number": 1, "prompt": "Why do many people feel that they have less free time than before?",
+        "focus": "genel açıklama", "difficulty": "medium" },
+      { "number": 2, "prompt": "Are people busier in large cities than in small towns?",
+        "focus": "karşılaştırma", "difficulty": "medium" },
+      { "number": 3, "prompt": "Will working hours become shorter in the decades ahead?",
+        "focus": "gelecek / görüş", "difficulty": "hard" }
+    ],
+    "useful_language": ["under constant pressure", "strike a balance", "at a slower pace"]
+  }
+}

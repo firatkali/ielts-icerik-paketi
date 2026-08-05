@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "set_id": "C19",
+  "skill": "speaking",
+  "card_type": "yer",
+  "topic": "A place that has changed",
+  "topic_tr": "Değişmiş bir yer",
+  "generated_by": "opus",
+  "part2": {
+    "title": "Describe a place near your home that has changed in recent years.",
+    "bullets": [
+      "where this place is",
+      "what it was like before",
+      "what has changed about it"
+    ],
+    "closing": "and explain whether you think the change has been a good one.",
+    "preparation_seconds": 60,
+    "speaking_seconds": [90, 120],
+    "follow_up": [
+      "Do older people in the area agree with you?",
+      "How often do you go there now?"
+    ],
+    "useful_language": ["it used to be", "they have done it up", "changed beyond recognition", "for the better"]
+  },
+  "part3": {
+    "items": [
+      { "number": 1, "prompt": "Why do some neighbourhoods change much faster than others?",
+        "focus": "genel açıklama", "difficulty": "medium" },
+      { "number": 2, "prompt": "Do local residents or officials have more influence over how an area develops?",
+        "focus": "karşılaştırma", "difficulty": "medium" },
+      { "number": 3, "prompt": "Will towns look very different fifty years from now?",
+        "focus": "gelecek / görüş", "difficulty": "hard" }
+    ],
+    "useful_language": ["on the outskirts", "at the expense of", "in the long term"]
+  }
+}

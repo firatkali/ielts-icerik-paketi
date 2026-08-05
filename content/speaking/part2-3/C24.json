@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "set_id": "C24",
+  "skill": "speaking",
+  "card_type": "nesne",
+  "topic": "An important message or letter",
+  "topic_tr": "Önemli bir mesaj ya da mektup",
+  "generated_by": "opus",
+  "part2": {
+    "title": "Describe a message or letter you received that was important to you.",
+    "bullets": [
+      "who sent it",
+      "what it said",
+      "when you received it"
+    ],
+    "closing": "and explain why it mattered so much to you.",
+    "preparation_seconds": 60,
+    "speaking_seconds": [90, 120],
+    "follow_up": [
+      "Did you keep the message?",
+      "How did you reply to it?"
+    ],
+    "useful_language": ["out of the blue", "it made my day", "I read it twice", "put pen to paper"]
+  },
+  "part3": {
+    "items": [
+      { "number": 1, "prompt": "Why do handwritten messages still feel special to many people?",
+        "focus": "genel açıklama", "difficulty": "medium" },
+      { "number": 2, "prompt": "Is important news better delivered in writing or in person?",
+        "focus": "karşılaştırma", "difficulty": "medium" },
+      { "number": 3, "prompt": "Will letters disappear completely in the coming decades?",
+        "focus": "gelecek / görüş", "difficulty": "hard" }
+    ],
+    "useful_language": ["a personal touch", "convey bad news", "all but vanished"]
+  }
+}

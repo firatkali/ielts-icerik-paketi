@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "set_id": "C21",
+  "skill": "speaking",
+  "card_type": "yer",
+  "topic": "A place you would like to work or study in",
+  "topic_tr": "İleride çalışmak ya da okumak istediğiniz bir yer",
+  "generated_by": "opus",
+  "part2": {
+    "title": "Describe a place where you would like to work or study in the future.",
+    "bullets": [
+      "what kind of place it is",
+      "how you first heard about it",
+      "what you would do there"
+    ],
+    "closing": "and explain why this place appeals to you.",
+    "preparation_seconds": 60,
+    "speaking_seconds": [90, 120],
+    "follow_up": [
+      "Do you know anyone who works or studies somewhere similar?",
+      "What would you need to change to get there?"
+    ],
+    "useful_language": ["it would suit me down to the ground", "set my sights on", "a lively atmosphere", "plenty of natural light"]
+  },
+  "part3": {
+    "items": [
+      { "number": 1, "prompt": "Why does the design of a workplace affect how people feel about their day?",
+        "focus": "genel açıklama", "difficulty": "medium" },
+      { "number": 2, "prompt": "Is it better to study at home or in a shared space?",
+        "focus": "karşılaştırma", "difficulty": "medium" },
+      { "number": 3, "prompt": "Will fewer offices be needed as more work is done from a distance?",
+        "focus": "gelecek / görüş", "difficulty": "hard" }
+    ],
+    "useful_language": ["a productive environment", "for the most part", "it remains to be seen whether"]
+  }
+}

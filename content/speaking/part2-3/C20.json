@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "set_id": "C20",
+  "skill": "speaking",
+  "card_type": "yer",
+  "topic": "An open-air place you enjoy",
+  "topic_tr": "Keyif aldığınız açık hava mekânı",
+  "generated_by": "opus",
+  "part2": {
+    "title": "Describe an open-air place you enjoy going to.",
+    "bullets": [
+      "where this place is",
+      "how often you go there",
+      "what you do when you are there"
+    ],
+    "closing": "and explain why you prefer to be outdoors in this place.",
+    "preparation_seconds": 60,
+    "speaking_seconds": [90, 120],
+    "follow_up": [
+      "Is the place busier at certain times of year?",
+      "Who do you usually go there with?"
+    ],
+    "useful_language": ["a breath of fresh air", "get away from the noise", "in the open air", "somewhere to stretch your legs"]
+  },
+  "part3": {
+    "items": [
+      { "number": 1, "prompt": "Why is it important for towns to have free open spaces?",
+        "focus": "genel açıklama", "difficulty": "medium" },
+      { "number": 2, "prompt": "Do children and adults use outdoor spaces in different ways?",
+        "focus": "karşılaştırma", "difficulty": "medium" },
+      { "number": 3, "prompt": "Will people spend more time outdoors or less in the coming years?",
+        "focus": "gelecek / görüş", "difficulty": "hard" }
+    ],
+    "useful_language": ["green space", "within walking distance", "there is a growing awareness of"]
+  }
+}
