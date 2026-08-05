@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "set_id": "C32",
+  "skill": "speaking",
+  "card_type": "kişi",
+  "topic": "A relative you are similar to",
+  "topic_tr": "Kendinize benzettiğiniz bir akrabanız",
+  "generated_by": "opus",
+  "part2": {
+    "title": "Describe a member of your family who you are similar to.",
+    "bullets": [
+      "who this person is",
+      "in what ways the two of you are alike",
+      "how often you spend time together"
+    ],
+    "closing": "and explain how you feel about being similar to this person.",
+    "preparation_seconds": 60,
+    "speaking_seconds": [90, 120],
+    "follow_up": [
+      "Do other people in the family notice the similarity?",
+      "Is there anything about this person you would rather not copy?"
+    ],
+    "useful_language": ["I take after", "a family trait", "we share the same outlook", "much the same way"]
+  },
+  "part3": {
+    "items": [
+      { "number": 1, "prompt": "Why do children often end up behaving like the adults around them?",
+        "focus": "genel açıklama", "difficulty": "medium" },
+      { "number": 2, "prompt": "Do families shape a person's character more than friends do?",
+        "focus": "karşılaştırma", "difficulty": "medium" },
+      { "number": 3, "prompt": "Will relatives spend more or less time together in the coming decades?",
+        "focus": "gelecek / görüş", "difficulty": "hard" }
+    ],
+    "useful_language": ["passed down from", "a role model", "a strong influence on"]
+  }
+}

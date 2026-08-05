@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "set_id": "C33",
+  "skill": "speaking",
+  "card_type": "kişi",
+  "topic": "Someone who encouraged you",
+  "topic_tr": "Sizi bir şey yapmaya teşvik eden biri",
+  "generated_by": "opus",
+  "part2": {
+    "title": "Describe someone who encouraged you to do something.",
+    "bullets": [
+      "who this person is",
+      "what they encouraged you to do",
+      "what they said or did"
+    ],
+    "closing": "and explain what difference their encouragement made to you.",
+    "preparation_seconds": 60,
+    "speaking_seconds": [90, 120],
+    "follow_up": [
+      "Have you ever told this person how much it helped?",
+      "Have you done the same for somebody else?"
+    ],
+    "useful_language": ["talk someone into it", "give me a push", "believe in me", "stick by me"]
+  },
+  "part3": {
+    "items": [
+      { "number": 1, "prompt": "Why do some people need encouragement before they try something new?",
+        "focus": "genel açıklama", "difficulty": "medium" },
+      { "number": 2, "prompt": "Is praise from a teacher more useful than praise from a classmate?",
+        "focus": "karşılaştırma", "difficulty": "medium" },
+      { "number": 3, "prompt": "Should schools spend more time building confidence in young learners?",
+        "focus": "öneri / görüş", "difficulty": "hard" }
+    ],
+    "useful_language": ["a confidence boost", "bring out the best in someone", "in the long run"]
+  }
+}

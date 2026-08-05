@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "set_id": "C42",
+  "skill": "speaking",
+  "card_type": "olay",
+  "topic": "A conversation you remember",
+  "topic_tr": "Hatırınızda kalan bir sohbet",
+  "generated_by": "opus",
+  "part2": {
+    "title": "Describe a conversation that you still remember well.",
+    "bullets": [
+      "who you were talking to",
+      "what was said during it",
+      "where and when it took place"
+    ],
+    "closing": "and explain why that conversation has stayed in your mind.",
+    "preparation_seconds": 60,
+    "speaking_seconds": [90, 120],
+    "follow_up": [
+      "Have you spoken to that person since then?",
+      "Would you say anything differently now?"
+    ],
+    "useful_language": ["it stuck with me", "we got talking", "open up about", "food for thought"]
+  },
+  "part3": {
+    "items": [
+      { "number": 1, "prompt": "What makes a conversation worth remembering years later?",
+        "focus": "genel açıklama", "difficulty": "medium" },
+      { "number": 2, "prompt": "Do people speak more openly to strangers than to those close to them?",
+        "focus": "karşılaştırma", "difficulty": "medium" },
+      { "number": 3, "prompt": "Will everyday conversation suffer as written messages take over?",
+        "focus": "gelecek / görüş", "difficulty": "hard" }
+    ],
+    "useful_language": ["small talk", "read between the lines", "face-to-face contact"]
+  }
+}

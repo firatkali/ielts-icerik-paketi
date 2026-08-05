@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "set_id": "C31",
+  "skill": "speaking",
+  "card_type": "kişi",
+  "topic": "A friend you have known for a long time",
+  "topic_tr": "Uzun zamandır tanıdığınız bir arkadaş",
+  "generated_by": "opus",
+  "part2": {
+    "title": "Describe a friend you have known for a long time.",
+    "bullets": [
+      "who this person is",
+      "how the two of you first met",
+      "what you usually do together"
+    ],
+    "closing": "and explain why the friendship has lasted so long.",
+    "preparation_seconds": 60,
+    "speaking_seconds": [90, 120],
+    "follow_up": [
+      "Do you see this person as often as you used to?",
+      "What would this friend say about you?"
+    ],
+    "useful_language": ["we go back years", "we hit it off straight away", "keep in touch", "we have a lot in common"]
+  },
+  "part3": {
+    "items": [
+      { "number": 1, "prompt": "Why do some friendships last for years while others fade away?",
+        "focus": "genel açıklama", "difficulty": "medium" },
+      { "number": 2, "prompt": "Are friendships made in childhood different from ones made later in life?",
+        "focus": "karşılaştırma", "difficulty": "medium" },
+      { "number": 3, "prompt": "Will people find it easier or harder to keep old friendships in future?",
+        "focus": "gelecek / görüş", "difficulty": "hard" }
+    ],
+    "useful_language": ["drift apart", "a shared history", "make an effort to stay in touch"]
+  }
+}

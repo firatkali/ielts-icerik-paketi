@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "set_id": "C39",
+  "skill": "speaking",
+  "card_type": "nesne",
+  "topic": "Something you keep but rarely use",
+  "topic_tr": "Sakladığınız ama neredeyse hiç kullanmadığınız bir şey",
+  "generated_by": "opus",
+  "part2": {
+    "title": "Describe something you keep at home but hardly ever use.",
+    "bullets": [
+      "what the thing is",
+      "how it came to be yours",
+      "why you still keep it"
+    ],
+    "closing": "and explain whether you would ever pass it on to someone else.",
+    "preparation_seconds": 60,
+    "speaking_seconds": [90, 120],
+    "follow_up": [
+      "How often do you sort through the things you own?",
+      "Is there something you wish you had not got rid of?"
+    ],
+    "useful_language": ["hold on to", "gathering dust", "just in case", "sentimental value"]
+  },
+  "part3": {
+    "items": [
+      { "number": 1, "prompt": "Why do people find it hard to throw away things they no longer need?",
+        "focus": "genel açıklama", "difficulty": "medium" },
+      { "number": 2, "prompt": "Do older people tend to keep more possessions than younger people?",
+        "focus": "karşılaştırma", "difficulty": "medium" },
+      { "number": 3, "prompt": "Should towns do more to help people pass on unwanted goods?",
+        "focus": "öneri / görüş", "difficulty": "hard" }
+    ],
+    "useful_language": ["have a clear-out", "second-hand", "cut down on waste"]
+  }
+}

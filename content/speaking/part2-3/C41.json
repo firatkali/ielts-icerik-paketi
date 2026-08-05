@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "set_id": "C41",
+  "skill": "speaking",
+  "card_type": "olay",
+  "topic": "Receiving good news",
+  "topic_tr": "İyi bir haber almak",
+  "generated_by": "opus",
+  "part2": {
+    "title": "Describe a time when you received some good news.",
+    "bullets": [
+      "what the news was",
+      "how it reached you",
+      "who you told afterwards"
+    ],
+    "closing": "and explain why the news meant so much to you.",
+    "preparation_seconds": 60,
+    "speaking_seconds": [90, 120],
+    "follow_up": [
+      "Did you mark the occasion in any way?",
+      "Do you still remember the exact words that were used?"
+    ],
+    "useful_language": ["over the moon", "it came out of the blue", "spread the word", "a weight off my mind"]
+  },
+  "part3": {
+    "items": [
+      { "number": 1, "prompt": "Why do people want to share good news with others so quickly?",
+        "focus": "genel açıklama", "difficulty": "medium" },
+      { "number": 2, "prompt": "Is news given face to face more memorable than news sent by message?",
+        "focus": "karşılaştırma", "difficulty": "medium" },
+      { "number": 3, "prompt": "Should newspapers and broadcasters report more positive stories?",
+        "focus": "öneri / görüş", "difficulty": "hard" }
+    ],
+    "useful_language": ["word spreads fast", "generally speaking", "a sense of connection"]
+  }
+}

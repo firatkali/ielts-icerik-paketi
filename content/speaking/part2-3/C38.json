@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "set_id": "C38",
+  "skill": "speaking",
+  "card_type": "nesne",
+  "topic": "Something you made yourself",
+  "topic_tr": "Kendi ellerinizle yaptığınız bir şey",
+  "generated_by": "opus",
+  "part2": {
+    "title": "Describe something you have made with your own hands.",
+    "bullets": [
+      "what you made",
+      "what you needed in order to make it",
+      "how long the whole thing took"
+    ],
+    "closing": "and explain how you felt once it was finished.",
+    "preparation_seconds": 60,
+    "speaking_seconds": [90, 120],
+    "follow_up": [
+      "Did anybody give you a hand with it?",
+      "Would you make something like that again?"
+    ],
+    "useful_language": ["from scratch", "trial and error", "get the hang of it", "rough around the edges"]
+  },
+  "part3": {
+    "items": [
+      { "number": 1, "prompt": "Why do some people prefer making things instead of buying them?",
+        "focus": "genel açıklama", "difficulty": "medium" },
+      { "number": 2, "prompt": "Are practical skills valued as highly as academic ones nowadays?",
+        "focus": "karşılaştırma", "difficulty": "medium" },
+      { "number": 3, "prompt": "Will handmade goods become more popular in the years ahead?",
+        "focus": "gelecek / görüş", "difficulty": "hard" }
+    ],
+    "useful_language": ["a dying art", "take pride in", "mass-produced"]
+  }
+}

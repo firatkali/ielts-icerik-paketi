@@ -3503,3 +3503,96 @@ okla verildi ki "merdivenin başında sağda" ifadesi tek anlama gelsin.
 - Atlanan/sorun: yok. **OPUS5-30'da 16 paketten 6'sı tamam (320/550 birim).** Sıradaki iş
   **B paketi, oturum 3** — `content/speaking/part2-3/` altına `C31`–`C45`: 15 kart
   (kişi 3 · yer 3 · nesne 3 · olay 4 · soyut 2) + kart başına 3 tartışma sorusu = 60 birim.
+
+## OPUS5-30 (7. çalıştırma: konuşma 2.+3. bölüm — oturum 3, 15 kart + 45 tartışma sorusu)
+
+- Tarih: 2026-08-05
+- Depo kontrolü: `content/speaking/part1/` **T01–T20 tam** (200 soru, A paketi kapalı),
+  `content/speaking/part2-3/` altında **C01–C30 vardı**, `content/writing/` altındaki üç
+  klasör hâlâ boş. Çalıştırma listesindeki sıradaki bitmemiş paket **B paketi, oturum 3**
+  idi, o yapıldı; kullanıcının tanımı ("7. çalıştırma") depo durumuyla **birebir uyuştu**.
+  Var olan hiçbir dosyaya dokunulmadı. **60 birim** üretildi (15 kart + 45 soru),
+  hedefle birebir aynı.
+- Üretilen dosyalar — `content/speaking/part2-3/C31.json` … `C45.json`:
+  - **kişi (3):** C31 uzun zamandır tanıdığınız bir arkadaş · C32 kendinize benzettiğiniz
+    bir akraba · C33 sizi bir şey yapmaya teşvik eden biri
+  - **yer (3):** C34 gitmekten hoşlandığınız bir dükkân/pazar · C35 çok vakit geçirdiğiniz
+    bir oda · C36 duyduğunuz ama hiç gitmediğiniz bir yer
+  - **nesne (3):** C37 işinize yarayan bir mobilya · C38 kendi ellerinizle yaptığınız bir
+    şey · C39 sakladığınız ama neredeyse hiç kullanmadığınız bir şey
+  - **olay/deneyim (4):** C40 çok erken kalkmak zorunda kalmak · C41 iyi bir haber almak ·
+    C42 hatırınızda kalan bir sohbet · C43 rutininizin dışına çıktığınız bir gün
+  - **soyut (2):** C44 önemli bulduğunuz bir kural · C45 işe yarayan bir fikriniz
+- **KULLANILAN KART KONULARI (sonraki oturumlar tekrar etmesin) — bu oturum:** A friend you
+  have known for a long time · A member of your family who you are similar to · Someone who
+  encouraged you to do something · A shop or market that you like going to · A room where
+  you spend a lot of your time · A place you have heard about but have never been to ·
+  A piece of furniture in your home that you find useful · Something you have made with
+  your own hands · Something you keep at home but hardly ever use · An occasion when you
+  had to get up very early · A time when you received some good news · A conversation that
+  you still remember well · A day when you did something different from your usual routine ·
+  A rule that you think is important · An idea you had that turned out well.
+  (C01–C15 için 5., C16–C30 için 6. çalıştırma notuna bak — toplam 45 konu kullanıldı.)
+- **Kart türü kotası:** C01–C45 şu an kişi 9 · yer 9 · nesne 9 · olay 12 · soyut 6.
+  **Son oturuma (C46–C60) kalan: kişi 3 · yer 3 · nesne 3 · olay 4 · soyut 2** — bu dağılım
+  aynen yapılırsa 60 kartlık hedef (kişi 12 · yer 12 · nesne 12 · olay 16 · soyut 8) tutar.
+- **Tekrar kaçınma üç eksende yapıldı:** (1) C01–C30 kart konularının hiçbiri
+  tekrarlanmadı — yakın duran eksenler bilinçle ayrıştırıldı: C09 "yanınızda taşınan küçük
+  eşya" / C22 "uzun süredir sahip olunan" varken C37 "mobilya", C38 "kendi yaptığınız",
+  C39 "saklanan ama kullanılmayan"; C15 "hatırlanan öğüt" alınan öğüt iken C33 "teşvik
+  eden kişi" kişiye odaklı; C29 "öğrenilmek istenen beceri" varken soyut kart olarak
+  hedef/plan yerine **fikir** (C45) seçildi. (2) 20 part 1 konusuyla çakışma önlendi
+  (T15 uyku yerine "çok erken kalkılan bir gün" olayı, T09 alışveriş yerine somut bir
+  dükkân/pazar mekânı, T16 seyahat yerine "gidilmemiş ama duyulmuş yer"). (3) 15 kart
+  başlığı, 30 takip sorusu ve 45 part 3 sorusu hem kendi aralarında hem C01–C30 hem de
+  **200 part 1 sorusuyla** metin bazında karşılaştırıldı (380 metinlik havuz) — çakışma yok.
+- **Şema kararı — `part` alanı yine yazılmadı** (5.–6. oturumdaki gerekçe: `tools/dogrula.py`
+  `skill == "speaking"` + `part == 1` değilse dosyayı part2-3 sayıyor). Denetim scripti
+  alanın **bulunmadığını** ayrıca doğruladı. Son part2-3 oturumu da yazmasın.
+- **Kart biçimi** aynı: başlık tek cümle ve `Describe …` ile başlıyor, tam **3 madde**
+  (küçük harf, noktasız), `and explain …` kapanışı, `preparation_seconds: 60`,
+  `speaking_seconds: [90, 120]`, **2 takip sorusu**, 4 `useful_language` ifadesi.
+  Part 3'te sırasıyla **genel açıklama → karşılaştırma → gelecek/görüş**, zorluk
+  `medium · medium · hard`. Dört kartta (C33, C39, C41, C44) üçüncü soru gelecek yerine
+  **öneri/görüş** ekseninde kuruldu (prompt "gelecek / görüş" diyor, ikisi de kabul);
+  `focus` alanına `öneri / görüş` yazıldı — 6. oturumdaki C25 kararının aynısı.
+- **Kültürel tarafsızlık ve ayrıcalık varsayımı yok:** hiçbir kart para, seyahat geçmişi,
+  ev/cihaz sahipliği gerektirmiyor — C34 herhangi bir sokak pazarıyla, C35 paylaşılan bir
+  odayla, C37 basit bir masa/dolapla, C38 elde yapılmış küçük bir şeyle anlatılabiliyor;
+  C36 bilerek **gidilmemiş** bir yer soruyor, yani seyahat geçmişi gerektirmiyor.
+  Din, alkol, siyaset, savaş, cinsellik yok; gerçek marka/kurum/kişi adı yok; "IELTS"
+  hiçbir dosyada geçmiyor. `useful_language` İngiliz İngilizcesinde (`neighbourhood`,
+  `cosy`, `have a clear-out`, `off the beaten track`, `over the moon`).
+- Doğrulama: geçici denetim scriptiyle (`tools/_sp7_kontrol.py`, sonra silindi) JSON
+  geçerliliği, zarf alanları, `set_id` ↔ dosya adı eşleşmesi, `part` alanının olmaması,
+  kart türü kotası, başlık kalıbı (tek cümle, ≤95 karakter), madde sayısı (tam 3) ve
+  biçimi, `closing` kalıbı, süre alanları, `follow_up` sayısı ve tek soru cümlesi,
+  `useful_language` sayısı (3–5) ve dosya içi tekrar, part 3 soru sayısı/numara
+  sırası/tek cümle/≤95 karakter/kişisellik (`you`/`your`/`yourself` yasak — 45 soruda 0)/
+  zorluk düzeni, `focus` ve `topic_tr` Türkçeliği, Amerikan yazım taraması, kart
+  başlıklarının 45 dosya içinde benzersizliği ve **C01–C30 + 200 part 1 sorusuyla
+  çakışma** denetlendi. **İlk turda hata 0.**
+- ⚠️ **`tools/dogrula.py` telif taramasında bir yanlış pozitif çıktı ve içerik tarafında
+  giderildi:** tarayıcı yasak kaynak olarak `the conversation` kalıbını (CC BY-ND lisanslı
+  site) arıyor; C42'nin maddesi `what the conversation was about` olduğu için dosya
+  "INCELE" listesine düştü. Kaynakla ilgisi yok, ama rapor temiz kalsın diye madde
+  `what was said during it` olarak yazıldı. **Script değiştirilmedi.** Sonraki oturumlar
+  kart metinlerinde `the conversation` dizisinden kaçınsın (`a conversation`, `that
+  conversation` sorun çıkarmıyor). Son hâl: `python tools/dogrula.py` → **şema hatası 0**,
+  `speaking/part1` 200 + `speaking/part2-3` **180** (45 kart × 4 birim), pasaj lisansı
+  eksik 0, görünür metinde IELTS 0, yasak kaynak 0. Rapordaki "TAM TEST BUTUNLUGU … EKSIK"
+  satırları bu paketle ilgisiz (henüz üretilmemiş okuma/dinleme soru tipleri).
+- ⚠️ **Referans PDF bu oturumda da açılamadı:** `Read` ile
+  `referans/ielts-speaking-sample-tasks-2023.pdf` istendi, araç **`pdftoppm` (poppler)
+  kurulu olmadığı için** hata verdi (6. oturumdaki durumun aynısı). Format kaybı olmadı —
+  kart düzeni prompt dosyasında birebir duruyor ve 5. oturumda PDF'ten okunup NOTLAR'a
+  yazılmıştı; o düzen sürdürüldü. `referans/text/` klasörü hâlâ yok. **Hiçbir görev metni,
+  soru ya da örnek cevap kopyalanmadı.** Yazma paketlerine (C/D/E) geçecek oturumlar için
+  uyarı hâlâ geçerli: band puanlı örnek cevap PDF'leri de poppler olmadan açılamayacak,
+  önce `referans/text/` altına metin çıkarımı gerekebilir.
+- **DURUM.txt / ilerleme.txt elle güncellenmedi** (4.–6. oturumdaki gerekçe geçerli;
+  sayaç dosyalarını `tools/calistir.py` kendi commit'iyle yazıyor).
+- Atlanan/sorun: yok. **OPUS5-30'da 16 paketten 7'si tamam (380/550 birim).** Sıradaki iş
+  **B paketi, oturum 4 (son part2-3 oturumu)** — `content/speaking/part2-3/` altına
+  `C46`–`C60`: 15 kart (kişi 3 · yer 3 · nesne 3 · olay 4 · soyut 2) + kart başına
+  3 tartışma sorusu = 60 birim.
