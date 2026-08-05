@@ -1,0 +1,337 @@
+{
+  "schema_version": "1.0",
+  "set_id": "practice-short-answer",
+  "skill": "listening",
+  "test_id": null,
+  "section": null,
+  "practice": true,
+  "question_type": "short_answer",
+  "generated_by": "opus",
+  "instructions": "Answer the questions below. Write NO MORE THAN THREE WORDS AND/OR A NUMBER for each answer.",
+  "word_limit": "NO MORE THAN THREE WORDS AND/OR A NUMBER",
+  "options": null,
+  "visual": null,
+  "stem_block": null,
+  "table": null,
+  "groups": [
+    {
+      "group_id": "P-SA-01",
+      "script_id": "L1-S4",
+      "question_type": "short_answer",
+      "context_line": "You will hear a lecturer giving a talk about growing food in cities.",
+      "instructions": "Answer the questions below. Write NO MORE THAN THREE WORDS AND/OR A NUMBER for each answer.",
+      "word_limit": "NO MORE THAN THREE WORDS AND/OR A NUMBER",
+      "stem_block": null,
+      "table": null,
+      "items": [
+        {
+          "number": 1,
+          "script_id": "L1-S4",
+          "prompt": "How long did the number of rented plots go on dropping once the peak had passed?",
+          "answer": [
+            "fifty years"
+          ],
+          "accepted_variants": [
+            "fifty years",
+            "50 years"
+          ],
+          "evidence": "the total fell steadily for fifty years",
+          "answer_point_id": "L1-S4-03",
+          "turn_index": 1,
+          "distractor_used": null,
+          "explanation": "Konuşmacı zirveden sonra parsel sayısının elli yıl boyunca sürekli gerilediğini söylüyor; sorulan şey zirve yılı değil, düşüşün süresi.",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "script_id": "L1-S4",
+          "prompt": "Which of the three forms of urban agriculture is set up on top of a building that already stands?",
+          "answer": [
+            "rooftop farm"
+          ],
+          "accepted_variants": [
+            "rooftop farm",
+            "commercial rooftop farm"
+          ],
+          "evidence": "The second is the commercial rooftop farm",
+          "answer_point_id": "L1-S4-06",
+          "turn_index": 2,
+          "distractor_used": null,
+          "explanation": "Üç biçimden ikincisi ticari çatı çiftliği; mevcut bir binanın düz damına toprak yatakları ya da seralar koyuyor.",
+          "difficulty": "easy"
+        },
+        {
+          "number": 3,
+          "script_id": "L1-S4",
+          "prompt": "How many cities did the survey the speaker quotes look at?",
+          "answer": [
+            "41"
+          ],
+          "accepted_variants": [
+            "41",
+            "forty-one",
+            "41 cities",
+            "forty-one cities"
+          ],
+          "evidence": "examined forty-one cities across Europe and North America",
+          "answer_point_id": "L1-S4-08",
+          "turn_index": 3,
+          "distractor_used": null,
+          "explanation": "İki yıl önce yayımlanan tarama Avrupa ve Kuzey Amerika'da kırk bir şehri incelemiş.",
+          "difficulty": "easy"
+        },
+        {
+          "number": 4,
+          "script_id": "L1-S4",
+          "prompt": "Where lead levels turn out to be high, what should growers construct instead of abandoning the site?",
+          "answer": [
+            "raised beds"
+          ],
+          "accepted_variants": [
+            "raised beds"
+          ],
+          "evidence": "to build raised beds and bring in clean compost from outside",
+          "answer_point_id": "L1-S4-22",
+          "turn_index": 8,
+          "distractor_used": null,
+          "explanation": "Kirlilik yüksek çıktığında alan terk edilmiyor; yükseltilmiş yataklar kuruluyor ve dışarıdan temiz kompost getiriliyor.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "group_id": "P-SA-02",
+      "script_id": "L2-S4",
+      "question_type": "short_answer",
+      "context_line": "You will hear part of a lecture about how water was moved and stored before modern pumps.",
+      "instructions": "Answer the questions below. Write NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+      "word_limit": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
+      "stem_block": null,
+      "table": null,
+      "items": [
+        {
+          "number": 5,
+          "script_id": "L2-S4",
+          "prompt": "If the tunnel is given too little fall, what collects in it and stops the flow?",
+          "answer": [
+            "silt"
+          ],
+          "accepted_variants": [
+            "silt"
+          ],
+          "evidence": "silt settles instead of travelling, and the channel blocks",
+          "answer_point_id": "L2-S4-03",
+          "turn_index": 2,
+          "distractor_used": null,
+          "explanation": "Eğim gereğinden az olduğunda taşınması gereken silt kanalın tabanına çöküyor ve kanal tıkanıyor; eğim fazla olduğunda ise tünel kendi tabanını oyuyor.",
+          "difficulty": "medium"
+        },
+        {
+          "number": 6,
+          "script_id": "L2-S4",
+          "prompt": "What proportion of the water in an open canal do the field measurements say is lost?",
+          "answer": [
+            "a third"
+          ],
+          "accepted_variants": [
+            "a third",
+            "one third",
+            "1/3"
+          ],
+          "evidence": "the field measurements support something nearer a third",
+          "answer_point_id": "L2-S4-09",
+          "turn_index": 4,
+          "distractor_used": "half",
+          "explanation": "Sıcak ovayı geçen açık kanal için sık sık yarısı yazılıyor; arazi ölçümleri üçte bire yakın bir kayba işaret ediyor.",
+          "difficulty": "hard"
+        },
+        {
+          "number": 7,
+          "script_id": "L2-S4",
+          "prompt": "However well it has been dug, what does the supply from such a channel finally depend on?",
+          "answer": [
+            "water table"
+          ],
+          "accepted_variants": [
+            "water table"
+          ],
+          "evidence": "it is only ever as good as the water table beneath it",
+          "answer_point_id": "L2-S4-13",
+          "turn_index": 5,
+          "distractor_used": null,
+          "explanation": "Tünel ne kadar iyi kazılmış olursa olsun altındaki yeraltı su seviyesine bağlı; modern bir sondaj o seviyeyi düşürdüğünde sekiz yüz yıllık kanal bir mevsimde kuruyor.",
+          "difficulty": "hard"
+        },
+        {
+          "number": 8,
+          "script_id": "L2-S4",
+          "prompt": "In the hottest part of the summer, how much cooler than ground level are the lowest chambers of a stepped well?",
+          "answer": [
+            "ten degrees"
+          ],
+          "accepted_variants": [
+            "ten degrees",
+            "10 degrees"
+          ],
+          "evidence": "stay about ten degrees cooler than the surface in high summer",
+          "answer_point_id": "L2-S4-20",
+          "turn_index": 9,
+          "distractor_used": null,
+          "explanation": "Basamaklı kuyular yalnızca su kaynağı değil; en alttaki odalar yazın yüzeyden yaklaşık on derece serin kalıyor.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "group_id": "P-SA-03",
+      "script_id": "L4-S4",
+      "question_type": "short_answer",
+      "context_line": "You will hear part of a lecture about noise pollution, how it is measured and how it can be reduced.",
+      "instructions": "Answer the questions below. Write NO MORE THAN THREE WORDS AND/OR A NUMBER for each answer.",
+      "word_limit": "NO MORE THAN THREE WORDS AND/OR A NUMBER",
+      "stem_block": null,
+      "table": null,
+      "items": [
+        {
+          "number": 9,
+          "script_id": "L4-S4",
+          "prompt": "What kind of scale does the decibel use?",
+          "answer": [
+            "logarithmic"
+          ],
+          "accepted_variants": [
+            "logarithmic"
+          ],
+          "evidence": "the scale is logarithmic",
+          "answer_point_id": "L4-S4-03",
+          "turn_index": 2,
+          "distractor_used": null,
+          "explanation": "Desibel ölçeği logaritmik olduğu için on birimlik artış on kat enerji, kabaca iki kat gürültü demek.",
+          "difficulty": "easy"
+        },
+        {
+          "number": 10,
+          "script_id": "L4-S4",
+          "prompt": "After road traffic, which source reaches the largest number of exposed people?",
+          "answer": [
+            "railways"
+          ],
+          "accepted_variants": [
+            "railways"
+          ],
+          "evidence": "Railways come a long way second and aircraft third",
+          "answer_point_id": "L4-S4-13",
+          "turn_index": 5,
+          "distractor_used": null,
+          "explanation": "Maruz kalan nüfus sıralamasında karayolu açık ara önde; demiryolu epey geriden ikinci, uçak üçüncü sırada.",
+          "difficulty": "medium"
+        },
+        {
+          "number": 11,
+          "script_id": "L4-S4",
+          "prompt": "What has a wall got to interrupt between the traffic and the listener if it is to do any good?",
+          "answer": [
+            "line of sight"
+          ],
+          "accepted_variants": [
+            "line of sight"
+          ],
+          "evidence": "a barrier works by breaking the line of sight between the source and the ear",
+          "answer_point_id": "L4-S4-22",
+          "turn_index": 9,
+          "distractor_used": null,
+          "explanation": "Perde duvar, kaynakla kulak arasındaki görüş hattını kesince işe yarıyor; tekerlekler görünüyorsa duvar çalışmıyor demektir.",
+          "difficulty": "medium"
+        },
+        {
+          "number": 12,
+          "script_id": "L4-S4",
+          "prompt": "For the practical, how long will students record at each of the two places they choose?",
+          "answer": [
+            "an hour"
+          ],
+          "accepted_variants": [
+            "an hour",
+            "one hour",
+            "1 hour"
+          ],
+          "evidence": "log for an hour at each, in fifteen-minute blocks",
+          "answer_point_id": "L4-S4-34",
+          "turn_index": 14,
+          "distractor_used": null,
+          "explanation": "Uygulamada her öğrenci iki nokta seçip her birinde birer saat, on beşer dakikalık bloklar hâlinde kayıt tutacak.",
+          "difficulty": "easy"
+        }
+      ]
+    },
+    {
+      "group_id": "P-SA-04",
+      "script_id": "L5-S4",
+      "question_type": "short_answer",
+      "context_line": "You will hear a lecturer talking about plastics in the sea and about how they are measured.",
+      "instructions": "Answer the questions below. Write NO MORE THAN THREE WORDS AND/OR A NUMBER for each answer.",
+      "word_limit": "NO MORE THAN THREE WORDS AND/OR A NUMBER",
+      "stem_block": null,
+      "table": null,
+      "items": [
+        {
+          "number": 13,
+          "script_id": "L5-S4",
+          "prompt": "Under what size is a particle given the name nanoplastic?",
+          "answer": [
+            "one micrometre"
+          ],
+          "accepted_variants": [
+            "one micrometre",
+            "1 micrometre",
+            "one micrometer",
+            "1 micrometer"
+          ],
+          "evidence": "Below one micrometre we say nanoplastic",
+          "answer_point_id": "L5-S4-02",
+          "turn_index": 1,
+          "distractor_used": null,
+          "explanation": "Beş milimetrenin altı mikroplastik; bir mikrometrenin altına inildiğinde konuşmacı nanoplastik terimini kullanıyor.",
+          "difficulty": "medium"
+        },
+        {
+          "number": 14,
+          "script_id": "L5-S4",
+          "prompt": "What word does the speaker use for the equipment lost during activity at sea?",
+          "answer": [
+            "gear"
+          ],
+          "accepted_variants": [
+            "gear"
+          ],
+          "evidence": "and most of that is gear: nets, lines, floats, strapping",
+          "answer_point_id": "L5-S4-05",
+          "turn_index": 2,
+          "distractor_used": null,
+          "explanation": "Denizden gelen payın büyük bölümü av ve seyir donanımı; konuşmacı ağ, misina, şamandıra ve çemberi tek sözcükle gear diye topluyor.",
+          "difficulty": "medium"
+        },
+        {
+          "number": 15,
+          "script_id": "L5-S4",
+          "prompt": "Since plastic first shows up in the dated layers, how often has the quantity roughly doubled?",
+          "answer": [
+            "every fifteen years"
+          ],
+          "accepted_variants": [
+            "every fifteen years",
+            "every 15 years",
+            "fifteen years",
+            "15 years"
+          ],
+          "evidence": "the quantity roughly doubling every fifteen years since",
+          "answer_point_id": "L5-S4-20",
+          "turn_index": 8,
+          "distractor_used": null,
+          "explanation": "Korunaklı havzalardan alınan çekirdeklerde plastik ilk kez ellili yılların katmanlarında görülüyor ve miktar o tarihten beri kabaca on beş yılda bir ikiye katlanıyor.",
+          "difficulty": "hard"
+        }
+      ]
+    }
+  ]
+}

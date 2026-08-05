@@ -2764,3 +2764,141 @@ ders sayfası), 10 (24 punto → 30 punto), 11 (küçük panolar → büyük pan
   7. paket `L2-S4` ve `L6-S4`'ten soru çıkarmıştı, 8. paket `L1-S4`'ten üç soru aldı, o
   yüzden `L3-S4`, `L4-S4`, `L5-S4` en rahat üçlü. Akış şemasında adımların **sıra**
   bildirmesi şart: gövdeyi `stem_block` içinde ok (`↓`) ile kur, `table` null kalsın.
+
+## OPUS5-21 (11. çalıştırma: alıştırma — kısa cevap, 15 soru)
+
+- Tarih: 2026-08-05
+- Depo kontrolü: `content/listening/tests/` altında **`L1/` … `L6/`** tam (6 × 29 = 174);
+  `content/listening/practice/` altında `note-completion.json` (7), `table-completion.json`
+  (8), `sentence-completion.json` (9) **ve** `flow-chart-completion.json` (10) vardı.
+  Çalıştırma listesindeki ilk üretilmemiş paket bu yüzden **11 — alıştırma: kısa cevap**;
+  o yapıldı. 24 senaryonun hepsi yerinde, hiçbirine dokunulmadı, yeni bilgi noktası
+  eklenmedi.
+- ⚠️ **10. paket diskteydi ama commit edilmemişti.** `UYARILAR.txt`e göre bir önceki iş
+  ("Dinleme - kolay sorular (11/12)") üç denemede sonuç vermemiş; dosya üretilmiş, ama
+  `NOTLAR.md` girdisi ve commit yapılamamış. Dosya bu oturumda **yeniden üretilmedi**:
+  aynı denetim betiğinden geçirildi (**hata 0**) ve bu paketle birlikte commit edildi.
+  10. paketin künyesi: `practice-flow-chart-completion`, 15 soru, 4 küme —
+  `P-FC-01` `L3-S4` (1–4), `P-FC-02` `L5-S4` (5–8), `P-FC-03` `L4-S4` (9–12),
+  `P-FC-04` `L6-S4` (13–15).
+- Çıktı: `content/listening/practice/short-answer.json` — **15 soru, 4 küme**,
+  `test_id: null`, `practice: true`, numaralar 1'den 15'e. Kısa cevapta gövde olmadığı
+  için `stem_block` **ve** `table` her düzeyde `null`; `prompt` doğrudan bir sorudur,
+  boşluk işareti (`........`) hiçbir yerde geçmez.
+- 15 sorunun 15'i de hazır `answer_points` kayıtlarına oturdu.
+
+### Kümeler, senaryolar ve seçilen bilgi noktaları
+
+| Küme | Senaryo | Bölüm | Sorular | Konu | Kelime sınırı |
+|---|---|---|---|---|---|
+| `P-SA-01` | `L1-S4` | 4 | 1–4 | şehirde gıda üretimi | THREE WORDS |
+| `P-SA-02` | `L2-S4` | 4 | 5–8 | pompa öncesi su taşıma ve depolama | TWO WORDS |
+| `P-SA-03` | `L4-S4` | 4 | 9–12 | gürültü kirliliği | THREE WORDS |
+| `P-SA-04` | `L5-S4` | 4 | 13–15 | denizdeki plastikler | THREE WORDS |
+
+- Kümeler **4 + 4 + 4 + 3**; hiçbir senaryodan 4'ten fazla soru yok.
+- **Dört kümenin dördü de 4. bölüm** senaryosundan: promptun tip tablosunda kısa cevap
+  yalnızca 4. bölüme yazılmış (tam testte 37–40 aralığı), alıştırmanın da aynı ses
+  tipinde — tek kişilik akademik ders — olması gerçek sınav deneyimine en yakın olanı.
+- Senaryo seçimi **yük dengesine göre** yapıldı: 10. paket `L3-S4`, `L5-S4`, `L4-S4`,
+  `L6-S4`'ü kullanmıştı; `L6-S4` alıştırmalarda zaten en çok yüklenen senaryo (7. + 10.
+  paket = 6 soru) olduğu için bu pakette bilerek atlandı, yerine `L1-S4` ve `L2-S4`
+  alındı. Alıştırma toplamı senaryo başına şöyle dengelendi: `L1-S4` 7, `L2-S4` 8,
+  `L3-S4` 4, `L4-S4` 8, `L5-S4` 7, `L6-S4` 6.
+- Seçilen 15 noktanın hiçbiri tam testlerde ya da öteki dört alıştırma dosyasında yok
+  (kesişim betikle çıkarıldı, **boş**). İlk taslakta `L2-S4-27` (*gravel*) ve `L2-S4-16`
+  (*settling basin*) seçilmişti; betik ikisinin de `L2` tam testinde kullanıldığını
+  yakaladı, sorular `L2-S4-03` (*silt*) ve `L2-S4-13` (*water table*) ile değiştirildi.
+
+### Kullanılan `answer_point_id` değerleri
+
+| Küme | Kimlikler |
+|---|---|
+| `P-SA-01` (L1-S4) | `L1-S4-03`, `L1-S4-06`, `L1-S4-08`, `L1-S4-22` |
+| `P-SA-02` (L2-S4) | `L2-S4-03`, `L2-S4-09`, `L2-S4-13`, `L2-S4-20` |
+| `P-SA-03` (L4-S4) | `L4-S4-03`, `L4-S4-13`, `L4-S4-22`, `L4-S4-34` |
+| `P-SA-04` (L5-S4) | `L5-S4-02`, `L5-S4-05`, `L5-S4-20` |
+
+Cevaplar: 1 `fifty years` · 2 `rooftop farm` · 3 `41` · 4 `raised beds` · 5 `silt` ·
+6 `a third` · 7 `water table` · 8 `ten degrees` · 9 `logarithmic` · 10 `railways` ·
+11 `line of sight` · 12 `an hour` · 13 `one micrometre` · 14 `gear` ·
+15 `every fifteen years`.
+
+Çeldiricili bilgi noktasından çıkan soru **yalnızca 6** (açık kanaldan buharlaşma kaybı:
+yarısı → üçte biri; cevap düzeltilmiş değer). Sebebi aşağıda, "Bilinçli sapmalar" 1.
+maddede.
+
+### Doğrulama
+
+- Denetim betiği depoda: `tools/_p11_kontrol.py` (9. paketinkinin kısa cevaba uyarlanmış
+  hâli; argümanla başka bir alıştırma dosyası da denetlenebiliyor). Sınadığı maddeler:
+  zarf alanları, küme boyu (3–5), `context_line` ve `instructions` doluluğu, yönergede
+  kelime sınırının yazılı olması, bilgi noktalarının **hem tam testlerde hem öteki
+  alıştırma dosyalarında** kullanılmamış olması, `turn_index`in bilgi noktasıyla birebir
+  uyuşması, küme içi sıranın geri gitmemesi, nefes payı, her `evidence`in ilgili replikte
+  **birebir** geçmesi, cevabın replik metninde harfi harfine bulunması,
+  **`accepted_variants` dahil** kelime sınırı, `prompt`un soru işaretiyle bitmesi ve
+  boşluk işareti içermemesi, **2. altın kural** (soru kökü sesteki cümlenin
+  sadeleştirilmiş kopyası mı), numaraların 1–15 dizisi olması, açıklamaların Türkçe ve
+  dolu olması, "IELTS" taraması. **Hata 0, uyarı 0.**
+- Aynı betik 10. paketin dosyasına da uygulandı: `python tools/_p11_kontrol.py
+  content/listening/practice/flow-chart-completion.json` → **hata 0, uyarı 0**.
+- Ardından `python tools/dogrula.py`: **şema hatası 0**, görünür metinde IELTS 0,
+  yasak kaynak 0, `listening/practice` sayacı **75** (15 × 5).
+
+### Bilinçli sapmalar
+
+1. **Çeldirici oranı bu pakette düşük (15'te 1).** Sebep yapısal: altı 4. bölüm
+   senaryosunun her birinde beşer çeldirici var ve **hepsi tam testlerde kullanılmış**
+   (`L1-S4`, `L4-S4`, `L5-S4` için istisnasız; `L2-S4`'te yalnızca kanal kaybı boşta
+   kalmıştı, o da bu pakete alındı). 7. altın kural "tercihen" diyor, aynı bilgi
+   noktasını tekrar kullanma yasağı ise mutlak — ikisi çatışınca yasak öne alındı.
+   Ayırt edicilik bunun yerine **replik içi konumdan** sağlandı: cevapların yarısı
+   paragrafın ortasında, örnek ya da yan cümle içinde geçiyor (`silt`, `line of sight`,
+   `gear`).
+2. **Üç kümede THREE WORDS, birinde TWO WORDS.** `P-SA-02`nin dört cevabı da iki kelimeye
+   sığdığı için sınır bilerek daraltıldı; kalan üç kümede `line of sight`,
+   `commercial rooftop farm` ve `every fifteen years` üç kelime tuttuğu için gevşetildi.
+   Zarf düzeyindeki `word_limit` en geniş olanı (THREE WORDS) gösteriyor, kümeler kendi
+   sınırlarını yazıyor; hiçbir cevap kendi kümesinin sınırını aşmıyor.
+3. **Cevap türü dağılımı** (8. altın kural): her kümede ardışık iki cevap farklı türden —
+   süre/nesne/sayı/nesne (P-SA-01), madde/kesir/kavram/ölçü (P-SA-02),
+   sıfat/kaynak/kavram/süre (P-SA-03), ölçü/sözcük/süre (P-SA-04). Toplamda 4 sayı-ölçü,
+   11 sözcük; hiçbir kümede iki sayı yan yana değil.
+4. **Nefes payı 4. bölüm ölçüsüyle uygulandı.** Tek kişilik anlatımda "replik" = paragraf
+   olduğu için ayrı paragraf yeterli sayıldı (betik tek konuşmacıda asgari aralığı 1,
+   karşılıklı konuşmada 2 tutuyor). Gerçek aralıklar: `L1-S4` 1·2·3·8, `L2-S4` 2·4·5·9,
+   `L4-S4` 2·5·9·14, `L5-S4` 1·2·8 — dört kümede de cevaplar dersin tamamına yayıldı,
+   son soru her zaman dersin son üçte birinden.
+5. **Soru kökleri baştan sona yeniden ifade edildi** (2. altın kural). Örnek: ses
+   "silt settles instead of travelling, and the channel blocks" diyor, soru kökü
+   "If the tunnel is given too little fall, what collects in it and stops the flow?";
+   ses "a barrier works by breaking the line of sight between the source and the ear"
+   diyor, soru kökü "What has a wall got to interrupt between the traffic and the
+   listener…" — cevap sözcüğü birebir, çevresi değil. Betik bu kuralı sadeleştirilmiş
+   metin karşılaştırmasıyla ayrıca sınıyor.
+6. **Zor yazımlı hiçbir terim sorulmadı** (6. altın kural). `manta trawl` ve `biofouling`
+   gibi seste harf harf söylenmeyen teknik adlar aday listesindeydi, elendi; kalan
+   cevapların hepsi günlük yazımı belli sözcükler. Amerikan yazımı olabilecek tek cevapta
+   (`micrometre`) her iki biçim de kabul listesinde.
+
+### Telif / yazım
+
+- İngiliz İngilizcesi (`metre`, `kilometres`, `micrometre`, `railways`); bütün kişi, kurum
+  ve yer adları senaryolardan geliyor, hepsi uydurma. Görünür metinde "IELTS" yok.
+- ⚠️ **Referans PDF'leri bu oturumda da açılamadı:** `referans/` altında yalnızca `.pdf`
+  var, `referans/text/` hâlâ üretilmemiş ve `Read` aracı PDF için poppler istiyor, ortamda
+  yok. Kısa cevap yönerge kalıbı L1–L6 tam testlerinin `short-answer.json` setlerinden
+  devralındı ("Answer the questions below. Write NO MORE THAN THREE WORDS AND/OR A NUMBER
+  for each answer."). Yeni biçim icat edilmedi; referanstan **tek bir cümle, soru ya da
+  senaryo kopyalanmadı**.
+- Atlanan/sorun: yok. **OPUS5-21'de 12 paketten 11'i tamam;** geriye tek paket kaldı:
+  **12 — alıştırma: plan / harita / diyagram etiketleme (15 soru)**, dosyası
+  `content/listening/practice/plan-map-diagram-labelling.json`. Sonraki oturuma not:
+  bu tip **2. bölümde** geçiyor, yani `L*-S2` senaryolarına ve onların
+  `spatial_description` alanlarına bakılmalı; alıştırmalarda 2. bölüm senaryolarının
+  **hiçbiri henüz kullanılmadı**, dolayısıyla altı senaryo da (`L1-S2` … `L6-S2`) boşta.
+  Tam testler her `L*-S2`den 5 nokta kullanmış, geri kalanlar serbest. SVG kuralları
+  promptun "Plan / harita / diyagram etiketleme" bölümünde; harf seçme ve kelime yazma
+  alt tiplerinin **ikisi de** kullanılmalı (tam testlerde L1–L3 harf seçme, L4–L6 kelime
+  yazma dizilişi vardı).

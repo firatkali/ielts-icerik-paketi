@@ -1,0 +1,329 @@
+{
+  "schema_version": "1.0",
+  "set_id": "practice-flow-chart-completion",
+  "skill": "listening",
+  "test_id": null,
+  "section": null,
+  "practice": true,
+  "question_type": "flow_chart_completion",
+  "generated_by": "opus",
+  "instructions": "Complete the flow-charts below. Write NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+  "word_limit": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
+  "options": null,
+  "visual": null,
+  "stem_block": null,
+  "table": null,
+  "groups": [
+    {
+      "group_id": "P-FC-01",
+      "script_id": "L3-S4",
+      "question_type": "flow_chart_completion",
+      "context_line": "You will hear part of a lecture about how seed banks store and check plant seeds.",
+      "instructions": "Complete the flow-chart below. Write NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+      "word_limit": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
+      "stem_block": "GETTING A WILD SEED SAMPLE INTO A SEED BANK\n\nIN THE FIELD\nNot more than a fifth of the ripe seed is taken, and the seed of every plant\nis kept (1) ........ all the way to the store\n↓\nDRYING\nSlow drying in a warm, dry room brings the seed down to about five per cent moisture\n↓\nSEALING AND FREEZING\nThe quality of the seal counts for more than the jar itself; the agreed\ntemperature has been minus (2) ........ degrees for years now\n↓\nCHECKING\nX-ray picks out the hollow seeds, then two hundred of them are germinated\n↓\nRETESTING\nIf a later test falls short, the sample is grown on and a bigger crop is taken —\nthe step banks call (3) ........\n↓\nDUPLICATION\nA portion put aside at the start travels to a (4) ........, in another country\nif that can be managed",
+      "table": null,
+      "items": [
+        {
+          "number": 1,
+          "script_id": "L3-S4",
+          "prompt": "Not more than a fifth of the ripe seed is taken, and the seed of every plant is kept (1) ........ all the way to the store",
+          "answer": [
+            "separate"
+          ],
+          "accepted_variants": [
+            "separate"
+          ],
+          "evidence": "keep the seed from each plant separate until it reaches the store",
+          "answer_point_id": "L3-S4-06",
+          "turn_index": 2,
+          "distractor_used": null,
+          "explanation": "Arazide toplanan tohumlar bitki bitki ayrı tutuluyor; birleştirme ancak malzeme depoya ulaştıktan sonra söz konusu oluyor.",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "script_id": "L3-S4",
+          "prompt": "The quality of the seal counts for more than the jar itself; the agreed temperature has been minus (2) ........ degrees for years now",
+          "answer": [
+            "20"
+          ],
+          "accepted_variants": [
+            "20",
+            "twenty"
+          ],
+          "evidence": "the standard storage temperature is minus twenty degrees",
+          "answer_point_id": "L3-S4-11",
+          "turn_index": 5,
+          "distractor_used": "minus 18 degrees",
+          "explanation": "Eski ev tipi dondurucu değeri olan eksi on sekiz hâlâ alıntılanıyor; ancak uluslararası standart yıllar önce eksi yirmiye geçti.",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "script_id": "L3-S4",
+          "prompt": "If a later test falls short, the sample is grown on and a bigger crop is taken — the step banks call (3) ........",
+          "answer": [
+            "regeneration"
+          ],
+          "accepted_variants": [
+            "regeneration"
+          ],
+          "evidence": "That process is called regeneration",
+          "answer_point_id": "L3-S4-17",
+          "turn_index": 7,
+          "distractor_used": null,
+          "explanation": "Yeniden test eşiğin altında kalınca kalan tohum ekilip daha büyük bir parti hasat ediliyor; konuşmacı bu adımın adını regeneration olarak veriyor.",
+          "difficulty": "easy"
+        },
+        {
+          "number": 4,
+          "script_id": "L3-S4",
+          "prompt": "A portion put aside at the start travels to a (4) ........, in another country if that can be managed",
+          "answer": [
+            "second site"
+          ],
+          "accepted_variants": [
+            "second site"
+          ],
+          "evidence": "a duplicate goes to a second site, in a different country wherever that can be arranged",
+          "answer_point_id": "L3-S4-19",
+          "turn_index": 9,
+          "distractor_used": null,
+          "explanation": "Yedek kopya aynı binada tutulmuyor; baştan ayrılan paket, mümkünse başka bir ülkedeki ikinci bir merkeze gönderiliyor.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "group_id": "P-FC-02",
+      "script_id": "L5-S4",
+      "question_type": "flow_chart_completion",
+      "context_line": "You will hear a lecturer talking about plastics in the sea and about how they are measured.",
+      "instructions": "Complete the flow-chart below. Write NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+      "word_limit": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
+      "stem_block": "PLASTIC IN THE SEA: WHAT GOES IN, WHAT WE FIND\n\nANNUAL INPUT\nRevised upwards once better waste figures became available\n↓\nSURFACE SEARCH\nEverything floating that surveys can locate adds up to something like\n(5) ........ per cent of the estimated input\n↓\nBREAK-UP\nDaylight and moving water turn the polymer (6) ........, so the pieces keep\ngetting smaller; a coat of organisms then weighs each piece down until it sinks\n↓\nSAMPLING\nA net is towed alongside the vessel. The finer nets now in use,\n(7) ........ of a millimetre, return several times as many particles\n↓\nWHAT WOULD HELP FIRST\nDesign: with fewer different polymers in one item, (8) ........ becomes practicable",
+      "table": null,
+      "items": [
+        {
+          "number": 5,
+          "script_id": "L5-S4",
+          "prompt": "Everything floating that surveys can locate adds up to something like (5) ........ per cent of the estimated input",
+          "answer": [
+            "1"
+          ],
+          "accepted_variants": [
+            "1",
+            "one"
+          ],
+          "evidence": "accounts for perhaps one per cent of what we think has gone in",
+          "answer_point_id": "L5-S4-09",
+          "turn_index": 4,
+          "distractor_used": null,
+          "explanation": "Denize girdiği tahmin edilen miktarla yüzeyde bulunabilen miktar arasındaki uçurum büyük: yüzen plastik tahminin ancak yüzde biri kadar.",
+          "difficulty": "medium"
+        },
+        {
+          "number": 6,
+          "script_id": "L5-S4",
+          "prompt": "Daylight and moving water turn the polymer (6) ........, so the pieces keep getting smaller",
+          "answer": [
+            "brittle"
+          ],
+          "accepted_variants": [
+            "brittle"
+          ],
+          "evidence": "Sunlight and wave action make the polymer brittle, so it breaks into smaller pieces.",
+          "answer_point_id": "L5-S4-12",
+          "turn_index": 6,
+          "distractor_used": null,
+          "explanation": "Güneş ışığı ve dalga hareketi polimeri kırılgan hâle getiriyor; parça bu yüzden giderek daha küçük parçalara ayrılıyor.",
+          "difficulty": "medium"
+        },
+        {
+          "number": 7,
+          "script_id": "L5-S4",
+          "prompt": "The finer nets now in use, (7) ........ of a millimetre, return several times as many particles",
+          "answer": [
+            "a tenth"
+          ],
+          "accepted_variants": [
+            "a tenth",
+            "one tenth"
+          ],
+          "evidence": "A good deal of recent work uses a tenth",
+          "answer_point_id": "L5-S4-17",
+          "turn_index": 7,
+          "distractor_used": "a third of a millimetre",
+          "explanation": "Çoğu araştırmanın kullandığı ağ gözü milimetrenin üçte biri; son yıllardaki çalışmalar onda birlik ağ kullanıyor ve metreküpte kat kat fazla parçacık buluyor.",
+          "difficulty": "hard"
+        },
+        {
+          "number": 8,
+          "script_id": "L5-S4",
+          "prompt": "Design: with fewer different polymers in one item, (8) ........ becomes practicable",
+          "answer": [
+            "sorting"
+          ],
+          "accepted_variants": [
+            "sorting"
+          ],
+          "evidence": "so that sorting is possible at all",
+          "answer_point_id": "L5-S4-25",
+          "turn_index": 10,
+          "distractor_used": null,
+          "explanation": "Konuşmacının en çok güvendiği önlem tasarım: bir üründeki polimer sayısı azalırsa ayrıştırma ancak o zaman mümkün oluyor.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "group_id": "P-FC-03",
+      "script_id": "L4-S4",
+      "question_type": "flow_chart_completion",
+      "context_line": "You will hear part of a lecture about noise pollution, how it is measured and how it can be reduced.",
+      "instructions": "Complete the flow-chart below. Write NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+      "word_limit": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
+      "stem_block": "ROAD NOISE: FROM MAP TO REMEDY\n\nSTRATEGIC MAP\nPredicted rather than measured: among the figures fed in are vehicle numbers,\nspeeds, building heights and ground (9) ........\n↓\nWHERE THE SOUND COMES FROM\nUnder about forty kilometres an hour it is the engine; faster than that it is\nthe (10) ........ running over the road surface\n↓\nAT THE SOURCE\nOpen-textured asphalt: (11) ........ to four decibels on a road that is no longer new\nA limit dropped from fifty to thirty buys two to three decibels for almost nothing\n↓\nALONG THE PATH\nA wall or an earth bund, set where it hides the wheels from view\n↓\nAT THE RECEIVER\nSecondary glazing helps until a hot night, when the (12) ........ is opened again\nand the outlay is thrown away",
+      "table": null,
+      "items": [
+        {
+          "number": 9,
+          "script_id": "L4-S4",
+          "prompt": "Predicted rather than measured: among the figures fed in are vehicle numbers, speeds, building heights and ground (9) ........",
+          "answer": [
+            "hardness"
+          ],
+          "accepted_variants": [
+            "hardness"
+          ],
+          "evidence": "traffic counts, speeds, the heights of the buildings and the hardness of the ground",
+          "answer_point_id": "L4-S4-11",
+          "turn_index": 4,
+          "distractor_used": null,
+          "explanation": "Gürültü haritaları ölçümle değil modelle üretiliyor; modele verilen girdiler arasında trafik sayımları, hızlar, bina yükseklikleri ve zeminin sertliği yer alıyor.",
+          "difficulty": "medium"
+        },
+        {
+          "number": 10,
+          "script_id": "L4-S4",
+          "prompt": "Under about forty kilometres an hour it is the engine; faster than that it is the (10) ........ running over the road surface",
+          "answer": [
+            "tyre"
+          ],
+          "accepted_variants": [
+            "tyre",
+            "tire",
+            "tyres",
+            "tires"
+          ],
+          "evidence": "the dominant source is the contact between the tyre and the road surface",
+          "answer_point_id": "L4-S4-16",
+          "turn_index": 6,
+          "distractor_used": null,
+          "explanation": "Düşük hızda duyulan şey motor ve egzoz; bu hızın üstünde baskın kaynak lastikle yol yüzeyinin teması oluyor.",
+          "difficulty": "medium"
+        },
+        {
+          "number": 11,
+          "script_id": "L4-S4",
+          "prompt": "Open-textured asphalt: (11) ........ to four decibels on a road that is no longer new",
+          "answer": [
+            "3"
+          ],
+          "accepted_variants": [
+            "3",
+            "three"
+          ],
+          "evidence": "three to four is a more honest figure",
+          "answer_point_id": "L4-S4-19",
+          "turn_index": 8,
+          "distractor_used": "5 decibels",
+          "explanation": "Gözenekli asfalt için beş desibel yazılıyor; gözenekler dolduktan sonra gerçekçi kazanç üç ilâ dört desibele iniyor.",
+          "difficulty": "hard"
+        },
+        {
+          "number": 12,
+          "script_id": "L4-S4",
+          "prompt": "Secondary glazing helps until a hot night, when the (12) ........ is opened again and the outlay is thrown away",
+          "answer": [
+            "window"
+          ],
+          "accepted_variants": [
+            "window",
+            "windows"
+          ],
+          "evidence": "the window gets opened and everything that was paid for is lost",
+          "answer_point_id": "L4-S4-28",
+          "turn_index": 11,
+          "distractor_used": null,
+          "explanation": "Yalıtımlı ikinci cam işe yarıyor; ama sıcak havada pencere açıldığı için ödenen paranın karşılığı kayboluyor.",
+          "difficulty": "easy"
+        }
+      ]
+    },
+    {
+      "group_id": "P-FC-04",
+      "script_id": "L6-S4",
+      "question_type": "flow_chart_completion",
+      "context_line": "You will hear a lecturer talking about behavioural economics and how findings from it are tested in the field.",
+      "instructions": "Complete the flow-chart below. Write NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+      "word_limit": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
+      "stem_block": "FROM A LABORATORY FINDING TO A TESTED POLICY\n\nTHE DEFAULT\nAutomatic enrolment lifts membership of a workplace saving scheme sharply,\nthough the paperwork is identical in both directions\n↓\nWHY IT WORKS — THREE SEPARATE REASONS\n1 (13) ........ : even the smallest obstacle cuts down how many people come through\n2 the quiet message that this is what is normally done\n3 the form put off, and then put off again\n↓\nEARLY EVIDENCE\nThe fifteen-point rise that the papers printed rests on one (14) ........ in a single town\n↓\nTHE METHOD NOW\nA field experiment on real customers, allocated at random to one wording or\nanother, with samples running into (15) ........ of thousands",
+      "table": null,
+      "items": [
+        {
+          "number": 13,
+          "script_id": "L6-S4",
+          "prompt": "1 (13) ........ : even the smallest obstacle cuts down how many people come through",
+          "answer": [
+            "effort"
+          ],
+          "accepted_variants": [
+            "effort"
+          ],
+          "evidence": "The first is effort: any small obstacle, however trivial, thins out the people who get to the other side of it.",
+          "answer_point_id": "L6-S4-12",
+          "turn_index": 4,
+          "distractor_used": null,
+          "explanation": "Bir formun bu kadar fark yaratmasının ilk nedeni çaba: ne kadar önemsiz olursa olsun her küçük engel karşıya geçenlerin sayısını azaltıyor.",
+          "difficulty": "medium"
+        },
+        {
+          "number": 14,
+          "script_id": "L6-S4",
+          "prompt": "The fifteen-point rise that the papers printed rests on one (14) ........ in a single town",
+          "answer": [
+            "pilot"
+          ],
+          "accepted_variants": [
+            "pilot"
+          ],
+          "evidence": "which came from a single pilot in one town",
+          "answer_point_id": "L6-S4-22",
+          "turn_index": 7,
+          "distractor_used": null,
+          "explanation": "Gazetelere yansıyan on beş puanlık artış tek bir kasabadaki tek bir pilot çalışmadan geliyor; daha geniş denemelerde etki çok daha küçük çıkıyor.",
+          "difficulty": "medium"
+        },
+        {
+          "number": 15,
+          "script_id": "L6-S4",
+          "prompt": "A field experiment on real customers, allocated at random to one wording or another, with samples running into (15) ........ of thousands",
+          "answer": [
+            "tens"
+          ],
+          "accepted_variants": [
+            "tens"
+          ],
+          "evidence": "with sample sizes in the tens of thousands",
+          "answer_point_id": "L6-S4-31",
+          "turn_index": 10,
+          "distractor_used": "sixty students in the laboratory",
+          "explanation": "Alanı değiştiren yöntem saha deneyi: örneklem büyüklükleri on binlerle ölçülüyor, erken laboratuvar çalışmalarındaki altmış öğrenciyle değil.",
+          "difficulty": "medium"
+        }
+      ]
+    }
+  ]
+}
