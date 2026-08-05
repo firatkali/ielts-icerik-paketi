@@ -5333,3 +5333,53 @@ hiç kullanılmadı, kalan on soruda birer kez. Çeldirici türü çeşitliliği
   aşamasında).
 - **DURUM.txt / ilerleme.txt elle güncellenmedi** (sayaçları `tools/calistir.py` yazıyor).
 - Atlanan/sorun: yok. **FABLE5-41 tamam** (24 tam test + 15 alıştırma = 39 soru).
+
+## FABLE5-42 (1. çalıştırma: AC1 — başlık + özellik eşleştirme, 9 soru)
+- Tarih: 2026-08-05
+- Depoda hiç `matching-headings` / `matching-features` / `matching-sentence-endings`
+  dosyası yoktu → çalıştırma listesinin ilk bitmemiş paketi **AC1**, o yapıldı.
+- Üretilen dosyalar (ikisi de pasaj **A02**, plandaki yerleşime göre):
+  - `content/reading/tests/AC1/matching-headings.json` — soru **14–18**, paragraf B–F
+  - `content/reading/tests/AC1/matching-features.json` — soru **23–26**
+- **Özellik eşleştirmesi neden kişi listesiyle yapılmadı:** A02'de adlandırılmış birden
+  çok araştırmacı yok (tek ekip, tek çalışma) — promptun 2. kuralı bu durumda kişi
+  listesini yasaklıyor. Prompt listenin "kişi/kurum/yıl/**kategori**" olabileceğini
+  söylüyor; deneyin grupları kategori olarak kullanıldı (A–E, 5 öğe / 4 soru).
+  **C öğesi (üç günlük birliktelik) hiçbir ifadenin cevabı değil** — boşta çeldirici.
+- Başlık listesi **10 başlık / 5 soru + 1 örnek** (örnek: Paragraph A → `v`), dolayısıyla
+  4 başlık boşta kalıyor (kural: soru sayısından en az 3 fazla).
+- **Ters kontrol ve elenenler (3):**
+  1. "Two kinds of reunion compared" başlığı atıldı — hem E hem F paragrafına uyuyordu,
+     yani soruyu bozuyordu. Yerine ayrımı netleştiren ikili kondu: E için "How the final
+     day's encounters were arranged" (düzenleme), F için "Reactions that depended on who
+     the partner was" (sonuç).
+  2. "A practical benefit outside the laboratory" çeldirisi atıldı — H paragrafının ana
+     fikrini **gerçekten** karşılıyordu. Yerine H ile yüzeysel ilgili ama hiçbir
+     paragrafa uymayan "Why smell could not explain the results" kondu (H tam tersini
+     söylüyor: koku ve tat henüz elenemiyor).
+  3. "A decline in aggressive displays" çeldirisi atıldı — D paragrafının ana fikrine
+     fazla yakındı, seçen aday **haklı olabilirdi**. Yerine yalnızca ayrıntı düzeyinde
+     kalan "A defence used when threatened" kondu.
+  Ayrıca "How long recognition lasts" başlığı, pasajdaki `recognition` kelimesini birebir
+  kullanmasın diye "How long the effect of a meeting lasts" olarak değiştirildi.
+- Çeldiricilerin gölgelediği paragraflar: `i`→B (ağırlık eşleştirmesi ayrıntısı),
+  `iii`→D/F (mürekkep püskürtme), `vi`→G (tanımanın süresi), `x`→C/H (koku). Hiçbiri
+  sorulan bir paragrafın ana fikri değil.
+- Özellik eşleştirmede yakın çift bilerek kuruldu: **A (saydam bölme) ile B (opak bölme)**
+  — 25 ve 26 tam bu ayrımı ölçüyor, ayırt edicilik oradan geliyor.
+- `allow_repeat` iki dosyada da `false`; yönergelerde `NB` satırı yok — tutarlı.
+- Cevaplar: başlıklarda vii, ii, iv, viii, ix (sıra kuralı yok); özellikte D, E, B, A.
+- **Doğrulama:**
+  - `tools/_f42_kontrol.py` yazıldı (depoda duruyor): dokuz sorunun dokuzunda `evidence`
+    pasajda **birebir** bulundu ve `evidence_locator` doğru paragrafı gösteriyor. Betik
+    ayrıca seçenek sayısını, boşta çeldirici kalıp kalmadığını, `allow_repeat`–`NB`
+    tutarlılığını, `heading_check`/`feature_check` doluluğunu, hiçbir seçeneğin pasajda
+    birebir geçmediğini ve görünür metinde IELTS olmadığını kontrol ediyor → **0 sorun**.
+  - `python tools/dogrula.py` → **şema hatası 0**, `reading/test` 194 → **203**,
+    **AC1 artık 40/40 TAM**. Pasaj lisansı eksik 0, görünür metinde IELTS 0,
+    yasak kaynak 0.
+  - Son kontrol: dokuz soru da cevap anahtarına bakılmadan aday gibi baştan çözüldü,
+    dokuzu da anahtarla uyuştu — **son turda silinen soru yok** (elemeler yukarıda,
+    taslak aşamasında).
+- **DURUM.txt / ilerleme.txt elle güncellenmedi** (sayaçları `tools/calistir.py` yazıyor).
+- Atlanan/sorun: yok. Sıradaki paket: **AC2** (14–18 + 23–26, pasaj **A05**).
