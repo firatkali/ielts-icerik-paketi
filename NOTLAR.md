@@ -5383,3 +5383,62 @@ hiç kullanılmadı, kalan on soruda birer kez. Çeldirici türü çeşitliliği
     taslak aşamasında).
 - **DURUM.txt / ilerleme.txt elle güncellenmedi** (sayaçları `tools/calistir.py` yazıyor).
 - Atlanan/sorun: yok. Sıradaki paket: **AC2** (14–18 + 23–26, pasaj **A05**).
+
+## FABLE5-42 (2. çalıştırma: AC2 — başlık + özellik eşleştirme, 9 soru)
+- Tarih: 2026-08-05
+- Depoda yalnızca AC1'in iki dosyası vardı → çalıştırma listesinin ilk bitmemiş paketi
+  **AC2**, o yapıldı. AC1 dosyalarına dokunulmadı.
+- Üretilen dosyalar (ikisi de pasaj **A05**, "Çatalhöyük buğdayı", plandaki yerleşime göre):
+  - `content/reading/tests/AC2/matching-headings.json` — soru **14–18**, paragraf B–F
+  - `content/reading/tests/AC2/matching-features.json` — soru **23–26**
+- Başlık listesi **10 başlık / 5 soru + 1 örnek** (örnek: Paragraph A → `v`), 4 başlık
+  boşta. Cevaplar: iv, viii, x, ii, vii (sıra kuralı yok, bilerek karıştırıldı).
+- **Özellik eşleştirmesi yer listesiyle yapıldı** (A Çatalhöyük · B Karacadağ ·
+  C Bereketli Hilal · D Avrupa · E Birleşik Krallık). A05'te de adlandırılmış birden çok
+  araştırmacı yok (tek ekip), promptun 2. kuralı kişi listesini yasaklıyor; "kategori"
+  izni yer adlarıyla kullanıldı. **E (Birleşik Krallık) hiçbir ifadenin cevabı değil** —
+  boşta çeldirici, üstelik pasajda laboratuvarlardan birinin bulunduğu yer olarak geçtiği
+  için yer adı tarayan adaya inandırıcı geliyor. Cevaplar: A, C, B, D.
+- Yakın çift bilerek kuruldu: **C (Bereketli Hilal) ile B (Karacadağ)** aynı cümlede ve
+  ikisi de bir köken iddiası taşıyor; 24 ile 25 tam bu ayrımı ölçüyor (geneli kapsayan
+  geniş bölge / "özellikle" tek bir buğdayın doğduğu dar yer). Ayırt edicilik oradan.
+- **Ters kontrol ve elenenler (3):**
+  1. C paragrafı için düşünülen "Why appearance alone was not enough" başlığı atıldı —
+     H paragrafına da tam uyuyordu (H: mikroskopta bir tür gibi duran tane genetikte
+     başka çıkabiliyor), yani iki paragrafa birden oturuyordu. Yerine C'nin asıl ana
+     fikrini veren "Setting out to read the genes themselves" kondu.
+  2. "How the site was first located and excavated" çeldiricisi atıldı — A paragrafının
+     ikinci cümlesini (1952'de fark ediliş, 1961–65 kazısı) **gerçekten** karşılıyordu.
+     Yerine hiçbir paragrafa uymayan, yalnızca A'daki "yollar" ayrıntısına yaslanan
+     "Trade links between distant settlements" kondu.
+  3. Özellik listesi önce **buğday türleriyle** (einkorn · emmer · ekmeklik · spelt)
+     kurulmuştu, tümüyle atıldı: spelt de ekmeklik buğday da altı kromozom takımlı
+     olduğundan "yalnızca bu biçimde bulunan genetik parça" türü ifadeler iki cevaba
+     birden açık kalıyordu (kalite kuralı 1: tek ve tartışmasız cevap). Ayrıca emmer'in
+     tek başına ayırt edici hiçbir özelliği yok — dört temiz ifade çıkmıyordu.
+     Aynı gerekçeyle "kanıt türü" listesi (mikroskop görüntüsü / DNA dizileri) de elendi:
+     pasajın kendisi çelişiyor — B paragrafında mikroskop karmaşık buğday, E paragrafında
+     aynı biçim basit buğday söylüyor.
+- Çeldiricilerin gölgelediği paragraflar: `i`→A (yollar), `iii`→D (gen/protein ayrıntısı),
+  `vi`→C (8.400 yıl), `ix`→B (tanelerin iyi korunmuşluğu). Hiçbiri sorulan bir paragrafın
+  ana fikri değil, hepsi yalnızca ayrıntı düzeyinde ilgili.
+- `allow_repeat` iki dosyada da `false`; yönergelerde `NB` satırı yok — tutarlı.
+- **`tools/_f42_kontrol.py` düzeltildi:** "hiçbir seçenek pasajda birebir geçmesin" kuralı
+  bütün tiplere uygulanıyordu; özellik eşleştirmesinde liste zaten pasajdaki
+  kişi/kurum/yer adlarından kurulur (resmî örnek anahtarında da liste "the Chinese",
+  "the Indians" gibi pasajdaki adların aynısı), dolayısıyla kural orada yanlış alarm
+  veriyordu. Artık bu kural yalnızca başlık ve cümle sonu eşleştirmesine işliyor; özellik
+  eşleştirmesinde yerine promptun 3. kuralı denetleniyor: **hiçbir ifade pasajdaki
+  cümlenin birebir kopyası olamaz**. AC1 dosyaları yeni betikle de temiz.
+- **Doğrulama:**
+  - `python tools/_f42_kontrol.py` → AC2 iki dosya **0 sorun**; dokuz sorunun dokuzunda
+    `evidence` pasajda birebir bulundu ve `evidence_locator` doğru paragrafı gösteriyor.
+    AC1 dosyaları da yeniden denetlendi → **0 sorun**.
+  - `python tools/dogrula.py` → **şema hatası 0**, `reading/test` 203 → **212**,
+    **AC2 artık 40/40 TAM** (AC1 ile birlikte iki tam test bitti). Pasaj lisansı eksik 0,
+    görünür metinde IELTS 0, yasak kaynak 0.
+  - Son kontrol: `tools/kor-kopya.py` ile cevap anahtarı silinmiş kopya üretildi, dokuz
+    soru da aday gibi baştan çözüldü, dokuzu da anahtarla uyuştu — **son turda silinen
+    soru yok** (elemeler yukarıda, taslak aşamasında).
+- **DURUM.txt / ilerleme.txt elle güncellenmedi** (sayaçları `tools/calistir.py` yazıyor).
+- Atlanan/sorun: yok. Sıradaki paket: **AC3** (14–18 + 23–26, pasaj **A08**).

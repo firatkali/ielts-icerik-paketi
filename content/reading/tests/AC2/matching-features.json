@@ -1,0 +1,71 @@
+{
+  "schema_version": "1.0",
+  "set_id": "AC2-matching-features",
+  "skill": "reading",
+  "module": "academic",
+  "test_id": "AC2",
+  "practice": false,
+  "passage_id": "A05",
+  "question_type": "matching_features",
+  "generated_by": "fable",
+  "instructions": "Look at the following statements and the list of places below.\n\nMatch each statement with the correct place, A-E.\nWrite the correct letter, A-E, in boxes 23-26 on your answer sheet.",
+  "option_list": {
+    "label": "List of Places",
+    "numbering": "letter",
+    "options": [
+      { "key": "A", "text": "Çatalhöyük" },
+      { "key": "B", "text": "Karacadağ" },
+      { "key": "C", "text": "the Fertile Crescent" },
+      { "key": "D", "text": "Europe" },
+      { "key": "E", "text": "the United Kingdom" }
+    ]
+  },
+  "example": null,
+  "allow_repeat": false,
+  "items": [
+    {
+      "number": 23,
+      "prompt": "The seeds the team worked on had lasted better here than plant remains of much the same age found elsewhere.",
+      "answer": ["A"],
+      "evidence": "Among the many finds recovered from the site were charred grains of wheat, unusually well preserved compared with plant remains from other ancient sites of similar age.",
+      "evidence_locator": { "paragraph": "B", "sentence": 1 },
+      "feature_check": "Karıştırılabilecek öğe B: pasajdaki iki yer adı da Türkiye'de, bu yüzden 'Türkiye'de bir yer' bilgisi tek başına ayırt etmiyor. Fark şurada: kazıdan çıkan taneler yalnızca A'ya ait; B yalnızca einkorn ekiminin başladığı yer olarak anılıyor, oradan tohum çıktığı hiç söylenmiyor. E de elenir: orada tohum bulunmuyor, orada yalnızca inceleme yapılıyor.",
+      "grammar_check": null,
+      "explanation": "Paragraf B, incelenen kömürleşmiş buğday tanelerinin bu yerleşimden çıktığını ve benzer yaştaki başka yerlerin bitki kalıntılarına göre alışılmadık ölçüde iyi korunduğunu söylüyor.",
+      "difficulty": "easy"
+    },
+    {
+      "number": 24,
+      "prompt": "The beginnings of growing the simpler wheats, some twelve thousand years back, are conventionally placed in this wide area.",
+      "answer": ["C"],
+      "evidence": "Simple wheat domestication is usually traced to the Fertile Crescent around twelve thousand years ago, with the region of Karacadağ in southern Turkey generally credited as the birthplace of einkorn cultivation specifically.",
+      "evidence_locator": { "paragraph": "G", "sentence": 2 },
+      "feature_check": "Karıştırılabilecek öğe B: iki yer de aynı cümlede, ikisi de bir başlangıç iddiasıyla anılıyor, üstelik B basit buğdaylardan birinin yurdu sayılıyor — bu yüzden 24 ile 25 birbirine çok yakın duruyor. Ayrım genişlikte: basit buğday ehlileştirmesinin bütünü geniş bir bölgeye, yani C'ye bağlanıyor; B ise 'özellikle' tek bir buğdayın ekiminin doğduğu daha dar bir yer olarak veriliyor.",
+      "grammar_check": null,
+      "explanation": "Paragraf G, basit buğdayın ehlileştirilmesinin genellikle yaklaşık on iki bin yıl önce Bereketli Hilal'e dayandırıldığını söylüyor.",
+      "difficulty": "hard"
+    },
+    {
+      "number": 25,
+      "prompt": "One simple wheat in particular is usually said to have first been brought into cultivation here.",
+      "answer": ["B"],
+      "evidence": "Simple wheat domestication is usually traced to the Fertile Crescent around twelve thousand years ago, with the region of Karacadağ in southern Turkey generally credited as the birthplace of einkorn cultivation specifically.",
+      "evidence_locator": { "paragraph": "G", "sentence": 2 },
+      "feature_check": "Karıştırılabilecek öğe C: aynı cümlede geçtikleri ve ikisi de köken iddiası taşıdığı için aday C'yi seçebilir. Ama C'ye bağlanan, basit buğdayların ehlileştirilmesinin geneli; tek bir buğdayın, einkorn'un ekiminin doğduğu yer olarak 'özellikle' anılan B. A da elenir: orada bulunan buğdayın ekildiği değil, karmaşık genetiğinin beklenenden erken göründüğü söyleniyor.",
+      "grammar_check": null,
+      "explanation": "Paragraf G, güney Türkiye'deki Karacadağ bölgesinin özellikle einkorn ekiminin doğduğu yer sayıldığını söylüyor.",
+      "difficulty": "hard"
+    },
+    {
+      "number": 26,
+      "prompt": "Ways of farming are described as having carried on towards this area along the routes the settlement stood on.",
+      "answer": ["D"],
+      "evidence": "What set the site apart was its scale: at a time when most human communities were still small and mobile, Çatalhöyük had grown into a dense, town-like settlement, sitting on routes that would later carry farming practices onward into Europe.",
+      "evidence_locator": { "paragraph": "A", "sentence": 3 },
+      "feature_check": "Karıştırılabilecek öğe C: tarımın Bereketli Hilal'den yayıldığı bilgisi pasajda var, bu yüzden 'yayılmanın gittiği yer' sorulunca aday oraya bakabilir. Ama C yayılmanın çıkış noktası olarak anılıyor, varış yönü olarak değil; hem A hem G paragrafı yolun ucunda D'yi gösteriyor (yerleşim, yayılmada bir durak).",
+      "grammar_check": null,
+      "explanation": "Paragraf A, yerleşimin üzerinde durduğu yolların sonradan tarım uygulamalarını Avrupa'ya taşıyacağını söylüyor; paragraf G de yerleşimi bu yayılmada bir durak sayıyor.",
+      "difficulty": "medium"
+    }
+  ]
+}

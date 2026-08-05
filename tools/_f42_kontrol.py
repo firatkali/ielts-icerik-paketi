@@ -99,10 +99,22 @@ def denetle(yol):
         if ornek and ornek in cevaplar:
             sorun.append("%s: ornek basligi ayni zamanda cevap olmus" % etiket)
 
-        for o in opts:
-            if o["text"].lower() in tam.lower():
-                sorun.append("%s: secenek pasajda birebir geciyor - '%s'"
-                             % (etiket, o["text"]))
+        # Baslik ve cumle sonu eslestirmede secenek pasajdan birebir alinamaz, yoksa
+        # soru kelime avina doner. Ozellik eslestirmede liste zaten pasajdaki
+        # kisi/kurum/yer adlarindan kurulur (resmi ornekte de oyle); orada kural
+        # ifadelere isler: soru koku pasajdaki cumlenin kopyasi olamaz.
+        if qt == "matching_features":
+            cumleler = {c.strip().lower() for p in paras.values() for c in p.split(". ")}
+            for it in items:
+                pr = str(it.get("prompt", "")).strip().rstrip(".").lower()
+                if pr and (pr in cumleler or pr in tam.lower()):
+                    sorun.append("%s: soru %s - ifade pasajdan birebir kopya"
+                                 % (etiket, it.get("number")))
+        else:
+            for o in opts:
+                if o["text"].lower() in tam.lower():
+                    sorun.append("%s: secenek pasajda birebir geciyor - '%s'"
+                                 % (etiket, o["text"]))
 
         for it in items:
             no = it.get("number")
