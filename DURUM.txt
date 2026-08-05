@@ -1,8 +1,8 @@
 IELTS ICERIK URETIMI - NEREDE KALDIK
 ==============================================================
 
-  88 calistirmanin 65 tanesi bitti.
-  Son guncelleme: 05.08.2026 22:26
+  127 calistirmanin 66 tanesi bitti.
+  Son guncelleme: 05.08.2026 22:42
 
   (Bu dosya kendiliginden guncelleniyor, elle dokunma.)
 
@@ -10,7 +10,7 @@ IELTS ICERIK URETIMI - NEREDE KALDIK
 
 URETILEN ICERIK (dosyalardan sayildi)
 
-  Okuma sorusu       328 / 400
+  Okuma sorusu       346 / 400
   Dinleme sorusu     264 / 360
   Konusma sorusu     440 / 440
   Yazma gorevi       110 / 110
@@ -21,11 +21,17 @@ URETILEN ICERIK (dosyalardan sayildi)
 IS LISTESI
 
   [BITTI]  Kurulum
+           Gerekli resmi belgeleri indirir ve calisma
+           duzenini kurar.
   [BITTI]  Okuma metinlerini topla
+           Serbest lisansli bilim/egitim kaynaklarindan okuma
+           parcalari secer.
              [x] 1. calistirma
              [x] 2. calistirma
              [x] 3. calistirma
   [BITTI]  Okuma - bosluk doldurma tipleri
+           Cevabi metinde birebir gecen soru tipleri - en
+           guvenilir tipler.
              [x] 1. calistirma
              [x] 2. calistirma
              [x] 3. calistirma
@@ -37,10 +43,14 @@ IS LISTESI
              [x] 9. calistirma
              [x] 10. calistirma
   [BITTI]  Okuma - bilgi eslestirme
+           Hangi bilginin hangi paragrafta oldugunu soran
+           sorular.
              [x] 1. calistirma
              [x] 2. calistirma
              [x] 3. calistirma
   [BITTI]  Dinleme - konusma metinleri
+           Dinleme bolumunun konusma senaryolarini yazar (ses
+           sonra kaydedilecek).
              [x] 1. calistirma
              [x] 2. calistirma
              [x] 3. calistirma
@@ -48,6 +58,7 @@ IS LISTESI
              [x] 5. calistirma
              [x] 6. calistirma
   [BITTI]  Dinleme - kolay sorular
+           Cevabi konusmada acikca gecen dinleme sorulari.
              [x] 1. calistirma
              [x] 2. calistirma
              [x] 3. calistirma
@@ -61,6 +72,8 @@ IS LISTESI
              [x] 11. calistirma
              [x] 12. calistirma
   [BITTI]  Konusma ve yazma gorevleri
+           Konusma kartlari ve yazma gorevleri - yapay
+           zekanin degerlendirecegi kisim.
              [x] 1. calistirma
              [x] 2. calistirma
              [x] 3. calistirma
@@ -78,6 +91,8 @@ IS LISTESI
              [x] 15. calistirma
              [x] 16. calistirma
   [BITTI]  Okuma - dogru/yanlis/verilmemis
+           En hataya acik soru tipi; bu yuzden daha titiz bir
+           modelle yaziliyor.
              [x] 1. calistirma
              [x] 2. calistirma
              [x] 3. calistirma
@@ -87,20 +102,24 @@ IS LISTESI
              [x] 7. calistirma
              [x] 8. calistirma
   [BITTI]  Okuma - coktan secmeli
+           Celdiricileri (yanlis secenekler) inandirici
+           olmasi gereken sorular.
              [x] 1. calistirma
              [x] 2. calistirma
              [x] 3. calistirma
              [x] 4. calistirma
-  [SIRADA] Okuma - eslestirme tipleri   (2/8 bitti)
+  [SIRADA] Okuma - eslestirme tipleri   (3/8 bitti)
+           Baslik, ozellik ve cumle sonu eslestirme sorulari.
              [x] 1. calistirma
              [x] 2. calistirma
-             [>] 3. calistirma
-             [ ] 4. calistirma
+             [x] 3. calistirma
+             [>] 4. calistirma
              [ ] 5. calistirma
              [ ] 6. calistirma
              [ ] 7. calistirma
              [ ] 8. calistirma
   [ ]      Dinleme - zor sorular   (9 calistirma)
+           Dinlemenin coktan secmeli ve eslestirme sorulari.
              [ ] 1. calistirma
              [ ] 2. calistirma
              [ ] 3. calistirma
@@ -111,6 +130,9 @@ IS LISTESI
              [ ] 8. calistirma
              [ ] 9. calistirma
   [ ]      Capraz kontrol   (7 calistirma)
+           Soruyu yazan model degil BASKA bir model soruyu
+           cozer; ayni model ayni hatayi iki kez yapar.
+           Uyusmayan sorular isaretlenir.
              [ ] 1. calistirma
              [ ] 2. calistirma
              [ ] 3. calistirma
@@ -119,3 +141,90 @@ IS LISTESI
              [ ] 6. calistirma
              [ ] 7. calistirma
   [ ]      Son teslim   (1 calistirma)
+           Uretilen her seyi tek bicime getirir ve teslim
+           ozetini yazar.
+  [ ]      Kimlik ve band esigi alanlari   (1 calistirma)
+           Her dosyaya hangi sinava ait oldugunu yazar ve
+           'kac dogru = hangi puan' esigini sonradan
+           ayarlanabilir hale getirir.
+  [ ]      Puanli ornekleri metne dok   (4 calistirma)
+           Gercek sinav gorevlilerinin puanladigi ornek
+           cevaplari metne dokuyor. Bunlar bizim tek dogru
+           cevap anahtarimiz; el yazisi oldugu icin sayfaya
+           bakilarak yaziliyor ve HATALARI AYNEN korunuyor.
+             [ ] 1. calistirma
+             [ ] 2. calistirma
+             [ ] 3. calistirma
+             [ ] 4. calistirma
+  [ ]      Degerlendirme talimati   (1 calistirma)
+           Uygulamanin, kullanicinin yazisini ve konusmasini
+           puanlarken kullanacagi asil talimati yazar. Urunun
+           tek satis vaadi bu.
+  [ ]      Puanlama olcumu - 1. tur   (4 calistirma)
+           Bu adim, yapay zekanin verdigi puanin dogru olup
+           olmadigini olcuyor: resmi olarak puanlanmis ornek
+           cevaplari modele puanlatip gercek puanla
+           karsilastiriyor.
+             [ ] 1. calistirma
+             [ ] 2. calistirma
+             [ ] 3. calistirma
+             [ ] 4. calistirma
+  [ ]      Puanlama duzeltmesi - 1   (1 calistirma)
+           Olculen sapmanin sebebini bulup talimati duzeltir.
+           Orneklerin bir kismi SAKLI tutulur - model
+           ornekleri ezberlediyse orada yakalanir.
+  [ ]      Puanlama olcumu - 2. tur   (2 calistirma)
+           Duzeltmenin ise yarayip yaramadigini olcer.
+             [ ] 1. calistirma
+             [ ] 2. calistirma
+  [ ]      Puanlama duzeltmesi - 2   (1 calistirma)
+           Kalan sapmayi duzeltir; bu turda baska bir ornek
+           kumesi sakli.
+  [ ]      Puanlama olcumu - son tur   (4 calistirma)
+           Son durumu olcer; sakli ornekler burada ilk kez
+           degerlendirilir.
+             [ ] 1. calistirma
+             [ ] 2. calistirma
+             [ ] 3. calistirma
+             [ ] 4. calistirma
+  [ ]      Puanlama son raporu   (1 calistirma)
+           Uc turu yan yana koyar, basari olcutleri tuttu mu
+           yazar, kalan riskleri durustce sayar. Duzeltme
+           yapilmaz.
+  [ ]      Bozuk soru ayiklama   (8 calistirma)
+           Her soru, okuma parcasi HIC GOSTERILMEDEN
+           cozduruluyor. Parcaya bakmadan bilinen soru
+           bozuktur: ya secenekleri ele veriyordur ya da
+           genel kulturle bilinir. Bu sorular isaretlenir
+           (silinmez).
+             [ ] 1. calistirma
+             [ ] 2. calistirma
+             [ ] 3. calistirma
+             [ ] 4. calistirma
+             [ ] 5. calistirma
+             [ ] 6. calistirma
+             [ ] 7. calistirma
+             [ ] 8. calistirma
+  [ ]      Soru kalitesi - sayisal olculer   (2 calistirma)
+           Cevap metinde birebir mi geciyor, kanit kac
+           cumleye yayilmis, yanlis secenekler metne yakin mi
+           - hesaplanabilir kalite olculeri.
+             [ ] 1. calistirma
+             [ ] 2. calistirma
+  [ ]      Ornek cevaplar - yazma   (6 calistirma)
+           Her yazma gorevine band 5 / 6,5 / 8 seviyesinde
+           tam ornek cevap yazar. Kullanici 'bir ust puan
+           boyle yaziyormus' diye bunlari gorecek.
+             [ ] 1. calistirma
+             [ ] 2. calistirma
+             [ ] 3. calistirma
+             [ ] 4. calistirma
+             [ ] 5. calistirma
+             [ ] 6. calistirma
+  [ ]      Ornek cevaplar - konusma   (4 calistirma)
+           Ayni sey konusma kartlari icin - uc seviyede tam
+           ornek konusma.
+             [ ] 1. calistirma
+             [ ] 2. calistirma
+             [ ] 3. calistirma
+             [ ] 4. calistirma
