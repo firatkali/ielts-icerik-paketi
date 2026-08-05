@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "set_id": "GT15",
+  "skill": "writing",
+  "module": "general",
+  "task": 1,
+  "generated_by": "opus",
+  "tone": "semi-formal",
+  "prompt": "A colleague has asked you to speak for a few minutes at a staff open day about the work you do, and has asked for a reply this week.\n\nWrite a letter to your colleague. In your letter:\n\n- accept the invitation and say why you are glad to take part\n- explain what you would like to talk about\n- ask about the time you will have and the equipment in the room",
+  "instruction_line": "You should spend about 20 minutes on this task. Write at least 150 words.",
+  "salutation_hint": "Dear Ms Vance,",
+  "min_words": 150,
+  "minutes": 20,
+  "key_points": [
+    "Kabul ilk paragrafta açıkça yazılmalı — belirsiz bırakılmamalı",
+    "Katılma nedeni kısa bir gerekçeyle desteklenmeli (deneyimi paylaşmak, ekibi tanıtmak)",
+    "Konuşmanın içeriği somut anlatılmalı: hangi konu, kaç başlık, neden dinleyiciye yararlı",
+    "Üçüncü madde iki ayrı soru bekliyor: süre ve odadaki donanım",
+    "Ton yarı resmi: isimle hitap, iş yerine uygun nazik ama rahat dil"
+  ],
+  "common_mistakes": [
+    "Daveti kabul mü ret mi ettiği anlaşılmayan bir mektup yazmak",
+    "Konuşma konusunu 'my job' diye geçiştirip ayrıntı vermemek",
+    "Süre ya da donanım sorusundan birini atlamak",
+    "Aşırı resmi kalıplara kayıp ('Yours faithfully') meslektaş tonunu kaçırmak"
+  ],
+  "topic": "davete cevap ve konuşma ayrıntılarını sorma",
+  "difficulty": "medium"
+}

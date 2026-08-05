@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "set_id": "GT13",
+  "skill": "writing",
+  "module": "general",
+  "task": 1,
+  "generated_by": "opus",
+  "tone": "formal",
+  "prompt": "A technician from a company that repairs household appliances came to your home at very short notice, outside normal working hours, and dealt with an urgent problem extremely well.\n\nWrite a letter to the company. In your letter:\n\n- give the details of the visit\n- explain what the technician did well\n- suggest how the company could let other customers know about this service",
+  "instruction_line": "You should spend about 20 minutes on this task. Write at least 150 words.",
+  "salutation_hint": "Dear Sir or Madam,",
+  "min_words": 150,
+  "minutes": 20,
+  "key_points": [
+    "Ziyaretin ayrıntıları verilmeli: hangi cihaz, hangi gün ve saat, sorunun ne olduğu",
+    "Övgü somut davranışlara dayanmalı ('arrived within an hour', 'explained the fault clearly'), genel sıfatlarla yetinilmemeli",
+    "Üçüncü madde öneri ister: bu hızlı hizmetin nasıl duyurulabileceğine dair en az bir uygulanabilir fikir",
+    "Mektubun amacı ilk cümlede belli olmalı — bu bir şikâyet değil, takdir mektubu",
+    "Ton resmi ama sıcak: abartılı duygusal dil yerine ölçülü teşekkür kalıpları"
+  ],
+  "common_mistakes": [
+    "Yalnızca 'çok memnun kaldım' deyip hangi davranışın iyi olduğunu yazmamak",
+    "Öneri maddesini atlayıp mektubu teşekkürle bitirmek",
+    "Teknisyeni överken mektubu şikâyete çevirmek (fiyat, bekleme süresi)",
+    "Resmi kapanış kalıbını ve imzayı unutmak"
+  ],
+  "topic": "iyi bir hizmet için teşekkür ve öneri",
+  "difficulty": "medium"
+}

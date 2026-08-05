@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "set_id": "GT11",
+  "skill": "writing",
+  "module": "general",
+  "task": 1,
+  "generated_by": "opus",
+  "tone": "formal",
+  "prompt": "A learning centre in your area has put up a notice about a series of weekend workshops, but the notice gives very little detail.\n\nWrite a letter to the centre. In your letter:\n\n- say which workshop you are interested in and where you saw the notice\n- ask about the dates, the times and the cost\n- ask what people with no experience need to bring",
+  "instruction_line": "You should spend about 20 minutes on this task. Write at least 150 words.",
+  "salutation_hint": "Dear Sir or Madam,",
+  "min_words": 150,
+  "minutes": 20,
+  "key_points": [
+    "Hangi atölyeye ilgi duyulduğu ve ilanın nerede görüldüğü açıkça yazılmalı",
+    "Üç bilgi kalemi de sorulmalı: tarih, saat ve ücret — biri atlanırsa madde eksik sayılır",
+    "Üçüncü madde deneyimsiz katılımcının ne getireceğine dair somut soru bekliyor (malzeme, kıyafet, ön hazırlık)",
+    "Sorular dolaylı soru kalıbıyla kurulmalı ('I would be grateful if you could tell me whether…')",
+    "Ton resmi: isimsiz hitap, kısaltma yok, cevap için nazik bir kapanış talebi var"
+  ],
+  "common_mistakes": [
+    "Bilgi istemek yerine kayıt yaptırdığını varsayarak yazmak",
+    "Üç sorudan yalnızca ikisini sormak (ücret genelde unutulur)",
+    "Resmi mektupta günlük dil ve kısaltma kullanmak ('I wanna know', 'don't')",
+    "Kapanış kalıbını ('Yours faithfully') ve imzayı unutmak"
+  ],
+  "topic": "hafta sonu atölyeleri hakkında bilgi isteme",
+  "difficulty": "easy"
+}

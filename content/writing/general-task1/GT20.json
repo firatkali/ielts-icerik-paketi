@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "set_id": "GT20",
+  "skill": "writing",
+  "module": "general",
+  "task": 1,
+  "generated_by": "opus",
+  "tone": "informal",
+  "prompt": "You and a close friend used to meet every month, but neither of you has had the time for almost a year.\n\nWrite a letter to your friend. In your letter:\n\n- explain what has been keeping you so busy\n- suggest a regular day and something you could do together\n- ask what would suit them best",
+  "instruction_line": "You should spend about 20 minutes on this task. Write at least 150 words.",
+  "salutation_hint": "Dear Marek,",
+  "min_words": 150,
+  "minutes": 20,
+  "key_points": [
+    "Bir yıllık aranın nedeni birkaç cümleyle anlatılmalı, suçlayıcı olmamalı",
+    "Öneri iki parçalı: hem düzenli bir gün/sıklık hem de birlikte yapılacak bir şey",
+    "Üçüncü madde karşı tarafa söz hakkı verir — açık uçlu bir soruyla bitirilmeli",
+    "Özlem ve yeniden başlama isteği doğal bir dille ifade edilmeli",
+    "Ton samimi: ilk isimle hitap, kısaltmalar, günlük bağlaçlar ('anyway', 'by the way')"
+  ],
+  "common_mistakes": [
+    "Yalnızca 'let's meet soon' deyip somut bir gün ya da etkinlik önermemek",
+    "Uzun bir yıl özeti yazıp öneri ve soru maddelerini sıkıştırmak",
+    "Arkadaşa sitem eden bir ton kullanmak",
+    "Kapanışta cevap beklendiğini belirtmemek"
+  ],
+  "topic": "uzun aradan sonra düzenli buluşma önerisi",
+  "difficulty": "medium"
+}

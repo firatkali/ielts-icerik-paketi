@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "set_id": "GT12",
+  "skill": "writing",
+  "module": "general",
+  "task": 1,
+  "generated_by": "opus",
+  "tone": "formal",
+  "prompt": "The street lights in the road where you live have not been working for several weeks, and telephone calls about the problem have brought no result.\n\nWrite a letter to the office that looks after roads and street lighting in your area. In your letter:\n\n- explain what the problem is and how long it has lasted\n- describe the difficulties it is causing for people living in the road\n- say what you would like the office to do",
+  "instruction_line": "You should spend about 20 minutes on this task. Write at least 150 words.",
+  "salutation_hint": "Dear Sir or Madam,",
+  "min_words": 150,
+  "minutes": 20,
+  "key_points": [
+    "Arıza somut tarif edilmeli: kaç lamba, hangi bölüm, kaç haftadır sönük",
+    "Daha önce telefonla bildirildiği ve sonuç alınamadığı belirtilirse mektubun gerekçesi güçlenir",
+    "İkinci madde etkiyi ister: karanlıkta yürüyen komşular, düşme tehlikesi, akşam saatlerinde çıkmama",
+    "Net ve ölçülebilir bir talep yazılmalı (onarımın yapılması + bir tarih ya da geri dönüş sözü)",
+    "Ton resmi ve ölçülü: şikâyet var ama öfkeli değil, suçlayıcı sıfat yok"
+  ],
+  "common_mistakes": [
+    "Sorunu belirsiz anlatmak ('the lights are bad') ve süre vermemek",
+    "Yalnızca şikâyet edip somut bir talep yazmamak",
+    "Kızgın ya da tehditkâr bir ton kullanmak — bant puanını düşürür",
+    "Resmi mektup kalıplarını (açılış cümlesi, 'Yours faithfully') atlamak"
+  ],
+  "topic": "sokak aydınlatmasının uzun süredir arızalı olması",
+  "difficulty": "medium"
+}

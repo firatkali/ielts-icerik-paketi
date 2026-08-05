@@ -4048,3 +4048,91 @@ okla verildi ki "merdivenin başında sağda" ifadesi tek anlama gelsin.
   senaryoları tekrar edilmeyecek; kullanılmamış işlevler listesinden yararlanılmalı.
   Ardından **E paketi (14.–16. çalıştırma)** `content/writing/task2/` altına 3 × 20 deneme
   konusu.
+
+---
+
+## OPUS5-30 (13. çalıştırma: yazma General 1. görev — oturum 2, 10 mektup görevi)
+
+- Tarih: 2026-08-05
+- Depo kontrolü: `content/speaking/part1/` **T01–T20 tam**, `content/speaking/part2-3/`
+  **C01–C60 tam**, `content/writing/academic-task1/` **AT01–AT30 tam**,
+  `content/writing/general-task1/` **GT01–GT10 var (10/20)**, `content/writing/task2/`
+  **boş**. Çalıştırma listesindeki sıradaki bitmemiş paket **D paketi, oturum 2
+  (13. çalıştırma)** idi, o yapıldı. Var olan hiçbir dosyaya dokunulmadı. **10 birim**
+  üretildi, hedefle aynı. **D paketi böylece tamamlandı: GT01–GT20 = 20/20.**
+- Üretilen dosyalar — `content/writing/general-task1/GT11.json` … `GT20.json`:
+  - **resmi (3):** GT11 mahalledeki öğrenme merkezinin hafta sonu atölyeleri hakkında bilgi
+    isteme (tarih/saat/ücret + yeni başlayan ne getirmeli) · GT12 haftalardır yanmayan sokak
+    lambalarının yol ve aydınlatma biriminden onarımının istenmesi · GT13 mesai dışı gelip
+    acil arızayı çözen beyaz eşya teknisyeni için şirkete teşekkür + hizmetin duyurulması
+    önerisi
+  - **yarı resmi (4):** GT14 eskiden aynı ekipte çalışılan kişinin eğitim programı başvurusu
+    için tavsiye mektubu → program sorumlusu (`Dear Ms Coburn,`) · GT15 iş yerinde açık gün
+    etkinliğinde kısa konuşma davetine olumlu cevap + süre/donanım sorusu (`Dear Ms Vance,`) ·
+    GT16 haftalık hobi grubuna üç ay katılamama, yerin saklanması ricası ve başka türlü
+    yardım teklifi (`Dear Mrs Ashwell,`) · GT17 iş yeri yemekhanesi için istenen yazılı
+    öneriler: bir sorun + iki iyileştirme (`Dear Mr Renshaw,`)
+  - **samimi (3):** GT18 boş daireye taşınan arkadaşa ucuza/ikinci elden eşya tavsiyesi ve
+    kendi eşyasından teklif (`Dear Dilnara,`) · GT19 bir hafta hastayken alışveriş ve yemek
+    işine koşan akrabaya teşekkür + karşılık teklifi (`Dear Leyla,`) · GT20 yaklaşık bir yıl
+    görüşülemeyen yakın arkadaşa düzenli buluşma önerisi ve tercihini sorma (`Dear Marek,`)
+- **KULLANILAN MEKTUP DURUMLARI (D paketinin tamamı, 20 durum):** 12. oturumdan — güvenilmez
+  otobüs seferi şikâyeti · gönüllü başvurusu · hatalı fatura kalemi · gecikmiş çevrim içi
+  sipariş · kiralık evde ısıtma arızası · çalışma saati değişikliği talebi · ev tadilatı +
+  komşuya geçiş ricası · başka kasabaya taşınma haberi ve davet · evi kollama ricası · davete
+  katılamama ve özür. 13. oturumdan — atölye bilgisi isteme · sokak aydınlatması arızası ·
+  teknisyen için teşekkür ve öneri · tavsiye mektubu · konuşma davetine cevap · gruba ara
+  verme ve yer saklatma · yemekhane önerileri · ucuza eşya tavsiyesi · hastalıkta yardım eden
+  akrabaya teşekkür · düzenli buluşma önerisi.
+- **Ton kotası tamamlandı:** hedef **resmi 7 · yarı resmi 7 · samimi 6**; 12. oturum 4/3/3,
+  13. oturum 3/4/3 → toplam **7/7/6**. Kontrol scripti yirmi dosyanın tamamını sayarak
+  doğruladı.
+- **İşlev (function) çeşitliliği:** 12. oturumda kullanılmayan işlevlerin hepsi bu oturumda
+  yerini buldu — bilgi isteme/enquiry (GT11), arıza bildirimi (GT12), teşekkür + öneri
+  (GT13), tavsiye mektubu (GT14), davete cevap verme (GT15), iptal/ara verme bildirimi
+  (GT16), öneri verme (GT17, GT18), teşekkür (GT19), teklif/planlama (GT20). Böylece yirmi
+  mektupta şikâyet, başvuru, talep, bilgilendirme, rica, haber, özür, teşekkür, tavsiye,
+  enquiry ve planlama işlevleri temsil ediliyor.
+- **Tekrar kaçınma dört eksende yapıldı:** (1) paket içi `prompt`, `topic` ve isimli
+  selamlama çakışması script ile yirmi dosyada tarandı → 0; (2) Academic 1. görevin otuz
+  veri konusuyla kesişme yok (mektuplar durum üzerine kurulu); (3) **dinleme senaryolarıyla
+  çakışma bilinçle önlendi** — L1-S1 yaz kampı kaydı, L1-S2 müze turu, L2-S1 nakliyat
+  şirketi, L2-S2 kütüphane yeniden açılışı, L3-S1 spor merkezi üyeliği, L3-S2 kır parkı
+  rotaları, L4-S1 otobüs kayıp eşya, L4-S2 geri dönüşüm merkezi, L5-S1 bisiklet turu
+  rezervasyonu, L5-S2 kasaba festivali, L6-S1 yurt başvurusu ve L6-S2 çiftçi pazarı konuları
+  mektuplarda kullanılmadı (kütüphane/öğrenci yurdu resmi örnek görevlerde de geçtiği için
+  ayrıca telif gerekçesi var); (4) konuşma kartlarıyla (C01–C60) durum örtüşmesi yok.
+- **Format 12. oturumla birebir aynı tutuldu:** 1–3 cümlelik durum + `Write a letter to …
+  In your letter:` + **tam 3 madde** (`- ` ile, sonunda nokta yok), aynı `instruction_line`,
+  `key_points` 5, `common_mistakes` 4, alan adları ve **alan sırası** promptun `GT01`
+  örneğiyle aynı. Selamlama kalıpları: resmi `Dear Sir or Madam,`, yarı resmi
+  `Dear Mr/Ms/Mrs <soyadı>,`, samimi `Dear <ad>,`.
+- **Uydurma isimler** (gerçek kişi/kurum/marka yok): Coburn, Vance, Ashwell, Renshaw,
+  Dilnara, Leyla, Marek. Kurumlar bilinçli olarak isimsiz ("a learning centre in your area",
+  "the office that looks after roads and street lighting", "a company that repairs household
+  appliances", "the canteen at your workplace").
+- **Kültürel tarafsızlık ve ayrıcalık denetimi:** hiçbir görev seyahat geçmişi, araba, ikinci
+  ev, yurt dışı deneyimi ya da yüksek gelir varsaymıyor; GT18 zaten az parayla eşya bulma
+  üzerine kurulu. Din/alkol/siyaset/savaş/cinsellik yok (script tarıyor). Görünür metin
+  İngiliz İngilizcesinde (`centre`, `programme`, `favour`, `organise`), açıklama alanları
+  Türkçe.
+- Doğrulama: geçici `tools/_gt02_kontrol.py` (iş bitince silindi) JSON geçerliliği, zarf
+  alanlarının **listesi ve sırası**, `set_id` ↔ dosya adı, `skill/module/task`,
+  `instruction_line` birebirliği, üç madde kuralı ve madde noktalaması, durum cümlesi sayısı,
+  ton ↔ selamlama uyumu, `key_points`/`common_mistakes` sayısı, Türkçe/İngilizce ayrımı,
+  Amerikan yazım taraması, yasaklı tema ve gerçek marka taraması, görünür metinde "IELTS",
+  paket içi prompt/topic/selamlama tekrarı ve **yirmi dosyalık ton kotası** denetledi.
+  **Hata 0, uyarı 0.**
+- `python tools/dogrula.py` → **şema hatası 0**, `writing/task1` **50** (40 → 50), speaking
+  200 + 240 değişmedi, işaretli 0, pasaj lisansı eksik 0, görünür metinde IELTS 0, yasak
+  kaynak 0. Rapordaki "TAM TEST BUTUNLUGU … EKSIK" satırları bu paketle ilgisiz.
+- **DURUM.txt / ilerleme.txt elle güncellenmedi** (sayaç dosyalarını `tools/calistir.py` kendi
+  commit'iyle yazıyor).
+- Atlanan/sorun: yok. **OPUS5-30'da 16 paketten 13'ü tamam (490/550 birim).** Sıradaki iş
+  **E paketi, oturum 1 (14. çalıştırma)** — `content/writing/task2/` altına `T2-01`–`T2-20`:
+  20 deneme konusu. Altmış konunun kalıp kotası **opinion 14 · her iki görüş 12 · sorun–çözüm
+  11 · avantaj–dezavantaj 11 · iki soruluk 12** olduğu için ilk oturumda dengeli bir kesit
+  alınmalı (örneğin 5/4/4/4/3) ve konu alanları (eğitim, iş hayatı, teknoloji, çevre, şehir
+  hayatı, ulaşım, sağlık, medya, kültür, aile, turizm, tüketim, devletin rolü, yaşlanan
+  nüfus, dil, suç) altmış konuya yayılacak şekilde bölüştürülmeli. Mektup ve konuşma
+  konularıyla tekrar yasak.

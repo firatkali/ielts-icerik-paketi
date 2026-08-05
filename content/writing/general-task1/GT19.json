@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "set_id": "GT19",
+  "skill": "writing",
+  "module": "general",
+  "task": 1,
+  "generated_by": "opus",
+  "tone": "informal",
+  "prompt": "You were unwell for a week and a relative came to your home every day to help with the shopping and the cooking.\n\nWrite a letter to your relative. In your letter:\n\n- thank them and say which help mattered most\n- tell them how you are feeling now\n- suggest a way of returning the favour",
+  "instruction_line": "You should spend about 20 minutes on this task. Write at least 150 words.",
+  "salutation_hint": "Dear Leyla,",
+  "min_words": 150,
+  "minutes": 20,
+  "key_points": [
+    "Teşekkür somut bir örneğe bağlanmalı: hangi yardım, neden en çok işe yaradı",
+    "Sağlık durumu güncel olarak anlatılmalı (iyileşme, hâlâ süren yorgunluk vb.)",
+    "Karşılık teklifi net olmalı: ne yapılacak, ne zaman — belirsiz söz yeterli değil",
+    "Duygu ifadeleri çeşitlenmeli ('I don't know what I'd have done without you')",
+    "Ton samimi: ilk isimle hitap, kısaltmalar, sıcak ama abartısız kapanış"
+  ],
+  "common_mistakes": [
+    "Yalnızca 'thank you' deyip hangi yardımın önemli olduğunu yazmamak",
+    "Hastalığı uzun uzun anlatıp diğer iki maddeye yer bırakmamak",
+    "Karşılık teklifini soyut bırakmak ('I'll do something for you one day')",
+    "Samimi mektubu resmi kalıplarla açıp kapatmak"
+  ],
+  "topic": "yardım eden bir akrabaya teşekkür",
+  "difficulty": "easy"
+}

@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "set_id": "GT14",
+  "skill": "writing",
+  "module": "general",
+  "task": 1,
+  "generated_by": "opus",
+  "tone": "semi-formal",
+  "prompt": "Someone who used to work in your team has applied for a place on a training programme and has asked you to write in support of the application.\n\nWrite a letter to the person in charge of the programme. In your letter:\n\n- explain how you know the applicant and for how long\n- describe the qualities that make them suitable\n- say how the programme would help them in their work",
+  "instruction_line": "You should spend about 20 minutes on this task. Write at least 150 words.",
+  "salutation_hint": "Dear Ms Coburn,",
+  "min_words": 150,
+  "minutes": 20,
+  "key_points": [
+    "İlişki ve süre net verilmeli: hangi ekipte, hangi rolde, kaç yıl birlikte çalışıldığı",
+    "Nitelikler örneklerle desteklenmeli — sıfat listesi değil, kısa bir davranış örneği",
+    "Üçüncü madde geleceğe bakar: programın adayın işinde neyi değiştireceği somut yazılmalı",
+    "Yazarın kendi konumu kısaca belirtilirse tavsiye güvenilir olur",
+    "Ton yarı resmi: isimle hitap, ölçülü ve nesnel dil, abartılı övgü yok"
+  ],
+  "common_mistakes": [
+    "Adayı översiz bırakıp yalnızca programı anlatmak",
+    "Örneksiz genel sıfatlar sıralamak ('hard-working, clever, nice')",
+    "Adayın yerine başvuru yazar gibi birinci tekil şahısla ('I would like to join…') yazmak",
+    "Yarı resmi mektupta arkadaşça açılış/kapanış kullanmak ('Hi', 'See you soon')"
+  ],
+  "topic": "bir çalışma arkadaşı için tavsiye mektubu",
+  "difficulty": "medium"
+}

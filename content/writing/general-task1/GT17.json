@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "set_id": "GT17",
+  "skill": "writing",
+  "module": "general",
+  "task": 1,
+  "generated_by": "opus",
+  "tone": "semi-formal",
+  "prompt": "The manager of the canteen at your workplace has asked members of staff to send written suggestions about the service.\n\nWrite a letter to the manager. In your letter:\n\n- say how often you use the canteen and when\n- describe one thing that does not work well\n- suggest two changes that would improve the service",
+  "instruction_line": "You should spend about 20 minutes on this task. Write at least 150 words.",
+  "salutation_hint": "Dear Mr Renshaw,",
+  "min_words": 150,
+  "minutes": 20,
+  "key_points": [
+    "Kullanım sıklığı ve saat verilmeli — öneriyi güvenilir kılan bilgi budur",
+    "Tek bir sorun seçilip somut anlatılmalı (kuyruk, oturacak yer, seçenek azlığı, saat aralığı)",
+    "İki ayrı öneri yazılmalı ve ikisi de uygulanabilir olmalı; sayıya dikkat",
+    "Önerilerin sorunla bağı kurulmalı: hangi öneri hangi sıkıntıyı nasıl azaltır",
+    "Ton yarı resmi ve yapıcı: eleştiri var ama karar yöneticiye bırakılır"
+  ],
+  "common_mistakes": [
+    "Sorunları uzun uzun sıralayıp tek bir öneri bile yazmamak",
+    "İki öneri istendiği hâlde bir öneriyle yetinmek",
+    "Yapıcı öneri yerine şikâyet mektubu yazmak",
+    "Kullanım sıklığı maddesini atlayıp doğrudan sorunla başlamak"
+  ],
+  "topic": "iş yeri yemekhanesi için öneri mektubu",
+  "difficulty": "medium"
+}

@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "set_id": "GT16",
+  "skill": "writing",
+  "module": "general",
+  "task": 1,
+  "generated_by": "opus",
+  "tone": "semi-formal",
+  "prompt": "You go to a weekly hobby group, but because of changes at work you will not be able to attend for the next three months.\n\nWrite a letter to the person who runs the group. In your letter:\n\n- explain why you cannot come for a while\n- ask whether your place can be kept for you\n- offer to help the group in another way in the meantime",
+  "instruction_line": "You should spend about 20 minutes on this task. Write at least 150 words.",
+  "salutation_hint": "Dear Mrs Ashwell,",
+  "min_words": 150,
+  "minutes": 20,
+  "key_points": [
+    "Neden ve süre birlikte verilmeli: işteki değişiklik kısaca açıklanıp üç aylık ara belirtilmeli",
+    "Yer saklama isteği soru biçiminde ve nazikçe kurulmalı, hak talebi gibi yazılmamalı",
+    "Üçüncü madde somut bir teklif ister (duyuru hazırlamak, malzeme getirmek, uzaktan yardım)",
+    "Gruptan kalıcı olarak ayrılmadığı, dönme niyeti olduğu açıkça yazılmalı",
+    "Ton yarı resmi: isimle hitap, teşekkür ve özür kalıpları dengeli"
+  ],
+  "common_mistakes": [
+    "Ayrılma nedenini hiç açıklamadan yalnızca 'I can't come' demek",
+    "Yer saklama ricasını emir kipiyle yazmak ('Keep my place')",
+    "Yardım teklifini belirsiz bırakmak ('I can help somehow')",
+    "Ne kadar süreyle gelinemeyeceğini yazmayı unutmak"
+  ],
+  "topic": "gruba bir süre katılamama ve yerin saklanması ricası",
+  "difficulty": "easy"
+}
