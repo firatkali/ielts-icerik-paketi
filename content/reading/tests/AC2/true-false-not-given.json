@@ -1,0 +1,99 @@
+{
+  "schema_version": "1.0",
+  "set_id": "AC2-true-false-not-given",
+  "skill": "reading",
+  "module": "academic",
+  "test_id": "AC2",
+  "practice": false,
+  "passage_id": "A04",
+  "question_type": "true_false_not_given",
+  "generated_by": "fable",
+  "instructions": "Do the following statements agree with the information given in the passage?\n\nIn boxes 7-13 on your answer sheet, write\n\nTRUE if the statement agrees with the information\nFALSE if the statement contradicts the information\nNOT GIVEN if there is no information on this",
+  "options": ["TRUE", "FALSE", "NOT GIVEN"],
+  "items": [
+    {
+      "number": 7,
+      "prompt": "Scientists from many countries must compete for a limited share of time on the telescope.",
+      "answer": ["TRUE"],
+      "evidence": "The observations were taken through a wide infrared filter sensitive to wavelengths between one and two and a half microns, well beyond what the human eye can detect, and formed part of a broader Webb research programme open to scientists from around the world who compete for a limited amount of telescope time.",
+      "evidence_locator": { "paragraph": "B", "sentence": 3 },
+      "contradiction_point": null,
+      "not_given_justification": null,
+      "scan_note": "Teleskop A ('a modern space telescope'), B (Webb ve program ayrıntıları), F (yer tabanlı teleskoplar) ve H (kuşaktan kuşağa aygıtlar) paragraflarında geçiyor; gözlem süresinin tahsisi ve rekabet yalnızca B paragrafının 3. cümlesinde anlatılıyor, çelişen cümle yok.",
+      "explanation": "Paragraf B, programın dünyanın dört bir yanından bilim insanlarına açık olduğunu ve sınırlı teleskop süresi için yarıştıklarını söylüyor; ifade bunun eş anlamlı hâli.",
+      "difficulty": "easy"
+    },
+    {
+      "number": 8,
+      "prompt": "Evidence from the moon's orbit indicates that it first formed far from its present position.",
+      "answer": ["FALSE"],
+      "evidence": "The orbit is nearly circular and lies close to Uranus's equatorial plane, a combination that suggests the moon formed in roughly its present location rather than being captured later from elsewhere in the solar system, as sometimes happens with more distant, irregular satellites.",
+      "evidence_locator": { "paragraph": "D", "sentence": 2 },
+      "contradiction_point": "Pasaj, yörüngenin dairesele yakın ve ekvator düzlemine yakın oluşunun uydunun 'aşağı yukarı şimdiki yerinde' oluştuğunu gösterdiğini söylüyor; ifade ise uzak bir yerde oluştuğunu iddia ediyor. Çelişki tek noktada: oluşum yeri (yerinde / uzakta).",
+      "not_given_justification": null,
+      "scan_note": "Yörünge özellikleri D paragrafında (1.-2. cümle), sistemin erken tarihi G paragrafında geçiyor; G 'kaotik erken tarih'ten söz ediyor ama uydunun uzaktan geldiğini söylemiyor, D ise açıkça yerinde oluştuğunu belirtiyor.",
+      "explanation": "Paragraf D, yörüngenin biçiminin uydunun başka yerden yakalanmak yerine yaklaşık bugünkü konumunda oluştuğuna işaret ettiğini söylüyor — ifade bunun tersini iddia ediyor.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 9,
+      "prompt": "Miranda is the smallest of Uranus's five major satellites.",
+      "answer": ["NOT GIVEN"],
+      "evidence": null,
+      "evidence_locator": null,
+      "contradiction_point": null,
+      "not_given_justification": "(1) Konu pasajda var: E paragrafı Uranüs'ün beş büyük uydusunu (Miranda, Ariel, Umbriel, Titania ve Oberon) adlarıyla sayıyor. (2) Hiçbir cümle ifadeyi çürütmüyor: pasajın hiçbir yerinde bu beş uydunun kendi aralarındaki boyut sıralaması verilmiyor, Miranda'nın en küçük olmadığını söyleyen bir cümle yok. (3) Hiçbir cümle ifadeyi doğrulamıyor — dolaylı olarak bile: C paragrafındaki boyut tartışması yalnızca yeni uyduya ait, E'deki 'five largest' ifadesi beşliyi iç uydularla karşılaştırıyor, beşlinin kendi içindeki sıralamasını değil.",
+      "scan_note": "Miranda ve diğer dört büyük uydu yalnızca E paragrafında (1. cümle) geçiyor; boyut bilgisi C paragrafında (yeni uydunun çapı) ve E'de ('five largest' — iç uydularla kıyas) var, beşlinin kendi içindeki büyüklük sırası hiçbir paragrafta yok.",
+      "explanation": "Pasaj beş büyük uyduyu adlarıyla sayıyor ama aralarındaki boyut sıralamasından hiç söz etmiyor; Miranda'nın en küçük olup olmadığı metinden çıkarılamaz.",
+      "difficulty": "hard"
+    },
+    {
+      "number": 10,
+      "prompt": "Monitoring the planet's many small, close-together moons is difficult even for professional researchers.",
+      "answer": ["TRUE"],
+      "evidence": "Even among planetary scientists, keeping track of so many small, closely spaced bodies is a demanding task, since their orbits interact with one another and with the planet's faint rings in ways that are still not fully mapped out.",
+      "evidence_locator": { "paragraph": "E", "sentence": 3 },
+      "contradiction_point": null,
+      "not_given_justification": null,
+      "scan_note": "İç uyduların takibi E paragrafında (3. cümle) ve G paragrafında ('the complicated gravitational relationships ... point to a chaotic early history') ele alınıyor; ikisi de işin zorluğunu destekliyor, çelişen cümle yok.",
+      "explanation": "Paragraf E, bu kadar çok küçük ve birbirine yakın cismi izlemenin gezegen bilimciler için bile zorlu bir iş olduğunu söylüyor; ifade bunun eş anlamlı hâli.",
+      "difficulty": "easy"
+    },
+    {
+      "number": 11,
+      "prompt": "After the flyby, ground-based telescopes were likewise unable to make the moon out.",
+      "answer": ["TRUE"],
+      "evidence": "Its size simply placed it below the threshold that Voyager's instruments, or any Earth-based telescope in the decades since, could resolve, meaning the moon had been circling Uranus unnoticed for the nearly forty years between that flyby and Webb's observations.",
+      "evidence_locator": { "paragraph": "F", "sentence": 3 },
+      "contradiction_point": null,
+      "not_given_justification": null,
+      "scan_note": "Uydunun daha önce görülememesi A ('no previous mission had ever recorded it'), F (Voyager ve yer tabanlı teleskoplar) ve H ('even a dedicated flyby mission missed') paragraflarında geçiyor; hepsi aynı yönde, çelişen cümle yok.",
+      "explanation": "Paragraf F, uydunun boyutunun Voyager'ın aygıtlarının da o günden bu yana hiçbir yer tabanlı teleskobun da çözemeyeceği eşiğin altında kaldığını söylüyor.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 12,
+      "prompt": "A team member stated that another planet possesses more small inner moons than Uranus.",
+      "answer": ["FALSE"],
+      "evidence": "According to team member Matthew Tiscareno of the SETI Institute, no other planet in the solar system has as many small inner moons as Uranus, and the complicated gravitational relationships between these moons and the planet's faint rings point to a chaotic early history, one in which the line between \"ring\" and \"moon\" may not always have been as clear as it is today.",
+      "evidence_locator": { "paragraph": "G", "sentence": 2 },
+      "contradiction_point": "Pasajda Tiscareno, Güneş Sistemi'nde başka hiçbir gezegenin Uranüs kadar çok küçük iç uydusu olmadığını söylüyor; ifade ise başka bir gezegenin daha fazlasına sahip olduğunu iddia ediyor. Çelişki tek noktada: olumsuzlama ('no other planet' / 'another planet possesses more').",
+      "not_given_justification": null,
+      "scan_note": "Küçük iç uyduların sayısı E paragrafında (on dördüncü üye, yirmi dokuz uydu) ve G paragrafında (2. cümle, gezegenler arası kıyas) geçiyor; kıyası veren tek cümle G'de ve ifadeyle açıkça çelişiyor.",
+      "explanation": "Paragraf G'de ekip üyesi, başka hiçbir gezegenin Uranüs kadar çok küçük iç uydusu olmadığını söylüyor — ifade tam tersini aktarıyor.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 13,
+      "prompt": "The team intends to submit its findings for publication within the next year.",
+      "answer": ["NOT GIVEN"],
+      "evidence": null,
+      "evidence_locator": null,
+      "contradiction_point": null,
+      "not_given_justification": "(1) Konu pasajda var: H paragrafı bulgunun yayın durumunu açıkça ele alıyor ('remains part of ongoing research rather than a finished, peer-reviewed result'). (2) Hiçbir cümle ifadeyi çürütmüyor: pasaj ekibin bir yıl içinde yayın yapmayacağını söylemiyor, yalnızca sonucun henüz hakemli olmadığını belirtiyor. (3) Hiçbir cümle ifadeyi doğrulamıyor — dolaylı olarak bile: 'ongoing research' araştırmanın sürdüğünü söyler ama bir yayın takvimi ya da başvuru niyeti pasajın hiçbir yerinde geçmiyor.",
+      "scan_note": "Yayın ve hakem değerlendirmesi yalnızca H paragrafında (1. cümle) geçiyor; B'deki program tanımı ve G'deki ekip görüşleri yayın takviminden hiç söz etmiyor.",
+      "explanation": "Pasaj sonucun henüz hakemli bir yayına dönüşmediğini söylüyor ama ekibin ne zaman ya da nasıl yayın yapmayı planladığına hiç değinmiyor.",
+      "difficulty": "medium"
+    }
+  ]
+}

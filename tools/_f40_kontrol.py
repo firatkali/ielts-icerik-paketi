@@ -1,11 +1,16 @@
 # -*- coding: utf-8 -*-
-"""Gecici kontrol: FABLE5-40 / AC1 true-false-not-given paketi."""
+"""Gecici kontrol: FABLE5-40 true-false-not-given paketleri.
+
+Kullanim: python tools/_f40_kontrol.py [TEST]   (varsayilan AC1)
+Pasaj, testin 1. pasajidir (PLAN'daki eslemeden)."""
 import json, os, re, sys, io
 
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
 KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-S = os.path.join(KOK, "content", "reading", "tests", "AC1", "true-false-not-given.json")
-P = os.path.join(KOK, "passages", "academic", "A01.json")
+TEST = sys.argv[1] if len(sys.argv) > 1 else "AC1"
+PASAJ = {"AC1": "A01", "AC2": "A04", "AC3": "A07", "AC4": "A10"}[TEST]
+S = os.path.join(KOK, "content", "reading", "tests", TEST, "true-false-not-given.json")
+P = os.path.join(KOK, "passages", "academic", PASAJ + ".json")
 
 hata, uyari = [], []
 d = json.load(open(S, encoding="utf-8"))
@@ -14,8 +19,8 @@ paras = {x["label"]: x["text"] for x in p["paragraphs"]}
 tam = " ".join(x["text"] for x in p["paragraphs"])
 
 # zarf
-bekle = {"schema_version": "1.0", "set_id": "AC1-true-false-not-given", "skill": "reading",
-         "module": "academic", "test_id": "AC1", "practice": False, "passage_id": "A01",
+bekle = {"schema_version": "1.0", "set_id": TEST + "-true-false-not-given", "skill": "reading",
+         "module": "academic", "test_id": TEST, "practice": False, "passage_id": PASAJ,
          "question_type": "true_false_not_given", "generated_by": "fable"}
 for k, v in bekle.items():
     if d.get(k) != v:
@@ -128,12 +133,18 @@ gorunur = [d["instructions"]] + [i["prompt"] for i in items]
 if any("ielts" in g.lower() for g in gorunur):
     hata.append("gorunur metinde IELTS geciyor")
 
-# ayni testteki diger paketlerle cakisma (A01 = note-completion)
-nc = json.load(open(os.path.join(os.path.dirname(S), "note-completion.json"), encoding="utf-8"))
-nc_ev = {i.get("evidence") for i in nc["items"]}
-for it in items:
-    if it.get("evidence") and it["evidence"] in nc_ev:
-        uyari.append("%d: note-completion ile ayni kanit cumlesi" % it["number"])
+# ayni testte 1. pasaji kullanan tamamlama paketiyle cakisma
+for komsu in ("note-completion.json", "flow-chart-completion.json", "table-completion.json"):
+    yol = os.path.join(os.path.dirname(S), komsu)
+    if not os.path.exists(yol):
+        continue
+    nc = json.load(open(yol, encoding="utf-8"))
+    if nc.get("passage_id") != PASAJ:
+        continue
+    nc_ev = {i.get("evidence") for i in nc["items"]}
+    for it in items:
+        if it.get("evidence") and it["evidence"] in nc_ev:
+            uyari.append("%d: %s ile ayni kanit cumlesi" % (it["number"], komsu))
 
 print("dagilim:", dict(say))
 print("cevap sirasi:", cevaplar)

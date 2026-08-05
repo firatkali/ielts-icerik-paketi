@@ -4513,3 +4513,87 @@ gelişimini** hedefleyecek biçimde yeniden yazıldı.
 - **DURUM.txt / ilerleme.txt elle güncellenmedi** (sayaç dosyalarını `tools/calistir.py`
   kendi commit'iyle yazıyor).
 - Atlanan/sorun: yok. Sıradaki iş **2. çalıştırma: AC2 (pasaj A04, soru 7–13)**.
+
+## FABLE5-40 (2. çalıştırma: AC2 — doğru / yanlış / verilmemiş, 7 soru)
+
+- Tarih: 2026-08-05
+- Depo kontrolü: `content/reading/tests/AC1/true-false-not-given.json` vardı (1. paket
+  bitmiş), AC2–AC4, GT1–GT2 ve iki alıştırma dosyası yoktu. Çalıştırma listesindeki ilk
+  üretilmemiş paket **2 — AC2** idi, o yapıldı; ötekilere dokunulmadı.
+- Çıktı: `content/reading/tests/AC2/true-false-not-given.json` — **7 soru (7–13)**,
+  pasaj `A04` ("A Tiny Moon That Voyager Never Saw"), `question_type`
+  `true_false_not_given`, `practice: false`, kutu aralığı yönergede **7-13** yazılı.
+
+### Sorular, cevaplar ve dayanak
+
+| No | Cevap | Nereye dayanıyor | Test edilen nokta |
+|---|---|---|---|
+| 7 | TRUE | B/3 | sınırlı teleskop süresi için dünya çapında rekabet |
+| 8 | FALSE | D/2 | yerinde oluşum / uzaktan yakalanma karşıtlığı |
+| 9 | NOT GIVEN | — (konu E) | Miranda'nın beş büyük uydunun en küçüğü olup olmadığı |
+| 10 | TRUE | E/3 | çok sayıda yakın uyduyu izlemenin uzmanlar için bile zor olması |
+| 11 | TRUE | F/3 | yer tabanlı teleskopların da uyduyu seçememesi |
+| 12 | FALSE | G/2 | "başka hiçbir gezegen bu kadar iç uyduya sahip değil" olumsuzlaması |
+| 13 | NOT GIVEN | — (konu H) | bir yıl içinde yayına başvurma niyeti |
+
+- Dağılım **3 TRUE · 2 FALSE · 2 NOT GIVEN**, sıra `T · F · NG · T · T · F · NG`:
+  hiçbir şık yarıyı geçmiyor, ardışık üç soru aynı cevap değil.
+- **Sıra kuralı:** TRUE/FALSE kanıtları B→D→E→F→G artan sırada, iki NOT GIVEN sorusu
+  da konunun geçtiği yere (E ve H) oturuyor. Sorular yedi paragrafa yayıldı.
+- **A04'ün öteki paketiyle çakışma sıfır — bu pasajda kritik kısıttı:** aynı pasajı
+  kullanan `flow-chart-completion` (soru 1–6) B/2, C/1, C/2, D/1, E/1 ve E/2
+  cümlelerini kanıt almış; bu paket bilerek **yalnızca B/3, D/2, E/3, F/3, G/2**
+  cümlelerinden kuruldu (betikle karşılaştırıldı, kesişim boş). C paragrafı bu yüzden
+  hiç kullanılmadı — iki cümlesi de akış şemasınca tüketilmişti.
+
+### NOT GIVEN gerekçeleri (üç şart)
+
+- **Soru 9:** konu E paragrafında var (beş büyük uydu adlarıyla sayılıyor); çürüten
+  cümle yok (beşlinin kendi içindeki boyut sıralaması hiçbir yerde verilmiyor);
+  doğrulayan cümle de yok — E'deki "five largest" ifadesi beşliyi **iç uydularla**
+  kıyaslıyor, kendi aralarında sıralamıyor; C'deki boyut tartışması yalnızca yeni
+  uyduya ait. (Gerçek dünyada doğru bir önerme ama pasaj söylemiyor — NOT GIVEN'ın
+  tam tanımı.)
+- **Soru 13:** konu H paragrafında var ("remains part of ongoing research rather than
+  a finished, peer-reviewed result" — yayın durumu açıkça ele alınıyor); çürüten cümle
+  yok (bir yıl içinde başvurulmayacağı söylenmiyor); doğrulayan cümle de yok ("ongoing
+  research" araştırmanın sürdüğünü söyler, yayın takvimi ya da başvuru niyeti vermez).
+  Niyet/gelecek planı = çıkarım kuralına da oturuyor.
+- "Hata A" tersine kuruldu (ikisi de "pasaj söylemiyorsa FALSE" tuzağını hedefliyor);
+  "Hata B" için soru 11 bilinçle TRUE bırakıldı (F/3'teki "any Earth-based telescope"
+  ifadesi doğrudan karşılama, çıkarım değil).
+
+### Elenen adaylar
+
+Üç adımlı test + çakışma taraması **4 aday ifadeyi eledi**, hiçbiri dosyaya girmedi:
+(1) "her pozlama yarım saatten kısaydı" (FALSE, B/2) ve (2) "çap doğrudan ölçüldü"
+(FALSE, C/2) ve (3) "yörünge daha önce bilinen iki uydunun arasında" (TRUE, D/1) —
+üçünün de kanıt cümlesi akış şeması paketince kullanılmıştı, aynı bilgiyi iki kez
+test etmemek için atıldı; (4) "Webb'in Uranüs çevresinde başka uydular bulması
+bekleniyor" — H'deki "how much ... can still remain hidden" cümlesi bunu **ima
+ettiği** için NOT GIVEN belirsizdi (üçüncü şart sağlanmıyordu). Ayrıca "S/2025 U1
+Güneş Sistemi'nin en küçük uydusudur" adayı 'one of the smallest' ile FALSE/NG
+sınırında tartışmalı kaldığı için hiç yazılmadı.
+
+### Doğrulama
+
+- `tools/_f40_kontrol.py` **genelleştirildi**: test kimliğini argüman alıyor
+  (`python tools/_f40_kontrol.py AC2`), pasajı PLAN'daki eşlemeden buluyor ve komşu
+  tamamlama paketini (note/flow-chart/table) otomatik seçip kanıt kesişimine bakıyor.
+  Sonraki çalıştırmalar (AC3, AC4) doğrudan kullanabilir.
+- AC2 için: zarf alanları, yönerge kalıbı, 7–13 dizisi, birebir `evidence` +
+  `evidence_locator.sentence` doğruluğu, FALSE'ta `contradiction_point`, NOT GIVEN'da
+  üç şartlı gerekçe, ≤20 kelime, 6 kelimelik örtüşme taraması, dağılım/ardışıklık,
+  kanıt sırası, genelleme kotası (kullanılan 0), IELTS taraması, flow-chart kesişimi
+  → **hata 0, uyarı 0**. AC1 de yeniden koşuldu (gerileme yok: hata 0, uyarı 0).
+- Kelime sayıları 9–15, hiçbiri 20'yi geçmiyor.
+- Son kontrol: yedi soru cevap anahtarına bakmadan aday gibi baştan çözüldü, yedisi de
+  anahtarla uyuştu — **son turda silinen soru yok** (elemeler yukarıda, taslak
+  aşamasında).
+- `python tools/dogrula.py` → **şema hatası 0**, `reading/test` 127 → **134**,
+  AC2 20/40 → **27/40** (kalan eksikler 14–18, 23–26, 32–35: başka promptların işi).
+  Pasaj lisansı eksik 0, görünür metinde IELTS 0, yasak kaynak 0.
+- **DURUM.txt / ilerleme.txt elle güncellenmedi** (sayaçları `tools/calistir.py` yazıyor).
+- Not: `UYARILAR.txt`'de çalıştırıcının bıraktığı "2/8 işi 3 kez denendi, sonuç
+  alınamadı" kaydı vardı; bu oturum o işi tamamladı, kayıt tarihçe olarak duruyor.
+- Atlanan/sorun: yok. Sıradaki iş **3. çalıştırma: AC3 (pasaj A07, soru 7–13)**.
