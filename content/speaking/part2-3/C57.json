@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "set_id": "C57",
+  "skill": "speaking",
+  "card_type": "olay",
+  "topic": "Finding useful information online",
+  "topic_tr": "İnternette işe yarar bir bilgi bulmak",
+  "generated_by": "opus",
+  "part2": {
+    "title": "Describe a time when you found useful information on the internet.",
+    "bullets": [
+      "what you were looking for",
+      "how you searched for it",
+      "what you found in the end"
+    ],
+    "closing": "and explain how that information helped you.",
+    "preparation_seconds": 60,
+    "speaking_seconds": [90, 120],
+    "follow_up": [
+      "Did you check it anywhere else?",
+      "How long did the search take?"
+    ],
+    "useful_language": ["track something down", "narrow down the search", "come across", "at my fingertips"]
+  },
+  "part3": {
+    "items": [
+      { "number": 1, "prompt": "How can people tell whether information they find online is reliable?",
+        "focus": "genel açıklama", "difficulty": "medium" },
+      { "number": 2, "prompt": "Do people trust printed sources more than material published online?",
+        "focus": "karşılaştırma", "difficulty": "medium" },
+      { "number": 3, "prompt": "Should schools spend more time teaching pupils to check their sources?",
+        "focus": "öneri / görüş", "difficulty": "hard" }
+    ],
+    "useful_language": ["cross-check the facts", "a reliable source", "take it at face value"]
+  }
+}

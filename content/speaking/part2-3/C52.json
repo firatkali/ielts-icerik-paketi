@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "set_id": "C52",
+  "skill": "speaking",
+  "card_type": "nesne",
+  "topic": "A bag you use often",
+  "topic_tr": "Sık kullandığınız bir çanta",
+  "generated_by": "opus",
+  "part2": {
+    "title": "Describe a bag that you use very often.",
+    "bullets": [
+      "what the bag looks like",
+      "when you started using it",
+      "what you usually keep in it"
+    ],
+    "closing": "and explain why you use this bag so often.",
+    "preparation_seconds": 60,
+    "speaking_seconds": [90, 120],
+    "follow_up": [
+      "Would you choose the same one again?",
+      "How long do bags like this usually last?"
+    ],
+    "useful_language": ["hard-wearing", "roomy enough for", "sling it over my shoulder", "day in, day out"]
+  },
+  "part3": {
+    "items": [
+      { "number": 1, "prompt": "Why are people turning to reusable items instead of disposable ones?",
+        "focus": "genel açıklama", "difficulty": "medium" },
+      { "number": 2, "prompt": "Are cheap goods replaced often worse value than costly ones that last?",
+        "focus": "karşılaştırma", "difficulty": "medium" },
+      { "number": 3, "prompt": "How could the waste created by everyday products be reduced in future?",
+        "focus": "gelecek / görüş", "difficulty": "hard" }
+    ],
+    "useful_language": ["a throwaway culture", "cut down on waste", "built to last"]
+  }
+}

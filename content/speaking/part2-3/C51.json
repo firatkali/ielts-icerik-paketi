@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "set_id": "C51",
+  "skill": "speaking",
+  "card_type": "yer",
+  "topic": "A place that is good for children",
+  "topic_tr": "Çocuklar için iyi olan bir yer",
+  "generated_by": "opus",
+  "part2": {
+    "title": "Describe a place in your area that is good for children.",
+    "bullets": [
+      "where this place is",
+      "what children can do there",
+      "who usually takes them"
+    ],
+    "closing": "and explain why this place suits children so well.",
+    "preparation_seconds": 60,
+    "speaking_seconds": [90, 120],
+    "follow_up": [
+      "Were there places like this when you were small?",
+      "Is it free to use?"
+    ],
+    "useful_language": ["safe and well kept", "plenty to keep them busy", "within easy reach", "let off steam"]
+  },
+  "part3": {
+    "items": [
+      { "number": 1, "prompt": "What do children gain from playing outside rather than at home?",
+        "focus": "genel açıklama", "difficulty": "medium" },
+      { "number": 2, "prompt": "Are towns better places for children now than they were in the past?",
+        "focus": "karşılaştırma", "difficulty": "medium" },
+      { "number": 3, "prompt": "Who should pay for facilities that only a small part of a town uses?",
+        "focus": "öneri / görüş", "difficulty": "hard" }
+    ],
+    "useful_language": ["free of charge", "public funding", "cater for families"]
+  }
+}

@@ -3596,3 +3596,100 @@ okla verildi ki "merdivenin başında sağda" ifadesi tek anlama gelsin.
   **B paketi, oturum 4 (son part2-3 oturumu)** — `content/speaking/part2-3/` altına
   `C46`–`C60`: 15 kart (kişi 3 · yer 3 · nesne 3 · olay 4 · soyut 2) + kart başına
   3 tartışma sorusu = 60 birim.
+
+## OPUS5-30 (8. çalıştırma: konuşma 2.+3. bölüm — oturum 4, 15 kart + 45 tartışma sorusu)
+
+- Tarih: 2026-08-05
+- Depo kontrolü: `content/speaking/part1/` **T01–T20 tam** (200 soru), `content/speaking/part2-3/`
+  altında **C01–C45 vardı**, `content/writing/` altındaki üç klasör hâlâ **boş**. Çalıştırma
+  listesindeki sıradaki bitmemiş paket **B paketi, oturum 4 (son part2-3 oturumu)** idi, o
+  yapıldı; kullanıcının tanımı ("8. çalıştırma") depo durumuyla **birebir uyuştu**. Var olan
+  hiçbir dosyaya dokunulmadı. **60 birim** üretildi (15 kart + 45 soru), hedefle birebir aynı.
+- Üretilen dosyalar — `content/speaking/part2-3/C46.json` … `C60.json`:
+  - **kişi (3):** C46 sorun çözmede iyi olan biri · C50 başka bir dili iyi konuşan biri ·
+    C54 ilginç bir işi olan biri
+  - **yer (3):** C47 sık yürüdüğünüz bir sokak · C51 çocuklar için iyi olan bir yer ·
+    C55 hava kötüyken gittiğiniz bir yer
+  - **nesne (3):** C48 yakınlarda alıp memnun kaldığınız bir şey · C52 sık kullandığınız bir
+    çanta · C56 evde değiştirmek istediğiniz bir eşya
+  - **olay/deneyim (4):** C49 bir grup önünde konuşmak · C53 başkası için bir şeye göz kulak
+    olmak · C57 internette işe yarar bir bilgi bulmak · C58 başkalarıyla bir şeyi kutlamak
+  - **soyut (2):** C59 yerel bir haber · C60 yakın gelecek için bir plan
+- **KULLANILAN KART KONULARI (bu oturum):** Someone you know who is good at solving problems ·
+  A street that you often walk along · Something you bought recently that you are pleased with ·
+  A time when you had to speak in front of a group of people · Someone you know who speaks
+  another language well · A place in your area that is good for children · A bag that you use
+  very often · A time when you looked after something for another person · Someone you know who
+  has an interesting job · A place you like to go to when the weather is bad · Something in your
+  home that you would like to replace · A time when you found useful information on the
+  internet · An occasion when you celebrated something with other people · A piece of local news
+  that people in your area talked about · A plan you have made for the near future.
+- **B PAKETİ KAPANDI: C01–C60 tamam, 60 kart + 180 tartışma sorusu = 240 birim.** Kart türü
+  kotası hedefle birebir tuttu: **kişi 12 · yer 12 · nesne 12 · olay 16 · soyut 8** (denetim
+  scripti 60 dosyanın tamamı üzerinden saydı). Konuşma bölümü tümüyle bitti: part 1 200 +
+  part2-3 240 = **440 birim**. Kart konularının tam listesi için 5.–8. çalıştırma notlarına bak.
+- **Tekrar kaçınma üç eksende yapıldı:** (1) C01–C45'teki 45 kart konusundan hiçbiri
+  tekrarlanmadı — yakın duran eksenler bilinçle ayrıştırıldı: C09 "taşınan küçük eşya" /
+  C22 "uzun süredir sahip olunan" / C37 "mobilya" varken C52 **çanta** (kullanım sıklığı ekseni)
+  ve C56 **değiştirilmek istenen eşya** (eskime ekseni) seçildi; C23 "ödünç alınan şey" varken
+  C53 **başkasının eşyasına bakmak** sorumluluk eksenine kuruldu; C16 "iyi anlatan kişi" varken
+  C46 **sorun çözen kişi** ve C54 **ilginç işi olan kişi** farklı niteliklere bakıyor; C29
+  "öğrenilmek istenen beceri" varken C50 **başkasının dil becerisi** (kişi kartı) ayrı duruyor;
+  C43 "rutin dışı bir gün" varken C58 **kutlama** ortak/toplu olay ekseninde. (2) 20 part 1
+  konusuyla çakışma önlendi: T06 hava durumu yerine **kötü havada gidilen mekân**, T14 teknoloji
+  yerine **belirli bir arama deneyimi** (C57), T09 alışveriş yerine **tek bir satın alma** (C48).
+  (3) 15 kart başlığı, 30 takip sorusu ve 45 part 3 sorusu hem kendi aralarında hem C01–C45 hem
+  de **200 part 1 sorusuyla** metin bazında karşılaştırıldı (575 metinlik havuz) — çakışma yok.
+  Part 3'te yakın duran iki soru bilerek değiştirildi: C09'un "cihazlar görevleri devralınca
+  daha az eşya taşınır mı" sorusu zaten var olduğu için C52'nin üçüncü sorusu **atık** eksenine,
+  C16'nın "bazı insanlar neden daha iyi anlatır" kalıbı var olduğu için C46'nın ilk sorusu
+  **hangi nitelikler yardımcı olur** kalıbına çevrildi.
+- **Yeni açılan part 3 eksenleri** (havuzun tekdüzeleşmemesi için bilinçli): yaya dostu şehir
+  merkezi (C47), reklamın alıcı üzerindeki etkisi (C48), topluluk önünde konuşmanın okulda
+  öğretilmesi (C49), çeviri araçları ve dil öğrenimi (C50), kamu tesislerinin finansmanı (C51),
+  tek kullanımlık ürün ve atık (C52), çocuklara sorumluluk verilmesi (C53), yok olacak meslekler
+  (C54), kaynak güvenilirliği ve doğrulama (C57), yerel gazetecilik (C59), uzun/kısa vadeli
+  planlama (C60).
+- **Şema kararı — `part` alanı yine yazılmadı** (5.–7. oturumdaki gerekçe: `tools/dogrula.py`
+  `skill == "speaking"` + `part == 1` değilse dosyayı part2-3 sayıyor). Denetim scripti alanın
+  **bulunmadığını** ayrıca doğruladı.
+- **Kart biçimi** aynı: başlık tek cümle ve `Describe …` ile başlıyor, tam **3 madde** (küçük
+  harf, noktasız), `and explain …` kapanışı, `preparation_seconds: 60`,
+  `speaking_seconds: [90, 120]`, **2 takip sorusu**, 4 `useful_language` ifadesi. Part 3'te
+  sırasıyla **genel açıklama → karşılaştırma → gelecek/görüş**, zorluk `medium · medium · hard`.
+  Altı kartta (C47, C49, C51, C53, C55, C57) üçüncü soru gelecek yerine **öneri/görüş** ekseninde
+  kuruldu — `focus` alanına `öneri / görüş` yazıldı; 6.–7. oturumdaki kararın aynısı.
+- **Kültürel tarafsızlık ve ayrıcalık varsayımı yok:** hiçbir kart para, seyahat geçmişi ya da
+  belirli bir cihaz/mülk sahipliği gerektirmiyor — C48 küçük ve ucuz bir alışverişle, C51
+  herhangi bir park/meydanla, C52 en basit bir bezle, C55 kütüphane/çarşı gibi ücretsiz bir
+  mekânla, C58 küçük bir aile buluşmasıyla anlatılabiliyor. C59 **yerel** haber istiyor, ulusal
+  siyaset gerektirmiyor. Din, alkol, siyaset, savaş, cinsellik yok; gerçek marka/kurum/kişi adı
+  yok; "IELTS" hiçbir dosyada geçmiyor. `useful_language` İngiliz İngilizcesinde
+  (`practise regularly`, `hard-wearing`, `pouring with rain`, `a false economy`, `off the cuff`).
+- Doğrulama: geçici denetim scriptiyle (`tools/_sp8_kontrol.py`, sonra silindi) JSON geçerliliği,
+  zarf alanları, `set_id` ↔ dosya adı eşleşmesi, `part` alanının olmaması, **60 kartlık kart türü
+  kotası**, başlık kalıbı (tek cümle, ≤95 karakter), madde sayısı (tam 3) ve biçimi, `closing`
+  kalıbı, süre alanları, `follow_up` sayısı ve tek soru cümlesi, `useful_language` sayısı (3–5)
+  ve dosya içi tekrar, part 3 soru sayısı/numara sırası/tek cümle/≤95 karakter/kişisellik
+  (`you`/`your`/`yourself` yasak — 45 soruda 0)/zorluk düzeni, `focus` ve `topic_tr` Türkçeliği,
+  Amerikan yazım taraması, yasak `the conversation` dizisi ve kart başlıklarının 60 dosya içinde
+  benzersizliği denetlendi. **İlk turda hata 0.**
+- `python tools/dogrula.py` → **şema hatası 0**, `speaking/part1` 200 + `speaking/part2-3`
+  **240** (60 kart × 4 birim), pasaj lisansı eksik 0, görünür metinde IELTS 0, yasak kaynak 0.
+  Rapordaki "TAM TEST BUTUNLUGU … EKSIK" satırları bu paketle ilgisiz (henüz üretilmemiş okuma/
+  dinleme soru tipleri). ⚠️ 7. oturumun uyarısı korundu: tarayıcı `the conversation` dizisini
+  yasak kaynak sayıyor, bu oturumda hiçbir metinde geçmiyor.
+- ⚠️ **Referans PDF'leri bu oturumda da açılmadı:** `poppler/pdftoppm` kurulu olmadığı için
+  `Read` PDF'leri okuyamıyor (6.–7. oturumla aynı durum), `referans/text/` klasörü hâlâ yok.
+  Kart düzeni prompt dosyasında birebir durduğu için format kaybı olmadı. **Hiçbir görev metni,
+  soru ya da örnek cevap kopyalanmadı.** ⚠️ **Sıradaki oturum (9.) C paketine, yani Academic
+  1. göreve geçiyor** — orada band puanlı örnek cevap PDF'leri işe yarardı ama poppler olmadan
+  açılamayacak; gerekirse önce `referans/text/` altına metin çıkarımı yapılmalı, olmazsa prompt
+  dosyasındaki şema ve kurallar tek başına yeterli.
+- **DURUM.txt / ilerleme.txt elle güncellenmedi** (4.–7. oturumdaki gerekçe geçerli; sayaç
+  dosyalarını `tools/calistir.py` kendi commit'iyle yazıyor).
+- Atlanan/sorun: yok. **OPUS5-30'da 16 paketten 8'i tamam (440/550 birim).** Sıradaki iş
+  **C paketi, oturum 1** — `content/writing/academic-task1/` altına `AT01`–`AT10`: 10 görev.
+  30 görevlik görsel türü kotası (çizgi 6 · sütun 6 · pasta 4 · tablo 4 · süreç 4 · harita 3 ·
+  karma 3) üç oturuma bölüneceği için ilk oturumda dengeli bir kesit alınmalı, örneğin
+  çizgi 2 · sütun 2 · pasta 2 · tablo 1 · süreç 1 · harita 1 · karma 1.

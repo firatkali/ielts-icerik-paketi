@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "set_id": "C48",
+  "skill": "speaking",
+  "card_type": "nesne",
+  "topic": "Something you bought recently",
+  "topic_tr": "Yakınlarda aldığınız memnun olduğunuz bir şey",
+  "generated_by": "opus",
+  "part2": {
+    "title": "Describe something you bought recently that you are pleased with.",
+    "bullets": [
+      "what you bought",
+      "why you decided to buy it",
+      "how you use it"
+    ],
+    "closing": "and explain why you are so pleased with it.",
+    "preparation_seconds": 60,
+    "speaking_seconds": [90, 120],
+    "follow_up": [
+      "Did anyone recommend it to you?",
+      "Would you choose something similar again?"
+    ],
+    "useful_language": ["good value for money", "on the spur of the moment", "it has come in handy", "well worth it"]
+  },
+  "part3": {
+    "items": [
+      { "number": 1, "prompt": "Why do people often regret things they buy in a hurry?",
+        "focus": "genel açıklama", "difficulty": "medium" },
+      { "number": 2, "prompt": "Are reviews written by strangers more useful than advice from friends?",
+        "focus": "karşılaştırma", "difficulty": "medium" },
+      { "number": 3, "prompt": "Will advertising have less influence on shoppers in the years ahead?",
+        "focus": "gelecek / görüş", "difficulty": "hard" }
+    ],
+    "useful_language": ["impulse buying", "do some research first", "weigh up the options"]
+  }
+}

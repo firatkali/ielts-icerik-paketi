@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "set_id": "C46",
+  "skill": "speaking",
+  "card_type": "kişi",
+  "topic": "Someone good at solving problems",
+  "topic_tr": "Sorun çözmede iyi olan biri",
+  "generated_by": "opus",
+  "part2": {
+    "title": "Describe someone you know who is good at solving problems.",
+    "bullets": [
+      "who this person is",
+      "what kinds of problems they deal with",
+      "how they go about solving them"
+    ],
+    "closing": "and explain why you think this person is so good at it.",
+    "preparation_seconds": 60,
+    "speaking_seconds": [90, 120],
+    "follow_up": [
+      "Has this person ever sorted out a problem for you?",
+      "Would other people describe them in the same way?"
+    ],
+    "useful_language": ["get to the bottom of", "keep a cool head", "think a problem through", "a practical streak"]
+  },
+  "part3": {
+    "items": [
+      { "number": 1, "prompt": "What qualities help a person deal with unexpected difficulties?",
+        "focus": "genel açıklama", "difficulty": "medium" },
+      { "number": 2, "prompt": "Are experienced workers better at handling difficulties than newer ones?",
+        "focus": "karşılaştırma", "difficulty": "medium" },
+      { "number": 3, "prompt": "How might everyday problem-solving change as machines take on more tasks?",
+        "focus": "gelecek / görüş", "difficulty": "hard" }
+    ],
+    "useful_language": ["tackle an issue", "a step-by-step approach", "by trial and error"]
+  }
+}

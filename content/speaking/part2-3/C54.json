@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "set_id": "C54",
+  "skill": "speaking",
+  "card_type": "kişi",
+  "topic": "Someone with an interesting job",
+  "topic_tr": "İlginç bir işi olan biri",
+  "generated_by": "opus",
+  "part2": {
+    "title": "Describe someone you know who has an interesting job.",
+    "bullets": [
+      "who this person is",
+      "what their job involves",
+      "how they came to do it"
+    ],
+    "closing": "and explain why you find their job so interesting.",
+    "preparation_seconds": 60,
+    "speaking_seconds": [90, 120],
+    "follow_up": [
+      "Would that kind of work suit you?",
+      "Do they enjoy talking about it?"
+    ],
+    "useful_language": ["no two days are the same", "hands-on work", "work their way up", "it takes years of training"]
+  },
+  "part3": {
+    "items": [
+      { "number": 1, "prompt": "What makes a job interesting rather than simply well paid?",
+        "focus": "genel açıklama", "difficulty": "medium" },
+      { "number": 2, "prompt": "Do people choose their work for the same reasons as a generation ago?",
+        "focus": "karşılaştırma", "difficulty": "medium" },
+      { "number": 3, "prompt": "Which kinds of work are likely to disappear over the next thirty years?",
+        "focus": "gelecek / görüş", "difficulty": "hard" }
+    ],
+    "useful_language": ["job satisfaction", "a steady income", "career prospects"]
+  }
+}

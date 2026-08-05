@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "set_id": "C55",
+  "skill": "speaking",
+  "card_type": "yer",
+  "topic": "A place for bad weather",
+  "topic_tr": "Hava kötüyken gittiğiniz bir yer",
+  "generated_by": "opus",
+  "part2": {
+    "title": "Describe a place you like to go to when the weather is bad.",
+    "bullets": [
+      "where this place is",
+      "how often you go there",
+      "what you do while you are there"
+    ],
+    "closing": "and explain why it is a good place to be in poor weather.",
+    "preparation_seconds": 60,
+    "speaking_seconds": [90, 120],
+    "follow_up": [
+      "Do many other people go there as well?",
+      "Is it easy to reach on a wet day?"
+    ],
+    "useful_language": ["under cover", "warm and dry", "pouring with rain", "somewhere to sit for a while"]
+  },
+  "part3": {
+    "items": [
+      { "number": 1, "prompt": "How does poor weather change the way people spend their free time?",
+        "focus": "genel açıklama", "difficulty": "medium" },
+      { "number": 2, "prompt": "Are indoor public places busier in winter than in the warmer months?",
+        "focus": "karşılaştırma", "difficulty": "medium" },
+      { "number": 3, "prompt": "Should towns provide more free indoor spaces where people can gather?",
+        "focus": "öneri / görüş", "difficulty": "hard" }
+    ],
+    "useful_language": ["stuck indoors", "a change of scene", "public facilities"]
+  }
+}

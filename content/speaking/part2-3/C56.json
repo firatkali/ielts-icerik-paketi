@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "set_id": "C56",
+  "skill": "speaking",
+  "card_type": "nesne",
+  "topic": "Something you would like to replace",
+  "topic_tr": "Değiştirmek istediğiniz bir eşya",
+  "generated_by": "opus",
+  "part2": {
+    "title": "Describe something in your home that you would like to replace.",
+    "bullets": [
+      "what the item is",
+      "how long it has been there",
+      "what is wrong with it"
+    ],
+    "closing": "and explain what you would like to have instead of it.",
+    "preparation_seconds": 60,
+    "speaking_seconds": [90, 120],
+    "follow_up": [
+      "Has anyone tried to repair it?",
+      "Would anyone else at home miss it?"
+    ],
+    "useful_language": ["past its best", "on its last legs", "make do with", "worn out"]
+  },
+  "part3": {
+    "items": [
+      { "number": 1, "prompt": "Why do people put off replacing things that no longer work properly?",
+        "focus": "genel açıklama", "difficulty": "medium" },
+      { "number": 2, "prompt": "Is the better-made option usually cheaper over a long period?",
+        "focus": "karşılaştırma", "difficulty": "medium" },
+      { "number": 3, "prompt": "Will homes need fewer separate appliances in the decades ahead?",
+        "focus": "gelecek / görüş", "difficulty": "hard" }
+    ],
+    "useful_language": ["a false economy", "wear and tear", "get plenty of use out of it"]
+  }
+}

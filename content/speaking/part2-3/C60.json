@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "set_id": "C60",
+  "skill": "speaking",
+  "card_type": "soyut",
+  "topic": "A plan for the near future",
+  "topic_tr": "Yakın gelecek için bir plan",
+  "generated_by": "opus",
+  "part2": {
+    "title": "Describe a plan you have made for the near future.",
+    "bullets": [
+      "what the plan is",
+      "when you decided on it",
+      "what you need to do to carry it out"
+    ],
+    "closing": "and explain why this plan matters to you.",
+    "preparation_seconds": 60,
+    "speaking_seconds": [90, 120],
+    "follow_up": [
+      "Have you told anyone else about it?",
+      "What might get in the way of it?"
+    ],
+    "useful_language": ["set myself a target", "carry out a plan", "in the near future", "take it step by step"]
+  },
+  "part3": {
+    "items": [
+      { "number": 1, "prompt": "Why do some people plan ahead while others take each day as it comes?",
+        "focus": "genel açıklama", "difficulty": "medium" },
+      { "number": 2, "prompt": "Are long-term plans more useful to people than short-term ones?",
+        "focus": "karşılaştırma", "difficulty": "medium" },
+      { "number": 3, "prompt": "Will planning far ahead become harder as patterns of work change?",
+        "focus": "gelecek / görüş", "difficulty": "hard" }
+    ],
+    "useful_language": ["set priorities", "stick to a plan", "leave room for the unexpected"]
+  }
+}
