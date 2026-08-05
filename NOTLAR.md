@@ -5248,3 +5248,88 @@ GT2 22 ve GT2 23–24'te birer kez, GT1 23–24 ve GT2 21'de hiç.
   aşamasında).
 - **DURUM.txt / ilerleme.txt elle güncellenmedi** (sayaçları `tools/calistir.py` yazıyor).
 - Atlanan/sorun: yok. Sıradaki paket **4. çalıştırma: alıştırma (15 soru)**.
+
+## FABLE5-41 (4. çalıştırma: çoktan seçmeli alıştırması, 15 soru — **paket tamam**)
+
+Üretilen: `content/reading/practice/multiple-choice.json`. Yerleşim tam testlerdeki
+mantığın alıştırma karşılığı: **9 tek cevaplı (A–D) + 3 çift cevaplı (A–G)**, çift
+cevaplı soru iki numara kapladığı için sayılan toplam **15** (`tools/dogrula.py`
+select_count=2 olan soruyu 2 sayıyor; `reading/practice` 110 → 125).
+
+Numaralar: 1, 2, **3–4**, 5, 6, **7–8**, **9–10**, 11, 12, 13, 14, 15.
+
+### Pasaj seçimi
+
+Bir pasajdan en fazla 4 soru kuralıyla dört pasaj gerekiyordu. Kullanılmayacaklar:
+
+- **A03, A06, A09, A12** — tam testlerin çoktan seçmelisi zaten bu pasajlardan (1.–3.
+  çalıştırma). Aynı pasajdan ikinci bir çoktan seçmeli seti kurulmadı.
+- **A01, A10** — ilk taslak bunlarla başladı, sonra bırakıldı: her ikisinde de tam
+  testte hem tamamlama (6 soru) hem doğru/yanlış (7 soru) paketi var, üstüne alıştırma
+  soruları biniyor (A01: 21, A10: 21 hedeflenmiş cümle). Geriye çeldirici kurmaya
+  yetecek dokunulmamış cümle kalmıyordu.
+
+Seçilenler ve doyma durumu: **A02, A05, A08, A11** (her birinde tam testten yalnızca
+4 cümle tamamlama sorusu var; başlık/özellik eşleştirme paketleri henüz üretilmedi).
+
+| Soru | Pasaj | Kanıt | Neden boş |
+|---|---|---|---|
+| 1 | A02 | B/1 | B/2 alıştırma doğru-yanlış 1'de, B/3 alıştırma cümle 4'te; B/1 hiç kullanılmamış |
+| 2 | A02 | C/4 | C/2 AC1 cümle 19'da, C/3 alıştırma doğru-yanlış 2'de; C/4 hiç kullanılmamış |
+| 3–4 | A02 | H/3 | H/2 (dear enemy) AC1 cümle 22'de; H/3 hiç kullanılmamış |
+| 5 | A05 | A/3 | A/2 (1952) alıştırma cümle 13'te; A/3 hiç kullanılmamış |
+| 6 | A05 | B/2 | B/1 ve B/3 alıştırma doğru-yanlış 5–6'da; B/2 hiç kullanılmamış |
+| 7–8 | A05 | F/2 + G/3 | F/2'nin "transitional stage" kısmı alıştırma cümle 14'te, G/2 AC2 cümle 22'de; spelt ipucu ve G/3 hiç kullanılmamış |
+| 9–10 | A08 | A/1 + B/3 | A/2 alıştırma not 7'de, B/1 alıştırma doğru-yanlış 9'da, B/2 AC3 cümle 19'da; A/1 ve B/3 hiç kullanılmamış |
+| 11 | A08 | C/3 | C/2 AC3 cümle 20'de; C/3 hiç kullanılmamış |
+| 12 | A08 | E/2–3 | E paragrafı hiçbir pakette kullanılmamış |
+| 13 | A11 | B/3 | B/2 (crossover) alıştırma özet 6'da; B/3 hiç kullanılmamış |
+| 14 | A11 | C/2 | C/1 AC4 cümle 19'da, C/3 alıştırma bilgi eşleştirmede; C/2 hiç kullanılmamış |
+| 15 | A11 | H/2 | H/1 AC4 cümle 22'de, H/3 alıştırma evet-hayır 15'te; H/2 hiç kullanılmamış |
+
+### Sıra kuralı
+
+Her pasaj kendi içinde metin sırasını izliyor: A02 → B, C, H · A05 → A, B, F–G ·
+A08 → A–B, C, E · A11 → B, C, H. Çift cevaplı sorular grubun başına ya da sonuna
+zorlanmadı, kanıtın geçtiği yere kondu (A08'de 9–10 bu yüzden en başta).
+
+### Çeldiriciler
+
+Taslakta elenen/değiştirilenler (savunulabilirlik testi, 3):
+
+1. Soru 15'te "çalışmayı daha büyük bir grupla yinelemek" çeldiricisi atıldı — pasaj
+   örneklemin küçük ve tek kurumdan olduğunu kendisi söylüyor, dolayısıyla bu şıkkı
+   seçen aday **haklı olabilirdi**. Yerine etkinin süresini ölçmek (cazip ama yok) kondu.
+2. A01 taslağında "aynı ağırlıkta benzer bir nesneyle değiştirildi" çeldirisi atılmıştı —
+   küp kaldırılınca traktör lastiği platform olarak kullanılıyor, yani **savunulabilirdi**.
+   (Soru A01 ile birlikte tamamen düştü.)
+3. Soru 9–10'da "yamaçları yüzyıllardır dengeliydi" çeldirisi atıldı — G paragrafı
+   "önceden dengeli yamaçlar" diyor, süre verilmemiş olsa da şık kısmen **doğrulanıyordu**.
+   Yerine küçük bir madenci kasabası (cazip ama yok) kondu.
+
+"Pasajda geçmiyor" gerekçesi soru başına en fazla bir kez kullanıldı; soru 5 ve 11'de
+hiç kullanılmadı, kalan on soruda birer kez. Çeldirici türü çeşitliliği tek cevaplılarda
+3, çift cevaplılarda 4 (betik sayıyor).
+
+### Doğrulama
+
+- On iki sorunun on ikisinde `evidence` pasajda **birebir** bulundu
+  (`tools/_f41_alistirma_kontrol.py`, `passages/academic/` tam metnine karşı; betik
+  depoda duruyor).
+- Her çeldirici için `distractor_analysis` dolu; harf kümesi doğru cevap hariç bütün
+  seçeneklerle eşleşiyor. Seçenek sayısı (4 / 7), `select_count`–cevap sayısı uyumu ve
+  cevapların alfabetik sırası da betikte kontrol ediliyor.
+- Seçenek uzunlukları dengeli: en uzun ≤ 2 × en kısa (uyarı 0).
+- Kök + seçenekler: en yüksek 55 kelime (soru 3–4), en düşük 34 (soru 15); sınır 60.
+- Hiçbir seçenek pasaj metninde birebir geçmiyor (betik kontrol ediyor).
+- Doğru cevap harfleri: B, A, {C,F}, B, D, {C,F}, {B,E}, D, C, A, C, D — üst üste ortak
+  harf yok (betik kontrol ediyor).
+- Ölçülen beceriler ayrışıyor: ana fikir (5), terim anlamı (6), yöntem ayrıntısı (1, 11),
+  bir işlemin amacı (2, 13, 14), yazarın amacı (12), çıkarım/kapsam (3–4, 7–8, 9–10, 15).
+- `python tools/dogrula.py` → **şema hatası 0**, `reading/practice` 110 → **125**.
+  Pasaj lisansı eksik 0, görünür metinde IELTS 0, yasak kaynak 0.
+- Son kontrol: on iki soru da cevap anahtarına bakılmadan aday gibi baştan çözüldü, on
+  ikisi de anahtarla uyuştu — **son turda silinen soru yok** (elemeler yukarıda, taslak
+  aşamasında).
+- **DURUM.txt / ilerleme.txt elle güncellenmedi** (sayaçları `tools/calistir.py` yazıyor).
+- Atlanan/sorun: yok. **FABLE5-41 tamam** (24 tam test + 15 alıştırma = 39 soru).

@@ -1,0 +1,294 @@
+{
+  "schema_version": "1.0",
+  "set_id": "practice-multiple-choice",
+  "skill": "reading",
+  "module": "academic",
+  "test_id": null,
+  "practice": true,
+  "passage_id": null,
+  "question_type": "multiple_choice",
+  "generated_by": "fable",
+  "instructions": "Choose the correct letter, A, B, C or D.\nWrite the correct letter in boxes 1-15 on your answer sheet.\n\nWhere a question covers two boxes, choose TWO letters, A-G.\nWrite the correct letters in those two boxes on your answer sheet.",
+  "stem_block": "Questions 1-4 refer to Passage A02 - How Octopuses Tell Friend from Stranger\nQuestions 5-8 refer to Passage A05 - The Wheat That Was Ahead of Its Time\nQuestions 9-12 refer to Passage A08 - An Earthquake Writes Its Story Across a Glacier\nQuestions 13-15 refer to Passage A11 - Why a Walk in a Snowy Forest Calms the Mind",
+  "items": [
+    {
+      "number": 1,
+      "passage_id": "A02",
+      "select_count": 1,
+      "prompt": "How were the octopuses matched into pairs?",
+      "options": [
+        { "letter": "A", "text": "Each pair held one male and one female." },
+        { "letter": "B", "text": "The two animals were close in weight." },
+        { "letter": "C", "text": "Animals caught in the same season went together." },
+        { "letter": "D", "text": "Neighbours from the same stretch of seabed were paired." }
+      ],
+      "answer": ["B"],
+      "evidence": "The researchers collected sixty octopuses from the Bay of Naples over two summer seasons and formed twenty-four pairs, each matched so that the two animals differed in weight by no more than fifteen per cent.",
+      "evidence_locator": { "paragraph": "B", "sentence": 1 },
+      "distractor_analysis": {
+        "A": "Yakın ama eksik — pasaj altmış hayvanın kırk ikisinin erkek, on sekizinin dişi olduğunu söylüyor; bu sayılar her çiftin bir erkek bir dişiden oluşmasına zaten izin vermez ve eşleştirme ölçütü olarak yalnızca ağırlık veriliyor.",
+        "C": "Cazip ama yok — hayvanların iki yaz mevsimi boyunca toplandığı söyleniyor, ama toplanma mevsiminin eşleştirmede bir rol oynadığına dair hiçbir ifade yok.",
+        "D": "Yer değiştirme — komşuluk, H paragrafında doğadaki inlerin birbirine yakınlığını anlatmak için kullanılıyor; laboratuvarda çiftleri kurma ölçütü olarak değil."
+      },
+      "explanation": "Paragraf B, yirmi dört çiftin her birinde iki hayvanın ağırlıkça yüzde on beşten fazla farklı olmayacak biçimde eşleştirildiğini söylüyor.",
+      "difficulty": "easy"
+    },
+    {
+      "number": 2,
+      "passage_id": "A02",
+      "select_count": 1,
+      "prompt": "What was the purpose of the three days before the animals met?",
+      "options": [
+        { "letter": "A", "text": "To see whether sight alone could shape later behaviour." },
+        { "letter": "B", "text": "To let the animals recover from being caught." },
+        { "letter": "C", "text": "To establish which animal in each pair was stronger." },
+        { "letter": "D", "text": "To test whether smell by itself mattered." }
+      ],
+      "answer": ["A"],
+      "evidence": "This stage let the researchers ask whether visual exposure alone, before any physical encounter, was enough to influence later behaviour.",
+      "evidence_locator": { "paragraph": "C", "sentence": 4 },
+      "distractor_analysis": {
+        "B": "Cazip ama yok — hayvanların körfezden toplandığı söyleniyor, ama bu üç günün bir toparlanma dönemi olduğu hiçbir yerde geçmiyor.",
+        "C": "Yer değiştirme — üstünlük sıralaması bu evrede değil, sonraki üç günlük birlikte yaşama evresinde, günde on beş dakikalık karşılaşmalar sırasında ortaya çıkıyor.",
+        "D": "Yakın ama eksik — koku pasajda tartışılıyor, ama bu evrede su hatları ayrı tutulduğu için koku bilerek dışarıda bırakılıyor; sınanan tek şey görme."
+      },
+      "explanation": "Paragraf C, bu evrenin araştırmacılara, herhangi bir fiziksel karşılaşmadan önce yalnızca görsel temasın sonraki davranışı etkilemeye yetip yetmediğini sorma imkânı verdiğini söylüyor.",
+      "difficulty": "medium"
+    },
+    {
+      "number": "3-4",
+      "passage_id": "A02",
+      "select_count": 2,
+      "prompt": "Which TWO points does the writer make about the senses behind recognition?",
+      "options": [
+        { "letter": "A", "text": "Sound carried through water is essential." },
+        { "letter": "B", "text": "Sight alone changed nothing at all." },
+        { "letter": "C", "text": "Sight and touch probably work together." },
+        { "letter": "D", "text": "Smell alone gave the sharpest results." },
+        { "letter": "E", "text": "The early stage tested touch, not sight." },
+        { "letter": "F", "text": "Chemical cues cannot yet be excluded." },
+        { "letter": "G", "text": "Taste is better understood than smell." }
+      ],
+      "answer": ["C", "F"],
+      "evidence": "Because vision alone, without touch or water-borne chemical cues, was enough to produce weaker measurable differences in the earlier acclimatisation stage, the team suggests that sight and physical contact together, rather than either sense alone, most likely underlie this recognition, though they note that octopuses' sense of smell and taste remains too poorly understood to rule out a contribution from chemical signals as well.",
+      "evidence_locator": { "paragraph": "H", "sentence": 3 },
+      "distractor_analysis": {
+        "A": "Cazip ama yok — su içinde taşınan seslerden hiç söz edilmiyor; deniz hayvanları için makul göründüğü için seçilebilir.",
+        "B": "Kapsam kaydırma — pasaj görmenin tek başına daha zayıf ama yine de ölçülebilir farklar ürettiğini söylüyor; şık bunu hiçbir fark yok diye abartıyor.",
+        "D": "Yer değiştirme — 'tek başına' denemesi görme için yapılıyor; pasaj kokunun tek başına ne yaptığını ölçmüyor, üstelik koku ve tat duyusunun yeterince bilinmediğini söylüyor.",
+        "E": "Yer değiştirme — ilk evrede şeffaf bölme yalnızca görmeye izin veriyor, dokunma ve koku dışarıda bırakılıyor; şık iki duyunun yerini değiştiriyor.",
+        "G": "Yakın ama eksik — pasaj tat ve kokuyu birlikte, yeterince bilinmeyen duyular olarak anıyor; ikisi arasında böyle bir karşılaştırma yapmıyor."
+      },
+      "explanation": "Paragraf H, görme ile fiziksel temasın birlikte bu tanımanın temelinde yattığını söylüyor ve kimyasal sinyallerin katkısının dışlanamayacağını ekliyor.",
+      "difficulty": "hard"
+    },
+    {
+      "number": 5,
+      "passage_id": "A05",
+      "select_count": 1,
+      "prompt": "What does the writer say made the site stand out?",
+      "options": [
+        { "letter": "A", "text": "The length of the excavation carried out there." },
+        { "letter": "B", "text": "Its size, at a time of small mobile groups." },
+        { "letter": "C", "text": "The state of the plant remains found there." },
+        { "letter": "D", "text": "Its place on a route used for grain trade." }
+      ],
+      "answer": ["B"],
+      "evidence": "What set the site apart was its scale: at a time when most human communities were still small and mobile, Çatalhöyük had grown into a dense, town-like settlement, sitting on routes that would later carry farming practices onward into Europe.",
+      "evidence_locator": { "paragraph": "A", "sentence": 3 },
+      "distractor_analysis": {
+        "A": "Yakın ama eksik — kazının 1961-1965 arasında ayrıntılı biçimde yapıldığı söyleniyor, ama siti çağdaşlarından ayıran şey olarak kazı süresi değil yerleşimin ölçeği gösteriliyor.",
+        "C": "Yer değiştirme — tahılların benzer yaştaki başka sitlerden daha iyi korunmuş olması B paragrafında buluntular için söyleniyor; yerleşimin kendisini ayırt eden özellik olarak değil.",
+        "D": "Kapsam kaydırma — pasaj sitin, tarım uygulamalarını sonradan Avrupa'ya taşıyacak yollar üzerinde bulunduğunu söylüyor; şık bunu tahıl ticaretine daraltıyor."
+      },
+      "explanation": "Paragraf A, siti ayıran şeyin ölçeği olduğunu; çoğu insan topluluğu hâlâ küçük ve göçerken Çatalhöyük'ün yoğun, kasabaya benzer bir yerleşime dönüştüğünü söylüyor.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 6,
+      "passage_id": "A05",
+      "select_count": 1,
+      "prompt": "What distinguishes hexaploid wheat from the simpler wheats?",
+      "options": [
+        { "letter": "A", "text": "It survives burning better than other kinds." },
+        { "letter": "B", "text": "It can be recognised by grain shape." },
+        { "letter": "C", "text": "It ripens later than the wheats then grown." },
+        { "letter": "D", "text": "It carries more sets of chromosomes." }
+      ],
+      "answer": ["D"],
+      "evidence": "Some of these seeds looked, under the microscope, as though they belonged to hexaploid wheat, a genetically more complex form carrying six sets of chromosomes rather than the two or four sets typical of the simpler wheats usually associated with the earliest stages of farming.",
+      "evidence_locator": { "paragraph": "B", "sentence": 2 },
+      "distractor_analysis": {
+        "A": "Yer değiştirme — iyi korunmuşluk, sitten çıkan yanmış tahıllar için söyleniyor; hexaploid buğdayın bir özelliği olarak verilmiyor.",
+        "B": "Yakın ama eksik — tohumlara mikroskopla bakıldığı doğru, ama pasaj tane biçiminin bitkinin genetik kimliği için güvenilmez bir kılavuz olduğunu söylüyor; iki örnek şekle bakılarak yanlışlıkla einkorn ve emmer sayılmıştı.",
+        "C": "Cazip ama yok — olgunlaşma zamanından hiç söz edilmiyor; tarımla ilgili makul bir ayrım gibi göründüğü için seçilebilir."
+      },
+      "explanation": "Paragraf B, hexaploid buğdayın, ilk tarım evreleriyle anılan basit buğdaylardaki iki ya da dört takım yerine altı takım kromozom taşıyan, genetik olarak daha karmaşık bir biçim olduğunu söylüyor.",
+      "difficulty": "easy"
+    },
+    {
+      "number": "7-8",
+      "passage_id": "A05",
+      "select_count": 2,
+      "prompt": "Which TWO conclusions do the researchers draw from the sequences?",
+      "options": [
+        { "letter": "A", "text": "Einkorn farming began outside Turkey." },
+        { "letter": "B", "text": "Bread wheat was unknown in Europe." },
+        { "letter": "C", "text": "Hexaploid wheat may have appeared earlier." },
+        { "letter": "D", "text": "The Fertile Crescent account is disproved." },
+        { "letter": "E", "text": "Modern spelt descends directly from this wheat." },
+        { "letter": "F", "text": "A spelt-like wheat may have been present." },
+        { "letter": "G", "text": "The team examined a protein gene." }
+      ],
+      "answer": ["C", "F"],
+      "evidence": "The researchers interpret this as evidence of an early, transitional stage in the cultivation of hexaploid wheat, and note that this is the first genetic evidence hinting at the presence of a spelt-like wheat in the Neolithic Near East at all, a possibility they treat cautiously given how limited the surviving evidence is. Finding genetic traces of hexaploid wheat at Çatalhöyük this early suggests that the more advanced, six-chromosome form of wheat may have emerged sooner, and further from the traditional Fertile Crescent core, than researchers had assumed, with Çatalhöyük potentially serving as a staging point on its spread toward Europe.",
+      "evidence_locator": { "paragraph": "F", "sentence": 2 },
+      "distractor_analysis": {
+        "A": "Yer değiştirme — pasaj einkorn tarımının doğduğu yer olarak güney Türkiye'deki Karacadağ bölgesini gösteriyor; şık bu bilgiyi ülke dışına taşıyor.",
+        "B": "Cazip ama yok — ekmeklik buğday modern karşılaştırma türleri arasında, Avrupa da yayılma yönü olarak anılıyor, ama Avrupa'da bilinip bilinmediğine dair hiçbir ifade yok.",
+        "D": "Kapsam kaydırma — pasaj bulgunun standart anlatıyı karmaşıklaştırdığını söylüyor; çürüttüğünü değil.",
+        "E": "Kapsam kaydırma — eski diziler speltayı da içeren modern hexaploid biçimlere benziyor; benzerlik doğrudan soy bağı iddiasına genişletilemez.",
+        "G": "Yakın ama eksik — ekibin önemli bir buğday proteininden sorumlu gen üzerinde çalıştığı doğru, ama bu bir yöntem ayrıntısı; dizilerden çıkarılan bir sonuç değil."
+      },
+      "explanation": "Paragraf F speltaya benzer bir buğdayın Neolitik Yakın Doğu'da bulunduğuna dair ilk genetik ipucundan, paragraf G ise altı kromozomlu buğdayın sanılandan daha erken ortaya çıkmış olabileceğinden söz ediyor.",
+      "difficulty": "hard"
+    },
+    {
+      "number": "9-10",
+      "passage_id": "A08",
+      "select_count": 2,
+      "prompt": "Which TWO things does the writer say about the region struck?",
+      "options": [
+        { "letter": "A", "text": "It has a small mining town." },
+        { "letter": "B", "text": "It crosses an international border." },
+        { "letter": "C", "text": "It holds North America's highest peak." },
+        { "letter": "D", "text": "It was surveyed from the ground beforehand." },
+        { "letter": "E", "text": "Its bedrock lies under deep ice." },
+        { "letter": "F", "text": "It sits on the coast by Yakutat." },
+        { "letter": "G", "text": "It lies north-west of the rupture." }
+      ],
+      "answer": ["B", "E"],
+      "evidence": "On 6 December 2025 a magnitude 7.0 earthquake struck the St Elias Mountains, a heavily glaciated range straddling the border between the Yukon Territory in Canada and Alaska in the United States. Here, ice more than 700 metres thick in places sits on top of that bedrock.",
+      "evidence_locator": { "paragraph": "A", "sentence": 1 },
+      "distractor_analysis": {
+        "A": "Cazip ama yok — bölgede madencilikten ya da herhangi bir yerleşimden söz edilmiyor; tersine bölgenin çok seyrek nüfuslu ve neredeyse ıssız olduğu söyleniyor.",
+        "C": "Kapsam kaydırma — Mount Logan'ın Kanada'nın en yüksek zirvesi olduğu söyleniyor; şık bunu bütün Kuzey Amerika'ya genişletiyor.",
+        "D": "Yer değiştirme — yerden yapılan araştırma depremden sonra, 12 Aralık'ta gerçekleşiyor; şık bunu depremden önceye taşıyor.",
+        "F": "Yakın ama eksik — Yakutat kıyı kasabası olarak anılıyor, ama merkez üssünün ondan yaklaşık 90 kilometre kuzeydeki iç kesimde olduğu söyleniyor.",
+        "G": "Yakın ama eksik — kuzeybatı yönü, heyelanların çoğunun nerede toplandığını anlatmak için veriliyor; bölgenin fay yırtılmasına göre konumu için değil."
+      },
+      "explanation": "Paragraf A depremin, Kanada ile ABD sınırını aşan, yoğun buzul kaplı St Elias Dağları'nda olduğunu; paragraf B ise yer yer 700 metreden kalın buzun ana kayanın üstünde durduğunu söylüyor.",
+      "difficulty": "hard"
+    },
+    {
+      "number": 11,
+      "passage_id": "A08",
+      "select_count": 1,
+      "prompt": "How did analysts spot the new damage from orbit?",
+      "options": [
+        { "letter": "A", "text": "By measuring how far the bedrock had shifted." },
+        { "letter": "B", "text": "By tracking the speed of the moving glacier." },
+        { "letter": "C", "text": "By counting bright patches on a single image." },
+        { "letter": "D", "text": "By setting a later image against an earlier one." }
+      ],
+      "answer": ["D"],
+      "evidence": "By comparing an image captured on 8 December, only two days after the earthquake, with a baseline image from 26 November, before the quake, analysts could see large new patches of brightness spreading across slopes that had previously appeared smooth and dark, a direct signature of freshly broken rock and snow.",
+      "evidence_locator": { "paragraph": "C", "sentence": 3 },
+      "distractor_analysis": {
+        "A": "Yer değiştirme — yerin ne kadar kaydığını ölçmek, buzulsuz arazide kullanılan olağan yöntem; pasaj buzun ana kayayı örtmesi yüzünden burada işe yaramadığını söylüyor.",
+        "B": "Yakın ama eksik — hızla ilerleyen yan buzulun yılda 6.000 metreye varan hızı veriliyor, ama bu hız hasarın saptanmasında kullanılmıyor.",
+        "C": "Kapsam kaydırma — parlak lekeler gerçekten kırılmış kaya ve karın işareti, ama bunlar tek bir görüntüden değil, deprem öncesi görüntüyle karşılaştırmadan çıkarılıyor."
+      },
+      "explanation": "Paragraf C, 8 Aralık'ta çekilen görüntünün 26 Kasım'daki deprem öncesi görüntüyle karşılaştırıldığını ve daha önce düz ve koyu görünen yamaçlardaki yeni parlak alanların böyle ortaya çıktığını söylüyor.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 12,
+      "passage_id": "A08",
+      "select_count": 1,
+      "prompt": "Why does the writer report a researcher's reaction to the images?",
+      "options": [
+        { "letter": "A", "text": "To suggest the damage had been expected." },
+        { "letter": "B", "text": "To explain why the range is hard to reach." },
+        { "letter": "C", "text": "To show how rare a disturbance this large is." },
+        { "letter": "D", "text": "To cast doubt on the satellite pictures." }
+      ],
+      "answer": ["C"],
+      "evidence": "One researcher who had spent years monitoring the region's ice remarked that the sheer number and magnitude of the avalanches and landslides was astounding, adding that nothing comparable had been documented there before. The comment reflects how unusual it is for a single earthquake to reshape so much terrain across such a wide and largely inaccessible mountain range in a matter of seconds.",
+      "evidence_locator": { "paragraph": "E", "sentence": 2 },
+      "distractor_analysis": {
+        "A": "Cazip ama yok — böyle bir hasarın önceden beklendiğine dair hiçbir ifade yok; tersine araştırmacı benzerinin daha önce kaydedilmediğini söylüyor.",
+        "B": "Yakın ama eksik — dağ sırasının büyük ölçüde ulaşılmaz olduğu pasajda geçiyor, ama araştırmacının sözü olayın ölçeğinin sıra dışılığını vurgulamak için aktarılıyor.",
+        "D": "Yer değiştirme — kuşku uyandırmak şöyle dursun, 12 Aralık'taki yer araştırması uydu görüntülerinin gösterdiğini doğruluyor."
+      },
+      "explanation": "Paragraf E, bölgenin buzunu yıllardır izleyen bir araştırmacının çığların ve heyelanların sayısını ve büyüklüğünü şaşırtıcı bulduğunu aktarıyor ve bunun tek bir depremin bu ölçüde bir araziyi saniyeler içinde değiştirmesinin ne kadar sıra dışı olduğunu gösterdiğini söylüyor.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 13,
+      "passage_id": "A11",
+      "select_count": 1,
+      "prompt": "Why was the order of the two conditions randomised?",
+      "options": [
+        { "letter": "A", "text": "To rule out gains from being tested twice." },
+        { "letter": "B", "text": "To let each person be compared with themselves." },
+        { "letter": "C", "text": "To balance men and women across the groups." },
+        { "letter": "D", "text": "To keep participants unaware of the aim." }
+      ],
+      "answer": ["A"],
+      "evidence": "Randomly assigning the order in which each group encountered the two conditions also helped guard against the possibility that simply being tested a second time, regardless of environment, might by itself improve participants' reported mood.",
+      "evidence_locator": { "paragraph": "B", "sentence": 3 },
+      "distractor_analysis": {
+        "B": "Yakın ama eksik — her katılımcının kendisiyle karşılaştırılabilmesi çapraz geçişli tasarımın sağladığı şey; sıranın rastgele belirlenmesi ayrı bir tehlikeye, ikinci ölçümün kendiliğinden iyileşme yaratması ihtimaline karşı yapılıyor.",
+        "C": "Yer değiştirme — on bir kadın ve on bir erkeğin katıldığı söyleniyor, ama bu sayı bir denge gerekçesi olarak rastgeleleştirmeye bağlanmıyor.",
+        "D": "Cazip ama yok — katılımcıların çalışmanın amacından habersiz tutulduğuna dair hiçbir ifade yok; deney tasarımı için makul göründüğü için seçilebilir."
+      },
+      "explanation": "Paragraf B, iki koşulun sırasının rastgele belirlenmesinin, ortam ne olursa olsun ikinci kez ölçülmenin tek başına ruh hâli puanlarını yükseltmesi ihtimaline karşı koruma sağladığını söylüyor.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 14,
+      "passage_id": "A11",
+      "select_count": 1,
+      "prompt": "Why was the campus spot chosen as the comparison setting?",
+      "options": [
+        { "letter": "A", "text": "Because it lay a short walk from the trees." },
+        { "letter": "B", "text": "Because its noise matched that of a city street." },
+        { "letter": "C", "text": "Because it was calm rather than clearly stressful." },
+        { "letter": "D", "text": "Because participants already spent time there daily." }
+      ],
+      "answer": ["C"],
+      "evidence": "In the comparison condition, participants instead walked two minutes to a spot on campus where they spent 15 minutes viewing nearby buildings, an environment the researchers deliberately chose to be calm and free of traffic rather than obviously stressful.",
+      "evidence_locator": { "paragraph": "C", "sentence": 2 },
+      "distractor_analysis": {
+        "A": "Yakın ama eksik — yürüme süreleri veriliyor (ormana beş, kampüsteki noktaya iki dakika), ama yerin seçilme gerekçesi yakınlık değil, ortamın niteliği.",
+        "B": "Kapsam kaydırma — ortam bilerek sakin ve trafikten uzak seçiliyor; şık bunu tersine çevirip kent gürültüsüne benzetiyor.",
+        "D": "Cazip ama yok — katılımcıların orayı günlük olarak kullandığına dair hiçbir bilgi yok; üniversite öğrencisi oldukları için makul görünüyor."
+      },
+      "explanation": "Paragraf C, karşılaştırma ortamının araştırmacılarca bilerek sakin ve trafiksiz, yani açıkça stresli olmayan bir yer olarak seçildiğini söylüyor.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 15,
+      "passage_id": "A11",
+      "select_count": 1,
+      "prompt": "What do the researchers recommend for future studies?",
+      "options": [
+        { "letter": "A", "text": "Measuring how long the calming effect lasts." },
+        { "letter": "B", "text": "Comparing forests with busy city streets." },
+        { "letter": "C", "text": "Concentrating on the winter months alone." },
+        { "letter": "D", "text": "Trying longer visits, other seasons, other cultures." }
+      ],
+      "answer": ["D"],
+      "evidence": "They stress that their sample was small and drawn from a single institution, and recommend that future work test longer exposure times, other seasons, and participants from different cultural backgrounds before the findings are treated as general conclusions about winter forests.",
+      "evidence_locator": { "paragraph": "H", "sentence": 2 },
+      "distractor_analysis": {
+        "A": "Cazip ama yok — etkinin ne kadar sürdüğünün ölçülmesi önerilenler arasında yok; sakinleştirici etki anlatıldığı için makul bir devam adımı gibi görünüyor.",
+        "B": "Yer değiştirme — karşılaştırma ortamı bilerek trafiksiz seçiliyor; yoğun cadde karşılaştırması ne yapılıyor ne de öneriliyor.",
+        "C": "Kapsam kaydırma — öneri başka mevsimlerin de sınanması; şık bunu tersine çevirip yalnızca kışa daraltıyor."
+      },
+      "explanation": "Paragraf H, gelecekteki çalışmaların daha uzun maruz kalma süreleri, başka mevsimler ve farklı kültürel geçmişlerden katılımcılar denemesini öneriyor.",
+      "difficulty": "easy"
+    }
+  ]
+}
