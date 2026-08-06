@@ -50,7 +50,8 @@
             "G": "Başka öğe için söylendi — kilitli kapı boya ve kimyasal deposuna ait."
           },
           "explanation": "Eski sahada tek şerit ve on bir konteyner vardı; cumartesileri kuyruk çevre yoluna (bypass) kadar taşıyordu.",
-          "difficulty": "medium"
+          "difficulty": "medium",
+          "status": "verified"
         },
         {
           "number": 12,
@@ -72,7 +73,8 @@
             "G": "Başka öğe için söylendi — kilitli kapı boya deposuna ait."
           },
           "explanation": "Küçük otopark atık bırakanlar için değil, yeniden kullanım dükkânını ziyaret edenler için ayrılmış.",
-          "difficulty": "easy"
+          "difficulty": "easy",
+          "status": "verified"
         },
         {
           "number": 13,
@@ -94,7 +96,8 @@
             "G": "Söylendi ama sorulan bu değil — kilitli kapı aynı replikte anlatılan boya ve kimyasal deposuna ait; elektrikli eşya deposunda ise görevli eşyayı içeri taşıyor."
           },
           "explanation": "Fişli veya pilli her şey elektrikli eşya deposuna gidiyor ve bir görevli eşyayı ziyaretçi adına içeri taşıyor.",
-          "difficulty": "easy"
+          "difficulty": "easy",
+          "status": "verified"
         },
         {
           "number": 14,
@@ -116,7 +119,8 @@
             "G": "Başka öğe için söylendi — kilitli kapı boya deposuna ait."
           },
           "explanation": "Kasım–Şubat arasında saha erken kapanıyor çünkü üst seviyede hâlâ aydınlatma yok.",
-          "difficulty": "medium"
+          "difficulty": "medium",
+          "status": "verified"
         },
         {
           "number": 15,
@@ -138,7 +142,8 @@
             "G": "Başka öğe için söylendi — kilitli kapı boya deposuna ait."
           },
           "explanation": "Tamir seansı her ayın ilk cumartesisi, ondan bire kadar, dükkânın arkasındaki odada yapılıyor.",
-          "difficulty": "medium"
+          "difficulty": "medium",
+          "status": "verified"
         }
       ]
     },
@@ -179,7 +184,8 @@
             "F": "Sesle hiç geçmeyen — deneyin sekiz hafta sürdüğü söyleniyor ama planlanandan uzun sürdüğü söylenmiyor."
           },
           "explanation": "Anneke deneyi tarif ediyor: aynı eğimde üç tür kaplamadan (beton plak, geçirgen blok, çakıl) akan yağmur suyu sekiz hafta ölçülmüş.",
-          "difficulty": "easy"
+          "difficulty": "easy",
+          "status": "verified"
         },
         {
           "number": 22,
@@ -200,7 +206,8 @@
             "F": "Sesle hiç geçmeyen — süre aşımından hiç söz edilmiyor."
           },
           "explanation": "Anneke'ye göre kimse bir posterin önünde on dakika durmaz; bulgu en üstte olmalı, yöntem sonra gelmeli.",
-          "difficulty": "medium"
+          "difficulty": "medium",
+          "status": "verified"
         },
         {
           "number": 23,
@@ -221,7 +228,8 @@
             "F": "Sesle hiç geçmeyen — süre aşımı konuşmada yok."
           },
           "explanation": "Anneke, eksenleri özdeş üç ayrı grafik yerine üç çizginin tek grafikte toplanmasını, yanına da yağmur sonrası bir fotoğraf konmasını istiyor.",
-          "difficulty": "medium"
+          "difficulty": "medium",
+          "status": "verified"
         }
       ]
     }

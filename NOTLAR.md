@@ -6372,3 +6372,37 @@ hiç kullanılmadı, kalan on soruda birer kez. Çeldirici türü çeşitliliği
   `dogrulama/cevap-arsiv/oturum2/` altına taşındı, karşılaştırma temiz klasörle çalıştı.
 - **Doğrulama:** `python tools/kontrol.py` → 11 kontrolün 11'i geçti.
 - Atlanan/sorun: yok. CAPRAZ-90'ın kalan 4 çalıştırması bekliyor (4 opus, 5–7 fable).
+
+## CAPRAZ-90 (4. çalıştırma: dinleme — çoktan seçmeli + eşleştirme, 83 soru)
+
+- **Doğrulanan paket:** dinleme — `multiple-choice` (7 dosya: alıştırma + L1–L6, 40 soru;
+  37 tek cevaplı + 3 çift harfli "14-15" sorusu) ve `matching` (7 dosya: alıştırma + L1–L6,
+  43 soru); toplam 83 soru. **Doğrulayan model: opus, üreteni: fable.**
+- **Sonuç: 83/83 uyuştu (%100,0), işaretlenen 0.** Rapor:
+  `content/DOGRULAMA/dinleme-coktan-secmeli-eslestirme.json` ve
+  `content/DOGRULAMA/RAPOR.md`.
+- **Yöntem:** `tools/kor-kopya.py multiple-choice matching` 21 kör kopya üretti; okumaya ait
+  7 `multiple-choice` kopyası (2. oturumda doğrulanmıştı) açılmadan silindi, geriye 14
+  dinleme dosyası kaldı. Sorular yalnızca `content/listening/scripts/` altındaki 12
+  senaryodan (L1-S2, L1-S3, L2-S2, L2-S3, L3-S2, L3-S3, L4-S2, L4-S3, L5-S2, L5-S3, L6-S2,
+  L6-S3) gerçek aday gibi çözüldü; orijinal soru dosyaları hiç açılmadı. Karşılaştırmayı
+  `tools/karsilastir.py` yaptı; anahtar ancak 4. adımda görüldü.
+- **İşaretleme:** `tools/_capraz_isaretle.py` ile 83 sorunun hepsine `"status": "verified"`
+  eklendi; `"flagged"` yok, silinen soru yok.
+- **Örüntü:** sistematik hata yok. Bu paketin tamamı senaryolardaki "düzeltme" mimarisine
+  dayanıyor (konuşmacı önce broşürdeki/eski bilgiyi söylüyor, sonra düzeltiyor) ve her
+  düzeltme çiftinin iki ucu da şık listesinde: L2/11 "bir yıl → 18 ay", L5/13 "afişte 20 dk
+  → gerçekte 15 dk", L6/21 "el kitabı 3.000 → ders sayfası 2.500". Çeldiricilerin bir kısmı
+  senaryodaki *başka bir soruya ait doğru bilgi* — L1/13'te dokuma gösterimi gerçekten var
+  ama avluda değil galeride; L2/21'de "brook was in flood" doğru ama ikinci örneklemeyi
+  geciktiren neden. Uydurma çeldirici ya da boş kutu şıkkı yok.
+- **Bölüm 3 görüş soruları** (L1, L2, L3, L4, L5, L6) üç konuşmacının her tartışma ekseninde
+  ayrı konumda olduğu yapıdan besleniyor; "kimin görüşü" soruları tek replikle kesin
+  çözülüyor, konuşmacı karıştırma riski hiçbir soruda oluşmadı.
+- **Güven 4 verilen altı cevap** (L1/24, L2/25, L4/21, L5/24, L6/24, alıştırma eşleştirme 2)
+  hepsi uyuştu; hepsi "şık kesin ama ifade metinden bir adım soyut" tipi ("only for context"
+  → "background information only"). İkinci doğrulamada bakılması gereken aday çıkmadı.
+- **Yöntem notu:** oturum başında `dogrulama/cevap/` içindeki 13 eski dosya
+  `dogrulama/cevap-arsiv/oturum3/` altına taşındı; karşılaştırma temiz klasörle çalıştı.
+  (`tools/kor-kopya.py` hâlâ `dogrulama/cevap/` klasörünü temizlemiyor.)
+- Atlanan/sorun: yok. CAPRAZ-90'ın kalan 3 çalıştırması bekliyor (5–7, hepsi fable).

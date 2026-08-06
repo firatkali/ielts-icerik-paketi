@@ -50,7 +50,8 @@
             "G": "Söylendi sonra düzeltildi kökenli — 15'ten 18 sterline çıkan şey tezgâh ücreti; ek pazar gününün ücretle ilgisi yok."
           },
           "explanation": "Konuşmacı geçen yaz denenen Perşembe gününe neredeyse kimsenin gelmediğini, bu yüzden ek pazar gününün Çarşamba olacağını söylüyor.",
-          "difficulty": "medium"
+          "difficulty": "medium",
+          "status": "verified"
         },
         {
           "number": 12,
@@ -72,7 +73,8 @@
             "G": "Söylendi sonra düzeltildi kökenli — ücret artışı tezgâh kirasına ait; çiçek tezgâhının fiyatından söz edilmiyor."
           },
           "explanation": "Çiçek tezgâhı bilerek kapıların yanına konmuş: içeri girerken kokunun ziyaretçiye ulaşması isteniyor.",
-          "difficulty": "easy"
+          "difficulty": "easy",
+          "status": "verified"
         },
         {
           "number": 13,
@@ -94,7 +96,8 @@
             "G": "Söylendi sonra düzeltildi kökenli — 15'ten 18 sterline çıkan şey tezgâh ücreti."
           },
           "explanation": "Yükleme avlusu salonun arkasında ve yalnızca satıcıların minibüslerine ayrılmış; bisikletler kapının dışındaki bisiklet parkına kilitlenmeli.",
-          "difficulty": "medium"
+          "difficulty": "medium",
+          "status": "verified"
         },
         {
           "number": 14,
@@ -116,7 +119,8 @@
             "G": "Söylendi sonra düzeltildi kökenli — ücret artışı tezgâh kirasına ait; otoparkın ücretsiz süresi tam tersine uzatıldı."
           },
           "explanation": "Bariyerdeki tabela hâlâ iki saat ücretsiz dese de belediye süreyi ilkbaharda üç saate çıkarmış.",
-          "difficulty": "medium"
+          "difficulty": "medium",
+          "status": "verified"
         },
         {
           "number": 15,
@@ -138,7 +142,8 @@
             "G": "Söylendi sonra düzeltildi kökenli — ücret artışı tezgâh kirasına ait; poşetler para karşılığı satılmıyor, hiç verilmeyecek."
           },
           "explanation": "Nisan'dan itibaren satıcılar plastik poşet vermeyi tamamen bırakacağı için alışverişe herkesin kendi çantasını getirmesi gerekiyor.",
-          "difficulty": "easy"
+          "difficulty": "easy",
+          "status": "verified"
         }
       ]
     },
@@ -177,7 +182,8 @@
             "E": "Sesle hiç geçmeyen — hiçbir karar ertelenmiyor; sayı bu görüşmede kesinleşiyor."
           },
           "explanation": "Kütüphaneci veri tabanı sayısında Rhian'a katıldığını söylüyor; Tomas'ın beş veri tabanı planı kabul edilmiyor, eklenen şey ise bir veri tabanı değil yerel yönetim raporları koleksiyonu.",
-          "difficulty": "medium"
+          "difficulty": "medium",
+          "status": "verified"
         },
         {
           "number": 25,
@@ -197,7 +203,8 @@
             "E": "Sesle hiç geçmeyen — karar ertelenmiyor; iki öğrenci de orta yoldan memnun kalıyor."
           },
           "explanation": "Kütüphaneci orta yol öneriyor: sistematik arama on yılla sınırlı kalacak, daha eski önemli çalışmalar güncel makalelerin atıfları üzerinden bilinçli olarak eklenecek.",
-          "difficulty": "medium"
+          "difficulty": "medium",
+          "status": "verified"
         },
         {
           "number": 26,
@@ -217,7 +224,8 @@
             "E": "Sesle hiç geçmeyen — karar ertelenmiyor; filtre hemen karara bağlanıyor."
           },
           "explanation": "Kütüphaneci bu kutuyu işaretlememelerini söylüyor çünkü filtre kütüphanenin dışarıdan getirtebileceği çok sayıda kaynağı gizliyor ve kanıtı rafta olanla sınırlıyor.",
-          "difficulty": "medium"
+          "difficulty": "medium",
+          "status": "verified"
         }
       ]
     }

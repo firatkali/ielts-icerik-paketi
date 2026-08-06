@@ -37,7 +37,8 @@
             "C": "Söylendi ama sorulan bu değil — Perşembe, müzenin geç saate kadar açık kaldığı gün; kapalı gün değil."
           },
           "explanation": "Konuşmacı kapalı günün eskiden Pazartesi olduğunu ama bu ayın başından beri Salı olduğunu söylüyor.",
-          "difficulty": "medium"
+          "difficulty": "medium",
+          "status": "verified"
         },
         {
           "number": 12,
@@ -59,7 +60,8 @@
             "C": "Söylendi ama sorulan bu değil — 14,50 sterlin aile biletinin fiyatı, yıllık kartın değil."
           },
           "explanation": "Yıllık kartın açılıştaki fiyatı 25 sterlindi ama konuşmacı fiyatı 22 sterline indirdiklerini söylüyor.",
-          "difficulty": "medium"
+          "difficulty": "medium",
+          "status": "verified"
         },
         {
           "number": 13,
@@ -81,7 +83,8 @@
             "C": "Sesle hiç geçmeyen çeldirici — özel etkinlik için kiralama hiç anılmıyor."
           },
           "explanation": "Konuşmacı avlu bahçesinde piknik masaları olduğunu söylüyor; ayrıca yiyecek-içeceğin avluda serbest olduğunu ekliyor.",
-          "difficulty": "easy"
+          "difficulty": "easy",
+          "status": "verified"
         }
       ]
     },
@@ -114,7 +117,8 @@
             "D": "Söylendi ama sorulan bu değil — günde iki kez yapılan şey rehberli turlar, dokunma seansları değil."
           },
           "explanation": "Seanslarda sergide olmayan nesneler elle incelenebiliyor (C) ve ücret alınmıyor (E). İkinci cevap noktası: L1-S2-34.",
-          "difficulty": "medium"
+          "difficulty": "medium",
+          "status": "verified"
         }
       ]
     },
@@ -144,7 +148,8 @@
             "C": "Söylendi ama sorulan bu değil — Callum tarihin planladıklarından neredeyse iki hafta ERKEN olduğunu söylüyor, geç değil."
           },
           "explanation": "Danışman sunumun hafta 10'dan hafta 9'a, yani ayın on sekizine çekildiğini bildiriyor.",
-          "difficulty": "medium"
+          "difficulty": "medium",
+          "status": "verified"
         },
         {
           "number": 22,
@@ -166,7 +171,8 @@
             "B": "Söylendi sonra düzeltildi — özgün plan 15 dakikaydı; danışman süreyi 12 dakikaya indirdiğini söylüyor."
           },
           "explanation": "Danışman aynı oturumda üç grup sunacağı için konuşma süresini 15 dakikadan 12 dakikaya indirmiş; beş dakika ise sorulara ayrılıyor.",
-          "difficulty": "easy"
+          "difficulty": "easy",
+          "status": "verified"
         },
         {
           "number": 23,
@@ -188,7 +194,8 @@
             "C": "Başkası söyledi — rüzgar projesini ana konu yapmak Nadia'nın tercihiydi; danışman okulları destekliyor."
           },
           "explanation": "Danışman, Callum'un verdiği gerekçeyle (özgün malzeme) okul projesini seçiyor; rüzgar projesini yalnızca karşılaştırma olarak öneriyor.",
-          "difficulty": "medium"
+          "difficulty": "medium",
+          "status": "verified"
         }
       ]
     }

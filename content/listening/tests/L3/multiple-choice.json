@@ -29,7 +29,8 @@
         "C": "Sesle hiç geçmeyen — gelecek yılın staj yerleri konuşmada hiç anılmıyor."
       },
       "explanation": "Danışman toplantının amacını açılış cümlesinde söylüyor: neyin ne zaman teslim edileceğini birlikte kararlaştırmak.",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "status": "verified"
     },
     {
       "number": 22,
@@ -49,7 +50,8 @@
         "B": "Söylendi ama sorulan bu değil — danışman altı haftayı aşan her stajın aynı sayıldığını söylüyor; sekiz hafta bir zorunluluk değil."
       },
       "explanation": "Corin, şirket son iki hafta daha kalmasını istediği ve kendisi kabul ettiği için sekiz hafta kalmış.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     },
     {
       "number": 23,
@@ -69,7 +71,8 @@
         "C": "Söylendi ama sorulan bu değil — yayın, sayım verisinin şirketçe yayımlanacak bir işte kullanılacağı bağlamında geçiyor; Corin'in değer verdiği şey işin kendisine ait olması."
       },
       "explanation": "Corin için farkı yaratan, kendisine ait bir işin (sayaç verisinin) verilmesiydi; hata yapsa yayımlanacak bir işe gidecekti.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     }
   ]
 }

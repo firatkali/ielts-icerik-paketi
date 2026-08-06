@@ -196,3 +196,77 @@ dikkat çeken noktalar:
 **Not (yöntem):** Oturum 2'den kalan cevap dosyaları `dogrulama/cevap-arsiv/oturum2/` altına
 taşındı; karşılaştırma temiz klasörle çalıştı. (Oturum 1 notundaki uyarı hâlâ geçerli:
 `tools/kor-kopya.py` `dogrulama/cevap/` klasörünü temizlemiyor.)
+
+---
+
+## dinleme — çoktan seçmeli + eşleştirme — 2026-08-06
+
+- Doğrulayan model: opus (üreteni: fable)
+- Toplam soru: 83
+- Uyuşan: 83 (%100,0)
+- İşaretlenen: 0
+
+### Kapsanan dosyalar
+| Dosya | Soru |
+|---|---|
+| content/listening/practice/multiple-choice.json | 10 |
+| content/listening/tests/L1/multiple-choice.json | 7 |
+| content/listening/tests/L2/multiple-choice.json | 7 |
+| content/listening/tests/L3/multiple-choice.json | 3 |
+| content/listening/tests/L4/multiple-choice.json | 3 |
+| content/listening/tests/L5/multiple-choice.json | 7 |
+| content/listening/tests/L6/multiple-choice.json | 3 |
+| content/listening/practice/matching.json | 10 |
+| content/listening/tests/L1/matching.json | 3 |
+| content/listening/tests/L2/matching.json | 3 |
+| content/listening/tests/L3/matching.json | 8 |
+| content/listening/tests/L4/matching.json | 8 |
+| content/listening/tests/L5/matching.json | 3 |
+| content/listening/tests/L6/matching.json | 3 |
+
+Dağılım: çoktan seçmeli 40 (37 tek cevaplı + 3 çift harfli "14-15" sorusu),
+eşleştirme 43. Okumadaki `multiple-choice.json` dosyaları (7 dosya) 2. oturumda
+doğrulandığı için kör kopyaları silindi, bu oturumda açılmadı.
+
+### İşaretlenen sorular
+Yok. Uyuşmayan soru çıkmadı ve hiçbir cevap 3'ün altında güvenle verilmedi.
+
+### Örüntü
+
+Sistematik hata yok. Bu paketin ayırt edici özelliği, tüm senaryoların **"düzeltme"
+mimarisi** üzerine kurulmuş olması: her senaryonun `notes` alanında 4-7 çeldirici
+düzeltme sayılıyor (konuşmacı önce eski/yanlış bilgiyi söylüyor, sonra düzeltiyor).
+Doğrulama sırasında görülenler:
+
+- **Çeldiriciler sağlam demirlenmiş.** Her düzeltme çiftinin *her iki* ucu da şık
+  listesinde yer alıyor: L2/11'de "bir yıl beklentisi" (B değil A) ile "18 ay gerçek",
+  L5/13'te afişteki "20 dakika" ile gerçek "15 dakika", L6/21'de el kitabındaki
+  "3.000 kelime" ile ders sayfasındaki "2.500". Aday yalnızca ilk duyduğu sayıyı
+  yazarsa yakalanıyor — istenen davranış tam olarak bu.
+- **Çeldiriciler senaryo içinden *başka bir soruya ait* doğru bilgi olarak da
+  kullanılmış.** Bu, bu paketin en iyi tarafı. L1/13'te "watch a weaving demonstration"
+  senaryoda gerçekten var ama dokuma galerisinde, avluda değil; L1/14-15'te "twice a
+  day" rehberli turlara, "booking required" 8 kişiden büyük gruplara ait; L2/21'de
+  "brook was in flood" doğru ama *ikinci örneklemeyi geciktiren* neden, alan
+  atlamasının nedeni değil. Uydurma çeldirici yok.
+- **Görüş ayrımı soruları (Bölüm 3) tutarlı biçimde üçe ayrılmış.** L1, L2, L3, L4,
+  L5, L6 senaryolarının tamamında iki öğrenci ve danışman her tartışma ekseninde ayrı
+  konumda ve her konum ayrı bir `answer_point` olarak işaretli. Eşleştirme setleri bu
+  yapıdan besleniyor ve "kimin görüşü" soruları tek bir replikle kesin çözülüyor
+  (L3/24-26, L4/21-23, L6/24-26). Konuşmacı karıştırma riski hiçbir soruda oluşmadı.
+- **Kutu şıklarında kullanılmayan seçenekler gerçek metin verisi.** L3-S2 setinde
+  kullanılmayan B ("changed to a different day") ve G ("once a month") senaryodaki
+  rehberli yürüyüş ve çalılık temizleme günlerine karşılık geliyor; L4-S2'de
+  kullanılmayan G ("behind a locked gate") boya/kimyasal deposu; L5'te kullanılmayan
+  D ve E açık uçlu sorularla ilgili. Boş/uydurma şık yok.
+- **En düşük güvenle verilen altı cevap** (L1/24, L2/25, L4/21, L5/24, L6/24 ve
+  alıştırma eşleştirme 2 — güven 4) hepsi anahtarla uyuştu. Bunlar "doğru şık kesin ama
+  ifade metindekinden bir adım soyut" durumları: "only for context" → "background
+  information only", 11'e karşı 23 familya → "differed sharply", "something you can
+  actually add up" → "can simply be added together". IELTS'te normal ve kabul edilebilir
+  bir mesafe; işaretleme gerektirmiyor.
+
+**Not (yöntem):** Oturum 3'ten kalan cevap dosyaları `dogrulama/cevap-arsiv/oturum3/`
+altına taşındı. `tools/kor-kopya.py` hem okuma hem dinlemedeki `multiple-choice.json`
+dosyalarını birlikte üretiyor (21 dosya); okumaya ait 7 kör kopya, açılmadan önce
+silindi.

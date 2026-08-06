@@ -29,7 +29,8 @@
         "C": "Sesle hiç geçmeyen — baskı kalitesinden hiç söz edilmiyor."
       },
       "explanation": "Danışman kırmızı ve yeşilin değişmesini istiyor çünkü kabaca her on iki erkekten biri bu iki rengi güvenilir biçimde ayıramıyor.",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "status": "verified"
     },
     {
       "number": 25,
@@ -49,7 +50,8 @@
         "C": "Söylendi sonra düzeltildi — 24 punto Idris'in çalıştığı boyut; danışman bunu 'çok küçük, gövdede 30'un altı olmaz' diye düzeltiyor."
       },
       "explanation": "Danışmana göre işe yarayan tek test, posterin bir köşesini gerçek boyutta basıp asmak ve koridordan yürüyerek bakmak.",
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "status": "verified"
     },
     {
       "number": 26,
@@ -69,7 +71,8 @@
         "B": "Söylendi ama sorulan bu değil (çarpıtma) — geçen yıl iki grup parayı ödemedi, son teslim tarihini kaçırdı."
       },
       "explanation": "Anneke on sekiz sterlin ödemeyi son teslimi kaçırmaya tercih ediyor; geçen yıl iki grubun tarihi kaçırdığını hatırlatıyor.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     }
   ]
 }

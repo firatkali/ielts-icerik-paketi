@@ -37,7 +37,8 @@
         "E": "Söylendi sonra düzeltildi — danışman iki ölçüm setinin aynı çizgiye konmasını yasaklıyor; Rhys iki ayrı çizgi çizdiklerini söylüyor."
       },
       "explanation": "Oksijen ilk ziyarette kimyasal test kitiyle, Temmuz'da metreyle ölçüldü; danışman 'farklı yöntem, farklı hata' diyerek bunu vurguluyor.",
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "status": "verified"
     },
     {
       "number": 25,
@@ -55,7 +56,8 @@
         "E": "Söylendi ama sorulan bu değil — grafik çizgisi tartışması oksijen verisine ait."
       },
       "explanation": "Omurgasız sayımı iki alan arasında keskin fark gösteriyor: otoparktaki alanda 11, bostanların arkasında 23 familya.",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "status": "verified"
     },
     {
       "number": 26,
@@ -73,7 +75,8 @@
         "E": "Söylendi ama sorulan bu değil — tek çizgi uyarısı oksijen grafiği hakkında."
       },
       "explanation": "Rhys, ham verinin tamamının eke konmasına karşı çıkıyor: ona göre bu, kimsenin okumayacağı on beş sayfa tablo demek.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     }
   ]
 }

@@ -41,7 +41,8 @@
         "G": "Söylendi sonra düzeltildi — Callum önce ulusal anketi kullanacaklarını söylüyor; danışman asıl kaynak olarak belediyenin açık veri portalını gösterip anketi yalnızca bağlama indiriyor."
       },
       "explanation": "Danışman asıl üretim rakamları için belediye portalını öneriyor; ulusal anket yalnızca genel bağlam için kullanılacak.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     },
     {
       "number": 25,
@@ -61,7 +62,8 @@
         "G": "Söylendi ama sorulan bu değil — ana veri kaynağı belediyenin açık veri portalı."
       },
       "explanation": "Danışman videonun sık bozulduğunu söyleyip görüşmelerin ses olarak kaydedilmesini, yazıya dökümün de slaytta durmasını istiyor.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     },
     {
       "number": 26,
@@ -81,7 +83,8 @@
         "G": "Söylendi ama sorulan bu değil — veri kaynağı kararı anket ve portal hakkında."
       },
       "explanation": "Danışman iki öğrencinin de sunumun ikinci yarısında konuşmasını istiyor; aksi hâlde grup dengesiz görünüyor.",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "status": "verified"
     }
   ]
 }

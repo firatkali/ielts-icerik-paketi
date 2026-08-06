@@ -37,7 +37,8 @@
             "C": "Söylendi ama sorulan bu değil — on bir buçuk Pazar gününün açılış saati, Cumartesi'nin değil."
           },
           "explanation": "Kapılar Cumartesi günü on buçukta açılıyor; broşürdeki on bir, otobüs tarifesi yayımlanınca öne çekilen eski saat.",
-          "difficulty": "easy"
+          "difficulty": "easy",
+          "status": "verified"
         },
         {
           "number": 12,
@@ -59,7 +60,8 @@
             "C": "Sesle hiç geçmeyen çeldirici — nehir yolu sahnenin arkasından geçiyor ama tıkandığı hiç söylenmiyor; aksine bütün hafta sonu açık kalacak."
           },
           "explanation": "Sahne geçen yıl nehre bakıyordu ve ses karşı kıyıdaki evlere taşınıyordu; şikâyet üzerine bu yıl yüzü kapıya çevrildi.",
-          "difficulty": "medium"
+          "difficulty": "medium",
+          "status": "verified"
         },
         {
           "number": 13,
@@ -81,7 +83,8 @@
             "C": "Sesle hiç geçmeyen çeldirici — yarım saatlik bir aralık hiç anılmıyor."
           },
           "explanation": "Servis otobüsü on beş dakikada bir kalkıyor; ikinci otobüs kiralandığı için afişteki yirmi dakika artık geçerli değil.",
-          "difficulty": "medium"
+          "difficulty": "medium",
+          "status": "verified"
         }
       ]
     },
@@ -114,7 +117,8 @@
             "E": "Söylendi ama sorulan bu değil — tuvaletlerin yanındaki ücretsiz çeşme tam da şişe doldurmak için; konuşmacı bunu özendiriyor."
           },
           "explanation": "Sahaya cam sokmak yasak (C) ve köpekler ancak tasmayla, aile alanı dışında dolaşabiliyor (B). İkinci cevap noktası: L5-S2-29.",
-          "difficulty": "medium"
+          "difficulty": "medium",
+          "status": "verified"
         }
       ]
     },
@@ -144,7 +148,8 @@
             "C": "Sesle hiç geçmeyen çeldirici — taslağın iki ayrı sürümünü görmek istemek hiç geçmiyor; taslağı gönderme talebi görüşmenin sonunda ve pilotla ilgili."
           },
           "explanation": "Danışman anlaşmazlıktan memnun: şimdi anlaşamamak, üç hafta sonra anlaşamamaktan çok daha ucuza gelir diyor.",
-          "difficulty": "medium"
+          "difficulty": "medium",
+          "status": "verified"
         },
         {
           "number": 22,
@@ -166,7 +171,8 @@
             "C": "Söylendi ama sorulan bu değil — yüz yirmi, bölümün istediği alt sınır; danışmanın çevrimiçi yöntemde gördüğü tehlike örneklemin kendine seçilmesi."
           },
           "explanation": "Danışmana göre mahalle sayfasındaki bağlantıyı yanıtlayanlar zaten çarşıyı önemseyen kişiler olur; bu kendine seçilme bütün bulguları eğer.",
-          "difficulty": "medium"
+          "difficulty": "medium",
+          "status": "verified"
         },
         {
           "number": 23,
@@ -188,7 +194,8 @@
             "B": "Söylendi ama sorulan bu değil — bölümün şartı en az yüz yirmi tamamlanmış yanıt; kotaları isteyen bölüm değil danışmanın kendisi."
           },
           "explanation": "Kota olmazsa en kolay durdurulanlar örnekleme dolar: öğrenciler ve emekliler çoğunlukta olur, aradaki yaş grubu neredeyse hiç bulunmaz.",
-          "difficulty": "hard"
+          "difficulty": "hard",
+          "status": "verified"
         }
       ]
     }
