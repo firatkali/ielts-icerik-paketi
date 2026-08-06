@@ -6301,3 +6301,38 @@ hiç kullanılmadı, kalan on soruda birer kez. Çeldirici türü çeşitliliği
   content/DOGRULAMA/` boş dönüyordu. Desen `/dogrulama/` yapıldı: kökteki çalışma
   klasörü (kör kopyalar + kör cevaplar) hâlâ yok sayılıyor, `content/DOGRULAMA/`
   artık takip ediliyor. Bu commit'le birlikte 4 eski f42 raporu da depoya girdi.
+
+
+## CAPRAZ-90 (2. çalıştırma: çoktan seçmeli — okuma + çoktan seçmeli-çoklu, 35 soru)
+
+- **Doğrulanan paket:** okuma — `multiple-choice` (7 dosya: alıştırma + AC1–AC4 + GT1–GT2)
+  ve `multiple-choice-multi` (1 dosya, dinleme alıştırması); toplam 35 soru nesnesi,
+  cevap kağıdında 49 kutu. **Doğrulayan model: opus, üreteni: fable.**
+- **Sonuç: 35/35 uyuştu (%100,0), işaretlenen 0.** Rapor:
+  `content/DOGRULAMA/coktan-secmeli.json` ve `content/DOGRULAMA/RAPOR.md`.
+- **Yöntem:** `tools/kor-kopya.py multiple-choice multiple-choice-multi` ile cevapsız
+  kopyalar üretildi; orijinal soru dosyaları hiç açılmadan sorular 8 okuma metninden
+  (A02, A03, A05, A06, A08, A09, A11, A12, G03, G04) ve 3 dinleme senaryosundan
+  (L1-S2, L4-S2, L6-S3) gerçek aday gibi çözüldü. Dinleme senaryolarında `answer_points`
+  alanı okunmadı, sadece `turns` dökümü alındı. Karşılaştırmayı `tools/karsilastir.py`
+  yaptı; anahtar ancak 4. adımda görüldü.
+- **İşaretleme:** `tools/_capraz_isaretle.py` ile 35 sorunun hepsine `"status":
+  "verified"` eklendi; `"flagged"` yok, silinen soru yok.
+- **Kapsam kararı:** prompt tablosunda `multiple-choice-multi` bu oturuma yazılı ama
+  depoda bu ada sahip tek dosya **dinleme** alıştırması. Okuma tarafında ayrı `-multi`
+  dosyası yok; çok cevaplı okuma soruları normal `multiple-choice.json` içinde
+  (`select_count: 2`, `number: "34-35"`). Başka hiçbir oturum bu dosyayı kapsamadığı için
+  doğrulamaya alındı. Oturum 4'e ait dinleme `multiple-choice` dosyalarına dokunulmadı.
+- **Örüntü:** sistematik hata yok. Çeldiriciler metnin içinden kurulmuş (AC1/32 "unusual
+  warmth", AC4/34-35 "nap length predicted the gain" — metin tersini söylüyor, A08/9-10
+  "North America's highest peak" — Mount Logan Kanada'nın en yükseği). 9 çoklu seçim
+  sorusunun hepsinde iki doğru şık ayrı ayrı ve açıkça destekleniyor; "üçüncü şık da
+  savunulabilir" durumu çıkmadı. Tek zayıf nokta AC2/34-35'teki F şıkkı ("Colleagues
+  never meet one another in person") — metin "without face-to-face contact" diyor,
+  "never" çıkarımla geliyor; şık yine de doğru, ama ikinci doğrulamada bakılacak en iyi
+  aday bu (kör çözümde güven 4 verildi, yine de anahtarla uyuştu).
+- **Yöntem notu:** 1. oturumun tuzağına düşülmedi — oturum başında `dogrulama/cevap/`
+  içindeki 11 eski dosya `dogrulama/cevap-arsiv/oturum1/` altına taşındı, karşılaştırma
+  temiz klasörle çalıştı.
+- **Doğrulama:** `python tools/kontrol.py` → 11 kontrolün 11'i geçti.
+- Atlanan/sorun: yok. CAPRAZ-90'ın kalan 5 çalıştırması bekliyor (3–4 opus, 5–7 fable).
