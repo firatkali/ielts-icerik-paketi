@@ -6616,3 +6616,59 @@ hiç kullanılmadı, kalan on soruda birer kez. Çeldirici türü çeşitliliği
   1C-A'da sogutma suresi '48-77 hours' gibi yazilmis (rakamlar ustu cizgili 7'ye benziyor).
 - Atlanan/sorun: yok. Siradaki: 4. calistirma (konusma ornekleri) — ama GT yazma grubu
   hala acik, ustteki maddeye bakin.
+
+## OPUS5-A1 4/4 — General Training yazma ornekleri metne dokuldu (sayfa 8-24)
+
+- Tarih: 2026-08-06. Belge: `referans/ielts-general-training-writing-sample-tasks-2023.pdf`,
+  sayfa 8-24. Bu, calistirma listesindeki **3. grup** (General Training, 11 ornek);
+  oturum sirasina gore 4. calistirma.
+- 🔴 **Grubun 7 ornegi zaten diskte duruyordu.** Onceki oturum (3. calistirma) Academic
+  Task 1'i bitirip commit'ledikten sonra GT grubuna baslamis ve 19:11'de yarida kesilmis:
+  `GT-T1-1A-A … GT-T2-2A-A` (7 dosya) yazilmis, ama `word_count` alanlari 0 kalmis,
+  KONTROL.md'ye GT tablosu eklenmemis, NOTLAR.md'ye hicbir sey yazilmamisti. Kullanicinin
+  "zaten var olani tekrar uretme" talimati geregi bu 7 dosya **yeniden dokulmedi**;
+  eksik kalan 4 ornek dokuldu ve grubun kayit isleri tamamlandi.
+- **Bu calistirmada dokulen 4 ornek:** `GT-T2-2A-B` (band 8,0 - 328 kelime, sayfa 18-19),
+  `GT-T2-2B-A` (4,0 - 177, sayfa 20), `GT-T2-2B-B` (6,0 - 243, sayfa 21-22),
+  `GT-T2-2B-C` (8,5 - 353, sayfa 23-24). Hepsi Task 2.
+- **Grubun tamami: 11 ornek.** Band dagilimi: 3 / 4 / 5 / 5,5 / 5,5 / 6 / 6 / 7 / 7 /
+  8 / 8,5. Task 1: 6 ornek, Task 2: 5 ornek. Dosyalar `kalibrasyon/ornekler/yazma/`
+  altinda (gitignore'da, depoya girmiyor).
+- **Kelime sayilari:** 11 GT dosyasinin `word_count` alani 0 idi; `tools/_a1_kelime_say.py`
+  ile sayilarak yazildi (goz karari degil). Academic dosyalarin sayilari degismedi.
+- **Tuzak kontrolu gecildi, supheli isaretlenen yok.** Band 6 ve altindaki yedi cevapta
+  (3,0 / 4,0 / 5,0 / 5,5 / 5,5 / 6,0 / 6,0) hata sayisi esigin (0-1) cok ustunde:
+  ~35 / ~30 / ~25 / ~12 / ~18 / ~15 / ~18. 11 satirlik tablo ve ornek hatalar
+  `kalibrasyon/ornekler/yazma/KONTROL.md` dosyasinda. Onceden dokulmus 7 dosya da bu
+  gozle gecirildi; hicbirinde "hata temizlenmis" izlenimi yok.
+- **Yontem:** gorev metni, sinav gorevlisi yorumu ve band puani metin katmanindan
+  (`tools/_a1_metin_coz.py`, PyMuPDF) alindi; yalnizca el yazisi cevaplar goruntuden
+  okundu (`tools/_a1_bant.py` ile 400-600 dpi bantlar, supheli kelimeler 1800-4000 dpi
+  kirpma).
+- **Dokum kararlari / dikkat cekenler:**
+  - `GT-T2-2A-B`'nin son cumlesi sayfanin **sag kenarina dikey** yazilmis; sayfa
+    dondurulup okundu ve metne eklendi ("Certainly we have to think about this topic
+    much more in the future"). Son kelimenin 'future' okunusu %100 kesin degil, dosyanin
+    notuna yazildi.
+  - Ayni adayin el yazisinda 'n'->'u', 'h'->'w', 't'->ilmekli 'd' bicimleri var; bunlar
+    harf bicimi sayildi, yazim hatasi olarak dokulmedi. Buna karsilik gercek hatalar
+    ('belief', 'admitt', 'their will exist', fiili eksik "I would like to four different
+    models") aynen korundu.
+  - `GT-T2-2B-A`'da (band 4) 'lots' kelimesinin ikinci harfi 4000 dpi'da bile o/e ayrimi
+    vermiyor; 'lots' yazilip nota dusuldu. Bu dosyada uzeri cizili bolum yok, birkac
+    kelime uzerine tekrar yazilmis (Plaza, many, are).
+  - `GT-T2-2B-C`'de (band 8,5) tek satir ustu ekleme var: caretle eklenen 'and'
+    isaretlenen yere kondu. 'social - contract' ifadesindeki bosluklu kisa cizgi aynen
+    birakildi.
+- **Bu prompt dosyasinin durumu:** 4 calistirmanin tamami harcandi ama listedeki
+  **4. grup (konusma ornekleri, 12 ornek) hic yapilmadi.** Sebep zinciri: 1. calistirmanin
+  ciktisi diske hic yazilmamis, 3. calistirma o boslugu kapatmis, bu calistirma da
+  yarim kalan GT grubunu bitirmek zorunda kaldi. Ayrica konusma grubunun kaynak dosyasi
+  `referans/konusma-band-ornekleri.txt` **su an diskte yok** (`referans/text/` altinda da
+  yok), yani o grup icin once `python tools/indir.py` calistirilmasi gerekiyor.
+  **Yapilacak is: konusma ornekleri icin bir calistirma daha gerekiyor** (prompt dosyasinin
+  "4. CALISTIRMA - KONUSMA ORNEKLERI" bolumu).
+- **Olcum acisindan durum:** puanlama olcumu (SONNET5-A3) artik 23 yazma ornegiyle
+  calisabilir (Academic 12 + General Training 11), band araligi 3,0-8,5. Konusma ornegi
+  hala 0.
+- Atlanan/sorun: yukaridaki konusma grubu disinda yok.
