@@ -20,7 +20,8 @@
       "evidence_locator": { "text": "C", "sentence": 4 },
       "uniqueness_check": "Kullanıcıların kendi alanlarına diktikleri yapılara ölçü sınırı koyan tek metin C. B'de bir şey kurmaktan söz ediliyor ama orada kamp yapmak tümden yasak, yani ölçü değil topyekûn bir yasak var; A'daki 90 ve 350 sterlinlik tutarlar para sınırları; D yalnız seans saatleri ve giysi kuralı veriyor.",
       "explanation": "C metni, kulübe ve seraların önceden yazılı izin gerektirdiğini ve 2 metre yüksekliği aşamayacağını söylüyor.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     },
     {
       "number": 2,
@@ -31,7 +32,8 @@
       "evidence_locator": { "text": "A", "sentence": 2 },
       "uniqueness_check": "Eşya sağlam geri geldiğinde çözülen geçici bir tutardan yalnız A söz ediyor. C'de 1 Mart'a kadar ödenmesi gereken yıllık kira var ama bu geri verilen bir tutar değil; E'deki ücretler ve yüzde elli indirim de kalıcı ödemeler; B'de kart yalnız yiyecek tezgâhlarında ödeme aracı olarak geçiyor, üzerinde tutulan bir tutar yok.",
       "explanation": "A metni, ilk kiralamadan önce bir kartın kaydedilmesi gerektiğini ve bisiklet hasarsız iade edilene kadar kartta 90 sterlinlik geçici bir blokaj tutulduğunu söylüyor.",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "status": "verified"
     },
     {
       "number": 3,
@@ -42,7 +44,8 @@
       "evidence_locator": { "text": "E", "sentence": 2 },
       "uniqueness_check": "İnternete erişemeyenlere daha geç açılan ikinci bir kayıt yolunu yalnız E anlatıyor. B'de bilet önceden ya da kapıda alınabiliyor, yani iki seçenek var, ama ikisi de aynı anda geçerli ve internet erişimiyle hiç ilgili değil; C'de yer bekleme listesindeki sıraya göre veriliyor, ayrı bir başvuru yolu tanımlanmıyor; A'da kayıt tek yolla, kart kaydederek yapılıyor.",
       "explanation": "E metni, kayıtların dönem başlamadan üç hafta önce internette, internet erişimi olmayanlar için bir hafta sonra telefonla açıldığını söylüyor.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     },
     {
       "number": 4,
@@ -53,7 +56,8 @@
       "evidence_locator": { "text": "B", "sentence": 2 },
       "uniqueness_check": "Bir günün ötekilerden saatlerce erken bittiğini yalnız B söylüyor. D'de çarşamba günü havuzun öğleden sonra üçe kadar okullara ayrılması var ama bu geç açılış, erken kapanış değil; E'deki dersler her akşam aynı saatte, 20.30'da bitiyor; A'da kapanış saati diye bir şey yok.",
       "explanation": "B metni, ana sahnenin her gün 22.30'da kapandığını ama pazar günü etkinliğin saat 18.00'de sona erdiğini belirtiyor.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     },
     {
       "number": 5,
@@ -64,7 +68,8 @@
       "evidence_locator": { "text": "A", "sentence": 4 },
       "uniqueness_check": "Bir günden uzun süre elde tutulan şey için ödenecek bedeli yalnız A veriyor. C'de yükümlülüğünü yerine getirmeyen kullanıcıya para değil, yerin başkasına devredilmesi uygulanıyor; E'de gruba yetersiz kayıt olduğunda ders iptal ediliyor, kimseden ek para alınmıyor; öteki metinlerde ödünç alınan bir eşya bile yok.",
       "explanation": "A metni, 24 saat içinde iade edilmeyen bisikletin kayıp sayıldığını ve 350 sterlinlik tam yenileme bedelinin alındığını söylüyor.",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "status": "verified"
     },
     {
       "number": 6,
@@ -75,7 +80,8 @@
       "evidence_locator": { "text": "D", "sentence": 4 },
       "uniqueness_check": "Bir seansta zorunlu, ötekinde isteğe bağlı olan bir giysiden yalnız D söz ediyor. A'da baş koruması verilmediği ve güvenlik donanımının kullanıcının sorumluluğunda olduğu söyleniyor, ama orada hiçbir şey zorunlu tutulmuyor ve seanslar arasında bir ayrım yapılmıyor; C'de önceden izin gereken şeyler yapılarla ilgili, giyimle değil.",
       "explanation": "D metni, kulvar seanslarında bone takmanın zorunlu, aile seanslarında ise isteğe bağlı olduğunu belirtiyor.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     },
     {
       "number": 7,
@@ -86,7 +92,8 @@
       "evidence_locator": { "text": "E", "sentence": 4 },
       "uniqueness_check": "Bir grubun açılabilmesi için gereken en az katılımcı sayısını yalnız E veriyor. B'de on iki yaşından küçüklerin ücretsiz girmesi ve D'de yaşa göre ücretlendirme sayı içeriyor ama ikisi de bir alt sınır değil; C'de yerler bekleme listesindeki sıraya göre dağıtılıyor, en az kişi şartı yok; A'da yalnız istasyon ve dakika sayıları geçiyor.",
       "explanation": "E metni, dönem başlamadan önceki cumaya kadar altıdan az öğrencinin kaydolduğu derslerin iptal edildiğini söylüyor.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     }
   ]
 }

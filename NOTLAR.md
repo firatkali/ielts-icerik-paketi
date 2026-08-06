@@ -6445,3 +6445,44 @@ hiç kullanılmadı, kalan on soruda birer kez. Çeldirici türü çeşitliliği
   silindi — `tools/karsilastir.py` klasördeki her dosyayı okuduğu için bu şart.
   `tools/kor-kopya.py` bu klasörü hâlâ kendisi temizlemiyor.
 - Atlanan/sorun: yok. CAPRAZ-90'ın kalan 2 çalıştırması bekliyor (6–7, ikisi de fable).
+
+## CAPRAZ-90 çapraz doğrulama — 6. çalıştırma (okuma, bilgi eşleştirme)
+
+- **Paket:** `matching-information`. 7 dosya (1 alıştırma + AC1–AC4 + GT1–GT2), toplam
+  **49 soru**. **Doğrulayan model: fable, üreteni: opus.**
+- **Sonuç: 49/49 uyuştu (%100,0), işaretlenen 0.** Rapor:
+  `content/DOGRULAMA/bilgi-eslestirme.json` ve `content/DOGRULAMA/RAPOR.md`.
+- **Yöntem:** `tools/kor-kopya.py matching-information` 7 kör kopya üretti. Sorular
+  `passages/academic/A01, A03, A04, A06, A07, A09, A11, A12` ve `passages/general/G01, G02`
+  üzerinden gerçek aday gibi çözüldü; orijinal soru dosyaları 4. adıma kadar açılmadı.
+  Karşılaştırmayı `tools/karsilastir.py` yaptı.
+- **İşaretleme:** `tools/_capraz6_isaretle.py` (5. oturumun scriptinden uyarlandı) 49 sorunun
+  tamamına `"status": "verified"` ekledi, `flagged` yok. Script dosyaları yeniden
+  serileştirmiyor, `"difficulty"` satırının ardına metin düzeyinde ekleme yapıyor; kompakt
+  biçimlendirme bozulmuyor. Silinen soru yok.
+- **Tipin en büyük riski (iki paragraf da olabilir) bu pakette gerçekleşmemiş.** Nedeni,
+  49 sorunun tamamının paragrafın genel konusuna değil **tek bir cümleye** demirlenmiş
+  olması; `uniqueness_check` alanları rakip paragrafı adıyla anıp neden elendiğini yazıyor
+  ve kör çözümde elediğim paragraflarla birebir örtüştü.
+- **Tek sınıra yakın soru AC1/29** (güven 4, yine de uyuştu — cevap A). "Whole living
+  community vs tests on separate creatures" karşıtlığı A paragrafında birebir var
+  ("marine ecosystems ... rather than merely how individual organisms behave"), ama E
+  paragrafındaki "a real reef community actually behaves" ifadesi yüzeyde benziyor.
+  Ayrım şu: E'nin karşıtlığı varsayımsal **modelleme** ile, ayrı canlı testleriyle değil.
+  İkinci doğrulamada bakılmaya en uygun tek aday bu.
+- **Cevaplar metin sırasını izlemiyor** (AC1: C-H-A-G-E, AC2: F-A-H-B-D, AC3: B-H-E-A-F,
+  AC4: D-A-H-G-C) — bilgi eşleştirmede olması gereken de bu. GT setlerindeki "NB You may
+  use any letter more than once" izni gerçekten kullanılmış ve her tekrar duyurunun
+  **farklı bir cümlesine** dayanıyor.
+- **Küçük kusur (işaretlenmedi):** alıştırma dosyasının yönergesinde de "NB You may use any
+  letter more than once" var ve set genelinde doğru, ancak **tek bir pasaj bloğu içinde**
+  hiçbir harf tekrar etmiyor. Aday soruları pasaj pasaj çözdüğü için NB pratikte bilgi
+  vermiyor; yanıltıcı değil ama gereksiz.
+- **Yöntem notu:** oturum 5'ten kalan 23 cevap dosyası `dogrulama/cevap/` içindeydi ve ilk
+  karşılaştırmaya karıştı (200 soru raporlandı). `dogrulama/cevap-arsiv/oturum5/` altına
+  taşınıp karşılaştırma tekrarlandı. **Bu, aynı karışıklığın üst üste dördüncü oturumda
+  yaşanması.** Kalıcı çözüm: ya `tools/kor-kopya.py` bu klasörü de arşivlesin, ya da
+  `tools/karsilastir.py` yalnızca o oturumda üretilen kör kopyalara karşılık gelen cevap
+  dosyalarını okusun. 7. oturuma girmeden önce klasörün boş olduğu kontrol edilmeli.
+- Atlanan/sorun: yok. CAPRAZ-90'ın kalan 1 çalıştırması bekliyor (7, fable — dinleme
+  güvenli sorular).

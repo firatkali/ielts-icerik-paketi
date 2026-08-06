@@ -327,3 +327,90 @@ olduğu için yorum payı dar; buna rağmen dikkat çeken üç şey var:
   dosyasının hepsinde her soru `passage_id` taşıyor ve boşluk numaralandırması
   pasajlar arasında kesintisiz; 65 alıştırma sorusunun tamamı doğru pasajdan
   çözülebildi.
+
+---
+
+## okuma — bilgi eşleştirme (matching-information) — 2026-08-06
+
+- Doğrulayan model: fable (üreteni: opus)
+- Toplam soru: 49
+- Uyuşan: 49 (%100,0)
+- İşaretlenen: 0
+
+### Kapsanan dosyalar
+| Dosya | Soru | Pasaj |
+|---|---|---|
+| content/reading/practice/matching-information.json | 15 | A01, A04, A07, A11 |
+| content/reading/tests/AC1/matching-information.json | 5 | A03 |
+| content/reading/tests/AC2/matching-information.json | 5 | A06 |
+| content/reading/tests/AC3/matching-information.json | 5 | A09 |
+| content/reading/tests/AC4/matching-information.json | 5 | A12 |
+| content/reading/tests/GT1/matching-information.json | 7 | G01 (beş duyuru, A-E) |
+| content/reading/tests/GT2/matching-information.json | 7 | G02 (beş duyuru, A-E) |
+
+### İşaretlenen sorular
+Yok. Uyuşmayan soru çıkmadı ve hiçbir cevap 3'ün altında güvenle verilmedi.
+49 cevaptan 48'i güven 5, biri (AC1/29) güven 4 ile verildi ve o da anahtarla uyuştu.
+
+### Örüntü
+
+Sistematik hata yok; oran %100. Bilgi eşleştirme, doğası gereği **"iki paragraf da
+olabilir"** tuzağına en açık okuma tipidir — soru kökü metinden bilerek uzaklaştırılmış
+bir başka anlatımla yazıldığı için, aynı fikrin izi birden fazla paragrafta bulunabilir.
+Bu pakette bunun olmamasının somut nedenleri var:
+
+- **Her soru tek bir cümleye demirlenmiş, paragrafın genel konusuna değil.** 49 sorunun
+  tamamında `evidence` alanı tek bir cümleyi gösteriyor ve o cümle, soru kökündeki bilgiyi
+  tam olarak karşılıyor. "Paragraf bu konudan söz ediyor, o hâlde cevap budur" biçiminde
+  gevşek bir eşleşme hiçbir soruda yok. Bu, bilgi eşleştirmeyi başlık eşleştirmeden ayıran
+  kritik fark ve doğru uygulanmış.
+- **`uniqueness_check` alanı gerçekten çalışıyor.** Anahtarı gördükten sonra bakıldığında,
+  her soruda rakip paragrafın adıyla anıldığı ve neden elendiğinin yazıldığı görülüyor
+  (AC1/27'de "B bacaların CO2 saldığını söylüyor ama canlılar üzerindeki kimyasal sonucu
+  anlatmıyor; G iskeletin yapımını değil yıkımını anlatıyor"). Kör çözümde elediğim
+  paragraflar ile bu alanda elenmiş paragraflar birebir örtüştü — yani ayrım hem üretende
+  hem doğrulayanda aynı yerden geçiyor.
+- **Tek sınıra yakın soru AC1/29.** "A contrast between what a whole living community
+  reveals and what tests on separate creatures reveal" için A paragrafı ("how marine
+  ecosystems will actually respond, rather than merely how individual organisms behave
+  under short-term laboratory stress") kesin doğru; ama E paragrafı da "rather than
+  modelling a hypothetical future, researchers can measure how a real reef community
+  actually behaves under it" diyor ve *yüzeyde* aynı karşıtlığı kurar gibi görünüyor.
+  Ayrım şurada: E'nin karşıtlığı **varsayımsal modelleme** ile, ayrı ayrı canlılar
+  üzerindeki testlerle değil. Soru kökündeki "tests on separate creatures" ifadesi bu
+  ayrımı taşıdığı için soru tek cevaplı kalıyor. Yine de ikinci doğrulamada bakılmaya en
+  uygun tek aday bu; E'deki "a real reef community" ifadesi bilinçli bir çeldirici olarak
+  bırakılmışsa iyi kurulmuş, değilse tesadüfi bir yakınlık.
+- **Soru kökleri anahtar kelime avını sistemli biçimde engelliyor.** Neredeyse hiçbir kök,
+  metindeki ifadeyi ödünç almıyor: GT2/4 "one day of an event on which things stop several
+  hours earlier than on the other days" — adayın 22.30 ile 18.00'i kendisi karşılaştırması
+  gerekiyor, metinde "earlier" kelimesi hiç geçmiyor. AC3/27 "how long the remains had been
+  on record" için metinde yalnızca "since the 1960s" var, süre yazılı değil. AC2/31 "the
+  single count chosen to stand for how much work each person got done" için metin "the
+  number of distinct clients" diyor. Bu, tipin en zor ve en doğru biçimi.
+- **Cevaplar metin sırasını izlemiyor** — bilgi eşleştirmede olması gereken de bu (başlık
+  eşleştirmeden farklı olarak). AC1: C-H-A-G-E, AC2: F-A-H-B-D, AC3: B-H-E-A-F,
+  AC4: D-A-H-G-C. Hiçbir sette artan sıra yok, kümelenme yok. Test setlerinde sekiz
+  paragraftan beşi kullanılmış ve hiçbir harf tekrar etmemiş.
+- **GT setlerinde tekrar izni doğru kullanılmış.** İki GT dosyasında da yönerge "NB You may
+  use any letter more than once" diyor ve tekrar gerçekten var: GT1'de A (soru 2 adres kanıtı
+  ve soru 6 rezervasyon nedeniyle uzatamama) ile B (soru 4 veli onayı ve soru 7 yarıyıl
+  tatili), GT2'de A (soru 2 blokaj ve soru 5 kayıp bedeli) ile E (soru 3 telefonla kayıt ve
+  soru 7 asgari öğrenci sayısı). Her tekrar, duyurunun **farklı bir cümlesine** dayanıyor;
+  "aynı cümleye iki soru" durumu yok.
+
+**Not (alıştırma dosyası):** 15 soruluk alıştırma seti dört ayrı pasaja bölünmüş
+(A01/A04/A07/A11, 4+4+4+3) ve yönergesinde "NB You may use any letter more than once"
+yazıyor. İfade set genelinde doğru (A harfi hem 2. hem 14. soruda cevap), ancak **tek bir
+pasaj bloğu içinde hiçbir harf tekrar etmiyor**. Aday soruları pasaj pasaj çözdüğü için bu
+NB pratikte bilgi vermiyor; yanıltıcı değil ama gereksiz. Diğer altı dosyada sorun yok.
+
+**Not (yöntem):** Oturum 5'ten kalan 23 cevap dosyası `dogrulama/cevap/` klasöründe
+duruyordu ve ilk karşılaştırmaya karıştı (200 soru raporlandı, oturum 5'in iki işaretli
+sorusu tekrar listelendi). Dosyalar `dogrulama/cevap-arsiv/oturum5/` altına taşınıp
+karşılaştırma tekrarlandı; yukarıdaki 49 soruluk sonuç temiz çalıştırmaya aittir.
+**Bu, aynı karışıklığın üst üste dördüncü oturumda yaşanması** (1, 2, 3 ve 5. oturum
+notlarına bakınız). `tools/kor-kopya.py` `dogrulama/kor/` klasörünü temizliyor ama
+`dogrulama/cevap/` klasörüne dokunmuyor; kalıcı çözüm ya scriptin bu klasörü de arşivlemesi
+ya da `tools/karsilastir.py`'nin yalnızca o oturumda üretilen kör kopyalara karşılık gelen
+cevap dosyalarını okumasıdır.

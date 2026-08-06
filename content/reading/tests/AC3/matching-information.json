@@ -20,7 +20,8 @@
       "evidence_locator": { "paragraph": "B", "sentence": 2 },
       "uniqueness_check": "Buluntunun onlarca yıldır bilinmesine rağmen tuhaflığın çok sonra fark edildiğini söyleyen tek paragraf B. A paragrafı da bir tarih veriyor ama bu patlamanın tarihi, kazı ya da inceleme tarihi değil; C ve D sonraki analizleri anlatıyor, ne zaman bulunduğunu değil.",
       "explanation": "B paragrafı, kalıntıların 1960'lardan beri arkeologlarca bilindiğini, kafatasının içindeki koyu camsı maddenin ise ancak daha yeni bir incelemede fark edildiğini söylüyor.",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "status": "verified"
     },
     {
       "number": 28,
@@ -31,7 +32,8 @@
       "evidence_locator": { "paragraph": "H", "sentence": 2 },
       "uniqueness_check": "Bulgunun tek bir kişiye ait olduğu ve başkalarına genellenemeyeceği uyarısı yalnız H paragrafında. G paragrafı da bir sınırlamadan söz ediyor ama orada dar olan şey ısıl koşullar aralığıdır, bulgunun kapsamı değil; C bulgunun ne kadar ender olduğunu söylüyor, genellenemezliğini değil.",
       "explanation": "H paragrafı, bulgunun çok özel volkanik koşullar altındaki tek bir bireyi anlattığını ve başka kurbanlara genellenemeyeceğini vurguluyor.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     },
     {
       "number": 29,
@@ -42,7 +44,8 @@
       "evidence_locator": { "paragraph": "E", "sentence": 2 },
       "uniqueness_check": "Korunmuş sinir liflerinin kalınlığını yaşayan bir beyindekilerle karşılaştıran sayılar yalnız E paragrafında. G paragrafı da sayı veriyor ama bunlar madde içindeki elementlerin yüzdeleri; D hangi cihazların kullanıldığını anlatıyor, hiçbir ölçüm sonucu vermiyor.",
       "explanation": "E paragrafı, camlaşmış dokudaki aksonların ortalama 717,7 nanometre olduğunu ve bunun yaşayan bir beyindeki ak maddenin olağan aralığına yakın olduğunu söylüyor.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     },
     {
       "number": 30,
@@ -53,7 +56,8 @@
       "evidence_locator": { "paragraph": "A", "sentence": 1 },
       "uniqueness_check": "İki komşu kentin nasıl yok olduğunu karşılaştıran tek paragraf A: küllerle gömülme ile kızgın gaz akıntılarının süpürmesi karşı karşıya konuyor. H paragrafı da her iki kentin adını anıyor, ama yalnızca bulgunun oralara genellenemeyeceğini söylerken; yıkımın biçimini hiçbir yerde anlatmıyor.",
       "explanation": "A paragrafı, patlamanın komşu kenti anlatan yaygın anlatımdaki gibi yalnızca kül yağdırmadığını, buradaki kentin kızgın gaz ve moloz akıntılarıyla süpürüldüğünü söylüyor.",
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "status": "verified"
     },
     {
       "number": 31,
@@ -64,7 +68,8 @@
       "evidence_locator": { "paragraph": "F", "sentence": 3 },
       "uniqueness_check": "Kül ve kemiğin kaynak olarak elenmesini belirli moleküllere dayandıran tek paragraf F. C paragrafı maddenin mineral birikimi ya da sonradan bulaşma olmadığını söylüyor ama bunun gerekçesini vermiyor; D yalnızca hangi yöntemlerin birleştirildiğini sıralıyor.",
       "explanation": "F paragrafı, saptanan moleküllerin kemik veya külle ilişkili olmadığını, bu yüzden camsı maddenin gerçekten beyin ve omurilikten geldiği sonucunu güçlendirdiğini söylüyor.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     }
   ]
 }
