@@ -1,5 +1,6 @@
 {
   "schema_version": "1.0",
+  "exam": "ielts",
   "set_id": "AT22",
   "skill": "writing",
   "module": "academic",
@@ -14,10 +15,34 @@
     "title": "Average weekly working hours in five types of work, 2002 and 2022",
     "x_label": "Type of work",
     "y_label": "Hours worked per week",
-    "categories": ["Farming", "Manufacturing", "Building work", "Shops and cafés", "Information services"],
+    "categories": [
+      "Farming",
+      "Manufacturing",
+      "Building work",
+      "Shops and cafés",
+      "Information services"
+    ],
     "series": [
-      { "name": "2002", "values": [48, 44, 45, 39, 38] },
-      { "name": "2022", "values": [43, 38, 42, 34, 40] }
+      {
+        "name": "2002",
+        "values": [
+          48,
+          44,
+          45,
+          39,
+          38
+        ]
+      },
+      {
+        "name": "2022",
+        "values": [
+          43,
+          38,
+          42,
+          34,
+          40
+        ]
+      }
     ],
     "unit": "saat/hafta",
     "svg": null,

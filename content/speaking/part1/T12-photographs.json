@@ -1,82 +1,136 @@
 {
   "schema_version": "1.0",
+  "exam": "ielts",
   "set_id": "T12-photographs",
   "skill": "speaking",
   "part": 1,
   "topic": "Photographs",
   "topic_tr": "Fotoğraf",
   "generated_by": "opus",
-  "expected_answer_seconds": [20, 40],
+  "expected_answer_seconds": [
+    20,
+    40
+  ],
   "items": [
     {
       "number": 1,
       "prompt": "How often do you take photographs?",
       "focus": "alışkanlık",
       "difficulty": "easy",
-      "useful_language": ["hardly ever, to be honest", "several a day without thinking", "only when something catches my eye", "far more than I need to"]
+      "useful_language": [
+        "hardly ever, to be honest",
+        "several a day without thinking",
+        "only when something catches my eye",
+        "far more than I need to"
+      ]
     },
     {
       "number": 2,
       "prompt": "What sort of things do you usually photograph?",
       "focus": "temel bilgi",
       "difficulty": "easy",
-      "useful_language": ["everyday scenes", "the people I'm with", "anything with unusual light", "notes and reminders, oddly enough"]
+      "useful_language": [
+        "everyday scenes",
+        "the people I'm with",
+        "anything with unusual light",
+        "notes and reminders, oddly enough"
+      ]
     },
     {
       "number": 3,
       "prompt": "Where do you keep the photographs you take?",
       "focus": "alışkanlık",
       "difficulty": "easy",
-      "useful_language": ["they just sit on my phone", "I back them up now and then", "in an album somewhere", "I've never got round to sorting them"]
+      "useful_language": [
+        "they just sit on my phone",
+        "I back them up now and then",
+        "in an album somewhere",
+        "I've never got round to sorting them"
+      ]
     },
     {
       "number": 4,
       "prompt": "Which photograph of yours means the most to you, and why?",
       "focus": "tercih ve sebep",
       "difficulty": "medium",
-      "useful_language": ["it brings back a whole afternoon", "it's the only one I have of", "it captures her exactly", "the quality is poor but I don't mind"]
+      "useful_language": [
+        "it brings back a whole afternoon",
+        "it's the only one I have of",
+        "it captures her exactly",
+        "the quality is poor but I don't mind"
+      ]
     },
     {
       "number": 5,
       "prompt": "What kind of photographs did people take when you were younger?",
       "focus": "geçmiş",
       "difficulty": "medium",
-      "useful_language": ["only for special occasions", "everyone lined up stiffly", "you had to wait to see them", "film was expensive, so people were careful"]
+      "useful_language": [
+        "only for special occasions",
+        "everyone lined up stiffly",
+        "you had to wait to see them",
+        "film was expensive, so people were careful"
+      ]
     },
     {
       "number": 6,
       "prompt": "How do you feel when someone takes a photograph of you?",
       "focus": "açıklama",
       "difficulty": "medium",
-      "useful_language": ["I'd rather be behind the camera", "I never know what to do with my hands", "I've grown used to it", "it doesn't bother me in the slightest"]
+      "useful_language": [
+        "I'd rather be behind the camera",
+        "I never know what to do with my hands",
+        "I've grown used to it",
+        "it doesn't bother me in the slightest"
+      ]
     },
     {
       "number": 7,
       "prompt": "What makes people want to share their photographs with others?",
       "focus": "başkaları açısı ve sebep",
       "difficulty": "medium",
-      "useful_language": ["it's a way of staying connected", "people like to be seen doing things", "it saves explaining", "there's a bit of showing off involved"]
+      "useful_language": [
+        "it's a way of staying connected",
+        "people like to be seen doing things",
+        "it saves explaining",
+        "there's a bit of showing off involved"
+      ]
     },
     {
       "number": 8,
       "prompt": "What would you photograph if you had to show a visitor your area?",
       "focus": "varsayım",
       "difficulty": "hard",
-      "useful_language": ["I'd start with", "the ordinary streets rather than the landmarks", "something that gives a sense of", "an early morning shot"]
+      "useful_language": [
+        "I'd start with",
+        "the ordinary streets rather than the landmarks",
+        "something that gives a sense of",
+        "an early morning shot"
+      ]
     },
     {
       "number": 9,
       "prompt": "What has changed about the way people take photographs in your lifetime?",
       "focus": "değişim",
       "difficulty": "hard",
-      "useful_language": ["we take thousands and look at none", "there's no cost to it now", "everyone carries a camera", "the skill has shifted to editing"]
+      "useful_language": [
+        "we take thousands and look at none",
+        "there's no cost to it now",
+        "everyone carries a camera",
+        "the skill has shifted to editing"
+      ]
     },
     {
       "number": 10,
       "prompt": "How is a printed photograph different from one you only see on a screen?",
       "focus": "karşılaştırma",
       "difficulty": "hard",
-      "useful_language": ["you hold on to it", "a printed one gets looked at", "screens make everything disposable", "there's something more permanent about paper"]
+      "useful_language": [
+        "you hold on to it",
+        "a printed one gets looked at",
+        "screens make everything disposable",
+        "there's something more permanent about paper"
+      ]
     }
   ]
 }

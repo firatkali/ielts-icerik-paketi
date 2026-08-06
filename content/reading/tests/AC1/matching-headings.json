@@ -1,5 +1,6 @@
 {
   "schema_version": "1.0",
+  "exam": "ielts",
   "set_id": "AC1-matching-headings",
   "skill": "reading",
   "module": "academic",
@@ -13,27 +14,65 @@
     "label": "List of Headings",
     "numbering": "roman",
     "options": [
-      { "key": "i",    "text": "Choosing animals of a similar build" },
-      { "key": "ii",   "text": "Limiting what each animal could sense" },
-      { "key": "iii",  "text": "A defence used when threatened" },
-      { "key": "iv",   "text": "A pecking order that took shape" },
-      { "key": "v",    "text": "A question that had not been tested before" },
-      { "key": "vi",   "text": "How long the effect of a meeting lasts" },
-      { "key": "vii",  "text": "Building the pairs and controlling their surroundings" },
-      { "key": "viii", "text": "How the final day's encounters were arranged" },
-      { "key": "ix",   "text": "Reactions that depended on who the partner was" },
-      { "key": "x",    "text": "Why smell could not explain the results" }
+      {
+        "key": "i",
+        "text": "Choosing animals of a similar build"
+      },
+      {
+        "key": "ii",
+        "text": "Limiting what each animal could sense"
+      },
+      {
+        "key": "iii",
+        "text": "A defence used when threatened"
+      },
+      {
+        "key": "iv",
+        "text": "A pecking order that took shape"
+      },
+      {
+        "key": "v",
+        "text": "A question that had not been tested before"
+      },
+      {
+        "key": "vi",
+        "text": "How long the effect of a meeting lasts"
+      },
+      {
+        "key": "vii",
+        "text": "Building the pairs and controlling their surroundings"
+      },
+      {
+        "key": "viii",
+        "text": "How the final day's encounters were arranged"
+      },
+      {
+        "key": "ix",
+        "text": "Reactions that depended on who the partner was"
+      },
+      {
+        "key": "x",
+        "text": "Why smell could not explain the results"
+      }
     ]
   },
-  "example": { "key": "v", "target": "Paragraph A" },
+  "example": {
+    "key": "v",
+    "target": "Paragraph A"
+  },
   "allow_repeat": false,
   "items": [
     {
       "number": 14,
       "prompt": "Paragraph B",
-      "answer": ["vii"],
+      "answer": [
+        "vii"
+      ],
       "evidence": "The researchers collected sixty octopuses from the Bay of Naples over two summer seasons and formed twenty-four pairs, each matched so that the two animals differed in weight by no more than fifteen per cent.",
-      "evidence_locator": { "paragraph": "B", "sentence": 1 },
+      "evidence_locator": {
+        "paragraph": "B",
+        "sentence": 1
+      },
       "heading_check": "B paragrafının bütünü iki işi anlatıyor: çiftlerin nasıl oluşturulduğu ve her çiftin aynı koşullarda tutulması, böylece davranış değişikliğinin çevreye değil hayvanların birbirini tanımasına bağlanabilmesi. 'vii' bu ikisini birden karşılıyor. En yakın çeldirici 'i' (benzer boydaki hayvanların seçilmesi) — ağırlık farkının yüzde on beşi aşmaması paragrafta geçiyor, ama bu eşleştirme ölçütünün tek bir ayrıntısı; paragrafın ana fikri kurulum ve denetim.",
       "feature_check": null,
       "grammar_check": null,
@@ -44,9 +83,14 @@
     {
       "number": 15,
       "prompt": "Paragraph C",
-      "answer": ["ii"],
+      "answer": [
+        "ii"
+      ],
       "evidence": "Before the octopuses ever met, they spent three days in one of two conditions.",
-      "evidence_locator": { "paragraph": "C", "sentence": 1 },
+      "evidence_locator": {
+        "paragraph": "C",
+        "sentence": 1
+      },
       "heading_check": "C paragrafı baştan sona, hayvanların karşılaşmadan önceki üç günde hangi duyularını kullanabildiğiyle ilgili: bir grup görebiliyor ama dokunamıyor ve koku alamıyor, öteki grubun hiçbir teması yok. 'ii' tam bu sınırlamayı söylüyor. En yakın çeldirici 'x' (kokunun elenmesi) — su dolaşımlarının ayrı tutulması burada geçiyor, ama bu iki koşuldan yalnızca birinin ayrıntısı ve paragraf kokuyu bir açıklama olarak elemiyor.",
       "feature_check": null,
       "grammar_check": null,
@@ -57,9 +101,14 @@
     {
       "number": 16,
       "prompt": "Paragraph D",
-      "answer": ["iv"],
+      "answer": [
+        "iv"
+      ],
       "evidence": "Across these encounters a dominance hierarchy consistently emerged, with the stronger animal in each pair winning an average of seventy-six per cent of interactions, and physical contact and defensive ink-jetting both became less frequent as the three days went on and the pair grew more familiar with one another.",
-      "evidence_locator": { "paragraph": "D", "sentence": 3 },
+      "evidence_locator": {
+        "paragraph": "D",
+        "sentence": 3
+      },
       "heading_check": "D paragrafının ana fikri, birlikte geçirilen üç günde her çiftte hangi hayvanın üstün geldiğinin belirlenmesi, yani bir üstünlük sırasının oluşması. 'iv' bunu veriyor. En yakın çeldirici 'iii' (tehdit karşısında kullanılan savunma) — mürekkep bırakmanın azaldığı bu paragrafta geçiyor, ama oluşan sıralı düzenin yanında küçük bir ayrıntı; paragraf savunma davranışını konu edinmiyor.",
       "feature_check": null,
       "grammar_check": null,
@@ -70,9 +119,14 @@
     {
       "number": 17,
       "prompt": "Paragraph E",
-      "answer": ["viii"],
+      "answer": [
+        "viii"
+      ],
       "evidence": "In the other half, one animal was quietly replaced with a stranger of similar size and weight, so that the resident octopus met an individual it had never encountered before.",
-      "evidence_locator": { "paragraph": "E", "sentence": 3 },
+      "evidence_locator": {
+        "paragraph": "E",
+        "sentence": 3
+      },
       "heading_check": "E paragrafı yedinci günkü belirleyici sınamanın nasıl kurgulandığını anlatıyor: çiftlerin yarısı eski eşiyle, yarısı sessizce getirilen bir yabancıyla buluşturuluyor; süre ve ölçülen davranışlar aynı tutuluyor. 'viii' bu düzenlemeyi karşılıyor. En yakın çeldirici 'ix' (eşin kimliğine göre değişen tepkiler) — ama E yalnızca düzeni kuruyor, hangi tepkinin çıktığını söylemiyor; o bilgi F paragrafında.",
       "feature_check": null,
       "grammar_check": null,
@@ -83,9 +137,14 @@
     {
       "number": 18,
       "prompt": "Paragraph F",
-      "answer": ["ix"],
+      "answer": [
+        "ix"
+      ],
       "evidence": "Several measures distinguished the two situations sharply.",
-      "evidence_locator": { "paragraph": "F", "sentence": 1 },
+      "evidence_locator": {
+        "paragraph": "F",
+        "sentence": 1
+      },
       "heading_check": "F paragrafının tamamı, karşısındaki hayvanın tanıdık mı yabancı mı olduğuna göre davranışın nasıl değiştiğini gösteriyor: ilk temasa geçiş süresi, dokunma sıklığı, birlikte geçirilen süre ve üstünlüğün el değiştirmesi. 'ix' bu ana fikri veriyor. En yakın çeldirici 'viii' (son günün düzenlenişi) — F o düzenin sonuçlarını anlatıyor, kuruluşunu değil.",
       "feature_check": null,
       "grammar_check": null,

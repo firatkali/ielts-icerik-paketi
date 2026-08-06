@@ -1,5 +1,6 @@
 {
   "schema_version": "1.0",
+  "exam": "ielts",
   "set_id": "C53",
   "skill": "speaking",
   "card_type": "olay",
@@ -15,22 +16,46 @@
     ],
     "closing": "and explain how you felt about being given this responsibility.",
     "preparation_seconds": 60,
-    "speaking_seconds": [90, 120],
+    "speaking_seconds": [
+      90,
+      120
+    ],
     "follow_up": [
       "Was any part of it difficult?",
       "Would that person ask you again?"
     ],
-    "useful_language": ["keep an eye on", "take good care of", "put their mind at rest", "hand it back safely"]
+    "useful_language": [
+      "keep an eye on",
+      "take good care of",
+      "put their mind at rest",
+      "hand it back safely"
+    ]
   },
   "part3": {
     "items": [
-      { "number": 1, "prompt": "What makes someone seem reliable enough to be trusted with a task?",
-        "focus": "genel açıklama", "difficulty": "medium" },
-      { "number": 2, "prompt": "Do young people take on responsibility earlier than they once did?",
-        "focus": "karşılaştırma", "difficulty": "medium" },
-      { "number": 3, "prompt": "Should children be given more responsibility at home and at school?",
-        "focus": "öneri / görüş", "difficulty": "hard" }
+      {
+        "number": 1,
+        "prompt": "What makes someone seem reliable enough to be trusted with a task?",
+        "focus": "genel açıklama",
+        "difficulty": "medium"
+      },
+      {
+        "number": 2,
+        "prompt": "Do young people take on responsibility earlier than they once did?",
+        "focus": "karşılaştırma",
+        "difficulty": "medium"
+      },
+      {
+        "number": 3,
+        "prompt": "Should children be given more responsibility at home and at school?",
+        "focus": "öneri / görüş",
+        "difficulty": "hard"
+      }
     ],
-    "useful_language": ["rise to the occasion", "be answerable for", "a sense of duty"]
+    "useful_language": [
+      "rise to the occasion",
+      "be answerable for",
+      "a sense of duty"
+    ]
   }
 }

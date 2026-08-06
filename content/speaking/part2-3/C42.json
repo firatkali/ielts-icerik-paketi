@@ -1,5 +1,6 @@
 {
   "schema_version": "1.0",
+  "exam": "ielts",
   "set_id": "C42",
   "skill": "speaking",
   "card_type": "olay",
@@ -15,22 +16,46 @@
     ],
     "closing": "and explain why that conversation has stayed in your mind.",
     "preparation_seconds": 60,
-    "speaking_seconds": [90, 120],
+    "speaking_seconds": [
+      90,
+      120
+    ],
     "follow_up": [
       "Have you spoken to that person since then?",
       "Would you say anything differently now?"
     ],
-    "useful_language": ["it stuck with me", "we got talking", "open up about", "food for thought"]
+    "useful_language": [
+      "it stuck with me",
+      "we got talking",
+      "open up about",
+      "food for thought"
+    ]
   },
   "part3": {
     "items": [
-      { "number": 1, "prompt": "What makes a conversation worth remembering years later?",
-        "focus": "genel açıklama", "difficulty": "medium" },
-      { "number": 2, "prompt": "Do people speak more openly to strangers than to those close to them?",
-        "focus": "karşılaştırma", "difficulty": "medium" },
-      { "number": 3, "prompt": "Will everyday conversation suffer as written messages take over?",
-        "focus": "gelecek / görüş", "difficulty": "hard" }
+      {
+        "number": 1,
+        "prompt": "What makes a conversation worth remembering years later?",
+        "focus": "genel açıklama",
+        "difficulty": "medium"
+      },
+      {
+        "number": 2,
+        "prompt": "Do people speak more openly to strangers than to those close to them?",
+        "focus": "karşılaştırma",
+        "difficulty": "medium"
+      },
+      {
+        "number": 3,
+        "prompt": "Will everyday conversation suffer as written messages take over?",
+        "focus": "gelecek / görüş",
+        "difficulty": "hard"
+      }
     ],
-    "useful_language": ["small talk", "read between the lines", "face-to-face contact"]
+    "useful_language": [
+      "small talk",
+      "read between the lines",
+      "face-to-face contact"
+    ]
   }
 }

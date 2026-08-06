@@ -1,5 +1,6 @@
 {
   "schema_version": "1.0",
+  "exam": "ielts",
   "set_id": "GT2-true-false-not-given",
   "skill": "reading",
   "module": "general",
@@ -9,14 +10,23 @@
   "question_type": "true_false_not_given",
   "generated_by": "fable",
   "instructions": "Do the following statements agree with the information given in the passage?\n\nIn boxes 8-14 on your answer sheet, write\n\nTRUE if the statement agrees with the information\nFALSE if the statement contradicts the information\nNOT GIVEN if there is no information on this",
-  "options": ["TRUE", "FALSE", "NOT GIVEN"],
+  "options": [
+    "TRUE",
+    "FALSE",
+    "NOT GIVEN"
+  ],
   "items": [
     {
       "number": 8,
       "prompt": "Cyclists can borrow a helmet when they hire a bicycle.",
-      "answer": ["FALSE"],
+      "answer": [
+        "FALSE"
+      ],
       "evidence": "Helmets are not provided and riders are responsible for their own safety equipment.",
-      "evidence_locator": { "text": "A", "sentence": 3 },
+      "evidence_locator": {
+        "text": "A",
+        "sentence": 3
+      },
       "contradiction_point": "Pasaj kaskların sağlanmadığını ve sürücülerin kendi güvenlik ekipmanından sorumlu olduğunu söylüyor; ifade kiralamada kask ödünç alınabildiğini iddia ediyor. Çelişki tek noktada: kaskın sağlanıp sağlanmadığı.",
       "not_given_justification": null,
       "scan_note": "Kask ve güvenlik ekipmanı yalnızca A metninin 3. cümlesinde geçiyor. B–E metinlerinde kask ya da koruyucu ekipman anılmıyor; D'deki bone kuralı yüzmeye ait, bisikletle ilgisiz.",
@@ -27,7 +37,9 @@
     {
       "number": 9,
       "prompt": "The festival takes place in Castle Park every year.",
-      "answer": ["NOT GIVEN"],
+      "answer": [
+        "NOT GIVEN"
+      ],
       "evidence": null,
       "evidence_locator": null,
       "contradiction_point": null,
@@ -40,9 +52,14 @@
     {
       "number": 10,
       "prompt": "A weekend ticket bought in advance costs less than one bought at the gate.",
-      "answer": ["TRUE"],
+      "answer": [
+        "TRUE"
+      ],
       "evidence": "Weekend tickets cost £45 in advance or £55 on the gate; day tickets are available only for Friday and Saturday.",
-      "evidence_locator": { "text": "B", "sentence": 3 },
+      "evidence_locator": {
+        "text": "B",
+        "sentence": 3
+      },
       "contradiction_point": null,
       "not_given_justification": null,
       "scan_note": "Bilet fiyatları yalnızca B metninin 3. cümlesinde veriliyor (peşin 45, kapıda 55 sterlin). A'daki kiralama ücreti, C'deki kira, D'deki giriş ücreti ve E'deki kurs ücretleri festival biletiyle ilgisiz; çelişen cümle yok.",
@@ -53,9 +70,14 @@
     {
       "number": 11,
       "prompt": "Plot holders are warned in writing before an uncultivated plot is offered to someone else.",
-      "answer": ["TRUE"],
+      "answer": [
+        "TRUE"
+      ],
       "evidence": "Plot holders must keep at least 75% of their plot cultivated; uncultivated plots may be reassigned after two written warnings.",
-      "evidence_locator": { "text": "C", "sentence": 3 },
+      "evidence_locator": {
+        "text": "C",
+        "sentence": 3
+      },
       "contradiction_point": null,
       "not_given_justification": null,
       "scan_note": "Uyarı ve yeniden tahsis konusu yalnızca C metninin 3. cümlesinde geçiyor (iki yazılı uyarıdan sonra). C/1 bekleme listesini, C/2 kirayı, C/4 yapı iznini anlatıyor; hiçbiri ifadeyle çelişmiyor.",
@@ -66,9 +88,14 @@
     {
       "number": 12,
       "prompt": "An adult pays less than £5 to use the pool.",
-      "answer": ["FALSE"],
+      "answer": [
+        "FALSE"
+      ],
       "evidence": "Admission is £5.20 for adults and £3.10 for under-sixteens, free for children under three.",
-      "evidence_locator": { "text": "D", "sentence": 3 },
+      "evidence_locator": {
+        "text": "D",
+        "sentence": 3
+      },
       "contradiction_point": "Pasaj yetişkin girişinin 5,20 sterlin olduğunu söylüyor; ifade 5 sterlinin altında olduğunu iddia ediyor. Çelişki tek noktada: 5,20 sterlin 5 sterlinden azdır demek aritmetik olarak yanlış.",
       "not_given_justification": null,
       "scan_note": "Havuz giriş ücretleri yalnızca D metninin 3. cümlesinde veriliyor (yetişkin 5,20; on altı yaş altı 3,10; üç yaş altı ücretsiz). D'nin diğer cümleleri seans saatlerini ve bone kuralını anlatıyor; başka metindeki ücretler havuzla ilgisiz.",
@@ -79,7 +106,9 @@
     {
       "number": 13,
       "prompt": "Pottery is the centre's most popular evening class.",
-      "answer": ["NOT GIVEN"],
+      "answer": [
+        "NOT GIVEN"
+      ],
       "evidence": null,
       "evidence_locator": null,
       "contradiction_point": null,
@@ -92,9 +121,14 @@
     {
       "number": 14,
       "prompt": "Students who show valid identification are charged half the standard fee.",
-      "answer": ["TRUE"],
+      "answer": [
+        "TRUE"
+      ],
       "evidence": "Fees range from £60 to £110 depending on materials required; concessions of 50% are available to job seekers and students with valid identification.",
-      "evidence_locator": { "text": "E", "sentence": 3 },
+      "evidence_locator": {
+        "text": "E",
+        "sentence": 3
+      },
       "contradiction_point": null,
       "not_given_justification": null,
       "scan_note": "İndirim yalnızca E metninin 3. cümlesinde geçiyor (%50, iş arayanlar ve geçerli kimlikli öğrenciler). E'nin diğer cümleleri ders sayısı, kayıt yolu ve iptal eşiği; başka metinde öğrenci indirimi anılmıyor.",

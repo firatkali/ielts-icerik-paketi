@@ -1,5 +1,6 @@
 {
   "schema_version": "1.0",
+  "exam": "ielts",
   "set_id": "AT07",
   "skill": "writing",
   "module": "academic",
@@ -14,12 +15,54 @@
     "title": "Households with a home internet connection in four regions, 2000-2020",
     "x_label": "Year",
     "y_label": "Households with a connection (%)",
-    "categories": ["2000", "2005", "2010", "2015", "2020"],
+    "categories": [
+      "2000",
+      "2005",
+      "2010",
+      "2015",
+      "2020"
+    ],
     "series": [
-      { "name": "Eastport", "values": [25, 50, 71, 84, 93] },
-      { "name": "Northvale", "values": [18, 42, 68, 82, 91] },
-      { "name": "Central Plains", "values": [6, 15, 34, 58, 79] },
-      { "name": "Southern Isles", "values": [3, 8, 19, 35, 54] }
+      {
+        "name": "Eastport",
+        "values": [
+          25,
+          50,
+          71,
+          84,
+          93
+        ]
+      },
+      {
+        "name": "Northvale",
+        "values": [
+          18,
+          42,
+          68,
+          82,
+          91
+        ]
+      },
+      {
+        "name": "Central Plains",
+        "values": [
+          6,
+          15,
+          34,
+          58,
+          79
+        ]
+      },
+      {
+        "name": "Southern Isles",
+        "values": [
+          3,
+          8,
+          19,
+          35,
+          54
+        ]
+      }
     ],
     "unit": "%",
     "svg": null,

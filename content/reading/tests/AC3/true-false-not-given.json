@@ -1,5 +1,6 @@
 {
   "schema_version": "1.0",
+  "exam": "ielts",
   "set_id": "AC3-true-false-not-given",
   "skill": "reading",
   "module": "academic",
@@ -9,14 +10,23 @@
   "question_type": "true_false_not_given",
   "generated_by": "fable",
   "instructions": "Do the following statements agree with the information given in the passage?\n\nIn boxes 7-13 on your answer sheet, write\n\nTRUE if the statement agrees with the information\nFALSE if the statement contradicts the information\nNOT GIVEN if there is no information on this",
-  "options": ["TRUE", "FALSE", "NOT GIVEN"],
+  "options": [
+    "TRUE",
+    "FALSE",
+    "NOT GIVEN"
+  ],
   "items": [
     {
       "number": 7,
       "prompt": "Researchers still disagree about what a successful mirror test actually proves.",
-      "answer": ["TRUE"],
+      "answer": [
+        "TRUE"
+      ],
       "evidence": "Whether the test measures genuine self-awareness or something narrower remains contested, but passing it is still treated as one of the clearest behavioural signs that an animal can distinguish its own reflection from that of another individual.",
-      "evidence_locator": { "paragraph": "A", "sentence": 3 },
+      "evidence_locator": {
+        "paragraph": "A",
+        "sentence": 3
+      },
       "contradiction_point": null,
       "not_given_justification": null,
       "scan_note": "Testin ne ölçtüğü tartışması A paragrafında (3. cümle) ve H paragrafında ('The authors are cautious about overstating what the test proves' ve 'does not necessarily mean an animal possesses the same rich sense of self') ele alınıyor; ikisi de aynı yönde, tartışmanın sürdüğünü destekliyor, çelişen cümle yok.",
@@ -27,9 +37,14 @@
     {
       "number": 8,
       "prompt": "The group of belugas studied contained both male and female animals.",
-      "answer": ["FALSE"],
+      "answer": [
+        "FALSE"
+      ],
       "evidence": "The research took place at the New York Aquarium, run by the Wildlife Conservation Society, and involved four belugas: three adult females named Kathy, Marina and Natasha, and a younger female called Maris, who was Natasha's own daughter.",
-      "evidence_locator": { "paragraph": "B", "sentence": 1 },
+      "evidence_locator": {
+        "paragraph": "B",
+        "sentence": 1
+      },
       "contradiction_point": "Pasaj dört hayvanı tek tek sayarken üçünü 'adult females', dördüncüsünü de 'a younger female' diye tanımlıyor; yani grup tamamen dişi. İfade grupta erkek de bulunduğunu iddia ediyor. Çelişki tek noktada: cinsiyet bileşimi.",
       "not_given_justification": null,
       "scan_note": "Denek grubunun bileşimi yalnızca B paragrafının 1. cümlesinde veriliyor; hayvan adları E (Natasha), F (Maris ve iki balina) ve H (dört belugadan ikisi) paragraflarında da geçiyor, ama hiçbirinde erkek bir birey anılmıyor.",
@@ -40,9 +55,14 @@
     {
       "number": 9,
       "prompt": "Two of the animals reacted in a self-directed way during their first mirror session.",
-      "answer": ["TRUE"],
+      "answer": [
+        "TRUE"
+      ],
       "evidence": "These actions, described by the researchers as self-directed rather than social, appeared within the very first mirror session for two of the four animals, Natasha and Maris, after little more than two hours of exposure.",
-      "evidence_locator": { "paragraph": "C", "sentence": 3 },
+      "evidence_locator": {
+        "paragraph": "C",
+        "sentence": 3
+      },
       "contradiction_point": null,
       "not_given_justification": null,
       "scan_note": "Aynaya verilen tepkinin ne zaman başladığı C paragrafında (1. cümle 'From the very first sessions' ve 3. cümle) anlatılıyor; oturum düzeni B'de, bireyler arası farklar F ve H'de geçiyor. Hangi hayvanların ilk oturumda tepki verdiğini yalnızca C/3 söylüyor ve çelişen cümle yok.",
@@ -53,7 +73,9 @@
     {
       "number": 10,
       "prompt": "The belugas were given an anaesthetic before each mark was applied.",
-      "answer": ["NOT GIVEN"],
+      "answer": [
+        "NOT GIVEN"
+      ],
       "evidence": null,
       "evidence_locator": null,
       "contradiction_point": null,
@@ -66,9 +88,14 @@
     {
       "number": 11,
       "prompt": "Natasha was unsuccessful in two of her three mark tests.",
-      "answer": ["TRUE"],
+      "answer": [
+        "TRUE"
+      ],
       "evidence": "Natasha, the older of the two whales that had shown strong interest in the mirror, passed one of the three mark tests she was given.",
-      "evidence_locator": { "paragraph": "E", "sentence": 1 },
+      "evidence_locator": {
+        "paragraph": "E",
+        "sentence": 1
+      },
       "contradiction_point": null,
       "not_given_justification": null,
       "scan_note": "Natasha'nın işaret testleri E paragrafında (1. cümle sonuç, 2. ve 3. cümleler gerçek ve sahte işaret verileri) anlatılıyor; aynaya ilgisi C ve F'de, dört hayvandan ikisinin güçlü tepki verdiği H'de geçiyor. Kaç testten kaçını geçtiğini yalnızca E/1 veriyor.",
@@ -79,9 +106,14 @@
     {
       "number": 12,
       "prompt": "Maris produced fewer kinds of self-directed action at the mirror than Natasha did.",
-      "answer": ["FALSE"],
+      "answer": [
+        "FALSE"
+      ],
       "evidence": "Maris, by contrast, produced an equally rich range of self-directed behaviours at the mirror but never showed any sign of orienting towards her own mark.",
-      "evidence_locator": { "paragraph": "F", "sentence": 1 },
+      "evidence_locator": {
+        "paragraph": "F",
+        "sentence": 1
+      },
       "contradiction_point": "Pasaj Maris'in aynada 'equally rich range', yani aynı zenginlikte bir davranış çeşitliliği sergilediğini söylüyor; ifade onun daha az çeşit gösterdiğini iddia ediyor. Çelişki tek noktada: davranış çeşitliliğinin karşılaştırması (eşit / daha az).",
       "not_given_justification": null,
       "scan_note": "Maris'in davranışları C paragrafında (ilk oturumda tepki veren iki hayvandan biri) ve F paragrafında (1.-3. cümleler) geçiyor; Natasha ile karşılaştırma yalnızca F/1'de yapılıyor. Maris'in eksik kaldığı tek nokta işarete yönelme, davranış çeşitliliği değil.",
@@ -92,7 +124,9 @@
     {
       "number": 13,
       "prompt": "Belugas and narwhals are the only members of the Monodontidae family.",
-      "answer": ["NOT GIVEN"],
+      "answer": [
+        "NOT GIVEN"
+      ],
       "evidence": null,
       "evidence_locator": null,
       "contradiction_point": null,

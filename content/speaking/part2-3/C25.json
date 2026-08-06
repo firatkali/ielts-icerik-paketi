@@ -1,5 +1,6 @@
 {
   "schema_version": "1.0",
+  "exam": "ielts",
   "set_id": "C25",
   "skill": "speaking",
   "card_type": "olay",
@@ -15,22 +16,46 @@
     ],
     "closing": "and explain what you would do differently now.",
     "preparation_seconds": 60,
-    "speaking_seconds": [90, 120],
+    "speaking_seconds": [
+      90,
+      120
+    ],
     "follow_up": [
       "Did anyone else notice the mistake?",
       "Has anything similar happened since then?"
     ],
-    "useful_language": ["I got it wrong", "put it right", "a lesson learnt the hard way", "with hindsight"]
+    "useful_language": [
+      "I got it wrong",
+      "put it right",
+      "a lesson learnt the hard way",
+      "with hindsight"
+    ]
   },
   "part3": {
     "items": [
-      { "number": 1, "prompt": "Why do people often remember their mistakes better than their successes?",
-        "focus": "genel açıklama", "difficulty": "medium" },
-      { "number": 2, "prompt": "Do young people learn more from mistakes or from advice?",
-        "focus": "karşılaştırma", "difficulty": "medium" },
-      { "number": 3, "prompt": "Should organisations be more open about the mistakes they make?",
-        "focus": "öneri / görüş", "difficulty": "hard" }
+      {
+        "number": 1,
+        "prompt": "Why do people often remember their mistakes better than their successes?",
+        "focus": "genel açıklama",
+        "difficulty": "medium"
+      },
+      {
+        "number": 2,
+        "prompt": "Do young people learn more from mistakes or from advice?",
+        "focus": "karşılaştırma",
+        "difficulty": "medium"
+      },
+      {
+        "number": 3,
+        "prompt": "Should organisations be more open about the mistakes they make?",
+        "focus": "öneri / görüş",
+        "difficulty": "hard"
+      }
     ],
-    "useful_language": ["trial and error", "own up to it", "there is much to be said for"]
+    "useful_language": [
+      "trial and error",
+      "own up to it",
+      "there is much to be said for"
+    ]
   }
 }

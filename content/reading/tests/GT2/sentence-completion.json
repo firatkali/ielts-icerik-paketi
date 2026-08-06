@@ -1,5 +1,6 @@
 {
   "schema_version": "1.0",
+  "exam": "ielts",
   "set_id": "GT2-sentence-completion",
   "skill": "reading",
   "module": "general",
@@ -17,10 +18,18 @@
     {
       "number": 25,
       "prompt": "Staff can only ask to work from home once they have got through their (25) ........",
-      "answer": ["probationary period"],
-      "accepted_variants": ["probationary period"],
+      "answer": [
+        "probationary period"
+      ],
+      "accepted_variants": [
+        "probationary period"
+      ],
       "evidence": "Employees who have completed their probationary period may apply to work remotely for up to three days per week, subject to line manager approval and the operational needs of their team.",
-      "evidence_locator": { "text": "B", "paragraph": "A", "sentence": 1 },
+      "evidence_locator": {
+        "text": "B",
+        "paragraph": "A",
+        "sentence": 1
+      },
       "explanation": "B metninin A paragrafı, yalnızca deneme süresini tamamlamış çalışanların uzaktan çalışma başvurusu yapabileceğini söylüyor; bu yüzden cevap 'probationary period'.",
       "difficulty": "easy",
       "status": "verified"
@@ -28,10 +37,19 @@
     {
       "number": 26,
       "prompt": "The cost of (26) ........ that has been approved can be claimed back, but not more than £150 in any one year.",
-      "answer": ["home-office equipment"],
-      "accepted_variants": ["home-office equipment", "home office equipment"],
+      "answer": [
+        "home-office equipment"
+      ],
+      "accepted_variants": [
+        "home-office equipment",
+        "home office equipment"
+      ],
       "evidence": "Claim reimbursement for approved home-office equipment, up to £150 per year, through the expenses system.",
-      "evidence_locator": { "text": "B", "paragraph": "B", "sentence": 5 },
+      "evidence_locator": {
+        "text": "B",
+        "paragraph": "B",
+        "sentence": 5
+      },
       "explanation": "B metninin B paragrafı, onaylanmış ev ofisi ekipmanı için yılda 150 sterline kadar geri ödeme talep edilebileceğini söylüyor; bu yüzden cevap 'home-office equipment' (tireli sözcük tek kelime sayılır).",
       "difficulty": "medium",
       "status": "verified"
@@ -39,10 +57,19 @@
     {
       "number": 27,
       "prompt": "Permission to work from another country is seldom given for a stretch of longer than (27) ........",
-      "answer": ["four weeks"],
-      "accepted_variants": ["four weeks", "4 weeks"],
+      "answer": [
+        "four weeks"
+      ],
+      "accepted_variants": [
+        "four weeks",
+        "4 weeks"
+      ],
       "evidence": "Working from outside the country is not permitted without separate written approval from both HR and the relevant country office, and such approval is rarely granted for periods longer than four weeks.",
-      "evidence_locator": { "text": "B", "paragraph": "D", "sentence": 2 },
+      "evidence_locator": {
+        "text": "B",
+        "paragraph": "D",
+        "sentence": 2
+      },
       "explanation": "B metninin D paragrafı, yurt dışından çalışma izninin dört haftadan uzun süreler için nadiren verildiğini söylüyor; bu yüzden cevap 'four weeks'.",
       "difficulty": "hard",
       "status": "verified"

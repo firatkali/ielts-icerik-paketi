@@ -1,5 +1,6 @@
 {
   "schema_version": "1.0",
+  "exam": "ielts",
   "set_id": "AT19",
   "skill": "writing",
   "module": "academic",
@@ -15,13 +16,43 @@
     "x_label": null,
     "y_label": null,
     "chart_data": {
-      "headers": ["Type of land", "1990 (%)", "2005 (%)", "2020 (%)"],
+      "headers": [
+        "Type of land",
+        "1990 (%)",
+        "2005 (%)",
+        "2020 (%)"
+      ],
       "rows": [
-        ["Farmland", 52, 45, 36],
-        ["Forest and woodland", 21, 24, 28],
-        ["Built-up land", 12, 18, 26],
-        ["Wetland and open water", 6, 6, 5],
-        ["Other open land", 9, 7, 5]
+        [
+          "Farmland",
+          52,
+          45,
+          36
+        ],
+        [
+          "Forest and woodland",
+          21,
+          24,
+          28
+        ],
+        [
+          "Built-up land",
+          12,
+          18,
+          26
+        ],
+        [
+          "Wetland and open water",
+          6,
+          6,
+          5
+        ],
+        [
+          "Other open land",
+          9,
+          7,
+          5
+        ]
       ]
     },
     "unit": "%",

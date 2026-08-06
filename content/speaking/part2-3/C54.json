@@ -1,5 +1,6 @@
 {
   "schema_version": "1.0",
+  "exam": "ielts",
   "set_id": "C54",
   "skill": "speaking",
   "card_type": "kişi",
@@ -15,22 +16,46 @@
     ],
     "closing": "and explain why you find their job so interesting.",
     "preparation_seconds": 60,
-    "speaking_seconds": [90, 120],
+    "speaking_seconds": [
+      90,
+      120
+    ],
     "follow_up": [
       "Would that kind of work suit you?",
       "Do they enjoy talking about it?"
     ],
-    "useful_language": ["no two days are the same", "hands-on work", "work their way up", "it takes years of training"]
+    "useful_language": [
+      "no two days are the same",
+      "hands-on work",
+      "work their way up",
+      "it takes years of training"
+    ]
   },
   "part3": {
     "items": [
-      { "number": 1, "prompt": "What makes a job interesting rather than simply well paid?",
-        "focus": "genel açıklama", "difficulty": "medium" },
-      { "number": 2, "prompt": "Do people choose their work for the same reasons as a generation ago?",
-        "focus": "karşılaştırma", "difficulty": "medium" },
-      { "number": 3, "prompt": "Which kinds of work are likely to disappear over the next thirty years?",
-        "focus": "gelecek / görüş", "difficulty": "hard" }
+      {
+        "number": 1,
+        "prompt": "What makes a job interesting rather than simply well paid?",
+        "focus": "genel açıklama",
+        "difficulty": "medium"
+      },
+      {
+        "number": 2,
+        "prompt": "Do people choose their work for the same reasons as a generation ago?",
+        "focus": "karşılaştırma",
+        "difficulty": "medium"
+      },
+      {
+        "number": 3,
+        "prompt": "Which kinds of work are likely to disappear over the next thirty years?",
+        "focus": "gelecek / görüş",
+        "difficulty": "hard"
+      }
     ],
-    "useful_language": ["job satisfaction", "a steady income", "career prospects"]
+    "useful_language": [
+      "job satisfaction",
+      "a steady income",
+      "career prospects"
+    ]
   }
 }

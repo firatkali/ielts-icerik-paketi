@@ -1,5 +1,6 @@
 {
   "schema_version": "1.0",
+  "exam": "ielts",
   "set_id": "AC4-multiple-choice",
   "skill": "reading",
   "module": "academic",
@@ -15,14 +16,31 @@
       "select_count": 1,
       "prompt": "Why does the writer say the nap question has practical importance?",
       "options": [
-        { "letter": "A", "text": "Employers have begun offering staff rest breaks" },
-        { "letter": "B", "text": "Students often depend on naps before examinations" },
-        { "letter": "C", "text": "Napping is routine in some societies, sleep scarce in others" },
-        { "letter": "D", "text": "Researchers disagree over what consolidation involves" }
+        {
+          "letter": "A",
+          "text": "Employers have begun offering staff rest breaks"
+        },
+        {
+          "letter": "B",
+          "text": "Students often depend on naps before examinations"
+        },
+        {
+          "letter": "C",
+          "text": "Napping is routine in some societies, sleep scarce in others"
+        },
+        {
+          "letter": "D",
+          "text": "Researchers disagree over what consolidation involves"
+        }
       ],
-      "answer": ["C"],
+      "answer": [
+        "C"
+      ],
       "evidence": "What is less well understood is whether a brief nap during the day offers the same benefit as an entire night of sleep, a question with practical relevance in cultures where daytime napping is common and in societies where a full night's sleep is often in short supply.",
-      "evidence_locator": { "paragraph": "A", "sentence": 2 },
+      "evidence_locator": {
+        "paragraph": "A",
+        "sentence": 2
+      },
       "distractor_analysis": {
         "A": "Cazip ama yok — işverenlerden ya da iş yerinde dinlenme molasından hiç söz edilmiyor; gündüz uykusunun yaygınlığı anlatıldığı için akla yatkın görünüyor.",
         "B": "Yakın ama eksik — son paragraf, ders çalışmak ya da kaybedilen uykuyu telafi etmek için şekerlemeye güvenenlerden söz ediyor; ama bu, bulguların uygulamadaki karşılığı, sorunun ilk paragrafta verilen gerekçesi değil.",
@@ -37,14 +55,31 @@
       "select_count": 1,
       "prompt": "In the first experiment, how were the two groups alike?",
       "options": [
-        { "letter": "A", "text": "They were tested at the same time of day" },
-        { "letter": "B", "text": "They waited an equal time before testing" },
-        { "letter": "C", "text": "They were made up of the same volunteers" },
-        { "letter": "D", "text": "They learned their pairs in the morning" }
+        {
+          "letter": "A",
+          "text": "They were tested at the same time of day"
+        },
+        {
+          "letter": "B",
+          "text": "They waited an equal time before testing"
+        },
+        {
+          "letter": "C",
+          "text": "They were made up of the same volunteers"
+        },
+        {
+          "letter": "D",
+          "text": "They learned their pairs in the morning"
+        }
       ],
-      "answer": ["B"],
+      "answer": [
+        "B"
+      ],
       "evidence": "The sleep group learned a list of word pairs at nine in the evening and were tested on their recall the following morning at nine, after a normal night's sleep. The wake group learned the same material at nine in the morning and were tested twelve hours later, at nine that evening, having remained awake throughout.",
-      "evidence_locator": { "paragraph": "C", "sentence": 2 },
+      "evidence_locator": {
+        "paragraph": "C",
+        "sentence": 2
+      },
       "distractor_analysis": {
         "A": "Yakın ama eksik — iki grubun sınavı da saat dokuzda yapılıyor, ama biri sabah dokuz öbürü akşam dokuz; saat aynı, günün saati değil.",
         "C": "Yer değiştirme — aynı kişilerin iki koşulu birden yaşaması ikinci deneyin tasarımı; birinci deneyde katılımcılar iki ayrı gruba bölünüyor.",
@@ -59,17 +94,44 @@
       "select_count": 2,
       "prompt": "Which TWO features of the naps in the second study are reported?",
       "options": [
-        { "letter": "A", "text": "Taken by people who rarely nap" },
-        { "letter": "B", "text": "Nap length predicted the memory gain" },
-        { "letter": "C", "text": "Brain activity was recorded during them" },
-        { "letter": "D", "text": "They reached the deepest sleep stages" },
-        { "letter": "E", "text": "Lighter sleep made up most of them" },
-        { "letter": "F", "text": "They began in the early evening" },
-        { "letter": "G", "text": "Testing followed immediately after waking" }
+        {
+          "letter": "A",
+          "text": "Taken by people who rarely nap"
+        },
+        {
+          "letter": "B",
+          "text": "Nap length predicted the memory gain"
+        },
+        {
+          "letter": "C",
+          "text": "Brain activity was recorded during them"
+        },
+        {
+          "letter": "D",
+          "text": "They reached the deepest sleep stages"
+        },
+        {
+          "letter": "E",
+          "text": "Lighter sleep made up most of them"
+        },
+        {
+          "letter": "F",
+          "text": "They began in the early evening"
+        },
+        {
+          "letter": "G",
+          "text": "Testing followed immediately after waking"
+        }
       ],
-      "answer": ["C", "E"],
+      "answer": [
+        "C",
+        "E"
+      ],
       "evidence": "Each learned 40 related and 40 unrelated word pairs at half past one in the afternoon, then either took a 90-minute nap, during which brain activity was recorded using polysomnography, or remained awake for an equivalent period. Naps in the second experiment lasted an average of 64.1 minutes and consisted mainly of Stage 2 sleep, a lighter stage than the deep sleep typically associated with the middle of a full night.",
-      "evidence_locator": { "paragraph": "D", "sentence": 2 },
+      "evidence_locator": {
+        "paragraph": "D",
+        "sentence": 2
+      },
       "distractor_analysis": {
         "A": "Yer değiştirme — katılımcılar haftada en az bir kez şekerleme yapan kişiler arasından seçildi; seçenek bu koşulu tersine çeviriyor.",
         "B": "Yakın ama eksik — pasaj tam bu ilişkiyi ele alıyor, ancak ne şekerlemenin süresinin ne de içerdiği evrelerin bellek kazanımıyla anlamlı bir bağı olduğunu söylüyor.",

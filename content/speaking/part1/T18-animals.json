@@ -1,82 +1,136 @@
 {
   "schema_version": "1.0",
+  "exam": "ielts",
   "set_id": "T18-animals",
   "skill": "speaking",
   "part": 1,
   "topic": "Animals",
   "topic_tr": "Hayvanlar",
   "generated_by": "opus",
-  "expected_answer_seconds": [20, 40],
+  "expected_answer_seconds": [
+    20,
+    40
+  ],
   "items": [
     {
       "number": 1,
       "prompt": "What kinds of animals are common where you live?",
       "focus": "temel bilgi",
       "difficulty": "easy",
-      "useful_language": ["you see a lot of birds in the mornings", "there are stray cats around the flats", "not much wildlife in the centre", "the parks are full of them"]
+      "useful_language": [
+        "you see a lot of birds in the mornings",
+        "there are stray cats around the flats",
+        "not much wildlife in the centre",
+        "the parks are full of them"
+      ]
     },
     {
       "number": 2,
       "prompt": "How much contact do you have with animals in a normal week?",
       "focus": "alışkanlık",
       "difficulty": "easy",
-      "useful_language": ["very little, other than in the park", "I feed the birds on the balcony", "I look after one for a neighbour now and then", "more than most people, I'd say"]
+      "useful_language": [
+        "very little, other than in the park",
+        "I feed the birds on the balcony",
+        "I look after one for a neighbour now and then",
+        "more than most people, I'd say"
+      ]
     },
     {
       "number": 3,
       "prompt": "What animals did you like most when you were a child?",
       "focus": "geçmiş",
       "difficulty": "easy",
-      "useful_language": ["I was fascinated by", "I had a book about them I read to pieces", "I went through a phase of", "I was a bit frightened of them at first"]
+      "useful_language": [
+        "I was fascinated by",
+        "I had a book about them I read to pieces",
+        "I went through a phase of",
+        "I was a bit frightened of them at first"
+      ]
     },
     {
       "number": 4,
       "prompt": "Which animal would you most enjoy watching in the wild, and why?",
       "focus": "tercih ve sebep",
       "difficulty": "medium",
-      "useful_language": ["something you'd never see close to home", "I'd rather watch them than a film about them", "they're supposed to be very intelligent", "just seeing one would be enough"]
+      "useful_language": [
+        "something you'd never see close to home",
+        "I'd rather watch them than a film about them",
+        "they're supposed to be very intelligent",
+        "just seeing one would be enough"
+      ]
     },
     {
       "number": 5,
       "prompt": "What is the best way for children to learn about animals?",
       "focus": "öneri",
       "difficulty": "medium",
-      "useful_language": ["seeing them with their own eyes", "looking after something small teaches responsibility", "a book only takes you so far", "you learn more from a walk than a lesson"]
+      "useful_language": [
+        "seeing them with their own eyes",
+        "looking after something small teaches responsibility",
+        "a book only takes you so far",
+        "you learn more from a walk than a lesson"
+      ]
     },
     {
       "number": 6,
       "prompt": "How much do the birds and animals around you change with the seasons?",
       "focus": "gözlem",
       "difficulty": "medium",
-      "useful_language": ["certain birds disappear altogether", "you hear them long before you see them", "there's far more about in the warmer months", "I only notice it when it goes quiet"]
+      "useful_language": [
+        "certain birds disappear altogether",
+        "you hear them long before you see them",
+        "there's far more about in the warmer months",
+        "I only notice it when it goes quiet"
+      ]
     },
     {
       "number": 7,
       "prompt": "Why do some people keep animals at home?",
       "focus": "başkaları açısı ve sebep",
       "difficulty": "medium",
-      "useful_language": ["it's company more than anything", "they give the day some structure", "children ask for one and the parents give in", "it gets you out of the house"]
+      "useful_language": [
+        "it's company more than anything",
+        "they give the day some structure",
+        "children ask for one and the parents give in",
+        "it gets you out of the house"
+      ]
     },
     {
       "number": 8,
       "prompt": "What would change in a city if there were more space left for wildlife?",
       "focus": "varsayım",
       "difficulty": "hard",
-      "useful_language": ["it would make the place feel less built up", "people would notice the seasons again", "it would cost something in land", "the air and the noise would improve with it"]
+      "useful_language": [
+        "it would make the place feel less built up",
+        "people would notice the seasons again",
+        "it would cost something in land",
+        "the air and the noise would improve with it"
+      ]
     },
     {
       "number": 9,
       "prompt": "How has people's attitude towards animals changed over the years?",
       "focus": "değişim",
       "difficulty": "hard",
-      "useful_language": ["they were seen as working creatures once", "there's far more concern about how they're treated", "it varies a great deal from place to place", "the shift has come mostly in the last generation"]
+      "useful_language": [
+        "they were seen as working creatures once",
+        "there's far more concern about how they're treated",
+        "it varies a great deal from place to place",
+        "the shift has come mostly in the last generation"
+      ]
     },
     {
       "number": 10,
       "prompt": "How is seeing an animal near your home different from seeing one on a screen?",
       "focus": "karşılaştırma",
       "difficulty": "hard",
-      "useful_language": ["a film shows you far more than you'd ever see", "there's nothing like coming across one by chance", "on screen it's always the dramatic moment", "you get the size and the smell of it in person"]
+      "useful_language": [
+        "a film shows you far more than you'd ever see",
+        "there's nothing like coming across one by chance",
+        "on screen it's always the dramatic moment",
+        "you get the size and the smell of it in person"
+      ]
     }
   ]
 }

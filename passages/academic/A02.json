@@ -1,5 +1,6 @@
 {
   "schema_version": "1.0",
+  "exam": "ielts",
   "passage_id": "A02",
   "module": "academic",
   "section": null,
@@ -7,14 +8,38 @@
   "topic": "doğa / hayvan davranışı",
   "word_count": 730,
   "paragraphs": [
-    { "label": "A", "text": "Octopuses live largely solitary lives, hidden in dens on the seabed, yet they are capable of surprisingly sophisticated behaviour for animals so distantly related to humans. One open question has been whether an octopus can tell familiar neighbours apart from complete strangers, a skill known in many social animals as individual recognition. A team working in Italy designed the first experiment to test this directly in the common octopus, Octopus vulgaris." },
-    { "label": "B", "text": "The researchers collected sixty octopuses from the Bay of Naples over two summer seasons and formed twenty-four pairs, each matched so that the two animals differed in weight by no more than fifteen per cent. Individual octopuses ranged from 114 to 324 grams, and the sample of sixty animals included forty-two males and eighteen females. Every pair was housed in its own tank, measuring sixty-five by one hundred by fifty centimetres and supplied with running seawater kept at a constant 24°C, so that any behavioural change could be attributed to the animals' experience of one another rather than to differences in their surroundings." },
-    { "label": "C", "text": "Before the octopuses ever met, they spent three days in one of two conditions. Half the pairs sat in neighbouring tanks separated by a transparent divider, allowing them to see but not touch or smell each other, since the water supplies were kept fully separate. The other half were separated by an opaque divider and had no contact of any kind. This stage let the researchers ask whether visual exposure alone, before any physical encounter, was enough to influence later behaviour." },
-    { "label": "D", "text": "Next came three days of direct cohabitation. Each pair was allowed fifteen minutes together daily, during which observers recorded every interaction and noted which animal retreated and which stood its ground. Across these encounters a dominance hierarchy consistently emerged, with the stronger animal in each pair winning an average of seventy-six per cent of interactions, and physical contact and defensive ink-jetting both became less frequent as the three days went on and the pair grew more familiar with one another." },
-    { "label": "E", "text": "The decisive test came on the seventh day. In half the pairs, an octopus was reunited with the same partner it had lived alongside for three days, a \"sham\" switch. In the other half, one animal was quietly replaced with a stranger of similar size and weight, so that the resident octopus met an individual it had never encountered before. Each reunion again lasted fifteen minutes, and the same behaviours were recorded as in the earlier cohabitation phase." },
-    { "label": "F", "text": "Several measures distinguished the two situations sharply. Octopuses reunited with a familiar partner took noticeably longer to make first contact and were more likely to keep a cautious distance without touching. Pairs made up of strangers, by contrast, interacted sooner, touched each other more often, and spent longer engaged with one another overall. Reversals of dominance, in which the previously subordinate animal became the stronger one, occurred only when the pair consisted of two strangers, in eight of the twelve such pairings; no reversal of this kind was seen among reunited familiar pairs, and no ink was released by any octopus during this final test." },
-    { "label": "G", "text": "Taken together, the pattern suggests that an octopus retains some memory of an individual it has met before, and that this memory changes how cautiously or readily it approaches that animal a full day later. The authors describe this as class-level, or binary, recognition: an octopus need not identify a unique individual by name, so to speak, only sort others into the broad categories of \"known\" and \"unknown\" and adjust its behaviour accordingly." },
-    { "label": "H", "text": "The researchers argue that this ability has a clear practical value in the wild, where neighbouring octopuses often occupy dens only metres apart. Repeated costly fights between the same two animals would waste energy and risk injury to no purpose, so an octopus that can recognise a familiar neighbour and respond to it with reduced aggression, a pattern long described in other species as the \"dear enemy\" effect, stands to gain from avoiding needless conflict. Because vision alone, without touch or water-borne chemical cues, was enough to produce weaker measurable differences in the earlier acclimatisation stage, the team suggests that sight and physical contact together, rather than either sense alone, most likely underlie this recognition, though they note that octopuses' sense of smell and taste remains too poorly understood to rule out a contribution from chemical signals as well." }
+    {
+      "label": "A",
+      "text": "Octopuses live largely solitary lives, hidden in dens on the seabed, yet they are capable of surprisingly sophisticated behaviour for animals so distantly related to humans. One open question has been whether an octopus can tell familiar neighbours apart from complete strangers, a skill known in many social animals as individual recognition. A team working in Italy designed the first experiment to test this directly in the common octopus, Octopus vulgaris."
+    },
+    {
+      "label": "B",
+      "text": "The researchers collected sixty octopuses from the Bay of Naples over two summer seasons and formed twenty-four pairs, each matched so that the two animals differed in weight by no more than fifteen per cent. Individual octopuses ranged from 114 to 324 grams, and the sample of sixty animals included forty-two males and eighteen females. Every pair was housed in its own tank, measuring sixty-five by one hundred by fifty centimetres and supplied with running seawater kept at a constant 24°C, so that any behavioural change could be attributed to the animals' experience of one another rather than to differences in their surroundings."
+    },
+    {
+      "label": "C",
+      "text": "Before the octopuses ever met, they spent three days in one of two conditions. Half the pairs sat in neighbouring tanks separated by a transparent divider, allowing them to see but not touch or smell each other, since the water supplies were kept fully separate. The other half were separated by an opaque divider and had no contact of any kind. This stage let the researchers ask whether visual exposure alone, before any physical encounter, was enough to influence later behaviour."
+    },
+    {
+      "label": "D",
+      "text": "Next came three days of direct cohabitation. Each pair was allowed fifteen minutes together daily, during which observers recorded every interaction and noted which animal retreated and which stood its ground. Across these encounters a dominance hierarchy consistently emerged, with the stronger animal in each pair winning an average of seventy-six per cent of interactions, and physical contact and defensive ink-jetting both became less frequent as the three days went on and the pair grew more familiar with one another."
+    },
+    {
+      "label": "E",
+      "text": "The decisive test came on the seventh day. In half the pairs, an octopus was reunited with the same partner it had lived alongside for three days, a \"sham\" switch. In the other half, one animal was quietly replaced with a stranger of similar size and weight, so that the resident octopus met an individual it had never encountered before. Each reunion again lasted fifteen minutes, and the same behaviours were recorded as in the earlier cohabitation phase."
+    },
+    {
+      "label": "F",
+      "text": "Several measures distinguished the two situations sharply. Octopuses reunited with a familiar partner took noticeably longer to make first contact and were more likely to keep a cautious distance without touching. Pairs made up of strangers, by contrast, interacted sooner, touched each other more often, and spent longer engaged with one another overall. Reversals of dominance, in which the previously subordinate animal became the stronger one, occurred only when the pair consisted of two strangers, in eight of the twelve such pairings; no reversal of this kind was seen among reunited familiar pairs, and no ink was released by any octopus during this final test."
+    },
+    {
+      "label": "G",
+      "text": "Taken together, the pattern suggests that an octopus retains some memory of an individual it has met before, and that this memory changes how cautiously or readily it approaches that animal a full day later. The authors describe this as class-level, or binary, recognition: an octopus need not identify a unique individual by name, so to speak, only sort others into the broad categories of \"known\" and \"unknown\" and adjust its behaviour accordingly."
+    },
+    {
+      "label": "H",
+      "text": "The researchers argue that this ability has a clear practical value in the wild, where neighbouring octopuses often occupy dens only metres apart. Repeated costly fights between the same two animals would waste energy and risk injury to no purpose, so an octopus that can recognise a familiar neighbour and respond to it with reduced aggression, a pattern long described in other species as the \"dear enemy\" effect, stands to gain from avoiding needless conflict. Because vision alone, without touch or water-borne chemical cues, was enough to produce weaker measurable differences in the earlier acclimatisation stage, the team suggests that sight and physical contact together, rather than either sense alone, most likely underlie this recognition, though they note that octopuses' sense of smell and taste remains too poorly understood to rule out a contribution from chemical signals as well."
+    }
   ],
   "texts": null,
   "source": {

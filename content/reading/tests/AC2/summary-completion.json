@@ -1,5 +1,6 @@
 {
   "schema_version": "1.0",
+  "exam": "ielts",
   "set_id": "AC2-summary-completion",
   "skill": "reading",
   "module": "academic",
@@ -11,16 +12,46 @@
   "instructions": "Complete the summary using the list of words and phrases, A-J, below.",
   "word_limit": null,
   "word_bank": [
-    { "letter": "A", "text": "a controlled experiment" },
-    { "letter": "B", "text": "a distraction" },
-    { "letter": "C", "text": "a reliable measure" },
-    { "letter": "D", "text": "a rough guide" },
-    { "letter": "E", "text": "a training period" },
-    { "letter": "F", "text": "extra pay" },
-    { "letter": "G", "text": "face-to-face contact" },
-    { "letter": "H", "text": "length of service" },
-    { "letter": "I", "text": "no measurable benefit" },
-    { "letter": "J", "text": "social comparison" }
+    {
+      "letter": "A",
+      "text": "a controlled experiment"
+    },
+    {
+      "letter": "B",
+      "text": "a distraction"
+    },
+    {
+      "letter": "C",
+      "text": "a reliable measure"
+    },
+    {
+      "letter": "D",
+      "text": "a rough guide"
+    },
+    {
+      "letter": "E",
+      "text": "a training period"
+    },
+    {
+      "letter": "F",
+      "text": "extra pay"
+    },
+    {
+      "letter": "G",
+      "text": "face-to-face contact"
+    },
+    {
+      "letter": "H",
+      "text": "length of service"
+    },
+    {
+      "letter": "I",
+      "text": "no measurable benefit"
+    },
+    {
+      "letter": "J",
+      "text": "social comparison"
+    }
   ],
   "visual": null,
   "stem_block": "Peer effects in a company with no offices\n\nCaster Inc has never run a physical office, which makes it an unusually clean setting in which to study how colleagues shape one another's output. New staff were sorted into teams purely by the order in which they arrived, a rule neither managers nor employees could bend, so team make-up amounted in practice to (36) ........ , and the authors could argue for cause rather than mere association. Output was recorded as the number of clients a person looked after in a month, a figure that standard hours and fixed contracts turn into (37) ........ of how much useful work was really done. Being placed beside the company's strongest performers brought (38) ........ , even in the most productive quarter of teams. What counted instead was (39) ........ : teams whose members had stayed longest raised the output of those around them, and the gain was largest for staff still in their first year. Since the most experienced teams in fact exchanged fewer messages than the rest, the authors conclude that such groups rely on a shared, unspoken sense of who knows what, and that steady contact is largely (40) ........ for people who already know their job.",
@@ -28,10 +59,19 @@
     {
       "number": 36,
       "prompt": "New staff were sorted into teams purely by the order in which they arrived, a rule neither managers nor employees could bend, so team make-up amounted in practice to (36) ........ , and the authors could argue for cause rather than mere association.",
-      "answer": ["A"],
-      "accepted_variants": ["A", "a controlled experiment", "controlled experiment"],
+      "answer": [
+        "A"
+      ],
+      "accepted_variants": [
+        "A",
+        "a controlled experiment",
+        "controlled experiment"
+      ],
       "evidence": "This effectively randomised which colleagues an employee ended up working alongside, letting the researchers treat team composition almost as if it had been assigned in a controlled experiment, and so identify cause and effect rather than mere correlation.",
-      "evidence_locator": { "paragraph": "C", "sentence": 2 },
+      "evidence_locator": {
+        "paragraph": "C",
+        "sentence": 2
+      },
       "explanation": "Paragraf C, katılış sırasına göre yapılan atamanın takım bileşimini rastgele hâle getirdiğini ve araştırmacıların bunu neredeyse kontrollü bir deney gibi ele alabildiğini söylüyor; bu yüzden doğru seçenek A ('a controlled experiment').",
       "difficulty": "medium",
       "status": "verified"
@@ -39,10 +79,19 @@
     {
       "number": 37,
       "prompt": "Output was recorded as the number of clients a person looked after in a month, a figure that standard hours and fixed contracts turn into (37) ........ of how much useful work was really done.",
-      "answer": ["C"],
-      "accepted_variants": ["C", "a reliable measure", "reliable measure"],
+      "answer": [
+        "C"
+      ],
+      "accepted_variants": [
+        "C",
+        "a reliable measure",
+        "reliable measure"
+      ],
       "evidence": "Because the company standardises working hours and each client contract allocates a fixed thirty hours of monthly support, the number of clients handled is a dependable stand-in for how much useful work an individual completed, avoiding the ambiguity that self-reported effort or hours worked can introduce into workplace research.",
-      "evidence_locator": { "paragraph": "D", "sentence": 2 },
+      "evidence_locator": {
+        "paragraph": "D",
+        "sentence": 2
+      },
       "explanation": "Paragraf D, sabit çalışma saatleri ve her sözleşmedeki sabit otuz saat sayesinde müşteri sayısının yapılan işin 'güvenilir' bir ölçüsü olduğunu söylüyor; bu yüzden doğru seçenek C. D seçeneği ('a rough guide') yanlış, çünkü metin bu ölçünün belirsizlikten kaçındığını vurguluyor.",
       "difficulty": "medium",
       "status": "verified"
@@ -50,10 +99,18 @@
     {
       "number": 38,
       "prompt": "Being placed beside the company's strongest performers brought (38) ........ , even in the most productive quarter of teams.",
-      "answer": ["I"],
-      "accepted_variants": ["I", "no measurable benefit"],
+      "answer": [
+        "I"
+      ],
+      "accepted_variants": [
+        "I",
+        "no measurable benefit"
+      ],
       "evidence": "Working alongside colleagues who were themselves highly productive produced no measurable improvement in an individual's own output, even for employees placed in teams whose average productivity ranked in the top quarter of the company.",
-      "evidence_locator": { "paragraph": "E", "sentence": 2 },
+      "evidence_locator": {
+        "paragraph": "E",
+        "sentence": 2
+      },
       "explanation": "Paragraf E, verimliliği yüksek meslektaşlarla çalışmanın kişinin kendi çıktısında ölçülebilir hiçbir iyileşme sağlamadığını, en üst çeyrekteki takımlarda bile böyle olduğunu söylüyor; bu yüzden doğru seçenek I.",
       "difficulty": "easy",
       "status": "verified"
@@ -61,10 +118,18 @@
     {
       "number": 39,
       "prompt": "What counted instead was (39) ........ : teams whose members had stayed longest raised the output of those around them, and the gain was largest for staff still in their first year.",
-      "answer": ["H"],
-      "accepted_variants": ["H", "length of service"],
+      "answer": [
+        "H"
+      ],
+      "accepted_variants": [
+        "H",
+        "length of service"
+      ],
       "evidence": "Employees placed in teams with the most experienced average tenure, the top twenty-five per cent of teams by this measure, saw their own productivity rise by roughly 12.2 per cent.",
-      "evidence_locator": { "paragraph": "F", "sentence": 2 },
+      "evidence_locator": {
+        "paragraph": "F",
+        "sentence": 2
+      },
       "explanation": "Paragraf F, belirleyici etkenin ham verimlilik değil takımın ortalama kıdemi olduğunu, kıdemi en yüksek takımlardaki çalışanların çıktısının yaklaşık yüzde 12,2 arttığını söylüyor; kıdem = hizmet süresi olduğu için doğru seçenek H.",
       "difficulty": "medium",
       "status": "verified"
@@ -72,10 +137,19 @@
     {
       "number": 40,
       "prompt": "Since the most experienced teams in fact exchanged fewer messages than the rest, the authors conclude that such groups rely on a shared, unspoken sense of who knows what, and that steady contact is largely (40) ........ for people who already know their job.",
-      "answer": ["B"],
-      "accepted_variants": ["B", "a distraction", "distraction"],
+      "answer": [
+        "B"
+      ],
+      "accepted_variants": [
+        "B",
+        "a distraction",
+        "distraction"
+      ],
       "evidence": "In fact, teams with the highest average tenure communicated internally less than other teams, a statistically significant difference, and experienced or already highly productive employees tended to perform best in exactly these lower-communication settings, suggesting that frequent messaging may sometimes distract rather than assist workers who already know what they are doing.",
-      "evidence_locator": { "paragraph": "G", "sentence": 2 },
+      "evidence_locator": {
+        "paragraph": "G",
+        "sentence": 2
+      },
       "explanation": "Paragraf G, sık mesajlaşmanın işini zaten bilen çalışanlara yardım etmek yerine onları oyalayabileceğini söylüyor; bu yüzden doğru seçenek B ('a distraction').",
       "difficulty": "hard",
       "status": "verified"

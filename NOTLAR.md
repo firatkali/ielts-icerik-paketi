@@ -6516,3 +6516,24 @@ hiç kullanılmadı, kalan on soruda birer kez. Çeldirici türü çeşitliliği
   yazmak yapay uyusmazlik uretiyor; cevaplar tek bicime indirildi. Oran bu yuzden **alt
   sinir**.
 - Atlanan/sorun: yok. **CAPRAZ-90 tamam** — yedi calistirmanin hepsi bitti.
+
+## SONNET5-A0-kimlik-ve-esik
+
+- Tarih: 2026-08-06
+- `tools/_a0_kimlik.py` yazildi ve calistirildi: `content/` ve `passages/` altindaki
+  345 JSON dosyasindan **344 tanesine** `"exam": "ielts"` alani `schema_version`'dan
+  hemen sonra eklendi. **0 tanesinde zaten vardi.** **1 tanesi atlandi:**
+  `passages/INDEX.json` (en ust duzeyi dict degil, dizi — eklenecek "ust duzey" alani
+  yok, veri yapisi bozulmasin diye dokunulmadi). Soru metinlerine, cevaplara,
+  aciklamalara dokunulmadi; sadece zarf alani eklendi.
+- `tools/_a0_test_tanimlari.py` yazildi ve calistirildi: 12 tam test klasorunun her
+  birine bir `_test.json` band esigi tanim dosyasi uretildi (AC1–AC4, GT1–GT2,
+  L1–L6). Tablolar prompttaki degerler aynen kullanildi, uydurulmadi: Academic okuma,
+  General Training okuma ve Dinleme icin uc ayri tablo.
+- `python tools/dogrula.py` sonrasi **0 sema hatasi** — `_test.json` dosyalari
+  `ortak.soru_dosyalari()` tarafindan zaten alt cizgiyle basladigi icin soru seti
+  sanilmiyor, dolayisiyla schema kontrolune girmiyor. 12 tam test hala 40/40 TAM.
+- Not: `json.load` → alan ekle → `json.dump(indent=2)` yontemi prompt tarafindan
+  acikca istendigi icin, daha once tek satirda yazilmis bazi diziler/nesneler
+  (`"answer": ["cable"]` gibi) coklu satira genisledi — bu, icerikte degisiklik degil,
+  bicimlendirme farki (git diff'te satir sayisi fazla gorunmesinin sebebi budur).

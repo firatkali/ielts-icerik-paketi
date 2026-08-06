@@ -1,5 +1,6 @@
 {
   "schema_version": "1.0",
+  "exam": "ielts",
   "passage_id": "A01",
   "module": "academic",
   "section": null,
@@ -7,14 +8,38 @@
   "topic": "doğa / hayvan davranışı",
   "word_count": 756,
   "paragraphs": [
-    { "label": "A", "text": "Elephants have long impressed scientists with their large brains, complex social lives and unusual skill with objects held in the trunk. Laboratory studies have shown that elephants can recognise themselves in a mirror, remember locations for years and use branches to swat flies. Yet when researchers set them the kind of \"insight\" puzzles that chimpanzees solve in a single flash of understanding, suddenly stacking boxes to reach food hung out of reach rather than learning through trial and error, elephants had almost always failed. A study carried out at the Smithsonian National Zoological Park in the United States set out to discover why." },
-    { "label": "B", "text": "Three Asian elephants took part: two adult females, aged 33 and 61, and a seven-year-old male named Kandula. Each was tested alone in an enclosure that already contained a heavy concrete cube. A piece of fruit was suspended from an overhead cable, well beyond the reach of an outstretched trunk. To make the task solvable, the researchers also offered a bamboo stick long enough, in principle, to knock the food down. For the first several sessions none of the three animals paid the stick any attention at all, even though it lay directly beside them." },
-    { "label": "C", "text": "The turning point came in the seventh session. Kandula had been given a branch that, on this occasion, he could not quite reach with his trunk. After a period of apparently unrelated activity, he walked over to the concrete cube, rolled it several metres across the enclosure until it sat beneath the dangling branch, climbed onto it with his front feet and used his trunk to take the food. There had been no earlier attempts to push, climb or stack anything nearby; the behaviour appeared abruptly, in a single uninterrupted sequence." },
-    { "label": "D", "text": "The next day the improvement was even more striking. About two minutes after an unreachable branch was hung up, Kandula rolled the cube into place and stood on it, and he repeated the trick nine times within a single session. When keepers moved the food to a new position, he adjusted by rolling the cube to the corresponding spot underneath. His success was not limited to the cube itself: when it was removed, he pushed a large tractor tyre into use as a substitute platform, and with smaller objects he attempted, less successfully, to stack them on top of one another." },
-    { "label": "E", "text": "Kandula's grasp of the task extended to memory as well as improvisation. On one occasion the researchers hid the cube around a corner, in a walled passage invisible from the point where he entered the enclosure. He searched briefly and found it. The following day, without any hesitation, he walked straight to the passageway where the cube had been left and rolled it out, evidence, the researchers argued, that he recalled precisely where a useful object had been the day before rather than searching at random." },
-    { "label": "F", "text": "Why had earlier studies failed to find this ability in elephants, when related species solved comparable puzzles so readily? The authors suggest that the problem lay in the tools previous experiments had offered, not in the animals' intelligence. An elephant's trunk is above all a sensory organ, packed with nerve endings and capable of an extraordinarily fine sense of smell and touch, comparable in sensitivity to a human fingertip. To hold a stick, an elephant must curl the tip of its trunk backwards and close it, which blocks exactly the tactile and olfactory feedback the animal relies on most, making stick use an awkward and unrewarding strategy." },
-    { "label": "G", "text": "A cube used as a platform, by contrast, plays to the trunk's strengths rather than against them: rolling and positioning a heavy object keeps the trunk tip open and in constant sensory contact with the object, while also physically lifting the animal's whole body closer to the food. Seen this way, Kandula's solution was not a lesser version of the chimpanzee's box-stacking trick but a strategy specifically suited to how an elephant's most important sense organ actually works." },
-    { "label": "H", "text": "The authors conclude that the sudden, error-free appearance of Kandula's solution, together with his ability to adapt it to new objects and locations and to remember where a useful tool had been left, meets the standard definition of insight rather than gradual trial-and-error learning. More broadly, the study is a caution against judging an animal's intelligence from a single, narrowly designed test: a species may appear incapable of a mental feat simply because the equipment offered does not suit its particular anatomy, and a fairer test can reveal abilities that had been present all along." }
+    {
+      "label": "A",
+      "text": "Elephants have long impressed scientists with their large brains, complex social lives and unusual skill with objects held in the trunk. Laboratory studies have shown that elephants can recognise themselves in a mirror, remember locations for years and use branches to swat flies. Yet when researchers set them the kind of \"insight\" puzzles that chimpanzees solve in a single flash of understanding, suddenly stacking boxes to reach food hung out of reach rather than learning through trial and error, elephants had almost always failed. A study carried out at the Smithsonian National Zoological Park in the United States set out to discover why."
+    },
+    {
+      "label": "B",
+      "text": "Three Asian elephants took part: two adult females, aged 33 and 61, and a seven-year-old male named Kandula. Each was tested alone in an enclosure that already contained a heavy concrete cube. A piece of fruit was suspended from an overhead cable, well beyond the reach of an outstretched trunk. To make the task solvable, the researchers also offered a bamboo stick long enough, in principle, to knock the food down. For the first several sessions none of the three animals paid the stick any attention at all, even though it lay directly beside them."
+    },
+    {
+      "label": "C",
+      "text": "The turning point came in the seventh session. Kandula had been given a branch that, on this occasion, he could not quite reach with his trunk. After a period of apparently unrelated activity, he walked over to the concrete cube, rolled it several metres across the enclosure until it sat beneath the dangling branch, climbed onto it with his front feet and used his trunk to take the food. There had been no earlier attempts to push, climb or stack anything nearby; the behaviour appeared abruptly, in a single uninterrupted sequence."
+    },
+    {
+      "label": "D",
+      "text": "The next day the improvement was even more striking. About two minutes after an unreachable branch was hung up, Kandula rolled the cube into place and stood on it, and he repeated the trick nine times within a single session. When keepers moved the food to a new position, he adjusted by rolling the cube to the corresponding spot underneath. His success was not limited to the cube itself: when it was removed, he pushed a large tractor tyre into use as a substitute platform, and with smaller objects he attempted, less successfully, to stack them on top of one another."
+    },
+    {
+      "label": "E",
+      "text": "Kandula's grasp of the task extended to memory as well as improvisation. On one occasion the researchers hid the cube around a corner, in a walled passage invisible from the point where he entered the enclosure. He searched briefly and found it. The following day, without any hesitation, he walked straight to the passageway where the cube had been left and rolled it out, evidence, the researchers argued, that he recalled precisely where a useful object had been the day before rather than searching at random."
+    },
+    {
+      "label": "F",
+      "text": "Why had earlier studies failed to find this ability in elephants, when related species solved comparable puzzles so readily? The authors suggest that the problem lay in the tools previous experiments had offered, not in the animals' intelligence. An elephant's trunk is above all a sensory organ, packed with nerve endings and capable of an extraordinarily fine sense of smell and touch, comparable in sensitivity to a human fingertip. To hold a stick, an elephant must curl the tip of its trunk backwards and close it, which blocks exactly the tactile and olfactory feedback the animal relies on most, making stick use an awkward and unrewarding strategy."
+    },
+    {
+      "label": "G",
+      "text": "A cube used as a platform, by contrast, plays to the trunk's strengths rather than against them: rolling and positioning a heavy object keeps the trunk tip open and in constant sensory contact with the object, while also physically lifting the animal's whole body closer to the food. Seen this way, Kandula's solution was not a lesser version of the chimpanzee's box-stacking trick but a strategy specifically suited to how an elephant's most important sense organ actually works."
+    },
+    {
+      "label": "H",
+      "text": "The authors conclude that the sudden, error-free appearance of Kandula's solution, together with his ability to adapt it to new objects and locations and to remember where a useful tool had been left, meets the standard definition of insight rather than gradual trial-and-error learning. More broadly, the study is a caution against judging an animal's intelligence from a single, narrowly designed test: a species may appear incapable of a mental feat simply because the equipment offered does not suit its particular anatomy, and a fairer test can reveal abilities that had been present all along."
+    }
   ],
   "texts": null,
   "source": {

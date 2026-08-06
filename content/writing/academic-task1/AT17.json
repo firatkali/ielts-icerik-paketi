@@ -1,5 +1,6 @@
 {
   "schema_version": "1.0",
+  "exam": "ielts",
   "set_id": "AT17",
   "skill": "writing",
   "module": "academic",
@@ -14,11 +15,44 @@
     "title": "Adults taking part in three forms of exercise, 2005-2025",
     "x_label": "Year",
     "y_label": "Percentage of adults (%)",
-    "categories": ["2005", "2010", "2015", "2020", "2025"],
+    "categories": [
+      "2005",
+      "2010",
+      "2015",
+      "2020",
+      "2025"
+    ],
     "series": [
-      { "name": "Swimming", "values": [22, 20, 17, 12, 14] },
-      { "name": "Running", "values": [9, 13, 18, 26, 24] },
-      { "name": "Gym and fitness classes", "values": [14, 18, 24, 19, 28] }
+      {
+        "name": "Swimming",
+        "values": [
+          22,
+          20,
+          17,
+          12,
+          14
+        ]
+      },
+      {
+        "name": "Running",
+        "values": [
+          9,
+          13,
+          18,
+          26,
+          24
+        ]
+      },
+      {
+        "name": "Gym and fitness classes",
+        "values": [
+          14,
+          18,
+          24,
+          19,
+          28
+        ]
+      }
     ],
     "unit": "%",
     "svg": null,

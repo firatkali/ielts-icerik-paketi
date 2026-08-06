@@ -1,5 +1,6 @@
 {
   "schema_version": "1.0",
+  "exam": "ielts",
   "set_id": "AC2-true-false-not-given",
   "skill": "reading",
   "module": "academic",
@@ -9,14 +10,23 @@
   "question_type": "true_false_not_given",
   "generated_by": "fable",
   "instructions": "Do the following statements agree with the information given in the passage?\n\nIn boxes 7-13 on your answer sheet, write\n\nTRUE if the statement agrees with the information\nFALSE if the statement contradicts the information\nNOT GIVEN if there is no information on this",
-  "options": ["TRUE", "FALSE", "NOT GIVEN"],
+  "options": [
+    "TRUE",
+    "FALSE",
+    "NOT GIVEN"
+  ],
   "items": [
     {
       "number": 7,
       "prompt": "Scientists from many countries must compete for a limited share of time on the telescope.",
-      "answer": ["TRUE"],
+      "answer": [
+        "TRUE"
+      ],
       "evidence": "The observations were taken through a wide infrared filter sensitive to wavelengths between one and two and a half microns, well beyond what the human eye can detect, and formed part of a broader Webb research programme open to scientists from around the world who compete for a limited amount of telescope time.",
-      "evidence_locator": { "paragraph": "B", "sentence": 3 },
+      "evidence_locator": {
+        "paragraph": "B",
+        "sentence": 3
+      },
       "contradiction_point": null,
       "not_given_justification": null,
       "scan_note": "Teleskop A ('a modern space telescope'), B (Webb ve program ayrıntıları), F (yer tabanlı teleskoplar) ve H (kuşaktan kuşağa aygıtlar) paragraflarında geçiyor; gözlem süresinin tahsisi ve rekabet yalnızca B paragrafının 3. cümlesinde anlatılıyor, çelişen cümle yok.",
@@ -27,9 +37,14 @@
     {
       "number": 8,
       "prompt": "Evidence from the moon's orbit indicates that it first formed far from its present position.",
-      "answer": ["FALSE"],
+      "answer": [
+        "FALSE"
+      ],
       "evidence": "The orbit is nearly circular and lies close to Uranus's equatorial plane, a combination that suggests the moon formed in roughly its present location rather than being captured later from elsewhere in the solar system, as sometimes happens with more distant, irregular satellites.",
-      "evidence_locator": { "paragraph": "D", "sentence": 2 },
+      "evidence_locator": {
+        "paragraph": "D",
+        "sentence": 2
+      },
       "contradiction_point": "Pasaj, yörüngenin dairesele yakın ve ekvator düzlemine yakın oluşunun uydunun 'aşağı yukarı şimdiki yerinde' oluştuğunu gösterdiğini söylüyor; ifade ise uzak bir yerde oluştuğunu iddia ediyor. Çelişki tek noktada: oluşum yeri (yerinde / uzakta).",
       "not_given_justification": null,
       "scan_note": "Yörünge özellikleri D paragrafında (1.-2. cümle), sistemin erken tarihi G paragrafında geçiyor; G 'kaotik erken tarih'ten söz ediyor ama uydunun uzaktan geldiğini söylemiyor, D ise açıkça yerinde oluştuğunu belirtiyor.",
@@ -40,7 +55,9 @@
     {
       "number": 9,
       "prompt": "Miranda is the smallest of Uranus's five major satellites.",
-      "answer": ["NOT GIVEN"],
+      "answer": [
+        "NOT GIVEN"
+      ],
       "evidence": null,
       "evidence_locator": null,
       "contradiction_point": null,
@@ -53,9 +70,14 @@
     {
       "number": 10,
       "prompt": "Monitoring the planet's many small, close-together moons is difficult even for professional researchers.",
-      "answer": ["TRUE"],
+      "answer": [
+        "TRUE"
+      ],
       "evidence": "Even among planetary scientists, keeping track of so many small, closely spaced bodies is a demanding task, since their orbits interact with one another and with the planet's faint rings in ways that are still not fully mapped out.",
-      "evidence_locator": { "paragraph": "E", "sentence": 3 },
+      "evidence_locator": {
+        "paragraph": "E",
+        "sentence": 3
+      },
       "contradiction_point": null,
       "not_given_justification": null,
       "scan_note": "İç uyduların takibi E paragrafında (3. cümle) ve G paragrafında ('the complicated gravitational relationships ... point to a chaotic early history') ele alınıyor; ikisi de işin zorluğunu destekliyor, çelişen cümle yok.",
@@ -66,9 +88,14 @@
     {
       "number": 11,
       "prompt": "After the flyby, ground-based telescopes were likewise unable to make the moon out.",
-      "answer": ["TRUE"],
+      "answer": [
+        "TRUE"
+      ],
       "evidence": "Its size simply placed it below the threshold that Voyager's instruments, or any Earth-based telescope in the decades since, could resolve, meaning the moon had been circling Uranus unnoticed for the nearly forty years between that flyby and Webb's observations.",
-      "evidence_locator": { "paragraph": "F", "sentence": 3 },
+      "evidence_locator": {
+        "paragraph": "F",
+        "sentence": 3
+      },
       "contradiction_point": null,
       "not_given_justification": null,
       "scan_note": "Uydunun daha önce görülememesi A ('no previous mission had ever recorded it'), F (Voyager ve yer tabanlı teleskoplar) ve H ('even a dedicated flyby mission missed') paragraflarında geçiyor; hepsi aynı yönde, çelişen cümle yok.",
@@ -79,9 +106,14 @@
     {
       "number": 12,
       "prompt": "A team member stated that another planet possesses more small inner moons than Uranus.",
-      "answer": ["FALSE"],
+      "answer": [
+        "FALSE"
+      ],
       "evidence": "According to team member Matthew Tiscareno of the SETI Institute, no other planet in the solar system has as many small inner moons as Uranus, and the complicated gravitational relationships between these moons and the planet's faint rings point to a chaotic early history, one in which the line between \"ring\" and \"moon\" may not always have been as clear as it is today.",
-      "evidence_locator": { "paragraph": "G", "sentence": 2 },
+      "evidence_locator": {
+        "paragraph": "G",
+        "sentence": 2
+      },
       "contradiction_point": "Pasajda Tiscareno, Güneş Sistemi'nde başka hiçbir gezegenin Uranüs kadar çok küçük iç uydusu olmadığını söylüyor; ifade ise başka bir gezegenin daha fazlasına sahip olduğunu iddia ediyor. Çelişki tek noktada: olumsuzlama ('no other planet' / 'another planet possesses more').",
       "not_given_justification": null,
       "scan_note": "Küçük iç uyduların sayısı E paragrafında (on dördüncü üye, yirmi dokuz uydu) ve G paragrafında (2. cümle, gezegenler arası kıyas) geçiyor; kıyası veren tek cümle G'de ve ifadeyle açıkça çelişiyor.",
@@ -92,7 +124,9 @@
     {
       "number": 13,
       "prompt": "The team intends to submit its findings for publication within the next year.",
-      "answer": ["NOT GIVEN"],
+      "answer": [
+        "NOT GIVEN"
+      ],
       "evidence": null,
       "evidence_locator": null,
       "contradiction_point": null,

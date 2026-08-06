@@ -1,5 +1,6 @@
 {
   "schema_version": "1.0",
+  "exam": "ielts",
   "set_id": "GT2-summary-completion",
   "skill": "reading",
   "module": "general",
@@ -11,15 +12,42 @@
   "instructions": "Complete the summary using the list of words and phrases, A-I, below.",
   "word_limit": null,
   "word_bank": [
-    { "letter": "A", "text": "a link rather than a cause" },
-    { "letter": "B", "text": "a small part" },
-    { "letter": "C", "text": "contradictory" },
-    { "letter": "D", "text": "easily explained" },
-    { "letter": "E", "text": "proof of a cause" },
-    { "letter": "F", "text": "roughly half" },
-    { "letter": "G", "text": "stable" },
-    { "letter": "H", "text": "the main driver" },
-    { "letter": "I", "text": "unproven suggestions" }
+    {
+      "letter": "A",
+      "text": "a link rather than a cause"
+    },
+    {
+      "letter": "B",
+      "text": "a small part"
+    },
+    {
+      "letter": "C",
+      "text": "contradictory"
+    },
+    {
+      "letter": "D",
+      "text": "easily explained"
+    },
+    {
+      "letter": "E",
+      "text": "proof of a cause"
+    },
+    {
+      "letter": "F",
+      "text": "roughly half"
+    },
+    {
+      "letter": "G",
+      "text": "stable"
+    },
+    {
+      "letter": "H",
+      "text": "the main driver"
+    },
+    {
+      "letter": "I",
+      "text": "unproven suggestions"
+    }
   ],
   "visual": null,
   "stem_block": "What lies behind the health advantage of volunteers?\n\nOne suggested route runs through money: unpaid work can broaden a person's contacts, teach them new skills and show employers that they can be relied on, all of which may raise what the household brings in, and better-off people do tend to rate their own health more highly. The survey figures bore out that first step. Once the strength of the earnings route was measured, though, it turned out to carry only (37) ........ of the overall link, and the rest ran through something the income figures could not reach. The team then repeated the analysis with narrower samples, with different thresholds for how often someone had to help out before they were classed as a volunteer, and with extra background variables added, and the outcome stayed (38) ........ throughout. For the greater share of the effect that money cannot account for, the authors have (39) ........ rather than firm answers: a stronger sense of purpose and belonging, the walking and standing that helping often involves, or a possible influence on the hormones that govern stress. They are equally cautious about the finding as a whole, noting that people who choose to give their time may already be unlike those who do not in their spare hours, their starting health or their sociability; what the study demonstrates is therefore (40) ........ , and settling the matter would require a trial in which the chance to volunteer was handed out at random.",
@@ -27,10 +55,18 @@
     {
       "number": 37,
       "prompt": "Once the strength of the earnings route was measured, though, it turned out to carry only (37) ........ of the overall link, and the rest ran through something the income figures could not reach.",
-      "answer": ["B"],
-      "accepted_variants": ["B", "a small part"],
+      "answer": [
+        "B"
+      ],
+      "accepted_variants": [
+        "B",
+        "a small part"
+      ],
       "evidence": "Income differences accounted for well under a fifth of the total association between volunteering and self-rated health.",
-      "evidence_locator": { "paragraph": "F", "sentence": 2 },
+      "evidence_locator": {
+        "paragraph": "F",
+        "sentence": 2
+      },
       "explanation": "Paragraf F, gelir farklarının gönüllülük ile sağlık arasındaki bağın beşte birinden çok daha azını açıkladığını söylüyor; yani gelir yolu bağın yalnızca küçük bir kısmını taşıyor, doğru seçenek B ('a small part').",
       "difficulty": "medium",
       "status": "verified"
@@ -38,10 +74,18 @@
     {
       "number": 38,
       "prompt": "The team then repeated the analysis with narrower samples, with different thresholds for how often someone had to help out before they were classed as a volunteer, and with extra background variables added, and the outcome stayed (38) ........ throughout.",
-      "answer": ["G"],
-      "accepted_variants": ["G", "stable"],
+      "answer": [
+        "G"
+      ],
+      "accepted_variants": [
+        "G",
+        "stable"
+      ],
       "evidence": "In every version of the analysis the same basic pattern held: a small, statistically reliable health advantage for volunteers, only a modest share of which ran through income.",
-      "evidence_locator": { "paragraph": "G", "sentence": 3 },
+      "evidence_locator": {
+        "paragraph": "G",
+        "sentence": 3
+      },
       "explanation": "Paragraf G, analizin her türlü varyasyonunda aynı temel örüntünün korunduğunu söylüyor; sonuç değişmediği için doğru seçenek G ('stable').",
       "difficulty": "medium",
       "status": "verified"
@@ -49,10 +93,18 @@
     {
       "number": 39,
       "prompt": "For the greater share of the effect that money cannot account for, the authors have (39) ........ rather than firm answers: a stronger sense of purpose and belonging, the walking and standing that helping often involves, or a possible influence on the hormones that govern stress.",
-      "answer": ["I"],
-      "accepted_variants": ["I", "unproven suggestions"],
+      "answer": [
+        "I"
+      ],
+      "accepted_variants": [
+        "I",
+        "unproven suggestions"
+      ],
       "evidence": "The authors suggest several candidate explanations for this unexplained majority of the effect, while stressing that their data cannot confirm any of them directly.",
-      "evidence_locator": { "paragraph": "H", "sentence": 1 },
+      "evidence_locator": {
+        "paragraph": "H",
+        "sentence": 1
+      },
       "explanation": "Paragraf H, yazarların birkaç olası açıklama önerdiğini ama verilerinin bunların hiçbirini doğrudan doğrulayamadığını vurguladığını söylüyor; bu yüzden doğru seçenek I ('unproven suggestions').",
       "difficulty": "hard",
       "status": "verified"
@@ -60,10 +112,18 @@
     {
       "number": 40,
       "prompt": "What the study demonstrates is therefore (40) ........ , and settling the matter would require a trial in which the chance to volunteer was handed out at random.",
-      "answer": ["A"],
-      "accepted_variants": ["A", "a link rather than a cause"],
+      "answer": [
+        "A"
+      ],
+      "accepted_variants": [
+        "A",
+        "a link rather than a cause"
+      ],
       "evidence": "The authors are careful to describe their results as an association rather than proof that volunteering causes better health.",
-      "evidence_locator": { "paragraph": "I", "sentence": 1 },
+      "evidence_locator": {
+        "paragraph": "I",
+        "sentence": 1
+      },
       "explanation": "Paragraf I, yazarların sonuçlarını gönüllülüğün sağlığı iyileştirdiğinin kanıtı değil bir ilişki olarak nitelendirdiğini söylüyor; bu yüzden doğru seçenek A ('a link rather than a cause').",
       "difficulty": "easy",
       "status": "verified"

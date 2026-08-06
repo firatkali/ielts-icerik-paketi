@@ -1,5 +1,6 @@
 {
   "schema_version": "1.0",
+  "exam": "ielts",
   "set_id": "L4-multiple-choice",
   "skill": "listening",
   "test_id": "L4",
@@ -16,11 +17,22 @@
       "select_count": 1,
       "prompt": "Why does the tutor want two of the line colours changed?",
       "options": [
-        { "letter": "A", "text": "Some people cannot tell them apart." },
-        { "letter": "B", "text": "One of the judges asked for different colours." },
-        { "letter": "C", "text": "They may not print accurately." }
+        {
+          "letter": "A",
+          "text": "Some people cannot tell them apart."
+        },
+        {
+          "letter": "B",
+          "text": "One of the judges asked for different colours."
+        },
+        {
+          "letter": "C",
+          "text": "They may not print accurately."
+        }
       ],
-      "answer": ["A"],
+      "answer": [
+        "A"
+      ],
       "evidence": "Roughly one man in twelve can't reliably tell those two apart, and one of your judges is among them.",
       "answer_point_id": "L4-S3-12",
       "turn_index": 13,
@@ -37,11 +49,22 @@
       "select_count": 1,
       "prompt": "According to the tutor, what is the only reliable way to test the poster?",
       "options": [
-        { "letter": "A", "text": "cutting the text to four hundred words" },
-        { "letter": "B", "text": "printing one part of it at full size" },
-        { "letter": "C", "text": "setting the body text at twenty-four point" }
+        {
+          "letter": "A",
+          "text": "cutting the text to four hundred words"
+        },
+        {
+          "letter": "B",
+          "text": "printing one part of it at full size"
+        },
+        {
+          "letter": "C",
+          "text": "setting the body text at twenty-four point"
+        }
       ],
-      "answer": ["B"],
+      "answer": [
+        "B"
+      ],
       "evidence": "Print one corner of it at full size, pin it up and walk down the corridor — that's the only test that works.",
       "answer_point_id": "L4-S3-16",
       "turn_index": 17,
@@ -58,11 +81,22 @@
       "select_count": 1,
       "prompt": "What does Anneke say about paying the copy shop?",
       "options": [
-        { "letter": "A", "text": "It is unnecessary because the plotter is free." },
-        { "letter": "B", "text": "Two groups paid it last year." },
-        { "letter": "C", "text": "It is preferable to missing the deadline." }
+        {
+          "letter": "A",
+          "text": "It is unnecessary because the plotter is free."
+        },
+        {
+          "letter": "B",
+          "text": "Two groups paid it last year."
+        },
+        {
+          "letter": "C",
+          "text": "It is preferable to missing the deadline."
+        }
       ],
-      "answer": ["C"],
+      "answer": [
+        "C"
+      ],
       "evidence": "And I'd rather pay eighteen pounds than miss the deadline. Two groups missed it last year.",
       "answer_point_id": "L4-S3-18",
       "turn_index": 20,

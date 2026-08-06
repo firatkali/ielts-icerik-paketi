@@ -1,5 +1,6 @@
 {
   "schema_version": "1.0",
+  "exam": "ielts",
   "set_id": "AC2-multiple-choice",
   "skill": "reading",
   "module": "academic",
@@ -15,14 +16,31 @@
       "select_count": 1,
       "prompt": "What did combining the three sets of records allow the researchers to do?",
       "options": [
-        { "letter": "A", "text": "Follow employees as they moved between departments" },
-        { "letter": "B", "text": "See each person's output alongside who their teammates were" },
-        { "letter": "C", "text": "Check company figures against what staff reported themselves" },
-        { "letter": "D", "text": "Cover a longer period than one source alone" }
+        {
+          "letter": "A",
+          "text": "Follow employees as they moved between departments"
+        },
+        {
+          "letter": "B",
+          "text": "See each person's output alongside who their teammates were"
+        },
+        {
+          "letter": "C",
+          "text": "Check company figures against what staff reported themselves"
+        },
+        {
+          "letter": "D",
+          "text": "Cover a longer period than one source alone"
+        }
       ],
-      "answer": ["B"],
+      "answer": [
+        "B"
+      ],
       "evidence": "Combining these three sources let the researchers see not only how much each employee produced, but who they were working alongside and how often they exchanged messages with teammates in a given month.",
-      "evidence_locator": { "paragraph": "B", "sentence": 4 },
+      "evidence_locator": {
+        "paragraph": "B",
+        "sentence": 4
+      },
       "distractor_analysis": {
         "A": "Kapsam kaydırma — kayıtlar tek bir departmandan alınıyor, dolayısıyla departmanlar arası hareketi izlemek söz konusu değil; kaynaklardan birinin personel dosyaları olması bunu akla yatkın kılıyor.",
         "C": "Yakın ama eksik — çalışanın kendi beyanına dayanan ölçüler pasajda anılıyor, ama karşılaştırma malzemesi olarak değil, kaçınılan bir belirsizlik kaynağı olarak.",
@@ -37,14 +55,31 @@
       "select_count": 1,
       "prompt": "What did the finding on internal messaging call into question?",
       "options": [
-        { "letter": "A", "text": "The claim that messaging can be measured at all" },
-        { "letter": "B", "text": "The finding that new staff gain from experience" },
-        { "letter": "C", "text": "The rule that teams are formed by joining order" },
-        { "letter": "D", "text": "The idea that experienced teams communicate more" }
+        {
+          "letter": "A",
+          "text": "The claim that messaging can be measured at all"
+        },
+        {
+          "letter": "B",
+          "text": "The finding that new staff gain from experience"
+        },
+        {
+          "letter": "C",
+          "text": "The rule that teams are formed by joining order"
+        },
+        {
+          "letter": "D",
+          "text": "The idea that experienced teams communicate more"
+        }
       ],
-      "answer": ["D"],
+      "answer": [
+        "D"
+      ],
       "evidence": "A further finding complicated the obvious explanation that experienced teams simply talk to one another more.",
-      "evidence_locator": { "paragraph": "G", "sentence": 1 },
+      "evidence_locator": {
+        "paragraph": "G",
+        "sentence": 1
+      },
       "distractor_analysis": {
         "A": "Cazip ama yok — mesajlaşma kayıtları üç veri kaynağından biri olarak sayılıyor, yani ölçülebilirlikleri tartışma konusu değil.",
         "B": "Kapsam kaydırma — yeni çalışanların deneyimli takımlardan kazandığı belirtiliyor ve bu bulgu çürütülmüyor, tersine sayılarla destekleniyor.",
@@ -59,17 +94,44 @@
       "select_count": 2,
       "prompt": "Which TWO reasons are given for star colleagues having no effect?",
       "options": [
-        { "letter": "A", "text": "Teams were formed by joining order" },
-        { "letter": "B", "text": "Top performers were scattered across teams" },
-        { "letter": "C", "text": "Pay reflects each employee's own output" },
-        { "letter": "D", "text": "New staff were excluded from the analysis" },
-        { "letter": "E", "text": "Star performers messaged teammates less often" },
-        { "letter": "F", "text": "Colleagues never meet one another in person" },
-        { "letter": "G", "text": "Contracts fix the hours each worker gives" }
+        {
+          "letter": "A",
+          "text": "Teams were formed by joining order"
+        },
+        {
+          "letter": "B",
+          "text": "Top performers were scattered across teams"
+        },
+        {
+          "letter": "C",
+          "text": "Pay reflects each employee's own output"
+        },
+        {
+          "letter": "D",
+          "text": "New staff were excluded from the analysis"
+        },
+        {
+          "letter": "E",
+          "text": "Star performers messaged teammates less often"
+        },
+        {
+          "letter": "F",
+          "text": "Colleagues never meet one another in person"
+        },
+        {
+          "letter": "G",
+          "text": "Contracts fix the hours each worker gives"
+        }
       ],
-      "answer": ["C", "F"],
+      "answer": [
+        "C",
+        "F"
+      ],
       "evidence": "In an office, visibly high-performing colleagues can motivate others through social comparison and peer pressure, but Caster pays employees according to individual output alone, removing much of the incentive to match a team's overall performance; without face-to-face contact to reinforce that pressure further, it appears to have little effect at all.",
-      "evidence_locator": { "paragraph": "H", "sentence": 2 },
+      "evidence_locator": {
+        "paragraph": "H",
+        "sentence": 2
+      },
       "distractor_analysis": {
         "A": "Yakın ama eksik — takımların katılma sırasına göre kurulduğu doğru, ama bu kural etkinin neden görünmediğini değil, bulgunun neden güvenilir sayıldığını açıklıyor.",
         "B": "Yer değiştirme — en iyi çalışanları takımlara dağıtmak metinde uygulanmış bir düzen olarak değil, yazarın sonunda önermediği bir yönetim alışkanlığı olarak geçiyor.",

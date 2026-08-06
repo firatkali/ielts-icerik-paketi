@@ -1,5 +1,6 @@
 {
   "schema_version": "1.0",
+  "exam": "ielts",
   "set_id": "C50",
   "skill": "speaking",
   "card_type": "kişi",
@@ -15,22 +16,46 @@
     ],
     "closing": "and explain how this ability is useful to them.",
     "preparation_seconds": 60,
-    "speaking_seconds": [90, 120],
+    "speaking_seconds": [
+      90,
+      120
+    ],
     "follow_up": [
       "Do they use the language often?",
       "Have they helped anyone else learn it?"
     ],
-    "useful_language": ["pick up a language", "be fluent in", "have a good ear for", "get by in"]
+    "useful_language": [
+      "pick up a language",
+      "be fluent in",
+      "have a good ear for",
+      "get by in"
+    ]
   },
   "part3": {
     "items": [
-      { "number": 1, "prompt": "Why do some people learn a second language more easily than others?",
-        "focus": "genel açıklama", "difficulty": "medium" },
-      { "number": 2, "prompt": "Is a language better learnt in a classroom or by using it every day?",
-        "focus": "karşılaştırma", "difficulty": "medium" },
-      { "number": 3, "prompt": "Will translation tools reduce the need to learn other languages?",
-        "focus": "gelecek / görüş", "difficulty": "hard" }
+      {
+        "number": 1,
+        "prompt": "Why do some people learn a second language more easily than others?",
+        "focus": "genel açıklama",
+        "difficulty": "medium"
+      },
+      {
+        "number": 2,
+        "prompt": "Is a language better learnt in a classroom or by using it every day?",
+        "focus": "karşılaştırma",
+        "difficulty": "medium"
+      },
+      {
+        "number": 3,
+        "prompt": "Will translation tools reduce the need to learn other languages?",
+        "focus": "gelecek / görüş",
+        "difficulty": "hard"
+      }
     ],
-    "useful_language": ["a working knowledge of", "break down language barriers", "practise regularly"]
+    "useful_language": [
+      "a working knowledge of",
+      "break down language barriers",
+      "practise regularly"
+    ]
   }
 }

@@ -1,82 +1,136 @@
 {
   "schema_version": "1.0",
+  "exam": "ielts",
   "set_id": "T10-friends",
   "skill": "speaking",
   "part": 1,
   "topic": "Friends",
   "topic_tr": "Arkadaşlar",
   "generated_by": "opus",
-  "expected_answer_seconds": [20, 40],
+  "expected_answer_seconds": [
+    20,
+    40
+  ],
   "items": [
     {
       "number": 1,
       "prompt": "How did you meet the friends you see most often?",
       "focus": "temel bilgi",
       "difficulty": "easy",
-      "useful_language": ["we were at school together", "through a mutual friend", "we got talking at", "we've known each other for years"]
+      "useful_language": [
+        "we were at school together",
+        "through a mutual friend",
+        "we got talking at",
+        "we've known each other for years"
+      ]
     },
     {
       "number": 2,
       "prompt": "How often do you manage to see your friends?",
       "focus": "alışkanlık",
       "difficulty": "easy",
-      "useful_language": ["once a fortnight or so", "not as often as I'd like", "we message far more than we meet", "we make a point of meeting up"]
+      "useful_language": [
+        "once a fortnight or so",
+        "not as often as I'd like",
+        "we message far more than we meet",
+        "we make a point of meeting up"
+      ]
     },
     {
       "number": 3,
       "prompt": "What do you and your friends usually do when you get together?",
       "focus": "alışkanlık",
       "difficulty": "easy",
-      "useful_language": ["nothing very organised", "we go for a long walk", "we just sit and talk", "we take it in turns to cook"]
+      "useful_language": [
+        "nothing very organised",
+        "we go for a long walk",
+        "we just sit and talk",
+        "we take it in turns to cook"
+      ]
     },
     {
       "number": 4,
       "prompt": "What kind of person do you find it easy to get on with?",
       "focus": "tercih",
       "difficulty": "medium",
-      "useful_language": ["someone easy-going", "people who listen properly", "we don't have to agree on everything", "a good sense of humour helps"]
+      "useful_language": [
+        "someone easy-going",
+        "people who listen properly",
+        "we don't have to agree on everything",
+        "a good sense of humour helps"
+      ]
     },
     {
       "number": 5,
       "prompt": "How do you keep in touch with friends who live far away?",
       "focus": "açıklama",
       "difficulty": "medium",
-      "useful_language": ["we send each other voice notes", "a long call every few weeks", "we pick up where we left off", "time differences make it tricky"]
+      "useful_language": [
+        "we send each other voice notes",
+        "a long call every few weeks",
+        "we pick up where we left off",
+        "time differences make it tricky"
+      ]
     },
     {
       "number": 6,
       "prompt": "What do you remember about the friends you had at school?",
       "focus": "geçmiş",
       "difficulty": "medium",
-      "useful_language": ["we were inseparable", "we've drifted apart since", "we got into all sorts of trouble", "I still see one or two of them"]
+      "useful_language": [
+        "we were inseparable",
+        "we've drifted apart since",
+        "we got into all sorts of trouble",
+        "I still see one or two of them"
+      ]
     },
     {
       "number": 7,
       "prompt": "Why do some people find it harder to make friends as they get older?",
       "focus": "başkaları açısı ve sebep",
       "difficulty": "medium",
-      "useful_language": ["there are fewer chances to meet people", "work takes up everything", "they're set in their ways", "it takes real effort"]
+      "useful_language": [
+        "there are fewer chances to meet people",
+        "work takes up everything",
+        "they're set in their ways",
+        "it takes real effort"
+      ]
     },
     {
       "number": 8,
       "prompt": "What would you like to do with your friends that you haven't tried yet?",
       "focus": "gelecek",
       "difficulty": "hard",
-      "useful_language": ["we keep talking about it", "something none of us has done before", "we'd need to plan it properly", "it would do us all good"]
+      "useful_language": [
+        "we keep talking about it",
+        "something none of us has done before",
+        "we'd need to plan it properly",
+        "it would do us all good"
+      ]
     },
     {
       "number": 9,
       "prompt": "How has the way people keep in touch with their friends changed?",
       "focus": "değişim",
       "difficulty": "hard",
-      "useful_language": ["you're always reachable now", "we hardly ever arrange things in advance", "contact is constant but shallower", "letters have disappeared altogether"]
+      "useful_language": [
+        "you're always reachable now",
+        "we hardly ever arrange things in advance",
+        "contact is constant but shallower",
+        "letters have disappeared altogether"
+      ]
     },
     {
       "number": 10,
       "prompt": "How is time spent with friends different from time spent with family?",
       "focus": "karşılaştırma",
       "difficulty": "hard",
-      "useful_language": ["you choose your friends", "there's less obligation involved", "family know a different side of you", "conversations take a different turn"]
+      "useful_language": [
+        "you choose your friends",
+        "there's less obligation involved",
+        "family know a different side of you",
+        "conversations take a different turn"
+      ]
     }
   ]
 }

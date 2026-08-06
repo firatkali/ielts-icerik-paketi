@@ -1,5 +1,6 @@
 {
   "schema_version": "1.0",
+  "exam": "ielts",
   "set_id": "GT2-table-completion",
   "skill": "reading",
   "module": "general",
@@ -14,25 +15,65 @@
   "visual": null,
   "stem_block": null,
   "table": {
-    "headers": ["Stage", "When", "What it involves"],
+    "headers": [
+      "Stage",
+      "When",
+      "What it involves"
+    ],
     "rows": [
-      ["Eligibility", "—", "Undergraduate on a suitable degree, free to work here for the whole placement with no need for (15) ........"],
-      ["Written stage", "closes 28 February", "Form filled in online, an up-to-date (16) ........ , and 300 words on why you want the placement"],
-      ["Interview", "some time in March", "A (17) ........ , offered only to candidates kept on after the first round"],
-      ["Assessment day", "start of April", "A task done in a group forms part of the day"],
-      ["Offer", "by the end of April", "Those chosen are given (18) ........ to accept the place"],
-      ["Placement starts", "first Monday in July", "£2,100 a month; anyone moving home for the period also receives a (19) ........"],
-      ["During the placement", "across the ten weeks", "A (20) ........ from the intern's own department sees them once a week"]
+      [
+        "Eligibility",
+        "—",
+        "Undergraduate on a suitable degree, free to work here for the whole placement with no need for (15) ........"
+      ],
+      [
+        "Written stage",
+        "closes 28 February",
+        "Form filled in online, an up-to-date (16) ........ , and 300 words on why you want the placement"
+      ],
+      [
+        "Interview",
+        "some time in March",
+        "A (17) ........ , offered only to candidates kept on after the first round"
+      ],
+      [
+        "Assessment day",
+        "start of April",
+        "A task done in a group forms part of the day"
+      ],
+      [
+        "Offer",
+        "by the end of April",
+        "Those chosen are given (18) ........ to accept the place"
+      ],
+      [
+        "Placement starts",
+        "first Monday in July",
+        "£2,100 a month; anyone moving home for the period also receives a (19) ........"
+      ],
+      [
+        "During the placement",
+        "across the ten weeks",
+        "A (20) ........ from the intern's own department sees them once a week"
+      ]
     ]
   },
   "items": [
     {
       "number": 15,
       "prompt": "Eligibility: Undergraduate on a suitable degree, free to work here for the whole placement with no need for (15) ........",
-      "answer": ["sponsorship"],
-      "accepted_variants": ["sponsorship"],
+      "answer": [
+        "sponsorship"
+      ],
+      "accepted_variants": [
+        "sponsorship"
+      ],
       "evidence": "Applicants must be enrolled in a relevant degree, such as economics, accounting or business studies, and hold the right to work in the country for the full ten weeks without requiring sponsorship.",
-      "evidence_locator": { "text": "A", "paragraph": "A", "sentence": 2 },
+      "evidence_locator": {
+        "text": "A",
+        "paragraph": "A",
+        "sentence": 2
+      },
       "explanation": "A metninin A paragrafı, adayların on haftanın tamamı boyunca sponsorluk gerektirmeden çalışma hakkına sahip olması gerektiğini söylüyor; bu yüzden cevap 'sponsorship'.",
       "difficulty": "medium",
       "status": "verified"
@@ -40,10 +81,19 @@
     {
       "number": 16,
       "prompt": "Written stage: Form filled in online, an up-to-date (16) ........ , and 300 words on why you want the placement",
-      "answer": ["CV"],
-      "accepted_variants": ["CV", "cv"],
+      "answer": [
+        "CV"
+      ],
+      "accepted_variants": [
+        "CV",
+        "cv"
+      ],
       "evidence": "Complete the online application form and upload a current CV by 28 February.",
-      "evidence_locator": { "text": "A", "paragraph": "B", "sentence": 2 },
+      "evidence_locator": {
+        "text": "A",
+        "paragraph": "B",
+        "sentence": 2
+      },
       "explanation": "A metninin B paragrafı, çevrimiçi başvuru formunun yanı sıra güncel bir özgeçmişin yüklenmesi gerektiğini söylüyor; bu yüzden cevap 'CV'.",
       "difficulty": "easy",
       "status": "verified"
@@ -51,10 +101,18 @@
     {
       "number": 17,
       "prompt": "Interview: A (17) ........ , offered only to candidates kept on after the first round",
-      "answer": ["video interview"],
-      "accepted_variants": ["video interview"],
+      "answer": [
+        "video interview"
+      ],
+      "accepted_variants": [
+        "video interview"
+      ],
       "evidence": "Applicants shortlisted after the written stage will be invited to a video interview during March.",
-      "evidence_locator": { "text": "A", "paragraph": "B", "sentence": 4 },
+      "evidence_locator": {
+        "text": "A",
+        "paragraph": "B",
+        "sentence": 4
+      },
       "explanation": "A metninin B paragrafı, yazılı aşamadan sonra kısa listeye kalanların mart ayında görüntülü görüşmeye çağrıldığını söylüyor; bu yüzden cevap 'video interview'.",
       "difficulty": "easy",
       "status": "verified"
@@ -62,10 +120,19 @@
     {
       "number": 18,
       "prompt": "Offer: Those chosen are given (18) ........ to accept the place",
-      "answer": ["ten working days"],
-      "accepted_variants": ["ten working days", "10 working days"],
+      "answer": [
+        "ten working days"
+      ],
+      "accepted_variants": [
+        "ten working days",
+        "10 working days"
+      ],
       "evidence": "Successful applicants are notified by the end of April and must confirm their place within ten working days.",
-      "evidence_locator": { "text": "A", "paragraph": "C", "sentence": 1 },
+      "evidence_locator": {
+        "text": "A",
+        "paragraph": "C",
+        "sentence": 1
+      },
       "explanation": "A metninin C paragrafı, kabul edilenlerin yerlerini on iş günü içinde onaylaması gerektiğini söylüyor; bu yüzden cevap 'ten working days'.",
       "difficulty": "medium",
       "status": "verified"
@@ -73,10 +140,18 @@
     {
       "number": 19,
       "prompt": "Placement starts: £2,100 a month; anyone moving home for the period also receives a (19) ........",
-      "answer": ["travel allowance"],
-      "accepted_variants": ["travel allowance"],
+      "answer": [
+        "travel allowance"
+      ],
+      "accepted_variants": [
+        "travel allowance"
+      ],
       "evidence": "The internship begins on the first Monday of July and includes a salary of £2,100 per month, plus a travel allowance for those relocating temporarily.",
-      "evidence_locator": { "text": "A", "paragraph": "C", "sentence": 2 },
+      "evidence_locator": {
+        "text": "A",
+        "paragraph": "C",
+        "sentence": 2
+      },
       "explanation": "A metninin C paragrafı, maaşa ek olarak geçici şekilde taşınanlara yol ödeneği verildiğini söylüyor; bu yüzden cevap 'travel allowance'.",
       "difficulty": "medium",
       "status": "verified"
@@ -84,10 +159,18 @@
     {
       "number": 20,
       "prompt": "During the placement: A (20) ........ from the intern's own department sees them once a week",
-      "answer": ["mentor"],
-      "accepted_variants": ["mentor"],
+      "answer": [
+        "mentor"
+      ],
+      "accepted_variants": [
+        "mentor"
+      ],
       "evidence": "Each intern is paired with a mentor from their assigned department who meets with them weekly throughout the ten weeks.",
-      "evidence_locator": { "text": "A", "paragraph": "D", "sentence": 1 },
+      "evidence_locator": {
+        "text": "A",
+        "paragraph": "D",
+        "sentence": 1
+      },
       "explanation": "A metninin D paragrafı, her stajyerin kendi bölümünden bir danışmanla eşleştirildiğini ve haftada bir görüştüklerini söylüyor; bu yüzden cevap 'mentor'.",
       "difficulty": "hard",
       "status": "verified"

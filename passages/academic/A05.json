@@ -1,5 +1,6 @@
 {
   "schema_version": "1.0",
+  "exam": "ielts",
   "passage_id": "A05",
   "module": "academic",
   "section": null,
@@ -7,14 +8,38 @@
   "topic": "tarih / arkeoloji",
   "word_count": 706,
   "paragraphs": [
-    { "label": "A", "text": "Çatalhöyük, in what is now central Turkey, is among the most important Neolithic settlements ever uncovered. Occupied from roughly 7400 to 6000 BC, it was first noticed in 1952 and then excavated in detail between 1961 and 1965 by the British archaeologist James Mellaart. What set the site apart was its scale: at a time when most human communities were still small and mobile, Çatalhöyük had grown into a dense, town-like settlement, sitting on routes that would later carry farming practices onward into Europe." },
-    { "label": "B", "text": "Among the many finds recovered from the site were charred grains of wheat, unusually well preserved compared with plant remains from other ancient sites of similar age. Some of these seeds looked, under the microscope, as though they belonged to hexaploid wheat, a genetically more complex form carrying six sets of chromosomes rather than the two or four sets typical of the simpler wheats usually associated with the earliest stages of farming. For decades, however, no one had examined these seeds at the molecular level to confirm what species they truly represented." },
-    { "label": "C", "text": "An international research team set out to change that by attempting to extract and read ancient DNA directly from the charred grains, roughly 8,400 years old. Success would place the wheat among the oldest plant DNA ever recovered and analysed, and would let the researchers compare it precisely with modern wheat species rather than relying on the shape of the grain alone, which can be an unreliable guide to a plant's genetic identity." },
-    { "label": "D", "text": "To avoid contaminating the ancient samples with modern DNA, the extraction and analysis were carried out in two physically separate laboratories, one at the University of Manchester in the United Kingdom and the other at Middle East Technical University in Turkey. The team focused on a gene responsible for a key wheat protein, designing several sets of short genetic markers, ranging from around 106 to 243 base pairs in length, specifically built to capture the small, degraded fragments of DNA that survive in seeds this old. These fragments were then copied many times over, cloned, and sequenced for comparison." },
-    { "label": "E", "text": "The two main samples analysed had originally been classified, from their shape alone, as einkorn and emmer, both simpler wheats. Yet the genetic analysis told a different story. From these samples the team recovered thirty-two DNA sequences in total, and among them were fragments containing the so-called D genome, a segment of genetic material found only in hexaploid wheat. Of the sequences obtained at one marker length, twenty-two in all, seventeen distinct genetic variants emerged, thirteen of which had never before been recorded in any genetic database; a further ten sequences at a second marker length revealed five variants, two of them likewise entirely new." },
-    { "label": "F", "text": "When the ancient sequences were compared with modern wheat varieties, they resembled present-day hexaploid forms, including both naked bread wheat and hulled types such as spelt. The researchers interpret this as evidence of an early, transitional stage in the cultivation of hexaploid wheat, and note that this is the first genetic evidence hinting at the presence of a spelt-like wheat in the Neolithic Near East at all, a possibility they treat cautiously given how limited the surviving evidence is." },
-    { "label": "G", "text": "The result complicates the standard account of where and when wheat farming became more sophisticated. Simple wheat domestication is usually traced to the Fertile Crescent around twelve thousand years ago, with the region of Karacadağ in southern Turkey generally credited as the birthplace of einkorn cultivation specifically. Finding genetic traces of hexaploid wheat at Çatalhöyük this early suggests that the more advanced, six-chromosome form of wheat may have emerged sooner, and further from the traditional Fertile Crescent core, than researchers had assumed, with Çatalhöyük potentially serving as a staging point on its spread toward Europe." },
-    { "label": "H", "text": "More broadly, the study demonstrates that examining ancient DNA can uncover agricultural history that is simply invisible to the naked eye, since grains that look like one species under a microscope can turn out, genetically, to be something else entirely. By this evidence, early farming communities in central Turkey were experimenting with genetically sophisticated crops earlier, and played a more central role in the spread of advanced grain agriculture, than the conventional picture of Neolithic farming had previously suggested." }
+    {
+      "label": "A",
+      "text": "Çatalhöyük, in what is now central Turkey, is among the most important Neolithic settlements ever uncovered. Occupied from roughly 7400 to 6000 BC, it was first noticed in 1952 and then excavated in detail between 1961 and 1965 by the British archaeologist James Mellaart. What set the site apart was its scale: at a time when most human communities were still small and mobile, Çatalhöyük had grown into a dense, town-like settlement, sitting on routes that would later carry farming practices onward into Europe."
+    },
+    {
+      "label": "B",
+      "text": "Among the many finds recovered from the site were charred grains of wheat, unusually well preserved compared with plant remains from other ancient sites of similar age. Some of these seeds looked, under the microscope, as though they belonged to hexaploid wheat, a genetically more complex form carrying six sets of chromosomes rather than the two or four sets typical of the simpler wheats usually associated with the earliest stages of farming. For decades, however, no one had examined these seeds at the molecular level to confirm what species they truly represented."
+    },
+    {
+      "label": "C",
+      "text": "An international research team set out to change that by attempting to extract and read ancient DNA directly from the charred grains, roughly 8,400 years old. Success would place the wheat among the oldest plant DNA ever recovered and analysed, and would let the researchers compare it precisely with modern wheat species rather than relying on the shape of the grain alone, which can be an unreliable guide to a plant's genetic identity."
+    },
+    {
+      "label": "D",
+      "text": "To avoid contaminating the ancient samples with modern DNA, the extraction and analysis were carried out in two physically separate laboratories, one at the University of Manchester in the United Kingdom and the other at Middle East Technical University in Turkey. The team focused on a gene responsible for a key wheat protein, designing several sets of short genetic markers, ranging from around 106 to 243 base pairs in length, specifically built to capture the small, degraded fragments of DNA that survive in seeds this old. These fragments were then copied many times over, cloned, and sequenced for comparison."
+    },
+    {
+      "label": "E",
+      "text": "The two main samples analysed had originally been classified, from their shape alone, as einkorn and emmer, both simpler wheats. Yet the genetic analysis told a different story. From these samples the team recovered thirty-two DNA sequences in total, and among them were fragments containing the so-called D genome, a segment of genetic material found only in hexaploid wheat. Of the sequences obtained at one marker length, twenty-two in all, seventeen distinct genetic variants emerged, thirteen of which had never before been recorded in any genetic database; a further ten sequences at a second marker length revealed five variants, two of them likewise entirely new."
+    },
+    {
+      "label": "F",
+      "text": "When the ancient sequences were compared with modern wheat varieties, they resembled present-day hexaploid forms, including both naked bread wheat and hulled types such as spelt. The researchers interpret this as evidence of an early, transitional stage in the cultivation of hexaploid wheat, and note that this is the first genetic evidence hinting at the presence of a spelt-like wheat in the Neolithic Near East at all, a possibility they treat cautiously given how limited the surviving evidence is."
+    },
+    {
+      "label": "G",
+      "text": "The result complicates the standard account of where and when wheat farming became more sophisticated. Simple wheat domestication is usually traced to the Fertile Crescent around twelve thousand years ago, with the region of Karacadağ in southern Turkey generally credited as the birthplace of einkorn cultivation specifically. Finding genetic traces of hexaploid wheat at Çatalhöyük this early suggests that the more advanced, six-chromosome form of wheat may have emerged sooner, and further from the traditional Fertile Crescent core, than researchers had assumed, with Çatalhöyük potentially serving as a staging point on its spread toward Europe."
+    },
+    {
+      "label": "H",
+      "text": "More broadly, the study demonstrates that examining ancient DNA can uncover agricultural history that is simply invisible to the naked eye, since grains that look like one species under a microscope can turn out, genetically, to be something else entirely. By this evidence, early farming communities in central Turkey were experimenting with genetically sophisticated crops earlier, and played a more central role in the spread of advanced grain agriculture, than the conventional picture of Neolithic farming had previously suggested."
+    }
   ],
   "texts": null,
   "source": {

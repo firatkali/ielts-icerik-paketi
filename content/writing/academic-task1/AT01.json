@@ -1,5 +1,6 @@
 {
   "schema_version": "1.0",
+  "exam": "ielts",
   "set_id": "AT01",
   "skill": "writing",
   "module": "academic",
@@ -14,11 +15,48 @@
     "title": "Household waste recycled in three towns, 1995-2020",
     "x_label": "Year",
     "y_label": "Percentage of household waste recycled (%)",
-    "categories": ["1995", "2000", "2005", "2010", "2015", "2020"],
+    "categories": [
+      "1995",
+      "2000",
+      "2005",
+      "2010",
+      "2015",
+      "2020"
+    ],
     "series": [
-      { "name": "Marden", "values": [12, 18, 27, 38, 45, 52] },
-      { "name": "Hallowfield", "values": [30, 33, 31, 28, 24, 20] },
-      { "name": "Trentbury", "values": [8, 14, 25, 41, 55, 61] }
+      {
+        "name": "Marden",
+        "values": [
+          12,
+          18,
+          27,
+          38,
+          45,
+          52
+        ]
+      },
+      {
+        "name": "Hallowfield",
+        "values": [
+          30,
+          33,
+          31,
+          28,
+          24,
+          20
+        ]
+      },
+      {
+        "name": "Trentbury",
+        "values": [
+          8,
+          14,
+          25,
+          41,
+          55,
+          61
+        ]
+      }
     ],
     "unit": "%",
     "svg": null,

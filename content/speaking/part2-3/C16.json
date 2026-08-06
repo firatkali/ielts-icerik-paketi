@@ -1,5 +1,6 @@
 {
   "schema_version": "1.0",
+  "exam": "ielts",
   "set_id": "C16",
   "skill": "speaking",
   "card_type": "kişi",
@@ -15,22 +16,46 @@
     ],
     "closing": "and explain why you find their way of explaining helpful.",
     "preparation_seconds": 60,
-    "speaking_seconds": [90, 120],
+    "speaking_seconds": [
+      90,
+      120
+    ],
     "follow_up": [
       "Have you tried to explain something in the same way?",
       "Is there anything they struggle to explain?"
     ],
-    "useful_language": ["break it down step by step", "put it in plain language", "get the point across", "walk me through it"]
+    "useful_language": [
+      "break it down step by step",
+      "put it in plain language",
+      "get the point across",
+      "walk me through it"
+    ]
   },
   "part3": {
     "items": [
-      { "number": 1, "prompt": "Why are some people better at explaining ideas than others?",
-        "focus": "genel açıklama", "difficulty": "medium" },
-      { "number": 2, "prompt": "Is it easier to learn from a demonstration or from a spoken explanation?",
-        "focus": "karşılaştırma", "difficulty": "medium" },
-      { "number": 3, "prompt": "Will video guides replace people who explain things face to face?",
-        "focus": "gelecek / görüş", "difficulty": "hard" }
+      {
+        "number": 1,
+        "prompt": "Why are some people better at explaining ideas than others?",
+        "focus": "genel açıklama",
+        "difficulty": "medium"
+      },
+      {
+        "number": 2,
+        "prompt": "Is it easier to learn from a demonstration or from a spoken explanation?",
+        "focus": "karşılaştırma",
+        "difficulty": "medium"
+      },
+      {
+        "number": 3,
+        "prompt": "Will video guides replace people who explain things face to face?",
+        "focus": "gelecek / görüş",
+        "difficulty": "hard"
+      }
     ],
-    "useful_language": ["it stands to reason that", "more often than not", "there is a strong case for"]
+    "useful_language": [
+      "it stands to reason that",
+      "more often than not",
+      "there is a strong case for"
+    ]
   }
 }

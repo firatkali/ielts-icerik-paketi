@@ -1,5 +1,6 @@
 {
   "schema_version": "1.0",
+  "exam": "ielts",
   "set_id": "L1-multiple-choice",
   "skill": "listening",
   "test_id": "L1",
@@ -24,11 +25,22 @@
           "select_count": 1,
           "prompt": "On which day is the museum now closed?",
           "options": [
-            { "letter": "A", "text": "Monday" },
-            { "letter": "B", "text": "Tuesday" },
-            { "letter": "C", "text": "Thursday" }
+            {
+              "letter": "A",
+              "text": "Monday"
+            },
+            {
+              "letter": "B",
+              "text": "Tuesday"
+            },
+            {
+              "letter": "C",
+              "text": "Thursday"
+            }
           ],
-          "answer": ["B"],
+          "answer": [
+            "B"
+          ],
           "evidence": "Our closing day used to be Monday, and that's what the leaflet still says, but since the beginning of this month we've closed on Tuesdays instead.",
           "answer_point_id": "L1-S2-07",
           "turn_index": 2,
@@ -47,11 +59,22 @@
           "select_count": 1,
           "prompt": "How much does the annual pass cost now?",
           "options": [
-            { "letter": "A", "text": "£22" },
-            { "letter": "B", "text": "£25" },
-            { "letter": "C", "text": "£14.50" }
+            {
+              "letter": "A",
+              "text": "£22"
+            },
+            {
+              "letter": "B",
+              "text": "£25"
+            },
+            {
+              "letter": "C",
+              "text": "£14.50"
+            }
           ],
-          "answer": ["A"],
+          "answer": [
+            "A"
+          ],
           "evidence": "It was twenty-five pounds when we launched and we've since brought it down to twenty-two.",
           "answer_point_id": "L1-S2-13",
           "turn_index": 5,
@@ -70,11 +93,22 @@
           "select_count": 1,
           "prompt": "What does the speaker say visitors can do in the courtyard garden?",
           "options": [
-            { "letter": "A", "text": "watch a weaving demonstration" },
-            { "letter": "B", "text": "have a picnic" },
-            { "letter": "C", "text": "book it for private events" }
+            {
+              "letter": "A",
+              "text": "watch a weaving demonstration"
+            },
+            {
+              "letter": "B",
+              "text": "have a picnic"
+            },
+            {
+              "letter": "C",
+              "text": "book it for private events"
+            }
           ],
-          "answer": ["B"],
+          "answer": [
+            "B"
+          ],
           "evidence": "the courtyard garden is through the glass doors at the back of the café, and there are picnic tables out there if the weather behaves",
           "answer_point_id": "L1-S2-32",
           "turn_index": 8,
@@ -101,13 +135,31 @@
           "select_count": 2,
           "prompt": "Which TWO statements about the handling sessions are correct?",
           "options": [
-            { "letter": "A", "text": "They take place on Sunday mornings." },
-            { "letter": "B", "text": "Booking is required at the front desk." },
-            { "letter": "C", "text": "Visitors can handle objects not usually displayed." },
-            { "letter": "D", "text": "They happen twice a day." },
-            { "letter": "E", "text": "There is no charge for them." }
+            {
+              "letter": "A",
+              "text": "They take place on Sunday mornings."
+            },
+            {
+              "letter": "B",
+              "text": "Booking is required at the front desk."
+            },
+            {
+              "letter": "C",
+              "text": "Visitors can handle objects not usually displayed."
+            },
+            {
+              "letter": "D",
+              "text": "They happen twice a day."
+            },
+            {
+              "letter": "E",
+              "text": "There is no charge for them."
+            }
           ],
-          "answer": ["C", "E"],
+          "answer": [
+            "C",
+            "E"
+          ],
           "evidence": "We also run handling sessions, where you can pick up and examine objects that aren't on display. They were on Sunday mornings when we started, but they've moved to Saturdays, at eleven, and there's no charge.",
           "answer_point_id": "L1-S2-33",
           "turn_index": 11,
@@ -135,11 +187,22 @@
           "select_count": 1,
           "prompt": "When will the students give their presentation?",
           "options": [
-            { "letter": "A", "text": "in week nine" },
-            { "letter": "B", "text": "in week ten" },
-            { "letter": "C", "text": "a fortnight later than planned" }
+            {
+              "letter": "A",
+              "text": "in week nine"
+            },
+            {
+              "letter": "B",
+              "text": "in week ten"
+            },
+            {
+              "letter": "C",
+              "text": "a fortnight later than planned"
+            }
           ],
-          "answer": ["A"],
+          "answer": [
+            "A"
+          ],
           "evidence": "The presentation was down for week ten; it's been brought forward to week nine, so you'll be presenting on the eighteenth.",
           "answer_point_id": "L1-S3-01",
           "turn_index": 2,
@@ -158,11 +221,22 @@
           "select_count": 1,
           "prompt": "How much time will the students have for the talk itself?",
           "options": [
-            { "letter": "A", "text": "five minutes" },
-            { "letter": "B", "text": "fifteen minutes" },
-            { "letter": "C", "text": "twelve minutes" }
+            {
+              "letter": "A",
+              "text": "five minutes"
+            },
+            {
+              "letter": "B",
+              "text": "fifteen minutes"
+            },
+            {
+              "letter": "C",
+              "text": "twelve minutes"
+            }
           ],
-          "answer": ["C"],
+          "answer": [
+            "C"
+          ],
           "evidence": "Fifteen minutes was the original plan, but with three groups presenting in the same session I've had to cut it to twelve, plus five minutes of questions at the end.",
           "answer_point_id": "L1-S3-03",
           "turn_index": 6,
@@ -181,11 +255,22 @@
           "select_count": 1,
           "prompt": "What does the tutor think about the choice of case study?",
           "options": [
-            { "letter": "A", "text": "There is already plenty written about the schools." },
-            { "letter": "B", "text": "The schools project is the stronger choice." },
-            { "letter": "C", "text": "The wind co-operative should be the main focus." }
+            {
+              "letter": "A",
+              "text": "There is already plenty written about the schools."
+            },
+            {
+              "letter": "B",
+              "text": "The schools project is the stronger choice."
+            },
+            {
+              "letter": "C",
+              "text": "The wind co-operative should be the main focus."
+            }
           ],
-          "answer": ["B"],
+          "answer": [
+            "B"
+          ],
           "evidence": "I'd go with the schools as well, for the reason Callum gives. Original material always reads better, and you can still bring the wind project in as a comparison.",
           "answer_point_id": "L1-S3-11",
           "turn_index": 14,

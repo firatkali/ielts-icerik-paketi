@@ -1,5 +1,6 @@
 {
   "schema_version": "1.0",
+  "exam": "ielts",
   "set_id": "AT02",
   "skill": "writing",
   "module": "academic",
@@ -14,10 +15,34 @@
     "title": "Visits to public libraries by age group, 2010 and 2022",
     "x_label": "Age group",
     "y_label": "Visits per year (millions)",
-    "categories": ["Under 15", "15-29", "30-44", "45-59", "60 and over"],
+    "categories": [
+      "Under 15",
+      "15-29",
+      "30-44",
+      "45-59",
+      "60 and over"
+    ],
     "series": [
-      { "name": "2010", "values": [4.8, 3.2, 3.9, 3.1, 2.6] },
-      { "name": "2022", "values": [3.0, 1.4, 2.6, 3.4, 4.1] }
+      {
+        "name": "2010",
+        "values": [
+          4.8,
+          3.2,
+          3.9,
+          3.1,
+          2.6
+        ]
+      },
+      {
+        "name": "2022",
+        "values": [
+          3.0,
+          1.4,
+          2.6,
+          3.4,
+          4.1
+        ]
+      }
     ],
     "unit": "milyon ziyaret",
     "svg": null,

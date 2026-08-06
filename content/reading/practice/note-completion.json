@@ -1,5 +1,6 @@
 {
   "schema_version": "1.0",
+  "exam": "ielts",
   "set_id": "practice-note-completion",
   "skill": "reading",
   "module": "academic",
@@ -18,10 +19,18 @@
       "number": 1,
       "passage_id": "A06",
       "prompt": "Staff based in every one of Japan's (1) ........ prefectures, plus 23 further countries",
-      "answer": ["47"],
-      "accepted_variants": ["47", "forty-seven"],
+      "answer": [
+        "47"
+      ],
+      "accepted_variants": [
+        "47",
+        "forty-seven"
+      ],
       "evidence": "Its roughly 900 employees, spread across all 47 of Japan's prefectures and 23 other countries as of March 2025, handle client work entirely through remote communication platforms.",
-      "evidence_locator": { "paragraph": "A", "sentence": 2 },
+      "evidence_locator": {
+        "paragraph": "A",
+        "sentence": 2
+      },
       "explanation": "Paragraf A, şirketin yaklaşık 900 çalışanının Japonya'nın 47 ilinin tamamına ve 23 başka ülkeye yayıldığını söylüyor; bu yüzden cevap '47'.",
       "difficulty": "easy",
       "status": "verified"
@@ -30,10 +39,17 @@
       "number": 2,
       "passage_id": "A06",
       "prompt": "Data drawn from three in-house sources: personnel files, (2) ........ , and message records",
-      "answer": ["operational logs"],
-      "accepted_variants": ["operational logs"],
+      "answer": [
+        "operational logs"
+      ],
+      "accepted_variants": [
+        "operational logs"
+      ],
       "evidence": "The dataset combined three separate internal sources: human resources records giving background details on each employee, operational logs tracking which clients each person served and how many hours they worked, and records of internal messaging activity.",
-      "evidence_locator": { "paragraph": "B", "sentence": 3 },
+      "evidence_locator": {
+        "paragraph": "B",
+        "sentence": 3
+      },
       "explanation": "Paragraf B, veri setinin insan kaynakları kayıtları, hangi müşteriye kaç saat hizmet verildiğini izleyen operasyonel kayıtlar ve iç mesajlaşma kayıtları olmak üzere üç iç kaynağı birleştirdiğini söylüyor; bu yüzden cevap 'operational logs'.",
       "difficulty": "medium",
       "status": "verified"
@@ -42,10 +58,17 @@
       "number": 3,
       "passage_id": "A06",
       "prompt": "Wages depend on (3) ........ alone, so matching the team's results brings no reward",
-      "answer": ["individual output"],
-      "accepted_variants": ["individual output"],
+      "answer": [
+        "individual output"
+      ],
+      "accepted_variants": [
+        "individual output"
+      ],
       "evidence": "In an office, visibly high-performing colleagues can motivate others through social comparison and peer pressure, but Caster pays employees according to individual output alone, removing much of the incentive to match a team's overall performance; without face-to-face contact to reinforce that pressure further, it appears to have little effect at all.",
-      "evidence_locator": { "paragraph": "H", "sentence": 2 },
+      "evidence_locator": {
+        "paragraph": "H",
+        "sentence": 2
+      },
       "explanation": "Paragraf H, şirketin çalışanlara yalnızca bireysel çıktılarına göre ödeme yaptığını ve bunun takımın genel performansına yetişme güdüsünü büyük ölçüde ortadan kaldırdığını söylüyor; bu yüzden cevap 'individual output'.",
       "difficulty": "hard",
       "status": "verified"
@@ -54,10 +77,17 @@
       "number": 4,
       "passage_id": "A07",
       "prompt": "Species said to pass: orcas, bottlenose dolphins, Asian elephants, a few great apes, one cleaner fish species and, surprisingly, the (4) ........",
-      "answer": ["Eurasian magpie"],
-      "accepted_variants": ["Eurasian magpie"],
+      "answer": [
+        "Eurasian magpie"
+      ],
+      "accepted_variants": [
+        "Eurasian magpie"
+      ],
       "evidence": "Only a short list of species has ever been reported to pass: a few great apes, Asian elephants, bottlenose dolphins, orcas, a species of cleaner fish and, remarkably, the Eurasian magpie.",
-      "evidence_locator": { "paragraph": "A", "sentence": 2 },
+      "evidence_locator": {
+        "paragraph": "A",
+        "sentence": 2
+      },
       "explanation": "Paragraf A, testi geçtiği bildirilen kısa tür listesinin sonunda şaşırtıcı biçimde Avrasya saksağanının yer aldığını söylüyor; bu yüzden cevap 'Eurasian magpie'.",
       "difficulty": "easy",
       "status": "verified"
@@ -66,10 +96,17 @@
       "number": 5,
       "passage_id": "A07",
       "prompt": "Why it matters: an ability tied mainly to dolphins until now is shown in another toothed-whale line, the (5) ........",
-      "answer": ["Monodontidae"],
-      "accepted_variants": ["Monodontidae"],
+      "answer": [
+        "Monodontidae"
+      ],
+      "accepted_variants": [
+        "Monodontidae"
+      ],
       "evidence": "The result is significant because it extends a capacity long associated mainly with the dolphin family to a different lineage of toothed whales, the Monodontidae, which includes belugas and narwhals.",
-      "evidence_locator": { "paragraph": "G", "sentence": 1 },
+      "evidence_locator": {
+        "paragraph": "G",
+        "sentence": 1
+      },
       "explanation": "Paragraf G, bulgunun uzun süredir yunus ailesiyle ilişkilendirilen bu yeteneği, belugalar ve narvalleri içeren Monodontidae adlı farklı bir dişli balina soyuna genişlettiğini söylüyor; bu yüzden cevap 'Monodontidae'.",
       "difficulty": "medium",
       "status": "verified"
@@ -78,10 +115,17 @@
       "number": 6,
       "passage_id": "A07",
       "prompt": "Warning: with one animal only, or a (6) ........ , such abilities are easily missed — just 2 of the 4 belugas reacted strongly",
-      "answer": ["small sample"],
-      "accepted_variants": ["small sample"],
+      "answer": [
+        "small sample"
+      ],
+      "accepted_variants": [
+        "small sample"
+      ],
       "evidence": "Passing it does not necessarily mean an animal possesses the same rich sense of self reported by humans, and the fact that only two of the four belugas tested responded strongly shows how easily such abilities can be missed if only a single individual, or a small sample, is studied.",
-      "evidence_locator": { "paragraph": "H", "sentence": 2 },
+      "evidence_locator": {
+        "paragraph": "H",
+        "sentence": 2
+      },
       "explanation": "Paragraf H, yalnızca tek bir birey ya da küçük bir örneklem incelendiğinde bu tür yeteneklerin ne kadar kolay gözden kaçabileceğini söylüyor; bu yüzden cevap 'small sample'.",
       "difficulty": "hard",
       "status": "verified"
@@ -90,10 +134,19 @@
       "number": 7,
       "passage_id": "A08",
       "prompt": "Epicentre: about (7) ........ inland, north of Yakutat on the coast",
-      "answer": ["90 kilometres"],
-      "accepted_variants": ["90 kilometres", "90 kilometers", "90 km"],
+      "answer": [
+        "90 kilometres"
+      ],
+      "accepted_variants": [
+        "90 kilometres",
+        "90 kilometers",
+        "90 km"
+      ],
       "evidence": "The epicentre lay in remote terrain roughly 90 kilometres north of the coastal town of Yakutat, Alaska, an area so thinly populated that the quake caused no reported casualties, yet its effects on the surrounding landscape were extraordinary.",
-      "evidence_locator": { "paragraph": "A", "sentence": 2 },
+      "evidence_locator": {
+        "paragraph": "A",
+        "sentence": 2
+      },
       "explanation": "Paragraf A, deprem merkezinin kıyı kasabası Yakutat'ın yaklaşık 90 kilometre kuzeyindeki ıssız arazide bulunduğunu söylüyor; bu yüzden cevap '90 kilometres'.",
       "difficulty": "easy",
       "status": "verified"
@@ -102,10 +155,18 @@
       "number": 8,
       "passage_id": "A08",
       "prompt": "What the satellite suggested was backed up by a survey on the ground on (8) ........",
-      "answer": ["12 December"],
-      "accepted_variants": ["12 December", "December 12"],
+      "answer": [
+        "12 December"
+      ],
+      "accepted_variants": [
+        "12 December",
+        "December 12"
+      ],
       "evidence": "A ground survey carried out on 12 December confirmed what the satellite images had suggested from orbit: extensive new debris fields, some stretching for kilometres, now lay across terrain that had been buried under clean snow and ice only weeks before.",
-      "evidence_locator": { "paragraph": "D", "sentence": 2 },
+      "evidence_locator": {
+        "paragraph": "D",
+        "sentence": 2
+      },
       "explanation": "Paragraf D, 12 Aralık'ta yapılan yer araştırmasının uydu görüntülerinin yörüngeden gösterdiklerini doğruladığını söylüyor; bu yüzden cevap '12 December'.",
       "difficulty": "medium",
       "status": "verified"
@@ -114,10 +175,17 @@
       "number": 9,
       "passage_id": "A08",
       "prompt": "Lesson: without a device able to pick up small shifts in (9) ........ from orbit, a change on this scale might never have been noted",
-      "answer": ["surface roughness"],
-      "accepted_variants": ["surface roughness"],
+      "answer": [
+        "surface roughness"
+      ],
+      "accepted_variants": [
+        "surface roughness"
+      ],
       "evidence": "Without an instrument able to detect subtle changes in surface roughness from space, a transformation of this scale, more than 700 landslides across a mountain range few people will ever visit, could easily have gone unrecorded.",
-      "evidence_locator": { "paragraph": "H", "sentence": 2 },
+      "evidence_locator": {
+        "paragraph": "H",
+        "sentence": 2
+      },
       "explanation": "Paragraf H, uzaydan yüzey pürüzlülüğündeki küçük değişimleri algılayabilen bir aygıt olmasaydı bu ölçekteki bir dönüşümün kayda geçmeden kalabileceğini söylüyor; bu yüzden cevap 'surface roughness'.",
       "difficulty": "hard",
       "status": "verified"
@@ -126,10 +194,18 @@
       "number": 10,
       "passage_id": "A09",
       "prompt": "Pyroclastic flows, racing currents of hot gas and debris, can reach about (10) ........ degrees Celsius",
-      "answer": ["500"],
-      "accepted_variants": ["500", "five hundred"],
+      "answer": [
+        "500"
+      ],
+      "accepted_variants": [
+        "500",
+        "five hundred"
+      ],
       "evidence": "At Herculaneum, closer to the volcano, the town was overwhelmed instead by a series of pyroclastic flows, fast-moving currents of superheated gas and volcanic debris that can reach temperatures of around 500 degrees Celsius.",
-      "evidence_locator": { "paragraph": "A", "sentence": 2 },
+      "evidence_locator": {
+        "paragraph": "A",
+        "sentence": 2
+      },
       "explanation": "Paragraf A, piroklastik akıntıların yaklaşık 500 santigrat derece sıcaklığa ulaşabildiğini söylüyor; bu yüzden cevap '500'.",
       "difficulty": "easy",
       "status": "verified"
@@ -138,10 +214,17 @@
       "number": 11,
       "passage_id": "A09",
       "prompt": "Victim: a man of roughly 20, lying on his front on a (11) ........ , seemingly asleep as the flows arrived",
-      "answer": ["wooden bed"],
-      "accepted_variants": ["wooden bed"],
+      "answer": [
+        "wooden bed"
+      ],
+      "accepted_variants": [
+        "wooden bed"
+      ],
       "evidence": "Among the victims uncovered during excavations of the Collegium Augustalium, a public building in the town centre, was a young man of around 20 years old, found lying face down on a wooden bed where he had apparently been sleeping when the flows arrived.",
-      "evidence_locator": { "paragraph": "B", "sentence": 1 },
+      "evidence_locator": {
+        "paragraph": "B",
+        "sentence": 1
+      },
       "explanation": "Paragraf B, yaklaşık 20 yaşındaki kurbanın yüzüstü şekilde ahşap bir yatakta bulunduğunu ve akıntılar geldiğinde uyuyor göründüğünü söylüyor; bu yüzden cevap 'wooden bed'.",
       "difficulty": "medium",
       "status": "verified"
@@ -150,10 +233,17 @@
       "number": 12,
       "passage_id": "A09",
       "prompt": "Value of the find: cell-level detail from antiquity that (12) ........ on their own hardly ever supply",
-      "answer": ["skeletal remains"],
-      "accepted_variants": ["skeletal remains"],
+      "answer": [
+        "skeletal remains"
+      ],
+      "accepted_variants": [
+        "skeletal remains"
+      ],
       "evidence": "The case is regarded as a rare and valuable window into human biology at the cellular level from antiquity, offering detail that is almost never available from skeletal remains alone.",
-      "evidence_locator": { "paragraph": "H", "sentence": 1 },
+      "evidence_locator": {
+        "paragraph": "H",
+        "sentence": 1
+      },
       "explanation": "Paragraf H, bulgunun tek başına iskelet kalıntılarından neredeyse hiç elde edilemeyecek hücre düzeyinde ayrıntı sunduğunu söylüyor; bu yüzden cevap 'skeletal remains'.",
       "difficulty": "hard",
       "status": "verified"
@@ -162,10 +252,17 @@
       "number": 13,
       "passage_id": "A12",
       "prompt": "Second study: after learning at 1.30 p.m., some took a 90-minute nap while their brain activity was tracked by (13) ........",
-      "answer": ["polysomnography"],
-      "accepted_variants": ["polysomnography"],
+      "answer": [
+        "polysomnography"
+      ],
+      "accepted_variants": [
+        "polysomnography"
+      ],
       "evidence": "Each learned 40 related and 40 unrelated word pairs at half past one in the afternoon, then either took a 90-minute nap, during which brain activity was recorded using polysomnography, or remained awake for an equivalent period.",
-      "evidence_locator": { "paragraph": "D", "sentence": 2 },
+      "evidence_locator": {
+        "paragraph": "D",
+        "sentence": 2
+      },
       "explanation": "Paragraf D, 90 dakikalık şekerleme boyunca beyin etkinliğinin polisomnografi ile kaydedildiğini söylüyor; bu yüzden cevap 'polysomnography'.",
       "difficulty": "medium",
       "status": "verified"
@@ -174,10 +271,18 @@
       "number": 14,
       "passage_id": "A12",
       "prompt": "Conclusion: sleep helps most with what is easiest to forget, namely (14) ........ with no tie to what is already known",
-      "answer": ["brand-new associations"],
-      "accepted_variants": ["brand-new associations", "brand new associations"],
+      "answer": [
+        "brand-new associations"
+      ],
+      "accepted_variants": [
+        "brand-new associations",
+        "brand new associations"
+      ],
       "evidence": "The researchers concluded that sleep, whether at night or during the day, preferentially benefits the kind of memory processing that is more vulnerable to being forgotten in the first place, namely brand-new associations with no existing link to prior knowledge.",
-      "evidence_locator": { "paragraph": "G", "sentence": 1 },
+      "evidence_locator": {
+        "paragraph": "G",
+        "sentence": 1
+      },
       "explanation": "Paragraf G, uykunun en çok unutulmaya açık bellek işlemine, yani önceki bilgiyle hiçbir bağı olmayan yepyeni çağrışımlara yaradığını söylüyor; bu yüzden cevap 'brand-new associations'.",
       "difficulty": "hard",
       "status": "verified"
@@ -186,10 +291,17 @@
       "number": 15,
       "passage_id": "A12",
       "prompt": "A nap works about as well as a whole night for isolated facts, e.g. an (15) ........ or a single new vocabulary item",
-      "answer": ["unfamiliar name"],
-      "accepted_variants": ["unfamiliar name"],
+      "answer": [
+        "unfamiliar name"
+      ],
+      "accepted_variants": [
+        "unfamiliar name"
+      ],
       "evidence": "A nap appears genuinely useful for retaining new, unconnected information, such as an unfamiliar name or a new vocabulary item studied in isolation, about as effectively as a full night's sleep would.",
-      "evidence_locator": { "paragraph": "H", "sentence": 2 },
+      "evidence_locator": {
+        "paragraph": "H",
+        "sentence": 2
+      },
       "explanation": "Paragraf H, şekerlemenin tek başına öğrenilen yabancı bir isim ya da yeni bir sözcük gibi bağlantısız bilgileri tutmada tam bir gece uykusu kadar işe yaradığını söylüyor; bu yüzden cevap 'unfamiliar name'.",
       "difficulty": "medium",
       "status": "verified"

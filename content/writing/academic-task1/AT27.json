@@ -1,5 +1,6 @@
 {
   "schema_version": "1.0",
+  "exam": "ielts",
   "set_id": "AT27",
   "skill": "writing",
   "module": "academic",
@@ -14,11 +15,44 @@
     "title": "Fine dust in the air of three cities, 2005-2025",
     "x_label": "Year",
     "y_label": "Micrograms per cubic metre",
-    "categories": ["2005", "2010", "2015", "2020", "2025"],
+    "categories": [
+      "2005",
+      "2010",
+      "2015",
+      "2020",
+      "2025"
+    ],
     "series": [
-      { "name": "Ashport", "values": [62, 55, 44, 34, 26] },
-      { "name": "Corley", "values": [48, 46, 39, 30, 28] },
-      { "name": "Bellworth", "values": [30, 34, 41, 46, 42] }
+      {
+        "name": "Ashport",
+        "values": [
+          62,
+          55,
+          44,
+          34,
+          26
+        ]
+      },
+      {
+        "name": "Corley",
+        "values": [
+          48,
+          46,
+          39,
+          30,
+          28
+        ]
+      },
+      {
+        "name": "Bellworth",
+        "values": [
+          30,
+          34,
+          41,
+          46,
+          42
+        ]
+      }
     ],
     "unit": "mikrogram/m³",
     "svg": null,

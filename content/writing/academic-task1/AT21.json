@@ -1,5 +1,6 @@
 {
   "schema_version": "1.0",
+  "exam": "ielts",
   "set_id": "AT21",
   "skill": "writing",
   "module": "academic",
@@ -14,11 +15,48 @@
     "title": "Sales of printed books, e-books and audiobooks, 2010-2024",
     "x_label": "Year",
     "y_label": "Units sold (millions)",
-    "categories": ["2010", "2013", "2016", "2019", "2022", "2024"],
+    "categories": [
+      "2010",
+      "2013",
+      "2016",
+      "2019",
+      "2022",
+      "2024"
+    ],
     "series": [
-      { "name": "Printed books", "values": [92, 74, 61, 58, 63, 66] },
-      { "name": "E-books", "values": [8, 30, 52, 55, 48, 44] },
-      { "name": "Audiobooks", "values": [2, 5, 12, 26, 45, 62] }
+      {
+        "name": "Printed books",
+        "values": [
+          92,
+          74,
+          61,
+          58,
+          63,
+          66
+        ]
+      },
+      {
+        "name": "E-books",
+        "values": [
+          8,
+          30,
+          52,
+          55,
+          48,
+          44
+        ]
+      },
+      {
+        "name": "Audiobooks",
+        "values": [
+          2,
+          5,
+          12,
+          26,
+          45,
+          62
+        ]
+      }
     ],
     "unit": "milyon adet",
     "svg": null,

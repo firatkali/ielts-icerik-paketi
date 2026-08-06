@@ -1,5 +1,6 @@
 {
   "schema_version": "1.0",
+  "exam": "ielts",
   "set_id": "GT2-multiple-choice",
   "skill": "reading",
   "module": "general",
@@ -15,14 +16,32 @@
       "select_count": 1,
       "prompt": "What does the writer say about the graduate programme?",
       "options": [
-        { "letter": "A", "text": "Any intern can apply for it after the placement" },
-        { "letter": "B", "text": "It takes on fifteen graduates across the departments" },
-        { "letter": "C", "text": "An invitation to apply depends partly on company needs" },
-        { "letter": "D", "text": "It begins soon after the internship comes to an end" }
+        {
+          "letter": "A",
+          "text": "Any intern can apply for it after the placement"
+        },
+        {
+          "letter": "B",
+          "text": "It takes on fifteen graduates across the departments"
+        },
+        {
+          "letter": "C",
+          "text": "An invitation to apply depends partly on company needs"
+        },
+        {
+          "letter": "D",
+          "text": "It begins soon after the internship comes to an end"
+        }
       ],
-      "answer": ["C"],
+      "answer": [
+        "C"
+      ],
       "evidence": "Interns complete a short performance review at the five-week mark and a final review before departure; strong performers may be invited to apply for the graduate programme the following year, though this is not guaranteed and depends on business need.",
-      "evidence_locator": { "text": "A", "paragraph": "D", "sentence": 2 },
+      "evidence_locator": {
+        "text": "A",
+        "paragraph": "D",
+        "sentence": 2
+      },
       "distractor_analysis": {
         "A": "Kapsam kaydırma — başvuru daveti yalnız güçlü performans gösteren stajyerlere tanınan bir olasılık; seçenek bunu bütün stajyerlere genişletiyor.",
         "B": "Yer değiştirme — on beş kişilik kontenjan staj programına ait; seçenek bu sayıyı mezun programına yüklüyor.",
@@ -37,14 +56,32 @@
       "select_count": 1,
       "prompt": "What does the writer say about staff who deal directly with clients?",
       "options": [
-        { "letter": "A", "text": "They may need to spend more days in the office" },
-        { "letter": "B", "text": "They are not allowed to work remotely at all" },
-        { "letter": "C", "text": "They need approval from HR as well as a manager" },
-        { "letter": "D", "text": "They are given extra money for home equipment" }
+        {
+          "letter": "A",
+          "text": "They may need to spend more days in the office"
+        },
+        {
+          "letter": "B",
+          "text": "They are not allowed to work remotely at all"
+        },
+        {
+          "letter": "C",
+          "text": "They need approval from HR as well as a manager"
+        },
+        {
+          "letter": "D",
+          "text": "They are given extra money for home equipment"
+        }
       ],
-      "answer": ["A"],
+      "answer": [
+        "A"
+      ],
       "evidence": "Staff in client-facing roles may be required to attend the office more frequently regardless of general policy.",
-      "evidence_locator": { "text": "B", "paragraph": "A", "sentence": 2 },
+      "evidence_locator": {
+        "text": "B",
+        "paragraph": "A",
+        "sentence": 2
+      },
       "distractor_analysis": {
         "B": "Kapsam kaydırma — pasaj bu rollerin ofise daha sık çağrılabileceğini söylüyor; seçenek bunu tam bir uzaktan çalışma yasağına büyütüyor.",
         "C": "Yer değiştirme — hem İK'dan hem ilgili ülke ofisinden yazılı onay şartı yurt dışından çalışmak için geçerli; müşteriyle çalışan roller için değil.",
@@ -59,17 +96,45 @@
       "select_count": 2,
       "prompt": "Which TWO things must remote employees do?",
       "options": [
-        { "letter": "A", "text": "Provide a computer that meets company standards" },
-        { "letter": "B", "text": "Stay contactable during set hours of the day" },
-        { "letter": "C", "text": "Attend a regular team meeting at the office" },
-        { "letter": "D", "text": "Report a lasting change in where they work" },
-        { "letter": "E", "text": "Pay for their own data security software" },
-        { "letter": "F", "text": "Review their own arrangement every six months" },
-        { "letter": "G", "text": "Keep equipment spending below £150 a year" }
+        {
+          "letter": "A",
+          "text": "Provide a computer that meets company standards"
+        },
+        {
+          "letter": "B",
+          "text": "Stay contactable during set hours of the day"
+        },
+        {
+          "letter": "C",
+          "text": "Attend a regular team meeting at the office"
+        },
+        {
+          "letter": "D",
+          "text": "Report a lasting change in where they work"
+        },
+        {
+          "letter": "E",
+          "text": "Pay for their own data security software"
+        },
+        {
+          "letter": "F",
+          "text": "Review their own arrangement every six months"
+        },
+        {
+          "letter": "G",
+          "text": "Keep equipment spending below £150 a year"
+        }
       ],
-      "answer": ["B", "D"],
+      "answer": [
+        "B",
+        "D"
+      ],
       "evidence": "Be available on instant messaging during core hours. Employees must designate a single working location for remote days and notify the HR team in advance if that location changes for more than two consecutive weeks, for insurance and tax purposes.",
-      "evidence_locator": { "text": "B", "paragraph": "B", "sentence": 4 },
+      "evidence_locator": {
+        "text": "B",
+        "paragraph": "B",
+        "sentence": 4
+      },
       "distractor_analysis": {
         "A": "Yer değiştirme — çalışanın kendisinin sağlaması gereken şey en az 10 Mbps internet bağlantısı; bilgisayarı şirket veriyor.",
         "C": "Cazip ama yok — ofiste düzenli bir toplantıya katılma şartı pasajda geçmiyor; bu tür politikalarda yaygın olduğu için makul görünüyor.",

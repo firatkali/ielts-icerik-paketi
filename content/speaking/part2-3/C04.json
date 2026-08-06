@@ -1,5 +1,6 @@
 {
   "schema_version": "1.0",
+  "exam": "ielts",
   "set_id": "C04",
   "skill": "speaking",
   "card_type": "yer",
@@ -15,22 +16,46 @@
     ],
     "closing": "and explain why this place helps you to think.",
     "preparation_seconds": 60,
-    "speaking_seconds": [90, 120],
+    "speaking_seconds": [
+      90,
+      120
+    ],
     "follow_up": [
       "Do you go there alone or with someone else?",
       "How would you feel if the place became busier?"
     ],
-    "useful_language": ["it is a stone's throw from", "I can hear myself think", "away from it all", "clear my head"]
+    "useful_language": [
+      "it is a stone's throw from",
+      "I can hear myself think",
+      "away from it all",
+      "clear my head"
+    ]
   },
   "part3": {
     "items": [
-      { "number": 1, "prompt": "Why is it becoming difficult to find quiet places in towns and cities?",
-        "focus": "genel açıklama", "difficulty": "medium" },
-      { "number": 2, "prompt": "Which is more restful for most people, being outdoors or staying indoors?",
-        "focus": "karşılaştırma", "difficulty": "medium" },
-      { "number": 3, "prompt": "Should local authorities do more to protect quiet public spaces?",
-        "focus": "görüş / öneri", "difficulty": "hard" }
+      {
+        "number": 1,
+        "prompt": "Why is it becoming difficult to find quiet places in towns and cities?",
+        "focus": "genel açıklama",
+        "difficulty": "medium"
+      },
+      {
+        "number": 2,
+        "prompt": "Which is more restful for most people, being outdoors or staying indoors?",
+        "focus": "karşılaştırma",
+        "difficulty": "medium"
+      },
+      {
+        "number": 3,
+        "prompt": "Should local authorities do more to protect quiet public spaces?",
+        "focus": "görüş / öneri",
+        "difficulty": "hard"
+      }
     ],
-    "useful_language": ["a constant background hum", "set aside land for", "in the long run"]
+    "useful_language": [
+      "a constant background hum",
+      "set aside land for",
+      "in the long run"
+    ]
   }
 }

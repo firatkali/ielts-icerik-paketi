@@ -1,5 +1,6 @@
 {
   "schema_version": "1.0",
+  "exam": "ielts",
   "set_id": "C32",
   "skill": "speaking",
   "card_type": "kişi",
@@ -15,22 +16,46 @@
     ],
     "closing": "and explain how you feel about being similar to this person.",
     "preparation_seconds": 60,
-    "speaking_seconds": [90, 120],
+    "speaking_seconds": [
+      90,
+      120
+    ],
     "follow_up": [
       "Do other people in the family notice the similarity?",
       "Is there anything about this person you would rather not copy?"
     ],
-    "useful_language": ["I take after", "a family trait", "we share the same outlook", "much the same way"]
+    "useful_language": [
+      "I take after",
+      "a family trait",
+      "we share the same outlook",
+      "much the same way"
+    ]
   },
   "part3": {
     "items": [
-      { "number": 1, "prompt": "Why do children often end up behaving like the adults around them?",
-        "focus": "genel açıklama", "difficulty": "medium" },
-      { "number": 2, "prompt": "Do families shape a person's character more than friends do?",
-        "focus": "karşılaştırma", "difficulty": "medium" },
-      { "number": 3, "prompt": "Will relatives spend more or less time together in the coming decades?",
-        "focus": "gelecek / görüş", "difficulty": "hard" }
+      {
+        "number": 1,
+        "prompt": "Why do children often end up behaving like the adults around them?",
+        "focus": "genel açıklama",
+        "difficulty": "medium"
+      },
+      {
+        "number": 2,
+        "prompt": "Do families shape a person's character more than friends do?",
+        "focus": "karşılaştırma",
+        "difficulty": "medium"
+      },
+      {
+        "number": 3,
+        "prompt": "Will relatives spend more or less time together in the coming decades?",
+        "focus": "gelecek / görüş",
+        "difficulty": "hard"
+      }
     ],
-    "useful_language": ["passed down from", "a role model", "a strong influence on"]
+    "useful_language": [
+      "passed down from",
+      "a role model",
+      "a strong influence on"
+    ]
   }
 }

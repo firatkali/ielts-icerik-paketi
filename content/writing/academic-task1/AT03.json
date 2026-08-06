@@ -1,5 +1,6 @@
 {
   "schema_version": "1.0",
+  "exam": "ielts",
   "set_id": "AT03",
   "skill": "writing",
   "module": "academic",
@@ -14,10 +15,34 @@
     "title": "Household energy use by purpose, 1990 and 2020",
     "x_label": null,
     "y_label": null,
-    "categories": ["Space heating", "Water heating", "Cooking", "Lighting", "Appliances and electronics"],
+    "categories": [
+      "Space heating",
+      "Water heating",
+      "Cooking",
+      "Lighting",
+      "Appliances and electronics"
+    ],
     "series": [
-      { "name": "1990", "values": [62, 18, 9, 6, 5] },
-      { "name": "2020", "values": [48, 20, 7, 4, 21] }
+      {
+        "name": "1990",
+        "values": [
+          62,
+          18,
+          9,
+          6,
+          5
+        ]
+      },
+      {
+        "name": "2020",
+        "values": [
+          48,
+          20,
+          7,
+          4,
+          21
+        ]
+      }
     ],
     "unit": "%",
     "svg": null,

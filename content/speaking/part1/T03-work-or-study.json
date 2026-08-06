@@ -1,82 +1,136 @@
 {
   "schema_version": "1.0",
+  "exam": "ielts",
   "set_id": "T03-work-or-study",
   "skill": "speaking",
   "part": 1,
   "topic": "Work or study",
   "topic_tr": "İş veya çalışma",
   "generated_by": "opus",
-  "expected_answer_seconds": [20, 40],
+  "expected_answer_seconds": [
+    20,
+    40
+  ],
   "items": [
     {
       "number": 1,
       "prompt": "Do you work, or are you a student?",
       "focus": "temel bilgi",
       "difficulty": "easy",
-      "useful_language": ["I'm currently studying", "I work full-time as", "I'm in my second year of", "I do both, actually"]
+      "useful_language": [
+        "I'm currently studying",
+        "I work full-time as",
+        "I'm in my second year of",
+        "I do both, actually"
+      ]
     },
     {
       "number": 2,
       "prompt": "What does a typical working or studying day look like for you?",
       "focus": "alışkanlık",
       "difficulty": "easy",
-      "useful_language": ["I usually start at", "the rest of the day is taken up with", "it varies from day to day", "I finish around"]
+      "useful_language": [
+        "I usually start at",
+        "the rest of the day is taken up with",
+        "it varies from day to day",
+        "I finish around"
+      ]
     },
     {
       "number": 3,
       "prompt": "Which part of your work or your studies do you enjoy most?",
       "focus": "tercih",
       "difficulty": "easy",
-      "useful_language": ["what I enjoy most is", "I get a lot out of", "the practical side of it", "working alongside other people"]
+      "useful_language": [
+        "what I enjoy most is",
+        "I get a lot out of",
+        "the practical side of it",
+        "working alongside other people"
+      ]
     },
     {
       "number": 4,
       "prompt": "Why did you choose this particular field?",
       "focus": "sebep",
       "difficulty": "medium",
-      "useful_language": ["I've always been drawn to", "it seemed like a sensible choice", "it plays to my strengths", "partly by chance"]
+      "useful_language": [
+        "I've always been drawn to",
+        "it seemed like a sensible choice",
+        "it plays to my strengths",
+        "partly by chance"
+      ]
     },
     {
       "number": 5,
       "prompt": "What skills do you need in order to do it well?",
       "focus": "açıklama",
       "difficulty": "medium",
-      "useful_language": ["you need to be able to", "attention to detail", "it calls for a lot of patience", "the ability to prioritise"]
+      "useful_language": [
+        "you need to be able to",
+        "attention to detail",
+        "it calls for a lot of patience",
+        "the ability to prioritise"
+      ]
     },
     {
       "number": 6,
       "prompt": "At what time of day do you concentrate best, and why?",
       "focus": "tercih ve sebep",
       "difficulty": "medium",
-      "useful_language": ["I'm at my sharpest", "first thing in the morning", "I tend to flag after lunch", "there are fewer interruptions"]
+      "useful_language": [
+        "I'm at my sharpest",
+        "first thing in the morning",
+        "I tend to flag after lunch",
+        "there are fewer interruptions"
+      ]
     },
     {
       "number": 7,
       "prompt": "How has the way you work or study changed since you started?",
       "focus": "değişim",
       "difficulty": "hard",
-      "useful_language": ["I've become far more organised", "I used to leave everything until", "over time I've learnt to", "it's a lot less daunting now"]
+      "useful_language": [
+        "I've become far more organised",
+        "I used to leave everything until",
+        "over time I've learnt to",
+        "it's a lot less daunting now"
+      ]
     },
     {
       "number": 8,
       "prompt": "What do the people around you think about the field you have chosen?",
       "focus": "başkaları açısı",
       "difficulty": "hard",
-      "useful_language": ["they were fairly supportive", "some of them couldn't understand why", "opinions were divided", "they came round to the idea"]
+      "useful_language": [
+        "they were fairly supportive",
+        "some of them couldn't understand why",
+        "opinions were divided",
+        "they came round to the idea"
+      ]
     },
     {
       "number": 9,
       "prompt": "What would you like to be doing five years from now?",
       "focus": "gelecek",
       "difficulty": "hard",
-      "useful_language": ["I'd like to have moved into", "take on more responsibility", "further qualifications", "I'd rather not plan too far ahead"]
+      "useful_language": [
+        "I'd like to have moved into",
+        "take on more responsibility",
+        "further qualifications",
+        "I'd rather not plan too far ahead"
+      ]
     },
     {
       "number": 10,
       "prompt": "How different is working or studying at home from doing it somewhere shared?",
       "focus": "karşılaştırma",
       "difficulty": "hard",
-      "useful_language": ["it's far easier to get distracted", "you miss the buzz of", "there's more of a routine", "each has its drawbacks"]
+      "useful_language": [
+        "it's far easier to get distracted",
+        "you miss the buzz of",
+        "there's more of a routine",
+        "each has its drawbacks"
+      ]
     }
   ]
 }

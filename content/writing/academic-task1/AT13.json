@@ -1,5 +1,6 @@
 {
   "schema_version": "1.0",
+  "exam": "ielts",
   "set_id": "AT13",
   "skill": "writing",
   "module": "academic",
@@ -14,10 +15,37 @@
     "title": "Household spending by category, 2000 and 2020",
     "x_label": null,
     "y_label": null,
-    "categories": ["Housing", "Food", "Transport", "Health and education", "Leisure", "Other goods and services"],
+    "categories": [
+      "Housing",
+      "Food",
+      "Transport",
+      "Health and education",
+      "Leisure",
+      "Other goods and services"
+    ],
     "series": [
-      { "name": "2000", "values": [24, 30, 14, 9, 11, 12] },
-      { "name": "2020", "values": [32, 19, 15, 14, 13, 7] }
+      {
+        "name": "2000",
+        "values": [
+          24,
+          30,
+          14,
+          9,
+          11,
+          12
+        ]
+      },
+      {
+        "name": "2020",
+        "values": [
+          32,
+          19,
+          15,
+          14,
+          13,
+          7
+        ]
+      }
     ],
     "unit": "%",
     "svg": null,

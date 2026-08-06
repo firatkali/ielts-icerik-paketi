@@ -1,5 +1,6 @@
 {
   "schema_version": "1.0",
+  "exam": "ielts",
   "set_id": "C28",
   "skill": "speaking",
   "card_type": "olay",
@@ -15,22 +16,46 @@
     ],
     "closing": "and explain how you felt when it turned up.",
     "preparation_seconds": 60,
-    "speaking_seconds": [90, 120],
+    "speaking_seconds": [
+      90,
+      120
+    ],
     "follow_up": [
       "Have you lost the same thing again since?",
       "Did anyone help you look for it?"
     ],
-    "useful_language": ["it turned up", "I searched high and low", "I had given up hope", "a huge relief"]
+    "useful_language": [
+      "it turned up",
+      "I searched high and low",
+      "I had given up hope",
+      "a huge relief"
+    ]
   },
   "part3": {
     "items": [
-      { "number": 1, "prompt": "Why do people become attached to objects they have lost?",
-        "focus": "genel açıklama", "difficulty": "medium" },
-      { "number": 2, "prompt": "Are people more careless with cheap items than with costly ones?",
-        "focus": "karşılaştırma", "difficulty": "medium" },
-      { "number": 3, "prompt": "Will technology make losing things a thing of the past?",
-        "focus": "gelecek / görüş", "difficulty": "hard" }
+      {
+        "number": 1,
+        "prompt": "Why do people become attached to objects they have lost?",
+        "focus": "genel açıklama",
+        "difficulty": "medium"
+      },
+      {
+        "number": 2,
+        "prompt": "Are people more careless with cheap items than with costly ones?",
+        "focus": "karşılaştırma",
+        "difficulty": "medium"
+      },
+      {
+        "number": 3,
+        "prompt": "Will technology make losing things a thing of the past?",
+        "focus": "gelecek / görüş",
+        "difficulty": "hard"
+      }
     ],
-    "useful_language": ["keep track of", "peace of mind", "to some extent"]
+    "useful_language": [
+      "keep track of",
+      "peace of mind",
+      "to some extent"
+    ]
   }
 }

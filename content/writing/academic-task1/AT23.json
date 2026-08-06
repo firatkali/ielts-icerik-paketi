@@ -1,5 +1,6 @@
 {
   "schema_version": "1.0",
+  "exam": "ielts",
   "set_id": "AT23",
   "skill": "writing",
   "module": "academic",
@@ -14,10 +15,34 @@
     "title": "Main reason given for moving home by two age groups, 2023",
     "x_label": null,
     "y_label": null,
-    "categories": ["A new job or course of study", "Wanted a larger home", "Lower housing costs", "To live nearer family", "Other reasons"],
+    "categories": [
+      "A new job or course of study",
+      "Wanted a larger home",
+      "Lower housing costs",
+      "To live nearer family",
+      "Other reasons"
+    ],
     "series": [
-      { "name": "Movers under 35", "values": [34, 18, 27, 13, 8] },
-      { "name": "Movers aged 35 and over", "values": [11, 12, 22, 42, 13] }
+      {
+        "name": "Movers under 35",
+        "values": [
+          34,
+          18,
+          27,
+          13,
+          8
+        ]
+      },
+      {
+        "name": "Movers aged 35 and over",
+        "values": [
+          11,
+          12,
+          22,
+          42,
+          13
+        ]
+      }
     ],
     "unit": "%",
     "svg": null,

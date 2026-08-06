@@ -1,5 +1,6 @@
 {
   "schema_version": "1.0",
+  "exam": "ielts",
   "set_id": "AC4-true-false-not-given",
   "skill": "reading",
   "module": "academic",
@@ -9,14 +10,23 @@
   "question_type": "true_false_not_given",
   "generated_by": "fable",
   "instructions": "Do the following statements agree with the information given in the passage?\n\nIn boxes 7-13 on your answer sheet, write\n\nTRUE if the statement agrees with the information\nFALSE if the statement contradicts the information\nNOT GIVEN if there is no information on this",
-  "options": ["TRUE", "FALSE", "NOT GIVEN"],
+  "options": [
+    "TRUE",
+    "FALSE",
+    "NOT GIVEN"
+  ],
   "items": [
     {
       "number": 7,
       "prompt": "The experiment was prompted by a shortage of controlled evidence in the debate.",
-      "answer": ["TRUE"],
+      "answer": [
+        "TRUE"
+      ],
       "evidence": "Much of this debate rests on personal impression rather than controlled comparison, which is what prompted researchers at a technology company headquartered in Amsterdam, with 5,580 employees at its main campus, to test the question directly rather than rely on opinion alone.",
-      "evidence_locator": { "paragraph": "A", "sentence": 4 },
+      "evidence_locator": {
+        "paragraph": "A",
+        "sentence": 4
+      },
       "contradiction_point": null,
       "not_given_justification": null,
       "scan_note": "Tartışmanın niteliği ve çalışmanın nedeni A paragrafında geçiyor: 1. cümle anlaşmazlığı, 2. cümle iki tarafın savlarını, 4. cümle tartışmanın kontrollü karşılaştırmadan yoksun olduğunu ve bunun araştırmacıları harekete geçirdiğini söylüyor. B paragrafı da deneyin tasarımını anlatarak aynı yönde; hiçbir paragrafta bu gerekçeyle çelişen cümle yok.",
@@ -27,9 +37,14 @@
     {
       "number": 8,
       "prompt": "Fewer than twenty teams took part in the experiment.",
-      "answer": ["FALSE"],
+      "answer": [
+        "FALSE"
+      ],
       "evidence": "The team designed a crossover experiment involving 288 employees drawn from 22 teams across different departments.",
-      "evidence_locator": { "paragraph": "B", "sentence": 1 },
+      "evidence_locator": {
+        "paragraph": "B",
+        "sentence": 1
+      },
       "contradiction_point": "Pasaj katılan takım sayısını 22 olarak veriyor; ifade yirmiden az diyor. Çelişki tek noktada: takım sayısı (22 ≥ 20).",
       "not_given_justification": null,
       "scan_note": "Katılımcı sayıları yalnızca B paragrafının 1. cümlesinde veriliyor (288 çalışan, 22 takım); takımlar B/2'de dönüşüm düzeni, F/3'te masa doluluğu ve G/2'de kod çıktısı bağlamında yeniden anılıyor, ama hiçbirinde farklı bir takım sayısı verilmiyor.",
@@ -40,7 +55,9 @@
     {
       "number": 9,
       "prompt": "Teams were told in advance which layout they would move into next.",
-      "answer": ["NOT GIVEN"],
+      "answer": [
+        "NOT GIVEN"
+      ],
       "evidence": null,
       "evidence_locator": null,
       "contradiction_point": null,
@@ -53,9 +70,14 @@
     {
       "number": 10,
       "prompt": "Light and carbon dioxide readings were taken continuously rather than at intervals.",
-      "answer": ["TRUE"],
+      "answer": [
+        "TRUE"
+      ],
       "evidence": "At the same time, environmental sensors continuously logged noise levels, temperature, lighting, humidity, carbon dioxide concentration and how many desks were occupied.",
-      "evidence_locator": { "paragraph": "C", "sentence": 3 },
+      "evidence_locator": {
+        "paragraph": "C",
+        "sentence": 3
+      },
       "contradiction_point": null,
       "not_given_justification": null,
       "scan_note": "Ölçüm yöntemleri C paragrafında toplanıyor: 1. cümle kanıt kaynaklarının birleştirildiğini, 2. cümle düzenli anketleri, 3. cümle sensörlerin kesintisiz kaydını, 4. cümle kod çıktısı sayımını ve gözlemcileri anlatıyor. Sensör verisine F paragrafının 1. ve 2. cümlelerinde geri dönülüyor; orada da ölçümün aralıklı olduğunu söyleyen bir cümle yok.",
@@ -66,9 +88,14 @@
     {
       "number": 11,
       "prompt": "The activity-based layout was rated more highly than the plain open-plan office for satisfaction.",
-      "answer": ["FALSE"],
+      "answer": [
+        "FALSE"
+      ],
       "evidence": "The activity-based design, despite its popularity in contemporary office trends, performed worse than the open-plan baseline on both measures, with satisfaction and productivity scores roughly 14 per cent lower.",
-      "evidence_locator": { "paragraph": "D", "sentence": 3 },
+      "evidence_locator": {
+        "paragraph": "D",
+        "sentence": 3
+      },
       "contradiction_point": "Pasaj etkinlik temelli düzenin memnuniyet ve verimlilikte açık ofis ölçütünün yaklaşık yüzde 14 altında kaldığını, yani daha kötü performans gösterdiğini söylüyor; ifade onun daha yüksek puan aldığını iddia ediyor. Çelişki tek noktada: karşılaştırmanın yönü (daha düşük / daha yüksek).",
       "not_given_justification": null,
       "scan_note": "Etkinlik temelli düzen B paragrafında (2. cümle, tanımı), D paragrafında (3. cümle, memnuniyet ve verimlilik sonucu), E paragrafında ('fully unassigned arrangement' olarak akış karşılaştırmasında) ve H paragrafında (açık ofisin bütün alternatiflerden düşük puan alması) geçiyor. Memnuniyet karşılaştırmasını yalnızca D/3 veriyor ve ifadenin tersini söylüyor.",
@@ -79,7 +106,9 @@
     {
       "number": 12,
       "prompt": "The sensor readings revealed clear differences in temperature between the four layouts.",
-      "answer": ["NOT GIVEN"],
+      "answer": [
+        "NOT GIVEN"
+      ],
       "evidence": null,
       "evidence_locator": null,
       "contradiction_point": null,
@@ -92,9 +121,14 @@
     {
       "number": 13,
       "prompt": "The volume of code a team produced was unaffected by the layout it worked in.",
-      "answer": ["TRUE"],
+      "answer": [
+        "TRUE"
+      ],
       "evidence": "Neither the number of software code commits produced by each team nor employees' self-reported energy levels showed a statistically significant difference between the four layouts, indicating that at least some aspects of daily work performance were largely unaffected by where people happened to be sitting that fortnight.",
-      "evidence_locator": { "paragraph": "G", "sentence": 2 },
+      "evidence_locator": {
+        "paragraph": "G",
+        "sentence": 2
+      },
       "contradiction_point": null,
       "not_given_justification": null,
       "scan_note": "Kod çıktısı C paragrafında (4. cümle, teknik çıktının ölçüsü olarak sayılması) ve G paragrafında (2. cümle, dört düzen arasında anlamlı fark bulunmaması; 3. cümle, bu sonucun yorumu) geçiyor; H paragrafındaki genel sonuç yalnızca memnuniyet, gürültü ve tercihten söz ediyor. Kod çıktısında fark bulunduğunu söyleyen hiçbir cümle yok.",

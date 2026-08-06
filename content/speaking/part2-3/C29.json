@@ -1,5 +1,6 @@
 {
   "schema_version": "1.0",
+  "exam": "ielts",
   "set_id": "C29",
   "skill": "speaking",
   "card_type": "soyut",
@@ -15,22 +16,46 @@
     ],
     "closing": "and explain why this skill interests you.",
     "preparation_seconds": 60,
-    "speaking_seconds": [90, 120],
+    "speaking_seconds": [
+      90,
+      120
+    ],
     "follow_up": [
       "Have you tried to learn it before?",
       "Do you know anyone who has this skill?"
     ],
-    "useful_language": ["pick it up", "from scratch", "get to grips with", "it takes a lot of practice"]
+    "useful_language": [
+      "pick it up",
+      "from scratch",
+      "get to grips with",
+      "it takes a lot of practice"
+    ]
   },
   "part3": {
     "items": [
-      { "number": 1, "prompt": "Why do many adults find it difficult to start learning something new?",
-        "focus": "genel açıklama", "difficulty": "medium" },
-      { "number": 2, "prompt": "Is a practical skill more valuable than academic knowledge?",
-        "focus": "karşılaştırma", "difficulty": "medium" },
-      { "number": 3, "prompt": "Will people have to keep learning new skills throughout their working lives?",
-        "focus": "gelecek / görüş", "difficulty": "hard" }
+      {
+        "number": 1,
+        "prompt": "Why do many adults find it difficult to start learning something new?",
+        "focus": "genel açıklama",
+        "difficulty": "medium"
+      },
+      {
+        "number": 2,
+        "prompt": "Is a practical skill more valuable than academic knowledge?",
+        "focus": "karşılaştırma",
+        "difficulty": "medium"
+      },
+      {
+        "number": 3,
+        "prompt": "Will people have to keep learning new skills throughout their working lives?",
+        "focus": "gelecek / görüş",
+        "difficulty": "hard"
+      }
     ],
-    "useful_language": ["out of their comfort zone", "there is no substitute for practice", "keep pace with change"]
+    "useful_language": [
+      "out of their comfort zone",
+      "there is no substitute for practice",
+      "keep pace with change"
+    ]
   }
 }

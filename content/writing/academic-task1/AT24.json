@@ -1,5 +1,6 @@
 {
   "schema_version": "1.0",
+  "exam": "ielts",
   "set_id": "AT24",
   "skill": "writing",
   "module": "academic",
@@ -15,12 +16,42 @@
     "x_label": null,
     "y_label": null,
     "chart_data": {
-      "headers": ["Age group", "City areas", "Small towns", "Country areas", "All three areas"],
+      "headers": [
+        "Age group",
+        "City areas",
+        "Small towns",
+        "Country areas",
+        "All three areas"
+      ],
       "rows": [
-        ["Under 18", 3.2, 3.0, 2.8, 3.0],
-        ["18-39", 2.4, 2.2, 1.7, 2.1],
-        ["40-64", 4.0, 3.8, 3.3, 3.7],
-        ["65 and over", 8.6, 8.0, 6.8, 7.8]
+        [
+          "Under 18",
+          3.2,
+          3.0,
+          2.8,
+          3.0
+        ],
+        [
+          "18-39",
+          2.4,
+          2.2,
+          1.7,
+          2.1
+        ],
+        [
+          "40-64",
+          4.0,
+          3.8,
+          3.3,
+          3.7
+        ],
+        [
+          "65 and over",
+          8.6,
+          8.0,
+          6.8,
+          7.8
+        ]
       ]
     },
     "unit": "ziyaret / kişi / yıl",

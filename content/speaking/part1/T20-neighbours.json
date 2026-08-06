@@ -1,82 +1,136 @@
 {
   "schema_version": "1.0",
+  "exam": "ielts",
   "set_id": "T20-neighbours",
   "skill": "speaking",
   "part": 1,
   "topic": "Neighbours",
   "topic_tr": "Komşuluk",
   "generated_by": "opus",
-  "expected_answer_seconds": [20, 40],
+  "expected_answer_seconds": [
+    20,
+    40
+  ],
   "items": [
     {
       "number": 1,
       "prompt": "How well do you know the people who live near you?",
       "focus": "temel bilgi",
       "difficulty": "easy",
-      "useful_language": ["well enough to stop and chat", "only by sight, really", "I know the ones on my floor", "we're on first-name terms"]
+      "useful_language": [
+        "well enough to stop and chat",
+        "only by sight, really",
+        "I know the ones on my floor",
+        "we're on first-name terms"
+      ]
     },
     {
       "number": 2,
       "prompt": "How often do you speak to your neighbours?",
       "focus": "alışkanlık",
       "difficulty": "easy",
-      "useful_language": ["mostly in passing", "we bump into each other by the door", "a few words now and then", "I make a point of saying hello"]
+      "useful_language": [
+        "mostly in passing",
+        "we bump into each other by the door",
+        "a few words now and then",
+        "I make a point of saying hello"
+      ]
     },
     {
       "number": 3,
       "prompt": "What were your neighbours like when you were growing up?",
       "focus": "geçmiş",
       "difficulty": "easy",
-      "useful_language": ["everybody knew everybody", "the children were in and out of each other's homes", "there was an older couple who kept an eye on us", "people kept themselves to themselves"]
+      "useful_language": [
+        "everybody knew everybody",
+        "the children were in and out of each other's homes",
+        "there was an older couple who kept an eye on us",
+        "people kept themselves to themselves"
+      ]
     },
     {
       "number": 4,
       "prompt": "What sorts of things do neighbours usually help each other with?",
       "focus": "açıklama",
       "difficulty": "medium",
-      "useful_language": ["taking in a parcel", "watering the plants while someone's away", "lending a tool you only need once", "keeping an eye on the place"]
+      "useful_language": [
+        "taking in a parcel",
+        "watering the plants while someone's away",
+        "lending a tool you only need once",
+        "keeping an eye on the place"
+      ]
     },
     {
       "number": 5,
       "prompt": "What makes someone a good neighbour?",
       "focus": "görüş",
       "difficulty": "medium",
-      "useful_language": ["being there without being in your way", "keeping the noise down late at night", "willing to lend a hand", "friendly but not nosy"]
+      "useful_language": [
+        "being there without being in your way",
+        "keeping the noise down late at night",
+        "willing to lend a hand",
+        "friendly but not nosy"
+      ]
     },
     {
       "number": 6,
       "prompt": "Which would you rather have, quiet neighbours or sociable ones?",
       "focus": "tercih ve sebep",
       "difficulty": "medium",
-      "useful_language": ["peace counts for a lot", "it's reassuring to know someone is about", "I'd take a bit of noise over feeling isolated", "there's a balance to be struck"]
+      "useful_language": [
+        "peace counts for a lot",
+        "it's reassuring to know someone is about",
+        "I'd take a bit of noise over feeling isolated",
+        "there's a balance to be struck"
+      ]
     },
     {
       "number": 7,
       "prompt": "What causes most disagreements between people who live close together?",
       "focus": "sebep",
       "difficulty": "medium",
-      "useful_language": ["noise is the usual one", "arguments over where to park", "shared spaces nobody wants to clean", "small things build up over time"]
+      "useful_language": [
+        "noise is the usual one",
+        "arguments over where to park",
+        "shared spaces nobody wants to clean",
+        "small things build up over time"
+      ]
     },
     {
       "number": 8,
       "prompt": "What would bring the people in one street closer together?",
       "focus": "öneri ve varsayım",
       "difficulty": "hard",
-      "useful_language": ["somewhere to gather that isn't a home", "a shared garden would do it", "it usually takes one person to start", "people come together when something goes wrong"]
+      "useful_language": [
+        "somewhere to gather that isn't a home",
+        "a shared garden would do it",
+        "it usually takes one person to start",
+        "people come together when something goes wrong"
+      ]
     },
     {
       "number": 9,
       "prompt": "Why do people in cities often know their neighbours less well than before?",
       "focus": "değişim",
       "difficulty": "hard",
-      "useful_language": ["people move on far more often", "everyone keeps different hours", "there's less reason to knock on a door now", "friendships are chosen rather than inherited"]
+      "useful_language": [
+        "people move on far more often",
+        "everyone keeps different hours",
+        "there's less reason to knock on a door now",
+        "friendships are chosen rather than inherited"
+      ]
     },
     {
       "number": 10,
       "prompt": "How do relationships between neighbours differ between towns and villages?",
       "focus": "karşılaştırma",
       "difficulty": "hard",
-      "useful_language": ["in a small place you rely on each other", "the privacy of a town suits some people", "word travels fast in a village", "distance makes it easier to stay out of things"]
+      "useful_language": [
+        "in a small place you rely on each other",
+        "the privacy of a town suits some people",
+        "word travels fast in a village",
+        "distance makes it easier to stay out of things"
+      ]
     }
   ]
 }

@@ -1,5 +1,6 @@
 {
   "schema_version": "1.0",
+  "exam": "ielts",
   "set_id": "C37",
   "skill": "speaking",
   "card_type": "nesne",
@@ -15,22 +16,46 @@
     ],
     "closing": "and explain why it is so useful to you.",
     "preparation_seconds": 60,
-    "speaking_seconds": [90, 120],
+    "speaking_seconds": [
+      90,
+      120
+    ],
     "follow_up": [
       "Would you take it with you if you moved home?",
       "Is there another piece of furniture you would like to have?"
     ],
-    "useful_language": ["sturdy", "it does the job", "it fits neatly into", "hard-wearing"]
+    "useful_language": [
+      "sturdy",
+      "it does the job",
+      "it fits neatly into",
+      "hard-wearing"
+    ]
   },
   "part3": {
     "items": [
-      { "number": 1, "prompt": "Why do people hold on to old furniture even when it looks worn?",
-        "focus": "genel açıklama", "difficulty": "medium" },
-      { "number": 2, "prompt": "Is furniture made today better than furniture made in the past?",
-        "focus": "karşılaştırma", "difficulty": "medium" },
-      { "number": 3, "prompt": "Will homes contain fewer objects as living space becomes smaller?",
-        "focus": "gelecek / görüş", "difficulty": "hard" }
+      {
+        "number": 1,
+        "prompt": "Why do people hold on to old furniture even when it looks worn?",
+        "focus": "genel açıklama",
+        "difficulty": "medium"
+      },
+      {
+        "number": 2,
+        "prompt": "Is furniture made today better than furniture made in the past?",
+        "focus": "karşılaştırma",
+        "difficulty": "medium"
+      },
+      {
+        "number": 3,
+        "prompt": "Will homes contain fewer objects as living space becomes smaller?",
+        "focus": "gelecek / görüş",
+        "difficulty": "hard"
+      }
     ],
-    "useful_language": ["built to last", "a throwaway culture", "value for money"]
+    "useful_language": [
+      "built to last",
+      "a throwaway culture",
+      "value for money"
+    ]
   }
 }

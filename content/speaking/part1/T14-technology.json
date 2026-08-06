@@ -1,82 +1,136 @@
 {
   "schema_version": "1.0",
+  "exam": "ielts",
   "set_id": "T14-technology",
   "skill": "speaking",
   "part": 1,
   "topic": "Technology",
   "topic_tr": "Teknoloji",
   "generated_by": "opus",
-  "expected_answer_seconds": [20, 40],
+  "expected_answer_seconds": [
+    20,
+    40
+  ],
   "items": [
     {
       "number": 1,
       "prompt": "Which piece of technology do you use most during the day?",
       "focus": "temel bilgi",
       "difficulty": "easy",
-      "useful_language": ["it's never out of my hand", "I rely on it for everything", "a laptop, mostly", "something fairly basic"]
+      "useful_language": [
+        "it's never out of my hand",
+        "I rely on it for everything",
+        "a laptop, mostly",
+        "something fairly basic"
+      ]
     },
     {
       "number": 2,
       "prompt": "What do you mainly use your phone for?",
       "focus": "alışkanlık",
       "difficulty": "easy",
-      "useful_language": ["keeping in touch", "looking things up", "finding my way around", "far more than making calls"]
+      "useful_language": [
+        "keeping in touch",
+        "looking things up",
+        "finding my way around",
+        "far more than making calls"
+      ]
     },
     {
       "number": 3,
       "prompt": "How did you learn to use the devices you own?",
       "focus": "geçmiş",
       "difficulty": "easy",
-      "useful_language": ["I picked it up as I went along", "by trial and error", "a younger relative showed me", "I looked up a guide online"]
+      "useful_language": [
+        "I picked it up as I went along",
+        "by trial and error",
+        "a younger relative showed me",
+        "I looked up a guide online"
+      ]
     },
     {
       "number": 4,
       "prompt": "Which application do you find most useful, and why?",
       "focus": "tercih ve sebep",
       "difficulty": "medium",
-      "useful_language": ["it saves me a great deal of time", "it does one thing well", "I'd be lost without it", "it's simple enough to use in a hurry"]
+      "useful_language": [
+        "it saves me a great deal of time",
+        "it does one thing well",
+        "I'd be lost without it",
+        "it's simple enough to use in a hurry"
+      ]
     },
     {
       "number": 5,
       "prompt": "What kind of technology was in your home when you were a child?",
       "focus": "geçmiş",
       "difficulty": "medium",
-      "useful_language": ["we had one for the whole household", "it took ages to start up", "nothing like what we have now", "it felt remarkable at the time"]
+      "useful_language": [
+        "we had one for the whole household",
+        "it took ages to start up",
+        "nothing like what we have now",
+        "it felt remarkable at the time"
+      ]
     },
     {
       "number": 6,
       "prompt": "How would your day change if your phone stopped working?",
       "focus": "varsayım",
       "difficulty": "medium",
-      "useful_language": ["I'd have to plan things in advance", "it would throw me at first", "I'd probably get more done", "I'd manage, but it would be awkward"]
+      "useful_language": [
+        "I'd have to plan things in advance",
+        "it would throw me at first",
+        "I'd probably get more done",
+        "I'd manage, but it would be awkward"
+      ]
     },
     {
       "number": 7,
       "prompt": "What do people gain from spending time away from screens?",
       "focus": "başkaları açısı",
       "difficulty": "medium",
-      "useful_language": ["you notice what's around you", "conversations last longer", "it's less tiring on the eyes", "you stop checking things constantly"]
+      "useful_language": [
+        "you notice what's around you",
+        "conversations last longer",
+        "it's less tiring on the eyes",
+        "you stop checking things constantly"
+      ]
     },
     {
       "number": 8,
       "prompt": "What kind of technology would you like to understand better?",
       "focus": "gelecek",
       "difficulty": "hard",
-      "useful_language": ["I'd like to get to grips with", "anything to do with", "it would be useful for work", "I only scratch the surface of it"]
+      "useful_language": [
+        "I'd like to get to grips with",
+        "anything to do with",
+        "it would be useful for work",
+        "I only scratch the surface of it"
+      ]
     },
     {
       "number": 9,
       "prompt": "How has technology changed the way people work in your area?",
       "focus": "değişim",
       "difficulty": "hard",
-      "useful_language": ["a great deal of it is done remotely now", "certain jobs have disappeared altogether", "people are expected to be available", "it has sped everything up"]
+      "useful_language": [
+        "a great deal of it is done remotely now",
+        "certain jobs have disappeared altogether",
+        "people are expected to be available",
+        "it has sped everything up"
+      ]
     },
     {
       "number": 10,
       "prompt": "How is learning something from a screen different from learning it from a person?",
       "focus": "karşılaştırma",
       "difficulty": "hard",
-      "useful_language": ["you can ask questions straight away", "a screen lets you go back over it", "you miss the encouragement", "it suits different kinds of learner"]
+      "useful_language": [
+        "you can ask questions straight away",
+        "a screen lets you go back over it",
+        "you miss the encouragement",
+        "it suits different kinds of learner"
+      ]
     }
   ]
 }

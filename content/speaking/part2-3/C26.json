@@ -1,5 +1,6 @@
 {
   "schema_version": "1.0",
+  "exam": "ielts",
   "set_id": "C26",
   "skill": "speaking",
   "card_type": "olay",
@@ -15,22 +16,46 @@
     ],
     "closing": "and explain how well the group worked together.",
     "preparation_seconds": 60,
-    "speaking_seconds": [90, 120],
+    "speaking_seconds": [
+      90,
+      120
+    ],
     "follow_up": [
       "Would you choose the same people again?",
       "Was anyone in charge of the group?"
     ],
-    "useful_language": ["pull our weight", "split the work between us", "see eye to eye", "get it over the line"]
+    "useful_language": [
+      "pull our weight",
+      "split the work between us",
+      "see eye to eye",
+      "get it over the line"
+    ]
   },
   "part3": {
     "items": [
-      { "number": 1, "prompt": "Why do some groups achieve far more than others?",
-        "focus": "genel açıklama", "difficulty": "medium" },
-      { "number": 2, "prompt": "Is it easier to work alone or as part of a team?",
-        "focus": "karşılaştırma", "difficulty": "medium" },
-      { "number": 3, "prompt": "Will teamwork matter more as jobs become more complex?",
-        "focus": "gelecek / görüş", "difficulty": "hard" }
+      {
+        "number": 1,
+        "prompt": "Why do some groups achieve far more than others?",
+        "focus": "genel açıklama",
+        "difficulty": "medium"
+      },
+      {
+        "number": 2,
+        "prompt": "Is it easier to work alone or as part of a team?",
+        "focus": "karşılaştırma",
+        "difficulty": "medium"
+      },
+      {
+        "number": 3,
+        "prompt": "Will teamwork matter more as jobs become more complex?",
+        "focus": "gelecek / görüş",
+        "difficulty": "hard"
+      }
     ],
-    "useful_language": ["a common goal", "a clash of personalities", "in the vast majority of cases"]
+    "useful_language": [
+      "a common goal",
+      "a clash of personalities",
+      "in the vast majority of cases"
+    ]
   }
 }

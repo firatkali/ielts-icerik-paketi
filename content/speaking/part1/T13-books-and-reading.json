@@ -1,82 +1,136 @@
 {
   "schema_version": "1.0",
+  "exam": "ielts",
   "set_id": "T13-books-and-reading",
   "skill": "speaking",
   "part": 1,
   "topic": "Books and reading",
   "topic_tr": "Kitap ve okuma",
   "generated_by": "opus",
-  "expected_answer_seconds": [20, 40],
+  "expected_answer_seconds": [
+    20,
+    40
+  ],
   "items": [
     {
       "number": 1,
       "prompt": "What kind of books do you like to read?",
       "focus": "temel bilgi",
       "difficulty": "easy",
-      "useful_language": ["anything with a strong story", "I lean towards non-fiction", "short pieces I can finish", "it depends on my mood"]
+      "useful_language": [
+        "anything with a strong story",
+        "I lean towards non-fiction",
+        "short pieces I can finish",
+        "it depends on my mood"
+      ]
     },
     {
       "number": 2,
       "prompt": "How much time do you spend reading in a normal week?",
       "focus": "alışkanlık",
       "difficulty": "easy",
-      "useful_language": ["an hour or so in the evenings", "in short bursts", "less than I'd like to admit", "mostly on the way to work"]
+      "useful_language": [
+        "an hour or so in the evenings",
+        "in short bursts",
+        "less than I'd like to admit",
+        "mostly on the way to work"
+      ]
     },
     {
       "number": 3,
       "prompt": "Where do you usually get the books you read?",
       "focus": "alışkanlık",
       "difficulty": "easy",
-      "useful_language": ["I borrow most of them", "second-hand stalls", "people pass them on to me", "I read a lot of it on a screen"]
+      "useful_language": [
+        "I borrow most of them",
+        "second-hand stalls",
+        "people pass them on to me",
+        "I read a lot of it on a screen"
+      ]
     },
     {
       "number": 4,
       "prompt": "Which book would you recommend to someone your age, and why?",
       "focus": "tercih ve sebep",
       "difficulty": "medium",
-      "useful_language": ["it's an easy read but it stays with you", "I'd suggest something short", "anyone could relate to it", "it made me see things differently"]
+      "useful_language": [
+        "it's an easy read but it stays with you",
+        "I'd suggest something short",
+        "anyone could relate to it",
+        "it made me see things differently"
+      ]
     },
     {
       "number": 5,
       "prompt": "What did you enjoy reading when you were at primary school?",
       "focus": "geçmiş",
       "difficulty": "medium",
-      "useful_language": ["I worked my way through the whole series", "picture books mainly", "I read the same one over and over", "we were read to at the end of the day"]
+      "useful_language": [
+        "I worked my way through the whole series",
+        "picture books mainly",
+        "I read the same one over and over",
+        "we were read to at the end of the day"
+      ]
     },
     {
       "number": 6,
       "prompt": "How does reading a story compare with watching one on a screen?",
       "focus": "karşılaştırma",
       "difficulty": "medium",
-      "useful_language": ["you picture it yourself", "it asks more of you", "a screen does the work for you", "you can go at your own pace"]
+      "useful_language": [
+        "you picture it yourself",
+        "it asks more of you",
+        "a screen does the work for you",
+        "you can go at your own pace"
+      ]
     },
     {
       "number": 7,
       "prompt": "What stops many adults from reading in their free time?",
       "focus": "başkaları açısı ve sebep",
       "difficulty": "medium",
-      "useful_language": ["they're too tired by the evening", "there's always something quicker to hand", "it takes real concentration", "they associate it with schoolwork"]
+      "useful_language": [
+        "they're too tired by the evening",
+        "there's always something quicker to hand",
+        "it takes real concentration",
+        "they associate it with schoolwork"
+      ]
     },
     {
       "number": 8,
       "prompt": "What would encourage more children to read for pleasure?",
       "focus": "öneri",
       "difficulty": "hard",
-      "useful_language": ["letting them choose for themselves", "seeing adults do it", "it shouldn't feel like homework", "making books easy to get hold of"]
+      "useful_language": [
+        "letting them choose for themselves",
+        "seeing adults do it",
+        "it shouldn't feel like homework",
+        "making books easy to get hold of"
+      ]
     },
     {
       "number": 9,
       "prompt": "How much has the way people read changed over the past ten years?",
       "focus": "değişim",
       "difficulty": "hard",
-      "useful_language": ["we skim far more than we used to", "reading has moved onto devices", "attention spans are shorter", "in some ways people read more than ever"]
+      "useful_language": [
+        "we skim far more than we used to",
+        "reading has moved onto devices",
+        "attention spans are shorter",
+        "in some ways people read more than ever"
+      ]
     },
     {
       "number": 10,
       "prompt": "How useful are libraries to people in your area these days?",
       "focus": "görüş",
       "difficulty": "hard",
-      "useful_language": ["they've become more of a meeting place", "not everyone can afford to buy books", "they're underused, sadly", "they offer a quiet place to work"]
+      "useful_language": [
+        "they've become more of a meeting place",
+        "not everyone can afford to buy books",
+        "they're underused, sadly",
+        "they offer a quiet place to work"
+      ]
     }
   ]
 }

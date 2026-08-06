@@ -1,82 +1,136 @@
 {
   "schema_version": "1.0",
+  "exam": "ielts",
   "set_id": "T16-travel",
   "skill": "speaking",
   "part": 1,
   "topic": "Travel",
   "topic_tr": "Seyahat",
   "generated_by": "opus",
-  "expected_answer_seconds": [20, 40],
+  "expected_answer_seconds": [
+    20,
+    40
+  ],
   "items": [
     {
       "number": 1,
       "prompt": "What kind of places do you enjoy visiting?",
       "focus": "temel bilgi",
       "difficulty": "easy",
-      "useful_language": ["somewhere with a bit of history", "I'm drawn to quieter places", "anywhere near water", "nothing too crowded"]
+      "useful_language": [
+        "somewhere with a bit of history",
+        "I'm drawn to quieter places",
+        "anywhere near water",
+        "nothing too crowded"
+      ]
     },
     {
       "number": 2,
       "prompt": "Where did you go the last time you had a day out?",
       "focus": "son deneyim",
       "difficulty": "easy",
-      "useful_language": ["we only went as far as", "it was an hour up the road", "a spur-of-the-moment thing", "we made a day of it"]
+      "useful_language": [
+        "we only went as far as",
+        "it was an hour up the road",
+        "a spur-of-the-moment thing",
+        "we made a day of it"
+      ]
     },
     {
       "number": 3,
       "prompt": "How do you usually prepare before going somewhere unfamiliar?",
       "focus": "alışkanlık",
       "difficulty": "easy",
-      "useful_language": ["I look up how to get there", "I ask people who've been", "I pack far too much", "I like to know roughly what to expect"]
+      "useful_language": [
+        "I look up how to get there",
+        "I ask people who've been",
+        "I pack far too much",
+        "I like to know roughly what to expect"
+      ]
     },
     {
       "number": 4,
       "prompt": "Which do you prefer, planning a trip in detail or deciding as you go?",
       "focus": "tercih ve sebep",
       "difficulty": "medium",
-      "useful_language": ["I like a loose plan", "planning is half the pleasure", "you stumble across the best bits", "too much planning takes the fun out of it"]
+      "useful_language": [
+        "I like a loose plan",
+        "planning is half the pleasure",
+        "you stumble across the best bits",
+        "too much planning takes the fun out of it"
+      ]
     },
     {
       "number": 5,
       "prompt": "What sort of trips did you go on when you were at school?",
       "focus": "geçmiş",
       "difficulty": "medium",
-      "useful_language": ["we were taken to", "day trips rather than anything longer", "we were let loose in", "I remember the coach journey more than the place"]
+      "useful_language": [
+        "we were taken to",
+        "day trips rather than anything longer",
+        "we were let loose in",
+        "I remember the coach journey more than the place"
+      ]
     },
     {
       "number": 6,
       "prompt": "What do you find most tiring about long journeys?",
       "focus": "açıklama",
       "difficulty": "medium",
-      "useful_language": ["the waiting around", "you can never really settle", "changing from one thing to another", "it's the hanging about that wears you out"]
+      "useful_language": [
+        "the waiting around",
+        "you can never really settle",
+        "changing from one thing to another",
+        "it's the hanging about that wears you out"
+      ]
     },
     {
       "number": 7,
       "prompt": "What makes some journeys stay in your memory longer than others?",
       "focus": "sebep",
       "difficulty": "medium",
-      "useful_language": ["it's usually the people you're with", "something goes wrong and you never forget it", "the first time you see something", "small details stick with you"]
+      "useful_language": [
+        "it's usually the people you're with",
+        "something goes wrong and you never forget it",
+        "the first time you see something",
+        "small details stick with you"
+      ]
     },
     {
       "number": 8,
       "prompt": "Where would you go if you could spend a month anywhere?",
       "focus": "varsayım",
       "difficulty": "hard",
-      "useful_language": ["I'd settle somewhere rather than move about", "I'd want long enough to get under the skin of it", "somewhere completely unlike home", "I'd pick a place with a different climate"]
+      "useful_language": [
+        "I'd settle somewhere rather than move about",
+        "I'd want long enough to get under the skin of it",
+        "somewhere completely unlike home",
+        "I'd pick a place with a different climate"
+      ]
     },
     {
       "number": 9,
       "prompt": "How has the way people decide where to go away changed?",
       "focus": "değişim",
       "difficulty": "hard",
-      "useful_language": ["people used to rely on word of mouth", "everything is booked from a phone now", "photographs online drive a lot of it", "there's far more on offer than there was"]
+      "useful_language": [
+        "people used to rely on word of mouth",
+        "everything is booked from a phone now",
+        "photographs online drive a lot of it",
+        "there's far more on offer than there was"
+      ]
     },
     {
       "number": 10,
       "prompt": "In what ways do people change after spending time in unfamiliar places?",
       "focus": "başkaları açısı ve sonuç",
       "difficulty": "hard",
-      "useful_language": ["they come back less set in their ways", "you stop taking home for granted", "it makes people more adaptable", "some people barely change at all"]
+      "useful_language": [
+        "they come back less set in their ways",
+        "you stop taking home for granted",
+        "it makes people more adaptable",
+        "some people barely change at all"
+      ]
     }
   ]
 }

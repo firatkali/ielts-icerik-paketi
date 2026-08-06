@@ -1,5 +1,6 @@
 {
   "schema_version": "1.0",
+  "exam": "ielts",
   "set_id": "AC2-matching-information",
   "skill": "reading",
   "module": "academic",
@@ -9,15 +10,31 @@
   "question_type": "matching_information",
   "generated_by": "opus",
   "instructions": "The passage has EIGHT paragraphs, A-H. Which paragraph contains the following information? Write the correct letter, A-H, in boxes 27-31 on your answer sheet.",
-  "options": ["A", "B", "C", "D", "E", "F", "G", "H"],
+  "options": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H"
+  ],
   "items": [
     {
       "number": 27,
       "prompt": "figures showing that an advantage grows smaller the longer someone has been with the firm",
-      "answer": ["F"],
-      "accepted_variants": ["F"],
+      "answer": [
+        "F"
+      ],
+      "accepted_variants": [
+        "F"
+      ],
       "evidence": "This benefit was strongly concentrated among newer staff: employees in their first year on the job gained around 26.2 per cent when surrounded by experienced teammates, second-year employees gained a more modest 8.6 per cent, and the effect shrank close to zero for longer-serving staff.",
-      "evidence_locator": { "paragraph": "F", "sentence": 3 },
+      "evidence_locator": {
+        "paragraph": "F",
+        "sentence": 3
+      },
       "uniqueness_check": "Kazancın hizmet süresine göre nasıl küçüldüğünü basamak basamak sayıyla veren tek paragraf F. E paragrafı hiçbir kazanç bulunmadığını söylüyor, dolayısıyla azalan bir etki sunmuyor; H, deneyimli çalışanlara farklı davranılmasını öneriyor ama tek bir sayı bile vermiyor.",
       "explanation": "F paragrafı, deneyimli takımların sağladığı yararın ilk yıldaki çalışanlarda yüzde 26,2, ikinci yılda yüzde 8,6 olduğunu, daha kıdemlilerde ise neredeyse sıfıra indiğini söylüyor.",
       "difficulty": "medium",
@@ -26,10 +43,17 @@
     {
       "number": 28,
       "prompt": "a reason why this employer spares researchers a comparison that complicates other studies",
-      "answer": ["A"],
-      "accepted_variants": ["A"],
+      "answer": [
+        "A"
+      ],
+      "accepted_variants": [
+        "A"
+      ],
       "evidence": "Because the company was built from the start as a fully distributed organisation rather than converting to remote work later, it offers researchers an unusually clean setting in which to study how colleagues influence one another's output, without the complication of comparing remote staff against office-based staff.",
-      "evidence_locator": { "paragraph": "A", "sentence": 3 },
+      "evidence_locator": {
+        "paragraph": "A",
+        "sentence": 3
+      },
       "uniqueness_check": "Şirketin kuruluşundan beri ofissiz olmasının araştırma açısından neden avantaj olduğunu açıklayan tek paragraf A. C paragrafı da yöntem gücünden söz ediyor ama orada avantaj takım atamasının rastgeleliğinden geliyor, şirketin geçmişinden değil; B yalnızca verinin nereden toplandığını anlatıyor.",
       "explanation": "A paragrafı, şirketin sonradan uzaktan çalışmaya geçmeyip baştan dağıtık kurulduğu için ofiste çalışanlarla karşılaştırma zorunluluğunu ortadan kaldırdığını söylüyor.",
       "difficulty": "medium",
@@ -38,10 +62,17 @@
     {
       "number": 29,
       "prompt": "guidance on which colleagues ought to be put together",
-      "answer": ["H"],
-      "accepted_variants": ["H"],
+      "answer": [
+        "H"
+      ],
+      "accepted_variants": [
+        "H"
+      ],
       "evidence": "For managers, the practical implication is straightforward even if it runs against instinct: rather than scattering top performers across teams in the hope that their example will lift everyone else, organisations may do better to pair newcomers deliberately with longer-serving colleagues, while giving already experienced or highly productive staff more autonomy and fewer scheduled check-ins.",
-      "evidence_locator": { "paragraph": "H", "sentence": 4 },
+      "evidence_locator": {
+        "paragraph": "H",
+        "sentence": 4
+      },
       "uniqueness_check": "Kimin kiminle aynı takıma konması gerektiğine dair öneri yalnız H paragrafında. C paragrafı da takım oluşturmayı anlatıyor ama şirketin fiilen uyguladığı sıraya dayalı otomatik kuralı betimliyor, bir tavsiye vermiyor; F yalnızca bulguyu bildiriyor.",
       "explanation": "H paragrafı yöneticilere, en iyi çalışanları takımlara dağıtmak yerine yeni gelenleri bilerek kıdemli meslektaşlarla eşleştirmelerini öneriyor.",
       "difficulty": "medium",
@@ -50,10 +81,17 @@
     {
       "number": 30,
       "prompt": "the choice to ignore what employees produced during their opening months",
-      "answer": ["B"],
-      "accepted_variants": ["B"],
+      "answer": [
+        "B"
+      ],
+      "accepted_variants": [
+        "B"
+      ],
       "evidence": "Observations from an employee's first six months, a standard training period, were excluded so that the sample reflected only fully established staff.",
-      "evidence_locator": { "paragraph": "B", "sentence": 2 },
+      "evidence_locator": {
+        "paragraph": "B",
+        "sentence": 2
+      },
       "uniqueness_check": "Veri kümesinden hangi kayıtların çıkarıldığını söyleyen tek paragraf B. F paragrafı ilk yılındaki çalışanlardan söz ediyor ama onları dışarıda bırakmıyor, tam tersine en büyük kazancı onlarda buluyor; C yalnızca atama kuralını anlatıyor.",
       "explanation": "B paragrafı, çalışanın ilk altı ayına ait gözlemlerin eğitim dönemi sayıldığı için örneklemden çıkarıldığını söylüyor.",
       "difficulty": "medium",
@@ -62,10 +100,17 @@
     {
       "number": 31,
       "prompt": "the single count chosen to stand for how much work each person got done",
-      "answer": ["D"],
-      "accepted_variants": ["D"],
+      "answer": [
+        "D"
+      ],
+      "accepted_variants": [
+        "D"
+      ],
       "evidence": "Productivity was measured as the number of distinct clients an employee served in a given month.",
-      "evidence_locator": { "paragraph": "D", "sentence": 1 },
+      "evidence_locator": {
+        "paragraph": "D",
+        "sentence": 1
+      },
       "uniqueness_check": "Çıktının hangi sayıyla ölçüldüğünü tanımlayan tek paragraf D. B paragrafı verinin hangi kaynaklardan derlendiğini sıralıyor ama hiçbir ölçü tanımlamıyor; F ve E bu ölçüyle elde edilen sonuçları bildiriyor, ölçünün kendisini değil.",
       "explanation": "D paragrafı, verimliliğin bir çalışanın o ay hizmet verdiği farklı müşteri sayısıyla ölçüldüğünü söylüyor.",
       "difficulty": "easy",

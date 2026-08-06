@@ -1,82 +1,136 @@
 {
   "schema_version": "1.0",
+  "exam": "ielts",
   "set_id": "T02-accommodation",
   "skill": "speaking",
   "part": 1,
   "topic": "Home and accommodation",
   "topic_tr": "Ev / daire",
   "generated_by": "opus",
-  "expected_answer_seconds": [20, 40],
+  "expected_answer_seconds": [
+    20,
+    40
+  ],
   "items": [
     {
       "number": 1,
       "prompt": "What kind of home do you live in?",
       "focus": "temel bilgi",
       "difficulty": "easy",
-      "useful_language": ["a two-bedroom flat", "on the top floor", "a shared house", "it's fairly modern"]
+      "useful_language": [
+        "a two-bedroom flat",
+        "on the top floor",
+        "a shared house",
+        "it's fairly modern"
+      ]
     },
     {
       "number": 2,
       "prompt": "Which room do you spend the most time in during the day?",
       "focus": "alışkanlık",
       "difficulty": "easy",
-      "useful_language": ["I tend to sit in", "that's where I do most of my", "it gets the best light", "I use it as a study"]
+      "useful_language": [
+        "I tend to sit in",
+        "that's where I do most of my",
+        "it gets the best light",
+        "I use it as a study"
+      ]
     },
     {
       "number": 3,
       "prompt": "What do you like most about the place where you live?",
       "focus": "tercih",
       "difficulty": "easy",
-      "useful_language": ["the best thing about it is", "it's within walking distance of", "it's nice and quiet", "there's plenty of storage"]
+      "useful_language": [
+        "the best thing about it is",
+        "it's within walking distance of",
+        "it's nice and quiet",
+        "there's plenty of storage"
+      ]
     },
     {
       "number": 4,
       "prompt": "What can you see from the windows of your home?",
       "focus": "tanımlama",
       "difficulty": "medium",
-      "useful_language": ["it looks out onto", "you can just about make out", "a row of trees", "the view isn't up to much"]
+      "useful_language": [
+        "it looks out onto",
+        "you can just about make out",
+        "a row of trees",
+        "the view isn't up to much"
+      ]
     },
     {
       "number": 5,
       "prompt": "How have you decorated the rooms in your home?",
       "focus": "tanımlama ve tercih",
       "difficulty": "medium",
-      "useful_language": ["I've kept it fairly plain", "warm colours", "second-hand furniture", "it makes the room feel bigger"]
+      "useful_language": [
+        "I've kept it fairly plain",
+        "warm colours",
+        "second-hand furniture",
+        "it makes the room feel bigger"
+      ]
     },
     {
       "number": 6,
       "prompt": "How does your current home compare with the one you lived in as a child?",
       "focus": "geçmiş ve karşılaştırma",
       "difficulty": "medium",
-      "useful_language": ["it's nothing like", "we had far more space", "it was much older", "I miss having a garden"]
+      "useful_language": [
+        "it's nothing like",
+        "we had far more space",
+        "it was much older",
+        "I miss having a garden"
+      ]
     },
     {
       "number": 7,
       "prompt": "Why do some people prefer living in flats rather than houses?",
       "focus": "başkaları açısı ve sebep",
       "difficulty": "hard",
-      "useful_language": ["they're easier to look after", "there's less upkeep", "closer to everything", "for the sake of convenience"]
+      "useful_language": [
+        "they're easier to look after",
+        "there's less upkeep",
+        "closer to everything",
+        "for the sake of convenience"
+      ]
     },
     {
       "number": 8,
       "prompt": "What would you change about your home if you had the chance?",
       "focus": "varsayım",
       "difficulty": "hard",
-      "useful_language": ["the first thing I'd do is", "knock two rooms into one", "let in more natural light", "if it were up to me"]
+      "useful_language": [
+        "the first thing I'd do is",
+        "knock two rooms into one",
+        "let in more natural light",
+        "if it were up to me"
+      ]
     },
     {
       "number": 9,
       "prompt": "What sort of place would you like to live in ten years from now?",
       "focus": "gelecek",
       "difficulty": "hard",
-      "useful_language": ["ideally I'd like", "somewhere on the outskirts", "with a bit of outdoor space", "I can see myself in"]
+      "useful_language": [
+        "ideally I'd like",
+        "somewhere on the outskirts",
+        "with a bit of outdoor space",
+        "I can see myself in"
+      ]
     },
     {
       "number": 10,
       "prompt": "How have homes in your area changed over the past twenty years?",
       "focus": "değişim",
       "difficulty": "hard",
-      "useful_language": ["blocks of flats have replaced", "they're built to a higher standard", "gardens have got smaller", "prices have shot up"]
+      "useful_language": [
+        "blocks of flats have replaced",
+        "they're built to a higher standard",
+        "gardens have got smaller",
+        "prices have shot up"
+      ]
     }
   ]
 }

@@ -1,5 +1,6 @@
 {
   "schema_version": "1.0",
+  "exam": "ielts",
   "set_id": "C09",
   "skill": "speaking",
   "card_type": "nesne",
@@ -15,22 +16,46 @@
     ],
     "closing": "and explain why you never leave it behind.",
     "preparation_seconds": 60,
-    "speaking_seconds": [90, 120],
+    "speaking_seconds": [
+      90,
+      120
+    ],
     "follow_up": [
       "What would you do if you lost it?",
       "Do the people around you carry the same sort of thing?"
     ],
-    "useful_language": ["it lives in my pocket", "I would be lost without it", "it weighs next to nothing", "force of habit"]
+    "useful_language": [
+      "it lives in my pocket",
+      "I would be lost without it",
+      "it weighs next to nothing",
+      "force of habit"
+    ]
   },
   "part3": {
     "items": [
-      { "number": 1, "prompt": "Why do people feel uneasy when they leave home without certain things?",
-        "focus": "genel açıklama", "difficulty": "medium" },
-      { "number": 2, "prompt": "Do adults and children tend to carry very different things with them?",
-        "focus": "karşılaştırma", "difficulty": "medium" },
-      { "number": 3, "prompt": "Will people need to carry fewer objects as devices take over more tasks?",
-        "focus": "gelecek / görüş", "difficulty": "hard" }
+      {
+        "number": 1,
+        "prompt": "Why do people feel uneasy when they leave home without certain things?",
+        "focus": "genel açıklama",
+        "difficulty": "medium"
+      },
+      {
+        "number": 2,
+        "prompt": "Do adults and children tend to carry very different things with them?",
+        "focus": "karşılaştırma",
+        "difficulty": "medium"
+      },
+      {
+        "number": 3,
+        "prompt": "Will people need to carry fewer objects as devices take over more tasks?",
+        "focus": "gelecek / görüş",
+        "difficulty": "hard"
+      }
     ],
-    "useful_language": ["out of sheer habit", "a sense of security", "do away with"]
+    "useful_language": [
+      "out of sheer habit",
+      "a sense of security",
+      "do away with"
+    ]
   }
 }

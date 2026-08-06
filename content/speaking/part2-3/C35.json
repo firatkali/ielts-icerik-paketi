@@ -1,5 +1,6 @@
 {
   "schema_version": "1.0",
+  "exam": "ielts",
   "set_id": "C35",
   "skill": "speaking",
   "card_type": "yer",
@@ -15,22 +16,46 @@
     ],
     "closing": "and explain why you spend so much time in this room.",
     "preparation_seconds": 60,
-    "speaking_seconds": [90, 120],
+    "speaking_seconds": [
+      90,
+      120
+    ],
     "follow_up": [
       "Is there anything about the room you would change?",
       "Do other people use it as well?"
     ],
-    "useful_language": ["plenty of natural light", "a bit cluttered", "make the most of the space", "cosy"]
+    "useful_language": [
+      "plenty of natural light",
+      "a bit cluttered",
+      "make the most of the space",
+      "cosy"
+    ]
   },
   "part3": {
     "items": [
-      { "number": 1, "prompt": "What makes a room comfortable to sit and work in?",
-        "focus": "genel açıklama", "difficulty": "medium" },
-      { "number": 2, "prompt": "Do people need more space at home than they needed in the past?",
-        "focus": "karşılaştırma", "difficulty": "medium" },
-      { "number": 3, "prompt": "How might homes be designed differently in fifty years' time?",
-        "focus": "gelecek / görüş", "difficulty": "hard" }
+      {
+        "number": 1,
+        "prompt": "What makes a room comfortable to sit and work in?",
+        "focus": "genel açıklama",
+        "difficulty": "medium"
+      },
+      {
+        "number": 2,
+        "prompt": "Do people need more space at home than they needed in the past?",
+        "focus": "karşılaştırma",
+        "difficulty": "medium"
+      },
+      {
+        "number": 3,
+        "prompt": "How might homes be designed differently in fifty years' time?",
+        "focus": "gelecek / görüş",
+        "difficulty": "hard"
+      }
     ],
-    "useful_language": ["open-plan", "a sense of privacy", "adapt to changing needs"]
+    "useful_language": [
+      "open-plan",
+      "a sense of privacy",
+      "adapt to changing needs"
+    ]
   }
 }

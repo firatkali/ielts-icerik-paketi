@@ -1,5 +1,6 @@
 {
   "schema_version": "1.0",
+  "exam": "ielts",
   "set_id": "C02",
   "skill": "speaking",
   "card_type": "kişi",
@@ -15,22 +16,46 @@
     ],
     "closing": "and explain why you enjoy listening to this person.",
     "preparation_seconds": 60,
-    "speaking_seconds": [90, 120],
+    "speaking_seconds": [
+      90,
+      120
+    ],
     "follow_up": [
       "Have you learnt anything useful from these conversations?",
       "Would you like to speak to them more often?"
     ],
-    "useful_language": ["she is full of stories", "he has a way of putting things", "it puts things in perspective", "a completely different world"]
+    "useful_language": [
+      "she is full of stories",
+      "he has a way of putting things",
+      "it puts things in perspective",
+      "a completely different world"
+    ]
   },
   "part3": {
     "items": [
-      { "number": 1, "prompt": "What can younger people learn from those who are much older than them?",
-        "focus": "genel açıklama", "difficulty": "medium" },
-      { "number": 2, "prompt": "Do the generations spend as much time together as they did in the past?",
-        "focus": "karşılaştırma", "difficulty": "medium" },
-      { "number": 3, "prompt": "How might the role of older people in society change in the coming decades?",
-        "focus": "gelecek / görüş", "difficulty": "hard" }
+      {
+        "number": 1,
+        "prompt": "What can younger people learn from those who are much older than them?",
+        "focus": "genel açıklama",
+        "difficulty": "medium"
+      },
+      {
+        "number": 2,
+        "prompt": "Do the generations spend as much time together as they did in the past?",
+        "focus": "karşılaştırma",
+        "difficulty": "medium"
+      },
+      {
+        "number": 3,
+        "prompt": "How might the role of older people in society change in the coming decades?",
+        "focus": "gelecek / görüş",
+        "difficulty": "hard"
+      }
     ],
-    "useful_language": ["hand something down", "there is a lot to be said for", "on the whole"]
+    "useful_language": [
+      "hand something down",
+      "there is a lot to be said for",
+      "on the whole"
+    ]
   }
 }

@@ -1,5 +1,6 @@
 {
   "schema_version": "1.0",
+  "exam": "ielts",
   "set_id": "AC3-sentence-completion",
   "skill": "reading",
   "module": "academic",
@@ -17,10 +18,17 @@
     {
       "number": 19,
       "prompt": "Damage of this kind is hard to chart here because the technique normally relied on, which tracks the ........ of the ground before and after a quake, needs a clear view of the rock underneath.",
-      "answer": ["displacement"],
-      "accepted_variants": ["displacement"],
+      "answer": [
+        "displacement"
+      ],
+      "accepted_variants": [
+        "displacement"
+      ],
       "evidence": "Mapping this kind of damage is unusually difficult in a glaciated landscape, because the usual method, comparing ground displacement before and after an earthquake, depends on being able to see the bedrock that has moved.",
-      "evidence_locator": { "paragraph": "B", "sentence": 2 },
+      "evidence_locator": {
+        "paragraph": "B",
+        "sentence": 2
+      },
       "explanation": "Paragraf B, alışılmış yöntemin depremden önceki ve sonraki yer değişimini karşılaştırmak olduğunu ve bunun ana kayanın görülebilmesini gerektirdiğini söylüyor; bu yüzden cevap 'displacement'.",
       "difficulty": "medium",
       "status": "verified"
@@ -28,10 +36,17 @@
     {
       "number": 20,
       "prompt": "On the radar pictures, freshly shattered rock and snow appear ........ , whereas ice that has not been disturbed looks dark.",
-      "answer": ["bright"],
-      "accepted_variants": ["bright"],
+      "answer": [
+        "bright"
+      ],
+      "accepted_variants": [
+        "bright"
+      ],
       "evidence": "Rough, broken debris scatters radar energy strongly and appears bright in the resulting images, while smooth, undisturbed ice reflects comparatively little and appears dark.",
-      "evidence_locator": { "paragraph": "C", "sentence": 2 },
+      "evidence_locator": {
+        "paragraph": "C",
+        "sentence": 2
+      },
       "explanation": "Paragraf C, pürüzlü kırık enkazın radar dalgalarını güçlü saçtığı için görüntülerde parlak, düzgün ve bozulmamış buzun ise koyu göründüğünü söylüyor; bu yüzden cevap 'bright'.",
       "difficulty": "easy",
       "status": "verified"
@@ -39,10 +54,17 @@
     {
       "number": 21,
       "prompt": "Even before the ground shook, a smaller glacier below Mount King George was covering some 50 feet a day, having entered a rapid ........ phase the month before the quake.",
-      "answer": ["surge"],
-      "accepted_variants": ["surge"],
+      "answer": [
+        "surge"
+      ],
+      "accepted_variants": [
+        "surge"
+      ],
       "evidence": "Adding to the complexity, a tributary glacier flowing from the slopes near Mount King George had already entered a fast-moving surge phase in November, weeks before the earthquake struck, and was travelling downslope at up to 6,000 metres a year, roughly 50 feet every day.",
-      "evidence_locator": { "paragraph": "F", "sentence": 1 },
+      "evidence_locator": {
+        "paragraph": "F",
+        "sentence": 1
+      },
       "explanation": "Paragraf F, Mount King George yakınındaki kollardan birinin depremden haftalar önce, kasımda hızlı bir 'surge' (ani ilerleme) evresine girdiğini söylüyor; bu yüzden cevap 'surge'.",
       "difficulty": "hard",
       "status": "verified"
@@ -50,10 +72,17 @@
     {
       "number": 22,
       "prompt": "No settlements were harmed, but slopes that used to be safe now put ........ and research parties setting out from Yakutat in danger.",
-      "answer": ["mountaineers"],
-      "accepted_variants": ["mountaineers"],
+      "answer": [
+        "mountaineers"
+      ],
+      "accepted_variants": [
+        "mountaineers"
+      ],
       "evidence": "It does, however, create new hazards for mountaineers and scientific expeditions that use Yakutat as a staging point for trips into the St Elias Mountains, since previously stable slopes and crevasse fields may now be masked by loose debris or freshly exposed ice.",
-      "evidence_locator": { "paragraph": "G", "sentence": 2 },
+      "evidence_locator": {
+        "paragraph": "G",
+        "sentence": 2
+      },
       "explanation": "Paragraf G, depremin yerleşim yerlerine zarar vermediğini ama Yakutat'tan yola çıkan dağcılar ve bilimsel keşif ekipleri için yeni tehlikeler yarattığını söylüyor; bu yüzden cevap 'mountaineers'.",
       "difficulty": "medium",
       "status": "verified"

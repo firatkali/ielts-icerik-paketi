@@ -1,5 +1,6 @@
 {
   "schema_version": "1.0",
+  "exam": "ielts",
   "set_id": "GT1-matching-information",
   "skill": "reading",
   "module": "general",
@@ -9,15 +10,28 @@
   "question_type": "matching_information",
   "generated_by": "opus",
   "instructions": "Look at the five notices, A-E. For which notice are the following statements true? Write the correct letter, A-E, in boxes 1-7 on your answer sheet. NB You may use any letter more than once.",
-  "options": ["A", "B", "C", "D", "E"],
+  "options": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E"
+  ],
   "items": [
     {
       "number": 1,
       "prompt": "a step that has to be taken so that newcomers can be matched to a suitable level",
-      "answer": ["E"],
-      "accepted_variants": ["E"],
+      "answer": [
+        "E"
+      ],
+      "accepted_variants": [
+        "E"
+      ],
       "evidence": "New students at Bridgewater Language Centre should complete a short online placement test before choosing a course, as classes are grouped by ability rather than age.",
-      "evidence_locator": { "text": "E", "sentence": 1 },
+      "evidence_locator": {
+        "text": "E",
+        "sentence": 1
+      },
       "uniqueness_check": "Yeni gelenlerin doğru düzeye yerleştirilebilmesi için önceden yapılması gereken bir işten yalnız E söz ediyor. A'da da üye olmadan önce bir şey getirilmesi isteniyor ama o adresi kanıtlayan bir belge, kişinin düzeyini ölçmüyor; B'de yoga için iki gün önceden yer ayırtmak ve badminton için aileden yazılı onay gerekiyor, ikisi de katılımcının seviyesini belirlemiyor.",
       "explanation": "E metni, dersler yaşa göre değil beceri düzeyine göre gruplandığı için yeni öğrencilerin kurs seçmeden önce kısa bir düzey belirleme sınavı yapmasını istiyor.",
       "difficulty": "medium",
@@ -26,10 +40,17 @@
     {
       "number": 2,
       "prompt": "something you have to take with you that shows where you live",
-      "answer": ["A"],
-      "accepted_variants": ["A"],
+      "answer": [
+        "A"
+      ],
+      "accepted_variants": [
+        "A"
+      ],
       "evidence": "Bring proof of address, such as a recent utility bill, to join at the front desk.",
-      "evidence_locator": { "text": "A", "sentence": 2 },
+      "evidence_locator": {
+        "text": "A",
+        "sentence": 2
+      },
       "uniqueness_check": "Kaydolmak için oturulan yeri kanıtlayan bir belge isteyen tek metin A. C'de kayıp kartın yenilenmesi için görevlinin bulunduğu bir istasyona gitmek gerekiyor ama hiçbir belge istenmiyor; E'de kayıt sırasında yalnız materyal ücreti ödeniyor, adres kanıtı aranmıyor; D'de ise oturanlara zaten binanın sakini olarak sesleniliyor, ayrıca bir kanıt istenmiyor.",
       "explanation": "A metni, üyelik için ön masaya adresi gösteren bir belge (örneğin yeni tarihli bir fatura) getirilmesini istiyor.",
       "difficulty": "easy",
@@ -38,10 +59,17 @@
     {
       "number": 3,
       "prompt": "an extra amount taken from people who miss a required step at the end of a trip",
-      "answer": ["C"],
-      "accepted_variants": ["C"],
+      "answer": [
+        "C"
+      ],
+      "accepted_variants": [
+        "C"
+      ],
       "evidence": "Cards must be touched on entry and exit; failure to touch out results in a default charge of £6.50.",
-      "evidence_locator": { "text": "C", "sentence": 4 },
+      "evidence_locator": {
+        "text": "C",
+        "sentence": 4
+      },
       "uniqueness_check": "Yolculuğun sonunda yapılması gereken işlemi atlayanlardan alınan ek ücret yalnız C'de var. A'daki gecikme ücreti geç getirilen eşya için işliyor ve günlük hesaplanıyor, yolculukla ilgisi yok; D'de büyük eşya için ayrı toplama parası değil, yalnızca beş iş günü önceden randevu isteniyor.",
       "explanation": "C metni, kartın hem girişte hem çıkışta okutulması gerektiğini, çıkışta okutulmazsa 6,50 sterlinlik varsayılan bir ücret alındığını söylüyor.",
       "difficulty": "medium",
@@ -50,10 +78,17 @@
     {
       "number": 4,
       "prompt": "an activity young people may attend only with their family's written agreement",
-      "answer": ["B"],
-      "accepted_variants": ["B"],
+      "answer": [
+        "B"
+      ],
+      "accepted_variants": [
+        "B"
+      ],
       "evidence": "Junior badminton coaching, ages eight to fourteen, runs on Saturdays at 10 a.m. and requires a signed parental consent form.",
-      "evidence_locator": { "text": "B", "sentence": 4 },
+      "evidence_locator": {
+        "text": "B",
+        "sentence": 4
+      },
       "uniqueness_check": "Çocuğun katılabilmesi için aileden yazılı onay şart koşan tek metin B. C'de on bir yaşından küçüklerin ücretsiz seyahati için yanlarında bilet parası ödeyen bir yetişkin olması gerekiyor, ama bu yazılı bir izin değil, o anda eşlik etme koşulu; A yalnızca beş yaş alt sınırı koyuyor ve aileden hiçbir onay istemiyor.",
       "explanation": "B metni, sekiz-on dört yaş arası badminton çalışmasına katılmak için imzalı bir veli izin belgesi gerektiğini belirtiyor.",
       "difficulty": "medium",
@@ -62,10 +97,17 @@
     {
       "number": 5,
       "prompt": "where residents can find out which days a service that runs only once a fortnight will take place",
-      "answer": ["D"],
-      "accepted_variants": ["D"],
+      "answer": [
+        "D"
+      ],
+      "accepted_variants": [
+        "D"
+      ],
       "evidence": "Recycling, including paper, glass and plastic bottles, is collected on alternate Thursdays — check the colour-coded calendar in the entrance hall for exact dates.",
-      "evidence_locator": { "text": "D", "sentence": 2 },
+      "evidence_locator": {
+        "text": "D",
+        "sentence": 2
+      },
       "uniqueness_check": "İki haftada bir yapılan bir hizmetin günlerinin nereden öğrenileceğini yalnız D söylüyor (girişteki renk kodlu çizelge). D'deki öteki toplamalar her hafta aynı sabit günlerde olduğu için böyle bir listeye ihtiyaç duymuyor; B'deki kursların hepsi haftada aynı gün tekrarlanıyor ve tarihleri nereden bulunacağı sorusu doğmuyor; E'de dönem başlangıç ayları doğrudan yazılmış, bakılacak bir yer gösterilmiyor.",
       "explanation": "D metni, geri dönüşümün iki haftada bir perşembe günleri alındığını ve kesin tarihler için giriş holündeki renk kodlu çizelgeye bakılmasını söylüyor.",
       "difficulty": "medium",
@@ -74,10 +116,17 @@
     {
       "number": 6,
       "prompt": "the circumstance that stops someone keeping an item for a further period",
-      "answer": ["A"],
-      "accepted_variants": ["A"],
+      "answer": [
+        "A"
+      ],
+      "accepted_variants": [
+        "A"
+      ],
       "evidence": "Members may borrow up to eight items for three weeks, with online renewal available unless another reader has reserved the item.",
-      "evidence_locator": { "text": "A", "sentence": 3 },
+      "evidence_locator": {
+        "text": "A",
+        "sentence": 3
+      },
       "uniqueness_check": "Elde bulunan bir şeyin süresinin neden uzatılamayabileceğini yalnız A açıklıyor: başka biri o şeyi ayırtmışsa uzatma yapılamıyor. B'de yer sayısı sınırlı olduğu için önceden yer ayırtmak gerekiyor, ama orada süre uzatma diye bir konu hiç yok; E'de dönem başladıktan sonra iki hafta içinde katılmak mümkün, bu da geç başlamayla ilgili, elde tutma süresiyle değil.",
       "explanation": "A metni, üç haftalık ödünç süresinin internetten uzatılabildiğini, ancak başka bir okur o eseri ayırtmışsa uzatmanın mümkün olmadığını söylüyor.",
       "difficulty": "hard",
@@ -86,10 +135,17 @@
     {
       "number": 7,
       "prompt": "a week in the middle of the season when nothing is run",
-      "answer": ["B"],
-      "accepted_variants": ["B"],
+      "answer": [
+        "B"
+      ],
+      "accepted_variants": [
+        "B"
+      ],
       "evidence": "Northbank Sports Centre's fitness classes run from 1 September to 12 December, closed during the half-term week of 26–30 October.",
-      "evidence_locator": { "text": "B", "sentence": 1 },
+      "evidence_locator": {
+        "text": "B",
+        "sentence": 1
+      },
       "uniqueness_check": "Dönemin ortasında bir hafta boyunca hiçbir etkinliğin yapılmadığını yalnız B söylüyor. A'da da kapalı olunan zamanlar var ama onlar her hafta tekrarlanan pazar günleri ve resmi tatiller, dönemin ortasındaki tek bir hafta değil; D'de hiçbir hizmetin durduğu bir dönem yok, yalnız toplama günleri farklı sıklıkta; E'de kurslar belirli aylarda başlıyor, arada verilen bir ara anlatılmıyor.",
       "explanation": "B metni, kursların 1 Eylül–12 Aralık arasında sürdüğünü ama 26–30 Ekim yarıyıl haftasında kapalı olunduğunu belirtiyor.",
       "difficulty": "medium",

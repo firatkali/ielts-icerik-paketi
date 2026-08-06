@@ -1,5 +1,6 @@
 {
   "schema_version": "1.0",
+  "exam": "ielts",
   "set_id": "C01",
   "skill": "speaking",
   "card_type": "kişi",
@@ -15,22 +16,46 @@
     ],
     "closing": "and explain why you think this patience is useful.",
     "preparation_seconds": 60,
-    "speaking_seconds": [90, 120],
+    "speaking_seconds": [
+      90,
+      120
+    ],
     "follow_up": [
       "Would you describe yourself in the same way?",
       "Have you ever seen this person lose their temper?"
     ],
-    "useful_language": ["she never seems to be in a rush", "he takes it all in his stride", "put up with a great deal", "keep a level head"]
+    "useful_language": [
+      "she never seems to be in a rush",
+      "he takes it all in his stride",
+      "put up with a great deal",
+      "keep a level head"
+    ]
   },
   "part3": {
     "items": [
-      { "number": 1, "prompt": "Why do some people find it harder than others to stay calm under pressure?",
-        "focus": "genel açıklama", "difficulty": "medium" },
-      { "number": 2, "prompt": "Do people need more patience at work or at home?",
-        "focus": "karşılaştırma", "difficulty": "medium" },
-      { "number": 3, "prompt": "Will everyday life demand more patience or less in the years ahead?",
-        "focus": "gelecek / görüş", "difficulty": "hard" }
+      {
+        "number": 1,
+        "prompt": "Why do some people find it harder than others to stay calm under pressure?",
+        "focus": "genel açıklama",
+        "difficulty": "medium"
+      },
+      {
+        "number": 2,
+        "prompt": "Do people need more patience at work or at home?",
+        "focus": "karşılaştırma",
+        "difficulty": "medium"
+      },
+      {
+        "number": 3,
+        "prompt": "Will everyday life demand more patience or less in the years ahead?",
+        "focus": "gelecek / görüş",
+        "difficulty": "hard"
+      }
     ],
-    "useful_language": ["it varies enormously from person to person", "by and large", "there is a growing tendency to"]
+    "useful_language": [
+      "it varies enormously from person to person",
+      "by and large",
+      "there is a growing tendency to"
+    ]
   }
 }

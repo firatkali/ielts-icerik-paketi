@@ -1,5 +1,6 @@
 {
   "schema_version": "1.0",
+  "exam": "ielts",
   "set_id": "AC4-matching-information",
   "skill": "reading",
   "module": "academic",
@@ -9,15 +10,31 @@
   "question_type": "matching_information",
   "generated_by": "opus",
   "instructions": "The passage has EIGHT paragraphs, A-H. Which paragraph contains the following information? Write the correct letter, A-H, in boxes 27-31 on your answer sheet.",
-  "options": ["A", "B", "C", "D", "E", "F", "G", "H"],
+  "options": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H"
+  ],
   "items": [
     {
       "number": 27,
       "prompt": "a step taken so that the after-effects of waking would not spoil the final scores",
-      "answer": ["D"],
-      "accepted_variants": ["D"],
+      "answer": [
+        "D"
+      ],
+      "accepted_variants": [
+        "D"
+      ],
       "evidence": "To reduce the grogginess that can follow a nap and distort test performance, all participants completed a 30-minute puzzle game before their final recall test.",
-      "evidence_locator": { "paragraph": "D", "sentence": 3 },
+      "evidence_locator": {
+        "paragraph": "D",
+        "sentence": 3
+      },
       "uniqueness_check": "Uyanma sonrası sersemliğin sonuçları bozmasını önlemek için alınan önlem yalnız D paragrafında. C paragrafı da bir deneyin düzenini anlatıyor ama orada kimse gündüz uyumuyor, dolayısıyla böyle bir önleme gerek de yok; F uyku evrelerini konu ediyor, bir önlemi değil.",
       "explanation": "D paragrafı, şekerleme sonrası sersemliğin sınav başarısını bozmaması için herkesin son bellek testinden önce 30 dakikalık bir bulmaca oyunu oynadığını söylüyor.",
       "difficulty": "medium",
@@ -26,10 +43,17 @@
     {
       "number": 28,
       "prompt": "a statement that the brain is not simply idle while a person is asleep",
-      "answer": ["A"],
-      "accepted_variants": ["A"],
+      "answer": [
+        "A"
+      ],
+      "accepted_variants": [
+        "A"
+      ],
       "evidence": "It has long been established that sleep plays an active role in strengthening new memories, a process researchers call consolidation, rather than the brain simply pausing while asleep.",
-      "evidence_locator": { "paragraph": "A", "sentence": 1 },
+      "evidence_locator": {
+        "paragraph": "A",
+        "sentence": 1
+      },
       "uniqueness_check": "Uykunun edilgen bir duraklama değil etkin bir süreç olduğunu açıkça söyleyen tek paragraf A. G paragrafı uykunun hangi bellek türüne yaradığını tartışırken bu rolü zaten varsayıyor, kendisi öne sürmüyor; H ise pratik sonuçlarla ilgileniyor.",
       "explanation": "A paragrafı, uyurken beynin sadece duraklamadığını, yeni anıları pekiştirmede etkin bir rol oynadığını söylüyor.",
       "difficulty": "easy",
@@ -38,10 +62,17 @@
     {
       "number": 29,
       "prompt": "everyday examples of the sort of thing a short daytime rest helps a learner hold on to",
-      "answer": ["H"],
-      "accepted_variants": ["H"],
+      "answer": [
+        "H"
+      ],
+      "accepted_variants": [
+        "H"
+      ],
       "evidence": "A nap appears genuinely useful for retaining new, unconnected information, such as an unfamiliar name or a new vocabulary item studied in isolation, about as effectively as a full night's sleep would.",
-      "evidence_locator": { "paragraph": "H", "sentence": 2 },
+      "evidence_locator": {
+        "paragraph": "H",
+        "sentence": 2
+      },
       "uniqueness_check": "Gündelik hayattan somut örnek (tanınmayan bir ad, tek başına çalışılan yeni bir sözcük) yalnız H paragrafında geçiyor. A paragrafı gündüz uykusunun yaygın olduğu toplumlardan söz ediyor ama öğrenilecek malzemeye örnek vermiyor; C ve D deneyde kullanılan kelime çiftlerini anlatıyor, bunlar gündelik örnek değil deney malzemesi.",
       "explanation": "H paragrafı, kısa bir gündüz uykusunun tanımadığınız bir ad ya da tek başına çalışılan yeni bir sözcük gibi bağlantısız bilgileri tutmakta gerçekten işe yaradığını söylüyor.",
       "difficulty": "medium",
@@ -50,10 +81,17 @@
     {
       "number": 30,
       "prompt": "a suggestion that sleep helps most with the memories that are easiest to lose",
-      "answer": ["G"],
-      "accepted_variants": ["G"],
+      "answer": [
+        "G"
+      ],
+      "accepted_variants": [
+        "G"
+      ],
       "evidence": "The researchers concluded that sleep, whether at night or during the day, preferentially benefits the kind of memory processing that is more vulnerable to being forgotten in the first place, namely brand-new associations with no existing link to prior knowledge.",
-      "evidence_locator": { "paragraph": "G", "sentence": 1 },
+      "evidence_locator": {
+        "paragraph": "G",
+        "sentence": 1
+      },
       "uniqueness_check": "Uykunun öncelikle unutulmaya en açık anılara yaradığı yorumunu yapan tek paragraf G. E paragrafı aynı malzeme türlerinden söz ediyor ama yalnız etki büyüklüklerini bildiriyor, bir gerekçe sunmuyor; H bu sonucu okura tavsiyeye çeviriyor, sonucun kendisini ortaya koymuyor.",
       "explanation": "G paragrafı, uykunun gece de gündüz de en çok unutulmaya yatkın bellek işlemesine, yani önceki bilgiyle bağı olmayan yepyeni eşleşmelere yaradığını söylüyor.",
       "difficulty": "hard",
@@ -62,10 +100,17 @@
     {
       "number": 31,
       "prompt": "a description of the way volunteers had to show what they still remembered",
-      "answer": ["C"],
-      "accepted_variants": ["C"],
+      "answer": [
+        "C"
+      ],
+      "accepted_variants": [
+        "C"
+      ],
       "evidence": "In both groups, participants studied 80 word pairs in total, 40 of them semantically related, such as pairs of words already connected in meaning, and 40 entirely unrelated, and were later given a cued recall test in which one word of each pair was shown and they had to supply the other.",
-      "evidence_locator": { "paragraph": "C", "sentence": 4 },
+      "evidence_locator": {
+        "paragraph": "C",
+        "sentence": 4
+      },
       "uniqueness_check": "Sınamanın nasıl yürüdüğünü, yani katılımcılara çiftin bir yarısının gösterilip öbürünün istendiğini anlatan tek paragraf C. D paragrafı da son bir bellek testinden söz ediyor ama biçimini açıklamıyor; B yalnızca iki deneyin katılımcı düzenini karşılaştırıyor.",
       "explanation": "C paragrafı, katılımcılara kelime çiftinin bir kelimesinin gösterilip diğerini söylemelerinin istendiği bir ipuçlu hatırlama testi uygulandığını anlatıyor.",
       "difficulty": "medium",

@@ -1,5 +1,6 @@
 {
   "schema_version": "1.0",
+  "exam": "ielts",
   "set_id": "AT10",
   "skill": "writing",
   "module": "academic",
@@ -16,10 +17,37 @@
       "title": "Population by age group, 2000 and 2025",
       "x_label": "Age group",
       "y_label": "Share of the population (%)",
-      "categories": ["0-14", "15-29", "30-44", "45-59", "60-74", "75 and over"],
+      "categories": [
+        "0-14",
+        "15-29",
+        "30-44",
+        "45-59",
+        "60-74",
+        "75 and over"
+      ],
       "series": [
-        { "name": "2000", "values": [24, 23, 21, 16, 12, 4] },
-        { "name": "2025", "values": [16, 18, 20, 19, 18, 9] }
+        {
+          "name": "2000",
+          "values": [
+            24,
+            23,
+            21,
+            16,
+            12,
+            4
+          ]
+        },
+        {
+          "name": "2025",
+          "values": [
+            16,
+            18,
+            20,
+            19,
+            18,
+            9
+          ]
+        }
       ],
       "unit": "%",
       "svg": null,
@@ -30,9 +58,26 @@
       "title": "Total population, 2000-2025",
       "x_label": "Year",
       "y_label": "Total population (millions)",
-      "categories": ["2000", "2005", "2010", "2015", "2020", "2025"],
+      "categories": [
+        "2000",
+        "2005",
+        "2010",
+        "2015",
+        "2020",
+        "2025"
+      ],
       "series": [
-        { "name": "Total population", "values": [8.2, 8.9, 9.5, 9.9, 10.1, 10.0] }
+        {
+          "name": "Total population",
+          "values": [
+            8.2,
+            8.9,
+            9.5,
+            9.9,
+            10.1,
+            10.0
+          ]
+        }
       ],
       "unit": "milyon kişi",
       "svg": null,

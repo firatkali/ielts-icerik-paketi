@@ -1,5 +1,6 @@
 {
   "schema_version": "1.0",
+  "exam": "ielts",
   "set_id": "AC1-multiple-choice",
   "skill": "reading",
   "module": "academic",
@@ -15,14 +16,31 @@
       "select_count": 1,
       "prompt": "Why does the writer describe the island's geology?",
       "options": [
-        { "letter": "A", "text": "To show how difficult the island is to reach" },
-        { "letter": "B", "text": "To explain why gas reaches the water beside the coral" },
-        { "letter": "C", "text": "To account for the unusual warmth of the surrounding sea" },
-        { "letter": "D", "text": "To suggest the volcano may erupt again soon" }
+        {
+          "letter": "A",
+          "text": "To show how difficult the island is to reach"
+        },
+        {
+          "letter": "B",
+          "text": "To explain why gas reaches the water beside the coral"
+        },
+        {
+          "letter": "C",
+          "text": "To account for the unusual warmth of the surrounding sea"
+        },
+        {
+          "letter": "D",
+          "text": "To suggest the volcano may erupt again soon"
+        }
       ],
-      "answer": ["B"],
+      "answer": [
+        "B"
+      ],
       "evidence": "The island's unusual chemistry comes from its geology. Magma still sits beneath the seafloor, and along the inner shoreline of the caldera it drives shallow vents that continuously release carbon dioxide gas directly into the water beside a living coral reef, a combination that is extremely rare anywhere on Earth.",
-      "evidence_locator": { "paragraph": "B", "sentence": 1 },
+      "evidence_locator": {
+        "paragraph": "B",
+        "sentence": 1
+      },
       "distractor_analysis": {
         "A": "Yakın ama eksik — adanın ıssız olduğu ve oraya az kişinin gittiği A paragrafında geçiyor, ama jeoloji anlatımı erişim güçlüğünü değil suyun kimyasını açıklamak için var.",
         "C": "Yer değiştirme — yer altındaki magma gerçekten anlatılıyor ve sıcaklık ölçülen büyüklükler arasında sayılıyor, ama magmanın suyu ısıttığı hiçbir yerde söylenmiyor; magmanın işlevi gaz salımı.",
@@ -37,14 +55,31 @@
       "select_count": 1,
       "prompt": "What does the writer say about the survey begun in 2014?",
       "options": [
-        { "letter": "A", "text": "It was to be followed by another visit that year" },
-        { "letter": "B", "text": "It was the first study ever made at the island" },
-        { "letter": "C", "text": "It was run from a laboratory in Miami" },
-        { "letter": "D", "text": "It replaced an earlier attempt that had failed" }
+        {
+          "letter": "A",
+          "text": "It was to be followed by another visit that year"
+        },
+        {
+          "letter": "B",
+          "text": "It was the first study ever made at the island"
+        },
+        {
+          "letter": "C",
+          "text": "It was run from a laboratory in Miami"
+        },
+        {
+          "letter": "D",
+          "text": "It replaced an earlier attempt that had failed"
+        }
       ],
-      "answer": ["A"],
+      "answer": [
+        "A"
+      ],
       "evidence": "A research team led by the coral ecologist Ian Enochs, of NOAA's Cooperative Institute for Marine and Atmospheric Studies at the University of Miami, carried out a detailed survey at Maug beginning in May 2014, with a follow-up visit planned for that August.",
-      "evidence_locator": { "paragraph": "D", "sentence": 1 },
+      "evidence_locator": {
+        "paragraph": "D",
+        "sentence": 1
+      },
       "distractor_analysis": {
         "B": "Kapsam kaydırma — pasaj bu sahanın dünyanın en yakından incelenen resif alanlarından biri olduğunu söylüyor, yani daha önce de çalışılmış; ayrıntılı bir tarama olması onu ilk çalışma yapmaz.",
         "C": "Yer değiştirme — Miami'deki üniversite ekibin bağlı olduğu kurum olarak anılıyor, ama ölçümler sahada yapılıyor ve laboratuvara yalnızca toplanan malzeme gönderiliyor.",
@@ -59,17 +94,44 @@
       "select_count": 2,
       "prompt": "Which TWO aspects of the reef have studies at Maug examined?",
       "options": [
-        { "letter": "A", "text": "The speed at which the vents release gas" },
-        { "letter": "B", "text": "The depth of the flooded caldera" },
-        { "letter": "C", "text": "The community living on the seabed" },
-        { "letter": "D", "text": "The fish that shelter in the reef" },
-        { "letter": "E", "text": "The effect of warming on coral growth" },
-        { "letter": "F", "text": "The inside of the corals' skeletons" },
-        { "letter": "G", "text": "The history of the volcano's collapse" }
+        {
+          "letter": "A",
+          "text": "The speed at which the vents release gas"
+        },
+        {
+          "letter": "B",
+          "text": "The depth of the flooded caldera"
+        },
+        {
+          "letter": "C",
+          "text": "The community living on the seabed"
+        },
+        {
+          "letter": "D",
+          "text": "The fish that shelter in the reef"
+        },
+        {
+          "letter": "E",
+          "text": "The effect of warming on coral growth"
+        },
+        {
+          "letter": "F",
+          "text": "The inside of the corals' skeletons"
+        },
+        {
+          "letter": "G",
+          "text": "The history of the volcano's collapse"
+        }
       ],
-      "answer": ["C", "F"],
+      "answer": [
+        "C",
+        "F"
+      ],
       "evidence": "The carbon dioxide appears to reshape the reef community itself, not just the water's chemistry. A related study of the Maug reef, published separately in the journal PLOS ONE, focused on what happens inside coral skeletons rather than on the seafloor surface.",
-      "evidence_locator": { "paragraph": "F", "sentence": 1 },
+      "evidence_locator": {
+        "paragraph": "F",
+        "sentence": 1
+      },
       "distractor_analysis": {
         "A": "Yakın ama eksik — bacaların gazı sürekli saldığı söyleniyor ve kaçan kabarcıklar huniyle toplanıyor, ama salım hızının ölçüldüğüne dair bir ifade yok.",
         "B": "Cazip ama yok — su altında kalmış kaldera anlatılıyor, derinliğinin araştırıldığı ise hiç söylenmiyor.",

@@ -1,5 +1,6 @@
 {
   "schema_version": "1.0",
+  "exam": "ielts",
   "set_id": "practice-yes-no-not-given",
   "skill": "reading",
   "module": "academic",
@@ -9,7 +10,11 @@
   "question_type": "yes_no_not_given",
   "generated_by": "fable",
   "instructions": "Do the following statements agree with the claims of the writer in the passage?\n\nIn boxes 1-15 on your answer sheet, write\n\nYES if the statement agrees with the claims of the writer\nNO if the statement contradicts the claims of the writer\nNOT GIVEN if it is impossible to say what the writer thinks about this",
-  "options": ["YES", "NO", "NOT GIVEN"],
+  "options": [
+    "YES",
+    "NO",
+    "NOT GIVEN"
+  ],
   "word_limit": null,
   "word_bank": null,
   "visual": null,
@@ -19,7 +24,9 @@
       "number": 1,
       "passage_id": "A06",
       "prompt": "Companies that operate entirely remotely are more productive than those based in offices.",
-      "answer": ["NOT GIVEN"],
+      "answer": [
+        "NOT GIVEN"
+      ],
       "evidence": null,
       "evidence_locator": null,
       "contradiction_point": null,
@@ -33,9 +40,14 @@
       "number": 2,
       "passage_id": "A06",
       "prompt": "The firm's way of assigning new staff to teams gave the research unusual scientific strength.",
-      "answer": ["YES"],
+      "answer": [
+        "YES"
+      ],
       "evidence": "What made the study unusually rigorous was a quirk of company policy: new hires were placed into teams using a simple round-robin system based purely on the order in which they joined, a process neither managers nor employees could influence.",
-      "evidence_locator": { "paragraph": "C", "sentence": 1 },
+      "evidence_locator": {
+        "paragraph": "C",
+        "sentence": 1
+      },
       "contradiction_point": null,
       "not_given_justification": null,
       "scan_note": "Çalışmanın yöntem gücü C paragrafında işleniyor: C/1 sıra usulü yerleştirmenin çalışmayı alışılmadık ölçüde titiz kıldığını, C/2 bunun neden-sonuç çıkarımına izin verdiğini söylüyor. B veri kaynaklarını anlatıyor ama titizlik yargısı C'de; çelişen cümle yok.",
@@ -47,9 +59,14 @@
       "number": 3,
       "passage_id": "A06",
       "prompt": "In the study, working beside star performers clearly improved an employee's own output.",
-      "answer": ["NO"],
+      "answer": [
+        "NO"
+      ],
       "evidence": "Whatever benefit workers usually gain from watching or being motivated by star performers, it did not appear here.",
-      "evidence_locator": { "paragraph": "E", "sentence": 3 },
+      "evidence_locator": {
+        "paragraph": "E",
+        "sentence": 3
+      },
       "contradiction_point": "E/3, yıldız çalışanları izlemekten genelde elde edilen faydanın 'burada görülmediğini' söylüyor; ifade bu çalışmada net bir üretkenlik artışı olduğunu iddia ediyor. Çelişki tek noktada: faydanın bu çalışmada görülüp görülmediği.",
       "not_given_justification": null,
       "scan_note": "Yıldız çalışanların etkisi E paragrafında (E/1 yaygın varsayım, E/2 ölçülebilir etki yok, E/3 faydanın burada görülmediği) ve H/2'de (ofiste işleyen sosyal kıyasın burada etkisiz kaldığı) ele alınıyor; hiçbir cümle fayda görüldüğünü söylemiyor.",
@@ -61,9 +78,14 @@
       "number": 4,
       "passage_id": "A06",
       "prompt": "Longer-serving colleagues can offer newcomers precisely aimed support at the moments they need it.",
-      "answer": ["YES"],
+      "answer": [
+        "YES"
+      ],
       "evidence": "Experienced colleagues, by contrast, seem able to give newcomers efficient, targeted guidance precisely when it is needed, a benefit that requires no visible display of productivity and, the study suggests, works better with less routine interruption rather than more.",
-      "evidence_locator": { "paragraph": "H", "sentence": 3 },
+      "evidence_locator": {
+        "paragraph": "H",
+        "sentence": 3
+      },
       "contradiction_point": null,
       "not_given_justification": null,
       "scan_note": "Deneyimli çalışanların katkısı F (verim artışı, özellikle ilk yıl çalışanlarında) ve H/3–H/4'te (hedefli rehberlik, yeni gelenlerin deneyimlilerle eşleştirilmesi önerisi) geçiyor; H/3 ifadeyi tek başına doğruluyor, çelişen cümle yok.",
@@ -75,9 +97,14 @@
       "number": 5,
       "passage_id": "A10",
       "prompt": "Opinion is sharply divided over whether open-plan workplaces do their occupants good or harm.",
-      "answer": ["YES"],
+      "answer": [
+        "YES"
+      ],
       "evidence": "Few questions in modern office design generate as much disagreement as whether open-plan layouts help or harm the people who work in them.",
-      "evidence_locator": { "paragraph": "A", "sentence": 1 },
+      "evidence_locator": {
+        "paragraph": "A",
+        "sentence": 1
+      },
       "contradiction_point": null,
       "not_given_justification": null,
       "scan_note": "Açık plan tartışması A paragrafında toplanıyor: A/1 görüş ayrılığının büyüklüğü, A/2 iki tarafın savları, A/4 tartışmanın kişisel izlenime dayandığı. H/1 çalışmanın vardığı yargıyı veriyor ama tartışmanın varlığını değiştirmiyor.",
@@ -89,9 +116,14 @@
       "number": 6,
       "passage_id": "A10",
       "prompt": "The trial failed to produce a clear ordering of the four office designs.",
-      "answer": ["NO"],
+      "answer": [
+        "NO"
+      ],
       "evidence": "The results showed a clear ranking among the four designs.",
-      "evidence_locator": { "paragraph": "D", "sentence": 1 },
+      "evidence_locator": {
+        "paragraph": "D",
+        "sentence": 1
+      },
       "contradiction_point": "Yazar sonuçların dört tasarım arasında net bir sıralama gösterdiğini söylüyor; ifade net bir sıralamanın çıkmadığını iddia ediyor. Çelişki tek noktada: sıralamanın ortaya çıkıp çıkmadığı.",
       "not_given_justification": null,
       "scan_note": "Sonuçların sıralaması D paragrafında (D/1 net sıralama yargısı, D/2–D/3 sayılar) ve E'de (akış puanları) veriliyor; G bazı ölçütlerde fark çıkmadığını söylüyor ama bu, memnuniyet ve algılanan verim sıralamasının netliğini geri almıyor.",
@@ -103,9 +135,14 @@
       "number": 7,
       "passage_id": "A10",
       "prompt": "Sustained focus came more easily in the two partly enclosed layouts than in the remaining designs.",
-      "answer": ["YES"],
+      "answer": [
+        "YES"
+      ],
       "evidence": "Employees in team offices reported flow scores 12 per cent higher than those in the open-plan condition, and employees in the zoned open-plan design reported flow scores 15 per cent higher, suggesting that both partly enclosed layouts allowed for more sustained concentration than either the fully open or the fully unassigned arrangement.",
-      "evidence_locator": { "paragraph": "E", "sentence": 2 },
+      "evidence_locator": {
+        "paragraph": "E",
+        "sentence": 2
+      },
       "contradiction_point": null,
       "not_given_justification": null,
       "scan_note": "Odaklanma ve akış E paragrafında işleniyor: E/1 örüntüyü tanıtıyor, E/2 iki yarı kapalı düzenin tamamen açık ya da sabit masasız düzenlerden daha sürekli konsantrasyon sağladığı yargısını veriyor. F gürültü verisiyle bunu destekliyor; çelişen cümle yok.",
@@ -117,7 +154,9 @@
       "number": 8,
       "passage_id": "A10",
       "prompt": "After the experiment, the zoned design was rolled out across the whole campus.",
-      "answer": ["NOT GIVEN"],
+      "answer": [
+        "NOT GIVEN"
+      ],
       "evidence": null,
       "evidence_locator": null,
       "contradiction_point": null,
@@ -131,9 +170,14 @@
       "number": 9,
       "passage_id": "A11",
       "prompt": "That natural surroundings can ease stress is now a widely shared view.",
-      "answer": ["YES"],
+      "answer": [
+        "YES"
+      ],
       "evidence": "It is now widely accepted that spending time in natural surroundings can reduce stress and improve mood, an effect researchers often describe as psychological restoration.",
-      "evidence_locator": { "paragraph": "A", "sentence": 1 },
+      "evidence_locator": {
+        "paragraph": "A",
+        "sentence": 1
+      },
       "contradiction_point": null,
       "not_given_justification": null,
       "scan_note": "Doğanın strese etkisi A paragrafında (A/1 yaygın kabul yargısı, A/2 kanıtın kaynağı) ve H/3'te (karlı ormanda da etkinin sürdüğü) geçiyor; A/1 ifadeyi tek başına doğruluyor, çelişen cümle yok.",
@@ -145,7 +189,9 @@
       "number": 10,
       "passage_id": "A11",
       "prompt": "The snowy forest lifted the women's moods more than the men's.",
-      "answer": ["NOT GIVEN"],
+      "answer": [
+        "NOT GIVEN"
+      ],
       "evidence": null,
       "evidence_locator": null,
       "contradiction_point": null,
@@ -159,9 +205,14 @@
       "number": 11,
       "passage_id": "A11",
       "prompt": "Looking at campus buildings changed participants' moods in much the same way the forest did.",
-      "answer": ["NO"],
+      "answer": [
+        "NO"
+      ],
       "evidence": "The pattern after the building condition was essentially the reverse.",
-      "evidence_locator": { "paragraph": "G", "sentence": 1 },
+      "evidence_locator": {
+        "paragraph": "G",
+        "sentence": 1
+      },
       "contradiction_point": "Yazar bina koşulundan sonraki örüntünün ormandakinin 'esasen tersi' olduğunu söylüyor; ifade iki ortamın ruh hâlini aşağı yukarı aynı biçimde etkilediğini iddia ediyor. Çelişki tek noktada: etkinin aynı yönde mi ters yönde mi olduğu.",
       "not_given_justification": null,
       "scan_note": "Bina koşulunun etkisi G paragrafında (G/1 örüntünün tersine döndüğü yargısı, G/2 olumsuz duyguların artıp canlılığın düştüğü) anlatılıyor; C/2 bina ortamının sakin seçildiğini söylüyor ama etkinin ormanla aynı olduğunu söyleyen cümle hiçbir yerde yok.",
@@ -173,9 +224,14 @@
       "number": 12,
       "passage_id": "A11",
       "prompt": "A forest keeps its calming power even under snow and near-freezing cold.",
-      "answer": ["YES"],
+      "answer": [
+        "YES"
+      ],
       "evidence": "As a pilot study, its conclusions should be treated as an initial signal rather than a settled finding, but they nonetheless indicate that the calming effect of a forest is not simply switched off by the absence of green leaves and the presence of snow and near-freezing temperatures.",
-      "evidence_locator": { "paragraph": "H", "sentence": 3 },
+      "evidence_locator": {
+        "paragraph": "H",
+        "sentence": 3
+      },
       "contradiction_point": null,
       "not_given_justification": null,
       "scan_note": "Karın etkiye ne yaptığı H paragrafında tartışılıyor: H/1 karın canlılık artışını engelleyebileceğini, H/3 ise sakinleştirici etkinin kar ve soğukla kapanmadığını söylüyor. F/3 ormanın güçlü tazeleyici etkisini destekliyor; çelişen cümle yok.",
@@ -187,7 +243,9 @@
       "number": 13,
       "passage_id": "A12",
       "prompt": "Daytime naps aid memory in older adults as much as in the young.",
-      "answer": ["NOT GIVEN"],
+      "answer": [
+        "NOT GIVEN"
+      ],
       "evidence": null,
       "evidence_locator": null,
       "contradiction_point": null,
@@ -201,9 +259,14 @@
       "number": 14,
       "passage_id": "A12",
       "prompt": "The kind of material studied made no difference to how well it was later recalled.",
-      "answer": ["NO"],
+      "answer": [
+        "NO"
+      ],
       "evidence": "The results revealed a clear difference depending on the type of material being remembered.",
-      "evidence_locator": { "paragraph": "E", "sentence": 1 },
+      "evidence_locator": {
+        "paragraph": "E",
+        "sentence": 1
+      },
       "contradiction_point": "Yazar sonuçların 'hatırlanan malzemenin türüne bağlı net bir fark' ortaya koyduğunu söylüyor; ifade tür farkının sonuca etki etmediğini iddia ediyor. Çelişki tek noktada: türe bağlı farkın var olup olmadığı.",
       "not_given_justification": null,
       "scan_note": "Malzeme türünün etkisi E paragrafında (E/1 net fark yargısı, E/2–E/3 ilişkili ve ilişkisiz çiftler için ayrı sonuçlar) ve G'de (farkın yorumu) işleniyor; ikisi de türe bağlı fark olduğunu söylüyor.",
@@ -215,9 +278,14 @@
       "number": 15,
       "passage_id": "A12",
       "prompt": "A nap serves as well as a night of sleep for tying new material to existing knowledge.",
-      "answer": ["NO"],
+      "answer": [
+        "NO"
+      ],
       "evidence": "However, the findings caution against assuming that a nap can substitute for a night's sleep when the task involves integrating new material with things already known, since that particular kind of consolidation seems to depend on the longer, more complex architecture of nocturnal sleep.",
-      "evidence_locator": { "paragraph": "H", "sentence": 3 },
+      "evidence_locator": {
+        "paragraph": "H",
+        "sentence": 3
+      },
       "contradiction_point": "Yazar, yeni bilgiyi var olan bilgiyle bütünleştirme söz konusu olduğunda şekerlemenin gece uykusunun yerini tutabileceği varsayımına karşı bulguların uyardığını söylüyor; ifade tam bu görevde şekerlemenin gece kadar işe yaradığını iddia ediyor. Çelişki tek noktada: bütünleştirme görevinde ikame edilebilirlik.",
       "not_given_justification": null,
       "scan_note": "Şekerlemenin geceyi ikame edip edemeyeceği E/3 (ilişkisiz çiftlerde eşdeğer), G/2 (ilişkili çiftleri işlemekte şekerlemenin yetersiz kaldığı) ve H/2–H/3'te (ilişkisiz bilgide işe yaradığı, bütünleştirme görevinde ikame varsayımına karşı uyarı) işleniyor; H/3 ifadeyle doğrudan çelişiyor.",

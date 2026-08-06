@@ -1,5 +1,6 @@
 {
   "schema_version": "1.0",
+  "exam": "ielts",
   "set_id": "L2-multiple-choice",
   "skill": "listening",
   "test_id": "L2",
@@ -24,11 +25,22 @@
           "select_count": 1,
           "prompt": "How long was the library closed for the refurbishment?",
           "options": [
-            { "letter": "A", "text": "twelve months" },
-            { "letter": "B", "text": "eighteen months" },
-            { "letter": "C", "text": "two years" }
+            {
+              "letter": "A",
+              "text": "twelve months"
+            },
+            {
+              "letter": "B",
+              "text": "eighteen months"
+            },
+            {
+              "letter": "C",
+              "text": "two years"
+            }
           ],
-          "answer": ["B"],
+          "answer": [
+            "B"
+          ],
           "evidence": "We closed in March last year expecting to be shut for a year; in the end it took eighteen months",
           "answer_point_id": "L2-S2-02",
           "turn_index": 1,
@@ -47,11 +59,22 @@
           "select_count": 1,
           "prompt": "How many items can library members now borrow at one time?",
           "options": [
-            { "letter": "A", "text": "three" },
-            { "letter": "B", "text": "twelve" },
-            { "letter": "C", "text": "fifteen" }
+            {
+              "letter": "A",
+              "text": "three"
+            },
+            {
+              "letter": "B",
+              "text": "twelve"
+            },
+            {
+              "letter": "C",
+              "text": "fifteen"
+            }
           ],
-          "answer": ["C"],
+          "answer": [
+            "C"
+          ],
           "evidence": "You can borrow fifteen items at a time; before the refurbishment it was twelve.",
           "answer_point_id": "L2-S2-11",
           "turn_index": 4,
@@ -70,11 +93,22 @@
           "select_count": 1,
           "prompt": "When does the reading group now meet?",
           "options": [
-            { "letter": "A", "text": "on the first Tuesday of the month" },
-            { "letter": "B", "text": "on the second Tuesday of the month" },
-            { "letter": "C", "text": "on Saturday mornings at half past ten" }
+            {
+              "letter": "A",
+              "text": "on the first Tuesday of the month"
+            },
+            {
+              "letter": "B",
+              "text": "on the second Tuesday of the month"
+            },
+            {
+              "letter": "C",
+              "text": "on Saturday mornings at half past ten"
+            }
           ],
-          "answer": ["B"],
+          "answer": [
+            "B"
+          ],
           "evidence": "The reading group meets on the second Tuesday of the month at seven; it used to be the first Tuesday, but the choir has that evening now.",
           "answer_point_id": "L2-S2-21",
           "turn_index": 9,
@@ -101,13 +135,31 @@
           "select_count": 2,
           "prompt": "Which TWO things does the speaker say about the mural?",
           "options": [
-            { "letter": "A", "text": "It shows the building as it looked in 1906." },
-            { "letter": "B", "text": "It is displayed in the children's library." },
-            { "letter": "C", "text": "It was painted by local schoolchildren." },
-            { "letter": "D", "text": "It was designed by the community librarian." },
-            { "letter": "E", "text": "A leaflet explains what it contains." }
+            {
+              "letter": "A",
+              "text": "It shows the building as it looked in 1906."
+            },
+            {
+              "letter": "B",
+              "text": "It is displayed in the children's library."
+            },
+            {
+              "letter": "C",
+              "text": "It was painted by local schoolchildren."
+            },
+            {
+              "letter": "D",
+              "text": "It was designed by the community librarian."
+            },
+            {
+              "letter": "E",
+              "text": "A leaflet explains what it contains."
+            }
           ],
-          "answer": ["C", "E"],
+          "answer": [
+            "C",
+            "E"
+          ],
           "evidence": "That was painted by children from the two primary schools on either side of the park, and each class chose one object from the local history collection to put into it. There's a leaflet by the door that explains what they chose and why.",
           "answer_point_id": "L2-S2-25",
           "turn_index": 12,
@@ -135,11 +187,22 @@
           "select_count": 1,
           "prompt": "Why did the students not survey the site below the weir?",
           "options": [
-            { "letter": "A", "text": "The footbridge leading to it was shut." },
-            { "letter": "B", "text": "The brook was in flood." },
-            { "letter": "C", "text": "Their tutor said five sites would be enough." }
+            {
+              "letter": "A",
+              "text": "The footbridge leading to it was shut."
+            },
+            {
+              "letter": "B",
+              "text": "The brook was in flood."
+            },
+            {
+              "letter": "C",
+              "text": "Their tutor said five sites would be enough."
+            }
           ],
-          "answer": ["A"],
+          "answer": [
+            "A"
+          ],
           "evidence": "The footbridge you have to cross to reach it has been fenced off since the winter storms",
           "answer_point_id": "L2-S3-02",
           "turn_index": 3,
@@ -158,11 +221,22 @@
           "select_count": 1,
           "prompt": "When did the students carry out their second round of sampling?",
           "options": [
-            { "letter": "A", "text": "in the last week of May" },
-            { "letter": "B", "text": "four weeks after the first visit" },
-            { "letter": "C", "text": "in the middle of July" }
+            {
+              "letter": "A",
+              "text": "in the last week of May"
+            },
+            {
+              "letter": "B",
+              "text": "four weeks after the first visit"
+            },
+            {
+              "letter": "C",
+              "text": "in the middle of July"
+            }
           ],
-          "answer": ["C"],
+          "answer": [
+            "C"
+          ],
           "evidence": "The second was supposed to be four weeks after that, but it slipped to the middle of July, because the brook was in flood for most of June.",
           "answer_point_id": "L2-S3-03",
           "turn_index": 6,
@@ -181,11 +255,22 @@
           "select_count": 1,
           "prompt": "What does Marisol say is wrong with Rhys's suggested structure?",
           "options": [
-            { "letter": "A", "text": "It would conceal the overall pattern." },
-            { "letter": "B", "text": "It would ignore the order of collection." },
-            { "letter": "C", "text": "It would take longer to write." }
+            {
+              "letter": "A",
+              "text": "It would conceal the overall pattern."
+            },
+            {
+              "letter": "B",
+              "text": "It would ignore the order of collection."
+            },
+            {
+              "letter": "C",
+              "text": "It would take longer to write."
+            }
           ],
-          "answer": ["A"],
+          "answer": [
+            "A"
+          ],
           "evidence": "And I think that hides the pattern completely.",
           "answer_point_id": "L2-S3-24",
           "turn_index": 11,

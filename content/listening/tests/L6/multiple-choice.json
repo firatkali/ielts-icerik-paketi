@@ -1,5 +1,6 @@
 {
   "schema_version": "1.0",
+  "exam": "ielts",
   "set_id": "L6-multiple-choice",
   "skill": "listening",
   "test_id": "L6",
@@ -16,11 +17,22 @@
       "select_count": 1,
       "prompt": "How long does the review have to be?",
       "options": [
-        { "letter": "A", "text": "2,000 words" },
-        { "letter": "B", "text": "2,500 words" },
-        { "letter": "C", "text": "3,000 words" }
+        {
+          "letter": "A",
+          "text": "2,000 words"
+        },
+        {
+          "letter": "B",
+          "text": "2,500 words"
+        },
+        {
+          "letter": "C",
+          "text": "3,000 words"
+        }
       ],
-      "answer": ["B"],
+      "answer": [
+        "B"
+      ],
       "evidence": "The module page says two thousand five hundred now — it's the handbook that hasn't been updated.",
       "answer_point_id": "L6-S3-01",
       "turn_index": 4,
@@ -37,11 +49,22 @@
       "select_count": 1,
       "prompt": "Why does the librarian say the first search found 412 results?",
       "options": [
-        { "letter": "A", "text": "too many databases were searched at once" },
-        { "letter": "B", "text": "the search terms were spelt wrongly" },
-        { "letter": "C", "text": "the whole question was entered as a sentence" }
+        {
+          "letter": "A",
+          "text": "too many databases were searched at once"
+        },
+        {
+          "letter": "B",
+          "text": "the search terms were spelt wrongly"
+        },
+        {
+          "letter": "C",
+          "text": "the whole question was entered as a sentence"
+        }
       ],
-      "answer": ["C"],
+      "answer": [
+        "C"
+      ],
       "evidence": "Four hundred and twelve is what a whole sentence gets you.",
       "answer_point_id": "L6-S3-05",
       "turn_index": 9,
@@ -58,11 +81,22 @@
       "select_count": 1,
       "prompt": "What does the librarian say the asterisk will do?",
       "options": [
-        { "letter": "A", "text": "keep a phrase together in the search" },
-        { "letter": "B", "text": "find different forms of the same word" },
-        { "letter": "C", "text": "correct any spelling errors automatically" }
+        {
+          "letter": "A",
+          "text": "keep a phrase together in the search"
+        },
+        {
+          "letter": "B",
+          "text": "find different forms of the same word"
+        },
+        {
+          "letter": "C",
+          "text": "correct any spelling errors automatically"
+        }
       ],
-      "answer": ["B"],
+      "answer": [
+        "B"
+      ],
       "evidence": "put an asterisk after 'activ' — that picks up activity, active and activities in one go",
       "answer_point_id": "L6-S3-09",
       "turn_index": 13,

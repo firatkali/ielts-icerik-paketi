@@ -1,5 +1,6 @@
 {
   "schema_version": "1.0",
+  "exam": "ielts",
   "set_id": "AC4-matching-headings",
   "skill": "reading",
   "module": "academic",
@@ -13,27 +14,65 @@
     "label": "List of Headings",
     "numbering": "roman",
     "options": [
-      { "key": "i",    "text": "A surprising rise in participants' energy" },
-      { "key": "ii",   "text": "Each person acting as their own control" },
-      { "key": "iii",  "text": "A benefit proven only in the greener months" },
-      { "key": "iv",   "text": "The health risks of standing in severe cold" },
-      { "key": "v",    "text": "What participants did at each site" },
-      { "key": "vi",   "text": "Tracking feelings before and after each visit" },
-      { "key": "vii",  "text": "An urban view chosen to create stress" },
-      { "key": "viii", "text": "Calmer but not more energetic" },
-      { "key": "ix",   "text": "The weather on the study days" },
-      { "key": "x",    "text": "How long each questionnaire took to complete" }
+      {
+        "key": "i",
+        "text": "A surprising rise in participants' energy"
+      },
+      {
+        "key": "ii",
+        "text": "Each person acting as their own control"
+      },
+      {
+        "key": "iii",
+        "text": "A benefit proven only in the greener months"
+      },
+      {
+        "key": "iv",
+        "text": "The health risks of standing in severe cold"
+      },
+      {
+        "key": "v",
+        "text": "What participants did at each site"
+      },
+      {
+        "key": "vi",
+        "text": "Tracking feelings before and after each visit"
+      },
+      {
+        "key": "vii",
+        "text": "An urban view chosen to create stress"
+      },
+      {
+        "key": "viii",
+        "text": "Calmer but not more energetic"
+      },
+      {
+        "key": "ix",
+        "text": "The weather on the study days"
+      },
+      {
+        "key": "x",
+        "text": "How long each questionnaire took to complete"
+      }
     ]
   },
-  "example": { "key": "iii", "target": "Paragraph A" },
+  "example": {
+    "key": "iii",
+    "target": "Paragraph A"
+  },
   "allow_repeat": false,
   "items": [
     {
       "number": 14,
       "prompt": "Paragraph B",
-      "answer": ["ii"],
+      "answer": [
+        "ii"
+      ],
       "evidence": "The participants were split into two groups and took part in a crossover experiment, meaning that each person experienced both a forest condition and a comparison condition, in a different order depending on their group, allowing the researchers to compare each person against themselves rather than relying solely on differences between separate groups.",
-      "evidence_locator": { "paragraph": "B", "sentence": 2 },
+      "evidence_locator": {
+        "paragraph": "B",
+        "sentence": 2
+      },
       "heading_check": "B paragrafının üç cümlesi de deneyin kurgusuna çalışıyor: herkes iki koşulu da yaşıyor, böylece kişi kendi kendisiyle karşılaştırılıyor, sıranın rastgele atanması da 'ikinci ölçümde zaten düzelme olur' itirazını kapatıyor. 'ii' bu ana fikri veriyor. En yakın komşu 'v' (katılımcıların her yerde ne yaptığı) — B'de de iki koşuldan söz ediliyor; ama koşullarda fiilen ne yapıldığı C'de anlatılıyor, B'nin derdi yapılan iş değil karşılaştırmanın mantığı.",
       "feature_check": null,
       "grammar_check": null,
@@ -44,9 +83,14 @@
     {
       "number": 15,
       "prompt": "Paragraph C",
-      "answer": ["v"],
+      "answer": [
+        "v"
+      ],
       "evidence": "In the forest condition, participants walked for five minutes to reach a stand of Norway spruce and silver birch trees, roughly 80 and 20 per cent of the stand respectively, ranging in age from 80 to 108 years and fully covered in snow, where they spent 15 minutes simply standing or sitting quietly.",
-      "evidence_locator": { "paragraph": "C", "sentence": 1 },
+      "evidence_locator": {
+        "paragraph": "C",
+        "sentence": 1
+      },
       "heading_check": "C paragrafı iki koşulda da yapılan işi adım adım tarif ediyor: ormanda 15 dakika sessizce durmak, kampüste binalara bakmak, iki yerde de konuşma ve telefon yasağı. 'v' bu ana fikri veriyor. En yakın çeldirici 'vii' (stres yaratsın diye seçilmiş şehir görüntüsü) — kampüs sahnesi bu paragrafta geçiyor ve 'deliberately' kelimesi göze takılıyor; ama cümle tam tersini söylüyor: yer bilerek sakin ve trafiksiz seçilmiş, bariz stresli olsun diye değil.",
       "feature_check": null,
       "grammar_check": null,
@@ -57,9 +101,14 @@
     {
       "number": 16,
       "prompt": "Paragraph D",
-      "answer": ["ix"],
+      "answer": [
+        "ix"
+      ],
       "evidence": "The forest sessions took place in late January, in conditions typical of a Finnish winter: an average temperature of minus 7.23 degrees Celsius, 20 to 25 centimetres of snow covering the ground and trees, humidity of 94.25 per cent, and only a light wind of 1.13 metres per second.",
-      "evidence_locator": { "paragraph": "D", "sentence": 1 },
+      "evidence_locator": {
+        "paragraph": "D",
+        "sentence": 1
+      },
       "heading_check": "D paragrafı tek cümle ve tamamı oturumlar sırasındaki hava koşullarını sayıyor: sıcaklık, kar kalınlığı, nem, rüzgâr. 'ix' bu ana fikri veriyor. En yakın çeldirici 'iv' (sert soğukta durmanın sağlık riskleri) — eksi 7 derece ve karda hareketsiz bekleme bilgisi risk çağrışımı yapıyor; ama paragraf (ve pasajın tamamı) hiçbir yerde tehlikeden ya da sağlık riskinden söz etmiyor, yalnızca ölçülen koşulları aktarıyor.",
       "feature_check": null,
       "grammar_check": null,
@@ -70,9 +119,14 @@
     {
       "number": 17,
       "prompt": "Paragraph E",
-      "answer": ["vi"],
+      "answer": [
+        "vi"
+      ],
       "evidence": "Before and after each 15-minute exposure, participants completed four separate questionnaires.",
-      "evidence_locator": { "paragraph": "E", "sentence": 1 },
+      "evidence_locator": {
+        "paragraph": "E",
+        "sentence": 1
+      },
       "heading_check": "E paragrafı dört ölçeği tanıtıyor ve hepsinin her 15 dakikalık sürenin hemen öncesinde ve hemen sonrasında doldurulduğunu, böylece değişimin araya giren deneyime bağlanabildiğini söylüyor. 'vi' bu ana fikri veriyor. En yakın çeldirici 'x' (anketlerin doldurulmasının ne kadar sürdüğü) — paragraf 65, 20, 6 ve 4 maddelik ölçekler sayarak uzunluk izlenimi bırakıyor; ama doldurma süresi hiçbir yerde verilmiyor, madde sayısı süre değil.",
       "feature_check": null,
       "grammar_check": null,
@@ -83,9 +137,14 @@
     {
       "number": 18,
       "prompt": "Paragraph F",
-      "answer": ["viii"],
+      "answer": [
+        "viii"
+      ],
       "evidence": "The clearest effect of the entire study appeared on the Restorative Outcome Scale, which increased sharply after time in the forest, indicating that participants found the snow-covered woodland strongly refreshing even though it produced no accompanying jump in energy.",
-      "evidence_locator": { "paragraph": "F", "sentence": 3 },
+      "evidence_locator": {
+        "paragraph": "F",
+        "sentence": 3
+      },
       "heading_check": "F paragrafının üç cümlesi tek bir tabloyu kuruyor: olumsuz duygu durumlarının beşi düştü, dinlendiricilik keskin biçimde arttı, ama beklenenin aksine canlılık yükselmedi. 'viii' bu iki yönü birden veriyor: sakinleşme var, enerji artışı yok. En yakın çeldirici 'i' (katılımcıların enerjisinde şaşırtıcı artış) — paragraf enerjiden söz ettiği için yakın duruyor; ama söylediği tam tersi: 'Vigour, unusually, did not rise', yani 'i' paragrafın bulgusunu tersine çeviriyor.",
       "feature_check": null,
       "grammar_check": null,

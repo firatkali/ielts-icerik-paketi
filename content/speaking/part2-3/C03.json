@@ -1,5 +1,6 @@
 {
   "schema_version": "1.0",
+  "exam": "ielts",
   "set_id": "C03",
   "skill": "speaking",
   "card_type": "kişi",
@@ -15,22 +16,46 @@
     ],
     "closing": "and explain why you would like to get to know them better.",
     "preparation_seconds": 60,
-    "speaking_seconds": [90, 120],
+    "speaking_seconds": [
+      90,
+      120
+    ],
     "follow_up": [
       "Have you seen this person since then?",
       "What do you usually talk about when you meet someone new?"
     ],
-    "useful_language": ["we hit it off straight away", "she came across as", "we got talking about", "I would like to keep in touch"]
+    "useful_language": [
+      "we hit it off straight away",
+      "she came across as",
+      "we got talking about",
+      "I would like to keep in touch"
+    ]
   },
   "part3": {
     "items": [
-      { "number": 1, "prompt": "What makes it easy for two strangers to start a conversation?",
-        "focus": "genel açıklama", "difficulty": "medium" },
-      { "number": 2, "prompt": "Is it easier to meet new people in a small town or in a large city?",
-        "focus": "karşılaştırma", "difficulty": "medium" },
-      { "number": 3, "prompt": "Will it become harder to form close friendships as people's lives get busier?",
-        "focus": "gelecek / görüş", "difficulty": "hard" }
+      {
+        "number": 1,
+        "prompt": "What makes it easy for two strangers to start a conversation?",
+        "focus": "genel açıklama",
+        "difficulty": "medium"
+      },
+      {
+        "number": 2,
+        "prompt": "Is it easier to meet new people in a small town or in a large city?",
+        "focus": "karşılaştırma",
+        "difficulty": "medium"
+      },
+      {
+        "number": 3,
+        "prompt": "Will it become harder to form close friendships as people's lives get busier?",
+        "focus": "gelecek / görüş",
+        "difficulty": "hard"
+      }
     ],
-    "useful_language": ["strike up a conversation", "common ground", "an increasing number of people"]
+    "useful_language": [
+      "strike up a conversation",
+      "common ground",
+      "an increasing number of people"
+    ]
   }
 }

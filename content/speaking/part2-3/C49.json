@@ -1,5 +1,6 @@
 {
   "schema_version": "1.0",
+  "exam": "ielts",
   "set_id": "C49",
   "skill": "speaking",
   "card_type": "olay",
@@ -15,22 +16,46 @@
     ],
     "closing": "and explain how you felt while you were speaking.",
     "preparation_seconds": 60,
-    "speaking_seconds": [90, 120],
+    "speaking_seconds": [
+      90,
+      120
+    ],
     "follow_up": [
       "Would it be easier a second time?",
       "Did anyone comment on it afterwards?"
     ],
-    "useful_language": ["butterflies in my stomach", "get my point across", "rehearse beforehand", "keep it brief"]
+    "useful_language": [
+      "butterflies in my stomach",
+      "get my point across",
+      "rehearse beforehand",
+      "keep it brief"
+    ]
   },
   "part3": {
     "items": [
-      { "number": 1, "prompt": "Why does speaking in public make so many people nervous?",
-        "focus": "genel açıklama", "difficulty": "medium" },
-      { "number": 2, "prompt": "Is talking to a large audience harder than talking to a small group?",
-        "focus": "karşılaştırma", "difficulty": "medium" },
-      { "number": 3, "prompt": "Should presenting ideas clearly be taught as a subject in schools?",
-        "focus": "öneri / görüş", "difficulty": "hard" }
+      {
+        "number": 1,
+        "prompt": "Why does speaking in public make so many people nervous?",
+        "focus": "genel açıklama",
+        "difficulty": "medium"
+      },
+      {
+        "number": 2,
+        "prompt": "Is talking to a large audience harder than talking to a small group?",
+        "focus": "karşılaştırma",
+        "difficulty": "medium"
+      },
+      {
+        "number": 3,
+        "prompt": "Should presenting ideas clearly be taught as a subject in schools?",
+        "focus": "öneri / görüş",
+        "difficulty": "hard"
+      }
     ],
-    "useful_language": ["hold an audience", "speak off the cuff", "a confident delivery"]
+    "useful_language": [
+      "hold an audience",
+      "speak off the cuff",
+      "a confident delivery"
+    ]
   }
 }

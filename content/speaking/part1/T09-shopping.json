@@ -1,82 +1,136 @@
 {
   "schema_version": "1.0",
+  "exam": "ielts",
   "set_id": "T09-shopping",
   "skill": "speaking",
   "part": 1,
   "topic": "Shopping",
   "topic_tr": "Alışveriş",
   "generated_by": "opus",
-  "expected_answer_seconds": [20, 40],
+  "expected_answer_seconds": [
+    20,
+    40
+  ],
   "items": [
     {
       "number": 1,
       "prompt": "What kinds of things do you shop for most often?",
       "focus": "alışkanlık",
       "difficulty": "easy",
-      "useful_language": ["everyday bits and pieces", "nothing very exciting", "mainly things for the house", "I only buy what I need"]
+      "useful_language": [
+        "everyday bits and pieces",
+        "nothing very exciting",
+        "mainly things for the house",
+        "I only buy what I need"
+      ]
     },
     {
       "number": 2,
       "prompt": "How often do you go to the shops in a normal week?",
       "focus": "alışkanlık",
       "difficulty": "easy",
-      "useful_language": ["two or three times", "I do one big trip", "whenever we run out of something", "I pop in on my way home"]
+      "useful_language": [
+        "two or three times",
+        "I do one big trip",
+        "whenever we run out of something",
+        "I pop in on my way home"
+      ]
     },
     {
       "number": 3,
       "prompt": "How do you usually pay when you buy something?",
       "focus": "temel bilgi",
       "difficulty": "easy",
-      "useful_language": ["I hardly ever carry cash", "I tap my card", "it's all done on my phone", "for small amounts I use coins"]
+      "useful_language": [
+        "I hardly ever carry cash",
+        "I tap my card",
+        "it's all done on my phone",
+        "for small amounts I use coins"
+      ]
     },
     {
       "number": 4,
       "prompt": "What kind of shop do you enjoy spending time in, and why?",
       "focus": "tercih ve sebep",
       "difficulty": "medium",
-      "useful_language": ["you can browse without being rushed", "the staff know what they're talking about", "I could lose an hour in there", "it's laid out well"]
+      "useful_language": [
+        "you can browse without being rushed",
+        "the staff know what they're talking about",
+        "I could lose an hour in there",
+        "it's laid out well"
+      ]
     },
     {
       "number": 5,
       "prompt": "How do you decide whether something is worth buying?",
       "focus": "açıklama",
       "difficulty": "medium",
-      "useful_language": ["I sleep on it", "I weigh up how often I'd use it", "I compare a few prices first", "if it'll last, it's worth paying more"]
+      "useful_language": [
+        "I sleep on it",
+        "I weigh up how often I'd use it",
+        "I compare a few prices first",
+        "if it'll last, it's worth paying more"
+      ]
     },
     {
       "number": 6,
       "prompt": "What did you like buying with your own money when you were younger?",
       "focus": "geçmiş",
       "difficulty": "medium",
-      "useful_language": ["I saved up for weeks", "it felt like a fortune at the time", "I'd spend it straight away", "looking back, it was a waste"]
+      "useful_language": [
+        "I saved up for weeks",
+        "it felt like a fortune at the time",
+        "I'd spend it straight away",
+        "looking back, it was a waste"
+      ]
     },
     {
       "number": 7,
       "prompt": "Why do some people find shopping tiring rather than enjoyable?",
       "focus": "başkaları açısı ve sebep",
       "difficulty": "medium",
-      "useful_language": ["the crowds wear them down", "too much choice is confusing", "they'd rather get it over with", "queueing puts them off"]
+      "useful_language": [
+        "the crowds wear them down",
+        "too much choice is confusing",
+        "they'd rather get it over with",
+        "queueing puts them off"
+      ]
     },
     {
       "number": 8,
       "prompt": "How have the shops in your area changed since you were a child?",
       "focus": "değişim",
       "difficulty": "hard",
-      "useful_language": ["the small independents have gone", "there's a huge centre on the edge of town", "half the units are empty", "the choice is far wider now"]
+      "useful_language": [
+        "the small independents have gone",
+        "there's a huge centre on the edge of town",
+        "half the units are empty",
+        "the choice is far wider now"
+      ]
     },
     {
       "number": 9,
       "prompt": "What would make you buy more of your things online in future?",
       "focus": "gelecek",
       "difficulty": "hard",
-      "useful_language": ["easier returns would tempt me", "if delivery were more reliable", "I'd still want to see it first", "it's already how I buy most things"]
+      "useful_language": [
+        "easier returns would tempt me",
+        "if delivery were more reliable",
+        "I'd still want to see it first",
+        "it's already how I buy most things"
+      ]
     },
     {
       "number": 10,
       "prompt": "How is a small local shop different from a large store?",
       "focus": "karşılaştırma",
       "difficulty": "hard",
-      "useful_language": ["you get to know the owner", "the range is obviously narrower", "you pay a little more for convenience", "there's no personal touch in a big store"]
+      "useful_language": [
+        "you get to know the owner",
+        "the range is obviously narrower",
+        "you pay a little more for convenience",
+        "there's no personal touch in a big store"
+      ]
     }
   ]
 }

@@ -1,5 +1,6 @@
 {
   "schema_version": "1.0",
+  "exam": "ielts",
   "set_id": "AC3-multiple-choice",
   "skill": "reading",
   "module": "academic",
@@ -15,14 +16,31 @@
       "select_count": 1,
       "prompt": "Why does the writer mention timber roof beams, food and fabric?",
       "options": [
-        { "letter": "A", "text": "To indicate how quickly the residents died" },
-        { "letter": "B", "text": "To show that fragile things lasted unusually well" },
-        { "letter": "C", "text": "To explain the depth of the deposits" },
-        { "letter": "D", "text": "To suggest the town was unusually wealthy" }
+        {
+          "letter": "A",
+          "text": "To indicate how quickly the residents died"
+        },
+        {
+          "letter": "B",
+          "text": "To show that fragile things lasted unusually well"
+        },
+        {
+          "letter": "C",
+          "text": "To explain the depth of the deposits"
+        },
+        {
+          "letter": "D",
+          "text": "To suggest the town was unusually wealthy"
+        }
       ],
-      "answer": ["B"],
+      "answer": [
+        "B"
+      ],
       "evidence": "These flows swept through the streets and buildings so quickly that many residents were killed almost instantly, and over the following days the town was sealed beneath roughly 20 metres of volcanic deposits, a burial so complete that timber roof beams, food, and even fabric survived for centuries in a way rarely seen at other Roman sites.",
-      "evidence_locator": { "paragraph": "A", "sentence": 3 },
+      "evidence_locator": {
+        "paragraph": "A",
+        "sentence": 3
+      },
       "distractor_analysis": {
         "A": "Yer değiştirme — sakinlerin neredeyse anında öldüğü aynı cümlede söyleniyor, ama bu akıntıların hızına bağlanıyor; sayılan nesneler ölümün hızını değil gömülmenin ne kadar eksiksiz olduğunu göstermek için veriliyor.",
         "C": "Yakın ama eksik — 20 metrelik örtü de aynı cümlede geçiyor, fakat kalınlık korunmanın sebebi olarak veriliyor; kirişler ve kumaş bu kalınlığı açıklamıyor, onun sonucunu örnekliyor.",
@@ -37,14 +55,31 @@
       "select_count": 1,
       "prompt": "What did the team's purpose-built image-processing method make possible?",
       "options": [
-        { "letter": "A", "text": "Recording the material's chemical composition" },
-        { "letter": "B", "text": "Confirming every sheath layer had survived" },
-        { "letter": "C", "text": "Telling real nerve structures from stray fragments" },
-        { "letter": "D", "text": "Examining a much larger set of samples" }
+        {
+          "letter": "A",
+          "text": "Recording the material's chemical composition"
+        },
+        {
+          "letter": "B",
+          "text": "Confirming every sheath layer had survived"
+        },
+        {
+          "letter": "C",
+          "text": "Telling real nerve structures from stray fragments"
+        },
+        {
+          "letter": "D",
+          "text": "Examining a much larger set of samples"
+        }
       ],
-      "answer": ["C"],
+      "answer": [
+        "C"
+      ],
       "evidence": "A custom image-processing method, developed to detect the repeating pattern typical of myelin, the fatty sheath that wraps around nerve fibres, helped distinguish genuine neural structures from random glassy debris.",
-      "evidence_locator": { "paragraph": "D", "sentence": 3 },
+      "evidence_locator": {
+        "paragraph": "D",
+        "sentence": 3
+      },
       "distractor_analysis": {
         "A": "Yer değiştirme — kimyasal bileşimi ölçen iş, aynı paragrafta sayılan X ışını yöntemine ait; görüntü işleme rutininin işlevi bu değil.",
         "B": "Kapsam kaydırma — kılıfların çok katmanlı yapısını koruduğu gerçekten söyleniyor, ama bu E paragrafındaki bir ölçüm sonucu; yöntem katmanların eksiksizliğini doğrulamak için değil, miyeline özgü tekrarlayan deseni yakalamak için geliştirildi.",
@@ -59,17 +94,44 @@
       "select_count": 2,
       "prompt": "Which TWO points does the writer make about the material's chemistry?",
       "options": [
-        { "letter": "A", "text": "Some of its proteins occur in bone" },
-        { "letter": "B", "text": "Carbon and oxygen dominate its composition" },
-        { "letter": "C", "text": "Oxygen was more abundant than carbon" },
-        { "letter": "D", "text": "Only one brain protein was identified" },
-        { "letter": "E", "text": "Its make-up varied across the skull" },
-        { "letter": "F", "text": "A protein linked to neural signalling was present" },
-        { "letter": "G", "text": "Chemistry alone proved the tissue's origin" }
+        {
+          "letter": "A",
+          "text": "Some of its proteins occur in bone"
+        },
+        {
+          "letter": "B",
+          "text": "Carbon and oxygen dominate its composition"
+        },
+        {
+          "letter": "C",
+          "text": "Oxygen was more abundant than carbon"
+        },
+        {
+          "letter": "D",
+          "text": "Only one brain protein was identified"
+        },
+        {
+          "letter": "E",
+          "text": "Its make-up varied across the skull"
+        },
+        {
+          "letter": "F",
+          "text": "A protein linked to neural signalling was present"
+        },
+        {
+          "letter": "G",
+          "text": "Chemistry alone proved the tissue's origin"
+        }
       ],
-      "answer": ["B", "F"],
+      "answer": [
+        "B",
+        "F"
+      ],
       "evidence": "The team detected seven distinct proteins known to be expressed specifically in brain tissue, including one involved in stabilising the internal skeleton of nerve cells and another essential for communication between neurons. By atomic composition the vitrified material was dominated by carbon and oxygen, the two elements that make up the bulk of organic tissue, at roughly 65 and 31 per cent respectively.",
-      "evidence_locator": { "paragraph": "F", "sentence": 2 },
+      "evidence_locator": {
+        "paragraph": "F",
+        "sentence": 2
+      },
       "distractor_analysis": {
         "A": "Yer değiştirme — kemik metinde geçiyor, ama tam tersi gerekçeyle: saptanan proteinlerin kemikle ilişkili olmaması, maddenin başka bir kaynaktan gelmediğini gösteren kanıt olarak sunuluyor.",
         "C": "Yer değiştirme — iki oran da veriliyor, ancak karbon yaklaşık yüzde 65, oksijen yaklaşık yüzde 31; seçenek sayıları yer değiştirmiş okuyanı yakalıyor.",

@@ -1,82 +1,136 @@
 {
   "schema_version": "1.0",
+  "exam": "ielts",
   "set_id": "T04-free-time",
   "skill": "speaking",
   "part": 1,
   "topic": "Free time",
   "topic_tr": "Boş zaman",
   "generated_by": "opus",
-  "expected_answer_seconds": [20, 40],
+  "expected_answer_seconds": [
+    20,
+    40
+  ],
   "items": [
     {
       "number": 1,
       "prompt": "What do you usually do in your free time?",
       "focus": "alışkanlık",
       "difficulty": "easy",
-      "useful_language": ["I mostly", "nothing out of the ordinary", "it depends on the weather", "I'm quite happy just to"]
+      "useful_language": [
+        "I mostly",
+        "nothing out of the ordinary",
+        "it depends on the weather",
+        "I'm quite happy just to"
+      ]
     },
     {
       "number": 2,
       "prompt": "How much free time do you have on a normal weekday?",
       "focus": "temel bilgi",
       "difficulty": "easy",
-      "useful_language": ["an hour or two at most", "not nearly enough", "once everything's done", "the evenings are my own"]
+      "useful_language": [
+        "an hour or two at most",
+        "not nearly enough",
+        "once everything's done",
+        "the evenings are my own"
+      ]
     },
     {
       "number": 3,
       "prompt": "Who do you usually spend your free time with?",
       "focus": "temel bilgi",
       "difficulty": "easy",
-      "useful_language": ["a couple of close friends", "I'm happy in my own company", "it varies", "we meet up whenever we can"]
+      "useful_language": [
+        "a couple of close friends",
+        "I'm happy in my own company",
+        "it varies",
+        "we meet up whenever we can"
+      ]
     },
     {
       "number": 4,
       "prompt": "What kind of activities help you relax after a long day?",
       "focus": "açıklama",
       "difficulty": "medium",
-      "useful_language": ["it helps me switch off", "I find it very calming", "it takes my mind off", "nothing too demanding"]
+      "useful_language": [
+        "it helps me switch off",
+        "I find it very calming",
+        "it takes my mind off",
+        "nothing too demanding"
+      ]
     },
     {
       "number": 5,
       "prompt": "Why do some people find it hard to relax?",
       "focus": "sebep",
       "difficulty": "medium",
-      "useful_language": ["they're under constant pressure", "they can't switch off from", "guilt about doing nothing", "it takes practice"]
+      "useful_language": [
+        "they're under constant pressure",
+        "they can't switch off from",
+        "guilt about doing nothing",
+        "it takes practice"
+      ]
     },
     {
       "number": 6,
       "prompt": "How did you spend your free time as a child?",
       "focus": "geçmiş",
       "difficulty": "medium",
-      "useful_language": ["we'd spend the whole afternoon", "back then", "it kept us occupied for hours", "we made our own entertainment"]
+      "useful_language": [
+        "we'd spend the whole afternoon",
+        "back then",
+        "it kept us occupied for hours",
+        "we made our own entertainment"
+      ]
     },
     {
       "number": 7,
       "prompt": "Would you rather spend a free afternoon indoors or outdoors?",
       "focus": "tercih",
       "difficulty": "medium",
-      "useful_language": ["given the choice", "I'd sooner be outside", "provided the weather holds", "there's something to be said for both"]
+      "useful_language": [
+        "given the choice",
+        "I'd sooner be outside",
+        "provided the weather holds",
+        "there's something to be said for both"
+      ]
     },
     {
       "number": 8,
       "prompt": "How has the way people spend their free time changed in recent years?",
       "focus": "değişim",
       "difficulty": "hard",
-      "useful_language": ["a growing number of people", "far more of it is spent on screens", "it's become more individual", "clubs aren't as popular as they were"]
+      "useful_language": [
+        "a growing number of people",
+        "far more of it is spent on screens",
+        "it's become more individual",
+        "clubs aren't as popular as they were"
+      ]
     },
     {
       "number": 9,
       "prompt": "What new activity would you like to take up in the future?",
       "focus": "gelecek",
       "difficulty": "hard",
-      "useful_language": ["I've always fancied trying", "it's been on my list for years", "if I could find the time", "I'd need to be taught properly"]
+      "useful_language": [
+        "I've always fancied trying",
+        "it's been on my list for years",
+        "if I could find the time",
+        "I'd need to be taught properly"
+      ]
     },
     {
       "number": 10,
       "prompt": "How is free time during the week different from free time at the weekend?",
       "focus": "karşılaştırma",
       "difficulty": "hard",
-      "useful_language": ["during the week it's snatched", "at weekends there's no rush", "you can plan something bigger", "the mood is completely different"]
+      "useful_language": [
+        "during the week it's snatched",
+        "at weekends there's no rush",
+        "you can plan something bigger",
+        "the mood is completely different"
+      ]
     }
   ]
 }

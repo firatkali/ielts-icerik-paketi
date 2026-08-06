@@ -1,5 +1,6 @@
 {
   "schema_version": "1.0",
+  "exam": "ielts",
   "set_id": "L5-multiple-choice",
   "skill": "listening",
   "test_id": "L5",
@@ -24,11 +25,22 @@
           "select_count": 1,
           "prompt": "What time do the gates open on the Saturday?",
           "options": [
-            { "letter": "A", "text": "10.30" },
-            { "letter": "B", "text": "11.00" },
-            { "letter": "C", "text": "11.30" }
+            {
+              "letter": "A",
+              "text": "10.30"
+            },
+            {
+              "letter": "B",
+              "text": "11.00"
+            },
+            {
+              "letter": "C",
+              "text": "11.30"
+            }
           ],
-          "answer": ["A"],
+          "answer": [
+            "A"
+          ],
           "evidence": "Gates open at half past ten on the Saturday.",
           "answer_point_id": "L5-S2-02",
           "turn_index": 1,
@@ -47,11 +59,22 @@
           "select_count": 1,
           "prompt": "Why has the main stage been turned around this year?",
           "options": [
-            { "letter": "A", "text": "The meadow now costs more to hire." },
-            { "letter": "B", "text": "People living across the river complained about the sound." },
-            { "letter": "C", "text": "The riverside path behind it was often blocked." }
+            {
+              "letter": "A",
+              "text": "The meadow now costs more to hire."
+            },
+            {
+              "letter": "B",
+              "text": "People living across the river complained about the sound."
+            },
+            {
+              "letter": "C",
+              "text": "The riverside path behind it was often blocked."
+            }
           ],
-          "answer": ["B"],
+          "answer": [
+            "B"
+          ],
           "evidence": "It faced the river last year, which meant the sound travelled straight across to the houses on the other bank, and we heard about it.",
           "answer_point_id": "L5-S2-12",
           "turn_index": 4,
@@ -70,11 +93,22 @@
           "select_count": 1,
           "prompt": "How often does the festival shuttle bus run?",
           "options": [
-            { "letter": "A", "text": "every fifteen minutes" },
-            { "letter": "B", "text": "every twenty minutes" },
-            { "letter": "C", "text": "every half an hour" }
+            {
+              "letter": "A",
+              "text": "every fifteen minutes"
+            },
+            {
+              "letter": "B",
+              "text": "every twenty minutes"
+            },
+            {
+              "letter": "C",
+              "text": "every half an hour"
+            }
           ],
-          "answer": ["A"],
+          "answer": [
+            "A"
+          ],
           "evidence": "and the shuttle bus runs every fifteen minutes. The poster said every twenty, but we've managed to hire a second bus.",
           "answer_point_id": "L5-S2-19",
           "turn_index": 7,
@@ -101,13 +135,31 @@
           "select_count": 2,
           "prompt": "Which TWO things are visitors not allowed to do?",
           "options": [
-            { "letter": "A", "text": "pay by card at the food stalls" },
-            { "letter": "B", "text": "take a dog into the family field" },
-            { "letter": "C", "text": "bring glass onto the site" },
-            { "letter": "D", "text": "walk along the riverside path" },
-            { "letter": "E", "text": "fill water bottles at the site" }
+            {
+              "letter": "A",
+              "text": "pay by card at the food stalls"
+            },
+            {
+              "letter": "B",
+              "text": "take a dog into the family field"
+            },
+            {
+              "letter": "C",
+              "text": "bring glass onto the site"
+            },
+            {
+              "letter": "D",
+              "text": "walk along the riverside path"
+            },
+            {
+              "letter": "E",
+              "text": "fill water bottles at the site"
+            }
           ],
-          "answer": ["B", "C"],
+          "answer": [
+            "B",
+            "C"
+          ],
           "evidence": "What you can't bring onto the site is glass of any kind; that's the one condition our licence is strict about, and the stewards will ask you to leave bottles at the gate. Dogs are welcome on a lead, though not in the family field, where the younger children are.",
           "answer_point_id": "L5-S2-28",
           "turn_index": 10,
@@ -135,11 +187,22 @@
           "select_count": 1,
           "prompt": "How does Dr Osgood react when the students say they disagree?",
           "options": [
-            { "letter": "A", "text": "He is pleased it has come out early." },
-            { "letter": "B", "text": "He tells them to settle it within three weeks." },
-            { "letter": "C", "text": "He asks to see both versions of the draft." }
+            {
+              "letter": "A",
+              "text": "He is pleased it has come out early."
+            },
+            {
+              "letter": "B",
+              "text": "He tells them to settle it within three weeks."
+            },
+            {
+              "letter": "C",
+              "text": "He asks to see both versions of the draft."
+            }
           ],
-          "answer": ["A"],
+          "answer": [
+            "A"
+          ],
           "evidence": "Disagreeing now is a great deal cheaper than disagreeing in three weeks' time.",
           "answer_point_id": "L5-S3-31",
           "turn_index": 2,
@@ -158,11 +221,22 @@
           "select_count": 1,
           "prompt": "What danger does Dr Osgood see in collecting answers online?",
           "options": [
-            { "letter": "A", "text": "It would use up two of the students' weekends." },
-            { "letter": "B", "text": "Only people already interested would take part." },
-            { "letter": "C", "text": "It would produce fewer than a hundred and twenty replies." }
+            {
+              "letter": "A",
+              "text": "It would use up two of the students' weekends."
+            },
+            {
+              "letter": "B",
+              "text": "Only people already interested would take part."
+            },
+            {
+              "letter": "C",
+              "text": "It would produce fewer than a hundred and twenty replies."
+            }
           ],
-          "answer": ["B"],
+          "answer": [
+            "B"
+          ],
           "evidence": "The people who answer a link on a residents' page are the people who already care about the high street. That's self-selection, and it will bend everything you find.",
           "answer_point_id": "L5-S3-03",
           "turn_index": 5,
@@ -181,11 +255,22 @@
           "select_count": 1,
           "prompt": "Why does Dr Osgood tell the students to use quotas?",
           "options": [
-            { "letter": "A", "text": "To reach Marit's target of a hundred and fifty." },
-            { "letter": "B", "text": "To meet a rule set by the department." },
-            { "letter": "C", "text": "To stop easy-to-reach groups dominating the sample." }
+            {
+              "letter": "A",
+              "text": "To reach Marit's target of a hundred and fifty."
+            },
+            {
+              "letter": "B",
+              "text": "To meet a rule set by the department."
+            },
+            {
+              "letter": "C",
+              "text": "To stop easy-to-reach groups dominating the sample."
+            }
           ],
-          "answer": ["C"],
+          "answer": [
+            "C"
+          ],
           "evidence": "If you stop whoever is easiest to stop, you will come back with students and retired people and almost nobody in between.",
           "answer_point_id": "L5-S3-06",
           "turn_index": 9,

@@ -1,5 +1,6 @@
 {
   "schema_version": "1.0",
+  "exam": "ielts",
   "set_id": "C44",
   "skill": "speaking",
   "card_type": "soyut",
@@ -15,22 +16,46 @@
     ],
     "closing": "and explain why you think this rule matters.",
     "preparation_seconds": 60,
-    "speaking_seconds": [90, 120],
+    "speaking_seconds": [
+      90,
+      120
+    ],
     "follow_up": [
       "Is the rule an easy one to keep?",
       "Do you know anybody who disagrees with it?"
     ],
-    "useful_language": ["stick to the rules", "for the common good", "there is a good reason behind it", "bend the rules"]
+    "useful_language": [
+      "stick to the rules",
+      "for the common good",
+      "there is a good reason behind it",
+      "bend the rules"
+    ]
   },
   "part3": {
     "items": [
-      { "number": 1, "prompt": "Why do people accept some rules readily and resist others?",
-        "focus": "genel açıklama", "difficulty": "medium" },
-      { "number": 2, "prompt": "Are rules in schools stricter than the rules people meet at work?",
-        "focus": "karşılaştırma", "difficulty": "medium" },
-      { "number": 3, "prompt": "Should rules be reviewed more often so they keep up with modern life?",
-        "focus": "öneri / görüş", "difficulty": "hard" }
+      {
+        "number": 1,
+        "prompt": "Why do people accept some rules readily and resist others?",
+        "focus": "genel açıklama",
+        "difficulty": "medium"
+      },
+      {
+        "number": 2,
+        "prompt": "Are rules in schools stricter than the rules people meet at work?",
+        "focus": "karşılaştırma",
+        "difficulty": "medium"
+      },
+      {
+        "number": 3,
+        "prompt": "Should rules be reviewed more often so they keep up with modern life?",
+        "focus": "öneri / görüş",
+        "difficulty": "hard"
+      }
     ],
-    "useful_language": ["widely accepted", "common sense", "enforce a rule"]
+    "useful_language": [
+      "widely accepted",
+      "common sense",
+      "enforce a rule"
+    ]
   }
 }

@@ -1,5 +1,6 @@
 {
   "schema_version": "1.0",
+  "exam": "ielts",
   "set_id": "AT04",
   "skill": "writing",
   "module": "academic",
@@ -15,13 +16,43 @@
     "x_label": null,
     "y_label": null,
     "chart_data": {
-      "headers": ["Mode of transport", "Share of journeys 2015 (%)", "Share of journeys 2023 (%)", "Average journey time 2023 (minutes)"],
+      "headers": [
+        "Mode of transport",
+        "Share of journeys 2015 (%)",
+        "Share of journeys 2023 (%)",
+        "Average journey time 2023 (minutes)"
+      ],
       "rows": [
-        ["Car", 46, 34, 28],
-        ["Bus or tram", 22, 27, 35],
-        ["Bicycle", 9, 18, 22],
-        ["Walking", 18, 16, 19],
-        ["Train", 5, 5, 41]
+        [
+          "Car",
+          46,
+          34,
+          28
+        ],
+        [
+          "Bus or tram",
+          22,
+          27,
+          35
+        ],
+        [
+          "Bicycle",
+          9,
+          18,
+          22
+        ],
+        [
+          "Walking",
+          18,
+          16,
+          19
+        ],
+        [
+          "Train",
+          5,
+          5,
+          41
+        ]
       ]
     },
     "unit": "% ve dakika",

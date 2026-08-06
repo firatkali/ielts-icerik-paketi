@@ -1,5 +1,6 @@
 {
   "schema_version": "1.0",
+  "exam": "ielts",
   "set_id": "L1-matching",
   "skill": "listening",
   "test_id": "L1",
@@ -12,13 +13,34 @@
   "box": {
     "label": null,
     "options": [
-      { "letter": "A", "text": "It will be used for background information only." },
-      { "letter": "B", "text": "Both speakers will take part in it." },
-      { "letter": "C", "text": "It will be recorded as sound only." },
-      { "letter": "D", "text": "It will be left out of the presentation." },
-      { "letter": "E", "text": "It will be booked through the department office." },
-      { "letter": "F", "text": "It will be limited to five minutes." },
-      { "letter": "G", "text": "It will be the students' main source of data." }
+      {
+        "letter": "A",
+        "text": "It will be used for background information only."
+      },
+      {
+        "letter": "B",
+        "text": "Both speakers will take part in it."
+      },
+      {
+        "letter": "C",
+        "text": "It will be recorded as sound only."
+      },
+      {
+        "letter": "D",
+        "text": "It will be left out of the presentation."
+      },
+      {
+        "letter": "E",
+        "text": "It will be booked through the department office."
+      },
+      {
+        "letter": "F",
+        "text": "It will be limited to five minutes."
+      },
+      {
+        "letter": "G",
+        "text": "It will be the students' main source of data."
+      }
     ]
   },
   "allow_repeat": false,
@@ -28,7 +50,9 @@
       "select_count": 1,
       "prompt": "the national energy survey",
       "options": null,
-      "answer": ["A"],
+      "answer": [
+        "A"
+      ],
       "evidence": "The council's open data portal has the actual generation figures, updated every month — start there, and use the national survey only for context.",
       "answer_point_id": "L1-S3-29",
       "turn_index": 18,
@@ -49,7 +73,9 @@
       "select_count": 1,
       "prompt": "the interviews with the school governors",
       "options": null,
-      "answer": ["C"],
+      "answer": [
+        "C"
+      ],
       "evidence": "Record audio instead, keep each clip to about twenty seconds, and have the transcript on the slide behind it.",
       "answer_point_id": "L1-S3-17",
       "turn_index": 21,
@@ -70,7 +96,9 @@
       "select_count": 1,
       "prompt": "the second half of the talk",
       "options": null,
-      "answer": ["B"],
+      "answer": [
+        "B"
+      ],
       "evidence": "Make sure you both speak in the second half as well — a group where one person disappears after five minutes always looks unbalanced.",
       "answer_point_id": "L1-S3-19",
       "turn_index": 25,

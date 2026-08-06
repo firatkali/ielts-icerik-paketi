@@ -1,5 +1,6 @@
 {
   "schema_version": "1.0",
+  "exam": "ielts",
   "set_id": "GT1-sentence-completion",
   "skill": "reading",
   "module": "general",
@@ -17,10 +18,18 @@
     {
       "number": 25,
       "prompt": "Time off booked for the closing fortnight of the year has to be agreed by the (25) ........ personally.",
-      "answer": ["department manager"],
-      "accepted_variants": ["department manager"],
+      "answer": [
+        "department manager"
+      ],
+      "accepted_variants": [
+        "department manager"
+      ],
       "evidence": "Leave requested during the final two weeks of December must be approved by the department manager directly.",
-      "evidence_locator": { "text": "B", "paragraph": "B", "sentence": 5 },
+      "evidence_locator": {
+        "text": "B",
+        "paragraph": "B",
+        "sentence": 5
+      },
       "explanation": "B metninin B paragrafı, aralığın son iki haftasına denk gelen izinlerin doğrudan departman müdürünce onaylanması gerektiğini söylüyor; bu yüzden cevap 'department manager'.",
       "difficulty": "medium",
       "status": "verified"
@@ -28,10 +37,18 @@
     {
       "number": 26,
       "prompt": "Hours put in on a public holiday are rewarded at (26) ........ , not at the one-and-a-half rate that applies to other extra hours.",
-      "answer": ["double time"],
-      "accepted_variants": ["double time"],
+      "answer": [
+        "double time"
+      ],
+      "accepted_variants": [
+        "double time"
+      ],
       "evidence": "Overtime is paid at 1.5 times the standard hourly rate for hours worked beyond the 37.5-hour week, and at double time for work on public holidays.",
-      "evidence_locator": { "text": "B", "paragraph": "C", "sentence": 1 },
+      "evidence_locator": {
+        "text": "B",
+        "paragraph": "C",
+        "sentence": 1
+      },
       "explanation": "B metninin C paragrafı, haftalık süreyi aşan mesainin 1,5 katı, resmî tatil çalışmasının ise iki katı ücretlendirildiğini söylüyor; bu yüzden cevap 'double time'.",
       "difficulty": "easy",
       "status": "verified"
@@ -39,10 +56,18 @@
     {
       "number": 27,
       "prompt": "Anyone who leaves the firm is given money for leave they had built up but never used, and this forms part of their (27) ........ .",
-      "answer": ["final salary"],
-      "accepted_variants": ["final salary"],
+      "answer": [
+        "final salary"
+      ],
+      "accepted_variants": [
+        "final salary"
+      ],
       "evidence": "Employees leaving the company are paid for any accrued but untaken leave as part of their final salary.",
-      "evidence_locator": { "text": "B", "paragraph": "D", "sentence": 2 },
+      "evidence_locator": {
+        "text": "B",
+        "paragraph": "D",
+        "sentence": 2
+      },
       "explanation": "B metninin D paragrafı, işten ayrılanlara hak edilmiş ama kullanılmamış iznin son maaşlarının bir parçası olarak ödendiğini söylüyor; bu yüzden cevap 'final salary'.",
       "difficulty": "medium",
       "status": "verified"

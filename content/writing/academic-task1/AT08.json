@@ -1,5 +1,6 @@
 {
   "schema_version": "1.0",
+  "exam": "ielts",
   "set_id": "AT08",
   "skill": "writing",
   "module": "academic",
@@ -14,10 +15,34 @@
     "title": "Holiday trips by type, 2005 and 2020",
     "x_label": "Type of holiday",
     "y_label": "Trips per year (millions)",
-    "categories": ["Beach holiday", "City break", "Walking in the countryside", "Staying with relatives", "Outdoor sports holiday"],
+    "categories": [
+      "Beach holiday",
+      "City break",
+      "Walking in the countryside",
+      "Staying with relatives",
+      "Outdoor sports holiday"
+    ],
     "series": [
-      { "name": "2005", "values": [8.4, 3.1, 2.2, 6.0, 1.3] },
-      { "name": "2020", "values": [6.2, 7.5, 4.4, 5.8, 2.6] }
+      {
+        "name": "2005",
+        "values": [
+          8.4,
+          3.1,
+          2.2,
+          6.0,
+          1.3
+        ]
+      },
+      {
+        "name": "2020",
+        "values": [
+          6.2,
+          7.5,
+          4.4,
+          5.8,
+          2.6
+        ]
+      }
     ],
     "unit": "milyon yolculuk",
     "svg": null,

@@ -1,5 +1,6 @@
 {
   "schema_version": "1.0",
+  "exam": "ielts",
   "set_id": "AT30",
   "skill": "writing",
   "module": "academic",
@@ -16,9 +17,24 @@
       "title": "Main source of news for adults, 2024",
       "x_label": null,
       "y_label": null,
-      "categories": ["News websites and apps", "Television", "Social media", "Radio", "Printed newspapers"],
+      "categories": [
+        "News websites and apps",
+        "Television",
+        "Social media",
+        "Radio",
+        "Printed newspapers"
+      ],
       "series": [
-        { "name": "2024", "values": [31, 27, 22, 12, 8] }
+        {
+          "name": "2024",
+          "values": [
+            31,
+            27,
+            22,
+            12,
+            8
+          ]
+        }
       ],
       "unit": "%",
       "svg": null,
@@ -29,9 +45,22 @@
       "title": "Time spent following the news each day by age group, 2024",
       "x_label": "Age group",
       "y_label": "Minutes per day",
-      "categories": ["18-29", "30-44", "45-59", "60 and over"],
+      "categories": [
+        "18-29",
+        "30-44",
+        "45-59",
+        "60 and over"
+      ],
       "series": [
-        { "name": "Average time", "values": [24, 33, 45, 62] }
+        {
+          "name": "Average time",
+          "values": [
+            24,
+            33,
+            45,
+            62
+          ]
+        }
       ],
       "unit": "dakika/gün",
       "svg": null,

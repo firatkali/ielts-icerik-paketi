@@ -1,5 +1,6 @@
 {
   "schema_version": "1.0",
+  "exam": "ielts",
   "set_id": "C23",
   "skill": "speaking",
   "card_type": "nesne",
@@ -15,22 +16,46 @@
     ],
     "closing": "and explain how you felt about having to borrow it.",
     "preparation_seconds": 60,
-    "speaking_seconds": [90, 120],
+    "speaking_seconds": [
+      90,
+      120
+    ],
     "follow_up": [
       "Did you return it on time?",
       "Would you lend the same thing to others?"
     ],
-    "useful_language": ["do me a favour", "give it back in one piece", "it came in handy", "I was in a bit of a fix"]
+    "useful_language": [
+      "do me a favour",
+      "give it back in one piece",
+      "it came in handy",
+      "I was in a bit of a fix"
+    ]
   },
   "part3": {
     "items": [
-      { "number": 1, "prompt": "Why are some people reluctant to lend their possessions?",
-        "focus": "genel açıklama", "difficulty": "medium" },
-      { "number": 2, "prompt": "Is it better for neighbours to share tools or for each household to own them?",
-        "focus": "karşılaştırma", "difficulty": "medium" },
-      { "number": 3, "prompt": "Will sharing services take the place of ownership for everyday items?",
-        "focus": "gelecek / görüş", "difficulty": "hard" }
+      {
+        "number": 1,
+        "prompt": "Why are some people reluctant to lend their possessions?",
+        "focus": "genel açıklama",
+        "difficulty": "medium"
+      },
+      {
+        "number": 2,
+        "prompt": "Is it better for neighbours to share tools or for each household to own them?",
+        "focus": "karşılaştırma",
+        "difficulty": "medium"
+      },
+      {
+        "number": 3,
+        "prompt": "Will sharing services take the place of ownership for everyday items?",
+        "focus": "gelecek / görüş",
+        "difficulty": "hard"
+      }
     ],
-    "useful_language": ["a matter of trust", "cut down on waste", "in principle"]
+    "useful_language": [
+      "a matter of trust",
+      "cut down on waste",
+      "in principle"
+    ]
   }
 }

@@ -1,5 +1,6 @@
 {
   "schema_version": "1.0",
+  "exam": "ielts",
   "set_id": "AT28",
   "skill": "writing",
   "module": "academic",
@@ -14,11 +15,40 @@
     "title": "Production of grain, fruit and vegetables in four farming areas, 2023",
     "x_label": "Farming area",
     "y_label": "Production (thousand tonnes)",
-    "categories": ["Eastvale", "Highmoor", "Rivermouth", "South Plain"],
+    "categories": [
+      "Eastvale",
+      "Highmoor",
+      "Rivermouth",
+      "South Plain"
+    ],
     "series": [
-      { "name": "Grain", "values": [420, 180, 240, 640] },
-      { "name": "Fruit", "values": [90, 150, 310, 70] },
-      { "name": "Vegetables", "values": [160, 120, 280, 150] }
+      {
+        "name": "Grain",
+        "values": [
+          420,
+          180,
+          240,
+          640
+        ]
+      },
+      {
+        "name": "Fruit",
+        "values": [
+          90,
+          150,
+          310,
+          70
+        ]
+      },
+      {
+        "name": "Vegetables",
+        "values": [
+          160,
+          120,
+          280,
+          150
+        ]
+      }
     ],
     "unit": "bin ton",
     "svg": null,

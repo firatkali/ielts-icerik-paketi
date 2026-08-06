@@ -1,5 +1,6 @@
 {
   "schema_version": "1.0",
+  "exam": "ielts",
   "set_id": "C34",
   "skill": "speaking",
   "card_type": "yer",
@@ -15,22 +16,46 @@
     ],
     "closing": "and explain why you enjoy going to this place.",
     "preparation_seconds": 60,
-    "speaking_seconds": [90, 120],
+    "speaking_seconds": [
+      90,
+      120
+    ],
     "follow_up": [
       "Would you suggest this place to someone new to the area?",
       "Do you usually go there on your own?"
     ],
-    "useful_language": ["it stocks a wide range of", "have a browse", "reasonably priced", "just around the corner"]
+    "useful_language": [
+      "it stocks a wide range of",
+      "have a browse",
+      "reasonably priced",
+      "just around the corner"
+    ]
   },
   "part3": {
     "items": [
-      { "number": 1, "prompt": "Why do many people still prefer buying things in person?",
-        "focus": "genel açıklama", "difficulty": "medium" },
-      { "number": 2, "prompt": "Are small local shops more useful to a neighbourhood than large stores?",
-        "focus": "karşılaştırma", "difficulty": "medium" },
-      { "number": 3, "prompt": "Will open-air markets still be part of city life fifty years from now?",
-        "focus": "gelecek / görüş", "difficulty": "hard" }
+      {
+        "number": 1,
+        "prompt": "Why do many people still prefer buying things in person?",
+        "focus": "genel açıklama",
+        "difficulty": "medium"
+      },
+      {
+        "number": 2,
+        "prompt": "Are small local shops more useful to a neighbourhood than large stores?",
+        "focus": "karşılaştırma",
+        "difficulty": "medium"
+      },
+      {
+        "number": 3,
+        "prompt": "Will open-air markets still be part of city life fifty years from now?",
+        "focus": "gelecek / görüş",
+        "difficulty": "hard"
+      }
     ],
-    "useful_language": ["a steady stream of customers", "convenience comes at a price", "cater for local needs"]
+    "useful_language": [
+      "a steady stream of customers",
+      "convenience comes at a price",
+      "cater for local needs"
+    ]
   }
 }

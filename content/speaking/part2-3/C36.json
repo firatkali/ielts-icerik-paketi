@@ -1,5 +1,6 @@
 {
   "schema_version": "1.0",
+  "exam": "ielts",
   "set_id": "C36",
   "skill": "speaking",
   "card_type": "yer",
@@ -15,22 +16,46 @@
     ],
     "closing": "and explain why you would like to see it for yourself.",
     "preparation_seconds": 60,
-    "speaking_seconds": [90, 120],
+    "speaking_seconds": [
+      90,
+      120
+    ],
     "follow_up": [
       "Who has told you the most about it?",
       "Do you think it will be as you imagine it?"
     ],
-    "useful_language": ["by all accounts", "well worth a visit", "off the beaten track", "it really appeals to me"]
+    "useful_language": [
+      "by all accounts",
+      "well worth a visit",
+      "off the beaten track",
+      "it really appeals to me"
+    ]
   },
   "part3": {
     "items": [
-      { "number": 1, "prompt": "Why are people curious about places they have never seen?",
-        "focus": "genel açıklama", "difficulty": "medium" },
-      { "number": 2, "prompt": "Do pictures give a better sense of a place than a written description?",
-        "focus": "karşılaştırma", "difficulty": "medium" },
-      { "number": 3, "prompt": "Will online tours reduce the number of people who travel to see places?",
-        "focus": "gelecek / görüş", "difficulty": "hard" }
+      {
+        "number": 1,
+        "prompt": "Why are people curious about places they have never seen?",
+        "focus": "genel açıklama",
+        "difficulty": "medium"
+      },
+      {
+        "number": 2,
+        "prompt": "Do pictures give a better sense of a place than a written description?",
+        "focus": "karşılaştırma",
+        "difficulty": "medium"
+      },
+      {
+        "number": 3,
+        "prompt": "Will online tours reduce the number of people who travel to see places?",
+        "focus": "gelecek / görüş",
+        "difficulty": "hard"
+      }
     ],
-    "useful_language": ["first-hand experience", "broaden the mind", "second best"]
+    "useful_language": [
+      "first-hand experience",
+      "broaden the mind",
+      "second best"
+    ]
   }
 }

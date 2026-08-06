@@ -1,5 +1,6 @@
 {
   "schema_version": "1.0",
+  "exam": "ielts",
   "set_id": "C59",
   "skill": "speaking",
   "card_type": "soyut",
@@ -15,22 +16,46 @@
     ],
     "closing": "and explain why people found this news so interesting.",
     "preparation_seconds": 60,
-    "speaking_seconds": [90, 120],
+    "speaking_seconds": [
+      90,
+      120
+    ],
     "follow_up": [
       "Did people disagree about it?",
       "Has anything changed since then?"
     ],
-    "useful_language": ["make the headlines", "word got around", "a talking point", "keep up with the news"]
+    "useful_language": [
+      "make the headlines",
+      "word got around",
+      "a talking point",
+      "keep up with the news"
+    ]
   },
   "part3": {
     "items": [
-      { "number": 1, "prompt": "What kinds of news do people in a community care most about?",
-        "focus": "genel açıklama", "difficulty": "medium" },
-      { "number": 2, "prompt": "Are local newspapers still as important to an area as they once were?",
-        "focus": "karşılaştırma", "difficulty": "medium" },
-      { "number": 3, "prompt": "Will most people get their news only from online platforms in future?",
-        "focus": "gelecek / görüş", "difficulty": "hard" }
+      {
+        "number": 1,
+        "prompt": "What kinds of news do people in a community care most about?",
+        "focus": "genel açıklama",
+        "difficulty": "medium"
+      },
+      {
+        "number": 2,
+        "prompt": "Are local newspapers still as important to an area as they once were?",
+        "focus": "karşılaştırma",
+        "difficulty": "medium"
+      },
+      {
+        "number": 3,
+        "prompt": "Will most people get their news only from online platforms in future?",
+        "focus": "gelecek / görüş",
+        "difficulty": "hard"
+      }
     ],
-    "useful_language": ["a reliable account", "spread quickly", "on the whole"]
+    "useful_language": [
+      "a reliable account",
+      "spread quickly",
+      "on the whole"
+    ]
   }
 }

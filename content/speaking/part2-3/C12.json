@@ -1,5 +1,6 @@
 {
   "schema_version": "1.0",
+  "exam": "ielts",
   "set_id": "C12",
   "skill": "speaking",
   "card_type": "olay",
@@ -15,22 +16,46 @@
     ],
     "closing": "and explain how the change affected the rest of your day.",
     "preparation_seconds": 60,
-    "speaking_seconds": [90, 120],
+    "speaking_seconds": [
+      90,
+      120
+    ],
     "follow_up": [
       "Did you have to tell anyone else about the change?",
       "Did things work out better in the end?"
     ],
-    "useful_language": ["it fell through at the last minute", "I had to think on my feet", "a blessing in disguise", "rearrange the whole day"]
+    "useful_language": [
+      "it fell through at the last minute",
+      "I had to think on my feet",
+      "a blessing in disguise",
+      "rearrange the whole day"
+    ]
   },
   "part3": {
     "items": [
-      { "number": 1, "prompt": "Why do some people dislike any change to their arrangements?",
-        "focus": "genel açıklama", "difficulty": "medium" },
-      { "number": 2, "prompt": "Is it easier to change plans now than it was twenty years ago?",
-        "focus": "karşılaştırma", "difficulty": "medium" },
-      { "number": 3, "prompt": "Should people plan their free time carefully or leave it open?",
-        "focus": "görüş / öneri", "difficulty": "hard" }
+      {
+        "number": 1,
+        "prompt": "Why do some people dislike any change to their arrangements?",
+        "focus": "genel açıklama",
+        "difficulty": "medium"
+      },
+      {
+        "number": 2,
+        "prompt": "Is it easier to change plans now than it was twenty years ago?",
+        "focus": "karşılaştırma",
+        "difficulty": "medium"
+      },
+      {
+        "number": 3,
+        "prompt": "Should people plan their free time carefully or leave it open?",
+        "focus": "görüş / öneri",
+        "difficulty": "hard"
+      }
     ],
-    "useful_language": ["at short notice", "play it by ear", "in the grand scheme of things"]
+    "useful_language": [
+      "at short notice",
+      "play it by ear",
+      "in the grand scheme of things"
+    ]
   }
 }

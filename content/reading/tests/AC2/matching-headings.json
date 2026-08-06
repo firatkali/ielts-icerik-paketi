@@ -1,5 +1,6 @@
 {
   "schema_version": "1.0",
+  "exam": "ielts",
   "set_id": "AC2-matching-headings",
   "skill": "reading",
   "module": "academic",
@@ -13,27 +14,65 @@
     "label": "List of Headings",
     "numbering": "roman",
     "options": [
-      { "key": "i",    "text": "Trade links between distant settlements" },
-      { "key": "ii",   "text": "Sequences that did not match the labels" },
-      { "key": "iii",  "text": "A gene behind one of wheat's proteins" },
-      { "key": "iv",   "text": "Finds whose identity was still an open question" },
-      { "key": "v",    "text": "A settlement larger than others of its time" },
-      { "key": "vi",   "text": "The difficulty of dating buried seeds" },
-      { "key": "vii",  "text": "Placing the ancient grain beside today's wheats" },
-      { "key": "viii", "text": "Setting out to read the genes themselves" },
-      { "key": "ix",   "text": "Storage methods that kept the harvest edible" },
-      { "key": "x",    "text": "Guarding the samples and targeting broken fragments" }
+      {
+        "key": "i",
+        "text": "Trade links between distant settlements"
+      },
+      {
+        "key": "ii",
+        "text": "Sequences that did not match the labels"
+      },
+      {
+        "key": "iii",
+        "text": "A gene behind one of wheat's proteins"
+      },
+      {
+        "key": "iv",
+        "text": "Finds whose identity was still an open question"
+      },
+      {
+        "key": "v",
+        "text": "A settlement larger than others of its time"
+      },
+      {
+        "key": "vi",
+        "text": "The difficulty of dating buried seeds"
+      },
+      {
+        "key": "vii",
+        "text": "Placing the ancient grain beside today's wheats"
+      },
+      {
+        "key": "viii",
+        "text": "Setting out to read the genes themselves"
+      },
+      {
+        "key": "ix",
+        "text": "Storage methods that kept the harvest edible"
+      },
+      {
+        "key": "x",
+        "text": "Guarding the samples and targeting broken fragments"
+      }
     ]
   },
-  "example": { "key": "v", "target": "Paragraph A" },
+  "example": {
+    "key": "v",
+    "target": "Paragraph A"
+  },
   "allow_repeat": false,
   "items": [
     {
       "number": 14,
       "prompt": "Paragraph B",
-      "answer": ["iv"],
+      "answer": [
+        "iv"
+      ],
       "evidence": "For decades, however, no one had examined these seeds at the molecular level to confirm what species they truly represented.",
-      "evidence_locator": { "paragraph": "B", "sentence": 3 },
+      "evidence_locator": {
+        "paragraph": "B",
+        "sentence": 3
+      },
       "heading_check": "B paragrafının üç cümlesi de aynı yere varıyor: elde iyi korunmuş taneler var, göze karmaşık bir buğday gibi görünüyorlar, ama hangi türe ait oldukları hiçbir zaman kesinleştirilmemiş. 'iv' bu askıda kalmışlığı veriyor. En yakın çeldirici 'ix' (tanelerin saklanma biçimi) — paragrafın ilk cümlesi tanelerin benzer yaştaki başka yerlerin bitki kalıntılarına göre alışılmadık ölçüde iyi korunduğunu söylüyor, bu yüzden koruma/saklama başlığı çekici duruyor; ama pasaj hiçbir yerde saklama yönteminden söz etmiyor ve paragrafın derdi korunmuşluk değil, kimliğin belirsizliği.",
       "feature_check": null,
       "grammar_check": null,
@@ -44,9 +83,14 @@
     {
       "number": 15,
       "prompt": "Paragraph C",
-      "answer": ["viii"],
+      "answer": [
+        "viii"
+      ],
       "evidence": "An international research team set out to change that by attempting to extract and read ancient DNA directly from the charred grains, roughly 8,400 years old.",
-      "evidence_locator": { "paragraph": "C", "sentence": 1 },
+      "evidence_locator": {
+        "paragraph": "C",
+        "sentence": 1
+      },
       "heading_check": "C paragrafının ana fikri, ekibin tanenin biçimine bakmayı bırakıp genetik maddeyi doğrudan okumaya girişmesi ve bunun neden değerli olacağı. 'viii' tam bu niyeti veriyor. En yakın çeldirici 'vi' (gömülü tohumların tarihlendirilmesindeki güçlük) — paragrafta tanelerin yaklaşık 8.400 yıllık olduğu ve başarının en eski bitki DNA'ları arasına gireceği geçtiği için yaş konusu göze çarpıyor; ama pasaj tarihlendirmeyi bir sorun olarak hiç ele almıyor, yaş yalnızca işin zorluğunu gösteren bir sayı.",
       "feature_check": null,
       "grammar_check": null,
@@ -57,9 +101,14 @@
     {
       "number": 16,
       "prompt": "Paragraph D",
-      "answer": ["x"],
+      "answer": [
+        "x"
+      ],
       "evidence": "To avoid contaminating the ancient samples with modern DNA, the extraction and analysis were carried out in two physically separate laboratories, one at the University of Manchester in the United Kingdom and the other at Middle East Technical University in Turkey.",
-      "evidence_locator": { "paragraph": "D", "sentence": 1 },
+      "evidence_locator": {
+        "paragraph": "D",
+        "sentence": 1
+      },
       "heading_check": "D paragrafı baştan sona iki işi anlatıyor: örneklerin modern genetik maddeden korunması (birbirinden ayrı iki laboratuvar) ve bu yaştaki tohumlarda ayakta kalan kısa, bozulmuş parçaları yakalayacak işaretleyicilerin tasarlanması. 'x' ikisini birden karşılıyor. En yakın çeldirici 'iii' (bir buğday proteininin arkasındaki gen) — ekibin bir gene odaklandığı bu paragrafta geçiyor ve kelime örtüşmesi güçlü, ama bu yalnızca yöntemin bir ayrıntısı; paragrafın ana fikri korunma ve parça avına uygun araç seçimi.",
       "feature_check": null,
       "grammar_check": null,
@@ -70,9 +119,14 @@
     {
       "number": 17,
       "prompt": "Paragraph E",
-      "answer": ["ii"],
+      "answer": [
+        "ii"
+      ],
       "evidence": "Yet the genetic analysis told a different story.",
-      "evidence_locator": { "paragraph": "E", "sentence": 2 },
+      "evidence_locator": {
+        "paragraph": "E",
+        "sentence": 2
+      },
       "heading_check": "E paragrafının ana fikri, biçime bakılarak konmuş adlarla genetik sonuçların çelişmesi: iki örnek basit buğday diye sınıflanmışken çıkan diziler altı takım kromozomlu buğdaya özgü parçayı ve veri tabanlarında hiç kayıtlı olmayan çok sayıda çeşitlemeyi içeriyor. 'ii' bu çelişkiyi veriyor. En yakın çeldirici 'vii' (bulgunun bugünkü buğdaylarla yan yana konması) — E'de yalnızca 'altı takımlı buğdayda bulunan' bir parçadan söz ediliyor; bugünkü çeşitlerle asıl karşılaştırma F paragrafında yapılıyor.",
       "feature_check": null,
       "grammar_check": null,
@@ -83,9 +137,14 @@
     {
       "number": 18,
       "prompt": "Paragraph F",
-      "answer": ["vii"],
+      "answer": [
+        "vii"
+      ],
       "evidence": "When the ancient sequences were compared with modern wheat varieties, they resembled present-day hexaploid forms, including both naked bread wheat and hulled types such as spelt.",
-      "evidence_locator": { "paragraph": "F", "sentence": 1 },
+      "evidence_locator": {
+        "paragraph": "F",
+        "sentence": 1
+      },
       "heading_check": "F paragrafı, eski dizilerin bugün yetiştirilen buğday çeşitlerinin yanına konmasından ve bu karşılaştırmadan çıkarılan yorumdan ibaret: eski diziler bugünkü altı takımlı biçimlere benziyor, ekip bunu erken bir geçiş evresi sayıyor. 'vii' bu ana fikri veriyor. En yakın çeldirici 'ii' (adlarla uyuşmayan diziler) — dizilerle beklenti arasındaki uyuşmazlık E paragrafının işi; F artık uyuşmazlığı değil, benzerliğin bugünkü çeşitlerle kurulan bağını anlatıyor.",
       "feature_check": null,
       "grammar_check": null,

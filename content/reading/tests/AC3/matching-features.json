@@ -1,5 +1,6 @@
 {
   "schema_version": "1.0",
+  "exam": "ielts",
   "set_id": "AC3-matching-features",
   "skill": "reading",
   "module": "academic",
@@ -13,11 +14,26 @@
     "label": "List of Places",
     "numbering": "letter",
     "options": [
-      { "key": "A", "text": "Yakutat" },
-      { "key": "B", "text": "Mount Logan" },
-      { "key": "C", "text": "Mount King George" },
-      { "key": "D", "text": "Hubbard Glacier" },
-      { "key": "E", "text": "the St Elias Mountains" }
+      {
+        "key": "A",
+        "text": "Yakutat"
+      },
+      {
+        "key": "B",
+        "text": "Mount Logan"
+      },
+      {
+        "key": "C",
+        "text": "Mount King George"
+      },
+      {
+        "key": "D",
+        "text": "Hubbard Glacier"
+      },
+      {
+        "key": "E",
+        "text": "the St Elias Mountains"
+      }
     ]
   },
   "example": null,
@@ -26,9 +42,14 @@
     {
       "number": 23,
       "prompt": "In the first seconds of the shaking, rock and ice were torn away from the slopes standing over it.",
-      "answer": ["D"],
+      "answer": [
+        "D"
+      ],
       "evidence": "Within seconds the shaking triggered landslides and snow avalanches across a wide swathe of the mountains, tearing loose rock and ice from slopes above one of the region's largest ice bodies, Hubbard Glacier.",
-      "evidence_locator": { "paragraph": "A", "sentence": 3 },
+      "evidence_locator": {
+        "paragraph": "A",
+        "sentence": 3
+      },
       "feature_check": "Karıştırılabilecek öğe E: aynı cümle çığ ve heyelanların 'dağların geniş bir kuşağı boyunca' tetiklendiğini söylüyor, dolayısıyla 'sarsıntının ilk anlarında koptu' bilgisi ilk bakışta bütün sıradağa bağlanabilir. Ayrım şurada: ifade koparılan malzemenin *üstünde durduğu* şeyi soruyor; pasajda yamaçların üzerinde yükseldiği şey olarak yalnızca bölgenin en büyük buz kütlelerinden biri, yani D adlandırılıyor. Bir sıradağın 'üstünde' yamaç bulunmaz; E yerin genel adı, kopan malzemenin indiği hedef değil.",
       "grammar_check": null,
       "explanation": "Paragraf A, sarsıntının saniyeler içinde bu büyük buz kütlesinin üzerindeki yamaçlardan kaya ve buz kopardığını söylüyor.",
@@ -38,9 +59,14 @@
     {
       "number": 24,
       "prompt": "The clearest single event of all was a broad flow of loosened material down its side.",
-      "answer": ["C"],
+      "answer": [
+        "C"
+      ],
       "evidence": "The most conspicuous single event showed up as a wide cascade of debris pouring down the flank of Mount King George, while further landslide scars were visible around Mount Logan, Canada's tallest peak.",
-      "evidence_locator": { "paragraph": "D", "sentence": 1 },
+      "evidence_locator": {
+        "paragraph": "D",
+        "sentence": 1
+      },
       "feature_check": "Karıştırılabilecek öğe B: iki dağ da aynı cümlede, ikisi de yeni yıkım izleriyle anılıyor, üstelik B ülkenin en yüksek tepesi olduğu için 'en büyük' çağrışımını da üstüne çekiyor — 24 ile 25 asıl ayırt ediciliğini buradan alıyor. Fark cümlenin iki yarısında: 'tek bir olay olarak en göze çarpanı' doğrudan C'nin yamacından inen geniş akışa bağlanmış; B'ye bağlanan ise tek bir büyük akış değil, çevrede görülen başkaca kopma izleri.",
       "grammar_check": null,
       "explanation": "Paragraf D, tek bir olay olarak en göze çarpanının bu dağın yamacından aşağı boşalan geniş enkaz akışı olduğunu söylüyor.",
@@ -50,9 +76,14 @@
     {
       "number": 25,
       "prompt": "Further marks left by slipping ground could be seen in the terrain around it, although the largest single flow was not there.",
-      "answer": ["B"],
+      "answer": [
+        "B"
+      ],
       "evidence": "The most conspicuous single event showed up as a wide cascade of debris pouring down the flank of Mount King George, while further landslide scars were visible around Mount Logan, Canada's tallest peak.",
-      "evidence_locator": { "paragraph": "D", "sentence": 1 },
+      "evidence_locator": {
+        "paragraph": "D",
+        "sentence": 1
+      },
       "feature_check": "Karıştırılabilecek öğe C: aday, aynı cümlede geçen ve daha çarpıcı yıkımla anılan dağı seçmeye eğilimli. Ama cümlenin ikinci yarısı 'çevresinde görülen başkaca heyelan izleri'ni açıkça B'ye bağlıyor; en büyük tek akış C'ye ait olduğu için ifadenin 'en büyüğü orada değildi' kaydı da B'yi işaret ediyor. E de elenir: izler bir sıradağın geneline değil, adı verilen bir zirvenin çevresine bağlanmış.",
       "grammar_check": null,
       "explanation": "Paragraf D, en büyük tek akışın başka bir zirveye ait olduğunu, bu dağın çevresinde ise başkaca heyelan izlerinin görüldüğünü söylüyor.",
@@ -62,9 +93,14 @@
     {
       "number": 26,
       "prompt": "The quake began in remote country roughly ninety kilometres away from this settlement on the shore.",
-      "answer": ["A"],
+      "answer": [
+        "A"
+      ],
       "evidence": "The epicentre lay in remote terrain roughly 90 kilometres north of the coastal town of Yakutat, Alaska, an area so thinly populated that the quake caused no reported casualties, yet its effects on the surrounding landscape were extraordinary.",
-      "evidence_locator": { "paragraph": "A", "sentence": 2 },
+      "evidence_locator": {
+        "paragraph": "A",
+        "sentence": 2
+      },
       "feature_check": "Karıştırılabilecek öğe E: depremin başladığı nokta sıradağın içinde kaldığı için 'deprem nerede başladı' diye okuyan aday E'yi işaretleyebilir. Ama ifade depremin başladığı yeri değil, uzaklığın *ölçüldüğü* yeri soruyor; pasajda kıyıda kurulmuş bir yerleşim olarak yalnızca A anılıyor ve mesafe ona göre veriliyor. B ile C de elenir: ikisi de dağ, yerleşim değil.",
       "grammar_check": null,
       "explanation": "Paragraf A, deprem merkezinin kıyıdaki bu kasabanın yaklaşık 90 kilometre kuzeyinde, çok seyrek nüfuslu ıssız bir arazide bulunduğunu söylüyor.",

@@ -1,82 +1,136 @@
 {
   "schema_version": "1.0",
+  "exam": "ielts",
   "set_id": "T17-art-and-crafts",
   "skill": "speaking",
   "part": 1,
   "topic": "Art and crafts",
   "topic_tr": "Sanat ve el işi",
   "generated_by": "opus",
-  "expected_answer_seconds": [20, 40],
+  "expected_answer_seconds": [
+    20,
+    40
+  ],
   "items": [
     {
       "number": 1,
       "prompt": "What kind of art do you enjoy looking at?",
       "focus": "temel bilgi",
       "difficulty": "easy",
-      "useful_language": ["I'm keen on anything with strong colours", "I prefer pictures of ordinary life", "I don't know much about it, but I know what I like", "the older styles appeal to me more"]
+      "useful_language": [
+        "I'm keen on anything with strong colours",
+        "I prefer pictures of ordinary life",
+        "I don't know much about it, but I know what I like",
+        "the older styles appeal to me more"
+      ]
     },
     {
       "number": 2,
       "prompt": "How often do you make something with your hands?",
       "focus": "alışkanlık",
       "difficulty": "easy",
-      "useful_language": ["hardly ever, if I'm honest", "I mend things more than I make them", "now and again, when I have an evening free", "it's not something I've kept up"]
+      "useful_language": [
+        "hardly ever, if I'm honest",
+        "I mend things more than I make them",
+        "now and again, when I have an evening free",
+        "it's not something I've kept up"
+      ]
     },
     {
       "number": 3,
       "prompt": "What did you enjoy making when you were at school?",
       "focus": "geçmiş",
       "difficulty": "easy",
-      "useful_language": ["we did a fair bit of", "I was hopeless at drawing but good at", "it was the one lesson I looked forward to", "I still have something I made"]
+      "useful_language": [
+        "we did a fair bit of",
+        "I was hopeless at drawing but good at",
+        "it was the one lesson I looked forward to",
+        "I still have something I made"
+      ]
     },
     {
       "number": 4,
       "prompt": "Which would you rather try, drawing or making something out of wood?",
       "focus": "tercih ve sebep",
       "difficulty": "medium",
-      "useful_language": ["I'd go for something practical", "you end up with an object you can use", "drawing needs less equipment", "I'd want to see a result at the end of it"]
+      "useful_language": [
+        "I'd go for something practical",
+        "you end up with an object you can use",
+        "drawing needs less equipment",
+        "I'd want to see a result at the end of it"
+      ]
     },
     {
       "number": 5,
       "prompt": "What makes a piece of art worth looking at more than once?",
       "focus": "açıklama",
       "difficulty": "medium",
-      "useful_language": ["you notice something new each time", "it doesn't give everything away at once", "it stays with you afterwards", "the detail rewards a second look"]
+      "useful_language": [
+        "you notice something new each time",
+        "it doesn't give everything away at once",
+        "it stays with you afterwards",
+        "the detail rewards a second look"
+      ]
     },
     {
       "number": 6,
       "prompt": "Where can people in your area see art or handmade objects?",
       "focus": "çevre",
       "difficulty": "medium",
-      "useful_language": ["there's a small gallery in the centre", "you see work on the walls of cafés", "there's a market once a month", "there isn't much on offer, to be honest"]
+      "useful_language": [
+        "there's a small gallery in the centre",
+        "you see work on the walls of cafés",
+        "there's a market once a month",
+        "there isn't much on offer, to be honest"
+      ]
     },
     {
       "number": 7,
       "prompt": "Why do many adults stop drawing or making things?",
       "focus": "sebep",
       "difficulty": "medium",
-      "useful_language": ["they decide they're no good at it", "there's never a spare hour", "it feels like something children do", "you need somewhere to spread out"]
+      "useful_language": [
+        "they decide they're no good at it",
+        "there's never a spare hour",
+        "it feels like something children do",
+        "you need somewhere to spread out"
+      ]
     },
     {
       "number": 8,
       "prompt": "What would be lost if children did no art at school at all?",
       "focus": "varsayım ve görüş",
       "difficulty": "hard",
-      "useful_language": ["it's the one subject with no wrong answer", "children who struggle elsewhere can shine there", "it teaches patience as much as skill", "the school day would be poorer for it"]
+      "useful_language": [
+        "it's the one subject with no wrong answer",
+        "children who struggle elsewhere can shine there",
+        "it teaches patience as much as skill",
+        "the school day would be poorer for it"
+      ]
     },
     {
       "number": 9,
       "prompt": "Why are handmade objects becoming popular again in some places?",
       "focus": "değişim",
       "difficulty": "hard",
-      "useful_language": ["people are tired of things that all look the same", "there's a reaction against throwing things away", "buyers like knowing who made it", "it's partly the appeal of something with a story behind it"]
+      "useful_language": [
+        "people are tired of things that all look the same",
+        "there's a reaction against throwing things away",
+        "buyers like knowing who made it",
+        "it's partly the appeal of something with a story behind it"
+      ]
     },
     {
       "number": 10,
       "prompt": "Which gives more satisfaction, making something yourself or buying it ready-made?",
       "focus": "karşılaştırma",
       "difficulty": "hard",
-      "useful_language": ["there's a real sense of achievement in it", "shop-bought is quicker but forgettable", "you value it more when you've struggled over it", "the mistakes are part of the charm"]
+      "useful_language": [
+        "there's a real sense of achievement in it",
+        "shop-bought is quicker but forgettable",
+        "you value it more when you've struggled over it",
+        "the mistakes are part of the charm"
+      ]
     }
   ]
 }

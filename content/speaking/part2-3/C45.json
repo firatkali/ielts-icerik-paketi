@@ -1,5 +1,6 @@
 {
   "schema_version": "1.0",
+  "exam": "ielts",
   "set_id": "C45",
   "skill": "speaking",
   "card_type": "soyut",
@@ -15,22 +16,46 @@
     ],
     "closing": "and explain why the idea worked so well.",
     "preparation_seconds": 60,
-    "speaking_seconds": [90, 120],
+    "speaking_seconds": [
+      90,
+      120
+    ],
     "follow_up": [
       "Did anyone else take up the idea?",
       "How often do ideas like that come to you?"
     ],
-    "useful_language": ["it occurred to me", "come up with", "work out well", "a simple solution"]
+    "useful_language": [
+      "it occurred to me",
+      "come up with",
+      "work out well",
+      "a simple solution"
+    ]
   },
   "part3": {
     "items": [
-      { "number": 1, "prompt": "Where do people usually get their best ideas from?",
-        "focus": "genel açıklama", "difficulty": "medium" },
-      { "number": 2, "prompt": "Do groups come up with better ideas than individuals working alone?",
-        "focus": "karşılaştırma", "difficulty": "medium" },
-      { "number": 3, "prompt": "Will creative thinking matter more in the workplaces of the future?",
-        "focus": "gelecek / görüş", "difficulty": "hard" }
+      {
+        "number": 1,
+        "prompt": "Where do people usually get their best ideas from?",
+        "focus": "genel açıklama",
+        "difficulty": "medium"
+      },
+      {
+        "number": 2,
+        "prompt": "Do groups come up with better ideas than individuals working alone?",
+        "focus": "karşılaştırma",
+        "difficulty": "medium"
+      },
+      {
+        "number": 3,
+        "prompt": "Will creative thinking matter more in the workplaces of the future?",
+        "focus": "gelecek / görüş",
+        "difficulty": "hard"
+      }
     ],
-    "useful_language": ["think outside the box", "bounce ideas around", "put an idea into practice"]
+    "useful_language": [
+      "think outside the box",
+      "bounce ideas around",
+      "put an idea into practice"
+    ]
   }
 }

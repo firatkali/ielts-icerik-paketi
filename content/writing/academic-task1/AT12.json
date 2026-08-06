@@ -1,5 +1,6 @@
 {
   "schema_version": "1.0",
+  "exam": "ielts",
   "set_id": "AT12",
   "skill": "writing",
   "module": "academic",
@@ -14,10 +15,34 @@
     "title": "Student enrolment by subject area, 2010 and 2022",
     "x_label": "Subject area",
     "y_label": "Number of students enrolled",
-    "categories": ["Business studies", "Engineering", "Health sciences", "Arts and design", "Computing"],
+    "categories": [
+      "Business studies",
+      "Engineering",
+      "Health sciences",
+      "Arts and design",
+      "Computing"
+    ],
     "series": [
-      { "name": "2010", "values": [880, 640, 420, 350, 210] },
-      { "name": "2022", "values": [640, 700, 760, 300, 900] }
+      {
+        "name": "2010",
+        "values": [
+          880,
+          640,
+          420,
+          350,
+          210
+        ]
+      },
+      {
+        "name": "2022",
+        "values": [
+          640,
+          700,
+          760,
+          300,
+          900
+        ]
+      }
     ],
     "unit": "öğrenci sayısı",
     "svg": null,

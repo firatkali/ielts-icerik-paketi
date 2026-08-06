@@ -1,5 +1,6 @@
 {
   "schema_version": "1.0",
+  "exam": "ielts",
   "set_id": "C17",
   "skill": "speaking",
   "card_type": "kişi",
@@ -15,22 +16,46 @@
     ],
     "closing": "and explain why you found it so funny.",
     "preparation_seconds": 60,
-    "speaking_seconds": [90, 120],
+    "speaking_seconds": [
+      90,
+      120
+    ],
     "follow_up": [
       "Does this person make other people laugh too?",
       "How often do you see them?"
     ],
-    "useful_language": ["burst out laughing", "a good sense of humour", "see the funny side", "have us all in stitches"]
+    "useful_language": [
+      "burst out laughing",
+      "a good sense of humour",
+      "see the funny side",
+      "have us all in stitches"
+    ]
   },
   "part3": {
     "items": [
-      { "number": 1, "prompt": "Why do people find it easier to relax when there is laughter around?",
-        "focus": "genel açıklama", "difficulty": "medium" },
-      { "number": 2, "prompt": "Do adults and children tend to laugh at different things?",
-        "focus": "karşılaştırma", "difficulty": "medium" },
-      { "number": 3, "prompt": "Will humour become more similar around the world in the years ahead?",
-        "focus": "gelecek / görüş", "difficulty": "hard" }
+      {
+        "number": 1,
+        "prompt": "Why do people find it easier to relax when there is laughter around?",
+        "focus": "genel açıklama",
+        "difficulty": "medium"
+      },
+      {
+        "number": 2,
+        "prompt": "Do adults and children tend to laugh at different things?",
+        "focus": "karşılaştırma",
+        "difficulty": "medium"
+      },
+      {
+        "number": 3,
+        "prompt": "Will humour become more similar around the world in the years ahead?",
+        "focus": "gelecek / görüş",
+        "difficulty": "hard"
+      }
     ],
-    "useful_language": ["it lightens the mood", "cut across cultures", "there is a fine line between"]
+    "useful_language": [
+      "it lightens the mood",
+      "cut across cultures",
+      "there is a fine line between"
+    ]
   }
 }

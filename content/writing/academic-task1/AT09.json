@@ -1,5 +1,6 @@
 {
   "schema_version": "1.0",
+  "exam": "ielts",
   "set_id": "AT09",
   "skill": "writing",
   "module": "academic",
@@ -14,10 +15,31 @@
     "title": "Fresh water use by sector in two regions, 2020",
     "x_label": null,
     "y_label": null,
-    "categories": ["Farming", "Industry", "Homes", "Public services and other"],
+    "categories": [
+      "Farming",
+      "Industry",
+      "Homes",
+      "Public services and other"
+    ],
     "series": [
-      { "name": "Northmoor", "values": [62, 14, 18, 6] },
-      { "name": "Calder Bay", "values": [21, 38, 33, 8] }
+      {
+        "name": "Northmoor",
+        "values": [
+          62,
+          14,
+          18,
+          6
+        ]
+      },
+      {
+        "name": "Calder Bay",
+        "values": [
+          21,
+          38,
+          33,
+          8
+        ]
+      }
     ],
     "unit": "%",
     "svg": null,

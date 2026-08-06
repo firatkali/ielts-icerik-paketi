@@ -1,0 +1,56 @@
+{
+  "exam": "ielts",
+  "schema_version": "1.0",
+  "test_id": "GT1",
+  "skill": "reading",
+  "module": "general",
+  "question_count": 40,
+  "band_thresholds_source": "official_average_2023",
+  "band_thresholds_note": "Resmî ortalama tablo. Gerçek IELTS'te bu tablo her test sürümü için kaydırılır (equating). Buradaki değerler başlangıç değeridir ve canlı kullanım verisi biriktikçe TEST BAŞINA güncellenir. Koda gömülmez, bu dosyadan okunur.",
+  "band_thresholds": [
+    {
+      "band": 9.0,
+      "min_correct": 40
+    },
+    {
+      "band": 8.5,
+      "min_correct": 39
+    },
+    {
+      "band": 8.0,
+      "min_correct": 37
+    },
+    {
+      "band": 7.5,
+      "min_correct": 36
+    },
+    {
+      "band": 7.0,
+      "min_correct": 34
+    },
+    {
+      "band": 6.5,
+      "min_correct": 32
+    },
+    {
+      "band": 6.0,
+      "min_correct": 30
+    },
+    {
+      "band": 5.5,
+      "min_correct": 27
+    },
+    {
+      "band": 5.0,
+      "min_correct": 23
+    },
+    {
+      "band": 4.5,
+      "min_correct": 19
+    },
+    {
+      "band": 4.0,
+      "min_correct": 15
+    }
+  ]
+}

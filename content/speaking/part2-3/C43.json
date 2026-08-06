@@ -1,5 +1,6 @@
 {
   "schema_version": "1.0",
+  "exam": "ielts",
   "set_id": "C43",
   "skill": "speaking",
   "card_type": "olay",
@@ -15,22 +16,46 @@
     ],
     "closing": "and explain how the change affected the rest of the day.",
     "preparation_seconds": 60,
-    "speaking_seconds": [90, 120],
+    "speaking_seconds": [
+      90,
+      120
+    ],
     "follow_up": [
       "Was the change planned or completely unexpected?",
       "Would you like to have more days like that?"
     ],
-    "useful_language": ["a break from routine", "on the spur of the moment", "a change of scene", "shake things up"]
+    "useful_language": [
+      "a break from routine",
+      "on the spur of the moment",
+      "a change of scene",
+      "shake things up"
+    ]
   },
   "part3": {
     "items": [
-      { "number": 1, "prompt": "Why do so many people follow the same routine day after day?",
-        "focus": "genel açıklama", "difficulty": "medium" },
-      { "number": 2, "prompt": "Is variety more important to young people than to those who are older?",
-        "focus": "karşılaştırma", "difficulty": "medium" },
-      { "number": 3, "prompt": "Will daily routines become less fixed as patterns of work change?",
-        "focus": "gelecek / görüş", "difficulty": "hard" }
+      {
+        "number": 1,
+        "prompt": "Why do so many people follow the same routine day after day?",
+        "focus": "genel açıklama",
+        "difficulty": "medium"
+      },
+      {
+        "number": 2,
+        "prompt": "Is variety more important to young people than to those who are older?",
+        "focus": "karşılaştırma",
+        "difficulty": "medium"
+      },
+      {
+        "number": 3,
+        "prompt": "Will daily routines become less fixed as patterns of work change?",
+        "focus": "gelecek / görüş",
+        "difficulty": "hard"
+      }
     ],
-    "useful_language": ["stuck in a rut", "strike a balance", "adapt to change"]
+    "useful_language": [
+      "stuck in a rut",
+      "strike a balance",
+      "adapt to change"
+    ]
   }
 }

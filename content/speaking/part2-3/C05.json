@@ -1,5 +1,6 @@
 {
   "schema_version": "1.0",
+  "exam": "ielts",
   "set_id": "C05",
   "skill": "speaking",
   "card_type": "yer",
@@ -15,22 +16,46 @@
     ],
     "closing": "and explain why you find this building interesting.",
     "preparation_seconds": 60,
-    "speaking_seconds": [90, 120],
+    "speaking_seconds": [
+      90,
+      120
+    ],
     "follow_up": [
       "Have you ever been inside it?",
       "What do other people in your area say about it?"
     ],
-    "useful_language": ["it stands out from everything around it", "red brick with tall windows", "it has been converted into", "an eyesore, if I am honest"]
+    "useful_language": [
+      "it stands out from everything around it",
+      "red brick with tall windows",
+      "it has been converted into",
+      "an eyesore, if I am honest"
+    ]
   },
   "part3": {
     "items": [
-      { "number": 1, "prompt": "What makes a new building fit in well with an older neighbourhood?",
-        "focus": "genel açıklama", "difficulty": "medium" },
-      { "number": 2, "prompt": "Do people care more about how a building looks or how useful it is?",
-        "focus": "karşılaştırma", "difficulty": "medium" },
-      { "number": 3, "prompt": "How do you think the buildings in towns will change over the next fifty years?",
-        "focus": "gelecek / görüş", "difficulty": "hard" }
+      {
+        "number": 1,
+        "prompt": "What makes a new building fit in well with an older neighbourhood?",
+        "focus": "genel açıklama",
+        "difficulty": "medium"
+      },
+      {
+        "number": 2,
+        "prompt": "Do people care more about how a building looks or how useful it is?",
+        "focus": "karşılaştırma",
+        "difficulty": "medium"
+      },
+      {
+        "number": 3,
+        "prompt": "How do you think the buildings in towns will change over the next fifty years?",
+        "focus": "gelecek / görüş",
+        "difficulty": "hard"
+      }
     ],
-    "useful_language": ["blend in with its surroundings", "at the expense of", "a shift towards"]
+    "useful_language": [
+      "blend in with its surroundings",
+      "at the expense of",
+      "a shift towards"
+    ]
   }
 }

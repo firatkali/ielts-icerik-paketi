@@ -1,82 +1,136 @@
 {
   "schema_version": "1.0",
+  "exam": "ielts",
   "set_id": "T07-music",
   "skill": "speaking",
   "part": 1,
   "topic": "Music",
   "topic_tr": "Müzik",
   "generated_by": "opus",
-  "expected_answer_seconds": [20, 40],
+  "expected_answer_seconds": [
+    20,
+    40
+  ],
   "items": [
     {
       "number": 1,
       "prompt": "What kind of music do you listen to most?",
       "focus": "alışkanlık",
       "difficulty": "easy",
-      "useful_language": ["I'm not fussy about", "anything with a strong rhythm", "mostly quieter, slower pieces", "my taste is fairly mixed"]
+      "useful_language": [
+        "I'm not fussy about",
+        "anything with a strong rhythm",
+        "mostly quieter, slower pieces",
+        "my taste is fairly mixed"
+      ]
     },
     {
       "number": 2,
       "prompt": "When during the day do you usually listen to music?",
       "focus": "alışkanlık",
       "difficulty": "easy",
-      "useful_language": ["while I'm getting ready", "on the way to work", "it's on in the background", "last thing at night"]
+      "useful_language": [
+        "while I'm getting ready",
+        "on the way to work",
+        "it's on in the background",
+        "last thing at night"
+      ]
     },
     {
       "number": 3,
       "prompt": "How do you usually find new songs to listen to?",
       "focus": "temel bilgi",
       "difficulty": "easy",
-      "useful_language": ["friends recommend things", "I come across it by chance", "one track leads to another", "I stick to what I know"]
+      "useful_language": [
+        "friends recommend things",
+        "I come across it by chance",
+        "one track leads to another",
+        "I stick to what I know"
+      ]
     },
     {
       "number": 4,
       "prompt": "What sort of music was played at home when you were growing up?",
       "focus": "geçmiş",
       "difficulty": "medium",
-      "useful_language": ["my parents were keen on", "it was always on at weekends", "I grew up hearing", "I've come round to it since"]
+      "useful_language": [
+        "my parents were keen on",
+        "it was always on at weekends",
+        "I grew up hearing",
+        "I've come round to it since"
+      ]
     },
     {
       "number": 5,
       "prompt": "How does music change the way you feel while you are working?",
       "focus": "açıklama",
       "difficulty": "medium",
-      "useful_language": ["it helps me concentrate", "I find lyrics distracting", "it keeps me going", "it sets the pace"]
+      "useful_language": [
+        "it helps me concentrate",
+        "I find lyrics distracting",
+        "it keeps me going",
+        "it sets the pace"
+      ]
     },
     {
       "number": 6,
       "prompt": "Would you rather listen to a recording or hear music played live?",
       "focus": "tercih",
       "difficulty": "medium",
-      "useful_language": ["there's no comparison", "the atmosphere is completely different", "you hear every mistake", "a recording is more convenient"]
+      "useful_language": [
+        "there's no comparison",
+        "the atmosphere is completely different",
+        "you hear every mistake",
+        "a recording is more convenient"
+      ]
     },
     {
       "number": 7,
       "prompt": "Why does music seem to matter so much to teenagers?",
       "focus": "başkaları açısı ve sebep",
       "difficulty": "medium",
-      "useful_language": ["it gives them an identity", "it's something they share", "the words speak for them", "it marks them out from adults"]
+      "useful_language": [
+        "it gives them an identity",
+        "it's something they share",
+        "the words speak for them",
+        "it marks them out from adults"
+      ]
     },
     {
       "number": 8,
       "prompt": "What instrument would you like to learn to play?",
       "focus": "gelecek",
       "difficulty": "hard",
-      "useful_language": ["I've always fancied trying", "it looks harder than it is", "you'd need years of practice", "I'd start with something simple"]
+      "useful_language": [
+        "I've always fancied trying",
+        "it looks harder than it is",
+        "you'd need years of practice",
+        "I'd start with something simple"
+      ]
     },
     {
       "number": 9,
       "prompt": "How is the way people listen to music now different from twenty years ago?",
       "focus": "değişim",
       "difficulty": "hard",
-      "useful_language": ["everything is on a phone now", "we used to buy albums", "you'd listen right through", "it's far more disposable"]
+      "useful_language": [
+        "everything is on a phone now",
+        "we used to buy albums",
+        "you'd listen right through",
+        "it's far more disposable"
+      ]
     },
     {
       "number": 10,
       "prompt": "How do the songs older people enjoy differ from those young people choose?",
       "focus": "karşılaştırma",
       "difficulty": "hard",
-      "useful_language": ["they lean towards", "the melodies are simpler", "it comes down to what they grew up with", "there's more overlap than you'd think"]
+      "useful_language": [
+        "they lean towards",
+        "the melodies are simpler",
+        "it comes down to what they grew up with",
+        "there's more overlap than you'd think"
+      ]
     }
   ]
 }

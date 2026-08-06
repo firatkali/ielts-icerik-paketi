@@ -1,5 +1,6 @@
 {
   "schema_version": "1.0",
+  "exam": "ielts",
   "set_id": "C47",
   "skill": "speaking",
   "card_type": "yer",
@@ -15,22 +16,46 @@
     ],
     "closing": "and explain why you enjoy walking along this street.",
     "preparation_seconds": 60,
-    "speaking_seconds": [90, 120],
+    "speaking_seconds": [
+      90,
+      120
+    ],
     "follow_up": [
       "Has the street changed since you first knew it?",
       "Is it busier at certain times of day?"
     ],
-    "useful_language": ["lined with trees", "a steady flow of people", "within walking distance", "a pleasant stroll"]
+    "useful_language": [
+      "lined with trees",
+      "a steady flow of people",
+      "within walking distance",
+      "a pleasant stroll"
+    ]
   },
   "part3": {
     "items": [
-      { "number": 1, "prompt": "What makes a street pleasant to walk along?",
-        "focus": "genel açıklama", "difficulty": "medium" },
-      { "number": 2, "prompt": "Are streets in older districts more attractive than those in newer ones?",
-        "focus": "karşılaştırma", "difficulty": "medium" },
-      { "number": 3, "prompt": "Should more city centres be closed to cars so people can walk freely?",
-        "focus": "öneri / görüş", "difficulty": "hard" }
+      {
+        "number": 1,
+        "prompt": "What makes a street pleasant to walk along?",
+        "focus": "genel açıklama",
+        "difficulty": "medium"
+      },
+      {
+        "number": 2,
+        "prompt": "Are streets in older districts more attractive than those in newer ones?",
+        "focus": "karşılaştırma",
+        "difficulty": "medium"
+      },
+      {
+        "number": 3,
+        "prompt": "Should more city centres be closed to cars so people can walk freely?",
+        "focus": "öneri / görüş",
+        "difficulty": "hard"
+      }
     ],
-    "useful_language": ["pedestrian-friendly", "cut down on traffic", "a sense of place"]
+    "useful_language": [
+      "pedestrian-friendly",
+      "cut down on traffic",
+      "a sense of place"
+    ]
   }
 }

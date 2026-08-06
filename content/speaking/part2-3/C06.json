@@ -1,5 +1,6 @@
 {
   "schema_version": "1.0",
+  "exam": "ielts",
   "set_id": "C06",
   "skill": "speaking",
   "card_type": "yer",
@@ -15,22 +16,46 @@
     ],
     "closing": "and explain how you felt about being in such a crowded place.",
     "preparation_seconds": 60,
-    "speaking_seconds": [90, 120],
+    "speaking_seconds": [
+      90,
+      120
+    ],
     "follow_up": [
       "Would you go there again at a quieter time?",
       "How long did you stay in the end?"
     ],
-    "useful_language": ["packed from wall to wall", "you could hardly move", "there was a real buzz about it", "I made my excuses and left"]
+    "useful_language": [
+      "packed from wall to wall",
+      "you could hardly move",
+      "there was a real buzz about it",
+      "I made my excuses and left"
+    ]
   },
   "part3": {
     "items": [
-      { "number": 1, "prompt": "Why do people still visit places they know will be crowded?",
-        "focus": "genel açıklama", "difficulty": "medium" },
-      { "number": 2, "prompt": "Are large crowds easier to manage in cities than in smaller towns?",
-        "focus": "karşılaştırma", "difficulty": "medium" },
-      { "number": 3, "prompt": "What could be done to spread visitors more evenly through the year?",
-        "focus": "görüş / öneri", "difficulty": "hard" }
+      {
+        "number": 1,
+        "prompt": "Why do people still visit places they know will be crowded?",
+        "focus": "genel açıklama",
+        "difficulty": "medium"
+      },
+      {
+        "number": 2,
+        "prompt": "Are large crowds easier to manage in cities than in smaller towns?",
+        "focus": "karşılaştırma",
+        "difficulty": "medium"
+      },
+      {
+        "number": 3,
+        "prompt": "What could be done to spread visitors more evenly through the year?",
+        "focus": "görüş / öneri",
+        "difficulty": "hard"
+      }
     ],
-    "useful_language": ["at peak times", "a steady stream of visitors", "stagger the opening hours"]
+    "useful_language": [
+      "at peak times",
+      "a steady stream of visitors",
+      "stagger the opening hours"
+    ]
   }
 }

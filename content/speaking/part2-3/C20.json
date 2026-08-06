@@ -1,5 +1,6 @@
 {
   "schema_version": "1.0",
+  "exam": "ielts",
   "set_id": "C20",
   "skill": "speaking",
   "card_type": "yer",
@@ -15,22 +16,46 @@
     ],
     "closing": "and explain why you prefer to be outdoors in this place.",
     "preparation_seconds": 60,
-    "speaking_seconds": [90, 120],
+    "speaking_seconds": [
+      90,
+      120
+    ],
     "follow_up": [
       "Is the place busier at certain times of year?",
       "Who do you usually go there with?"
     ],
-    "useful_language": ["a breath of fresh air", "get away from the noise", "in the open air", "somewhere to stretch your legs"]
+    "useful_language": [
+      "a breath of fresh air",
+      "get away from the noise",
+      "in the open air",
+      "somewhere to stretch your legs"
+    ]
   },
   "part3": {
     "items": [
-      { "number": 1, "prompt": "Why is it important for towns to have free open spaces?",
-        "focus": "genel açıklama", "difficulty": "medium" },
-      { "number": 2, "prompt": "Do children and adults use outdoor spaces in different ways?",
-        "focus": "karşılaştırma", "difficulty": "medium" },
-      { "number": 3, "prompt": "Will people spend more time outdoors or less in the coming years?",
-        "focus": "gelecek / görüş", "difficulty": "hard" }
+      {
+        "number": 1,
+        "prompt": "Why is it important for towns to have free open spaces?",
+        "focus": "genel açıklama",
+        "difficulty": "medium"
+      },
+      {
+        "number": 2,
+        "prompt": "Do children and adults use outdoor spaces in different ways?",
+        "focus": "karşılaştırma",
+        "difficulty": "medium"
+      },
+      {
+        "number": 3,
+        "prompt": "Will people spend more time outdoors or less in the coming years?",
+        "focus": "gelecek / görüş",
+        "difficulty": "hard"
+      }
     ],
-    "useful_language": ["green space", "within walking distance", "there is a growing awareness of"]
+    "useful_language": [
+      "green space",
+      "within walking distance",
+      "there is a growing awareness of"
+    ]
   }
 }
