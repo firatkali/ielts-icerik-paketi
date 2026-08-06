@@ -73,6 +73,12 @@ _KONTROL_ISLERI = [
               "paketlerini dogrula."),
 ]
 
+_DENETIM_ISLERI = [
+    "envanter uyusmasi - denetim/envanter.md dosyasini uret.",
+    "capraz kontrol ozeti - denetim/capraz-ozet.md dosyasini uret.",
+    "denetim raporu - denetim/DENETIM-RAPORU.md dosyasini uret.",
+]
+
 # (ekranda gorunen ad, model, prompt dosyasi, ek talimat, grup adi)
 ADIMLAR = (
     _yay("Kurulum", "sonnet", "00-KURULUM.md", 1)
@@ -142,6 +148,9 @@ ADIMLAR = (
     + _yay("Ornek cevaplar - konusma", "opus",
            "OPUS5-C1-ornek-cevaplar.md", 4,
            ek="Konusma kartlari icin calistirma.")
+    + [("Denetim (%d/3)" % (i + 1), "fable", "FABLE5-D1-denetim.md",
+        "Bu %d. calistirma: %s" % (i + 1, is_), "Denetim")
+       for i, is_ in enumerate(_DENETIM_ISLERI)]
 )
 
 # Her isin NE ISE YARADIGI - durum ekraninda grup satirinin altina yazilir.
@@ -213,6 +222,10 @@ GRUP_ACIKLAMA = {
         "Kullanici 'bir ust puan boyle yaziyormus' diye bunlari gorecek.",
     "Ornek cevaplar - konusma":
         "Ayni sey konusma kartlari icin - uc seviyede tam ornek konusma.",
+    "Denetim":
+        "Butun isler bitince bagimsiz bir gozle son bakis: sayilar hedefle "
+        "uyusuyor mu, kontroller nerede sorun buldu, olcum raporlari ne diyor. "
+        "Sadece rapor yazar - hicbir soruyu silmez, karari proje sahibi verir.",
 }
 
 
