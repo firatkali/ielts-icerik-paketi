@@ -6537,3 +6537,40 @@ hiç kullanılmadı, kalan on soruda birer kez. Çeldirici türü çeşitliliği
   acikca istendigi icin, daha once tek satirda yazilmis bazi diziler/nesneler
   (`"answer": ["cable"]` gibi) coklu satira genisledi — bu, icerikte degisiklik degil,
   bicimlendirme farki (git diff'te satir sayisi fazla gorunmesinin sebebi budur).
+
+## OPUS5-A1 2/4 — Academic Task 2 yazma ornekleri metne dokuldu (sayfa 18-26)
+
+- Tarih: 2026-08-06. Belge: `referans/ielts-academic-writing-sample-tasks-2023.pdf`,
+  sayfa 18-26. **5 ornek** dokuldu, hepsi Academic **Task 2**:
+  `AC-T2-2A-A` (band 4,0 - 179 kelime), `AC-T2-2A-B` (6,5 - 421),
+  `AC-T2-2A-C` (8,5 - 272), `AC-T2-2B-A` (5,5 - 228), `AC-T2-2B-B` (7,5 - 375).
+  Band dagilimi: 4 / 5,5 / 6,5 / 7,5 / 8,5 — her yarim band bir kez, 4 ile 8,5 arasi.
+  Dosyalar `kalibrasyon/ornekler/yazma/` altinda (gitignore'da, depoya girmiyor).
+- **Tuzak kontrolu gecildi, supheli isaretlenen yok.** Band 6 ve altindaki iki cevapta
+  (4,0 ve 5,5) hata yogunlugu cok yuksek: 2A-A'da ~25, 2B-A'da ~19 belirgin hata.
+  Tablo ve ornek hatalar `kalibrasyon/ornekler/yazma/KONTROL.md` dosyasinda.
+- **Yontem:** metin katmani (`referans/text/*.txt`) gomulu font yuzunden kaydirilmis ve
+  rakamlari dusuruyor — **band puanlari metin katmaninda yok**, hepsi sayfa goruntusunden
+  okundu. El yazisi `tools/_a1_bant.py` (bu oturumda yazildi) ile sayfa basina 3-8 yatay
+  banda bolunup 350-500 dpi'da okundu; suphede kalan tek kelimeler `tools/_a1_kirp.py` ile
+  900 dpi'a buyutuldu. Kelime sayilari goz karari degil, `tools/_a1_kelime_say.py` ile
+  bosluga gore sayildi.
+- **Dokum kararlari:** ustu cizilmis kisimlar dokulmedi, `transcription_notes`'a yazildi
+  (2A-B'de 'Just to put' ile 'food' arasinda tamamen karalanmis okunamayan bir kelime,
+  2B-A'da 'To sum up I think' sonrasinda karalanmis 2-3 kelimelik blok var). Caretle satir
+  ustune eklenen kelimeler metne yerlestirildi ('economic & social', 'few', 'exotic',
+  'or live', 'of', 'a', 'and'). Satir sonu tiresi ('fu-nction') birlestirildi.
+  2B-B'de adayin yazdigi baslik ("'Tourism' - friend or foe?") dokume dahil edildi.
+- **El yazisi tuzagi:** 2A-B'nin el yazisinda kelime sonundaki 's' cogu zaman 'c' gibi
+  cikiyor (familiec / comec / Thic). Bunlar 's' okundu; ama kelime **basindaki** 'c'
+  harflerine dokunulmadi, boylece gercek yazim hatasi olan 'cense' (sense) korundu.
+- 🔴 **Bir eksik tespit edildi: 1. calistirmanin ciktisi bu makinede yok.** DURUM.txt
+  1. calistirmayi bitmis gosteriyor ve `dogrulama/` klasorunde sayfa 9-17'nin kirpilmis
+  PNG'leri ile `tools/_a1_*.py` betikleri duruyor, yani is yapilmis; ama
+  `kalibrasyon/ornekler/` klasoru hic yoktu — Academic **Task 1**'in 7 ornegine ait JSON
+  dosyalari diskte yok. Klasor gitignore'da oldugu icin depodan da geri alinamiyor.
+  **Yapilacak is: A1'in 1. calistirmasi (sayfa 9-17, 7 ornek) yeniden yapilmali;**
+  aksi halde puanlama olcumu (SONNET5-A3) yalnizca Task 2 ornekleriyle calisir.
+  Bu calistirmada, kullanicinin talimati geregi ("uretilmemis ilk grubu yap, var olani
+  tekrar uretme") depo kaydina uyulup 2. grup yapildi.
+- Atlanan/sorun: yok. Siradaki: 3. calistirma (General Training, sayfa 8-24, 11 ornek).
