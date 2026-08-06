@@ -29,7 +29,21 @@ def main():
 
     for p in ortak.soru_dosyalari():
         d = ortak.oku(p)
-        its = ortak.sorular(d)
+
+        if d.get("skill") == "speaking" and d.get("part") != 1:
+            # part2-3 kartlari: ust seviyede 'items' yok, part2 (1 birim) + part3.items
+            p3_items = (d.get("part3") or {}).get("items") or []
+            count = 1 + len(p3_items)
+            flagged = sum(1 for i in p3_items if i.get("status") == "flagged")
+        elif d.get("skill") == "writing":
+            # yazma birimleri tek gorevlik dosyalardir, soru listesi yok
+            count = 1
+            flagged = 0
+        else:
+            its = ortak.sorular(d)
+            count = sum(2 if i.get("select_count") == 2 else 1 for i in its)
+            flagged = sum(1 for i in its if i.get("status") == "flagged")
+
         kayit.append({
             "path": p, "kind": "question_set", "set_id": d.get("set_id"),
             "skill": d.get("skill"), "module": d.get("module"),
@@ -38,8 +52,8 @@ def main():
             "question_type": d.get("question_type"),
             "generated_by": d.get("generated_by"),
             "passage_id": d.get("passage_id"), "script_id": d.get("script_id"),
-            "count": sum(2 if i.get("select_count") == 2 else 1 for i in its),
-            "flagged": sum(1 for i in its if i.get("status") == "flagged"),
+            "count": count,
+            "flagged": flagged,
         })
 
     for p in ortak.bul("passages/**/*.json"):

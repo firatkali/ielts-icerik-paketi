@@ -41,8 +41,7 @@
           "distractor_used": "six",
           "explanation": "Danışman teklifte altı alan yazdığını hatırlatıyor; öğrenci köprünün kapalı olması yüzünden beş alanda çalışabildiklerini söylüyor.",
           "difficulty": "easy",
-          "status": "flagged",
-          "flag_reason": "Bicim farki: capraz dogrulamada '5' yazildi, anahtarda 'five'. Icerik ayni (alti yerine bes noktada veri toplandi); rakam bicimi kabul edilen varyant olarak eklenmeli."
+          "status": "verified"
         },
         {
           "number": 2,
@@ -98,8 +97,7 @@
           "distractor_used": null,
           "explanation": "Danışman teslim biçimini anlatırken raporun tek bir dosya olarak gönderilmesi gerektiğini belirtiyor.",
           "difficulty": "easy",
-          "status": "flagged",
-          "flag_reason": "Capraz dogrulamada 'file' yazildi, anahtarda 'single file'. Cumlede 'as one (4)' dendigi icin 'one single file' gereksiz tekrar olur; iki kelime siniri ikisine de izin veriyor."
+          "status": "verified"
         }
       ]
     },

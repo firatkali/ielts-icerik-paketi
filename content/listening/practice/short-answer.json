@@ -41,8 +41,7 @@
           "distractor_used": null,
           "explanation": "Konuşmacı zirveden sonra parsel sayısının elli yıl boyunca sürekli gerilediğini söylüyor; sorulan şey zirve yılı değil, düşüşün süresi.",
           "difficulty": "medium",
-          "status": "flagged",
-          "flag_reason": "Bicim farki: '50 years' / 'fifty years'. Icerik ayni (zirveden sonra elli yil dustu)."
+          "status": "verified"
         },
         {
           "number": 2,
@@ -160,7 +159,8 @@
             "water table"
           ],
           "accepted_variants": [
-            "water table"
+            "water table",
+            "the water table"
           ],
           "evidence": "it is only ever as good as the water table beneath it",
           "answer_point_id": "L2-S4-13",
@@ -168,8 +168,7 @@
           "distractor_used": null,
           "explanation": "Tünel ne kadar iyi kazılmış olursa olsun altındaki yeraltı su seviyesine bağlı; modern bir sondaj o seviyeyi düşürdüğünde sekiz yüz yıllık kanal bir mevsimde kuruyor.",
           "difficulty": "hard",
-          "status": "flagged",
-          "flag_reason": "Yalnizca belirteclik farki: 'the water table' / 'water table'. Icerik ayni."
+          "status": "verified"
         },
         {
           "number": 8,
@@ -246,7 +245,8 @@
             "line of sight"
           ],
           "accepted_variants": [
-            "line of sight"
+            "line of sight",
+            "the line of sight"
           ],
           "evidence": "a barrier works by breaking the line of sight between the source and the ear",
           "answer_point_id": "L4-S4-22",
@@ -254,8 +254,7 @@
           "distractor_used": null,
           "explanation": "Perde duvar, kaynakla kulak arasındaki görüş hattını kesince işe yarıyor; tekerlekler görünüyorsa duvar çalışmıyor demektir.",
           "difficulty": "medium",
-          "status": "flagged",
-          "flag_reason": "Yalnizca belirteclik farki: 'the line of sight' / 'line of sight'. Icerik ayni."
+          "status": "verified"
         },
         {
           "number": 12,

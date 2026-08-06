@@ -51,8 +51,7 @@
       "distractor_used": "30 plants",
       "explanation": "Eski el kitaplarında otuz bitki geçiyor ama sonraki modellemeler çalışma alt sınırını elli bitkiye çıkarmış.",
       "difficulty": "medium",
-      "status": "flagged",
-      "flag_reason": "Bicim farki: '50' / 'fifty'. Icerik ayni (otuz bitki eski kilavuzlarda)."
+      "status": "verified"
     },
     {
       "number": 33,
@@ -124,8 +123,7 @@
       "distractor_used": "five years",
       "explanation": "Yeniden test aralığı eskiden beş yıldı; test her seferinde iki yüz tohum harcadığı için çoğu banka artık on yılda bir test yapıyor.",
       "difficulty": "hard",
-      "status": "flagged",
-      "flag_reason": "Bicim farki: '10' / 'ten'. Icerik ayni (bes yil eski uygulama)."
+      "status": "verified"
     }
   ]
 }

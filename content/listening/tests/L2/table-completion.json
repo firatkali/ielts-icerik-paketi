@@ -160,8 +160,7 @@
       "distractor_used": "third",
       "explanation": "Müşterinin aklında ayın üçü, cumartesi vardı; görevli bir gün öncesini, yani cuma ikisini öneriyor ve müşteri kabul ediyor.",
       "difficulty": "medium",
-      "status": "flagged",
-      "flag_reason": "Bicim farki: '2nd' / 'second'. Icerik ayni (3 Ekim Cumartesi degil, 2 Ekim Cuma)."
+      "status": "verified"
     },
     {
       "number": 6,
@@ -185,8 +184,7 @@
       "distractor_used": "10.30",
       "explanation": "Görevli önce salı 10.30'u söylüyor, sonra o saatin dolduğunu fark ediyor; keşif ziyareti salı saat 11'e alınıyor.",
       "difficulty": "medium",
-      "status": "flagged",
-      "flag_reason": "Bicim farki: '11' / '11.00'. Icerik ayni (10.30 doldu, bir sonraki slot Sali saat 11)."
+      "status": "verified"
     },
     {
       "number": 7,
@@ -241,8 +239,7 @@
       "distractor_used": "five",
       "explanation": "Bu büyüklükte bir iş normalde beş saat sürüyor; asansörsüz ikinci kat yüzünden süre altı saate çıkıyor.",
       "difficulty": "medium",
-      "status": "flagged",
-      "flag_reason": "Bicim farki: '6' / 'six'. Icerik ayni (bes saat degil, merdiven yuzunden alti saat)."
+      "status": "verified"
     },
     {
       "number": 10,

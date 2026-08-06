@@ -112,7 +112,8 @@
       ],
       "accepted_variants": [
         "07793441806",
-        "07793 441806"
+        "07793 441806",
+        "07793 441 806"
       ],
       "evidence": "Oh seven nine three, double four one, eight oh six.",
       "answer_point_id": "L4-S1-11",
@@ -120,8 +121,7 @@
       "distractor_used": null,
       "explanation": "Numara gruplar hâlinde söyleniyor; 'double four' iki tane dört demektir, yani 07793 441806.",
       "difficulty": "medium",
-      "status": "flagged",
-      "flag_reason": "Bosluk farki: '07793 441 806' / '07793441806'. Rakamlar ayni; telefon numarasi bosluklu ve bosluksuz iki bicimde de kabul edilmeli."
+      "status": "verified"
     },
     {
       "number": 7,

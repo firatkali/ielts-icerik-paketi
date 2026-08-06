@@ -17,10 +17,17 @@
     {
       "number": 36,
       "prompt": "Such a change is very rare, since it happens only where tissue is made hot enough, fast enough, for ordinary (36) ........ never to begin, and is then chilled again before it burns away.",
-      "answer": ["decomposition"],
-      "accepted_variants": ["decomposition"],
+      "answer": [
+        "decomposition"
+      ],
+      "accepted_variants": [
+        "decomposition"
+      ],
       "evidence": "Vitrification of this kind is exceptionally rare in the natural world because it demands a very particular sequence of events: organic material must be heated fast enough and to a high enough temperature to prevent normal decomposition, and then cooled again almost as quickly, before it has time to burn away entirely.",
-      "evidence_locator": { "paragraph": "C", "sentence": 2 },
+      "evidence_locator": {
+        "paragraph": "C",
+        "sentence": 2
+      },
       "explanation": "Paragraf C, camlaşmanın gerçekleşmesi için dokunun normal çürümeyi (decomposition) engelleyecek kadar hızlı ve yüksek sıcaklıkta ısıtılması gerektiğini söylüyor; bu yüzden cevap 'decomposition'.",
       "difficulty": "medium",
       "status": "verified"
@@ -28,10 +35,18 @@
     {
       "number": 37,
       "prompt": "... and a check against (37) ........ of brain proteins independently confirmed where the tissue came from.",
-      "answer": ["reference databases"],
-      "accepted_variants": ["reference databases", "reference database"],
+      "answer": [
+        "reference databases"
+      ],
+      "accepted_variants": [
+        "reference databases",
+        "reference database"
+      ],
       "evidence": "Finally, comparison against reference databases of proteins expressed in the human brain provided independent confirmation of the tissue's origin.",
-      "evidence_locator": { "paragraph": "D", "sentence": 4 },
+      "evidence_locator": {
+        "paragraph": "D",
+        "sentence": 4
+      },
       "explanation": "Paragraf D, dokunun kökeninin bağımsız olarak doğrulanmasını insan beyninde üretilen proteinlerin referans veri tabanlarıyla karşılaştırmaya bağlıyor; bu yüzden cevap 'reference databases'.",
       "difficulty": "hard",
       "status": "verified"
@@ -39,10 +54,18 @@
     {
       "number": 38,
       "prompt": "Nerve fibres were close in width to those of a living brain, their coverings kept a layered form, and even the (38) ........ , the minute rods that support a cell from within, could still be measured at roughly 23 nanometres.",
-      "answer": ["microtubules"],
-      "accepted_variants": ["microtubules", "microtubule"],
+      "answer": [
+        "microtubules"
+      ],
+      "accepted_variants": [
+        "microtubules",
+        "microtubule"
+      ],
       "evidence": "Even microtubules, the tiny internal scaffolding of individual cells, were still visible, measuring around 23 nanometres in diameter.",
-      "evidence_locator": { "paragraph": "E", "sentence": 4 },
+      "evidence_locator": {
+        "paragraph": "E",
+        "sentence": 4
+      },
       "explanation": "Paragraf E, hücrenin içindeki minik iskeleti oluşturan mikrotüplerin bile yaklaşık 23 nanometre çapla görülebildiğini söylüyor; bu yüzden cevap 'microtubules'.",
       "difficulty": "easy",
       "status": "verified"
@@ -50,22 +73,37 @@
     {
       "number": 39,
       "prompt": "Chemistry pointed the same way: (39) ........ proteins that occur only in brain tissue were identified, one of them needed for signals to pass between nerve cells.",
-      "answer": ["seven"],
-      "accepted_variants": ["seven", "7"],
+      "answer": [
+        "seven"
+      ],
+      "accepted_variants": [
+        "seven",
+        "7",
+        "seven distinct"
+      ],
       "evidence": "The team detected seven distinct proteins known to be expressed specifically in brain tissue, including one involved in stabilising the internal skeleton of nerve cells and another essential for communication between neurons.",
-      "evidence_locator": { "paragraph": "F", "sentence": 2 },
+      "evidence_locator": {
+        "paragraph": "F",
+        "sentence": 2
+      },
       "explanation": "Paragraf F, yalnızca beyin dokusunda üretildiği bilinen yedi ayrı protein saptandığını söylüyor; bu yüzden cevap 'seven'.",
       "difficulty": "easy",
-      "status": "flagged",
-      "flag_reason": "Capraz dogrulamada 'seven distinct' cevaplandi; anahtar 'seven' (accepted_variants: 'seven', '7'). Metinde ifade 'seven distinct proteins' seklinde geciyor ve sinir IKI KELIME oldugu icin adayin 'seven distinct' yazmasi yonergeye uygun. accepted_variants listesine 'seven distinct' eklenmeli."
+      "status": "verified"
     },
     {
       "number": 40,
       "prompt": "The authors conclude that only a very narrow band of (40) ........ — heat applied in an instant, then cooling almost at once — could have left the tissue both scorched and structurally intact.",
-      "answer": ["thermal conditions"],
-      "accepted_variants": ["thermal conditions"],
+      "answer": [
+        "thermal conditions"
+      ],
+      "accepted_variants": [
+        "thermal conditions"
+      ],
       "evidence": "Researchers argue that only an extremely narrow set of thermal conditions, rapid heating followed by almost immediate cooling, could have produced this particular combination of extreme temperature exposure and structural preservation, since either slower heating or slower cooling would most likely have destroyed the tissue rather than turning it to glass.",
-      "evidence_locator": { "paragraph": "G", "sentence": 2 },
+      "evidence_locator": {
+        "paragraph": "G",
+        "sentence": 2
+      },
       "explanation": "Paragraf G, hem aşırı sıcaklığa maruz kalmayı hem de yapının korunmasını ancak çok dar bir ısıl koşullar aralığının açıklayabileceğini söylüyor; bu yüzden cevap 'thermal conditions'.",
       "difficulty": "medium",
       "status": "verified"
