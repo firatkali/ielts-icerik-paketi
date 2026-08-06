@@ -34,7 +34,8 @@
         "sentence": 1
       },
       "explanation": "D metni, genel atığın her pazartesi Block C'nin arkasındaki çöp kutularından alındığını söylüyor; bu yüzden 1 numaralı bloğun adı 'Block C'.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     },
     {
       "number": 2,
@@ -52,7 +53,8 @@
         "sentence": 2
       },
       "explanation": "D metnine göre geri dönüşümün kesin tarihleri giriş holündeki renk kodlu takvimde yazıyor; bu nedenle cevap 'entrance hall'.",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "status": "verified"
     },
     {
       "number": 3,
@@ -70,7 +72,8 @@
         "sentence": 4
       },
       "explanation": "D metni, mobilya gibi büyük eşyalar için ayrı toplamanın en az beş iş günü önce site ofisinden ayarlanması gerektiğini söylüyor; cevap 'estate office'.",
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "status": "verified"
     },
     {
       "number": 4,
@@ -88,7 +91,8 @@
         "sentence": 1
       },
       "explanation": "A metni, bisikletlerin kasaba genelindeki on iki yerleştirme istasyonundan kiralandığını söylüyor; cevap 'docking stations'.",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "status": "verified"
     },
     {
       "number": 5,
@@ -106,7 +110,8 @@
         "sentence": 3
       },
       "explanation": "A metnine göre kask verilmiyor, güvenlik ekipmanı sürücünün kendi sorumluluğunda; bu yüzden 5 numaranın cevabı 'helmets'.",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "status": "verified"
     },
     {
       "number": 6,
@@ -125,7 +130,8 @@
         "sentence": 1
       },
       "explanation": "A metninin ilk paragrafı 8.00-16.00 arasını 'core hours' diye adlandırıyor; şemadaki bandın adı bu.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     },
     {
       "number": 7,
@@ -144,7 +150,8 @@
         "sentence": 2
       },
       "explanation": "Metin 6.00'da başlayıp 14.00'te biten vardiyayı 'early shift' diye anıyor; boşluğa yalnızca 'early' giriyor.",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "status": "verified"
     },
     {
       "number": 8,
@@ -164,7 +171,8 @@
         "sentence": 4
       },
       "explanation": "A metnindeki mola listesi, sekiz saatten uzun vardiyalar için fazladan 15 dakikalık bir mola tanıyor; cevap '15-minute'.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     },
     {
       "number": 9,
@@ -184,7 +192,8 @@
         "sentence": 2
       },
       "explanation": "B metnindeki uzaktan çalışma listesi, çalışanın en az 10 Mbps hızında kendi bağlantısını sağlamasını istiyor; cevap '10 Mbps'.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     },
     {
       "number": 10,
@@ -203,7 +212,8 @@
         "sentence": 4
       },
       "explanation": "B metni, uzaktan çalışanların çekirdek saatlerde anlık mesajlaşma üzerinden ulaşılabilir olmasını şart koşuyor; cevap 'instant messaging'.",
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "status": "verified"
     }
   ]
 }

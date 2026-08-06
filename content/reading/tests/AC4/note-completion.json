@@ -22,7 +22,8 @@
       "evidence": "Open-plan arrangements have nonetheless become the default choice for many growing companies, partly because they are cheaper to build and easier to reconfigure than offices divided into permanent rooms.",
       "evidence_locator": { "paragraph": "A", "sentence": 3 },
       "explanation": "Paragraf A, açık ofislerin yaygınlaşmasını hem ucuz olmalarına hem de kalıcı duvarlarla bölünmüş ofislere göre daha kolay yeniden düzenlenebilmelerine bağlıyor; bu yüzden cevap 'reconfigure'.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     },
     {
       "number": 2,
@@ -32,7 +33,8 @@
       "evidence": "Using a Latin square design, in which every team eventually experienced every condition but in a different order, the teams rotated through four distinct office layouts, each for a two-week period: a conventional open-plan office with minimal separation between desks, acting as the baseline; a zoned open-plan design with soundproof doors dividing spaces into rooms holding no more than 40 people; an activity-based design offering unassigned desks alongside dedicated focus rooms and collaboration areas; and a team-office design with large, partly enclosed cubicles seating four to six people behind sound-absorbing panels.",
       "evidence_locator": { "paragraph": "B", "sentence": 2 },
       "explanation": "Paragraf B, bölgelendirilmiş açık ofisin ses geçirmez kapılarla en fazla 40 kişilik odalara ayrıldığını söylüyor; kapının niteliği sorulduğu için cevap 'soundproof'.",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "status": "verified"
     },
     {
       "number": 3,
@@ -42,7 +44,8 @@
       "evidence": "Using a Latin square design, in which every team eventually experienced every condition but in a different order, the teams rotated through four distinct office layouts, each for a two-week period: a conventional open-plan office with minimal separation between desks, acting as the baseline; a zoned open-plan design with soundproof doors dividing spaces into rooms holding no more than 40 people; an activity-based design offering unassigned desks alongside dedicated focus rooms and collaboration areas; and a team-office design with large, partly enclosed cubicles seating four to six people behind sound-absorbing panels.",
       "evidence_locator": { "paragraph": "B", "sentence": 2 },
       "explanation": "Paragraf B, takım ofisinde dört ile altı kişilik yarı kapalı bölmelerin ses emici panellerle çevrildiğini söylüyor; 2. sorudaki 'soundproof' kapılardan farklı olarak burada istenen panel niteliği 'sound-absorbing'.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     },
     {
       "number": 4,
@@ -52,7 +55,8 @@
       "evidence": "As an independent, behavioural proxy for technical output, the researchers also tracked the number of software code commits each team produced, and observers recorded how people actually used the different spaces, noting details such as how often employees wore headphones, retreated to quiet corners, or held impromptu conversations at their desks.",
       "evidence_locator": { "paragraph": "C", "sentence": 4 },
       "explanation": "Paragraf C, gözlemcilerin çalışanların ne sıklıkla kulaklık taktığını not ettiğini söylüyor; bu yüzden cevap 'headphones'.",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "status": "verified"
     },
     {
       "number": 5,
@@ -62,7 +66,8 @@
       "evidence": "Employees appeared to respond to this with their feet as well as their opinions: once a team's exposure to the open-plan condition ended, desk occupancy in whichever design followed it rose by about 4 per cent, a change the researchers interpreted as a behavioural preference for the newer arrangement rather than simply a novelty effect.",
       "evidence_locator": { "paragraph": "F", "sentence": 3 },
       "explanation": "Paragraf F, açık ofisten çıkıldıktan sonra masa doluluğundaki yaklaşık yüzde 4'lük artışın sırf 'yenilik etkisi' değil gerçek bir tercih olarak yorumlandığını söylüyor; bu yüzden cevap 'novelty'.",
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "status": "verified"
     },
     {
       "number": 6,
@@ -72,7 +77,8 @@
       "evidence": "They caution, though, that the findings come from a single technology company with its own particular culture and workflows, and that organisations considering a similar redesign would do well to test alternatives with their own staff rather than assume the same ranking will hold everywhere.",
       "evidence_locator": { "paragraph": "H", "sentence": 2 },
       "explanation": "Paragraf H, bulguların kendine özgü bir kültürü ve iş akışları olan tek bir teknoloji şirketinden geldiği uyarısını yapıyor; 'culture' zaten verildiği için boşluğa gelen 'workflows'.",
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "status": "verified"
     }
   ]
 }

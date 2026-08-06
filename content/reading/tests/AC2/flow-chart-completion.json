@@ -22,7 +22,8 @@
       "evidence": "On 2 February 2025, Webb's Near-Infrared Camera captured a series of ten long-exposure images, each lasting forty minutes, over a period of roughly six hours, tracking a faint point of light moving against the background of stars in a pattern consistent with an object orbiting Uranus itself.",
       "evidence_locator": { "paragraph": "B", "sentence": 2 },
       "explanation": "Paragraf B, on ayrı görüntünün her birinin kırk dakika sürdüğünü söylüyor; boşluk tek bir pozlamanın süresini istediği için cevap 'forty minutes'. Altı saat, on pozlamanın tamamının yayıldığı süredir.",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "status": "verified"
     },
     {
       "number": 2,
@@ -32,7 +33,8 @@
       "evidence": "The newly found body has been given the provisional designation S/2025 U1.",
       "evidence_locator": { "paragraph": "C", "sentence": 1 },
       "explanation": "Paragraf C, yeni bulunan gök cismine S/2025 U1 'provisional designation'ının (geçici adlandırma kodunun) verildiğini söylüyor; bu yüzden cevap 'designation'.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     },
     {
       "number": 3,
@@ -42,7 +44,8 @@
       "evidence": "Because it has not been imaged in enough detail to measure directly, its size has to be estimated: assuming it reflects light in a similar way to Uranus's other small moons, astronomers calculate a diameter of about six miles, or ten kilometres, making it one of the smallest moons known anywhere in the solar system.",
       "evidence_locator": { "paragraph": "C", "sentence": 2 },
       "explanation": "Paragraf C'de çap hesabının, cismin ışığı diğer küçük uydular gibi yansıttığı varsayımına dayandığı belirtiliyor; boşluk bu varsayımdaki fiili istediği için cevap 'reflects'.",
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "status": "verified"
     },
     {
       "number": 4,
@@ -52,7 +55,8 @@
       "evidence": "Its orbit lies roughly 35,000 miles, or 56,000 kilometres, from the centre of Uranus, in the gap between two previously known moons, Ophelia and Bianca.",
       "evidence_locator": { "paragraph": "D", "sentence": 1 },
       "explanation": "Paragraf D, yörüngenin daha önce bilinen iki uydu olan Ophelia ile Bianca arasındaki boşlukta yer aldığını söylüyor; Bianca soruda verildiği için cevap 'Ophelia'.",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "status": "verified"
     },
     {
       "number": 5,
@@ -62,7 +66,8 @@
       "evidence": "With this addition, Uranus's known moon count rises to twenty-nine, and the new object becomes the fourteenth member of its group of small inner moons, a crowd that orbits far closer to the planet than its five largest and best-known satellites, Miranda, Ariel, Umbriel, Titania and Oberon.",
       "evidence_locator": { "paragraph": "E", "sentence": 1 },
       "explanation": "Paragraf E, yeni cismin küçük iç uydular grubunun on dördüncü üyesi olduğunu söylüyor; yirmi dokuz sayısı ise Uranüs'ün bilinen bütün uydularının toplamıdır, bu yüzden cevap 'fourteenth'.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     },
     {
       "number": 6,
@@ -72,7 +77,8 @@
       "evidence": "Following long tradition, Uranus's moons are named not after figures from classical mythology, as is usual elsewhere in the solar system, but after characters drawn from the plays of Shakespeare and the poetry of Alexander Pope; the newcomer's eventual name will still need formal approval from the International Astronomical Union.",
       "evidence_locator": { "paragraph": "E", "sentence": 2 },
       "explanation": "Paragraf E, uydunun kalıcı adının Uluslararası Astronomi Birliği'nin resmî onayını gerektirdiğini belirtiyor; bu yüzden cevap 'International Astronomical Union'.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     }
   ]
 }

@@ -22,7 +22,8 @@
       "evidence": "Among inedible waste, fruit and vegetable peelings, dominated by banana and mango skins, made up the largest category by far.",
       "evidence_locator": { "paragraph": "E", "sentence": 3 },
       "explanation": "Paragraf E, yenmeyen atık içinde en büyük payı muz ve mango kabuklarının başı çektiği meyve sebze kabuklarının aldığını söylüyor; bu yüzden cevap 'peelings'.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     },
     {
       "number": 38,
@@ -32,7 +33,8 @@
       "evidence": "Dairy products were frequently forgotten at the back of the refrigerator until they had to be discarded.",
       "evidence_locator": { "paragraph": "G", "sentence": 4 },
       "explanation": "Paragraf G, süt ürünlerinin sık sık buzdolabının arka tarafında unutulup atılmak zorunda kalındığını söylüyor; bu yüzden cevap 'refrigerator'.",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "status": "verified"
     },
     {
       "number": 39,
@@ -42,7 +44,8 @@
       "evidence": "Urban residents, by contrast, tended to favour convenience and were more prone to buying more than they needed, a pattern the researchers connect to busier schedules and greater purchasing power rather than carelessness.",
       "evidence_locator": { "paragraph": "H", "sentence": 3 },
       "explanation": "Paragraf H, kentte yaşayanların kolaylığı öne aldığını ve ihtiyaçtan fazlasını satın almaya daha yatkın olduğunu söylüyor; bu yüzden cevap 'convenience'.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     },
     {
       "number": 40,
@@ -52,7 +55,8 @@
       "evidence": "The authors argue that food waste policy in Indonesia, as in many countries, has focused on collection and disposal rather than prevention, and that meaningful reductions will depend on tackling the specific items and behaviours identified in the study, rather than treating food waste as a single undifferentiated problem.",
       "evidence_locator": { "paragraph": "I", "sentence": 1 },
       "explanation": "Paragraf I, gıda atığı politikasının bugüne dek toplama ve bertarafa odaklandığını, önlemeyi ise ihmal ettiğini söylüyor; bu yüzden cevap 'prevention'.",
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "status": "verified"
     }
   ]
 }

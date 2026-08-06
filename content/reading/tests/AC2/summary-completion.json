@@ -33,7 +33,8 @@
       "evidence": "This effectively randomised which colleagues an employee ended up working alongside, letting the researchers treat team composition almost as if it had been assigned in a controlled experiment, and so identify cause and effect rather than mere correlation.",
       "evidence_locator": { "paragraph": "C", "sentence": 2 },
       "explanation": "Paragraf C, katılış sırasına göre yapılan atamanın takım bileşimini rastgele hâle getirdiğini ve araştırmacıların bunu neredeyse kontrollü bir deney gibi ele alabildiğini söylüyor; bu yüzden doğru seçenek A ('a controlled experiment').",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     },
     {
       "number": 37,
@@ -43,7 +44,8 @@
       "evidence": "Because the company standardises working hours and each client contract allocates a fixed thirty hours of monthly support, the number of clients handled is a dependable stand-in for how much useful work an individual completed, avoiding the ambiguity that self-reported effort or hours worked can introduce into workplace research.",
       "evidence_locator": { "paragraph": "D", "sentence": 2 },
       "explanation": "Paragraf D, sabit çalışma saatleri ve her sözleşmedeki sabit otuz saat sayesinde müşteri sayısının yapılan işin 'güvenilir' bir ölçüsü olduğunu söylüyor; bu yüzden doğru seçenek C. D seçeneği ('a rough guide') yanlış, çünkü metin bu ölçünün belirsizlikten kaçındığını vurguluyor.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     },
     {
       "number": 38,
@@ -53,7 +55,8 @@
       "evidence": "Working alongside colleagues who were themselves highly productive produced no measurable improvement in an individual's own output, even for employees placed in teams whose average productivity ranked in the top quarter of the company.",
       "evidence_locator": { "paragraph": "E", "sentence": 2 },
       "explanation": "Paragraf E, verimliliği yüksek meslektaşlarla çalışmanın kişinin kendi çıktısında ölçülebilir hiçbir iyileşme sağlamadığını, en üst çeyrekteki takımlarda bile böyle olduğunu söylüyor; bu yüzden doğru seçenek I.",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "status": "verified"
     },
     {
       "number": 39,
@@ -63,7 +66,8 @@
       "evidence": "Employees placed in teams with the most experienced average tenure, the top twenty-five per cent of teams by this measure, saw their own productivity rise by roughly 12.2 per cent.",
       "evidence_locator": { "paragraph": "F", "sentence": 2 },
       "explanation": "Paragraf F, belirleyici etkenin ham verimlilik değil takımın ortalama kıdemi olduğunu, kıdemi en yüksek takımlardaki çalışanların çıktısının yaklaşık yüzde 12,2 arttığını söylüyor; kıdem = hizmet süresi olduğu için doğru seçenek H.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     },
     {
       "number": 40,
@@ -73,7 +77,8 @@
       "evidence": "In fact, teams with the highest average tenure communicated internally less than other teams, a statistically significant difference, and experienced or already highly productive employees tended to perform best in exactly these lower-communication settings, suggesting that frequent messaging may sometimes distract rather than assist workers who already know what they are doing.",
       "evidence_locator": { "paragraph": "G", "sentence": 2 },
       "explanation": "Paragraf G, sık mesajlaşmanın işini zaten bilen çalışanlara yardım etmek yerine onları oyalayabileceğini söylüyor; bu yüzden doğru seçenek B ('a distraction').",
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "status": "verified"
     }
   ]
 }

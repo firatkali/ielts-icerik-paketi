@@ -22,7 +22,8 @@
       "evidence": "Maug is what remains of a volcano that collapsed long ago, leaving three small islands arranged in a rough circle around a flooded caldera.",
       "evidence_locator": { "paragraph": "B", "sentence": 2 },
       "explanation": "Paragraf B, üç küçük adanın su altında kalmış bir kalderanın çevresinde daire biçiminde dizildiğini söylüyor; bu yüzden cevap 'caldera'.",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "status": "verified"
     },
     {
       "number": 37,
@@ -32,7 +33,8 @@
       "evidence": "The team deployed instruments to continuously record temperature, light, the partial pressure of carbon dioxide, seawater pH and water currents, while divers collected coral cores, applied dye to mark new growth, and used funnels to capture bubbles of gas escaping from the vents for laboratory analysis.",
       "evidence_locator": { "paragraph": "D", "sentence": 2 },
       "explanation": "Paragraf D'de dalgıçların yeni büyümeyi işaretlemek için boya sürdüğü belirtiliyor; boşluk bu işaretlemenin neyle yapıldığını sorduğu için cevap 'dye'.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     },
     {
       "number": 38,
@@ -42,7 +44,8 @@
       "evidence": "Immediately around the vents, weedy algae tend to dominate the seafloor, while reefs only a short distance away, in less acidified water, remain visibly healthier and more coral-dominated.",
       "evidence_locator": { "paragraph": "F", "sentence": 2 },
       "explanation": "Paragraf F, bacaların hemen çevresinde deniz tabanına yosunun hâkim olduğunu, biraz uzaktaki resiflerin ise daha sağlıklı kaldığını söylüyor; bu yüzden cevap 'weedy algae'.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     },
     {
       "number": 39,
@@ -52,7 +55,8 @@
       "evidence": "It found that in the naturally acidified water near the vents, microscopic boring organisms colonised coral skeletons more heavily, accelerating a process called bioerosion in which the skeleton is weakened and broken down from within.",
       "evidence_locator": { "paragraph": "G", "sentence": 2 },
       "explanation": "Paragraf G, iskeleti içeriden delen mikroskobik canlıların hızlandırdığı sürecin adını 'bioerosion' olarak veriyor; bu yüzden cevap 'bioerosion'.",
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "status": "verified"
     },
     {
       "number": 40,
@@ -62,7 +66,8 @@
       "evidence": "For that reason, scientists regard the island less as a curiosity than as an early warning system, showing in the present what the consequences of a warmer, more acidic ocean could look like almost everywhere else.",
       "evidence_locator": { "paragraph": "H", "sentence": 2 },
       "explanation": "Paragraf H, bilim insanlarının adayı bir merak konusundan çok erken uyarı sistemi olarak gördüğünü söylüyor; bu yüzden cevap 'warning system'.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     }
   ]
 }

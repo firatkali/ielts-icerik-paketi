@@ -22,7 +22,8 @@
       "evidence": "Employees who have completed their probationary period may apply to work remotely for up to three days per week, subject to line manager approval and the operational needs of their team.",
       "evidence_locator": { "text": "B", "paragraph": "A", "sentence": 1 },
       "explanation": "B metninin A paragrafı, yalnızca deneme süresini tamamlamış çalışanların uzaktan çalışma başvurusu yapabileceğini söylüyor; bu yüzden cevap 'probationary period'.",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "status": "verified"
     },
     {
       "number": 26,
@@ -32,7 +33,8 @@
       "evidence": "Claim reimbursement for approved home-office equipment, up to £150 per year, through the expenses system.",
       "evidence_locator": { "text": "B", "paragraph": "B", "sentence": 5 },
       "explanation": "B metninin B paragrafı, onaylanmış ev ofisi ekipmanı için yılda 150 sterline kadar geri ödeme talep edilebileceğini söylüyor; bu yüzden cevap 'home-office equipment' (tireli sözcük tek kelime sayılır).",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     },
     {
       "number": 27,
@@ -42,7 +44,8 @@
       "evidence": "Working from outside the country is not permitted without separate written approval from both HR and the relevant country office, and such approval is rarely granted for periods longer than four weeks.",
       "evidence_locator": { "text": "B", "paragraph": "D", "sentence": 2 },
       "explanation": "B metninin D paragrafı, yurt dışından çalışma izninin dört haftadan uzun süreler için nadiren verildiğini söylüyor; bu yüzden cevap 'four weeks'.",
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "status": "verified"
     }
   ]
 }

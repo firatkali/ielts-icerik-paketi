@@ -6406,3 +6406,42 @@ hiç kullanılmadı, kalan on soruda birer kez. Çeldirici türü çeşitliliği
   `dogrulama/cevap-arsiv/oturum3/` altına taşındı; karşılaştırma temiz klasörle çalıştı.
   (`tools/kor-kopya.py` hâlâ `dogrulama/cevap/` klasörünü temizlemiyor.)
 - Atlanan/sorun: yok. CAPRAZ-90'ın kalan 3 çalıştırması bekliyor (5–7, hepsi fable).
+
+## CAPRAZ-90 çapraz doğrulama — 5. çalıştırma (okuma, tamamlama tipleri)
+
+- **Paket:** okumadaki bütün tamamlama tipleri — `note-completion`, `table-completion`,
+  `flow-chart-completion`, `summary-completion`, `sentence-completion`, `short-answer`,
+  `diagram-labelling`. 23 dosya (5 alıştırma + AC1–AC4 + GT1–GT2), toplam **151 soru**.
+  **Doğrulayan model: fable, üreteni: opus.**
+- **Sonuç: 149/151 uyuştu (%98,7), işaretlenen 2.** Yedi oturumun şu ana kadarki en
+  yüksek oranı. Rapor: `content/DOGRULAMA/okuma-tamamlama-tipleri.json` ve
+  `content/DOGRULAMA/RAPOR.md`.
+- **Yöntem:** `tools/kor-kopya.py` yedi paket adıyla çağrıldı, 48 kör kopya üretti;
+  bunların 25'i dinlemeye ait (7. oturumun işi) ve hiç açılmadı. Kalan 23 okuma dosyası
+  `passages/academic/A01–A12` ve `passages/general/G01–G06` üzerinden gerçek aday gibi
+  çözüldü; orijinal soru dosyaları 4. adıma kadar açılmadı. Karşılaştırmayı
+  `tools/karsilastir.py` yaptı.
+- **İşaretleme:** `tools/_isaretle.py` (bu oturumda yazıldı) 149 soruya
+  `"status": "verified"`, 2 soruya `"status": "flagged"` + `flag_reason` ekledi. Script
+  dosyaları yeniden serileştirmiyor, `"difficulty"` satırının ardına metin düzeyinde
+  ekleme yapıyor; böylece kompakt dizi/tek satırlık nesne biçimlendirmesi bozulmuyor ve
+  diff yalnızca eklenen satırları gösteriyor. Silinen soru yok.
+- **İki işaretin ikisi de aynı türden ve ikisi de içerik hatası değil:**
+  `practice/short-answer` 5 (anahtar "8,400 years", doğrulayıcı "8,400 years old") ve
+  `AC3/summary-completion` 39 (anahtar "seven", doğrulayıcı "seven distinct"). İkisinde de
+  cevabın içeriği doğru; anlaşmazlık boşluğa kaç kelime yazılacağında. Birincisi zaten
+  `accepted_variants` içinde — karşılaştırma scripti yalnızca `answer` alanına baktığı için
+  yanlış alarm. İkincisinde varyant gerçekten eksik. **Yapılacak iş: tamamlama tiplerinde
+  sayı+isim kalıpları için `accepted_variants` bir kez taranmalı.**
+- **Kelime sınırları temiz.** 151 anahtarın hiçbiri kendi yönergesindeki sınırı aşmıyor;
+  ONE WORD ONLY setlerinde tireli bileşikler ("sound-absorbing", "15-minute", "five-point")
+  dahil hepsi tek kelime. Üretim promptundaki sınır kontrolü çalışmış.
+- **Tek belirsizlik:** alıştırma `diagram-labelling` 10 (güven 3, yine de uyuştu —
+  "instant messaging"). Şemadaki ok telefon ikonundan çıkıyor ve G04'te çekirdek saatler
+  için "reachable by phone or video call" da yazıyor; o ifade ÜÇ KELİME sınırına
+  sığmadığı için soru sınır sayesinde tek cevaba iniyor, şema sayesinde değil.
+  İşaretlenmedi; ikinci doğrulamada bakılabilir.
+- **Yöntem notu:** oturum başında `dogrulama/cevap/` içindeki 14 eski dosya (4. oturum)
+  silindi — `tools/karsilastir.py` klasördeki her dosyayı okuduğu için bu şart.
+  `tools/kor-kopya.py` bu klasörü hâlâ kendisi temizlemiyor.
+- Atlanan/sorun: yok. CAPRAZ-90'ın kalan 2 çalıştırması bekliyor (6–7, ikisi de fable).

@@ -22,7 +22,8 @@
       "evidence": "Mapping this kind of damage is unusually difficult in a glaciated landscape, because the usual method, comparing ground displacement before and after an earthquake, depends on being able to see the bedrock that has moved.",
       "evidence_locator": { "paragraph": "B", "sentence": 2 },
       "explanation": "Paragraf B, alışılmış yöntemin depremden önceki ve sonraki yer değişimini karşılaştırmak olduğunu ve bunun ana kayanın görülebilmesini gerektirdiğini söylüyor; bu yüzden cevap 'displacement'.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     },
     {
       "number": 20,
@@ -32,7 +33,8 @@
       "evidence": "Rough, broken debris scatters radar energy strongly and appears bright in the resulting images, while smooth, undisturbed ice reflects comparatively little and appears dark.",
       "evidence_locator": { "paragraph": "C", "sentence": 2 },
       "explanation": "Paragraf C, pürüzlü kırık enkazın radar dalgalarını güçlü saçtığı için görüntülerde parlak, düzgün ve bozulmamış buzun ise koyu göründüğünü söylüyor; bu yüzden cevap 'bright'.",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "status": "verified"
     },
     {
       "number": 21,
@@ -42,7 +44,8 @@
       "evidence": "Adding to the complexity, a tributary glacier flowing from the slopes near Mount King George had already entered a fast-moving surge phase in November, weeks before the earthquake struck, and was travelling downslope at up to 6,000 metres a year, roughly 50 feet every day.",
       "evidence_locator": { "paragraph": "F", "sentence": 1 },
       "explanation": "Paragraf F, Mount King George yakınındaki kollardan birinin depremden haftalar önce, kasımda hızlı bir 'surge' (ani ilerleme) evresine girdiğini söylüyor; bu yüzden cevap 'surge'.",
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "status": "verified"
     },
     {
       "number": 22,
@@ -52,7 +55,8 @@
       "evidence": "It does, however, create new hazards for mountaineers and scientific expeditions that use Yakutat as a staging point for trips into the St Elias Mountains, since previously stable slopes and crevasse fields may now be masked by loose debris or freshly exposed ice.",
       "evidence_locator": { "paragraph": "G", "sentence": 2 },
       "explanation": "Paragraf G, depremin yerleşim yerlerine zarar vermediğini ama Yakutat'tan yola çıkan dağcılar ve bilimsel keşif ekipleri için yeni tehlikeler yarattığını söylüyor; bu yüzden cevap 'mountaineers'.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     }
   ]
 }

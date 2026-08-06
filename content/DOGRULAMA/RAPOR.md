@@ -270,3 +270,60 @@ Doğrulama sırasında görülenler:
 altına taşındı. `tools/kor-kopya.py` hem okuma hem dinlemedeki `multiple-choice.json`
 dosyalarını birlikte üretiyor (21 dosya); okumaya ait 7 kör kopya, açılmadan önce
 silindi.
+
+## okuma — tamamlama tipleri (note / table / flow-chart / summary / sentence completion, short-answer, diagram-labelling) — 2026-08-06
+
+- Doğrulayan model: fable (üreteni: opus)
+- Toplam soru: 151 (23 dosya: 5 alıştırma + AC1-AC4 + GT1-GT2)
+- Uyuşan: 149 (%98,7)
+- İşaretlenen: 2
+
+Tip kırılımı:
+
+| Soru tipi | Soru | İşaretlenen |
+|---|---|---|
+| summary-completion | 43 | 1 |
+| sentence-completion | 37 | 0 |
+| note-completion | 33 | 0 |
+| table-completion | 12 | 0 |
+| diagram-labelling | 10 | 0 |
+| short-answer | 10 | 1 |
+| flow-chart-completion | 6 | 0 |
+
+### İşaretlenen sorular
+| Dosya | Soru | Orijinal | Doğrulayıcı | Güven | Kısa gerekçe |
+|---|---|---|---|---|---|
+| content/reading/practice/short-answer.json | 5 | 8,400 years | 8,400 years old | 4 | Yanlış alarm: `accepted_variants` zaten "8,400 years old" içeriyor, script yalnızca `answer` alanına bakıyor. Düzeltme gerekmiyor. |
+| content/reading/tests/AC3/summary-completion.json | 39 | seven | seven distinct | 4 | Metinde "seven **distinct** proteins" geçiyor, sınır İKİ KELİME; aday sıfatı da yazabilir. `accepted_variants` listesine "seven distinct" eklenmeli. |
+
+### Örüntü
+
+**Sistematik sorun yok — bu, yedi oturumun şu ana kadarki en yüksek uyuşma oranı
+(%98,7).** Tamamlama tipleri doğası gereği "metinden kelime kopyalama" soruları
+olduğu için yorum payı dar; buna rağmen dikkat çeken üç şey var:
+
+- **İki uyuşmazlığın ikisi de aynı türden: kelime sınırının izin verdiği ekstra
+  sıfat/isim.** İkisinde de cevabın *içeriği* doğru; anlaşmazlık yalnızca boşluğa
+  kaç kelime yazılacağında. Bu, "yanlış soru" değil, "eksik `accepted_variants`"
+  sorunudur ve tek düzeltmesi varyant listesini genişletmektir. Gerçek sınavda
+  puanlayıcı her iki cevabı da kabul eder; burada `answer` alanı dar tutulduğu için
+  otomatik puanlama adayı haksız yere yanlışa düşürür. **Öneri: tamamlama
+  tiplerinin tamamında, boşluğun hemen önündeki/ardındaki sıfat ya da ölçü biriminin
+  de yazılabileceği durumlar için `accepted_variants` bir kez taranmalı** — özellikle
+  sayı + isim kalıpları ("seven proteins", "8,400 years", "fourteen approaches").
+- **Kelime sınırları tutarlı biçimde uygulanmış.** 151 sorunun hiçbirinde anahtar
+  cevabı kendi yönergesindeki sınırı aşmıyor; ONE WORD ONLY setlerinde (AC1
+  note-completion, AC3 sentence-completion, AC4 note-completion, GT1 summary-completion)
+  cevapların hepsi gerçekten tek kelime, tireli bileşikler ("sound-absorbing",
+  "15-minute", "five-point") dahil. Üretim promptundaki sınır kontrolü çalışmış.
+- **Tek gerçek belirsizlik alıştırma diagram-labelling 10. soruda** (güven 3, yine de
+  uyuştu; cevap "instant messaging"). Şemadaki ok telefon ikonundan çıkıyor ve G04
+  metninde çekirdek saatler için "reachable by **phone or video call**" da yazıyor;
+  ama bu ifade ÜÇ KELİME sınırına sığmadığı için aday zorunlu olarak "instant
+  messaging"e yöneliyor. Yani soru **sınır sayesinde** tek cevaba iniyor, şema
+  sayesinde değil. İşaretlemeye gerek görmedim, ama şemadaki bağlantı çizgisi telefon
+  yerine dizüstü/mesajlaşma tarafından çıksaydı soru kendi başına daha temiz olurdu.
+- **Alıştırma dosyalarındaki çoklu-pasaj yapısı sorun çıkarmadı.** Beş alıştırma
+  dosyasının hepsinde her soru `passage_id` taşıyor ve boşluk numaralandırması
+  pasajlar arasında kesintisiz; 65 alıştırma sorusunun tamamı doğru pasajdan
+  çözülebildi.

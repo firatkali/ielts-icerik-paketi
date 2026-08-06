@@ -1,0 +1,193 @@
+{
+  "tarih": "2026-08-06",
+  "rapor": "okuma-tamamlama-tipleri",
+  "sonuclar": [
+    {
+      "file": "content/reading/practice/diagram-labelling.json",
+      "toplam": 10,
+      "uyusan": 10,
+      "uyusmayan": 0,
+      "detay": []
+    },
+    {
+      "file": "content/reading/practice/note-completion.json",
+      "toplam": 15,
+      "uyusan": 15,
+      "uyusmayan": 0,
+      "detay": []
+    },
+    {
+      "file": "content/reading/practice/sentence-completion.json",
+      "toplam": 15,
+      "uyusan": 15,
+      "uyusmayan": 0,
+      "detay": []
+    },
+    {
+      "file": "content/reading/practice/short-answer.json",
+      "toplam": 10,
+      "uyusan": 9,
+      "uyusmayan": 1,
+      "detay": [
+        {
+          "number": "5",
+          "dogrulayici": [
+            "8,400 years old"
+          ],
+          "orijinal": [
+            "8,400 years"
+          ],
+          "confidence": 4,
+          "gerekce": "A05 C paragrafi: 'charred grains, roughly 8,400 years old'. '8,400 years' bicimi de gecerli olabilir.",
+          "durum": "uyusmadi"
+        }
+      ]
+    },
+    {
+      "file": "content/reading/practice/summary-completion.json",
+      "toplam": 15,
+      "uyusan": 15,
+      "uyusmayan": 0,
+      "detay": []
+    },
+    {
+      "file": "content/reading/tests/AC1/note-completion.json",
+      "toplam": 6,
+      "uyusan": 6,
+      "uyusmayan": 0,
+      "detay": []
+    },
+    {
+      "file": "content/reading/tests/AC1/sentence-completion.json",
+      "toplam": 4,
+      "uyusan": 4,
+      "uyusmayan": 0,
+      "detay": []
+    },
+    {
+      "file": "content/reading/tests/AC1/summary-completion.json",
+      "toplam": 5,
+      "uyusan": 5,
+      "uyusmayan": 0,
+      "detay": []
+    },
+    {
+      "file": "content/reading/tests/AC2/flow-chart-completion.json",
+      "toplam": 6,
+      "uyusan": 6,
+      "uyusmayan": 0,
+      "detay": []
+    },
+    {
+      "file": "content/reading/tests/AC2/sentence-completion.json",
+      "toplam": 4,
+      "uyusan": 4,
+      "uyusmayan": 0,
+      "detay": []
+    },
+    {
+      "file": "content/reading/tests/AC2/summary-completion.json",
+      "toplam": 5,
+      "uyusan": 5,
+      "uyusmayan": 0,
+      "detay": []
+    },
+    {
+      "file": "content/reading/tests/AC3/sentence-completion.json",
+      "toplam": 4,
+      "uyusan": 4,
+      "uyusmayan": 0,
+      "detay": []
+    },
+    {
+      "file": "content/reading/tests/AC3/summary-completion.json",
+      "toplam": 5,
+      "uyusan": 4,
+      "uyusmayan": 1,
+      "detay": [
+        {
+          "number": "39",
+          "dogrulayici": [
+            "seven distinct"
+          ],
+          "orijinal": [
+            "seven"
+          ],
+          "confidence": 4,
+          "gerekce": "F paragrafi: 'The team detected seven distinct proteins known to be expressed specifically in brain tissue'. Sadece 'seven' de beklenebilir.",
+          "durum": "uyusmadi"
+        }
+      ]
+    },
+    {
+      "file": "content/reading/tests/AC3/table-completion.json",
+      "toplam": 6,
+      "uyusan": 6,
+      "uyusmayan": 0,
+      "detay": []
+    },
+    {
+      "file": "content/reading/tests/AC4/note-completion.json",
+      "toplam": 6,
+      "uyusan": 6,
+      "uyusmayan": 0,
+      "detay": []
+    },
+    {
+      "file": "content/reading/tests/AC4/sentence-completion.json",
+      "toplam": 4,
+      "uyusan": 4,
+      "uyusmayan": 0,
+      "detay": []
+    },
+    {
+      "file": "content/reading/tests/AC4/summary-completion.json",
+      "toplam": 5,
+      "uyusan": 5,
+      "uyusmayan": 0,
+      "detay": []
+    },
+    {
+      "file": "content/reading/tests/GT1/note-completion.json",
+      "toplam": 6,
+      "uyusan": 6,
+      "uyusmayan": 0,
+      "detay": []
+    },
+    {
+      "file": "content/reading/tests/GT1/sentence-completion.json",
+      "toplam": 3,
+      "uyusan": 3,
+      "uyusmayan": 0,
+      "detay": []
+    },
+    {
+      "file": "content/reading/tests/GT1/summary-completion.json",
+      "toplam": 4,
+      "uyusan": 4,
+      "uyusmayan": 0,
+      "detay": []
+    },
+    {
+      "file": "content/reading/tests/GT2/sentence-completion.json",
+      "toplam": 3,
+      "uyusan": 3,
+      "uyusmayan": 0,
+      "detay": []
+    },
+    {
+      "file": "content/reading/tests/GT2/summary-completion.json",
+      "toplam": 4,
+      "uyusan": 4,
+      "uyusmayan": 0,
+      "detay": []
+    },
+    {
+      "file": "content/reading/tests/GT2/table-completion.json",
+      "toplam": 6,
+      "uyusan": 6,
+      "uyusmayan": 0,
+      "detay": []
+    }
+  ]
+}

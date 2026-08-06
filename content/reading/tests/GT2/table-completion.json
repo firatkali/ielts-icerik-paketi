@@ -34,7 +34,8 @@
       "evidence": "Applicants must be enrolled in a relevant degree, such as economics, accounting or business studies, and hold the right to work in the country for the full ten weeks without requiring sponsorship.",
       "evidence_locator": { "text": "A", "paragraph": "A", "sentence": 2 },
       "explanation": "A metninin A paragrafı, adayların on haftanın tamamı boyunca sponsorluk gerektirmeden çalışma hakkına sahip olması gerektiğini söylüyor; bu yüzden cevap 'sponsorship'.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     },
     {
       "number": 16,
@@ -44,7 +45,8 @@
       "evidence": "Complete the online application form and upload a current CV by 28 February.",
       "evidence_locator": { "text": "A", "paragraph": "B", "sentence": 2 },
       "explanation": "A metninin B paragrafı, çevrimiçi başvuru formunun yanı sıra güncel bir özgeçmişin yüklenmesi gerektiğini söylüyor; bu yüzden cevap 'CV'.",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "status": "verified"
     },
     {
       "number": 17,
@@ -54,7 +56,8 @@
       "evidence": "Applicants shortlisted after the written stage will be invited to a video interview during March.",
       "evidence_locator": { "text": "A", "paragraph": "B", "sentence": 4 },
       "explanation": "A metninin B paragrafı, yazılı aşamadan sonra kısa listeye kalanların mart ayında görüntülü görüşmeye çağrıldığını söylüyor; bu yüzden cevap 'video interview'.",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "status": "verified"
     },
     {
       "number": 18,
@@ -64,7 +67,8 @@
       "evidence": "Successful applicants are notified by the end of April and must confirm their place within ten working days.",
       "evidence_locator": { "text": "A", "paragraph": "C", "sentence": 1 },
       "explanation": "A metninin C paragrafı, kabul edilenlerin yerlerini on iş günü içinde onaylaması gerektiğini söylüyor; bu yüzden cevap 'ten working days'.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     },
     {
       "number": 19,
@@ -74,7 +78,8 @@
       "evidence": "The internship begins on the first Monday of July and includes a salary of £2,100 per month, plus a travel allowance for those relocating temporarily.",
       "evidence_locator": { "text": "A", "paragraph": "C", "sentence": 2 },
       "explanation": "A metninin C paragrafı, maaşa ek olarak geçici şekilde taşınanlara yol ödeneği verildiğini söylüyor; bu yüzden cevap 'travel allowance'.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     },
     {
       "number": 20,
@@ -84,7 +89,8 @@
       "evidence": "Each intern is paired with a mentor from their assigned department who meets with them weekly throughout the ten weeks.",
       "evidence_locator": { "text": "A", "paragraph": "D", "sentence": 1 },
       "explanation": "A metninin D paragrafı, her stajyerin kendi bölümünden bir danışmanla eşleştirildiğini ve haftada bir görüştüklerini söylüyor; bu yüzden cevap 'mentor'.",
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "status": "verified"
     }
   ]
 }

@@ -33,7 +33,8 @@
       "evidence": "The first experiment used a between-subjects design, meaning that different participants were assigned to a sleep group or a wake group, while the second used a within-subject design in which the same participants experienced both a nap and a period of wakefulness on different days, allowing more direct comparison.",
       "evidence_locator": { "paragraph": "B", "sentence": 2 },
       "explanation": "Paragraf B, ikinci deneyin aynı katılımcıların hem şekerlemeyi hem de uyanık geçen dönemi yaşadığı 'within-subject' tasarımı kullandığını söylüyor; bu yüzden doğru seçenek J.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     },
     {
       "number": 37,
@@ -43,7 +44,8 @@
       "evidence": "The wake group learned the same material at nine in the morning and were tested twelve hours later, at nine that evening, having remained awake throughout.",
       "evidence_locator": { "paragraph": "C", "sentence": 3 },
       "explanation": "Paragraf C, uyanık grubun sabah dokuzda öğrenip akşam dokuzda sınandığını ve bu süre boyunca uyanık kaldığını söylüyor; bu yüzden doğru seçenek B.",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "status": "verified"
     },
     {
       "number": 38,
@@ -53,7 +55,8 @@
       "evidence": "For semantically related word pairs, nocturnal sleep produced a substantially larger improvement in recall than daytime napping did, with a standardised effect size of 0.58 compared with only 0.15 for napping.",
       "evidence_locator": { "paragraph": "E", "sentence": 2 },
       "explanation": "Paragraf E, gece uykusunun şekerlemeye belirgin üstünlüğünün anlamca ilişkili kelime çiftlerinde ortaya çıktığını söylüyor; bu yüzden doğru seçenek D.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     },
     {
       "number": 39,
@@ -63,7 +66,8 @@
       "evidence": "For unrelated word pairs, however, nocturnal sleep and napping produced very similar benefits, with effect sizes of 0.71 and 0.68 respectively, showing that a nap could match a full night's sleep when the material being learned had no prior connection to existing knowledge.",
       "evidence_locator": { "paragraph": "E", "sentence": 3 },
       "explanation": "Paragraf E, ilişkisiz çiftlerde gece uykusu ile şekerlemenin çok benzer (0,71'e karşı 0,68) yarar sağladığını söylüyor; bu yüzden doğru seçenek F.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     },
     {
       "number": 40,
@@ -73,7 +77,8 @@
       "evidence": "Neither the exact length of a nap nor the particular stages of sleep it contained showed any significant relationship with how much memory improved, suggesting that simply having the opportunity to nap mattered more than its precise internal structure.",
       "evidence_locator": { "paragraph": "F", "sentence": 2 },
       "explanation": "Paragraf F, ne şekerlemenin süresinin ne de içerdiği evrelerin bellek kazanımıyla anlamlı bir ilişki gösterdiğini, önemli olanın uyuma fırsatının bulunması olduğunu söylüyor; bu yüzden doğru seçenek A.",
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "status": "verified"
     }
   ]
 }

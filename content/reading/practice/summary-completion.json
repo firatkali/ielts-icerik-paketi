@@ -23,7 +23,8 @@
       "evidence": "The activity-based design, despite its popularity in contemporary office trends, performed worse than the open-plan baseline on both measures, with satisfaction and productivity scores roughly 14 per cent lower.",
       "evidence_locator": { "paragraph": "D", "sentence": 3 },
       "explanation": "Paragraf D, etkinlik temelli düzenin çağdaş ofis modasındaki popülerliğine rağmen iki ölçüte de temel düzenin altında kaldığını söylüyor; boşluk bu yaygın beğeniyi karşıladığı için cevap 'popularity'.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     },
     {
       "number": 2,
@@ -34,7 +35,8 @@
       "evidence": "A similar pattern emerged for flow, the psychological state of being deeply absorbed and focused on a task.",
       "evidence_locator": { "paragraph": "E", "sentence": 1 },
       "explanation": "Paragraf E, akışı (flow) bir işe derinlemesine dalmış ve odaklanmış olma hâli diye tanımlıyor; boşluk bu tanımdaki 'dalmış' sözcüğünü istediği için cevap 'absorbed'.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     },
     {
       "number": 3,
@@ -45,7 +47,8 @@
       "evidence": "Noise levels in the open-plan office exceeded recommended safe limits between 20 and 30 per cent more often than in any of the alternative designs.",
       "evidence_locator": { "paragraph": "F", "sentence": 2 },
       "explanation": "Paragraf F, açık ofiste gürültünün önerilen güvenli sınırları öteki düzenlere göre çok daha sık aştığını söylüyor; aşılan şey sorulduğu için cevap 'safe limits'.",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "status": "verified"
     },
     {
       "number": 4,
@@ -56,7 +59,8 @@
       "evidence": "This absence of any measurable effect on code output is itself informative, since it suggests that experienced software engineers accustomed to their tools were not obviously slowed down or sped up by a change of layout, even though the same change clearly affected how comfortable they felt while working.",
       "evidence_locator": { "paragraph": "G", "sentence": 3 },
       "explanation": "Paragraf G, kod çıktısındaki değişmezliği, araçlarına alışkın deneyimli yazılım mühendislerinin düzen değişikliğinden belirgin biçimde etkilenmemesine bağlıyor; bu yüzden cevap 'software engineers'.",
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "status": "verified"
     },
     {
       "number": 5,
@@ -67,7 +71,8 @@
       "evidence": "Most of the evidence behind this claim, however, comes from studies conducted in green, leafy forests during spring or summer.",
       "evidence_locator": { "paragraph": "A", "sentence": 2 },
       "explanation": "Paragraf A, kanıtların çoğunun ilkbahar ya da yazın yeşil, yapraklı ormanlarda yapılan çalışmalardan geldiğini söylüyor; 'green' zaten verildiği için boşluğa gelen 'leafy'.",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "status": "verified"
     },
     {
       "number": 6,
@@ -78,7 +83,8 @@
       "evidence": "The participants were split into two groups and took part in a crossover experiment, meaning that each person experienced both a forest condition and a comparison condition, in a different order depending on their group, allowing the researchers to compare each person against themselves rather than relying solely on differences between separate groups.",
       "evidence_locator": { "paragraph": "B", "sentence": 2 },
       "explanation": "Paragraf B, her katılımcının iki koşulu da farklı sırayla yaşadığı bu düzeni 'crossover' deneyi diye adlandırıyor ve amacını kişiyi kendisiyle karşılaştırmak olarak açıklıyor; bu yüzden cevap 'crossover'.",
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "status": "verified"
     },
     {
       "number": 7,
@@ -89,7 +95,8 @@
       "evidence": "The clearest effect of the entire study appeared on the Restorative Outcome Scale, which increased sharply after time in the forest, indicating that participants found the snow-covered woodland strongly refreshing even though it produced no accompanying jump in energy.",
       "evidence_locator": { "paragraph": "F", "sentence": 3 },
       "explanation": "Paragraf F, çalışmanın en belirgin etkisinin ormanda geçirilen süreden sonra keskin biçimde yükselen tazeleyicilik ölçeğinde görüldüğünü söylüyor; artışın biçimi sorulduğu için cevap 'sharply'.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     },
     {
       "number": 8,
@@ -100,7 +107,8 @@
       "evidence": "All five of the same negative mood indicators increased significantly, positive emotions on the broader affect scale fell while negative emotions rose, subjective vitality declined, and restorativeness scores dropped by roughly half compared with their level before the exposure, suggesting that even a calm, traffic-free campus scene was mildly draining relative to a walk in the snow.",
       "evidence_locator": { "paragraph": "G", "sentence": 2 },
       "explanation": "Paragraf G, sakin ve trafiksiz kampüs manzarasının bile kardaki yürüyüşe kıyasla hafifçe yorucu olduğunu söylüyor; bu yüzden cevap 'draining'.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     },
     {
       "number": 9,
@@ -111,7 +119,8 @@
       "evidence": "Rather than relying on households to estimate their own waste, which tends to produce unreliable figures, the research team physically collected, sorted and weighed the solid food waste from each home's rubbish over eight consecutive days, using digital scales accurate to two grams.",
       "evidence_locator": { "paragraph": "B", "sentence": 1 },
       "explanation": "Paragraf B, ekibin sekiz gün boyunca topladığı katı gıda atığını iki gram hassasiyetli dijital terazilerle tarttığını söylüyor; tartımın neyle yapıldığı sorulduğu için cevap 'digital scales'.",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "status": "verified"
     },
     {
       "number": 10,
@@ -122,7 +131,8 @@
       "evidence": "Discarded drinks were tracked separately: participants kept a seven-day diary noting the type and amount of any beverage poured away.",
       "evidence_locator": { "paragraph": "B", "sentence": 2 },
       "explanation": "Paragraf B, dökülen içeceklerin ayrı izlendiğini ve katılımcıların yedi günlük bir günlük tuttuğunu söylüyor; bir haftalık kaydın adı sorulduğu için cevap 'diary'.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     },
     {
       "number": 11,
@@ -133,7 +143,8 @@
       "evidence": "Just over a third of this, about 29 kilograms, was still perfectly edible when discarded; the remaining 48 kilograms consisted of inedible parts such as fruit peels, bones and eggshells that are a normal by-product of cooking rather than genuine waste.",
       "evidence_locator": { "paragraph": "C", "sentence": 2 },
       "explanation": "Paragraf C, kalan 48 kilogramın kabuk, kemik ve yumurta kabuğu gibi yenmeyen parçalardan oluştuğunu söylüyor; listede verilmeyen üçüncü örnek istendiği için cevap 'eggshells'.",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "status": "verified"
     },
     {
       "number": 12,
@@ -144,7 +155,8 @@
       "evidence": "City dwellers in Cibinong generated 79.4 kilograms of food waste per person a year, almost double the 45.8 kilograms recorded in rural Sukajaya, and a significantly higher proportion of the urban total, 38.2%, was edible food compared with 23.4% in rural areas.",
       "evidence_locator": { "paragraph": "D", "sentence": 2 },
       "explanation": "Paragraf D, kentte kişi başına 79,4 kilogramlık atığın kırsaldaki 45,8 kilogramın neredeyse iki katı olduğunu söylüyor; bu yüzden cevap 'double'.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     },
     {
       "number": 13,
@@ -155,7 +167,8 @@
       "evidence": "Volunteering was recorded as a simple yes-or-no measure, based on whether a person had taken part in unpaid work for an organisation at least once every six months, while health was self-reported on a five-point scale running from \"very bad\" to \"very good\".",
       "evidence_locator": { "paragraph": "B", "sentence": 3 },
       "explanation": "Paragraf B, sağlığın 'çok kötü'den 'çok iyi'ye uzanan beş noktalı bir ölçekle kendi beyanına göre kaydedildiğini söylüyor; ölçeğin türü sorulduğu için cevap 'five-point'.",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "status": "verified"
     },
     {
       "number": 14,
@@ -166,7 +179,8 @@
       "evidence": "Self-rated health might seem like a subjective measure, but earlier research has repeatedly shown it to reliably predict future illness and mortality, which is one reason the team chose it as their main outcome.",
       "evidence_locator": { "paragraph": "C", "sentence": 3 },
       "explanation": "Paragraf C, öz-bildirimli sağlığın öznel görünse de ileriki hastalıkları ve ölümlülüğü güvenilir biçimde öngördüğünün defalarca gösterildiğini söylüyor; 'illness' zaten verildiği için boşluğa gelen 'mortality'.",
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "status": "verified"
     },
     {
       "number": 15,
@@ -177,7 +191,8 @@
       "evidence": "Across the whole sample, volunteers were somewhat more likely to be male, more highly educated and more religious than non-volunteers, and somewhat less likely to be elderly or to have migrated from another country.",
       "evidence_locator": { "paragraph": "D", "sentence": 3 },
       "explanation": "Paragraf D, gönüllülerin yaşlı olma ya da başka bir ülkeden göç etmiş olma ihtimalinin biraz daha düşük olduğunu söylüyor; bu yüzden cevap 'elderly'.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     }
   ]
 }

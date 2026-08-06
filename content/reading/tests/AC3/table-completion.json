@@ -42,7 +42,8 @@
       "evidence": "In the first phase a large two-way mirror was lowered into one section of their pool on some days and, on other days, a transparent acrylic panel of identical size was used instead as a control, so that researchers could distinguish curiosity about a novel object from a specific response to a reflection.",
       "evidence_locator": { "paragraph": "B", "sentence": 3 },
       "explanation": "Paragraf B, aynanın olmadığı günlerde kontrol amacıyla aynı boyutta saydam bir akrilik levha kullanıldığını söylüyor; boşluk levhanın malzemesini istediği için cevap 'acrylic'.",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "status": "verified"
     },
     {
       "number": 2,
@@ -52,7 +53,8 @@
       "evidence": "They lingered near it, angled their bodies to bring particular areas into view, and produced a cluster of behaviours rarely seen elsewhere in their daily routine: blowing strings of bubbles while facing the glass, performing slow barrel rolls, stretching their necks, opening their mouths wide towards the surface and rotating a pectoral flipper as if to inspect it.",
       "evidence_locator": { "paragraph": "C", "sentence": 2 },
       "explanation": "Paragraf C, aynanın önünde görülen olağandışı davranışları sıralarken 'performing slow barrel rolls' diyor; listedeki kabarcık, boyun uzatma ve yüzgeç çevirme zaten verildiği için boşluğa gelen 'barrel rolls'.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     },
     {
       "number": 3,
@@ -62,7 +64,8 @@
       "evidence": "A harmless cosmetic mark, five to eight centimetres across, was applied to a part of the body the whale could not see without a mirror, most often just behind an eye or an ear.",
       "evidence_locator": { "paragraph": "D", "sentence": 2 },
       "explanation": "Paragraf D, işaretin zararsız bir kozmetik boya olduğunu ve beş ile sekiz santimetre büyüklüğünde olduğunu söylüyor; bu yüzden cevap 'cosmetic'.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     },
     {
       "number": 4,
@@ -72,7 +75,8 @@
       "evidence": "When a real mark had been applied, she oriented the marked patch of skin towards the mirror repeatedly, spending a total of three minutes and forty seconds doing so across fourteen separate approaches.",
       "evidence_locator": { "paragraph": "E", "sentence": 2 },
       "explanation": "Paragraf E, gerçek işaret varken Natasha'nın toplam üç dakika kırk saniyeyi on dört ayrı yaklaşmaya yaydığını söylüyor; süre soruda verildiği için cevap 'fourteen'.",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "status": "verified"
     },
     {
       "number": 5,
@@ -82,7 +86,8 @@
       "evidence": "When she carried an invisible sham mark instead, the equivalent behaviour lasted only twenty-three seconds across four approaches, a difference the researchers regarded as strong evidence that she was inspecting the mark itself rather than merely enjoying the mirror.",
       "evidence_locator": { "paragraph": "E", "sentence": 3 },
       "explanation": "Paragraf E, görünmeyen sahte işaret uygulandığında aynı davranışın dört yaklaşmada yalnızca yirmi üç saniye sürdüğünü söylüyor; bu yüzden cevap 'twenty-three seconds'.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     },
     {
       "number": 6,
@@ -92,7 +97,8 @@
       "evidence": "Both whales, notably, preferred to view the mirror with their right eye, a bias that hints at some degree of lateralised processing in how the brain handles this kind of visual information.",
       "evidence_locator": { "paragraph": "F", "sentence": 3 },
       "explanation": "Paragraf F, her iki balinanın da aynaya sağ gözüyle bakmayı tercih ettiğini ve bunun beyinde yanallaşmış bir işleyişe işaret ettiğini söylüyor; bu yüzden cevap 'right eye'.",
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "status": "verified"
     }
   ]
 }

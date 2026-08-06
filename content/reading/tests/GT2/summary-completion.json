@@ -32,7 +32,8 @@
       "evidence": "Income differences accounted for well under a fifth of the total association between volunteering and self-rated health.",
       "evidence_locator": { "paragraph": "F", "sentence": 2 },
       "explanation": "Paragraf F, gelir farklarının gönüllülük ile sağlık arasındaki bağın beşte birinden çok daha azını açıkladığını söylüyor; yani gelir yolu bağın yalnızca küçük bir kısmını taşıyor, doğru seçenek B ('a small part').",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     },
     {
       "number": 38,
@@ -42,7 +43,8 @@
       "evidence": "In every version of the analysis the same basic pattern held: a small, statistically reliable health advantage for volunteers, only a modest share of which ran through income.",
       "evidence_locator": { "paragraph": "G", "sentence": 3 },
       "explanation": "Paragraf G, analizin her türlü varyasyonunda aynı temel örüntünün korunduğunu söylüyor; sonuç değişmediği için doğru seçenek G ('stable').",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     },
     {
       "number": 39,
@@ -52,7 +54,8 @@
       "evidence": "The authors suggest several candidate explanations for this unexplained majority of the effect, while stressing that their data cannot confirm any of them directly.",
       "evidence_locator": { "paragraph": "H", "sentence": 1 },
       "explanation": "Paragraf H, yazarların birkaç olası açıklama önerdiğini ama verilerinin bunların hiçbirini doğrudan doğrulayamadığını vurguladığını söylüyor; bu yüzden doğru seçenek I ('unproven suggestions').",
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "status": "verified"
     },
     {
       "number": 40,
@@ -62,7 +65,8 @@
       "evidence": "The authors are careful to describe their results as an association rather than proof that volunteering causes better health.",
       "evidence_locator": { "paragraph": "I", "sentence": 1 },
       "explanation": "Paragraf I, yazarların sonuçlarını gönüllülüğün sağlığı iyileştirdiğinin kanıtı değil bir ilişki olarak nitelendirdiğini söylüyor; bu yüzden doğru seçenek A ('a link rather than a cause').",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "status": "verified"
     }
   ]
 }
