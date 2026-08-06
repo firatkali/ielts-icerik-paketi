@@ -43,7 +43,8 @@
           "feature_check": null,
           "grammar_check": null,
           "explanation": "Paragraf B deneyin nasıl kurulduğunu anlatıyor ve ilk oturumlarda hiçbir hayvanın verilen çubuğa ilgi göstermediğini söylüyor.",
-          "difficulty": "medium"
+          "difficulty": "medium",
+          "status": "verified"
         },
         {
           "number": 2,
@@ -55,7 +56,8 @@
           "feature_check": null,
           "grammar_check": null,
           "explanation": "Paragraf C, çözümün yedinci oturumda hiçbir hazırlık denemesi olmadan bir anda ortaya çıkışını anlatıyor.",
-          "difficulty": "medium"
+          "difficulty": "medium",
+          "status": "verified"
         },
         {
           "number": 3,
@@ -67,7 +69,8 @@
           "feature_check": null,
           "grammar_check": null,
           "explanation": "Paragraf D, çözümün ertesi gün defalarca tekrarlandığını ve yeni konumlara ve başka nesnelere uyarlandığını anlatıyor.",
-          "difficulty": "medium"
+          "difficulty": "medium",
+          "status": "verified"
         },
         {
           "number": 4,
@@ -79,7 +82,8 @@
           "feature_check": null,
           "grammar_check": null,
           "explanation": "Paragraf E, hayvanın bir gün önce nereye bırakıldığını gördüğü nesneyi ertesi gün doğrudan bulmasını, yani konum belleğini anlatıyor.",
-          "difficulty": "hard"
+          "difficulty": "hard",
+          "status": "verified"
         },
         {
           "number": 5,
@@ -91,7 +95,8 @@
           "feature_check": null,
           "grammar_check": null,
           "explanation": "Paragraf F, önceki deneylerin başarısızlığını hayvanın zekâsına değil, kendisine sunulan aracın hortumun duyusunu engellemesine bağlıyor.",
-          "difficulty": "medium"
+          "difficulty": "medium",
+          "status": "verified"
         }
       ]
     },
@@ -128,7 +133,8 @@
           "feature_check": null,
           "grammar_check": null,
           "explanation": "Paragraf B, on yıllardır bilinen bir kalıntının yeniden incelenmesinde kafatası içinde beklenmedik camsı bir madde bulunduğunu anlatıyor.",
-          "difficulty": "medium"
+          "difficulty": "medium",
+          "status": "verified"
         },
         {
           "number": 7,
@@ -140,7 +146,8 @@
           "feature_check": null,
           "grammar_check": null,
           "explanation": "Paragraf C, kafatasındaki maddenin cama dönüşmüş beyin dokusu olduğunu ve bu dönüşümün doğada ne kadar ender görüldüğünü açıklıyor.",
-          "difficulty": "medium"
+          "difficulty": "medium",
+          "status": "verified"
         },
         {
           "number": 8,
@@ -152,7 +159,8 @@
           "feature_check": null,
           "grammar_check": null,
           "explanation": "Paragraf D, bulgunun doğrulanması için bir arada kullanılan inceleme yöntemlerini sıralıyor.",
-          "difficulty": "medium"
+          "difficulty": "medium",
+          "status": "verified"
         },
         {
           "number": 9,
@@ -164,7 +172,8 @@
           "feature_check": null,
           "grammar_check": null,
           "explanation": "Paragraf E, cama dönüşmüş dokuda sinir hücrelerinin ince yapılarının ölçülebilecek kadar iyi korunduğunu gösteren sayıları veriyor.",
-          "difficulty": "medium"
+          "difficulty": "medium",
+          "status": "verified"
         },
         {
           "number": 10,
@@ -176,7 +185,8 @@
           "feature_check": null,
           "grammar_check": null,
           "explanation": "Paragraf F, yalnızca beyin dokusunda bulunan proteinlerin saptanmasının maddenin kaynağını kesinleştirdiğini anlatıyor.",
-          "difficulty": "hard"
+          "difficulty": "hard",
+          "status": "verified"
         }
       ]
     },
@@ -213,7 +223,8 @@
           "feature_check": null,
           "grammar_check": null,
           "explanation": "Paragraf B, aynı soruyu sınamak için kurulan iki farklı deney düzenini tanıtıyor.",
-          "difficulty": "medium"
+          "difficulty": "medium",
+          "status": "verified"
         },
         {
           "number": 12,
@@ -225,7 +236,8 @@
           "feature_check": null,
           "grammar_check": null,
           "explanation": "Paragraf C, gece uykusunu sınayan deneyin ayrıntısını veriyor: bir grup akşam öğrenip sabah, öteki sabah öğrenip akşam sınanıyor.",
-          "difficulty": "hard"
+          "difficulty": "hard",
+          "status": "verified"
         },
         {
           "number": 13,
@@ -237,7 +249,8 @@
           "feature_check": null,
           "grammar_check": null,
           "explanation": "Paragraf D, gündüz uykusu deneyini anlatıyor: kısa bir uyku ya da uyanık geçen eş süre, ardından son sınamadan önce konan ara.",
-          "difficulty": "medium"
+          "difficulty": "medium",
+          "status": "verified"
         },
         {
           "number": 14,
@@ -249,7 +262,8 @@
           "feature_check": null,
           "grammar_check": null,
           "explanation": "Paragraf E, uykunun katkısının hatırlanacak malzemenin türüne göre değiştiğini gösteriyor: bağlantılı çiftlerde gece uykusu üstün, bağlantısız çiftlerde fark yok.",
-          "difficulty": "medium"
+          "difficulty": "medium",
+          "status": "verified"
         },
         {
           "number": 15,
@@ -261,7 +275,8 @@
           "feature_check": null,
           "grammar_check": null,
           "explanation": "Paragraf F, gündüz uykusunun süresinin ve içerdiği evrelerin bellek kazancıyla anlamlı bir ilişki göstermediğini belirtiyor.",
-          "difficulty": "hard"
+          "difficulty": "hard",
+          "status": "verified"
         }
       ]
     }

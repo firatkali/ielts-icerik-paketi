@@ -32,7 +32,8 @@
       "feature_check": "Karıştırılabilecek öğe C: üç günlük birliktelik boyunca fiziksel temasın seyrekleştiği söyleniyor, bu yüzden 'daha az dokunma' aramak adayı C'ye çekebilir. Ama oradaki azalma günler içindeki genel eğilim; ilk temasa geç geçme, yedinci gündeki iki buluşma türünün karşılaştırmasında geçiyor ve tanıdık eşine kavuşan hayvanlara ait. E tam tersi: yabancılar daha erken temas ediyor.",
       "grammar_check": null,
       "explanation": "Paragraf F, eski eşiyle yeniden buluşan ahtapotların ilk temasa gözle görülür biçimde daha geç geçtiğini ve dokunmadan mesafeli durmaya daha yatkın olduğunu söylüyor.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     },
     {
       "number": 24,
@@ -43,7 +44,8 @@
       "feature_check": "Karıştırılabilecek öğe C: güç sıralaması ilk kez o üç günde ortaya çıkıyor, dolayısıyla 'güçlü olan değişti' ifadesi C'ye yakın duruyor. Ama C'de sıralama yalnızca oluşuyor, yer değiştirmiyor; pasaj yer değiştirmenin 'yalnızca iki yabancıdan oluşan çiftlerde' görüldüğünü, tanıdık çiftlerde hiç görülmediğini açıkça söylüyor, bu da D'yi de eliyor.",
       "grammar_check": null,
       "explanation": "Paragraf F, daha önce geri çekilen hayvanın güçlü konuma geçmesinin yalnızca iki yabancıdan oluşan çiftlerde, on iki eşleşmenin sekizinde görüldüğünü belirtiyor.",
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "status": "verified"
     },
     {
       "number": 25,
@@ -54,7 +56,8 @@
       "feature_check": "Karıştırılabilecek öğe A: iki grup da ilk aşamada bir bölmeyle ayrılmış durumda, bu yüzden 'ayrı tutuldu' bilgisi tek başına ayırt etmiyor. Fark şurada: A grubundaki hayvanlar birbirini görebiliyor, yalnızca dokunma ve koku engelli; hiçbir duyuyla algılayamama yalnızca ışık geçirmeyen bölmenin ardındaki gruba ait.",
       "grammar_check": null,
       "explanation": "Paragraf C, çiftlerin ikinci yarısının ışık geçirmeyen bir bölmeyle ayrıldığını ve hiçbir türden temaslarının olmadığını söylüyor.",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "status": "verified"
     },
     {
       "number": 26,
@@ -65,7 +68,8 @@
       "feature_check": "Karıştırılabilecek öğe B: ifade 'yeterli olmadı' dediği için, hiçbir farkın çıkmadığı grup sanılıp B seçilebilir. Ama B'deki hayvanlar karşısındakini hiç göremiyor; 'yalnızca görmenin' ne kadar iş gördüğü sorusu ancak görmeye izin verilen gruba, yani A'ya sorulabilir. C de elenir: orada hayvanlar hem görüyor hem dokunuyor.",
       "grammar_check": null,
       "explanation": "Paragraf H, yalnızca görmenin ilk aşamada daha zayıf farklar ürettiğini, tanımanın arkasında büyük olasılıkla görme ile fiziksel temasın birlikte durduğunu söylüyor.",
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "status": "verified"
     }
   ]
 }

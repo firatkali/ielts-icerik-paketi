@@ -38,7 +38,8 @@
       "feature_check": null,
       "grammar_check": null,
       "explanation": "Paragraf B, atığın nasıl ölçüldüğünü anlatıyor: çöp fiilen toplanıp hassas teraziyle tartılıyor, içecekler günlükle izleniyor, hanelerle görüşme yapılıyor.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     },
     {
       "number": 29,
@@ -50,7 +51,8 @@
       "feature_check": null,
       "grammar_check": null,
       "explanation": "Paragraf C, kişi başına yıllık toplam atık miktarını veriyor ve bunu yenebilir ile yenemez kısım olarak ikiye ayırıyor.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     },
     {
       "number": 30,
@@ -62,7 +64,8 @@
       "feature_check": null,
       "grammar_check": null,
       "explanation": "Paragraf D, kentsel ve kırsal haneler arasındaki büyük atık farkını sayılarla ortaya koyuyor ve bunu kısmen gelir farkına bağlıyor.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     },
     {
       "number": 31,
@@ -74,7 +77,8 @@
       "feature_check": null,
       "grammar_check": null,
       "explanation": "Paragraf E, hangi yiyeceklerin en büyük miktarda atıldığını sıralıyor: önce tahıl ve pirinç, sonra sebzeler ve öteki kalemler.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     },
     {
       "number": 32,
@@ -86,7 +90,8 @@
       "feature_check": null,
       "grammar_check": null,
       "explanation": "Paragraf F, dökülen içecekleri toplama ekliyor ve sayımın yalnızca çöp kutusuna gideni kapsadığını, kompost ile hayvan yemine gidenin dışarıda kaldığını belirtiyor.",
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "status": "verified"
     }
   ]
 }

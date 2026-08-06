@@ -1,0 +1,97 @@
+{
+  "tarih": "2026-08-06",
+  "rapor": "eslestirme-tipleri",
+  "sonuclar": [
+    {
+      "file": "content/reading/practice/matching-features.json",
+      "toplam": 10,
+      "uyusan": 10,
+      "uyusmayan": 0,
+      "detay": []
+    },
+    {
+      "file": "content/reading/practice/matching-headings.json",
+      "toplam": 15,
+      "uyusan": 15,
+      "uyusmayan": 0,
+      "detay": []
+    },
+    {
+      "file": "content/reading/practice/matching-sentence-endings.json",
+      "toplam": 10,
+      "uyusan": 10,
+      "uyusmayan": 0,
+      "detay": []
+    },
+    {
+      "file": "content/reading/tests/AC1/matching-features.json",
+      "toplam": 4,
+      "uyusan": 4,
+      "uyusmayan": 0,
+      "detay": []
+    },
+    {
+      "file": "content/reading/tests/AC1/matching-headings.json",
+      "toplam": 5,
+      "uyusan": 5,
+      "uyusmayan": 0,
+      "detay": []
+    },
+    {
+      "file": "content/reading/tests/AC2/matching-features.json",
+      "toplam": 4,
+      "uyusan": 4,
+      "uyusmayan": 0,
+      "detay": []
+    },
+    {
+      "file": "content/reading/tests/AC2/matching-headings.json",
+      "toplam": 5,
+      "uyusan": 5,
+      "uyusmayan": 0,
+      "detay": []
+    },
+    {
+      "file": "content/reading/tests/AC3/matching-features.json",
+      "toplam": 4,
+      "uyusan": 4,
+      "uyusmayan": 0,
+      "detay": []
+    },
+    {
+      "file": "content/reading/tests/AC3/matching-headings.json",
+      "toplam": 5,
+      "uyusan": 5,
+      "uyusmayan": 0,
+      "detay": []
+    },
+    {
+      "file": "content/reading/tests/AC4/matching-features.json",
+      "toplam": 4,
+      "uyusan": 4,
+      "uyusmayan": 0,
+      "detay": []
+    },
+    {
+      "file": "content/reading/tests/AC4/matching-headings.json",
+      "toplam": 5,
+      "uyusan": 5,
+      "uyusmayan": 0,
+      "detay": []
+    },
+    {
+      "file": "content/reading/tests/GT1/matching-headings.json",
+      "toplam": 5,
+      "uyusan": 5,
+      "uyusmayan": 0,
+      "detay": []
+    },
+    {
+      "file": "content/reading/tests/GT2/matching-headings.json",
+      "toplam": 5,
+      "uyusan": 5,
+      "uyusmayan": 0,
+      "detay": []
+    }
+  ]
+}

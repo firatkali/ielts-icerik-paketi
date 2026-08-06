@@ -37,7 +37,8 @@
           "feature_check": "Karıştırılabilecek öğe C: etraflarında sabit masası olmayan, ortak alanlara ve gelip geçen konuşmalara açık bir düzen sezgisel olarak en gürültülü seçenek gibi durur, üstelik C bütün ölçümlerde en kötü sonucu almış durumda. Ama pasaj gürültü ölçümünü tek bir cümlede veriyor ve orada karşılaştırmayı açıkça 'seçeneklerin herhangi birinden' diye kuruyor — yani C dahil bütün alternatiflerin üstünde kalan, karşılaştırma ölçütü olarak kullanılan sade açık ofis. B ve D de elenir: ikisi de ses yalıtımlı kapılar ya da sesi emen paneller sayesinde bu ölçümde daha iyi durumda.",
           "grammar_check": null,
           "explanation": "Paragraf F, güvenli sınırın aşılmasının sade açık ofiste, öteki düzenlerin herhangi birine göre yüzde 20-30 daha sık görüldüğünü söylüyor.",
-          "difficulty": "medium"
+          "difficulty": "medium",
+          "status": "verified"
         },
         {
           "number": 2,
@@ -49,7 +50,8 @@
           "heading_check": null,
           "grammar_check": null,
           "explanation": "Paragraf D, algılanan üretkenlikteki en büyük artışın (yüzde 17) bölgelere ayrılmış açık ofiste görüldüğünü belirtiyor.",
-          "difficulty": "medium"
+          "difficulty": "medium",
+          "status": "verified"
         },
         {
           "number": 3,
@@ -61,7 +63,8 @@
           "heading_check": null,
           "grammar_check": null,
           "explanation": "Paragraf D'ye göre takım ofisi memnuniyeti yüzde 8 artırıyor; bu, bölgelere ayrılmış açık ofisin yüzde 12'lik artışının altında kalıyor.",
-          "difficulty": "hard"
+          "difficulty": "hard",
+          "status": "verified"
         },
         {
           "number": 4,
@@ -73,7 +76,8 @@
           "heading_check": null,
           "grammar_check": null,
           "explanation": "Paragraf E, işe kapılma puanlarının en yüksek olduğu düzenin yüzde 15 ile bölgelere ayrılmış açık ofis olduğunu gösteriyor.",
-          "difficulty": "hard"
+          "difficulty": "hard",
+          "status": "verified"
         },
         {
           "number": 5,
@@ -85,7 +89,8 @@
           "heading_check": null,
           "grammar_check": null,
           "explanation": "Paragraf H, çalışanların başka bir düzeni denedikten sonra en az geri dönmek istedikleri düzenin sade açık ofis olduğunu belirtiyor.",
-          "difficulty": "medium"
+          "difficulty": "medium",
+          "status": "verified"
         }
       ]
     },
@@ -117,7 +122,8 @@
           "heading_check": null,
           "grammar_check": null,
           "explanation": "Paragraf E, yenebilir atığın en büyük tek payının kişi başına yılda yaklaşık 17 kilo ile pirinç ve öteki tahıllara ait olduğunu, sebzelerin hemen arkadan geldiğini söylüyor.",
-          "difficulty": "medium"
+          "difficulty": "medium",
+          "status": "verified"
         },
         {
           "number": 7,
@@ -129,7 +135,8 @@
           "heading_check": null,
           "grammar_check": null,
           "explanation": "Paragraf G, dokudaki değişikliğin et, balık ve yumurta gibi ürünlerdeki atığın büyük bölümünü açıkladığını belirtiyor.",
-          "difficulty": "medium"
+          "difficulty": "medium",
+          "status": "verified"
         },
         {
           "number": 8,
@@ -141,7 +148,8 @@
           "heading_check": null,
           "grammar_check": null,
           "explanation": "Paragraf G'nin son bölümü, kısa raf ömrünün özellikle ekmek için gösterilen neden olduğunu söylüyor.",
-          "difficulty": "medium"
+          "difficulty": "medium",
+          "status": "verified"
         },
         {
           "number": 9,
@@ -153,7 +161,8 @@
           "heading_check": null,
           "grammar_check": null,
           "explanation": "Paragraf B, dökülen içeceklerin tartılmadığını, katılımcıların tuttuğu yedi günlük bir günlükle kaydedildiğini belirtiyor.",
-          "difficulty": "medium"
+          "difficulty": "medium",
+          "status": "verified"
         },
         {
           "number": 10,
@@ -165,7 +174,8 @@
           "heading_check": null,
           "grammar_check": null,
           "explanation": "Paragraf F, kahve ve çayın çoğunlukla demlenen ya da doldurulan miktarın içilebilecekten fazla olması yüzünden döküldüğünü söylüyor.",
-          "difficulty": "hard"
+          "difficulty": "hard",
+          "status": "verified"
         }
       ]
     }

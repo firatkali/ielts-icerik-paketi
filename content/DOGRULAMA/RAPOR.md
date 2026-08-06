@@ -126,3 +126,73 @@ kapsamındaki dinleme `multiple-choice` dosyalarına dokunulmadı.
 
 **Not (yöntem):** Oturum 1'den kalan cevap dosyaları bu oturuma karışmasın diye
 `dogrulama/cevap-arsiv/oturum1/` altına taşındı; karşılaştırma temiz klasörle çalıştı.
+
+---
+
+## eşleştirme tipleri (başlık + özellik + cümle sonu) — 2026-08-06
+
+- Doğrulayan model: opus (üreteni: fable)
+- Toplam soru: 81
+- Uyuşan: 81 (%100,0)
+- İşaretlenen: 0
+
+### Kapsanan dosyalar
+| Dosya | Soru |
+|---|---|
+| content/reading/practice/matching-headings.json | 15 |
+| content/reading/tests/AC1/matching-headings.json | 5 |
+| content/reading/tests/AC2/matching-headings.json | 5 |
+| content/reading/tests/AC3/matching-headings.json | 5 |
+| content/reading/tests/AC4/matching-headings.json | 5 |
+| content/reading/tests/GT1/matching-headings.json | 5 |
+| content/reading/tests/GT2/matching-headings.json | 5 |
+| content/reading/practice/matching-features.json | 10 |
+| content/reading/tests/AC1/matching-features.json | 4 |
+| content/reading/tests/AC2/matching-features.json | 4 |
+| content/reading/tests/AC3/matching-features.json | 4 |
+| content/reading/tests/AC4/matching-features.json | 4 |
+| content/reading/practice/matching-sentence-endings.json | 10 |
+
+Dağılım: başlık eşleştirme 45, özellik eşleştirme 26, cümle sonu eşleştirme 10.
+
+### İşaretlenen sorular
+Yok. Uyuşmayan soru çıkmadı ve hiçbir cevap 3'ün altında güvenle verilmedi.
+
+### Örüntü
+
+Sistematik hata görünmüyor; oran %100 ve işaretlenen soru yok. Doğrulama sırasında
+dikkat çeken noktalar:
+
+- **Başlık eşleştirmede çeldiriciler bilinçli olarak "fazla dar" kurulmuş.** Kullanılmayan
+  başlıkların çoğu, doğru paragrafın *bir cümlesini* karşılayan ama paragrafın ana fikrini
+  karşılamayan ifadeler: AC1'de "Choosing animals of a similar build" (B'nin yalnızca ağırlık
+  eşleştirme cümlesi), GT1'de "Skins and other leftovers from preparing meals" (E'nin son
+  cümlesi), A09'da "Equipment built especially for the site" (D'deki özel görüntü işleme
+  yöntemi — cihaz değil yazılım). Bu, IELTS'in gerçek zorluk kaynağı ve doğru kurulmuş.
+- **Ters çevrilmiş çeldiriciler de var ve net.** A08/F için "A glacier stopped in its tracks"
+  metnin tam tersini söylüyor (buzul durmuyor, molozu taşıyor); A11/C için "An urban view
+  chosen to create stress" metnin açıkça reddettiği bir okuma (kentsel nokta bilerek sakin ve
+  trafiksiz seçilmiş). İkisi de dikkatsiz adayı yakalar, dikkatli adayı yanıltmaz.
+- **Ayrım en zayıf yerde bile bozulmuyor — ama bir soru sınıra yakın.** AC3/14 (A08 paragraf B)
+  bu paketin tek belirsiz sorusu: paragrafın ilk cümlesi 700+ heyelanı sayıyor ("A tally of the
+  slopes that failed"), kalan dört cümlesi olağan haritalama yönteminin buz örtüsü yüzünden
+  neden işe yaramadığını anlatıyor ("Why the usual approach did not work"). Kör çözümde gist
+  gerekçesiyle ikincisi seçildi ve anahtarla uyuştu (güven 3), ancak *her iki başlık da yalnızca
+  bu paragrafa uyuyor* — yani çeldirici, başka bir paragrafa demirlenmiş değil. İkinci
+  doğrulamada bakılmaya en uygun tek aday bu; "vii" başlığını C veya D paragrafına
+  demirlenebilecek bir ifadeyle değiştirmek soruyu tamamen tartışmasız hâle getirir.
+- **Özellik eşleştirmede tekrar izni doğru kullanılmış.** `allow_repeat: true` olan iki sette
+  (AC4 anketler, alıştırma P-MF-01/02) tekrar eden şıklar gerçekten metinden iki ayrı yere
+  dayanıyor (Restorative Outcome Scale hem F hem G paragrafında; kahve/çay hem B'deki günlük
+  yöntemi hem F'deki dökme nedeni). "Tekrar var ama aslında aynı cümleye iki soru" durumu yok.
+  Tekrarsız setlerde ise (AC1-AC3) kullanılmayan şık her seferinde metinde geçen gerçek bir
+  varlık — uydurma boş seçenek yok.
+- **Cümle sonu eşleştirmede dilbilgisi kontrolü tutuyor.** 10 sorunun tamamında kök cümle ile
+  doğru son, hem dilbilgisi hem anlam olarak sorunsuz birleşiyor; ayrıca yanlış sonların çoğu
+  *dilbilgisel olarak da* uyuyor (yani aday sadece dilbilgisine bakarak eleyemiyor), bu tipte
+  en sık görülen üretim hatası burada yok. A07 setinde kullanılmayan üç son (F, G, H) metinde
+  gerçekten geçen bilgiler — sağ göz tercihi, ayna/panel önünde geçen saatler, bağımsız evrim.
+
+**Not (yöntem):** Oturum 2'den kalan cevap dosyaları `dogrulama/cevap-arsiv/oturum2/` altına
+taşındı; karşılaştırma temiz klasörle çalıştı. (Oturum 1 notundaki uyarı hâlâ geçerli:
+`tools/kor-kopya.py` `dogrulama/cevap/` klasörünü temizlemiyor.)

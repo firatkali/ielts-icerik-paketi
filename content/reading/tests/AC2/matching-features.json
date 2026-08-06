@@ -32,7 +32,8 @@
       "feature_check": "Karıştırılabilecek öğe B: pasajdaki iki yer adı da Türkiye'de, bu yüzden 'Türkiye'de bir yer' bilgisi tek başına ayırt etmiyor. Fark şurada: kazıdan çıkan taneler yalnızca A'ya ait; B yalnızca einkorn ekiminin başladığı yer olarak anılıyor, oradan tohum çıktığı hiç söylenmiyor. E de elenir: orada tohum bulunmuyor, orada yalnızca inceleme yapılıyor.",
       "grammar_check": null,
       "explanation": "Paragraf B, incelenen kömürleşmiş buğday tanelerinin bu yerleşimden çıktığını ve benzer yaştaki başka yerlerin bitki kalıntılarına göre alışılmadık ölçüde iyi korunduğunu söylüyor.",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "status": "verified"
     },
     {
       "number": 24,
@@ -43,7 +44,8 @@
       "feature_check": "Karıştırılabilecek öğe B: iki yer de aynı cümlede, ikisi de bir başlangıç iddiasıyla anılıyor, üstelik B basit buğdaylardan birinin yurdu sayılıyor — bu yüzden 24 ile 25 birbirine çok yakın duruyor. Ayrım genişlikte: basit buğday ehlileştirmesinin bütünü geniş bir bölgeye, yani C'ye bağlanıyor; B ise 'özellikle' tek bir buğdayın ekiminin doğduğu daha dar bir yer olarak veriliyor.",
       "grammar_check": null,
       "explanation": "Paragraf G, basit buğdayın ehlileştirilmesinin genellikle yaklaşık on iki bin yıl önce Bereketli Hilal'e dayandırıldığını söylüyor.",
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "status": "verified"
     },
     {
       "number": 25,
@@ -54,7 +56,8 @@
       "feature_check": "Karıştırılabilecek öğe C: aynı cümlede geçtikleri ve ikisi de köken iddiası taşıdığı için aday C'yi seçebilir. Ama C'ye bağlanan, basit buğdayların ehlileştirilmesinin geneli; tek bir buğdayın, einkorn'un ekiminin doğduğu yer olarak 'özellikle' anılan B. A da elenir: orada bulunan buğdayın ekildiği değil, karmaşık genetiğinin beklenenden erken göründüğü söyleniyor.",
       "grammar_check": null,
       "explanation": "Paragraf G, güney Türkiye'deki Karacadağ bölgesinin özellikle einkorn ekiminin doğduğu yer sayıldığını söylüyor.",
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "status": "verified"
     },
     {
       "number": 26,
@@ -65,7 +68,8 @@
       "feature_check": "Karıştırılabilecek öğe C: tarımın Bereketli Hilal'den yayıldığı bilgisi pasajda var, bu yüzden 'yayılmanın gittiği yer' sorulunca aday oraya bakabilir. Ama C yayılmanın çıkış noktası olarak anılıyor, varış yönü olarak değil; hem A hem G paragrafı yolun ucunda D'yi gösteriyor (yerleşim, yayılmada bir durak).",
       "grammar_check": null,
       "explanation": "Paragraf A, yerleşimin üzerinde durduğu yolların sonradan tarım uygulamalarını Avrupa'ya taşıyacağını söylüyor; paragraf G de yerleşimi bu yayılmada bir durak sayıyor.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     }
   ]
 }

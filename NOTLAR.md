@@ -6336,3 +6336,39 @@ hiç kullanılmadı, kalan on soruda birer kez. Çeldirici türü çeşitliliği
   temiz klasörle çalıştı.
 - **Doğrulama:** `python tools/kontrol.py` → 11 kontrolün 11'i geçti.
 - Atlanan/sorun: yok. CAPRAZ-90'ın kalan 5 çalıştırması bekliyor (3–4 opus, 5–7 fable).
+
+---
+
+## CAPRAZ-90 (3. çalıştırma: eşleştirme tipleri — başlık + özellik + cümle sonu, 81 soru)
+
+- **Doğrulanan paket:** okuma — `matching-headings` (7 dosya: alıştırma + AC1–AC4 + GT1–GT2,
+  45 soru), `matching-features` (5 dosya: alıştırma + AC1–AC4, 26 soru) ve
+  `matching-sentence-endings` (1 dosya: alıştırma, 10 soru); toplam 81 soru.
+  **Doğrulayan model: opus, üreteni: fable.**
+- **Sonuç: 81/81 uyuştu (%100,0), işaretlenen 0.** Rapor:
+  `content/DOGRULAMA/eslestirme-tipleri.json` ve `content/DOGRULAMA/RAPOR.md`.
+- **Yöntem:** `tools/kor-kopya.py matching-headings matching-features
+  matching-sentence-endings` ile 13 cevapsız kopya üretildi; orijinal soru dosyaları hiç
+  açılmadan sorular 9 okuma metninden (A01, A02, A05, A07, A08, A09, A10, A11, A12, G05,
+  G06) gerçek aday gibi çözüldü. Karşılaştırmayı `tools/karsilastir.py` yaptı; anahtar
+  ancak 4. adımda görüldü.
+- **İşaretleme:** `tools/_capraz_isaretle.py` ile 81 sorunun hepsine `"status":
+  "verified"` eklendi; `"flagged"` yok, silinen soru yok.
+- **Örüntü:** sistematik hata yok. Başlık eşleştirmede çeldiriciler bilinçli olarak "fazla
+  dar" kurulmuş (AC1 "Choosing animals of a similar build" → B'nin yalnızca ilk cümlesi;
+  A09 "Equipment built especially for the site" → aslında yazılım yöntemi) ya da ters
+  çevrilmiş (A08 "A glacier stopped in its tracks", A11 "An urban view chosen to create
+  stress"). Özellik eşleştirmede `allow_repeat: true` setlerinde tekrar eden şıklar
+  metinde gerçekten iki ayrı yere dayanıyor. Cümle sonu eşleştirmede yanlış sonlar
+  dilbilgisel olarak da uyuyor, yani aday sadece dilbilgisiyle eleyemiyor — bu tipte en
+  sık görülen üretim hatası yok.
+- **İkinci doğrulamada bakılacak tek aday AC3/14** (A08 paragraf B): "vii — A tally of the
+  slopes that failed" paragrafın ilk cümlesine, anahtar cevabı "ii — Why the usual approach
+  did not work" kalan dört cümlesine oturuyor. Kör çözümde gist gerekçesiyle "ii" seçildi
+  ve uyuştu, ama güven 3 verildi; çeldirici başka bir paragrafa demirlenmediği için soru
+  tartışmaya açık. "vii"yi C veya D paragrafına demirlenen bir ifadeyle değiştirmek
+  soruyu tamamen netleştirir.
+- **Yöntem notu:** oturum başında `dogrulama/cevap/` içindeki 8 eski dosya
+  `dogrulama/cevap-arsiv/oturum2/` altına taşındı, karşılaştırma temiz klasörle çalıştı.
+- **Doğrulama:** `python tools/kontrol.py` → 11 kontrolün 11'i geçti.
+- Atlanan/sorun: yok. CAPRAZ-90'ın kalan 4 çalıştırması bekliyor (4 opus, 5–7 fable).

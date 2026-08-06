@@ -38,7 +38,8 @@
       "feature_check": null,
       "grammar_check": null,
       "explanation": "Paragraf B, kazıdan çıkan tanelerin mikroskop altında karmaşık bir buğday gibi göründüğünü ama tür kimliklerinin moleküler düzeyde hiç doğrulanmadığını anlatıyor.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     },
     {
       "number": 15,
@@ -50,7 +51,8 @@
       "feature_check": null,
       "grammar_check": null,
       "explanation": "Paragraf C, uluslararası bir ekibin kömürleşmiş tanelerden doğrudan eski DNA çıkarıp okumaya giriştiğini ve bunun tane biçimine güvenmekten neden daha sağlam olduğunu anlatıyor.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     },
     {
       "number": 16,
@@ -62,7 +64,8 @@
       "feature_check": null,
       "grammar_check": null,
       "explanation": "Paragraf D, bulaşmayı önlemek için işin fiziksel olarak ayrı iki laboratuvara bölündüğünü ve bozulmuş kısa DNA parçalarını yakalamak için özel işaretleyiciler tasarlandığını anlatıyor.",
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "status": "verified"
     },
     {
       "number": 17,
@@ -74,7 +77,8 @@
       "feature_check": null,
       "grammar_check": null,
       "explanation": "Paragraf E, biçimlerine bakılarak basit buğday sayılan örneklerin genetik incelemesinin bunun tersini söylediğini ve çoğu daha önce kaydedilmemiş çeşitlemeler bulunduğunu anlatıyor.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     },
     {
       "number": 18,
@@ -86,7 +90,8 @@
       "feature_check": null,
       "grammar_check": null,
       "explanation": "Paragraf F, eski dizilerin bugünkü altı kromozom takımlı buğdaylara benzediğini ve ekibin bunu ekimin erken bir geçiş evresi olarak yorumladığını anlatıyor.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     }
   ]
 }
