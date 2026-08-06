@@ -1,0 +1,252 @@
+{
+  "schema_version": "1.0",
+  "set_id": "practice-multiple-choice",
+  "skill": "listening",
+  "test_id": null,
+  "section": null,
+  "practice": true,
+  "script_id": null,
+  "question_type": "multiple_choice",
+  "generated_by": "fable",
+  "instructions": "Choose the correct letter, A, B or C.",
+  "box": null,
+  "groups": [
+    {
+      "group_id": "P-MC-01",
+      "script_id": "L3-S2",
+      "question_type": "multiple_choice",
+      "context_line": "You will hear a park ranger telling a group of visitors about three new walking routes and about the layout of the park.",
+      "instructions": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "number": 1,
+          "script_id": "L3-S2",
+          "select_count": 1,
+          "prompt": "How long is the blue route now?",
+          "options": [
+            { "letter": "A", "text": "four and a half miles" },
+            { "letter": "B", "text": "five miles" },
+            { "letter": "C", "text": "seven miles" }
+          ],
+          "answer": ["A"],
+          "evidence": "The blue route is four and a half miles.",
+          "answer_point_id": "L3-S2-08",
+          "turn_index": 3,
+          "distractor_analysis": {
+            "B": "Söylendi sonra düzeltildi — eski broşürlerde beş mil yazıyor; nehir kıyısındaki bölüm su alınca rota kısaltıldı, doğrusu dört buçuk.",
+            "C": "Söylendi ama sorulan bu değil — yedi mil kırmızı rotanın uzunluğu, mavi rotanın değil."
+          },
+          "explanation": "Mavi rota artık dört buçuk mil; eski broşürlerdeki beş mil, nehir kenarındaki bölümün yıkılmasından önceki uzunluk.",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "script_id": "L3-S2",
+          "select_count": 1,
+          "prompt": "When does the guided walk now take place?",
+          "options": [
+            { "letter": "A", "text": "on the first Saturday of the month" },
+            { "letter": "B", "text": "on the first Sunday of the month" },
+            { "letter": "C", "text": "on a Tuesday each month" }
+          ],
+          "answer": ["B"],
+          "evidence": "from this month it's the first Sunday instead",
+          "answer_point_id": "L3-S2-31",
+          "turn_index": 12,
+          "distractor_analysis": {
+            "A": "Söylendi sonra düzeltildi — yürüyüş yıllarca ayın ilk Cumartesi'siydi; sayım gönüllüleri Cumartesilerini geri isteyince bu aydan itibaren ilk Pazar'a alındı.",
+            "C": "Söylendi ama sorulan bu değil — Salı, çalılık temizleme ekibinin yeni toplanma günü; rehberli yürüyüşle ilgisi yok."
+          },
+          "explanation": "Aylık rehberli yürüyüş bu aydan itibaren ayın ilk Pazar günü yapılıyor; ilk Cumartesi eski düzendi.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "group_id": "P-MC-02",
+      "script_id": "L5-S2",
+      "question_type": "multiple_choice",
+      "context_line": "You will hear the co-ordinator of a riverside festival explaining this year's programme and the layout of the site.",
+      "instructions": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "number": 3,
+          "script_id": "L5-S2",
+          "select_count": 1,
+          "prompt": "How much does a weekend ticket cost this year?",
+          "options": [
+            { "letter": "A", "text": "eleven pounds" },
+            { "letter": "B", "text": "fifteen pounds" },
+            { "letter": "C", "text": "eighteen pounds" }
+          ],
+          "answer": ["C"],
+          "evidence": "A weekend ticket is eighteen pounds.",
+          "answer_point_id": "L5-S2-04",
+          "turn_index": 2,
+          "distractor_analysis": {
+            "A": "Söylendi ama sorulan bu değil — on bir pound günlük biletin fiyatı, hafta sonu biletinin değil.",
+            "B": "Söylendi sonra düzeltildi — on beş pound geçen yılın fiyatı; çayır kirası artınca bilet on sekiz pounda çıktı."
+          },
+          "explanation": "Hafta sonu bileti bu yıl on sekiz pound; on beş geçen yılın fiyatı, on bir ise tek günlük bilet.",
+          "difficulty": "easy"
+        },
+        {
+          "number": 4,
+          "script_id": "L5-S2",
+          "select_count": 1,
+          "prompt": "What does the speaker say about the riverside path?",
+          "options": [
+            { "letter": "A", "text": "It will be shut at the weekend." },
+            { "letter": "B", "text": "Nothing may be left on it." },
+            { "letter": "C", "text": "The shuttle bus runs along it." }
+          ],
+          "answer": ["B"],
+          "evidence": "it's a public right of way, so nothing may be parked or stacked on it",
+          "answer_point_id": "L5-S2-16",
+          "turn_index": 6,
+          "distractor_analysis": {
+            "A": "Söylenenin tersine çevrilmiş hâli — konuşmacı yolun bütün hafta sonu açık kalacağını söylüyor; kapatılacağı söylenmiyor.",
+            "C": "Söylendi ama sorulan bu değil — servis otobüsü park-and-ride hattında, eğlence merkezinden çalışıyor; nehir yoluyla ilgisi yok."
+          },
+          "explanation": "Nehir kenarı yolu kamuya açık bir geçit; bu yüzden üzerine hiçbir şey park edilemiyor ya da yığılamıyor.",
+          "difficulty": "medium"
+        },
+        {
+          "number": 5,
+          "script_id": "L5-S2",
+          "select_count": 1,
+          "prompt": "What does the speaker say about this year's workshops?",
+          "options": [
+            { "letter": "A", "text": "They are held on Saturdays only." },
+            { "letter": "B", "text": "They charge a small fee." },
+            { "letter": "C", "text": "They run on both days." }
+          ],
+          "answer": ["C"],
+          "evidence": "The workshops used to be Saturday only; from this year they run on both days.",
+          "answer_point_id": "L5-S2-24",
+          "turn_index": 9,
+          "distractor_analysis": {
+            "A": "Söylendi sonra düzeltildi — atölyeler eskiden yalnız Cumartesi günleriydi; bu yıldan itibaren iki gün de yapılıyor.",
+            "B": "Söylenenin tersine çevrilmiş hâli — konuşmacı atölyelerin ücretsiz olduğunu açıkça söylüyor."
+          },
+          "explanation": "Atölyeler bu yıldan itibaren festivalin iki gününde de yapılıyor; yalnız Cumartesi düzeni geçmişte kaldı ve ücret alınmıyor.",
+          "difficulty": "easy"
+        },
+        {
+          "number": 6,
+          "script_id": "L5-S2",
+          "select_count": 1,
+          "prompt": "Where can printed copies of the programme be collected?",
+          "options": [
+            { "letter": "A", "text": "from the information point" },
+            { "letter": "B", "text": "from the festival office" },
+            { "letter": "C", "text": "by post, to people's homes" }
+          ],
+          "answer": ["A"],
+          "evidence": "printed copies will be at the information point from the tenth of August",
+          "answer_point_id": "L5-S2-32",
+          "turn_index": 12,
+          "distractor_analysis": {
+            "B": "Söylendi ama sorulan bu değil — festival bürosu hafta içi sabahları yüz yüze soru sormak isteyenler için açık; basılı program orada dağıtılmıyor.",
+            "C": "Sesle hiç geçmeyen çeldirici — programın eve postalanacağı hiç söylenmiyor."
+          },
+          "explanation": "Basılı programlar on Ağustos'tan itibaren danışma noktasında olacak; büro yalnızca soru sormak için açık.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "group_id": "P-MC-03",
+      "script_id": "L6-S2",
+      "question_type": "multiple_choice",
+      "context_line": "You will hear the manager of a farmers' market talking to local residents about the market's move into a covered hall.",
+      "instructions": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "number": 7,
+          "script_id": "L6-S2",
+          "select_count": 1,
+          "prompt": "Where is the market moving to?",
+          "options": [
+            { "letter": "A", "text": "its old site in Colworth Square" },
+            { "letter": "B", "text": "the covered hall on Peveril Street" },
+            { "letter": "C", "text": "the car park in Baxter Street" }
+          ],
+          "answer": ["B"],
+          "evidence": "we're taking the market indoors, into the old covered hall on Peveril Street",
+          "answer_point_id": "L6-S2-01",
+          "turn_index": 0,
+          "distractor_analysis": {
+            "A": "Söylendi sonra düzeltildi kalıbında eski durum — pazar on bir yıldır Colworth Meydanı'nda kuruluyordu; artık oradan ayrılıyor.",
+            "C": "Söylendi ama sorulan bu değil — Baxter Street otoparkı arabayla gelenlerin park yeri; pazarın kurulacağı yer değil."
+          },
+          "explanation": "Pazar, Colworth Meydanı'ndan Peveril Street'teki eski kapalı salona taşınıyor; Baxter Street yalnızca otopark.",
+          "difficulty": "easy"
+        },
+        {
+          "number": 8,
+          "script_id": "L6-S2",
+          "select_count": 1,
+          "prompt": "How many stalls will the new hall hold?",
+          "options": [
+            { "letter": "A", "text": "nineteen" },
+            { "letter": "B", "text": "twenty-eight" },
+            { "letter": "C", "text": "thirty-two" }
+          ],
+          "answer": ["C"],
+          "evidence": "The hall has room for thirty-two, and twenty-eight of those are already spoken for.",
+          "answer_point_id": "L6-S2-07",
+          "turn_index": 3,
+          "distractor_analysis": {
+            "A": "Söylendi sonra düzeltildi kalıbında eski durum — on dokuz, meydana sığabilen tezgâh sayısıydı; salonun kapasitesi değil.",
+            "B": "Söylendi ama sorulan bu değil — yirmi sekiz şimdiden tutulan tezgâh sayısı, salonun alabileceği toplam değil."
+          },
+          "explanation": "Salonda otuz iki tezgâhlık yer var; on dokuz eski meydanın sınırıydı, yirmi sekiz ise şimdiden ayrılan tezgâhlar.",
+          "difficulty": "medium"
+        },
+        {
+          "number": 9,
+          "script_id": "L6-S2",
+          "select_count": 1,
+          "prompt": "To attend a cooking demonstration, visitors must",
+          "options": [
+            { "letter": "A", "text": "add their name to a list." },
+            { "letter": "B", "text": "pay a small charge." },
+            { "letter": "C", "text": "arrive by eleven in the morning." }
+          ],
+          "answer": ["A"],
+          "evidence": "you do need to put your name on the list at the information desk",
+          "answer_point_id": "L6-S2-26",
+          "turn_index": 9,
+          "distractor_analysis": {
+            "B": "Söylenenin tersine çevrilmiş hâli — gösterilerin ücretsiz olduğu aynı replikte açıkça söyleniyor.",
+            "C": "Söylendi sonra düzeltildi — gösteriler yıllarca on birde başlıyordu; ilki artık on iki buçukta, yani on birde gelmek gerekmiyor."
+          },
+          "explanation": "Yalnızca otuz kişilik yer olduğu için gösteriye katılmak isteyenlerin danışma masasındaki listeye ad yazdırması gerekiyor.",
+          "difficulty": "medium"
+        },
+        {
+          "number": 10,
+          "script_id": "L6-S2",
+          "select_count": 1,
+          "prompt": "How much will the loyalty card cost shoppers?",
+          "options": [
+            { "letter": "A", "text": "five pounds a year" },
+            { "letter": "B", "text": "nothing at all" },
+            { "letter": "C", "text": "one pound a year" }
+          ],
+          "answer": ["B"],
+          "evidence": "the traders have agreed to fund it between them, so it will be free",
+          "answer_point_id": "L6-S2-30",
+          "turn_index": 12,
+          "distractor_analysis": {
+            "A": "Söylendi sonra düzeltildi — kart yılda beş pounda satılacaktı; satıcılar masrafı aralarında üstlenince ücretsiz oldu.",
+            "C": "Söylendi ama sorulan bu değil — bir pound, onuncu damganın alışverişten düşürdüğü tutar; kartın ücreti değil."
+          },
+          "explanation": "Sadakat kartı müşteriye para tutmuyor: beş poundluk plan satıcıların masrafı üstlenmesiyle iptal oldu, kart ücretsiz.",
+          "difficulty": "medium"
+        }
+      ]
+    }
+  ]
+}

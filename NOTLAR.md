@@ -6100,3 +6100,57 @@ hiç kullanılmadı, kalan on soruda birer kez. Çeldirici türü çeşitliliği
   (7/9) — `content/listening/practice/multiple-choice.json`, numaralar 1'den,
   `test_id` null, `practice` true, `groups` sarmalayıcısı, senaryo başına en fazla
   4 soru, tam testlerde kullanılan bilgi noktaları CEVAP yapılamaz.
+
+## FABLE5-43 (7. çalıştırma: alıştırma — çoktan seçmeli tek cevap, 10 soru)
+
+- **Üretilen:** `content/listening/practice/multiple-choice.json` — 10 tek cevaplı soru,
+  `groups` sarmalayıcısıyla üç küme: L3-S2 → 2 soru (1–2), L5-S2 → 4 soru (3–6),
+  L6-S2 → 4 soru (7–10). Numaralar 1'den, `test_id` null, `practice` true,
+  `select_count` hepsinde 1. Dinleme alıştırması 90 → **100** soruya çıktı.
+- **Senaryo seçimi:** üç küme de 2. bölüm (tek konuşmacılı anlatım) senaryolarından —
+  önceki çalıştırmaların NOTLAR kayıtlarında **bilinçle alıştırmaya bırakılan** düzeltmeli
+  çeldirici noktaları kullanıldı: `L3-S2-08` (5 → 4,5 mil; OPUS5-21 3. çalıştırmasının
+  "FABLE5-43'ün ÇS alanına daha uygun" notu), `L5-S2-04` (15 → 18 £) ve `L5-S2-24`
+  (yalnız Cumartesi → iki gün; L5 tam testine sığmayan iki nokta), `L6-S2-07`
+  (19 → 32 tezgâh) ve `L6-S2-30` (5 £ → ücretsiz; OPUS5-21 6. çalıştırmasının bıraktığı
+  havuzdan). Kalan cevap noktaları: `L3-S2-31` (ilk Cumartesi → ilk Pazar), `L5-S2-16`
+  (nehir yolu), `L5-S2-32` (basılı program), `L6-S2-01` (Peveril Street salonu),
+  `L6-S2-26` (gösteri listesi). Yeni bilgi noktası açmak gerekmedi; senaryo dosyalarına
+  dokunulmadı.
+- **Çakışma denetimi:** 10 cevap noktasının hiçbiri tam testlerde veya diğer alıştırma
+  dosyalarında cevap değil (betikle doğrulandı). Tam testte yalnız çeldirici zemini olan
+  noktalar cevap yapılabildi (L3/L4/L5 emsalinin simetriği): `L5-S2-16`, L5 tam testinin
+  14–15 çift sorusunda "aslında serbest olan yol" çeldirici zeminiydi; burada sorulan
+  bilgi farklı (yolun üzerine bir şey bırakılamaması, açık olması değil). `L6-S2-24`
+  (gösteri 11 → 12.30) L6 tam testinde boşta kalan kutu harfinin (E) zeminiydi; burada
+  cevap değil, 9. sorunun C çeldiricisi.
+- **Yerleşim ve sıra kuralı:** küme içi replik dizileri L3: 3-12, L5: 2-6-9-12,
+  L6: 0-3-9-12 — bütün aralıklar ≥3 (`tools/_p43_kontrol.py` doğruluyor; küme sınırında
+  aralık kuralı uygulanmıyor, L1–L6 emsali).
+- **Çeldirici türleri:** her soruda en az iki farklı tür. "Söylendi sonra düzeltildi"
+  8 soruda (1-B, 2-A, 3-B, 5-A, 7-A, 8-A, 9-C, 10-A; 7-A ve 8-A eski durum → yeni durum
+  kalıbında, senaryo `notes` alanı ikisini de düzeltme çeldiricisi sayıyor); "söylendi ama
+  sorulan bu değil" 8 soruda; "söylenenin tersine çevrilmiş hâli" 3 çeldiricide (4-A, 5-B,
+  9-B — L5 tam testindeki kutu-F emsali); sesle hiç geçmeyen: yalnız 6-C (soru başına ≤1 ✓).
+  "Başkası söyledi" türü üç senaryo da tek konuşmacılı olduğu için yapısal olarak imkânsız
+  (L1 emsali).
+- **Elenen taslaklar (3):** (1) L5-S2 su noktası sorusu (t5, çeşme) — iki çeldirici de
+  aynı türe (tür 3) düşüyordu; yerine nehir yolu sorusu (t6) yazıldı. (2) L6-S2 balık
+  tezgâhı sebep sorusu (t6, drenaj) — L6 tam testinin plan 17. sorusuyla çifte kullanım
+  riski (6. çalıştırmada da aynı gerekçeyle elenmişti). (3) L6-S2 açılış saati sorusu
+  (t1, 9.00 → 8.30) — t0'daki taşınma sorusuyla arası 1 replik kalıyordu; taşınma sorusu
+  (hedef nokta `L6-S2-01` daha önce hiç kullanılmamıştı) tercih edildi, `L6-S2-03` 8–9.
+  çalıştırmalara kaldı. Üretilip son kontrolde silinen soru yok: üç senaryo baştan sona
+  okunarak 10 soru anahtara bakılmadan çözüldü, **10/10 uyuştu**.
+- **Harf dengesi:** A, B, C, B, C, A, B, C, A, B — üst üste aynı harf yok; A×3, B×4, C×3.
+- **Doğrulama:** `python tools/dogrula.py` → şema hatası 0, alıştırma 100, görünür metinde
+  IELTS 0; `python tools/_p43_kontrol.py` → 0 sorun (evidence birebir, turn_index bilgi
+  noktasıyla uyumlu, replik aralıkları ≥3, 10 kelime seçenek / 50 kelime kök+seçenek
+  sınırı, senaryo başına ≤4 soru, numaralar 1–10 ardışık, başka dosyada cevap olan nokta
+  yok). Betik depoya kondu; 8–9. çalıştırmalar dosya adı argümanıyla kullanabilir.
+- Referans: dinleme ÇS tek cevap anahtar + transkript PDF'leri okundu (yalnız format;
+  metin alınmadı).
+- Atlanan/sorun: yok. Sıradaki çalıştırma: **alıştırma ÇS çok cevaplı, 10 soru** (8/9) —
+  `content/listening/practice/multiple-choice-multi.json`, `question_type`
+  `multiple_choice_multi`, çift cevaplı kalıp (`Choose TWO letters, A-E`), bu dosyanın
+  cevap noktaları da artık kullanılamaz.
