@@ -1,0 +1,162 @@
+{
+  "schema_version": "1.0",
+  "set_id": "practice-multiple-choice-multi",
+  "skill": "listening",
+  "test_id": null,
+  "section": null,
+  "practice": true,
+  "script_id": null,
+  "question_type": "multiple_choice_multi",
+  "generated_by": "fable",
+  "instructions": "Choose TWO letters, A-E.",
+  "box": null,
+  "groups": [
+    {
+      "group_id": "P-MCM-01",
+      "script_id": "L1-S2",
+      "question_type": "multiple_choice_multi",
+      "context_line": "You will hear a member of staff welcoming visitors to a museum that has recently opened.",
+      "instructions": "Choose TWO letters, A-E.",
+      "items": [
+        {
+          "number": "1-2",
+          "script_id": "L1-S2",
+          "select_count": 2,
+          "prompt": "Which TWO things does the speaker say about the guided tours?",
+          "options": [
+            { "letter": "A", "text": "They begin at half past eleven." },
+            { "letter": "B", "text": "They leave from the ticket desk." },
+            { "letter": "C", "text": "They must be booked in advance." },
+            { "letter": "D", "text": "They last about forty-five minutes." },
+            { "letter": "E", "text": "They cost six pounds." }
+          ],
+          "answer": ["B", "D"],
+          "evidence": "they now set off from the ticket desk at eleven and at two. A tour takes about forty-five minutes.",
+          "answer_point_id": "L1-S2-11",
+          "turn_index": 4,
+          "distractor_analysis": {
+            "A": "Söylendi sonra düzeltildi — turlar başta on bir buçuk ve iki buçuk için duyurulmuştu; ilkini kaçıranlar çoğalınca saatler on bir ve ikiye çekildi.",
+            "C": "Söylenenin tersine çevrilmiş hâli — sekiz kişiden kalabalık gruplar dışında kimsenin yer ayırtması gerekmiyor.",
+            "E": "Söylendi ama sorulan bu değil — altı pound üst kattaki geçici serginin giriş ücreti; turların ücretinden hiç söz edilmiyor."
+          },
+          "explanation": "Turlar bilet gişesinin önünden kalkıyor (B) ve yaklaşık kırk beş dakika sürüyor (D). İkinci cevap noktası: L1-S2-10.",
+          "difficulty": "medium"
+        },
+        {
+          "number": "3-4",
+          "script_id": "L1-S2",
+          "select_count": 2,
+          "prompt": "Which TWO things does the speaker say about getting to the museum?",
+          "options": [
+            { "letter": "A", "text": "The car park is on Bridge Street." },
+            { "letter": "B", "text": "The car park can only be used at weekends." },
+            { "letter": "C", "text": "Parking is free at weekends." },
+            { "letter": "D", "text": "Bicycles must be left outside the gate." },
+            { "letter": "E", "text": "The number fourteen bus stops right outside." }
+          ],
+          "answer": ["C", "E"],
+          "evidence": "it's free at weekends. The number fourteen bus stops directly outside our door",
+          "answer_point_id": "L1-S2-30",
+          "turn_index": 13,
+          "distractor_analysis": {
+            "A": "Söylendi ama sorulan bu değil — Bridge Street müzenin ana girişinin açıldığı cadde; en yakın otopark Foundry Lane'de.",
+            "B": "Söylendi ama sorulan bu değil — hafta sonu, otoparkın ücretsiz olduğu zaman; yalnızca hafta sonları kullanılabildiği söylenmiyor.",
+            "D": "Söylenenin tersine çevrilmiş hâli — bisiklet rafları kapının hemen içinde, dışında değil."
+          },
+          "explanation": "Foundry Lane'deki otopark hafta sonları ücretsiz (C) ve on dört numaralı otobüs kapının tam önünde duruyor (E). İkinci cevap noktası: L1-S2-31.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "group_id": "P-MCM-02",
+      "script_id": "L4-S2",
+      "question_type": "multiple_choice_multi",
+      "context_line": "You will hear the supervisor of a household recycling centre talking to local residents about the rebuilt site and how to use it.",
+      "instructions": "Choose TWO letters, A-E.",
+      "items": [
+        {
+          "number": "5-6",
+          "script_id": "L4-S2",
+          "select_count": 2,
+          "prompt": "Which TWO things does the speaker say about the van permit?",
+          "options": [
+            { "letter": "A", "text": "There is no charge for it." },
+            { "letter": "B", "text": "It covers twelve visits a year." },
+            { "letter": "C", "text": "It can be signed for at the gate." },
+            { "letter": "D", "text": "It is needed for ordinary cars." },
+            { "letter": "E", "text": "Holders may bring building waste in." }
+          ],
+          "answer": ["A", "B"],
+          "evidence": "The permit is free and it gives you twelve visits a year.",
+          "answer_point_id": "L4-S2-20",
+          "turn_index": 9,
+          "distractor_analysis": {
+            "C": "Söylendi sonra düzeltildi — kapıda form imzalama usulü sahanın yeniden açıldığı gün kaldırıldı; başvuru artık en az üç iş günü önceden ve yalnız çevrimiçi.",
+            "D": "Söylenenin tersine çevrilmiş hâli — otomobiller eskisi gibi giriyor: rezervasyon da form da yok; izin kamyonet, pikap ve römork çekenler için.",
+            "E": "Söylenenin tersine çevrilmiş hâli — ödünç kamyonetle gelen inşaat atığı ticari atık sayılıyor ve saha bunu kabul edemiyor."
+          },
+          "explanation": "İzin belgesi ücretsiz (A) ve yılda on iki ziyaret hakkı veriyor (B). İki cevap da L4-S2-20 noktasının repliğinde.",
+          "difficulty": "easy"
+        },
+        {
+          "number": "7-8",
+          "script_id": "L4-S2",
+          "select_count": 2,
+          "prompt": "Which TWO things are visitors not allowed to do?",
+          "options": [
+            { "letter": "A", "text": "drive a car in without booking" },
+            { "letter": "B", "text": "bring garden soil to the site" },
+            { "letter": "C", "text": "buy secondhand goods at the site" },
+            { "letter": "D", "text": "let children move around the site" },
+            { "letter": "E", "text": "take items back out of a container" }
+          ],
+          "answer": ["D", "E"],
+          "evidence": "Children stay in the vehicle, please. Nobody reverses onto the ramp on their own — a member of staff will guide you in, and will park it for you if you'd rather. Closed shoes rather than sandals. And you can't take anything back out of a container once it's been tipped",
+          "answer_point_id": "L4-S2-34",
+          "turn_index": 14,
+          "distractor_analysis": {
+            "A": "Söylenenin tersine çevrilmiş hâli — otomobiller her zamanki gibi giriyor: rezervasyon yok, doldurulacak bir şey yok.",
+            "B": "Söylendi ama sorulan bu değil — evden gelen toprak ve moloz ziyaret başına dört torbaya kadar kabul ediliyor; yasak değil.",
+            "C": "Söylendi ama sorulan bu değil — yeniden kullanım dükkânındaki her şey denenip test edilmiş ve satışta; almak serbest."
+          },
+          "explanation": "Çocukların araçtan inmesi (D) ve konteynere atılmış bir şeyin geri alınması (E) yasak; ikincisi sigorta gereği, atılan her şey o andan itibaren belediyenin. İkinci cevap noktası: L4-S2-35.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "group_id": "P-MCM-03",
+      "script_id": "L6-S3",
+      "question_type": "multiple_choice_multi",
+      "context_line": "You will hear two students discussing their literature search for a review assignment with a subject librarian.",
+      "instructions": "Choose TWO letters, A-E.",
+      "items": [
+        {
+          "number": "9-10",
+          "script_id": "L6-S3",
+          "select_count": 2,
+          "prompt": "Which TWO things does the librarian tell the students to do before closing a database?",
+          "options": [
+            { "letter": "A", "text": "save the search" },
+            { "letter": "B", "text": "tick the full text filter" },
+            { "letter": "C", "text": "note the date it was run" },
+            { "letter": "D", "text": "export all the records in one batch" },
+            { "letter": "E", "text": "fill in the screening sheet" }
+          ],
+          "answer": ["A", "C"],
+          "evidence": "save your search in each database before you close it, and note down the date you ran it",
+          "answer_point_id": "L6-S3-33",
+          "turn_index": 39,
+          "distractor_analysis": {
+            "B": "Söylenenin tersine çevrilmiş hâli — kütüphaneci tam metin filtresini özellikle işaretlemeyin diyor; filtre kütüphanenin getirtebileceği her şeyi gizliyor.",
+            "D": "Başkası söyledi — hepsini tek seferde dışa aktarmayı Tomas soruyor; kütüphaneci sınırın tek seferde iki yüz kayıt olduğunu söylüyor.",
+            "E": "Söylendi ama sorulan bu değil — tarama sayfası özetleri elerken ret gerekçelerini yazmak için; veri tabanını kapatmadan önce yapılacak iş değil."
+          },
+          "explanation": "Kütüphaneciye göre her veri tabanı kapatılmadan önce arama kaydedilmeli (A) ve çalıştırıldığı tarih not edilmeli (C); tarih yöntem bölümüne girecek. İki cevap da L6-S3-33'ün repliğinde.",
+          "difficulty": "medium"
+        }
+      ]
+    }
+  ]
+}

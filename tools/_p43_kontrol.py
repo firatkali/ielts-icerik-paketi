@@ -30,8 +30,13 @@ def main():
         prev = None
         for it in g["items"]:
             no, ti = it["number"], it["turn_index"]
-            nums.append(no)
-            senaryo[sid] += 1
+            if isinstance(no, str) and "-" in no:
+                a, b = no.split("-")
+                acilim = [int(a), int(b)]
+            else:
+                acilim = [int(no)]
+            nums += acilim
+            senaryo[sid] += len(acilim)
             apids.append(it["answer_point_id"])
             if it["evidence"] not in ts[ti]:
                 sorun += 1
