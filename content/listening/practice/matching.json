@@ -1,0 +1,270 @@
+{
+  "schema_version": "1.0",
+  "set_id": "practice-matching",
+  "skill": "listening",
+  "test_id": null,
+  "section": null,
+  "practice": true,
+  "script_id": null,
+  "question_type": "matching",
+  "generated_by": "fable",
+  "instructions": "What does the tutor say about each of the following? Choose your answers from the box for each set and write the correct letter next to questions 1-10.",
+  "box": null,
+  "groups": [
+    {
+      "group_id": "P-MA-01",
+      "script_id": "L1-S3",
+      "question_type": "matching",
+      "context_line": "You will hear two students discussing a group presentation with their tutor.",
+      "instructions": "What does the tutor say about each of the following?\n\nChoose THREE answers from the box and write the correct letter, A-E, next to questions 1-3.",
+      "box": {
+        "label": null,
+        "options": [
+          { "letter": "A", "text": "Too much text on it will cost marks." },
+          { "letter": "B", "text": "It must reach the tutor by midday the day before." },
+          { "letter": "C", "text": "It contains information that is out of date." },
+          { "letter": "D", "text": "It should be no more than half a page." },
+          { "letter": "E", "text": "It should follow last year's version." }
+        ]
+      },
+      "allow_repeat": false,
+      "items": [
+        {
+          "number": 1,
+          "script_id": "L1-S3",
+          "select_count": 1,
+          "prompt": "the slides",
+          "options": null,
+          "answer": ["A"],
+          "evidence": "Most groups put far too much text on the screen and then read it out, and that is the single most common reason people lose marks.",
+          "answer_point_id": "L1-S3-06",
+          "turn_index": 8,
+          "distractor_analysis": {
+            "B": "Başka öğe için söylendi (tür 3) — gün ortasına kadar danışmana ulaşması gereken şey el notunun elektronik kopyası, slaytlar değil.",
+            "C": "Başka öğe için söylendi — güncelliğini yitirmiş olanlar ulusal anket (üç yaşında) ve geçen yılın el kitabı.",
+            "D": "Başka öğe için söylendi — yarım sayfa sınırı danışmana e-postayla gidecek taslak plana ait.",
+            "E": "Söylendi sonra düzeltildi kökenli — geçen yılın el kitabındaki kılavuz güncel değil, doğrusu ders sayfasındaki; slaytlar için eski sürümden söz edilmiyor."
+          },
+          "explanation": "Danışman, en sık puan kaybettiren şeyin ekrana çok fazla metin koyup okumak olduğunu söylüyor; slayt sayısını da bu yüzden onla sınırlıyor.",
+          "difficulty": "medium"
+        },
+        {
+          "number": 2,
+          "script_id": "L1-S3",
+          "select_count": 1,
+          "prompt": "the national survey",
+          "options": null,
+          "answer": ["C"],
+          "evidence": "You can, but it's three years old now and it won't tell you anything about your particular schools.",
+          "answer_point_id": "L1-S3-13",
+          "turn_index": 18,
+          "distractor_analysis": {
+            "A": "Başka öğe için söylendi — puan kaybettiren şey slaytlardaki fazla metin, anket değil.",
+            "B": "Başka öğe için söylendi — teslim saati el notuna ait; anket için teslim tarihi yok.",
+            "D": "Başka öğe için söylendi — yarım sayfa, taslak planın sınırı.",
+            "E": "Söylendi sonra düzeltildi kökenli — 'geçen yılın sürümü' kaynakça kılavuzu tartışmasından; anketin sürümlerinden söz edilmiyor."
+          },
+          "explanation": "Danışman ulusal anketin artık üç yaşında olduğunu, öğrencilerin okulları hakkında bir şey söylemeyeceğini belirtiyor — yani içeriği güncel değil.",
+          "difficulty": "medium"
+        },
+        {
+          "number": 3,
+          "script_id": "L1-S3",
+          "select_count": 1,
+          "prompt": "the handout",
+          "options": null,
+          "answer": ["B"],
+          "evidence": "One side of A4, and I'd like an electronic copy by noon on the day before, so that I can print it for everybody.",
+          "answer_point_id": "L1-S3-21",
+          "turn_index": 27,
+          "distractor_analysis": {
+            "A": "Başka öğe için söylendi — fazla metinle puan kaybı slaytlar hakkında.",
+            "C": "Söylendi ama sorulan bu değil — güncel olmayanlar ulusal anket ve geçen yılın el kitabı; el notunun kendisi değil.",
+            "D": "Söylendi ama sorulan bu değil — el notu yarım sayfa değil bir A4 yüzü; yarım sayfa olan, taslak plan.",
+            "E": "Söylendi sonra düzeltildi — el notundaki kaynakça için geçen yılın el kitabı değil ders sayfasındaki kılavuz izlenecek; eski sürüm tam da düzeltilen şey."
+          },
+          "explanation": "El notunun elektronik kopyası, danışman herkese basabilsin diye bir gün önce öğlene kadar (by noon) danışmana ulaşmak zorunda.",
+          "difficulty": "easy"
+        }
+      ]
+    },
+    {
+      "group_id": "P-MA-02",
+      "script_id": "L4-S3",
+      "question_type": "matching",
+      "context_line": "You will hear two students discussing a conference poster with their tutor.",
+      "instructions": "What does the tutor say about each of the following features of the students' poster?\n\nChoose THREE answers from the box and write the correct letter, A-E, next to questions 4-6.",
+      "box": {
+        "label": null,
+        "options": [
+          { "letter": "A", "text": "It should be the first thing people see." },
+          { "letter": "B", "text": "Two of them look alike to some viewers." },
+          { "letter": "C", "text": "It should be half its current length." },
+          { "letter": "D", "text": "It should run along the bottom of the poster." },
+          { "letter": "E", "text": "It must be readable from a few metres away." }
+        ]
+      },
+      "allow_repeat": false,
+      "items": [
+        {
+          "number": 4,
+          "script_id": "L4-S3",
+          "select_count": 1,
+          "prompt": "the method section",
+          "options": null,
+          "answer": ["D"],
+          "evidence": "And the method goes along the bottom as a narrow strip, small, with the diagram in it.",
+          "answer_point_id": "L4-S3-06",
+          "turn_index": 7,
+          "distractor_analysis": {
+            "A": "Başkası söyledi — yöntemin ilk görülen şey olması Idris'in savunduğu düzen; danışman tam tersine en alta koyuyor.",
+            "B": "Başka öğe için söylendi (tür 3) — birbirine karışan iki şey çizgi renkleri (kırmızı ile yeşil).",
+            "C": "Başka öğe için söylendi — yarıya inecek olan poster metni (sekiz yüz kelime).",
+            "E": "Başka öğe için söylendi — uzaktan okunabilirlik başlığın kuralı."
+          },
+          "explanation": "Danışmanın standart cevabında yöntem, diyagramıyla birlikte posterin en altında dar bir şerit olarak yer alıyor.",
+          "difficulty": "medium"
+        },
+        {
+          "number": 5,
+          "script_id": "L4-S3",
+          "select_count": 1,
+          "prompt": "the colours of the lines",
+          "options": null,
+          "answer": ["B"],
+          "evidence": "Change the red and the green. Roughly one man in twelve can't reliably tell those two apart, and one of your judges is among them.",
+          "answer_point_id": "L4-S3-11",
+          "turn_index": 13,
+          "distractor_analysis": {
+            "A": "Başkası söyledi / sorulan bu değil — 'ilk görülen şey' tartışması yerleşim düzenine ait ve Idris'in görüşü.",
+            "C": "Başka öğe için söylendi — yarıya inme metnin kuralı.",
+            "D": "Başka öğe için söylendi — alt şerit yöntem bölümünün yeri.",
+            "E": "Başka öğe için söylendi — birkaç metreden okunma başlığın kuralı."
+          },
+          "explanation": "Danışman kırmızı ile yeşili değiştirtiyor: kabaca on iki erkekten biri bu iki rengi güvenilir biçimde ayırt edemiyor.",
+          "difficulty": "medium"
+        },
+        {
+          "number": 6,
+          "script_id": "L4-S3",
+          "select_count": 1,
+          "prompt": "the title",
+          "options": null,
+          "answer": ["E"],
+          "evidence": "Nothing under thirty for the body, and the title wants to be readable from about three metres away.",
+          "answer_point_id": "L4-S3-15",
+          "turn_index": 17,
+          "distractor_analysis": {
+            "A": "Başkası söyledi — Idris'in yöntem bölümü için savunduğu konum; başlık hakkında söylenmiyor.",
+            "B": "Başka öğe için söylendi — birbirine benzeyenler kırmızı ve yeşil çizgiler.",
+            "C": "Söylendi ama sorulan bu değil — yarıya inecek olan gövde metni; başlığın uzunluğu tartışılmıyor.",
+            "D": "Başka öğe için söylendi — posterin altında duracak olan yöntem şeridi."
+          },
+          "explanation": "Başlığın yaklaşık üç metre uzaklıktan okunabilmesi gerekiyor; danışman bunu köşe basıp koridordan bakarak test etmelerini öneriyor.",
+          "difficulty": "easy"
+        }
+      ]
+    },
+    {
+      "group_id": "P-MA-03",
+      "script_id": "L5-S3",
+      "question_type": "matching",
+      "context_line": "You will hear two students discussing the design of a questionnaire with their tutor.",
+      "instructions": "What does the tutor say about each of the following parts of the students' project?\n\nChoose FOUR answers from the box and write the correct letter, A-F, next to questions 7-10.",
+      "box": {
+        "label": null,
+        "options": [
+          { "letter": "A", "text": "It includes time for audience questions." },
+          { "letter": "B", "text": "It comes a week later than originally planned." },
+          { "letter": "C", "text": "It should mix two different styles." },
+          { "letter": "D", "text": "It must not involve the students' friends." },
+          { "letter": "E", "text": "It must fit on a single page." },
+          { "letter": "F", "text": "It should be carried out on paper." }
+        ]
+      },
+      "allow_repeat": false,
+      "items": [
+        {
+          "number": 7,
+          "script_id": "L5-S3",
+          "select_count": 1,
+          "prompt": "the questionnaire",
+          "options": null,
+          "answer": ["C"],
+          "evidence": "Closed questions for the body of it — Marit's scale is fine — and then two open ones at the very end, where a refusal costs you nothing.",
+          "answer_point_id": "L5-S3-10",
+          "turn_index": 14,
+          "distractor_analysis": {
+            "A": "Başka öğe için söylendi (tür 3) — soru-cevap süresi sunuma ait (on artı beş dakika).",
+            "B": "Söylenenin tersine çevrilmiş hâli — tarihi değişen etik formu ve ileri değil geriye alındı (on ikisinden beşine); anketle ilgili de değil.",
+            "D": "Başka öğe için söylendi — arkadaş yasağı pilot denemeye ait.",
+            "E": "Başka öğe için söylendi — tek sayfa sınırı bilgi formu ile onam metnine ait.",
+            "F": "Başkası söyledi — kağıda kaydetmeyi savunan Devan; danışman araç seçimini öğrencilere bırakıp yalnızca tutarlılık istiyor."
+          },
+          "explanation": "Danışman iki stili birleştiriyor: anketin gövdesi kapalı (ölçekli) sorulardan oluşacak, en sonda ise iki açık soru yer alacak.",
+          "difficulty": "medium"
+        },
+        {
+          "number": 8,
+          "script_id": "L5-S3",
+          "select_count": 1,
+          "prompt": "the pilot",
+          "options": null,
+          "answer": ["D"],
+          "evidence": "Twenty, and not on each other. Friends read the question you meant to write rather than the one you actually wrote.",
+          "answer_point_id": "L5-S3-17",
+          "turn_index": 24,
+          "distractor_analysis": {
+            "A": "Başka öğe için söylendi — sunuma ait.",
+            "B": "Söylenenin tersine çevrilmiş hâli — etik formunun tarihi bir hafta geç değil, komite bir hafta erken toplandığı için öne alındı; pilot için tarih verilmiyor.",
+            "C": "Söylendi ama sorulan bu değil — iki stilin karışımı anketin gövdesiyle sonu hakkında.",
+            "E": "Başka öğe için söylendi — bilgi formunun sınırı.",
+            "F": "Başkası söyledi — Devan'ın saha kaydı görüşü; pilotun kağıtla yapılacağı söylenmiyor."
+          },
+          "explanation": "Pilot, birbirleri ya da arkadaşlar üzerinde yapılmayacak: arkadaşlar yazılan soruyu değil yazılmak isteneni okuyor; projeyi hiç duymamış kişiler gerekiyor.",
+          "difficulty": "medium"
+        },
+        {
+          "number": 9,
+          "script_id": "L5-S3",
+          "select_count": 1,
+          "prompt": "the information sheet",
+          "options": null,
+          "answer": ["E"],
+          "evidence": "It does, along with the consent wording. One page each, and no more than that.",
+          "answer_point_id": "L5-S3-20",
+          "turn_index": 28,
+          "distractor_analysis": {
+            "A": "Başka öğe için söylendi — soru-cevap süresi sunumun parçası.",
+            "B": "Söylenenin tersine çevrilmiş hâli — öne alınan, etik formunun tarihi; bilgi formu için ayrıca tarih verilmiyor.",
+            "C": "Başka öğe için söylendi — stil karışımı anket sorularına ait.",
+            "D": "Başka öğe için söylendi — arkadaş yasağı pilotun kuralı.",
+            "F": "Başkası söyledi — Devan'ın kayıt aracı görüşü; bilgi formuyla ilgisi yok."
+          },
+          "explanation": "Bilgi formu, onam metniyle birlikte etik formunun ekinde gidiyor ve her biri en fazla birer sayfayla sınırlı tutuluyor.",
+          "difficulty": "easy"
+        },
+        {
+          "number": 10,
+          "script_id": "L5-S3",
+          "select_count": 1,
+          "prompt": "the presentation",
+          "options": null,
+          "answer": ["A"],
+          "evidence": "Ten minutes, and then five for questions. Not fifteen of your own — I've had to stop people halfway, and all that preparation goes to waste.",
+          "answer_point_id": "L5-S3-23",
+          "turn_index": 32,
+          "distractor_analysis": {
+            "B": "Söylenenin tersine çevrilmiş hâli — bir hafta öne alınan şey etik formu; sunumun tarihi değişmiyor.",
+            "C": "Söylendi ama sorulan bu değil — stil karışımı anket sorularına ait.",
+            "D": "Başka öğe için söylendi — arkadaş yasağı pilotun kuralı.",
+            "E": "Başka öğe için söylendi — tek sayfa sınırı bilgi formuna ait.",
+            "F": "Başkası söyledi — Devan'ın kağıt görüşü saha kaydı hakkında."
+          },
+          "explanation": "Sunum on dakika konuşma artı beş dakika soru-cevap olarak tanımlanıyor; on beş dakikanın tamamı öğrencilerin kendi anlatımına ait değil.",
+          "difficulty": "medium"
+        }
+      ]
+    }
+  ]
+}

@@ -6200,3 +6200,60 @@ hiç kullanılmadı, kalan on soruda birer kez. Çeldirici türü çeşitliliği
 - Atlanan/sorun: yok. Sıradaki çalıştırma: **alıştırma eşleştirme, 10 soru** (9/9, son) —
   `content/listening/practice/matching.json`, kutu seçenekleri soru sayısından en az 2
   fazla, bir senaryodan en fazla 4 soru; bu dosyanın cevap noktaları da artık kullanılamaz.
+
+## FABLE5-43 (9. çalıştırma: alıştırma — eşleştirme, 10 soru — SON)
+
+- **Üretilen:** `content/listening/practice/matching.json` — 10 eşleştirme sorusu,
+  `groups` sarmalayıcısıyla üç küme: L1-S3 → 3 soru (1–3, kutu 5'li), L4-S3 → 3 soru
+  (4–6, kutu 5'li), L5-S3 → 4 soru (7–10, kutu 6'lı). `test_id` null, `practice` true,
+  `question_type` `matching`, `allow_repeat` false. Dinleme alıştırması 110 → **120**
+  soruya çıktı — **F bölümü hedefi doldu; dogrula.py toplamı 1310/1310.**
+- **Senaryo seçimi:** üç küme de 3. bölüm (tartışma) senaryolarından ve üçü de
+  "danışman ne söylüyor?" kalıbında — kutu = danışmanın ifadeleri, öğeler = projenin
+  parçaları. Bilinçli tercih: yönergede konuşmacı sabitlenince (the tutor) "başkası
+  söyledi" çeldiricisi kutuya taşınabiliyor (öğrencinin görüşü danışmanınmış gibi
+  sunuluyor) ve tek-cevap kuralı korunuyor. 7. çalıştırmanın üç kümesi S2'dendi;
+  böylece alıştırma dosyaları bölüm dengesi de kurdu.
+- **Cevap noktaları (hepsi o ana dek hiçbir dosyada cevap değildi, betikle doğrulandı):**
+  L1-S3-06 (slayt metni puan kaybettirir, t8), -13 (anket üç yaşında, t18), -21 (el notu
+  öğlene kadar, t27); L4-S3-06 (yöntem alt şeritte, t7), -11 (kırmızı-yeşil, t13),
+  -15 (başlık üç metreden, t17); L5-S3-10 (kapalı gövde + iki açık soru, t14),
+  -17 (pilotta arkadaş yasağı, t24), -20 (birer sayfa, t28), -23 (on artı beş dakika,
+  t32). Yeni bilgi noktası gerekmedi; senaryo dosyalarına dokunulmadı.
+- **Yerleşim ve sıra kuralı:** küme içi replik dizileri L1: 8-18-27, L4: 7-13-17,
+  L5: 14-24-28-32 — bütün aralıklar ≥3 (`tools/_p43_kontrol.py` doğruluyor; küme
+  sınırında aralık kuralı uygulanmıyor, 7–8. çalıştırma emsali).
+- **Çeldirici türleri:** her soruda en az iki farklı tür. "Başkası söyledi" L4 kutusunda
+  A (Idris: yöntem ilk görülen şey olsun) ve L5 kutusunda F (Devan: kağıda kayıt) —
+  yönerge danışmanı sorduğu için ikisi de her öğede yanlış; "söylendi sonra düzeltildi"
+  kökenli L1 kutusunda E (geçen yılın el kitabı → ders sayfası kılavuzu; 3. soruda tam
+  tuzak hâli); "söylenenin tersine çevrilmiş hâli" L5 kutusunda B (etik formu bir hafta
+  geç değil, öne alındı — L5/7-8. çalıştırma emsali); "söylendi ama sorulan bu değil /
+  başka öğe için söylendi" kutu ortak olduğu için yaygın (L1–L6 eşleştirme emsali).
+  Sesle hiç geçmeyen çeldirici: 0 (üç kutunun 16 seçeneğinin hepsi seste geçiyor).
+- **Elenen taslaklar (3):** (1) L1-S3 "the room" öğesi — medya odası hakkında iki
+  savunulabilir doğru ifade çıkıyordu ("donanımı daha iyi" + "bölüm ofisinden iki kez
+  ayırtın"), tek-cevap kuralı riske giriyordu; yerine slayt/anket/el notu üçlüsü
+  kuruldu. (2) Kişi-eşleştirme kümeleri (L1-S3 röportaj ekseni t19-20-21, L5-S3 kayıt
+  ekseni t36-37-38) — görüş eksenleri ardışık repliklerde, 3-replik kuralı geçmiyor
+  (L2-S2/L3-S3/L4-S3 emsali). (3) L5-S3 ilk öğe seti (görüşme süresi t16 + ödül
+  çekilişi t21) — hedef noktalar (S3-11, S3-15) başka dosyalarda zaten cevap; küme
+  t14-24-28-32 dizisine kaydırıldı. Üretilip son kontrolde silinen soru yok: üç senaryo
+  baştan sona okunarak 10 soru anahtara bakılmadan çözüldü, **10/10 uyuştu**.
+- **Harf dengesi:** A, C, B / D, B, E / C, D, E, A — üst üste aynı harf yok (küme
+  sınırları dahil); dağılım A×2 B×2 C×2 D×2 E×2 (tam denge). Kutu fazlası: 5−3=2,
+  5−3=2, 6−4=2 (alt sınır ✓).
+- **Betik uyarlaması:** `tools/_p43_kontrol.py` eşleştirmeyi işleyecek şekilde
+  genişletildi (item `options` boşsa grup kutusundan okur; kutu ≥ soru+2 ve
+  `allow_repeat` false iken küme içi harf tekrarı denetimi eklendi). Eski iki alıştırma
+  dosyası için yeniden koştu → 0 sorun.
+- **Doğrulama:** `python tools/_p43_kontrol.py content/listening/practice/matching.json`
+  → 0 sorun; `python tools/dogrula.py` → şema hatası 0 (9. sorunun açıklaması Türkçe
+  özel karakter içermediği için bir kez işaretlendi, yeniden yazıldı), alıştırma 120,
+  TOPLAM 1310, görünür metinde IELTS 0.
+- Referans: `referans/text/` altında dinleme dosyaları yok ve bu ortamda PDF işleyici
+  (poppler) kurulu olmadığından PDF'ler açılamadı; eşleştirme kutu/yönerge kalıbı
+  L1–L6'nın doğrulanmış eşleştirme dosyalarından sürdürüldü (o kalıplar 1–3.
+  çalıştırmalarda resmi örneklerden çıkarılmıştı; referanstan tek cümle kopyalanmadı).
+- Atlanan/sorun: yok. **FABLE5-43 tamam: 9 çalıştırmanın 9'u da bitti (66 + 30 = 96
+  soru). Dinleme üretimi (senaryolar + sorular) 360/360 tamamlandı.**

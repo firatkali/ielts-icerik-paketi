@@ -51,23 +51,33 @@ def main():
                 sorun += 1
                 print("SORUN soru %s: replik araligi %d (<3)" % (no, ti - prev))
             prev = ti
-            for o in it["options"]:
+            secenekler = it["options"] or (g.get("box") or {}).get("options") or []
+            for o in secenekler:
                 if len(o["text"].split()) > 10:
                     sorun += 1
                     print("SORUN soru %s secenek %s: 10 kelimeden uzun" % (no, o["letter"]))
             toplam = len(it["prompt"].split()) + sum(
-                len(o["text"].split()) for o in it["options"])
+                len(o["text"].split()) for o in secenekler)
             if toplam > 50:
                 sorun += 1
                 print("SORUN soru %s: kok+secenek %d kelime (>50)" % (no, toplam))
             letters += it["answer"]
-            yanlis = {o["letter"] for o in it["options"]} - set(it["answer"])
+            yanlis = {o["letter"] for o in secenekler} - set(it["answer"])
             if set(it["distractor_analysis"]) != yanlis:
                 sorun += 1
                 print("SORUN soru %s: distractor_analysis harfleri eksik/fazla" % no)
         if senaryo[sid] > 4:
             sorun += 1
             print("SORUN: %s senaryosundan 4'ten fazla soru" % sid)
+        if g.get("box"):
+            kutu = len(g["box"]["options"])
+            if kutu < len(g["items"]) + 2:
+                sorun += 1
+                print("SORUN: %s kutusu soru sayisindan en az 2 fazla degil" % sid)
+            grup_cevap = [a for it in g["items"] for a in it["answer"]]
+            if not g.get("allow_repeat") and len(grup_cevap) != len(set(grup_cevap)):
+                sorun += 1
+                print("SORUN: %s kutusunda tekrar eden cevap harfi" % sid)
     for a, b in zip(letters, letters[1:]):
         if a == b:
             sorun += 1
