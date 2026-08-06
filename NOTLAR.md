@@ -6749,3 +6749,27 @@ hiç kullanılmadı, kalan on soruda birer kez. Çeldirici türü çeşitliliği
   puanlama-raporu.py 1` ancak GT-T2 grubu da bitince (4. calistirma) anlamli sonuc
   verir; simdi calistirilirsa yalnizca 21/69 puanlamayla yanlis rapor uretir.
 - Atlanan/sorun: yok — bu grup icin bilinen bir sorun cikmadi.
+
+## SONNET5-A3 (2. calistirma: tur 1 — AC-T2 grubu, 5 ornek x 3 tekrar)
+- Tarih: 2026-08-07
+- **Bu calistirmada islenen grup:** AC-T2 (Academic Writing Task 2, 5 ornek:
+  2A-A/B/C, 2B-A/B). `kalibrasyon/olcum/tur1/` icinde yalniz AC-T1 grubu vardi
+  (1. calistirmanin isi); dosya sirasina gore sonraki grup (AC-T2) yapildi. Kalan
+  2 grup: GT-T1 (6 ornek), GT-T2 (5 ornek) — sonraki 2 calistirmanin isi.
+  15 puanlama dosyasi yazildi: `kalibrasyon/olcum/tur1/AC-T2-*-{1,2,3}.json`.
+- Ayni korluk yontemi kullanildi (1. calistirmadaki notta ayrintili): ana oturum
+  ornegi okuyup band/examiner_comment/transcription_notes alanlarini atti, sadece
+  task_prompt + response_text + word_count'u her tekrar icin ayri, taze bir
+  alt-ajana (subagent, model: sonnet, `degerlendirme/yazma-task2.md` talimatini
+  kendisi okuyup uyguladi) verdi.
+  Not: Task 2 talimati Academic/General Training icin ortak (`yazma-task2.md`
+  "Task 2 is assessed the same way in both modules" diyor), bu yuzden `module`
+  alani "academic" olarak gecildi ama talimatta modul ayrimi yok.
+- Bu grubun tek seferlik (1. tekrar) tahminleri: 2A-A=4,5 · 2A-B=5,5 · 2A-C=6,5 ·
+  2B-A=5,5 · 2B-B=6,0. Tekrarlar arasi yayilim: 2A-A 0,5 (4,5/4,5/4,0), 2A-B 0
+  (5,5/5,5/5,5), 2A-C 0 (6,5/6,5/6,5), 2B-A 0,5 (5,5/5,5/6,0), 2B-B 0,5
+  (6,0/6,0/5,5).
+- **Rapor script'i bu calistirmada da calistirilmadi** — ayni gerekce: tur 1 icin
+  hala GT-T1 ve GT-T2 grubu eksik, script'i simdi calistirmak yalniz 36/69
+  puanlamayla yanlis sonuc uretir.
+- Atlanan/sorun: yok — 5 ornekten hicbiri `transcription_suspect: true` degildi.
