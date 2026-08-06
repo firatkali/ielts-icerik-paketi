@@ -6715,3 +6715,37 @@ hiç kullanılmadı, kalan on soruda birer kez. Çeldirici türü çeşitliliği
   SONNET5-A3 (tur 1) -> OPUS5-A4 (1. duzeltme) -> A3 (tur 2) -> A4 (2. duzeltme) ->
   A3 (tur 3) -> A4 (son rapor).
 - Atlanan/sorun: konusma kaynak boslugu disinda yok.
+
+## SONNET5-A3 (1. calistirma: tur 1 — AC-T1 grubu, 7 ornek x 3 tekrar)
+- Tarih: 2026-08-07
+- **kalibrasyon/olcum/kumeler.json ilk kez olusturuldu.** Elde henuz yalniz 23 yazma
+  ornegi var (konusma orneklenmedi, OPUS5-A1 notuna bakin), bu yuzden simdilik yalniz
+  bu 23 kod bolundu; konusma ornekleri uretildiginde kumelere eklenmesi gerekiyor.
+  Bolme kurali: bantlar 3,0-8,5 arasinda S1/S2/S3'e sirayla (bant sirali round-robin)
+  dagitildi, her kumede hem Academic hem General Training var: S1=8 kod, S2=8 kod,
+  S3=7 kod.
+- **Bu calistirmada islenen grup:** AC-T1 (Academic Writing Task 1, 7 ornek:
+  1A-A/B, 1B-A/B, 1C-A/B/C). Depoda `kalibrasyon/olcum/` hic yoktu, yani hicbir grup
+  uretilmemisti; dosya sirasina gore ilk grup (AC-T1) yapildi. Kalan 3 grup: AC-T2
+  (5 ornek), GT-T1 (6 ornek), GT-T2 (5 ornek) — sonraki 3 calistirmanin isi.
+  21 puanlama dosyasi yazildi: `kalibrasyon/olcum/tur1/AC-T1-*-{1,2,3}.json`.
+- 🔴 **Korluk yontemi degistirildi.** Talimat orijinal ornek dosyasini okuyup
+  puanlamayi ayni oturumda yapmayi varsayiyor, ama `kalibrasyon/ornekler/yazma/*.json`
+  band ve examiner_comment alanlarini ayni dosyada tasiyor — Read araciyla dosyayi
+  acmak otomatik olarak gercek bandi da gosteriyor. Bunu onlemek icin: ana oturum
+  ornegi okudu, band/examiner_comment/transcription_notes alanlarini **atip** sadece
+  task_prompt + response_text + word_count'u yeni, taze bir alt-ajana (subagent,
+  model: sonnet, `degerlendirme/yazma-task1-academic.md` talimatini kendisi okuyup
+  uyguladi) verdi; alt-ajana kalibrasyon/ornekler/ klasorune bakmamasi acikca soylendi.
+  Her tekrar (1/2/3) da ayri, taze bir alt-ajan cagrisi oldu — boylece hem gercek
+  banda korluk hem tekrarlar arasi bagimsizlik korundu (ayni baglamda 3 kez sormak
+  modelin kendi tutarsizligini oldugundan az gosterebilirdi).
+- Bu grubun tek seferlik (1. tekrar) tahminleri: 1A-A=5,0 · 1A-B=5,0 · 1B-A=5,0 ·
+  1B-B=5,0 · 1C-A=5,5 · 1C-B=6,0 · 1C-C=7,0. Tekrarlar arasi yayilim çoğunlukla 0
+  (1A-A, 1B-A, 1C-B), birkaç ornekte 0,5-1,0 (1A-B: 5,0/5,5/5,0, 1B-B: 5,0/5,5/5,5,
+  1C-C: 7,0/6,5/7,0).
+- **Rapor script'i bu calistirmada calistirilmadi** — talimat "her turda butun
+  ornekler puanlanir" diyor, bu calistirma turun 4'te 1'i. `python tools/
+  puanlama-raporu.py 1` ancak GT-T2 grubu da bitince (4. calistirma) anlamli sonuc
+  verir; simdi calistirilirsa yalnizca 21/69 puanlamayla yanlis rapor uretir.
+- Atlanan/sorun: yok — bu grup icin bilinen bir sorun cikmadi.
