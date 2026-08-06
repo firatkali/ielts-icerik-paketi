@@ -1,0 +1,75 @@
+{
+  "schema_version": "1.0",
+  "set_id": "L4-multiple-choice",
+  "skill": "listening",
+  "test_id": "L4",
+  "section": 3,
+  "practice": false,
+  "script_id": "L4-S3",
+  "question_type": "multiple_choice",
+  "generated_by": "fable",
+  "instructions": "Choose the correct letter, A, B or C.",
+  "box": null,
+  "items": [
+    {
+      "number": 24,
+      "select_count": 1,
+      "prompt": "Why does the tutor want two of the line colours changed?",
+      "options": [
+        { "letter": "A", "text": "Some people cannot tell them apart." },
+        { "letter": "B", "text": "One of the judges asked for different colours." },
+        { "letter": "C", "text": "They may not print accurately." }
+      ],
+      "answer": ["A"],
+      "evidence": "Roughly one man in twelve can't reliably tell those two apart, and one of your judges is among them.",
+      "answer_point_id": "L4-S3-12",
+      "turn_index": 13,
+      "distractor_analysis": {
+        "B": "Söylendi ama sorulan bu değil (çarpıtma) — jürilerden birinin kırmızıyla yeşili ayıramadığı söyleniyor; değişikliği bir jüri istemedi, danışman istiyor.",
+        "C": "Sesle hiç geçmeyen — baskı kalitesinden hiç söz edilmiyor."
+      },
+      "explanation": "Danışman kırmızı ve yeşilin değişmesini istiyor çünkü kabaca her on iki erkekten biri bu iki rengi güvenilir biçimde ayıramıyor.",
+      "difficulty": "easy"
+    },
+    {
+      "number": 25,
+      "select_count": 1,
+      "prompt": "According to the tutor, what is the only reliable way to test the poster?",
+      "options": [
+        { "letter": "A", "text": "cutting the text to four hundred words" },
+        { "letter": "B", "text": "printing one part of it at full size" },
+        { "letter": "C", "text": "setting the body text at twenty-four point" }
+      ],
+      "answer": ["B"],
+      "evidence": "Print one corner of it at full size, pin it up and walk down the corridor — that's the only test that works.",
+      "answer_point_id": "L4-S3-16",
+      "turn_index": 17,
+      "distractor_analysis": {
+        "A": "Söylendi ama sorulan bu değil — metni yarıya (yaklaşık 400 kelimeye) indirmek danışmanın gerçek bir tavsiyesi ama 'işe yarayan tek test' dediği şey değil.",
+        "C": "Söylendi sonra düzeltildi — 24 punto Idris'in çalıştığı boyut; danışman bunu 'çok küçük, gövdede 30'un altı olmaz' diye düzeltiyor."
+      },
+      "explanation": "Danışmana göre işe yarayan tek test, posterin bir köşesini gerçek boyutta basıp asmak ve koridordan yürüyerek bakmak.",
+      "difficulty": "hard"
+    },
+    {
+      "number": 26,
+      "select_count": 1,
+      "prompt": "What does Anneke say about paying the copy shop?",
+      "options": [
+        { "letter": "A", "text": "It is unnecessary because the plotter is free." },
+        { "letter": "B", "text": "Two groups paid it last year." },
+        { "letter": "C", "text": "It is preferable to missing the deadline." }
+      ],
+      "answer": ["C"],
+      "evidence": "And I'd rather pay eighteen pounds than miss the deadline. Two groups missed it last year.",
+      "answer_point_id": "L4-S3-18",
+      "turn_index": 20,
+      "distractor_analysis": {
+        "A": "Başkası söyledi — hiç para harcamak istemeyen Idris; plotter'ın ücretsiz olduğunu Anneke söylüyor ama vardığı sonuç bunun tersi.",
+        "B": "Söylendi ama sorulan bu değil (çarpıtma) — geçen yıl iki grup parayı ödemedi, son teslim tarihini kaçırdı."
+      },
+      "explanation": "Anneke on sekiz sterlin ödemeyi son teslimi kaçırmaya tercih ediyor; geçen yıl iki grubun tarihi kaçırdığını hatırlatıyor.",
+      "difficulty": "medium"
+    }
+  ]
+}

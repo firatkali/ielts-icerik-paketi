@@ -559,6 +559,45 @@
       "suggested_types": [
         "plan_map_diagram_labelling"
       ]
+    },
+    {
+      "id": "L4-S2-38",
+      "kind": "object",
+      "value": "queues from the old site reached onto the bypass on Saturdays",
+      "quote": "on a Saturday the queue reached onto the bypass",
+      "turn_index": 1,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "matching",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L4-S2-39",
+      "kind": "rule",
+      "value": "the car park is only for reuse shop visitors, not for dropping waste",
+      "quote": "for people visiting the reuse shop, not dropping waste off",
+      "turn_index": 4,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "matching",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L4-S2-40",
+      "kind": "rule",
+      "value": "staff carry electrical items into the store for visitors",
+      "quote": "a member of staff will carry it in for you",
+      "turn_index": 7,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "matching",
+        "multiple_choice"
+      ]
     }
   ],
   "spatial_description": {

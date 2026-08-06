@@ -5923,3 +5923,60 @@ hiç kullanılmadı, kalan on soruda birer kez. Çeldirici türü çeşitliliği
   1–2 örneklerinden).
 - Atlanan/sorun: yok. Sıradaki çalıştırma: **L4** (4/9) — ⚠️ L4–L6'nın ikisinde 11–15
   eşleştirme olmalı; L4-S2'de önce eşleştirme dene.
+
+## FABLE5-43 (4. çalıştırma: L4 — riskli sorular, 11 soru)
+
+- **Üretilen:** `content/listening/tests/L4/matching.json` (İKİ küme, `groups`
+  sarmalayıcısıyla, L3 düzeni: 11–15 → 2. bölüm 5 öğeli eşleştirme, 21–23 → 3. bölüm
+  3 öğeli eşleştirme) + `content/listening/tests/L4/multiple-choice.json` (24–26,
+  3. bölüm, düz `items`). Toplam **11 soru** — L4 artık `dogrula.py`'de **40/40 TAM**.
+- **11–15 bloku seçimi: L4 = eşleştirme (2/3).** L4-S2 saha tanıtımının öğeleri (eski
+  saha, otopark, elektrikli eşya deposu, üst seviye, tamir seansı) 1-4-7-10-13 replik
+  dizilimiyle tam 3'er aralıkla oturdu; kutu 7 seçenekli (A–G, 2 boşta).
+  ⚠️ **Kalan kısıt: L5 ve L6'dan BİRİNDE daha 11–15 eşleştirme olmalı** (3/3 denge;
+  diğeri çoktan seçmeli olacak).
+- **YENİLİK — 3. bölümde küme sırası ilk kez ters:** eşleştirme 21–23, ÇS 24–26.
+  Sebep: S3'te üç konuşmacının görüşleri üç eksende ama her eksen ARDIŞIK repliklerde
+  yığılı (yerleşim t5-6-7, grafikler t9-10-11, baskı t19-20-21) ve baskı ekseninin
+  danışman ayağı (t21) OPUS5-21'in 27. sorusunun cevabı. Kişi-başına-eksen eşleştirmesi
+  de, danışman-eşleştirmesi (t7-13-17) de 3-replik kuralını ya kendi içinde ya ÇS'ye yer
+  bırakma açısından geçemiyor; tek çözüm konu-başına-Anneke eşleştirmesini (t3-6-10) öne,
+  ÇS'yi (t13-17-20) arkaya almaktı. Prompt küme sırasını sabitlemiyor; dosya adları ve
+  şema değişmedi, `dogrula.py`/`_f43_kontrol.py` sorunsuz işledi.
+- **Yerleşim ve sıra kuralı:** S2 → replikler 1, 4, 7, 10, 13 (aralıklar tam 3);
+  12–13. sorular OPUS5-21'in plan bölgesiyle (t3–7) çakışan repliklerde ama farklı
+  bilgiye dayanıyor (L3-13 emsali): otoparkta plan konumu değil "yalnız dükkân müşterisi"
+  kuralı, elektrik deposunda konum değil "görevli taşır" hizmeti. S3 → eşleştirme 3, 6,
+  10; ÇS 13, 17, 20 — küresel dizi 3-6-10-13-17-20, bütün aralıklar ≥3. Tavan kuralı:
+  26'nın cevabı t20, OPUS5-21'in 27. sorusu t21'de başlıyor (L3'teki 1 replik ara emsali).
+- **Alıştırma çakışması önlendi:** practice/plan-map L4-S2-08/-09/-15/-17 ve
+  practice/sentence-completion L4-S3-02/-14/-21/-33 noktalarını kullanıyor; hiçbiri cevap
+  yapılmadı. S3-14 (24→30 punto düzeltmesi) yalnız 25. sorunun çeldiricisi oldu (L3
+  emsali: practice noktası çeldirici zemini olabilir, cevap olamaz).
+- **Çeldirici türleri:** "söylendi sonra düzeltildi" S2 kutusunda D (bir yıl → on dört
+  ay) ve 25-C'de (24 → 30 punto); "başkası söyledi" S3 eşleştirmesinin B/C harflerinde
+  (Idris/danışman) ve 26-A'da (yalnız 3. bölümde mümkün — S2 tek konuşmacılı, L1 emsali);
+  "söylendi ama sorulan bu değil" yaygın. Sesle hiç geçmeyen: S3 kutusunda F ve 24-C
+  (soru başına ≤1 ✓; S2 kutusunda hiç yok). Kutu ortak olduğu için S2'de yanlış harflerin
+  çoğu tür 3 (L1-26/L3 emsali); yine de 11–15'te 6'şar, 21–23'te 5'er gerekçe yazıldı.
+- **Yeni bilgi noktaları senaryoya eklendi (yalnız L4-S2):** `L4-S2-38` (eski sahanın
+  kuyruğu çevre yoluna taşıyordu, replik 1), `L4-S2-39` (otopark yalnız dükkân
+  ziyaretçilerine, replik 4), `L4-S2-40` (elektrikli eşyayı görevli içeri taşır,
+  replik 7). S3'te yeni nokta gerekmedi (6 soru da mevcut noktalara dayandı: S3-01, -04,
+  -08, -12, -16, -18).
+- **Elenen taslaklar (3):** (1) S3 kişi-eşleştirmesi (Idris/Anneke/danışman × tek konu) —
+  her eksende cevaplar ardışık repliklerde, 3-replik kuralı geçmiyor (L2-S2/L3-S3 emsali).
+  (2) S2 atık-türü eşleştirmesi (yağ/pil/alçıpan/gaz tüpü) — dördü de 12. replikte yığılı.
+  (3) Danışman-eşleştirmesi (t7-13-17) — önünde ÇS'ye yer bırakmıyor (ilk ÇS cevabı
+  t4'ten önce olmalıydı, orada nokta yok). Üretilip son kontrolde silinen soru yok: iki
+  senaryo baştan sona okunarak 11 soru anahtara bakılmadan çözüldü, **11/11 uyuştu**.
+- **Harf dengesi:** eşleştirme 11–15: E, B, A, F, C (kutu 7'li, 2 boşta) / eşleştirme
+  21–23: D, A, E (kutu 6'lı, 3 boşta) / ÇS 24–26: A, B, C — üst üste aynı harf yok.
+- **Doğrulama:** `python tools/dogrula.py` → şema hatası 0, L4 40/40 TAM, görünür metinde
+  IELTS 0; `python tools/_f43_kontrol.py L4` → 0 sorun.
+- Referans: dinleme ÇS (tek cevap) transkript + anahtar PDF'i okundu (yalnız format);
+  eşleştirme kutu/yönerge kalıbı L1–L3'ün doğrulanmış dosyalarından sürdürüldü. Bu
+  çalıştırmada çift cevaplı soru yok (11–15 eşleştirme olunca çift ÇS de yok).
+- Atlanan/sorun: yok. Sıradaki çalıştırma: **L5** (5/9) — ⚠️ L5 ve L6'dan birinde 11–15
+  eşleştirme, diğerinde çoktan seçmeli (+ çift cevaplı) olmalı; L5-S2'nin yapısına göre
+  seç, seçimi buraya yaz.
