@@ -523,6 +523,58 @@
         "note_completion",
         "multiple_choice"
       ]
+    },
+    {
+      "id": "L3-S2-36",
+      "kind": "object",
+      "value": "the ground is spoil — waste rock from the quarry",
+      "quote": "What you're standing on is spoil — waste rock tipped here while the quarry was worked",
+      "turn_index": 1,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "matching",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L3-S2-37",
+      "kind": "advantage",
+      "value": "dipping nets are free to borrow from the information hut",
+      "quote": "Nets are free to borrow from the information hut.",
+      "turn_index": 7,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "matching",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L3-S2-38",
+      "kind": "rule",
+      "value": "cars may not be left in the park overnight",
+      "quote": "please don't leave a car in overnight",
+      "turn_index": 10,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "matching",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L3-S2-39",
+      "kind": "opinion",
+      "value": "orchid counting is slow, comfortable work for anyone who can kneel",
+      "quote": "a slow, comfortable job for anybody who can kneel for an hour",
+      "turn_index": 13,
+      "speaker": "M1",
+      "distractor": null,
+      "suggested_types": [
+        "matching",
+        "multiple_choice"
+      ]
     }
   ],
   "spatial_description": {

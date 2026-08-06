@@ -5866,3 +5866,60 @@ hiç kullanılmadı, kalan on soruda birer kez. Çeldirici türü çeşitliliği
   (yalnız format; metin alınmadı).
 - Atlanan/sorun: yok. Sıradaki çalıştırma: **L3** (3/9) — ⚠️ 11–15 bloku için eşleştirme
   öncelikli değerlendirilmeli.
+
+## FABLE5-43 (3. çalıştırma: L3 — riskli sorular, 11 soru)
+
+- **Üretilen:** `content/listening/tests/L3/matching.json` (İKİ küme tek dosyada, `groups`
+  sarmalayıcısıyla: 11–15 → 2. bölüm 5 öğeli eşleştirme, 24–26 → 3. bölüm 3 öğeli
+  eşleştirme) + `content/listening/tests/L3/multiple-choice.json` (21–23, 3. bölüm, düz
+  `items`). Önceki çalıştırmaların tersine bu kez ÇS dosyası düz, eşleştirme dosyası
+  gruplu — `dogrula.py` ve `_f43_kontrol.py` iki biçimi de işliyor. Toplam **11 soru** —
+  L3 artık `dogrula.py`'de **40/40 TAM**.
+- **11–15 bloku seçimi: L3 = eşleştirme (1/3).** L1–L2 ÇS olduğu için denge kotası burada
+  başladı. ⚠️ **Kalan kısıt: L4–L6'nın İKİSİNDE daha 11–15 eşleştirme olmalı** (3/3 denge).
+  S2'de 5 öğeli küme ancak 1-4-7-10-13 replik dizilimiyle kurulabildi; kutu "It is ..."
+  kalıbında 7 seçenek (A–G), istemler karma (özellik + ulaç: the soil / the red route /
+  borrowing a dipping net / leaving a car overnight / the orchid count).
+- **Yerleşim ve sıra kuralı:** S2 → replikler 1, 4, 7, 10, 13 (aralıklar tam 3). 13. soru
+  (ağlar, replik 7) OPUS5-21'in plan bölgesi (5–9) İÇİNE düşüyor — kaçınılmaz: 5 öğe ve
+  3-replik kuralıyla 0–13 aralığında 5–9'u tamamen atlayan dizilim matematiksel olarak yok
+  (en çok 4 öğe çıkıyor). Aynı replikteki harita sorusu (S2-20, kuş gözlem yeri) konum
+  soruyor, benimki ağların ücretsizliğini — bilgi çakışması yok. S3 → ÇS 0, 3, 6;
+  eşleştirme 11, 14, 18. Tavan kuralı: 21–26, OPUS5-21'in 27–30 cevaplarının başladığı
+  19. replikten önce bitiyor (26'nın cevabı replik 18).
+- **Alıştırma çakışması önlendi:** practice/sentence-completion L3-S3-09 (3.500 kelime) ve
+  L3-S3-13 (ek/appendix) noktalarını kullanıyor; ikisi de S3'ün t19 öncesindeki tek iki
+  düzeltme noktasıydı → ÇS'de cevap olarak kullanılmadı, yalnızca çeldirici zemini oldu
+  (24-B/25-B/26-B: 4.000→3.500). practice/plan-map L3-S2-21'i (platform KONUMU, replik 7)
+  kullanıyor; 13. soru aynı replikten farklı bilgiye (ağlar ücretsiz, yeni nokta) dayandı.
+- **Çeldirici türleri:** "söylendi sonra düzeltildi" 15-B'de saf hâliyle (çalılık günü,
+  aynı replik) ve 24/25/26-B'de (4.000→3.500 kökenli); "başkası söyledi" 22-A, 23-B ve S3
+  eşleştirmesinin bütün kişiler-arası harflerinde; "söylendi ama sorulan bu değil" yaygın.
+  Sesle hiç geçmeyen: 21-C ve S3 kutusundaki E (soru başına ≤1 ✓). **Kısıt notları:**
+  (1) 21. soru açılış repliğinde (t0) — düzeltme/başkası yapısal olarak imkânsız, L1-13
+  emsaliyle tür 3 + sesle geçmeyen kullanıldı. (2) S2 eşleştirmesinde kutu ortak olduğu
+  için yanlış harflerin çoğu tür 3 (L1-26/L2-26 emsali); yine de her öğeye 6 gerekçe
+  yazıldı. (3) 24 (danışman) için D dikkat istedi: danışman Corin'in YAPISINI öneriyor
+  (t19, OPUS5-21'in bölgesi) ama D'nin önermesini ('kronoloji benzer malzemeyi böler')
+  kurmuyor — kendi gerekçesi 'karşılaştırmaya zorlar'; kutu tekrarsız olduğundan D
+  Corin'de. D'nin metni bu yüzden bilinçli olarak Corin'in cümlesine bağlandı.
+- **Yeni bilgi noktaları senaryolara eklendi:** `L3-S2-36` (zemin atık kaya, replik 1),
+  `L3-S2-37` (ağlar ücretsiz, replik 7), `L3-S2-38` (gece araba yasağı, replik 10),
+  `L3-S2-39` (orkide sayımı yavaş/rahat iş, replik 13), `L3-S3-31` (toplantının amacı,
+  replik 0), `L3-S3-32` (danışman: tam sınıra yazma, replik 11).
+- **Elenen taslaklar (3):** (1) S2 rota-listesi eşleştirmesi (yeşil/mavi/kırmızı) —
+  cevaplar 2-3-4. repliklerde yığılı, 3-replik kuralı geçmiyor (L2-S2 emsali); rota
+  uzunluğu noktaları (S2-05/08/11) 7–9. çalıştırmaların alıştırma ÇS'sine kaldı.
+  (2) S3 günlük-sıklığı eşleştirmesi (Tamsin/Corin/danışman) — cevaplar 14-15-16
+  ardışık, aynı kural. (3) S3 kelime-sınırı ÇS taslağı — cevap noktası alıştırmada
+  kullanılmıştı (S3-09). Üretilip son kontrolde silinen soru yok: iki senaryo baştan sona
+  okunarak 11 soru anahtara bakılmadan çözüldü, **11/11 uyuştu**.
+- **Harf dengesi:** eşleştirme 11–15: C, E, A, F, D (kutu 7'li, 2 boşta) / ÇS: B, C, A /
+  eşleştirme 24–26: C, A, D (kutu 5'li, 2 boşta, alt sınır) — üst üste aynı harf yok.
+- **Doğrulama:** `python tools/dogrula.py` → şema hatası 0, L3 40/40 TAM, görünür metinde
+  IELTS 0; `python tools/_f43_kontrol.py L3` → 0 sorun.
+- Referans: dinleme ÇS (tek/çok cevap) anahtar + transkript PDF'leri ve 2023 örnek görev
+  PDF'i okundu (yalnız format; metin alınmadı — eşleştirme kutusu/yönerge kalıbı Matching
+  1–2 örneklerinden).
+- Atlanan/sorun: yok. Sıradaki çalıştırma: **L4** (4/9) — ⚠️ L4–L6'nın ikisinde 11–15
+  eşleştirme olmalı; L4-S2'de önce eşleştirme dene.

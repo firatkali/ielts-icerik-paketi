@@ -1,0 +1,75 @@
+{
+  "schema_version": "1.0",
+  "set_id": "L3-multiple-choice",
+  "skill": "listening",
+  "test_id": "L3",
+  "section": 3,
+  "practice": false,
+  "script_id": "L3-S3",
+  "question_type": "multiple_choice",
+  "generated_by": "fable",
+  "instructions": "Choose the correct letter, A, B or C.",
+  "box": null,
+  "items": [
+    {
+      "number": 21,
+      "select_count": 1,
+      "prompt": "What is the purpose of the meeting?",
+      "options": [
+        { "letter": "A", "text": "to collect the students' completed log books" },
+        { "letter": "B", "text": "to decide what work the students must submit" },
+        { "letter": "C", "text": "to choose companies for next year's placements" }
+      ],
+      "answer": ["B"],
+      "evidence": "this is the meeting where we work out what you have to hand in and when",
+      "answer_point_id": "L3-S3-31",
+      "turn_index": 0,
+      "distractor_analysis": {
+        "A": "Söylendi ama sorulan bu değil — günlükler bu toplantıda toplanmıyor; raporla birlikte 20 Kasım'da modül sayfasından teslim edilecek.",
+        "C": "Sesle hiç geçmeyen — gelecek yılın staj yerleri konuşmada hiç anılmıyor."
+      },
+      "explanation": "Danışman toplantının amacını açılış cümlesinde söylüyor: neyin ne zaman teslim edileceğini birlikte kararlaştırmak.",
+      "difficulty": "easy"
+    },
+    {
+      "number": 22,
+      "select_count": 1,
+      "prompt": "Why did Corin's placement last eight weeks?",
+      "options": [
+        { "letter": "A", "text": "He wanted to keep one day free for reading." },
+        { "letter": "B", "text": "The module requires more than six weeks." },
+        { "letter": "C", "text": "The company asked him to stay on longer." }
+      ],
+      "answer": ["C"],
+      "evidence": "they asked me to stay on for the last fortnight",
+      "answer_point_id": "L3-S3-04",
+      "turn_index": 3,
+      "distractor_analysis": {
+        "A": "Başkası söyledi — Cuma günlerini okumaya ayıran Tamsin; Corin'in düzeniyle ilgisi yok.",
+        "B": "Söylendi ama sorulan bu değil — danışman altı haftayı aşan her stajın aynı sayıldığını söylüyor; sekiz hafta bir zorunluluk değil."
+      },
+      "explanation": "Corin, şirket son iki hafta daha kalmasını istediği ve kendisi kabul ettiği için sekiz hafta kalmış.",
+      "difficulty": "medium"
+    },
+    {
+      "number": 23,
+      "select_count": 1,
+      "prompt": "What did Corin value most about his placement?",
+      "options": [
+        { "letter": "A", "text": "being given responsibility for a piece of work" },
+        { "letter": "B", "text": "the meetings that he went to" },
+        { "letter": "C", "text": "the chance to help with a publication" }
+      ],
+      "answer": ["A"],
+      "evidence": "What made the difference for me was being handed something of my own",
+      "answer_point_id": "L3-S3-06",
+      "turn_index": 6,
+      "distractor_analysis": {
+        "B": "Başkası söyledi + söylendi sonra düzeltildi — toplantıları en değerli bulan Tamsin; Corin kendi gittiği toplantıları 'birbirine slayt okuyan insanlar' diye küçümsüyor.",
+        "C": "Söylendi ama sorulan bu değil — yayın, sayım verisinin şirketçe yayımlanacak bir işte kullanılacağı bağlamında geçiyor; Corin'in değer verdiği şey işin kendisine ait olması."
+      },
+      "explanation": "Corin için farkı yaratan, kendisine ait bir işin (sayaç verisinin) verilmesiydi; hata yapsa yayımlanacak bir işe gidecekti.",
+      "difficulty": "medium"
+    }
+  ]
+}

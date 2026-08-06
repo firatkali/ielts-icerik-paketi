@@ -559,6 +559,31 @@
         "multiple_choice",
         "sentence_completion"
       ]
+    },
+    {
+      "id": "L3-S3-31",
+      "kind": "reason",
+      "value": "the meeting is to decide what must be handed in and when",
+      "quote": "this is the meeting where we work out what you have to hand in and when",
+      "turn_index": 0,
+      "speaker": "F2",
+      "distractor": null,
+      "suggested_types": [
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L3-S3-32",
+      "kind": "opinion",
+      "value": "tutor: there is no need to write the full word count",
+      "quote": "Don't go hunting for the extra five hundred words.",
+      "turn_index": 11,
+      "speaker": "F2",
+      "distractor": null,
+      "suggested_types": [
+        "matching",
+        "multiple_choice"
+      ]
     }
   ],
   "spatial_description": null,
