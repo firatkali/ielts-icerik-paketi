@@ -6574,3 +6574,45 @@ hiç kullanılmadı, kalan on soruda birer kez. Çeldirici türü çeşitliliği
   Bu calistirmada, kullanicinin talimati geregi ("uretilmemis ilk grubu yap, var olani
   tekrar uretme") depo kaydina uyulup 2. grup yapildi.
 - Atlanan/sorun: yok. Siradaki: 3. calistirma (General Training, sayfa 8-24, 11 ornek).
+
+## OPUS5-A1 3/4 — Academic Task 1 yazma ornekleri metne dokuldu (sayfa 9-17)
+
+- Tarih: 2026-08-06. Belge: `referans/ielts-academic-writing-sample-tasks-2023.pdf`,
+  sayfa 9-17. **7 ornek** dokuldu, hepsi Academic **Task 1**:
+  `AC-T1-1A-A` (band 5,0 - 132 kelime), `AC-T1-1A-B` (6,0 - 165),
+  `AC-T1-1B-A` (6,0 - 179), `AC-T1-1B-B` (7,0 - 189), `AC-T1-1C-A` (5,0 - 157),
+  `AC-T1-1C-B` (7,0 - 305), `AC-T1-1C-C` (8,5 - 227).
+  Band dagilimi: 5 / 5 / 6 / 6 / 7 / 7 / 8,5. Dosyalar `kalibrasyon/ornekler/yazma/`
+  altinda (gitignore'da, depoya girmiyor).
+- 🔴 **Hangi grup yapildi ve neden:** Calistirma listesinde bu 1. gruptur, 3. degil.
+  2. calistirmanin notunda yazildigi gibi 1. calistirmanin ciktisi bu makinede yoktu
+  (`kalibrasyon/ornekler/` klasoru hic olusmamisti), yani Academic Task 1'in 7 ornegi
+  DURUM.txt'de bitmis gorunmesine ragmen diskte yoktu. Kullanicinin bu calistirmadaki
+  talimati "henuz uretilmemis ilk grubu yap, zaten var olani tekrar uretme" oldugu ve
+  prompt dosyasinin kendi kurali da "`kalibrasyon/ornekler/` klasorune bak, sıradaki
+  bitmemisi yap" dedigi icin bu bosluk kapatildi. **Sonuc: hala eksik olan grup,
+  General Training (sayfa 8-24, 11 ornek).** Puanlama olcumu (SONNET5-A3) su an
+  Academic Task 1 + Task 2 = 12 ornekle calisabilir, GT ornegi yok.
+- **Tuzak kontrolu gecildi, supheli isaretlenen yok.** Band 6 ve altindaki dort cevapta
+  hata sayisi esigin cok ustunde (~15 / ~9 / ~16 / ~11). Tablo ve ornek hatalar
+  `kalibrasyon/ornekler/yazma/KONTROL.md` dosyasinda.
+- **Yontem duzeltmesi:** 2. calistirmanin notunda "metin katmani gomulu font yuzunden
+  bozuk, band puanlari metin katmaninda yok" deniyordu. Bu yalniz `pdftotext` icin
+  dogru. **PyMuPDF ayni sayfalari dogru cozuyor:** gorev metni, sinav gorevlisi yorumu
+  ve band puani ("Band 8.5" dahil) metin katmanindan temiz cikiyor. Bunun icin
+  `tools/_a1_metin_coz.py` yazildi; artik yorum ve bandlar goruntuden okunmuyor,
+  yalnizca el yazisi cevaplar goruntuden okunuyor.
+- **El yazisi:** sayfalar `tools/_a1_bant.py` ile 4-11 yatay banda bolunup 400-500 dpi'da,
+  suphede kalan kelimeler `tools/_a1_kirp.py` ile 900-2000 dpi'da okundu. Kelime sayilari
+  `tools/_a1_kelime_say.py` ile sayildi (goz karari degil).
+- **Dokum kararlari:** ustu cizilmis kisimlar dokulmedi, `transcription_notes`'a yazildi
+  (1C-C'de 'destination,' sonrasinda karalanmis uzun bir blok, 1B-A'da 'television'
+  oncesi okunamayan karalanmis bir kelime var). Caretle satir ustune eklenen kelimeler
+  metne yerlestirildi ('are', 'It has', 'steady', 'slight'). 1C-B'nin el yazisinda kucuk
+  'f' harfi buyuk 'F' gibi cizildigi icin ('perFectly', 'Form') bunlar harf bicimi
+  sayilip normal kucuk harfle dokuldu — yazim hatasi olarak isaretlenmedi.
+- **Belirsiz kalan iki nokta** (ilgili dosyalarin `transcription_notes` alanina yazildi):
+  1A-A'da bazi noktalama isaretleri 900 dpi'da bile nokta/virgul ayrimi vermiyor;
+  1C-A'da sogutma suresi '48-77 hours' gibi yazilmis (rakamlar ustu cizgili 7'ye benziyor).
+- Atlanan/sorun: yok. Siradaki: 4. calistirma (konusma ornekleri) — ama GT yazma grubu
+  hala acik, ustteki maddeye bakin.
