@@ -32,7 +32,8 @@
       "turn_index": 1,
       "distractor_used": null,
       "explanation": "İlk bilinçli koleksiyonlar yirmili yıllara dayanıyor; soğuk depo ise ancak yetmişli yıllarda geliyor.",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "status": "verified"
     },
     {
       "number": 32,
@@ -49,7 +50,9 @@
       "turn_index": 2,
       "distractor_used": "30 plants",
       "explanation": "Eski el kitaplarında otuz bitki geçiyor ama sonraki modellemeler çalışma alt sınırını elli bitkiye çıkarmış.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "flagged",
+      "flag_reason": "Bicim farki: '50' / 'fifty'. Icerik ayni (otuz bitki eski kilavuzlarda)."
     },
     {
       "number": 33,
@@ -66,7 +69,8 @@
       "turn_index": 4,
       "distractor_used": null,
       "explanation": "Kurutma bilerek yavaş yapılıyor: hızlı kuruyan tohumun dışında sert bir kabuk oluşuyor ve su içeride kalıyor.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     },
     {
       "number": 34,
@@ -82,7 +86,8 @@
       "turn_index": 5,
       "distractor_used": null,
       "explanation": "Contası kötü bir kavanoz tohumun havadan yeniden su almasına yol açıyor; bu yüzden kabın kendisinden çok kapatma önemli.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     },
     {
       "number": 35,
@@ -100,7 +105,8 @@
       "turn_index": 6,
       "distractor_used": "75 per cent",
       "explanation": "Konuşmacının öğrendiği eşik yüzde yetmiş beşti; eşik o zamandan beri yüzde seksen beşe yükseltilmiş.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     },
     {
       "number": 36,
@@ -117,7 +123,9 @@
       "turn_index": 7,
       "distractor_used": "five years",
       "explanation": "Yeniden test aralığı eskiden beş yıldı; test her seferinde iki yüz tohum harcadığı için çoğu banka artık on yılda bir test yapıyor.",
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "status": "flagged",
+      "flag_reason": "Bicim farki: '10' / 'ten'. Icerik ayni (bes yil eski uygulama)."
     }
   ]
 }

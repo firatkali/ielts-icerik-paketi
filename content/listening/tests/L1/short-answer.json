@@ -29,7 +29,8 @@
       "turn_index": 8,
       "distractor_used": null,
       "explanation": "Üzerine daha önce yapı yapılmış toprakta eski sanayiden kalıntılar bulunabiliyor; en sık endişe duyulan metal kurşun.",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "status": "verified"
     },
     {
       "number": 38,
@@ -45,7 +46,8 @@
       "turn_index": 9,
       "distractor_used": null,
       "explanation": "Konuşmacı kapalı ortamda üretimin elektrik maliyetini bir kilo marul örneğiyle anlatıyor.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     },
     {
       "number": 39,
@@ -65,7 +67,9 @@
       "turn_index": 11,
       "distractor_used": "a third",
       "explanation": "Sık tekrarlanan iddia, bir şehrin sebzesinin üçte birini üretebileceğidir; gerçek bir sokak planı üzerinde sınandığında sonuç yüzde beşe yakın çıkmış.",
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "status": "flagged",
+      "flag_reason": "Bicim farki: '5 per cent' / 'five per cent'. Icerik ayni (ucte bir degil, yaklasik yuzde bes)."
     },
     {
       "number": 40,
@@ -82,7 +86,8 @@
       "turn_index": 12,
       "distractor_used": null,
       "explanation": "Öğrencilerden getirecekleri örneğin başarılı olması beklenmiyor; konuşmacıya göre başarısız projeler daha öğretici.",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "status": "verified"
     }
   ]
 }

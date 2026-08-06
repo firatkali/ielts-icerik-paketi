@@ -39,7 +39,8 @@
           "turn_index": 2,
           "distractor_used": null,
           "explanation": "Arazide toplanan tohumlar bitki bitki ayrı tutuluyor; birleştirme ancak malzeme depoya ulaştıktan sonra söz konusu oluyor.",
-          "difficulty": "medium"
+          "difficulty": "medium",
+          "status": "verified"
         },
         {
           "number": 2,
@@ -57,7 +58,8 @@
           "turn_index": 5,
           "distractor_used": "minus 18 degrees",
           "explanation": "Eski ev tipi dondurucu değeri olan eksi on sekiz hâlâ alıntılanıyor; ancak uluslararası standart yıllar önce eksi yirmiye geçti.",
-          "difficulty": "medium"
+          "difficulty": "medium",
+          "status": "verified"
         },
         {
           "number": 3,
@@ -74,7 +76,8 @@
           "turn_index": 7,
           "distractor_used": null,
           "explanation": "Yeniden test eşiğin altında kalınca kalan tohum ekilip daha büyük bir parti hasat ediliyor; konuşmacı bu adımın adını regeneration olarak veriyor.",
-          "difficulty": "easy"
+          "difficulty": "easy",
+          "status": "verified"
         },
         {
           "number": 4,
@@ -91,7 +94,8 @@
           "turn_index": 9,
           "distractor_used": null,
           "explanation": "Yedek kopya aynı binada tutulmuyor; baştan ayrılan paket, mümkünse başka bir ülkedeki ikinci bir merkeze gönderiliyor.",
-          "difficulty": "medium"
+          "difficulty": "medium",
+          "status": "verified"
         }
       ]
     },
@@ -121,7 +125,8 @@
           "turn_index": 4,
           "distractor_used": null,
           "explanation": "Denize girdiği tahmin edilen miktarla yüzeyde bulunabilen miktar arasındaki uçurum büyük: yüzen plastik tahminin ancak yüzde biri kadar.",
-          "difficulty": "medium"
+          "difficulty": "medium",
+          "status": "verified"
         },
         {
           "number": 6,
@@ -138,7 +143,8 @@
           "turn_index": 6,
           "distractor_used": null,
           "explanation": "Güneş ışığı ve dalga hareketi polimeri kırılgan hâle getiriyor; parça bu yüzden giderek daha küçük parçalara ayrılıyor.",
-          "difficulty": "medium"
+          "difficulty": "medium",
+          "status": "verified"
         },
         {
           "number": 7,
@@ -156,7 +162,8 @@
           "turn_index": 7,
           "distractor_used": "a third of a millimetre",
           "explanation": "Çoğu araştırmanın kullandığı ağ gözü milimetrenin üçte biri; son yıllardaki çalışmalar onda birlik ağ kullanıyor ve metreküpte kat kat fazla parçacık buluyor.",
-          "difficulty": "hard"
+          "difficulty": "hard",
+          "status": "verified"
         },
         {
           "number": 8,
@@ -173,7 +180,8 @@
           "turn_index": 10,
           "distractor_used": null,
           "explanation": "Konuşmacının en çok güvendiği önlem tasarım: bir üründeki polimer sayısı azalırsa ayrıştırma ancak o zaman mümkün oluyor.",
-          "difficulty": "medium"
+          "difficulty": "medium",
+          "status": "verified"
         }
       ]
     },
@@ -202,7 +210,8 @@
           "turn_index": 4,
           "distractor_used": null,
           "explanation": "Gürültü haritaları ölçümle değil modelle üretiliyor; modele verilen girdiler arasında trafik sayımları, hızlar, bina yükseklikleri ve zeminin sertliği yer alıyor.",
-          "difficulty": "medium"
+          "difficulty": "medium",
+          "status": "verified"
         },
         {
           "number": 10,
@@ -222,7 +231,8 @@
           "turn_index": 6,
           "distractor_used": null,
           "explanation": "Düşük hızda duyulan şey motor ve egzoz; bu hızın üstünde baskın kaynak lastikle yol yüzeyinin teması oluyor.",
-          "difficulty": "medium"
+          "difficulty": "medium",
+          "status": "verified"
         },
         {
           "number": 11,
@@ -240,7 +250,8 @@
           "turn_index": 8,
           "distractor_used": "5 decibels",
           "explanation": "Gözenekli asfalt için beş desibel yazılıyor; gözenekler dolduktan sonra gerçekçi kazanç üç ilâ dört desibele iniyor.",
-          "difficulty": "hard"
+          "difficulty": "hard",
+          "status": "verified"
         },
         {
           "number": 12,
@@ -258,7 +269,8 @@
           "turn_index": 11,
           "distractor_used": null,
           "explanation": "Yalıtımlı ikinci cam işe yarıyor; ama sıcak havada pencere açıldığı için ödenen paranın karşılığı kayboluyor.",
-          "difficulty": "easy"
+          "difficulty": "easy",
+          "status": "verified"
         }
       ]
     },
@@ -287,7 +299,8 @@
           "turn_index": 4,
           "distractor_used": null,
           "explanation": "Bir formun bu kadar fark yaratmasının ilk nedeni çaba: ne kadar önemsiz olursa olsun her küçük engel karşıya geçenlerin sayısını azaltıyor.",
-          "difficulty": "medium"
+          "difficulty": "medium",
+          "status": "verified"
         },
         {
           "number": 14,
@@ -304,7 +317,8 @@
           "turn_index": 7,
           "distractor_used": null,
           "explanation": "Gazetelere yansıyan on beş puanlık artış tek bir kasabadaki tek bir pilot çalışmadan geliyor; daha geniş denemelerde etki çok daha küçük çıkıyor.",
-          "difficulty": "medium"
+          "difficulty": "medium",
+          "status": "verified"
         },
         {
           "number": 15,
@@ -321,7 +335,8 @@
           "turn_index": 10,
           "distractor_used": "sixty students in the laboratory",
           "explanation": "Alanı değiştiren yöntem saha deneyi: örneklem büyüklükleri on binlerle ölçülüyor, erken laboratuvar çalışmalarındaki altmış öğrenciyle değil.",
-          "difficulty": "medium"
+          "difficulty": "medium",
+          "status": "verified"
         }
       ]
     }

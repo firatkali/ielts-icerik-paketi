@@ -41,7 +41,8 @@
       "turn_index": 5,
       "distractor_used": null,
       "explanation": "Grange Road'daki ana kapıdan girildiğinde iade makinesi hemen solda kalıyor; planda girişin solundaki yer 16.",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "status": "verified"
     },
     {
       "number": 17,
@@ -59,7 +60,8 @@
       "turn_index": 6,
       "distractor_used": null,
       "explanation": "Çocuk kütüphanesi gazete bölümünün karşısında, salonun öbür ucundadır ve bahçeye açılan kendi kapısı vardır; planda 17.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     },
     {
       "number": 18,
@@ -75,7 +77,8 @@
       "turn_index": 7,
       "distractor_used": null,
       "explanation": "Toplantı odası çocuk kütüphanesi ile asansörün arasındaki küçük odadır; planda 18.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     },
     {
       "number": 19,
@@ -92,7 +95,8 @@
       "turn_index": 7,
       "distractor_used": null,
       "explanation": "Bilgisayar odası zemin katın en ucunda, roman raflarının arkasındadır; planda 19.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     },
     {
       "number": 20,
@@ -108,7 +112,8 @@
       "turn_index": 8,
       "distractor_used": "beside the study room window",
       "explanation": "Konuşmacı önce yanlış söyleyip düzeltiyor: kahve köşesi çalışma odasının penceresinin yanında değil, tam karşısında ve merdiven başının bitişiğindedir; planda 20.",
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "status": "verified"
     }
   ]
 }

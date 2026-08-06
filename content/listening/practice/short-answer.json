@@ -40,7 +40,9 @@
           "turn_index": 1,
           "distractor_used": null,
           "explanation": "Konuşmacı zirveden sonra parsel sayısının elli yıl boyunca sürekli gerilediğini söylüyor; sorulan şey zirve yılı değil, düşüşün süresi.",
-          "difficulty": "medium"
+          "difficulty": "medium",
+          "status": "flagged",
+          "flag_reason": "Bicim farki: '50 years' / 'fifty years'. Icerik ayni (zirveden sonra elli yil dustu)."
         },
         {
           "number": 2,
@@ -58,7 +60,8 @@
           "turn_index": 2,
           "distractor_used": null,
           "explanation": "Üç biçimden ikincisi ticari çatı çiftliği; mevcut bir binanın düz damına toprak yatakları ya da seralar koyuyor.",
-          "difficulty": "easy"
+          "difficulty": "easy",
+          "status": "verified"
         },
         {
           "number": 3,
@@ -78,7 +81,8 @@
           "turn_index": 3,
           "distractor_used": null,
           "explanation": "İki yıl önce yayımlanan tarama Avrupa ve Kuzey Amerika'da kırk bir şehri incelemiş.",
-          "difficulty": "easy"
+          "difficulty": "easy",
+          "status": "verified"
         },
         {
           "number": 4,
@@ -95,7 +99,8 @@
           "turn_index": 8,
           "distractor_used": null,
           "explanation": "Kirlilik yüksek çıktığında alan terk edilmiyor; yükseltilmiş yataklar kuruluyor ve dışarıdan temiz kompost getiriliyor.",
-          "difficulty": "medium"
+          "difficulty": "medium",
+          "status": "verified"
         }
       ]
     },
@@ -124,7 +129,8 @@
           "turn_index": 2,
           "distractor_used": null,
           "explanation": "Eğim gereğinden az olduğunda taşınması gereken silt kanalın tabanına çöküyor ve kanal tıkanıyor; eğim fazla olduğunda ise tünel kendi tabanını oyuyor.",
-          "difficulty": "medium"
+          "difficulty": "medium",
+          "status": "verified"
         },
         {
           "number": 6,
@@ -143,7 +149,8 @@
           "turn_index": 4,
           "distractor_used": "half",
           "explanation": "Sıcak ovayı geçen açık kanal için sık sık yarısı yazılıyor; arazi ölçümleri üçte bire yakın bir kayba işaret ediyor.",
-          "difficulty": "hard"
+          "difficulty": "hard",
+          "status": "verified"
         },
         {
           "number": 7,
@@ -160,7 +167,9 @@
           "turn_index": 5,
           "distractor_used": null,
           "explanation": "Tünel ne kadar iyi kazılmış olursa olsun altındaki yeraltı su seviyesine bağlı; modern bir sondaj o seviyeyi düşürdüğünde sekiz yüz yıllık kanal bir mevsimde kuruyor.",
-          "difficulty": "hard"
+          "difficulty": "hard",
+          "status": "flagged",
+          "flag_reason": "Yalnizca belirteclik farki: 'the water table' / 'water table'. Icerik ayni."
         },
         {
           "number": 8,
@@ -178,7 +187,8 @@
           "turn_index": 9,
           "distractor_used": null,
           "explanation": "Basamaklı kuyular yalnızca su kaynağı değil; en alttaki odalar yazın yüzeyden yaklaşık on derece serin kalıyor.",
-          "difficulty": "medium"
+          "difficulty": "medium",
+          "status": "verified"
         }
       ]
     },
@@ -207,7 +217,8 @@
           "turn_index": 2,
           "distractor_used": null,
           "explanation": "Desibel ölçeği logaritmik olduğu için on birimlik artış on kat enerji, kabaca iki kat gürültü demek.",
-          "difficulty": "easy"
+          "difficulty": "easy",
+          "status": "verified"
         },
         {
           "number": 10,
@@ -224,7 +235,8 @@
           "turn_index": 5,
           "distractor_used": null,
           "explanation": "Maruz kalan nüfus sıralamasında karayolu açık ara önde; demiryolu epey geriden ikinci, uçak üçüncü sırada.",
-          "difficulty": "medium"
+          "difficulty": "medium",
+          "status": "verified"
         },
         {
           "number": 11,
@@ -241,7 +253,9 @@
           "turn_index": 9,
           "distractor_used": null,
           "explanation": "Perde duvar, kaynakla kulak arasındaki görüş hattını kesince işe yarıyor; tekerlekler görünüyorsa duvar çalışmıyor demektir.",
-          "difficulty": "medium"
+          "difficulty": "medium",
+          "status": "flagged",
+          "flag_reason": "Yalnizca belirteclik farki: 'the line of sight' / 'line of sight'. Icerik ayni."
         },
         {
           "number": 12,
@@ -260,7 +274,8 @@
           "turn_index": 14,
           "distractor_used": null,
           "explanation": "Uygulamada her öğrenci iki nokta seçip her birinde birer saat, on beşer dakikalık bloklar hâlinde kayıt tutacak.",
-          "difficulty": "easy"
+          "difficulty": "easy",
+          "status": "verified"
         }
       ]
     },
@@ -292,7 +307,8 @@
           "turn_index": 1,
           "distractor_used": null,
           "explanation": "Beş milimetrenin altı mikroplastik; bir mikrometrenin altına inildiğinde konuşmacı nanoplastik terimini kullanıyor.",
-          "difficulty": "medium"
+          "difficulty": "medium",
+          "status": "verified"
         },
         {
           "number": 14,
@@ -309,7 +325,8 @@
           "turn_index": 2,
           "distractor_used": null,
           "explanation": "Denizden gelen payın büyük bölümü av ve seyir donanımı; konuşmacı ağ, misina, şamandıra ve çemberi tek sözcükle gear diye topluyor.",
-          "difficulty": "medium"
+          "difficulty": "medium",
+          "status": "verified"
         },
         {
           "number": 15,
@@ -329,7 +346,8 @@
           "turn_index": 8,
           "distractor_used": null,
           "explanation": "Korunaklı havzalardan alınan çekirdeklerde plastik ilk kez ellili yılların katmanlarında görülüyor ve miktar o tarihten beri kabaca on beş yılda bir ikiye katlanıyor.",
-          "difficulty": "hard"
+          "difficulty": "hard",
+          "status": "verified"
         }
       ]
     }

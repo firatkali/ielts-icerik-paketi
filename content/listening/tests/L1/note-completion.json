@@ -30,7 +30,8 @@
       "turn_index": 1,
       "distractor_used": null,
       "explanation": "On dokuzuncu yüzyıl yasaları belediyeleri, bahçesi olmayan hanelere kiralık küçük parseller (allotment) vermeye zorlamış.",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "status": "verified"
     },
     {
       "number": 32,
@@ -47,7 +48,8 @@
       "turn_index": 2,
       "distractor_used": null,
       "explanation": "Üç biçimden açık ara en yaygını, başka bir işlevi olmayan arazide kurulan ortak bahçe.",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "status": "verified"
     },
     {
       "number": 33,
@@ -65,7 +67,8 @@
       "turn_index": 3,
       "distractor_used": "5,000",
       "explanation": "Aynı araştırma için 5.000 metrekare de aktarılıyor, ama o rakam yolları, kulübeleri ve otoparkı içeriyor; ortanca değer 2.000 metrekare.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     },
     {
       "number": 34,
@@ -82,7 +85,8 @@
       "turn_index": 4,
       "distractor_used": "fifteen",
       "explanation": "Yıllarca on beş kat verim iddia edilmiş; daha dikkatli çalışmalar gerçekçi rakamı yaklaşık üç kata çekiyor.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     },
     {
       "number": 35,
@@ -101,7 +105,8 @@
       "turn_index": 6,
       "distractor_used": null,
       "explanation": "Bir deneme binasındaki ölçümler, şiddetli yağışın yaklaşık yarısının bitkili çatıda tutulduğunu gösteriyor.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     },
     {
       "number": 36,
@@ -117,7 +122,8 @@
       "turn_index": 7,
       "distractor_used": "exercise",
       "explanation": "Katılımcıların en sık andığı fayda yiyecek ya da egzersiz değil, başka insanlarla kurulan temas.",
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "status": "verified"
     }
   ]
 }

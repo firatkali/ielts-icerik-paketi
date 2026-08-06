@@ -40,7 +40,8 @@
       "turn_index": 5,
       "distractor_used": null,
       "explanation": "Girişin hemen solunda etiketli danışma masası var; çiçek tezgâhı onun tam karşısında, yani girişe göre sağda.",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "status": "verified"
     },
     {
       "number": 17,
@@ -56,7 +57,8 @@
       "turn_index": 6,
       "distractor_used": "by the entrance",
       "explanation": "Konuşmacı balık tezgâhının eskisi gibi girişin yanında olmadığını söylüyor: uygun drenaj yalnızca o köşede olduğu için tezgâh sol koridorun en ucunda.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     },
     {
       "number": 18,
@@ -72,7 +74,8 @@
       "turn_index": 7,
       "distractor_used": null,
       "explanation": "Gösteri mutfağı kapıdan bakınca tam karşıda, salonun en ucunda ve planda çizili saatin altındadır; oturma alanı onun önünde yer alıyor.",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "status": "verified"
     },
     {
       "number": 19,
@@ -89,7 +92,8 @@
       "turn_index": 8,
       "distractor_used": null,
       "explanation": "Dolum dükkânı etiketli oturma alanının arkasında, kuzeydoğu köşededir; tuvaletlere de oradaki kapıdan geçiliyor.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     },
     {
       "number": 20,
@@ -106,7 +110,8 @@
       "turn_index": 8,
       "distractor_used": "the loading yard behind the hall",
       "explanation": "Bisiklet park yeri salonun içinde değil, bahçe kapısının dışındadır; arkadaki yükleme avlusu yalnızca satıcıların araçlarına ait.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     }
   ]
 }

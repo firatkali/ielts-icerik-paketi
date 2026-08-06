@@ -29,7 +29,8 @@
       "turn_index": 34,
       "distractor_used": null,
       "explanation": "Ham verinin tamamı eke konacak; danışmana göre ek, kelime sınırının dışında tutuluyor.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     },
     {
       "number": 28,
@@ -46,7 +47,8 @@
       "turn_index": 36,
       "distractor_used": "3,000",
       "explanation": "Geçen yılki grup için sınır üç bin kelimeydi; bu yılki sınır iki bin beş yüz ve bu bir hedef değil üst sınır.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     },
     {
       "number": 29,
@@ -64,7 +66,9 @@
       "turn_index": 38,
       "distractor_used": "the twelfth",
       "explanation": "Öğrencinin defterindeki on iki, eski takvimdeki taslak tarihidir; bitmiş rapor ayın on dokuzunda öğlen teslim edilecek.",
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "status": "flagged",
+      "flag_reason": "Bicim farki: '19th' / 'nineteenth'. Icerik ayni (12'si eski taslak tarihi)."
     },
     {
       "number": 30,
@@ -80,7 +84,8 @@
       "turn_index": 40,
       "distractor_used": null,
       "explanation": "Kapak sayfasının yanında imzalı risk değerlendirmesi de gerekiyor; o olmadan danışman saha çalışmasını değerlendiremiyor.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     }
   ]
 }

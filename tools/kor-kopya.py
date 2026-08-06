@@ -9,6 +9,7 @@ Dogrulayan model bu klasordeki dosyalari okur; orijinal soru dosyalarina
 ASLA bakmaz. Yoksa dogrulamanin hicbir degeri kalmaz.
 """
 
+import datetime
 import os
 import sys
 import shutil
@@ -43,7 +44,18 @@ def main():
     if os.path.isdir(hedef):
         shutil.rmtree(hedef)
     os.makedirs(hedef)
-    os.makedirs(ortak.yol("dogrulama", "cevap"), exist_ok=True)
+
+    # Onceki oturumun cevaplari klasorde kalirsa karsilastir.py onlari da okur ve
+    # bu oturumun raporuna karistirir. Bes oturum ust uste boyle oldu; bu yuzden
+    # yeni oturum baslarken varolan cevaplar arsivlenir.
+    cevap = ortak.yol("dogrulama", "cevap")
+    if os.path.isdir(cevap) and os.listdir(cevap):
+        damga = datetime.datetime.now().strftime("%Y%m%d-%H%M%S")
+        arsiv = ortak.yol("dogrulama", "cevap-arsiv", damga)
+        os.makedirs(os.path.dirname(arsiv), exist_ok=True)
+        shutil.move(cevap, arsiv)
+        print("onceki oturumun cevaplari arsivlendi -> dogrulama/cevap-arsiv/%s" % damga)
+    os.makedirs(cevap, exist_ok=True)
 
     toplam = 0
     for paket in sys.argv[1:]:

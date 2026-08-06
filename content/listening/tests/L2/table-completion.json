@@ -87,7 +87,8 @@
       "turn_index": 5,
       "distractor_used": null,
       "explanation": "Soyadı ses kaydında harf harf söyleniyor: H-A-U-G-L-A-N-D.",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "status": "verified"
     },
     {
       "number": 2,
@@ -105,7 +106,8 @@
       "turn_index": 7,
       "distractor_used": null,
       "explanation": "Müşteri taşınma günü için cep numarasını veriyor; 'double four' iki tane dört demek, yani numara 07633 441 902.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     },
     {
       "number": 3,
@@ -121,7 +123,8 @@
       "turn_index": 9,
       "distractor_used": "Selby Lane",
       "explanation": "Mahallede herkes Selby Lane dese de orası yandaki patika; posta adresi Weir Street.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     },
     {
       "number": 4,
@@ -137,7 +140,8 @@
       "turn_index": 13,
       "distractor_used": null,
       "explanation": "Taşınılacak yer, kuzeyde yaklaşık kırk dakika uzaklıktaki Ashcombe adlı yerleşim.",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "status": "verified"
     },
     {
       "number": 5,
@@ -155,7 +159,9 @@
       "turn_index": 18,
       "distractor_used": "third",
       "explanation": "Müşterinin aklında ayın üçü, cumartesi vardı; görevli bir gün öncesini, yani cuma ikisini öneriyor ve müşteri kabul ediyor.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "flagged",
+      "flag_reason": "Bicim farki: '2nd' / 'second'. Icerik ayni (3 Ekim Cumartesi degil, 2 Ekim Cuma)."
     },
     {
       "number": 6,
@@ -178,7 +184,9 @@
       "turn_index": 22,
       "distractor_used": "10.30",
       "explanation": "Görevli önce salı 10.30'u söylüyor, sonra o saatin dolduğunu fark ediyor; keşif ziyareti salı saat 11'e alınıyor.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "flagged",
+      "flag_reason": "Bicim farki: '11' / '11.00'. Icerik ayni (10.30 doldu, bir sonraki slot Sali saat 11)."
     },
     {
       "number": 7,
@@ -196,7 +204,8 @@
       "turn_index": 26,
       "distractor_used": null,
       "explanation": "İki adam ve büyük araçla taşıma 340 pound; paketlemeyi de şirket yaparsa fiyat 410 pounda çıkıyor.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     },
     {
       "number": 8,
@@ -213,7 +222,8 @@
       "turn_index": 29,
       "distractor_used": "blankets",
       "explanation": "Kırılacak eşyalar battaniyeye sarılmıyor; bu tür parçalar için ahşap sandık yapılıyor.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     },
     {
       "number": 9,
@@ -230,7 +240,9 @@
       "turn_index": 31,
       "distractor_used": "five",
       "explanation": "Bu büyüklükte bir iş normalde beş saat sürüyor; asansörsüz ikinci kat yüzünden süre altı saate çıkıyor.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "flagged",
+      "flag_reason": "Bicim farki: '6' / 'six'. Icerik ayni (bes saat degil, merdiven yuzunden alti saat)."
     },
     {
       "number": 10,
@@ -247,7 +259,8 @@
       "turn_index": 39,
       "distractor_used": null,
       "explanation": "Sigorta kuralı gereği boya, aerosol kutuları ve dondurulmuş gıda araca alınmıyor.",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "status": "verified"
     }
   ]
 }

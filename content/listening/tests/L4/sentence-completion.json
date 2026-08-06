@@ -30,7 +30,9 @@
       "turn_index": 21,
       "distractor_used": "two",
       "explanation": "Herkes iki gün sandığı için geçen yıl iki grup teslim tarihini kaçırmış; çizici aslında üç iş günü istiyor.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "flagged",
+      "flag_reason": "Bicim farki: '3' / 'three'. Icerik ayni (plotter iki degil uc is gunu aliyor)."
     },
     {
       "number": 28,
@@ -47,7 +49,8 @@
       "turn_index": 23,
       "distractor_used": null,
       "explanation": "Bölüm büyük panolara geçtiği için yer bol; danışman bu yeri doldurmamayı, boşluk bırakmayı öğütlüyor.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     },
     {
       "number": 29,
@@ -63,7 +66,8 @@
       "turn_index": 27,
       "distractor_used": "the seminar block",
       "explanation": "Idris seminer bloğunu varsayıyor; danışman düzeltiyor: etkinlik kütüphanenin atriyumunda, daha aydınlık ama daha gürültülü bir yerde yapılacak.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     },
     {
       "number": 30,
@@ -79,7 +83,8 @@
       "turn_index": 32,
       "distractor_used": null,
       "explanation": "Sekiz haftanın tamamı yaz aylarına denk geldiği için donmuş zemine dair hiçbir veri yok; danışman bunu sınırlılık olarak yazmalarını istiyor.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     }
   ]
 }

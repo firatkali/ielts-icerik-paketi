@@ -22,12 +22,32 @@
       "word_limit": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
       "stem_block": null,
       "table": {
-        "headers": ["Stage", "What is needed", "Notes"],
+        "headers": [
+          "Stage",
+          "What is needed",
+          "Notes"
+        ],
         "rows": [
-          ["Accepting the offer", "a deposit of £(1) ........", "returned after the final inspection"],
-          ["Sending the form back", "a copy of the offer letter and (2) ........", "the office emails the form to applicants"],
-          ["Moving in", "Saturday (3) ........ September, 10 am to 4 pm", "students travelling from abroad arrive earlier"],
-          ["Living in hall", "kitchens are cleaned by staff every (4) ........", "some noticeboards still show the old day"]
+          [
+            "Accepting the offer",
+            "a deposit of £(1) ........",
+            "returned after the final inspection"
+          ],
+          [
+            "Sending the form back",
+            "a copy of the offer letter and (2) ........",
+            "the office emails the form to applicants"
+          ],
+          [
+            "Moving in",
+            "Saturday (3) ........ September, 10 am to 4 pm",
+            "students travelling from abroad arrive earlier"
+          ],
+          [
+            "Living in hall",
+            "kitchens are cleaned by staff every (4) ........",
+            "some noticeboards still show the old day"
+          ]
         ]
       },
       "items": [
@@ -35,53 +55,82 @@
           "number": 1,
           "script_id": "L6-S1",
           "prompt": "a deposit of £(1) ........",
-          "answer": ["250"],
-          "accepted_variants": ["250", "£250", "250 pounds"],
+          "answer": [
+            "250"
+          ],
+          "accepted_variants": [
+            "250",
+            "£250",
+            "250 pounds"
+          ],
           "evidence": "There's also a deposit of two hundred and fifty pounds, which you get back after the final inspection.",
           "answer_point_id": "L6-S1-15",
           "turn_index": 28,
           "distractor_used": null,
           "explanation": "Danışman, oda boşaltma kurallarını anlattıktan sonra iki yüz elli poundluk depozitodan söz ediyor; para son denetimden sonra iade ediliyor.",
-          "difficulty": "easy"
+          "difficulty": "easy",
+          "status": "verified"
         },
         {
           "number": 2,
           "script_id": "L6-S1",
           "prompt": "a copy of the offer letter and (2) ........",
-          "answer": ["photo identification"],
-          "accepted_variants": ["photo identification", "photo ID"],
+          "answer": [
+            "photo identification"
+          ],
+          "accepted_variants": [
+            "photo identification",
+            "photo ID"
+          ],
           "evidence": "A copy of your offer letter, and some photo identification",
           "answer_point_id": "L6-S1-19",
           "turn_index": 34,
           "distractor_used": null,
           "explanation": "Öğrenci forma ne ekleyeceğini soruyor; danışman teklif mektubunun kopyası ve fotoğraflı kimlik istiyor, pasaport ya da ehliyet örnek olarak veriliyor.",
-          "difficulty": "easy"
+          "difficulty": "easy",
+          "status": "verified"
         },
         {
           "number": 3,
           "script_id": "L6-S1",
           "prompt": "Saturday (3) ........ September, 10 am to 4 pm",
-          "answer": ["14"],
-          "accepted_variants": ["14", "14th", "the 14th", "fourteenth", "the fourteenth"],
+          "answer": [
+            "14"
+          ],
+          "accepted_variants": [
+            "14",
+            "14th",
+            "the 14th",
+            "fourteenth",
+            "the fourteenth"
+          ],
           "evidence": "Move-in day is Saturday the fourteenth of September",
           "answer_point_id": "L6-S1-20",
           "turn_index": 36,
           "distractor_used": "12 September",
           "explanation": "Öğrencinin elindeki mektupta 12'si yazıyor, ama o tarih yurt dışından gelenlerin karşılama programı; herkes için giriş günü 14 Eylül.",
-          "difficulty": "medium"
+          "difficulty": "medium",
+          "status": "verified"
         },
         {
           "number": 4,
           "script_id": "L6-S1",
           "prompt": "kitchens are cleaned by staff every (4) ........",
-          "answer": ["Thursdays"],
-          "accepted_variants": ["Thursdays", "Thursday"],
+          "answer": [
+            "Thursdays"
+          ],
+          "accepted_variants": [
+            "Thursdays",
+            "Thursday"
+          ],
           "evidence": "the cleaning moved to Thursdays last term",
           "answer_point_id": "L6-S1-28",
           "turn_index": 48,
           "distractor_used": "Wednesdays",
           "explanation": "Açık gün listesinde ve bazı panolarda Çarşamba yazıyor; danışman temizliğin geçen dönem Perşembe'ye alındığını söylüyor.",
-          "difficulty": "medium"
+          "difficulty": "medium",
+          "status": "flagged",
+          "flag_reason": "Tekil/cogul farki: 'Thursday' / 'Thursdays'. Tablo hucresi 'every (4)' dedigi icin tekil bicim de dogru okunur; ikisi de kabul edilmeli."
         }
       ]
     },
@@ -94,12 +143,32 @@
       "word_limit": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
       "stem_block": null,
       "table": {
-        "headers": ["", "Details", "Notes"],
+        "headers": [
+          "",
+          "Details",
+          "Notes"
+        ],
         "rows": [
-          ["The journey", "the coach left the bus station at (5) ........ pm", "it got in later than it should have done"],
-          ["The bag", "inside were boots, a camera and a set of keys with a (6) ........", "the luggage tag is too faint to read"],
-          ["Reference", "quote (7) ........ on anything you send", "the office is now at the Canal Road depot"],
-          ["Posting instead of collecting", "£(8) ........, and about five working days", "most people decide to come in"]
+          [
+            "The journey",
+            "the coach left the bus station at (5) ........ pm",
+            "it got in later than it should have done"
+          ],
+          [
+            "The bag",
+            "inside were boots, a camera and a set of keys with a (6) ........",
+            "the luggage tag is too faint to read"
+          ],
+          [
+            "Reference",
+            "quote (7) ........ on anything you send",
+            "the office is now at the Canal Road depot"
+          ],
+          [
+            "Posting instead of collecting",
+            "£(8) ........, and about five working days",
+            "most people decide to come in"
+          ]
         ]
       },
       "items": [
@@ -107,53 +176,81 @@
           "number": 5,
           "script_id": "L4-S1",
           "prompt": "the coach left the bus station at (5) ........ pm",
-          "answer": ["4.20"],
-          "accepted_variants": ["4.20", "4:20", "4.20 pm", "16.20"],
+          "answer": [
+            "4.20"
+          ],
+          "accepted_variants": [
+            "4.20",
+            "4:20",
+            "4.20 pm",
+            "16.20"
+          ],
           "evidence": "Twenty past four from the bus station.",
           "answer_point_id": "L4-S1-03",
           "turn_index": 9,
           "distractor_used": null,
           "explanation": "Yolcu kalkış saatini \"twenty past four\" diye veriyor; varış saati (altıya çeyrek kala) ayrı bir bilgi, kalkış saati sorulan bilgidir.",
-          "difficulty": "medium"
+          "difficulty": "medium",
+          "status": "verified"
         },
         {
           "number": 6,
           "script_id": "L4-S1",
           "prompt": "inside were boots, a camera and a set of keys with a (6) ........",
-          "answer": ["wooden fob"],
-          "accepted_variants": ["wooden fob"],
+          "answer": [
+            "wooden fob"
+          ],
+          "accepted_variants": [
+            "wooden fob"
+          ],
           "evidence": "Oh, and a set of keys with a wooden fob.",
           "answer_point_id": "L4-S1-14",
           "turn_index": 23,
           "distractor_used": null,
           "explanation": "Çantanın içindekiler sayılırken en sona anahtarlar ekleniyor; anahtarlığın tahta olduğu açıkça söyleniyor.",
-          "difficulty": "easy"
+          "difficulty": "easy",
+          "status": "verified"
         },
         {
           "number": 7,
           "script_id": "L4-S1",
           "prompt": "quote (7) ........ on anything you send",
-          "answer": ["M2074"],
-          "accepted_variants": ["M2074", "M 2074", "M-2074"],
+          "answer": [
+            "M2074"
+          ],
+          "accepted_variants": [
+            "M2074",
+            "M 2074",
+            "M-2074"
+          ],
           "evidence": "The reference is M for Marchwood, then two, oh, seven, four.",
           "answer_point_id": "L4-S1-24",
           "turn_index": 40,
           "distractor_used": null,
           "explanation": "Görevli referansı harf adıyla ve rakam rakam veriyor: M, ardından iki-sıfır-yedi-dört.",
-          "difficulty": "medium"
+          "difficulty": "medium",
+          "status": "verified"
         },
         {
           "number": 8,
           "script_id": "L4-S1",
           "prompt": "£(8) ........, and about five working days",
-          "answer": ["12"],
-          "accepted_variants": ["12", "£12", "twelve", "12 pounds"],
+          "answer": [
+            "12"
+          ],
+          "accepted_variants": [
+            "12",
+            "£12",
+            "twelve",
+            "12 pounds"
+          ],
           "evidence": "for a rucksack that size it's twelve pounds",
           "answer_point_id": "L4-S1-26",
           "turn_index": 44,
           "distractor_used": null,
           "explanation": "Kadın çantanın postayla gönderilmesini isteyince görevli bu boydaki bir sırt çantası için on iki pound alındığını söylüyor.",
-          "difficulty": "easy"
+          "difficulty": "easy",
+          "status": "verified"
         }
       ]
     },
@@ -166,11 +263,27 @@
       "word_limit": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
       "stem_block": null,
       "table": {
-        "headers": ["Part of the talk", "Main point", "Detail"],
+        "headers": [
+          "Part of the talk",
+          "Main point",
+          "Detail"
+        ],
         "rows": [
-          ["History", "rented plots for households with no garden were at their highest number in the (9) ........", "the total then fell for fifty years as land was sold for housing"],
-          ["Forms today", "community gardens, rooftop farms and (10) ........ farming", "crops raised in stacked trays indoors under lamps"],
-          ["Reasons people take part", "(11) ........ was placed last by the gardeners questioned", "exercise came second in this study"]
+          [
+            "History",
+            "rented plots for households with no garden were at their highest number in the (9) ........",
+            "the total then fell for fifty years as land was sold for housing"
+          ],
+          [
+            "Forms today",
+            "community gardens, rooftop farms and (10) ........ farming",
+            "crops raised in stacked trays indoors under lamps"
+          ],
+          [
+            "Reasons people take part",
+            "(11) ........ was placed last by the gardeners questioned",
+            "exercise came second in this study"
+          ]
         ]
       },
       "items": [
@@ -178,40 +291,60 @@
           "number": 9,
           "script_id": "L1-S4",
           "prompt": "rented plots for households with no garden were at their highest number in the (9) ........",
-          "answer": ["1940s"],
-          "accepted_variants": ["1940s", "the 1940s", "1940's", "nineteen forties", "forties"],
+          "answer": [
+            "1940s"
+          ],
+          "accepted_variants": [
+            "1940s",
+            "the 1940s",
+            "1940's",
+            "nineteen forties",
+            "forties"
+          ],
           "evidence": "The number of plots reached its peak in the nineteen forties.",
           "answer_point_id": "L1-S4-02",
           "turn_index": 1,
           "distractor_used": "1950s",
           "explanation": "Konuşmacı zirvenin 1940'larda olduğunu söylüyor ve bazı kaynaklardaki 1950'ler rakamının artık düşüş dönemi olduğunu ekleyerek çeldiriciyi kendisi eliyor.",
-          "difficulty": "medium"
+          "difficulty": "medium",
+          "status": "verified"
         },
         {
           "number": 10,
           "script_id": "L1-S4",
           "prompt": "community gardens, rooftop farms and (10) ........ farming",
-          "answer": ["vertical"],
-          "accepted_variants": ["vertical"],
+          "answer": [
+            "vertical"
+          ],
+          "accepted_variants": [
+            "vertical"
+          ],
           "evidence": "often called vertical farming",
           "answer_point_id": "L1-S4-07",
           "turn_index": 2,
           "distractor_used": null,
           "explanation": "Üçüncü biçim \"controlled-environment farm\" diye tanıtılıp yaygın adının dikey tarım olduğu söyleniyor.",
-          "difficulty": "easy"
+          "difficulty": "easy",
+          "status": "verified"
         },
         {
           "number": 11,
           "script_id": "L1-S4",
           "prompt": "(11) ........ was placed last by the gardeners questioned",
-          "answer": ["saving money"],
-          "accepted_variants": ["saving money", "money"],
+          "answer": [
+            "saving money"
+          ],
+          "accepted_variants": [
+            "saving money",
+            "money"
+          ],
           "evidence": "Saving money, interestingly, came bottom of the list.",
           "answer_point_id": "L1-S4-20",
           "turn_index": 7,
           "distractor_used": null,
           "explanation": "Katılımcıların saydığı yararlar sıralanırken para tasarrufunun listenin en altında kaldığı belirtiliyor.",
-          "difficulty": "medium"
+          "difficulty": "medium",
+          "status": "verified"
         }
       ]
     },
@@ -224,12 +357,32 @@
       "word_limit": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
       "stem_block": null,
       "table": {
-        "headers": ["", "Details", "Notes"],
+        "headers": [
+          "",
+          "Details",
+          "Notes"
+        ],
         "rows": [
-          ["Off-peak membership", "£(12) ........ a month", "weekdays only; full membership costs more"],
-          ["Reductions", "students and the over-65s pay (13) ........ less", "the usual £20 joining fee is not charged this month"],
-          ["Induction", "booked for (14) ........ at 6.45", "an instructor sets up a programme on the machines"],
-          ["Lockers", "opened with your own (15) ........", "three hours of free parking if you enter your registration"]
+          [
+            "Off-peak membership",
+            "£(12) ........ a month",
+            "weekdays only; full membership costs more"
+          ],
+          [
+            "Reductions",
+            "students and the over-65s pay (13) ........ less",
+            "the usual £20 joining fee is not charged this month"
+          ],
+          [
+            "Induction",
+            "booked for (14) ........ at 6.45",
+            "an instructor sets up a programme on the machines"
+          ],
+          [
+            "Lockers",
+            "opened with your own (15) ........",
+            "three hours of free parking if you enter your registration"
+          ]
         ]
       },
       "items": [
@@ -237,53 +390,79 @@
           "number": 12,
           "script_id": "L3-S1",
           "prompt": "£(12) ........ a month",
-          "answer": ["26"],
-          "accepted_variants": ["26", "£26", "twenty-six", "26 pounds"],
+          "answer": [
+            "26"
+          ],
+          "accepted_variants": [
+            "26",
+            "£26",
+            "twenty-six",
+            "26 pounds"
+          ],
           "evidence": "The off-peak one is twenty-six",
           "answer_point_id": "L3-S1-06",
           "turn_index": 10,
           "distractor_used": null,
           "explanation": "Danışman iki üyelik türünü arka arkaya veriyor; sorulan, tam üyeliğin değil sınırlı saatli üyeliğin aylık ücreti.",
-          "difficulty": "easy"
+          "difficulty": "easy",
+          "status": "verified"
         },
         {
           "number": 13,
           "script_id": "L3-S1",
           "prompt": "students and the over-65s pay (13) ........ less",
-          "answer": ["a fifth"],
-          "accepted_variants": ["a fifth", "one fifth", "fifth", "1/5"],
+          "answer": [
+            "a fifth"
+          ],
+          "accepted_variants": [
+            "a fifth",
+            "one fifth",
+            "fifth",
+            "1/5"
+          ],
           "evidence": "students and anyone over sixty-five get a fifth off",
           "answer_point_id": "L3-S1-09",
           "turn_index": 16,
           "distractor_used": null,
           "explanation": "Danışman öğrenci olup olmadığını sorma gerekçesini açıklarken öğrencilere ve 65 yaş üstüne beşte bir indirim yapıldığını söylüyor.",
-          "difficulty": "medium"
+          "difficulty": "medium",
+          "status": "verified"
         },
         {
           "number": 14,
           "script_id": "L3-S1",
           "prompt": "booked for (14) ........ at 6.45",
-          "answer": ["Friday"],
-          "accepted_variants": ["Friday"],
+          "answer": [
+            "Friday"
+          ],
+          "accepted_variants": [
+            "Friday"
+          ],
           "evidence": "I could do Friday at quarter to seven",
           "answer_point_id": "L3-S1-15",
           "turn_index": 24,
           "distractor_used": "Thursday evening",
           "explanation": "Adam önce Perşembe akşamını istiyor ama o gün dolu; altıya çeyrek kalaki randevu Cuma günü için veriliyor.",
-          "difficulty": "medium"
+          "difficulty": "medium",
+          "status": "verified"
         },
         {
           "number": 15,
           "script_id": "L3-S1",
           "prompt": "opened with your own (15) ........",
-          "answer": ["code"],
-          "accepted_variants": ["code"],
+          "answer": [
+            "code"
+          ],
+          "accepted_variants": [
+            "code"
+          ],
           "evidence": "you set your own code",
           "answer_point_id": "L3-S1-24",
           "turn_index": 34,
           "distractor_used": null,
           "explanation": "Danışman dolapların artık bozuk para almadığını, üyenin kendi şifresini belirlediğini söylüyor.",
-          "difficulty": "easy"
+          "difficulty": "easy",
+          "status": "verified"
         }
       ]
     }

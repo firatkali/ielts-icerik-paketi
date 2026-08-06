@@ -52,7 +52,8 @@
           "turn_index": 5,
           "distractor_used": null,
           "explanation": "Ana girişten içeri girildiğinde ziyaretçi merkezi hemen solda kalıyor; tuvaletler de haritada onun arkasında etiketli duruyor.",
-          "difficulty": "easy"
+          "difficulty": "easy",
+          "status": "verified"
         },
         {
           "number": 2,
@@ -69,7 +70,8 @@
           "turn_index": 6,
           "distractor_used": null,
           "explanation": "Yolun bittiği yerde, girişin tam karşısında duran küçük yapı bilgi kulübesidir; görevlisi yoktur ama broşürler orada durur.",
-          "difficulty": "easy"
+          "difficulty": "easy",
+          "status": "verified"
         },
         {
           "number": 3,
@@ -87,7 +89,8 @@
           "turn_index": 7,
           "distractor_used": null,
           "explanation": "Kuş gözlem kulübesinin hemen yanındaki, gölün sığ ucuna uzanan alçak ahşap güverte havuz tarama platformudur.",
-          "difficulty": "medium"
+          "difficulty": "medium",
+          "status": "verified"
         },
         {
           "number": 4,
@@ -105,7 +108,8 @@
           "turn_index": 8,
           "distractor_used": null,
           "explanation": "Çayır patikasının en ucunda, yamacın en tepesindeki taş halka manzara noktasıdır; kireç ocağı ile çayır haritada zaten yazılı.",
-          "difficulty": "medium"
+          "difficulty": "medium",
+          "status": "verified"
         }
       ]
     },
@@ -159,7 +163,8 @@
           "turn_index": 3,
           "distractor_used": null,
           "explanation": "Ferry Lane'deki bariyerden girince solda kalan yeşil kabin saha ofisidir; tuvaletler ve içme suyu noktası onun arkasında, yani planda C ile gösterilen yerdedir.",
-          "difficulty": "easy"
+          "difficulty": "easy",
+          "status": "verified"
         },
         {
           "number": 6,
@@ -176,7 +181,8 @@
           "turn_index": 4,
           "distractor_used": null,
           "explanation": "Sekiz araçlık küçük otopark ofisin tam karşısında, yolun sağ tarafındadır; atık bırakanlar için değil, dükkâna gelenler içindir.",
-          "difficulty": "easy"
+          "difficulty": "easy",
+          "status": "verified"
         },
         {
           "number": 7,
@@ -193,7 +199,8 @@
           "turn_index": 6,
           "distractor_used": "beside the site office",
           "explanation": "Kumbaralar eskiden ofisin yanındaydı, konuşmacı bunu söyleyip düzeltiyor: artık rampanın sonu ile çıkış bariyeri arasındalar.",
-          "difficulty": "hard"
+          "difficulty": "hard",
+          "status": "verified"
         },
         {
           "number": 8,
@@ -210,7 +217,8 @@
           "turn_index": 7,
           "distractor_used": null,
           "explanation": "Boya ve kimyasal deposu sahanın arkasında, ahşap konteynerinin bitişiğinde ve kilitli kapının ardındadır; planda kalın çizgi o kapıdır.",
-          "difficulty": "medium"
+          "difficulty": "medium",
+          "status": "verified"
         }
       ]
     },
@@ -251,7 +259,8 @@
           "turn_index": 4,
           "distractor_used": null,
           "explanation": "Peveril Street'e bakan geniş kapıdan girilince hemen solda danışma masası var; müdür de gün boyu orada duruyor.",
-          "difficulty": "easy"
+          "difficulty": "easy",
+          "status": "verified"
         },
         {
           "number": 10,
@@ -268,7 +277,8 @@
           "turn_index": 5,
           "distractor_used": null,
           "explanation": "Ekmek ve pasta tezgâhının devamı, aynı uzun tezgâhı paylaşan bölüm peynir reyonudur.",
-          "difficulty": "medium"
+          "difficulty": "medium",
+          "status": "verified"
         },
         {
           "number": 11,
@@ -285,7 +295,8 @@
           "turn_index": 7,
           "distractor_used": null,
           "explanation": "Yirmi dört sandalyeli oturma alanı, salonun en ucundaki gösteri mutfağının tam önünde yer alıyor.",
-          "difficulty": "medium"
+          "difficulty": "medium",
+          "status": "verified"
         },
         {
           "number": 12,
@@ -302,7 +313,8 @@
           "turn_index": 8,
           "distractor_used": null,
           "explanation": "Tuvaletlere dolum dükkânını geçip yeşil tabelalı kapıdan geçiliyor; planda o kapı kalın çizgiyle gösterilmiştir.",
-          "difficulty": "medium"
+          "difficulty": "medium",
+          "status": "verified"
         }
       ]
     },
@@ -356,7 +368,8 @@
           "turn_index": 6,
           "distractor_used": null,
           "explanation": "Mağaza kafenin tam karşısında, girişin sağ tarafında kalıyor; vestiyer planda adıyla yazılı olduğu için karışma ihtimali yok.",
-          "difficulty": "easy"
+          "difficulty": "easy",
+          "status": "verified"
         },
         {
           "number": 14,
@@ -373,7 +386,8 @@
           "turn_index": 8,
           "distractor_used": null,
           "explanation": "Asansör konferans salonu ile mağaza arasındadır; aradaki vestiyer ve merdiven planda yazılı olduğu için geriye tek bir konum kalıyor.",
-          "difficulty": "hard"
+          "difficulty": "hard",
+          "status": "verified"
         },
         {
           "number": 15,
@@ -390,7 +404,8 @@
           "turn_index": 9,
           "distractor_used": null,
           "explanation": "Okuma odası üst katta, merdivenin başında sağa düşen odadır; merdivenin çıkış yönü planda okla gösterilmiştir.",
-          "difficulty": "medium"
+          "difficulty": "medium",
+          "status": "verified"
         }
       ]
     }

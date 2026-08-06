@@ -30,7 +30,8 @@
       "turn_index": 24,
       "distractor_used": "10",
       "explanation": "Marit pilot uygulamayı on kişiyle yapmayı düşünüyor; danışman sayıyı yirmiye çıkarıyor ve arkadaşlar üzerinde denenmemesini istiyor.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     },
     {
       "number": 28,
@@ -46,7 +47,8 @@
       "turn_index": 30,
       "distractor_used": null,
       "explanation": "Rapor 2.500 kelime; tablolar ve anket formu ekte yer aldığı için bu sınıra dahil edilmiyor.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     },
     {
       "number": 29,
@@ -63,7 +65,8 @@
       "turn_index": 34,
       "distractor_used": "the seminar room",
       "explanation": "Perşembe günleri için ayırtılan seminer odası ders programına verilmiş; öğrencilere ikinci kattaki çalışma kabinleri tahsis edilmiş.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     },
     {
       "number": 30,
@@ -79,7 +82,8 @@
       "turn_index": 40,
       "distractor_used": null,
       "explanation": "Danışmanın son uyarısı: anket taslağı pilot uygulamadan sonra değil, önce kendisine gönderilmeli.",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "status": "verified"
     }
   ]
 }

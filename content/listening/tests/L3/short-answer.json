@@ -32,7 +32,8 @@
       "turn_index": 8,
       "distractor_used": null,
       "explanation": "Yeniden üretim her seferinde bir seçme yapıyor: bazı tohumlar çimlenmiyor, bazıları da yan sıradaki bitkilerle melezleniyor.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     },
     {
       "number": 38,
@@ -50,7 +51,9 @@
       "turn_index": 9,
       "distractor_used": null,
       "explanation": "Koleksiyonların yedeğinin ikinci bir yerde tutulmasının sebebi sıradan: elli yılın en sık kayıp nedeni sessizce bozulan bir dondurucu.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "flagged",
+      "flag_reason": "Yalnizca belirteclik farki: 'freezer' / 'a freezer'. Icerik ayni."
     },
     {
       "number": 39,
@@ -67,7 +70,8 @@
       "turn_index": 10,
       "distractor_used": null,
       "explanation": "Anlatılan bütün yöntem kurumaya ve donmaya dayanan tohumlar için geçerli; bunlara ortodoks tohum deniyor.",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "status": "verified"
     },
     {
       "number": 40,
@@ -86,7 +90,8 @@
       "turn_index": 11,
       "distractor_used": null,
       "explanation": "Kurumaya dayanmayan türlerde seçeneklerden biri yalnızca embriyonun sıvı azotta, eksi yüz doksan altı derecede dondurulması.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     }
   ]
 }

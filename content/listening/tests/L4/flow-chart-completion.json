@@ -29,7 +29,8 @@
       "turn_index": 7,
       "distractor_used": null,
       "explanation": "Gürültü denetiminde sıralama hep aynıdır: önce kaynakta, sonra yol boyunca, en son alıcıda önlem alınır.",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "status": "verified"
     },
     {
       "number": 37,
@@ -45,7 +46,8 @@
       "turn_index": 8,
       "distractor_used": null,
       "explanation": "Gözenekli asfaltın kazancı zamanla azalıyor, çünkü gözenekler dolduğu için yüzey sesi emmez hâle geliyor.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     },
     {
       "number": 38,
@@ -61,7 +63,8 @@
       "turn_index": 9,
       "distractor_used": null,
       "explanation": "Toprak set duvarla aynı işi görüyor ama görünüş olarak arazinin bir parçası gibi durduğu için tercih ediliyor.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     },
     {
       "number": 39,
@@ -78,7 +81,8 @@
       "turn_index": 10,
       "distractor_used": "10 metres",
       "explanation": "İnsanların aklındaki on metrelik ağaç şeridi ölçülen düzeyi değiştirmiyor; birkaç desibel için otuz metreye yakın sık bir kuşak gerekiyor.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     },
     {
       "number": 40,
@@ -95,7 +99,8 @@
       "turn_index": 11,
       "distractor_used": null,
       "explanation": "Kapalı tutulması gereken cam yazın açıldığı için kazanç kayboluyor; asıl çözüm yatak odalarını binanın sessiz tarafına yerleştirmek.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     }
   ]
 }

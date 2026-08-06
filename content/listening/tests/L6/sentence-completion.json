@@ -30,7 +30,8 @@
       "turn_index": 27,
       "distractor_used": "86",
       "explanation": "Seksen altı, kütüphanecinin sabah denediği aramanın ilk veri tabanında verdiği sonuç sayısı; özetler elendikten sonra geriye yaklaşık otuz çalışma kalması bekleniyor.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     },
     {
       "number": 28,
@@ -46,7 +47,8 @@
       "turn_index": 31,
       "distractor_used": null,
       "explanation": "Kütüphaneci ders sayfasındaki eleme formunun kullanılmasını ve elenen her kaynağın gerekçesinin yazılmasını istiyor.",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "status": "verified"
     },
     {
       "number": 29,
@@ -62,7 +64,8 @@
       "turn_index": 35,
       "distractor_used": null,
       "explanation": "Ortak klasör yerine kaynak yönetim yazılımı öneriliyor; ikisinin de aynı yere eklemesi için bir grup kütüphanesi kurmaları gerekiyor.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     },
     {
       "number": 30,
@@ -79,7 +82,8 @@
       "turn_index": 39,
       "distractor_used": null,
       "explanation": "Dışarı aktarma işlemi seferde iki yüz kayıtla sınırlı; kütüphaneci bunu aramanın kaydedilmesi uyarısıyla birlikte veriyor.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     }
   ]
 }

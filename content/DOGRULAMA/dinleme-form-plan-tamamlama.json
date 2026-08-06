@@ -1,0 +1,551 @@
+{
+  "tarih": "2026-08-06",
+  "rapor": "dinleme-form-plan-tamamlama",
+  "sonuclar": [
+    {
+      "file": "content/listening/practice/flow-chart-completion.json",
+      "toplam": 15,
+      "uyusan": 15,
+      "uyusmayan": 0,
+      "detay": []
+    },
+    {
+      "file": "content/listening/practice/note-completion.json",
+      "toplam": 15,
+      "uyusan": 15,
+      "uyusmayan": 0,
+      "detay": []
+    },
+    {
+      "file": "content/listening/practice/plan-map-diagram-labelling.json",
+      "toplam": 15,
+      "uyusan": 15,
+      "uyusmayan": 0,
+      "detay": []
+    },
+    {
+      "file": "content/listening/practice/sentence-completion.json",
+      "toplam": 15,
+      "uyusan": 13,
+      "uyusmayan": 2,
+      "detay": [
+        {
+          "number": "1",
+          "dogrulayici": [
+            "5"
+          ],
+          "orijinal": [
+            "five"
+          ],
+          "confidence": 5,
+          "gerekce": "Önerilen altı yerine beş noktada veri toplandı; ayak köprüsü kapalıydı.",
+          "durum": "uyusmadi"
+        },
+        {
+          "number": "4",
+          "dogrulayici": [
+            "file"
+          ],
+          "orijinal": [
+            "single file"
+          ],
+          "confidence": 4,
+          "gerekce": "Rapor tek bir dosya olarak teslim edilecek, bölüm başına ayrı belge değil.",
+          "durum": "uyusmadi"
+        }
+      ]
+    },
+    {
+      "file": "content/listening/practice/short-answer.json",
+      "toplam": 15,
+      "uyusan": 12,
+      "uyusmayan": 3,
+      "detay": [
+        {
+          "number": "1",
+          "dogrulayici": [
+            "50 years"
+          ],
+          "orijinal": [
+            "fifty years"
+          ],
+          "confidence": 5,
+          "gerekce": "Zirveden sonra toplam elli yıl boyunca düştü.",
+          "durum": "uyusmadi"
+        },
+        {
+          "number": "7",
+          "dogrulayici": [
+            "the water table"
+          ],
+          "orijinal": [
+            "water table"
+          ],
+          "confidence": 5,
+          "gerekce": "Kanal ancak altındaki taban suyu kadar iyi.",
+          "durum": "uyusmadi"
+        },
+        {
+          "number": "11",
+          "dogrulayici": [
+            "the line of sight"
+          ],
+          "orijinal": [
+            "line of sight"
+          ],
+          "confidence": 5,
+          "gerekce": "Bariyer, kaynak ile kulak arasındaki görüş hattını kesince işe yarıyor.",
+          "durum": "uyusmadi"
+        }
+      ]
+    },
+    {
+      "file": "content/listening/practice/table-completion.json",
+      "toplam": 15,
+      "uyusan": 14,
+      "uyusmayan": 1,
+      "detay": [
+        {
+          "number": "4",
+          "dogrulayici": [
+            "Thursday"
+          ],
+          "orijinal": [
+            "Thursdays"
+          ],
+          "confidence": 5,
+          "gerekce": "Ortak mutfaklar Perşembeleri temizleniyor; panolardaki Çarşamba eski bilgi.",
+          "durum": "uyusmadi"
+        }
+      ]
+    },
+    {
+      "file": "content/listening/tests/L1/form-completion.json",
+      "toplam": 10,
+      "uyusan": 10,
+      "uyusmayan": 0,
+      "detay": []
+    },
+    {
+      "file": "content/listening/tests/L1/note-completion.json",
+      "toplam": 6,
+      "uyusan": 6,
+      "uyusmayan": 0,
+      "detay": []
+    },
+    {
+      "file": "content/listening/tests/L1/plan-map-diagram-labelling.json",
+      "toplam": 5,
+      "uyusan": 5,
+      "uyusmayan": 0,
+      "detay": []
+    },
+    {
+      "file": "content/listening/tests/L1/sentence-completion.json",
+      "toplam": 4,
+      "uyusan": 4,
+      "uyusmayan": 0,
+      "detay": []
+    },
+    {
+      "file": "content/listening/tests/L1/short-answer.json",
+      "toplam": 4,
+      "uyusan": 3,
+      "uyusmayan": 1,
+      "detay": [
+        {
+          "number": "39",
+          "dogrulayici": [
+            "5 per cent"
+          ],
+          "orijinal": [
+            "five per cent"
+          ],
+          "confidence": 5,
+          "gerekce": "Gerçek sokak planıyla test edildiğinde sonuç yüzde beşe yakın çıktı; üçte bir çeldirici.",
+          "durum": "uyusmadi"
+        }
+      ]
+    },
+    {
+      "file": "content/listening/tests/L2/flow-chart-completion.json",
+      "toplam": 5,
+      "uyusan": 4,
+      "uyusmayan": 1,
+      "detay": [
+        {
+          "number": "34",
+          "dogrulayici": [
+            "5"
+          ],
+          "orijinal": [
+            "five"
+          ],
+          "confidence": 5,
+          "gerekce": "Yeraltı kanalında kayıp yüzde beşin altında.",
+          "durum": "uyusmadi"
+        }
+      ]
+    },
+    {
+      "file": "content/listening/tests/L2/note-completion.json",
+      "toplam": 5,
+      "uyusan": 4,
+      "uyusmayan": 1,
+      "detay": [
+        {
+          "number": "39",
+          "dogrulayici": [
+            "12"
+          ],
+          "orijinal": [
+            "twelve"
+          ],
+          "confidence": 5,
+          "gerekce": "Pay örneği: on iki günde bir, bir saatlik akış; on gün eski literatür (çeldirici).",
+          "durum": "uyusmadi"
+        }
+      ]
+    },
+    {
+      "file": "content/listening/tests/L2/plan-map-diagram-labelling.json",
+      "toplam": 5,
+      "uyusan": 5,
+      "uyusmayan": 0,
+      "detay": []
+    },
+    {
+      "file": "content/listening/tests/L2/sentence-completion.json",
+      "toplam": 4,
+      "uyusan": 3,
+      "uyusmayan": 1,
+      "detay": [
+        {
+          "number": "29",
+          "dogrulayici": [
+            "19th"
+          ],
+          "orijinal": [
+            "nineteenth"
+          ],
+          "confidence": 5,
+          "gerekce": "Nihai rapor 19'unda öğlen teslim; 12'si eski taslak tarihi (çeldirici).",
+          "durum": "uyusmadi"
+        }
+      ]
+    },
+    {
+      "file": "content/listening/tests/L2/table-completion.json",
+      "toplam": 10,
+      "uyusan": 7,
+      "uyusmayan": 3,
+      "detay": [
+        {
+          "number": "5",
+          "dogrulayici": [
+            "2nd"
+          ],
+          "orijinal": [
+            "second"
+          ],
+          "confidence": 5,
+          "gerekce": "Cumartesi 3 Ekim yerine daha sakin ve ucuz olan Cuma 2 Ekim'e alındı.",
+          "durum": "uyusmadi"
+        },
+        {
+          "number": "6",
+          "dogrulayici": [
+            "11"
+          ],
+          "orijinal": [
+            "11.00"
+          ],
+          "confidence": 5,
+          "gerekce": "Salı 10.30 doldu; bir sonraki boş slot Salı saat 11.",
+          "durum": "uyusmadi"
+        },
+        {
+          "number": "9",
+          "dogrulayici": [
+            "6"
+          ],
+          "orijinal": [
+            "six"
+          ],
+          "confidence": 5,
+          "gerekce": "Normalde beş saat ama merdiven yüzünden altı saat.",
+          "durum": "uyusmadi"
+        }
+      ]
+    },
+    {
+      "file": "content/listening/tests/L3/form-completion.json",
+      "toplam": 10,
+      "uyusan": 9,
+      "uyusmayan": 1,
+      "detay": [
+        {
+          "number": "5",
+          "dogrulayici": [
+            "1st"
+          ],
+          "orijinal": [
+            "first"
+          ],
+          "confidence": 5,
+          "gerekce": "Otomatik ödeme ayın 1'inde; 15'i Ocak'tan önceki uygulama (çeldirici).",
+          "durum": "uyusmadi"
+        }
+      ]
+    },
+    {
+      "file": "content/listening/tests/L3/plan-map-diagram-labelling.json",
+      "toplam": 5,
+      "uyusan": 5,
+      "uyusmayan": 0,
+      "detay": []
+    },
+    {
+      "file": "content/listening/tests/L3/sentence-completion.json",
+      "toplam": 4,
+      "uyusan": 3,
+      "uyusmayan": 1,
+      "detay": [
+        {
+          "number": "29",
+          "dogrulayici": [
+            "12"
+          ],
+          "orijinal": [
+            "twelve"
+          ],
+          "confidence": 5,
+          "gerekce": "Sunum 12 dakika + 5 dakika soru; 15 geçen yılın süresi (çeldirici).",
+          "durum": "uyusmadi"
+        }
+      ]
+    },
+    {
+      "file": "content/listening/tests/L3/short-answer.json",
+      "toplam": 4,
+      "uyusan": 3,
+      "uyusmayan": 1,
+      "detay": [
+        {
+          "number": "38",
+          "dogrulayici": [
+            "freezer"
+          ],
+          "orijinal": [
+            "a freezer"
+          ],
+          "confidence": 5,
+          "gerekce": "Son elli yılın en yaygın kayıp nedeni uzun bir hafta sonu sessizce arızalanan dondurucu.",
+          "durum": "uyusmadi"
+        }
+      ]
+    },
+    {
+      "file": "content/listening/tests/L3/summary-completion.json",
+      "toplam": 6,
+      "uyusan": 4,
+      "uyusmayan": 2,
+      "detay": [
+        {
+          "number": "32",
+          "dogrulayici": [
+            "50"
+          ],
+          "orijinal": [
+            "fifty"
+          ],
+          "confidence": 5,
+          "gerekce": "En az elli bitkiden örnek alınması; otuz eski kılavuzlarda (çeldirici).",
+          "durum": "uyusmadi"
+        },
+        {
+          "number": "36",
+          "dogrulayici": [
+            "10"
+          ],
+          "orijinal": [
+            "ten"
+          ],
+          "confidence": 5,
+          "gerekce": "Yeniden test aralığı çoğu bankada on yıl; beş yıl eski uygulama (çeldirici).",
+          "durum": "uyusmadi"
+        }
+      ]
+    },
+    {
+      "file": "content/listening/tests/L4/flow-chart-completion.json",
+      "toplam": 5,
+      "uyusan": 5,
+      "uyusmayan": 0,
+      "detay": []
+    },
+    {
+      "file": "content/listening/tests/L4/note-completion.json",
+      "toplam": 10,
+      "uyusan": 9,
+      "uyusmayan": 1,
+      "detay": [
+        {
+          "number": "6",
+          "dogrulayici": [
+            "07793 441 806"
+          ],
+          "orijinal": [
+            "07793441806"
+          ],
+          "confidence": 5,
+          "gerekce": "Oh seven nine three, double four one, eight oh six.",
+          "durum": "uyusmadi"
+        }
+      ]
+    },
+    {
+      "file": "content/listening/tests/L4/plan-map-diagram-labelling.json",
+      "toplam": 5,
+      "uyusan": 5,
+      "uyusmayan": 0,
+      "detay": []
+    },
+    {
+      "file": "content/listening/tests/L4/sentence-completion.json",
+      "toplam": 4,
+      "uyusan": 3,
+      "uyusmayan": 1,
+      "detay": [
+        {
+          "number": "27",
+          "dogrulayici": [
+            "3"
+          ],
+          "orijinal": [
+            "three"
+          ],
+          "confidence": 5,
+          "gerekce": "Plotter üç iş günü alıyor; herkesin sandığı iki gün (çeldirici).",
+          "durum": "uyusmadi"
+        }
+      ]
+    },
+    {
+      "file": "content/listening/tests/L4/short-answer.json",
+      "toplam": 5,
+      "uyusan": 4,
+      "uyusmayan": 1,
+      "detay": [
+        {
+          "number": "33",
+          "dogrulayici": [
+            "low frequencies"
+          ],
+          "orijinal": [
+            "the low end"
+          ],
+          "confidence": 5,
+          "gerekce": "Çevresel ölçümde kullanılan ağırlıklandırma alçak frekansları ciddi biçimde azaltıyor.",
+          "durum": "uyusmadi"
+        }
+      ]
+    },
+    {
+      "file": "content/listening/tests/L5/form-completion.json",
+      "toplam": 10,
+      "uyusan": 10,
+      "uyusmayan": 0,
+      "detay": []
+    },
+    {
+      "file": "content/listening/tests/L5/plan-map-diagram-labelling.json",
+      "toplam": 5,
+      "uyusan": 5,
+      "uyusmayan": 0,
+      "detay": []
+    },
+    {
+      "file": "content/listening/tests/L5/sentence-completion.json",
+      "toplam": 4,
+      "uyusan": 4,
+      "uyusmayan": 0,
+      "detay": []
+    },
+    {
+      "file": "content/listening/tests/L5/summary-completion.json",
+      "toplam": 5,
+      "uyusan": 5,
+      "uyusmayan": 0,
+      "detay": []
+    },
+    {
+      "file": "content/listening/tests/L5/table-completion.json",
+      "toplam": 5,
+      "uyusan": 5,
+      "uyusmayan": 0,
+      "detay": []
+    },
+    {
+      "file": "content/listening/tests/L6/form-completion.json",
+      "toplam": 10,
+      "uyusan": 9,
+      "uyusmayan": 1,
+      "detay": [
+        {
+          "number": "10",
+          "dogrulayici": [
+            "HR942"
+          ],
+          "orijinal": [
+            "HR 942"
+          ],
+          "confidence": 5,
+          "gerekce": "Referans H-R, nine four two.",
+          "durum": "uyusmadi"
+        }
+      ]
+    },
+    {
+      "file": "content/listening/tests/L6/note-completion.json",
+      "toplam": 6,
+      "uyusan": 6,
+      "uyusmayan": 0,
+      "detay": []
+    },
+    {
+      "file": "content/listening/tests/L6/plan-map-diagram-labelling.json",
+      "toplam": 5,
+      "uyusan": 5,
+      "uyusmayan": 0,
+      "detay": []
+    },
+    {
+      "file": "content/listening/tests/L6/sentence-completion.json",
+      "toplam": 4,
+      "uyusan": 4,
+      "uyusmayan": 0,
+      "detay": []
+    },
+    {
+      "file": "content/listening/tests/L6/summary-completion.json",
+      "toplam": 4,
+      "uyusan": 3,
+      "uyusmayan": 1,
+      "detay": [
+        {
+          "number": "37",
+          "dogrulayici": [
+            "5"
+          ],
+          "orijinal": [
+            "five"
+          ],
+          "confidence": 5,
+          "gerekce": "Büyük denemelerde etki yaklaşık beş puan; gazetelere geçen on beş tek pilottan (çeldirici).",
+          "durum": "uyusmadi"
+        }
+      ]
+    }
+  ]
+}

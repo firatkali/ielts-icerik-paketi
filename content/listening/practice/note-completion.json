@@ -38,7 +38,8 @@
           "turn_index": 7,
           "distractor_used": "10",
           "explanation": "Baba önce kızının on yaşında olduğunu söylüyor, sonra haziran sonundaki doğum gününü hatırlayıp düzeltiyor: kamp başladığında on bir olacak.",
-          "difficulty": "medium"
+          "difficulty": "medium",
+          "status": "verified"
         },
         {
           "number": 2,
@@ -58,7 +59,8 @@
           "turn_index": 16,
           "distractor_used": null,
           "explanation": "Görevli günlük saatleri verirken çocukların alınma saatinin üç buçuk olduğunu söylüyor; değişen yalnızca bırakma saatidir.",
-          "difficulty": "easy"
+          "difficulty": "easy",
+          "status": "verified"
         },
         {
           "number": 3,
@@ -77,7 +79,8 @@
           "turn_index": 36,
           "distractor_used": null,
           "explanation": "Kamp ailelerden cep telefonu göndermemelerini istiyor; grup liderlerinde telefon olduğu için gerekirse hemen aranıyorlar.",
-          "difficulty": "easy"
+          "difficulty": "easy",
+          "status": "verified"
         },
         {
           "number": 4,
@@ -97,7 +100,8 @@
           "turn_index": 42,
           "distractor_used": null,
           "explanation": "Doldurulacak tek belge sağlık formu; onay e-postasına eklenecek ve en geç 5 Temmuz'da geri gönderilmesi gerekiyor.",
-          "difficulty": "medium"
+          "difficulty": "medium",
+          "status": "verified"
         }
       ]
     },
@@ -129,7 +133,8 @@
           "turn_index": 20,
           "distractor_used": null,
           "explanation": "Tur ücreti hibrit ve yarış bisikletini kapsıyor; elektrikli bisiklet için on iki sterlinlik ek ücret alınıyor.",
-          "difficulty": "medium"
+          "difficulty": "medium",
+          "status": "verified"
         },
         {
           "number": 6,
@@ -147,7 +152,8 @@
           "turn_index": 32,
           "distractor_used": null,
           "explanation": "Kask şirket tarafından veriliyor, matarayı bisikletçi getiriyor; en sık unutulan parça ise yağmurluk oluyor.",
-          "difficulty": "easy"
+          "difficulty": "easy",
+          "status": "verified"
         },
         {
           "number": 7,
@@ -166,7 +172,8 @@
           "turn_index": 42,
           "distractor_used": null,
           "explanation": "Yetmiş iki saatten önce yapılan iptalde kapora tümüyle iade ediliyor; bu sürenin içine girilirse yanıyor.",
-          "difficulty": "medium"
+          "difficulty": "medium",
+          "status": "verified"
         },
         {
           "number": 8,
@@ -184,7 +191,8 @@
           "turn_index": 46,
           "distractor_used": "rain",
           "explanation": "Yağmurda tur yapılıyor; turu iptal ettiren tek şey şiddetli rüzgâr ve karar bir önceki akşam veriliyor.",
-          "difficulty": "medium"
+          "difficulty": "medium",
+          "status": "verified"
         }
       ]
     },
@@ -215,7 +223,8 @@
           "turn_index": 3,
           "distractor_used": "5,000",
           "explanation": "Konuşmacı beş bin yıllık olduğu yönündeki yaygın iddiayı reddediyor: güvenilir biçimde tarihlenen örnekler üç bin yıla yakın.",
-          "difficulty": "medium"
+          "difficulty": "medium",
+          "status": "verified"
         },
         {
           "number": 10,
@@ -233,7 +242,8 @@
           "turn_index": 4,
           "distractor_used": null,
           "explanation": "Su yer çekimiyle aktığı için sistemin işletme maliyeti enerji değil, insan emeğidir.",
-          "difficulty": "medium"
+          "difficulty": "medium",
+          "status": "verified"
         },
         {
           "number": 11,
@@ -253,7 +263,8 @@
           "turn_index": 9,
           "distractor_used": null,
           "explanation": "Basamaklı kuyuların bazıları beş kat derinliğe iniyor; en alttaki odalar yazın yüzeyden serin kalıyor.",
-          "difficulty": "easy"
+          "difficulty": "easy",
+          "status": "verified"
         },
         {
           "number": 12,
@@ -270,7 +281,8 @@
           "turn_index": 11,
           "distractor_used": null,
           "explanation": "Hacim ölçülemediği için paylar zaman olarak tanımlanıyordu; bakım yükümlülüğü de bu paya bağlıydı.",
-          "difficulty": "medium"
+          "difficulty": "medium",
+          "status": "verified"
         }
       ]
     },
@@ -299,7 +311,8 @@
           "turn_index": 2,
           "distractor_used": null,
           "explanation": "Yargılar bir referans noktasına göre verildiği için seçeneğin nasıl ifade edildiği seçimi değiştiriyor; bu etkinin adı çerçeveleme.",
-          "difficulty": "easy"
+          "difficulty": "easy",
+          "status": "verified"
         },
         {
           "number": 14,
@@ -317,7 +330,8 @@
           "turn_index": 5,
           "distractor_used": null,
           "explanation": "Zam geldiğinde devreye giren tasarruf planında ortalama tasarruf oranı dört yılda yüzde üçten yüzde on bire çıkıyor.",
-          "difficulty": "medium"
+          "difficulty": "medium",
+          "status": "verified"
         },
         {
           "number": 15,
@@ -335,7 +349,8 @@
           "turn_index": 7,
           "distractor_used": "two weeks",
           "explanation": "Son ödeme gününden iki hafta önce gelen hatırlatma değil, iki gün önce gelen hatırlatma daha iyi sonuç veriyor.",
-          "difficulty": "medium"
+          "difficulty": "medium",
+          "status": "verified"
         }
       ]
     }

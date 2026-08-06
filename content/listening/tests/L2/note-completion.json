@@ -29,7 +29,8 @@
       "turn_index": 6,
       "distractor_used": "lime plaster alone",
       "explanation": "Konuşmacı eskiden sadece kireç sıva dediğini söylüyor; çözümlemelere göre astarı esnek tutan asıl madde ezilmiş çömlek.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     },
     {
       "number": 37,
@@ -45,7 +46,8 @@
       "turn_index": 7,
       "distractor_used": null,
       "explanation": "İyi sistemlerde ilk yağmur doğrudan sarnıca gitmiyor; çatıdaki tozu ve pisliği tutan küçük bir çökeltme havuzundan geçiyor.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     },
     {
       "number": 38,
@@ -61,7 +63,8 @@
       "turn_index": 10,
       "distractor_used": null,
       "explanation": "Bakım işlerinin başında kanalların birkaç yılda bir milden temizlenmesi geliyor.",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "status": "verified"
     },
     {
       "number": 39,
@@ -78,7 +81,9 @@
       "turn_index": 11,
       "distractor_used": "every ten days",
       "explanation": "Eski yayınlarda on gün yazsa da konuşmacının çalıştığı bölgenin belgeleri on iki gün diyor.",
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "status": "flagged",
+      "flag_reason": "Bicim farki: '12' / 'twelve'. Icerik ayni (on gun degil on iki gunde bir)."
     },
     {
       "number": 40,
@@ -94,7 +99,8 @@
       "turn_index": 12,
       "distractor_used": null,
       "explanation": "Sistemler daha iyi bir pompa bulunduğu için değil, su hakkı ile bakım yükümlülüğü arasındaki bağ koptuğu için çökmüş.",
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "status": "verified"
     }
   ]
 }

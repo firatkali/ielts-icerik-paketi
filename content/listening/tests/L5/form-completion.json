@@ -31,7 +31,8 @@
       "turn_index": 6,
       "distractor_used": "22",
       "explanation": "Müşteri önce ayın yirmi ikisini istiyor, ama o gün dolu; görevlinin önerdiği ve müşterinin kabul ettiği tarih ayın yirmi dokuzu.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     },
     {
       "number": 2,
@@ -50,7 +51,8 @@
       "turn_index": 8,
       "distractor_used": "9.45",
       "explanation": "Ayın son hafta sonunda tur her zamankinden yarım saat önce başlıyor; kalkış dokuz kırk beş değil, dokuz on beş.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     },
     {
       "number": 3,
@@ -66,7 +68,8 @@
       "turn_index": 11,
       "distractor_used": null,
       "explanation": "Rezervasyonu yaptıran kişi soyadını harf harf söylüyor: F-E-R-R-A-N-D-E-Z.",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "status": "verified"
     },
     {
       "number": 4,
@@ -84,7 +87,8 @@
       "turn_index": 15,
       "distractor_used": "14",
       "explanation": "Müşteri önce on dört diyor, sonra kendini düzeltiyor: kaldıkları pansiyonun numarası 14A.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     },
     {
       "number": 5,
@@ -102,7 +106,8 @@
       "turn_index": 20,
       "distractor_used": null,
       "explanation": "Kişi başı tur ücreti 35 pound; hibrit ya da yol bisikleti bu fiyata dahil, yalnızca elektrikli bisiklet ek ücrete tabi.",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "status": "verified"
     },
     {
       "number": 6,
@@ -119,7 +124,8 @@
       "turn_index": 26,
       "distractor_used": "38",
       "explanation": "Broşürde hâlâ 38 kilometre yazıyor; ilkbaharda güzergâh ana yoldan kaçınmak için değiştirilince mesafe 42 kilometreye çıkmış.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     },
     {
       "number": 7,
@@ -136,7 +142,8 @@
       "turn_index": 30,
       "distractor_used": null,
       "explanation": "Öğle yemeği fiyata dahil; grup yolun yarısındaki çiftlik kafesinde mola veriyor.",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "status": "verified"
     },
     {
       "number": 8,
@@ -152,7 +159,8 @@
       "turn_index": 32,
       "distractor_used": null,
       "explanation": "Kask şirket tarafından veriliyor; ödünç verilemeyen, yani katılımcının kendisinin getirmesi gereken şey su matarası.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     },
     {
       "number": 9,
@@ -168,7 +176,8 @@
       "turn_index": 36,
       "distractor_used": "station car park",
       "explanation": "Grup eskiden istasyon otoparkında toplanıyordu; otobüslere engel olduğu için buluşma yeri Priory Street'teki Waterside Depot'a taşınmış.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     },
     {
       "number": 10,
@@ -186,7 +195,8 @@
       "turn_index": 44,
       "distractor_used": null,
       "explanation": "Görevli öğleden sonra gönderilecek onay yazısındaki referansı harf ve rakam olarak veriyor: G-W-941.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     }
   ]
 }

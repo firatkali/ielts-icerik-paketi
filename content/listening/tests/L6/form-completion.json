@@ -29,7 +29,8 @@
       "turn_index": 5,
       "distractor_used": null,
       "explanation": "Soyadı seste harf harf söyleniyor: B-R-A-T-H-W-A-I-T-E; öğrenci ortada fazladan harf olmadığını da ekliyor.",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "status": "verified"
     },
     {
       "number": 2,
@@ -46,7 +47,8 @@
       "turn_index": 7,
       "distractor_used": null,
       "explanation": "Öğrenci bölümünü söyleyip hemen ardından üç yıllık programda olduğunu belirtiyor; yerleştirmeli dört yıllık sürümü almıyor.",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "status": "verified"
     },
     {
       "number": 3,
@@ -63,7 +65,8 @@
       "turn_index": 13,
       "distractor_used": null,
       "explanation": "Adres yazıyla söyleniyor: yirmi iki Hartlow Road; şehir adı (Marsden) formda zaten verilmiş durumda.",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "status": "verified"
     },
     {
       "number": 4,
@@ -81,7 +84,8 @@
       "turn_index": 16,
       "distractor_used": null,
       "explanation": "Öğrencinin arkadaşı Thornbury'yi önerse de yurt bu yıl başvuruya kapalı: kış boyunca çatısı yenileniyor.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     },
     {
       "number": 5,
@@ -99,7 +103,8 @@
       "turn_index": 20,
       "distractor_used": null,
       "explanation": "Cadnam House daha yeni blok olduğu için odaların kendi duş odası var; danışman bunu en-suite diye adlandırıyor.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     },
     {
       "number": 6,
@@ -117,7 +122,8 @@
       "turn_index": 24,
       "distractor_used": "132",
       "explanation": "Öğrenci sitedeki yüz otuz iki rakamını hatırlatıyor ama o geçen yıla ait; Eylül'den itibaren en-suite oda haftada yüz kırk beş pound.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     },
     {
       "number": 7,
@@ -134,7 +140,8 @@
       "turn_index": 28,
       "distractor_used": null,
       "explanation": "Sözleşme kısaldığı için yurtlar bahar tatilinde kapanıyor; bodrumdaki depoya kişi başı yalnızca bir kutu bırakılabiliyor.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     },
     {
       "number": 8,
@@ -153,7 +160,8 @@
       "turn_index": 32,
       "distractor_used": "23",
       "explanation": "Öğrencinin not aldığı yirmi üç burs başvurusunun son günü; konaklama formu için son tarih Haziran'ın otuzu.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     },
     {
       "number": 9,
@@ -171,7 +179,8 @@
       "turn_index": 40,
       "distractor_used": "main reception",
       "explanation": "Çoğu öğrenci önce ana resepsiyona gidiyor ama anahtarlar orada durmuyor; anahtarlar Cadnam Street'teki kapıcılık odasından alınıyor.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     },
     {
       "number": 10,
@@ -190,7 +199,9 @@
       "turn_index": 52,
       "distractor_used": null,
       "explanation": "Görüşmenin sonunda verilen başvuru referansı H-R ve dokuz dört iki; öğrenci de tekrarlayarak doğruluyor.",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "status": "flagged",
+      "flag_reason": "Bosluk farki: 'HR942' / 'HR 942'. Icerik ayni."
     }
   ]
 }

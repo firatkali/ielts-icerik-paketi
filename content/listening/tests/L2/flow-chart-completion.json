@@ -29,7 +29,8 @@
       "turn_index": 1,
       "distractor_used": null,
       "explanation": "Yamacın ovayla buluştuğu yerde, yüksekte düşen yağmur yüzeyin altındaki çakılda birikiyor.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     },
     {
       "number": 32,
@@ -47,7 +48,8 @@
       "turn_index": 2,
       "distractor_used": "one in a hundred",
       "explanation": "Yüzde bir eğim tünelin değil, hava bacalarının rakamıdır; kanalın eğimi binde bir olmalı.",
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "status": "verified"
     },
     {
       "number": 33,
@@ -63,7 +65,8 @@
       "turn_index": 3,
       "distractor_used": null,
       "explanation": "Dikey bacaların üç işlevi var; konuşmacıya göre en önemlisi, sistem kullanıldığı sürece bakıma erişim sağlamaları.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     },
     {
       "number": 34,
@@ -80,7 +83,9 @@
       "turn_index": 4,
       "distractor_used": null,
       "explanation": "Açık kanalda kayıp yaklaşık üçte birken, yeraltı kanalında yüzde beşin altında kalıyor.",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "status": "flagged",
+      "flag_reason": "Bicim farki: '5' / 'five'. Icerik ayni (yeralti kanalinda kayip yuzde besin altinda)."
     },
     {
       "number": 35,
@@ -96,7 +101,8 @@
       "turn_index": 5,
       "distractor_used": null,
       "explanation": "Kanal kapatılamadığı için su gece gündüz akıyor; bu yüzden sistemlerin ucunda neredeyse her zaman bir biriktirme havuzu bulunuyor.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     }
   ]
 }

@@ -29,7 +29,8 @@
       "turn_index": 5,
       "distractor_used": null,
       "explanation": "Soyadı seste harf harf söyleniyor: K-I-R-K-E-G-A-A-R-D. Yazımı zor olduğu için ancak harflendiği için sorulabiliyor.",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "status": "verified"
     },
     {
       "number": 2,
@@ -46,7 +47,8 @@
       "turn_index": 7,
       "distractor_used": "flat 2",
       "explanation": "Müşteri önce iki numarayı söyleyip hemen düzeltiyor: eski adresi orasıymış, yeni adresi dokuz numaralı daire.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     },
     {
       "number": 3,
@@ -64,7 +66,8 @@
       "turn_index": 10,
       "distractor_used": null,
       "explanation": "Tam üyelik ayda otuz sekiz sterlin; yirmi altı sterlinlik olan sınırlı saatli (off-peak) üyeliktir ve müşteri onu almıyor.",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "status": "verified"
     },
     {
       "number": 4,
@@ -82,7 +85,8 @@
       "turn_index": 12,
       "distractor_used": "5 p.m.",
       "explanation": "Dışarıdaki afişte beş yazıyor ama danışman afişin eskidiğini söylüyor: sınırlı saatli üyelik artık saat dörtte bitiyor.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     },
     {
       "number": 5,
@@ -100,7 +104,9 @@
       "turn_index": 16,
       "distractor_used": "the 15th",
       "explanation": "Ödeme ayın birinde çekiliyor; on beşi eski uygulamaydı ve Ocak ayında herkes ayın birine geçirilmiş.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "flagged",
+      "flag_reason": "Bicim farki: '1st' / 'first'. Icerik ayni (ayin 15'i degil, ayin biri)."
     },
     {
       "number": 6,
@@ -116,7 +122,8 @@
       "turn_index": 18,
       "distractor_used": null,
       "explanation": "Asgari sözleşme süresi kalkmış; üyelikten çıkmak için bir ay önceden yazılı bildirim yeterli.",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "status": "verified"
     },
     {
       "number": 7,
@@ -133,7 +140,8 @@
       "turn_index": 20,
       "distractor_used": "an hour",
       "explanation": "Müşteriye bir saat denmiş ama kondisyon testi ayrı randevuya alındığı için tanıtım turu artık kırk dakika sürüyor.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     },
     {
       "number": 8,
@@ -149,7 +157,8 @@
       "turn_index": 26,
       "distractor_used": null,
       "explanation": "Stüdyo zemini yenilendiği için dışarıda giyilmiş ayakkabıyla girilemiyor; havlunun yanında kapalı alan spor ayakkabısı isteniyor.",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "status": "verified"
     },
     {
       "number": 9,
@@ -166,7 +175,8 @@
       "turn_index": 30,
       "distractor_used": null,
       "explanation": "Ders kaydı yalnızca internet sitesinden ya da uygulamadan yapılıyor; telefonla rezervasyon alınması bırakılmış.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     },
     {
       "number": 10,
@@ -182,7 +192,8 @@
       "turn_index": 32,
       "distractor_used": null,
       "explanation": "Tırmanma duvarı tutamakları değiştirildiği için kapalı; nisan sonunda yeniden açılıyor.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     }
   ]
 }

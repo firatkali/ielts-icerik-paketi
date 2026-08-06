@@ -30,7 +30,9 @@
       "turn_index": 7,
       "distractor_used": "fifteen",
       "explanation": "Gazetelere yansıyan on beş puanlık artış tek bir kasabadaki pilot uygulamadan geliyor; geniş denemelerde etki beş puan civarında kalıyor.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "flagged",
+      "flag_reason": "Bicim farki: '5' / 'five'. Icerik ayni (gazetelerdeki on bes puan tek pilottan)."
     },
     {
       "number": 38,
@@ -46,7 +48,8 @@
       "turn_index": 8,
       "distractor_used": null,
       "explanation": "Aynı müdahale çok sayıda yerde tekrarlandığında ortalama etki, ilk çalışmanın bildirdiğinin yaklaşık yarısı kadar çıkıyor.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     },
     {
       "number": 39,
@@ -62,7 +65,8 @@
       "turn_index": 9,
       "distractor_used": null,
       "explanation": "Yönlendirme ile engel çıkarmayı ayırt etmek için sorulan olağan soru, kişinin kendi hedeflerine hizmet edilip edilmediğidir.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     },
     {
       "number": 40,
@@ -78,7 +82,8 @@
       "turn_index": 10,
       "distractor_used": null,
       "explanation": "Yöntem bölümünün ikinci güvencesi: tahminin veri toplanmadan önce açıkça kaydedilmesi, sonradan analizin değiştirilmesini engelliyor.",
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "status": "verified"
     }
   ]
 }

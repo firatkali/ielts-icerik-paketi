@@ -30,7 +30,8 @@
       "turn_index": 4,
       "distractor_used": "486",
       "explanation": "Yolcu önce dört yüz seksen altıyı söylüyor; görevli düzeltiyor: o sefer perakende parkına gidiyor, havalimanı otobüsü dört yüz seksen iki.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     },
     {
       "number": 2,
@@ -47,7 +48,8 @@
       "turn_index": 7,
       "distractor_used": "Tuesday",
       "explanation": "Yolcu önce Salı diyor, sonra Salı'nın izin günü olduğunu hatırlayıp kendini düzeltiyor: yolculuk Çarşamba günü yapılmış.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     },
     {
       "number": 3,
@@ -65,7 +67,8 @@
       "turn_index": 11,
       "distractor_used": null,
       "explanation": "Çanta koltuğun üstündeki rafa konmuş ve yolcu inerken orada unutulmuş; görevli de kayıpların çoğunun oradan çıktığını söylüyor.",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "status": "verified"
     },
     {
       "number": 4,
@@ -81,7 +84,8 @@
       "turn_index": 13,
       "distractor_used": "navy",
       "explanation": "Yolcu önce lacivert diyor ama hemen düzeltiyor: lacivert olan eski çantası; kaybolan çanta koyu yeşil.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     },
     {
       "number": 5,
@@ -97,7 +101,8 @@
       "turn_index": 19,
       "distractor_used": null,
       "explanation": "Soyadı seste harf harf söyleniyor: T-H-U-R-L-B-E-C-K. Yazımı zor olduğu için ancak harflendiği için sorulabiliyor.",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "status": "verified"
     },
     {
       "number": 6,
@@ -114,7 +119,9 @@
       "turn_index": 21,
       "distractor_used": null,
       "explanation": "Numara gruplar hâlinde söyleniyor; 'double four' iki tane dört demektir, yani 07793 441806.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "flagged",
+      "flag_reason": "Bosluk farki: '07793 441 806' / '07793441806'. Rakamlar ayni; telefon numarasi bosluklu ve bosluksuz iki bicimde de kabul edilmeli."
     },
     {
       "number": 7,
@@ -130,7 +137,8 @@
       "turn_index": 28,
       "distractor_used": null,
       "explanation": "Üç ay içinde alınmayan eşyalar şirketin birlikte çalıştığı hayır kurumuna devrediliyor.",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "status": "verified"
     },
     {
       "number": 8,
@@ -147,7 +155,8 @@
       "turn_index": 32,
       "distractor_used": null,
       "explanation": "Ana kapı yalnızca araçlara açık ve bariyer yayalar için kalkmıyor; girişin yakıt pompalarının yanındaki yan kapıdan yapılması gerekiyor.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     },
     {
       "number": 9,
@@ -163,7 +172,8 @@
       "turn_index": 38,
       "distractor_used": null,
       "explanation": "Üzerinde adın yazdığı herhangi bir belge yeterli sayılıyor: ehliyet ya da banka kartı.",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "status": "verified"
     },
     {
       "number": 10,
@@ -182,7 +192,8 @@
       "turn_index": 42,
       "distractor_used": "£5",
       "explanation": "Ücret nisanda yapılan değişikliğe kadar beş sterlinmiş; artık üç sterlin.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     }
   ]
 }

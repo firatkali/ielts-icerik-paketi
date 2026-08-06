@@ -40,7 +40,9 @@
           "turn_index": 1,
           "distractor_used": "six",
           "explanation": "Danışman teklifte altı alan yazdığını hatırlatıyor; öğrenci köprünün kapalı olması yüzünden beş alanda çalışabildiklerini söylüyor.",
-          "difficulty": "easy"
+          "difficulty": "easy",
+          "status": "flagged",
+          "flag_reason": "Bicim farki: capraz dogrulamada '5' yazildi, anahtarda 'five'. Icerik ayni (alti yerine bes noktada veri toplandi); rakam bicimi kabul edilen varyant olarak eklenmeli."
         },
         {
           "number": 2,
@@ -57,7 +59,8 @@
           "turn_index": 19,
           "distractor_used": "the meter",
           "explanation": "Tampon çözeltisi eskidiği için oksijen ölçer kalibre edilemiyor; o ziyarette ölçüm kimyasal test kitiyle yapılıyor.",
-          "difficulty": "medium"
+          "difficulty": "medium",
+          "status": "verified"
         },
         {
           "number": 3,
@@ -75,7 +78,8 @@
           "turn_index": 25,
           "distractor_used": "the top site in the woods",
           "explanation": "Öğrenciler en temiz suyu ormandaki üst noktada bekliyor; en iyi sonuç bostanların arkasındaki çakıl yataklı kesimden çıkıyor.",
-          "difficulty": "medium"
+          "difficulty": "medium",
+          "status": "verified"
         },
         {
           "number": 4,
@@ -93,7 +97,9 @@
           "turn_index": 38,
           "distractor_used": null,
           "explanation": "Danışman teslim biçimini anlatırken raporun tek bir dosya olarak gönderilmesi gerektiğini belirtiyor.",
-          "difficulty": "easy"
+          "difficulty": "easy",
+          "status": "flagged",
+          "flag_reason": "Capraz dogrulamada 'file' yazildi, anahtarda 'single file'. Cumlede 'as one (4)' dendigi icin 'one single file' gereksiz tekrar olur; iki kelime siniri ikisine de izin veriyor."
         }
       ]
     },
@@ -123,7 +129,8 @@
           "turn_index": 9,
           "distractor_used": "4,000",
           "explanation": "Öğrencinin elindeki el kitabı geçen yıla ait ve dört bin yazıyor; sunum eklendiğinde sınır üç bin beş yüze indirilmiş.",
-          "difficulty": "medium"
+          "difficulty": "medium",
+          "status": "verified"
         },
         {
           "number": 6,
@@ -141,7 +148,8 @@
           "turn_index": 13,
           "distractor_used": "handed in separately",
           "explanation": "Danışman günlüğün eskiden ayrı teslim edildiğini, bu yıl rapora ek olarak konduğunu söylüyor.",
-          "difficulty": "medium"
+          "difficulty": "medium",
+          "status": "verified"
         },
         {
           "number": 7,
@@ -158,7 +166,8 @@
           "turn_index": 27,
           "distractor_used": "by email",
           "explanation": "Teslim yolu açıklanırken e-postanın makbuz üretmediği, işin ders sayfasından yüklenmesi gerektiği söyleniyor.",
-          "difficulty": "easy"
+          "difficulty": "easy",
+          "status": "verified"
         },
         {
           "number": 8,
@@ -176,7 +185,8 @@
           "turn_index": 31,
           "distractor_used": null,
           "explanation": "Referansı kimin isteyeceği sorusuna danışman formun amire doğrudan bölümden gönderildiği cevabını veriyor.",
-          "difficulty": "medium"
+          "difficulty": "medium",
+          "status": "verified"
         }
       ]
     },
@@ -206,7 +216,8 @@
           "turn_index": 3,
           "distractor_used": null,
           "explanation": "Öğrenci projeyi tek cümlede özetlerken ölçümlerin aynı eğimde sekiz hafta boyunca yapıldığını söylüyor.",
-          "difficulty": "easy"
+          "difficulty": "easy",
+          "status": "verified"
         },
         {
           "number": 10,
@@ -224,7 +235,8 @@
           "turn_index": 17,
           "distractor_used": "24",
           "explanation": "Öğrenci gövde yazısını yirmi dört puntoda hazırlamış; danışman bunu küçük bulup otuzun altına inilmemesini istiyor.",
-          "difficulty": "medium"
+          "difficulty": "medium",
+          "status": "verified"
         },
         {
           "number": 11,
@@ -241,7 +253,8 @@
           "turn_index": 23,
           "distractor_used": "the small ones",
           "explanation": "Öğrenci küçük panolar sanıyor; danışman geçen yıl büyük panolara geçildiğini, yine de boş alan bırakılmasını söylüyor.",
-          "difficulty": "medium"
+          "difficulty": "medium",
+          "status": "verified"
         },
         {
           "number": 12,
@@ -259,7 +272,8 @@
           "turn_index": 38,
           "distractor_used": null,
           "explanation": "Kare kodun poster üzerindeki yeri soruluyor; danışman kodun göz hizasına konmasını ve baskıdan önce telefonla denenmesini istiyor.",
-          "difficulty": "easy"
+          "difficulty": "easy",
+          "status": "verified"
         }
       ]
     },
@@ -288,7 +302,8 @@
           "turn_index": 7,
           "distractor_used": "100",
           "explanation": "Öğrencinin önerdiği yüz kişilik örnek yeterli değil; danışman bölümün en az yüz yirmi tamamlanmış yanıt beklediğini söylüyor.",
-          "difficulty": "medium"
+          "difficulty": "medium",
+          "status": "verified"
         },
         {
           "number": 14,
@@ -306,7 +321,8 @@
           "turn_index": 21,
           "distractor_used": null,
           "explanation": "Katılımcılara ödül verilip verilemeyeceği soruluyor; danışman küçük bir hediye çeki içeren çekilişe izin verildiğini, değerinin bilgi formunda yazması gerektiğini söylüyor.",
-          "difficulty": "medium"
+          "difficulty": "medium",
+          "status": "verified"
         },
         {
           "number": 15,
@@ -323,7 +339,8 @@
           "turn_index": 34,
           "distractor_used": null,
           "explanation": "Seminer odası derslere verildiği için öğrenciler ikinci kattaki çalışma bölmelerini kullanacak; bunlar kütüphane sisteminden ikişer saatlik rezerve ediliyor.",
-          "difficulty": "easy"
+          "difficulty": "easy",
+          "status": "verified"
         }
       ]
     }

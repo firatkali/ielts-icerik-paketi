@@ -30,7 +30,8 @@
       "turn_index": 19,
       "distractor_used": null,
       "explanation": "Danışman, beceri temelli yapıyı seçen öğrencinin hikâyeyi kaybetmemesi için rapora en başa bir sayfalık zaman çizelgesi koymasını öneriyor.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     },
     {
       "number": 28,
@@ -46,7 +47,8 @@
       "turn_index": 23,
       "distractor_used": null,
       "explanation": "Yayımlanmamış işi gösterememek ceza sebebi değil; ceza, gizlilik kısıtlamasının yok sayılmasına veriliyor.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     },
     {
       "number": 29,
@@ -63,7 +65,9 @@
       "turn_index": 25,
       "distractor_used": "15 minutes",
       "explanation": "Sunum geçen yıla kadar on beş dakikaydı; bütün sınıf sunum yapmaya başlayınca on iki dakikaya indirilmiş.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "flagged",
+      "flag_reason": "Bicim farki: '12' / 'twelve'. Icerik ayni (15 dakika gecen yila ait)."
     },
     {
       "number": 30,
@@ -82,7 +86,8 @@
       "turn_index": 27,
       "distractor_used": "13 November",
       "explanation": "İlk takvimde on üç Kasım yazıyordu ama danışman bunun üzerini çizdiriyor: teslim tarihi yirmi Kasım.",
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "status": "verified"
     }
   ]
 }

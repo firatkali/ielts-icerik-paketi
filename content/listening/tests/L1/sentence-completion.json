@@ -29,7 +29,8 @@
       "turn_index": 27,
       "distractor_used": "last year's handbook",
       "explanation": "Danışman geçen yılın el kitabındaki sürümün eskidiğini söylüyor; kaynakça kılavuzu ders sayfasından alınacak.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     },
     {
       "number": 28,
@@ -45,7 +46,8 @@
       "turn_index": 29,
       "distractor_used": null,
       "explanation": "Sunumun yapılacağı medya odası bölüm ofisi aracılığıyla rezerve ediliyor.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     },
     {
       "number": 29,
@@ -62,7 +64,8 @@
       "turn_index": 31,
       "distractor_used": null,
       "explanation": "Ofis en fazla bir hafta öncesinden rezervasyon aldığı için güvenli gün cuma.",
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "status": "verified"
     },
     {
       "number": 30,
@@ -79,7 +82,8 @@
       "turn_index": 33,
       "distractor_used": null,
       "explanation": "Salondaki herkes aynı bölümü okuduğu için danışman sunuma bir tanımla başlanmamasını söylüyor.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     }
   ]
 }
