@@ -540,6 +540,18 @@
         "sentence_completion",
         "multiple_choice"
       ]
+    },
+    {
+      "id": "L6-S2-37",
+      "kind": "rule",
+      "value": "the loading yard is only for traders' vans",
+      "speaker": "F1",
+      "quote": "the loading yard behind the hall, which is for traders' vans",
+      "turn_index": 8,
+      "distractor": null,
+      "suggested_types": [
+        "matching"
+      ]
     }
   ],
   "spatial_description": {

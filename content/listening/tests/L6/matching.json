@@ -1,0 +1,225 @@
+{
+  "schema_version": "1.0",
+  "set_id": "L6-matching",
+  "skill": "listening",
+  "test_id": "L6",
+  "section": null,
+  "practice": false,
+  "script_id": null,
+  "question_type": "matching",
+  "generated_by": "fable",
+  "instructions": "Questions 11-15: What does the speaker say about each of the following? Choose FIVE answers from the box and write the correct letter, A-G.\nQuestions 24-26: How is each of the following matters decided? Choose THREE answers from the box and write the correct letter, A-E.",
+  "box": null,
+  "groups": [
+    {
+      "group_id": "L6-S2-matching",
+      "section": 2,
+      "script_id": "L6-S2",
+      "instructions": "What does the speaker say about each of the following?\n\nChoose FIVE answers from the box and write the correct letter, A-G, next to questions 11-15.",
+      "box": {
+        "label": null,
+        "options": [
+          { "letter": "A", "text": "shoppers will have to bring their own" },
+          { "letter": "B", "text": "its free period has been made longer" },
+          { "letter": "C", "text": "a different day was tried without success" },
+          { "letter": "D", "text": "its position was chosen for its scent" },
+          { "letter": "E", "text": "it used to start at eleven o'clock" },
+          { "letter": "F", "text": "it is kept for traders' vehicles" },
+          { "letter": "G", "text": "it now costs more than it used to" }
+        ]
+      },
+      "allow_repeat": false,
+      "items": [
+        {
+          "number": 11,
+          "section": 2,
+          "script_id": "L6-S2",
+          "select_count": 1,
+          "prompt": "the second market day",
+          "options": null,
+          "answer": ["C"],
+          "evidence": "We trialled a Thursday last summer and hardly anybody came, so the extra day will be a Wednesday",
+          "answer_point_id": "L6-S2-05",
+          "turn_index": 2,
+          "distractor_analysis": {
+            "A": "Söylendi ama sorulan bu değil — kendi çantasını getirme kuralı poşetlere ait (14. replik).",
+            "B": "Söylendi ama sorulan bu değil — uzatılan ücretsiz süre Baxter Street otoparkına ait.",
+            "D": "Söylendi ama sorulan bu değil — koku gerekçesi çiçek tezgâhının yerine ait.",
+            "E": "Söylendi sonra düzeltildi kökenli — on birde başlayan şey eskiden yemek gösterileriydi; ilk gösteri artık 12.30'da.",
+            "F": "Söylendi ama sorulan bu değil — satıcı araçlarına ayrılan yer yükleme avlusu.",
+            "G": "Söylendi sonra düzeltildi kökenli — 15'ten 18 sterline çıkan şey tezgâh ücreti; ek pazar gününün ücretle ilgisi yok."
+          },
+          "explanation": "Konuşmacı geçen yaz denenen Perşembe gününe neredeyse kimsenin gelmediğini, bu yüzden ek pazar gününün Çarşamba olacağını söylüyor.",
+          "difficulty": "medium"
+        },
+        {
+          "number": 12,
+          "section": 2,
+          "script_id": "L6-S2",
+          "select_count": 1,
+          "prompt": "the flower stall",
+          "options": null,
+          "answer": ["D"],
+          "evidence": "We've put it by the doors on purpose, so that the scent reaches you as you come in.",
+          "answer_point_id": "L6-S2-13",
+          "turn_index": 5,
+          "distractor_analysis": {
+            "A": "Söylendi ama sorulan bu değil — kendi çantasını getirme kuralı poşetlere ait.",
+            "B": "Söylendi ama sorulan bu değil — uzatılan ücretsiz süre otoparka ait.",
+            "C": "Söylendi ama sorulan bu değil — başarısız Perşembe denemesi ek pazar gününe ait.",
+            "E": "Söylendi sonra düzeltildi kökenli — eski saat yemek gösterilerine ait; çiçek tezgâhının saati yok.",
+            "F": "Söylendi ama sorulan bu değil — satıcı araçları kuralı yükleme avlusuna ait.",
+            "G": "Söylendi sonra düzeltildi kökenli — ücret artışı tezgâh kirasına ait; çiçek tezgâhının fiyatından söz edilmiyor."
+          },
+          "explanation": "Çiçek tezgâhı bilerek kapıların yanına konmuş: içeri girerken kokunun ziyaretçiye ulaşması isteniyor.",
+          "difficulty": "easy"
+        },
+        {
+          "number": 13,
+          "section": 2,
+          "script_id": "L6-S2",
+          "select_count": 1,
+          "prompt": "the loading yard",
+          "options": null,
+          "answer": ["F"],
+          "evidence": "the loading yard behind the hall, which is for traders' vans",
+          "answer_point_id": "L6-S2-37",
+          "turn_index": 8,
+          "distractor_analysis": {
+            "A": "Söylendi ama sorulan bu değil — kendi çantasını getirme kuralı poşetlere ait.",
+            "B": "Söylendi ama sorulan bu değil — uzatılan süre Baxter Street otoparkına ait; avluya araç bırakma süresi yok.",
+            "C": "Söylendi ama sorulan bu değil — Perşembe denemesi ek pazar gününe ait.",
+            "D": "Söylendi ama sorulan bu değil — koku gerekçesi çiçek tezgâhına ait.",
+            "E": "Söylendi sonra düzeltildi kökenli — eski saat yemek gösterilerine ait.",
+            "G": "Söylendi sonra düzeltildi kökenli — 15'ten 18 sterline çıkan şey tezgâh ücreti."
+          },
+          "explanation": "Yükleme avlusu salonun arkasında ve yalnızca satıcıların minibüslerine ayrılmış; bisikletler kapının dışındaki bisiklet parkına kilitlenmeli.",
+          "difficulty": "medium"
+        },
+        {
+          "number": 14,
+          "section": 2,
+          "script_id": "L6-S2",
+          "select_count": 1,
+          "prompt": "the car park",
+          "options": null,
+          "answer": ["B"],
+          "evidence": "The sign at the barrier still says two hours free, but the council extended that to three in the spring.",
+          "answer_point_id": "L6-S2-29",
+          "turn_index": 11,
+          "distractor_analysis": {
+            "A": "Söylendi ama sorulan bu değil — kendi çantasını getirme kuralı poşetlere ait.",
+            "C": "Söylendi ama sorulan bu değil — Perşembe denemesi ek pazar gününe ait.",
+            "D": "Söylendi ama sorulan bu değil — koku gerekçesi çiçek tezgâhına ait.",
+            "E": "Söylendi sonra düzeltildi kökenli — gösterilerin eski saati; otoparkla ilgisi yok.",
+            "F": "Söylendi ama sorulan bu değil — satıcı araçları kuralı yükleme avlusuna ait; Baxter Street otoparkı herkese açık.",
+            "G": "Söylendi sonra düzeltildi kökenli — ücret artışı tezgâh kirasına ait; otoparkın ücretsiz süresi tam tersine uzatıldı."
+          },
+          "explanation": "Bariyerdeki tabela hâlâ iki saat ücretsiz dese de belediye süreyi ilkbaharda üç saate çıkarmış.",
+          "difficulty": "medium"
+        },
+        {
+          "number": 15,
+          "section": 2,
+          "script_id": "L6-S2",
+          "select_count": 1,
+          "prompt": "carrier bags",
+          "options": null,
+          "answer": ["A"],
+          "evidence": "from April the traders have agreed to stop handing out plastic ones altogether",
+          "answer_point_id": "L6-S2-36",
+          "turn_index": 14,
+          "distractor_analysis": {
+            "B": "Söylendi ama sorulan bu değil — uzatılan ücretsiz süre otoparka ait.",
+            "C": "Söylendi ama sorulan bu değil — Perşembe denemesi ek pazar gününe ait.",
+            "D": "Söylendi ama sorulan bu değil — koku gerekçesi çiçek tezgâhına ait.",
+            "E": "Söylendi sonra düzeltildi kökenli — eski saat yemek gösterilerine ait.",
+            "F": "Söylendi ama sorulan bu değil — satıcı araçları kuralı yükleme avlusuna ait.",
+            "G": "Söylendi sonra düzeltildi kökenli — ücret artışı tezgâh kirasına ait; poşetler para karşılığı satılmıyor, hiç verilmeyecek."
+          },
+          "explanation": "Nisan'dan itibaren satıcılar plastik poşet vermeyi tamamen bırakacağı için alışverişe herkesin kendi çantasını getirmesi gerekiyor.",
+          "difficulty": "easy"
+        }
+      ]
+    },
+    {
+      "group_id": "L6-S3-matching",
+      "section": 3,
+      "script_id": "L6-S3",
+      "instructions": "How is each of the following matters decided?\n\nChoose THREE answers from the box and write the correct letter, A-E, next to questions 24-26.",
+      "box": {
+        "label": null,
+        "options": [
+          { "letter": "A", "text": "Rhian's suggestion was accepted" },
+          { "letter": "B", "text": "Tomas's suggestion was accepted" },
+          { "letter": "C", "text": "the librarian proposed a middle way" },
+          { "letter": "D", "text": "the librarian advised strongly against it" },
+          { "letter": "E", "text": "a decision was put off until later" }
+        ]
+      },
+      "allow_repeat": false,
+      "items": [
+        {
+          "number": 24,
+          "section": 3,
+          "script_id": "L6-S3",
+          "select_count": 1,
+          "prompt": "the number of databases to search",
+          "options": null,
+          "answer": ["A"],
+          "evidence": "I'm with Rhian on the number, but I'd add something neither of you has.",
+          "answer_point_id": "L6-S3-12",
+          "turn_index": 16,
+          "distractor_analysis": {
+            "B": "Başkası söyledi — beş veri tabanı Tomas'ın önerisiydi; kabul edilmedi.",
+            "C": "Söylendi ama sorulan bu değil — 'orta yol' tarih aralığı tartışmasına ait; sayıda kütüphaneci doğrudan Rhian'a katılıyor.",
+            "D": "Söylendi ama sorulan bu değil — kaçınma uyarısı tam metin filtresine ait.",
+            "E": "Sesle hiç geçmeyen — hiçbir karar ertelenmiyor; sayı bu görüşmede kesinleşiyor."
+          },
+          "explanation": "Kütüphaneci veri tabanı sayısında Rhian'a katıldığını söylüyor; Tomas'ın beş veri tabanı planı kabul edilmiyor, eklenen şey ise bir veri tabanı değil yerel yönetim raporları koleksiyonu.",
+          "difficulty": "medium"
+        },
+        {
+          "number": 25,
+          "section": 3,
+          "script_id": "L6-S3",
+          "select_count": 1,
+          "prompt": "the period the search should cover",
+          "options": null,
+          "answer": ["C"],
+          "evidence": "Run the systematic search over ten years, which keeps it manageable, and then pick the older papers up deliberately",
+          "answer_point_id": "L6-S3-17",
+          "turn_index": 21,
+          "distractor_analysis": {
+            "A": "Söylendi ama sorulan bu değil — on yıl Rhian'ın önerisiydi ama olduğu gibi kabul edilmedi; eski çalışmalar atıf takibiyle ekleniyor.",
+            "B": "Başkası söyledi — yirmi yıl Tomas'ın önerisiydi; sistematik arama on yılla sınırlı tutuluyor.",
+            "D": "Söylendi ama sorulan bu değil — kaçınma uyarısı tam metin filtresine ait.",
+            "E": "Sesle hiç geçmeyen — karar ertelenmiyor; iki öğrenci de orta yoldan memnun kalıyor."
+          },
+          "explanation": "Kütüphaneci orta yol öneriyor: sistematik arama on yılla sınırlı kalacak, daha eski önemli çalışmalar güncel makalelerin atıfları üzerinden bilinçli olarak eklenecek.",
+          "difficulty": "medium"
+        },
+        {
+          "number": 26,
+          "section": 3,
+          "script_id": "L6-S3",
+          "select_count": 1,
+          "prompt": "the 'full text available' filter",
+          "options": null,
+          "answer": ["D"],
+          "evidence": "Because it hides everything we can order in for you, and that's a great deal of material.",
+          "answer_point_id": "L6-S3-20",
+          "turn_index": 25,
+          "distractor_analysis": {
+            "A": "Söylendi ama sorulan bu değil — Rhian'ın kabul gören önerileri veri tabanı sayısına ait; filtre hakkında önerisi yok.",
+            "B": "Söylendi ama sorulan bu değil — kutucuğu hep işaretlediğini söyleyen Tomas; kütüphaneci tam tersini istiyor.",
+            "C": "Söylendi ama sorulan bu değil — orta yol tarih aralığına ait.",
+            "E": "Sesle hiç geçmeyen — karar ertelenmiyor; filtre hemen karara bağlanıyor."
+          },
+          "explanation": "Kütüphaneci bu kutuyu işaretlememelerini söylüyor çünkü filtre kütüphanenin dışarıdan getirtebileceği çok sayıda kaynağı gizliyor ve kanıtı rafta olanla sınırlıyor.",
+          "difficulty": "medium"
+        }
+      ]
+    }
+  ]
+}

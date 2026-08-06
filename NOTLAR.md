@@ -6039,3 +6039,64 @@ hiç kullanılmadı, kalan on soruda birer kez. Çeldirici türü çeşitliliği
   kutu/yönerge kalıbı L1–L4'ün doğrulanmış dosyalarından sürdürüldü (format sabit).
 - Atlanan/sorun: yok. Sıradaki çalıştırma: **L6** (6/9) — ⚠️ 11–15 bloku EŞLEŞTİRME
   olmak zorunda (seçim hakkı yok); L6-S2'nin öğe dizilimini 1-4-7-10-13 kalıbıyla dene.
+
+## FABLE5-43 (6. çalıştırma: L6 — riskli sorular, 11 soru)
+
+- **Üretilen:** `content/listening/tests/L6/matching.json` (İKİ küme, `groups`
+  sarmalayıcısıyla, L3/L4 düzeni: 11–15 → 2. bölüm 5 öğeli eşleştirme, 24–26 →
+  3. bölüm 3 öğeli eşleştirme) + `content/listening/tests/L6/multiple-choice.json`
+  (21–23, 3. bölüm, düz `items`). Toplam **11 soru** — L6 artık `dogrula.py`'de
+  **40/40 TAM** ve **altı tam testin hepsi 40/40**.
+- **11–15 bloku seçimi: L6 = eşleştirme (3/3 — DENGE TAMAMLANDI).** Altı test kapandı:
+  ÇS = L1, L2, L5 / eşleştirme = L3, L4, L6. Kota kısıtı kalmadı.
+- **Yerleşim ve sıra kuralı:** S2 → replikler 2, 5, 8, 11, 14 (aralıklar tam 3;
+  önerilen 1-4-7-10-13 yerine bir kaydırılmış türevi, çünkü t1/t4/t7'nin malzemesi
+  ya zayıftı ya planda görünüyordu). t5, t8 OPUS5-21'in plan bölgesiyle (t5–t8,
+  16–20) çakışıyor ama farklı bilgiye dayanıyor (L3/L4 emsali): planda çiçek
+  tezgâhının KONUMU soruluyor, bende yerin seçilme SEBEBİ (koku, S2-13); planda
+  bahçe kapısının dışındaki yer (bisiklet parkı), bende yükleme avlusunun KURALI
+  (yalnız satıcı araçları, yeni nokta S2-37). S3 → ÇS 4, 9, 13; eşleştirme 16, 21, 25 —
+  küresel dizi 4-9-13-16-21-25, bütün aralıklar ≥3. Tavan kuralı: 26'nın cevabı t25,
+  OPUS5-21'in 27. sorusu t27'de (2 replik pay; sıra korunuyor, küme içi aralık kuralı
+  dosya sınırında zaten uygulanmıyor — L1–L5 emsali). 21–30 küresel dizisi
+  4-9-13-16-21-25-27-31-35-39 tamamen artan.
+- **S3 eşleştirme kümesi "karar" kalıbında** (yenilik): öğeler üç tartışma ekseni
+  (veri tabanı sayısı, tarih aralığı, tam metin filtresi), kutu ise kararın nasıl
+  bağlandığı (A Rhian kabul / B Tomas kabul / C orta yol / D uzak durun uyarısı /
+  E ertelendi). Konuşmacı adları kutuda geçiyor (kural 1 böyle karşılandı; L4'te
+  adlar yönergedeydi). Tarama işbölümü (t29–31) ve kaynak yönetimi (t33–35)
+  eksenleri BİLEREK dışarıda: turları OPUS5-21'in 28. (t31) ve 29. (t35) sorularının
+  cevap replikleriyle çakışıyor, 26'nın tavanı (t27) aşılamazdı.
+- **Çeldirici türleri:** "söylendi sonra düzeltildi" hem cevaplarda (11-C Perşembe→
+  Çarşamba, 14-B iki→üç saat, 21-C 3.000→2.500) hem S2 kutusunun E (gösteri 11→12.30)
+  ve G (tezgâh 15→18 £) çeldiricilerinde; "başkası söyledi" 24-B ve 25-B'de (Tomas'ın
+  reddedilen önerileri; yalnız 3. bölümde mümkün, S2 tek konuşmacılı); "söylendi ama
+  sorulan bu değil" hepsinde. Sesle hiç geçmeyen: 21-A, 22-B, 23-C ve S3 kutusunda E
+  (soru başına ≤1 ✓; S2 kutusunun 7 seçeneğinin hepsi seste geçiyor, L4 emsali).
+- **Yeni bilgi noktası senaryoya eklendi (yalnız L6-S2):** `L6-S2-37` (yükleme avlusu
+  yalnız satıcı minibüslerine, replik 8). S3'te yeni nokta gerekmedi (S3-01, -05, -09,
+  -12, -17, -20 kullanıldı; hiçbiri OPUS5-21'in 27–30 veya alıştırma dosyalarında
+  cevap değil — alıştırmalar L6'dan yalnız S2-11/-15/-20/-22 plan noktalarını
+  kullanıyor).
+- **Elenen taslaklar (3):** (1) S2 için 0-3-6-9-12 dizilimi — t6'daki tek malzeme
+  balık tezgâhının yeri ve planın 17. sorusuyla birebir aynı bilgiyi (drenaj repliği)
+  test ediyordu. (2) S3 kararlar kümesine "tarama işbölümü + kaynak yönetimi"
+  öğeleri — yukarıdaki tavan çakışması. (3) Balık tezgâhı ÇS taslağı ("neden
+  girişte değil?") — aynı sebep, plan 17 ile çifte kullanım. Üretilip son kontrolde
+  silinen soru yok: iki senaryo baştan sona okunarak 11 soru anahtara bakılmadan
+  çözüldü, **11/11 uyuştu**.
+- **Harf dengesi:** eşleştirme 11–15: C, D, F, B, A (kutu 7'li, E ve G boşta) /
+  ÇS 21–23: B, C, B / eşleştirme 24–26: A, C, D (kutu 5'li, B ve E boşta, alt sınır) —
+  üst üste aynı harf yok; 21–26 genelinde A×1 B×2 C×2 D×1.
+- **Doğrulama:** `python tools/dogrula.py` → şema hatası 0, L6 40/40 TAM (L1–L6'nın
+  altısı da TAM), görünür metinde IELTS 0; `python tools/_f43_kontrol.py L6` →
+  0 sorun (evidence birebir, replik aralıkları, 10 kelime seçenek sınırı, 50 kelime
+  kök+seçenek sınırı).
+- Referans: dinleme ÇS (tek/çok cevap) anahtar + transkript kalıpları ve eşleştirme
+  kutu/yönerge kalıbı L1–L5'in doğrulanmış dosyalarından sürdürüldü (format sabit);
+  referanstan tek bir cümle, soru ya da senaryo kopyalanmadı.
+- Atlanan/sorun: yok. **Tam test yarısı bitti: FABLE5-43'ün L1–L6 paketlerinin altısı
+  da tamam (66 soru).** Sıradaki çalıştırma: **alıştırma ÇS tek cevaplı, 10 soru**
+  (7/9) — `content/listening/practice/multiple-choice.json`, numaralar 1'den,
+  `test_id` null, `practice` true, `groups` sarmalayıcısı, senaryo başına en fazla
+  4 soru, tam testlerde kullanılan bilgi noktaları CEVAP yapılamaz.
