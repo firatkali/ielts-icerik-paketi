@@ -1,0 +1,196 @@
+{
+  "schema_version": "1.0",
+  "set_id": "L5-multiple-choice",
+  "skill": "listening",
+  "test_id": "L5",
+  "section": null,
+  "practice": false,
+  "script_id": null,
+  "question_type": "multiple_choice",
+  "generated_by": "fable",
+  "instructions": "Questions 11-13: Choose the correct letter, A, B or C.\nQuestions 14 and 15: Choose TWO letters, A-E.\nQuestions 21-23: Choose the correct letter, A, B or C.",
+  "box": null,
+  "groups": [
+    {
+      "group_id": "L5-S2-mc-single",
+      "section": 2,
+      "script_id": "L5-S2",
+      "instructions": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "number": 11,
+          "section": 2,
+          "script_id": "L5-S2",
+          "select_count": 1,
+          "prompt": "What time do the gates open on the Saturday?",
+          "options": [
+            { "letter": "A", "text": "10.30" },
+            { "letter": "B", "text": "11.00" },
+            { "letter": "C", "text": "11.30" }
+          ],
+          "answer": ["A"],
+          "evidence": "Gates open at half past ten on the Saturday.",
+          "answer_point_id": "L5-S2-02",
+          "turn_index": 1,
+          "distractor_analysis": {
+            "B": "Söylendi sonra düzeltildi — broşürde on bir yazıyor ama otobüs tarifesi çıkınca açılış on buçuğa öne alındı; konuşmacı broşürü dikkate almayın diyor.",
+            "C": "Söylendi ama sorulan bu değil — on bir buçuk Pazar gününün açılış saati, Cumartesi'nin değil."
+          },
+          "explanation": "Kapılar Cumartesi günü on buçukta açılıyor; broşürdeki on bir, otobüs tarifesi yayımlanınca öne çekilen eski saat.",
+          "difficulty": "easy"
+        },
+        {
+          "number": 12,
+          "section": 2,
+          "script_id": "L5-S2",
+          "select_count": 1,
+          "prompt": "Why has the main stage been turned around this year?",
+          "options": [
+            { "letter": "A", "text": "The meadow now costs more to hire." },
+            { "letter": "B", "text": "People living across the river complained about the sound." },
+            { "letter": "C", "text": "The riverside path behind it was often blocked." }
+          ],
+          "answer": ["B"],
+          "evidence": "It faced the river last year, which meant the sound travelled straight across to the houses on the other bank, and we heard about it.",
+          "answer_point_id": "L5-S2-12",
+          "turn_index": 4,
+          "distractor_analysis": {
+            "A": "Söylendi ama sorulan bu değil — çayır kirasının artması bilet fiyatındaki zammın gerekçesi, sahnenin çevrilmesinin değil.",
+            "C": "Sesle hiç geçmeyen çeldirici — nehir yolu sahnenin arkasından geçiyor ama tıkandığı hiç söylenmiyor; aksine bütün hafta sonu açık kalacak."
+          },
+          "explanation": "Sahne geçen yıl nehre bakıyordu ve ses karşı kıyıdaki evlere taşınıyordu; şikâyet üzerine bu yıl yüzü kapıya çevrildi.",
+          "difficulty": "medium"
+        },
+        {
+          "number": 13,
+          "section": 2,
+          "script_id": "L5-S2",
+          "select_count": 1,
+          "prompt": "How often does the festival shuttle bus run?",
+          "options": [
+            { "letter": "A", "text": "every fifteen minutes" },
+            { "letter": "B", "text": "every twenty minutes" },
+            { "letter": "C", "text": "every half an hour" }
+          ],
+          "answer": ["A"],
+          "evidence": "and the shuttle bus runs every fifteen minutes. The poster said every twenty, but we've managed to hire a second bus.",
+          "answer_point_id": "L5-S2-19",
+          "turn_index": 7,
+          "distractor_analysis": {
+            "B": "Söylendi sonra düzeltildi — afişte yirmi dakika yazıyor; ikinci otobüs kiralanınca aralık on beş dakikaya indi.",
+            "C": "Sesle hiç geçmeyen çeldirici — yarım saatlik bir aralık hiç anılmıyor."
+          },
+          "explanation": "Servis otobüsü on beş dakikada bir kalkıyor; ikinci otobüs kiralandığı için afişteki yirmi dakika artık geçerli değil.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "group_id": "L5-S2-mc-double",
+      "section": 2,
+      "script_id": "L5-S2",
+      "instructions": "Choose TWO letters, A-E.",
+      "items": [
+        {
+          "number": "14-15",
+          "section": 2,
+          "script_id": "L5-S2",
+          "select_count": 2,
+          "prompt": "Which TWO things are visitors not allowed to do?",
+          "options": [
+            { "letter": "A", "text": "pay by card at the food stalls" },
+            { "letter": "B", "text": "take a dog into the family field" },
+            { "letter": "C", "text": "bring glass onto the site" },
+            { "letter": "D", "text": "walk along the riverside path" },
+            { "letter": "E", "text": "fill water bottles at the site" }
+          ],
+          "answer": ["B", "C"],
+          "evidence": "What you can't bring onto the site is glass of any kind; that's the one condition our licence is strict about, and the stewards will ask you to leave bottles at the gate. Dogs are welcome on a lead, though not in the family field, where the younger children are.",
+          "answer_point_id": "L5-S2-28",
+          "turn_index": 10,
+          "distractor_analysis": {
+            "A": "Söylendi sonra düzeltildi — tezgâhlar geçen yıl kart kabul etmiyordu; bu yıl nakit yanında kart da geçiyor, yani kartla ödemek serbest.",
+            "D": "Söylendi ama sorulan bu değil — yol bütün hafta sonu açık; yasak olan yolda yürümek değil, yola bir şey park etmek ya da yığmak.",
+            "E": "Söylendi ama sorulan bu değil — tuvaletlerin yanındaki ücretsiz çeşme tam da şişe doldurmak için; konuşmacı bunu özendiriyor."
+          },
+          "explanation": "Sahaya cam sokmak yasak (C) ve köpekler ancak tasmayla, aile alanı dışında dolaşabiliyor (B). İkinci cevap noktası: L5-S2-29.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "group_id": "L5-S3-mc-single",
+      "section": 3,
+      "script_id": "L5-S3",
+      "instructions": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "number": 21,
+          "section": 3,
+          "script_id": "L5-S3",
+          "select_count": 1,
+          "prompt": "How does Dr Osgood react when the students say they disagree?",
+          "options": [
+            { "letter": "A", "text": "He is pleased it has come out early." },
+            { "letter": "B", "text": "He tells them to settle it within three weeks." },
+            { "letter": "C", "text": "He asks to see both versions of the draft." }
+          ],
+          "answer": ["A"],
+          "evidence": "Disagreeing now is a great deal cheaper than disagreeing in three weeks' time.",
+          "answer_point_id": "L5-S3-31",
+          "turn_index": 2,
+          "distractor_analysis": {
+            "B": "Söylendi ama sorulan bu değil — 'üç hafta' anlaşmazlığın ileride patlak vermesi hâlinde ne kadar pahalıya geleceğini anlatan kıyas; verilen bir süre değil.",
+            "C": "Sesle hiç geçmeyen çeldirici — taslağın iki ayrı sürümünü görmek istemek hiç geçmiyor; taslağı gönderme talebi görüşmenin sonunda ve pilotla ilgili."
+          },
+          "explanation": "Danışman anlaşmazlıktan memnun: şimdi anlaşamamak, üç hafta sonra anlaşamamaktan çok daha ucuza gelir diyor.",
+          "difficulty": "medium"
+        },
+        {
+          "number": 22,
+          "section": 3,
+          "script_id": "L5-S3",
+          "select_count": 1,
+          "prompt": "What danger does Dr Osgood see in collecting answers online?",
+          "options": [
+            { "letter": "A", "text": "It would use up two of the students' weekends." },
+            { "letter": "B", "text": "Only people already interested would take part." },
+            { "letter": "C", "text": "It would produce fewer than a hundred and twenty replies." }
+          ],
+          "answer": ["B"],
+          "evidence": "The people who answer a link on a residents' page are the people who already care about the high street. That's self-selection, and it will bend everything you find.",
+          "answer_point_id": "L5-S3-03",
+          "turn_index": 5,
+          "distractor_analysis": {
+            "A": "Başkası söyledi — iki kayıp hafta sonu Marit'in yüz kişilik sokak anketi için yakınması; danışmanın çevrimiçi bağlantıya itirazı değil.",
+            "C": "Söylendi ama sorulan bu değil — yüz yirmi, bölümün istediği alt sınır; danışmanın çevrimiçi yöntemde gördüğü tehlike örneklemin kendine seçilmesi."
+          },
+          "explanation": "Danışmana göre mahalle sayfasındaki bağlantıyı yanıtlayanlar zaten çarşıyı önemseyen kişiler olur; bu kendine seçilme bütün bulguları eğer.",
+          "difficulty": "medium"
+        },
+        {
+          "number": 23,
+          "section": 3,
+          "script_id": "L5-S3",
+          "select_count": 1,
+          "prompt": "Why does Dr Osgood tell the students to use quotas?",
+          "options": [
+            { "letter": "A", "text": "To reach Marit's target of a hundred and fifty." },
+            { "letter": "B", "text": "To meet a rule set by the department." },
+            { "letter": "C", "text": "To stop easy-to-reach groups dominating the sample." }
+          ],
+          "answer": ["C"],
+          "evidence": "If you stop whoever is easiest to stop, you will come back with students and retired people and almost nobody in between.",
+          "answer_point_id": "L5-S3-06",
+          "turn_index": 9,
+          "distractor_analysis": {
+            "A": "Başkası söyledi — yüz elli Marit'in önerdiği toplam; kotanın amacı sayıyı büyütmek değil dengeyi korumak.",
+            "B": "Söylendi ama sorulan bu değil — bölümün şartı en az yüz yirmi tamamlanmış yanıt; kotaları isteyen bölüm değil danışmanın kendisi."
+          },
+          "explanation": "Kota olmazsa en kolay durdurulanlar örnekleme dolar: öğrenciler ve emekliler çoğunlukta olur, aradaki yaş grubu neredeyse hiç bulunmaz.",
+          "difficulty": "hard"
+        }
+      ]
+    }
+  ]
+}

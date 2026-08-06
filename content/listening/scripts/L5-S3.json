@@ -595,6 +595,18 @@
         "sentence_completion",
         "multiple_choice"
       ]
+    },
+    {
+      "id": "L5-S3-31",
+      "kind": "opinion",
+      "value": "tutor: disagreeing now is far cheaper than disagreeing later",
+      "quote": "Disagreeing now is a great deal cheaper than disagreeing in three weeks' time.",
+      "turn_index": 2,
+      "speaker": "M2",
+      "distractor": null,
+      "suggested_types": [
+        "multiple_choice"
+      ]
     }
   ],
   "spatial_description": null,

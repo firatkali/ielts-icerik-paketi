@@ -5980,3 +5980,62 @@ hiç kullanılmadı, kalan on soruda birer kez. Çeldirici türü çeşitliliği
 - Atlanan/sorun: yok. Sıradaki çalıştırma: **L5** (5/9) — ⚠️ L5 ve L6'dan birinde 11–15
   eşleştirme, diğerinde çoktan seçmeli (+ çift cevaplı) olmalı; L5-S2'nin yapısına göre
   seç, seçimi buraya yaz.
+
+## FABLE5-43 (5. çalıştırma: L5 — riskli sorular, 11 soru)
+
+- **Üretilen:** `content/listening/tests/L5/multiple-choice.json` (11, 12, 13, 14–15 →
+  2. bölüm; 21, 22, 23 → 3. bölüm; L1/L2 düzeni: tek dosya, `groups` + item düzeyinde
+  `section`/`script_id`) + `content/listening/tests/L5/matching.json` (24–26, 3. bölüm,
+  düz `items`). Toplam **11 soru** — L5 artık `dogrula.py`'de **40/40 TAM**.
+- **11–15 bloku seçimi: L5 = çoktan seçmeli (3/3 — ÇS kotası doldu).** Gerekçe: OPUS5-21'in
+  bilerek bıraktığı dört düzeltmeli çeldirici noktası (S2-02 açılış saati, S2-04 bilet,
+  S2-19 servis sıklığı, S2-24 atölye günleri) ÇS'ye çok uygun; S2'de 5 öğeli eşleştirme
+  için gereken paralel öğeler ya OPUS5-21'in plan sorularında (16–20) kullanılmış ya da
+  3-replik kuralını geçemiyor (0–12 replik aralığında en çok 4 öğe çıkıyor).
+  ⚠️ **Kalan kısıt: L6'da 11–15 bloku EŞLEŞTİRME olmak ZORUNDA** (3/3 denge; seçim hakkı
+  kalmadı). L6-S2'de 5 öğeli küme 3-replik aralığıyla kurulamazsa NOTLAR'a yazıp prompt
+  sahibine bırakmak yerine 1-4-7-10-13 tipi dizilimler denenmeli (L3/L4 emsali).
+- **Yerleşim ve sıra kuralı:** S2 → replikler 1, 4, 7, 10 (aralıklar tam 3); 12. soru
+  OPUS5-21'in plan bölgesiyle (t3–6) çakışan t4'te ama farklı bilgiye dayanıyor (L3-13/L4
+  emsali): planda ana sahnenin KONUMU soruluyor, bende çevrilme SEBEBİ (karşı kıyıdaki
+  evlere taşan ses). S3 → ÇS 2, 5, 9; eşleştirme 13, 16, 19 — küresel dizi 2-5-9-13-16-19,
+  bütün aralıklar ≥3. Tavan kuralı: 26'nın cevabı t19, OPUS5-21'in 27. sorusu t24'te
+  başlıyor (5 replik pay — L1–L4'ten geniş).
+- **S3'te sıkışıklık ve çözümü:** tavan t24 (OPUS'un 27. cevabı) + t20/22/23'te bilgi
+  noktası yokluğu + t21'in (S3-15 ödül çekilişi) alıştırmada kullanılması yüzünden
+  t3–19 aralığına 3-replik kuralıyla en çok 5 cevap sığıyordu. Çözüm: t2'deki danışman
+  tepkisine yeni bilgi noktası açmak (`L5-S3-31`, "şimdi anlaşamamak üç hafta sonra
+  anlaşamamaktan ucuz") — 21. soru buradan çıktı ve dizi 6'ya tamamlandı.
+- **Alıştırma çakışması önlendi:** practice/sentence-completion L5-S3-04 (120 alt sınır),
+  -15 (ödül çekilişi) ve -25 (kabin rezervasyonu) noktalarını kullanıyor; hiçbiri cevap
+  yapılmadı. S3-04 yalnız 22-C ve 23-B çeldiricilerinin zemini oldu (L3/L4 emsali:
+  practice noktası çeldirici zemini olabilir, cevap olamaz).
+- **Çeldirici türleri:** "söylendi sonra düzeltildi" 3 soruda (11-B broşür saati, 13-B
+  afiş sıklığı, 14/15-A kart geçen yıl geçmiyordu); "başkası söyledi" 2 soruda (22-A,
+  23-A — yalnız 3. bölümde mümkün, S2 tek konuşmacılı, L1 emsali); "söylendi ama sorulan
+  bu değil" hepsinde. Sesle hiç geçmeyen: 12-C, 13-C, 21-C (soru başına ≤1 ✓; eşleştirme
+  kutusunda hiç yok — F "tersine çevrildi" sınıfı: yarım form beterdir'in olumsuzu).
+  14–15 çift sorusunun üç çeldiricisi de "aslında serbest olan şey" kalıbında (kart,
+  yol, çeşme) — hepsi seste geçiyor.
+- **Yeni bilgi noktası senaryoya eklendi (yalnız L5-S3):** `L5-S3-31` (danışmanın
+  anlaşmazlık tepkisi, replik 2). S2'de yeni nokta gerekmedi (4 soru mevcut noktalara
+  dayandı: S2-02, -12, -19, -28; çift sorunun ikinci cevabı S2-29 `explanation`'da anılıyor,
+  `answer_point_id` tek değer aldığı için 28 yazıldı — L1/L2 emsali).
+- **Elenen taslaklar (4):** (1) S2 eşleştirme kümesi — paralel öğe kıtlığı (yukarıda).
+  (2) Atölye çift sorusu (t9: iki gün + 12 kişi) — t7'deki servis sorusuyla arası 2 replik
+  kalıyordu. (3) "Atölyeye nasıl yazılınır" tekli taslağı (t9) — aynı sıkışıklık.
+  (4) Marit'in 10 kişilik pilot önerisi sorusu (t22) — OPUS5-21'in 27. sorusunun
+  (cevap: 20, t24) çeldiricisini önceden ifşa ediyordu, ayrıca açıklaması zaten onların
+  `explanation`'ında geçiyor. Üretilip son kontrolde silinen soru yok: iki senaryo baştan
+  sona okunarak 11 soru anahtara bakılmadan çözüldü, **11/11 uyuştu**.
+- **Harf dengesi:** ÇS 11–15: A, B, A, {B,C} / ÇS 21–23: A, B, C / eşleştirme 24–26:
+  B, A, C — üst üste aynı harf yok; kutu 6 seçenekli (3 soru + 3 boşta, L4 emsali).
+  Kullanılmayan düzeltmeli çeldiriciler: S2-04 (15→18 £) ve S2-24 (Cumartesi→iki gün) —
+  ikisi de 3-replik kuralına sığmadı (t2 ve t9, seçilen dizilimin dışında).
+- **Doğrulama:** `python tools/dogrula.py` → şema hatası 0, L5 40/40 TAM, görünür metinde
+  IELTS 0; `python tools/_f43_kontrol.py L5` → 0 sorun (evidence birebir, replik
+  aralıkları, 10 kelime seçenek sınırı, 50 kelime kök+seçenek sınırı).
+- Referans: dinleme ÇS (tek/çok cevap) anahtar + transkript kalıpları ve eşleştirme
+  kutu/yönerge kalıbı L1–L4'ün doğrulanmış dosyalarından sürdürüldü (format sabit).
+- Atlanan/sorun: yok. Sıradaki çalıştırma: **L6** (6/9) — ⚠️ 11–15 bloku EŞLEŞTİRME
+  olmak zorunda (seçim hakkı yok); L6-S2'nin öğe dizilimini 1-4-7-10-13 kalıbıyla dene.

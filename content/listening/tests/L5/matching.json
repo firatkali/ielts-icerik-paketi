@@ -1,0 +1,83 @@
+{
+  "schema_version": "1.0",
+  "set_id": "L5-matching",
+  "skill": "listening",
+  "test_id": "L5",
+  "section": 3,
+  "practice": false,
+  "script_id": "L5-S3",
+  "question_type": "matching",
+  "generated_by": "fable",
+  "instructions": "What do the speakers say about each of the following aspects of the survey?\n\nChoose THREE answers from the box and write the correct letter, A-F, next to questions 24-26.",
+  "box": {
+    "label": null,
+    "options": [
+      { "letter": "A", "text": "People will give up if it takes too long." },
+      { "letter": "B", "text": "The results can simply be added together." },
+      { "letter": "C", "text": "Both a weekday and a Saturday are needed." },
+      { "letter": "D", "text": "They belong at the very end of the form." },
+      { "letter": "E", "text": "No two people would record them the same way." },
+      { "letter": "F", "text": "Unfinished forms can still provide useful data." }
+    ]
+  },
+  "allow_repeat": false,
+  "items": [
+    {
+      "number": 24,
+      "select_count": 1,
+      "prompt": "the five-point scale",
+      "options": null,
+      "answer": ["B"],
+      "evidence": "It takes ninety seconds in a doorway, and at the end of it you have something you can actually add up.",
+      "answer_point_id": "L5-S3-09",
+      "turn_index": 13,
+      "distractor_analysis": {
+        "A": "Söylendi ama sorulan bu değil — vazgeçip gitme uyarısı görüşmenin toplam süresi hakkında.",
+        "C": "Söylendi ama sorulan bu değil — bir hafta içi bir Cumartesi kuralı görüşme günlerine ait.",
+        "D": "Söylendi ama sorulan bu değil — formun en sonuna konacak olanlar iki açık uçlu soru, ölçek değil.",
+        "E": "Söylendi ama sorulan bu değil — aynı replikte geçen tutarsız kodlama Marit'in açık uçlu yanıtlara itirazı; ölçek tam tersine toplanabilir.",
+        "F": "Söylendi ama tersine çevrildi — danışmana göre yarım kalan form hiç formdan beterdir."
+      },
+      "explanation": "Marit beşli ölçeği savunurken sonunda toplanabilir bir şey elde edildiğini söylüyor; görüşme kapı önünde doksan saniye sürüyor.",
+      "difficulty": "hard"
+    },
+    {
+      "number": 25,
+      "select_count": 1,
+      "prompt": "the length of the interview",
+      "options": null,
+      "answer": ["A"],
+      "evidence": "Past four minutes people begin walking off mid-sentence, and a half-finished form is worse than no form at all.",
+      "answer_point_id": "L5-S3-11",
+      "turn_index": 16,
+      "distractor_analysis": {
+        "B": "Söylendi ama sorulan bu değil — toplanabilirlik beşli ölçeğin üstünlüğü olarak geçiyor.",
+        "C": "Söylendi ama sorulan bu değil — gün seçimi kuralı görüşme günlerine ait.",
+        "D": "Söylendi ama sorulan bu değil — form sonu, açık uçlu soruların yeri.",
+        "E": "Söylendi ama sorulan bu değil — kodlama itirazı açık uçlu yanıtlar hakkında.",
+        "F": "Söylendi ama tersine çevrildi — aynı replikte danışman yarım formun hiç formdan beter olduğunu söylüyor; işe yarar demiyor."
+      },
+      "explanation": "Danışmana göre görüşme dört dakikayı aşarsa insanlar cümlenin ortasında yürüyüp gidiyor; yarım kalan form da hiç formdan beter.",
+      "difficulty": "easy"
+    },
+    {
+      "number": 26,
+      "select_count": 1,
+      "prompt": "the days chosen for interviewing",
+      "options": null,
+      "answer": ["C"],
+      "evidence": "One of each, and say so in your method section.",
+      "answer_point_id": "L5-S3-14",
+      "turn_index": 19,
+      "distractor_analysis": {
+        "A": "Söylendi ama sorulan bu değil — vazgeçme uyarısı görüşmenin süresiyle ilgili.",
+        "B": "Söylendi ama sorulan bu değil — toplanabilirlik ölçeğin özelliği.",
+        "D": "Söylendi ama sorulan bu değil — açık uçluların yeri form sonu; günlerle ilgisi yok.",
+        "E": "Söylendi ama sorulan bu değil — kodlama itirazı açık uçlu yanıtlara ait.",
+        "F": "Söylendi ama tersine çevrildi — yarım formun beter olduğu söyleniyor, işe yaradığı değil."
+      },
+      "explanation": "Danışman bir hafta içi bir Cumartesi istiyor: yalnız Cumartesi örneklemi sadece hafta sonu alışveriş yapanları anlatır.",
+      "difficulty": "medium"
+    }
+  ]
+}
