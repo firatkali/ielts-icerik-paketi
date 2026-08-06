@@ -1,0 +1,214 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ielts-paketi.local/degerlendirme/cikti-semasi.json",
+  "title": "IELTS estimated-band assessment output",
+  "description": "The only shape a scoring model may return. Free text outside this object is not accepted. Applies to writing (4 criteria) and speaking (3 criteria).",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["status", "skill", "estimated", "overall_band", "criteria", "lowest_criterion", "rewrites", "next_step"],
+  "properties": {
+    "status": {
+      "description": "scored = a band was produced from the response. insufficient = the response cannot be scored; no band may be invented.",
+      "enum": ["scored", "insufficient"]
+    },
+    "skill": {
+      "enum": ["writing", "speaking"]
+    },
+    "estimated": {
+      "description": "Always true. The product reports an estimated band, never an official IELTS result.",
+      "const": true
+    },
+    "overall_band": {
+      "description": "Mean of the criterion bands, rounded to the nearest half band (.25 and .75 round up). null when status is insufficient.",
+      "type": ["number", "null"],
+      "minimum": 1,
+      "maximum": 9,
+      "multipleOf": 0.5
+    },
+    "criteria": {
+      "description": "Exactly 4 items for writing, exactly 3 for speaking. Empty when status is insufficient.",
+      "type": "array",
+      "maxItems": 4,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["name", "band", "why", "quote"],
+        "properties": {
+          "name": {
+            "enum": [
+              "task_response",
+              "coherence_cohesion",
+              "lexical_resource",
+              "grammatical_range_accuracy",
+              "fluency_coherence"
+            ]
+          },
+          "band": {
+            "type": "number",
+            "minimum": 1,
+            "maximum": 9,
+            "multipleOf": 0.5
+          },
+          "why": {
+            "description": "At most 2 sentences. Must describe what this candidate actually did, and must refer to the text in `quote`. Generic band-descriptor wording is not accepted.",
+            "type": "string",
+            "minLength": 20,
+            "maxLength": 400
+          },
+          "quote": {
+            "description": "A verbatim span copied from the candidate's own response/transcript, 3-25 words. Never invented, never taken from the task prompt.",
+            "type": "string",
+            "minLength": 3,
+            "maxLength": 200
+          }
+        }
+      }
+    },
+    "lowest_criterion": {
+      "description": "The `name` of the weakest criterion; on a tie, the one that costs the candidate most. null when status is insufficient.",
+      "type": ["string", "null"],
+      "enum": [
+        "task_response",
+        "coherence_cohesion",
+        "lexical_resource",
+        "grammatical_range_accuracy",
+        "fluency_coherence",
+        null
+      ]
+    },
+    "rewrites": {
+      "description": "At most 3. Each takes one of the candidate's own sentences and shows a band-7 version of it. Empty when status is insufficient.",
+      "type": "array",
+      "maxItems": 3,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["original", "better", "what_changed"],
+        "properties": {
+          "original": {
+            "description": "Verbatim sentence from the candidate.",
+            "type": "string",
+            "minLength": 3,
+            "maxLength": 300
+          },
+          "better": {
+            "description": "The same idea rewritten at band 7. Must keep the candidate's meaning; must not add new content.",
+            "type": "string",
+            "minLength": 3,
+            "maxLength": 300
+          },
+          "what_changed": {
+            "description": "At most 1 sentence naming the change.",
+            "type": "string",
+            "minLength": 5,
+            "maxLength": 200
+          }
+        }
+      }
+    },
+    "next_step": {
+      "description": "One concrete, actionable instruction, at most 1 sentence. Always present, including when status is insufficient.",
+      "type": "string",
+      "minLength": 10,
+      "maxLength": 200
+    },
+    "insufficient_reason": {
+      "description": "Required when status is insufficient, absent otherwise.",
+      "enum": ["empty", "too_short", "off_topic", "copied_from_prompt", "not_a_response"]
+    },
+    "word_count": {
+      "description": "Optional. Candidate words counted by the scorer (writing) or candidate words in the transcript (speaking).",
+      "type": "integer",
+      "minimum": 0
+    }
+  },
+  "allOf": [
+    {
+      "if": { "properties": { "status": { "const": "scored" } }, "required": ["status"] },
+      "then": {
+        "properties": {
+          "overall_band": { "type": "number" },
+          "lowest_criterion": { "type": "string" },
+          "criteria": { "minItems": 3 }
+        },
+        "not": { "required": ["insufficient_reason"] }
+      }
+    },
+    {
+      "if": { "properties": { "status": { "const": "insufficient" } }, "required": ["status"] },
+      "then": {
+        "required": ["insufficient_reason"],
+        "properties": {
+          "overall_band": { "type": "null" },
+          "lowest_criterion": { "type": "null" },
+          "criteria": { "maxItems": 0 },
+          "rewrites": { "maxItems": 0 }
+        }
+      }
+    },
+    {
+      "if": { "required": ["skill", "status"], "properties": { "skill": { "const": "writing" }, "status": { "const": "scored" } } },
+      "then": { "properties": { "criteria": { "minItems": 4, "maxItems": 4 } } }
+    },
+    {
+      "if": { "required": ["skill", "status"], "properties": { "skill": { "const": "speaking" }, "status": { "const": "scored" } } },
+      "then": { "properties": { "criteria": { "minItems": 3, "maxItems": 3 } } }
+    }
+  ],
+  "examples": [
+    {
+      "status": "scored",
+      "skill": "writing",
+      "estimated": true,
+      "overall_band": 5.5,
+      "criteria": [
+        {
+          "name": "task_response",
+          "band": 5.0,
+          "why": "The two rising lines are named but no percentages are taken from the chart, and nothing in the answer states the overall pattern.",
+          "quote": "the recycling of Marden was going up and up every year"
+        },
+        {
+          "name": "coherence_cohesion",
+          "band": 5.0,
+          "why": "The answer is one undivided block and sentence boundaries break down, so the reader has to work out where each comparison ends.",
+          "quote": "in 2010 it is more, after that Hallowfield was down. and Trentbury"
+        },
+        {
+          "name": "lexical_resource",
+          "band": 6.0,
+          "why": "Chart vocabulary is adequate but 'go up' and 'go down' carry almost every comparison in the answer.",
+          "quote": "Trentbury go up slowly and Hallowfield go down slowly"
+        },
+        {
+          "name": "grammatical_range_accuracy",
+          "band": 5.0,
+          "why": "Comparatives and past forms are attempted, but subject-verb agreement fails in most sentences and one clause has no main verb.",
+          "quote": "The three towns was different from each other"
+        }
+      ],
+      "lowest_criterion": "task_response",
+      "rewrites": [
+        {
+          "original": "Trentbury go up slowly and Hallowfield go down slowly",
+          "better": "Trentbury rose steadily while Hallowfield declined at a similar pace.",
+          "what_changed": "Fixed subject-verb agreement and replaced the repeated 'go up / go down' with trend verbs."
+        }
+      ],
+      "next_step": "Add a short overview sentence that names the biggest rise and the biggest fall, each with a figure from the chart.",
+      "word_count": 132
+    },
+    {
+      "status": "insufficient",
+      "skill": "writing",
+      "estimated": true,
+      "overall_band": null,
+      "criteria": [],
+      "lowest_criterion": null,
+      "rewrites": [],
+      "next_step": "Write a full answer of at least 150 words that responds to the task before asking for an estimate.",
+      "insufficient_reason": "too_short",
+      "word_count": 22
+    }
+  ]
+}
