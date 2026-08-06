@@ -6773,3 +6773,33 @@ hiç kullanılmadı, kalan on soruda birer kez. Çeldirici türü çeşitliliği
   hala GT-T1 ve GT-T2 grubu eksik, script'i simdi calistirmak yalniz 36/69
   puanlamayla yanlis sonuc uretir.
 - Atlanan/sorun: yok — 5 ornekten hicbiri `transcription_suspect: true` degildi.
+
+## SONNET5-A3 (3. calistirma: tur 1 — GT-T1 grubu, 6 ornek x 3 tekrar)
+- Tarih: 2026-08-07
+- **Bu calistirmada islenen grup:** GT-T1 (General Training Writing Task 1 — mektup,
+  6 ornek: 1A-A/B, 1B-A/B/C/D). `kalibrasyon/olcum/tur1/` icinde AC-T1 + AC-T2
+  vardi (1. ve 2. calistirmanin isi); dosya sirasina gore sonraki grup (GT-T1)
+  yapildi. Kalan grup: GT-T2 (5 ornek) — 4. (son) calistirmanin isi.
+  18 puanlama dosyasi yazildi: `kalibrasyon/olcum/tur1/GT-T1-*-{1,2,3}.json`.
+- Ayni korluk yontemi kullanildi: ana oturum ornegi okuyup band/examiner_comment
+  alanlarini atti, sadece task_prompt + response_text + word_count'u her ornek icin
+  ayri, taze bir alt-ajana (subagent, model: sonnet, `degerlendirme/
+  yazma-task1-general.md` talimatini kendisi okuyup uyguladi) verdi; alt-ajan
+  kendi icinde 3 tekrari da bagimsiz uretti.
+  🔴 **Bir kontaminasyon oldu ve duzeltildi:** ana oturum, cikti semasini anlamak
+  icin ornek dosyalardan birini (GT-T1-1A-A) tam okurken band (5,5) ve
+  examiner_comment alanlarini da farkinda olmadan gordu. Bu ornegin gercek puanina
+  ana oturum artik kor degildi, ama puanlamayi ana oturum degil taze bir alt-ajan
+  yapti (band'i hic gormeden) — yani olculen tahmin bu kontaminasyondan etkilenmedi.
+  Diger 5 ornek icin band/examiner_comment hic okunmadi.
+- Bu grubun tek seferlik (1. tekrar) tahminleri: 1A-A=5,5 · 1A-B=6,0 · 1B-A=4,5 ·
+  1B-B=5,0 · 1B-C=5,5 · 1B-D=5,5. Tekrarlar arasi yayilim: 1A-A 1,0 (5,5/6,0/5,0 —
+  esikteki tek ornek), 1A-B 0,5 (6,0/6,0/5,5), 1B-A 0,5 (4,5/4,0/4,5), 1B-B 0,5
+  (5,0/4,5/5,0), 1B-C 0 (5,5/5,5/5,5), 1B-D 0,5 (5,5/5,5/6,0).
+- **Rapor script'i bu calistirmada da calistirilmadi** — ayni gerekce: tur 1 icin
+  hala GT-T2 grubu eksik (18/69 puanlama var, tam olmayan veriyle script
+  calistirilirsa RAPOR-tur1.md yanlis/eksik sonuc gosterir). Script bir kez elle
+  denendi (dogrulama amacli, dosya sonradan silindi) — 18 ornek uzerinden ortalama
+  mutlak fark 0,944, egilim -0,667 (cimri) cikti; bu SADECE bu calistirmanin notu,
+  turun nihai sonucu degil, GT-T2 bitince degisebilir.
+- Atlanan/sorun: yok — 6 ornekten hicbiri `transcription_suspect: true` degildi.
