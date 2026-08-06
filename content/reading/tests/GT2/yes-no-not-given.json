@@ -21,7 +21,8 @@
       "not_given_justification": "(1) Konu pasajda geçiyor: A/1 hükümetlerin ve yardım kuruluşlarının vatandaşları gönüllülüğe düzenli olarak teşvik ettiğini söylüyor. (2) Pasajda ifadeyi çürüten hiçbir cümle yok: yazar hiçbir yerde mevcut teşvikin yeterli ya da gereksiz olduğunu savunmuyor, dolayısıyla NO denemez. (3) Pasajda ifadeyi doğrulayan hiçbir cümle yok — dolaylı olarak bile: yazar gönüllülüğün gönüllüye faydası konusunda temkinli (I paragrafında nedenselliğin kanıtlanmadığını vurguluyor) ve herhangi bir politika önerisinde bulunmuyor; teşvikin artırılması gerektiği görüşü pasajın hiçbir yerinde yok.",
       "scan_note": "Hükümet teşviki A/1'de geçiyor. I/3'teki çağrı bir deney tasarımına yönelik, hükümet politikasına değil; başka paragrafta hükümetler anılmıyor.",
       "explanation": "Pasaj hükümetlerin gönüllülüğü teşvik ettiğini aktarıyor ama yazar bu teşvikin artırılması gerekip gerekmediği konusunda hiçbir görüş belirtmiyor.",
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "status": "verified"
     },
     {
       "number": 34,
@@ -33,7 +34,8 @@
       "not_given_justification": null,
       "scan_note": "Öz-bildirimli sağlık ölçüsü B/2'de tanımlanıyor (beş basamaklı ölçek); güvenilirliğine ilişkin yazar yargısı C/3'te. C/1–2 gönüllülerle gönüllü olmayanlar arasındaki farkı anlatıyor; hiçbir paragraf ölçünün güvenilmez olduğunu ileri sürmüyor.",
       "explanation": "Yazar, öznel görünse de öz-bildirimli sağlığın gelecekteki hastalık ve ölümü güvenilir biçimde öngördüğünün önceki araştırmalarda defalarca gösterildiğini söylüyor.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     },
     {
       "number": 35,
@@ -45,7 +47,8 @@
       "not_given_justification": null,
       "scan_note": "Mali açıklama E paragrafında ortaya konuyor: E/1 yazarın bu açıklamayı akla yatkın bulduğu cümle, E/2 verinin zincirin ilk yarısını desteklediğini söylüyor. F payın küçük çıktığını gösteriyor ama bu, açıklamanın akla yatkınlığını geri almıyor; yazar hiçbir yerde bu fikri reddetmiyor.",
       "explanation": "Yazar, gönüllülüğün maddi olarak kazandırabileceği fikrini 'akla yatkın bir açıklama' olarak sunuyor; veri de gönüllülerin biraz daha yüksek gelir bildirdiğini doğruluyor.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     },
     {
       "number": 36,
@@ -57,7 +60,8 @@
       "not_given_justification": null,
       "scan_note": "Gelir mekanizmasının payı E (bağın kurulması), F (beşte birin epey altında kalması, kalan beşte dördün başka mekanizmada olması) ve G/3'te (her analizde payın mütevazı kalması) işleniyor. E/2 gelir-sağlık bağını doğruluyor ama payın çoğunluk olmadığını F söylüyor; G/3 aynı bulguyu yineliyor.",
       "explanation": "Yazara göre gelir farkları toplam ilişkinin ancak küçük bir kısmını açıklıyor; açık farkla daha büyük olan beşte dörtlük kısım başka bir mekanizmadan geçiyor.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     }
   ]
 }

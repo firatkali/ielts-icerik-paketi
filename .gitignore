@@ -1,7 +1,10 @@
 referans/*.pdf
 referans/text/
 referans/*.txt
-dogrulama/
+# Sadece kokteki calisma klasoru (kor kopyalar + kor cevaplar). Basina '/'
+# konmazsa desen content/DOGRULAMA/ klasorunu de yutuyor (Windows'ta eslesme
+# buyuk/kucuk harf duyarsiz) ve dogrulama raporlari depoya hic girmiyor.
+/dogrulama/
 __pycache__/
 *.pyc
 .DS_Store

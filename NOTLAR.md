@@ -6257,3 +6257,47 @@ hiç kullanılmadı, kalan on soruda birer kez. Çeldirici türü çeşitliliği
   çalıştırmalarda resmi örneklerden çıkarılmıştı; referanstan tek cümle kopyalanmadı).
 - Atlanan/sorun: yok. **FABLE5-43 tamam: 9 çalıştırmanın 9'u da bitti (66 + 30 = 96
   soru). Dinleme üretimi (senaryolar + sorular) 360/360 tamamlandı.**
+
+
+## CAPRAZ-90 (1. çalıştırma: doğru/yanlış/verilmemiş + evet/hayır/verilmemiş, 80 soru)
+
+- **Doğrulanan paket:** okuma — `true-false-not-given` (7 dosya) + `yes-no-not-given`
+  (3 dosya); toplam 80 soru. **Doğrulayan model: opus, üreteni: fable.**
+- **Sonuç: 80/80 uyuştu (%100,0), işaretlenen 0.** Rapor:
+  `content/DOGRULAMA/dogru-yanlis-verilmemis.json` ve `content/DOGRULAMA/RAPOR.md`.
+- **Yöntem:** `tools/kor-kopya.py` ile cevapsız kopyalar üretildi, orijinal soru
+  dosyaları hiç açılmadan 80 soru 14 metinden (A01, A02, A04–A12, G01, G02, G05, G06)
+  gerçek aday gibi çözüldü, karşılaştırmayı `tools/karsilastir.py` yaptı. Cevap
+  anahtarı ancak 4. adımda görüldü.
+- **İşaretleme:** uyuşmayan soru çıkmadığı için 80 sorunun hepsine `"status":
+  "verified"` eklendi; `"flagged"` yok, silinen soru yok.
+- **Yeni betik:** `tools/_capraz_isaretle.py` — kör cevaplarla anahtarı karşılaştırıp
+  orijinal dosyalara `status`/`flag_reason` ekler. Dosyayı yeniden serileştirmek
+  yerine `"difficulty"` satırının ardına metin düzeyinde ekleme yapar; böylece elle
+  kurulmuş biçimlendirme (kısa dizilerin tek satırda kalması) bozulmuyor — ilk
+  denemede `json.dump` ile yazınca 692 satırlık gereksiz fark çıkmıştı, metin
+  düzeyinde ekleme bunu 160 satıra indirdi. Ekleme öncesi `difficulty` satır sayısı
+  soru sayısıyla karşılaştırılıyor, tutmazsa dosyaya dokunulmuyor; yazmadan önce
+  `json.loads` ile doğrulanıyor.
+- **Tuzak (sonraki oturumlar için):** `tools/kor-kopya.py` her koşuda
+  `dogrulama/kor/` klasörünü siliyor ama `dogrulama/cevap/` klasörünü **temizlemiyor**.
+  Önceki oturumdan kalan `content__reading__practice__matching-sentence-endings.json`
+  ilk karşılaştırmaya 10 fazladan soru olarak karıştı (90 soru göründü). Dosya `.eski`
+  uzantısıyla kenara alınıp karşılaştırma tekrarlandı. **Oturum başında
+  `dogrulama/cevap/` boş olmalı.**
+- **Örüntü:** sistematik hata yok. 22 NOT GIVEN cevabının hepsinde metnin konuştuğu
+  alanın hemen yanındaki ama hiç değinmediği ayrıntı sorulmuş (üretim promptundaki üç
+  şartlı test uygulanmış); FALSE/NO soruları tek ve net bir çelişki cümlesine dayanıyor.
+  Ayrım kaymasına en yakın iki soru AC3/13 ("includes" ≠ "only") ve GT2/9 ("this year's"
+  ≠ "every year") — ikisinde de kör çözüm anahtarla uyuştu, ama ikinci doğrulamada
+  tekrar bakılmaya en uygun adaylar bunlar.
+- **Doğrulama:** `python tools/kontrol.py` → 11 kontrolün 11'i geçti.
+- Atlanan/sorun: yok. CAPRAZ-90'ın kalan 6 çalıştırması bekliyor (2–4 opus, 5–7 fable).
+- **`.gitignore` düzeltmesi:** `dogrulama/` deseni köke sabitlenmemişti; git'in
+  yol deseni her seviyedeki aynı adlı klasörü tutuyor ve Windows'ta eşleşme
+  büyük/küçük harf duyarsız olduğu için desen **`content/DOGRULAMA/` klasörünü de
+  yutuyordu**. Sonuç: doğrulama raporları (bu oturumunki ve önceki FABLE5-42
+  oturumlarından kalan 4 rapor) depoya hiç girmemişti — `git ls-files
+  content/DOGRULAMA/` boş dönüyordu. Desen `/dogrulama/` yapıldı: kökteki çalışma
+  klasörü (kör kopyalar + kör cevaplar) hâlâ yok sayılıyor, `content/DOGRULAMA/`
+  artık takip ediliyor. Bu commit'le birlikte 4 eski f42 raporu da depoya girdi.

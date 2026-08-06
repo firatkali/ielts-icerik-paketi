@@ -1,0 +1,76 @@
+{
+  "tarih": "2026-08-06",
+  "rapor": "dogru-yanlis-verilmemis",
+  "sonuclar": [
+    {
+      "file": "content/reading/practice/true-false-not-given.json",
+      "toplam": 15,
+      "uyusan": 15,
+      "uyusmayan": 0,
+      "detay": []
+    },
+    {
+      "file": "content/reading/practice/yes-no-not-given.json",
+      "toplam": 15,
+      "uyusan": 15,
+      "uyusmayan": 0,
+      "detay": []
+    },
+    {
+      "file": "content/reading/tests/AC1/true-false-not-given.json",
+      "toplam": 7,
+      "uyusan": 7,
+      "uyusmayan": 0,
+      "detay": []
+    },
+    {
+      "file": "content/reading/tests/AC2/true-false-not-given.json",
+      "toplam": 7,
+      "uyusan": 7,
+      "uyusmayan": 0,
+      "detay": []
+    },
+    {
+      "file": "content/reading/tests/AC3/true-false-not-given.json",
+      "toplam": 7,
+      "uyusan": 7,
+      "uyusmayan": 0,
+      "detay": []
+    },
+    {
+      "file": "content/reading/tests/AC4/true-false-not-given.json",
+      "toplam": 7,
+      "uyusan": 7,
+      "uyusmayan": 0,
+      "detay": []
+    },
+    {
+      "file": "content/reading/tests/GT1/true-false-not-given.json",
+      "toplam": 7,
+      "uyusan": 7,
+      "uyusmayan": 0,
+      "detay": []
+    },
+    {
+      "file": "content/reading/tests/GT1/yes-no-not-given.json",
+      "toplam": 4,
+      "uyusan": 4,
+      "uyusmayan": 0,
+      "detay": []
+    },
+    {
+      "file": "content/reading/tests/GT2/true-false-not-given.json",
+      "toplam": 7,
+      "uyusan": 7,
+      "uyusmayan": 0,
+      "detay": []
+    },
+    {
+      "file": "content/reading/tests/GT2/yes-no-not-given.json",
+      "toplam": 4,
+      "uyusan": 4,
+      "uyusmayan": 0,
+      "detay": []
+    }
+  ]
+}

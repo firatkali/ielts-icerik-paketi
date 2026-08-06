@@ -21,7 +21,8 @@
       "not_given_justification": null,
       "scan_note": "Gecikme ücreti yalnızca A metninin 4. cümlesinde geçiyor (günde 20 peni, eser başına en çok 5 sterlin). C'deki ücretler (varsayılan 6,50 sterlin, 3 sterlinlik kart yenileme) ulaşımla ilgili, kütüphane gecikmesiyle değil; E'deki %70 devam koşulu para cezası içermiyor. İfadeyi çürüten cümle hiçbir metinde yok.",
       "explanation": "A metni gecikmiş eserlerin günde 20 peni ücretlendirildiğini ama bunun eser başına en çok 5 sterline kadar çıkabildiğini söylüyor — yani ücretin bir tavanı var.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     },
     {
       "number": 9,
@@ -33,7 +34,8 @@
       "not_given_justification": null,
       "scan_note": "Kütüphanenin çalışma saatleri yalnızca A metninin 5. cümlesinde veriliyor. E'nin 5. cümlesindeki 9.00–17.00 aralığı dil merkezinin telefon hattına ait, kütüphaneyle ilgisiz; başka hiçbir metin kütüphane saatlerinden söz etmiyor.",
       "explanation": "A metnine göre kütüphane hafta içi 9.00–19.00, cumartesi ise 10.00–16.00 arası açık; cumartesi saatleri hafta içiyle aynı değil.",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "status": "verified"
     },
     {
       "number": 10,
@@ -45,7 +47,8 @@
       "not_given_justification": null,
       "scan_note": "Yüzme dersleri yalnızca B metninin 2. cümlesinde geçiyor (salı ve perşembe günleri). B'nin diğer cümleleri dönem tarihlerini, yogayı ve badmintonu anlatıyor; başka metinde spor dersi programı yok.",
       "explanation": "B metni başlangıç yüzme dersinin salı ve perşembe günleri yapıldığını söylüyor — yani haftada iki kez.",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "status": "verified"
     },
     {
       "number": 11,
@@ -57,7 +60,8 @@
       "not_given_justification": "(1) Konu pasajda geçiyor: B metninin 3. cümlesi yoga derslerini (gün, saat, on sekiz kişilik kontenjan, iki gün önceden yer ayırtma) anlatıyor, 2. cümle de yüzmenin ücretini (seans başı 4,50 sterlin) veriyor. (2) Hiçbir cümle ifadeyi çürütmüyor: yoganın ücreti hiçbir yerde verilmediği için karşılaştırmayı yanlışlayan bir bilgi yok, dolayısıyla FALSE denemez. (3) Hiçbir cümle ifadeyi doğrulamıyor — dolaylı olarak bile: kontenjan sınırı ya da önceden yer ayırtma zorunluluğu fiyat hakkında hiçbir şey söylemez.",
       "scan_note": "Yoga yalnızca B metninin 3. cümlesinde geçiyor. Ücret bilgisi B/2'de (yüzme), C'de (ulaşım) ve E/3'te (kurs materyali) var; hiçbirinde yoga ücreti verilmiyor.",
       "explanation": "Pasaj yoga dersinin gününü, kontenjanını ve yer ayırtma kuralını veriyor ama ücretinden hiç söz etmiyor; yüzmeyle fiyat karşılaştırması yapılamaz.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     },
     {
       "number": 12,
@@ -69,7 +73,8 @@
       "not_given_justification": null,
       "scan_note": "Mobil uygulama yalnızca C metninin 1. cümlesinde geçiyor. C'nin diğer cümlelerindeki ücretler (bilet, varsayılan ücret, kart yenileme) uygulamayla ilgili değil; başka metinde uygulama anılmıyor.",
       "explanation": "C metni karta kredi yüklemenin istasyon makineleriyle ya da ücretsiz mobil uygulamayla yapılabildiğini söylüyor — uygulama için ödeme gerektiği iddiası bununla çelişiyor.",
-      "difficulty": "medium"
+      "difficulty": "medium",
+      "status": "verified"
     },
     {
       "number": 13,
@@ -81,7 +86,8 @@
       "not_given_justification": null,
       "scan_note": "Gıda atığı yalnızca D metninin 3. cümlesinde geçiyor (salı ve cuma). D/1 genel çöpü (haftada bir, pazartesi), D/2 geri dönüşümü (iki haftada bir perşembe) anlatıyor; ikisi de gıda atığı sıklığıyla çelişmiyor.",
       "explanation": "D metni gıda atığı kaplarının haftada iki kez, salı ve cuma günleri boşaltıldığını söylüyor.",
-      "difficulty": "easy"
+      "difficulty": "easy",
+      "status": "verified"
     },
     {
       "number": 14,
@@ -93,7 +99,8 @@
       "not_given_justification": "(1) Konu pasajda geçiyor: E metninin 1. cümlesi sınıfların yaşa göre değil beceri düzeyine göre gruplandığını söylüyor, yani düzey konusu açıkça ele alınıyor. (2) Hiçbir cümle ifadeyi çürütmüyor: düzey sayısını veren ya da üçten farklı bir sayı söyleyen ifade yok, dolayısıyla FALSE denemez. (3) Hiçbir cümle ifadeyi doğrulamıyor — dolaylı olarak bile: düzey belirleme sınavının varlığı sınıfların düzeylere ayrıldığını gösterir ama kaç düzey olduğunu ima etmez.",
       "scan_note": "Düzeye göre gruplama yalnızca E metninin 1. cümlesinde geçiyor; E'nin diğer cümleleri dönem tarihleri, materyal ücreti, devam koşulu ve telefon saatleri. Başka hiçbir metinde dil kursu ya da düzey bilgisi yok.",
       "explanation": "Pasaj sınıfların beceri düzeyine göre gruplandığını söylüyor ama kaç düzey olduğunu hiç belirtmiyor.",
-      "difficulty": "hard"
+      "difficulty": "hard",
+      "status": "verified"
     }
   ]
 }

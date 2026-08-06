@@ -1,0 +1,20 @@
+{
+  "tarih": "2026-08-05",
+  "rapor": "f42-ac3-eslestirme",
+  "sonuclar": [
+    {
+      "file": "content/reading/tests/AC3/matching-features.json",
+      "toplam": 4,
+      "uyusan": 4,
+      "uyusmayan": 0,
+      "detay": []
+    },
+    {
+      "file": "content/reading/tests/AC3/matching-headings.json",
+      "toplam": 5,
+      "uyusan": 5,
+      "uyusmayan": 0,
+      "detay": []
+    }
+  ]
+}
