@@ -7317,3 +7317,39 @@ hiç kullanılmadı, kalan on soruda birer kez. Çeldirici türü çeşitliliği
 - Not (E5'e devir): belirsiz sayilan 10 soru icin net bir dilbilgisel/anlamsal kalip
   yok (cogu tek sozcuk boslugu ya da tek bir sayisal ayrinti); bu 10 soru icin elden
   gecirme yerine muhtemelen yeniden uretim daha uygun olur.
+
+## SONNET5-E2-kucuk-puruzler (1. calistirma)
+- Tarih: 2026-08-08
+- Denetim raporunun A4/A5/A6 bulgulari kapatildi. `python tools/dogrula.py` once ve
+  sonra calistirildi: TOPLAM 1310, isaretli (flagged) 180, tum tam testler (AC1-4,
+  GT1-2, L1-6) 40/40, sema hatasi 0 - bu adim soru eklemedi/cikarmadi, sayilar ayni.
+- **Madde 1 (A4):** `content/reading/tests/AC2/flow-chart-completion.json` soru 1,
+  `accepted_variants`'a `"40 minutes"` eklendi (yonerge rakamla yazima da izin
+  veriyordu). `answer`/`evidence`/`explanation` degismedi.
+- **Madde 2 (A5):** Iki askida kalan soru okundu, ikisi de "verified" olarak
+  kapatildi (flagged degil):
+  - `GT1/matching-information.json` #3: `lexical_overlap_answer: 1.0` olcumu
+    yaniltici cikti - matching_information tipinde cevap tek harf oldugu icin
+    olcu.py harfi ("c") kaynak metindeki alakasiz bir "c" harfiyle eslestiriyor
+    (D metnindeki "Block C" ifadesinden geliyor, doguru cevabin C metniyle hicbir
+    ilgisi yok). Sorunun kendisi ("extra amount"->"default charge", "miss a
+    required step"->"failure to touch out") gercek parafraz gerektiriyor,
+    `lexical_overlap_prompt: 0.0` zaten bunu dogruluyor.
+  - `practice/matching-headings.json` #9 (paragraf E, pasaj A09): ayni sekilde
+    yaniltici - cevap "x" (roma rakami), D paragrafindaki "X-ray spectroscopy"
+    ifadesindeki "X" ile rastgele eslesiyor, E paragrafiyla ilgisi yok. Baslik
+    secimi ("Fine structures that survived intact") paragrafin ayrintili olcum
+    listesini (akson capi, hucre govdesi, miyelin, mikrotubuller) anlamayi
+    gerektiriyor.
+  - Karar gerekcesi her iki dosyada da ilgili `explanation` alanina ek cumle
+    olarak yazildi; `status: "review"` -> `"verified"` degisti, `difficulty_flags`
+    olcum kaydi olarak dosyada birakildi.
+- **Madde 3 (A6):** `"NOT GIVEN"` cevapli ve `evidence` alani bos 22 soru grep +
+  Python taramasiyla dogrulandi (beklenen sayi tutuyor, 10 dosyaya dagilmis).
+  **Hepsinde `not_given_justification` alani zaten E5 oncesi bir calistirmada
+  doldurulmus bulundu** (uc parcali Turkce gerekce: konu pasajda var / curten
+  cumle yok / dogrulayan cumle yok) - icerik tarafinda ek is gerekmedi. `evidence`
+  bilincli olarak bos birakildi (dogrula.py NOT GIVEN'i zaten muaf tutuyor).
+  Eksik olan tek sey kural yazisiydi: `content/PLAN-soru-dagilimi.md` elle
+  degistirilmez oldugu icin yeni `content/PLAN-EK-kurallar.md` dosyasi acilip
+  Kalite kurali 2'nin NOT GIVEN istisnasi oraya yazildi.

@@ -291,9 +291,9 @@
           "heading_check": "E paragrafı baştan sona ölçülen yapıları sıralıyor: sinir liflerinin çapı, hücre gövdelerinin boyu, kılıfların çok katmanlı düzeni, hücre içi iskeletin görülebilmesi — hepsi yaşayan dokudakine yakın. 'x' bu ana fikri, yani ince yapıların bozulmadan kalışını veriyor. En yakın çeldirici 'iv' (maddenin sonradan eklenmiş olamayacağı) — böylesine düzenli yapılar dolaylı olarak bunu da destekliyor, ama paragraf bir itirazı çürütmüyor, ölçüm sonuçlarını veriyor.",
           "feature_check": null,
           "grammar_check": null,
-          "explanation": "Paragraf E, cama dönüşmüş dokuda sinir hücrelerinin ince yapılarının ölçülebilecek kadar iyi korunduğunu gösteren sayıları veriyor.",
+          "explanation": "Paragraf E, cama dönüşmüş dokuda sinir hücrelerinin ince yapılarının ölçülebilecek kadar iyi korunduğunu gösteren sayıları veriyor. Not: ölçüm aracının 'lexical_overlap_answer: 1.0' bulgusu yanıltıcı — cevap 'x' (roma rakamı) harfi, D paragrafındaki 'X-ray spectroscopy' ifadesindeki 'X' ile rastgele eşleşiyor; bu paragrafla (E) hiç ilgisi yok. Başlığın kendisi ('Fine structures that survived intact') paragrafın ayrıntılı ölçüm listesini (akson çapı, hücre gövdesi boyu, miyelin katmanları, mikrotübüller) anlamayı gerektiriyor, parçaya bakmadan seçilemiyor.",
           "difficulty": "medium",
-          "status": "review",
+          "status": "verified",
           "blind_solvable": false,
           "difficulty_flags": {
             "lexical_overlap_answer": 1.0,

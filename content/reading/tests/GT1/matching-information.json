@@ -73,9 +73,9 @@
         "sentence": 4
       },
       "uniqueness_check": "Yolculuğun sonunda yapılması gereken işlemi atlayanlardan alınan ek ücret yalnız C'de var. A'daki gecikme ücreti geç getirilen eşya için işliyor ve günlük hesaplanıyor, yolculukla ilgisi yok; D'de büyük eşya için ayrı toplama parası değil, yalnızca beş iş günü önceden randevu isteniyor.",
-      "explanation": "C metni, kartın hem girişte hem çıkışta okutulması gerektiğini, çıkışta okutulmazsa 6,50 sterlinlik varsayılan bir ücret alındığını söylüyor.",
+      "explanation": "C metni, kartın hem girişte hem çıkışta okutulması gerektiğini, çıkışta okutulmazsa 6,50 sterlinlik varsayılan bir ücret alındığını söylüyor. Not: ölçüm aracının 'lexical_overlap_answer: 1.0' bulgusu yanıltıcı — bu tip sorularda cevap tek bir harf ('C') olduğu için araç harfi metindeki rastgele bir 'c' harfiyle (D metnindeki 'Block C' ifadesinden) eşleştiriyor, gerçek bir sözcük çakışması değil. Sorunun kendisi ('extra amount' → 'default charge', 'miss a required step' → 'failure to touch out') parçayı anlamayı gerektiriyor, parçaya bakmadan çözülemiyor.",
       "difficulty": "medium",
-      "status": "review",
+      "status": "verified",
       "blind_solvable": false,
       "difficulty_flags": {
         "lexical_overlap_answer": 1.0,
