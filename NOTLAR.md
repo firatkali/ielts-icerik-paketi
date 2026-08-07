@@ -6803,3 +6803,33 @@ hiç kullanılmadı, kalan on soruda birer kez. Çeldirici türü çeşitliliği
   mutlak fark 0,944, egilim -0,667 (cimri) cikti; bu SADECE bu calistirmanin notu,
   turun nihai sonucu degil, GT-T2 bitince degisebilir.
 - Atlanan/sorun: yok — 6 ornekten hicbiri `transcription_suspect: true` degildi.
+
+## OPUS5-A4 (1. duzeltme — tur 1 raporu + talimat duzeltmesi)
+- Tarih: 2026-08-07
+- SAKLI KUME: **S3**. Bu oturum S3 orneklerinin cevabina, gercek bandina ve sapma
+  satirina bakmadi; `RAPOR-tur1.md` S3 satirlari maskelenerek okundu.
+- `tools/puanlama-raporu.py 1` ilk kez calistirildi, `kalibrasyon/olcum/RAPOR-tur1.md`
+  uretildi. 🔴 **Tur 1 eksik kaldi:** 23 ornekten 21'i puanlandi (63/69 puanlama).
+  Eksik olan `GT-T2-2B-B` ve `GT-T2-2B-C`; ikisi de gorunur kumelerde (S1/S2), yani
+  sakli kume karsilastirmasi bu eksikten etkilenmiyor. Bu iki ornegi bu oturum
+  puanlayamaz — olcum Sonnet ile yapilir (A3'un basindaki kural), bu oturum Opus.
+  2. olcum turunda kapanmali.
+- Tur 1 sonucu (tek seferlik puan, 21 ornek): ortalama mutlak fark 0,952 · egilim
+  -0,667 (cimri) · en buyuk sapma 2,00 · yayilim 0,33. Dort basari olcutunden
+  yalniz tutarlilik gecti.
+- Bulunan oruntu tek yonlu cimrilik degil, **olcegin ortaya buzulmesi**: gercek
+  bandlar 3,0-8,5 arasina yayilirken verilen puanlarin hepsi 4,0-6,5 arasinda kaldi
+  — ust bandlar sikisiyor, alt bandlar sisiyor. Ana mekanizma: "max N" tavanlarinin
+  puan olarak yazilmasi (guclu cevapta tavan, zayif cevapta taban gibi calisiyor).
+  Ikinci mekanizma: dilbilgisi olcutunun hata payi tablosu her bandda ~1 band sert.
+- Talimatta 10 degisiklik yapildi (5 dosya; ortak bloklar ayni commit'te senkron).
+  Hepsi band araligi x olcut kirilimina dayaniyor; ornege ozel kural yazilmadi,
+  gercek band veya ornek cevap talimata gomulmedi, olcut sayisi/agirligi degismedi,
+  telaffuz geri getirilmedi, cikti uzunlugu degismedi.
+  Ayrinti ve tur 2'de sinanacak beklentiler: `degerlendirme/DEGISIKLIK-KAYDI.md`.
+- Konusma tarafi hic olculmedi (`kalibrasyon/ornekler/` altinda konusma klasoru
+  yok); `konusma.md`'deki degisiklikler ortak blok senkron kuralindan geliyor ve
+  yazma verisinden genellenmis durumda. Son raporda kalan risk olarak yazilacak.
+- `kalibrasyon/olcum/_tmp_stripped/` (yarim kalan 4. calistirmadan kalma, band'i
+  ayiklanmis ornek kopyalari) silindi: turetilmis gecici dosya, telifli aday metni
+  iceriyor, depo public.

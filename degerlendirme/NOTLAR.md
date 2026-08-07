@@ -1,10 +1,12 @@
 # Değerlendirme talimatı — kaynak ve karar notları
 
-İlk sürüm. Bu klasördeki dosyalar (`yazma-task1-academic.md`, `yazma-task1-general.md`,
-`yazma-task2.md`, `konusma.md`, `ORTAK-KURALLAR.md`, `cikti-semasi.json`) uygulamanın kullanıcı
-cevabını puanlarken kullanacağı talimatın **ilk sürümüdür**. Ölçülmedi, düzeltilmedi:
-`prompts/SONNET5-A3-puanlama-olcumu.md` ve `prompts/OPUS5-A4-puanlama-duzeltmesi.md` bu talimatı
-23 resmî örnekle ölçüp düzeltecek.
+Bu klasördeki dosyalar (`yazma-task1-academic.md`, `yazma-task1-general.md`, `yazma-task2.md`,
+`konusma.md`, `ORTAK-KURALLAR.md`, `cikti-semasi.json`) uygulamanın kullanıcı cevabını puanlarken
+kullanacağı talimattır. Aşağıdaki notlar **ilk sürümün** kaynak ve karar notlarıdır.
+
+🔴 **Talimat artık ilk sürüm değil.** 1. ölçüm turundan (tur 1) sonra düzeltildi. Hangi örüntü
+yüzünden ne değiştiği, neyin bilerek değiştirilmediği ve bir sonraki turun sınayacağı beklentiler
+`DEGISIKLIK-KAYDI.md` dosyasında. Ölçüm sayıları `kalibrasyon/olcum/RAPOR-tur<N>.md`'de.
 
 ---
 
