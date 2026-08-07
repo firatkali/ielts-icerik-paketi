@@ -32,7 +32,10 @@
       "scan_note": "Gecikme ücreti yalnızca A metninin 4. cümlesinde geçiyor (günde 20 peni, eser başına en çok 5 sterlin). C'deki ücretler (varsayılan 6,50 sterlin, 3 sterlinlik kart yenileme) ulaşımla ilgili, kütüphane gecikmesiyle değil; E'deki %70 devam koşulu para cezası içermiyor. İfadeyi çürüten cümle hiçbir metinde yok.",
       "explanation": "A metni gecikmiş eserlerin günde 20 peni ücretlendirildiğini ama bunun eser başına en çok 5 sterline kadar çıkabildiğini söylüyor — yani ücretin bir tavanı var.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "general_knowledge",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     },
     {
       "number": 9,
@@ -50,7 +53,10 @@
       "scan_note": "Kütüphanenin çalışma saatleri yalnızca A metninin 5. cümlesinde veriliyor. E'nin 5. cümlesindeki 9.00–17.00 aralığı dil merkezinin telefon hattına ait, kütüphaneyle ilgisiz; başka hiçbir metin kütüphane saatlerinden söz etmiyor.",
       "explanation": "A metnine göre kütüphane hafta içi 9.00–19.00, cumartesi ise 10.00–16.00 arası açık; cumartesi saatleri hafta içiyle aynı değil.",
       "difficulty": "easy",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "general_knowledge",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     },
     {
       "number": 10,
@@ -68,7 +74,10 @@
       "scan_note": "Yüzme dersleri yalnızca B metninin 2. cümlesinde geçiyor (salı ve perşembe günleri). B'nin diğer cümleleri dönem tarihlerini, yogayı ve badmintonu anlatıyor; başka metinde spor dersi programı yok.",
       "explanation": "B metni başlangıç yüzme dersinin salı ve perşembe günleri yapıldığını söylüyor — yani haftada iki kez.",
       "difficulty": "easy",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "guess",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     },
     {
       "number": 11,
@@ -83,7 +92,8 @@
       "scan_note": "Yoga yalnızca B metninin 3. cümlesinde geçiyor. Ücret bilgisi B/2'de (yüzme), C'de (ulaşım) ve E/3'te (kurs materyali) var; hiçbirinde yoga ücreti verilmiyor.",
       "explanation": "Pasaj yoga dersinin gününü, kontenjanını ve yer ayırtma kuralını veriyor ama ücretinden hiç söz etmiyor; yüzmeyle fiyat karşılaştırması yapılamaz.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 12,
@@ -101,7 +111,10 @@
       "scan_note": "Mobil uygulama yalnızca C metninin 1. cümlesinde geçiyor. C'nin diğer cümlelerindeki ücretler (bilet, varsayılan ücret, kart yenileme) uygulamayla ilgili değil; başka metinde uygulama anılmıyor.",
       "explanation": "C metni karta kredi yüklemenin istasyon makineleriyle ya da ücretsiz mobil uygulamayla yapılabildiğini söylüyor — uygulama için ödeme gerektiği iddiası bununla çelişiyor.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "general_knowledge",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     },
     {
       "number": 13,
@@ -119,7 +132,8 @@
       "scan_note": "Gıda atığı yalnızca D metninin 3. cümlesinde geçiyor (salı ve cuma). D/1 genel çöpü (haftada bir, pazartesi), D/2 geri dönüşümü (iki haftada bir perşembe) anlatıyor; ikisi de gıda atığı sıklığıyla çelişmiyor.",
       "explanation": "D metni gıda atığı kaplarının haftada iki kez, salı ve cuma günleri boşaltıldığını söylüyor.",
       "difficulty": "easy",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 14,
@@ -134,7 +148,8 @@
       "scan_note": "Düzeye göre gruplama yalnızca E metninin 1. cümlesinde geçiyor; E'nin diğer cümleleri dönem tarihleri, materyal ücreti, devam koşulu ve telefon saatleri. Başka hiçbir metinde dil kursu ya da düzey bilgisi yok.",
       "explanation": "Pasaj sınıfların beceri düzeyine göre gruplandığını söylüyor ama kaç düzey olduğunu hiç belirtmiyor.",
       "difficulty": "hard",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     }
   ]
 }

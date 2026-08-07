@@ -32,7 +32,8 @@
       "scan_note": "Kask ve güvenlik ekipmanı yalnızca A metninin 3. cümlesinde geçiyor. B–E metinlerinde kask ya da koruyucu ekipman anılmıyor; D'deki bone kuralı yüzmeye ait, bisikletle ilgisiz.",
       "explanation": "A metni kaskların sağlanmadığını, güvenlik ekipmanının sürücünün kendi sorumluluğu olduğunu söylüyor — kask ödünç alınabildiği iddiası bununla çelişiyor.",
       "difficulty": "easy",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 9,
@@ -47,7 +48,10 @@
       "scan_note": "Festivalin yeri yalnızca B metninin 1. cümlesinde geçiyor; B'nin diğer cümleleri saatleri, biletleri ve kuralları anlatıyor. Başka hiçbir metin festivalden söz etmiyor.",
       "explanation": "Pasaj bu yılki festivalin Castle Park'ta yapıldığını söylüyor ama her yıl aynı yerde yapılıp yapılmadığından hiç söz etmiyor.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "option_wording",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     },
     {
       "number": 10,
@@ -65,7 +69,10 @@
       "scan_note": "Bilet fiyatları yalnızca B metninin 3. cümlesinde veriliyor (peşin 45, kapıda 55 sterlin). A'daki kiralama ücreti, C'deki kira, D'deki giriş ücreti ve E'deki kurs ücretleri festival biletiyle ilgisiz; çelişen cümle yok.",
       "explanation": "B metnine göre hafta sonu bileti önceden alındığında 45, kapıda 55 sterlin — önceden almak daha ucuz. Sayılar karşılaştırmayı doğrudan veriyor.",
       "difficulty": "easy",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "general_knowledge",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     },
     {
       "number": 11,
@@ -83,7 +90,10 @@
       "scan_note": "Uyarı ve yeniden tahsis konusu yalnızca C metninin 3. cümlesinde geçiyor (iki yazılı uyarıdan sonra). C/1 bekleme listesini, C/2 kirayı, C/4 yapı iznini anlatıyor; hiçbiri ifadeyle çelişmiyor.",
       "explanation": "C metni ekilmeyen parsellerin ancak iki yazılı uyarıdan sonra yeniden tahsis edilebildiğini söylüyor; yani parsel başkasına verilmeden önce sahibi yazılı olarak uyarılıyor.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "general_knowledge",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     },
     {
       "number": 12,
@@ -101,7 +111,8 @@
       "scan_note": "Havuz giriş ücretleri yalnızca D metninin 3. cümlesinde veriliyor (yetişkin 5,20; on altı yaş altı 3,10; üç yaş altı ücretsiz). D'nin diğer cümleleri seans saatlerini ve bone kuralını anlatıyor; başka metindeki ücretler havuzla ilgisiz.",
       "explanation": "D metnine göre yetişkin girişi 5,20 sterlin — yani 5 sterlinin altında değil.",
       "difficulty": "easy",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 13,
@@ -116,7 +127,10 @@
       "scan_note": "Çömlekçilik yalnızca E metninin 1. cümlesinde geçiyor. E/4'teki kayıt eşiği derslerin doluluğuna değinir ama hangi dersin çok tutulduğunu söylemez; başka metinde kurs yok.",
       "explanation": "Pasaj çömlekçiliği elli dersten biri olarak anıyor ama hangi dersin en çok rağbet gördüğünü hiç söylemiyor.",
       "difficulty": "hard",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "option_wording",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     },
     {
       "number": 14,
@@ -134,7 +148,10 @@
       "scan_note": "İndirim yalnızca E metninin 3. cümlesinde geçiyor (%50, iş arayanlar ve geçerli kimlikli öğrenciler). E'nin diğer cümleleri ders sayısı, kayıt yolu ve iptal eşiği; başka metinde öğrenci indirimi anılmıyor.",
       "explanation": "E metni geçerli kimliği olan öğrencilere %50 indirim uygulandığını söylüyor — yani standart ücretin yarısını öderler.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "guess",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     }
   ]
 }

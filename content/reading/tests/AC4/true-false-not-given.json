@@ -32,7 +32,10 @@
       "scan_note": "Tartışmanın niteliği ve çalışmanın nedeni A paragrafında geçiyor: 1. cümle anlaşmazlığı, 2. cümle iki tarafın savlarını, 4. cümle tartışmanın kontrollü karşılaştırmadan yoksun olduğunu ve bunun araştırmacıları harekete geçirdiğini söylüyor. B paragrafı da deneyin tasarımını anlatarak aynı yönde; hiçbir paragrafta bu gerekçeyle çelişen cümle yok.",
       "explanation": "Paragraf A, tartışmanın büyük ölçüde kişisel izlenime dayandığını, kontrollü karşılaştırmaya dayanmadığını ve araştırmacıları soruyu doğrudan sınamaya iten şeyin bu olduğunu söylüyor.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "general_knowledge",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     },
     {
       "number": 8,
@@ -50,7 +53,8 @@
       "scan_note": "Katılımcı sayıları yalnızca B paragrafının 1. cümlesinde veriliyor (288 çalışan, 22 takım); takımlar B/2'de dönüşüm düzeni, F/3'te masa doluluğu ve G/2'de kod çıktısı bağlamında yeniden anılıyor, ama hiçbirinde farklı bir takım sayısı verilmiyor.",
       "explanation": "Paragraf B, deneye farklı bölümlerden 22 takımın katıldığını söylüyor; yirmiden az olduğunu iddia eden ifade bu sayıyla çelişiyor.",
       "difficulty": "easy",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 9,
@@ -65,7 +69,8 @@
       "scan_note": "Düzenler arası geçiş ve sıra B paragrafında (2. cümle: Latin kare, farklı sıra, iki haftalık dönemler), F paragrafında (3. cümle: açık ofisten sonraki düzende masa doluluğu) ve H paragrafında (1. cümle: 'başka bir şeyi deneyimledikten sonra') geçiyor. Bu paragrafların hiçbirinde çalışanların sıradan önceden haberdar edilip edilmediğine dair bir cümle yok.",
       "explanation": "Pasaj takımların düzenler arasında hangi sırayla dönüştüğünü anlatıyor, ama çalışanlara bir sonraki düzenin önceden söylenip söylenmediğine hiç değinmiyor.",
       "difficulty": "hard",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 10,
@@ -83,7 +88,8 @@
       "scan_note": "Ölçüm yöntemleri C paragrafında toplanıyor: 1. cümle kanıt kaynaklarının birleştirildiğini, 2. cümle düzenli anketleri, 3. cümle sensörlerin kesintisiz kaydını, 4. cümle kod çıktısı sayımını ve gözlemcileri anlatıyor. Sensör verisine F paragrafının 1. ve 2. cümlelerinde geri dönülüyor; orada da ölçümün aralıklı olduğunu söyleyen bir cümle yok.",
       "explanation": "Paragraf C, çevre sensörlerinin aydınlatmayı ve karbondioksit yoğunluğunu diğer değerlerle birlikte kesintisiz kaydettiğini söylüyor.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 11,
@@ -101,7 +107,8 @@
       "scan_note": "Etkinlik temelli düzen B paragrafında (2. cümle, tanımı), D paragrafında (3. cümle, memnuniyet ve verimlilik sonucu), E paragrafında ('fully unassigned arrangement' olarak akış karşılaştırmasında) ve H paragrafında (açık ofisin bütün alternatiflerden düşük puan alması) geçiyor. Memnuniyet karşılaştırmasını yalnızca D/3 veriyor ve ifadenin tersini söylüyor.",
       "explanation": "Paragraf D, etkinlik temelli düzenin popülerliğine rağmen açık ofis ölçütünden yaklaşık yüzde 14 daha düşük memnuniyet puanı aldığını söylüyor — ifade bunun tersini iddia ediyor.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 12,
@@ -116,7 +123,8 @@
       "scan_note": "Sıcaklık C paragrafının 3. cümlesinde ölçülen değerler listesinde geçiyor; sensör bulguları F paragrafında (1. ve 2. cümleler, yalnızca gürültü) ve G paragrafında (2. cümle, fark bulunmayan ölçütler) ele alınıyor. Bu paragrafların hiçbirinde sıcaklığın düzenlere göre değişip değişmediğine dair bir cümle yok.",
       "explanation": "Pasaj sensörlerin sıcaklığı da kaydettiğini söylüyor, ama dört düzen arasında sıcaklık farkı çıkıp çıkmadığını hiç bildirmiyor; raporlanan tek sensör sonucu gürültü.",
       "difficulty": "hard",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 13,
@@ -134,7 +142,10 @@
       "scan_note": "Kod çıktısı C paragrafında (4. cümle, teknik çıktının ölçüsü olarak sayılması) ve G paragrafında (2. cümle, dört düzen arasında anlamlı fark bulunmaması; 3. cümle, bu sonucun yorumu) geçiyor; H paragrafındaki genel sonuç yalnızca memnuniyet, gürültü ve tercihten söz ediyor. Kod çıktısında fark bulunduğunu söyleyen hiçbir cümle yok.",
       "explanation": "Paragraf G, takımların ürettiği kod gönderimi sayısının dört düzen arasında istatistiksel olarak anlamlı bir fark göstermediğini söylüyor.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "logic",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     }
   ]
 }
