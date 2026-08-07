@@ -6833,3 +6833,42 @@ hiç kullanılmadı, kalan on soruda birer kez. Çeldirici türü çeşitliliği
 - `kalibrasyon/olcum/_tmp_stripped/` (yarim kalan 4. calistirmadan kalma, band'i
   ayiklanmis ornek kopyalari) silindi: turetilmis gecici dosya, telifli aday metni
   iceriyor, depo public.
+
+## SONNET5-A3 (1. calistirma: tur 2 — AC grubu, 12 ornek x 1 tekrar)
+- Tarih: 2026-08-07
+- **Bu tur 2:** her ornek 1 kez puanlanir (3 tekrar degil), talimat 1. duzeltmeden
+  sonraki surumle (`degerlendirme/*.md`, OPUS5-A4 sonrasi) calisiyor. Toplam 2
+  calistirma planlandi; bu calistirmada AC grubu (AC-T1: 7 ornek, AC-T2: 5 ornek =
+  12 ornek) islendi. `kalibrasyon/olcum/tur2/` depoda hic yoktu, yani ilk grup
+  (dosya sirasina gore AC) yapildi. Kalan grup: GT (GT-T1 6 + GT-T2 5 = 11 ornek) —
+  2. (son) calistirmanin isi. 12 puanlama dosyasi yazildi:
+  `kalibrasyon/olcum/tur2/AC-*-1.json`.
+- 🔴 **Korluk yontemi tur 1'deki gibi, ama daha sikica uygulandi.** Ana oturum bu
+  kez `kalibrasyon/ornekler/yazma/*.json` icindeki `band` alanlarini bir python
+  script'inin terminal ciktisinda (module/task/suspect kontrolu icin) yanlislikla
+  gordu — 23 ornegin tamami icin. Bunu telafi etmek icin: puanlamayi ana oturum
+  **yapmadi**; her ornek icin ayri, taze bir alt-ajana (subagent, model: sonnet)
+  yalniz task_prompt + response_text + word_count (band/examiner_comment/
+  transcription_notes/source cikarilmis) verildi, alt-ajan `degerlendirme/
+  yazma-task1-academic.md` veya `degerlendirme/yazma-task2.md` metnini talimatta
+  aynen aldi ve kendi basina puanladi; `kalibrasyon/ornekler/` klasorune erisimi
+  yoktu (dosya sistemine bakmadan, gomulu talimat + gomulu girdiyle calisti).
+  Ana oturumun gordugu bandlar sonucu **etkilemedi** cunku puanlayan taze ajan
+  hicbir zaman banda erismedi; ama bu, ayni hatanin tekrarlanmamasi icin not
+  edilmeli — ileriki calistirmalarda ornek dosyalarini modul/suspect kontrolu icin
+  okurken `band` alanini terminale bastirmaktan kacinilmali (`json.load` sonrasi
+  yalniz gereken alanlari yazdirmali).
+  Kalibrasyon girdi metinleri gecici olarak `kalibrasyon/olcum/_scratch_tur2/`
+  altina yazildi (repo sandbox disina cikilamadigi icin); bu klasor commit'ten
+  once silindi — telifli aday metni iceren turetilmis dosya, depo public.
+- AC-T1 orneklerinde `visual` alani saglanamadi (kaynak dosyalarda ayri sayisal
+  grafik verisi yok, yalniz `task_prompt` var); talimatin kendi kuraliyla
+  ("visual eksikse tahmin etme, yalniz doğrulanabileni degerlendir") tutarli
+  sekilde, alt-ajanlara `visual` alani acikca "saglanmadi" olarak verildi.
+- Bu grubun tek seferlik tahminleri: AC-T1-1A-A=5,0 · 1A-B=5,0 · 1B-A=5,0 ·
+  1B-B=5,5 · 1C-A=6,0 · 1C-B=5,5 · 1C-C=7,0 · AC-T2-2A-A=4,5 · 2A-B=5,5 ·
+  2A-C=6,5 · 2B-A=5,5 · 2B-B=6,5.
+- **Rapor script'i bu calistirmada calistirilmadi** — tur 2 icin hala GT grubu
+  (11 ornek) eksik; `python tools/puanlama-raporu.py 2` ancak GT grubu da bitince
+  (2. calistirma) anlamli sonuc verir.
+- Atlanan/sorun: yok — 12 ornekten hicbiri `transcription_suspect: true` degildi.
