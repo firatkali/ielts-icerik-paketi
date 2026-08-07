@@ -1,0 +1,22 @@
+{
+  "tarih": "2026-08-07",
+  "paket": "flow-chart-completion",
+  "toplam": 6,
+  "uc_turda_bilinen": [
+    "AC2-flow-chart-completion-2",
+    "AC2-flow-chart-completion-3",
+    "AC2-flow-chart-completion-5",
+    "AC2-flow-chart-completion-6"
+  ],
+  "tip_bazinda": {
+    "flow_chart_completion": {
+      "toplam": 6,
+      "uc_turda": 4
+    }
+  },
+  "dayanak_dagilimi": {
+    "general_knowledge": 12,
+    "logic": 3,
+    "guess": 3
+  }
+}

@@ -32,7 +32,10 @@
       },
       "explanation": "Paragraf D, etkinlik temelli düzenin çağdaş ofis modasındaki popülerliğine rağmen iki ölçüte de temel düzenin altında kaldığını söylüyor; boşluk bu yaygın beğeniyi karşıladığı için cevap 'popularity'.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "logic",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     },
     {
       "number": 2,
@@ -51,7 +54,10 @@
       },
       "explanation": "Paragraf E, akışı (flow) bir işe derinlemesine dalmış ve odaklanmış olma hâli diye tanımlıyor; boşluk bu tanımdaki 'dalmış' sözcüğünü istediği için cevap 'absorbed'.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "general_knowledge",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     },
     {
       "number": 3,
@@ -70,7 +76,8 @@
       },
       "explanation": "Paragraf F, açık ofiste gürültünün önerilen güvenli sınırları öteki düzenlere göre çok daha sık aştığını söylüyor; aşılan şey sorulduğu için cevap 'safe limits'.",
       "difficulty": "easy",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 4,
@@ -90,7 +97,8 @@
       },
       "explanation": "Paragraf G, kod çıktısındaki değişmezliği, araçlarına alışkın deneyimli yazılım mühendislerinin düzen değişikliğinden belirgin biçimde etkilenmemesine bağlıyor; bu yüzden cevap 'software engineers'.",
       "difficulty": "hard",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 5,
@@ -109,7 +117,10 @@
       },
       "explanation": "Paragraf A, kanıtların çoğunun ilkbahar ya da yazın yeşil, yapraklı ormanlarda yapılan çalışmalardan geldiğini söylüyor; 'green' zaten verildiği için boşluğa gelen 'leafy'.",
       "difficulty": "easy",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "guess",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     },
     {
       "number": 6,
@@ -129,7 +140,8 @@
       },
       "explanation": "Paragraf B, her katılımcının iki koşulu da farklı sırayla yaşadığı bu düzeni 'crossover' deneyi diye adlandırıyor ve amacını kişiyi kendisiyle karşılaştırmak olarak açıklıyor; bu yüzden cevap 'crossover'.",
       "difficulty": "hard",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 7,
@@ -148,7 +160,10 @@
       },
       "explanation": "Paragraf F, çalışmanın en belirgin etkisinin ormanda geçirilen süreden sonra keskin biçimde yükselen tazeleyicilik ölçeğinde görüldüğünü söylüyor; artışın biçimi sorulduğu için cevap 'sharply'.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "guess",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     },
     {
       "number": 8,
@@ -167,7 +182,8 @@
       },
       "explanation": "Paragraf G, sakin ve trafiksiz kampüs manzarasının bile kardaki yürüyüşe kıyasla hafifçe yorucu olduğunu söylüyor; bu yüzden cevap 'draining'.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 9,
@@ -187,7 +203,10 @@
       },
       "explanation": "Paragraf B, ekibin sekiz gün boyunca topladığı katı gıda atığını iki gram hassasiyetli dijital terazilerle tarttığını söylüyor; tartımın neyle yapıldığı sorulduğu için cevap 'digital scales'.",
       "difficulty": "easy",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "general_knowledge",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     },
     {
       "number": 10,
@@ -206,7 +225,10 @@
       },
       "explanation": "Paragraf B, dökülen içeceklerin ayrı izlendiğini ve katılımcıların yedi günlük bir günlük tuttuğunu söylüyor; bir haftalık kaydın adı sorulduğu için cevap 'diary'.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "logic",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     },
     {
       "number": 11,
@@ -226,7 +248,8 @@
       },
       "explanation": "Paragraf C, kalan 48 kilogramın kabuk, kemik ve yumurta kabuğu gibi yenmeyen parçalardan oluştuğunu söylüyor; listede verilmeyen üçüncü örnek istendiği için cevap 'eggshells'.",
       "difficulty": "easy",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 12,
@@ -245,7 +268,8 @@
       },
       "explanation": "Paragraf D, kentte kişi başına 79,4 kilogramlık atığın kırsaldaki 45,8 kilogramın neredeyse iki katı olduğunu söylüyor; bu yüzden cevap 'double'.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 13,
@@ -265,7 +289,10 @@
       },
       "explanation": "Paragraf B, sağlığın 'çok kötü'den 'çok iyi'ye uzanan beş noktalı bir ölçekle kendi beyanına göre kaydedildiğini söylüyor; ölçeğin türü sorulduğu için cevap 'five-point'.",
       "difficulty": "easy",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "guess",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     },
     {
       "number": 14,
@@ -284,7 +311,8 @@
       },
       "explanation": "Paragraf C, öz-bildirimli sağlığın öznel görünse de ileriki hastalıkları ve ölümlülüğü güvenilir biçimde öngördüğünün defalarca gösterildiğini söylüyor; 'illness' zaten verildiği için boşluğa gelen 'mortality'.",
       "difficulty": "hard",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 15,
@@ -303,7 +331,8 @@
       },
       "explanation": "Paragraf D, gönüllülerin yaşlı olma ya da başka bir ülkeden göç etmiş olma ihtimalinin biraz daha düşük olduğunu söylüyor; bu yüzden cevap 'elderly'.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     }
   ]
 }

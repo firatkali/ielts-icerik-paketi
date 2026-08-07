@@ -69,7 +69,10 @@
       },
       "explanation": "Paragraf F, gelir farklarının gönüllülük ile sağlık arasındaki bağın beşte birinden çok daha azını açıkladığını söylüyor; yani gelir yolu bağın yalnızca küçük bir kısmını taşıyor, doğru seçenek B ('a small part').",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "logic",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     },
     {
       "number": 38,
@@ -88,7 +91,10 @@
       },
       "explanation": "Paragraf G, analizin her türlü varyasyonunda aynı temel örüntünün korunduğunu söylüyor; sonuç değişmediği için doğru seçenek G ('stable').",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "logic",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     },
     {
       "number": 39,
@@ -107,7 +113,10 @@
       },
       "explanation": "Paragraf H, yazarların birkaç olası açıklama önerdiğini ama verilerinin bunların hiçbirini doğrudan doğrulayamadığını vurguladığını söylüyor; bu yüzden doğru seçenek I ('unproven suggestions').",
       "difficulty": "hard",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "logic",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     },
     {
       "number": 40,
@@ -126,7 +135,10 @@
       },
       "explanation": "Paragraf I, yazarların sonuçlarını gönüllülüğün sağlığı iyileştirdiğinin kanıtı değil bir ilişki olarak nitelendirdiğini söylüyor; bu yüzden doğru seçenek A ('a link rather than a cause').",
       "difficulty": "easy",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "logic",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     }
   ]
 }

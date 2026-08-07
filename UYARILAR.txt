@@ -127,3 +127,52 @@
 
 07.08.2026 09:41
   - isaretli (flagged)     122
+
+07.08.2026 09:50
+  - isaretli (flagged)     135
+
+07.08.2026 (B1 7. calistirma: summary-completion + flow-chart-completion)
+  - 49 soru, 30 isaretli (%61). Script tek satir basiyor (summary_completion
+    26/43) ama resmi tabanda bu tip IKIYE ayrilir; ayrildiginda:
+      kelime bankali ozet  14/14 (%100) - resmi taban 4/4, TAVANDA
+      parcadan kelime ozet 12/29 (%41)  - resmi taban 1/5 (%20), +21 puan
+      akis semasi           4/6 (%67)   - resmi tabanda yok
+    Ayrim yapilmazsa "kelime bankali ozetin TAMAMI parcasiz bilindi" kaybolur.
+  - %100 cikan uc set (AC2, AC4, GT2) tam olarak kelime bankali uc set.
+  - Kelime bankasi kusurlari: (1) boslugun kendi cumlesi eksik ifadeyi
+    TANIMLIYOR (AC4-36 "ayni gonulluler her ikisinden de gecti" =
+    within-subject tanimi; AC2-39 iki nokta ust uste tanimi veriyor).
+    (2) KOMSU SORU ele veriyor: GT2-39'un koku ("the greater share")
+    GT2-37'nin cevabini (a small part) soyluyor. (3) Zit ciftler ayni
+    bankada (between-subjects/within-subject, connected/unrelated).
+    (4) Kullanilmayan 5 secenek hicbir bosluga gramerce takilmiyor.
+  - ASIL BULGU: direnen 17 sorunun 15'i ANLAMCA parcasiz bilindi, yalniz
+    kelime tutmadi (decay/decomposition, fridge/refrigerator, peel/peelings,
+    conditions/thermal conditions, databases/reference databases). Gercek
+    iska yalniz 2 soru. Yani bu alt tipin savunmasi kavrayis degil YAZIM
+    BICIMI; anlam duzeyinde oran 27/29'a (%93) yakin.
+  - En etkili savunma: iki kelimelik parcaya ozgu niteleyici (safe limits,
+    warning system, thermal conditions). AC3 (%20) en saglam set, cunku bes
+    anahtarinin ucu bu kalipta.
+  - Akis semasi: tur kararliligi %100, basis %67 general_knowledge. Konu
+    yakin tarihli gercek haber (S/2025 U1, Uranus'un yeni uydusu) -> 1.
+    calistirmadaki "unlu vaka" kusuru. Direnen tek soru: hangi iki uydu
+    arasinda oldugu (Ophelia). Kalan bes soru alan bilgisiyle cikiyor.
+  - ANAHTAR KUSURU (duzeltilmedi): AC2 flow-chart soru 1 anahtari yalniz
+    "forty minutes" kabul ediyor, oysa yonerge "AND/OR A NUMBER" diyor;
+    "40 minutes" gercek sinavda gecerli. Uc turda da 40 minutes verildi ve
+    yanlis sayildi -> paketin gercek orani 5/6 (%83). Anahtari simdi
+    degistirmek bu turun olcumunu geriye donuk bozacagi icin dokunulmadi;
+    accepted_variants'a "40 minutes" AYRI bir is olarak eklenmeli.
+  - Zorluk etiketi ile parcasiz bilinme arasinda iliski YOK (easy %67,
+    medium %59, hard %56 - duz). 5. ve 6. calistirmadaki egim kayboldu.
+  - option_wording yine 0, ama bu kez YAPISAL degil: kelime bankali uc
+    dosyada yazilmis secenek metni var. Gercekte kusurun uc mekanizmasi
+    secenek yazimi; etiketleme olcumden once verildigi icin duzeltilmedi.
+  - ARAC: tools/metinsiz-kopya.py kelime bankasini kopyaya tasimiyordu
+    (yalniz option_list okuyordu, tamamlama tiplerinde alan adi word_bank).
+    2. calistirmadaki option_list kusurunun ayni ikinci hali. Duzeltildi.
+    Geriye donuk etki YOK: word_bank okuma tarafinda yalniz bu uc dosyada
+    var; 8. calistirmanin paketlerinde de yok.
+  - Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR.md bolum 7
+  - isaretli (flagged)     165

@@ -74,7 +74,10 @@
       },
       "explanation": "Paragraf C, katılış sırasına göre yapılan atamanın takım bileşimini rastgele hâle getirdiğini ve araştırmacıların bunu neredeyse kontrollü bir deney gibi ele alabildiğini söylüyor; bu yüzden doğru seçenek A ('a controlled experiment').",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "logic",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     },
     {
       "number": 37,
@@ -94,7 +97,10 @@
       },
       "explanation": "Paragraf D, sabit çalışma saatleri ve her sözleşmedeki sabit otuz saat sayesinde müşteri sayısının yapılan işin 'güvenilir' bir ölçüsü olduğunu söylüyor; bu yüzden doğru seçenek C. D seçeneği ('a rough guide') yanlış, çünkü metin bu ölçünün belirsizlikten kaçındığını vurguluyor.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "logic",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     },
     {
       "number": 38,
@@ -113,7 +119,10 @@
       },
       "explanation": "Paragraf E, verimliliği yüksek meslektaşlarla çalışmanın kişinin kendi çıktısında ölçülebilir hiçbir iyileşme sağlamadığını, en üst çeyrekteki takımlarda bile böyle olduğunu söylüyor; bu yüzden doğru seçenek I.",
       "difficulty": "easy",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "logic",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     },
     {
       "number": 39,
@@ -132,7 +141,10 @@
       },
       "explanation": "Paragraf F, belirleyici etkenin ham verimlilik değil takımın ortalama kıdemi olduğunu, kıdemi en yüksek takımlardaki çalışanların çıktısının yaklaşık yüzde 12,2 arttığını söylüyor; kıdem = hizmet süresi olduğu için doğru seçenek H.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "logic",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     },
     {
       "number": 40,
@@ -152,7 +164,10 @@
       },
       "explanation": "Paragraf G, sık mesajlaşmanın işini zaten bilen çalışanlara yardım etmek yerine onları oyalayabileceğini söylüyor; bu yüzden doğru seçenek B ('a distraction').",
       "difficulty": "hard",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "logic",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     }
   ]
 }

@@ -31,7 +31,8 @@
       },
       "explanation": "Paragraf B, on ayrı görüntünün her birinin kırk dakika sürdüğünü söylüyor; boşluk tek bir pozlamanın süresini istediği için cevap 'forty minutes'. Altı saat, on pozlamanın tamamının yayıldığı süredir.",
       "difficulty": "easy",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 2,
@@ -49,7 +50,10 @@
       },
       "explanation": "Paragraf C, yeni bulunan gök cismine S/2025 U1 'provisional designation'ının (geçici adlandırma kodunun) verildiğini söylüyor; bu yüzden cevap 'designation'.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "general_knowledge",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     },
     {
       "number": 3,
@@ -67,7 +71,10 @@
       },
       "explanation": "Paragraf C'de çap hesabının, cismin ışığı diğer küçük uydular gibi yansıttığı varsayımına dayandığı belirtiliyor; boşluk bu varsayımdaki fiili istediği için cevap 'reflects'.",
       "difficulty": "hard",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "logic",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     },
     {
       "number": 4,
@@ -85,7 +92,8 @@
       },
       "explanation": "Paragraf D, yörüngenin daha önce bilinen iki uydu olan Ophelia ile Bianca arasındaki boşlukta yer aldığını söylüyor; Bianca soruda verildiği için cevap 'Ophelia'.",
       "difficulty": "easy",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 5,
@@ -104,7 +112,10 @@
       },
       "explanation": "Paragraf E, yeni cismin küçük iç uydular grubunun on dördüncü üyesi olduğunu söylüyor; yirmi dokuz sayısı ise Uranüs'ün bilinen bütün uydularının toplamıdır, bu yüzden cevap 'fourteenth'.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "guess",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     },
     {
       "number": 6,
@@ -122,7 +133,10 @@
       },
       "explanation": "Paragraf E, uydunun kalıcı adının Uluslararası Astronomi Birliği'nin resmî onayını gerektirdiğini belirtiyor; bu yüzden cevap 'International Astronomical Union'.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "general_knowledge",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     }
   ]
 }

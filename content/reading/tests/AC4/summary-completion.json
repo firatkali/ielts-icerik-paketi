@@ -74,7 +74,10 @@
       },
       "explanation": "Paragraf B, ikinci deneyin aynı katılımcıların hem şekerlemeyi hem de uyanık geçen dönemi yaşadığı 'within-subject' tasarımı kullandığını söylüyor; bu yüzden doğru seçenek J.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "logic",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     },
     {
       "number": 37,
@@ -93,7 +96,10 @@
       },
       "explanation": "Paragraf C, uyanık grubun sabah dokuzda öğrenip akşam dokuzda sınandığını ve bu süre boyunca uyanık kaldığını söylüyor; bu yüzden doğru seçenek B.",
       "difficulty": "easy",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "logic",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     },
     {
       "number": 38,
@@ -112,7 +118,10 @@
       },
       "explanation": "Paragraf E, gece uykusunun şekerlemeye belirgin üstünlüğünün anlamca ilişkili kelime çiftlerinde ortaya çıktığını söylüyor; bu yüzden doğru seçenek D.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "general_knowledge",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     },
     {
       "number": 39,
@@ -131,7 +140,10 @@
       },
       "explanation": "Paragraf E, ilişkisiz çiftlerde gece uykusu ile şekerlemenin çok benzer (0,71'e karşı 0,68) yarar sağladığını söylüyor; bu yüzden doğru seçenek F.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "logic",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     },
     {
       "number": 40,
@@ -151,7 +163,10 @@
       },
       "explanation": "Paragraf F, ne şekerlemenin süresinin ne de içerdiği evrelerin bellek kazanımıyla anlamlı bir ilişki gösterdiğini, önemli olanın uyuma fırsatının bulunması olduğunu söylüyor; bu yüzden doğru seçenek A.",
       "difficulty": "hard",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "logic",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     }
   ]
 }

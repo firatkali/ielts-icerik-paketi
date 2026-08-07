@@ -47,14 +47,16 @@ def secenek_listeleri(d):
     tutan dosyalarda hangi soru numaralarini kapsadigi da yazilir.
     """
     out = []
-    if d.get("option_list"):
-        out.append({"items": None, "option_list": temizle(d["option_list"])})
-    for g in (d.get("groups") or []):
-        if g.get("option_list"):
-            out.append({
-                "items": [it.get("number") for it in (g.get("items") or [])],
-                "option_list": temizle(g["option_list"]),
-            })
+    # Tamamlama tiplerinde ayni liste "word_bank" adiyla duruyor; ikisi de alinir.
+    for anahtar in ("option_list", "word_bank"):
+        if d.get(anahtar):
+            out.append({"items": None, "option_list": temizle(d[anahtar])})
+        for g in (d.get("groups") or []):
+            if g.get(anahtar):
+                out.append({
+                    "items": [it.get("number") for it in (g.get("items") or [])],
+                    "option_list": temizle(g[anahtar]),
+                })
     return out
 
 

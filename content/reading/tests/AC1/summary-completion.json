@@ -31,7 +31,10 @@
       },
       "explanation": "Paragraf B, üç küçük adanın su altında kalmış bir kalderanın çevresinde daire biçiminde dizildiğini söylüyor; bu yüzden cevap 'caldera'.",
       "difficulty": "easy",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "general_knowledge",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     },
     {
       "number": 37,
@@ -49,7 +52,8 @@
       },
       "explanation": "Paragraf D'de dalgıçların yeni büyümeyi işaretlemek için boya sürdüğü belirtiliyor; boşluk bu işaretlemenin neyle yapıldığını sorduğu için cevap 'dye'.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 38,
@@ -68,7 +72,10 @@
       },
       "explanation": "Paragraf F, bacaların hemen çevresinde deniz tabanına yosunun hâkim olduğunu, biraz uzaktaki resiflerin ise daha sağlıklı kaldığını söylüyor; bu yüzden cevap 'weedy algae'.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "general_knowledge",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     },
     {
       "number": 39,
@@ -86,7 +93,10 @@
       },
       "explanation": "Paragraf G, iskeleti içeriden delen mikroskobik canlıların hızlandırdığı sürecin adını 'bioerosion' olarak veriyor; bu yüzden cevap 'bioerosion'.",
       "difficulty": "hard",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "general_knowledge",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     },
     {
       "number": 40,
@@ -104,7 +114,8 @@
       },
       "explanation": "Paragraf H, bilim insanlarının adayı bir merak konusundan çok erken uyarı sistemi olarak gördüğünü söylüyor; bu yüzden cevap 'warning system'.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     }
   ]
 }

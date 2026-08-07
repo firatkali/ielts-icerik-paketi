@@ -1031,5 +1031,343 @@ karşılaştırılarak doğrulandı (6/6 dosya değişmemiş). Özet istatistikl
 
 ---
 
+## 7 — summary-completion + flow-chart-completion (2026-08-07)
+
+- Ölçülen soru: **49** (8 dosya — summary-completion 43, flow-chart-completion 6)
+- Üç turun üçünde de parçasız bilinen: **30** — **%61.2**
+- Tur kararlılığı: summary-completion 34/43 (%79), flow-chart-completion **6/6 (%100)**
+
+### 🔴 Önce bir uyarı: script'in tek satırı bu paketi yanlış gösteriyor
+
+`metinsiz-rapor.py` tek bir `summary_completion` satırı basıyor: **26/43 (%60)** karşısında
+resmî taban **4/4 (%100)** — yani "tabanın altında", sapma işareti yok. Bu okuma yanlış.
+Promptun resmî taban tablosunda özet tamamlama **iki ayrı satır**:
+
+| Resmî taban satırı | Oran |
+|---|---|
+| Özet tamamlama (listeden seçmeli) | 4/4 (%100) |
+| Özet tamamlama (metinden kelime) | 1/5 (%20) |
+
+Script ikisini tek `question_type` altında topluyor. Ayrıldığında tablo şu:
+
+| Alt tip | Dosyalar | Bizde | Oran | Resmî taban | Sapma |
+|---|---|---|---|---|---|
+| Özet — kelime bankası | AC2, AC4, GT2 | **14/14** | **%100** | 4/4 (%100) | tabana eşit, **tavanda** |
+| Özet — parçadan kelime | practice, AC1, AC3, GT1 | 12/29 | %41 | 1/5 (%20) | +21 puan (25 puanlık uyarı eşiğinin altında) |
+| Akış şeması tamamlama | AC2 | 4/6 | %67 | resmî listede yok | — |
+
+Alt tip ayrımı yapılmazsa "kelime bankalı özetin tamamı parçasız bilindi" bulgusu
+tamamen kaybolur. Aşağıdaki bölümler bu ayrımı esas alıyor.
+
+### Set bazında dağılım — ayrım tam olarak alt tipin sınırından geçiyor
+
+| Set | Alt tip | Soru | 3/3 bilinen | Oran |
+|---|---|---|---|---|
+| AC2 | kelime bankası | 5 | **5** | **%100** |
+| AC4 | kelime bankası | 5 | **5** | **%100** |
+| GT2 | kelime bankası | 4 | **4** | **%100** |
+| practice | parçadan kelime | 15 | 7 | %47 |
+| AC1 | parçadan kelime | 5 | 3 | %60 |
+| AC3 | parçadan kelime | 5 | 1 | **%20** |
+| GT1 | parçadan kelime | 4 | 1 | %25 |
+| AC2 | akış şeması | 6 | 4 | %67 |
+
+%100 çıkan üç set, kelime bankalı üç setin **tam olarak kendisi**. Tesadüf değil; sebebi
+aşağıda.
+
+---
+
+### 7.1 — Kelime bankalı özet: 14/14 🔴🔴
+
+Üç dosya, on dört soru, üç turun üçünde de aynı harf, üçünde de doğru. Anahtar da tek
+harfe yığılmış değil (A×3, B×3, C, D, F, G, H, I×2, J).
+
+#### Kusur 1 — boşluğun kendi cümlesi eksik ifadeyi **tanımlıyor**
+
+Kelime bankalı özette aday, boşluğa gelecek ifadeyi parçadan çıkarmalıdır. Burada
+boşluğun bulunduğu cümle ifadeyi zaten tarif ediyor:
+
+| Soru | Cümlenin verdiği tanım | Zorunlu seçenek |
+|---|---|---|
+| AC2-36 | "geliş sırasına göre dağıtıldı, kimse bükemedi… neden savunulabildi" | A *a controlled experiment* |
+| AC2-39 | "(39) **:** üyeleri en uzun kalmış takımlar…" — iki nokta üst üste tanımı veriyor | H *length of service* |
+| AC4-36 | "**aynı** gönüllüler her iki koşuldan da geçti" = tanımın kendisi | J *within-subject* |
+| AC4-40 | "uykunun **iç yapısından** çok…" — kalan iki uyku seçeneğini cümle eliyor | A *a chance to sleep* |
+| GT2-40 | "…ve meseleyi çözmek için rastgele atamalı bir deney gerekirdi" | A *a link rather than a cause* |
+
+Aday parçayı değil, **boşluğun iki yanını** okuyor.
+
+#### Kusur 2 — komşu soru cevabı ele veriyor (GT2)
+
+GT2-37'nin cevabı *a small part*; aynı özetin iki cümle sonrasındaki **GT2-39'un kökü**
+şöyle başlıyor: "For the **greater share** of the effect that money cannot account for…".
+Yani 39 numaralı sorunun kökü, 37 numaralı sorunun cevabını (*roughly half* ve *the main
+driver* seçeneklerini eleyerek) doğrudan söylüyor. Bu, soru-içi değil **soru-arası** bir
+sızıntı ve ancak özetin tamamı bir arada okunarak görülüyor.
+
+#### Kusur 3 — seçenekler tasarlanmış zıt çiftler hâlinde
+
+Kelime bankasında karşıt çiftler var ve her boşluk için ikisinden yalnız biri
+gramerce/anlamca mümkün: *between-subjects / within-subject*, *connected in meaning /
+unrelated in meaning*, *a reliable measure / a rough guide*, *a small part / roughly half
+/ the main driver*. Boşluğun cümlesi hangi kutbu istediğini söylediği anda seçim tek
+kalıyor.
+
+#### Kusur 4 — kullanılmayan seçenekler hiçbir boşluğa takılmıyor
+
+AC2 ve AC4'te 10 seçenekten 5'i, GT2'de 9'dan 5'i kullanılmıyor. Bunlar yanlış oldukları
+için değil, **hiçbir boşluğun sözdizimine oturmadıkları** için eleniyor: *extra pay*,
+*a training period*, *face-to-face contact*, *deeper sleep*, *easily explained*,
+*contradictory*. 4. çalıştırmada matching-sentence-endings için yazılan bulgunun aynısı:
+çeldirici, yanlış olduğu için değil, **hiçbir yere takılamadığı** için eleniyor.
+
+⚠️ **Dayanak etiketi bu alt tipte kusuru olduğundan küçük gösteriyor.** 42 cevabın 39'u
+`logic`, 3'ü `general_knowledge`, `option_wording` **sıfır**. Oysa yukarıdaki dört
+mekanizmanın üçü doğrudan seçenek yazımıdır; gerçekte `option_wording` sayılmalıydı.
+Etiketleme ölçümden önce verildiği için sonradan düzeltilmedi (2. ve 3. çalıştırmada da
+aynı not düşülmüştü). **Bu alt tipteki asıl mekanizma seçenek ve cümle yazımıdır.**
+
+---
+
+### 7.2 — Parçadan kelime alan özet: 12/29 (%41)
+
+Resmî tabanın (1/5, %20) 21 puan üstünde; script'in 25 puanlık uyarı eşiği tetiklenmedi.
+Ama aşağıdaki bölüm, bu %41'in bile **iyimser** olduğunu gösteriyor.
+
+#### İşaretlenen 12 soru — iki bilinen mekanizma
+
+**1. Eşdizim kilidi (7/12).** 6. çalıştırmanın ana bulgusu burada da geçerli: boşluk kalıp
+bir öbeğin tahmin edilebilir ucunda duruyor.
+
+| Boşluklu çerçeve | Kilitlenen kelime |
+|---|---|
+| "for all its … in current office fashion" | popularity |
+| "completely … in the task at hand" (flow'un tanımı) | absorbed |
+| "woodland that is green and …" | leafy |
+| "which rose … once the fifteen minutes were over" | sharply |
+| "a week-long … of what was poured away" | diary |
+| "a … scale whose ends were labelled 'very bad' and 'very good'" | five-point |
+| "put it on … precise to within two grams" | (digital) scales |
+
+**2. Terim tanımı / genel kültür (5/12).** Boşluğun cümlesi terimin ders kitabı tanımını
+veriyor:
+
+- AC1-36 `caldera` — "üç ada çökmüş bir yanardağın etrafında halka hâlinde" = tanım.
+- AC1-38 `weedy algae` — asidik suda mercanın yerini alan şey algdir, yayımlanmış bulgu.
+- AC1-39 `bioerosion` — "minik canlılar iskeleti deliyor" = terimin tanımı.
+- AC3-38 `microtubules` — "hücreyi içeriden destekleyen minik çubuklar" **artı** "23
+  nanometre": hem tanım hem ölçü verilmiş.
+- GT1-40 `prevention` — "toplama ve bertaraf değil, …" atık hiyerarşisinin kalıp sözü.
+
+#### 🔴 Asıl bulgu: direnen 17 sorunun 15'i **anlamca** parçasız bilindi
+
+Kaçırılan 17 sorunun yalnız **ikisinde** anlam yuvası yanlış tahmin edildi:
+
+| Soru | Anahtar | Üç turda verilen | Durum |
+|---|---|---|---|
+| practice-15 | `elderly` | unemployed ×3 | gerçek ıska |
+| AC3-39 | `seven` | nine / several / nine | gerçek ıska |
+
+Kalan 15'te doğru anlam bulundu, **kelime tutmadı**:
+
+| Soru | Anahtar | Verilen | Fark |
+|---|---|---|---|
+| practice-3 | `safe limits` | threshold / limit | niteleyici eksik |
+| practice-4 | `software engineers` | developers / programmers | eşanlamlı |
+| practice-6 | `crossover` | crossover / within-subject | 2/3 |
+| practice-8 | `draining` | stressful / draining | 1/3 |
+| practice-11 | `eggshells` | shells ×3 | niteleyici eksik |
+| practice-12 | `double` | double / twice | 2/3 |
+| practice-14 | `mortality` | mortality / death | 2/3 |
+| AC1-37 | `dye` | dye / stains | 2/3 |
+| AC1-40 | `warning system` | warning ×3 | niteleyici eksik |
+| AC3-36 | `decomposition` | decay ×3 | eşanlamlı |
+| AC3-37 | `reference databases` | databases ×3 | niteleyici eksik |
+| AC3-40 | `thermal conditions` | conditions ×3 | niteleyici eksik |
+| GT1-37 | `peelings` | peel ×3 | çekim farkı |
+| GT1-38 | `refrigerator` | fridge ×3 | eşanlamlı |
+| GT1-39 | `convenience` | supermarkets / convenience | 2/3 |
+
+Yani bu alt tipin savunması **kavrayış değil, yazım biçimi**: `NO MORE THAN TWO WORDS
+from the passage` kuralı, doğru bilinen anlamı puana çevirmiyor. 6. çalıştırmada bu
+"korunacak özellik" olarak yazılmıştı ve orada 8 soruyu kurtarıyordu; burada **15 soruyu**
+kurtarıyor ve artık tek başına taşıyıcı hâline gelmiş.
+
+Dürüst okuma: bu alt tipin gerçek oranı %41 değil, anlam düzeyinde **27/29'a (%93)**
+yakın. Ölçüm "cevabı yazabildin mi"yi ölçüyor, "parçaya ihtiyacın var mıydı"yı değil ve
+bu iki soru burada ayrışıyor.
+
+En etkili savunma **iki kelimelik, parçaya özgü niteleyici**: `safe limits`,
+`warning system`, `reference databases`, `thermal conditions`, `digital scales`,
+`weedy algae`. AC3'ün %20 ile en sağlam set olması bundan: beş anahtarının üçü bu
+kalıpta.
+
+---
+
+### 7.3 — Akış şeması tamamlama: 4/6, gerçekte 5/6 🔴
+
+Tek dosya (AC2), altı soru. Resmî tabanda bu tip yok; en yakın akrabaları tablo tamamlama
+(0/5) ve diyagram etiketleme (0/5) — yani resmî örneklemde **sızıntısız** sayılan yapısal
+tamamlama tipleri. Bizdeki %67 onların çok üstünde.
+
+Üstelik gerçek sayı daha yüksek:
+
+| Soru | Anahtar | Üç turda verilen | Sonuç |
+|---|---|---|---|
+| 1 | `forty minutes` | 40 minutes ×3 | ⚠️ **yanlış sayıldı** — aşağıya bak |
+| 2 | `designation` | designation ×3 | işaretlendi |
+| 3 | `reflects` | reflects ×3 | işaretlendi |
+| 4 | `Ophelia` | Cressida ×3 | **tek gerçek direnç** |
+| 5 | `fourteenth` | 14th ×3 | işaretlendi (`14th` kabul varyantı) |
+| 6 | `International Astronomical Union` | aynısı ×3 | işaretlendi |
+
+⚠️ **1 numaralı soruda bir anahtar kusuru var.** Yönerge `NO MORE THAN THREE WORDS
+**AND/OR A NUMBER**` diyor, yani `40 minutes` gerçek sınavda kabul edilir; `accepted_variants`
+alanında yalnız `forty minutes` yazılı. Üç turda da `40 minutes` verildi ve script yanlış
+saydı. Anlamlı okuma: bu paket **5/6 (%83)** parçasız bilinebiliyor.
+
+🔴 Bu kusur bu çalıştırmada **düzeltilmedi**, çünkü anahtarı şimdi değiştirmek bu turun
+ölçümünü geriye dönük olarak bozardı. `accepted_variants`'a `40 minutes` eklenmesi ayrı
+bir iş olarak yapılmalı — gerçek bir aday şu hâliyle hak ettiği puanı kaybeder.
+
+#### Neden bu kadar yüksek
+
+- **Konu, yakın tarihli gerçek bir haber.** S/2025 U1, Uranüs'ün yeni iç uydusu. 1.
+  çalıştırmada AC1 için (%86) yazılan "ünlü vaka" kusurunun aynısı; dayanak dağılımı da
+  bunu söylüyor: 18 cevabın **12'si** `general_knowledge`.
+- **Boşluklar alanın kalıp sözleri.** `designation` (geçici ad = designation), IAU (adları
+  onaylayan kurum), `reflects` ("ışığı … Uranüs'ün öbür küçük uyduları gibi") — hiçbiri
+  parçaya özgü değil, gök bilimi genel bilgisi.
+- **Tur kararlılığı %100.** 3. çalıştırmanın notuyla: bu, belirsiz bir sezgi değil **her
+  turda aynı yere götüren kuralcı bir işaret** demek.
+
+Direnen tek soru (4) tam olarak doğru kalıpta: **hangi iki uydunun arasında** olduğu
+yalnız parçadan bilinir; üç turda da yanlış uydu (Cressida) verildi. Altı sorunun beşi
+bu kalıba çevrilebilir.
+
+⚠️ Örneklem altı soru ve tek dosya. Yön güvenilir, büyüklük değil.
+
+---
+
+### `basis` dağılımı
+
+summary-completion (129 cevap) · flow-chart-completion (18 cevap):
+
+| Dayanak | summary tümü | summary yalnız işaretli (78) | flow-chart tümü | flow işaretli (12) |
+|---|---|---|---|---|
+| logic | 68 (%53) | 48 (%62) | 3 (%17) | 3 (%25) |
+| general_knowledge | 39 (%30) | 21 (%27) | 12 (%67) | 6 (%50) |
+| guess | 22 (%17) | 9 (%12) | 3 (%17) | 3 (%25) |
+| option_wording | 0 (**%0**) | 0 | 0 | 0 |
+
+`option_wording` yine sıfır — ama bu kez **yapısal olarak sıfır değil**. 6. çalıştırmada
+(not/tablo tamamlama) şık olmadığı için bu etiket doğamıyordu; burada kelime bankalı üç
+dosyada yazılmış seçenek metni **var**. Sıfır çıkması etiketleme kararının sonucu, tipin
+değil; 7.1'in sonundaki uyarı bu satırın doğru okunuşudur.
+
+İki paket birbirinin tersi: özet tamamlamada ağırlık `logic` (cümle çerçevesi ve seçenek
+eleme), akış şemasında `general_knowledge` (%67 — ölçümün gördüğü en yüksek genel kültür
+payı). Birincisi prompt düzeyinde kapatılabilir, ikincisi **konu seçimini** gerektirir.
+
+### Zorluk etiketiyle ilişki
+
+| Etiket | summary: soru | 3/3 bilinen | Oran |
+|---|---|---|---|
+| easy | 12 | 8 | %67 |
+| medium | 22 | 13 | %59 |
+| hard | 9 | 5 | %56 |
+
+**Etiket ile parçasız bilinme arasında ilişki yok** — üç satır da %56-67 bandında, düz.
+Önceki çalıştırmalarda (5. ve 6.) `easy`→`medium` düşüşü beklenen yöndeydi; burada
+kaybolmuş. Parçasız bilinen beş `hard` soru: AC1-39 (`bioerosion`), AC2-40, AC4-40,
+GT1-40 (`prevention`), GT2-39. Beşi de ya terim tanımı ya seçenek elemesi; `hard`
+sıfatını hak etmiyorlar.
+
+Akış şemasında ilişki tersine dönüyor (easy 0/2, medium 3/3, hard 1/1) ama altı soruyla
+bundan sonuç çıkarılmaz.
+
+### Düzeltme yönü (bu rapor uygulamıyor, işaret ediyor)
+
+**Kelime bankalı özet için (en acil — 14/14):**
+
+1. **Boşluğun cümlesi ifadeyi tanımlamasın.** "aynı gönüllüler her ikisinden de geçti →
+   (within-subject)", "(length of service): üyeleri en uzun kalmış takımlar" gibi
+   kurulumlarda tanım cümleden çıkarılıp parçaya bırakılmalı.
+2. **Komşu soruların köklerini birbirine karşı tara.** GT2-39'un kökü GT2-37'nin cevabını
+   veriyor; özetin tamamı tek metin olarak okunup böyle sızıntılar aranmalı.
+3. **Zıt çiftleri aynı bankaya koyma.** *between-subjects / within-subject*,
+   *connected / unrelated in meaning* çiftleri boşluğun kutbu belli olur olmaz seçimi
+   teke indiriyor.
+4. **Kullanılmayan seçenekler en az iki boşluğa gramerce oturabilsin.** Şu anda *extra
+   pay*, *a training period*, *face-to-face contact* hiçbir boşluğa takılmıyor ve
+   sözdizimiyle eleniyor. (4. çalıştırmada sentence-endings için yazılan 6. maddenin
+   aynısı.)
+
+**Parçadan kelime alan özet için:**
+
+5. **Eşdizim kilidini kır** (6. çalıştırmanın 2. maddesinin tekrarı): "green and …",
+   "completely … in the task at hand", "a week-long … of what was poured away",
+   "a … scale whose ends were labelled" — boşluk öbeğin tahmin edilen ucundan alınıp
+   cümlenin parçaya özgü kısmına taşınsın.
+6. **Tanımı verip terimi sorma.** AC3-38 hem "hücreyi içeriden destekleyen minik
+   çubuklar" hem "23 nanometre" veriyor; ikisinden biri kalmalı. AC1-36, AC1-39 aynı
+   kalıpta.
+7. **İki kelimelik parçaya özgü niteleyiciyi koru** — ama tek savunma olarak bırakma.
+   `thermal conditions`, `reference databases`, `safe limits` puanı kurtarıyor; yine de
+   anlam yuvası parçasız biliniyor. Boşluk, anlamı da parçadan gelen bir yere taşınmalı.
+
+**Akış şeması için:**
+
+8. **Konuyu yakın tarihli tanınmış bir haberden seçme** (1. çalıştırmanın AC1 bulgusu).
+   Altı sorunun beşi alan bilgisiyle çıkıyor.
+9. **4 numaralı sorunun kalıbını diğerlerine yay:** parçada verilen somut komşuluk/
+   sıra/eşik bilgisini sor, alanın kalıp terimini değil.
+10. **1 numaralı sorunun `accepted_variants` alanına `40 minutes` ekle.** Yönerge sayıya
+    izin veriyor; bu bir soru kusuru değil, anahtar kusuru.
+
+### Korunacak olan
+
+- **AC3 seti (%20).** Beş anahtarın üçü iki kelimelik, parçaya özgü terim; parçasız
+  bilinen tek soru terim tanımı verilen `microtubules`.
+- **`from the passage` kısıtı.** 15 soruyu tek başına kurtardı — ama 7.2'deki uyarıyla
+  birlikte okunmalı: kurtardığı şey puan, kavrayış değil.
+- **AC2-flow 4 numaralı soru.** Bu paketteki tek gerçek direnç ve kopyalanacak kalıp.
+
+### Ölçülmeyenler
+
+- Dinleme tarafı bu adımın kapsamı dışında (prompt gereği); `summary-completion` (L3, L5,
+  L6) ve `flow-chart-completion` (practice, L2, L4) dinleme dosyaları script tarafından
+  "okuma değil" diye atlandı.
+- **Diyagram etiketleme: ölçülmedi.** Bu pakette bulunmuyor; görsel gerektiren tiplerde
+  metin tabanlı bu ölçüm kördür ve 8. çalıştırmada da **"ölçülmedi"** olarak geçilecek.
+
+### Araç notu — 2. çalıştırmadaki kusurun ikinci hâli
+
+`tools/metinsiz-kopya.py` parçasız kopyaya **kelime bankasını taşımıyordu.** Script
+seçenek listelerini yalnız `option_list` alanından okuyordu; tamamlama tiplerinde aynı
+liste `word_bank` adıyla duruyor. Bu haliyle AC2, AC4 ve GT2'nin kelime bankalı özetleri
+"hiç seçenek verilmeden" ölçülürdü ve çıkacak düşük oran sorunun değil kopyanın eksiğinin
+sonucu olurdu — 2. çalıştırmada `option_list` için bulunan kusurun tıpatıp aynısı.
+Script her iki alanı da okuyacak biçimde düzeltildi ve ölçüm düzeltilmiş kopyayla
+yapıldı.
+
+Etkisi geriye dönük olarak **yok**: `word_bank` alanı okuma tarafında yalnız bu üç
+dosyada bulunuyor (AC2, AC4, GT2 summary-completion), yani 1-6. çalıştırmalar
+etkilenmedi. 8. çalıştırmanın paketlerinde (`sentence-completion`, `short-answer`,
+`diagram-labelling`) de `word_bank` yok.
+
+4. adım (işaretleme) mevcut `tools/_b1_isaretle.py` ile yapıldı. Özet istatistikler
+`tools/_b1_metinsiz7_ozet.py` ile üretildi.
+
+### Yapılan işaretleme
+
+- summary-completion: 43 sorunun **26'sına** `blind_solvable: true`, `blind_basis`,
+  `status: "flagged"`, `flag_reason`; **17'sine** `blind_solvable: false`.
+- flow-chart-completion: 6 sorunun **4'üne** işaret, **2'sine** `blind_solvable: false`.
+- Toplam 49 soru işlendi, **30 işaretlendi**. **Hiçbir soru silinmedi**; soru sayıları
+  43 ve 6'da sabit.
+
+---
+
 🔴 Son söz: **bu ölçüm bozuk soruyu bulur, zorluk seviyesini ölçmez.** "Bu soru gerçek
 sınav zorluğunda" demek ancak binlerce gerçek adayın verisiyle mümkündür.

@@ -31,7 +31,8 @@
       },
       "explanation": "Paragraf C, camlaşmanın gerçekleşmesi için dokunun normal çürümeyi (decomposition) engelleyecek kadar hızlı ve yüksek sıcaklıkta ısıtılması gerektiğini söylüyor; bu yüzden cevap 'decomposition'.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 37,
@@ -50,7 +51,8 @@
       },
       "explanation": "Paragraf D, dokunun kökeninin bağımsız olarak doğrulanmasını insan beyninde üretilen proteinlerin referans veri tabanlarıyla karşılaştırmaya bağlıyor; bu yüzden cevap 'reference databases'.",
       "difficulty": "hard",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 38,
@@ -69,7 +71,10 @@
       },
       "explanation": "Paragraf E, hücrenin içindeki minik iskeleti oluşturan mikrotüplerin bile yaklaşık 23 nanometre çapla görülebildiğini söylüyor; bu yüzden cevap 'microtubules'.",
       "difficulty": "easy",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "general_knowledge",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     },
     {
       "number": 39,
@@ -89,7 +94,8 @@
       },
       "explanation": "Paragraf F, yalnızca beyin dokusunda üretildiği bilinen yedi ayrı protein saptandığını söylüyor; bu yüzden cevap 'seven'.",
       "difficulty": "easy",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 40,
@@ -107,7 +113,8 @@
       },
       "explanation": "Paragraf G, hem aşırı sıcaklığa maruz kalmayı hem de yapının korunmasını ancak çok dar bir ısıl koşullar aralığının açıklayabileceğini söylüyor; bu yüzden cevap 'thermal conditions'.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     }
   ]
 }

@@ -31,7 +31,8 @@
       },
       "explanation": "Paragraf E, yenmeyen atık içinde en büyük payı muz ve mango kabuklarının başı çektiği meyve sebze kabuklarının aldığını söylüyor; bu yüzden cevap 'peelings'.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 38,
@@ -49,7 +50,8 @@
       },
       "explanation": "Paragraf G, süt ürünlerinin sık sık buzdolabının arka tarafında unutulup atılmak zorunda kalındığını söylüyor; bu yüzden cevap 'refrigerator'.",
       "difficulty": "easy",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 39,
@@ -67,7 +69,8 @@
       },
       "explanation": "Paragraf H, kentte yaşayanların kolaylığı öne aldığını ve ihtiyaçtan fazlasını satın almaya daha yatkın olduğunu söylüyor; bu yüzden cevap 'convenience'.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 40,
@@ -85,7 +88,10 @@
       },
       "explanation": "Paragraf I, gıda atığı politikasının bugüne dek toplama ve bertarafa odaklandığını, önlemeyi ise ihmal ettiğini söylüyor; bu yüzden cevap 'prevention'.",
       "difficulty": "hard",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "logic",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     }
   ]
 }
