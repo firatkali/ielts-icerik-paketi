@@ -52,7 +52,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "logic",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Cevap A, metnin verdigi somut talimati dogrudan karsiliyor: kartini unutan calisan ayni vardiya icinde amirine haber vermeli; B personel ofisinin farkli bir islevini, C var olmayan bir yedek karti, D tek seferlik unutmayi tekrarlanan ihmalin cezasina baglayarak kapsami abartiyor -- ucu de metinle celisip elenir.",
+      "flag_mechanism": "konumsal_duzen"
     },
     {
       "number": 22,
@@ -95,7 +96,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "general_knowledge",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Cevap C, iki vardiya arasinda en az on bir saatlik dinlenme suresi birakilmasi kuralinin (isci haklarinda yaygin bilinen '11 saat dinlenme' duzenlemesi) genel is hukuku bilgisiyle parcaya bakmadan da tahmin edilebiliyor.",
+      "flag_mechanism": "genel_kultur"
     },
     {
       "number": "23-24",
@@ -153,7 +155,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "general_knowledge",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Cevaplar B ve E, fazla mesainin onceden amir onayi gerektirmesi ve fazlaliginin izne cevrilebilmesi gibi is yerlerinde yaygin bilinen standart politika kurallari olmasi sayesinde parcaya bakmadan da tahmin edilebiliyor.",
+      "flag_mechanism": "genel_kultur"
     }
   ]
 }

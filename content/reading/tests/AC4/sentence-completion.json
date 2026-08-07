@@ -54,7 +54,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "logic",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Bosluk 'extremely damp, with ___ measured at 94.25%' kalibinda; 'damp' (nemli) sifatiyla dogal olarak eslesen olculebilir nicelik 'humidity' (nem orani) oldugu icin parcaya bakmadan da tahmin edilebiliyor.",
+      "flag_mechanism": "esdizim_kilidi"
     },
     {
       "number": 21,
@@ -75,7 +76,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "logic",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Bosluk 'the mere ___ of time' kalibinin ucunda; 'the passage of time' Ingilizcede tamamen kaliplasmis bir ifade oldugu icin parcaya bakmadan da tahmin edilebiliyor.",
+      "flag_mechanism": "esdizim_kilidi"
     },
     {
       "number": 22,

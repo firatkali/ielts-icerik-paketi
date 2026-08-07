@@ -36,7 +36,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "general_knowledge",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Cevap '47', Japonya'nin idari olarak 47 ile bolunmus olmasinin dunyaca bilinen bir cografya gercegi olmasi sayesinde parcaya bakmadan da tahmin edilebiliyor; bosluk zaten 'Japonya'nin ... illeri' kalibini veriyor, akla gelen tek yaygin sayi 47.",
+      "flag_mechanism": "genel_kultur"
     },
     {
       "number": 2,
@@ -222,7 +223,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "general_knowledge",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Cevap '500', piroklastik akintilarin sicakliginin yuzlerce dereceye ulastigi yaygin volkanoloji bilgisiyle (sikca '500 derece civari' olarak anilir) parcaya bakmadan da tahmin edilebiliyor.",
+      "flag_mechanism": "genel_kultur"
     },
     {
       "number": 11,

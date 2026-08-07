@@ -74,7 +74,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "general_knowledge",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Cevap 'microtubules', cumlenin kendisi bosluktan hemen sonra terimin tanimini veriyor ('the minute rods that support a cell from within'); bu tanim, terimi bilenler icin dogrudan cagristirdigindan parcaya bakmadan da tahmin edilebiliyor.",
+      "flag_mechanism": "tanim_sizintisi"
     },
     {
       "number": 39,

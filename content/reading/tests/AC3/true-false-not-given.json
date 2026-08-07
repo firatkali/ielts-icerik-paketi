@@ -35,7 +35,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "general_knowledge",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Cevap TRUE, ayna testinin gercekte neyi olctugu (gercek oz farkindaligi mi yoksa daha dar bir seyi mi) konusundaki bilimsel tartismanin hayvan bilisi alaninda yaygin ve bilinen bir tartisma olmasi sayesinde parcaya bakmadan da tahmin edilebiliyor.",
+      "flag_mechanism": "genel_kultur"
     },
     {
       "number": 8,

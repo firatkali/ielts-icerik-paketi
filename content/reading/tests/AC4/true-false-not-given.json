@@ -35,7 +35,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "general_knowledge",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Cevap TRUE, bilimsel arastirma makalelerinin girisinde tartismali bir konunun 'kisisel izlenime dayali, kontrollu kanittan yoksun' oldugunu soyleyip bunu arastirmanin motivasyonu olarak sunmasi cok yaygin bir akademik yazim kalibi; bu genel bilgiyle ifadenin dogru olmasi parcaya bakmadan da beklenen bir sonuc.",
+      "flag_mechanism": "genel_kultur"
     },
     {
       "number": 8,
@@ -145,7 +146,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "logic",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Cevap TRUE, bu tur ofis-duzeni calismalarinda oznel olcumlerin (memnuniyet, algi) etkilenip nesnel/davranissal ciktı olcumlerinin (kod uretimi gibi) genelde degismedigi bilinen bir arastirma orntusu; bu genel orntuyle ifadenin dogru olmasi parcaya bakmadan da tahmin edilebiliyor.",
+      "flag_mechanism": "konumsal_duzen"
     }
   ]
 }

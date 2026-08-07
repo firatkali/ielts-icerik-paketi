@@ -51,7 +51,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "option_wording",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Ifadedeki 'every year' (her yil) genellemesi, metnin yalnizca 'this year's' (bu yilki) diye belirttigi tekil bir olayla celisiyor; bu kapsam genisletme sinyali parcaya bakmadan da NOT GIVEN'i isaret ediyor.",
+      "flag_mechanism": "kip_imzasi"
     },
     {
       "number": 10,
@@ -72,7 +73,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "general_knowledge",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Cevap TRUE, etkinliklerde onceden alinan biletlerin kapida alinandan daha ucuz olmasi yaygin ve evrensel bir bilet fiyatlandirma kurali; bu genel bilgiyle ifadenin dogru olmasi parcaya bakmadan da tahmin edilebiliyor.",
+      "flag_mechanism": "genel_kultur"
     },
     {
       "number": 11,
@@ -93,7 +95,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "general_knowledge",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Cevap TRUE, parsel/kiralama politikalarinda bir hakkin geri alinmasindan once yazili uyari verilmesinin yaygin bir idari adillik kurali olmasi genel bilgisiyle parcaya bakmadan da tahmin edilebiliyor.",
+      "flag_mechanism": "genel_kultur"
     },
     {
       "number": 12,
@@ -130,7 +133,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "option_wording",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Ifadedeki 'most popular' (en populer) ustunluk ifadesi, metnin comlekciligi yalniz elli dersten biri olarak andigi, hicbir ragbet siralamasi vermedigi bir yerde kurulmus; boyle bir siralama/ustunluk iddiasinin metinde karsiligi olmadigi icin bu tur mutlak dereceleme ifadeleri genelde NOT GIVEN'a isaret eder.",
+      "flag_mechanism": "kip_imzasi"
     },
     {
       "number": 14,
@@ -151,7 +155,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "guess",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Net bir mekanizma yok: gecerli kimlikli ogrencilere uygulanan indirim oraninin ('%50', yani yarisi) tam olarak ifadedeki 'half' ile eslesmesi, parcaya bakmadan tahmin edilemeyecek somut bir sayi; dogrulugu buyuk olcude sansa dayaniyor.",
+      "flag_mechanism": "belirsiz"
     }
   ]
 }

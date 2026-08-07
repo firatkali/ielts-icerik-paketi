@@ -71,7 +71,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "general_knowledge",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Cevap A, 'Profile of Mood States' (POMS) olceginin psikoloji arastirmalarinda alti ayri olumsuz duygu boyutu (gerginlik, ofke, depresyon, yorgunluk, kafa karisikligi, vb.) olcen yaygin bilinen standart bir arac olmasi sayesinde; ifadedeki 'cogunun hafiflemesi' altidan besinin duzelmesine dogal olarak oturuyor, bu genel bilgiyle parcaya bakmadan da tahmin edilebiliyor.",
+      "flag_mechanism": "genel_kultur"
     },
     {
       "number": 25,
@@ -91,7 +92,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "logic",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Cevap C, secenekler arasinda elemeyle bulunuyor: D'nin (canlilik) de bina kosulundan sonra dustugu ayni cumlede geciyor, ama 'yaklasik yariya inme' gibi somut bir oran yalniz dinlendiricilik olcegine bagli; D icin boyle bir buyukluk verilmiyor.",
+      "flag_mechanism": "konumsal_duzen"
     },
     {
       "number": 26,
@@ -111,7 +113,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "general_knowledge",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Cevap B, 'Positive and Negative Affect Schedule' (PANAS) adinin kendisinin hem olumlu hem olumsuz duygulari birlikte olctugunu belirtmesi, psikolojide yaygin bilinen standart bir olcme araci olmasi sayesinde parcaya bakmadan da tahmin edilebiliyor; D ise yalnizca enerjiyi (tek ucu) olcuyor.",
+      "flag_mechanism": "genel_kultur"
     }
   ]
 }

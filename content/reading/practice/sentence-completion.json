@@ -35,7 +35,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "general_knowledge",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Cevap 'swat flies', fillerin dallari sinek kovmak icin kullandigi bilgisinin hayvan davranisi konusunda yaygin bilinen bir gercek olmasi sayesinde parcaya bakmadan da tahmin edilebiliyor.",
+      "flag_mechanism": "genel_kultur"
     },
     {
       "number": 2,
@@ -178,7 +179,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "logic",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Bosluk 'a ___ of what is coming' kalibinin ucunda; bu kalibin en dogal tamamlamasi 'preview' oldugu icin parcaya bakilmadan da tahmin edilebiliyor.",
+      "flag_mechanism": "esdizim_kilidi"
     },
     {
       "number": 9,
@@ -221,7 +223,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "general_knowledge",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Cevap 'seventh', Uranus'un Gunes'ten yedinci gezegen oldugu temel astronomi bilgisiyle parcaya bakmadan da bilinir.",
+      "flag_mechanism": "genel_kultur"
     },
     {
       "number": 11,
@@ -244,7 +247,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "general_knowledge",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Cevap 'forty years', Voyager 2'nin Uranus'e 1986'da ugradigi ve buradan gunumuze (2020'lerin ortasi) yaklasik kirk yil gectigi genel kronoloji bilgisiyle parcaya bakmadan da hesaplanabiliyor.",
+      "flag_mechanism": "genel_kultur"
     },
     {
       "number": 12,

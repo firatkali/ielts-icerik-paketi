@@ -35,7 +35,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "general_knowledge",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Cevap TRUE, fillerin klasik icgoru/arac kullanma testlerinde primatlara kiyasla tarihsel olarak basarisiz sayilmasi hayvan bilisi literaturunde bilinen bir tartisma; bu genel bilgiyle ifadenin dogru oldugu parcaya bakmadan da tahmin edilebiliyor.",
+      "flag_mechanism": "genel_kultur"
     },
     {
       "number": 8,
@@ -72,7 +73,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "general_knowledge",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Cevap FALSE, psikolojideki 'icgoru' (insight) kavraminin tanimi geregi ani bir kavrayisla ortaya cikmasi, deneme-yanilmayla kademeli ogrenmenin ise bunun tam karsiti olmasi genel bilgisiyle; pasaj zaten bir 'icgoru' davranisini anlattigina gore 'kademeli gelisti' iddiasinin yanlis olmasi parcaya bakmadan da beklenir.",
+      "flag_mechanism": "genel_kultur"
     },
     {
       "number": 10,
@@ -93,7 +95,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "general_knowledge",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Cevap TRUE, bir hayvanin arac kullanma zekasini gosteren calismalarda tipik kanitin, yiyecek yeri degistiginde davranisi buna gore uyarlamak olmasi -- bu tur 'akilli hayvan' anlatilarinin standart kanit yapisi -- genel bilgisiyle parcaya bakmadan da beklenen bir sonuc.",
+      "flag_mechanism": "genel_kultur"
     },
     {
       "number": 11,
@@ -114,7 +117,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "guess",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Net bir mekanizma yok: ifade Kandula'nin ertesi gun kupun yerini hatirlayip hatirlamadigini soruyor; boyle bellek iddialari bu tur hayvan zekasi calismalarinda genelde onaylanan sonuc olma egiliminde olsa da, bu tek ifadenin dogrulugu spesifik bir isaret olmadan sansa yakin bir tahmine dayaniyor.",
+      "flag_mechanism": "belirsiz"
     },
     {
       "number": 12,
@@ -135,7 +139,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "general_knowledge",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Cevap FALSE, bir hayvanin beklenmedik bir basari gosterdigi bilim haberlerinin gecmis basarisizligi 'hayvan aptaldi' diye aciklamak yerine 'kullanilan arac/yontem uygun degildi' diye aciklamasi yaygin bir anlati kalibi; bu genel oruntuyle ifadenin (zeka aciklamasi) yanlis oldugu parcaya bakmadan da tahmin edilebiliyor.",
+      "flag_mechanism": "genel_kultur"
     },
     {
       "number": 13,
@@ -153,7 +158,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "logic",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Ifade, pasajin kupun faydalarini hortumun acik kalmasi ve govdenin yaklasmasi (dokunma/erisim) uzerinden anlattigi bir bolumde, hic ele alinmayan bir duyu kanali (gorme) hakkinda iddia kuruyor; boyle 'bahsedilmeyen duyu' iddialari genelde NOT GIVEN'a isaret eder.",
+      "flag_mechanism": "konumsal_duzen"
     }
   ]
 }

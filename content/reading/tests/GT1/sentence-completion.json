@@ -55,7 +55,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "general_knowledge",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Cevap 'double time', resmi tatil calismasinin 'bir bucuk kat' yerine 'double time' (iki kat ucret) ile odenmesinin Ingilizce is dunyasinda yaygin bilinen standart bir terim olmasi sayesinde parcaya bakmadan da tahmin edilebiliyor.",
+      "flag_mechanism": "genel_kultur"
     },
     {
       "number": 27,

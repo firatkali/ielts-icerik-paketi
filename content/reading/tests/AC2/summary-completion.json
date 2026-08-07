@@ -77,7 +77,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "logic",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Cevap A ('a controlled experiment'), arastirma yontemi mantigiyla kelime bankasi icinde tek tutarli secenek: sira ile rastgele atama, deneysel kontrollu bir duzenlemeye esdeger sayilir -- bu standart arastirma yontemi kavramiyla parcaya bakmadan da secilebiliyor.",
+      "flag_mechanism": "konumsal_duzen"
     },
     {
       "number": 37,
@@ -100,7 +101,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "logic",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Cevap C ('a reliable measure'), kelime bankasindaki en yakin celdirici D ('a rough guide' -- kabaca bir kilavuz) ile karsit; metindeki 'guvenilir' vurgusu D'nin tahmini/kaba tonuyla celisiyor, bu yuzden yalniz C metinle ortusuyor.",
+      "flag_mechanism": "konumsal_duzen"
     },
     {
       "number": 38,
@@ -122,7 +124,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "logic",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Cevap I ('no measurable benefit'), kelime bankasindaki en yakin celdirici B ('a distraction') ile karistirilabilir, ama metin burada dikkat dagitmadan degil dogrudan bir fayda yoklugundan soz ediyor; 'en verimli ceyrekte bile' ifadesi yalniz I ile ortusuyor.",
+      "flag_mechanism": "konumsal_duzen"
     },
     {
       "number": 39,
@@ -144,7 +147,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "logic",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Cevap H ('length of service'), metindeki 'ortalama kidem' (tenure) kavraminin dogrudan es anlamlisi; kelime bankasindaki digerleri (egitim suresi, sosyal kiyas, yuz yuze temas) bu kavrami karsilamiyor.",
+      "flag_mechanism": "konumsal_duzen"
     },
     {
       "number": 40,
@@ -167,7 +171,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "logic",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Cevap B ('a distraction'), metindeki 'may sometimes distract rather than assist' ifadesinin dogrudan karsiligi; kelime bankasindaki oteki secenekler (guvenilir olcum, kontrollu deney, sosyal kiyas) bu baglama uymuyor.",
+      "flag_mechanism": "konumsal_duzen"
     }
   ]
 }

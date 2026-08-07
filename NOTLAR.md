@@ -7293,3 +7293,27 @@ hiç kullanılmadı, kalan on soruda birer kez. Çeldirici türü çeşitliliği
   calistirmanin dordunde de kapali kaldi. `content/ornek-cevaplar/` yalnizca yazma
   kutuphanesi olarak teslim ediliyor: 30 gorev x 3 seviye = 90 cevap, dort duzey
   denetimden gecmis.
+
+## SONNET5-E1-isaret-gerekceleri (1. calistirma)
+- Tarih: 2026-08-08
+- Denetim raporunun A2 bulgusu duzeltildi: 180 isaretli okuma sorusunun hepsinde
+  birebir ayni flag_reason cumlesi vardi (108'inde gercek mekanizmayla celisiyordu).
+  Sayim yeniden yapildi (recursive JSON tarama + tools/dogrula.py): 180 dogrulandi,
+  rapordaki sayiyla ayni.
+- 51 dosyadaki 180 flagged sorunun hepsine blind_basis + kendi feature_check/
+  heading_check/grammar_check/distractor_analysis/not_given_justification/scan_note/
+  uniqueness_check alanlarina bakilarak soruya ozgu yeni flag_reason yazildi ve yeni
+  flag_mechanism alani eklendi (kip_imzasi 12, esdizim_kilidi 21, tanim_sizintisi 2,
+  konumsal_duzen 64, genel_kultur 71, belirsiz 10).
+- blind_basis -> flag_mechanism eslemesi gorev talimatindaki tabloya uyuyor; iki soruda
+  (AC3/summary-completion #38 "microtubules", AC4/summary-completion #36
+  "within-subject") tanim sizintisi cok belirgin oldugu icin bilincli olarak
+  general_knowledge/logic varsayilaninin disina cikilip tanim_sizintisi kullanildi.
+- Soru metni, answer, evidence, status, blind_solvable alanlarina dokunulmadi; hicbir
+  soru silinmedi/degistirilmedi. tools/dogrula.py: sema hatasi 0, isaretli (flagged)
+  180, butun tam testler (AC1-4, GT1-2, L1-6) 40/40 tam.
+- Yazilan: content/DOGRULAMA/ISARET-GEREKCELERI.md (mekanizma x soru tipi dagilim
+  tablosu, mekanizma basina ornekler, belirsiz orani %5.6 - esigin altinda).
+- Not (E5'e devir): belirsiz sayilan 10 soru icin net bir dilbilgisel/anlamsal kalip
+  yok (cogu tek sozcuk boslugu ya da tek bir sayisal ayrinti); bu 10 soru icin elden
+  gecirme yerine muhtemelen yeniden uretim daha uygun olur.

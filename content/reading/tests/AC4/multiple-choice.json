@@ -51,7 +51,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "option_wording",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Secenek C, pasajin 'gunduz uykusunun alisildik oldugu kulturler ve tam bir gece uykusunun kit oldugu toplumlar' seklindeki iki parcali karsitligini birebir yansitan tek secenek; B bulgunun uygulamadaki bir sonucunu anlatiyor, sorunun ilk paragrafta verilen gerekcesi degil; D pekistirmenin tanimini hedef aliyor, sorunun oz konusunu degil.",
+      "flag_mechanism": "konumsal_duzen"
     },
     {
       "number": 33,
@@ -93,7 +94,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "general_knowledge",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Cevap B, uyku ve uyanikligi karsilastiran bir deneyde adil bir kiyaslamanin temel kosulunun ogrenme ile sinav arasindaki sureyi esit tutmak oldugu genel arastirma yontemi mantigiyla (on iki saatlik esit aralik) parcaya bakmadan da tahmin edilebiliyor.",
+      "flag_mechanism": "genel_kultur"
     },
     {
       "number": "34-35",
@@ -150,7 +152,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "general_knowledge",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Cevaplar C ve E, uyku arastirmalarinda beyin etkinliginin standart olarak polisomnografiyle kaydedilmesi ve kisa sekerlemelerin cogunlukla derin uykuya degil daha hafif (2. evre) uykuya dayanmasi gibi yaygin uyku bilimi bilgisiyle parcaya bakmadan da tahmin edilebiliyor.",
+      "flag_mechanism": "genel_kultur"
     }
   ]
 }

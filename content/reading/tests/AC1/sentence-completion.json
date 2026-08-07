@@ -92,7 +92,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "general_knowledge",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Cevap 'dear enemy', hayvan davranisi biliminde 'dear enemy effect' (tanidik komsuya karsi dusmanligin azalmasi) adiyla bilinen, literaturde yerlesik bir terim; bu genel bilgiyle bosluk parcaya bakmadan da doldurulabiliyor.",
+      "flag_mechanism": "genel_kultur"
     }
   ]
 }

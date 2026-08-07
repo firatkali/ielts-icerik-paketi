@@ -81,7 +81,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "logic",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Baslik 'ii', en yakin celdirici 'vii' (yikilan yamaclarin sayimi) elenerek bulunuyor: paragrafin ilk cumlesi gercekten 700'u askin heyelan ve cigdan soz etse de, geri kalani bu sayimi degil, alisilmis yontemin neden burada islemedigini anlatiyor -- bu ayrim yalniz 'ii'yi dogru birakiyor.",
+      "flag_mechanism": "konumsal_duzen"
     },
     {
       "number": 15,

@@ -398,7 +398,8 @@
           "status": "flagged",
           "blind_solvable": true,
           "blind_basis": "logic",
-          "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+          "flag_reason": "Baslik 'i', secenekler arasinda elemeyle bulunuyor: en yakin celdirici 'vii' (aksamdan sabaha hatirlama) konuca yakin duruyor ama paragraf saat ya da sinama ayrintisi vermiyor, yalniz iki deneyin farkli kisiler/ayni kisiler kurulusunu karsilastiriyor -- bu yuzden yalniz 'i' (ayni soru icin iki tasarim) ana fikri tam karsiliyor.",
+          "flag_mechanism": "konumsal_duzen"
         },
         {
           "number": 12,
@@ -457,7 +458,8 @@
           "status": "flagged",
           "blind_solvable": true,
           "blind_basis": "logic",
-          "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+          "flag_reason": "Baslik 'ix', en yakin celdirici 'viii' (bazi ciftlerin neden zor ogrenildigi) elenerek bulunuyor: paragraf ogrenme zorlugundan degil, hatirlama kazanciminin malzeme turune gore degismesinden soz ediyor; bu ayrim yalniz 'ix'i (sonucun malzemeye bagli olmasi) dogru birakiyor.",
+          "flag_mechanism": "konumsal_duzen"
         },
         {
           "number": 15,
@@ -478,7 +480,8 @@
           "status": "flagged",
           "blind_solvable": true,
           "blind_basis": "logic",
-          "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+          "flag_reason": "Baslik 'v', en yakin celdirici 'ii' (gece uykusunu olusturan evreler) elenerek bulunuyor: paragraf evrelerden soz etse de onlari tanitmiyor, tersine bu evrelerin bellek kazancini aciklamadigini soyluyor -- olumsuz bulgu yalniz 'v'i (surenin aciklamadigi sey) dogru birakiyor.",
+          "flag_mechanism": "konumsal_duzen"
         }
       ]
     }

@@ -35,7 +35,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "general_knowledge",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Cevap YES, oz-bildirime dayali tahminlerin dogrudan olcume kiyasla daha az guvenilir olmasi arastirma yontemlerinde yaygin bilinen bir gercek; bu genel bilgiyle ifadenin dogru olmasi parcaya bakmadan da tahmin edilebiliyor.",
+      "flag_mechanism": "genel_kultur"
     },
     {
       "number": 34,
@@ -56,7 +57,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "general_knowledge",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Cevap NO, gida israfi tartismalarinda kabuk ve kemik gibi pisirmenin kacinilmaz yan urunlerinin 'onlenebilir israf' kategorisinden ayri tutulmasi yaygin bilinen bir siniflandirma sekli; bu genel bilgiyle ifadenin yanlis olmasi parcaya bakmadan da tahmin edilebiliyor.",
+      "flag_mechanism": "genel_kultur"
     },
     {
       "number": 35,
@@ -77,7 +79,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "logic",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Cevap YES, yalniz cop kutusune giden atigi olcen bir yontemin, kompostlama gibi olculmeyen kanallari kapsam disi biraktigi icin gercek toplami her zaman olması gerekenden dusuk gostermesi genel arastirma yontemi mantigiyla parcaya bakmadan da tahmin edilebiliyor.",
+      "flag_mechanism": "konumsal_duzen"
     },
     {
       "number": 36,
@@ -95,7 +98,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "logic",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Ifade, pasajin gidanin atilma nedenlerini ayrintili sekilde saydigi bir yerde, bu listede hic gecmeyen baska bir neden (tarih etiketi karisikligi) one suruyor; boyle 'listede olmayan neden' iddialari genelde NOT GIVEN'a isaret eder.",
+      "flag_mechanism": "konumsal_duzen"
     }
   ]
 }

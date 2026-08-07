@@ -52,7 +52,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "option_wording",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Secenek C'deki 'depends partly on' (kismen bagli) olculu ifadesi, metnin kendi hedge'iyle ('not guaranteed... depends on business need') ortusuyor; A'daki 'any intern' (herhangi bir stajyer) mutlak genellemesi ise metnin 'guclu performans gosterenler' sinirlamasiyla celisiyor -- bu kesinlik farki parcaya bakmadan da C'yi isaret ediyor.",
+      "flag_mechanism": "kip_imzasi"
     },
     {
       "number": 22,
@@ -95,7 +96,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "option_wording",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Secenek A'daki 'may need' (ihtiyac duyabilir) olculu ifadesi, metnin kendi hedge'iyle ('may be required') birebir ortusuyor; B'deki 'not allowed... at all' (kesinlikle yasak) mutlakligi ise metnin daha yumusak ifadesini asiyor -- bu kesinlik derecesi farki parcaya bakmadan da A'yi isaret ediyor.",
+      "flag_mechanism": "kip_imzasi"
     },
     {
       "number": "23-24",
@@ -153,7 +155,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "general_knowledge",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Cevaplar B ve D, uzaktan calisma politikalarinda 'cekirdek saatlerde ulasilabilir olma' ve 'kalici konum degisikligini IK'ya bildirme' gibi sikca rastlanan standart kurallar olmasi sayesinde parcaya bakmadan da tahmin edilebiliyor.",
+      "flag_mechanism": "genel_kultur"
     }
   ]
 }

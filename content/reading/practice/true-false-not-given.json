@@ -77,7 +77,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "logic",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Ifade 'her gun ayni saatte' gibi pasajin ana konusuna (oturum suresi ve gun sayisi) eklenen, ayrica dogrulanmasi gereken dar bir ayrintı ekliyor; bu turden 'konudan sapan ekstra ayrinti' kalibi genelde NOT GIVEN'a isaret eder, parcaya bakmadan da bu oruntuyle tahmin edilebilir.",
+      "flag_mechanism": "konumsal_duzen"
     },
     {
       "number": 4,
@@ -99,7 +100,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "general_knowledge",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Cevap TRUE, hayvan davranisinda yabanci bireylerin tanidiklara gore daha fazla etkilesime girdigi (yenilik arayisi/merak durtusu) yaygin davranis biyolojisi bilgisiyle parcaya bakmadan da tahmin edilebiliyor.",
+      "flag_mechanism": "genel_kultur"
     },
     {
       "number": 5,
@@ -158,7 +160,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "logic",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Ifade, pasajin verdigi zaman bilgilerine (kazi yillari, tanelerin yasi) ek olarak laboratuvar isleminin suresine dair yeni ve dogrulanamayan bir ayrinti ekliyor; bu 'konudan sapan ek sure iddiasi' kalibi genelde NOT GIVEN'a isaret eder.",
+      "flag_mechanism": "konumsal_duzen"
     },
     {
       "number": 8,
@@ -180,7 +183,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "general_knowledge",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Cevap FALSE, bugday evcillestirmesinin geleneksel oykusunun Bereketli Hilal'i tek merkez saydigi bilgisiyle ve 'yeni bulgu' haberlerinin genelde bu tur yerlesik anlatilari sorguladigi yaygin bilim-haberciligi oruntusuyle tahmin edilebiliyor; ifade geleneksel anlatiyi oldugu gibi dogruluyor, bu da genelde boyle pasajlarda curutulen taraf.",
+      "flag_mechanism": "genel_kultur"
     },
     {
       "number": 9,
@@ -219,7 +223,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "logic",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Ifade, pasajin anlattigi yer arastirmasina ('12 Aralik'ta araziye gidildi') ek olarak ulasim bicimine dair dogrulanamayan yeni bir ayrinti (yuruyerek) ekliyor; bu tur somut ama pasajda karsiligi olmayan yontem ayrintilari genelde NOT GIVEN'a isaret eder.",
+      "flag_mechanism": "konumsal_duzen"
     },
     {
       "number": 11,
@@ -241,7 +246,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "logic",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Cevap FALSE, pasajin anlattigi 'coskun buzul enkazi tasimaya devam ediyor' oruntusuyle, bir depremin halihazirda hizlanmis bir buzulu aniden durdurmasi olasi gorunmuyor; doga olaylarini anlatan pasajlarda buyuk bir sarsintinin surmekte olan bir sureci tam tersine 'durdurdugu' iddialari genelde yanlis cikar.",
+      "flag_mechanism": "konumsal_duzen"
     },
     {
       "number": 12,
@@ -283,7 +289,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "general_knowledge",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Cevap TRUE, Herculaneum'un (Pompeii ile birlikte) volkanik kullerin altinda kalarak organik malzemelerin olaganustu iyi korunmasiyla unlu bir arkeoloji sitesi olmasi yaygin bilgisiyle parcaya bakmadan da tahmin edilebiliyor.",
+      "flag_mechanism": "genel_kultur"
     },
     {
       "number": 14,
@@ -322,7 +329,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "general_knowledge",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Cevap FALSE, Herculaneum kurbaninin kafatasindaki koyu maddenin camlasmis beyin dokusu oldugu, bilim habercilikte genis yer bulmus bilinen bir bulgu; bu genel bilgiyle ifadenin (mineral cokelti) yanlis oldugu parcaya bakmadan da tahmin edilebiliyor.",
+      "flag_mechanism": "genel_kultur"
     }
   ]
 }

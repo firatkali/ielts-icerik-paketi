@@ -34,7 +34,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "general_knowledge",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Cevap 'displacement', deprem izlemede kullanilan standart terimin 'yer degisimi' (ground displacement) olmasi yaygin sismoloji bilgisiyle parcaya bakmadan da tahmin edilebiliyor.",
+      "flag_mechanism": "genel_kultur"
     },
     {
       "number": 20,
@@ -55,7 +56,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "logic",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Bosluk 'whereas... looks dark' karsitligina dayanan bir zit anlam boslugu; 'dark'in dogal karsiti 'bright' oldugu icin parcaya bakmadan da tahmin edilebiliyor.",
+      "flag_mechanism": "esdizim_kilidi"
     },
     {
       "number": 21,
@@ -76,7 +78,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "general_knowledge",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Cevap 'surge', buzulbiliminde hizli ilerleme donemleri icin kullanilan yerlesik terim olan 'surge' (ani ilerleme) ile taniniyor; bu genel bilgiyle bosluk parcaya bakmadan da doldurulabiliyor.",
+      "flag_mechanism": "genel_kultur"
     },
     {
       "number": 22,

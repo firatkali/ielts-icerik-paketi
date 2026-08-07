@@ -51,7 +51,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "general_knowledge",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Cevap B, volkanik adalarda magmanin deniz tabani altindaki bacalardan surekli gaz salmasi (fumarol/hidrotermal baca olgusu) yaygin jeoloji bilgisiyle parcaya bakmadan da tahmin edilebiliyor; yazarin jeolojiyi anlatma amacinin sudaki kimyayi aciklamak oldugu boylece cikarilabiliyor.",
+      "flag_mechanism": "genel_kultur"
     },
     {
       "number": 33,
@@ -93,7 +94,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "option_wording",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Secenek A, 'baslanan tarama' ile ayni yil icinde planlanmis bir takip ziyaretini eslestiren tek secenek; B taramanin ilkligini iddia ediyor (kapsam abartma), C yontemin yerini degistiriyor, D var olmayan bir basarisiz denemeden soz ediyor -- yalniz A metnin verdigi somut ayrintiyla (Agustos'taki takip ziyareti) birebir ortusuyor.",
+      "flag_mechanism": "konumsal_duzen"
     },
     {
       "number": "34-35",
@@ -150,7 +152,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "general_knowledge",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Cevaplar C ve F, asitlenme calismalarinin tipik olarak biri 'canli topluluk' (deniz tabani ekosistemi) digeri 'iskelet ic yapisi' seklinde iki ayri arastirma eksenine ayrilmasi -- bilim habercileri anlatimlarinin yaygin bir kalibi -- bilgisiyle parcaya bakmadan da tahmin edilebiliyor.",
+      "flag_mechanism": "genel_kultur"
     }
   ]
 }

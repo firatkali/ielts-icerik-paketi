@@ -51,7 +51,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "general_knowledge",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Cevap B, Herculaneum'un volkanik kul altinda organik malzemelerin (ahsap, kumas, yiyecek) olaganustu iyi korunmasiyla unlu olmasi yaygin arkeoloji bilgisiyle parcaya bakmadan da tahmin edilebiliyor.",
+      "flag_mechanism": "genel_kultur"
     },
     {
       "number": 33,
@@ -93,7 +94,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "logic",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Cevap C, ozel goruntu isleme yonteminin islevini dogrudan veriyor: miyelinin tekrarlayan desenini yakalayarak gercek sinir yapilarini rastgele camsi kalintidan ayirmak; A kimyasal bilesim olcumunu, B katman butunlugunu dogrulamayi, D ornek sayisini iddia ediyor, ucu de metnin verdigi islevle celisir.",
+      "flag_mechanism": "konumsal_duzen"
     },
     {
       "number": "34-35",
@@ -150,7 +152,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "general_knowledge",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Cevap B, organik dokunun buyuk kismini karbon ve oksijenin olusturmasi temel kimya/biyoloji bilgisiyle (organik maddenin karbon temelli olmasi) parcaya bakmadan da tahmin edilebiliyor; F ise beyin dokusuna ozgu bir sinyal proteininin varligini, camlasmis dokunun gercekten beyin kokenli oldugunu gosteren beklenen bir bulgu olarak tasiyor.",
+      "flag_mechanism": "genel_kultur"
     }
   ]
 }

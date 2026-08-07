@@ -91,7 +91,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "logic",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Bosluk 'dealt with collecting and disposing of waste rather than its ___' karsitligina dayaniyor; atik politikasi soyleminde 'toplama/bertaraf' ile karsit kavram olarak hep 'onleme' (prevention) anilir -- bu yerlesik karsitlik kalibiyla parcaya bakmadan da tahmin edilebiliyor.",
+      "flag_mechanism": "esdizim_kilidi"
     }
   ]
 }

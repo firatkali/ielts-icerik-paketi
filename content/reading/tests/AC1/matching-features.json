@@ -57,7 +57,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "logic",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Cevap D, secenekler arasinda elemeyle bulunuyor: C'deki azalma uc gunluk donem icindeki genel egilim, oysa ifade yedinci gundeki iki bulusma turunun karsilastirmasini soruyor; E ise tam ters yonde (yabancilar daha erken temas ediyor) -- bu ayrim yalniz D'yi (eski es) dogru birakiyor.",
+      "flag_mechanism": "konumsal_duzen"
     },
     {
       "number": 24,
@@ -95,7 +96,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "option_wording",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Ifadedeki 'no way at all of sensing' (hicbir sekilde algilayamama) mutlak ifadesi, secenek metninde yalniz B'nin 'solid screen' (isik gecirmez bolme) tanimiyla ortusuyor; A'daki 'see-through screen' gorme yoluyla algilamaya izin verdigi icin bu mutlakliga uymuyor.",
+      "flag_mechanism": "kip_imzasi"
     },
     {
       "number": 26,
@@ -115,7 +117,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "option_wording",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Ifadedeki 'on its own' (tek basina) ifadesi, yalniz gormeye izin verilip baska hicbir duyuya izin verilmeyen bir grubu gerektiriyor; secenekler arasinda yalniz A (seffaf bolme) bu 'sadece gorme' kosuluna uyuyor, B'de hic gorme de yok, C'de gorme + dokunma birlikte var.",
+      "flag_mechanism": "kip_imzasi"
     }
   ]
 }

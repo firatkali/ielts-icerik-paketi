@@ -92,7 +92,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "logic",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Bosluk 'how often people put on ___' kalibinin ucunda; ofis ortaminda 'put on' fiiliyle en dogal eslesen nesne kulaklik oldugu icin parcaya bakmadan da tahmin edilebiliyor.",
+      "flag_mechanism": "esdizim_kilidi"
     },
     {
       "number": 5,
@@ -113,7 +114,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "guess",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Net bir mekanizma yok: 'merely a ___ effect' kalibinda 'novelty' en olasi sozcuklerden biri olsa da 'temporary', 'short-term', 'placebo' gibi alternatifler de ayni kaliba uyuyor; dogru sozcugun tutturulmasi parcaya bakmadan buyuk olcude sansa dayaniyor.",
+      "flag_mechanism": "belirsiz"
     },
     {
       "number": 6,

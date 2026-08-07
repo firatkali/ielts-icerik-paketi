@@ -34,7 +34,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "general_knowledge",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Cevap 'caldera', bir yanardagin cokmesiyle olusan halka bicimli cokuntu icin kullanilan yerlesik jeoloji terimi; sorunun kendisi zaten bu tanimi ('volcano that fell in on itself') verdigi icin terim genel bilgiyle parcaya bakmadan da tahmin edilebiliyor.",
+      "flag_mechanism": "genel_kultur"
     },
     {
       "number": 37,
@@ -75,7 +76,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "general_knowledge",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Cevap 'weedy algae', asitlenen sularda saglikli mercanin yerini yosunun almasinin iklim/okyanus bilimi haberciliginde sikca tekrarlanan bilinen bir oruntu olmasi sayesinde parcaya bakmadan da tahmin edilebiliyor.",
+      "flag_mechanism": "genel_kultur"
     },
     {
       "number": 39,
@@ -96,7 +98,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "general_knowledge",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Cevap 'bioerosion', canlilarin oydugu bicimde iskeleti icten zayiflatan surec icin deniz biyolojisinde kullanilan yerlesik terim; cumledeki tanimin kendisi ('mikroskobik canlilarin iskeleti icten deldigi') bu terimi genel bilgiyle cagristirdigi icin parcaya bakmadan da tahmin edilebiliyor.",
+      "flag_mechanism": "genel_kultur"
     },
     {
       "number": 40,

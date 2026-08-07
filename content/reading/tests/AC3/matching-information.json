@@ -61,7 +61,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "logic",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Cevap H, benzer 'sinirlilik' iceren paragraflar elenerek bulunuyor: G'deki sinirlama isil kosullarin dar araligiyla ilgili, C bulgunun ne kadar ender oldugunu soyluyor; yalniz H bulgunun tek bir bireye ait oldugunu ve baska kurbanlara genellenemeyecegini acikca soyluyor.",
+      "flag_mechanism": "konumsal_duzen"
     },
     {
       "number": 29,
@@ -83,7 +84,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "guess",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Net bir mekanizma yok: sinir liflerinin kalinligini yasayan bir beyinle karsilastiran sayisal olcum birden fazla paragrafta (D, E, G) sayisal veri barindirdigi icin, dogru paragrafi (E) bulmak parcaya bakmadan buyuk olcude sansa dayaniyor.",
+      "flag_mechanism": "belirsiz"
     },
     {
       "number": 30,

@@ -58,7 +58,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "guess",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Net bir mekanizma yok: bosluk levhanin malzemesini istiyor, 'acrylic' disinda 'plastic', 'glass', 'plexiglass' gibi baska malzeme adlari da esit derecede olasi; dogru sozcugun tutturulmasi buyuk olcude sansa dayaniyor.",
+      "flag_mechanism": "belirsiz"
     },
     {
       "number": 2,
@@ -158,7 +159,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "general_knowledge",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Cevap 'right eye', hayvan davranisi arastirmalarinda sosyal/gorsel uyaranlarin islenmesinde sikca sag goz tercihinin (sol beyin yarikuresi baskinligi) bildirilmesi bilinen bir oruntu; bu genel bilgiyle bosluk parcaya bakmadan da tahmin edilebiliyor.",
+      "flag_mechanism": "genel_kultur"
     }
   ]
 }

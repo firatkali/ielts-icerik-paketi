@@ -32,7 +32,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "logic",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Ifade, pasajin hukumetlerin gonulluluğu tesvik ettigini yalnizca aktardigi bir yerde, hic yer almayan bir politika onerisi/yeterlilik yargisi ('daha fazla yapilmali') ekliyor; boyle 'yazarin gorusu' iddialari, metin salt durum tespiti yaptiginda genelde NOT GIVEN'a isaret eder.",
+      "flag_mechanism": "konumsal_duzen"
     },
     {
       "number": 34,
@@ -53,7 +54,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "general_knowledge",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Cevap YES, oz-bildirimli sagligin gelecekteki hastalik ve olumu guvenilir bicimde ongordugunun saglik arastirmalari literaturunde iyi bilinen, sik atif yapilan bir bulgu olmasi sayesinde parcaya bakmadan da tahmin edilebiliyor.",
+      "flag_mechanism": "genel_kultur"
     },
     {
       "number": 35,
@@ -74,7 +76,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "logic",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Cevap YES, gonulluluğun agi genisletme ve beceri kazandirma yoluyla gelire dolayli katki saglayabilecegi fikri kendi icinde makul/sezgisel bir ekonomik mantik tasiyor; boyle 'akla yatkinlik' sorulari, iddia bariz bir sacmalik icermedigi surece genelde YES olarak dogrulanir, bu genel orntuyle parcaya bakmadan da tahmin edilebilir.",
+      "flag_mechanism": "konumsal_duzen"
     },
     {
       "number": 36,
@@ -95,7 +98,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "logic",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Cevap NO, arastirma haberciliginde 'beklenen aciklama (gelir) sanildigi kadar guclu cikmadi, asil pay baska bir mekanizmadan geliyor' turunden sasirtici bulgu anlatilarinin yaygin bir kalip olmasi; boyle bir makalede gelirin 'cogunlugu' acikladigi iddiasi bu tipik anlati kalibiyla celistigi icin parcaya bakmadan da yanlis oldugu tahmin edilebiliyor.",
+      "flag_mechanism": "konumsal_duzen"
     }
   ]
 }

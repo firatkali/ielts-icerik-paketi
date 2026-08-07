@@ -77,7 +77,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "logic",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Cevap J ('within-subject'), cumlenin kendisi bosluktan hemen sonra terimin tanimini veriyor ('the very same volunteers went through both...'); kelime bankasindaki karsit terim C ('between-subjects') farkli katilimcilari gerektirdigi icin bu tanimla celisiyor, boylece terim parcaya bakmadan da secilebiliyor.",
+      "flag_mechanism": "tanim_sizintisi"
     },
     {
       "number": 37,
@@ -99,7 +100,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "logic",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Bosluk 'stayed ___ until an evening test' kalibinin ucunda; 'stayed awake' Ingilizcede kaliplasmis bir ifade oldugu icin, kelime bankasindaki karsit secenek 'a chance to sleep' bu kaliba uymadigindan parcaya bakmadan da 'awake' tahmin edilebiliyor.",
+      "flag_mechanism": "esdizim_kilidi"
     },
     {
       "number": 38,
@@ -121,7 +123,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "general_knowledge",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Cevap D ('connected in meaning'), uykunun bellek pekistirmedeki katkisinin anlamca iliskili/cagrisimli bilgilerde daha guclu oldugu bilissel bilim bilgisiyle parcaya bakmadan da tahmin edilebiliyor; kelime bankasindaki karsit secenek I ('unrelated in meaning') bu ozelligin tam tersini tasiyor.",
+      "flag_mechanism": "genel_kultur"
     },
     {
       "number": 39,
@@ -143,7 +146,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "logic",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Bosluk 'produced almost (39)___' kalibinda; 'almost' (neredeyse) sozcugu yakinlik/esitlik bildiren bir ifadeyle dogal olarak eslesiyor, kelime bankasindaki 'much weaker results' ise buyuk bir farki ima ettigi icin bu kalipla celisiyor -- bu dilbilgisel uyum yalniz 'equal benefits'i birakiyor.",
+      "flag_mechanism": "esdizim_kilidi"
     },
     {
       "number": 40,
@@ -166,7 +170,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "logic",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Bosluk 'simply getting (40)___ counted for more...' kalibinda; 'getting a chance to X' Ingilizcede yerlesik bir ifade oldugu icin, sekerlemenin ic yapisindan degil firsatin kendisinden soz edildigi bu kalip parcaya bakmadan da 'a chance to sleep'i isaret ediyor.",
+      "flag_mechanism": "esdizim_kilidi"
     }
   ]
 }

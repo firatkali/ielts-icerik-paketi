@@ -53,7 +53,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "general_knowledge",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Cevap B, bilimsel deneylerde denekleri eslestirirken en yaygin kullanilan olcutun agirlik olmasi genel bilgisiyle tahmin edilebiliyor; cinsiyet (A), toplanma mevsimi (C) ve komsuluk (D) daha az tipik eslestirme olcutleri, parcaya bakmadan da B en olasi secenek.",
+      "flag_mechanism": "genel_kultur"
     },
     {
       "number": 2,
@@ -96,7 +97,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "logic",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Cevap A, 'hayvanlar tanismadan onceki uc gunun amaci' sorusuna deney mantigiyla tek tutarli yaniti veriyor: yalnizca gorsel maruziyeti sinamak cok evreli deneylerin tipik ilk adimi; B (toparlanma), C (ustunluk siralamasi) ve D (koku) sonraki ya da farkli evrelerle ilgili, elenir.",
+      "flag_mechanism": "konumsal_duzen"
     },
     {
       "number": "3-4",
@@ -154,7 +156,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "option_wording",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Dogru secenekler C ve F, 'probably' ve 'cannot yet be excluded' gibi olculu/temkinli ifadeler tasiyor; celdiriciler ise 'essential', 'nothing at all', 'sharpest results' gibi mutlak ifadeler kullaniyor -- bu kesinlik derecesi farki parcaya bakmadan da dogru ikiliyi ayirt ettiriyor.",
+      "flag_mechanism": "kip_imzasi"
     },
     {
       "number": 5,
@@ -197,7 +200,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "option_wording",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "B, sitenin olcegini donemin kucuk gocer topluluklari baglamiyla karsilastirmali bicimde sunan tek secenek; A sureye, C buluntu durumuna, D ticaret yoluna kayiyor -- yalniz B 'ayirt eden ozellik' sorusunun istedigi karsilastirmali cerceveyi tasiyor.",
+      "flag_mechanism": "konumsal_duzen"
     },
     {
       "number": 6,
@@ -240,7 +244,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "general_knowledge",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Cevap D, 'hexaploid' teriminin kendisinin alti kromozom takimi anlamina geldigi genel biyoloji bilgisiyle (hexa- oneki) tahmin edilebiliyor; parcaya bakmadan da terimin kokeninden kromozom sayisi cikarilabiliyor.",
+      "flag_mechanism": "genel_kultur"
     },
     {
       "number": "7-8",
@@ -298,7 +303,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "option_wording",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Dogru secenekler C ve F, 'may have appeared earlier' ve 'may have been present' gibi temkinli ifadeler tasiyor; celdiriciler D ('disproved' -- curutuyor) ve E ('descends directly' -- dogrudan soyu geliyor) gibi kesin/abartili iddialar kuruyor -- kesinlik derecesi farki parcasiz da ayirt ettiriyor.",
+      "flag_mechanism": "kip_imzasi"
     },
     {
       "number": "9-10",
@@ -356,7 +362,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "general_knowledge",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Cevaplar B ve E, buyuk buzullu siradaglarin (St Elias gibi) genelde bir ulke siniri boyunca uzanmasi ve derin buzla ortulu olmasi gibi yaygin cografya bilgisiyle parcaya bakmadan da tahmin edilebiliyor.",
+      "flag_mechanism": "genel_kultur"
     },
     {
       "number": 11,
@@ -399,7 +406,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "general_knowledge",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Cevap D, uydu goruntuleriyle hasar tespitinin 'oncesi-sonrasi karsilastirmasi' yontemiyle yapildigi genel bilgisiyle (standart afet izleme yontemi) parcaya bakmadan da tahmin edilebiliyor.",
+      "flag_mechanism": "genel_kultur"
     },
     {
       "number": 12,
@@ -442,7 +450,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "logic",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Cevap C, arastirmaci alintisinin islevini metnin genel anlati mantigiyla veriyor: 'daha once benzeri kaydedilmedi' ifadesi sira disiligi vurgular, bu yuzden A (beklenti), B (erisim), D (kusku) alintinin icerigiyle celisir ve elenir.",
+      "flag_mechanism": "konumsal_duzen"
     },
     {
       "number": 13,
@@ -485,7 +494,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "general_knowledge",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Cevap A, deney tasariminda kosul sirasinin rastgelestirilmesinin klasik amacinin 'tekrar test etme etkisini' (practice/order effect) kontrol altina almak oldugu genel arastirma yontemi bilgisiyle parcaya bakmadan da tahmin edilebiliyor.",
+      "flag_mechanism": "genel_kultur"
     },
     {
       "number": 14,
@@ -528,7 +538,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "logic",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Cevap C, karsilastirma ortaminin bir deneyde 'notr/sakin kontrol kosulu' olarak secilmesinin arastirma mantigiyla tek tutarli gerekce oldugunu gosteriyor; B ortami tam tersine ceviriyor, A ve D ilgisiz ayrintilara dayaniyor, bu yuzden elenir.",
+      "flag_mechanism": "konumsal_duzen"
     },
     {
       "number": 15,
@@ -571,7 +582,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "option_wording",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Secenek D, 'daha uzun/baska mevsim/baska kultur' biciminde siralanan liste yapisiyla bilimsel makalelerin tipik 'gelecek calisma onerisi' kalibini tasiyan tek secenek; C bunu tam tersine cevirip yalnizca kisa daraltiyor, A ve B onerilmeyen ayrintilara dayaniyor.",
+      "flag_mechanism": "konumsal_duzen"
     }
   ]
 }

@@ -89,7 +89,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "general_knowledge",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Cevap TRUE, birbirine yakin kucuk gok cisimlerinin yorungelerini izlemenin (cok-cisim etkilesimi) uzmanlar icin bile zorlu bir problem olmasi genel astronomi/fizik bilgisiyle parcaya bakmadan da tahmin edilebiliyor.",
+      "flag_mechanism": "genel_kultur"
     },
     {
       "number": 11,
@@ -110,7 +111,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "general_knowledge",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Cevap TRUE, yerden yapilan gozlemlerin cozunurluk gucunun uzay araclarininkinden bile genelde daha sinirli olmasi bilgisiyle, Voyager'in bile goremedigi kucuklukte bir uydunun yer teleskoplariyla da goruntulenemeyecegi parcaya bakmadan da tahmin edilebiliyor.",
+      "flag_mechanism": "genel_kultur"
     },
     {
       "number": 12,
@@ -131,7 +133,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "general_knowledge",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Cevap FALSE, bir gezegenin belirli bir ozelligini konu eden 'yeni kesif' haberlerinin genelde o gezegeni bu ozellikte benzersiz/rekor sayan bir cerceveyle anlatilmasi yaygin bilim habercisi kalibi; boyle bir haberde Uranüs'un kucuk ic uydu sayisinda one cikarilmasi beklendigi icin 'baska bir gezegen daha fazlasina sahip' iddiasinin yanlis olmasi parcaya bakmadan da tahmin edilebilir.",
+      "flag_mechanism": "genel_kultur"
     },
     {
       "number": 13,
@@ -149,7 +152,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "logic",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Ifade, pasajin sonucun henuz hakemli bir yayina donusmedigini soyledigi bir yerde, hic verilmeyen bir zaman cizelgesi (bir yil icinde) iddiasi ekliyor; boyle somut ama pasajda karsiligi olmayan takvim iddialari genelde NOT GIVEN'a isaret eder.",
+      "flag_mechanism": "konumsal_duzen"
     }
   ]
 }

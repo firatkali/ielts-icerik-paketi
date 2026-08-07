@@ -92,7 +92,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "general_knowledge",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Cevap 'tyre', fil bakimevlerinde/hayvanat bahcelerinde traktor lastiklerinin sik kullanilan bir zenginlestirme/oyuncak nesnesi olmasi yaygin bilgisiyle (fil + traktor lastigi eslesmesi) parcaya bakmadan da tahmin edilebiliyor.",
+      "flag_mechanism": "genel_kultur"
     },
     {
       "number": 5,
@@ -113,7 +114,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "logic",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Bosluk 'hidden round a ___' kalibinin ucunda; 'a corner' (kose) bu kalibin en dogal ve yaygin tamamlamasi oldugu icin parcaya bakmadan da tahmin edilebiliyor.",
+      "flag_mechanism": "esdizim_kilidi"
     },
     {
       "number": 6,

@@ -81,7 +81,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "logic",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Baslik 'iv', en yakin celdirici 'ix' (saklama bicimi) elenerek bulunuyor: paragrafin ilk cumlesi korunmusluktan soz etse de asil konu tanelerin turunun hic dogrulanmamis olmasi; bu ayrim yalniz 'iv'i (kimligi belirsiz kalan bulgular) dogru birakiyor.",
+      "flag_mechanism": "konumsal_duzen"
     },
     {
       "number": 15,

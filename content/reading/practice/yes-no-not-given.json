@@ -37,7 +37,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "logic",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Ifade, pasajin tek bir tam uzaktan sirketi anlattigi bir calismada, hic ele alinmayan bir baska kategoriyle (ofis tabanli sirketler) karsilastirma kuruyor; pasaj tek vaka inceledigi icin boyle bir kiyaslama iddiasi genelde NOT GIVEN'a isaret eder.",
+      "flag_mechanism": "konumsal_duzen"
     },
     {
       "number": 2,
@@ -59,7 +60,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "general_knowledge",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Cevap YES, yeni calisanlarin rastgele/sira usulu bicimde takimlara atanmasinin arastirmalarda nedensellik cikarimini guclendiren bilinen bir yontem (rastgele atama mantigi, deneysel kontrollu calismalara benzer) olmasi genel arastirma yontemi bilgisiyle parcaya bakmadan da tahmin edilebiliyor.",
+      "flag_mechanism": "genel_kultur"
     },
     {
       "number": 3,
@@ -81,7 +83,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "option_wording",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Ifadedeki 'clearly' (acikca) mutlak zarfi, arastirma bulgularini aktaran ifadelerde sik sik abarti sinyali; 'yildiz calisan etkisi' arastirmalarinda genelde beklenenin aksine sinirli ya da sifir etki bulunmasi bilgisiyle birlikte, ifadenin YANLIS olacagi parcaya bakmadan da tahmin edilebiliyor.",
+      "flag_mechanism": "kip_imzasi"
     },
     {
       "number": 4,
@@ -103,7 +106,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "general_knowledge",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Cevap YES, deneyimli calisanlarin yeni gelenlere hedefli rehberlik sunabildigi, isyeri mentorlugu uzerine yaygin genel bilgiyle (deneyim aktarimi) parcaya bakmadan da makul bir tahmin.",
+      "flag_mechanism": "genel_kultur"
     },
     {
       "number": 5,
@@ -125,7 +129,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "general_knowledge",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Cevap YES, acik ofislerin yararli mi zararli mi oldugu tartismasinin populer is yasami soyleminde yaygin ve bilinen bir anlasmazlik konusu olmasi sayesinde parcaya bakmadan da tahmin edilebiliyor.",
+      "flag_mechanism": "genel_kultur"
     },
     {
       "number": 6,
@@ -147,7 +152,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "logic",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Cevap NO, dort ofis duzenini karsilastiran bir deneyi konu eden pasajlarda genelde raporlanacak bir sonuc (net bir siralama) bulunur; ifadenin 'net bir siralama cikmadi' iddiasi bu tur karsilastirmali calisma anlatilarinin olagan oruntusuyle celisir.",
+      "flag_mechanism": "konumsal_duzen"
     },
     {
       "number": 7,
@@ -169,7 +175,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "logic",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Cevap YES, pasaj dort duzeni ikiserli gruplar (tam acik/sabit masasiz vs. yari kapali) halinde karsilastiriyor; 'yari kapali alanlar dikkat daginikligini azaltir' sezgisel ofis ergonomisi mantigiyla, iki yari kapali duzenin odaklanmada one cikmasi parcaya bakmadan da beklenen bir sonuc.",
+      "flag_mechanism": "konumsal_duzen"
     },
     {
       "number": 8,
@@ -188,7 +195,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "logic",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Ifade, pasajin yalnizca deney sonuclarini ve onerileri sundugu bir baglamda, sirketin deney sonrasi ne karar verdigine dair hic ele alinmayan bir uygulama ayrintisi ekliyor; bu tur 'deneyden sonra ne oldu' sorularinin pasajda karsiligi cogu zaman yoktur, bu oruntuyle NOT GIVEN tahmin edilebilir.",
+      "flag_mechanism": "konumsal_duzen"
     },
     {
       "number": 9,
@@ -210,7 +218,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "general_knowledge",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Cevap YES, dogal ortamlarin stres azalttigi gorusunun zaten toplumda yaygin kabul goren bir inanc olmasi nedeniyle, ifadenin dogrulugu parcaya bakmadan da tahmin edilebiliyor.",
+      "flag_mechanism": "genel_kultur"
     },
     {
       "number": 10,
@@ -229,7 +238,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "logic",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Ifade, pasajin yalnizca grup toplami olarak rapor ettigi sonuclari cinsiyete gore ayristiriyor; toplulastirilmis sonuclar veren arastirma pasajlarinda boyle alt-grup kiyaslamalari genelde verilmez, bu oruntuyle NOT GIVEN tahmin edilebilir.",
+      "flag_mechanism": "konumsal_duzen"
     },
     {
       "number": 11,
@@ -251,7 +261,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "logic",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Cevap NO, pasajda kampus noktasi ormana karsi bir 'kontrol kosulu' olarak tasarlanmis; deney mantiginda kontrol kosulunun tedavi kosuluyla (orman) ayni etkiyi gostermesi beklenmez -- bu genel deney mantigiyla ifadenin YANLIS olmasi parcaya bakmadan da tahmin edilebilir.",
+      "flag_mechanism": "konumsal_duzen"
     },
     {
       "number": 12,
@@ -273,7 +284,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "general_knowledge",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Cevap YES, bilim haberciliginde yayimlanan pilot calismalarin genelde ele aldiklari hipotezi destekleyen (olumlu) bir sonucla sunulmasi yaygin oruntusuyle -- 'doganin kisin da sakinlestirici etkisi surdugu' bulgusu parcaya bakmadan da beklenen sonuc.",
+      "flag_mechanism": "genel_kultur"
     },
     {
       "number": 13,
@@ -292,7 +304,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "logic",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Ifade, pasajin yalnizca genc yetiskinlerle yuruttugu bir calismaya, hic sinanmamis bir yas grubunu (yasli yetiskinler) ekleyerek karsilastirma kuruyor; tek bir yas grubuyla calisan pasajlarda boyle capraz-yas kiyaslamalari genelde verilmez, bu oruntuyle NOT GIVEN tahmin edilebilir.",
+      "flag_mechanism": "konumsal_duzen"
     },
     {
       "number": 14,
@@ -314,7 +327,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "option_wording",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Ifadedeki 'made no difference' (hic fark yaratmadi) mutlak olumsuzlamasi, arastirma temelli pasajlarda genelde yanlis cikan bir kalip: pasaj bir calismayi anlattigina gore malzeme turunun sonucu etkiledigi (bir farkin bulundugu) beklenir; bu genel oruntuyle ifadenin YANLIS oldugu parcaya bakmadan da tahmin edilebilir.",
+      "flag_mechanism": "kip_imzasi"
     },
     {
       "number": 15,
@@ -336,7 +350,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "general_knowledge",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Cevap NO, kisa sekerlemelerin tam bir gece uykusunun yerini butunuyle tutamayacagi, uyku biliminin populerlesmis temel bilgisiyle (derin/REM evrelerinin karmasik bellek gorevlerinde onemli oldugu) parcaya bakmadan da tahmin edilebiliyor.",
+      "flag_mechanism": "genel_kultur"
     }
   ]
 }

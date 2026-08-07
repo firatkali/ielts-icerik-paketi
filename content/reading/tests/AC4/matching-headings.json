@@ -138,7 +138,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "logic",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Baslik 'vi', en yakin celdirici 'x' (anketlerin doldurulma suresi) elenerek bulunuyor: paragraf dort olcegin madde sayilarini sayarak uzunluk izlenimi birakiyor, ama doldurma suresi hic verilmiyor; asil vurgu her olcegin deneyimin oncesinde ve sonrasinda doldurulmasi, bu da yalniz 'vi'yi dogru birakiyor.",
+      "flag_mechanism": "konumsal_duzen"
     },
     {
       "number": 18,
@@ -159,7 +160,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "logic",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Baslik 'viii', en yakin celdirici 'i' (katilimcilarin enerjisinde sasirtici artis) ile tam ters yonde: paragraf 'canlilik, alisilmadik bicimde, yukselmedi' diyor, yani 'i' bulguyu tersine ceviriyor; olumsuz duygularin azalip dinlendiriciligin arttigi ama enerjinin artmadigi ikili tablo yalniz 'viii'i dogru birakiyor.",
+      "flag_mechanism": "konumsal_duzen"
     }
   ]
 }

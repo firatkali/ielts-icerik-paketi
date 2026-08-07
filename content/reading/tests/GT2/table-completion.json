@@ -100,7 +100,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "logic",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Bosluk 'an up-to-date ___' kalibinin ucunda; is basvurularinda bu kalibin en dogal ve tek yaygin tamamlamasi 'CV' (ozgecmis) oldugu icin parcaya bakmadan da tahmin edilebiliyor.",
+      "flag_mechanism": "esdizim_kilidi"
     },
     {
       "number": 17,
@@ -183,7 +184,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "logic",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Bosluk, stajyerlik programlarinda 'kendi bolumunden biriyle haftada bir gorusme' kalibinin tanimladigi rolu istiyor; bu rol Ingilizce is dunyasinda yerlesik bicimde 'mentor' olarak adlandirildigi icin parcaya bakmadan da tahmin edilebiliyor.",
+      "flag_mechanism": "esdizim_kilidi"
     }
   ]
 }

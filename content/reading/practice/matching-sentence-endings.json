@@ -75,7 +75,8 @@
           "status": "flagged",
           "blind_solvable": true,
           "blind_basis": "logic",
-          "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+          "flag_reason": "Sekiz son da dilbilgisi olarak 'because'e uyuyor, ama icerik olarak yalniz A deneysel tasarimin klasik 'kontrol kosulu' mantigini (yeni nesneye meraki yansimaya tepkiden ayirma) veriyor; en yakin celdirici G ayni paragraftan bir sure karsilastirmasi ama sonuc, neden degil.",
+          "flag_mechanism": "konumsal_duzen"
         },
         {
           "number": 2,
@@ -96,7 +97,8 @@
           "status": "flagged",
           "blind_solvable": true,
           "blind_basis": "option_wording",
-          "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+          "flag_reason": "Son E, 'self-directed' (kendine yonelik) teriminin karsiti olan 'own body rather than at another animal' (kendi bedeni / baska bir hayvan) karsitligini dogrudan yansitiyor; sekiz son da dilbilgisi olarak uydugu icin ayrim yalniz bu sozcuk karsitligindan, yani sozcuk duzeyinde eslesmeden geliyor.",
+          "flag_mechanism": "konumsal_duzen"
         },
         {
           "number": 3,
@@ -117,7 +119,8 @@
           "status": "flagged",
           "blind_solvable": true,
           "blind_basis": "logic",
-          "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+          "flag_reason": "Son B, 'goz ya da kulak arkasi' konumunun sinav mantigiyla ortusen tek son: klasik ayna-isaret testinde isaret hayvanin kendiliginden goremeyecegi bir yere konur, bu B'nin ifadesiyle birebir ortusuyor; oteki yedi son bu konum mantigina deginmiyor.",
+          "flag_mechanism": "konumsal_duzen"
         },
         {
           "number": 4,
@@ -138,7 +141,8 @@
           "status": "flagged",
           "blind_solvable": true,
           "blind_basis": "logic",
-          "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+          "flag_reason": "Son C, 'gercek isaretle sahte isaret arasindaki sure farki' mantigiyla tek tutarli sonuc: hayvan aynadan hoslaniyor olsaydi sure farki olmazdi, sure farki yalniz isaretin kendisinin incelendigini gosterir; dilbilgisi olarak kusursuz oturan H ise anlamca alakasiz en yakin celdirici.",
+          "flag_mechanism": "konumsal_duzen"
         },
         {
           "number": 5,
@@ -159,7 +163,8 @@
           "status": "flagged",
           "blind_solvable": true,
           "blind_basis": "logic",
-          "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+          "flag_reason": "Son D, 'testi gecebilen turlerde bile bireysel farklilik olmasi' genel arastirma mantigiyla en tutarli gerekce; F ayni paragraftan goz tercihiyle ilgili bir gozlem ama basarisizlik sayilmama gerekcesi degil, bu yuzden elenir.",
+          "flag_mechanism": "konumsal_duzen"
         }
       ]
     },
@@ -227,7 +232,8 @@
           "status": "flagged",
           "blind_solvable": true,
           "blind_basis": "option_wording",
-          "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+          "flag_reason": "Son B, 'gelir bilgisini tam paylasmamis olmak' arastirma yontemi metinlerinde katilimcilarin columlemeden disarida birakilmasi icin standart gerekcedir; sekiz son sayi uyumu bakimindan hepsi uygun olsa da yalniz B bu tipik 'eksik veri' ifadesini tasiyor.",
+          "flag_mechanism": "konumsal_duzen"
         },
         {
           "number": 7,
@@ -248,7 +254,8 @@
           "status": "flagged",
           "blind_solvable": true,
           "blind_basis": "logic",
-          "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+          "flag_reason": "Son C, farki somutlastirma mantigiyla tek tutarli secenek: yazarlar farki bir buyuklukle kiyasliyor, G ise tutarliliktan soz ediyor buyukluktan degil -- bu ayrim C'yi elemeden birakiyor.",
+          "flag_mechanism": "konumsal_duzen"
         },
         {
           "number": 8,
@@ -269,7 +276,8 @@
           "status": "flagged",
           "blind_solvable": true,
           "blind_basis": "option_wording",
-          "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+          "flag_reason": "Son D, baslangictaki 'Bulgaristan, Macaristan ve Litvanya' ulke karsitligini dogrudan bir baska ulke grubuyla (Almanya, Norvec) tamamliyor; F ayni paragraftan bir karsilastirma ama ulke degil dindarlik ekseninde, bu yuzden yalniz D karsitlik yapisina oturuyor.",
+          "flag_mechanism": "konumsal_duzen"
         },
         {
           "number": 9,
@@ -290,7 +298,8 @@
           "status": "flagged",
           "blind_solvable": true,
           "blind_basis": "logic",
-          "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+          "flag_reason": "Son A, 'gonulluluğun geliri nasil artirabilecegi' sorusuna ekonomi mantigiyla tek tutarli yaniti veriyor: beceri kazanimi ve isverene guvenilirlik gostermek gelirle iliskilendirilebilecek tek son; oteki sonlar gelirle ilgisiz bir bulguya bagli.",
+          "flag_mechanism": "konumsal_duzen"
         },
         {
           "number": 10,
@@ -311,7 +320,8 @@
           "status": "flagged",
           "blind_solvable": true,
           "blind_basis": "logic",
-          "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+          "flag_reason": "Son E, 'gonullu isin bedensel hareket gerektirmesi' saglik yararini aciklayan tek son: hareketin sagliga iyi geldigi genel bilgisiyle ortusuyor; oteki sonlar (gelir, dindarlik, tutarlilik) saglikla dogrudan iliskili degil.",
+          "flag_mechanism": "konumsal_duzen"
         }
       ]
     }

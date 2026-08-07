@@ -138,7 +138,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "logic",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Baslik 'iii', en yakin celdirici 'vii' (kabuklar ve mutfak artiklari) elenerek bulunuyor: paragrafin ilk iki cumlesi yenilebilir yiyeceklerin dokumunu siraliyor, kabuklardan soz eden yalniz son cumle; agirlik yenilebilir kalemlerde oldugu icin bu ayrim 'iii'u dogru birakiyor.",
+      "flag_mechanism": "konumsal_duzen"
     },
     {
       "number": 32,

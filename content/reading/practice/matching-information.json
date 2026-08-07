@@ -151,7 +151,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "logic",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Cevap H, benzer 'belirsizlik' iceren paragraflar elenerek bulunuyor: C'deki belirsizlik boyutun tahminiyle, E'deki bekleyen onay ismin verilmesiyle ilgili; yalniz H bulgunun henuz hakem degerlendirmesinden gecmedigini soyluyor, bu da istenen 'meslektaslarca henuz incelenmedigi itirafi'na tam karsilik geliyor.",
+      "flag_mechanism": "konumsal_duzen"
     },
     {
       "number": 7,

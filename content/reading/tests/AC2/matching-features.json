@@ -57,7 +57,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "logic",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Cevap A, secenekler arasinda elemeyle bulunuyor: B yalniz einkorn ekiminin baslangic yeri olarak aniliyor, oradan tohum ciktigi soylenmiyor; E'de sadece inceleme yapiliyor, tohum yok -- yalniz A'da hem kazidan cikan taneler hem de bunlarin iyi korunmus olmasi birlikte geciyor.",
+      "flag_mechanism": "konumsal_duzen"
     },
     {
       "number": 24,
@@ -77,7 +78,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "option_wording",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Metinde C 'generally traced' (genel olarak) bir bolgeye, B ise 'specifically' (ozellikle) tek bir bugday turune bagliyor; ifadenin sordugu 'basit bugdaylarin basi' butun basit bugdaylari kapsayan genis bir konu oldugu icin bu kapsam farki C'yi dogru birakiyor.",
+      "flag_mechanism": "kip_imzasi"
     },
     {
       "number": 25,
@@ -97,7 +99,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "general_knowledge",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Cevap B, Karacadag'in ozellikle einkorn bugdayinin ekiminin dogdugu yer olarak arkeolojide anilan bilinen, spesifik bir bilgi olmasi sayesinde (Bereketli Hilal'in daha genis bolge olmasindan ayri) parcaya bakmadan da tahmin edilebiliyor.",
+      "flag_mechanism": "genel_kultur"
     },
     {
       "number": 26,
@@ -117,7 +120,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "general_knowledge",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Cevap D, tarimin Bereketli Hilal'den zamanla Avrupa'ya yayildigi bilgisinin arkeoloji/tarih derslerinde yaygin bilinen bir anlati olmasi sayesinde parcaya bakmadan da tahmin edilebiliyor.",
+      "flag_mechanism": "genel_kultur"
     }
   ]
 }

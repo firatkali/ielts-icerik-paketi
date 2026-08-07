@@ -35,7 +35,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "logic",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Bosluk 'for all its ___ in current office fashion' kalibinin ucunda; 'moda icinde populerlik' en dogal eslesme oldugu icin parcaya bakmadan da 'popularity' tahmin edilebiliyor.",
+      "flag_mechanism": "esdizim_kilidi"
     },
     {
       "number": 2,
@@ -57,7 +58,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "general_knowledge",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Cevap 'absorbed', 'flow' kavraminin psikolojideki standart taniminin ('bir ise tamamen dalmis olma hali') genel bilgi olmasi sayesinde parcaya bakmadan da tahmin edilebiliyor.",
+      "flag_mechanism": "genel_kultur"
     },
     {
       "number": 3,
@@ -120,7 +122,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "guess",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Net bir mekanizma yok: bosluk 'green and ___' ikilisinin ikinci sifatini istiyor, 'leafy' disinda 'lush', 'dense', 'mature' gibi bircok secenek de esit derecede olasi; dogru sozcugun tutturulmasi buyuk olcude sansa dayaniyor.",
+      "flag_mechanism": "belirsiz"
     },
     {
       "number": 6,
@@ -163,7 +166,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "guess",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Net bir mekanizma yok: bosluk bir artis zarfi istiyor ('sharply', 'significantly', 'rapidly' gibi birden fazla secenek esit derecede olasi), dogru sozcugun isabet etmesi buyuk olcude sansa dayaniyor.",
+      "flag_mechanism": "belirsiz"
     },
     {
       "number": 8,
@@ -206,7 +210,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "general_knowledge",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Cevap 'digital scales', 'iki gram hassasiyetli' bir olcum aracinin gunumuzde dijital terazi olmasi genel bilgisiyle (analog teraziler bu hassasiyeti vermez) parcaya bakmadan da tahmin edilebiliyor.",
+      "flag_mechanism": "genel_kultur"
     },
     {
       "number": 10,
@@ -228,7 +233,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "logic",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Bosluk 'keeping a week-long ___ of X' kalibinin ucunda; 'a diary' bu kalibin en dogal ve yaygin tamamlamasi oldugu icin parcaya bakmadan da tahmin edilebiliyor.",
+      "flag_mechanism": "esdizim_kilidi"
     },
     {
       "number": 11,
@@ -292,7 +298,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "guess",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Net bir mekanizma yok: 'bir ___ olcek' boslugu icin bes, yedi, on noktali gibi birden fazla yaygin olcek turu esit derecede olasi; dogru sayinin tutturulmasi buyuk olcude sansa dayaniyor.",
+      "flag_mechanism": "belirsiz"
     },
     {
       "number": 14,

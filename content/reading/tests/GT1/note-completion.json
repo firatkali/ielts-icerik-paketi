@@ -36,7 +36,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "logic",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Bosluk 'put up on the staff ___' kalibinin ucunda; 'put up' fiiliyle en dogal eslesen yer 'noticeboard' (ilan panosu) oldugu icin parcaya bakmadan da tahmin edilebiliyor.",
+      "flag_mechanism": "esdizim_kilidi"
     },
     {
       "number": 16,
@@ -58,7 +59,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "logic",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Bosluk 'their breaks are ___ so that no line is left...' kalibinda; vardiya planlamasinda 'staggered breaks' (kaydirmali molalar) is yerinde yaygin kullanilan kaliplasmis bir ifade oldugu icin parcaya bakmadan da tahmin edilebiliyor.",
+      "flag_mechanism": "esdizim_kilidi"
     },
     {
       "number": 17,
@@ -123,7 +125,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "general_knowledge",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Cevap '28 days', Birlesik Krallik'ta tam zamanli calisanlar icin yasal asgari yillik izin hakkinin (resmi tatiller dahil) 28 gun olmasi bilinen bir is hukuku gercegi; bu genel bilgiyle bosluk parcaya bakmadan da doldurulabiliyor.",
+      "flag_mechanism": "genel_kultur"
     },
     {
       "number": 20,

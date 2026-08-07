@@ -51,7 +51,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "logic",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Cevap B, uc kaynagin birlestirilmesinin sagladigi seyi dogrudan veriyor: kim kiminle calisiyor bilgisiyle bireysel ciktinin birlikte gorulmesi; A departmanlar arasi hareketi, C oz-beyanla kiyaslamayi, D sure uzatmayi iddia ediyor, ucu de metnin verdigi somut faydayla celisir ve elenir.",
+      "flag_mechanism": "konumsal_duzen"
     },
     {
       "number": 33,
@@ -93,7 +94,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "logic",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Cevap D, mesajlasma bulgusunun sorguladigi seyi dogrudan veriyor: deneyimli takimlarin daha cok konustugu varsayimi; A olculebilirlik iddia ediyor, B yeni calisanlarin kazanimini curutuyor (curutulmuyor), C katilma sirasi kuralini hedef gosteriyor -- yalniz D metnin 'complicated the obvious explanation' ifadesiyle birebir ortusuyor.",
+      "flag_mechanism": "konumsal_duzen"
     },
     {
       "number": "34-35",
@@ -150,7 +152,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "logic",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Cevaplar C ve F, metnin akran etkisinin neden gorulmedigini acikladigi iki mekanizmayi dogrudan veriyor: bireysel odemeye gore ucret (C) ve yuz yuze temas olmamasi (F); oteki secenekler baska bir bulguyu ya da yer degistirilmis bir ayrintiyi anlatiyor, akran etkisinin yoklugunu dogrudan aciklamiyor.",
+      "flag_mechanism": "konumsal_duzen"
     }
   ]
 }

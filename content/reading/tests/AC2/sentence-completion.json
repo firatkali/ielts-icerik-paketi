@@ -73,7 +73,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "general_knowledge",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Cevap 'D genome', alti kromozomlu (hexaploid) bugdaya ozgu genetik bolgenin bugday genetiginde yerlesik adi olan 'D genome' terimiyle bilinmesi sayesinde parcaya bakmadan da tahmin edilebiliyor.",
+      "flag_mechanism": "genel_kultur"
     },
     {
       "number": 22,
@@ -95,7 +96,8 @@
       "status": "flagged",
       "blind_solvable": true,
       "blind_basis": "general_knowledge",
-      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+      "flag_reason": "Cevap 'Karacadag', einkorn bugdayinin ekiminin dogdugu yer olarak arkeolojide anilan, guney Turkiye'deki bilinen bir bolge adi; bu genel bilgiyle bosluk parcaya bakmadan da doldurulabiliyor.",
+      "flag_mechanism": "genel_kultur"
     }
   ]
 }

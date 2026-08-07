@@ -59,7 +59,8 @@
           "status": "flagged",
           "blind_solvable": true,
           "blind_basis": "general_knowledge",
-          "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+          "flag_reason": "Cevap A (sade acik ofis) parcaya bakmadan da tahmin edilebiliyor: acik ofislerin oteki duzenlere gore daha gurultulu oldugu yaygin bir genel bilgi; soru dort duzenden en gurultulusunu sordugu icin bu bilgiyle dogrudan A'ya varilabiliyor.",
+          "flag_mechanism": "genel_kultur"
         },
         {
           "number": 2,
@@ -137,7 +138,8 @@
           "status": "flagged",
           "blind_solvable": true,
           "blind_basis": "general_knowledge",
-          "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+          "flag_reason": "Cevap A yine genel ofis kulturu bilgisiyle tahmin edilebiliyor: calisanlarin en az geri donmek istedigi duzenin sade acik ofis olmasi, acik ofislerin memnuniyetsizlik yarattigina dair yaygin kaniyla ortusuyor; parcaya bakilmadan da beklenen sonuc bu.",
+          "flag_mechanism": "genel_kultur"
         }
       ]
     },
@@ -250,7 +252,8 @@
           "status": "flagged",
           "blind_solvable": true,
           "blind_basis": "logic",
-          "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+          "flag_reason": "Cevap E (kahve ve cay), bes secenek arasinda sivi/icecek olan tek kategori; 'tartilmak yerine yazili gunlukle kaydedilme' olcum farki sivilari katı yiyeceklerden (pirinc, sebze, ekmek, et) elemeyle ayiriyor -- parcaya bakmadan da yalniz E bu olcum turune uyuyor.",
+          "flag_mechanism": "konumsal_duzen"
         },
         {
           "number": 10,
@@ -271,7 +274,8 @@
           "status": "flagged",
           "blind_solvable": true,
           "blind_basis": "option_wording",
-          "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
+          "flag_reason": "Cevap E, secenek metninde 'demlenen/doldurulan miktarin fazla gelmesi' gerekcesi yalnizca iceceklere ozgu; oteki dort secenek bozulma, raf omru ya da doku degisimi gibi kati yiyeceklere ozgu nedenlerle anlatiliyor, bu yuzden secenek metninin kendisi elemeyi sagliyor.",
+          "flag_mechanism": "konumsal_duzen"
         }
       ]
     }
