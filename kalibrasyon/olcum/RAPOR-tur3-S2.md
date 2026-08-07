@@ -4,7 +4,7 @@
 
 | Kume | n | Ortalama mutlak fark | Egilim |
 |---|---|---|---|
-| S2 | 6 | 0.750 | +0.083 |
+| S2 | 8 | 1.125 | -0.500 |
 
 🔴 Sakli kume ile acik kumeler arasinda belirgin fark varsa ayar orneklere ezberlenmis olabilir.
 
@@ -12,6 +12,8 @@
 
 | Kod | Beceri | Kume | Gercek | Tek seferlik | Ortalama | Tekrar | Yayilim |
 |---|---|---|---|---|---|---|---|
+| GT-T2-2B-C | writing | S2 | 8.5 | 6.0 | 6.00 | 3 | 0.00 |
+| GT-T2-2A-B | writing | S2 | 8.0 | 6.0 | 6.00 | 3 | 1.00 |
 | AC-T1-1B-A | writing | S2 | 6.0 | 5.0 | 5.33 | 3 | 0.50 |
 | AC-T1-1C-A | writing | S2 | 5.0 | 6.0 | 6.00 | 3 | 0.00 |
 | AC-T2-2A-A | writing | S2 | 4.0 | 5.0 | 5.00 | 3 | 0.00 |

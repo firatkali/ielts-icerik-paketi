@@ -7588,3 +7588,8 @@ hiç kullanılmadı, kalan on soruda birer kez. Çeldirici türü çeşitliliği
   parcadan serbest kelime isteyen bosluk degil.
 - Acik kalan: tamamlama ailesinin dinleme kanadi (112 soru) hic
   degerlendirilemedi, dokumlerde parcasiz cevaplari yok. Ayri adimin isi.
+- Puanlama olcumu tur 3 (SON) — eksik kalan GT-T2 grubu (5 ornek x 3 tekrar = 15
+  puanlama) tamamlandi; tur 3 toplamda 23 ornek x ort. 3 tekrar = 69 puanlama.
+  Ortalama mutlak fark 0.804 band, egilim -0.326 (cimri), en buyuk sapma 2.50
+  band, ayni cevaptaki yayilim 0.28 band. Basari olcutlerinden yalniz yayilim
+  gecti; ortalama fark, en buyuk sapma ve egilim kaldi.
