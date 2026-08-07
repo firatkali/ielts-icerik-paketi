@@ -596,5 +596,211 @@ gerçek bir işaret: bu pakette gerçekten bilinemeyen sorular var.
 
 ---
 
+## 5 — matching-information (2026-08-07)
+
+### Özet
+
+| Paket | Soru | 3/3 bilinen | Oran | Resmî taban |
+|---|---|---|---|---|
+| matching_information | 49 | **3** | **%6** | resmî listede yok — ayrı ölçülmedi |
+
+**Bu, ölçümün beş çalıştırmasındaki en düşük oran.** Karşılaştırma için: yes-no-not-given
+%100, multiple-choice %100, matching-sentence-endings %100, matching-features %69,
+true-false-not-given %53, matching-headings %18, matching-information **%6**. Genel resmî
+ortalama %57 idi; bu paket onun çok altında.
+
+Resmî tabanda bu tip yok, o yüzden script sapma işareti koyamadı. Ama tabana gerek de
+kalmıyor: %6, bu ölçüm için zaten şans seviyesine yakın bir sonuç.
+
+### Sonucun şans seviyesiyle karşılaştırması
+
+7 dosyanın 5'inde seçenekler A–H (8 seçenek, 35 soru), GT1 ve GT2'de A–E (5 seçenek,
+14 soru). Rastgele işaretlemenin tur başına beklenen isabeti:
+
+    35 × 1/8 + 14 × 1/5 = 7.2 / 49 → **%14.6**
+
+Gerçekte tur başına isabet **40/147 (%27.2)** çıktı — şansın 1.9 katı. Yani parçasız
+çözümde sıfır bilgi yok, ama bilgi **soruyu tutturmaya yetmiyor**: üç turun üçünde
+birden tutan yalnız 3 soru kaldı.
+
+| Kaç turda doğru | Soru |
+|---|---|
+| 0 | 24 |
+| 1 | 13 |
+| 2 | 9 |
+| 3 | **3** |
+
+### Tur kararlılığı: %16 — ölçümün gördüğü en düşük değer
+
+49 sorunun yalnız **8'inde** üç tur aynı harfi verdi.
+
+| Paket | Tur kararlılığı |
+|---|---|
+| yes-no-not-given | %100 |
+| multiple-choice | %100 |
+| matching-sentence-endings | %100 |
+| matching-features | %92 |
+| true-false-not-given | %88 |
+| matching-headings | %60 |
+| **matching-information** | **%16** |
+
+Bu rakam tek başına paketin durumunu özetliyor. Yüksek kararlılık, "her turda aynı yere
+götüren kuralcı bir işaret" demekti (3. çalıştırmanın notu). %16 bunun tersi: **cevaplar
+turdan tura savruluyor, çünkü tutunacak bir işaret yok.** İfade, hangi paragrafta
+olduğunu ele veren biçimsel bir imza taşımıyor.
+
+### Set bazında dağılım
+
+| Set | Soru | 3/3 bilinen | Oran |
+|---|---|---|---|
+| practice | 15 | 1 | %7 |
+| AC1 | 5 | 0 | %0 |
+| AC2 | 5 | 0 | %0 |
+| AC3 | 5 | 2 | %40 |
+| AC4 | 5 | 0 | %0 |
+| GT1 | 7 | 0 | %0 |
+| GT2 | 7 | 0 | %0 |
+
+🟢 GT1 ve GT2'de **0/14**. Bu, önceki dört çalıştırmanın en ısrarlı bulgusunun tersine
+dönmesi demek: TFNG'de GT2 %71, çoktan seçmelide GT setleri %100 idi ve sebep hep aynıydı
+— "gündelik hayatın varsayılan kuralı parçayı gereksiz kılıyor". Burada ilan metinlerine
+sorulan şey kural değil, **hangi ilanda geçtiği**; hayat bilgisi hangi ilan olduğunu
+söylemiyor. Aynı GT malzemesiyle sağlam soru yazmanın mümkün olduğunun kanıtı.
+
+### İşaretlenen 3 soru ve tek gerçek sızıntı
+
+| Soru | Anahtar | İfade | Dayanak |
+|---|---|---|---|
+| practice 6 | H | "an admission that the work has not yet been examined by other specialists" | logic |
+| AC3 28 | H | "a warning against assuming that the same thing happened to other victims" | logic |
+| AC3 29 | E | "measurements showing that preserved nerve fibres were close in width to those of a living person" | guess |
+
+İlk ikisi aynı mekanizma: **sınırlılık beyanı son paragrafta durur.** "Henüz hakem
+değerlendirmesinden geçmedi", "bu bulgu başkalarına genellenemez" — bilimsel bir yazının
+bu iki hamlesi hemen her zaman kapanış paragrafındadır. Parçayı okumaya gerek yok, yazı
+türünün iskeleti yetiyor. İkisinde de üç turda da H yazıldı, üçünde de tuttu.
+
+⚠️ Üçüncüsü (AC3-29) **daha zayıf kanıta dayanıyor**: üç turda da `guess` etiketiyle E
+verildi, "ölçüm sonucu → bulgular bölümü → orta-geç paragraf" akıl yürütmesiyle. Script
+kuralı gereği işaretlendi, ama bu bir sızıntıdan çok 1/8'lik bir isabetin üst üste
+gelmesi. Bu satır sonradan bakan için burada duruyor.
+
+### Aynı sızıntının hafif hâli: 2/3'te kalan sorular
+
+Dokuz soru üç turun ikisinde tutturuldu. Yedisi aynı kalıpta — **yazının sonuna doğru
+duran retorik hamleler**:
+
+| Soru | Anahtar | Hamle |
+|---|---|---|
+| practice 5 | G | ihtiyatlı bir tarihsel tahmin ("may once have been harder to tell apart") |
+| practice 10 | G | genelleyici çıkarım (yakınsak evrim savı) |
+| AC1 30 | G | daha geniş sonuç ("mercandan başka canlılar da bağlı") |
+| AC2 27 | F | bulgu rakamı |
+| AC3 27 | B | arka plan / keşif tarihi |
+| AC4 27 | D | yöntem ayrıntısı |
+| GT1 3 | C | — (ilan, kalıp yok) |
+
+Yani giriş→arka plan→yöntem→bulgu→yorum→sınırlılık dizilişi **kısmen** tahmin
+edilebiliyor. Ama kısmen: aynı akıl yürütme 24 soruda üç turun üçünde de ıskaladı. Bu,
+düzeltilmesi gereken bir kusur değil, tipin doğal alt sınırı — gerçek sınavda da böyle
+paragraf konumu tahmini bir miktar işe yarar.
+
+### `basis` dağılımı
+
+Üç turun tamamı (147 cevap):
+
+| Dayanak | Sayı | Oran |
+|---|---|---|
+| guess | 89 | %61 |
+| logic | 58 | %39 |
+| general_knowledge | 0 | **%0** |
+| option_wording | 0 | **%0** |
+
+Bu tablo ölçümün en temiz sonucu. Önceki dört çalıştırmada rapora ayrı ayrı not düşülen
+iki kusur burada **hiç görünmüyor**:
+
+- **`option_wording` = 0.** Seçenekler harf (A–H / A–E); yazılabilecek bir çeldirici
+  metni yok, dolayısıyla "doğru şık ölçülü, çeldirici mutlak" imzası bu tipte
+  yapısal olarak imkânsız. YNNG ve çoktan seçmelide paketi tek başına çökerten kusur
+  buydu.
+- **`general_knowledge` = 0.** Hiçbir soruda konu bilgisi işe yaramadı. İfadeler
+  parçanın **ne söylediğini** değil **nerede söylediğini** sorduğu için, dışarıdan
+  bilinen hiçbir şey cevabı vermiyor. matching-features'ta %38 olan bu pay burada sıfır.
+
+`guess` %61 ile ölçümün gördüğü en yüksek değer (önceki en yüksek: matching-features %5,
+çoktan seçmelide %0). Cevapların çoğu gerçekten tahmindi.
+
+### Zorluk etiketiyle ilişki
+
+| Etiket | Soru | 3/3 bilinen |
+|---|---|---|
+| easy | 12 | 0 |
+| medium | 30 | 3 |
+| hard | 7 | 0 |
+
+İşaretlenen üç sorunun üçü de `medium`. `easy` etiketli 12 sorunun hiçbiri parçasız
+bilinemedi — yani "kolay" etiketi burada "bulunması kolay" demek, "bilinmesi kolay"
+değil. Bu doğru kullanım.
+
+### İzlenecek küçük bir eğilim (kusur değil)
+
+Dört akademik setin (AC1–AC4) **dördünde de** beş cevap arasında hem A hem H tam bir kez
+bulunuyor, ve hiçbir harf tekrar etmiyor. Rastgele dağılımda dört setin dördünde birden
+A+H çıkma olasılığı ≈ %1.6. Aday bunu bilerek kullanamaz (istatistiği görmesi gerekir),
+o yüzden bu ölçümde bir sızıntı üretmedi — ama üretim promptu ilk ve son paragrafa
+sistematik olarak birer soru bağlıyor gibi görünüyor. GT setlerinde böyle bir düzen yok
+(harfler tekrar ediyor, `NB You may use any letter more than once` notu da orada).
+
+### Düzeltme yönü (bu rapor uygulamıyor, işaret ediyor)
+
+Bu paket için ağır bir düzeltme listesi çıkmıyor; iki küçük madde var:
+
+1. **Sınırlılık/kapsam uyarısı sorusunu son paragrafa bağlama.** "Henüz hakem
+   incelemesinden geçmedi", "başkalarına genellenemez" gibi ifadeler her metinde
+   kapanışa denk geldiği için parçasız bilinebiliyor (practice 6, AC3 28 — işaretlenen
+   üç sorunun ikisi). Bu hamleyi taşıyan paragraf yazının ortasına da konabilir, ya da
+   soru o uyarının **içeriğine** (hangi koşul, hangi grup) bağlanabilir.
+2. **A ve H'yi her akademik sette birer kez doğru yapma alışkanlığını kır.** Şu an 4/4;
+   dağılımı serbest bırakmak yeter.
+
+### Kopyalanacak olan
+
+Bu paket, önceki dört çalıştırmanın düzeltme listelerinin **zaten uygulanmış hâli** gibi
+duruyor ve sebebi tipin kendisinde:
+
+- Soru, parçanın bir **iddiasını** değil bir **konumunu** soruyor. Genel kültür konum
+  bilgisi vermiyor.
+- Seçenekler metin değil harf. Çeldirici yazımı diye bir yüzey yok, dolayısıyla kip
+  imzası sızdıramıyor.
+- İfadeler parçanın kendi ayrıntısına bağlanmış: "717,7 nanometre", "ilk aylarda
+  üretilenin hesap dışı bırakılması", "iki panel önünde geçirilen toplam süre". 1. ve
+  4. çalıştırmanın "ifadeyi parçanın kendine özgü sayısal/koşullu ayrıntısına bağla"
+  önerisinin uygulanmış hâli budur.
+
+GT1/GT2'nin 0/14'ü ayrıca şunu gösteriyor: GT malzemesi (ilanlar, el kitapları) doğası
+gereği bozuk soru üretmiyor — 1. ve 3. çalıştırmadaki GT sorunu **soru kurgusundan**
+geliyordu, malzemeden değil.
+
+### Ölçülmeyenler
+
+- Dinleme tarafı bu adımın kapsamı dışında (prompt gereği).
+- Diyagram etiketleme bu pakette yok; görsel gerektiren tiplerde bu ölçüm kördür ve o
+  tip geldiğinde **"ölçülmedi"** olarak geçilecek.
+
+### Araç notu
+
+4. adım (işaretleme) mevcut `tools/_b1_isaretle.py` ile yapıldı; bu çalıştırmada araca
+bir şey eklenmedi. Script rapor JSON'undaki 3/3 bilinen kimlikleri okuyup orijinal
+dosyalara `blind_solvable` / `blind_basis` / `status` / `flag_reason` yazıyor,
+`blind_basis` olarak üç turdaki en sık dayanağı seçiyor ve hiçbir soruyu silmiyor.
+
+### Yapılan işaretleme
+
+49 sorunun **3'üne** orijinal dosyasında `blind_solvable: true`, `blind_basis`,
+`status: "flagged"` ve `flag_reason` yazıldı; **46'sına** `blind_solvable: false`.
+**Hiçbir soru silinmedi**; soru sayısı 49'da sabit.
+
+---
+
 🔴 Son söz: **bu ölçüm bozuk soruyu bulur, zorluk seviyesini ölçmez.** "Bu soru gerçek
 sınav zorluğunda" demek ancak binlerce gerçek adayın verisiyle mümkündür.

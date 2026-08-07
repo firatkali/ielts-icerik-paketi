@@ -38,7 +38,8 @@
       "uniqueness_check": "Uyanma sonrası sersemliğin sonuçları bozmasını önlemek için alınan önlem yalnız D paragrafında. C paragrafı da bir deneyin düzenini anlatıyor ama orada kimse gündüz uyumuyor, dolayısıyla böyle bir önleme gerek de yok; F uyku evrelerini konu ediyor, bir önlemi değil.",
       "explanation": "D paragrafı, şekerleme sonrası sersemliğin sınav başarısını bozmaması için herkesin son bellek testinden önce 30 dakikalık bir bulmaca oyunu oynadığını söylüyor.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 28,
@@ -57,7 +58,8 @@
       "uniqueness_check": "Uykunun edilgen bir duraklama değil etkin bir süreç olduğunu açıkça söyleyen tek paragraf A. G paragrafı uykunun hangi bellek türüne yaradığını tartışırken bu rolü zaten varsayıyor, kendisi öne sürmüyor; H ise pratik sonuçlarla ilgileniyor.",
       "explanation": "A paragrafı, uyurken beynin sadece duraklamadığını, yeni anıları pekiştirmede etkin bir rol oynadığını söylüyor.",
       "difficulty": "easy",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 29,
@@ -76,7 +78,8 @@
       "uniqueness_check": "Gündelik hayattan somut örnek (tanınmayan bir ad, tek başına çalışılan yeni bir sözcük) yalnız H paragrafında geçiyor. A paragrafı gündüz uykusunun yaygın olduğu toplumlardan söz ediyor ama öğrenilecek malzemeye örnek vermiyor; C ve D deneyde kullanılan kelime çiftlerini anlatıyor, bunlar gündelik örnek değil deney malzemesi.",
       "explanation": "H paragrafı, kısa bir gündüz uykusunun tanımadığınız bir ad ya da tek başına çalışılan yeni bir sözcük gibi bağlantısız bilgileri tutmakta gerçekten işe yaradığını söylüyor.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 30,
@@ -95,7 +98,8 @@
       "uniqueness_check": "Uykunun öncelikle unutulmaya en açık anılara yaradığı yorumunu yapan tek paragraf G. E paragrafı aynı malzeme türlerinden söz ediyor ama yalnız etki büyüklüklerini bildiriyor, bir gerekçe sunmuyor; H bu sonucu okura tavsiyeye çeviriyor, sonucun kendisini ortaya koymuyor.",
       "explanation": "G paragrafı, uykunun gece de gündüz de en çok unutulmaya yatkın bellek işlemesine, yani önceki bilgiyle bağı olmayan yepyeni eşleşmelere yaradığını söylüyor.",
       "difficulty": "hard",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 31,
@@ -114,7 +118,8 @@
       "uniqueness_check": "Sınamanın nasıl yürüdüğünü, yani katılımcılara çiftin bir yarısının gösterilip öbürünün istendiğini anlatan tek paragraf C. D paragrafı da son bir bellek testinden söz ediyor ama biçimini açıklamıyor; B yalnızca iki deneyin katılımcı düzenini karşılaştırıyor.",
       "explanation": "C paragrafı, katılımcılara kelime çiftinin bir kelimesinin gösterilip diğerini söylemelerinin istendiği bir ipuçlu hatırlama testi uygulandığını anlatıyor.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     }
   ]
 }

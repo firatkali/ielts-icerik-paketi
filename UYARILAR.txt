@@ -98,3 +98,29 @@
   - matching-sentence-endings sinav setlerinde YOK, yalniz practice (10 soru).
   - Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR.md bolum 4
   - isaretli (flagged)     119
+
+07.08.2026 09:32
+  - isaretli (flagged)     119
+
+
+07.08.2026 (B1 5. calistirma: matching-information)
+  - matching-information 3/49 (%6). Olcumun BES calistirmasindaki EN DUSUK
+    orani; genel resmi ortalama %57 idi. Resmi tabanda bu tip yok.
+  - Tur kararliligi %16 (49 sorunun 8'inde uc tur ayni harf). Simdiye kadarki
+    en dusuk; karsilastirma: YNNG %100, coktan secmeli %100, headings %60.
+    Cevaplar savruluyor cunku tutunacak bicimsel imza yok.
+  - basis dagilimi: guess 89 (%61), logic 58 (%39),
+    general_knowledge 0, option_wording 0. Onceki dort calistirmayi cokerten
+    iki kusur (kip imzasi + genel kultur) bu tipte HIC gorunmuyor.
+  - GT1+GT2 0/14. TFNG'de GT2 %71, coktan secmelide GT %100 idi. Ayni GT
+    malzemesiyle saglam soru yazilabiliyor -> sorun malzemede degil kurguda.
+  - Tek gercek sizinti: SINIRLILIK BEYANI son paragrafta duruyor (practice 6
+    "henuz hakem incelemesinden gecmedi" -> H; AC3-28 "baskalarina
+    genellenemez" -> H). Isaretlenen 3 sorunun 2'si bu.
+  - AC3-29 zayif kanit: uc turda da 'guess' ile E verildi, tuttu. Script
+    kurali geregi isaretlendi ama sizinti degil, 1/8'lik ust uste isabet.
+  - Izlenecek egilim (kusur degil): AC1-AC4'un dordunde de bes cevap
+    arasinda A ve H tam birer kez var; rastgele olasilik ~%1.6.
+  - Isaretleme mevcut tools/_b1_isaretle.py ile yapildi; araca ekleme yok.
+  - Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR.md bolum 5
+  - isaretli (flagged)     122
