@@ -38,7 +38,7 @@
       ],
       "unit": "%",
       "svg": null,
-      "alt": "Yetişkinlerin 2024'te haberi öncelikle hangi kaynaktan aldığını yüzde olarak gösteren pasta grafik."
+      "alt": "Pie chart showing adults' main source of news in 2024, in percentages."
     },
     {
       "kind": "bar_chart",
@@ -64,24 +64,24 @@
       ],
       "unit": "dakika/gün",
       "svg": null,
-      "alt": "Dört yaş grubunun günde ortalama kaç dakika haber takip ettiğini gösteren sütun grafik."
+      "alt": "Bar chart showing the average number of minutes per day each of four age groups spent following the news."
     }
   ],
   "key_points": [
-    "Haber siteleri ve uygulamaları en yaygın ana kaynak (%31), televizyon %27 ile hemen arkasında; ikisi arasındaki fark yalnızca 4 puan",
-    "Ekran dışı ve basılı kaynaklar küçük kalıyor: radyo %12, basılı gazete %8 — gazete en küçük dilim ve web sitelerinin dörtte birinden az",
-    "İnternet üzerinden gelen iki kaynak birlikte alındığında (haber siteleri %31 + sosyal medya %22 = %53) yetişkinlerin yarısından fazlasını kapsıyor",
-    "Haber takibine ayrılan süre yaşla birlikte istikrarlı biçimde artıyor: 24 dakikadan 62 dakikaya, yani en yaşlı grup en genç grubun yaklaşık iki buçuk katı süre ayırıyor",
-    "Artış her basamakta hızlanıyor: 18-29'dan 30-44'e 9 dakika, sonra 12 dakika, en son 17 dakika ekleniyor",
-    "İki görsel farklı şeyleri ölçüyor — biri hangi kaynağın kullanıldığını (%), diğeri günlük süreyi (dakika); pasta yaş gruplarına göre ayrılmıyor"
+    "News websites and apps are the most common main source (31%), with television close behind at 27%; the gap between them is only 4 points.",
+    "Non-screen and print sources stay small: radio 12%, printed newspapers 8% — newspapers are the smallest slice, at less than a quarter of news websites.",
+    "Taken together, the two internet-based sources (news websites 31% + social media 22% = 53%) cover more than half of adults.",
+    "Time spent following the news rises steadily with age: from 24 minutes to 62 minutes, meaning the oldest group spends roughly two and a half times as long as the youngest.",
+    "The increase accelerates at each step: 9 minutes are added from 18-29 to 30-44, then 12 minutes, then 17 minutes.",
+    "The two visuals measure different things — one shows which source is used (%), the other shows daily time (minutes); the pie chart is not broken down by age group."
   ],
   "common_mistakes": [
-    "İki görselden yalnızca birini anlatmak — görev ikisini de kapsıyor",
-    "Yüzde ile dakikayı karıştırmak ('31% of people watched the news for 24 minutes')",
-    "Pastadaki dağılımı yaş gruplarına bağlamak ('young people mostly use social media') — grafikte böyle bir ayrım yok",
-    "Sütunlardaki artışın hızlandığını fark etmeyip yalnızca en yüksek ve en düşük sütunu vermek",
-    "Sebep uydurmak ya da geleceğe dair tahmin yürütmek ('newspapers will disappear within ten years')"
+    "Describing only one of the two visuals — the task covers both.",
+    "Mixing up percentages and minutes ('31% of people watched the news for 24 minutes')",
+    "Linking the pie chart's distribution to age groups ('young people mostly use social media') — the chart makes no such distinction.",
+    "Failing to notice that the increase across the bars accelerates, and giving only the highest and lowest bars.",
+    "Inventing reasons or making predictions about the future ('newspapers will disappear within ten years')"
   ],
-  "topic": "haber kaynakları ve günlük haber takibi",
+  "topic": "news sources and daily news consumption",
   "difficulty": "hard"
 }

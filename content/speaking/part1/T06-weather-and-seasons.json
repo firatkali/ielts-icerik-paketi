@@ -15,7 +15,7 @@
     {
       "number": 1,
       "prompt": "What is the weather like where you live at this time of year?",
-      "focus": "temel bilgi",
+      "focus": "basic information",
       "difficulty": "easy",
       "useful_language": [
         "it's fairly mild",
@@ -27,7 +27,7 @@
     {
       "number": 2,
       "prompt": "How often do you check the weather forecast?",
-      "focus": "alışkanlık",
+      "focus": "habit",
       "difficulty": "easy",
       "useful_language": [
         "first thing in the morning",
@@ -39,7 +39,7 @@
     {
       "number": 3,
       "prompt": "What do you usually do on a very hot day?",
-      "focus": "alışkanlık",
+      "focus": "habit",
       "difficulty": "easy",
       "useful_language": [
         "I stay in the shade",
@@ -51,7 +51,7 @@
     {
       "number": 4,
       "prompt": "Which season suits you best, and why?",
-      "focus": "tercih ve sebep",
+      "focus": "preference and reason",
       "difficulty": "medium",
       "useful_language": [
         "it's the most comfortable",
@@ -63,7 +63,7 @@
     {
       "number": 5,
       "prompt": "How does the weather affect what you do in a normal week?",
-      "focus": "açıklama",
+      "focus": "explanation",
       "difficulty": "medium",
       "useful_language": [
         "it can throw my plans out",
@@ -75,7 +75,7 @@
     {
       "number": 6,
       "prompt": "What kind of weather did you look forward to when you were a child?",
-      "focus": "geçmiş",
+      "focus": "past",
       "difficulty": "medium",
       "useful_language": [
         "we couldn't wait for",
@@ -87,7 +87,7 @@
     {
       "number": 7,
       "prompt": "Why do some people prefer cooler places to hot ones?",
-      "focus": "başkaları açısı ve sebep",
+      "focus": "other people's perspective and reason",
       "difficulty": "medium",
       "useful_language": [
         "they find the heat draining",
@@ -99,7 +99,7 @@
     {
       "number": 8,
       "prompt": "What would you do differently if the weather were warmer all year?",
-      "focus": "varsayım",
+      "focus": "hypothesis",
       "difficulty": "hard",
       "useful_language": [
         "I'd spend far more time outside",
@@ -111,7 +111,7 @@
     {
       "number": 9,
       "prompt": "What differences have you noticed in the weather over the past few years?",
-      "focus": "değişim",
+      "focus": "change",
       "difficulty": "hard",
       "useful_language": [
         "the seasons seem less defined",
@@ -123,7 +123,7 @@
     {
       "number": 10,
       "prompt": "How is the weather in your area different from other places you know?",
-      "focus": "karşılaştırma",
+      "focus": "comparison",
       "difficulty": "hard",
       "useful_language": [
         "compared with the coast",

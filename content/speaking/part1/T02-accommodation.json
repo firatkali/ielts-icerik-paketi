@@ -15,7 +15,7 @@
     {
       "number": 1,
       "prompt": "What kind of home do you live in?",
-      "focus": "temel bilgi",
+      "focus": "basic information",
       "difficulty": "easy",
       "useful_language": [
         "a two-bedroom flat",
@@ -27,7 +27,7 @@
     {
       "number": 2,
       "prompt": "Which room do you spend the most time in during the day?",
-      "focus": "alışkanlık",
+      "focus": "habit",
       "difficulty": "easy",
       "useful_language": [
         "I tend to sit in",
@@ -39,7 +39,7 @@
     {
       "number": 3,
       "prompt": "What do you like most about the place where you live?",
-      "focus": "tercih",
+      "focus": "preference",
       "difficulty": "easy",
       "useful_language": [
         "the best thing about it is",
@@ -51,7 +51,7 @@
     {
       "number": 4,
       "prompt": "What can you see from the windows of your home?",
-      "focus": "tanımlama",
+      "focus": "description",
       "difficulty": "medium",
       "useful_language": [
         "it looks out onto",
@@ -63,7 +63,7 @@
     {
       "number": 5,
       "prompt": "How have you decorated the rooms in your home?",
-      "focus": "tanımlama ve tercih",
+      "focus": "description and preference",
       "difficulty": "medium",
       "useful_language": [
         "I've kept it fairly plain",
@@ -75,7 +75,7 @@
     {
       "number": 6,
       "prompt": "How does your current home compare with the one you lived in as a child?",
-      "focus": "geçmiş ve karşılaştırma",
+      "focus": "past and comparison",
       "difficulty": "medium",
       "useful_language": [
         "it's nothing like",
@@ -87,7 +87,7 @@
     {
       "number": 7,
       "prompt": "Why do some people prefer living in flats rather than houses?",
-      "focus": "başkaları açısı ve sebep",
+      "focus": "other people's perspective and reason",
       "difficulty": "hard",
       "useful_language": [
         "they're easier to look after",
@@ -99,7 +99,7 @@
     {
       "number": 8,
       "prompt": "What would you change about your home if you had the chance?",
-      "focus": "varsayım",
+      "focus": "hypothesis",
       "difficulty": "hard",
       "useful_language": [
         "the first thing I'd do is",
@@ -111,7 +111,7 @@
     {
       "number": 9,
       "prompt": "What sort of place would you like to live in ten years from now?",
-      "focus": "gelecek",
+      "focus": "future",
       "difficulty": "hard",
       "useful_language": [
         "ideally I'd like",
@@ -123,7 +123,7 @@
     {
       "number": 10,
       "prompt": "How have homes in your area changed over the past twenty years?",
-      "focus": "değişim",
+      "focus": "change",
       "difficulty": "hard",
       "useful_language": [
         "blocks of flats have replaced",

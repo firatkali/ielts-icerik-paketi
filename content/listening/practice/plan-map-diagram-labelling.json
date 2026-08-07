@@ -26,7 +26,7 @@
       "visual": {
         "kind": "map",
         "svg": "<svg viewBox=\"0 0 640 800\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\"><line x1=\"40\" y1=\"35\" x2=\"545\" y2=\"35\" stroke=\"#000\" stroke-width=\"1\"/><line x1=\"40\" y1=\"35\" x2=\"40\" y2=\"700\" stroke=\"#000\" stroke-width=\"1\"/><line x1=\"545\" y1=\"35\" x2=\"545\" y2=\"700\" stroke=\"#000\" stroke-width=\"1\"/><line x1=\"40\" y1=\"700\" x2=\"265\" y2=\"700\" stroke=\"#000\" stroke-width=\"1\"/><line x1=\"305\" y1=\"700\" x2=\"545\" y2=\"700\" stroke=\"#000\" stroke-width=\"1\"/><line x1=\"285\" y1=\"760\" x2=\"285\" y2=\"722\" stroke=\"#000\" stroke-width=\"1\"/><polygon points=\"285,710 278,726 292,726\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"285\" y=\"782\" text-anchor=\"middle\">MAIN ENTRANCE (Cranmore Road)</text><line x1=\"600\" y1=\"150\" x2=\"600\" y2=\"105\" stroke=\"#000\" stroke-width=\"1\"/><polygon points=\"600,92 593,108 607,108\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"600\" y=\"172\" text-anchor=\"middle\">N</text><line x1=\"267\" y1=\"700\" x2=\"267\" y2=\"560\" stroke=\"#000\" stroke-width=\"1\"/><line x1=\"303\" y1=\"700\" x2=\"303\" y2=\"560\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"285\" y=\"645\" text-anchor=\"middle\" transform=\"rotate(-90 285 645)\">drive</text><rect x=\"110\" y=\"610\" width=\"140\" height=\"78\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"180\" y=\"645\" text-anchor=\"middle\">1</text><line x1=\"155\" y1=\"657\" x2=\"205\" y2=\"657\" stroke=\"#000\" stroke-width=\"1\"/><rect x=\"110\" y=\"505\" width=\"140\" height=\"78\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"180\" y=\"550\" text-anchor=\"middle\">TOILETS</text><rect x=\"330\" y=\"610\" width=\"140\" height=\"78\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"400\" y=\"655\" text-anchor=\"middle\">CAR PARK</text><rect x=\"253\" y=\"505\" width=\"66\" height=\"52\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"286\" y=\"530\" text-anchor=\"middle\">2</text><line x1=\"261\" y1=\"542\" x2=\"311\" y2=\"542\" stroke=\"#000\" stroke-width=\"1\"/><rect x=\"210\" y=\"415\" width=\"120\" height=\"66\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"270\" y=\"447\" text-anchor=\"middle\">PICNIC</text><text x=\"270\" y=\"465\" text-anchor=\"middle\">AREA</text><path d=\"M 305,395 L 278,335 L 300,278 L 362,255 L 435,268 L 462,320 L 448,378 L 385,405 Z\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"352\" y=\"340\" text-anchor=\"middle\">LAKE</text><circle cx=\"405\" cy=\"310\" r=\"14\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"405\" y=\"285\" text-anchor=\"middle\">island</text><rect x=\"480\" y=\"295\" width=\"62\" height=\"48\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"511\" y=\"317\" text-anchor=\"middle\">BIRD</text><text x=\"511\" y=\"335\" text-anchor=\"middle\">HIDE</text><rect x=\"470\" y=\"215\" width=\"72\" height=\"52\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"506\" y=\"240\" text-anchor=\"middle\">3</text><line x1=\"481\" y1=\"252\" x2=\"531\" y2=\"252\" stroke=\"#000\" stroke-width=\"1\"/><line x1=\"470\" y1=\"245\" x2=\"444\" y2=\"272\" stroke=\"#000\" stroke-width=\"1\"/><rect x=\"265\" y=\"185\" width=\"80\" height=\"52\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"305\" y=\"208\" text-anchor=\"middle\">LIME</text><text x=\"305\" y=\"226\" text-anchor=\"middle\">KILN</text><line x1=\"305\" y1=\"185\" x2=\"305\" y2=\"160\" stroke=\"#000\" stroke-width=\"1\"/><rect x=\"180\" y=\"105\" width=\"250\" height=\"55\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"305\" y=\"132\" text-anchor=\"middle\">WILDFLOWER</text><text x=\"305\" y=\"150\" text-anchor=\"middle\">MEADOW</text><line x1=\"305\" y1=\"105\" x2=\"305\" y2=\"93\" stroke=\"#000\" stroke-width=\"1\"/><rect x=\"245\" y=\"45\" width=\"120\" height=\"48\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"305\" y=\"72\" text-anchor=\"middle\">4</text><line x1=\"280\" y1=\"84\" x2=\"330\" y2=\"84\" stroke=\"#000\" stroke-width=\"1\"/></svg>",
-        "alt": "Stonecrop kır parkının ziyaretçi haritası. Ana giriş (Cranmore Road), yol, tuvaletler, otopark, piknik alanı, göl, gölün içindeki küçük ada, kuş gözlem kulübesi, kireç ocağı, kır çiçeği çayırı ve kuzey oku etiketli; 1-4 numaralı dört yer etiketsiz bırakılmış.",
+        "alt": "Visitor map of Stonecrop country park. Main entrance (Cranmore Road), drive, toilets, car park, picnic area, lake, small island in the lake, bird hide, lime kiln, wildflower meadow and north arrow are labelled; four locations numbered 1-4 are left unlabelled.",
         "labels": [
           "1",
           "2",
@@ -52,7 +52,7 @@
           "answer_point_id": "L3-S2-14",
           "turn_index": 5,
           "distractor_used": null,
-          "explanation": "Ana girişten içeri girildiğinde ziyaretçi merkezi hemen solda kalıyor; tuvaletler de haritada onun arkasında etiketli duruyor.",
+          "explanation": "As you go in through the main entrance, the visitor centre is immediately on your left; the toilets are already labelled behind it on the map.",
           "difficulty": "easy",
           "status": "verified"
         },
@@ -70,7 +70,7 @@
           "answer_point_id": "L3-S2-17",
           "turn_index": 6,
           "distractor_used": null,
-          "explanation": "Yolun bittiği yerde, girişin tam karşısında duran küçük yapı bilgi kulübesidir; görevlisi yoktur ama broşürler orada durur.",
+          "explanation": "Straight ahead of you, where the drive ends, is the information hut; it isn't staffed, but the leaflets are kept there.",
           "difficulty": "easy",
           "status": "verified"
         },
@@ -89,7 +89,7 @@
           "answer_point_id": "L3-S2-21",
           "turn_index": 7,
           "distractor_used": null,
-          "explanation": "Kuş gözlem kulübesinin hemen yanındaki, gölün sığ ucuna uzanan alçak ahşap güverte havuz tarama platformudur.",
+          "explanation": "Next to the hide, and easy to walk past, is the pond-dipping platform — a low wooden deck reaching out over the shallow end of the lake.",
           "difficulty": "medium",
           "status": "verified"
         },
@@ -108,7 +108,7 @@
           "answer_point_id": "L3-S2-24",
           "turn_index": 8,
           "distractor_used": null,
-          "explanation": "Çayır patikasının en ucunda, yamacın en tepesindeki taş halka manzara noktasıdır; kireç ocağı ile çayır haritada zaten yazılı.",
+          "explanation": "At the very top, at the far end of the meadow path, is the viewpoint — the stone circle at the top of the slope; the lime kiln and the meadow are already labelled on the map.",
           "difficulty": "medium",
           "status": "verified"
         }
@@ -134,7 +134,7 @@
       "visual": {
         "kind": "plan",
         "svg": "<svg viewBox=\"0 0 620 800\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\"><line x1=\"40\" y1=\"30\" x2=\"520\" y2=\"30\" stroke=\"#000\" stroke-width=\"1\"/><line x1=\"40\" y1=\"30\" x2=\"40\" y2=\"720\" stroke=\"#000\" stroke-width=\"1\"/><line x1=\"520\" y1=\"30\" x2=\"520\" y2=\"190\" stroke=\"#000\" stroke-width=\"1\"/><line x1=\"520\" y1=\"250\" x2=\"520\" y2=\"720\" stroke=\"#000\" stroke-width=\"1\"/><line x1=\"40\" y1=\"720\" x2=\"245\" y2=\"720\" stroke=\"#000\" stroke-width=\"1\"/><line x1=\"305\" y1=\"720\" x2=\"520\" y2=\"720\" stroke=\"#000\" stroke-width=\"1\"/><line x1=\"247\" y1=\"706\" x2=\"303\" y2=\"706\" stroke=\"#000\" stroke-width=\"3\"/><text x=\"312\" y=\"710\" text-anchor=\"start\">entrance barrier</text><line x1=\"275\" y1=\"778\" x2=\"275\" y2=\"745\" stroke=\"#000\" stroke-width=\"1\"/><polygon points=\"275,733 268,747 282,747\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"275\" y=\"795\" text-anchor=\"middle\">MAIN ENTRANCE (Ferry Lane)</text><line x1=\"570\" y1=\"126\" x2=\"570\" y2=\"81\" stroke=\"#000\" stroke-width=\"1\"/><polygon points=\"570,68 563,84 577,84\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"570\" y=\"148\" text-anchor=\"middle\">N</text><line x1=\"245\" y1=\"720\" x2=\"245\" y2=\"400\" stroke=\"#000\" stroke-width=\"1\"/><line x1=\"305\" y1=\"720\" x2=\"305\" y2=\"400\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"275\" y=\"676\" text-anchor=\"middle\">drive</text><rect x=\"95\" y=\"575\" width=\"130\" height=\"85\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"160\" y=\"612\" text-anchor=\"middle\">SITE</text><text x=\"160\" y=\"630\" text-anchor=\"middle\">OFFICE</text><rect x=\"95\" y=\"485\" width=\"130\" height=\"72\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><circle cx=\"160\" cy=\"521\" r=\"12\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"160\" y=\"525\" text-anchor=\"middle\">C</text><rect x=\"330\" y=\"575\" width=\"150\" height=\"85\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><circle cx=\"405\" cy=\"617\" r=\"12\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"405\" y=\"621\" text-anchor=\"middle\">A</text><rect x=\"330\" y=\"410\" width=\"150\" height=\"152\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><line x1=\"330\" y1=\"500\" x2=\"480\" y2=\"500\" stroke=\"#000\" stroke-width=\"1\"/><circle cx=\"405\" cy=\"455\" r=\"12\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"405\" y=\"459\" text-anchor=\"middle\">F</text><circle cx=\"405\" cy=\"531\" r=\"12\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"405\" y=\"535\" text-anchor=\"middle\">B</text><rect x=\"95\" y=\"395\" width=\"130\" height=\"75\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><circle cx=\"160\" cy=\"432\" r=\"12\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"160\" y=\"436\" text-anchor=\"middle\">H</text><rect x=\"185\" y=\"300\" width=\"58\" height=\"60\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><rect x=\"248\" y=\"300\" width=\"58\" height=\"60\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><rect x=\"311\" y=\"300\" width=\"58\" height=\"60\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><rect x=\"374\" y=\"300\" width=\"58\" height=\"60\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"95\" y=\"320\" text-anchor=\"middle\">GARDEN</text><text x=\"95\" y=\"338\" text-anchor=\"middle\">WASTE BAYS</text><path d=\"M 262,400 L 262,382 L 139,382 L 139,300\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><path d=\"M 288,400 L 288,382 L 495,382 L 495,215\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><line x1=\"100\" y1=\"300\" x2=\"100\" y2=\"100\" stroke=\"#000\" stroke-width=\"1\"/><line x1=\"178\" y1=\"300\" x2=\"178\" y2=\"100\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"139\" y=\"215\" text-anchor=\"middle\">RAMP</text><path d=\"M 116,270 L 139,254 L 162,270\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><path d=\"M 116,160 L 139,144 L 162,160\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><rect x=\"190\" y=\"240\" width=\"88\" height=\"50\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"234\" y=\"270\" text-anchor=\"middle\">WOOD</text><rect x=\"190\" y=\"175\" width=\"88\" height=\"50\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"234\" y=\"205\" text-anchor=\"middle\">RUBBLE</text><rect x=\"190\" y=\"110\" width=\"88\" height=\"50\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"234\" y=\"132\" text-anchor=\"middle\">SCRAP</text><text x=\"234\" y=\"150\" text-anchor=\"middle\">METAL</text><rect x=\"295\" y=\"230\" width=\"120\" height=\"58\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><circle cx=\"357\" cy=\"259\" r=\"12\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"357\" y=\"263\" text-anchor=\"middle\">G</text><line x1=\"295\" y1=\"240\" x2=\"295\" y2=\"278\" stroke=\"#000\" stroke-width=\"3\"/><rect x=\"100\" y=\"40\" width=\"174\" height=\"54\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><line x1=\"187\" y1=\"40\" x2=\"187\" y2=\"94\" stroke=\"#000\" stroke-width=\"1\"/><circle cx=\"143\" cy=\"67\" r=\"12\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"143\" y=\"71\" text-anchor=\"middle\">D</text><rect x=\"330\" y=\"120\" width=\"140\" height=\"75\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><circle cx=\"400\" cy=\"157\" r=\"12\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"400\" y=\"161\" text-anchor=\"middle\">E</text><path d=\"M 178,98 L 300,98 L 300,215 L 495,215\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><line x1=\"520\" y1=\"196\" x2=\"520\" y2=\"244\" stroke=\"#000\" stroke-width=\"3\"/><line x1=\"508\" y1=\"215\" x2=\"548\" y2=\"215\" stroke=\"#000\" stroke-width=\"1\"/><polygon points=\"560,215 546,209 546,221\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"556\" y=\"180\" text-anchor=\"middle\">exit barrier</text></svg>",
-        "alt": "Halstock geri dönüşüm merkezinin saha planı. Ana giriş (Ferry Lane), giriş bariyeri, iç yol, saha ofisi, bahçe atığı bölmeleri, rampa ve rampanın yukarı yönü, ahşap, moloz ve hurda metal konteynerleri, çıkış bariyeri ve kuzey oku etiketli; A-H harfli sekiz konum etiketsiz bırakılmış.",
+        "alt": "Site plan of Halstock recycling centre. Main entrance (Ferry Lane), entrance barrier, internal drive, site office, garden waste bays, ramp and the ramp's upward direction, wood, rubble and scrap metal containers, exit barrier and north arrow are labelled; eight locations lettered A-H are left unlabelled.",
         "labels": [
           "A",
           "B",
@@ -163,7 +163,7 @@
           "answer_point_id": "L4-S2-08",
           "turn_index": 3,
           "distractor_used": null,
-          "explanation": "Ferry Lane'deki bariyerden girince solda kalan yeşil kabin saha ofisidir; tuvaletler ve içme suyu noktası onun arkasında, yani planda C ile gösterilen yerdedir.",
+          "explanation": "The green cabin on your left as you come through the barrier on Ferry Lane is the site office; the toilets and drinking water point are behind it, the location marked C on the plan.",
           "difficulty": "easy",
           "status": "verified"
         },
@@ -181,7 +181,7 @@
           "answer_point_id": "L4-S2-09",
           "turn_index": 4,
           "distractor_used": null,
-          "explanation": "Sekiz araçlık küçük otopark ofisin tam karşısında, yolun sağ tarafındadır; atık bırakanlar için değil, dükkâna gelenler içindir.",
+          "explanation": "Opposite the office, on your right, is the small eight-space car park — not for people dropping off waste, but for shop customers.",
           "difficulty": "easy",
           "status": "verified"
         },
@@ -199,7 +199,7 @@
           "answer_point_id": "L4-S2-15",
           "turn_index": 6,
           "distractor_used": "beside the site office",
-          "explanation": "Kumbaralar eskiden ofisin yanındaydı, konuşmacı bunu söyleyip düzeltiyor: artık rampanın sonu ile çıkış bariyeri arasındalar.",
+          "explanation": "The speaker first says the banks used to be beside the office, then corrects it: they're now between the end of the ramp and the exit barrier.",
           "difficulty": "hard",
           "status": "verified"
         },
@@ -217,7 +217,7 @@
           "answer_point_id": "L4-S2-17",
           "turn_index": 7,
           "distractor_used": null,
-          "explanation": "Boya ve kimyasal deposu sahanın arkasında, ahşap konteynerinin bitişiğinde ve kilitli kapının ardındadır; planda kalın çizgi o kapıdır.",
+          "explanation": "The paint and chemicals store is at the back of the site, next to the wood skip, behind a locked gate; the thick line on the plan marks that gate.",
           "difficulty": "medium",
           "status": "verified"
         }
@@ -234,7 +234,7 @@
       "visual": {
         "kind": "plan",
         "svg": "<svg viewBox=\"0 0 620 740\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\"><line x1=\"60\" y1=\"40\" x2=\"520\" y2=\"40\" stroke=\"#000\" stroke-width=\"1\"/><line x1=\"60\" y1=\"40\" x2=\"60\" y2=\"640\" stroke=\"#000\" stroke-width=\"1\"/><line x1=\"520\" y1=\"40\" x2=\"520\" y2=\"330\" stroke=\"#000\" stroke-width=\"1\"/><line x1=\"520\" y1=\"400\" x2=\"520\" y2=\"640\" stroke=\"#000\" stroke-width=\"1\"/><line x1=\"60\" y1=\"640\" x2=\"265\" y2=\"640\" stroke=\"#000\" stroke-width=\"1\"/><line x1=\"335\" y1=\"640\" x2=\"520\" y2=\"640\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"528\" y=\"370\" text-anchor=\"start\">side door</text><line x1=\"300\" y1=\"715\" x2=\"300\" y2=\"672\" stroke=\"#000\" stroke-width=\"1\"/><polygon points=\"300,660 293,676 307,676\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"300\" y=\"733\" text-anchor=\"middle\">MAIN ENTRANCE (Peveril Street)</text><line x1=\"575\" y1=\"146\" x2=\"575\" y2=\"101\" stroke=\"#000\" stroke-width=\"1\"/><polygon points=\"575,88 568,104 582,104\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"575\" y=\"168\" text-anchor=\"middle\">N</text><circle cx=\"300\" cy=\"66\" r=\"14\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><line x1=\"300\" y1=\"66\" x2=\"300\" y2=\"56\" stroke=\"#000\" stroke-width=\"1\"/><line x1=\"300\" y1=\"66\" x2=\"308\" y2=\"70\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"340\" y=\"70\" text-anchor=\"start\">clock</text><rect x=\"215\" y=\"90\" width=\"170\" height=\"70\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"300\" y=\"118\" text-anchor=\"middle\">DEMONSTRATION</text><text x=\"300\" y=\"136\" text-anchor=\"middle\">KITCHEN</text><rect x=\"215\" y=\"180\" width=\"170\" height=\"70\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"300\" y=\"212\" text-anchor=\"middle\">11</text><line x1=\"275\" y1=\"224\" x2=\"325\" y2=\"224\" stroke=\"#000\" stroke-width=\"1\"/><rect x=\"410\" y=\"90\" width=\"100\" height=\"90\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"460\" y=\"128\" text-anchor=\"middle\">REFILL</text><text x=\"460\" y=\"146\" text-anchor=\"middle\">SHOP</text><rect x=\"410\" y=\"200\" width=\"100\" height=\"80\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"460\" y=\"235\" text-anchor=\"middle\">12</text><line x1=\"435\" y1=\"247\" x2=\"485\" y2=\"247\" stroke=\"#000\" stroke-width=\"1\"/><line x1=\"415\" y1=\"190\" x2=\"447\" y2=\"190\" stroke=\"#000\" stroke-width=\"3\"/><text x=\"452\" y=\"194\" text-anchor=\"start\">green sign</text><rect x=\"95\" y=\"215\" width=\"120\" height=\"90\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"155\" y=\"252\" text-anchor=\"middle\">FISH</text><text x=\"155\" y=\"270\" text-anchor=\"middle\">COUNTER</text><rect x=\"95\" y=\"370\" width=\"120\" height=\"165\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><line x1=\"95\" y1=\"455\" x2=\"215\" y2=\"455\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"155\" y=\"405\" text-anchor=\"middle\">10</text><line x1=\"130\" y1=\"417\" x2=\"180\" y2=\"417\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"155\" y=\"490\" text-anchor=\"middle\">BREAD AND</text><text x=\"155\" y=\"508\" text-anchor=\"middle\">CAKE STALL</text><rect x=\"95\" y=\"545\" width=\"120\" height=\"70\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"155\" y=\"578\" text-anchor=\"middle\">9</text><line x1=\"130\" y1=\"590\" x2=\"180\" y2=\"590\" stroke=\"#000\" stroke-width=\"1\"/><rect x=\"385\" y=\"545\" width=\"120\" height=\"70\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"445\" y=\"573\" text-anchor=\"middle\">FLOWER</text><text x=\"445\" y=\"591\" text-anchor=\"middle\">STALL</text><rect x=\"245\" y=\"280\" width=\"60\" height=\"230\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><rect x=\"315\" y=\"280\" width=\"60\" height=\"230\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"275\" y=\"395\" text-anchor=\"middle\" transform=\"rotate(-90 275 395)\">VEGETABLE</text><text x=\"345\" y=\"395\" text-anchor=\"middle\" transform=\"rotate(-90 345 395)\">STALLS</text><rect x=\"400\" y=\"330\" width=\"105\" height=\"70\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"452\" y=\"362\" text-anchor=\"middle\">HONEY AND</text><text x=\"452\" y=\"380\" text-anchor=\"middle\">PRESERVES</text><rect x=\"380\" y=\"655\" width=\"95\" height=\"38\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"427\" y=\"679\" text-anchor=\"middle\">CYCLE RACKS</text></svg>",
-        "alt": "Peveril Street kapalı halindeki çiftçi pazarının zemin planı. Ana giriş (Peveril Street), çiçek tezgâhı, ekmek ve pasta tezgâhı, balık reyonu, sebze sıraları, bal ve reçel tezgâhı, yan kapı, saatin altındaki gösteri mutfağı, dolum dükkânı, bisiklet park yeri ve kuzey oku etiketli; 9-12 numaralı dört yer etiketsiz bırakılmış.",
+        "alt": "Ground plan of the covered farmers' market on Peveril Street. Main entrance (Peveril Street), flower stall, bread and cake stall, fish counter, vegetable stalls, honey and preserves stall, side door, demonstration kitchen under the clock, refill shop, cycle racks and north arrow are labelled; four locations numbered 9-12 are left unlabelled.",
         "labels": [
           "9",
           "10",
@@ -259,7 +259,7 @@
           "answer_point_id": "L6-S2-11",
           "turn_index": 4,
           "distractor_used": null,
-          "explanation": "Peveril Street'e bakan geniş kapıdan girilince hemen solda danışma masası var; müdür de gün boyu orada duruyor.",
+          "explanation": "As you come in through the wide door facing Peveril Street, the information desk is immediately on your left; the manager is stationed there throughout the day.",
           "difficulty": "easy",
           "status": "verified"
         },
@@ -277,7 +277,7 @@
           "answer_point_id": "L6-S2-15",
           "turn_index": 5,
           "distractor_used": null,
-          "explanation": "Ekmek ve pasta tezgâhının devamı, aynı uzun tezgâhı paylaşan bölüm peynir reyonudur.",
+          "explanation": "Beyond the bread and cake stall, sharing the same long counter, is the cheese counter.",
           "difficulty": "medium",
           "status": "verified"
         },
@@ -295,7 +295,7 @@
           "answer_point_id": "L6-S2-20",
           "turn_index": 7,
           "distractor_used": null,
-          "explanation": "Yirmi dört sandalyeli oturma alanı, salonun en ucundaki gösteri mutfağının tam önünde yer alıyor.",
+          "explanation": "The seating area, with twenty-four chairs, is right in front of the demonstration kitchen at the far end of the hall.",
           "difficulty": "medium",
           "status": "verified"
         },
@@ -313,7 +313,7 @@
           "answer_point_id": "L6-S2-22",
           "turn_index": 8,
           "distractor_used": null,
-          "explanation": "Tuvaletlere dolum dükkânını geçip yeşil tabelalı kapıdan geçiliyor; planda o kapı kalın çizgiyle gösterilmiştir.",
+          "explanation": "The toilets are past the refill shop, through the door with the green sign above it; that door is shown with a thick line on the plan.",
           "difficulty": "medium",
           "status": "verified"
         }
@@ -339,7 +339,7 @@
       "visual": {
         "kind": "plan",
         "svg": "<svg viewBox=\"0 0 760 420\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\"><text x=\"235\" y=\"40\" text-anchor=\"middle\">GROUND FLOOR</text><text x=\"600\" y=\"40\" text-anchor=\"middle\">FIRST FLOOR</text><line x1=\"740\" y1=\"130\" x2=\"740\" y2=\"85\" stroke=\"#000\" stroke-width=\"1\"/><polygon points=\"740,72 733,88 747,88\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"740\" y=\"152\" text-anchor=\"middle\">N</text><line x1=\"60\" y1=\"60\" x2=\"410\" y2=\"60\" stroke=\"#000\" stroke-width=\"1\"/><line x1=\"60\" y1=\"60\" x2=\"60\" y2=\"330\" stroke=\"#000\" stroke-width=\"1\"/><line x1=\"410\" y1=\"60\" x2=\"410\" y2=\"330\" stroke=\"#000\" stroke-width=\"1\"/><line x1=\"60\" y1=\"330\" x2=\"215\" y2=\"330\" stroke=\"#000\" stroke-width=\"1\"/><line x1=\"255\" y1=\"330\" x2=\"410\" y2=\"330\" stroke=\"#000\" stroke-width=\"1\"/><line x1=\"235\" y1=\"392\" x2=\"235\" y2=\"352\" stroke=\"#000\" stroke-width=\"1\"/><polygon points=\"235,340 229,354 241,354\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"235\" y=\"410\" text-anchor=\"middle\">MAIN ENTRANCE (Bridge Street)</text><rect x=\"205\" y=\"296\" width=\"60\" height=\"12\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"235\" y=\"288\" text-anchor=\"middle\">TICKET DESK</text><text x=\"235\" y=\"180\" text-anchor=\"middle\" transform=\"rotate(-90 235 180)\">corridor</text><rect x=\"63\" y=\"250\" width=\"127\" height=\"77\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><circle cx=\"126\" cy=\"288\" r=\"12\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"126\" y=\"292\" text-anchor=\"middle\">D</text><rect x=\"63\" y=\"160\" width=\"127\" height=\"85\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><circle cx=\"126\" cy=\"202\" r=\"12\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"126\" y=\"206\" text-anchor=\"middle\">B</text><rect x=\"63\" y=\"63\" width=\"127\" height=\"92\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"126\" y=\"102\" text-anchor=\"middle\">WEAVING</text><text x=\"126\" y=\"120\" text-anchor=\"middle\">GALLERY</text><rect x=\"280\" y=\"250\" width=\"127\" height=\"77\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><circle cx=\"343\" cy=\"288\" r=\"12\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"343\" y=\"292\" text-anchor=\"middle\">A</text><rect x=\"280\" y=\"200\" width=\"127\" height=\"45\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"343\" y=\"227\" text-anchor=\"middle\">CLOAKROOM</text><rect x=\"280\" y=\"150\" width=\"127\" height=\"45\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><line x1=\"285\" y1=\"158\" x2=\"402\" y2=\"158\" stroke=\"#000\" stroke-width=\"1\"/><line x1=\"285\" y1=\"166\" x2=\"402\" y2=\"166\" stroke=\"#000\" stroke-width=\"1\"/><line x1=\"285\" y1=\"174\" x2=\"402\" y2=\"174\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"343\" y=\"190\" text-anchor=\"middle\">STAIRS</text><rect x=\"280\" y=\"105\" width=\"127\" height=\"42\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><circle cx=\"343\" cy=\"126\" r=\"12\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"343\" y=\"130\" text-anchor=\"middle\">C</text><rect x=\"280\" y=\"63\" width=\"127\" height=\"38\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><circle cx=\"343\" cy=\"84\" r=\"12\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"343\" y=\"88\" text-anchor=\"middle\">E</text><line x1=\"490\" y1=\"60\" x2=\"710\" y2=\"60\" stroke=\"#000\" stroke-width=\"1\"/><line x1=\"490\" y1=\"60\" x2=\"490\" y2=\"330\" stroke=\"#000\" stroke-width=\"1\"/><line x1=\"710\" y1=\"60\" x2=\"710\" y2=\"330\" stroke=\"#000\" stroke-width=\"1\"/><line x1=\"490\" y1=\"330\" x2=\"710\" y2=\"330\" stroke=\"#000\" stroke-width=\"1\"/><rect x=\"493\" y=\"63\" width=\"214\" height=\"70\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"600\" y=\"92\" text-anchor=\"middle\">TEMPORARY EXHIBITION</text><text x=\"600\" y=\"110\" text-anchor=\"middle\">GALLERY</text><rect x=\"493\" y=\"140\" width=\"214\" height=\"60\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><circle cx=\"600\" cy=\"170\" r=\"12\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"600\" y=\"174\" text-anchor=\"middle\">F</text><rect x=\"493\" y=\"205\" width=\"77\" height=\"122\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><circle cx=\"531\" cy=\"266\" r=\"12\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"531\" y=\"270\" text-anchor=\"middle\">H</text><rect x=\"630\" y=\"205\" width=\"77\" height=\"122\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><circle cx=\"668\" cy=\"266\" r=\"12\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"668\" y=\"270\" text-anchor=\"middle\">G</text><rect x=\"574\" y=\"240\" width=\"52\" height=\"87\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><line x1=\"578\" y1=\"252\" x2=\"622\" y2=\"252\" stroke=\"#000\" stroke-width=\"1\"/><line x1=\"578\" y1=\"266\" x2=\"622\" y2=\"266\" stroke=\"#000\" stroke-width=\"1\"/><line x1=\"578\" y1=\"280\" x2=\"622\" y2=\"280\" stroke=\"#000\" stroke-width=\"1\"/><line x1=\"600\" y1=\"238\" x2=\"600\" y2=\"220\" stroke=\"#000\" stroke-width=\"1\"/><polygon points=\"600,210 594,224 606,224\" fill=\"none\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"612\" y=\"218\" text-anchor=\"start\">up</text></svg>",
-        "alt": "Weavers' Yard müzesinin zemin kat ve üst kat planı. Ana giriş (Bridge Street), bilet bankosu, koridor, dokuma galerisi, vestiyer, merdiven, üst kattaki geçici sergi galerisi, merdivenin çıkış yönü ve kuzey oku etiketli; A-H harfli sekiz konum etiketsiz bırakılmış.",
+        "alt": "Ground floor and first floor plan of the Weavers' Yard museum. Main entrance (Bridge Street), ticket desk, corridor, weaving gallery, cloakroom, stairs, first-floor temporary exhibition gallery, the stairs' upward direction and north arrow are labelled; eight locations lettered A-H are left unlabelled.",
         "labels": [
           "A",
           "B",
@@ -368,7 +368,7 @@
           "answer_point_id": "L1-S2-16",
           "turn_index": 6,
           "distractor_used": null,
-          "explanation": "Mağaza kafenin tam karşısında, girişin sağ tarafında kalıyor; vestiyer planda adıyla yazılı olduğu için karışma ihtimali yok.",
+          "explanation": "The shop is directly opposite the café, on the right of the entrance; the cloakroom is already labelled by name on the plan, so there's no risk of confusing them.",
           "difficulty": "easy",
           "status": "verified"
         },
@@ -386,7 +386,7 @@
           "answer_point_id": "L1-S2-21",
           "turn_index": 8,
           "distractor_used": null,
-          "explanation": "Asansör konferans salonu ile mağaza arasındadır; aradaki vestiyer ve merdiven planda yazılı olduğu için geriye tek bir konum kalıyor.",
+          "explanation": "The lift is between the lecture theatre and the shop; since the cloakroom and stairs in between are already labelled on the plan, only one location is left.",
           "difficulty": "hard",
           "status": "verified"
         },
@@ -404,7 +404,7 @@
           "answer_point_id": "L1-S2-23",
           "turn_index": 9,
           "distractor_used": null,
-          "explanation": "Okuma odası üst katta, merdivenin başında sağa düşen odadır; merdivenin çıkış yönü planda okla gösterilmiştir.",
+          "explanation": "The reading room is upstairs, the room to the right at the top of the stairs; the upward direction of the stairs is shown with an arrow on the plan.",
           "difficulty": "medium",
           "status": "verified"
         }

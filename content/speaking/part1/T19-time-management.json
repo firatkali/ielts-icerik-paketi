@@ -15,7 +15,7 @@
     {
       "number": 1,
       "prompt": "How do you keep track of the things you need to do?",
-      "focus": "alışkanlık",
+      "focus": "habit",
       "difficulty": "easy",
       "useful_language": [
         "I write everything down",
@@ -27,7 +27,7 @@
     {
       "number": 2,
       "prompt": "Which part of the week feels busiest for you?",
-      "focus": "temel bilgi",
+      "focus": "basic information",
       "difficulty": "easy",
       "useful_language": [
         "the first couple of days are relentless",
@@ -39,7 +39,7 @@
     {
       "number": 3,
       "prompt": "How far ahead do you usually plan your week?",
-      "focus": "alışkanlık",
+      "focus": "habit",
       "difficulty": "easy",
       "useful_language": [
         "a day at a time, mostly",
@@ -51,7 +51,7 @@
     {
       "number": 4,
       "prompt": "Which do you find easier, starting a task early or working close to the deadline?",
-      "focus": "tercih ve sebep",
+      "focus": "preference and reason",
       "difficulty": "medium",
       "useful_language": [
         "pressure focuses my mind",
@@ -63,7 +63,7 @@
     {
       "number": 5,
       "prompt": "What tends to take up more of your time than it should?",
-      "focus": "açıklama",
+      "focus": "explanation",
       "difficulty": "medium",
       "useful_language": [
         "I get sidetracked by messages",
@@ -75,7 +75,7 @@
     {
       "number": 6,
       "prompt": "How did you organise your time when you were at school?",
-      "focus": "geçmiş",
+      "focus": "past",
       "difficulty": "medium",
       "useful_language": [
         "the timetable did it for me",
@@ -87,7 +87,7 @@
     {
       "number": 7,
       "prompt": "What do you do when you have more to get through than time allows?",
-      "focus": "strateji",
+      "focus": "strategy",
       "difficulty": "medium",
       "useful_language": [
         "I work out what can wait",
@@ -99,7 +99,7 @@
     {
       "number": 8,
       "prompt": "How would your week look if you had one completely free day?",
-      "focus": "varsayım",
+      "focus": "hypothesis",
       "difficulty": "hard",
       "useful_language": [
         "I'd keep it clear on purpose",
@@ -111,7 +111,7 @@
     {
       "number": 9,
       "prompt": "Why do so many people feel short of time these days?",
-      "focus": "sebep ve değişim",
+      "focus": "reason and change",
       "difficulty": "hard",
       "useful_language": [
         "work follows people home",
@@ -123,7 +123,7 @@
     {
       "number": 10,
       "prompt": "How is organising your own time different from following someone else's timetable?",
-      "focus": "karşılaştırma",
+      "focus": "comparison",
       "difficulty": "hard",
       "useful_language": [
         "the freedom is harder than it sounds",

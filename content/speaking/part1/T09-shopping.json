@@ -15,7 +15,7 @@
     {
       "number": 1,
       "prompt": "What kinds of things do you shop for most often?",
-      "focus": "alışkanlık",
+      "focus": "habit",
       "difficulty": "easy",
       "useful_language": [
         "everyday bits and pieces",
@@ -27,7 +27,7 @@
     {
       "number": 2,
       "prompt": "How often do you go to the shops in a normal week?",
-      "focus": "alışkanlık",
+      "focus": "habit",
       "difficulty": "easy",
       "useful_language": [
         "two or three times",
@@ -39,7 +39,7 @@
     {
       "number": 3,
       "prompt": "How do you usually pay when you buy something?",
-      "focus": "temel bilgi",
+      "focus": "basic information",
       "difficulty": "easy",
       "useful_language": [
         "I hardly ever carry cash",
@@ -51,7 +51,7 @@
     {
       "number": 4,
       "prompt": "What kind of shop do you enjoy spending time in, and why?",
-      "focus": "tercih ve sebep",
+      "focus": "preference and reason",
       "difficulty": "medium",
       "useful_language": [
         "you can browse without being rushed",
@@ -63,7 +63,7 @@
     {
       "number": 5,
       "prompt": "How do you decide whether something is worth buying?",
-      "focus": "açıklama",
+      "focus": "explanation",
       "difficulty": "medium",
       "useful_language": [
         "I sleep on it",
@@ -75,7 +75,7 @@
     {
       "number": 6,
       "prompt": "What did you like buying with your own money when you were younger?",
-      "focus": "geçmiş",
+      "focus": "past",
       "difficulty": "medium",
       "useful_language": [
         "I saved up for weeks",
@@ -87,7 +87,7 @@
     {
       "number": 7,
       "prompt": "Why do some people find shopping tiring rather than enjoyable?",
-      "focus": "başkaları açısı ve sebep",
+      "focus": "other people's perspective and reason",
       "difficulty": "medium",
       "useful_language": [
         "the crowds wear them down",
@@ -99,7 +99,7 @@
     {
       "number": 8,
       "prompt": "How have the shops in your area changed since you were a child?",
-      "focus": "değişim",
+      "focus": "change",
       "difficulty": "hard",
       "useful_language": [
         "the small independents have gone",
@@ -111,7 +111,7 @@
     {
       "number": 9,
       "prompt": "What would make you buy more of your things online in future?",
-      "focus": "gelecek",
+      "focus": "future",
       "difficulty": "hard",
       "useful_language": [
         "easier returns would tempt me",
@@ -123,7 +123,7 @@
     {
       "number": 10,
       "prompt": "How is a small local shop different from a large store?",
-      "focus": "karşılaştırma",
+      "focus": "comparison",
       "difficulty": "hard",
       "useful_language": [
         "you get to know the owner",

@@ -18,24 +18,24 @@
     "chart_data": null,
     "unit": null,
     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 940 450\" font-family=\"sans-serif\" font-size=\"12\"><defs><marker id=\"at15-arrow\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"8\" markerHeight=\"8\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"black\"/></marker></defs><g stroke=\"black\" fill=\"none\"><rect x=\"30\" y=\"60\" width=\"180\" height=\"56\"/><rect x=\"250\" y=\"60\" width=\"180\" height=\"56\"/><rect x=\"470\" y=\"60\" width=\"180\" height=\"56\"/><rect x=\"690\" y=\"60\" width=\"180\" height=\"56\"/><rect x=\"690\" y=\"170\" width=\"180\" height=\"46\"/><rect x=\"690\" y=\"250\" width=\"180\" height=\"56\"/><rect x=\"470\" y=\"250\" width=\"180\" height=\"56\"/><rect x=\"250\" y=\"250\" width=\"180\" height=\"56\"/><rect x=\"30\" y=\"250\" width=\"180\" height=\"56\"/><path d=\"M 210 88 L 246 88\" marker-end=\"url(#at15-arrow)\"/><path d=\"M 430 88 L 466 88\" marker-end=\"url(#at15-arrow)\"/><path d=\"M 650 88 L 686 88\" marker-end=\"url(#at15-arrow)\"/><path d=\"M 780 116 L 780 166\" marker-end=\"url(#at15-arrow)\"/><path d=\"M 870 88 L 900 88 L 900 278 L 874 278\" marker-end=\"url(#at15-arrow)\"/><path d=\"M 690 278 L 654 278\" marker-end=\"url(#at15-arrow)\"/><path d=\"M 470 278 L 434 278\" marker-end=\"url(#at15-arrow)\"/><path d=\"M 250 278 L 214 278\" marker-end=\"url(#at15-arrow)\"/><path d=\"M 120 306 L 120 410 L 920 410 L 920 40 L 120 40 L 120 56\" marker-end=\"url(#at15-arrow)\"/></g><g fill=\"black\" text-anchor=\"middle\"><text x=\"120\" y=\"84\">Filled bottles are</text><text x=\"120\" y=\"100\">delivered to shops</text><text x=\"340\" y=\"84\">Empties returned to</text><text x=\"340\" y=\"100\">a collection point</text><text x=\"560\" y=\"84\">Crates are taken by</text><text x=\"560\" y=\"100\">lorry to the plant</text><text x=\"780\" y=\"84\">Bottles are sorted;</text><text x=\"780\" y=\"100\">damaged ones removed</text><text x=\"780\" y=\"194\">Damaged glass is melted</text><text x=\"780\" y=\"210\">to make new bottles</text><text x=\"780\" y=\"274\">Labels are soaked off</text><text x=\"780\" y=\"290\">in a washing tank</text><text x=\"560\" y=\"274\">Bottles are rinsed with</text><text x=\"560\" y=\"290\">hot water and checked</text><text x=\"340\" y=\"274\">Clean bottles are</text><text x=\"340\" y=\"290\">refilled and capped</text><text x=\"120\" y=\"274\">New labels are added</text><text x=\"120\" y=\"290\">and crates packed</text><text x=\"520\" y=\"404\">the same bottles are used again</text></g></svg>",
-    "alt": "Cam şişelerin dükkândan toplanıp tesiste ayıklanmasını, etiketlerinin çıkarılıp yıkanmasını, yeniden doldurulup dükkâna dönmesini gösteren sekiz aşamalı döngüsel süreç şeması; hasarlı şişeler eritilmek üzere ayrılıyor."
+    "alt": "An eight-stage cyclical process diagram showing glass bottles being collected from shops, sorted at the plant, stripped of labels and washed, then refilled and returned to shops; damaged bottles are separated out to be melted down."
   },
   "visuals": null,
   "key_points": [
-    "Süreç doğrusal değil döngüsel: dolu şişeler dükkâna gidiyor, boşalanlar toplanıp temizleniyor ve yeniden doldurularak aynı çevrime giriyor",
-    "İlk üç aşama toplamayla ilgili: dağıtım, müşterinin boş şişeyi toplama noktasına bırakması ve kasaların kamyonla tesise taşınması",
-    "Tesiste önce ayıklama yapılıyor; hasarlı şişeler devreden çıkarılıp eritilerek yeni şişe üretimine gönderiliyor — şemadaki tek yan kol bu",
-    "Temizlik iki basamaklı: etiketler yıkama tankında çözülüyor, ardından şişeler sıcak suyla durulanıp denetleniyor",
-    "Yalnızca denetimden geçen şişeler yeniden doldurulup kapaklanıyor, yeni etiket ve kasayla dükkâna dönüyor",
-    "Sekiz aşamanın hepsi tesiste geçmiyor; müşteri de sürecin bir parçası ve döngü başlangıç noktasına döndüğü için belirgin bir 'son' aşama yok"
+    "The process is cyclical, not linear: filled bottles go to shops, empties are collected and cleaned, and refilling sends them back into the same cycle",
+    "The first three stages are about collection: delivery, the customer leaving the empty bottle at a collection point, and crates being taken by lorry to the plant",
+    "Sorting happens first at the plant; damaged bottles are removed from the cycle and melted down to make new bottles — this is the diagram's only side branch",
+    "Cleaning has two steps: labels are soaked off in a washing tank, then the bottles are rinsed with hot water and checked",
+    "Only bottles that pass inspection are refilled and capped, then returned to shops with new labels and crates",
+    "Not all eight stages take place at the plant; the customer is also part of the process, and because the cycle returns to its starting point there is no clear 'final' stage"
   ],
   "common_mistakes": [
-    "Döngüyü fark etmeyip 'finally' ile bitirmek; şemanın başa döndüğünü söylememek",
-    "Edilgen çatıyı (are collected, are rinsed) kullanmayıp her cümleye özne uydurmak ('workers wash the bottles')",
-    "Hasarlı şişelerin ayrıldığı yan kolu atlamak",
-    "Şemada olmayan bilgi eklemek (kaç şişe, ne kadar sürüyor, maliyeti ne)",
-    "Aşamaları sırasız anlatmak; 'first / then / after that / once' bağlayıcılarını kullanmamak"
+    "Failing to notice the cycle and ending with 'finally'; not stating that the diagram loops back to the start",
+    "Not using the passive voice (are collected, are rinsed) and instead inventing a subject for every sentence ('workers wash the bottles')",
+    "Leaving out the side branch where damaged bottles are separated",
+    "Adding information that is not in the diagram (how many bottles, how long it takes, what it costs)",
+    "Describing the stages out of order; not using linking words such as 'first / then / after that / once'"
   ],
-  "topic": "cam şişelerin toplanıp yeniden doldurulması",
+  "topic": "collecting and refilling glass bottles",
   "difficulty": "medium"
 }

@@ -31,7 +31,7 @@
         "paragraph": "A",
         "sentence": 3
       },
-      "explanation": "A metninin A paragrafı, dört haftada bir değişen vardiya düzeninin en geç bir önceki cuma personel ilan panosunda yayımlandığını söylüyor; bu yüzden cevap 'noticeboard'.",
+      "explanation": "Paragraph A of Text A says that the shift pattern, which changes every four weeks, is posted on the staff noticeboard no later than the preceding Friday; so the answer is 'noticeboard'.",
       "difficulty": "easy",
       "status": "flagged",
       "blind_solvable": true,
@@ -54,7 +54,7 @@
         "paragraph": "B",
         "sentence": 5
       },
-      "explanation": "A metninin B paragrafı, üretim hatları boş kalmasın diye takım içindeki molaların kaydırmalı düzenlenmesi gerektiğini söylüyor; bu yüzden cevap 'staggered'.",
+      "explanation": "Paragraph B of Text A says that breaks within a team must be staggered so that production lines are never left unattended; so the answer is 'staggered'.",
       "difficulty": "medium",
       "status": "flagged",
       "blind_solvable": true,
@@ -78,7 +78,7 @@
         "paragraph": "C",
         "sentence": 1
       },
-      "explanation": "A metninin C paragrafı, öğle molaları dâhil giriş çıkışların personel girişindeki kart okuyucuyla kaydedildiğini söylüyor; bu yüzden cevap 'card reader'.",
+      "explanation": "Paragraph C of Text A says that clocking in and out, including lunch breaks, is recorded with the card reader at the staff entrance; so the answer is 'card reader'.",
       "difficulty": "easy",
       "status": "flagged",
       "blind_solvable": true,
@@ -103,7 +103,7 @@
         "paragraph": "D",
         "sentence": 1
       },
-      "explanation": "A metninin D paragrafı, vardiya değişimi isteğinin 48 saat önceden, personel ofisinden alınan vardiya değişim formuyla yapıldığını söylüyor; 'shift-swap' tireli olduğu için cevap iki kelime sayılıyor.",
+      "explanation": "Paragraph D of Text A says that a shift-swap request must be made 48 hours in advance using the shift-swap form obtained from the staff office; since 'shift-swap' is hyphenated, the answer counts as two words.",
       "difficulty": "medium",
       "status": "flagged",
       "blind_solvable": true,
@@ -128,7 +128,7 @@
         "paragraph": "A",
         "sentence": 1
       },
-      "explanation": "B metninin A paragrafı, tam zamanlı çalışanların resmî tatiller dâhil yılda 28 gün ücretli izin hakkı olduğunu söylüyor; bu yüzden cevap '28 days'.",
+      "explanation": "Paragraph A of Text B says that full-time employees are entitled to 28 days of paid leave a year, including public holidays; so the answer is '28 days'.",
       "difficulty": "easy",
       "status": "flagged",
       "blind_solvable": true,
@@ -151,7 +151,7 @@
         "paragraph": "B",
         "sentence": 2
       },
-      "explanation": "B metninin B paragrafı, izin taleplerinin en az iki hafta önceden çevrimiçi personel portalından iletildiğini söylüyor; soru kökünde 'online' verildiği için boşluğa gelen 'staff portal'.",
+      "explanation": "Paragraph B of Text B says that leave requests are submitted through the online staff portal at least two weeks in advance; since 'online' is already given in the prompt, the gap needs 'staff portal'.",
       "difficulty": "medium",
       "status": "flagged",
       "blind_solvable": true,

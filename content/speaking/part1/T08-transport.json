@@ -15,7 +15,7 @@
     {
       "number": 1,
       "prompt": "How do you usually travel around the area where you live?",
-      "focus": "alışkanlık",
+      "focus": "habit",
       "difficulty": "easy",
       "useful_language": [
         "I go everywhere on foot",
@@ -27,7 +27,7 @@
     {
       "number": 2,
       "prompt": "How long does your usual journey into town take?",
-      "focus": "temel bilgi",
+      "focus": "basic information",
       "difficulty": "easy",
       "useful_language": [
         "twenty minutes door to door",
@@ -39,7 +39,7 @@
     {
       "number": 3,
       "prompt": "What do you usually do while you are travelling?",
-      "focus": "alışkanlık",
+      "focus": "habit",
       "difficulty": "easy",
       "useful_language": [
         "I catch up on reading",
@@ -51,7 +51,7 @@
     {
       "number": 4,
       "prompt": "Which form of transport do you find most comfortable, and why?",
-      "focus": "tercih ve sebep",
+      "focus": "preference and reason",
       "difficulty": "medium",
       "useful_language": [
         "there's room to move about",
@@ -63,7 +63,7 @@
     {
       "number": 5,
       "prompt": "What are the main transport problems in your area?",
-      "focus": "açıklama",
+      "focus": "explanation",
       "difficulty": "medium",
       "useful_language": [
         "the roads are congested",
@@ -75,7 +75,7 @@
     {
       "number": 6,
       "prompt": "How did you get to school when you were younger?",
-      "focus": "geçmiş",
+      "focus": "past",
       "difficulty": "medium",
       "useful_language": [
         "we walked in a group",
@@ -87,7 +87,7 @@
     {
       "number": 7,
       "prompt": "Why do so many people still choose to travel by car?",
-      "focus": "başkaları açısı ve sebep",
+      "focus": "other people's perspective and reason",
       "difficulty": "medium",
       "useful_language": [
         "it's door to door",
@@ -99,7 +99,7 @@
     {
       "number": 8,
       "prompt": "What would persuade more people in your area to use public transport?",
-      "focus": "öneri",
+      "focus": "advice",
       "difficulty": "hard",
       "useful_language": [
         "cheaper fares would help",
@@ -111,7 +111,7 @@
     {
       "number": 9,
       "prompt": "In what ways is getting around your area easier than it used to be?",
-      "focus": "değişim",
+      "focus": "change",
       "difficulty": "hard",
       "useful_language": [
         "you can plan a route on your phone",
@@ -123,7 +123,7 @@
     {
       "number": 10,
       "prompt": "How is travelling in a large city different from travelling in the countryside?",
-      "focus": "karşılaştırma",
+      "focus": "comparison",
       "difficulty": "hard",
       "useful_language": [
         "you're spoilt for choice in a city",

@@ -15,7 +15,7 @@
     {
       "number": 1,
       "prompt": "What kind of places do you enjoy visiting?",
-      "focus": "temel bilgi",
+      "focus": "basic information",
       "difficulty": "easy",
       "useful_language": [
         "somewhere with a bit of history",
@@ -27,7 +27,7 @@
     {
       "number": 2,
       "prompt": "Where did you go the last time you had a day out?",
-      "focus": "son deneyim",
+      "focus": "recent experience",
       "difficulty": "easy",
       "useful_language": [
         "we only went as far as",
@@ -39,7 +39,7 @@
     {
       "number": 3,
       "prompt": "How do you usually prepare before going somewhere unfamiliar?",
-      "focus": "alışkanlık",
+      "focus": "habit",
       "difficulty": "easy",
       "useful_language": [
         "I look up how to get there",
@@ -51,7 +51,7 @@
     {
       "number": 4,
       "prompt": "Which do you prefer, planning a trip in detail or deciding as you go?",
-      "focus": "tercih ve sebep",
+      "focus": "preference and reason",
       "difficulty": "medium",
       "useful_language": [
         "I like a loose plan",
@@ -63,7 +63,7 @@
     {
       "number": 5,
       "prompt": "What sort of trips did you go on when you were at school?",
-      "focus": "geçmiş",
+      "focus": "past",
       "difficulty": "medium",
       "useful_language": [
         "we were taken to",
@@ -75,7 +75,7 @@
     {
       "number": 6,
       "prompt": "What do you find most tiring about long journeys?",
-      "focus": "açıklama",
+      "focus": "explanation",
       "difficulty": "medium",
       "useful_language": [
         "the waiting around",
@@ -87,7 +87,7 @@
     {
       "number": 7,
       "prompt": "What makes some journeys stay in your memory longer than others?",
-      "focus": "sebep",
+      "focus": "reason",
       "difficulty": "medium",
       "useful_language": [
         "it's usually the people you're with",
@@ -99,7 +99,7 @@
     {
       "number": 8,
       "prompt": "Where would you go if you could spend a month anywhere?",
-      "focus": "varsayım",
+      "focus": "hypothesis",
       "difficulty": "hard",
       "useful_language": [
         "I'd settle somewhere rather than move about",
@@ -111,7 +111,7 @@
     {
       "number": 9,
       "prompt": "How has the way people decide where to go away changed?",
-      "focus": "değişim",
+      "focus": "change",
       "difficulty": "hard",
       "useful_language": [
         "people used to rely on word of mouth",
@@ -123,7 +123,7 @@
     {
       "number": 10,
       "prompt": "In what ways do people change after spending time in unfamiliar places?",
-      "focus": "başkaları açısı ve sonuç",
+      "focus": "others' perspective and outcome",
       "difficulty": "hard",
       "useful_language": [
         "they come back less set in their ways",

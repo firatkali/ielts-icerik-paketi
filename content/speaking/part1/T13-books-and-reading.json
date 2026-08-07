@@ -15,7 +15,7 @@
     {
       "number": 1,
       "prompt": "What kind of books do you like to read?",
-      "focus": "temel bilgi",
+      "focus": "basic information",
       "difficulty": "easy",
       "useful_language": [
         "anything with a strong story",
@@ -27,7 +27,7 @@
     {
       "number": 2,
       "prompt": "How much time do you spend reading in a normal week?",
-      "focus": "alışkanlık",
+      "focus": "habit",
       "difficulty": "easy",
       "useful_language": [
         "an hour or so in the evenings",
@@ -39,7 +39,7 @@
     {
       "number": 3,
       "prompt": "Where do you usually get the books you read?",
-      "focus": "alışkanlık",
+      "focus": "habit",
       "difficulty": "easy",
       "useful_language": [
         "I borrow most of them",
@@ -51,7 +51,7 @@
     {
       "number": 4,
       "prompt": "Which book would you recommend to someone your age, and why?",
-      "focus": "tercih ve sebep",
+      "focus": "preference and reason",
       "difficulty": "medium",
       "useful_language": [
         "it's an easy read but it stays with you",
@@ -63,7 +63,7 @@
     {
       "number": 5,
       "prompt": "What did you enjoy reading when you were at primary school?",
-      "focus": "geçmiş",
+      "focus": "past",
       "difficulty": "medium",
       "useful_language": [
         "I worked my way through the whole series",
@@ -75,7 +75,7 @@
     {
       "number": 6,
       "prompt": "How does reading a story compare with watching one on a screen?",
-      "focus": "karşılaştırma",
+      "focus": "comparison",
       "difficulty": "medium",
       "useful_language": [
         "you picture it yourself",
@@ -87,7 +87,7 @@
     {
       "number": 7,
       "prompt": "What stops many adults from reading in their free time?",
-      "focus": "başkaları açısı ve sebep",
+      "focus": "other people's perspective and reason",
       "difficulty": "medium",
       "useful_language": [
         "they're too tired by the evening",
@@ -99,7 +99,7 @@
     {
       "number": 8,
       "prompt": "What would encourage more children to read for pleasure?",
-      "focus": "öneri",
+      "focus": "advice",
       "difficulty": "hard",
       "useful_language": [
         "letting them choose for themselves",
@@ -111,7 +111,7 @@
     {
       "number": 9,
       "prompt": "How much has the way people read changed over the past ten years?",
-      "focus": "değişim",
+      "focus": "change",
       "difficulty": "hard",
       "useful_language": [
         "we skim far more than we used to",
@@ -123,7 +123,7 @@
     {
       "number": 10,
       "prompt": "How useful are libraries to people in your area these days?",
-      "focus": "görüş",
+      "focus": "opinion",
       "difficulty": "hard",
       "useful_language": [
         "they've become more of a meeting place",

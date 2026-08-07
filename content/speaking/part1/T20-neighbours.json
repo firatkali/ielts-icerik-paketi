@@ -15,7 +15,7 @@
     {
       "number": 1,
       "prompt": "How well do you know the people who live near you?",
-      "focus": "temel bilgi",
+      "focus": "basic information",
       "difficulty": "easy",
       "useful_language": [
         "well enough to stop and chat",
@@ -27,7 +27,7 @@
     {
       "number": 2,
       "prompt": "How often do you speak to your neighbours?",
-      "focus": "alışkanlık",
+      "focus": "habit",
       "difficulty": "easy",
       "useful_language": [
         "mostly in passing",
@@ -39,7 +39,7 @@
     {
       "number": 3,
       "prompt": "What were your neighbours like when you were growing up?",
-      "focus": "geçmiş",
+      "focus": "past",
       "difficulty": "easy",
       "useful_language": [
         "everybody knew everybody",
@@ -51,7 +51,7 @@
     {
       "number": 4,
       "prompt": "What sorts of things do neighbours usually help each other with?",
-      "focus": "açıklama",
+      "focus": "explanation",
       "difficulty": "medium",
       "useful_language": [
         "taking in a parcel",
@@ -63,7 +63,7 @@
     {
       "number": 5,
       "prompt": "What makes someone a good neighbour?",
-      "focus": "görüş",
+      "focus": "opinion",
       "difficulty": "medium",
       "useful_language": [
         "being there without being in your way",
@@ -75,7 +75,7 @@
     {
       "number": 6,
       "prompt": "Which would you rather have, quiet neighbours or sociable ones?",
-      "focus": "tercih ve sebep",
+      "focus": "preference and reason",
       "difficulty": "medium",
       "useful_language": [
         "peace counts for a lot",
@@ -87,7 +87,7 @@
     {
       "number": 7,
       "prompt": "What causes most disagreements between people who live close together?",
-      "focus": "sebep",
+      "focus": "reason",
       "difficulty": "medium",
       "useful_language": [
         "noise is the usual one",
@@ -99,7 +99,7 @@
     {
       "number": 8,
       "prompt": "What would bring the people in one street closer together?",
-      "focus": "öneri ve varsayım",
+      "focus": "suggestion and hypothetical",
       "difficulty": "hard",
       "useful_language": [
         "somewhere to gather that isn't a home",
@@ -111,7 +111,7 @@
     {
       "number": 9,
       "prompt": "Why do people in cities often know their neighbours less well than before?",
-      "focus": "değişim",
+      "focus": "change",
       "difficulty": "hard",
       "useful_language": [
         "people move on far more often",
@@ -123,7 +123,7 @@
     {
       "number": 10,
       "prompt": "How do relationships between neighbours differ between towns and villages?",
-      "focus": "karşılaştırma",
+      "focus": "comparison",
       "difficulty": "hard",
       "useful_language": [
         "in a small place you rely on each other",

@@ -63,23 +63,23 @@
     },
     "unit": "saat / gün",
     "svg": null,
-    "alt": "Üç yaş grubunun altı etkinliğe günde ortalama kaç saat ayırdığını gösteren tablo; her sütun 24 saat ediyor."
+    "alt": "A table showing the average number of hours per day three age groups spent on six activities; each column adds up to 24 hours."
   },
   "visuals": null,
   "key_points": [
-    "Uyku ve kişisel bakım üç grupta da en uzun süre (8,8-9,5 saat) ve gruplar arasındaki farkın en küçük olduğu satır",
-    "Ücretli iş veya öğrenim 30-49 yaş grubunda zirve yapıyor (7,5 saat) ve 50 yaş üstünde yarısına iniyor (3,6 saat) — gruplar arası en büyük fark bu",
-    "Ev işleri ve bakım yaşla birlikte düzenli olarak artıyor (1,8 → 3,4 → 3,9 saat)",
-    "Boş zaman toplamı 50 yaş üstünde en yüksek (3,0 + 3,2 = 6,2 saat), 30-49 grubunda en düşük (2,8 saat)",
-    "Ekran başındaki boş zaman en çok 18-29 grubunda (3,4 saat); ekran dışı boş zaman ise en çok 50 yaş üstünde (3,2 saat)",
-    "Yolculuk her grupta en kısa etkinlik (0,9-1,5 saat); her sütunun toplamı 24 saat"
+    "Sleep and personal care is the longest activity in all three groups (8.8-9.5 hours) and the row with the smallest difference between groups",
+    "Paid work or study peaks in the 30-49 age group (7.5 hours) and falls to about half that among the over-50s (3.6 hours) — the largest difference between groups",
+    "Housework and caring for others rises steadily with age (1.8 → 3.4 → 3.9 hours)",
+    "Total leisure time is highest among the over-50s (3.0 + 3.2 = 6.2 hours) and lowest in the 30-49 group (2.8 hours)",
+    "Screen-based leisure is highest in the 18-29 group (3.4 hours); non-screen leisure is highest among the over-50s (3.2 hours)",
+    "Travel is the shortest activity in every group (0.9-1.5 hours); each column adds up to 24 hours"
   ],
   "common_mistakes": [
-    "On sekiz hücrenin hepsini tek tek okumak; iş ve boş zaman arasındaki ters ilişkiyi öne çıkarmamak",
-    "Yalnızca satırları karşılaştırıp yaş grupları arasında karşılaştırma yapmamak",
-    "Saat ile yüzde karıştırmak ('30% of their day')",
-    "Sebep uydurmak ('older people are retired, so…') — tabloda böyle bir bilgi yok"
+    "Reading through all eighteen cells one by one instead of highlighting the inverse relationship between work and leisure",
+    "Comparing only rows and not making comparisons between age groups",
+    "Confusing hours with percentages ('30% of their day')",
+    "Inventing reasons ('older people are retired, so…') — the table gives no such information"
   ],
-  "topic": "günlük zaman kullanımı",
+  "topic": "daily time use",
   "difficulty": "medium"
 }

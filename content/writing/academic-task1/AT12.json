@@ -46,23 +46,23 @@
     ],
     "unit": "öğrenci sayısı",
     "svg": null,
-    "alt": "Bir yüksekokulda beş bölüm alanına kayıtlı öğrenci sayısını 2010 ve 2022 için karşılaştıran sütun grafik."
+    "alt": "A bar chart comparing the number of students enrolled in five subject areas at one college for 2010 and 2022."
   },
   "visuals": null,
   "key_points": [
-    "En kalabalık alan değişiyor: 2010'da işletme (880) birinciyken 2022'de bilişim (900) birinci oluyor",
-    "Bilişim 210'dan 900'e çıkarak dört katından fazla artıyor — açık ara en büyük artış",
-    "Sağlık bilimleri 420'den 760'a çıkarak neredeyse ikiye katlanıyor ve ikinci sıraya yerleşiyor",
-    "Düşen iki alan var: işletme 880'den 640'a, sanat ve tasarım 350'den 300'e iniyor; sanat ve tasarım iki yılda da en küçük ya da en küçüğe yakın kalıyor",
-    "Mühendislik ölçülü bir artışla (640 → 700) en istikrarlı alan",
-    "Toplam kayıt 2.500'den 3.300'e çıkıyor, yani artış yalnızca alanlar arası kayma değil, genel büyüme de var"
+    "The largest subject area changes: business studies (880) was first in 2010, but computing (900) is first in 2022",
+    "Computing rises from 210 to 900, more than a fourfold increase — by far the largest rise",
+    "Health sciences rises from 420 to 760, nearly doubling, and moves into second place",
+    "Two areas fall: business studies from 880 to 640, and arts and design from 350 to 300; arts and design remains the smallest or close to the smallest in both years",
+    "Engineering is the most stable area, with a modest rise (640 to 700)",
+    "Total enrolment rises from 2,500 to 3,300, so the change is not only a shift between subjects but also overall growth"
   ],
   "common_mistakes": [
-    "Beş alanı tek tek listeleyip en çarpıcı iki değişimi (bilişim ve işletme) öne çıkarmamak",
-    "Sıralamanın el değiştirdiğini söylememek",
-    "Öğrenci sayısını yüzde gibi anlatmak ('45% studied computing')",
-    "Yorum ya da tahmin eklemek ('computing will keep growing')"
+    "Listing all five areas one by one without highlighting the two most striking changes (computing and business studies)",
+    "Not stating that the ranking changes",
+    "Describing student numbers as if they were percentages ('45% studied computing')",
+    "Adding comment or prediction ('computing will keep growing')"
   ],
-  "topic": "bölüm tercihleri ve kayıt sayıları",
+  "topic": "subject choices and enrolment numbers",
   "difficulty": "easy"
 }

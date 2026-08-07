@@ -56,24 +56,24 @@
     ],
     "unit": "mikrogram/m³",
     "svg": null,
-    "alt": "Üç şehirde havadaki ince toz miktarının 2005-2025 arasında mikrogram/m³ olarak değişimini gösteren çizgi grafik."
+    "alt": "Line chart showing changes in fine dust levels in the air of three cities between 2005 and 2025, in micrograms per cubic metre."
   },
   "visuals": null,
   "key_points": [
-    "Ashport ve Corley'de toz miktarı sürekli azalıyor: Ashport 62'den 26'ya (yaklaşık üçte iki), Corley 48'den 28'e düşüyor",
-    "Bellworth ters yönde ilerliyor; 30'dan 2020'de 46'ya çıkıyor, ardından hafifçe 42'ye geriliyor — tek zirve bu",
-    "Sıralama tamamen tersine dönüyor: 2005'te en temiz hava Bellworth'ta, en kirlisi Ashport'taydı; 2025'te Bellworth en yüksek, Ashport en düşük değere sahip",
-    "Grafikte iki kesişme var: Bellworth 2010-2015 arasında Corley'i, 2015-2020 arasında Ashport'u geçiyor",
-    "Ashport'un düşüşü her beş yıllık dilimde benzer büyüklükte (7-11 birim) ve kesintisiz; Corley'de asıl düşüş 2010'dan sonra başlıyor",
-    "2025'te Ashport ile Corley birbirine çok yaklaşıyor (26 ve 28) ama Bellworth ikisinin de yaklaşık bir buçuk katı düzeyde kalıyor"
+    "Dust levels fall continuously in Ashport and Corley: Ashport drops from 62 to 26 (roughly two-thirds), and Corley falls from 48 to 28.",
+    "Bellworth moves in the opposite direction; it rises from 30 to 46 in 2020, then falls back slightly to 42 — this is the only peak.",
+    "The ranking completely reverses: in 2005 Bellworth had the cleanest air and Ashport the most polluted; by 2025 Bellworth has the highest value and Ashport the lowest.",
+    "There are two crossovers in the chart: Bellworth overtakes Corley between 2010 and 2015, then overtakes Ashport between 2015 and 2020.",
+    "Ashport's decline is of similar size in each five-year period (7-11 units) and continuous; Corley's main fall only begins after 2010.",
+    "By 2025, Ashport and Corley are very close to each other (26 and 28), but Bellworth remains at roughly one and a half times the level of either."
   ],
   "common_mistakes": [
-    "İki kesişmeyi ve sıralamanın tersine dönmesini atlamak — grafiğin ana hikâyesi bu",
-    "Görüş bildirmek ya da sebep uydurmak ('Bellworth should limit traffic in the city centre')",
-    "Üç şehri ayrı ayrı anlatıp aralarında hiç karşılaştırma yapmamak",
-    "Birimi düşürmek ya da yüzde sanmak ('dust fell by 26%')",
-    "Bellworth'ta 2020'den sonraki küçük geri çekilmeyi görmezden gelip çizgiyi sürekli artan göstermek"
+    "Missing the two crossovers and the reversal in ranking — this is the chart's main story.",
+    "Giving an opinion or inventing a cause ('Bellworth should limit traffic in the city centre')",
+    "Describing the three cities separately without making any comparison between them.",
+    "Dropping the unit or mistaking it for a percentage ('dust fell by 26%')",
+    "Ignoring the small dip in Bellworth after 2020 and presenting the line as continuously rising."
   ],
-  "topic": "havadaki ince toz miktarı",
+  "topic": "fine dust levels in the air",
   "difficulty": "medium"
 }

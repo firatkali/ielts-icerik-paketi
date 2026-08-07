@@ -51,7 +51,7 @@
       ],
       "unit": "%",
       "svg": null,
-      "alt": "Nüfusun altı yaş grubuna göre yüzde dağılımını 2000 ve 2025 için karşılaştıran sütun grafik."
+      "alt": "A bar chart comparing the percentage distribution of the population across six age groups for 2000 and 2025."
     },
     {
       "kind": "line_chart",
@@ -81,24 +81,24 @@
       ],
       "unit": "milyon kişi",
       "svg": null,
-      "alt": "Toplam nüfusun 2000-2025 arasında 8,2 milyondan 10,1 milyona çıkıp 2025'te hafifçe gerilemesini gösteren çizgi grafik."
+      "alt": "A line chart showing the total population rising from 8.2 million to 10.1 million between 2000 and 2025, then dipping slightly by 2025."
     }
   ],
   "key_points": [
-    "Nüfus yaşlanıyor: 45 yaş üstü üç grubun payı toplamda %32'den %46'ya çıkıyor",
-    "En genç iki grubun payı düşüyor; 0-14 grubu %24'ten %16'ya inerek en büyük düşüşü yaşıyor",
-    "75 yaş ve üzeri payı %4'ten %9'a çıkarak iki katından fazla artıyor, ama iki yılda da en küçük grup olarak kalıyor",
-    "En kalabalık grup değişiyor: 2000'de 0-14, 2025'te 30-44",
-    "Toplam nüfus 8,2 milyondan 10,1 milyona çıkıyor, 2020'de zirve yapıyor ve 2025'te 10,0 milyona hafifçe geriliyor",
-    "Büyüme hızı yavaşlıyor: ilk beş yılda 0,7 milyon artış varken 2015-2020 arasında yalnızca 0,2 milyon; iki görsel birlikte okununca toplam nüfus artarken yaşlı grupların kişi sayısının paydan da hızlı büyüdüğü görülüyor"
+    "The population is ageing: the combined share of the three age groups above 45 rises from 32% to 46%",
+    "The share of the two youngest groups falls; the 0-14 group drops from 24% to 16%, the largest fall",
+    "The 75 and over group rises from 4% to 9%, more than doubling, but remains the smallest group in both years",
+    "The largest group changes: 0-14 in 2000, 30-44 in 2025",
+    "Total population rises from 8.2 million to 10.1 million, peaking in 2020, then dips slightly to 10.0 million by 2025",
+    "Growth slows: the first five years add 0.7 million, but 2015-2020 adds only 0.2 million; reading both visuals together shows that as the total population grows, the number of people in the older groups grows even faster than their share"
   ],
   "common_mistakes": [
-    "İki görselden yalnızca birini anlatmak — görev ikisini de kapsıyor",
-    "Yüzde payı ile milyon kişiyi karıştırmak ('24 million children')",
-    "Yaşlanma örüntüsünü tek cümlede özetleyen bir genel bakış (overview) yazmamak",
-    "2020'deki zirveyi ve sonrasındaki küçük düşüşü atlamak",
-    "Nedenlere ya da geleceğe dair tahmin yürütmek ('the birth rate fell because…')"
+    "Describing only one of the two visuals — the task covers both.",
+    "Confusing percentage share with millions of people ('24 million children')",
+    "Not writing an overview that sums up the ageing pattern in one sentence",
+    "Skipping the 2020 peak and the small dip that follows",
+    "Speculating about causes or the future ('the birth rate fell because…')"
   ],
-  "topic": "nüfus yaş dağılımı",
+  "topic": "population age distribution",
   "difficulty": "hard"
 }

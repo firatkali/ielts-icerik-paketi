@@ -57,24 +57,24 @@
     },
     "unit": "%",
     "svg": null,
-    "alt": "Bir bölgede beş arazi türünün toplam alan içindeki yüzdesini 1990, 2005 ve 2020 için gösteren tablo; her sütun 100 ediyor."
+    "alt": "A table showing the percentage of total area taken up by five types of land in one region for 1990, 2005 and 2020; each column adds up to 100."
   },
   "visuals": null,
   "key_points": [
-    "Tarım arazisi üç dönemde de en büyük pay ama %52'den %36'ya, yani 16 puan geriliyor — en büyük düşüş bu",
-    "Yerleşim alanı %12'den %26'ya çıkarak iki katından fazla artıyor; artışın büyük bölümü 2005-2020 arasında oluyor",
-    "Orman ve ağaçlık alan her dönemde düzenli olarak büyüyor (%21 → %24 → %28) ve 2020'de ikinci sıraya yerleşiyor",
-    "Sulak alanlar ile diğer açık alanlar küçük ve neredeyse durağan; ikisi de 2020'de %5'e inerek eşitleniyor",
-    "Genel örüntü: tarım arazisi azalırken hem yerleşim hem orman büyüyor, dolayısıyla dağılım üç dönemde giderek dengeleniyor",
-    "Her sütunun toplamı %100; tablo alan büyüklüğünü değil payı veriyor"
+    "Farmland has the largest share in all three periods but falls from 52% to 36%, a drop of 16 points — the biggest fall",
+    "Built-up land rises from 12% to 26%, more than doubling; most of the increase happens between 2005 and 2020",
+    "Forest and woodland grows steadily in every period (21% → 24% → 28%) and moves into second place by 2020",
+    "Wetland and other open land are small and almost static; both fall to 5% by 2020, ending up equal",
+    "The overall pattern: as farmland shrinks, both built-up land and forest grow, so the distribution becomes increasingly balanced across the three periods",
+    "Each column totals 100%; the table gives the share, not the actual size of the area"
   ],
   "common_mistakes": [
-    "Payı alan gibi anlatmak ('the region lost 16 hectares of farmland')",
-    "On beş hücreyi tek tek okuyup üç ana eğilimi (tarım ↓, yerleşim ↑, orman ↑) özetlememek",
-    "Orta yılı (2005) atlayıp yalnızca ilk ve son yılı karşılaştırmak — değişimin hızlandığı görülmez",
-    "Küçük ve durağan kalemleri (sulak alan, diğer açık alan) hiç anmamak",
-    "Sebep ya da öngörü eklemek ('farmers sold their land to builders')"
+    "Describing a percentage share as if it were an area ('the region lost 16 hectares of farmland')",
+    "Reading through all fifteen cells one by one instead of summarising the three main trends (farmland ↓, built-up land ↑, forest ↑)",
+    "Skipping the middle year (2005) and comparing only the first and last years — this misses how the change speeds up",
+    "Never mentioning the small, static categories (wetland, other open land)",
+    "Adding a cause or a prediction ('farmers sold their land to builders')"
   ],
-  "topic": "arazi kullanımı",
+  "topic": "land use",
   "difficulty": "medium"
 }

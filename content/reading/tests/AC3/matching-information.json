@@ -36,7 +36,7 @@
         "sentence": 2
       },
       "uniqueness_check": "Buluntunun onlarca yıldır bilinmesine rağmen tuhaflığın çok sonra fark edildiğini söyleyen tek paragraf B. A paragrafı da bir tarih veriyor ama bu patlamanın tarihi, kazı ya da inceleme tarihi değil; C ve D sonraki analizleri anlatıyor, ne zaman bulunduğunu değil.",
-      "explanation": "B paragrafı, kalıntıların 1960'lardan beri arkeologlarca bilindiğini, kafatasının içindeki koyu camsı maddenin ise ancak daha yeni bir incelemede fark edildiğini söylüyor.",
+      "explanation": "Paragraph B says the remains had been known to archaeologists since the 1960s, and it was only a more recent examination that noticed the dark, glassy material inside his skull.",
       "difficulty": "easy",
       "status": "verified",
       "blind_solvable": false
@@ -56,7 +56,7 @@
         "sentence": 2
       },
       "uniqueness_check": "Bulgunun tek bir kişiye ait olduğu ve başkalarına genellenemeyeceği uyarısı yalnız H paragrafında. G paragrafı da bir sınırlamadan söz ediyor ama orada dar olan şey ısıl koşullar aralığıdır, bulgunun kapsamı değil; C bulgunun ne kadar ender olduğunu söylüyor, genellenemezliğini değil.",
-      "explanation": "H paragrafı, bulgunun çok özel volkanik koşullar altındaki tek bir bireyi anlattığını ve başka kurbanlara genellenemeyeceğini vurguluyor.",
+      "explanation": "Paragraph H stresses that the finding describes a single individual under an unusual and highly specific set of volcanic conditions, and cannot be assumed to apply to other victims.",
       "difficulty": "medium",
       "status": "flagged",
       "blind_solvable": true,
@@ -79,7 +79,7 @@
         "sentence": 2
       },
       "uniqueness_check": "Korunmuş sinir liflerinin kalınlığını yaşayan bir beyindekilerle karşılaştıran sayılar yalnız E paragrafında. G paragrafı da sayı veriyor ama bunlar madde içindeki elementlerin yüzdeleri; D hangi cihazların kullanıldığını anlatıyor, hiçbir ölçüm sonucu vermiyor.",
-      "explanation": "E paragrafı, camlaşmış dokudaki aksonların ortalama 717,7 nanometre olduğunu ve bunun yaşayan bir beyindeki ak maddenin olağan aralığına yakın olduğunu söylüyor.",
+      "explanation": "Paragraph E says the axons in the vitrified tissue averaged 717.7 nanometres in diameter, close to the typical range for white matter in a living brain.",
       "difficulty": "medium",
       "status": "flagged",
       "blind_solvable": true,
@@ -102,7 +102,7 @@
         "sentence": 1
       },
       "uniqueness_check": "İki komşu kentin nasıl yok olduğunu karşılaştıran tek paragraf A: küllerle gömülme ile kızgın gaz akıntılarının süpürmesi karşı karşıya konuyor. H paragrafı da her iki kentin adını anıyor, ama yalnızca bulgunun oralara genellenemeyeceğini söylerken; yıkımın biçimini hiçbir yerde anlatmıyor.",
-      "explanation": "A paragrafı, patlamanın komşu kenti anlatan yaygın anlatımdaki gibi yalnızca kül yağdırmadığını, buradaki kentin kızgın gaz ve moloz akıntılarıyla süpürüldüğünü söylüyor.",
+      "explanation": "Paragraph A says the eruption did not merely bury the town in ash, as popular accounts of neighbouring Pompeii often suggest — this town was swept by hot gas and debris flows instead.",
       "difficulty": "hard",
       "status": "verified",
       "blind_solvable": false
@@ -122,7 +122,7 @@
         "sentence": 3
       },
       "uniqueness_check": "Kül ve kemiğin kaynak olarak elenmesini belirli moleküllere dayandıran tek paragraf F. C paragrafı maddenin mineral birikimi ya da sonradan bulaşma olmadığını söylüyor ama bunun gerekçesini vermiyor; D yalnızca hangi yöntemlerin birleştirildiğini sıralıyor.",
-      "explanation": "F paragrafı, saptanan moleküllerin kemik veya külle ilişkili olmadığını, bu yüzden camsı maddenin gerçekten beyin ve omurilikten geldiği sonucunu güçlendirdiğini söylüyor.",
+      "explanation": "Paragraph F says the proteins detected are not associated with bone or ash, so their presence strengthens the conclusion that the glassy material genuinely came from the man's brain and spinal cord.",
       "difficulty": "medium",
       "status": "verified",
       "blind_solvable": false

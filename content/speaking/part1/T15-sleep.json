@@ -15,7 +15,7 @@
     {
       "number": 1,
       "prompt": "How many hours of sleep do you usually get?",
-      "focus": "temel bilgi",
+      "focus": "basic information",
       "difficulty": "easy",
       "useful_language": [
         "around seven on a good night",
@@ -27,7 +27,7 @@
     {
       "number": 2,
       "prompt": "What do you normally do in the hour before you go to bed?",
-      "focus": "alışkanlık",
+      "focus": "habit",
       "difficulty": "easy",
       "useful_language": [
         "I wind down with",
@@ -39,7 +39,7 @@
     {
       "number": 3,
       "prompt": "How easy do you find getting up in the morning?",
-      "focus": "alışkanlık",
+      "focus": "habit",
       "difficulty": "easy",
       "useful_language": [
         "I'm up before the alarm",
@@ -51,7 +51,7 @@
     {
       "number": 4,
       "prompt": "Which suits you better, a short nap or an early night?",
-      "focus": "tercih ve sebep",
+      "focus": "preference and reason",
       "difficulty": "medium",
       "useful_language": [
         "a nap leaves me groggy",
@@ -63,7 +63,7 @@
     {
       "number": 5,
       "prompt": "What was your bedtime like when you were a child?",
-      "focus": "geçmiş",
+      "focus": "past",
       "difficulty": "medium",
       "useful_language": [
         "it was fairly strict",
@@ -75,7 +75,7 @@
     {
       "number": 6,
       "prompt": "How does a poor night's sleep affect the way you work or study?",
-      "focus": "açıklama",
+      "focus": "explanation",
       "difficulty": "medium",
       "useful_language": [
         "I lose my concentration by midday",
@@ -87,7 +87,7 @@
     {
       "number": 7,
       "prompt": "What advice would you give someone who sleeps badly?",
-      "focus": "öneri",
+      "focus": "advice",
       "difficulty": "medium",
       "useful_language": [
         "keep to the same hours",
@@ -99,7 +99,7 @@
     {
       "number": 8,
       "prompt": "What would you do with an extra hour each morning?",
-      "focus": "varsayım",
+      "focus": "hypothesis",
       "difficulty": "hard",
       "useful_language": [
         "I'd start the day less rushed",
@@ -111,7 +111,7 @@
     {
       "number": 9,
       "prompt": "Why do many people sleep less than they used to?",
-      "focus": "değişim ve sebep",
+      "focus": "change and reason",
       "difficulty": "hard",
       "useful_language": [
         "the working day stretches into the evening",
@@ -123,7 +123,7 @@
     {
       "number": 10,
       "prompt": "How is sleeping somewhere unfamiliar different from sleeping at home?",
-      "focus": "karşılaştırma",
+      "focus": "comparison",
       "difficulty": "hard",
       "useful_language": [
         "you never settle the first night",

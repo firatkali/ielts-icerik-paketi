@@ -13,18 +13,18 @@
   "min_words": 150,
   "minutes": 20,
   "key_points": [
-    "Sipariş tanımlanmalı: ne alındı, hangi tarihte, sipariş numarası ve ödenen tutar",
-    "Vaat edilen teslim süresi ile geçen süre karşılaştırılmalı (on gün ↔ altı hafta)",
-    "İkinci madde 'şimdiye kadar ne yapıldığını' istiyor: telefon, e-posta, kaç kez, hangi yanıt",
-    "Talep tek ve net olmalı: hemen teslim, iade ya da ücretin geri ödenmesi",
-    "Beklenen yanıt süresi ve iletişim bilgisi kapanışta verilmeli"
+    "Identify the order: what was bought, on what date, the order number and the amount paid",
+    "Compare the promised delivery time with the time that has actually passed (ten days vs six weeks)",
+    "The second point asks 'what has been done so far': phone calls, emails, how many times, and what response was received",
+    "The request should be single and clear: immediate delivery, a return, or a refund",
+    "The expected response time and contact details should be given in the closing"
   ],
   "common_mistakes": [
-    "İkinci maddeyi atlayıp doğrudan şikâyetten talebe geçmek",
-    "Tarih ve sipariş bilgisi vermeden 'my order' demek",
-    "Aynı şikâyeti farklı cümlelerle tekrarlayıp 150 kelimeyi doldurmaya çalışmak",
-    "Resmi mektupta konuşma dili ve ünlem kullanmak"
+    "Skipping the second point and going straight from the complaint to the request",
+    "Saying 'my order' without giving the date and order details",
+    "Repeating the same complaint in different sentences to reach 150 words",
+    "Using spoken language and exclamation marks in a formal letter"
   ],
-  "topic": "gecikmiş sipariş",
+  "topic": "a delayed order",
   "difficulty": "easy"
 }

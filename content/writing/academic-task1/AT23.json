@@ -46,24 +46,24 @@
     ],
     "unit": "%",
     "svg": null,
-    "alt": "Ev değiştirme sebeplerinin yüzde dağılımını 35 yaş altı ve 35 yaş üstü taşınanlar için ayrı ayrı gösteren iki pasta grafik; her pasta 100 ediyor."
+    "alt": "Two pie charts showing the percentage breakdown of reasons for moving home, shown separately for movers under 35 and movers aged 35 and over; each pie totals 100."
   },
   "visuals": null,
   "key_points": [
-    "İki grubun ilk sırası tamamen farklı: 35 yaş altında iş ya da öğrenim (%34), 35 yaş üstünde aileye yakın olma (%42) başı çekiyor",
-    "En büyük fark aile sebebinde: %13'e karşı %42, yani üç katından fazla; ikinci büyük fark iş/öğrenimde (%34'e karşı %11)",
-    "Daha düşük konut masrafı iki grupta da ikinci ya da ikinci sıraya yakın ve payları birbirine en yakın kalem (%27'ye karşı %22)",
-    "Daha büyük ev isteği iki grupta da benzer ve orta düzeyde bir pay tutuyor (%18'e karşı %12)",
-    "Genç grupta sebepler iş ve masraf çevresinde toplanıyor (ikisi birlikte %61), yaşlı grupta ise tek bir sebep (aile) baskın",
-    "Diğer sebepler her iki pastada da en küçük ya da en küçüğe yakın dilim (%8 ve %13); her pasta toplamda %100"
+    "The top reason is completely different for the two groups: a new job or course of study leads for movers under 35 (34%), while living nearer family leads for those 35 and over (42%)",
+    "The biggest gap is in the family reason: 13% versus 42%, more than three times as much; the second-largest gap is in job/study (34% versus 11%)",
+    "Lower housing costs rank second or close to second in both groups and are the category with the closest shares (27% versus 22%)",
+    "Wanting a larger home holds a similar, mid-sized share in both groups (18% versus 12%)",
+    "In the younger group, reasons cluster around job and cost (61% combined), while in the older group a single reason (family) dominates",
+    "Other reasons form the smallest or near-smallest slice in both pies (8% and 13%); each pie totals 100%"
   ],
   "common_mistakes": [
-    "Payı kişi sayısı gibi anlatmak ('34 people moved for work') — grafikler yüzde veriyor",
-    "İki pastayı sırayla betimleyip iki grup arasında karşılaştırma yapmamak",
-    "En büyük iki dilimde durup küçük dilimleri hiç anmamak",
-    "Sebep uydurmak ya da öneri getirmek ('older people should stay near their families')",
-    "İki pastanın aynı kişileri değil iki ayrı yaş grubunu gösterdiğini gözden kaçırmak"
+    "Describing the share as if it were a number of people ('34 people moved for work') — the charts give percentages",
+    "Describing the two pies one after another without comparing the two groups",
+    "Stopping at the two largest slices and never mentioning the smaller ones",
+    "Inventing reasons or giving recommendations ('older people should stay near their families')",
+    "Overlooking that the two pies show two separate age groups, not the same people"
   ],
-  "topic": "ev değiştirme sebepleri",
+  "topic": "reasons for moving home",
   "difficulty": "medium"
 }

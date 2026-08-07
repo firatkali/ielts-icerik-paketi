@@ -18,23 +18,23 @@
     "chart_data": null,
     "unit": null,
     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 800 400\" font-family=\"sans-serif\" font-size=\"12\"><defs><marker id=\"at05-arrow\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"8\" markerHeight=\"8\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"black\"/></marker></defs><g stroke=\"black\" fill=\"none\"><rect x=\"20\" y=\"40\" width=\"150\" height=\"56\"/><rect x=\"210\" y=\"40\" width=\"150\" height=\"56\"/><rect x=\"400\" y=\"40\" width=\"160\" height=\"56\"/><rect x=\"590\" y=\"40\" width=\"150\" height=\"56\"/><rect x=\"590\" y=\"150\" width=\"150\" height=\"56\"/><rect x=\"400\" y=\"150\" width=\"160\" height=\"56\"/><rect x=\"210\" y=\"150\" width=\"150\" height=\"56\"/><rect x=\"20\" y=\"150\" width=\"150\" height=\"56\"/><rect x=\"20\" y=\"260\" width=\"150\" height=\"46\"/><rect x=\"210\" y=\"260\" width=\"150\" height=\"46\"/><rect x=\"560\" y=\"330\" width=\"200\" height=\"46\"/><path d=\"M 170 68 L 206 68\" marker-end=\"url(#at05-arrow)\"/><path d=\"M 360 68 L 396 68\" marker-end=\"url(#at05-arrow)\"/><path d=\"M 560 68 L 586 68\" marker-end=\"url(#at05-arrow)\"/><path d=\"M 665 96 L 665 146\" marker-end=\"url(#at05-arrow)\"/><path d=\"M 590 178 L 564 178\" marker-end=\"url(#at05-arrow)\"/><path d=\"M 400 178 L 364 178\" marker-end=\"url(#at05-arrow)\"/><path d=\"M 210 178 L 174 178\" marker-end=\"url(#at05-arrow)\"/><path d=\"M 95 206 L 95 256\" marker-end=\"url(#at05-arrow)\"/><path d=\"M 95 226 L 285 226 L 285 256\" marker-end=\"url(#at05-arrow)\"/><path d=\"M 740 68 L 780 68 L 780 353 L 764 353\" marker-end=\"url(#at05-arrow)\"/></g><g fill=\"black\" text-anchor=\"middle\"><text x=\"95\" y=\"64\">Rainwater falls</text><text x=\"95\" y=\"80\">on the roof</text><text x=\"285\" y=\"64\">Gutters and pipes</text><text x=\"285\" y=\"80\">collect the water</text><text x=\"480\" y=\"64\">Leaf screen removes</text><text x=\"480\" y=\"80\">leaves and grit</text><text x=\"665\" y=\"64\">Water is stored in an</text><text x=\"665\" y=\"80\">underground tank</text><text x=\"665\" y=\"174\">Pump lifts the water</text><text x=\"665\" y=\"190\">to the treatment unit</text><text x=\"480\" y=\"174\">Sand filter removes</text><text x=\"480\" y=\"190\">fine particles</text><text x=\"285\" y=\"174\">Ultraviolet unit kills</text><text x=\"285\" y=\"190\">bacteria</text><text x=\"95\" y=\"174\">Clean water is held</text><text x=\"95\" y=\"190\">in a header tank</text><text x=\"95\" y=\"288\">Used for toilets</text><text x=\"285\" y=\"288\">Used to water plants</text><text x=\"660\" y=\"358\">Overflow runs to the drain</text></g></svg>",
-    "alt": "Bir kamu binasında yağmur suyunun çatıdan toplanıp süzülerek, depolanıp arıtıldıktan sonra tuvaletlerde ve sulamada kullanılmasını gösteren dokuz aşamalı süreç şeması."
+    "alt": "A nine-stage process diagram showing how rainwater in a public building is collected from the roof, filtered, stored and treated, then used for toilets and irrigation."
   },
   "visuals": null,
   "key_points": [
-    "Süreç doğrusal ve insan eliyle işletilmiyor; çatıya düşen yağmurla başlayıp iki kullanım noktasında bitiyor",
-    "İlk aşamalar toplama: çatı, oluk ve borular, ardından yaprak süzgeci kaba kirleri ayırıyor",
-    "Su yer altındaki depoda biriktiriliyor; depo dolduğunda fazlası kanalizasyona akıyor",
-    "Arıtma iki basamaklı: önce kum filtresi ince tanecikleri, sonra morötesi ünite bakterileri gideriyor",
-    "Arıtılan su çatı katındaki ara depoya alınıyor ve buradan iki amaca dağılıyor: tuvaletler ve bitki sulama",
-    "Suyu depodan yukarı taşımak için tek makine (pompa) kullanılıyor; içme suyu olarak kullanılmıyor"
+    "The process is linear and is not operated by hand; it begins with rain falling on the roof and ends at two points of use",
+    "The first stages are collection: the roof, then gutters and pipes, followed by a leaf screen that removes coarse debris",
+    "The water is stored in an underground tank; once the tank is full, the excess runs off to the drain",
+    "Treatment happens in two steps: first a sand filter removes fine particles, then an ultraviolet unit kills bacteria",
+    "The treated water is held in a header tank and is then distributed for two purposes: toilets and watering plants",
+    "Only one machine, a pump, is used to lift the water from the tank; it is not used as drinking water"
   ],
   "common_mistakes": [
-    "Aşamaları sayısını belirtmeden karışık sırayla anlatmak; 'first / then / after that / finally' bağlayıcılarını kullanmamak",
-    "Edilgen çatıyı (is collected, is filtered) hiç kullanmayıp her cümleye özne uydurmak ('workers clean the water')",
-    "Şemada olmayan bilgi eklemek (maliyet, kaç litre, ne kadar sürdüğü)",
-    "Taşma kolunu ve sürecin iki ayrı çıkışla bittiğini atlamak"
+    "Describing the stages out of order without stating how many there are; not using linking words such as 'first / then / after that / finally'",
+    "Never using the passive voice (is collected, is filtered) and inventing a subject for every sentence instead ('workers clean the water')",
+    "Adding information that is not in the diagram (cost, how many litres, how long it takes)",
+    "Leaving out the overflow branch and the fact that the process ends at two separate outputs"
   ],
-  "topic": "yağmur suyu toplama ve arıtma",
+  "topic": "rainwater collection and treatment",
   "difficulty": "medium"
 }

@@ -76,7 +76,7 @@
       "heading_check": "B paragrafının dört cümlesinden üçü tek bir noktaya çalışıyor: depremden önceki ve sonraki yer değişimini karşılaştıran alışılmış yöntem burada işlemiyor, çünkü hareket eden ana kayanın üstünü yer yer 700 metreyi aşan buz örtüyor; paragraf da bu yüzden 'başka ipuçlarına bakmak zorunda kaldılar' diye bitiyor. 'ii' bu ana fikri veriyor. En yakın çeldirici 'vii' (yıkılan yamaçların sayımı) — paragrafın ilk cümlesi gerçekten 700'ü aşkın heyelan ve çığdan söz ediyor ve sayı göze çarpıyor; ama bu tek cümlelik bir giriş bilgisi, paragrafın geri kalanı sayımı değil sayımın neden zor olduğunu anlatıyor.",
       "feature_check": null,
       "grammar_check": null,
-      "explanation": "Paragraf B, buzul altındaki ana kaya görülemediği için depremden önce ve sonra yer değişimini karşılaştıran olağan yöntemin burada kullanılamadığını anlatıyor.",
+      "explanation": "Paragraph B explains that because the bedrock beneath the glacier cannot be seen, the usual method of comparing displacement before and after the earthquake could not be used here.",
       "difficulty": "medium",
       "status": "flagged",
       "blind_solvable": true,
@@ -98,7 +98,7 @@
       "heading_check": "C paragrafı baştan sona tek bir işi kuruyor: kırık enkaz radar dalgalarını güçlü saçtığı için parlak, bozulmamış buz koyu görünür; öyleyse depremden önce ve sonra çekilmiş iki görüntüyü yan yana koyunca yeni parlak lekeler yıkımın kendisini gösterir. 'iii' bu ana fikri veriyor. En yakın çeldirici 'viii' (iki uzay kurumunun ortaklığı) — aracın iki ülkenin ortak işi olduğu bu paragrafta geçiyor ve dikkat çekici duruyor; ama bu, aracı tanıtan bir yan bilgi, paragrafın derdi ortaklık değil iki görüntü arasındaki farkın neyi ele verdiği.",
       "feature_check": null,
       "grammar_check": null,
-      "explanation": "Paragraf C, depremden iki gün sonra ve depremden önce çekilmiş iki radar görüntüsünün karşılaştırılmasıyla yeni kırılmış kaya ve karın nasıl görünür hâle geldiğini anlatıyor.",
+      "explanation": "Paragraph C explains how comparing a radar image taken two days after the earthquake with one taken before it made the newly broken rock and snow visible.",
       "difficulty": "medium",
       "status": "verified",
       "blind_solvable": false
@@ -117,7 +117,7 @@
       "heading_check": "D paragrafı iki cümlede tek bir hat izliyor: uydu görüntüsünde belli olan yerler adlarıyla veriliyor, sonra 12 Aralık'ta yapılan yer incelemesi bu yerlerdeki yıkımı doğruluyor. 'iv' ikisini birden karşılıyor. En yakın çeldirici 'ix' (ülkenin en yüksek zirvesi) — paragrafta Mount Logan'ın Kanada'nın en yüksek tepesi olduğu geçiyor, üstelik bu kolay yakalanan bir bilgi; ama zirvenin yüksekliği paragrafın söylediği hiçbir şeyi taşımıyor, yalnızca yer tarif eden bir sıfat.",
       "feature_check": null,
       "grammar_check": null,
-      "explanation": "Paragraf D, yıkımın en belirgin göründüğü yerleri sayıyor ve 12 Aralık'taki yer incelemesinin uydudan görüleni doğruladığını söylüyor.",
+      "explanation": "Paragraph D lists the places where the damage was most visible and states that the ground survey on 12 December confirmed what was seen from the satellite.",
       "difficulty": "medium",
       "status": "verified",
       "blind_solvable": false
@@ -136,7 +136,7 @@
       "heading_check": "E paragrafının üç cümlesi de aynı şeyi söylüyor: bölgeyi yıllardır izleyen uzmanlar bile gördükleri karşısında şaşırdı, çünkü bu ölçekte bir şey daha önce hiç kayda geçmemişti. 'v' bu benzersizliği veriyor. En yakın çeldirici 'vii' (yıkılan yamaçların sayımı) — paragraf çığ ve heyelanların 'sayısı ve büyüklüğü'nden söz ettiği için sayım başlığı yakın duruyor; ama E hiçbir sayı vermiyor, sayıyı veren B paragrafı; buradaki mesele rakam değil, rakamın karşılaştırılacak bir örneğinin olmaması.",
       "feature_check": null,
       "grammar_check": null,
-      "explanation": "Paragraf E, deneyimli buzul araştırmacılarının bile yıkımın ölçeği karşısında şaşırdığını ve bölgede benzeri bir olayın daha önce belgelenmediğini anlatıyor.",
+      "explanation": "Paragraph E explains that even experienced glacier researchers were astonished by the scale of the destruction, and that nothing comparable had been documented in the region before.",
       "difficulty": "medium",
       "status": "verified",
       "blind_solvable": false
@@ -155,7 +155,7 @@
       "heading_check": "F paragrafının iki cümlesi tek bir sonuca varıyor: depremden haftalar önce hızlanmış olan kol buzul deprem yüzünden durmadı, tersine yeni oluşan enkazı yamaç aşağı denize doğru taşıyan bir bant gibi çalışıyor. 'vi' bu ana fikri veriyor. En yakın çeldirici 'x' (yerinde donup kalan buzul) — paragraf 'deprem tarafından kesintiye uğramak yerine' diye kurulduğu için durma ihtimali okuyucunun aklına paragrafın kendisi tarafından sokuluyor; ama cümle tam da bunun olmadığını söylüyor, yani 'x' paragrafın tersini iddia ediyor.",
       "feature_check": null,
       "grammar_check": null,
-      "explanation": "Paragraf F, depremden önce hızlanmış olan kol buzulun durmadığını, yeni enkazı düzenli biçimde aşağıya, denize doğru taşıdığını anlatıyor.",
+      "explanation": "Paragraph F explains that the surging glacier, which had sped up before the earthquake, did not stop, and instead carries the new debris steadily downhill towards the sea.",
       "difficulty": "hard",
       "status": "verified",
       "blind_solvable": false

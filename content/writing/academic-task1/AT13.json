@@ -49,24 +49,24 @@
     ],
     "unit": "%",
     "svg": null,
-    "alt": "Ortalama bir hanenin harcamalarının altı kaleme dağılımını 2000 ve 2020 için gösteren iki pasta grafik."
+    "alt": "Two pie charts showing the breakdown of an average household's spending across six categories, for 2000 and 2020."
   },
   "visuals": null,
   "key_points": [
-    "En büyük kalem el değiştiriyor: 2000'de gıda (%30) birinciyken 2020'de konut (%32) birinci oluyor",
-    "Gıdanın payı %30'dan %19'a inerek 11 puanla en büyük düşüşü yaşıyor",
-    "Konutun payı %24'ten %32'ye çıkıyor — en büyük artış bu",
-    "Sağlık ve eğitim payı %9'dan %14'e yükselerek oransal olarak en hızlı büyüyen kalem oluyor",
-    "Ulaşım (%14 → %15) ve boş zaman (%11 → %13) neredeyse aynı kalıyor; 'diğer mal ve hizmetler' %12'den %7'ye inerek 2020'de en küçük kalem oluyor",
-    "İki yılda da payların toplamı %100; grafikler dağılımı veriyor, harcanan tutarı değil"
+    "The largest category changes hands: food was first in 2000 (30%), while housing is first in 2020 (32%)",
+    "Food's share falls from 30% to 19%, an 11-point drop, the largest fall of any category",
+    "Housing's share rises from 24% to 32% — the largest increase",
+    "Health and education rises from 9% to 14%, making it the fastest-growing category in proportional terms",
+    "Transport (14% → 15%) and leisure (11% → 13%) stay almost the same; 'other goods and services' falls from 12% to 7%, becoming the smallest category in 2020",
+    "In both years the shares add up to 100%; the charts show distribution, not the amount spent"
   ],
   "common_mistakes": [
-    "Payı tutar gibi anlatmak ('households spent more money on housing') — grafik yalnızca dağılımı gösteriyor",
-    "Altı dilimi iki grafik için sırayla okuyup en çarpıcı değişimleri (gıda ve konut) öne çıkarmamak",
-    "Neredeyse değişmeyen kalemleri (ulaşım, boş zaman) 'arttı' diye abartmak",
-    "Genel bakış paragrafı yazmamak",
-    "Sebep ya da tavsiye eklemek ('housing became too expensive, so…')"
+    "Describing the share as if it were an amount ('households spent more money on housing') — the chart only shows distribution",
+    "Reading the six slices for each chart in order without highlighting the most striking changes (food and housing)",
+    "Overstating categories that barely changed (transport, leisure) as having 'increased'",
+    "Not writing an overview paragraph",
+    "Adding a reason or recommendation ('housing became too expensive, so…')"
   ],
-  "topic": "hane harcamalarının dağılımı",
+  "topic": "distribution of household spending",
   "difficulty": "medium"
 }

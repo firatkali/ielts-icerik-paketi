@@ -43,23 +43,23 @@
     ],
     "unit": "%",
     "svg": null,
-    "alt": "İki bölgede tatlı suyun sektörlere göre dağılımını 2020 yılı için gösteren iki pasta grafik."
+    "alt": "Two pie charts showing the distribution of fresh water use by sector in two regions for 2020."
   },
   "visuals": null,
   "key_points": [
-    "İki bölgenin su kullanımı bambaşka: Northmoor'da tarım (%62), Calder Bay'de sanayi (%38) başı çekiyor",
-    "Northmoor'da tarım payı diğer üç sektörün toplamından (%38) çok daha büyük",
-    "Calder Bay'de pay dağılımı çok daha dengeli; sanayi, evler ve tarım birbirine yakın (%38, %33, %21)",
-    "Evlerin payı Calder Bay'de Northmoor'un yaklaşık iki katı (%33'e karşı %18)",
-    "Kamu hizmetleri ve diğer kullanımlar her iki bölgede de en küçük dilim (%6 ve %8) ve birbirine yakın",
-    "İki grafik de oransal dağılım veriyor, kullanılan su miktarını değil"
+    "Water use differs sharply between the two regions: farming leads in Northmoor (62%), while industry leads in Calder Bay (38%)",
+    "In Northmoor, the share for farming is far larger than the combined share of the other three sectors (38%)",
+    "In Calder Bay, the distribution is much more even; industry, homes and farming are close to each other (38%, 33%, 21%)",
+    "The share for homes in Calder Bay is roughly double that in Northmoor (33% versus 18%)",
+    "Public services and other uses are the smallest slice in both regions (6% and 8%) and are close to each other",
+    "Both charts give a proportional breakdown, not the actual amount of water used"
   ],
   "common_mistakes": [
-    "İki pastayı sırayla anlatıp aralarındaki en çarpıcı farkı (tarım - sanayi karşıtlığı) öne çıkarmamak",
-    "Payı miktar sanmak ('Calder Bay uses more water for industry than Northmoor') — grafiklerde toplam su yok",
-    "Sekiz dilimin hepsini tek tek okumak, en büyük ve en küçük dilimlerle çerçeve kurmamak",
-    "'%' yerine oran dili kullanırken hata yapmak ('a third of', 'nearly two thirds' gibi ifadeleri yanlış eşlemek)"
+    "Describing the two pie charts one after another without highlighting the most striking contrast between them (farming versus industry)",
+    "Mistaking share for amount ('Calder Bay uses more water for industry than Northmoor') — the charts give no total water figure",
+    "Reading out all eight slices one by one instead of framing the answer around the largest and smallest slices",
+    "Making mistakes when using proportion language instead of '%' (misapplying phrases like 'a third of', 'nearly two thirds')"
   ],
-  "topic": "su tüketimi",
+  "topic": "water consumption",
   "difficulty": "medium"
 }

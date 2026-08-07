@@ -33,7 +33,7 @@
         "sentence": 1
       },
       "uniqueness_check": "Yeni gelenlerin doğru düzeye yerleştirilebilmesi için önceden yapılması gereken bir işten yalnız E söz ediyor. A'da da üye olmadan önce bir şey getirilmesi isteniyor ama o adresi kanıtlayan bir belge, kişinin düzeyini ölçmüyor; B'de yoga için iki gün önceden yer ayırtmak ve badminton için aileden yazılı onay gerekiyor, ikisi de katılımcının seviyesini belirlemiyor.",
-      "explanation": "E metni, dersler yaşa göre değil beceri düzeyine göre gruplandığı için yeni öğrencilerin kurs seçmeden önce kısa bir düzey belirleme sınavı yapmasını istiyor.",
+      "explanation": "Notice E asks new students to take a short placement test before choosing a course, because classes are grouped by ability level rather than age.",
       "difficulty": "medium",
       "status": "verified",
       "blind_solvable": false
@@ -53,7 +53,7 @@
         "sentence": 2
       },
       "uniqueness_check": "Kaydolmak için oturulan yeri kanıtlayan bir belge isteyen tek metin A. C'de kayıp kartın yenilenmesi için görevlinin bulunduğu bir istasyona gitmek gerekiyor ama hiçbir belge istenmiyor; E'de kayıt sırasında yalnız materyal ücreti ödeniyor, adres kanıtı aranmıyor; D'de ise oturanlara zaten binanın sakini olarak sesleniliyor, ayrıca bir kanıt istenmiyor.",
-      "explanation": "A metni, üyelik için ön masaya adresi gösteren bir belge (örneğin yeni tarihli bir fatura) getirilmesini istiyor.",
+      "explanation": "Notice A asks members to bring a document showing their address (such as a recent utility bill) to the front desk for membership.",
       "difficulty": "easy",
       "status": "verified",
       "blind_solvable": false
@@ -73,7 +73,7 @@
         "sentence": 4
       },
       "uniqueness_check": "Yolculuğun sonunda yapılması gereken işlemi atlayanlardan alınan ek ücret yalnız C'de var. A'daki gecikme ücreti geç getirilen eşya için işliyor ve günlük hesaplanıyor, yolculukla ilgisi yok; D'de büyük eşya için ayrı toplama parası değil, yalnızca beş iş günü önceden randevu isteniyor.",
-      "explanation": "C metni, kartın hem girişte hem çıkışta okutulması gerektiğini, çıkışta okutulmazsa 6,50 sterlinlik varsayılan bir ücret alındığını söylüyor. Not: ölçüm aracının 'lexical_overlap_answer: 1.0' bulgusu yanıltıcı — bu tip sorularda cevap tek bir harf ('C') olduğu için araç harfi metindeki rastgele bir 'c' harfiyle (D metnindeki 'Block C' ifadesinden) eşleştiriyor, gerçek bir sözcük çakışması değil. Sorunun kendisi ('extra amount' → 'default charge', 'miss a required step' → 'failure to touch out') parçayı anlamayı gerektiriyor, parçaya bakmadan çözülemiyor.",
+      "explanation": "Notice C says the card must be touched both on entry and exit; failing to touch out on exit results in a default charge of £6.50. Note: the scoring tool's 'lexical_overlap_answer: 1.0' finding is misleading — for this type of question the answer is a single letter ('C'), so the tool is matching the letter to a random 'c' in the text (from 'Block C' in notice D), not a real word overlap. The question itself ('extra amount' → 'default charge', 'miss a required step' → 'failure to touch out') requires understanding the passage and cannot be solved without reading it.",
       "difficulty": "medium",
       "status": "verified",
       "blind_solvable": false,
@@ -99,7 +99,7 @@
         "sentence": 4
       },
       "uniqueness_check": "Çocuğun katılabilmesi için aileden yazılı onay şart koşan tek metin B. C'de on bir yaşından küçüklerin ücretsiz seyahati için yanlarında bilet parası ödeyen bir yetişkin olması gerekiyor, ama bu yazılı bir izin değil, o anda eşlik etme koşulu; A yalnızca beş yaş alt sınırı koyuyor ve aileden hiçbir onay istemiyor.",
-      "explanation": "B metni, sekiz-on dört yaş arası badminton çalışmasına katılmak için imzalı bir veli izin belgesi gerektiğini belirtiyor.",
+      "explanation": "Notice B states that a signed parental consent form is required to attend the badminton coaching for ages eight to fourteen.",
       "difficulty": "medium",
       "status": "verified",
       "blind_solvable": false
@@ -119,7 +119,7 @@
         "sentence": 2
       },
       "uniqueness_check": "İki haftada bir yapılan bir hizmetin günlerinin nereden öğrenileceğini yalnız D söylüyor (girişteki renk kodlu çizelge). D'deki öteki toplamalar her hafta aynı sabit günlerde olduğu için böyle bir listeye ihtiyaç duymuyor; B'deki kursların hepsi haftada aynı gün tekrarlanıyor ve tarihleri nereden bulunacağı sorusu doğmuyor; E'de dönem başlangıç ayları doğrudan yazılmış, bakılacak bir yer gösterilmiyor.",
-      "explanation": "D metni, geri dönüşümün iki haftada bir perşembe günleri alındığını ve kesin tarihler için giriş holündeki renk kodlu çizelgeye bakılmasını söylüyor.",
+      "explanation": "Notice D says recycling is collected on alternate Thursdays and that residents should check the colour-coded calendar in the entrance hall for exact dates.",
       "difficulty": "medium",
       "status": "verified",
       "blind_solvable": false
@@ -139,7 +139,7 @@
         "sentence": 3
       },
       "uniqueness_check": "Elde bulunan bir şeyin süresinin neden uzatılamayabileceğini yalnız A açıklıyor: başka biri o şeyi ayırtmışsa uzatma yapılamıyor. B'de yer sayısı sınırlı olduğu için önceden yer ayırtmak gerekiyor, ama orada süre uzatma diye bir konu hiç yok; E'de dönem başladıktan sonra iki hafta içinde katılmak mümkün, bu da geç başlamayla ilgili, elde tutma süresiyle değil.",
-      "explanation": "A metni, üç haftalık ödünç süresinin internetten uzatılabildiğini, ancak başka bir okur o eseri ayırtmışsa uzatmanın mümkün olmadığını söylüyor.",
+      "explanation": "Notice A says the three-week loan can be renewed online, but renewal is not possible if another reader has reserved the item.",
       "difficulty": "hard",
       "status": "verified",
       "blind_solvable": false
@@ -159,7 +159,7 @@
         "sentence": 1
       },
       "uniqueness_check": "Dönemin ortasında bir hafta boyunca hiçbir etkinliğin yapılmadığını yalnız B söylüyor. A'da da kapalı olunan zamanlar var ama onlar her hafta tekrarlanan pazar günleri ve resmi tatiller, dönemin ortasındaki tek bir hafta değil; D'de hiçbir hizmetin durduğu bir dönem yok, yalnız toplama günleri farklı sıklıkta; E'de kurslar belirli aylarda başlıyor, arada verilen bir ara anlatılmıyor.",
-      "explanation": "B metni, kursların 1 Eylül–12 Aralık arasında sürdüğünü ama 26–30 Ekim yarıyıl haftasında kapalı olunduğunu belirtiyor.",
+      "explanation": "Text B says the classes run from 1 September to 12 December but are closed during the half-term week of 26–30 October.",
       "difficulty": "medium",
       "status": "verified",
       "blind_solvable": false

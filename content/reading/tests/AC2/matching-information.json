@@ -36,7 +36,7 @@
         "sentence": 3
       },
       "uniqueness_check": "Kazancın hizmet süresine göre nasıl küçüldüğünü basamak basamak sayıyla veren tek paragraf F. E paragrafı hiçbir kazanç bulunmadığını söylüyor, dolayısıyla azalan bir etki sunmuyor; H, deneyimli çalışanlara farklı davranılmasını öneriyor ama tek bir sayı bile vermiyor.",
-      "explanation": "F paragrafı, deneyimli takımların sağladığı yararın ilk yıldaki çalışanlarda yüzde 26,2, ikinci yılda yüzde 8,6 olduğunu, daha kıdemlilerde ise neredeyse sıfıra indiğini söylüyor.",
+      "explanation": "Paragraph F says the benefit of experienced teams is 26.2 per cent for first-year employees, a more modest 8.6 per cent in the second year, and shrinks close to zero for longer-serving staff.",
       "difficulty": "medium",
       "status": "verified",
       "blind_solvable": false
@@ -56,7 +56,7 @@
         "sentence": 3
       },
       "uniqueness_check": "Şirketin kuruluşundan beri ofissiz olmasının araştırma açısından neden avantaj olduğunu açıklayan tek paragraf A. C paragrafı da yöntem gücünden söz ediyor ama orada avantaj takım atamasının rastgeleliğinden geliyor, şirketin geçmişinden değil; B yalnızca verinin nereden toplandığını anlatıyor.",
-      "explanation": "A paragrafı, şirketin sonradan uzaktan çalışmaya geçmeyip baştan dağıtık kurulduğu için ofiste çalışanlarla karşılaştırma zorunluluğunu ortadan kaldırdığını söylüyor.",
+      "explanation": "Paragraph A says that because the company was built as a distributed organisation from the start rather than converting to remote work later, it removes the need to compare against office-based staff.",
       "difficulty": "medium",
       "status": "verified",
       "blind_solvable": false
@@ -76,7 +76,7 @@
         "sentence": 4
       },
       "uniqueness_check": "Kimin kiminle aynı takıma konması gerektiğine dair öneri yalnız H paragrafında. C paragrafı da takım oluşturmayı anlatıyor ama şirketin fiilen uyguladığı sıraya dayalı otomatik kuralı betimliyor, bir tavsiye vermiyor; F yalnızca bulguyu bildiriyor.",
-      "explanation": "H paragrafı yöneticilere, en iyi çalışanları takımlara dağıtmak yerine yeni gelenleri bilerek kıdemli meslektaşlarla eşleştirmelerini öneriyor.",
+      "explanation": "Paragraph H advises managers to deliberately pair newcomers with longer-serving colleagues, rather than scattering top performers across teams.",
       "difficulty": "medium",
       "status": "verified",
       "blind_solvable": false
@@ -96,7 +96,7 @@
         "sentence": 2
       },
       "uniqueness_check": "Veri kümesinden hangi kayıtların çıkarıldığını söyleyen tek paragraf B. F paragrafı ilk yılındaki çalışanlardan söz ediyor ama onları dışarıda bırakmıyor, tam tersine en büyük kazancı onlarda buluyor; C yalnızca atama kuralını anlatıyor.",
-      "explanation": "B paragrafı, çalışanın ilk altı ayına ait gözlemlerin eğitim dönemi sayıldığı için örneklemden çıkarıldığını söylüyor.",
+      "explanation": "Paragraph B says observations from an employee's first six months were excluded from the sample because that period is counted as training.",
       "difficulty": "medium",
       "status": "verified",
       "blind_solvable": false
@@ -116,7 +116,7 @@
         "sentence": 1
       },
       "uniqueness_check": "Çıktının hangi sayıyla ölçüldüğünü tanımlayan tek paragraf D. B paragrafı verinin hangi kaynaklardan derlendiğini sıralıyor ama hiçbir ölçü tanımlamıyor; F ve E bu ölçüyle elde edilen sonuçları bildiriyor, ölçünün kendisini değil.",
-      "explanation": "D paragrafı, verimliliğin bir çalışanın o ay hizmet verdiği farklı müşteri sayısıyla ölçüldüğünü söylüyor.",
+      "explanation": "Paragraph D says productivity was measured by the number of different clients an employee served that month.",
       "difficulty": "easy",
       "status": "verified",
       "blind_solvable": false

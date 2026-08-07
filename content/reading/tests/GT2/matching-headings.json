@@ -76,7 +76,7 @@
       "heading_check": "C paragrafının ana fikri, iki grup arasında bir sağlık farkı bulunması ve bu farkın ne kadar büyük olduğunun tarif edilmesi: denetimlerden sonra da duruyor, büyüklüğü kadın-erkek farkı ya da beş yaşlık yaş farkı kadar. 'viii' bunu veriyor. En yakın çeldirici 'v' (bir sağlık ölçüsünün neden yeğlendiği) — son cümle gerçekten öz-bildirime dayalı ölçünün neden seçildiğini açıklıyor, ama bu bulguyu destekleyen tek bir ayrıntı; paragraf ölçü tartışması değil, farkın kendisi üzerine.",
       "feature_check": null,
       "grammar_check": null,
-      "explanation": "Paragraf C, gönüllülerin sağlıklarını belirgin biçimde daha iyi değerlendirdiğini ve bu farkın ne büyüklükte olduğunu anlatıyor.",
+      "explanation": "Paragraph C describes how volunteers rated their health noticeably higher, and how large that difference was.",
       "difficulty": "medium",
       "status": "verified",
       "blind_solvable": false
@@ -95,7 +95,7 @@
       "heading_check": "D paragrafı iki soruyu birden yanıtlıyor: nerede (Almanya, Hollanda ve Norveç'te on kişiden dördü, Bulgaristan, Macaristan ve Litvanya'da onda birden az) ve kimler (daha çok erkek, daha eğitimli, daha dindar; daha az yaşlı ve göçmen). 'iv' ikisini birden karşılıyor. En yakın çeldirici 'i' (varlıklı ülkelerde neden daha yaygın olduğu) — paragraf zengin ve yoksul ülkeleri yan yana sıralıyor, ama farkın nedenine dair tek kelime etmiyor.",
       "feature_check": null,
       "grammar_check": null,
-      "explanation": "Paragraf D, gönüllülüğün ülkeden ülkeye ne kadar değiştiğini ve gönüllülerin hangi özellikleriyle ötekilerden ayrıldığını anlatıyor.",
+      "explanation": "Paragraph D describes how much volunteering varies from country to country, and which characteristics set volunteers apart from others.",
       "difficulty": "medium",
       "status": "verified",
       "blind_solvable": false
@@ -114,7 +114,7 @@
       "heading_check": "E paragrafı bir açıklama zinciri kuruyor: gönüllülük ağ ve beceri kazandırır, bu geliri yükseltir, gelir de sağlığı iyileştirir; ardından zincirin ilk halkasının veride desteklendiğini söylüyor. 'x' bu öneriyi karşılıyor. En yakın çeldirici 'ii' (gelirin sınırlı payı) — aynı konu, ama E zincirin kurulması ve doğrulanması üzerine; payın ne kadar küçük çıktığı ancak F paragrafında söyleniyor.",
       "feature_check": null,
       "grammar_check": null,
-      "explanation": "Paragraf E, gönüllülüğün geliri yükselterek sağlığı iyileştirebileceği yolunu öne sürüyor ve zincirin ilk halkasının veriyle desteklendiğini belirtiyor.",
+      "explanation": "Paragraph E proposes a path in which volunteering could improve health by raising income, and states that the first link in this chain is supported by the data.",
       "difficulty": "hard",
       "status": "verified",
       "blind_solvable": false
@@ -133,7 +133,7 @@
       "heading_check": "F paragrafının tamamı tek bir sonucu bildiriyor: gelir yolu bağlantının beşte birinden azını açıklıyor, geri kalan beşte dördü başka bir mekanizmadan geçiyor. 'ii' bunu veriyor. En yakın çeldirici 'x' (gelirin neden bağlantı olabileceği) — F o öneriyi sınayıp büyük ölçüde yetersiz buluyor; öneriyi kuran paragraf E.",
       "feature_check": null,
       "grammar_check": null,
-      "explanation": "Paragraf F, gelir farklarının bağlantının yalnızca küçük bir bölümünü açıkladığını, asıl payın başka bir yoldan geldiğini söylüyor.",
+      "explanation": "Paragraph F says that income differences explain only a small part of the link, and that most of it comes through another route.",
       "difficulty": "medium",
       "status": "verified",
       "blind_solvable": false
@@ -152,7 +152,7 @@
       "heading_check": "G paragrafı çözümlemenin farklı koşullarda defalarca yinelenmesini ve her seferinde aynı örüntünün çıkmasını anlatıyor; yani sonucun sağlamlık sınavını. 'vii' bunu karşılıyor. En yakın çeldirici 'ix' (gelirini bildirmeyenler) — bu grup gerçekten ikinci cümlede geçiyor, ama sayılan birkaç sınamadan yalnızca biri; paragrafın ana fikri sınamaların bütünü ve sonucun değişmemesi.",
       "feature_check": null,
       "grammar_check": null,
-      "explanation": "Paragraf G, sonucun veri toplama biçiminden kaynaklanmadığını göstermek için yapılan sağlamlık sınamalarını ve hepsinde aynı örüntünün çıktığını anlatıyor.",
+      "explanation": "Paragraph G describes the robustness checks carried out to show the result was not due to how the data were collected, and that the same pattern held in all of them.",
       "difficulty": "medium",
       "status": "verified",
       "blind_solvable": false

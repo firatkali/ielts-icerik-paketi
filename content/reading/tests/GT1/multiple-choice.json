@@ -47,7 +47,7 @@
         "C": "Cazip ama yok — kart okuyucunun personel girişinde olduğu söyleniyor ama yedek karttan hiç söz edilmiyor; makul göründüğü için seçiliyor.",
         "D": "Kapsam kaydırma — maaşın bekletilmesi tek seferlik unutmanın değil, tekrar tekrar doğru giriş yapmamanın sonucu olarak veriliyor."
       },
-      "explanation": "A metninin C paragrafı, kartını unutan çalışanın aynı vardiya içinde amirine haber vermesi gerektiğini söylüyor.",
+      "explanation": "Paragraph C of Text A says an employee who forgets their card must tell their supervisor within the same shift.",
       "difficulty": "medium",
       "status": "flagged",
       "blind_solvable": true,
@@ -91,7 +91,7 @@
         "B": "Cazip ama yok — düzenin panoda asıldığı doğru, ama yayımlanan düzeni değiştiren takasın reddedileceğine dair bir kural pasajda yok.",
         "D": "Yer değiştirme — aynı bölümden en fazla üç kişinin aynı anda ayrılabilmesi izin politikasının kuralı; vardiya takası şartı olarak öne sürülüyor."
       },
-      "explanation": "A metninin D paragrafı, iki vardiya arasında on bir saatten az dinlenme bırakacak takasların onaylanmayacağını söylüyor.",
+      "explanation": "Paragraph D of Text A says swaps that would leave less than eleven hours' rest between two shifts will not be approved.",
       "difficulty": "medium",
       "status": "flagged",
       "blind_solvable": true,
@@ -150,7 +150,7 @@
         "F": "Yer değiştirme — resmî tatiller yalnız ücret oranını (iki katı) etkiliyor; seçenek bu bilgiyi mesainin ne zaman yapıldığına taşıyor.",
         "G": "Yakın ama eksik — fazla mesainin ödendiği doğru ama otomatik değil; önceden onaylanmamış mesainin hiç ödenmeyeceği açıkça belirtiliyor."
       },
-      "explanation": "B metninin C paragrafı, fazla mesainin önceden bir amir tarafından onaylanması gerektiğini ve ayda on saati aşan kısmın ödeme yerine izin olarak kullanılabileceğini söylüyor.",
+      "explanation": "Paragraph C of Text B says overtime must be approved in advance by a manager, and any amount over ten hours a month can be taken as time off instead of pay.",
       "difficulty": "hard",
       "status": "flagged",
       "blind_solvable": true,

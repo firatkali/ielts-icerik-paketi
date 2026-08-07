@@ -15,7 +15,7 @@
     {
       "number": 1,
       "prompt": "Do you work, or are you a student?",
-      "focus": "temel bilgi",
+      "focus": "basic information",
       "difficulty": "easy",
       "useful_language": [
         "I'm currently studying",
@@ -27,7 +27,7 @@
     {
       "number": 2,
       "prompt": "What does a typical working or studying day look like for you?",
-      "focus": "alışkanlık",
+      "focus": "habit",
       "difficulty": "easy",
       "useful_language": [
         "I usually start at",
@@ -39,7 +39,7 @@
     {
       "number": 3,
       "prompt": "Which part of your work or your studies do you enjoy most?",
-      "focus": "tercih",
+      "focus": "preference",
       "difficulty": "easy",
       "useful_language": [
         "what I enjoy most is",
@@ -51,7 +51,7 @@
     {
       "number": 4,
       "prompt": "Why did you choose this particular field?",
-      "focus": "sebep",
+      "focus": "reason",
       "difficulty": "medium",
       "useful_language": [
         "I've always been drawn to",
@@ -63,7 +63,7 @@
     {
       "number": 5,
       "prompt": "What skills do you need in order to do it well?",
-      "focus": "açıklama",
+      "focus": "explanation",
       "difficulty": "medium",
       "useful_language": [
         "you need to be able to",
@@ -75,7 +75,7 @@
     {
       "number": 6,
       "prompt": "At what time of day do you concentrate best, and why?",
-      "focus": "tercih ve sebep",
+      "focus": "preference and reason",
       "difficulty": "medium",
       "useful_language": [
         "I'm at my sharpest",
@@ -87,7 +87,7 @@
     {
       "number": 7,
       "prompt": "How has the way you work or study changed since you started?",
-      "focus": "değişim",
+      "focus": "change",
       "difficulty": "hard",
       "useful_language": [
         "I've become far more organised",
@@ -99,7 +99,7 @@
     {
       "number": 8,
       "prompt": "What do the people around you think about the field you have chosen?",
-      "focus": "başkaları açısı",
+      "focus": "other people's perspective",
       "difficulty": "hard",
       "useful_language": [
         "they were fairly supportive",
@@ -111,7 +111,7 @@
     {
       "number": 9,
       "prompt": "What would you like to be doing five years from now?",
-      "focus": "gelecek",
+      "focus": "future",
       "difficulty": "hard",
       "useful_language": [
         "I'd like to have moved into",
@@ -123,7 +123,7 @@
     {
       "number": 10,
       "prompt": "How different is working or studying at home from doing it somewhere shared?",
-      "focus": "karşılaştırma",
+      "focus": "comparison",
       "difficulty": "hard",
       "useful_language": [
         "it's far easier to get distracted",

@@ -15,7 +15,7 @@
     {
       "number": 1,
       "prompt": "What kind of music do you listen to most?",
-      "focus": "alışkanlık",
+      "focus": "habit",
       "difficulty": "easy",
       "useful_language": [
         "I'm not fussy about",
@@ -27,7 +27,7 @@
     {
       "number": 2,
       "prompt": "When during the day do you usually listen to music?",
-      "focus": "alışkanlık",
+      "focus": "habit",
       "difficulty": "easy",
       "useful_language": [
         "while I'm getting ready",
@@ -39,7 +39,7 @@
     {
       "number": 3,
       "prompt": "How do you usually find new songs to listen to?",
-      "focus": "temel bilgi",
+      "focus": "basic information",
       "difficulty": "easy",
       "useful_language": [
         "friends recommend things",
@@ -51,7 +51,7 @@
     {
       "number": 4,
       "prompt": "What sort of music was played at home when you were growing up?",
-      "focus": "geçmiş",
+      "focus": "past",
       "difficulty": "medium",
       "useful_language": [
         "my parents were keen on",
@@ -63,7 +63,7 @@
     {
       "number": 5,
       "prompt": "How does music change the way you feel while you are working?",
-      "focus": "açıklama",
+      "focus": "explanation",
       "difficulty": "medium",
       "useful_language": [
         "it helps me concentrate",
@@ -75,7 +75,7 @@
     {
       "number": 6,
       "prompt": "Would you rather listen to a recording or hear music played live?",
-      "focus": "tercih",
+      "focus": "preference",
       "difficulty": "medium",
       "useful_language": [
         "there's no comparison",
@@ -87,7 +87,7 @@
     {
       "number": 7,
       "prompt": "Why does music seem to matter so much to teenagers?",
-      "focus": "başkaları açısı ve sebep",
+      "focus": "other people's perspective and reason",
       "difficulty": "medium",
       "useful_language": [
         "it gives them an identity",
@@ -99,7 +99,7 @@
     {
       "number": 8,
       "prompt": "What instrument would you like to learn to play?",
-      "focus": "gelecek",
+      "focus": "future",
       "difficulty": "hard",
       "useful_language": [
         "I've always fancied trying",
@@ -111,7 +111,7 @@
     {
       "number": 9,
       "prompt": "How is the way people listen to music now different from twenty years ago?",
-      "focus": "değişim",
+      "focus": "change",
       "difficulty": "hard",
       "useful_language": [
         "everything is on a phone now",
@@ -123,7 +123,7 @@
     {
       "number": 10,
       "prompt": "How do the songs older people enjoy differ from those young people choose?",
-      "focus": "karşılaştırma",
+      "focus": "comparison",
       "difficulty": "hard",
       "useful_language": [
         "they lean towards",

@@ -30,7 +30,7 @@
         "paragraph": "B",
         "sentence": 2
       },
-      "explanation": "Paragraf B, on ayrı görüntünün her birinin kırk dakika sürdüğünü söylüyor; boşluk tek bir pozlamanın süresini istediği için cevap 'forty minutes'. Altı saat, on pozlamanın tamamının yayıldığı süredir.",
+      "explanation": "Paragraph B says each of the ten separate images lasted forty minutes; the gap asks for the length of a single exposure, so the answer is 'forty minutes'. The six hours is the total span over which all ten exposures were spread.",
       "difficulty": "easy",
       "status": "flagged",
       "blind_solvable": true,
@@ -53,7 +53,7 @@
         "paragraph": "C",
         "sentence": 1
       },
-      "explanation": "Paragraf C, yeni bulunan gök cismine S/2025 U1 'provisional designation'ının (geçici adlandırma kodunun) verildiğini söylüyor; bu yüzden cevap 'designation'.",
+      "explanation": "Paragraph C says the newly found body has been given the provisional designation S/2025 U1; so the answer is 'designation'.",
       "difficulty": "medium",
       "status": "flagged",
       "blind_solvable": true,
@@ -75,7 +75,7 @@
         "paragraph": "C",
         "sentence": 2
       },
-      "explanation": "Paragraf C'de çap hesabının, cismin ışığı diğer küçük uydular gibi yansıttığı varsayımına dayandığı belirtiliyor; boşluk bu varsayımdaki fiili istediği için cevap 'reflects'.",
+      "explanation": "Paragraph C states that the diameter estimate rests on the assumption that the object reflects light in a similar way to Uranus's other small moons; the gap asks for the verb in this assumption, so the answer is 'reflects'.",
       "difficulty": "hard",
       "status": "flagged",
       "blind_solvable": true,
@@ -97,7 +97,7 @@
         "paragraph": "D",
         "sentence": 1
       },
-      "explanation": "Paragraf D, yörüngenin daha önce bilinen iki uydu olan Ophelia ile Bianca arasındaki boşlukta yer aldığını söylüyor; Bianca soruda verildiği için cevap 'Ophelia'.",
+      "explanation": "Paragraph D says the orbit lies in the gap between two previously known moons, Ophelia and Bianca; since Bianca is already given in the question, the answer is 'Ophelia'.",
       "difficulty": "easy",
       "status": "verified",
       "blind_solvable": false
@@ -117,7 +117,7 @@
         "paragraph": "E",
         "sentence": 1
       },
-      "explanation": "Paragraf E, yeni cismin küçük iç uydular grubunun on dördüncü üyesi olduğunu söylüyor; yirmi dokuz sayısı ise Uranüs'ün bilinen bütün uydularının toplamıdır, bu yüzden cevap 'fourteenth'.",
+      "explanation": "Paragraph E says the new object is the fourteenth member of the group of small inner moons; the number twenty-nine is the total count of all of Uranus's known moons, so the answer is 'fourteenth'.",
       "difficulty": "medium",
       "status": "flagged",
       "blind_solvable": true,
@@ -139,7 +139,7 @@
         "paragraph": "E",
         "sentence": 2
       },
-      "explanation": "Paragraf E, uydunun kalıcı adının Uluslararası Astronomi Birliği'nin resmî onayını gerektirdiğini belirtiyor; bu yüzden cevap 'International Astronomical Union'.",
+      "explanation": "Paragraph E states that the moon's lasting name requires formal approval from the International Astronomical Union; so the answer is 'International Astronomical Union'.",
       "difficulty": "medium",
       "status": "flagged",
       "blind_solvable": true,

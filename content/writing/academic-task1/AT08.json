@@ -46,22 +46,22 @@
     ],
     "unit": "milyon yolculuk",
     "svg": null,
-    "alt": "Bir ülkenin sakinlerinin 2005 ve 2020'de yaptığı beş tatil türündeki yolculuk sayısını karşılaştıran sütun grafik."
+    "alt": "A bar chart comparing the number of trips made by residents of one country across five types of holiday in 2005 and 2020."
   },
   "visuals": null,
   "key_points": [
-    "Toplam tatil yolculuğu 21,0 milyondan 26,5 milyona çıkıyor",
-    "En popüler tatil türü değişiyor: 2005'te deniz tatili (8,4 milyon), 2020'de şehir turu (7,5 milyon)",
-    "Şehir turu iki katından fazla artıyor (3,1 → 7,5 milyon) — en büyük artış",
-    "Deniz tatili düşen tek belirgin kalem (8,4 → 6,2 milyon); akraba ziyareti neredeyse sabit (6,0 → 5,8 milyon)",
-    "Doğa yürüyüşü ve açık hava sporları iki katına yakın artıyor ama iki yılda da en küçük iki kalem olarak kalıyor"
+    "Total holiday trips rise from 21.0 million to 26.5 million",
+    "The most popular type of holiday changes: beach holidays in 2005 (8.4 million) and city breaks in 2020 (7.5 million)",
+    "City breaks more than double (3.1 → 7.5 million) — the largest increase",
+    "Beach holidays are the only category to show a clear fall (8.4 → 6.2 million); staying with relatives stays almost unchanged (6.0 → 5.8 million)",
+    "Walking in the countryside and outdoor sports holidays both nearly double but remain the two smallest categories in both years"
   ],
   "common_mistakes": [
-    "Beş türü tek tek listelemek; artan/azalan gruplandırmasını ve sıralama değişimini vermemek",
-    "Rakamları yuvarlarken yanlış yazmak ya da birimi (milyon yolculuk) belirtmemek",
-    "'People' ile 'trips' karıştırmak — grafik yolculuk sayısı veriyor, kişi sayısı değil",
-    "İki yılı ayrı paragraflarda anlatıp hiç karşılaştırma yapmamak"
+    "Listing all five types one by one instead of grouping them by rise/fall and showing the change in ranking",
+    "Rounding figures incorrectly or failing to state the unit (million trips)",
+    "Confusing 'people' with 'trips' — the chart gives the number of trips, not the number of people",
+    "Describing the two years in separate paragraphs without making any comparison"
   ],
-  "topic": "tatil türleri",
+  "topic": "types of holiday",
   "difficulty": "easy"
 }

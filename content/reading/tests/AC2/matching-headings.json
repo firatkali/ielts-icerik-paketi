@@ -76,7 +76,7 @@
       "heading_check": "B paragrafının üç cümlesi de aynı yere varıyor: elde iyi korunmuş taneler var, göze karmaşık bir buğday gibi görünüyorlar, ama hangi türe ait oldukları hiçbir zaman kesinleştirilmemiş. 'iv' bu askıda kalmışlığı veriyor. En yakın çeldirici 'ix' (tanelerin saklanma biçimi) — paragrafın ilk cümlesi tanelerin benzer yaştaki başka yerlerin bitki kalıntılarına göre alışılmadık ölçüde iyi korunduğunu söylüyor, bu yüzden koruma/saklama başlığı çekici duruyor; ama pasaj hiçbir yerde saklama yönteminden söz etmiyor ve paragrafın derdi korunmuşluk değil, kimliğin belirsizliği.",
       "feature_check": null,
       "grammar_check": null,
-      "explanation": "Paragraf B, kazıdan çıkan tanelerin mikroskop altında karmaşık bir buğday gibi göründüğünü ama tür kimliklerinin moleküler düzeyde hiç doğrulanmadığını anlatıyor.",
+      "explanation": "Paragraph B describes how the grains from the excavation look like a complex wheat under the microscope, but their species identity had never been confirmed at the molecular level.",
       "difficulty": "medium",
       "status": "flagged",
       "blind_solvable": true,
@@ -98,7 +98,7 @@
       "heading_check": "C paragrafının ana fikri, ekibin tanenin biçimine bakmayı bırakıp genetik maddeyi doğrudan okumaya girişmesi ve bunun neden değerli olacağı. 'viii' tam bu niyeti veriyor. En yakın çeldirici 'vi' (gömülü tohumların tarihlendirilmesindeki güçlük) — paragrafta tanelerin yaklaşık 8.400 yıllık olduğu ve başarının en eski bitki DNA'ları arasına gireceği geçtiği için yaş konusu göze çarpıyor; ama pasaj tarihlendirmeyi bir sorun olarak hiç ele almıyor, yaş yalnızca işin zorluğunu gösteren bir sayı.",
       "feature_check": null,
       "grammar_check": null,
-      "explanation": "Paragraf C, uluslararası bir ekibin kömürleşmiş tanelerden doğrudan eski DNA çıkarıp okumaya giriştiğini ve bunun tane biçimine güvenmekten neden daha sağlam olduğunu anlatıyor.",
+      "explanation": "Paragraph C describes how an international team set out to extract and read ancient DNA directly from the charred grains, and why this is more reliable than relying on grain shape.",
       "difficulty": "medium",
       "status": "verified",
       "blind_solvable": false
@@ -117,7 +117,7 @@
       "heading_check": "D paragrafı baştan sona iki işi anlatıyor: örneklerin modern genetik maddeden korunması (birbirinden ayrı iki laboratuvar) ve bu yaştaki tohumlarda ayakta kalan kısa, bozulmuş parçaları yakalayacak işaretleyicilerin tasarlanması. 'x' ikisini birden karşılıyor. En yakın çeldirici 'iii' (bir buğday proteininin arkasındaki gen) — ekibin bir gene odaklandığı bu paragrafta geçiyor ve kelime örtüşmesi güçlü, ama bu yalnızca yöntemin bir ayrıntısı; paragrafın ana fikri korunma ve parça avına uygun araç seçimi.",
       "feature_check": null,
       "grammar_check": null,
-      "explanation": "Paragraf D, bulaşmayı önlemek için işin fiziksel olarak ayrı iki laboratuvara bölündüğünü ve bozulmuş kısa DNA parçalarını yakalamak için özel işaretleyiciler tasarlandığını anlatıyor.",
+      "explanation": "Paragraph D describes how the work was split between two physically separate laboratories to avoid contamination, and how special markers were designed to capture short, degraded DNA fragments.",
       "difficulty": "hard",
       "status": "verified",
       "blind_solvable": false
@@ -136,7 +136,7 @@
       "heading_check": "E paragrafının ana fikri, biçime bakılarak konmuş adlarla genetik sonuçların çelişmesi: iki örnek basit buğday diye sınıflanmışken çıkan diziler altı takım kromozomlu buğdaya özgü parçayı ve veri tabanlarında hiç kayıtlı olmayan çok sayıda çeşitlemeyi içeriyor. 'ii' bu çelişkiyi veriyor. En yakın çeldirici 'vii' (bulgunun bugünkü buğdaylarla yan yana konması) — E'de yalnızca 'altı takımlı buğdayda bulunan' bir parçadan söz ediliyor; bugünkü çeşitlerle asıl karşılaştırma F paragrafında yapılıyor.",
       "feature_check": null,
       "grammar_check": null,
-      "explanation": "Paragraf E, biçimlerine bakılarak basit buğday sayılan örneklerin genetik incelemesinin bunun tersini söylediğini ve çoğu daha önce kaydedilmemiş çeşitlemeler bulunduğunu anlatıyor.",
+      "explanation": "Paragraph E describes how genetic analysis of samples classified as simple wheat by shape told a different story, revealing many variations that had never been recorded before.",
       "difficulty": "medium",
       "status": "verified",
       "blind_solvable": false
@@ -155,7 +155,7 @@
       "heading_check": "F paragrafı, eski dizilerin bugün yetiştirilen buğday çeşitlerinin yanına konmasından ve bu karşılaştırmadan çıkarılan yorumdan ibaret: eski diziler bugünkü altı takımlı biçimlere benziyor, ekip bunu erken bir geçiş evresi sayıyor. 'vii' bu ana fikri veriyor. En yakın çeldirici 'ii' (adlarla uyuşmayan diziler) — dizilerle beklenti arasındaki uyuşmazlık E paragrafının işi; F artık uyuşmazlığı değil, benzerliğin bugünkü çeşitlerle kurulan bağını anlatıyor.",
       "feature_check": null,
       "grammar_check": null,
-      "explanation": "Paragraf F, eski dizilerin bugünkü altı kromozom takımlı buğdaylara benzediğini ve ekibin bunu ekimin erken bir geçiş evresi olarak yorumladığını anlatıyor.",
+      "explanation": "Paragraph F describes how the ancient sequences resembled today's hexaploid wheats, and how the team interpreted this as an early transitional stage of cultivation.",
       "difficulty": "medium",
       "status": "verified",
       "blind_solvable": false

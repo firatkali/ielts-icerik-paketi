@@ -15,7 +15,7 @@
     {
       "number": 1,
       "prompt": "What do you usually do in your free time?",
-      "focus": "alışkanlık",
+      "focus": "habit",
       "difficulty": "easy",
       "useful_language": [
         "I mostly",
@@ -27,7 +27,7 @@
     {
       "number": 2,
       "prompt": "How much free time do you have on a normal weekday?",
-      "focus": "temel bilgi",
+      "focus": "basic information",
       "difficulty": "easy",
       "useful_language": [
         "an hour or two at most",
@@ -39,7 +39,7 @@
     {
       "number": 3,
       "prompt": "Who do you usually spend your free time with?",
-      "focus": "temel bilgi",
+      "focus": "basic information",
       "difficulty": "easy",
       "useful_language": [
         "a couple of close friends",
@@ -51,7 +51,7 @@
     {
       "number": 4,
       "prompt": "What kind of activities help you relax after a long day?",
-      "focus": "açıklama",
+      "focus": "explanation",
       "difficulty": "medium",
       "useful_language": [
         "it helps me switch off",
@@ -63,7 +63,7 @@
     {
       "number": 5,
       "prompt": "Why do some people find it hard to relax?",
-      "focus": "sebep",
+      "focus": "reason",
       "difficulty": "medium",
       "useful_language": [
         "they're under constant pressure",
@@ -75,7 +75,7 @@
     {
       "number": 6,
       "prompt": "How did you spend your free time as a child?",
-      "focus": "geçmiş",
+      "focus": "past",
       "difficulty": "medium",
       "useful_language": [
         "we'd spend the whole afternoon",
@@ -87,7 +87,7 @@
     {
       "number": 7,
       "prompt": "Would you rather spend a free afternoon indoors or outdoors?",
-      "focus": "tercih",
+      "focus": "preference",
       "difficulty": "medium",
       "useful_language": [
         "given the choice",
@@ -99,7 +99,7 @@
     {
       "number": 8,
       "prompt": "How has the way people spend their free time changed in recent years?",
-      "focus": "değişim",
+      "focus": "change",
       "difficulty": "hard",
       "useful_language": [
         "a growing number of people",
@@ -111,7 +111,7 @@
     {
       "number": 9,
       "prompt": "What new activity would you like to take up in the future?",
-      "focus": "gelecek",
+      "focus": "future",
       "difficulty": "hard",
       "useful_language": [
         "I've always fancied trying",
@@ -123,7 +123,7 @@
     {
       "number": 10,
       "prompt": "How is free time during the week different from free time at the weekend?",
-      "focus": "karşılaştırma",
+      "focus": "comparison",
       "difficulty": "hard",
       "useful_language": [
         "during the week it's snatched",

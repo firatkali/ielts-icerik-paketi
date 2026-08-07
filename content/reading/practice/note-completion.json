@@ -31,7 +31,7 @@
         "paragraph": "A",
         "sentence": 2
       },
-      "explanation": "Paragraf A, şirketin yaklaşık 900 çalışanının Japonya'nın 47 ilinin tamamına ve 23 başka ülkeye yayıldığını söylüyor; bu yüzden cevap '47'.",
+      "explanation": "Paragraph A says the company's roughly 900 employees are spread across all 47 of Japan's prefectures and 23 other countries; so the answer is '47'.",
       "difficulty": "easy",
       "status": "flagged",
       "blind_solvable": true,
@@ -54,7 +54,7 @@
         "paragraph": "B",
         "sentence": 3
       },
-      "explanation": "Paragraf B, veri setinin insan kaynakları kayıtları, hangi müşteriye kaç saat hizmet verildiğini izleyen operasyonel kayıtlar ve iç mesajlaşma kayıtları olmak üzere üç iç kaynağı birleştirdiğini söylüyor; bu yüzden cevap 'operational logs'.",
+      "explanation": "Paragraph B says the dataset combined three internal sources: human resources records, operational logs tracking which clients each person served and how many hours they worked, and internal messaging records; so the answer is 'operational logs'.",
       "difficulty": "medium",
       "status": "verified",
       "blind_solvable": false
@@ -74,7 +74,7 @@
         "paragraph": "H",
         "sentence": 2
       },
-      "explanation": "Paragraf H, şirketin çalışanlara yalnızca bireysel çıktılarına göre ödeme yaptığını ve bunun takımın genel performansına yetişme güdüsünü büyük ölçüde ortadan kaldırdığını söylüyor; bu yüzden cevap 'individual output'.",
+      "explanation": "Paragraph H says the company pays employees according to individual output alone, which removes much of the incentive to match the team's overall performance; so the answer is 'individual output'.",
       "difficulty": "hard",
       "status": "flagged",
       "blind_solvable": true,
@@ -98,7 +98,7 @@
         "paragraph": "A",
         "sentence": 2
       },
-      "explanation": "Paragraf A, testi geçtiği bildirilen kısa tür listesinin sonunda şaşırtıcı biçimde Avrasya saksağanının yer aldığını söylüyor; bu yüzden cevap 'Eurasian magpie'.",
+      "explanation": "Paragraph A says the short list of species reported to pass the test ends, surprisingly, with the Eurasian magpie; so the answer is 'Eurasian magpie'.",
       "difficulty": "easy",
       "status": "flagged",
       "blind_solvable": true,
@@ -122,7 +122,7 @@
         "paragraph": "G",
         "sentence": 1
       },
-      "explanation": "Paragraf G, bulgunun uzun süredir yunus ailesiyle ilişkilendirilen bu yeteneği, belugalar ve narvalleri içeren Monodontidae adlı farklı bir dişli balina soyuna genişlettiğini söylüyor; bu yüzden cevap 'Monodontidae'.",
+      "explanation": "Paragraph G says the finding extends an ability long associated with the dolphin family to a different lineage of toothed whales, the Monodontidae, which includes belugas and narwhals; so the answer is 'Monodontidae'.",
       "difficulty": "medium",
       "status": "verified",
       "blind_solvable": false
@@ -142,7 +142,7 @@
         "paragraph": "H",
         "sentence": 2
       },
-      "explanation": "Paragraf H, yalnızca tek bir birey ya da küçük bir örneklem incelendiğinde bu tür yeteneklerin ne kadar kolay gözden kaçabileceğini söylüyor; bu yüzden cevap 'small sample'.",
+      "explanation": "Paragraph H says how easily such abilities can be missed when only a single individual, or a small sample, is studied; so the answer is 'small sample'.",
       "difficulty": "hard",
       "status": "flagged",
       "blind_solvable": true,
@@ -168,7 +168,7 @@
         "paragraph": "A",
         "sentence": 2
       },
-      "explanation": "Paragraf A, deprem merkezinin kıyı kasabası Yakutat'ın yaklaşık 90 kilometre kuzeyindeki ıssız arazide bulunduğunu söylüyor; bu yüzden cevap '90 kilometres'.",
+      "explanation": "Paragraph A says the epicentre lay in remote terrain roughly 90 kilometres north of the coastal town of Yakutat; so the answer is '90 kilometres'.",
       "difficulty": "easy",
       "status": "verified",
       "blind_solvable": false
@@ -189,7 +189,7 @@
         "paragraph": "D",
         "sentence": 2
       },
-      "explanation": "Paragraf D, 12 Aralık'ta yapılan yer araştırmasının uydu görüntülerinin yörüngeden gösterdiklerini doğruladığını söylüyor; bu yüzden cevap '12 December'.",
+      "explanation": "Paragraph D says a ground survey carried out on 12 December confirmed what the satellite images had shown from orbit; so the answer is '12 December'.",
       "difficulty": "medium",
       "status": "verified",
       "blind_solvable": false
@@ -209,7 +209,7 @@
         "paragraph": "H",
         "sentence": 2
       },
-      "explanation": "Paragraf H, uzaydan yüzey pürüzlülüğündeki küçük değişimleri algılayabilen bir aygıt olmasaydı bu ölçekteki bir dönüşümün kayda geçmeden kalabileceğini söylüyor; bu yüzden cevap 'surface roughness'.",
+      "explanation": "Paragraph H says that without an instrument able to detect subtle changes in surface roughness from space, a transformation of this scale could have gone unrecorded; so the answer is 'surface roughness'.",
       "difficulty": "hard",
       "status": "verified",
       "blind_solvable": false
@@ -230,7 +230,7 @@
         "paragraph": "A",
         "sentence": 2
       },
-      "explanation": "Paragraf A, piroklastik akıntıların yaklaşık 500 santigrat derece sıcaklığa ulaşabildiğini söylüyor; bu yüzden cevap '500'.",
+      "explanation": "Paragraph A says pyroclastic flows can reach temperatures of around 500 degrees Celsius; so the answer is '500'.",
       "difficulty": "easy",
       "status": "flagged",
       "blind_solvable": true,
@@ -253,7 +253,7 @@
         "paragraph": "B",
         "sentence": 1
       },
-      "explanation": "Paragraf B, yaklaşık 20 yaşındaki kurbanın yüzüstü şekilde ahşap bir yatakta bulunduğunu ve akıntılar geldiğinde uyuyor göründüğünü söylüyor; bu yüzden cevap 'wooden bed'.",
+      "explanation": "Paragraph B says the victim, around 20 years old, was found lying face down on a wooden bed, apparently asleep when the flows arrived; so the answer is 'wooden bed'.",
       "difficulty": "medium",
       "status": "flagged",
       "blind_solvable": true,
@@ -277,7 +277,7 @@
         "paragraph": "H",
         "sentence": 1
       },
-      "explanation": "Paragraf H, bulgunun tek başına iskelet kalıntılarından neredeyse hiç elde edilemeyecek hücre düzeyinde ayrıntı sunduğunu söylüyor; bu yüzden cevap 'skeletal remains'.",
+      "explanation": "Paragraph H says the find offers cell-level detail that is almost never available from skeletal remains alone; so the answer is 'skeletal remains'.",
       "difficulty": "hard",
       "status": "flagged",
       "blind_solvable": true,
@@ -301,7 +301,7 @@
         "paragraph": "D",
         "sentence": 2
       },
-      "explanation": "Paragraf D, 90 dakikalık şekerleme boyunca beyin etkinliğinin polisomnografi ile kaydedildiğini söylüyor; bu yüzden cevap 'polysomnography'.",
+      "explanation": "Paragraph D says brain activity was recorded using polysomnography during the 90-minute nap; so the answer is 'polysomnography'.",
       "difficulty": "medium",
       "status": "verified",
       "blind_solvable": false
@@ -322,7 +322,7 @@
         "paragraph": "G",
         "sentence": 1
       },
-      "explanation": "Paragraf G, uykunun en çok unutulmaya açık bellek işlemine, yani önceki bilgiyle hiçbir bağı olmayan yepyeni çağrışımlara yaradığını söylüyor; bu yüzden cevap 'brand-new associations'.",
+      "explanation": "Paragraph G says sleep helps most with the kind of memory processing that is most vulnerable to being forgotten, namely brand-new associations with no link to prior knowledge; so the answer is 'brand-new associations'.",
       "difficulty": "hard",
       "status": "verified",
       "blind_solvable": false
@@ -342,7 +342,7 @@
         "paragraph": "H",
         "sentence": 2
       },
-      "explanation": "Paragraf H, şekerlemenin tek başına öğrenilen yabancı bir isim ya da yeni bir sözcük gibi bağlantısız bilgileri tutmada tam bir gece uykusu kadar işe yaradığını söylüyor; bu yüzden cevap 'unfamiliar name'.",
+      "explanation": "Paragraph H says a nap works about as well as a full night's sleep for retaining unconnected information such as an unfamiliar name or a single new word; so the answer is 'unfamiliar name'.",
       "difficulty": "medium",
       "status": "verified",
       "blind_solvable": false

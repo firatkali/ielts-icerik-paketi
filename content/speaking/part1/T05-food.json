@@ -15,7 +15,7 @@
     {
       "number": 1,
       "prompt": "What kind of food do you eat most often?",
-      "focus": "alışkanlık",
+      "focus": "habit",
       "difficulty": "easy",
       "useful_language": [
         "I live mainly on",
@@ -27,7 +27,7 @@
     {
       "number": 2,
       "prompt": "How often do you eat together with family or friends?",
-      "focus": "alışkanlık",
+      "focus": "habit",
       "difficulty": "easy",
       "useful_language": [
         "most evenings",
@@ -39,7 +39,7 @@
     {
       "number": 3,
       "prompt": "Who does most of the cooking where you live?",
-      "focus": "temel bilgi",
+      "focus": "basic information",
       "difficulty": "easy",
       "useful_language": [
         "we take it in turns",
@@ -51,7 +51,7 @@
     {
       "number": 4,
       "prompt": "What did you like to eat when you were a child?",
-      "focus": "geçmiş",
+      "focus": "past",
       "difficulty": "medium",
       "useful_language": [
         "I was very fond of",
@@ -63,7 +63,7 @@
     {
       "number": 5,
       "prompt": "Which meal of the day matters most to you, and why?",
-      "focus": "tercih ve sebep",
+      "focus": "preference and reason",
       "difficulty": "medium",
       "useful_language": [
         "it sets me up for the day",
@@ -75,7 +75,7 @@
     {
       "number": 6,
       "prompt": "What kind of food would you never get tired of?",
-      "focus": "tercih",
+      "focus": "preference",
       "difficulty": "medium",
       "useful_language": [
         "I could eat it every day",
@@ -87,7 +87,7 @@
     {
       "number": 7,
       "prompt": "Why do you think people enjoy eating out in restaurants?",
-      "focus": "başkaları açısı ve sebep",
+      "focus": "other people's perspective and reason",
       "difficulty": "hard",
       "useful_language": [
         "it's a social occasion",
@@ -99,7 +99,7 @@
     {
       "number": 8,
       "prompt": "How have eating habits in your area changed in recent years?",
-      "focus": "değişim",
+      "focus": "change",
       "difficulty": "hard",
       "useful_language": [
         "people are far more health-conscious",
@@ -111,7 +111,7 @@
     {
       "number": 9,
       "prompt": "What kind of dish would you like to learn to cook?",
-      "focus": "gelecek",
+      "focus": "future",
       "difficulty": "hard",
       "useful_language": [
         "I'd love to master",
@@ -123,7 +123,7 @@
     {
       "number": 10,
       "prompt": "How is an ordinary weekday meal different from one prepared for a special occasion?",
-      "focus": "karşılaştırma",
+      "focus": "comparison",
       "difficulty": "hard",
       "useful_language": [
         "far more effort goes into it",

@@ -18,24 +18,24 @@
     "chart_data": null,
     "unit": null,
     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 940 420\" font-family=\"sans-serif\" font-size=\"12\"><defs><marker id=\"at25-arrow\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"8\" markerHeight=\"8\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"black\"/></marker></defs><g stroke=\"black\" fill=\"none\"><rect x=\"30\" y=\"60\" width=\"180\" height=\"56\"/><rect x=\"250\" y=\"60\" width=\"180\" height=\"56\"/><rect x=\"470\" y=\"60\" width=\"180\" height=\"56\"/><rect x=\"690\" y=\"60\" width=\"180\" height=\"56\"/><rect x=\"690\" y=\"250\" width=\"180\" height=\"56\"/><rect x=\"470\" y=\"250\" width=\"180\" height=\"56\"/><rect x=\"250\" y=\"250\" width=\"180\" height=\"56\"/><rect x=\"30\" y=\"250\" width=\"180\" height=\"56\"/><rect x=\"690\" y=\"340\" width=\"180\" height=\"46\"/><path d=\"M 210 88 L 246 88\" marker-end=\"url(#at25-arrow)\"/><path d=\"M 430 88 L 466 88\" marker-end=\"url(#at25-arrow)\"/><path d=\"M 650 88 L 686 88\" marker-end=\"url(#at25-arrow)\"/><path d=\"M 780 116 L 780 246\" marker-end=\"url(#at25-arrow)\"/><path d=\"M 690 278 L 654 278\" marker-end=\"url(#at25-arrow)\"/><path d=\"M 470 278 L 434 278\" marker-end=\"url(#at25-arrow)\"/><path d=\"M 250 278 L 214 278\" marker-end=\"url(#at25-arrow)\"/><path d=\"M 780 306 L 780 336\" marker-end=\"url(#at25-arrow)\"/><path d=\"M 20 40 L 460 40\"/><path d=\"M 480 40 L 920 40\"/></g><g fill=\"black\" text-anchor=\"middle\"><text x=\"240\" y=\"32\">ON THE FARM</text><text x=\"700\" y=\"32\">AT THE MILL</text><text x=\"120\" y=\"84\">Sheep are shorn once</text><text x=\"120\" y=\"100\">a year, in spring</text><text x=\"340\" y=\"84\">Fleeces are graded</text><text x=\"340\" y=\"100\">and rolled by hand</text><text x=\"560\" y=\"84\">Wool is washed in warm</text><text x=\"560\" y=\"100\">water to remove grease</text><text x=\"780\" y=\"84\">Washed wool is dried</text><text x=\"780\" y=\"100\">in warm air</text><text x=\"780\" y=\"274\">Fibres are combed until</text><text x=\"780\" y=\"290\">they lie in one direction</text><text x=\"560\" y=\"274\">Long fibres are drawn out</text><text x=\"560\" y=\"290\">and twisted into yarn</text><text x=\"340\" y=\"274\">The yarn is dyed</text><text x=\"340\" y=\"290\">in large vats</text><text x=\"120\" y=\"274\">Dry yarn is wound on reels</text><text x=\"120\" y=\"290\">and sent to knitters</text><text x=\"780\" y=\"364\">Short fibres are taken out</text><text x=\"780\" y=\"380\">and pressed into felt</text></g></svg>",
-    "alt": "Yünün çiftlikte kırkımdan başlayıp fabrikada yıkanmasını, kurutulmasını, taranmasını, eğrilip boyanmasını ve reel hâlinde sevk edilmesini gösteren sekiz aşamalı doğrusal süreç şeması; taramada ayrılan kısa lifler keçe yapımına gidiyor."
+    "alt": "An eight-stage linear process diagram showing wool starting with shearing on the farm, then being washed, dried, combed, spun and dyed, and shipped out on reels at the mill; the short fibres separated during combing go to felt-making."
   },
   "visuals": null,
   "key_points": [
-    "Süreç doğrusal ve sekiz aşamalı: canlı hayvandan başlayıp sevke hazır iplikle bitiyor, başa dönen bir döngü yok",
-    "Şema iki bölüme ayrılıyor: ilk iki aşama (kırkım ile yapağının elle ayrılıp sarılması) çiftlikte, kalan altı aşama fabrikada gerçekleşiyor",
-    "Temizleme iki basamaklı: yün önce ılık suda yıkanarak yağından arındırılıyor, ardından sıcak havada kurutuluyor",
-    "Tek yan kol tarama aşamasında: kısa lifler ayrılıp keçe yapımına gönderiliyor, yalnızca uzun lifler iplik olmaya devam ediyor",
-    "İplik hâline gelme iki işlemden oluşuyor — liflerin çekilip bükülmesi, sonra büyük teknelerde boyanması",
-    "Kırkımın yılda bir kez ve ilkbaharda yapılması, şemadaki tek zaman bilgisi"
+    "The process is linear and has eight stages: it starts with the live animal and ends with yarn ready to be sent out, with no cycle back to the start",
+    "The diagram is split into two sections: the first two stages (shearing and the hand-sorting and rolling of the fleece) take place on the farm, and the remaining six stages take place at the mill",
+    "Cleaning happens in two steps: the wool is first washed in warm water to remove the grease, then dried in warm air",
+    "There is a single side branch at the combing stage: the short fibres are separated out and sent to felt-making, and only the long fibres continue on to become yarn",
+    "Becoming yarn involves two processes — the fibres being drawn out and twisted, then dyed in large vats",
+    "Shearing taking place once a year, in spring, is the only piece of time information in the diagram"
   ],
   "common_mistakes": [
-    "Edilgen çatıyı (are shorn, is washed, are combed) kullanmayıp her cümleye özne uydurmak ('the farmer cuts the wool')",
-    "Kısa liflerin ayrıldığı yan kolu atlamak",
-    "Çiftlik ile fabrika arasındaki geçişi belirtmemek",
-    "Şemada olmayan bilgi eklemek (kaç kilo yün, işlem kaç saat sürüyor, maliyeti ne)",
-    "Aşama bağlayıcılarını ('first', 'once the wool has been dried', 'at the final stage') kullanmayıp sekiz cümleyi arka arkaya dizmek"
+    "Not using the passive voice (are shorn, is washed, are combed) and inventing a subject for every sentence ('the farmer cuts the wool')",
+    "Leaving out the side branch where the short fibres are separated",
+    "Not marking the transition between the farm and the mill",
+    "Adding information not in the diagram (how many kilos of wool, how many hours the process takes, what it costs)",
+    "Not using stage connectors ('first', 'once the wool has been dried', 'at the final stage') and stringing eight sentences one after another"
   ],
-  "topic": "yünün üretimi ve ipliğe dönüştürülmesi",
+  "topic": "wool production and how it is turned into yarn",
   "difficulty": "medium"
 }

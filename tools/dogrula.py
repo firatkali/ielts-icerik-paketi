@@ -39,8 +39,20 @@ TESTLER = [("content/reading/tests", ["AC1", "AC2", "AC3", "AC4", "GT1", "GT2"])
 SOZLU_YAZILI_ZARF = ["schema_version", "set_id", "skill", "generated_by"]
 
 
+TR_KELIME = re.compile(
+    r"\b(ve|için|olan|olduğu|olduğunu|bir|bu|şu|ile|ama|değil|yok|var|göre|gibi|"
+    r"sonra|önce|çünkü|ancak|hangi|nedir|yalnız|sadece|kadar|diye|ise)\b", re.I)
+
+
 def turkce_mi(s):
-    return bool(re.search(r"[çğıöşüÇĞİÖŞÜ]", s))
+    """Metnin Turkce yazilip yazilmadigi.
+
+    Diyakritik tek basina yetmiyor: 'Karacadağ' ve 'Çatalhöyük' gibi ozel adlar
+    Ingilizce cumlelerin icinde gecebiliyor ve eski surum bunlari Turkce sanip
+    uc yanlis uyari uretiyordu. Bu yuzden diyakritigin yaninda bir Turkce islev
+    sozcugu de araniyor.
+    """
+    return bool(re.search(r"[çğıöşüÇĞİÖŞÜ]", s)) and bool(TR_KELIME.search(s))
 
 
 def konusma_yazma_denetle(p, d, hatalar, sayim):
@@ -199,8 +211,11 @@ def main():
         print("   - LISANS EKSIK:", p)
 
     print("\n=== TELIF TARAMASI ===")
-    yasak = re.compile(r"cambridge|british council|\bidp\b|wikipedia|the conversation",
-                       re.I)
+    yasak = re.compile(r"cambridge|british council|\bidp\b|wikipedia", re.I)
+    # "The Conversation" bir yayin adi, ama "at the end of the conversation" duz
+    # Ingilizce ve dinleme aciklamalarinda dogal olarak geciyor. Buyuk harf
+    # duyarli aranmasi ikisini ayiriyor.
+    yasak_ozel = re.compile(r"\bThe Conversation\b")
     ielts_gecen, yasak_gecen = [], []
     for p in dosyalar + ortak.bul("passages/**/*.json"):
         if p.endswith("INDEX.json"):
@@ -217,7 +232,7 @@ def main():
         }, ensure_ascii=False)
         if re.search(r"ielts", gorunur, re.I):
             ielts_gecen.append(p)
-        if yasak.search(ham):
+        if yasak.search(ham) or yasak_ozel.search(ham):
             yasak_gecen.append(p)
     print("  Kullaniciya gorunen metinde 'IELTS' gecen dosya: %d" % len(ielts_gecen))
     for p in ielts_gecen:

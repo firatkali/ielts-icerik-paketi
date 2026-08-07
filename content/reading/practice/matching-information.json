@@ -41,7 +41,7 @@
         "sentence": 4
       },
       "uniqueness_check": "Sunulan aracın tutulmasının hayvanı hangi duyusal bilgiden yoksun bıraktığını yalnız F açıklıyor. B paragrafı çubuğun ilk oturumlarda hiç ilgi görmediğini söylüyor ama bunun sebebini vermiyor; G paragrafı tersi durumu, yani küpün hortumun güçlü yanlarına neden uyduğunu anlatıyor; H yalnızca genel bir ders çıkarıyor.",
-      "explanation": "F paragrafı, çubuğu tutmak için hortumun ucunun geriye kıvrılıp kapanması gerektiğini, bunun da hayvanın en çok güvendiği dokunma ve koku geri bildirimini kestiğini söylüyor.",
+      "explanation": "Paragraph F says that to hold a stick, the elephant must curl the tip of its trunk backwards and close it, which cuts off the tactile and olfactory feedback the animal relies on most.",
       "difficulty": "medium",
       "status": "verified",
       "blind_solvable": false
@@ -62,7 +62,7 @@
         "sentence": 2
       },
       "uniqueness_check": "Bu araştırmadan önce zaten bilinen yetenekleri sıralayan tek paragraf A. C, D ve E paragrafları da yetenek anlatıyor ama hepsi bu çalışma sırasında gözlenen yeni davranışlar; H ise çalışmanın kendi sonucunu özetliyor, önceki bilgi birikimini değil.",
-      "explanation": "A paragrafı, laboratuvar çalışmalarının fillerin aynada kendini tanıdığını, yerleri yıllarca hatırladığını ve sinek kovmak için dal kullandığını daha önce gösterdiğini söylüyor.",
+      "explanation": "Paragraph A says that laboratory studies have already shown that elephants can recognise themselves in a mirror, remember locations for years, and use branches to swat flies.",
       "difficulty": "easy",
       "status": "verified",
       "blind_solvable": false
@@ -83,7 +83,7 @@
         "sentence": 1
       },
       "uniqueness_check": "Üç davranış özelliğini bir arada değerlendirip bunların deneme yanılma öğrenmesi olmadığı sonucuna varan tek paragraf H. C paragrafı çözümün birdenbire ortaya çıkışını, D yeni nesne ve yerlere uyarlanmasını, E ise aracın nerede bırakıldığının hatırlanmasını ayrı ayrı anlatıyor; hiçbiri üçünü birleştirip bir yargıya bağlamıyor. A paragrafı ani kavrayış ile deneme yanılma ayrımını genel olarak anıyor ama bu hayvanın davranışı hakkında hüküm vermiyor.",
-      "explanation": "H paragrafı, çözümün birdenbire ve hatasız ortaya çıkmasını, yeni nesne ve yerlere uyarlanabilmesini ve aracın bırakıldığı yerin hatırlanmasını bir arada değerlendirerek bunun kademeli deneme yanılma öğrenmesi değil kavrayış olduğunu söylüyor.",
+      "explanation": "Paragraph H says that taking together the sudden, error-free appearance of the solution, its adaptation to new objects and locations, and the memory of where the tool was left, this counts as insight rather than gradual trial-and-error learning.",
       "difficulty": "hard",
       "status": "verified",
       "blind_solvable": false
@@ -104,7 +104,7 @@
         "sentence": 3
       },
       "uniqueness_check": "Yiyecek başka bir yere asıldığında hayvanın basamağını oraya taşıdığını yalnız D anlatıyor. C paragrafı ilk çözümü anlatıyor ama orada yiyeceğin yeri hiç değişmiyor; E paragrafında yeri değişen şey yiyecek değil küpün kendisi ve mesele taşıma değil, nerede bırakıldığını hatırlama.",
-      "explanation": "D paragrafı, bakıcılar yiyeceği yeni bir yere astığında hayvanın küpü tam altına denk gelen noktaya yuvarlayarak uyum sağladığını söylüyor.",
+      "explanation": "Paragraph D says that when keepers moved the food to a new position, the elephant adjusted by rolling the cube to the corresponding spot underneath.",
       "difficulty": "medium",
       "status": "verified",
       "blind_solvable": false
@@ -125,7 +125,7 @@
         "sentence": 2
       },
       "uniqueness_check": "Halka ile uydu arasındaki sınırın geçmişte bugünkü kadar belirgin olmayabileceğini yalnız G söylüyor. A paragrafı halkalardan ve kalabalık uydu ailesinden söz ediyor ama ikisi arasındaki ayrımı hiç sorgulamıyor; D paragrafı cismin başka yerden yakalanmak yerine bulunduğu yerde oluştuğunu söylüyor, bu da köken sorusu, sınıflandırma sorusu değil.",
-      "explanation": "G paragrafı, iç uydularla soluk halkalar arasındaki karmaşık çekim ilişkilerinin karmaşık bir erken geçmişe işaret ettiğini ve o dönemde 'halka' ile 'uydu' ayrımının bugünkü kadar net olmamış olabileceğini söylüyor.",
+      "explanation": "Paragraph G says that the complicated gravitational relationships between the inner moons and the faint rings point to a chaotic early history, in which the line between 'ring' and 'moon' may not always have been as clear as it is today.",
       "difficulty": "hard",
       "status": "verified",
       "blind_solvable": false
@@ -146,7 +146,7 @@
         "sentence": 1
       },
       "uniqueness_check": "Sonucun henüz hakem değerlendirmesinden geçmediğini yalnız H söylüyor. C paragrafında da bir belirsizlik var ama o, boyutun doğrudan ölçülemediği için tahmin edilmesiyle ilgili; E paragrafında bir onay bekleniyor, ancak o onay bulgunun geçerliliğine değil, cisme verilecek isme ilişkin.",
-      "explanation": "H paragrafı, keşfin şimdilik tamamlanmış ve hakemli bir sonuç değil, süren bir araştırmanın parçası olduğunu belirtiyor.",
+      "explanation": "Paragraph H states that for now, the discovery remains part of ongoing research rather than a finished, peer-reviewed result.",
       "difficulty": "medium",
       "status": "flagged",
       "blind_solvable": true,
@@ -170,7 +170,7 @@
         "sentence": 3
       },
       "uniqueness_check": "Teleskop süresinin sınırlı olduğunu ve bilim insanlarının bunun için yarıştığını yalnız B söylüyor. E paragrafında da uluslararası bir kurumdan onay bekleniyor ama konu isimlendirme, gözlem hakkı değil; G paragrafı başka bir ekip üyesinin görüşünü aktarıyor, araca erişim koşullarına hiç girmiyor.",
-      "explanation": "B paragrafı, gözlemlerin dünyanın her yerinden bilim insanlarına açık, sınırlı teleskop süresi için yarışılan geniş bir araştırma programının parçası olduğunu söylüyor.",
+      "explanation": "Paragraph B says that the observations formed part of a broader Webb research programme open to scientists from around the world who compete for a limited amount of telescope time.",
       "difficulty": "medium",
       "status": "verified",
       "blind_solvable": false
@@ -191,7 +191,7 @@
         "sentence": 3
       },
       "uniqueness_check": "Cismin fark edilmeden kaç yıl gezegenin çevresinde döndüğünü sayıyla veren tek paragraf F. A paragrafı daha önceki hiçbir görevin bu uyduyu kaydetmediğini söylüyor ama hiçbir süre vermiyor; H paragrafı özel bir geçiş görevinin bile bu cismi kaçırdığını anıyor, yine süre belirtmeden.",
-      "explanation": "F paragrafı, cismin boyutunun eski aygıtların ayırma sınırının altında kaldığını ve bu yüzden geçiş görevi ile yeni gözlemler arasındaki yaklaşık kırk yıl boyunca fark edilmediğini söylüyor.",
+      "explanation": "Paragraph F says that the object's size placed it below the resolution threshold of earlier instruments, so it went unnoticed for the nearly forty years between the flyby and the new observations.",
       "difficulty": "easy",
       "status": "verified",
       "blind_solvable": false
@@ -212,7 +212,7 @@
         "sentence": 3
       },
       "uniqueness_check": "Görünür iz bırakmayan sahte işlemin neden yapıldığını yalnız D açıklıyor: dokunulmaya verilen tepkiyle izi görmeye verilen tepkiyi ayırmak için. B paragrafı da bir kontrol düzeneğini anlatıyor ama oradaki kontrol saydam panel ve amaç yeni bir nesneye duyulan merakı yansımaya verilen tepkiden ayırmak; E paragrafı sahte iz denemelerinin sonuçlarını sayılarla veriyor, gerekçesini değil.",
-      "explanation": "D paragrafı, bazı denemelerde hayvana aynı şekilde dokunulup hiç görünür iz bırakılmadığını ve bunun amacının dokunulma tepkisiyle izi görme tepkisini birbirinden ayırmak olduğunu söylüyor.",
+      "explanation": "Paragraph D says that on some trials a sham procedure was carried out, touching the animal the same way but leaving no visible mark, so the team could separate a reaction to being touched from a reaction to seeing a mark.",
       "difficulty": "medium",
       "status": "verified",
       "blind_solvable": false
@@ -233,7 +233,7 @@
         "sentence": 2
       },
       "uniqueness_check": "Bu yeteneğin ortak bir atadan miras kalmak yerine birbirinden uzak canlılarda ayrı ayrı ortaya çıktığını savunan tek paragraf G. A paragrafı testi geçtiği bildirilen türleri sıralıyor ama yeteneğin nasıl doğduğu konusunda hiçbir iddiada bulunmuyor; H paragrafı bulgunun bu küçük soy ağacına uzak bir dal eklediğini söylüyor, ancak dalların birbirinden bağımsız doğduğunu ileri sürmüyor.",
-      "explanation": "G paragrafı, filler, saksağanlar ve küçük bir temizlikçi balıktaki eski bulgularla birlikte değerlendirildiğinde, aynadaki kendini tanımanın çok farklı beyinlere sahip hayvanlarda birden çok kez bağımsız olarak evrimleştiği görüşünü desteklediğini söylüyor.",
+      "explanation": "Paragraph G says that combined with earlier reports in elephants, magpies and a species of cleaner wrasse, the findings support the view that mirror self-recognition has evolved independently more than once in animals with very different brains.",
       "difficulty": "hard",
       "status": "verified",
       "blind_solvable": false
@@ -254,7 +254,7 @@
         "sentence": 4
       },
       "uniqueness_check": "İki düzeneğin önünde geçirilen toplam saatleri karşılaştıran tek paragraf B. E paragrafı da süre veriyor ama bunlar tek bir hayvanın iz testi sırasındaki dakika ve saniyeleri; C paragrafı aynanın önünde neler yapıldığını anlatıyor, hiçbir toplam süre vermiyor.",
-      "explanation": "B paragrafı, çalışma boyunca hayvanların aynanın önünde yaklaşık 27 saat, düz panelin önünde ise yaklaşık 23 saat geçirdiğini söylüyor.",
+      "explanation": "Paragraph B says that across the study, the whales spent roughly 27 hours in front of the mirror and about 23 hours in front of the plain panel.",
       "difficulty": "easy",
       "status": "verified",
       "blind_solvable": false
@@ -275,7 +275,7 @@
         "sentence": 3
       },
       "uniqueness_check": "Kendine yönelik davranışların ne kadar çabuk başladığını yalnız C söylüyor: iki hayvanda daha ilk oturumda, iki saati biraz aşan bir sürenin ardından. F paragrafı bu davranışların birinde zengin biçimde görüldüğünü aktarıyor ama başlama süresini vermiyor; E paragrafındaki süreler ilk ortaya çıkışa değil, iz testindeki yaklaşmalara ait.",
-      "explanation": "C paragrafı, araştırmacıların kendine yönelik saydığı bu davranışların dört hayvandan ikisinde daha ilk ayna oturumunda, iki saati biraz geçen bir süre sonunda ortaya çıktığını söylüyor.",
+      "explanation": "Paragraph C says that these self-directed actions appeared within the very first mirror session for two of the four animals, after little more than two hours of exposure.",
       "difficulty": "medium",
       "status": "verified",
       "blind_solvable": false
@@ -296,7 +296,7 @@
         "sentence": 4
       },
       "uniqueness_check": "Ölçeklerin neyi ölçmek üzere tasarlandığını tek tek anlatan paragraf yalnız E. F ve G paragrafları aynı ölçeklerin adlarını anıyor ama yalnızca çıkan sonuçları bildiriyor, ölçeklerin neyi ölçtüğünü tanımlamıyor; B paragrafı katılımcıların nasıl gruplandığıyla ilgileniyor.",
-      "explanation": "E paragrafı, altı maddelik ölçeğin ortamın zihni ne kadar tazelediğini, dört maddelik ölçeğin ise kişinin enerji duygusunu ölçtüğünü açıklıyor.",
+      "explanation": "Paragraph E explains that the six-item scale assessed how mentally refreshing participants found the environment, while the four-item scale measured their sense of energy.",
       "difficulty": "medium",
       "status": "verified",
       "blind_solvable": false
@@ -317,7 +317,7 @@
         "sentence": 4
       },
       "uniqueness_check": "Eksik kanıtın kuzeyde yaşayanlar için neden pratik bir sorun doğurduğunu yalnız A açıklıyor. H paragrafı da eksikliklerden söz ediyor ama onlar örneklemin küçüklüğü ve ileride yapılması gerekenler, yani bilimsel sınırlar; belirli bir nüfusun günlük yaşamına ilişkin bir sonuç çıkarmıyor.",
-      "explanation": "A paragrafı, kuzeydeki toplulukların doğanın sağladığı ruhsal yarar için baharı bekleyemeyeceğini, kar bu etkiyi zayıflatıyorsa yılın soğuk yarısı için başka yollar gerekebileceğini söylüyor.",
+      "explanation": "Paragraph A says that northern populations cannot simply wait for spring to seek the psychological benefits nature is thought to provide; if snow weakens this effect, alternative strategies might be needed for the colder half of the year.",
       "difficulty": "medium",
       "status": "verified",
       "blind_solvable": false
@@ -338,7 +338,7 @@
         "sentence": 3
       },
       "uniqueness_check": "Katılımcıların birbirini rahatsız etmemesi için konan kuralları yalnız C veriyor. B paragrafı koşulların hangi sırayla yaşandığını dengeleyen düzeni anlatıyor, oturum sırasındaki davranışa hiç değinmiyor; E paragrafı anketlerin ne zaman doldurulduğunu söylüyor, sessizlik ya da aralık koşulunu değil.",
-      "explanation": "C paragrafı, her iki koşulda da katılımcılardan konuşmamalarının, telefon kullanmamalarının ve sigara içmemelerinin istendiğini, dikkat dağılmasın diye birbirlerinden ayrı yerleştirildiklerini söylüyor.",
+      "explanation": "Paragraph C says that in both conditions participants were asked not to talk, use their phones or smoke, and were positioned apart from one another to avoid distraction.",
       "difficulty": "easy",
       "status": "verified",
       "blind_solvable": false

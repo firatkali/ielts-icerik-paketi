@@ -30,7 +30,7 @@
       "answer_point_id": "L4-S1-01",
       "turn_index": 4,
       "distractor_used": "486",
-      "explanation": "Yolcu önce dört yüz seksen altıyı söylüyor; görevli düzeltiyor: o sefer perakende parkına gidiyor, havalimanı otobüsü dört yüz seksen iki.",
+      "explanation": "The passenger first says four hundred and eighty-six; the assistant corrects this: that service goes to the retail park, the airport coach is the four eighty-two.",
       "difficulty": "medium",
       "status": "verified"
     },
@@ -48,7 +48,7 @@
       "answer_point_id": "L4-S1-02",
       "turn_index": 7,
       "distractor_used": "Tuesday",
-      "explanation": "Yolcu önce Salı diyor, sonra Salı'nın izin günü olduğunu hatırlayıp kendini düzeltiyor: yolculuk Çarşamba günü yapılmış.",
+      "explanation": "The passenger first says Tuesday, then remembers that Tuesday is their day off and corrects themselves: the journey was made on Wednesday.",
       "difficulty": "medium",
       "status": "verified"
     },
@@ -67,7 +67,7 @@
       "answer_point_id": "L4-S1-06",
       "turn_index": 11,
       "distractor_used": null,
-      "explanation": "Çanta koltuğun üstündeki rafa konmuş ve yolcu inerken orada unutulmuş; görevli de kayıpların çoğunun oradan çıktığını söylüyor.",
+      "explanation": "The bag was put in the rack above the seat and left behind there when the passenger got off; the assistant says most lost items turn up there.",
       "difficulty": "easy",
       "status": "verified"
     },
@@ -84,7 +84,7 @@
       "answer_point_id": "L4-S1-08",
       "turn_index": 13,
       "distractor_used": "navy",
-      "explanation": "Yolcu önce lacivert diyor ama hemen düzeltiyor: lacivert olan eski çantası; kaybolan çanta koyu yeşil.",
+      "explanation": "The passenger first says navy but corrects themselves at once: the navy one is their old bag; the lost bag is dark green.",
       "difficulty": "medium",
       "status": "verified"
     },
@@ -101,7 +101,7 @@
       "answer_point_id": "L4-S1-10",
       "turn_index": 19,
       "distractor_used": null,
-      "explanation": "Soyadı seste harf harf söyleniyor: T-H-U-R-L-B-E-C-K. Yazımı zor olduğu için ancak harflendiği için sorulabiliyor.",
+      "explanation": "The surname is spelt out letter by letter on the recording: T-H-U-R-L-B-E-C-K. It can only be answered because it is spelt out, as it is hard to spell.",
       "difficulty": "easy",
       "status": "verified"
     },
@@ -120,7 +120,7 @@
       "answer_point_id": "L4-S1-11",
       "turn_index": 21,
       "distractor_used": null,
-      "explanation": "Numara gruplar hâlinde söyleniyor; 'double four' iki tane dört demektir, yani 07793 441806.",
+      "explanation": "The number is given in groups; 'double four' means two fours, so it is 07793 441806.",
       "difficulty": "medium",
       "status": "verified"
     },
@@ -137,7 +137,7 @@
       "answer_point_id": "L4-S1-17",
       "turn_index": 28,
       "distractor_used": null,
-      "explanation": "Üç ay içinde alınmayan eşyalar şirketin birlikte çalıştığı hayır kurumuna devrediliyor.",
+      "explanation": "Items not collected within three months are passed on to the charity the company works with.",
       "difficulty": "easy",
       "status": "verified"
     },
@@ -155,7 +155,7 @@
       "answer_point_id": "L4-S1-19",
       "turn_index": 32,
       "distractor_used": null,
-      "explanation": "Ana kapı yalnızca araçlara açık ve bariyer yayalar için kalkmıyor; girişin yakıt pompalarının yanındaki yan kapıdan yapılması gerekiyor.",
+      "explanation": "The main gate is only for vehicles and the barrier does not lift for pedestrians; entry has to be made through the side entrance next to the fuel pumps.",
       "difficulty": "medium",
       "status": "verified"
     },
@@ -172,7 +172,7 @@
       "answer_point_id": "L4-S1-22",
       "turn_index": 38,
       "distractor_used": null,
-      "explanation": "Üzerinde adın yazdığı herhangi bir belge yeterli sayılıyor: ehliyet ya da banka kartı.",
+      "explanation": "Any document with the person's name on it is accepted: a driving licence or a bank card.",
       "difficulty": "easy",
       "status": "verified"
     },
@@ -192,7 +192,7 @@
       "answer_point_id": "L4-S1-25",
       "turn_index": 42,
       "distractor_used": "£5",
-      "explanation": "Ücret nisanda yapılan değişikliğe kadar beş sterlinmiş; artık üç sterlin.",
+      "explanation": "The charge was five pounds until it changed in April; it is now three pounds.",
       "difficulty": "medium",
       "status": "verified"
     }

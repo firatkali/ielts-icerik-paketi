@@ -46,24 +46,24 @@
     ],
     "unit": "saat/hafta",
     "svg": null,
-    "alt": "Beş iş kolunda haftalık ortalama çalışma saatini 2002 ve 2022 için karşılaştıran sütun grafik."
+    "alt": "A bar chart comparing average weekly working hours in five types of work for 2002 and 2022."
   },
   "visuals": null,
   "key_points": [
-    "Beş iş kolunun dördünde haftalık çalışma süresi kısalıyor; tek istisna bilgi hizmetleri, orada 38 saatten 40 saate çıkıyor",
-    "Tarım her iki yılda da en uzun çalışılan iş kolu (48 → 43 saat), dolayısıyla sıralamanın tepesi değişmiyor",
-    "En büyük düşüş imalatta: 6 saat (44 → 38); en küçük düşüş inşaatta: 3 saat (45 → 42)",
-    "Sıralamanın alt ucu yer değiştiriyor: 2002'de en kısa süre bilgi hizmetlerindeyken (38 saat), 2022'de bu yer dükkân ve kafelere geçiyor (34 saat)",
-    "İş kolları arasındaki fark biraz daralıyor: 2002'de 10 saatlik aralık (38-48) 2022'de 9 saate iniyor (34-43)",
-    "40 saat eşiğine göre bakıldığında 2002'de üç iş kolu bu eşiğin üzerindeydi; 2022'de yalnızca ikisi üzerinde kalıyor, biri tam 40 saatte, ikisi altında"
+    "Weekly working hours fall in four of the five sectors; the only exception is information services, which rises from 38 to 40 hours",
+    "Farming remains the sector with the longest hours in both years (48 → 43 hours), so the top of the ranking does not change",
+    "The biggest fall is in manufacturing: 6 hours (44 → 38); the smallest fall is in building work: 3 hours (45 → 42)",
+    "The bottom of the ranking changes places: in 2002 the shortest hours were in information services (38 hours), but by 2022 this position belongs to shops and cafés (34 hours)",
+    "The gap between sectors narrows slightly: the 10-hour range in 2002 (38-48) falls to 9 hours in 2022 (34-43)",
+    "Looking at the 40-hour threshold, three sectors were above it in 2002; in 2022 only two remain above it, one sits exactly at 40 hours, and two are below"
   ],
   "common_mistakes": [
-    "Tek istisnayı (bilgi hizmetlerindeki artış) atlayıp 'all sectors fell' demek",
-    "İki yılı ayrı ayrı listelemek, aradaki değişimi ve sıra değişimini karşılaştırmamak",
-    "Saat ile yüzdeyi karıştırmak ('working hours fell by 6%')",
-    "Görüş bildirmek ('shorter hours are better for workers') — bu görevde yasak",
-    "Yalnızca en yüksek ve en düşük sütunu anlatıp ortadaki üç iş kolunu hiç anmamak"
+    "Overlooking the one exception (the rise in information services) and saying 'all sectors fell'",
+    "Listing the two years separately instead of comparing the change and the shift in ranking between them",
+    "Confusing hours with percentages ('working hours fell by 6%')",
+    "Giving an opinion ('shorter hours are better for workers') — not allowed in this task",
+    "Describing only the highest and lowest bars and never mentioning the three sectors in between"
   ],
-  "topic": "iş kollarına göre haftalık çalışma saatleri",
+  "topic": "weekly working hours by type of work",
   "difficulty": "easy"
 }

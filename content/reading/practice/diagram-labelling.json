@@ -15,7 +15,7 @@
   "visual": {
     "kind": "diagram",
     "svg": "<svg viewBox=\"0 0 760 1070\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\"><text x=\"20\" y=\"26\" font-size=\"13\">Diagram A - Elm Court Apartments: where each kind of waste goes (Passage G01)</text><rect x=\"30\" y=\"60\" width=\"150\" height=\"130\" fill=\"#fff\" stroke=\"#000\"/><text x=\"105\" y=\"118\" text-anchor=\"middle\">Elm Court</text><text x=\"105\" y=\"134\" text-anchor=\"middle\">Apartments</text><line x1=\"180\" y1=\"78\" x2=\"252\" y2=\"78\" stroke=\"#000\"/><polygon points=\"252,74 260,78 252,82\" fill=\"#000\" stroke=\"#000\"/><line x1=\"180\" y1=\"125\" x2=\"252\" y2=\"136\" stroke=\"#000\"/><polygon points=\"251,132 260,137 250,140\" fill=\"#000\" stroke=\"#000\"/><line x1=\"180\" y1=\"170\" x2=\"252\" y2=\"194\" stroke=\"#000\"/><polygon points=\"250,190 260,195 248,198\" fill=\"#000\" stroke=\"#000\"/><rect x=\"260\" y=\"55\" width=\"470\" height=\"46\" fill=\"#fff\" stroke=\"#000\"/><text x=\"272\" y=\"74\">General waste, out by 7 a.m. every Monday</text><text x=\"272\" y=\"92\">picked up from the bin area at the back of (1) ........</text><rect x=\"260\" y=\"113\" width=\"470\" height=\"46\" fill=\"#fff\" stroke=\"#000\"/><text x=\"272\" y=\"132\">Recycling (paper, glass, plastic bottles), every second Thursday</text><text x=\"272\" y=\"150\">dates come from the colour-coded calendar posted in the (2) ........</text><rect x=\"260\" y=\"171\" width=\"470\" height=\"46\" fill=\"#fff\" stroke=\"#000\"/><text x=\"272\" y=\"190\">Furniture and other bulky items, not part of the normal rounds</text><text x=\"272\" y=\"208\">booked five working days ahead with the (3) ........</text><line x1=\"20\" y1=\"245\" x2=\"740\" y2=\"245\" stroke=\"#000\"/><text x=\"20\" y=\"286\" font-size=\"13\">Diagram B - Millbrook Cycle Hire: taking out a bicycle (Passage G02)</text><line x1=\"40\" y1=\"390\" x2=\"200\" y2=\"390\" stroke=\"#000\"/><rect x=\"55\" y=\"330\" width=\"12\" height=\"60\" fill=\"#fff\" stroke=\"#000\"/><rect x=\"100\" y=\"330\" width=\"12\" height=\"60\" fill=\"#fff\" stroke=\"#000\"/><rect x=\"145\" y=\"330\" width=\"12\" height=\"60\" fill=\"#fff\" stroke=\"#000\"/><circle cx=\"61\" cy=\"324\" r=\"6\" fill=\"#fff\" stroke=\"#000\"/><circle cx=\"106\" cy=\"324\" r=\"6\" fill=\"#fff\" stroke=\"#000\"/><circle cx=\"151\" cy=\"324\" r=\"6\" fill=\"#fff\" stroke=\"#000\"/><circle cx=\"280\" cy=\"360\" r=\"34\" fill=\"#fff\" stroke=\"#000\"/><circle cx=\"390\" cy=\"360\" r=\"34\" fill=\"#fff\" stroke=\"#000\"/><line x1=\"280\" y1=\"360\" x2=\"325\" y2=\"308\" stroke=\"#000\"/><line x1=\"325\" y1=\"308\" x2=\"335\" y2=\"360\" stroke=\"#000\"/><line x1=\"335\" y1=\"360\" x2=\"280\" y2=\"360\" stroke=\"#000\"/><line x1=\"325\" y1=\"308\" x2=\"378\" y2=\"310\" stroke=\"#000\"/><line x1=\"378\" y1=\"310\" x2=\"390\" y2=\"360\" stroke=\"#000\"/><line x1=\"335\" y1=\"360\" x2=\"390\" y2=\"360\" stroke=\"#000\"/><line x1=\"313\" y1=\"306\" x2=\"338\" y2=\"306\" stroke=\"#000\"/><line x1=\"368\" y1=\"304\" x2=\"392\" y2=\"300\" stroke=\"#000\"/><circle cx=\"330\" cy=\"268\" r=\"15\" fill=\"#fff\" stroke=\"#000\"/><path d=\"M 312 265 A 18 18 0 0 1 348 265\" fill=\"none\" stroke=\"#000\"/><line x1=\"348\" y1=\"262\" x2=\"456\" y2=\"266\" stroke=\"#000\"/><rect x=\"460\" y=\"246\" width=\"270\" height=\"46\" fill=\"#fff\" stroke=\"#000\"/><text x=\"472\" y=\"265\">(5) ........</text><text x=\"472\" y=\"283\">not supplied: riders bring their own</text><line x1=\"106\" y1=\"390\" x2=\"106\" y2=\"418\" stroke=\"#000\"/><rect x=\"40\" y=\"420\" width=\"300\" height=\"46\" fill=\"#fff\" stroke=\"#000\"/><text x=\"52\" y=\"439\">(4) ........</text><text x=\"52\" y=\"457\">twelve of these around the town</text><line x1=\"20\" y1=\"490\" x2=\"740\" y2=\"490\" stroke=\"#000\"/><text x=\"20\" y=\"530\" font-size=\"13\">Diagram C - Fernbridge Manufacturing: one working day (Passage G03)</text><rect x=\"140\" y=\"570\" width=\"320\" height=\"22\" fill=\"#fff\" stroke=\"#000\"/><text x=\"300\" y=\"585\" text-anchor=\"middle\">(6) ........</text><text x=\"470\" y=\"585\">every employee at work, 8 a.m. to 4 p.m.</text><rect x=\"60\" y=\"602\" width=\"320\" height=\"22\" fill=\"#fff\" stroke=\"#000\"/><text x=\"70\" y=\"617\">(7) ........ shift: 6 a.m. to 2 p.m.</text><rect x=\"380\" y=\"634\" width=\"320\" height=\"22\" fill=\"#fff\" stroke=\"#000\"/><text x=\"390\" y=\"649\">late shift: 2 p.m. to 10 p.m.</text><line x1=\"60\" y1=\"670\" x2=\"700\" y2=\"670\" stroke=\"#000\"/><line x1=\"60\" y1=\"665\" x2=\"60\" y2=\"675\" stroke=\"#000\"/><line x1=\"140\" y1=\"665\" x2=\"140\" y2=\"675\" stroke=\"#000\"/><line x1=\"220\" y1=\"665\" x2=\"220\" y2=\"675\" stroke=\"#000\"/><line x1=\"300\" y1=\"665\" x2=\"300\" y2=\"675\" stroke=\"#000\"/><line x1=\"380\" y1=\"665\" x2=\"380\" y2=\"675\" stroke=\"#000\"/><line x1=\"460\" y1=\"665\" x2=\"460\" y2=\"675\" stroke=\"#000\"/><line x1=\"540\" y1=\"665\" x2=\"540\" y2=\"675\" stroke=\"#000\"/><line x1=\"620\" y1=\"665\" x2=\"620\" y2=\"675\" stroke=\"#000\"/><line x1=\"700\" y1=\"665\" x2=\"700\" y2=\"675\" stroke=\"#000\"/><text x=\"60\" y=\"688\" text-anchor=\"middle\">6 a.m.</text><text x=\"140\" y=\"688\" text-anchor=\"middle\">8</text><text x=\"220\" y=\"688\" text-anchor=\"middle\">10</text><text x=\"300\" y=\"688\" text-anchor=\"middle\">12</text><text x=\"380\" y=\"688\" text-anchor=\"middle\">2 p.m.</text><text x=\"460\" y=\"688\" text-anchor=\"middle\">4</text><text x=\"540\" y=\"688\" text-anchor=\"middle\">6</text><text x=\"620\" y=\"688\" text-anchor=\"middle\">8</text><text x=\"700\" y=\"688\" text-anchor=\"middle\">10 p.m.</text><text x=\"60\" y=\"718\">Breaks inside a full shift:</text><rect x=\"60\" y=\"726\" width=\"300\" height=\"46\" fill=\"#fff\" stroke=\"#000\"/><text x=\"72\" y=\"745\">12 p.m.-1.30 p.m.: lunch, unpaid (30 min)</text><text x=\"72\" y=\"763\">plus two paid breaks of 10 minutes each</text><rect x=\"380\" y=\"726\" width=\"320\" height=\"46\" fill=\"#fff\" stroke=\"#000\"/><text x=\"392\" y=\"745\">once the shift passes eight hours:</text><text x=\"392\" y=\"763\">one further (8) ........ break</text><line x1=\"20\" y1=\"795\" x2=\"740\" y2=\"795\" stroke=\"#000\"/><text x=\"20\" y=\"835\" font-size=\"13\">Diagram D - Cedarline Financial Services: a remote working day (Passage G04)</text><rect x=\"80\" y=\"900\" width=\"110\" height=\"62\" fill=\"#fff\" stroke=\"#000\"/><polygon points=\"75,962 195,962 210,978 60,978\" fill=\"#fff\" stroke=\"#000\"/><text x=\"135\" y=\"936\" text-anchor=\"middle\">laptop</text><rect x=\"240\" y=\"944\" width=\"70\" height=\"36\" fill=\"#fff\" stroke=\"#000\"/><line x1=\"255\" y1=\"944\" x2=\"248\" y2=\"918\" stroke=\"#000\"/><line x1=\"295\" y1=\"944\" x2=\"302\" y2=\"918\" stroke=\"#000\"/><text x=\"275\" y=\"966\" text-anchor=\"middle\">router</text><rect x=\"350\" y=\"932\" width=\"28\" height=\"48\" fill=\"#fff\" stroke=\"#000\"/><rect x=\"355\" y=\"940\" width=\"18\" height=\"30\" fill=\"#fff\" stroke=\"#000\"/><text x=\"364\" y=\"926\" text-anchor=\"middle\">phone</text><rect x=\"60\" y=\"980\" width=\"340\" height=\"10\" fill=\"#fff\" stroke=\"#000\"/><line x1=\"80\" y1=\"990\" x2=\"80\" y2=\"1045\" stroke=\"#000\"/><line x1=\"380\" y1=\"990\" x2=\"380\" y2=\"1045\" stroke=\"#000\"/><line x1=\"302\" y1=\"918\" x2=\"436\" y2=\"900\" stroke=\"#000\"/><rect x=\"440\" y=\"878\" width=\"290\" height=\"46\" fill=\"#fff\" stroke=\"#000\"/><text x=\"452\" y=\"897\">(9) ........</text><text x=\"452\" y=\"915\">the slowest link the policy will accept</text><line x1=\"378\" y1=\"950\" x2=\"436\" y2=\"970\" stroke=\"#000\"/><rect x=\"440\" y=\"948\" width=\"290\" height=\"46\" fill=\"#fff\" stroke=\"#000\"/><text x=\"452\" y=\"967\">(10) ........</text><text x=\"452\" y=\"985\">how remote staff answer, 10 a.m. to 4 p.m.</text></svg>",
-    "alt": "Dört ayrı şema. A: Elm Court apartmanlarından çıkan atığın üç yolu; 1, 2 ve 3 numaralı boşluklar çöp alanının arkasındaki bloğu, geri dönüşüm takviminin asıldığı yeri ve büyük eşya toplamasının ayarlandığı birimi soruyor. B: bir bisiklet kiralama istasyonu, bisiklet ve kasklı sürücü; 4 numara istasyonun adını, 5 numara sürücünün kendi getirmesi gereken parçayı soruyor. C: Fernbridge'de bir iş gününün zaman çizgisi; 6 numara herkesin işbaşında olduğu kuşağın adını, 7 numara 6.00-14.00 vardiyasının adını, 8 numara sekiz saati aşan vardiyalarda verilen ek molanın süresini soruyor. D: evden çalışma düzeni (yönlendirici, dizüstü, telefon); 9 numara izin verilen en düşük bağlantı hızını, 10 numara çekirdek saatlerde yanıt verilmesi gereken kanalı soruyor."
+    "alt": "Four separate diagrams. A: three routes for waste leaving Elm Court apartments; blanks 1, 2 and 3 ask about the block behind the bin area, the place where the recycling calendar is posted, and the office that arranges bulky-item collection. B: a bicycle hire station, a bicycle and a helmeted rider; blank 4 asks for the name of the station, blank 5 asks for the item the rider must bring themselves. C: a timeline of a working day at Fernbridge; blank 6 asks for the name of the band when everyone is at work, blank 7 asks for the name of the 6 a.m.-2 p.m. shift, blank 8 asks for the length of the extra break given on shifts longer than eight hours. D: a remote working setup (router, laptop, phone); blank 9 asks for the minimum connection speed allowed, blank 10 asks for the channel remote staff must answer on during core hours."
   },
   "stem_block": null,
   "items": [
@@ -34,7 +34,7 @@
         "text": "D",
         "sentence": 1
       },
-      "explanation": "D metni, genel atığın her pazartesi Block C'nin arkasındaki çöp kutularından alındığını söylüyor; bu yüzden 1 numaralı bloğun adı 'Block C'.",
+      "explanation": "Text D says that general waste is collected every Monday from the bins behind Block C, so the name for blank 1 is 'Block C'.",
       "difficulty": "medium",
       "status": "verified"
     },
@@ -53,7 +53,7 @@
         "text": "D",
         "sentence": 2
       },
-      "explanation": "D metnine göre geri dönüşümün kesin tarihleri giriş holündeki renk kodlu takvimde yazıyor; bu nedenle cevap 'entrance hall'.",
+      "explanation": "According to text D, the exact recycling dates are on the colour-coded calendar in the entrance hall, so the answer is 'entrance hall'.",
       "difficulty": "easy",
       "status": "verified"
     },
@@ -72,7 +72,7 @@
         "text": "D",
         "sentence": 4
       },
-      "explanation": "D metni, mobilya gibi büyük eşyalar için ayrı toplamanın en az beş iş günü önce site ofisinden ayarlanması gerektiğini söylüyor; cevap 'estate office'.",
+      "explanation": "Text D says that a separate collection for large items such as furniture must be arranged with the estate office at least five working days in advance; the answer is 'estate office'.",
       "difficulty": "hard",
       "status": "verified"
     },
@@ -91,7 +91,7 @@
         "text": "A",
         "sentence": 1
       },
-      "explanation": "A metni, bisikletlerin kasaba genelindeki on iki yerleştirme istasyonundan kiralandığını söylüyor; cevap 'docking stations'.",
+      "explanation": "Text A says that bicycles are hired from any of the twelve docking stations across town; the answer is 'docking stations'.",
       "difficulty": "easy",
       "status": "verified"
     },
@@ -110,7 +110,7 @@
         "text": "A",
         "sentence": 3
       },
-      "explanation": "A metnine göre kask verilmiyor, güvenlik ekipmanı sürücünün kendi sorumluluğunda; bu yüzden 5 numaranın cevabı 'helmets'.",
+      "explanation": "According to text A, helmets are not provided and safety equipment is the rider's own responsibility, so the answer for blank 5 is 'helmets'.",
       "difficulty": "easy",
       "status": "verified"
     },
@@ -130,7 +130,7 @@
         "paragraph": "A",
         "sentence": 1
       },
-      "explanation": "A metninin ilk paragrafı 8.00-16.00 arasını 'core hours' diye adlandırıyor; şemadaki bandın adı bu.",
+      "explanation": "The first paragraph of text A calls the period from 8 a.m. to 4 p.m. 'core hours'; that is the name of the band in the diagram.",
       "difficulty": "medium",
       "status": "verified"
     },
@@ -150,7 +150,7 @@
         "paragraph": "A",
         "sentence": 2
       },
-      "explanation": "Metin 6.00'da başlayıp 14.00'te biten vardiyayı 'early shift' diye anıyor; boşluğa yalnızca 'early' giriyor.",
+      "explanation": "The text refers to the shift that starts at 6 a.m. and ends at 2 p.m. as the 'early shift'; only 'early' goes in the blank.",
       "difficulty": "easy",
       "status": "verified"
     },
@@ -171,7 +171,7 @@
         "paragraph": "B",
         "sentence": 4
       },
-      "explanation": "A metnindeki mola listesi, sekiz saatten uzun vardiyalar için fazladan 15 dakikalık bir mola tanıyor; cevap '15-minute'.",
+      "explanation": "The break list in text A allows an extra 15-minute break for shifts longer than eight hours; the answer is '15-minute'.",
       "difficulty": "medium",
       "status": "verified"
     },
@@ -192,7 +192,7 @@
         "paragraph": "B",
         "sentence": 2
       },
-      "explanation": "B metnindeki uzaktan çalışma listesi, çalışanın en az 10 Mbps hızında kendi bağlantısını sağlamasını istiyor; cevap '10 Mbps'.",
+      "explanation": "The remote-working list in text B requires the employee to provide their own connection of at least 10 Mbps; the answer is '10 Mbps'.",
       "difficulty": "medium",
       "status": "verified"
     },
@@ -212,7 +212,7 @@
         "paragraph": "B",
         "sentence": 4
       },
-      "explanation": "B metni, uzaktan çalışanların çekirdek saatlerde anlık mesajlaşma üzerinden ulaşılabilir olmasını şart koşuyor; cevap 'instant messaging'.",
+      "explanation": "Text B requires remote staff to be reachable on instant messaging during core hours; the answer is 'instant messaging'.",
       "difficulty": "hard",
       "status": "verified"
     }

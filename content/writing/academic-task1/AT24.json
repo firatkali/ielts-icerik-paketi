@@ -56,24 +56,24 @@
     },
     "unit": "ziyaret / kişi / yıl",
     "svg": null,
-    "alt": "Dört yaş grubunun üç alan türünde kişi başına yıllık sağlık merkezi ziyareti sayısını ve üç alanın ortalamasını gösteren tablo."
+    "alt": "A table showing the number of health centre visits per person per year for four age groups across three types of area, and the average across all three areas."
   },
   "visuals": null,
   "key_points": [
-    "En belirgin örüntü yaşla birlikte artış: 65 yaş üstü grup üç alan ortalamasında yılda 7,8 ziyaretle en yüksek, 18-39 grubu 2,1 ziyaretle en düşük — aradaki fark yaklaşık dört kat",
-    "Artış düz bir çizgi değil: 18 yaş altı (3,0) ile 18-39 arası (2,1) arasında düşüş var, sonra 40-64'te (3,7) yeniden yükseliyor",
-    "Alan türü sıralaması dört yaş grubunun hepsinde aynı: şehir alanları en yüksek, küçük kasabalar ortada, kırsal alanlar en düşük",
-    "Şehir ile kırsal arasındaki fark yaşlılarda en geniş (8,6'ya karşı 6,8; 1,8 ziyaret), 18 yaş altında ise en dar (3,2'ye karşı 2,8; 0,4 ziyaret)",
-    "En yüksek tek değer şehirdeki 65 yaş üstü grubu (8,6), en düşük tek değer kırsaldaki 18-39 grubu (1,7); ikisi arasında beş kattan fazla fark var",
-    "Son sütun üç alan türünün ortalamasıdır, toplamı değil"
+    "The clearest pattern is the rise with age: the 65-and-over group has the highest average across all three areas at 7.8 visits a year, while the 18-39 group has the lowest at 2.1 — a difference of roughly four times",
+    "The increase is not a straight line: there is a fall between under 18 (3.0) and 18-39 (2.1), before rising again in the 40-64 group (3.7)",
+    "The ranking of area types is the same for all four age groups: city areas highest, small towns in the middle, country areas lowest",
+    "The gap between city and country areas is widest among the elderly (8.6 vs 6.8; 1.8 visits) and narrowest for those under 18 (3.2 vs 2.8; 0.4 visits)",
+    "The single highest figure is the 65-and-over group in city areas (8.6), and the single lowest is the 18-39 group in country areas (1.7); the difference between them is more than fivefold",
+    "The final column is the average of the three area types, not their total"
   ],
   "common_mistakes": [
-    "Yirmi hücreyi tek tek okuyup iki ana örüntüyü (yaş ↑ ziyaret ↑, şehir > kasaba > kırsal) özetlememek",
-    "18-39 grubundaki düşüşü atlayıp 'visits rise steadily with age' demek",
-    "Ortalamayı toplam sanmak ('people made 3.0 visits in total')",
-    "Sebep açıklamak ya da öneri getirmek ('more health centres should be built in the countryside')",
-    "Ondalık sayıları yuvarlayıp iki hücreyi eşitlemek ve karşılaştırmayı kaybetmek"
+    "Reading through all twenty cells one by one instead of summarising the two main patterns (age up, visits up; city > town > country)",
+    "Skipping the dip in the 18-39 group and simply writing 'visits rise steadily with age'",
+    "Mistaking the average for a total ('people made 3.0 visits in total')",
+    "Explaining causes or making recommendations ('more health centres should be built in the countryside')",
+    "Rounding decimal figures until two cells look equal and losing the comparison"
   ],
-  "topic": "sağlık merkezi ziyaretleri",
+  "topic": "health centre visits",
   "difficulty": "medium"
 }

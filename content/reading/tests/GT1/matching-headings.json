@@ -76,7 +76,7 @@
       "heading_check": "B paragrafının üç cümlesi de tek bir işi anlatıyor: rakamların nasıl elde edildiği. Katı atık tartılıyor, içecekler yedi günlük günlükle kaydediliyor, alışveriş ve saklama alışkanlıkları görüşmeyle soruluyor. 'vi' bu bütünü karşılıyor. En yakın çeldirici 'ii' (hanelerin bildirimine duyulan kuşku) — ilk cümlenin yan cümlesi gerçekten öz-tahminin güvenilmez olduğunu söylüyor, ama bu yalnızca yöntem seçiminin gerekçesi; paragraf kuşkuyu tartışmıyor, ölçümü anlatıyor.",
       "feature_check": null,
       "grammar_check": null,
-      "explanation": "Paragraf B, atığın nasıl ölçüldüğünü anlatıyor: çöp fiilen toplanıp hassas teraziyle tartılıyor, içecekler günlükle izleniyor, hanelerle görüşme yapılıyor.",
+      "explanation": "Paragraph B describes how the waste was measured: rubbish was physically collected and weighed on precise scales, drinks were tracked with a diary, and households were interviewed.",
       "difficulty": "medium",
       "status": "verified",
       "blind_solvable": false
@@ -95,7 +95,7 @@
       "heading_check": "C paragrafı önce kişi başına yıllık 77 kilogramlık toplamı veriyor, sonra bu toplamı ikiye ayırıyor: yenebilecek durumdaki 29 kilogram ve pişirmenin olağan yan ürünü olan 48 kilogram. 'i' hem toplamı hem ikiye ayrılışı karşılıyor. En yakın çeldirici 'vii' (kabuklar ve mutfak artıkları) — kabuk, kemik, yumurta kabuğu bu paragrafta sayılıyor, ama bunlar ikiye ayrılan toplamın yalnızca bir yakası; paragrafın ana fikri ayrımın kendisi.",
       "feature_check": null,
       "grammar_check": null,
-      "explanation": "Paragraf C, kişi başına yıllık toplam atık miktarını veriyor ve bunu yenebilir ile yenemez kısım olarak ikiye ayırıyor.",
+      "explanation": "Paragraph C gives the total annual amount of waste per person and splits it into an edible part and an inedible part.",
       "difficulty": "medium",
       "status": "verified",
       "blind_solvable": false
@@ -114,7 +114,7 @@
       "heading_check": "D paragrafının tamamı iki bölge arasındaki farkı ölçüyor: kentte kişi başına 79,4 kilogram, kırsalda 45,8; kentte atığın %38,2'si yenebilir durumda, kırsalda %23,4. 'ix' bu ana fikri veriyor — farkın büyüklüğünü, nedenini değil; bu yüzden H paragrafıyla (kırsalın neden daha az attığı) karışmıyor. En yakın çeldirici 'x' (bir bölgenin neden daha çok kazandığı) — paragrafın son cümlesi kentli hanelerin yaklaşık iki kat kazanıp harcadığını söylüyor, ama gelirin neden yüksek olduğunu hiç açıklamıyor; gelir burada farkın açıklaması, konusu değil.",
       "feature_check": null,
       "grammar_check": null,
-      "explanation": "Paragraf D, kentsel ve kırsal haneler arasındaki büyük atık farkını sayılarla ortaya koyuyor ve bunu kısmen gelir farkına bağlıyor.",
+      "explanation": "Paragraph D sets out the large gap in waste between urban and rural households with figures, and partly attributes it to the difference in income.",
       "difficulty": "medium",
       "status": "verified",
       "blind_solvable": false
@@ -133,7 +133,7 @@
       "heading_check": "E paragrafı baştan sona hangi yiyeceğin ne kadar atıldığını sıralıyor: tahıllar ve pirinç başta, sebzeler hemen arkada, ardından havuç, lahana, tofu ve tempe. 'iii' bu sıralamayı karşılıyor. En yakın çeldirici 'vii' (kabuklar ve mutfak artıkları) — paragrafın son cümlesi muz ve mango kabuklarının yenmeyen atıkta başı çektiğini söylüyor, ama bu üç cümlelik sıralamanın yalnızca sonuncusu; paragraf ağırlıkla yenebilir yiyeceklerin dökümü.",
       "feature_check": null,
       "grammar_check": null,
-      "explanation": "Paragraf E, hangi yiyeceklerin en büyük miktarda atıldığını sıralıyor: önce tahıl ve pirinç, sonra sebzeler ve öteki kalemler.",
+      "explanation": "Paragraph E lists which foods were thrown away in the greatest quantity: cereals and rice first, then vegetables and other items.",
       "difficulty": "medium",
       "status": "flagged",
       "blind_solvable": true,
@@ -155,7 +155,7 @@
       "heading_check": "F paragrafı iki şey söylüyor ve ikisi de sayımın kapsamıyla ilgili: dökülen kahve ve çayın toplama eklenmesi, bir de sayımın yalnızca çöp kutusuna gideni (%82,8) ölçtüğü, komposta ya da hayvana giden gıdanın dışarıda kaldığı. 'viii' ikisini birden karşılıyor. En yakın çeldirici 'v' (miktarların mevsimlere göre değişmesi) — paragraf yöntemin bir sınırını anlatıyor, ama bu sınır mevsim değil kapsam; mevsim konusu ancak I paragrafında ve orada da ölçülmediği söyleniyor.",
       "feature_check": null,
       "grammar_check": null,
-      "explanation": "Paragraf F, dökülen içecekleri toplama ekliyor ve sayımın yalnızca çöp kutusuna gideni kapsadığını, kompost ile hayvan yemine gidenin dışarıda kaldığını belirtiyor.",
+      "explanation": "Paragraph F adds discarded drinks to the total, and notes that the count only covers what went into the bin, leaving out what went to compost or animal feed.",
       "difficulty": "hard",
       "status": "verified",
       "blind_solvable": false

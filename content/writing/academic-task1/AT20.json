@@ -38,7 +38,7 @@
       ],
       "unit": "bin kişi",
       "svg": null,
-      "alt": "Bölgeye gelen uluslararası ziyaretçi sayısını 2010-2022 arasındaki beş yıl için gösteren sütun grafik."
+      "alt": "A bar chart showing the number of international visitors to the region for five years between 2010 and 2022."
     },
     {
       "kind": "pie_chart",
@@ -66,24 +66,24 @@
       ],
       "unit": "%",
       "svg": null,
-      "alt": "2022'de bölgeyi ziyaret edenlerin belirttiği sebeplerin yüzde dağılımını gösteren pasta grafik."
+      "alt": "A pie chart showing the percentage breakdown of the reasons given by people who visited the region in 2022."
     }
   ],
   "key_points": [
-    "Ziyaretçi sayısı dönem boyunca iki katından fazla artıyor: 320 binden 690 bine çıkıyor",
-    "Artış düzgün değil: 2016'da 380 bine gerileyerek tek düşüşünü yaşıyor, ardından yeniden yükseliyor",
-    "En hızlı büyüme 2016-2019 arasında (180 bin kişilik artış); 2019-2022 arasındaki artış da yüksek (130 bin)",
-    "2022'de gelenlerin neredeyse yarısı tatil için geliyor (%46) — açık ara en yaygın sebep",
-    "Arkadaş ya da akraba ziyareti %24 ile ikinci, iş %18 ile üçüncü; öğrenim (%8) ve diğer sebepler (%4) birlikte ancak sekizde birlik pay tutuyor",
-    "İki görsel birlikte okununca 2022'deki 690 bin kişinin yaklaşık 317 bininin tatilci olduğu görülüyor"
+    "Visitor numbers more than double over the period, rising from 320,000 to 690,000",
+    "The rise is not steady: numbers dip to 380,000 in 2016, the only fall in the period, before climbing again",
+    "The fastest growth is between 2016 and 2019 (an increase of 180,000); the rise between 2019 and 2022 is also large (130,000)",
+    "In 2022, almost half of visitors come for a holiday (46%) — by far the most common reason",
+    "Visiting friends or relatives is second at 24%, business third at 18%; study (8%) and other reasons (4%) together make up only about an eighth of the total",
+    "Reading the two charts together shows that of the 690,000 people in 2022, roughly 317,000 were holidaymakers"
   ],
   "common_mistakes": [
-    "İki görselden yalnızca birini anlatmak — görev ikisini de kapsıyor",
-    "Bin kişi ile yüzdeyi karıştırmak ('46,000 visitors came on holiday')",
-    "Pasta grafiğin yalnızca 2022'yi kapsadığını unutup bütün yıllara yaymak ('most visitors always came on holiday')",
-    "2016'daki düşüşü atlayıp artışı kesintisiz göstermek",
-    "Sebep uydurmak ya da geleceğe dair tahmin yürütmek"
+    "Describing only one of the two visuals — the task covers both.",
+    "Confusing thousands of people with percentages ('46,000 visitors came on holiday')",
+    "Forgetting that the pie chart covers only 2022 and extending it to every year ('most visitors always came on holiday')",
+    "Skipping the 2016 dip and presenting the increase as unbroken",
+    "Inventing reasons or making predictions about the future"
   ],
-  "topic": "bölgeye gelen uluslararası ziyaretçiler",
+  "topic": "international visitors to a region",
   "difficulty": "hard"
 }

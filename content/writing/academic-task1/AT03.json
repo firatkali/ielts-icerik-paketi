@@ -46,22 +46,22 @@
     ],
     "unit": "%",
     "svg": null,
-    "alt": "Ortalama bir evde enerjinin hangi amaçla kullanıldığını 1990 ve 2020 için gösteren iki pasta grafik."
+    "alt": "Two pie charts showing what purpose energy was used for in an average home in 1990 and 2020."
   },
   "visuals": null,
   "key_points": [
-    "Mekân ısıtması iki yılda da açık ara en büyük kalem, ama payı %62'den %48'e iniyor",
-    "Ev aletleri ve elektronik cihazların payı %5'ten %21'e çıkarak dört katından fazla artıyor ve ikinci sıraya yükseliyor",
-    "Su ısıtması hemen hemen sabit (%18 → %20) ve 1990'da ikinci sıradayken 2020'de üçüncü sıraya düşüyor",
-    "Aydınlatma ve pişirme iki yılda da en küçük paylar; ikisi de biraz azalıyor",
-    "Genel örüntü: ısıtmanın ağırlığı azalıyor, elektrikli cihazlar payı büyüyor; toplam yine %100"
+    "Space heating is by far the largest category in both years, but its share falls from 62% to 48%",
+    "The share of appliances and electronics rises from 5% to 21%, more than a fourfold increase, moving it into second place",
+    "Water heating stays almost unchanged (18% → 20%) and falls from second place in 1990 to third place in 2020",
+    "Lighting and cooking are the smallest shares in both years; both fall slightly",
+    "The overall pattern: the weight of heating decreases while the share of electrical appliances grows; the total remains 100%"
   ],
   "common_mistakes": [
-    "Payların yüzde olduğunu unutup 'more energy was used' demek — grafik dağılımı gösteriyor, toplam tüketimi değil",
-    "Beş dilimi iki grafik için tek tek listeleyip en çarpıcı değişimi (cihazlar) öne çıkarmamak",
-    "Sıralama değişimini (ikinci sıranın el değiştirmesi) atlamak",
-    "Görüş ya da tavsiye eklemek ('homes should insulate better')"
+    "Forgetting that the shares are percentages and saying 'more energy was used' — the chart shows distribution, not total consumption",
+    "Listing all five slices for both charts one by one instead of highlighting the most striking change (appliances)",
+    "Skipping the change in ranking (second place changing hands)",
+    "Adding an opinion or recommendation ('homes should insulate better')"
   ],
-  "topic": "ev enerjisi kullanımı",
+  "topic": "household energy use",
   "difficulty": "medium"
 }

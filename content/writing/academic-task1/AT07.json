@@ -66,23 +66,23 @@
     ],
     "unit": "%",
     "svg": null,
-    "alt": "Dört bölgede evinde internet bağlantısı olan hane yüzdesinin 2000-2020 arasındaki artışını gösteren çizgi grafik."
+    "alt": "Line graph showing the rise in the percentage of households with a home internet connection in four regions between 2000 and 2020."
   },
   "visuals": null,
   "key_points": [
-    "Dört bölgede de oran boyunca yükseliyor; hiçbirinde düşüş yok",
-    "Eastport bütün dönem boyunca en yüksek, Southern Isles ise en düşük konumda kalıyor — sıralama hiç değişmiyor",
-    "Eastport ve Northvale neredeyse yan yana ilerliyor ve 2020'de %90'ı aşıyor",
-    "Central Plains en hızlı yakalayan bölge: 2000'de %6 ile Southern Isles'a yakınken 2020'de %79 ile ilk ikiye yaklaşıyor",
-    "En yüksek ile en düşük arasındaki fark 2000'de 22 puan, 2010'da 52 puanla zirve yapıyor, 2020'de 39 puana geriliyor",
-    "En hızlı artış bütün bölgelerde 2000-2010 arasında; 2015'ten sonra üstteki iki bölgede eğri yataylaşıyor"
+    "The percentage rises throughout the period in all four regions; none shows a fall",
+    "Eastport stays highest and Southern Isles stays lowest throughout the period — the ranking never changes",
+    "Eastport and Northvale move almost side by side and both pass 90% by 2020",
+    "Central Plains is the region that catches up fastest: close to Southern Isles at 6% in 2000, it approaches the top two at 79% by 2020",
+    "The gap between the highest and lowest is 22 points in 2000, peaks at 52 points in 2010, and narrows to 39 points by 2020",
+    "The fastest growth in all regions is between 2000 and 2010; after 2015 the curve flattens for the top two regions"
   ],
   "common_mistakes": [
-    "'Hepsi arttı' deyip bitirmek; hız farkını ve makasın önce açılıp sonra daralmasını atlamak",
-    "Yüzdeyi hane sayısıyla karıştırmak ('93 million households')",
-    "Her bölge için beş yılın tamamını okumak; benzer seyreden iki bölgeyi (Eastport ve Northvale) birlikte ele almamak",
-    "Sebep uydurmak ('the government invested in rural areas') — grafikte yok"
+    "Stopping at 'they all increased'; skipping the difference in speed and the gap first widening then narrowing",
+    "Confusing percentage with a number of households ('93 million households')",
+    "Reading out all five years for each region in turn instead of grouping the two regions that move similarly (Eastport and Northvale)",
+    "Inventing a reason ('the government invested in rural areas') — not shown in the graph"
   ],
-  "topic": "internet kullanımı",
+  "topic": "internet use",
   "difficulty": "medium"
 }

@@ -76,24 +76,24 @@
     ],
     "unit": "terawatt saat",
     "svg": null,
-    "alt": "Bir ülkede kömür, doğal gaz, hidroelektrik ile rüzgâr ve güneşten üretilen elektriğin 1995-2025 arasındaki değişimini gösteren çizgi grafik."
+    "alt": "A line chart showing the change between 1995 and 2025 in electricity generated from coal, natural gas, hydropower, and wind and solar in one country."
   },
   "visuals": null,
   "key_points": [
-    "Kömür baştan sona düşüyor (120 → 22 TWh) ve 1995'te açık ara birinciyken 2025'te sonuncu duruma iniyor — en büyük düşüş bu",
-    "Rüzgâr ve güneş 2 TWh'den 120 TWh'ye çıkıyor; başta en küçük kaynakken 2025'te en büyüğü oluyor — en hızlı artış bu",
-    "Doğal gaz önce hızla büyüyüp 2020'de 80 TWh ile zirve yapıyor, sonra hafifçe geriliyor (74 TWh)",
-    "Hidroelektrik neredeyse değişmiyor (45 → 51 TWh); 1995'te ikinci sıradayken 2025'te üçüncü sıraya geçiyor",
-    "Birkaç kesişme var: rüzgâr ve güneş 2010 civarında hidroelektriği, 2015-2020 arasında kömürü, 2020-2025 arasında da doğal gazı geçiyor",
-    "Toplam üretim artıyor (yaklaşık 197 TWh'den 267 TWh'ye) ve kaynak dağılımı çok daha dengesiz olmaktan çıkıyor"
+    "Coal falls throughout (120 → 22 TWh) and drops from a clear first place in 1995 to last place in 2025 — the largest decline of all",
+    "Wind and solar rise from 2 TWh to 120 TWh; the smallest source at the start becomes the largest by 2025 — the fastest growth of all",
+    "Natural gas grows rapidly at first, peaking at 80 TWh in 2020, then falls back slightly (74 TWh)",
+    "Hydropower barely changes (45 → 51 TWh); it falls from second place in 1995 to third place in 2025",
+    "There are several crossover points: wind and solar overtake hydropower around 2010, coal between 2015 and 2020, and natural gas between 2020 and 2025",
+    "Total output rises (from around 197 TWh to 267 TWh), and the mix of sources becomes far more balanced than it was"
   ],
   "common_mistakes": [
-    "Dört seriyi yıl yıl okuyup genel bakış (overview) paragrafı yazmamak",
-    "Sebep uydurmak ('coal plants were closed by the government') — grafikte sebep yok",
-    "Zirve ve sonrasındaki düşüşü (doğal gaz, 2020) tek yönlü bir artış gibi anlatmak",
-    "Neredeyse sabit kalan seriyi (hidroelektrik) hiç anmamak",
-    "Terawatt saat ile yüzde payı karıştırmak — grafik miktar veriyor, pay değil"
+    "Reading the four series year by year and not writing an overview paragraph",
+    "Inventing a reason ('coal plants were closed by the government') — the chart gives no reasons",
+    "Describing the peak and the fall that follows it (natural gas, 2020) as if it were a one-way rise",
+    "Not mentioning the series that stays almost flat (hydropower) at all",
+    "Confusing terawatt hours with a percentage share — the chart gives quantities, not shares"
   ],
-  "topic": "elektrik üretim kaynakları",
+  "topic": "sources of electricity generation",
   "difficulty": "medium"
 }

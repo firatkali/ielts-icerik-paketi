@@ -13,18 +13,18 @@
   "min_words": 150,
   "minutes": 20,
   "key_points": [
-    "Hesabı tanımlayan bilgiler verilmeli: hesap numarası, adres, faturanın tarihi ve dönemi",
-    "Yanlış olan kalem tam olarak gösterilmeli — tutar ve satır adı",
-    "Bu hizmetin hiç istenmediği açıkça söylenmeli; varsa sözleşmeye/önceki faturalara dayandırılmalı",
-    "Talep net olmalı: kalemin silinmesi, düzeltilmiş fatura ve fazla ödendiyse iade",
-    "Yazılı bir yanıt için makul bir süre istemek mektubu güçlendirir"
+    "Information identifying the account should be given: account number, address, and the bill's date and period",
+    "The incorrect item should be identified exactly — the amount and the line name",
+    "It should be clearly stated that this service was never requested, backed up by the contract or previous bills where possible",
+    "The request should be clear: removal of the item, a corrected bill, and a refund if overpaid",
+    "Asking for a reasonable timeframe for a written reply strengthens the letter"
   ],
   "common_mistakes": [
-    "Hesabı tanımlayacak hiçbir bilgi vermeden şikâyet etmek",
-    "Suçlayıcı ve öfkeli bir dil kullanmak ('you have cheated me')",
-    "Sadece 'bu fatura yanlış' deyip hangi kalemin yanlış olduğunu göstermemek",
-    "Mektubu resmi kapanış kalıbı ve imza satırı olmadan bitirmek"
+    "Complaining without giving any information to identify the account",
+    "Using accusatory, angry language ('you have cheated me')",
+    "Just saying 'this bill is wrong' without showing which item is wrong",
+    "Ending the letter without a formal closing phrase and signature line"
   ],
-  "topic": "hatalı fatura",
+  "topic": "an incorrect bill",
   "difficulty": "medium"
 }

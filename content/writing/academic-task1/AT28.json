@@ -52,24 +52,24 @@
     ],
     "unit": "bin ton",
     "svg": null,
-    "alt": "Dört tarım bölgesinde tahıl, meyve ve sebze üretimini bin ton olarak karşılaştıran gruplandırılmış sütun grafik."
+    "alt": "Grouped bar chart comparing the production of grain, fruit and vegetables in four farming areas, in thousands of tonnes."
   },
   "visuals": null,
   "key_points": [
-    "Tahıl üç ürün içinde açık ara en büyüğü: dört bölgede toplam 1.480 bin ton, yani toplam üretimin yarısından fazlası (2.810 bin ton içinde)",
-    "En yüksek tek değer South Plain'in tahıl üretimi (640 bin ton); bu bölge hem toplamda birinci (860 bin ton) hem de en tek yönlü bölge — üretiminin yaklaşık dörtte üçü tahıl",
-    "Rivermouth, meyvenin başı çektiği tek bölge (310 bin ton) ve dört bölgenin toplam meyve üretiminin tam yarısını tek başına karşılıyor",
-    "Highmoor üç üründe de en düşük ya da en düşüğe yakın; 450 bin tonluk toplamıyla en küçük bölge, ancak üç ürünü en dengeli dağılan bölge de o (180 / 150 / 120)",
-    "Eastvale tahıl ağırlıklı (420 bin ton) ama meyvede zayıf (90 bin ton); en az meyveyi ise South Plain üretiyor (70 bin ton)",
-    "Ürünler arası fark ölçeklerde de görülüyor: tahılda bölgeler arası aralık çok geniş (180-640), sebzede ise dar (120-280)"
+    "Grain is by far the largest of the three products: 1,480 thousand tonnes across the four regions, more than half of total production (out of 2,810 thousand tonnes)",
+    "The single highest value is South Plain's grain output (640 thousand tonnes); this region ranks first overall (860 thousand tonnes) and is also the most one-sided region — about three-quarters of its output is grain",
+    "Rivermouth is the only region where fruit leads (310 thousand tonnes) and on its own accounts for exactly half of the four regions' total fruit production",
+    "Highmoor is lowest or close to lowest in all three products; with a total of 450 thousand tonnes it is the smallest region, but it also has the most evenly balanced split across the three products (180 / 150 / 120)",
+    "Eastvale is grain-heavy (420 thousand tonnes) but weak in fruit (90 thousand tonnes); South Plain produces the least fruit of all (70 thousand tonnes)",
+    "The differences between products also show up in the scale of the range: grain has a very wide spread between regions (180-640), while vegetables have a narrow one (120-280)"
   ],
   "common_mistakes": [
-    "On iki sütunu tek tek okuyup iki ana örüntüyü (tahılın baskınlığı, Rivermouth'un meyvede ayrışması) vermemek",
-    "Bölgeleri ürünlere göre karşılaştırmayı unutup her bölgeyi ayrı bir paragrafta listelemek",
-    "Bin ton birimini düşürmek ('Eastvale produced 420 grain')",
-    "Görüş ya da öneri eklemek ('Highmoor needs to increase its output')",
-    "Toplamları hiç hesaplamayıp hangi bölgenin en çok ürettiğini söylememek"
+    "Reading through all twelve bars one by one instead of giving the two main patterns (grain's dominance, Rivermouth standing out in fruit)",
+    "Forgetting to compare regions by product and instead listing each region in a separate paragraph",
+    "Dropping the thousand-tonnes unit ('Eastvale produced 420 grain')",
+    "Adding opinion or recommendation ('Highmoor needs to increase its output')",
+    "Never calculating totals and so not stating which region produces the most"
   ],
-  "topic": "bölgelere göre tarım ürünü üretimi",
+  "topic": "agricultural production by region",
   "difficulty": "easy"
 }

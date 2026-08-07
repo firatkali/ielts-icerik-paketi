@@ -57,23 +57,23 @@
     },
     "unit": "% ve dakika",
     "svg": null,
-    "alt": "Bir şehirde işe gidiş yolculuklarının 2015 ve 2023'teki ulaşım türü paylarını ve 2023 ortalama yolculuk sürelerini gösteren tablo."
+    "alt": "A table showing the share of transport modes for journeys to work in one city in 2015 and 2023, and the average journey time for each mode in 2023."
   },
   "visuals": null,
   "key_points": [
-    "Otomobil iki yılda da en yaygın tür ama payı 46'dan 34'e düşerek en büyük kaybı yaşıyor",
-    "Bisikletin payı 9'dan 18'e çıkarak iki katına yükseliyor — oransal olarak en büyük artış",
-    "Otobüs/tramvay payı 22'den 27'ye çıkıyor ve 2023'te ikinci sıraya yerleşiyor",
-    "Yürüyüş hafifçe azalıyor (18 → 16), tren payı 5'te sabit kalıyor",
-    "Süre bakımından tren en uzun (41 dakika), yürüyüş en kısa (19 dakika); en çok büyüyen tür olan bisiklet otomobilden yalnızca 6 dakika daha uzun sürüyor",
-    "Her iki yılda da paylar toplamı 100"
+    "Car is the most common mode in both years, but its share falls from 46 to 34, the biggest drop",
+    "Bicycle's share rises from 9 to 18, doubling — the largest proportional increase",
+    "Bus or tram's share rises from 22 to 27 and takes second place in 2023",
+    "Walking falls slightly (18 → 16), while train's share stays fixed at 5",
+    "In terms of journey time, train is the longest (41 minutes) and walking the shortest (19 minutes); bicycle, the fastest-growing mode, takes only 6 minutes longer than car",
+    "The shares add up to 100 in both years"
   ],
   "common_mistakes": [
-    "Tablodaki her hücreyi tek tek okumak; en büyük artış ve en büyük düşüşü seçmemek",
-    "İki farklı birimi (yüzde payı ve dakika) karıştırmak",
-    "Yalnızca paylara bakıp süre sütununu hiç kullanmamak",
-    "Sebep açıklaması uydurmak ('new cycle lanes were built') — tabloda böyle bir bilgi yok"
+    "Reading every cell in the table one by one instead of picking out the biggest rise and the biggest fall",
+    "Confusing the two different units (percentage share and minutes)",
+    "Looking only at the shares and never using the time column",
+    "Inventing a reason ('new cycle lanes were built') — the table gives no such information"
   ],
-  "topic": "ulaşım tercihi",
+  "topic": "transport choice",
   "difficulty": "medium"
 }

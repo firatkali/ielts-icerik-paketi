@@ -46,23 +46,23 @@
     ],
     "unit": "konut sayısı",
     "svg": null,
-    "alt": "Bir şehrin beş ilçesinde 2015 ve 2022'de tamamlanan yeni konut sayısını karşılaştıran sütun grafik."
+    "alt": "A bar chart comparing the number of new homes completed in five districts of a city in 2015 and 2022."
   },
   "visuals": null,
   "key_points": [
-    "Birinci sıra el değiştiriyor: 2015'te Highbeck (640 konut) açık ara öndeyken 2022'de Millfield (720 konut) öne geçiyor",
-    "Millfield 260'tan 720'ye çıkarak yaklaşık üç katına ulaşıyor — en büyük artış bu",
-    "Highbeck 640'tan 380'e inerek en büyük düşüşü yaşıyor; Northgate de 420'den 310'a geriliyor",
-    "Sandcove (180 → 240) ve Lowmoor (95 → 150) ölçülü biçimde artıyor; Lowmoor iki yılda da en az konutun tamamlandığı ilçe",
-    "Beş ilçenin toplamı 1.595'ten 1.800'e çıkıyor, yani artış sınırlı; asıl değişiklik yapımın ilçeler arasında yer değiştirmesi",
-    "2022'de ilçeler arasındaki fark daha keskin: en yüksek ile en düşük arası 545'ten 570'e çıkıyor"
+    "First place changes hands: Highbeck (640 homes) was well ahead in 2015, but Millfield (720 homes) takes the lead in 2022",
+    "Millfield rises from 260 to 720, almost tripling — the largest increase",
+    "Highbeck falls from 640 to 380, the biggest decline; Northgate also drops, from 420 to 310",
+    "Sandcove (180 → 240) and Lowmoor (95 → 150) increase modestly; Lowmoor has the fewest homes completed in both years",
+    "The total across the five districts rises from 1,595 to 1,800, a modest increase; the real change is that construction shifts between districts",
+    "The gap between districts is sharper in 2022: the difference between the highest and lowest rises from 545 to 570"
   ],
   "common_mistakes": [
-    "Beş ilçeyi sırayla okuyup en büyük artış ile en büyük düşüşü öne çıkarmamak",
-    "Sıralamanın el değiştirdiğini atlamak",
-    "Konut sayısını yüzde gibi anlatmak ('40% of homes were in Millfield')",
-    "Sebep uydurmak ('land ran out in Highbeck') — grafikte böyle bir bilgi yok"
+    "Reading the five districts in order without highlighting the biggest increase and the biggest decrease",
+    "Missing that the ranking changes hands",
+    "Describing the number of homes as if it were a percentage ('40% of homes were in Millfield')",
+    "Inventing a reason ('land ran out in Highbeck') — no such information is in the chart"
   ],
-  "topic": "yeni konut yapımı",
+  "topic": "new housing construction",
   "difficulty": "easy"
 }

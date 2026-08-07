@@ -36,7 +36,7 @@
         "sentence": 1
       },
       "uniqueness_check": "Kabuk ve iskelet yapımının neden zorlaştığını kimyasal olarak açıklayan tek paragraf C. B paragrafı bacaların suya karbondioksit saldığını söylüyor ama bunun canlılar üzerindeki kimyasal sonucunu anlatmıyor; G paragrafı iskeletlerin içeriden delinerek zayıflamasını anlatıyor, yani yapımı değil yıkımı; E yalnızca ölçülen pH farkını veriyor.",
-      "explanation": "C paragrafı, okyanus daha çok karbondioksit emdikçe suyun kimyasının değiştiğini ve mercanlarla diğer canlıların iskelet ve kabuk yapmasının zorlaştığını açıklıyor.",
+      "explanation": "Paragraph C explains that as the ocean absorbs more carbon dioxide, the chemistry of the water changes, making it harder for corals and other organisms to build skeletons and shells.",
       "difficulty": "easy",
       "status": "verified",
       "blind_solvable": false
@@ -56,7 +56,7 @@
         "sentence": 1
       },
       "uniqueness_check": "Yalnız H paragrafı, adadaki canlılarda görülen değişimleri dünyadaki resiflerin bu yüzyıl sonunda yaşayacaklarıyla karşılaştırıyor. C paragrafı da geleceğe atıf yapıyor ama yalnız suyun koşullarından söz ediyor ve resiflerdeki biyolojik değişimleri anmıyor; E, pH değişiminin büyüklüğünü küresel öngörüyle eşleştiriyor ama hiçbir zaman ufku vermiyor.",
-      "explanation": "H paragrafı, bu uzak resifte şimdiden görülen değişimlerin dünya genelindeki resifleri yüzyıl sonunda bekleyenlerle büyük ölçüde benzeştiğini söylüyor.",
+      "explanation": "Paragraph H says the changes already visible on this remote reef are broadly comparable to what coral reefs worldwide are likely to experience by the end of the century.",
       "difficulty": "medium",
       "status": "verified",
       "blind_solvable": false
@@ -76,7 +76,7 @@
         "sentence": 3
       },
       "uniqueness_check": "Bütün bir ekosistemin tepkisi ile tek tek canlıların davranışı arasındaki ayrımı yapan tek paragraf A. C paragrafı da laboratuvarın sınırından söz ediyor ama orada mesele deneylerin yalnızca haftalar veya aylar sürmesi, yani süre; canlı düzeyi karşılaştırması yalnız A'da.",
-      "explanation": "A paragrafı, böyle bir yerde çalışmanın tek tek canlıların kısa süreli laboratuvar tepkisi yerine ekosistemin bütününün nasıl davranacağını gösterdiğini söylüyor.",
+      "explanation": "Paragraph A says that studying such a site shows how the whole ecosystem is likely to respond, rather than how individual organisms behave under short-term laboratory stress.",
       "difficulty": "hard",
       "status": "verified",
       "blind_solvable": false
@@ -96,7 +96,7 @@
         "sentence": 3
       },
       "uniqueness_check": "Resifin iskeletinin mercan dışındaki pek çok deniz canlısına barınak sağladığını söyleyen tek paragraf G. F paragrafı da yaşam alanının basitleşmesinden söz ediyor ama yosunun mercanla yer kapmasıyla ilgileniyor ve başka türlerin iskelete bağımlılığını anmıyor; H yalnızca genel sonuçları özetliyor.",
-      "explanation": "G paragrafı, resifin üç boyutlu iskeletinin yalnız mercanlara değil çok sayıda başka deniz türüne de barınak sağladığını, bu yüzden iskeletin zayıflamasının geniş bir etki doğuracağını söylüyor.",
+      "explanation": "Paragraph G says the reef's three-dimensional skeleton provides shelter not only for corals but for a wide range of other marine species, so a weakening skeleton would have a broad impact.",
       "difficulty": "medium",
       "status": "verified",
       "blind_solvable": false
@@ -116,7 +116,7 @@
         "sentence": 1
       },
       "uniqueness_check": "Bacaların yanı ile resifin geri kalanı arasındaki farkı sayıyla veren tek paragraf E. D paragrafı hangi büyüklüklerin kaydedildiğini sıralıyor ama hiçbir sonuç değeri vermiyor; F bacaların çevresindeki farkı anlatıyor, ancak bu fark kimyasal değil canlı topluluğuyla ilgili.",
-      "explanation": "E paragrafı, bacaların yakınında yüzey suyunun pH değerinin çevredeki resife göre 0,1–0,2 birim düştüğünü sayısal olarak veriyor.",
+      "explanation": "Paragraph E gives the numerical measurement that surface water pH near the vents was 0.1 to 0.2 units lower than in the surrounding reef.",
       "difficulty": "easy",
       "status": "verified",
       "blind_solvable": false

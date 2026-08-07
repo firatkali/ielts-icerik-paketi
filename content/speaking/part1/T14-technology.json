@@ -15,7 +15,7 @@
     {
       "number": 1,
       "prompt": "Which piece of technology do you use most during the day?",
-      "focus": "temel bilgi",
+      "focus": "basic information",
       "difficulty": "easy",
       "useful_language": [
         "it's never out of my hand",
@@ -27,7 +27,7 @@
     {
       "number": 2,
       "prompt": "What do you mainly use your phone for?",
-      "focus": "alışkanlık",
+      "focus": "habit",
       "difficulty": "easy",
       "useful_language": [
         "keeping in touch",
@@ -39,7 +39,7 @@
     {
       "number": 3,
       "prompt": "How did you learn to use the devices you own?",
-      "focus": "geçmiş",
+      "focus": "past",
       "difficulty": "easy",
       "useful_language": [
         "I picked it up as I went along",
@@ -51,7 +51,7 @@
     {
       "number": 4,
       "prompt": "Which application do you find most useful, and why?",
-      "focus": "tercih ve sebep",
+      "focus": "preference and reason",
       "difficulty": "medium",
       "useful_language": [
         "it saves me a great deal of time",
@@ -63,7 +63,7 @@
     {
       "number": 5,
       "prompt": "What kind of technology was in your home when you were a child?",
-      "focus": "geçmiş",
+      "focus": "past",
       "difficulty": "medium",
       "useful_language": [
         "we had one for the whole household",
@@ -75,7 +75,7 @@
     {
       "number": 6,
       "prompt": "How would your day change if your phone stopped working?",
-      "focus": "varsayım",
+      "focus": "hypothesis",
       "difficulty": "medium",
       "useful_language": [
         "I'd have to plan things in advance",
@@ -87,7 +87,7 @@
     {
       "number": 7,
       "prompt": "What do people gain from spending time away from screens?",
-      "focus": "başkaları açısı",
+      "focus": "other people's perspective",
       "difficulty": "medium",
       "useful_language": [
         "you notice what's around you",
@@ -99,7 +99,7 @@
     {
       "number": 8,
       "prompt": "What kind of technology would you like to understand better?",
-      "focus": "gelecek",
+      "focus": "future",
       "difficulty": "hard",
       "useful_language": [
         "I'd like to get to grips with",
@@ -111,7 +111,7 @@
     {
       "number": 9,
       "prompt": "How has technology changed the way people work in your area?",
-      "focus": "değişim",
+      "focus": "change",
       "difficulty": "hard",
       "useful_language": [
         "a great deal of it is done remotely now",
@@ -123,7 +123,7 @@
     {
       "number": 10,
       "prompt": "How is learning something from a screen different from learning it from a person?",
-      "focus": "karşılaştırma",
+      "focus": "comparison",
       "difficulty": "hard",
       "useful_language": [
         "you can ask questions straight away",
