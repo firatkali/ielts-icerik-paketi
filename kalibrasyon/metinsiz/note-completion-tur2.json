@@ -1,0 +1,40 @@
+{
+  "answers": [
+    { "id": "practice-note-completion-1",  "answer": ["47"], "basis": "general_knowledge" },
+    { "id": "practice-note-completion-2",  "answer": ["attendance records"], "basis": "guess" },
+    { "id": "practice-note-completion-3",  "answer": ["individual performance"], "basis": "logic" },
+    { "id": "practice-note-completion-4",  "answer": ["magpie"], "basis": "general_knowledge" },
+    { "id": "practice-note-completion-5",  "answer": ["belugas"], "basis": "logic" },
+    { "id": "practice-note-completion-6",  "answer": ["small group"], "basis": "guess" },
+    { "id": "practice-note-completion-7",  "answer": ["50 km"], "basis": "guess" },
+    { "id": "practice-note-completion-8",  "answer": ["5 October"], "basis": "guess" },
+    { "id": "practice-note-completion-9",  "answer": ["elevation"], "basis": "logic" },
+    { "id": "practice-note-completion-10", "answer": ["500"], "basis": "general_knowledge" },
+    { "id": "practice-note-completion-11", "answer": ["bed"], "basis": "general_knowledge" },
+    { "id": "practice-note-completion-12", "answer": ["bones"], "basis": "logic" },
+    { "id": "practice-note-completion-13", "answer": ["EEG"], "basis": "general_knowledge" },
+    { "id": "practice-note-completion-14", "answer": ["new information"], "basis": "guess" },
+    { "id": "practice-note-completion-15", "answer": ["address"], "basis": "guess" },
+
+    { "id": "AC1-note-completion-1", "answer": ["branch"], "basis": "guess" },
+    { "id": "AC1-note-completion-2", "answer": ["wood"], "basis": "guess" },
+    { "id": "AC1-note-completion-3", "answer": ["4"], "basis": "guess" },
+    { "id": "AC1-note-completion-4", "answer": ["tyre"], "basis": "general_knowledge" },
+    { "id": "AC1-note-completion-5", "answer": ["corner"], "basis": "logic" },
+    { "id": "AC1-note-completion-6", "answer": ["hand"], "basis": "logic" },
+
+    { "id": "AC4-note-completion-1", "answer": ["reconfigure"], "basis": "logic" },
+    { "id": "AC4-note-completion-2", "answer": ["sliding"], "basis": "guess" },
+    { "id": "AC4-note-completion-3", "answer": ["low"], "basis": "guess" },
+    { "id": "AC4-note-completion-4", "answer": ["headphones"], "basis": "logic" },
+    { "id": "AC4-note-completion-5", "answer": ["novelty"], "basis": "guess" },
+    { "id": "AC4-note-completion-6", "answer": ["history"], "basis": "guess" },
+
+    { "id": "GT1-note-completion-15", "answer": ["noticeboard"], "basis": "logic" },
+    { "id": "GT1-note-completion-16", "answer": ["staggered"], "basis": "logic" },
+    { "id": "GT1-note-completion-17", "answer": ["card reader"], "basis": "guess" },
+    { "id": "GT1-note-completion-18", "answer": ["shift change form"], "basis": "guess" },
+    { "id": "GT1-note-completion-19", "answer": ["28 days"], "basis": "general_knowledge" },
+    { "id": "GT1-note-completion-20", "answer": ["staff portal"], "basis": "guess" }
+  ]
+}

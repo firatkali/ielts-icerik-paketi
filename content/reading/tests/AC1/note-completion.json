@@ -31,7 +31,8 @@
       },
       "explanation": "Paragraf B, meyvenin hortumun uzanamayacağı kadar yüksekte, tepedeki bir kablodan sarkıtıldığını söylüyor; boşluk yiyeceğin asıldığı şeyi istediği için cevap 'cable'.",
       "difficulty": "easy",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 2,
@@ -49,7 +50,8 @@
       },
       "explanation": "Paragraf B'de araştırmacıların verdiği çubuğun bambudan olduğu belirtiliyor; boşluk çubuğun malzemesini sorduğu için cevap 'bamboo'.",
       "difficulty": "easy",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 3,
@@ -67,7 +69,8 @@
       },
       "explanation": "Paragraf C, dönüm noktasının yedinci oturumda yaşandığını söylüyor; ilk başarının hangi oturumda geldiği sorulduğu için cevap 'seventh'.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 4,
@@ -86,7 +89,10 @@
       },
       "explanation": "Paragraf D, küp ortadan kaldırıldığında Kandula'nın yerine büyük bir traktör lastiğini basamak olarak kullandığını anlatıyor; bu yüzden cevap 'tyre'.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "general_knowledge",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     },
     {
       "number": 5,
@@ -104,7 +110,10 @@
       },
       "explanation": "Paragraf E'de küpün bir köşenin arkasına, girişten görünmeyen duvarlı bir geçide saklandığı yazıyor; saklandığı yer sorulduğu için cevap 'corner'.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "logic",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     },
     {
       "number": 6,
@@ -122,7 +131,8 @@
       },
       "explanation": "Paragraf F, hortumun duyarlılığını insan parmak ucununkiyle kıyaslıyor; karşılaştırmanın neyle yapıldığı sorulduğu için cevap 'fingertip'.",
       "difficulty": "hard",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     }
   ]
 }

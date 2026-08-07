@@ -33,7 +33,10 @@
       },
       "explanation": "Paragraf A, şirketin yaklaşık 900 çalışanının Japonya'nın 47 ilinin tamamına ve 23 başka ülkeye yayıldığını söylüyor; bu yüzden cevap '47'.",
       "difficulty": "easy",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "general_knowledge",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     },
     {
       "number": 2,
@@ -52,7 +55,8 @@
       },
       "explanation": "Paragraf B, veri setinin insan kaynakları kayıtları, hangi müşteriye kaç saat hizmet verildiğini izleyen operasyonel kayıtlar ve iç mesajlaşma kayıtları olmak üzere üç iç kaynağı birleştirdiğini söylüyor; bu yüzden cevap 'operational logs'.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 3,
@@ -71,7 +75,8 @@
       },
       "explanation": "Paragraf H, şirketin çalışanlara yalnızca bireysel çıktılarına göre ödeme yaptığını ve bunun takımın genel performansına yetişme güdüsünü büyük ölçüde ortadan kaldırdığını söylüyor; bu yüzden cevap 'individual output'.",
       "difficulty": "hard",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 4,
@@ -90,7 +95,8 @@
       },
       "explanation": "Paragraf A, testi geçtiği bildirilen kısa tür listesinin sonunda şaşırtıcı biçimde Avrasya saksağanının yer aldığını söylüyor; bu yüzden cevap 'Eurasian magpie'.",
       "difficulty": "easy",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 5,
@@ -109,7 +115,8 @@
       },
       "explanation": "Paragraf G, bulgunun uzun süredir yunus ailesiyle ilişkilendirilen bu yeteneği, belugalar ve narvalleri içeren Monodontidae adlı farklı bir dişli balina soyuna genişlettiğini söylüyor; bu yüzden cevap 'Monodontidae'.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 6,
@@ -128,7 +135,8 @@
       },
       "explanation": "Paragraf H, yalnızca tek bir birey ya da küçük bir örneklem incelendiğinde bu tür yeteneklerin ne kadar kolay gözden kaçabileceğini söylüyor; bu yüzden cevap 'small sample'.",
       "difficulty": "hard",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 7,
@@ -149,7 +157,8 @@
       },
       "explanation": "Paragraf A, deprem merkezinin kıyı kasabası Yakutat'ın yaklaşık 90 kilometre kuzeyindeki ıssız arazide bulunduğunu söylüyor; bu yüzden cevap '90 kilometres'.",
       "difficulty": "easy",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 8,
@@ -169,7 +178,8 @@
       },
       "explanation": "Paragraf D, 12 Aralık'ta yapılan yer araştırmasının uydu görüntülerinin yörüngeden gösterdiklerini doğruladığını söylüyor; bu yüzden cevap '12 December'.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 9,
@@ -188,7 +198,8 @@
       },
       "explanation": "Paragraf H, uzaydan yüzey pürüzlülüğündeki küçük değişimleri algılayabilen bir aygıt olmasaydı bu ölçekteki bir dönüşümün kayda geçmeden kalabileceğini söylüyor; bu yüzden cevap 'surface roughness'.",
       "difficulty": "hard",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 10,
@@ -208,7 +219,10 @@
       },
       "explanation": "Paragraf A, piroklastik akıntıların yaklaşık 500 santigrat derece sıcaklığa ulaşabildiğini söylüyor; bu yüzden cevap '500'.",
       "difficulty": "easy",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "general_knowledge",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     },
     {
       "number": 11,
@@ -227,7 +241,8 @@
       },
       "explanation": "Paragraf B, yaklaşık 20 yaşındaki kurbanın yüzüstü şekilde ahşap bir yatakta bulunduğunu ve akıntılar geldiğinde uyuyor göründüğünü söylüyor; bu yüzden cevap 'wooden bed'.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 12,
@@ -246,7 +261,8 @@
       },
       "explanation": "Paragraf H, bulgunun tek başına iskelet kalıntılarından neredeyse hiç elde edilemeyecek hücre düzeyinde ayrıntı sunduğunu söylüyor; bu yüzden cevap 'skeletal remains'.",
       "difficulty": "hard",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 13,
@@ -265,7 +281,8 @@
       },
       "explanation": "Paragraf D, 90 dakikalık şekerleme boyunca beyin etkinliğinin polisomnografi ile kaydedildiğini söylüyor; bu yüzden cevap 'polysomnography'.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 14,
@@ -285,7 +302,8 @@
       },
       "explanation": "Paragraf G, uykunun en çok unutulmaya açık bellek işlemine, yani önceki bilgiyle hiçbir bağı olmayan yepyeni çağrışımlara yaradığını söylüyor; bu yüzden cevap 'brand-new associations'.",
       "difficulty": "hard",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 15,
@@ -304,7 +322,8 @@
       },
       "explanation": "Paragraf H, şekerlemenin tek başına öğrenilen yabancı bir isim ya da yeni bir sözcük gibi bağlantısız bilgileri tutmada tam bir gece uykusu kadar işe yaradığını söylüyor; bu yüzden cevap 'unfamiliar name'.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     }
   ]
 }

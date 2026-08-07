@@ -1,0 +1,17 @@
+{
+  "answers": [
+    { "id": "AC3-table-completion-1", "answer": ["acrylic"], "basis": "guess" },
+    { "id": "AC3-table-completion-2", "answer": ["head movements"], "basis": "guess" },
+    { "id": "AC3-table-completion-3", "answer": ["dye"], "basis": "general_knowledge" },
+    { "id": "AC3-table-completion-4", "answer": ["eight"], "basis": "guess" },
+    { "id": "AC3-table-completion-5", "answer": ["20 seconds"], "basis": "guess" },
+    { "id": "AC3-table-completion-6", "answer": ["right eye"], "basis": "general_knowledge" },
+
+    { "id": "GT2-table-completion-15", "answer": ["sponsorship"], "basis": "logic" },
+    { "id": "GT2-table-completion-16", "answer": ["CV"], "basis": "logic" },
+    { "id": "GT2-table-completion-17", "answer": ["video interview"], "basis": "guess" },
+    { "id": "GT2-table-completion-18", "answer": ["two weeks"], "basis": "guess" },
+    { "id": "GT2-table-completion-19", "answer": ["relocation allowance"], "basis": "logic" },
+    { "id": "GT2-table-completion-20", "answer": ["mentor"], "basis": "logic" }
+  ]
+}

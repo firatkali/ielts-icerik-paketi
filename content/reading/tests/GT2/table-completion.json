@@ -76,7 +76,8 @@
       },
       "explanation": "A metninin A paragrafı, adayların on haftanın tamamı boyunca sponsorluk gerektirmeden çalışma hakkına sahip olması gerektiğini söylüyor; bu yüzden cevap 'sponsorship'.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 16,
@@ -96,7 +97,10 @@
       },
       "explanation": "A metninin B paragrafı, çevrimiçi başvuru formunun yanı sıra güncel bir özgeçmişin yüklenmesi gerektiğini söylüyor; bu yüzden cevap 'CV'.",
       "difficulty": "easy",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "logic",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     },
     {
       "number": 17,
@@ -115,7 +119,8 @@
       },
       "explanation": "A metninin B paragrafı, yazılı aşamadan sonra kısa listeye kalanların mart ayında görüntülü görüşmeye çağrıldığını söylüyor; bu yüzden cevap 'video interview'.",
       "difficulty": "easy",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 18,
@@ -135,7 +140,8 @@
       },
       "explanation": "A metninin C paragrafı, kabul edilenlerin yerlerini on iş günü içinde onaylaması gerektiğini söylüyor; bu yüzden cevap 'ten working days'.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 19,
@@ -154,7 +160,8 @@
       },
       "explanation": "A metninin C paragrafı, maaşa ek olarak geçici şekilde taşınanlara yol ödeneği verildiğini söylüyor; bu yüzden cevap 'travel allowance'.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 20,
@@ -173,7 +180,10 @@
       },
       "explanation": "A metninin D paragrafı, her stajyerin kendi bölümünden bir danışmanla eşleştirildiğini ve haftada bir görüştüklerini söylüyor; bu yüzden cevap 'mentor'.",
       "difficulty": "hard",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "logic",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     }
   ]
 }

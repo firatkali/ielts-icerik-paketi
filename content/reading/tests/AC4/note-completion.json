@@ -31,7 +31,8 @@
       },
       "explanation": "Paragraf A, açık ofislerin yaygınlaşmasını hem ucuz olmalarına hem de kalıcı duvarlarla bölünmüş ofislere göre daha kolay yeniden düzenlenebilmelerine bağlıyor; bu yüzden cevap 'reconfigure'.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 2,
@@ -49,7 +50,8 @@
       },
       "explanation": "Paragraf B, bölgelendirilmiş açık ofisin ses geçirmez kapılarla en fazla 40 kişilik odalara ayrıldığını söylüyor; kapının niteliği sorulduğu için cevap 'soundproof'.",
       "difficulty": "easy",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 3,
@@ -68,7 +70,8 @@
       },
       "explanation": "Paragraf B, takım ofisinde dört ile altı kişilik yarı kapalı bölmelerin ses emici panellerle çevrildiğini söylüyor; 2. sorudaki 'soundproof' kapılardan farklı olarak burada istenen panel niteliği 'sound-absorbing'.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 4,
@@ -86,7 +89,10 @@
       },
       "explanation": "Paragraf C, gözlemcilerin çalışanların ne sıklıkla kulaklık taktığını not ettiğini söylüyor; bu yüzden cevap 'headphones'.",
       "difficulty": "easy",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "logic",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     },
     {
       "number": 5,
@@ -104,7 +110,10 @@
       },
       "explanation": "Paragraf F, açık ofisten çıkıldıktan sonra masa doluluğundaki yaklaşık yüzde 4'lük artışın sırf 'yenilik etkisi' değil gerçek bir tercih olarak yorumlandığını söylüyor; bu yüzden cevap 'novelty'.",
       "difficulty": "hard",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "guess",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     },
     {
       "number": 6,
@@ -123,7 +132,8 @@
       },
       "explanation": "Paragraf H, bulguların kendine özgü bir kültürü ve iş akışları olan tek bir teknoloji şirketinden geldiği uyarısını yapıyor; 'culture' zaten verildiği için boşluğa gelen 'workflows'.",
       "difficulty": "hard",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     }
   ]
 }

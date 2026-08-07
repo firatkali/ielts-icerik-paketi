@@ -33,7 +33,10 @@
       },
       "explanation": "A metninin A paragrafı, dört haftada bir değişen vardiya düzeninin en geç bir önceki cuma personel ilan panosunda yayımlandığını söylüyor; bu yüzden cevap 'noticeboard'.",
       "difficulty": "easy",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "logic",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     },
     {
       "number": 16,
@@ -52,7 +55,10 @@
       },
       "explanation": "A metninin B paragrafı, üretim hatları boş kalmasın diye takım içindeki molaların kaydırmalı düzenlenmesi gerektiğini söylüyor; bu yüzden cevap 'staggered'.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "logic",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     },
     {
       "number": 17,
@@ -72,7 +78,8 @@
       },
       "explanation": "A metninin C paragrafı, öğle molaları dâhil giriş çıkışların personel girişindeki kart okuyucuyla kaydedildiğini söylüyor; bu yüzden cevap 'card reader'.",
       "difficulty": "easy",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 18,
@@ -92,7 +99,8 @@
       },
       "explanation": "A metninin D paragrafı, vardiya değişimi isteğinin 48 saat önceden, personel ofisinden alınan vardiya değişim formuyla yapıldığını söylüyor; 'shift-swap' tireli olduğu için cevap iki kelime sayılıyor.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 19,
@@ -112,7 +120,10 @@
       },
       "explanation": "B metninin A paragrafı, tam zamanlı çalışanların resmî tatiller dâhil yılda 28 gün ücretli izin hakkı olduğunu söylüyor; bu yüzden cevap '28 days'.",
       "difficulty": "easy",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "general_knowledge",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     },
     {
       "number": 20,
@@ -131,7 +142,8 @@
       },
       "explanation": "B metninin B paragrafı, izin taleplerinin en az iki hafta önceden çevrimiçi personel portalından iletildiğini söylüyor; soru kökünde 'online' verildiği için boşluğa gelen 'staff portal'.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     }
   ]
 }

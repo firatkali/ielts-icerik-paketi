@@ -55,7 +55,10 @@
       },
       "explanation": "Paragraf B, aynanın olmadığı günlerde kontrol amacıyla aynı boyutta saydam bir akrilik levha kullanıldığını söylüyor; boşluk levhanın malzemesini istediği için cevap 'acrylic'.",
       "difficulty": "easy",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "guess",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     },
     {
       "number": 2,
@@ -74,7 +77,8 @@
       },
       "explanation": "Paragraf C, aynanın önünde görülen olağandışı davranışları sıralarken 'performing slow barrel rolls' diyor; listedeki kabarcık, boyun uzatma ve yüzgeç çevirme zaten verildiği için boşluğa gelen 'barrel rolls'.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 3,
@@ -92,7 +96,8 @@
       },
       "explanation": "Paragraf D, işaretin zararsız bir kozmetik boya olduğunu ve beş ile sekiz santimetre büyüklüğünde olduğunu söylüyor; bu yüzden cevap 'cosmetic'.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 4,
@@ -111,7 +116,8 @@
       },
       "explanation": "Paragraf E, gerçek işaret varken Natasha'nın toplam üç dakika kırk saniyeyi on dört ayrı yaklaşmaya yaydığını söylüyor; süre soruda verildiği için cevap 'fourteen'.",
       "difficulty": "easy",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 5,
@@ -130,7 +136,8 @@
       },
       "explanation": "Paragraf E, görünmeyen sahte işaret uygulandığında aynı davranışın dört yaklaşmada yalnızca yirmi üç saniye sürdüğünü söylüyor; bu yüzden cevap 'twenty-three seconds'.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 6,
@@ -148,7 +155,10 @@
       },
       "explanation": "Paragraf F, her iki balinanın da aynaya sağ gözüyle bakmayı tercih ettiğini ve bunun beyinde yanallaşmış bir işleyişe işaret ettiğini söylüyor; bu yüzden cevap 'right eye'.",
       "difficulty": "hard",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "general_knowledge",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     }
   ]
 }

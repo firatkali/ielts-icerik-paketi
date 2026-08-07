@@ -1,0 +1,22 @@
+{
+  "tarih": "2026-08-07",
+  "paket": "table-completion",
+  "toplam": 12,
+  "uc_turda_bilinen": [
+    "AC3-table-completion-1",
+    "AC3-table-completion-6",
+    "GT2-table-completion-16",
+    "GT2-table-completion-20"
+  ],
+  "tip_bazinda": {
+    "table_completion": {
+      "toplam": 12,
+      "uc_turda": 4
+    }
+  },
+  "dayanak_dagilimi": {
+    "guess": 18,
+    "general_knowledge": 6,
+    "logic": 12
+  }
+}

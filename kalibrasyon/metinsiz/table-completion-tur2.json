@@ -1,0 +1,17 @@
+{
+  "answers": [
+    { "id": "AC3-table-completion-1", "answer": ["acrylic"], "basis": "guess" },
+    { "id": "AC3-table-completion-2", "answer": ["head bobs"], "basis": "guess" },
+    { "id": "AC3-table-completion-3", "answer": ["dye"], "basis": "general_knowledge" },
+    { "id": "AC3-table-completion-4", "answer": ["seven"], "basis": "guess" },
+    { "id": "AC3-table-completion-5", "answer": ["30 seconds"], "basis": "guess" },
+    { "id": "AC3-table-completion-6", "answer": ["right eye"], "basis": "general_knowledge" },
+
+    { "id": "GT2-table-completion-15", "answer": ["a visa"], "basis": "logic" },
+    { "id": "GT2-table-completion-16", "answer": ["CV"], "basis": "logic" },
+    { "id": "GT2-table-completion-17", "answer": ["telephone interview"], "basis": "guess" },
+    { "id": "GT2-table-completion-18", "answer": ["seven days"], "basis": "guess" },
+    { "id": "GT2-table-completion-19", "answer": ["relocation allowance"], "basis": "logic" },
+    { "id": "GT2-table-completion-20", "answer": ["mentor"], "basis": "logic" }
+  ]
+}

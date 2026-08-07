@@ -1,0 +1,27 @@
+{
+  "tarih": "2026-08-07",
+  "paket": "note-completion",
+  "toplam": 33,
+  "uc_turda_bilinen": [
+    "practice-note-completion-1",
+    "practice-note-completion-10",
+    "AC1-note-completion-4",
+    "AC1-note-completion-5",
+    "AC4-note-completion-4",
+    "AC4-note-completion-5",
+    "GT1-note-completion-15",
+    "GT1-note-completion-16",
+    "GT1-note-completion-19"
+  ],
+  "tip_bazinda": {
+    "note_completion": {
+      "toplam": 33,
+      "uc_turda": 9
+    }
+  },
+  "dayanak_dagilimi": {
+    "general_knowledge": 21,
+    "guess": 46,
+    "logic": 32
+  }
+}
