@@ -7094,3 +7094,27 @@ hiç kullanılmadı, kalan on soruda birer kez. Çeldirici türü çeşitliliği
   band 7 uretiyor. 6,5 metnini yazdiktan sonra hatali cumle oranini saymak gerekiyor -
   talimatin 7 satiri %20-40, 6 satiri %40-60.
 - Atlanan/sorun: yok. Konusma ornekleri (7-10. calistirmalar) bu isin disinda.
+
+## OPUS5-C1 (konusma 1/4 istendi, ama uretim yapilmadi - cakisan talimat)
+- Tarih: 2026-08-07
+- Bagimlilik kontrolu gecti: `degerlendirme/DEGISIKLIK-KAYDI.md` ve
+  `kalibrasyon/olcum/SONUC.md` ikisi de yerinde.
+- **Istenen:** "bu dosyanin 1. calistirmasi (toplam 4)", "konusma kartlari icin
+  CALISTIRMA", "calistirma listesinden henuz uretilmemis ilk grubu yap".
+- **Oturum basi durumu:** yazma tarafi bitmis. `content/ornek-cevaplar/writing/`
+  icinde 30 dosya var (AT01-AT08, GT01-GT08, 14 adet T2), yani 30 gorev x 3 seviye
+  = 90 cevap; prompt'un yazma kapsaminin tamami. `DURUM.txt` de "Ornek cevaplar -
+  yazma" satirini [BITTI] ve alti calistirmayi da [x] gosteriyor.
+- **Neden uretim yok:** calistirma listesinde uretilmemis tek grup kalmis, o da
+  konusma (7-10. calistirmalar). Kullanici bu oturumda konusma icin calistirmamayi
+  soyledi. Iki talimat ayni grubu isaret ettigi icin uretilecek grup kalmadi;
+  bitmis yazma gruplarini tekrar uretmek de acikca yasaklanmisti. Hicbir dosya
+  uydurulmadi.
+- **Bunun yerine yapilan - 30 yazma dosyasinin dogrulanmasi:** hepsi gecerli JSON;
+  her dosyada tam olarak band 5,0 / 6,5 / 8,0 uclusu var; `task_ref` dosya adiyla
+  uyusuyor; zorunlu alanlar (`exam`, `schema_version`, `kind`, `skill`) ve dort
+  olcutun `why_this_band` metni ile `what_would_lift_it` her cevapta dolu; kelime
+  sayilari alt sinirin uzerinde (T2 >=250, digerleri >=150) ve JSON'daki
+  `word_count` degerleri gercek sayimla birebir tutuyor. Sorun bulunmadi.
+- Atlanan: konusma ornekleri (20 kart x 3 seviye) - kullanici istegiyle.
+  `DURUM.txt` konusma satiri elle degistirilmedi.
