@@ -38,7 +38,10 @@ oradan gör. Ama **hiçbir görev metnini, hiçbir örnek cevabı kopyalama.**
 
 ## Ortak kurallar
 
-- Görev metinleri **İngilizce**, açıklama alanları **Türkçe**
+- Görev metinleri **İngilizce**, kullanıcıya gösterilen açıklama alanları da **İngilizce**
+  (`explanation`, `key_points`, `common_mistakes`, `topic`, `focus`, görsel `alt`).
+  Yalnız iç denetim notları Türkçe kalır: `flag_reason`, `scan_note`, `uniqueness_check`,
+  `contradiction_point`, `heading_check`, `distractor_analysis`.
 - İngiliz İngilizcesi yazımı
 - Kültürel olarak nötr: aday Kazakistan'da, Malezya'da, BAE'de, Avustralya'da olabilir.
   Belli bir ülkeye özgü kurum/gelenek varsayma. Alkol, din, siyaset, savaş, cinsellik yok

@@ -118,7 +118,7 @@ Ek alanlar:
 | `options` | Paragraf/metin harfleri |
 | `uniqueness_check` | **Zorunlu.** Bu bilginin neden sadece o paragrafta olduğunu, karışabilecek diğer paragrafları isim vererek açıkla. Bu alanı dolduramıyorsan soru geçersizdir |
 | `evidence` | Doğru paragraftan birebir cümle |
-| `explanation` | Türkçe, 1–2 cümle |
+| `explanation` | **İngilizce**, 1–2 cümle |
 
 ---
 

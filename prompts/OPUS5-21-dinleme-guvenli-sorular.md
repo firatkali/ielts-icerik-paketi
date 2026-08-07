@@ -186,7 +186,7 @@ SVG kuralları:
 | `answer_point_id` | Senaryodaki `answer_points` kimliği. Yeni bilgi noktası kullandıysan `null` yazma — senaryo dosyasını güncelleyip yeni id ekle |
 | `turn_index` | Sıra kuralı doğrulaması için zorunlu |
 | `distractor_used` | Çeldirici varsa yanlış değer, yoksa `null` |
-| `explanation` | **Türkçe**, 1–2 cümle |
+| `explanation` | **İngilizce**, 1–2 cümle |
 
 ---
 
@@ -236,7 +236,7 @@ Alıştırma dosyasında birden çok küme olduğu için şema şöyle sarmalan�
 - [ ] Harf harf söylenmeyen zor yazımlı isim sorulmamış
 - [ ] Etiketleme sorusunda SVG geçerli (tek satır string, kaçış karakterleri doğru) ve
       en az bir sabit referans noktası etiketli
-- [ ] `explanation` alanları Türkçe ve dolu
+- [ ] `explanation` alanları İngilizce ve dolu
 - [ ] JSON geçerli: `python3 -c "import json;json.load(open('DOSYA'))"`
 - [ ] "IELTS" kelimesi geçmiyor
 

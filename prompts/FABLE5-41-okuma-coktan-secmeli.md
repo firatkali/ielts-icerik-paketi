@@ -181,7 +181,7 @@ Her soruda **en az üç farklı** çeldirici türü kullan.
 | `select_count` | 1 veya 2 |
 | `answer` | Harf dizisi; çift cevaplıda **alfabetik sırada** iki harf |
 | `distractor_analysis` | Doğru şık **hariç** her harf için gerekçe. Eksik bırakılamaz |
-| `explanation` | Türkçe, 1–2 cümle |
+| `explanation` | **İngilizce**, 1–2 cümle |
 
 ---
 

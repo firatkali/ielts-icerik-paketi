@@ -193,7 +193,7 @@ Kural: **Aritmetik ve doğrudan karşılaştırma çıkarım sayılmaz** (TRUE/F
 | `contradiction_point` | Sadece FALSE/NO'da dolu, çelişkinin tam noktasını Türkçe yaz |
 | `not_given_justification` | Sadece NOT GIVEN'da dolu; üç şartı da açıklamalı. **Boş bırakılamaz** |
 | `scan_note` | **Her soruda zorunlu.** Konunun pasajda geçtiği bütün paragrafları listele — Adım 1 taramasının kanıtı |
-| `explanation` | Türkçe, 1–2 cümle, uygulamada gösterilecek |
+| `explanation` | **İngilizce**, 1–2 cümle, uygulamada gösterilecek |
 
 `yes_no_not_given` için aynı şema; `options` `["YES","NO","NOT GIVEN"]`, `question_type`
 `yes_no_not_given`, ve `evidence` **yazarın görüş cümlesi** olmalı.

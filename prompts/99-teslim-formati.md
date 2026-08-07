@@ -47,9 +47,23 @@ Bütün soru dosyaları aşağıdaki zarfı paylaşır. Alan eksikse rapora yaz.
 | `answer` | dizi | ✅ | Cevap(lar) |
 | `accepted_variants` | dizi | tamamlama/kısa cevapta ✅ | Kabul edilecek yazımlar |
 | `evidence` | metin/null | ✅ (NOT GIVEN hariç) | Kaynaktan **birebir** alıntı |
-| `explanation` | metin | ✅ | **Türkçe**, 1–2 cümle |
+| `explanation` | metin | ✅ | **İngilizce**, 1–2 cümle — uygulamada kullanıcıya gösteriliyor |
 | `difficulty` | metin | ✅ | `easy` · `medium` · `hard` |
 | `status` | metin | doğrulama sonrası ✅ | `verified` · `flagged` |
+
+## 🔴 Alan dili — hangisi İngilizce, hangisi Türkçe
+
+Uygulamanın kendi dili **İngilizce** ve hedef pazarların hiçbiri Türkiye değil. Kullanıcının
+gözüyle gördüğü hiçbir alan Türkçe olamaz. İç denetim notları ise proje sahibi için yazılıyor,
+onlar Türkçe kalır — çevrilmeleri bilgi kaybı olur.
+
+| Nerede görünür | Alanlar | Dil |
+|---|---|---|
+| Kullanıcıya gösteriliyor | `prompt` · `answer` · `evidence` · `explanation` · `key_points` · `common_mistakes` · `topic` · `focus` · `visual.alt` · `why_this_band` · `what_would_lift_it` | **İngilizce** |
+| Yalnız denetimde okunuyor | `flag_reason` · `scan_note` · `uniqueness_check` · `contradiction_point` · `not_given_justification` · `heading_check` · `feature_check` · `grammar_check` · `distractor_analysis` · `topic_tr` | Türkçe |
+
+⚠️ 2026-08-08'e kadar `explanation` **Türkçe** isteniyordu ve o güne kadar üretilmiş 743 açıklama
+Türkçe yazıldı; toplu olarak İngilizceye çevrildi. Bu tarihten sonraki üretim doğrudan İngilizce.
 
 Tipe özel zorunlu alanlar:
 
@@ -86,7 +100,7 @@ python tools/dogrula.py
 Bu tek komut dört şeyi birden kontrol eder ve rapor basar:
 
 1. **Şema** — eksik zorunlu alan, bozuk JSON, bilinmeyen soru tipi, boş cevap, boş kanıt,
-   Türkçe olmayan açıklama, tekrar eden soru numarası
+   **Türkçe yazılmış açıklama**, tekrar eden soru numarası
 2. **Tam test bütünlüğü** — her testin 1–40 arası kesintisiz olup olmadığı
 3. **Pasaj lisansları** — `source.license` boş olan pasajlar
 4. **Telif taraması** — kullanıcıya görünen metinde "IELTS" geçmesi, yasak kaynak adları

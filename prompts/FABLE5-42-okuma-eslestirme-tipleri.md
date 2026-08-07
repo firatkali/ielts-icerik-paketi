@@ -189,7 +189,7 @@ olarak uyduğunu doğruladığını yaz.
 | `allow_repeat` | Bir harfin birden çok kez cevap olabildiği durumda `true`; yönergedeki `NB` satırıyla tutarlı olmalı |
 | `heading_check` / `feature_check` / `grammar_check` | Kendi tipinde **zorunlu**, diğerlerinde `null` |
 | `evidence` | Pasajdan birebir cümle, her soruda zorunlu |
-| `explanation` | Türkçe, 1–2 cümle |
+| `explanation` | **İngilizce**, 1–2 cümle |
 
 Cümle sonu eşleştirmede `prompt` cümlenin **başlangıcı** olur:
 `"prompt": "The second survey was delayed because"` · `"answer": ["D"]`

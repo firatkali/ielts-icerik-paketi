@@ -142,9 +142,12 @@ def main():
             if not it.get("evidence") and "NOT GIVEN" not in cevap:
                 hatalar.append("%s: soru %s - evidence bos" % (p, no))
 
+            # Kullanicinin gordugu her alan Ingilizce. 2026-08-08'e kadar tam tersi
+            # isteniyordu (aciklamalar Turkce yaziliyordu) ve o gune kadar uretilen
+            # 743 aciklama toplu cevrildi. Ic denetim notlari Turkce kalir.
             exp = it.get("explanation") or ""
-            if exp and len(exp.split()) > 6 and not turkce_mi(exp):
-                hatalar.append("%s: soru %s - explanation Turkce olmayabilir" % (p, no))
+            if exp and turkce_mi(exp):
+                hatalar.append("%s: soru %s - explanation Turkce, Ingilizce olmali" % (p, no))
 
             if d.get("skill") == "listening" and it.get("turn_index") is None:
                 hatalar.append("%s: soru %s - turn_index eksik" % (p, no))

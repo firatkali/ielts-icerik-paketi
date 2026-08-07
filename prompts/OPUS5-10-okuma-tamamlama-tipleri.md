@@ -152,7 +152,7 @@ Alan açıklamaları:
 | `accepted_variants` | Kabul edilecek yazımlar (büyük/küçük harf farkı hariç). Ör. `["car park","carpark"]`. Yoksa `answer` ile aynı |
 | `evidence` | Pasajdan **birebir** cümle. Boş bırakılamaz |
 | `evidence_locator` | Paragraf harfi + kaçıncı cümle |
-| `explanation` | **Türkçe**, 1–2 cümle. Uygulama yanlış cevap açıklaması olarak gösterecek |
+| `explanation` | **İngilizce**, 1–2 cümle. Uygulama yanlış cevap açıklaması olarak gösterecek — uygulamanın dili İngilizce |
 | `difficulty` | `easy` / `medium` / `hard` — grup içinde karışık olsun |
 
 Tablo tamamlamada `stem_block` yerine `table` kullan:
@@ -222,7 +222,7 @@ Her dosya için tek tek doğrula, eksik varsa düzelt:
 - [ ] Cevapların pasajdaki geçiş sırası, soru sırasıyla aynı
 - [ ] Hiçbir soru kökü pasajdaki cümlenin birebir kopyası değil
 - [ ] Aynı cevap iki soruda tekrar etmiyor
-- [ ] `explanation` alanları Türkçe ve dolu
+- [ ] `explanation` alanları İngilizce ve dolu
 - [ ] JSON geçerli: `python3 -c "import json;json.load(open('DOSYA'))"` hatasız çalışıyor
 - [ ] Soru metinlerinde "IELTS" geçmiyor
 

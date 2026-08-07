@@ -186,7 +186,7 @@ yok:
 | `answer_point_id` | Senaryodaki bilgi noktası kimliği. Yeni nokta kullandıysan senaryo dosyasına ekle |
 | `turn_index` | Sıra kuralı doğrulaması için zorunlu |
 | `distractor_analysis` | Doğru şık hariç her harf için gerekçe (hangi türden çeldirici olduğu dahil) |
-| `explanation` | Türkçe, 1–2 cümle |
+| `explanation` | **İngilizce**, 1–2 cümle |
 
 ---
 
