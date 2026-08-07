@@ -55,8 +55,12 @@
       },
       "explanation": "Paragraf G, ağır bir nesneyi yuvarlayıp yerleştirmenin hortum ucunu açık tuttuğunu ve nesneyle sürekli duyusal temas hâlinde bıraktığını söylüyor; bu yüzden cevap 'sensory contact'.",
       "difficulty": "medium",
-      "status": "verified",
-      "blind_solvable": false
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_solvable_kelime_duzeyi": false,
+      "blind_basis": "logic",
+      "flag_reason": "Parça gösterilmeden anlamca 3/3 turda doğru bilindi: farklı kelimeyle ama doğru kavramla cevaplandı (3 turda da 'contact' verdi, gerçek cevap 'sensory contact').",
+      "flag_mechanism": "esdizim_kilidi"
     },
     {
       "number": 3,
@@ -75,8 +79,12 @@
       },
       "explanation": "Paragraf H, bir türün zihinsel bir beceriden yoksun görünmesinin nedeninin çoğu zaman sunulan donanımın o türün anatomisine uymaması olduğunu söylüyor; bu yüzden cevap 'anatomy'.",
       "difficulty": "hard",
-      "status": "verified",
-      "blind_solvable": false
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_solvable_kelime_duzeyi": false,
+      "blind_basis": "logic",
+      "flag_reason": "Parça gösterilmeden anlamca 3/3 turda doğru bilindi: farklı kelimeyle ama doğru kavramla cevaplandı ('anatomy / morphology / anatomy' verdi, 'morphology' anatomy'nin eş anlamlısı).",
+      "flag_mechanism": "esdizim_kilidi"
     },
     {
       "number": 4,
@@ -96,8 +104,12 @@
       },
       "explanation": "Paragraf B, her çiftin kendi tankında tutulduğunu ve tanklara sabit 24°C'de akan deniz suyu verildiğini söylüyor; bu yüzden cevap 'running seawater'.",
       "difficulty": "medium",
-      "status": "verified",
-      "blind_solvable": false
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_solvable_kelime_duzeyi": false,
+      "blind_basis": "logic",
+      "flag_reason": "Parça gösterilmeden anlamca 3/3 turda doğru bilindi: farklı kelimeyle ama doğru kavramla cevaplandı (3 turda da 'seawater' verdi, gerçek cevap 'running seawater').",
+      "flag_mechanism": "esdizim_kilidi"
     },
     {
       "number": 5,
@@ -136,8 +148,12 @@
       },
       "explanation": "Paragraf G, ahtapotun benzersiz bir bireyi tanımasına gerek olmadığını, karşılaştıklarını 'bilinen' ve 'bilinmeyen' diye iki geniş kategoriye ayırmasının yettiğini söylüyor; bu yüzden cevap 'unique individual'.",
       "difficulty": "hard",
-      "status": "verified",
-      "blind_solvable": false
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_solvable_kelime_duzeyi": false,
+      "blind_basis": "logic",
+      "flag_reason": "Parça gösterilmeden anlamca 3/3 turda doğru bilindi: farklı kelimeyle ama doğru kavramla cevaplandı (3 turda da 'individual' verdi, gerçek cevap 'unique individual').",
+      "flag_mechanism": "esdizim_kilidi"
     },
     {
       "number": 7,
@@ -156,8 +172,12 @@
       },
       "explanation": "Paragraf A, Maug'un bilim insanlarına hiçbir laboratuvar tankının tam olarak taklit edemeyeceği bir şey sunduğunu söylüyor; bu yüzden cevap 'laboratory tank'.",
       "difficulty": "medium",
-      "status": "verified",
-      "blind_solvable": false
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_solvable_kelime_duzeyi": false,
+      "blind_basis": "logic",
+      "flag_reason": "Parça gösterilmeden anlamca 3/3 turda doğru bilindi: farklı kelimeyle ama doğru kavramla cevaplandı (3 turda da 'laboratory' verdi, gerçek cevap 'laboratory tank').",
+      "flag_mechanism": "esdizim_kilidi"
     },
     {
       "number": 8,
@@ -268,8 +288,12 @@
       },
       "explanation": "Paragraf H, keşfin şimdilik hakem değerlendirmesinden geçmiş bitmiş bir sonuç değil, süren araştırmanın bir parçası olduğunu söylüyor; bu yüzden cevap 'ongoing research'.",
       "difficulty": "medium",
-      "status": "verified",
-      "blind_solvable": false
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_solvable_kelime_duzeyi": false,
+      "blind_basis": "logic",
+      "flag_reason": "Parça gösterilmeden anlamca 3/3 turda doğru bilindi: farklı kelimeyle ama doğru kavramla cevaplandı (3 turda da 'preliminary' verdi, gerçek cevap 'ongoing research' — aynı kavramın başka sözcüğü).",
+      "flag_mechanism": "esdizim_kilidi"
     },
     {
       "number": 13,

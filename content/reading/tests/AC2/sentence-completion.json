@@ -51,8 +51,12 @@
       },
       "explanation": "Paragraf D, modern DNA bulaşmasını önlemek için işin birbirinden fiziksel olarak ayrı iki laboratuvarda yapıldığını söylüyor; kelime sınırı iki olduğu için cevap 'separate laboratories'.",
       "difficulty": "easy",
-      "status": "verified",
-      "blind_solvable": false
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_solvable_kelime_duzeyi": false,
+      "blind_basis": "logic",
+      "flag_reason": "Parça gösterilmeden anlamca 3/3 turda doğru bilindi: farklı kelimeyle ama doğru kavramla cevaplandı (3 turda da 'laboratories' verdi, gerçek cevap 'separate laboratories').",
+      "flag_mechanism": "esdizim_kilidi"
     },
     {
       "number": 21,

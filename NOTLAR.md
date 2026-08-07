@@ -7474,3 +7474,38 @@ hiç kullanılmadı, kalan on soruda birer kez. Çeldirici türü çeşitliliği
   s161 ve sonrasi) taranmali. Kitap 1 disindakiler taranmis goruntu - sayfalar
   PyMuPDF ile PNG'ye dokulerek okunmali (`Read` araci PDF'i dogrudan
   goruntuleyemiyor: pdftoppm kurulu degil).
+
+## OPUS5-E10-anlam-duzeyi-olcut (1. calistirma - cumle tamamlama + kisa cevap)
+
+- Yeni olcum turu kosturulmadi (adimin tanimi zaten bunu yasakliyor): mevcut
+  `kalibrasyon/metinsiz/sentence-completion-tur1/2/3.json` ve
+  `short-answer-tur1/2/3.json` dokumleri, gercek cevaplarla (`answer` +
+  `accepted_variants`) yan yana yeniden degerlendirildi. `passages/` acilmadi.
+- Karar kurali (raporda da yazili): modelin cevabi gercek cevapla AYNI SEYE
+  isaret ediyorsa anlamca dogru. Niteleyici dusup ana ad kaliyorsa ayni sey
+  (`separate laboratories` -> `laboratories`); gonderge daraliyorsa
+  (`weeks or months` -> `weeks`), sayi/isim tutmuyorsa (`8,400` -> `8,000`) ya
+  da baska bir sey adlandiriliyorsa (`plant DNA` -> `ancient DNA`) degil.
+  Uc turun ucunde de anlamca dogru olmasi sart.
+- **Kendi sayimim 15 yeni soru** (1. zorunlu kural: plandaki ~19 hedef degil).
+  sentence-completion 13/37 (%35,1) -> 27/37 (%73,0), +14 soru.
+  short-answer 2/10 (%20,0) -> 3/10 (%30,0), +1 soru.
+  Toplam 15/47 (%31,9) -> 30/47 (%63,8).
+- Denetim raporunun andigi %81 ile arasindaki fark bilincli: sinirda kalan sekiz
+  soruyu saymadim, hepsi gerekcesiyle raporda "saymadigim sinir durumlar"
+  tablosunda duruyor. Ustunu ortmek yerine yazdim ki 3. calistirmadaki toplu
+  rapor ayni kurali uygulayabilsin.
+- En temiz bulgular es anlamli kelime ve cekim farki: `mountaineers`->`climbers`,
+  `transparent divider`->`transparent barrier`, `final salary`->`final pay`,
+  `probationary period`->`probation period`, `anatomy`->`morphology` (2. tur).
+  Bunlarin hicbiri kelime esitligi script'inde tutmuyordu.
+- **Eski kelime-duzeyi bulgusu silinmedi.** Sema `blind_solvable: true` yazmayi
+  gerektiriyor ama kural eski `false` isaretinin silinmemesini istiyor; ikisini
+  birlikte tutmak icin eski deger `blind_solvable_kelime_duzeyi` alanina tasindi.
+  Yeni alan soru dosyalarindaki anahtar envanterine ekleniyor - 2. ve 3.
+  calistirmada ayni ad kullanilmali.
+- Soru sayisi degismedi: 47 soru (sentence-completion 37, short-answer 10) girdi,
+  47 soru cikti. Hicbir soru silinmedi, eklenmedi. Puanlama dosyalari acilmadi.
+- Uygulayan betik: `tools/_e10_anlam_isaretle.py` (elle JSON duzenlemek yerine
+  betik: 15 soru 8 dosyaya dagilmis, elle duzenlemede sessiz hata riski var).
+- Atlanan paket yok: iki pakette de uc tur dokumu de mevcuttu.

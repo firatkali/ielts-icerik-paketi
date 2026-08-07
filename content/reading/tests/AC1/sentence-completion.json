@@ -31,8 +31,12 @@
       },
       "explanation": "Paragraf C, çiftlerin yarısının saydam bir bölmeyle ayrıldığını, böylece birbirlerini görüp dokunamadıklarını söylüyor; bu yüzden cevap 'transparent divider'.",
       "difficulty": "easy",
-      "status": "verified",
-      "blind_solvable": false
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_solvable_kelime_duzeyi": false,
+      "blind_basis": "logic",
+      "flag_reason": "Parça gösterilmeden anlamca 3/3 turda doğru bilindi: farklı kelimeyle ama doğru kavramla cevaplandı (3 turda da 'transparent barrier' verdi, gerçek cevap 'transparent divider' — barrier/divider eş anlamlı).",
+      "flag_mechanism": "esdizim_kilidi"
     },
     {
       "number": 20,
@@ -50,8 +54,12 @@
       },
       "explanation": "Paragraf D'de her çiftte güçlü olan hayvanın karşılaşmaların çoğunu kazandığı ve bir baskınlık düzeninin ortaya çıktığı yazıyor; bu yüzden cevap 'dominance hierarchy'.",
       "difficulty": "medium",
-      "status": "verified",
-      "blind_solvable": false
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_solvable_kelime_duzeyi": false,
+      "blind_basis": "logic",
+      "flag_reason": "Parça gösterilmeden anlamca 3/3 turda doğru bilindi: farklı kelimeyle ama doğru kavramla cevaplandı (3 turda da 'hierarchy' verdi, gerçek cevap 'dominance hierarchy').",
+      "flag_mechanism": "esdizim_kilidi"
     },
     {
       "number": 21,
