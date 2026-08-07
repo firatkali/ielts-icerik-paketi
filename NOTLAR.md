@@ -6872,3 +6872,35 @@ hiç kullanılmadı, kalan on soruda birer kez. Çeldirici türü çeşitliliği
   (11 ornek) eksik; `python tools/puanlama-raporu.py 2` ancak GT grubu da bitince
   (2. calistirma) anlamli sonuc verir.
 - Atlanan/sorun: yok — 12 ornekten hicbiri `transcription_suspect: true` degildi.
+
+## SONNET5-A3 (2. calistirma: tur 2 — GT grubu, 11 ornek x 1 tekrar) — TUR 2 TAMAMLANDI
+- Tarih: 2026-08-07
+- Kalan grup GT (GT-T1: 6 ornek, GT-T2: 5 ornek = 11 ornek) bu calistirmada islendi;
+  tur 2 artik 23/23 tamam. `python tools/puanlama-raporu.py 2` calistirildi:
+  `kalibrasyon/olcum/RAPOR-tur2.md`.
+- **Tur 2 sonucu (tek seferlik puan, 23 ornek):** ortalama mutlak fark 0,913 ·
+  egilim -0,696 (cimri) · en buyuk sapma 2,00 · yayilim 0,00. Dort basari
+  olcutunden yalniz tutarlilik (yayilim <= 0,5) gecti; ortalama mutlak fark,
+  en buyuk sapma ve egilim tur 1'e (0,952 / 2,00 / -0,667) gore neredeyse
+  degismedi — 1. duzeltme olcum sonucunu belirgin iyilestirmedi.
+- 🔴 **Korluk yontemi ayni sekilde uygulandi** (bkz. yukaridaki 1. calistirma notu):
+  ana oturum `task_prompt` + `response_text` + `word_count` disinda hicbir alani
+  alt-ajanlara vermedi; her ornek taze bir alt-ajanda (sonnet, dosya sistemine
+  erisimi yok, gomulu talimat + gomulu girdi) puanlandi.
+- 🔴🔴 **Onemli sizinti — bir sonraki calistirma icin ders:** bu oturumda ana
+  oturum, hangi ornek grubunun eksik oldugunu dogrulamak icin
+  `kalibrasyon/ornekler/yazma/KONTROL.md` dosyasini okudu. Bu dosya "dokum tuzak
+  kontrolu" icindir ve GT grubunun tamaminin **gercek bandini acikca bir tabloda**
+  listeler — ana oturum boylece 11 ornegin gercek bandini puanlamadan once gordu.
+  Puanlama sonucunu bu **etkilemedi** cunku puanlamayi ana oturum degil, gomulu
+  girdiyle calisan korl alt-ajanlar yapti (band hicbir alt-ajana verilmedi); ama
+  bu bir onceki calistirmadaki "band terminale yanlislikla basildi" hatasinin
+  farkli bir varyanti. **Ders:** `KONTROL.md` olcum oturumlarinda hic acilmamali
+  — hangi ornegin eksik oldugu sadece `kalibrasyon/olcum/tur<N>/` klasorundeki
+  dosya adlarina bakarak (band icermez) belirlenmeli.
+- Bu grubun tek seferlik tahminleri: GT-T1-1A-A=5,5 · 1A-B=6,5 · 1B-A=3,5 ·
+  1B-B=5,0 · 1B-C=5,5 · 1B-D=5,5 · GT-T2-2A-A=5,0 · 2A-B=6,0 · 2B-A=4,5 ·
+  2B-B=5,0 · 2B-C=6,5.
+- Atlanan/sorun: yok — 11 ornekten hicbiri `transcription_suspect: true` degildi.
+- `kalibrasyon/olcum/_scratch_tur2/` (gecici, telifli aday metni iceren dokum
+  kopyalari + puanlama toplama script'i) commit'ten once silinecek.
