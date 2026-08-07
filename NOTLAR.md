@@ -7006,3 +7006,32 @@ hiç kullanılmadı, kalan on soruda birer kez. Çeldirici türü çeşitliliği
   (36/69 puanlama). `python tools/puanlama-raporu.py 3` kalan 2 grup (GT-T1, GT-T2) da
   bitince anlamli sonuc verir.
 - Atlanan/sorun: yok — 5 ornekten hicbiri `transcription_suspect: true` degildi.
+
+## SONNET5-A3 (3. calistirma: tur 3 — GT-T1 grubu, 6 ornek x 3 tekrar)
+- Tarih: 2026-08-07
+- Ayni tur 3 (SON tur), ayni talimat surumu (`degerlendirme/yazma-task1-general.md`,
+  OPUS5-A4'un 2. duzeltmesi sonrasi). `kalibrasyon/olcum/tur3/` icinde AC-T1 (1. calistirma)
+  ve AC-T2 (2. calistirma) zaten vardi; dosya sirasina gore sonraki grup GT-T1 (6 ornek:
+  1A-A, 1A-B, 1B-A, 1B-B, 1B-C, 1B-D) yapildi. Kalan 1 grup: GT-T2 (5 ornek) — sonraki
+  (4. ve son) calistirmanin isi. 18 puanlama dosyasi yazildi:
+  `kalibrasyon/olcum/tur3/GT-T1-*-{1,2,3}.json` (bu dosyalar `.gitignore` geregi depoya
+  girmiyor, sadece `RAPOR-tur*.md` ve `kumeler.json` public depoya giriyor).
+- **Korluk yontemi:** 1. ve 2. calistirmadaki ile ayni — `kalibrasyon/ornekler/yazma/GT-T1-*.json`
+  dosyalari daha once (yarim kalmis bir onceki oturumdan) `task_prompt` + `word_count` +
+  `response_text` (band, examiner_comment, transcription_notes hic yazdirilmadan) stripped
+  halde `kalibrasyon/olcum/_scratch_tur3/` klasorunde hazir bulundu; once dosyalarin
+  gercekten sadece bu 4 alani tasidigi (band/comment sizintisi olmadigi) python ile
+  dogrulandi, sonra ayni kor akis izlendi. Her ornek + her tekrar (18 kombinasyon) icin
+  ayri, taze bir alt-ajana (genel amacli subagent, model: sonnet acikca belirtildi) yalniz
+  stripped veri gomulu olarak verildi; alt-ajan kendisi `degerlendirme/yazma-task1-general.md`
+  dosyasini okuyup uyguladi, `kalibrasyon/ornekler/`, `KONTROL.md` ve `kalibrasyon/olcum/`
+  acmamasi acikca soylendi. 18 ayri tekrar icin 18 ayri taze ajan (paralel, tek mesajda,
+  arka planda). Scratch klasoru islem bitince silindi.
+- Bu grubun tek seferlik (1. tekrar) tahminleri: 1A-A=6,0 · 1A-B=6,5 · 1B-A=4,5 ·
+  1B-B=5,5 · 1B-C=6,0 · 1B-D=6,0. Tekrarlar arasi yayilim: 1A-A 0 (6/6/6), 1A-B 0
+  (6,5/6,5/6,5), 1B-A 0 (4,5/4,5/4,5), 1B-B 0 (5,5/5,5/5,5), 1B-C 0,5 (6/6/5,5), 1B-D 0,5
+  (6/6/6,5).
+- **Rapor script'i bu calistirmada calistirilmadi** — tur 3'un 4'te 3'u tamam
+  (54/69 puanlama). `python tools/puanlama-raporu.py 3` kalan 1 grup (GT-T2) da bitince
+  anlamli sonuc verir.
+- Atlanan/sorun: yok — 6 ornekten hicbiri `transcription_suspect: true` degildi.
