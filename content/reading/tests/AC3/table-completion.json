@@ -97,8 +97,12 @@
       },
       "explanation": "Paragraf D, işaretin zararsız bir kozmetik boya olduğunu ve beş ile sekiz santimetre büyüklüğünde olduğunu söylüyor; bu yüzden cevap 'cosmetic'.",
       "difficulty": "medium",
-      "status": "verified",
-      "blind_solvable": false
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_solvable_kelime_duzeyi": false,
+      "blind_basis": "logic",
+      "flag_reason": "Parça gösterilmeden anlamca 3/3 turda doğru bilindi: farklı kelimeyle ama doğru kavramla cevaplandı (3 turda da 'dye' verdi, gerçek cevap 'cosmetic' — ayna testinde deriye uygulanan aynı zararsız boyalı işaret).",
+      "flag_mechanism": "esdizim_kilidi"
     },
     {
       "number": 4,

@@ -80,8 +80,12 @@
       },
       "explanation": "A metninin C paragrafı, öğle molaları dâhil giriş çıkışların personel girişindeki kart okuyucuyla kaydedildiğini söylüyor; bu yüzden cevap 'card reader'.",
       "difficulty": "easy",
-      "status": "verified",
-      "blind_solvable": false
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_solvable_kelime_duzeyi": false,
+      "blind_basis": "logic",
+      "flag_reason": "Parça gösterilmeden anlamca 3/3 turda doğru bilindi: farklı kelimeyle ama doğru kavramla cevaplandı ('time clock / card reader / clocking-in machine' verdi; üçü de personel girişindeki aynı cihazı adlandırıyor).",
+      "flag_mechanism": "esdizim_kilidi"
     },
     {
       "number": 18,
@@ -101,8 +105,12 @@
       },
       "explanation": "A metninin D paragrafı, vardiya değişimi isteğinin 48 saat önceden, personel ofisinden alınan vardiya değişim formuyla yapıldığını söylüyor; 'shift-swap' tireli olduğu için cevap iki kelime sayılıyor.",
       "difficulty": "medium",
-      "status": "verified",
-      "blind_solvable": false
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_solvable_kelime_duzeyi": false,
+      "blind_basis": "logic",
+      "flag_reason": "Parça gösterilmeden anlamca 3/3 turda doğru bilindi: farklı kelimeyle ama doğru kavramla cevaplandı ('shift swap form / shift change form / shift swap form' verdi; vardiya değişimi için doldurulan aynı belge).",
+      "flag_mechanism": "esdizim_kilidi"
     },
     {
       "number": 19,
@@ -145,8 +153,12 @@
       },
       "explanation": "B metninin B paragrafı, izin taleplerinin en az iki hafta önceden çevrimiçi personel portalından iletildiğini söylüyor; soru kökünde 'online' verildiği için boşluğa gelen 'staff portal'.",
       "difficulty": "medium",
-      "status": "verified",
-      "blind_solvable": false
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_solvable_kelime_duzeyi": false,
+      "blind_basis": "logic",
+      "flag_reason": "Parça gösterilmeden anlamca 3/3 turda doğru bilindi: farklı kelimeyle ama doğru kavramla cevaplandı ('booking system / staff portal / booking system' verdi; izin taleplerinin girildiği aynı çevrimiçi sistem).",
+      "flag_mechanism": "esdizim_kilidi"
     }
   ]
 }

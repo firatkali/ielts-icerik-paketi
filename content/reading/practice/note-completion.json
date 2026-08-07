@@ -76,8 +76,12 @@
       },
       "explanation": "Paragraf H, şirketin çalışanlara yalnızca bireysel çıktılarına göre ödeme yaptığını ve bunun takımın genel performansına yetişme güdüsünü büyük ölçüde ortadan kaldırdığını söylüyor; bu yüzden cevap 'individual output'.",
       "difficulty": "hard",
-      "status": "verified",
-      "blind_solvable": false
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_solvable_kelime_duzeyi": false,
+      "blind_basis": "logic",
+      "flag_reason": "Parça gösterilmeden anlamca 3/3 turda doğru bilindi: farklı kelimeyle ama doğru kavramla cevaplandı (3 turda da 'individual performance' verdi, gerçek cevap 'individual output' — ücretin yalnız kişinin kendi işine bağlı olduğu aynı iddia).",
+      "flag_mechanism": "esdizim_kilidi"
     },
     {
       "number": 4,
@@ -96,8 +100,12 @@
       },
       "explanation": "Paragraf A, testi geçtiği bildirilen kısa tür listesinin sonunda şaşırtıcı biçimde Avrasya saksağanının yer aldığını söylüyor; bu yüzden cevap 'Eurasian magpie'.",
       "difficulty": "easy",
-      "status": "verified",
-      "blind_solvable": false
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_solvable_kelime_duzeyi": false,
+      "blind_basis": "logic",
+      "flag_reason": "Parça gösterilmeden anlamca 3/3 turda doğru bilindi: farklı kelimeyle ama doğru kavramla cevaplandı (3 turda da 'magpie' verdi, gerçek cevap 'Eurasian magpie' — niteleyici düştü, aynanın önünde testi geçen kuş aynı).",
+      "flag_mechanism": "esdizim_kilidi"
     },
     {
       "number": 5,
@@ -136,8 +144,12 @@
       },
       "explanation": "Paragraf H, yalnızca tek bir birey ya da küçük bir örneklem incelendiğinde bu tür yeteneklerin ne kadar kolay gözden kaçabileceğini söylüyor; bu yüzden cevap 'small sample'.",
       "difficulty": "hard",
-      "status": "verified",
-      "blind_solvable": false
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_solvable_kelime_duzeyi": false,
+      "blind_basis": "logic",
+      "flag_reason": "Parça gösterilmeden anlamca 3/3 turda doğru bilindi: farklı kelimeyle ama doğru kavramla cevaplandı ('small sample / small group / small sample' verdi; küçük grup ile küçük örneklem burada aynı uyarıyı kuruyor).",
+      "flag_mechanism": "esdizim_kilidi"
     },
     {
       "number": 7,
@@ -243,8 +255,12 @@
       },
       "explanation": "Paragraf B, yaklaşık 20 yaşındaki kurbanın yüzüstü şekilde ahşap bir yatakta bulunduğunu ve akıntılar geldiğinde uyuyor göründüğünü söylüyor; bu yüzden cevap 'wooden bed'.",
       "difficulty": "medium",
-      "status": "verified",
-      "blind_solvable": false
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_solvable_kelime_duzeyi": false,
+      "blind_basis": "logic",
+      "flag_reason": "Parça gösterilmeden anlamca 3/3 turda doğru bilindi: farklı kelimeyle ama doğru kavramla cevaplandı (3 turda da 'bed' verdi, gerçek cevap 'wooden bed' — kurbanın üzerinde bulunduğu nesne aynı, yalnız malzeme niteleyicisi düştü).",
+      "flag_mechanism": "esdizim_kilidi"
     },
     {
       "number": 12,
@@ -263,8 +279,12 @@
       },
       "explanation": "Paragraf H, bulgunun tek başına iskelet kalıntılarından neredeyse hiç elde edilemeyecek hücre düzeyinde ayrıntı sunduğunu söylüyor; bu yüzden cevap 'skeletal remains'.",
       "difficulty": "hard",
-      "status": "verified",
-      "blind_solvable": false
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_solvable_kelime_duzeyi": false,
+      "blind_basis": "logic",
+      "flag_reason": "Parça gösterilmeden anlamca 3/3 turda doğru bilindi: farklı kelimeyle ama doğru kavramla cevaplandı (3 turda da 'bones' verdi, gerçek cevap 'skeletal remains' — eş anlamlı: tek başına kemiklerin veremediği hücre düzeyi ayrıntı).",
+      "flag_mechanism": "esdizim_kilidi"
     },
     {
       "number": 13,

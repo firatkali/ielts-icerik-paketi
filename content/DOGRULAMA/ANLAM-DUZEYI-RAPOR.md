@@ -144,4 +144,110 @@ değişmedi. Uygulayan betik: `tools/_e10_anlam_isaretle2.py`.
 
 ---
 
+## 3. çalıştırma — not/tablo/akış tamamlama · 2026-08-08
+
+`note-completion`, `table-completion`, `flow-chart-completion` (okuma tarafı).
+
+| Paket | Soru | Kelime düzeyi (eski) | Anlam düzeyi (yeni) | Fark | Yeni işaretlenen |
+|---|---|---|---|---|---|
+| note-completion | 33 | 9 (%27.3) | 18 (%54.5) | +27.3 puan | 9 |
+| table-completion | 12 | 4 (%33.3) | 6 (%50.0) | +16.7 puan | 2 |
+| flow-chart-completion | 6 | 4 (%66.7) | 5 (%83.3) | +16.7 puan | 1 |
+| **toplam** | **51** | **17 (%33.3)** | **29 (%56.9)** | **+23.5 puan** | **12** |
+
+Kendi sayımım **12 yeni soru.** Bu üç paket için planda yön verici bir rakam yoktu; bulduğum
+oran, ilk iki çalıştırmanın parçadan-kelime kanadıyla aynı yönde ama daha ılımlı: not
+tamamlamada boşlukların çoğu sayı, tarih ve özel ad istiyor (`90 kilometres`, `12 December`,
+`Eurasian magpie`), orada yanlış sayı yanlış sayıdır — anlam düzeyine geçmek onları
+kurtarmıyor. Sızıntı, boşluğun soyut bir kavram istediği yerde toplanıyor.
+
+### Yeni işaretlenen sorular
+
+`note-completion` (9): practice 3, 4, 6, 11, 12 · AC4 1 · GT1 17, 18, 20
+`table-completion` (2): AC3 3 · GT2 15
+`flow-chart-completion` (1): AC2 1
+
+### Somut örnekler — gerçek cevap → modelin anlamca doğru ama kelimece farklı cevabı
+
+| Soru | Gerçek cevap | Modelin üç turdaki cevabı | Neden anlamca doğru |
+|---|---|---|---|
+| practice-nc-12 | `skeletal remains` | bones ×3 | Tam eş anlamlı; "tek başına kemiklerin veremediği hücre düzeyi ayrıntı" iddiası birebir aynı. |
+| AC2-fc-1 | `forty minutes` | 40 minutes ×3 | Aynı sayının rakamla yazılışı. Kelime düzeyi ölçümü bunu "bilinmiyor" saymıştı, oysa `40 minutes` cevap anahtarının kendi `accepted_variants` listesinde zaten var — ölçüm burada anahtardan bile katıydı. |
+| AC4-nc-1 | `reconfigure` | rearrange · **reconfigure** · rearrange | Kelime düzeyinde 1/3 tuttuğu için "bilinmiyor" sayılmıştı; rearrange, "ihtiyaç değişince kolay yeniden düzenlenir" iddiasının aynısı. |
+| GT1-nc-17 | `card reader` | time clock · **card reader** · clocking-in machine | Üç ad da personel girişindeki aynı cihazı gösteriyor; gönderge tek. |
+| practice-nc-4 | `Eurasian magpie` | magpie ×3 | Niteleyici düşmüş, ana ad duruyor: ayna testini geçen kuş aynı. |
+
+### Anlamca da saymadığım sorular (şeffaflık için)
+
+| Soru | Gerçek cevap | Modelin cevabı | Neden sayılmadı |
+|---|---|---|---|
+| practice-nc-5 | `Monodontidae` | beluga · belugas · beluga | Boşluk "başka bir dişli balina **soyu**" istiyor; model türü adlandırıyor, soyu değil. |
+| practice-nc-13 | `polysomnography` | EEG ×3 | EEG polisomnografinin tek kanalı; adlandırılan yöntem başka. 1. çalıştırmadaki SEM/TEM kararıyla aynı çizgi. |
+| AC1-nc-2 | `bamboo` | bamboo · **wood** · bamboo | Sorulan ayrıntı çubuğun malzemesi; `wood` bambuyu adlandırmıyor. |
+| AC1-nc-6 | `fingertip` | hand ×3 | Gönderge genişliyor: el, parmak ucu değil. |
+| GT2-tc-19 | `travel allowance` | relocation allowance ×3 | Yol parası ile taşınma parası yerleşik olarak ayrı iki ödeme; üstelik "taşınan herkes" ögesini soru kökü zaten veriyor. |
+| GT2-tc-18 | `ten working days` | two weeks · **seven days** · two weeks | 2. tur başka bir süre veriyor, 3/3 şartı düşüyor. |
+| AC3-tc-2 | `barrel rolls` | head movements · head bobs · head turns | Baş hareketi ile gövde taklası ayrı davranışlar. |
+
+### Bu çalıştırmada atlanan paketler
+
+Üç paketin de **dinleme** setleri değerlendirmeye girmedi: `note-completion` 42 soru
+(practice 15, L1 6, L2 5, L4 10, L6 6), `table-completion` 30 soru (practice 15, L2 10, L5 5),
+`flow-chart-completion` 25 soru (practice 15, L2 5, L4 5) — toplam **97 soru.** Sebep 2.
+çalıştırmadakiyle aynı: üç tur dökümünün üçü de yalnız okuma sorularını içeriyor (33/12/6
+kimliğin tamamı okuma), bu sorular için parçasız cevap hiç üretilmemiş. Yöntemin 1. maddesi
+gereği atlandı; dinleme sızıntısı ayrı bir adımın işi.
+
+🔴 Dikkat: `practice-note-completion` set kimliği hem dinlemede hem okumada kullanılıyor, yani
+döküm kimlikleri iki beceride çakışıyor. İşaretleme betiği bu yüzden `skill == "reading"`
+süzgeciyle çalışıyor; süzgeç olmasa dinleme soruları okuma dökümüyle karşılaştırılırdı.
+
+### İşaretlemenin şekli
+
+1. ve 2. çalıştırmadaki şemanın aynısı, alan adı da aynı: eski kelime-düzeyi bulgusu silinmedi,
+`blind_solvable_kelime_duzeyi` alanına taşındı. Hiçbir soru silinmedi: 51 okuma sorusu girdi,
+51 çıktı (note 33, table 12, flow-chart 6); 12 tam testin hepsi 40/40 kaldı, şema hatası 0.
+Uygulayan betikler: `tools/_e10_karsilastir3.py` (karşılaştırma tablosu),
+`tools/_e10_anlam_isaretle3.py` (işaretleme).
+
+---
+
+## Toplu rapor — üç çalıştırmanın birlikte söylediği
+
+| Çalıştırma | Paketler | Soru | Kelime düzeyi | Anlam düzeyi | Fark | Yeni |
+|---|---|---|---|---|---|---|
+| 1 | sentence-completion, short-answer | 47 | 15 (%31.9) | 30 (%63.8) | +31.9 puan | 15 |
+| 2 | summary-completion | 43 | 26 (%60.5) | 40 (%93.0) | +32.6 puan | 14 |
+| 3 | note / table / flow-chart-completion | 51 | 17 (%33.3) | 29 (%56.9) | +23.5 puan | 12 |
+| **toplam** | **tamamlama ailesi** | **141** | **58 (%41.1)** | **99 (%70.2)** | **+29.1 puan** | **41** |
+
+**Toplam 41 yeni soru işaretlendi.** Plandaki "cümle tamamlamada ~19, özet ailesinde ~15"
+rakamları yön vericiydi; kendi sayımım o iki pakette 15 ve 14, üçüncü grupta 12.
+
+Üç çalıştırmanın ortak bulgusu tek cümleyle: **`OPUS5-B1`'in tamamlama ailesinde ölçtüğü şey
+kavrayış değil, kelime tutturmaydı.** Ailenin tamamına bakıldığında parçasız da bilinen soru
+oranı %41.1 değil %70.2 — yani B1 sızıntının yaklaşık **beşte ikisini** görmüyordu.
+
+Farkın nerede olduğu da netleşti:
+
+- **Cevap kapalı bir listeden seçiliyorsa fark sıfır.** Kelime bankalı özet (14 soru) kelime
+  düzeyinde de anlam düzeyinde de 14/14. Yüzey sapması imkânsız olduğu için orada kelime
+  düzeyi ölçümü zaten anlam düzeyi ölçümüdür.
+- **Cevap "parçadan kelime kopyala" ise fark en büyük.** Parçadan-kelime özet %41.4 → %89.7
+  (+48.3 puan), cümle tamamlama %35.1 → %73.0 (+37.9 puan). Sızıntının tamamı burada.
+- **Boşluk sayı/tarih/özel ad istiyorsa fark küçük.** Not ve tablo tamamlamada boşlukların
+  önemli kısmı `90 kilometres`, `12 December`, `fourteen`, `twenty-three seconds` gibi kesin
+  değerler istiyor; yanlış sayı anlam düzeyinde de yanlıştır, o yüzden bu iki pakette artış
+  +27.3 ve +16.7 puanda kalıyor.
+
+Pratik sonucu: bir tamamlama sorusunun sızıntıya dayanıklılığı, cevabın **biçimine** bağlı.
+Kapalı liste ya da kesin değer isteyen boşluk dayanıklı; parçadan serbest kelime isteyen boşluk
+değil — orada soru çoğunlukla kavrayışı değil, doğru eşdizimi bulmayı ölçüyor. İşaretlenen 41
+sorunun hepsi `flag_mechanism: "esdizim_kilidi"` ile duruyor, hiçbiri silinmedi.
+
+Kapsam sınırı: bu üç çalıştırma yalnız **okuma** sorularını değerlendirdi (141 soru). Tamamlama
+ailesinin dinleme kanadı (özet 15 + not/tablo/akış 97 = 112 soru) hiç değerlendirilemedi, çünkü
+`kalibrasyon/metinsiz/` dökümlerinde parçasız cevapları yok. Dinleme sızıntısı açık bir soru
+olarak duruyor.
+
 Bu ölçüm anlam düzeyinde bilinen soruyu bulur, kelime tutturma başarısını değil.

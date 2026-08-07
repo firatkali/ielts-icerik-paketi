@@ -7542,3 +7542,49 @@ hiç kullanılmadı, kalan on soruda birer kez. Çeldirici türü çeşitliliği
 - Soru sayisi degismedi: 43 soru girdi, 43 soru cikti (practice 15, AC1 5, AC2 5,
   AC3 5, AC4 5, GT1 4, GT2 4). Puanlama dosyalari acilmadi.
 - Uygulayan betik: `tools/_e10_anlam_isaretle2.py`.
+
+## OPUS5-E10-anlam-duzeyi-olcut (3. calistirma - not/tablo/akis + toplu rapor)
+
+- Yine yeni olcum turu kosturulmadi: `kalibrasyon/metinsiz/` dokumleri (note-,
+  table-, flow-chart-completion tur1/2/3) gercek cevaplarla yan yana yeniden
+  degerlendirildi. `passages/` acilmadi. Karar kurali ilk iki calistirmadakinin
+  aynisi, alan adi da ayni (`blind_solvable_kelime_duzeyi`).
+- **Kendi sayimim 12 yeni soru.** 17/51 (%33,3) -> 29/51 (%56,9).
+  note 9/33 -> 18/33, table 4/12 -> 6/12, flow-chart 4/6 -> 5/6.
+- **Bu grupta artis daha kucuk, sebebi belli:** not/tablo bosluklarinin buyuk
+  kismi kesin deger istiyor (`90 kilometres`, `12 December`, `fourteen`,
+  `twenty-three seconds`). Yanlis sayi anlam duzeyinde de yanlistir; anlam
+  olcutu bu tur bosluklari kurtarmiyor. Sizinti soyut kavram isteyen bosluklarda
+  toplaniyor.
+- 🔴 **Kimlik cakismasi tuzagi:** `practice-note-completion` set kimligi hem
+  dinlemede hem okumada var, yani dokum kimlikleri iki beceride ayni. Isaretleme
+  betigi `skill == "reading"` suzgeciyle calisiyor; suzgec olmasa dinleme
+  sorulari okuma dokumuyle karsilastirilirdi (dinleme practice-1 cevabi `11`,
+  okuma practice-1 cevabi `47` - sessizce yanlis isaretlenirdi). 2. calistirmada
+  da ayni suzgec vardi, sonraki adimlarda korunmali.
+- **Kelime duzeyi olcumu cevap anahtarindan bile katiymis:** AC2-flow-chart-1'de
+  gercek cevap `forty minutes`, modelin uc turdaki cevabi `40 minutes` ve bu
+  zaten sorunun kendi `accepted_variants` listesinde. Yine de kelime duzeyinde
+  "bilinmiyor" sayilmis. Tek soru ama olcumun ne kadar dar oldugunu gosteriyor.
+- Saymadigim sinir durumlar raporda gerekcesiyle: practice-5 (`Monodontidae` ->
+  beluga, tur degil soy soruluyor), practice-13 (`polysomnography` -> EEG, EEG
+  onun tek kanali), AC1-6 (`fingertip` -> hand), GT2-19 (`travel allowance` ->
+  relocation allowance).
+- **Atlanan paketler var:** uc paketin de dinleme setleri (note 42, table 30,
+  flow-chart 25 = 97 soru). Sebep 2. calistirmadakiyle ayni: dokumlerin ucu de
+  yalniz okuma sorularini iceriyor, bu sorular icin parcasiz cevap hic
+  uretilmemis. Yontemin 1. maddesi geregi atlandi.
+- Soru sayisi degismedi: 51 okuma sorusu girdi, 51 cikti (note 33, table 12,
+  flow-chart 6). 12 tam testin hepsi 40/40, sema hatasi 0. Puanlama dosyalari
+  acilmadi.
+- Uygulayan betikler: `tools/_e10_karsilastir3.py` (uc turu gercek cevapla yan
+  yana basan karsilastirma tablosu - karar bunun ciktisina bakilarak verildi),
+  `tools/_e10_anlam_isaretle3.py` (isaretleme).
+- **Toplu rapor yazildi** (`content/DOGRULAMA/ANLAM-DUZEYI-RAPOR.md` sonunda).
+  Uc calistirmanin toplami: 141 okuma sorusu, kelime duzeyi 58 (%41,1), anlam
+  duzeyi 99 (%70,2), 41 yeni isaretleme. Sonuc: B1 tamamlama ailesinde
+  sizintinin yaklasik beste ikisini gormuyormus. Fark cevabin BICIMINE bagli -
+  kapali liste (kelime bankasi) ve kesin deger isteyen bosluk dayanikli,
+  parcadan serbest kelime isteyen bosluk degil.
+- Acik kalan: tamamlama ailesinin dinleme kanadi (112 soru) hic
+  degerlendirilemedi, dokumlerde parcasiz cevaplari yok. Ayri adimin isi.

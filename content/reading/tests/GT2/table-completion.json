@@ -76,8 +76,12 @@
       },
       "explanation": "A metninin A paragrafı, adayların on haftanın tamamı boyunca sponsorluk gerektirmeden çalışma hakkına sahip olması gerektiğini söylüyor; bu yüzden cevap 'sponsorship'.",
       "difficulty": "medium",
-      "status": "verified",
-      "blind_solvable": false
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_solvable_kelime_duzeyi": false,
+      "blind_basis": "logic",
+      "flag_reason": "Parça gösterilmeden anlamca 3/3 turda doğru bilindi: farklı kelimeyle ama doğru kavramla cevaplandı ('sponsorship / a visa / sponsorship' verdi; 'vize gerektirmeden çalışma hakkı' ile 'sponsorluk gerektirmemesi' aynı koşul).",
+      "flag_mechanism": "esdizim_kilidi"
     },
     {
       "number": 16,
