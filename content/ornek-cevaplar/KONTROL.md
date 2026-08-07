@@ -441,3 +441,125 @@ gorevi: T2-01, 06, 09, 10, 11, 15, 17, 24, 39, 44, 53, 57. Bes kaliptan opinion 
 double_question ucer kez kullanildi; 6. grup icin gunluk hayata bakan iki konu ve iki
 kez kalmis kaliplardan ikisi (problem_solution, discuss_both_views ya da
 advantages_disadvantages) uygun olur.
+
+---
+
+## 6. grup - General Task 1 (GT06-GT08) + Task 2 (T2-50, T2-54)
+
+Talimatlar: `degerlendirme/yazma-task1-general.md` ve `degerlendirme/yazma-task2.md`.
+Genel band = dort olcutun ortalamasi, en yakin yarim banda yuvarlanmis (.25 ve .75 yukari).
+Bu grup kutuphanenin yazma yarisini 30 goreve tamamliyor.
+
+### Gorev secimi
+
+Mektup tarafinda GT01-GT05'ten sonraki uc gorev alindi ve **ton bilerek ayrildi**. 3. grupta
+dort resmi + bir yari resmi mektup vardi; burada iki yari resmi ve **ilk kez bir samimi
+mektup** var. Boylece kutuphanede uc tonun de ornegi bulunuyor ve kullanici ayni bandin
+uc farkli tonda nasil gorundugunu karsilastirabiliyor.
+
+| Kod | Ton | Konu |
+|---|---|---|
+| GT06 | yari resmi | kurs icin calisma saati degisikligi - yoneticiye |
+| GT07 | yari resmi | cati tamiri ve gecis izni ricasi - komsuya |
+| GT08 | samimi | baska bir kasabaya tasinma - arkadasa |
+
+Task 2'de 4. grubun olcutu korundu: adayin kendi gunluk hayatindan ornek verebilecegi
+konu (5. grup bunun tersini, soyut ve kurumsal konuyu yapmisti). 5. grubun notu iki kez
+kalmis kaliplardan ikisini oneriyordu; secilen iki gorev de kutuphanede **hic bulunmayan
+konu alanindan** geliyor.
+
+| Kod | Kalip | Konu alani | Konu |
+|---|---|---|---|
+| T2-50 | problem_solution | dil ve iletisim | is yerinde yazili mesaj yuku |
+| T2-54 | advantages_disadvantages | suc ve ceza | kamusal alanlarda kamera |
+
+Otuz gorevin son dagilimi: AC-T1 8 · GT-T1 8 · Task 2 14 (opinion 3 · discuss_both_views 2 ·
+problem_solution 3 · advantages_disadvantages 3 · double_question 3).
+
+| Gorev | Hedef | TA | CC | LR | GRA | Genel | Sapma | Yeniden yazildi mi |
+|---|---|---|---|---|---|---|---|---|
+| GT06 | 5,0 | 5 | 5,5 | 5 | 4 | **5,0** | 0 | hayir |
+| GT06 | 6,5 | 7 | 6 | 6,5 | 6 | **6,5** | 0 | **evet** (bkz. asagi) |
+| GT06 | 8,0 | 8 | 8 | 8 | 8 | **8,0** | 0 | hayir |
+| GT07 | 5,0 | 5 | 5,5 | 5 | 4 | **5,0** | 0 | hayir |
+| GT07 | 6,5 | 7 | 6 | 6,5 | 6 | **6,5** | 0 | hayir |
+| GT07 | 8,0 | 8 | 8 | 8 | 8 | **8,0** | 0 | hayir |
+| GT08 | 5,0 | 5 | 5,5 | 5 | 4 | **5,0** | 0 | hayir |
+| GT08 | 6,5 | 7 | 6 | 6,5 | 6 | **6,5** | 0 | hayir |
+| GT08 | 8,0 | 8 | 8 | 8 | 8 | **8,0** | 0 | hayir |
+| T2-50 | 5,0 | 5 | 5 | 5 | 4 | **5,0** | 0 | hayir |
+| T2-50 | 6,5 | 7 | 6 | 6,5 | 6 | **6,5** | 0 | hayir |
+| T2-50 | 8,0 | 8 | 8 | 8 | 8 | **8,0** | 0 | hayir |
+| T2-54 | 5,0 | 5 | 5 | 5 | 4 | **5,0** | 0 | hayir |
+| T2-54 | 6,5 | 7 | 6 | 6,5 | 6 | **6,5** | 0 | **evet** (bkz. asagi) |
+| T2-54 | 8,0 | 8 | 8 | 8 | 8 | **8,0** | 0 | hayir |
+
+### Yeniden yazilan: GT06 / 6,5 ve T2-54 / 6,5
+
+Hatali cumle orani on cevabin her birinde tek tek sayildi (talimatin GRA tablosu bandi bu
+orandan okuyor). Iki metin hedef araligin **iki ayri yonunde** disarda kaldi - ayni denetimin
+her iki yonde de calistigi 4. grupta gorulmustu, burada tek grupta ikisi birden cikti:
+
+- **GT06 / 6,5 - oran %64**, yani tablonun 5 satiri (%60-80). Sayilan puan TA 7 · CC 6 ·
+  LR 6,5 · GRA 5 = 6,125 → 6,0; hedefin tam 0,5 disinda degil ama altinda. Iki hata geri
+  alindi (`will start in 3 March` → `on 3 March`, `the same number of the hours` →
+  `the same number of hours`), oran %45 oldu, GRA 6'ya cikti.
+- **T2-54 / 6,5 - oran %29**, yani tablonun 7 satiri (%20-40). Genel band yine 6,5 cikiyordu
+  (TA 7 · CC 6 · LR 6,5 · GRA 7 = 6,625 → 6,5) ama dayanagi yanlisti: "band 6,5 cevabi" diye
+  band 7 dilbilgisi gosteriyorduk - 2. ve 4. gruptaki kusurun aynisi. Uc hata eklendi ve
+  turleri bilerek ayrildi: cogul (`the two sides` → `the two side`), uyum (`a person who is
+  doing nothing wrong` → `the people who is doing nothing wrong`), yine uyum ama farkli
+  yapida (`the access to the images is limited` → `are limited`). Oran %50 oldu, GRA 6.
+
+Iki metnin de fikir yapisina, tutumuna ve sozcuk secimine dokunulmadi.
+
+### Denetimde dikkat cekenler
+
+- **Uzunluk bu kez denetimden once duzeltildi.** 5. grubun dersi (386-388 kelimelik band 8'ler
+  hedef kullaniciya yanlis model gosteriyor) bastan uygulanmadi ve ilk uretimde metinler yine
+  uzun cikti: T2-50 / 8,0 365, T2-54 / 8,0 342, GT08 / 8,0 308, GT07 / 8,0 301 kelime. Hepsi
+  fikir yapisina dokunulmadan sikistirildi; son degerler 265-294, yani kutuphanenin geri
+  kalaniyla ayni araliktalar. **Bu kusur ucuncu kez ayni yerde cikiyor** - 40 dakikada
+  yazilabilecek uzunluk, uretim sirasinda kendiliginden korunmuyor.
+- **Hatali cumle oranlari** (sayilan / toplam): band 5'lerde GT06 9/11, GT07 8/8, GT08 7/7,
+  T2-50 10/12, T2-54 11/12 - hepsi %80'in uzerinde, yani GRA 4. Band 6,5'larda duzeltmeden
+  sonra GT06 5/11, GT07 6/12, GT08 7/13, T2-50 6/14, T2-54 7/14 - hepsi %43-54 arasinda,
+  talimatin 6 satirinda (%40-60).
+- **Band 5'lerde eksik birakilan yukumluluk her gorevde farkli** ve her biri gorevin kendi
+  `common_mistakes` listesinden: GT06'da ucuncu madde "don't worry" ile geciliyor (isin nasil
+  yurutulecegi hic yok), GT07'de ikinci madde etkiyi anlatmak yerine kucumsuyor, GT08'de davet
+  "come and stay with me sometime" ile belirsiz birakiliyor, T2-50'de onlemler bolumu tek dilek
+  cumlesi, T2-54'te dezavantaj tarafi hic yazilmayip ceza agirligi tartismasina kayiyor.
+  Sonuncusu talimatin "yanindaki baska soruyu cevapliyor → max 5" capasini da atesliyor.
+- **Ton kaymasi uc mektupta uc ayri bicimde** kullanildi: GT06'da emir kipi ve Thanks a lot
+  kapanisi, GT07'de "must to use" ile yumusatilmamis rica, GT08'de samimi mektubun
+  "I am writing to inform you" ile acilip "Yours faithfully" ile kapanmasi. Hicbiri bastan sona
+  surmedigi icin "ton acikca yanlis" capasi (max 6) ateslenmedi; tutarsizlik TA'nin 5 satirindan
+  okundu - 3. gruptaki olcutun aynisi.
+- **GT08 / 5,0 bilerek tek blok halinde yazildi**, gorevin `common_mistakes` listesindeki
+  "paragrafsiz tek blok" maddesi gercek metin uzerinde gorunsun diye. Paragraf capasi (max 6)
+  ve cumle siniri capasi (max 6) atesleniyor, ama sira izlenebildigi icin CC 5'e degil 5,5'e
+  oturuyor. Genel band yine 5,0.
+- **Kelime sayisi capasi hicbir cevapta ateslenmedi.** Mektup band 5'leri 182-199 (sinir 150),
+  Task 2 band 5'leri 268-270 (sinir 250). Mektuplarda selamlama ve imza dahil sayildi; bunlar
+  cikarilinca en kisa mektup (GT06 / 5,0) 174 kelime, yani yine sinirin ustunde.
+- **Band 8'ler kusursuz degil**: GT06'da ikinci paragrafin ilk cumlesi uc bilgiyi birden
+  tasiyor, GT07'de acilistaki `warn` bir rica mektubu icin fazla sert, GT08'de ucuncu paragrafin
+  son cumlesi uzun, T2-50'de sessiz saat onerisi otekilerden kisa, T2-54'te maliyet argumani
+  yalnizca son paragrafta geciyor. Hepsi `what_would_lift_it` alaninda aciktan isaret edildi;
+  hicbiri band 9 hedeflemiyor.
+- **Uc seviyede de tutum ayni tarafta** tutuldu: T2-50'de kurum kurallari kisisel aliskanliktan
+  once, T2-54'te kosullu olumlu. Ayni gorev, ayni pozisyon, farkli yurutme.
+- **Metinler `tools/_c1_uret6.py` icinde duruyor**, kelime sayisi uretimde sayiliyor ve alt
+  sinir gorev turune gore (150 / 250) kontrol ediliyor. `_c1_uret2.py`, `_c1_uret4.py` ve
+  `_c1_uret5.py` ile ayni kalip.
+
+### Yazma yarisi bitti - konusmaya kalan
+
+Otuz yazma gorevi × uc seviye = 90 cevap tamam. Kalan dort calistirma konusma kartlari:
+20 kart × 3 seviye = 60 cevap, Part 2 kartlari oncelikli. Konusmada olcut ucluye dusuyor
+(akicilik · sozcuk · dilbilgisi), `text` yerine `transcript` yaziliyor ve
+`approx_duration_seconds` ekleniyor; talimat `degerlendirme/konusma.md`. Yazma tarafindan
+tasinacak iki ders: **hedef bandi yazarken tutturmak sonradan duzeltmekten saglikli sonuc
+veriyor** (3. grup) ve **uzunluk uretimde kendiliginden korunmuyor, denetimde olculmeli**
+(5. ve 6. grup).

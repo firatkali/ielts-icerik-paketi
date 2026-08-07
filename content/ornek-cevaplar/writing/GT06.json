@@ -1,0 +1,45 @@
+{
+  "exam": "ielts",
+  "schema_version": "1.0",
+  "kind": "model_answer_set",
+  "skill": "writing",
+  "task_ref": "GT06",
+  "answers": [
+    {
+      "band": 5.0,
+      "text": "Dear Ms Farrow,\n\nI am writing you about a course which I am accepted for it, and I want to ask a small change of my working hours.\n\nFirstly, the course is about the accounting program that we use in our office. It start in the next month and it continue for three month. The lesson is in the Tuesday and the Thursday morning, from nine o'clock until half past eleven, in the college near the station. My place is already confirm by the college.\n\nSecondly, please change my working hour in this two days. I must come to the office at twelve o'clock instead of eight o'clock, because the college is twenty minutes far from our building. In the other three days everything can stay same like now.\n\nThirdly, about my work, don't worry, I will do everything like before and nothing will be late.\n\nI think this course is very useful also for the company, because after it I can prepare the monthly reports faster and with less mistake. I hope you accept my demand.\n\nThanks a lot,\n\nKerem Aydin",
+      "word_count": 182,
+      "why_this_band": {
+        "task_response": "Kurs ve istenen saat degisikligi somut sayilarla veriliyor, ama ucuncu madde tek bir dilek cumlesine iniyor: isin nasil yurutulecegine dair hicbir plan yok, yalnizca don't worry deniyor. Emir kipiyle yazilan please change ve Thanks a lot kapanisi yoneticiye yazilan yari resmi tonu bozuyor.",
+        "coherence_cohesion": "Firstly / Secondly / Thirdly maddelerin uzerine mekanik olarak oturtulmus ve ucuncu paragraf tek cumlede bitiyor. Kurs-talep-is sirasi yine de mantikli, okuyucu neyin istendigini takip edebiliyor.",
+        "lexical_resource": "Sozcuk gunluk ve tekrarli: course, work, hour donup duruyor, mektuba ait tek kalip I am writing. Demand istek yerine kullanilmis ve twenty minutes far, less mistake bicimleri okuru bir an durduruyor.",
+        "grammatical_range_accuracy": "Cumlelerin neredeyse tamaminda hata var: writing you, which I am accepted for it, it start, for three month, in the Tuesday, is already confirm, in this two days, stay same like now. Yapilar basit cumle ve because ile eklenmis kisa gerekcelerden ibaret."
+      },
+      "what_would_lift_it": "Ucuncu maddeyi gercekten yazmak: sabah bakilan islerin gun icinde nereye kayacagini ve kimin devralacagini somut olarak anlatmak. Please change yerine I would like to ask kalibina gecmek ve Thanks a lot yerine Kind regards kullanmak tonu de yerine oturtur."
+    },
+    {
+      "band": 6.5,
+      "text": "Dear Ms Farrow,\n\nI am writing to ask for a change in my working hours for the next three months, because I have been accepted on a short training course.\n\nThe course is called Financial Reporting for Small Firms and it is given by the college near the station. It takes place on Tuesday and Thursday mornings, from nine until half past eleven, and it will start on 3 March and finish at the end of May. Unfortunately these hours are exactly the same with our normal starting time, so I cannot attend without your permission.\n\nI would like to begin work at twelve o'clock on this two days and to stay until seven in the evening instead of four. On Monday, Wednesday and Friday my hours would not change at all, so I would still work the same number of hours in a week.\n\nI have also thought about my daily tasks. The supplier invoices which I normally check in the morning can be done in the afternoon, and I have already spoken with Deniz, who is agree to answer the accounts line until I arrive. I will also read my messages before to leave the college.\n\nI believe the course would help our team, because it covers the new reporting rules which we will have to follow them next year. I would be very grateful if you could consider my request.\n\nKind regards,\n\nKerem Aydin",
+      "word_count": 237,
+      "why_this_band": {
+        "task_response": "Uc madde de karsilaniyor: kurs adiyla ve saatiyle tanitiliyor, degisiklik saat vererek isteniyor, isin nasil yurutulecegi iki somut cozumle anlatiliyor. Kursun sirkete faydasi tek cumlede kaliyor, talebi guclendirecek kadar acilmamis.",
+        "coherence_cohesion": "Paragraf bolunmesi mantikli ve her paragraf tek bir maddeyi tasiyor. Baglantilar Unfortunately / I would like to begin / I have also thought gibi tanidik kaliplarin disina cikmiyor, ilk cumleyle son cumle arasindaki gecis biraz duz.",
+        "lexical_resource": "I would be very grateful if you could consider my request, supplier invoices, attend, permission gibi mektuba ve isin alanina uygun ogeler var. The same with, who is agree gibi yerlerde esdizim tam oturmuyor.",
+        "grammatical_range_accuracy": "Ilgi cumlecikleri ve kosullu kalip dogru kuruluyor, uzun cumleler dagilmiyor. Cumlelerin yaklasik yarisinda edat, uyum ya da isaret sifati hatasi var (the same with, on this two days, who is agree, before to leave, follow them next year); anlam hicbir yerde engellenmiyor."
+      },
+      "what_would_lift_it": "Hatalarin cogu ayni yerde toplaniyor - edatlar ve isaret sifatlari. Mektubu gondermeden once yalnizca bunlara bakan bir okuma yapmak (on these two days, who has agreed, before leaving) dilbilgisini bir band yukari tasir."
+    },
+    {
+      "band": 8.0,
+      "text": "Dear Ms Farrow,\n\nI have been offered a place on a short training course starting next month, and as the sessions fall inside our working day, I would like to ask whether my hours could be adjusted while it runs.\n\nThe course, Financial Reporting for Small Firms, is run by the college on Station Road and consists of two morning sessions a week, on Tuesdays and Thursdays from nine until half past eleven. It begins on 3 March and ends in the last week of May, so the arrangement I am asking about would cover roughly twelve weeks.\n\nOn those two days I would like to start at half past twelve rather than eight, and to work through until seven in the evening. My hours on the other three days would stay exactly as they are, which means my weekly total would be unchanged and no overtime would be involved.\n\nAs for the work itself, the supplier invoices I usually check first thing can be dealt with in the afternoon without holding up the payment run, and Deniz has kindly agreed to cover the accounts line on those two mornings. I will look at my messages between sessions and deal with anything urgent before I leave the college.\n\nThe course covers the reporting rules that come into force next January, so I hope it would be of some use to the department as well. I would of course be happy to discuss it, or to look at a different arrangement if the one I have suggested is awkward for the rota.\n\nKind regards,\n\nKerem Aydin",
+      "word_count": 265,
+      "why_this_band": {
+        "task_response": "Uc madde de tam: kurs adi, gunleri, tarih araligi ve suresi verilmis; degisiklik saatle istenmis ve haftalik toplamin degismedigi belirtilmis; isin yurutulmesi hem gorev hem kisi adiyla cozulmus. Kapanistaki alternatif arrangement onerisi karari yoneticide birakiyor.",
+        "coherence_cohesion": "Bes paragraf mektubun mantigini tasiyor: talep, kurs, saatler, is, kapanis. As for the work itself gibi gecisler goze batmadan yon degistiriyor ve hicbir paragraf ikinci bir konuya kaymiyor.",
+        "lexical_resource": "Mektup diline ve is baglamina uygun az kullanilan ogeler var: fall inside our working day, hold up the payment run, come into force, cover the accounts line, awkward for the rota. Bir iki yerde vurgu biraz agir kaliyor.",
+        "grammatical_range_accuracy": "Kosullu yapi, ilgi cumlecigi ve edilgen bicim dogru ve dogal kullaniliyor; hatali cumle yok denecek kadar az. Ikinci paragrafin ilk cumlesi uc bilgiyi birden tasidigi icin biraz sikisik duruyor."
+      },
+      "what_would_lift_it": "Ikinci paragrafin ilk cumlesini ikiye bolmek: kursun kim tarafindan verildigi ile gun ve saatler ayri cumlelere dusunce ritim rahatlar. Kursun departmana faydasi son paragrafta bir cumle daha acilirsa talep tam yerine oturur."
+    }
+  ]
+}

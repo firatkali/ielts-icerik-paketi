@@ -1,0 +1,45 @@
+{
+  "exam": "ielts",
+  "schema_version": "1.0",
+  "kind": "model_answer_set",
+  "skill": "writing",
+  "task_ref": "GT08",
+  "answers": [
+    {
+      "band": 5.0,
+      "text": "Dear Nadia,\n\nI am writing to inform you that I will move to another town in the next month, I hope this letter find you in a good health. The reason of my decision is my job, because my company is open a new office in Kestrel Bay and they offer me a better position there with more salary, and also my rent here is very expensive for me, every month I am paying almost the half of my money for this small flat. Kestrel Bay is a nice town near the sea, it is not so big like here but the people say it is very quiet and the life is more cheap. My new home is a flat in the second floor and it have two room and a small balcony. I am little bit sad because I leave my friends here, specially you, we know each other from ten years and we was going everywhere together. So you must come and stay with me sometime, my home is your home, we can talk all the night like before. Please write me an answer soon and tell me what is the news from you.\n\nYours faithfully,\n\nEmre",
+      "word_count": 199,
+      "why_this_band": {
+        "task_response": "Tasinma sebebi ve yeni yer anlatiliyor, ama davet come and stay with me sometime ile belirsiz birakiliyor: ne zaman, ne kadar sure, birlikte ne yapilacagi yok. Arkadasa yazilan mektup I am writing to inform you ile aciliyor ve Yours faithfully ile kapaniyor; arasi samimi oldugu icin ton bastan sona degil, uclarda kayiyor.",
+        "coherence_cohesion": "Mektup selamlama ile kapanis arasinda tek bir blok halinde yazilmis, hicbir paragraf bolunmesi yok. Sira yine de izlenebiliyor - haber, sebep, yeni kasaba, ev, davet - ve baglantilar calisiyor, bu yuzden okuyucu yolunu kaybetmiyor.",
+        "lexical_resource": "Sozcuk gunluk ve tekrarli: nice, small, big donup duruyor, kasaba ve ev iki genel sifatla geciliyor. Samimi mektuba ait tek dogal kalip my home is your home; more cheap ve in a good health bicimleri okuru bir an durduruyor.",
+        "grammatical_range_accuracy": "Neredeyse her cumlede hata var: this letter find you, the reason of my decision, my company is open, they offer me, in the second floor, it have two room, we know each other from ten years, we was going, what is the news. Cumleler virgullerle birbirine ekleniyor ve nokta yerine virgul kullanilan yerler cok."
+      },
+      "what_would_lift_it": "Daveti somutlastirmak: hangi ay, kac gun ve orada birlikte ne yapilacagi. Mektubu uc dort paragrafa bolmek ve I am writing to inform you / Yours faithfully kaliplarini arkadasa uygun bir acilis ve kapanisla degistirmek de gerekiyor."
+    },
+    {
+      "band": 6.5,
+      "text": "Dear Nadia,\n\nI hope you are well and that the new job is not keeping you too busy. I have some news for you: in the end of next month I am moving to Kestrel Bay.\n\nThe main reason is my work. My company is opening a small office there and they asked me to run it, and honestly I was also tired from this city. My rent has gone up twice in two year and I spend almost two hours in the traffic every day, so I said yes immediately.\n\nYou will like Kestrel Bay, I am sure. It is much smaller than here, maybe thirty thousands people, and it is built around a little harbour where the fishing boats still come in. There is a long beach on the north side and a market in the main square on Saturdays. My new flat is on the top floor of an old house two streets from the sea, it has a small balcony and from the corner you can see the water.\n\nSo please come and stay with me. The second bedroom is small but it has a proper bed, and I am free on the middle of July if these dates are good for you. We could walk to the lighthouse, eat too much fish and do nothing for a whole week.\n\nWrite to me soon and tell me how are you.\n\nLove,\n\nEmre",
+      "word_count": 236,
+      "why_this_band": {
+        "task_response": "Uc madde de karsilaniyor: tasinma sebebi is ve sehir uzerinden anlatiliyor, kasaba ve ev nufusuyla ve konumuyla tarif ediliyor, davet tarih ve sure vererek yapiliyor. Arkadasin halini soran acilis mektubu gercekci kiliyor, ama sebep paragrafinda karar ani biraz aceleye geliyor.",
+        "coherence_cohesion": "Paragraflar konu konu bolunmus ve her biri tek bir maddeyi tasiyor. So please come and stay with me gibi gecisler dogru ama tanidik; ucuncu paragrafta ev ile kasaba ayni paragrafta kaliyor.",
+        "lexical_resource": "Harbour, lighthouse, a proper bed, keeping you too busy gibi samimi mektuba uygun ogeler var ve ton bastan sona arkadasca. Thirty thousands ve on the middle of July gibi yerlerde bicim tam oturmuyor.",
+        "grammatical_range_accuracy": "Ilgi cumlecikleri ve kosullu yapi dogru kuruluyor, uzun cumleler dagilmiyor. Cumlelerin yaklasik yarisinda edat, cogul ya da soru sirasi hatasi var (in the end of next month, tired from this city, in two year, thirty thousands people, on the middle of July, tell me how are you) ve bir yerde nokta yerine virgul kullanilmis; anlam hicbir yerde engellenmiyor."
+      },
+      "what_would_lift_it": "Evi anlatan cumleleri ayri bir paragrafa almak, kasaba ile evi karistirmadan. Dilbilgisinde tekrar eden iki nokta var: zaman edatlari (in the end of, on the middle of) ve dolayli soruda sozcuk sirasi (tell me how you are)."
+    },
+    {
+      "band": 8.0,
+      "text": "Dear Nadia,\n\nI hope the new job is treating you kindly. I have been sitting on some news for a fortnight and cannot keep it any longer: next month I am packing up and moving to Kestrel Bay.\n\nIt came out of nowhere, really. The firm is opening a small office there and asked whether I would run it; once I had stopped panicking I realised I wanted to go. This city has been wearing me down anyway: the rent has gone up twice since I moved in, and I lose two hours of every day to traffic that never moves.\n\nYou would love the place. It is tiny compared with here, about thirty thousand people, built in a half circle around an old fishing harbour. There is a proper beach ten minutes north, a Saturday market that sells nothing you need, and four cafes, which everyone thinks is plenty. I have taken the top floor of a tall grey house two streets back from the water, and although the ceilings slope in a way that will catch you out, there is a balcony big enough for two chairs and a view of the harbour lights.\n\nSo come and stay. The spare room will be ready by the middle of July, and it would be lovely if you could give me a whole week rather than a weekend; I want to take you to the lighthouse and feed you too much fish. Tell me which dates suit you and I will keep them free.\n\nWrite soon and tell me everything you have been up to.\n\nLove,\n\nEmre",
+      "word_count": 267,
+      "why_this_band": {
+        "task_response": "Uc madde de tam ve dogal: haber bir kisisel giristen sonra veriliyor, sebep hem is hem sehir yorgunlugu olarak aciliyor, kasaba ve ev tek tek goruluyor, davet tarih, sure ve birlikte yapilacak seylerle somut. Arkadasin haberini soran kapanis mektubu tamamliyor.",
+        "coherence_cohesion": "Bes paragraf haber, sebep, yeni yer, davet ve kapanis sirasini izliyor ve gecisler It came out of nowhere / You would love the place gibi konusma ritmiyle yapiliyor. Hicbir paragraf ikinci bir konuya kaymiyor.",
+        "lexical_resource": "Samimi mektup icin dogal ve az kullanilan ogeler var: sitting on some news, packing up, wearing me down, catch you out, what you have been up to. Treating you kindly acilisi biraz fazla islenmis duruyor.",
+        "grammatical_range_accuracy": "Zaman kipleri, kosullu yapi ve dolayli soru esnek ve dogru kullaniliyor; hatali cumle yok denecek kadar az. Ucuncu paragrafin son cumlesi uc bilgiyi birden tasidigi icin uzun kaliyor."
+      },
+      "what_would_lift_it": "Ucuncu paragrafin son cumlesini ikiye bolmek: tavanlar ile balkon ayri cumlelere dusunce mektubun ritmi rahatlar. Acilistaki treating you kindly kalibi sadelestirilirse ton daha dogal olur."
+    }
+  ]
+}

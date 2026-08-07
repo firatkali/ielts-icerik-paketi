@@ -1,0 +1,45 @@
+{
+  "exam": "ielts",
+  "schema_version": "1.0",
+  "kind": "model_answer_set",
+  "skill": "writing",
+  "task_ref": "GT07",
+  "answers": [
+    {
+      "band": 5.0,
+      "text": "Dear Mr Ellery,\n\nI write you this letter for informing you about a work in my house, because it can be a little problem for you also.\n\nFirstly, the roof of my house is very old and in the winter the water come inside from two place. So the workers will change all the tile and they will put a new isolation under it. The work start in 12 May and it take almost two week, every day from eight in the morning to five in the evening.\n\nSecondly, there will be a noise of course, but it is only a normal noise of a work and I think you not hear it too much in the day time.\n\nThirdly, the workers must to use the path in the side of your house, because in my side there is no place for the ladder and the machine. They will pass with the materials from there in the morning and in the evening, this is the only solution for us.\n\nI will be in the home in this period, so if there is a problem you can knock my door in any time.\n\nBest wishes,\n\nSelin Kaya",
+      "word_count": 196,
+      "why_this_band": {
+        "task_response": "Yapilacak is ve tarihler somut veriliyor, gecis ricasi da yapiliyor; ama ikinci madde tek cumleye iniyor ve o cumle etkiyi anlatmak yerine kucumsuyor (only a normal noise, you not hear it too much). Ricanin must to use kalibiyla dogrudan istenmesi komsuya yazilan bir mektupta tonu bozuyor.",
+        "coherence_cohesion": "Firstly / Secondly / Thirdly uc maddenin uzerine mekanik olarak oturtulmus, ikinci paragraf tek cumlede bitiyor. Is-etki-rica sirasi yine de mantikli ve okuyucu neyin istendigini kaybetmiyor.",
+        "lexical_resource": "Sozcuk gunluk ve tekrarli: work, problem, noise donup duruyor, isolation yalitim yerine yanlis secilmis. Mektuba ait tek kalip I am sorry for this situation, ricayi yumusatan bir oge yok.",
+        "grammatical_range_accuracy": "Neredeyse her cumlede hata var: I write you, for informing, the water come, from two place, all the tile, start in 12 May, it take, two week, you not hear, must to use, in the side, in the home, knock my door in any time. Yapilar basit cumle ve so / because ile eklenmis kisa gerekcelerden ibaret."
+      },
+      "what_would_lift_it": "Ikinci maddeyi kucumsemeden yazmak: gurultunun hangi gunlerde en yuksek olacagini, tozu ve kapanan gecisi durustce anlatmak. Must to use yerine I would be very grateful if you could allow gibi bir rica kalibi kullanmak tonu da yerine oturtur."
+    },
+    {
+      "band": 6.5,
+      "text": "Dear Mr Ellery,\n\nI am writing to let you know about some repair work on my roof next month, and to ask you a small favour.\n\nThe tiles above the back bedroom have been leaking from the storm in February, so that side of the roof has to be stripped and laid again. The builders will start on Monday 12 May and they expect to finish in about ten working days. They have promised me to not use the noisy machine before nine in the morning.\n\nI am afraid the work will be unpleasant for you as well. There will be a lot of hammering in the first three days, and some dust will certainly come in your garden. The scaffolding will also take a part of the light from your kitchen window for two week.\n\nMy favour is about the path on the side of your house. The builders cannot reach the roof from my garden because of the old plum tree, so they need to carry the ladders through your path, perhaps four times in a day. There would be only two men and they have agreed to clean the path every evening.\n\nPlease tell me if this is not convenient and I will ask them to find another way. My phone number is on the back of this letter, so you can call me if the noise become a problem.\n\nKind regards,\n\nSelin Kaya",
+      "word_count": 237,
+      "why_this_band": {
+        "task_response": "Uc madde de karsilaniyor: is ve suresi tarihle veriliyor, komsuya etkisi gurultu, toz ve isik uzerinden ayri bir paragrafta anlatiliyor, rica kapsamiyla birlikte yapiliyor. Rica kabul edilirse ne kadar surecegi net ama isin bitiminde tam olarak neyin temizlenecegi biraz genel kaliyor.",
+        "coherence_cohesion": "Paragraflar mantikli bolunmus ve her biri tek bir maddeyi tasiyor. Baglantilar I am afraid / My favour is about gibi tanidik kaliplarla saglaniyor, gecisler dogru ama duz.",
+        "lexical_resource": "Stripped, scaffolding, hammering, convenient, favour gibi gorev icin dogru ogeler var ve rica nazikce kuruluyor. Laid again, take a part of the light gibi yerlerde esdizim tam oturmuyor.",
+        "grammatical_range_accuracy": "Ilgi cumlecikleri, edilgen yapi ve kosullu kalip dogru kuruluyor, uzun cumleler dagilmiyor. Cumlelerin yaklasik yarisinda edat, cogul ya da uyum hatasi var (leaking from the storm, to not use, the noisy machine, come in your garden, for two week, through your path, in a day, the noise become); anlam hicbir yerde engellenmiyor."
+      },
+      "what_would_lift_it": "Hatalarin cogu edatlarda ve tekil-cogulda toplaniyor; mektubu gondermeden once yalnizca bunlara bakan bir okuma (for two week, in a day, the noise become) dilbilgisini bir band yukari tasir."
+    },
+    {
+      "band": 8.0,
+      "text": "Dear Mr Ellery,\n\nI am writing to warn you about some work due to start on my roof next month, and to ask a favour of you at the same time.\n\nThe tiles above the back bedroom have been letting water in since the February storms, and the roofer says patching is no longer worth doing, so the rear slope will be stripped and relaid. The men are booked for Monday 12 May and reckon on ten working days, weather permitting. They will work from eight until five, with the noisier tools kept back until after nine.\n\nI am sorry to say that you will hear a good deal of it. The first three days, when the old tiles come off, will be the worst, and there is bound to be dust in your garden. The scaffolding will stand against the gable and may take some of the light from your kitchen window, although it should be down again by the end of the fortnight.\n\nThe favour is this. The old plum tree makes it impossible to bring a ladder up my own side, so the roofer has asked whether his men might use the path along the side of your house. It would be two of them carrying materials, perhaps four times a day, and they have agreed to sweep the path each evening and make good any damage.\n\nDo say if this would be a nuisance and I will ask them to find another way round. My number is on the back of this letter, in case the noise becomes too much.\n\nKind regards,\n\nSelin Kaya",
+      "word_count": 268,
+      "why_this_band": {
+        "task_response": "Uc madde de tam ve dengeli: isin ne oldugu ve neden ertelenemeyecegi, komsuya etkisi gun gun, rica ise kac kisi, kac kez ve sonrasinda ne yapilacagiyla birlikte. Sorun cikarsa vazgecme teklifi ve telefon numarasi ricayi kabul edilebilir kiliyor.",
+        "coherence_cohesion": "Bes paragraf mektubun mantigini tasiyor ve The favour is this gibi kisa bir cumle donusu isaret ediyor. Zaman ve mekan bilgisi okuyucunun ihtiyac duydugu sirada geliyor, hicbir paragraf ikinci bir konuya kaymiyor.",
+        "lexical_resource": "Mektup diline uygun az kullanilan ogeler var: weather permitting, bound to be, make good anything they damage, a nuisance, a fortnight, the rear slope. Ikinci paragrafta teknik ayrinti bir an yogunlasiyor.",
+        "grammatical_range_accuracy": "Zaman kiplerinin ve kosullu yapilarin kullanimi esnek ve dogru; hatali cumle yok denecek kadar az. Ucuncu paragrafin ikinci cumlesi uc bilgiyi birden tasidigi icin nefes almadan okunuyor."
+      },
+      "what_would_lift_it": "Acilistaki warn sozcugu bir rica mektubu icin fazla sert; let you know ya da give you some warning daha uygun olur. Ucuncu paragrafin uzun cumlesini ikiye bolmek de ritmi rahatlatir."
+    }
+  ]
+}
