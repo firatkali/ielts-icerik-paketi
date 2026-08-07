@@ -6979,3 +6979,30 @@ hiç kullanılmadı, kalan on soruda birer kez. Çeldirici türü çeşitliliği
   `python tools/puanlama-raporu.py 3` ancak kalan 3 grup da bitince anlamli sonuc
   verir.
 - Atlanan/sorun: yok — 7 ornekten hicbiri `transcription_suspect: true` degildi.
+
+## SONNET5-A3 (2. calistirma: tur 3 — AC-T2 grubu, 5 ornek x 3 tekrar)
+- Tarih: 2026-08-07
+- Ayni tur 3 (SON tur), ayni talimat surumu (`degerlendirme/yazma-task2.md`, OPUS5-A4'un
+  2. duzeltmesi sonrasi). `kalibrasyon/olcum/tur3/` icinde AC-T1 grubu (1. calistirma)
+  zaten vardi; dosya sirasina gore sonraki grup AC-T2 (5 ornek: 2A-A, 2A-B, 2A-C, 2B-A,
+  2B-B) yapildi. Kalan 2 grup: GT-T1 (6 ornek), GT-T2 (5 ornek) — sonraki 2 calistirmanin
+  isi. 15 puanlama dosyasi yazildi: `kalibrasyon/olcum/tur3/AC-T2-*-{1,2,3}.json` (bu
+  dosyalar `.gitignore` geregi depoya girmiyor, sadece `RAPOR-tur*.md` ve `kumeler.json`
+  public depoya giriyor).
+- **Korluk yontemi:** 1. calistirmadaki ile ayni — `kalibrasyon/ornekler/yazma/AC-T2-*.json`
+  dosyalari bir python script'i ile `task_prompt` + `word_count` + `response_text` (band,
+  examiner_comment, transcription_notes hic yazdirilmadan) gecici bir scratch klasorune
+  (`kalibrasyon/olcum/_scratch_tur3/`) stripped kopyalandi, ana oturum sadece o stripped
+  dosyalari Read ile actı. Her ornek + her tekrar (15 kombinasyon) icin ayri, taze bir
+  alt-ajana (genel amacli subagent, model: sonnet acikca belirtildi) yalniz stripped veri
+  gomulu olarak verildi; alt-ajan kendisi `degerlendirme/yazma-task2.md` dosyasini okuyup
+  uyguladi, `kalibrasyon/ornekler/`, `KONTROL.md` ve `kalibrasyon/olcum/` acmamasi acikca
+  soylendi. 15 ayri tekrar icin 15 ayri taze ajan (paralel, tek mesajda). Scratch klasoru
+  islem bitince silindi.
+- Bu grubun tek seferlik (1. tekrar) tahminleri: 2A-A=5,0 · 2A-B=6,0 · 2A-C=7,5 ·
+  2B-A=6,0 · 2B-B=7,0. Tekrarlar arasi yayilim: 2A-A 0 (5/5/5), 2A-B 0 (6/6/6), 2A-C 0,5
+  (7,5/7/7), 2B-A 0 (6/6/6), 2B-B 0,5 (7/7/6,5).
+- **Rapor script'i bu calistirmada calistirilmadi** — tur 3'un 4'te 2'si tamam
+  (36/69 puanlama). `python tools/puanlama-raporu.py 3` kalan 2 grup (GT-T1, GT-T2) da
+  bitince anlamli sonuc verir.
+- Atlanan/sorun: yok — 5 ornekten hicbiri `transcription_suspect: true` degildi.
