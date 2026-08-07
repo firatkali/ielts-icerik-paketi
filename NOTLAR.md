@@ -7035,3 +7035,30 @@ hiç kullanılmadı, kalan on soruda birer kez. Çeldirici türü çeşitliliği
   (54/69 puanlama). `python tools/puanlama-raporu.py 3` kalan 1 grup (GT-T2) da bitince
   anlamli sonuc verir.
 - Atlanan/sorun: yok — 6 ornekten hicbiri `transcription_suspect: true` degildi.
+
+## OPUS5-A4 (3. calistirma: SON RAPOR — duzeltme yok)
+- Tarih: 2026-08-07
+- **Talimat duzeltilmedi.** `degerlendirme/` altindaki hicbir dosyaya dokunulmadi; bu
+  calistirma prompt'un 3. adimi (son rapor). Yazilan tek cikti:
+  `kalibrasyon/olcum/SONUC.md`.
+- Once `python tools/puanlama-raporu.py 3` calistirildi (onceki calistirma "GT-T2 grubu
+  bitince calistirin" diye birakmisti) → `kalibrasyon/olcum/RAPOR-tur3.md` uretildi.
+  Hesaplar icin ayrica `tools/_a4_sonuc.py` yazildi (uc turu eslesik karsilastirir; bu
+  asamada sakli kume kalmadigi icin kume filtresi yok). SONUC.md'deki her sayi bu iki
+  script'ten gelir, elle ortalama alinmadi.
+- 🔴 **Tur 3 tamamlanmadi:** 23 ornekten 18'i puanlandi (54/69). Eksik grup GT-T2
+  (5 ornek x 3 tekrar). Sebep: adim 105 oturum limitine takilip cikis 1 ile dustu
+  (`gunluk/20260807-053340-adim105.log`), is listesi sonraki adima gecti. Bu oturum
+  eksigi kapatamaz — olcum bilerek Sonnet ile yapilir, bu oturum Opus.
+- Tur 3 (18 ornek): ortalama mutlak fark **0,694** · egilim **-0,139** · en buyuk sapma
+  **1,50** · yayilim **0,19**. Eslesik 18 ornekte turlar: 0,944 → 0,861 → 0,694 ve
+  egilim -0,667 → -0,639 → -0,139.
+- 4 basari olcutunden **2'si gecti** (egilim, tutarlilik); 2'si kaldi (ortalama mutlak
+  fark 0,694 > 0,5; en buyuk sapma tam 1,50).
+- Sakli kume kontrolu **temiz**: tur 3'te S1 (2. duzeltmenin sakli kumesi) 0,714 vs
+  S2+S3 0,682 → fark 0,032 band. Ezber isareti yok.
+- En kotu bulgu: **alt band (<=4,5) geri gitti** — tur 2'de +0,50, tur 3'te +1,25.
+  Gercek bandi 3,0 olan cevaba urun 4,5 veriyor. Sonraki duzeltme turunun 1. maddesi.
+- Kalan riskler SONUC.md bolum 6'da: konusma hic olculmedi (konusma ornegi yok),
+  ornek sayisi az (band basina 1-4), tur 3 eksik, tek model ailesi, alt band yanlis
+  yonde hata, sakli kume korumasi rapor bicimi yuzunden kusurluydu.
