@@ -6945,3 +6945,37 @@ hiç kullanılmadı, kalan on soruda birer kez. Çeldirici türü çeşitliliği
 - Konusma tarafi hala hic olculmedi. `konusma.md`'ye yalniz ortak bloklar girdi;
   konusmanin kendi tavan degerlerine (hepsi `max 5`) **dokunulmadi**, cunku onlari
   ayarlayacak olcum yok. Son raporda kalan risk.
+
+## SONNET5-A3 (1. calistirma: tur 3 — AC-T1 grubu, 7 ornek x 3 tekrar)
+- Tarih: 2026-08-07
+- **Bu tur 3 (SON tur):** her ornek 3 kez puanlanir (tur 1 gibi), talimat 2. duzeltmeden
+  sonraki surumle (`degerlendirme/*.md`, OPUS5-A4'un 2. duzeltmesi sonrasi) calisiyor.
+  Toplam 4 calistirma planlandi (tur 1'deki ayni gruplama: AC-T1, AC-T2, GT-T1, GT-T2).
+  `kalibrasyon/olcum/tur3/` depoda hic yoktu, yani ilk grup (dosya sirasina gore AC-T1)
+  yapildi. Kalan 3 grup: AC-T2 (5 ornek), GT-T1 (6 ornek), GT-T2 (5 ornek) — sonraki
+  3 calistirmanin isi. 21 puanlama dosyasi yazildi: `kalibrasyon/olcum/tur3/AC-T1-*-{1,2,3}.json`
+  (bu dosyalar `.gitignore` geregi depoya girmiyor — telifli aday metni tasiyorlar,
+  yalniz `RAPOR-tur*.md` ve `kumeler.json` public depoya giriyor).
+- **Korluk yontemi:** ana oturum `kalibrasyon/ornekler/yazma/*.json` dosyalarini hic
+  Read araciyla acmadi; onceki calistirmalardaki iki farkli sizinti dersini (band'in
+  terminale yanlislikla basilmasi, `KONTROL.md`'nin gercek bandlari tablo halinde
+  gostermesi) tekrarlamamak icin bir python script'i sadece `task_prompt` +
+  `response_text` + `word_count` alanlarini (band/examiner_comment/transcription_notes
+  hic yazdirilmadan) gecici bir scratch klasorune yazdi, ana oturum o stripped
+  dosyalari okudu. Her ornek + her tekrar (21 kombinasyon) icin ayri, taze bir
+  alt-ajana (subagent, model: sonnet) yalniz bu stripped veriler gomulu olarak
+  verildi; alt-ajan kendisi `degerlendirme/yazma-task1-academic.md` dosyasini okuyup
+  uyguladi ve `kalibrasyon/ornekler/` ile `KONTROL.md`yi acmamasi acikca soylendi.
+  Ayri tekrarlar icin ayri taze ajan kullanildi (tur 1 AC-T1 grubundaki gibi en siki
+  yontem) — ayni baglamda 3 kez sormanin modelin kendi tutarsizligini oldugundan az
+  gosterme riskinden kacinildi. Scratch klasoru (`kalibrasyon/olcum/_scratch_tur3/`)
+  islem bitince silindi.
+- Bu grubun tek seferlik (1. tekrar) tahminleri: 1A-A=5,5 · 1A-B=5,5 · 1B-A=5,0 ·
+  1B-B=6,0 · 1C-A=6,0 · 1C-B=6,5 · 1C-C=7,5. Tekrarlar arasi yayilim: 1A-A 0
+  (5,5/5,5/5,5), 1A-B 0,5 (5,5/6,0/5,5), 1B-A 0,5 (5,0/5,5/5,5), 1B-B 0,5
+  (6,0/6,0/6,5), 1C-A 0 (6,0/6,0/6,0), 1C-B 0 (6,5/6,5/6,5), 1C-C 0 (7,5/7,5/7,5).
+- **Rapor script'i bu calistirmada calistirilmadi** — talimat "her turda butun
+  ornekler puanlanir" diyor, bu calistirma turun 4'te 1'i (21/69 puanlama).
+  `python tools/puanlama-raporu.py 3` ancak kalan 3 grup da bitince anlamli sonuc
+  verir.
+- Atlanan/sorun: yok — 7 ornekten hicbiri `transcription_suspect: true` degildi.
