@@ -79,21 +79,33 @@ shortfall is penalised under Task Response.
    to finish.
 2. Score each criterion **independently**, in the order below, before thinking about an overall
    band. Do not let a strong criterion pull a weak one up, or the reverse.
-3. For each criterion pick the band that matches the essay **as a whole**. If it genuinely sits
-   between two bands, award the **half band** between them; drop to the lower whole band only when
-   the higher band's core requirement is not met at all. Half bands exist at criterion level and are
-   the normal answer for a borderline response.
-4. Apply the caps listed under each criterion. A cap is a **ceiling, never a score**: "max 5" means
-   "5 or lower". Keep the **lower** of the band you judged in step 3 and the cap — a cap can never
-   lift a band you have already judged to be below it. A cap fires only when its condition is plainly
-   true of this essay and you can point at the evidence; if you have to argue it into place, it does
-   not fire. If two or more caps hit the same criterion, or the essay also matches a descriptor row
-   below the cap, read the band off the table: it is well under the ceiling.
-5. Use the whole scale. Every band from 3 to 9 is an ordinary outcome, not an exception. Uncertainty
+3. Read the criterion's table **from the top down**, starting at band 9. Step down one row at a time
+   and stop at the first row that is a true description of this essay: the band is the **highest row
+   that is still true**, not the row that feels safest. Never start in the middle of the table and
+   work outwards. If the essay genuinely sits between the row you stopped at and the one above it,
+   award the **half band** between them; drop a further whole band only when the higher row's core
+   requirement is not met at all. Half bands exist at criterion level and are the normal answer for
+   a borderline response.
+4. Bands 7, 8 and 9 describe essays that **still contain faults** — read the rows: 7 allows
+   occasional errors, 8 allows occasional inaccuracy and rare lapses, 9 allows rare slips. At the
+   top of the scale the question is never "can I find a fault?" (you always can) but "what does this
+   fault cost the reader?" A slip the reader passes straight over does not move the band, and you
+   may not award below 7 on the strength of a fault that the 7 or 8 row already allows for.
+   "Strong, but there is X" is a reason to award 7 or 8; it is not a reason to award 5 or 6.
+5. Apply the caps listed under each criterion, **last of all**. A cap is a **ceiling, never a
+   score**: "max 5" means "5 or lower", "max 6" means "6 or lower". Keep the **lower** of the band
+   you read off the table and the cap — a cap can never lift a band you have already judged to be
+   below it, and a cap that fires is never by itself the reason for a band. A cap fires only when
+   its condition is plainly true of this essay and you can point at the evidence; if you have to
+   argue it into place, it does not fire. The number of caps that fire is not evidence of anything:
+   if several fire, or the essay also matches a descriptor row below the cap, the band is the one
+   you read off the table. Before writing down a band equal to a cap value, check that the essay
+   really matches that row of the table; if it matches a row below, award the lower band.
+6. Use the whole scale. Every band from 3 to 9 is an ordinary outcome, not an exception. Uncertainty
    is not a reason to drift toward the middle: if the evidence points at 8, award 8; if it points at
    3, award 3. 5 and 6 are not default landing places.
-6. Only then compute the overall band (STEP 4).
-7. Never adjust a criterion band afterwards to make the overall band look right.
+7. Only then compute the overall band (STEP 4).
+8. Never adjust a criterion band afterwards to make the overall band look right.
 
 ## STEP 3 — THE FOUR CRITERIA (equally weighted)
 
@@ -112,7 +124,22 @@ the ideas **developed and supported** rather than merely listed — in at least 
 | 4 | The essay touches the topic but does not answer the question. The position is unclear. Ideas are few, repeated, or unrelated to what was asked. |
 | 3 | Barely relates to the question. No position can be identified. |
 
-**Caps (a cap is a ceiling; see STEP 2 rule 4):**
+**What counts as a position:** an essay that works through several angles and arrives at a reasoned
+conclusion has a clear position — including when that conclusion is that no single option settles
+the question. Declining to pick one of two named sides is not the same as having no position. Ask
+what the essay argues, not which side it picked.
+
+**6 against 7:** an idea is *developed* when the reader can see why the writer holds it. A named
+example is one way to do that; a chain of reasons is another, and an essay that argues its case
+through explanation rather than illustration is not thereby at 6. Judge whether the support is
+there, not whether it takes the form you expected.
+
+**5 against 4:** at 5 the question is answered badly — in part, thinly, or with the position
+dropped halfway. At 4 the question is not answered: the essay is on the topic but the reader cannot
+find an answer to what was asked. An essay that trips a "max 5" cap has not thereby earned 5; read
+the 4 and 3 rows too before settling.
+
+**Caps (a cap is a ceiling; see STEP 2 rule 5):**
 - No position can be identified anywhere → **max 5**. A position does not have to pick a side: a
   reasoned refusal to choose, a "both matter, for these reasons" conclusion or a qualified stance
   all count, as long as the reader can say what the essay argues. Apply this cap only when the
@@ -146,12 +173,19 @@ accurate use of cohesive devices (connectors, conjunctions, reference words).
 | 3 | No logical organisation. Relationships between ideas cannot be followed. |
 
 **Caps:**
-- Written as one undivided block with no paragraphing → **max 5**.
-- Sentence boundaries break down (missing full stops, run-ons) often enough that the reader has to
-  re-read → **max 5**. (The errors themselves are counted under Grammar; here you judge only the
-  effect on readability.)
+- Written as one undivided block with no paragraphing → **max 6**. Missing paragraphing keeps an
+  essay out of 7 and above; it does not by itself place it at 5. Drop to **max 5** only when the
+  missing breaks are what makes the order of the argument hard to follow — if the sequence is clear
+  anyway and the linking works, the band is 6.
+- Sentence boundaries break down (missing full stops, run-ons) badly enough that the reader has to
+  re-read **more than about one sentence in five** → **max 6**; **max 5** only when this runs
+  through the whole essay and the thread of the argument is genuinely lost. Count the sentences you
+  actually had to read twice, not every sentence with a missing stop. (The errors themselves are
+  counted under Grammar; here you judge only the effect on readability.)
 - Sequencers (*Firstly, Secondly, Moreover, In conclusion*) carry the organisation while the
-  paragraphs themselves have no internal development → **max 6**.
+  paragraphs themselves have no internal development → **max 6**. A signposted essay whose sections
+  do develop their point is not covered by this cap: judge what is inside the paragraphs, not how
+  they are announced.
 
 ### 3. Lexical Resource → JSON key `lexical_resource`
 
@@ -203,6 +237,12 @@ these shares are wide. Bands 5 and below need meaning to start breaking down, no
 be countable. Judge both halves — how much range is on show, and how often an error actually costs
 the reader — and never let a tally of minor slips outweigh the range.
 
+Count; do not estimate by impression. An impression of "a lot of errors" runs high. A sentence
+counts only if you can name its error with a grammatical label from the list above. If you cannot
+name it, or you are unsure whether the sentence is wrong at all, it does not count. Spelling, a
+comma you would have placed differently, and a structure that is unusual but possible are not
+errors here. If your count lands on the boundary between two rows, take the **higher** band.
+
 Use the table as the primary check. Move at most half a band from it if range clearly argues
 otherwise — but never to escape a cap.
 
@@ -235,6 +275,12 @@ Every criterion's `why` must be grounded in this candidate's own language.
   never tidy the spelling, capitalisation or grammar of a quote.
 - `quote` may never come from the task prompt.
 - `why` must say what this particular essay does, and must connect to the quoted span.
+- The **first sentence** of `why` says what the essay actually does that earns the band you
+  awarded, and `quote` is the evidence for that. A second sentence may add what keeps it from the
+  next band up. A `why` that names only a fault is incomplete, and a band supported only by a fault
+  is usually a band too low: the easiest thing to name in any essay is an error, so a rule that
+  asks for something specific will pull you downwards unless you name the strength first. This does
+  not lengthen the output — `why` is still at most 2 sentences.
 - Recycled band-descriptor language is forbidden. "Shows a good range of vocabulary", "generally
   coherent", "some errors are present" carry no information on their own and are rejected unless
   the specific word, sentence or structure is named.

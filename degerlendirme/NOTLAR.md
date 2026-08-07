@@ -4,9 +4,10 @@ Bu klasördeki dosyalar (`yazma-task1-academic.md`, `yazma-task1-general.md`, `y
 `konusma.md`, `ORTAK-KURALLAR.md`, `cikti-semasi.json`) uygulamanın kullanıcı cevabını puanlarken
 kullanacağı talimattır. Aşağıdaki notlar **ilk sürümün** kaynak ve karar notlarıdır.
 
-🔴 **Talimat artık ilk sürüm değil.** 1. ölçüm turundan (tur 1) sonra düzeltildi. Hangi örüntü
-yüzünden ne değiştiği, neyin bilerek değiştirilmediği ve bir sonraki turun sınayacağı beklentiler
-`DEGISIKLIK-KAYDI.md` dosyasında. Ölçüm sayıları `kalibrasyon/olcum/RAPOR-tur<N>.md`'de.
+🔴 **Talimat artık ilk sürüm değil.** 1. ve 2. ölçüm turlarından sonra iki kez düzeltildi. Hangi
+örüntü yüzünden ne değiştiği, neyin bilerek değiştirilmediği ve bir sonraki turun sınayacağı
+beklentiler `DEGISIKLIK-KAYDI.md` dosyasında. Ölçüm sayıları `kalibrasyon/olcum/RAPOR-tur<N>.md`'de.
+Aşağıdaki 2. bölümdeki sayılar ilk sürümün sayılarıdır; güncel değerler talimat dosyalarındadır.
 
 ---
 
@@ -61,13 +62,15 @@ Hepsi ürün kararı; hiçbiri "resmî ölçüt böyle" diye okunmamalı.
    Response; ikisi de JSON'da `task_response` anahtarını kullanıyor. Sebep: tek şema, tek rapor
    scripti. Resmî ad her dosyada başlık olarak duruyor.
 2. **"Hata taşıyan cümle oranı" tablosu.** Dilbilgisi ölçütü, niteliksel tanım yerine sayılabilir
-   bir orana bağlandı (≤%15 → 8-9, %15-30 → 7, %30-50 → 6, %50-75 → 5, >%75 → 4). Sebep: aynı
-   cevaba her seferinde aynı puanı vermek. Resmî tanımda böyle bir eşik yok — bu bizim
-   tekrarlanabilirlik için koyduğumuz vekil ölçü ve A3/A4'te ilk ayarlanacak yer burası.
+   bir orana bağlandı. Sebep: aynı cevaba her seferinde aynı puanı vermek. Resmî tanımda böyle bir
+   eşik yok — bu bizim tekrarlanabilirlik için koyduğumuz vekil ölçü, ve nitekim ölçümde ilk
+   ayarlanan yer burası oldu: eşikler 1. düzeltmede yaklaşık 10 puan yukarı kaydırıldı, 2.
+   düzeltmede sayım kuralı sıkılaştırıldı (güncel değerler `ORTAK-KURALLAR.md` BLOK K'de).
 3. **Tavanlar (`max N`).** Genel bakış yoksa görev yanıtı en fazla 5, paragraf yoksa tutarlılık en
-   fazla 5, yan cümle hiç yoksa dilbilgisi en fazla 5 gibi kurallar resmî tanımda tek tek yazmıyor.
+   fazla 6, yan cümle hiç yoksa dilbilgisi en fazla 5 gibi kurallar resmî tanımda tek tek yazmıyor.
    Band tanımları tek başına bırakıldığında modelin yukarı kayma eğilimi var; tavanlar bu kaymayı
-   engellemek için kondu.
+   engellemek için kondu. 🔴 Ölçüm bunun tersini gösterdi: tavanlar ürünün **cimriliğinin** en
+   büyük tek kaynağı çıktı. Tavan değerleri ve tetikleme eşikleri iki düzeltmede de ele alındı.
 4. **Kelime sayısı eksikliği.** Alt sınırın altındaki cevapta görev ölçütü en fazla 6, alt sınırın
    dörtte üçünün de altındaysa en fazla 5. Resmî ceza şeması bu değil (gerçek sınavda eksiklik
    görev ölçütü içinde tartılır); bu, o tartıyı sayıya çeviren bir sadeleştirme.

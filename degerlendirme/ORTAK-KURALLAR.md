@@ -76,22 +76,33 @@ refused; the shortfall is penalised inside the task criterion (see that block).
 2. Run the sufficiency check. If it fails, emit the insufficient object and stop.
 3. Score each criterion INDEPENDENTLY, in the order given, before thinking about an overall band.
    Do not let a strong criterion pull a weak one up, or the reverse.
-4. For each criterion, pick the band whose description matches the response as a whole. If it
-   genuinely sits between two bands, award the HALF BAND between them; drop to the lower whole band
-   only when the higher band's core requirement is not met at all. Half bands exist at criterion
-   level and are the normal answer for a borderline response.
-5. Apply the caps listed under the criterion. A cap is a CEILING, NEVER A SCORE: "max 5" means
-   "5 or lower". Keep the LOWER of the band you judged in step 4 and the cap — a cap can never
-   lift a band you have already judged to be below it. A cap fires only when its condition is
-   plainly true of this response and you can point at the evidence; if you have to argue it into
-   place, it does not fire. If two or more caps hit the same criterion, or the response also
-   matches a descriptor row below the cap, read the band off the table: it is well under the
-   ceiling.
-6. Use the whole scale. Every band from 3 to 9 is an ordinary outcome, not an exception.
+4. Read the criterion's table FROM THE TOP DOWN, starting at band 9. Step down one row at a time
+   and stop at the first row that is a true description of this response: the band is the HIGHEST
+   row that is still true, not the row that feels safest. Never start in the middle of the table
+   and work outwards. If the response genuinely sits between the row you stopped at and the one
+   above it, award the HALF BAND between them; drop a further whole band only when the higher row's
+   core requirement is not met at all. Half bands exist at criterion level and are the normal
+   answer for a borderline response.
+5. Bands 7, 8 and 9 describe responses that still contain faults — read the rows: 7 allows
+   occasional errors, 8 allows occasional inaccuracy and rare lapses, 9 allows rare slips. At the
+   top of the scale the question is never "can I find a fault?" (you always can) but "what does
+   this fault cost the reader?" A slip the reader passes straight over does not move the band, and
+   you may not award below 7 on the strength of a fault that the 7 or 8 row already allows for.
+   "Strong, but there is X" is a reason to award 7 or 8; it is not a reason to award 5 or 6.
+6. Apply the caps listed under the criterion, last of all. A cap is a CEILING, NEVER A SCORE:
+   "max 5" means "5 or lower", "max 6" means "6 or lower". Keep the LOWER of the band you read off
+   the table and the cap — a cap can never lift a band you have already judged to be below it, and
+   a cap that fires is never by itself the reason for a band. A cap fires only when its condition
+   is plainly true of this response and you can point at the evidence; if you have to argue it into
+   place, it does not fire. The number of caps that fire is not evidence of anything: if several
+   fire, or the response also matches a descriptor row below the cap, the band is the one you read
+   off the table. Before writing down a band equal to a cap value, check that the response really
+   matches that row of the table; if it matches a row below, award the lower band.
+7. Use the whole scale. Every band from 3 to 9 is an ordinary outcome, not an exception.
    Uncertainty is not a reason to drift toward the middle: if the evidence points at 8, award 8;
    if it points at 3, award 3. 5 and 6 are not default landing places.
-7. Only then compute the overall band as the mean of the criterion bands (BLOCK F).
-8. Never adjust a criterion band afterwards to make the overall band look right.
+8. Only then compute the overall band as the mean of the criterion bands (BLOCK F).
+9. Never adjust a criterion band afterwards to make the overall band look right.
 ```
 
 ## BLOCK F — Half-band rounding
@@ -116,6 +127,12 @@ Every criterion's `why` must be grounded in this candidate's own language:
   errors too - do not tidy the spelling, capitalisation or grammar of a quote.
 - `quote` may never come from the task prompt, the cue card or the examiner's turns.
 - `why` must say what this particular response does, and must connect to the quoted span.
+- The FIRST sentence of `why` says what the response actually does that earns the band you awarded,
+  and `quote` is the evidence for that. A second sentence may add what keeps it from the next band
+  up. A `why` that names only a fault is incomplete, and a band supported only by a fault is
+  usually a band too low: the easiest thing to name in any response is an error, so a rule that
+  asks for something specific will pull you downwards unless you name the strength first. This
+  does not lengthen the output — `why` is still at most 2 sentences.
 - Recycled band-descriptor language is forbidden. Sentences like "shows a good range of
   vocabulary", "generally coherent", "some errors are present" carry no information on their own
   and are rejected unless the specific word, sentence or structure is named.
@@ -178,6 +195,12 @@ dropped plural inside an otherwise controlled complex sentence still communicate
 these shares are wide. Bands 5 and below need meaning to start breaking down, not merely errors to
 be countable. Judge both halves — how much range is on show, and how often an error actually costs
 the reader — and never let a tally of minor slips outweigh the range.
+
+Count; do not estimate by impression. An impression of "a lot of errors" runs high. A sentence
+counts only if you can name its error with a grammatical label from the list above. If you cannot
+name it, or you are unsure whether the sentence is wrong at all, it does not count. Spelling, a
+comma you would have placed differently, and a structure that is unusual but possible are not
+errors here. If your count lands on the boundary between two rows, take the HIGHER band.
 ```
 
 Use the table as the primary check. Move at most half a band from it if range clearly argues

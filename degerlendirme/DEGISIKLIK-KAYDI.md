@@ -107,3 +107,159 @@ son raporda kalan risk olarak yazılmalı.
    değişiklikler orta bandı cömertliğe kaydırırsa düzeltme yanlış yöne gitmiştir.
 5. Saklı küme (S3) ile görünür kümeler arasındaki fark **açılmamalı**. Açılırsa ayar örneklere
    ezberlenmiştir.
+
+---
+
+## 2. düzeltme — 2026-08-07
+
+| | |
+|---|---|
+| Ölçüm | `kalibrasyon/olcum/RAPOR-tur2.md` (tur 2, 23 örnek × 1 puanlama — tur tam) |
+| Görülen kümeler | **S2 + S3** (15 örnek) |
+| SAKLI küme | **S1** — o kümenin hiçbir örneğine, cevabına, sınav görevlisi yorumuna, ölçüt puanına bakılmadı |
+| Değişen dosyalar | `ORTAK-KURALLAR.md`, `yazma-task1-academic.md`, `yazma-task1-general.md`, `yazma-task2.md`, `konusma.md`, `NOTLAR.md` |
+| Tanı scriptleri | `tools/_a4_analiz.py`, `tools/_a4_ust.py` — ikisi de `kumeler.json`'daki S2+S3'e kilitli |
+
+### 🔴 Saklı küme hakkında dürüst not
+
+`RAPOR-tur2.md`'nin "Örnek örnek" tablosu bütün kümeleri **tek tablo hâlinde** listeliyor; dosya
+açıldığında S1 satırları da ekrana geldi. Bu satırlar bu oturumun **hiçbir analizine girmedi**:
+bütün örüntüler, ortalamalar ve gerekçeler yalnız S2+S3'ün 15 örneği üzerinden, kümeye kilitli iki
+script ile hesaplandı; S1 örneklerinin cevap metinleri, sınav görevlisi yorumları ve ölçüt
+puanları hiç açılmadı. Yine de kayda geçiyor: saklı küme koruması **rapor biçimi yüzünden** ideal
+değil. `tools/puanlama-raporu.py` sonraki turdan önce kümeye göre bölünmüş rapor üretecek şekilde
+düzeltilmeli; son raporda bu bir risk olarak yazılmalı.
+
+### 1. düzeltmenin beklentileri tuttu mu
+
+| Beklenti | Sonuç |
+|---|---|
+| 1. Eğilim −0,57'den 0'a doğru hareket etmeli | 🔴 **KALDI** — görünür kümelerde −0,67; genel eğilim −0,67 → −0,70 |
+| 2. En büyük tek sapma 2,0'ın altına inmeli | 🔴 **KALDI** — hâlâ 2,0 |
+| 3. Puanlar 4,0–6,5 aralığından çıkmalı; ≥7 örneklerde en az bir 7+ | 🔴 **KALDI** — tek seferlik puanların tamamı 3,5–7,0'da; ≥7 olan 6 örneğin en yükseği 7,0, hiçbiri 7'yi geçmedi |
+| 4. Orta bandın (5–6,5) doğruluğu bozulmamalı | ✅ **GEÇTİ** — orta band −0,40 → **−0,29**; asıl kazanç dilbilgisinde: −0,90 → **−0,64** |
+| 5. Saklı küme (o turda S3) ile görünür kümeler arasındaki fark açılmamalı | ✅ **GEÇTİ** — 1. düzeltmede S3 saklıydı; tur 2'de S3 **0,86**, o turda görünür olan S2 **1,00**. Bir turda saklı olan küme sonraki turda görünür olandan **kötü değil** → ezber işareti yok |
+| — | Tutarlılık ölçütü **sınanmadı**: tur 2'de her örnek 1 kez puanlandı, yayılım tanım gereği 0,00 çıkar. RAPOR-tur2'deki ✅ bu satırda **anlamsızdır** |
+
+⚠️ Karşılaştırma uyarısı: 1. düzeltmenin tablosu o oturumun görünür kümeleri (S1+S2) üzerinden,
+buradaki tablo bu oturumun görünür kümeleri (S2+S3) üzerinden hesaplandı. Ortak olan yalnız S2.
+Aynı **band aralığı × ölçüt** kırılımı iki turda da aynı 15 örnekten (S2+S3) yeniden hesaplandığı
+için aşağıdaki tur1↔tur2 sayıları eşleşiktir; yukarıdaki satırlar ise küme bileşimi farkını taşır.
+
+Yani 1. düzeltmenin **dilbilgisi ve orta band** kısmı çalıştı, **üst band** kısmı hiç çalışmadı.
+Değişiklik 3, 4, 7 ve 10 (yarım band, ölçek kullanımı, kelime 7 kapısı, simetrik rol metni) üst
+bandı hareket ettirmedi. Sebebi aşağıda: hepsi **öğüt**tü, hiçbiri modelin puanı bulma **yordamını**
+değiştirmedi.
+
+### Ölçüm ne dedi (yalnız S2+S3, n=15)
+
+Band aralığı × ölçüt kırılımı (ölçüt bandı − gerçek genel band):
+
+| Gerçek band | n | görev | tutarlılık | kelime | dilbilgisi | genel |
+|---|---|---|---|---|---|---|
+| ≥ 7 | 6 | −1,42 | **−2,17** | −1,33 | −1,33 | **−1,50** |
+| 5 – 6,5 | 7 | −0,21 | −0,29 | −0,21 | −0,64 | −0,29 |
+| ≤ 4,5 | 2 | **+1,00** | +0,50 | 0,00 | 0,00 | +0,50 |
+
+Sapmanın **neredeyse tamamı tek bir yerde**: gerçek bandı 7 ve üstü olan cevaplar. Orta band artık
+neredeyse yerinde. Alt band hâlâ şişiyor ama görünür kümede yalnız 2 örnek var.
+
+Üst bandda **tutarlılık** en kötü ölçüt (−2,17) ve 1. tura göre **kötüleşti** (−1,53 → −2,17).
+
+#### Örüntü A — model kusurun **varlığını** cezalandırıyor, **bedelini** değil
+
+Tur 2'nin gerekçeleri, aynı cevabın resmî sınav görevlisi yorumuyla yan yana konduğunda, kusurları
+**aynı yerde** buluyor. Fark, o kusurun ne kadar sayıldığında. Sınav görevlisi yorumlarında tekrar
+tekrar geçen ifade şu türden: hata var, "ancak okuyucuya etkisi az", "iletişimi engellemiyor",
+"küçük bir sapma sayılır", "en yüksek bandların verilmesini engelliyor" — ve band yine 7–8,5.
+Model tam olarak aynı kusuru adlandırıp 1,5–2 band düşüyor.
+
+Bunun yapısal sebebi talimatın kendisinde: 7, 8 ve 9 satırları zaten hata **içeriyor**
+("occasional errors", "occasional inaccuracy", "rare slips"). Talimatta bunu söyleyen bir cümle
+yoktu, dolayısıyla adlandırılabilir her kusur diskalifiye gibi işledi.
+
+#### Örüntü B — kanıt kuralının kendisi aşağı çekiyor
+
+Tur 2'nin bütün üst band gerekçeleri aynı biçimde: "X iyi, **ama** y kusuru" — ve verilen band
+kusuru izliyor. BLOK G "belirli kelimeyi/cümleyi/yapıyı adlandır" diyor; bir metinde adlandırması
+en kolay şey **hatadır**. Yani kanıt kuralı, hiç öyle tasarlanmadığı hâlde, sistematik bir aşağı
+baskı üretiyor.
+
+#### Örüntü C — tavanların **değeri** yanlış, mekanizması değil
+
+1. düzeltme tavanı "puan değil, tavan" hâline getirdi; bu doğruydu ama yetmedi, çünkü tavan
+değerlerinin kendisi iki band fazla sert. Talimattaki tavanların neredeyse **hepsi "max 5"** —
+tek bir biçimsel eksik, cevabı ölçeğin ortasına çakıyor. Üst bandda tutarlılığın çökmesinin
+doğrudan sebebi bu: paragrafsızlık ve cümle sınırı tavanları, "max 5" oldukları için, iyi
+sıralanmış bir metni 4,5–5'e indiriyor. Sınav görevlisi aynı eksik için "en yüksek bandları
+engeller" diyor — yani 8/9'u kapatır, 5'e indirmez.
+
+Aynı "max 5" yığılması alt bandda ters yönde çalışıyor: zayıf bir cevap üç tavanı birden tetikleyip
+tam 5'e oturuyor, tavan **taban** gibi davranıyor. 1. düzeltmenin "iki tavan birden tetiklendiyse
+tablodan oku" kuralı bu davranışı durdurmadı.
+
+#### Örüntü D — hata oranı gözle tahmin ediliyor ve yüksek çıkıyor
+
+Dilbilgisi orta bandda hâlâ en kötü ölçüt (−0,64). Gerekçelerde oran "kabaca yarısı", "kabaca beşte
+ikisi" gibi **izlenimle** veriliyor; sınav görevlisi aynı metinler için "ara sıra hata" diyor.
+Sorun 1. düzeltmede kaydırılan eşiklerde değil (o kaydırma işe yaradı: −0,90 → −0,64), **sayımda**.
+
+#### Örüntü E — modelin tablo okuma yönü
+
+Verilen puanların tamamı 3,5–7,0 arasında, gerçek bandlar 3,0–8,5'e yayılırken. "Bütün ölçeği
+kullan" öğüdü iki turdur yazılı ve iki turdur işlemiyor. Öğüt yordamı değiştirmiyor: model tabloya
+ortadan giriyor ve kanıt biriktikçe aşağı iniyor, yukarı çıkmıyor.
+
+### Yapılan değişiklikler
+
+| # | Örüntü | Değişiklik | Beklenen etki |
+|---|---|---|---|
+| 11 | E — ortadan başlayıp aşağı inme | **Puanlama yordamı tersine çevrildi.** Ölçüt tablosu artık **9'dan aşağı** okunuyor: satır satır in, **doğru olan ilk satırda dur**; band, "en güvenli" satır değil **hâlâ doğru olan en yüksek** satır. "Tabloya ortadan girme" açıkça yasaklandı | Ölçeğin üst ucu açılır; tek seferlik puanlar 7'nin üstüne çıkabilir. Ölçek kullanımı öğütten **yordama** dönüştüğü için ilk kez bağlayıcı |
+| 12 | A — kusurun varlığı vs bedeli | STEP 2'ye **üst band kuralı** eklendi: 7, 8, 9 satırları zaten hata içerir; üst bandda soru "kusur bulabiliyor muyum" değil "bu kusur okuyucuya neye mal oluyor". 7 veya 8 satırının **zaten izin verdiği** bir kusur gerekçe gösterilerek 7'nin altı verilemez; "güçlü, ama X var" 7 veya 8 gerekçesidir, 5–6 gerekçesi değil | Üst bandın −1,50'lik çöküşünün ana kısmı kapanır — bu turun en büyük tek kalemi |
+| 13 | C — tavan değerleri iki band fazla sert | Tutarlılık tavanları **yeniden derecelendirildi**: paragrafsızlık `max 5` → **`max 6`** (5'e ancak eksik paragraf **fikir sırasını** takip edilemez kıldığında inilir); cümle sınırı çöküşü `max 5` → **`max 6`**, tetikleme eşiği "okuyucu tekrar okumak zorunda" yerine **"cümlelerin beşte birinden fazlası"** + gerçekten iki kez okunanları say; `max 5` yalnız metnin tamamına yayıldığında ve bağ koptuğunda | Üst bandda tutarlılığın −2,17'si daralır; biçimsel bir eksik artık cevabı ölçeğin ortasına çakmaz |
+| 14 | C — tavan tetiklendiğinde bandın kendisi oluyor | Tavan kuralı sertleştirildi: tavan **en son** uygulanır · tetiklenen tavan **hiçbir zaman tek başına bandın gerekçesi değildir** · **kaç tavan tetiklendiği kanıt değildir** · tavan değerine eşit bir band yazmadan önce cevabın tabloda o satıra gerçekten uyduğu doğrulanır, alt satıra uyuyorsa **alt band verilir** | Hem üstte tek tavanın bandı çakması, hem altta 5'in taban gibi davranması azalır |
+| 15 | B — kanıt kuralı aşağı baskı üretiyor | Kanıt kuralı yönlendirildi: `why`'ın **birinci cümlesi** cevabın verilen bandı **ne ile hak ettiğini** söyler ve `quote` **onun** kanıtıdır; ikinci cümle bir üst banda ne engel olduğunu ekleyebilir. Yalnız kusur adlandıran `why` eksiktir ve yalnız kusura dayanan band genellikle bir band düşüktür. **Çıktı uzamıyor** — `why` yine en fazla 2 cümle | Gerekçe üretimindeki sistematik aşağı baskı kalkar; band, bulunan kusuru değil cevabın tamamını izler |
+| 16 | D — hata oranı izlenimle tahmin ediliyor | BLOK K'ye **sayım disiplini** eklendi: izlenimle tahmin etme, say · bir cümle ancak hatasını **dilbilgisel bir adla** adlandırabiliyorsan sayılır · adlandıramıyorsan veya emin değilsen **sayılmaz** · yazım, farklı koyacağın bir virgül ve alışılmadık ama mümkün bir yapı burada hata değil · sayım iki satırın sınırına düşerse **üst band** alınır | Dilbilgisinin kalan −0,64'ü kapanır. Eşikler **kaydırılmadı** (1. düzeltmedeki kaydırma tuttu, ikinci kez kaydırmak orta bandı cömertliğe geçirirdi) |
+| 17 | Üst bandda görev ölçütü (−1,42) | Üç yazma dosyasında görev ölçütü tablosunun **altına 6-7 ayrımı** yazıldı (örneğe özel değil, tanım): Görev 2'de bir fikir, okuyucu **niçin** öyle düşünüldüğünü görebiliyorsa gelişmiştir — örnek bir yol, gerekçe zinciri başka bir yol; ayrıca birden çok açıyı işleyip gerekçeli bir sonuca varmak **açık bir tutumdur**, iki taraftan birini seçmemek tutumsuzluk değildir. Görev 1 Academic'te genel bakış "daha dolgun olabilirdi" ise **var** sayılır (7'nin genel bakışıdır, eksik değil). Görev 1 General'de bir madde, okuyucunun üzerine hareket edebileceği içerik verildiğinde **kapsanmıştır**; satır sayısı ölçü değildir | Üst bandda görev ölçütünün −1,42'si daralır |
+| 18 | Alt bandda görev ölçütü +1,00, 5 taban gibi çalışıyor | Dört yazma dosyasına **5-4 ayrımı** yazıldı: 5'te görev **kötü yapılmıştır**, 4'te **yapılmamıştır** (okuyucu istediği şeyi bulamaz) — ve "bir `max 5` tavanını tetiklemek 5'i **hak etmek değildir**; 4 ve 3 satırlarını da oku" | Alt bandın +0,50'lik şişmesi azalır. ⚠️ Görünür kümede alt bandda yalnız **2 örnek** var; bu değişikliğin dayanağı diğerlerinden **zayıf** ve tur 3'te ayrıca izlenmeli |
+
+Değişiklik 11, 12, 14, 15, 16 **beş dosyada da** aynı (ortak bloklar, `ORTAK-KURALLAR.md` bakım
+kuralı). 13 üç yazma dosyasında (konuşmada tutarlılık ölçütü ayrı değil). 17 ve 18 her görev
+türünde kendi ölçütünün diline göre yazıldı.
+
+### Bilerek yapılmayanlar
+
+- **Örneğe özel hiçbir kural yazılmadı.** Hiçbir örnek kodu, konusu, cevabı, gerçek bandı veya
+  sınav görevlisi yorumundan bir cümle talimata girmedi. Bütün değişiklikler band aralığı × ölçüt
+  kırılımına ya da gerekçe **biçimine** dayanıyor.
+- **Hata payı tablosunun eşikleri ikinci kez kaydırılmadı.** Ölçüm 1. kaydırmanın tuttuğunu
+  gösterdi (orta band dilbilgisi −0,90 → −0,64); tekrar kaydırmak tek işleyen düzeltmeyi
+  bozardı. Sayım kuralı düzeltildi, eşik değil.
+- Ölçüt sayısı ve ağırlığı değişmedi (yazma 4, konuşma 3).
+- Telaffuz geri getirilmedi.
+- Çıktı uzunluğu sınırları değişmedi; 15 numaralı değişiklik `why`'ın **sırasını** belirliyor,
+  uzunluğunu değil.
+- `cikti-semasi.json` değişmedi.
+- **Konuşmaya özgü hiçbir yeni kural yazılmadı.** `konusma.md` yalnız ortak blokların
+  senkronundan değişti; konuşmanın kendi tavan değerlerine (hepsi `max 5`) dokunulmadı, çünkü
+  onları ayarlayacak **hiçbir ölçüm yok**.
+
+### 🔴 Konuşma tarafı hâlâ ölçülmedi
+
+`kalibrasyon/ornekler/` altında yalnız `yazma/` var. Tur 2'de puanlanan 23 örneğin hepsi yazma.
+`konusma.md`'ye giren 11, 12, 14, 15, 16 numaralı değişiklikler **yazma verisinden genellenmiş**
+durumda. Konuşma puanlamasının sapması bu projede ölçülmemiştir; son raporda kalan risk.
+
+### Sınanacak beklenti (tur 3)
+
+1. **Üst band.** Gerçek bandı ≥7 olan örneklerde genel sapma −1,50'den **−0,75'in içine** girmeli
+   ve en az bir örnek **7,5 veya üstü** almalı. Bu turun asıl sınavı budur.
+2. **Tutarlılık.** ≥7 aralığında −2,17'den **−1,00'in içine** girmeli.
+3. En büyük tek sapma **2,0'ın altına** inmeli.
+4. Eğilim −0,70'ten **−0,35'in içine** girmeli.
+5. **Orta band bozulmamalı.** 5–6,5 aralığı şu an −0,29; **+0,25'i geçmemeli**. Asıl risk bu:
+   11, 12, 13, 14, 15, 16 numaralı değişikliklerin hepsi yukarı yönlü. Hepsi birden aşırı iterse
+   orta band cimrilikten cömertliğe geçer ve düzeltme hedefi ıskalar.
+6. **Alt band.** ≤4,5 aralığı +0,50'den yukarı **çıkmamalı**. 18 numaralı değişiklik aşağı yönlü,
+   diğer altısı yukarı yönlü; alt bandda net etkinin ne olacağı bu düzeltmenin en belirsiz yeri.
+7. Saklı küme (S1) ile görünür kümeler arasındaki fark **açılmamalı** (tur 2'de 0,14 band).

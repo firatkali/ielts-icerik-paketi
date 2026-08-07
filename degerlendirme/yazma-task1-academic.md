@@ -74,21 +74,33 @@ shortfall is penalised under Task Achievement.
 1. Read the task and the `visual`, then read the response once from start to finish.
 2. Score each criterion **independently**, in the order below, before thinking about an overall
    band. Do not let a strong criterion pull a weak one up, or the reverse.
-3. For each criterion pick the band that matches the response **as a whole**. If it genuinely sits
-   between two bands, award the **half band** between them; drop to the lower whole band only when
-   the higher band's core requirement is not met at all. Half bands exist at criterion level and are
-   the normal answer for a borderline response.
-4. Apply the caps listed under each criterion. A cap is a **ceiling, never a score**: "max 5" means
-   "5 or lower". Keep the **lower** of the band you judged in step 3 and the cap — a cap can never
-   lift a band you have already judged to be below it. A cap fires only when its condition is plainly
-   true of this response and you can point at the evidence; if you have to argue it into place, it
-   does not fire. If two or more caps hit the same criterion, or the response also matches a
-   descriptor row below the cap, read the band off the table: it is well under the ceiling.
-5. Use the whole scale. Every band from 3 to 9 is an ordinary outcome, not an exception. Uncertainty
+3. Read the criterion's table **from the top down**, starting at band 9. Step down one row at a time
+   and stop at the first row that is a true description of this response: the band is the **highest
+   row that is still true**, not the row that feels safest. Never start in the middle of the table
+   and work outwards. If the response genuinely sits between the row you stopped at and the one
+   above it, award the **half band** between them; drop a further whole band only when the higher
+   row's core requirement is not met at all. Half bands exist at criterion level and are the normal
+   answer for a borderline response.
+4. Bands 7, 8 and 9 describe responses that **still contain faults** — read the rows: 7 allows
+   occasional errors, 8 allows occasional inaccuracy and rare lapses, 9 allows rare slips. At the
+   top of the scale the question is never "can I find a fault?" (you always can) but "what does this
+   fault cost the reader?" A slip the reader passes straight over does not move the band, and you
+   may not award below 7 on the strength of a fault that the 7 or 8 row already allows for.
+   "Strong, but there is X" is a reason to award 7 or 8; it is not a reason to award 5 or 6.
+5. Apply the caps listed under each criterion, **last of all**. A cap is a **ceiling, never a
+   score**: "max 5" means "5 or lower", "max 6" means "6 or lower". Keep the **lower** of the band
+   you read off the table and the cap — a cap can never lift a band you have already judged to be
+   below it, and a cap that fires is never by itself the reason for a band. A cap fires only when
+   its condition is plainly true of this response and you can point at the evidence; if you have to
+   argue it into place, it does not fire. The number of caps that fire is not evidence of anything:
+   if several fire, or the response also matches a descriptor row below the cap, the band is the one
+   you read off the table. Before writing down a band equal to a cap value, check that the response
+   really matches that row of the table; if it matches a row below, award the lower band.
+6. Use the whole scale. Every band from 3 to 9 is an ordinary outcome, not an exception. Uncertainty
    is not a reason to drift toward the middle: if the evidence points at 8, award 8; if it points at
    3, award 3. 5 and 6 are not default landing places.
-6. Only then compute the overall band (STEP 4).
-7. Never adjust a criterion band afterwards to make the overall band look right.
+7. Only then compute the overall band (STEP 4).
+8. Never adjust a criterion band afterwards to make the overall band look right.
 
 ## STEP 3 — THE FOUR CRITERIA (equally weighted)
 
@@ -108,7 +120,17 @@ description — accurately, relevantly, in at least 150 words.
 | 4 | Attempts the task but the key features are not adequately covered. Data is reported inaccurately, or the response drifts into causes, opinions or content not in the visual. Format may be inappropriate (bullet points, note form). |
 | 3 | Barely relates to the visual. Very little of the data is reported; long stretches are irrelevant. |
 
-**Caps (a cap is a ceiling; see STEP 2 rule 4):**
+**6 against 7:** the overview requirement is met by any statement that tells the reader what the
+data as a whole shows, wherever it sits and however it is worded. Judge whether that statement is
+there — not whether it used the word *Overall*, sat in its own paragraph or listed every stage.
+An overview that is present but could have been fuller is a band 7 overview, not a missing one.
+
+**5 against 4:** at 5 the task is done badly — some key features are covered, thinly or with
+imprecise figures. At 4 the task is not done: a reader who needed a description of this visual
+would not have one. A response that trips a "max 5" cap has not thereby earned 5; read the 4 and 3
+rows too before settling.
+
+**Caps (a cap is a ceiling; see STEP 2 rule 5):**
 - No overview anywhere in the response → **max 5**. An overview is any statement of the overall
   picture — the main trend, the largest contrast, the shape of the process as a whole. It may sit
   anywhere, opening or closing, and need not be signalled by *Overall* or set in its own paragraph.
@@ -137,10 +159,15 @@ the varied and accurate use of cohesive devices (connectors, conjunctions, refer
 | 3 | No logical organisation. Relationships between ideas cannot be followed. |
 
 **Caps:**
-- Written as one undivided block with no paragraphing → **max 5**.
-- Sentence boundaries break down (missing full stops, run-ons) often enough that the reader has to
-  re-read → **max 5**. (The errors themselves are counted under Grammar; here you judge only the
-  effect on readability.)
+- Written as one undivided block with no paragraphing → **max 6**. Missing paragraphing keeps a
+  response out of 7 and above; it does not by itself place it at 5. Drop to **max 5** only when the
+  missing breaks are what makes the order of ideas hard to follow — if the sequence is clear anyway
+  and the linking works, the band is 6.
+- Sentence boundaries break down (missing full stops, run-ons) badly enough that the reader has to
+  re-read **more than about one sentence in five** → **max 6**; **max 5** only when this runs
+  through the whole response and the thread is genuinely lost. Count the sentences you actually had
+  to read twice, not every sentence with a missing stop. (The errors themselves are counted under
+  Grammar; here you judge only the effect on readability.)
 
 ### 3. Lexical Resource → JSON key `lexical_resource`
 
@@ -191,6 +218,12 @@ these shares are wide. Bands 5 and below need meaning to start breaking down, no
 be countable. Judge both halves — how much range is on show, and how often an error actually costs
 the reader — and never let a tally of minor slips outweigh the range.
 
+Count; do not estimate by impression. An impression of "a lot of errors" runs high. A sentence
+counts only if you can name its error with a grammatical label from the list above. If you cannot
+name it, or you are unsure whether the sentence is wrong at all, it does not count. Spelling, a
+comma you would have placed differently, and a structure that is unusual but possible are not
+errors here. If your count lands on the boundary between two rows, take the **higher** band.
+
 Use the table as the primary check. Move at most half a band from it if range clearly argues
 otherwise — but never to escape a cap.
 
@@ -223,6 +256,12 @@ Every criterion's `why` must be grounded in this candidate's own language.
   too** — never tidy the spelling, capitalisation or grammar of a quote.
 - `quote` may never come from the task prompt or the `visual` description.
 - `why` must say what this particular response does, and must connect to the quoted span.
+- The **first sentence** of `why` says what the response actually does that earns the band you
+  awarded, and `quote` is the evidence for that. A second sentence may add what keeps it from the
+  next band up. A `why` that names only a fault is incomplete, and a band supported only by a fault
+  is usually a band too low: the easiest thing to name in any response is an error, so a rule that
+  asks for something specific will pull you downwards unless you name the strength first. This does
+  not lengthen the output — `why` is still at most 2 sentences.
 - Recycled band-descriptor language is forbidden. "Shows a good range of vocabulary", "generally
   coherent", "some errors are present" carry no information on their own and are rejected unless
   the specific word, sentence or structure is named.

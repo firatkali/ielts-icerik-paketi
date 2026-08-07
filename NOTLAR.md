@@ -6904,3 +6904,44 @@ hiç kullanılmadı, kalan on soruda birer kez. Çeldirici türü çeşitliliği
 - Atlanan/sorun: yok — 11 ornekten hicbiri `transcription_suspect: true` degildi.
 - `kalibrasyon/olcum/_scratch_tur2/` (gecici, telifli aday metni iceren dokum
   kopyalari + puanlama toplama script'i) commit'ten once silinecek.
+
+## OPUS5-A4 (2. duzeltme — tur 2 raporu + talimat duzeltmesi)
+- Tarih: 2026-08-07
+- SAKLI KUME: **S1**. Bu oturum S1 orneklerinin cevabina, sinav gorevlisi yorumuna,
+  olcut puanlarina bakmadi ve butun analizi S2+S3'e kilitli iki script uzerinden
+  yaptı: `tools/_a4_analiz.py`, `tools/_a4_ust.py`.
+  🔴 Duruste not: `RAPOR-tur2.md`'nin "Ornek ornek" tablosu butun kumeleri **tek
+  tablo** halinde basiyor, dosya acildiginda S1 satirlari da ekrana geldi. O satirlar
+  hicbir hesaba girmedi (butun sayilar S2+S3'un 15 ornegi uzerinden yeniden
+  hesaplandi), ama sakli kume korumasi **rapor bicimi yuzunden** ideal degil.
+  `tools/puanlama-raporu.py` kumeye gore bolunmus rapor uretecek sekilde
+  duzeltilmeli; son raporda risk olarak yazilacak.
+- Tur 2 tamamdi (23/23 ornek, her biri 1 tekrar). Genel: ortalama mutlak fark 0,913 ·
+  egilim -0,696 · en buyuk sapma 2,00. Yine 4 olcutten 3'u kaldi; tutarlilik olcutu
+  bu turda **sinanmadi** (tekrar yok, yayilim tanim geregi 0,00 — RAPOR'daki ✅
+  anlamsiz).
+- 1. duzeltmenin 5 beklentisinden **2'si tuttu**: orta band bozulmadi (-0,40 → -0,29,
+  asil kazanc dilbilgisinde -0,90 → -0,64) ve kume farki acilmadi. **3'u kaldi**:
+  egilim 0'a gitmedi, en buyuk sapma 2,0'da kaldi, puanlar hala dar araliktan
+  cikmadi (3,5-7,0; hicbir ornek 7'yi gecmedi).
+- Sapmanin neredeyse tamami **tek yerde**: gercek bandi >=7 olan cevaplar (genel
+  -1,50). Orta band artik yerinde (-0,29), alt band +0,50 (gorunur kumede yalniz
+  2 ornek). Ust bandda en kotu olcut **tutarlilik**: -2,17, ve tur 1'e gore
+  **kotulesti** (-1,53 → -2,17).
+- Teshis: model kusurun **varligini** cezalandiriyor, **bedelini** degil. Resmi sinav
+  gorevlisi yorumlariyla yan yana konunca ayni kusurlar ayni yerde bulunuyor; fark
+  ne kadar sayildiginda. Talimattaki 7/8/9 satirlari zaten hata iceriyor ama bunu
+  soyleyen bir cumle yoktu. Yan mekanizmalar: tavanlarin neredeyse hepsinin "max 5"
+  olmasi (bir bicimsel eksik cevabi olcegin ortasina cakiyor), kanit kuralinin
+  adlandirmasi en kolay sey olan **hatayi** one cikarmasi, hata payinin gozle
+  tahmin edilip yuksek cikmasi, ve modelin tabloya ortadan girip yalniz asagi inmesi.
+- Talimatta 8 degisiklik (11-18 numarali; 5 dosya, ortak bloklar ayni commit'te
+  senkron). En onemlisi yordam degisikligi: olcut tablosu artik **9'dan asagi**
+  okunuyor, "hala dogru olan en yuksek satirda dur". Ornege ozel kural yazilmadi,
+  olcut sayisi/agirligi degismedi, telaffuz geri gelmedi, cikti uzunlugu degismedi,
+  hata payi esikleri **ikinci kez kaydirilmadi** (1. kaydirma tuttu; sayim kurali
+  duzeltildi, esik degil).
+  Ayrinti ve tur 3'te sinanacak 7 beklenti: `degerlendirme/DEGISIKLIK-KAYDI.md`.
+- Konusma tarafi hala hic olculmedi. `konusma.md`'ye yalniz ortak bloklar girdi;
+  konusmanin kendi tavan degerlerine (hepsi `max 5`) **dokunulmadi**, cunku onlari
+  ayarlayacak olcum yok. Son raporda kalan risk.
