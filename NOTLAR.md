@@ -7118,3 +7118,52 @@ hiç kullanılmadı, kalan on soruda birer kez. Çeldirici türü çeşitliliği
   `word_count` degerleri gercek sayimla birebir tutuyor. Sorun bulunmadi.
 - Atlanan: konusma ornekleri (20 kart x 3 seviye) - kullanici istegiyle.
   `DURUM.txt` konusma satiri elle degistirilmedi.
+
+## OPUS5-C1 (konusma 2/4 istendi, yine uretim yok - ayni cakisan talimat)
+- Tarih: 2026-08-07
+- Bagimlilik kontrolu gecti: `degerlendirme/DEGISIKLIK-KAYDI.md` ve
+  `kalibrasyon/olcum/SONUC.md` ikisi de yerinde.
+- **Istenen:** "bu dosyanin 2. calistirmasi (toplam 4)", "konusma kartlari icin
+  CALISTIRMA", "calistirma listesinden henuz uretilmemis ilk grubu yap, zaten
+  var olani tekrar uretme".
+- **Oturum basi durumu:** 1. calistirmadaki ile ayni. `content/ornek-cevaplar/writing/`
+  icinde 30 dosya (AT01-AT08, GT01-GT08, 14 adet T2) = 90 cevap; prompt'un yazma
+  kapsaminin tamami. Uretilmemis tek grup konusma (7-10. calistirmalar), o da bu
+  oturumda kullanici tarafindan kapatilmis. Iki talimat ayni grubu isaret ettigi
+  icin uretilecek grup yine kalmadi; hicbir dosya uydurulmadi.
+- **Bunun yerine yapilan - ikinci duzey denetim.** 1. calistirma sema denetimini
+  yapmisti (gecerli JSON, band uclusu, task_ref-dosya adi uyumu, zorunlu alanlar,
+  kelime sayisi). Bu oturum onu tekrarlamak yerine cevabin **gorevle** iliskisini
+  olcen bir denetim yazdi: `tools/_c1_denetim.py` (yedi kontrol, hicbir dosyayi
+  degistirmez, bulgu varsa cikis 1).
+  - A `task_ref` havuzdaki gercek gorev dosyasina cozunuyor ve klasor turu tutuyor
+    mu (30/30) · B kelime sayisi gorevin **kendi** `min_words` degerinin uzerinde mi,
+    sabit 150/250 degil (90/90) · C `why_this_band` ve `what_would_lift_it`
+    prompt'un koydugu "<=2 cumle" sinirinda mi (90/90) · D cevap gercekten o
+    gorevden mi bahsediyor (90/90) · E Academic Task 1 cevaplarindaki sayilar
+    `visual` verisiyle uyusuyor mu (**364 sayi**, hepsi temiz) · F dosyalar arasi
+    kopyala-yapistir (yok) · G KONTROL.md kapsami (30/30).
+  - Dagilim da script'ten sayildi, 6. grubun notundaki rakami dogruluyor:
+    AC-T1 8, GT-T1 8, Task 2 14 (opinion 3, discuss_both_views 2,
+    problem_solution 3, advantages_disadvantages 3, double_question 3).
+  - **Sonuc: bulgu yok.** Icerikte tek karakter degismedi.
+- **E denetimi neden yazildi ve ne kadarini yakalar:** 5. grupta AT07 / 8,0'daki
+  "roughly half of their households" ifadesi elle yakalanmisti (gercek degerler
+  %50 ve %42). Ayni turden bir kusur baska yerde kalmis mi diye sayilar bu kez
+  tek tek gorsel verisiyle karsilastirildi. AT08 / 8,0'daki 21 ve 26,5 ilk taramada
+  takildi ama dogru cikti - bes sutunun toplamlari; denetim seri toplamlarini da
+  mesru kabul edecek sekilde genisletildi. Sinirini soylemek gerekiyor: bu kontrol
+  **gorselden hicbir yolla turetilemeyen sayiyi** yakalar, dogru sayilarla kurulmus
+  yanlis yorumu yakalamaz.
+- **D denetiminde ogrenilen:** band 5 cevaplari gorevin sozcuklerini kullanmiyor
+  (T2-44'te "housing and health care" yerine "the house and the hospital",
+  T2-50'de "employees" yerine "the workers in the offices"). Ortusme band 5'te
+  ortalama %50, band 6,5'ta %67. Bu konu disiligi degil, sinirli sozcuk
+  dagarciginin kendisi - yani band 5 orneklerinin dogru yazildiginin isareti.
+  Esik bandda ayrildi; kontrolun amaci yanlis eslesmis dosyayi yakalamak.
+- Yazilan: `tools/_c1_denetim.py`, `content/ornek-cevaplar/KONTROL.md` (sona
+  "ikinci duzey denetim" bolumu). `DURUM.txt` elle degistirilmedi.
+- Atlanan: konusma ornekleri (20 kart x 3 seviye) - kullanici istegiyle. Konusma
+  tarafi 4 calistirmanin ikisinde de acilmadigi icin kutuphanenin konusma yarisi
+  hala bos; kalan iki calistirmada da kapali kalirsa `content/ornek-cevaplar/`
+  yalnizca yazma kutuphanesi olarak teslim edilecek.

@@ -563,3 +563,49 @@ Otuz yazma gorevi × uc seviye = 90 cevap tamam. Kalan dort calistirma konusma k
 tasinacak iki ders: **hedef bandi yazarken tutturmak sonradan duzeltmekten saglikli sonuc
 veriyor** (3. grup) ve **uzunluk uretimde kendiliginden korunmuyor, denetimde olculmeli**
 (5. ve 6. grup).
+
+---
+
+## Yazma yarisinin ikinci duzey denetimi (uretim yok)
+
+Otuz dosya uretildikten sonra iki denetim daha yapildi. Ikisinde de yeni cevap
+uretilmedi; var olan 90 cevap disaridan olculdu.
+
+**Birinci denetim (sema):** hepsi gecerli JSON; her dosyada tam olarak band 5,0 / 6,5 / 8,0
+uclusu var; `task_ref` dosya adiyla uyusuyor; zorunlu alanlar dolu; JSON'daki `word_count`
+degerleri gercek sayimla birebir tutuyor.
+
+**Ikinci denetim (gorevle iliski):** `python tools/_c1_denetim.py`. Semanin degil, cevabin
+**gorevin kendisiyle** tutarli olup olmadigina bakiyor - 5. grupta AT07'de elle bulunan
+veri hatasi turunden bir kusur baska bir yerde daha kalmis mi diye:
+
+| | Denetim | Sonuc |
+|---|---|---|
+| A | `task_ref` havuzdaki gercek gorev dosyasina cozunuyor mu, klasor turu tutuyor mu | 30/30 temiz |
+| B | kelime sayisi gorevin **kendi** `min_words` degerinin uzerinde mi (sabit 150/250 degil) | 90/90 temiz |
+| C | `why_this_band` alanlari ve `what_would_lift_it` "<=2 cumle" sinirinda mi | 90/90 temiz |
+| D | cevap gercekten o gorevden mi bahsediyor (icerik sozcugu ortusmesi) | 90/90 temiz |
+| E | Academic Task 1 cevaplarindaki sayilar `visual` verisiyle uyusuyor mu | 364 sayi, hepsi temiz |
+| F | dosyalar arasi kopyala-yapistir (ayni cumle iki ayri gorevde) | yok |
+| G | KONTROL.md 30 gorevin hepsini kapsiyor mu | 30/30 |
+
+Dagilim da script'ten sayildi ve 6. grubun notundaki rakami dogruluyor: AC-T1 8 ·
+GT-T1 8 · Task 2 14 (opinion 3 · discuss_both_views 2 · problem_solution 3 ·
+advantages_disadvantages 3 · double_question 3).
+
+### Denetimden cikan iki not
+
+- **AT08 / 8,0 ilk taramada takildi**, sonra dogru cikti: metindeki 21 ve 26,5
+  gorselde yazmiyor, cunku bes sutunun toplami (8,4+3,1+2,2+6,0+1,3 = 21,0 ve
+  6,2+7,5+4,4+5,8+2,6 = 26,5). Rakamlar dogru; eksik olan denetimdi, seri toplamlari
+  da mesru sayi kabul edilecek sekilde genisletildi. E denetiminin sinirini burada
+  soylemek gerekiyor: **gorselden hicbir yolla turetilemeyen sayiyi yakalar**, yanlis
+  yorumu (dogru sayilarla kurulmus hatali cumleyi) yakalamaz.
+- **Band 5 cevaplari gorevin sozcuklerini kullanmiyor** - T2-44'te "housing and health
+  care" yerine "the house and the hospital", T2-50'de "employees" yerine "the workers
+  in the offices", T2-11'de "thrown away" yerine "throw it in the bin". Ortusme band 5'te
+  ortalama %50, band 6,5'ta %67. Bu konu disiligi degil, sinirli sozcuk dagarciginin
+  kendisi; D denetiminin esigi bu yuzden bandda ayrildi ve amaci yanlis eslesmis dosyayi
+  yakalamak, uslup olcmek degil.
+
+---
