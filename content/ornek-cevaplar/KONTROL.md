@@ -74,7 +74,7 @@ dengeli dagilsin" diyor. 30 gorev / 4 tur, calistirma basina 5 gorev:
 | 2 | Academic Task 2 | T2-01, T2-06, T2-10, T2-15, T2-17 |
 | 3 | General Task 1 (mektup) | GT01-GT05 |
 | 4 | General Task 2 | T2-24, T2-09, T2-11, T2-53, T2-57 |
-| 5 | Academic Task 1 (3) + Academic Task 2 (2) | AT06-AT08 + T2 havuzu |
+| 5 | Academic Task 1 (3) + Academic Task 2 (2) | AT06-AT08 + T2-44, T2-39 |
 | 6 | General Task 1 (3) + General Task 2 (2) | GT06-GT08 + T2 havuzu |
 
 Toplam: AC-T1 8 · AC-T2 7 · GT-T1 8 · GT-T2 7 = 30.
@@ -330,3 +330,114 @@ Metinlerin fikir yapisina, tutumuna ve sozcuk secimine dokunulmadi.
 - **Metinler `tools/_c1_uret4.py` icinde duruyor**, kelime sayisi uretimde
   sayiliyor - metin duzeltilince JSON'daki sayac sessizce yanlis kalmasin diye.
   2. gruptaki `_c1_uret2.py` ile ayni kalip.
+
+---
+
+## 5. grup - Academic Task 1 (AT06-AT08) + Academic Task 2 (T2-44, T2-39)
+
+Talimatlar: `degerlendirme/yazma-task1-academic.md` ve `degerlendirme/yazma-task2.md`.
+Genel band = dort olcutun ortalamasi, en yakin yarim banda yuvarlanmis (.25 ve .75 yukari).
+
+### Gorev secimi
+
+Dagilim tablosu bu gruba uc Task 1 ve iki Task 2 gorevi veriyor. Task 1'de AT01-AT05'ten
+sonraki uc gorev alindi ve gorsel turu bilerek ayrildi; **harita ilk kez bu grupta
+ornekleniyor** (1. grupta cizgi, sutun, tablo ve pasta vardi).
+
+| Kod | Gorsel | Konu |
+|---|---|---|
+| AT06 | harita (once/sonra) | Ferndale koyu 1985 ve 2020 |
+| AT07 | cizgi grafik | dort bolgede evde internet baglantisi, 2000-2020 |
+| AT08 | sutun grafik | bes tatil turu, 2005 ve 2020 |
+
+Task 2'de 2. grubun olcutu korundu - soyut ve kurumsal konu, adayin kendi gunluk
+hayatindan ornek veremeyecegi turden (4. grup bunun tersini yapmisti). Iki gorev de
+havuzun `hard` kademesinden secildi: kutuphanede simdiye kadar hic hard Task 2 yoktu,
+oysa gercek sinavda konu bu soyutlukta gelebiliyor.
+
+| Kod | Kalip | Konu alani | Konu |
+|---|---|---|---|
+| T2-44 | opinion | kamu butcesi | uzay arastirmasi mi konut ve saglik mi |
+| T2-39 | double_question | kamu hizmeti | hizmetlerin ozel sirketlere gecmesi |
+
+| Gorev | Hedef | TA | CC | LR | GRA | Genel | Sapma | Yeniden yazildi mi |
+|---|---|---|---|---|---|---|---|---|
+| AT06 | 5,0 | 5 | 5,5 | 5 | 4 | **5,0** | 0 | hayir |
+| AT06 | 6,5 | 7 | 6,5 | 6,5 | 6 | **6,5** | 0 | hayir |
+| AT06 | 8,0 | 8 | 8 | 8 | 8 | **8,0** | 0 | hayir |
+| AT07 | 5,0 | 5 | 5,5 | 5 | 4 | **5,0** | 0 | hayir |
+| AT07 | 6,5 | 7 | 6,5 | 6,5 | 6 | **6,5** | 0 | hayir |
+| AT07 | 8,0 | 8 | 8 | 8 | 8 | **8,0** | 0 | **evet** (bkz. asagi) |
+| AT08 | 5,0 | 5 | 5,5 | 5 | 4 | **5,0** | 0 | hayir |
+| AT08 | 6,5 | 7 | 6 | 6,5 | 6 | **6,5** | 0 | hayir |
+| AT08 | 8,0 | 8 | 8 | 8 | 8 | **8,0** | 0 | hayir |
+| T2-44 | 5,0 | 5 | 5 | 5 | 4 | **5,0** | 0 | hayir |
+| T2-44 | 6,5 | 7 | 6 | 6,5 | 6 | **6,5** | 0 | hayir |
+| T2-44 | 8,0 | 8 | 8 | 8 | 8 | **8,0** | 0 | **evet** (bkz. asagi) |
+| T2-39 | 5,0 | 5 | 5 | 5 | 5 | **5,0** | 0 | hayir |
+| T2-39 | 6,5 | 7 | 6 | 6,5 | 6 | **6,5** | 0 | hayir |
+| T2-39 | 8,0 | 8 | 8 | 8 | 8 | **8,0** | 0 | **evet** (bkz. asagi) |
+
+### Yeniden yazilanlar
+
+Bu grupta hicbir cevap **band** sapmasi yuzunden yeniden yazilmadi; uc duzeltmenin ikisi
+uzunluk, biri veri dogrulugu.
+
+- **AT07 / 8,0 - veri hatasi.** Ilk yazimda "both had connected roughly half of their
+  households by 2005" yaziyordu; 2005 degerleri %50 ve %42. Talimatta `visual` ile
+  celisen rakam Task Achievement altinda dogruluk hatasi sayiliyor ve band 8 satiri
+  bunu tasimaz. "Both had at least doubled their coverage by 2005" ile degistirildi -
+  25→50 ve 18→42 icin ikisi de dogru. Bandi degistirmedi, ama denetim yapilmasaydi
+  "band 8 boyle yazar" diyen bir ornekte yanlis rakam kalacakti.
+- **T2-44 / 8,0 ve T2-39 / 8,0 - uzunluk.** Ilk yazimda 386 ve 388 kelimeydiler.
+  Kutuphanedeki oteki 8'ler 275-290 araliginda; 40 dakikada 390 kelime yazmasi beklenen
+  bir ornek, hedef kullaniciya (band 6'dan 7'ye cikmak isteyen biri) yanlis model
+  gosterir. Fikir yapisina dokunulmadan sikistirildi: 350 ve 360. Yine de kutuphanenin
+  ustunde duruyorlar - iki gorev de iki yukumluluklu ve `hard`, bu yuzden bu kadar
+  asagi cekilebildi.
+- Ayni sebeple **uc Task 1 band 5 cevabi** 188-190'dan 171-174'e indirildi; 1. gruptaki
+  band 5'ler 164-171 idi ve "sinirin ucunda" olmalari kasitli.
+
+### Denetimde dikkat cekenler
+
+- **Hatali cumle orani her metinde tek tek sayildi**, 4. gruptaki gibi tahmin edilmedi.
+  Task 1 band 6,5'larda oran %50-55 (AT06 6/11, AT07 5/10, AT08 5/10), Task 2
+  band 6,5'larda %43-57 (T2-44 8/14, T2-39 6/14) - hepsi talimatin 6 satirinda (%40-60).
+- **T2-39 / 5,0 band 5'lerin genel kalibini kirdi: GRA 4 degil 5 cikti.** Hatali cumle
+  orani %64 (14 cumlenin 9'u), yani talimatin 5 satiri (%60-80). Sebep, metnin uc
+  sebebini tanitan kisa cumlelerin ("The first reason is the money.") hatasiz olmasi.
+  Genel band yine 5,0 oldugu icin yeniden yazilmadi; tersine, kutuphaneye simdiye kadar
+  bulunmayan bir profil ekliyor - band 5, GRA 4 demek zorunda degil.
+- **Butun band 5'lerde genel bakis / hukum capasi bilerek atesleniyor.** Uc Task 1
+  cevabinda da genel bakis yok (max 5) ve son paragraf gorselde bulunmayan bir sebep
+  uyduruyor (max 6): AT06'da hayatin rahatlamasi, AT07'de adalar ve devlet tavsiyesi,
+  AT08'de ucak biletlerinin pahalanmasi. T2-39'da ikinci yukumluluk (olumlu mu olumsuz
+  mu) tek desteksiz cumleye indirgenmis, yani "iki yukumlulukten biri karsilanmiyor →
+  max 5" capasi aciktan atesleniyor.
+- **Kelime sayisi capasi hicbir cevapta ateslenmedi.** Task 1 band 5'leri 171-174
+  (sinir 150), Task 2 band 5'leri 269-272 (sinir 250). `max 6` ve `max 5` kelime
+  capalari hicbir yerde devreye girmedi - dusuklugun sebebi olcutler, eksik kelime degil.
+- **Haritada band farki konum diliyle olculdu.** Band 5 in the north part / in the east
+  side ile yetiniyor, band 6,5 to the north of the main road / on the eastern side
+  kaliplarina geciyor, band 8 given over to housing, gave way to, survived the period
+  intact ile degisimin turunu de adlandiriyor. AT06'nin `common_mistakes` listesindeki
+  ilk iki madde (yon dili kullanmamak, iki haritayi ayri ayri betimlemek) tam olarak
+  band 5 cevabinda gorunuyor.
+- **Band 8'ler kusursuz degil**: AT06'da "thrown across the river" biraz agir, AT07'de
+  "the best and the worst served areas" sikisik, AT08'de ikinci cumle uc bilgiyi birden
+  tasiyor, T2-44'te riskin kime dustugu paragrafi otekilerden kisa, T2-39'da ucuncu
+  sebep ince. Hepsi `what_would_lift_it` alaninda aciktan isaret edildi; hicbiri band 9
+  hedeflemiyor.
+- **Uc seviyede de tutum ayni tarafta** tutuldu (T2-44'te konut ve saglik once,
+  T2-39'da nitelenmis olumlu): ayni gorev, ayni pozisyon, farkli yurutme.
+- **Metinler `tools/_c1_uret5.py` icinde duruyor**, kelime sayisi uretimde sayiliyor ve
+  alt sinir gorev turune gore (150 / 250) kontrol ediliyor. `_c1_uret2.py` ve
+  `_c1_uret4.py` ile ayni kalip.
+
+### 6. gruba kalan
+
+GT06-GT08 (General Task 1 mektup) + T2 havuzundan iki gorev. Kullanilmis on iki Task 2
+gorevi: T2-01, 06, 09, 10, 11, 15, 17, 24, 39, 44, 53, 57. Bes kaliptan opinion ve
+double_question ucer kez kullanildi; 6. grup icin gunluk hayata bakan iki konu ve iki
+kez kalmis kaliplardan ikisi (problem_solution, discuss_both_views ya da
+advantages_disadvantages) uygun olur.

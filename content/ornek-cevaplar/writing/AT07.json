@@ -1,0 +1,45 @@
+{
+  "exam": "ielts",
+  "schema_version": "1.0",
+  "kind": "model_answer_set",
+  "skill": "writing",
+  "task_ref": "AT07",
+  "answers": [
+    {
+      "band": 5.0,
+      "text": "The graph is about the percent of the house who have internet in the home in four region from 2000 until 2020.\n\nFirstly, in 2000 the Eastport is the most high with 25 percent and after him the Northvale with 18 percent. The Central Plains have only 6 percent and the Southern Isles is the last one with 3 percent.\n\nSecondly, all the four region go up every year. The Eastport arrive to 71 percent in 2010 and in 2020 it is 93 percent, so it is again the first. The Northvale is very near, it become 91 percent in the end.\n\nThirdly, the Central Plains and the Southern Isles is more slow in the beginning. But after 2010 they start to grow fast and the Central Plains arrive to 79 percent. The Southern Isles finish with 54 percent only, because in this region there is many island and the connection is more difficult in the island.\n\nFor this reason the government must build more internet line in the south of the country.",
+      "word_count": 173,
+      "why_this_band": {
+        "task_response": "Dort bolgenin rakamlari sirayla okunuyor ama grafigin butununu soyleyen bir cumle yok; makasin once acilip sonra daralmasi hic gorulmuyor. Son iki cumle grafikte olmayan bir sebep (adalar, baglanti zorlugu) ve bir tavsiye ekliyor.",
+        "coherence_cohesion": "Firstly / Secondly / Thirdly kalibi mekanik ve paragraf iciyle iliskisi zayif. Bilgiler yine de izlenebilir bir sirada verildigi icin okuyucu takip edebiliyor.",
+        "lexical_resource": "Egilim sozcugu go up, grow fast, more slow ile sinirli ve tekrar ediyor. The most high, arrive to, the percent of the house gibi yanlis bicimler okuru yavaslatiyor.",
+        "grammatical_range_accuracy": "Hemen her cumlede uyum ya da zaman hatasi var: the house who have, all the four region go up, the Southern Isles is, there is many island. Yapilar neredeyse tamamen basit cumle; butun metin genis zamanda."
+      },
+      "what_would_lift_it": "Son paragraftaki sebebi ve tavsiyeyi atip yerine dort bolgenin tamamini tek cumlede ozetleyen bir genel bakis koymak, ve metni gecmis zamana cevirmek."
+    },
+    {
+      "band": 6.5,
+      "text": "The line graph shows the percentage of households which had an internet connection at home in four regions of a country between 2000 and 2020.\n\nOverall, the proportion of connected households rose considerably in all the four regions during this period, but the two leading regions were always in front and Southern Isles remained in the last position from the beginning until the end.\n\nIn 2000, Eastport was the region who had the highest percentage, with 25%, followed by Northvale with 18%. The other two regions were much lower: Central Plains had only 6% and Southern Isles just 3%. These two regions therefore started from a very low level.\n\nEastport and Northvale developed almost in the same way. Both of them passed 50% before 2010 and finished the period above 90%, with 93% and 91% respectively. After 2015 their lines become flatter, probably because there were not many households left without a connection.\n\nCentral Plains grew more quickly in the second half of the period and reached 79% in 2020, so the distance with the leaders became small. Southern Isles also improved a lot and arrived at 54%, but this region stayed more than 35 percentage point behind Eastport at the end of the period.",
+      "word_count": 205,
+      "why_this_band": {
+        "task_response": "Genel bakis var ve siralamanin hic degismedigini soyluyor; benzer seyreden iki bolge birlikte ele alinmis. En yuksek ile en dusuk arasindaki farkin 2010'da zirve yapmasi atlaniyor, bu yuzden makasin hareketi eksik kaliyor.",
+        "coherence_cohesion": "Paragraf bolumu mantikli: genel bakis, baslangic durumu, ust iki bolge, alt iki bolge. Baglayicilar dogru ama therefore / also gibi tanidik ogelerin disina cikmiyor.",
+        "lexical_resource": "Proportion, remained in the last position, respectively, percentage point gibi gorev icin yeterli ogeler var. The distance with the leaders ve arrived at 54% esdiziim olarak tam oturmuyor.",
+        "grammatical_range_accuracy": "Ilgi cumlecikleri ve karsilastirma yapilari dogru kuruluyor, cumlelerin yarisi hatasiz. Kalan yarida tanimlik, ilgi adili, zaman ve cogul hatasi var (all the four regions, the region who had, their lines become flatter, 35 percentage point); anlam engellenmiyor."
+      },
+      "what_would_lift_it": "Farki puan olarak adlandirip uc noktada vermek (2000'de 22, 2010'da 52, 2020'de 39 puan); bu tek ekleme genel bakisi eksiksiz hale getirir."
+    },
+    {
+      "band": 8.0,
+      "text": "The graph traces the share of households with a home internet connection in four regions of a single country at five-year intervals from 2000 to 2020.\n\nOverall, connection rates climbed steeply everywhere and the ranking of the four regions never altered, but the gap between the best and the worst served areas widened sharply during the first decade before narrowing again after 2010.\n\nEastport and Northvale moved almost in parallel throughout. Starting from 25% and 18% respectively, both had at least doubled their coverage by 2005, passed the two-thirds mark by 2010 and finished within two points of each other, at 93% and 91%. The flattening of both curves after 2015 suggests that these regions were approaching saturation.\n\nThe two remaining regions began far behind. Central Plains, with just 6% in 2000, was initially closer to Southern Isles than to the leaders, yet it grew fastest of all after 2010, adding 45 percentage points in ten years to finish at 79%, within striking distance of Northvale. Southern Isles rose from a mere 3% to 54%, a substantial gain in its own terms, although it remained the least connected region at every point measured.\n\nThe spread between the top and bottom figures tells the same story in numbers: 22 points in 2000, a peak of 52 points in 2010, and 39 points by 2020.",
+      "word_count": 223,
+      "why_this_band": {
+        "task_response": "Genel bakis uc seyi birden soyluyor: her yerde yukselis, siralamanin hic degismemesi ve makasin once acilip sonra daralmasi. Bolgeler ikiser gruplanmis ve her biri secilmis rakamlarla desteklenmis; kapanis farki uc noktada sayiya baglamis.",
+        "coherence_cohesion": "Bilgi bolge bolge degil, benzer seyreden ciftler halinde gruplanmis ve son paragraf butun metnin savini sayiyla toparliyor. By contrast, yet, although gibi ogeler dolgu degil, cumlenin isini yapiyor.",
+        "lexical_resource": "Traces, the two-thirds mark, approaching saturation, within striking distance, spread gibi az kullanilan ogeler dogru esdiziimle geciyor. In its own terms secimi karsilastirmayi tek ifadeyle tasiyor.",
+        "grammatical_range_accuracy": "Ortac basli cumle, past perfect, edilgen ve devrik ogeler kontrollu bicimde donuyor. Hata seyrek; the best and the worst served areas biraz sikisik ama okuru durdurmuyor."
+      },
+      "what_would_lift_it": "Bu duzeyde ilerleme kesinlikte: Eastport ile Northvale'in 2015 sonrasi yataylasmasini yillik puan artisiyla olcmek, yorumu veriyle daha siki baglar."
+    }
+  ]
+}

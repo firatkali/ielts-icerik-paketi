@@ -1,0 +1,45 @@
+{
+  "exam": "ielts",
+  "schema_version": "1.0",
+  "kind": "model_answer_set",
+  "skill": "writing",
+  "task_ref": "AT08",
+  "answers": [
+    {
+      "band": 5.0,
+      "text": "The bar chart give information about five kind of holiday trip that the resident of one country make in 2005 and in 2020.\n\nFirstly, in 2005 the beach holiday is the most popular. It have 8.4 million trip and it is the biggest bar of the chart. The second one is the visit to the relative with 6 million. The city break have only 3.1 million, the walking in the countryside 2.2 million and the outdoor sport 1.3 million, so this is the smallest.\n\nSecondly, in 2020 the situation is different. The city break go up very much and arrive to 7.5 million, so now it is the number one. The beach holiday go down to 6.2 million and it lose the first place.\n\nThirdly, the walking and the outdoor sport also increase, they become 4.4 and 2.6 million. The staying with the relative stay almost the same, 5.8 million.\n\nIn conclusion, this change happen because the ticket for the foreign country become more expensive and the people prefer a city near the home.",
+      "word_count": 174,
+      "why_this_band": {
+        "task_response": "Bes turun rakamlari iki yil icin de veriliyor ve siralamanin degistigi soyleniyor, ama grafigin butununu ozetleyen bir cumle yok ve toplamin artisi hic hesaplanmiyor. Son paragraf grafikte bulunmayan bir sebep uyduruyor (bilet fiyatlari).",
+        "coherence_cohesion": "Firstly / Secondly / Thirdly kalibi yillari ayirmaya yariyor ama paragraf ici mantigi tasimiyor. Artan ve azalan kalemler gruplanmadigi icin karsilastirma dagilmis durumda.",
+        "lexical_resource": "Go up, go down, become, the most popular disinda egilim sozcugu yok ve prompt'un kendi ifadeleri oldugu gibi tekrarlaniyor. The number one, arrive to, very much secimleri gorev icin fazla gunluk.",
+        "grammatical_range_accuracy": "Hemen her cumlede hata var: chart give, five kind of holiday trip, it have, the city break go up, this change happen. Cogul ve uyum hatalari metin boyunca surekli; yapilar basit cumleden cikmiyor."
+      },
+      "what_would_lift_it": "Son paragrafi atip yerine iki toplami (21 ve 26,5 milyon) veren bir genel bakis koymak ve artan kalemleri tek paragrafta toplamak."
+    },
+    {
+      "band": 6.5,
+      "text": "The bar chart compares the number of holiday trips of five different types which were made by the residents of one country in 2005 and in 2020.\n\nOverall, the total number of the holiday trips increased over these fifteen years, and the most important change is that the city break replaced the beach holiday as the most popular type.\n\nIn 2005 the beach holiday was clearly in the first position with 8.4 million trips, and staying with relatives was the second one with 6 million. The other three types were much smaller: 3.1 million for city breaks, 2.2 million for walking in the countryside and only 1.3 million for outdoor sports holidays.\n\nBy 2020 the picture had changed. The city break more than doubled and reached to 7.5 million trips, which was the highest figure of that year. The beach holiday, on the contrary, fell to 6.2 million and it lost his first place. Staying with relatives remained nearly stable, with a very small decrease from 6 to 5.8 million.\n\nThe two smallest categories also grew: walking in the countryside doubled to 4.4 million and the outdoor sports holidays went from 1.3 to 2.6 million. However, they were still the two less popular type of holiday in 2020.",
+      "word_count": 208,
+      "why_this_band": {
+        "task_response": "Genel bakis ikinci paragrafta var ve zirvedeki yer degisimini dogru adlandiriyor; bes kalemin rakami eksiksiz veriliyor. Toplamin ne kadar artigi sayiyla soylenmiyor, bu yuzden 'toplam artti' ifadesi desteksiz kaliyor.",
+        "coherence_cohesion": "Paragraflar yila gore degil, once 2005 sonra degisim ve buyuyen kalemler seklinde bolunmus. Gecisler dogru ama on the contrary yanlis secilmis bir baglayici ve However son cumlede beklenen karsitligi kurmuyor.",
+        "lexical_resource": "More than doubled, remained nearly stable, categories, figure gibi gorev icin yeterli ogeler var. On the contrary, lost his first place ve the two less popular type esdiziim ve bicim olarak yanlis.",
+        "grammatical_range_accuracy": "Ilgi cumlecigi, past perfect ve edilgen dogru kullaniliyor, uzun cumleler dagilmiyor. Cumlelerin yarisindan biraz fazlasinda tanimlik, edat, adil ya da cogul hatasi var (the total number of the holiday trips, reached to, his first place, the outdoor sports holidays, two less popular type); anlam engellenmiyor."
+      },
+      "what_would_lift_it": "Genel bakisi sayiya baglamak: 21 milyondan 26,5 milyona artis yazilirsa hem toplam iddiasi desteklenir hem de gorev yaniti bir band yukari cikar."
+    },
+    {
+      "band": 8.0,
+      "text": "The bar chart compares the number of holiday trips of five kinds taken by the residents of one country in 2005 and again in 2020.\n\nOverall, people took more holidays at the end of the period than at the beginning, the total rising from 21 million to 26.5 million trips, and the order at the top was reversed as the city break overtook the beach holiday, which was the only type to fall appreciably.\n\nThat reversal is the clearest single movement in the chart. City breaks, which accounted for just 3.1 million trips in 2005, had risen to 7.5 million by 2020, more than doubling and adding more journeys than any other category. Beach holidays travelled in the opposite direction, slipping from 8.4 million to 6.2 million and ending in second place.\n\nThe three remaining types were less dramatic but pointed the same way. Walking in the countryside doubled from 2.2 to 4.4 million, and outdoor sports holidays did much the same, climbing from 1.3 to 2.6 million, though the two of them together still amounted to less than a third of the 2020 total. Staying with relatives was the only genuinely settled category, easing back marginally from 6 million to 5.8 million.\n\nTaken proportionally, therefore, the city break grew faster than anything else and was also responsible for the greater part of the extra travel recorded in 2020, while the two smallest categories simply doubled from a low base.",
+      "word_count": 240,
+      "why_this_band": {
+        "task_response": "Genel bakis hem toplami sayiyla veriyor hem de zirvedeki tersine donusu adlandiriyor. Kalemler artan ve duran diye gruplanmis, en buyuk mutlak artis ile oransal artis birbirinden ayrilmis; hicbir yerde sebep uydurulmamis.",
+        "coherence_cohesion": "Metin tersine donus, kalan kalemler, oransal degerlendirme sirasiyla ilerliyor ve her paragraf tek is yapiyor. Travelled in the opposite direction ve pointed the same way gibi ogeler baglantiyi cumlenin kendi isiyle kuruyor.",
+        "lexical_resource": "Slipping from, easing back marginally, from a low base, appreciably gibi az kullanilan ogeler dogru esdiziimle geciyor. Settled category secimi 'neredeyse degismedi' fikrini tek sozcukle tasiyor.",
+        "grammatical_range_accuracy": "Mutlak yapi (the total rising from), ilgi cumlecikleri, ortac ogeler ve edilgen kontrollu bicimde donuyor. Hata seyrek; ikinci cumle uc bilgiyi birden tasidigi icin biraz uzun, ama okuru durdurmuyor."
+      },
+      "what_would_lift_it": "Ikinci cumleyi ikiye bolmek ve her turun toplam icindeki payini yuzde olarak vermek; su an mutlak sayilar tam, oranlar yalnizca son paragrafta ima ediliyor."
+    }
+  ]
+}
