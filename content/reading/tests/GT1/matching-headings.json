@@ -78,7 +78,8 @@
       "grammar_check": null,
       "explanation": "Paragraf B, atığın nasıl ölçüldüğünü anlatıyor: çöp fiilen toplanıp hassas teraziyle tartılıyor, içecekler günlükle izleniyor, hanelerle görüşme yapılıyor.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 29,
@@ -96,7 +97,8 @@
       "grammar_check": null,
       "explanation": "Paragraf C, kişi başına yıllık toplam atık miktarını veriyor ve bunu yenebilir ile yenemez kısım olarak ikiye ayırıyor.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 30,
@@ -114,7 +116,8 @@
       "grammar_check": null,
       "explanation": "Paragraf D, kentsel ve kırsal haneler arasındaki büyük atık farkını sayılarla ortaya koyuyor ve bunu kısmen gelir farkına bağlıyor.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 31,
@@ -132,7 +135,10 @@
       "grammar_check": null,
       "explanation": "Paragraf E, hangi yiyeceklerin en büyük miktarda atıldığını sıralıyor: önce tahıl ve pirinç, sonra sebzeler ve öteki kalemler.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "logic",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     },
     {
       "number": 32,
@@ -150,7 +156,8 @@
       "grammar_check": null,
       "explanation": "Paragraf F, dökülen içecekleri toplama ekliyor ve sayımın yalnızca çöp kutusuna gideni kapsadığını, kompost ile hayvan yemine gidenin dışarıda kaldığını belirtiyor.",
       "difficulty": "hard",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     }
   ]
 }

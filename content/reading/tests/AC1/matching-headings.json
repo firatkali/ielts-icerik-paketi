@@ -78,7 +78,8 @@
       "grammar_check": null,
       "explanation": "Paragraf B, altmış hayvandan yirmi dört eşleşmiş çift kurulmasını ve bütün tankların aynı koşullara ayarlanmasını anlatıyor; yani deneyin kurulumunu ve değişkenlerin denetimini.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 15,
@@ -96,7 +97,8 @@
       "grammar_check": null,
       "explanation": "Paragraf C, karşılaşma öncesi üç günün iki farklı koşulunu anlatıyor: saydam bölme görmeye izin veriyor, opak bölme hiçbir temasa izin vermiyor.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 16,
@@ -114,7 +116,8 @@
       "grammar_check": null,
       "explanation": "Paragraf D, günlük on beşer dakikalık birlikteliklerde her çiftte hangi hayvanın üstün geldiğini ve böylece bir üstünlük sırasının yerleştiğini anlatıyor.",
       "difficulty": "hard",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 17,
@@ -132,7 +135,8 @@
       "grammar_check": null,
       "explanation": "Paragraf E, yedinci günkü sınamanın düzenini tarif ediyor: bir yarıda aynı eş geri veriliyor, öteki yarıda hayvanlardan biri benzer boyda bir yabancıyla değiştiriliyor.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 18,
@@ -150,7 +154,8 @@
       "grammar_check": null,
       "explanation": "Paragraf F, tanıdık eşiyle ve yabancıyla buluşan hayvanların ölçülen davranışlarının belirgin biçimde ayrıştığını anlatıyor.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     }
   ]
 }

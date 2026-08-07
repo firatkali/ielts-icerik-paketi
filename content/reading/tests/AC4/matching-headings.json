@@ -78,7 +78,8 @@
       "grammar_check": null,
       "explanation": "Paragraf B, çapraz geçişli düzeni anlatıyor: her katılımcı iki koşulu da yaşadığı için kendi kendisinin karşılaştırma ölçütü oluyor.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 15,
@@ -96,7 +97,8 @@
       "grammar_check": null,
       "explanation": "Paragraf C, orman ve bina koşullarında katılımcıların tam olarak ne yaptığını ve uyulan kuralları anlatıyor; karşılaştırma yeri stresli değil, bilerek sakin seçilmiş.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 16,
@@ -114,7 +116,8 @@
       "grammar_check": null,
       "explanation": "Paragraf D, orman oturumlarının yapıldığı günlerdeki hava koşullarını (sıcaklık, kar, nem, rüzgâr) veriyor.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 17,
@@ -132,7 +135,10 @@
       "grammar_check": null,
       "explanation": "Paragraf E, duygu durumunun dört ayrı ölçekle her deneyimin öncesinde ve sonrasında ölçüldüğünü anlatıyor.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "logic",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     },
     {
       "number": 18,
@@ -150,7 +156,10 @@
       "grammar_check": null,
       "explanation": "Paragraf F, orman sonrasında olumsuz duyguların azalıp dinlendiricilik puanının keskin arttığını, buna karşılık canlılığın yükselmediğini anlatıyor.",
       "difficulty": "hard",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "logic",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     }
   ]
 }

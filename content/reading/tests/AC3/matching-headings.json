@@ -78,7 +78,10 @@
       "grammar_check": null,
       "explanation": "Paragraf B, buzul altındaki ana kaya görülemediği için depremden önce ve sonra yer değişimini karşılaştıran olağan yöntemin burada kullanılamadığını anlatıyor.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "logic",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     },
     {
       "number": 15,
@@ -96,7 +99,8 @@
       "grammar_check": null,
       "explanation": "Paragraf C, depremden iki gün sonra ve depremden önce çekilmiş iki radar görüntüsünün karşılaştırılmasıyla yeni kırılmış kaya ve karın nasıl görünür hâle geldiğini anlatıyor.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 16,
@@ -114,7 +118,8 @@
       "grammar_check": null,
       "explanation": "Paragraf D, yıkımın en belirgin göründüğü yerleri sayıyor ve 12 Aralık'taki yer incelemesinin uydudan görüleni doğruladığını söylüyor.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 17,
@@ -132,7 +137,8 @@
       "grammar_check": null,
       "explanation": "Paragraf E, deneyimli buzul araştırmacılarının bile yıkımın ölçeği karşısında şaşırdığını ve bölgede benzeri bir olayın daha önce belgelenmediğini anlatıyor.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 18,
@@ -150,7 +156,8 @@
       "grammar_check": null,
       "explanation": "Paragraf F, depremden önce hızlanmış olan kol buzulun durmadığını, yeni enkazı düzenli biçimde aşağıya, denize doğru taşıdığını anlatıyor.",
       "difficulty": "hard",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     }
   ]
 }

@@ -78,7 +78,8 @@
       "grammar_check": null,
       "explanation": "Paragraf C, gönüllülerin sağlıklarını belirgin biçimde daha iyi değerlendirdiğini ve bu farkın ne büyüklükte olduğunu anlatıyor.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 29,
@@ -96,7 +97,8 @@
       "grammar_check": null,
       "explanation": "Paragraf D, gönüllülüğün ülkeden ülkeye ne kadar değiştiğini ve gönüllülerin hangi özellikleriyle ötekilerden ayrıldığını anlatıyor.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 30,
@@ -114,7 +116,8 @@
       "grammar_check": null,
       "explanation": "Paragraf E, gönüllülüğün geliri yükselterek sağlığı iyileştirebileceği yolunu öne sürüyor ve zincirin ilk halkasının veriyle desteklendiğini belirtiyor.",
       "difficulty": "hard",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 31,
@@ -132,7 +135,8 @@
       "grammar_check": null,
       "explanation": "Paragraf F, gelir farklarının bağlantının yalnızca küçük bir bölümünü açıkladığını, asıl payın başka bir yoldan geldiğini söylüyor.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 32,
@@ -150,7 +154,8 @@
       "grammar_check": null,
       "explanation": "Paragraf G, sonucun veri toplama biçiminden kaynaklanmadığını göstermek için yapılan sağlamlık sınamalarını ve hepsinde aynı örüntünün çıktığını anlatıyor.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     }
   ]
 }

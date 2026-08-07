@@ -29,7 +29,10 @@
       "scan_note": "Hükümet teşviki A/1'de geçiyor. I/3'teki çağrı bir deney tasarımına yönelik, hükümet politikasına değil; başka paragrafta hükümetler anılmıyor.",
       "explanation": "Pasaj hükümetlerin gönüllülüğü teşvik ettiğini aktarıyor ama yazar bu teşvikin artırılması gerekip gerekmediği konusunda hiçbir görüş belirtmiyor.",
       "difficulty": "hard",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "logic",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     },
     {
       "number": 34,
@@ -47,7 +50,10 @@
       "scan_note": "Öz-bildirimli sağlık ölçüsü B/2'de tanımlanıyor (beş basamaklı ölçek); güvenilirliğine ilişkin yazar yargısı C/3'te. C/1–2 gönüllülerle gönüllü olmayanlar arasındaki farkı anlatıyor; hiçbir paragraf ölçünün güvenilmez olduğunu ileri sürmüyor.",
       "explanation": "Yazar, öznel görünse de öz-bildirimli sağlığın gelecekteki hastalık ve ölümü güvenilir biçimde öngördüğünün önceki araştırmalarda defalarca gösterildiğini söylüyor.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "general_knowledge",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     },
     {
       "number": 35,
@@ -65,7 +71,10 @@
       "scan_note": "Mali açıklama E paragrafında ortaya konuyor: E/1 yazarın bu açıklamayı akla yatkın bulduğu cümle, E/2 verinin zincirin ilk yarısını desteklediğini söylüyor. F payın küçük çıktığını gösteriyor ama bu, açıklamanın akla yatkınlığını geri almıyor; yazar hiçbir yerde bu fikri reddetmiyor.",
       "explanation": "Yazar, gönüllülüğün maddi olarak kazandırabileceği fikrini 'akla yatkın bir açıklama' olarak sunuyor; veri de gönüllülerin biraz daha yüksek gelir bildirdiğini doğruluyor.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "logic",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     },
     {
       "number": 36,
@@ -83,7 +92,10 @@
       "scan_note": "Gelir mekanizmasının payı E (bağın kurulması), F (beşte birin epey altında kalması, kalan beşte dördün başka mekanizmada olması) ve G/3'te (her analizde payın mütevazı kalması) işleniyor. E/2 gelir-sağlık bağını doğruluyor ama payın çoğunluk olmadığını F söylüyor; G/3 aynı bulguyu yineliyor.",
       "explanation": "Yazara göre gelir farkları toplam ilişkinin ancak küçük bir kısmını açıklıyor; açık farkla daha büyük olan beşte dörtlük kısım başka bir mekanizmadan geçiyor.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "logic",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     }
   ]
 }

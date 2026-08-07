@@ -83,7 +83,8 @@
           "grammar_check": null,
           "explanation": "Paragraf B deneyin nasıl kurulduğunu anlatıyor ve ilk oturumlarda hiçbir hayvanın verilen çubuğa ilgi göstermediğini söylüyor.",
           "difficulty": "medium",
-          "status": "verified"
+          "status": "verified",
+          "blind_solvable": false
         },
         {
           "number": 2,
@@ -101,7 +102,8 @@
           "grammar_check": null,
           "explanation": "Paragraf C, çözümün yedinci oturumda hiçbir hazırlık denemesi olmadan bir anda ortaya çıkışını anlatıyor.",
           "difficulty": "medium",
-          "status": "verified"
+          "status": "verified",
+          "blind_solvable": false
         },
         {
           "number": 3,
@@ -119,7 +121,8 @@
           "grammar_check": null,
           "explanation": "Paragraf D, çözümün ertesi gün defalarca tekrarlandığını ve yeni konumlara ve başka nesnelere uyarlandığını anlatıyor.",
           "difficulty": "medium",
-          "status": "verified"
+          "status": "verified",
+          "blind_solvable": false
         },
         {
           "number": 4,
@@ -137,7 +140,8 @@
           "grammar_check": null,
           "explanation": "Paragraf E, hayvanın bir gün önce nereye bırakıldığını gördüğü nesneyi ertesi gün doğrudan bulmasını, yani konum belleğini anlatıyor.",
           "difficulty": "hard",
-          "status": "verified"
+          "status": "verified",
+          "blind_solvable": false
         },
         {
           "number": 5,
@@ -155,7 +159,8 @@
           "grammar_check": null,
           "explanation": "Paragraf F, önceki deneylerin başarısızlığını hayvanın zekâsına değil, kendisine sunulan aracın hortumun duyusunu engellemesine bağlıyor.",
           "difficulty": "medium",
-          "status": "verified"
+          "status": "verified",
+          "blind_solvable": false
         }
       ]
     },
@@ -231,7 +236,8 @@
           "grammar_check": null,
           "explanation": "Paragraf B, on yıllardır bilinen bir kalıntının yeniden incelenmesinde kafatası içinde beklenmedik camsı bir madde bulunduğunu anlatıyor.",
           "difficulty": "medium",
-          "status": "verified"
+          "status": "verified",
+          "blind_solvable": false
         },
         {
           "number": 7,
@@ -249,7 +255,8 @@
           "grammar_check": null,
           "explanation": "Paragraf C, kafatasındaki maddenin cama dönüşmüş beyin dokusu olduğunu ve bu dönüşümün doğada ne kadar ender görüldüğünü açıklıyor.",
           "difficulty": "medium",
-          "status": "verified"
+          "status": "verified",
+          "blind_solvable": false
         },
         {
           "number": 8,
@@ -267,7 +274,8 @@
           "grammar_check": null,
           "explanation": "Paragraf D, bulgunun doğrulanması için bir arada kullanılan inceleme yöntemlerini sıralıyor.",
           "difficulty": "medium",
-          "status": "verified"
+          "status": "verified",
+          "blind_solvable": false
         },
         {
           "number": 9,
@@ -285,7 +293,8 @@
           "grammar_check": null,
           "explanation": "Paragraf E, cama dönüşmüş dokuda sinir hücrelerinin ince yapılarının ölçülebilecek kadar iyi korunduğunu gösteren sayıları veriyor.",
           "difficulty": "medium",
-          "status": "verified"
+          "status": "verified",
+          "blind_solvable": false
         },
         {
           "number": 10,
@@ -303,7 +312,8 @@
           "grammar_check": null,
           "explanation": "Paragraf F, yalnızca beyin dokusunda bulunan proteinlerin saptanmasının maddenin kaynağını kesinleştirdiğini anlatıyor.",
           "difficulty": "hard",
-          "status": "verified"
+          "status": "verified",
+          "blind_solvable": false
         }
       ]
     },
@@ -379,7 +389,10 @@
           "grammar_check": null,
           "explanation": "Paragraf B, aynı soruyu sınamak için kurulan iki farklı deney düzenini tanıtıyor.",
           "difficulty": "medium",
-          "status": "verified"
+          "status": "flagged",
+          "blind_solvable": true,
+          "blind_basis": "logic",
+          "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
         },
         {
           "number": 12,
@@ -397,7 +410,8 @@
           "grammar_check": null,
           "explanation": "Paragraf C, gece uykusunu sınayan deneyin ayrıntısını veriyor: bir grup akşam öğrenip sabah, öteki sabah öğrenip akşam sınanıyor.",
           "difficulty": "hard",
-          "status": "verified"
+          "status": "verified",
+          "blind_solvable": false
         },
         {
           "number": 13,
@@ -415,7 +429,8 @@
           "grammar_check": null,
           "explanation": "Paragraf D, gündüz uykusu deneyini anlatıyor: kısa bir uyku ya da uyanık geçen eş süre, ardından son sınamadan önce konan ara.",
           "difficulty": "medium",
-          "status": "verified"
+          "status": "verified",
+          "blind_solvable": false
         },
         {
           "number": 14,
@@ -433,7 +448,10 @@
           "grammar_check": null,
           "explanation": "Paragraf E, uykunun katkısının hatırlanacak malzemenin türüne göre değiştiğini gösteriyor: bağlantılı çiftlerde gece uykusu üstün, bağlantısız çiftlerde fark yok.",
           "difficulty": "medium",
-          "status": "verified"
+          "status": "flagged",
+          "blind_solvable": true,
+          "blind_basis": "logic",
+          "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
         },
         {
           "number": 15,
@@ -451,7 +469,10 @@
           "grammar_check": null,
           "explanation": "Paragraf F, gündüz uykusunun süresinin ve içerdiği evrelerin bellek kazancıyla anlamlı bir ilişki göstermediğini belirtiyor.",
           "difficulty": "hard",
-          "status": "verified"
+          "status": "flagged",
+          "blind_solvable": true,
+          "blind_basis": "logic",
+          "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
         }
       ]
     }

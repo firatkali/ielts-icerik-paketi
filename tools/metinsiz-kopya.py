@@ -39,6 +39,25 @@ def temizle(o):
     return o
 
 
+def secenek_listeleri(d):
+    """Baslik/ozellik listeleri sorunun parcasidir, parcanin degil.
+
+    Bunlar kopyaya girmezse baslik eslestirme gibi tipler bos secenek havuzuyla
+    olculur; cikan sonuc sorunun degil kopyanin eksigi olur. Kume basina liste
+    tutan dosyalarda hangi soru numaralarini kapsadigi da yazilir.
+    """
+    out = []
+    if d.get("option_list"):
+        out.append({"items": None, "option_list": temizle(d["option_list"])})
+    for g in (d.get("groups") or []):
+        if g.get("option_list"):
+            out.append({
+                "items": [it.get("number") for it in (g.get("items") or [])],
+                "option_list": temizle(g["option_list"]),
+            })
+    return out
+
+
 def main():
     if len(sys.argv) < 2:
         print("Kullanim: python tools/metinsiz-kopya.py <paket-adi> [...]")
@@ -78,6 +97,7 @@ def main():
                     "_question_type": d.get("question_type"),
                     "instructions": d.get("instructions"),
                     "options": d.get("options"),
+                    "option_lists": secenek_listeleri(d),
                     "items": kimlikli,
                 }, f, ensure_ascii=False, indent=2)
             toplam_dosya += 1

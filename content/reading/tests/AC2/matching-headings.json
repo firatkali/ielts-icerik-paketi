@@ -78,7 +78,10 @@
       "grammar_check": null,
       "explanation": "Paragraf B, kazıdan çıkan tanelerin mikroskop altında karmaşık bir buğday gibi göründüğünü ama tür kimliklerinin moleküler düzeyde hiç doğrulanmadığını anlatıyor.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "logic",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     },
     {
       "number": 15,
@@ -96,7 +99,8 @@
       "grammar_check": null,
       "explanation": "Paragraf C, uluslararası bir ekibin kömürleşmiş tanelerden doğrudan eski DNA çıkarıp okumaya giriştiğini ve bunun tane biçimine güvenmekten neden daha sağlam olduğunu anlatıyor.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 16,
@@ -114,7 +118,8 @@
       "grammar_check": null,
       "explanation": "Paragraf D, bulaşmayı önlemek için işin fiziksel olarak ayrı iki laboratuvara bölündüğünü ve bozulmuş kısa DNA parçalarını yakalamak için özel işaretleyiciler tasarlandığını anlatıyor.",
       "difficulty": "hard",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 17,
@@ -132,7 +137,8 @@
       "grammar_check": null,
       "explanation": "Paragraf E, biçimlerine bakılarak basit buğday sayılan örneklerin genetik incelemesinin bunun tersini söylediğini ve çoğu daha önce kaydedilmemiş çeşitlemeler bulunduğunu anlatıyor.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 18,
@@ -150,7 +156,8 @@
       "grammar_check": null,
       "explanation": "Paragraf F, eski dizilerin bugünkü altı kromozom takımlı buğdaylara benzediğini ve ekibin bunu ekimin erken bir geçiş evresi olarak yorumladığını anlatıyor.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     }
   ]
 }
