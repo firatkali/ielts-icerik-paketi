@@ -7402,3 +7402,27 @@ hiç kullanılmadı, kalan on soruda birer kez. Çeldirici türü çeşitliliği
   altina yazildi. Calisiyor -> A12'nin bu yarisi kapandi. Sinama sonrasi
   `dogrulama/cevap-arsiv/20260808-001945` icerigi elle `dogrulama/cevap/`'e geri
   tasindi (dogrulama/ zaten .gitignore'da, depoyu etkilemedi).
+
+## OPUS5-E4-cambridge-desen (1. calistirma - test yerlesimi deseni)
+- Tarih: 2026-08-08
+- **Sonuc: kaynak bulunamadi, calistirma atlandi.** Cikti dosyasi yine de yazildi:
+  `kalibrasyon/desen/test-yerlesimi.md` (icinde neden atlandigi + "E6 bu dosyadan
+  oran/olcut almaz" uyarisi var).
+- Neden: bu adimin tek girdisi arkadasin diskindeki kendi (satin alinmis) gercek
+  sinav kitaplari. Bu oturumda o kitaplara ulasilamadi:
+  - Depo icinde yok: `C:\ielts-paketi` agacinda pdf/epub/djvu/mobi olarak sadece
+    `referans/` altindaki 43 resmi IELTS web sitesi belgesi var (zaten bugune
+    kadarki desen bilgisinin kaynagi, bu adimin aradigi buyuk orneklem degil).
+  - Depo disi gorulemedi: oturum yalniz `C:\ielts-paketi` calisma dizinine yetkili.
+    Ev klasoru (Masaustu / Indirilenler / Belgeler) ve diger surucüler uzerinde
+    **yalnizca dosya adina** bakan aramalar ortam tarafindan engellendi. Yani
+    "kitaplar diskte yok" degil, "bu oturumdan gorulemiyor" demek daha dogru.
+- Telif: kitaplar internetten **aranmadi, indirilmedi**; `content/PLAN-soru-dagilimi.md`
+  telif kurali 3 aynen korundu. Depoya tek bir pasaj/soru/secenek cumlesi girmedi.
+- **Okunan kitap sayfasi: 0** (5. zorunlu kural geregi kayit). Uretilen sayi/oran: yok.
+- Icerik tarafi hic ellenmedi: soru eklenmedi/silinmedi, tam testler etkilenmedi,
+  puanlama dosyalari (`kalibrasyon/olcum/`) acilmadi -> sakli kume korumasi ihlal
+  edilmedi.
+- Bir sonraki calistirmaya not: kitaplar erisilebilir bir yere (ornegin depo icinde
+  `.gitignore`'lu bir klasore) konursa 1. calistirma bastan yapilabilir; o zaman
+  `kalibrasyon/desen/test-yerlesimi.md` sayisal ozetle degistirilir.
