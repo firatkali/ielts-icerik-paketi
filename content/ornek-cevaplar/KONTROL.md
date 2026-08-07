@@ -60,3 +60,108 @@ Yeni puan: TA 7 · CC 6,5 · LR 6 · GRA 6,5 = 6,5.
   butunu ozetleyen cumle yok. Band 6,5 ve 8 cevaplarinda genel bakis var.
 - **Band 8'ler kusursuz degil**: her birinde talimatin 8 satirinin izin verdigi
   turden ufak esdiziim ve vurgu kusurlari birakildi; hicbiri 9 hedeflemiyor.
+
+---
+
+## Alti calistirmanin gorev dagilimi (30 gorev)
+
+Prompt "Academic Task 1 · Academic Task 2 · General Task 1 (mektup) · General Task 2
+dengeli dagilsin" diyor. 30 gorev / 4 tur, calistirma basina 5 gorev:
+
+| Calistirma | Grup | Gorevler |
+|---|---|---|
+| 1 | Academic Task 1 | AT01-AT05 |
+| 2 | Academic Task 2 | T2-01, T2-06, T2-10, T2-15, T2-17 |
+| 3 | General Task 1 (mektup) | GT01-GT05 |
+| 4 | General Task 2 | henuz secilmedi (T2 havuzundan, 2. gruptakiler haric) |
+| 5 | Academic Task 1 (3) + Academic Task 2 (2) | AT06-AT08 + T2 havuzu |
+| 6 | General Task 1 (3) + General Task 2 (2) | GT06-GT08 + T2 havuzu |
+
+Toplam: AC-T1 8 · AC-T2 7 · GT-T1 8 · GT-T2 7 = 30.
+
+Task 2 gorevleri `module: "both"` oldugu icin Academic ve General ayrimi gorevin
+kendisinde degil, secimde: 2. gruba bes soru kalibinin (opinion · discuss_both_views ·
+problem_solution · advantages_disadvantages · double_question) her birinden bir gorev
+alindi, konu alani tekrar etmeyecek sekilde. 4. ve 6. gruplar T2 havuzunun kalanindan
+secilecek; burada kullanilan bes gorev tekrar edilmeyecek.
+
+---
+
+## 2. grup - Academic Task 2 (T2-01, T2-06, T2-10, T2-15, T2-17)
+
+Talimat: `degerlendirme/yazma-task2.md`. Genel band = dort olcutun ortalamasi, en yakin
+yarim banda yuvarlanmis (.25 ve .75 yukari). Gorevler ve kaliplari:
+
+| Kod | Kalip | Konu |
+|---|---|---|
+| T2-01 | opinion | egitim - pratik ders zorunlu olmali mi |
+| T2-06 | discuss_both_views | ulasim - toplu tasima mi yol mu |
+| T2-10 | problem_solution | sehir hayati - merkezde konut pahaliligi |
+| T2-15 | advantages_disadvantages | teknoloji - yalnizca cevrim ici hizmetler |
+| T2-17 | double_question | kultur - gelenekleri yalnizca yaslilar surduruyor |
+
+| Gorev | Hedef | TA | CC | LR | GRA | Genel | Sapma | Yeniden yazildi mi |
+|---|---|---|---|---|---|---|---|---|
+| T2-01 | 5,0 | 5 | 5,5 | 5 | 5 | **5,0** | 0 | hayir |
+| T2-01 | 6,5 | 7 | 6 | 6,5 | 6,5 | **6,5** | 0 | **evet** (bkz. asagi) |
+| T2-01 | 8,0 | 8 | 8 | 8 | 8 | **8,0** | 0 | hayir |
+| T2-06 | 5,0 | 5,5 | 5,5 | 5 | 4 | **5,0** | 0 | hayir |
+| T2-06 | 6,5 | 7 | 6,5 | 6 | 6,5 | **6,5** | 0 | **evet** (bkz. asagi) |
+| T2-06 | 8,0 | 8 | 8 | 8 | 8 | **8,0** | 0 | hayir |
+| T2-10 | 5,0 | 5 | 5,5 | 5 | 4 | **5,0** | 0 | hayir |
+| T2-10 | 6,5 | 7 | 6 | 6,5 | 6,5 | **6,5** | 0 | **evet** (bkz. asagi) |
+| T2-10 | 8,0 | 8 | 8 | 8 | 8 | **8,0** | 0 | hayir |
+| T2-15 | 5,0 | 5 | 5,5 | 5 | 4 | **5,0** | 0 | hayir |
+| T2-15 | 6,5 | 7 | 6 | 7 | 6 | **6,5** | 0 | **evet** (bkz. asagi) |
+| T2-15 | 8,0 | 8 | 8 | 8 | 8 | **8,0** | 0 | hayir |
+| T2-17 | 5,0 | 5 | 5 | 5 | 4 | **5,0** | 0 | hayir |
+| T2-17 | 6,5 | 7 | 6 | 6,5 | 6,5 | **6,5** | 0 | **evet** (bkz. asagi) |
+| T2-17 | 8,0 | 8 | 8 | 8 | 8 | **8,0** | 0 | hayir |
+
+### Yeniden yazilan: bes gorevin de 6,5 hedefli cevabi
+
+Ilk yazimda bes cevap da **7,0** cikti. Sebep tek ve ayni: dilbilgisi fazla
+temizdi. Talimatin GRA tablosu bandi hatali cumle oranindan okuyor; ilk metinlerde bu
+oran %20'nin altindaydi, yani tablonun 8-9 satiri. TA 7 · CC 6 · LR 6,5 · GRA 8 = 6,875
+→ 7,0. Sapma tam 0,5 oldugu icin esigin icindeydi ama bes cevapta birden ayni yonde
+oldugu icin sistematik bir kusurdu: "band 6,5 cevabi" diye band 7 dilbilgisi
+gosteriyorduk.
+
+Duzeltme: her metne, hedef bandda gercekten gorulen turden 4-5 hata eklendi (uyum,
+tanimlik, edat, cogul), hatali cumle orani %30 civarina cikarildi - talimatin 7 satiri
+(%20-40) ile 6,5 arasi. Ornekler:
+
+- T2-01: `or fix a dripping tap` → `or to fix a dripping tap`; `depend on their family`
+  → `depend to their family`; `these abilities` → `this abilities`
+- T2-06: `Both positions have` → `Both position have`; `need to reach their workplace`
+  → `need to reach to their workplace`; `a good network reduces` → `a good network reduce`
+- T2-10: `there are measures` → `there is some measure`; `this produces tiredness`
+  → `this produce tiredness`; `need staff` → `need staffs`
+- T2-15: `who find it very difficult` → `who find very difficult`; `who never used a
+  computer` → `who has never used a computer`; `the difficulties fall` → `falls`
+- T2-17: `A generation which grew up with screens has` → `... have`; `some of them
+  deserve` → `deserves`
+
+Metnin fikir yapisina, tutumuna ve sozcuk secimine dokunulmadi - yalnizca dilbilgisi
+duzeyi hedefe indirildi. Yeni puanlar tablodaki gibi: bes cevap da 6,5.
+
+### Denetimde dikkat cekenler
+
+- **Kelime sayisi capasi hicbir cevapta ateslenmedi.** Band 5 cevaplari 261-278 kelime,
+  yani 250'nin ustunde ama ucunda. `max 6` (250 alti) ve `max 5` (188 alti) capalari
+  hicbir yerde devreye girmedi; dusuklugun sebebi olcutler, eksik kelime degil.
+- **Band 5'lerde GRA 4-5.** Hatali cumle orani dort cevapta %80 civari (talimatin 4
+  satiri), T2-01'de %75 (5 satiri). Anlam hicbir yerde kaybolmadigi icin genel band
+  diger uc olcut tarafindan 5,0'da tutuluyor - istenen sonuc bu: band 5 ornegi gercekten
+  hata iceriyor, sadece kisa yazilmis duzgun bir metin degil.
+- **Band 5'lerde gorevin bir yarisi bilerek eksik birakildi**, ama her seferinde farkli
+  bicimde: T2-06'da ikinci gorus iki cumleye sikismis, T2-10'da onlemler bolumu iki
+  cumle, T2-15'te tarti hukmu hic verilmemis ("both of them are important"), T2-17'de
+  degerlendirme sorusu hic yanitlanmamis, T2-01'de zorunluluk sorusu yerine fayda sorusu
+  cevaplanmis. Bunlarin hepsi gorevlerin `common_mistakes` alanindaki hatalar.
+- **Band 8'ler kusursuz degil**: her birinde bir gerekce otekilerden ince kaliyor
+  (T2-01'de mufredat itirazi, T2-15'te kayit tutma avantaji) ve `what_would_lift_it`
+  alani tam bunu isaret ediyor. Hicbiri band 9 hedeflemiyor.
+- **Uc seviyede de tutum ayni tarafta** tutuldu (ayni gorev, ayni pozisyon, farkli
+  yurutme). Boylece kullanici uc metni yan yana koydugunda farkin fikirden degil
+  dilden ve gelistirmeden geldigini goruyor.

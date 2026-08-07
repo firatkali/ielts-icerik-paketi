@@ -7062,3 +7062,35 @@ hiç kullanılmadı, kalan on soruda birer kez. Çeldirici türü çeşitliliği
 - Kalan riskler SONUC.md bolum 6'da: konusma hic olculmedi (konusma ornegi yok),
   ornek sayisi az (band basina 1-4), tur 3 eksik, tek model ailesi, alt band yanlis
   yonde hata, sakli kume korumasi rapor bicimi yuzunden kusurluydu.
+
+## OPUS5-C1 (2. calistirma: yazma - Academic Task 2, 5 gorev x 3 seviye)
+- Tarih: 2026-08-07
+- Bagimlilik kontrolu gecti: `degerlendirme/DEGISIKLIK-KAYDI.md` ve
+  `kalibrasyon/olcum/SONUC.md` ikisi de yerinde.
+- **Oturum basi durumu:** `content/ornek-cevaplar/writing/` icinde yalnizca AT01-AT05
+  (1. calistirma, Academic Task 1) vardi. Calistirma listesinin sonraki grubu Academic
+  Task 2, o yapildi; AT dosyalarina dokunulmadi. Uretilen: `T2-01`, `T2-06`, `T2-10`,
+  `T2-15`, `T2-17` (15 cevap: band 5,0 / 6,5 / 8,0).
+- **Gorev secimi:** task2 havuzunda bes soru kalibi var; her kaliptan bir gorev alindi,
+  konu alani tekrar etmeyecek sekilde ilk uygun dosya secilerek - opinion/egitim (T2-01),
+  discuss_both_views/ulasim (T2-06), problem_solution/sehir hayati (T2-10),
+  advantages_disadvantages/teknoloji (T2-15), double_question/kultur (T2-17). Boylece
+  kutuphane bes kalibin de nasil cevaplandigini gosteriyor. 4. ve 6. calistirmalarda
+  kullanilacak T2 gorevleri bu besinden secilmeyecek; alti calistirmalik dagilim tablosu
+  `content/ornek-cevaplar/KONTROL.md` icinde.
+- **Uretim:** `tools/_c1_uret2.py` (1. calistirmadaki `_c1_uret.py` ile ayni kalip).
+  Kelime sayisi JSON'a elle yazilmiyor, uretimde sayiliyor ve 250 alt siniri script
+  icinde kontrol ediliyor; T2-17 band 5 ilk yazimda 240 kelimeye dustugu icin
+  genisletildi. Son sayilar 261-291.
+- **Kendi kendini denetim (KONTROL.md 2. grup):** 15 cevabin hepsi hedef bandin icinde,
+  sapma 0. Ama **bes gorevin 6,5 hedefli cevabi da yeniden yazildi**: ilk yazimda hatali
+  cumle orani %20'nin altindaydi, yani talimatin GRA tablosunda 8-9 satiri, ve bes cevap
+  da 7,0 cikiyordu. Sapma tam 0,5 (esigin icinde) olmasina ragmen bes cevapta birden ayni
+  yonde oldugu icin sistematik kusur sayildi. Her metne hedef bandda gercekten gorulen
+  turden 4-5 hata eklenip oran %30 civarina cikarildi; fikir yapisina, tutuma ve sozcuk
+  secimine dokunulmadi.
+- **Ders (sonraki C1 calistirmalari icin):** band 5'i hatali yazmak kolay, asil kacan
+  6,5. Model dogal olarak temiz dilbilgisi yaziyor ve uzunlugu kisaltmakla yetinirse
+  band 7 uretiyor. 6,5 metnini yazdiktan sonra hatali cumle oranini saymak gerekiyor -
+  talimatin 7 satiri %20-40, 6 satiri %40-60.
+- Atlanan/sorun: yok. Konusma ornekleri (7-10. calistirmalar) bu isin disinda.

@@ -1,0 +1,45 @@
+{
+  "exam": "ielts",
+  "schema_version": "1.0",
+  "kind": "model_answer_set",
+  "skill": "writing",
+  "task_ref": "T2-01",
+  "answers": [
+    {
+      "band": 5.0,
+      "text": "Nowadays some peoples think the student in the secondary school must learn a practical lesson like the cooking or the money, and other people don't think this. In my opinion I am agree with this idea because it is very important for the life.\n\nFirstly, the practical lesson is very useful. When a student finish the school he must live alone and he don't know how to cook a simple food or how to repair a small thing in the house. If the school teach this lesson, the student can do all this thing alone and he don't spend money for call a repair man every time. Also he can save the money every month and this is a good thing for a young person who don't have a big salary.\n\nSecondly, in the school we learn many subject like the mathematic and the history, but this subject don't help us in the daily life. A student can know all the date of the history but he cannot open a bank account and he cannot understand a bill. This is a big problem for the young people today.\n\nOn the other hand, some people say the programme of the school is already very full and the teacher don't have time for a new lesson. This is true, but the school can give only one hour in the week and it is enough for learn the basic thing.\n\nIn conclusion, I think the practical subject is very useful and the young people must learn it, because the school must prepare the student for the real life and not only for the exam.",
+      "word_count": 271,
+      "why_this_band": {
+        "task_response": "Tutum ilk paragrafta soyleniyor ama esas soru olan zorunluluk hicbir yerde tartisilmiyor: metin bastan sona pratik derslerin faydali oldugunu anlatiyor, ki bu tek basina soruyu karsilamiyor. Gerekceler ayni fikri (gunluk hayatta ise yarar) iki kez tekrar ediyor ve ornekler somutlasmiyor.",
+        "coherence_cohesion": "Firstly / Secondly / On the other hand / In conclusion iskeleti duzgun ve okur nerede oldugunu biliyor, ama baglantiyi bu dort kalip disinda hicbir sey tasimiyor. Paragraf iclerinde fikir gelistirilmiyor, cumleler yan yana diziliyor.",
+        "lexical_resource": "Very important, very useful, a good thing kaliplari surekli tekrar ediyor; egitim ya da mufredat icin ozel tek bir sozcuk yok. Peoples, for learn, spend money for call gibi bicim hatalari okuru yavaslatiyor.",
+        "grammatical_range_accuracy": "Neredeyse her cumlede uyum, tanimlik ya da kip hatasi var: I am agree, a student finish, he don't know, this subject don't help, the teacher don't have. If ve when cumlecikleri deneniyor ama gerisi basit cumle."
+      },
+      "what_would_lift_it": "Her paragrafa 'bu ders zorunlu mu olmali, secmeli mi' sorusunu acikca yanitlayan bir cumle eklemek; su haliyle metin sorulan soruya degil, komsu bir soruya cevap veriyor."
+    },
+    {
+      "band": 6.5,
+      "text": "It is often argued that all secondary school students should have to take a practical subject, such as cooking, simple repairs or managing money, as well as their academic ones. I mostly agree with this idea, although I believe one lesson a week would be enough.\n\nFirstly, many young people leave school without the skills they need for daily life. They have studied literature and science for years, but they cannot prepare a healthy meal, deal with a bank account or to fix a dripping tap. As a result, they either waste money on services they could easily do themselves, or they depend to their family for much longer than necessary. A short weekly lesson would give them this abilities before the moment they need them.\n\nSecondly, making the subject compulsory is important for fairness. Some children learn to cook and to control their money at home, because their parents have the time and the knowledge to teach them. Others do not have this chance at all. If the subject stays optional, exactly the students who need it most will not choose it, and the distance between the two group will become bigger.\n\nOn the other hand, it is true that the timetable is already crowded and teachers often complain that they cannot finish their programme. Adding another obligatory subject could reduce the hours of mathematics or of a foreign language, which is necessary for the university.\n\nIn conclusion, I agree that practical subjects should be a required part of secondary education, but they should take only a small place in the week, so that the academic learning does not suffer from it.",
+      "word_count": 273,
+      "why_this_band": {
+        "task_response": "Tutum girişte kosullu olarak konuyor (katiliyorum ama haftada bir ders) ve sonda ayni bicimde kapaniyor; zorunluluk boyutu ikinci paragrafta esitlik uzerinden gercekten tartisiliyor. Birinci gerekce ornekle destekleniyor, karsi gorus ise tek paragrafta ve gelistirilmeden geciliyor.",
+        "coherence_cohesion": "Paragraf duzeni net: tutum, birinci gerekce, ikinci gerekce, karsi gorus, sonuc. Firstly / Secondly / On the other hand / In conclusion zinciri dogru ama tahmin edilebilir; gecisler icerikten degil kaliptan geliyor.",
+        "lexical_resource": "Compulsory, optional, timetable, obligatory gibi konuya ait ogeler dogru kullanilmis. Control their money, the distance between the two groups ve suffer from it esdiziim olarak tam oturmuyor.",
+        "grammatical_range_accuracy": "Ilgi cumlecigi, kosul cumlecigi ve zit baglaclar dogru kuruluyor ve hatasiz cumle sayisi fazla. Ucte bire yakin cumlede yine de bir hata var (or to fix a dripping tap, depend to their family, this abilities, the two group, which is necessary); hicbiri anlami engellemiyor."
+      },
+      "what_would_lift_it": "Karsi gorus paragrafini kendi ornegiyle gelistirmek ve ardindan neden yine de yetersiz kaldigini soylemek; su an itiraf ediliyor ama yanitlanmiyor."
+    },
+    {
+      "band": 8.0,
+      "text": "Whether teenagers should be obliged to study something practical alongside their academic subjects is a question that divides opinion sharply. I broadly agree that a compulsory practical strand is justified, provided it is genuinely taught rather than squeezed into the margins of the timetable.\n\nThe strongest argument in its favour is that these skills are unevenly distributed at home. A student whose parents cook, budget carefully and repair what breaks will absorb all of it without a single lesson; a student whose parents work long shifts, or who never had the chance to learn themselves, will not. Leaving the subject optional therefore hands a further advantage to those who already have one, whereas making it compulsory closes a gap that schools are otherwise content to ignore.\n\nThere is also a case to be made about what secondary education is for. Schools already claim to prepare young people for adult life, yet a school leaver may be able to analyse a poem and still be unable to read an electricity bill or work out what borrowing actually costs. Financial illiteracy in particular has consequences that last for decades, and a few hours spent on interest rates would be repaid many times over.\n\nThe obvious objection is time. Curricula are crowded, examination pressure is intense, and every new requirement takes hours away from something else. That is a genuine cost, and it is precisely why I would keep the requirement modest: one period a week over two or three years, assessed lightly, is enough to build competence without displacing core subjects.\n\nOn balance, then, the principle seems sound to me, as long as what follows from it stays proportionate.",
+      "word_count": 277,
+      "why_this_band": {
+        "task_response": "Tutum kosuluyla birlikte kuruluyor (zorunlu olsun, ama olculu olsun) ve son cumleye kadar ayni kosul tasiniyor. Esitlik gerekcesi somut bir karsitlikla, ikinci gerekce ise sonucun suresini gostererek gelistiriliyor; itiraz gercek bir maliyet olarak kabul edilip tutumun icine katiliyor.",
+        "coherence_cohesion": "Paragraflar tez, iki gerekce, itiraz ve tartili sonuc olarak ilerliyor; her paragrafin tek bir merkezi var. Baglanti therefore, whereas, precisely why gibi ogelerle cumlenin isini yaparak kuruluyor, basa yapistirilan isaretlerle degil.",
+        "lexical_resource": "Compulsory strand, unevenly distributed, curricula, financial illiteracy, proportionate gibi az kullanilan ogeler dogru esdiziimle geciyor. Squeezed into the margins ve repaid many times over gibi secimler dogal.",
+        "grammatical_range_accuracy": "Noktali virgulle bagli karsitlik, ilgi cumlecikleri, yer degistirmis vurgu (it is precisely why) kontrollu bicimde kullanilmis. Hata seyrek ve okuru durdurmuyor; yine de band 9'un tam esnekligi yok."
+      },
+      "what_would_lift_it": "Bu duzeyde kazanc kesinlikten geliyor: 'olculu' derken kastedilen saatin ve degerlendirme bicimin bir kez daha somutlastirilmasi tezi daha da sikilastirir."
+    }
+  ]
+}

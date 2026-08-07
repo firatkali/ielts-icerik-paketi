@@ -1,0 +1,45 @@
+{
+  "exam": "ielts",
+  "schema_version": "1.0",
+  "kind": "model_answer_set",
+  "skill": "writing",
+  "task_ref": "T2-06",
+  "answers": [
+    {
+      "band": 5.0,
+      "text": "In these days the government must decide where they spend the money for the transport. Some people say the bus and the train is more better, and other people say the road for the car and the lorry is more important. I want to explain this two opinion and after I give my idea.\n\nFirstly, the people who support the public transport say it is cheap and everybody can use it. A poor family don't have a car, so if there is a bus in every hour they can go to the work and to the hospital without problem. Also, when many person use the bus, the traffic in the city centre is less and the air is more clean. In my city the bus is always full in the morning and this show the people need it.\n\nSecondly, the other group say the road is also necessary. The lorry carry the food and the other product to the shop and this is important for the economy of the country.\n\nIn my opinion the government must give the most money to the bus and the train, because in the big city the road is never enough. When they make a new road, after two year it is full again and the same problem come back. So it is more better to make a metro line and many bus line, and the people leave the car in the house.\n\nIn conclusion, the two view have a good point, but I am agree with the first opinion, because the public transport help more people in the same time and it is also better for the environment.",
+      "word_count": 274,
+      "why_this_band": {
+        "task_response": "Toplu tasima gorusu iki gerekceyle anlatiliyor ama karsi gorus yalnizca iki cumle aliyor ve hic gelistirilmiyor; gorevin iki yukumlulugunden biri boylece karsilanmamis oluyor. Kendi gorus var ve tutarli, bu yuzden metin konunun disina dusmuyor.",
+        "coherence_cohesion": "Firstly / Secondly / In my opinion / In conclusion sirasi izlenebilir, okur yolunu kaybetmiyor. Ama Secondly ile baslayan paragraf ikinci gorusun tamami, yani isaret ile icerik ayni agirlikta degil.",
+        "lexical_resource": "Cheap, important, good, more better disina cikan ulasim sozcugu yok; traffic ve environment tekrar ediyor. More better ve more clean gibi karsilastirma bicimleri yanlis.",
+        "grammatical_range_accuracy": "Uyum ve tanimlik hatalari her paragrafta: the bus and the train is, a poor family don't have, many person use, the lorry carry, I am agree. Yapilar cogunlukla basit ya da and/because ile baglanmis."
+      },
+      "what_would_lift_it": "Ikinci gorusu de en az bir paragrafa cikarip kendi ornegiyle desteklemek; su haliyle 'her iki gorusu tartis' talimatinin yarisi bos kaliyor."
+    },
+    {
+      "band": 6.5,
+      "text": "Governments have a limited transport budget, and there is a disagreement about whether it should go mainly to public transport or to roads. Both position have reasonable arguments behind them, but I believe that buses and trains should receive the larger share in most cases.\n\nThose who support spending on public transport point out that it is available to everyone. People who cannot afford a car, or who are too young or too old to drive, still need to reach to their workplace, their school and their doctor. In addition, a full bus takes the space of only two or three cars, so a good network reduce congestion and pollution at the same time. Cities which have invested in metro lines usually have a faster centre than cities which have not.\n\nOn the other side, the supporters of road building make the point that goods do not travel by train to the door of every shop. Lorries need reliable roads, and so do the people who live in villages where a bus service would be empty in most of the day. If these roads are narrow and badly maintained, journeys become slow and dangerous, and the businesses in rural areas suffer from it.\n\nIn my opinion, the correct answer depends on the density of the population. In a crowded city, building more roads only attract more cars and the congestion comes back within a few years, so public transport is the better investment. In a region with few inhabitants, however, a bus every three hours helps almost nobody, and the money is better spent on the road itself.\n\nTo conclude, I support public transport as the main priority, but roads should not be forgotten where they are the only realistic option.",
+      "word_count": 291,
+      "why_this_band": {
+        "task_response": "Her iki gorus de ayri paragrafta ve kendi gerekceleriyle veriliyor, kendi gorus ise nufus yogunluguna baglanarak kosullu bicimde soyleniyor. Kosul ilgi cekici ama tek cumlede geciyor, ornekle acilmiyor.",
+        "coherence_cohesion": "Bolumleme dengeli: giris, birinci gorus, ikinci gorus, kendi gorus, sonuc. On the other side ve To conclude gibi tanidik kaliplarin disina cikilmiyor, gecisler mekanik kaliyor.",
+        "lexical_resource": "Congestion, network, density, inhabitants, reliable gibi konuya uygun ogeler var. Have a faster centre, suffer from it ve helps almost nobody esdiziim olarak zorlama.",
+        "grammatical_range_accuracy": "Ilgi cumlecikleri (people who cannot afford a car), zit yapilar ve kosul anlatimi dogru kurulmus; hatasiz cumle sayisi fazla. Ucte bire yakin cumlede uyum ya da edat hatasi var (Both position, reach to their workplace, a good network reduce, empty in most of the day, only attract more cars), ama anlam hicbir yerde bozulmuyor."
+      },
+      "what_would_lift_it": "Yogunluk kosulunu tek cumlede birakmayip somut bir karsilastirmaya donusturmek: ayni paranin kalabalik bir ilcede ve seyrek bir bolgede ne satin aldigini gostermek."
+    },
+    {
+      "band": 8.0,
+      "text": "How a government divides its transport spending between public networks and the road system is a question with defensible answers on both sides, and the right balance is unlikely to be the same everywhere.\n\nThe case for prioritising buses and trains rests on capacity and access. A single railway line can move more people in an hour than several lanes of traffic, and it does so without demanding a parking space at the other end. Just as importantly, a bus fare is within reach of households that could never run a car, so investment here reaches teenagers, elderly passengers and low-paid workers who are otherwise simply excluded. There is also the familiar tendency of new road capacity to fill up again: a few years after a motorway is widened, it often carries the same slow traffic as before, and by then the alternative has been made less attractive still.\n\nThe opposing view is not without force. Freight does not run on a timetable, and almost every item on a shop shelf completes its journey by lorry. In thinly populated regions, meanwhile, a service that runs three times a day is no substitute for a car, and money spent on it buys very little mobility compared with resurfacing a road that everybody already uses.\n\nMy own view is that the argument turns on density rather than on principle. Where people live close together, public transport is the only way of moving large numbers without paralysing the streets, and it deserves the greater part of the budget. Where they do not, the same money achieves more on the roads. A national policy that ignores this distinction will waste resources in one kind of place while starving the other.",
+      "word_count": 286,
+      "why_this_band": {
+        "task_response": "Iki gorus de kendi en guclu haliyle sunuluyor: toplu tasima kapasite ve erisim uzerinden, yol ise yuk tasimaciligi ve seyrek nufus uzerinden. Kendi gorus tartisilan gerekcelerden cikiyor ve bir ilke degil bir olcut oneriyor (yogunluk), sonuc bu olcutle kapaniyor.",
+        "coherence_cohesion": "Metin gorus-gorus-hakemlik seklinde ilerliyor ve her paragraf tek bir iddiayi tasiyor. Baglanti just as importantly, meanwhile, by then gibi ogelerle anlam duzeyinde kuruluyor; kapanis cumlesi iki tarafi tek karsitlikta topluyor.",
+        "lexical_resource": "Induced demand, freight, thinly populated, resurfacing, paralysing gibi ogeler dogru esdiziimle kullanilmis. Within reach of households ve buys very little mobility secimleri dogal ve ekonomik.",
+        "grammatical_range_accuracy": "Iki noktali aciklama, ortac yapilari ve zaman-yer cumlecikleri (where people live close together) esnek bicimde donusuyor. Hata seyrek; cumle uzunlugu bilincli olarak degisiyor."
+      },
+      "what_would_lift_it": "Yogunluk olcutunu sayisallastiran tek bir cumle (hangi buyuklukten sonra metro mantikli hale gelir) tezi daha da kesinlestirir."
+    }
+  ]
+}
