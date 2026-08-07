@@ -293,8 +293,14 @@
           "grammar_check": null,
           "explanation": "Paragraf E, cama dönüşmüş dokuda sinir hücrelerinin ince yapılarının ölçülebilecek kadar iyi korunduğunu gösteren sayıları veriyor.",
           "difficulty": "medium",
-          "status": "verified",
-          "blind_solvable": false
+          "status": "review",
+          "blind_solvable": false,
+          "difficulty_flags": {
+            "lexical_overlap_answer": 1.0,
+            "lexical_overlap_prompt": 0.0,
+            "evidence_spread": 1,
+            "distractor_distance": null
+          }
         },
         {
           "number": 10,

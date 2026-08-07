@@ -75,8 +75,14 @@
       "uniqueness_check": "Yolculuğun sonunda yapılması gereken işlemi atlayanlardan alınan ek ücret yalnız C'de var. A'daki gecikme ücreti geç getirilen eşya için işliyor ve günlük hesaplanıyor, yolculukla ilgisi yok; D'de büyük eşya için ayrı toplama parası değil, yalnızca beş iş günü önceden randevu isteniyor.",
       "explanation": "C metni, kartın hem girişte hem çıkışta okutulması gerektiğini, çıkışta okutulmazsa 6,50 sterlinlik varsayılan bir ücret alındığını söylüyor.",
       "difficulty": "medium",
-      "status": "verified",
-      "blind_solvable": false
+      "status": "review",
+      "blind_solvable": false,
+      "difficulty_flags": {
+        "lexical_overlap_answer": 1.0,
+        "lexical_overlap_prompt": 0.0,
+        "evidence_spread": 1,
+        "distractor_distance": 0.0
+      }
     },
     {
       "number": 4,
