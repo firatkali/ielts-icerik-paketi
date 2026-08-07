@@ -32,11 +32,12 @@
       "scan_note": "Ölçüm yöntemi B paragrafında toplanıyor: 1. cümle öz-tahminin güvenilmez rakamlar ürettiği yargısını ve fiilî tartmayı, 2. cümle içecek günlüğünü, 3. cümle görüşmeleri anlatıyor. F/2–3 yöntemin kapsam sınırını tartışıyor ama öz-bildirimin güvenilirliği hakkında bu yargıyla çelişen bir şey söylemiyor.",
       "explanation": "The writer says that households estimating their own waste tends to produce unreliable figures; this is also the reason the team physically collected and weighed the waste.",
       "difficulty": "medium",
-      "status": "flagged",
+      "status": "rejected",
       "blind_solvable": true,
       "blind_basis": "general_knowledge",
       "flag_reason": "Cevap YES, oz-bildirime dayali tahminlerin dogrudan olcume kiyasla daha az guvenilir olmasi arastirma yontemlerinde yaygin bilinen bir gercek; bu genel bilgiyle ifadenin dogru olmasi parcaya bakmadan da tahmin edilebiliyor.",
-      "flag_mechanism": "genel_kultur"
+      "flag_mechanism": "genel_kultur",
+      "reject_reason": "Sorunun ekseni genel arastirma yontemi bilgisi: oz-bildirime dayali tahminlerin dogrudan olcumden daha guvenilmez oldugu, pasajdan bagimsiz bilinen bir kural. Ifadedeki 'tend to' kipi kaldirilsa bile cevap ayni yerden cikar."
     },
     {
       "number": 34,
@@ -54,15 +55,16 @@
       "scan_note": "Yenilebilir–yenilemez ayrımı C paragrafının 2. cümlesinde yapılıyor. E/3 yenmeyen atık kategorilerini (muz ve mango kabukları) sayıyor ama sınıflandırma yargısı içermiyor; D ve F'de bu ayrımı değiştiren bir cümle yok.",
       "explanation": "The writer regards these items as a normal by-product of cooking and clearly separates them from genuine waste; the statement argues the opposite.",
       "difficulty": "medium",
-      "status": "flagged",
+      "status": "rejected",
       "blind_solvable": true,
       "blind_basis": "general_knowledge",
       "flag_reason": "Cevap NO, gida israfi tartismalarinda kabuk ve kemik gibi pisirmenin kacinilmaz yan urunlerinin 'onlenebilir israf' kategorisinden ayri tutulmasi yaygin bilinen bir siniflandirma sekli; bu genel bilgiyle ifadenin yanlis olmasi parcaya bakmadan da tahmin edilebiliyor.",
-      "flag_mechanism": "genel_kultur"
+      "flag_mechanism": "genel_kultur",
+      "reject_reason": "Sorunun ekseni genel kultur: gida israfi tartismasinda kabuk, kemik ve yumurta kabugunun 'yenmeyen / onlenemez' kategoride sayilmasi yerlesik bir siniflandirma. Ifade normatif bicimden ('should be counted') cikarilsa bile cevap bu yerlesik ayrimdan okunuyor."
     },
     {
       "number": 35,
-      "prompt": "The study's headline figures may understate the true extent of food loss.",
+      "prompt": "Food that households composted or gave to animals was left out of the study's main waste totals.",
       "answer": [
         "YES"
       ],
@@ -73,33 +75,45 @@
       },
       "contradiction_point": null,
       "not_given_justification": null,
-      "scan_note": "Rakamların kapsamı F paragrafında ele alınıyor: 2. cümle yöntemin yalnızca çöp kutusuna gideni ölçtüğünü (%82,8), 3. cümle ise gerçek kaybın manşet rakamlardan yüksek olabileceği çıkarımını veriyor. H/2 kırsalda kompostun yaygınlığını yineliyor; I/3 başka bir sınırı (mevsimler) anıyor — hiçbiri bu yargıyla çelişmiyor.",
-      "explanation": "The writer says food disposed of outside the regular bin was not captured in the main totals, so the true scale of loss may be somewhat higher than the headline figures.",
+      "scan_note": "Yontemin kapsam siniri F paragrafinda: F/2 olcumun yalnizca cop kutusuna gideni kapsadigini (%82,8), F/3 kompost ve hayvan yemine gidenin ana toplamlara girmedigini soyluyor. H/2 kirsalda kompostun yayginligini yineliyor; celisen cumle yok.",
+      "explanation": "The writer states that food composted, fed to animals or disposed of outside the regular bin was not captured in the main waste totals.",
       "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
+      "status": "verified",
+      "blind_solvable": null,
       "blind_basis": "logic",
       "flag_reason": "Cevap YES, yalniz cop kutusune giden atigi olcen bir yontemin, kompostlama gibi olculmeyen kanallari kapsam disi biraktigi icin gercek toplami her zaman olması gerekenden dusuk gostermesi genel arastirma yontemi mantigiyla parcaya bakmadan da tahmin edilebiliyor.",
-      "flag_mechanism": "konumsal_duzen"
+      "flag_mechanism": "konumsal_duzen",
+      "revision": {
+        "tarih": "2026-08-08",
+        "mekanizma": "konumsal_duzen",
+        "onceki_prompt": "The study's headline figures may understate the true extent of food loss.",
+        "ne_degisti": "Olculu kip belirteci ('may understate') tasiyan yargi cumlesi yerine, ayni kanit cumlesinin duz bildirimsel ilk yarisi soruldu. Eski bicimde 'may' zaten YES'e isaret ediyordu; yeni bicimde kip belirteci yok, dolayisiyla ifadenin kipinden cevap okunamiyor. Kanit cumlesi (F/3) degismedi, iddiayi birebir karsiliyor."
+      }
     },
     {
       "number": 36,
-      "prompt": "Confusing date labels are one of the main reasons food is thrown away.",
+      "prompt": "The 215 households were chosen at random from the two sub-districts.",
       "answer": [
         "NOT GIVEN"
       ],
       "evidence": null,
       "evidence_locator": null,
       "contradiction_point": null,
-      "not_given_justification": "(1) Konu pasajda geçiyor: G paragrafı gıdanın atılma nedenlerini tek tek sayıyor (küflenme, doku değişimi, kısa raf ömrü, fazla pişirme, tabakta bırakma, buzdolabında unutulan süt ürünleri). (2) Hiçbir cümle ifadeyi çürütmüyor: G bir neden listesi veriyor ama başka nedenleri dışlayan bir ifade kurmuyor; tarih etiketlerinin önemli olmadığını söyleyen bir cümle yok, dolayısıyla NO denemez. (3) Hiçbir cümle ifadeyi doğrulamıyor — dolaylı olarak bile: son kullanma ya da tavsiye edilen tüketim tarihi etiketleri pasajın hiçbir yerinde anılmıyor; ekmeğin kısa raf ömrü etiket karışıklığı iddiasını ima etmez.",
-      "scan_note": "Atılma nedenleri G paragrafında toplanıyor; H/1 aynı nedenlerin iki bölgede benzer olduğunu söylüyor, I/2 raf ömrünü uzatma önerisini anıyor. Hiçbirinde tarih etiketi, etiket karışıklığı ya da benzeri bir kavram geçmiyor.",
-      "explanation": "The passage lists in detail why food is thrown away but never mentions date labels; it is impossible to say what the writer thinks on this point.",
+      "not_given_justification": "(1) Konu pasajda geciyor: A, 215 hanenin 150'sinin Cibinong'da 65'inin Sukajaya'da oldugunu ve bir yil boyunca izlendigini soyluyor. (2) Pasajda ifadeyi curuten hicbir cumle yok: hanelerin gonullulukten, kota ya da baska bir olcutten secildigini soyleyen bir ifade bulunmuyor, dolayisiyla NO denemez. (3) Pasajda ifadeyi dogrulayan hicbir cumle yok - dolayli olarak bile: B yontem ayrintilarini (tartma, icecek gunlugu, gorusmeler) tek tek sayiyor ama orneklemin nasil secildigine hic girmiyor; I/3 yontemin sinirlarini sayarken de sekiz gunluk anlik goruntu ve mevsim sorununu aniyor, secim yontemini degil.",
+      "scan_note": "Orneklem bilgisi A/2-A/3'te (215 hane, iki alt bolge, bir yil) ve D'de (kentsel-kirsal karsilastirma) geciyor; yontem B'de ve sinirlar I/3'te anlatiliyor. Hicbir paragraf hanelerin nasil secildigini soylemiyor.",
+      "explanation": "The passage says how many households took part and where they were, but never explains how they were selected.",
       "difficulty": "hard",
-      "status": "flagged",
-      "blind_solvable": true,
+      "status": "verified",
+      "blind_solvable": null,
       "blind_basis": "logic",
       "flag_reason": "Ifade, pasajin gidanin atilma nedenlerini ayrintili sekilde saydigi bir yerde, bu listede hic gecmeyen baska bir neden (tarih etiketi karisikligi) one suruyor; boyle 'listede olmayan neden' iddialari genelde NOT GIVEN'a isaret eder.",
-      "flag_mechanism": "konumsal_duzen"
+      "flag_mechanism": "konumsal_duzen",
+      "revision": {
+        "tarih": "2026-08-08",
+        "mekanizma": "konumsal_duzen",
+        "onceki_prompt": "Confusing date labels are one of the main reasons food is thrown away.",
+        "ne_degisti": "Ifade artik pasajin ayrintili neden listesinde bulunmayan bir neden (tarih etiketi karisikligi) one surmuyor. Eski bicim, 'listede olmayan neden' kalibi oldugu icin G paragrafini okumadan da NOT GIVEN olarak tahmin edilebiliyordu. Yeni ifade pasajin uzun uzun anlattigi yontem ekseninde duruyor ve B ile I/3'u okuyup orada olmayan tek seyi fark etmeyi gerektiriyor. Cevap NOT GIVEN ve evidence null olarak korundu."
+      }
     }
   ]
 }

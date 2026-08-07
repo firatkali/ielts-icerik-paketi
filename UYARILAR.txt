@@ -318,3 +318,40 @@
 
 08.08.2026 01:35
   - isaretli (flagged)     221
+
+08.08.2026 02:08
+  - isaretli (flagged)     221
+  - SEMA HATALARI: 743
+
+08.08.2026 (E5 1. calistirma: yes-no-not-given kip imzasi)
+  - 23 isaretli YNNG sorusu elden gecirildi: 13 duzeltildi, 9 elendi
+    (konusu genel kultur), 1 dokunulmadi (practice-11; sizinti ifadenin
+    kipinde degil, kanit cumlesinin kendisinde).
+  - Kip imzasi olculdu: 7 NO ifadesinin 7si mutlak yazilmisti, 10 YES
+    ifadesinin hicbiri degildi, 6 NOT GIVEN ifadesinin 6si pasajin hic
+    konusmadigi bir boyut ekliyordu (cinsiyet, yas, politika, deney
+    sonrasi). "Mutlak=NO, eksen disi=NOT GIVEN, kalan=YES" kurali 23/23
+    dogru biliyor; B1'in olctugu %100 tam olarak buydu.
+  - Duzeltme iki yonlu yapildi: 4 NO olculu kipe cekildi, 1 YES mutlak
+    kipe cekildi. Tek yonlu yumusatma "olculu=NO" ters imzasini kurardi.
+  - E6'ya: elenen 9 yuvayi doldururken en az bir mutlak yazilmis YES ve
+    en az bir mutlak yazilmis NO konmali. Su anda settaki tek mutlak
+    ifade bir YES (practice-7); E6 dengelemezse ters imza olusur.
+  - E7'ye: yeniden capalanan 6 NOT GIVEN sorusu artik olculmemis sorudur
+    (blind_solvable null). Yeniden olculmeli.
+  - answer / evidence / evidence_locator hicbir soruda degismedi (HEAD
+    ile alan alan karsilastirildi, 0 fark). Soru sayisi 23 girdi 23
+    cikti; 12 tam testin hepsi 40/40.
+  - Ayrinti: content/DOGRULAMA/ELDEN-GECIRME.md
+  - isaretli (flagged)     199
+  - SEMA HATALARI: 0
+  - Rebase notu: bu calistirma sirasinda depoya paralel olarak dil
+    cevirisi commitleri girdi (28ecd89, 34236cf) ve ayni uc YNNG
+    dosyasina dokundu. Cakisma, uc dosyanin yukari akis surumu esas
+    alinip E5 betigi onun uzerine yeniden kosturularak cozuldu.
+    Elenen ve dokunulmayan sorularin explanation alani yukari akisin
+    Ingilizce cevirisiyle, duzeltilen 13 sorununki E5'in yazdigi
+    Ingilizce metinle duruyor. 743 -> 0 dususun tamami yukari akis
+    cevirisinin eseri, E5'in degil. answer/evidence/evidence_locator
+    karsilastirmasi cozumden sonra yukari akis surumune karsi yeniden
+    kosuldu: yine 0 fark.

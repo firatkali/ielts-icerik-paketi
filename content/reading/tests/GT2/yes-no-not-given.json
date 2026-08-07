@@ -18,22 +18,28 @@
   "items": [
     {
       "number": 33,
-      "prompt": "Governments should be doing more to encourage people to volunteer.",
+      "prompt": "The health advantage enjoyed by volunteers was largest in the countries where volunteering was most common.",
       "answer": [
         "NOT GIVEN"
       ],
       "evidence": null,
       "evidence_locator": null,
       "contradiction_point": null,
-      "not_given_justification": "(1) Konu pasajda geçiyor: A/1 hükümetlerin ve yardım kuruluşlarının vatandaşları gönüllülüğe düzenli olarak teşvik ettiğini söylüyor. (2) Pasajda ifadeyi çürüten hiçbir cümle yok: yazar hiçbir yerde mevcut teşvikin yeterli ya da gereksiz olduğunu savunmuyor, dolayısıyla NO denemez. (3) Pasajda ifadeyi doğrulayan hiçbir cümle yok — dolaylı olarak bile: yazar gönüllülüğün gönüllüye faydası konusunda temkinli (I paragrafında nedenselliğin kanıtlanmadığını vurguluyor) ve herhangi bir politika önerisinde bulunmuyor; teşvikin artırılması gerektiği görüşü pasajın hiçbir yerinde yok.",
-      "scan_note": "Hükümet teşviki A/1'de geçiyor. I/3'teki çağrı bir deney tasarımına yönelik, hükümet politikasına değil; başka paragrafta hükümetler anılmıyor.",
-      "explanation": "The passage reports that governments encourage volunteering, but the writer gives no opinion on whether this encouragement should be increased.",
+      "not_given_justification": "(1) Konu pasajda geciyor: D, gonulluluk oranlarinin ulkeden ulkeye ne kadar degistigini veriyor (Almanya, Hollanda ve Norvec'te onda dorttten fazla; Bulgaristan, Macaristan ve Litvanya'da onda birden az), C ise saglik farkini bildiriyor. (2) Pasajda ifadeyi curuten hicbir cumle yok: saglik avantajinin ulkeler arasinda esit oldugunu ya da ters yonde degistigini soyleyen bir ifade bulunmuyor, dolayisiyla NO denemez. (3) Pasajda ifadeyi dogrulayan hicbir cumle yok - dolayli olarak bile: saglik avantaji butun ornek icin tek bir sayi olarak veriliyor; G'de sayilan dayaniklilik sinamalari (yalniz isgucundekiler, farkli gonulluluk tanimlari, ek kontrol degiskenleri, gelirini bildirmeyenler) arasinda ulkeye gore ayristirma yok.",
+      "scan_note": "Ulke farklari D'de, saglik avantaji C'de, dayaniklilik sinamalari G'de veriliyor; hicbir paragraf saglik avantajini ulkelerin gonulluluk oranina gore ayristirmiyor.",
+      "explanation": "The passage reports how much volunteering rates varied between countries and reports the health advantage for the sample as a whole, but never brings the two together.",
       "difficulty": "hard",
-      "status": "flagged",
-      "blind_solvable": true,
+      "status": "verified",
+      "blind_solvable": null,
       "blind_basis": "logic",
       "flag_reason": "Ifade, pasajin hukumetlerin gonulluluğu tesvik ettigini yalnizca aktardigi bir yerde, hic yer almayan bir politika onerisi/yeterlilik yargisi ('daha fazla yapilmali') ekliyor; boyle 'yazarin gorusu' iddialari, metin salt durum tespiti yaptiginda genelde NOT GIVEN'a isaret eder.",
-      "flag_mechanism": "konumsal_duzen"
+      "flag_mechanism": "konumsal_duzen",
+      "revision": {
+        "tarih": "2026-08-08",
+        "mekanizma": "konumsal_duzen",
+        "onceki_prompt": "Governments should be doing more to encourage people to volunteer.",
+        "ne_degisti": "Ifade artik yazarin hic dile getirmedigi bir politika yargisi ('daha fazla yapilmali') sormuyor. Eski bicim, metin salt durum tespiti yaparken 'yazar ne onerir' turunden bir iddia ekledigi icin kalip olarak NOT GIVEN'a isaret ediyordu. Yeni ifade pasajin acikca verdigi iki bulguyu (ulke farklari ve saglik avantaji) caprazliyor; elemek icin C, D ve G'yi okuyup bu caprazlamanin hic yapilmadigini gormek gerekiyor. Cevap NOT GIVEN ve evidence null olarak korundu."
+      }
     },
     {
       "number": 34,
@@ -51,15 +57,16 @@
       "scan_note": "Öz-bildirimli sağlık ölçüsü B/2'de tanımlanıyor (beş basamaklı ölçek); güvenilirliğine ilişkin yazar yargısı C/3'te. C/1–2 gönüllülerle gönüllü olmayanlar arasındaki farkı anlatıyor; hiçbir paragraf ölçünün güvenilmez olduğunu ileri sürmüyor.",
       "explanation": "The writer says that although it might seem subjective, earlier research has repeatedly shown that self-rated health reliably predicts future illness and mortality.",
       "difficulty": "medium",
-      "status": "flagged",
+      "status": "rejected",
       "blind_solvable": true,
       "blind_basis": "general_knowledge",
       "flag_reason": "Cevap YES, oz-bildirimli sagligin gelecekteki hastalik ve olumu guvenilir bicimde ongordugunun saglik arastirmalari literaturunde iyi bilinen, sik atif yapilan bir bulgu olmasi sayesinde parcaya bakmadan da tahmin edilebiliyor.",
-      "flag_mechanism": "genel_kultur"
+      "flag_mechanism": "genel_kultur",
+      "reject_reason": "Sorunun ekseni genel saglik arastirmasi bilgisi: oz-bildirimli sagligin gelecekteki hastalik ve olumu ongordugu, literaturde cok atif yapilan ve genel kulturlesmis bir bulgu. Soru ekseni bu bilginin kendisi oldugu icin mekanik duzeltmeye uygun degil."
     },
     {
       "number": 35,
-      "prompt": "The idea that volunteering can bring financial benefits is a plausible one.",
+      "prompt": "Volunteering may improve a person's health indirectly, by raising the income of their household.",
       "answer": [
         "YES"
       ],
@@ -70,18 +77,24 @@
       },
       "contradiction_point": null,
       "not_given_justification": null,
-      "scan_note": "Mali açıklama E paragrafında ortaya konuyor: E/1 yazarın bu açıklamayı akla yatkın bulduğu cümle, E/2 verinin zincirin ilk yarısını desteklediğini söylüyor. F payın küçük çıktığını gösteriyor ama bu, açıklamanın akla yatkınlığını geri almıyor; yazar hiçbir yerde bu fikri reddetmiyor.",
-      "explanation": "The writer presents the idea that volunteering could pay off financially as 'one plausible explanation'; the data also confirm that volunteers reported slightly higher income.",
-      "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
+      "scan_note": "Mali aciklama E paragrafinda kuruluyor: E/1 zinciri (gonulluluk -> ag, beceri, guvenilirlik -> hane geliri -> saglik), E/2 verinin zincirin ilk yarisini destekledigini soyluyor. F payin bestebirin altinda kaldigini gosteriyor ama yolun varligini reddetmiyor; G/3 ayni bulguyu yineliyor.",
+      "explanation": "The writer sets out this indirect route from volunteering through household income to health as a plausible explanation, and the survey data support the first step of the chain.",
+      "difficulty": "hard",
+      "status": "verified",
+      "blind_solvable": null,
       "blind_basis": "logic",
       "flag_reason": "Cevap YES, gonulluluğun agi genisletme ve beceri kazandirma yoluyla gelire dolayli katki saglayabilecegi fikri kendi icinde makul/sezgisel bir ekonomik mantik tasiyor; boyle 'akla yatkinlik' sorulari, iddia bariz bir sacmalik icermedigi surece genelde YES olarak dogrulanir, bu genel orntuyle parcaya bakmadan da tahmin edilebilir.",
-      "flag_mechanism": "konumsal_duzen"
+      "flag_mechanism": "konumsal_duzen",
+      "revision": {
+        "tarih": "2026-08-08",
+        "mekanizma": "konumsal_duzen",
+        "onceki_prompt": "The idea that volunteering can bring financial benefits is a plausible one.",
+        "ne_degisti": "Soru artik bir fikrin 'akla yatkin olup olmadigini' sormuyor. Eski bicim ('is a plausible one') iki yonden siziyordu: 'plausible' sozcugu kanit cumlesinden birebir aliniyordu ve akla yatkinlik sorulari neredeyse her zaman YES cikar. Yeni bicim, yazarin one surdugu dolayli yolun kendisini (gelir uzerinden) soruyor; bunu bilmek icin E paragrafini okumak gerekiyor. Kanit cumlesi (E/1) degismedi."
+      }
     },
     {
       "number": 36,
-      "prompt": "Differences in income explain most of the health advantage associated with volunteering.",
+      "prompt": "Income differences appear to account for a little over half of the health advantage linked to volunteering.",
       "answer": [
         "NO"
       ],
@@ -90,16 +103,22 @@
         "paragraph": "F",
         "sentence": 3
       },
-      "contradiction_point": "Yazar, gelirle açıklanamayan kalan beşte dörtlük payın 'açık farkla hikâyenin daha büyük kısmı' olduğunu ve başka bir mekanizmadan geçtiğini söylüyor; ifade çoğunluğu gelirin açıkladığını savunuyor. Çelişki tek noktada: gelir payının çoğunluk olup olmaması.",
+      "contradiction_point": "F/3, gelirle aciklanamayan kalan bestedortluk payin 'acik farkla hikayenin daha buyuk kismi' oldugunu soyluyor; buna gore gelirin payi bestebir dolayinda. Ifade bu payi yarinin biraz uzerine cikariyor. Celiski tek noktada: gelir payinin buyuklugu.",
       "not_given_justification": null,
-      "scan_note": "Gelir mekanizmasının payı E (bağın kurulması), F (beşte birin epey altında kalması, kalan beşte dördün başka mekanizmada olması) ve G/3'te (her analizde payın mütevazı kalması) işleniyor. E/2 gelir-sağlık bağını doğruluyor ama payın çoğunluk olmadığını F söylüyor; G/3 aynı bulguyu yineliyor.",
-      "explanation": "According to the writer, income differences explain only a small part of the overall relationship; the remaining four-fifths, the larger part by a wide margin, operates through some other mechanism.",
+      "scan_note": "Gelir mekanizmasinin payi E (bagin kurulmasi), F/2 (bestebirin epey altinda), F/3 (kalan bestedortlugun baska mekanizmada oldugu) ve G/3'te (her analizde payin mutevazi kaldigi) isleniyor.",
+      "explanation": "The writer states that the remaining four-fifths of the association ran through some other mechanism, leaving income with far less than half.",
       "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
+      "status": "verified",
+      "blind_solvable": null,
       "blind_basis": "logic",
       "flag_reason": "Cevap NO, arastirma haberciliginde 'beklenen aciklama (gelir) sanildigi kadar guclu cikmadi, asil pay baska bir mekanizmadan geliyor' turunden sasirtici bulgu anlatilarinin yaygin bir kalip olmasi; boyle bir makalede gelirin 'cogunlugu' acikladigi iddiasi bu tipik anlati kalibiyla celistigi icin parcaya bakmadan da yanlis oldugu tahmin edilebiliyor.",
-      "flag_mechanism": "konumsal_duzen"
+      "flag_mechanism": "konumsal_duzen",
+      "revision": {
+        "tarih": "2026-08-08",
+        "mekanizma": "konumsal_duzen",
+        "onceki_prompt": "Differences in income explain most of the health advantage associated with volunteering.",
+        "ne_degisti": "Mutlak oran ifadesi ('explain most of') yerine olculu ve sayisal bir iddia ('appear to account for a little over half') kondu. Eski bicim, 'beklenen aciklama sanildigi kadar guclu cikmadi' anlati kalibiyla parcasiz coziluyordu; yeni bicim gercek orani bilmeyi gerektiriyor. Kanit cumlesi (F/3) bestedortluk payi verdigi icin yari uzerindeki iddiayi da curutuyor."
+      }
     }
   ]
 }
