@@ -7167,3 +7167,63 @@ hiç kullanılmadı, kalan on soruda birer kez. Çeldirici türü çeşitliliği
   tarafi 4 calistirmanin ikisinde de acilmadigi icin kutuphanenin konusma yarisi
   hala bos; kalan iki calistirmada da kapali kalirsa `content/ornek-cevaplar/`
   yalnizca yazma kutuphanesi olarak teslim edilecek.
+
+## OPUS5-C1 (konusma 3/4 istendi, yine uretim yok - ayni cakisan talimat)
+- Tarih: 2026-08-07
+- Bagimlilik kontrolu gecti: `degerlendirme/DEGISIKLIK-KAYDI.md` ve
+  `kalibrasyon/olcum/SONUC.md` ikisi de yerinde.
+- **Istenen:** "bu dosyanin 3. calistirmasi (toplam 4)", "konusma kartlari icin
+  CALISTIRMA", "calistirma listesinden henuz uretilmemis ilk grubu yap, zaten var
+  olani tekrar uretme".
+- **Oturum basi durumu:** 1. ve 2. calistirmadaki ile ayni, bagimsiz olarak yeniden
+  dogrulandi: `content/ornek-cevaplar/writing/` icinde 30 dosya, her birinde tam
+  olarak band 5,0/6,5/8,0 uclusu, `task_ref` dosya adiyla ayni = 90 cevap, prompt'un
+  yazma kapsaminin tamami. Uretilmemis tek grup konusma (7-10. calistirmalar), o da
+  kullanici tarafindan kapatilmis. Uretilecek grup yine kalmadi; dosya uydurulmadi.
+- **Bunun yerine yapilan - ucuncu duzey denetim: BAND AYRIMI.** 1. calistirma semaya,
+  2. calistirma cevabin gorevle iliskisine bakmisti. Ikisi de cevabin **hedefledigi
+  bandda olup olmadigini** olcmuyordu - yani prompt'un kirmizi baslikla uyardigi tek
+  seyi ("uc cevabin da duzgun Ingilizce olmasi, sadece uzunlugun degismesi"). Bu
+  oturum onu olcen denetimi yazdi: `tools/_c1_ayrim.py` (yedi kontrol, hicbir dosyayi
+  degistirmez, bulgu varsa cikis 1).
+  - **Sonuc: bulgu yok, ayrim saglam.** Band 5 / 6,5 / 8 ortalamalari - hata izi
+    yogunlugu 100 sozcukte 3,44 / 0,42 / 0,05 (yaklasik 70 kat), TTR 0,55 / 0,65 /
+    0,70, yan cumle yogunlugu 0,10 / 0,99 / 1,44, mekanik baglac 2,9 / 0,5 / 0,0.
+    Kelime farki ise kucuk (221 / 248 / 264, %19). Seviyeler uzunlukla degil
+    nitelikle ayrisiyor - istenen buydu.
+  - Uzunluk disinda kac boyutta ayrisiyor: 19 gorev 5/5, 9 gorev 4/5, 2 gorev 3/5
+    (GT08 ve T2-39; eksikleri en zayif iki gosterge, dilbilgisi ayrimi ikisinde de
+    saglam). Icerikte tek karakter degismedi.
+- **Denetimin kendisi mutasyon testiyle dogrulandi.** "Temiz" sonucu esiklerin
+  gecmeye ayarlanmasindan gelmiyor: band 5 metni yerine band 8 metni konan bozuk
+  kopyada 202 bulgu, uc bandi ayni metin yapan kopyada 223, band 5'i 80 sozcuge
+  kisaltan kopyada 59, gercek kutuphanede 0.
+- **Ilk surumun 54 bulgusunun hepsi olcum hatasi cikti, hicbiri icerik hatasi degil.**
+  Dordu de kayda gecti (KONTROL.md), cunku konusma tarafi olculurse ayni tuzaklar
+  kurulabilir: (1) sayilar sozcuk sayilmiyordu, dort Academic Task 1 dosyasi haksiz
+  yere "150 alti" gorundu - IELTS sayiminda "30%" ve "1995" birer sozcuk; (2)
+  "kelime sayisi bandla artmali" diye bir kural prompt'ta yok, uydurma kural yedi
+  dosyayi isaretledi, kaldirildi; (3) ortak dizi saymak yaniltiyor - tek bir 12
+  sozcukluk cumle bes ayri "ortak 8'li dizi" gorunuyordu, olcu en uzun kesintisiz
+  ortak diziye cevrildi; (4) hata dedektoru hem duyarsiz hem asiri hevesliydi.
+- **(4)'un ayrintisi onemli:** dedektor bes band 5 cevabinda "hata izi yok" dedi;
+  metinler elle okundu ve hepsi hatayla doluydu ("I am write this letter for
+  complain", "some peoples", "he don't know", "six week is passed"). Yani icerik
+  dogruydu, olcu kordu. Ters yonde band 8'de bulunan yedi izin **hepsi yanlis
+  alarmdi** ("watched it change", "the rules that come into force", "a state which
+  cannot house its people has misjudged" - ucu de dogru Ingilizce). Ders: bir
+  denetim temiz gecmedigi zaman once denetimden suphelen, icerigi elle oku, sonra
+  karar ver.
+- **Sinir acikca yazildi:** kalip tabanli dedektor bandi olcmez, izlerini olcer;
+  band 8'de kalan uc iz ad/fiil belirsizliginden gelen yanlis alarmdir. Arac bir
+  **karsilastirma** aracidir, mutlak hata listesi degil. Puanlama hala
+  `degerlendirme/` talimatiyla elle yapiliyor.
+- **Bulgu sayilmayan gozlem:** onbir dosyada band 6,5 ile 8,0 arasinda 8-12
+  sozcukluk ortak dizi var (Task 1 girisinin gorev cumlesi parafrazi, mektup
+  hitabi, gorevin ozel adlari). 15 sozcukluk esigin altinda kaldigi ve prompt'un
+  yeniden yazim olcutu band sapmasi oldugu icin degisiklik yapilmadi.
+- Yazilan: `tools/_c1_ayrim.py`, `content/ornek-cevaplar/KONTROL.md` (sona "ucuncu
+  duzey denetim: band ayrimi" bolumu). `DURUM.txt` elle degistirilmedi.
+- Atlanan: konusma ornekleri (20 kart x 3 seviye) - kullanici istegiyle. Konusma
+  tarafi dort calistirmanin ucunde de acilmadi; son calistirmada da kapali kalirsa
+  `content/ornek-cevaplar/` yalnizca yazma kutuphanesi olarak teslim edilecek.

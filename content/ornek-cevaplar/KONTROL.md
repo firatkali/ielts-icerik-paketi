@@ -609,3 +609,104 @@ advantages_disadvantages 3 · double_question 3).
   yakalamak, uslup olcmek degil.
 
 ---
+
+## Yazma yarisinin ucuncu duzey denetimi: BAND AYRIMI (uretim yok)
+
+Onceki iki denetim semaya ve gorevle iliskiye bakiyordu; ikisi de bir cevabin
+**hedefledigi bandda olup olmadigina** bakmiyordu. Prompt'un kirmizi basligi tam
+olarak bunu soyluyor:
+
+> "En sik yapilan hata: uc cevabin da duzgun Ingilizce olmasi, sadece uzunlugun
+> degismesi. Band 5 cevabi gercekten band 5 olmali - hata icermeli."
+
+`python tools/_c1_ayrim.py` bu hatanin olusup olusmadigini disaridan olcuyor. Band
+etiketine bakmadan yedi metrik hesaplaniyor, sonra etiketle karsilastiriliyor.
+Hicbir dosya degistirilmedi.
+
+### Sonuc: 90 cevabin band ortalamalari
+
+| band | kelime | TTR (ilk 140 sozcuk) | yan cumle /100 | mekanik baglac | hata izi /100 |
+|---|---|---|---|---|---|
+| 5,0 | 221 | 0,55 | 0,10 | 2,9 | **3,44** |
+| 6,5 | 248 | 0,65 | 0,99 | 0,5 | 0,42 |
+| 8,0 | 264 | 0,70 | 1,44 | 0,0 | **0,05** |
+
+Uc seviye her boyutta ayrisiyor, en keskin ayrim dilbilgisinde: band 5'te 100 sozcuge
+**3,44** hata izi, band 8'de **0,05** - yaklasik 70 kat. Uzunluk farki ise kucuk
+(221 -> 264, %19). Yani kutuphane prompt'un uyardigi tuzaga dusmemis: seviyeler
+uzunlukla degil nitelikle ayrisiyor.
+
+| | Denetim | Sonuc |
+|---|---|---|
+| A | her cevap alt sinirin (T2 250 · digerleri 150) uzerinde mi | 90/90 temiz |
+| B | sozcuk cesitliligi band 5 -> 8 arasinda en az 0,03 artiyor mu | 30/30 temiz |
+| C | band 8 yan cumle yogunlugu band 5'i geciyor mu | 30/30 temiz |
+| D | band 8 band 5'ten daha mekanik degil mi | 30/30 temiz |
+| E | band 5 gercekten hata iceriyor, band 8 temiz mi | 30/30 temiz |
+| F | ayni dosyanin iki bandi arasinda kopyala-yapistir | yok |
+| G | 5 ile 8 farki uzunluk disinda en az 3 boyutta gorunuyor mu | 30/30 temiz |
+
+G'nin dagilimi: 19 gorev 5 boyutun besinde de ayrisiyor, 9 gorev dortte, 2 gorev
+ucte. Uctekiler **GT08 ve T2-39**; ikisinde de eksik olan boyutlar en zayif iki
+gosterge (cumle uzunlugu sapmasi ve mekanik baglac), dilbilgisi ayrimi ikisinde de
+saglam (band 5'te 6 ve 13 hata izi, band 8'de 0).
+
+### Denetimin kendisi dogrulandi (mutasyon testi)
+
+Bir denetimin "temiz" demesi, esiklerin gecmeye ayarlandigi anlamina da gelebilir.
+Bunu dislamak icin kutuphanenin gecici bozuk kopyalari denetimden gecirildi:
+
+| Bozma | Bulgu |
+|---|---|
+| band 5 metni yerine band 8 metni (ayrim tamamen kaldirilmis) | **202** |
+| uc bandin da ayni metin olmasi | **223** |
+| band 5 cevaplari 80 sozcuge kisaltilmis | **59** |
+| bozma yok (gercek kutuphane) | **0** |
+
+Denetim, prompt'un uyardigi hatayi kuruldugunda yakaliyor.
+
+### Ilk yazimda duzeltilen dort olcum hatasi
+
+Denetimin ilk surumu 54 bulgu vermisti; hepsi incelendi, **hicbiri icerik hatasi
+degildi** - dordu de olcumun kendi kusuruydu. Kayda geciyor, cunku ayni tuzaklar
+konusma tarafi olculurken de kurulabilir:
+
+1. **Sayilar sozcuk sayilmiyordu.** Sayim yalnizca harf dizilerini aliyordu; AT01-AT04
+   15-20 sayi eksik sayilarak "150 kelimenin altinda" gorundu. IELTS sayiminda "30%"
+   ve "1995" birer sozcuktur. Ayri bir `kelime_say()` eklendi.
+2. **"Kelime sayisi bandla birlikte artmali" diye bir kural yok.** Prompt yalnizca alt
+   siniri sart kosuyor. Bu uydurma kural yedi dosyayi bulgu isaretledi; kaldirildi -
+   zaten prompt'un butun vurgusu farkin uzunlukta *olmamasi* gerektigi yonunde.
+3. **Ortak dizi SAYMAK yaniltiyor.** Tek bir 12 sozcukluk ortak cumle "5 ayri ortak
+   8'li dizi" olarak gorunup dosya bes kez kopyalanmis gibi okunuyordu. Olcu, en uzun
+   kesintisiz ortak diziye cevrildi; esik 15 sozcuk veya kisa cevabin %10'u.
+4. **Hata dedektorunun kesinligi ve duyarligi.** Ilk surum bes band 5 cevabinda "tek
+   hata izi yok" dedi; metinler elle okundu, hepsi hatayla dolu cikti ("I am write
+   this letter for complain", "some peoples", "he don't know") - dedektorun duyarligi
+   dusuktu, kalip sayisi 9'dan 17'ye cikarildi. Ters yonde: band 8'de bulunan yedi
+   izin **hepsi yanlis alarmdi** ("watched it change", "the rules that come into
+   force", "a state which cannot house its people has misjudged" - ucu de dogru
+   Ingilizce); algi fiili, iliski zamiri ve iyelik korumalari eklendi.
+
+### Bu denetimin siniri
+
+Kalip tabanli bir dedektor bandi olcmez, bandin **izlerini** olcer. Band 8'de kalan
+uc iz (`the dominant use of energy`, `the city break`) ad/fiil belirsizliginden gelen
+yanlis alarmdir ve elenemedi. Dogru okuma sudur: bu bir **karsilastirma araci** -
+mutlak hata listesi degil, band 5 ile band 8 arasindaki 70 katlik yogunluk farkinin
+kaniti. Puanlamanin kendisi hala `degerlendirme/` talimatiyla ve elle yapiliyor;
+yukaridaki gruplarin tablolari o puanlamanin kaydi.
+
+### Bulgu sayilmayan gozlem: bandlar arasi ortak dizi
+
+Onbir dosyada band 6,5 ile 8,0 arasinda 8-12 sozcukluk ortak dizi var; en uzunu
+GT02'de 12 sozcuk ("the notice on the gate of the Fenton Street community garden
+which"). Bunlar kopyala-yapistir degil turun kendi kalibi: Academic Task 1 girisinin
+gorev cumlesinin parafrazi (AT08: "the bar chart compares the number of holiday trips
+of five"), mektup hitabi ("Dear Sir or Madam, I am writing about") ve gorevin ozel
+adlari. Esigin (15 sozcuk) altinda kaldiklari icin yeniden yazim yapilmadi; prompt'un
+yeniden yazim olcutu band sapmasidir, ifade tekrari degil. Konusma tarafi uretilirse
+ayni olcum orada da anlamli olur - orada ortak kalip daha az mesrudur, cunku
+konusmanin acilisi gorev cumlesinin parafrazi degildir.
+
+---
