@@ -710,3 +710,114 @@ ayni olcum orada da anlamli olur - orada ortak kalip daha az mesrudur, cunku
 konusmanin acilisi gorev cumlesinin parafrazi degildir.
 
 ---
+
+## Yazma yarisinin dorduncu duzey denetimi: GEREKCE - KANIT (uretim yok)
+
+Onceki uc denetim hep **cevabin kendisine** bakti: semasi dogru mu (1), goreve uyuyor
+mu (2), hedefledigi bandin izlerini tasiyor mu (3). Hicbiri `why_this_band` ve
+`what_would_lift_it` alanlarini okumadi. Oysa kullaniciya "band 7 boyle yazar" diyen
+sey cevap kadar onun altindaki gerekcedir: gerekce metinde olmayan bir seyi
+gosteriyorsa ornek yanlis seyi ogretir. Puanlama talimati bunu zaten kural yapmis
+(`degerlendirme/ORTAK-KURALLAR.md`, BLOCK G):
+
+> "`quote` is a verbatim span of 3-25 words copied exactly from the candidate's
+> response. Copy the errors too - do not tidy the spelling, capitalisation or grammar
+> of a quote."
+
+Kutuphanenin gerekceleri Turkce yazilmis ama ayni isi yapiyor: iclerinde cevaptan
+alinmis Ingilizce parcalar var. `python tools/_c1_gerekce.py` o parcalari cikarip
+metinle karsilastiriyor (1273 aday alinti, 450 gerekce alani). Hicbir dosyayi
+degistirmez; bulgu varsa cikis 1.
+
+| | Denetim | Ilk kosu | Duzeltmeden sonra |
+|---|---|---|---|
+| A | gerekcedeki alinti cevabin kendi metninde bire bir var mi | 23 bulgu | 90/90 temiz |
+| B | alinti baska bir bandin metninden mi gelmis | 2 bulgu | 30/30 temiz |
+| C | "su oge hic gecmiyor" denen sey gercekten gecmiyor mu | yok | temiz |
+| D | band 5 / 6,5 onerisi bir ust bandin metninde karsilik buluyor mu | olcum | 4 / 12 |
+| E | band 8 kusursuz ilan edilmis mi | yok | 30/30 temiz |
+| F | gerekce cumlesi cevaplar arasinda kopyala-yapistir mi | 5 grup (13 cevap) | 0 |
+| G | gerekce cevap yerine kisi/sinav hakkinda mi konusuyor (BLOCK I) | yok | 90/90 temiz |
+| H | band 5 / 6,5 dilbilgisi gerekcesi bir hata ornegi veriyor mu | 3 bulgu | 60/60 temiz |
+
+### Duzeltilen 34 gerekce alani (cevap metinleri degismedi)
+
+**25 alanda alinti metinle bire bir tutmuyordu.** Ucu uydurmaydi, geri kalani
+sikistirilmis ya da duzeltilmis alintiydi - ki BLOCK G'nin acikca yasakladigi sey
+budur ("copy the errors too"):
+
+| Tur | Ornek | Metinde gercekte olan |
+|---|---|---|
+| uydurma oge | AT01/6,5 sozcuk gerekcesi "lowest" diyor | metinde "lowest" hic yok (highest point, steady growth var) |
+| uydurma oge | T2-06/8 "Induced demand" | metinde "induced" hic yok ("without demanding a parking space" var) |
+| uydurma oge | T2-39/8 "the difficulty is that" | metinde "difficulty" hic yok ("Most services, though, are not so tidy" var) |
+| duzeltilmis alinti | T2-01/6,5 "the distance between the two groups" | "the distance between the two group" - cogul hatasi gerekcede duzeltilmis |
+| sikistirilmis alinti | GT05/5 "the boiler make" | "The boiler in the kitchen make" |
+| sikistirilmis alinti | T2-11/5 "they don't have nothing" | "the people don't have nothing" |
+| genisletilmis alinti | T2-54/8 "in far duller ways too" | "in duller ways too" - gerekce "far" eklemis |
+| parafraz | T2-50/8 "uninterrupted stretches", "structural remedies" | "the loss of uninterrupted time", "remedies that last are structural" |
+
+Digerleri ayni turden: AT06/6,5 · GT06/8 · GT07/8 (iki oge) · GT08/8 · T2-01/8 ·
+T2-11/6,5 · T2-15/5 ve /6,5 · T2-17/5 · T2-39/6,5 · T2-44/5 · T2-53/5 (iki oge) ve
+/6,5 · T2-54/6,5 · T2-57/5 ve /6,5.
+
+**6 alanda gerekce cumlesi baska cevaplardan kopyalanmisti.** Bes kalip 13 cevapta
+aynen tekrar ediyordu; en yaygini uc dosyada gecen "Hata seyrek ve okuru durdurmuyor;
+band 9'un tam rahatligi yok." BLOCK G bunu ayrica yasakliyor ("recycled band-descriptor
+language is forbidden"): boyle bir cumle o cevap hakkinda hicbir sey soylemiyor. Her
+biri kendi cevabinda somut bir yere baglandi (T2-01/8, T2-06/8, T2-24/8, T2-44/8,
+T2-53/8, T2-50/6,5).
+
+**3 alanda alt band dilbilgisi gerekcesi tek bir hata ornegi vermiyordu** - AT03/6,5,
+AT04/6,5, AT05/6,5 hepsi "Kalan hatalar anlami engellemiyor" diyip birakiyordu. Band
+6,5 cevabinda hata vardir ve ogrenci neyi duzeltecegini ancak gosterilirse gorur;
+ucune de metinden alinmis ikiser ornek eklendi (happened in the appliances and
+electronics · this is the biggest fall · arrives to a leaf screen gibi).
+
+### Denetimin kendisi dogrulandi (mutasyon testi)
+
+| Bozma | Bulgu |
+|---|---|
+| gerekcedeki alinti kutuphanede hic gecmeyen sozcuklerle degistirildi | **2** (A) |
+| band 8 metninden alinan bir parca band 5 gerekcesine tasindi | **2** (B) |
+| metinde gecen Firstly/Secondly icin "hic gecmiyor" dendi | **3** (C) |
+| bir gerekce cumlesi baska bir dosyaya kopyalandi | **5** (A+F) |
+| band 8 gerekcesine "tamamen hatasiz" yazildi | **1** (E) |
+| oneriye "bu ogrenci sinavda kesinlikle 7 alir" yazildi | **3** (G) |
+| butun gerekceler bir dosya kaydirildi (hepsi yanlis cevaba bagli) | **984** (A+B+H) |
+| bozma yok (gercek kutuphane) | **0** |
+
+### Ilk yazimda duzeltilen dort olcum hatasi
+
+3. duzey denetimin dersi ("temiz gecmeyen denetimden once suphelen") bu kez de
+gecerliydi: ilk kosu 275 bulgu verdi, **249'u olcum hatasiydi.**
+
+1. **"Sinirli" yokluk demek degildir.** "go up, go down ile sinirli kaliyor" cumlesi bu
+   ogelerin metinde OLDUGUNU soyluyor; ilk surum bunu yokluk iddiasi sayip 238 yanlis
+   alarm verdi. C denetimi yalnizca acik yokluk fiiline ("hic gecmiyor", "girmiyor")
+   baglandi, "tekrar edilmiyor" disarida birakildi.
+2. **Noktali virgul cumleyi bitirir.** "bill, line ile sinirli; refund hic girmiyor"
+   tek cumle sayilinca yokluk iddiasi ilk yarinin alintilarina da bulasti (9 alarm).
+   Ayni sekilde "... tekrar ediyor VE resmi kaliplar hic yok" cumlesinde yokluk
+   baglactan sonraki oge icindir.
+3. **"Cumlelerin buyuk cogunlugu hatasiz" bir kusursuzluk iddiasi degildir**, band 8'in
+   tarifidir. Yalin "hatasiz" aramasi AT04'u haksiz yere isaretledi; E artik yalnizca
+   mutlak ifadeleri ("tamamen hatasiz", "kusursuz", "hicbir hata yok") ariyor.
+4. **Cekim eki farki uydurma kanit degildir.** "collect, store, distribute gibi ogeler"
+   diyen bir gerekce ogeyi sozluk bicimiyle yazar, metinde "collected", "stored" gecer
+   (AT05, T2-09). Bunlar bulgu degil gozlem.
+
+### Bu denetimin siniri
+
+Alinti cikarma kalip tabanlidir ve iki yonden kordur. Ingilizce sozluk kutuphanenin
+kendisinden kuruluyor; bu yuzden **hicbir cevapta gecmeyen sozcuklerden kurulmus sahte
+bir alinti** ilk surumde gorunmez kaliyordu (mutasyon 1 bunu yakaladi ve olcu
+duzeltildi: taninan tek sey Ingilizce islev sozcukleriyse dizi oldugu gibi sinaniyor).
+Ters yonde, nadir Turkce sozcukler ("kalibiyla", "ogeleri") alintiya yapisip yanlis
+alarm uretebiliyor; bunlar diziyi bolerek elendi. Denetim bir **alinti dogrulama**
+aracidir: gerekcenin dogru olup olmadigini degil, gerekcenin gosterdigi seyin metinde
+bulunup bulunmadigini olcer. Gerekcenin bandi dogru aciklayip aciklamadigi hala
+`degerlendirme/` talimatiyla ve elle karar veriliyor - yukaridaki grup tablolari o
+kaydin kendisi.
+
+---

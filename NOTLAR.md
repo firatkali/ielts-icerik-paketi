@@ -7227,3 +7227,69 @@ hiç kullanılmadı, kalan on soruda birer kez. Çeldirici türü çeşitliliği
 - Atlanan: konusma ornekleri (20 kart x 3 seviye) - kullanici istegiyle. Konusma
   tarafi dort calistirmanin ucunde de acilmadi; son calistirmada da kapali kalirsa
   `content/ornek-cevaplar/` yalnizca yazma kutuphanesi olarak teslim edilecek.
+
+## OPUS5-C1 (konusma 4/4 istendi, yine uretim yok - ayni cakisan talimat)
+- Tarih: 2026-08-07
+- Bagimlilik kontrolu gecti: `degerlendirme/DEGISIKLIK-KAYDI.md` ve
+  `kalibrasyon/olcum/SONUC.md` ikisi de yerinde.
+- **Istenen:** "bu dosyanin 4. calistirmasi (toplam 4)", "konusma kartlari icin
+  CALISTIRMA", "once depoda hangi gruplarin uretildigine bak, uretilmemis ilk grubu
+  yap, zaten var olani tekrar uretme".
+- **Oturum basi durumu:** onceki uc calistirmadaki ile ayni, bagimsiz olarak yeniden
+  dogrulandi: `content/ornek-cevaplar/writing/` icinde 30 dosya, her birinde tam olarak
+  band 5,0/6,5/8,0 uclusu, `task_ref` dosya adiyla ayni, dort olcut anahtari eksiksiz =
+  90 cevap, prompt'un yazma kapsaminin tamami. `content/ornek-cevaplar/speaking/` yok.
+  Uretilmemis tek grup konusma (7-10. calistirmalar), o da kullanici tarafindan
+  kapatilmis. Uretilecek grup yine kalmadi; dosya uydurulmadi.
+- **Bunun yerine yapilan - dorduncu duzey denetim: GEREKCE - KANIT.** Onceki uc denetim
+  hep cevabin kendisine bakti (sema · gorevle iliski · band ayrimi); hicbiri
+  `why_this_band` ve `what_would_lift_it` alanlarini okumadi. Oysa "band 7 boyle yazar"
+  diyen sey cevap kadar onun altindaki gerekce. Puanlama talimatinin BLOCK G kurali
+  ("quote is a verbatim span ... copy the errors too") kutuphaneye uygulandi:
+  `tools/_c1_gerekce.py` (sekiz kontrol, hicbir dosyayi degistirmez, bulgu varsa cikis 1).
+- **Bu kez bulgu cikti ve icerik duzeltildi: 34 gerekce alani.** Cevap metinlerinin
+  hicbiri degismedi (dosya dosya dogrulandi).
+  - **25 alanda alinti metinle bire bir tutmuyordu.** Ucu uydurmaydi: AT01/6,5 "lowest"
+    diyor ama metinde yok; T2-06/8 "Induced demand" diyor ama metinde "induced" hic
+    gecmiyor; T2-39/8 "the difficulty is that" diyor ama "difficulty" yok. Geri kalani
+    sikistirilmis ("the boiler make" <- "The boiler in the kitchen make"), genisletilmis
+    ("in far duller ways too" <- "in duller ways too") ya da **duzeltilmis** alintiydi:
+    T2-01/6,5 gerekcesi "the two groups" yaziyordu, metinde cogul hatasi ile "the two
+    group" geciyor. Sonuncusu en onemlisi, cunku BLOCK G tam olarak bunu yasakliyor -
+    hatayi duzelten alinti kaniti yok ediyor.
+  - **6 alanda gerekce cumlesi baska cevaplardan kopyalanmisti** (bes kalip, 13 cevap).
+    En yaygini: "Hata seyrek ve okuru durdurmuyor; band 9'un tam rahatligi yok." BLOCK G
+    bunu da yasakliyor; boyle bir cumle o cevap hakkinda bilgi tasimiyor. Her biri kendi
+    cevabindaki somut bir yere baglandi.
+  - **3 alanda alt band dilbilgisi gerekcesi tek bir hata ornegi vermiyordu** (AT03/6,5,
+    AT04/6,5, AT05/6,5: "Kalan hatalar anlami engellemiyor"). Band 6,5'te hata vardir ve
+    ogrenci neyi duzeltecegini ancak gosterilirse gorur; ucune de metinden ikiser ornek
+    eklendi. Bu, denetime sonradan eklenen H kontrolu.
+- **Denetimin kendisi mutasyon testiyle dogrulandi.** Yedi bozma senaryosu: uydurma
+  alinti 2, capraz kanit 2, yanlis yokluk iddiasi 3, kopyalanan gerekce 5, kusursuzluk
+  iddiasi 1, kisi/sinav dili 3, butun gerekceler bir dosya kaydirilmis 984 bulgu;
+  bozulmamis kopyada 0.
+- **Mutasyon testi denetimin gercek bir korlugunu buldu.** Ilk surumde "uydurma alinti"
+  senaryosu **hic bulgu vermedi**: Ingilizce sozluk kutuphanenin kendisinden kuruluyor,
+  dolayisiyla hicbir cevapta gecmeyen sozcuklerden kurulmus sahte bir alinti sozluge
+  gore "Ingilizce degil" sayilip gorunmez kaliyordu. Olcu duzeltildi: taninmayan
+  sozcukler iceren bir dizide taninan tek sey Ingilizce islev sozcugu ise (a, the, of...)
+  dizi bolunmeden sinaniyor. Ders: mutasyon testi denetimi dogrulamak icin degil,
+  **denetimin neyi goremedigini bulmak icin** yazilmali.
+- **Ilk kosunun 275 bulgusunun 249'u olcum hatasiydi** (3. duzey denetimin dersi yine
+  gecerli). Dordu de KONTROL.md'ye yazildi: (1) "go up, go down ile SINIRLI" cumlesi bu
+  ogelerin var oldugunu soyler, yok oldugunu degil - 238 yanlis alarm; (2) noktali
+  virgul cumleyi bitirir, yoksa yokluk iddiasi onceki yarinin alintilarina bulasiyor;
+  (3) "cumlelerin buyuk cogunlugu hatasiz" band 8'in tarifidir, kusursuzluk iddiasi
+  degil; (4) cekim eki farki ("store" ~ "stored") uydurma kanit degildir.
+- Onceki uc denetim bu degisikliklerden sonra yeniden kosuldu, ucu de temiz:
+  `_c1_denetim.py` (gorev iliskisi), `_c1_ayrim.py` (band ayrimi), sema/kelime sayisi.
+  Ozellikle 2. duzeydeki "<=2 cumle" siniri hala saglaniyor - eklenen ornekler cumle
+  sayisini artirmadi.
+- Yazilan/degisen: `tools/_c1_gerekce.py` (yeni), 21 cevap dosyasinda 34 gerekce alani,
+  `content/ornek-cevaplar/KONTROL.md` (sona "dorduncu duzey denetim" bolumu).
+  `DURUM.txt` elle degistirilmedi.
+- Atlanan: konusma ornekleri (20 kart x 3 seviye) - kullanici istegiyle, dort
+  calistirmanin dordunde de kapali kaldi. `content/ornek-cevaplar/` yalnizca yazma
+  kutuphanesi olarak teslim ediliyor: 30 gorev x 3 seviye = 90 cevap, dort duzey
+  denetimden gecmis.
