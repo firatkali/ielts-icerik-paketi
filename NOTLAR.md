@@ -7353,3 +7353,52 @@ hiç kullanılmadı, kalan on soruda birer kez. Çeldirici türü çeşitliliği
   Eksik olan tek sey kural yazisiydi: `content/PLAN-soru-dagilimi.md` elle
   degistirilmez oldugu icin yeni `content/PLAN-EK-kurallar.md` dosyasi acilip
   Kalite kurali 2'nin NOT GIVEN istisnasi oraya yazildi.
+
+## SONNET5-E3-arac-borclari (1. calistirma)
+- Tarih: 2026-08-08
+- Denetim raporunun A12 bulgusu kapatildi (iki arac borcu). Icerik degismedi, hicbir
+  soru silinmedi/eklenmedi. `python tools/dogrula.py` once ve sonra calistirildi:
+  TOPLAM 1310, isaretli (flagged) 180, tum tam testler (AC1-4, GT1-2, L1-6) 40/40,
+  sema hatasi 0 - degisiklikten once/sonra birebir ayni.
+- **Madde 1 — `tools/puanlama-raporu.py` kume bolunmus rapor:** Script artik
+  `RAPOR-tur<N>.md`'ye (aynen, degismedi) ek olarak her tur icin
+  `RAPOR-tur<N>-GENEL.md` (ozet + basari olcutleri + beceri tablosu, "Ornek ornek"
+  tablosu ve kume sapma satirlari YOK) ve her kume icin ayri
+  `RAPOR-tur<N>-<KUME>.md` (yalniz o kumenin sapma satiri + o kumenin ornek
+  tablosu) yaziyor. Hesaplama mantigi degismedi, sadece hangi satirin hangi
+  dosyaya gittigi degisti.
+  **Gerileme testi (tur 3, once/sonra):**
+  | Olcu | Eski | Yeni |
+  |---|---|---|
+  | Ornek / puanlama | 18 / 54 | 18 / 54 |
+  | Ortalama mutlak fark (tek seferlik) | 0.694 | 0.694 |
+  | Egilim | -0.139 | -0.139 |
+  | En buyuk sapma | 1.50 | 1.50 |
+  | Yayilim (ort.) | 0.19 | 0.19 |
+  | Basari olcutleri (4 tanesi) | KALDI/KALDI/gecti/gecti | KALDI/KALDI/gecti/gecti |
+  `diff` ile eski/yeni `RAPOR-tur3.md` karsilastirildi: tek fark baslikta bugunun
+  tarihi (`2026-08-07` -> `2026-08-08`), geri kalan her satir (basari olcutleri,
+  beceri tablosu, kume tablosu, ornek ornek tablosu) birebir ayni. Tur 1 ve tur 2
+  icin de ayni script yeniden calistirildi, ayni sonuc (sadece tarih satiri farkli).
+  `RAPOR-tur3-GENEL.md` icerigi kontrol edildi: ornek tablosu yok, kume tablosu
+  yok - sadece genel ozet + basari olcutleri + beceri (writing) satiri.
+  `RAPOR-tur3-S1.md` icerigi kontrol edildi: sadece S1 satiri (n=7) + S1'in 7
+  ornegi; S2/S3 hic gecmiyor.
+  `prompts/OPUS5-A4-puanlama-duzeltmesi.md`: "raporun saklı küme bölümünü de
+  okuma" cumlesi yeni dosya adlarina gore guncellendi ("Saklı kümenin
+  `RAPOR-tur<N>-<KUME>.md` dosyasını hiç açma; yalnız `RAPOR-tur<N>-GENEL.md` ve
+  izinli kümelerin kendi dosyalarını oku."); Adim 1'deki "hangi dosyayi ac"
+  cumlesi de tutarlilik icin ayni sekilde guncellendi (artik tam `RAPOR-tur<N>.md`
+  degil, `RAPOR-tur<N>-GENEL.md` + izinli `RAPOR-tur<N>-<KUME>.md` dosyalari
+  aciliyor) - yoksa Adim 1 hala saklı kumeyi de iceren tam rapora yonlendirirdi.
+- **Madde 2 — `tools/kor-kopya.py` onceki oturum temizligi:** Denetimde
+  "temizlemiyor" denen davranis kodda zaten vardi (`shutil.move` ile
+  `dogrulama/cevap/` -> `dogrulama/cevap-arsiv/<damga>/`), kod degistirilmedi.
+  Sinama: mevcut `dogrulama/cevap/` (36 dosya, onceki bir capraz dogrulama
+  oturumundan kalma) uzerinde `python tools/kor-kopya.py short-answer`
+  calistirildi -> "onceki oturumun cevaplari arsivlendi ->
+  dogrulama/cevap-arsiv/20260808-001945" ciktisi geldi, o klasorde 36 dosyanin
+  hepsi goruldu, `dogrulama/cevap/` bos kaldi ve yeni 5 kor kopya `dogrulama/kor/`
+  altina yazildi. Calisiyor -> A12'nin bu yarisi kapandi. Sinama sonrasi
+  `dogrulama/cevap-arsiv/20260808-001945` icerigi elle `dogrulama/cevap/`'e geri
+  tasindi (dogrulama/ zaten .gitignore'da, depoyu etkilemedi).

@@ -1,4 +1,4 @@
-# Puanlama olcumu — tur 3 (2026-08-07)
+# Puanlama olcumu — tur 3 (2026-08-08)
 
 Olculen ornek: **18** | toplam puanlama: **54**
 

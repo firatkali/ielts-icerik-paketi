@@ -1,4 +1,4 @@
-# Puanlama olcumu — tur 2 (2026-08-07)
+# Puanlama olcumu — tur 2 (2026-08-08)
 
 Olculen ornek: **23** | toplam puanlama: **23**
 

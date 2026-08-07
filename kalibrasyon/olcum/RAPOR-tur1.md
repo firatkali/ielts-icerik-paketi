@@ -1,4 +1,4 @@
-# Puanlama olcumu — tur 1 (2026-08-07)
+# Puanlama olcumu — tur 1 (2026-08-08)
 
 Olculen ornek: **21** | toplam puanlama: **63**
 

@@ -25,7 +25,8 @@ gevşetmek, belirli bir ölçütte savruluyorsa o ölçütün tanımını netle�
 | Son rapor | hepsi (artık düzeltme yapılmıyor) | — |
 
 Saklı kümedeki örneklerin cevaplarını, gerçek bandlarını, sapma satırlarını **açma.**
-`tools/puanlama-raporu.py` raporunun saklı küme bölümünü de okuma.
+Saklı kümenin `RAPOR-tur<N>-<KUME>.md` dosyasını hiç açma; yalnız `RAPOR-tur<N>-GENEL.md`
+ve izinli kümelerin kendi dosyalarını oku.
 
 Sebep: talimatı gördüğün örneklere göre tek tek ayarlarsan model o örnekleri ezberler, sapma
 raporda küçülür ama gerçekte düzelmez. Saklı küme bunu yakalayan tek şey. Açık kümede iyi +
@@ -35,7 +36,8 @@ saklı kümede kötü = o düzeltme geçersiz.
 
 ## Adım 1 — Raporu oku, örüntü ara
 
-`kalibrasyon/olcum/RAPOR-tur<N>.md` + izinli kümelerin tek tek puanlamaları.
+`kalibrasyon/olcum/RAPOR-tur<N>-GENEL.md` + izinli kümelerin `RAPOR-tur<N>-<KUME>.md`
+dosyaları (saklı kümenin dosyası açılmaz).
 
 Tek tek örneklere değil **örüntüye** bak:
 
