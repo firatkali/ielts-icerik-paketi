@@ -192,7 +192,7 @@ ADIMLAR = (
               "durumu yaz, commit et ve cik.")
     + _yay("Puanlama olcumu - konusma", "sonnet",
            "SONNET5-A3-puanlama-olcumu.md", 3,
-           ek="KONUSMA OLCUM TURU, klasor adi tur4: yalniz kalibrasyon/olcum/ornekler/"
+           ek="KONUSMA OLCUM TURU, klasor adi tur4: yalniz kalibrasyon/ornekler/"
               "konusma altindaki ornekler puanlanacak, her ornek 3 kez. Once konusma "
               "kodlarini kalibrasyon/olcum/kumeler.json icindeki S1/S2/S3 kumelerine "
               "bandlar dengeli olacak sekilde ekle. Yazma orneklerini bu turda "
