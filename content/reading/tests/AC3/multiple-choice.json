@@ -48,7 +48,10 @@
       },
       "explanation": "Paragraf A, kentin öyle eksiksiz gömüldüğünü söylüyor ki başka Roma yerleşimlerinde ender görülen biçimde ahşap, yiyecek ve kumaş bile yüzyıllarca kalabilmiş; bu nesneler korunmanın olağandışılığını göstermek için sayılıyor.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "general_knowledge",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     },
     {
       "number": 33,
@@ -87,7 +90,10 @@
       },
       "explanation": "Paragraf D, miyelinin tekrarlayan desenini saptamak için geliştirilen özel görüntü işleme yönteminin, gerçek sinir yapılarını gelişigüzel camsı kalıntıdan ayırmaya yaradığını söylüyor.",
       "difficulty": "hard",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "logic",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     },
     {
       "number": "34-35",
@@ -141,7 +147,10 @@
       },
       "explanation": "Paragraf F, beyin dokusuna özgü proteinler arasında nöronlar arası iletişim için gerekli olan birinin bulunduğunu; paragraf G ise maddenin atom düzeyinde karbon ve oksijenden (yaklaşık yüzde 65 ve 31) oluştuğunu söylüyor.",
       "difficulty": "hard",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "general_knowledge",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     }
   ]
 }

@@ -48,7 +48,10 @@
       },
       "explanation": "Paragraf B, adanın olağandışı su kimyasının jeolojiden geldiğini söyleyip bunu açıklıyor: deniz tabanının altındaki magma, yaşayan resifin hemen yanında sürekli karbondioksit salan sığ bacaları besliyor.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "general_knowledge",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     },
     {
       "number": 33,
@@ -87,7 +90,10 @@
       },
       "explanation": "Paragraf D, ayrıntılı taramanın Mayıs 2014'te başladığını ve aynı yılın Ağustos ayı için bir takip ziyaretinin planlandığını söylüyor.",
       "difficulty": "easy",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "option_wording",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     },
     {
       "number": "34-35",
@@ -141,7 +147,10 @@
       },
       "explanation": "Paragraf F, karbondioksitin yalnız suyun kimyasını değil resifteki canlı topluluğunu da değiştirdiğini; paragraf G ise ayrı bir çalışmanın deniz tabanı yerine mercan iskeletlerinin içinde olup bitene odaklandığını söylüyor.",
       "difficulty": "hard",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "general_knowledge",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     }
   ]
 }

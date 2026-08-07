@@ -50,7 +50,10 @@
       },
       "explanation": "Paragraf B, yirmi dört çiftin her birinde iki hayvanın ağırlıkça yüzde on beşten fazla farklı olmayacak biçimde eşleştirildiğini söylüyor.",
       "difficulty": "easy",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "general_knowledge",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     },
     {
       "number": 2,
@@ -90,7 +93,10 @@
       },
       "explanation": "Paragraf C, bu evrenin araştırmacılara, herhangi bir fiziksel karşılaşmadan önce yalnızca görsel temasın sonraki davranışı etkilemeye yetip yetmediğini sorma imkânı verdiğini söylüyor.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "logic",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     },
     {
       "number": "3-4",
@@ -145,7 +151,10 @@
       },
       "explanation": "Paragraf H, görme ile fiziksel temasın birlikte bu tanımanın temelinde yattığını söylüyor ve kimyasal sinyallerin katkısının dışlanamayacağını ekliyor.",
       "difficulty": "hard",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "option_wording",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     },
     {
       "number": 5,
@@ -185,7 +194,10 @@
       },
       "explanation": "Paragraf A, siti ayıran şeyin ölçeği olduğunu; çoğu insan topluluğu hâlâ küçük ve göçerken Çatalhöyük'ün yoğun, kasabaya benzer bir yerleşime dönüştüğünü söylüyor.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "option_wording",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     },
     {
       "number": 6,
@@ -225,7 +237,10 @@
       },
       "explanation": "Paragraf B, hexaploid buğdayın, ilk tarım evreleriyle anılan basit buğdaylardaki iki ya da dört takım yerine altı takım kromozom taşıyan, genetik olarak daha karmaşık bir biçim olduğunu söylüyor.",
       "difficulty": "easy",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "general_knowledge",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     },
     {
       "number": "7-8",
@@ -280,7 +295,10 @@
       },
       "explanation": "Paragraf F speltaya benzer bir buğdayın Neolitik Yakın Doğu'da bulunduğuna dair ilk genetik ipucundan, paragraf G ise altı kromozomlu buğdayın sanılandan daha erken ortaya çıkmış olabileceğinden söz ediyor.",
       "difficulty": "hard",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "option_wording",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     },
     {
       "number": "9-10",
@@ -335,7 +353,10 @@
       },
       "explanation": "Paragraf A depremin, Kanada ile ABD sınırını aşan, yoğun buzul kaplı St Elias Dağları'nda olduğunu; paragraf B ise yer yer 700 metreden kalın buzun ana kayanın üstünde durduğunu söylüyor.",
       "difficulty": "hard",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "general_knowledge",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     },
     {
       "number": 11,
@@ -375,7 +396,10 @@
       },
       "explanation": "Paragraf C, 8 Aralık'ta çekilen görüntünün 26 Kasım'daki deprem öncesi görüntüyle karşılaştırıldığını ve daha önce düz ve koyu görünen yamaçlardaki yeni parlak alanların böyle ortaya çıktığını söylüyor.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "general_knowledge",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     },
     {
       "number": 12,
@@ -415,7 +439,10 @@
       },
       "explanation": "Paragraf E, bölgenin buzunu yıllardır izleyen bir araştırmacının çığların ve heyelanların sayısını ve büyüklüğünü şaşırtıcı bulduğunu aktarıyor ve bunun tek bir depremin bu ölçüde bir araziyi saniyeler içinde değiştirmesinin ne kadar sıra dışı olduğunu gösterdiğini söylüyor.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "logic",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     },
     {
       "number": 13,
@@ -455,7 +482,10 @@
       },
       "explanation": "Paragraf B, iki koşulun sırasının rastgele belirlenmesinin, ortam ne olursa olsun ikinci kez ölçülmenin tek başına ruh hâli puanlarını yükseltmesi ihtimaline karşı koruma sağladığını söylüyor.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "general_knowledge",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     },
     {
       "number": 14,
@@ -495,7 +525,10 @@
       },
       "explanation": "Paragraf C, karşılaştırma ortamının araştırmacılarca bilerek sakin ve trafiksiz, yani açıkça stresli olmayan bir yer olarak seçildiğini söylüyor.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "logic",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     },
     {
       "number": 15,
@@ -535,7 +568,10 @@
       },
       "explanation": "Paragraf H, gelecekteki çalışmaların daha uzun maruz kalma süreleri, başka mevsimler ve farklı kültürel geçmişlerden katılımcılar denemesini öneriyor.",
       "difficulty": "easy",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "option_wording",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     }
   ]
 }

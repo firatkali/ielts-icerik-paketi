@@ -55,3 +55,20 @@
     tasinmiyordu, baslik eslestirme secenegisiz olculecekti. 4. calistirmayi
     (matching-features, matching-sentence-endings) da ilgilendirir.
   - isaretli (flagged)     61
+
+07.08.2026 09:16
+  - isaretli (flagged)     61
+
+07.08.2026 (B1 3. calistirma: multiple-choice)
+  - multiple-choice 30/30 (%100) parcasiz bilindi. Uc turda da ayni cevap,
+    hicbir soruda 'guess' kullanilmadi. Tek turun sansla tutma olasiligi
+    ~3x10^-25, yani sonuc kesin.
+  - Iki cevapli 9 soruda 18 dogru harfin 0'i A veya G; {C,F} cifti 4 kez
+    dogru. Konumsal sizinti, icerikten bagimsiz.
+  - Dogru sik hep olculu, celdirici hep mutlak. Bu, 2. calistirmada
+    yes-no-not-given'da bulunan kip kusurunun aynisi -> iki tipte ortak
+    uretim promptu aliskanligi, tek duzeltmeyle kapanir.
+  - GT1+GT2'nin 6 sorusu da is hayatinin varsayilan kuralini tekrarliyor.
+  - multiple-choice-multi okuma tarafinda YOK (yalniz dinleme), olculmedi.
+  - Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR.md bolum 3
+  - isaretli (flagged)     91

@@ -49,7 +49,10 @@
       },
       "explanation": "A metninin D paragrafı, güçlü stajyerlerin ertesi yıl mezun programına başvurmaya davet edilebileceğini, ama bunun garanti olmadığını ve işletmenin ihtiyacına bağlı olduğunu söylüyor.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "option_wording",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     },
     {
       "number": 22,
@@ -89,7 +92,10 @@
       },
       "explanation": "B metninin A paragrafı, müşteriyle yüz yüze çalışan rollerdeki personelin genel politikadan bağımsız olarak ofise daha sık gelmesinin istenebileceğini söylüyor.",
       "difficulty": "easy",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "option_wording",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     },
     {
       "number": "23-24",
@@ -144,7 +150,10 @@
       },
       "explanation": "B metninin B paragrafı uzaktan çalışanların çekirdek saatlerde anlık mesajlaşmada ulaşılabilir olmasını, D paragrafı ise çalışma yerinin iki haftadan uzun süreli değişimini İK'ya önceden bildirmelerini şart koşuyor.",
       "difficulty": "hard",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "general_knowledge",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     }
   ]
 }

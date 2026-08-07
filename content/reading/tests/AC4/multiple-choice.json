@@ -48,7 +48,10 @@
       },
       "explanation": "Paragraf A, sorunun uygulamadaki önemini iki duruma bağlıyor: gündüz uykusunun alışıldık olduğu kültürler ve tam bir gece uykusunun çoğu zaman kıt olduğu toplumlar.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "option_wording",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     },
     {
       "number": 33,
@@ -87,7 +90,10 @@
       },
       "explanation": "Paragraf C'ye göre uyuyan grup akşam dokuzda öğrenip ertesi sabah dokuzda, uyanık grup sabah dokuzda öğrenip akşam dokuzda sınanıyor; yani her iki grupta öğrenme ile sınav arasındaki süre on iki saat.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "general_knowledge",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     },
     {
       "number": "34-35",
@@ -141,7 +147,10 @@
       },
       "explanation": "Paragraf D, şekerleme sırasında beyin etkinliğinin polisomnografiyle kaydedildiğini; paragraf F ise şekerlemelerin çoğunlukla, gece uykusunun derin evrelerinden daha hafif olan 2. evreden oluştuğunu söylüyor.",
       "difficulty": "hard",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "general_knowledge",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     }
   ]
 }

@@ -238,5 +238,171 @@ geldiğinde **"ölçülmedi"** olarak geçilecek.
 
 ---
 
+## 3 — multiple-choice (+ multiple-choice-multi) (2026-08-07)
+
+### Özet
+
+| Paket | Soru | 3/3 bilinen | Oran | Resmî taban |
+|---|---|---|---|---|
+| multiple_choice | 30 | **30** | **%100** | resmî listede yok — ayrı ölçülmedi |
+| multiple-choice-multi | 0 | — | — | **ölçülmedi**: okuma tarafında dosya yok |
+
+`multiple-choice-multi` yalnız `content/listening/practice/` altında var; dinleme bu
+adımın kapsamı dışında olduğu için bu paket ölçülmedi. Okuma tarafındaki çoktan seçmeli
+sorular — tek cevaplı da, iki cevaplı da — `multiple-choice.json` dosyalarında duruyor
+ve hepsi aşağıdaki 30 sorunun içinde.
+
+### 3.1 — multiple-choice: 30/30 🔴🔴🔴
+
+**Paketin tamamı parçaya bakmadan bilindi.** 7 dosya, 30 soru, üç turun üçünde de aynı
+cevap, üçünde de doğru.
+
+| Set | Soru | 3/3 bilinen | Oran |
+|---|---|---|---|
+| practice | 12 | 12 | %100 |
+| AC1 | 3 | 3 | %100 |
+| AC2 | 3 | 3 | %100 |
+| AC3 | 3 | 3 | %100 |
+| AC4 | 3 | 3 | %100 |
+| GT1 | 3 | 3 | %100 |
+| GT2 | 3 | 3 | %100 |
+
+#### Bu sonuç şansla açıklanamaz
+
+30 sorunun 21'i tek cevaplı (A–D, şans 1/4), 9'u iki cevaplı (A–G içinden İKİ harf, şans
+1/21; iki harfin ikisi de doğru olmadan soru doğru sayılmıyor). Tek bir turun tamamını
+tutturma olasılığı:
+
+    (1/4)^21 × (1/21)^9 ≈ 3 × 10⁻²⁵
+
+Yani üç tur olmasa, tek tur bile tek başına belirleyiciydi.
+
+⚠️ **Yöntem üstüne dürüst bir not:** üç tur kuralının işi, tek turda tutturulan şans
+cevabını elemektir. Bu pakette üç tur da **birebir aynı** cevapları verdi (30/30
+kararlılık), dolayısıyla 3/3 süzgeci burada ayırt edici çalışmadı — sonucu taşıyan şey
+turların sayısı değil, yukarıdaki tek tur olasılığıdır. Kararlılığın kendisi de ayrı bir
+bulgu: ipucu belirsiz bir sezgi değil, **her turda aynı yere götüren kuralcı bir işaret**.
+(Karşılaştırma: matching-headings'te tur kararlılığı %60'tı, orada ipucu yoktu.)
+
+Cevap anahtarı dengeli, yani sonuç "hep aynı harfi işaretledim" ucuzluğundan da gelmiyor:
+
+| Harf | Tek cevaplı 21 soruda |
+|---|---|
+| A | 5 |
+| B | 6 |
+| C | 6 |
+| D | 4 |
+
+#### Kusur 1 — iki cevaplı sorularda A ve G **hiçbir zaman** doğru değil
+
+9 iki-cevaplı sorunun 18 doğru harfinin dağılımı:
+
+| Harf | A | B | C | D | E | F | G |
+|---|---|---|---|---|---|---|---|
+| Kaç kez doğru | **0** | 3 | 5 | 1 | 3 | 5 | **0** |
+
+Listenin ilk ve son maddesi 9 soruda 9 kez de çeldirici. Dahası doğru **çift** de
+tekrarlıyor: {C, F} 9 sorunun 4'ünde doğru cevap (practice 3-4, practice 7-8, AC1 34-35,
+AC2 34-35), {B, E} 2'sinde. Aday üç soru gördükten sonra kalanları listeye bakmadan
+işaretleyebilir. Bu, içerikten tamamen bağımsız, **konumsal** bir sızıntı.
+
+#### Kusur 2 — doğru cevap ölçülü, çeldirici mutlak (2. çalıştırmadaki kusurun aynısı)
+
+İki cevaplı 9 sorunun **hepsinde** doğru çift, ihtiyatlı/koşullu yazılmış iki maddeydi;
+çeldiriciler mutlaklık taşıyordu. Örnekler:
+
+| Soru | Doğru (ölçülü) | Çeldirici (mutlak) |
+|---|---|---|
+| practice 3-4 | "**probably** work together" · "**cannot yet** be excluded" | "is **essential**" · "changed **nothing at all**" · "gave the **sharpest** results" |
+| practice 7-8 | "**may** have appeared earlier" · "**may** have been present" | "is **disproved**" · "was **unknown**" · "descends **directly**" |
+| AC3 34-35 | "Carbon and oxygen dominate" · "A protein … was present" | "**Only one** protein" · "Chemistry **alone proved**" |
+
+Bu, 2. çalıştırmada yes-no-not-given'da bulunan kusurun ta kendisi: **cevap, cümlenin
+kipinde kodlanmış.** Orada ölçülü→YES / mutlak→NO idi; burada ölçülü→doğru şık /
+mutlak→çeldirici. İki farklı soru tipinde aynı imzanın çıkması, bunun tek tek soruların
+değil **üretim promptu ailesinin ortak alışkanlığı** olduğunu gösteriyor.
+
+#### Kusur 3 — "Why does the writer…" soruları yazı geleneğiyle çözülüyor
+
+practice 12, practice 15, AC2 32, AC2 33, AC3 32, AC3 33'te doğru şık, o hamlenin bir
+bilim yazısındaki **olağan işlevini** söylüyor; çeldiriciler ise hiçbir yazarın
+yapmayacağı işlevler öneriyor ("uydu fotoğraflarını şüpheye düşürmek", "kasabanın zengin
+olduğunu ima etmek"). Parçayı okumaya gerek kalmıyor, tür bilgisi yetiyor. Aynı ailede
+practice 15'te doğru şık listenin **en uzun ve en ayrıntılı** maddesi ("longer visits,
+other seasons, other cultures") — klasik sınav-kurnazlığı ipucu; AC4 32 de öyle.
+
+#### Kusur 4 — yöntem/tanım bilgisiyle çıkan sorular
+
+- practice 6: "hexaploid" kelimesinin **tanımı** zaten "daha çok kromozom takımı" demek.
+- practice 11: yörüngeden yeni hasarı görmenin yolu iki tarihli görüntüyü karşılaştırmaktır.
+- practice 13: iki koşulun sırasını rastgelelemenin amacı sıra/alıştırma etkisini elemektir.
+- AC4 33: nap–uyanık karşılaştırmasında iki grubun eşitlendiği şey bekleme süresidir.
+- AC1 32: mercanın yanına gaz ulaşmasını açıklayan şey volkanik jeolojidir.
+
+Bunlar çeldirici yazımı kusuru değil, **soru seçimi** kusuru: parçanın kendine özgü
+bilgisini değil, alanın genel bilgisini soruyorlar.
+
+#### Kusur 5 — GT setlerinde iş hayatının varsayılan kuralı
+
+GT1 ve GT2'nin 6 sorusunun 6'sı da sıradan çalışan kurallarını yeniden söylüyor: kartını
+unutan amirine söyler, vardiya değişimi iki vardiya arası dinlenmeyi kısaltıyorsa
+reddedilir, fazla mesai önceden onay ister ve izne çevrilebilir, uzaktan çalışan belirli
+saatlerde ulaşılabilir olur ve kalıcı adres değişikliğini bildirir, müşteriyle çalışan
+ofiste daha çok bulunur. Hiçbir el kitabı bunun tersini yazmayacağı için parça gereksiz.
+Bu, 1. çalıştırmada GT2 için (%71) not düşülen kusurun **daha ağır** hâli.
+
+### `basis` dağılımı
+
+Üç turun tamamı (90 cevap):
+
+| Dayanak | Sayı | Oran |
+|---|---|---|
+| general_knowledge | 43 | %48 |
+| logic | 24 | %27 |
+| option_wording | 23 | %26 |
+| guess | 0 | %0 |
+
+`guess` **sıfır** — 90 cevabın hiçbirinde gerçekten tahmin edilmedi. Bu tek başına
+paketin durumunu özetliyor.
+
+`option_wording` %26 ile bu ölçümün şimdiye kadarki en yüksek değeri (TFNG %5,
+YNNG %7). Bu iyi haber sayılır: `option_wording` **düzeltilebilir** bir kusurdur —
+çeldiricilerin yazımıyla ilgilidir, konu seçimiyle değil. Kusur 1 ve 2 doğrudan bu
+başlığa girer ve prompt düzeyinde kapatılabilir.
+
+⚠️ 2. çalıştırmadaki uyarının aynısı burada da geçerli: `general_knowledge` etiketi bir
+miktar şişkin. Özellikle GT sorularında "genel kültür" dediğim şey aslında seçeneklerin
+hangisinin makul yazıldığı bilgisiydi; sınırı ölçüm sırasında çizmek zor oldu. Raporun
+okunuşu: **bu paketteki asıl mekanizma seçenek yazımıdır.**
+
+### Düzeltme yönü (bu rapor uygulamıyor, işaret ediyor)
+
+1. İki cevaplı sorularda doğru harfleri listeye **rastgele** dağıt; A ve G'yi de doğru
+   yap. Şu anda 18 doğru harfin 0'ı A/G.
+2. {C, F} gibi tekrar eden doğru çiftleri kır.
+3. Kip ile doğruluk arasındaki bağı kopar: doğru şıkkı da zaman zaman kesin ifadeyle,
+   çeldiriciyi de zaman zaman ölçülü ifadeyle yaz. (YNNG için yazılan 1 numaralı öneriyle
+   aynı; iki tipte tek düzeltme.)
+4. "Why does the writer…" sorularında çeldiriciler de **yazının gerçekten yapabileceği**
+   işlevler olsun; saçma işlev çeldirici değildir.
+5. Doğru şıkkı en uzun madde yapma; şık uzunluklarını dengele.
+6. Tanımdan/yöntem bilgisinden çıkan soruları (practice 6, 11, 13) parçanın kendi
+   sayısal/koşullu ayrıntısına bağla.
+7. GT setlerinde soruyu "kural ne olmalı"dan "**bu** el kitabında hangi eşik/süre/istisna
+   yazıyor"a çevir.
+
+### Ölçülmeyenler
+
+- `multiple-choice-multi`: okuma tarafında dosya yok, **ölçülmedi**.
+- Diyagram etiketleme bu pakette yok; görsel gerektiren tiplerde bu ölçüm kördür.
+
+### Yapılan işaretleme
+
+30 sorunun **30'una** orijinal dosyasında `blind_solvable: true`, `blind_basis`,
+`status: "flagged"` ve `flag_reason` yazıldı. `blind_solvable: false` yazılan soru yok.
+**Hiçbir soru silinmedi**; soru sayısı 30'da sabit.
+
+---
+
 🔴 Son söz: **bu ölçüm bozuk soruyu bulur, zorluk seviyesini ölçmez.** "Bu soru gerçek
 sınav zorluğunda" demek ancak binlerce gerçek adayın verisiyle mümkündür.

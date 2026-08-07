@@ -48,7 +48,10 @@
       },
       "explanation": "Paragraf B, üç kaynağın birleştirilmesinin araştırmacılara yalnız her çalışanın ne kadar ürettiğini değil, kiminle birlikte çalıştığını ve takım arkadaşlarıyla ne sıklıkta yazıştığını da gösterdiğini söylüyor.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "logic",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     },
     {
       "number": 33,
@@ -87,7 +90,10 @@
       },
       "explanation": "Paragraf G, deneyimli takımların birbiriyle daha çok konuştuğu yolundaki apaçık görünen açıklamanın yeni bir bulguyla karmaşıklaştığını söylüyor.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "logic",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     },
     {
       "number": "34-35",
@@ -141,7 +147,10 @@
       },
       "explanation": "Paragraf H, şirketin yalnızca bireysel çıktıya göre ödeme yapmasının takıma yetişme güdüsünü ortadan kaldırdığını, yüz yüze temas da olmadığı için akran baskısının neredeyse hiç işlemediğini söylüyor.",
       "difficulty": "hard",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "logic",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     }
   ]
 }

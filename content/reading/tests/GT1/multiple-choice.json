@@ -49,7 +49,10 @@
       },
       "explanation": "A metninin C paragrafı, kartını unutan çalışanın aynı vardiya içinde amirine haber vermesi gerektiğini söylüyor.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "logic",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     },
     {
       "number": 22,
@@ -89,7 +92,10 @@
       },
       "explanation": "A metninin D paragrafı, iki vardiya arasında on bir saatten az dinlenme bırakacak takasların onaylanmayacağını söylüyor.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "general_knowledge",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     },
     {
       "number": "23-24",
@@ -144,7 +150,10 @@
       },
       "explanation": "B metninin C paragrafı, fazla mesainin önceden bir amir tarafından onaylanması gerektiğini ve ayda on saati aşan kısmın ödeme yerine izin olarak kullanılabileceğini söylüyor.",
       "difficulty": "hard",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "general_knowledge",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     }
   ]
 }
