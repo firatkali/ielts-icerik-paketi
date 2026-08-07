@@ -1,0 +1,45 @@
+{
+  "exam": "ielts",
+  "schema_version": "1.0",
+  "kind": "model_answer_set",
+  "skill": "writing",
+  "task_ref": "AT05",
+  "answers": [
+    {
+      "band": 5.0,
+      "text": "The diagram show how the rain water is collect and clean in a public building for use it again.\n\nFirstly, the rain fall on the roof of the building. The gutters and the pipes take this water and it go to a leaf screen. This screen clean the leaf and the grit from the water.\n\nSecondly, the water go to a big tank under the ground and it stay there. When the tank is full the water go out to the drain.\n\nThirdly, a pump take the water up to the treatment. There is a sand filter and it take the small particle from the water. After this there is a ultraviolet unit and it kill the bacteria, so the water is clean now.\n\nFinally the water go to another tank in the top of the building. From this tank the people use the water for the toilet and for the plants. This system is very good for save the water and the money of the building.",
+      "word_count": 167,
+      "why_this_band": {
+        "task_response": "Dokuz asamanin cogu siraya uygun veriliyor ama surecin butunu (iki cikisla bitmesi, insansiz olmasi) hicbir yerde ozetlenmiyor. Son cumle semada olmayan bir bilgi ekliyor: para ve tasarruf.",
+        "coherence_cohesion": "Firstly / Secondly / Thirdly / Finally kalibi var ve sira dogru, bu yuzden surec izlenebiliyor. Ama asamalar arasi baglanti bu dort sozcugun disina cikmiyor.",
+        "lexical_resource": "Take ve go fiilleri butun asamalari tasiyor; collect, filter, store gibi surece ozgu sozcukler tekrar edilmiyor. For save the water bicim hatasi.",
+        "grammatical_range_accuracy": "Edilgen cati denenip birakiliyor (is collect and clean) ve uyum hatalari her paragrafta var: it go, it kill, a ultraviolet unit. Yapilar basit cumleden ibaret."
+      },
+      "what_would_lift_it": "Edilgen catiyi duzgun kurmak (is collected, is filtered) ve son cumleyi atip yerine surecin nerede baslayip nerede bittigini soyleyen bir genel bakis yazmak."
+    },
+    {
+      "band": 6.5,
+      "text": "The diagram shows how rainwater is collected and cleaned so that it can be used inside a public building.\n\nOverall, there are nine stages in this process, and it is a linear process which starts with the rain on the roof and finishes with two different uses of the water. The water is also cleaned two times before it is used.\n\nFirst of all, the rain falls on the roof of the building and the gutters and the pipes collect it. After that, the water arrives to a leaf screen, where the leaves and the grit are taken away. Then the water is stored in a tank which is under the ground. If there is too much water, the extra water goes to the drain.\n\nIn the next stage, a pump takes the water up from the tank to the treatment unit. The water goes through a sand filter first, which cleans the small particles, and after that an ultraviolet unit kills the bacteria in the water.\n\nFinally, the clean water is kept in a header tank. From this tank the water is distributed for two purposes: the toilets and watering the plants. The water is not used for drinking.",
+      "word_count": 200,
+      "why_this_band": {
+        "task_response": "Butun asamalar dogru sirada ve dogru adlarla veriliyor; tasma kolu ve iki ayri kullanim noktasi atlanmamis. Genel bakis var ama asama sayisini saymakla yetiniyor, surecin nasil isledigini soylemiyor.",
+        "coherence_cohesion": "First of all, After that, In the next stage, Finally zinciri dogru ve takip edilebilir, ama tahmin edilebilir bicimde mekanik. Paragraflar toplama, depolama ve aritma asamalarina gore ayrilmis.",
+        "lexical_resource": "Collect, store, distribute, treatment unit gibi uygun sozcukler var. Arrives to ve cleans the small particles esdiziim olarak yanlis.",
+        "grammatical_range_accuracy": "Edilgen cati bastan sona dogru kullanilmis, ilgi cumlecikleri isliyor. Kalan hatalar sayica az ve anlami engellemiyor."
+      },
+      "what_would_lift_it": "Genel bakisi asama saymaktan cikarip surecin ozelligini soyleyecek bicimde yazmak: dogrusal, tek makine kullaniyor ve iki farkli cikisla bitiyor."
+    },
+    {
+      "band": 8.0,
+      "text": "The diagram illustrates the stages by which rainwater is captured from the roof of a public building, treated, and then put back to use inside it.\n\nOverall, the process is linear and, apart from a single pump, appears to run without human intervention: it begins with rain falling on the roof and ends at two separate points of use, with an overflow returning any surplus to the drain. Cleaning takes place in two distinct phases, one mechanical and one designed to remove bacteria.\n\nAt the start, rain that lands on the roof is channelled into gutters and pipes and directed towards a leaf screen, where leaves and grit are strained out before the water travels any further. It is then stored in an underground tank; once this tank is full, the excess simply runs off into the drain.\n\nWhen the water is needed, a pump lifts it out of the tank and into the treatment unit. Here it first passes through a sand filter, which catches the fine particles that the screen could not, and it is then exposed to ultraviolet light in order to destroy any remaining bacteria.\n\nFinally, the treated water is held in a header tank, from which it is distributed to its two uses: flushing the toilets and watering plants. At no stage is it made fit for drinking.",
+      "word_count": 223,
+      "why_this_band": {
+        "task_response": "Genel bakis surecin sekli hakkinda konusuyor: dogrusal, neredeyse insansiz, iki cikisli ve iki asamali aritma. Butun asamalar kapsanmis, tasma kolu ve icme suyu olmadigi bilgisi de dahil.",
+        "coherence_cohesion": "Asamalar toplama, depolama, aritma ve dagitim olarak gruplanmis; At the start, When the water is needed, Finally gecisleri gerektigi kadar. Referans sozcukleri (it, this tank) net.",
+        "lexical_resource": "Captured, channelled, strained out, surplus, exposed to, fit for drinking gibi ogeler dogal ve tam yerinde. Mechanical / designed to remove bacteria ayrimi aritmayi ozetliyor.",
+        "grammatical_range_accuracy": "Edilgen cati, zaman cumlecikleri ve amac yapisi (in order to) esnek bicimde donusuyor. Hata seyrek; At no stage ile kurulan devrik kapanis kontrollu."
+      },
+      "what_would_lift_it": "Asamalarin kac tane oldugunu bir kez sayiyla vermek ve pompanin surecin tek mekanik parcasi olduguna daha erken isaret etmek."
+    }
+  ]
+}

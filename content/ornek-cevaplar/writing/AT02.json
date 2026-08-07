@@ -1,0 +1,45 @@
+{
+  "exam": "ielts",
+  "schema_version": "1.0",
+  "kind": "model_answer_set",
+  "skill": "writing",
+  "task_ref": "AT02",
+  "answers": [
+    {
+      "band": 5.0,
+      "text": "The bar chart give information about the visits of five age group to the public libraries in one region in 2010 and 2022.\n\nFirstly, in 2010 the group under 15 is the biggest with 4.8 million and the group 60 and over is the smallest with only 2.6 million. The other three group are between 3 and 4 million, so they are similar.\n\nSecondly, in 2022 many group go down. The under 15 fall to 3 million and the group 15-29 fall to 1.4 million, and it is a very big fall. The group 30-44 also fall to 2.6 million people.\n\nThirdly, two group are different. The group 45-59 rise a little from 3.1 to 3.4 million and the group 60 and over rise from 2.6 to 4.1 million, so now this group visit the library more than all the other group.\n\nI think the young people don't go to the library because they use the internet and the mobile phone for read the books today.",
+      "word_count": 166,
+      "why_this_band": {
+        "task_response": "Butun gruplarin rakamlari veriliyor ama toplamin dustugu ya da genc-yasli ayrimi hicbir yerde tek cumleyle soylenmiyor. Son paragraf veride olmayan bir sebep uyduruyor ve 2.6 million people diyerek ziyaret sayisini kisi sayisi sanip yanlis okuyor.",
+        "coherence_cohesion": "Firstly / Secondly / Thirdly disinda baglayici yok ve bunlar da yalnizca paragraf numarasi islevi goruyor. Sira izlenebilir oldugu icin okur akisi kaybetmiyor.",
+        "lexical_resource": "Big, small, fall, rise, go down disina cikmayan dar bir sozcuk kumesi surekli tekrar ediyor. For read the books gibi bicim hatalari var.",
+        "grammatical_range_accuracy": "Neredeyse her cumlede uyum ya da cogul hatasi var: the bar chart give, five age group, many group go down, this group visit. Butun cumleler basit ya da and ile baglanmis."
+      },
+      "what_would_lift_it": "Son paragraftaki tahmini atip yerine 'dusus sadece 45 yas altinda oldu' diyen bir genel bakis cumlesi yazmak; ardindan cogul -s'leri tek tek kontrol etmek."
+    },
+    {
+      "band": 6.5,
+      "text": "The bar chart compares how many visits were made to public libraries in one region by five different age groups in the years 2010 and 2022.\n\nOverall, the total number of visits decreased over this period, but not every age group followed the same direction. The younger groups visited the libraries less, while the older groups visited them more.\n\nIn 2010, people under 15 made the most visits, 4.8 million, and after them there was the 30-44 group with 3.9 million. The 60 and over group was the last one, with only 2.6 million visits.\n\nIn 2022 the situation was not the same. The under 15 group dropped to 3 million, and the 15-29 group had the biggest reduction, from 3.2 million to 1.4 million, which is less than a half. The 30-44 group also went down, to 2.6 million.\n\nOn the other hand, the two oldest groups made a growth. The 45-59 group stayed almost the same, with a small rise from 3.1 to 3.4 million, but the 60 and over group increased to 4.1 million and became the group with the most visits in 2022. In total, the visits fell from 17.6 million to 14.5 million.",
+      "word_count": 198,
+      "why_this_band": {
+        "task_response": "Genel bakis hem toplam dususu hem de gruplarin ters yonlerini soyluyor, ve her grup rakamla destekleniyor. En cok ziyaret eden grubun degismesi ise bulgu olarak degil, siradan bir ayrinti gibi geciyor.",
+        "coherence_cohesion": "2010 ve 2022 ayri paragraflarda, On the other hand ile karsit grup ayriliyor; ilerleme net. Gecisler mekanik: paragraflar In 2010 / In 2022 kalibiyla aciliyor.",
+        "lexical_resource": "Dropped, reduction, stayed almost the same gibi yeterli cesitlilik var. Made a growth, was the last one ve less than a half esdiziim olarak tutmuyor.",
+        "grammatical_range_accuracy": "Ilgi cumlecigi ve karsilastirma yapilari dogru kullanilmis, cumlelerin cogu hatasiz. Kalan hatalar (after them there was, the visits fell) anlami bozmuyor ama dikkat cekiyor."
+      },
+      "what_would_lift_it": "Siralamanin degistigini acikca yazmak: 2010'da en cok 15 yas alti, 2022'de 60 yas ustu. Bu tek cumle gorev yanitini belirgin bicimde yukari tasir."
+    },
+    {
+      "band": 8.0,
+      "text": "The bar chart compares the number of visits made to public libraries in one region by five age groups in 2010 and in 2022.\n\nOverall, library use declined over the twelve-year period, but the fall was confined to visitors under 45; the two oldest groups actually went more often in 2022, and the age group responsible for the largest number of visits changed completely.\n\nIn 2010 the youngest readers were by far the heaviest users of libraries, accounting for 4.8 million visits a year, ahead of those aged 30 to 44 with 3.9 million. By 2022, however, visits by the under-15s had dropped to 3.0 million, and the 60-and-over group had moved into first place with 4.1 million, an increase of well over a half.\n\nThe steepest decline came among 15- to 29-year-olds, whose visits more than halved, from 3.2 million to a mere 1.4 million, the lowest figure anywhere on the chart. Those aged 30 to 44 also went less frequently, although their loss of 1.3 million was proportionally less severe.\n\nThe 45-to-59 group proved the most stable, edging up from 3.1 to 3.4 million. Taken together, annual visits fell from 17.6 million to 14.5 million.",
+      "word_count": 197,
+      "why_this_band": {
+        "task_response": "Genel bakis uc seyi birden soyluyor: toplam dusus, dususun 45 yas altiyla sinirli olmasi ve birinci siranin el degistirmesi. Secilen rakamlar bu bulgulari destekliyor, gereksiz hucre okumasi yok.",
+        "coherence_cohesion": "Metin yillara gore degil, bulguya gore duzenlenmis: once yer degistiren birincilik, sonra en keskin dusus, sonra istikrarli grup. Baglantilar cogunlukla referans ve zaman ifadeleriyle kuruluyor, kalip baglayiciyla degil.",
+        "lexical_resource": "Confined to, accounting for, edging up, proportionally less severe gibi az kullanilan ogeler dogru yerde. A mere 1.4 million secimi vurguyu tasiyor.",
+        "grammatical_range_accuracy": "Past perfect, ilgi cumlecigi (whose visits more than halved) ve karsitlik yapilari kontrollu. Hata seyrek; cumle uzunlugu bilincli olarak degisiyor."
+      },
+      "what_would_lift_it": "Toplamlari yalnizca kapanista degil, dususun buyuklugunu okura erken hissettirecek bir yerde de kullanmak (ornegin yuzde olarak toplam dusus)."
+    }
+  ]
+}

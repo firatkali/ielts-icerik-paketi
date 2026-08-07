@@ -1,0 +1,45 @@
+{
+  "exam": "ielts",
+  "schema_version": "1.0",
+  "kind": "model_answer_set",
+  "skill": "writing",
+  "task_ref": "AT01",
+  "answers": [
+    {
+      "band": 5.0,
+      "text": "The graph is show the percentage of household waste that recycled in three town between 1995 and 2020.\n\nFirstly, in 1995 Hallowfield have 30 percent and it is the most high of the three. Marden is 12 percent and Trentbury is only 8 percent, so Trentbury is the lowest in this year. Secondly, after 2000 the Hallowfield start to go down. In 2010 it is 28 percent and in 2020 it is only 20 percent, so it lose many percent.\n\nThirdly, Marden and Trentbury is not same. They go up all the time. Marden go from 12 percent to 52 percent and this is a big increase. Trentbury also increase and in 2020 it become 61 percent, the most high number of the graph. Between 2005 and 2010 this two town pass the Hallowfield, because the people there don't want to recycle any more.\n\nIn my opinion recycling is very important for the environment and the government must help this town for more recycle.",
+      "word_count": 164,
+      "why_this_band": {
+        "task_response": "Grafigin butununu ozetleyen bir cumle yok; paragraflar sirayla rakam okuyor ve kesisme noktasi bir sonuc olarak degil bir ayrinti olarak geciyor. Son paragraf veride olmayan bir sebep ve bir gorus ekliyor (the government must help), bu da gorevin disina cikiyor.",
+        "coherence_cohesion": "Firstly / Secondly / Thirdly kalibi mekanik ve paragraf iceriginin mantigini degil sadece sirayi gosteriyor. Yine de bilgiler izlenebilir bir sirada, bu yuzden okuyucu yolunu kaybetmiyor.",
+        "lexical_resource": "Egilim sozcugu go up, go down, big increase ile sinirli kaliyor ve tekrar ediyor. The most high, lose many percent gibi yanlis bicimler okuru yavaslatiyor.",
+        "grammatical_range_accuracy": "Cumlelerin cogunda ozne-yuklem uyumu ya da zaman hatasi var: is show, Hallowfield have, Marden go, this two town pass. Yapilar neredeyse tamamen basit cumle; yan cumle yok denecek kadar az."
+      },
+      "what_would_lift_it": "Son paragraftaki gorusu atip yerine grafigin butununu soyleyen tek bir cumle koymak (iki kasaba yukseliyor, biri dusuyor) ve butun metni gecmis zamanda yazmak."
+    },
+    {
+      "band": 6.5,
+      "text": "The line graph shows the percentage of household waste which was recycled in three towns, Marden, Hallowfield and Trentbury, between 1995 and 2020.\n\nOverall, two of the towns increased their recycling rate over the period, while the third one decreased. Trentbury and Marden ended much higher than they started, but Hallowfield finished lower than its first year.\n\nIn 1995, Hallowfield had the highest percentage with 30%, compared to 12% in Marden and only 8% in Trentbury. After that, Hallowfield rose a little to 33% in 2000, which was its highest point, and then it went down in every following year until it reached 20% in 2020.\n\nMarden and Trentbury both showed a steady growth. Marden increased from 12% to 27% in 2005 and continued to 52% at the end of the period. Trentbury grew even faster, reaching 25% in 2005 and 61% in 2020, which was the highest figure of all three towns. Between 2005 and 2010 both of them passed Hallowfield, and in the same years Trentbury also became bigger than Marden.\n\nIn conclusion, the difference between the three towns was much larger in 2020 than it was in 1995.",
+      "word_count": 191,
+      "why_this_band": {
+        "task_response": "Genel bakis ikinci paragrafta acikca var ve uc kasabanin da rakamlari veriliyor, kesisme donemi belirtiliyor. Ancak farkin 22 puandan 41 puana acilmasi gibi karsilastirmalar sayiyla desteklenmeden geciliyor.",
+        "coherence_cohesion": "Paragraf bolumu mantikli: genel bakis, dusen kasaba, yukselen kasabalar, sonuc. Baglayicilar dogru ama After that / In conclusion gibi tanidik kaliplarin disina cikmiyor.",
+        "lexical_resource": "Highest, lowest, steady growth, reached gibi gorev icin yeterli sozcuk var. Became bigger than Marden ve the third one decreased gibi yerlerde esdiziim tam oturmuyor.",
+        "grammatical_range_accuracy": "Ilgi cumlecigi ve zaman cumlecigi kullaniliyor, cumlelerin cogu hatasiz. Kalan hatalar (a steady growth, in every following year) anlami engellemiyor."
+      },
+      "what_would_lift_it": "Yuzde farklarini puan olarak adlandirmak ve son cumleyi 22'den 41 puana gibi somut bir sayiyla baglamak; bu tek degisiklik gorev yanitini bir band yukari tasir."
+    },
+    {
+      "band": 8.0,
+      "text": "The line graph compares the proportion of household waste that was recycled in the towns of Marden, Hallowfield and Trentbury over the twenty-five years from 1995 to 2020.\n\nOverall, recycling rates climbed steeply in two of the three towns while Hallowfield moved in the opposite direction, and the gap between the best and the worst performer widened considerably over the period.\n\nIn 1995 Hallowfield was comfortably ahead of its neighbours, recycling 30% of its household waste, roughly two and a half times the figure for Marden and almost four times that of Trentbury, which stood at just 8%. Hallowfield's rate edged up to a peak of 33% in 2000, but it then fell steadily for the remaining twenty years, ending at 20%.\n\nTrentbury, by contrast, saw the most dramatic transformation. Having started from the lowest position, it overtook Marden between 2005 and 2010 and finished at 61%, a rise of more than fifty percentage points. Marden followed a similar though gentler upward path, more than quadrupling its rate from 12% to 52%. Both towns passed Hallowfield during the second half of the 2000s.\n\nBy 2020, therefore, the original ranking had been completely reversed, and the spread between the highest and lowest figures had widened from 22 to 41 percentage points.",
+      "word_count": 210,
+      "why_this_band": {
+        "task_response": "Genel bakis hem yonu hem de sonucu (farkin acilmasi) soyluyor, ve her kasaba secilmis rakamlarla destekleniyor. Siralamanin tersine donmesi ayri bir bulgu olarak kapanista veriliyor.",
+        "coherence_cohesion": "Bilgi kasaba kasaba degil, once dusen sonra yukselenler seklinde anlamli bir sirada gruplanmis. By contrast ve therefore gibi baglayicilar cumlenin isini yapiyor, dolgu degil.",
+        "lexical_resource": "Edged up, peak, quadrupling, spread, percentage points gibi az kullanilan ogeler dogru esdiziimle geciyor. Comfortably ahead gibi secimler dogal.",
+        "grammatical_range_accuracy": "Having started from... gibi ortac yapisi, ilgi cumlecikleri ve past perfect kontrollu bicimde kullanilmis. Hata seyrek ve okuru durdurmuyor; yine de band 9'un tam esnekligi yok."
+      },
+      "what_would_lift_it": "Bu duzeyde ilerleme ayrinttadan cok kesinlikte: her kasaba icin degisimin hizini da (ornegin yillik ortalama) verecek bir olcu eklemek."
+    }
+  ]
+}
