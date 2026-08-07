@@ -1,0 +1,45 @@
+{
+  "exam": "ielts",
+  "schema_version": "1.0",
+  "kind": "model_answer_set",
+  "skill": "writing",
+  "task_ref": "GT02",
+  "answers": [
+    {
+      "band": 5.0,
+      "text": "Dear Sir or Madam,\n\nI see your notice in the gate of the community garden about the volunteer for the weekend and I want to help you. I am living in Fenton Street since three year, so the garden is very near from my house.\n\nFirstly, I want to help because I like very much the plants and the green place. In my country my family have a small land and we grow there the tomato, the pepper and some flower. Here I have only a balcony and it is not the same thing. Also I don't know many people in this neighbourhood and in the garden maybe I can meet with new persons, this is good for me too.\n\nSecondly, about my skill. I can dig, I can carry the heavy thing and I am not afraid from the hard work. I don't have a experience in the professional garden, but my mother learn me many thing when I was a child and I can learn fast the rest.\n\nThirdly, I can come in the weekend. Please tell me what I must to bring with me.\n\nThanks a lot,\n\nSelin Kaya",
+      "word_count": 192,
+      "why_this_band": {
+        "task_response": "Ilk iki madde gercek icerikle karsilaniyor (sebep kisisel, deneyim somut), ama ucuncu madde I can come in the weekend ile birakiliyor: hangi gun, hangi saat, ne kadar sure yok, yani duzenleyici bu bilgiyle plan yapamaz. Resmi bir basvuru mektubu Thanks a lot ile kapaniyor, ton mektubun sonunda kayiyor.",
+        "coherence_cohesion": "Firstly / Secondly / Thirdly maddelerin uzerine yapistirilmis; Secondly, about my skill bir cumle bile degil ve paragrafi baslatiyor. Sira izlenebilir, ama baglantilar and ve also disina cikmiyor.",
+        "lexical_resource": "Sozcukler gunluk ve tekrarli: very much, good for me, many thing. Meet with new persons ve afraid from the hard work gibi bicimler okuru bir an durduruyor, anlam kayboluyor demek degil.",
+        "grammatical_range_accuracy": "Hemen her cumlede hata var: I see your notice (zaman), since three year, my family have, we grow there, a experience, my mother learn me, I must to bring. Yapilar basit cumle ve and/because ile eklenmis siralamalardan olusuyor."
+      },
+      "what_would_lift_it": "Ucuncu maddeyi tarih ve saatle yazmak: hangi gunler, kacta, haftada kac saat gelinebilecegini soylemek. Bu tek ekleme gorev yanitini bir band yukari tasir ve mektuba gercek bir sonraki adim kazandirir."
+    },
+    {
+      "band": 6.5,
+      "text": "Dear Sir or Madam,\n\nI am writing about the notice on the gate of the Fenton Street community garden, which is asking for volunteers at the weekends. I would like very much to join you.\n\nI have lived in this street for three years and I pass the garden every morning on my way to the work. I would like to help for two reason. The first one is that I enjoy gardening but I only have a small balcony in my flat, so I have no place to grow anything. The second one is that I moved to this city recently and I would like to know my neighbours better.\n\nAbout my experience, I grew up in a family who had a small piece of land, and I helped my parents with the vegetables and the fruit trees every summer. I am comfortable with digging, weeding and watering, and I can use most of hand tools. I have never worked in a public garden, but I am a quick learner and I don't mind the physical work.\n\nI am free on Saturday mornings from nine o'clock until one o'clock, and I could also come on Sunday afternoon if you need more people at that time. Please let me know how I can register and if I should to bring my own gloves.\n\nYours faithfully,\n\nSelin Kaya",
+      "word_count": 227,
+      "why_this_band": {
+        "task_response": "Uc madde de karsilaniyor ve ucuncusu saat araligiyla veriliyor, kapanista kayit sorusu var. Deneyim bolumu biraz genel kaliyor: hangi isi ne kadar sure yaptigi degil, neleri yapabildigi sayiliyor.",
+        "coherence_cohesion": "Paragraflar maddelere duzgun oturuyor ve The first one / The second one ic yapiyi net gosteriyor. Gecisler About my experience gibi konu duyurusu bicimindeki kaliplarda kaliyor, cesitlilik sinirli.",
+        "lexical_resource": "Weeding, quick learner, register, physical work gibi gorev icin dogru ogeler var ve ton bastan sona basvuru mektubu tonunda. Most of hand tools ve would like very much gibi yerlerde bicim tam oturmuyor.",
+        "grammatical_range_accuracy": "Ilgi cumlecikleri ve kosul cumlesi dogru kullaniliyor, uzun cumleler yapiyi kaybetmiyor. Kalan hatalar (for two reason, a family who had, most of hand tools, if I should to bring) anlami engellemiyor ama gorunur."
+      },
+      "what_would_lift_it": "Deneyimi bir ornekle somutlastirmak (ne yetistirildigi, kac yil, hangi mevsimde ne yapildigi) ve cogul-belirteci hatalarini temizlemek; ikisi birlikte hem sozcuk hem dilbilgisi tarafini yukari ceker."
+    },
+    {
+      "band": 8.0,
+      "text": "Dear Sir or Madam,\n\nI am writing in response to the notice on the gate of the Fenton Street community garden, which invites volunteers to help with planting and with keeping the beds and paths in order at weekends. I would be glad to take part.\n\nI have lived a few doors from the garden for three years and I walk past it every morning, so I have watched it change with the seasons without ever contributing anything to it. Two things attract me. The first is simply that I miss growing things: my flat has a north-facing balcony and nothing survives on it. The second is that I moved to the city as an adult and still know my neighbours only by sight, which a shared job outdoors would change faster than anything else I can think of.\n\nAs for what I can offer, I grew up helping my parents on a smallholding, where I was responsible for the vegetable beds every summer from planting to harvest. I am confident with digging, weeding, pruning and watering, and I have handled a strimmer and a rotary tiller. Public planting is new to me, but the work itself is not.\n\nI could commit to Saturday mornings, from nine until one, and to alternate Sunday afternoons if there is a shortage of hands. Could you let me know how to register and whether tools are provided?\n\nYours faithfully,\n\nSelin Kaya",
+      "word_count": 238,
+      "why_this_band": {
+        "task_response": "Uc madde de tam gelisiyor ve her biri okurun kullanabilecegi bilgi tasiyor: sebep ikiye ayrilmis, deneyim sorumluluk duzeyinde anlatilmis, uygunluk gun ve saat olarak baglanmis. Kapanistaki iki soru mektuba gercek bir sonraki adim veriyor.",
+        "coherence_cohesion": "Mektup basvurunun mantigini izliyor: ilan, sebep, yeterlilik, uygunluk, soru. Two things attract me ile acilan yapi sonraki iki cumleyi tasiyor; baglantilar isaret sozcukleri ve yapiyla kuruluyor, hazir kaliplarla degil.",
+        "lexical_resource": "Smallholding, from planting to harvest, alternate Sunday afternoons, shortage of hands gibi az kullanilan ogeler dogru esdizimle geciyor. Know my neighbours only by sight gibi secimler dogal; ton resmi ama sicak kaliyor.",
+        "grammatical_range_accuracy": "Ilgi cumleleri, ortac ve devrik olmayan uzun birlesik yapilar kontrollu; noktalama duzgun. Hata seyrek, ancak ikinci paragraftaki uzun cumle band 9'un rahatligina gore biraz kalabalik."
+      },
+      "what_would_lift_it": "Ikinci paragraftaki uzun cumleyi ikiye bolmek ve deneyim bolumune tek bir sayi eklemek (kac yil, kac metrekare); mektup ayni uzunlukta daha kesin olur."
+    }
+  ]
+}

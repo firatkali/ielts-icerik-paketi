@@ -165,3 +165,74 @@ duzeyi hedefe indirildi. Yeni puanlar tablodaki gibi: bes cevap da 6,5.
 - **Uc seviyede de tutum ayni tarafta** tutuldu (ayni gorev, ayni pozisyon, farkli
   yurutme). Boylece kullanici uc metni yan yana koydugunda farkin fikirden degil
   dilden ve gelistirmeden geldigini goruyor.
+
+---
+
+## 3. grup - General Task 1 / mektup (GT01-GT05)
+
+Talimat: `degerlendirme/yazma-task1-general.md`. Genel band = dort olcutun ortalamasi, en
+yakin yarim banda yuvarlanmis (.25 ve .75 yukari). Gorevler:
+
+| Kod | Ton | Konu |
+|---|---|---|
+| GT01 | resmi | otobus seferlerindeki aksamalar - sirkete sikayet |
+| GT02 | resmi | mahalle bahcesine gonullu basvurusu |
+| GT03 | resmi | internet faturasinda istenmeyen kalem |
+| GT04 | resmi | alti haftadir teslim edilmeyen siparis |
+| GT05 | yari resmi | kiralik evde bozulan kalorifer - ev sahibine |
+
+Kelime sayisi selamlama ve imza dahil sayildi; mektup govdesi (bunlar cikarilinca) en
+kisa cevapta bile 171 kelime, yani 150 sinirinin ustunde. `max 6` (150 alti) capasi
+hicbir cevapta ateslenmedi.
+
+| Gorev | Hedef | TA | CC | LR | GRA | Genel | Sapma | Yeniden yazildi mi |
+|---|---|---|---|---|---|---|---|---|
+| GT01 | 5,0 | 5 | 5,5 | 5 | 4 | **5,0** | 0 | hayir |
+| GT01 | 6,5 | 7 | 6 | 6,5 | 6 | **6,5** | 0 | hayir |
+| GT01 | 8,0 | 8 | 8 | 8 | 8 | **8,0** | 0 | hayir |
+| GT02 | 5,0 | 5 | 5,5 | 5 | 4 | **5,0** | 0 | hayir |
+| GT02 | 6,5 | 7 | 6 | 6,5 | 6 | **6,5** | 0 | hayir |
+| GT02 | 8,0 | 8 | 8 | 8 | 8 | **8,0** | 0 | hayir |
+| GT03 | 5,0 | 5 | 5 | 5 | 5 | **5,0** | 0 | hayir |
+| GT03 | 6,5 | 7 | 6 | 6,5 | 6 | **6,5** | 0 | hayir |
+| GT03 | 8,0 | 8 | 8 | 8 | 8 | **8,0** | 0 | hayir |
+| GT04 | 5,0 | 5 | 5,5 | 5 | 4 | **5,0** | 0 | hayir |
+| GT04 | 6,5 | 7 | 6,5 | 6,5 | 6 | **6,5** | 0 | hayir |
+| GT04 | 8,0 | 8 | 8 | 8 | 8 | **8,0** | 0 | hayir |
+| GT05 | 5,0 | 5 | 5,5 | 5 | 4 | **5,0** | 0 | hayir |
+| GT05 | 6,5 | 7 | 6,5 | 6,5 | 6 | **6,5** | 0 | hayir |
+| GT05 | 8,0 | 8 | 8 | 8 | 8 | **8,0** | 0 | hayir |
+
+### Bu grupta neden yeniden yazma yok
+
+Ikinci grubun dersi (bes 6,5 cevabinin da dilbilgisi fazla temiz cikmasi) bu grupta
+yazarken uygulandi: 6,5 mektuplarina bastan, hedef bandda gercekten gorulen turden
+5-6 hata kondu ve hatali cumle orani %45-60 araliginda tutuldu - talimatin GRA
+tablosunda 6 satiri. Denetimde bes cevabin da GRA'si 6 cikti, genel band 6,5'te
+kaldi. Sonradan duzeltmek yerine hedefi yazarken tutturmak, ikinci gruptaki
+"metin bitti, simdi hata ekleyelim" isleminden daha saglikli sonuc verdi.
+
+### Denetimde dikkat cekenler
+
+- **Band 5 cevaplarinda eksik birakilan madde her gorevde farkli** ve her biri gorevin
+  kendi `common_mistakes` listesinden alindi: GT01'de somut talep yok ("please do
+  something"), GT02'de uygunluk zamani belirsiz ("in the weekend"), GT03'te hesabi
+  tanimlayan hicbir bilgi yok, GT04'te "simdiye kadar ne yaptiniz" maddesi hic
+  cevaplanmamis, GT05'te ucuncu maddenin "ne zaman" yarisi eksik. Boylece kullanici
+  bes ayri tipik hatayi gercek metin uzerinde goruyor.
+- **Ton kaymasi band 5'in ayri bir isareti olarak kullanildi**: GT01 "Dear Sir or
+  Madam" ile acilip "Best wishes" ile kapaniyor, GT02 "Thanks a lot" ile bitiyor,
+  GT03'te "you have cheated me" var, GT05'te kira odememe tehdidi var. Hicbiri
+  bastan sona surmedigi icin "ton acikca yanlis" capasi (max 6) ateslenmedi; ton
+  tutarsizligi TA'nin 5 satirindan okundu.
+- **Band 5'lerde GRA 4, GT03'te 5.** Hatali cumle orani dort mektupta %80'in uzerinde,
+  GT03'te %73. Anlam hicbir yerde kaybolmadigi icin cevaplar 3'e degil 4-5'e oturuyor
+  ve genel band diger olcutler tarafindan 5,0'da tutuluyor.
+- **Band 8'lerde LR mektup dilinde olculdu**: `advertised time`, `pressure gauge`,
+  `credit note`, `smallholding`, `a fortnight` gibi ogeler hem az kullanilan hem de
+  mektubun tonuna uygun. Yine de hicbiri kusursuz degil - GT01'de "badly unreliable",
+  GT02'de fazla uzun bir cumle, GT03 ve GT05'te son paragraflarin ritmi
+  `what_would_lift_it` alanlarinda aciktan isaret edildi.
+- **GT05 yari resmi ton icin ayri tutuldu**: uc seviyede de "Dear Mr Halstead" ile
+  aciliyor ve kapanis "Best regards / Kind regards". Resmi dort mektuptaki "Yours
+  faithfully" kalibiyla karsilastirilinca ton farki kullanicinin gozunde somutlasiyor.

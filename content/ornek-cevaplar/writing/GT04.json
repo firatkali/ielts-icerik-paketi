@@ -1,0 +1,45 @@
+{
+  "exam": "ielts",
+  "schema_version": "1.0",
+  "kind": "model_answer_set",
+  "skill": "writing",
+  "task_ref": "GT04",
+  "answers": [
+    {
+      "band": 5.0,
+      "text": "Dear Sir or Madam,\n\nI am writing for my order in your website, because six week is passed and the box is not come to my address until today.\n\nFirstly, I buy a fishing equipment from your online shop. There was one rod, one reel and a small box for the hooks, and I pay 96 pounds with my card in the same day. In your page it was writing that the delivery is maximum ten days for all the country. But now we are in the seventh week and I have nothing in my hand.\n\nSecondly, this is a very bad service for a big company like you. If you can not send the things in the correct time, why you write ten days in your website? My son and me, we are waiting this equipment for the summer holiday and now the holiday is almost finish. Other customers also write bad comment for your delivery, I read them in the internet after my order.\n\nThirdly, I want my equipment immediately in my address, or I want all my money again in my card. I am waiting your answer in this week, please don't make me wait more.\n\nYours faithfully,\n\nMurat Ozden",
+      "word_count": 203,
+      "why_this_band": {
+        "task_response": "Ikinci madde hic yok: sirketi aradim mi, yazdim mi, ne yanit aldim gorulmuyor, oysa gorev bunu aciktan istiyor ve o paragrafin yerini genel bir kizginlik almis. Siparis de yarim tanimlanmis, tutar var ama siparis numarasi ve tarih yok.",
+        "coherence_cohesion": "Firstly / Secondly / Thirdly kalibi duruyor ama ikinci basligin altinda maddenin cevabi degil sitem var, bu yuzden numaralama okuru yanlis yere hazirliyor. Cumleler yine de sirayla ilerliyor ve mektubun amaci kayboluyor degil.",
+        "lexical_resource": "Order, delivery, equipment disina cikilmiyor; refund, dispatch, order number gibi gorevin kendi sozcukleri yok. Bad service ve bad comment ayni kalibi iki kez tekrarliyor.",
+        "grammatical_range_accuracy": "Cumlelerin neredeyse tamaminda hata var: six week is passed, is not come, I buy, it was writing, why you write, holiday is almost finish, I am waiting your answer. Yapilar basit cumle; tek karmasik deneme olan kosul cumlesi de soru sirasini bozuyor."
+      },
+      "what_would_lift_it": "Ikinci paragrafi tamamen degistirmek: sitem yerine ne yapildigini yazmak (hangi tarihte arandi, kime yazildi, ne yanit geldi). Siparis numarasi ve siparis tarihi eklenirse birinci madde de tamamlanir."
+    },
+    {
+      "band": 6.5,
+      "text": "Dear Sir or Madam,\n\nI am writing about the order number FS-20418, which I placed on your website on 26 June and paid on the same day by card.\n\nThe order was a set of fishing equipment: a carbon rod, a reel and a box of hooks, for the total of 96 pounds. On the payment page it was clearly written that the delivery takes maximum ten working days, but six week have now passed and the parcel has not arrived. I did not receive any message about a delay too.\n\nI have already tried to solve this problem myself. On 14 July I called your customer service and the person told me that the order was in the warehouse and it will be sent in a few days. I called again on 28 July and this time nobody answered, so I sent an e-mail to the address on your website. That e-mail is still without answer after two weeks. I also checked the tracking page, but the number of my order does not work there.\n\nAt this point I would like the equipment to be sent immediately by an express delivery, or, if it is not in the stock, I would like a full refund of 96 pounds to my card. Please can you inform me your decision until the end of this week.\n\nYours faithfully,\n\nMurat Ozden",
+      "word_count": 229,
+      "why_this_band": {
+        "task_response": "Uc madde de karsilaniyor: siparis numara, tarih ve tutarla tanimli, yapilanlar tarih tarih sayilmis, talep ikili ve net. Ucuncu madde biraz aceleye geliyor; beklenen sure tek cumlede geciyor ve iade sartlarina deginilmiyor.",
+        "coherence_cohesion": "Paragraflar maddelerin sirasini izliyor ve zaman ifadeleri (On 14 July, I called again, That e-mail) olaylari duzgun siraliyor. Gecisler kronoloji uzerinden yuruyor, bunun disinda bag sozcugu cesitliligi az.",
+        "lexical_resource": "Tracking page, full refund, express delivery, working days gibi gorev icin dogru ogeler var. In the stock ve inform me your decision gibi yerlerde tanimlik ve esdizim tam oturmuyor.",
+        "grammatical_range_accuracy": "Ilgi cumlecigi, dolayli anlatim ve kosul cumlesi kullaniliyor, cumlelerin cogu hatasiz. Kalan hatalar (six week have, it will be sent yerine would, any message about a delay too, until the end of this week) anlami engellemiyor ama sayilabilir durumda."
+      },
+      "what_would_lift_it": "Son paragrafi ayirmak: once tek bir talep, sonra kosulu (stokta yoksa iade) ve net bir tarih. Cogul ve zaman uyumu hatalarini temizlemek dilbilgisini bir band yukari tasir."
+    },
+    {
+      "band": 8.0,
+      "text": "Dear Sir or Madam,\n\nI am writing about order FS-20418, placed through your website on 26 June and paid for in full on the same day. Six weeks later the goods have still not reached me.\n\nThe order consisted of a carbon fishing rod, a reel and a box of hooks, at a total of 96 pounds, and the checkout page stated that delivery would take a maximum of ten working days. No notice of any delay has ever been sent to me.\n\nI have not simply waited. On 14 July I telephoned your customer service line and was told that the parcel was in the warehouse and would be dispatched within a few days. When nothing had arrived by 28 July I called again, waited twenty minutes and was cut off, so I wrote to the address given on your contact page. That message has gone unanswered for a fortnight. The tracking reference I was given returns no result at all, which suggests the order was never handed to the courier.\n\nI would now ask you to send the goods by express delivery at your own cost, and to confirm the dispatch date to me in writing. If the items are no longer available, I would prefer a full refund of 96 pounds to the card used for the payment, rather than a credit note or a replacement.\n\nI should be grateful for your reply within seven days.\n\nYours faithfully,\n\nMurat Ozden",
+      "word_count": 243,
+      "why_this_band": {
+        "task_response": "Uc madde de gelisiyor ve ikincisi mektubun en guclu yeri: tarih, sure, kesilen telefon ve yanitsiz e-posta okurun dogrulayabilecegi bir zincir kuruyor. Talep once tek bir istek, sonra kosullu ikinci secenek olarak sunuluyor ve iade bicimi bile belirtilmis.",
+        "coherence_cohesion": "I have not simply waited cumlesi paragrafi tek basina acip yonlendiriyor, sonrasi kronolojiyle ilerliyor. When nothing had arrived ve which suggests gibi baglantilar zaman ve sonuc iliskisini yapiyla kuruyor, hazir kaliplarla degil.",
+        "lexical_resource": "Checkout page, dispatched, courier, credit note, a fortnight gibi az kullanilan ogeler dogru esdizimle geciyor. At your own cost secimi talebi keskinlestiriyor; ton hicbir yerde sertlesmiyor.",
+        "grammatical_range_accuracy": "Past perfect, edilgen yapi ve rather than ile kurulan karsitlik kontrollu; uzun cumleler yapisini koruyor. Hata seyrek ve okuru durdurmuyor, ama ikinci paragraf kisaligiyla otekilerin yaninda biraz duz kaliyor."
+      },
+      "what_would_lift_it": "Ikinci paragrafi ucuncuye baglayip vaat edilen sure ile gecen sureyi tek cumlede karsi karsiya koymak; mektup ayni bilgiyle daha sikisik ve daha vurgulu olur."
+    }
+  ]
+}

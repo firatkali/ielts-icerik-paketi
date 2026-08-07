@@ -1,0 +1,45 @@
+{
+  "exam": "ielts",
+  "schema_version": "1.0",
+  "kind": "model_answer_set",
+  "skill": "writing",
+  "task_ref": "GT01",
+  "answers": [
+    {
+      "band": 5.0,
+      "text": "Dear Sir or Madam,\n\nI am write this letter for complain about your buses in the evening, because two month it is very bad situation for me and for other passenger.\n\nFirstly, I take the number 46 bus from the city centre to Ashford Road. I finish my work in six o'clock and I take always this bus, five days in a week. It is the only one bus for my area, so I have not another choice.\n\nSecondly, the bus come very late or sometime it don't come at all. Last week I waiting almost fifty minutes in the bus stop and the weather was very cold. I arrive to my home in half past eight and my family eat the dinner without me. It's been awful for us. One day I must to take a taxi and I pay eighteen pounds, this is too much money for one journey. Also I am tired in the next morning because I sleep late.\n\nThirdly, please do something for this problem, we are waiting your answer.\n\nBest wishes,\n\nKerem Aydin",
+      "word_count": 179,
+      "why_this_band": {
+        "task_response": "Ilk iki madde ayrintili karsilaniyor (hat, saat, siklik, bekleme, taksi ucreti) ama ucuncu madde tek bir cumleye sikismis: please do something for this problem sirketin uygulayabilecegi bir talep degil. Resmi bir sikayet mektubu It's been awful ve Best wishes ile kapaniyor, yani ton bastan sona ayni kalmiyor.",
+        "coherence_cohesion": "Firstly / Secondly / Thirdly kalibi paragraflarin mantigini degil yalnizca sirasini gosteriyor ve ucuncusu tek cumlelik bir paragrafa oturuyor. Yine de bilgiler izlenebilir sirada, okuyucu mektubun amacini kaybetmiyor.",
+        "lexical_resource": "Sozcuk dagarcigi gorevin en temel ihtiyacini karsiliyor ama bus, very, problem tekrar ediyor ve resmi mektup kaliplari hic yok. Very bad situation, too much money for one journey gibi secimler okura kabaca dogru anlami veriyor, kesinligi vermiyor.",
+        "grammatical_range_accuracy": "Cumlelerin neredeyse tamaminda hata var: I am write, for complain, in six o'clock, it don't come, I waiting, I must to take, two month. Yapilar buyuk olcude basit cumle ve so ile baglanan siralamalar; yan cumle neredeyse hic yok."
+      },
+      "what_would_lift_it": "Ucuncu maddeyi somut bir talebe cevirmek: neyin istendigini (yazili aciklama, tarifenin duzeltilmesi, ek sefer) ve ne zaman beklendigini yazmak. Ayrica kapanisi Yours faithfully yapmak tonu da duzeltir."
+    },
+    {
+      "band": 6.5,
+      "text": "Dear Sir or Madam,\n\nI am writing to complain about the evening service on the number 46 route, which I use to travel home from my work five days in a week.\n\nI take the 46 from the city centre to Ashford Road at about six o'clock every weekday evening. I have used this bus for three years and until this summer it was reliable. However, for the last two months it has arrived fifteen or twenty minutes late almost every evening, and on several occasion it did not come at all. Nobody at the bus stop knows the reason and there is no information on the sign.\n\nThis situation has caused me a number of problem. Last Tuesday I waited fifty minutes in very cold weather, and twice I had to take a taxi, which cost me nearly twenty pounds each time. I have also arrived late to my evening class at the community college two times, and the teacher has warned me about my attendance.\n\nI would be grateful if you can explain what has changed on this route and when the normal timetable will come back. If the service cannot be improved quickly, I would like the company to consider to add an extra bus at half past six.\n\nYours faithfully,\n\nKerem Aydin",
+      "word_count": 216,
+      "why_this_band": {
+        "task_response": "Uc madde de karsilaniyor ve talep somut (aciklama, tarifenin donmesi, ek sefer), ton bastan sona resmi kaliyor. Yolculugun tanimi biraz yuzeysel: sikligi veriliyor ama seferin neden tek secenek oldugu gibi mektubu guclendirecek ayrinti yok.",
+        "coherence_cohesion": "Paragraf bolumu maddelere birebir oturuyor ve okumak kolay, ama gecisler However / This situation / I would be grateful kalibinda ilerliyor ve her paragraf ayni bicimde aciliyor. Bag sozcukleri dogru kullanilmis, cesitliligi sinirli.",
+        "lexical_resource": "Reliable, attendance, timetable, I would be grateful if gibi gorevin tonuna uyan ogeler var. Consider to add ve will come back gibi yerlerde esdizim ve bicim tam oturmuyor.",
+        "grammatical_range_accuracy": "Present perfect, ilgi cumlecigi ve kosul cumlesi kontrollu kullaniliyor; cumlelerin cogu hatasiz. Kalan hatalar (five days in a week, on several occasion, a number of problem, consider to add) anlami hicbir yerde engellemiyor."
+      },
+      "what_would_lift_it": "Sikayeti sonucla baglamak: gecikmenin ne kadara mal oldugunu ve neyin kacirildigini tek bir yerde toplayip talebe bir tarih eklemek. Cogul ve fiil kalibi hatalarini (occasion, problem, consider adding) temizlemek dilbilgisini bir band yukari tasir."
+    },
+    {
+      "band": 8.0,
+      "text": "Dear Sir or Madam,\n\nI am writing about the evening service on the number 46 route between the city centre and Ashford Road, which has become badly unreliable over the past two months.\n\nI catch the 46 shortly after six o'clock on every weekday, as it is the only direct service to my part of the town and there is no rail alternative. Until the beginning of June it kept to the timetable closely enough for me to plan the rest of my evening around it. Since then it has rarely arrived within twenty minutes of the advertised time, and on at least six occasions it has not appeared at all, with no announcement at the stop and nothing on your website.\n\nThe consequences have gone well beyond mild inconvenience. I have twice been forced to take a taxi at a cost of nearly twenty pounds, I have missed two sessions of an evening course that I pay for by the term, and waiting for the best part of an hour at an unsheltered stop in cold weather is not something I can go on doing through the winter.\n\nI would therefore be grateful for a written explanation of what has changed on this route, together with a firm date by which the published timetable will be restored. If the demand in the early evening now exceeds the capacity you have allocated to it, I would ask you to consider a second departure at around half past six.\n\nYours faithfully,\n\nKerem Aydin",
+      "word_count": 252,
+      "why_this_band": {
+        "task_response": "Uc madde de gelisiyor ve her biri okurun uzerine islem yapabilecegi bilgi tasiyor: hat ve siklik, parayla ve kacirilan derslerle olculmus sonuc, yazili yanit ile tarih isteyen iki parcali talep. Ton bastan sona resmi ve olculu; sikayet sertlesmeden guclu kaliyor.",
+        "coherence_cohesion": "Mektup sikayetin mantigini izliyor: once yolculuk, sonra bozulmanin ne zaman basladigi, sonra maliyeti, en sonda talep. Therefore ve Since then gibi baglayicilar cumlenin isini yapiyor, paragraf basi susu degil.",
+        "lexical_resource": "Advertised time, unsheltered stop, by the term, exceeds the capacity gibi az kullanilan ogeler dogru esdizimle geciyor ve resmi tona uyuyor. Badly unreliable biraz zorlama duruyor, geri kalan secimler dogal.",
+        "grammatical_range_accuracy": "Ilgi cumlecikleri, kosul cumlesi ve isim yan cumlesi kontrollu; uzun cumleler yapiyi kaybetmeden ilerliyor. Hata seyrek ve okuru durdurmuyor, ama esneklik band 9'un dogalligina ulasmiyor."
+      },
+      "what_would_lift_it": "Bu duzeyde kazanc ayrinti eklemekte degil sikistirmakta: ucuncu paragraftaki uc sonucu daha kisa bir cumleye toplayip talebe olculebilir bir sure (ornegin on is gunu) koymak."
+    }
+  ]
+}

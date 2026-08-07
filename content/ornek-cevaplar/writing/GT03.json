@@ -1,0 +1,45 @@
+{
+  "exam": "ielts",
+  "schema_version": "1.0",
+  "kind": "model_answer_set",
+  "skill": "writing",
+  "task_ref": "GT03",
+  "answers": [
+    {
+      "band": 5.0,
+      "text": "Dear Sir or Madam,\n\nI am writing you because your last bill is not correct and I am very angry for this situation. I am your customer since two year in Bradley Road and I never have a problem before.\n\nFirstly, I open the bill of the last month and I see a new line in the middle. It is a extra service and I never ask this service to nobody. Nobody call me, nobody send me a e-mail, so I don't understand how it come in my bill. In my home we use only the internet for the computer and the television, nothing more. I think you have cheated me and this is not correct for a old customer.\n\nSecondly, my connection is also very slow in the evening, but this is another problem and I write for it another time.\n\nThirdly, I want you to take out this line and give my money back to me. Please don't do this thing again to the customers.\n\nI am waiting your answer, if not I must to change my company.\n\nRegards,\n\nDeniz Yilmaz",
+      "word_count": 183,
+      "why_this_band": {
+        "task_response": "Ilk madde neredeyse bos: hesap numarasi, fatura tarihi, donem ve tutar yok, sirket bu mektupla hesabi bulamaz. Ustelik ikinci paragraf hiz sikayetiyle gorevin disina cikiyor ve you have cheated me ile ton resmi sikayet olmaktan cikiyor.",
+        "coherence_cohesion": "Firstly / Secondly / Thirdly sirayi gosteriyor ama ikinci madde konuyla ilgisiz bir paragrafi tasidigi icin numaralama yaniltici hale geliyor. Yine de cumleler birbirini takip ediyor ve okuyucu sikayetin ne oldugunu anliyor.",
+        "lexical_resource": "Fatura sozcugu bill, line, money back ile sinirli; charge, statement, refund gibi konunun kendi sozcukleri hic girmiyor. Not correct iki kez ayni islev icin kullaniliyor, tekrar goze carpiyor.",
+        "grammatical_range_accuracy": "Cumlelerin cogunda hata var: I am writing you, since two year, a extra service, I never ask this service to nobody, nobody call me, how it come, I must to change. Yapilar basit cumle ve and/so ile eklenmis siralamalar; yan cumle cok az."
+      },
+      "what_would_lift_it": "Mektubun basina hesabi tanimlayan bilgileri koymak: hesap numarasi, adres, faturanin tarihi, donemi ve yanlis kalemin tutari. Hiz sikayetini tamamen cikarmak da gorev yanitini toparlar."
+    },
+    {
+      "band": 6.5,
+      "text": "Dear Sir or Madam,\n\nI am writing about my monthly bill for the internet connection at 14 Bradley Road. My account number is BR-4471902 and the bill is dated 3 September, for the period of August.\n\nThe total of this bill is 64.90 pounds, but until now I always paid 49.90 pounds every month. The reason of the difference is a line called Home Security Plus, which is 15 pounds. I have never asked for this service and nobody from your company contacted me about it, not by phone and not by e-mail. My contract from March last year includes only the broadband and the router rental, and I still have the copy of it.\n\nI would be grateful if you can remove this charge from my account and send me a corrected bill for the period of August. As I already paid the full amount by direct debit on 10 September, I would like also the fifteen pounds to be returned to my account. Please can you confirm in writing that this service is cancelled and it will not appear on the next bills.\n\nI look forward to hear from you within fourteen days.\n\nYours faithfully,\n\nDeniz Yilmaz",
+      "word_count": 199,
+      "why_this_band": {
+        "task_response": "Uc madde de karsilaniyor: hesap ve fatura tanimlanmis, yanlis kalem adi ve tutariyla gosterilmis, talep uc parcali (kaldirma, duzeltilmis fatura, iade). Neden istenmedigi biraz kisa kaliyor; sozlesmeye deginiliyor ama fatura gecmisiyle karsilastirma bir cumlede biriyor.",
+        "coherence_cohesion": "Sira mantikli ve okuru zorlamiyor: kimlik, sorun, talep. Ancak ucuncu paragraf uc ayri istegi ust uste diziyor ve As I already paid disinda gecis kalibi kullanilmiyor, akis biraz duz ilerliyor.",
+        "lexical_resource": "Charge, corrected bill, direct debit, confirm in writing gibi konunun kendi sozcukleri dogru kullanilmis ve ton resmi. The reason of the difference ve I look forward to hear from you gibi yerlerde bicim tam oturmuyor.",
+        "grammatical_range_accuracy": "Ilgi cumlecigi, zaman ve sebep cumlecikleri kontrollu, cumlelerin cogu hatasiz. Kalan hatalar (I always paid yerine present perfect, the reason of, I would like also, to hear from you) anlami engellemiyor."
+      },
+      "what_would_lift_it": "Kalemin neden yanlis oldugunu tek bir yerde kanitla baglamak: sozlesmenin ne icerdigini ve onceki faturalarda bu satirin olmadigini yan yana koymak. Boylece talep bir iddiadan cok bir sonuc gibi okunur."
+    },
+    {
+      "band": 8.0,
+      "text": "Dear Sir or Madam,\n\nI am writing about an incorrect charge on my most recent bill for the broadband service at 14 Bradley Road. The account number is BR-4471902 and the bill, dated 3 September, covers the billing period from 1 to 31 August.\n\nThe amount requested is 64.90 pounds, against the 49.90 pounds I have paid every month since the contract began in March last year. The difference is accounted for by a single line, Home Security Plus, charged at 15.00 pounds. I have never subscribed to this service. It does not appear in the contract I signed, which covers broadband and router rental only, nor on any of the seventeen bills I have received before this one, and no one from your company has contacted me by telephone or e-mail to offer it.\n\nI would therefore ask you to remove the charge, cancel the service on the account, and issue a corrected bill for August. Since the full amount was taken by direct debit on 10 September, I would also be grateful if the fifteen pounds could be refunded to the same account rather than credited against future billing.\n\nA written confirmation that the service has been cancelled would reassure me that the charge will not reappear. I should be glad to receive your reply within fourteen days, and I can be reached on 07700 900412 if any detail needs checking.\n\nYours faithfully,\n\nDeniz Yilmaz",
+      "word_count": 237,
+      "why_this_band": {
+        "task_response": "Uc madde de tam gelisiyor ve itiraz uc ayri kanita dayandiriliyor: sozlesme, onceki on yedi fatura ve hic iletisim kurulmamis olmasi. Talep sirali ve uygulanabilir, iade bicimi bile belirtilmis; ton bastan sona olculu resmi.",
+        "coherence_cohesion": "Mektup itirazin mantigini izliyor: kimlik, tutar farki, kanit, talep, yanit suresi. Therefore ve Since baglantilarin isini yapiyor, ve kanit cumlesi nor ile tek bir yapida toplaniyor.",
+        "lexical_resource": "Billing period, accounted for by, subscribed to, credited against future billing gibi alanin kendi sozcukleri dogru esdizimle kullanilmis. The amount requested biraz resmi durabilir ama baglamda yerinde.",
+        "grammatical_range_accuracy": "Edilgen yapi, nor ile devrik baglanti ve kosul cumlesi kontrollu; noktalama ve sayilarin bicimi tutarli. Hata seyrek ve okuru durdurmuyor, ancak son paragrafta iki istek arka arkaya gelince ritim band 9 kadar rahat degil."
+      },
+      "what_would_lift_it": "Son paragraftaki iki istegi tek cumlede birlestirmek ve iletisim bilgisini kapanis cumlesine tasimak; mektup ayni bilgiyi daha az hamlede verir."
+    }
+  ]
+}

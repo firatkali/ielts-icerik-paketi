@@ -1,0 +1,45 @@
+{
+  "exam": "ielts",
+  "schema_version": "1.0",
+  "kind": "model_answer_set",
+  "skill": "writing",
+  "task_ref": "GT05",
+  "answers": [
+    {
+      "band": 5.0,
+      "text": "Dear Mr Halstead,\n\nI am writing you about the heating in the flat, because it is not working since four day and the weather outside is very cold now.\n\nFirstly, the problem is start on Saturday morning. The boiler in the kitchen make a strange noise for two minutes and after that it stop alone. Now all the radiator in the flat are cold, only the small one in the bathroom is a little warm. I press the reset button many times and I look also the pressure like you tell me in the winter, but nothing is change.\n\nSecondly, it is really horrible in here. In the night I sleep with two blanket and I still feel the cold, and my little daughter is sick from three days, she cough all the time. I work in the home in the morning but I can not stay in the living room more than one hour because my hands are frozen. Also the water is not hot enough for a shower.\n\nThirdly, please send a technician for repair the boiler. If nothing happen I will not pay the rent of this month.\n\nBest regards,\n\nAyse Demir",
+      "word_count": 195,
+      "why_this_band": {
+        "task_response": "Ariza ve etkisi ayrintili anlatiliyor ama ucuncu maddenin yarisi eksik: ne yapilmasi gerektigi soyleniyor, ne zaman yapilmasi gerektigi hic yok, giris icin uygun bir gun de onerilmiyor. Kapanistaki kira tehdidi ev sahibiyle olan yari resmi tonu bozuyor.",
+        "coherence_cohesion": "Firstly / Secondly / Thirdly maddelerin uzerine mekanik olarak oturtulmus ve ucuncu paragraf iki cumlede bitiyor. Ariza-etki-talep sirasi yine de mantikli, okuyucu ne oldugunu takip edebiliyor.",
+        "lexical_resource": "Sozcuk secimi gunluk ve tekrarli: cold uc kez, really horrible olcu bildirmeyen bir kalip, boiler ve radiator disinda alanin sozcugu yok. Sick from three days ve nothing is change gibi bicimler okuru bir an durduruyor.",
+        "grammatical_range_accuracy": "Cumlelerin neredeyse tamaminda hata var: is not working since four day, the problem is start, the boiler make, all the radiator are, nothing is change, for repair, if nothing happen. Yapilar basit cumle ve and/but ile eklenmis siralamalar."
+      },
+      "what_would_lift_it": "Ucuncu maddeyi tamamlamak: tamirin ne zamana kadar yapilmasini bekledigini yazmak ve teknisyen icin uygun gun ve saat onermek. Kira tehdidini cikarip nazik ama kararli bir kapanis kullanmak tonu de yerine oturtur."
+    },
+    {
+      "band": 6.5,
+      "text": "Dear Mr Halstead,\n\nI am writing to inform you that the heating in the flat at 3B Wexford Court has not worked since Saturday morning, and the temperature outside has dropped a lot in the last days.\n\nOn Saturday the boiler in the kitchen made a loud noise and then it switched off by itself. Since that moment all the radiators are cold, except the small one in the bathroom which is slightly warm. I have pressed the reset button several times and I checked the pressure as you showed me last winter, but the display still shows the same error code, F28. The hot water is also affected, so we can only have a very short shower in the morning.\n\nThe situation is becoming difficult for us. My daughter is six years old and she has had a cough since three days, and at night we sleep under two blankets and still feel cold. I work from home in the mornings, but I can not stay in the living room for a long time because the room is now about 14 degrees.\n\nI would be grateful if you could arrange for a heating engineer to visit before the weekend, because the forecast says the temperature will fall again on Friday night. I am at home every day after four o'clock and all day on Wednesday, so it is easy for me to give the access.\n\nKind regards,\n\nAyse Demir",
+      "word_count": 240,
+      "why_this_band": {
+        "task_response": "Uc madde de karsilaniyor ve ucuncusu tam: hem tamir istegi hem tarih hem de giris icin uygun saatler var, ton nazik ama kararli. Ariza tarifi biraz sirali bir doku olarak kaliyor; hangi denemenin ne sonuc verdigi tek tek anlatilmadan sayiliyor.",
+        "coherence_cohesion": "Paragraf bolumu maddelere oturuyor ve The situation is becoming difficult gibi acilislar okuru yonlendiriyor. Gecisler cogunlukla zaman ifadeleriyle kuruluyor, bag sozcugu cesitliligi sinirli.",
+        "lexical_resource": "Reset button, error code, heating engineer, forecast, give the access gibi alanin sozcukleri kullanilmis ve yari resmi ton korunuyor. Dropped a lot ve give the access gibi yerlerde secim ve tanimlik tam oturmuyor.",
+        "grammatical_range_accuracy": "Present perfect, ilgi cumlecigi ve sebep cumlecikleri kontrollu, cumlelerin cogu hatasiz. Kalan hatalar (since three days, all the radiators are cold yerine have been, in the last days, I can not) anlami engellemiyor."
+      },
+      "what_would_lift_it": "Denemeleri sonuclariyla yazmak (sifirlama sonrasi ne oldu, basinc kacti) ve zaman ifadelerini duzeltmek; boylece hem ariza tarifi hem dilbilgisi ayni anda yukari cikar."
+    },
+    {
+      "band": 8.0,
+      "text": "Dear Mr Halstead,\n\nI am sorry to trouble you again so soon, but the heating at 3B Wexford Court has been out of action since Saturday morning and the weather has turned much colder this week.\n\nThe boiler in the kitchen made a loud knocking sound for a minute or two on Saturday and then shut itself down. Every radiator in the flat has been cold since then, apart from the towel rail in the bathroom, which is faintly warm. I have reset the unit three times and checked the pressure gauge as you showed me last winter; it sits within the normal range, but the display returns to the same fault code, F28, within a few minutes. The hot water comes through only lukewarm, which suggests the problem is with the boiler itself rather than with the radiators.\n\nFour days of this are beginning to tell. The living room was at 14 degrees when I measured it yesterday morning, which makes it hard to work at my desk, and my six-year-old daughter has picked up a cough that she cannot seem to shake off. We are sleeping under two blankets and using a small fan heater in one room, though I am reluctant to leave it running.\n\nCould you arrange for a heating engineer to come before Friday, when the forecast says the temperature will drop again? I am at home after four o'clock on any weekday and all day on Wednesday, so access will not be a problem. If it is easier, I am happy to call an engineer myself and forward the invoice to you.\n\nKind regards,\n\nAyse Demir",
+      "word_count": 272,
+      "why_this_band": {
+        "task_response": "Uc madde de gelisiyor: ariza belirtileriyle ve denenenlerin sonucuyla, etkisi olculebilir ayrintiyla (14 derece, dort gun), talep tarih ve erisim saatleriyle veriliyor. Ev sahibiyle iliskiye uygun sicak ama kararli bir ton bastan sona korunuyor ve son cumledeki alternatif teklifi mektubu isbirlikci kiliyor.",
+        "coherence_cohesion": "Mektup ariza, kanit, etki, talep sirasini takip ediyor ve Four days of this are beginning to tell paragrafi tek basina aciyor. Which suggests ve though ile kurulan baglantilar iliskiyi yapinin icinde tasiyor.",
+        "lexical_resource": "Out of action, pressure gauge, fault code, lukewarm, shake off gibi ogeler dogru esdizimle ve dogru ton duzeyinde kullanilmis. I am sorry to trouble you acilisi yari resmi iliski icin dogru secim; birkac yerde tercih ince bir cabayla kurulmus.",
+        "grammatical_range_accuracy": "Present perfect continuous, noktali virgulle baglanan yapi ve zaman cumlecikleri kontrollu; noktalama duzgun. Hata seyrek ve okuru hicbir yerde durdurmuyor, ama uc uzun cumle arka arkaya gelince akis band 9 kadar hafif degil."
+      },
+      "what_would_lift_it": "Ucuncu paragrafta bir ayrintiyi cikarip etkiyi tek bir guclu cumleye toplamak ve son iki cumleyi birlestirmek; mektup ayni bilgiyi daha az yerde verir."
+    }
+  ]
+}
