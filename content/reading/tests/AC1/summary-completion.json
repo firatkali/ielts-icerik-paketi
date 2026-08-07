@@ -53,8 +53,12 @@
       },
       "explanation": "Paragraf D'de dalgıçların yeni büyümeyi işaretlemek için boya sürdüğü belirtiliyor; boşluk bu işaretlemenin neyle yapıldığını sorduğu için cevap 'dye'.",
       "difficulty": "medium",
-      "status": "verified",
-      "blind_solvable": false
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_solvable_kelime_duzeyi": false,
+      "blind_basis": "logic",
+      "flag_reason": "Parça gösterilmeden anlamca 3/3 turda doğru bilindi: farklı kelimeyle ama doğru kavramla cevaplandı ('dye / stains / dye' verdi; boyama maddesi olarak stain ile dye aynı şeyi adlandırıyor).",
+      "flag_mechanism": "esdizim_kilidi"
     },
     {
       "number": 38,
@@ -117,8 +121,12 @@
       },
       "explanation": "Paragraf H, bilim insanlarının adayı bir merak konusundan çok erken uyarı sistemi olarak gördüğünü söylüyor; bu yüzden cevap 'warning system'.",
       "difficulty": "medium",
-      "status": "verified",
-      "blind_solvable": false
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_solvable_kelime_duzeyi": false,
+      "blind_basis": "logic",
+      "flag_reason": "Parça gösterilmeden anlamca 3/3 turda doğru bilindi: farklı kelimeyle ama doğru kavramla cevaplandı (3 turda da 'warning' verdi, gerçek cevap 'warning system' — 'early warning' aynı göndergenin yerleşik kalıbı).",
+      "flag_mechanism": "esdizim_kilidi"
     }
   ]
 }

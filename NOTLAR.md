@@ -7509,3 +7509,36 @@ hiç kullanılmadı, kalan on soruda birer kez. Çeldirici türü çeşitliliği
 - Uygulayan betik: `tools/_e10_anlam_isaretle.py` (elle JSON duzenlemek yerine
   betik: 15 soru 8 dosyaya dagilmis, elle duzenlemede sessiz hata riski var).
 - Atlanan paket yok: iki pakette de uc tur dokumu de mevcuttu.
+
+## OPUS5-E10-anlam-duzeyi-olcut (2. calistirma - ozet ailesi)
+
+- Yine yeni olcum turu kosturulmadi: `kalibrasyon/metinsiz/summary-completion-
+  tur1/2/3.json` dokumleri gercek cevaplarla yan yana yeniden degerlendirildi.
+  `passages/` acilmadi. Karar kurali 1. calistirmadakinin aynisi.
+- **Kendi sayimim 14 yeni soru** (plandaki ~15 hedef degil, yon vericiydi).
+  Toplam 26/43 (%60,5) -> 40/43 (%93,0).
+- 🔴 **Isin ozu, iki alt tipin ayrilmasi.** Alt tipleri ayirmadan bakinca ortalama
+  yaniltiyor:
+  - kelime bankali (AC2, AC4, GT2 - 14 soru): kelime duzeyi 14/14, anlam duzeyi
+    14/14, YENI SORU YOK. Bulamaz da: cevap kapali listeden secilen harf, yuzey
+    sapmasi imkansiz. Orada kelime duzeyi olcumu zaten anlam duzeyi olcumudur.
+  - parcadan kelime (practice, AC1, AC3, GT1 - 29 soru): 12/29 (%41,4) ->
+    26/29 (%89,7), +14 soru. Sizintinin tamami burada.
+  - Yani B1'in ozet ailesinde kacirdigi seyin tek sebebi "parcadan kelime
+    kopyala" kurali. Denetim raporunun andigi %93'e %89,7 ile yaklastim.
+- Saymadigim uc soru gerekcesiyle raporda: practice-15 (`elderly` -> unemployed,
+  yanlis kavram), AC3-39 (`seven` -> nine/several/nine, yanlis sayi), GT1-39
+  (`convenience` -> 1. turda supermarkets, 3/3 sarti dusuyor).
+- En temiz bulgular yine es anlamli/cekim farki: `decomposition`->`decay`,
+  `refrigerator`->`fridge`, `peelings`->`peel`, `software engineers`->
+  `developers`, `crossover`->`within-subject` (2. tur).
+- **Atlanan paket var:** dinleme `summary-completion` setleri (L3 6, L5 5, L6 4 =
+  15 soru). Sebep: uc tur dokumunun ucu de yalniz okuma sorularini iceriyor
+  (43 kimligin 43'u okuma), yani bu sorular icin parcasiz cevap hic uretilmemis.
+  Yontemin 1. maddesi geregi atlandi; dinleme sizintisi ayri adimin isi.
+- Eski kelime-duzeyi bulgusu yine silinmedi, `blind_solvable_kelime_duzeyi`
+  alanina tasindi (1. calistirmadaki ad korundu; 3. calistirma da ayni adi
+  kullanmali).
+- Soru sayisi degismedi: 43 soru girdi, 43 soru cikti (practice 15, AC1 5, AC2 5,
+  AC3 5, AC4 5, GT1 4, GT2 4). Puanlama dosyalari acilmadi.
+- Uygulayan betik: `tools/_e10_anlam_isaretle2.py`.

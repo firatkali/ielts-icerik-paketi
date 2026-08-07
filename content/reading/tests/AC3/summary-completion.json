@@ -31,8 +31,12 @@
       },
       "explanation": "Paragraf C, camlaşmanın gerçekleşmesi için dokunun normal çürümeyi (decomposition) engelleyecek kadar hızlı ve yüksek sıcaklıkta ısıtılması gerektiğini söylüyor; bu yüzden cevap 'decomposition'.",
       "difficulty": "medium",
-      "status": "verified",
-      "blind_solvable": false
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_solvable_kelime_duzeyi": false,
+      "blind_basis": "logic",
+      "flag_reason": "Parça gösterilmeden anlamca 3/3 turda doğru bilindi: farklı kelimeyle ama doğru kavramla cevaplandı (3 turda da 'decay' verdi, gerçek cevap 'decomposition' — eş anlamlı).",
+      "flag_mechanism": "esdizim_kilidi"
     },
     {
       "number": 37,
@@ -51,8 +55,12 @@
       },
       "explanation": "Paragraf D, dokunun kökeninin bağımsız olarak doğrulanmasını insan beyninde üretilen proteinlerin referans veri tabanlarıyla karşılaştırmaya bağlıyor; bu yüzden cevap 'reference databases'.",
       "difficulty": "hard",
-      "status": "verified",
-      "blind_solvable": false
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_solvable_kelime_duzeyi": false,
+      "blind_basis": "logic",
+      "flag_reason": "Parça gösterilmeden anlamca 3/3 turda doğru bilindi: farklı kelimeyle ama doğru kavramla cevaplandı (3 turda da 'databases' verdi, gerçek cevap 'reference databases').",
+      "flag_mechanism": "esdizim_kilidi"
     },
     {
       "number": 38,
@@ -114,8 +122,12 @@
       },
       "explanation": "Paragraf G, hem aşırı sıcaklığa maruz kalmayı hem de yapının korunmasını ancak çok dar bir ısıl koşullar aralığının açıklayabileceğini söylüyor; bu yüzden cevap 'thermal conditions'.",
       "difficulty": "medium",
-      "status": "verified",
-      "blind_solvable": false
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_solvable_kelime_duzeyi": false,
+      "blind_basis": "logic",
+      "flag_reason": "Parça gösterilmeden anlamca 3/3 turda doğru bilindi: farklı kelimeyle ama doğru kavramla cevaplandı (3 turda da 'conditions' verdi, gerçek cevap 'thermal conditions'; cümlenin kendi açıklaması ('ani ısı, hemen ardından soğuma') aynı göndergeyi veriyor).",
+      "flag_mechanism": "esdizim_kilidi"
     }
   ]
 }

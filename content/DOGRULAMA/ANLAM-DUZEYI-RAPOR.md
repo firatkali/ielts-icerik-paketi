@@ -84,4 +84,64 @@ Uygulayan betik: `tools/_e10_anlam_isaretle.py`.
 
 ---
 
+## 2. çalıştırma — özet ailesi · 2026-08-08
+
+`summary-completion`, iki alt tipiyle birlikte. Alt tipleri ayrı satırda veriyorum, çünkü
+bulgunun kendisi bu ayrımda saklı.
+
+| Alt tip | Set | Soru | Kelime düzeyi (eski) | Anlam düzeyi (yeni) | Fark | Yeni işaretlenen |
+|---|---|---|---|---|---|---|
+| parçadan kelime | practice, AC1, AC3, GT1 | 29 | 12 (%41.4) | 26 (%89.7) | +48.3 puan | 14 |
+| kelime bankalı | AC2, AC4, GT2 | 14 | 14 (%100) | 14 (%100) | 0 puan | 0 |
+| **toplam** | | **43** | **26 (%60.5)** | **40 (%93.0)** | **+32.6 puan** | **14** |
+
+Kendi sayımım **14 yeni soru.** Plandaki "özet ailesinde ~15" rakamına bir soru kaldım.
+
+🔴 **Asıl bulgu, iki alt tipin farkı.** Kelime bankalı özette anlam düzeyi ölçümü tek bir yeni
+soru bile bulmuyor — bulamaz da: cevap kapalı bir listeden seçilen harf olduğu için yüzey
+sapması imkânsız, kelime düzeyi ölçümü orada zaten anlam düzeyi ölçümüdür (ve o 14 sorunun
+14'ünü de "biliniyor" saymıştı). Bütün fark parçadan-kelime alt tipinden geliyor: %41.4 → %89.7.
+Yani `OPUS5-B1`'in özet ailesinde kaçırdığı sızıntının tamamı "parçadan kelime kopyala"
+kuralının olduğu yerde. Denetim raporunun andığı %93'lük parçadan-kelime rakamına %89.7 ile
+yaklaştım; aradaki fark aşağıdaki üç soruyu saymamamdan geliyor.
+
+### Yeni işaretlenen sorular
+
+`summary-completion` (14): practice 3, 4, 6, 8, 11, 12, 14 · AC1 37, 40 · AC3 36, 37, 40 ·
+GT1 37, 38
+
+### Somut örnekler — gerçek cevap → modelin anlamca doğru ama kelimece farklı cevabı
+
+| Soru | Gerçek cevap | Modelin üç turdaki cevabı | Neden anlamca doğru |
+|---|---|---|---|
+| AC3-36 | `decomposition` | decay ×3 | Tam eş anlamlı; "ısıtılan dokuda başlamayan çürüme" göndergesi birebir aynı. |
+| GT1-38 | `refrigerator` | fridge ×3 | Aynı nesnenin günlük dildeki adı; buzdolabının arkasında unutulan süt ürünleri. |
+| practice-4 | `software engineers` | developers · programmers · developers | Kod çıktısı ölçülen aynı meslek grubu; üç sözcük de aynı katılımcıları adlandırıyor. |
+| practice-6 | `crossover` | crossover · **within-subject** · crossover | Kelime düzeyinde 2/3 tuttuğu için "bilinmiyor" sayılmıştı; within-subject, "her gönüllü kendi karşılaştırması" düzeninin öteki adı — anlamca 3/3. |
+| AC1-40 | `warning system` | warning ×3 | "erken uyarı" ile "erken uyarı sistemi" aynı göndergeyi kuruyor; adanın rolü değişmiyor. |
+
+### Anlamca da saymadığım sorular (şeffaflık için)
+
+| Soru | Gerçek cevap | Modelin cevabı | Neden sayılmadı |
+|---|---|---|---|
+| practice-sum-15 | `elderly` | unemployed ×3 | Yanlış kavram: yaşlılık ile işsizlik başka gruplar. |
+| AC3-sum-39 | `seven` | nine · several · nine | Yanlış sayı; ayrıca 2. tur sayı vermiyor. |
+| GT1-sum-39 | `convenience` | **supermarkets** · convenience · convenience | 1. tur bir yeri adlandırıyor, cevap ise bir eğilim; 3/3 şartı düşüyor. |
+
+### Bu çalıştırmada atlanan paket
+
+Dinleme tarafındaki `summary-completion` setleri (L3 6, L5 5, L6 4 = 15 soru) değerlendirmeye
+girmedi: `kalibrasyon/metinsiz/summary-completion-tur1/2/3.json` dökümlerinin üçü de yalnız
+okuma sorularını içeriyor (43 kimliğin 43'ü okuma). Yöntemin 1. maddesi gereği üç tur dökümü
+olmayan paket bu turda atlanır; dinleme sızıntı ölçümü ayrı bir adımın işi.
+
+### İşaretlemenin şekli
+
+1. çalıştırmadaki şemanın aynısı; eski kelime-düzeyi bulgusu yine silinmedi,
+`blind_solvable_kelime_duzeyi` alanına taşındı. Hiçbir soru silinmedi: 43 soru girdi, 43 soru
+çıktı (practice 15, AC1 5, AC2 5, AC3 5, AC4 5, GT1 4, GT2 4), tam testlerde soru sayısı
+değişmedi. Uygulayan betik: `tools/_e10_anlam_isaretle2.py`.
+
+---
+
 Bu ölçüm anlam düzeyinde bilinen soruyu bulur, kelime tutturma başarısını değil.
