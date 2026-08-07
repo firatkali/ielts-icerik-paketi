@@ -1,0 +1,45 @@
+{
+  "exam": "ielts",
+  "schema_version": "1.0",
+  "kind": "model_answer_set",
+  "skill": "writing",
+  "task_ref": "T2-57",
+  "answers": [
+    {
+      "band": 5.0,
+      "text": "Today the people in many country eat in the restaurant and the cafe or they buy a food ready for heat in the microwave, and they don't cook in the house like before. In this essay I explain the reason of this situation.\n\nFirstly, the people don't have the time. They work all the day and when they come in the house at eight o'clock in the evening they are very tired and they don't want to stay one hour in the kitchen for prepare a dinner. It is more easy to open a box and put it in the microwave for five minute, and after the dinner they must also wash all the plate and the pan and this is a other work.\n\nSecondly, the ready food is not expensive now. Before, the restaurant was only for the special day like the birthday, but today in every street there is a small place where a person can eat with a little money. Also the telephone application bring the food in the door of the house and the person don't move from the sofa.\n\nThirdly, many young people don't know how to cook because nobody teach them. In the past the girl learn in the kitchen with the family but now everybody study and work and nobody have the time for teach this thing, and after they marry they continue to buy the same box every evening.\n\nIn my opinion this is a negative development because the ready food is not healthy.",
+      "word_count": 252,
+      "why_this_band": {
+        "task_response": "Gorevin iki yarisi var: sebepler ve degerlendirme. Sebepler duzgun bicimde uc paragrafta veriliyor, ama olumlu mu olumsuz mu sorusu tek desteksiz cumleyle kapatiliyor ve o cumle konuyu 'hazir yiyecek sagliksizdir' cumlesine indirgiyor - gorevin ikinci yarisi karsilanmiyor.",
+        "coherence_cohesion": "Firstly / Secondly / Thirdly iskeleti duzenli ve her sebep kendi paragrafinda. Degerlendirme icin hicbir gecis kurulmuyor: son cumle metne baglanmadan yapistirilmis, sonuc paragrafi yok.",
+        "lexical_resource": "The people, the food, very tired, a little money kaliplari tekrar ediyor; beslenme ya da hazir gida alanina ait ozel bir oge yok. Ready for heat ve telephone application gibi secimler yanlis kurulmus.",
+        "grammatical_range_accuracy": "Hemen her cumlede hata var: in many country, a food ready for heat, for prepare a dinner, for five minute, the application bring, nobody have the time. Cogul ve tanimlik hatalari ile for + yalin fiil kalibi metin boyunca tekrarliyor."
+      },
+      "what_would_lift_it": "Son cumleyi bir paragrafa cevirip hem olumlu hem olumsuz yani tartmak; su an sebepler yaziliyor ama sorulan hukum verilmemis sayiliyor."
+    },
+    {
+      "band": 6.5,
+      "text": "In a growing number of countries families eat outside or buy dishes that only need to be heated, instead of preparing the meal at home. There are clear reasons for this change and, although it has some good sides, I consider it mostly negative.\n\nThe first reason is the working day. In many cities people leave the house at seven and come back after eight, and after such a day very few of them have the energy for cook a meal from the beginning and wash the pans afterwards. A second reason is the price: prepared dishes and small restaurants have become much cheaper than before, so eating outside is no more an event reserved to a birthday. Delivery applications have also made the whole process extremely simple, and finally many young adults have never learn to cook, because nobody at home had the time to show them.\n\nThere are certainly some advantage. The time that is saved goes to the children or to the rest that the parents need, and people discover dishes from other country that they would never prepare themselves.\n\nHowever, the negative effects seem to me stronger. When somebody else cooks, the customer has no control on the quantity of salt, sugar and oil, and these quantities are much higher than at home, which affects the health after some years. The cost is also higher in the long term, even if each meal look cheap. Above all, a skill that was transmitted from one generation to the other is disappearing, and a person who cannot cook has no choice at all.\n\nIn conclusion, the change is understandable, but in my opinion its disadvantages weigh more than its advantages.",
+      "word_count": 282,
+      "why_this_band": {
+        "task_response": "Iki soru da yanitlaniyor: dort sebep sirasiyla veriliyor ve hukum giriste ve sonucta acikca olumsuz. Olumsuz yan uc gerekceyle acilirken olumlu yan iki cumlede kaliyor, bu yuzden tarti tek tarafli duruyor.",
+        "coherence_cohesion": "The first reason / A second reason / There are certainly / However / In conclusion siralamasi net ve paragraflar iceride gelisiyor. Sebepler paragrafi dort sebebi tek yerde topluyor, son ikisi ayni cumleye siginiyor; gecisler kalip duzeyinde.",
+        "lexical_resource": "Prepared dishes, delivery applications, in the long term, quantity of salt gibi konuya uygun ogeler dogru kullanilmis. No more an event reserved to a birthday, goes to the rest that the parents need ve transmitted from one generation to the other esdiziim olarak tam oturmuyor.",
+        "grammatical_range_accuracy": "Zaman cumlecikleri, ilgi cumlecikleri ve although yapisi dogru kuruluyor, uzun cumleler dagilmiyor. Cumlelerin yarisindan biraz fazlasinda edat, cogul ya da fiil bicimi hatasi var (energy for cook, reserved to a birthday, have never learn, some advantage, from other country, no control on, each meal look); anlam engellenmiyor."
+      },
+      "what_would_lift_it": "Olumlu yani ucuncu bir gerekceyle acmak - kazanilan zamanin nereye gittigi somutlastirilirsa hukum tek tarafli degil, tartilmis gorunur."
+    },
+    {
+      "band": 8.0,
+      "text": "The kitchen is being used less and less. In a growing number of households dinner arrives ready to heat or is eaten in a café, and the reasons for that are not hard to identify.\n\nWorking patterns come first. When both adults leave before eight and return after seven, cooking competes with the only free hours of the day, and it loses. Prepared food has also become genuinely cheap relative to income, so eating out no longer marks an occasion, and delivery platforms have removed even the walk to the restaurant. Underneath all this sits a quieter cause: a generation is reaching adulthood without having watched anyone cook, and a skill that is never demonstrated is not acquired.\n\nSome of the consequences are welcome. Time released from the stove goes somewhere, usually to children or to rest, and the range of food an ordinary household eats is far wider than it was a generation ago. There is a fairness argument too, since the burden of cooking every evening has historically fallen on women.\n\nEven so, I regard the trend as negative overall. Handing the cooking to somebody else means handing over control of salt, sugar and fat, which are used far more generously in a commercial kitchen than in a domestic one, and the effects accumulate quietly across decades rather than announcing themselves. The economics are worse than they look, too: each individual meal seems affordable, while the monthly total rarely is. Most importantly, a household that cannot cook has lost the ability to choose, and that loss is not easily reversed once a generation has passed.\n\nConvenience, in short, has been bought at a price that is real but deferred.",
+      "word_count": 281,
+      "why_this_band": {
+        "task_response": "Sebepler calisma duzeni, fiyat, teslimat ve aktarilmayan beceri olarak ayrilip her biri kendi mekanizmasiyla veriliyor. Degerlendirme once olumlu yani gercekten kabul ederek - kazanilan zaman ve ev isi yukunun paylasimi - sonra uc gerekceyle olumsuz olarak veriliyor; hukum son cumlede ertelenmis maliyet fikrine oturuyor.",
+        "coherence_cohesion": "Metin sebepler, olumlu yan, olumsuz yan, hukum sirasiyla ilerliyor ve her paragraf tek is yapiyor. Underneath all this sits a quieter cause ve Even so gibi ogeler baglantiyi cumlenin kendi isiyle kuruyor; kapanis bastaki mutfak imgesine donuyor.",
+        "lexical_resource": "Working patterns, relative to income, delivery platforms, commercial kitchen, accumulate quietly, deferred gibi az kullanilan ogeler dogru esdiziimle geciyor. A skill that is never demonstrated is not acquired secimi fikri tek cumlede tasiyor.",
+        "grammatical_range_accuracy": "Devrik yapi, iki noktali aciklama, while ile kurulan karsitlik ve edilgen ogeler kontrollu bicimde donuyor. Hata seyrek ve okuru durdurmuyor; band 9'un tam esnekligi yok."
+      },
+      "what_would_lift_it": "Adalet argumani tek cumlede birakilmis; kimin yukunun nasil degistigi bir adim acilirsa olumlu taraf hukmu daha cok zorlar."
+    }
+  ]
+}

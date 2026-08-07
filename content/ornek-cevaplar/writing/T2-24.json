@@ -1,0 +1,45 @@
+{
+  "exam": "ielts",
+  "schema_version": "1.0",
+  "kind": "model_answer_set",
+  "skill": "writing",
+  "task_ref": "T2-24",
+  "answers": [
+    {
+      "band": 5.0,
+      "text": "Nowadays when a company want to take a new worker, some people believe the personality is more important than the diploma and the experience. I am agree with this opinion because the character of a person is the most important thing in the work life.\n\nFirstly, a good worker must be reliable. If a worker come late every morning and he don't finish his job in the time, the manager cannot trust him and all the team have a problem. Also the reliable person say the truth when he make a mistake, and this is very important for a company because the small problem don't become a big problem.\n\nSecondly, a good worker must work with the other people. In every office the people work together in a team and if one person don't listen the others, the atmosphere become very bad. A person who is friendly and who help his colleague make the work more easy for everybody.\n\nAlso a good worker must be patient and polite with the customer. If the customer is angry and the worker answer him in a bad way, the company lose this customer and after the customer speak bad about the company with his friends.\n\nOn the other hand, the diploma is also a good thing because it show that the person study many years in the university. But in my opinion this paper don't say nothing about the character of the person.\n\nIn conclusion, I think the employer must look the personality of the candidate, because the good character is more important for the company and the office become a better place for everybody.",
+      "word_count": 272,
+      "why_this_band": {
+        "task_response": "Tutum ilk paragrafta acikca konuyor ama gorevin asil istedigi karsilastirma yapilmiyor: metin bastan sona iyi bir calisanin ozelliklerini siraliyor, diploma ve deneyim yalnizca bir cumlede aniliyor ve neden daha hafif bastigi hicbir yerde tartisilmiyor. Somut bir is ornegi de verilmedigi icin gerekceler genel kaliyor.",
+        "coherence_cohesion": "Firstly / Secondly / Also / On the other hand / In conclusion iskeleti okuru kaybettirmiyor ve her paragrafin bir konusu var. Baglantiyi bu bes kalip disinda hicbir sey tasimiyor; paragraf iclerinde fikir ornekle degil tekrarla uzatiliyor.",
+        "lexical_resource": "Important, good worker, the company ogeleri surekli tekrar ediyor; ise alim alanina ait tek bir ozel sozcuk yok (candidate disinda). The diploma, the personality gibi secimler soruyu oldugu gibi geri veriyor.",
+        "grammatical_range_accuracy": "Neredeyse her cumlede uyum, tanimlik ya da olumsuzluk hatasi var: a company want, I am agree, a worker come late, he don't finish, the team have, this paper don't say nothing. If ve who cumlecikleri deneniyor ama gerisi basit ve kisa cumle."
+      },
+      "what_would_lift_it": "Her paragrafa 'bu nitelik diplomadan neden daha agir basiyor' sorusunu yanitlayan tek bir cumle eklemek; su haliyle metin karsilastirma degil, ozellik listesi."
+    },
+    {
+      "band": 6.5,
+      "text": "When a company has to choose between two candidates, some people argue that qualities such as reliability and the ability to work in a team count for more than certificates and years of experience. I largely agree with this view, although in some profession a formal qualification cannot be replaced by any personal quality.\n\nThe main reason is that technical knowledge can be taught at work, while character cannot. A new employee who does not know a particular program or a particular procedure can learn it in few weeks, because these things are written down and somebody in the office already knows them. An employee who does not come on time, or who cannot accept a comment about his work, will still be the same person after five years. Companies who ignore this often find themselves training a specialist who nobody want to sit next to.\n\nReliability also affect the whole team and not only one person. When a colleague does not finish his part of a project, the others must repair the situation in a hurry, and this costs the company far more than a small lack of experience would cost.\n\nOn the other hand, in several professions the qualification is not simply a paper. A nurse, a pilot or an electrician must hold a licence, because the law demand it and because a mistake can hurt somebody. In these case the employer is not free to prefer the pleasant candidate who has never been trained.\n\nIn conclusion, I agree that personal qualities should weigh more in the majority of jobs, but the qualification must come first where the safety and the law are concerned.",
+      "word_count": 276,
+      "why_this_band": {
+        "task_response": "Tutum giriste kosuluyla birlikte veriliyor (cogu iste nitelikler agir basar, meslek belgesi gerekli olan islerde basmaz) ve sonuc ayni kosulu tekrarliyor; karsilastirma gercekten yapiliyor cunku ogretilebilirlik olcutu ustunden yurutuluyor. Ikinci gerekce (ekip maliyeti) iki cumleye sikismis ve ornekle acilmamis.",
+        "coherence_cohesion": "Paragraf duzeni net: tutum, ana gerekce, ikinci gerekce, karsi durum, sonuc; her paragrafin tek merkezi var. The main reason is / On the other hand / In conclusion gecisleri dogru ama tahmin edilebilir, baglanti icerikten degil kaliptan geliyor.",
+        "lexical_resource": "Qualification, certificate, procedure, licence, candidate gibi alanin ogeleri dogru kullanilmis. Count for more, repair the situation ve a small lack of experience esdiziim olarak tam oturmuyor.",
+        "grammatical_range_accuracy": "Ilgi cumlecigi, zaman ve kosul cumlecikleri kuruluyor, uzun cumleler dagilmiyor. Cumlelerin yarisinda tekil-cogul ya da uyum hatasi var (in some profession, in few weeks, who nobody want, Reliability also affect, the law demand it, in these case); hicbiri anlami engellemiyor."
+      },
+      "what_would_lift_it": "Ekip maliyeti paragrafina bir ornek koymak - projeyi geciktiren tek kisinin otekilere ne yaptirdigi gosterilirse gerekce ikinci bir tekrar olmaktan cikar."
+    },
+    {
+      "band": 8.0,
+      "text": "Employers rarely have the luxury of a candidate who is outstanding on every count, so the question of what to weigh most heavily is a real one. My own view is that dispositions such as reliability and a willingness to work with others should usually count for more than a qualification, because they are the part of a candidate that an employer cannot supply later.\n\nSkills have a shelf life and a syllabus; temperament has neither. A recruit who has never used a particular accounting package can be brought up to speed in a fortnight by the colleague at the next desk, and within a year nobody remembers the gap. A recruit who treats deadlines as suggestions, or who cannot take a correction without sulking, imposes a cost on everyone around them for as long as they stay, and no training course reliably repairs it. Since one of these deficits is cheap to remedy and the other is not, a rational employer discounts the first and takes the second seriously.\n\nExperience deserves a word in its own defence, though. It is not merely a stock of knowledge; it is judgement about which problems are worth worrying about, and that is genuinely hard to teach. A manager who dismisses it as a line on a form may well end up with a pleasant team that keeps repeating avoidable mistakes.\n\nThere is also a category of work where the argument does not apply at all. Nobody wants an amiable surgeon who has not qualified, and where a licence exists it exists for a reason.\n\nOn balance, then, character should be the tie-breaker rather than the entry ticket.",
+      "word_count": 275,
+      "why_this_band": {
+        "task_response": "Tutum bir olcute baglanarak kuruluyor - isverenin sonradan saglayabilecegi sey beceri, saglayamayacagi sey mizac - ve bu olcut metnin sonuna kadar tasiniyor. Deneyim lehine gercek bir itiraz kabul ediliyor ve lisans gerektiren isler ayri bir kategori olarak disarida birakiliyor.",
+        "coherence_cohesion": "Paragraflar tez, gerekce, itiraf edilen itiraz, istisna ve tartili hukum olarak ilerliyor. Baglanti Since one of these deficits / though / then gibi ogelerle cumlenin isini yaparak kuruluyor, basa yapistirilan isaretlerle degil; son cumle bastaki agirlik metaforunu kapatiyor.",
+        "lexical_resource": "Dispositions, shelf life and a syllabus, temperament, brought up to speed, a fortnight, amiable, tie-breaker gibi az kullanilan ogeler dogru esdiziimle geciyor. Discounts the first ve entry ticket secimleri ekonomik ve dogal.",
+        "grammatical_range_accuracy": "Noktali virgulle kurulan karsitlik, ic ice ilgi cumlecikleri ve Since ile acilan gerekce yapisi kontrollu. Hata seyrek ve okuru durdurmuyor; yine de band 9'un tam esnekligi yok."
+      },
+      "what_would_lift_it": "Deneyim paragrafi otekilerden ince kaliyor: 'hangi sorunun onemli oldugunu bilmek' iddiasi tek somut durumla gosterilse tez daha da sikisir."
+    }
+  ]
+}

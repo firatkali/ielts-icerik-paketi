@@ -73,7 +73,7 @@ dengeli dagilsin" diyor. 30 gorev / 4 tur, calistirma basina 5 gorev:
 | 1 | Academic Task 1 | AT01-AT05 |
 | 2 | Academic Task 2 | T2-01, T2-06, T2-10, T2-15, T2-17 |
 | 3 | General Task 1 (mektup) | GT01-GT05 |
-| 4 | General Task 2 | henuz secilmedi (T2 havuzundan, 2. gruptakiler haric) |
+| 4 | General Task 2 | T2-24, T2-09, T2-11, T2-53, T2-57 |
 | 5 | Academic Task 1 (3) + Academic Task 2 (2) | AT06-AT08 + T2 havuzu |
 | 6 | General Task 1 (3) + General Task 2 (2) | GT06-GT08 + T2 havuzu |
 
@@ -236,3 +236,97 @@ kaldi. Sonradan duzeltmek yerine hedefi yazarken tutturmak, ikinci gruptaki
 - **GT05 yari resmi ton icin ayri tutuldu**: uc seviyede de "Dear Mr Halstead" ile
   aciliyor ve kapanis "Best regards / Kind regards". Resmi dort mektuptaki "Yours
   faithfully" kalibiyla karsilastirilinca ton farki kullanicinin gozunde somutlasiyor.
+
+---
+
+## 4. grup - General Task 2 (T2-24, T2-09, T2-11, T2-53, T2-57)
+
+Talimat: `degerlendirme/yazma-task2.md` (Task 2 iki modulde de ayni olcutlerle
+puanlaniyor). Genel band = dort olcutun ortalamasi, en yakin yarim banda yuvarlanmis
+(.25 ve .75 yukari).
+
+### Gorev secimi
+
+Task 2 gorevleri `module: "both"` oldugu icin Academic / General ayrimi gorevin
+kendisinde degil, secimde. 2. gruba soyut ve kurumsal konular alinmisti; bu gruba
+adayin kendi gunluk hayatindan ornek verebilecegi konular secildi. Bes soru
+kalibinin her birinden bir gorev alindi ve 2. grubun konu alanlari (egitim, ulasim,
+sehir hayati, teknoloji, kultur) tekrar edilmedi.
+
+| Kod | Kalip | Konu alani | Konu |
+|---|---|---|---|
+| T2-24 | opinion | is hayati | ise alirken kisisel nitelikler mi diploma mi |
+| T2-09 | discuss_both_views | aile ve toplum | cocugu buyukanne mi ebeveyn mi buyutmeli |
+| T2-11 | problem_solution | tuketim | hanelerde yemek israfi |
+| T2-53 | advantages_disadvantages | yaslanan nufus | dusuk kira karsiligi oda ve yardim |
+| T2-57 | double_question | saglik | disarida yemek ve hazir yiyecek |
+
+| Gorev | Hedef | TA | CC | LR | GRA | Genel | Sapma | Yeniden yazildi mi |
+|---|---|---|---|---|---|---|---|---|
+| T2-24 | 5,0 | 5 | 5,5 | 5 | 4 | **5,0** | 0 | hayir |
+| T2-24 | 6,5 | 7 | 6 | 6,5 | 6 | **6,5** | 0 | hayir |
+| T2-24 | 8,0 | 8 | 8 | 8 | 8 | **8,0** | 0 | hayir |
+| T2-09 | 5,0 | 5 | 5 | 5 | 4 | **5,0** | 0 | hayir |
+| T2-09 | 6,5 | 7 | 6 | 6,5 | 6 | **6,5** | 0 | **evet** (bkz. asagi) |
+| T2-09 | 8,0 | 8 | 8 | 8 | 8 | **8,0** | 0 | hayir |
+| T2-11 | 5,0 | 5 | 5 | 5 | 4 | **5,0** | 0 | hayir |
+| T2-11 | 6,5 | 7 | 6 | 6,5 | 6 | **6,5** | 0 | hayir |
+| T2-11 | 8,0 | 8 | 8 | 8 | 8 | **8,0** | 0 | hayir |
+| T2-53 | 5,0 | 5 | 5 | 5 | 4 | **5,0** | 0 | hayir |
+| T2-53 | 6,5 | 7 | 6 | 6,5 | 6 | **6,5** | 0 | **evet** (bkz. asagi) |
+| T2-53 | 8,0 | 8 | 8 | 8 | 8 | **8,0** | 0 | hayir |
+| T2-57 | 5,0 | 5 | 5 | 5 | 4 | **5,0** | 0 | hayir |
+| T2-57 | 6,5 | 7 | 6 | 6,5 | 6 | **6,5** | 0 | **evet** (bkz. asagi) |
+| T2-57 | 8,0 | 8 | 8 | 8 | 8 | **8,0** | 0 | hayir |
+
+### Yeniden yazilan: uc gorevin 6,5 hedefli cevabi
+
+Bu grupta denetim, 2. gruptaki gibi bandi degil, **bandin dayanagini** duzeltti.
+Hatali cumle orani her metinde tek tek sayildi (talimatin GRA tablosu bandi bu
+orandan okuyor) ve uc metin hedef araligin disinda kaldi:
+
+- **T2-57 / 6,5** - oran %38 cikti, yani tablonun 7 satiri (%20-40). Sayilan puan
+  TA 7 · CC 6 · LR 6,5 · GRA 7 = 6,625 → 7,0, hedefin 0,5 disinda. Iki hata eklendi
+  (`dishes from other countries` → `from other country`, `each meal looks cheap` →
+  `each meal look cheap`), oran %54'e cikti, GRA 6 oldu.
+- **T2-53 / 6,5** - ters yonde: oran %62 cikti, yani 5 satirinin (%60-80) icine
+  dustu. Bir hata geri alindi (`help with the shopping, the technology or the
+  garden` → `the computer`), oran %54 oldu.
+- **T2-09 / 6,5** - oran %50 ile dogru satirdaydi ama hatalarin dordu de ayni
+  turdendi (cogul/tanimlik). Cesitlilik icin biri edata cevrildi
+  (`frightened by a fever` → `frightened from a fever`); band degismedi, hata
+  profili hedef bandda gercekten gorulen dagilima yaklasti.
+
+Metinlerin fikir yapisina, tutumuna ve sozcuk secimine dokunulmadi.
+
+### Denetimde dikkat cekenler
+
+- **Sayim tahminin yerini aldi.** 3. grupta hedef yazarken tutturulmustu; burada
+  ayni sey yapildi ama denetimde oran yine de elle sayildi ve bes metnin ucunde
+  tahminle sayim ayrisiyordu. Ikisi de asagi degil **yukari** yondeydi: goz "burada
+  yeterince hata var" derken tablo 7 satirini gosteriyordu. Talimatin "count; do not
+  estimate by impression" uyarisi ters yonde de calisiyor.
+- **Band 5'lerde gorevin bir yarisi bilerek eksik**, her gorevde farkli bicimde ve
+  her biri gorevin kendi `common_mistakes` listesinden: T2-24'te karsilastirma hic
+  yapilmayip iyi calisan ozellikleri siralanmis, T2-09'da ikinci gorus savunulmadan
+  iki cumlede reddedilmis ve metin kendi aile anisina donmus, T2-11'de sorunlar
+  bolumu aclik konusuna kayip onlemler iki dilek cumlesine inmis, T2-53'te iki liste
+  yazilip hukum hic verilmemis, T2-57'de degerlendirme tek desteksiz cumleye
+  indirgenmis. Bes cevapta da TA'nin "iki yukumlulukten biri karsilanmiyor →
+  max 5" capasi acikca atesleniyor.
+- **Band 5 kelime sayilari 252-272.** Hepsi 250'nin ustunde ama ucunda; en dusugu
+  T2-57 (252). `max 6` (250 alti) ve `max 5` (188 alti) capalari hicbir cevapta
+  devreye girmedi - dusuklugun sebebi olcutler, eksik kelime degil.
+- **Band 5'lerde GRA 4.** Hatali cumle orani bes cevapta da %80'in uzerinde ve
+  range sinirli (basit cumle + tek tuk if/who). Anlam hicbir yerde kaybolmadigi
+  icin cevaplar 3'e degil 4'e oturuyor, genel band diger uc olcut tarafindan
+  5,0'da tutuluyor.
+- **Band 8'ler kusursuz degil**: her birinde bir gerekce otekilerden ince kaliyor
+  (T2-24'te deneyim paragrafi, T2-11'de belediye onlemi, T2-53'te "reported
+  outcomes are good" genellemesi, T2-57'de adalet argumani) ve `what_would_lift_it`
+  alani tam bunu isaret ediyor. Hicbiri band 9 hedeflemiyor.
+- **Uc seviyede de tutum ayni tarafta** tutuldu, 2. gruptaki gibi: ayni gorev, ayni
+  pozisyon, farkli yurutme. Fark fikirden degil dilden ve gelistirmeden geliyor.
+- **Metinler `tools/_c1_uret4.py` icinde duruyor**, kelime sayisi uretimde
+  sayiliyor - metin duzeltilince JSON'daki sayac sessizce yanlis kalmasin diye.
+  2. gruptaki `_c1_uret2.py` ile ayni kalip.
