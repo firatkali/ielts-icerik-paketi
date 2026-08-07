@@ -32,7 +32,8 @@
       },
       "explanation": "B metninin B paragrafı, aralığın son iki haftasına denk gelen izinlerin doğrudan departman müdürünce onaylanması gerektiğini söylüyor; bu yüzden cevap 'department manager'.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 26,
@@ -51,7 +52,10 @@
       },
       "explanation": "B metninin C paragrafı, haftalık süreyi aşan mesainin 1,5 katı, resmî tatil çalışmasının ise iki katı ücretlendirildiğini söylüyor; bu yüzden cevap 'double time'.",
       "difficulty": "easy",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "general_knowledge",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     },
     {
       "number": 27,
@@ -70,7 +74,8 @@
       },
       "explanation": "B metninin D paragrafı, işten ayrılanlara hak edilmiş ama kullanılmamış iznin son maaşlarının bir parçası olarak ödendiğini söylüyor; bu yüzden cevap 'final salary'.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     }
   ]
 }

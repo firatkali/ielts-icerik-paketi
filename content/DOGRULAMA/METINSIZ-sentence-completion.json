@@ -1,0 +1,31 @@
+{
+  "tarih": "2026-08-07",
+  "paket": "sentence-completion",
+  "toplam": 37,
+  "uc_turda_bilinen": [
+    "practice-sentence-completion-1",
+    "practice-sentence-completion-8",
+    "practice-sentence-completion-10",
+    "practice-sentence-completion-11",
+    "AC1-sentence-completion-22",
+    "AC2-sentence-completion-21",
+    "AC2-sentence-completion-22",
+    "AC3-sentence-completion-19",
+    "AC3-sentence-completion-20",
+    "AC3-sentence-completion-21",
+    "AC4-sentence-completion-20",
+    "AC4-sentence-completion-21",
+    "GT1-sentence-completion-26"
+  ],
+  "tip_bazinda": {
+    "sentence_completion": {
+      "toplam": 37,
+      "uc_turda": 13
+    }
+  },
+  "dayanak_dagilimi": {
+    "general_knowledge": 33,
+    "logic": 45,
+    "guess": 33
+  }
+}

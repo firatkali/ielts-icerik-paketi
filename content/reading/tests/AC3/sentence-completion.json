@@ -31,7 +31,10 @@
       },
       "explanation": "Paragraf B, alışılmış yöntemin depremden önceki ve sonraki yer değişimini karşılaştırmak olduğunu ve bunun ana kayanın görülebilmesini gerektirdiğini söylüyor; bu yüzden cevap 'displacement'.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "general_knowledge",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     },
     {
       "number": 20,
@@ -49,7 +52,10 @@
       },
       "explanation": "Paragraf C, pürüzlü kırık enkazın radar dalgalarını güçlü saçtığı için görüntülerde parlak, düzgün ve bozulmamış buzun ise koyu göründüğünü söylüyor; bu yüzden cevap 'bright'.",
       "difficulty": "easy",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "logic",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     },
     {
       "number": 21,
@@ -67,7 +73,10 @@
       },
       "explanation": "Paragraf F, Mount King George yakınındaki kollardan birinin depremden haftalar önce, kasımda hızlı bir 'surge' (ani ilerleme) evresine girdiğini söylüyor; bu yüzden cevap 'surge'.",
       "difficulty": "hard",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "general_knowledge",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     },
     {
       "number": 22,
@@ -85,7 +94,8 @@
       },
       "explanation": "Paragraf G, depremin yerleşim yerlerine zarar vermediğini ama Yakutat'tan yola çıkan dağcılar ve bilimsel keşif ekipleri için yeni tehlikeler yarattığını söylüyor; bu yüzden cevap 'mountaineers'.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     }
   ]
 }

@@ -32,7 +32,10 @@
       },
       "explanation": "Paragraf A, laboratuvar çalışmalarının fillerin dalları sinek kovmak için kullandığını gösterdiğini söylüyor; boşluk dalların hangi amaçla kullanıldığını sorduğu için cevap 'swat flies'.",
       "difficulty": "easy",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "general_knowledge",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     },
     {
       "number": 2,
@@ -51,7 +54,8 @@
       },
       "explanation": "Paragraf G, ağır bir nesneyi yuvarlayıp yerleştirmenin hortum ucunu açık tuttuğunu ve nesneyle sürekli duyusal temas hâlinde bıraktığını söylüyor; bu yüzden cevap 'sensory contact'.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 3,
@@ -70,7 +74,8 @@
       },
       "explanation": "Paragraf H, bir türün zihinsel bir beceriden yoksun görünmesinin nedeninin çoğu zaman sunulan donanımın o türün anatomisine uymaması olduğunu söylüyor; bu yüzden cevap 'anatomy'.",
       "difficulty": "hard",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 4,
@@ -90,7 +95,8 @@
       },
       "explanation": "Paragraf B, her çiftin kendi tankında tutulduğunu ve tanklara sabit 24°C'de akan deniz suyu verildiğini söylüyor; bu yüzden cevap 'running seawater'.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 5,
@@ -109,7 +115,8 @@
       },
       "explanation": "Paragraf F, tanıdık bir eşle yeniden bir araya getirilen ahtapotların ilk temasa geçmek için belirgin biçimde daha uzun süre beklediğini söylüyor; bu yüzden cevap 'first contact'.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 6,
@@ -128,7 +135,8 @@
       },
       "explanation": "Paragraf G, ahtapotun benzersiz bir bireyi tanımasına gerek olmadığını, karşılaştıklarını 'bilinen' ve 'bilinmeyen' diye iki geniş kategoriye ayırmasının yettiğini söylüyor; bu yüzden cevap 'unique individual'.",
       "difficulty": "hard",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 7,
@@ -147,7 +155,8 @@
       },
       "explanation": "Paragraf A, Maug'un bilim insanlarına hiçbir laboratuvar tankının tam olarak taklit edemeyeceği bir şey sunduğunu söylüyor; bu yüzden cevap 'laboratory tank'.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 8,
@@ -166,7 +175,10 @@
       },
       "explanation": "Paragraf C, Maug'daki resifin yıllardır geniş okyanusun onlarca yıl sonra ulaşacağı koşullarda yaşadığını ve bunun geleceğin bir ön gösterimini sunduğunu söylüyor; bu yüzden cevap 'preview'.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "logic",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     },
     {
       "number": 9,
@@ -185,7 +197,8 @@
       },
       "explanation": "Paragraf E, araştırmacıların varsayımsal bir geleceği modellemek yerine gerçek bir resif topluluğunun davranışını ölçebildiğini söylüyor; bu yüzden cevap 'hypothetical future'.",
       "difficulty": "hard",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 10,
@@ -205,7 +218,10 @@
       },
       "explanation": "Paragraf A, Uranüs'ün Güneş'ten itibaren yedinci gezegen olduğunu söylüyor; sıradaki yeri sorulduğu için cevap 'seventh'.",
       "difficulty": "easy",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "general_knowledge",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     },
     {
       "number": 11,
@@ -225,7 +241,10 @@
       },
       "explanation": "Paragraf F, uydunun boyutunun dönemin aletlerinin ayırt edebileceği eşiğin altında kaldığını ve 1986'daki geçişten sonra neredeyse kırk yıl fark edilmeden Uranüs'ün çevresinde döndüğünü söylüyor; bu yüzden cevap 'forty years'.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "general_knowledge",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     },
     {
       "number": 12,
@@ -245,7 +264,8 @@
       },
       "explanation": "Paragraf H, keşfin şimdilik hakem değerlendirmesinden geçmiş bitmiş bir sonuç değil, süren araştırmanın bir parçası olduğunu söylüyor; bu yüzden cevap 'ongoing research'.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 13,
@@ -264,7 +284,8 @@
       },
       "explanation": "Paragraf A, yerleşimin ilk kez 1952'de fark edildiğini, ayrıntılı kazının ise 1961–1965 arasında yapıldığını söylüyor; bu yüzden cevap '1952'.",
       "difficulty": "easy",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 14,
@@ -283,7 +304,8 @@
       },
       "explanation": "Paragraf F, araştırmacıların bulguyu hekzaploid buğday yetiştiriciliğinin erken bir geçiş aşaması olarak yorumladığını söylüyor; bu yüzden cevap 'transitional stage'.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 15,
@@ -302,7 +324,8 @@
       },
       "explanation": "Paragraf H, eski DNA incelemesinin çıplak gözle görülemeyen tarım tarihini ortaya çıkarabildiğini söylüyor; bu yüzden cevap 'naked eye'.",
       "difficulty": "hard",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     }
   ]
 }

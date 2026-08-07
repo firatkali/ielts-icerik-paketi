@@ -1371,3 +1371,382 @@ etkilenmedi. 8. çalıştırmanın paketlerinde (`sentence-completion`, `short-a
 
 🔴 Son söz: **bu ölçüm bozuk soruyu bulur, zorluk seviyesini ölçmez.** "Bu soru gerçek
 sınav zorluğunda" demek ancak binlerce gerçek adayın verisiyle mümkündür.
+
+---
+
+## 8 — sentence-completion + short-answer (+ diagram-labelling: ölçülmedi) (2026-08-07)
+
+Ölçümün son çalıştırması. Üç paket kapsandı; üçüncüsü bilerek ölçülmedi.
+
+### Özet
+
+| Paket | Soru | 3/3 bilinen | Oran | Resmî taban | Sapma |
+|---|---|---|---|---|---|
+| sentence_completion | 37 | 13 | %35 | 1/5 (%20) | +15 puan, uyarı eşiğinin (25) altında |
+| short_answer | 10 | 2 | %20 | resmî listede yok | — |
+| diagram_labelling | 10 | — | — | 0/5 (%0) | **ölçülmedi** (görsel gerektirir) |
+| **Ölçülen toplam** | **47** | **15** | **%32** | genel resmî ortalama %57 | tabanın altında |
+
+Script hiçbir tipe 🔴 koymadı. **Ama aşağıdaki 8.3 bölümü, bu %32'nin ölçtüğü şeyin
+"parçaya ihtiyaç" değil "anahtarın kelimesini tutturma" olduğunu gösteriyor** — 7.
+çalıştırmadaki bulgunun daha keskin hâli.
+
+Tur kararlılığı: sentence-completion 29/37 (%78), short-answer 6/10 (%60). Tamamlama
+ailesinin beklenen değerleri (6. çalıştırma %56, 7. çalıştırma benzeri): şık yok, aday
+boşluğa kelime yazıyor, aynı anlam farklı kelimeyle verilebiliyor.
+
+---
+
+### 8.1 — sentence-completion: 13/37 (%35)
+
+#### Set bazında dağılım
+
+| Set | Soru | 3/3 bilinen | Oran |
+|---|---|---|---|
+| practice | 15 | 4 | %27 |
+| AC1 | 4 | 1 | %25 |
+| AC2 | 4 | 2 | %50 |
+| AC3 | 4 | **3** | **%75** |
+| AC4 | 4 | 2 | %50 |
+| GT1 | 3 | 1 | %33 |
+| GT2 | 3 | **0** | **%0** |
+
+🔴 **AC3 (%75) bu paketin zayıf halkası** — ve bu, önceki çalıştırmaların tersine dönmesi
+demek: 7. çalıştırmada AC3 en sağlam setti (%20), 5. çalıştırmada AC3 tek sızıntıyı
+veren setti. Sebebi aşağıda.
+
+🟢 GT2 0/3, GT1 1/3. 5. çalıştırmanın bulgusu (GT malzemesi doğası gereği bozuk soru
+üretmiyor) burada da geçerli: bu üç soru "kural ne olmalı"yı değil "bu el kitabında
+hangi eşik yazıyor"u soruyor. Tek işaretli GT sorusu `double time` (GT1-26) ve o da
+istisna değil kaide: resmî tatilde çift ücret İngilizce iş dünyasının kalıp sözü.
+
+#### İşaretlenen 13 soru
+
+| Soru | Anahtar | Zorluk | Dayanak |
+|---|---|---|---|
+| practice 1 | `swat flies` | easy | general_knowledge |
+| practice 8 | `preview` | medium | logic |
+| practice 10 | `seventh` | easy | general_knowledge |
+| practice 11 | `forty years` | medium | general_knowledge |
+| AC1 22 | `dear enemy` | hard | general_knowledge |
+| AC2 21 | `D genome` | hard | general_knowledge |
+| AC2 22 | `Karacadağ` | medium | general_knowledge |
+| AC3 19 | `displacement` | medium | general_knowledge |
+| AC3 20 | `bright` | easy | logic |
+| AC3 21 | `surge` | hard | general_knowledge |
+| AC4 20 | `humidity` | easy | logic |
+| AC4 21 | `passage` | hard | logic |
+| GT1 26 | `double time` | easy | general_knowledge |
+
+Onüçünde de üç turda **aynı kelime** yazıldı; şık olmadığı, tahmin uzayı sınırsız olduğu
+için bu tipte 3/3 tutturmak çoktan seçmelideki 3/3'ten çok daha güçlü kanıt (6.
+çalıştırmanın notu).
+
+#### Kusur 1 — alanın kalıp terimi soruluyor (AC3'ün %75'i buradan)
+
+AC3'ün işaretlenen üç sorusu, deprem–buzul jeolojisinin **stok sözcükleri**:
+
+| Soru | Anahtar | Neden parçasız çıkıyor |
+|---|---|---|
+| AC3-19 | `displacement` | Deprem öncesi/sonrası zemini ölçen teknik (InSAR) her zaman *displacement* ölçer. Terimin tanımı. |
+| AC3-20 | `bright` | Radar görüntüsünde kırık kaya parlak, bozulmamış buz koyu görünür — radar okumanın ABC'si. |
+| AC3-21 | `surge` | Günde 50 fitlik hızlanma buzul biliminde *surge* diye adlandırılır. Tek karşılığı olan terim. |
+
+Aynı kalıp AC1-22 (`dear enemy` — davranış biyolojisinin adlandırılmış etkisi), AC2-21
+(`D genome` — hekzaploid buğdayın tanımı), AC2-22 (`Karacadağ` — einkorn evcilleştirme
+bölgesi, ders kitabı bilgisi) ve practice-10 (`seventh` — Uranüs'ün Güneş'ten sırası).
+Bu, 7. çalıştırmanın "terim tanımı / genel kültür" kusurunun (5/12) aynısı ve burada
+**13 işaretin 9'unu** tek başına açıklıyor.
+
+Ölçüt basit: **boşluğa yazılacak kelimenin alan içinde tek karşılığı varsa, o soru
+parçasız çözülür.** Parça yalnızca terimi teyit ediyor, öğretmiyor.
+
+#### Kusur 2 — kalıp öbeğin tahmin edilen ucu (eşdizim kilidi)
+
+6. ve 7. çalıştırmanın ana bulgusu burada da:
+
+| Boşluklu çerçeve | Kilitlenen kelime |
+|---|---|
+| "gelecekte olacağın …'i" (şimdiden o suda geçirilmiş yıllar) | `preview` (practice 8) |
+| "%94,25 olarak ölçülen …" | `humidity` (AC4 20) |
+| "değişimi ortama değil zamanın salt … 'ine bağlamak" | `passage` (AC4 21) |
+| "bir buçuk kat değil … ile ödenir" | `double time` (GT1 26) |
+
+Dördü de `logic` dayanağıyla, konu bilgisi olmadan çıktı. Bunlar **düzeltilebilir**
+kusurlar: boşluk öbeğin tahmin edilen ucundan alınıp cümlenin parçaya özgü kısmına
+taşınabilir.
+
+#### Direnen 5 soru — kopyalanacak kalıp
+
+Anlam düzeyinde bile üç turda tutturulamayan sorular şunlar:
+
+| Soru | Anahtar | Üç turda verilen | Neden direndi |
+|---|---|---|---|
+| practice 13 | `1952` | 1958 ×3 | Parçaya özgü tarih; genel kültür **yanlış yönlendirdi**. |
+| practice 15 | `naked eye` | morphology / grain shape / morphology | Anlam doğru bulundu ama parçanın imgesi (*çıplak göz*) dışarıdan bilinemez. |
+| AC1 21 | `two strangers` | females / males / males | Deneyin kendi koşul kurgusu; cinsiyet varsayımı ıskaladı. |
+| AC4 19 | `silver birch` | beech ×3 | Parçadaki somut tür; "ladin + kayın" varsayımı tuttu ama yanlıştı. |
+| GT1 25 | `department manager` | managing director ×3 | Hangi kademenin onayladığı el kitabına özgü; hayat bilgisi genel müdürü söylüyor. |
+
+Ortak özellik: hepsi parçanın **kendi sayısal/somut ayrıntısına** bağlı ve dördünde
+genel kültür makul ama yanlış bir cevap üretiyor. 1. çalıştırmadan beri her raporda
+yazılan düzeltme önerisinin uygulanmış hâli budur.
+
+⚠️ practice-13 için bir kayıt: parça yerleşimin **1952'de** fark edildiğini söylüyor
+(kanıt cümlesi Paragraf A'da), üç turda da genel kültürden 1958 yazıldı. Bu tarih için
+literatürde iki rakam dolaştığı için soru burada iyi çalışıyor — ama kaynak metnin
+hangi tarihi verdiği ayrıca teyit edilmeye değer. Bu bir **ölçüm bulgusu değil**, yan
+gözlem.
+
+---
+
+### 8.2 — short-answer: 2/10 (%20)
+
+Tek dosya (practice), 10 soru. Resmî tabanda bu tip yok. %20, ölçümün gördüğü en düşük
+üçüncü değer (matching-information %6, matching-headings %18'den sonra).
+
+İşaretlenen iki soru da aynı mekanizma — **tarihsel/coğrafi tekil olgu**:
+
+| Soru | Anahtar | Dayanak |
+|---|---|---|
+| practice 4 | `24 January 1986` | general_knowledge (Voyager 2'nin Uranüs geçişi) |
+| practice 8 | `Mount Logan` | general_knowledge (Kanada'nın en yüksek zirvesi) |
+
+İkisi de "dünyada tek doğru cevabı olan" soru: parça değişse cevap değişmez. Kusur soru
+yazımında değil, **soru seçimindedir** — kaç metre, hangi tarih, hangi zirve gibi sorular
+ansiklopedik bilgiyi ölçer.
+
+Direnen 4 gerçek soru tam tersi kalıpta ve hepsi parçanın kendi sayısına bağlı:
+`nine times` (yavru filin tekrar sayısı), `98` (toplam seans sayısı), `30-minute puzzle
+game` (uyanıklık için yaptırılan görev) ve `Bay of Naples` — sonuncusu özellikle iyi
+bir örnek, çünkü ahtapot deneyi için genel kültürün ilk verdiği yer (Jervis Bay) üç
+turda da yanlış çıktı.
+
+---
+
+### 8.3 🔴 Asıl bulgu: puanlanan %32, anlam düzeyinde **%86**
+
+7. çalıştırmanın en önemli bulgusu burada daha da keskin. Kaçırılan 24 sentence-completion
+sorusunun yalnız **5'inde** anlam yuvası yanlış tahmin edildi (yukarıdaki tablo). Kalan
+19'unda doğru anlam bulundu, **anahtarın kelimesi tutmadı**:
+
+| Soru | Anahtar | Verilen | Fark |
+|---|---|---|---|
+| practice 2 | `sensory contact` | contact ×3 | niteleyici eksik |
+| practice 4 | `running seawater` | seawater ×3 | niteleyici eksik |
+| practice 5 | `first contact` | contact / approach / contact | niteleyici eksik |
+| practice 6 | `unique individual` | individual ×3 | niteleyici eksik |
+| practice 7 | `laboratory tank` | laboratory ×3 | niteleyici eksik |
+| practice 12 | `ongoing research` | preliminary ×3 | eşanlamlı |
+| practice 3 | `anatomy` | anatomy / morphology / anatomy | 2/3 |
+| practice 9 | `hypothetical future` | simulation / prediction / prediction | eşanlamlı |
+| practice 14 | `transitional stage` | beginning / stage / start | 2 kelimenin biri |
+| AC1 19 | `transparent divider` | transparent barrier ×3 | eşanlamlı |
+| AC1 20 | `dominance hierarchy` | hierarchy ×3 | niteleyici eksik |
+| AC2 19 | `plant DNA` | ancient DNA ×3 | niteleyici farkı |
+| AC2 20 | `separate laboratories` | laboratories ×3 | niteleyici eksik |
+| AC3 22 | `mountaineers` | climbers ×3 | eşanlamlı |
+| AC4 22 | `vegetation` | vegetation / foliage / vegetation | 2/3 |
+| GT1 27 | `final salary` | final pay ×3 | eşanlamlı |
+| GT2 25 | `probationary period` | probation period ×3 | çekim farkı |
+| GT2 26 | `home-office equipment` | office equipment ×3 | niteleyici eksik |
+| GT2 27 | `four weeks` | four weeks / one month / four weeks | 2/3 |
+
+short-answer'da aynı tablo: `weeks or months` → *weeks* ×3, `8,400 years` → *8,000 years*
+×3, `transactive memory system` → *transactive memory* ×3, `scanning electron microscopy`
+→ *electron microscopy* ×3. Dördü de anlamca doğru, dördü de yanlış sayıldı.
+
+**Anlam düzeyinde okuma:**
+
+| Paket | Puanlanan | Anlam düzeyinde bilinen | Gerçek direnç |
+|---|---|---|---|
+| sentence-completion | 13/37 (%35) | **32/37 (%86)** | 5 soru |
+| short-answer | 2/10 (%20) | **6/10 (%60)** | 4 soru |
+| **Toplam** | **15/47 (%32)** | **38/47 (%81)** | **9 soru** |
+
+7. çalıştırmada bu oran %41 → %93 idi. Aynı mekanizma, aynı büyüklük: bu ailenin
+savunması **kavrayış değil yazım biçimi.** `NO MORE THAN TWO WORDS from the passage`
+kısıtı doğru bilinen anlamı puana çevirmiyor.
+
+Bunun iki okunuşu var ve ikisi de doğru:
+
+1. **Gerçek sınav da böyle çalışır.** IELTS'te "yakın anlam" puan getirmez; parçanın
+   kendi kelimesi istenir. Yani bu bir sistem kusuru değil, tipin doğası. 6. çalıştırmada
+   "korunacak özellik" diye yazılmıştı.
+2. **Ama ölçtüğümüz şeyi karıştırıyor.** Bu ölçüm "aday parçaya ihtiyaç duydu mu"yu
+   sormak için kuruldu. Tamamlama ailesinde puan bunu göstermiyor: aday parçaya
+   **kelimeyi kopyalamak için** ihtiyaç duyuyor, **anlamı bulmak için** değil. Bir
+   sonraki iterasyonda bu ailede ölçüt "anlam yuvası tutturuldu mu" olmalı.
+
+En etkili savunma yine aynı: **iki kelimelik, parçaya özgü niteleyici** (`sensory
+contact`, `running seawater`, `laboratory tank`, `home-office equipment`,
+`separate laboratories`). 19 sorunun 11'i tek başına bu kalıpla kurtuldu.
+
+### Anahtar kalitesi: 7. çalıştırmanın uyarısı bu pakette karşılanmış 🟢
+
+7. çalıştırmada AC2 flow-chart 1 numaralı sorunun `accepted_variants` alanı `40 minutes`i
+kabul etmiyordu ve soru haksız yere yanlış sayılmıştı. Bu pakette aynı hata **yok**:
+
+- `forty years` → `40 years` kabul ediliyor (practice 11, üç turda da `40 years` yazıldı
+  ve doğru sayıldı).
+- `Karacadağ` → `Karacadag` kabul ediliyor (AC2 22, Türkçe karakter olmadan yazıldı).
+- `8,400 years` → `8400 years`, `8,400 years old`; `98` → `ninety-eight`, `98 sessions`;
+  `30-minute puzzle game` → `puzzle game`.
+
+Yani sayı/yazım varyantları düzgün açılmış. Bu paketteki 19 ıskanın hiçbiri anahtar
+kusuru değil, hepsi gerçek kelime farkı.
+
+---
+
+### `basis` dağılımı
+
+sentence-completion (111 cevap) · short-answer (30 cevap):
+
+| Dayanak | sc tümü | sc yalnız işaretli (39) | sa tümü | sa işaretli (6) |
+|---|---|---|---|---|
+| logic | 45 (%41) | 12 (%31) | 0 (%0) | 0 |
+| general_knowledge | 33 (%30) | **27 (%69)** | 18 (%60) | **6 (%100)** |
+| guess | 33 (%30) | **0 (%0)** | 12 (%40) | 0 |
+| option_wording | 0 (%0) | 0 | 0 (%0) | 0 |
+
+İki satır önemli:
+
+- **İşaretli sorularda `guess` sıfır.** 39 + 6 = 45 cevabın hiçbiri tahmin değildi.
+  İşaretlemeler şansa dayanmıyor.
+- **İşaretli sorularda `general_knowledge` %69 ve %100.** Bu paketin kusuru çeldirici
+  yazımı değil **konu/terim seçimi**. Düzeltmesi prompt düzeyinde değil, soru
+  ekseninin değiştirilmesiyle olur.
+
+`option_wording` **yapısal olarak sıfır**: bu iki tipte şık yok, boşluğa kelime yazılıyor,
+yazılabilecek bir çeldirici metni bulunmuyor. 6. çalıştırmadaki durumun aynısı (7.
+çalıştırmada kelime bankası olduğu için sıfır *etiketleme kararıydı*, burada değil).
+
+`guess` payı %30 ve %40 — ölçümün gördüğü ikinci ve üçüncü en yüksek değerler
+(matching-information %61'den sonra). Bu pakette gerçekten bilinemeyen sorular var.
+
+### Zorluk etiketiyle ilişki
+
+| Etiket | sc: soru | 3/3 bilinen | Oran |
+|---|---|---|---|
+| easy | 10 | 5 | %50 |
+| medium | 18 | 4 | %22 |
+| hard | 9 | 4 | %44 |
+
+**İlişki yok, üstelik ters yönde bir çentik var:** `hard` (%44), `medium`'un (%22) iki
+katı. Parçasız bilinen dört `hard` soru — AC1-22 `dear enemy`, AC2-21 `D genome`,
+AC3-21 `surge`, AC4-21 `passage` — üçü alan terimi, biri eşdizim kilidi. `hard` etiketi
+burada "kelimesi az bilinen" anlamında kullanılmış, "parçasız bulunamaz" anlamında değil.
+Aynı gözlem 7. çalıştırmada da yapılmıştı; iki çalıştırma üst üste çıktığı için artık
+tek seferlik bir gürültü sayılamaz: **`difficulty` etiketi bu ailede parçaya bağımlılığı
+öngörmüyor.**
+
+short-answer'da örneklem çok küçük (easy 1/4, medium 1/4, hard 0/2), sonuç çıkarılmaz.
+
+### Düzeltme yönü (bu rapor uygulamıyor, işaret ediyor)
+
+1. **Alanın tek karşılığı olan terimini boşluğa koyma.** `displacement`, `surge`,
+   `D genome`, `dear enemy`, `bright` — hepsi parçadan bağımsız olarak o cümleye giren
+   tek kelime. Boşluk, terimin **parçadaki ölçüsüne/koşuluna** kaydırılmalı (AC3-21'de
+   "günde 50 fit" zaten cümlede duruyor; boşluk oraya konabilirdi).
+2. **Ansiklopedik tekil olguyu sorma** (short-answer 4 ve 8). "Hangi tarih", "hangi
+   zirve" tipi sorular parça değişse de aynı cevabı verir. `nine times`, `98`,
+   `Bay of Naples` kalıbı — parçanın kendi sayısı — zaten elimizde ve çalışıyor.
+3. **Eşdizim kilidini kır** (6. ve 7. çalıştırmanın tekrarı): "%94,25 olarak ölçülen …",
+   "bir buçuk kat değil … ile ödenir" — boşluk öbeğin tahmin edilen ucundan alınsın.
+4. **İki kelimelik parçaya özgü niteleyiciyi koru, ama tek savunma olarak bırakma.**
+   19 ıskanın 11'i bu sayede puan verdi; yine de anlam parçasız bilindi.
+5. **Ölçüt önerisi (araç işi):** tamamlama ailesinde "3/3 doğru" yanına "3/3 anlamca
+   doğru" sütunu eklenmeli. Şu anki ölçüt bu ailede sızıntının yarısını görmüyor —
+   %32 ile %81 arasındaki fark budur.
+
+### Korunacak olan
+
+- **GT setleri (1/6).** 5. çalıştırmanın bulgusunun üçüncü doğrulaması: GT malzemesi
+  bozuk soru üretmiyor, sorulan şey "kural" olmadığı sürece.
+- **Direnen 9 soru.** Hepsi parçanın kendi sayısına/türüne/kademesine bağlı; dördünde
+  genel kültür makul ama yanlış cevap üretiyor. Kopyalanacak kalıp bu.
+- **`accepted_variants` disiplini.** Sayı, Türkçe karakter ve kısaltma varyantları
+  düzgün açılmış; 7. çalıştırmada bulunan anahtar kusuru bu pakette tekrarlanmamış.
+
+### Ölçülmeyenler
+
+- **`diagram-labelling`: ölçülmedi.** `content/reading/practice/diagram-labelling.json`,
+  10 soru, tek dosya. Prompt gereği atlandı: sorular bir plana/şemaya (`visual` alanı)
+  bağlı; metin tabanlı bu ölçüm orada kördür ve çıkacak sonuç sorunun zorluğunu değil
+  **görselin yokluğunu** ölçer. Parçasız kopyası üretildi ama hiçbir turda cevaplanmadı;
+  `kalibrasyon/metinsiz/` altında tur dosyası yok, `tools/_b1_isaretle.py` bu tipi zaten
+  atlıyor, dolayısıyla bu 10 soruya `blind_solvable` alanı **hiç yazılmadı** (false da
+  değil). Resmî tabanda bu tip 0/5 ile en sızıntısız tiplerden biri; bizde ölçülmediği
+  için karşılaştırma yapılamıyor.
+- **Dinleme tarafı** bu adımın kapsamı dışında (prompt gereği). `sentence-completion`
+  (practice, L1-L6) ve `short-answer` (practice, L1, L3, L4) dinleme dosyaları script
+  tarafından "okuma değil" diye atlandı — toplam 11 dosya.
+- `short-answer` sınav setlerinde (AC1-AC4, GT1-GT2) **yok**; ölçüm tek practice
+  dosyasıyla, 10 soruyla sınırlı kaldı. `diagram-labelling` de yalnız practice'te var.
+
+### Araç notu
+
+4. adım (işaretleme) mevcut `tools/_b1_isaretle.py` ile yapıldı; araca bu çalıştırmada
+bir şey eklenmedi. Özet istatistikler için `tools/_b1_metinsiz8_ozet.py` yazıldı (set/
+zorluk/dayanak dağılımı, tur kararlılığı ve soru soru "anahtar vs. üç turda verilen"
+dökümü). 8.3 bölümündeki anlam düzeyinde okuma bu dökümden elle çıkarıldı — script
+eşanlamlıyı ölçemez.
+
+### Yapılan işaretleme
+
+- sentence-completion: 37 sorunun **13'üne** `blind_solvable: true`, `blind_basis`,
+  `status: "flagged"`, `flag_reason`; **24'üne** `blind_solvable: false`.
+- short-answer: 10 sorunun **2'sine** işaret, **8'ine** `blind_solvable: false`.
+- diagram-labelling: 10 soruya **dokunulmadı** (ölçülmedi).
+- Toplam 47 soru işlendi, **15 işaretlendi**. **Hiçbir soru silinmedi**; soru sayıları
+  37, 10 ve 10'da sabit.
+
+---
+
+## Sekiz çalıştırmanın toplamı
+
+| # | Paket | Soru | 3/3 bilinen | Oran |
+|---|---|---|---|---|
+| 1 | true-false-not-given | 57 | 30 | %53 |
+| 2 | yes-no-not-given | 23 | 23 | **%100** |
+| 2 | matching-headings | 45 | 8 | %18 |
+| 3 | multiple-choice | 30 | 30 | **%100** |
+| 4 | matching-features | 26 | 18 | %69 |
+| 4 | matching-sentence-endings | 10 | 10 | **%100** |
+| 5 | matching-information | 49 | 3 | **%6** |
+| 6 | note-completion | 33 | 9 | %27 |
+| 6 | table-completion | 12 | 4 | %33 |
+| 7 | summary-completion | 43 | 26 | %60 |
+| 7 | flow-chart-completion | 6 | 4 | %67 |
+| 8 | sentence-completion | 37 | 13 | %35 |
+| 8 | short-answer | 10 | 2 | %20 |
+| — | diagram-labelling | 10 | — | **ölçülmedi** |
+| **Toplam** | **13 tip** | **381** | **180** | **%47** |
+
+Genel oran **%47**, resmî örneklemin genel ortalamasının (%57) altında. Ölçülen 381
+sorunun 180'i `flagged`; hiçbiri silinmedi.
+
+En sızıntılı üç tip: yes-no-not-given, multiple-choice, matching-sentence-endings
+(üçü de %100). En sağlam üçü: matching-information (%6), matching-headings (%18),
+short-answer (%20).
+
+Sekiz çalıştırmada tekrar eden üç mekanizma:
+
+1. **Kip imzası** — doğru şık/ifade ölçülü, çeldirici mutlak (2., 3. çalıştırma).
+   Düzeltilebilir, prompt düzeyinde.
+2. **Kullanılmayan çeldirici hiçbir yere takılmıyor** — yanlış olduğu için değil,
+   sözdizimi tutmadığı için eleniyor (4., 7. çalıştırma).
+3. **Terim tanımı / eşdizim kilidi** — boşluk, alanın tek karşılığı olan kelimesinde
+   ya da kalıp öbeğin tahmin edilen ucunda (6., 7., 8. çalıştırma).
+
+Ve bir ölçüt sınırı: **tamamlama ailesinde puan, parçaya duyulan ihtiyacı ölçmüyor.**
+7. çalıştırmada %41 puanlanan paket anlam düzeyinde %93, 8. çalıştırmada %32 puanlanan
+paket %81 biliniyordu. Bu ailede sonraki ölçümün ölçütü "anlam yuvası tutturuldu mu"
+olmalı.
+
+---
+
+🔴 Son söz: **bu ölçüm bozuk soruyu bulur, zorluk seviyesini ölçmez.** "Bu soru gerçek
+sınav zorluğunda" demek ancak binlerce gerçek adayın verisiyle mümkündür. Yukarıdaki
+381 soruluk tablo bir kalite sıralaması değil, **gözden geçirilecek soruların
+listesidir.**

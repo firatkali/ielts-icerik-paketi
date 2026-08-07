@@ -32,7 +32,8 @@
       },
       "explanation": "B metninin A paragrafı, yalnızca deneme süresini tamamlamış çalışanların uzaktan çalışma başvurusu yapabileceğini söylüyor; bu yüzden cevap 'probationary period'.",
       "difficulty": "easy",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 26,
@@ -52,7 +53,8 @@
       },
       "explanation": "B metninin B paragrafı, onaylanmış ev ofisi ekipmanı için yılda 150 sterline kadar geri ödeme talep edilebileceğini söylüyor; bu yüzden cevap 'home-office equipment' (tireli sözcük tek kelime sayılır).",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 27,
@@ -72,7 +74,8 @@
       },
       "explanation": "B metninin D paragrafı, yurt dışından çalışma izninin dört haftadan uzun süreler için nadiren verildiğini söylüyor; bu yüzden cevap 'four weeks'.",
       "difficulty": "hard",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     }
   ]
 }

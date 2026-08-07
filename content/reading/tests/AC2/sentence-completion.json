@@ -31,7 +31,8 @@
       },
       "explanation": "Paragraf C, işin başarılı olması hâlinde buğdayın bugüne dek elde edilmiş en eski bitki DNA'ları arasına gireceğini söylüyor; bu yüzden cevap 'plant DNA'.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 20,
@@ -50,7 +51,8 @@
       },
       "explanation": "Paragraf D, modern DNA bulaşmasını önlemek için işin birbirinden fiziksel olarak ayrı iki laboratuvarda yapıldığını söylüyor; kelime sınırı iki olduğu için cevap 'separate laboratories'.",
       "difficulty": "easy",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 21,
@@ -68,7 +70,10 @@
       },
       "explanation": "Paragraf E, yalnızca altı kromozom takımlı (hexaploid) buğdayda bulunan genetik parçanın adını 'D genome' olarak veriyor; bu yüzden cevap 'D genome'.",
       "difficulty": "hard",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "general_knowledge",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     },
     {
       "number": 22,
@@ -87,7 +92,10 @@
       },
       "explanation": "Paragraf G, einkorn tarımının doğduğu yer olarak genellikle Türkiye'nin güneyindeki Karacadağ bölgesinin kabul edildiğini söylüyor; bu yüzden cevap 'Karacadağ'.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "general_knowledge",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     }
   ]
 }

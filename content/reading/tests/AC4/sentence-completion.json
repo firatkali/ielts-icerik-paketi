@@ -32,7 +32,8 @@
       },
       "explanation": "Paragraf C, ağaçlığın kabaca yüzde 80'inin ladin, yüzde 20'sinin ise huş olduğunu söylüyor; kalan beşte biri oluşturan tür sorulduğu için cevap 'silver birch'.",
       "difficulty": "easy",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 20,
@@ -50,7 +51,10 @@
       },
       "explanation": "Paragraf D, orman oturumlarındaki koşulları sıralarken nem oranını yüzde 94,25 olarak veriyor; yüzde 94,25 ile ölçülen büyüklük sorulduğu için cevap 'humidity'.",
       "difficulty": "easy",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "logic",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     },
     {
       "number": 21,
@@ -68,7 +72,10 @@
       },
       "explanation": "Paragraf E, ölçeklerin 15 dakikanın hemen öncesinde ve hemen sonrasında doldurulmasının nedenini, değişimin 'yalnızca zamanın geçmesine' değil ortama bağlanabilmesi olarak açıklıyor; bu yüzden cevap 'passage'.",
       "difficulty": "hard",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "logic",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     },
     {
       "number": 22,
@@ -86,7 +93,8 @@
       },
       "explanation": "Paragraf H, dinçliğin artmamasını karın, başka çalışmaların enerji ve uyanıklıkla ilişkilendirdiği yeşil bitki örtüsünü örtmesiyle açıklıyor; bu yüzden cevap 'vegetation'.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     }
   ]
 }

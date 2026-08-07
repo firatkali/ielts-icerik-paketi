@@ -35,7 +35,8 @@
       },
       "explanation": "Paragraf D, ertesi gün Kandula'nın küpü yerine yuvarlayıp üstüne çıktığını ve bu çözümü tek bir oturum içinde dokuz kez tekrarladığını söylüyor; bu yüzden cevap 'nine times'.",
       "difficulty": "easy",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 2,
@@ -55,7 +56,8 @@
       },
       "explanation": "Paragraf B, altmış ahtapotun iki yaz mevsimi boyunca Napoli Körfezi'nden toplandığını söylüyor; soru hayvanların nereden alındığını sorduğu için cevap 'Bay of Naples'.",
       "difficulty": "easy",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 3,
@@ -74,7 +76,8 @@
       },
       "explanation": "Paragraf C, laboratuvarda yürütülen deneylerin genellikle yalnızca haftalar ya da aylar sürdüğünü söylüyor; bu yüzden cevap 'weeks or months'.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 4,
@@ -96,7 +99,10 @@
       },
       "explanation": "Paragraf F, Voyager 2'nin Uranüs'ün yanından 24 Ocak 1986'da geçtiğini söylüyor; soru bu yakın geçişin tarihini sorduğu için cevap '24 January 1986'.",
       "difficulty": "easy",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "general_knowledge",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     },
     {
       "number": 5,
@@ -118,7 +124,8 @@
       },
       "explanation": "Paragraf C, ekibin yaklaşık 8.400 yıllık kömürleşmiş tanelerden DNA çıkarmaya çalıştığını söylüyor; bu yüzden cevap '8,400 years'.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 6,
@@ -138,7 +145,8 @@
       },
       "explanation": "Paragraf H, bulguların 'transactive memory system' (aktarımlı bellek sistemi) fikriyle yorumlandığını, yani ekiplerin kimin neyi bildiğine dair ortak bir sezgi geliştirdiğini söylüyor; bu yüzden cevap 'transactive memory system'.",
       "difficulty": "hard",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 7,
@@ -159,7 +167,8 @@
       },
       "explanation": "Paragraf B, hayvanların Şubat–Kasım 2001 arasında iki aşamaya bölünmüş 98 ayrı oturuma katıldığını söylüyor; bu yüzden cevap '98'.",
       "difficulty": "easy",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 8,
@@ -179,7 +188,10 @@
       },
       "explanation": "Paragraf D, Kanada'nın en yüksek zirvesi olarak Mount Logan'ı anıyor ve heyelan izlerinin bu dağın çevresinde görüldüğünü söylüyor; bu yüzden cevap 'Mount Logan'.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "general_knowledge",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     },
     {
       "number": 9,
@@ -200,7 +212,8 @@
       },
       "explanation": "Paragraf D, camsı maddenin ince iç yapısının taramalı elektron mikroskobuyla görüntülendiğini, kimyasal bileşiminin ise ayrı bir yöntemle ölçüldüğünü söylüyor; bu yüzden cevap 'scanning electron microscopy'.",
       "difficulty": "hard",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 10,
@@ -222,7 +235,8 @@
       },
       "explanation": "Paragraf D, uyku sersemliğinin test sonucunu bozmaması için bütün katılımcıların son hatırlama testinden önce 30 dakikalık bir bulmaca oyunu oynadığını söylüyor; bu yüzden cevap '30-minute puzzle game'.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     }
   ]
 }

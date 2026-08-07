@@ -1,0 +1,47 @@
+{
+  "answers": [
+    { "id": "practice-sentence-completion-1", "answer": ["swat flies"], "basis": "general_knowledge" },
+    { "id": "practice-sentence-completion-2", "answer": ["contact"], "basis": "logic" },
+    { "id": "practice-sentence-completion-3", "answer": ["anatomy"], "basis": "guess" },
+    { "id": "practice-sentence-completion-4", "answer": ["seawater"], "basis": "logic" },
+    { "id": "practice-sentence-completion-5", "answer": ["contact"], "basis": "guess" },
+    { "id": "practice-sentence-completion-6", "answer": ["individual"], "basis": "logic" },
+    { "id": "practice-sentence-completion-7", "answer": ["laboratory"], "basis": "logic" },
+    { "id": "practice-sentence-completion-8", "answer": ["preview"], "basis": "logic" },
+    { "id": "practice-sentence-completion-9", "answer": ["prediction"], "basis": "guess" },
+    { "id": "practice-sentence-completion-10", "answer": ["seventh"], "basis": "general_knowledge" },
+    { "id": "practice-sentence-completion-11", "answer": ["40 years"], "basis": "general_knowledge" },
+    { "id": "practice-sentence-completion-12", "answer": ["preliminary"], "basis": "logic" },
+    { "id": "practice-sentence-completion-13", "answer": ["1958"], "basis": "general_knowledge" },
+    { "id": "practice-sentence-completion-14", "answer": ["start"], "basis": "guess" },
+    { "id": "practice-sentence-completion-15", "answer": ["morphology"], "basis": "guess" },
+
+    { "id": "AC1-sentence-completion-19", "answer": ["transparent barrier"], "basis": "logic" },
+    { "id": "AC1-sentence-completion-20", "answer": ["hierarchy"], "basis": "logic" },
+    { "id": "AC1-sentence-completion-21", "answer": ["males"], "basis": "guess" },
+    { "id": "AC1-sentence-completion-22", "answer": ["dear enemy"], "basis": "general_knowledge" },
+
+    { "id": "AC2-sentence-completion-19", "answer": ["ancient DNA"], "basis": "logic" },
+    { "id": "AC2-sentence-completion-20", "answer": ["laboratories"], "basis": "logic" },
+    { "id": "AC2-sentence-completion-21", "answer": ["D genome"], "basis": "general_knowledge" },
+    { "id": "AC2-sentence-completion-22", "answer": ["Karacadag"], "basis": "general_knowledge" },
+
+    { "id": "AC3-sentence-completion-19", "answer": ["displacement"], "basis": "general_knowledge" },
+    { "id": "AC3-sentence-completion-20", "answer": ["bright"], "basis": "logic" },
+    { "id": "AC3-sentence-completion-21", "answer": ["surge"], "basis": "general_knowledge" },
+    { "id": "AC3-sentence-completion-22", "answer": ["climbers"], "basis": "logic" },
+
+    { "id": "AC4-sentence-completion-19", "answer": ["beech"], "basis": "guess" },
+    { "id": "AC4-sentence-completion-20", "answer": ["humidity"], "basis": "logic" },
+    { "id": "AC4-sentence-completion-21", "answer": ["passage"], "basis": "logic" },
+    { "id": "AC4-sentence-completion-22", "answer": ["vegetation"], "basis": "guess" },
+
+    { "id": "GT1-sentence-completion-25", "answer": ["managing director"], "basis": "guess" },
+    { "id": "GT1-sentence-completion-26", "answer": ["double time"], "basis": "general_knowledge" },
+    { "id": "GT1-sentence-completion-27", "answer": ["final pay"], "basis": "logic" },
+
+    { "id": "GT2-sentence-completion-25", "answer": ["probation period"], "basis": "general_knowledge" },
+    { "id": "GT2-sentence-completion-26", "answer": ["office equipment"], "basis": "guess" },
+    { "id": "GT2-sentence-completion-27", "answer": ["four weeks"], "basis": "guess" }
+  ]
+}

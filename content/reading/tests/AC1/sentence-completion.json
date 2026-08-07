@@ -31,7 +31,8 @@
       },
       "explanation": "Paragraf C, çiftlerin yarısının saydam bir bölmeyle ayrıldığını, böylece birbirlerini görüp dokunamadıklarını söylüyor; bu yüzden cevap 'transparent divider'.",
       "difficulty": "easy",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 20,
@@ -49,7 +50,8 @@
       },
       "explanation": "Paragraf D'de her çiftte güçlü olan hayvanın karşılaşmaların çoğunu kazandığı ve bir baskınlık düzeninin ortaya çıktığı yazıyor; bu yüzden cevap 'dominance hierarchy'.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 21,
@@ -68,7 +70,8 @@
       },
       "explanation": "Paragraf F, baskınlığın yer değiştirmesinin yalnızca iki yabancıdan oluşan çiftlerde görüldüğünü, tanıdık çiftlerde hiç görülmediğini söylüyor; bu yüzden cevap 'two strangers'.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 22,
@@ -86,7 +89,10 @@
       },
       "explanation": "Paragraf H, tanıdık bir komşuya daha az saldırganlıkla karşılık verme örüntüsünün başka türlerde 'dear enemy' etkisi diye adlandırıldığını belirtiyor; bu yüzden cevap 'dear enemy'.",
       "difficulty": "hard",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "general_knowledge",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     }
   ]
 }

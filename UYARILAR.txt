@@ -176,3 +176,49 @@
     var; 8. calistirmanin paketlerinde de yok.
   - Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR.md bolum 7
   - isaretli (flagged)     165
+
+07.08.2026 10:02
+  - isaretli (flagged)     165
+
+
+07.08.2026 (B1 8. calistirma: sentence-completion + short-answer;
+            diagram-labelling OLCULMEDI)
+  - sentence-completion 13/37 (%35), resmi taban 1/5 (%20) - uyari esigi
+    (25 puan) tetiklenmedi. short-answer 2/10 (%20), resmi tabanda yok.
+  - diagram-labelling (practice, 10 soru) prompt geregi ATLANDI: sorular
+    gorsele bagli, metin tabanli olcum orada kor. Bu 10 soruya hicbir alan
+    yazilmadi (blind_solvable false bile degil).
+  - ASIL BULGU (7. calistirmanin daha keskin hali): puanlanan %32, ANLAM
+    duzeyinde %81. sentence-completion'da kacan 24 sorunun 19'unda dogru
+    anlam bulundu, yalniz anahtarin kelimesi tutmadi (contact/sensory
+    contact, hierarchy/dominance hierarchy, climbers/mountaineers,
+    final pay/final salary, probation/probationary period). Gercek direnc
+    yalniz 9 soru (5 sc + 4 sa).
+    -> ONERI: tamamlama ailesinde olcut "3/3 dogru" degil "3/3 ANLAMCA
+       dogru" olmali; mevcut olcut sizintinin yarisini gormuyor.
+  - Kusur 1: alanin tek karsiligi olan terimi bosluga koymak. AC3 %75 ile
+    en zayif set, ucu de stok terim: displacement (InSAR), bright (radar),
+    surge (buzul). Ayni kalip: dear enemy, D genome, Karacadag, seventh.
+    13 isaretin 9'unu tek basina acikliyor.
+  - Kusur 2: esdizim kilidi (6. ve 7. calistirmanin tekrari) - preview,
+    humidity, passage, double time; dordu de logic ile, konu bilgisi yok.
+  - Kusur 3 (short-answer): ansiklopedik tekil olgu sormak. Isaretlenen iki
+    sorunun ikisi de bu: 24 January 1986 (Voyager 2), Mount Logan.
+  - GT setleri 1/6 - 5. calistirmanin bulgusunun ucuncu dogrulamasi: GT
+    malzemesi bozuk soru uretmiyor, sorulan sey "kural" olmadigi surece.
+  - Isaretli sorularda guess = 0 (45 cevabin hicbiri tahmin degil),
+    general_knowledge %69 (sc) ve %100 (sa). Kusur celdirici yazimi degil
+    KONU/TERIM SECIMI. option_wording yapisal olarak 0 (sik yok).
+  - Zorluk etiketi: hard %44 > medium %22. Iliski yok, hatta ters. 7.
+    calistirmada da ayni cikti; artik tek seferlik gurultu sayilamaz.
+  - IYI HABER: 7. calistirmadaki anahtar kusuru bu pakette YOK.
+    forty years->40 years, Karacadag(g'siz), 8,400 years->8400 years,
+    98->ninety-eight varyantlari accepted_variants'ta acilmis. 19 iskanin
+    hicbiri anahtar kusuru degil.
+  - TOPLAM (8 calistirma): 381 soru olculdu, 180 isaretlendi (%47). Genel
+    resmi ortalamanin (%57) altinda. En sizintili: yes-no-not-given,
+    multiple-choice, matching-sentence-endings (ucu de %100). En saglam:
+    matching-information (%6), matching-headings (%18), short-answer (%20).
+  - Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR.md bolum 8 + "Sekiz
+    calistirmanin toplami"
+  - isaretli (flagged)     180
