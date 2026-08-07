@@ -54,7 +54,10 @@
       "grammar_check": null,
       "explanation": "Paragraf B, incelenen kömürleşmiş buğday tanelerinin bu yerleşimden çıktığını ve benzer yaştaki başka yerlerin bitki kalıntılarına göre alışılmadık ölçüde iyi korunduğunu söylüyor.",
       "difficulty": "easy",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "logic",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     },
     {
       "number": 24,
@@ -71,7 +74,10 @@
       "grammar_check": null,
       "explanation": "Paragraf G, basit buğdayın ehlileştirilmesinin genellikle yaklaşık on iki bin yıl önce Bereketli Hilal'e dayandırıldığını söylüyor.",
       "difficulty": "hard",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "option_wording",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     },
     {
       "number": 25,
@@ -88,7 +94,10 @@
       "grammar_check": null,
       "explanation": "Paragraf G, güney Türkiye'deki Karacadağ bölgesinin özellikle einkorn ekiminin doğduğu yer sayıldığını söylüyor.",
       "difficulty": "hard",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "general_knowledge",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     },
     {
       "number": 26,
@@ -105,7 +114,10 @@
       "grammar_check": null,
       "explanation": "Paragraf A, yerleşimin üzerinde durduğu yolların sonradan tarım uygulamalarını Avrupa'ya taşıyacağını söylüyor; paragraf G de yerleşimi bu yayılmada bir durak sayıyor.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "general_knowledge",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     }
   ]
 }

@@ -56,7 +56,10 @@
           "grammar_check": null,
           "explanation": "Paragraf F, güvenli sınırın aşılmasının sade açık ofiste, öteki düzenlerin herhangi birine göre yüzde 20-30 daha sık görüldüğünü söylüyor.",
           "difficulty": "medium",
-          "status": "verified"
+          "status": "flagged",
+          "blind_solvable": true,
+          "blind_basis": "general_knowledge",
+          "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
         },
         {
           "number": 2,
@@ -74,7 +77,8 @@
           "grammar_check": null,
           "explanation": "Paragraf D, algılanan üretkenlikteki en büyük artışın (yüzde 17) bölgelere ayrılmış açık ofiste görüldüğünü belirtiyor.",
           "difficulty": "medium",
-          "status": "verified"
+          "status": "verified",
+          "blind_solvable": false
         },
         {
           "number": 3,
@@ -92,7 +96,8 @@
           "grammar_check": null,
           "explanation": "Paragraf D'ye göre takım ofisi memnuniyeti yüzde 8 artırıyor; bu, bölgelere ayrılmış açık ofisin yüzde 12'lik artışının altında kalıyor.",
           "difficulty": "hard",
-          "status": "verified"
+          "status": "verified",
+          "blind_solvable": false
         },
         {
           "number": 4,
@@ -110,7 +115,8 @@
           "grammar_check": null,
           "explanation": "Paragraf E, işe kapılma puanlarının en yüksek olduğu düzenin yüzde 15 ile bölgelere ayrılmış açık ofis olduğunu gösteriyor.",
           "difficulty": "hard",
-          "status": "verified"
+          "status": "verified",
+          "blind_solvable": false
         },
         {
           "number": 5,
@@ -128,7 +134,10 @@
           "grammar_check": null,
           "explanation": "Paragraf H, çalışanların başka bir düzeni denedikten sonra en az geri dönmek istedikleri düzenin sade açık ofis olduğunu belirtiyor.",
           "difficulty": "medium",
-          "status": "verified"
+          "status": "flagged",
+          "blind_solvable": true,
+          "blind_basis": "general_knowledge",
+          "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
         }
       ]
     },
@@ -181,7 +190,8 @@
           "grammar_check": null,
           "explanation": "Paragraf E, yenebilir atığın en büyük tek payının kişi başına yılda yaklaşık 17 kilo ile pirinç ve öteki tahıllara ait olduğunu, sebzelerin hemen arkadan geldiğini söylüyor.",
           "difficulty": "medium",
-          "status": "verified"
+          "status": "verified",
+          "blind_solvable": false
         },
         {
           "number": 7,
@@ -199,7 +209,8 @@
           "grammar_check": null,
           "explanation": "Paragraf G, dokudaki değişikliğin et, balık ve yumurta gibi ürünlerdeki atığın büyük bölümünü açıkladığını belirtiyor.",
           "difficulty": "medium",
-          "status": "verified"
+          "status": "verified",
+          "blind_solvable": false
         },
         {
           "number": 8,
@@ -217,7 +228,8 @@
           "grammar_check": null,
           "explanation": "Paragraf G'nin son bölümü, kısa raf ömrünün özellikle ekmek için gösterilen neden olduğunu söylüyor.",
           "difficulty": "medium",
-          "status": "verified"
+          "status": "verified",
+          "blind_solvable": false
         },
         {
           "number": 9,
@@ -235,7 +247,10 @@
           "grammar_check": null,
           "explanation": "Paragraf B, dökülen içeceklerin tartılmadığını, katılımcıların tuttuğu yedi günlük bir günlükle kaydedildiğini belirtiyor.",
           "difficulty": "medium",
-          "status": "verified"
+          "status": "flagged",
+          "blind_solvable": true,
+          "blind_basis": "logic",
+          "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
         },
         {
           "number": 10,
@@ -253,7 +268,10 @@
           "grammar_check": null,
           "explanation": "Paragraf F, kahve ve çayın çoğunlukla demlenen ya da doldurulan miktarın içilebilecekten fazla olması yüzünden döküldüğünü söylüyor.",
           "difficulty": "hard",
-          "status": "verified"
+          "status": "flagged",
+          "blind_solvable": true,
+          "blind_basis": "option_wording",
+          "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
         }
       ]
     }

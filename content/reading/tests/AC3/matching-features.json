@@ -54,7 +54,10 @@
       "grammar_check": null,
       "explanation": "Paragraf A, sarsıntının saniyeler içinde bu büyük buz kütlesinin üzerindeki yamaçlardan kaya ve buz kopardığını söylüyor.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "logic",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     },
     {
       "number": 24,
@@ -71,7 +74,10 @@
       "grammar_check": null,
       "explanation": "Paragraf D, tek bir olay olarak en göze çarpanının bu dağın yamacından aşağı boşalan geniş enkaz akışı olduğunu söylüyor.",
       "difficulty": "hard",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "logic",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     },
     {
       "number": 25,
@@ -88,7 +94,10 @@
       "grammar_check": null,
       "explanation": "Paragraf D, en büyük tek akışın başka bir zirveye ait olduğunu, bu dağın çevresinde ise başkaca heyelan izlerinin görüldüğünü söylüyor.",
       "difficulty": "hard",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "logic",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     },
     {
       "number": 26,
@@ -105,7 +114,10 @@
       "grammar_check": null,
       "explanation": "Paragraf A, deprem merkezinin kıyıdaki bu kasabanın yaklaşık 90 kilometre kuzeyinde, çok seyrek nüfuslu ıssız bir arazide bulunduğunu söylüyor.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "option_wording",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     }
   ]
 }

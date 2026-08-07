@@ -72,7 +72,10 @@
           "grammar_check": "Başlangıç 'because' ile bitiyor; sekiz sonun hepsi özne ve çekimli geçmiş zaman fiili taşıyan tam bir yan cümle olduğu için hepsi bu başlangıca dilbilgisi olarak oturuyor: 'because the whales might...', 'because the animals had...', 'because the same ability had arisen...'. Tekil/çoğul, artikel ya da edat uyumundan doğan bir ipucu yok, çünkü hiçbir son yarım isim öbeği ya da mastar değil. Anlamca en yakın çeldirici G: aynı paragraftan geliyor ve iki nesnenin önünde geçen süreleri karşılaştırıyor, ama o süre bir sonuç, panelin kullanılma nedeni değil.",
           "explanation": "Paragraf B, aynı boyuttaki saydam panelin kontrol olarak kullanıldığını, böylece yeni bir nesneye duyulan merakın aynadaki yansımaya verilen tepkiden ayrılabildiğini söylüyor.",
           "difficulty": "medium",
-          "status": "verified"
+          "status": "flagged",
+          "blind_solvable": true,
+          "blind_basis": "logic",
+          "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
         },
         {
           "number": 2,
@@ -90,7 +93,10 @@
           "grammar_check": "Yine 'because' artı tam yan cümle yapısı var; sekiz sonun hepsi özneyle başlayıp çekimli fiil taşıdığı için hiçbiri dilbilgisi yüzünden elenmiyor. E'deki çoğul 'they' başlangıçtaki 'the behaviours' ile uyuşuyor, ama aynı çoğul özne 1., 3. ve 5. başlangıçlar için de kurulabilir; üstelik F ve G de çoğul özneli, yani 'they' üzerinden bir eleme yolu açılmıyor.",
           "explanation": "Paragraf C, bu hareketlerin araştırmacılarca toplumsal değil kendine yönelik sayıldığını belirtiyor; yani hayvan başka bir balinaya değil kendi bedenine yöneliyor.",
           "difficulty": "medium",
-          "status": "verified"
+          "status": "flagged",
+          "blind_solvable": true,
+          "blind_basis": "option_wording",
+          "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
         },
         {
           "number": 3,
@@ -108,7 +114,10 @@
           "grammar_check": "'because' sonrasında bütün sonlar tam cümle olarak işliyor; hiçbir son işaretin konumuna özel bir edat ya da tekil/çoğul uyumu istemiyor. B'deki 'that patch of skin' işaret sıfatı başlangıçtaki bölgeye gönderme yapıyor, ama aynı gönderme 1. ve 4. başlangıçlarda da dilbilgisi açısından kurulabildiği için biçimsel bir ipucu vermiyor.",
           "explanation": "Paragraf D, işaretin hayvanın ayna olmadan göremeyeceği bir yere konulduğunu söylüyor; göz ya da kulak arkası bu yüzden seçilmiş.",
           "difficulty": "easy",
-          "status": "verified"
+          "status": "flagged",
+          "blind_solvable": true,
+          "blind_basis": "logic",
+          "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
         },
         {
           "number": 4,
@@ -126,7 +135,10 @@
           "grammar_check": "Başlangıç 'which suggested that' ile bitiyor; bu bağlaç da tıpkı 'because' gibi tam bir yan cümle istiyor ve sekiz sonun hepsi bu yapıyı karşılıyor. Sonların hepsi geçmiş zamanda olduğu için zaman uyumsuzluğundan doğan bir eleme de yok. C'nin öznesi tekil 'the whale', ama D, F, G ve H'nin çoğul özneleri de aynı bağlacı sorunsuz izliyor; sayı uyumu ipucu değil. Dilbilgisi olarak kusursuz oturan ama anlamca yanlış olan H, buradaki en yakın çeldirici.",
           "explanation": "Paragraf E, gerçek işaretle sahte işaret arasındaki süre farkını, hayvanın aynadan hoşlanması değil işareti incelemesi olarak yorumluyor.",
           "difficulty": "hard",
-          "status": "verified"
+          "status": "flagged",
+          "blind_solvable": true,
+          "blind_basis": "logic",
+          "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
         },
         {
           "number": 5,
@@ -144,7 +156,10 @@
           "grammar_check": "'because' artı tam cümle; bütün sonlar bu kalıbı karşılıyor ve hiçbiri Maris'in tekil öznesine bağlanmak zorunda değil, çünkü sonların hepsinin kendi öznesi var. F burada en cazip çeldirici: aynı paragraftan geliyor ve Maris'ten söz eden bir cümleye dilbilgisi olarak tam oturuyor, ama göz tercihi bir gerekçe değil ayrı bir gözlem.",
           "explanation": "Paragraf F, testi geçebilen türlerde bile bireylerin tepkilerinin çok değiştiğini hatırlatıyor; bu yüzden Maris'in kendi işaretine bakmaması başarısızlık sayılmıyor.",
           "difficulty": "medium",
-          "status": "verified"
+          "status": "flagged",
+          "blind_solvable": true,
+          "blind_basis": "logic",
+          "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
         }
       ]
     },
@@ -209,7 +224,10 @@
           "grammar_check": "Başlangıç 'because' ile bitiyor; sekiz sonun hepsi özne ve çekimli fiil taşıyan tam bir cümle olduğu için hepsi buraya dilbilgisi olarak oturuyor. B'nin öznesi çoğul 'they' ve başlangıçtaki 'some of the people' ile uyuşuyor, ama D, F ve G de çoğul özneli; A, C ve E'nin tekil 'it' öznesi de yan cümle olarak sorunsuz işliyor, yani sayı uyumundan cevap çıkarılamıyor.",
           "explanation": "Paragraf B, gelir bilgisi eksik olan katılımcılar çıkarıldıktan sonra çözümlemenin 42.926 kişiyi kapsadığını söylüyor.",
           "difficulty": "easy",
-          "status": "verified"
+          "status": "flagged",
+          "blind_solvable": true,
+          "blind_basis": "option_wording",
+          "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
         },
         {
           "number": 7,
@@ -227,7 +245,10 @@
           "grammar_check": "'once the authors point out that' de tıpkı 'because' gibi tam bir yan cümle istiyor ve sekiz sonun hepsi bu yapıda; sonların geçmiş zamanda olması da sorun değil, çünkü aktarılan bulgu geçmişe bakıyor. C'nin 'it' öznesi başlangıçtaki farka gönderme yapıyor, ama aynı 'it' A ve E'de de var; biçimsel eleme yolu açılmıyor. G burada en yakın çeldirici: dilbilgisi olarak kusursuz oturuyor, ancak büyüklükten değil tutarlılıktan söz ediyor.",
           "explanation": "Paragraf C, farkın büyüklüğünü yaşça beş yıl ayrı iki kişi arasındaki farkla aynı ölçekte gösteriyor.",
           "difficulty": "medium",
-          "status": "verified"
+          "status": "flagged",
+          "blind_solvable": true,
+          "blind_basis": "logic",
+          "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
         },
         {
           "number": 8,
@@ -245,7 +266,10 @@
           "grammar_check": "'whereas' da tam bir cümle istiyor, dolayısıyla aynı sekiz son burada da eksiksiz işliyor; hiçbir son yarım bir öbek olmadığı için karşıtlık bağlacı hiçbirini dışarıda bırakmıyor. D'nin öznesi 'more than four in every ten', F'ninki 'volunteers', G'ninki 'the same pattern' — üçü de bu bağlacı doğal biçimde izliyor, yani karşıtlık yapısından cevap çıkarılamıyor. F en yakın çeldirici: aynı paragraftan bir karşılaştırma, ama ülke değil dindarlık ekseninde.",
           "explanation": "Paragraf D, düzenli gönüllülüğün Almanya, Hollanda ve Norveç'te on kişide dörtten fazla, adı geçen üç ülkede ise onda birden az olduğunu belirtiyor.",
           "difficulty": "medium",
-          "status": "verified"
+          "status": "flagged",
+          "blind_solvable": true,
+          "blind_basis": "option_wording",
+          "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
         },
         {
           "number": 9,
@@ -263,7 +287,10 @@
           "grammar_check": "'because' artı tam cümle kalıbı; sekiz sonun hepsi özne ve çekimli fiil taşıdığı için hiçbiri elenmiyor. A'daki 'it' başlangıçtaki 'giving time freely' ulacına gönderme yapıyor, ama aynı 'it' C ve E'de de var ve onlar da bu başlangıca dilbilgisi olarak oturuyor; H'nin 'a trial would...' kalıbı da 'because' sonrasında kusursuz. Seçim yalnızca anlamla yapılabiliyor.",
           "explanation": "Paragraf E, gönüllülüğün beceri kazandırdığını ve işverenlere güvenilirliği gösterdiğini, bunun da hane gelirini yükseltebileceğini söylüyor.",
           "difficulty": "medium",
-          "status": "verified"
+          "status": "flagged",
+          "blind_solvable": true,
+          "blind_basis": "logic",
+          "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
         },
         {
           "number": 10,
@@ -281,7 +308,10 @@
           "grammar_check": "Son soruda da bağlaç 'because' ve sekiz sonun hepsi tam cümle olarak arkasına geliyor; sonların uzunlukları da birbirine yakın (11-15 kelime), yani uzunluktan bir ipucu çıkmıyor. E'nin 'it' öznesi ile A ve C'nin 'it' öznesi aynı biçimde, H ise 'a trial' ile başlıyor ama o da dilbilgisi olarak sorunsuz oturuyor; seçim tamamen anlamla yapılıyor.",
           "explanation": "Paragraf H, gönüllülüğün çoğu zaman bedensel hareket gerektirdiğini — bir etkinlikte ayakta durmaktan dağıtım yolunu yürümeye kadar — olası açıklamalar arasında sayıyor.",
           "difficulty": "medium",
-          "status": "verified"
+          "status": "flagged",
+          "blind_solvable": true,
+          "blind_basis": "logic",
+          "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
         }
       ]
     }

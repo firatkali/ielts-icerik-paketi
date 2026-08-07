@@ -55,9 +55,12 @@
     tasinmiyordu, baslik eslestirme secenegisiz olculecekti. 4. calistirmayi
     (matching-features, matching-sentence-endings) da ilgilendirir.
   - isaretli (flagged)     61
-
-07.08.2026 09:16
-  - isaretli (flagged)     61
+
+
+07.08.2026 09:16
+
+  - isaretli (flagged)     61
+
 
 07.08.2026 (B1 3. calistirma: multiple-choice)
   - multiple-choice 30/30 (%100) parcasiz bilindi. Uc turda da ayni cevap,
@@ -72,3 +75,26 @@
   - multiple-choice-multi okuma tarafinda YOK (yalniz dinleme), olculmedi.
   - Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR.md bolum 3
   - isaretli (flagged)     91
+
+
+07.08.2026 09:23
+
+  - isaretli (flagged)     91
+
+07.08.2026 (B1 4. calistirma: matching-features + matching-sentence-endings)
+  - matching-features 18/26 (%69), resmi taban 3/4 (%75) -> tabanin altinda.
+    Ama paket icinde ucurum var: practice %40, sinav setleri (AC1-AC4) %88.
+    Ayni tip, ayni depo, iki kati fark -> daha iyisi mumkun, ornegi elimizde.
+  - Ana kusur: ifade seceneğin TANIMINI tekrarliyor (AC1-25/26, AC2-24,
+    AC3-23/26). Secenek listesi tur bakimindan karisik oldugu icin ifadedeki
+    tek sozcuk ("wide area", "settlement", "over it") cevabi veriyor.
+  - AC2 4/4: Karacadag-einkorn ve tarimin Avrupa'ya yayilmasi ders kitabi
+    bilgisi. AC4'te POMS/PANAS tanimlari yayimlanmis olcek bilgisi.
+  - Direnen 8 sorunun 8'i de SONUC sorusu. Ayrica practice'te bir harf iki
+    kez dogru, bir harf hic dogru degil; bu eleme stratejisini kirdi.
+  - matching-sentence-endings 10/10 (%100), resmi taban da 3/3 (%100).
+    general_knowledge SIFIR; tamamen logic+option_wording. Celdiriciler
+    (F,G,H) hicbir koke takilmadigi icin dilbilgisiyle eleniyor.
+  - matching-sentence-endings sinav setlerinde YOK, yalniz practice (10 soru).
+  - Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR.md bolum 4
+  - isaretli (flagged)     119

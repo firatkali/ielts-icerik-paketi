@@ -54,7 +54,10 @@
       "grammar_check": null,
       "explanation": "Paragraf F, eski eşiyle yeniden buluşan ahtapotların ilk temasa gözle görülür biçimde daha geç geçtiğini ve dokunmadan mesafeli durmaya daha yatkın olduğunu söylüyor.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "logic",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     },
     {
       "number": 24,
@@ -71,7 +74,8 @@
       "grammar_check": null,
       "explanation": "Paragraf F, daha önce geri çekilen hayvanın güçlü konuma geçmesinin yalnızca iki yabancıdan oluşan çiftlerde, on iki eşleşmenin sekizinde görüldüğünü belirtiyor.",
       "difficulty": "hard",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 25,
@@ -88,7 +92,10 @@
       "grammar_check": null,
       "explanation": "Paragraf C, çiftlerin ikinci yarısının ışık geçirmeyen bir bölmeyle ayrıldığını ve hiçbir türden temaslarının olmadığını söylüyor.",
       "difficulty": "easy",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "option_wording",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     },
     {
       "number": 26,
@@ -105,7 +112,10 @@
       "grammar_check": null,
       "explanation": "Paragraf H, yalnızca görmenin ilk aşamada daha zayıf farklar ürettiğini, tanımanın arkasında büyük olasılıkla görme ile fiziksel temasın birlikte durduğunu söylüyor.",
       "difficulty": "hard",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "option_wording",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     }
   ]
 }

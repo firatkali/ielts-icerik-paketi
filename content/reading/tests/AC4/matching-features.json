@@ -50,7 +50,8 @@
       "grammar_check": null,
       "explanation": "Paragraf F, bütün çalışmanın en açık etkisinin, orman sonrasında keskin biçimde yükselen dinlendiricilik ölçeğinde görüldüğünü söylüyor.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 24,
@@ -67,7 +68,10 @@
       "grammar_check": null,
       "explanation": "Paragraf F, bu ölçeğin kaydettiği altı olumsuz duygu durumundan beşinin orman deneyiminden sonra anlamlı biçimde azaldığını söylüyor.",
       "difficulty": "hard",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "general_knowledge",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     },
     {
       "number": 25,
@@ -84,7 +88,10 @@
       "grammar_check": null,
       "explanation": "Paragraf G, bina koşulundan sonra dinlendiricilik puanlarının, öncesindeki düzeye kıyasla kabaca yarıya düştüğünü söylüyor.",
       "difficulty": "hard",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "logic",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     },
     {
       "number": 26,
@@ -101,7 +108,10 @@
       "grammar_check": null,
       "explanation": "Paragraf E, bu ölçeğin 20 maddelik daha kısa bir araç olduğunu ve hem olumlu hem olumsuz duygu durumlarını kaydettiğini söylüyor.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "general_knowledge",
+      "flag_reason": "Parça gösterilmeden 3/3 turda doğru bilindi; genel kültürle çözülebiliyor."
     }
   ]
 }

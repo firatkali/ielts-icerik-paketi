@@ -406,3 +406,195 @@ okunuşu: **bu paketteki asıl mekanizma seçenek yazımıdır.**
 
 🔴 Son söz: **bu ölçüm bozuk soruyu bulur, zorluk seviyesini ölçmez.** "Bu soru gerçek
 sınav zorluğunda" demek ancak binlerce gerçek adayın verisiyle mümkündür.
+
+---
+
+## 4 — matching-features + matching-sentence-endings (2026-08-07)
+
+### Özet
+
+| Paket | Soru | 3/3 bilinen | Oran | Resmî taban | Sapma |
+|---|---|---|---|---|---|
+| matching-features | 26 | 18 | %69 | 3/4 (%75) | tabanın **altında** |
+| matching-sentence-endings | 10 | 10 | **%100** | 3/3 (%100) | tabana **eşit** |
+| **Toplam** | **36** | **28** | **%78** | — | — |
+
+Bu çalıştırmada script hiçbir tipe 🔴 (tabandan belirgin sapma) koymadı: her iki tip
+de resmî tabanın altında ya da tam üzerinde. Ama bu iki tipin resmî tabanı zaten çok
+yüksek (%75 ve %100) — yani bunlar **doğaları gereği** parçasız bilinebilen tiplerdir.
+Aşağıdaki bulgular "kural ihlali" değil, "tabanın niye bu kadar yüksek olduğunun"
+bizim havuzumuzdaki karşılığıdır.
+
+Turlar kararlı: matching-features'ta 26 sorunun 24'ünde (%92), sentence-endings'te
+10/10'unda üç turda da aynı harf verildi. Sonuç şansa dayanmıyor.
+
+---
+
+### 4.1 — matching-features: 18/26 (%69)
+
+#### Set bazında dağılım — asıl bulgu burada
+
+| Set | Soru | 3/3 bilinen | Oran |
+|---|---|---|---|
+| practice | 10 | 4 | %40 |
+| AC1 | 4 | 3 | %75 |
+| AC2 | 4 | **4** | **%100** |
+| AC3 | 4 | **4** | **%100** |
+| AC4 | 4 | 3 | %75 |
+| **sınav setleri (AC1-AC4)** | **16** | **14** | **%88** |
+
+🔴 Uçurum paketin içinde: **practice %40, sınav setleri %88.** Aynı soru tipi, aynı
+depo, iki katı fark. Yani bu tipin "doğası gereği bilinebilir" olması bir bahane
+değil — kendi practice dosyamız aynı tipte %40 tutturuyor, demek ki daha iyisi
+mümkün ve elimizde zaten örneği var.
+
+#### Kusur 1 — ifade, seçeneğin **tanımını** yeniden söylüyor
+
+Sınav setlerinde parçasız bilinen soruların çoğunda ifade bir **bulgu** değil,
+seçeneğin kendi tanımının başka sözcüklerle yazılışı:
+
+| Soru | İfade | Seçenek | Neden parçasız çıkıyor |
+|---|---|---|---|
+| AC1-25 | "no way at all of sensing the other animal" | B: *solid screen* | Opak bölme = hiçbir şey algılanamaz. Tanım. |
+| AC1-26 | "being able to see… was on its own not enough" | A: *see-through screen* | "See" sözcüğü tek adayı gösteriyor. |
+| AC2-24 | "this **wide area**" | C: *the Fertile Crescent* | Listede tek "geniş alan" o. |
+| AC3-26 | "this **settlement on the shore**" | A: *Yakutat* | Listede tek yerleşim o. |
+| AC3-23 | "the slopes standing **over it**" | D: *Hubbard Glacier* | Yamacın altında kalan tek şey buzul. |
+
+Ortak mekanizma: **seçenek listesi tür bakımından karışık** (bir yerleşim, iki dağ,
+bir buzul, bir sıradağ / şeffaf bölme, opak bölme, buluşma günleri, iki 7. gün
+grubu). İfadedeki tek bir sözcük ("area", "settlement", "over it", "see") seçeneğin
+**türünü** seçiyor, içeriğini değil. Aday parçayı okumadan eleyebiliyor.
+
+#### Kusur 2 — genel kültürle bilinen özel adlar
+
+AC2'nin 4 sorusunun 4'ü bilindi. Karacadağ–einkorn bağı (25) ve tarımın Avrupa'ya
+yayılması (26) ders kitabı bilgisi; `general_knowledge` etiketiyle geldi. AC4'te
+POMS'un olumsuz duygu durumlarını, PANAS'ın hem olumlu hem olumsuzu ölçtüğü ve
+POMS'tan kısa olduğu (24, 26) yayımlanmış ölçek tanımıdır — parçaya gerek yok.
+
+Seçenekler gerçek ve tanınmış adlarsa (yer, ölçek, kişi), soru parçanın ne dediğini
+değil adayın o adı tanıyıp tanımadığını ölçer.
+
+#### Direnen 8 soru ne yapıyor — kopyalanacak olan bu
+
+practice'te kaçırdığım 6 soru (2, 3, 4, 6, 7, 8) hep **sonuç sorularıydı**: hangi
+düzen en çok algılanan verimlilik artışı getirdi, hangi grup ağırlıkça en çok atıldı.
+Bunlar ancak parçadaki sayıyla bilinir. Üstelik iki practice setinde de bir seçenek
+**iki kez** doğru, bir seçenek **hiç** doğru değil (set 1: A×2, B×2, C hiç; set 2:
+E×2, B hiç). Üç turda da "her harf bir kez" varsayıp eledim ve altısını birden
+kaçırdım. Sınav setlerinde (AC1-AC3) ise her harf tam bir kez doğru — eleme çalışıyor.
+
+Direnen diğer iki soru aynı kalıpta: AC1-24 (önce geri çekilen hayvanın sonradan
+üstün gelmesi) ve AC4-23 (deneyin en çarpıcı sonucu) — ikisi de bulgu sorusu.
+
+#### Dürüst bir kayıt
+
+AC3-24 ve AC3-25, iki dağ arasında (King George / Logan) %50'lik bir elemeyle geldi;
+3. turda `guess` yazıldı ve yine tuttu. Script kuralı gereği ikisi de işaretlendi,
+ama bu iki işaret diğerlerinden **daha zayıf** kanıta dayanıyor. Raporun bu satırı
+sonradan bakan için burada duruyor.
+
+---
+
+### 4.2 — matching-sentence-endings: 10/10 (%100)
+
+Tek dosya (practice), 10 soru, hepsi üç turun üçünde de bilindi. Resmî taban da 3/3
+(%100) olduğu için script sapma işareti koymadı — ama ölçüm yine de bir şey söylüyor:
+**`general_knowledge` bir kez bile kullanılmadı.** Dayanak dağılımı `logic` 21,
+`option_wording` 9. Yani sorular konuyu bilmekle değil, **cümlenin kendi dilbilgisi
+ve anlam örgüsüyle** çözüldü.
+
+Mekanizma: her kökün içinde, yalnız tek bir sonu seçen bir **anahtar sözcük** var.
+
+| Kök | Anahtar | Son |
+|---|---|---|
+| "counted as **self**-directed because" | self | E: *aimed at the whale's **own body*** |
+| "mark applied just behind an **eye or an ear** because" | görülemeyen bölge | B: *no way of seeing that patch **unaided*** |
+| "a **clear panel** was lowered **instead of** the mirror because" | kontrol koşulu | A: *reacting simply to an **unfamiliar object*** |
+| "rare in Bulgaria… **whereas**" | karşıtlık + ülke | D: *Germany and Norway* |
+| "had to be **left out** of the analysis because" | eksik veri | B: *had not supplied full details* |
+
+Kullanılmayan çeldiriciler (F, G, H) her iki sette de gerçek birer parça bilgisi gibi
+yazılmış — ama **hiçbir kökün** anlamına ya da dilbilgisine oturmuyorlar. Çeldirici,
+yanlış olduğu için değil, **hiçbir yere takılamadığı** için eleniyor. Gerçek sınavda
+çeldirici en az iki köke makul biçimde takılır; ayrım parçadadır.
+
+Bu tipte resmî taban da %100 olduğu için "bozuk" demek fazla iddialı olur; doğru
+ifade şu: **bu tipin bilinen zaafı bizim setimizde de aynen mevcut** ve
+`option_wording` payının %30 olması bunun **düzeltilebilir** kısmını gösteriyor.
+
+---
+
+### `basis` dağılımı
+
+matching-features (78 cevap):
+
+| Dayanak | Sayı | Oran |
+|---|---|---|
+| general_knowledge | 30 | %38 |
+| logic | 30 | %38 |
+| option_wording | 14 | %18 |
+| guess | 4 | %5 |
+
+matching-sentence-endings (30 cevap):
+
+| Dayanak | Sayı | Oran |
+|---|---|---|
+| logic | 21 | %70 |
+| option_wording | 9 | %30 |
+| general_knowledge | 0 | %0 |
+| guess | 0 | %0 |
+
+İki tip birbirinin tersi: matching-features'ta ağırlık **konu bilgisinde** (özel adlar,
+tanınmış ölçekler), sentence-endings'te tamamen **yazımda**. İkincisi prompt düzeyinde
+kapatılabilir bir kusurdur, birincisi konu/seçenek seçimini gerektirir.
+
+`guess` oranı %5 — 3. çalıştırmanın %0'ından sonra ilk kez sıfırın üstünde. Küçük ama
+gerçek bir işaret: bu pakette gerçekten bilinemeyen sorular var.
+
+---
+
+### Düzeltme yönü (bu rapor uygulamıyor, işaret ediyor)
+
+1. **Seçenek listesini tür bakımından türdeş yap.** Hepsi yerleşim, ya da hepsi dağ
+   olsun; "bir kasaba + iki dağ + bir buzul + bir sıradağ" karışımı, ifadedeki tek
+   sözcüğün cevabı vermesine yol açıyor (AC2, AC3).
+2. **İfade, seçeneğin tanımını tekrarlamasın.** "Hiçbir şey algılayamayan grup" = opak
+   bölme, tanımdır. Bunun yerine o grubun parçada yazan **sonucunu** sor (AC1-25,
+   AC1-26).
+3. **Sonuç sorusu yaz, tanım sorusu değil.** Direnen 8 sorunun 8'i de sonuç sorusuydu;
+   kalıp elimizde, sınav setlerine taşınması yeterli.
+4. **Tekrarı ve kullanılmayan seçeneği sınav setlerine de taşı.** practice'te bir
+   harfin iki kez doğru olması eleme stratejisini kırdı ve altı soruyu birden korudu;
+   AC1-AC3'te her harf tam bir kez doğru ve eleme çalışıyor. `NB You may use any letter
+   more than once` notu AC4'te zaten var, diğerlerine de eklenebilir.
+5. **Tanınmış özel adları soru eksenine koyma.** Karacadağ–einkorn, POMS/PANAS
+   tanımları gibi ders kitabı bilgileri cevabı parçasız veriyor; soru o adın parçadaki
+   **özel ayrıntısına** bağlansın.
+6. **Sentence-endings'te çeldirici en az iki köke takılabilsin.** Şu anda F, G, H
+   hiçbir köke oturmadığı için dilbilgisiyle eleniyor; ayrım parçaya taşınmalı.
+7. **Kökteki anahtar sözcüğü sonda tekrarlama.** "self-directed → own body",
+   "eye or ear → seeing that patch unaided" eşleşmeleri sözcük düzeyinde; eşanlamlıyı
+   sondan kaldırıp ayrımı parçaya bırak.
+
+### Ölçülmeyenler
+
+- `matching-features` yalnız okuma tarafında ölçüldü; dinleme bu adımın kapsamı dışında
+  (prompt gereği).
+- `matching-sentence-endings` sınav setlerinde (AC1-AC4, GT1-GT2) **yok**; yalnız
+  practice dosyası var, ölçüm 10 soruyla sınırlı kaldı.
+- Diyagram etiketleme bu pakette yok; görsel gerektiren tiplerde bu ölçüm kördür.
+
+### Yapılan işaretleme
+
+- matching-features: 26 sorunun **18'ine** `blind_solvable: true`, `blind_basis`,
+  `status: "flagged"`, `flag_reason`; **8'ine** `blind_solvable: false`.
+- matching-sentence-endings: 10 sorunun **10'una** `blind_solvable: true` + flag.
+- Toplam 36 soru işlendi, **28 işaretlendi**. **Hiçbir soru silinmedi**; soru sayıları
+  değişmedi.
+
+---
+
+🔴 Son söz: **bu ölçüm bozuk soruyu bulur, zorluk seviyesini ölçmez.** "Bu soru gerçek
+sınav zorluğunda" demek ancak binlerce gerçek adayın verisiyle mümkündür.
