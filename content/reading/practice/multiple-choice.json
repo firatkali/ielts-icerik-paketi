@@ -50,33 +50,34 @@
       },
       "explanation": "Paragraph B says that in each of the twenty-four pairs, the two animals were matched so that they did not differ in weight by more than fifteen per cent.",
       "difficulty": "easy",
-      "status": "flagged",
+      "status": "rejected",
       "blind_solvable": true,
       "blind_basis": "general_knowledge",
       "flag_reason": "Cevap B, bilimsel deneylerde denekleri eslestirirken en yaygin kullanilan olcutun agirlik olmasi genel bilgisiyle tahmin edilebiliyor; cinsiyet (A), toplanma mevsimi (C) ve komsuluk (D) daha az tipik eslestirme olcutleri, parcaya bakmadan da B en olasi secenek.",
-      "flag_mechanism": "genel_kultur"
+      "flag_mechanism": "genel_kultur",
+      "reject_reason": "Sorunun ekseni deney tasarimi genel bilgisi: hayvan deneylerinde deneklerin agirliga gore eslestirilmesi pasajdan bagimsiz bilinen standart bir uygulama. Cinsiyet, toplanma mevsimi ve komsuluk daha az tipik olcutler oldugu icin secenekler nasil yazilirsa yazilsin agirlik en olasi cevap kalir; kip dengelemesi ya da celdirici capalamasi bunu kapatmaz."
     },
     {
       "number": 2,
       "passage_id": "A02",
       "select_count": 1,
-      "prompt": "What was the purpose of the three days before the animals met?",
+      "prompt": "In the three days before the octopuses met, the researchers were trying to find out",
       "options": [
         {
           "letter": "A",
-          "text": "To see whether sight alone could shape later behaviour."
+          "text": "whether seeing a partner, with no other contact, would matter later on."
         },
         {
           "letter": "B",
-          "text": "To let the animals recover from being caught."
+          "text": "whether one steady water temperature removed differences between tanks."
         },
         {
           "letter": "C",
-          "text": "To establish which animal in each pair was stronger."
+          "text": "which animal in each pair would win most of its encounters."
         },
         {
           "letter": "D",
-          "text": "To test whether smell by itself mattered."
+          "text": "whether water-borne chemical cues on their own would be enough."
         }
       ],
       "answer": [
@@ -88,17 +89,29 @@
         "sentence": 4
       },
       "distractor_analysis": {
-        "B": "Cazip ama yok — hayvanların körfezden toplandığı söyleniyor, ama bu üç günün bir toparlanma dönemi olduğu hiçbir yerde geçmiyor.",
-        "C": "Yer değiştirme — üstünlük sıralaması bu evrede değil, sonraki üç günlük birlikte yaşama evresinde, günde on beş dakikalık karşılaşmalar sırasında ortaya çıkıyor.",
-        "D": "Yakın ama eksik — koku pasajda tartışılıyor, ama bu evrede su hatları ayrı tutulduğu için koku bilerek dışarıda bırakılıyor; sınanan tek şey görme."
+        "B": "Yer degistirme -- suyun sabit 24 derecede tutulmasi gercek bir tasarim kararidir ve amaci B paragrafinda veriliyor: davranis degisikligi cevre farkina degil hayvanlarin birbirini yasamasina baglanabilsin diye. Ama bu, barindirma duzeninin amaci; uc gunluk evrenin degil.",
+        "C": "Yer degistirme -- ustunluk siralamasi gercekten olculuyor (D/1, guclu hayvan etkilesimlerin ortalama yuzde 76'sini kazaniyor), ama bu birlikte yasama evresinde, hayvanlar bulustuktan sonra.",
+        "D": "Yakin ama eksik -- kimyasal ipuclarinin tek basina ne yaptigi tam olarak sinanmayan sey: su hatlari bilerek tamamen ayri tutuluyor, yani bu evrede koku disarida birakiliyor. Secenek sinanan duyunun yerine sinanmayani koyuyor."
       },
-      "explanation": "Paragraph C says that this stage let the researchers ask whether visual exposure alone, before any physical encounter, was enough to influence later behaviour.",
+      "explanation": "Paragraph C says the animals spent three days either side of a transparent divider, able to see but not touch or smell one another, and that this stage let the researchers ask whether visual exposure alone was enough to influence later behaviour.",
       "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
+      "status": "verified",
+      "blind_solvable": null,
       "blind_basis": "logic",
       "flag_reason": "Cevap A, 'hayvanlar tanismadan onceki uc gunun amaci' sorusuna deney mantigiyla tek tutarli yaniti veriyor: yalnizca gorsel maruziyeti sinamak cok evreli deneylerin tipik ilk adimi; B (toparlanma), C (ustunluk siralamasi) ve D (koku) sonraki ya da farkli evrelerle ilgili, elenir.",
-      "flag_mechanism": "konumsal_duzen"
+      "flag_mechanism": "konumsal_duzen",
+      "revision": {
+        "tarih": "2026-08-08",
+        "mekanizma": "konumsal_duzen",
+        "onceki_prompt": "What was the purpose of the three days before the animals met?",
+        "onceki_secenekler": {
+          "A": "To see whether sight alone could shape later behaviour.",
+          "B": "To let the animals recover from being caught.",
+          "C": "To establish which animal in each pair was stronger.",
+          "D": "To test whether smell by itself mattered."
+        },
+        "ne_degisti": "Celdiriciler soru kokunun cercevesine tasindi: dorttu de artik pasajda gercekten anlatilan bir arastirma amaci (sabit sicaklik, ustunluk siralamasi, kimyasal ipuclari) ve ucu de baska bir evreye ait. Eskiden yalniz A bir 'duyuyu yalitma' amaciydi; simdi A ve D ayni bicimde kuruldugu icin 'tek duyu yalitan secenek dogrudur' elemesi calismiyor. Dogru secenek kanit cumlesinin sozcuklerinden ('visual exposure alone... influence later behaviour') uzaklastirildi."
+      }
     },
     {
       "number": "3-4",
@@ -108,11 +121,11 @@
       "options": [
         {
           "letter": "A",
-          "text": "Sound carried through water is essential."
+          "text": "Sound carried through water may also play a part."
         },
         {
           "letter": "B",
-          "text": "Sight alone changed nothing at all."
+          "text": "Sight on its own appears to leave behaviour unchanged."
         },
         {
           "letter": "C",
@@ -120,7 +133,7 @@
         },
         {
           "letter": "D",
-          "text": "Smell alone gave the sharpest results."
+          "text": "Smell on its own probably gives the clearest signal."
         },
         {
           "letter": "E",
@@ -128,7 +141,7 @@
         },
         {
           "letter": "F",
-          "text": "Chemical cues cannot yet be excluded."
+          "text": "The senses of smell and taste remain too poorly understood."
         },
         {
           "letter": "G",
@@ -145,41 +158,56 @@
         "sentence": 3
       },
       "distractor_analysis": {
-        "A": "Cazip ama yok — su içinde taşınan seslerden hiç söz edilmiyor; deniz hayvanları için makul göründüğü için seçilebilir.",
-        "B": "Kapsam kaydırma — pasaj görmenin tek başına daha zayıf ama yine de ölçülebilir farklar ürettiğini söylüyor; şık bunu hiçbir fark yok diye abartıyor.",
-        "D": "Yer değiştirme — 'tek başına' denemesi görme için yapılıyor; pasaj kokunun tek başına ne yaptığını ölçmüyor, üstelik koku ve tat duyusunun yeterince bilinmediğini söylüyor.",
-        "E": "Yer değiştirme — ilk evrede şeffaf bölme yalnızca görmeye izin veriyor, dokunma ve koku dışarıda bırakılıyor; şık iki duyunun yerini değiştiriyor.",
-        "G": "Yakın ama eksik — pasaj tat ve kokuyu birlikte, yeterince bilinmeyen duyular olarak anıyor; ikisi arasında böyle bir karşılaştırma yapmıyor."
+        "A": "Cazip ama yok -- su icinde tasinan sesten hic soz edilmiyor; secenek artik olculu yazildigi icin kipine bakarak elenemiyor, yalniz pasajda karsiligi olmadigi icin yanlis.",
+        "B": "Kapsam kaydirma -- H/3 gormenin tek basina 'daha zayif ama olculebilir' farklar urettigini soyluyor; secenek bunu hicbir degisiklik olmadigina cekiyor.",
+        "D": "Yer degistirme -- 'tek basina' denemesi gorme icin yapiliyor; kokunun tek basina ne yaptigi hic olculmuyor, ustelik ayni cumle koku ve tat duyusunun yeterince bilinmedigini soyluyor.",
+        "E": "Yer degistirme -- ilk evrede seffaf bolme yalnizca gormeye izin veriyor, dokunma ve koku disarida birakiliyor; secenek iki duyunun yerini degistiriyor.",
+        "G": "Yakin ama eksik -- pasaj tat ile kokuyu birlikte, ikisi de yeterince bilinmeyen duyular olarak aniyor; aralarinda bir siralama yapmiyor."
       },
-      "explanation": "Paragraph H says that sight and physical contact together most likely underlie this recognition, and adds that a contribution from chemical signals cannot be ruled out.",
+      "explanation": "Paragraph H says that sight and physical contact together, rather than either sense alone, most likely underlie this recognition, and that octopuses' sense of smell and taste remains too poorly understood for a contribution from chemical signals to be ruled out.",
       "difficulty": "hard",
-      "status": "flagged",
-      "blind_solvable": true,
+      "status": "verified",
+      "blind_solvable": null,
       "blind_basis": "option_wording",
       "flag_reason": "Dogru secenekler C ve F, 'probably' ve 'cannot yet be excluded' gibi olculu/temkinli ifadeler tasiyor; celdiriciler ise 'essential', 'nothing at all', 'sharpest results' gibi mutlak ifadeler kullaniyor -- bu kesinlik derecesi farki parcaya bakmadan da dogru ikiliyi ayirt ettiriyor.",
-      "flag_mechanism": "kip_imzasi"
+      "flag_mechanism": "kip_imzasi",
+      "revision": {
+        "tarih": "2026-08-08",
+        "mekanizma": "kip_imzasi",
+        "onceki_prompt": "Which TWO points does the writer make about the senses behind recognition?",
+        "onceki_secenekler": {
+          "A": "Sound carried through water is essential.",
+          "B": "Sight alone changed nothing at all.",
+          "C": "Sight and touch probably work together.",
+          "D": "Smell alone gave the sharpest results.",
+          "E": "The early stage tested touch, not sight.",
+          "F": "Chemical cues cannot yet be excluded.",
+          "G": "Taste is better understood than smell."
+        },
+        "ne_degisti": "Kip iki yone birden dagitildi. Dogru seceneklerden F mutlak/kesin kipe cekildi ('cannot yet be excluded' -> 'remain too poorly understood'), boylece kesin yazilmis bir dogru secenek olustu. Buna karsilik uc celdirici olculu kipe cekildi (A 'may also', B 'appears to', D 'probably'). Yeni dagilim: olculu 4 secenegin 1'i dogru, kesin 3 secenegin 1'i dogru -- 'olculu = dogru' kurali da 'mutlak = yanlis' kurali da artik calismiyor."
+      }
     },
     {
       "number": 5,
       "passage_id": "A05",
       "select_count": 1,
-      "prompt": "What does the writer say made the site stand out?",
+      "prompt": "What does the writer say set the site apart from others of its time?",
       "options": [
         {
           "letter": "A",
-          "text": "The length of the excavation carried out there."
+          "text": "The unusual length of time people went on living there."
         },
         {
           "letter": "B",
-          "text": "Its size, at a time of small mobile groups."
+          "text": "Its size, when most communities were still small and mobile."
         },
         {
           "letter": "C",
-          "text": "The state of the plant remains found there."
+          "text": "The far better state of its grain than at sites of the same age."
         },
         {
           "letter": "D",
-          "text": "Its place on a route used for grain trade."
+          "text": "Its place on a route already used for trading grain."
         }
       ],
       "answer": [
@@ -191,17 +219,29 @@
         "sentence": 3
       },
       "distractor_analysis": {
-        "A": "Yakın ama eksik — kazının 1961-1965 arasında ayrıntılı biçimde yapıldığı söyleniyor, ama siti çağdaşlarından ayıran şey olarak kazı süresi değil yerleşimin ölçeği gösteriliyor.",
-        "C": "Yer değiştirme — tahılların benzer yaştaki başka sitlerden daha iyi korunmuş olması B paragrafında buluntular için söyleniyor; yerleşimin kendisini ayırt eden özellik olarak değil.",
-        "D": "Kapsam kaydırma — pasaj sitin, tarım uygulamalarını sonradan Avrupa'ya taşıyacak yollar üzerinde bulunduğunu söylüyor; şık bunu tahıl ticaretine daraltıyor."
+        "A": "Yakin ama eksik -- yerlesimin kabaca MO 7400-6000 arasinda iskan edildigi A/2'de veriliyor, ama bu surenin cagdaslarina gore olagandisi oldugu soylenmiyor; siti ayiran ozellik olarak olcek gosteriliyor.",
+        "C": "Yer degistirme -- tahillarin benzer yastaki baska sitlerden belirgin bicimde iyi korunmus olmasi B/1'de, buluntular icin soyleniyor; yerlesimin kendisini cagdaslarindan ayiran ozellik olarak degil.",
+        "D": "Kapsam kaydirma -- A/3 sitin, tarim uygulamalarini *sonradan* Avrupa'ya tasiyacak yollar uzerinde bulundugunu soyluyor; secenek bunu o donemde zaten isleyen bir tahil ticareti yoluna cekiyor."
       },
-      "explanation": "Paragraph A says that what set the site apart was its scale: while most human communities were still small and mobile, Çatalhöyük had grown into a dense, town-like settlement.",
+      "explanation": "Paragraph A says that what set the site apart was its scale: at a time when most human communities were still small and mobile, Catalhoyuk had grown into a dense, town-like settlement.",
       "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
+      "status": "verified",
+      "blind_solvable": null,
       "blind_basis": "option_wording",
       "flag_reason": "B, sitenin olcegini donemin kucuk gocer topluluklari baglamiyla karsilastirmali bicimde sunan tek secenek; A sureye, C buluntu durumuna, D ticaret yoluna kayiyor -- yalniz B 'ayirt eden ozellik' sorusunun istedigi karsilastirmali cerceveyi tasiyor.",
-      "flag_mechanism": "konumsal_duzen"
+      "flag_mechanism": "konumsal_duzen",
+      "revision": {
+        "tarih": "2026-08-08",
+        "mekanizma": "konumsal_duzen",
+        "onceki_prompt": "What does the writer say made the site stand out?",
+        "onceki_secenekler": {
+          "A": "The length of the excavation carried out there.",
+          "B": "Its size, at a time of small mobile groups.",
+          "C": "The state of the plant remains found there.",
+          "D": "Its place on a route used for grain trade."
+        },
+        "ne_degisti": "Eskiden yalniz B siti kendi cagiyla karsilastiran bir cerceve tasiyordu, oteki ucu ise sure/buluntu/ticaret gibi baska eksenlere kayiyordu; bu yuzden 'ayirt eden ozellik' sorusuna uyan tek secenek B kaliyordu. Simdi A ve C de acikca cag-ici karsilastirma kuruyor ('cagdaslarina gore uzun iskan', 'ayni yastaki sitlerden iyi korunmus tahil') ve ikisi de pasajin gercek ayrintilarina capalandi; secenek bicimi artik dogruyu ele vermiyor."
+      }
     },
     {
       "number": 6,
@@ -241,11 +281,12 @@
       },
       "explanation": "Paragraph B says that hexaploid wheat is a genetically more complex form carrying six sets of chromosomes, rather than the two or four sets typical of the simpler wheats associated with the earliest stages of farming.",
       "difficulty": "easy",
-      "status": "flagged",
+      "status": "rejected",
       "blind_solvable": true,
       "blind_basis": "general_knowledge",
       "flag_reason": "Cevap D, 'hexaploid' teriminin kendisinin alti kromozom takimi anlamina geldigi genel biyoloji bilgisiyle (hexa- oneki) tahmin edilebiliyor; parcaya bakmadan da terimin kokeninden kromozom sayisi cikarilabiliyor.",
-      "flag_mechanism": "genel_kultur"
+      "flag_mechanism": "genel_kultur",
+      "reject_reason": "Sorunun ekseni terimin kendisi: soru kokundeki 'hexaploid' sozcugunun 'hexa-' oneki dogrudan alti kromozom takimini soyluyor, yani sizinti secenek diziliminde degil kokte. Terimi soru kokunden cikarmak kanit cumlesini de degistirmeyi gerektirir; bu, gorev kuralina gore yarim duzeltme sayilir."
     },
     {
       "number": "7-8",
@@ -263,19 +304,19 @@
         },
         {
           "letter": "C",
-          "text": "Hexaploid wheat may have appeared earlier."
+          "text": "Hexaploid wheat may have appeared earlier than assumed."
         },
         {
           "letter": "D",
-          "text": "The Fertile Crescent account is disproved."
+          "text": "The Fertile Crescent account may have to be abandoned."
         },
         {
           "letter": "E",
-          "text": "Modern spelt descends directly from this wheat."
+          "text": "Modern spelt probably descends from this very wheat."
         },
         {
           "letter": "F",
-          "text": "A spelt-like wheat may have been present."
+          "text": "This is the first genetic sign of a spelt-like wheat in the region."
         },
         {
           "letter": "G",
@@ -292,19 +333,34 @@
         "sentence": 2
       },
       "distractor_analysis": {
-        "A": "Yer değiştirme — pasaj einkorn tarımının doğduğu yer olarak güney Türkiye'deki Karacadağ bölgesini gösteriyor; şık bu bilgiyi ülke dışına taşıyor.",
-        "B": "Cazip ama yok — ekmeklik buğday modern karşılaştırma türleri arasında, Avrupa da yayılma yönü olarak anılıyor, ama Avrupa'da bilinip bilinmediğine dair hiçbir ifade yok.",
-        "D": "Kapsam kaydırma — pasaj bulgunun standart anlatıyı karmaşıklaştırdığını söylüyor; çürüttüğünü değil.",
-        "E": "Kapsam kaydırma — eski diziler speltayı da içeren modern hexaploid biçimlere benziyor; benzerlik doğrudan soy bağı iddiasına genişletilemez.",
-        "G": "Yakın ama eksik — ekibin önemli bir buğday proteininden sorumlu gen üzerinde çalıştığı doğru, ama bu bir yöntem ayrıntısı; dizilerden çıkarılan bir sonuç değil."
+        "A": "Yer degistirme -- G/2 einkorn tariminin dogdugu yer olarak guney Turkiye'deki Karacadag bolgesini gosteriyor; secenek bu bilgiyi ulke disina tasiyor.",
+        "B": "Cazip ama yok -- ekmeklik bugday modern karsilastirma turleri arasinda, Avrupa da yayilma yonu olarak aniliyor, ama Avrupa'da bilinip bilinmedigine dair hicbir ifade yok.",
+        "D": "Kapsam kaydirma -- G/1 bulgunun standart anlatiyi 'karmasiklastirdigini' soyluyor; secenek artik olculu yazilmis olsa da anlatinin buutunuyle birakilmasini one suruyor, bu da metnin soylediginden fazlasi.",
+        "E": "Kapsam kaydirma -- F/1 eski dizilerin speltayi da iceren modern hexaploid bicimlere *benzedigini* soyluyor; benzerlik, olculu yazilsa bile dogrudan soy bagi iddiasina genisletilemez.",
+        "G": "Yakin ama eksik -- ekibin onemli bir bugday proteininden sorumlu gen uzerinde calistigi D/2'de veriliyor, ama bu bir yontem ayrintisi; dizilerden cikarilan bir sonuc degil."
       },
-      "explanation": "Paragraph F mentions the first genetic hint of a spelt-like wheat in the Neolithic Near East, and paragraph G notes that the six-chromosome form of wheat may have emerged earlier than assumed.",
+      "explanation": "Paragraph F says this is the first genetic evidence hinting at a spelt-like wheat in the Neolithic Near East, and paragraph G says the six-chromosome form of wheat may have emerged sooner than researchers had assumed.",
       "difficulty": "hard",
-      "status": "flagged",
-      "blind_solvable": true,
+      "status": "verified",
+      "blind_solvable": null,
       "blind_basis": "option_wording",
       "flag_reason": "Dogru secenekler C ve F, 'may have appeared earlier' ve 'may have been present' gibi temkinli ifadeler tasiyor; celdiriciler D ('disproved' -- curutuyor) ve E ('descends directly' -- dogrudan soyu geliyor) gibi kesin/abartili iddialar kuruyor -- kesinlik derecesi farki parcasiz da ayirt ettiriyor.",
-      "flag_mechanism": "kip_imzasi"
+      "flag_mechanism": "kip_imzasi",
+      "revision": {
+        "tarih": "2026-08-08",
+        "mekanizma": "kip_imzasi",
+        "onceki_prompt": "Which TWO conclusions do the researchers draw from the sequences?",
+        "onceki_secenekler": {
+          "A": "Einkorn farming began outside Turkey.",
+          "B": "Bread wheat was unknown in Europe.",
+          "C": "Hexaploid wheat may have appeared earlier.",
+          "D": "The Fertile Crescent account is disproved.",
+          "E": "Modern spelt descends directly from this wheat.",
+          "F": "A spelt-like wheat may have been present.",
+          "G": "The team examined a protein gene."
+        },
+        "ne_degisti": "Dogru seceneklerden F kesin kipe cekildi ('may have been present' -> 'is the first genetic sign'), celdiricilerden D ve E ise olculu kipe cekildi ('is disproved' -> 'may have to be abandoned', 'descends directly' -> 'probably descends'). Yeni dagilim: olculu 3 secenegin 1'i dogru, kesin 4 secenegin 1'i dogru. 'Temkinli yazilan ikili dogrudur' imzasi kirildi."
+      }
     },
     {
       "number": "9-10",
@@ -359,11 +415,12 @@
       },
       "explanation": "Paragraph A says that the earthquake struck the heavily glaciated St Elias Mountains, straddling the border between Canada and the United States; paragraph B says that ice more than 700 metres thick in places sits on top of the bedrock.",
       "difficulty": "hard",
-      "status": "flagged",
+      "status": "rejected",
       "blind_solvable": true,
       "blind_basis": "general_knowledge",
       "flag_reason": "Cevaplar B ve E, buyuk buzullu siradaglarin (St Elias gibi) genelde bir ulke siniri boyunca uzanmasi ve derin buzla ortulu olmasi gibi yaygin cografya bilgisiyle parcaya bakmadan da tahmin edilebiliyor.",
-      "flag_mechanism": "genel_kultur"
+      "flag_mechanism": "genel_kultur",
+      "reject_reason": "Sorunun ekseni cografya genel bilgisi: buyuk buzullu siradaglarin bir ulke siniri boyunca uzanmasi ve kalin buzla ortulu olmasi pasaja bakmadan bilinebiliyor. Iki dogru secenek de bolgenin ansiklopedik tanimini tekrarliyor; secenekleri yeniden yazmak bu ekseni degistirmez."
     },
     {
       "number": 11,
@@ -403,33 +460,34 @@
       },
       "explanation": "Paragraph C says that comparing the image captured on 8 December with the baseline image from before the earthquake on 26 November revealed new bright patches on slopes that had previously appeared smooth and dark.",
       "difficulty": "medium",
-      "status": "flagged",
+      "status": "rejected",
       "blind_solvable": true,
       "blind_basis": "general_knowledge",
       "flag_reason": "Cevap D, uydu goruntuleriyle hasar tespitinin 'oncesi-sonrasi karsilastirmasi' yontemiyle yapildigi genel bilgisiyle (standart afet izleme yontemi) parcaya bakmadan da tahmin edilebiliyor.",
-      "flag_mechanism": "genel_kultur"
+      "flag_mechanism": "genel_kultur",
+      "reject_reason": "Sorunun ekseni uzaktan algilama genel bilgisi: uydu goruntusuyle hasar tespitinin oncesi-sonrasi karsilastirmasiyla yapilmasi standart afet izleme yontemi. Kanit cumlesinin kendisi bu standardin anlatimi oldugu icin celdiricileri guclendirmek yetmiyor."
     },
     {
       "number": 12,
       "passage_id": "A08",
       "select_count": 1,
-      "prompt": "Why does the writer report a researcher's reaction to the images?",
+      "prompt": "Why does the writer quote a researcher's reaction to the images?",
       "options": [
         {
           "letter": "A",
-          "text": "To suggest the damage had been expected."
+          "text": "To explain why the region's ice has been watched for years."
         },
         {
           "letter": "B",
-          "text": "To explain why the range is hard to reach."
+          "text": "To stress how little of the range can be checked from the ground."
         },
         {
           "letter": "C",
-          "text": "To show how rare a disturbance this large is."
+          "text": "To show how unusual a disturbance on this scale is."
         },
         {
           "letter": "D",
-          "text": "To cast doubt on the satellite pictures."
+          "text": "To confirm that the ground survey matched the satellite images."
         }
       ],
       "answer": [
@@ -441,17 +499,29 @@
         "sentence": 2
       },
       "distractor_analysis": {
-        "A": "Cazip ama yok — böyle bir hasarın önceden beklendiğine dair hiçbir ifade yok; tersine araştırmacı benzerinin daha önce kaydedilmediğini söylüyor.",
-        "B": "Yakın ama eksik — dağ sırasının büyük ölçüde ulaşılmaz olduğu pasajda geçiyor, ama araştırmacının sözü olayın ölçeğinin sıra dışılığını vurgulamak için aktarılıyor.",
-        "D": "Yer değiştirme — kuşku uyandırmak şöyle dursun, 12 Aralık'taki yer araştırması uydu görüntülerinin gösterdiğini doğruluyor."
+        "A": "Yakin ama eksik -- arastirmacinin bolgenin buzunu yillardir izledigi tam da bu cumlede (E/2) soyleniyor, ama bu, sozun aktarilma amaci degil, konusani tanitan bir ayrinti.",
+        "B": "Yakin ama eksik -- daglik alanin buyuk olcude ulasilmaz oldugu hem E/3'te hem H/1'de geciyor; yine de alintinin islevi erisim sorununu anlatmak degil, olayin buyuklugunu vurgulamak.",
+        "D": "Yer degistirme -- yer arastirmasinin uydu goruntulerini dogrulamasi D/2'de, ayri bir cumlede anlatiliyor; arastirmacinin sozu bir dogrulama degil bir sasirma ifadesi."
       },
-      "explanation": "Paragraph E reports that a researcher who had spent years monitoring the region's ice found the number and magnitude of the avalanches and landslides astounding, showing how unusual it is for a single earthquake to reshape so much terrain in a matter of seconds.",
+      "explanation": "Paragraph E reports a researcher saying that the number and magnitude of the avalanches and landslides was astounding and that nothing comparable had been documented there before; the writer adds that this reflects how unusual such an event is.",
       "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
+      "status": "verified",
+      "blind_solvable": null,
       "blind_basis": "logic",
       "flag_reason": "Cevap C, arastirmaci alintisinin islevini metnin genel anlati mantigiyla veriyor: 'daha once benzeri kaydedilmedi' ifadesi sira disiligi vurgular, bu yuzden A (beklenti), B (erisim), D (kusku) alintinin icerigiyle celisir ve elenir.",
-      "flag_mechanism": "konumsal_duzen"
+      "flag_mechanism": "konumsal_duzen",
+      "revision": {
+        "tarih": "2026-08-08",
+        "mekanizma": "konumsal_duzen",
+        "onceki_prompt": "Why does the writer report a researcher's reaction to the images?",
+        "onceki_secenekler": {
+          "A": "To suggest the damage had been expected.",
+          "B": "To explain why the range is hard to reach.",
+          "C": "To show how rare a disturbance this large is.",
+          "D": "To cast doubt on the satellite pictures."
+        },
+        "ne_degisti": "Eski A ('hasar beklenmisti') ve D ('uydu goruntulerine kusku dusurmek') alintinin icerigiyle acikca celisiyor, B ise cerceve disinda kaliyordu; ucu de pasaja bakmadan elenebiliyordu. Dort secenek de artik pasajin gercek ayrintilarina capalanmis, kendi icinde tutarli yazarlik amaclari: yillardir suren izleme (E/2), yerden denetlenemezlik (H/1), olcegin sira disiligi (E/3), yer arastirmasinin dogrulamasi (D/2)."
+      }
     },
     {
       "number": 13,
@@ -491,33 +561,34 @@
       },
       "explanation": "Paragraph B says that randomising the order of the two conditions helped guard against the possibility that simply being tested a second time, regardless of environment, might by itself improve participants' reported mood.",
       "difficulty": "medium",
-      "status": "flagged",
+      "status": "rejected",
       "blind_solvable": true,
       "blind_basis": "general_knowledge",
       "flag_reason": "Cevap A, deney tasariminda kosul sirasinin rastgelestirilmesinin klasik amacinin 'tekrar test etme etkisini' (practice/order effect) kontrol altina almak oldugu genel arastirma yontemi bilgisiyle parcaya bakmadan da tahmin edilebiliyor.",
-      "flag_mechanism": "genel_kultur"
+      "flag_mechanism": "genel_kultur",
+      "reject_reason": "Sorunun ekseni arastirma yontemi kurali: kosul sirasinin rastgelestirilmesinin amaci tekrar test etme (sira/alistirma) etkisini kontrol altina almaktir ve bu, pasajdan bagimsiz olarak ogretilen bir kural. Seceneklerin kipi ya da capasi degistirilse de cevap yontem bilgisinden cikar."
     },
     {
       "number": 14,
       "passage_id": "A11",
       "select_count": 1,
-      "prompt": "Why was the campus spot chosen as the comparison setting?",
+      "prompt": "What reason does the writer give for the choice of the campus spot?",
       "options": [
         {
           "letter": "A",
-          "text": "Because it lay a short walk from the trees."
+          "text": "Reaching it involved a walk, as the forest did."
         },
         {
           "letter": "B",
-          "text": "Because its noise matched that of a city street."
+          "text": "Its noise was measured alongside the forest's."
         },
         {
           "letter": "C",
-          "text": "Because it was calm rather than clearly stressful."
+          "text": "It was calm rather than obviously stressful."
         },
         {
           "letter": "D",
-          "text": "Because participants already spent time there daily."
+          "text": "Participants already knew the place from daily use."
         }
       ],
       "answer": [
@@ -529,39 +600,51 @@
         "sentence": 2
       },
       "distractor_analysis": {
-        "A": "Yakın ama eksik — yürüme süreleri veriliyor (ormana beş, kampüsteki noktaya iki dakika), ama yerin seçilme gerekçesi yakınlık değil, ortamın niteliği.",
-        "B": "Kapsam kaydırma — ortam bilerek sakin ve trafikten uzak seçiliyor; şık bunu tersine çevirip kent gürültüsüne benzetiyor.",
-        "D": "Cazip ama yok — katılımcıların orayı günlük olarak kullandığına dair hiçbir bilgi yok; üniversite öğrencisi oldukları için makul görünüyor."
+        "A": "Yakin ama eksik -- iki kosulda da yurunuyor (ormana bes, kampus noktasina iki dakika, C/1-2), ama yurumek yerin secilme gerekcesi olarak verilmiyor.",
+        "B": "Yer degistirme -- olculen cevre degiskenleri D paragrafinda sayiliyor (sicaklik, kar kalinligi, nem, ruzgar) ve bunlar yalniz orman oturumlari icin; gurultu hic olculmuyor.",
+        "D": "Cazip ama yok -- katilimcilar bir uygulamali bilimler universitesinin ogrencileri (B/1), ama noktayi gunluk olarak kullandiklarina dair bir ifade yok."
       },
-      "explanation": "Paragraph C says that the comparison environment was deliberately chosen by the researchers to be calm and free of traffic, rather than obviously stressful.",
+      "explanation": "Paragraph C says the researchers deliberately chose a comparison environment that was calm and free of traffic rather than obviously stressful.",
       "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
+      "status": "verified",
+      "blind_solvable": null,
       "blind_basis": "logic",
       "flag_reason": "Cevap C, karsilastirma ortaminin bir deneyde 'notr/sakin kontrol kosulu' olarak secilmesinin arastirma mantigiyla tek tutarli gerekce oldugunu gosteriyor; B ortami tam tersine ceviriyor, A ve D ilgisiz ayrintilara dayaniyor, bu yuzden elenir.",
-      "flag_mechanism": "konumsal_duzen"
+      "flag_mechanism": "konumsal_duzen",
+      "revision": {
+        "tarih": "2026-08-08",
+        "mekanizma": "konumsal_duzen",
+        "onceki_prompt": "Why was the campus spot chosen as the comparison setting?",
+        "onceki_secenekler": {
+          "A": "Because it lay a short walk from the trees.",
+          "B": "Because its noise matched that of a city street.",
+          "C": "Because it was calm rather than clearly stressful.",
+          "D": "Because participants already spent time there daily."
+        },
+        "ne_degisti": "Eskiden B ortami tam tersine ceviriyordu ('kent caddesi gibi gurultulu'), A ve D ise pasajla hic baglanti kurmayan ayrintilardi; kontrol kosulu mantigini bilen bir cozucu C'yi elemeyle buluyordu. Yeni celdiricilerin ucu de pasajin gercek ayrintilarina dayaniyor (yurume suresi C/1-2, olculen cevre degiskenleri D, katilimcilarin universite ogrencisi olmasi B/1) ve hicbiri ortamin niteligini tersine cevirmiyor."
+      }
     },
     {
       "number": 15,
       "passage_id": "A11",
       "select_count": 1,
-      "prompt": "What do the researchers recommend for future studies?",
+      "prompt": "What do the researchers recommend that future studies test?",
       "options": [
         {
           "letter": "A",
-          "text": "Measuring how long the calming effect lasts."
+          "text": "Busier streets, measured noise levels and heart-rate readings."
         },
         {
           "letter": "B",
-          "text": "Comparing forests with busy city streets."
+          "text": "Repeat visits, longer gaps between them and follow-up surveys."
         },
         {
           "letter": "C",
-          "text": "Concentrating on the winter months alone."
+          "text": "Older participants, other tree species and evening rather than daytime visits."
         },
         {
           "letter": "D",
-          "text": "Trying longer visits, other seasons, other cultures."
+          "text": "Longer visits, other seasons and other cultural backgrounds."
         }
       ],
       "answer": [
@@ -573,17 +656,29 @@
         "sentence": 2
       },
       "distractor_analysis": {
-        "A": "Cazip ama yok — etkinin ne kadar sürdüğünün ölçülmesi önerilenler arasında yok; sakinleştirici etki anlatıldığı için makul bir devam adımı gibi görünüyor.",
-        "B": "Yer değiştirme — karşılaştırma ortamı bilerek trafiksiz seçiliyor; yoğun cadde karşılaştırması ne yapılıyor ne de öneriliyor.",
-        "C": "Kapsam kaydırma — öneri başka mevsimlerin de sınanması; şık bunu tersine çevirip yalnızca kışa daraltıyor."
+        "A": "Yer degistirme -- karsilastirma ortami bilerek trafiksiz seciliyor (C/2) ve olculen degiskenler arasinda gurultu ya da nabiz yok; secenek onerilmemis bir olcum setini siraliyor.",
+        "B": "Cazip ama yok -- sakinlestirici etkinin ne kadar surdugu ilgi cekici bir devam adimi gibi gorunuyor, ama H/2'deki oneri listesinde tekrar ziyaret ya da takip anketi gecmiyor.",
+        "C": "Cazip ama yok -- agac turleri (yuzde 80 ladin, yuzde 20 hus) ve oturum zamani C ve D'de veriliyor, ama bunlarin sinanmasi onerilmiyor; oneri yas degil kultur ekseninde."
       },
-      "explanation": "Paragraph H recommends that future studies test longer exposure times, other seasons, and participants from different cultural backgrounds.",
+      "explanation": "Paragraph H says the researchers recommend that future work test longer exposure times, other seasons, and participants from different cultural backgrounds.",
       "difficulty": "easy",
-      "status": "flagged",
-      "blind_solvable": true,
+      "status": "verified",
+      "blind_solvable": null,
       "blind_basis": "option_wording",
       "flag_reason": "Secenek D, 'daha uzun/baska mevsim/baska kultur' biciminde siralanan liste yapisiyla bilimsel makalelerin tipik 'gelecek calisma onerisi' kalibini tasiyan tek secenek; C bunu tam tersine cevirip yalnizca kisa daraltiyor, A ve B onerilmeyen ayrintilara dayaniyor.",
-      "flag_mechanism": "konumsal_duzen"
+      "flag_mechanism": "konumsal_duzen",
+      "revision": {
+        "tarih": "2026-08-08",
+        "mekanizma": "konumsal_duzen",
+        "onceki_prompt": "What do the researchers recommend for future studies?",
+        "onceki_secenekler": {
+          "A": "Measuring how long the calming effect lasts.",
+          "B": "Comparing forests with busy city streets.",
+          "C": "Concentrating on the winter months alone.",
+          "D": "Trying longer visits, other seasons, other cultures."
+        },
+        "ne_degisti": "Eskiden yalniz D uc ogeli bir liste bicimindeydi, yani bilimsel makalelerin 'gelecek calisma onerisi' kalibini tasiyan tek secenekti; C ise oneriyi tersine cevirdigi icin (yalniz kisa daraltma) parcasiz elenebiliyordu. Dort secenek de artik uc ogeli, akla yatkin birer oneri listesi ve hicbiri kendi icinde tutarsiz degil; ayirt etme yalniz H/2'yi okumakla mumkun."
+      }
     }
   ]
 }

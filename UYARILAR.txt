@@ -355,3 +355,45 @@
     cevirisinin eseri, E5'in degil. answer/evidence/evidence_locator
     karsilastirmasi cozumden sonra yukari akis surumune karsi yeniden
     kosuldu: yine 0 fark.
+
+08.08.2026 02:26
+  - isaretli (flagged)     199
+
+08.08.2026 02:42
+  - OPUS5-E5 2. calistirma (coktan secmeli - kip imzasi + konumsal
+    duzen). Kendi sayimim: content/reading altinda 7 dosya, 30 isaretli
+    yuva, ama bu 30 yuva 39 SORU ediyor -- dokuz yuva select_count 2
+    (iki harf secilen tip) ve cevap kagidinda iki kutu tutuyor. E1'in
+    tablosundaki 30 sayisi yuva sayimidir.
+  - 16 duzeltildi (konumsal_duzen 12 + kip_imzasi 4), 14 elendi (konusu
+    genel kultur), 0 dokunulmadi. Calistirmanin basligindaki iki
+    mekanizmanin 16 yuvasinin 16si duzeltildi.
+  - Kip imzasi olculdu: duzeltmeden once olculu yazilmis 6 secenegin
+    6si dogru, kesin yazilmis 16 secenegin 0i dogruydu (%100 / %0).
+    Duzeltmeden sonra olculu 11 secenegin 3u, kesin 11 secenegin 3u
+    dogru (%27 / %27). Duzeltme iki yonlu: bir dogru secenek kesin
+    kipe, bir-iki celdirici olculu kipe cekildi.
+  - Konumsal duzen icin tek kural uygulandi: her celdirici pasajin
+    gercek bir ayrintisina capalanir ve soru kokunun cercevesine
+    tasinir. Pasajda hic karsiligi olmayan ("cazip ama yok") celdirici
+    12 yuvanin 38 celdiricisinde 10 -> 6.
+  - Kapatilamayan ucuncu imza: dokuz select_count-2 yuvasinin dordu
+    C+F cevapli, hicbirinde A ya da G dogru degil. Pasaja hic bakmadan
+    C+F yazan bir cozucu 4/9 tutturuyor (sans orani 1/21). Harf sirasi
+    degistirmek answer alanini degistirmek demek oldugu icin bu
+    calistirmanin yetkisi disinda; olculup E6'ya devredildi.
+  - E6'ya: ayakta kalan uc iki-harfli yuvanin ucu de C+F. Elenen alti
+    iki-harfli yuva doldurulurken hicbirine C+F verilmemeli, A ve G
+    harfleri mutlaka kullanilmali.
+  - E7'ye: duzeltilen 16 yuva artik olculmemis sorudur
+    (blind_solvable null). AC2 dosyasinin ucu de verified oldugu icin
+    konumsal duzen duzeltmesinin tek basina yeterliligini gosteren en
+    temiz ornek orasi.
+  - answer / evidence / evidence_locator / select_count hicbir soruda
+    degismedi; secenek harflerinin kumesi ve sirasi da korundu (HEAD
+    ile alan alan karsilastirildi, 0 fark). 30 yuva girdi 30 cikti,
+    select_count agirlikli soru sayisi 39 -> 39; 12 tam testin hepsi
+    40/40.
+  - Ayrinti: content/DOGRULAMA/ELDEN-GECIRME.md
+  - isaretli (flagged)     169
+  - SEMA HATALARI: 0

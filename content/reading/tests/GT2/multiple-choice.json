@@ -18,19 +18,19 @@
       "options": [
         {
           "letter": "A",
-          "text": "Any intern can apply for it after the placement"
+          "text": "Interns may apply for it once their placement ends"
         },
         {
           "letter": "B",
-          "text": "It takes on fifteen graduates across the departments"
+          "text": "Fifteen places on it are shared out across the departments"
         },
         {
           "letter": "C",
-          "text": "An invitation to apply depends partly on company needs"
+          "text": "Invitations to apply are tied to what the business needs"
         },
         {
           "letter": "D",
-          "text": "It begins soon after the internship comes to an end"
+          "text": "It is likely to start within weeks of the internship finishing"
         }
       ],
       "answer": [
@@ -43,17 +43,29 @@
         "sentence": 2
       },
       "distractor_analysis": {
-        "A": "Kapsam kaydırma — başvuru daveti yalnız güçlü performans gösteren stajyerlere tanınan bir olasılık; seçenek bunu bütün stajyerlere genişletiyor.",
-        "B": "Yer değiştirme — on beş kişilik kontenjan staj programına ait; seçenek bu sayıyı mezun programına yüklüyor.",
-        "D": "Yakın ama eksik — pasaj davetin ertesi yıl için olduğunu söylüyor; stajın hemen ardından başlayan bir programdan söz edilmiyor."
+        "A": "Kapsam kaydirma -- basvuru daveti yalniz guclu performans gosteren stajyerlere taniniyor ve ertesi yil icin geciyor (A metni D/2); secenek olculu yazilmis olsa da hakki butun stajyerlere ve stajin bitisine tasiyor.",
+        "B": "Yer degistirme -- on bes kisilik kontenjan staj programina ait (A metni C/2); secenek bu sayiyi mezun programina yukluyor.",
+        "D": "Yakin ama eksik -- metin davetin ertesi yil icin oldugunu soyluyor; stajin bitisinden birkac hafta sonra baslayan bir programdan soz edilmiyor."
       },
-      "explanation": "Paragraph D of Text A says that strong interns may be invited to apply for the graduate programme the following year, but this is not guaranteed and depends on business need.",
+      "explanation": "Paragraph D of Text A says that strong performers may be invited to apply for the graduate programme the following year, though this is not guaranteed and depends on business need.",
       "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
+      "status": "verified",
+      "blind_solvable": null,
       "blind_basis": "option_wording",
       "flag_reason": "Secenek C'deki 'depends partly on' (kismen bagli) olculu ifadesi, metnin kendi hedge'iyle ('not guaranteed... depends on business need') ortusuyor; A'daki 'any intern' (herhangi bir stajyer) mutlak genellemesi ise metnin 'guclu performans gosterenler' sinirlamasiyla celisiyor -- bu kesinlik farki parcaya bakmadan da C'yi isaret ediyor.",
-      "flag_mechanism": "kip_imzasi"
+      "flag_mechanism": "kip_imzasi",
+      "revision": {
+        "tarih": "2026-08-08",
+        "mekanizma": "kip_imzasi",
+        "onceki_prompt": "What does the writer say about the graduate programme?",
+        "onceki_secenekler": {
+          "A": "Any intern can apply for it after the placement",
+          "B": "It takes on fifteen graduates across the departments",
+          "C": "An invitation to apply depends partly on company needs",
+          "D": "It begins soon after the internship comes to an end"
+        },
+        "ne_degisti": "Kip ters yone cevrildi: dogru secenek C'nin olculu ifadesi ('depends partly on') kesin bicime getirildi ('are tied to what the business needs'), buna karsilik A ve D olculu kipe cekildi ('any intern can' -> 'interns may', 'begins soon after' -> 'is likely to start'). Artik olculu yazilan iki secenek de yanlis, kesin yazilan iki secenegin biri dogru; 'olculu = dogru' imzasi kalkti."
+      }
     },
     {
       "number": 22,
@@ -62,7 +74,7 @@
       "options": [
         {
           "letter": "A",
-          "text": "They may need to spend more days in the office"
+          "text": "They can be asked to come in on more days than others"
         },
         {
           "letter": "B",
@@ -70,11 +82,11 @@
         },
         {
           "letter": "C",
-          "text": "They need approval from HR as well as a manager"
+          "text": "They might also need written approval from the HR team"
         },
         {
           "letter": "D",
-          "text": "They are given extra money for home equipment"
+          "text": "They receive a larger equipment allowance than other staff"
         }
       ],
       "answer": [
@@ -87,17 +99,29 @@
         "sentence": 2
       },
       "distractor_analysis": {
-        "B": "Kapsam kaydırma — pasaj bu rollerin ofise daha sık çağrılabileceğini söylüyor; seçenek bunu tam bir uzaktan çalışma yasağına büyütüyor.",
-        "C": "Yer değiştirme — hem İK'dan hem ilgili ülke ofisinden yazılı onay şartı yurt dışından çalışmak için geçerli; müşteriyle çalışan roller için değil.",
-        "D": "Cazip ama yok — ev ofisi ekipmanı için yıllık 150 sterlinlik geri ödeme herkes için aynı; bu gruba ek bir ödeme pasajda geçmiyor."
+        "B": "Kapsam kaydirma -- metin bu rollerin ofise daha sik cagrilabilecegini soyluyor (B metni A/2); secenek bunu tam bir uzaktan calisma yasagina buyutuyor.",
+        "C": "Yer degistirme -- hem IK'dan hem ilgili ulke ofisinden yazili onay sarti yurt disindan calismak icin gecerli (B metni D/2); musteriyle calisan roller icin degil.",
+        "D": "Yakin ama eksik -- ev ofisi ekipmani icin yillik 150 sterlinlik geri odeme butun uzaktan calisanlar icin ayni (B metni B/4); bu gruba ek bir odenek taninmiyor."
       },
-      "explanation": "Paragraph A of Text B says that staff in client-facing roles may be required to attend the office more often, regardless of the general policy.",
+      "explanation": "Paragraph A of Text B says that staff in client-facing roles may be required to attend the office more frequently, regardless of the general policy on remote days.",
       "difficulty": "easy",
-      "status": "flagged",
-      "blind_solvable": true,
+      "status": "verified",
+      "blind_solvable": null,
       "blind_basis": "option_wording",
       "flag_reason": "Secenek A'daki 'may need' (ihtiyac duyabilir) olculu ifadesi, metnin kendi hedge'iyle ('may be required') birebir ortusuyor; B'deki 'not allowed... at all' (kesinlikle yasak) mutlakligi ise metnin daha yumusak ifadesini asiyor -- bu kesinlik derecesi farki parcaya bakmadan da A'yi isaret ediyor.",
-      "flag_mechanism": "kip_imzasi"
+      "flag_mechanism": "kip_imzasi",
+      "revision": {
+        "tarih": "2026-08-08",
+        "mekanizma": "kip_imzasi",
+        "onceki_prompt": "What does the writer say about staff who deal directly with clients?",
+        "onceki_secenekler": {
+          "A": "They may need to spend more days in the office",
+          "B": "They are not allowed to work remotely at all",
+          "C": "They need approval from HR as well as a manager",
+          "D": "They are given extra money for home equipment"
+        },
+        "ne_degisti": "Dogru secenek A metnin kendi 'may be required' kalibini birebir yankilamayacak bicimde yeniden yazildi ('may need to spend' -> 'can be asked to come in'), celdiricilerden C olculu kipe cekildi ('need approval' -> 'might also need'), D ise kesin bicimde birakildi. Yeni dagilim: olculu 2 secenegin 1'i dogru, kesin 2 secenegin 0'i dogru. GT2 setinin tamami icinde (21 ve 22 birlikte) olculu 4 secenegin 1'i, kesin 4 secenegin 1'i dogru -- set duzeyinde kip dengelenmis oldu."
+      }
     },
     {
       "number": "23-24",
@@ -152,11 +176,12 @@
       },
       "explanation": "Paragraph B of Text B requires remote workers to be available on instant messaging during core hours, while paragraph D requires them to notify HR in advance of any change in working location lasting more than two weeks.",
       "difficulty": "hard",
-      "status": "flagged",
+      "status": "rejected",
       "blind_solvable": true,
       "blind_basis": "general_knowledge",
       "flag_reason": "Cevaplar B ve D, uzaktan calisma politikalarinda 'cekirdek saatlerde ulasilabilir olma' ve 'kalici konum degisikligini IK'ya bildirme' gibi sikca rastlanan standart kurallar olmasi sayesinde parcaya bakmadan da tahmin edilebiliyor.",
-      "flag_mechanism": "genel_kultur"
+      "flag_mechanism": "genel_kultur",
+      "reject_reason": "Sorunun ekseni uzaktan calisma politikalarinin standart maddeleri: cekirdek saatlerde ulasilabilir olmak (B) ve kalici konum degisikligini IK'ya bildirmek (D) bu tur politikalarda neredeyse her zaman bulunur. Secenek dengelemesi bu ekseni degistirmez."
     }
   ]
 }

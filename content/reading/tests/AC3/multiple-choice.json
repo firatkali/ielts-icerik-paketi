@@ -48,32 +48,33 @@
       },
       "explanation": "Paragraph A says that the town was buried so completely that timber, food and even fabric survived for centuries in a way rarely seen at other Roman sites; these items are listed to show how unusual the preservation was.",
       "difficulty": "medium",
-      "status": "flagged",
+      "status": "rejected",
       "blind_solvable": true,
       "blind_basis": "general_knowledge",
       "flag_reason": "Cevap B, Herculaneum'un volkanik kul altinda organik malzemelerin (ahsap, kumas, yiyecek) olaganustu iyi korunmasiyla unlu olmasi yaygin arkeoloji bilgisiyle parcaya bakmadan da tahmin edilebiliyor.",
-      "flag_mechanism": "genel_kultur"
+      "flag_mechanism": "genel_kultur",
+      "reject_reason": "Sorunun ekseni arkeoloji genel bilgisi: Herculaneum'un organik malzemeyi -- ahsap, yiyecek, kumas -- olaganustu iyi korumasiyla taninmasi yaygin bir bilgi. Sayilan nesnelerin neden anildigi bu bilgiyle dogrudan biliniyor; secenek dengelemesi bunu kapatmaz."
     },
     {
       "number": 33,
       "select_count": 1,
-      "prompt": "What did the team's purpose-built image-processing method make possible?",
+      "prompt": "What was the team's purpose-built image-processing method used for?",
       "options": [
         {
           "letter": "A",
-          "text": "Recording the material's chemical composition"
+          "text": "Working out which elements the glassy material contained"
         },
         {
           "letter": "B",
-          "text": "Confirming every sheath layer had survived"
+          "text": "Checking that the sheaths still had all their layers"
         },
         {
           "letter": "C",
-          "text": "Telling real nerve structures from stray fragments"
+          "text": "Picking out real nerve tissue among the glass around it"
         },
         {
           "letter": "D",
-          "text": "Examining a much larger set of samples"
+          "text": "Matching the proteins found against brain reference databases"
         }
       ],
       "answer": [
@@ -85,17 +86,29 @@
         "sentence": 3
       },
       "distractor_analysis": {
-        "A": "Yer değiştirme — kimyasal bileşimi ölçen iş, aynı paragrafta sayılan X ışını yöntemine ait; görüntü işleme rutininin işlevi bu değil.",
-        "B": "Kapsam kaydırma — kılıfların çok katmanlı yapısını koruduğu gerçekten söyleniyor, ama bu E paragrafındaki bir ölçüm sonucu; yöntem katmanların eksiksizliğini doğrulamak için değil, miyeline özgü tekrarlayan deseni yakalamak için geliştirildi.",
-        "D": "Cazip ama yok — örnek sayısından ya da yöntemin incelemeyi hızlandırdığından hiç söz edilmiyor; buluntu tek bir bireye ait."
+        "A": "Yer degistirme -- kimyasal bilesimi olcen is, ayni paragrafta sayilan enerji dagilimli X isini yontemine ait (D/2); goruntu isleme rutininin islevi bu degil.",
+        "B": "Kapsam kaydirma -- kiliflarin cok katmanli yapisini korudugu E/2'de bir olcum sonucu olarak veriliyor; yontem katmanlarin eksiksizligini dogrulamak icin degil, miyeline ozgu tekrarlayan deseni yakalamak icin gelistirildi.",
+        "D": "Yer degistirme -- proteinlerin referans veri tabanlariyla karsilastirilmasi D/4'te ayri ve son basamak olarak sayiliyor; goruntu isleme rutini protein degil desen ariyor."
       },
-      "explanation": "Paragraph D says that the custom image-processing method, developed to detect the repeating pattern of myelin, helped distinguish genuine neural structures from random glassy debris.",
+      "explanation": "Paragraph D says the custom image-processing method, developed to detect the repeating pattern typical of myelin, helped distinguish genuine neural structures from random glassy debris.",
       "difficulty": "hard",
-      "status": "flagged",
-      "blind_solvable": true,
+      "status": "verified",
+      "blind_solvable": null,
       "blind_basis": "logic",
       "flag_reason": "Cevap C, ozel goruntu isleme yonteminin islevini dogrudan veriyor: miyelinin tekrarlayan desenini yakalayarak gercek sinir yapilarini rastgele camsi kalintidan ayirmak; A kimyasal bilesim olcumunu, B katman butunlugunu dogrulamayi, D ornek sayisini iddia ediyor, ucu de metnin verdigi islevle celisir.",
-      "flag_mechanism": "konumsal_duzen"
+      "flag_mechanism": "konumsal_duzen",
+      "revision": {
+        "tarih": "2026-08-08",
+        "mekanizma": "konumsal_duzen",
+        "onceki_prompt": "What did the team's purpose-built image-processing method make possible?",
+        "onceki_secenekler": {
+          "A": "Recording the material's chemical composition",
+          "B": "Confirming every sheath layer had survived",
+          "C": "Telling real nerve structures from stray fragments",
+          "D": "Examining a much larger set of samples"
+        },
+        "ne_degisti": "Eski D ('cok daha buyuk bir ornek kumesi') uydurmaydi ve buluntunun tek bir bireye ait olmasiyla acikca celisiyordu; B ise dogrulanamayan bir mutlaklik ('her katman') tasiyordu. Dort secenek de artik D ve E paragraflarinda gercekten anlatilan islerden biri (X isini olcumu, katmanli yapinin olculmesi, desen ayikliyici rutin, veri tabani karsilastirmasi); hangi isin hangi yontemin oldugunu bilmek icin paragrafi okumak gerekiyor. Dogru secenek kanit cumlesinin sozcuklerinden de uzaklastirildi."
+      }
     },
     {
       "number": "34-35",
@@ -149,11 +162,12 @@
       },
       "explanation": "Paragraph F says that among the proteins specific to brain tissue was one needed for communication between neurons, and paragraph G says that, by atomic composition, the material was made up of carbon and oxygen (about 65% and 31% respectively).",
       "difficulty": "hard",
-      "status": "flagged",
+      "status": "rejected",
       "blind_solvable": true,
       "blind_basis": "general_knowledge",
       "flag_reason": "Cevap B, organik dokunun buyuk kismini karbon ve oksijenin olusturmasi temel kimya/biyoloji bilgisiyle (organik maddenin karbon temelli olmasi) parcaya bakmadan da tahmin edilebiliyor; F ise beyin dokusuna ozgu bir sinyal proteininin varligini, camlasmis dokunun gercekten beyin kokenli oldugunu gosteren beklenen bir bulgu olarak tasiyor.",
-      "flag_mechanism": "genel_kultur"
+      "flag_mechanism": "genel_kultur",
+      "reject_reason": "Sorunun ekseni temel kimya/biyoloji bilgisi: organik dokunun buyuk kismini karbon ve oksijenin olusturmasi (B) ve beyin dokusunda noronlar arasi iletisimle ilgili bir proteinin bulunmasi (F) beklenen bulgular. Iki dogru secenek de pasaji degil alan bilgisini siniyor."
     }
   ]
 }

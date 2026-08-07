@@ -14,23 +14,23 @@
     {
       "number": 32,
       "select_count": 1,
-      "prompt": "What did combining the three sets of records allow the researchers to do?",
+      "prompt": "Why did the researchers combine three separate sets of records?",
       "options": [
         {
           "letter": "A",
-          "text": "Follow employees as they moved between departments"
+          "text": "To follow employees as they moved between departments"
         },
         {
           "letter": "B",
-          "text": "See each person's output alongside who their teammates were"
+          "text": "To set an individual's output beside the teammates around them"
         },
         {
           "letter": "C",
-          "text": "Check company figures against what staff reported themselves"
+          "text": "To check the company's own figures against what staff reported"
         },
         {
           "letter": "D",
-          "text": "Cover a longer period than one source alone"
+          "text": "To stretch the study over more months than one source covered"
         }
       ],
       "answer": [
@@ -42,17 +42,29 @@
         "sentence": 4
       },
       "distractor_analysis": {
-        "A": "Kapsam kaydırma — kayıtlar tek bir departmandan alınıyor, dolayısıyla departmanlar arası hareketi izlemek söz konusu değil; kaynaklardan birinin personel dosyaları olması bunu akla yatkın kılıyor.",
-        "C": "Yakın ama eksik — çalışanın kendi beyanına dayanan ölçüler pasajda anılıyor, ama karşılaştırma malzemesi olarak değil, kaçınılan bir belirsizlik kaynağı olarak.",
-        "D": "Cazip ama yok — inceleme dönemi bir yılla sınırlı ve bu süre kaynak sayısına bağlı değil; birleştirmenin sağladığı şey daha uzun süre değil, daha geniş bilgi."
+        "A": "Kapsam kaydirma -- kayitlar sirketin tek bir departmanindan aliniyor (B/1), dolayisiyla departmanlar arasi hareketi izlemek soz konusu degil; kaynaklardan birinin insan kaynaklari kayitlari olmasi bunu akla yatkin kiliyor.",
+        "C": "Yakin ama eksik -- calisanin kendi beyanina dayanan olculer D/1'de aniliyor, ama karsilastirma malzemesi olarak degil, kacinilan bir belirsizlik kaynagi olarak.",
+        "D": "Cazip ama yok -- inceleme donemi Nisan 2022 - Mart 2023 ile sinirli ve bu sure kaynak sayisina bagli degil; birlestirmenin sagladigi sey daha uzun sure degil, daha genis bilgi."
       },
-      "explanation": "Paragraph B says that combining the three sources let the researchers see not only how much each employee produced, but also who they worked alongside and how often they messaged their teammates.",
+      "explanation": "Paragraph B says that combining the three sources let the researchers see not only how much each employee produced, but also who they were working alongside and how often they exchanged messages with teammates.",
       "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
+      "status": "verified",
+      "blind_solvable": null,
       "blind_basis": "logic",
       "flag_reason": "Cevap B, uc kaynagin birlestirilmesinin sagladigi seyi dogrudan veriyor: kim kiminle calisiyor bilgisiyle bireysel ciktinin birlikte gorulmesi; A departmanlar arasi hareketi, C oz-beyanla kiyaslamayi, D sure uzatmayi iddia ediyor, ucu de metnin verdigi somut faydayla celisir ve elenir.",
-      "flag_mechanism": "konumsal_duzen"
+      "flag_mechanism": "konumsal_duzen",
+      "revision": {
+        "tarih": "2026-08-08",
+        "mekanizma": "konumsal_duzen",
+        "onceki_prompt": "What did combining the three sets of records allow the researchers to do?",
+        "onceki_secenekler": {
+          "A": "Follow employees as they moved between departments",
+          "B": "See each person's output alongside who their teammates were",
+          "C": "Check company figures against what staff reported themselves",
+          "D": "Cover a longer period than one source alone"
+        },
+        "ne_degisti": "Dogru secenek kanit cumlesinin sozcuklerinden uzaklastirildi ('see... how much each employee produced, but who they were working alongside' -> 'set an individual's output beside the teammates around them'). Soru koku de 'neden birlestirildi' bicimine cekilip dort secenek ayni amac kalibina ('To ...') getirildi; boylece dogru secenegi kanit cumlesinin yankisi olmasindan taniyan kestirme kapandi."
+      }
     },
     {
       "number": 33,
@@ -61,19 +73,19 @@
       "options": [
         {
           "letter": "A",
-          "text": "The claim that messaging can be measured at all"
+          "text": "The finding that newcomers gain most from experienced teammates"
         },
         {
           "letter": "B",
-          "text": "The finding that new staff gain from experience"
+          "text": "The claim that team membership was decided at random"
         },
         {
           "letter": "C",
-          "text": "The rule that teams are formed by joining order"
+          "text": "The measure chosen to judge how much work each person did"
         },
         {
           "letter": "D",
-          "text": "The idea that experienced teams communicate more"
+          "text": "The assumption that longer-serving teams keep in touch more often"
         }
       ],
       "answer": [
@@ -85,17 +97,29 @@
         "sentence": 1
       },
       "distractor_analysis": {
-        "A": "Cazip ama yok — mesajlaşma kayıtları üç veri kaynağından biri olarak sayılıyor, yani ölçülebilirlikleri tartışma konusu değil.",
-        "B": "Kapsam kaydırma — yeni çalışanların deneyimli takımlardan kazandığı belirtiliyor ve bu bulgu çürütülmüyor, tersine sayılarla destekleniyor.",
-        "C": "Yer değiştirme — katılma sırasına göre takım kurma gerçekten şirketin kuralı, ama mesajlaşma bulgusu bu kuralı değil, deneyimle iletişim arasında varsayılan bağı sarsıyor."
+        "A": "Yakin ama eksik -- ilk yilindaki calisanlarin yaklasik yuzde 26.2 kazandigi bulgusu F/2'de veriliyor ve mesajlasma bulgusu bunu sarsmiyor, tersine aciklamaya calisiyor.",
+        "B": "Yer degistirme -- katilma sirasina gore takim kurma C/1'de anlatiliyor ve calismanin gucu olarak sunuluyor; mesajlasma bulgusu bu duzeni degil, deneyimle iletisim arasinda varsayilan bagi sorguluyor.",
+        "C": "Yakin ama eksik -- hizmet verilen musteri sayisinin cikti olcusu olarak secilmesi D/1-2'de savunuluyor; mesajlasma bulgusu bu olcunun gecerliligine dokunmuyor."
       },
-      "explanation": "Paragraph G says the seemingly obvious explanation that experienced teams simply talk to one another more was complicated by a further finding.",
+      "explanation": "Paragraph G says a further finding complicated the obvious explanation that experienced teams simply talk to one another more: the teams with the highest average tenure in fact communicated internally less.",
       "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
+      "status": "verified",
+      "blind_solvable": null,
       "blind_basis": "logic",
       "flag_reason": "Cevap D, mesajlasma bulgusunun sorguladigi seyi dogrudan veriyor: deneyimli takimlarin daha cok konustugu varsayimi; A olculebilirlik iddia ediyor, B yeni calisanlarin kazanimini curutuyor (curutulmuyor), C katilma sirasi kuralini hedef gosteriyor -- yalniz D metnin 'complicated the obvious explanation' ifadesiyle birebir ortusuyor.",
-      "flag_mechanism": "konumsal_duzen"
+      "flag_mechanism": "konumsal_duzen",
+      "revision": {
+        "tarih": "2026-08-08",
+        "mekanizma": "konumsal_duzen",
+        "onceki_prompt": "What did the finding on internal messaging call into question?",
+        "onceki_secenekler": {
+          "A": "The claim that messaging can be measured at all",
+          "B": "The finding that new staff gain from experience",
+          "C": "The rule that teams are formed by joining order",
+          "D": "The idea that experienced teams communicate more"
+        },
+        "ne_degisti": "Eski A ('mesajlasmanin olculebilirligi') anlamca sacma oldugu icin parcasiz eleniyordu ve geri kalan iki celdirici de pasajin acikca dogruladigi seyleri hedef gosteriyordu. Dort secenek de artik metnin gercekten kurdugu birer iddia (F/2 yeni calisanlarin kazanci, C/1 rastgele takim kurulusu, D/1-2 cikti olcusu, G/1 deneyim-iletisim bagi) ve hepsi 'sorgulanabilir' cercevede; ayirt etme G/1'i okumaya bagli. Dogru secenek de kanit cumlesinin sozcuklerinden uzaklastirildi."
+      }
     },
     {
       "number": "34-35",
@@ -104,31 +128,31 @@
       "options": [
         {
           "letter": "A",
-          "text": "Teams were formed by joining order"
+          "text": "Star performers were spread too thinly across the teams"
         },
         {
           "letter": "B",
-          "text": "Top performers were scattered across teams"
+          "text": "Employees' first six months were left out of the figures"
         },
         {
           "letter": "C",
-          "text": "Pay reflects each employee's own output"
+          "text": "Employees are paid only for what they produce themselves"
         },
         {
           "letter": "D",
-          "text": "New staff were excluded from the analysis"
+          "text": "Each client contract fixes the hours a worker gives"
         },
         {
           "letter": "E",
-          "text": "Star performers messaged teammates less often"
+          "text": "Highly productive staff sent fewer messages than others"
         },
         {
           "letter": "F",
-          "text": "Colleagues never meet one another in person"
+          "text": "Colleagues never see one another face to face"
         },
         {
           "letter": "G",
-          "text": "Contracts fix the hours each worker gives"
+          "text": "Teams were formed by joining order rather than by choice"
         }
       ],
       "answer": [
@@ -141,19 +165,34 @@
         "sentence": 2
       },
       "distractor_analysis": {
-        "A": "Yakın ama eksik — takımların katılma sırasına göre kurulduğu doğru, ama bu kural etkinin neden görünmediğini değil, bulgunun neden güvenilir sayıldığını açıklıyor.",
-        "B": "Yer değiştirme — en iyi çalışanları takımlara dağıtmak metinde uygulanmış bir düzen olarak değil, yazarın sonunda önermediği bir yönetim alışkanlığı olarak geçiyor.",
-        "D": "Kapsam kaydırma — dışarıda bırakılan şey çalışanların ilk altı ayı; yeni personelin kendisi analizde var, üstelik en büyük kazanç onlarda bulunuyor.",
-        "E": "Yer değiştirme — az iletişimle ilgili bulgu, verimli çalışanların düşük iletişimli ortamlarda daha iyi iş çıkardığını söylüyor; bu kişilerin daha az mesaj yazdığı iddia edilmiyor.",
-        "G": "Yakın ama eksik — her sözleşmenin sabit otuz saat ayırdığı doğru, ama bu bilgi çıktının nasıl ölçüldüğüyle ilgili, akran etkisinin yokluğuyla değil."
+        "A": "Yer degistirme -- en iyi calisanlari takimlara dagitmak H/4'te yazarin *onermedigi* bir yonetim aliskanligi olarak geciyor; sirkette uygulanan bir duzen degil, dolayisiyla etkinin yoklugunu aciklayamaz.",
+        "B": "Kapsam kaydirma -- disarida birakilan sey calisanlarin ilk alti ayi (B/1) ve amaci ornegin yerlesik personelden olusmasi; yeni personelin kendisi analizde var, ustelik en buyuk kazanc onlarda (F/2).",
+        "D": "Yakin ama eksik -- her musteri sozlesmesinin sabit otuz saat ayirdigi D/1'de veriliyor, ama bu bilgi ciktinin nasil olculdugune ait; akran etkisinin yokluguyla ilgili degil.",
+        "E": "Yer degistirme -- G/1 deneyimli ya da zaten verimli calisanlarin *dusuk iletisimli ortamlarda* daha iyi is cikardigini soyluyor; bu kisilerin daha az mesaj yazdigi iddia edilmiyor.",
+        "G": "Yakin ama eksik -- katilma sirasina gore takim kurulusu C/1'de calismanin nicin guvenilir sayildigini acikliyor; etkinin neden gorunmedigini degil."
       },
-      "explanation": "Paragraph H says the company paying only for individual output removes the incentive to match the team, and with no face-to-face contact either, peer pressure barely operates at all.",
+      "explanation": "Paragraph H says that Caster pays employees according to individual output alone, which removes much of the incentive to match a team's overall performance, and that without face-to-face contact to reinforce peer pressure it appears to have little effect at all.",
       "difficulty": "hard",
-      "status": "flagged",
-      "blind_solvable": true,
+      "status": "verified",
+      "blind_solvable": null,
       "blind_basis": "logic",
       "flag_reason": "Cevaplar C ve F, metnin akran etkisinin neden gorulmedigini acikladigi iki mekanizmayi dogrudan veriyor: bireysel odemeye gore ucret (C) ve yuz yuze temas olmamasi (F); oteki secenekler baska bir bulguyu ya da yer degistirilmis bir ayrintiyi anlatiyor, akran etkisinin yoklugunu dogrudan aciklamiyor.",
-      "flag_mechanism": "konumsal_duzen"
+      "flag_mechanism": "konumsal_duzen",
+      "revision": {
+        "tarih": "2026-08-08",
+        "mekanizma": "konumsal_duzen",
+        "onceki_prompt": "Which TWO reasons are given for star colleagues having no effect?",
+        "onceki_secenekler": {
+          "A": "Teams were formed by joining order",
+          "B": "Top performers were scattered across teams",
+          "C": "Pay reflects each employee's own output",
+          "D": "New staff were excluded from the analysis",
+          "E": "Star performers messaged teammates less often",
+          "F": "Colleagues never meet one another in person",
+          "G": "Contracts fix the hours each worker gives"
+        },
+        "ne_degisti": "Eskiden yalniz C ve F 'etkinin neden gorunmedigi' cercevesinde yaziliyor, oteki bes secenek baska bir bulguyu ya da yontem ayrintisini anlatiyordu; bu yuzden cerceve tek basina dogru ikiliyi veriyordu. Yedi secenek de yeniden yazilarak ayni cerceveye tasindi -- her biri simdi akran etkisinin yoklugu icin one surulebilecek makul bir aciklama bicimindedir (dagitim, orneklem disi birakma, sabit saat, dusuk mesajlasma, atama duzeni) ve yanlisliklari ancak pasajda nereye ait olduklari gorulunce anlasiliyor."
+      }
     }
   ]
 }

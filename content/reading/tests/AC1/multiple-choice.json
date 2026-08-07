@@ -48,32 +48,33 @@
       },
       "explanation": "Paragraph B says the island's unusual water chemistry comes from its geology: magma beneath the seafloor feeds shallow vents that continuously release carbon dioxide directly beside a living coral reef.",
       "difficulty": "medium",
-      "status": "flagged",
+      "status": "rejected",
       "blind_solvable": true,
       "blind_basis": "general_knowledge",
       "flag_reason": "Cevap B, volkanik adalarda magmanin deniz tabani altindaki bacalardan surekli gaz salmasi (fumarol/hidrotermal baca olgusu) yaygin jeoloji bilgisiyle parcaya bakmadan da tahmin edilebiliyor; yazarin jeolojiyi anlatma amacinin sudaki kimyayi aciklamak oldugu boylece cikarilabiliyor.",
-      "flag_mechanism": "genel_kultur"
+      "flag_mechanism": "genel_kultur",
+      "reject_reason": "Sorunun ekseni jeoloji genel bilgisi: volkanik adalarda magmanin deniz tabani bacalarindan surekli gaz salmasi bilinen bir olgu, dolayisiyla yazarin jeolojiyi neden anlattigi parcaya bakmadan cikarilabiliyor. Celdiricileri metne capalamak sorunun eksenini degistirmiyor."
     },
     {
       "number": 33,
       "select_count": 1,
-      "prompt": "What does the writer say about the survey begun in 2014?",
+      "prompt": "What does the writer say about the survey that began in May 2014?",
       "options": [
         {
           "letter": "A",
-          "text": "It was to be followed by another visit that year"
+          "text": "A second visit was planned for later the same year"
         },
         {
           "letter": "B",
-          "text": "It was the first study ever made at the island"
+          "text": "It was the first time instruments were left recording there"
         },
         {
           "letter": "C",
-          "text": "It was run from a laboratory in Miami"
+          "text": "The material the divers collected was analysed on site"
         },
         {
           "letter": "D",
-          "text": "It replaced an earlier attempt that had failed"
+          "text": "It was run by a team based in the Northern Marianas"
         }
       ],
       "answer": [
@@ -85,17 +86,29 @@
         "sentence": 1
       },
       "distractor_analysis": {
-        "B": "Kapsam kaydırma — pasaj bu sahanın dünyanın en yakından incelenen resif alanlarından biri olduğunu söylüyor, yani daha önce de çalışılmış; ayrıntılı bir tarama olması onu ilk çalışma yapmaz.",
-        "C": "Yer değiştirme — Miami'deki üniversite ekibin bağlı olduğu kurum olarak anılıyor, ama ölçümler sahada yapılıyor ve laboratuvara yalnızca toplanan malzeme gönderiliyor.",
-        "D": "Cazip ama yok — başarısız olmuş önceki bir çalışmadan söz edilmiyor; tarih bilgisi bulunduğu için makul görünüyor."
+        "B": "Cazip ama yok -- ekibin surekli kayit alan cihazlar yerlestirdigi D/2'de soyleniyor, ama bunun ilk kez yapildigina dair bir ifade yok; ustelik A/1 sahanin dunyanin en yakindan incelenen resif alanlarindan biri oldugunu soyluyor.",
+        "C": "Yer degistirme -- dalgiclarin hunilerle topladigi gaz kabarciklari acikca 'laboratuvar analizi icin' toplaniyor (D/2); olcumlerin bir kismi sahada surse de toplanan malzeme sahada incelenmiyor.",
+        "D": "Yer degistirme -- ekibi yoneten Ian Enochs, NOAA'nin Miami Universitesi'ndeki enstitusune bagli (D/1); Kuzey Mariana Adalari calismanin yeri, ekibin merkezi degil."
       },
-      "explanation": "Paragraph D says the detailed survey began in May 2014, with a follow-up visit planned for that August.",
+      "explanation": "Paragraph D says the detailed survey at Maug began in May 2014, with a follow-up visit planned for that August.",
       "difficulty": "easy",
-      "status": "flagged",
-      "blind_solvable": true,
+      "status": "verified",
+      "blind_solvable": null,
       "blind_basis": "option_wording",
       "flag_reason": "Secenek A, 'baslanan tarama' ile ayni yil icinde planlanmis bir takip ziyaretini eslestiren tek secenek; B taramanin ilkligini iddia ediyor (kapsam abartma), C yontemin yerini degistiriyor, D var olmayan bir basarisiz denemeden soz ediyor -- yalniz A metnin verdigi somut ayrintiyla (Agustos'taki takip ziyareti) birebir ortusuyor.",
-      "flag_mechanism": "konumsal_duzen"
+      "flag_mechanism": "konumsal_duzen",
+      "revision": {
+        "tarih": "2026-08-08",
+        "mekanizma": "konumsal_duzen",
+        "onceki_prompt": "What does the writer say about the survey begun in 2014?",
+        "onceki_secenekler": {
+          "A": "It was to be followed by another visit that year",
+          "B": "It was the first study ever made at the island",
+          "C": "It was run from a laboratory in Miami",
+          "D": "It replaced an earlier attempt that had failed"
+        },
+        "ne_degisti": "Eski celdiriciler bicimlerinden taniniyordu: B 'ilk kez yapilan calisma' seklinde bir kapsam abartmasi, D var olmayan basarisiz bir denemeye gonderme, C ise gorunurde ilgisiz bir yer degisikligiydi; olculu ve somut yazilmis tek secenek A kaliyordu. Simdi dort secenek de ayni somutlukta, pasajin gercek ayrintilarina capalanmis olgu iddialari (cihaz yerlestirme D/2, laboratuvar analizi D/2, ekibin bagli oldugu kurum D/1)."
+      }
     },
     {
       "number": "34-35",
@@ -149,11 +162,12 @@
       },
       "explanation": "Paragraph F says the carbon dioxide appears to reshape the reef community itself, not just the water's chemistry; paragraph G says a related study focused on what happens inside coral skeletons rather than on the seafloor.",
       "difficulty": "hard",
-      "status": "flagged",
+      "status": "rejected",
       "blind_solvable": true,
       "blind_basis": "general_knowledge",
       "flag_reason": "Cevaplar C ve F, asitlenme calismalarinin tipik olarak biri 'canli topluluk' (deniz tabani ekosistemi) digeri 'iskelet ic yapisi' seklinde iki ayri arastirma eksenine ayrilmasi -- bilim habercileri anlatimlarinin yaygin bir kalibi -- bilgisiyle parcaya bakmadan da tahmin edilebiliyor.",
-      "flag_mechanism": "genel_kultur"
+      "flag_mechanism": "genel_kultur",
+      "reject_reason": "Sorunun ekseni alan bilgisi: okyanus asitlenmesi calismalarinin biri deniz tabani toplulugu, digeri iskeletin ic yapisi olmak uzere iki eksende yurutuldugu genel olarak biliniyor. Yedi secenek arasindan hangilerinin 'calisilmis' oldugunu secmek pasaji degil bu yerlesik kalibi olcuyor."
     }
   ]
 }

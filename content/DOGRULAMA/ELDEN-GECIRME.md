@@ -229,3 +229,230 @@ da dokundu: 2026-08-08 kuralı gereği bütün `explanation` alanları İngilizc
   eseri, E5'in değil.
 - `answer` / `evidence` / `evidence_locator` karşılaştırması çözümden **sonra**
   yukarı akış sürümüne karşı yeniden koşuldu: yine 0 fark.
+
+---
+
+## 2. çalıştırma — çoktan seçmeli, kip imzası + konumsal düzen · 2026-08-08
+
+### Kapsam ve kendi sayımım
+
+Talimatın 1. kuralı gereği yeniden saydım. `content/reading` altında
+`question_type: "multiple_choice"` taşıyan yedi dosya var; içlerindeki
+`status: "flagged"` **yuva sayısı 30**, ama bu 30 yuva **39 soruya** karşılık
+geliyor: dokuz yuva `select_count: 2` (iki harf seçilen "TWO letters" tipi) ve
+cevap kâğıdında iki kutu tutuyor.
+
+| Dosya | Yuva | Soru | İşaretli yuva |
+|---|---|---|---|
+| `content/reading/practice/multiple-choice.json` | 12 | 15 | 12 |
+| `content/reading/tests/AC1/multiple-choice.json` | 3 | 4 | 3 |
+| `content/reading/tests/AC2/multiple-choice.json` | 3 | 4 | 3 |
+| `content/reading/tests/AC3/multiple-choice.json` | 3 | 4 | 3 |
+| `content/reading/tests/AC4/multiple-choice.json` | 3 | 4 | 3 |
+| `content/reading/tests/GT1/multiple-choice.json` | 3 | 4 | 3 |
+| `content/reading/tests/GT2/multiple-choice.json` | 3 | 4 | 3 |
+| **toplam** | **30** | **39** | **30** |
+
+Tipin tamamı işaretli. E1'in dağılım tablosundaki 30 sayısı **yuva** sayımı;
+soru sayımı 39. E10 bu tipe hiç dokunmadı (üç çalıştırması da tamamlama
+ailesindeydi), dolayısıyla ek işaretli yok.
+
+Mekanizma dağılımı da E1'inkiyle birebir tuttu: `konumsal_duzen` 12,
+`genel_kultur` 14, `kip_imzasi` 4.
+
+### Sonuç dağılımı
+
+| Sonuç | Yuva | Soru | Nerede |
+|---|---|---|---|
+| **Düzeltildi** | 16 | 19 | konumsal_düzen 12 + kip_imzası 4 |
+| **Elendi** | 14 | 20 | genel_kültür 14 |
+| **Dokunulmadı** | 0 | 0 | — |
+| **toplam** | **30** | **39** | |
+
+1. çalıştırmadaki gibi elenen küme ile `genel_kultur` kümesi bu tipte de birebir
+örtüşüyor. Bu çalıştırmanın başlığındaki iki mekanizmanın (kip imzası + konumsal
+düzen) **16 yuvasının 16'sı düzeltildi**; dokunulmadan bırakılan yuva yok.
+
+### a) Kip imzası — 4 yuva
+
+Dört yuvada da imza aynıydı ve kusursuz çalışıyordu: **ölçülü yazılmış her
+seçenek doğru, kesin yazılmış hiçbir seçenek doğru değildi.**
+
+| | Ölçülü seçenek | bunlardan doğru | Kesin seçenek | bunlardan doğru |
+|---|---|---|---|---|
+| **önce** | 6 | **6 (%100)** | 16 | **0 (%0)** |
+| **sonra** | 11 | 3 (%27) | 11 | 3 (%27) |
+
+Düzeltme tek yönlü olamazdı: yalnız çeldiricileri yumuşatsaydım "ölçülü = yanlış"
+biçiminde ters bir imza kurardım. Bu yüzden her yuvada iki yön birden çalıştı —
+bir doğru seçenek kesin kipe çekildi, bir ya da iki çeldirici ölçülü kipe.
+
+| Yuva | Doğru seçenek kesinleşti | Çeldirici ölçülüleşti |
+|---|---|---|
+| practice-3-4 | F: "cannot yet be excluded" → "**remain too poorly understood**" | A "may also", B "appears to", D "probably" |
+| practice-7-8 | F: "may have been present" → "**is the first genetic sign**" | D "may have to be abandoned", E "probably descends" |
+| GT2-21 | C: "depends **partly on**" → "**are tied to** what the business needs" | A "may apply", D "is likely to start" |
+| GT2-22 | — (A ölçülü kaldı) | C "might also need" |
+
+GT2-22'de doğru seçeneği kesinleştirmedim, çünkü GT2-21 zaten kesin bir doğru
+seçenek kazanmıştı; ikisini birden kesinleştirseydim set düzeyinde "kesin =
+doğru" imzası doğardı. Onun yerine A'nın metnin kendi `may be required`
+kalıbını **birebir yankılaması** kırıldı ("may need to spend" → "can be asked to
+come in"). GT2 setinin iki yuvası birlikte: ölçülü 4 seçeneğin 1'i, kesin 4
+seçeneğin 1'i doğru.
+
+`practice-7-8`'de F'nin kesinleştirilmesi kanıtı zorlamıyor: F paragrafı
+"this is the **first** genetic evidence hinting at the presence of a spelt-like
+wheat … at all" diyor, yani *ilklik* iddiası metinde zaten düz kipte duruyor;
+temkinli olan şey bulgunun kendisi değil, ondan çıkarılan olasılık.
+
+### b) Konumsal düzen — 12 yuva
+
+E1'in bu etiketle anlattığı şey "elemeyle çözülme". 12 yuvayı okuyunca
+eleminin nereden geldiği üç başlıkta toplandı:
+
+1. **Çerçeve dışı çeldirici** — çeldirici, soru kökünün sorduğundan başka bir
+   şeyi cevaplıyor. (practice-5: yalnız B siti kendi çağıyla karşılaştırıyordu;
+   AC2-34-35: yalnız C ve F "etki neden görünmedi" çerçevesindeydi.)
+2. **Uydurma çeldirici** — pasajda hiç geçmeyen bir işlem/nesne. (GT1-21'de
+   "personel girişinden yedek kart", AC3-33'te "çok daha büyük bir örnek kümesi",
+   AC1-33'te "başarısız olmuş önceki bir deneme".)
+3. **Kendi içinde tutarsız çeldirici** — alıntının/pasajın içeriğiyle açıkça
+   çelişiyor, okumadan da elenir. (practice-12'de "hasar beklenmişti" ve "uydu
+   görüntülerine kuşku düşürmek"; practice-15'te öneriyi tersine çeviren "yalnız
+   kışa daraltmak"; AC2-33'te "mesajlaşma ölçülebilir mi" seçeneği.)
+
+Üçü için de tek bir düzeltme kuralı uyguladım:
+
+> **Her çeldirici pasajın gerçek bir ayrıntısına çapalanır ve soru kökünün
+> istediği çerçeveye taşınır.** Çeldirici artık "dünyada makul değil" diye değil,
+> yalnız "pasaj başka yerde/başka şey söylüyor" diye yanlış olur.
+
+Böylece IELTS'in kendi çeldirici taksonomisine (`yakın ama eksik` /
+`yer değiştirme` / `kapsam kaydırma`) dönülmüş oluyor; elenen tür, dosyaların
+`distractor_analysis` alanında `cazip ama yok` diye etiketlenen, yani pasajda
+karşılığı hiç olmayan uydurma çeldirici. Düzeltilen 12 konumsal düzen yuvasının
+38 çeldiricisinde bu etiket **10'dan 6'ya** indi
+(`python tools/_e5_mc_sayim.py`); kalan altısı, pasajda karşılığı olmaması
+sorunun *tek* çözüm anahtarı olmayan yerlerde bilinçli bırakıldı.
+
+Örnekler:
+
+| Yuva | Eski çeldirici | Yeni çeldirici | Nereye çapalandı |
+|---|---|---|---|
+| practice-2 | "To let the animals recover from being caught" (pasajda yok) | "whether one steady water temperature removed differences between tanks" | B/1, sabit 24 °C'nin gerçek gerekçesi |
+| practice-12 | "To cast doubt on the satellite pictures" (alıntıyla çelişiyor) | "To confirm that the ground survey matched the satellite images" | D/2, 12 Aralık'taki yer araştırması |
+| AC1-33 | "It replaced an earlier attempt that had failed" (yok) | "The material the divers collected was analysed on site" | D/2, huniyle toplanan gazın laboratuvara gitmesi |
+| AC3-33 | "Examining a much larger set of samples" (yok) | "Matching the proteins found against brain reference databases" | D/4, dördüncü yöntem basamağı |
+| GT1-21 | "Collect a spare card from the staff entrance" (yok) | "Have the day recorded as a formal attendance concern" | Metin A, C/3, geç kalma kuralı |
+
+İki yuvada bir de **biçim imzası** vardı, o ayrıca kırıldı:
+
+- **practice-15**: doğru seçenek tek başına üç öğeli bir listeydi ("longer
+  visits, other seasons, other cultures") — bilimsel makalelerin "gelecek çalışma
+  önerisi" kalıbı. Dört seçeneğin dördü de artık üç öğeli, kendi içinde tutarlı
+  birer öneri listesi.
+- **AC4-32**: doğru seçenek tek başına iki parçalı karşıtlık taşıyordu ve en uzun
+  seçenekti. Dört seçenek de iki öğeli yazıldı.
+
+Ayrıca dört yuvada (practice-2, AC2-32, AC2-33, AC3-33) doğru seçenek kanıt
+cümlesinin **birebir yankısı**ydı; bunlarda seçenek metni kanıt cümlesinin
+sözcüklerinden uzaklaştırıldı. Örnek: AC2-32'de "see … how much each employee
+produced, but who they were working alongside" → "set an individual's output
+beside the teammates around them".
+
+### Elenen 14 yuva (20 soru)
+
+Ortak yanı 1. çalıştırmadakiyle aynı: sorunun **ekseninin kendisi** dünya
+bilgisi. Seçenekler nasıl yazılırsa yazılsın cevap pasajdan değil alan
+bilgisinden çıkıyor.
+
+| Yuva | Cevap | Eksen |
+|---|---|---|
+| practice-1 | B | deneklerin ağırlığa göre eşleştirilmesi (deney tasarımı âdeti) |
+| practice-6 | D | `hexaploid` teriminin `hexa-` öneki cevabı söylüyor |
+| practice-9-10 | B, E | buzullu sıradağların sınır boyunca uzanması + kalın buz (coğrafya) |
+| practice-11 | D | uyduyla öncesi–sonrası karşılaştırması (standart afet izleme) |
+| practice-13 | A | sıra rastgeleleştirmenin amacı tekrar-test etkisi (yöntem kuralı) |
+| AC1-32 | B | volkanik adada magmanın bacalardan gaz salması (jeoloji) |
+| AC1-34-35 | C, F | asitlenme çalışmalarının "topluluk + iskelet içi" ikili ekseni |
+| AC3-32 | B | Herculaneum'un organik malzemeyi iyi koruması (arkeoloji) |
+| AC3-34-35 | B, F | organik dokunun karbon+oksijen ağırlıklı olması (temel kimya) |
+| AC4-33 | B | adil kıyaslama için öğrenme–sınav aralığının eşitlenmesi |
+| AC4-34-35 | C, E | polisomnografi + şekerlemenin ağırlıkla 2. evre olması |
+| GT1-22 | C | vardiyalar arası on bir saat dinlenme (çalışma mevzuatı) |
+| GT1-23-24 | B, E | mesainin ön onayı + izne çevrilmesi (standart iş yeri politikası) |
+| GT2-23-24 | B, D | çekirdek saatte ulaşılabilirlik + konum değişikliğini İK'ya bildirme |
+
+`practice-6` özel bir durum ve gerekçesi kayda değer: sızıntı seçeneklerde
+değil, **soru kökündeki terimde**. Terimi kökten çıkarmak kanıt cümlesini de
+değiştirmeyi gerektirirdi; talimat bunu "yarım düzeltme" saydığı için yuva
+elenenlere yazıldı, düzeltilmedi.
+
+On dördü de `status: "rejected"` + `reject_reason` aldı, dosyalarında
+**numaralarıyla duruyor** ve `content/DOGRULAMA/yeniden-uretim-listesi.json`
+dosyasına eklendi (liste 9 → **23** kayıt). Her kayıt, o pasajda zaten soru
+sorulmuş kanıt cümlesini ve soru kökünü `kacinilacak` altında taşıyor.
+
+### 🔴 Ölçemediğim, ama bulduğum imza: iki harfli yuvalarda C+F yığılması
+
+Bu tipte kip ve konumdan bağımsız, üçüncü bir sızıntı var ve bu çalıştırmanın
+yetkisiyle **kapatılamıyor**. Dokuz `select_count: 2` yuvasının cevap harfleri:
+
+| Yuva | Cevap | Bu çalıştırmadaki sonuç |
+|---|---|---|
+| practice-3-4 | **C, F** | düzeltildi |
+| practice-7-8 | **C, F** | düzeltildi |
+| AC2-34-35 | **C, F** | düzeltildi |
+| AC1-34-35 | **C, F** | elendi |
+| practice-9-10 | B, E | elendi |
+| AC3-34-35 | B, F | elendi |
+| AC4-34-35 | C, E | elendi |
+| GT1-23-24 | B, E | elendi |
+| GT2-23-24 | B, D | elendi |
+
+Dokuz yuvanın **dördü** C+F; hiçbirinde A ya da G doğru değil, D yalnız bir kez
+doğru. Bir çözücü yedi seçenekli yuvalarda pasaja hiç bakmadan C+F yazsa
+**4/9** tutturur (şans oranı 1/21). Düzeltme yetkim seçenek *metinleriyle*
+sınırlı: harf sırasını değiştirmek `answer` alanını değiştirmek demek, o da
+talimatın 🔴 korunan alan kuralına ve "cevap harflerini toptan karıştırma"
+yasağına takılıyor. Bu yüzden imzayı kırmadım, **ölçüp E6'ya devrettim** —
+aşağıdaki 1. madde.
+
+### 🔴 E6 ve E7'ye devir notları
+
+1. **Harf dağılımı E6'nın işi ve zorunlu.** Bu çalıştırmadan sonra ayakta kalan
+   üç `select_count: 2` yuvasının **üçü de C+F** (%100). E6, elenen altı iki
+   harfli yuvayı doldururken **hiçbirine C+F vermemeli** ve doğru harfleri A–G
+   aralığına yaymalı; özellikle şu ana kadar hiç kullanılmamış **A ve G**
+   harflerini kullanmalı. Aksi hâlde bu tipte "C+F yaz" kestirmesi kalıcı olur.
+2. **Tek harfli elenen sekiz yuvanın mevcut cevapları B ağırlıklı** (B×4, D×2,
+   A×1, C×1). E6 bu yuvaları doldururken harfleri yeniden seçebilir; B'yi
+   tekrarlamamasında yarar var.
+3. **Düzeltilen 16 yuva ölçülmemiş sorudur.** `answer` ve `evidence` korundu ama
+   soru kökü ve/veya seçenek metinleri baştan yazıldı; hepsinde
+   `blind_solvable: null` duruyor. E7 bunları yeniden ölçmeli.
+4. **practice-6 yeniden üretim kapsamında.** Kanıt cümlesi (`B/2`) `hexaploid`
+   terimini tanımıyla birlikte veriyor; E6 bu pasaja yeni soru yazarken
+   kromozom sayısını soran bir kök kurmamalı, kanıt cümlesi listede
+   `kacinilacak` altında duruyor.
+5. **AC2 dosyasının tamamı artık `verified`** (üç yuvanın üçü). E7 ölçümünde bu
+   dosya, konumsal düzen düzeltmesinin tek başına yeterli olup olmadığını
+   gösteren en temiz örnek olacak; ayrı raporlanması yerinde olur.
+
+### Doğrulama
+
+```
+python tools/_e5_mc_elden_gecir.py        # duzeltildi 16 - elendi 14 - dokunulmadi 0
+python tools/_e5_mc_dogrula_degisim.py    # KORUNAN ALAN HATASI: 0
+python tools/dogrula.py
+```
+
+- `answer`, `evidence`, `evidence_locator`, `select_count` yedi dosyanın
+  hepsinde **hiç değişmedi** (HEAD ile alan alan karşılaştırıldı, 0 fark).
+  Seçenek harflerinin kümesi ve sırası da korundu.
+- Yuva ve numara değişmedi: 30 yuva girdi, 30 çıktı; `select_count` ağırlıklı
+  soru sayısı **39 → 39**. On iki tam testin hepsi 40/40 kaldı.
+- `isaretli (flagged)` 199 → **169** (16 verified + 14 rejected).
+- Şema hatası **0**; `explanation` alanlarının hepsi İngilizce yazıldı,
+  `distractor_analysis` ve `revision` gibi iç denetim notları Türkçe kaldı.

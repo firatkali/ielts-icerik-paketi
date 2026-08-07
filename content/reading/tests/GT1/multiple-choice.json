@@ -18,19 +18,19 @@
       "options": [
         {
           "letter": "A",
-          "text": "Tell their supervisor before the shift is over"
+          "text": "Report to their supervisor before that shift ends"
         },
         {
           "letter": "B",
-          "text": "Ask the staff office to record their hours"
+          "text": "Collect a form for it from the staff office"
         },
         {
           "letter": "C",
-          "text": "Collect a spare card from the staff entrance"
+          "text": "Have the day's hours checked by hand instead"
         },
         {
           "letter": "D",
-          "text": "Accept that the day's pay will be delayed"
+          "text": "Have the day recorded as a formal attendance concern"
         }
       ],
       "answer": [
@@ -43,17 +43,29 @@
         "sentence": 2
       },
       "distractor_analysis": {
-        "B": "Yer değiştirme — personel ofisi pasajda vardiya değişim formunun alındığı yer; saatlerin elle doğrulanması ise tekrarlanan ihmallerde devreye giren işlem, kartını unutan çalışanın başvuracağı yol değil.",
-        "C": "Cazip ama yok — kart okuyucunun personel girişinde olduğu söyleniyor ama yedek karttan hiç söz edilmiyor; makul göründüğü için seçiliyor.",
-        "D": "Kapsam kaydırma — maaşın bekletilmesi tek seferlik unutmanın değil, tekrar tekrar doğru giriş yapmamanın sonucu olarak veriliyor."
+        "B": "Yer degistirme -- personel ofisinden alinan form, C paragrafinda degil D paragrafinda geciyor ve vardiya takasi icin kullaniliyor; kartini unutan calisan icin bir form ongorulmuyor.",
+        "C": "Kapsam kaydirma -- saatlerin elle dogrulanmasi tek seferlik unutmanin degil, tekrar tekrar dogru giris yapmamanin sonucu olarak veriliyor (C/2).",
+        "D": "Yer degistirme -- resmi devamsizlik kaydi, bir aylik donem icinde uc kez on dakikadan fazla gec kalmanin sonucu (C/3); kart unutmanin degil."
       },
-      "explanation": "Paragraph C of Text A says an employee who forgets their card must tell their supervisor within the same shift.",
+      "explanation": "Paragraph C of Text A says that employees who forget their card should report to their supervisor within the same shift.",
       "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
+      "status": "verified",
+      "blind_solvable": null,
       "blind_basis": "logic",
       "flag_reason": "Cevap A, metnin verdigi somut talimati dogrudan karsiliyor: kartini unutan calisan ayni vardiya icinde amirine haber vermeli; B personel ofisinin farkli bir islevini, C var olmayan bir yedek karti, D tek seferlik unutmayi tekrarlanan ihmalin cezasina baglayarak kapsami abartiyor -- ucu de metinle celisip elenir.",
-      "flag_mechanism": "konumsal_duzen"
+      "flag_mechanism": "konumsal_duzen",
+      "revision": {
+        "tarih": "2026-08-08",
+        "mekanizma": "konumsal_duzen",
+        "onceki_prompt": "What must an employee who forgets their clock-in card do?",
+        "onceki_secenekler": {
+          "A": "Tell their supervisor before the shift is over",
+          "B": "Ask the staff office to record their hours",
+          "C": "Collect a spare card from the staff entrance",
+          "D": "Accept that the day's pay will be delayed"
+        },
+        "ne_degisti": "Eski C ('personel girisinden yedek kart almak') pasajda hic gecmeyen uydurma bir islemdi ve parcasiz elenebiliyordu; B ve D ise cerceve disinda kaliyordu. Dort secenek de artik el kitabinin C ve D paragraflarinda gercekten bulunan islemler (amire bildirme, personel ofisi formu, saatlerin elle dogrulanmasi, resmi devamsizlik kaydi); hangisinin kart unutmaya ait oldugunu bulmak icin C/2'yi okumak gerekiyor."
+      }
     },
     {
       "number": 22,
@@ -93,11 +105,12 @@
       },
       "explanation": "Paragraph D of Text A says swaps that would leave less than eleven hours' rest between two shifts will not be approved.",
       "difficulty": "medium",
-      "status": "flagged",
+      "status": "rejected",
       "blind_solvable": true,
       "blind_basis": "general_knowledge",
       "flag_reason": "Cevap C, iki vardiya arasinda en az on bir saatlik dinlenme suresi birakilmasi kuralinin (isci haklarinda yaygin bilinen '11 saat dinlenme' duzenlemesi) genel is hukuku bilgisiyle parcaya bakmadan da tahmin edilebiliyor.",
-      "flag_mechanism": "genel_kultur"
+      "flag_mechanism": "genel_kultur",
+      "reject_reason": "Sorunun ekseni calisma mevzuati genel bilgisi: iki vardiya arasinda en az on bir saat dinlenme birakilmasi yaygin bilinen bir duzenleme. Secenekler yeniden yazilsa da 'yeterli dinlenme yok' cevabi mevzuat bilgisinden cikar."
     },
     {
       "number": "23-24",
@@ -152,11 +165,12 @@
       },
       "explanation": "Paragraph C of Text B says overtime must be approved in advance by a manager, and any amount over ten hours a month can be taken as time off instead of pay.",
       "difficulty": "hard",
-      "status": "flagged",
+      "status": "rejected",
       "blind_solvable": true,
       "blind_basis": "general_knowledge",
       "flag_reason": "Cevaplar B ve E, fazla mesainin onceden amir onayi gerektirmesi ve fazlaliginin izne cevrilebilmesi gibi is yerlerinde yaygin bilinen standart politika kurallari olmasi sayesinde parcaya bakmadan da tahmin edilebiliyor.",
-      "flag_mechanism": "genel_kultur"
+      "flag_mechanism": "genel_kultur",
+      "reject_reason": "Sorunun ekseni is yeri politikalarinin standart maddeleri: fazla mesainin onceden amir onayi gerektirmesi (B) ve on saati asan kismin izne cevrilebilmesi (E) cok sayida is yerinde gecerli. Yedi secenek arasindan bu ikisini secmek metni degil is hayati bilgisini olcuyor."
     }
   ]
 }

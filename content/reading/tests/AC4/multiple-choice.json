@@ -18,19 +18,19 @@
       "options": [
         {
           "letter": "A",
-          "text": "Employers have begun offering staff rest breaks"
+          "text": "Employers now offer rest breaks and shorter working days"
         },
         {
           "letter": "B",
-          "text": "Students often depend on naps before examinations"
+          "text": "Students rely on naps to revise and to make up lost sleep"
         },
         {
           "letter": "C",
-          "text": "Napping is routine in some societies, sleep scarce in others"
+          "text": "In some cultures napping is ordinary; in others a full night is hard to get"
         },
         {
           "letter": "D",
-          "text": "Researchers disagree over what consolidation involves"
+          "text": "Researchers disagree about what consolidation is and when it happens"
         }
       ],
       "answer": [
@@ -42,17 +42,29 @@
         "sentence": 2
       },
       "distractor_analysis": {
-        "A": "Cazip ama yok — işverenlerden ya da iş yerinde dinlenme molasından hiç söz edilmiyor; gündüz uykusunun yaygınlığı anlatıldığı için akla yatkın görünüyor.",
-        "B": "Yakın ama eksik — son paragraf, ders çalışmak ya da kaybedilen uykuyu telafi etmek için şekerlemeye güvenenlerden söz ediyor; ama bu, bulguların uygulamadaki karşılığı, sorunun ilk paragrafta verilen gerekçesi değil.",
-        "D": "Yer değiştirme — pekiştirme ilk cümlede tanımlanıyor ve kabul görmüş bir süreç olarak sunuluyor; belirsiz olan şey pekiştirmenin ne olduğu değil, kısa bir şekerlemenin gece uykusuyla aynı yararı sağlayıp sağlamadığı."
+        "A": "Cazip ama yok -- isverenlerden, dinlenme molasindan ya da kisa is gununden hic soz edilmiyor; gunduz uykusunun yayginligi anlatildigi icin akla yatkin gorunuyor.",
+        "B": "Yakin ama eksik -- ders calismak ya da kaybedilen uykuyu telafi etmek icin sekerlemeye guvenenler H/1-2'de geciyor; ama bu, bulgularin uygulamadaki karsiligi, sorunun A paragrafinda verilen gerekcesi degil.",
+        "D": "Yer degistirme -- pekistirme A/1'de tanimlaniyor ve yerlesik bir surec olarak sunuluyor; belirsiz olan sey pekistirmenin ne oldugu degil, kisa bir sekerlemenin gece uykusuyla ayni yarari saglayip saglamadigi."
       },
       "explanation": "Paragraph A ties the practical importance of the question to two situations: cultures where daytime napping is common, and societies where a full night's sleep is often in short supply.",
       "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
+      "status": "verified",
+      "blind_solvable": null,
       "blind_basis": "option_wording",
       "flag_reason": "Secenek C, pasajin 'gunduz uykusunun alisildik oldugu kulturler ve tam bir gece uykusunun kit oldugu toplumlar' seklindeki iki parcali karsitligini birebir yansitan tek secenek; B bulgunun uygulamadaki bir sonucunu anlatiyor, sorunun ilk paragrafta verilen gerekcesi degil; D pekistirmenin tanimini hedef aliyor, sorunun oz konusunu degil.",
-      "flag_mechanism": "konumsal_duzen"
+      "flag_mechanism": "konumsal_duzen",
+      "revision": {
+        "tarih": "2026-08-08",
+        "mekanizma": "konumsal_duzen",
+        "onceki_prompt": "Why does the writer say the nap question has practical importance?",
+        "onceki_secenekler": {
+          "A": "Employers have begun offering staff rest breaks",
+          "B": "Students often depend on naps before examinations",
+          "C": "Napping is routine in some societies, sleep scarce in others",
+          "D": "Researchers disagree over what consolidation involves"
+        },
+        "ne_degisti": "Eskiden yalniz C iki parcali karsitlik bicimindeydi ve pasajin kendi ikili cercevesini birebir yansitiyordu; ustelik en uzun secenekti. Dort secenek de artik iki ogeli yazildi ve ucu pasajin gercek ayrintilarina capalandi (H/1-2 ogrencilerin sekerlemeye guvenmesi, A/1 pekistirmenin tanimi); dogru secenegin dis bicimi artik ayirt edici degil."
+      }
     },
     {
       "number": 33,
@@ -91,11 +103,12 @@
       },
       "explanation": "According to paragraph C, the sleep group learns at nine in the evening and is tested at nine the next morning, while the wake group learns at nine in the morning and is tested at nine that evening; so in both groups the gap between learning and testing is twelve hours.",
       "difficulty": "medium",
-      "status": "flagged",
+      "status": "rejected",
       "blind_solvable": true,
       "blind_basis": "general_knowledge",
       "flag_reason": "Cevap B, uyku ve uyanikligi karsilastiran bir deneyde adil bir kiyaslamanin temel kosulunun ogrenme ile sinav arasindaki sureyi esit tutmak oldugu genel arastirma yontemi mantigiyla (on iki saatlik esit aralik) parcaya bakmadan da tahmin edilebiliyor.",
-      "flag_mechanism": "genel_kultur"
+      "flag_mechanism": "genel_kultur",
+      "reject_reason": "Sorunun ekseni deney tasarimi kurali: uyku ile uyanikligi karsilastiran adil bir kiyaslamada ogrenme ile sinav arasindaki surenin esit tutulmasi gerektigi pasajdan bagimsiz biliniyor. Secenekler nasil dizilirse dizilsin 'esit sure' cevabi yontem mantigindan cikar."
     },
     {
       "number": "34-35",
@@ -149,11 +162,12 @@
       },
       "explanation": "Paragraph D says that brain activity during the nap was recorded using polysomnography; paragraph F says the naps consisted mainly of Stage 2 sleep, which is lighter than the deep stages of a full night's sleep.",
       "difficulty": "hard",
-      "status": "flagged",
+      "status": "rejected",
       "blind_solvable": true,
       "blind_basis": "general_knowledge",
       "flag_reason": "Cevaplar C ve E, uyku arastirmalarinda beyin etkinliginin standart olarak polisomnografiyle kaydedilmesi ve kisa sekerlemelerin cogunlukla derin uykuya degil daha hafif (2. evre) uykuya dayanmasi gibi yaygin uyku bilimi bilgisiyle parcaya bakmadan da tahmin edilebiliyor.",
-      "flag_mechanism": "genel_kultur"
+      "flag_mechanism": "genel_kultur",
+      "reject_reason": "Sorunun ekseni uyku bilimi genel bilgisi: beyin etkinliginin polisomnografiyle kaydedilmesi (C) ve kisa sekerlemelerin agirlikla hafif 2. evre uykudan olusmasi (E) alan bilgisi olarak biliniyor. Yedi secenek arasindan bu ikisini secmek pasaji okumayi gerektirmiyor."
     }
   ]
 }
