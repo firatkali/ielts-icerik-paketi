@@ -151,6 +151,96 @@ ADIMLAR = (
     + [("Denetim (%d/3)" % (i + 1), "fable", "FABLE5-D1-denetim.md",
         "Bu %d. calistirma: %s" % (i + 1, is_), "Denetim")
        for i, is_ in enumerate(_DENETIM_ISLERI)]
+
+    # --- 3. BOLUM: denetimden sonra acik kalan maddeler ---------------------
+    # Buraya kadar uretim + olcum + denetim bitti. Bundan sonrasi denetim
+    # raporundaki acik maddeleri kapatiyor. SIRA ONEMLI: once gerekceler
+    # duzelir ve olcut cikar, sonra isaretliler elden gecer, en son yeniden
+    # uretim yapilir. Yeni uretilen sorular olculmeden teslim edilmez.
+    + _yay("Isaret gerekcelerini duzelt", "sonnet",
+           "SONNET5-E1-isaret-gerekceleri.md", 1)
+    + _yay("Kucuk puruzler", "sonnet",
+           "SONNET5-E2-kucuk-puruzler.md", 1)
+    + _yay("Arac borclari", "sonnet",
+           "SONNET5-E3-arac-borclari.md", 1)
+    + _yay("Gercek test deseni", "opus",
+           "OPUS5-E4-cambridge-desen.md", 3)
+    + _yay("Anlam duzeyi olcut", "opus",
+           "OPUS5-E10-anlam-duzeyi-olcut.md", 3)
+    + _yay("Puanlama - atlanan grup", "sonnet",
+           "SONNET5-A3-puanlama-olcumu.md", 1,
+           ek="Bu, 3. (SON) OLCUM TURUNUN EKSIK KALAN GRUBUDUR: yalniz GT-T2 grubu "
+              "puanlanacak (5 ornek x 3 tekrar). kalibrasyon/olcum/tur3 altinda "
+              "zaten puanlanmis hicbir ornege dokunma. Bitince python "
+              "tools/puanlama-raporu.py 3 komutunu calistir.")
+    + _yay("Isaretli sorulari elden gecir", "opus",
+           "OPUS5-E5-isaretli-elden-gecirme.md", 8)
+    + _yay("Tukenen tiplerde yeniden uretim", "opus",
+           "OPUS5-E6-yeniden-uretim.md", 7)
+    + _yay("Yeni sorularin olcumu", "fable",
+           "FABLE5-E7-yeniden-olcum.md", 2)
+    + _yay("Dinleme sizinti olcumu", "opus",
+           "OPUS5-E8-dinleme-sessiz-olcum.md", 5)
+    + _yay("Konusma orneklerini metne dok", "opus",
+           "OPUS5-A1-yazma-orneklerini-dok.md", 1,
+           ek="Bu calistirmada YALNIZ 4. grup yapilacak: KONUSMA ORNEKLERI "
+              "(prompt dosyasinin 4. CALISTIRMA bolumu, 12 ornek). Yazma gruplari "
+              "bitti, onlara dokunma. Kaynak dosya referans/konusma-band-ornekleri.txt "
+              "diskte yoksa once python tools/indir.py calistir; yine gelmezse "
+              "tools/indir.py icindeki SAYFALAR adresini WebFetch ile cek ve ayni "
+              "adla kaydet. Hicbiri olmazsa NOTLAR.md ve UYARILAR.txt dosyalarina "
+              "durumu yaz, commit et ve cik.")
+    + _yay("Puanlama olcumu - konusma", "sonnet",
+           "SONNET5-A3-puanlama-olcumu.md", 3,
+           ek="KONUSMA OLCUM TURU, klasor adi tur4: yalniz kalibrasyon/olcum/ornekler/"
+              "konusma altindaki ornekler puanlanacak, her ornek 3 kez. Once konusma "
+              "kodlarini kalibrasyon/olcum/kumeler.json icindeki S1/S2/S3 kumelerine "
+              "bandlar dengeli olacak sekilde ekle. Yazma orneklerini bu turda "
+              "puanlama. Bitince python tools/puanlama-raporu.py 4 calistir.")
+    + _yay("Ornek cevaplar - konusma (yeniden)", "opus",
+           "OPUS5-C1-ornek-cevaplar.md", 4,
+           ek="Bu KONUSMA orneklerinin calistirmasi (bu dosyanin 7-10 arasindaki "
+              "4 calistirmadan biri). Yazma tarafi (1-6) tamamen bitti, ona "
+              "dokunma ya da yeniden dogrulama yapma. GECMISTE BU 4 CALISTIRMA "
+              "HIC URETIM YAPMADI (NOTLAR.md 7098 civarindaki cakisan talimat "
+              "kaydi): depoda uretilmemis tek grup konusma gorunuyordu ve ayni "
+              "oturumda konusma uretilmesin diyen ikinci bir talimat da gecerli "
+              "sayilmisti; iki talimat ayni grubu isaret edip birbirini iptal "
+              "edince hicbir dosya uretilmedi, onun yerine dort ayri denetim "
+              "scripti yazildi. BU SEFER TEK GECERLI TALIMAT BUDUR: konusma "
+              "kartlari icin gercek cevap dosyalari uret. Sema denetimi yazmak "
+              "ya da yazma dosyalarini yeniden dogrulamak bu calistirmanin "
+              "ciktisi SAYILMAZ. Depoda uretilmemis ilk grubu yap talimati "
+              "burada SADECE konusma kartlari arasindaki alt gruplari tarar; "
+              "yazma grubuna donme, kapsamin tamami bitti deme.")
+    + _yay("Alt band ornekleri", "opus",
+           "OPUS5-E9-alt-band-ornekleri.md", 1)
+    + _yay("Puanlama olcumu - alt band", "sonnet",
+           "SONNET5-A3-puanlama-olcumu.md", 1,
+           ek="Bu tur5: yalniz gercek bandi 4,5 ve altinda olan yazma ornekleri, "
+              "her ornek 3 kez, MEVCUT talimatla. Talimati degistirme. Bitince "
+              "python tools/puanlama-raporu.py 5 calistir.")
+    + _yay("Puanlama duzeltmesi - 3", "opus",
+           "OPUS5-A4-puanlama-duzeltmesi.md", 1,
+           ek="Bu 3. DUZELTME. Birinci maddesi alt band sismesi: gercek bandi 3,0 "
+              "olan cevaba urun 4,5 veriyor. SAKLI KUME: S2 - o kumeye ait hicbir "
+              "ornege, puanina ve sapma satirina BAKMA. Kaynak raporlar: "
+              "kalibrasyon/olcum/RAPOR-tur5.md ve RAPOR-tur3.md.")
+    + _yay("Puanlama olcumu - son dogrulama", "sonnet",
+           "SONNET5-A3-puanlama-olcumu.md", 1,
+           ek="Bu tur6 (dogrulama turu): butun yazma ve konusma ornekleri, her ornek "
+              "1 kez, 3. duzeltmeden sonraki talimatla. Bitince python "
+              "tools/puanlama-raporu.py 6 calistir.")
+    + _yay("Puanlama son raporu - guncelleme", "opus",
+           "OPUS5-A4-puanlama-duzeltmesi.md", 1,
+           ek="SON RAPOR calistirmasi: DUZELTME YOK. kalibrasyon/olcum/SONUC.md "
+              "dosyasini bastan yaz (tamamlanmis tur 3 + alt band turu + dogrulama "
+              "turu) ve konusma icin ayrica kalibrasyon/olcum/SONUC-konusma.md yaz.")
+    + [("Denetim - 2. tur (%d/3)" % (i + 1), "fable", "FABLE5-D1-denetim.md",
+        "Bu 2. denetim turunun %d. calistirmasi: %s Yeni raporlari yazmadan once "
+        "onceki turun uc raporunu denetim/tur1 klasorune tasi." % (i + 1, is_),
+        "Denetim - 2. tur")
+       for i, is_ in enumerate(_DENETIM_ISLERI)]
 )
 
 # Her isin NE ISE YARADIGI - durum ekraninda grup satirinin altina yazilir.
@@ -226,6 +316,68 @@ GRUP_ACIKLAMA = {
         "Butun isler bitince bagimsiz bir gozle son bakis: sayilar hedefle "
         "uyusuyor mu, kontroller nerede sorun buldu, olcum raporlari ne diyor. "
         "Sadece rapor yazar - hicbir soruyu silmez, karari proje sahibi verir.",
+    "Isaret gerekcelerini duzelt":
+        "Bozuk diye isaretlenen okuma sorularinin hepsinde ayni gerekce yaziyor; "
+        "oysa gercek sebep sorudan soruya degisiyor. Gerekceler gercek sebebe gore "
+        "yeniden yaziliyor - yoksa sonraki adim yanlis kusuru duzeltir.",
+    "Kucuk puruzler":
+        "Denetimde cikan tek satirlik eksikler: bir cevabin rakamla yazilisinin da "
+        "kabul edilmesi, askida kalan iki sorunun karara baglanmasi, kanit alani "
+        "bos kalan sorularin gerekcelendirilmesi.",
+    "Arac borclari":
+        "Olcum raporunu kumeye bolmeyen script duzeltiliyor: bir kume sakli "
+        "tutulurken raporun onu ekrana getirmesi korumayi deliyordu.",
+    "Gercek test deseni":
+        "Basvuru kitaplarindan SAYISAL desen cikariliyor: bir testte hangi tipten "
+        "kac soru cikiyor, cevaplarin dagilimi ne, kac dogru hangi puana denk "
+        "geliyor. Kitaptan tek cumle depoya girmez, sadece sayilar.",
+    "Anlam duzeyi olcut":
+        "Bugune kadarki olcum 'cevabin ucu de kelimesi kelimesine tuttu mu' diye "
+        "bakiyordu; bu, parcaya bakmadan bilinen sorularin yarisini kaciriyordu. "
+        "Ayni sorular bu kez anlamca bilinip bilinmedigine gore geciriliyor.",
+    "Puanlama - atlanan grup":
+        "Son olcum turunda bir grup puanlanamamisti; o eksik kapatilip rapor "
+        "yeniden hesaplaniyor.",
+    "Isaretli sorulari elden gecir":
+        "Parcaya bakmadan bilinebilen sorular mekanizmasina gore duzeltiliyor: "
+        "cumlenin kipinden ele veren sorular yeniden yaziliyor, konusu genel kultur "
+        "olanlar ise elden cikariliyor ve yerine yenisi istenecek.",
+    "Tukenen tiplerde yeniden uretim":
+        "Uc soru tipinde kullanilabilir soru kalmadi. Duzeltilmis talimatla yeniden "
+        "uretiliyor; eski talimatin kusurlari acikca yasaklanmis durumda.",
+    "Yeni sorularin olcumu":
+        "Elden gecirilen ve yeni uretilen sorular ayni iki sinavdan tekrar geciyor: "
+        "cevap anahtari baska bir modelce kor cozuluyor, sorular parca gosterilmeden "
+        "tekrar olculuyor. Duzelmediyse burada gorunur.",
+    "Dinleme sizinti olcumu":
+        "360 dinleme sorusu bugune kadar hic olculmedi. Ayni olcu dinlemeye "
+        "uygulaniyor: soru, konusma metni hic gosterilmeden cozduruluyor.",
+    "Konusma orneklerini metne dok":
+        "Resmi sitedeki 12 puanli konusma ornegi (tam dokum + sinav gorevlisi "
+        "yorumu) metne dokuluyor. Konusma puanlamasinin tek dogru cevap anahtari bu.",
+    "Puanlama olcumu - konusma":
+        "Konusma puanlamasi bugune kadar hic olculmedi. Puanli konusma ornekleri "
+        "modele puanlatilip gercek puanla karsilastiriliyor.",
+    "Ornek cevaplar - konusma (yeniden)":
+        "Konusma kartlari icin band 5 / 6,5 / 8 seviyesinde tam ornek konusmalar. "
+        "Ilk denemede cakisan talimat yuzunden hic uretilmemisti; bu sefer talimat "
+        "netlestirildi.",
+    "Alt band ornekleri":
+        "Zayif cevaplardan elde cok az ornek var; duzeltme yapmadan once bu "
+        "araligin ornek sayisi cogaltiliyor.",
+    "Puanlama olcumu - alt band":
+        "Zayif cevaplarda urunun ne kadar fazla puan verdigini olcer.",
+    "Puanlama duzeltmesi - 3":
+        "En tehlikeli bulgu duzeltiliyor: zayif cevaba fazla puan verilmesi. "
+        "Kullanici hazir olmadigi halde hazir sanmamali.",
+    "Puanlama olcumu - son dogrulama":
+        "Son duzeltmenin ise yarayip yaramadigini olcer.",
+    "Puanlama son raporu - guncelleme":
+        "Butun turlari yan yana koyup son durumu yazar; konusma icin ayri rapor "
+        "cikarir. Duzeltme yapilmaz.",
+    "Denetim - 2. tur":
+        "Butun bu isler bitince bagimsiz gozle ikinci kez bakis: sayilar duzeldi mi, "
+        "hangi acik madde kapandi, hangisi duruyor. Sadece rapor yazar.",
 }
 
 
@@ -914,6 +1066,7 @@ def bir_adim(n):
 def main():
     os.chdir(KOK)
     guncelle()
+    kendini_tazele()
     uyku_engelle(True)
     n = ilerleme_oku()
 
