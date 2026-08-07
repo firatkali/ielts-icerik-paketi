@@ -288,3 +288,18 @@
   - Uretilen sayi/oran: yok. Okunan kitap sayfasi: 0. Icerik degismedi.
   - Yapilacak: kitaplar erisilebilir bir yere konursa bu calistirma tekrarlanmali
     (bkz. kalibrasyon/desen/test-yerlesimi.md ve NOTLAR.md).
+
+08.08.2026 00:24
+  - isaretli (flagged)     180
+
+
+08.08.2026 (OPUS5-E4 2. calistirma: band cevrim tablosu)
+  - DUZELTME: 1. calistirmadaki "kaynak bulunamadi" tespiti YANLIS. Gercek sinav
+    kitaplari erisilebilir: C:\Users\enhar\Desktop\kitaplar (Cambridge IELTS Book 1..8.pdf). 1. calistirma
+    (test yerlesimi deseni) bu yuzden bosuna atlandi ve TEKRARLANMALI.
+  - Bu kaynakta "kac dogru = hangi band" cevrim tablosu YOK. Kitap 1'de hic
+    puanlama cizelgesi yok; 2-8'de yalniz 40 soruyu uc araliga bolen hazirlik
+    cizelgesi var. Cikti bu esikleri veriyor, band tablosu vermiyor.
+  - Olculen: 70 cizelge, her biri iki kez okundu, 70/70 uyustu.
+  - Depodaki band_thresholds DEGISTIRILMEDI. Ciktidaki sayilar hedef degil capa.
+  - Okunan kitap sayfasi: 88. Icerik degismedi, soru sayilari degismedi.

@@ -7426,3 +7426,51 @@ hiç kullanılmadı, kalan on soruda birer kez. Çeldirici türü çeşitliliği
 - Bir sonraki calistirmaya not: kitaplar erisilebilir bir yere (ornegin depo icinde
   `.gitignore`'lu bir klasore) konursa 1. calistirma bastan yapilabilir; o zaman
   `kalibrasyon/desen/test-yerlesimi.md` sayisal ozetle degistirilir.
+
+## OPUS5-E4-cambridge-desen (2. calistirma - band cevrim tablosu)
+- Tarih: 2026-08-08
+- Cikti: `kalibrasyon/desen/band-cevrim.md`.
+- **KAYNAK BULUNDU.** 1. calistirmadaki "kitaplara ulasilamadi" tespiti yanlis
+  cikti: kitaplar `C:\Users\enhar\Desktop\kitaplar` altinda duruyor (`Cambridge IELTS Book 1..8.pdf`). Bash
+  `ls` calisma dizini disina izin vermiyor, ama `Glob` araci veriyor; dosyalar
+  da Python (PyMuPDF) ile acilabiliyor. 1. calistirma bu yuzden bosuna atlanmis;
+  tekrarlanabilir.
+- **Ana bulgu: bu kaynakta "kac dogru = hangi band" tablosu yok.** Cambridge
+  IELTS 1'de hicbir puanlama cizelgesi yok (metin katmani programla tarandi);
+  2-8'de her testin her modulunun cevap anahtari sonunda 40 soruyu UC ARALIGA
+  bolen bir hazirlik cizelgesi var - band (1-9) tablosu degil. Aktarilabilen
+  tek sayisal cevrim olcutu bu uc araligin esik noktalari; hepsi ciktiya girdi.
+- Olculen: 70 cizelge = 7 kitap (2-8) x (4 test x 2 modul + 2 GT okuma).
+  Her cizelgeden iki sayi: A = orta araligin basladigi dogru sayisi,
+  B = ust araligin basladigi dogru sayisi.
+- Ozet: dinleme A ort 14,46 / B ort 27,96 (n=28); Academic okuma A 13,43 /
+  B 28,11 (n=28); GT okuma A 16,93 / B 29,79 (n=14).
+- **Iki kez sayma (1. zorunlu kural):** her cizelge iki kez, bagimsiz olarak
+  okundu - once sayfa goruntusunden, sonra yalniz cizelgenin sayi satiri
+  kirpilip kitap basina tek seride dizilerek. 70/70 iki okumada da ayni cikti.
+- Kusak farki: kitap 2-3 ile 4-8 arasinda esikler kayiyor (or. dinleme A ort
+  17,50 -> 13,25). Bu zorluk farki degil, yayincinin tavsiye politikasinin
+  degismesi; ciktida "buyukluk degil yon" uyarisiyla birlikte yazildi.
+- Depodaki `band_thresholds` (kaynak `official_average_2023`) DEGISTIRILMEDI.
+  Ciktida yalniz gozlem olarak karsilastirildi; tek dikkat ceken sapma,
+  kitaplarin GT-Academic ham farkini (ust esikte +1,68 dogru) depodaki tablodan
+  (band 6,0'da +7) cok daha kucuk gostermesi. Karar degil, isaret olarak birakildi.
+- Telif: kitaplar internetten aranmadi/indirilmedi. Ciktiya tek bir pasaj/soru/
+  secenek/baslik/senaryo cumlesi (parafrazi dahil) girmedi; cizelgeyi cevreleyen
+  aciklama metni de parafraze edilmedi - yalniz sayilar.
+- **Okunan kitap sayfasi: 88** (5. zorunlu kural). Kitap 1: 0 (yalniz metin
+  katmani arandi), k2: 14 (s5,6,146-155,159,161), k3: 12 (s5,6,149-158),
+  k4: 11 (s6,148-157), k5: 14 (s6,146-148,150-159), k6: 10 (s149-158),
+  k7: 10 (s153-162), k8: 17 (s3-5,7,8,150-161). Kitaplar bastan sona okunmadi:
+  once girisin "cevap anahtari kac. sayfada" satiri, sonra yalniz anahtar
+  sayfalari; cogu sayfada da yalniz cizelge seridi kirpilip okundu.
+- Yardimci PNG'ler `.gitignore`'lu `kalibrasyon/ornekler/.tmp-sayfa/` altinda
+  uretildi ve is bitince silindi - depoya telifli goruntu girmedi.
+- Icerik tarafi ellenmedi: soru eklenmedi/silinmedi, tam testlerde soru sayisi
+  degismedi, `kalibrasyon/olcum/` puanlama dosyalari acilmadi (sakli kume
+  korumasi ihlal edilmedi).
+- 3. calistirmaya not: kitaplar erisilebilir; yazma/konusma puanli ornek
+  envanteri icin kitap 2-8'in "model and sample answers" bolumu (kitap 8'de PDF
+  s161 ve sonrasi) taranmali. Kitap 1 disindakiler taranmis goruntu - sayfalar
+  PyMuPDF ile PNG'ye dokulerek okunmali (`Read` araci PDF'i dogrudan
+  goruntuleyemiyor: pdftoppm kurulu degil).
