@@ -1,0 +1,60 @@
+{
+  "tarih": "2026-08-08",
+  "paket": "summary-completion",
+  "toplam_kalem": 15,
+  "toplam_numara": 15,
+  "uc_turda_bilinen_k1": [
+    "L3-summary-completion-31",
+    "L3-summary-completion-32",
+    "L3-summary-completion-34",
+    "L3-summary-completion-36",
+    "L5-summary-completion-36",
+    "L5-summary-completion-37",
+    "L5-summary-completion-38",
+    "L5-summary-completion-40",
+    "L6-summary-completion-38"
+  ],
+  "uc_turda_bilinen_k3": [
+    "L3-summary-completion-31",
+    "L3-summary-completion-32",
+    "L3-summary-completion-34",
+    "L3-summary-completion-36",
+    "L5-summary-completion-36",
+    "L5-summary-completion-37",
+    "L5-summary-completion-38",
+    "L5-summary-completion-40",
+    "L6-summary-completion-38"
+  ],
+  "tip_bazinda": {
+    "summary_completion": {
+      "toplam": 15,
+      "numara": 15,
+      "k1": 9,
+      "k3": 9
+    }
+  },
+  "olcum_disi": [],
+  "dayanak_dagilimi": {
+    "general_knowledge": 33,
+    "cross_question": 3,
+    "frame_wording": 6,
+    "number_guess": 3
+  },
+  "tur_basina_dogru": {
+    "L3-summary-completion-31": 3,
+    "L3-summary-completion-32": 3,
+    "L3-summary-completion-33": 0,
+    "L3-summary-completion-34": 3,
+    "L3-summary-completion-35": 0,
+    "L3-summary-completion-36": 3,
+    "L5-summary-completion-36": 3,
+    "L5-summary-completion-37": 3,
+    "L5-summary-completion-38": 3,
+    "L5-summary-completion-39": 2,
+    "L5-summary-completion-40": 3,
+    "L6-summary-completion-37": 1,
+    "L6-summary-completion-38": 3,
+    "L6-summary-completion-39": 0,
+    "L6-summary-completion-40": 0
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "paket": "summary-completion",
+  "tur": 2,
+  "answers": [
+    {
+      "id": "L3-summary-completion-31",
+      "answer": "1920s",
+      "basis": "general_knowledge",
+      "anlam": true
+    },
+    {
+      "id": "L3-summary-completion-32",
+      "answer": "50",
+      "basis": "general_knowledge",
+      "anlam": true
+    },
+    {
+      "id": "L3-summary-completion-33",
+      "answer": "crust",
+      "basis": "general_knowledge",
+      "anlam": false
+    },
+    {
+      "id": "L3-summary-completion-34",
+      "answer": "seal",
+      "basis": "cross_question",
+      "anlam": true
+    },
+    {
+      "id": "L3-summary-completion-35",
+      "answer": "75",
+      "basis": "general_knowledge",
+      "anlam": false
+    },
+    {
+      "id": "L3-summary-completion-36",
+      "answer": "10",
+      "basis": "general_knowledge",
+      "anlam": true
+    },
+    {
+      "id": "L5-summary-completion-36",
+      "answer": "biofouling",
+      "basis": "general_knowledge",
+      "anlam": true
+    },
+    {
+      "id": "L5-summary-completion-37",
+      "answer": "mesh",
+      "basis": "general_knowledge",
+      "anlam": true
+    },
+    {
+      "id": "L5-summary-completion-38",
+      "answer": "1950s",
+      "basis": "general_knowledge",
+      "anlam": true
+    },
+    {
+      "id": "L5-summary-completion-39",
+      "answer": "nurdles",
+      "basis": "general_knowledge",
+      "anlam": false
+    },
+    {
+      "id": "L5-summary-completion-40",
+      "answer": "standardising",
+      "basis": "frame_wording",
+      "anlam": true
+    },
+    {
+      "id": "L6-summary-completion-37",
+      "answer": "2",
+      "basis": "number_guess",
+      "anlam": false
+    },
+    {
+      "id": "L6-summary-completion-38",
+      "answer": "half",
+      "basis": "general_knowledge",
+      "anlam": true
+    },
+    {
+      "id": "L6-summary-completion-39",
+      "answer": "welfare",
+      "basis": "general_knowledge",
+      "anlam": false
+    },
+    {
+      "id": "L6-summary-completion-40",
+      "answer": "preregistering",
+      "basis": "frame_wording",
+      "anlam": false
+    }
+  ]
+}

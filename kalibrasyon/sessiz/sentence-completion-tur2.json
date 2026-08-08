@@ -1,0 +1,240 @@
+{
+  "paket": "sentence-completion",
+  "tur": 2,
+  "answers": [
+    {
+      "id": "practice-sentence-completion-1",
+      "answer": "two",
+      "basis": "number_guess",
+      "anlam": false
+    },
+    {
+      "id": "practice-sentence-completion-2",
+      "answer": "test kit",
+      "basis": "frame_wording",
+      "anlam": true
+    },
+    {
+      "id": "practice-sentence-completion-3",
+      "answer": "mill",
+      "basis": "guess",
+      "anlam": false
+    },
+    {
+      "id": "practice-sentence-completion-4",
+      "answer": "file",
+      "basis": "frame_wording",
+      "anlam": true
+    },
+    {
+      "id": "practice-sentence-completion-5",
+      "answer": "2000",
+      "basis": "number_guess",
+      "anlam": false
+    },
+    {
+      "id": "practice-sentence-completion-6",
+      "answer": "appendix",
+      "basis": "grammar_cue",
+      "anlam": true
+    },
+    {
+      "id": "practice-sentence-completion-7",
+      "answer": "portal",
+      "basis": "frame_wording",
+      "anlam": false
+    },
+    {
+      "id": "practice-sentence-completion-8",
+      "answer": "placement office",
+      "basis": "guess",
+      "anlam": false
+    },
+    {
+      "id": "practice-sentence-completion-9",
+      "answer": "18 months",
+      "basis": "number_guess",
+      "anlam": false
+    },
+    {
+      "id": "practice-sentence-completion-10",
+      "answer": "24",
+      "basis": "general_knowledge",
+      "anlam": false
+    },
+    {
+      "id": "practice-sentence-completion-11",
+      "answer": "larger",
+      "basis": "general_knowledge",
+      "anlam": true
+    },
+    {
+      "id": "practice-sentence-completion-12",
+      "answer": "eye level",
+      "basis": "frame_wording",
+      "anlam": true
+    },
+    {
+      "id": "practice-sentence-completion-13",
+      "answer": "50",
+      "basis": "number_guess",
+      "anlam": false
+    },
+    {
+      "id": "practice-sentence-completion-14",
+      "answer": "book token",
+      "basis": "general_knowledge",
+      "anlam": false
+    },
+    {
+      "id": "practice-sentence-completion-15",
+      "answer": "library website",
+      "basis": "guess",
+      "anlam": false
+    },
+    {
+      "id": "L1-sentence-completion-27",
+      "answer": "module page",
+      "basis": "guess",
+      "anlam": true
+    },
+    {
+      "id": "L1-sentence-completion-28",
+      "answer": "reception",
+      "basis": "guess",
+      "anlam": false
+    },
+    {
+      "id": "L1-sentence-completion-29",
+      "answer": "Tuesday",
+      "basis": "number_guess",
+      "anlam": false
+    },
+    {
+      "id": "L1-sentence-completion-30",
+      "answer": "definition",
+      "basis": "frame_wording",
+      "anlam": true
+    },
+    {
+      "id": "L2-sentence-completion-27",
+      "answer": "appendix",
+      "basis": "grammar_cue",
+      "anlam": true
+    },
+    {
+      "id": "L2-sentence-completion-28",
+      "answer": "2500",
+      "basis": "number_guess",
+      "anlam": true
+    },
+    {
+      "id": "L2-sentence-completion-29",
+      "answer": "20th",
+      "basis": "number_guess",
+      "anlam": false
+    },
+    {
+      "id": "L2-sentence-completion-30",
+      "answer": "declaration",
+      "basis": "general_knowledge",
+      "anlam": false
+    },
+    {
+      "id": "L3-sentence-completion-27",
+      "answer": "timeline",
+      "basis": "frame_wording",
+      "anlam": true
+    },
+    {
+      "id": "L3-sentence-completion-28",
+      "answer": "word",
+      "basis": "logic",
+      "anlam": false
+    },
+    {
+      "id": "L3-sentence-completion-29",
+      "answer": "15",
+      "basis": "number_guess",
+      "anlam": false
+    },
+    {
+      "id": "L3-sentence-completion-30",
+      "answer": "the 30th",
+      "basis": "number_guess",
+      "anlam": false
+    },
+    {
+      "id": "L4-sentence-completion-27",
+      "answer": "five",
+      "basis": "number_guess",
+      "anlam": false
+    },
+    {
+      "id": "L4-sentence-completion-28",
+      "answer": "white space",
+      "basis": "general_knowledge",
+      "anlam": true
+    },
+    {
+      "id": "L4-sentence-completion-29",
+      "answer": "foyer",
+      "basis": "guess",
+      "anlam": false
+    },
+    {
+      "id": "L4-sentence-completion-30",
+      "answer": "wet",
+      "basis": "general_knowledge",
+      "anlam": false
+    },
+    {
+      "id": "L5-sentence-completion-27",
+      "answer": "ten",
+      "basis": "number_guess",
+      "anlam": false
+    },
+    {
+      "id": "L5-sentence-completion-28",
+      "answer": "appendices",
+      "basis": "frame_wording",
+      "anlam": false
+    },
+    {
+      "id": "L5-sentence-completion-29",
+      "answer": "resource room",
+      "basis": "guess",
+      "anlam": false
+    },
+    {
+      "id": "L5-sentence-completion-30",
+      "answer": "questionnaire",
+      "basis": "logic",
+      "anlam": true
+    },
+    {
+      "id": "L6-sentence-completion-27",
+      "answer": "30",
+      "basis": "number_guess",
+      "anlam": true
+    },
+    {
+      "id": "L6-sentence-completion-28",
+      "answer": "spreadsheet",
+      "basis": "frame_wording",
+      "anlam": false
+    },
+    {
+      "id": "L6-sentence-completion-29",
+      "answer": "group",
+      "basis": "general_knowledge",
+      "anlam": true
+    },
+    {
+      "id": "L6-sentence-completion-30",
+      "answer": "200 records",
+      "basis": "number_guess",
+      "anlam": true
+    }
+  ]
+}

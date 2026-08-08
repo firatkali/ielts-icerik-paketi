@@ -1,0 +1,80 @@
+{
+  "tarih": "2026-08-08",
+  "paket": "flow-chart-completion",
+  "toplam_kalem": 25,
+  "toplam_numara": 25,
+  "uc_turda_bilinen_k1": [
+    "L2-flow-chart-completion-32",
+    "L2-flow-chart-completion-33",
+    "L4-flow-chart-completion-36",
+    "L4-flow-chart-completion-40",
+    "practice-flow-chart-completion-1",
+    "practice-flow-chart-completion-10",
+    "practice-flow-chart-completion-12",
+    "practice-flow-chart-completion-14",
+    "practice-flow-chart-completion-2",
+    "practice-flow-chart-completion-3",
+    "practice-flow-chart-completion-5",
+    "practice-flow-chart-completion-6",
+    "practice-flow-chart-completion-7"
+  ],
+  "uc_turda_bilinen_k3": [
+    "L2-flow-chart-completion-32",
+    "L2-flow-chart-completion-33",
+    "L4-flow-chart-completion-36",
+    "L4-flow-chart-completion-40",
+    "practice-flow-chart-completion-1",
+    "practice-flow-chart-completion-10",
+    "practice-flow-chart-completion-12",
+    "practice-flow-chart-completion-14",
+    "practice-flow-chart-completion-2",
+    "practice-flow-chart-completion-3",
+    "practice-flow-chart-completion-5",
+    "practice-flow-chart-completion-6",
+    "practice-flow-chart-completion-7"
+  ],
+  "tip_bazinda": {
+    "flow_chart_completion": {
+      "toplam": 25,
+      "numara": 25,
+      "k1": 13,
+      "k3": 13
+    }
+  },
+  "olcum_disi": [],
+  "dayanak_dagilimi": {
+    "logic": 12,
+    "general_knowledge": 30,
+    "guess": 6,
+    "cross_question": 9,
+    "number_guess": 9,
+    "frame_wording": 9
+  },
+  "tur_basina_dogru": {
+    "L2-flow-chart-completion-31": 2,
+    "L2-flow-chart-completion-32": 3,
+    "L2-flow-chart-completion-33": 3,
+    "L2-flow-chart-completion-34": 1,
+    "L2-flow-chart-completion-35": 0,
+    "L4-flow-chart-completion-36": 3,
+    "L4-flow-chart-completion-37": 2,
+    "L4-flow-chart-completion-38": 0,
+    "L4-flow-chart-completion-39": 2,
+    "L4-flow-chart-completion-40": 3,
+    "practice-flow-chart-completion-1": 3,
+    "practice-flow-chart-completion-10": 3,
+    "practice-flow-chart-completion-11": 1,
+    "practice-flow-chart-completion-12": 3,
+    "practice-flow-chart-completion-13": 0,
+    "practice-flow-chart-completion-14": 3,
+    "practice-flow-chart-completion-15": 0,
+    "practice-flow-chart-completion-2": 3,
+    "practice-flow-chart-completion-3": 3,
+    "practice-flow-chart-completion-4": 0,
+    "practice-flow-chart-completion-5": 3,
+    "practice-flow-chart-completion-6": 3,
+    "practice-flow-chart-completion-7": 3,
+    "practice-flow-chart-completion-8": 0,
+    "practice-flow-chart-completion-9": 0
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "paket": "flow-chart-completion",
+  "tur": 3,
+  "answers": [
+    {
+      "id": "practice-flow-chart-completion-1",
+      "answer": "separate",
+      "basis": "logic",
+      "anlam": true
+    },
+    {
+      "id": "practice-flow-chart-completion-2",
+      "answer": "20",
+      "basis": "general_knowledge",
+      "anlam": true
+    },
+    {
+      "id": "practice-flow-chart-completion-3",
+      "answer": "regeneration",
+      "basis": "general_knowledge",
+      "anlam": true
+    },
+    {
+      "id": "practice-flow-chart-completion-4",
+      "answer": "backup store",
+      "basis": "guess",
+      "anlam": false
+    },
+    {
+      "id": "practice-flow-chart-completion-5",
+      "answer": "1",
+      "basis": "general_knowledge",
+      "anlam": true
+    },
+    {
+      "id": "practice-flow-chart-completion-6",
+      "answer": "brittle",
+      "basis": "cross_question",
+      "anlam": true
+    },
+    {
+      "id": "practice-flow-chart-completion-7",
+      "answer": "a tenth",
+      "basis": "general_knowledge",
+      "anlam": true
+    },
+    {
+      "id": "practice-flow-chart-completion-8",
+      "answer": "recycling",
+      "basis": "logic",
+      "anlam": false
+    },
+    {
+      "id": "practice-flow-chart-completion-9",
+      "answer": "cover",
+      "basis": "guess",
+      "anlam": false
+    },
+    {
+      "id": "practice-flow-chart-completion-10",
+      "answer": "tyres",
+      "basis": "general_knowledge",
+      "anlam": true
+    },
+    {
+      "id": "practice-flow-chart-completion-11",
+      "answer": "two",
+      "basis": "number_guess",
+      "anlam": false
+    },
+    {
+      "id": "practice-flow-chart-completion-12",
+      "answer": "window",
+      "basis": "cross_question",
+      "anlam": true
+    },
+    {
+      "id": "practice-flow-chart-completion-13",
+      "answer": "friction",
+      "basis": "general_knowledge",
+      "anlam": false
+    },
+    {
+      "id": "practice-flow-chart-completion-14",
+      "answer": "pilot",
+      "basis": "cross_question",
+      "anlam": true
+    },
+    {
+      "id": "practice-flow-chart-completion-15",
+      "answer": "hundreds",
+      "basis": "frame_wording",
+      "anlam": false
+    },
+    {
+      "id": "L2-flow-chart-completion-31",
+      "answer": "gravel",
+      "basis": "general_knowledge",
+      "anlam": true
+    },
+    {
+      "id": "L2-flow-chart-completion-32",
+      "answer": "thousand",
+      "basis": "general_knowledge",
+      "anlam": true
+    },
+    {
+      "id": "L2-flow-chart-completion-33",
+      "answer": "maintenance",
+      "basis": "logic",
+      "anlam": true
+    },
+    {
+      "id": "L2-flow-chart-completion-34",
+      "answer": "2",
+      "basis": "number_guess",
+      "anlam": false
+    },
+    {
+      "id": "L2-flow-chart-completion-35",
+      "answer": "reservoir",
+      "basis": "general_knowledge",
+      "anlam": false
+    },
+    {
+      "id": "L4-flow-chart-completion-36",
+      "answer": "receiver",
+      "basis": "frame_wording",
+      "anlam": true
+    },
+    {
+      "id": "L4-flow-chart-completion-37",
+      "answer": "pores",
+      "basis": "general_knowledge",
+      "anlam": true
+    },
+    {
+      "id": "L4-flow-chart-completion-38",
+      "answer": "landscaping",
+      "basis": "frame_wording",
+      "anlam": false
+    },
+    {
+      "id": "L4-flow-chart-completion-39",
+      "answer": "30",
+      "basis": "number_guess",
+      "anlam": true
+    },
+    {
+      "id": "L4-flow-chart-completion-40",
+      "answer": "bedrooms",
+      "basis": "logic",
+      "anlam": true
+    }
+  ]
+}

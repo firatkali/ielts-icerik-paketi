@@ -989,3 +989,56 @@
     Isaretlemeye aday 19 kalem JSON'larin uc_turda_bilinen_k3 alaninda.
   - dogrula.py: 12 tam test 40/40, sema hatasi 0, toplam soru 1310.
   - isaretli (flagged)     116  (degismedi)
+
+08.08.2026 15:18
+  - isaretli (flagged)     116
+
+08.08.2026 - OPUS5-E8 4/5 (dinleme sizinti olcumu: tamamlama ailesi B)
+  - Olculen: sentence-completion 39, summary-completion 15,
+    flow-chart-completion 25, short-answer 28 = 107 kalem / 107 numara.
+    Ses metni, senaryo klasoru ve cevap anahtari yine acilmadi.
+    _e8_sizinti_kontrol.py: 0 agir hata.
+  - Sayim yeniden yapildi: dinleme 352 kalem / 360 numara. 1-4. turlarda
+    olculen 307 kalem; olculmeden kalan tek tip plan-map-diagram-labelling
+    (45 kalem) - bilerek, gorsel gerekir.
+  - Sonuc: K1 41 (%38.3), K3 45 (%42.1).
+    sentence %20.5 | summary %60.0 | flow-chart %52.0 | short-answer %53.6
+  - [!] ASIL BULGU - "tamamlama ailesi" tek aile degil, IKIYE ayriliyor.
+    3. calistirmanin %17.4'u "tamamlama sizdirmaz" diye okunabilirdi; degil.
+    sentence-completion aile A ile ayni yerde (%20.5, boşluklar tikel ders
+    bilgisi: kac kelime, hangi gun, hangi oda). Ote uc paket coktan secmeli
+    (%67.6) / eslestirme (%70.6) yaninda, cunku bosluga dusen sozcuk cogu
+    zaman ALANIN DERS KITABI TERIMI: biofouling, orthodox, logaritmik, 3 dB,
+    -196, ghost gear, -20, 1950'ler, lastikler. Orada ses kaydi sus.
+    general_knowledge dayanagi: aile A 20 kalemde 6 (%30), aile B 45 kalemde
+    26 (%58).
+  - [!] Capraz sizinti artik dort yonlu, cross_question 5/5 (hepsi 3/3):
+    L3-summary-34 <- alistirma akis semasi "quality of the SEAL counts for
+    more than the jar"; practice-flow-6 <- L5-summary "polymer BRITTLE
+    enough to break apart"; practice-flow-12 <- L4-flow-40 "the moment a
+    WINDOW is opened"; practice-flow-14 <- L6-summary "came from one PILOT
+    in a single town"; practice-short-15 <- L5-summary "doubled EVERY
+    FIFTEEN YEARS since". Sekiz senaryo butun dinleme bacaginda yeniden
+    kullaniliyor: bir pakette BOSLUK olan sey digerinde DUZ METIN.
+  - [!] Sema kendi basligini ele veriyor: L4-flow-36 "at the source -> along
+    the path -> at the (36)" - ayni semanin birkac satir asagidaki basligi
+    "AT THE RECEIVER". Soru cevabini kendi sayfasinda basiyor.
+  - [!] grammar_cue 2/2: practice-sentence-6 ve L2-sentence-27, ikisinde de
+    "an (N)" + "kelime sayisina girmez" cercevesi tek adayi birakiyor
+    (appendix). 3. calistirmadaki L2-note-40'in aynisi, desen tekrar ediyor.
+  - [+] Dayanak ayrimi DORDUNCU kez tam: sansa acik 34 kalemin (guess 10,
+    number_guess 24) HICBIRI 3/3 tutmadi; 3/3 tutan 45 kalemin HEPSININ
+    dayanagi anlamsal. Ham oran = anlamsal oran.
+  - K3 dort kalemde K1'den ayrildi (3. cal.'da tekti): practice-sentence-2,
+    L5-sentence-30, practice-short-2, practice-short-14. Ters yon 0.
+  - [+] Olcum araci bu turda kimseyi kirletmedi: _e8_govde_cakismasi.py HIC
+    calistirilmadi (3. calistirmada kirlenme oradan gelmisti). Uyari dosya
+    basina yalnizca bir SAYI basiyor, hangi kalem oldugunu soylemiyor.
+    haric: 0 - 107 kalemin hepsi orana girdi.
+  - Yeni arac: tools/_e8_tamamlama_b_turlar.py (aile A'daki
+    _e8_tamamlama_turlar.py'nin kardesi; ayni bicim, ayni dayanak sinifi).
+    metinsiz-* araclarina ve okumanin olcum dosyalarina dokunulmadi.
+  - Isaretleme YAPILMADI (plana gore 5. calistirmada, tek tip cumleyle).
+    1-4. calistirma toplami: ham 3/3 125 kalem, dayanagi anlamsal 121.
+  - dogrula.py: 12 tam test 40/40, sema hatasi 0, toplam soru 1310.
+  - isaretli (flagged)     116  (degismedi)

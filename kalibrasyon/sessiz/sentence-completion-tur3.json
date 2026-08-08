@@ -1,0 +1,240 @@
+{
+  "paket": "sentence-completion",
+  "tur": 3,
+  "answers": [
+    {
+      "id": "practice-sentence-completion-1",
+      "answer": "four",
+      "basis": "number_guess",
+      "anlam": false
+    },
+    {
+      "id": "practice-sentence-completion-2",
+      "answer": "kit",
+      "basis": "frame_wording",
+      "anlam": true
+    },
+    {
+      "id": "practice-sentence-completion-3",
+      "answer": "car park",
+      "basis": "guess",
+      "anlam": false
+    },
+    {
+      "id": "practice-sentence-completion-4",
+      "answer": "PDF",
+      "basis": "frame_wording",
+      "anlam": false
+    },
+    {
+      "id": "practice-sentence-completion-5",
+      "answer": "1200",
+      "basis": "number_guess",
+      "anlam": false
+    },
+    {
+      "id": "practice-sentence-completion-6",
+      "answer": "appendix",
+      "basis": "grammar_cue",
+      "anlam": true
+    },
+    {
+      "id": "practice-sentence-completion-7",
+      "answer": "online portal",
+      "basis": "frame_wording",
+      "anlam": false
+    },
+    {
+      "id": "practice-sentence-completion-8",
+      "answer": "office",
+      "basis": "guess",
+      "anlam": false
+    },
+    {
+      "id": "practice-sentence-completion-9",
+      "answer": "six months",
+      "basis": "number_guess",
+      "anlam": false
+    },
+    {
+      "id": "practice-sentence-completion-10",
+      "answer": "20",
+      "basis": "general_knowledge",
+      "anlam": false
+    },
+    {
+      "id": "practice-sentence-completion-11",
+      "answer": "A0",
+      "basis": "general_knowledge",
+      "anlam": false
+    },
+    {
+      "id": "practice-sentence-completion-12",
+      "answer": "eye level",
+      "basis": "frame_wording",
+      "anlam": true
+    },
+    {
+      "id": "practice-sentence-completion-13",
+      "answer": "40",
+      "basis": "number_guess",
+      "anlam": false
+    },
+    {
+      "id": "practice-sentence-completion-14",
+      "answer": "voucher",
+      "basis": "general_knowledge",
+      "anlam": true
+    },
+    {
+      "id": "practice-sentence-completion-15",
+      "answer": "online system",
+      "basis": "guess",
+      "anlam": false
+    },
+    {
+      "id": "L1-sentence-completion-27",
+      "answer": "library website",
+      "basis": "guess",
+      "anlam": false
+    },
+    {
+      "id": "L1-sentence-completion-28",
+      "answer": "porters",
+      "basis": "guess",
+      "anlam": false
+    },
+    {
+      "id": "L1-sentence-completion-29",
+      "answer": "Friday",
+      "basis": "number_guess",
+      "anlam": true
+    },
+    {
+      "id": "L1-sentence-completion-30",
+      "answer": "definition",
+      "basis": "frame_wording",
+      "anlam": true
+    },
+    {
+      "id": "L2-sentence-completion-27",
+      "answer": "appendix",
+      "basis": "grammar_cue",
+      "anlam": true
+    },
+    {
+      "id": "L2-sentence-completion-28",
+      "answer": "3000",
+      "basis": "number_guess",
+      "anlam": false
+    },
+    {
+      "id": "L2-sentence-completion-29",
+      "answer": "15th",
+      "basis": "number_guess",
+      "anlam": false
+    },
+    {
+      "id": "L2-sentence-completion-30",
+      "answer": "risk assessment",
+      "basis": "general_knowledge",
+      "anlam": true
+    },
+    {
+      "id": "L3-sentence-completion-27",
+      "answer": "timeline",
+      "basis": "frame_wording",
+      "anlam": true
+    },
+    {
+      "id": "L3-sentence-completion-28",
+      "answer": "word",
+      "basis": "logic",
+      "anlam": false
+    },
+    {
+      "id": "L3-sentence-completion-29",
+      "answer": "12",
+      "basis": "number_guess",
+      "anlam": true
+    },
+    {
+      "id": "L3-sentence-completion-30",
+      "answer": "Monday",
+      "basis": "number_guess",
+      "anlam": false
+    },
+    {
+      "id": "L4-sentence-completion-27",
+      "answer": "two",
+      "basis": "number_guess",
+      "anlam": false
+    },
+    {
+      "id": "L4-sentence-completion-28",
+      "answer": "white space",
+      "basis": "general_knowledge",
+      "anlam": true
+    },
+    {
+      "id": "L4-sentence-completion-29",
+      "answer": "atrium",
+      "basis": "guess",
+      "anlam": true
+    },
+    {
+      "id": "L4-sentence-completion-30",
+      "answer": "frozen",
+      "basis": "general_knowledge",
+      "anlam": true
+    },
+    {
+      "id": "L5-sentence-completion-27",
+      "answer": "six",
+      "basis": "number_guess",
+      "anlam": false
+    },
+    {
+      "id": "L5-sentence-completion-28",
+      "answer": "appendix",
+      "basis": "frame_wording",
+      "anlam": true
+    },
+    {
+      "id": "L5-sentence-completion-29",
+      "answer": "study room",
+      "basis": "guess",
+      "anlam": false
+    },
+    {
+      "id": "L5-sentence-completion-30",
+      "answer": "questionnaire",
+      "basis": "logic",
+      "anlam": true
+    },
+    {
+      "id": "L6-sentence-completion-27",
+      "answer": "40",
+      "basis": "number_guess",
+      "anlam": false
+    },
+    {
+      "id": "L6-sentence-completion-28",
+      "answer": "form",
+      "basis": "frame_wording",
+      "anlam": false
+    },
+    {
+      "id": "L6-sentence-completion-29",
+      "answer": "folder",
+      "basis": "general_knowledge",
+      "anlam": false
+    },
+    {
+      "id": "L6-sentence-completion-30",
+      "answer": "50 records",
+      "basis": "number_guess",
+      "anlam": false
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "tarih": "2026-08-08",
+  "paket": "sentence-completion",
+  "toplam_kalem": 39,
+  "toplam_numara": 39,
+  "uc_turda_bilinen_k1": [
+    "L1-sentence-completion-30",
+    "L2-sentence-completion-27",
+    "L3-sentence-completion-27",
+    "L4-sentence-completion-28",
+    "practice-sentence-completion-12",
+    "practice-sentence-completion-6"
+  ],
+  "uc_turda_bilinen_k3": [
+    "L1-sentence-completion-30",
+    "L2-sentence-completion-27",
+    "L3-sentence-completion-27",
+    "L4-sentence-completion-28",
+    "L5-sentence-completion-30",
+    "practice-sentence-completion-12",
+    "practice-sentence-completion-2",
+    "practice-sentence-completion-6"
+  ],
+  "tip_bazinda": {
+    "sentence_completion": {
+      "toplam": 39,
+      "numara": 39,
+      "k1": 6,
+      "k3": 8
+    }
+  },
+  "olcum_disi": [],
+  "dayanak_dagilimi": {
+    "number_guess": 39,
+    "frame_wording": 24,
+    "guess": 21,
+    "grammar_cue": 6,
+    "general_knowledge": 21,
+    "logic": 6
+  },
+  "tur_basina_dogru": {
+    "L1-sentence-completion-27": 1,
+    "L1-sentence-completion-28": 0,
+    "L1-sentence-completion-29": 1,
+    "L1-sentence-completion-30": 3,
+    "L2-sentence-completion-27": 3,
+    "L2-sentence-completion-28": 1,
+    "L2-sentence-completion-29": 0,
+    "L2-sentence-completion-30": 2,
+    "L3-sentence-completion-27": 3,
+    "L3-sentence-completion-28": 0,
+    "L3-sentence-completion-29": 1,
+    "L3-sentence-completion-30": 0,
+    "L4-sentence-completion-27": 1,
+    "L4-sentence-completion-28": 3,
+    "L4-sentence-completion-29": 2,
+    "L4-sentence-completion-30": 2,
+    "L5-sentence-completion-27": 0,
+    "L5-sentence-completion-28": 2,
+    "L5-sentence-completion-29": 0,
+    "L5-sentence-completion-30": 0,
+    "L6-sentence-completion-27": 1,
+    "L6-sentence-completion-28": 0,
+    "L6-sentence-completion-29": 0,
+    "L6-sentence-completion-30": 1,
+    "practice-sentence-completion-1": 0,
+    "practice-sentence-completion-10": 0,
+    "practice-sentence-completion-11": 1,
+    "practice-sentence-completion-12": 3,
+    "practice-sentence-completion-13": 0,
+    "practice-sentence-completion-14": 2,
+    "practice-sentence-completion-15": 0,
+    "practice-sentence-completion-2": 1,
+    "practice-sentence-completion-3": 0,
+    "practice-sentence-completion-4": 2,
+    "practice-sentence-completion-5": 0,
+    "practice-sentence-completion-6": 3,
+    "practice-sentence-completion-7": 0,
+    "practice-sentence-completion-8": 1,
+    "practice-sentence-completion-9": 0
+  }
+}

@@ -332,3 +332,169 @@ dosyalarında bu alan yok, çıktıları değişmez).
   işaretleme). `plan-map-diagram-labelling` (45 kalem) **ölçülmeyecek** — görsel gerekir.
 
 🔴 Bu ölçüm bozuk soruyu bulur, zorluk ölçmez.
+
+---
+
+## 4. çalıştırma — tamamlama ailesi B (cümle / özet / akış / kısa cevap) · 2026-08-08
+
+**Kapsam:** `sentence-completion` 39 kalem (alıştırma 15, L1–L6 × 4), `summary-completion`
+15 kalem (L3 6, L5 5, L6 4), `flow-chart-completion` 25 kalem (alıştırma 15, L2 5, L4 5),
+`short-answer` 28 kalem (alıştırma 15, L1 4, L3 4, L4 5) — **107 kalem / 107 numara**,
+dinlemedeki bu dört tipin tamamı. Ses metnine, senaryo klasörüne ve cevap anahtarına yine
+hiç bakılmadı; `tools/_e8_sizinti_kontrol.py` **0 ağır hata** verdi.
+
+**Sayım yeniden yapıldı (rule 1):** dinleme 352 kalem / 360 numara; tip bazında
+akış 25, form 40, eşleştirme 43, çoktan seçmeli 40 (43 numara), çok cevaplı 5 (10 numara),
+not 42, plan/harita/diyagram 45, cümle 39, kısa cevap 28, özet 15, tablo 30.
+**Bu çalıştırmayla birlikte 1–4. turlarda ölçülen: 307 kalem** — ölçülmeden kalan tek tip
+`plan-map-diagram-labelling` (45 kalem), o da bilerek: görsel gerektirir, metin tabanlı
+ölçüm orada kördür.
+
+| Paket | Ölçülen | K1 (kelime) | K3 (anlam) | Ölçüm dışı |
+|---|---|---|---|---|
+| `sentence-completion` | 39 kalem | 6 (%15.4) | **8 (%20.5)** | 0 |
+| `summary-completion` | 15 kalem | 9 (%60.0) | **9 (%60.0)** | 0 |
+| `flow-chart-completion` | 25 kalem | 13 (%52.0) | **13 (%52.0)** | 0 |
+| `short-answer` | 28 kalem | 13 (%46.4) | **15 (%53.6)** | 0 |
+| **Toplam** | **107 kalem** | **41 (%38.3)** | **45 (%42.1)** | **0** |
+
+### 🔴 Asıl bulgu: "tamamlama ailesi" tek bir aile değil — ikiye ayrılıyor
+
+3. çalıştırmanın sonucu (aile A: %17.4) "tamamlama tipleri sızdırmaz" diye okunabilirdi.
+Bu tur o okumayı çürütüyor. Aile B'nin dört paketi **iki ayrı gruba** düşüyor:
+
+- **`sentence-completion` %20.5** — aile A ile aynı yerde. Sebebi de aynı: boşluklar
+  ders yönetimiyle ilgili **tikel** bilgiler (kaç kelime, hangi gün, hangi oda, kaç dakika).
+  39 kalemin 20'si sayı/ad/gün tahmini; hiçbiri tutmadı.
+- **`summary-completion` %60.0, `short-answer` %53.6, `flow-chart-completion` %52.0** —
+  çoktan seçmeli (%67.6) ve eşleştirmenin (%70.6) yanında. Sebebi tek: bu üç pakette
+  boşluğa düşen sözcük çoğu zaman **alanın ders kitabı terimi**, konuşmanın seçtiği bir
+  değer değil.
+
+Ayrımı sayıyla söyleyen dayanak `general_knowledge`:
+
+| | Kalem | 3/3 bilinen | Oran |
+|---|---|---|---|
+| Aile A (form/not/tablo, 3. çalıştırma) | 20 | 6 | %30 |
+| Aile B (bu tur) | 45 | 26 | **%58** |
+
+Aile B'de dünya bilgisiyle bilinen 26 kalem şunlar gibi: canlıların kaplaması =
+*biofouling*, kurutulup dondurulabilen tohum = *orthodox*, desibelin ölçeği =
+*logaritmik*, trafik iki katına çıkınca artış = *3 dB*, sıvı azotta = *−196*,
+denizde kaybolan takım = *ghost gear*, tohum bankası sıcaklığı = *−20*, ilk plastik
+tabakası = *1950'ler*, 40 km/s üstünde gürültünün kaynağı = *lastikler*. Bu sorularda
+**ses kaydı süs**: aday senaryoyu hiç duymadan doğru yazıyor.
+
+### İkinci mekanizma — çapraz sızıntı artık dört yönlü (`cross_question` 5/5)
+
+3. çalıştırma alıştırma not/tablo paketlerinin tam testlerle **aynı senaryoları**
+kullandığını bulmuştu. Bu turda aynı kusur **paket tipleri arasında** da çıktı ve
+işaretlenen 5 kalemin **beşi de** 3/3 bilindi. Birinin boşluğunu diğerinin düz metni
+dolduruyor:
+
+- `L3-summary-34` "mühürlendikten sonra, hangi (34) iyi olduğu kavanozdan önemli" →
+  alıştırma akış şeması *SEALING AND FREEZING* adımı aynı cümleyi boşluksuz yazıyor:
+  "The quality of the **seal** counts for more than the jar itself."
+- `practice-flow-6` "gün ışığı ve su hareketi polimeri (6) yapar" → `L5-summary`
+  gövdesi: "leave the polymer **brittle** enough to break apart."
+- `practice-flow-12` "sıcak bir gecede (12) yeniden açılır" → `L4-flow-40`:
+  "the moment a **window** is opened."
+- `practice-flow-14` "gazetelerin yazdığı on beş puanlık artış tek bir (14) dayanıyor" →
+  `L6-summary` gövdesi: "the figure the papers carried came from one **pilot** in a
+  single town."
+- `practice-short-15` "miktar ne sıklıkla ikiye katlandı?" → `L5-summary` gövdesi:
+  "the amount has roughly doubled **every fifteen years** since."
+
+Yani sekiz dinleme senaryosu bütün dinleme bacağında yeniden kullanılıyor ve bir pakette
+**boşluk** olan şey başka bir pakette **düz metin** olarak duruyor. Alıştırma paketi tam
+testten önce çalışılacağı için bu, tam testin sorusunu önceden görmek demek.
+
+### Üçüncü mekanizma — çerçevenin kendi sözü, bir kez de kendi başlığı
+
+`frame_wording` 15 kalemin 8'i. En temiz örnek **şemanın kendi başlığını ele vermesi**:
+
+- `L4-flow-36` "at the source → along the path → at the (36)" — aynı akış şemasının
+  birkaç satır aşağıdaki başlığı *AT THE RECEIVER* diye yazıyor. Soru kendi cevabını
+  sayfanın içinde basıyor; sesin hiçbir katkısı yok.
+- `L5-sentence-28` "ne tablolar ne anket kelime sayısına girer, çünkü ikisi de (28)
+  içindedir" → *ek (appendix)*; `L5-sentence-30` "pilot uygulamadan **önce** gönderilecek
+  olan (30)" → pilotlanan şey anketin kendisi.
+- `practice-short-2` "hangi biçim **var olan bir binanın üstüne** kurulur?" → sorunun
+  kendi tanımı *çatı çiftliği* diyor. `practice-short-11` "duvarın trafikle dinleyici
+  arasında neyi kesmesi gerekir?" → *görüş hattı*; alıştırma akış şeması ayrıca
+  "tekerlekleri görüşten gizleyecek yere konur" diye tekrarlıyor.
+- `practice-flow-15` "örneklemler (15) binleri buluyor" → *yüz*. Eşdizim boşluğu:
+  İngilizcede "___ of thousands" kalıbının tek doğal doldurması var.
+
+**Dilbilgisi sızıntısı (`grammar_cue`) 2/2:** `practice-sentence-6` "artık bir **an** (6)
+olarak veriliyor" ve `L2-sentence-27` "her ölçüm bir **an** (27) içine konur, kelime
+sayısına girmez". İkisinde de *an* boşluğu ünlüyle başlayan sözcüğe kilitliyor, "kelime
+sayısı dışında kalır" çerçevesi de tek adayı bırakıyor: *appendix*. 3. çalıştırmadaki
+`L2-note-40`'ın aynısı — desen tekrar ediyor.
+
+### Dayanak çaprazı — ayrım dördüncü kez de tam
+
+| Dayanak | Kalem | 3/3 bilinen | Bilinmeyen |
+|---|---|---|---|
+| `cross_question` | 5 | **5** | 0 |
+| `grammar_cue` | 2 | **2** | 0 |
+| `general_knowledge` | 45 | **26** | 19 |
+| `frame_wording` | 15 | **8** | 7 |
+| `logic` | 6 | **4** | 2 |
+| `guess` | 10 | **0** | 10 |
+| `number_guess` | 24 | **0** | 24 |
+
+🔴 Şansa açık işaretlenen **34 kalemin hiçbiri** 3/3 tutmadı; 3/3 tutan 45 kalemin
+**hepsinin** dayanağı anlamsal. Ham oran = anlamsal-dayanaklı oran (%42.1). Ayrım
+1. çalıştırmadan beri dördüncü kez aynı yönde çıkıyor — ölçüt, kararlı-ama-şanslı
+sezgiyi bu ailede de üretmedi.
+
+### K3, K1'den dört kalemde ayrıldı
+
+3. çalıştırmada ayrım tek kalemdeydi, burada dört: `practice-sentence-2`,
+`L5-sentence-30`, `practice-short-2`, `practice-short-14`. Dördünde de anlam aynı,
+sözcük sayısı/eki farklı — kararı yine `tools/_e8_anlam_esle.py` verdi (anahtarı yalnız
+script okur, dışarı sayı basar). Ters yön yok: K1'de tutup K3'te düşen kalem **0**.
+
+### Ölçüm aracı bu turda kimseyi kirletmedi
+
+`_e8_sizinti_kontrol.py` dört dosyada "gövdede birebir geçen cevap dizgisi: 1" uyarısı
+verdi (alıştırma akış + alıştırma cümle + `L3-summary` + `L4-flow`). 3. çalıştırmanın
+dersi gereği bu turda `_e8_govde_cakismasi.py` **hiç çalıştırılmadı** — kirlenme oradan
+gelmişti. Uyarı dosya başına yalnız bir **sayı** basıyor, hangi kalem olduğunu
+söylemiyor; 15–25 kalemlik bir dosyada tek kalemi daraltmaya yetmez. Bu yüzden bu turda
+`haric` işaretli kalem **yok**, 107 kalemin hepsi orana girdi. `L4-flow`'daki uyarının
+36. soru olduğu neredeyse kesin — ama onu araç değil, kopyanın kendisi söylüyor
+(*AT THE RECEIVER* başlığı sayfada duruyor); orası araç kirlenmesi değil, **gerçek soru
+kusuru**.
+
+### Sızıntının olmadığı yer — ölçümün karşı kutbu
+
+Sızmayan 62 kalemin 34'ü sayı/ad/gün tahmini, kalan 28'inde dayanağım anlamsaldı ama
+tutmadı. Doğru tasarlanmış boşluğun tarifi bu kalemlerden çıkıyor: **cevap, konuşmanın
+seçtiği bir değer olmalı, alanın ders kitabı terimi değil.** Çalışan örnekler:
+`L6-summary-37` (büyük denemelerin bulduğu puan artışı — literatürde tek bir sayı yok),
+`L2-flow-34` (yolda kaybedilen yüzde), `L4-flow-39` (ağaç şeridinin kaç metre olması
+gerektiği), `practice-flow-4` (yedek örneğin nereye gittiği), `practice-flow-9`
+(gürültü haritasına giren zemin değişkeni). Bunların hepsinde üç turda üç farklı yanıt
+verdim: senaryo olmadan bilinmiyorlar, olmaları gerektiği gibi.
+
+### Şimdilik ne yapıldı, ne yapılmadı
+
+- Ölçüm yapıldı; ham veri `content/DOGRULAMA/SESSIZ-{sentence,summary,flow-chart}-completion.json`
+  ve `SESSIZ-short-answer.json`, tur cevapları
+  `kalibrasyon/sessiz/<paket>-tur{1,2,3}.json` (her kalemde `basis` + `anlam`), turlar
+  `tools/_e8_tamamlama_b_turlar.py` tablosundan üretildi (aile A'daki
+  `_e8_tamamlama_turlar.py`nin kardeşi, aynı biçim ve aynı dayanak sınıfı).
+- **İşaretleme yapılmadı** — plana göre 5. çalıştırmada, tek tip cümleyle, bir kerede.
+  Bu turdan işaretlemeye aday 45 kalemin listesi JSON'ların `uc_turda_bilinen_k3`
+  alanında. 1–4. çalıştırmanın toplamı: ham 3/3 **125 kalem** (25 + 36 + 19 + 45),
+  bunların dayanağı anlamsal olanı **121 kalem** — aradaki 4 kalem 1. çalıştırmanın
+  `number_guess` 3/3'leri, plana göre işaretlenmeyecek ama listede şeffaflık için
+  duracak. Kesin liste 5. çalıştırmada JSON'lardan birleştirilecek.
+- Hiçbir soru silinmedi; `tools/dogrula.py` bu turda da 12 tam test 40/40, şema hatası 0,
+  toplam 1310 soru, işaretli 116 (değişmedi).
+- `metinsiz-*` araçlarına ve okumanın ölçüm dosyalarına dokunulmadı.
+- Kalan: 5. çalıştırma (toplu rapor + işaretleme).
+
+🔴 Bu ölçüm bozuk soruyu bulur, zorluk ölçmez.
