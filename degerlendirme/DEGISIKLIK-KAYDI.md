@@ -263,3 +263,175 @@ durumda. Konuşma puanlamasının sapması bu projede ölçülmemiştir; son rap
 6. **Alt band.** ≤4,5 aralığı +0,50'den yukarı **çıkmamalı**. 18 numaralı değişiklik aşağı yönlü,
    diğer altısı yukarı yönlü; alt bandda net etkinin ne olacağı bu düzeltmenin en belirsiz yeri.
 7. Saklı küme (S1) ile görünür kümeler arasındaki fark **açılmamalı** (tur 2'de 0,14 band).
+
+---
+
+## 3. düzeltme — 2026-08-09
+
+| | |
+|---|---|
+| Ölçüm | `RAPOR-tur3.md` (23 örnek × 3 puanlama, yazma) · `RAPOR-tur5.md` (gerçek bandı ≤4,5 olan 4 yazma örneği × 3 puanlama, alt banda nişan alan ek tur). Bağlam için `RAPOR-tur4-GENEL.md` (12 konuşma örneği × 6 puanlama — projenin **ilk konuşma ölçümü**) |
+| Görülen kümeler | **S1 + S3** |
+| SAKLI küme | **S2** — o kümenin hiçbir örneğine, cevabına, gerçek bandına, ölçüt puanına veya sapma satırına bakılmadı; `RAPOR-tur<N>-S2.md` dosyaları ve `olcum/tur<N>/AC-T2-2A-A-*.json` puanlamaları hiç açılmadı |
+| Değişen dosyalar | `ORTAK-KURALLAR.md`, `yazma-task1-academic.md`, `yazma-task1-general.md`, `yazma-task2.md`, `konusma.md` |
+| Tanı scripti | `tools/_a4_alt.py` — `kumeler.json`'daki **S1+S3'e kilitli**; gerçek bandları yalnız izinli kümelerin rapor dosyalarından okur |
+
+Bu tur saklı küme koruması bakımından öncekilerden temiz: `puanlama-raporu.py` artık kümeye
+bölünmüş rapor üretiyor, dolayısıyla 2. düzeltmedeki "tek tabloda hepsi göründü" sorunu tekrarlamadı.
+Birleşik `RAPOR-tur3.md` / `RAPOR-tur5.md` dosyalarının yalnız **özet bölümü** (satır 1–32) okundu;
+"Örnek örnek" tablosuna hiç inilmedi, örnek düzeyindeki her şey S1 ve S3 dosyalarından alındı.
+
+### 2. düzeltmenin beklentileri tuttu mu
+
+Aşağıdaki sayılar tur 3'ün **S1+S3** örneklerinden (n=15) hesaplandı; 2. düzeltmenin tablosu o
+oturumun görünürleri olan S2+S3'ten (n=15) hesaplanmıştı. Ortak olan yalnız S3, yani karşılaştırma
+küme bileşimi farkı taşıyor — yön güvenilir, ondalık değil.
+
+| Beklenti | Sonuç |
+|---|---|
+| 1. ≥7 aralığında genel sapma −1,50 → −0,75 içi, en az bir 7,5+ | 🟡 **KIL PAYI KALDI** — −0,86. Ama hareket büyük ve doğru yönde; 7,5 iki kez verildi, konuşmada 8,0 ve 8,75 çıktı. Ölçeğin üst ucu ilk kez gerçekten açıldı |
+| 2. ≥7 aralığında tutarlılık ölçütü −2,17 → −1,00 içi | 🟡 **KIL PAYI KALDI** — −1,14. En büyük tek kazanç bu |
+| 3. En büyük tek sapma 2,0'ın altına | 🔴 **KALDI** — 2,50 (`RAPOR-tur3-GENEL.md`) |
+| 4. Eğilim −0,70 → −0,35 içi | ✅ **GEÇTİ** — −0,326 |
+| 5. Orta band (5–6,5) +0,25'i geçmemeli | ✅ **GEÇTİ** — −0,07. Orta band artık pratik olarak yerinde |
+| 6. Alt band (≤4,5) +0,50'den yukarı çıkmamalı | 🔴 **KALDI, hem de tek yönlü** — tur 3'te **+0,92**, alt banda nişan alan tur 5'te **+1,28**. 18 numaralı değişiklik (5-4 ayrımı) tek başına diğer altı yukarı yönlü değişikliği tutamadı |
+| 7. Saklı kümeyle (S1) fark açılmamalı | 🟡 tur 2'de 0,14 → tur 3'te **0,25** (S1 0,750 · S3 0,500), tur 4'te **0,625** (S1 0,875 · S3 0,250). Tur 4'ün farkı tek bir örnekten geliyor (n=4'lük kümelerde bir örnek 0,3 band oynatıyor), ama eğilim yanlış yönde ve **son raporda risk olarak yazılmalı** |
+| — | Tur 4 tutarlılığı 🔴 **KALDI** (yayılım 0,79). Yazmada iki turdur ≤0,28 olan yayılım, konuşmada altı tekrarla ilk kez ölçüldü ve sınırı aştı |
+
+Özet: 1. ve 2. düzeltme **üst bandı ve orta bandı** düzeltti — bu iki iş büyük ölçüde bitti.
+Aynı değişikliklerin **hiçbiri alt bandda sınırlı değildi** ve alt band bunun bedelini ödedi.
+
+### Ölçüm ne dedi (yalnız S1+S3)
+
+Band aralığı × ölçüt (ölçüt bandı − gerçek genel band):
+
+| Tur | Gerçek band | n | görev | tutarlılık | kelime | dilbilgisi | genel |
+|---|---|---|---|---|---|---|---|
+| 3 | ≤ 4,5 | 2 | **+1,17** | **+1,33** | +0,17 | +0,33 | **+0,92** |
+| 3 | 5 – 6,5 | 7 | −0,10 | +0,14 | −0,17 | −0,71 | −0,07 |
+| 3 | ≥ 7 | 6 | −1,11 | −1,14 | −0,67 | −0,89 | −0,86 |
+| 5 | ≤ 4,5 | 3 | **+1,56** | **+1,89** | +0,78 | +0,56 | **+1,28** |
+
+Sapma artık **iki uçta**, ve alt uç daha büyük. Alt bandda şişme **tek tip değil**: kelime ve
+dilbilgisi ölçütleri neredeyse yerinde (+0,6/+0,8), **görev ve tutarlılık** ölçütleri 1,5–1,9 band
+yukarıda. Gerçek bandı 3,0 olan bir cevap ürün üzerinde **4,5** görünüyor; gerçek bandı 4,0 olan
+iki cevap **5,0** ve **5,5** görünüyor. Kullanıcı tarafında bunun anlamı: hazır olmayan aday
+"orta seviyeye yaklaşmışım" sonucunu alıyor.
+
+#### Örüntü F — tablo satırları simetrik değil, ama okuma yordamı simetrik
+
+Bu turun asıl bulgusu. Üst bandın satırları **başarı** tarif eder (bir cevap ya genel bakışı
+vermiştir ya vermemiştir), alt bandın satırları ise **eksiklik** tarif eder — ve eksiklikler
+iç içe geçer: band 4'e uyan bir cevap band 5 satırını da "doğru" okutur, band 3'e uyan bir cevap
+4 ve 5 satırlarını da doğru okutur.
+
+11 numaralı değişiklik ("tabloyu 9'dan aşağı oku, **hâlâ doğru olan ilk satırda dur**") üst bandda
+tam olarak istendiği gibi çalıştı — ölçeğin tavanı açıldı. Alt bandda ise aynı kural yapısal olarak
+yanlış: iç içe geçmiş eksiklik satırlarında "hâlâ doğru olan ilk satır" **her zaman fazla yüksektir**.
+Model 5'te duruyor, çünkü 5 satırı doğru; 4 satırının **daha** doğru olduğuna hiç bakmıyor.
+
+#### Örüntü G — özellik bulunuyor, başarı sanılıyor
+
+Tur 5'in gerekçelerinde tekrar eden biçim: cevabın becerdiği tek bir şey adlandırılıyor ve band o
+şeyi izliyor. Bir yan cümle "yapısal iddia" sayılıyor, iki satır boşluğu "paragraflama" sayılıyor,
+üç maddeden ikisine değinmek "kapsama" sayılıyor, çözülebilen bir öbek "iletişim" sayılıyor.
+12 numaralı değişiklik üst band için "kusur bulmak diskalifiye değildir" diyor; **alt band için
+karşılığı yazılmamıştı**: özelliğin *bulunması* onun *başarılması* değildir.
+
+#### Örüntü H — gerekçe kuralı bu sefer yukarı bastırıyor
+
+15 numaralı değişiklik `why`'ın ilk cümlesini "bandı ne hak ettiriyor" cümlesi yaptı; üst bandda
+işe yaradı (tutarlılık −2,17 → −1,14). Alt bandda ters çalışıyor: model önce bir güçlü yan bulmak
+zorunda, bulduğu tek güçlü yanı yazıyor, sonra **bandı o cümleye göre** veriyor. Gerekçe biçimi
+puanın çapası hâline geldi.
+
+#### Örüntü I — tavan hâlâ taban gibi çalışıyor, ama artık ölçülebilir biçimde
+
+Üç örnekte de verilen ölçüt bandı, tetiklenen tavanın değerine **birebir eşit**. 1. düzeltme
+"tavan puan değildir" dedi, 2. düzeltme "tavana eşit yazmadan önce satırı doğrula" dedi; ikisi de
+**yasak** biçiminde yazıldığı için model yasağı çiğnemeden tavana oturabiliyor — satırı "doğruladı",
+çünkü o satır (iç içe geçme yüzünden) gerçekten doğru. Kural pozitif bir yükümlülüğe çevrilmeli.
+
+#### Örüntü J — konuşma (tur 4, ilk ölçüm) — kayda geçiyor, bu turda dokunulmuyor
+
+Konuşma genel olarak projenin en iyi tarafı (MAE 0,583 · eğilim −0,250 · üst uçta 8,0 ve 8,75).
+İki ölçülmüş örüntü var: (a) **kelime ölçütü orta bandda sistematik +0,5/+0,75**, üç ölçüt içinde
+en yükseği; (b) **yayılım 0,79** ile tutarlılık ölçütü ilk kez kaldı, ve yayılımın çoğu kelime
+ölçütünün tekrarlar arası 6,5/7/7,5 salınımından geliyor. İkisine de bu turda dokunulmadı;
+gerekçe aşağıda.
+
+### Yapılan değişiklikler
+
+Hepsinin ortak mantığı: **2. düzeltmenin üst band kuralları neyse, alt bandda aynası yazıldı.**
+Hiçbiri ölçeğin üstüne dokunmuyor — her biri açıkça "6 ve altı satırlar" / "ölçeğin alt ucu"
+diye sınırlandı, çünkü üst band ve orta band şu an çalışıyor ve bozulmamalı.
+
+| # | Örüntü | Değişiklik | Beklenen etki |
+|---|---|---|---|
+| 19 | F — "hâlâ doğru olan ilk satır" alt bandda hep fazla yüksek | STEP 2'ye **alt band okuma kuralı** eklendi (12 numaralı üst band kuralının aynası): 6 ve altı satırlar eksiklik tarif eder ve **üst üste binerler**; bir satırda durduğunda **altındaki satırı da oku**, ikisinden hangisi cevabı daha iyi anlatıyorsa o; alt satır açıkça fazla sert olana kadar inmeye devam et. "Çelişmediğin en yüksek satır" değil, "cevabı **anlatan** satır". STEP 2 rule 3'e de "bu durma testi yalnız 7 ve üstü için tamdır" notu düşüldü | Alt bandda görev (+1,56) ve tutarlılık (+1,89) şişmesinin ana kısmı kapanır; 3 ve 4 satırları ilk kez erişilebilir olur |
+| 20 | G — özelliğin varlığı başarısı sanılıyor | STEP 2'ye **"özelliğin bulunması onun başarılması değildir"** kuralı eklendi: alt bandda soru "cevabın becerdiği bir şey bulabiliyor muyum" değil "okuyucu aradığını alıyor mu"; bir yan cümle range değildir, iki satır boşluğu paragraflama değildir, bir maddeye değinmek kapsama değildir, çözülebilen bir öbek iletişim değildir. Cevabın becerdiği bir şey **3 yerine 4** vermenin gerekçesidir, 5–6'nın değil | Tur 5 gerekçelerindeki "şu var, demek ki 5" adımı kırılır |
+| 21 | I — tavan hâlâ taban | Tavan kuralı **yasaktan yükümlülüğe** çevrildi: tavan değerine eşit bir band **iki kez hak edilmelidir** — tavan izin vermeli **ve** tablo satırı cevabı kendi başına anlatmalı. Tavan bir şeyler yanlış olduğu için tetiklenir, dolayısıyla tablodan okunan band genellikle tavanın **altındadır**, eşiti değil; tam tavana oturmak, tavanın puan olarak kullanıldığının işaretidir. Aynı ölçütte iki tavan tetiklendiyse **en düşük tavanın altındaki satırlar okunur** | Üç örnekte de görülen "verilen band = tavan değeri" örtüşmesi kırılır |
+| 22 | H — gerekçe biçimi puanın çapası | BLOK G / STEP 5'e bir madde eklendi: ilk cümlede güçlü yanı adlandırmak **biçim** gereğidir, **bandın kanıtı değildir**; ölçeğin alt ucunda o çoğu kez oradaki tek güçlü yandır ve cevabı ait olduğu satırdan yukarı taşımaz. "Adlandırdığın güçlü yan bandın yükselme sebebiyse, cevabı değil kendi yazdığın cümleyi puanlamışsındır." **Çıktı uzamıyor** — `why` yine en fazla 2 cümle, 15 numaralı kural aynen duruyor | Alt bandda gerekçe kaynaklı yukarı baskı kalkar, üst banddaki kazanç korunur |
+| 23 | Alt bandda tutarlılık en kötü ölçüt (+1,33 → +1,89) ve **hiçbir ölçütte alt sınır notu yoktu** | 18 numaralı değişiklikte yalnız görev ölçütüne yazılan **"5'e karşı 4"** notu, üç yazma dosyasında **tutarlılık, kelime ve dilbilgisi** ölçütlerine de yazıldı ve **"4'e karşı 3"** ile uzatıldı (tanım netleştirmesi, örneğe özel kural değil): · **tutarlılık** — 5'te okuyucu takip eder ama işin bir kısmını kendi yapar, 4'te sırayı okuyucu kurar, 3'te ilişkiler hiç kurtarılamaz; sayfadaki boşluk her blok bir fikir tutmuyorsa paragraf değildir, ve **cümle sınırları çökmüşse konuların makul sırada gelmesi 6'ya yetmez** · **kelime** — 5'te okuyucu anlar ve zorlanmayı fark eder, 4'te yer yer bağlamdan çıkarır, 3'te kelime hiç kurtarılamaz; **yazım burada tam sayılır**, harf harf çözülen bir içerik kelimesi 4–3'tür, kararlı bir okuyucunun sonunda anlaması onu 5 yapmaz · **dilbilgisi** — BLOK K'nin sayım disiplini **tek yönlüdür**, sayım gerçekten "neredeyse her cümle" diyorsa band 4 veya 3'tür ve bu satırlar olağan sonuçlardır; range için verilen yarım band payı tek başına satır sınırını aşırtmaz | Alt bandda tutarlılığın +1,89'u ve kelimenin +0,78'i daralır. Üst banda dokunmaz: notların hepsi 5-4-3 sınırını tanımlıyor |
+
+19, 20, 21, 22 **beş dosyada da** aynı (ortak bloklar; `ORTAK-KURALLAR.md` bakım kuralı).
+23 yalnız üç yazma dosyasında ve her ölçütün kendi dilinde — gerekçesi aşağıda.
+
+### Bilerek yapılmayanlar
+
+- **Örneğe özel hiçbir kural yazılmadı.** Hiçbir örnek kodu, konusu, cevabı, gerçek bandı,
+  görev türüne özgü içeriği veya sınav görevlisi yorumundan bir cümle talimata girmedi. Bütün
+  değişiklikler band aralığı × ölçüt kırılımına ya da yordamın yapısına dayanıyor.
+- **Üst bandın ve orta bandın hiçbir kuralı gevşetilmedi/sertleştirilmedi.** 12, 13, 15, 16, 17
+  numaralı değişiklikler olduğu gibi duruyor. Bu turun bütün değişiklikleri "6 ve altı" / "ölçeğin
+  alt ucu" diye açıkça sınırlandı. 1. ve 2. düzeltmenin dersi buydu: sınırlandırılmamış bir kural,
+  hedeflemediği uçta ters yönde çalışıyor.
+- **Tavan değerleri (max 5 / max 6) ikinci kez derecelendirilmedi.** 13 numaralı değişiklik üst
+  bandda tuttu (tutarlılık −2,17 → −1,14). Alt banddaki sorun tavanın **değeri** değil, tavana
+  **oturulması**; düzeltilen o (21).
+- **Hata payı tablosunun eşikleri üçüncü kez kaydırılmadı.** Alt bandda dilbilgisi zaten en az
+  sapan ölçütlerden (+0,56); eşiği oynatmak orta bandı bozardı.
+- **Yuvarlama kuralı değiştirilmedi.** 5+5+3+4 = 4,25 → 4,5 yuvarlaması alt bandda yukarı itiyor
+  ama `,25 yukarı` **gerçek IELTS kuralıdır**; ürünü gerçekten uzaklaştırırdı. Alt band ölçüt
+  düzeyinde düzeltilir, aritmetikle değil.
+- Ölçüt sayısı ve ağırlığı değişmedi (yazma 4, konuşma 3). Telaffuz geri getirilmedi.
+  Çıktı uzunluğu sınırları değişmedi. `cikti-semasi.json` değişmedi.
+- **Konuşmaya özgü hiçbir yeni kural yazılmadı** — `konusma.md` yalnız 19–22 ortak bloklarından
+  değişti, 23 numaralı alt sınır notları yazma dosyalarına yazıldı. Sebep: konuşmada gerçek bandı
+  **5'in altında tek bir örnek yok**; en düşük konuşma örneği band 5 ve o doğru puanlanıyor
+  (+0,08). Konuşmanın alt ucu **ölçülmemiştir**, 23'ü oraya genellemek ölçüme dayanmayan bir
+  değişiklik olurdu.
+- **Konuşmada kelime ölçütünün +0,5/+0,75'i ve yayılım 0,79 bu turda düzeltilmedi.** İkisi de
+  gerçek ve ölçülmüş (Örüntü J), ama: tek turluk konuşma verisi var; kelime ölçütünün 7 kapısı
+  ("dördü sayabiliyorsan 7 açıktır") üst bandı açan şeyin ta kendisi ve konuşmanın üst ucu şu an
+  projenin en iyi çalışan parçası; aynı turda hem alt bandı hem konuşma kelimesini itmek, 2.
+  düzeltmenin yaptığı hatanın tekrarı olurdu (aynı yöne bakan çok sayıda değişiklik → hedefi
+  aşma). Tur 6'da alt band düzelirse **4. sırada bu ele alınmalı**; düzelmezse yine beklemeli.
+
+### 🔴 Ölçümün kapsamı hakkında
+
+- Alt band ölçümü hâlâ **çok az örneğe** dayanıyor: tur 5'te görünür kümede **3 örnek**
+  (gerçek band 3,0 · 4,0 · 4,0). Yön çok net (üç örnekte de aynı iki ölçüt, aynı büyüklükte) ama
+  **band bazlı ince ayar bu veriyle yapılamaz**. Gerçek bandı 3'ün altında **hiç örnek yok**.
+- Konuşmada **Part 1 örneği yok**; konuşmanın alt ucu (band 5'in altı) yok.
+- Puanlayan, talimatı yazan ve örnekleri seçen aynı model ailesi — ortak kör noktalar bu ölçümde
+  görünmez.
+
+### Sınanacak beklenti (tur 6)
+
+1. **Alt band.** ≤4,5 aralığında genel sapma **+1,28'den +0,50'nin içine** inmeli. Bu turun asıl
+   sınavı budur.
+2. **Alt bandda tutarlılık ölçütü** +1,89'dan **+0,75'in içine**, **görev ölçütü** +1,56'dan
+   **+0,75'in içine** inmeli.
+3. Gerçek bandı 3,0–4,0 olan örneklerin en az birinde **4,0 veya altı** bir tek seferlik puan
+   görülmeli. Ürün iki turdur alt uçta 4,5'in altına hiç inmedi.
+4. **Üst band bozulmamalı** — asıl risk bu. ≥7 aralığı şu an −0,86; **−1,10'un altına
+   düşmemeli**. 19, 20, 21, 22, 23 numaralı değişikliklerin hepsi aşağı yönlü; hepsi "6 ve altı"
+   diye sınırlandı ama sınırın tutup tutmadığını yalnız ölçüm söyler. Üst band −1,10'un altına
+   düşerse **sınır tutmamıştır ve bu düzeltme geri alınmalıdır**.
+5. **Orta band bozulmamalı.** 5–6,5 şu an −0,07; **−0,35'in dışına çıkmamalı**.
+6. Eğilim: yazmada −0,326'dan sıfıra doğru gitmeli, **−0,25 ile +0,10 arasında** kalmalı.
+7. Saklı küme (bu turda S2) ile görünür kümeler arasındaki fark **açılmamalı**. Tur 3'te 0,25,
+   tur 4'te 0,625 idi; büyürse ayar örneklere ezberlenmiş demektir.
+8. Konuşma **dokunulmadığı için sabit kalmalı**: MAE 0,583 ± 0,15. Konuşma bozulursa, bozan şey
+   ortak bloklardır (19–22) ve o zaman ortak blokların konuşmaya taşınması sorgulanmalı.

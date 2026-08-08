@@ -104,7 +104,8 @@ penalised under Fluency and Coherence.
    and work outwards. If the sample genuinely sits between the row you stopped at and the one above
    it, award the **half band** between them; drop a further whole band only when the higher row's
    core requirement is not met at all. Half bands exist at criterion level and are the normal answer
-   for a borderline sample.
+   for a borderline sample. This stopping test is complete only for rows of 7 and above; for rows of
+   6 and below rule 5 tells you how far to keep going.
 4. Bands 7, 8 and 9 describe samples that **still contain faults** — read the rows: 7 allows
    occasional error and hesitation, 8 allows occasional inaccuracy and rare lapses, 9 allows rare
    slips. At the top of the scale the question is never "can I find a fault?" (you always can) but
@@ -112,20 +113,38 @@ penalised under Fluency and Coherence.
    the band, and you may not award below 7 on the strength of a fault that the 7 or 8 row already
    allows for. "Strong, but there is X" is a reason to award 7 or 8; it is not a reason to award
    5 or 6.
-5. Apply the caps listed under each criterion, **last of all**. A cap is a **ceiling, never a
+5. Bands 6 and below describe what a sample **fails** to do, and those descriptions stack: a sample
+   that matches band 4 also makes most of the band 5 row read as true, and a band 3 sample makes
+   the 4 and 5 rows read as true as well. At the bottom of the scale, therefore, "the first row
+   that is true" is the wrong place to stop — it is always too high. Once you stop at a row of 6 or
+   below, read the row **beneath** it as well and ask which of the two describes this sample
+   better; keep stepping down while the lower row is the better description, and stop only when it
+   is plainly too severe. Award the row that describes the sample, not the highest row it does not
+   contradict.
+6. At the bottom of the scale the question is never "can I find something the candidate does?" (you
+   almost always can) but "does the listener get what they came for?" **The presence of a feature
+   is not the achievement of it:** one subordinate clause is not range, one idiom is not
+   flexibility, one answer taken past a single clause is not development, a phrase that can be
+   reconstructed out of a broken utterance is not communication. Something the candidate manages is
+   a reason to award 4 rather than 3; on its own it is not a reason to award 5 or 6.
+7. Apply the caps listed under each criterion, **last of all**. A cap is a **ceiling, never a
    score**: "max 5" means "5 or lower", "max 6" means "6 or lower". Keep the **lower** of the band
    you read off the table and the cap — a cap can never lift a band you have already judged to be
    below it, and a cap that fires is never by itself the reason for a band. A cap fires only when
    its condition is plainly true of this sample and you can point at the evidence; if you have to
    argue it into place, it does not fire. The number of caps that fire is not evidence of anything:
    if several fire, or the sample also matches a descriptor row below the cap, the band is the one
-   you read off the table. Before writing down a band equal to a cap value, check that the sample
-   really matches that row of the table; if it matches a row below, award the lower band.
-6. Use the whole scale. Every band from 3 to 9 is an ordinary outcome, not an exception. Uncertainty
+   you read off the table. A band equal to a cap value has to be **earned twice**: the cap has to
+   allow it *and* the table row has to describe the sample on its own. A cap fires because
+   something is wrong, so the band you read off the table is usually **below** the cap value rather
+   than equal to it — landing exactly on the cap is the sign that the cap has been used as a score
+   after all. If two or more caps fire on the same criterion the sample is weak in several ways at
+   once; read the rows below the lowest cap before you settle.
+8. Use the whole scale. Every band from 3 to 9 is an ordinary outcome, not an exception. Uncertainty
    is not a reason to drift toward the middle: if the evidence points at 8, award 8; if it points at
    3, award 3. 5 and 6 are not default landing places.
-7. Only then compute the overall band (STEP 4).
-8. Never adjust a criterion band afterwards to make the overall band look right.
+9. Only then compute the overall band (STEP 4).
+10. Never adjust a criterion band afterwards to make the overall band look right.
 
 ## STEP 3 — THE THREE CRITERIA (equally weighted)
 
@@ -233,6 +252,12 @@ name it, or you are unsure whether the utterance is wrong at all, it does not co
 ellipsis and a repaired false start are not errors here. If your count lands on the boundary
 between two rows, take the **higher** band.
 
+This correction runs one way only, because the impression it corrects runs high. When the count
+really does put nearly every utterance in the error-bearing set, and the listener is repairing
+utterances as they go rather than following them, the band is 4 or 3 — those two rows are ordinary
+outcomes like any other, and the counting discipline is not a reason to avoid them. The half-band
+of leeway below never lifts a sample across a row boundary on its own.
+
 Use the table as the primary check. Move at most half a band from it if range clearly argues
 otherwise — but never to escape a cap.
 
@@ -271,6 +296,11 @@ Every criterion's `why` must be grounded in what this candidate actually said.
   is usually a band too low: the easiest thing to name in any transcript is an error, so a rule
   that asks for something specific will pull you downwards unless you name the strength first. This
   does not lengthen the output — `why` is still at most 2 sentences.
+- Naming that strength is a requirement of the **format**, not evidence for the band. At the bottom
+  of the scale it is usually the only strength there is, and it does not lift the sample out of the
+  row it belongs to. Write the sentence, then award the band the sample as a whole earns — if the
+  strength you named is the reason the band went up, you have scored the sentence you wrote instead
+  of the sample.
 - Recycled band-descriptor language is forbidden. "Speaks quite fluently", "good vocabulary",
   "some grammatical errors" carry no information on their own and are rejected unless the specific
   word, utterance or structure is named.

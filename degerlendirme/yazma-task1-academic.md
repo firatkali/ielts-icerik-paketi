@@ -80,27 +80,46 @@ shortfall is penalised under Task Achievement.
    and work outwards. If the response genuinely sits between the row you stopped at and the one
    above it, award the **half band** between them; drop a further whole band only when the higher
    row's core requirement is not met at all. Half bands exist at criterion level and are the normal
-   answer for a borderline response.
+   answer for a borderline response. This stopping test is complete only for rows of 7 and above;
+   for rows of 6 and below rule 5 tells you how far to keep going.
 4. Bands 7, 8 and 9 describe responses that **still contain faults** — read the rows: 7 allows
    occasional errors, 8 allows occasional inaccuracy and rare lapses, 9 allows rare slips. At the
    top of the scale the question is never "can I find a fault?" (you always can) but "what does this
    fault cost the reader?" A slip the reader passes straight over does not move the band, and you
    may not award below 7 on the strength of a fault that the 7 or 8 row already allows for.
    "Strong, but there is X" is a reason to award 7 or 8; it is not a reason to award 5 or 6.
-5. Apply the caps listed under each criterion, **last of all**. A cap is a **ceiling, never a
+5. Bands 6 and below describe what a response **fails** to do, and those descriptions stack: a
+   response that matches band 4 also makes most of the band 5 row read as true, and a band 3
+   response makes the 4 and 5 rows read as true as well. At the bottom of the scale, therefore,
+   "the first row that is true" is the wrong place to stop — it is always too high. Once you stop
+   at a row of 6 or below, read the row **beneath** it as well and ask which of the two describes
+   this response better; keep stepping down while the lower row is the better description, and stop
+   only when it is plainly too severe. Award the row that describes the response, not the highest
+   row it does not contradict.
+6. At the bottom of the scale the question is never "can I find something the response does?" (you
+   almost always can) but "does the reader get what they came for?" **The presence of a feature is
+   not the achievement of it:** one subordinate clause is not range, two line breaks are not
+   paragraphing, one figure quoted is not data support, a phrase that can be reconstructed out of a
+   garbled sentence is not communication. Something the response manages is a reason to award 4
+   rather than 3; on its own it is not a reason to award 5 or 6.
+7. Apply the caps listed under each criterion, **last of all**. A cap is a **ceiling, never a
    score**: "max 5" means "5 or lower", "max 6" means "6 or lower". Keep the **lower** of the band
    you read off the table and the cap — a cap can never lift a band you have already judged to be
    below it, and a cap that fires is never by itself the reason for a band. A cap fires only when
    its condition is plainly true of this response and you can point at the evidence; if you have to
    argue it into place, it does not fire. The number of caps that fire is not evidence of anything:
    if several fire, or the response also matches a descriptor row below the cap, the band is the one
-   you read off the table. Before writing down a band equal to a cap value, check that the response
-   really matches that row of the table; if it matches a row below, award the lower band.
-6. Use the whole scale. Every band from 3 to 9 is an ordinary outcome, not an exception. Uncertainty
+   you read off the table. A band equal to a cap value has to be **earned twice**: the cap has to
+   allow it *and* the table row has to describe the response on its own. A cap fires because
+   something is wrong, so the band you read off the table is usually **below** the cap value rather
+   than equal to it — landing exactly on the cap is the sign that the cap has been used as a score
+   after all. If two or more caps fire on the same criterion the response is weak in several ways
+   at once; read the rows below the lowest cap before you settle.
+8. Use the whole scale. Every band from 3 to 9 is an ordinary outcome, not an exception. Uncertainty
    is not a reason to drift toward the middle: if the evidence points at 8, award 8; if it points at
    3, award 3. 5 and 6 are not default landing places.
-7. Only then compute the overall band (STEP 4).
-8. Never adjust a criterion band afterwards to make the overall band look right.
+9. Only then compute the overall band (STEP 4).
+10. Never adjust a criterion band afterwards to make the overall band look right.
 
 ## STEP 3 — THE FOUR CRITERIA (equally weighted)
 
@@ -127,10 +146,12 @@ An overview that is present but could have been fuller is a band 7 overview, not
 
 **5 against 4:** at 5 the task is done badly — some key features are covered, thinly or with
 imprecise figures. At 4 the task is not done: a reader who needed a description of this visual
-would not have one. A response that trips a "max 5" cap has not thereby earned 5; read the 4 and 3
-rows too before settling.
+would not have one. At 3 almost nothing the reader could check against the visual is reported — and
+a response can reach 3 while mentioning every part of the visual, if what it says about them is
+unusable. A response that trips a "max 5" cap has not thereby earned 5; read the 4 and 3 rows too
+before settling.
 
-**Caps (a cap is a ceiling; see STEP 2 rule 5):**
+**Caps (a cap is a ceiling; see STEP 2 rule 7):**
 - No overview anywhere in the response → **max 5**. An overview is any statement of the overall
   picture — the main trend, the largest contrast, the shape of the process as a whole. It may sit
   anywhere, opening or closing, and need not be signalled by *Overall* or set in its own paragraph.
@@ -158,6 +179,13 @@ the varied and accurate use of cohesive devices (connectors, conjunctions, refer
 | 4 | Ideas are not arranged coherently. The same basic connectors are repeated or misused. No paragraphing. |
 | 3 | No logical organisation. Relationships between ideas cannot be followed. |
 
+**5 against 4 against 3:** at 5 the reader can follow the response but does some of the work
+themselves. At 4 the reader has to rebuild the order — the observations arrive in whatever sequence
+they occurred to the writer. At 3 the relations between them cannot be recovered at all. Breaks on
+the page are not paragraphing unless each block holds one idea, and observations arriving in a
+sensible order do not reach 6 if the sentence boundaries inside them have collapsed. Judge how much
+work the reader is doing, not how tidy the shape looks.
+
 **Caps:**
 - Written as one undivided block with no paragraphing → **max 6**. Missing paragraphing keeps a
   response out of 7 and above; it does not by itself place it at 5. Drop to **max 5** only when the
@@ -183,6 +211,12 @@ Spelling and word formation are judged here, not under Grammar.
 | 5 | Limited range, minimally adequate. Noticeable repetition. Errors in choice, formation or spelling cause the reader some difficulty. |
 | 4 | Basic and repetitive, sometimes inappropriate for the task. Errors cause strain. |
 | 3 | Very limited. Little control of word formation or spelling; meaning is often lost. |
+
+**5 against 4 against 3:** at 5 the reader understands the response and notices the strain. At 4 the
+reader has to work out from context what was meant in places. At 3 there are stretches where the
+intended word cannot be recovered at all. Spelling is judged here and it counts fully: a content
+word the reader has to decode letter by letter, or a run of words the reader can only guess at,
+belongs to 4 or 3 — that a determined reader eventually gets there does not make it 5.
 
 **Caps:**
 - Trend language never varies beyond `increase / decrease / high / low / more / less` → **max 5**.
@@ -224,6 +258,12 @@ name it, or you are unsure whether the sentence is wrong at all, it does not cou
 comma you would have placed differently, and a structure that is unusual but possible are not
 errors here. If your count lands on the boundary between two rows, take the **higher** band.
 
+This correction runs one way only, because the impression it corrects runs high. When the count
+really does put nearly every sentence in the error-bearing set, and the reader is repairing
+sentences as they go rather than reading them, the band is 4 or 3 — those two rows are ordinary
+outcomes like any other, and the counting discipline is not a reason to avoid them. The half-band
+of leeway below never lifts a response across a row boundary on its own.
+
 Use the table as the primary check. Move at most half a band from it if range clearly argues
 otherwise — but never to escape a cap.
 
@@ -262,6 +302,11 @@ Every criterion's `why` must be grounded in this candidate's own language.
   is usually a band too low: the easiest thing to name in any response is an error, so a rule that
   asks for something specific will pull you downwards unless you name the strength first. This does
   not lengthen the output — `why` is still at most 2 sentences.
+- Naming that strength is a requirement of the **format**, not evidence for the band. At the bottom
+  of the scale it is usually the only strength there is, and it does not lift the response out of
+  the row it belongs to. Write the sentence, then award the band the response as a whole earns — if
+  the strength you named is the reason the band went up, you have scored the sentence you wrote
+  instead of the response.
 - Recycled band-descriptor language is forbidden. "Shows a good range of vocabulary", "generally
   coherent", "some errors are present" carry no information on their own and are rejected unless
   the specific word, sentence or structure is named.
