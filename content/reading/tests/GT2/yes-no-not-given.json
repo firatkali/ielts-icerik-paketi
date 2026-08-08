@@ -43,26 +43,36 @@
     },
     {
       "number": 34,
-      "prompt": "People's assessments of their own health are a dependable guide to their future health.",
+      "prompt": "Anyone volunteering less often than twice a year fell outside the study's definition of a volunteer.",
       "answer": [
         "YES"
       ],
-      "evidence": "Self-rated health might seem like a subjective measure, but earlier research has repeatedly shown it to reliably predict future illness and mortality, which is one reason the team chose it as their main outcome.",
+      "evidence": "Volunteering was recorded as a simple yes-or-no measure, based on whether a person had taken part in unpaid work for an organisation at least once every six months, while health was self-reported on a five-point scale running from \"very bad\" to \"very good\".",
       "evidence_locator": {
-        "paragraph": "C",
+        "paragraph": "B",
         "sentence": 3
       },
       "contradiction_point": null,
       "not_given_justification": null,
-      "scan_note": "Öz-bildirimli sağlık ölçüsü B/2'de tanımlanıyor (beş basamaklı ölçek); güvenilirliğine ilişkin yazar yargısı C/3'te. C/1–2 gönüllülerle gönüllü olmayanlar arasındaki farkı anlatıyor; hiçbir paragraf ölçünün güvenilmez olduğunu ileri sürmüyor.",
-      "explanation": "The writer says that although it might seem subjective, earlier research has repeatedly shown that self-rated health reliably predicts future illness and mortality.",
+      "scan_note": "Gonulluluk olcusunun tanimi B/3'te: kurulusta ucretsiz calismaya alti ayda en az bir kez katilmis olmak. Sikliga iliskin ikinci bir esik yalnizca G/1'de geciyor (dayaniklilik sinamasinda farkli tanimlar denenmis) ama orada asil tanim degistirilmiyor; D siklik degil ulke oranlarini veriyor.",
+      "explanation": "Volunteering was defined as taking part in unpaid work for an organisation at least once every six months, so anyone taking part less than twice a year would not have met that threshold.",
       "difficulty": "medium",
-      "status": "rejected",
-      "blind_solvable": true,
-      "blind_basis": "general_knowledge",
-      "flag_reason": "Cevap YES, oz-bildirimli sagligin gelecekteki hastalik ve olumu guvenilir bicimde ongordugunun saglik arastirmalari literaturunde iyi bilinen, sik atif yapilan bir bulgu olmasi sayesinde parcaya bakmadan da tahmin edilebiliyor.",
-      "flag_mechanism": "genel_kultur",
-      "reject_reason": "Sorunun ekseni genel saglik arastirmasi bilgisi: oz-bildirimli sagligin gelecekteki hastalik ve olumu ongordugu, literaturde cok atif yapilan ve genel kulturlesmis bir bulgu. Soru ekseni bu bilginin kendisi oldugu icin mekanik duzeltmeye uygun degil."
+      "status": "verified",
+      "blind_solvable": null,
+      "blind_basis": null,
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-08",
+        "kaynak_prompt": "prompts/OPUS5-E6-yeniden-uretim.md (1/7)",
+        "uretilen_grup": "YES/NO/NOT GIVEN - tam testler",
+        "eski_prompt": "People's assessments of their own health are a dependable guide to their future health.",
+        "eski_cevap": [
+          "YES"
+        ],
+        "eski_kanit_cumlesi": "Self-rated health might seem like a subjective measure, but earlier research has repeatedly shown it to reliably predict future illness and mortality, which is one reason the team chose it as their main outcome.",
+        "neden_elendi": "Sorunun ekseni genel saglik arastirmasi bilgisi: oz-bildirimli sagligin gelecekteki hastalik ve olumu ongordugu, literaturde cok atif yapilan ve genel kulturlesmis bir bulgu. Soru ekseni bu bilginin kendisi oldugu icin mekanik duzeltmeye uygun degil.",
+        "ne_degisti": "Yuva bosaltilip ayni pasajdan yeni bir ifadeyle dolduruldu. Eski soru C/3'teki 'oz-bildirimli saglik gelecekteki hastaligi ongorur' bulgusunu soruyordu; bu, saglik yazininda genel kulturlesmis bir bulgu oldugu icin pasaj kapaliyken de bilinebiliyordu. Yeni ifade C paragrafina hic degmiyor: kanit B/3'e, gonulluluk olcusunun esigine tasindi. Esigin alti ayda bir mi yilda bir mi oldugu disaridan kestirilemeyen keyfi bir tasarim ayrintisi; ustelik 'alti ayda en az bir kez' esigini 'yilda iki kez'e cevirip sinir durumu hakkinda hukum vermek gerekiyor. Kip dengesi icin ifade mutlak yazildi ('Anyone ... fell outside') ve cevabi YES."
+      }
     },
     {
       "number": 35,

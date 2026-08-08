@@ -18,49 +18,69 @@
   "items": [
     {
       "number": 33,
-      "prompt": "Waste figures based on households' own estimates tend to be inaccurate.",
+      "prompt": "Edible food made up a clearly larger part of urban waste than of rural waste.",
       "answer": [
         "YES"
       ],
-      "evidence": "Rather than relying on households to estimate their own waste, which tends to produce unreliable figures, the research team physically collected, sorted and weighed the solid food waste from each home's rubbish over eight consecutive days, using digital scales accurate to two grams.",
+      "evidence": "City dwellers in Cibinong generated 79.4 kilograms of food waste per person a year, almost double the 45.8 kilograms recorded in rural Sukajaya, and a significantly higher proportion of the urban total, 38.2%, was edible food compared with 23.4% in rural areas.",
       "evidence_locator": {
-        "paragraph": "B",
-        "sentence": 1
+        "paragraph": "D",
+        "sentence": 2
       },
       "contradiction_point": null,
       "not_given_justification": null,
-      "scan_note": "Ölçüm yöntemi B paragrafında toplanıyor: 1. cümle öz-tahminin güvenilmez rakamlar ürettiği yargısını ve fiilî tartmayı, 2. cümle içecek günlüğünü, 3. cümle görüşmeleri anlatıyor. F/2–3 yöntemin kapsam sınırını tartışıyor ama öz-bildirimin güvenilirliği hakkında bu yargıyla çelişen bir şey söylemiyor.",
-      "explanation": "The writer says that households estimating their own waste tends to produce unreliable figures; this is also the reason the team physically collected and weighed the waste.",
+      "scan_note": "Kentsel-kirsal karsilastirma D paragrafinda: D/1 farkin varligini duyuruyor, D/2 hem kisi basi agirliklari (79,4'e 45,8) hem yenilebilir payi (%38,2'ye %23,4) veriyor, D/3 geliri neden olarak aniyor. Miktar ile pay ayni cumlede yan yana durdugu icin sorunun ekseni hangisinin sorulduguna dikkat etmek. H/1-2 kirsalin daha az attigini yineliyor ama yenilebilir payi hakkinda ayri bir sayi vermiyor.",
+      "explanation": "The writer reports that 38.2% of the urban total was edible food, against 23.4% in rural areas, so edible food formed a larger share of city waste.",
       "difficulty": "medium",
-      "status": "rejected",
-      "blind_solvable": true,
-      "blind_basis": "general_knowledge",
-      "flag_reason": "Cevap YES, oz-bildirime dayali tahminlerin dogrudan olcume kiyasla daha az guvenilir olmasi arastirma yontemlerinde yaygin bilinen bir gercek; bu genel bilgiyle ifadenin dogru olmasi parcaya bakmadan da tahmin edilebiliyor.",
-      "flag_mechanism": "genel_kultur",
-      "reject_reason": "Sorunun ekseni genel arastirma yontemi bilgisi: oz-bildirime dayali tahminlerin dogrudan olcumden daha guvenilmez oldugu, pasajdan bagimsiz bilinen bir kural. Ifadedeki 'tend to' kipi kaldirilsa bile cevap ayni yerden cikar."
+      "status": "verified",
+      "blind_solvable": null,
+      "blind_basis": null,
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-08",
+        "kaynak_prompt": "prompts/OPUS5-E6-yeniden-uretim.md (1/7)",
+        "uretilen_grup": "YES/NO/NOT GIVEN - tam testler",
+        "eski_prompt": "Waste figures based on households' own estimates tend to be inaccurate.",
+        "eski_cevap": [
+          "YES"
+        ],
+        "eski_kanit_cumlesi": "Rather than relying on households to estimate their own waste, which tends to produce unreliable figures, the research team physically collected, sorted and weighed the solid food waste from each home's rubbish over eight consecutive days, using digital scales accurate to two grams.",
+        "neden_elendi": "Sorunun ekseni genel arastirma yontemi bilgisi: oz-bildirime dayali tahminlerin dogrudan olcumden daha guvenilmez oldugu, pasajdan bagimsiz bilinen bir kural. Ifadedeki 'tend to' kipi kaldirilsa bile cevap ayni yerden cikar.",
+        "ne_degisti": "Yuva bosaltilip ayni pasajdan yeni bir ifadeyle dolduruldu. Eski soru B/1'deki 'oz-bildirime dayali tahminler guvenilmez' yargisini soruyordu; bu, pasajdan bagimsiz bilinen bir yontem kuraliydi. Yeni ifade B paragrafina hic degmiyor: kanit D/2'ye, kentsel ve kirsal atigin yenilebilir paylarina tasindi. Pay yalnizca calismanin kendi sayilarindan (%38,2'ye %23,4) okunabiliyor ve ayni cumlede duran kisi basi agirlik farkiyla karistirilmamasi gerekiyor, yani miktar-oran ayrimini yapmak sart. Kip dengesi icin ifade mutlak yazildi ('clearly larger') ve cevabi YES: olculu kipin dogru, mutlak kipin yanlis tarafa ayrilmasi kirildi."
+      }
     },
     {
       "number": 34,
-      "prompt": "Fruit peelings and bones discarded during cooking should be counted as genuine food waste.",
+      "prompt": "Roughly half of the food discarded by the households studied is likely to have gone into the rubbish bin.",
       "answer": [
         "NO"
       ],
-      "evidence": "Just over a third of this, about 29 kilograms, was still perfectly edible when discarded; the remaining 48 kilograms consisted of inedible parts such as fruit peels, bones and eggshells that are a normal by-product of cooking rather than genuine waste.",
+      "evidence": "The researchers also noted an important boundary of their method: they measured only what ended up in household rubbish bins, which accounted for 82.8% of all discarded food in the sample.",
       "evidence_locator": {
-        "paragraph": "C",
+        "paragraph": "F",
         "sentence": 2
       },
-      "contradiction_point": "Yazar kabuk, kemik ve yumurta kabuğu gibi yenmeyen kısımları 'gerçek israf değil, pişirmenin olağan yan ürünü' olarak niteliyor; ifade bunların gerçek israf sayılması gerektiğini savunuyor. Çelişki tek noktada: bu kalemlerin gerçek israf sayılıp sayılmayacağı.",
+      "contradiction_point": "Yazar cop kutusuna gidenin butun atilan gidanin %82,8'i oldugunu kesin bir sayiyla veriyor; ifade bu payi yari dolayina indiriyor. Celiski tek noktada: kutuya giden payin buyuklugu. Ifadedeki 'roughly / is likely to' olculu kipi araligi genisletmiyor, cunku %82,8 yariya yakin sayilamaz.",
       "not_given_justification": null,
-      "scan_note": "Yenilebilir–yenilemez ayrımı C paragrafının 2. cümlesinde yapılıyor. E/3 yenmeyen atık kategorilerini (muz ve mango kabukları) sayıyor ama sınıflandırma yargısı içermiyor; D ve F'de bu ayrımı değiştiren bir cümle yok.",
-      "explanation": "The writer regards these items as a normal by-product of cooking and clearly separates them from genuine waste; the statement argues the opposite.",
+      "scan_note": "Yontemin kapsam payi F/2'de tek bir sayiyla veriliyor (%82,8); F/3 kutu disinda kalanin ana toplamlara girmedigini soyluyor, H/2 kirsalda kompostun yayginligini aniyor. Hicbir paragraf kutuya giden pay icin ikinci bir oran vermiyor.",
+      "explanation": "The writer gives a definite figure for this: rubbish bins accounted for 82.8% of all the food discarded in the sample, far more than about half.",
       "difficulty": "medium",
-      "status": "rejected",
-      "blind_solvable": true,
-      "blind_basis": "general_knowledge",
-      "flag_reason": "Cevap NO, gida israfi tartismalarinda kabuk ve kemik gibi pisirmenin kacinilmaz yan urunlerinin 'onlenebilir israf' kategorisinden ayri tutulmasi yaygin bilinen bir siniflandirma sekli; bu genel bilgiyle ifadenin yanlis olmasi parcaya bakmadan da tahmin edilebiliyor.",
-      "flag_mechanism": "genel_kultur",
-      "reject_reason": "Sorunun ekseni genel kultur: gida israfi tartismasinda kabuk, kemik ve yumurta kabugunun 'yenmeyen / onlenemez' kategoride sayilmasi yerlesik bir siniflandirma. Ifade normatif bicimden ('should be counted') cikarilsa bile cevap bu yerlesik ayrimdan okunuyor."
+      "status": "verified",
+      "blind_solvable": null,
+      "blind_basis": null,
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-08",
+        "kaynak_prompt": "prompts/OPUS5-E6-yeniden-uretim.md (1/7)",
+        "uretilen_grup": "YES/NO/NOT GIVEN - tam testler",
+        "eski_prompt": "Fruit peelings and bones discarded during cooking should be counted as genuine food waste.",
+        "eski_cevap": [
+          "NO"
+        ],
+        "eski_kanit_cumlesi": "Just over a third of this, about 29 kilograms, was still perfectly edible when discarded; the remaining 48 kilograms consisted of inedible parts such as fruit peels, bones and eggshells that are a normal by-product of cooking rather than genuine waste.",
+        "neden_elendi": "Sorunun ekseni genel kultur: gida israfi tartismasinda kabuk, kemik ve yumurta kabugunun 'yenmeyen / onlenemez' kategoride sayilmasi yerlesik bir siniflandirma. Ifade normatif bicimden ('should be counted') cikarilsa bile cevap bu yerlesik ayrimdan okunuyor.",
+        "ne_degisti": "Yuva bosaltilip ayni pasajdan yeni bir ifadeyle dolduruldu. Eski soru C/2'deki yenilebilir-yenilemez ayrimini soruyordu; kabuk, kemik ve yumurta kabugunun 'onlenemez' sayilmasi gida israfi tartismasinda yerlesik bir siniflandirma oldugu icin cevap pasajsiz da cikiyordu. Yeni ifade C paragrafina hic degmiyor: kanit F/2'ye, yontemin kapsam payina (%82,8) tasindi. Bu oran keyfi bir arastirma ayrintisi; disaridan bilinemez, yalniz metinden okunur. Kip dengesi icin ifade olculu yazildi ('roughly ... is likely to') ve cevabi NO: olculu kipin otomatik olarak dogru cevaba isaret etmesi kirildi."
+      }
     },
     {
       "number": 35,

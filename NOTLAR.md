@@ -7593,3 +7593,98 @@ hiç kullanılmadı, kalan on soruda birer kez. Çeldirici türü çeşitliliği
   Ortalama mutlak fark 0.804 band, egilim -0.326 (cimri), en buyuk sapma 2.50
   band, ayni cevaptaki yayilim 0.28 band. Basari olcutlerinden yalniz yayilim
   gecti; ortalama fark, en buyuk sapma ve egilim kaldi.
+
+## OPUS5-E6-yeniden-uretim (1. calistirma - YES/NO/NOT GIVEN, tam testler)
+
+- **Kendi sayimim:** `content/DOGRULAMA/yeniden-uretim-listesi.json` icindeki
+  `elenen` listesi **71 yuva** (plandaki tahmin degil, tek tek sayildi). Tipe
+  gore: sentence_completion 17, multiple_choice 14, yes_no_not_given 10,
+  summary_completion 8, matching_features 7, note_completion 4,
+  flow_chart_completion 3, true_false_not_given 3, short_answer 3,
+  table_completion 2. Bu calistirmanin kapsami (YNNG **tam testler**) bunlarin
+  **3 tanesi**: GT1/33, GT1/34, GT2/34. YNNG'nin kalan 7 yuvasi alistirma
+  paketinde, o 2. calistirmanin isi.
+- Uc yuva da **ayni dosyaya, ayni numarayla** yeniden dolduruldu; hicbir soru
+  silinmedi, hicbir numara kaymadi. `python tools/dogrula.py`: GT1 40/40, GT2
+  40/40, sema hatasi 0, toplam soru 1310 (degismedi).
+- `tools/_f40_kontrol.py GT1` ve `GT2`: iki YNNG paketinde de **hata 0, uyari 0**
+  (sira kurali, kanit-cumle esleme, 6 kelimelik ortusme, cevap dagilimi,
+  ifade uzunlugu dahil).
+
+### Yeni uc soru ve neden bu yerden yazildi
+
+| Yuva | Eski eksen (elenen) | Yeni kanit | Cevap | Kip |
+|---|---|---|---|---|
+| GT1/33 | B/1 - "oz-bildirim guvenilmezdir" (yontem bilgisi) | D/2 - kentsel/kirsal **yenilebilir payi** %38,2'ye %23,4 | YES | mutlak (`clearly larger`) |
+| GT1/34 | C/2 - kabuk/kemik "gercek israf degil" (yerlesik siniflandirma) | F/2 - cop kutusunun kapsam payi %82,8 | NO | olculu (`roughly ... is likely to`) |
+| GT2/34 | C/3 - "oz-bildirimli saglik olumu ongorur" (genel kulturlesmis bulgu) | B/3 - gonulluluk esigi "alti ayda en az bir kez" | YES | mutlak (`Anyone ... fell outside`) |
+
+- Ucunde de E5'in "kacinilacak kanit cumlesi" bulundugu **paragrafa hic
+  dokunulmadi** (B'den D'ye, C'den F'ye, C'den B'ye tasindi) - yalniz cumle
+  degil, komsulugu da birakildi.
+- Uc yeni ifadenin ekseni de **calismanin kendi keyfi sayisi/tasarim karari**:
+  bir pay (%38,2'ye %23,4), bir kapsam orani (%82,8), bir tanim esigi (alti
+  ayda bir). Bunlarin hicbiri disaridan bilinemez; genel kultur ya da yontem
+  kuralindan cikarilamaz.
+
+### Kip imzasi sayimi (yasak 1)
+
+YNNG'de celdirici sik yok, bu yuzden esleme sudur: **YES = dogru taraf**,
+**NO/NOT GIVEN = celdirici taraf**. Iki tam test YNNG paketi (8 soru) birlikte:
+
+- YES (4 soru): GT1/33 **mutlak**, GT2/34 **mutlak**, GT1/35 notr,
+  GT2/35 olculu (`may improve`) -> **2/4 = %50 mutlak** (esik 1/3) ✔
+- NO + NOT GIVEN (4 soru): GT1/34 **olculu**, GT2/36 **olculu**
+  (`appear to account for a little over half`), GT2/33 mutlak, GT1/36 notr
+  -> **2/4 = %50 olculu** (esik 1/3) ✔
+
+Yani olculu ifade artik yalniz dogru cevapta, mutlak ifade yalniz yanlista
+degil: yeni sorularin ikisi mutlak-ve-YES, biri olculu-ve-NO. Kipten cevaba
+giden kestirme kapandi.
+
+### Konumsal duzen sayimi (yasak 2)
+
+- Cevap dagilimi - GT1: YES 2, NO 1, NOT GIVEN 1. GT2: YES 2, NO 1,
+  NOT GIVEN 1. Hicbiri yariyi gecmiyor, ucu de her pakette var, ardisik uc ayni
+  cevap yok.
+- Kanit paragraflari - GT1: D/2, F/2, F/3 (+1 NOT GIVEN, kanitsiz).
+  GT2: B/3, E/1, F/3 (+1 NOT GIVEN). Dogru (YES) cevaplar **basta (B),
+  ortada (D, E)** ve orta-sonda (F) dagilmis durumda.
+- Iki pasajin da **son paragrafi (I) hic kullanilmadi** - ki ikisinde de
+  "sinirlilik beyani / daha uzun calisma gerekir" kapanisi orada duruyor. Yani
+  kapanis kalibina demirlenmis tek soru yok. (Bu kalip zaten kendi basina
+  parcasiz "NO/NOT GIVEN" tahminine yol acan turden; bilerek bos birakildi.)
+- Harf cifti kurali YNNG'de karsiliksiz (sik listesi yok), bu yuzden
+  uygulanmadi.
+
+### Kendi kendini sinama (uretim bitmeden)
+
+Her ifade, pasaj kapaliyken yalniz soru + uc secenekle cozulmeye calisildi
+(anlamca bilme de "bilinen" sayilarak):
+
+- **GT1/34 (kutu payi ~yari mi?)** - disaridan kestirilemez: pay %30 da %90 da
+  olabilirdi. Bilinemedi ✔
+- **GT2/34 (gonulluluk esigi)** - esik "yilda bir", "ayda bir" ya da "alti ayda
+  bir" olabilirdi; tasarim karari tamamen keyfi. Bilinemedi ✔
+- **GT1/33 (kentte yenilebilir pay daha mi yuksek?)** - burada **artik risk
+  var**: "sehirli daha cok israf eder" sezgisi ifadeyi YES yonune itiyor. Ama o
+  sezgi **miktar** hakkinda; ifade **oran** soruyor ve ikisi ayni cumlede yan
+  yana duruyor (79,4'e 45,8 kg *ve* %38,2'ye %23,4). Sezgiden orana gecmek icin
+  "pay da miktarla ayni yonde gider" varsayimini eklemek gerekiyor - bu
+  garantili degil. Kor cozumde bilinen sayilmadi, ama emin degilim: **E7 bu
+  soruyu ozellikle olcsun.** (Ucu de `blind_solvable: null` birakildi, olcum
+  E7'nin isi.)
+
+- Yuvalarda `status: "verified"`, `blind_solvable: null`, `blind_basis: null`,
+  `generated_by: "opus"` (dosya duzeyindeki `generated_by: "fable"` **elde
+  degistirilmedi**: `tools/_f40_kontrol.py` zarfta bu degeri bekliyor, degistiren
+  paket hata veriyor - uretici bilgisi bu yuzden soru duzeyine yazildi).
+- Elenen sorunun izi silinmedi: her yuvada `yeniden_uretim` blogu var (eski
+  ifade, eski cevap, eski kanit cumlesi, E5'in eleme gerekcesi, ne degistigi).
+  Eskiyen `flag_reason` / `flag_mechanism` / `reject_reason` alanlari
+  kaldirildi - artik farkli bir soru anlatiyorlardi.
+- `content/DOGRULAMA/yeniden-uretim-listesi.json`'da bu uc yuvaya
+  `yeniden_uretildi` alani islendi; **kalan 68 yuva** sonraki alti
+  calistirmanin isi. 2. calistirma buraya bakip ilk isaretsiz grubu almali.
+- Uygulayan betikler: `tools/_e6_ynng_uret.py` (uretim),
+  `tools/_e6_liste_isaretle.py` (liste isaretleme).
