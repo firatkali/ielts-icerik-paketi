@@ -146,12 +146,13 @@
       },
       "explanation": "Paragraph H says that the findings are interpreted through the idea of a 'transactive memory system', in which teams develop a shared sense of who knows what; the answer is therefore 'transactive memory system'.",
       "difficulty": "hard",
-      "status": "flagged",
+      "status": "rejected",
       "blind_solvable": true,
       "blind_solvable_kelime_duzeyi": false,
       "blind_basis": "logic",
       "flag_reason": "Parça gösterilmeden anlamca 3/3 turda doğru bilindi: farklı kelimeyle ama doğru kavramla cevaplandı (3 turda da 'transactive memory' verdi, gerçek cevap 'transactive memory system').",
-      "flag_mechanism": "esdizim_kilidi"
+      "flag_mechanism": "esdizim_kilidi",
+      "reject_reason": "Model parcasiz uc turda da 'transactive memory' verdi, yani cevabin ayirt edici iki sozcugunu birebir tutturdu; dusen tek sey genel 'system' basiydi. Sorunun ekseni bir kurami ADIYLA sormak ('researchers hangi fikre dayaniyor'), o kuram da orgut psikolojisinin en cok atif yapilan kavramlarindan biri: 'kim neyi biliyor' ortak bellegi transaktif bellek diye adlandirilir. Bu yuzden sorun kip ya da konum degil eksenin kendisi -- kanit cumlesi ne kadar yeniden yazilirsa yazilsin, alani bilen cozucu adi metne bakmadan veriyor. E6 onerisi: H paragrafinin olcusel iddialari -- Caster'in yalniz bireysel ciktiya gore odeme yapmasi, ya da deneyimli meslektasin faydasinin daha AZ duzenli kesintiyle artmasi."
     },
     {
       "number": 7,

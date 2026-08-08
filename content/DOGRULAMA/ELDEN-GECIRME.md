@@ -1400,3 +1400,226 @@ python tools/dogrula.py
   `revision`, `reject_reason`, `review_note`, `scan_note`,
   `contradiction_point` ve `not_given_justification` gibi iç denetim notları
   Türkçe kaldı.
+
+---
+
+## 7. çalıştırma — E10'dan gelen cümle tamamlama + kısa cevap işaretleri · 2026-08-08
+
+### Kapsam ve kendi sayımım
+
+Talimatın 1. kuralı gereği yeniden saydım (`python tools/_e5_sc_kapsam.py`).
+`content/reading` altında `sentence_completion` ve `short_answer` tiplerinde
+**26** işaretli soru var; bunların kaynağını tek tek ayırdım — E10'un eklediği
+sorularda `blind_solvable_kelime_duzeyi` alanı duruyor, E1'inkilerde durmuyor:
+
+| Kaynak | Soru | Bu çalıştırmanın kapsamında mı |
+|---|---|---|
+| **E10 — cümle tamamlama** | 14 | evet |
+| **E10 — kısa cevap** | 1 | evet |
+| E1 — `genel_kultur` | 11 | hayır → 8. çalıştırma |
+| **bu çalıştırma** | **15** | |
+
+E10 raporunun 1. çalıştırma tablosuyla birebir aynı (cümle tamamlama 14, kısa
+cevap 1). Dosya dağılımı: practice cümle tamamlama 6 · practice kısa cevap 1 ·
+AC1 2 · AC2 1 · AC3 1 · AC4 1 · GT1 1 · GT2 2.
+
+Kapsam sınırını böyle çizdim, çünkü 8. çalıştırma maddesi E1 kökenli genel-kültür
+sorularının elenme kararını açıkça kendine ayırıyor; 4. çalıştırma da bu 15 soruyu
+"7. çalıştırmaya" diye kapsamı dışında bırakmıştı.
+
+### Sonuç dağılımı
+
+| Sonuç | Soru | Nerede |
+|---|---|---|
+| **Düzeltildi** | 2 | AC1 19, 20 |
+| **Elendi** | 7 | practice sc-3, sc-12, sa-6 · AC3 22 · AC4 22 · GT1 27 · GT2 25 |
+| **Dokunulmadı** | 6 | practice sc-2, sc-4, sc-6, sc-7 · AC2 20 · GT2 26 |
+| **toplam** | **15** | |
+
+🔴 **Bu, sekiz çalıştırmanın en az düzeltme yapanı ve bu bir başarısızlık değil,
+bulgunun kendisi.** Aşağıda ölçtüm: kapsamın 15 sorusunun **13'ünde** boşluğun baş
+adı cümlenin anlamsal rolünden zorunlu olarak çıkıyor, yani soru metni ne yapılırsa
+yapılsın aynı kavram okunuyor. Yeniden yazmak sızıntıyı kapatmadan ölçülmemiş yeni
+bir soru üretirdi — talimatın "yarım düzeltme" saydığı şey tam olarak bu.
+
+### Mekanizma: bu sızıntı ötekilerden yapıca farklı
+
+E10 bu 15 sorunun hepsine `esdizim_kilidi` etiketi vermiş, ama 15'ini okuyunca
+mekanizmanın adı başka: **model parçasız üç turda da doğru KAVRAMI verdi, tutmayan
+şey sözcüğün kendisiydi.** Cevapların on üçü *niteleyici + baş ad* biçiminde bir
+öbek ve modelin verdiği cevap çoğu seferinde öbeğin yalnız bir parçası:
+
+| Doğru cevap | Modelin parçasız cevabı | Eksik kalan ayırt edici öge |
+|---|---|---|
+| sensory **contact** | contact ×3 | `sensory` |
+| running **seawater** | seawater ×3 | `running` |
+| unique **individual** | individual ×3 | `unique` |
+| laboratory **tank** | laboratory ×3 | `tank` |
+| dominance **hierarchy** | hierarchy ×3 | `dominance` |
+| separate **laboratories** | laboratories ×3 | `separate` |
+| home-office **equipment** | office equipment ×3 | `home-` |
+| **transactive memory** system | transactive memory ×3 | — (yalnız `system` düştü) |
+| **transparent** divider | transparent barrier ×3 | — |
+| **final** salary | final pay ×3 | — |
+| **probationary** period | probation period ×3 | — |
+| anatomy | anatomy · morphology · anatomy | — |
+| vegetation | vegetation · foliage · vegetation | — |
+| mountaineers | climbers ×3 | — |
+| ongoing research | preliminary ×3 | — |
+
+Tablo iki kümeye ayrılıyor ve ayrım kararı belirliyor.
+
+### 🔴 Ayırma ölçütü
+
+> **Modelin parçasız cevabı, doğru cevabın AYIRT EDİCİ ögesini de taşıyor mu?**
+
+- **Taşımıyorsa** (yalnız baş adı verdi, niteleyici düştü) → soru **kelime
+  düzeyinde hâlâ ayırt ediyor**: `seawater` yazan aday puan almaz. Elemek için
+  yeterli gerekçe yok.
+- **Taşıyorsa** (ayırt edici ögeyi birebir ya da tam eş anlamlısıyla verdi) → soru
+  artık yalnızca kopyalama sınıyor. Bu durumda ikinci soru geliyor: ayırt edici öge
+  **nereden** okunuyor? Sorunun kendi açıklayıcı yan cümlesinden okunuyorsa yan
+  cümle kaldırılır (**düzeltildi**); cevabın kendisinden okunuyorsa `answer`'a
+  dokunmadan erişilemez (**elendi**).
+
+İkinci bir ölçüt de düzeltilebilirliği belirliyor: **boşluğun baş adı cümlenin
+anlamsal rolü tarafından zorunlu kılınıyor mu?** Bir ahtapot tankına ne verildiği
+sorulduğunda baş ad zorunlu olarak `seawater`, eski DNA'nın nerede çözümlendiği
+sorulduğunda zorunlu olarak `laboratories` olur.
+
+İki ölçüt sonucu **tam olarak** belirliyor (`python tools/_e5_sc_sayim.py`):
+
+| ayırt edici öge modelde | baş ad | sonuç | soru |
+|---|---|---|---|
+| yok | açık | **düzeltildi** | 1 |
+| VAR | açık | **düzeltildi** | 1 |
+| VAR | zorunlu | **elendi** | 7 |
+| yok | zorunlu | **dokunulmadı** | 6 |
+
+Ölçüm: ayırt edici öge 15 sorunun **8'inde** modelin cevabında duruyordu; baş ad
+**13'ünde** zorunluydu.
+
+### Düzeltilen 2 soru — sızıntı çerçevede
+
+İkisi de AC1 cümle tamamlamadan ve ikisinde de sızıntının kaynağı sorunun kendi
+açıklayıcı yan cümlesiydi: soru, cevabın tanımını okuyucuya veriyordu.
+
+| Soru | Kaldırılan tanım | Yeni çapa | Sezgi artık nereye gidiyor |
+|---|---|---|---|
+| **19** (`transparent divider`) | "so each animal could **watch** its neighbour without ever touching or smelling it" — şeffaflığın tanımı | C/2'nin başka ayrıntısı: komşu tanklar + su beslemelerinin tamamen ayrı tutulması | ayrı su beslemesi koku engelini çağrıştırdığı için okumadan tahmin eden çözücü **opak/masif** bir bölme düşünür — yanlış cevap |
+| **20** (`dominance hierarchy`) | "one of each pair came to **win** most encounters" — baskınlık sıralamasının tanımı | D/3'ün ikinci yarısı (temas ve mürekkep püskürtmenin seyrelmesi) + D/2'nin süre ayrıntısı | "ilişkiler yumuşadı" okuması *mutual tolerance* / *familiarity* gibi adaylara götürür — yanlış cevap |
+
+19'da model üç turda da `transparent barrier` vermişti, yani ayırt edici sözcüğü
+(`transparent`) birebir tutturuyordu; o sözcüğün tek kaynağı sorunun kendisiydi.
+20'de model yalnız `hierarchy` veriyordu, yani kelime düzeyinde soru zaten
+çalışıyordu — ama baş adı zorunlu kılan yan cümle kaldırılabildiği için düzeltmek
+sızıntıyı büsbütün kapatıyor, dolayısıyla yarım düzeltme sayılmıyor.
+
+Cevap benzersizliği ikisinde de korunuyor: C/3'teki opak bölme grubu için ne
+"komşu tank" ne "ayrı su beslemesi" deniyor, D/3 de üç gün boyunca ortaya çıkan
+tek şeyi adlandırıyor. 20'de %76'lık oran sorudan çıkarıldı, çünkü D/3'ün tek
+sayısal ayrıntısıydı.
+
+**Ölçü** (`_e5_sc_sayim.py`, 2. bölüm): sorunun ayırt edici ögeyi tanımlayan bir
+ibare taşıyıp taşımadığını kaba bir sözcük alanıyla saydım — **6 → 4**. Düşen iki
+soru tam olarak düzeltilen ikisi. Kalan dördünde (practice sa-6 `knows`, AC2-20
+`split`/`two`, AC4-22 `green`, GT1-27 `leave`) ibare **kaldırılamıyor**, çünkü
+kanıt cümlesinin kendi içeriği onu taşıyor: GT1-27'nin kanıtı zaten "işten ayrılan
+çalışanın izin karşılığı" cümlesidir. Ölçü kaba, çünkü alan sözcüğünün bulunması
+sızıntının kanıtı değil — AC2-20'de soru `split between two` diyor ama model yine
+de `separate` vermedi.
+
+### Elenen 7 soru — sızıntı cevabın kendisinde
+
+| Soru | Cevap | Modelin verdiği | Neden düzeltilemez | E6'ya önerilen yeni çapa |
+|---|---|---|---|---|
+| practice sc-3 | `anatomy` | anatomy · morphology · anatomy | Tek sözcüklü cevap ve o sözcük sızıntı noktası; "bir türün beden yapısı" İngilizcede birden çok eş adla anılıyor | H/1'in içgörü ölçütünü sayan yarısı (hatasız ve ani çözüm, yeni nesnelere uyarlama, aletin yeri) |
+| practice sc-12 | `ongoing research` | preliminary ×3 | Cevabın **bütün** içeriği başka bir sözcükle karşılandı; "bitmiş sonuç değil" karşıtlığı kanıt cümlesinin kendisi | H/1'in ikinci yarısı: her kuşak aracın öncekinin göremediğini bulması |
+| practice sa-6 | `transactive memory system` | transactive memory ×3 | Eksen bir **kuramı adıyla** sormak; transaktif bellek örgüt psikolojisinin en çok atıf yapılan kavramlarından | H'nin ölçüsel iddiaları: yalnız bireysel çıktıya göre ödeme, ya da faydanın **daha az** kesintiyle artması |
+| AC3 sc-22 | `mountaineers` | climbers ×3 | ONE WORD ONLY + tam eş anlamlı; kavramın birbirinin yerine geçen birden çok adı var | Yakutat'ın çıkış noktası olması, ya da yamaçların gevşek enkazla maskelenmesi |
+| AC4 sc-22 | `vegetation` | vegetation · foliage · vegetation | Kelime düzeyinde bile 2/3 sızdırıyor; "karın örttüğü yeşillik" çok adlı | H/1'in son yarısı (yalnız sakinleştirici etkinin ayakta kalması) ya da H/2'deki örneklem sınırları |
+| GT1 sc-27 | `final salary` | final pay ×3 | Ayırt edici sözcük (`final`) birebir tutturuldu; ayrılışta ödenen şeyin son maaş olması çalışma hayatının standardı | D/1: en çok beş günün yazılı onayla devri ve 31 Mart'ta yanması |
+| GT2 sc-25 | `probationary period` | probation period ×3 | Aynı kelimenin başka çekimi, yani cevap tam tutturuldu; "başvurudan önce ne tamamlanmalı" işe alma dünyasının yerleşik kuralı | Haftada en çok üç gün sınırı, ya da müşteriyle çalışan roller istisnası |
+
+Yedisi de `status: "rejected"` + `reject_reason` aldı, dosyalarında **numaralarıyla
+duruyor** ve `content/DOGRULAMA/yeniden-uretim-listesi.json` dosyasına eklendi
+(liste 43 → **50** kayıt). Her kayıt kanıt cümlesini ve soru metnini `kacinilacak`
+altında, önerilen yeni çapayı `neden_elendi` içinde taşıyor.
+
+### Dokunulmayan 6 soru — kelime düzeyinde çalışan sorular
+
+Altısında da model yalnız baş adı verdi; ayırt edici niteleyici hiç gelmedi,
+yani bu cevabı yazan aday puan alamaz. Baş ad ise zorunlu, dolayısıyla düzeltme
+yarım kalırdı.
+
+| Soru | Cevap | Modelin verdiği | Baş adı zorunlu kılan rol |
+|---|---|---|---|
+| practice sc-2 | `sensory contact` | contact | açık hortum ucunun nesneyle ilişkisi → `contact` |
+| practice sc-4 | `running seawater` | seawater | ahtapot tankına ne verildiği → `seawater` |
+| practice sc-6 | `unique individual` | individual | "birini tek tek ayırt etmek zorunda değil" → `individual` |
+| practice sc-7 | `laboratory tank` | laboratory | "hiçbir X bunu tam taklit edemez" (bilim metni) → laboratuvar |
+| AC2 sc-20 | `separate laboratories` | laboratories | eski DNA'nın çıkarıldığı yer → `laboratories` |
+| GT2 sc-26 | `home-office equipment` | office equipment | uzaktan çalışmada masrafı geri alınan şey → `equipment` |
+
+Altısına da `review_note` yazıldı (bulgu + baş adı zorunlu kılan rol + E6 için
+somut yeni çapa önerisi), `status` `flagged` kaldı. Bu, 4. çalıştırmanın 11 soru
+için verdiği kararın aynısı ve aynı gerekçeye dayanıyor.
+
+### 🔴 E6 ve E7'ye devir notları
+
+1. **Tamamlama ailesinde üretim kuralı artık iki maddeli.** 4. çalıştırma
+   "boşluk, İngilizcede tek karşılığı olan bir kavramı hedeflemesin" demişti. Bu
+   çalıştırma ikincisini ekliyor: **boşluğun ayırt edici ögesi tek başına bir
+   niteleyici olmasın.** `running seawater`, `separate laboratories`,
+   `home-office equipment` gibi öbeklerde baş ad çerçeveden okunuyor ve soru
+   yalnız niteleyiciyi sınıyor; sayı, tarih, özel ad ve kapalı liste isteyen
+   boşluklar bu kusuru taşımıyor.
+2. **🔴 AC4 cümle tamamlama artık dört yuvanın üçü elenmiş durumda** (20 ve 21
+   4. çalıştırmadan, 22 buradan); ayakta kalan tek soru 19. E6 A11 pasajından üç
+   yeni soru yazarken üçünü de **ayrı paragraflara** çapalamalı; 20 ile 21'in
+   kanıt cümleleri (hava değerleri ve "the passage of time") listede
+   `kacinilacak` altında, 22'ninki H/1.
+3. **Elenen yedi yuvanın yedisine de somut yeni çapa önerisi yazıldı** ve
+   `neden_elendi` alanında duruyor. practice cümle tamamlamada iki yuva birden
+   elendi (3 ve 12) ama iki ayrı pasajdan (A01, A04), çakışma yok.
+4. **Düzeltilen 2 soru ölçülmemiş sorudur.** `answer`, `accepted_variants` ve
+   `evidence` korundu ama soru metinleri baştan yazıldı; ikisinde de
+   `blind_solvable: null` duruyor. E7 ikisini de yeniden ölçmeli.
+5. **AC1-20 için set düzeyinde bir kalıntı risk var.** Aynı dosyadaki 21. soru
+   ("A change in which animal held the **stronger position** …") baskınlık
+   sözlüğünü sette tutuyor; 20'nin metninden kazanma/üstünlük dilini kaldırmak
+   bu ipucunu kaldırmıyor. 21 `verified` ve `blind_solvable: false` olduğu için
+   ona dokunmadım, ama E7 ölçümünde ikisi birlikte bakılmalı.
+6. **AC1-19'un `difficulty` etiketi `easy` kaldı.** Düzeltme soruyu kesinlikle
+   zorlaştırdı, ama zorluk etiketini ölçüm olmadan yeniden vermek tahmin olurdu;
+   korunan alan olarak bıraktım. E7 ölçümünden sonra yeniden verilmeli.
+7. **Dokunulmayan 6 soru bir sonraki turda da işaretli görünecek.** 4.
+   çalıştırmanın 11'i ile birlikte tamamlama ailesinde 17 soru bu durumda. Karar
+   tartışmaya açık; gerekli bilgi (bulgu, zorunluluk gerekçesi, önerilen çapa)
+   her birinin `review_note` alanında duruyor, E6 isterse kapsama alabilir.
+
+### Doğrulama
+
+```
+python tools/_e5_sc_kapsam.py            # kapsam: 26 isaretli, 15'i E10 kokenli
+python tools/_e5_sc_elden_gecir.py       # duzeltildi 2 - elendi 7 - dokunulmadi 6
+python tools/_e5_sc_devir.py             # eklenen kayit 7 - toplam 50
+python tools/_e5_sc_sayim.py             # ayirt edici oge 8/15, zorunlu bas ad 13/15
+python tools/_e5_sc_dogrula_degisim.py   # sinanan alan 433 - KORUNAN ALAN HATASI: 0
+python tools/dogrula.py
+```
+
+- `answer`, `accepted_variants`, `evidence`, `evidence_locator`, `difficulty` ve
+  `passage_id` sekiz dosyanın hepsinde **hiç değişmedi** (HEAD ile alan alan
+  karşılaştırıldı, 433 sınamada 0 fark). Üst düzeyde `instructions`,
+  `word_limit`, `question_type` ve `stem_block` de korundu.
+- Düzeltilmeyen 45 sorunun soru metni **harfi harfine aynı** kaldı; bu ayrıca
+  sınanıyor. Düzeltilen 2 sorunun eski metni `revision.onceki_prompt` içinde
+  saklandı.
+- Soru sayısı ve numaralar değişmedi: 8 dosyada 47 soru girdi, 47 çıktı. On iki
+  tam testin hepsi 40/40 kaldı.
+- `isaretli (flagged)` 71 → **62** (2 verified + 7 rejected; dokunulmayan 6 soru
+  `flagged` kaldı).
+- Şema hatası **0**; iki düzeltilen sorunun `explanation` alanı İngilizce yazıldı,
+  `revision`, `reject_reason` ve `review_note` gibi iç denetim notları Türkçe
+  kaldı.

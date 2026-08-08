@@ -60,7 +60,8 @@
       "blind_solvable_kelime_duzeyi": false,
       "blind_basis": "logic",
       "flag_reason": "Parça gösterilmeden anlamca 3/3 turda doğru bilindi: farklı kelimeyle ama doğru kavramla cevaplandı (3 turda da 'contact' verdi, gerçek cevap 'sensory contact').",
-      "flag_mechanism": "esdizim_kilidi"
+      "flag_mechanism": "esdizim_kilidi",
+      "review_note": "E10 anlam duzeyi olcumunden gelen isaret. Modelin parcasiz cevabi cevabin yalniz BAS ADINI veriyor, ayirt edici niteleyicisini vermiyor: uc turda da 'contact' verdi, ayirt edici 'sensory' hic gelmedi. Dolayisiyla soru kelime duzeyinde hala ayirt ediyor (bu cevabi yazan aday puan alamaz) ve elenmesi icin yeterli gerekce yok. Duzeltilmesi de mumkun degil, cunku boslugun bas adi cumlenin anlamsal rolunden zorunlu olarak cikiyor: hortum ucunun acik kalmasi ve nesneyle iliskisi anlatildiginda bas ad kacinilmaz bicimde 'contact' olur. Cerceve ne yapilirsa yapilsin ayni bas ad okunacagi icin yeniden yazmak sizintiyi kapatmadan olculmemis yeni bir soru uretirdi (yarim duzeltme). Talimatin 3. sonucu geregi soru oldugu gibi birakildi. E6 onerisi: G/1'in ikinci yarisi -- kubun hayvanin butun govdesini yiyecege yaklastirmasi -- ya da G/2'deki 'sempanzenin kucuk bir surumu degil' degerlendirmesi."
     },
     {
       "number": 3,
@@ -79,12 +80,13 @@
       },
       "explanation": "Paragraph H states that a species can appear to lack a mental ability simply because the equipment provided does not suit its anatomy, so the answer is 'anatomy'.",
       "difficulty": "hard",
-      "status": "flagged",
+      "status": "rejected",
       "blind_solvable": true,
       "blind_solvable_kelime_duzeyi": false,
       "blind_basis": "logic",
       "flag_reason": "Parça gösterilmeden anlamca 3/3 turda doğru bilindi: farklı kelimeyle ama doğru kavramla cevaplandı ('anatomy / morphology / anatomy' verdi, 'morphology' anatomy'nin eş anlamlısı).",
-      "flag_mechanism": "esdizim_kilidi"
+      "flag_mechanism": "esdizim_kilidi",
+      "reject_reason": "Cevap tek sozcuk ('anatomy') ve o sozcugun kendisi sizinti noktasi: model parcasiz uc turun ikisinde birebir 'anatomy', birinde tam es anlamlisi 'morphology' verdi. Boslugun hedefledigi kavram -- bir turun beden yapisi -- Ingilizcede birden cok sozcukle ayni sekilde adlandiriliyor (anatomy / morphology / body plan), ve 'cihaz turun X'ine uymuyordu' cercevesi hangi bicimde yazilirsa yazilsin bu kavrami zorunlu kiliyor. Ayirt edici oge cevabin kendisinde durdugu icin cerceve duzeltmesi sizintiya erisemiyor; kapatmak boslugu baska bir ayrintiya tasimayi, yani `answer` alanini degistirmeyi gerektirir. E6 onerisi: ayni paragrafin (H/1) icgoru olcutunu sayan yarisi -- cozumun hatasiz ve aniden ortaya cikmasi, yeni nesnelere uyarlanmasi, aletin birakildigi yerin hatirlanmasi."
     },
     {
       "number": 4,
@@ -109,7 +111,8 @@
       "blind_solvable_kelime_duzeyi": false,
       "blind_basis": "logic",
       "flag_reason": "Parça gösterilmeden anlamca 3/3 turda doğru bilindi: farklı kelimeyle ama doğru kavramla cevaplandı (3 turda da 'seawater' verdi, gerçek cevap 'running seawater').",
-      "flag_mechanism": "esdizim_kilidi"
+      "flag_mechanism": "esdizim_kilidi",
+      "review_note": "E10 anlam duzeyi olcumunden gelen isaret. Modelin parcasiz cevabi cevabin yalniz BAS ADINI veriyor, ayirt edici niteleyicisini vermiyor: uc turda da 'seawater' verdi, ayirt edici 'running' hic gelmedi. Dolayisiyla soru kelime duzeyinde hala ayirt ediyor (bu cevabi yazan aday puan alamaz) ve elenmesi icin yeterli gerekce yok. Duzeltilmesi de mumkun degil, cunku boslugun bas adi cumlenin anlamsal rolunden zorunlu olarak cikiyor: ahtapot tankina ne verildigi soruldugunda bas ad zorunlu olarak 'seawater' olur. Cerceve ne yapilirsa yapilsin ayni bas ad okunacagi icin yeniden yazmak sizintiyi kapatmadan olculmemis yeni bir soru uretirdi (yarim duzeltme). Talimatin 3. sonucu geregi soru oldugu gibi birakildi. E6 onerisi: B/3'un olcu ayrintisi (altmis bes x yuz x elli santimetre) ya da B/1'deki %15'lik agirlik eslestirme olcutu."
     },
     {
       "number": 5,
@@ -153,7 +156,8 @@
       "blind_solvable_kelime_duzeyi": false,
       "blind_basis": "logic",
       "flag_reason": "Parça gösterilmeden anlamca 3/3 turda doğru bilindi: farklı kelimeyle ama doğru kavramla cevaplandı (3 turda da 'individual' verdi, gerçek cevap 'unique individual').",
-      "flag_mechanism": "esdizim_kilidi"
+      "flag_mechanism": "esdizim_kilidi",
+      "review_note": "E10 anlam duzeyi olcumunden gelen isaret. Modelin parcasiz cevabi cevabin yalniz BAS ADINI veriyor, ayirt edici niteleyicisini vermiyor: uc turda da 'individual' verdi, ayirt edici 'unique' hic gelmedi. Dolayisiyla soru kelime duzeyinde hala ayirt ediyor (bu cevabi yazan aday puan alamaz) ve elenmesi icin yeterli gerekce yok. Duzeltilmesi de mumkun degil, cunku boslugun bas adi cumlenin anlamsal rolunden zorunlu olarak cikiyor: 'birini tek tek ayirt etmek zorunda degil' iddiasinin bas adi zorunlu olarak 'individual' olur. Cerceve ne yapilirsa yapilsin ayni bas ad okunacagi icin yeniden yazmak sizintiyi kapatmadan olculmemis yeni bir soru uretirdi (yarim duzeltme). Talimatin 3. sonucu geregi soru oldugu gibi birakildi. E6 onerisi: G/1'deki zaman ayrintisi -- bellegin bir tam gun sonra hala davranisi degistirmesi -- ya da G/2'nin 'class-level, or binary' adlandirmasi."
     },
     {
       "number": 7,
@@ -177,7 +181,8 @@
       "blind_solvable_kelime_duzeyi": false,
       "blind_basis": "logic",
       "flag_reason": "Parça gösterilmeden anlamca 3/3 turda doğru bilindi: farklı kelimeyle ama doğru kavramla cevaplandı (3 turda da 'laboratory' verdi, gerçek cevap 'laboratory tank').",
-      "flag_mechanism": "esdizim_kilidi"
+      "flag_mechanism": "esdizim_kilidi",
+      "review_note": "E10 anlam duzeyi olcumunden gelen isaret. Modelin parcasiz cevabi cevabin yalniz BAS ADINI veriyor, ayirt edici niteleyicisini vermiyor: uc turda da 'laboratory' verdi, ayirt edici 'tank' hic gelmedi. Dolayisiyla soru kelime duzeyinde hala ayirt ediyor (bu cevabi yazan aday puan alamaz) ve elenmesi icin yeterli gerekce yok. Duzeltilmesi de mumkun degil, cunku boslugun bas adi cumlenin anlamsal rolunden zorunlu olarak cikiyor: 'hicbir X bunu tam olarak taklit edemez' cercevesinde bilimsel bir metinde bas ad zorunlu olarak laboratuvar olur. Cerceve ne yapilirsa yapilsin ayni bas ad okunacagi icin yeniden yazmak sizintiyi kapatmadan olculmemis yeni bir soru uretirdi (yarim duzeltme). Talimatin 3. sonucu geregi soru oldugu gibi birakildi. E6 onerisi: A/2'nin ikinci yarisi -- resifin surekli olarak, onlarca yil sonra beklenen asitlenmis suda yasamasi -- ya da A/3'teki 'tek tek organizma degil ekosistem' ayrimi."
     },
     {
       "number": 8,
@@ -294,12 +299,13 @@
       },
       "explanation": "Paragraph H states that the discovery is for now part of ongoing research rather than a finished, peer-reviewed result, so the answer is 'ongoing research'.",
       "difficulty": "medium",
-      "status": "flagged",
+      "status": "rejected",
       "blind_solvable": true,
       "blind_solvable_kelime_duzeyi": false,
       "blind_basis": "logic",
       "flag_reason": "Parça gösterilmeden anlamca 3/3 turda doğru bilindi: farklı kelimeyle ama doğru kavramla cevaplandı (3 turda da 'preliminary' verdi, gerçek cevap 'ongoing research' — aynı kavramın başka sözcüğü).",
-      "flag_mechanism": "esdizim_kilidi"
+      "flag_mechanism": "esdizim_kilidi",
+      "reject_reason": "Model parcasiz uc turda da 'preliminary' verdi: cevabin ('ongoing research') butun icerigini baska bir sozcukle karsiladi, yani eksik birakilan hicbir ayirt edici oge yok. Sizinti soru metninin bir yan cumlesinden degil, boslugun hedefinden geliyor: 'henuz hakem degerlendirmesinden gecmemis bulgu' kavraminin Ingilizcede hazir karsiligi vardir ve 'bitmis sonuc degil' karsitligini tasimayan bir cerceve de kurulamiyor, cunku kanit cumlesinin (H/1) ilk yarisi tam olarak bu karsitliktir. E6 onerisi: ayni cumlenin ikinci yarisi -- her yeni kusak aracin, onceki kusagin goremedigi nesneleri ortaya cikarmasi -- ya da H/2'deki El Moutamid degerlendirmesi."
     },
     {
       "number": 13,

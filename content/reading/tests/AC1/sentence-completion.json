@@ -17,7 +17,7 @@
   "items": [
     {
       "number": 19,
-      "prompt": "In the first stage of the study, some pairs were kept in tanks split by a (19) ........ , so each animal could watch its neighbour without ever touching or smelling it.",
+      "prompt": "In the first stage of the study, half the pairs sat in neighbouring tanks on either side of a (19) ........ , with the water supply to each side kept entirely apart.",
       "answer": [
         "transparent divider"
       ],
@@ -29,18 +29,24 @@
         "paragraph": "C",
         "sentence": 2
       },
-      "explanation": "Paragraph C says that half the pairs were separated by a transparent divider, so they could see each other but not touch; the answer is therefore 'transparent divider'.",
+      "explanation": "Paragraph C says that half the pairs sat in neighbouring tanks separated by a transparent divider, with the water supplies kept fully separate; the answer is therefore 'transparent divider'.",
       "difficulty": "easy",
-      "status": "flagged",
-      "blind_solvable": true,
+      "status": "verified",
+      "blind_solvable": null,
       "blind_solvable_kelime_duzeyi": false,
       "blind_basis": "logic",
       "flag_reason": "Parça gösterilmeden anlamca 3/3 turda doğru bilindi: farklı kelimeyle ama doğru kavramla cevaplandı (3 turda da 'transparent barrier' verdi, gerçek cevap 'transparent divider' — barrier/divider eş anlamlı).",
-      "flag_mechanism": "esdizim_kilidi"
+      "flag_mechanism": "esdizim_kilidi",
+      "revision": {
+        "tarih": "2026-08-08",
+        "mekanizma": "anlam_duzeyi_esanlam_sizintisi",
+        "onceki_prompt": "In the first stage of the study, some pairs were kept in tanks split by a (19) ........ , so each animal could watch its neighbour without ever touching or smelling it.",
+        "ne_degisti": "Eski cerceve boslugu tanimliyordu: 'so each animal could watch its neighbour without ever touching or smelling it' yan cumlesi seffafligin tanimidir, dolayisiyla cevabin AYIRT EDICI sozcugu ('transparent') pasajdan degil sorunun kendisinden okunuyordu; model ucunde de 'transparent barrier' verdi. Yeni cumle gorme boyutunu hic anmiyor ve grubu C/2'nin baska bir ayrintisiyla (komsu tanklar + su beslemelerinin tamamen ayri tutulmasi) tanimliyor. Yuzeydeki sezgi artik yanlis yone gidiyor: ayri su beslemesi koku engelini cagristirdigi icin okumadan tahmin eden cozucu opak/masif bir bolme dusunur. C/3'teki opak bolme grubu icin ne komsu tank ne ayri su beslemesi soyleniyor, o yuzden cevap hala tek."
+      }
     },
     {
       "number": 20,
-      "prompt": "Once the animals began sharing a tank, one of each pair came to win most encounters, so that a (20) ........ took shape over the three days.",
+      "prompt": "Over the three days of daily fifteen-minute meetings a (20) ........ emerged in every pair, while ink-jetting and physical contact both grew less frequent.",
       "answer": [
         "dominance hierarchy"
       ],
@@ -52,14 +58,20 @@
         "paragraph": "D",
         "sentence": 3
       },
-      "explanation": "Paragraph D says that the stronger animal in each pair won most encounters and a dominance hierarchy emerged; the answer is therefore 'dominance hierarchy'.",
+      "explanation": "Paragraph D says that across the daily fifteen-minute encounters a dominance hierarchy consistently emerged, while physical contact and defensive ink-jetting became less frequent; the answer is therefore 'dominance hierarchy'.",
       "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
+      "status": "verified",
+      "blind_solvable": null,
       "blind_solvable_kelime_duzeyi": false,
       "blind_basis": "logic",
       "flag_reason": "Parça gösterilmeden anlamca 3/3 turda doğru bilindi: farklı kelimeyle ama doğru kavramla cevaplandı (3 turda da 'hierarchy' verdi, gerçek cevap 'dominance hierarchy').",
-      "flag_mechanism": "esdizim_kilidi"
+      "flag_mechanism": "esdizim_kilidi",
+      "revision": {
+        "tarih": "2026-08-08",
+        "mekanizma": "anlam_duzeyi_esanlam_sizintisi",
+        "onceki_prompt": "Once the animals began sharing a tank, one of each pair came to win most encounters, so that a (20) ........ took shape over the three days.",
+        "ne_degisti": "Eski cerceve 'one of each pair came to win most encounters, so that a ___ took shape' diyerek baskinlik siralamasinin tanimini veriyordu; boslugun BAS ADI ('hierarchy') bu yan cumleden zorunlu olarak cikiyordu. Yeni cumlede kazanma/ustunluk dili hic yok; bosluk D/3'un ikinci yarisina (temas ve murekkep puskurtmenin seyrelmesi) ve D/2'nin sure ayrintisina capalandi. Bos yuvaya artik anlamca farkli adaylar da uyuyor (mutual tolerance, familiarity, settled routine) ve yuzeydeki sezgi -- 'iliskiler yumusadi' -- bunlardan birine, yani yanlis cevaba goturur. %76'lik oran da sorudan cikarildi, cunku D/3'un tek sayisal ayrintisiydi."
+      }
     },
     {
       "number": 21,

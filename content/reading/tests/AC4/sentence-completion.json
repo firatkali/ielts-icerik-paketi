@@ -97,12 +97,13 @@
       },
       "explanation": "Paragraph H explains the lack of increase in vigour by the fact that snow covers the green vegetation that other studies have linked to energy and alertness; so the answer is 'vegetation'.",
       "difficulty": "medium",
-      "status": "flagged",
+      "status": "rejected",
       "blind_solvable": true,
       "blind_solvable_kelime_duzeyi": false,
       "blind_basis": "logic",
       "flag_reason": "Parça gösterilmeden anlamca 3/3 turda doğru bilindi: farklı kelimeyle ama doğru kavramla cevaplandı ('vegetation / foliage / vegetation' verdi, 'foliage' aynı göndergeyi karşılıyor).",
-      "flag_mechanism": "esdizim_kilidi"
+      "flag_mechanism": "esdizim_kilidi",
+      "reject_reason": "Model parcasiz uc turun ikisinde birebir 'vegetation', birinde tam es anlamlisi 'foliage' verdi -- yani sizinti kelime duzeyinde bile neredeyse tam. Boslugun hedefi 'karin ortudugu yesillik' ve bunun Ingilizcede birden cok es adi var (vegetation / greenery / foliage / plant life). Kanit cumlesi (H/1) canliligin neden yukselmedigini yalniz bu tek nedenle acikliyor, dolayisiyla her cerceve 'kalin kar neyi gizler' sorusuna donuyor ve cevabi kendisi veriyor. E6 onerisi: ayni cumlenin son yarisi -- yalniz sakinlestirici etkinin ayakta kalmasi, canlandirici etkinin kalmamasi -- ya da H/2'deki orneklem sinirlari (tek kurum, kucuk orneklem, onerilen uc genisletme)."
     }
   ]
 }

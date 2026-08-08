@@ -602,3 +602,40 @@
   - Ayrinti: content/DOGRULAMA/ELDEN-GECIRME.md
   - isaretli (flagged)     71
   - SEMA HATALARI: 0
+
+08.08.2026 05:19
+  - isaretli (flagged)     71
+
+08.08.2026 06:40
+
+  - E5 7. calistirma: E10'dan gelen cumle tamamlama + kisa cevap
+    isaretleri elden gecirildi. Kapsam kendi taramamla 15 soru (14
+    sentence_completion + 1 short_answer, hepsi E10 kokenli); E1 kokenli
+    11 genel_kultur sorusu 8. calistirmaya birakildi.
+  - Sonuc: duzeltildi 2 - elendi 7 - dokunulmadi 6.
+  - 🔴 Bu calistirmanin asil bulgusu olumsuz: anlam duzeyi sizintisi
+    cerceve duzeltmesiyle neredeyse hic kapanmiyor. 15 sorunun 13'unde
+    boslugun BAS ADI cumlenin anlamsal rolunden zorunlu olarak cikiyor
+    (tank -> seawater, eski DNA cikarimi -> laboratories, "pick out a
+    ___" -> individual); cerceve nasil yazilirsa yazilsin ayni kavram
+    okunuyor. Yalniz 2 soruda bas ad acikti ve ikisi de duzeltildi.
+  - Ayirma olcutu: modelin parcasiz cevabi, dogru cevabin AYIRT EDICI
+    ogesini tasiyor mu? Tasimiyorsa (yalniz bas adi verdi) soru kelime
+    duzeyinde hala ayirt ediyor -> dokunulmadi (6). Tasiyorsa soru
+    yalnizca kopyalama sinar hale gelmis demektir -> cerceveden
+    geliyorsa duzeltildi, cevabin kendisinden geliyorsa elendi (7).
+    Olcut sonucu tam belirliyor (bkz. tools/_e5_sc_sayim.py capraz
+    tablosu).
+  - Elenen 7 yuva devir dosyasina eklendi (liste 43 -> 50 kayit), her
+    biri onerilen yeni capasiyla.
+  - 🔴 E6'ya: AC4 sentence-completion artik 4 yuvanin 3'u elenmis
+    durumda (20, 21 dorduncu calistirmadan; 22 buradan). Tek ayakta
+    kalan 19. A11 pasajindan uc yeni soru yazilirken ucu de ayri
+    paragrafa capalanmali.
+  - answer / accepted_variants / evidence / evidence_locator / difficulty
+    sekiz dosyanin hicbirinde degismedi (HEAD ile alan alan
+    karsilastirildi, 433 sinamada 0 fark). 47 soru girdi 47 cikti, 12 tam
+    testin hepsi 40/40.
+  - Ayrinti: content/DOGRULAMA/ELDEN-GECIRME.md
+  - isaretli (flagged)     62
+  - SEMA HATALARI: 0

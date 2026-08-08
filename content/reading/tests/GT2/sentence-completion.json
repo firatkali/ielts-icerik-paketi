@@ -32,12 +32,13 @@
       },
       "explanation": "Paragraph A of text B says that only employees who have completed their probationary period may apply to work remotely; the answer is therefore 'probationary period'.",
       "difficulty": "easy",
-      "status": "flagged",
+      "status": "rejected",
       "blind_solvable": true,
       "blind_solvable_kelime_duzeyi": false,
       "blind_basis": "logic",
       "flag_reason": "Parça gösterilmeden anlamca 3/3 turda doğru bilindi: farklı kelimeyle ama doğru kavramla cevaplandı (3 turda da 'probation period' verdi, gerçek cevap 'probationary period' — aynı kelimenin başka çekimi).",
-      "flag_mechanism": "esdizim_kilidi"
+      "flag_mechanism": "esdizim_kilidi",
+      "reject_reason": "Model parcasiz uc turda da 'probation period' verdi: ayni kelimenin baska cekimi, yani cevabin ('probationary period') ayirt edici ogesi tam olarak tutturuldu. Sorunun ekseni 'uzaktan calisma basvurusundan once neyin tamamlanmasi gerekir' ve bunun cevabi ise alma dunyasinin en yerlesik kuralidir; kanit cumlesi (B metni, A/1) baska hicbir on kosul icermiyor, dolayisiyla her cerceve ayni kavrami istiyor. E6 onerisi: ayni cumlenin sayisal siniri (haftada en cok uc gun) ya da A/2'deki musteriyle calisan roller istisnasi."
     },
     {
       "number": 26,
@@ -62,7 +63,8 @@
       "blind_solvable_kelime_duzeyi": false,
       "blind_basis": "logic",
       "flag_reason": "Parça gösterilmeden anlamca 3/3 turda doğru bilindi: farklı kelimeyle ama doğru kavramla cevaplandı (3 turda da 'office equipment' verdi, gerçek cevap 'home-office equipment').",
-      "flag_mechanism": "esdizim_kilidi"
+      "flag_mechanism": "esdizim_kilidi",
+      "review_note": "E10 anlam duzeyi olcumunden gelen isaret. Modelin parcasiz cevabi cevabin yalniz BAS ADINI veriyor, ayirt edici niteleyicisini vermiyor: uc turda da 'office equipment' verdi, ayirt edici 'home-' on eki hic gelmedi. Dolayisiyla soru kelime duzeyinde hala ayirt ediyor (bu cevabi yazan aday puan alamaz) ve elenmesi icin yeterli gerekce yok. Duzeltilmesi de mumkun degil, cunku boslugun bas adi cumlenin anlamsal rolunden zorunlu olarak cikiyor: uzaktan calisma politikasinda masrafi geri alinan seyin bas adi zorunlu olarak 'equipment' olur. Cerceve ne yapilirsa yapilsin ayni bas ad okunacagi icin yeniden yazmak sizintiyi kapatmadan olculmemis yeni bir soru uretirdi (yarim duzeltme). Talimatin 3. sonucu geregi soru oldugu gibi birakildi. E6 onerisi: ayni madde listesindeki olculebilir kosullar -- en az 10 Mbps'lik internet baglantisi ya da sirketin verdigi dizustu bilgisayarin kullanilmasi zorunlulugu."
     },
     {
       "number": 27,

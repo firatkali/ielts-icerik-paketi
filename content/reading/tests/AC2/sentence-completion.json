@@ -56,7 +56,8 @@
       "blind_solvable_kelime_duzeyi": false,
       "blind_basis": "logic",
       "flag_reason": "Parça gösterilmeden anlamca 3/3 turda doğru bilindi: farklı kelimeyle ama doğru kavramla cevaplandı (3 turda da 'laboratories' verdi, gerçek cevap 'separate laboratories').",
-      "flag_mechanism": "esdizim_kilidi"
+      "flag_mechanism": "esdizim_kilidi",
+      "review_note": "E10 anlam duzeyi olcumunden gelen isaret. Modelin parcasiz cevabi cevabin yalniz BAS ADINI veriyor, ayirt edici niteleyicisini vermiyor: uc turda da 'laboratories' verdi, ayirt edici 'separate' hic gelmedi. Dolayisiyla soru kelime duzeyinde hala ayirt ediyor (bu cevabi yazan aday puan alamaz) ve elenmesi icin yeterli gerekce yok. Duzeltilmesi de mumkun degil, cunku boslugun bas adi cumlenin anlamsal rolunden zorunlu olarak cikiyor: eski DNA'nin cikarilip cozumlendigi yer soruldugunda bas ad zorunlu olarak laboratuvar olur. Cerceve ne yapilirsa yapilsin ayni bas ad okunacagi icin yeniden yazmak sizintiyi kapatmadan olculmemis yeni bir soru uretirdi (yarim duzeltme). Talimatin 3. sonucu geregi soru oldugu gibi birakildi. E6 onerisi: D/2'nin sayisal ayrintisi (106-243 baz cifti uzunlugunda isaretleyici kumeleri) ya da hedeflenen gen -- bir anahtar bugday proteini."
     },
     {
       "number": 21,

@@ -472,6 +472,83 @@
         "ifade": "Researchers still disagree about what a successful mirror test actually proves."
       },
       "neden_elendi": "Kanit cumlesi (A/3) ayna testinin gercekte neyi olctugu tartismasini ozetliyor: 'gercek oz farkindalik mi yoksa daha dar bir sey mi'. Bu tartisma hayvan bilisinin en cok aktarilan tartismalarindan biri ve cumlenin iki yarisi da (tartismanin varligi, testin yine de en net davranissal isaret sayilmasi) alan bilgisinden dogrudan cikiyor. Cumlede pasaja ozgu tek bir sayi, ad ya da olcu yok, dolayisiyla ifade nasil yazilirsa yazilsin eksen genel kultur kaliyor. E6 bu yuvayi B paragrafinin sayisal ayrintilarina capalamali (98 oturum, aynanin onunde 27 saate karsi seffaf panelin onunde 23 saat)."
+    },
+    {
+      "dosya": "content/reading/practice/sentence-completion.json",
+      "numara": 3,
+      "tip": "sentence_completion",
+      "pasaj": "A01",
+      "kacinilacak": {
+        "kanit_cumlesi": "More broadly, the study is a caution against judging an animal's intelligence from a single, narrowly designed test: a species may appear incapable of a mental feat simply because the equipment offered does not suit its particular anatomy, and a fairer test can reveal abilities that had been present all along.",
+        "ifade": "A species can look unable to perform a mental task merely because the apparatus it is given does not match its (3) ........"
+      },
+      "neden_elendi": "Cevap tek sozcuk ('anatomy') ve o sozcugun kendisi sizinti noktasi: model parcasiz uc turun ikisinde birebir 'anatomy', birinde tam es anlamlisi 'morphology' verdi. Boslugun hedefledigi kavram -- bir turun beden yapisi -- Ingilizcede birden cok sozcukle ayni sekilde adlandiriliyor (anatomy / morphology / body plan), ve 'cihaz turun X'ine uymuyordu' cercevesi hangi bicimde yazilirsa yazilsin bu kavrami zorunlu kiliyor. Ayirt edici oge cevabin kendisinde durdugu icin cerceve duzeltmesi sizintiya erisemiyor; kapatmak boslugu baska bir ayrintiya tasimayi, yani `answer` alanini degistirmeyi gerektirir. E6 onerisi: ayni paragrafin (H/1) icgoru olcutunu sayan yarisi -- cozumun hatasiz ve aniden ortaya cikmasi, yeni nesnelere uyarlanmasi, aletin birakildigi yerin hatirlanmasi."
+    },
+    {
+      "dosya": "content/reading/practice/sentence-completion.json",
+      "numara": 12,
+      "tip": "sentence_completion",
+      "pasaj": "A04",
+      "kacinilacak": {
+        "kanit_cumlesi": "For now, the discovery remains part of ongoing research rather than a finished, peer-reviewed result, but it illustrates a broader pattern in planetary astronomy: each generation of instruments reveals objects that the previous generation's technology, however capable at the time, simply could not see.",
+        "ifade": "At this stage the find counts as (12) ........ , since it has not yet been through peer review."
+      },
+      "neden_elendi": "Model parcasiz uc turda da 'preliminary' verdi: cevabin ('ongoing research') butun icerigini baska bir sozcukle karsiladi, yani eksik birakilan hicbir ayirt edici oge yok. Sizinti soru metninin bir yan cumlesinden degil, boslugun hedefinden geliyor: 'henuz hakem degerlendirmesinden gecmemis bulgu' kavraminin Ingilizcede hazir karsiligi vardir ve 'bitmis sonuc degil' karsitligini tasimayan bir cerceve de kurulamiyor, cunku kanit cumlesinin (H/1) ilk yarisi tam olarak bu karsitliktir. E6 onerisi: ayni cumlenin ikinci yarisi -- her yeni kusak aracin, onceki kusagin goremedigi nesneleri ortaya cikarmasi -- ya da H/2'deki El Moutamid degerlendirmesi."
+    },
+    {
+      "dosya": "content/reading/practice/short-answer.json",
+      "numara": 6,
+      "tip": "short_answer",
+      "pasaj": "A06",
+      "kacinilacak": {
+        "kanit_cumlesi": "The researchers interpret the pattern through the idea of a transactive memory system, in which effective teams develop a shared, largely implicit sense of who knows what, letting members find the right person to ask rather than needing constant interaction.",
+        "ifade": "Question 6 refers to Passage A06. Which idea do the researchers draw on to explain how a well-established team knows which member to turn to?"
+      },
+      "neden_elendi": "Model parcasiz uc turda da 'transactive memory' verdi, yani cevabin ayirt edici iki sozcugunu birebir tutturdu; dusen tek sey genel 'system' basiydi. Sorunun ekseni bir kurami ADIYLA sormak ('researchers hangi fikre dayaniyor'), o kuram da orgut psikolojisinin en cok atif yapilan kavramlarindan biri: 'kim neyi biliyor' ortak bellegi transaktif bellek diye adlandirilir. Bu yuzden sorun kip ya da konum degil eksenin kendisi -- kanit cumlesi ne kadar yeniden yazilirsa yazilsin, alani bilen cozucu adi metne bakmadan veriyor. E6 onerisi: H paragrafinin olcusel iddialari -- Caster'in yalniz bireysel ciktiya gore odeme yapmasi, ya da deneyimli meslektasin faydasinin daha AZ duzenli kesintiyle artmasi."
+    },
+    {
+      "dosya": "content/reading/tests/AC3/sentence-completion.json",
+      "numara": 22,
+      "tip": "sentence_completion",
+      "pasaj": "A08",
+      "kacinilacak": {
+        "kanit_cumlesi": "It does, however, create new hazards for mountaineers and scientific expeditions that use Yakutat as a staging point for trips into the St Elias Mountains, since previously stable slopes and crevasse fields may now be masked by loose debris or freshly exposed ice.",
+        "ifade": "No settlements were harmed, but slopes that used to be safe now put ........ and research parties setting out from Yakutat in danger."
+      },
+      "neden_elendi": "Kelime siniri ONE WORD ONLY ve cevap tek sozcuk ('mountaineers'); model parcasiz uc turda da tam es anlamlisi 'climbers' verdi. Boslugun hedefi 'daglara cikan insanlar' kavrami ve bu kavramin Ingilizcede birbirinin yerine gecen birden cok adi var (mountaineers / climbers / alpinists). Deprem yerlesimlere degil daga cikanlara zarar veriyor iddiasi kanit cumlesinin (G/2) tasidigi tek iddia oldugu icin, cerceve nasil yazilirsa yazilsin ayni kavram isteniyor; cerceve duzeltmesi cevaba erisemiyor. E6 onerisi: ayni cumlenin somut ayrintilari -- Yakutat'in cikis noktasi olarak kullanilmasi, ya da eskiden sabit olan yamaclarin gevsek enkaz ve yeni acilan buzla maskelenmesi."
+    },
+    {
+      "dosya": "content/reading/tests/AC4/sentence-completion.json",
+      "numara": 22,
+      "tip": "sentence_completion",
+      "pasaj": "A11",
+      "kacinilacak": {
+        "kanit_cumlesi": "The researchers suggest that snow itself may partly explain why vigour failed to rise after the forest visit, since a thick covering of snow hides the green vegetation that other studies have linked to increased energy and alertness, leaving only the calming, restorative effect intact rather than the more energising one.",
+        "ifade": "One explanation put forward for the absence of any rise in vigour is that a thick white layer conceals the green ........ which earlier work has tied to sharper alertness."
+      },
+      "neden_elendi": "Model parcasiz uc turun ikisinde birebir 'vegetation', birinde tam es anlamlisi 'foliage' verdi -- yani sizinti kelime duzeyinde bile neredeyse tam. Boslugun hedefi 'karin ortudugu yesillik' ve bunun Ingilizcede birden cok es adi var (vegetation / greenery / foliage / plant life). Kanit cumlesi (H/1) canliligin neden yukselmedigini yalniz bu tek nedenle acikliyor, dolayisiyla her cerceve 'kalin kar neyi gizler' sorusuna donuyor ve cevabi kendisi veriyor. E6 onerisi: ayni cumlenin son yarisi -- yalniz sakinlestirici etkinin ayakta kalmasi, canlandirici etkinin kalmamasi -- ya da H/2'deki orneklem sinirlari (tek kurum, kucuk orneklem, onerilen uc genisletme)."
+    },
+    {
+      "dosya": "content/reading/tests/GT1/sentence-completion.json",
+      "numara": 27,
+      "tip": "sentence_completion",
+      "pasaj": "G03",
+      "kacinilacak": {
+        "kanit_cumlesi": "Employees leaving the company are paid for any accrued but untaken leave as part of their final salary.",
+        "ifade": "Anyone who leaves the firm is given money for leave they had built up but never used, and this forms part of their (27) ........ ."
+      },
+      "neden_elendi": "Model parcasiz uc turda da 'final pay' verdi: cevabin ('final salary') ayirt edici sozcugunu ('final') birebir tutturdu, yalniz basi es anlamlisiyla degistirdi. Sizinti cerceveden degil eksenden geliyor: kanit cumlesi (B metni, D/2) 'isten ayrilan calisan kullanilmamis izninin karsiligini ne zaman alir' sorusuna cevap veriyor ve bu, calisma hayatinin standart uygulamasi -- ayrilista odenen sey son maastir. Ayrilma durumundan soz etmeyen bir cerceve kurmak mumkun degil, cunku kanit cumlesinin butun icerigi odur. E6 onerisi: ayni paragrafin birinci cumlesi -- en cok bes gunun yaziyla onay alinarak bir sonraki yila devredilebilmesi ve 31 Mart'ta yanmasi."
+    },
+    {
+      "dosya": "content/reading/tests/GT2/sentence-completion.json",
+      "numara": 25,
+      "tip": "sentence_completion",
+      "pasaj": "G04",
+      "kacinilacak": {
+        "kanit_cumlesi": "Employees who have completed their probationary period may apply to work remotely for up to three days per week, subject to line manager approval and the operational needs of their team.",
+        "ifade": "Staff can only ask to work from home once they have got through their (25) ........"
+      },
+      "neden_elendi": "Model parcasiz uc turda da 'probation period' verdi: ayni kelimenin baska cekimi, yani cevabin ('probationary period') ayirt edici ogesi tam olarak tutturuldu. Sorunun ekseni 'uzaktan calisma basvurusundan once neyin tamamlanmasi gerekir' ve bunun cevabi ise alma dunyasinin en yerlesik kuralidir; kanit cumlesi (B metni, A/1) baska hicbir on kosul icermiyor, dolayisiyla her cerceve ayni kavrami istiyor. E6 onerisi: ayni cumlenin sayisal siniri (haftada en cok uc gun) ya da A/2'deki musteriyle calisan roller istisnasi."
     }
   ]
 }
