@@ -42,26 +42,36 @@
       "items": [
         {
           "number": 1,
-          "prompt": "Readings taken here showed sound going beyond the level regarded as safe more frequently than anywhere else.",
+          "prompt": "Of the four, this was the only design whose satisfaction and productivity scores came out below those of the layout used for comparison.",
           "answer": [
-            "A"
+            "C"
           ],
-          "evidence": "Noise levels in the open-plan office exceeded recommended safe limits between 20 and 30 per cent more often than in any of the alternative designs.",
+          "evidence": "The activity-based design, despite its popularity in contemporary office trends, performed worse than the open-plan baseline on both measures, with satisfaction and productivity scores roughly 14 per cent lower.",
           "evidence_locator": {
-            "paragraph": "F",
-            "sentence": 2
+            "paragraph": "D",
+            "sentence": 3
           },
           "heading_check": null,
-          "feature_check": "Karıştırılabilecek öğe C: etraflarında sabit masası olmayan, ortak alanlara ve gelip geçen konuşmalara açık bir düzen sezgisel olarak en gürültülü seçenek gibi durur, üstelik C bütün ölçümlerde en kötü sonucu almış durumda. Ama pasaj gürültü ölçümünü tek bir cümlede veriyor ve orada karşılaştırmayı açıkça 'seçeneklerin herhangi birinden' diye kuruyor — yani C dahil bütün alternatiflerin üstünde kalan, karşılaştırma ölçütü olarak kullanılan sade açık ofis. B ve D de elenir: ikisi de ses yalıtımlı kapılar ya da sesi emen paneller sayesinde bu ölçümde daha iyi durumda.",
+          "feature_check": "Karistirilabilecek oge A: 'en kotu duzen sade acik ofistir' kanisi disaridan hazir geldigi icin aday once oraya bakiyor -- oysa A olcumun kendisine gore yapildigi duzen, yani kendi altina dusmesi tanimsiz. B ve D de elenir: D/2 ikisini de karsilastirma duzeninin ustune koyuyor (memnuniyette yuzde 12 ve yuzde 8 daha yuksek). Iki olcumde birden altina dusen tek duzen D/3'te veriliyor ve o duzen, pasajin 'gunumuz ofis modasinda populer olmasina ragmen' diye andigi etkinlik temelli tasarim. Disaridan getirilen sezgi burada bilerek yanlis yone gidiyor.",
           "grammar_check": null,
-          "explanation": "Paragraph F says that exceeding the safe limit was seen 20-30 per cent more often in the plain open-plan office than in any of the other layouts.",
+          "explanation": "Paragraph D says the activity-based design performed worse than the open-plan baseline on both measures, with satisfaction and productivity scores roughly 14 per cent lower.",
           "difficulty": "medium",
-          "status": "rejected",
-          "blind_solvable": true,
-          "blind_basis": "general_knowledge",
-          "flag_reason": "Cevap A (sade acik ofis) parcaya bakmadan da tahmin edilebiliyor: acik ofislerin oteki duzenlere gore daha gurultulu oldugu yaygin bir genel bilgi; soru dort duzenden en gurultulusunu sordugu icin bu bilgiyle dogrudan A'ya varilabiliyor.",
-          "flag_mechanism": "genel_kultur",
-          "reject_reason": "Sorunun ekseni ofis kulturu genel bilgisi: acik plan ofisin oteki duzenlerden daha gurultulu oldugu yaygin bir kani, soru da dort duzenden en gurultulusunu soruyor. Ifade nasil yazilirsa yazilsin cevap pasajdan degil bu kanidan cikiyor; kanit cumlesi (F/2) zaten yalniz 'hangisi en gurultuluydu' sorusunu destekliyor, baska bir eksene capalanamiyor."
+          "status": "verified",
+          "blind_solvable": null,
+          "blind_basis": null,
+          "generated_by": "opus",
+          "yeniden_uretim": {
+            "tarih": "2026-08-08",
+            "kaynak_prompt": "prompts/OPUS5-E6-yeniden-uretim.md (5/7)",
+            "uretilen_grup": "Cumle sonu esleystirme + ozellik esleystirme",
+            "eski_prompt": "Readings taken here showed sound going beyond the level regarded as safe more frequently than anywhere else.",
+            "eski_cevap": [
+              "A"
+            ],
+            "eski_kanit_cumlesi": "Noise levels in the open-plan office exceeded recommended safe limits between 20 and 30 per cent more often than in any of the alternative designs.",
+            "neden_elendi": "Sorunun ekseni ofis kulturu genel bilgisi: acik plan ofisin oteki duzenlerden daha gurultulu oldugu yaygin bir kani, soru da dort duzenden en gurultulusunu soruyor. Ifade nasil yazilirsa yazilsin cevap pasajdan degil bu kanidan cikiyor; kanit cumlesi (F/2) zaten yalniz 'hangisi en gurultuluydu' sorusunu destekliyor, baska bir eksene capalanamiyor.",
+            "ne_degisti": "Yuva bosaltilip ayni pasajdan yeni bir soruyla dolduruldu. Eski soru F/2'ye, gurultunun guvenli sinirini en cok asan duzene dayaniyordu; 'acik ofis en gurultuludur' yaygin kanisi cevabi pasajsiz veriyordu. Yeni kanit baska bir paragrafa (D/3) ve baska bir olcuye tasindi: iki anket olcumunde de karsilastirma duzeninin ALTINA dusen tek tasarim. Bu, disaridan beklenenin tersi bir bulgu oldugu icin genel kultur artik yanlis secenege (A) capalaniyor. Kip: ifade mutlak ('the only design')."
+          }
         },
         {
           "number": 2,
@@ -122,26 +132,36 @@
         },
         {
           "number": 5,
-          "prompt": "Once people had tried the alternatives, this was the arrangement they appeared least willing to go back to.",
+          "prompt": "Its part-enclosed spaces were screened by panels that absorbed sound rather than by doors.",
           "answer": [
-            "A"
+            "D"
           ],
-          "evidence": "Taken together, the researchers concluded that the open-plan office design, so often adopted as a cost-effective default, was rated more poorly by employees than every alternative tested, coincided with higher unsafe noise levels, and was the layout employees seemed least inclined to return to once they had experienced something else.",
+          "evidence": "Using a Latin square design, in which every team eventually experienced every condition but in a different order, the teams rotated through four distinct office layouts, each for a two-week period: a conventional open-plan office with minimal separation between desks, acting as the baseline; a zoned open-plan design with soundproof doors dividing spaces into rooms holding no more than 40 people; an activity-based design offering unassigned desks alongside dedicated focus rooms and collaboration areas; and a team-office design with large, partly enclosed cubicles seating four to six people behind sound-absorbing panels.",
           "evidence_locator": {
-            "paragraph": "H",
-            "sentence": 1
+            "paragraph": "B",
+            "sentence": 2
           },
-          "feature_check": "Karıştırılabilecek öğe C: puan tablosunda en kötü sonuç onda olduğu için 'kimsenin dönmek istemediği düzen' sezgisi adayı C'ye çekebilir. Ama geri dönme isteği ayrı bir bulgu: pasaj bunu yalnızca sade açık ofis için, hem masa doluluğundaki artışa hem de son değerlendirmeye dayanarak söylüyor; C için böyle bir davranış ölçümü verilmiyor.",
           "heading_check": null,
+          "feature_check": "Karistirilabilecek oge B: secenek adlarindan gidildiginde sezgi iki yone birden calisiyor -- 'zoned' sozcugu bolmeyi ve kapiyi, 'team office' sozcugu ise kabini ve paneli cagristiriyor, yani ad duzeyinde ayirt edici bir ipucu yok. Ayrim yalniz B/2'de: ses yalitimli KAPILAR bolgelere ayrilmis acik ofiste, sesi EMEN PANELLER takim ofisinde. A elenir, cunku karsilastirma duzeninde masalar arasinda neredeyse hic ayirici yok; C de elenir, orada sabit masa yerine serbest masa, ayri odaklanma odalari ve ortak calisma alanlari var, panelli kabin degil.",
           "grammar_check": null,
-          "explanation": "Paragraph H states that, after trying another layout, the plain open-plan office was the one employees were least willing to return to.",
-          "difficulty": "medium",
-          "status": "rejected",
-          "blind_solvable": true,
-          "blind_basis": "general_knowledge",
-          "flag_reason": "Cevap A yine genel ofis kulturu bilgisiyle tahmin edilebiliyor: calisanlarin en az geri donmek istedigi duzenin sade acik ofis olmasi, acik ofislerin memnuniyetsizlik yarattigina dair yaygin kaniyla ortusuyor; parcaya bakilmadan da beklenen sonuc bu.",
-          "flag_mechanism": "genel_kultur",
-          "reject_reason": "Sorunun ekseni yine acik plan ofis hakkindaki yaygin kani: calisanlarin en az geri donmek istedigi duzenin sade acik ofis olmasi beklenen sonuc. Kanit cumlesi (H/1) uc bulguyu birlikte veren bir ozet cumlesi ve ucu de ayni duzeni gosteriyor, yani ifadeyi baska bir ayrintiya tasimak da mumkun degil."
+          "explanation": "Paragraph B describes the team-office design as large, partly enclosed cubicles seating four to six people behind sound-absorbing panels, whereas the zoned open-plan design is divided by soundproof doors.",
+          "difficulty": "hard",
+          "status": "verified",
+          "blind_solvable": null,
+          "blind_basis": null,
+          "generated_by": "opus",
+          "yeniden_uretim": {
+            "tarih": "2026-08-08",
+            "kaynak_prompt": "prompts/OPUS5-E6-yeniden-uretim.md (5/7)",
+            "uretilen_grup": "Cumle sonu esleystirme + ozellik esleystirme",
+            "eski_prompt": "Once people had tried the alternatives, this was the arrangement they appeared least willing to go back to.",
+            "eski_cevap": [
+              "A"
+            ],
+            "eski_kanit_cumlesi": "Taken together, the researchers concluded that the open-plan office design, so often adopted as a cost-effective default, was rated more poorly by employees than every alternative tested, coincided with higher unsafe noise levels, and was the layout employees seemed least inclined to return to once they had experienced something else.",
+            "neden_elendi": "Sorunun ekseni yine acik plan ofis hakkindaki yaygin kani: calisanlarin en az geri donmek istedigi duzenin sade acik ofis olmasi beklenen sonuc. Kanit cumlesi (H/1) uc bulguyu birlikte veren bir ozet cumlesi ve ucu de ayni duzeni gosteriyor, yani ifadeyi baska bir ayrintiya tasimak da mumkun degil.",
+            "ne_degisti": "Yuva bosaltilip ayni pasajdan yeni bir soruyla dolduruldu. Eski soru H/1'e, 'calisanlarin en az geri donmek istedigi duzen' bulgusuna dayaniyordu; bu da acik ofis hakkindaki yaygin kaniyla birebir ortustugu icin pasajsiz cevaplanabiliyordu. Yeni kanit sonuc paragrafindan cikip yontem paragrafina (B/2) tasindi ve eksen bulgu degil, duzenin fiziksel tarifi oldu: kapi mi, ses emici panel mi. Iki secenek arasindaki bu ayrim disaridan bilinemez, cunku hangi tasarimin hangi engeli kullandigi keyfi bir tercih. Kip: ifade olculu-notr, mutlaklik tasimiyor."
+          }
         }
       ]
     },

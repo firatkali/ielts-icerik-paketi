@@ -782,3 +782,39 @@
   - dogrula.py: 12 tam test 40/40, sema hatasi 0, toplam soru 1310.
   - _e6_mc_alistirma_kontrol.py: hata 0.
   - isaretli (flagged)     33
+
+08.08.2026 07:13
+  - isaretli (flagged)     33
+
+08.08.2026  OPUS5-E6 5/7 - Ozellik esleystirme
+  - practice/matching-features.json #1 ve #5, AC1 #25, AC2 #24-25-26, AC4 #24
+    ayni dosyada ayni numarayla yeniden dolduruldu; soru silinmedi.
+  - [!] Elenen listesinde CUMLE SONU ESLEYSTIRME yuvasi yok; bu calistirmanin
+    kapsami yalniz ozellik esleystirmeydi (7 yuva). Bu tipte elenen yuva
+    kalmadi. Listede kalan toplam 47 -> 40 (hepsi tamamlama ailesi + TFNG +
+    kisa cevap; 6. ve 7. calistirmanin isi).
+  - [!] Iki dosyada SECENEK LISTESI degisti. AC1: gruplar artik bolme turuyle
+    degil asama/sira ile adlandiriliyor (E5'in onerisi; AC1 #26'nin sizintisi
+    da kapandi, ifade/cevap/kanit degismedi). AC2: yer listesi bugday
+    turlerine cevrildi, cunku yer secenekleri tur bakimindan heterojendi ve
+    her ifade tur elemesiyle cozuluyordu.
+  - [!] AC2 #23 kapsam disi bir yuvaydi ama secenek ekseni degistigi icin
+    zorunlu olarak yeniden yazildi (eski ifadesi bir YER sorusuydu). Numarasi
+    ve soru sayisi korundu; 3. calistirmanin revision kaydi
+    yeniden_uretim.onceki_revizyon altinda duruyor.
+  - [!] AC2 #23 bu setin en zayif halkasi: "iki ornek birden" kaydi, bes
+    secenek icinde tek kume secenegini isaret ediyor. E7 blind olcumunde
+    ozellikle baksin.
+  - [!] Kip imzasi: ifadelerin %62'si mutlak, %62'si olculu (esik %33).
+    Ozellik esleystirmede celdirici METNI olmadigi icin sayim ifadeler
+    uzerinden yapildi; secenek metinlerinin hicbiri kip tasimiyor.
+  - [!] Konumsal duzen: A sikki uc sette dogru cevap; en yuksek harf tekrari 2;
+    hicbir dogru cevap son paragrafa (H - sinirlilik beyanlari) demirlenmedi.
+  - [!] Ortak cumle: AC1 D/3 artik hem ozellik esleystirme #25 (oran) hem cumle
+    tamamlama #20 (terim) tarafindan kullaniliyor - ayni test icinde ayni
+    cumle. A02'de ilk asamaya ait baska capa kalmamisti.
+  - [!] Sonraki calistirmalara - bu adimda dolan cumleler: A10 B/2 + D/3,
+    A02 D/3, A05 B/2 + E/1 + F/2 + G/3, A11 E/4.
+  - dogrula.py: 12 tam test 40/40, sema hatasi 0, toplam soru 1310.
+  - _e6_mf_eslestirme_kontrol.py: hata 0.
+  - isaretli (flagged)     33

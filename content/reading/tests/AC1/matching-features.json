@@ -16,15 +16,15 @@
     "options": [
       {
         "key": "A",
-        "text": "the pairs kept behind a see-through screen before they met"
+        "text": "the pairs in the first of the two conditions used before they met"
       },
       {
         "key": "B",
-        "text": "the pairs kept behind a solid screen before they met"
+        "text": "the pairs in the second of the two conditions used before they met"
       },
       {
         "key": "C",
-        "text": "the pairs during their three days of daily meetings"
+        "text": "the pairs during the three days they spent together afterwards"
       },
       {
         "key": "D",
@@ -86,26 +86,37 @@
     },
     {
       "number": 25,
-      "prompt": "This group was given no way at all of sensing the other animal during the first stage.",
+      "prompt": "In this group the stronger animal of the pair took about three interactions in every four.",
       "answer": [
-        "B"
+        "C"
       ],
-      "evidence": "The other half were separated by an opaque divider and had no contact of any kind.",
+      "evidence": "Across these encounters a dominance hierarchy consistently emerged, with the stronger animal in each pair winning an average of seventy-six per cent of interactions, and physical contact and defensive ink-jetting both became less frequent as the three days went on and the pair grew more familiar with one another.",
       "evidence_locator": {
-        "paragraph": "C",
+        "paragraph": "D",
         "sentence": 3
       },
-      "feature_check": "Karıştırılabilecek öğe A: iki grup da ilk aşamada bir bölmeyle ayrılmış durumda, bu yüzden 'ayrı tutuldu' bilgisi tek başına ayırt etmiyor. Fark şurada: A grubundaki hayvanlar birbirini görebiliyor, yalnızca dokunma ve koku engelli; hiçbir duyuyla algılayamama yalnızca ışık geçirmeyen bölmenin ardındaki gruba ait.",
+      "heading_check": null,
+      "feature_check": "Karistirilabilecek ogeler D ve E: yedinci gunun iki bulusma turunde de kimin ustun geldigi kaydediliyor, ustelik F/4 yabanci ciftlerde on iki eslesmenin sekizinde ustunlugun el degistirdigini soyluyor -- yani 'ustun taraf' olcusu o iki gruba da yakisiyor. Ama yuzde yetmis alti orani yalniz D/3'te, uc gunluk birlikte yasama doneminde veriliyor; yedinci gun icin boyle bir oran hic verilmiyor. A ve B elenir: o iki grup ilk asamada bolmenin ardinda ayri tutuluyor, aralarinda sayilacak bir alisveris olmuyor.",
       "grammar_check": null,
-      "explanation": "Paragraph C says the second half of the pairs were separated by an opaque divider and had no contact of any kind.",
-      "difficulty": "easy",
-      "status": "rejected",
-      "blind_solvable": true,
-      "blind_basis": "option_wording",
-      "flag_reason": "Ifadedeki 'no way at all of sensing' (hicbir sekilde algilayamama) mutlak ifadesi, secenek metninde yalniz B'nin 'solid screen' (isik gecirmez bolme) tanimiyla ortusuyor; A'daki 'see-through screen' gorme yoluyla algilamaya izin verdigi icin bu mutlakliga uymuyor.",
-      "flag_mechanism": "kip_imzasi",
-      "review_note": "Sizinti ifadenin kipinde degil, SECENEK LISTESININ kendisinde: kanit cumlesi (C/3) yalniz bolmenin isik gecirip gecirmedigini soyluyor, secenek metinleri de gruplari tam olarak bu ozellikle adlandiriyor ('see-through screen' / 'solid screen'). Ilk asamayla ilgili her ifade bu yuzden sozcuk duzeyinde cozuluyor. Duzeltmek icin ya kanit cumlesini ya da secenek listesini degistirmek gerekir; talimat ikisini de bu adimin disinda biraktigi icin soru oldugu gibi kaldi. E6'nin yeniden uretim kapsamina alinmasi ve gruplarin bolme turuyle degil asama/sira ile adlandirilmasi yerinde olur.",
-      "reject_reason": "3. calistirma bu soruyu dokunulmadan birakmis ve gerekcesini review_note alanina yazmisti: sizinti ifadenin kipinde degil, kanit cumlesi ile secenek listesinin arasinda. Kanit cumlesi (C/3) yalniz bolmenin isik gecirip gecirmedigini soyluyor, secenek metinleri de iki grubu tam olarak bu ozellikle adlandiriyor (see-through screen / solid screen); ilk asamayla ilgili nasil yazilirsa yazilsin her ifade bu iki etiketten birine sozcuk duzeyinde baglaniyor. Duzeltmek icin ya kanit cumlesini ya secenek listesini degistirmek gerekiyor, talimat ikisini de yarim duzeltme saydigi icin yuva bu calistirmada elenenlere alindi. E6 icin en temiz cozum secenek listesini bolme turuyle degil asama/sira ile adlandirmak (ornegin 'ilk uc gunu ayri geciren birinci yari'); bu, AC1-26'yi da guclendirir."
+      "explanation": "Paragraph D says that across the three days of cohabitation a dominance hierarchy emerged, with the stronger animal winning an average of seventy-six per cent of interactions.",
+      "difficulty": "medium",
+      "status": "verified",
+      "blind_solvable": null,
+      "blind_basis": null,
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-08",
+        "kaynak_prompt": "prompts/OPUS5-E6-yeniden-uretim.md (5/7)",
+        "uretilen_grup": "Cumle sonu esleystirme + ozellik esleystirme",
+        "eski_prompt": "This group was given no way at all of sensing the other animal during the first stage.",
+        "eski_cevap": [
+          "B"
+        ],
+        "eski_kanit_cumlesi": "The other half were separated by an opaque divider and had no contact of any kind.",
+        "neden_elendi": "3. calistirma bu soruyu dokunulmadan birakmis ve gerekcesini review_note alanina yazmisti: sizinti ifadenin kipinde degil, kanit cumlesi ile secenek listesinin arasinda. Kanit cumlesi (C/3) yalniz bolmenin isik gecirip gecirmedigini soyluyor, secenek metinleri de iki grubu tam olarak bu ozellikle adlandiriyor (see-through screen / solid screen); ilk asamayla ilgili nasil yazilirsa yazilsin her ifade bu iki etiketten birine sozcuk duzeyinde baglaniyor. Duzeltmek icin ya kanit cumlesini ya secenek listesini degistirmek gerekiyor, talimat ikisini de yarim duzeltme saydigi icin yuva bu calistirmada elenenlere alindi. E6 icin en temiz cozum secenek listesini bolme turuyle degil asama/sira ile adlandirmak (ornegin 'ilk uc gunu ayri geciren birinci yari'); bu, AC1-26'yi da guclendirir.",
+        "ne_degisti": "Sizinti sorunun kipinde degil, secenek listesindeydi: A ve B gruplari 'see-through screen' ve 'solid screen' diye, yani tam da kanit cumlesinin (C/3) soyledigi ozellikle adlandirilmisti; ilk asamayla ilgili her ifade bu iki etiketten birine sozcuk duzeyinde bagliydi. E5'in onerisi uygulandi: A ve B artik bolme turuyle degil SIRAYLA adlandiriliyor ('ilk / ikinci kosul'), C ise 'gunluk bulusmalar' yerine 'sonraki uc gun' oldu. Yuvanin kendisi de C/3'ten tumden cikarilip D/3'teki keyfi bir oran uzerine kuruldu: ustun hayvanin etkilesimlerin yaklasik dortte ucunu kazanmasi. Kip: ifade olculu ('about'). Not: ayni cumleyi AC1 cumle tamamlama 20 de kullaniyor, ama orada hedef terimin kendisi ('dominance hierarchy'), burada oran; ortak cumle NOTLAR.md'de kaydedildi.",
+        "onceki_review_note": "Sizinti ifadenin kipinde degil, SECENEK LISTESININ kendisinde: kanit cumlesi (C/3) yalniz bolmenin isik gecirip gecirmedigini soyluyor, secenek metinleri de gruplari tam olarak bu ozellikle adlandiriyor ('see-through screen' / 'solid screen'). Ilk asamayla ilgili her ifade bu yuzden sozcuk duzeyinde cozuluyor. Duzeltmek icin ya kanit cumlesini ya da secenek listesini degistirmek gerekir; talimat ikisini de bu adimin disinda biraktigi icin soru oldugu gibi kaldi. E6'nin yeniden uretim kapsamina alinmasi ve gruplarin bolme turuyle degil asama/sira ile adlandirilmasi yerinde olur."
+      }
     },
     {
       "number": 26,
@@ -118,7 +129,7 @@
         "paragraph": "H",
         "sentence": 3
       },
-      "feature_check": "Karistirilabilecek ogeler B ve C. B: hicbir duyuya izin verilmeyen grup, sezgisel olarak 'en zayif fark' beklenen yer - oysa pasaj zayif ama olculebilir farki gorme izni olan gruba bagliyor. C: uc gunluk birliktelikte de degisimler kaydediliyor, ama H/3'un sozunu ettigi asama alistirma asamasi. Cevap ancak H/3 okunarak A'ya gidiyor.",
+      "feature_check": "Karistirilabilecek ogeler B ve C. B: ilk asamanin ikinci kosulunda hicbir duyuya izin verilmiyor, sezgisel olarak 'en zayif fark' orada beklenir -- oysa pasaj zayif ama olculebilir farki, yalnizca gormeye izin verilen ilk kosula bagliyor. C: uc gunluk birliktelikte de degisimler kaydediliyor, ama H/3'un sozunu ettigi asama alistirma asamasi, yani bulusma oncesi donem. Cevap ancak once C/2 (ilk kosulda gorme var, dokunma ve koku yok), sonra H/3 okunarak A'ya gidiyor.",
       "grammar_check": null,
       "explanation": "Paragraph H says that vision alone, without touch or water-borne chemical cues, produced weaker measurable differences at the earlier stage, which is why the team concludes that sight and physical contact together most likely underlie recognition.",
       "difficulty": "hard",
@@ -132,7 +143,8 @@
         "mekanizma": "kip_imzasi",
         "onceki_prompt": "For this group, being able to see the other animal was on its own not enough to make a strong difference later on.",
         "ne_degisti": "Ifadeden 'gormek' sozcugu tumden cikarildi. Eski metin ('being able to see ... on its own') seffaf bolme seceneginin adiyla birebir esleseyip cevabi sozcuk duzeyinde veriyordu. Yeni ifade sonucun buyuklugunu soruyor; yuzeydeki sezgi B'ye, dogru cevap A'ya gidiyor."
-      }
+      },
+      "review_note": "OPUS5-E6 5/7: secenek listesi degistigi icin bu yuvanin kip/secenek sizintisi kapandi. Eski listede yalniz A 'see-through screen' diye adlandirildigi icin 'tek basina gormek' diyen her ifade sozcuk duzeyinde A'ya bagliydi; yeni listede A ve B yalniz SIRAYLA aniliyor, dolayisiyla cozucu once C/2'yi okuyup ilk kosulun gorme izni veren kosul oldugunu bulmak, sonra H/3'e gitmek zorunda. Ifade, cevap ve kanit degismedi."
     }
   ]
 }

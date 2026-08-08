@@ -9,128 +9,173 @@
   "passage_id": "A05",
   "question_type": "matching_features",
   "generated_by": "fable",
-  "instructions": "Look at the following statements and the list of places below.\n\nMatch each statement with the correct place, A-E.\nWrite the correct letter, A-E, in boxes 23-26 on your answer sheet.",
+  "instructions": "Look at the following statements and the list of wheat types below.\n\nMatch each statement with the correct type, A-E.\nWrite the correct letter, A-E, in boxes 23-26 on your answer sheet.\n\nNB You may use any letter more than once.",
   "option_list": {
-    "label": "List of Places",
+    "label": "List of Wheat Types",
     "numbering": "letter",
     "options": [
       {
         "key": "A",
-        "text": "Çatalhöyük"
+        "text": "hexaploid wheat"
       },
       {
         "key": "B",
-        "text": "Karacadağ"
+        "text": "einkorn"
       },
       {
         "key": "C",
-        "text": "the Fertile Crescent"
+        "text": "emmer"
       },
       {
         "key": "D",
-        "text": "Europe"
+        "text": "the simpler wheats"
       },
       {
         "key": "E",
-        "text": "the United Kingdom"
+        "text": "spelt"
       }
     ]
   },
   "example": null,
-  "allow_repeat": false,
+  "allow_repeat": true,
   "items": [
     {
       "number": 23,
-      "prompt": "Wheat found at this place had come through the centuries in better condition than grain of the same age recovered elsewhere.",
+      "prompt": "Grain shape alone had placed both of the main samples among wheats of this kind before any DNA was read.",
       "answer": [
-        "A"
+        "D"
       ],
-      "evidence": "Among the many finds recovered from the site were charred grains of wheat, unusually well preserved compared with plant remains from other ancient sites of similar age.",
+      "evidence": "The two main samples analysed had originally been classified, from their shape alone, as einkorn and emmer, both simpler wheats.",
       "evidence_locator": {
-        "paragraph": "B",
+        "paragraph": "E",
         "sentence": 1
       },
-      "feature_check": "Karistirilabilecek oge C: en eski bugday bulgulariyla anilan bolge oldugu icin 'iyi korunmus tane' ifadesi sezgisel olarak oraya cekiyor. Ama pasaj C'yi yalniz ehlilestirmenin izlendigi bolge olarak aniyor, oradan cikan tanelerden hic soz etmiyor; korunma karsilastirmasi B/1'de yalniz kazi yerine bagli. B ve E de elenir: B ekimin baslangic yeri, E yalnizca cozumlemenin yapildigi ulke.",
+      "heading_check": null,
+      "feature_check": "Karistirilabilecek ogeler B ve C: ayni cumle iki ornegi einkorn ve emmer diye tek tek adlandirdigi icin iki secenek de dogruymus gibi duruyor. Ama ifade IKI ornegi birden ayni kumeye koyuyor ve pasaj o ortak kumeyi 'both simpler wheats' diye adlandiriyor -- tek bir tur degil, basit bugdaylar butunu. A ve E elenir: ikisi de tane bicimine degil, DNA okunduktan sonra cikan sonuclara bagli (A icin B/2 ve G/3, E icin F/1-2).",
       "grammar_check": null,
-      "explanation": "Paragraph B says that the charred wheat grains recovered from the site were unusually well preserved compared with plant remains from other ancient sites of similar age.",
-      "difficulty": "easy",
+      "explanation": "Paragraph E says the two main samples had originally been classified, from their shape alone, as einkorn and emmer, both simpler wheats.",
+      "difficulty": "medium",
       "status": "verified",
       "blind_solvable": null,
-      "blind_basis": "logic",
-      "flag_reason": "Cevap A, secenekler arasinda elemeyle bulunuyor: B yalniz einkorn ekiminin baslangic yeri olarak aniliyor, oradan tohum ciktigi soylenmiyor; E'de sadece inceleme yapiliyor, tohum yok -- yalniz A'da hem kazidan cikan taneler hem de bunlarin iyi korunmus olmasi birlikte geciyor.",
-      "flag_mechanism": "konumsal_duzen",
-      "revision": {
+      "blind_basis": null,
+      "generated_by": "opus",
+      "yeniden_uretim": {
         "tarih": "2026-08-08",
-        "mekanizma": "konumsal_duzen",
-        "onceki_prompt": "The seeds the team worked on had lasted better here than plant remains of much the same age found elsewhere.",
-        "ne_degisti": "Ifadeden 'ekibin uzerinde calistigi tohumlar' kaydi cikarildi; bu kayit dogrudan calismanin kazi yerini isaret ediyordu. Yeni ifade yalniz korunma karsilastirmasini soruyor, boylece sezgi Bereketli Hilal'e (C) kayiyor ve dogru cevap ancak B/1'den cikiyor."
+        "kaynak_prompt": "prompts/OPUS5-E6-yeniden-uretim.md (5/7)",
+        "uretilen_grup": "Cumle sonu esleystirme + ozellik esleystirme",
+        "eski_prompt": "Wheat found at this place had come through the centuries in better condition than grain of the same age recovered elsewhere.",
+        "eski_cevap": [
+          "A"
+        ],
+        "eski_kanit_cumlesi": "Among the many finds recovered from the site were charred grains of wheat, unusually well preserved compared with plant remains from other ancient sites of similar age.",
+        "neden_elendi": null,
+        "ne_degisti": "Bu yuva E5 listesinde YOK; secenek listesi bugday turlerine cevrildigi icin zorunlu olarak yeniden yazildi. Eski soru bir YER sorusuydu (B/1: tanelerin baska kazilardakinden iyi korunmus olmasi) ve yeni listede karsiligi kalmiyordu. Eski cevabin ekseni de listenin kendisiyle cozuluyordu: bes secenekten yalniz biri kazi yeri oldugu icin 'buradan tane cikti' diyen her ifade tur elemesiyle bulunuyordu. Yeni soru ayni pasajdan, E/1'den yazildi ve dogru cevap ancak 'iki ornek birden' kaydinin okunmasiyla bulunuyor.",
+        "onceki_revizyon": {
+          "tarih": "2026-08-08",
+          "mekanizma": "konumsal_duzen",
+          "onceki_prompt": "The seeds the team worked on had lasted better here than plant remains of much the same age found elsewhere.",
+          "ne_degisti": "Ifadeden 'ekibin uzerinde calistigi tohumlar' kaydi cikarildi; bu kayit dogrudan calismanin kazi yerini isaret ediyordu. Yeni ifade yalniz korunma karsilastirmasini soruyor, boylece sezgi Bereketli Hilal'e (C) kayiyor ve dogru cevap ancak B/1'den cikiyor."
+        }
       }
     },
     {
       "number": 24,
-      "prompt": "The beginnings of growing the simpler wheats, some twelve thousand years back, are conventionally placed in this wide area.",
+      "prompt": "The team's evidence is put forward, cautiously, as the first genetic sign that a wheat of this kind was present in the Neolithic Near East.",
       "answer": [
-        "C"
+        "E"
       ],
-      "evidence": "Simple wheat domestication is usually traced to the Fertile Crescent around twelve thousand years ago, with the region of Karacadağ in southern Turkey generally credited as the birthplace of einkorn cultivation specifically.",
+      "evidence": "The researchers interpret this as evidence of an early, transitional stage in the cultivation of hexaploid wheat, and note that this is the first genetic evidence hinting at the presence of a spelt-like wheat in the Neolithic Near East at all, a possibility they treat cautiously given how limited the surviving evidence is.",
       "evidence_locator": {
-        "paragraph": "G",
+        "paragraph": "F",
         "sentence": 2
       },
-      "feature_check": "Karıştırılabilecek öğe B: iki yer de aynı cümlede, ikisi de bir başlangıç iddiasıyla anılıyor, üstelik B basit buğdaylardan birinin yurdu sayılıyor — bu yüzden 24 ile 25 birbirine çok yakın duruyor. Ayrım genişlikte: basit buğday ehlileştirmesinin bütünü geniş bir bölgeye, yani C'ye bağlanıyor; B ise 'özellikle' tek bir buğdayın ekiminin doğduğu daha dar bir yer olarak veriliyor.",
+      "heading_check": null,
+      "feature_check": "Karistirilabilecek oge A: ayni cumle once hexaploid bugdayin ekiminde erken bir gecis asamasindan soz ediyor, bu yuzden 'ilk genetik isaret' kaydi ona da yakisiyor. Ama cumle 'ilk kez' iddiasini acikca spelt benzeri bugdayin varligina bagliyor ve 'at all' diyerek bunu ayirt ediyor; hexaploid icin soylenen sey ilk kanit degil, gecis asamasi yorumu. B, C ve D elenir: basit bugdaylarin Neolitik Yakin Dogu'da bulunmasi zaten beklenen durum, pasaj onlar icin boyle bir ilk iddiasinda bulunmuyor.",
       "grammar_check": null,
-      "explanation": "Paragraph G says that the domestication of simple wheat is usually traced back to the Fertile Crescent around twelve thousand years ago.",
+      "explanation": "Paragraph F says this is the first genetic evidence hinting at the presence of a spelt-like wheat in the Neolithic Near East at all, a possibility the researchers treat cautiously.",
       "difficulty": "hard",
-      "status": "rejected",
-      "blind_solvable": true,
-      "blind_basis": "option_wording",
-      "flag_reason": "Metinde C 'generally traced' (genel olarak) bir bolgeye, B ise 'specifically' (ozellikle) tek bir bugday turune bagliyor; ifadenin sordugu 'basit bugdaylarin basi' butun basit bugdaylari kapsayan genis bir konu oldugu icin bu kapsam farki C'yi dogru birakiyor.",
-      "flag_mechanism": "kip_imzasi",
-      "reject_reason": "Sorunun ekseni dunya tarihi genel bilgisi: basit bugdaylarin yaklasik on iki bin yil once Bereketli Hilal'de ehlilestirildigi, okul duzeyinde bilinen en yaygin tarih onermelerinden biri. Kanit cumlesi (G/2) yalniz bu onermeyi tasiyor; kapsam sozcuklerini ('genis alan') temizlemek ekseni degistirmiyor, cevap yine bes secenek icinden genel bilgiyle secilebiliyor."
+      "status": "verified",
+      "blind_solvable": null,
+      "blind_basis": null,
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-08",
+        "kaynak_prompt": "prompts/OPUS5-E6-yeniden-uretim.md (5/7)",
+        "uretilen_grup": "Cumle sonu esleystirme + ozellik esleystirme",
+        "eski_prompt": "The beginnings of growing the simpler wheats, some twelve thousand years back, are conventionally placed in this wide area.",
+        "eski_cevap": [
+          "C"
+        ],
+        "eski_kanit_cumlesi": "Simple wheat domestication is usually traced to the Fertile Crescent around twelve thousand years ago, with the region of Karacadağ in southern Turkey generally credited as the birthplace of einkorn cultivation specifically.",
+        "neden_elendi": "Sorunun ekseni dunya tarihi genel bilgisi: basit bugdaylarin yaklasik on iki bin yil once Bereketli Hilal'de ehlilestirildigi, okul duzeyinde bilinen en yaygin tarih onermelerinden biri. Kanit cumlesi (G/2) yalniz bu onermeyi tasiyor; kapsam sozcuklerini ('genis alan') temizlemek ekseni degistirmiyor, cevap yine bes secenek icinden genel bilgiyle secilebiliyor.",
+        "ne_degisti": "Eski soru G/2'ye dayaniyordu: basit bugday ehlilestirmesinin yaklasik on iki bin yil once Bereketli Hilal'de baslamasi. Bu ders kitabi duzeyinde bir tarih onermesi oldugu icin cevap pasajsiz da bulunuyordu. Yeni kanit hem baska bir paragrafa (F/2) hem de bambaska bir eksene tasindi: arastirmacilarin hangi bulguyu 'ilk' ve 'ihtiyatla' diye nitelendirdigi. Secenek listesi de yer adlarindan bugday turlerine cevrildigi icin, eski sorunun dayandigi 'genis bolge / dar bolge' ayrimi artik yok. Kip: ifade olculu ('cautiously')."
+      }
     },
     {
       "number": 25,
-      "prompt": "One simple wheat in particular is usually said to have first been brought into cultivation here.",
+      "prompt": "Under magnification, some of the charred grains had looked as though they were this type.",
       "answer": [
-        "B"
+        "A"
       ],
-      "evidence": "Simple wheat domestication is usually traced to the Fertile Crescent around twelve thousand years ago, with the region of Karacadağ in southern Turkey generally credited as the birthplace of einkorn cultivation specifically.",
+      "evidence": "Some of these seeds looked, under the microscope, as though they belonged to hexaploid wheat, a genetically more complex form carrying six sets of chromosomes rather than the two or four sets typical of the simpler wheats usually associated with the earliest stages of farming.",
       "evidence_locator": {
-        "paragraph": "G",
+        "paragraph": "B",
         "sentence": 2
       },
-      "feature_check": "Karıştırılabilecek öğe C: aynı cümlede geçtikleri ve ikisi de köken iddiası taşıdığı için aday C'yi seçebilir. Ama C'ye bağlanan, basit buğdayların ehlileştirilmesinin geneli; tek bir buğdayın, einkorn'un ekiminin doğduğu yer olarak 'özellikle' anılan B. A da elenir: orada bulunan buğdayın ekildiği değil, karmaşık genetiğinin beklenenden erken göründüğü söyleniyor.",
+      "heading_check": null,
+      "feature_check": "Karistirilabilecek ogeler B, C ve D: bicime bakan siniflandirma iki ana ornegi basit bugdaylara koydugu icin (E/1) aday mikroskop altindaki gorunumu de o tarafa baglayabilir -- ustelik 23. soru tam olarak bunu soyluyor. Ayrim B/2'de: bazi taneler mikroskop altinda alti kromozom takimi tasiyan daha karmasik forma ait gibi durmus, basit bugdaylar ise iki ya da dort takim tasiyor. E elenir, cunku spelt adi ancak modern turlerle karsilastirmadan sonra, F paragrafinda geciyor; mikroskop asamasinda boyle bir ad hic anilmiyor.",
       "grammar_check": null,
-      "explanation": "Paragraph G says that the Karacadağ region in southern Turkey is credited specifically as the birthplace of einkorn cultivation.",
+      "explanation": "Paragraph B says that under the microscope some of the charred seeds looked as though they belonged to hexaploid wheat, a form carrying six sets of chromosomes.",
       "difficulty": "hard",
-      "status": "rejected",
-      "blind_solvable": true,
-      "blind_basis": "general_knowledge",
-      "flag_reason": "Cevap B, Karacadag'in ozellikle einkorn bugdayinin ekiminin dogdugu yer olarak arkeolojide anilan bilinen, spesifik bir bilgi olmasi sayesinde (Bereketli Hilal'in daha genis bolge olmasindan ayri) parcaya bakmadan da tahmin edilebiliyor.",
-      "flag_mechanism": "genel_kultur",
-      "reject_reason": "Sorunun ekseni arkeoloji genel bilgisi: Karacadag'in einkorn ekiminin dogdugu yer olarak anilmasi, ayni kanit cumlesinde duran ve alanin disindan da bilinen spesifik bir bilgi. Kanit cumlesi degismeden ifadenin dayanabilecegi baska bir ayrinti yok."
+      "status": "verified",
+      "blind_solvable": null,
+      "blind_basis": null,
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-08",
+        "kaynak_prompt": "prompts/OPUS5-E6-yeniden-uretim.md (5/7)",
+        "uretilen_grup": "Cumle sonu esleystirme + ozellik esleystirme",
+        "eski_prompt": "One simple wheat in particular is usually said to have first been brought into cultivation here.",
+        "eski_cevap": [
+          "B"
+        ],
+        "eski_kanit_cumlesi": "Simple wheat domestication is usually traced to the Fertile Crescent around twelve thousand years ago, with the region of Karacadağ in southern Turkey generally credited as the birthplace of einkorn cultivation specifically.",
+        "neden_elendi": "Sorunun ekseni arkeoloji genel bilgisi: Karacadag'in einkorn ekiminin dogdugu yer olarak anilmasi, ayni kanit cumlesinde duran ve alanin disindan da bilinen spesifik bir bilgi. Kanit cumlesi degismeden ifadenin dayanabilecegi baska bir ayrinti yok.",
+        "ne_degisti": "Eski soru da G/2'ye dayaniyordu: Karacadag'in einkorn ekiminin dogdugu yer olarak anilmasi. Bu, alan disindan da bilinen spesifik bir arkeoloji bilgisi. Yeni kanit B/2'ye tasindi ve eksen bir yer iddiasindan tane gorunumune gecti: tanelerin mikroskop altinda hangi forma benzedigi disaridan bilinemez. Kip: ifade olculu ('some', 'as though')."
+      }
     },
     {
       "number": 26,
-      "prompt": "Ways of farming are described as having carried on towards this area along the routes the settlement stood on.",
+      "prompt": "The sequences recovered from the settlement suggest this form may have arisen earlier, and further from the usual heartland, than researchers had thought.",
       "answer": [
-        "D"
+        "A"
       ],
-      "evidence": "What set the site apart was its scale: at a time when most human communities were still small and mobile, Çatalhöyük had grown into a dense, town-like settlement, sitting on routes that would later carry farming practices onward into Europe.",
+      "evidence": "Finding genetic traces of hexaploid wheat at Çatalhöyük this early suggests that the more advanced, six-chromosome form of wheat may have emerged sooner, and further from the traditional Fertile Crescent core, than researchers had assumed, with Çatalhöyük potentially serving as a staging point on its spread toward Europe.",
       "evidence_locator": {
-        "paragraph": "A",
+        "paragraph": "G",
         "sentence": 3
       },
-      "feature_check": "Karıştırılabilecek öğe C: tarımın Bereketli Hilal'den yayıldığı bilgisi pasajda var, bu yüzden 'yayılmanın gittiği yer' sorulunca aday oraya bakabilir. Ama C yayılmanın çıkış noktası olarak anılıyor, varış yönü olarak değil; hem A hem G paragrafı yolun ucunda D'yi gösteriyor (yerleşim, yayılmada bir durak).",
+      "heading_check": null,
+      "feature_check": "Karistirilabilecek oge E: F/1 eski dizilerin modern hexaploid turlere, bu arada spelt gibi kavuzlu turlere benzedigini soyledigi icin 'daha erken ortaya cikmis olabilir' kaydi spelt'e de yakisiyor. Ama G/3 yorumunu acikca alti kromozom takimli forma bagliyor; spelt icin soylenen sey erken cikis degil, benzerlik. B, C ve D elenir: basit bugdaylarin erken oldugu zaten standart anlatinin kendisi, pasajin sasirtici buldugu sey bu degil.",
       "grammar_check": null,
-      "explanation": "Paragraph A says that the routes the settlement stood on would later carry farming practices onward into Europe; paragraph G also treats the settlement as a staging point in this spread.",
+      "explanation": "Paragraph G says that finding genetic traces of hexaploid wheat at the site this early suggests the six-chromosome form may have emerged sooner, and further from the traditional core, than researchers had assumed.",
       "difficulty": "medium",
-      "status": "rejected",
-      "blind_solvable": true,
-      "blind_basis": "general_knowledge",
-      "flag_reason": "Cevap D, tarimin Bereketli Hilal'den zamanla Avrupa'ya yayildigi bilgisinin arkeoloji/tarih derslerinde yaygin bilinen bir anlati olmasi sayesinde parcaya bakmadan da tahmin edilebiliyor.",
-      "flag_mechanism": "genel_kultur",
-      "reject_reason": "Sorunun ekseni tarimin Bereketli Hilal'den Avrupa'ya yayildigi anlatisi; bu anlati ders kitabi duzeyinde bilindigi icin 'yayilmanin gittigi yon' sorusunun cevabi secenekler arasinda pasaja bakmadan bulunabiliyor. Kanit cumlesi (A/3) yolun ucundaki yeri adlandirmaktan baska bir sey soylemiyor."
+      "status": "verified",
+      "blind_solvable": null,
+      "blind_basis": null,
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-08",
+        "kaynak_prompt": "prompts/OPUS5-E6-yeniden-uretim.md (5/7)",
+        "uretilen_grup": "Cumle sonu esleystirme + ozellik esleystirme",
+        "eski_prompt": "Ways of farming are described as having carried on towards this area along the routes the settlement stood on.",
+        "eski_cevap": [
+          "D"
+        ],
+        "eski_kanit_cumlesi": "What set the site apart was its scale: at a time when most human communities were still small and mobile, Çatalhöyük had grown into a dense, town-like settlement, sitting on routes that would later carry farming practices onward into Europe.",
+        "neden_elendi": "Sorunun ekseni tarimin Bereketli Hilal'den Avrupa'ya yayildigi anlatisi; bu anlati ders kitabi duzeyinde bilindigi icin 'yayilmanin gittigi yon' sorusunun cevabi secenekler arasinda pasaja bakmadan bulunabiliyor. Kanit cumlesi (A/3) yolun ucundaki yeri adlandirmaktan baska bir sey soylemiyor.",
+        "ne_degisti": "Eski soru A/3'e dayaniyordu: yerlesimin uzerinde bulundugu yollarin tarim uygulamalarini Avrupa'ya tasimasi. Tarimin Bereketli Hilal'den Avrupa'ya yayildigi anlatisi ders kitabi duzeyinde bilindigi icin 'yayilmanin yonu' sorusu pasajsiz cevaplanabiliyordu. Yeni kanit G/3'un yon bildiren kismina degil, tarih ve uzaklik iddiasina baglandi ve cevap bir yer degil bir bugday turu oldu; boylece yayilma anlatisi sorunun disinda kaldi. Kip: ifade olculu ('may')."
+      }
     }
   ]
 }

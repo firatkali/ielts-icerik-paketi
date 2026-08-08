@@ -44,8 +44,10 @@ def main():
     ifadeler = {}
     for rel in sorted(set(r for r, _ in HEDEF)):
         q = json.load(open(os.path.join(KOK, rel.replace("/", os.sep)), encoding="utf-8"))
-        for it in q["items"]:
-            ifadeler[(rel, it["number"])] = it["prompt"]
+        # Bazi soru dosyalari (esleystirme paketleri) yuvalari gruplar altinda tutar.
+        for g in (q["groups"] if "groups" in q else [q]):
+            for it in g["items"]:
+                ifadeler[(rel, it["number"])] = it["prompt"]
 
     n = 0
     for x in d["elenen"]:

@@ -55,25 +55,36 @@
     },
     {
       "number": 24,
-      "prompt": "Most of the unpleasant states it measures eased after the time among the trees.",
+      "prompt": "Of the four, this one puts the fewest questions to participants, two fewer than the next shortest.",
       "answer": [
-        "A"
+        "D"
       ],
-      "evidence": "After the forest exposure, five of the six negative mood states measured by the Profile of Mood States, tension-anxiety, anger-hostility, depression-dejection, fatigue and confusion, all decreased significantly.",
+      "evidence": "A six-item Restorative Outcome Scale assessed how mentally refreshing participants found the environment, and a four-item Subjective Vitality Scale measured their sense of energy.",
       "evidence_locator": {
-        "paragraph": "F",
-        "sentence": 1
+        "paragraph": "E",
+        "sentence": 4
       },
-      "feature_check": "Karıştırılabilecek öğe B: o da olumsuz duyguları ölçüyor, bu yüzden 'hoş olmayan durumlar hafifledi' ifadesi ilk bakışta ikisine de yakışıyor — 24 asıl ayırt ediciliğini buradan alıyor. İki ipucu A'yı seçtiriyor: pasaj orman sonrası düşüşü açıkça 'Profile of Mood States ile ölçülen' durumlara bağlıyor (B'nin orman sonrası sonucu hiç verilmiyor, B yalnızca bina koşulunda anılıyor) ve 'çoğu' kaydı altı boyutun beşine oturuyor; B zaten iki uçlu tek bir ölçek, 'çoğu' orada karşılıksız kalıyor.",
+      "heading_check": null,
+      "feature_check": "Karistirilabilecek oge C: ayni cumlede gecen dinlendiricilik olcegi de kisa, alti maddelik; olceklerin adlari uzunluk hakkinda hicbir sey soylemedigi icin 'en kisa hangisi' sezgisi bu ikisi arasinda bolunuyor. Ayrim iki sayida: alti maddeye karsi dort madde, yani fark tam iki madde. A ve B elenir; E/2 ve E/3 onlari altmis bes ve yirmi madde olarak veriyor, ikisi de dortten uzun.",
       "grammar_check": null,
-      "explanation": "Paragraph F says that five of the six negative mood states recorded by this scale decreased significantly after the forest experience.",
-      "difficulty": "hard",
-      "status": "rejected",
-      "blind_solvable": true,
-      "blind_basis": "general_knowledge",
-      "flag_reason": "Cevap A, 'Profile of Mood States' (POMS) olceginin psikoloji arastirmalarinda alti ayri olumsuz duygu boyutu (gerginlik, ofke, depresyon, yorgunluk, kafa karisikligi, vb.) olcen yaygin bilinen standart bir arac olmasi sayesinde; ifadedeki 'cogunun hafiflemesi' altidan besinin duzelmesine dogal olarak oturuyor, bu genel bilgiyle parcaya bakmadan da tahmin edilebiliyor.",
-      "flag_mechanism": "genel_kultur",
-      "reject_reason": "Sorunun ekseni psikolojik olcme araclari genel bilgisi: Profile of Mood States'in alti ayri duygu boyutu olctugu yaygin bilinen bir bilgi ve ifadedeki 'olculen hos olmayan durumlarin cogu' kaydi altidan bese dogal olarak oturuyor. Kanit cumlesi (F/1) 'alti olumsuz duygu durumundan besi' kalibini tasidigi icin, ifade nasil yazilirsa yazilsin ayni arac bilgisine geri donuyor."
+      "explanation": "Paragraph E gives the Subjective Vitality Scale four items and the Restorative Outcome Scale six, so it is the shortest of the four instruments, by two items.",
+      "difficulty": "medium",
+      "status": "verified",
+      "blind_solvable": null,
+      "blind_basis": null,
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-08",
+        "kaynak_prompt": "prompts/OPUS5-E6-yeniden-uretim.md (5/7)",
+        "uretilen_grup": "Cumle sonu esleystirme + ozellik esleystirme",
+        "eski_prompt": "Most of the unpleasant states it measures eased after the time among the trees.",
+        "eski_cevap": [
+          "A"
+        ],
+        "eski_kanit_cumlesi": "After the forest exposure, five of the six negative mood states measured by the Profile of Mood States, tension-anxiety, anger-hostility, depression-dejection, fatigue and confusion, all decreased significantly.",
+        "neden_elendi": "Sorunun ekseni psikolojik olcme araclari genel bilgisi: Profile of Mood States'in alti ayri duygu boyutu olctugu yaygin bilinen bir bilgi ve ifadedeki 'olculen hos olmayan durumlarin cogu' kaydi altidan bese dogal olarak oturuyor. Kanit cumlesi (F/1) 'alti olumsuz duygu durumundan besi' kalibini tasidigi icin, ifade nasil yazilirsa yazilsin ayni arac bilgisine geri donuyor.",
+        "ne_degisti": "Eski soru F/1'e dayaniyordu: alti olumsuz duygu durumundan besinin orman sonrasi anlamli bicimde dusmesi. Profile of Mood States'in alti duygu boyutu olctugu psikolojide yaygin bilinen bir bilgi oldugu icin 'olculen hos olmayan durumlarin cogu' kaydi pasajsiz da o araca oturuyordu. Yeni kanit E/4'e tasindi ve eksen olcegin NE OLCTUGUNDEN kac maddeden olustuguna gecti; madde sayilari (alti ve dort) disaridan bilinemez, araclarin adlari da uzunluk hakkinda hicbir sey soylemez. Kip: ifade mutlak ('the fewest ... of the four')."
+      }
     },
     {
       "number": 25,
