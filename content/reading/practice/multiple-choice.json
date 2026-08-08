@@ -16,46 +16,56 @@
       "number": 1,
       "passage_id": "A02",
       "select_count": 1,
-      "prompt": "How were the octopuses matched into pairs?",
+      "prompt": "What does the writer say about the sixty octopuses collected for the study?",
       "options": [
         {
           "letter": "A",
-          "text": "Each pair held one male and one female."
+          "text": "Their weights varied by roughly a factor of ten."
         },
         {
           "letter": "B",
-          "text": "The two animals were close in weight."
+          "text": "Some of them weighed less than 100 grams."
         },
         {
           "letter": "C",
-          "text": "Animals caught in the same season went together."
+          "text": "Each tank was shared by four of the animals."
         },
         {
           "letter": "D",
-          "text": "Neighbours from the same stretch of seabed were paired."
+          "text": "Males made up more than two thirds of the whole sample."
         }
       ],
       "answer": [
-        "B"
+        "D"
       ],
-      "evidence": "The researchers collected sixty octopuses from the Bay of Naples over two summer seasons and formed twenty-four pairs, each matched so that the two animals differed in weight by no more than fifteen per cent.",
+      "evidence": "Individual octopuses ranged from 114 to 324 grams, and the sample of sixty animals included forty-two males and eighteen females.",
       "evidence_locator": {
         "paragraph": "B",
-        "sentence": 1
+        "sentence": 2
       },
       "distractor_analysis": {
-        "A": "Yakın ama eksik — pasaj altmış hayvanın kırk ikisinin erkek, on sekizinin dişi olduğunu söylüyor; bu sayılar her çiftin bir erkek bir dişiden oluşmasına zaten izin vermez ve eşleştirme ölçütü olarak yalnızca ağırlık veriliyor.",
-        "C": "Cazip ama yok — hayvanların iki yaz mevsimi boyunca toplandığı söyleniyor, ama toplanma mevsiminin eşleştirmede bir rol oynadığına dair hiçbir ifade yok.",
-        "D": "Yer değiştirme — komşuluk, H paragrafında doğadaki inlerin birbirine yakınlığını anlatmak için kullanılıyor; laboratuvarda çiftleri kurma ölçütü olarak değil."
+        "A": "Kapsam kaydirma -- B/2 agirlik araligini 114 ile 324 gram arasinda veriyor; en agir hayvan en hafifin yaklasik uc kati, on kati degil.",
+        "B": "Yakin ama eksik -- araligin alt ucu 114 gram, yani yuz gramin altinda tek bir ornek bile yok. Sinira yakin oldugu icin akla yatkin goruyor.",
+        "C": "Yer degistirme -- B/3 her ciftin kendi tankinda barindirildigini soyluyor, yani tank basina iki hayvan; dortlu gruplardan soz edilmiyor."
       },
-      "explanation": "Paragraph B says that in each of the twenty-four pairs, the two animals were matched so that they did not differ in weight by more than fifteen per cent.",
-      "difficulty": "easy",
-      "status": "rejected",
-      "blind_solvable": true,
-      "blind_basis": "general_knowledge",
-      "flag_reason": "Cevap B, bilimsel deneylerde denekleri eslestirirken en yaygin kullanilan olcutun agirlik olmasi genel bilgisiyle tahmin edilebiliyor; cinsiyet (A), toplanma mevsimi (C) ve komsuluk (D) daha az tipik eslestirme olcutleri, parcaya bakmadan da B en olasi secenek.",
-      "flag_mechanism": "genel_kultur",
-      "reject_reason": "Sorunun ekseni deney tasarimi genel bilgisi: hayvan deneylerinde deneklerin agirliga gore eslestirilmesi pasajdan bagimsiz bilinen standart bir uygulama. Cinsiyet, toplanma mevsimi ve komsuluk daha az tipik olcutler oldugu icin secenekler nasil yazilirsa yazilsin agirlik en olasi cevap kalir; kip dengelemesi ya da celdirici capalamasi bunu kapatmaz."
+      "explanation": "Paragraph B says the sample of sixty animals included forty-two males and eighteen females, so males accounted for more than two thirds of the total.",
+      "difficulty": "medium",
+      "status": "verified",
+      "blind_solvable": null,
+      "blind_basis": null,
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-08",
+        "kaynak_prompt": "prompts/OPUS5-E6-yeniden-uretim.md (4/7)",
+        "uretilen_grup": "Coktan secmeli - alistirma",
+        "eski_prompt": "How were the octopuses matched into pairs?",
+        "eski_cevap": [
+          "B"
+        ],
+        "eski_kanit_cumlesi": "The researchers collected sixty octopuses from the Bay of Naples over two summer seasons and formed twenty-four pairs, each matched so that the two animals differed in weight by no more than fifteen per cent.",
+        "neden_elendi": "Sorunun ekseni deney tasarimi genel bilgisi: hayvan deneylerinde deneklerin agirliga gore eslestirilmesi pasajdan bagimsiz bilinen standart bir uygulama. Cinsiyet, toplanma mevsimi ve komsuluk daha az tipik olcutler oldugu icin secenekler nasil yazilirsa yazilsin agirlik en olasi cevap kalir; kip dengelemesi ya da celdirici capalamasi bunu kapatmaz.",
+        "ne_degisti": "Yuva bosaltilip ayni pasajdan yeni bir soruyla dolduruldu. Eski soru B/1'e dayaniyordu: ahtapotlarin ciftlere nasil eslestirildigi. Hayvan deneylerinde deneklerin agirliga gore eslestirilmesi yontem bilgisinin kendisi oldugu icin 'agirlikca yakin' cevabi pasajsiz da cikiyordu. Yeni soru o cumleye hic degmiyor: kanit B/2'ye, orneklemin bilesimine tasindi. Kirk iki erkek ile on sekiz disi keyfi bir dagilim -- yabani yakalanan bir ahtapot orneklemi icin disaridan beklenen bir oran yok, cunku dengeli bir dagilim da esit olculude makuldu. Uc celdirici de ayni cumlenin sayilarini ya da B/3'un barindirma duzenini tersine ceviriyor; ustelik B secenegi ('yuz gramin altinda olanlar') gercek alt sinira bilerek yakin yazildi ki 'buyuk yuvarlak sayiyi sec' sezgisi yanlisa gitsin. Kip dengesi icin dogru secenek mutlak ('the whole sample'), iki celdirici olculu ('roughly', 'some') yazildi."
+      }
     },
     {
       "number": 2,
@@ -247,46 +257,56 @@
       "number": 6,
       "passage_id": "A05",
       "select_count": 1,
-      "prompt": "What distinguishes hexaploid wheat from the simpler wheats?",
+      "prompt": "What does the writer say about the sequences obtained at the two marker lengths?",
       "options": [
         {
           "letter": "A",
-          "text": "It survives burning better than other kinds."
+          "text": "Only about half as many sequences came from the second length."
         },
         {
           "letter": "B",
-          "text": "It can be recognised by grain shape."
+          "text": "Most of the unrecorded variants appear to have come from the second length."
         },
         {
           "letter": "C",
-          "text": "It ripens later than the wheats then grown."
+          "text": "The variants found at the first length were generally ones already on record."
         },
         {
           "letter": "D",
-          "text": "It carries more sets of chromosomes."
+          "text": "Each length produced much the same number of distinct variants."
         }
       ],
       "answer": [
-        "D"
+        "A"
       ],
-      "evidence": "Some of these seeds looked, under the microscope, as though they belonged to hexaploid wheat, a genetically more complex form carrying six sets of chromosomes rather than the two or four sets typical of the simpler wheats usually associated with the earliest stages of farming.",
+      "evidence": "Of the sequences obtained at one marker length, twenty-two in all, seventeen distinct genetic variants emerged, thirteen of which had never before been recorded in any genetic database; a further ten sequences at a second marker length revealed five variants, two of them likewise entirely new.",
       "evidence_locator": {
-        "paragraph": "B",
-        "sentence": 2
+        "paragraph": "E",
+        "sentence": 4
       },
       "distractor_analysis": {
-        "A": "Yer değiştirme — iyi korunmuşluk, sitten çıkan yanmış tahıllar için söyleniyor; hexaploid buğdayın bir özelliği olarak verilmiyor.",
-        "B": "Yakın ama eksik — tohumlara mikroskopla bakıldığı doğru, ama pasaj tane biçiminin bitkinin genetik kimliği için güvenilmez bir kılavuz olduğunu söylüyor; iki örnek şekle bakılarak yanlışlıkla einkorn ve emmer sayılmıştı.",
-        "C": "Cazip ama yok — olgunlaşma zamanından hiç söz edilmiyor; tarımla ilgili makul bir ayrım gibi göründüğü için seçilebilir."
+        "B": "Ters yon -- daha once kaydedilmemis varyantlarin on ucu birinci marker uzunlugundan, yalniz ikisi ikincisinden geliyor; secenek orani tersine ceviriyor.",
+        "C": "Ters yon -- birinci uzunlukta cikan on yedi varyantin on ucu hicbir veri tabaninda daha once kayitli degildi, yani cogu yeni.",
+        "D": "Kapsam kaydirma -- birinci uzunluk on yedi, ikincisi bes ayri varyant verdi; iki sayi birbirine yakin degil."
       },
-      "explanation": "Paragraph B says that hexaploid wheat is a genetically more complex form carrying six sets of chromosomes, rather than the two or four sets typical of the simpler wheats associated with the earliest stages of farming.",
-      "difficulty": "easy",
-      "status": "rejected",
-      "blind_solvable": true,
-      "blind_basis": "general_knowledge",
-      "flag_reason": "Cevap D, 'hexaploid' teriminin kendisinin alti kromozom takimi anlamina geldigi genel biyoloji bilgisiyle (hexa- oneki) tahmin edilebiliyor; parcaya bakmadan da terimin kokeninden kromozom sayisi cikarilabiliyor.",
-      "flag_mechanism": "genel_kultur",
-      "reject_reason": "Sorunun ekseni terimin kendisi: soru kokundeki 'hexaploid' sozcugunun 'hexa-' oneki dogrudan alti kromozom takimini soyluyor, yani sizinti secenek diziliminde degil kokte. Terimi soru kokunden cikarmak kanit cumlesini de degistirmeyi gerektirir; bu, gorev kuralina gore yarim duzeltme sayilir."
+      "explanation": "Paragraph E says twenty-two sequences were obtained at one marker length and a further ten at a second marker length, so the second yielded only about half as many.",
+      "difficulty": "hard",
+      "status": "verified",
+      "blind_solvable": null,
+      "blind_basis": null,
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-08",
+        "kaynak_prompt": "prompts/OPUS5-E6-yeniden-uretim.md (4/7)",
+        "uretilen_grup": "Coktan secmeli - alistirma",
+        "eski_prompt": "What distinguishes hexaploid wheat from the simpler wheats?",
+        "eski_cevap": [
+          "D"
+        ],
+        "eski_kanit_cumlesi": "Some of these seeds looked, under the microscope, as though they belonged to hexaploid wheat, a genetically more complex form carrying six sets of chromosomes rather than the two or four sets typical of the simpler wheats usually associated with the earliest stages of farming.",
+        "neden_elendi": "Sorunun ekseni terimin kendisi: soru kokundeki 'hexaploid' sozcugunun 'hexa-' oneki dogrudan alti kromozom takimini soyluyor, yani sizinti secenek diziliminde degil kokte. Terimi soru kokunden cikarmak kanit cumlesini de degistirmeyi gerektirir; bu, gorev kuralina gore yarim duzeltme sayilir.",
+        "ne_degisti": "Yuva bosaltilip ayni pasajdan yeni bir soruyla dolduruldu. Eski soru B/2'ye dayaniyordu: hexaploid bugdayi basit bugdaylardan ayiran sey. Sizinti secenek diziliminde degil soru kokundeydi -- 'hexaploid' sozcugunun 'hexa-' oneki alti kromozom takimini zaten soyluyordu. Yeni soru B paragrafina hic degmiyor ve 'hexaploid' terimini hic anmiyor: kanit E/4'e, iki marker uzunlugunda elde edilen dizi ve varyant sayilarina tasindi. Dort secenegin dordu de bu keyfi sayilar uzerine kurulu aritmetik iddialar; disaridan bilinebilecek bir yani yok. Ustelik 'yeni bulgu = yenilik vurgusu' sezgisi bilerek celdirici tarafa kondu (B ve C), dogru secenek ise yalin bir sayi karsilastirmasi. Kip dengesi icin dogru secenek mutlak/karma ('Only about half'), iki celdirici olculu ('appear', 'generally'), biri mutlak ('Each length')."
+      }
     },
     {
       "number": "7-8",
@@ -366,106 +386,127 @@
       "number": "9-10",
       "passage_id": "A08",
       "select_count": 2,
-      "prompt": "Which TWO things does the writer say about the region struck?",
+      "prompt": "Which TWO things does the writer say about the earthquake and the slides it set off?",
       "options": [
         {
           "letter": "A",
-          "text": "It has a small mining town."
+          "text": "It was probably the strongest quake ever recorded in the range."
         },
         {
           "letter": "B",
-          "text": "It crosses an international border."
+          "text": "The nearest town was badly damaged by the shaking."
         },
         {
           "letter": "C",
-          "text": "It holds North America's highest peak."
+          "text": "Aftershocks are likely to have gone on for several weeks."
         },
         {
           "letter": "D",
-          "text": "It was surveyed from the ground beforehand."
+          "text": "Its epicentre lay some 90 kilometres away from a coastal town."
         },
         {
           "letter": "E",
-          "text": "Its bedrock lies under deep ice."
+          "text": "More than 700 possible slides were identified in all."
         },
         {
           "letter": "F",
-          "text": "It sits on the coast by Yakutat."
+          "text": "The slides appear to have been spread evenly around the epicentre."
         },
         {
           "letter": "G",
-          "text": "It lies north-west of the rupture."
+          "text": "Every slope in the range was left scarred in some way."
         }
       ],
       "answer": [
-        "B",
+        "D",
         "E"
       ],
-      "evidence": "On 6 December 2025 a magnitude 7.0 earthquake struck the St Elias Mountains, a heavily glaciated range straddling the border between the Yukon Territory in Canada and Alaska in the United States. Here, ice more than 700 metres thick in places sits on top of that bedrock.",
+      "evidence": "The epicentre lay in remote terrain roughly 90 kilometres north of the coastal town of Yakutat, Alaska, an area so thinly populated that the quake caused no reported casualties, yet its effects on the surrounding landscape were extraordinary. The United States Geological Survey later identified more than 700 potential landslides and snow avalanches associated with the earthquake, most of them concentrated to the northwest of the epicentre along the line of the fault rupture.",
       "evidence_locator": {
         "paragraph": "A",
-        "sentence": 1
+        "sentence": 2
       },
       "distractor_analysis": {
-        "A": "Cazip ama yok — bölgede madencilikten ya da herhangi bir yerleşimden söz edilmiyor; tersine bölgenin çok seyrek nüfuslu ve neredeyse ıssız olduğu söyleniyor.",
-        "C": "Kapsam kaydırma — Mount Logan'ın Kanada'nın en yüksek zirvesi olduğu söyleniyor; şık bunu bütün Kuzey Amerika'ya genişletiyor.",
-        "D": "Yer değiştirme — yerden yapılan araştırma depremden sonra, 12 Aralık'ta gerçekleşiyor; şık bunu depremden önceye taşıyor.",
-        "F": "Yakın ama eksik — Yakutat kıyı kasabası olarak anılıyor, ama merkez üssünün ondan yaklaşık 90 kilometre kuzeydeki iç kesimde olduğu söyleniyor.",
-        "G": "Yakın ama eksik — kuzeybatı yönü, heyelanların çoğunun nerede toplandığını anlatmak için veriliyor; bölgenin fay yırtılmasına göre konumu için değil."
+        "A": "Cazip ama yok -- depremin buyuklugu 7.0 olarak veriliyor, ama siradaglarda daha once olculen depremlerle hicbir karsilastirma yapilmiyor.",
+        "B": "Ters yon -- A/2 bolgenin cok seyrek nufuslu oldugunu ve bildirilen can kaybi olmadigini soyluyor; G/1 de yerlesime ve altyapiya dogrudan tehdit olusmadigini yaziyor.",
+        "C": "Cazip ama yok -- artcilardan hic soz edilmiyor; buyuk depremlerden sonra beklenen bir sey oldugu icin secilebilir.",
+        "F": "Ters yon -- B/1 heyelanlarin cogunun merkez ussunun kuzeybatisinda, fay yirtilmasi hatti boyunca toplandigini soyluyor; esit dagilim degil.",
+        "G": "Kapsam kaydirma -- A/3 sarsintinin daglarin genis bir kusaginda heyelan ve cig tetikledigini soyluyor, siradagin her yamacinda degil."
       },
-      "explanation": "Paragraph A says that the earthquake struck the heavily glaciated St Elias Mountains, straddling the border between Canada and the United States; paragraph B says that ice more than 700 metres thick in places sits on top of the bedrock.",
+      "explanation": "Paragraph A places the epicentre in remote terrain roughly 90 kilometres north of the coastal town of Yakutat, and paragraph B says the United States Geological Survey later identified more than 700 potential landslides and snow avalanches.",
       "difficulty": "hard",
-      "status": "rejected",
-      "blind_solvable": true,
-      "blind_basis": "general_knowledge",
-      "flag_reason": "Cevaplar B ve E, buyuk buzullu siradaglarin (St Elias gibi) genelde bir ulke siniri boyunca uzanmasi ve derin buzla ortulu olmasi gibi yaygin cografya bilgisiyle parcaya bakmadan da tahmin edilebiliyor.",
-      "flag_mechanism": "genel_kultur",
-      "reject_reason": "Sorunun ekseni cografya genel bilgisi: buyuk buzullu siradaglarin bir ulke siniri boyunca uzanmasi ve kalin buzla ortulu olmasi pasaja bakmadan bilinebiliyor. Iki dogru secenek de bolgenin ansiklopedik tanimini tekrarliyor; secenekleri yeniden yazmak bu ekseni degistirmez."
+      "status": "verified",
+      "blind_solvable": null,
+      "blind_basis": null,
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-08",
+        "kaynak_prompt": "prompts/OPUS5-E6-yeniden-uretim.md (4/7)",
+        "uretilen_grup": "Coktan secmeli - alistirma",
+        "eski_prompt": "Which TWO things does the writer say about the region struck?",
+        "eski_cevap": [
+          "B",
+          "E"
+        ],
+        "eski_kanit_cumlesi": "On 6 December 2025 a magnitude 7.0 earthquake struck the St Elias Mountains, a heavily glaciated range straddling the border between the Yukon Territory in Canada and Alaska in the United States. Here, ice more than 700 metres thick in places sits on top of that bedrock.",
+        "neden_elendi": "Sorunun ekseni cografya genel bilgisi: buyuk buzullu siradaglarin bir ulke siniri boyunca uzanmasi ve kalin buzla ortulu olmasi pasaja bakmadan bilinebiliyor. Iki dogru secenek de bolgenin ansiklopedik tanimini tekrarliyor; secenekleri yeniden yazmak bu ekseni degistirmez.",
+        "ne_degisti": "Yuva bosaltilip ayni pasajdan yeni bir soruyla dolduruldu. Eski soru A/1 ile B/3'e dayaniyordu: bolgenin bir ulke siniri boyunca uzanmasi ve kalin buzla ortulu olmasi. Iki dogru secenek de buzullu bir siradagin ansiklopedik tanimini tekrarladigi icin B+E ikilisi pasajsiz seciliyordu. Yeni soru o iki cumleye hic degmiyor: kanit A/2 ile B/1'e, merkez ussunun uzakligina ve sayilan heyelan sayisina tasindi. Doksan kilometre ve yedi yuzden cok heyelan keyfi olculer; disaridan bilinemez. Bes celdiricinin ucu bilerek 'buyuk depremde beklenen sey' kalibina yazildi (kayitlardaki en buyuk deprem, haftalarca suren artcilar, en yakin kasabanin agir hasari), yani genel bilgiyle cozmeye calisan bir okur yanlisa gidiyor. Konumsal duzen icin harf cifti D+E: bu tipte C+F ikilisi zaten iki kez dogru (alistirma #3-4 ve #7-8) ve 3. calistirmanin notu bu yuvaya C+F verilmemesini istiyordu."
+      }
     },
     {
       "number": 11,
       "passage_id": "A08",
       "select_count": 1,
-      "prompt": "How did analysts spot the new damage from orbit?",
+      "prompt": "What does the writer say about the survey carried out on the ground?",
       "options": [
         {
           "letter": "A",
-          "text": "By measuring how far the bedrock had shifted."
+          "text": "It was probably completed within a day of the earthquake."
         },
         {
           "letter": "B",
-          "text": "By tracking the speed of the moving glacier."
+          "text": "It took place on 12 December."
         },
         {
           "letter": "C",
-          "text": "By counting bright patches on a single image."
+          "text": "It found the new debris lying on ground that had long been bare of snow."
         },
         {
           "letter": "D",
-          "text": "By setting a later image against an earlier one."
+          "text": "It appears to have covered only the slopes closest to Yakutat."
         }
       ],
       "answer": [
-        "D"
+        "B"
       ],
-      "evidence": "By comparing an image captured on 8 December, only two days after the earthquake, with a baseline image from 26 November, before the quake, analysts could see large new patches of brightness spreading across slopes that had previously appeared smooth and dark, a direct signature of freshly broken rock and snow.",
+      "evidence": "A ground survey carried out on 12 December confirmed what the satellite images had suggested from orbit: extensive new debris fields, some stretching for kilometres, now lay across terrain that had been buried under clean snow and ice only weeks before.",
       "evidence_locator": {
-        "paragraph": "C",
-        "sentence": 3
+        "paragraph": "D",
+        "sentence": 2
       },
       "distractor_analysis": {
-        "A": "Yer değiştirme — yerin ne kadar kaydığını ölçmek, buzulsuz arazide kullanılan olağan yöntem; pasaj buzun ana kayayı örtmesi yüzünden burada işe yaramadığını söylüyor.",
-        "B": "Yakın ama eksik — hızla ilerleyen yan buzulun yılda 6.000 metreye varan hızı veriliyor, ama bu hız hasarın saptanmasında kullanılmıyor.",
-        "C": "Kapsam kaydırma — parlak lekeler gerçekten kırılmış kaya ve karın işareti, ama bunlar tek bir görüntüden değil, deprem öncesi görüntüyle karşılaştırmadan çıkarılıyor."
+        "A": "Yer degistirme -- yer arastirmasi 12 Aralik'ta yapiliyor, deprem ise 6 Aralik'ta oldu (A/1); arada bir gunden cok daha uzun bir sure var.",
+        "C": "Ters yon -- D/2 yeni enkazin, haftalar oncesine kadar temiz kar ve buzun altinda kalan arazinin uzerinde durdugunu soyluyor; uzun suredir ciplak olan bir zeminden soz edilmiyor.",
+        "D": "Cazip ama yok -- arastirmanin hangi yamaclari kapsadigi hic soylenmiyor; Yakutat pasajda yalniz merkez ussunun konumu (A/2) ve daga cikanlarin hareket noktasi (G/1) olarak geciyor."
       },
-      "explanation": "Paragraph C says that comparing the image captured on 8 December with the baseline image from before the earthquake on 26 November revealed new bright patches on slopes that had previously appeared smooth and dark.",
-      "difficulty": "medium",
-      "status": "rejected",
-      "blind_solvable": true,
-      "blind_basis": "general_knowledge",
-      "flag_reason": "Cevap D, uydu goruntuleriyle hasar tespitinin 'oncesi-sonrasi karsilastirmasi' yontemiyle yapildigi genel bilgisiyle (standart afet izleme yontemi) parcaya bakmadan da tahmin edilebiliyor.",
-      "flag_mechanism": "genel_kultur",
-      "reject_reason": "Sorunun ekseni uzaktan algilama genel bilgisi: uydu goruntusuyle hasar tespitinin oncesi-sonrasi karsilastirmasiyla yapilmasi standart afet izleme yontemi. Kanit cumlesinin kendisi bu standardin anlatimi oldugu icin celdiricileri guclendirmek yetmiyor."
+      "explanation": "Paragraph D says a ground survey carried out on 12 December confirmed what the satellite images had suggested from orbit.",
+      "difficulty": "easy",
+      "status": "verified",
+      "blind_solvable": null,
+      "blind_basis": null,
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-08",
+        "kaynak_prompt": "prompts/OPUS5-E6-yeniden-uretim.md (4/7)",
+        "uretilen_grup": "Coktan secmeli - alistirma",
+        "eski_prompt": "How did analysts spot the new damage from orbit?",
+        "eski_cevap": [
+          "D"
+        ],
+        "eski_kanit_cumlesi": "By comparing an image captured on 8 December, only two days after the earthquake, with a baseline image from 26 November, before the quake, analysts could see large new patches of brightness spreading across slopes that had previously appeared smooth and dark, a direct signature of freshly broken rock and snow.",
+        "neden_elendi": "Sorunun ekseni uzaktan algilama genel bilgisi: uydu goruntusuyle hasar tespitinin oncesi-sonrasi karsilastirmasiyla yapilmasi standart afet izleme yontemi. Kanit cumlesinin kendisi bu standardin anlatimi oldugu icin celdiricileri guclendirmek yetmiyor.",
+        "ne_degisti": "Yuva bosaltilip ayni pasajdan yeni bir soruyla dolduruldu. Eski soru C/3'e dayaniyordu: analistlerin hasari yorungeden nasil gordugu. Uydu goruntusuyle hasar tespitinin oncesi-sonrasi karsilastirmasiyla yapilmasi standart afet izleme yontemi oldugu icin cevap pasajsiz cikiyordu. Yeni soru C paragrafina hic degmiyor: kanit D/2'ye, yerden yapilan arastirmaya tasindi. Dogru secenek keyfi bir tarih; disaridan bilinemez, cunku 9, 12 ya da 20 Aralik esit olculude makuldu. Celdiricilerden ikisi zamana, ikisi kapsama dayaniyor, yani 'somut olani sec' ya da 'olculu olani sec' sezgisi ise yaramiyor; ustelik C secenegi ayni cumlenin ayrintisini tersine ceviriyor. Kip dengesi icin iki celdirici olculu ('probably', 'appears ... only') yazildi."
+      }
     },
     {
       "number": 12,
@@ -527,46 +568,56 @@
       "number": 13,
       "passage_id": "A11",
       "select_count": 1,
-      "prompt": "Why was the order of the two conditions randomised?",
+      "prompt": "What does the writer say about the stand of trees the participants visited?",
       "options": [
         {
           "letter": "A",
-          "text": "To rule out gains from being tested twice."
+          "text": "The two species were present in roughly equal numbers."
         },
         {
           "letter": "B",
-          "text": "To let each person be compared with themselves."
+          "text": "None of the trees was more than fifty years old."
         },
         {
           "letter": "C",
-          "text": "To balance men and women across the groups."
+          "text": "All the trees in it were at least eighty years old."
         },
         {
           "letter": "D",
-          "text": "To keep participants unaware of the aim."
+          "text": "The stand seems to have been made up mainly of birch."
         }
       ],
       "answer": [
-        "A"
+        "C"
       ],
-      "evidence": "Randomly assigning the order in which each group encountered the two conditions also helped guard against the possibility that simply being tested a second time, regardless of environment, might by itself improve participants' reported mood.",
+      "evidence": "In the forest condition, participants walked for five minutes to reach a stand of Norway spruce and silver birch trees, roughly 80 and 20 per cent of the stand respectively, ranging in age from 80 to 108 years and fully covered in snow, where they spent 15 minutes simply standing or sitting quietly.",
       "evidence_locator": {
-        "paragraph": "B",
-        "sentence": 3
+        "paragraph": "C",
+        "sentence": 1
       },
       "distractor_analysis": {
-        "B": "Yakın ama eksik — her katılımcının kendisiyle karşılaştırılabilmesi çapraz geçişli tasarımın sağladığı şey; sıranın rastgele belirlenmesi ayrı bir tehlikeye, ikinci ölçümün kendiliğinden iyileşme yaratması ihtimaline karşı yapılıyor.",
-        "C": "Yer değiştirme — on bir kadın ve on bir erkeğin katıldığı söyleniyor, ama bu sayı bir denge gerekçesi olarak rastgeleleştirmeye bağlanmıyor.",
-        "D": "Cazip ama yok — katılımcıların çalışmanın amacından habersiz tutulduğuna dair hiçbir ifade yok; deney tasarımı için makul göründüğü için seçilebilir."
+        "A": "Kapsam kaydirma -- C/1 ladin ile husun paylarini kabaca yuzde 80'e yuzde 20 olarak veriyor; esit degil.",
+        "B": "Ters yon -- agaclarin yasi 80 ile 108 arasinda degisiyor; elli yasin altinda tek bir agactan soz edilmiyor.",
+        "D": "Ters yon -- stanttaki agaclarin yaklasik yuzde 80'i Norvec ladini, hus yuzde 20'lik kucuk paya sahip."
       },
-      "explanation": "Paragraph B says that randomising the order of the two conditions helped guard against the possibility that simply being tested a second time, regardless of environment, might by itself improve participants' reported mood.",
+      "explanation": "Paragraph C says the stand was made up of Norway spruce and silver birch, roughly 80 and 20 per cent respectively, ranging in age from 80 to 108 years.",
       "difficulty": "medium",
-      "status": "rejected",
-      "blind_solvable": true,
-      "blind_basis": "general_knowledge",
-      "flag_reason": "Cevap A, deney tasariminda kosul sirasinin rastgelestirilmesinin klasik amacinin 'tekrar test etme etkisini' (practice/order effect) kontrol altina almak oldugu genel arastirma yontemi bilgisiyle parcaya bakmadan da tahmin edilebiliyor.",
-      "flag_mechanism": "genel_kultur",
-      "reject_reason": "Sorunun ekseni arastirma yontemi kurali: kosul sirasinin rastgelestirilmesinin amaci tekrar test etme (sira/alistirma) etkisini kontrol altina almaktir ve bu, pasajdan bagimsiz olarak ogretilen bir kural. Seceneklerin kipi ya da capasi degistirilse de cevap yontem bilgisinden cikar."
+      "status": "verified",
+      "blind_solvable": null,
+      "blind_basis": null,
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-08",
+        "kaynak_prompt": "prompts/OPUS5-E6-yeniden-uretim.md (4/7)",
+        "uretilen_grup": "Coktan secmeli - alistirma",
+        "eski_prompt": "Why was the order of the two conditions randomised?",
+        "eski_cevap": [
+          "A"
+        ],
+        "eski_kanit_cumlesi": "Randomly assigning the order in which each group encountered the two conditions also helped guard against the possibility that simply being tested a second time, regardless of environment, might by itself improve participants' reported mood.",
+        "neden_elendi": "Sorunun ekseni arastirma yontemi kurali: kosul sirasinin rastgelestirilmesinin amaci tekrar test etme (sira/alistirma) etkisini kontrol altina almaktir ve bu, pasajdan bagimsiz olarak ogretilen bir kural. Seceneklerin kipi ya da capasi degistirilse de cevap yontem bilgisinden cikar.",
+        "ne_degisti": "Yuva bosaltilip ayni pasajdan yeni bir soruyla dolduruldu. Eski soru B/3'e dayaniyordu: iki kosulun sirasinin neden rastgelestirildigi. Sira etkisinin kontrol altina alinmasi ogretilen bir yontem kurali oldugu icin cevap pasajsiz cikiyordu. Yeni soru B paragrafina hic degmiyor: kanit C/1'e, ziyaret edilen agac stantinin bilesimine ve yasina tasindi. Seksen ile yuz sekiz yil arasi bir yas araligi keyfi bir olcu; disaridan bilinemez. Celdiricilerin ikisi ayni cumlenin oranini (yuzde 80 ladin / yuzde 20 hus) tersine ceviriyor ya da esitliyor, biri yas araligini asagi cekiyor; hicbiri kendi icinde tutarsiz degil. Kip dengesi icin dogru secenek mutlak ('All the trees'), iki celdirici olculu ('roughly', 'seems ... mainly') yazildi. Kanit, calistirmanin kapanis kalibi yasagina uyarak son paragrafa degil metnin ortasina demirlendi."
+      }
     },
     {
       "number": 14,

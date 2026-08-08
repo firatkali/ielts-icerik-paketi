@@ -7974,3 +7974,136 @@ Dokuzunda da sinama gecildi. Yine de olcum **E7'nin isi**: dokuzunda da
   `tools/_e6_mc_testler_kontrol.py` (kontrol), `tools/_e6_liste_isaretle.py`
   (liste isaretleme; bu calistirmada "34-35" gibi iki kutuluk yuva numaralarini
   da kabul edecek bicimde genisletildi - onceki hali `int()` ile cokuyordu).
+
+
+# OPUS5-E6-yeniden-uretim (4. calistirma - coktan secmeli, alistirma)
+
+- **Kendi sayimim:** `content/DOGRULAMA/yeniden-uretim-listesi.json` icindeki
+  `elenen` listesini yeniden saydim: 71 yuva, bunlarin **14'u coktan secmeli**.
+  3. calistirma tam testlerdeki 9'unu bitirmisti; bu calistirmanin kapsami olan
+  **alistirma paketi** kalan **5 yuva**: `content/reading/practice/
+  multiple-choice.json` icinde **#1 (A02), #6 (A05), #9-10 (A08), #11 (A08),
+  #13 (A11)**. Besi de ayni dosyaya ayni numarayla dolduruldu; #9-10'un
+  `select_count: 2` degeri korundu, dosya 12 soruda kaldi, hicbir soru
+  silinmedi.
+
+### Hangi kanit nereye tasindi
+
+| Yuva | Eski kanit (E5 yasakladi) | Yeni kanit | Yeni eksen |
+|---|---|---|---|
+| #1  | A02 B/1 (agirlikca eslestirme) | A02 **B/2** | orneklem bilesimi: 42 erkek / 18 disi, 114-324 g |
+| #6  | A05 B/2 (hexaploid tanimi)     | A05 **E/4** | iki marker uzunlugunda dizi/varyant sayilari |
+| #9-10 | A08 A/1 + B/3 (sinir, buz kalinligi) | A08 **A/2 + B/1** | merkez ussunun uzakligi + 700'den cok heyelan |
+| #11 | A08 C/3 (oncesi-sonrasi uydu goruntusu) | A08 **D/2** | yerden yapilan arastirmanin tarihi |
+| #13 | A11 B/3 (sira rastgelestirmesi) | A11 **C/1** | agac stantinin bilesimi ve yasi |
+
+Besinde de yeni kanit, E5'in "kacinilacak" dedigi cumleye **hic degmiyor**;
+#6, #9-10, #11 ve #13'te kanit yasakli cumlenin **paragrafinin da disina**
+tasindi, #1'de ayni paragrafta ama farkli cumleye (B/1 -> B/2) gecildi, cunku
+A02'de disaridan bilinemeyecek sayisal ayrinti yalniz orada.
+
+### Ortak tasarim kurali: genel bilgi artik celdirici tarafta
+
+Bes yuvanin hepsinde dogru cevap **keyfi bir olcuye** baglandi (42/60 erkek,
+22'ye karsi 10 dizi, 90 km ve 700+ heyelan, 12 Aralik, 80-108 yil). Bunlarin
+hicbiri disaridan tahmin edilemez, cunku her birinin yerine baska bir deger de
+esit olculude makuldur. Buna karsilik okurun **disaridan getirdigi sezgi bilerek
+yanlis seceneklere** yerlestirildi:
+
+- #6'da "yeni bulgu = yenilik vurgusu" sezgisi B ve C celdiricilerinde,
+- #9-10'da "buyuk depremde artci olur / en yakin kasaba zarar gorur / kayitlarin
+  en buyugudur" sezgisi A, B ve C'de,
+- #11'de "yer arastirmasi hemen ertesi gun yapilir" sezgisi A'da,
+- #13'te "Fin ormani = hus agaci" ve "esit karisim" sezgisi A ve D'de.
+
+Yani genel kulturle cozmeye calisan okur odul degil ceza aliyor.
+
+### Kip imzasi sayimi (yasak 1)
+
+`tools/_e6_mc_alistirma_kontrol.py` ciktisi (yalniz `generated_by: "opus"`
+yuvalar):
+
+- **Dogru secenek 6 - mutlak ifade tasiyan 4 (%67, esik %33):** #1D ("the whole
+  sample"), #6A ("Only about half"), #9-10E ("in all"), #13C ("All the trees").
+- **Celdirici 17 - olculu ifade tasiyan 12 (%71, esik %33):** "roughly", "some",
+  "appear", "generally", "probably", "likely", "seems", "mainly".
+- Karsilastirma icin E5'in bu tipteki olcumu: olculu yazilmis seceneklerin
+  tamami dogru, kesin yazilmis seceneklerin hicbiri dogru degildi. Artik iki kip
+  de iki tarafta: "temkinli olani sec" de "mutlak olani ele" de calismiyor.
+
+### Konumsal duzen sayimi (yasak 2)
+
+- **Tek harfli yuvalar (dosyanin dokuz tek harfli sorusu):** A 2, B 2, C 3, D 2 -
+  dengeli. Bu calistirmanin dorde katkisi D (#1), A (#6), B (#11), C (#13).
+- **Iki-harfli yuvalar (dosyanin uc yuvasi):** C+F, C+F, **D+E**. 3. calistirmanin
+  notu bu yuvaya C+F verilmemesini istiyordu; verilmedi, boylece C+F sette **iki**
+  kez kaliyor (esik: ikiden fazla olmayacak) ve D ile E harfleri ilk kez bu
+  pakette dogru oluyor.
+- **Kapanis kalibi:** bes yeni sorunun **hicbiri** son paragrafa demirlenmedi
+  (A02/H, A05/H, A08/H, A11/H bos birakildi). Yeni kanitlar A, B, C, D ve E
+  paragraflarindan geliyor - yani metnin basina ve ortasina yayilmis durumda.
+  Ayrica UYARILAR.txt'nin 2. calistirmada koydugu iki yasak da korundu: A11 G
+  paragrafina ve A10/A11/A12 H paragrafindaki sinirlilik cumlelerine
+  demirlenmedi.
+
+### Kendi kendini sinama (uretim bitmeden; K3 olcutu - anlamca bilme de "bilinen")
+
+Her soru **pasaj kapaliyken** yalniz soru koku + secenek listesiyle cozulmeye
+calisildi:
+
+- **#1 (altmis ahtapot)** - bilinemedi. Yabani yakalanan bir ahtapot
+  orneklemindeki cinsiyet orani icin disaridan beklenti yok; ustelik "yuz gramin
+  altinda olanlar var" celdiricisi gercek alt sinira (114 g) bilerek yakin
+  yazildi, yani "yuvarlak sayiyi sec" sezgisi yanlisa gidiyor.
+- **#6 (iki marker uzunlugu)** - bilinemedi. Dort secenegin dordu de ayni keyfi
+  sayilar uzerine aritmetik iddia; ilk sezgi "yeni varyantlarin cogu ikinci
+  uzunluktan" (B) ya da "ilkindekiler zaten kayitliydi" (C) demeye yatkin,
+  ikisi de yanlis.
+- **#9-10 (deprem ve heyelanlar)** - ikisi birden bilinemedi. Sezgi en cok C
+  (haftalarca suren artcilar) ve A (kayitlardaki en buyuk deprem) diyor; ikisi
+  de yanlis. **Kalan risk notu:** cok uzak ve issiz bir siradagi taniyan bir
+  cozucu B'yi ("en yakin kasaba agir hasar gordu") eleyebilir, ama D ve E'yi
+  bulmasi yine de 90 km ile 700 sayisini bilmeyi gerektiriyor ve iki harf
+  birlikte isteniyor. E7 bu yuvayi olcerken buna ayrica baksin.
+- **#11 (yer arastirmasi)** - bilinemedi; 12 Aralik kadar 9 ya da 20 Aralik da
+  makuldu. Iki secenek zamana, iki secenek kapsama dayandigi icin "somut olani
+  sec" sezgisi de calismiyor.
+- **#13 (agac stanti)** - bilinemedi. Yas araligi (80-108) disaridan bilinemez;
+  "Fin ormani daha cok hustur" ya da "iki tur esit karisimdi" sezgileri
+  celdirici tarafta.
+
+Besinde de sinama gecildi. Yine de olcum **E7'nin isi**: besinde de
+`blind_solvable: null`, `blind_basis: null` birakildi.
+
+### Yerlesim, iz ve sonraki calistirmalara notlar
+
+- Yuvalarda `status: "verified"`, `generated_by: "opus"` (dosya duzeyindeki
+  `generated_by: "fable"` elde degistirilmedi, 1-3. calistirmalarin
+  gerekcesiyle). `answer`, `evidence`, `evidence_locator`, `distractor_analysis`,
+  `explanation`, `difficulty` normal semaya gore dolduruldu; aciklamalar
+  Ingilizce, ic denetim notlari Turkce. `passage_id` ve `select_count` elde
+  degismedi (betik ikisini de karsilastirip farkliysa cokuyor).
+- Elenen sorunun izi silinmedi: her yuvada `yeniden_uretim` blogu var - eski
+  soru koku, eski cevap, eski kanit cumlesi, E5'in eleme gerekcesi ve ne
+  degistigi. Eskiyen `flag_reason` / `flag_mechanism` / `reject_reason` alanlari
+  kaldirildi, cunku artik farkli bir soruyu anlatiyorlardi.
+- [!] **Coktan secmeli tipi bitti.** E5 listesindeki 14 coktan secmeli yuvanin
+  9'u 3., 5'i bu calistirmada dolduruldu; bu tipte elenen yuva kalmadi.
+- [!] **7. calistirmaya (kalanlar + butunluk):** A08 pasajinda **D/2 doldu**
+  (alistirma coktan secmeli #11). E5, `practice/short-answer.json` #8 icin
+  "D/1'in oteki yarisi - Mount King George'un yamacindaki genis enkaz akmasi ya
+  da uydu goruntusuyle yer arastirmasinin ortusmesi" demisti; ikinci secenek
+  artik D/2'ye demirli oldugu icin o yuva **D/1'in Mount King George yarisina**
+  yazilmali (kisa cevap icin zaten daha uygun bir hedef).
+- [!] **Sonraki calistirmalara - dolan kanit cumleleri.** Bu calistirmanin
+  tuttugu yerler: A02 B/2; A05 E/4; A08 A/2, B/1 ve D/2; A11 C/1. A05'te
+  `AC2/sentence-completion` 21 icin onerilen E/3 hala serbest (ayri dosya, ayri
+  test). A11'de C/1 artik dolu; `AC4/sentence-completion` 20-21-22 icin onerilen
+  hedefler (ruzgar hizi D, kar derinligi D, H/1'in son yarisi) etkilenmiyor.
+- Listede bu bes yuvaya `yeniden_uretildi` islendi; **kalan 47 yuva** sonraki
+  uc calistirmanin isi.
+- Uygulayan betikler: `tools/_e6_mc_alistirma.py` (uretim),
+  `tools/_e6_mc_alistirma_kontrol.py` (kontrol; 3. calistirmanin kontrolunden
+  turetildi, alistirma paketine ozgu iki ek denetimle: `passage_id` basina sira
+  kurali ve `distractor_analysis`'in butun celdiricileri kapsamasi),
+  `tools/_e6_liste_isaretle.py` (liste isaretleme, degistirilmeden kullanildi).

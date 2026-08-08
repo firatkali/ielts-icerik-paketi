@@ -750,3 +750,35 @@
   - dogrula.py: 12 tam test 40/40, sema hatasi 0, toplam soru 1310.
   - _e6_mc_testler_kontrol.py: hata 0.
   - isaretli (flagged)     33
+
+08.08.2026 06:57
+  - isaretli (flagged)     33
+
+
+08.08.2026 07:11  OPUS5-E6 4/7 - Coktan secmeli alistirma
+  - practice/multiple-choice.json #1, #6, #9-10, #11, #13 ayni dosyada ayni
+    numarayla yeniden dolduruldu. select_count korundu (#9-10 iki harfli),
+    passage_id korundu, soru silinmedi, dosya 12 soruda kaldi.
+  - E5 listesi: 71 yuvanin 14'u coktan secmeliydi; 9'u 3., 5'i bu
+    calistirmada bitti. [!] Coktan secmeli tipinde elenen yuva kalmadi.
+    Listede kalan toplam 47.
+  - Kanitlar E5'in yasakladigi cumlelerin disina tasindi: A02 B/1 -> B/2,
+    A05 B/2 -> E/4, A08 A/1+B/3 -> A/2+B/1, A08 C/3 -> D/2,
+    A11 B/3 -> C/1. Dordunde kanit yasakli paragrafin da disina cikti.
+  - [!] Kip imzasi: dogru seceneklerin %67'si mutlak ifade tasiyor (esik
+    %33), celdiricilerin %71'i olculu. Genel-kultur sezgisi bilerek
+    celdirici tarafa kondu (artcilar, "kayitlarin en buyugu", "Fin
+    ormani = hus", "yer arastirmasi ertesi gun yapilir").
+  - [!] Konumsal duzen: #9-10'a C+F verilmedi, D+E yazildi; sette C+F
+    iki kez kaliyor (esik: ikiden fazla olmayacak). Tek harfli dokuz
+    sorunun dagilimi A2 B2 C3 D2. Hicbir dogru cevap son paragrafa
+    demirlenmedi; A11 G paragrafi ve H sinirlilik cumleleri yine bos.
+  - [!] 7. calistirmaya: A08 D/2 artik dolu. practice/short-answer 8 icin
+    E5'in verdigi iki oneriden biri (uydu ile yer arastirmasinin
+    ortusmesi) bu yuzden kapandi; o soru D/1'in Mount King George
+    yarisina yazilmali.
+  - [!] Sonraki calistirmalara - bu adimda dolan cumleler: A02 B/2,
+    A05 E/4, A08 A/2 + B/1 + D/2, A11 C/1.
+  - dogrula.py: 12 tam test 40/40, sema hatasi 0, toplam soru 1310.
+  - _e6_mc_alistirma_kontrol.py: hata 0.
+  - isaretli (flagged)     33
