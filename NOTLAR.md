@@ -8567,3 +8567,36 @@ yerine cevap dagilimlari:
   duzeltme yapmadi (sira OPUS5-A4'un konusma surumune ait).
 - Puanlama olcumu tur 4 (konusma, 1. calistirma) — 12 ornek x 3 tekrar = 36 puanlama,
   ortalama mutlak fark 0,583, egilim -0,250 (hafif cimri).
+
+## SONNET5-A3 (KONUSMA olcum turu, klasor adi tur4 — 2. calistirma: tekrar 4-6, 12 ornek x 3 tekrar)
+- Tarih: 2026-08-08
+- **Depo kontrolu:** disk uzerinde `kalibrasyon/olcum/tur4/` icinde 1. calistirmanin 36
+  dosyasinin (tekrar 1-3) yaninda, hicbir NOTLAR girdisi ve commit'i olmayan 14 tane
+  yarim/tutarsiz dosya vardi (7 ornek icin tekrar 4 ve 6, tekrar 5 hic yoktu — onceki bir
+  oturum calisma sirasinda kesilmis, yarim kalmisti). Bu dosyalar `kalibrasyon/olcum/tur*/`
+  .gitignore'da oldugu icin hicbir commit'te izlenmiyordu; "zaten uretilmis" sayilmadi,
+  silinip bu calistirma temiz baslatildi (kumeler.json ve RAPOR dosyalari degismedi, sadece
+  ham puanlama dosyalari).
+- **Bu calistirmada islenen:** ayni 12 konusma ornegi (SP-band5-1 .. SP-band9-1),
+  `degerlendirme/konusma.md` ile, tekrar numaralari 4/5/6 (1. calistirmanin 1/2/3'unun
+  devami) — 36 yeni puanlama, tur4 klasorunde toplam 72 dosya.
+- **Korluk yontemi:** 1. calistirmadaki ile ayni — `kalibrasyon/olcum/_blind_tur4/` altindaki
+  (band/examiner_comment/source alanlari atilmis) 12 dosya 3 ayri taze genel-amacli
+  alt-ajana (model: sonnet, acikca belirtildi) verildi, tekrar basina bir ajan, hepsi
+  paralel calisti; hicbiri gercek bandi gormedi.
+- `speaking_seconds` yine hicbir ornekte yok, `speech_rate_wpm` yine hesaplanmadi/bos
+  birakildi (1. calistirmadaki kural aynen uygulandi).
+- `python tools/puanlama-raporu.py 4` calistirildi (72 puanlama, 12 ornek): **tek seferlik**
+  degerler tekrar 1'e dayandigi icin degismedi (ortalama mutlak fark 0,583, egilim -0,250,
+  en buyuk sapma 2,00 — SP-band8-2), ama **tani/ortalama** artik 6 tekrarin ortalamasi:
+  0,340 (once 0,417) ve egilim -0,160 (once -0,250). **Yayilim (ort.)** 6 tekrarla 0,79
+  band'a cikti (once 3 tekrarla 0,62) — daha fazla tekrar, daha genis min/maks araligi
+  gosterdi, ozellikle SP-band8-2 ve SP-band5-1'de (1,50 band yayilim). 4 olcutten yalniz
+  "egilim +-0,25 icinde" gecti; digerleri (ort. mutlak fark, en buyuk sapma, yayilim) KALDI.
+  Kume kirilimi (tek seferlik, kume gostergesi degismedi): S1 0,875 · S2 0,625 · S3 0,250.
+- Atlanan/sorun: yok (12/12 puanlandi, 36/36 dosya yazildi). Bu oturum yalniz OLCTU,
+  talimati degistirmedi — konusma talimatinin duzeltmeye ihtiyaci oldugu 1. calistirmadan
+  beri biliniyor, sira OPUS5-A4'un konusma surumune ait.
+- Puanlama olcumu tur 4 (konusma, 2. calistirma) — 12 ornek x 3 tekrar (tekrar 4-6) = 36
+  puanlama, tek seferlik degerler degismedi (ort. mutlak fark 0,583, egilim -0,250);
+  6 tekrarli tani ortalamasi 0,340, egilim -0,160.

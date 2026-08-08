@@ -1,6 +1,6 @@
 # Puanlama olcumu — tur 4 (2026-08-08)
 
-Olculen ornek: **12** | toplam puanlama: **36**
+Olculen ornek: **12** | toplam puanlama: **72**
 
 ## Urunun gercek davranisi (tek seferlik puan)
 
@@ -9,11 +9,11 @@ Olculen ornek: **12** | toplam puanlama: **36**
 | Ortalama mutlak fark | **0.583 band** | 
 | Egilim (+ comert / − cimri) | **-0.250 band** |
 | En buyuk tek sapma | **2.00 band** |
-| Ayni cevaptaki yayilim (ort.) | **0.62 band** |
+| Ayni cevaptaki yayilim (ort.) | **0.79 band** |
 
 ## Tani amacli (tekrarlarin ortalamasi)
 
-Ortalama mutlak fark 0.417 · egilim -0.194 — bu satir SADECE tani icindir; kullanici uzerinde tek puan gorur.
+Ortalama mutlak fark 0.340 · egilim -0.160 — bu satir SADECE tani icindir; kullanici uzerinde tek puan gorur.
 
 ## Basari olcutleri
 
@@ -44,16 +44,16 @@ Ortalama mutlak fark 0.417 · egilim -0.194 — bu satir SADECE tani icindir; ku
 
 | Kod | Beceri | Kume | Gercek | Tek seferlik | Ortalama | Tekrar | Yayilim |
 |---|---|---|---|---|---|---|---|
-| SP-band8-2 | speaking | S1 | 8.0 | 6.0 | 6.50 | 3 | 1.00 |
-| SP-band5-1 | speaking | S1 | 5.0 | 6.0 | 5.33 | 3 | 1.00 |
-| SP-band7_5-1 | speaking | S2 | 7.5 | 6.5 | 6.33 | 3 | 0.50 |
-| SP-band5-2 | speaking | S2 | 5.0 | 4.5 | 4.67 | 3 | 0.50 |
-| SP-band6-1 | speaking | S3 | 6.0 | 6.5 | 6.33 | 3 | 0.50 |
-| SP-band6-2 | speaking | S1 | 6.0 | 5.5 | 6.17 | 3 | 1.00 |
-| SP-band6_5-1 | speaking | S2 | 6.5 | 7.0 | 6.67 | 3 | 1.00 |
-| SP-band8_5-1 | speaking | S2 | 8.5 | 8.0 | 8.17 | 3 | 0.50 |
-| SP-band9-1 | speaking | S3 | 9.0 | 8.5 | 8.67 | 3 | 0.50 |
-| SP-band7-1 | speaking | S3 | 7.0 | 7.0 | 7.17 | 3 | 0.50 |
-| SP-band7-2 | speaking | S1 | 7.0 | 7.0 | 7.17 | 3 | 0.50 |
-| SP-band8-1 | speaking | S3 | 8.0 | 8.0 | 8.00 | 3 | 0.00 |
+| SP-band8-2 | speaking | S1 | 8.0 | 6.0 | 6.75 | 6 | 1.50 |
+| SP-band5-1 | speaking | S1 | 5.0 | 6.0 | 5.08 | 6 | 1.50 |
+| SP-band7_5-1 | speaking | S2 | 7.5 | 6.5 | 6.67 | 6 | 1.00 |
+| SP-band5-2 | speaking | S2 | 5.0 | 4.5 | 4.58 | 6 | 1.00 |
+| SP-band6-1 | speaking | S3 | 6.0 | 6.5 | 6.42 | 6 | 0.50 |
+| SP-band6-2 | speaking | S1 | 6.0 | 5.5 | 6.08 | 6 | 1.00 |
+| SP-band6_5-1 | speaking | S2 | 6.5 | 7.0 | 6.50 | 6 | 1.00 |
+| SP-band8_5-1 | speaking | S2 | 8.5 | 8.0 | 8.25 | 6 | 0.50 |
+| SP-band9-1 | speaking | S3 | 9.0 | 8.5 | 8.75 | 6 | 0.50 |
+| SP-band7-1 | speaking | S3 | 7.0 | 7.0 | 7.25 | 6 | 0.50 |
+| SP-band7-2 | speaking | S1 | 7.0 | 7.0 | 7.25 | 6 | 0.50 |
+| SP-band8-1 | speaking | S3 | 8.0 | 8.0 | 8.00 | 6 | 0.00 |
 

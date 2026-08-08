@@ -12,8 +12,8 @@
 
 | Kod | Beceri | Kume | Gercek | Tek seferlik | Ortalama | Tekrar | Yayilim |
 |---|---|---|---|---|---|---|---|
-| SP-band8-2 | speaking | S1 | 8.0 | 6.0 | 6.50 | 3 | 1.00 |
-| SP-band5-1 | speaking | S1 | 5.0 | 6.0 | 5.33 | 3 | 1.00 |
-| SP-band6-2 | speaking | S1 | 6.0 | 5.5 | 6.17 | 3 | 1.00 |
-| SP-band7-2 | speaking | S1 | 7.0 | 7.0 | 7.17 | 3 | 0.50 |
+| SP-band8-2 | speaking | S1 | 8.0 | 6.0 | 6.75 | 6 | 1.50 |
+| SP-band5-1 | speaking | S1 | 5.0 | 6.0 | 5.08 | 6 | 1.50 |
+| SP-band6-2 | speaking | S1 | 6.0 | 5.5 | 6.08 | 6 | 1.00 |
+| SP-band7-2 | speaking | S1 | 7.0 | 7.0 | 7.25 | 6 | 0.50 |
 

@@ -1,6 +1,6 @@
 # Puanlama olcumu — tur 4 (2026-08-08)
 
-Olculen ornek: **12** | toplam puanlama: **36**
+Olculen ornek: **12** | toplam puanlama: **72**
 
 ## Urunun gercek davranisi (tek seferlik puan)
 
@@ -9,11 +9,11 @@ Olculen ornek: **12** | toplam puanlama: **36**
 | Ortalama mutlak fark | **0.583 band** | 
 | Egilim (+ comert / − cimri) | **-0.250 band** |
 | En buyuk tek sapma | **2.00 band** |
-| Ayni cevaptaki yayilim (ort.) | **0.62 band** |
+| Ayni cevaptaki yayilim (ort.) | **0.79 band** |
 
 ## Tani amacli (tekrarlarin ortalamasi)
 
-Ortalama mutlak fark 0.417 · egilim -0.194 — bu satir SADECE tani icindir; kullanici uzerinde tek puan gorur.
+Ortalama mutlak fark 0.340 · egilim -0.160 — bu satir SADECE tani icindir; kullanici uzerinde tek puan gorur.
 
 ## Basari olcutleri
 
