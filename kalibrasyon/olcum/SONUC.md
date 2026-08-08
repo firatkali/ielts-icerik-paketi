@@ -1,324 +1,319 @@
-# Puanlama kalibrasyonu — SONUÇ (2026-08-07)
+# Puanlama kalibrasyonu — SONUÇ (2026-08-09)
 
-Bu dosya `prompts/OPUS5-A4-puanlama-duzeltmesi.md`'nin **3. (son rapor) çalıştırmasıdır**.
+Bu dosya `prompts/OPUS5-A4-puanlama-duzeltmesi.md`'nin **son rapor çalıştırmasıdır**.
 Bu çalıştırmada **hiçbir düzeltme yapılmadı**: `degerlendirme/` altındaki hiçbir dosyaya
-dokunulmadı. Yalnızca üç ölçüm turu yan yana konuldu.
+dokunulmadı, `DEGISIKLIK-KAYDI.md`'ye yeni madde yazılmadı.
 
-Bu aşamada saklı küme yok (son raporda hepsi görünür). Aşağıdaki her sayı
-`tools/_a4_sonuc.py` tarafından hesaplandı; elle ortalama alınmadı.
+Bu aşamada **saklı küme yok** (A4 tablosu: son raporda hepsi görünür). Aşağıdaki her sayı
+`tools/_a4_sonuc_son.py` tarafından ham puanlama dosyalarından hesaplandı; elle ortalama
+alınmadı. Puanlar ürünün gerçek davranışıdır: her örneğin **tek seferlik (ilk) puanı**.
+Tekrar ortalaması yalnız tutarlılık bölümünde kullanıldı ve orada ayrıca işaretlendi.
+
+Konuşma tarafının ayrıntısı ayrı dosyada: **`SONUC-konusma.md`**.
 
 ---
 
-## 🔴 Önce dürüst not: tur 3 tamamlanmadı
+## Ölçülen turlar
 
-Tur 3, dört çalıştırmalık bir işti; **üçü bitti**. Son grup — `GT-T2` (5 örnek × 3 tekrar =
-15 puanlama) — hiç puanlanmadı. Sebebi teknik: 105 numaralı adım (`gunluk/20260807-053340-adim105.log`)
-oturum limitine takılıp çıkış kodu 1 ile düştü, iş listesi bir sonraki adıma geçti.
+| Tur | Ne | Kapsam | Sınadığı |
+|---|---|---|---|
+| 1 | yazma, temel ölçüm | 21 örnek × 3 | talimatın ilk hâli |
+| 2 | yazma | 23 örnek × 1 | 1. düzeltme (saklı küme S3) |
+| 3 | yazma, **tamamlandı** | 23 örnek × 3 | 2. düzeltme (saklı küme S1) |
+| 4 | **konuşma**, ilk ölçüm | 12 örnek × 6 | — (temel ölçüm) |
+| 5 | **alt band turu** | gerçek bandı ≤4,5 olan 4 yazma örneği × 3 | 2. düzeltmenin alt banda etkisi |
+| 6 | **doğrulama turu** | 24 yazma + 12 konuşma = 36 örnek × 1 | 3. düzeltme (saklı küme S2) |
 
-Yani **tur 3 = 23 örnekten 18'i (54/69 puanlama)**. Bu oturum eksiği kapatamaz: ölçüm bilerek
-Sonnet ile yapılır (`prompts/SONNET5-A3-puanlama-olcumu.md` başlığı), bu oturum Opus'tur; buradan
-puanlamak ürünün davranışını değil başka bir modelin davranışını ölçmüş olurdu.
+Tur 3 önceki son rapor yazıldığında 23 örneğin 18'iyle duruyordu (`GT-T2` grubu oturum
+limitine takılmıştı). O eksik **kapatıldı**: tur 3 artık 23 örnek × 3 = 69 puanlamadır ve
+aşağıdaki bütün tur-3 sayıları tam kümedendir. Bu yüzden bu dosya bir öncekinin
+güncellemesi değil, **yerine geçen sürümdür**.
 
-Eksik 5 örneğin önceki turlardaki sapması:
+---
 
-| Örnek | Küme | Gerçek | tur 1 | tur 2 |
+## 1. Turların ölçüleri yan yana
+
+**Her turun kendi örnek kümesi üzerinden** (`RAPOR-tur*.md` ile birebir aynı):
+
+| Ölçü | tur 1 | tur 2 | tur 3 | tur 4 (konuşma) | tur 5 (alt band) | **tur 6 (doğrulama)** |
+|---|---|---|---|---|---|---|
+| n örnek | 21 | 23 | 23 | 12 | 4 | **36** |
+| tekrar | 3 | 1 | 3 | 6 | 3 | 1 |
+| Ortalama mutlak fark | 0,952 | 0,913 | 0,804 | 0,583 | 1,250 | **0,389** |
+| Eğilim (+ cömert / − cimri) | −0,667 | −0,696 | −0,326 | −0,250 | **+1,250** | **−0,139** |
+| En büyük tek sapma | 2,00 | 2,00 | 2,50 | 2,00 | 1,50 | **1,50** |
+| Yayılım (tutarsızlık) | 0,33 | — ¹ | 0,28 | **0,79** | 0,25 | — ¹ |
+| Verilen puanların aralığı | 4,5–7,0 | 3,5–7,0 | 4,5–7,5 | 4,5–8,5 | 4,5–5,5 | **3,5–8,5** |
+
+¹ Tur 2 ve tur 6'da her örnek **1 kez** puanlandı; yayılım tanım gereği 0,00 çıkar.
+`RAPOR-tur2.md` ve `RAPOR-tur6.md`'deki "✅ geçti" o satırda **anlamsızdır** — tutarlılık
+o turlarda sınanmadı. Bkz. bölüm 3, ölçüt 4.
+
+**Eşleşik karşılaştırma** — tur 1/2/3/6'nın **hepsinde** puanlanan aynı 21 yazma örneği.
+Küme bileşimi farkını dışarıda bırakan, karşılaştırılabilir olan tablo budur:
+
+| Ölçü | tur 1 | tur 2 | tur 3 | **tur 6** |
 |---|---|---|---|---|
-| GT-T2-2A-A | S3 | 5,0 | −0,5 | 0,0 |
-| GT-T2-2A-B | S2 | 8,0 | **−2,0** | **−2,0** |
-| GT-T2-2B-A | S3 | 4,0 | +0,5 | +0,5 |
-| GT-T2-2B-B | S1 | 6,0 | — | −1,0 |
-| GT-T2-2B-C | S2 | 8,5 | — | **−2,0** |
+| Ortalama mutlak fark | 0,952 | 0,857 | 0,714 | **0,333** |
+| Eğilim | −0,667 | −0,619 | −0,190 | **0,000** |
+| En büyük tek sapma | 2,00 | 2,00 | 2,00 | **1,00** |
 
-Bu grup, önceki iki turda **ortalamanın üstünde sapan** gruptu (tur 2'de ortalama mutlak fark
-1,10; ölçülen 18 örnekte 0,86). Dolayısıyla **tur 3'ün başlık sayısı iyimser taraflıdır.**
-Bu 5 örnek tur 2'deki gibi davransaydı tur 3'ün ortalama mutlak farkı 0,694 değil **0,78**
-olurdu (üst sınır tahmini, ölçüm değil). Gerçek değer bu ikisinin arasında bir yerdedir ve
-**bilinmiyor**.
+Dört turun hepsinde olmayan üç yazma örneğinin geçmişi (eşleşik tabloya girmedi):
 
-Bu yüzden aşağıdaki tabloların hepsinde, tur karşılaştırması **üç turda da puanlanan aynı 18
-örnek** üzerinden verilmiştir (eşleşik). Her turun kendi kümesi üzerinden okunan sayılar ayrıca
-gösterildi ki fark görünsün.
+| Örnek | Gerçek | tur 1 | tur 2 | tur 3 | tur 5 | tur 6 |
+|---|---|---|---|---|---|---|
+| AC-ER-T1-B | 4,0 | — | — | — | **+1,5** | **+0,5** |
+| GT-T2-2B-B | 6,0 | — | −1,0 | −1,0 | — | **0,0** |
+| GT-T2-2B-C | 8,5 | — | −2,0 | **−2,5** | — | **−1,0** |
 
----
+**Alt band turu (5) → doğrulama turu (6), aynı 4 örnek:**
 
-## 1. Üç turun ölçüleri yan yana
-
-**Eşleşik (üç turda da puanlanan aynı 18 örnek) — karşılaştırılabilir olan budur:**
-
-| Ölçü | tur 1 | tur 2 | tur 3 |
+| Örnek | Gerçek | tur 5 verilen | tur 6 verilen |
 |---|---|---|---|
-| Ortalama mutlak fark | 0,944 | 0,861 | **0,694** |
-| Eğilim (+ cömert / − cimri) | −0,667 | −0,639 | **−0,139** |
-| En büyük tek sapma | 2,00 | 2,00 | **1,50** |
-| Tutarsızlık (aynı cevaptaki yayılım) | 0,33 | — ¹ | **0,19** |
-| ≥ 1,5 band sapan örnek | 7 / 18 | 7 / 18 | **1 / 18** |
-| Verilen puanların aralığı | 4,5 – 7,0 | 3,5 – 7,0 | 4,5 – 7,5 |
+| GT-T1-1B-A | 3,0 | 4,5 (+1,5) | **3,5 (+0,5)** |
+| AC-ER-T1-B | 4,0 | 5,5 (+1,5) | **4,5 (+0,5)** |
+| AC-T2-2A-A | 4,0 | 5,0 (+1,0) | **4,0 (0,0)** |
+| GT-T2-2B-A | 4,0 | 5,0 (+1,0) | **4,5 (+0,5)** |
+| **ortalama** | | **+1,25** | **+0,38** |
 
-¹ Tur 2'de her örnek **1 kez** puanlandı; yayılım tanım gereği 0,00 çıkar. `RAPOR-tur2.md`'deki
-"✅ geçti" o satırda **anlamsızdır** — tutarlılık tur 2'de sınanmadı.
+### Ne oldu — turdan tura
 
-**Her turun kendi örnek kümesi üzerinden (RAPOR-tur\*.md ile birebir aynı):**
+- **1. düzeltme (tur 1 → tur 2)** eğilimi hiç oynatmadı (−0,667 → −0,619 eşleşik).
+  Yalnız dilbilgisi ölçütünü ve orta bandı düzeltti.
+- **2. düzeltme (tur 2 → tur 3)** ölçeğin **tavanını açtı**: üst bandda (≥7) ortalama sapma
+  −1,50'den −1,11'e, tutarlılık ölçütü −2,11'den −1,22'ye indi. Eğilim −0,619 → −0,190.
+  Ama aynı değişikliklerin hiçbiri alt bandla sınırlı değildi ve **alt band bunun bedelini
+  ödedi**: ≤4,5 aralığı +0,50'den +1,00'a çıktı, alt banda nişan alan tur 5'te **+1,25**.
+  Gerçek bandı 3,0 olan cevap üründe 4,5 görünüyordu.
+- **3. düzeltme (tur 3+5 → tur 6)** alt bandı, üst bandı bozmadan kapattı. Bu turun asıl
+  sınavı buydu ve geçti.
 
-| Ölçü | tur 1 (n=21) | tur 2 (n=23) | tur 3 (n=18) |
-|---|---|---|---|
-| Ortalama mutlak fark | 0,952 | 0,913 | 0,694 |
-| Eğilim | −0,667 | −0,696 | −0,139 |
-| En büyük tek sapma | 2,00 | 2,00 | 1,50 |
-| Yayılım | 0,33 | 0,00 ¹ | 0,19 |
+### Band aralığı × ölçüt — yazma (tek seferlik puan; ölçüt bandı − gerçek genel band)
 
-**Ne oldu:** İlerlemenin neredeyse tamamı **2. düzeltmede** geldi. 1. düzeltme (tur 1 → tur 2)
-eğilimi hiç oynatmadı (−0,67 → −0,64); yalnız dilbilgisi ölçütünü ve orta bandı düzeltti.
-2. düzeltme (tur 2 → tur 3) eğilimi −0,64'ten −0,14'e indirdi. Aradaki fark, 2. düzeltmenin
-öğüt değil **yordam** değiştirmesi: ölçüt tablosunun 9'dan aşağı okunması (değişiklik 11) ve
-"7/8 satırı zaten hata içerir" kuralı (değişiklik 12).
-
-**Band aralığı × ölçüt (eşleşik 18 örnek, ölçüt bandı − gerçek genel band):**
-
-| Gerçek band | n | tur | görev | tutarlılık | kelime | dilbilgisi | **genel** |
+| Tur | Band | n | görev | tutarlılık | kelime | dilbilgisi | **genel** |
 |---|---|---|---|---|---|---|---|
-| ≥ 7 | 7 | 1 | −1,64 | −1,93 | −1,21 | −1,64 | **−1,50** |
-| | | 2 | −1,29 | −1,93 | −1,07 | −1,29 | **−1,36** |
-| | | 3 | −1,07 | −0,93 | −0,64 | −0,93 | **−0,79** |
-| 5 – 6,5 | 9 | 1 | −0,22 | −0,22 | −0,44 | −0,89 | **−0,39** |
-| | | 2 | −0,17 | −0,28 | −0,44 | −0,61 | **−0,33** |
-| | | 3 | +0,00 | +0,33 | +0,17 | −0,56 | **+0,06** |
-| ≤ 4,5 | 2 | 1 | +1,50 | +1,00 | +0,50 | +0,50 | **+1,00** |
-| | | 2 | +1,00 | +0,00 | +0,00 | +0,00 | **+0,50** |
-| | | 3 | +1,50 | +1,50 | +0,50 | +0,50 | **+1,25** |
+| 1 | ≥ 7 | 8 | −1,81 | −1,88 | −1,31 | −1,69 | **−1,56** |
+| 1 | 5–6,5 | 10 | −0,20 | −0,20 | −0,50 | −0,90 | **−0,40** |
+| 1 | ≤ 4,5 | 3 | +1,33 | +1,00 | +0,33 | +0,33 | **+0,83** |
+| 3 | ≥ 7 | 9 | −1,44 | −1,22 | −1,00 | −1,22 | **−1,11** |
+| 3 | 5–6,5 | 11 | −0,09 | +0,18 | −0,05 | −0,73 | **−0,05** |
+| 3 | ≤ 4,5 | 3 | +1,33 | +1,33 | +0,33 | +0,33 | **+1,00** |
+| 5 | ≤ 4,5 | 4 | +1,50 | +1,75 | +0,75 | +0,25 | **+1,25** |
+| **6** | ≥ 7 | 9 | −0,56 | −0,56 | 0,00 | −0,89 | **−0,44** |
+| **6** | 5–6,5 | 11 | 0,00 | +0,36 | +0,36 | −0,23 | **+0,18** |
+| **6** | ≤ 4,5 | 4 | +0,50 | +0,75 | 0,00 | 0,00 | **+0,38** |
 
-🔴 **Alt band geri gitti.** ≤4,5 aralığı tur 2'de +0,50 idi, tur 3'te **+1,25**. 2. düzeltmenin
-18 numaralı değişikliği (5-4 ayrımı) tam bu şişmeyi durdurmak içindi ve **tutmadı**: aynı
-düzeltmedeki altı yukarı yönlü değişiklik (11–17) alt bandı da yukarı itti. Bu, raporun en
-kötü bulgusudur ve düzeltmenin **yan hasarıdır**, tur 3'ün eksik olmasıyla ilgisi yoktur.
-Somut hâli: gerçek bandı **3,0** olan cevaba ürün **4,5** veriyor (tur 2'de 3,5 vermişti).
+Üç aralık da ilk kez aynı anda ±0,5 bandın içinde. Ölçek artık iki uçtan da açık:
+verilen puanlar 3,5 ile 8,5 arasında (tur 1'de 4,5–7,0 idi).
 
-Ne kadarına dayandığı da yazılmalı: bu aralıkta tur 3'te **yalnız 2 örnek** var (gerçek band
-3,0 ve 4,0). Yön nettir, büyüklüğü değildir.
+### 3. düzeltmenin tur 6'ya yazdığı beklentiler
+
+| # | Beklenti | Sonuç |
+|---|---|---|
+| 1 | Alt band (≤4,5) +1,28 → **+0,50 içine** | ✅ **GEÇTİ** — +0,38 |
+| 2 | Alt bandda tutarlılık +1,89 → **+0,75 içine**, görev +1,56 → **+0,75 içine** | ✅ **GEÇTİ** — tutarlılık +0,75 (tam sınırda), görev +0,50 |
+| 3 | Gerçek bandı 3,0–4,0 olan örneklerin en az birinde **≤4,0** puan | ✅ **GEÇTİ** — iki örnekte: GT-T1-1B-A → 3,5 · AC-T2-2A-A → 4,0 |
+| 4 | Üst band (≥7) **−1,10'un altına düşmemeli** (asıl risk) | ✅ **GEÇTİ, hem de iyileşti** — −1,11 → −0,44 |
+| 5 | Orta band (5–6,5) **−0,35'in dışına çıkmamalı** | ✅ **GEÇTİ** — −0,05 → +0,18 |
+| 6 | Yazma eğilimi **−0,25 ile +0,10 arasında** | ✅ **GEÇTİ** — −0,021 |
+| 7 | Saklı küme farkı **açılmamalı** (tur 3'te 0,25) | 🔴 **KALDI** — 0,292. Bölüm 2 |
+| 8 | Konuşma dokunulmadığı için sabit kalmalı: MAE 0,583 ± 0,15 | ✅ toplamda geçti (0,458) ama **ölçüt düzeyinde kaydı** — bkz. `SONUC-konusma.md` |
+
+Sekiz beklentinin altısı temiz geçti, biri sınırda, biri kaldı. Kalan (7) ezber şüphesidir
+ve bir sonraki bölümün konusudur.
 
 ---
 
 ## 2. Saklı küme ile açık küme karşılaştırması
 
-Kümelerin düzeltme oturumlarında ne olduğu:
+Kurulum: her düzeltme örneklerin üçte birini **hiç görmedi**; sonraki tur o kümeyi sınadı.
+Açık kümede iyi + saklı kümede kötü = düzeltme örneklere ezberlenmiş demektir.
 
-| Küme | 1. düzeltme | 2. düzeltme |
-|---|---|---|
-| S1 | görünür | **SAKLI** |
-| S2 | görünür | görünür |
-| S3 | **SAKLI** | görünür |
+| Düzeltme | SAKLI küme | Sınayan tur | Saklı (n, ort. mutlak) | Açık (n, ort. mutlak) | **Fark** |
+|---|---|---|---|---|---|
+| 1. | S3 | tur 2 | 7 · 0,857 | 16 · 0,938 | **0,080** |
+| 2. | S1 | tur 3 | 8 · 0,750 | 15 · 0,833 | **0,083** |
+| 3. | **S2** | **tur 6** | 12 · **0,583** | 24 · **0,292** | **0,292** |
 
-**Sınav 1 — 1. düzeltmenin saklı kümesi (S3), tur 2'de:** S3 **0,857** · o turda görünür olan
-S2 **1,000**. Saklı küme, görünür kümeden **daha kötü değil**.
+İlk iki düzeltmede saklı küme **açık kümeden iyi** çıktı; orada ezber yok. Üçüncüsünde
+yön tersine döndü ve fark üç katına çıktı.
 
-**Sınav 2 — 2. düzeltmenin saklı kümesi (S1), tur 3'te:**
+### 🔴 3. DÜZELTMENİN AYARI ÖRNEKLERE EZBERLENMİŞ OLABİLİR.
 
-| | n | Ortalama mutlak fark | Eğilim |
+Saklı küme S2, doğrulama turunda açık kümelerin **iki katı** sapıyor (0,583 / 0,292).
+Bu, önceki iki turda görülmeyen bir örüntüdür ve raporun **büyük harfle yazılması gereken**
+tek bulgusudur. Beceriye ayırınca fark iki tarafta da duruyor, yani tek bir beceriden
+gelmiyor:
+
+| Beceri | S2 (saklı) | S1+S3 (açık) | Fark |
 |---|---|---|---|
-| S1 (son ayarın **görmediği** küme) | 7 | **0,714** | +0,000 |
-| S2 + S3 (son ayarın gördüğü kümeler) | 11 | **0,682** | −0,227 |
-| **Fark** | | **0,032 band** | |
+| yazma | 8 · 0,562 | 16 · 0,250 | 0,312 |
+| konuşma | 4 · 0,625 | 8 · 0,375 | 0,250 |
 
-**Sonuç: ezber işareti yok.** İki küme arasındaki fark 0,032 band — ölçüm çözünürlüğünün
-(0,5 band) çok altında. Aynı kontrol her iki düzeltme için de ayrı ayrı yapıldı ve ikisi de
-temiz çıktı. Ölçeğin **iki uçtaki hatası** (üst bandda cimrilik, alt bandda şişme) saklı
-kümede de görünür kümede de **aynen duruyor** — ezberde beklenen şey bunun tersidir.
+**Karşı kanıt — kaydedilmesi gereken, ama şüpheyi kaldırmayan:**
 
-Küme bazında eğilimlerdeki fark (S3 −0,600, S1 +0,000, S2 +0,083) **bileşim etkisidir, ezber
-değil**: tur 3'te puanlanamayan 5 örnekten ikisi S3'ün tek düşük bandlı örnekleriydi
-(GT-T2-2B-A 4,0 · GT-T2-2A-A 5,0). Geriye kalan S3, gerçek bandı 5,5–8,5 olan 5 örnekten
-oluşuyor — yani modelin hâlâ cimri olduğu aralığın tamamı. S1'de ise en düşük bandlı örnek
-(GT-T1-1B-A, 3,0) duruyor ve tek başına +1,5 sapıyor. Ortalama **mutlak** fark bu bileşim
-farkından etkilenmez ve ikisinde de aynıdır.
+1. **S2 zaten en zor kümedir ve görünürken de en kötüydü.** Küme bazında ortalama mutlak fark:
 
-### Bu kontrolün kendi zayıflıkları (sonuç temiz çıksa bile yazılmalı)
+   | Tur | S1 | S2 | S3 | S2 o turda görünür müydü? |
+   |---|---|---|---|---|
+   | 1 | 1,000 | 0,857 | 1,000 | (düzeltme öncesi) |
+   | 2 | 0,875 | **1,000** | 0,857 | **görünürdü** (1. düzeltme S1+S2 gördü) |
+   | 3 | 0,750 | **1,125** | 0,500 | **görünürdü** (2. düzeltme S2+S3 gördü) |
+   | 4 | 0,875 | 0,625 | 0,250 | görünürdü |
+   | 6 | 0,333 | **0,583** | 0,250 | **saklıydı** |
 
-- **Küme başına 5–7 örnek.** 0,3 bandın altındaki bir ezber etkisini bu n ile ayırt edemeyiz.
-- **Tur 3'ün eksiği kümelere eşit dağılmadı:** S1 −1 örnek, S2 −2, S3 −2. Karşılaştırma bu
-  yüzden tam simetrik değil.
-- **Saklı küme koruması rapor biçimi yüzünden ideal değildi.** `RAPOR-tur2.md`'nin "Örnek örnek"
-  tablosu bütün kümeleri tek tabloda listeliyor; 2. düzeltme oturumu dosyayı açtığında S1
-  satırları da ekrana geldi (bkz. `degerlendirme/DEGISIKLIK-KAYDI.md`, "Saklı küme hakkında
-  dürüst not"). O oturum bütün analizini kümeye kilitli iki script ile S2+S3 üzerinden yaptı ve
-  S1'in cevap metinlerini, sınav görevlisi yorumlarını, ölçüt puanlarını hiç açmadı — ama band
-  ve sapma satırları göz ucuyla görüldü. **Kalan iş:** `tools/puanlama-raporu.py` kümeye göre
-  bölünmüş rapor üretecek şekilde düzeltilmeli.
-- Hiçbir küme **hiç görülmemiş** değil; her küme en az bir düzeltmede görünürdü. Tam anlamıyla
-  el değmemiş bir test kümesi bu projede **yok**.
+   S2, kendisini **gören** iki düzeltmenin ardından da üç kümenin en kötüsüydü (tur 2 ve
+   tur 3). Ezber varsayımı bunu açıklamaz: ezberlenmiş bir küme görünürken **iyi** çıkardı.
+
+2. **Farkın kaynağı içerik olarak belli.** S2, ölçekteki en zor iki yazma örneğini
+   (GT-T2-2B-C 8,5 · GT-T2-2A-B 8,0), projenin baştan beri kapanmayan tek yazma sapmasını
+   (AC-T1-1C-A) ve konuşmadaki iki büyük sapmadan birini (SP-band7_5-1) taşıyor. S2'nin
+   toplam 7,0 bandlık mutlak sapmasının **4,0'ı bu dört örnekten** geliyor; onlar
+   çıkarılınca kalan sekiz örneğin ortalaması 0,375'e iniyor.
+
+3. **Kümeler tek seferlik puanla, 12 örnekle ölçülüyor.** Bir örneğin 0,5 band oynaması
+   küme ortalamasını 0,042 oynatır; 0,292'lik fark, S2'nin **yedi örneğinin yarımşar band
+   düzelmesine** eşittir. Bu büyüklükte bir farkı gürültüden ayırmak 12 örnekle mümkün değil.
+
+**Karar:** bu veri ezberi ne kanıtlıyor ne de eliyor. Fark yönü yanlış, büyüklüğü şüphe
+uyandırmaya yeter, ama alternatif açıklama (küme zorluğu) daha iyi destekleniyor. Doğru
+davranış bunu **açık bir risk olarak taşımaktır** — bkz. bölüm 5, risk 1. Ayırt etmenin tek
+yolu **yeni, hiç görülmemiş örneklerle** ölçüm yapmaktır; mevcut 36 örnek bunu yapamaz.
 
 ---
 
 ## 3. Başarı ölçütleri — tek tek
 
-Ölçüt `prompts/SONNET5-A3-puanlama-olcumu.md`'den; sonuç tur 3'ün ölçülen 18 örneğinden.
+Doğrulama turu (tur 6), 36 örnek, tek seferlik puan:
 
-| # | Ölçüt | Hedef | tur 1 | tur 2 | tur 3 | Sonuç |
-|---|---|---|---|---|---|---|
-| 1 | Ortalama mutlak fark | < 0,5 band | 0,952 | 0,913 | **0,694** | 🔴 **KALDI** |
-| 2 | Tek örnekte sapma | hiçbirinde ≥ 1,5 olmayacak | 2,00 | 2,00 | **1,50** | 🔴 **KALDI** |
-| 3 | Eğilim | ±0,25 band içinde | −0,667 | −0,696 | **−0,139** | ✅ **GEÇTİ** |
-| 4 | Aynı cevaptaki yayılım | ≤ 0,5 band | 0,33 | — ¹ | **0,19** | ✅ **GEÇTİ** |
+| Ölçüt | Hepsi (n=36) | Yazma (n=24) | Konuşma (n=12) |
+|---|---|---|---|
+| Ortalama mutlak fark < 0,5 band | ✅ **0,389** | ✅ 0,354 | ✅ 0,458 |
+| Hiçbir örnekte ≥ 1,5 band sapma yok | 🔴 **KALDI** — 2 örnek | ✅ en büyük 1,00 | 🔴 **KALDI** — 2 örnek |
+| Eğilim ±0,25 band içinde | ✅ **−0,139** | ✅ −0,021 | 🔴 **KALDI** — −0,375 |
+| Aynı cevaba verilen puanların yayılımı ≤ 0,5 | ⚪ **ÖLÇÜLMEDİ** | ⚪ ÖLÇÜLMEDİ | ⚪ ÖLÇÜLMEDİ |
 
-**4 ölçütten 2'si geçti.** Üçü de tur 1'de kalmıştı; ikisi düzeltmelerle geçti, ikisi kaldı.
+**Ölçüt 1 — geçti.** Ortalama mutlak fark 0,952'den 0,389'a indi; eşleşik 21 yazma örneğinde
+0,952 → 0,333.
 
-Ölçüt 2 hakkında: kalan tek sapma **tam 1,50** (GT-T1-1B-A: gerçek 3,0 → verilen 4,5). Eşiğe
-sıfır pay ile takılıyor ve yönü **yukarı** — yani ölçüt 2'yi düşüren hata ile bölüm 1'deki alt
-band şişmesi **aynı hatadır**. Tur 2'de ≥1,5 sapan 7 örnek vardı; bunların 5'i tur 3'te
-ölçüldü ve **beşi de** 1,0'ın altına indi. Kalan 2'si (GT-T2-2A-B, GT-T2-2B-C — ikisi de
-−2,0) tur 3'te **hiç ölçülmedi**. Ölçüt 2'nin gerçek durumu bu iki örnek puanlanmadan
-bilinemez.
+**Ölçüt 2 — kaldı, ve kalan iki örnek de konuşmadır.** SP-band7_5-1 (7,5 → 6,0) ve
+SP-band8-2 (8,0 → 6,5). Yazmada ≥1,5 sapan örnek **kalmadı** (tur 1'de 7/21 idi). Ayrıntı
+`SONUC-konusma.md`.
 
-Ölçüt 1 hakkında: 0,952 → 0,694 gerçek bir iyileşme ama hedefin (0,5) **%39 üstünde**, üstelik
-iyimser taraflı bir sayı. Hedefe bu talimatla ulaşılacağına dair veri yok.
+**Ölçüt 3 — toplamda geçti, konuşmada kaldı.** Yazmanın eğilimi pratik olarak sıfır
+(−0,021). Konuşma −0,375 ile cimri tarafta ve tur 4'e göre (−0,250) **kötüleşti**.
+
+**Ölçüt 4 — 🔴 bu turda ölçülmedi, "geçti" sayılamaz.** Tur 6'da her örnek **bir kez**
+puanlandı; yayılım tanım gereği 0,00 çıkar. `RAPOR-tur6.md`'nin o satırdaki "✅ geçti"si
+bir ölçüm değil, aritmetik bir zorunluluktur. Tutarlılığın **gerçekten** ölçüldüğü son
+turlar:
+
+| Tur | Ne | Tekrar | Yayılım | Sonuç |
+|---|---|---|---|---|
+| 3 | yazma | 3 | 0,28 (11/23 örnek oynadı, en fazla 1,0) | ✅ geçti |
+| 5 | yazma, alt band | 3 | 0,25 (2/4 örnek oynadı) | ✅ geçti |
+| 4 | **konuşma** | 6 | **0,79 (11/12 örnek oynadı, ikisi 1,5)** | 🔴 **KALDI** |
+
+Yani: **yazmanın tutarlılığı 3. düzeltmeden önce ölçüldü ve geçiyordu; konuşmanınki
+ölçüldü ve kaldı; 3. düzeltmeden sonra ikisi de yeniden ölçülmedi.** Tekrarlı bir konuşma
+turu bu projenin en öncelikli eksiğidir.
 
 ---
 
 ## 4. Ürünün gerçek davranışı — tek seferlik puanların dağılımı
 
-Kullanıcı ortalama görmez, **tek bir puan** görür. Tur 3'te 18 örneğin her birinin **ilk**
-puanlaması (ortalama değil):
+Kullanıcı ortalama görmez; **tek bir puan** görür. Doğrulama turunda o tek puanın gerçek
+banda göre dağılımı:
 
-| Verilen − gerçek | Kaç örnek | Örnekler |
-|---|---|---|
-| −1,0 | 5 | AC-T1-1B-A · AC-T1-1B-B · AC-T1-1C-C · AC-T2-2A-C · GT-T1-1B-D |
-| −0,5 | 5 | AC-T1-1A-B · AC-T1-1C-B · AC-T2-2A-B · AC-T2-2B-B · GT-T1-1A-B |
-| **0,0** | **2** | GT-T1-1B-B · GT-T1-1B-C |
-| +0,5 | 3 | AC-T1-1A-A · AC-T2-2B-A · GT-T1-1A-A |
-| +1,0 | 2 | AC-T1-1C-A · AC-T2-2A-A |
-| +1,5 | 1 | GT-T1-1B-A |
-
-| | tur 1 (n=21) | tur 2 (n=23) | tur 3 (n=18) |
+| Fark | Kaç örnek (36) | Yazma (24) | Konuşma (12) |
 |---|---|---|---|
-| Tam isabet | %14 | %17 | **%11** |
-| ±0,5 band içinde | %43 | %43 | **%56** |
-| ±1,0 band içinde | %67 | %70 | **%94** |
-| ≥1,5 band sapma | 7 örnek | 7 örnek | **1 örnek** |
+| −1,5 | 2 | 0 | 2 |
+| −1,0 | 1 | 1 | 0 |
+| −0,5 | 11 | 7 | 4 |
+| **0,0** | **14** | 9 | 5 |
+| +0,5 | 7 | 6 | 1 |
+| +1,0 | 1 | 1 | 0 |
 
-**Bunun kullanıcı için anlamı, düz cümlelerle:**
+| | Hepsi | Yazma | Konuşma | (karşılaştırma: tur 3 yazma) |
+|---|---|---|---|---|
+| Tam isabet | 14/36 (%39) | 9/24 (%38) | 5/12 (%42) | 3/23 (%13) |
+| 0,5 band içinde | **32/36 (%89)** | 22/24 (%92) | 10/12 (%83) | 12/23 (%52) |
+| 1,0 band içinde | 34/36 (%94) | **24/24 (%100)** | 10/12 (%83) | 20/23 (%87) |
+| ≥1,5 band sapma | 2/36 | **0/24** | 2/12 | 3/23 |
+| Cömert / tam / cimri | 8 / 14 / 14 | 7 / 9 / 8 | 1 / 5 / 6 | 7 / 3 / 13 |
 
-- Kullanıcının aldığı puanın **doğru band olma ihtimali yaklaşık %11**. Tam isabet üç turda da
-  düşük ve tur 3'te **artmadı**; iyileşen şey isabet değil, **hatanın büyüklüğü**.
-- Puanların **%94'ü gerçek banddan en fazla 1 band uzakta**. Ürünün dürüst tarifi budur:
-  "yaklaşık ±1 band."
-- **Yön hâlâ simetrik değil.** Üst bandda (gerçek ≥7) ortalama −0,79; alt bandda (≤4,5)
-  ortalama +1,25. Yani ürün **iyi yazana hak ettiğinden az, kötü yazana hak ettiğinden çok**
-  veriyor. Genel eğilimin −0,139'a inmesi bu iki hatanın **birbirini ortalamada götürmesidir**,
-  ikisinin de düzelmesi değil. Ölçütlerden biri geçti diye ürün ortalanmış sayılmaz.
-- **Ölçek hâlâ dar:** gerçek bandlar 3,0–8,5'e yayılırken verilen puanlar **4,5–7,5**.
-  Ürün pratikte 9 ve 8,5 vermiyor; 3 ve 4 de vermiyor.
-- **Tutarsızlık:** 18 örneğin 7'sinde üç puanlama aynı çıkmadı (yayılım 0,5); 11'inde üçü de
-  aynı. Ortalama yayılım 0,19. Aynı cevabı iki kez gönderen kullanıcı, **10 kişiden ~4'ünde**
-  yarım band farklı bir sonuç görür. Ölçüt geçti ama kullanıcının gördüğü şey budur.
+**Kullanıcı tarafından okunuşu:**
 
----
+- Tipik kullanıcı **doğru bandı ya da yarım band komşusunu** alıyor (%89).
+- Yazmada, on kullanıcıdan onu **1,0 bandın içinde** puan alıyor; 1,5 band veya daha fazla
+  sapma yazmada artık **hiç görülmüyor**.
+- Kalan iki büyük sapmanın ikisi de konuşmadadır ve ikisi de **cimri** yöndedir (7,5 →
+  6,0 · 8,0 → 6,5). Ürün yüksek seviyeli bir konuşmacıya "ortanın biraz üstü" diyebiliyor.
+  Yönü doğru olan yanlış budur: kullanıcı hazır olmadığını sanır, hazır olmadığı hâlde
+  hazır sanmaz.
+- Alt bandda şişme kapandı: gerçek bandı 3,0 olan cevap artık **3,5**, 4,0 olan üç cevap
+  **4,0 / 4,5 / 4,5** görünüyor. Tur 5'te bunlar 4,5 / 5,0 / 5,0 / 5,5 idi.
+- Ürünün verdiği puan aralığı **3,5–8,5**. Tur 1'de 4,5–7,0 idi: ölçek her iki uçtan da
+  gerçekten açıldı, dar bir orta banda sıkışma yok.
 
-## 5. 2. düzeltmenin beklentileri tuttu mu
-
-`DEGISIKLIK-KAYDI.md`'nin "Sınanacak beklenti (tur 3)" listesi, tur 3'ün ölçülen 18 örneğiyle:
-
-| # | Beklenti | Sonuç |
-|---|---|---|
-| 1 | Üst band (≥7) sapması −1,50'den **−0,75 içine** girsin, en az bir örnek 7,5+ alsın | ⚠️ **KIL PAYI KALDI** — −0,79 (hedefe 0,04 uzak). 7,5 şartı ✅ tuttu (AC-T2-2A-C 7,5, AC-T1-1C-C 7,5). n=7 |
-| 2 | Üst bandda tutarlılık ölçütü −2,17'den **−1,00 içine** | ✅ **GEÇTİ** — −0,93. Tavanların `max 5` → `max 6` derecelendirmesi (değişiklik 13) turun en net çalışan kalemi |
-| 3 | En büyük tek sapma **2,0'ın altına** | ✅ **GEÇTİ** — 1,50 |
-| 4 | Eğilim −0,70'ten **−0,35 içine** | ✅ **GEÇTİ** — −0,139 |
-| 5 | Orta band (5–6,5) **+0,25'i geçmesin** | ✅ **GEÇTİ** — +0,06. Cimrilikten çıktı, cömertliğe geçmedi |
-| 6 | Alt band (≤4,5) **+0,50'nin üstüne çıkmasın** | 🔴 **KALDI** — +1,25. Tam ters yöne gitti |
-| 7 | Saklı küme (S1) farkı **açılmasın** | ✅ **GEÇTİ** — 0,032 band |
-
-Yedi beklentiden **beşi tuttu**, biri kıl payı kaçtı, biri **ters yöne gitti**. 2. düzeltmenin
-kendi kaydında "bu düzeltmenin en belirsiz yeri" diye işaretlediği madde (alt band) **doğru
-tahmin edilmiş korku çıktı**.
+**Ayakta kalan tek yazma kusuru:** AC-T1-1C-A (gerçek band 5,0) dört turda ölçüldü ve
+üçünde **+1,0**, birinde +0,5 sapma verdi; hiçbir düzeltmede kıpırdamadı — tur 6'da bile
+6,0 aldı ve turun **tek** +1,0'lık yazma sapması odur. Tek örnek olduğu için kural
+yazılmadı (örneğe özel kural yasak); örüntü doğrulanana kadar da yazılmamalı.
 
 ---
 
-## 6. Kalan riskler
+## 5. Kalan riskler
 
-### 🔴 R1 — Konuşma puanlaması **hiç ölçülmedi**
+Sonuç iyi çıktığı hâlde aşağıdakiler **duruyor**. Hiçbiri bu ölçümle kapanmaz.
 
-`kalibrasyon/ornekler/` altında **konuşma klasörü yok**; yalnız `yazma/` var. Üç turda
-puanlanan örneklerin **tamamı yazma**. Bu, prompt'un uyardığı "Part 1 örneği yok" durumundan
-daha geniştir: Part 1 de, Part 2 de, Part 3 de ölçülmedi.
+1. 🔴 **Saklı küme farkı yanlış yöne döndü (0,08 → 0,08 → 0,292).** Bölüm 2'de yazıldı:
+   ezber ne kanıtlandı ne elendi. Ayırt etmenin tek yolu **hiç kullanılmamış yeni
+   örneklerle** bir ölçüm turudur. Bu yapılmadan "kalibrasyon bitti" denemez.
 
-`degerlendirme/konusma.md`'ye giren bütün değişiklikler (11, 12, 14, 15, 16 ve 1. düzeltmenin
-1–4, 9–10'u) **yazma verisinden genellenmiştir** ve konuşmada sınanmamıştır. Konuşmanın kendi
-tavan değerlerine (hepsi hâlâ `max 5` — yazmada bunların iki band fazla sert olduğu ölçüldü ve
-`max 6`'ya çekildi) **hiç dokunulmadı**, çünkü onları ayarlayacak veri yok. Yazmada bulunan üst
-band çöküşünün konuşmada **daha büyük** olması beklenir.
+2. 🔴 **Tutarlılık 3. düzeltmeden sonra hiç ölçülmedi.** Tur 6 tek puanlamalıdır. Son
+   gerçek ölçümler: yazma 0,28 (geçti), **konuşma 0,79 (kaldı)**. Konuşmada aynı cevaba
+   altı puanlamada 1,5 band fark verilen iki örnek vardı. Ürün tek puan gösterdiği için
+   bu doğrudan kullanıcıya yansır. **Tekrarlı bir konuşma turu, sıradaki iş budur.**
 
-**Sonuç: bu raporun sayılarının hiçbiri konuşma için geçerli değildir.**
+3. 🔴 **Konuşmada Part 1 örneği yok.** On iki konuşma örneğinin hepsi Part 2/3.
+   Tanışma sorularında (kısa, kişisel, düşük yüklü konuşma) ürünün davranışı
+   **hiç ölçülmedi**. Kullanıcının ilk karşılaşacağı bölüm tam olarak orasıdır.
 
-### 🔴 R2 — Örnek sayısı az; band bazlı ince ayar yapılamaz
+4. 🔴 **Örnek sayısı az — band başına 1-2.** 36 örnek, dokuz band değeri, iki beceri,
+   üç yazma görev türü. Bu veriyle **band bazlı ince ayar yapılamaz**; yalnız üç geniş
+   aralık (≤4,5 · 5–6,5 · ≥7) okunabilir. Alt bandın tamamı **4 örneğe** dayanıyor ve
+   gerçek bandı **3,0'ın altında hiç örnek yok**. Konuşmada band 5'in altı yok.
 
-Toplam 23 örnek, gerçek band başına dağılımı:
+5. 🔴 **Puanlayan da, talimatı yazan da, örnekleri döken de aynı model ailesi.** Ortak kör
+   noktalar bu ölçüm düzeneğinde **yapısal olarak görünmez**: talimatı yazan model kendi
+   anladığı ölçütü yazıyor, puanlayan model aynı ölçütü aynı biçimde anlıyor, sapma
+   raporda çıkmıyor. Farklı aileden ikinci bir puanlayıcıyla çapraz kontrol
+   **proje sahibinde bekliyor**; bu ölçüm serisi onun yerine geçmez.
 
-| Band | 3,0 | 4,0 | 5,0 | 5,5 | 6,0 | 6,5 | 7,0 | 7,5 | 8,0 | 8,5 |
-|---|---|---|---|---|---|---|---|---|---|---|
-| Örnek | 1 | 2 | 3 | 3 | 4 | 1 | 4 | 1 | 1 | 3 |
-| tur 3'te ölçülen | 1 | 1 | 2 | 3 | 3 | 1 | 4 | 1 | **0** | 2 |
+6. **Konuşmanın akıcılık ölçütü doğrulama turunda aşağı kaydı** (−0,12 → −0,58) ve
+   konuşmanın eğilimi −0,250'den −0,375'e gitti. 3. düzeltme `konusma.md`'ye yalnız ortak
+   bloklardan (19–22) dokunmuştu; beklenti tam olarak "bozulursa bozan ortak bloklardır"
+   diyordu. Tek turluk, tek puanlamalı veriyle bu **gürültü de olabilir**, ortak blokların
+   konuşmaya sızması da. Ayrıntı ve karar önerisi `SONUC-konusma.md`'de.
 
-Band başına 1–4 örnek. Bu yüzden:
+7. **Konuşmada kelime ölçütü orta bandda hâlâ yüksek** (tur 4 +0,70 · tur 6 +0,60), üç
+   ölçüt içinde en yükseği. Bilerek düzeltilmedi (aynı turda iki yöne birden itmemek
+   için). Ölçülmüş, açık, kapanmamış bir sapmadır.
 
-- Tek bir bandın davranışı hakkında **ayar yapılamaz**; bütün düzeltmeler band **aralığı**
-  (≥7 / 5–6,5 / ≤4,5) üzerinden yapıldı ve öyle yapılmalı.
-- Alt band grubunda tur 3'te **2 örnek** var. Bölüm 1'deki +1,25'lik şişmenin **yönü** güvenilir,
-  **büyüklüğü** değil.
-- **Band 8,0 tur 3'te hiç ölçülmedi.**
-- Bütün örnekler yazma; modül dağılımı: Academic Task 1 = 7, Academic Task 2 = 5,
-  General Training Task 1 = 6, General Training Task 2 = 5. Görev türü başına 5–7 örnek — bu da
-  görev türüne özel bir sapma tespiti için yetersizdir.
-
-### 🔴 R3 — Tur 3 eksik ölçüldü (23 örnekten 18)
-
-Bölüm 0'da anlatıldı. Etkisi: son turun başlık sayıları **iyimser taraflı**; eksik grup önceki
-turlarda ortalamanın üstünde sapıyordu ve en büyük iki sapma (−2,0 ve −2,0, gerçek band 8,0 ve
-8,5) o grupta. **Ölçüt 2'nin (≥1,5 sapma yok) gerçek durumu bilinmiyor.**
-**Kalan iş:** `python tools/puanlama-raporu.py 3`, GT-T2 grubu Sonnet ile puanlandıktan sonra
-tekrar çalıştırılmalı.
-
-### 🔴 R4 — Puanlayan da, talimatı yazan da, örnekleri döken de aynı model ailesi
-
-Örnek cevapları el yazısından metne döken, değerlendirme talimatını yazan, talimatı düzelten ve
-o talimatla puanlayan — hepsi Claude ailesinden modeller. **Ortak kör noktalar bu kurulumda
-görünmez.** Bir kusuru hem yazan hem ölçen aynı aile ise, o kusur ölçümde hata olarak
-belirmez. Farklı bir aileden ikinci bir puanlayıcıyla kontrol yapılmadı ve
-**proje sahibinde bekliyor.**
-
-Aynı sebep, dökümlerin kendisi için de geçerli: gerçek bandlar resmî kaynaktan, ama
-**metne dökme** işi model tarafından yapıldı.
-
-### R5 — Alt bandda ürün yanlış yönde hata yapıyor (en tehlikeli tek bulgu)
-
-Gerçek bandı 3,0 olan cevap **4,5** alıyor; 4,0 olan **5,0** alıyor. Kullanıcı açısından bu,
-"ortalama ±1 band" ifadesinden daha kötüdür: **hazır olmadığı hâlde hazır sanır** ve sınava
-erken girer. Ürün, ters yöndeki hatasını (iyi yazana az verme) kullanıcının canını yakmadan
-telafi eder; bu yöndekini etmez.
-
-**Kalan iş:** bu, bir sonraki düzeltme turunun **birinci maddesi** olmalıdır. Bu raporda
-düzeltme yapılmadı çünkü bu adım rapor adımıdır; ayrıca ≤4,5 aralığında yalnız 3 örnek
-(2 tanesi tur 3'te ölçüldü) var — düzeltmeden önce **alt band örneği çoğaltılmalı.**
-
-### R6 — Ölçüm sırası ve saklı küme koruması kusurluydu
-
-Bölüm 2'nin sonunda sayıldı: `RAPOR-tur2.md`'nin tek tablolu biçimi 2. düzeltme oturumunda
-saklı küme satırlarını ekrana getirdi; hiçbir küme "hiç görülmemiş" değil; tur 2'de tekrar
-sayısı 1 olduğu için tutarlılık o turda sınanmadı.
-
-### R7 — 4 başarı ölçütünden 2'si hâlâ tutmuyor
-
-Ortalama mutlak fark 0,694 (hedef < 0,5) ve en büyük sapma 1,50 (hedef < 1,5). Ürün, kendi
-kabul ölçütlerini **karşılamıyor.** Eğilimin ±0,25'e girmesi bunu değiştirmez (bölüm 4: iki
-zıt yönlü hatanın ortalamada birbirini götürmesi).
+8. **AC-T1-1C-A** dört ölçümün üçünde +1,0 sapıyor ve hiçbir düzeltmeden etkilenmedi;
+   tek örnek olduğu için sebebi bilinmiyor. Aynı görev türünden (Academic Task 1, band 5)
+   ikinci bir örnek gerekiyor: örüntüyse düzeltilir, değilse gürültüdür.
 
 ---
 
-## 7. Kapanış
+## 6. 🔴 Kapanış
 
-Üç turda ölçülen ve düzeltilen şey **yazma puanlamasıdır** (konuşma için R1'e bakınız: hiç
-ölçülmedi). Sapma 0,95 banddan 0,69 banda indi, sistematik cimrilik büyük ölçüde kapandı,
-model tutarlı; buna karşılık kabul ölçütlerinin yarısı hâlâ tutmuyor ve alt bandda ürün yanlış
-yönde hata yapıyor.
+Bu iş **yazma ve konuşma puanlamasının** güvenilirliğini ölçer.
 
-🔴 **Bu iş yalnızca yazma ve konuşma puanlamasının güvenilirliğini ölçer.
-Okuma/dinlemede "kaç doğru = hangi band" eşiğini DOĞRULAMAZ** — o eşik yalnız canlı kullanım
-verisiyle ayarlanabilir ve bu projede hiç sınanmadı. **Bu yüzden üründe "tahmini band" ibaresi
-kalkmaz.**
+Okuma ve dinlemede "kaç doğru = hangi band" eşiğini **doğrulamaz**. O eşik ancak canlı
+kullanım verisiyle ayarlanabilir; elimizdeki kaynaklarda (Cambridge IELTS 1–8) band çevrim
+tablosu **yok**, yalnız hazırlık amaçlı üç aralıklı çizelgeler var, ve depodaki
+`band_thresholds` değerleri hedef değil **çapa**dır.
+
+Bu yüzden üründe **"tahmini band"** ibaresi **kalkmaz**.

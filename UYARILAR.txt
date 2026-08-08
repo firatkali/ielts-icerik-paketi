@@ -1163,3 +1163,41 @@
 
 09.08.2026 00:52
   - isaretli (flagged)     237
+
+09.08.2026 01:09
+  - isaretli (flagged)     237
+
+
+09.08.2026 (OPUS5-A4 SON RAPOR: duzeltme YOK)
+  - kalibrasyon/olcum/SONUC.md bastan yazildi (tamamlanmis tur 3 + alt band turu
+    tur 5 + dogrulama turu tur 6). Konusma icin ayrica SONUC-konusma.md yazildi.
+    degerlendirme/ altinda hicbir dosya degismedi, DEGISIKLIK-KAYDI.md'ye madde
+    eklenmedi. Butun sayilar yeni tools/_a4_sonuc_son.py ile ham puanlama
+    dosyalarindan hesaplandi.
+  - Onceki SONUC.md (07.08) tur 3 yarim (18/23) iken yazilmisti; tur 3 tamamlandi
+    (23 ornek x 3), o yuzden dosya guncellenmedi, YERINE gecen surum yazildi.
+  - Tur 6 (36 ornek x 1): ort. mutlak fark 0,389 - egilim -0,139 - en buyuk sapma
+    1,50. Yazma 0,354 / -0,021, konusma 0,458 / -0,375.
+  - Basari olcutleri: MAE gecti, egilim gecti (yazmada), >=1,5 sapma KALDI (iki
+    ornek, ikisi de konusma), yayilim OLCULMEDI (tur 6 tek puanlamali; RAPOR-tur6
+    ve RAPOR-tur2'deki "yayilim gecti" satirlari anlamsizdir).
+  - 3. duzeltmenin sekiz beklentisinin altisi gecti: alt band +1,25 -> +0,38, ust
+    band -1,11 -> -0,44, orta band +0,18, yazma egilimi -0,021, gercek bandi 3,0
+    olan cevap ilk kez 3,5 aldi. Yazmada >=1,5 sapan ornek KALMADI.
+  - [!] SAKLI KUME: 3. duzeltmenin sakli kumesi S2, tur 6'da acik kumelerin iki
+    kati sapiyor (0,583 / 0,292). Onceki iki turda fark 0,08 idi. Ezber ne
+    kanitlandi ne elendi; karsi kanit S2'nin GORUNURKEN de (tur 2, tur 3) en kotu
+    kume olmasi. Ayirt etmenin tek yolu HIC KULLANILMAMIS yeni orneklerle bir tur.
+  - [!] Konusmada akicilik olcutu -0,12'den -0,58'e kaydi (ust bandda -1,00). Iki
+    1,5 bandlik sapmanin ikisi de bu olcutten. Mekanizma: 19 numarali inis kurali
+    ("altindaki satiri da oku") modelin ZATEN yanlis satira oturdugu yerde hatayi
+    buyutuyor. Sinir ihlali yok, ama konusmada inis kuralina durus kosulu gerekiyor.
+  - [!] SIRADAKI IS: tekrarli bir KONUSMA turu. Konusmanin tutarliligi 3.
+    duzeltmeden sonra hic olculmedi; son gercek olcum tur 4'te 0,79 (KALDI), iki
+    ornekte 1,5 band. Yazmanin son tutarlilik olcumu tur 3'te 0,28 (gecti).
+  - Duran riskler: konusmada Part 1 ornegi YOK (12 ornegin 10'u Part 3, 2'si Part
+    2), konusmada band 5 alti YOK, yazmada band 3 alti YOK, band basina 1-2 ornek,
+    AC-T1-1C-A dort olcumun ucunde +1,0 (hicbir duzeltmeden etkilenmedi),
+    puanlayan/talimati yazan/ornekleri secen ayni model ailesi.
+  - Okuma/dinlemede "kac dogru = hangi band" esigi DOGRULANMADI; urunde "tahmini
+    band" ibaresi kalkmaz.
