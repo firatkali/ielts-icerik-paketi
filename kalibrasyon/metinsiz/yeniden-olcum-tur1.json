@@ -1,0 +1,976 @@
+{
+ "answers": [
+  {
+   "id": "practice-matching-features-1",
+   "answer": "C",
+   "basis": "general_knowledge"
+  },
+  {
+   "id": "practice-matching-features-5",
+   "answer": "B",
+   "basis": "logic"
+  },
+  {
+   "id": "practice-matching-features-9",
+   "answer": "E",
+   "basis": "logic"
+  },
+  {
+   "id": "practice-matching-features-10",
+   "answer": "A",
+   "basis": "guess"
+  },
+  {
+   "id": "practice-matching-headings-11",
+   "answer": "i",
+   "basis": "logic"
+  },
+  {
+   "id": "practice-matching-headings-14",
+   "answer": "ix",
+   "basis": "logic"
+  },
+  {
+   "id": "practice-matching-headings-15",
+   "answer": "v",
+   "basis": "logic"
+  },
+  {
+   "id": "practice-matching-information-6",
+   "answer": "H",
+   "basis": "guess"
+  },
+  {
+   "id": "practice-matching-sentence-endings-1",
+   "answer": "A",
+   "basis": "logic"
+  },
+  {
+   "id": "practice-matching-sentence-endings-2",
+   "answer": "E",
+   "basis": "logic"
+  },
+  {
+   "id": "practice-matching-sentence-endings-3",
+   "answer": "B",
+   "basis": "logic"
+  },
+  {
+   "id": "practice-matching-sentence-endings-4",
+   "answer": "C",
+   "basis": "logic"
+  },
+  {
+   "id": "practice-matching-sentence-endings-5",
+   "answer": "D",
+   "basis": "logic"
+  },
+  {
+   "id": "practice-matching-sentence-endings-6",
+   "answer": "B",
+   "basis": "option_wording"
+  },
+  {
+   "id": "practice-matching-sentence-endings-7",
+   "answer": "G",
+   "basis": "logic"
+  },
+  {
+   "id": "practice-matching-sentence-endings-8",
+   "answer": "D",
+   "basis": "logic"
+  },
+  {
+   "id": "practice-matching-sentence-endings-9",
+   "answer": "A",
+   "basis": "logic"
+  },
+  {
+   "id": "practice-matching-sentence-endings-10",
+   "answer": "E",
+   "basis": "logic"
+  },
+  {
+   "id": "practice-multiple-choice-1",
+   "answer": "B",
+   "basis": "guess"
+  },
+  {
+   "id": "practice-multiple-choice-2",
+   "answer": "A",
+   "basis": "logic"
+  },
+  {
+   "id": "practice-multiple-choice-3-4",
+   "answer": [
+    "C",
+    "F"
+   ],
+   "basis": "general_knowledge"
+  },
+  {
+   "id": "practice-multiple-choice-5",
+   "answer": "B",
+   "basis": "general_knowledge"
+  },
+  {
+   "id": "practice-multiple-choice-6",
+   "answer": "B",
+   "basis": "guess"
+  },
+  {
+   "id": "practice-multiple-choice-7-8",
+   "answer": [
+    "C",
+    "F"
+   ],
+   "basis": "logic"
+  },
+  {
+   "id": "practice-multiple-choice-9-10",
+   "answer": [
+    "D",
+    "E"
+   ],
+   "basis": "logic"
+  },
+  {
+   "id": "practice-multiple-choice-11",
+   "answer": "B",
+   "basis": "logic"
+  },
+  {
+   "id": "practice-multiple-choice-12",
+   "answer": "C",
+   "basis": "general_knowledge"
+  },
+  {
+   "id": "practice-multiple-choice-13",
+   "answer": "A",
+   "basis": "guess"
+  },
+  {
+   "id": "practice-multiple-choice-14",
+   "answer": "C",
+   "basis": "logic"
+  },
+  {
+   "id": "practice-multiple-choice-15",
+   "answer": "D",
+   "basis": "logic"
+  },
+  {
+   "id": "practice-note-completion-1",
+   "answer": "1,200",
+   "basis": "guess"
+  },
+  {
+   "id": "practice-note-completion-10",
+   "answer": "500",
+   "basis": "guess"
+  },
+  {
+   "id": "practice-sentence-completion-1",
+   "answer": "cube",
+   "basis": "logic"
+  },
+  {
+   "id": "practice-sentence-completion-3",
+   "answer": "straight",
+   "basis": "guess"
+  },
+  {
+   "id": "practice-sentence-completion-8",
+   "answer": "preview",
+   "basis": "guess"
+  },
+  {
+   "id": "practice-sentence-completion-10",
+   "answer": "six hours",
+   "basis": "guess"
+  },
+  {
+   "id": "practice-sentence-completion-11",
+   "answer": "S/2025 U1",
+   "basis": "general_knowledge"
+  },
+  {
+   "id": "practice-sentence-completion-12",
+   "answer": "56,000 kilometres",
+   "basis": "general_knowledge"
+  },
+  {
+   "id": "practice-short-answer-4",
+   "answer": "ten",
+   "basis": "general_knowledge"
+  },
+  {
+   "id": "practice-short-answer-6",
+   "answer": "30",
+   "basis": "guess"
+  },
+  {
+   "id": "practice-short-answer-8",
+   "answer": "26 November",
+   "basis": "logic"
+  },
+  {
+   "id": "practice-summary-completion-1",
+   "answer": "7",
+   "basis": "guess"
+  },
+  {
+   "id": "practice-summary-completion-2",
+   "answer": "15",
+   "basis": "guess"
+  },
+  {
+   "id": "practice-summary-completion-4",
+   "answer": "professionals",
+   "basis": "logic"
+  },
+  {
+   "id": "practice-summary-completion-6",
+   "answer": "crossover",
+   "basis": "general_knowledge"
+  },
+  {
+   "id": "practice-summary-completion-9",
+   "answer": "110",
+   "basis": "guess"
+  },
+  {
+   "id": "practice-summary-completion-10",
+   "answer": "diary",
+   "basis": "logic"
+  },
+  {
+   "id": "practice-summary-completion-12",
+   "answer": "twice",
+   "basis": "general_knowledge"
+  },
+  {
+   "id": "practice-true-false-not-given-3",
+   "answer": "TRUE",
+   "basis": "general_knowledge"
+  },
+  {
+   "id": "practice-true-false-not-given-4",
+   "answer": "FALSE",
+   "basis": "general_knowledge"
+  },
+  {
+   "id": "practice-true-false-not-given-7",
+   "answer": "TRUE",
+   "basis": "logic"
+  },
+  {
+   "id": "practice-true-false-not-given-8",
+   "answer": "FALSE",
+   "basis": "logic"
+  },
+  {
+   "id": "practice-true-false-not-given-10",
+   "answer": "NOT GIVEN",
+   "basis": "guess"
+  },
+  {
+   "id": "practice-true-false-not-given-11",
+   "answer": "FALSE",
+   "basis": "general_knowledge"
+  },
+  {
+   "id": "practice-true-false-not-given-13",
+   "answer": "NOT GIVEN",
+   "basis": "general_knowledge"
+  },
+  {
+   "id": "practice-true-false-not-given-15",
+   "answer": "TRUE",
+   "basis": "general_knowledge"
+  },
+  {
+   "id": "practice-yes-no-not-given-1",
+   "answer": "NOT GIVEN",
+   "basis": "logic"
+  },
+  {
+   "id": "practice-yes-no-not-given-2",
+   "answer": "YES",
+   "basis": "logic"
+  },
+  {
+   "id": "practice-yes-no-not-given-3",
+   "answer": "NO",
+   "basis": "logic"
+  },
+  {
+   "id": "practice-yes-no-not-given-4",
+   "answer": "NOT GIVEN",
+   "basis": "guess"
+  },
+  {
+   "id": "practice-yes-no-not-given-5",
+   "answer": "YES",
+   "basis": "logic"
+  },
+  {
+   "id": "practice-yes-no-not-given-6",
+   "answer": "NO",
+   "basis": "logic"
+  },
+  {
+   "id": "practice-yes-no-not-given-7",
+   "answer": "YES",
+   "basis": "logic"
+  },
+  {
+   "id": "practice-yes-no-not-given-8",
+   "answer": "NOT GIVEN",
+   "basis": "logic"
+  },
+  {
+   "id": "practice-yes-no-not-given-9",
+   "answer": "NO",
+   "basis": "logic"
+  },
+  {
+   "id": "practice-yes-no-not-given-10",
+   "answer": "NOT GIVEN",
+   "basis": "logic"
+  },
+  {
+   "id": "practice-yes-no-not-given-11",
+   "answer": "YES",
+   "basis": "guess"
+  },
+  {
+   "id": "practice-yes-no-not-given-12",
+   "answer": "YES",
+   "basis": "general_knowledge"
+  },
+  {
+   "id": "practice-yes-no-not-given-13",
+   "answer": "YES",
+   "basis": "logic"
+  },
+  {
+   "id": "practice-yes-no-not-given-14",
+   "answer": "NO",
+   "basis": "logic"
+  },
+  {
+   "id": "practice-yes-no-not-given-15",
+   "answer": "NOT GIVEN",
+   "basis": "guess"
+  },
+  {
+   "id": "AC1-matching-features-23",
+   "answer": "E",
+   "basis": "logic"
+  },
+  {
+   "id": "AC1-matching-features-25",
+   "answer": "C",
+   "basis": "logic"
+  },
+  {
+   "id": "AC1-matching-features-26",
+   "answer": "A",
+   "basis": "logic"
+  },
+  {
+   "id": "AC1-multiple-choice-32",
+   "answer": "D",
+   "basis": "general_knowledge"
+  },
+  {
+   "id": "AC1-multiple-choice-33",
+   "answer": "B",
+   "basis": "guess"
+  },
+  {
+   "id": "AC1-multiple-choice-34-35",
+   "answer": [
+    "A",
+    "E"
+   ],
+   "basis": "logic"
+  },
+  {
+   "id": "AC1-note-completion-4",
+   "answer": "ball",
+   "basis": "general_knowledge"
+  },
+  {
+   "id": "AC1-note-completion-5",
+   "answer": "gate",
+   "basis": "guess"
+  },
+  {
+   "id": "AC1-sentence-completion-19",
+   "answer": "clear screen",
+   "basis": "logic"
+  },
+  {
+   "id": "AC1-sentence-completion-20",
+   "answer": "hierarchy",
+   "basis": "logic"
+  },
+  {
+   "id": "AC1-sentence-completion-22",
+   "answer": "fifteen minutes",
+   "basis": "logic"
+  },
+  {
+   "id": "AC1-summary-completion-36",
+   "answer": "rim",
+   "basis": "option_wording"
+  },
+  {
+   "id": "AC1-summary-completion-38",
+   "answer": "algae",
+   "basis": "general_knowledge"
+  },
+  {
+   "id": "AC1-summary-completion-39",
+   "answer": "Nature",
+   "basis": "guess"
+  },
+  {
+   "id": "AC1-summary-completion-40",
+   "answer": "natural laboratory",
+   "basis": "guess"
+  },
+  {
+   "id": "AC1-true-false-not-given-7",
+   "answer": "FALSE",
+   "basis": "general_knowledge"
+  },
+  {
+   "id": "AC1-true-false-not-given-9",
+   "answer": "FALSE",
+   "basis": "logic"
+  },
+  {
+   "id": "AC1-true-false-not-given-10",
+   "answer": "FALSE",
+   "basis": "option_wording"
+  },
+  {
+   "id": "AC1-true-false-not-given-11",
+   "answer": "TRUE",
+   "basis": "logic"
+  },
+  {
+   "id": "AC1-true-false-not-given-12",
+   "answer": "FALSE",
+   "basis": "general_knowledge"
+  },
+  {
+   "id": "AC1-true-false-not-given-13",
+   "answer": "NOT GIVEN",
+   "basis": "guess"
+  },
+  {
+   "id": "AC2-flow-chart-completion-1",
+   "answer": "40 minutes",
+   "basis": "general_knowledge"
+  },
+  {
+   "id": "AC2-flow-chart-completion-2",
+   "answer": "August 2025",
+   "basis": "general_knowledge"
+  },
+  {
+   "id": "AC2-flow-chart-completion-3",
+   "answer": "ten kilometres",
+   "basis": "general_knowledge"
+  },
+  {
+   "id": "AC2-flow-chart-completion-6",
+   "answer": "Voyager 2",
+   "basis": "general_knowledge"
+  },
+  {
+   "id": "AC2-matching-features-23",
+   "answer": "D",
+   "basis": "option_wording"
+  },
+  {
+   "id": "AC2-matching-features-24",
+   "answer": "E",
+   "basis": "logic"
+  },
+  {
+   "id": "AC2-matching-features-25",
+   "answer": "C",
+   "basis": "guess"
+  },
+  {
+   "id": "AC2-matching-features-26",
+   "answer": "A",
+   "basis": "logic"
+  },
+  {
+   "id": "AC2-matching-headings-14",
+   "answer": "iv",
+   "basis": "logic"
+  },
+  {
+   "id": "AC2-multiple-choice-32",
+   "answer": "B",
+   "basis": "logic"
+  },
+  {
+   "id": "AC2-multiple-choice-33",
+   "answer": "D",
+   "basis": "logic"
+  },
+  {
+   "id": "AC2-multiple-choice-34-35",
+   "answer": [
+    "C",
+    "D"
+   ],
+   "basis": "logic"
+  },
+  {
+   "id": "AC2-sentence-completion-21",
+   "answer": "197",
+   "basis": "guess"
+  },
+  {
+   "id": "AC2-sentence-completion-22",
+   "answer": "eight",
+   "basis": "guess"
+  },
+  {
+   "id": "AC2-summary-completion-36",
+   "answer": "D",
+   "basis": "general_knowledge"
+  },
+  {
+   "id": "AC2-summary-completion-37",
+   "answer": "E",
+   "basis": "logic"
+  },
+  {
+   "id": "AC2-summary-completion-38",
+   "answer": "I",
+   "basis": "logic"
+  },
+  {
+   "id": "AC2-summary-completion-39",
+   "answer": "H",
+   "basis": "logic"
+  },
+  {
+   "id": "AC2-summary-completion-40",
+   "answer": "B",
+   "basis": "logic"
+  },
+  {
+   "id": "AC2-true-false-not-given-10",
+   "answer": "NOT GIVEN",
+   "basis": "logic"
+  },
+  {
+   "id": "AC2-true-false-not-given-11",
+   "answer": "TRUE",
+   "basis": "logic"
+  },
+  {
+   "id": "AC2-true-false-not-given-12",
+   "answer": "FALSE",
+   "basis": "option_wording"
+  },
+  {
+   "id": "AC2-true-false-not-given-13",
+   "answer": "NOT GIVEN",
+   "basis": "logic"
+  },
+  {
+   "id": "AC3-matching-features-23",
+   "answer": "D",
+   "basis": "option_wording"
+  },
+  {
+   "id": "AC3-matching-features-24",
+   "answer": "B",
+   "basis": "logic"
+  },
+  {
+   "id": "AC3-matching-features-25",
+   "answer": "C",
+   "basis": "logic"
+  },
+  {
+   "id": "AC3-matching-features-26",
+   "answer": "A",
+   "basis": "logic"
+  },
+  {
+   "id": "AC3-matching-headings-14",
+   "answer": "ii",
+   "basis": "logic"
+  },
+  {
+   "id": "AC3-matching-information-28",
+   "answer": "G",
+   "basis": "guess"
+  },
+  {
+   "id": "AC3-multiple-choice-32",
+   "answer": "D",
+   "basis": "guess"
+  },
+  {
+   "id": "AC3-multiple-choice-33",
+   "answer": "C",
+   "basis": "logic"
+  },
+  {
+   "id": "AC3-multiple-choice-34-35",
+   "answer": [
+    "B",
+    "F"
+   ],
+   "basis": "logic"
+  },
+  {
+   "id": "AC3-sentence-completion-19",
+   "answer": "west",
+   "basis": "guess"
+  },
+  {
+   "id": "AC3-sentence-completion-20",
+   "answer": "bright",
+   "basis": "general_knowledge"
+  },
+  {
+   "id": "AC3-sentence-completion-21",
+   "answer": "two",
+   "basis": "guess"
+  },
+  {
+   "id": "AC3-sentence-completion-22",
+   "answer": "analysts",
+   "basis": "logic"
+  },
+  {
+   "id": "AC3-summary-completion-38",
+   "answer": "dendritic spines",
+   "basis": "general_knowledge"
+  },
+  {
+   "id": "AC3-summary-completion-40",
+   "answer": "temperatures",
+   "basis": "logic"
+  },
+  {
+   "id": "AC3-table-completion-6",
+   "answer": "left eye",
+   "basis": "general_knowledge"
+  },
+  {
+   "id": "AC3-true-false-not-given-7",
+   "answer": "TRUE",
+   "basis": "general_knowledge"
+  },
+  {
+   "id": "AC4-matching-features-24",
+   "answer": "D",
+   "basis": "general_knowledge"
+  },
+  {
+   "id": "AC4-matching-features-25",
+   "answer": "D",
+   "basis": "guess"
+  },
+  {
+   "id": "AC4-matching-features-26",
+   "answer": "B",
+   "basis": "general_knowledge"
+  },
+  {
+   "id": "AC4-matching-headings-17",
+   "answer": "viii",
+   "basis": "logic"
+  },
+  {
+   "id": "AC4-matching-headings-18",
+   "answer": "iv",
+   "basis": "logic"
+  },
+  {
+   "id": "AC4-multiple-choice-32",
+   "answer": "C",
+   "basis": "logic"
+  },
+  {
+   "id": "AC4-multiple-choice-33",
+   "answer": "D",
+   "basis": "guess"
+  },
+  {
+   "id": "AC4-multiple-choice-34-35",
+   "answer": [
+    "C",
+    "D"
+   ],
+   "basis": "logic"
+  },
+  {
+   "id": "AC4-note-completion-4",
+   "answer": "stress",
+   "basis": "guess"
+  },
+  {
+   "id": "AC4-sentence-completion-20",
+   "answer": "two minutes",
+   "basis": "guess"
+  },
+  {
+   "id": "AC4-sentence-completion-21",
+   "answer": "65-item",
+   "basis": "general_knowledge"
+  },
+  {
+   "id": "AC4-sentence-completion-22",
+   "answer": "23",
+   "basis": "guess"
+  },
+  {
+   "id": "AC4-summary-completion-36",
+   "answer": "J",
+   "basis": "guess"
+  },
+  {
+   "id": "AC4-summary-completion-37",
+   "answer": "B",
+   "basis": "logic"
+  },
+  {
+   "id": "AC4-summary-completion-38",
+   "answer": "D",
+   "basis": "option_wording"
+  },
+  {
+   "id": "AC4-summary-completion-39",
+   "answer": "F",
+   "basis": "logic"
+  },
+  {
+   "id": "AC4-summary-completion-40",
+   "answer": "A",
+   "basis": "logic"
+  },
+  {
+   "id": "AC4-true-false-not-given-7",
+   "answer": "NOT GIVEN",
+   "basis": "guess"
+  },
+  {
+   "id": "AC4-true-false-not-given-13",
+   "answer": "TRUE",
+   "basis": "guess"
+  },
+  {
+   "id": "GT1-matching-headings-31",
+   "answer": "viii",
+   "basis": "logic"
+  },
+  {
+   "id": "GT1-multiple-choice-21",
+   "answer": "A",
+   "basis": "general_knowledge"
+  },
+  {
+   "id": "GT1-multiple-choice-22",
+   "answer": "B",
+   "basis": "option_wording"
+  },
+  {
+   "id": "GT1-multiple-choice-23-24",
+   "answer": [
+    "C",
+    "G"
+   ],
+   "basis": "general_knowledge"
+  },
+  {
+   "id": "GT1-note-completion-15",
+   "answer": "noticeboard",
+   "basis": "general_knowledge"
+  },
+  {
+   "id": "GT1-note-completion-16",
+   "answer": "staggered",
+   "basis": "logic"
+  },
+  {
+   "id": "GT1-note-completion-19",
+   "answer": "eleven hours",
+   "basis": "general_knowledge"
+  },
+  {
+   "id": "GT1-sentence-completion-26",
+   "answer": "40-hour",
+   "basis": "guess"
+  },
+  {
+   "id": "GT1-sentence-completion-27",
+   "answer": "ten hours",
+   "basis": "guess"
+  },
+  {
+   "id": "GT1-summary-completion-37",
+   "answer": "peel",
+   "basis": "general_knowledge"
+  },
+  {
+   "id": "GT1-summary-completion-40",
+   "answer": "reduction",
+   "basis": "logic"
+  },
+  {
+   "id": "GT1-true-false-not-given-8",
+   "answer": "TRUE",
+   "basis": "general_knowledge"
+  },
+  {
+   "id": "GT1-true-false-not-given-9",
+   "answer": "TRUE",
+   "basis": "guess"
+  },
+  {
+   "id": "GT1-true-false-not-given-10",
+   "answer": "FALSE",
+   "basis": "guess"
+  },
+  {
+   "id": "GT1-true-false-not-given-12",
+   "answer": "FALSE",
+   "basis": "general_knowledge"
+  },
+  {
+   "id": "GT1-yes-no-not-given-33",
+   "answer": "YES",
+   "basis": "logic"
+  },
+  {
+   "id": "GT1-yes-no-not-given-34",
+   "answer": "YES",
+   "basis": "logic"
+  },
+  {
+   "id": "GT1-yes-no-not-given-35",
+   "answer": "YES",
+   "basis": "logic"
+  },
+  {
+   "id": "GT1-yes-no-not-given-36",
+   "answer": "NOT GIVEN",
+   "basis": "logic"
+  },
+  {
+   "id": "GT2-multiple-choice-21",
+   "answer": "C",
+   "basis": "logic"
+  },
+  {
+   "id": "GT2-multiple-choice-22",
+   "answer": "A",
+   "basis": "general_knowledge"
+  },
+  {
+   "id": "GT2-multiple-choice-23-24",
+   "answer": [
+    "B",
+    "G"
+   ],
+   "basis": "logic"
+  },
+  {
+   "id": "GT2-sentence-completion-25",
+   "answer": "10 Mbps",
+   "basis": "guess"
+  },
+  {
+   "id": "GT2-summary-completion-37",
+   "answer": "B",
+   "basis": "logic"
+  },
+  {
+   "id": "GT2-summary-completion-38",
+   "answer": "G",
+   "basis": "logic"
+  },
+  {
+   "id": "GT2-summary-completion-39",
+   "answer": "I",
+   "basis": "logic"
+  },
+  {
+   "id": "GT2-summary-completion-40",
+   "answer": "A",
+   "basis": "logic"
+  },
+  {
+   "id": "GT2-table-completion-16",
+   "answer": "500-word",
+   "basis": "guess"
+  },
+  {
+   "id": "GT2-table-completion-20",
+   "answer": "halfway",
+   "basis": "logic"
+  },
+  {
+   "id": "GT2-true-false-not-given-9",
+   "answer": "FALSE",
+   "basis": "general_knowledge"
+  },
+  {
+   "id": "GT2-true-false-not-given-10",
+   "answer": "NOT GIVEN",
+   "basis": "guess"
+  },
+  {
+   "id": "GT2-true-false-not-given-11",
+   "answer": "TRUE",
+   "basis": "general_knowledge"
+  },
+  {
+   "id": "GT2-true-false-not-given-13",
+   "answer": "NOT GIVEN",
+   "basis": "guess"
+  },
+  {
+   "id": "GT2-true-false-not-given-14",
+   "answer": "NOT GIVEN",
+   "basis": "guess"
+  },
+  {
+   "id": "GT2-yes-no-not-given-33",
+   "answer": "NOT GIVEN",
+   "basis": "logic"
+  },
+  {
+   "id": "GT2-yes-no-not-given-34",
+   "answer": "NOT GIVEN",
+   "basis": "guess"
+  },
+  {
+   "id": "GT2-yes-no-not-given-35",
+   "answer": "YES",
+   "basis": "logic"
+  },
+  {
+   "id": "GT2-yes-no-not-given-36",
+   "answer": "NO",
+   "basis": "logic"
+  }
+ ]
+}

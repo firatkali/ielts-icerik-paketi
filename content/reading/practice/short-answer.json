@@ -99,9 +99,9 @@
       },
       "explanation": "Paragraph B says the Near-Infrared Camera captured a series of ten long-exposure images on the observing run of 2 February 2025; the answer is therefore 'ten'.",
       "difficulty": "medium",
-      "status": "verified",
-      "blind_solvable": null,
-      "blind_basis": null,
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "general_knowledge",
       "generated_by": "opus",
       "yeniden_uretim": {
         "tarih": "2026-08-08",
@@ -114,7 +114,8 @@
         "eski_kanit_cumlesi": "NASA's Voyager 2 spacecraft flew past Uranus on 24 January 1986, capturing the only close-up images of the planet's moons that exist to this day, and yet it did not detect this moon at all.",
         "neden_elendi": "Cevabin kendisi bir dunya bilgisi: Voyager 2'nin Uranus'e en yakin gecis tarihi (24 Ocak 1986) halka acik NASA kayitlarindan bilinen unlu bir tarih; model uc turda da gun/ay/yil dogru yazdi (3/3 PUAN). Soru kokunun tamami zaten 'o tarih neydi' sorusudur, yani eksen dunya bilgisinin kendisi. E6 onerisi: F/2'nin ikinci yarisi - Voyager'in cektigi yakin goruntulerin bugun hala tek ornek olmasi, ya da bu uydunun o gecise hic yakalanmamis olmasi.",
         "ne_degisti": "Eski soru F/2'ye capaliydi ve cevabin kendisi (24 Ocak 1986) NASA kayitlarindan bilinen unlu bir tarihti. Yeni soru F paragrafina hic degmiyor: kanit B/2'ye, gozlem dizisindeki poz sayisina tasindi. E5'in onerdigi iki secenek de ayni cumlenin ikinci yarisiydi ve ikisinin de cevabi 'Voyager 2' olurdu, yani ayni dunya bilgisi kalirdi; bu yuzden yuva bastan baska bir paragrafa tasindi. Poz sayisi tek bir gozlem programina ozgu, disaridan turetilemeyen bir ayrinti. Ayni cumlenin oteki iki olcusu (poz basina kirk dakika, toplam alti saat) AC2 akis semasi 1 ve practice cumle tamamlama 10'da kullanildigi icin bu yuvaya poz sayisi birakildi."
-      }
+      },
+      "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: general_knowledge. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md"
     },
     {
       "number": 5,
@@ -160,7 +161,7 @@
       "explanation": "Paragraph A says the company's employees are spread across all 47 of Japan's prefectures and 23 other countries; since the question asks how many countries besides Japan, the answer is '23'.",
       "difficulty": "medium",
       "status": "verified",
-      "blind_solvable": null,
+      "blind_solvable": false,
       "blind_basis": null,
       "generated_by": "opus",
       "yeniden_uretim": {
@@ -219,7 +220,7 @@
       "explanation": "Paragraph C says the post-earthquake image of 8 December was compared with a baseline image from 26 November, taken before the quake; the answer is therefore '26 November'.",
       "difficulty": "medium",
       "status": "verified",
-      "blind_solvable": null,
+      "blind_solvable": false,
       "blind_basis": null,
       "generated_by": "opus",
       "yeniden_uretim": {

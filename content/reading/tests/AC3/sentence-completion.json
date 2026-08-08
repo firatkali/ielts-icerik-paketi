@@ -33,7 +33,7 @@
       "explanation": "Paragraph B says most of the 700-plus landslides and avalanches were concentrated to the northwest of the epicentre, along the fault rupture; so the answer is 'northwest'.",
       "difficulty": "easy",
       "status": "verified",
-      "blind_solvable": null,
+      "blind_solvable": false,
       "blind_basis": null,
       "generated_by": "opus",
       "yeniden_uretim": {
@@ -65,10 +65,10 @@
       },
       "explanation": "Paragraph C says rough, broken debris scatters radar energy strongly and appears bright in the resulting images, while smooth, undisturbed ice appears dark; the gap asks how the fresh debris shows up, so the answer is 'bright'.",
       "difficulty": "easy",
-      "status": "verified",
-      "blind_solvable": null,
-      "blind_basis": "logic",
-      "flag_reason": "Bosluk 'whereas... looks dark' karsitligina dayanan bir zit anlam boslugu; 'dark'in dogal karsiti 'bright' oldugu icin parcaya bakmadan da tahmin edilebiliyor.",
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "general_knowledge",
+      "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: general_knowledge. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md",
       "flag_mechanism": "esdizim_kilidi",
       "revision": {
         "tarih": "2026-08-08",
@@ -95,7 +95,7 @@
       "explanation": "Paragraph C says the image used was captured on 8 December, only two days after the earthquake; so the answer is 'two'.",
       "difficulty": "easy",
       "status": "verified",
-      "blind_solvable": null,
+      "blind_solvable": false,
       "blind_basis": null,
       "generated_by": "opus",
       "yeniden_uretim": {
@@ -128,7 +128,7 @@
       "explanation": "Paragraph E says the scale of the disturbance startled even experienced glaciologists studying the imagery; so the answer is 'glaciologists'.",
       "difficulty": "medium",
       "status": "verified",
-      "blind_solvable": null,
+      "blind_solvable": false,
       "blind_basis": null,
       "generated_by": "opus",
       "yeniden_uretim": {

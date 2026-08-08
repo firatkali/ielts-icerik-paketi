@@ -875,3 +875,31 @@
 
 08.08.2026 10:04
   - isaretli (flagged)     33
+
+08.08.2026 10:29
+  - isaretli (flagged)     35
+
+08.08.2026 14:42
+  - isaretli (flagged)     116
+
+08.08.2026 — E8 1/5: dinleme sizinti olcumu (araclar + coktan secmeli tek cevapli)
+  - Yeni araclar: tools/sessiz-kopya.py, tools/sessiz-rapor.py. metinsiz-kopya.py
+    ve metinsiz-rapor.py'ye DOKUNULMADI; okumanin dogrulama/metinsiz,
+    kalibrasyon/metinsiz, METINSIZ-* dosyalari ne okundu ne yazildi.
+  - Dinleme sayimi yeniden yapildi: 352 kalem / 360 numarali soru
+    (alistirma 120, tam test 240). Hicbir soru silinmedi, L1-L6 hala 40/40.
+  - Olculen: 37 tek cevapli coktan secmeli. 3/3 turda senaryosuz bilinen
+    25 (%67.6). Bunlarin 4'u salt sayi tahmini (12'de 4 = sans orani %33),
+    dayanagi anlamsal olan 21 (%56.8).
+  - [!] Olcutun zayif noktasi bu turda ortaya cikti: "uc turda ayni cevap"
+    kararli-ama-sansli sezgiyi gercek sizintidan ayirmiyor. Deterministik bir
+    sayi sezgisi de 3/3 gorunur. Bu yuzden ham oran ve anlamsal-dayanakli
+    oran ayri yazildi; 5. calistirmada isaretleme ikincisine gore yapilacak.
+  - [!] practice coktan secmeli 7-8: bir sorunun kokü ("yeni salon kac tezgah
+    alacak?") onceki sorunun cevabini ele veriyor. Paket ici tutarlilik
+    kusuru, senaryodan bagimsiz. 5. calistirmada isaretlenecek.
+  - [!] plan-map-diagram-labelling (45 soru) hic olculmeyecek: gorsel gerekir,
+    metin tabanli olcum orada kor. Okuma tarafindaki diyagram kararinin aynisi.
+  - Isaretleme YAPILMADI (plana gore 5. calistirmada, tek tip cumleyle).
+  - dogrula.py: 12 tam test 40/40, sema hatasi 0, toplam soru 1310.
+  - isaretli (flagged)     116  (degismedi)

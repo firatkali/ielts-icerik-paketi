@@ -53,7 +53,7 @@
       "explanation": "Text B, paragraph C says overtime is paid at 1.5 times the standard rate for hours worked beyond the 37.5-hour week; so the answer is '37.5-hour'.",
       "difficulty": "medium",
       "status": "verified",
-      "blind_solvable": null,
+      "blind_solvable": false,
       "blind_basis": null,
       "generated_by": "opus",
       "yeniden_uretim": {
@@ -87,7 +87,7 @@
       "explanation": "Text B, paragraph C says staff who accumulate more than ten hours of overtime in a single month may take the excess as time off in lieu; so the answer is 'ten hours'.",
       "difficulty": "medium",
       "status": "verified",
-      "blind_solvable": null,
+      "blind_solvable": false,
       "blind_basis": null,
       "generated_by": "opus",
       "yeniden_uretim": {

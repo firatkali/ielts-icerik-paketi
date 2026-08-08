@@ -56,9 +56,9 @@
           "grammar_check": null,
           "explanation": "Paragraph D says the activity-based design performed worse than the open-plan baseline on both measures, with satisfaction and productivity scores roughly 14 per cent lower.",
           "difficulty": "medium",
-          "status": "verified",
-          "blind_solvable": null,
-          "blind_basis": null,
+          "status": "flagged",
+          "blind_solvable": true,
+          "blind_basis": "general_knowledge",
           "generated_by": "opus",
           "yeniden_uretim": {
             "tarih": "2026-08-08",
@@ -71,7 +71,8 @@
             "eski_kanit_cumlesi": "Noise levels in the open-plan office exceeded recommended safe limits between 20 and 30 per cent more often than in any of the alternative designs.",
             "neden_elendi": "Sorunun ekseni ofis kulturu genel bilgisi: acik plan ofisin oteki duzenlerden daha gurultulu oldugu yaygin bir kani, soru da dort duzenden en gurultulusunu soruyor. Ifade nasil yazilirsa yazilsin cevap pasajdan degil bu kanidan cikiyor; kanit cumlesi (F/2) zaten yalniz 'hangisi en gurultuluydu' sorusunu destekliyor, baska bir eksene capalanamiyor.",
             "ne_degisti": "Yuva bosaltilip ayni pasajdan yeni bir soruyla dolduruldu. Eski soru F/2'ye, gurultunun guvenli sinirini en cok asan duzene dayaniyordu; 'acik ofis en gurultuludur' yaygin kanisi cevabi pasajsiz veriyordu. Yeni kanit baska bir paragrafa (D/3) ve baska bir olcuye tasindi: iki anket olcumunde de karsilastirma duzeninin ALTINA dusen tek tasarim. Bu, disaridan beklenenin tersi bir bulgu oldugu icin genel kultur artik yanlis secenege (A) capalaniyor. Kip: ifade mutlak ('the only design')."
-          }
+          },
+          "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: general_knowledge. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md"
         },
         {
           "number": 2,
@@ -147,7 +148,7 @@
           "explanation": "Paragraph B describes the team-office design as large, partly enclosed cubicles seating four to six people behind sound-absorbing panels, whereas the zoned open-plan design is divided by soundproof doors.",
           "difficulty": "hard",
           "status": "verified",
-          "blind_solvable": null,
+          "blind_solvable": false,
           "blind_basis": null,
           "generated_by": "opus",
           "yeniden_uretim": {
@@ -271,10 +272,10 @@
           "grammar_check": null,
           "explanation": "Paragraph B says solid food waste was collected and weighed over eight consecutive days, while discarded drinks were recorded in a seven-day diary.",
           "difficulty": "medium",
-          "status": "verified",
-          "blind_solvable": null,
+          "status": "flagged",
+          "blind_solvable": true,
           "blind_basis": "logic",
-          "flag_reason": "Cevap E (kahve ve cay), bes secenek arasinda sivi/icecek olan tek kategori; 'tartilmak yerine yazili gunlukle kaydedilme' olcum farki sivilari katı yiyeceklerden (pirinc, sebze, ekmek, et) elemeyle ayiriyor -- parcaya bakmadan da yalniz E bu olcum turune uyuyor.",
+          "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: logic. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md",
           "flag_mechanism": "konumsal_duzen",
           "revision": {
             "tarih": "2026-08-08",
@@ -300,8 +301,8 @@
           "explanation": "Paragraph F says coffee and tea were most often poured away because a pot or cup had been made larger than anyone actually wanted to finish.",
           "difficulty": "hard",
           "status": "verified",
-          "blind_solvable": null,
-          "blind_basis": "option_wording",
+          "blind_solvable": false,
+          "blind_basis": null,
           "flag_reason": "Cevap E, secenek metninde 'demlenen/doldurulan miktarin fazla gelmesi' gerekcesi yalnizca iceceklere ozgu; oteki dort secenek bozulma, raf omru ya da doku degisimi gibi kati yiyeceklere ozgu nedenlerle anlatiliyor, bu yuzden secenek metninin kendisi elemeyi sagliyor.",
           "flag_mechanism": "konumsal_duzen",
           "revision": {

@@ -1,0 +1,140 @@
+{
+  "tarih": "2026-08-08",
+  "paket": "yeniden-olcum",
+  "toplam": 189,
+  "uc_turda_bilinen": [
+    "practice-matching-features-1",
+    "practice-matching-features-9",
+    "practice-matching-sentence-endings-1",
+    "practice-matching-sentence-endings-2",
+    "practice-matching-sentence-endings-3",
+    "practice-matching-sentence-endings-4",
+    "practice-matching-sentence-endings-5",
+    "practice-matching-sentence-endings-6",
+    "practice-matching-sentence-endings-8",
+    "practice-matching-sentence-endings-9",
+    "practice-matching-sentence-endings-10",
+    "practice-multiple-choice-2",
+    "practice-multiple-choice-3-4",
+    "practice-multiple-choice-5",
+    "practice-multiple-choice-7-8",
+    "practice-multiple-choice-9-10",
+    "practice-multiple-choice-11",
+    "practice-multiple-choice-12",
+    "practice-multiple-choice-15",
+    "practice-sentence-completion-11",
+    "practice-sentence-completion-12",
+    "practice-short-answer-4",
+    "practice-summary-completion-6",
+    "practice-summary-completion-10",
+    "practice-true-false-not-given-11",
+    "practice-yes-no-not-given-2",
+    "practice-yes-no-not-given-3",
+    "practice-yes-no-not-given-6",
+    "practice-yes-no-not-given-7",
+    "practice-yes-no-not-given-9",
+    "AC1-multiple-choice-32",
+    "AC1-multiple-choice-34-35",
+    "AC1-sentence-completion-22",
+    "AC1-true-false-not-given-10",
+    "AC1-true-false-not-given-11",
+    "AC1-true-false-not-given-12",
+    "AC2-flow-chart-completion-1",
+    "AC2-flow-chart-completion-3",
+    "AC2-matching-features-23",
+    "AC2-matching-features-24",
+    "AC2-matching-features-26",
+    "AC2-multiple-choice-32",
+    "AC2-multiple-choice-33",
+    "AC2-summary-completion-38",
+    "AC2-summary-completion-39",
+    "AC2-true-false-not-given-11",
+    "AC2-true-false-not-given-12",
+    "AC3-matching-features-23",
+    "AC3-matching-features-26",
+    "AC3-matching-headings-14",
+    "AC3-multiple-choice-33",
+    "AC3-multiple-choice-34-35",
+    "AC3-sentence-completion-20",
+    "AC4-matching-features-26",
+    "AC4-summary-completion-37",
+    "AC4-summary-completion-38",
+    "AC4-summary-completion-39",
+    "AC4-summary-completion-40",
+    "GT1-multiple-choice-21",
+    "GT1-multiple-choice-22",
+    "GT1-multiple-choice-23-24",
+    "GT1-note-completion-16",
+    "GT1-note-completion-19",
+    "GT1-true-false-not-given-12",
+    "GT1-yes-no-not-given-33",
+    "GT1-yes-no-not-given-35",
+    "GT2-multiple-choice-22",
+    "GT2-summary-completion-37",
+    "GT2-summary-completion-38",
+    "GT2-summary-completion-39",
+    "GT2-summary-completion-40",
+    "GT2-yes-no-not-given-35",
+    "GT2-yes-no-not-given-36"
+  ],
+  "tip_bazinda": {
+    "matching_features": {
+      "toplam": 18,
+      "uc_turda": 8
+    },
+    "matching_headings": {
+      "toplam": 8,
+      "uc_turda": 1
+    },
+    "matching_information": {
+      "toplam": 2,
+      "uc_turda": 0
+    },
+    "matching_sentence_endings": {
+      "toplam": 10,
+      "uc_turda": 9
+    },
+    "multiple_choice": {
+      "toplam": 30,
+      "uc_turda": 18
+    },
+    "note_completion": {
+      "toplam": 8,
+      "uc_turda": 2
+    },
+    "sentence_completion": {
+      "toplam": 21,
+      "uc_turda": 4
+    },
+    "short_answer": {
+      "toplam": 3,
+      "uc_turda": 1
+    },
+    "summary_completion": {
+      "toplam": 29,
+      "uc_turda": 12
+    },
+    "true_false_not_given": {
+      "toplam": 30,
+      "uc_turda": 7
+    },
+    "yes_no_not_given": {
+      "toplam": 23,
+      "uc_turda": 9
+    },
+    "flow_chart_completion": {
+      "toplam": 4,
+      "uc_turda": 2
+    },
+    "table_completion": {
+      "toplam": 3,
+      "uc_turda": 0
+    }
+  },
+  "dayanak_dagilimi": {
+    "general_knowledge": 126,
+    "logic": 273,
+    "guess": 144,
+    "option_wording": 24
+  }
+}

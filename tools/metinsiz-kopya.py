@@ -28,6 +28,10 @@ SIL = {
     "passage_id", "passage_title", "script_id", "source", "passage",
     "transcript", "useful_language", "blind_solvable", "blind_basis",
     "difficulty_flags",
+    # E5/E6'nin ekledigi denetim alanlari cevabi acik edebiliyor
+    # (kor-kopya.py'deki duzeltmenin aynisi, E7 2/2).
+    "revision", "yeniden_uretim", "review_note", "flag_mechanism",
+    "generated_by",
 }
 
 

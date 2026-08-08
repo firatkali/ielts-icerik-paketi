@@ -78,10 +78,10 @@
       "grammar_check": null,
       "explanation": "Paragraph B explains that because the bedrock beneath the glacier cannot be seen, the usual method of comparing displacement before and after the earthquake could not be used here.",
       "difficulty": "medium",
-      "status": "verified",
-      "blind_solvable": null,
+      "status": "flagged",
+      "blind_solvable": true,
       "blind_basis": "logic",
-      "flag_reason": "Baslik 'ii', en yakin celdirici 'vii' (yikilan yamaclarin sayimi) elenerek bulunuyor: paragrafin ilk cumlesi gercekten 700'u askin heyelan ve cigdan soz etse de, geri kalani bu sayimi degil, alisilmis yontemin neden burada islemedigini anlatiyor -- bu ayrim yalniz 'ii'yi dogru birakiyor.",
+      "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: logic. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md",
       "flag_mechanism": "konumsal_duzen",
       "revision": {
         "tarih": "2026-08-08",

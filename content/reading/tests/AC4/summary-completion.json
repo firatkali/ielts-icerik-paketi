@@ -75,7 +75,7 @@
       "explanation": "Paragraph D says all participants completed a 30-minute puzzle game before the final recall test, to reduce grogginess; so the correct option is J.",
       "difficulty": "medium",
       "status": "verified",
-      "blind_solvable": null,
+      "blind_solvable": false,
       "blind_basis": null,
       "generated_by": "opus",
       "yeniden_uretim": {
@@ -108,10 +108,10 @@
       },
       "explanation": "Paragraph C says the wake group learned the material at nine in the morning, was tested twelve hours later at nine that evening, and had remained awake throughout; so the correct option is B.",
       "difficulty": "easy",
-      "status": "verified",
-      "blind_solvable": null,
+      "status": "flagged",
+      "blind_solvable": true,
       "blind_basis": "logic",
-      "flag_reason": "Bosluk 'stayed ___ until an evening test' kalibinin ucunda; 'stayed awake' Ingilizcede kaliplasmis bir ifade oldugu icin, kelime bankasindaki karsit secenek 'a chance to sleep' bu kaliba uymadigindan parcaya bakmadan da 'awake' tahmin edilebiliyor.",
+      "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: logic. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md",
       "flag_mechanism": "esdizim_kilidi",
       "revision": {
         "tarih": "2026-08-08",
@@ -137,9 +137,9 @@
       },
       "explanation": "Paragraph F says naps in the second experiment lasted an average of 64.1 minutes and consisted mainly of Stage 2 sleep; so the correct option is D.",
       "difficulty": "medium",
-      "status": "verified",
-      "blind_solvable": null,
-      "blind_basis": null,
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "option_wording",
       "generated_by": "opus",
       "yeniden_uretim": {
         "tarih": "2026-08-08",
@@ -152,7 +152,8 @@
         "eski_kanit_cumlesi": "For semantically related word pairs, nocturnal sleep produced a substantially larger improvement in recall than daytime napping did, with a standardised effect size of 0.58 compared with only 0.15 for napping.",
         "neden_elendi": "Sorunun ekseni, uykunun hangi tur malzemeyi daha cok kayirdigi - bilissel bilimin en cok aktarilan bulgularindan biri - ve kelime bankasi bu ekseni hazir bir zit cift olarak tasiyor (D 'connected in meaning' / I 'unrelated in meaning'). Ustelik hemen ardindan gelen 39. cumle 'Where no such link existed' diyerek 38'in 'baglantili' taraf oldugunu soyluyor, yani I ozetin kendi ic mantigiyla de eleniyor. Bosluk nasil yazilirsa yazilsin secim iki kutuptan birini isaretlemeye iniyor ve karar pasajdan degil dunya bilgisinden geliyor; kip ya da cerceve duzeltmesi bunu kapatmaz. E6 bu yuvayi E paragrafinin pasaja ozgu bir ayrintisina tasimali (0.58'e karsi 0.15 etki buyuklugu, ya da 40 iliskili + 40 iliskisiz cift bolusumu).",
         "ne_degisti": "Eski bosluk E/2'ye capaliydi ve secim, uykunun anlamca iliskili malzemeyi daha cok kayirdigi yolundaki bilissel bilim bilgisine iniyordu; banka da bu ekseni hazir bir zit cift olarak tasiyordu. Yeni bosluk E/2'ye hic degmiyor: kanit F/1'e, sekerlemelerin gercekte ne kadar surdugune tasindi. Iki kutuplu anlam cifti bankadan cikarildi; yerine olculebilir bir sure ve ona gercek bir rakip kondu ('an hour and a half'), cunku planlanan sure ile gerceklesen ortalama birbirinden farkli ve ozet planlanan sureyi artik anmiyor."
-      }
+      },
+      "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: option_wording. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md"
     },
     {
       "number": 39,
@@ -171,10 +172,10 @@
       },
       "explanation": "Paragraph E says that for unrelated word pairs nocturnal sleep and napping produced very similar benefits, with effect sizes of 0.71 and 0.68; so the correct option is F.",
       "difficulty": "medium",
-      "status": "verified",
-      "blind_solvable": null,
+      "status": "flagged",
+      "blind_solvable": true,
       "blind_basis": "logic",
-      "flag_reason": "Bosluk 'produced almost (39)___' kalibinda; 'almost' (neredeyse) sozcugu yakinlik/esitlik bildiren bir ifadeyle dogal olarak eslesiyor, kelime bankasindaki 'much weaker results' ise buyuk bir farki ima ettigi icin bu kalipla celisiyor -- bu dilbilgisel uyum yalniz 'equal benefits'i birakiyor.",
+      "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: logic. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md",
       "flag_mechanism": "esdizim_kilidi",
       "revision": {
         "tarih": "2026-08-08",
@@ -201,10 +202,10 @@
       },
       "explanation": "Paragraph F says that neither the length of a nap nor the sleep stages it contained showed a significant relationship with the memory gain, and that simply having the opportunity to sleep mattered more than the nap's internal structure; so the correct option is A.",
       "difficulty": "hard",
-      "status": "verified",
-      "blind_solvable": null,
+      "status": "flagged",
+      "blind_solvable": true,
       "blind_basis": "logic",
-      "flag_reason": "Bosluk 'simply getting (40)___ counted for more...' kalibinda; 'getting a chance to X' Ingilizcede yerlesik bir ifade oldugu icin, sekerlemenin ic yapisindan degil firsatin kendisinden soz edildigi bu kalip parcaya bakmadan da 'a chance to sleep'i isaret ediyor.",
+      "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: logic. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md",
       "flag_mechanism": "esdizim_kilidi",
       "revision": {
         "tarih": "2026-08-08",

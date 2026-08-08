@@ -33,7 +33,7 @@
       "explanation": "Paragraph B says magma beneath the seafloor drives shallow vents along the inner shoreline of the caldera; so the answer is 'inner shoreline'.",
       "difficulty": "medium",
       "status": "verified",
-      "blind_solvable": null,
+      "blind_solvable": false,
       "blind_basis": null,
       "generated_by": "opus",
       "yeniden_uretim": {
@@ -89,9 +89,9 @@
       },
       "explanation": "Paragraph F says reef scientists fear that algae will outcompete corals for space, gradually replacing complex reef habitat with simpler algal turf; so the answer is 'algal turf'.",
       "difficulty": "hard",
-      "status": "verified",
-      "blind_solvable": null,
-      "blind_basis": null,
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "general_knowledge",
       "generated_by": "opus",
       "yeniden_uretim": {
         "tarih": "2026-08-08",
@@ -104,7 +104,8 @@
         "eski_kanit_cumlesi": "Immediately around the vents, weedy algae tend to dominate the seafloor, while reefs only a short distance away, in less acidified water, remain visibly healthier and more coral-dominated.",
         "neden_elendi": "Cevap iki yonden sizdiriyor: asitlenen suda saglikli mercanin yerini yosunun almasi iklim habercilerinin en cok tekrarladigi oruntudur ve kabul listesi 'algae' sozcugunu tek basina kabul ediyor; model uc turda da 'algae' yazdi (3/3 PUAN). Niteleyiciyi ('weedy') zorunlu kilmak icin kabul listesini daraltmak gerekir, o da korunan bir alan. E6 onerisi: F/2'nin karsilastirma yarisi - bacalardan biraz uzaktaki mercanin gorunur bicimde saglikli kalmasi.",
         "ne_degisti": "Eski soru F/2'ye capaliydi; cevap ('weedy algae') hem iklim habercileri tarafindan surekli tekrarlanan bir oruntuydu hem de kabul listesi 'algae' sozcugunu tek basina kabul ediyordu. Yeni yuva F/2'ye hic degmiyor: kanit F/3'e, arastirmacilarin genel kaygisini anlatan cumleye tasindi ve cerceveden 'algae' sozcugu bilerek cikarildi, boylece bosluk artik yakin bir es anlamliyi cagirmiyor. Kabul listesi tek bicime indirilmedi, bastan tek bicimli yazildi."
-      }
+      },
+      "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: general_knowledge. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md"
     },
     {
       "number": 39,
@@ -125,7 +126,7 @@
       "explanation": "Paragraph G says a related study of the Maug reef was published in the journal PLOS ONE and looked inside coral skeletons rather than at the seafloor surface; so the answer is 'PLOS ONE'.",
       "difficulty": "medium",
       "status": "verified",
-      "blind_solvable": null,
+      "blind_solvable": false,
       "blind_basis": null,
       "generated_by": "opus",
       "yeniden_uretim": {
@@ -158,9 +159,9 @@
       "explanation": "Paragraph H says that scientists regard the island as an early warning system, showing in the present what a warmer, more acidic ocean could look like elsewhere; the answer is therefore 'warning system'.",
       "difficulty": "medium",
       "status": "verified",
-      "blind_solvable": null,
+      "blind_solvable": false,
       "blind_solvable_kelime_duzeyi": false,
-      "blind_basis": "logic",
+      "blind_basis": null,
       "flag_reason": "Parça gösterilmeden anlamca 3/3 turda doğru bilindi: farklı kelimeyle ama doğru kavramla cevaplandı (3 turda da 'warning' verdi, gerçek cevap 'warning system' — 'early warning' aynı göndergenin yerleşik kalıbı).",
       "flag_mechanism": "esdizim_kilidi",
       "revision": {

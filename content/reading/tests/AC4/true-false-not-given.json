@@ -33,8 +33,8 @@
       "explanation": "Paragraph A says the technology company that ran the study has 5,580 employees at its main campus, which is more than five thousand.",
       "difficulty": "medium",
       "status": "verified",
-      "blind_solvable": null,
-      "blind_basis": "general_knowledge",
+      "blind_solvable": false,
+      "blind_basis": null,
       "flag_reason": "Cevap TRUE, bilimsel arastirma makalelerinin girisinde tartismali bir konunun 'kisisel izlenime dayali, kontrollu kanittan yoksun' oldugunu soyleyip bunu arastirmanin motivasyonu olarak sunmasi cok yaygin bir akademik yazim kalibi; bu genel bilgiyle ifadenin dogru olmasi parcaya bakmadan da beklenen bir sonuc.",
       "flag_mechanism": "genel_kultur",
       "revision": {
@@ -150,8 +150,8 @@
       "explanation": "Paragraph G says that neither the number of software code commits nor employees' self-reported energy levels showed a statistically significant difference between the four layouts.",
       "difficulty": "medium",
       "status": "verified",
-      "blind_solvable": null,
-      "blind_basis": "logic",
+      "blind_solvable": false,
+      "blind_basis": null,
       "flag_reason": "Cevap TRUE, bu tur ofis-duzeni calismalarinda oznel olcumlerin (memnuniyet, algi) etkilenip nesnel/davranissal ciktı olcumlerinin (kod uretimi gibi) genelde degismedigi bilinen bir arastirma orntusu; bu genel orntuyle ifadenin dogru olmasi parcaya bakmadan da tahmin edilebiliyor.",
       "flag_mechanism": "konumsal_duzen",
       "revision": {

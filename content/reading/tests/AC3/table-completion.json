@@ -163,8 +163,8 @@
       "explanation": "Paragraph F says that both whales preferred to view the mirror with their right eye; the answer is therefore 'right eye'.",
       "difficulty": "hard",
       "status": "verified",
-      "blind_solvable": null,
-      "blind_basis": "general_knowledge",
+      "blind_solvable": false,
+      "blind_basis": null,
       "flag_reason": "Cevap 'right eye', hayvan davranisi arastirmalarinda sosyal/gorsel uyaranlarin islenmesinde sikca sag goz tercihinin (sol beyin yarikuresi baskinligi) bildirilmesi bilinen bir oruntu; bu genel bilgiyle bosluk parcaya bakmadan da tahmin edilebiliyor.",
       "flag_mechanism": "genel_kultur",
       "revision": {

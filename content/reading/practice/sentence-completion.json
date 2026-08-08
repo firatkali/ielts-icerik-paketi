@@ -32,9 +32,9 @@
       },
       "explanation": "Paragraph B says each elephant was tested alone in an enclosure that already contained a heavy concrete cube; so the answer is 'concrete cube'.",
       "difficulty": "easy",
-      "status": "verified",
-      "blind_solvable": null,
-      "blind_basis": null,
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "logic",
       "generated_by": "opus",
       "yeniden_uretim": {
         "tarih": "2026-08-08",
@@ -47,7 +47,8 @@
         "eski_kanit_cumlesi": "Laboratory studies have shown that elephants can recognise themselves in a mirror, remember locations for years and use branches to swat flies.",
         "neden_elendi": "Cevabin kendisi bir dunya bilgisi: fillerin dallari sinek kovmak icin kullandigi hayvan davranisi kulturunun en cok tekrarlanan ayrintilarindan biri; model uc turda da 'swat flies' yazdi (3/3 PUAN). Kanit cumlesi (A/2) uc ornek sayiyor ve ucu de ayni olcude taniniyor (ayna testi, yer bellegi, sinek kovma), dolayisiyla cerceveyi baska ornege tasimak da sizdirir. E6 onerisi: A paragrafinin laboratuvar ile arazi arasinda kurdugu karsitlik.",
         "ne_degisti": "Eski soru A/2'deki laboratuvar ornekleri cumlesine capaliydi ve cevap ('swat flies') hayvan davranisi kulturunun en cok tekrarlanan ayrintisiydi. Yeni yuva A paragrafina hic degmiyor: kanit B/2'ye, duzenegin fiziksel kurulumuna tasindi. Enclosure'da onceden duran nesnenin ne oldugu yalniz metinden okunur; disaridan kutu, kova, sandik gibi bircok aday esit derecede akla gelir."
-      }
+      },
+      "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: logic. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md"
     },
     {
       "number": 2,
@@ -93,7 +94,7 @@
       "explanation": "Paragraph C says Kandula rolled the cube several metres across the enclosure until it sat beneath the dangling branch; so the answer is 'several metres'.",
       "difficulty": "medium",
       "status": "verified",
-      "blind_solvable": null,
+      "blind_solvable": false,
       "blind_basis": null,
       "generated_by": "opus",
       "yeniden_uretim": {
@@ -222,10 +223,10 @@
       },
       "explanation": "Paragraph C says that the reef at Maug has already been living for years in conditions the wider ocean is not expected to reach for decades, so that the site effectively offers a preview of the future; the gap asks what the authors call the site, so the answer is 'preview'.",
       "difficulty": "medium",
-      "status": "verified",
-      "blind_solvable": null,
-      "blind_basis": "logic",
-      "flag_reason": "Bosluk 'a ___ of what is coming' kalibinin ucunda; bu kalibin en dogal tamamlamasi 'preview' oldugu icin parcaya bakilmadan da tahmin edilebiliyor.",
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "guess",
+      "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: guess. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md",
       "flag_mechanism": "esdizim_kilidi",
       "revision": {
         "tarih": "2026-08-08",
@@ -273,7 +274,7 @@
       "explanation": "Paragraph B says the faint point of light was tracked against the background of stars over a period of roughly six hours; so the answer is 'six hours'.",
       "difficulty": "easy",
       "status": "verified",
-      "blind_solvable": null,
+      "blind_solvable": false,
       "blind_basis": null,
       "generated_by": "opus",
       "yeniden_uretim": {
@@ -306,9 +307,9 @@
       },
       "explanation": "Paragraph C says the newly found body has been given the provisional designation S/2025 U1; so the answer is 'S/2025 U1'.",
       "difficulty": "medium",
-      "status": "verified",
-      "blind_solvable": null,
-      "blind_basis": null,
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "general_knowledge",
       "generated_by": "opus",
       "yeniden_uretim": {
         "tarih": "2026-08-08",
@@ -321,7 +322,8 @@
         "eski_kanit_cumlesi": "Its size simply placed it below the threshold that Voyager's instruments, or any Earth-based telescope in the decades since, could resolve, meaning the moon had been circling Uranus unnoticed for the nearly forty years between that flyby and Webb's observations.",
         "neden_elendi": "Sizinti aritmetik ve kapatilamiyor: cumle 1986 ucusunu veriyor, gunumuz tarihi de disaridan biliniyor, ikisinin farki dogrudan 'forty years' ediyor; model uc turda da '40 years' yazdi (kabul listesinde var, 3/3 PUAN). Cumleden 1986'yi kaldirmak yariya kalir, cunku Voyager 2'nin Uranus'e 1986'da ugradigi ayrica dunya bilgisidir - ayni depodaki practice/short-answer 4 bunun kaniti: model o tarihi gun gun bilerek yazdi. E6 onerisi: F/3'un cozunurluk esigi gerekcesi ya da uydunun yaklasik on kilometrelik capi.",
         "ne_degisti": "Eski soru F/3'e capaliydi ve sizinti aritmetikti: cumle 1986 ucusunu veriyordu, gunumuz tarihi disaridan biliniyordu, fark dogrudan 'forty years' ediyordu. Yeni yuva F paragrafina hic degmiyor: kanit C/1'e tasindi. Bu yuvada istenen sey adlandirma gelenegi degil (E5 AC2-2'yi tam da onun icin elemisti) kodun kendisidir; S/2025 U1 dizisi pasaj disindan hicbir bicimde turetilemez."
-      }
+      },
+      "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: general_knowledge. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md"
     },
     {
       "number": 12,
@@ -343,9 +345,9 @@
       },
       "explanation": "Paragraph D says the orbit lies roughly 35,000 miles, or 56,000 kilometres, from the centre of Uranus, in the gap between two previously known moons; so the answer is '56,000 kilometres' (or the same distance in miles).",
       "difficulty": "medium",
-      "status": "verified",
-      "blind_solvable": null,
-      "blind_basis": null,
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "general_knowledge",
       "generated_by": "opus",
       "yeniden_uretim": {
         "tarih": "2026-08-08",
@@ -358,7 +360,8 @@
         "eski_kanit_cumlesi": "For now, the discovery remains part of ongoing research rather than a finished, peer-reviewed result, but it illustrates a broader pattern in planetary astronomy: each generation of instruments reveals objects that the previous generation's technology, however capable at the time, simply could not see.",
         "neden_elendi": "Model parcasiz uc turda da 'preliminary' verdi: cevabin ('ongoing research') butun icerigini baska bir sozcukle karsiladi, yani eksik birakilan hicbir ayirt edici oge yok. Sizinti soru metninin bir yan cumlesinden degil, boslugun hedefinden geliyor: 'henuz hakem degerlendirmesinden gecmemis bulgu' kavraminin Ingilizcede hazir karsiligi vardir ve 'bitmis sonuc degil' karsitligini tasimayan bir cerceve de kurulamiyor, cunku kanit cumlesinin (H/1) ilk yarisi tam olarak bu karsitliktir. E6 onerisi: ayni cumlenin ikinci yarisi -- her yeni kusak aracin, onceki kusagin goremedigi nesneleri ortaya cikarmasi -- ya da H/2'deki El Moutamid degerlendirmesi.",
         "ne_degisti": "Eski soru H/1'e capaliydi; model parcasiz uc turda da 'preliminary' vererek cevabin ('ongoing research') butun icerigini karsiladi, cunku 'hakem degerlendirmesinden gecmemis bulgu' kavraminin hazir bir Ingilizce karsiligi var. Yeni yuva H paragrafina hic degmiyor: kanit D/1'e, yorungenin gezegen merkezine uzakligina tasindi. Sayi olculmus bir buyukluk; kavramdan turetilemez."
-      }
+      },
+      "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: general_knowledge. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md"
     },
     {
       "number": 13,

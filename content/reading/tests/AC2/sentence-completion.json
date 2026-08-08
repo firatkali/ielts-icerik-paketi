@@ -76,7 +76,7 @@
       "explanation": "Paragraph D says the genetic markers ranged from around 106 to 243 base pairs in length; so the answer is '243'.",
       "difficulty": "medium",
       "status": "verified",
-      "blind_solvable": null,
+      "blind_solvable": false,
       "blind_basis": null,
       "generated_by": "opus",
       "yeniden_uretim": {
@@ -110,7 +110,7 @@
       "explanation": "Paragraph E says seventeen distinct variants emerged at the first marker length, thirteen of which had never before been recorded in any genetic database; so the answer is 'thirteen'.",
       "difficulty": "medium",
       "status": "verified",
-      "blind_solvable": null,
+      "blind_solvable": false,
       "blind_basis": null,
       "generated_by": "opus",
       "yeniden_uretim": {

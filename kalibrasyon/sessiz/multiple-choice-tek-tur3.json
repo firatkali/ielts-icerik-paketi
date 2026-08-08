@@ -1,0 +1,50 @@
+{
+  "tur": 3,
+  "paket": "multiple-choice-tek",
+  "note": "3. tur. Anlam/kavram sorularinda karar uc turda da ayni; sayisal secimler yine kaydi. Hicbir turda ses metnine bakilmadi.",
+  "answers": [
+    {"id": "practice-multiple-choice-1", "answer": ["B"], "basis": "number_guess"},
+    {"id": "practice-multiple-choice-2", "answer": ["B"], "basis": "logic"},
+    {"id": "practice-multiple-choice-3", "answer": ["B"], "basis": "number_guess"},
+    {"id": "practice-multiple-choice-4", "answer": ["B"], "basis": "option_wording"},
+    {"id": "practice-multiple-choice-5", "answer": ["C"], "basis": "logic"},
+    {"id": "practice-multiple-choice-6", "answer": ["A"], "basis": "option_wording"},
+    {"id": "practice-multiple-choice-7", "answer": ["B"], "basis": "cross_question"},
+    {"id": "practice-multiple-choice-8", "answer": ["C"], "basis": "number_guess"},
+    {"id": "practice-multiple-choice-9", "answer": ["A"], "basis": "general_knowledge"},
+    {"id": "practice-multiple-choice-10", "answer": ["B"], "basis": "general_knowledge"},
+
+    {"id": "L1-multiple-choice-11", "answer": ["B"], "basis": "number_guess"},
+    {"id": "L1-multiple-choice-12", "answer": ["B"], "basis": "number_guess"},
+    {"id": "L1-multiple-choice-13", "answer": ["B"], "basis": "general_knowledge"},
+    {"id": "L1-multiple-choice-21", "answer": ["B"], "basis": "number_guess"},
+    {"id": "L1-multiple-choice-22", "answer": ["C"], "basis": "option_wording"},
+    {"id": "L1-multiple-choice-23", "answer": ["A"], "basis": "option_wording"},
+
+    {"id": "L2-multiple-choice-11", "answer": ["B"], "basis": "number_guess"},
+    {"id": "L2-multiple-choice-12", "answer": ["C"], "basis": "number_guess"},
+    {"id": "L2-multiple-choice-13", "answer": ["B"], "basis": "number_guess"},
+    {"id": "L2-multiple-choice-21", "answer": ["A"], "basis": "logic"},
+    {"id": "L2-multiple-choice-22", "answer": ["C"], "basis": "logic"},
+    {"id": "L2-multiple-choice-23", "answer": ["A"], "basis": "option_wording"},
+
+    {"id": "L3-multiple-choice-21", "answer": ["B"], "basis": "option_wording"},
+    {"id": "L3-multiple-choice-22", "answer": ["A"], "basis": "logic"},
+    {"id": "L3-multiple-choice-23", "answer": ["A"], "basis": "option_wording"},
+
+    {"id": "L4-multiple-choice-24", "answer": ["A"], "basis": "general_knowledge"},
+    {"id": "L4-multiple-choice-25", "answer": ["B"], "basis": "option_wording"},
+    {"id": "L4-multiple-choice-26", "answer": ["C"], "basis": "option_wording"},
+
+    {"id": "L5-multiple-choice-11", "answer": ["B"], "basis": "number_guess"},
+    {"id": "L5-multiple-choice-12", "answer": ["B"], "basis": "logic"},
+    {"id": "L5-multiple-choice-13", "answer": ["B"], "basis": "number_guess"},
+    {"id": "L5-multiple-choice-21", "answer": ["A"], "basis": "option_wording"},
+    {"id": "L5-multiple-choice-22", "answer": ["B"], "basis": "general_knowledge"},
+    {"id": "L5-multiple-choice-23", "answer": ["C"], "basis": "general_knowledge"},
+
+    {"id": "L6-multiple-choice-21", "answer": ["B"], "basis": "number_guess"},
+    {"id": "L6-multiple-choice-22", "answer": ["C"], "basis": "general_knowledge"},
+    {"id": "L6-multiple-choice-23", "answer": ["B"], "basis": "general_knowledge"}
+  ]
+}

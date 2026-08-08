@@ -79,8 +79,8 @@
       "explanation": "Paragraph B describes how the grains from the excavation look like a complex wheat under the microscope, but their species identity had never been confirmed at the molecular level.",
       "difficulty": "medium",
       "status": "verified",
-      "blind_solvable": null,
-      "blind_basis": "logic",
+      "blind_solvable": false,
+      "blind_basis": null,
       "flag_reason": "Baslik 'iv', en yakin celdirici 'ix' (saklama bicimi) elenerek bulunuyor: paragrafin ilk cumlesi korunmusluktan soz etse de asil konu tanelerin turunun hic dogrulanmamis olmasi; bu ayrim yalniz 'iv'i (kimligi belirsiz kalan bulgular) dogru birakiyor.",
       "flag_mechanism": "konumsal_duzen",
       "revision": {

@@ -396,8 +396,8 @@
           "explanation": "Paragraph B introduces two different experimental designs set up to test the same question.",
           "difficulty": "medium",
           "status": "verified",
-          "blind_solvable": null,
-          "blind_basis": "logic",
+          "blind_solvable": false,
+          "blind_basis": null,
           "flag_reason": "Baslik 'i', secenekler arasinda elemeyle bulunuyor: en yakin celdirici 'vii' (aksamdan sabaha hatirlama) konuca yakin duruyor ama paragraf saat ya da sinama ayrintisi vermiyor, yalniz iki deneyin farkli kisiler/ayni kisiler kurulusunu karsilastiriyor -- bu yuzden yalniz 'i' (ayni soru icin iki tasarim) ana fikri tam karsiliyor.",
           "flag_mechanism": "konumsal_duzen",
           "revision": {
@@ -462,8 +462,8 @@
           "explanation": "Paragraph E shows that the benefit of sleep depended on the type of material to be remembered: night-time sleep was superior for related pairs, but there was no difference for unrelated pairs.",
           "difficulty": "medium",
           "status": "verified",
-          "blind_solvable": null,
-          "blind_basis": "logic",
+          "blind_solvable": false,
+          "blind_basis": null,
           "flag_reason": "Baslik 'ix', en yakin celdirici 'viii' (bazi ciftlerin neden zor ogrenildigi) elenerek bulunuyor: paragraf ogrenme zorlugundan degil, hatirlama kazanciminin malzeme turune gore degismesinden soz ediyor; bu ayrim yalniz 'ix'i (sonucun malzemeye bagli olmasi) dogru birakiyor.",
           "flag_mechanism": "konumsal_duzen",
           "revision": {
@@ -490,8 +490,8 @@
           "explanation": "Paragraph F states that neither the length of the daytime nap nor the stages it contained showed a significant relationship with the memory gain.",
           "difficulty": "hard",
           "status": "flagged",
-          "blind_solvable": null,
-          "blind_basis": "logic",
+          "blind_solvable": false,
+          "blind_basis": null,
           "flag_reason": "E7 cevap anahtari olcumu (2026-08-08): kor cozum ii dedi, anahtar v. A12 F paragrafi icin ii ('The internal make-up of the daytime naps') ve v ('What the length of the rest did not explain') YALNIZ bu paragrafa demirleniyor ve ikisi de paragrafin birer yarisini kapsiyor (bilesim + sonucsuzluk). AC3/14'teki oruntuyle ayni: celdirici baska paragrafa demirli degil. ii'yi baska bir paragrafa baglanabilir bir ifadeyle degistirmek soruyu tartismasiz yapar.",
           "flag_mechanism": "konumsal_duzen",
           "revision": {

@@ -136,8 +136,8 @@
       "explanation": "Paragraph E lists which foods were thrown away in the greatest quantity: cereals and rice first, then vegetables and other items.",
       "difficulty": "medium",
       "status": "verified",
-      "blind_solvable": null,
-      "blind_basis": "logic",
+      "blind_solvable": false,
+      "blind_basis": null,
       "flag_reason": "Baslik 'iii', en yakin celdirici 'vii' (kabuklar ve mutfak artiklari) elenerek bulunuyor: paragrafin ilk iki cumlesi yenilebilir yiyeceklerin dokumunu siraliyor, kabuklardan soz eden yalniz son cumle; agirlik yenilebilir kalemlerde oldugu icin bu ayrim 'iii'u dogru birakiyor.",
       "flag_mechanism": "konumsal_duzen",
       "revision": {

@@ -31,11 +31,11 @@
       },
       "explanation": "Paragraph C says that half the pairs sat in neighbouring tanks separated by a transparent divider, with the water supplies kept fully separate; the answer is therefore 'transparent divider'.",
       "difficulty": "easy",
-      "status": "verified",
-      "blind_solvable": null,
+      "status": "flagged",
+      "blind_solvable": true,
       "blind_solvable_kelime_duzeyi": false,
       "blind_basis": "logic",
-      "flag_reason": "Parça gösterilmeden anlamca 3/3 turda doğru bilindi: farklı kelimeyle ama doğru kavramla cevaplandı (3 turda da 'transparent barrier' verdi, gerçek cevap 'transparent divider' — barrier/divider eş anlamlı).",
+      "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: logic. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md",
       "flag_mechanism": "esdizim_kilidi",
       "revision": {
         "tarih": "2026-08-08",
@@ -60,11 +60,11 @@
       },
       "explanation": "Paragraph D says that across the daily fifteen-minute encounters a dominance hierarchy consistently emerged, while physical contact and defensive ink-jetting became less frequent; the answer is therefore 'dominance hierarchy'.",
       "difficulty": "medium",
-      "status": "verified",
-      "blind_solvable": null,
+      "status": "flagged",
+      "blind_solvable": true,
       "blind_solvable_kelime_duzeyi": false,
       "blind_basis": "logic",
-      "flag_reason": "Parça gösterilmeden anlamca 3/3 turda doğru bilindi: farklı kelimeyle ama doğru kavramla cevaplandı (3 turda da 'hierarchy' verdi, gerçek cevap 'dominance hierarchy').",
+      "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: logic. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md",
       "flag_mechanism": "esdizim_kilidi",
       "revision": {
         "tarih": "2026-08-08",
@@ -110,9 +110,9 @@
       },
       "explanation": "Paragraph E says each reunion again lasted fifteen minutes, with the same behaviours recorded as in the cohabitation phase; so the answer is 'fifteen minutes'.",
       "difficulty": "easy",
-      "status": "verified",
-      "blind_solvable": null,
-      "blind_basis": null,
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "logic",
       "generated_by": "opus",
       "yeniden_uretim": {
         "tarih": "2026-08-08",
@@ -125,7 +125,8 @@
         "eski_kanit_cumlesi": "Repeated costly fights between the same two animals would waste energy and risk injury to no purpose, so an octopus that can recognise a familiar neighbour and respond to it with reduced aggression, a pattern long described in other species as the \"dear enemy\" effect, stands to gain from avoiding needless conflict.",
         "neden_elendi": "Cevabin kendisi yerlesik bir literatur terimi: 'dear enemy effect' hayvan davranisi yazininin adiyla anilan bir kavramidir ve model uc turda da yazdi (3/3 PUAN). Cumleden tanimi ('reacting with less hostility to an animal that is already known') cikarmak mumkun degil, cunku hangi etkinin sorulduğunu belirleyen tek sey odur; kalan her cerceve ayni unlu terimi cagiriyor. E6 onerisi: H/2'nin gerekce yarisi - tekrarlanan kavgalarin enerji harcamasi ve yaralanma riski.",
         "ne_degisti": "Eski soru H/2'ye capaliydi ve cevap yerlesik bir literatur terimiydi ('dear enemy' etkisi); cumle terimin tanimini verdigi icin ifade nasil yazilirsa yazilsin ayni unlu adi cagiriyordu. Yeni yuva H paragrafina hic degmiyor: kanit E/4'e, yedinci gun yapilan bulusmalarin suresine tasindi. Sure calismanin kendi tasarim ayrintisi; pasaj disindan bilinemez."
-      }
+      },
+      "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: logic. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md"
     }
   ]
 }

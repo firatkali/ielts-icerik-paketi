@@ -102,7 +102,7 @@
       "explanation": "Text A, paragraph B says applicants must submit a 300-word statement explaining their interest in the placement; so the answer is '300-word'.",
       "difficulty": "easy",
       "status": "verified",
-      "blind_solvable": null,
+      "blind_solvable": false,
       "blind_basis": null,
       "generated_by": "opus",
       "yeniden_uretim": {
@@ -198,7 +198,7 @@
       "explanation": "Text A, paragraph D says interns complete a short performance review at the five-week mark and a final review before departure; so the answer is 'five-week'.",
       "difficulty": "medium",
       "status": "verified",
-      "blind_solvable": null,
+      "blind_solvable": false,
       "blind_basis": null,
       "generated_by": "opus",
       "yeniden_uretim": {

@@ -33,8 +33,8 @@
       "explanation": "Paragraph A describes the insight puzzles as ones in which an animal suddenly stacks boxes to reach food hung out of reach, so the task required the animal to lift itself towards the food.",
       "difficulty": "easy",
       "status": "verified",
-      "blind_solvable": null,
-      "blind_basis": "general_knowledge",
+      "blind_solvable": false,
+      "blind_basis": null,
       "flag_reason": "Cevap TRUE, fillerin klasik icgoru/arac kullanma testlerinde primatlara kiyasla tarihsel olarak basarisiz sayilmasi hayvan bilisi literaturunde bilinen bir tartisma; bu genel bilgiyle ifadenin dogru oldugu parcaya bakmadan da tahmin edilebiliyor.",
       "flag_mechanism": "genel_kultur",
       "revision": {
@@ -77,8 +77,8 @@
       "explanation": "Paragraph C says the behaviour appeared abruptly, in a single uninterrupted sequence, so it was not broken off and resumed later.",
       "difficulty": "medium",
       "status": "verified",
-      "blind_solvable": null,
-      "blind_basis": "general_knowledge",
+      "blind_solvable": false,
+      "blind_basis": null,
       "flag_reason": "Cevap FALSE, psikolojideki 'icgoru' (insight) kavraminin tanimi geregi ani bir kavrayisla ortaya cikmasi, deneme-yanilmayla kademeli ogrenmenin ise bunun tam karsiti olmasi genel bilgisiyle; pasaj zaten bir 'icgoru' davranisini anlattigina gore 'kademeli gelisti' iddiasinin yanlis olmasi parcaya bakmadan da beklenir.",
       "flag_mechanism": "genel_kultur",
       "revision": {
@@ -104,9 +104,9 @@
       "scan_note": "Kupun disindaki nesneler yalniz D/4'te ele aliniyor: traktor lastigi yerine gecen platform olarak isliyor, kucuk nesnelerin ust uste konmasi ise acikca 'less successfully' diye niteleniyor. C ve D'nin geri kalani kupun kendisiyle elde edilen basariyi anlatiyor, H ise cozumun 'hatasiz' ortaya ciktigini soyluyor ama bunu kupla yapilan cozum icin soyluyor; kucuk nesnelerin basarisini yukselten hicbir cumle yok.",
       "explanation": "Paragraph D says that with smaller objects Kandula attempted to stack them 'less successfully', so those attempts did not work as well as his use of the cube, which he handled without difficulty.",
       "difficulty": "medium",
-      "status": "verified",
-      "blind_solvable": null,
-      "blind_basis": null,
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "option_wording",
       "generated_by": "opus",
       "yeniden_uretim": {
         "tarih": "2026-08-08",
@@ -119,7 +119,8 @@
         "eski_kanit_cumlesi": "When keepers moved the food to a new position, he adjusted by rolling the cube to the corresponding spot underneath.",
         "neden_elendi": "Kanit cumlesi (D/3) yalniz 'yiyecek yeri degistiginde Kandula kupu yeni noktaya yuvarladi' diyor; bu cumleden cikarilabilecek her dogru ifade 'akilli hayvan yeni duruma uyum sagladi' bicimini aliyor. Uyum saglama, akilli hayvan calismalarinin standart kanit yapisi olarak beklendigi icin cevap eksen degistirilmeden kapanmiyor; ekseni degistirmek ise kanit cumlesini degistirmek demek, talimat bunu yarim duzeltme sayiyor. E6 bu yuvayi D paragrafinin sayisal ya da nesnel ayrintilarina capalamali (ayni oturumda dokuz kez tekrarlamasi, kup kaldirilinca traktor lastigine gecmesi, kucuk nesneleri ust uste koyma denemesinin basarisiz olmasi).",
         "ne_degisti": "Eski ifade D/3'e capaliydi ve ekseni 'akilli hayvan yeni duruma uyum saglar' beklentisiydi; bu, akilli hayvan calismalarinin standart kanit yapisi oldugu icin cevap pasajsiz cikiyordu. Yeni ifade D/3'e hic degmiyor: kanit E5'in kendi onerdigi noktaya, D/4'teki basarisiz istifleme denemesine tasindi. Metin bu denemeyi tek bir zarfla ('less successfully') nitelendirdigi icin cevap yalniz o zarftan cikiyor; yuvanin cevabi da TRUE'dan FALSE'a dondu, boylece 'etkileyici yetenek iddiasi -> TRUE' ekseni AC1'de bir kez daha kirildi. Kanit ayni test icindeki AC1 not tamamlama 4 ile ayni cumleyi paylasiyor ama onun hedefi cumlenin traktor lastigi yarisi; bu yuva yalniz kucuk nesneler yarisini kullaniyor."
-      }
+      },
+      "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: option_wording. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md"
     },
     {
       "number": 11,
@@ -139,7 +140,7 @@
       "difficulty": "medium",
       "status": "flagged",
       "blind_solvable": true,
-      "blind_basis": "guess",
+      "blind_basis": "logic",
       "flag_reason": "Net bir mekanizma yok: ifade Kandula'nin ertesi gun kupun yerini hatirlayip hatirlamadigini soruyor; boyle bellek iddialari bu tur hayvan zekasi calismalarinda genelde onaylanan sonuc olma egiliminde olsa da, bu tek ifadenin dogrulugu spesifik bir isaret olmadan sansa yakin bir tahmine dayaniyor.",
       "flag_mechanism": "belirsiz",
       "review_note": "E5 / 6. calistirma: dokunulmadi. E1 bu soruyu 'belirsiz' mekanizmayla isaretlemis ve blind_basis alanina 'guess' yazmisti; olcumde model dogru cevabi bir mekanizmayla degil, uc secenekli bir kumede sansla tutturmus. Ifade E/4'un icerigini duz bicimde paraphrase ediyor, kanit cumlesi disinda hicbir imza tasimiyor. Yine de AC1-10 ile ayni ekseni (etkileyici yetenek iddiasi -> TRUE) paylastigi icin E7 olcumunde tekrarli olarak yeniden olculmesi gerekiyor; AC1-10 bu calistirmada elendigi icin eksen zaten zayifladi."
@@ -160,10 +161,10 @@
       "scan_note": "Yazarlarin aciklamasi F paragrafinin 2. cumlesinde; B paragrafi deneyde bambu bir sopanin sunuldugunu ayrica soyluyor, F/3-4 sopanin neden ise yaramadigini anlatiyor.",
       "explanation": "Paragraph F says the authors blame the tools that previous experiments had offered, which means tools were offered; the problem was that a stick did not suit the animal's trunk.",
       "difficulty": "medium",
-      "status": "verified",
-      "blind_solvable": null,
+      "status": "flagged",
+      "blind_solvable": true,
       "blind_basis": "general_knowledge",
-      "flag_reason": "Cevap FALSE, bir hayvanin beklenmedik bir basari gosterdigi bilim haberlerinin gecmis basarisizligi 'hayvan aptaldi' diye aciklamak yerine 'kullanilan arac/yontem uygun degildi' diye aciklamasi yaygin bir anlati kalibi; bu genel oruntuyle ifadenin (zeka aciklamasi) yanlis oldugu parcaya bakmadan da tahmin edilebiliyor.",
+      "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: general_knowledge. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md",
       "flag_mechanism": "genel_kultur",
       "revision": {
         "tarih": "2026-08-08",
@@ -186,8 +187,8 @@
       "explanation": "The passage says a bamboo stick was offered at the start and later explains why sticks suit elephants poorly, but it never says whether the stick was removed once the animal began using the cube.",
       "difficulty": "hard",
       "status": "verified",
-      "blind_solvable": null,
-      "blind_basis": "logic",
+      "blind_solvable": false,
+      "blind_basis": null,
       "flag_reason": "Ifade, pasajin kupun faydalarini hortumun acik kalmasi ve govdenin yaklasmasi (dokunma/erisim) uzerinden anlattigi bir bolumde, hic ele alinmayan bir duyu kanali (gorme) hakkinda iddia kuruyor; boyle 'bahsedilmeyen duyu' iddialari genelde NOT GIVEN'a isaret eder.",
       "flag_mechanism": "konumsal_duzen",
       "revision": {

@@ -32,9 +32,9 @@
       "scan_note": "Kentsel-kirsal karsilastirma D paragrafinda: D/1 farkin varligini duyuruyor, D/2 hem kisi basi agirliklari (79,4'e 45,8) hem yenilebilir payi (%38,2'ye %23,4) veriyor, D/3 geliri neden olarak aniyor. Miktar ile pay ayni cumlede yan yana durdugu icin sorunun ekseni hangisinin sorulduguna dikkat etmek. H/1-2 kirsalin daha az attigini yineliyor ama yenilebilir payi hakkinda ayri bir sayi vermiyor.",
       "explanation": "The writer reports that 38.2% of the urban total was edible food, against 23.4% in rural areas, so edible food formed a larger share of city waste.",
       "difficulty": "medium",
-      "status": "verified",
-      "blind_solvable": null,
-      "blind_basis": null,
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "logic",
       "generated_by": "opus",
       "yeniden_uretim": {
         "tarih": "2026-08-08",
@@ -47,7 +47,8 @@
         "eski_kanit_cumlesi": "Rather than relying on households to estimate their own waste, which tends to produce unreliable figures, the research team physically collected, sorted and weighed the solid food waste from each home's rubbish over eight consecutive days, using digital scales accurate to two grams.",
         "neden_elendi": "Sorunun ekseni genel arastirma yontemi bilgisi: oz-bildirime dayali tahminlerin dogrudan olcumden daha guvenilmez oldugu, pasajdan bagimsiz bilinen bir kural. Ifadedeki 'tend to' kipi kaldirilsa bile cevap ayni yerden cikar.",
         "ne_degisti": "Yuva bosaltilip ayni pasajdan yeni bir ifadeyle dolduruldu. Eski soru B/1'deki 'oz-bildirime dayali tahminler guvenilmez' yargisini soruyordu; bu, pasajdan bagimsiz bilinen bir yontem kuraliydi. Yeni ifade B paragrafina hic degmiyor: kanit D/2'ye, kentsel ve kirsal atigin yenilebilir paylarina tasindi. Pay yalnizca calismanin kendi sayilarindan (%38,2'ye %23,4) okunabiliyor ve ayni cumlede duran kisi basi agirlik farkiyla karistirilmamasi gerekiyor, yani miktar-oran ayrimini yapmak sart. Kip dengesi icin ifade mutlak yazildi ('clearly larger') ve cevabi YES: olculu kipin dogru, mutlak kipin yanlis tarafa ayrilmasi kirildi."
-      }
+      },
+      "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: logic. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md"
     },
     {
       "number": 34,
@@ -66,7 +67,7 @@
       "explanation": "The writer gives a definite figure for this: rubbish bins accounted for 82.8% of all the food discarded in the sample, far more than about half.",
       "difficulty": "medium",
       "status": "verified",
-      "blind_solvable": null,
+      "blind_solvable": false,
       "blind_basis": null,
       "generated_by": "opus",
       "yeniden_uretim": {
@@ -98,10 +99,10 @@
       "scan_note": "Yontemin kapsam siniri F paragrafinda: F/2 olcumun yalnizca cop kutusuna gideni kapsadigini (%82,8), F/3 kompost ve hayvan yemine gidenin ana toplamlara girmedigini soyluyor. H/2 kirsalda kompostun yayginligini yineliyor; celisen cumle yok.",
       "explanation": "The writer states that food composted, fed to animals or disposed of outside the regular bin was not captured in the main waste totals.",
       "difficulty": "medium",
-      "status": "verified",
-      "blind_solvable": null,
+      "status": "flagged",
+      "blind_solvable": true,
       "blind_basis": "logic",
-      "flag_reason": "Cevap YES, yalniz cop kutusune giden atigi olcen bir yontemin, kompostlama gibi olculmeyen kanallari kapsam disi biraktigi icin gercek toplami her zaman olması gerekenden dusuk gostermesi genel arastirma yontemi mantigiyla parcaya bakmadan da tahmin edilebiliyor.",
+      "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: logic. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md",
       "flag_mechanism": "konumsal_duzen",
       "revision": {
         "tarih": "2026-08-08",
@@ -124,8 +125,8 @@
       "explanation": "The passage says how many households took part and where they were, but never explains how they were selected.",
       "difficulty": "hard",
       "status": "verified",
-      "blind_solvable": null,
-      "blind_basis": "logic",
+      "blind_solvable": false,
+      "blind_basis": null,
       "flag_reason": "Ifade, pasajin gidanin atilma nedenlerini ayrintili sekilde saydigi bir yerde, bu listede hic gecmeyen baska bir neden (tarih etiketi karisikligi) one suruyor; boyle 'listede olmayan neden' iddialari genelde NOT GIVEN'a isaret eder.",
       "flag_mechanism": "konumsal_duzen",
       "revision": {

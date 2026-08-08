@@ -32,11 +32,11 @@
       },
       "explanation": "Paragraph B says Webb's Near-Infrared Camera captured a series of long-exposure images, each lasting forty minutes; the gap asks how long a single exposure ran, so the answer is 'forty minutes'.",
       "difficulty": "easy",
-      "status": "verified",
-      "blind_solvable": null,
+      "status": "flagged",
+      "blind_solvable": true,
       "blind_solvable_kelime_duzeyi": false,
-      "blind_basis": "logic",
-      "flag_reason": "Parça gösterilmeden anlamca 3/3 turda doğru bilindi: farklı kelimeyle ama doğru kavramla cevaplandı (3 turda da '40 minutes' verdi, gerçek cevap 'forty minutes' — aynı sayının rakamla yazılışı).",
+      "blind_basis": "general_knowledge",
+      "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: general_knowledge. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md",
       "flag_mechanism": "esdizim_kilidi",
       "revision": {
         "tarih": "2026-08-08",
@@ -63,7 +63,7 @@
       "explanation": "Paragraph A says that in February 2025 astronomers added one more member to Uranus's family of moons; so the answer is 'February 2025'.",
       "difficulty": "easy",
       "status": "verified",
-      "blind_solvable": null,
+      "blind_solvable": false,
       "blind_basis": null,
       "generated_by": "opus",
       "yeniden_uretim": {
@@ -99,9 +99,9 @@
       },
       "explanation": "Paragraph C says astronomers calculate a diameter of about six miles, or ten kilometres, making it one of the smallest moons known; so the answer is 'ten kilometres' (or the same figure in miles).",
       "difficulty": "medium",
-      "status": "verified",
-      "blind_solvable": null,
-      "blind_basis": null,
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "general_knowledge",
       "generated_by": "opus",
       "yeniden_uretim": {
         "tarih": "2026-08-08",
@@ -114,7 +114,8 @@
         "eski_kanit_cumlesi": "Because it has not been imaged in enough detail to measure directly, its size has to be estimated: assuming it reflects light in a similar way to Uranus's other small moons, astronomers calculate a diameter of about six miles, or ten kilometres, making it one of the smallest moons known anywhere in the solar system.",
         "neden_elendi": "Bosluk 'it ___ light' kalibinin ortasinda ve bir gok cisminin parlakligindan cap tahmin etme varsayimi Ingilizcede yalniz 'reflect' fiiliyle kuruluyor. Fiili baska bir cerceveye tasimak ya cumleyi bozuyor ya da cevabi sifat bicimine ('reflective') ceviriyor, yani korunan alani degistiriyor. E6 bu adimi cap tahmininin sayisina ya da 'too faint to measure directly' gerekcesine capalamali.",
         "ne_degisti": "Eski kutu ayni cumleye capaliydi ama bosluk 'it ___ light' kalibinin ortasindaydi ve parlakliktan cap tahmini Ingilizcede yalniz 'reflect' fiiliyle kuruluyordu. E5'in kendi onerisi uyarinca bosluk ayni cumlenin OLCULEN degerine tasindi: varsayimin fiili artik sorulmuyor, sorulan sey hesaplanan capin kendisi. Sizdiran oge (fiil kalibi) cerceveden tumuyle kalkti; yeni hedefin disaridan turetilebilir bir karsiligi yok."
-      }
+      },
+      "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: general_knowledge. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md"
     },
     {
       "number": 4,
@@ -175,9 +176,9 @@
       },
       "explanation": "Paragraph H quotes the team lead as saying that finding something even a dedicated flyby mission missed shows how much of a well-studied planetary system can remain hidden; so the answer is 'dedicated flyby mission'.",
       "difficulty": "hard",
-      "status": "verified",
-      "blind_solvable": null,
-      "blind_basis": null,
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "general_knowledge",
       "generated_by": "opus",
       "yeniden_uretim": {
         "tarih": "2026-08-08",
@@ -190,7 +191,8 @@
         "eski_kanit_cumlesi": "Following long tradition, Uranus's moons are named not after figures from classical mythology, as is usual elsewhere in the solar system, but after characters drawn from the plays of Shakespeare and the poetry of Alexander Pope; the newcomer's eventual name will still need formal approval from the International Astronomical Union.",
         "neden_elendi": "Cevabin kendisi bir ozel ad ve dunya bilgisi: gok cismi adlarini onaylayan kurumun Uluslararasi Astronomi Birligi olmasi astronominin en cok bilinen kurumsal gercegi; model uc turda da adin tamamini yazdi (3/3 PUAN). Kutunun kalan icerigi (Shakespeare ve Pope gelenegi) degistirilse bile 'onaylayan kurum' sorusunun tek cevabi ayni kalir. E6 onerisi: E/2'nin gelenek yarisi - adlarin mitolojiden degil oyun ve siirden secilmesi.",
         "ne_degisti": "Eski kutu E/2'ye capaliydi ve cevap bir ozel ad ve dunya bilgisiydi (gok cismi adlarini onaylayan kurum). Ayni cumlenin oteki yarisi (Shakespeare ve Pope gelenegi) da ayni olcude taniniyor, o yuzden E/2 tumuyle birakildi ve akis semasinin son adimi adlandirmadan cikarildi; sema basligi da buna gore degistirildi. Kanit H/2'ye, ekip liderinin degerlendirmesine tasindi."
-      }
+      },
+      "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: general_knowledge. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md"
     }
   ]
 }

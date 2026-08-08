@@ -53,7 +53,7 @@
       "explanation": "Paragraph C says participants walked two minutes to the campus spot, against the five-minute walk to the forest stand; so the answer is 'two minutes'.",
       "difficulty": "easy",
       "status": "verified",
-      "blind_solvable": null,
+      "blind_solvable": false,
       "blind_basis": null,
       "generated_by": "opus",
       "yeniden_uretim": {
@@ -86,9 +86,9 @@
       },
       "explanation": "Paragraph E says the Profile of Mood States is a 65-item scale measuring six mood dimensions; so the answer is '65-item'.",
       "difficulty": "medium",
-      "status": "verified",
-      "blind_solvable": null,
-      "blind_basis": null,
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "general_knowledge",
       "generated_by": "opus",
       "yeniden_uretim": {
         "tarih": "2026-08-08",
@@ -101,7 +101,8 @@
         "eski_kanit_cumlesi": "All four instruments were administered as paper questionnaires immediately before and again immediately after each 15-minute period, so that any change could be attributed specifically to the intervening exposure rather than to the simple passage of time.",
         "neden_elendi": "'the passage of time' Ingilizcede tam kaliplasmis bir ifade; bosluk bu kalibin icinde durdugu surece hangi cerceveye konursa konsun tek tamamlamasi var, 'of time' kaldirildiginda ise cumle anlamini yitiriyor. E6 bu yuvayi ayni cumlenin olculebilir ayrintisina (anketlerin kagit uzerinde, on bes dakikanin hemen oncesinde ve hemen sonrasinda uygulanmasi) tasimali.",
         "ne_degisti": "Eski soru E/5'e capaliydi ve bosluk 'the passage of time' kaliplasmis obeginin icinde duruyordu; kalip yerinde kaldigi surece tek tamamlamasi vardi. Yeni soru E/5'e hic degmiyor: kanit E/2'ye, olcegin madde sayisina tasindi. Madde sayisi arac kunyesine ait bir sayi ve cerceve hicbir kalibin icinde degil."
-      }
+      },
+      "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: general_knowledge. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md"
     },
     {
       "number": 22,
@@ -120,7 +121,7 @@
       "explanation": "Paragraph B says the 22 students recruited, 11 women and 11 men, had an average age of 22.5; so the answer is '22.5'.",
       "difficulty": "easy",
       "status": "verified",
-      "blind_solvable": null,
+      "blind_solvable": false,
       "blind_basis": null,
       "generated_by": "opus",
       "yeniden_uretim": {

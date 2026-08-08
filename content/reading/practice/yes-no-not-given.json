@@ -35,8 +35,8 @@
       "explanation": "The passage measures what newcomers gained from experienced teammates but never reports whether the experienced employees' own output suffered as a result.",
       "difficulty": "hard",
       "status": "verified",
-      "blind_solvable": null,
-      "blind_basis": "logic",
+      "blind_solvable": false,
+      "blind_basis": null,
       "flag_reason": "Ifade, pasajin tek bir tam uzaktan sirketi anlattigi bir calismada, hic ele alinmayan bir baska kategoriyle (ofis tabanli sirketler) karsilastirma kuruyor; pasaj tek vaka inceledigi icin boyle bir kiyaslama iddiasi genelde NOT GIVEN'a isaret eder.",
       "flag_mechanism": "konumsal_duzen",
       "revision": {
@@ -63,9 +63,9 @@
       "scan_note": "Olcum tasarimi D paragrafinda: D/1 uretkenligin ayda hizmet verilen farkli musteri sayisiyla olculdugunu soyluyor, D/2 iki sabiti yan yana veriyor - sirketin calisma saatlerini standartlastirmasi ve her musteri sozlesmesinin aylik otuz saat ayirmasi. B/3 calisma saatlerini yalnizca operasyonel kayitlarin icerigi olarak aniyor, sabitlikten soz etmiyor; baska hicbir paragraf sozlesme suresi vermiyor.",
       "explanation": "The writer says the company standardises working hours and that each client contract allocates a fixed thirty hours of monthly support, so both quantities were held constant.",
       "difficulty": "medium",
-      "status": "verified",
-      "blind_solvable": null,
-      "blind_basis": null,
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "logic",
       "generated_by": "opus",
       "yeniden_uretim": {
         "tarih": "2026-08-08",
@@ -78,7 +78,8 @@
         "eski_kanit_cumlesi": "What made the study unusually rigorous was a quirk of company policy: new hires were placed into teams using a simple round-robin system based purely on the order in which they joined, a process neither managers nor employees could influence.",
         "neden_elendi": "Sorunun ekseni genel arastirma yontemi bilgisi: yeni calisanlarin sira ya da rastgele usulle takimlara dagitilmasinin nedensellik cikarimini guclendirdigi, pasajdan bagimsiz olarak bilinen bir metodoloji kurali. Kip dengelemesi ya da konum degisikligi bunu kapatmaz; ifade nasil yazilirsa yazilsin cevap yontem bilgisinden cikar.",
         "ne_degisti": "Yuva bosaltilip ayni pasajdan yeni bir ifadeyle dolduruldu. Eski soru C/1'e dayaniyordu: yeni calisanlarin sira usulu takimlara dagitilmasinin arastirmaya 'olagandisi bilimsel guc' verdigi. Rastgeleye yakin atamanin nedensellik cikarimini guclendirdigi genel bir yontem kurali oldugu icin cevap pasajsiz da cikiyordu. Yeni ifade C paragrafina hic degmiyor: kanit D/2'ye, olcumun iki sabitine tasindi (standartlastirilmis calisma saati + sozlesme basina sabit otuz saat). Bunlar sirkete ozgu keyfi tasarim ayrintilari; disaridan bilinemez, cunku esnek saat ya da degisken sozlesme suresi de esit olculude makuldu. Kip dengesi icin ifade mutlak yazildi ('both fixed across the company') ve cevabi YES: mutlak kipin otomatik olarak yanlis tarafa isaret etmesi kirildi."
-      }
+      },
+      "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: logic. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md"
     },
     {
       "number": 3,
@@ -97,10 +98,10 @@
       "scan_note": "Yildiz calisanlarin etkisi E paragrafinda (E/2 olculebilir iyilesme yok, E/3 faydanin burada gorulmedigi) ve H/2'de ele aliniyor; hicbir cumle olculu de olsa bir artistan soz etmiyor.",
       "explanation": "The writer states that whatever benefit workers usually gain from star performers did not appear in this study at all, so even a small rise is ruled out.",
       "difficulty": "medium",
-      "status": "verified",
-      "blind_solvable": null,
-      "blind_basis": "option_wording",
-      "flag_reason": "Ifadedeki 'clearly' (acikca) mutlak zarfi, arastirma bulgularini aktaran ifadelerde sik sik abarti sinyali; 'yildiz calisan etkisi' arastirmalarinda genelde beklenenin aksine sinirli ya da sifir etki bulunmasi bilgisiyle birlikte, ifadenin YANLIS olacagi parcaya bakmadan da tahmin edilebiliyor.",
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "logic",
+      "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: logic. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md",
       "flag_mechanism": "kip_imzasi",
       "revision": {
         "tarih": "2026-08-08",
@@ -127,7 +128,7 @@
       "explanation": "The figures given are around 26.2 per cent for first-year staff against 8.6 per cent for second-year staff, a gap of about three times rather than two.",
       "difficulty": "medium",
       "status": "verified",
-      "blind_solvable": null,
+      "blind_solvable": false,
       "blind_basis": null,
       "generated_by": "opus",
       "yeniden_uretim": {
@@ -161,7 +162,7 @@
       "explanation": "The writer describes a Latin square design in which every team eventually experienced every one of the four layouts, but in a different order.",
       "difficulty": "easy",
       "status": "verified",
-      "blind_solvable": null,
+      "blind_solvable": false,
       "blind_basis": null,
       "generated_by": "opus",
       "yeniden_uretim": {
@@ -194,10 +195,10 @@
       "scan_note": "Siralama D paragrafinda veriliyor: D/1 dort tasarimi kapsayan net siralama yargisi, D/2-D/3 dort tasarimin da sayilari. E akis puanlarini ekliyor; hicbir cumle siralamayi iki tasarimla sinirlamiyor.",
       "explanation": "The writer reports a clear ranking covering all four designs, not just two of them.",
       "difficulty": "medium",
-      "status": "verified",
-      "blind_solvable": null,
+      "status": "flagged",
+      "blind_solvable": true,
       "blind_basis": "logic",
-      "flag_reason": "Cevap NO, dort ofis duzenini karsilastiran bir deneyi konu eden pasajlarda genelde raporlanacak bir sonuc (net bir siralama) bulunur; ifadenin 'net bir siralama cikmadi' iddiasi bu tur karsilastirmali calisma anlatilarinin olagan oruntusuyle celisir.",
+      "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: logic. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md",
       "flag_mechanism": "konumsal_duzen",
       "revision": {
         "tarih": "2026-08-08",
@@ -223,10 +224,10 @@
       "scan_note": "Odaklanma ve akis E paragrafinda: E/2 iki yari kapali duzenin hem tamamen acik hem de sabit masasiz duzenden daha surekli konsantrasyon sagladigini soyluyor. Denenen dort duzenden geri kalan ikisi tam olarak bunlar; F gurultu verisiyle destekliyor, celisen cumle yok.",
       "explanation": "The writer reports higher flow scores for both the team-office and the zoned design than for either the fully open or the fully unassigned arrangement, which are the only other layouts tested.",
       "difficulty": "medium",
-      "status": "verified",
-      "blind_solvable": null,
+      "status": "flagged",
+      "blind_solvable": true,
       "blind_basis": "logic",
-      "flag_reason": "Cevap YES, pasaj dort duzeni ikiserli gruplar (tam acik/sabit masasiz vs. yari kapali) halinde karsilastiriyor; 'yari kapali alanlar dikkat daginikligini azaltir' sezgisel ofis ergonomisi mantigiyla, iki yari kapali duzenin odaklanmada one cikmasi parcaya bakmadan da beklenen bir sonuc.",
+      "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: logic. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md",
       "flag_mechanism": "konumsal_duzen",
       "revision": {
         "tarih": "2026-08-08",
@@ -250,8 +251,8 @@
       "explanation": "The passage compares noise in the open-plan office with the alternative designs as a group, but never compares the alternative designs with one another.",
       "difficulty": "hard",
       "status": "verified",
-      "blind_solvable": null,
-      "blind_basis": "logic",
+      "blind_solvable": false,
+      "blind_basis": null,
       "flag_reason": "Ifade, pasajin yalnizca deney sonuclarini ve onerileri sundugu bir baglamda, sirketin deney sonrasi ne karar verdigine dair hic ele alinmayan bir uygulama ayrintisi ekliyor; bu tur 'deneyden sonra ne oldu' sorularinin pasajda karsiligi cogu zaman yoktur, bu oruntuyle NOT GIVEN tahmin edilebilir.",
       "flag_mechanism": "konumsal_duzen",
       "revision": {
@@ -278,9 +279,9 @@
       "scan_note": "Iki kosulun kurulusu C paragrafinda karsilikli veriliyor: C/1 orman (bes dakikalik yuruyus, agac turleri ve yaslari, 15 dakikalik kalis), C/2 kampus (iki dakikalik yuruyus, 15 dakikalik kalis), C/3 iki kosulda da gecerli kurallari sayiyor. B katilimcilari ve capraz tasarimi, D hava kosullarini veriyor; yuruyus suresi baska hicbir yerde gecmiyor.",
       "explanation": "The forest condition began with a five-minute walk and the campus condition with a two-minute one, so the walking involved was not comparable.",
       "difficulty": "medium",
-      "status": "verified",
-      "blind_solvable": null,
-      "blind_basis": null,
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "logic",
       "generated_by": "opus",
       "yeniden_uretim": {
         "tarih": "2026-08-08",
@@ -293,7 +294,8 @@
         "eski_kanit_cumlesi": "It is now widely accepted that spending time in natural surroundings can reduce stress and improve mood, an effect researchers often describe as psychological restoration.",
         "neden_elendi": "Sorunun ekseni genel kultur: dogada vakit gecirmenin stresi azalttigi gorusunun yaygin kabul gordugu, pasajdan once bilinen bir sey. Ifade zaten 'yaygin kabul' iddiasinin kendisini sordugu icin dogrulanmasi pasaja hic bagli degil.",
         "ne_degisti": "Yuva bosaltilip ayni pasajdan yeni bir ifadeyle dolduruldu. Eski soru A/1'e dayaniyordu: doganin stresi azalttigi gorusunun artik yaygin kabul gordugu. Ifade 'yaygin kabul' iddiasinin kendisini sordugu icin dogrulanmasi pasaja hic bagli degildi. Yeni ifade A paragrafina hic degmiyor: kanit C/2'ye, iki kosula ulasmak icin yurunen sureye tasindi (bes dakikaya karsi iki dakika). Bu sureler saha duzenlemesinin keyfi ayrintisi; ormanin kampustan daha uzakta olmasi zorunlu degil, esit uzaklikta iki nokta secilmis de olabilirdi. Kip dengesi icin ifade olculu yazildi ('seems to have involved about the same') ve cevabi NO."
-      }
+      },
+      "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: logic. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md"
     },
     {
       "number": 10,
@@ -310,8 +312,8 @@
       "explanation": "The questionnaires were given only immediately before and immediately after each fifteen-minute period, so the passage never reports how the effect developed during the stay.",
       "difficulty": "hard",
       "status": "verified",
-      "blind_solvable": null,
-      "blind_basis": "logic",
+      "blind_solvable": false,
+      "blind_basis": null,
       "flag_reason": "Ifade, pasajin yalnizca grup toplami olarak rapor ettigi sonuclari cinsiyete gore ayristiriyor; toplulastirilmis sonuclar veren arastirma pasajlarinda boyle alt-grup kiyaslamalari genelde verilmez, bu oruntuyle NOT GIVEN tahmin edilebilir.",
       "flag_mechanism": "konumsal_duzen",
       "revision": {
@@ -339,7 +341,7 @@
       "explanation": "The writer says the clearest effect of the entire study appeared on the Restorative Outcome Scale, the measure of how mentally refreshing the environment felt, rather than on the mood scales.",
       "difficulty": "medium",
       "status": "verified",
-      "blind_solvable": null,
+      "blind_solvable": false,
       "blind_basis": null,
       "generated_by": "opus",
       "yeniden_uretim": {
@@ -374,7 +376,7 @@
       "explanation": "The writer reports that other studies connected green vegetation with increased energy and alertness; the calming effect is what remained once snow had hidden that greenery.",
       "difficulty": "hard",
       "status": "verified",
-      "blind_solvable": null,
+      "blind_solvable": false,
       "blind_basis": null,
       "generated_by": "opus",
       "yeniden_uretim": {
@@ -405,8 +407,8 @@
       "explanation": "The passage gives the exact times of learning and testing in both experiments but never says that time of day was itself examined as a possible influence on recall.",
       "difficulty": "hard",
       "status": "verified",
-      "blind_solvable": null,
-      "blind_basis": "logic",
+      "blind_solvable": false,
+      "blind_basis": null,
       "flag_reason": "Ifade, pasajin yalnizca genc yetiskinlerle yuruttugu bir calismaya, hic sinanmamis bir yas grubunu (yasli yetiskinler) ekleyerek karsilastirma kuruyor; tek bir yas grubuyla calisan pasajlarda boyle capraz-yas kiyaslamalari genelde verilmez, bu oruntuyle NOT GIVEN tahmin edilebilir.",
       "flag_mechanism": "konumsal_duzen",
       "revision": {
@@ -434,8 +436,8 @@
       "explanation": "The writer reports a clear difference in recall depending on the type of material, so the distinction mattered a great deal.",
       "difficulty": "medium",
       "status": "verified",
-      "blind_solvable": null,
-      "blind_basis": "option_wording",
+      "blind_solvable": false,
+      "blind_basis": null,
       "flag_reason": "Ifadedeki 'made no difference' (hic fark yaratmadi) mutlak olumsuzlamasi, arastirma temelli pasajlarda genelde yanlis cikan bir kalip: pasaj bir calismayi anlattigina gore malzeme turunun sonucu etkiledigi (bir farkin bulundugu) beklenir; bu genel oruntuyle ifadenin YANLIS oldugu parcaya bakmadan da tahmin edilebilir.",
       "flag_mechanism": "kip_imzasi",
       "revision": {
@@ -460,7 +462,7 @@
       "explanation": "The passage describes 40 related and 40 unrelated pairs in each experiment but never says whether the same list was used in both.",
       "difficulty": "hard",
       "status": "verified",
-      "blind_solvable": null,
+      "blind_solvable": false,
       "blind_basis": null,
       "generated_by": "opus",
       "yeniden_uretim": {

@@ -82,8 +82,8 @@
       "explanation": "Paragraph E lists what survived in the vitrified tissue and ends with the microtubules, the smallest structures it records; so the answer is 'microtubules'.",
       "difficulty": "easy",
       "status": "verified",
-      "blind_solvable": null,
-      "blind_basis": "general_knowledge",
+      "blind_solvable": false,
+      "blind_basis": null,
       "flag_reason": "Cevap 'microtubules', cumlenin kendisi bosluktan hemen sonra terimin tanimini veriyor ('the minute rods that support a cell from within'); bu tanim, terimi bilenler icin dogrudan cagristirdigindan parcaya bakmadan da tahmin edilebiliyor.",
       "flag_mechanism": "tanim_sizintisi",
       "revision": {
@@ -131,9 +131,9 @@
       "explanation": "Paragraph G says only a very narrow set of thermal conditions could explain both the extreme heat exposure and the preservation of the structure; so the answer is 'thermal conditions'.",
       "difficulty": "medium",
       "status": "verified",
-      "blind_solvable": null,
+      "blind_solvable": false,
       "blind_solvable_kelime_duzeyi": false,
-      "blind_basis": "logic",
+      "blind_basis": null,
       "flag_reason": "Parça gösterilmeden anlamca 3/3 turda doğru bilindi: farklı kelimeyle ama doğru kavramla cevaplandı (3 turda da 'conditions' verdi, gerçek cevap 'thermal conditions'; cümlenin kendi açıklaması ('ani ısı, hemen ardından soğuma') aynı göndergeyi veriyor).",
       "flag_mechanism": "esdizim_kilidi",
       "revision": {

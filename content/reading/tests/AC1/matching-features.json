@@ -55,8 +55,8 @@
       "explanation": "Paragraph F says octopuses reunited with a familiar partner took noticeably longer to make first contact and were more likely to keep a cautious distance without touching.",
       "difficulty": "medium",
       "status": "verified",
-      "blind_solvable": null,
-      "blind_basis": "logic",
+      "blind_solvable": false,
+      "blind_basis": null,
       "flag_reason": "Cevap D, secenekler arasinda elemeyle bulunuyor: C'deki azalma uc gunluk donem icindeki genel egilim, oysa ifade yedinci gundeki iki bulusma turunun karsilastirmasini soruyor; E ise tam ters yonde (yabancilar daha erken temas ediyor) -- bu ayrim yalniz D'yi (eski es) dogru birakiyor.",
       "flag_mechanism": "konumsal_duzen",
       "revision": {
@@ -101,7 +101,7 @@
       "explanation": "Paragraph D says that across the three days of cohabitation a dominance hierarchy emerged, with the stronger animal winning an average of seventy-six per cent of interactions.",
       "difficulty": "medium",
       "status": "verified",
-      "blind_solvable": null,
+      "blind_solvable": false,
       "blind_basis": null,
       "generated_by": "opus",
       "yeniden_uretim": {
@@ -134,8 +134,8 @@
       "explanation": "Paragraph H says that vision alone, without touch or water-borne chemical cues, produced weaker measurable differences at the earlier stage, which is why the team concludes that sight and physical contact together most likely underlie recognition.",
       "difficulty": "hard",
       "status": "verified",
-      "blind_solvable": null,
-      "blind_basis": "option_wording",
+      "blind_solvable": false,
+      "blind_basis": null,
       "flag_reason": "Ifadedeki 'on its own' (tek basina) ifadesi, yalniz gormeye izin verilip baska hicbir duyuya izin verilmeyen bir grubu gerektiriyor; secenekler arasinda yalniz A (seffaf bolme) bu 'sadece gorme' kosuluna uyuyor, B'de hic gorme de yok, C'de gorme + dokunma birlikte var.",
       "flag_mechanism": "kip_imzasi",
       "revision": {

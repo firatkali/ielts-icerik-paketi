@@ -49,8 +49,8 @@
       "explanation": "Paragraph A ties the practical importance of the question to two situations: cultures where daytime napping is common, and societies where a full night's sleep is often in short supply.",
       "difficulty": "medium",
       "status": "verified",
-      "blind_solvable": null,
-      "blind_basis": "option_wording",
+      "blind_solvable": false,
+      "blind_basis": null,
       "flag_reason": "Secenek C, pasajin 'gunduz uykusunun alisildik oldugu kulturler ve tam bir gece uykusunun kit oldugu toplumlar' seklindeki iki parcali karsitligini birebir yansitan tek secenek; B bulgunun uygulamadaki bir sonucunu anlatiyor, sorunun ilk paragrafta verilen gerekcesi degil; D pekistirmenin tanimini hedef aliyor, sorunun oz konusunu degil.",
       "flag_mechanism": "konumsal_duzen",
       "revision": {
@@ -104,7 +104,7 @@
       "explanation": "Paragraph C says that 60 young adults took part in the first experiment and were divided into the two groups.",
       "difficulty": "easy",
       "status": "verified",
-      "blind_solvable": null,
+      "blind_solvable": false,
       "blind_basis": null,
       "generated_by": "opus",
       "yeniden_uretim": {
@@ -173,7 +173,7 @@
       "explanation": "Paragraph D says the second experiment recruited 34 people who napped at least once a week, 11 of them male.",
       "difficulty": "medium",
       "status": "verified",
-      "blind_solvable": null,
+      "blind_solvable": false,
       "blind_basis": null,
       "generated_by": "opus",
       "yeniden_uretim": {

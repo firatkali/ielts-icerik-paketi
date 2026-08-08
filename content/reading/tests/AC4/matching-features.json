@@ -70,7 +70,7 @@
       "explanation": "Paragraph E gives the Subjective Vitality Scale four items and the Restorative Outcome Scale six, so it is the shortest of the four instruments, by two items.",
       "difficulty": "medium",
       "status": "verified",
-      "blind_solvable": null,
+      "blind_solvable": false,
       "blind_basis": null,
       "generated_by": "opus",
       "yeniden_uretim": {
@@ -102,8 +102,8 @@
       "explanation": "Paragraph G says that after the building condition, restorativeness scores dropped by roughly half compared with their level beforehand; the other declines are reported without a figure.",
       "difficulty": "hard",
       "status": "verified",
-      "blind_solvable": null,
-      "blind_basis": "logic",
+      "blind_solvable": false,
+      "blind_basis": null,
       "flag_reason": "Cevap C, secenekler arasinda elemeyle bulunuyor: D'nin (canlilik) de bina kosulundan sonra dustugu ayni cumlede geciyor, ama 'yaklasik yariya inme' gibi somut bir oran yalniz dinlendiricilik olcegine bagli; D icin boyle bir buyukluk verilmiyor.",
       "flag_mechanism": "konumsal_duzen",
       "revision": {
@@ -128,10 +128,10 @@
       "grammar_check": null,
       "explanation": "Paragraph E says this is a shorter, 20-item scale; the Profile of Mood States has 65 items, the Restorative Outcome Scale six and the Subjective Vitality Scale four.",
       "difficulty": "medium",
-      "status": "verified",
-      "blind_solvable": null,
+      "status": "flagged",
+      "blind_solvable": true,
       "blind_basis": "general_knowledge",
-      "flag_reason": "Cevap B, 'Positive and Negative Affect Schedule' (PANAS) adinin kendisinin hem olumlu hem olumsuz duygulari birlikte olctugunu belirtmesi, psikolojide yaygin bilinen standart bir olcme araci olmasi sayesinde parcaya bakmadan da tahmin edilebiliyor; D ise yalnizca enerjiyi (tek ucu) olcuyor.",
+      "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: general_knowledge. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md",
       "flag_mechanism": "genel_kultur",
       "revision": {
         "tarih": "2026-08-08",

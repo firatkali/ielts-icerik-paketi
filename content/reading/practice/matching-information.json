@@ -149,8 +149,8 @@
       "explanation": "Paragraph H says the discovery illustrates a broader pattern in planetary astronomy: each generation of instruments reveals objects that the previous generation's technology could not see.",
       "difficulty": "medium",
       "status": "verified",
-      "blind_solvable": null,
-      "blind_basis": "logic",
+      "blind_solvable": false,
+      "blind_basis": null,
       "flag_reason": "Cevap H, benzer 'belirsizlik' iceren paragraflar elenerek bulunuyor: C'deki belirsizlik boyutun tahminiyle, E'deki bekleyen onay ismin verilmesiyle ilgili; yalniz H bulgunun henuz hakem degerlendirmesinden gecmedigini soyluyor, bu da istenen 'meslektaslarca henuz incelenmedigi itirafi'na tam karsilik geliyor.",
       "flag_mechanism": "konumsal_duzen",
       "revision": {
