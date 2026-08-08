@@ -21,13 +21,17 @@ HEDEF = [("content/reading/tests/GT1/yes-no-not-given.json", 33),
 
 
 def argumanlari_oku(argv):
-    """<calistirma-etiketi> <dosya:numara> ... -> (etiket, hedef listesi)"""
+    """<calistirma-etiketi> <dosya:numara> ... -> (etiket, hedef listesi)
+
+    Numara "34-35" gibi iki kutuluk bir yuva da olabilir; o durumda metin olarak
+    kalir (soru dosyalarindaki number alani da metin).
+    """
     if not argv:
         return ETIKET, list(HEDEF)
     etiket, hedef = argv[0], []
     for a in argv[1:]:
         rel, _, no = a.rpartition(":")
-        hedef.append((rel, int(no)))
+        hedef.append((rel, int(no) if no.isdigit() else no))
     if not hedef:
         raise SystemExit("en az bir <dosya:numara> gerekli")
     return etiket, hedef

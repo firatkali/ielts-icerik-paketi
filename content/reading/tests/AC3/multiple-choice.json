@@ -14,46 +14,56 @@
     {
       "number": 32,
       "select_count": 1,
-      "prompt": "Why does the writer mention timber roof beams, food and fabric?",
+      "prompt": "What does the writer suggest about the excavation of the Collegium Augustalium?",
       "options": [
         {
           "letter": "A",
-          "text": "To indicate how quickly the residents died"
+          "text": "Digging there began only after the glassy material was noticed"
         },
         {
           "letter": "B",
-          "text": "To show that fragile things lasted unusually well"
+          "text": "More than one body was recovered from the building"
         },
         {
           "letter": "C",
-          "text": "To explain the depth of the deposits"
+          "text": "The building had probably been in use as a private home"
         },
         {
           "letter": "D",
-          "text": "To suggest the town was unusually wealthy"
+          "text": "The remains found there were excavated fairly recently"
         }
       ],
       "answer": [
         "B"
       ],
-      "evidence": "These flows swept through the streets and buildings so quickly that many residents were killed almost instantly, and over the following days the town was sealed beneath roughly 20 metres of volcanic deposits, a burial so complete that timber roof beams, food, and even fabric survived for centuries in a way rarely seen at other Roman sites.",
+      "evidence": "Among the victims uncovered during excavations of the Collegium Augustalium, a public building in the town centre, was a young man of around 20 years old, found lying face down on a wooden bed where he had apparently been sleeping when the flows arrived.",
       "evidence_locator": {
-        "paragraph": "A",
-        "sentence": 3
+        "paragraph": "B",
+        "sentence": 1
       },
       "distractor_analysis": {
-        "A": "Yer değiştirme — sakinlerin neredeyse anında öldüğü aynı cümlede söyleniyor, ama bu akıntıların hızına bağlanıyor; sayılan nesneler ölümün hızını değil gömülmenin ne kadar eksiksiz olduğunu göstermek için veriliyor.",
-        "C": "Yakın ama eksik — 20 metrelik örtü de aynı cümlede geçiyor, fakat kalınlık korunmanın sebebi olarak veriliyor; kirişler ve kumaş bu kalınlığı açıklamıyor, onun sonucunu örnekliyor.",
-        "D": "Cazip ama yok — kentin varlıklı olduğuna dair tek bir ifade yok; kamu binası ve ahşap yatak gibi ayrıntılar bu izlenimi verdiği için makul görünüyor."
+        "A": "Ters sira -- B/2 kalintilarin arkeologlarca 1960'lardan beri bilindigini, camsi maddenin ise cok daha sonraki bir incelemede fark edildigini soyluyor; secenek iki olayin sirasini tersine ceviriyor.",
+        "C": "Yer degistirme -- Collegium Augustalium B/1'de kent merkezinde bir KAMU binasi olarak tanitiliyor; ozel konut oldugu hicbir yerde soylenmiyor.",
+        "D": "Kapsam kaydirma -- yakin tarihli olan sey kazi degil inceleme; kalintilar B/2'ye gore altmis yildir biliniyor."
       },
-      "explanation": "Paragraph A says that the town was buried so completely that timber, food and even fabric survived for centuries in a way rarely seen at other Roman sites; these items are listed to show how unusual the preservation was.",
+      "explanation": "Paragraph B introduces the young man as one 'among the victims uncovered during excavations' of the Collegium Augustalium, which implies that other bodies were found there as well.",
       "difficulty": "medium",
-      "status": "rejected",
-      "blind_solvable": true,
-      "blind_basis": "general_knowledge",
-      "flag_reason": "Cevap B, Herculaneum'un volkanik kul altinda organik malzemelerin (ahsap, kumas, yiyecek) olaganustu iyi korunmasiyla unlu olmasi yaygin arkeoloji bilgisiyle parcaya bakmadan da tahmin edilebiliyor.",
-      "flag_mechanism": "genel_kultur",
-      "reject_reason": "Sorunun ekseni arkeoloji genel bilgisi: Herculaneum'un organik malzemeyi -- ahsap, yiyecek, kumas -- olaganustu iyi korumasiyla taninmasi yaygin bir bilgi. Sayilan nesnelerin neden anildigi bu bilgiyle dogrudan biliniyor; secenek dengelemesi bunu kapatmaz."
+      "status": "verified",
+      "blind_solvable": null,
+      "blind_basis": null,
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-08",
+        "kaynak_prompt": "prompts/OPUS5-E6-yeniden-uretim.md (3/7)",
+        "uretilen_grup": "Coktan secmeli - tam testler",
+        "eski_prompt": "Why does the writer mention timber roof beams, food and fabric?",
+        "eski_cevap": [
+          "B"
+        ],
+        "eski_kanit_cumlesi": "These flows swept through the streets and buildings so quickly that many residents were killed almost instantly, and over the following days the town was sealed beneath roughly 20 metres of volcanic deposits, a burial so complete that timber roof beams, food, and even fabric survived for centuries in a way rarely seen at other Roman sites.",
+        "neden_elendi": "Sorunun ekseni arkeoloji genel bilgisi: Herculaneum'un organik malzemeyi -- ahsap, yiyecek, kumas -- olaganustu iyi korumasiyla taninmasi yaygin bir bilgi. Sayilan nesnelerin neden anildigi bu bilgiyle dogrudan biliniyor; secenek dengelemesi bunu kapatmaz.",
+        "ne_degisti": "Yuva bosaltilip ayni pasajdan yeni bir soruyla dolduruldu. Eski soru A/3'e dayaniyordu: ahsap kirislerin, yiyecegin ve kumasin neden anildigi. Herculaneum'un organik malzemeyi olaganustu iyi korumasi arkeolojinin en cok anlatilan olgularindan biri oldugu icin 'kirilgan seyler alisilmadik bicimde dayandi' cevabi pasajsiz da cikiyordu. Yeni soru A paragrafina hic degmiyor: kanit B/1'e tasindi ve cevap tek bir sozcugun tasidigi cikarima baglandi ('Among the victims uncovered' -> binada baska kurbanlar da vardi). Bu, vaka hakkinda okunmus her seyin disinda kalan bir metin ayrintisi; en cok anlatilan ayrintilar (yatak, uyku, yas) bilerek soru ekseni yapilmadi. Uc celdirici de metnin verdigi sirayi ya da tanimi tersine ceviriyor. Kip dengesi icin iki celdirici olculu yazildi ('probably', 'fairly recently')."
+      }
     },
     {
       "number": 33,
@@ -113,61 +123,72 @@
     {
       "number": "34-35",
       "select_count": 2,
-      "prompt": "Which TWO points does the writer make about the material's chemistry?",
+      "prompt": "Which TWO findings about the structures inside the tissue does the writer report?",
       "options": [
         {
           "letter": "A",
-          "text": "Some of its proteins occur in bone"
+          "text": "Individual cell bodies were all much the same width"
         },
         {
           "letter": "B",
-          "text": "Carbon and oxygen dominate its composition"
+          "text": "Cell bodies ranged from under 3 to over 14 micrometres across"
         },
         {
           "letter": "C",
-          "text": "Oxygen was more abundant than carbon"
+          "text": "The axons were probably wider than those of a living brain"
         },
         {
           "letter": "D",
-          "text": "Only one brain protein was identified"
+          "text": "The sheaths had lost the layered form they once had"
         },
         {
           "letter": "E",
-          "text": "Its make-up varied across the skull"
+          "text": "Axons from the spinal cord were usually thicker than those in the brain"
         },
         {
           "letter": "F",
-          "text": "A protein linked to neural signalling was present"
+          "text": "The sheaths kept exactly the repeating pattern of ordinary nerve tissue"
         },
         {
           "letter": "G",
-          "text": "Chemistry alone proved the tissue's origin"
+          "text": "The measurements were probably only approximate"
         }
       ],
       "answer": [
         "B",
         "F"
       ],
-      "evidence": "The team detected seven distinct proteins known to be expressed specifically in brain tissue, including one involved in stabilising the internal skeleton of nerve cells and another essential for communication between neurons. By atomic composition the vitrified material was dominated by carbon and oxygen, the two elements that make up the bulk of organic tissue, at roughly 65 and 31 per cent respectively.",
+      "evidence": "Individual cell bodies ranged from 2.7 to 14.2 micrometres across, and the myelin sheaths retained their characteristic multilayered structure, complete with the regular repeating pattern seen under a microscope in ordinary, unfossilised nervous tissue.",
       "evidence_locator": {
-        "paragraph": "F",
-        "sentence": 2
+        "paragraph": "E",
+        "sentence": 3
       },
       "distractor_analysis": {
-        "A": "Yer değiştirme — kemik metinde geçiyor, ama tam tersi gerekçeyle: saptanan proteinlerin kemikle ilişkili olmaması, maddenin başka bir kaynaktan gelmediğini gösteren kanıt olarak sunuluyor.",
-        "C": "Yer değiştirme — iki oran da veriliyor, ancak karbon yaklaşık yüzde 65, oksijen yaklaşık yüzde 31; seçenek sayıları yer değiştirmiş okuyanı yakalıyor.",
-        "D": "Kapsam kaydırma — yedi ayrı protein saptanıyor; bunlardan biri işlevi anlatılmak üzere öne çıkarıldığı için sayı bire indirilmiş gibi okunabiliyor.",
-        "E": "Cazip ama yok — bileşimin kafatasının farklı yerlerinde değiştiğine dair hiçbir ifade yok; ölçümlerin ayrıntısı bu izlenimi verdiği için seçiliyor.",
-        "G": "Yakın ama eksik — kimyasal analizin sonucu 'güçlü biçimde desteklediği' söyleniyor, ama bu kimliklendirmeye ağırlık katan birkaç yöntemden yalnızca biri; tek başına kanıtladığı söylenmiyor."
+        "A": "Kapsam kaydirma -- E/3 hucre govdelerini 2,7 ile 14,2 mikrometre arasinda veriyor; bes kattan fazla fark eden bir araligi 'hemen hemen ayni' diye ozetlemek olcuyu siliyor.",
+        "C": "Yer degistirme -- E/2 camlasmis dokudaki aksonlarin ortalama 717,7 nanometre oldugunu ve bunun canli beyindeki ak madde araligina YAKIN dustugunu soyluyor; daha genis olduklari soylenmiyor.",
+        "D": "Ters yon -- ayni cumle miyelin kiliflarinin cok katmanli yapiyi KORUDUGUNU soyluyor.",
+        "E": "Sayi kaydirma -- omurilikten gelen aksonlar yaklasik 672, beyindekiler 717,7 nanometre; siralama secenektekinin tersi.",
+        "G": "Ters yon -- E/1 yapisal olcumlerin 'remarkably precise' (dikkate deger olcude kesin) oldugunu soyluyor."
       },
-      "explanation": "Paragraph F says that among the proteins specific to brain tissue was one needed for communication between neurons, and paragraph G says that, by atomic composition, the material was made up of carbon and oxygen (about 65% and 31% respectively).",
+      "explanation": "Paragraph E reports that individual cell bodies ranged from 2.7 to 14.2 micrometres across, and that the myelin sheaths kept the regular repeating pattern seen in ordinary, unfossilised nervous tissue.",
       "difficulty": "hard",
-      "status": "rejected",
-      "blind_solvable": true,
-      "blind_basis": "general_knowledge",
-      "flag_reason": "Cevap B, organik dokunun buyuk kismini karbon ve oksijenin olusturmasi temel kimya/biyoloji bilgisiyle (organik maddenin karbon temelli olmasi) parcaya bakmadan da tahmin edilebiliyor; F ise beyin dokusuna ozgu bir sinyal proteininin varligini, camlasmis dokunun gercekten beyin kokenli oldugunu gosteren beklenen bir bulgu olarak tasiyor.",
-      "flag_mechanism": "genel_kultur",
-      "reject_reason": "Sorunun ekseni temel kimya/biyoloji bilgisi: organik dokunun buyuk kismini karbon ve oksijenin olusturmasi (B) ve beyin dokusunda noronlar arasi iletisimle ilgili bir proteinin bulunmasi (F) beklenen bulgular. Iki dogru secenek de pasaji degil alan bilgisini siniyor."
+      "status": "verified",
+      "blind_solvable": null,
+      "blind_basis": null,
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-08",
+        "kaynak_prompt": "prompts/OPUS5-E6-yeniden-uretim.md (3/7)",
+        "uretilen_grup": "Coktan secmeli - tam testler",
+        "eski_prompt": "Which TWO points does the writer make about the material's chemistry?",
+        "eski_cevap": [
+          "B",
+          "F"
+        ],
+        "eski_kanit_cumlesi": "The team detected seven distinct proteins known to be expressed specifically in brain tissue, including one involved in stabilising the internal skeleton of nerve cells and another essential for communication between neurons. By atomic composition the vitrified material was dominated by carbon and oxygen, the two elements that make up the bulk of organic tissue, at roughly 65 and 31 per cent respectively.",
+        "neden_elendi": "Sorunun ekseni temel kimya/biyoloji bilgisi: organik dokunun buyuk kismini karbon ve oksijenin olusturmasi (B) ve beyin dokusunda noronlar arasi iletisimle ilgili bir proteinin bulunmasi (F) beklenen bulgular. Iki dogru secenek de pasaji degil alan bilgisini siniyor.",
+        "ne_degisti": "Yuva bosaltilip ayni pasajdan yeni bir soruyla dolduruldu. Eski soru F/2 ve G/1'e dayaniyordu: karbon-oksijen agirligi ve noronlar arasi iletisim proteini. Organik dokunun karbon temelli olmasi da beyin dokusunda sinyal proteini bulunmasi da beklenen bulgular oldugu icin B+F ikilisi pasajsiz seciliyordu. Yeni soru F ve G paragraflarina hic degmiyor: kanit E/3'e, olculen buyukluklere tasindi. Hucre govdesi araliginin genis mi dar mi oldugu ve kiliflarin desenini koruyup korumadigi ancak olcum sonucundan bilinir; celdiriciler de ayni paragrafin gercek sayilarini ters cevirerek kuruldu (omurilik/beyin siralamasi, akson genisligi, olcum kesinligi), yani alan bilgisi hicbir secenegi elemiyor. Konumsal duzen icin harf cifti B+F secildi; C+F ikilisi bu calistirmada hicbir yuvada kullanilmadi."
+      }
     }
   ]
 }

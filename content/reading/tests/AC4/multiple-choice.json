@@ -69,105 +69,126 @@
     {
       "number": 33,
       "select_count": 1,
-      "prompt": "In the first experiment, how were the two groups alike?",
+      "prompt": "What does the writer say about the first experiment?",
       "options": [
         {
           "letter": "A",
-          "text": "They were tested at the same time of day"
+          "text": "Its volunteers were chosen because they usually napped in the day"
         },
         {
           "letter": "B",
-          "text": "They waited an equal time before testing"
+          "text": "Its volunteers were on average older than those in the second study"
         },
         {
           "letter": "C",
-          "text": "They were made up of the same volunteers"
+          "text": "It included more men than women"
         },
         {
           "letter": "D",
-          "text": "They learned their pairs in the morning"
+          "text": "Sixty people took part in it altogether"
         }
       ],
       "answer": [
-        "B"
+        "D"
       ],
-      "evidence": "The sleep group learned a list of word pairs at nine in the evening and were tested on their recall the following morning at nine, after a normal night's sleep. The wake group learned the same material at nine in the morning and were tested twelve hours later, at nine that evening, having remained awake throughout.",
+      "evidence": "In the first experiment, 60 young adults, with an average age of 21.9 and a standard deviation of 4.2 years, 17 of them male, were divided into the two groups.",
       "evidence_locator": {
         "paragraph": "C",
-        "sentence": 2
+        "sentence": 1
       },
       "distractor_analysis": {
-        "A": "Yakın ama eksik — iki grubun sınavı da saat dokuzda yapılıyor, ama biri sabah dokuz öbürü akşam dokuz; saat aynı, günün saati değil.",
-        "C": "Yer değiştirme — aynı kişilerin iki koşulu birden yaşaması ikinci deneyin tasarımı; birinci deneyde katılımcılar iki ayrı gruba bölünüyor.",
-        "D": "Kapsam kaydırma — sabah öğrenen yalnızca uyanık grup; uyuyan grup akşam dokuzda öğreniyor, seçenek bu bilgiyi iki gruba birden yayıyor."
+        "A": "Yer degistirme -- haftada en az bir kez sekerleme yapma sarti IKINCI deneyin katilimcilarina ait (D/1); birinci deneyde boyle bir olcut verilmiyor.",
+        "B": "Cazip ama yok -- iki deneyin de ortalama yasi 21,9; fark yalniz standart sapmada (4,2'ye karsi 2,8), yas ortalamasinda degil.",
+        "C": "Ters oran -- altmis katilimcinin 17'si erkek, yani erkekler acik bir azinlik."
       },
-      "explanation": "According to paragraph C, the sleep group learns at nine in the evening and is tested at nine the next morning, while the wake group learns at nine in the morning and is tested at nine that evening; so in both groups the gap between learning and testing is twelve hours.",
-      "difficulty": "medium",
-      "status": "rejected",
-      "blind_solvable": true,
-      "blind_basis": "general_knowledge",
-      "flag_reason": "Cevap B, uyku ve uyanikligi karsilastiran bir deneyde adil bir kiyaslamanin temel kosulunun ogrenme ile sinav arasindaki sureyi esit tutmak oldugu genel arastirma yontemi mantigiyla (on iki saatlik esit aralik) parcaya bakmadan da tahmin edilebiliyor.",
-      "flag_mechanism": "genel_kultur",
-      "reject_reason": "Sorunun ekseni deney tasarimi kurali: uyku ile uyanikligi karsilastiran adil bir kiyaslamada ogrenme ile sinav arasindaki surenin esit tutulmasi gerektigi pasajdan bagimsiz biliniyor. Secenekler nasil dizilirse dizilsin 'esit sure' cevabi yontem mantigindan cikar."
+      "explanation": "Paragraph C says that 60 young adults took part in the first experiment and were divided into the two groups.",
+      "difficulty": "easy",
+      "status": "verified",
+      "blind_solvable": null,
+      "blind_basis": null,
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-08",
+        "kaynak_prompt": "prompts/OPUS5-E6-yeniden-uretim.md (3/7)",
+        "uretilen_grup": "Coktan secmeli - tam testler",
+        "eski_prompt": "In the first experiment, how were the two groups alike?",
+        "eski_cevap": [
+          "B"
+        ],
+        "eski_kanit_cumlesi": "The sleep group learned a list of word pairs at nine in the evening and were tested on their recall the following morning at nine, after a normal night's sleep. The wake group learned the same material at nine in the morning and were tested twelve hours later, at nine that evening, having remained awake throughout.",
+        "neden_elendi": "Sorunun ekseni deney tasarimi kurali: uyku ile uyanikligi karsilastiran adil bir kiyaslamada ogrenme ile sinav arasindaki surenin esit tutulmasi gerektigi pasajdan bagimsiz biliniyor. Secenekler nasil dizilirse dizilsin 'esit sure' cevabi yontem mantigindan cikar.",
+        "ne_degisti": "Yuva bosaltilip ayni pasajdan yeni bir soruyla dolduruldu. Eski soru C/2-C/3'e dayaniyordu: iki grubun ogrenme ile sinav arasinda esit sure beklemesi. Uyku ile uyanikligi karsilastiran adil bir kiyaslamada surenin esitlenmesi yontem mantiginin kendisinden cikan bir kural oldugu icin cevap pasajsiz veriliyordu. Yeni soru o iki cumleye hic degmiyor: kanit C/1'e, orneklemin kendisine tasindi. Kac kisinin katildigi tamamen keyfi bir tasarim ayrintisi. Celdiriciler ayni sayfadaki gercek sayilarla kuruldu (yas ortalamalarinin esitligi, erkek katilimci orani) ve biri ikinci deneyin olcutunu birinciye tasiyor; hicbiri alan bilgisiyle elenemiyor. Kip dengesi icin dogru secenek mutlak ('altogether'), bir celdirici olculu ('usually') yazildi."
+      }
     },
     {
       "number": "34-35",
       "select_count": 2,
-      "prompt": "Which TWO features of the naps in the second study are reported?",
+      "prompt": "Which TWO things does the writer say about the people in the second experiment?",
       "options": [
         {
           "letter": "A",
-          "text": "Taken by people who rarely nap"
+          "text": "Every one of them was already in the habit of napping"
         },
         {
           "letter": "B",
-          "text": "Nap length predicted the memory gain"
+          "text": "They were all tested on the same afternoon"
         },
         {
           "letter": "C",
-          "text": "Brain activity was recorded during them"
+          "text": "They were on average several years older than the first group"
         },
         {
           "letter": "D",
-          "text": "They reached the deepest sleep stages"
+          "text": "About a third of them were male"
         },
         {
           "letter": "E",
-          "text": "Lighter sleep made up most of them"
+          "text": "They had taken part in the first experiment as well"
         },
         {
           "letter": "F",
-          "text": "They began in the early evening"
+          "text": "There were more of them than in the first experiment"
         },
         {
           "letter": "G",
-          "text": "Testing followed immediately after waking"
+          "text": "Most of them usually slept badly at night"
         }
       ],
       "answer": [
-        "C",
-        "E"
+        "A",
+        "D"
       ],
-      "evidence": "Each learned 40 related and 40 unrelated word pairs at half past one in the afternoon, then either took a 90-minute nap, during which brain activity was recorded using polysomnography, or remained awake for an equivalent period. Naps in the second experiment lasted an average of 64.1 minutes and consisted mainly of Stage 2 sleep, a lighter stage than the deep sleep typically associated with the middle of a full night.",
+      "evidence": "The second experiment recruited 34 participants who napped at least once a week, with an average age of 21.9 and a standard deviation of 2.8 years, 11 of them male.",
       "evidence_locator": {
         "paragraph": "D",
-        "sentence": 2
+        "sentence": 1
       },
       "distractor_analysis": {
-        "A": "Yer değiştirme — katılımcılar haftada en az bir kez şekerleme yapan kişiler arasından seçildi; seçenek bu koşulu tersine çeviriyor.",
-        "B": "Yakın ama eksik — pasaj tam bu ilişkiyi ele alıyor, ancak ne şekerlemenin süresinin ne de içerdiği evrelerin bellek kazanımıyla anlamlı bir bağı olduğunu söylüyor.",
-        "D": "Kapsam kaydırma — derin uyku metinde geçiyor ama gece uykusunun ortasına özgü bir evre olarak; şekerlemeler bundan daha hafif olan 2. evreden oluşuyor.",
-        "F": "Yer değiştirme — akşam saatleri birinci deneydeki sınav zamanına ait; ikinci deneyde öğrenme öğleden sonra bir buçukta, dolayısıyla şekerleme de öğleden sonranın başında.",
-        "G": "Yakın ama eksik — son bellek testinden önce herkes 30 dakikalık bir bulmaca oyunu oynuyor, yani test uyanır uyanmaz yapılmıyor."
+        "B": "Cazip ama yok -- ogrenmenin ogleden sonra bir bucukta yapildigi soyleniyor (D/2), ama herkesin ayni ogleden sonra sinandigi soylenmiyor; tasarim geregi ayni kisiler iki kosulu FARKLI gunlerde yasiyor (B/2).",
+        "C": "Cazip ama yok -- iki grubun ortalama yasi da 21,9; degisen yalniz standart sapma.",
+        "E": "Yer degistirme -- ayni kisilerin iki kosuldan da gecmesi ikinci deneyin IC tasarimi (B/2); birinci deneyin katilimcilariyla ayni olduklari soylenmiyor.",
+        "F": "Ters oran -- ikinci deneyde 34, birincide 60 kisi var.",
+        "G": "Cazip ama yok -- katilimcilarin gece uykusunun kotu oldugu hic soylenmiyor; tek olcut haftada en az bir kez sekerleme yapmak."
       },
-      "explanation": "Paragraph D says that brain activity during the nap was recorded using polysomnography; paragraph F says the naps consisted mainly of Stage 2 sleep, which is lighter than the deep stages of a full night's sleep.",
-      "difficulty": "hard",
-      "status": "rejected",
-      "blind_solvable": true,
-      "blind_basis": "general_knowledge",
-      "flag_reason": "Cevaplar C ve E, uyku arastirmalarinda beyin etkinliginin standart olarak polisomnografiyle kaydedilmesi ve kisa sekerlemelerin cogunlukla derin uykuya degil daha hafif (2. evre) uykuya dayanmasi gibi yaygin uyku bilimi bilgisiyle parcaya bakmadan da tahmin edilebiliyor.",
-      "flag_mechanism": "genel_kultur",
-      "reject_reason": "Sorunun ekseni uyku bilimi genel bilgisi: beyin etkinliginin polisomnografiyle kaydedilmesi (C) ve kisa sekerlemelerin agirlikla hafif 2. evre uykudan olusmasi (E) alan bilgisi olarak biliniyor. Yedi secenek arasindan bu ikisini secmek pasaji okumayi gerektirmiyor."
+      "explanation": "Paragraph D says the second experiment recruited 34 people who napped at least once a week, 11 of them male.",
+      "difficulty": "medium",
+      "status": "verified",
+      "blind_solvable": null,
+      "blind_basis": null,
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-08",
+        "kaynak_prompt": "prompts/OPUS5-E6-yeniden-uretim.md (3/7)",
+        "uretilen_grup": "Coktan secmeli - tam testler",
+        "eski_prompt": "Which TWO features of the naps in the second study are reported?",
+        "eski_cevap": [
+          "C",
+          "E"
+        ],
+        "eski_kanit_cumlesi": "Each learned 40 related and 40 unrelated word pairs at half past one in the afternoon, then either took a 90-minute nap, during which brain activity was recorded using polysomnography, or remained awake for an equivalent period. Naps in the second experiment lasted an average of 64.1 minutes and consisted mainly of Stage 2 sleep, a lighter stage than the deep sleep typically associated with the middle of a full night.",
+        "neden_elendi": "Sorunun ekseni uyku bilimi genel bilgisi: beyin etkinliginin polisomnografiyle kaydedilmesi (C) ve kisa sekerlemelerin agirlikla hafif 2. evre uykudan olusmasi (E) alan bilgisi olarak biliniyor. Yedi secenek arasindan bu ikisini secmek pasaji okumayi gerektirmiyor.",
+        "ne_degisti": "Yuva bosaltilip ayni pasajdan yeni bir soruyla dolduruldu. Eski soru D/2 ve F/1'e dayaniyordu: sekerlemelerde beyin etkinliginin polisomnografiyle kaydedilmesi ve agirlikla hafif 2. evre uykudan olusmasi. Ikisi de uyku arastirmalarinin standart bilgisi oldugu icin C+E ikilisi pasajsiz seciliyordu. Yeni soru o iki cumleye hic degmiyor: kanit D/1'e, ikinci deneyin orneklemine tasindi. Katilimcilarin sekerleme aliskanligi olan kisiler arasindan secilmesi ve erkek orani keyfi tasarim ayrintilari; ustelik celdiriciler ayni sayfanin gercek sayilarini ters cevirdigi icin 'akla yatkin olani sec' stratejisi yanlis harfe goturuyor (F: daha kalabalik ornek). Konumsal duzen icin harf cifti A+D; E5'in istedigi gibi A harfi dogru cevaplarin arasina alindi. Kip dengesi icin dogru seceneklerden biri mutlak ('Every one of them'), digeri olculu ('About a third') yazildi."
+      }
     }
   ]
 }

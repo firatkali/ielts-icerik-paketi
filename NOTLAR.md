@@ -7818,3 +7818,159 @@ turden. Yine de olcum **E7'nin isi**: yedisi de `blind_solvable: null`,
   `tools/_e6_liste_isaretle.py` (liste isaretleme; bu calistirmada docstring'inde
   vaat edilen argumanli kullanim gercekten uygulandi, boylece 3-7. calistirmalar
   betigi elle duzenlemeden isaretleyebilir).
+
+
+# OPUS5-E6-yeniden-uretim (3. calistirma - coktan secmeli, tam testler)
+
+- **Kendi sayimim:** `content/DOGRULAMA/yeniden-uretim-listesi.json` icindeki
+  `elenen` listesi 71 yuva; bunlarin **14'u coktan secmeli**. Bu calistirmanin
+  kapsami (coktan secmeli **tam testler**) o 14'un **9'u**: AC1/32, AC1/34-35,
+  AC3/32, AC3/34-35, AC4/33, AC4/34-35, GT1/22, GT1/23-24, GT2/23-24. Kalan 5
+  yuva alistirma paketinde (`practice/multiple-choice.json` #1, #6, #9-10, #11,
+  #13), o 4. calistirmanin isi. Calistirma basinda depoda 1. ve 2. calistirmanin
+  10 yuvasi isaretliydi; ilk isaretsiz grup buydu.
+- Dokuz yuva da **ayni dosyaya, ayni numarayla** yeniden dolduruldu; `number`,
+  `select_count` ve secenek harflerinin sayisi degismedi, hicbir soru silinmedi.
+  Iki-harfli bes yuva cevap kagidinda yine ikiser kutu tutuyor.
+- `python tools/dogrula.py`: 12 tam testin hepsi 40/40, sema hatasi 0, toplam
+  soru **1310** (degismedi), isaretli 33 (degismedi).
+- `python tools/_e6_mc_testler_kontrol.py`: **hata 0** (numara/select_count
+  korunmasi, cevap harflerinin secenekte bulunmasi, kanit-cumle esleme, locator,
+  sira kurali, 6 kelimelik birebir ortusme, harf cifti tekrari, kip esikleri).
+
+### Dokuz yeni soru ve neden bu yerden yazildi
+
+| Yuva | Eski eksen (elenen) | Yeni kanit | Cevap |
+|---|---|---|---|
+| AC1/32 | B/3 - magmanin baca gazi (jeoloji genel bilgisi) | A/1 - adanin Guam'a uzakligi | D |
+| AC1/34-35 | F/1 + G/1 - "topluluk + iskelet ici" ikili arastirma kalibi | D/2 - sahada yapilan isler | A+E |
+| AC3/32 | A/3 - ahsap/yiyecek/kumas korunmasi (arkeoloji genel bilgisi) | B/1 - "among the victims" cikarimi | B |
+| AC3/34-35 | F/2 + G/1 - karbon-oksijen agirligi, sinyal proteini | E/3 - hucre govdesi araligi, kilif deseni | B+F |
+| AC4/33 | C/2-C/3 - esit bekleme suresi (deney tasarimi kurali) | C/1 - birinci deneyin ornek buyuklugu | D |
+| AC4/34-35 | D/2 + F/1 - polisomnografi, 2. evre uyku (uyku bilimi) | D/1 - ikinci deneyin orneklemi | A+D |
+| GT1/22 | A-D/2 - on bir saat dinlenme (mevzuat bilgisi) | A-C/3 - gec kalma esigi (10 dk x 3 kez x 1 ay) | B |
+| GT1/23-24 | B-C/2 + C/3 - mesai onayi, izne cevirme (standart madde) | B-A/2 + D/1 - izin yili ve bes gun devir | C+G |
+| GT2/23-24 | B-B/3 + D/1 - cekirdek saat, IK'ya bildirim (standart madde) | B-C/2 + C/3 - alti aylik gozden gecirme, bir hafta bildirim | B+G |
+
+- Dokuzunda da E5'in "kacinilacak kanit cumlesi" bulundugu **paragrafa hic
+  dokunulmadi**; yalniz cumle degil komsulugu da birakildi (AC1'de B ve F/G
+  paragraflari, AC3'te A ve F/G, AC4'te C/2-3 ve D/2 + F, GT1'de A metni D ve B
+  metni C, GT2'de B metni B ve D).
+- **Yeni eksenlerin tamami keyfi, sirkete/calismaya ozgu ayrinti:** bir uzaklik
+  (450 mil), bir yontem listesi (akinti kaydi / huniyle kabarcik), bir sozcuk
+  cikarimi ("among the victims"), bir olcum araligi (2,7-14,2 mikrometre), iki
+  ornek buyuklugu (60 ve 34 kisi), uc esik (10 dakika x 3 kez x 1 ay), iki
+  takvim ayrintisi (1 Nisan, bes gun devir) ve iki sure (alti ay, bir hafta).
+  Hicbiri alan bilgisinden ya da "standart is yeri politikasi" sezgisinden
+  cikarilamaz.
+- **GT paketlerinde asil savunma harf seciminde degil kurguda:** is hayatinin en
+  tanidik alti maddesi (resmi tatillerin izinden ayri sayilmasi, dort haftalik
+  bildirim, yoneticinin gerekcesiz reddi, deneme suresi olmadan uzaktan calisma,
+  internetin sirketce odenmesi, amir onayiyla yurt disi) bilerek **celdirici**
+  yapildi. Boylece "standart politikayi sec" stratejisi sistematik olarak yanlis
+  harfe goturuyor.
+
+### Kip imzasi sayimi (yasak 1)
+
+Coktan secmelide esleme dogrudan: **dogru secenek = dogru taraf**, **kalan
+secenekler = celdirici taraf**. Yalniz bu calistirmanin yazdigi dokuz yuva
+sayildi (`generated_by: "opus"`):
+
+- **Dogru secenek 14 - mutlak ifade tasiyan 7 (%50).** Esik ucte bir.
+  Mutlak yazilmis dogru cevaplar: AC1/34-35 A (`the whole time`), AC3/34-35 F
+  (`exactly`), AC4/33 D (`altogether`), AC4/34-35 A (`Every one of them`),
+  GT1/23-24 G (`always`), GT2/23-24 B (`all`), GT2/23-24 G (`Any`).
+- **Celdirici 37 - olculu ifade tasiyan 18 (%49).** Esik ucte bir.
+  (`may`, `usually`, `probably`, `about`, `mainly`, `likely`, `on average`,
+  `fairly`.)
+- Bu, E5 2. calistirmasinin olctugu tabloyu tersine cevirmek icin gerekliydi:
+  duzeltmeden once **olculu yazilmis 6 secenegin 6'si dogru, kesin yazilmis 16
+  secenegin 0'i dogruydu**. Artik her iki kip her iki tarafta da var; kesinlik
+  derecesine bakan bir cozucu hicbir yon kazanmiyor.
+
+### Konumsal duzen sayimi (yasak 2)
+
+- **Tek harfli yuvalar (alti tam testin hepsi, 12 soru):** A 3, B 3, C 3, D 3 -
+  tam dengeli. Bu calistirmanin dorde katkisi D, B, D, B.
+- **Iki-harfli yuvalar (alti tam testin hepsi):** A+D, A+E, B+F, B+G, C+F, C+G -
+  **hicbir cift birden fazla tekrarlanmiyor**. Yedi harfin yedisi de en az bir
+  kez dogru: A 2, B 2, C 2, D 1, E 1, F 2, G 2.
+- Karsilastirma icin E5'in olcumu: dokuz iki-harfli yuvanin **dordu C+F**
+  cevapliydi ve **hicbirinde A ya da G dogru degildi**; pasaja hic bakmadan C+F
+  yazan bir cozucu 4/9 tutturuyordu. Bu calistirmadaki bes yuvanin **hicbirine
+  C+F verilmedi**, A harfi iki, G harfi iki yuvada dogru. Ayakta kalan C+F
+  yuvalari: AC2/34-35 ile alistirma paketindeki #3-4 ve #7-8.
+- **Kapanis kalibi:** dokuz yeni sorunun **hicbiri** son paragrafa (A03/H,
+  A09/H, A12/H, G03 B metni D, G04 B metni D) demirlenmedi; dogru cevaplar A, B,
+  C, D ve E paragraflarindan geliyor - yani bastan ortaya yayilmis durumda.
+
+### Kendi kendini sinama (uretim bitmeden; K3 olcutu - anlamca bilme de "bilinen")
+
+Her soru **pasaj kapaliyken** yalniz soru koku + secenek listesiyle cozulmeye
+calisildi:
+
+- **AC1/32 (adanin konumu)** - bilinemedi; 450 mil kadar 200 ya da 700 mil de
+  makuldu, uc celdirici de pasajin gercek ayrintisini tersine ceviriyor.
+- **AC1/34-35 (sahada ne yapildi)** - ikisi birden bilinemedi. Sezgi en cok
+  "salim hizi olculmustur" (G) ve "baska resiflerle karsilastirilmistir" (D)
+  diyor; ikisi de yanlis.
+- **AC3/32 (kazi)** - bilinemedi. Bilerek vakanin **en cok anlatilan**
+  ayrintilari (yatak, uyku hali, kurbanin yasi) soru ekseni yapilmadi; eksen tek
+  bir sozcugun tasidigi cikarim.
+- **AC3/34-35 (olculen yapilar)** - ikisi birden bilinemedi. Kilif deseninin
+  korundugu (F) tahmin edilebilir, ama hucre govdesi araligi (B) yalniz olcumden
+  bilinir; iki harfin ikisi de gerektigi icin soru ayakta.
+- **AC4/33 (birinci deneyin buyuklugu)** - bilinemedi; 60 kadar 40 ya da 100 da
+  makuldu.
+- **AC4/34-35 (ikinci deneyin orneklemi)** - ikisi birden bilinemedi. Ustelik
+  sezgi "ikinci deney daha kalabalik" (F) demeye yatkin, dogrusu tersi.
+- **GT1/22 (gec kalma esigi)** - bilinemedi; uc secenek de sayili yazildigi icin
+  "somut olani sec" sezgisi de calismiyor.
+- **GT1/23-24 (yillik izin)** - ikisi birden bilinemedi; en tanidik uc madde
+  celdirici. **Kalan risk notu:** "izin yili 1 Nisan'da baslar" Britanya
+  isyerlerinde yaygin bir duzen, yani G harfi tek basina tahmin edilebilir;
+  soruyu ayakta tutan sey C harfinin (bes gun devir) keyfiligi ve iki harfin
+  birlikte gerekmesi. E7 bu yuvayi olcerken buna ayrica baksin.
+- **GT2/23-24 (uzaktan calisma)** - ikisi birden bilinemedi; alti ay ve bir hafta
+  sirkete ozgu sureler, tanidik maddeler yine celdirici tarafta.
+
+Dokuzunda da sinama gecildi. Yine de olcum **E7'nin isi**: dokuzunda da
+`blind_solvable: null`, `blind_basis: null` birakildi.
+
+### Yerlesim, iz ve sonraki calistirmalara notlar
+
+- Yuvalarda `status: "verified"`, `generated_by: "opus"` (dosya duzeyindeki
+  `generated_by: "fable"` elde degistirilmedi, 1. ve 2. calistirmanin
+  gerekcesiyle). `answer`, `evidence`, `evidence_locator`, `distractor_analysis`,
+  `explanation`, `difficulty` normal semaya gore dolduruldu; aciklamalar
+  Ingilizce, ic denetim notlari Turkce.
+- Elenen sorunun izi silinmedi: her yuvada `yeniden_uretim` blogu var - eski
+  soru koku, eski cevap, eski kanit cumlesi, E5'in eleme gerekcesi ve ne
+  degistigi. Eskiyen `flag_reason` / `flag_mechanism` / `reject_reason` alanlari
+  kaldirildi, cunku artik farkli bir soruyu anlatiyorlardi.
+- [!] **4. calistirmaya (coktan secmeli - alistirma):** kalan bes yuva
+  `practice/multiple-choice.json` icinde ve biri iki-harfli (#9-10, eski cevap
+  B+E). Tip genelinde C+F halen uc kez dogru (AC2/34-35 + practice #3-4, #7-8);
+  yeni iki-harfli yuvaya **C+F verilmemeli**, harf dagilimi icin D ya da E
+  agirlikli bir cift uygun (bu calistirmada D ve E birer kez kullanildi).
+- [!] **Sonraki calistirmalara - dolan kanit cumleleri.** Ayni testte iki soru
+  ayni cumleye demirlemesin diye bu calistirmanin tuttugu yerler: A03 A/1 ve
+  D/2; A09 B/1 ve E/3; A12 C/1 ve D/1; G03 A metni C/3 ile B metni A/2 + D/1;
+  G04 B metni C/2 + C/3. Ozellikle **A12 doldu**: 32 (A/2), 33 (C/1), 34-35
+  (D/1) ve testin diger paketleriyle birlikte serbest kalan cumleler yalniz B/1,
+  E/1, G/2, H/1, H/3. AC4 sentence-completion'in uc elenen yuvasi (20, 21, 22)
+  A11 pasajindan geldigi icin cakisma yok, ama AC4 summary-completion'in iki
+  elenen yuvasi (36, 38) A12'den; onlar yazilirken B/1, E/1 ve G/2 tercih
+  edilmeli.
+- [!] **Kucuk bir eski kusur (bu calistirmanin kapsami disi):** GT1/21'in D
+  seceneginde metinle 6 kelimelik birebir ortusme var ("recorded as a formal
+  attendance concern"). Soru E5'in duzeltip verified yaptigi bir yuva oldugu ve
+  bu adim yalniz elenen yuvalari dolduracagi icin dokunulmadi; kontrol betigi
+  bunu hata degil **not** olarak basiyor. 7. calistirma (kalanlar + butunluk)
+  isterse burayi kapatabilir.
+- Listede bu dokuz yuvaya `yeniden_uretildi` islendi; **kalan 52 yuva** sonraki
+  dort calistirmanin isi.
+- Uygulayan betikler: `tools/_e6_mc_testler.py` (uretim),
+  `tools/_e6_mc_testler_kontrol.py` (kontrol), `tools/_e6_liste_isaretle.py`
+  (liste isaretleme; bu calistirmada "34-35" gibi iki kutuluk yuva numaralarini
+  da kabul edecek bicimde genisletildi - onceki hali `int()` ile cokuyordu).

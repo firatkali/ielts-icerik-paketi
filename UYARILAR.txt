@@ -724,3 +724,29 @@
   - dogrula.py: 12 tam test 40/40, sema hatasi 0, toplam soru 1310.
   - _e6_ynng_alistirma_kontrol.py: hata 0.
   - isaretli (flagged)     33
+
+08.08.2026 06:35
+  - isaretli (flagged)     33
+
+08.08.2026 07:55  OPUS5-E6 3/7 - Coktan secmeli tam testler
+  - AC1 #32 ve #34-35, AC3 #32 ve #34-35, AC4 #33 ve #34-35, GT1 #22 ve
+    #23-24, GT2 #23-24 ayni dosyalarda ayni numarayla yeniden dolduruldu.
+    select_count korundu (bes yuva iki harfli), soru silinmedi, numara
+    kaymadi.
+  - E5 listesi: 71 yuvanin 14'u coktan secmeli; 9'u burada bitti, kalan 5
+    yuva alistirma paketinde (4. calistirma). Listede kalan toplam 52.
+  - [!] Kip imzasi tersine cevrildi: dogru seceneklerin %50'si mutlak
+    ifade tasiyor (esik %33), celdiricilerin %49'u olculu. E5 olcumunde
+    olculu 6 secenegin 6'si dogru, kesin 16 secenegin 0'i dogruydu.
+  - [!] Konumsal duzen: bes iki-harfli yuvanin hicbiri C+F degil (A+E,
+    B+F, A+D, C+G, B+G); yedi harfin yedisi de en az bir kez dogru. Tek
+    harfli 12 sorunun dagilimi A3 B3 C3 D3. Hicbir dogru cevap son
+    paragrafa demirlenmedi.
+  - [!] 4. calistirmaya: practice/multiple-choice.json'daki tek iki-harfli
+    yuvaya (#9-10) C+F verilmemeli; tip genelinde C+F halen 3 kez dogru.
+  - [!] Sonraki calistirmalara: A12 pasajinda serbest cumle azaldi
+    (B/1, E/1, G/2, H/1, H/3); AC4 summary-completion 36 ve 38 oradan
+    yazilacak.
+  - dogrula.py: 12 tam test 40/40, sema hatasi 0, toplam soru 1310.
+  - _e6_mc_testler_kontrol.py: hata 0.
+  - isaretli (flagged)     33

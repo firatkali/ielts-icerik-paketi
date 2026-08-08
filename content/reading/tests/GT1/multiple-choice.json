@@ -70,107 +70,128 @@
     {
       "number": 22,
       "select_count": 1,
-      "prompt": "A shift swap will be turned down if it would",
+      "prompt": "When is lateness recorded as a formal attendance concern?",
       "options": [
         {
           "letter": "A",
-          "text": "leave a worker with too many weekly hours."
+          "text": "After a single delay of about half an hour"
         },
         {
           "letter": "B",
-          "text": "alter the pattern shown on the noticeboard."
+          "text": "After being more than ten minutes late three times in a rolling month"
         },
         {
           "letter": "C",
-          "text": "give too little rest between two shifts."
+          "text": "After ten minutes' lateness on two shifts in the same week"
         },
         {
           "letter": "D",
-          "text": "take too many people out of one team."
+          "text": "After any lateness that leaves a production line unattended"
         }
       ],
       "answer": [
-        "C"
+        "B"
       ],
-      "evidence": "Both employees remain responsible for meeting their required weekly hours, and swaps that would leave fewer than eleven hours' rest between shifts will not be approved.",
+      "evidence": "Persistent lateness of more than ten minutes on three occasions within a rolling month will be recorded as a formal attendance concern.",
       "evidence_locator": {
         "text": "A",
-        "paragraph": "D",
-        "sentence": 2
+        "paragraph": "C",
+        "sentence": 3
       },
       "distractor_analysis": {
-        "A": "Yakın ama eksik — haftalık saat yükümlülüğü aynı cümlede geçiyor ama ret sebebi olarak değil; takas yapılsa da iki çalışanın kendi saatlerinden sorumlu kaldığı söyleniyor.",
-        "B": "Cazip ama yok — düzenin panoda asıldığı doğru, ama yayımlanan düzeni değiştiren takasın reddedileceğine dair bir kural pasajda yok.",
-        "D": "Yer değiştirme — aynı bölümden en fazla üç kişinin aynı anda ayrılabilmesi izin politikasının kuralı; vardiya takası şartı olarak öne sürülüyor."
+        "A": "Cazip ama yok -- tek seferlik uzun bir gecikme icin ayri bir kural verilmiyor; olcut gecikmenin uzunlugu degil tekrar sayisi.",
+        "C": "Sayi kaydirma -- esik bir hafta icinde iki degil, bir aylik donem icinde UC kez on dakikadan fazla gecikme.",
+        "D": "Yer degistirme -- uretim hattinin bos kalmamasi molalarin donusumlu kullanilmasiyla ilgili bir kural (B/2); devamsizlik kaydinin olcutu degil."
       },
-      "explanation": "Paragraph D of Text A says swaps that would leave less than eleven hours' rest between two shifts will not be approved.",
+      "explanation": "Paragraph C of Text A says that lateness of more than ten minutes on three occasions within a rolling month will be recorded as a formal attendance concern.",
       "difficulty": "medium",
-      "status": "rejected",
-      "blind_solvable": true,
-      "blind_basis": "general_knowledge",
-      "flag_reason": "Cevap C, iki vardiya arasinda en az on bir saatlik dinlenme suresi birakilmasi kuralinin (isci haklarinda yaygin bilinen '11 saat dinlenme' duzenlemesi) genel is hukuku bilgisiyle parcaya bakmadan da tahmin edilebiliyor.",
-      "flag_mechanism": "genel_kultur",
-      "reject_reason": "Sorunun ekseni calisma mevzuati genel bilgisi: iki vardiya arasinda en az on bir saat dinlenme birakilmasi yaygin bilinen bir duzenleme. Secenekler yeniden yazilsa da 'yeterli dinlenme yok' cevabi mevzuat bilgisinden cikar."
+      "status": "verified",
+      "blind_solvable": null,
+      "blind_basis": null,
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-08",
+        "kaynak_prompt": "prompts/OPUS5-E6-yeniden-uretim.md (3/7)",
+        "uretilen_grup": "Coktan secmeli - tam testler",
+        "eski_prompt": "A shift swap will be turned down if it would",
+        "eski_cevap": [
+          "C"
+        ],
+        "eski_kanit_cumlesi": "Both employees remain responsible for meeting their required weekly hours, and swaps that would leave fewer than eleven hours' rest between shifts will not be approved.",
+        "neden_elendi": "Sorunun ekseni calisma mevzuati genel bilgisi: iki vardiya arasinda en az on bir saat dinlenme birakilmasi yaygin bilinen bir duzenleme. Secenekler yeniden yazilsa da 'yeterli dinlenme yok' cevabi mevzuat bilgisinden cikar.",
+        "ne_degisti": "Yuva bosaltilip ayni metinden yeni bir soruyla dolduruldu. Eski soru D/2'ye dayaniyordu: iki vardiya arasinda on bir saat dinlenme birakmayan takasin reddedilmesi. On bir saatlik dinlenme araligi calisma mevzuatinin yaygin bilinen bir maddesi oldugu icin cevap metne bakilmadan veriliyordu. Yeni soru D paragrafina hic degmiyor: kanit C/3'e tasindi ve cevap tek bir sayida degil, UC sayinin birlikte tuttugu bir esikte (on dakika + uc kez + bir aylik donem). Celdiriciler de ayni bicimde sayili yazildi, boylece 'somut olani sec' sezgisi ayirt edici olmaktan cikti; hicbir is yeri bu ucluyu disaridan bilinebilecek bir standart olarak tasimiyor. Kip dengesi icin bir celdirici olculu ('about half an hour'), bir digeri mutlak ('any lateness') yazildi."
+      }
     },
     {
       "number": "23-24",
       "select_count": 2,
-      "prompt": "Which TWO statements about overtime are correct?",
+      "prompt": "Which TWO statements about annual leave are correct?",
       "options": [
         {
           "letter": "A",
-          "text": "It is always paid at a single rate"
+          "text": "Part-time staff receive the same 28 days as full-time staff"
         },
         {
           "letter": "B",
-          "text": "It needs approval before it is worked"
+          "text": "Unused leave is always lost at the end of December"
         },
         {
           "letter": "C",
-          "text": "It cannot exceed ten hours a month"
+          "text": "Up to five unused days may be carried into the next leave year"
         },
         {
           "letter": "D",
-          "text": "It is requested through the staff portal"
+          "text": "Public holidays are counted separately from the 28-day entitlement"
         },
         {
           "letter": "E",
-          "text": "It can sometimes be swapped for time off"
+          "text": "Leave requests usually need at least four weeks' notice"
         },
         {
           "letter": "F",
-          "text": "It is mainly available on public holidays"
+          "text": "A manager may refuse a request without giving a reason"
         },
         {
           "letter": "G",
-          "text": "It is added automatically to monthly pay"
+          "text": "The leave year always begins on the first day of April"
         }
       ],
       "answer": [
-        "B",
-        "E"
+        "C",
+        "G"
       ],
-      "evidence": "Overtime must be authorised in advance by a line manager; unauthorised overtime will not be paid. Staff who accumulate more than ten hours of overtime in a single month may choose to take the excess as time off in lieu instead of payment.",
+      "evidence": "Leave entitlement is calculated on a pro-rata basis for part-time staff and for anyone joining partway through the leave year, which runs from 1 April to 31 March. Up to five days of unused annual leave may be carried forward into the following leave year with written approval from a manager, but any leave not taken or approved for carry-over by 31 March is forfeited.",
       "evidence_locator": {
         "text": "B",
-        "paragraph": "C",
+        "paragraph": "A",
         "sentence": 2
       },
       "distractor_analysis": {
-        "A": "Kapsam kaydırma — 1,5 kat standart oran gerçekten veriliyor ama resmî tatil çalışması iki katından ödeniyor; tek oran iddiası pasajdaki iki ayrı oranı teke indiriyor.",
-        "C": "Kapsam kaydırma — on saat bir üst sınır değil; ayda on saatten fazla mesai biriktirenlere fazlasını izinle değiştirme seçeneği tanınıyor, yani aşmak mümkün.",
-        "D": "Yer değiştirme — çevrimiçi personel portalı izin taleplerinin verildiği yer; fazla mesai için gereken şey amirin önceden onayı.",
-        "F": "Yer değiştirme — resmî tatiller yalnız ücret oranını (iki katı) etkiliyor; seçenek bu bilgiyi mesainin ne zaman yapıldığına taşıyor.",
-        "G": "Yakın ama eksik — fazla mesainin ödendiği doğru ama otomatik değil; önceden onaylanmamış mesainin hiç ödenmeyeceği açıkça belirtiliyor."
+        "A": "Ters yon -- A/2 yarim zamanli calisanlarin hakkinin orantili (pro-rata) hesaplandigini soyluyor; 28 gun tam zamanlilar icin.",
+        "B": "Yer degistirme -- aralik ayinin son iki haftasi yalniz onay makamini degistiriyor (B/5); kullanilmayan izin 31 Mart'ta yaniyor.",
+        "D": "Ters yon -- A/1 28 gunun resmi tatilleri de KAPSADIGINI acikca soyluyor.",
+        "E": "Kapsam kaydirma -- dort haftalik bildirim yalniz bes gunden uzun kesintisiz izinler icin; olagan istek iki hafta once veriliyor (B/2, B/3).",
+        "F": "Cazip ama yok -- yoneticinin gerekcesiz ret yetkisinden hic soz edilmiyor; metin yalniz kimin onaylayacagini ve hangi bildirim surelerinin gerektigini duzenliyor."
       },
-      "explanation": "Paragraph C of Text B says overtime must be approved in advance by a manager, and any amount over ten hours a month can be taken as time off instead of pay.",
+      "explanation": "Paragraph A of Text B says the leave year runs from 1 April to 31 March, and paragraph D says up to five days of unused leave may be carried forward into the following year with written approval.",
       "difficulty": "hard",
-      "status": "rejected",
-      "blind_solvable": true,
-      "blind_basis": "general_knowledge",
-      "flag_reason": "Cevaplar B ve E, fazla mesainin onceden amir onayi gerektirmesi ve fazlaliginin izne cevrilebilmesi gibi is yerlerinde yaygin bilinen standart politika kurallari olmasi sayesinde parcaya bakmadan da tahmin edilebiliyor.",
-      "flag_mechanism": "genel_kultur",
-      "reject_reason": "Sorunun ekseni is yeri politikalarinin standart maddeleri: fazla mesainin onceden amir onayi gerektirmesi (B) ve on saati asan kismin izne cevrilebilmesi (E) cok sayida is yerinde gecerli. Yedi secenek arasindan bu ikisini secmek metni degil is hayati bilgisini olcuyor."
+      "status": "verified",
+      "blind_solvable": null,
+      "blind_basis": null,
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-08",
+        "kaynak_prompt": "prompts/OPUS5-E6-yeniden-uretim.md (3/7)",
+        "uretilen_grup": "Coktan secmeli - tam testler",
+        "eski_prompt": "Which TWO statements about overtime are correct?",
+        "eski_cevap": [
+          "B",
+          "E"
+        ],
+        "eski_kanit_cumlesi": "Overtime must be authorised in advance by a line manager; unauthorised overtime will not be paid. Staff who accumulate more than ten hours of overtime in a single month may choose to take the excess as time off in lieu instead of payment.",
+        "neden_elendi": "Sorunun ekseni is yeri politikalarinin standart maddeleri: fazla mesainin onceden amir onayi gerektirmesi (B) ve on saati asan kismin izne cevrilebilmesi (E) cok sayida is yerinde gecerli. Yedi secenek arasindan bu ikisini secmek metni degil is hayati bilgisini olcuyor.",
+        "ne_degisti": "Yuva bosaltilip ayni metinden yeni bir soruyla dolduruldu. Eski soru C/2 ve C/3'e dayaniyordu: fazla mesainin onceden onaylanmasi ve fazlaliginin izne cevrilebilmesi. Ikisi de sayisiz is yerinde ayni bicimde gecen standart maddeler oldugu icin B+E ikilisi metne bakilmadan seciliyordu. Yeni soru C paragrafina hic degmiyor: kanit A/2 ile D/1'e tasindi. Asil savunma harf seciminde degil kurgudadir - is hayatinda EN yaygin uc madde (resmi tatillerin izinden ayri sayilmasi, dort haftalik bildirim, yoneticinin gerekcesiz reddi) bilerek CELDIRICI yapildi, dogru iki secenek ise yalniz bu sirkete ozgu iki keyfi sayiya baglandi (bes gun devir, 1 Nisan). Boylece 'standart politikayi sec' stratejisi sistematik olarak yanlis harfe goturuyor. Konumsal duzen icin harf cifti C+G; E5'in istedigi gibi G harfi dogru cevaplarin arasina alindi."
+      }
     }
   ]
 }

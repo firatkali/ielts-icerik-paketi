@@ -14,46 +14,56 @@
     {
       "number": 32,
       "select_count": 1,
-      "prompt": "Why does the writer describe the island's geology?",
+      "prompt": "Which of these statements about the island of Maug is correct?",
       "options": [
         {
           "letter": "A",
-          "text": "To show how difficult the island is to reach"
+          "text": "Scientists are stationed on the island all year round"
         },
         {
           "letter": "B",
-          "text": "To explain why gas reaches the water beside the coral"
+          "text": "Its coral reef is mainly found in deep water offshore"
         },
         {
           "letter": "C",
-          "text": "To account for the unusual warmth of the surrounding sea"
+          "text": "The island is a single peak rising from the seabed"
         },
         {
           "letter": "D",
-          "text": "To suggest the volcano may erupt again soon"
+          "text": "It lies roughly 450 miles to the north of Guam"
         }
       ],
       "answer": [
-        "B"
+        "D"
       ],
-      "evidence": "The island's unusual chemistry comes from its geology. Magma still sits beneath the seafloor, and along the inner shoreline of the caldera it drives shallow vents that continuously release carbon dioxide gas directly into the water beside a living coral reef, a combination that is extremely rare anywhere on Earth.",
+      "evidence": "Maug is an uninhabited volcanic island in the Commonwealth of the Northern Mariana Islands, roughly 450 miles north of Guam in the western Pacific.",
       "evidence_locator": {
-        "paragraph": "B",
+        "paragraph": "A",
         "sentence": 1
       },
       "distractor_analysis": {
-        "A": "Yakın ama eksik — adanın ıssız olduğu ve oraya az kişinin gittiği A paragrafında geçiyor, ama jeoloji anlatımı erişim güçlüğünü değil suyun kimyasını açıklamak için var.",
-        "C": "Yer değiştirme — yer altındaki magma gerçekten anlatılıyor ve sıcaklık ölçülen büyüklükler arasında sayılıyor, ama magmanın suyu ısıttığı hiçbir yerde söylenmiyor; magmanın işlevi gaz salımı.",
-        "D": "Cazip ama yok — volkanın geçmişte çöktüğü söyleniyor, gelecekte yeniden patlayabileceğine dair tek bir ifade yok."
+        "A": "Cazip ama yok -- A/1 adayi 'uninhabited' (insansiz) diye tanitiyor; arastirmacilar disaridan gelip olcum yapiyor, adada yil boyu kalan kimseden soz edilmiyor.",
+        "B": "Yer degistirme -- resif A/2'de adanin cevresindeki SIG sulara yerlestiriliyor ve gaz cikisi kalderanin ic kiyisinda; secenek hem derinligi hem yonu tersine ceviriyor.",
+        "C": "Kapsam kaydirma -- B/2 Maug'u cokmus bir yanardagdan geriye kalan, kabaca daire bicimindeki uc kucuk ada olarak anlatiyor; tek zirve degil."
       },
-      "explanation": "Paragraph B says the island's unusual water chemistry comes from its geology: magma beneath the seafloor feeds shallow vents that continuously release carbon dioxide directly beside a living coral reef.",
-      "difficulty": "medium",
-      "status": "rejected",
-      "blind_solvable": true,
-      "blind_basis": "general_knowledge",
-      "flag_reason": "Cevap B, volkanik adalarda magmanin deniz tabani altindaki bacalardan surekli gaz salmasi (fumarol/hidrotermal baca olgusu) yaygin jeoloji bilgisiyle parcaya bakmadan da tahmin edilebiliyor; yazarin jeolojiyi anlatma amacinin sudaki kimyayi aciklamak oldugu boylece cikarilabiliyor.",
-      "flag_mechanism": "genel_kultur",
-      "reject_reason": "Sorunun ekseni jeoloji genel bilgisi: volkanik adalarda magmanin deniz tabani bacalarindan surekli gaz salmasi bilinen bir olgu, dolayisiyla yazarin jeolojiyi neden anlattigi parcaya bakmadan cikarilabiliyor. Celdiricileri metne capalamak sorunun eksenini degistirmiyor."
+      "explanation": "Paragraph A places Maug in the Commonwealth of the Northern Mariana Islands, roughly 450 miles north of Guam in the western Pacific.",
+      "difficulty": "easy",
+      "status": "verified",
+      "blind_solvable": null,
+      "blind_basis": null,
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-08",
+        "kaynak_prompt": "prompts/OPUS5-E6-yeniden-uretim.md (3/7)",
+        "uretilen_grup": "Coktan secmeli - tam testler",
+        "eski_prompt": "Why does the writer describe the island's geology?",
+        "eski_cevap": [
+          "B"
+        ],
+        "eski_kanit_cumlesi": "The island's unusual chemistry comes from its geology. Magma still sits beneath the seafloor, and along the inner shoreline of the caldera it drives shallow vents that continuously release carbon dioxide gas directly into the water beside a living coral reef, a combination that is extremely rare anywhere on Earth.",
+        "neden_elendi": "Sorunun ekseni jeoloji genel bilgisi: volkanik adalarda magmanin deniz tabani bacalarindan surekli gaz salmasi bilinen bir olgu, dolayisiyla yazarin jeolojiyi neden anlattigi parcaya bakmadan cikarilabiliyor. Celdiricileri metne capalamak sorunun eksenini degistirmiyor.",
+        "ne_degisti": "Yuva bosaltilip ayni pasajdan yeni bir soruyla dolduruldu. Eski soru B/3'e dayaniyordu: yazarin jeolojiyi neden anlattigi. Volkanik adalarda magmanin deniz tabani bacalarindan gaz salmasi ders kitabi duzeyinde bir olgu oldugu icin 'suyun kimyasini aciklamak icin' cevabi pasajsiz da cikiyordu. Yeni soru B paragrafina hic degmiyor: kanit A/1'e, adanin konumuna tasindi. Guam'in kac mil kuzeyinde oldugu keyfi bir olcu; disaridan bilinemez, cunku 200 ya da 700 mil de esit olculude makuldu. Uc celdirici de pasajin kendi ayrintilarini tersine ceviriyor (insansizlik, sig su, uc adaci), yani 'akla yatkin olani sec' stratejisi calismiyor. Kip dengesi icin dogru secenek olculu ('roughly'), iki celdirici mutlak ('all year round', 'a single peak') yazildi."
+      }
     },
     {
       "number": 33,
@@ -113,61 +123,72 @@
     {
       "number": "34-35",
       "select_count": 2,
-      "prompt": "Which TWO aspects of the reef have studies at Maug examined?",
+      "prompt": "Which TWO things does the writer say the research team did at Maug?",
       "options": [
         {
           "letter": "A",
-          "text": "The speed at which the vents release gas"
+          "text": "Left instruments running the whole time to record how the water moved"
         },
         {
           "letter": "B",
-          "text": "The depth of the flooded caldera"
+          "text": "Filmed the reef from cameras fixed to the seabed"
         },
         {
           "letter": "C",
-          "text": "The community living on the seabed"
+          "text": "Counted the fish likely to be sheltering in the reef"
         },
         {
           "letter": "D",
-          "text": "The fish that shelter in the reef"
+          "text": "Compared Maug with reefs elsewhere in the Pacific"
         },
         {
           "letter": "E",
-          "text": "The effect of warming on coral growth"
+          "text": "Gathered bubbles rising from the seabed vents to study on land"
         },
         {
           "letter": "F",
-          "text": "The inside of the corals' skeletons"
+          "text": "Cleared weedy algae from part of the seafloor"
         },
         {
           "letter": "G",
-          "text": "The history of the volcano's collapse"
+          "text": "Measured the rate at which the vents usually release gas"
         }
       ],
       "answer": [
-        "C",
-        "F"
+        "A",
+        "E"
       ],
-      "evidence": "The carbon dioxide appears to reshape the reef community itself, not just the water's chemistry. A related study of the Maug reef, published separately in the journal PLOS ONE, focused on what happens inside coral skeletons rather than on the seafloor surface.",
+      "evidence": "The team deployed instruments to continuously record temperature, light, the partial pressure of carbon dioxide, seawater pH and water currents, while divers collected coral cores, applied dye to mark new growth, and used funnels to capture bubbles of gas escaping from the vents for laboratory analysis.",
       "evidence_locator": {
-        "paragraph": "F",
-        "sentence": 1
+        "paragraph": "D",
+        "sentence": 2
       },
       "distractor_analysis": {
-        "A": "Yakın ama eksik — bacaların gazı sürekli saldığı söyleniyor ve kaçan kabarcıklar huniyle toplanıyor, ama salım hızının ölçüldüğüne dair bir ifade yok.",
-        "B": "Cazip ama yok — su altında kalmış kaldera anlatılıyor, derinliğinin araştırıldığı ise hiç söylenmiyor.",
-        "D": "Yakın ama eksik — resifin iskeletinin çok sayıda başka deniz türüne barınak sağladığı belirtiliyor, ama bu türlerin kendisi çalışmaların konusu olarak gösterilmiyor.",
-        "E": "Kapsam kaydırma — sonuç bölümünde daha sıcak ve daha asitli bir okyanustan söz ediliyor, ancak buradaki çalışmalar sıcaklığın değil asitlenmenin etkisini inceliyor.",
-        "G": "Yakın ama eksik — volkanın uzun zaman önce çöktüğü söyleniyor, fakat bu bilgi sahanın oluşumunu anlatmak için veriliyor, araştırma konusu olarak değil."
+        "B": "Cazip ama yok -- surekli kayit alan cihazlar var, ama kaydettikleri sicaklik, isik, karbondioksit basinci, pH ve akinti; deniz tabanina sabitlenmis kameradan hic soz edilmiyor.",
+        "C": "Yakin ama eksik -- resif iskeletinin cok sayida baska deniz turune barinak sagladigi G/3'te geciyor, ama bu turlerin sayildigi soylenmiyor.",
+        "D": "Yer degistirme -- H/1 Maug'daki degisimleri dunya genelindeki resiflerin yuzyil sonunda yasayacagi seyle karsilastiriyor; bu bir projeksiyon, ekibin baska Pasifik resiflerinde olcum yaptigi anlamina gelmiyor.",
+        "F": "Yer degistirme -- otsu alglerin bacalarin cevresinde deniz tabanina egemen olmasi bir BULGU (F/2); ekibin onlari temizledigi degil, gozledigi anlatiliyor.",
+        "G": "Yakin ama eksik -- bacalardan kacan kabarciklar hunilerle toplaniyor, ama salim hizinin olculdugune dair tek bir ifade yok."
       },
-      "explanation": "Paragraph F says the carbon dioxide appears to reshape the reef community itself, not just the water's chemistry; paragraph G says a related study focused on what happens inside coral skeletons rather than on the seafloor.",
-      "difficulty": "hard",
-      "status": "rejected",
-      "blind_solvable": true,
-      "blind_basis": "general_knowledge",
-      "flag_reason": "Cevaplar C ve F, asitlenme calismalarinin tipik olarak biri 'canli topluluk' (deniz tabani ekosistemi) digeri 'iskelet ic yapisi' seklinde iki ayri arastirma eksenine ayrilmasi -- bilim habercileri anlatimlarinin yaygin bir kalibi -- bilgisiyle parcaya bakmadan da tahmin edilebiliyor.",
-      "flag_mechanism": "genel_kultur",
-      "reject_reason": "Sorunun ekseni alan bilgisi: okyanus asitlenmesi calismalarinin biri deniz tabani toplulugu, digeri iskeletin ic yapisi olmak uzere iki eksende yurutuldugu genel olarak biliniyor. Yedi secenek arasindan hangilerinin 'calisilmis' oldugunu secmek pasaji degil bu yerlesik kalibi olcuyor."
+      "explanation": "Paragraph D says the team deployed instruments to record water currents, among other things, continuously, and that divers used funnels to capture bubbles of gas escaping from the vents for laboratory analysis.",
+      "difficulty": "medium",
+      "status": "verified",
+      "blind_solvable": null,
+      "blind_basis": null,
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-08",
+        "kaynak_prompt": "prompts/OPUS5-E6-yeniden-uretim.md (3/7)",
+        "uretilen_grup": "Coktan secmeli - tam testler",
+        "eski_prompt": "Which TWO aspects of the reef have studies at Maug examined?",
+        "eski_cevap": [
+          "C",
+          "F"
+        ],
+        "eski_kanit_cumlesi": "The carbon dioxide appears to reshape the reef community itself, not just the water's chemistry. A related study of the Maug reef, published separately in the journal PLOS ONE, focused on what happens inside coral skeletons rather than on the seafloor surface.",
+        "neden_elendi": "Sorunun ekseni alan bilgisi: okyanus asitlenmesi calismalarinin biri deniz tabani toplulugu, digeri iskeletin ic yapisi olmak uzere iki eksende yurutuldugu genel olarak biliniyor. Yedi secenek arasindan hangilerinin 'calisilmis' oldugunu secmek pasaji degil bu yerlesik kalibi olcuyor.",
+        "ne_degisti": "Yuva bosaltilip ayni pasajdan yeni bir soruyla dolduruldu. Eski soru F/1 ve G/1'e dayaniyordu: calismalarin biri deniz tabani toplulugunu, digeri iskelet ic yapisini incelemesi. Asitlenme arastirmalarinin bu iki eksene ayrilmasi bilim haberciliginin yerlesik kalibi oldugu icin C+F ikilisi pasajsiz seciliyordu. Yeni soru F ve G paragraflarina hic degmiyor: kanit D/2'ye, sahada yapilan islere tasindi. Hangi buyuklugun surekli kaydedildigi ve kacan gazin ne yapildigi sahaya ozgu yontem kararlari; kamera, alg temizligi ya da baska resiflerle karsilastirma da esit olculude makul oldugu icin disaridan secilemez. Konumsal duzen icin dogru harfler A ve E: bu tipteki ayakta kalan uc yuvanin ucu de C+F oldugu icin (E5 2. calistirma olcumu) A harfi bilerek dogru yapildi ve C+F ikilisi kullanilmadi."
+      }
     }
   ]
 }

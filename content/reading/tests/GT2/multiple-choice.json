@@ -126,62 +126,73 @@
     {
       "number": "23-24",
       "select_count": 2,
-      "prompt": "Which TWO things must remote employees do?",
+      "prompt": "Which TWO statements about the remote working policy are correct?",
       "options": [
         {
           "letter": "A",
-          "text": "Provide a computer that meets company standards"
+          "text": "Staff may work remotely as soon as they join the company"
         },
         {
           "letter": "B",
-          "text": "Stay contactable during set hours of the day"
+          "text": "Remote working arrangements are all reviewed every six months"
         },
         {
           "letter": "C",
-          "text": "Attend a regular team meeting at the office"
+          "text": "The company pays for the internet connection used at home"
         },
         {
           "letter": "D",
-          "text": "Report a lasting change in where they work"
+          "text": "Employees may work from abroad if their manager agrees"
         },
         {
           "letter": "E",
-          "text": "Pay for their own data security software"
+          "text": "Home-office claims usually go through the line manager"
         },
         {
           "letter": "F",
-          "text": "Review their own arrangement every six months"
+          "text": "Everyone must spend at least one day a week in the office"
         },
         {
           "letter": "G",
-          "text": "Keep equipment spending below £150 a year"
+          "text": "Any change to someone's remote days needs a week's notice"
         }
       ],
       "answer": [
         "B",
-        "D"
+        "G"
       ],
-      "evidence": "Be available on instant messaging during core hours. Employees must designate a single working location for remote days and notify the HR team in advance if that location changes for more than two consecutive weeks, for insurance and tax purposes.",
+      "evidence": "Remote working arrangements are reviewed every six months and may be withdrawn if performance or availability standards are not met. Requests to change remote working days must be submitted at least one week in advance.",
       "evidence_locator": {
         "text": "B",
-        "paragraph": "B",
-        "sentence": 4
+        "paragraph": "C",
+        "sentence": 2
       },
       "distractor_analysis": {
-        "A": "Yer değiştirme — çalışanın kendisinin sağlaması gereken şey en az 10 Mbps internet bağlantısı; bilgisayarı şirket veriyor.",
-        "C": "Cazip ama yok — ofiste düzenli bir toplantıya katılma şartı pasajda geçmiyor; bu tür politikalarda yaygın olduğu için makul görünüyor.",
-        "E": "Yer değiştirme — veri güvenliği prosedürlerine uymak zorunlu, ama çalışanın parasını ödediği bir yazılımdan söz edilmiyor; cihazları şirket veriyor.",
-        "F": "Yer değiştirme — altı ayda bir gözden geçirmeyi şirket yapıyor; seçenek bu işlemi çalışanın yükümlülüğüne çeviriyor.",
-        "G": "Kapsam kaydırma — 150 sterlin bir harcama tavanı değil, onaylı ekipman için yıllık geri ödeme üst sınırı."
+        "A": "Kapsam kaydirma -- uzaktan calisma basvurusu deneme suresini tamamlamis calisanlara acik (A/1); ise baslar baslamaz degil.",
+        "C": "Ters yon -- en az 10 Mbps'lik baglantiyi calisanin kendisi saglamak zorunda (B/2); sirketin verdigi sey dizustu bilgisayar.",
+        "D": "Kapsam kaydirma -- yurt disindan calismak icin hem IK'dan hem ilgili ulke ofisinden ayri yazili onay gerekiyor (D/2); amir onayi tek basina yetmiyor.",
+        "E": "Yer degistirme -- onayli ev ofisi ekipmani icin geri odeme masraf sistemi uzerinden isteniyor (B/5), amir uzerinden degil.",
+        "F": "Cazip ama yok -- haftada bir gun ofiste bulunma zorunlulugu metinde yok; yalniz musteriyle calisan rollerin daha sik cagrilabilecegi soyleniyor (A/2)."
       },
-      "explanation": "Paragraph B of Text B requires remote workers to be available on instant messaging during core hours, while paragraph D requires them to notify HR in advance of any change in working location lasting more than two weeks.",
+      "explanation": "Paragraph C of Text B says remote working arrangements are reviewed every six months, and that requests to change remote working days must be submitted at least one week in advance.",
       "difficulty": "hard",
-      "status": "rejected",
-      "blind_solvable": true,
-      "blind_basis": "general_knowledge",
-      "flag_reason": "Cevaplar B ve D, uzaktan calisma politikalarinda 'cekirdek saatlerde ulasilabilir olma' ve 'kalici konum degisikligini IK'ya bildirme' gibi sikca rastlanan standart kurallar olmasi sayesinde parcaya bakmadan da tahmin edilebiliyor.",
-      "flag_mechanism": "genel_kultur",
-      "reject_reason": "Sorunun ekseni uzaktan calisma politikalarinin standart maddeleri: cekirdek saatlerde ulasilabilir olmak (B) ve kalici konum degisikligini IK'ya bildirmek (D) bu tur politikalarda neredeyse her zaman bulunur. Secenek dengelemesi bu ekseni degistirmez."
+      "status": "verified",
+      "blind_solvable": null,
+      "blind_basis": null,
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-08",
+        "kaynak_prompt": "prompts/OPUS5-E6-yeniden-uretim.md (3/7)",
+        "uretilen_grup": "Coktan secmeli - tam testler",
+        "eski_prompt": "Which TWO things must remote employees do?",
+        "eski_cevap": [
+          "B",
+          "D"
+        ],
+        "eski_kanit_cumlesi": "Be available on instant messaging during core hours. Employees must designate a single working location for remote days and notify the HR team in advance if that location changes for more than two consecutive weeks, for insurance and tax purposes.",
+        "neden_elendi": "Sorunun ekseni uzaktan calisma politikalarinin standart maddeleri: cekirdek saatlerde ulasilabilir olmak (B) ve kalici konum degisikligini IK'ya bildirmek (D) bu tur politikalarda neredeyse her zaman bulunur. Secenek dengelemesi bu ekseni degistirmez.",
+        "ne_degisti": "Yuva bosaltilip ayni metinden yeni bir soruyla dolduruldu. Eski soru B paragrafinin ucuncu maddesi ile D/1'e dayaniyordu: cekirdek saatlerde ulasilabilir olmak ve kalici konum degisikligini IK'ya bildirmek. Uzaktan calisma politikalarinin neredeyse hepsinde bulunan iki madde oldugu icin B+D ikilisi metne bakilmadan seciliyordu. Yeni soru o iki cumleye hic degmiyor: kanit C/2 ve C/3'e tasindi. Kurgu GT1'deki ile ayni: en tanidik uc madde (deneme suresi olmadan uzaktan calisma, internetin sirketce odenmesi, amir onayiyla yurt disi) celdirici yapildi; dogru iki secenek sirkete ozgu iki keyfi sureye baglandi (alti aylik gozden gecirme, bir haftalik bildirim). Konumsal duzen icin harf cifti B+G; boylece bu calistirmadaki bes iki-harfli yuvada A, B, C, D, E, F, G harflerinin hepsi en az bir kez dogru oluyor ve hicbir cift tekrarlanmiyor."
+      }
     }
   ]
 }
