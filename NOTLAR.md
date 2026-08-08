@@ -8529,3 +8529,41 @@ yerine cevap dagilimlari:
   ama yalnizca Part 2/Part 3 kapsamiyla.
 - **OPUS5-A1 prompt dosyasi bitti:** 4 grubun dordu de dokuldu, yapilacak is kalmadi.
 - Atlanan/sorun yok.
+
+## SONNET5-A3 (KONUSMA olcum turu, klasor adi tur4 — 1. calistirma: 12 ornek x 3 tekrar)
+- Tarih: 2026-08-08
+- **Bu calistirma yalniz konusma orneklerini kapsar.** `kalibrasyon/ornekler/konusma/*.json`
+  altindaki 12 ornegin (SP-band5-1 .. SP-band9-1) hepsi `degerlendirme/konusma.md`
+  talimatiyla, hicbir yazma ornegine dokunmadan, 3'er kez puanlandi (36 puanlama).
+  Depoda `kalibrasyon/olcum/tur4/` hic yoktu, yani bu turun ilk (ve tek gereken)
+  calistirmasiydi.
+- **kalibrasyon/olcum/kumeler.json'a konusma kodlari eklendi.** Bant sirali dagitim:
+  S1 = SP-band5-1(5,0)/band6-2(6,0)/band7-2(7,0)/band8-2(8,0); S2 = SP-band5-2(5,0)/
+  band6_5-1(6,5)/band7_5-1(7,5)/band8_5-1(8,5); S3 = SP-band6-1(6,0)/band7-1(7,0)/
+  band8-1(8,0)/band9-1(9,0). Her kumede dusuk ve yuksek bant birlikte var; yazma
+  kodlarina dokunulmadi.
+- Hicbir dosyada `transcription_suspect: true` yok, 12 ornegin 12'si de puanlandi.
+  `speaking_seconds` hicbir ornekte yoktu, bu yuzden `speech_rate_wpm` hesaplanamadi;
+  talimatin kendi kuraliyla (suresi yoksa yok say) alan bos birakildi, konusma hizi
+  hic kullanilmadan sadece transkriptten puanlandi.
+- **Korluk yontemi:** Ana oturum 12 ornegin `band`/`examiner_comment`/`source` alanlarini
+  attı, sadece `part`/`topic`/`candidate_word_count`/`transcript` kalan surumu 3 ayri,
+  taze genel-amacli alt-ajana (model: sonnet acikca belirtildi) verdi — her ajan
+  `degerlendirme/konusma.md` talimatinin tam metnini kendisi uyguladi, gercek bandi hic
+  gormedi. Onceki turlarda oldugu gibi ornek+tekrar basina degil, bu kez **tekrar basina
+  tek ajan** kullanildi (12 orneği bir ajan tek oturumda puanladi, 3 tekrar = 3 ayri
+  ajan, paralel, arka planda) — 36 ayri ajan yerine 3 ajan; hepsi ayni derecede bagimsiz
+  ve kor kaldi, sadece daha az cagriyla yapildi.
+- Bu grubun tek seferlik (1. tekrar) tahminleri: 5-1=6,0 · 5-2=4,5 · 6-1=6,5 · 6-2=5,5 ·
+  6,5-1=7,0 · 7-1=7,0 · 7-2=7,0 · 7,5-1=6,5 · 8-1=8,0 · 8-2=6,0 · 8,5-1=8,0 · 9-1=8,5.
+- `python tools/puanlama-raporu.py 4` calistirildi: **ortalama mutlak fark 0,583**
+  (tani/ortalama 0,417) · **egilim -0,250** (hafif cimri, esik icinde) · **en buyuk
+  sapma 2,00 band** (SP-band8-2: gercek 8,0, tek seferlik 6,0) · **yayilim (ort.) 0,62
+  band**. 4 olcutten yalniz "egilim +-0,25 icinde" gecti; ortalama mutlak fark, en buyuk
+  sapma ve yayilim olcutleri KALDI. Kume kirilimi: S1 0,875 · S2 0,625 · S3 0,250 —
+  sakli kume S3 en dusuk sapmali, ezberleme belirtisi yok.
+- Atlanan/sorun: yok (12/12 puanlandi). Basari olcutlerinin 3'u kalmasi konusma
+  talimatinin duzeltmeye ihtiyaci oldugunu gosteriyor; bu oturum yalniz OLCTU,
+  duzeltme yapmadi (sira OPUS5-A4'un konusma surumune ait).
+- Puanlama olcumu tur 4 (konusma, 1. calistirma) — 12 ornek x 3 tekrar = 36 puanlama,
+  ortalama mutlak fark 0,583, egilim -0,250 (hafif cimri).
