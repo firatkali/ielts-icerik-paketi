@@ -17,6 +17,10 @@ gunluk/
 # Telifli resmi malzemenin metne dokulmus hali ve ondan uretilen ham olcum
 # kayitlari. Depo PUBLIC; bu dosyalar yayinlanirsa telifli icerigin yeniden
 # dagitimi olur. Yalniz SAYILAR ve raporlar depoya girer.
-kalibrasyon/ornekler/
+kalibrasyon/ornekler/*
+# Tek istisna: ornek METNI degil, ornek LISTESI (kod - band - kaynak - supheli mi).
+# Telifli tek cumle icermez, ama hangi bandda kac ornek oldugunu depodan gorunur
+# kilar. Alt klasorler (yazma/, konusma/) yukaridaki desenle disarida kaliyor.
+!kalibrasyon/ornekler/KONTROL.md
 kalibrasyon/olcum/tur*/
 kalibrasyon/resmi-cift/

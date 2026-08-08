@@ -132,6 +132,18 @@ Yeni 40 kod `kalibrasyon/olcum/kumeler.json`'a S1/S2/S3 kümelerine
 **dengeli** dağıtılarak eklendi; band ve modül dağılımı üç kümede de
 korundu, tek kümeye yığılma yok.
 
+> 🔴 **DÜZELTME — 2026-08-09, `OPUS5-E9-alt-band-ornekleri` çalıştırması.**
+> Yukarıdaki iki paragraf **gerçekleşmedi.** E9 bu dosyayı kaynak olarak
+> kullanmak isteyince kontrol etti: `kalibrasyon/ornekler/yazma/` altında
+> `CI*` kodlu tek dosya yok (klasörde 23 dosya var, hepsi ielts.org resmî
+> belgelerinden), `kumeler.json` içinde de tek bir `CI*` kodu geçmiyor.
+> Yani **40 örneğin tam metni dökülmedi ve kümelere eklenmedi**; bu bölüm
+> yapılmış iş değil, planlanmış iş olarak yazılmış. Yukarıdaki *sayılar*
+> (band dağılımı, kitap başına adet) etkilenmiyor — onlar ayrı sayıldı ve
+> iki kez doğrulandı; geçersiz olan yalnız "nereye yazıldı" iddiası.
+> Sonuç: ≤4,5 aralığındaki 5 kitap örneği (4,0 × 4 + 4,5 × 1) hâlâ
+> **dökülmemiş durumda** ve E9'un hedefi için hazır kaynak değil.
+
 ---
 
 ## Okunan sayfalar (5. zorunlu kural)

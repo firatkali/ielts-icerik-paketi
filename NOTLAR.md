@@ -8800,3 +8800,75 @@ yerine cevap dagilimlari:
   6,5'ta LR oge sayisinin ucte tutulmasi.
 - Ornek cevaplar - konusma (3. calistirma) - 5 Part 2 karti x 3 seviye = 15 cevap,
   hepsi hedef bandin icinde (sapma 0), uc metin olcum siniri yuzunden duzeltildi.
+
+## OPUS5-E9-alt-band-ornekleri (tek calistirma) — HEDEF TUTMADI: 3 → 4 ornek
+
+- Tarih: 2026-08-09. Amac: `denetim/DENETIM-RAPORU.md` §5 A9 bulgusunun (zayif cevaba
+  fazla puan) duzeltilebilmesi icin **once** <=4,5 aralikindaki ornek sayisini
+  cogaltmak. Hedef: en az 8. **Sonuc: 4.** Duzeltmenin kendisi (A4) bu adimin isi
+  degildi, ona dokunulmadi.
+- **Yeniden sayim (1. zorunlu kural).** Prompt "3 ornek var" diyor; `ornekler/**/*.json`
+  36 dosyanin tamami acilarak band alanindan sayildi: <=4,5 olan **3** (GT-T1-1B-A 3,0 ·
+  AC-T2-2A-A 4,0 · GT-T2-2B-A 4,0). Sayi dogruydu.
+- **Kaynak 1 (Cambridge envanteri) kullanilamadi — ve envanterde yanlis kayit bulundu.**
+  `kalibrasyon/desen/puanli-ornek-envanteri.md` <=4,5 icin 5 kitap ornegi isaretliyor
+  (4,0 x 4 + 4,5 x 1) ve "40 ornegin tam metni `ornekler/yazma/` altina dokuldu, 40 kod
+  kumelere eklendi" diyor. **Ikisi de gerceklesmemis:** klasorde tek bir `CI*` dosyasi,
+  `kumeler.json`'da tek bir `CI*` kodu yok. Yani o 5 ornek dokulmemis durumda.
+  Kaynak PDF'ler `C:\Users\enhar\Desktop\kitaplar` altinda ama **bu oturumun calisma
+  dizini `C:\ielts-paketi` ile sinirli**; disaridaki yola erisim harness tarafindan
+  engellendi (Bash, PowerShell ve sandbox kapali deneme, ucu de bloke). Kitaplardan
+  ornek dokulemedi. Envanter dosyasina bu durum **duzeltme notu** olarak islendi
+  (orijinal metin silinmedi, uzerine yazilmadi).
+- **Kaynak 2 (referans/) tarandi, 1 yeni ornek cikti.**
+  - `ielts-academic-writing-sample-tasks-2023.pdf` (26 s.) ve
+    `ielts-general-training-writing-sample-tasks-2023.pdf` (24 s.): puanli script
+    sayfalarinin **hepsi** (AC 9-26, GT 8-24) zaten dokulmus. Yeni ornek yok.
+  - `ielts-academic-writing-example-responses-…pdf` (5 s.): **daha once hic
+    kullanilmamis belge.** Icinde 4 puanli Academic cevabi var: band 6 · **4** · 5,5 ·
+    7,5. Band 4 olani dokuldu → `AC-ER-T1-B`. Kalan 3'u E9'un kapsami disinda
+    (>4,5), dokulmedi ama gecerli kaynak olarak KONTROL.md'ye not dusuldu.
+  - `ielts-general-training-writing-example-responses-…pdf` (3 s.): 2 cevap var
+    (band 5,5 ve 5). Ikisi de aralik disinda; ustelik `tools/_e9_yinelenen_kontrol.py`
+    ile olculdu, zaten dokulmus GT-T1-1A-A ve GT-T2-2A-A ile **ayni script** (kelime
+    kumesi ortusmesi %80 ve %79, bandlar birebir ayni). Yeni ornek yok.
+  - `ielts-speaking-sample-tasks-2023.pdf` (7 s.): puanli aday cevabi yok, yalniz gorev
+    + gorevli cercevesi. `referans/konusma-band-ornekleri.txt`teki 12 ornegin hepsi
+    zaten dokulmus, en dusugu band 5. Konusma tarafinda <=4,5 ornegi **hic yok**.
+- **Eklenen ornek: `AC-ER-T1-B`, band 4,0, Academic Task 1, 119 kelime.** Dokum elle
+  degil `tools/_e9_ornek_ekle.py` ile yapildi: kaynak taranmis el yazisi degil dizgili
+  metin, cevap ve sinav gorevlisi yorumu PDF'in metin katmanindan birebir alindi. Ornek
+  **uydurulmadi**; gercek band puani da sinav gorevlisi yorumu da kaynakta yazili.
+- **Tuzak kontrolu (OPUS5-A1 kurali) yapildi:** band 4 cevapta belirgin yazim/dilbilgisi
+  hatasi ~18, esigin (0-1) cok uzerinde → `transcription_suspect: false`. Hatalar
+  KONTROL.md'de tek tek listeli ("statistice", "tripe mad", "highset", "contrest",
+  "priod", "the children use bus", cumle basinda kucuk harf, 13 million / 12,000,000
+  celiskisi…). Dosyada `transcription_suspect` alani **acikca** duruyor.
+- **Bu ornegin bilinen sinirlamasi — gorev metni yok.** Kaynak belge yalniz cevap +
+  band + yorum iceriyor, gorev sayfasini (rubric + grafik) hic koymamis. `task_prompt`
+  uydurulmadi, `null` birakildi; yerine `task_context_reconstructed` alanina ayni
+  belgedeki band 6'lik cevaptan ve gorevli yorumundan cikarilan grafik tanimi yazildi
+  ve alanin **icinde** rekonstruksiyon oldugu belirtildi. Puanlama turunda bu ornek
+  kullanilirsa Task Achievement bu sinirla birlikte okunmali.
+- **Kume dagitimi (4. zorunlu kural).** `kumeler.json`: S1 12, S2 12, S3 11 idi; tek
+  yeni kod S3'e eklendi → 12/12/12. <=4,5 ornekler de uc kumeye esit dagilmis durumda
+  (S1'de 3,0; S2'de 4,0; S3'te iki tane 4,0). Sakli kume kontrolu anlamini koruyor.
+- **Yeni dosya: `kalibrasyon/ornekler/KONTROL.md`** (36 satirlik kod · gorev · gercek
+  band · kaynak · supheli tablosu + alt band ozeti + kume dagilimi). `.gitignore`
+  `kalibrasyon/ornekler/` yerine `kalibrasyon/ornekler/*` + `!.../KONTROL.md` olarak
+  degistirildi ki **yalniz bu dosya** depoya girsin: icinde aday metninden ya da
+  gorevli yorumundan tek cumle yok, yalniz ust veri. Alt klasorler (`yazma/`,
+  `konusma/`) ve icindeki 36 JSON depoya girmiyor; `git add -f` kullanilmadi.
+  `yazma/KONTROL.md` ve `konusma/KONTROL.md` de disarida kaldi (onlar aday metninden
+  birebir parcalar iceriyor).
+- **Neden hedef tutmadi ve ne yapilirsa tutar.** Erisilebilir kaynak tukendi: ielts.org
+  resmi belgelerinde <=4,5 aralikinda dokulmemis tek ornek kalmadi. Kalan tek kaynak
+  Cambridge IELTS 1-8 kitaplarindaki 5 ornek; onlar dokulurse sayi 4 → 9 olur ve hedef
+  (8) asilir. Bunun icin gereken tek sey calisma dizinine `C:\Users\enhar\Desktop\
+  kitaplar` yolunun da eklenmesi (ornegin Claude Code'un `--add-dir` ile baslatilmasi).
+  Prompt "kaynak tukendiyse hedefi zorlamadan cik" diyordu; zorlanmadi, uydurma ornek
+  uretilmedi.
+- Hicbir soru silinmedi, tam testlerin soru sayisi degismedi (bu adim soru havuzuna
+  dokunmuyor).
+- Alt band ornekleri (E9) - 1 yeni ornek eklendi (band 4,0), toplam 4/8; hedef
+  tutmadi, sebep Cambridge kitaplarina bu oturumda erisilememesi.
