@@ -52,7 +52,7 @@
       },
       {
         "key": "x",
-        "text": "A glacier stopped in its tracks"
+        "text": "New dangers for climbers and expeditions"
       }
     ]
   },
@@ -78,11 +78,17 @@
       "grammar_check": null,
       "explanation": "Paragraph B explains that because the bedrock beneath the glacier cannot be seen, the usual method of comparing displacement before and after the earthquake could not be used here.",
       "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
+      "status": "verified",
+      "blind_solvable": null,
       "blind_basis": "logic",
       "flag_reason": "Baslik 'ii', en yakin celdirici 'vii' (yikilan yamaclarin sayimi) elenerek bulunuyor: paragrafin ilk cumlesi gercekten 700'u askin heyelan ve cigdan soz etse de, geri kalani bu sayimi degil, alisilmis yontemin neden burada islemedigini anlatiyor -- bu ayrim yalniz 'ii'yi dogru birakiyor.",
-      "flag_mechanism": "konumsal_duzen"
+      "flag_mechanism": "konumsal_duzen",
+      "revision": {
+        "tarih": "2026-08-08",
+        "mekanizma": "konumsal_duzen",
+        "onceki_prompt": "Paragraph B",
+        "ne_degisti": "Baslik listesindeki tek olu harf (x, 'A glacier stopped in its tracks') pasajin acikca curuttugu bir iddiaydi ve okumadan eleniyordu; yerine G paragrafinin gercek icerigi ('New dangers for climbers and expeditions') kondu. B paragrafinin rakibi olan vii ('A tally of the slopes that failed') zaten B/1'e capalanmis durumda, yani secim artik yalniz paragrafin ana fikrini tartarak yapilabiliyor."
+      }
     },
     {
       "number": 15,

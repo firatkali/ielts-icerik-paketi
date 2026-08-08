@@ -1101,3 +1101,302 @@ python tools/dogrula.py
 - `isaretli (flagged)` 120 → **112** (6 verified + 2 rejected).
 - Şema hatası **0**; `explanation` alanlarının hepsi İngilizce yazıldı, `revision`
   ve `reject_reason` gibi iç denetim notları Türkçe kaldı.
+
+---
+
+## 6. çalıştırma — TRUE/FALSE/NOT GIVEN + kalan tekiller · 2026-08-08
+
+### Kapsam ve kendi sayımım
+
+Talimatın 1. kuralı gereği yeniden saydım (`python tools/_e5_tf_kapsam.py`).
+Çalıştırma listesinin bu maddesi iki kümeyi birleştiriyor:
+
+| Küme | Nerede | İşaretli |
+|---|---|---|
+| **a) `true_false_not_given`** | practice + AC1–AC4 + GT1–GT2 (57 sorunun) | **30** |
+| **b) kalan tekiller** | `matching_headings` 8 · `matching_information` 3 · `matching_features` 1 · `yes_no_not_given` 1 · tamamlama ailesinde E1 kökenli `belirsiz` mekanizmalı 6 tek | **19** |
+| **kapsam** | | **49** |
+
+"Kalan tekiller"i şöyle tanımladım: **hiçbir çalıştırma maddesinin talep
+etmediği, tek tük kalmış işaretli sorular.** Sekiz maddelik listede
+`matching_headings` ve `matching_information` hiç geçmiyor; `matching_features`
+ile `yes_no_not_given` 3. ve 1. çalıştırmadan birer soruyla artmış durumda;
+tamamlama ailesindeki altı `belirsiz` soru ise 4. çalıştırmanın eşdizim
+kapsamına, 7. ve 8. çalıştırmanın E10 kapsamına girmiyor. Bunları buraya
+almasaydım hiçbir çalıştırmaya düşmeyeceklerdi.
+
+Kapsam dışında kalan 63 işaretli sorunun tamamı bir sonraki iki maddeye ait:
+E10 kökenli 40 soru (7. ve 8. çalıştırma ile 4. çalıştırmanın bilinçli olarak
+`flagged` bıraktığı 11 not/tablo sorusu) ve E1 kökenli 23 `genel_kultur` sorusu
+(8. çalıştırmanın "genel-kültür temalıların elenme kararı" maddesi).
+
+### Sonuç dağılımı
+
+| Sonuç | Soru | Nerede |
+|---|---|---|
+| **Düzeltildi** | 36 | TFNG 26 · başlık eşleştirme 8 · bilgi eşleştirme 2 |
+| **Elendi** | 5 | TFNG 3 · özellik eşleştirme 1 · YES/NO/NOT GIVEN 1 |
+| **Dokunulmadı** | 8 | `belirsiz` + `blind_basis: "guess"` olanların tamamı |
+| **toplam** | **49** | |
+
+### 🔴 Bulgu 1: TFNG'de sızıntı kipte değil, eksende
+
+1. çalıştırmada YES/NO/NOT GIVEN'ın imzası **kipti**: mutlak yazılmış her ifade
+NO, ölçülü yazılmış her ifade YES çıkıyordu. Aynı ölçüyü bu tipte de aldım
+(`python tools/_e5_tf_sayim.py`, 2. bölüm) ve sonuç negatif:
+
+| Kapsam/mutlaklık sözcüğü taşıyan ifade | önce | sonra |
+|---|---|---|
+| TRUE (24 soru) | 1 | 2 |
+| FALSE (17 soru) | 0 | 3 |
+| NOT GIVEN (16 soru) | **4** | 2 |
+
+Elli yedi ifadenin yalnız beşinde böyle bir sözcük vardı, dolayısıyla "mutlak
+yaz" kuralı bu tipte hiç kurulmamış. Kurulan tek yön NOT GIVEN'daydı ve o da
+bir kip meselesi değil, eksen meselesinin bir yan ürünü. İşaretli 30 soruyu
+okuyunca iki ayrı imza çıktı:
+
+**(a) NOT GIVEN — eksen dışı ayrıntı (7 soru).** Yedisi de pasajın hiç
+konuşmadığı bir *boyut* ekliyordu; soruyu okumak yetiyordu, pasaja bakmaya
+gerek yoktu:
+
+| Soru | Eklenen eksen dışı boyut |
+|---|---|
+| practice-3 | oturumların günün hangi saatinde yapıldığı |
+| practice-7 | dizilemenin kaç ay sürdüğü |
+| practice-10 | araştırmacıların araziye nasıl gittiği (yürüyerek) |
+| AC1-13 | hiç ele alınmayan bir duyu kanalı (görme) |
+| AC2-13 | verilmeyen bir yayın takvimi ("bir yıl içinde") |
+| GT2-9 | tekil bir olaya "her yıl" kapsamı eklemek |
+| GT2-13 | hiçbir rağbet sıralaması olmayan yerde "en popüler" |
+
+**(b) TRUE/FALSE — genel kültür ekseni (18 soru) ve kalıp beklentisi (2 soru).**
+Burada ifade, alan bilgisinden ya da bilim haberciliğinin anlatı kalıplarından
+doğrudan çıkan bir önermeyi soruyordu: Herculaneum'un organik malzemeyi eşsiz
+biçimde koruması, içgörünün tanımı gereği ani olması, erken bilet indiriminin
+ucuz olması, kütüphane cezasının üst sınırı bulunması…
+
+Kalan 3 soru `belirsiz` etiketliydi ve aşağıda ayrıca ele alınıyor.
+
+### Düzeltme kuralı — aynı kanıt cümlesinin öteki yarısı
+
+🔴 Talimatın kuralı gereği `answer` ve `evidence` korunuyor, dolayısıyla
+düzeltme için tek bir hareket alanı var:
+
+> İfade, **aynı kanıt cümlesinin** dünya bilgisinden okunamayan yarısına
+> taşınır. Mümkünse yüzeydeki sezgi **yanlış** cevabı gösterecek biçimde
+> kurulur.
+
+On dokuz TRUE/FALSE düzeltmesinin sekizi artık metnin kendi sayısına dayanıyor
+(sayısal çapa taşıyan ifade **3 → 8**); geri kalanı yön, rol ya da neden gibi
+yapısal çapalar kullanıyor. Örnekler:
+
+| Soru | Cevap | Eski eksen (genel kültür) | Yeni çapa (aynı kanıt cümlesi) |
+|---|---|---|---|
+| practice-8 | FALSE | buğday Bereketli Hilal'de evcilleşti | Çatalhöyük'e biçilen rol: ara durak mı, son nokta mı (G/3) |
+| practice-13 | TRUE | Herculaneum organik malzemeyi eşsiz korur | örtü tabakasının "over the following days" birikmesi (A/3) |
+| practice-15 | FALSE | camlaşmış beyin dokusu bulgusu ünlüdür | "converted **directly** into a glass-like solid" (C/1) |
+| AC1-7 | TRUE | filler içgörü testlerinde başarısızdı | bulmacanın fiziksel biçimi: kutuya çıkıp yükselmek (A/3) |
+| AC1-12 | FALSE | "araç yanlıştı" anlatı kalıbı | araç **sunulmuş muydu** (F/2 + B) |
+| AC2-11 | TRUE | yer teleskopları uzay araçlarından zayıftır | görünmezliğin nedeni: boyut mu uzaklık mı (F/3) |
+| AC4-7 | TRUE | akademik girişlerin "kontrollü kanıt yok" kalıbı | ana kampüsteki 5.580 çalışan (A/4) |
+| GT1-8 | TRUE | kütüphane cezaları üst sınırlıdır | 20 peni/gün ile 5 sterlin üst sınırının kesişimi: 25. gün (A/4) |
+| GT1-9 | FALSE | cumartesi saatleri daha kısadır | 10.00–16.00 = altı saat, sekiz değil (A/5) |
+| GT2-11 | TRUE | geri almadan önce yazılı uyarı verilir | "en az %75 ekili" → en çok çeyrek boş (C/3) |
+
+**İki düzeltmede sezgi bilerek yanlış yöne çevrildi.** `practice-13`'te yaygın
+sezgi "kasaba bir anda gömüldü" der ve FALSE'a gider; doğru cevap yalnız
+"over the following days" ibaresinden çıkıyor. `AC4-13`'te ofis çalışmalarının
+bilinen örgüsü "öznel ölçümler değişir, nesnel çıktı değişmez" der; yeni ifade
+tam da **öznel** bir ölçümün (kendi bildirilen enerji) değişmediğini soruyor,
+yani örgü bu kez yanlış cevabı gösteriyor.
+
+**Yedi NOT GIVEN yeniden çapalandı.** Bu tipte de korunacak kanıt cümlesi yok
+(`evidence` zaten `null`); korunan şey yokluğun kendisi. Yedisi de artık metnin
+ayrıntısıyla düzenlediği bir alanda karara bağlanmamış bir ayrıntı soruyor:
+
+| Soru | Yeni çapa | Neden hâlâ NOT GIVEN |
+|---|---|---|
+| practice-3 | baskın hayvanın ağır olan olup olmadığı | B ağırlıkları, D baskınlığı veriyor; ikisi hiç çaprazlanmıyor |
+| practice-7 | iki laboratuvarın iş bölüşümü | D/1 iki laboratuvarı ve gerekçesini veriyor, bölüşüme girmiyor |
+| practice-10 | 12 Aralık'taki yer araştırmasının kapsamı | D iki dağı da anıyor, araştırmanın hangi yamaçları gezdiğini söylemiyor |
+| AC1-13 | bambu sopanın ne zaman kaldırıldığı | B sopayı sunuyor, F neden işe yaramadığını anlatıyor; D'de kaldırılan nesne kup |
+| AC2-13 | bir ad önerilip önerilmediği | E adlandırma geleneğini ve onay sürecini veriyor, öneri konusuna girmiyor |
+| GT2-9 | dışarıdan yiyecek getirilip getirilemeyeceği | B hem yiyecek standını hem bir yasağı (kamp) düzenliyor, bunu düzenlemiyor |
+| GT2-13 | iptal edilen dersin yeniden açılıp açılmadığı | E iptal kuralını ayrıntısıyla veriyor, telafiye hiç değinmiyor |
+
+Sözcük örtüşmesine dayanan kaba bir ölçü (`_e5_tf_sayim.py`, 3. bölüm) yedisinden
+beşinde eksen oranının korunduğunu ya da yükseldiğini gösteriyor; AC2-13'te
+0.38 → 0.75 ile en büyük sıçrama var. Ölçü paraphrase'i göremediği için
+GT2-9'da düşük görünüyor (0.83 → 0.50) — o ifade metnin sözcükleriyle değil,
+metnin *düzenlediği alanla* çapalandı. Asıl denetim yukarıdaki tabloda, elle.
+
+### 🔴 Bulgu 2: başlık eşleştirmede sızıntı sorularda değil, listede
+
+Sekiz işaretli `matching_headings` sorusunun hiçbirinde ifade yok — soru
+yalnızca "Paragraph B" diyor. Dolayısıyla parçasız çözülebilme başlıkların
+kendisinden geliyor ve iki kaynağı var:
+
+1. **Ölü başlık.** Pasajda hiç karşılığı olmayan ya da pasajın açıkça
+   çürüttüğü bir şeyi adlandıran başlık, okumadan elenir. (AC4'te "A surprising
+   rise in participants' energy" — pasaj canlılığın **yükselmediğini** söylüyor;
+   GT1'de "How the amounts changed across the seasons" — metin mevsimleri
+   ölçmediğini açıkça yazıyor.)
+2. **Anlatı sırası.** Ölü başlıklar elenince kalan başlıklar akademik bir
+   pasajın alışılmış sırasına (tasarım → yöntem → koşullar → ölçüm → sonuç)
+   birebir oturuyor ve B–F paragrafları da o sırada geliyor.
+
+Uygulanan kural:
+
+> Ölü başlıklar, **sorulmayan paragrafların** (A, G, H) gerçek içeriğiyle
+> yeniden yazılır. Böylece hiçbir başlık "pasajda karşılığı yok" ya da
+> "pasajla çelişiyor" diye elenemez; her sorulan paragrafın karşısında aynı
+> çerçeveden en az bir rakip kalır.
+
+On iki başlık yeniden yazıldı; **doğru cevap olan hiçbir harfin metnine
+dokunulmadı** (doğrulama betiği bunu harf harf sınıyor):
+
+| Dosya | Harf | Eski (ölü) | Yeni | Nereye çapalandı |
+|---|---|---|---|---|
+| practice P-MH-03 | ii | The stages that make up a night's sleep | The internal make-up of the daytime naps | F/1 (64,1 dakika, ağırlıklı 2. evre) |
+| practice P-MH-03 | vi | How the puzzle game changed the scores | Practical advice for people who rely on naps | H |
+| practice P-MH-03 | viii | Why some pairs were harder to learn | Why some memories need a whole night | G/2 |
+| AC2 | vi | The difficulty of dating buried seeds | Why the shape of a grain can mislead | C/2 + H |
+| AC2 | ix | Storage methods that kept the harvest edible | Remains better preserved than at comparable sites | B/1 |
+| AC3 | x | A glacier stopped in its tracks | New dangers for climbers and expeditions | G |
+| AC4 | i | A surprising rise in participants' energy | The reverse pattern at the second site | G |
+| AC4 | iv | The health risks of standing in severe cold | Why the snow may have hidden one effect | H/1 |
+| AC4 | vii | An urban view chosen to create stress | A calm city scene used for comparison | C/2 |
+| AC4 | x | How long each questionnaire took to complete | The number of items in each scale | E (65 · 20 · 6 · 4) |
+| GT1 | v | How the amounts changed across the seasons | The reasons householders themselves gave | G |
+| GT1 | x | Why one district earns more than another | What rural families did with their scraps | H |
+
+Üç yerde rakip bilinçli olarak **paragrafın ilk cümlesine** çapalandı, yani
+klasik IELTS tuzağı kuruldu: başlık paragrafın bir yarısını doğru anlatıyor ama
+ana fikrini vermiyor. `practice-15`'te F paragrafının ilk cümlesi (naps'in iç
+yapısı) artık ii'ye, ana fikri (o yapının bellek kazancını açıklamaması) v'ye
+karşılık geliyor; aynı kurgu AC2-14 (B/1 korunmuşluk ↔ B'nin ana fikri kimliğin
+doğrulanmamışlığı) ve AC4-17'de (E'nin madde sayıları ↔ ölçümün öncesi/sonrası)
+tekrarlanıyor. Seçim artık paragrafın tamamını okumayı gerektiriyor.
+
+### Bilgi eşleştirmede iki düzeltme
+
+`matching_information`'da mekanizma "soru kökünün adlandırdığı kavramın pasajda
+tek karşılığı olması". İkisinde de kök, aynı kanıt cümlesinin başka bir yarısına
+taşındı ve böylece gerçek bir rakip paragraf doğdu:
+
+| Soru | Eski kök | Yeni kök | Yeni rakip |
+|---|---|---|---|
+| practice-6 (H) | "hakem değerlendirmesinden geçmemiş olma itirafı" | "bu bulgunun örneklediği söylenen genel örüntü" | F (Voyager'ın görememesi) ve C (boyutun tahminle bulunması) aynı fikrin tekil örnekleri |
+| AC3-28 (H) | "başka kurbanlar için aynı şeyin varsayılmaması uyarısı" | "aynı korunmanın verili sayılamayacağı ikinci bir kasabaya gönderme" | A da Pompeii'yi anıyor ve iki kasabanın gömülme biçimini karşılaştırıyor |
+
+### Elenen 5 yuva
+
+| Soru | Cevap | Eksen / neden düzeltilemedi |
+|---|---|---|
+| practice TFNG-4 | TRUE | Kanıt cümlesi (F/3) tek yön söylüyor: yabancılar daha çok etkileşime giriyor. Cümleden çıkan her doğru ifade bu biçimi alıyor ve yenilik arayışı davranış biyolojisinin en yaygın genellemelerinden biri. |
+| AC1 TFNG-10 | TRUE | Kanıt cümlesi (D/3) yalnız "yiyecek yeri değişince kübü yeni noktaya yuvarladı" diyor; her doğru ifade "akıllı hayvan uyum sağladı" oluyor. |
+| AC3 TFNG-7 | TRUE | Kanıt cümlesi (A/3) ayna testi tartışmasını özetliyor; cümlede pasaja özgü tek bir sayı, ad ya da ölçü yok. |
+| AC1 matching-features-25 | B | 3. çalıştırma "kanıt cümlesi ya da seçenek listesi değişmeden düzeltilemez" diye dokunulmadan bırakmıştı. |
+| practice YNNG-11 | NO | 1. çalıştırma "kanıt cümlesi değişmeden düzeltilemez" diye dokunulmadan bırakmıştı. |
+
+🔴 **Son iki satır bu çalıştırmanın bilinçli bir kararı.** 1. ve 3. çalıştırma bu
+iki soruyu "dokunulmadı" kutusuna koymuş, ama ikisinin de devir notunda "E6'nın
+yeniden üretim kapsamına alınması yerinde olur" yazıyordu. Talimat, kanıt
+cümlesinin değişmesi gereken durumu açıkça **elenme** sayıyor; ikisi de tam
+olarak o durumda. Kutuda bırakmak yerine `rejected` yapıp devir dosyasına
+yazdım, böylece E6 onları listede görüyor. Dosyalarında numaralarıyla
+duruyorlar.
+
+Beşi de `content/DOGRULAMA/yeniden-uretim-listesi.json` dosyasına eklendi
+(liste 38 → **43** kayıt); her kayıt kanıt cümlesini ve ifadeyi `kacinilacak`
+altında, önerilen yeni çapayı `neden_elendi` içinde taşıyor.
+
+### Dokunulmayan 8 soru — ölçüm gürültüsü
+
+Bu sekizinin ortak bir imzası var ve imza sızıntıda değil, **ölçümde**:
+`blind_basis` alanı sekizinde de `"guess"`. E1'in kendi gerekçeleri de sızıntıyı
+değil sızıntının yokluğunu anlatıyor — "birden çok seçenek eşit derecede olası",
+"doğru sözcüğün tutturulması büyük ölçüde şansa dayanıyor". Yani bunlar tek
+turluk bir ölçümde şansla tutmuş sorular.
+
+| Soru | Cevap | E1'in kendi gerekçesi |
+|---|---|---|
+| AC1 TFNG-11 | TRUE | üç seçenekli kümede şans |
+| AC3 matching-info-29 | E | sekiz paragraflı kümede şans |
+| practice summary-5 | leafy | "lush / dense / mature" da uyuyor |
+| practice summary-7 | sharply | "significantly / rapidly" da uyuyor |
+| practice summary-13 | five-point | beş/yedi/on noktalı ölçekler eşit olası |
+| AC2 flow-chart-5 | fourteenth | "parçaya bakmadan tahmin edilemeyecek kadar spesifik" |
+| AC3 table-1 | acrylic | "plastic / glass / plexiglass" da uyuyor |
+| AC4 note-5 | novelty | "temporary / short-term / placebo" da uyuyor |
+
+Talimatın 3. sonucu ("mekanizma net değilse soru olduğu gibi kalır, gerekçesi
+yazılır") tam olarak bu durum için; sekizine de `review_note` yazıldı, `status`
+`flagged` kaldı.
+
+🔴 **Bir istisnayı kayda geçiriyorum: AC4 note-5.** E1 "belirsiz" demiş, ama
+`merely a ___ effect` çerçevesi 4. çalıştırmanın tanımladığı **eşdizim kilidi**
+biçimine yakın duruyor (`novelty effect` yerleşik bir eşdizim). Kilidi açmanın
+tek yolu boşluğu başka bir ayrıntıya taşımak, o da `answer`'ı değiştirmek
+demek — yani bu bir düzeltme değil eleme olurdu. AC4 dosyasında 5. çalıştırmadan
+gelen iki elenen yuva (36 ve 38) zaten var; üçüncü bir yuva aynı pasajı yeniden
+üretime iyice bağımlı kılardı. Bu yüzden elemedim ama kararı gizlemiyorum: E6
+isterse kapsama alabilir, önerilen yeni çapa F/3'teki %4'lük masa doluluk
+artışı.
+
+### 🔴 E6 ve E7'ye devir notları
+
+1. **AC1 TFNG dosyası en çok yıpranan dosya.** Yedi sorunun biri elendi (10),
+   biri `flagged` kaldı (11) ve ikisi de aynı ekseni paylaşıyordu ("etkileyici
+   yetenek iddiası → TRUE"). E6 elenen yuvayı doldururken bu eksene dönmemeli;
+   D paragrafının nesnel ayrıntıları (aynı oturumda dokuz tekrar, traktör
+   lastiği, küçük nesneleri üst üste koyma denemesinin başarısızlığı) listede
+   `kacinilacak` altında değil, `neden_elendi` içinde öneri olarak duruyor.
+2. **Elenen üç TFNG yuvasının cevapları TRUE.** Elemeden sonra tipin cevap
+   dağılımı TRUE 21 · FALSE 17 · NOT GIVEN 16 oldu (elenen yuvalar sayılmadan).
+   E6 üç yuvayı doldururken en az birini FALSE ya da NOT GIVEN yapmalı, aksi
+   hâlde TRUE ağırlığı geri gelir.
+3. **Başlık listeleri artık set düzeyinde dengede; bozulmasın.** On iki yeni
+   başlığın her biri belirli bir paragrafın rakibi. E6 bu gruplara dokunursa
+   yeni başlıkları da aynı kuralla yazmalı: sorulmayan paragrafların gerçek
+   içeriğinden devşir, uydurma ya da pasajı çürüten başlık koyma.
+4. **Düzeltilen 36 soru ölçülmemiş sorudur.** `answer` ve `evidence` korundu ama
+   ifadeler ve başlık listeleri baştan yazıldı; hepsinde `blind_solvable: null`
+   duruyor. E7 hepsini yeniden ölçmeli.
+5. **E7 için özel istek: `blind_basis` alanı tek turluk ölçümde güvenilmez.**
+   Bu çalıştırmanın dokunulmadan bıraktığı sekiz sorunun sekizi de o alanda
+   `guess` taşıyordu, yani bir mekanizma değil şans kaydedilmişti. E7 ölçümü
+   tekrarlı yapmalı; aksi hâlde bu sekiz soru bir sonraki turda da işaretli
+   görünür.
+6. **AC4-17'de kabul edilmiş bir belirsizlik payı var.** Yeni rakip başlık
+   ("The number of items in each scale") E paragrafının gerçekten verdiği bir
+   şeyi adlandırıyor; doğru başlık hâlâ vi, çünkü paragrafın ana fikri ölçümün
+   deneyimden önce ve sonra yapılması. Aynı kurgu AC4-15'te (vii "A calm city
+   scene used for comparison") de var. E7 ölçümünde bu iki soruya ayrıca
+   bakılmalı.
+
+### Doğrulama
+
+```
+python tools/_e5_tf_kapsam.py            # kapsam: 30 TFNG + 19 tekil = 49
+python tools/_e5_tf_elden_gecir.py       # duzeltildi 36 - elendi 5 - dokunulmadi 8
+python tools/_e5_tf_devir.py             # eklenen kayit 5 - toplam 43
+python tools/_e5_tf_sayim.py             # sayisal capa 3 -> 8; kapsam sozcugu dagilimi
+python tools/_e5_tf_dogrula_degisim.py   # sinanan alan 867 - KORUNAN ALAN HATASI: 0
+python tools/dogrula.py
+```
+
+- `answer`, `evidence`, `evidence_locator` ve `difficulty` yirmi dosyanın
+  hepsinde **hiç değişmedi** (HEAD ile alan alan karşılaştırıldı, 867 sınamada
+  0 fark). Başlık ve seçenek listelerinde harf kümesi, harflerin sırası ve
+  **doğru cevap olan harflerin metinleri** korundu; değişen tek şey on iki ölü
+  başlık.
+- Soru sayısı ve numaralar değişmedi: 49 soru girdi, 49 çıktı. On iki tam
+  testin hepsi 40/40 kaldı.
+- `isaretli (flagged)` 112 → **71** (36 verified + 5 rejected; dokunulmayan 8
+  soru `flagged` kaldı).
+- Şema hatası **0**; `explanation` alanlarının hepsi İngilizce yazıldı,
+  `revision`, `reject_reason`, `review_note`, `scan_note`,
+  `contradiction_point` ve `not_given_justification` gibi iç denetim notları
+  Türkçe kaldı.

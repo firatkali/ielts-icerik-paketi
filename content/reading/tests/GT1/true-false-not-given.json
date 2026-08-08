@@ -18,7 +18,7 @@
   "items": [
     {
       "number": 8,
-      "prompt": "There is an upper limit to the charge for returning a single item late.",
+      "prompt": "A book returned fifty days late costs no more in charges than one returned thirty days late.",
       "answer": [
         "TRUE"
       ],
@@ -29,18 +29,24 @@
       },
       "contradiction_point": null,
       "not_given_justification": null,
-      "scan_note": "Gecikme ücreti yalnızca A metninin 4. cümlesinde geçiyor (günde 20 peni, eser başına en çok 5 sterlin). C'deki ücretler (varsayılan 6,50 sterlin, 3 sterlinlik kart yenileme) ulaşımla ilgili, kütüphane gecikmesiyle değil; E'deki %70 devam koşulu para cezası içermiyor. İfadeyi çürüten cümle hiçbir metinde yok.",
-      "explanation": "Text A says overdue items are charged 20 pence a day but that this can rise to no more than £5 per item — in other words, there is a cap on the charge.",
+      "scan_note": "Gecikme ucreti A metninin 4. cumlesinde; ayni metnin 3. cumlesi odunc suresini (uc hafta) veriyor, ucretle ilgili baska bir kayit yok.",
+      "explanation": "Text A says overdue items are charged at 20 pence a day up to a maximum of five pounds per item; the maximum is reached after 25 days, so an item returned thirty days late and one returned fifty days late both incur the same five-pound charge.",
       "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
+      "status": "verified",
+      "blind_solvable": null,
       "blind_basis": "general_knowledge",
       "flag_reason": "Cevap TRUE, kutuphanelerde gecikme cezalarinin genelde eser basina bir ust sinirla sinirlandirilmasi yaygin bilinen bir kutuphane politikasi olmasi sayesinde parcaya bakmadan da tahmin edilebiliyor.",
-      "flag_mechanism": "genel_kultur"
+      "flag_mechanism": "genel_kultur",
+      "revision": {
+        "tarih": "2026-08-08",
+        "mekanizma": "genel_kultur",
+        "onceki_prompt": "There is an upper limit to the charge for returning a single item late.",
+        "ne_degisti": "Eski ifade gecikme ucretinde bir ust sinir bulunup bulunmadigini soruyordu; kutuphane cezalarinin eser basina sinirli olmasi cok yaygin bir uygulama. Yeni ifade ayni cumledeki iki sayiyi (gunluk 20 peni, ust sinir 5 sterlin) birlikte kullanmayi gerektiriyor: ust sinira 25. gunde ulasildigi ancak hesapla goruluyor."
+      }
     },
     {
       "number": 9,
-      "prompt": "The library's Saturday opening hours are the same as its weekday hours.",
+      "prompt": "The library is open for eight hours on a Saturday.",
       "answer": [
         "FALSE"
       ],
@@ -49,20 +55,26 @@
         "text": "A",
         "sentence": 5
       },
-      "contradiction_point": "Pasaj hafta içi 9.00–19.00, cumartesi 10.00–16.00 diyor; ifade iki günün saatlerinin aynı olduğunu iddia ediyor. Çelişki tek noktada: açılış-kapanış saatlerinin farklı olması.",
+      "contradiction_point": "Metin cumartesi saatlerini 10.00-16.00 veriyor, yani alti saat; ifade sekiz saat diyor. Celiski tek noktada: acik kalinan saat sayisi.",
       "not_given_justification": null,
-      "scan_note": "Kütüphanenin çalışma saatleri yalnızca A metninin 5. cümlesinde veriliyor. E'nin 5. cümlesindeki 9.00–17.00 aralığı dil merkezinin telefon hattına ait, kütüphaneyle ilgisiz; başka hiçbir metin kütüphane saatlerinden söz etmiyor.",
-      "explanation": "According to Text A, the library is open 9 a.m.–7 p.m. on weekdays and 10 a.m.–4 p.m. on Saturdays; the Saturday hours are not the same as the weekday hours.",
+      "scan_note": "Acilis saatleri A metninin 5. cumlesinde: hafta ici 9.00-19.00, cumartesi 10.00-16.00, pazar ve resmi tatillerde kapali.",
+      "explanation": "Text A says the library opens on Saturday from 10 a.m. to 4 p.m., which is six hours, not eight.",
       "difficulty": "easy",
-      "status": "flagged",
-      "blind_solvable": true,
+      "status": "verified",
+      "blind_solvable": null,
       "blind_basis": "general_knowledge",
       "flag_reason": "Cevap FALSE, kutuphane ve benzeri kamu hizmetlerinde cumartesi calisma saatlerinin hafta ici saatlerden daha kisa tutulmasinin cok yaygin bir uygulama olmasi genel bilgisiyle, 'saatler ayni' iddiasinin yanlis olmasi parcaya bakmadan da tahmin edilebiliyor.",
-      "flag_mechanism": "genel_kultur"
+      "flag_mechanism": "genel_kultur",
+      "revision": {
+        "tarih": "2026-08-08",
+        "mekanizma": "genel_kultur",
+        "onceki_prompt": "The library's Saturday opening hours are the same as its weekday hours.",
+        "ne_degisti": "Eski ifade cumartesi saatlerinin hafta iciyle ayni olup olmadigini soruyordu; kamu hizmetlerinde cumartesinin daha kisa olmasi cok yaygin oldugu icin cevap metne bakilmadan cikiyordu. Yeni ifade ayni cumleden bir sure hesabi istiyor (10.00-16.00 = alti saat); sekiz saat esigi hicbir genel kuraldan cikarilamaz."
+      }
     },
     {
       "number": 10,
-      "prompt": "Beginner swimming classes take place twice a week.",
+      "prompt": "Both of the weekly beginner swimming sessions start at the same time of day.",
       "answer": [
         "TRUE"
       ],
@@ -73,14 +85,20 @@
       },
       "contradiction_point": null,
       "not_given_justification": null,
-      "scan_note": "Yüzme dersleri yalnızca B metninin 2. cümlesinde geçiyor (salı ve perşembe günleri). B'nin diğer cümleleri dönem tarihlerini, yogayı ve badmintonu anlatıyor; başka metinde spor dersi programı yok.",
-      "explanation": "Text B says the beginner swimming class takes place on Tuesdays and Thursdays — that is, twice a week.",
+      "scan_note": "Yeni baslayanlar yuzme dersi B metninin 2. cumlesinde; ayni metnin 3. cumlesi yogayi sabah 9.30'a, 4. cumlesi badmintonu cumartesi 10.00'a koyuyor.",
+      "explanation": "Text B says beginner swimming is held on Tuesdays and Thursdays at 6 p.m., so both sessions start at the same time.",
       "difficulty": "easy",
-      "status": "flagged",
-      "blind_solvable": true,
+      "status": "verified",
+      "blind_solvable": null,
       "blind_basis": "guess",
       "flag_reason": "Net bir mekanizma yok: dersin haftada kac kez yapildigi (iki gun mu, uc gun mu) parcaya bakmadan tahmin edilemeyecek somut bir ayrinti; 'twice a week' ifadesinin dogrulugu buyuk olcude sansa dayaniyor.",
-      "flag_mechanism": "belirsiz"
+      "flag_mechanism": "belirsiz",
+      "revision": {
+        "tarih": "2026-08-08",
+        "mekanizma": "belirsiz",
+        "onceki_prompt": "Beginner swimming classes take place twice a week.",
+        "ne_degisti": "Eski ifade dersin haftada kac kez yapildigini soruyordu; E1 bunu 'net mekanizma yok, dogruluk buyuk olcude sansa dayaniyor' diye isaretlemisti, cunku 'sali ve persembe' ile 'haftada iki kez' arasindaki eslesme tek adimlik bir cikarim ve gunluk hayatta yeni baslayan kurslari cogunlukla haftada iki gundur. Yeni ifade ayni cumledeki saat bilgisini hedefliyor: iki oturumun ayni saatte olup olmadigi metinden baska hicbir yerden bilinemez."
+      }
     },
     {
       "number": 11,
@@ -100,7 +118,7 @@
     },
     {
       "number": 12,
-      "prompt": "Passengers have to pay to download the travel card's mobile app.",
+      "prompt": "Credit can only be added to the travel card at a station machine.",
       "answer": [
         "FALSE"
       ],
@@ -109,16 +127,22 @@
         "text": "C",
         "sentence": 1
       },
-      "contradiction_point": "Pasaj mobil uygulamayı 'free' (ücretsiz) diye niteliyor; ifade indirmek için ödeme gerektiğini iddia ediyor. Çelişki tek noktada: uygulamanın ücretsiz/ücretli olması.",
+      "contradiction_point": "Metin krediyi hem istasyon makinesinden hem de ucretsiz mobil uygulamadan yuklenebilecegini soyluyor; ifade tek yolun makine oldugunu iddia ediyor. Celiski tek noktada: uygulama uzerinden yukleme secenegi.",
       "not_given_justification": null,
-      "scan_note": "Mobil uygulama yalnızca C metninin 1. cümlesinde geçiyor. C'nin diğer cümlelerindeki ücretler (bilet, varsayılan ücret, kart yenileme) uygulamayla ilgili değil; başka metinde uygulama anılmıyor.",
-      "explanation": "Text C says credit can be loaded onto the card at station machines or through the free mobile app — the claim that payment is required for the app contradicts this.",
+      "scan_note": "Kredi yukleme C metninin 1. cumlesinde; ayni metnin geri kalani ucretleri, cocuk indirimini, gecis kuralini ve kart degisimini anlatiyor.",
+      "explanation": "Text C says the card can be loaded with credit at any station machine or through the free mobile app, so a machine is not the only way.",
       "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
+      "status": "verified",
+      "blind_solvable": null,
       "blind_basis": "general_knowledge",
       "flag_reason": "Cevap FALSE, ulasim kartlarina eslik eden resmi mobil uygulamalarin gunumuzde neredeyse her zaman ucretsiz indirilebilir olmasi yaygin genel bilgisiyle, 'indirmek icin odeme gerekir' iddiasinin yanlis olmasi parcaya bakmadan da tahmin edilebiliyor.",
-      "flag_mechanism": "genel_kultur"
+      "flag_mechanism": "genel_kultur",
+      "revision": {
+        "tarih": "2026-08-08",
+        "mekanizma": "genel_kultur",
+        "onceki_prompt": "Passengers have to pay to download the travel card's mobile app.",
+        "ne_degisti": "Eski ifade uygulamanin indirilmesinin ucretli olup olmadigini soruyordu; resmi ulasim uygulamalarinin ucretsiz olmasi neredeyse evrensel bir bilgi. Yeni ifade ayni cumledeki 'or' baglacini hedefliyor: kac yukleme kanali oldugu ancak C/1 okunarak bilinir."
+      }
     },
     {
       "number": 13,

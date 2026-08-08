@@ -72,7 +72,7 @@
     },
     {
       "number": 10,
-      "prompt": "Monitoring the planet's many small, close-together moons is difficult even for professional researchers.",
+      "prompt": "The orbits of the small inner moons are affected by the planet's rings as well as by one another.",
       "answer": [
         "TRUE"
       ],
@@ -83,18 +83,24 @@
       },
       "contradiction_point": null,
       "not_given_justification": null,
-      "scan_note": "İç uyduların takibi E paragrafında (3. cümle) ve G paragrafında ('the complicated gravitational relationships ... point to a chaotic early history') ele alınıyor; ikisi de işin zorluğunu destekliyor, çelişen cümle yok.",
-      "explanation": "Paragraph E says that keeping track of so many small, closely spaced bodies is a demanding task even for planetary scientists; the statement paraphrases this.",
+      "scan_note": "Ic uydularin yorunge etkilesimi E paragrafinin 3. cumlesinde; G paragrafinin 2. cumlesi ayni etkilesimi 'karmasik kutlecekim iliskileri' olarak yineliyor.",
+      "explanation": "Paragraph E says the orbits of these small, closely spaced bodies interact with one another and with the planet's faint rings, so both influences are stated.",
       "difficulty": "easy",
-      "status": "flagged",
-      "blind_solvable": true,
+      "status": "verified",
+      "blind_solvable": null,
       "blind_basis": "general_knowledge",
       "flag_reason": "Cevap TRUE, birbirine yakin kucuk gok cisimlerinin yorungelerini izlemenin (cok-cisim etkilesimi) uzmanlar icin bile zorlu bir problem olmasi genel astronomi/fizik bilgisiyle parcaya bakmadan da tahmin edilebiliyor.",
-      "flag_mechanism": "genel_kultur"
+      "flag_mechanism": "genel_kultur",
+      "revision": {
+        "tarih": "2026-08-08",
+        "mekanizma": "genel_kultur",
+        "onceki_prompt": "Monitoring the planet's many small, close-together moons is difficult even for professional researchers.",
+        "ne_degisti": "Eski ifade 'bu kadar cok ve birbirine yakin cismi izlemek uzmanlar icin bile zordur' diyordu; cok-cisim probleminin zorlugu genel fizik bilgisi oldugu icin cevap pasajsiz cikiyordu. Yeni ifade ayni cumlenin oteki yarisini, etkilesimin halkalari da kapsayip kapsamadigini hedefliyor; halkalarin isin icinde olmasi pasaja ozgu bir ayrinti."
+      }
     },
     {
       "number": 11,
-      "prompt": "After the flyby, ground-based telescopes were likewise unable to make the moon out.",
+      "prompt": "What kept the moon out of sight was its size rather than its distance from Earth.",
       "answer": [
         "TRUE"
       ],
@@ -105,18 +111,24 @@
       },
       "contradiction_point": null,
       "not_given_justification": null,
-      "scan_note": "Uydunun daha önce görülememesi A ('no previous mission had ever recorded it'), F (Voyager ve yer tabanlı teleskoplar) ve H ('even a dedicated flyby mission missed') paragraflarında geçiyor; hepsi aynı yönde, çelişen cümle yok.",
-      "explanation": "Paragraph F says the moon's size fell below the threshold that Voyager's instruments — and every ground-based telescope since — could resolve.",
+      "scan_note": "Gorunmezligin nedeni F paragrafinin 3. cumlesinde; C paragrafi da cismin dogrudan olculemeyecek kadar kucuk oldugunu soyluyor. Uzaklik hicbir yerde neden olarak gosterilmiyor.",
+      "explanation": "Paragraph F says it was the moon's size that placed it below the threshold Voyager's instruments and Earth-based telescopes could resolve, so size rather than distance is given as the reason it went unseen.",
       "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
+      "status": "verified",
+      "blind_solvable": null,
       "blind_basis": "general_knowledge",
       "flag_reason": "Cevap TRUE, yerden yapilan gozlemlerin cozunurluk gucunun uzay araclarininkinden bile genelde daha sinirli olmasi bilgisiyle, Voyager'in bile goremedigi kucuklukte bir uydunun yer teleskoplariyla da goruntulenemeyecegi parcaya bakmadan da tahmin edilebiliyor.",
-      "flag_mechanism": "genel_kultur"
+      "flag_mechanism": "genel_kultur",
+      "revision": {
+        "tarih": "2026-08-08",
+        "mekanizma": "genel_kultur",
+        "onceki_prompt": "After the flyby, ground-based telescopes were likewise unable to make the moon out.",
+        "ne_degisti": "Eski ifade ucus sonrasinda yer teleskoplarinin da goremedigini soyluyordu; yer teleskoplarinin uzay araclarindan daha sinirli oldugu yaygin bilgisiyle cevap pasajsiz cikiyordu. Yeni ifade ayni cumlenin NEDEN kismini hedefliyor: boyut mu uzaklik mi sorusu iki secenek de makul oldugu icin ancak F/3 okunarak yanitlanabiliyor."
+      }
     },
     {
       "number": 12,
-      "prompt": "A team member stated that another planet possesses more small inner moons than Uranus.",
+      "prompt": "Tiscareno maintains that the difference between a ring and a moon has always been clear-cut.",
       "answer": [
         "FALSE"
       ],
@@ -125,35 +137,47 @@
         "paragraph": "G",
         "sentence": 2
       },
-      "contradiction_point": "Pasajda Tiscareno, Güneş Sistemi'nde başka hiçbir gezegenin Uranüs kadar çok küçük iç uydusu olmadığını söylüyor; ifade ise başka bir gezegenin daha fazlasına sahip olduğunu iddia ediyor. Çelişki tek noktada: olumsuzlama ('no other planet' / 'another planet possesses more').",
+      "contradiction_point": "Pasaj halka ile uydu arasindaki cizginin gecmiste bugunku kadar net olmayabilecegini soyluyor; ifade ayrimin her zaman net oldugunu iddia ediyor. Celiski tek noktada: ayrimin gecmisteki netligi.",
       "not_given_justification": null,
-      "scan_note": "Küçük iç uyduların sayısı E paragrafında (on dördüncü üye, yirmi dokuz uydu) ve G paragrafında (2. cümle, gezegenler arası kıyas) geçiyor; kıyası veren tek cümle G'de ve ifadeyle açıkça çelişiyor.",
-      "explanation": "In Paragraph G, a team member says no other planet has as many small inner moons as Uranus — the statement reports the exact opposite.",
+      "scan_note": "Tiscareno'nun sozleri G paragrafinin 2. cumlesinde; A ve E paragraflari halka-uydu sistemini tanitiyor ama ayrimin netligine deginmiyor.",
+      "explanation": "Paragraph G reports Tiscareno as saying the line between ring and moon may not always have been as clear as it is today, which contradicts the claim that the distinction has always been clear-cut.",
       "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
+      "status": "verified",
+      "blind_solvable": null,
       "blind_basis": "general_knowledge",
       "flag_reason": "Cevap FALSE, bir gezegenin belirli bir ozelligini konu eden 'yeni kesif' haberlerinin genelde o gezegeni bu ozellikte benzersiz/rekor sayan bir cerceveyle anlatilmasi yaygin bilim habercisi kalibi; boyle bir haberde Uranüs'un kucuk ic uydu sayisinda one cikarilmasi beklendigi icin 'baska bir gezegen daha fazlasina sahip' iddiasinin yanlis olmasi parcaya bakmadan da tahmin edilebilir.",
-      "flag_mechanism": "genel_kultur"
+      "flag_mechanism": "genel_kultur",
+      "revision": {
+        "tarih": "2026-08-08",
+        "mekanizma": "genel_kultur",
+        "onceki_prompt": "A team member stated that another planet possesses more small inner moons than Uranus.",
+        "ne_degisti": "Eski ifade 'baska bir gezegen daha fazla kucuk ic uyduya sahiptir' diyordu; kesif haberlerinin konu gezegeni benzersiz gosterme kalibi yuzunden cevap pasajsiz cikiyordu. Yeni ifade ayni cumlenin ikinci yarisini, halka ile uydu arasindaki sinirin tarihsel netligini hedefliyor."
+      }
     },
     {
       "number": 13,
-      "prompt": "The team intends to submit its findings for publication within the next year.",
+      "prompt": "A name taken from Shakespeare has already been put forward for the new moon.",
       "answer": [
         "NOT GIVEN"
       ],
       "evidence": null,
       "evidence_locator": null,
       "contradiction_point": null,
-      "not_given_justification": "(1) Konu pasajda var: H paragrafı bulgunun yayın durumunu açıkça ele alıyor ('remains part of ongoing research rather than a finished, peer-reviewed result'). (2) Hiçbir cümle ifadeyi çürütmüyor: pasaj ekibin bir yıl içinde yayın yapmayacağını söylemiyor, yalnızca sonucun henüz hakemli olmadığını belirtiyor. (3) Hiçbir cümle ifadeyi doğrulamıyor — dolaylı olarak bile: 'ongoing research' araştırmanın sürdüğünü söyler ama bir yayın takvimi ya da başvuru niyeti pasajın hiçbir yerinde geçmiyor.",
-      "scan_note": "Yayın ve hakem değerlendirmesi yalnızca H paragrafında (1. cümle) geçiyor; B'deki program tanımı ve G'deki ekip görüşleri yayın takviminden hiç söz etmiyor.",
-      "explanation": "The passage says the result has not yet become a peer-reviewed publication, but never mentions when or how the team plans to publish.",
+      "not_given_justification": "(1) Konu pasajda var: E paragrafinin 2. cumlesi adlandirma gelenegini ve onay surecini ayrintisiyla anlatiyor. (2) Ifadeyi curuten cumle yok. (3) Dogrulayan cumle de yok: metin yalniz 'eventual name' diyor, herhangi bir adin onerildigini soylemiyor.",
+      "scan_note": "Adlandirma E paragrafinin 2. cumlesinde; C paragrafi gecici tanimlamayi (S/2025 U1) veriyor, o da bir ad onerisi degil.",
+      "explanation": "Paragraph E explains the naming tradition and says the newcomer's eventual name will need formal approval, but it never says whether any particular name has yet been proposed.",
       "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
+      "status": "verified",
+      "blind_solvable": null,
       "blind_basis": "logic",
       "flag_reason": "Ifade, pasajin sonucun henuz hakemli bir yayina donusmedigini soyledigi bir yerde, hic verilmeyen bir zaman cizelgesi (bir yil icinde) iddiasi ekliyor; boyle somut ama pasajda karsiligi olmayan takvim iddialari genelde NOT GIVEN'a isaret eder.",
-      "flag_mechanism": "konumsal_duzen"
+      "flag_mechanism": "konumsal_duzen",
+      "revision": {
+        "tarih": "2026-08-08",
+        "mekanizma": "eksen_disi_ayrinti",
+        "onceki_prompt": "The team intends to submit its findings for publication within the next year.",
+        "ne_degisti": "Eski ifade ekibin bulguyu bir yil icinde yayina gonderme niyetini soruyordu; pasajda hic gecmeyen bir takvim ayrintisi ekleyen bu kalip tek basina NOT GIVEN'i veriyordu. Yeni ifade metnin ayrintisiyla anlattigi adlandirma surecini hedefliyor; bir ad onerilip onerilmedigi karara baglanmiyor."
+      }
     }
   ]
 }

@@ -132,7 +132,8 @@
       "blind_solvable": true,
       "blind_basis": "guess",
       "flag_reason": "Net bir mekanizma yok: bosluk 'green and ___' ikilisinin ikinci sifatini istiyor, 'leafy' disinda 'lush', 'dense', 'mature' gibi bircok secenek de esit derecede olasi; dogru sozcugun tutturulmasi buyuk olcude sansa dayaniyor.",
-      "flag_mechanism": "belirsiz"
+      "flag_mechanism": "belirsiz",
+      "review_note": "E5 / 6. calistirma: dokunulmadi. E1'in kendi gerekcesi sizintiyi degil sizintinin YOKLUGUNU anlatiyor: 'green and ___' cercevesine 'lush', 'dense', 'mature' gibi bircok aday uyuyor, yani bosluk zaten cok adayli. blind_basis 'guess'; olcumde dogru sozcuk sansla tutmus. Cerceveyi daha da gevsetmek boslugu yanitlanamaz hale getirirdi, o yuzden soru oldugu gibi birakildi; E7 tekrarli olarak yeniden olcmeli."
     },
     {
       "number": 6,
@@ -180,7 +181,8 @@
       "blind_solvable": true,
       "blind_basis": "guess",
       "flag_reason": "Net bir mekanizma yok: bosluk bir artis zarfi istiyor ('sharply', 'significantly', 'rapidly' gibi birden fazla secenek esit derecede olasi), dogru sozcugun isabet etmesi buyuk olcude sansa dayaniyor.",
-      "flag_mechanism": "belirsiz"
+      "flag_mechanism": "belirsiz",
+      "review_note": "E5 / 6. calistirma: dokunulmadi. E1'in gerekcesi boslugun birden cok zarfa acik oldugunu ('sharply', 'significantly', 'rapidly') soyluyor, yani cerceve zaten kilitli degil; blind_basis 'guess'. Bu tur boslugun tek gercek kusuru olcum zorlugu, sizinti degil; duzeltme yapilmadi. E6 bu yuvayi yeniden uretirse zarf yerine sayi ya da olcek adi isteyen bir bosluk daha dayanikli olur."
     },
     {
       "number": 8,
@@ -330,7 +332,8 @@
       "blind_solvable": true,
       "blind_basis": "guess",
       "flag_reason": "Net bir mekanizma yok: 'bir ___ olcek' boslugu icin bes, yedi, on noktali gibi birden fazla yaygin olcek turu esit derecede olasi; dogru sayinin tutturulmasi buyuk olcude sansa dayaniyor.",
-      "flag_mechanism": "belirsiz"
+      "flag_mechanism": "belirsiz",
+      "review_note": "E5 / 6. calistirma: dokunulmadi. E1'in gerekcesi 'bes, yedi, on noktali olcekler esit derecede olasi' diyor, yani bosluk kapali bir listeden sayi istiyor ve cerceve tek adaya kilitlenmiyor; blind_basis 'guess'. Kapali liste isteyen bosluklar E10'un toplu raporunda da dayanikli sayiliyor. Duzeltme yapilmadi, E7 yeniden olcmeli."
     },
     {
       "number": 14,

@@ -59,7 +59,8 @@
       "blind_solvable": true,
       "blind_basis": "guess",
       "flag_reason": "Net bir mekanizma yok: bosluk levhanin malzemesini istiyor, 'acrylic' disinda 'plastic', 'glass', 'plexiglass' gibi baska malzeme adlari da esit derecede olasi; dogru sozcugun tutturulmasi buyuk olcude sansa dayaniyor.",
-      "flag_mechanism": "belirsiz"
+      "flag_mechanism": "belirsiz",
+      "review_note": "E5 / 6. calistirma: dokunulmadi. E1'in gerekcesi 'plastic', 'glass', 'plexiglass' gibi alternatiflerin ayni cerceveye uydugunu soyluyor, yani bosluk tek adaya kilitli degil; blind_basis 'guess'. Malzeme adi isteyen bu bosluk ancak B/3 okunarak dogru yazilabiliyor. Duzeltme yapilmadi, E7 yeniden olcmeli."
     },
     {
       "number": 2,

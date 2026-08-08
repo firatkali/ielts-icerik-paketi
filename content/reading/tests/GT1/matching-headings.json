@@ -32,7 +32,7 @@
       },
       {
         "key": "v",
-        "text": "How the amounts changed across the seasons"
+        "text": "The reasons householders themselves gave"
       },
       {
         "key": "vi",
@@ -52,7 +52,7 @@
       },
       {
         "key": "x",
-        "text": "Why one district earns more than another"
+        "text": "What rural families did with their scraps"
       }
     ]
   },
@@ -135,11 +135,17 @@
       "grammar_check": null,
       "explanation": "Paragraph E lists which foods were thrown away in the greatest quantity: cereals and rice first, then vegetables and other items.",
       "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
+      "status": "verified",
+      "blind_solvable": null,
       "blind_basis": "logic",
       "flag_reason": "Baslik 'iii', en yakin celdirici 'vii' (kabuklar ve mutfak artiklari) elenerek bulunuyor: paragrafin ilk iki cumlesi yenilebilir yiyeceklerin dokumunu siraliyor, kabuklardan soz eden yalniz son cumle; agirlik yenilebilir kalemlerde oldugu icin bu ayrim 'iii'u dogru birakiyor.",
-      "flag_mechanism": "konumsal_duzen"
+      "flag_mechanism": "konumsal_duzen",
+      "revision": {
+        "tarih": "2026-08-08",
+        "mekanizma": "konumsal_duzen",
+        "onceki_prompt": "Paragraph E",
+        "ne_degisti": "Iki olu baslik yeniden yazildi: v ('How the amounts changed across the seasons') metnin acikca olcmedigini soyledigi bir seyi adlandiriyordu, yerine G metninin gercek icerigi ('The reasons householders themselves gave') kondu; x ('Why one district earns more than another') pasajda aciklanmayan bir nedeni adlandiriyordu, yerine H metninin gercek icerigi ('What rural families did with their scraps') kondu. E paragrafinin rakibi vii zaten E/3'e capalanmis durumda."
+      }
     },
     {
       "number": 32,

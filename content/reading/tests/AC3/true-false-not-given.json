@@ -32,11 +32,12 @@
       "scan_note": "Testin ne ölçtüğü tartışması A paragrafında (3. cümle) ve H paragrafında ('The authors are cautious about overstating what the test proves' ve 'does not necessarily mean an animal possesses the same rich sense of self') ele alınıyor; ikisi de aynı yönde, tartışmanın sürdüğünü destekliyor, çelişen cümle yok.",
       "explanation": "Paragraph A says it is still debated whether the test measures genuine self-awareness or something narrower; the statement is a paraphrase of this.",
       "difficulty": "easy",
-      "status": "flagged",
+      "status": "rejected",
       "blind_solvable": true,
       "blind_basis": "general_knowledge",
       "flag_reason": "Cevap TRUE, ayna testinin gercekte neyi olctugu (gercek oz farkindaligi mi yoksa daha dar bir seyi mi) konusundaki bilimsel tartismanin hayvan bilisi alaninda yaygin ve bilinen bir tartisma olmasi sayesinde parcaya bakmadan da tahmin edilebiliyor.",
-      "flag_mechanism": "genel_kultur"
+      "flag_mechanism": "genel_kultur",
+      "reject_reason": "Kanit cumlesi (A/3) ayna testinin gercekte neyi olctugu tartismasini ozetliyor: 'gercek oz farkindalik mi yoksa daha dar bir sey mi'. Bu tartisma hayvan bilisinin en cok aktarilan tartismalarindan biri ve cumlenin iki yarisi da (tartismanin varligi, testin yine de en net davranissal isaret sayilmasi) alan bilgisinden dogrudan cikiyor. Cumlede pasaja ozgu tek bir sayi, ad ya da olcu yok, dolayisiyla ifade nasil yazilirsa yazilsin eksen genel kultur kaliyor. E6 bu yuvayi B paragrafinin sayisal ayrintilarina capalamali (98 oturum, aynanin onunde 27 saate karsi seffaf panelin onunde 23 saat)."
     },
     {
       "number": 8,

@@ -298,12 +298,13 @@
       "scan_note": "Bina koşulunun etkisi G paragrafında (G/1 örüntünün tersine döndüğü yargısı, G/2 olumsuz duyguların artıp canlılığın düştüğü) anlatılıyor; C/2 bina ortamının sakin seçildiğini söylüyor ama etkinin ormanla aynı olduğunu söyleyen cümle hiçbir yerde yok.",
       "explanation": "The writer says the pattern after the building condition was essentially the reverse of the forest's; the statement claims the two settings affected mood in much the same way.",
       "difficulty": "medium",
-      "status": "flagged",
+      "status": "rejected",
       "blind_solvable": true,
       "blind_basis": "logic",
       "flag_reason": "Cevap NO, pasajda kampus noktasi ormana karsi bir 'kontrol kosulu' olarak tasarlanmis; deney mantiginda kontrol kosulunun tedavi kosuluyla (orman) ayni etkiyi gostermesi beklenmez -- bu genel deney mantigiyla ifadenin YANLIS olmasi parcaya bakmadan da tahmin edilebilir.",
       "flag_mechanism": "konumsal_duzen",
-      "review_note": "E5/1: Duzeltilemedi, dokunulmadi. Sizinti kanit cumlesinin kendisinde: G/1 ('The pattern after the building condition was essentially the reverse') kontrol kosulunun tedavi kosulunun tersi sonuc verdigini soyluyor. Bu kanita dayanan her NO ifadesi, 'kontrol kosulu tedavi kosuluyla ayni sonucu vermez' deney mantigiyla parcasiz cozulebiliyor. Ifadeyi olculu yazmak yetmiyor, farkli bir kanit cumlesi gerekiyor - bu da gorev kuralina gore yarim duzeltme sayilir. Yuva olduğu gibi birakildi."
+      "review_note": "E5/1: Duzeltilemedi, dokunulmadi. Sizinti kanit cumlesinin kendisinde: G/1 ('The pattern after the building condition was essentially the reverse') kontrol kosulunun tedavi kosulunun tersi sonuc verdigini soyluyor. Bu kanita dayanan her NO ifadesi, 'kontrol kosulu tedavi kosuluyla ayni sonucu vermez' deney mantigiyla parcasiz cozulebiliyor. Ifadeyi olculu yazmak yetmiyor, farkli bir kanit cumlesi gerekiyor - bu da gorev kuralina gore yarim duzeltme sayilir. Yuva olduğu gibi birakildi.",
+      "reject_reason": "1. calistirma bu soruyu dokunulmadan birakmis ve gerekcesini review_note alanina yazmisti: sizinti ifadenin kipinde degil, kanit cumlesinin kendisinde. G/1 'The pattern after the building condition was essentially the reverse' diyor; bu kanita dayanan her NO ifadesi 'kontrol kosulu tedavi kosuluyla ayni sonucu vermez' deney mantigiyla parcasiz cozulebiliyor. Ifadeyi olculu yazmak yetmiyor, farkli bir kanit cumlesi gerekiyor; talimat kanit degisimini yarim duzeltme saydigi icin yuva bu calistirmada elenenlere alindi. E6 bu yuvayi G paragrafinin sayisal ayrintisina capalamali (dinlendiricilik puanlarinin yaklasik yariya dusmesi) ya da H paragrafindaki karin canlilik uzerindeki etkisi savina tasimali."
     },
     {
       "number": 12,

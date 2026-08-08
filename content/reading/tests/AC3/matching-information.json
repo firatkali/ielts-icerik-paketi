@@ -43,7 +43,7 @@
     },
     {
       "number": 28,
-      "prompt": "a warning against assuming that the same thing happened to other victims",
+      "prompt": "a reference to a second town where the same kind of preservation cannot be taken for granted",
       "answer": [
         "H"
       ],
@@ -56,13 +56,19 @@
         "sentence": 2
       },
       "uniqueness_check": "Bulgunun tek bir kişiye ait olduğu ve başkalarına genellenemeyeceği uyarısı yalnız H paragrafında. G paragrafı da bir sınırlamadan söz ediyor ama orada dar olan şey ısıl koşullar aralığıdır, bulgunun kapsamı değil; C bulgunun ne kadar ender olduğunu söylüyor, genellenemezliğini değil.",
-      "explanation": "Paragraph H stresses that the finding describes a single individual under an unusual and highly specific set of volcanic conditions, and cannot be assumed to apply to other victims.",
+      "explanation": "Paragraph H says the finding cannot be assumed to apply broadly across other victims at Herculaneum or Pompeii, naming a second town where the same preservation cannot be taken for granted.",
       "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
+      "status": "verified",
+      "blind_solvable": null,
       "blind_basis": "logic",
       "flag_reason": "Cevap H, benzer 'sinirlilik' iceren paragraflar elenerek bulunuyor: G'deki sinirlama isil kosullarin dar araligiyla ilgili, C bulgunun ne kadar ender oldugunu soyluyor; yalniz H bulgunun tek bir bireye ait oldugunu ve baska kurbanlara genellenemeyecegini acikca soyluyor.",
-      "flag_mechanism": "konumsal_duzen"
+      "flag_mechanism": "konumsal_duzen",
+      "revision": {
+        "tarih": "2026-08-08",
+        "mekanizma": "konumsal_duzen",
+        "onceki_prompt": "a warning against assuming that the same thing happened to other victims",
+        "ne_degisti": "Eski kok ('baska kurbanlar icin ayni seyin varsayilmamasi uyarisi') pasajda tek bir cumleye birebir oturuyordu; G'deki dar isil kosul sinirlamasi ve C'deki 'ender bulunma' kaydi kolayca eleniyordu. Yeni kok ayni cumlede gecen ikinci kasaba adini hedefliyor; A paragrafi da Pompeii'yi anip iki kasabanin gomulme bicimini karsilastirdigi icin artik gercek bir rakip, ayrim ancak paragraflar okunarak yapilabiliyor."
+      }
     },
     {
       "number": 29,
@@ -85,7 +91,8 @@
       "blind_solvable": true,
       "blind_basis": "guess",
       "flag_reason": "Net bir mekanizma yok: sinir liflerinin kalinligini yasayan bir beyinle karsilastiran sayisal olcum birden fazla paragrafta (D, E, G) sayisal veri barindirdigi icin, dogru paragrafi (E) bulmak parcaya bakmadan buyuk olcude sansa dayaniyor.",
-      "flag_mechanism": "belirsiz"
+      "flag_mechanism": "belirsiz",
+      "review_note": "E5 / 6. calistirma: dokunulmadi. E1 mekanizmayi 'belirsiz' bulmus ve blind_basis alanina 'guess' yazmisti. Soru kokunun istedigi olcum (sinir liflerinin kalinligi) pasajda yalniz E paragrafinda var, dolayisiyla cevap paragraf okunarak bulunuyor; sekiz paragrafli bir kumede dogru harfin bir kez tutturulmasi bir imza degil. Duzeltme yapilmadi, E7 tekrarli olarak yeniden olcmeli."
     },
     {
       "number": 30,

@@ -18,7 +18,7 @@
   "items": [
     {
       "number": 7,
-      "prompt": "Elephants had seldom succeeded at insight tasks in earlier research.",
+      "prompt": "The puzzles at which elephants had failed required an animal to raise itself up in order to reach food.",
       "answer": [
         "TRUE"
       ],
@@ -29,14 +29,20 @@
       },
       "contradiction_point": null,
       "not_given_justification": null,
-      "scan_note": "Geçmiş çalışmaların sonucu A paragrafında (3. cümle) ve F paragrafının ilk cümlesinde geçiyor; F 'Why had earlier studies failed' diye sorarak aynı başarısızlığı teyit ediyor, çelişen cümle yok.",
-      "explanation": "Paragraph A says that in earlier insight experiments elephants had 'almost always failed'; 'seldom succeeded' is a paraphrase of this.",
+      "scan_note": "Bulmacanin bicimi A paragrafinin 3. cumlesinde geciyor; B paragrafi ayni duzenegi (asili meyve, agir kup, bambu sopa) kuruyor ama 'icgoru bulmacasi' tanimini vermiyor.",
+      "explanation": "Paragraph A describes the insight puzzles as ones in which an animal suddenly stacks boxes to reach food hung out of reach, so the task required the animal to lift itself towards the food.",
       "difficulty": "easy",
-      "status": "flagged",
-      "blind_solvable": true,
+      "status": "verified",
+      "blind_solvable": null,
       "blind_basis": "general_knowledge",
       "flag_reason": "Cevap TRUE, fillerin klasik icgoru/arac kullanma testlerinde primatlara kiyasla tarihsel olarak basarisiz sayilmasi hayvan bilisi literaturunde bilinen bir tartisma; bu genel bilgiyle ifadenin dogru oldugu parcaya bakmadan da tahmin edilebiliyor.",
-      "flag_mechanism": "genel_kultur"
+      "flag_mechanism": "genel_kultur",
+      "revision": {
+        "tarih": "2026-08-08",
+        "mekanizma": "genel_kultur",
+        "onceki_prompt": "Elephants had seldom succeeded at insight tasks in earlier research.",
+        "ne_degisti": "Eski ifade fillerin icgoru testlerindeki tarihsel basarisizligini soruyordu; bu, hayvan bilisi literaturunun bilinen bir tartismasi oldugu icin cevap pasajsiz cikiyordu. Yeni ifade ayni cumlenin oteki yarisini, bulmacanin fiziksel bicimini hedefliyor: 'kutu ustune cikip yukselme' ayrintisi metne bakilmadan bilinemez."
+      }
     },
     {
       "number": 8,
@@ -56,7 +62,7 @@
     },
     {
       "number": 9,
-      "prompt": "The cube-rolling behaviour emerged gradually from earlier attempts to push or climb.",
+      "prompt": "Kandula broke off partway through his first successful attempt and came back to it later.",
       "answer": [
         "FALSE"
       ],
@@ -65,16 +71,22 @@
         "paragraph": "C",
         "sentence": 4
       },
-      "contradiction_point": "Pasaj daha önce itme, tırmanma ya da üst üste koyma girişimi olmadığını ve davranışın 'aniden' ortaya çıktığını söylüyor; ifade ise davranışın kademeli olarak geliştiğini iddia ediyor. Çelişki tek noktada: kademeli gelişim / ani ortaya çıkış.",
+      "contradiction_point": "Pasaj davranisin tek ve kesintisiz bir dizi halinde ortaya ciktigini soyluyor; ifade girisimin yarida birakilip sonra surduruldugunu iddia ediyor. Celiski tek noktada: kesintisizlik.",
       "not_given_justification": null,
-      "scan_note": "Çözümün nasıl ortaya çıktığı C paragrafında (3.-4. cümle) ve H paragrafında ('the sudden, error-free appearance of Kandula's solution ... rather than gradual trial-and-error learning') ele alınıyor; ikisi de kademeli gelişimi reddediyor.",
-      "explanation": "Paragraph C says there was no earlier attempt to push or climb before the cube was used, and that the behaviour appeared in a single instance — the statement claims the opposite.",
+      "scan_note": "Cozumun ortaya cikis bicimi C paragrafinin 3. ve 4. cumlelerinde, ayrica H paragrafinda ('the sudden, error-free appearance') geciyor; ikisi de kesintiye yer birakmiyor.",
+      "explanation": "Paragraph C says the behaviour appeared abruptly, in a single uninterrupted sequence, so it was not broken off and resumed later.",
       "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
+      "status": "verified",
+      "blind_solvable": null,
       "blind_basis": "general_knowledge",
       "flag_reason": "Cevap FALSE, psikolojideki 'icgoru' (insight) kavraminin tanimi geregi ani bir kavrayisla ortaya cikmasi, deneme-yanilmayla kademeli ogrenmenin ise bunun tam karsiti olmasi genel bilgisiyle; pasaj zaten bir 'icgoru' davranisini anlattigina gore 'kademeli gelisti' iddiasinin yanlis olmasi parcaya bakmadan da beklenir.",
-      "flag_mechanism": "genel_kultur"
+      "flag_mechanism": "genel_kultur",
+      "revision": {
+        "tarih": "2026-08-08",
+        "mekanizma": "genel_kultur",
+        "onceki_prompt": "The cube-rolling behaviour emerged gradually from earlier attempts to push or climb.",
+        "ne_degisti": "Eski ifade davranisin deneme-yanilmayla kademeli gelisip gelismedigini soruyordu; 'icgoru' kavraminin tanimi geregi ani olmasi genel psikoloji bilgisi. Yeni ifade ayni cumledeki 'single uninterrupted sequence' ibaresini hedefliyor; girisimin yarida kesilip kesilmedigi metne bakilmadan bilinemez."
+      }
     },
     {
       "number": 10,
@@ -92,11 +104,12 @@
       "scan_note": "Küpün konumlandırılması C paragrafında (küpün dalın altına yuvarlanması), D paragrafında (yiyecek yer değiştirince ayarlaması) ve H paragrafında ('adapt it to new objects and locations') geçiyor; hepsi aynı yönde.",
       "explanation": "Paragraph D says that when the keepers hung the food in a new spot, Kandula rolled the cube to the corresponding position.",
       "difficulty": "easy",
-      "status": "flagged",
+      "status": "rejected",
       "blind_solvable": true,
       "blind_basis": "general_knowledge",
       "flag_reason": "Cevap TRUE, bir hayvanin arac kullanma zekasini gosteren calismalarda tipik kanitin, yiyecek yeri degistiginde davranisi buna gore uyarlamak olmasi -- bu tur 'akilli hayvan' anlatilarinin standart kanit yapisi -- genel bilgisiyle parcaya bakmadan da beklenen bir sonuc.",
-      "flag_mechanism": "genel_kultur"
+      "flag_mechanism": "genel_kultur",
+      "reject_reason": "Kanit cumlesi (D/3) yalniz 'yiyecek yeri degistiginde Kandula kupu yeni noktaya yuvarladi' diyor; bu cumleden cikarilabilecek her dogru ifade 'akilli hayvan yeni duruma uyum sagladi' bicimini aliyor. Uyum saglama, akilli hayvan calismalarinin standart kanit yapisi olarak beklendigi icin cevap eksen degistirilmeden kapanmiyor; ekseni degistirmek ise kanit cumlesini degistirmek demek, talimat bunu yarim duzeltme sayiyor. E6 bu yuvayi D paragrafinin sayisal ya da nesnel ayrintilarina capalamali (ayni oturumda dokuz kez tekrarlamasi, kup kaldirilinca traktor lastigine gecmesi, kucuk nesneleri ust uste koyma denemesinin basarisiz olmasi)."
     },
     {
       "number": 11,
@@ -118,11 +131,12 @@
       "blind_solvable": true,
       "blind_basis": "guess",
       "flag_reason": "Net bir mekanizma yok: ifade Kandula'nin ertesi gun kupun yerini hatirlayip hatirlamadigini soruyor; boyle bellek iddialari bu tur hayvan zekasi calismalarinda genelde onaylanan sonuc olma egiliminde olsa da, bu tek ifadenin dogrulugu spesifik bir isaret olmadan sansa yakin bir tahmine dayaniyor.",
-      "flag_mechanism": "belirsiz"
+      "flag_mechanism": "belirsiz",
+      "review_note": "E5 / 6. calistirma: dokunulmadi. E1 bu soruyu 'belirsiz' mekanizmayla isaretlemis ve blind_basis alanina 'guess' yazmisti; olcumde model dogru cevabi bir mekanizmayla degil, uc secenekli bir kumede sansla tutturmus. Ifade E/4'un icerigini duz bicimde paraphrase ediyor, kanit cumlesi disinda hicbir imza tasimiyor. Yine de AC1-10 ile ayni ekseni (etkileyici yetenek iddiasi -> TRUE) paylastigi icin E7 olcumunde tekrarli olarak yeniden olculmesi gerekiyor; AC1-10 bu calistirmada elendigi icin eksen zaten zayifladi."
     },
     {
       "number": 12,
-      "prompt": "The authors attribute the failure of previous experiments to the animals' limited intelligence.",
+      "prompt": "According to the authors, the earlier experiments failed because the elephants were offered no tool at all.",
       "answer": [
         "FALSE"
       ],
@@ -131,35 +145,47 @@
         "paragraph": "F",
         "sentence": 2
       },
-      "contradiction_point": "Pasaj sorunun sunulan araçlarda olduğunu ve zekâda olmadığını açıkça söylüyor ('not in the animals' intelligence'); ifade başarısızlığı zekâya bağlıyor. Çelişki tek noktada: nedenin araç mı zekâ mı olduğu.",
+      "contradiction_point": "Pasaj yazarlarin sucu 'onceki deneylerin SUNDUGU araclara' attigini soyluyor, yani arac sunulmustu; ifade hic arac sunulmadigini iddia ediyor. Celiski tek noktada: aracin sunulmus olmasi.",
       "not_given_justification": null,
-      "scan_note": "Önceki deneylerin neden başarısız olduğu F paragrafında (1.-4. cümle) tartışılıyor, H paragrafında da tekrarlanıyor ('a species may appear incapable of a mental feat simply because the equipment offered does not suit its particular anatomy'); ikisi de zekâ açıklamasını reddediyor.",
-      "explanation": "Paragraph F says that the problem lay in the tools offered by earlier experiments, not in the animals' intelligence — the statement claims the opposite.",
+      "scan_note": "Yazarlarin aciklamasi F paragrafinin 2. cumlesinde; B paragrafi deneyde bambu bir sopanin sunuldugunu ayrica soyluyor, F/3-4 sopanin neden ise yaramadigini anlatiyor.",
+      "explanation": "Paragraph F says the authors blame the tools that previous experiments had offered, which means tools were offered; the problem was that a stick did not suit the animal's trunk.",
       "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
+      "status": "verified",
+      "blind_solvable": null,
       "blind_basis": "general_knowledge",
       "flag_reason": "Cevap FALSE, bir hayvanin beklenmedik bir basari gosterdigi bilim haberlerinin gecmis basarisizligi 'hayvan aptaldi' diye aciklamak yerine 'kullanilan arac/yontem uygun degildi' diye aciklamasi yaygin bir anlati kalibi; bu genel oruntuyle ifadenin (zeka aciklamasi) yanlis oldugu parcaya bakmadan da tahmin edilebiliyor.",
-      "flag_mechanism": "genel_kultur"
+      "flag_mechanism": "genel_kultur",
+      "revision": {
+        "tarih": "2026-08-08",
+        "mekanizma": "genel_kultur",
+        "onceki_prompt": "The authors attribute the failure of previous experiments to the animals' limited intelligence.",
+        "ne_degisti": "Eski ifade yazarlarin basarisizligi hayvanin zekasina baglayip baglamadigini soruyordu; beklenmedik bir hayvan basarisini anlatan metinlerin gecmis basarisizligi 'arac yanlisti' diye aciklamasi cok yaygin bir anlati kalibi. Yeni ifade ayni cumleyi tersten, 'arac sunulmus muydu' ekseninden soruyor; bu ayrinti yalniz F/2 ile B paragrafindan cikiyor."
+      }
     },
     {
       "number": 13,
-      "prompt": "Kandula could see the food more clearly once he was standing on the cube.",
+      "prompt": "The bamboo stick was taken out of the enclosure once Kandula began using the cube.",
       "answer": [
         "NOT GIVEN"
       ],
       "evidence": null,
       "evidence_locator": null,
       "contradiction_point": null,
-      "not_given_justification": "(1) Konu pasajda var: G paragrafı küpün basamak olarak sağladığı avantajları tek tek sayıyor — hortum ucunun açık kalması, nesneyle sürekli dokunsal temas ve hayvanın gövdesinin yiyeceğe yaklaşması. (2) Hiçbir cümle ifadeyi çürütmüyor: pasajın hiçbir yerinde Kandula'nın görüşünün küpün üstünde kötüleştiği ya da değişmediği söylenmiyor. (3) Hiçbir cümle ifadeyi doğrulamıyor: pasaj boyunca filin görme duyusundan hiç söz edilmiyor; F ve G paragrafları üstünlüğü yalnızca koku ve dokunma üzerinden kuruyor, G 'lifting the animal's whole body closer to the food' diyerek mesafeden bahsediyor ama görüşün netleştiğini söylemiyor. E paragrafındaki tek görme ifadesi ('invisible from the point where he entered') yiyeceğe değil, saklanan küpe ait.",
-      "scan_note": "Küp basamağının avantajları G paragrafında (1. cümle), hortumun duyuları F paragrafında (3.-4. cümle) sıralanıyor; görme duyusu bu paragrafların hiçbirinde geçmiyor, pasajdaki tek görünürlük ifadesi E paragrafında küpün saklandığı yerle ilgili.",
-      "explanation": "The passage explains the cube's benefits as keeping the trunk free and bringing the body closer to the food; it never mentions whether Kandula could see the food better.",
+      "not_given_justification": "(1) Konu pasajda var: B paragrafi bambu sopanin sunuldugunu, F paragrafi sopanin neden ise yaramadigini anlatiyor. (2) Ifadeyi curuten cumle yok: sopanin ortamda kaldigi hicbir yerde soylenmiyor. (3) Dogrulayan cumle de yok: D paragrafinda kaldirilan nesne kupun kendisi, sopa degil.",
+      "scan_note": "Bambu sopa B paragrafinin 4.-5. cumlelerinde ve F paragrafinin 3.-4. cumlelerinde geciyor; D paragrafinda kaldirilan nesne kup. Sopanin ne zaman ortadan kalktigi hicbir paragrafta yok.",
+      "explanation": "The passage says a bamboo stick was offered at the start and later explains why sticks suit elephants poorly, but it never says whether the stick was removed once the animal began using the cube.",
       "difficulty": "hard",
-      "status": "flagged",
-      "blind_solvable": true,
+      "status": "verified",
+      "blind_solvable": null,
       "blind_basis": "logic",
       "flag_reason": "Ifade, pasajin kupun faydalarini hortumun acik kalmasi ve govdenin yaklasmasi (dokunma/erisim) uzerinden anlattigi bir bolumde, hic ele alinmayan bir duyu kanali (gorme) hakkinda iddia kuruyor; boyle 'bahsedilmeyen duyu' iddialari genelde NOT GIVEN'a isaret eder.",
-      "flag_mechanism": "konumsal_duzen"
+      "flag_mechanism": "konumsal_duzen",
+      "revision": {
+        "tarih": "2026-08-08",
+        "mekanizma": "eksen_disi_ayrinti",
+        "onceki_prompt": "Kandula could see the food more clearly once he was standing on the cube.",
+        "ne_degisti": "Eski ifade kupun ustundeyken yiyecegi daha iyi gorup gormedigini soruyordu; pasajin hic ele almadigi bir duyu kanali (gorme) ekleyen bu kalip tek basina NOT GIVEN'i veriyordu. Yeni ifade metnin bol bol konustugu bir nesneyi, bambu sopayi hedefliyor; sopanin ne zaman kaldirildigi karara baglanmiyor."
+      }
     }
   ]
 }

@@ -37,26 +37,32 @@
     },
     {
       "number": 9,
-      "prompt": "The festival takes place in Castle Park every year.",
+      "prompt": "Visitors may bring their own food into the festival.",
       "answer": [
         "NOT GIVEN"
       ],
       "evidence": null,
       "evidence_locator": null,
       "contradiction_point": null,
-      "not_given_justification": "(1) Konu pasajda geçiyor: B metninin 1. cümlesi bu yılki festivalin Castle Park'ta yapıldığını söylüyor. (2) Pasajda ifadeyi çürüten hiçbir cümle yok: festivalin geçmişte başka bir yerde yapıldığını ya da yerinin değiştiğini söyleyen ifade bulunmuyor, dolayısıyla FALSE denemez. (3) Pasajda ifadeyi doğrulayan hiçbir cümle yok — dolaylı olarak bile: 'this year's' ifadesi yalnızca bu yılı anlatır, festivalin her yıl aynı parkta yapıldığını ima etmez.",
-      "scan_note": "Festivalin yeri yalnızca B metninin 1. cümlesinde geçiyor; B'nin diğer cümleleri saatleri, biletleri ve kuralları anlatıyor. Başka hiçbir metin festivalden söz etmiyor.",
-      "explanation": "The passage says this year's festival is being held in Castle Park but never mentions whether it takes place there every year.",
+      "not_given_justification": "(1) Konu metinde var: B metninin son cumlesi hem yiyecek standlarini hem de bir yasagi (kamp) duzenliyor. (2) Ifadeyi curuten kayit yok: disaridan yiyecek getirmenin yasak oldugu hicbir yerde yazmiyor. (3) Dogrulayan kayit da yok: izin verildigi de soylenmiyor.",
+      "scan_note": "Yiyecek standlari ve yasaklar B metninin son cumlesinde; ayni metnin oteki cumleleri saatleri, biletleri ve cocuk girisini anlatiyor. Baska hicbir metin festivalden soz etmiyor.",
+      "explanation": "Text B says the food stalls accept card payment only and that camping is not permitted, but it says nothing about whether visitors may bring food of their own.",
       "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
+      "status": "verified",
+      "blind_solvable": null,
       "blind_basis": "option_wording",
       "flag_reason": "Ifadedeki 'every year' (her yil) genellemesi, metnin yalnizca 'this year's' (bu yilki) diye belirttigi tekil bir olayla celisiyor; bu kapsam genisletme sinyali parcaya bakmadan da NOT GIVEN'i isaret ediyor.",
-      "flag_mechanism": "kip_imzasi"
+      "flag_mechanism": "kip_imzasi",
+      "revision": {
+        "tarih": "2026-08-08",
+        "mekanizma": "kip_imzasi",
+        "onceki_prompt": "The festival takes place in Castle Park every year.",
+        "ne_degisti": "Eski ifade festivalin 'her yil' Castle Park'ta yapildigini soyluyordu; metnin yalniz 'bu yilki festival' demesine karsi kurulan bu kapsam genislemesi tek basina NOT GIVEN'i veriyordu. Yeni ifadede hicbir kapsam ya da siklik sozcugu yok; metnin gercekten duzenledigi bir alanda (yiyecek ve yasaklar) karara baglanmamis bir ayrinti soruluyor."
+      }
     },
     {
       "number": 10,
-      "prompt": "A weekend ticket bought in advance costs less than one bought at the gate.",
+      "prompt": "Tickets valid for a single day are not sold for every day of the festival.",
       "answer": [
         "TRUE"
       ],
@@ -67,18 +73,24 @@
       },
       "contradiction_point": null,
       "not_given_justification": null,
-      "scan_note": "Bilet fiyatları yalnızca B metninin 3. cümlesinde veriliyor (peşin 45, kapıda 55 sterlin). A'daki kiralama ücreti, C'deki kira, D'deki giriş ücreti ve E'deki kurs ücretleri festival biletiyle ilgisiz; çelişen cümle yok.",
-      "explanation": "According to notice B, a weekend ticket costs £45 in advance and £55 on the gate — buying in advance is cheaper. The figures give the comparison directly.",
+      "scan_note": "Bilet turleri B metninin 3. cumlesinde; ayni metnin 1. cumlesi festivalin cuma-pazar surdugunu soyluyor, iki cumle birlikte okunmadan cevap cikmiyor.",
+      "explanation": "Text B says the festival runs from Friday to Sunday but that day tickets are available only for Friday and Saturday, so single-day tickets are not sold for every day.",
       "difficulty": "easy",
-      "status": "flagged",
-      "blind_solvable": true,
+      "status": "verified",
+      "blind_solvable": null,
       "blind_basis": "general_knowledge",
       "flag_reason": "Cevap TRUE, etkinliklerde onceden alinan biletlerin kapida alinandan daha ucuz olmasi yaygin ve evrensel bir bilet fiyatlandirma kurali; bu genel bilgiyle ifadenin dogru olmasi parcaya bakmadan da tahmin edilebiliyor.",
-      "flag_mechanism": "genel_kultur"
+      "flag_mechanism": "genel_kultur",
+      "revision": {
+        "tarih": "2026-08-08",
+        "mekanizma": "genel_kultur",
+        "onceki_prompt": "A weekend ticket bought in advance costs less than one bought at the gate.",
+        "ne_degisti": "Eski ifade onceden alinan biletin kapida alinandan ucuz olup olmadigini soruyordu; erken bilet indirimi evrensel bir fiyatlandirma kurali. Yeni ifade ayni cumledeki 'only for Friday and Saturday' kaydini festival takvimiyle birlikte okumayi gerektiriyor."
+      }
     },
     {
       "number": 11,
-      "prompt": "Plot holders are warned in writing before an uncultivated plot is offered to someone else.",
+      "prompt": "A plot holder may leave up to a quarter of the plot uncultivated without breaking the rules.",
       "answer": [
         "TRUE"
       ],
@@ -89,14 +101,20 @@
       },
       "contradiction_point": null,
       "not_given_justification": null,
-      "scan_note": "Uyarı ve yeniden tahsis konusu yalnızca C metninin 3. cümlesinde geçiyor (iki yazılı uyarıdan sonra). C/1 bekleme listesini, C/2 kirayı, C/4 yapı iznini anlatıyor; hiçbiri ifadeyle çelişmiyor.",
-      "explanation": "Notice C says uncultivated plots can only be reassigned after two written warnings; in other words, the holder is warned in writing before the plot is given to someone else.",
+      "scan_note": "Ekim orani ve yeniden tahsis C metninin 3. cumlesinde; C/1 bekleme listesini, C/2 kirayi, C/4 yapi iznini anlatiyor.",
+      "explanation": "Text C says plot holders must keep at least 75 per cent of the plot cultivated, which leaves up to a quarter that may be left uncultivated.",
       "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
+      "status": "verified",
+      "blind_solvable": null,
       "blind_basis": "general_knowledge",
       "flag_reason": "Cevap TRUE, parsel/kiralama politikalarinda bir hakkin geri alinmasindan once yazili uyari verilmesinin yaygin bir idari adillik kurali olmasi genel bilgisiyle parcaya bakmadan da tahmin edilebiliyor.",
-      "flag_mechanism": "genel_kultur"
+      "flag_mechanism": "genel_kultur",
+      "revision": {
+        "tarih": "2026-08-08",
+        "mekanizma": "genel_kultur",
+        "onceki_prompt": "Plot holders are warned in writing before an uncultivated plot is offered to someone else.",
+        "ne_degisti": "Eski ifade parselin baskasina verilmesinden once yazili uyari yapilip yapilmadigini soruyordu; bir hakkin geri alinmasindan once yazili uyari verilmesi yaygin bir idari adillik kurali. Yeni ifade ayni cumledeki %75 esigini yuzde hesabiyla hedefliyor."
+      }
     },
     {
       "number": 12,
@@ -119,26 +137,32 @@
     },
     {
       "number": 13,
-      "prompt": "Pottery is the centre's most popular evening class.",
+      "prompt": "Classes that are cancelled are offered again later in the year.",
       "answer": [
         "NOT GIVEN"
       ],
       "evidence": null,
       "evidence_locator": null,
       "contradiction_point": null,
-      "not_given_justification": "(1) Konu pasajda geçiyor: E metninin 1. cümlesi çömlekçiliği merkezin elli dersinden biri olarak anıyor. (2) Pasajda ifadeyi çürüten hiçbir cümle yok: hiçbir ders için rağbet sıralaması verilmiyor, çömlekçiliğin az ilgi gördüğünü söyleyen ifade de yok, dolayısıyla FALSE denemez. (3) Pasajda ifadeyi doğrulayan hiçbir cümle yok — dolaylı olarak bile: dersin yelpazenin bir ucu olarak anılması ya da E/4'teki altı kişilik açılma eşiği hiçbir dersin popülerliği hakkında bilgi vermez.",
-      "scan_note": "Çömlekçilik yalnızca E metninin 1. cümlesinde geçiyor. E/4'teki kayıt eşiği derslerin doluluğuna değinir ama hangi dersin çok tutulduğunu söylemez; başka metinde kurs yok.",
-      "explanation": "The passage mentions pottery as one of fifty classes but never says which class is the most popular.",
+      "not_given_justification": "(1) Konu metinde var: E metninin son cumlesi iptal kuralini ayrintisiyla veriyor (alti kisiden az, terim oncesi cuma). (2) Ifadeyi curuten kayit yok. (3) Dogrulayan kayit da yok: iptal edilen dersin sonradan yeniden acilip acilmadigi hic soylenmiyor.",
+      "scan_note": "Iptal kurali E metninin son cumlesinde; ayni metin kayit takvimini, ucretleri ve indirimi veriyor, telafi ya da yeniden acilma konusuna hic girmiyor.",
+      "explanation": "Text E says classes with fewer than six enrolled students by the Friday before term begins are cancelled, but it never says whether such classes are offered again later.",
       "difficulty": "hard",
-      "status": "flagged",
-      "blind_solvable": true,
+      "status": "verified",
+      "blind_solvable": null,
       "blind_basis": "option_wording",
       "flag_reason": "Ifadedeki 'most popular' (en populer) ustunluk ifadesi, metnin comlekciligi yalniz elli dersten biri olarak andigi, hicbir ragbet siralamasi vermedigi bir yerde kurulmus; boyle bir siralama/ustunluk iddiasinin metinde karsiligi olmadigi icin bu tur mutlak dereceleme ifadeleri genelde NOT GIVEN'a isaret eder.",
-      "flag_mechanism": "kip_imzasi"
+      "flag_mechanism": "kip_imzasi",
+      "revision": {
+        "tarih": "2026-08-08",
+        "mekanizma": "kip_imzasi",
+        "onceki_prompt": "Pottery is the centre's most popular evening class.",
+        "ne_degisti": "Eski ifade comlekciligin 'en populer' ders olup olmadigini soruyordu; hicbir ragbet siralamasi verilmeyen bir metinde kurulan bu ustunluk kalibi tek basina NOT GIVEN'i veriyordu. Yeni ifadede ustunluk ya da kapsam sozcugu yok; metnin acikca duzenledigi iptal kuralinin karara baglanmamis bir yani soruluyor."
+      }
     },
     {
       "number": 14,
-      "prompt": "Students who show valid identification are charged half the standard fee.",
+      "prompt": "Job seekers are entitled to the same reduction as students.",
       "answer": [
         "TRUE"
       ],
@@ -149,14 +173,20 @@
       },
       "contradiction_point": null,
       "not_given_justification": null,
-      "scan_note": "İndirim yalnızca E metninin 3. cümlesinde geçiyor (%50, iş arayanlar ve geçerli kimlikli öğrenciler). E'nin diğer cümleleri ders sayısı, kayıt yolu ve iptal eşiği; başka metinde öğrenci indirimi anılmıyor.",
-      "explanation": "Notice E says a 50% concession applies to students with valid identification — that is, they pay half the standard fee.",
+      "scan_note": "Indirim E metninin 3. cumlesinde geciyor; ayni cumle ucret araligini (60-110 sterlin) de veriyor, indirimden yararlanan baska bir grup sayilmiyor.",
+      "explanation": "Text E says concessions of 50 per cent are available to job seekers and to students with valid identification, so both groups receive the same reduction.",
       "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
+      "status": "verified",
+      "blind_solvable": null,
       "blind_basis": "guess",
       "flag_reason": "Net bir mekanizma yok: gecerli kimlikli ogrencilere uygulanan indirim oraninin ('%50', yani yarisi) tam olarak ifadedeki 'half' ile eslesmesi, parcaya bakmadan tahmin edilemeyecek somut bir sayi; dogrulugu buyuk olcude sansa dayaniyor.",
-      "flag_mechanism": "belirsiz"
+      "flag_mechanism": "belirsiz",
+      "revision": {
+        "tarih": "2026-08-08",
+        "mekanizma": "belirsiz",
+        "onceki_prompt": "Students who show valid identification are charged half the standard fee.",
+        "ne_degisti": "Eski ifade gecerli kimlikli ogrencilerin standart ucretin yarisini odeyip odemedigini soruyordu; %50 ogrenci indirimi yaygin bir uygulama oldugu icin '50' ile 'yari' eslesmesi metne bakilmadan kurulabiliyordu. Yeni ifade indirimin ogrencilere OZGU olup olmadigini soruyor; is arayanlarin da ayni indirimi almasi yalniz E/3'ten cikiyor."
+      }
     }
   ]
 }

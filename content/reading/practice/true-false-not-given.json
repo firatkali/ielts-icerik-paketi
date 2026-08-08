@@ -63,22 +63,28 @@
     {
       "number": 3,
       "passage_id": "A02",
-      "prompt": "The daily fifteen-minute sessions were held at the same time each day.",
+      "prompt": "In each pair, the animal that came to dominate was the heavier of the two.",
       "answer": [
         "NOT GIVEN"
       ],
       "evidence": null,
       "evidence_locator": null,
       "contradiction_point": null,
-      "not_given_justification": "(1) Konu pasajda var: D paragrafı çiftlerin her gün on beş dakika bir arada bırakıldığını, E paragrafı yedinci gündeki buluşmanın yine on beş dakika sürdüğünü söylüyor, yani oturumların düzeni ayrıntılı biçimde anlatılıyor. (2) Pasajda ifadeyi çürüten hiçbir cümle yok: oturumların günün farklı saatlerinde ya da değişen saatlerde yapıldığı hiçbir yerde söylenmiyor. (3) Pasajda ifadeyi doğrulayan hiçbir cümle de yok: metin oturumların süresini ve kaç gün sürdüğünü veriyor ama günün hangi saatinde yapıldığına dolaylı olarak bile değinmiyor.",
-      "scan_note": "Oturum düzeni C paragrafında (3 gün alışma), D paragrafında (2. cümle, günlük on beş dakika) ve E paragrafında (1. ve 4. cümle, yedinci gün, yine on beş dakika) geçiyor; hiçbirinde günün saati verilmiyor.",
-      "explanation": "The passage says that the sessions lasted fifteen minutes a day but never mentions whether they were held at the same time each day.",
+      "not_given_justification": "(1) Konu pasajda var: B paragrafi esleme olcutunu ve tek tek agirliklari, D paragrafi her ciftte bir baskinlik siralamasi olustugunu veriyor. (2) Ifadeyi curuten cumle yok: baskin hayvanin hafif olan oldugu hicbir yerde soylenmiyor. (3) Dogrulayan cumle de yok: metin agirligi ve baskinligi ayri ayri veriyor, ikisini hicbir yerde caprazlamiyor.",
+      "scan_note": "Agirlik B paragrafinin 1. ve 2. cumlelerinde, baskinlik D paragrafinin 2. cumlesinde ve F paragrafinda (baskinligin tersine donmesi) geciyor; hicbiri iki olcuyu birbirine baglamiyor.",
+      "explanation": "Paragraph B says the two animals in a pair were matched to differ in weight by no more than fifteen per cent, and paragraph D says a dominance hierarchy emerged in every pair, but the passage never says whether the dominant animal was the heavier one.",
       "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
+      "status": "verified",
+      "blind_solvable": null,
       "blind_basis": "logic",
       "flag_reason": "Ifade 'her gun ayni saatte' gibi pasajin ana konusuna (oturum suresi ve gun sayisi) eklenen, ayrica dogrulanmasi gereken dar bir ayrintı ekliyor; bu turden 'konudan sapan ekstra ayrinti' kalibi genelde NOT GIVEN'a isaret eder, parcaya bakmadan da bu oruntuyle tahmin edilebilir.",
-      "flag_mechanism": "konumsal_duzen"
+      "flag_mechanism": "konumsal_duzen",
+      "revision": {
+        "tarih": "2026-08-08",
+        "mekanizma": "eksen_disi_ayrinti",
+        "onceki_prompt": "The daily fifteen-minute sessions were held at the same time each day.",
+        "ne_degisti": "Eski ifade oturumlarin gunun ayni saatinde yapilip yapilmadigini soruyordu; pasajin hic konusmadigi bir boyut (gunun saati) ekleyen bu kalip tek basina NOT GIVEN'i veriyordu. Yeni ifade metnin bol bol konustugu iki ekseni (agirlik eslemesi ve baskinlik siralamasi) kesistiriyor; ikisi de ayrintisiyla veriliyor ama hic caprazlanmiyor."
+      }
     },
     {
       "number": 4,
@@ -97,11 +103,12 @@
       "scan_note": "Son testteki davranış farkları F paragrafında (1.-4. cümle) veriliyor: F/2 tanıdık çiftlerin temkinli durduğunu, F/3 yabancı çiftlerin genel olarak daha uzun süre birbiriyle meşgul olduğunu söylüyor. G paragrafı da aynı yönde özetliyor; ters yönde bir cümle yok.",
       "explanation": "Paragraph F says that pairs made up of strangers spent longer engaged with one another overall, while familiar pairs avoided contact.",
       "difficulty": "medium",
-      "status": "flagged",
+      "status": "rejected",
       "blind_solvable": true,
       "blind_basis": "general_knowledge",
       "flag_reason": "Cevap TRUE, hayvan davranisinda yabanci bireylerin tanidiklara gore daha fazla etkilesime girdigi (yenilik arayisi/merak durtusu) yaygin davranis biyolojisi bilgisiyle parcaya bakmadan da tahmin edilebiliyor.",
-      "flag_mechanism": "genel_kultur"
+      "flag_mechanism": "genel_kultur",
+      "reject_reason": "Kanit cumlesi (F/3) tek bir yon soyluyor: yabanci ciftler daha erken etkilesime giriyor, daha sik dokunuyor ve birlikte daha uzun vakit geciriyor. Cumleden cikarilabilecek her dogru ifade 'yabancilar tanidiklardan daha cok etkilesime girer' bicimini aliyor; yenilik arayisi davranis biyolojisinin en yaygin genellemelerinden biri oldugu icin cevap ifade nasil yazilirsa yazilsin pasaja bakilmadan cikiyor. Cumlede pasaja ozgu tek bir sayi ya da ad da yok. E6 bu yuvayi F paragrafinin sayisal ayrintilarina capalamali (baskinligin tersine dondugu on iki yabanci ciftin sekizi, ya da son sinamada hic murekkep birakilmamasi)."
     },
     {
       "number": 5,
@@ -146,27 +153,33 @@
     {
       "number": 7,
       "passage_id": "A05",
-      "prompt": "Sequencing the recovered fragments took the team several months to complete.",
+      "prompt": "Each of the two laboratories analysed the same samples independently of the other.",
       "answer": [
         "NOT GIVEN"
       ],
       "evidence": null,
       "evidence_locator": null,
       "contradiction_point": null,
-      "not_given_justification": "(1) Konu pasajda var: D paragrafı parçaların çoğaltıldığını, klonlandığını ve karşılaştırma için dizilendiğini anlatıyor, yani dizileme işlemi açıkça ele alınıyor. (2) Pasajda ifadeyi çürüten hiçbir cümle yok: çalışmanın ne kadar sürdüğüne dair kısa ya da uzun herhangi bir süre verilmiyor. (3) Pasajda ifadeyi doğrulayan hiçbir cümle de yok: metindeki tek zaman bilgileri kazı yılları (A paragrafı) ve tanelerin yaşı (C paragrafı); laboratuvar çalışmasının süresine dolaylı olarak bile değinilmiyor.",
-      "scan_note": "Laboratuvar aşamaları D paragrafında (1.-3. cümle) sıralanıyor, sonuçlar E paragrafında veriliyor; pasajdaki zaman ifadeleri yalnızca A paragrafındaki kazı tarihleri ve C paragrafındaki 8.400 yıl, çalışmanın süresi hiç geçmiyor.",
-      "explanation": "The passage describes the fragments being amplified and sequenced but gives no information about how long this process took.",
+      "not_given_justification": "(1) Konu pasajda var: D paragrafinin 1. cumlesi iki laboratuvari ve neden ayri tutulduklarini anlatiyor. (2) Ifadeyi curuten cumle yok: isin bolusuldugu hicbir yerde soylenmiyor. (3) Dogrulayan cumle de yok: ayni orneklerin iki kez, bagimsiz olarak incelendigi de soylenmiyor.",
+      "scan_note": "Iki laboratuvar yalniz D paragrafinin 1. cumlesinde geciyor; D'nin geri kalani isaretleyici uzunluklarini ve dizilemeyi anlatiyor, E paragrafi sonuclari veriyor.",
+      "explanation": "Paragraph D says the extraction and analysis were carried out in two physically separate laboratories so that the ancient samples would not be contaminated, but it never says whether the two laboratories duplicated each other's work or divided it between them.",
       "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
+      "status": "verified",
+      "blind_solvable": null,
       "blind_basis": "logic",
       "flag_reason": "Ifade, pasajin verdigi zaman bilgilerine (kazi yillari, tanelerin yasi) ek olarak laboratuvar isleminin suresine dair yeni ve dogrulanamayan bir ayrinti ekliyor; bu 'konudan sapan ek sure iddiasi' kalibi genelde NOT GIVEN'a isaret eder.",
-      "flag_mechanism": "konumsal_duzen"
+      "flag_mechanism": "konumsal_duzen",
+      "revision": {
+        "tarih": "2026-08-08",
+        "mekanizma": "eksen_disi_ayrinti",
+        "onceki_prompt": "Sequencing the recovered fragments took the team several months to complete.",
+        "ne_degisti": "Eski ifade dizilemenin kac ay surdugunu soruyordu; pasajin hic vermedigi bir sure ayrintisi ekleyen bu kalip tek basina NOT GIVEN'i veriyordu. Yeni ifade metnin ayrintisiyla anlattigi iki laboratuvarli duzenegi hedefliyor; is bolusumunun bicimi metinde karara baglanmiyor."
+      }
     },
     {
       "number": 8,
       "passage_id": "A05",
-      "prompt": "The new evidence places the origin of hexaploid wheat within the Fertile Crescent core.",
+      "prompt": "Catalhoyuk is described as the place where the spread of hexaploid wheat came to an end.",
       "answer": [
         "FALSE"
       ],
@@ -175,16 +188,22 @@
         "paragraph": "G",
         "sentence": 3
       },
-      "contradiction_point": "Pasaj altı kromozomlu buğdayın geleneksel Bereketli Hilal çekirdeğinden daha uzakta ortaya çıkmış olabileceğini söylüyor; ifade ise kökeni bu çekirdeğin içine yerleştiriyor. Çelişki tek noktada: yer — çekirdeğin içi / çekirdeğin dışı.",
+      "contradiction_point": "Pasaj Catalhoyuk'u yayilmanin Avrupa'ya dogru surdugu yol ustundeki bir durak sayiyor; ifade ise yayilmanin orada bittigini soyluyor. Celiski tek noktada: ara durak / son nokta.",
       "not_given_justification": null,
-      "scan_note": "Kökenin coğrafyası G paragrafında (1.-3. cümle) ele alınıyor: G/2 basit buğday evcilleştirmesini Bereketli Hilal'e bağlıyor, G/3 hekzaploid buğday için bunun tersini söylüyor. H paragrafının son cümlesi de orta Anadolu topluluklarının beklenenden merkezî bir rol oynadığını yineliyor; ifadeyi destekleyen cümle yok.",
-      "explanation": "Paragraph G says that hexaploid wheat may have emerged further from the traditional Fertile Crescent core — the statement claims the opposite.",
+      "scan_note": "Catalhoyuk'un yayilmadaki rolu G paragrafinin 3. cumlesinde; A paragrafi da yerlesimin ilerideki tarim yollari uzerinde bulundugunu soyluyor, H paragrafi ayni yonu yineliyor.",
+      "explanation": "Paragraph G describes Catalhoyuk as a possible staging point on the spread of hexaploid wheat towards Europe, that is, a place along the route rather than the point at which that spread stopped.",
       "difficulty": "hard",
-      "status": "flagged",
-      "blind_solvable": true,
+      "status": "verified",
+      "blind_solvable": null,
       "blind_basis": "general_knowledge",
       "flag_reason": "Cevap FALSE, bugday evcillestirmesinin geleneksel oykusunun Bereketli Hilal'i tek merkez saydigi bilgisiyle ve 'yeni bulgu' haberlerinin genelde bu tur yerlesik anlatilari sorguladigi yaygin bilim-haberciligi oruntusuyle tahmin edilebiliyor; ifade geleneksel anlatiyi oldugu gibi dogruluyor, bu da genelde boyle pasajlarda curutulen taraf.",
-      "flag_mechanism": "genel_kultur"
+      "flag_mechanism": "genel_kultur",
+      "revision": {
+        "tarih": "2026-08-08",
+        "mekanizma": "genel_kultur",
+        "onceki_prompt": "The new evidence places the origin of hexaploid wheat within the Fertile Crescent core.",
+        "ne_degisti": "Eski ifade bugday evcillestirmesinin Bereketli Hilal merkezli klasik anlatisini soruyordu; bu ders kitabi bilgisi oldugu icin cevap pasaja bakilmadan cikiyordu. Yeni ifade ayni kanit cumlesinin oteki yarisini, Catalhoyuk'a bicilen rolu hedefliyor; 'ara durak mi son nokta mi' ayrimi yalniz G/3'ten yapilabiliyor."
+      }
     },
     {
       "number": 9,
@@ -209,27 +228,33 @@
     {
       "number": 10,
       "passage_id": "A08",
-      "prompt": "The scientists who carried out the December ground survey travelled there on foot.",
+      "prompt": "The ground survey of 12 December covered the slopes of Mount Logan as well as those of Mount King George.",
       "answer": [
         "NOT GIVEN"
       ],
       "evidence": null,
       "evidence_locator": null,
       "contradiction_point": null,
-      "not_given_justification": "(1) Konu pasajda var: D paragrafı 12 Aralık'ta bir yer araştırması yapıldığını ve uydu görüntülerinin doğrulandığını söylüyor, yani araziye gidilmesi açıkça anlatılıyor. (2) Pasajda ifadeyi çürüten hiçbir cümle yok: ekibin helikopterle ya da başka bir araçla ulaştığı hiçbir yerde söylenmiyor. (3) Pasajda ifadeyi doğrulayan hiçbir cümle de yok: metin bölgenin uzak ve ulaşılması güç olduğunu söylüyor, G paragrafı Yakutat'ın dağlara yapılan gezilerde çıkış noktası olduğunu belirtiyor, ama araştırmacıların oraya nasıl gittiğine dolaylı olarak bile değinmiyor.",
-      "scan_note": "Yer araştırması D paragrafının 2. cümlesinde geçiyor; bölgenin erişilebilirliği B paragrafında, G paragrafında (Yakutat'tan yola çıkan ekipler) ve H paragrafında ('too remote and too dangerous to monitor continuously') ele alınıyor, hiçbirinde ulaşım biçimi yazmıyor.",
-      "explanation": "The passage says that a ground survey was carried out on 12 December but never mentions how the team reached the area.",
+      "not_given_justification": "(1) Konu pasajda var: D paragrafinin 1. cumlesi iki dagi adiyla aniyor, 2. cumlesi 12 Aralik'taki yer arastirmasini anlatiyor. (2) Ifadeyi curuten cumle yok. (3) Dogrulayan cumle de yok: arastirmanin kapsami hicbir yerde verilmiyor.",
+      "scan_note": "Iki dagin adi D paragrafinin 1. cumlesinde, yer arastirmasi 2. cumlesinde geciyor; B ve C paragraflari uydu verisini anlatiyor, arastirmanin hangi yamaclari kapsadigina hicbiri deginmiyor.",
+      "explanation": "Paragraph D names both Mount King George and Mount Logan and reports that a ground survey on 12 December confirmed what the satellite images had shown, but it never says which slopes that survey actually visited.",
       "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
+      "status": "verified",
+      "blind_solvable": null,
       "blind_basis": "logic",
       "flag_reason": "Ifade, pasajin anlattigi yer arastirmasina ('12 Aralik'ta araziye gidildi') ek olarak ulasim bicimine dair dogrulanamayan yeni bir ayrinti (yuruyerek) ekliyor; bu tur somut ama pasajda karsiligi olmayan yontem ayrintilari genelde NOT GIVEN'a isaret eder.",
-      "flag_mechanism": "konumsal_duzen"
+      "flag_mechanism": "konumsal_duzen",
+      "revision": {
+        "tarih": "2026-08-08",
+        "mekanizma": "eksen_disi_ayrinti",
+        "onceki_prompt": "The scientists who carried out the December ground survey travelled there on foot.",
+        "ne_degisti": "Eski ifade arastirmacilarin araziye yuruyerek gidip gitmedigini soruyordu; pasajda hic karsiligi olmayan bir ulasim ayrintisi ekleyen bu kalip tek basina NOT GIVEN'i veriyordu. Yeni ifade metnin ayrintisiyla verdigi iki dagi ve yer arastirmasini birlikte hedefliyor; kapsam metinde karara baglanmiyor."
+      }
     },
     {
       "number": 11,
       "passage_id": "A08",
-      "prompt": "The earthquake brought the tributary glacier's rapid advance to a halt.",
+      "prompt": "The debris shaken loose by the earthquake is being carried inland, away from the coast.",
       "answer": [
         "FALSE"
       ],
@@ -238,16 +263,22 @@
         "paragraph": "F",
         "sentence": 2
       },
-      "contradiction_point": "Pasaj buzulun depremden kesintiye uğramadığını, aksine enkazı taşımayı sürdürdüğünü söylüyor; ifade ise hızlı hareketin durduğunu iddia ediyor. Çelişki tek noktada: hareketin sürmesi / durması.",
+      "contradiction_point": "Pasaj enkazin denize dogru tasindigini soyluyor; ifade ic kesimlere, kiyidan uzaga tasindigini iddia ediyor. Celiski tek noktada: tasimanin yonu.",
       "not_given_justification": null,
-      "scan_note": "Kol buzulun hızlı evresi F paragrafında (1.-2. cümle) anlatılıyor: F/1 buzulun depremden haftalar önce hızlanma evresine girdiğini, F/2 depremin bunu kesmediğini söylüyor. Pasajın başka hiçbir yerinde buzulun durduğuna dair ifade yok.",
-      "explanation": "Paragraph F says that rather than being interrupted by the earthquake, the glacier continued carrying debris steadily downhill towards the sea — the statement claims the opposite.",
+      "scan_note": "Enkazin tasinmasi F paragrafinin 2. cumlesinde; A ve D paragraflari enkazin nerede olustugunu anlatiyor, yonunden soz etmiyor.",
+      "explanation": "Paragraph F says the surging glacier is carrying the newly generated avalanche and landslide debris steadily downhill towards the sea, that is, towards the coast rather than away from it.",
       "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
+      "status": "verified",
+      "blind_solvable": null,
       "blind_basis": "logic",
       "flag_reason": "Cevap FALSE, pasajin anlattigi 'coskun buzul enkazi tasimaya devam ediyor' oruntusuyle, bir depremin halihazirda hizlanmis bir buzulu aniden durdurmasi olasi gorunmuyor; doga olaylarini anlatan pasajlarda buyuk bir sarsintinin surmekte olan bir sureci tam tersine 'durdurdugu' iddialari genelde yanlis cikar.",
-      "flag_mechanism": "konumsal_duzen"
+      "flag_mechanism": "konumsal_duzen",
+      "revision": {
+        "tarih": "2026-08-08",
+        "mekanizma": "kalip_beklentisi",
+        "onceki_prompt": "The earthquake brought the tributary glacier's rapid advance to a halt.",
+        "ne_degisti": "Eski ifade depremin buzulun hizli ilerleyisini durdurdugunu soyluyordu; 'buyuk bir sarsinti surmekte olan bir sureci durdurur mu' kalibi doga pasajlarinda neredeyse her zaman FALSE cikar. Yeni ifade ayni kanit cumlesindeki tasima yonunu hedefliyor; deniz mi ic kesim mi sorusu hicbir genel kaliptan cikarilamiyor."
+      }
     },
     {
       "number": 12,
@@ -272,7 +303,7 @@
     {
       "number": 13,
       "passage_id": "A09",
-      "prompt": "Fabric at Herculaneum survived in a condition seldom found at other Roman sites.",
+      "prompt": "The volcanic material that sealed the town built up over more than a single day.",
       "answer": [
         "TRUE"
       ],
@@ -283,14 +314,20 @@
       },
       "contradiction_point": null,
       "not_given_justification": null,
-      "scan_note": "Kasabadaki korunma düzeyi A paragrafının 3. cümlesinde anlatılıyor; H paragrafı da bulgunun iskelet kalıntılarından elde edilemeyecek bir ayrıntı sunduğunu söylüyor. Korunmayı başka Roma yerleşimleriyle karşılaştıran tek yer A/3 ve ters yönde bir cümle yok.",
-      "explanation": "Paragraph A says that because the town was buried so completely under thick volcanic deposits, even fabric survived for centuries in a way rarely seen at other Roman sites.",
+      "scan_note": "Gomulmenin suresi A paragrafinin 3. cumlesinde geciyor ('over the following days'); ayni cumle olumlerin 'neredeyse aninda' gerceklestigini de soyluyor, iki ayri zaman olcegi bilincli olarak yan yana duruyor.",
+      "explanation": "Paragraph A says the town was sealed beneath roughly 20 metres of volcanic deposits over the following days, so the covering accumulated over more than one day, even though the flows themselves killed residents almost instantly.",
       "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
+      "status": "verified",
+      "blind_solvable": null,
       "blind_basis": "general_knowledge",
       "flag_reason": "Cevap TRUE, Herculaneum'un (Pompeii ile birlikte) volkanik kullerin altinda kalarak organik malzemelerin olaganustu iyi korunmasiyla unlu bir arkeoloji sitesi olmasi yaygin bilgisiyle parcaya bakmadan da tahmin edilebiliyor.",
-      "flag_mechanism": "genel_kultur"
+      "flag_mechanism": "genel_kultur",
+      "revision": {
+        "tarih": "2026-08-08",
+        "mekanizma": "genel_kultur",
+        "onceki_prompt": "Fabric at Herculaneum survived in a condition seldom found at other Roman sites.",
+        "ne_degisti": "Eski ifade kumasin baska Roma sitelerinde ender gorulen bir durumda korunmasini soruyordu; Herculaneum'un organik malzemeyi esssiz bicimde korumasi arkeolojinin en cok bilinen olgularindan biri. Yeni ifade ayni cumlenin oteki yarisini, ortu tabakasinin ne kadar surede olustugunu hedefliyor; yaygin sezgi 'kasaba bir anda gomuldu' dedigi icin sezgi artik YANLIS yone gidiyor, dogru cevap yalniz A/3'teki 'over the following days' ibaresinden cikiyor."
+      }
     },
     {
       "number": 14,
@@ -312,7 +349,7 @@
     {
       "number": 15,
       "passage_id": "A09",
-      "prompt": "Analysis identified the dark material inside the skull as a mineral deposit.",
+      "prompt": "The brain tissue is thought to have melted into a liquid before hardening into glass.",
       "answer": [
         "FALSE"
       ],
@@ -321,16 +358,22 @@
         "paragraph": "C",
         "sentence": 1
       },
-      "contradiction_point": "Pasaj maddenin mineral çökelti olmadığını, camlaşmış insan beyin dokusu olduğunu açıkça söylüyor; ifade ise mineral çökelti olarak tanımlandığını iddia ediyor. Çelişki tek noktada: maddenin kimliği.",
+      "contradiction_point": "Pasaj dokunun DOGRUDAN cam benzeri bir kati hale gectigini soyluyor; ifade once sivilasip sonra katilastigini iddia ediyor. Celiski tek noktada: 'dogrudan' gecis / ara sivi asamasi.",
       "not_given_justification": null,
-      "scan_note": "Kafatasındaki koyu maddenin ne olduğu B paragrafının 2. cümlesinde ilk kez anılıyor, C paragrafının 1. cümlesinde kesin olarak tanımlanıyor; F paragrafı protein kanıtıyla (3. cümle) aynı sonucu destekliyor. Mineral çökelti olduğunu söyleyen tek bir cümle yok.",
-      "explanation": "Paragraph C says that detailed analysis showed the material was not a mineral deposit or later contamination but vitrified human brain tissue.",
+      "scan_note": "Donusumun bicimi C paragrafinin 1. cumlesinde, gereken kosullar 2. cumlesinde, isil kosullarin dar araligi G paragrafinda anlatiliyor; hicbirinde sivi bir ara asamadan soz edilmiyor.",
+      "explanation": "Paragraph C says the tissue was converted directly into a glass-like solid; no intermediate liquid stage is described anywhere in the passage, so the statement contradicts it.",
       "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
+      "status": "verified",
+      "blind_solvable": null,
       "blind_basis": "general_knowledge",
       "flag_reason": "Cevap FALSE, Herculaneum kurbaninin kafatasindaki koyu maddenin camlasmis beyin dokusu oldugu, bilim habercilikte genis yer bulmus bilinen bir bulgu; bu genel bilgiyle ifadenin (mineral cokelti) yanlis oldugu parcaya bakmadan da tahmin edilebiliyor.",
-      "flag_mechanism": "genel_kultur"
+      "flag_mechanism": "genel_kultur",
+      "revision": {
+        "tarih": "2026-08-08",
+        "mekanizma": "genel_kultur",
+        "onceki_prompt": "Analysis identified the dark material inside the skull as a mineral deposit.",
+        "ne_degisti": "Eski ifade kafatasindaki koyu maddenin mineral cokelti olup olmadigini soruyordu; camlasmis beyin dokusu bulgusu bilim haberciliginde genis yer buldugu icin cevap pasajsiz cikiyordu. Yeni ifade ayni cumledeki 'directly' sozcugunu hedefliyor; camlasmanin malzeme biliminde bir sivinin hizla sogutulmasi demek olmasi, bilgili bir cozucuyu TRUE'ya iterek sezgiyi ters yone ceviriyor."
+      }
     }
   ]
 }

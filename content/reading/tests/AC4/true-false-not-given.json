@@ -18,7 +18,7 @@
   "items": [
     {
       "number": 7,
-      "prompt": "The experiment was prompted by a shortage of controlled evidence in the debate.",
+      "prompt": "The company where the study was carried out has more than five thousand staff at its main site.",
       "answer": [
         "TRUE"
       ],
@@ -29,14 +29,20 @@
       },
       "contradiction_point": null,
       "not_given_justification": null,
-      "scan_note": "Tartışmanın niteliği ve çalışmanın nedeni A paragrafında geçiyor: 1. cümle anlaşmazlığı, 2. cümle iki tarafın savlarını, 4. cümle tartışmanın kontrollü karşılaştırmadan yoksun olduğunu ve bunun araştırmacıları harekete geçirdiğini söylüyor. B paragrafı da deneyin tasarımını anlatarak aynı yönde; hiçbir paragrafta bu gerekçeyle çelişen cümle yok.",
-      "explanation": "Paragraph A says that the debate rests largely on personal impression rather than controlled comparison, and that this is what prompted the researchers to test the question directly.",
+      "scan_note": "Calisan sayisi A paragrafinin 4. cumlesinde; B paragrafi deneye katilan 288 kisiyi ve 22 takimi veriyor, bunlar kampusun toplami degil orneklem.",
+      "explanation": "Paragraph A says the technology company that ran the study has 5,580 employees at its main campus, which is more than five thousand.",
       "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
+      "status": "verified",
+      "blind_solvable": null,
       "blind_basis": "general_knowledge",
       "flag_reason": "Cevap TRUE, bilimsel arastirma makalelerinin girisinde tartismali bir konunun 'kisisel izlenime dayali, kontrollu kanittan yoksun' oldugunu soyleyip bunu arastirmanin motivasyonu olarak sunmasi cok yaygin bir akademik yazim kalibi; bu genel bilgiyle ifadenin dogru olmasi parcaya bakmadan da beklenen bir sonuc.",
-      "flag_mechanism": "genel_kultur"
+      "flag_mechanism": "genel_kultur",
+      "revision": {
+        "tarih": "2026-08-08",
+        "mekanizma": "genel_kultur",
+        "onceki_prompt": "The experiment was prompted by a shortage of controlled evidence in the debate.",
+        "ne_degisti": "Eski ifade calismanin kontrollu kanit eksikligi yuzunden yapildigini soyluyordu; bir tartismayi 'kisisel izlenime dayaniyor' diye cerceveleyip arastirmanin gerekcesi yapmak akademik girislerin standart kalibi. Yeni ifade ayni cumledeki sayiyi (5.580) hedefliyor; bes bin esigi ancak A/4 okunarak dogrulanabiliyor."
+      }
     },
     {
       "number": 8,
@@ -129,7 +135,7 @@
     },
     {
       "number": 13,
-      "prompt": "The volume of code a team produced was unaffected by the layout it worked in.",
+      "prompt": "How energetic employees said they felt did not differ significantly between the four layouts.",
       "answer": [
         "TRUE"
       ],
@@ -140,14 +146,20 @@
       },
       "contradiction_point": null,
       "not_given_justification": null,
-      "scan_note": "Kod çıktısı C paragrafında (4. cümle, teknik çıktının ölçüsü olarak sayılması) ve G paragrafında (2. cümle, dört düzen arasında anlamlı fark bulunmaması; 3. cümle, bu sonucun yorumu) geçiyor; H paragrafındaki genel sonuç yalnızca memnuniyet, gürültü ve tercihten söz ediyor. Kod çıktısında fark bulunduğunu söyleyen hiçbir cümle yok.",
-      "explanation": "Paragraph G says that the number of code commits produced by teams showed no statistically significant difference between the four layouts.",
+      "scan_note": "Enerji olcumu G paragrafinin 2. cumlesinde kod commit sayisiyla birlikte veriliyor; C paragrafi enerjinin anketle olculdugunu, D ve E paragraflari degisen olcumleri (memnuniyet, uretkenlik, akis) ayri ayri veriyor.",
+      "explanation": "Paragraph G says that neither the number of software code commits nor employees' self-reported energy levels showed a statistically significant difference between the four layouts.",
       "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
+      "status": "verified",
+      "blind_solvable": null,
       "blind_basis": "logic",
       "flag_reason": "Cevap TRUE, bu tur ofis-duzeni calismalarinda oznel olcumlerin (memnuniyet, algi) etkilenip nesnel/davranissal ciktı olcumlerinin (kod uretimi gibi) genelde degismedigi bilinen bir arastirma orntusu; bu genel orntuyle ifadenin dogru olmasi parcaya bakmadan da tahmin edilebiliyor.",
-      "flag_mechanism": "konumsal_duzen"
+      "flag_mechanism": "konumsal_duzen",
+      "revision": {
+        "tarih": "2026-08-08",
+        "mekanizma": "kalip_beklentisi",
+        "onceki_prompt": "The volume of code a team produced was unaffected by the layout it worked in.",
+        "ne_degisti": "Eski ifade kod uretiminin duzenden etkilenmedigini soyluyordu; ofis calismalarinda OZNEL olcumlerin degisip NESNEL ciktinin degismemesi bilinen bir arastirma orgusu oldugu icin cevap pasajsiz cikiyordu. Yeni ifade ayni cumlenin oteki yarisini, oznel bir olcumun (kendi bildirdikleri enerji) degismedigini hedefliyor; ayni orgu bu kez YANLIS yone isaret ediyor, dogru cevap yalniz G/2'den cikiyor."
+      }
     }
   ]
 }

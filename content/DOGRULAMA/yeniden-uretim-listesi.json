@@ -417,6 +417,61 @@
         "ifade": "Where the two halves of a pair were already (38) ........ , a whole night of sleep improved recall far more than a rest of an hour and a half did."
       },
       "neden_elendi": "Sorunun ekseni, uykunun hangi tur malzemeyi daha cok kayirdigi - bilissel bilimin en cok aktarilan bulgularindan biri - ve kelime bankasi bu ekseni hazir bir zit cift olarak tasiyor (D 'connected in meaning' / I 'unrelated in meaning'). Ustelik hemen ardindan gelen 39. cumle 'Where no such link existed' diyerek 38'in 'baglantili' taraf oldugunu soyluyor, yani I ozetin kendi ic mantigiyla de eleniyor. Bosluk nasil yazilirsa yazilsin secim iki kutuptan birini isaretlemeye iniyor ve karar pasajdan degil dunya bilgisinden geliyor; kip ya da cerceve duzeltmesi bunu kapatmaz. E6 bu yuvayi E paragrafinin pasaja ozgu bir ayrintisina tasimali (0.58'e karsi 0.15 etki buyuklugu, ya da 40 iliskili + 40 iliskisiz cift bolusumu)."
+    },
+    {
+      "dosya": "content/reading/practice/true-false-not-given.json",
+      "numara": 4,
+      "tip": "true_false_not_given",
+      "pasaj": "A02",
+      "kacinilacak": {
+        "kanit_cumlesi": "Pairs made up of strangers, by contrast, interacted sooner, touched each other more often, and spent longer engaged with one another overall.",
+        "ifade": "Strangers devoted more of their time together to interaction than familiar pairs did."
+      },
+      "neden_elendi": "Kanit cumlesi (F/3) tek bir yon soyluyor: yabanci ciftler daha erken etkilesime giriyor, daha sik dokunuyor ve birlikte daha uzun vakit geciriyor. Cumleden cikarilabilecek her dogru ifade 'yabancilar tanidiklardan daha cok etkilesime girer' bicimini aliyor; yenilik arayisi davranis biyolojisinin en yaygin genellemelerinden biri oldugu icin cevap ifade nasil yazilirsa yazilsin pasaja bakilmadan cikiyor. Cumlede pasaja ozgu tek bir sayi ya da ad da yok. E6 bu yuvayi F paragrafinin sayisal ayrintilarina capalamali (baskinligin tersine dondugu on iki yabanci ciftin sekizi, ya da son sinamada hic murekkep birakilmamasi)."
+    },
+    {
+      "dosya": "content/reading/practice/yes-no-not-given.json",
+      "numara": 11,
+      "tip": "yes_no_not_given",
+      "pasaj": "A11",
+      "kacinilacak": {
+        "kanit_cumlesi": "The pattern after the building condition was essentially the reverse.",
+        "ifade": "Looking at campus buildings changed participants' moods in much the same way the forest did."
+      },
+      "neden_elendi": "1. calistirma bu soruyu dokunulmadan birakmis ve gerekcesini review_note alanina yazmisti: sizinti ifadenin kipinde degil, kanit cumlesinin kendisinde. G/1 'The pattern after the building condition was essentially the reverse' diyor; bu kanita dayanan her NO ifadesi 'kontrol kosulu tedavi kosuluyla ayni sonucu vermez' deney mantigiyla parcasiz cozulebiliyor. Ifadeyi olculu yazmak yetmiyor, farkli bir kanit cumlesi gerekiyor; talimat kanit degisimini yarim duzeltme saydigi icin yuva bu calistirmada elenenlere alindi. E6 bu yuvayi G paragrafinin sayisal ayrintisina capalamali (dinlendiricilik puanlarinin yaklasik yariya dusmesi) ya da H paragrafindaki karin canlilik uzerindeki etkisi savina tasimali."
+    },
+    {
+      "dosya": "content/reading/tests/AC1/matching-features.json",
+      "numara": 25,
+      "tip": "matching_features",
+      "pasaj": "A02",
+      "kacinilacak": {
+        "kanit_cumlesi": "The other half were separated by an opaque divider and had no contact of any kind.",
+        "ifade": "This group was given no way at all of sensing the other animal during the first stage."
+      },
+      "neden_elendi": "3. calistirma bu soruyu dokunulmadan birakmis ve gerekcesini review_note alanina yazmisti: sizinti ifadenin kipinde degil, kanit cumlesi ile secenek listesinin arasinda. Kanit cumlesi (C/3) yalniz bolmenin isik gecirip gecirmedigini soyluyor, secenek metinleri de iki grubu tam olarak bu ozellikle adlandiriyor (see-through screen / solid screen); ilk asamayla ilgili nasil yazilirsa yazilsin her ifade bu iki etiketten birine sozcuk duzeyinde baglaniyor. Duzeltmek icin ya kanit cumlesini ya secenek listesini degistirmek gerekiyor, talimat ikisini de yarim duzeltme saydigi icin yuva bu calistirmada elenenlere alindi. E6 icin en temiz cozum secenek listesini bolme turuyle degil asama/sira ile adlandirmak (ornegin 'ilk uc gunu ayri geciren birinci yari'); bu, AC1-26'yi da guclendirir."
+    },
+    {
+      "dosya": "content/reading/tests/AC1/true-false-not-given.json",
+      "numara": 10,
+      "tip": "true_false_not_given",
+      "pasaj": "A01",
+      "kacinilacak": {
+        "kanit_cumlesi": "When keepers moved the food to a new position, he adjusted by rolling the cube to the corresponding spot underneath.",
+        "ifade": "Kandula changed where he placed the cube when the food was moved."
+      },
+      "neden_elendi": "Kanit cumlesi (D/3) yalniz 'yiyecek yeri degistiginde Kandula kupu yeni noktaya yuvarladi' diyor; bu cumleden cikarilabilecek her dogru ifade 'akilli hayvan yeni duruma uyum sagladi' bicimini aliyor. Uyum saglama, akilli hayvan calismalarinin standart kanit yapisi olarak beklendigi icin cevap eksen degistirilmeden kapanmiyor; ekseni degistirmek ise kanit cumlesini degistirmek demek, talimat bunu yarim duzeltme sayiyor. E6 bu yuvayi D paragrafinin sayisal ya da nesnel ayrintilarina capalamali (ayni oturumda dokuz kez tekrarlamasi, kup kaldirilinca traktor lastigine gecmesi, kucuk nesneleri ust uste koyma denemesinin basarisiz olmasi)."
+    },
+    {
+      "dosya": "content/reading/tests/AC3/true-false-not-given.json",
+      "numara": 7,
+      "tip": "true_false_not_given",
+      "pasaj": "A07",
+      "kacinilacak": {
+        "kanit_cumlesi": "Whether the test measures genuine self-awareness or something narrower remains contested, but passing it is still treated as one of the clearest behavioural signs that an animal can distinguish its own reflection from that of another individual.",
+        "ifade": "Researchers still disagree about what a successful mirror test actually proves."
+      },
+      "neden_elendi": "Kanit cumlesi (A/3) ayna testinin gercekte neyi olctugu tartismasini ozetliyor: 'gercek oz farkindalik mi yoksa daha dar bir sey mi'. Bu tartisma hayvan bilisinin en cok aktarilan tartismalarindan biri ve cumlenin iki yarisi da (tartismanin varligi, testin yine de en net davranissal isaret sayilmasi) alan bilgisinden dogrudan cikiyor. Cumlede pasaja ozgu tek bir sayi, ad ya da olcu yok, dolayisiyla ifade nasil yazilirsa yazilsin eksen genel kultur kaliyor. E6 bu yuvayi B paragrafinin sayisal ayrintilarina capalamali (98 oturum, aynanin onunde 27 saate karsi seffaf panelin onunde 23 saat)."
     }
   ]
 }

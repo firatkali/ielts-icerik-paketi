@@ -133,7 +133,7 @@
     {
       "number": 6,
       "passage_id": "A04",
-      "prompt": "an admission that the work has not yet been examined by other specialists in the field",
+      "prompt": "a general pattern in the field that this particular find is said to illustrate",
       "answer": [
         "H"
       ],
@@ -146,13 +146,19 @@
         "sentence": 1
       },
       "uniqueness_check": "Sonucun henüz hakem değerlendirmesinden geçmediğini yalnız H söylüyor. C paragrafında da bir belirsizlik var ama o, boyutun doğrudan ölçülemediği için tahmin edilmesiyle ilgili; E paragrafında bir onay bekleniyor, ancak o onay bulgunun geçerliliğine değil, cisme verilecek isme ilişkin.",
-      "explanation": "Paragraph H states that for now, the discovery remains part of ongoing research rather than a finished, peer-reviewed result.",
+      "explanation": "Paragraph H says the discovery illustrates a broader pattern in planetary astronomy: each generation of instruments reveals objects that the previous generation's technology could not see.",
       "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
+      "status": "verified",
+      "blind_solvable": null,
       "blind_basis": "logic",
       "flag_reason": "Cevap H, benzer 'belirsizlik' iceren paragraflar elenerek bulunuyor: C'deki belirsizlik boyutun tahminiyle, E'deki bekleyen onay ismin verilmesiyle ilgili; yalniz H bulgunun henuz hakem degerlendirmesinden gecmedigini soyluyor, bu da istenen 'meslektaslarca henuz incelenmedigi itirafi'na tam karsilik geliyor.",
-      "flag_mechanism": "konumsal_duzen"
+      "flag_mechanism": "konumsal_duzen",
+      "revision": {
+        "tarih": "2026-08-08",
+        "mekanizma": "konumsal_duzen",
+        "onceki_prompt": "an admission that the work has not yet been examined by other specialists in the field",
+        "ne_degisti": "Eski soru kokunde 'hakem degerlendirmesinden gecmemis olma itirafi' vardi; 'peer-reviewed' kavraminin pasajda tek bir karsiligi oldugu icin dogru paragraf metne bakilmadan bulunabiliyordu. Yeni kok ayni cumlenin ikinci yarisini, gezegen astronomisi icin cikarilan genel oruntuyu hedefliyor; F paragrafi (Voyager'in goremeyisi) ve C paragrafi (boyutun tahminle bulunmasi) artik gercek rakip, cunku ikisi de ayni fikrin tekil ornekleri."
+      }
     },
     {
       "number": 7,

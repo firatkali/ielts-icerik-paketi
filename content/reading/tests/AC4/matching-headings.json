@@ -16,7 +16,7 @@
     "options": [
       {
         "key": "i",
-        "text": "A surprising rise in participants' energy"
+        "text": "The reverse pattern at the second site"
       },
       {
         "key": "ii",
@@ -28,7 +28,7 @@
       },
       {
         "key": "iv",
-        "text": "The health risks of standing in severe cold"
+        "text": "Why the snow may have hidden one effect"
       },
       {
         "key": "v",
@@ -40,7 +40,7 @@
       },
       {
         "key": "vii",
-        "text": "An urban view chosen to create stress"
+        "text": "A calm city scene used for comparison"
       },
       {
         "key": "viii",
@@ -52,7 +52,7 @@
       },
       {
         "key": "x",
-        "text": "How long each questionnaire took to complete"
+        "text": "The number of items in each scale"
       }
     ]
   },
@@ -135,11 +135,17 @@
       "grammar_check": null,
       "explanation": "Paragraph E describes how mood was measured with four separate scales before and after each experience.",
       "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
+      "status": "verified",
+      "blind_solvable": null,
       "blind_basis": "logic",
       "flag_reason": "Baslik 'vi', en yakin celdirici 'x' (anketlerin doldurulma suresi) elenerek bulunuyor: paragraf dort olcegin madde sayilarini sayarak uzunluk izlenimi birakiyor, ama doldurma suresi hic verilmiyor; asil vurgu her olcegin deneyimin oncesinde ve sonrasinda doldurulmasi, bu da yalniz 'vi'yi dogru birakiyor.",
-      "flag_mechanism": "konumsal_duzen"
+      "flag_mechanism": "konumsal_duzen",
+      "revision": {
+        "tarih": "2026-08-08",
+        "mekanizma": "konumsal_duzen",
+        "onceki_prompt": "Paragraph E",
+        "ne_degisti": "Eski celdirici x ('How long each questionnaire took to complete') pasajda hic verilmeyen bir olcuyu adlandirdigi icin okumadan eleniyordu; yerine E paragrafinin gercekten verdigi madde sayilari ('The number of items in each scale') kondu. E artik iki basligin arasinda ve secim ana fikri tartmayi gerektiriyor."
+      }
     },
     {
       "number": 18,
@@ -157,11 +163,17 @@
       "grammar_check": null,
       "explanation": "Paragraph F describes how negative emotions fell and the restorative-outcome score rose sharply after time in the forest, while energy levels did not rise.",
       "difficulty": "hard",
-      "status": "flagged",
-      "blind_solvable": true,
+      "status": "verified",
+      "blind_solvable": null,
       "blind_basis": "logic",
       "flag_reason": "Baslik 'viii', en yakin celdirici 'i' (katilimcilarin enerjisinde sasirtici artis) ile tam ters yonde: paragraf 'canlilik, alisilmadik bicimde, yukselmedi' diyor, yani 'i' bulguyu tersine ceviriyor; olumsuz duygularin azalip dinlendiriciligin arttigi ama enerjinin artmadigi ikili tablo yalniz 'viii'i dogru birakiyor.",
-      "flag_mechanism": "konumsal_duzen"
+      "flag_mechanism": "konumsal_duzen",
+      "revision": {
+        "tarih": "2026-08-08",
+        "mekanizma": "konumsal_duzen",
+        "onceki_prompt": "Paragraph F",
+        "ne_degisti": "Eski celdirici i ('A surprising rise in participants' energy') pasajin acikca curuttugu bir iddiaydi; yerine G paragrafinin gercek bulgusu ('The reverse pattern at the second site') kondu, olu iv basligi da H paragrafinin karin acikladigi savina capalandi. F paragrafinin karsisinda artik ayni cerceveden iki rakip var."
+      }
     }
   ]
 }

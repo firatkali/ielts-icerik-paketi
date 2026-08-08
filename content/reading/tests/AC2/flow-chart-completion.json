@@ -130,7 +130,8 @@
       "blind_solvable": true,
       "blind_basis": "guess",
       "flag_reason": "Net bir mekanizma yok: bosluk kucuk ic uydular grubundaki sira numarasini istiyor, bu sayi parcaya bakmadan tahmin edilemeyecek kadar spesifik; dogru sayinin (fourteenth) tutturulmasi buyuk olcude sansa dayaniyor.",
-      "flag_mechanism": "belirsiz"
+      "flag_mechanism": "belirsiz",
+      "review_note": "E5 / 6. calistirma: dokunulmadi. E1'in gerekcesi boslugun istedigi sira numarasinin 'parcaya bakmadan tahmin edilemeyecek kadar spesifik' oldugunu soyluyor - yani gerekce sizintiyi degil sizintinin yoklugunu anlatiyor; blind_basis 'guess'. 4. calistirma ayni akis semasinin 1. kutusundaki hesaplanabilir bosluk sorununu zaten kapatmisti. Duzeltme yapilmadi, E7 yeniden olcmeli."
     },
     {
       "number": 6,

@@ -337,7 +337,7 @@
           },
           {
             "key": "ii",
-            "text": "The stages that make up a night's sleep"
+            "text": "The internal make-up of the daytime naps"
           },
           {
             "key": "iii",
@@ -353,7 +353,7 @@
           },
           {
             "key": "vi",
-            "text": "How the puzzle game changed the scores"
+            "text": "Practical advice for people who rely on naps"
           },
           {
             "key": "vii",
@@ -361,7 +361,7 @@
           },
           {
             "key": "viii",
-            "text": "Why some pairs were harder to learn"
+            "text": "Why some memories need a whole night"
           },
           {
             "key": "ix",
@@ -395,11 +395,17 @@
           "grammar_check": null,
           "explanation": "Paragraph B introduces two different experimental designs set up to test the same question.",
           "difficulty": "medium",
-          "status": "flagged",
-          "blind_solvable": true,
+          "status": "verified",
+          "blind_solvable": null,
           "blind_basis": "logic",
           "flag_reason": "Baslik 'i', secenekler arasinda elemeyle bulunuyor: en yakin celdirici 'vii' (aksamdan sabaha hatirlama) konuca yakin duruyor ama paragraf saat ya da sinama ayrintisi vermiyor, yalniz iki deneyin farkli kisiler/ayni kisiler kurulusunu karsilastiriyor -- bu yuzden yalniz 'i' (ayni soru icin iki tasarim) ana fikri tam karsiliyor.",
-          "flag_mechanism": "konumsal_duzen"
+          "flag_mechanism": "konumsal_duzen",
+          "revision": {
+            "tarih": "2026-08-08",
+            "mekanizma": "konumsal_duzen",
+            "onceki_prompt": "Paragraph B",
+            "ne_degisti": "Baslik listesindeki iki olu harf yeniden yazildi (vi, viii). B paragrafinin rakibi artik iv ('An everyday habit, and an open question'), yani A paragrafinin gercek konusu; anlati sirasindan 'B = tasarim' diye okunmasi engellendi."
+          }
         },
         {
           "number": 12,
@@ -455,11 +461,17 @@
           "grammar_check": null,
           "explanation": "Paragraph E shows that the benefit of sleep depended on the type of material to be remembered: night-time sleep was superior for related pairs, but there was no difference for unrelated pairs.",
           "difficulty": "medium",
-          "status": "flagged",
-          "blind_solvable": true,
+          "status": "verified",
+          "blind_solvable": null,
           "blind_basis": "logic",
           "flag_reason": "Baslik 'ix', en yakin celdirici 'viii' (bazi ciftlerin neden zor ogrenildigi) elenerek bulunuyor: paragraf ogrenme zorlugundan degil, hatirlama kazanciminin malzeme turune gore degismesinden soz ediyor; bu ayrim yalniz 'ix'i (sonucun malzemeye bagli olmasi) dogru birakiyor.",
-          "flag_mechanism": "konumsal_duzen"
+          "flag_mechanism": "konumsal_duzen",
+          "revision": {
+            "tarih": "2026-08-08",
+            "mekanizma": "konumsal_duzen",
+            "onceki_prompt": "Paragraph E",
+            "ne_degisti": "Eski celdirici viii ('Why some pairs were harder to learn') pasajda hic karsiligi olmadigi icin okumadan eleniyordu; yerine G paragrafinin gercek savini tasiyan 'Why some memories need a whole night' kondu. E paragrafinin sonucunu aciklayan bu baslik artik gercek bir rakip."
+          }
         },
         {
           "number": 15,
@@ -477,11 +489,17 @@
           "grammar_check": null,
           "explanation": "Paragraph F states that neither the length of the daytime nap nor the stages it contained showed a significant relationship with the memory gain.",
           "difficulty": "hard",
-          "status": "flagged",
-          "blind_solvable": true,
+          "status": "verified",
+          "blind_solvable": null,
           "blind_basis": "logic",
           "flag_reason": "Baslik 'v', en yakin celdirici 'ii' (gece uykusunu olusturan evreler) elenerek bulunuyor: paragraf evrelerden soz etse de onlari tanitmiyor, tersine bu evrelerin bellek kazancini aciklamadigini soyluyor -- olumsuz bulgu yalniz 'v'i (surenin aciklamadigi sey) dogru birakiyor.",
-          "flag_mechanism": "konumsal_duzen"
+          "flag_mechanism": "konumsal_duzen",
+          "revision": {
+            "tarih": "2026-08-08",
+            "mekanizma": "konumsal_duzen",
+            "onceki_prompt": "Paragraph F",
+            "ne_degisti": "Eski celdirici ii ('The stages that make up a night's sleep') paragrafin tanitmadigi bir konuyu adlandirdigi icin eleniyordu; yerine F paragrafinin ilk cumlesinin gercek icerigi ('The internal make-up of the daytime naps') kondu. Artik F'nin ilk cumlesi ile ana fikri iki ayri basliga karsilik geliyor, secim ancak paragrafin tamami okunarak yapilabiliyor."
+          }
         }
       ]
     }

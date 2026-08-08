@@ -36,7 +36,7 @@
       },
       {
         "key": "vi",
-        "text": "The difficulty of dating buried seeds"
+        "text": "Why the shape of a grain can mislead"
       },
       {
         "key": "vii",
@@ -48,7 +48,7 @@
       },
       {
         "key": "ix",
-        "text": "Storage methods that kept the harvest edible"
+        "text": "Remains better preserved than at comparable sites"
       },
       {
         "key": "x",
@@ -78,11 +78,17 @@
       "grammar_check": null,
       "explanation": "Paragraph B describes how the grains from the excavation look like a complex wheat under the microscope, but their species identity had never been confirmed at the molecular level.",
       "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
+      "status": "verified",
+      "blind_solvable": null,
       "blind_basis": "logic",
       "flag_reason": "Baslik 'iv', en yakin celdirici 'ix' (saklama bicimi) elenerek bulunuyor: paragrafin ilk cumlesi korunmusluktan soz etse de asil konu tanelerin turunun hic dogrulanmamis olmasi; bu ayrim yalniz 'iv'i (kimligi belirsiz kalan bulgular) dogru birakiyor.",
-      "flag_mechanism": "konumsal_duzen"
+      "flag_mechanism": "konumsal_duzen",
+      "revision": {
+        "tarih": "2026-08-08",
+        "mekanizma": "konumsal_duzen",
+        "onceki_prompt": "Paragraph B",
+        "ne_degisti": "Eski celdirici ix ('Storage methods that kept the harvest edible') pasajda hic karsiligi olmadigi icin okumadan eleniyordu; yerine B paragrafinin ilk cumlesinin gercek icerigi ('Remains better preserved than at comparable sites') kondu. Ayrica olu vi basligi C ve H paragraflarindaki 'tane bicimi yaniltir' savina capalandi. B artik iki basligin arasinda."
+      }
     },
     {
       "number": 15,
