@@ -109,11 +109,12 @@
       },
       "explanation": "Paragraph H notes that the pattern of responding to a familiar neighbour with less aggression has been called the 'dear enemy' effect in other species; the answer is therefore 'dear enemy'.",
       "difficulty": "hard",
-      "status": "flagged",
+      "status": "rejected",
       "blind_solvable": true,
       "blind_basis": "general_knowledge",
       "flag_reason": "Cevap 'dear enemy', hayvan davranisi biliminde 'dear enemy effect' (tanidik komsuya karsi dusmanligin azalmasi) adiyla bilinen, literaturde yerlesik bir terim; bu genel bilgiyle bosluk parcaya bakmadan da doldurulabiliyor.",
-      "flag_mechanism": "genel_kultur"
+      "flag_mechanism": "genel_kultur",
+      "reject_reason": "Cevabin kendisi yerlesik bir literatur terimi: 'dear enemy effect' hayvan davranisi yazininin adiyla anilan bir kavramidir ve model uc turda da yazdi (3/3 PUAN). Cumleden tanimi ('reacting with less hostility to an animal that is already known') cikarmak mumkun degil, cunku hangi etkinin sorulduğunu belirleyen tek sey odur; kalan her cerceve ayni unlu terimi cagiriyor. E6 onerisi: H/2'nin gerekce yarisi - tekrarlanan kavgalarin enerji harcamasi ve yaralanma riski."
     }
   ]
 }

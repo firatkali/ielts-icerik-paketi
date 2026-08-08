@@ -13,7 +13,7 @@
   "word_limit": "ONE WORD ONLY",
   "word_bank": null,
   "visual": null,
-  "stem_block": "Testing insight in an Asian elephant\n\nThe set-up\n- Food placed high above the ground, hanging from a (1) ........\n- A stick made of (2) ........ lay beside the animals but was ignored at first\n\nWhat Kandula did\n- First success came in session number (3) ........\n- A tractor (4) ........ served the same purpose once the cube was taken away\n- He recalled where the cube lay after it had been moved out of sight, past a (5) ........ and into a walled passage\n\nWhy earlier tests failed\n- The trunk picks up touch and smell as keenly as a human (6) ........ does",
+  "stem_block": "Testing insight in an Asian elephant\n\nThe set-up\n- Food placed high above the ground, hanging from a (1) ........\n- A stick made of (2) ........ lay beside the animals but was ignored at first\n\nWhat Kandula did\n- First success came in session number (3) ........\n- A large (4) ........ pushed into place served the same purpose once the cube was taken away\n- He recalled where the cube lay after it had been moved out of sight, past a (5) ........ and into a walled passage\n\nWhy earlier tests failed\n- The trunk picks up touch and smell as keenly as a human (6) ........ does",
   "items": [
     {
       "number": 1,
@@ -74,7 +74,7 @@
     },
     {
       "number": 4,
-      "prompt": "A tractor (4) ........ served the same purpose once the cube was taken away",
+      "prompt": "A large (4) ........ pushed into place served the same purpose once the cube was taken away",
       "answer": [
         "tyre"
       ],
@@ -87,13 +87,19 @@
         "paragraph": "D",
         "sentence": 4
       },
-      "explanation": "Paragraph D describes how, once the cube was removed, Kandula used a large tractor tyre as a substitute platform instead; so the answer is 'tyre'.",
+      "explanation": "Paragraph D describes how, once the cube was removed, Kandula pushed a large tractor tyre into use as a substitute platform; so the answer is 'tyre'.",
       "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
+      "status": "verified",
+      "blind_solvable": null,
       "blind_basis": "general_knowledge",
       "flag_reason": "Cevap 'tyre', fil bakimevlerinde/hayvanat bahcelerinde traktor lastiklerinin sik kullanilan bir zenginlestirme/oyuncak nesnesi olmasi yaygin bilgisiyle (fil + traktor lastigi eslesmesi) parcaya bakmadan da tahmin edilebiliyor.",
-      "flag_mechanism": "genel_kultur"
+      "flag_mechanism": "genel_kultur",
+      "revision": {
+        "tarih": "2026-08-08",
+        "mekanizma": "genel_kultur",
+        "onceki_prompt": "A tractor (4) ........ served the same purpose once the cube was taken away",
+        "ne_degisti": "Nottaki 'tractor' sozcugu kaldirildi. Sizinti sorunun ekseninde degil, 'tractor ___' esdiziminde ve fil + traktor lastigi eslesmesinin yaygin bilinmesindeydi; model uc turda da 'tyre' yazdi. Yeni cerceveye ('a large ___ pushed into place') tyre, log, barrel, crate gibi adaylar esit derecede uyuyor, secim yalniz D/4'ten yapilabiliyor. Cevabin kendisi bir dunya bilgisi degil, pasajin siradan bir ayrintisi oldugu icin bu yuva elenmedi."
+      }
     },
     {
       "number": 5,

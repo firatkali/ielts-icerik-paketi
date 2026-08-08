@@ -13,7 +13,7 @@
   "word_limit": "NO MORE THAN TWO WORDS",
   "word_bank": null,
   "visual": null,
-  "stem_block": "A reef that is already living in tomorrow's sea\n\nMaug is what is left of a volcano that fell in on itself, so that three small islands now sit in a ring around a drowned (36) ........ . Molten rock below the seabed feeds openings that pour carbon dioxide straight into the water beside a living reef. A visiting team fixed recording instruments in place, while divers underwater marked fresh growth on the corals with (37) ........ and collected material to be examined later. Their readings show that the water closest to the openings is slightly more acidic than the rest of the reef, and that the seabed there is taken over by (38) ........ instead of healthy coral. A second piece of research found that minute organisms bore into the skeletons far more heavily in this water, speeding up (39) ........ and weakening the reef from the inside. Because these changes resemble what reefs elsewhere may meet before this century ends, the island is now treated as an early (40) ........ .",
+  "stem_block": "A reef that is already living in tomorrow's sea\n\nMaug is what is left of a volcano that fell in on itself, so that three small islands now sit in a ring around a drowned (36) ........ . Molten rock below the seabed feeds openings that pour carbon dioxide straight into the water beside a living reef. A visiting team fixed recording instruments in place, while divers underwater marked fresh growth on the corals with (37) ........ and collected material to be examined later. Their readings show that the water closest to the openings is slightly more acidic than the rest of the reef, and that the seabed there is taken over by (38) ........ instead of healthy coral. A second piece of research found that minute organisms bore into the skeletons far more heavily in this water, speeding up (39) ........ and weakening the reef from the inside. Because these changes resemble what reefs elsewhere may meet before this century ends, the island is now studied as a (40) ........ for the rest of the ocean.",
   "items": [
     {
       "number": 36,
@@ -31,11 +31,12 @@
       },
       "explanation": "Paragraph B says that three small islands are arranged in a circle around a flooded caldera; the answer is therefore 'caldera'.",
       "difficulty": "easy",
-      "status": "flagged",
+      "status": "rejected",
       "blind_solvable": true,
       "blind_basis": "general_knowledge",
       "flag_reason": "Cevap 'caldera', bir yanardagin cokmesiyle olusan halka bicimli cokuntu icin kullanilan yerlesik jeoloji terimi; sorunun kendisi zaten bu tanimi ('volcano that fell in on itself') verdigi icin terim genel bilgiyle parcaya bakmadan da tahmin edilebiliyor.",
-      "flag_mechanism": "genel_kultur"
+      "flag_mechanism": "genel_kultur",
+      "reject_reason": "Cevabin kendisi yerlesik bir jeoloji terimi: cokmus bir yanardagin halka bicimli cukuru 'caldera' diye anilir ve ozetin kendisi bu tanimi ('a volcano that fell in on itself ... three small islands in a ring') veriyor; model uc turda da yazdi (3/3 PUAN). Tanimi cikarmak boslugu yanitlanamaz yapar, birakmak terimi verir. E6 onerisi: B/2'nin oteki ayrintisi - uc adanin sayisi ya da adalarin dizilisi yerine yanardagin cokme zamani."
     },
     {
       "number": 37,
@@ -58,7 +59,8 @@
       "blind_solvable_kelime_duzeyi": false,
       "blind_basis": "logic",
       "flag_reason": "Parça gösterilmeden anlamca 3/3 turda doğru bilindi: farklı kelimeyle ama doğru kavramla cevaplandı ('dye / stains / dye' verdi; boyama maddesi olarak stain ile dye aynı şeyi adlandırıyor).",
-      "flag_mechanism": "esdizim_kilidi"
+      "flag_mechanism": "esdizim_kilidi",
+      "review_note": "E5 / 8. calistirma: dokunulmadi. Model dye / stains / dye verdi, yani 3 turun 2'sinde puan alirdi. Bas ad cumlenin anlamsal rolunce zorunlu: 'yeni buyumeyi ___ ile isaretlediler' cercevesinde bir isaretleme maddesi okunur ve D/2'de o maddenin adi zaten tek. Cerceveyi gevsetmek boslugu tags/markers gibi pasajda bulunmayan adaylara acar, yani soruyu yanitlanamaz yapar. 🔴 E7 ayrica olcmeli."
     },
     {
       "number": 38,
@@ -77,11 +79,12 @@
       },
       "explanation": "Paragraph F says that weedy algae dominate the seafloor immediately around the vents, while reefs a short distance away remain healthier; the answer is therefore 'weedy algae'.",
       "difficulty": "medium",
-      "status": "flagged",
+      "status": "rejected",
       "blind_solvable": true,
       "blind_basis": "general_knowledge",
       "flag_reason": "Cevap 'weedy algae', asitlenen sularda saglikli mercanin yerini yosunun almasinin iklim/okyanus bilimi haberciliginde sikca tekrarlanan bilinen bir oruntu olmasi sayesinde parcaya bakmadan da tahmin edilebiliyor.",
-      "flag_mechanism": "genel_kultur"
+      "flag_mechanism": "genel_kultur",
+      "reject_reason": "Cevap iki yonden sizdiriyor: asitlenen suda saglikli mercanin yerini yosunun almasi iklim habercilerinin en cok tekrarladigi oruntudur ve kabul listesi 'algae' sozcugunu tek basina kabul ediyor; model uc turda da 'algae' yazdi (3/3 PUAN). Niteleyiciyi ('weedy') zorunlu kilmak icin kabul listesini daraltmak gerekir, o da korunan bir alan. E6 onerisi: F/2'nin karsilastirma yarisi - bacalardan biraz uzaktaki mercanin gorunur bicimde saglikli kalmasi."
     },
     {
       "number": 39,
@@ -99,15 +102,16 @@
       },
       "explanation": "Paragraph G names the process accelerated by microscopic organisms boring into the skeleton from within as 'bioerosion'; the answer is therefore 'bioerosion'.",
       "difficulty": "hard",
-      "status": "flagged",
+      "status": "rejected",
       "blind_solvable": true,
       "blind_basis": "general_knowledge",
       "flag_reason": "Cevap 'bioerosion', canlilarin oydugu bicimde iskeleti icten zayiflatan surec icin deniz biyolojisinde kullanilan yerlesik terim; cumledeki tanimin kendisi ('mikroskobik canlilarin iskeleti icten deldigi') bu terimi genel bilgiyle cagristirdigi icin parcaya bakmadan da tahmin edilebiliyor.",
-      "flag_mechanism": "genel_kultur"
+      "flag_mechanism": "genel_kultur",
+      "reject_reason": "Cevabin kendisi yerlesik bir deniz biyolojisi terimi ve ozet onun tanimini veriyor: 'minute organisms bore into the skeletons ... weakening the reef from the inside' zaten bioerosion'un sozluk karsiligidir; model uc turda da yazdi (3/3 PUAN). Tanimi cikarinca bosluk yanitlanamaz hale geliyor. E6 onerisi: G/2'nin nicel yarisi - oyucu canlilarin bu suda ne kadar daha yogun yerlestigi."
     },
     {
       "number": 40,
-      "prompt": "Because these changes resemble what reefs elsewhere may meet before this century ends, the island is now treated as an early (40) ........ .",
+      "prompt": "Because these changes resemble what reefs elsewhere may meet before this century ends, the island is now studied as a (40) ........ for the rest of the ocean.",
       "answer": [
         "warning system"
       ],
@@ -119,14 +123,20 @@
         "paragraph": "H",
         "sentence": 2
       },
-      "explanation": "Paragraph H says that scientists regard the island less as a curiosity than as an early warning system; the answer is therefore 'warning system'.",
+      "explanation": "Paragraph H says that scientists regard the island as an early warning system, showing in the present what a warmer, more acidic ocean could look like elsewhere; the answer is therefore 'warning system'.",
       "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
+      "status": "verified",
+      "blind_solvable": null,
       "blind_solvable_kelime_duzeyi": false,
       "blind_basis": "logic",
       "flag_reason": "Parça gösterilmeden anlamca 3/3 turda doğru bilindi: farklı kelimeyle ama doğru kavramla cevaplandı (3 turda da 'warning' verdi, gerçek cevap 'warning system' — 'early warning' aynı göndergenin yerleşik kalıbı).",
-      "flag_mechanism": "esdizim_kilidi"
+      "flag_mechanism": "esdizim_kilidi",
+      "revision": {
+        "tarih": "2026-08-08",
+        "mekanizma": "esdizim_kilidi",
+        "onceki_prompt": "Because these changes resemble what reefs elsewhere may meet before this century ends, the island is now treated as an early (40) ........ .",
+        "ne_degisti": "'an early ___' kalibi kaldirildi: 'early warning system' kaliplasmis bir obek oldugu icin 'early' sozcugu boslugun bas adini tek basina veriyordu (model uc turda da 'warning' yazdi). Yeni cerceveye warning system, test case, preview, model gibi birden cok aday uyuyor; secim H/2'den yapiliyor. Kanit cumlesinin 'less as a curiosity than as' kalibi bilincli olarak yankilanmadi."
+      }
     }
   ]
 }

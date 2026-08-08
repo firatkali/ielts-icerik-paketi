@@ -31,11 +31,12 @@
       },
       "explanation": "Paragraph B says the usual method is comparing ground displacement before and after an earthquake, and this requires being able to see the bedrock; so the answer is 'displacement'.",
       "difficulty": "medium",
-      "status": "flagged",
+      "status": "rejected",
       "blind_solvable": true,
       "blind_basis": "general_knowledge",
       "flag_reason": "Cevap 'displacement', deprem izlemede kullanilan standart terimin 'yer degisimi' (ground displacement) olmasi yaygin sismoloji bilgisiyle parcaya bakmadan da tahmin edilebiliyor.",
-      "flag_mechanism": "genel_kultur"
+      "flag_mechanism": "genel_kultur",
+      "reject_reason": "Cevabin kendisi yerlesik bir sismoloji terimi ve cumle onun tanimini veriyor: 'tracks the ___ of the ground before and after a quake' zaten ground displacement'in tanimidir; model uc turda da yazdi (3/3 PUAN). ONE WORD ONLY sinirinda bu tanimi tasimayan bir cerceve kurulamiyor. E6 onerisi: B/2'nin gerekce yarisi - yontemin buzul altindaki ana kayayi gorebilmeyi gerektirmesi."
     },
     {
       "number": 20,
@@ -81,11 +82,12 @@
       },
       "explanation": "Paragraph F says that a tributary glacier near Mount King George entered a fast 'surge' phase in November, weeks before the earthquake; so the answer is 'surge'.",
       "difficulty": "hard",
-      "status": "flagged",
+      "status": "rejected",
       "blind_solvable": true,
       "blind_basis": "general_knowledge",
       "flag_reason": "Cevap 'surge', buzulbiliminde hizli ilerleme donemleri icin kullanilan yerlesik terim olan 'surge' (ani ilerleme) ile taniniyor; bu genel bilgiyle bosluk parcaya bakmadan da doldurulabiliyor.",
-      "flag_mechanism": "genel_kultur"
+      "flag_mechanism": "genel_kultur",
+      "reject_reason": "Cevabin kendisi yerlesik bir buzulbilim terimi ve cumle onun tanimini veriyor: gunde 50 fit ilerleyen bir buzulun 'rapid ___ phase'i surge disinda adlandirilmiyor; model uc turda da yazdi (3/3 PUAN). Hizi cikarmak boslugu belirsizlestiriyor, birakmak terimi veriyor. E6 onerisi: F/1'in tarih yarisi - depremden haftalar once, kasim ayinda baslamis olmasi."
     },
     {
       "number": 22,

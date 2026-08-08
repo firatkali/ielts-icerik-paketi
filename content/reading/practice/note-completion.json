@@ -33,11 +33,12 @@
       },
       "explanation": "Paragraph A says the company's roughly 900 employees are spread across all 47 of Japan's prefectures and 23 other countries; so the answer is '47'.",
       "difficulty": "easy",
-      "status": "flagged",
+      "status": "rejected",
       "blind_solvable": true,
       "blind_basis": "general_knowledge",
       "flag_reason": "Cevap '47', Japonya'nin idari olarak 47 ile bolunmus olmasinin dunyaca bilinen bir cografya gercegi olmasi sayesinde parcaya bakmadan da tahmin edilebiliyor; bosluk zaten 'Japonya'nin ... illeri' kalibini veriyor, akla gelen tek yaygin sayi 47.",
-      "flag_mechanism": "genel_kultur"
+      "flag_mechanism": "genel_kultur",
+      "reject_reason": "Cevabin kendisi bir dunya bilgisi: Japonya'nin 47 ile bolunmus olmasi cografya ders kitabi duzeyinde bilinir ve model parcasiz uc turda da '47' yazdi (3/3 PUAN alirdi). Nottan 'Japan's' kaldirilsa bile 'prefecture' sozcugu tek basina Japonya'yi adlandiriyor, yani cerceve duzeltmesi yariya kaliyor. E6 onerisi: ayni cumledeki calisan sayisi (yaklasik 900) ya da '23 other countries' yerine Mart 2025 tarihi."
     },
     {
       "number": 2,
@@ -235,11 +236,12 @@
       },
       "explanation": "Paragraph A says pyroclastic flows can reach temperatures of around 500 degrees Celsius; so the answer is '500'.",
       "difficulty": "easy",
-      "status": "flagged",
+      "status": "rejected",
       "blind_solvable": true,
       "blind_basis": "general_knowledge",
       "flag_reason": "Cevap '500', piroklastik akintilarin sicakliginin yuzlerce dereceye ulastigi yaygin volkanoloji bilgisiyle (sikca '500 derece civari' olarak anilir) parcaya bakmadan da tahmin edilebiliyor.",
-      "flag_mechanism": "genel_kultur"
+      "flag_mechanism": "genel_kultur",
+      "reject_reason": "Cevabin kendisi bir dunya bilgisi: piroklastik akintilarin yaklasik 500 santigrat dereceye ulastigi volkanoloji anlatilarinin standart rakami; model uc turda da '500' yazdi (3/3 PUAN). Not satirinin kendisi zaten bu genel gercegin ifadesi, dolayisiyla yeniden yazmak sizintiyi kapatmiyor. E6 onerisi: A paragrafinin Herculaneum'a olan uzakligi ya da Pompeii ile Herculaneum'un farkli gomulme bicimi."
     },
     {
       "number": 11,

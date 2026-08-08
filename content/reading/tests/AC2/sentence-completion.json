@@ -75,11 +75,12 @@
       },
       "explanation": "Paragraph E names the genetic segment found only in six-chromosome-set (hexaploid) wheat as the 'D genome'; so the answer is 'D genome'.",
       "difficulty": "hard",
-      "status": "flagged",
+      "status": "rejected",
       "blind_solvable": true,
       "blind_basis": "general_knowledge",
       "flag_reason": "Cevap 'D genome', alti kromozomlu (hexaploid) bugdaya ozgu genetik bolgenin bugday genetiginde yerlesik adi olan 'D genome' terimiyle bilinmesi sayesinde parcaya bakmadan da tahmin edilebiliyor.",
-      "flag_mechanism": "genel_kultur"
+      "flag_mechanism": "genel_kultur",
+      "reject_reason": "Cevabin kendisi yerlesik bir bugday genetigi terimi ve cumle onun tanimini veriyor: 'alti kromozomlu bugdaya ozgu genetik bolge' zaten D genome'un tanimidir; model uc turda da yazdi (3/3 PUAN). Tanim cikarilirsa hangi dizinin soruldugu belirsizlesir. Ayrica 3. calistirma ayni pasajda hexaploid terimini tasiyan practice-6'yi da ayni gerekceyle elemisti. E6 onerisi: E/3'un sayisal yarisi - toplam otuz iki DNA dizisi."
     },
     {
       "number": 22,
@@ -98,11 +99,12 @@
       },
       "explanation": "Paragraph G says that the region of Karacadağ in southern Turkey is generally credited as the birthplace of einkorn cultivation; so the answer is 'Karacadağ'.",
       "difficulty": "medium",
-      "status": "flagged",
+      "status": "rejected",
       "blind_solvable": true,
       "blind_basis": "general_knowledge",
       "flag_reason": "Cevap 'Karacadag', einkorn bugdayinin ekiminin dogdugu yer olarak arkeolojide anilan, guney Turkiye'deki bilinen bir bolge adi; bu genel bilgiyle bosluk parcaya bakmadan da doldurulabiliyor.",
-      "flag_mechanism": "genel_kultur"
+      "flag_mechanism": "genel_kultur",
+      "reject_reason": "Cevabin kendisi bir ozel ad ve arkeoloji ders kitabi bilgisi: einkorn ekiminin dogdugu yer olarak Karacadag anilir; model uc turda da yazdi (3/3 PUAN). 3. calistirma ayni pasajda ayni ekseni tasiyan AC2-24 ve AC2-25'i zaten elemisti, dolayisiyla bu yuva o kararin devami. 🔴 E6 dikkat: G/2 artik bu testte ucuncu kez elenen bir yuvanin kanit cumlesi; bu cumleye yeni soru yazilmamali. E6 onerisi: G paragrafinin yayilma anlatisi yerine E/3'teki korunma karsilastirmasi."
     }
   ]
 }

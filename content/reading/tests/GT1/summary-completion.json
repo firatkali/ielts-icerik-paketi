@@ -13,11 +13,11 @@
   "word_limit": "ONE WORD ONLY",
   "word_bank": null,
   "visual": null,
-  "stem_block": "What was thrown out, and why\n\nCereals, and rice above all, made up the largest slice of the edible waste, with vegetables not far behind, while the biggest inedible category by some way was (37) ........ from fruit and vegetables, chiefly the skins of bananas and mangoes. Drinks added a little more: modest quantities of coffee and tea went down the sink, usually because more had been brewed than anyone meant to finish. Asked to account for their losses, families in the two districts said much the same things — food going mouldy, a change in the feel of meat or fish, and bread that keeps for too short a time. Dairy items, meanwhile, were regularly overlooked at the back of the (38) ........ and only thrown out once it was too late. Country households still wasted far less, since leftovers there were more often turned into compost or given to animals; town households leaned instead towards (39) ........ and bought more than they required. For the authors, the lesson is that policy has so far dealt with collecting and disposing of waste; real (40) ........ , they argue, will depend on campaigns that name the particular foods concerned.",
+  "stem_block": "What was thrown out, and why\n\nCereals, and rice above all, made up the largest slice of the edible waste, with vegetables not far behind, while the biggest inedible category by some way was (37) ........ from fruit and vegetables, above all from bananas and mangoes. Drinks added a little more: modest quantities of coffee and tea went down the sink, usually because more had been brewed than anyone meant to finish. Asked to account for their losses, families in the two districts said much the same things — food going mouldy, a change in the feel of meat or fish, and bread that keeps for too short a time. Dairy items, meanwhile, were regularly overlooked at the back of the (38) ........ and only thrown out once it was too late. Country households still wasted far less, since leftovers there were more often turned into compost or given to animals; town households leaned instead towards (39) ........ and bought more than they required. For the authors, the lesson is that policy has so far dealt with collecting and disposing of waste; real (40) ........ , they argue, will depend on campaigns that name the particular foods concerned.",
   "items": [
     {
       "number": 37,
-      "prompt": "The biggest inedible category by some way was (37) ........ from fruit and vegetables, chiefly the skins of bananas and mangoes.",
+      "prompt": "The biggest inedible category by some way was (37) ........ from fruit and vegetables, above all from bananas and mangoes.",
       "answer": [
         "peelings"
       ],
@@ -31,12 +31,18 @@
       },
       "explanation": "Paragraph E says that among inedible waste, fruit and vegetable peelings, led by banana and mango skins, made up the largest share; so the answer is 'peelings'.",
       "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
+      "status": "verified",
+      "blind_solvable": null,
       "blind_solvable_kelime_duzeyi": false,
       "blind_basis": "logic",
       "flag_reason": "Parça gösterilmeden anlamca 3/3 turda doğru bilindi: farklı kelimeyle ama doğru kavramla cevaplandı (3 turda da 'peel' verdi, gerçek cevap 'peelings' — aynı kelimenin başka biçimi).",
-      "flag_mechanism": "esdizim_kilidi"
+      "flag_mechanism": "esdizim_kilidi",
+      "revision": {
+        "tarih": "2026-08-08",
+        "mekanizma": "tanim_sizintisi",
+        "onceki_prompt": "The biggest inedible category by some way was (37) ........ from fruit and vegetables, chiefly the skins of bananas and mangoes.",
+        "ne_degisti": "Ozetteki 'chiefly the skins of bananas and mangoes' ibaresindeki 'skins' sozcugu kaldirildi; bu sozcuk boslugun karsiligini es anlamlisiyla yaziyordu ve model uc turda da 'peel' verdi. Meyve adlari korundu, cunku onlar E/3'un ayirt edici ayrintisi; kaldirilan tek sey cevabin sozluk karsiligi."
+      }
     },
     {
       "number": 38,
@@ -59,7 +65,8 @@
       "blind_solvable_kelime_duzeyi": false,
       "blind_basis": "logic",
       "flag_reason": "Parça gösterilmeden anlamca 3/3 turda doğru bilindi: farklı kelimeyle ama doğru kavramla cevaplandı (3 turda da 'fridge' verdi, gerçek cevap 'refrigerator' — aynı nesnenin günlük dildeki adı).",
-      "flag_mechanism": "esdizim_kilidi"
+      "flag_mechanism": "esdizim_kilidi",
+      "review_note": "E5 / 8. calistirma: dokunulmadi. Model uc turda da 'fridge' verdi; kabul listesi yalniz 'refrigerator' kabul ettigi icin 3 turun 0'inda puan alirdi. Sorunun gercek kusuru sizinti degil kabul listesinin darligi: ONE WORD ONLY sinirinda 'fridge' pasajin dunyasinda dogru bir cevaptir ama anahtar reddediyor. Kabul listesi korunan alan oldugu icin bu calistirmada duzeltilemiyor. 🔴 E6/E7 bu yuvada anahtarin 'fridge'i de kabul etmesi gerekip gerekmedigine karar vermeli."
     },
     {
       "number": 39,

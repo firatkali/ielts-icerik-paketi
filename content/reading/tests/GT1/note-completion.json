@@ -144,11 +144,12 @@
       },
       "explanation": "Paragraph A of Text B says that full-time employees are entitled to 28 days of paid leave a year, including public holidays; so the answer is '28 days'.",
       "difficulty": "easy",
-      "status": "flagged",
+      "status": "rejected",
       "blind_solvable": true,
       "blind_basis": "general_knowledge",
       "flag_reason": "Cevap '28 days', Birlesik Krallik'ta tam zamanli calisanlar icin yasal asgari yillik izin hakkinin (resmi tatiller dahil) 28 gun olmasi bilinen bir is hukuku gercegi; bu genel bilgiyle bosluk parcaya bakmadan da doldurulabiliyor.",
-      "flag_mechanism": "genel_kultur"
+      "flag_mechanism": "genel_kultur",
+      "reject_reason": "Cevabin kendisi hukukla sabitlenmis bir sayi: Birlesik Krallik'ta tam zamanli calisanin yasal asgari yillik izni resmi tatiller dahil 28 gundur ve not satiri bu kosulun ikisini de ('full time', 'public holidays counted inside that total') veriyor; model uc turda da '28 days' yazdi (3/3 PUAN). Kosullari cikarmak sayiyi bulunamaz yapar. E6 onerisi: B metni A/1 yerine izin talebinin iki hafta onceden yapilmasi kurali - ama o yuva 20'de dolu oldugu icin baska bir paragraf secilmeli."
     },
     {
       "number": 20,

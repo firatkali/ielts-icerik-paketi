@@ -99,11 +99,12 @@
       },
       "explanation": "Paragraph F says that Voyager 2 flew past Uranus on 24 January 1986; since the question asks for the date of this close approach, the answer is '24 January 1986'.",
       "difficulty": "easy",
-      "status": "flagged",
+      "status": "rejected",
       "blind_solvable": true,
       "blind_basis": "general_knowledge",
       "flag_reason": "Cevap '24 January 1986', Voyager 2'nin Uranus'e en yakin gecisinin tarihi olarak halka acik NASA misyon kayitlarinda yer alan bilinen bir tarih; parcaya bakmadan da bu genel bilgiyle hatirlanabiliyor.",
-      "flag_mechanism": "genel_kultur"
+      "flag_mechanism": "genel_kultur",
+      "reject_reason": "Cevabin kendisi bir dunya bilgisi: Voyager 2'nin Uranus'e en yakin gecis tarihi (24 Ocak 1986) halka acik NASA kayitlarindan bilinen unlu bir tarih; model uc turda da gun/ay/yil dogru yazdi (3/3 PUAN). Soru kokunun tamami zaten 'o tarih neydi' sorusudur, yani eksen dunya bilgisinin kendisi. E6 onerisi: F/2'nin ikinci yarisi - Voyager'in cektigi yakin goruntulerin bugun hala tek ornek olmasi, ya da bu uydunun o gecise hic yakalanmamis olmasi."
     },
     {
       "number": 5,
@@ -194,11 +195,12 @@
       },
       "explanation": "Paragraph D identifies Mount Logan as Canada's tallest peak and says that landslide scars were visible around this mountain; the answer is therefore 'Mount Logan'.",
       "difficulty": "medium",
-      "status": "flagged",
+      "status": "rejected",
       "blind_solvable": true,
       "blind_basis": "general_knowledge",
       "flag_reason": "Cevap 'Mount Logan', Kanada'nin en yuksek zirvesi olarak bilinen bir cografya gercegi; soru zaten 'Kanada'daki en yuksek zirve' diye sordugu icin parcaya bakmadan da bilinebiliyor.",
-      "flag_mechanism": "genel_kultur"
+      "flag_mechanism": "genel_kultur",
+      "reject_reason": "Cevabin kendisi bir dunya bilgisi ve soru kokunun tamami onu soruyor: 'Kanada'nin en yuksek zirvesi' sorusunun cevabi Mount Logan'dir ve model uc turda da yazdi (3/3 PUAN). Kokten 'highest in Canada' ibaresini cikarmak soruyu duzeltmez, baska bir soru yazmak olur - talimatin yarim duzeltme saydigi sey budur. E6 onerisi: D/1'in oteki yarisi - Mount King George'un yamacindaki genis enkaz akmasi ya da uydu goruntusuyle yer arastirmasinin ortusmesi."
     },
     {
       "number": 9,

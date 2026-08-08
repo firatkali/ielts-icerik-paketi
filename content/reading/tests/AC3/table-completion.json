@@ -148,7 +148,7 @@
     },
     {
       "number": 6,
-      "prompt": "Both responsive animals — What they saw: Each of them studied the reflection with the (6) ........ , hinting that one side of the brain deals with this task.",
+      "prompt": "Both responsive animals — What they saw: Each of them studied the reflection with the (6) ........ .",
       "answer": [
         "right eye"
       ],
@@ -160,13 +160,19 @@
         "paragraph": "F",
         "sentence": 3
       },
-      "explanation": "Paragraph F says that both whales preferred to view the mirror with their right eye, pointing to lateralised processing in the brain; the answer is therefore 'right eye'.",
+      "explanation": "Paragraph F says that both whales preferred to view the mirror with their right eye; the answer is therefore 'right eye'.",
       "difficulty": "hard",
-      "status": "flagged",
-      "blind_solvable": true,
+      "status": "verified",
+      "blind_solvable": null,
       "blind_basis": "general_knowledge",
       "flag_reason": "Cevap 'right eye', hayvan davranisi arastirmalarinda sosyal/gorsel uyaranlarin islenmesinde sikca sag goz tercihinin (sol beyin yarikuresi baskinligi) bildirilmesi bilinen bir oruntu; bu genel bilgiyle bosluk parcaya bakmadan da tahmin edilebiliyor.",
-      "flag_mechanism": "genel_kultur"
+      "flag_mechanism": "genel_kultur",
+      "revision": {
+        "tarih": "2026-08-08",
+        "mekanizma": "genel_kultur",
+        "onceki_prompt": "Both responsive animals — What they saw: Each of them studied the reflection with the (6) ........ , hinting that one side of the brain deals with this task.",
+        "ne_degisti": "Hucrenin sonundaki 'hinting that one side of the brain deals with this task' ibaresi kaldirildi. Yanallasma (lateralisation) cagrisimi, hayvan davranisinda sikca bildirilen sag goz tercihini dogrudan hatirlatiyordu. Ibare gidince hucreye 'the same eye' de en az 'right eye' kadar uyuyor - ustelik 'Both / Each of them' vurgusu sezgiyi oraya cekiyor. KISMI duzeltme: geriye sag/sol ikilisinde zayif bir sag onyargisi kaliyor, E7 ayrica olcmeli."
+      }
     }
   ]
 }

@@ -1,554 +1,785 @@
 {
-  "elenen": [
-    {
-      "dosya": "content/reading/practice/yes-no-not-given.json",
-      "numara": 2,
-      "tip": "yes_no_not_given",
-      "pasaj": "A06",
-      "kacinilacak": {
-        "kanit_cumlesi": "What made the study unusually rigorous was a quirk of company policy: new hires were placed into teams using a simple round-robin system based purely on the order in which they joined, a process neither managers nor employees could influence.",
-        "ifade": "The firm's way of assigning new staff to teams gave the research unusual scientific strength."
-      },
-      "neden_elendi": "Sorunun ekseni genel arastirma yontemi bilgisi: yeni calisanlarin sira ya da rastgele usulle takimlara dagitilmasinin nedensellik cikarimini guclendirdigi, pasajdan bagimsiz olarak bilinen bir metodoloji kurali. Kip dengelemesi ya da konum degisikligi bunu kapatmaz; ifade nasil yazilirsa yazilsin cevap yontem bilgisinden cikar."
-    },
-    {
-      "dosya": "content/reading/practice/yes-no-not-given.json",
-      "numara": 4,
-      "tip": "yes_no_not_given",
-      "pasaj": "A06",
-      "kacinilacak": {
-        "kanit_cumlesi": "Experienced colleagues, by contrast, seem able to give newcomers efficient, targeted guidance precisely when it is needed, a benefit that requires no visible display of productivity and, the study suggests, works better with less routine interruption rather than more.",
-        "ifade": "Longer-serving colleagues can offer newcomers precisely aimed support at the moments they need it."
-      },
-      "neden_elendi": "Sorunun ekseni genel is yasami bilgisi: deneyimli calisanlarin yeni gelenlere ihtiyac aninda hedefli rehberlik verebildigi, isyeri mentorlugu uzerine yaygin kabul goren bir onerme. Ifadenin kipi olculu ya da kesin yazilsa da cevap pasaja bakilmadan cikarilabiliyor."
-    },
-    {
-      "dosya": "content/reading/practice/yes-no-not-given.json",
-      "numara": 5,
-      "tip": "yes_no_not_given",
-      "pasaj": "A10",
-      "kacinilacak": {
-        "kanit_cumlesi": "Few questions in modern office design generate as much disagreement as whether open-plan layouts help or harm the people who work in them.",
-        "ifade": "Opinion is sharply divided over whether open-plan workplaces do their occupants good or harm."
-      },
-      "neden_elendi": "Sorunun ekseni genel kultur: acik plan ofislerin yararli mi zararli mi oldugunun tartismali olmasi, populer is yasami soyleminin bilinen bir gercegi. Tartismanin varligini soran her ifade, kipi ne olursa olsun, parcaya bakilmadan dogrulanabilir."
-    },
-    {
-      "dosya": "content/reading/practice/yes-no-not-given.json",
-      "numara": 9,
-      "tip": "yes_no_not_given",
-      "pasaj": "A11",
-      "kacinilacak": {
-        "kanit_cumlesi": "It is now widely accepted that spending time in natural surroundings can reduce stress and improve mood, an effect researchers often describe as psychological restoration.",
-        "ifade": "That natural surroundings can ease stress is now a widely shared view."
-      },
-      "neden_elendi": "Sorunun ekseni genel kultur: dogada vakit gecirmenin stresi azalttigi gorusunun yaygin kabul gordugu, pasajdan once bilinen bir sey. Ifade zaten 'yaygin kabul' iddiasinin kendisini sordugu icin dogrulanmasi pasaja hic bagli degil."
-    },
-    {
-      "dosya": "content/reading/practice/yes-no-not-given.json",
-      "numara": 12,
-      "tip": "yes_no_not_given",
-      "pasaj": "A11",
-      "kacinilacak": {
-        "kanit_cumlesi": "As a pilot study, its conclusions should be treated as an initial signal rather than a settled finding, but they nonetheless indicate that the calming effect of a forest is not simply switched off by the absence of green leaves and the presence of snow and near-freezing temperatures.",
-        "ifade": "A forest keeps its calming power even under snow and near-freezing cold."
-      },
-      "neden_elendi": "Sorunun ekseni cift katmanli genel bilgi: hem 'doganin sakinlestirici etkisi kisin da surer' sonucu sezgisel, hem de pilot calisma haberlerinin olagan olumlu sonuc kalibi ayni yone isaret ediyor. Kip dengelemesi bu iki katmanin ikisini de kapatmiyor."
-    },
-    {
-      "dosya": "content/reading/practice/yes-no-not-given.json",
-      "numara": 15,
-      "tip": "yes_no_not_given",
-      "pasaj": "A12",
-      "kacinilacak": {
-        "kanit_cumlesi": "However, the findings caution against assuming that a nap can substitute for a night's sleep when the task involves integrating new material with things already known, since that particular kind of consolidation seems to depend on the longer, more complex architecture of nocturnal sleep.",
-        "ifade": "A nap serves as well as a night of sleep for tying new material to existing knowledge."
-      },
-      "neden_elendi": "Sorunun ekseni genel uyku bilimi bilgisi: kisa bir sekerlemenin tam bir gece uykusunun yerini tutamayacagi populerlesmis bir bulgu. Ifadeyi olculu yazmak cevabi degistirmez; okur ifadenin kipinden bagimsiz olarak zaten NO bekler."
-    },
-    {
-      "dosya": "content/reading/tests/GT1/yes-no-not-given.json",
-      "numara": 33,
-      "tip": "yes_no_not_given",
-      "pasaj": "G05",
-      "kacinilacak": {
-        "kanit_cumlesi": "Rather than relying on households to estimate their own waste, which tends to produce unreliable figures, the research team physically collected, sorted and weighed the solid food waste from each home's rubbish over eight consecutive days, using digital scales accurate to two grams.",
-        "ifade": "Waste figures based on households' own estimates tend to be inaccurate."
-      },
-      "neden_elendi": "Sorunun ekseni genel arastirma yontemi bilgisi: oz-bildirime dayali tahminlerin dogrudan olcumden daha guvenilmez oldugu, pasajdan bagimsiz bilinen bir kural. Ifadedeki 'tend to' kipi kaldirilsa bile cevap ayni yerden cikar."
-    },
-    {
-      "dosya": "content/reading/tests/GT1/yes-no-not-given.json",
-      "numara": 34,
-      "tip": "yes_no_not_given",
-      "pasaj": "G05",
-      "kacinilacak": {
-        "kanit_cumlesi": "Just over a third of this, about 29 kilograms, was still perfectly edible when discarded; the remaining 48 kilograms consisted of inedible parts such as fruit peels, bones and eggshells that are a normal by-product of cooking rather than genuine waste.",
-        "ifade": "Fruit peelings and bones discarded during cooking should be counted as genuine food waste."
-      },
-      "neden_elendi": "Sorunun ekseni genel kultur: gida israfi tartismasinda kabuk, kemik ve yumurta kabugunun 'yenmeyen / onlenemez' kategoride sayilmasi yerlesik bir siniflandirma. Ifade normatif bicimden ('should be counted') cikarilsa bile cevap bu yerlesik ayrimdan okunuyor."
-    },
-    {
-      "dosya": "content/reading/tests/GT2/yes-no-not-given.json",
-      "numara": 34,
-      "tip": "yes_no_not_given",
-      "pasaj": "G06",
-      "kacinilacak": {
-        "kanit_cumlesi": "Self-rated health might seem like a subjective measure, but earlier research has repeatedly shown it to reliably predict future illness and mortality, which is one reason the team chose it as their main outcome.",
-        "ifade": "People's assessments of their own health are a dependable guide to their future health."
-      },
-      "neden_elendi": "Sorunun ekseni genel saglik arastirmasi bilgisi: oz-bildirimli sagligin gelecekteki hastalik ve olumu ongordugu, literaturde cok atif yapilan ve genel kulturlesmis bir bulgu. Soru ekseni bu bilginin kendisi oldugu icin mekanik duzeltmeye uygun degil."
-    },
-    {
-      "dosya": "content/reading/practice/multiple-choice.json",
-      "numara": 1,
-      "tip": "multiple_choice",
-      "pasaj": "A02",
-      "kacinilacak": {
-        "kanit_cumlesi": "The researchers collected sixty octopuses from the Bay of Naples over two summer seasons and formed twenty-four pairs, each matched so that the two animals differed in weight by no more than fifteen per cent.",
-        "soru_koku": "How were the octopuses matched into pairs?"
-      },
-      "neden_elendi": "Sorunun ekseni deney tasarimi genel bilgisi: hayvan deneylerinde deneklerin agirliga gore eslestirilmesi pasajdan bagimsiz bilinen standart bir uygulama. Cinsiyet, toplanma mevsimi ve komsuluk daha az tipik olcutler oldugu icin secenekler nasil yazilirsa yazilsin agirlik en olasi cevap kalir; kip dengelemesi ya da celdirici capalamasi bunu kapatmaz."
-    },
-    {
-      "dosya": "content/reading/practice/multiple-choice.json",
-      "numara": 6,
-      "tip": "multiple_choice",
-      "pasaj": "A05",
-      "kacinilacak": {
-        "kanit_cumlesi": "Some of these seeds looked, under the microscope, as though they belonged to hexaploid wheat, a genetically more complex form carrying six sets of chromosomes rather than the two or four sets typical of the simpler wheats usually associated with the earliest stages of farming.",
-        "soru_koku": "What distinguishes hexaploid wheat from the simpler wheats?"
-      },
-      "neden_elendi": "Sorunun ekseni terimin kendisi: soru kokundeki 'hexaploid' sozcugunun 'hexa-' oneki dogrudan alti kromozom takimini soyluyor, yani sizinti secenek diziliminde degil kokte. Terimi soru kokunden cikarmak kanit cumlesini de degistirmeyi gerektirir; bu, gorev kuralina gore yarim duzeltme sayilir."
-    },
-    {
-      "dosya": "content/reading/practice/multiple-choice.json",
-      "numara": "9-10",
-      "tip": "multiple_choice",
-      "pasaj": "A08",
-      "kacinilacak": {
-        "kanit_cumlesi": "On 6 December 2025 a magnitude 7.0 earthquake struck the St Elias Mountains, a heavily glaciated range straddling the border between the Yukon Territory in Canada and Alaska in the United States. Here, ice more than 700 metres thick in places sits on top of that bedrock.",
-        "soru_koku": "Which TWO things does the writer say about the region struck?"
-      },
-      "neden_elendi": "Sorunun ekseni cografya genel bilgisi: buyuk buzullu siradaglarin bir ulke siniri boyunca uzanmasi ve kalin buzla ortulu olmasi pasaja bakmadan bilinebiliyor. Iki dogru secenek de bolgenin ansiklopedik tanimini tekrarliyor; secenekleri yeniden yazmak bu ekseni degistirmez."
-    },
-    {
-      "dosya": "content/reading/practice/multiple-choice.json",
-      "numara": 11,
-      "tip": "multiple_choice",
-      "pasaj": "A08",
-      "kacinilacak": {
-        "kanit_cumlesi": "By comparing an image captured on 8 December, only two days after the earthquake, with a baseline image from 26 November, before the quake, analysts could see large new patches of brightness spreading across slopes that had previously appeared smooth and dark, a direct signature of freshly broken rock and snow.",
-        "soru_koku": "How did analysts spot the new damage from orbit?"
-      },
-      "neden_elendi": "Sorunun ekseni uzaktan algilama genel bilgisi: uydu goruntusuyle hasar tespitinin oncesi-sonrasi karsilastirmasiyla yapilmasi standart afet izleme yontemi. Kanit cumlesinin kendisi bu standardin anlatimi oldugu icin celdiricileri guclendirmek yetmiyor."
-    },
-    {
-      "dosya": "content/reading/practice/multiple-choice.json",
-      "numara": 13,
-      "tip": "multiple_choice",
-      "pasaj": "A11",
-      "kacinilacak": {
-        "kanit_cumlesi": "Randomly assigning the order in which each group encountered the two conditions also helped guard against the possibility that simply being tested a second time, regardless of environment, might by itself improve participants' reported mood.",
-        "soru_koku": "Why was the order of the two conditions randomised?"
-      },
-      "neden_elendi": "Sorunun ekseni arastirma yontemi kurali: kosul sirasinin rastgelestirilmesinin amaci tekrar test etme (sira/alistirma) etkisini kontrol altina almaktir ve bu, pasajdan bagimsiz olarak ogretilen bir kural. Seceneklerin kipi ya da capasi degistirilse de cevap yontem bilgisinden cikar."
-    },
-    {
-      "dosya": "content/reading/tests/AC1/multiple-choice.json",
-      "numara": 32,
-      "tip": "multiple_choice",
-      "pasaj": "A03",
-      "kacinilacak": {
-        "kanit_cumlesi": "The island's unusual chemistry comes from its geology. Magma still sits beneath the seafloor, and along the inner shoreline of the caldera it drives shallow vents that continuously release carbon dioxide gas directly into the water beside a living coral reef, a combination that is extremely rare anywhere on Earth.",
-        "soru_koku": "Why does the writer describe the island's geology?"
-      },
-      "neden_elendi": "Sorunun ekseni jeoloji genel bilgisi: volkanik adalarda magmanin deniz tabani bacalarindan surekli gaz salmasi bilinen bir olgu, dolayisiyla yazarin jeolojiyi neden anlattigi parcaya bakmadan cikarilabiliyor. Celdiricileri metne capalamak sorunun eksenini degistirmiyor."
-    },
-    {
-      "dosya": "content/reading/tests/AC1/multiple-choice.json",
-      "numara": "34-35",
-      "tip": "multiple_choice",
-      "pasaj": "A03",
-      "kacinilacak": {
-        "kanit_cumlesi": "The carbon dioxide appears to reshape the reef community itself, not just the water's chemistry. A related study of the Maug reef, published separately in the journal PLOS ONE, focused on what happens inside coral skeletons rather than on the seafloor surface.",
-        "soru_koku": "Which TWO aspects of the reef have studies at Maug examined?"
-      },
-      "neden_elendi": "Sorunun ekseni alan bilgisi: okyanus asitlenmesi calismalarinin biri deniz tabani toplulugu, digeri iskeletin ic yapisi olmak uzere iki eksende yurutuldugu genel olarak biliniyor. Yedi secenek arasindan hangilerinin 'calisilmis' oldugunu secmek pasaji degil bu yerlesik kalibi olcuyor."
-    },
-    {
-      "dosya": "content/reading/tests/AC3/multiple-choice.json",
-      "numara": 32,
-      "tip": "multiple_choice",
-      "pasaj": "A09",
-      "kacinilacak": {
-        "kanit_cumlesi": "These flows swept through the streets and buildings so quickly that many residents were killed almost instantly, and over the following days the town was sealed beneath roughly 20 metres of volcanic deposits, a burial so complete that timber roof beams, food, and even fabric survived for centuries in a way rarely seen at other Roman sites.",
-        "soru_koku": "Why does the writer mention timber roof beams, food and fabric?"
-      },
-      "neden_elendi": "Sorunun ekseni arkeoloji genel bilgisi: Herculaneum'un organik malzemeyi -- ahsap, yiyecek, kumas -- olaganustu iyi korumasiyla taninmasi yaygin bir bilgi. Sayilan nesnelerin neden anildigi bu bilgiyle dogrudan biliniyor; secenek dengelemesi bunu kapatmaz."
-    },
-    {
-      "dosya": "content/reading/tests/AC3/multiple-choice.json",
-      "numara": "34-35",
-      "tip": "multiple_choice",
-      "pasaj": "A09",
-      "kacinilacak": {
-        "kanit_cumlesi": "The team detected seven distinct proteins known to be expressed specifically in brain tissue, including one involved in stabilising the internal skeleton of nerve cells and another essential for communication between neurons. By atomic composition the vitrified material was dominated by carbon and oxygen, the two elements that make up the bulk of organic tissue, at roughly 65 and 31 per cent respectively.",
-        "soru_koku": "Which TWO points does the writer make about the material's chemistry?"
-      },
-      "neden_elendi": "Sorunun ekseni temel kimya/biyoloji bilgisi: organik dokunun buyuk kismini karbon ve oksijenin olusturmasi (B) ve beyin dokusunda noronlar arasi iletisimle ilgili bir proteinin bulunmasi (F) beklenen bulgular. Iki dogru secenek de pasaji degil alan bilgisini siniyor."
-    },
-    {
-      "dosya": "content/reading/tests/AC4/multiple-choice.json",
-      "numara": 33,
-      "tip": "multiple_choice",
-      "pasaj": "A12",
-      "kacinilacak": {
-        "kanit_cumlesi": "The sleep group learned a list of word pairs at nine in the evening and were tested on their recall the following morning at nine, after a normal night's sleep. The wake group learned the same material at nine in the morning and were tested twelve hours later, at nine that evening, having remained awake throughout.",
-        "soru_koku": "In the first experiment, how were the two groups alike?"
-      },
-      "neden_elendi": "Sorunun ekseni deney tasarimi kurali: uyku ile uyanikligi karsilastiran adil bir kiyaslamada ogrenme ile sinav arasindaki surenin esit tutulmasi gerektigi pasajdan bagimsiz biliniyor. Secenekler nasil dizilirse dizilsin 'esit sure' cevabi yontem mantigindan cikar."
-    },
-    {
-      "dosya": "content/reading/tests/AC4/multiple-choice.json",
-      "numara": "34-35",
-      "tip": "multiple_choice",
-      "pasaj": "A12",
-      "kacinilacak": {
-        "kanit_cumlesi": "Each learned 40 related and 40 unrelated word pairs at half past one in the afternoon, then either took a 90-minute nap, during which brain activity was recorded using polysomnography, or remained awake for an equivalent period. Naps in the second experiment lasted an average of 64.1 minutes and consisted mainly of Stage 2 sleep, a lighter stage than the deep sleep typically associated with the middle of a full night.",
-        "soru_koku": "Which TWO features of the naps in the second study are reported?"
-      },
-      "neden_elendi": "Sorunun ekseni uyku bilimi genel bilgisi: beyin etkinliginin polisomnografiyle kaydedilmesi (C) ve kisa sekerlemelerin agirlikla hafif 2. evre uykudan olusmasi (E) alan bilgisi olarak biliniyor. Yedi secenek arasindan bu ikisini secmek pasaji okumayi gerektirmiyor."
-    },
-    {
-      "dosya": "content/reading/tests/GT1/multiple-choice.json",
-      "numara": 22,
-      "tip": "multiple_choice",
-      "pasaj": "G03",
-      "kacinilacak": {
-        "kanit_cumlesi": "Both employees remain responsible for meeting their required weekly hours, and swaps that would leave fewer than eleven hours' rest between shifts will not be approved.",
-        "soru_koku": "A shift swap will be turned down if it would"
-      },
-      "neden_elendi": "Sorunun ekseni calisma mevzuati genel bilgisi: iki vardiya arasinda en az on bir saat dinlenme birakilmasi yaygin bilinen bir duzenleme. Secenekler yeniden yazilsa da 'yeterli dinlenme yok' cevabi mevzuat bilgisinden cikar."
-    },
-    {
-      "dosya": "content/reading/tests/GT1/multiple-choice.json",
-      "numara": "23-24",
-      "tip": "multiple_choice",
-      "pasaj": "G03",
-      "kacinilacak": {
-        "kanit_cumlesi": "Overtime must be authorised in advance by a line manager; unauthorised overtime will not be paid. Staff who accumulate more than ten hours of overtime in a single month may choose to take the excess as time off in lieu instead of payment.",
-        "soru_koku": "Which TWO statements about overtime are correct?"
-      },
-      "neden_elendi": "Sorunun ekseni is yeri politikalarinin standart maddeleri: fazla mesainin onceden amir onayi gerektirmesi (B) ve on saati asan kismin izne cevrilebilmesi (E) cok sayida is yerinde gecerli. Yedi secenek arasindan bu ikisini secmek metni degil is hayati bilgisini olcuyor."
-    },
-    {
-      "dosya": "content/reading/tests/GT2/multiple-choice.json",
-      "numara": "23-24",
-      "tip": "multiple_choice",
-      "pasaj": "G04",
-      "kacinilacak": {
-        "kanit_cumlesi": "Be available on instant messaging during core hours. Employees must designate a single working location for remote days and notify the HR team in advance if that location changes for more than two consecutive weeks, for insurance and tax purposes.",
-        "soru_koku": "Which TWO things must remote employees do?"
-      },
-      "neden_elendi": "Sorunun ekseni uzaktan calisma politikalarinin standart maddeleri: cekirdek saatlerde ulasilabilir olmak (B) ve kalici konum degisikligini IK'ya bildirmek (D) bu tur politikalarda neredeyse her zaman bulunur. Secenek dengelemesi bu ekseni degistirmez."
-    },
-    {
-      "dosya": "content/reading/practice/matching-features.json",
-      "numara": 1,
-      "tip": "matching_features",
-      "pasaj": "A10",
-      "kacinilacak": {
-        "kanit_cumlesi": "Noise levels in the open-plan office exceeded recommended safe limits between 20 and 30 per cent more often than in any of the alternative designs.",
-        "ifade": "Readings taken here showed sound going beyond the level regarded as safe more frequently than anywhere else."
-      },
-      "neden_elendi": "Sorunun ekseni ofis kulturu genel bilgisi: acik plan ofisin oteki duzenlerden daha gurultulu oldugu yaygin bir kani, soru da dort duzenden en gurultulusunu soruyor. Ifade nasil yazilirsa yazilsin cevap pasajdan degil bu kanidan cikiyor; kanit cumlesi (F/2) zaten yalniz 'hangisi en gurultuluydu' sorusunu destekliyor, baska bir eksene capalanamiyor."
-    },
-    {
-      "dosya": "content/reading/practice/matching-features.json",
-      "numara": 5,
-      "tip": "matching_features",
-      "pasaj": "A10",
-      "kacinilacak": {
-        "kanit_cumlesi": "Taken together, the researchers concluded that the open-plan office design, so often adopted as a cost-effective default, was rated more poorly by employees than every alternative tested, coincided with higher unsafe noise levels, and was the layout employees seemed least inclined to return to once they had experienced something else.",
-        "ifade": "Once people had tried the alternatives, this was the arrangement they appeared least willing to go back to."
-      },
-      "neden_elendi": "Sorunun ekseni yine acik plan ofis hakkindaki yaygin kani: calisanlarin en az geri donmek istedigi duzenin sade acik ofis olmasi beklenen sonuc. Kanit cumlesi (H/1) uc bulguyu birlikte veren bir ozet cumlesi ve ucu de ayni duzeni gosteriyor, yani ifadeyi baska bir ayrintiya tasimak da mumkun degil."
-    },
-    {
-      "dosya": "content/reading/tests/AC2/matching-features.json",
-      "numara": 24,
-      "tip": "matching_features",
-      "pasaj": "A05",
-      "kacinilacak": {
-        "kanit_cumlesi": "Simple wheat domestication is usually traced to the Fertile Crescent around twelve thousand years ago, with the region of Karacadağ in southern Turkey generally credited as the birthplace of einkorn cultivation specifically.",
-        "ifade": "The beginnings of growing the simpler wheats, some twelve thousand years back, are conventionally placed in this wide area."
-      },
-      "neden_elendi": "Sorunun ekseni dunya tarihi genel bilgisi: basit bugdaylarin yaklasik on iki bin yil once Bereketli Hilal'de ehlilestirildigi, okul duzeyinde bilinen en yaygin tarih onermelerinden biri. Kanit cumlesi (G/2) yalniz bu onermeyi tasiyor; kapsam sozcuklerini ('genis alan') temizlemek ekseni degistirmiyor, cevap yine bes secenek icinden genel bilgiyle secilebiliyor."
-    },
-    {
-      "dosya": "content/reading/tests/AC2/matching-features.json",
-      "numara": 25,
-      "tip": "matching_features",
-      "pasaj": "A05",
-      "kacinilacak": {
-        "kanit_cumlesi": "Simple wheat domestication is usually traced to the Fertile Crescent around twelve thousand years ago, with the region of Karacadağ in southern Turkey generally credited as the birthplace of einkorn cultivation specifically.",
-        "ifade": "One simple wheat in particular is usually said to have first been brought into cultivation here."
-      },
-      "neden_elendi": "Sorunun ekseni arkeoloji genel bilgisi: Karacadag'in einkorn ekiminin dogdugu yer olarak anilmasi, ayni kanit cumlesinde duran ve alanin disindan da bilinen spesifik bir bilgi. Kanit cumlesi degismeden ifadenin dayanabilecegi baska bir ayrinti yok."
-    },
-    {
-      "dosya": "content/reading/tests/AC2/matching-features.json",
-      "numara": 26,
-      "tip": "matching_features",
-      "pasaj": "A05",
-      "kacinilacak": {
-        "kanit_cumlesi": "What set the site apart was its scale: at a time when most human communities were still small and mobile, Çatalhöyük had grown into a dense, town-like settlement, sitting on routes that would later carry farming practices onward into Europe.",
-        "ifade": "Ways of farming are described as having carried on towards this area along the routes the settlement stood on."
-      },
-      "neden_elendi": "Sorunun ekseni tarimin Bereketli Hilal'den Avrupa'ya yayildigi anlatisi; bu anlati ders kitabi duzeyinde bilindigi icin 'yayilmanin gittigi yon' sorusunun cevabi secenekler arasinda pasaja bakmadan bulunabiliyor. Kanit cumlesi (A/3) yolun ucundaki yeri adlandirmaktan baska bir sey soylemiyor."
-    },
-    {
-      "dosya": "content/reading/tests/AC4/matching-features.json",
-      "numara": 24,
-      "tip": "matching_features",
-      "pasaj": "A11",
-      "kacinilacak": {
-        "kanit_cumlesi": "After the forest exposure, five of the six negative mood states measured by the Profile of Mood States, tension-anxiety, anger-hostility, depression-dejection, fatigue and confusion, all decreased significantly.",
-        "ifade": "Most of the unpleasant states it measures eased after the time among the trees."
-      },
-      "neden_elendi": "Sorunun ekseni psikolojik olcme araclari genel bilgisi: Profile of Mood States'in alti ayri duygu boyutu olctugu yaygin bilinen bir bilgi ve ifadedeki 'olculen hos olmayan durumlarin cogu' kaydi altidan bese dogal olarak oturuyor. Kanit cumlesi (F/1) 'alti olumsuz duygu durumundan besi' kalibini tasidigi icin, ifade nasil yazilirsa yazilsin ayni arac bilgisine geri donuyor."
-    },
-    {
-      "dosya": "content/reading/practice/summary-completion.json",
-      "numara": 1,
-      "tip": "summary_completion",
-      "pasaj": "A10",
-      "kacinilacak": {
-        "kanit_cumlesi": "The activity-based design, despite its popularity in contemporary office trends, performed worse than the open-plan baseline on both measures, with satisfaction and productivity scores roughly 14 per cent lower.",
-        "ifade": "Both the zoned open-plan room and the team office beat the plain open-plan baseline on how content the staff felt and on how productive they believed themselves to be, while the activity-based arrangement, for all its (1) ........ in current office fashion, finished below the baseline on both counts."
-      },
-      "neden_elendi": "Sizinti cercevede degil, boslugun hedefinde. Ozet cumlesi kanit cumlesinin (D/3) tasidigi 'moda olmasina ragmen kotu sonuc verdi' karsitligini aktarmak zorunda; bu karsitligi tasiyan her cumlede boslugun tek dogal sozcugu 'popularity' oluyor. Cerceveyi degistirmek boslugu acmiyor, boslugu baska bir yere tasimak ise cevabi degistirmek demek. E6 bu yuvayi ayni cumledeki sayisal ayrintiya (yuzde 14'luk dusus) capalamali."
-    },
-    {
-      "dosya": "content/reading/tests/AC2/flow-chart-completion.json",
-      "numara": 3,
-      "tip": "flow_chart_completion",
-      "pasaj": "A04",
-      "kacinilacak": {
-        "kanit_cumlesi": "Because it has not been imaged in enough detail to measure directly, its size has to be estimated: assuming it reflects light in a similar way to Uranus's other small moons, astronomers calculate a diameter of about six miles, or ten kilometres, making it one of the smallest moons known anywhere in the solar system.",
-        "ifade": "As the object is too faint to measure directly, its width is put at some ten kilometres, on the assumption that it (3) ........ light much as Uranus's other small moons do."
-      },
-      "neden_elendi": "Bosluk 'it ___ light' kalibinin ortasinda ve bir gok cisminin parlakligindan cap tahmin etme varsayimi Ingilizcede yalniz 'reflect' fiiliyle kuruluyor. Fiili baska bir cerceveye tasimak ya cumleyi bozuyor ya da cevabi sifat bicimine ('reflective') ceviriyor, yani korunan alani degistiriyor. E6 bu adimi cap tahmininin sayisina ya da 'too faint to measure directly' gerekcesine capalamali."
-    },
-    {
-      "dosya": "content/reading/tests/AC4/note-completion.json",
-      "numara": 4,
-      "tip": "note_completion",
-      "pasaj": "A10",
-      "kacinilacak": {
-        "kanit_cumlesi": "As an independent, behavioural proxy for technical output, the researchers also tracked the number of software code commits each team produced, and observers recorded how people actually used the different spaces, noting details such as how often employees wore headphones, retreated to quiet corners, or held impromptu conversations at their desks.",
-        "ifade": "How the layouts were judged: Watchers logged everyday habits, for example how often people put on (4) ........"
-      },
-      "neden_elendi": "'put on' fiili cikarilsa bile not, gurultu uzerine bir ofis calismasinda gozlemcilerin saydigi gunluk aliskanligi istiyor; bu cercevede 'headphones' pasajdan bagimsiz olarak akla gelen ilk ve neredeyse tek nesne. Kanit cumlesindeki oteki iki ornek (quiet corners, impromptu conversations) da ayni olcude tahmin edilebilir, yani hedefi cumle icinde kaydirmak da ise yaramiyor. E6 bu yuvayi ayni paragrafin olcum aracina (kod commit sayimi) tasimali."
-    },
-    {
-      "dosya": "content/reading/tests/AC4/sentence-completion.json",
-      "numara": 20,
-      "tip": "sentence_completion",
-      "pasaj": "A11",
-      "kacinilacak": {
-        "kanit_cumlesi": "The forest sessions took place in late January, in conditions typical of a Finnish winter: an average temperature of minus 7.23 degrees Celsius, 20 to 25 centimetres of snow covering the ground and trees, humidity of 94.25 per cent, and only a light wind of 1.13 metres per second.",
-        "ifade": "The air on the days of the outdoor sessions was almost windless and extremely damp, with ........ measured at 94.25 per cent."
-      },
-      "neden_elendi": "Bosluk yuzde olarak verilen bir hava olcumunu istiyor; pasajin siraladigi dort degerden (sicaklik, kar derinligi, nem, ruzgar) yalniz biri yuzdeyle ifade edilir, dolayisiyla sayinin birimi tek basina cevabi veriyor. Birimi gizlemek sayiyi da gizlemeyi gerektiriyor, o zaman da soru olculebilir bir ayrintiya dayanmaktan cikiyor. E6 bu yuvayi ruzgar hizina (1.13 m/s) ya da kar derinligine capalamali."
-    },
-    {
-      "dosya": "content/reading/tests/AC4/sentence-completion.json",
-      "numara": 21,
-      "tip": "sentence_completion",
-      "pasaj": "A11",
-      "kacinilacak": {
-        "kanit_cumlesi": "All four instruments were administered as paper questionnaires immediately before and again immediately after each 15-minute period, so that any change could be attributed specifically to the intervening exposure rather than to the simple passage of time.",
-        "ifade": "All four scales were filled in on paper right before and right after the quarter of an hour, making it possible to credit any shift to the setting itself rather than to the mere ........ of time."
-      },
-      "neden_elendi": "'the passage of time' Ingilizcede tam kaliplasmis bir ifade; bosluk bu kalibin icinde durdugu surece hangi cerceveye konursa konsun tek tamamlamasi var, 'of time' kaldirildiginda ise cumle anlamini yitiriyor. E6 bu yuvayi ayni cumlenin olculebilir ayrintisina (anketlerin kagit uzerinde, on bes dakikanin hemen oncesinde ve hemen sonrasinda uygulanmasi) tasimali."
-    },
-    {
-      "dosya": "content/reading/tests/GT2/table-completion.json",
-      "numara": 16,
-      "tip": "table_completion",
-      "pasaj": "G04",
-      "kacinilacak": {
-        "kanit_cumlesi": "Complete the online application form and upload a current CV by 28 February.",
-        "ifade": "Written stage: Form filled in online, an up-to-date (16) ........ , and 300 words on why you want the placement"
-      },
-      "neden_elendi": "Is basvurusu baglaminda 'guncel bir ___ yukleyin' satirinin tek yaygin tamamlamasi CV; sozcuk basvuru surecinin kendisinden cikiyor, pasajdan degil. Satiri yeniden yazmak bunu degistirmiyor. E6 bu yuvayi ayni paragrafin baska bir kosuluna (300 kelimelik gerekce metni ya da 28 Subat son basvuru tarihi) capalamali."
-    },
-    {
-      "dosya": "content/reading/tests/GT2/table-completion.json",
-      "numara": 20,
-      "tip": "table_completion",
-      "pasaj": "G04",
-      "kacinilacak": {
-        "kanit_cumlesi": "Each intern is paired with a mentor from their assigned department who meets with them weekly throughout the ten weeks.",
-        "ifade": "During the placement: A (20) ........ from the intern's own department sees them once a week"
-      },
-      "neden_elendi": "Kanit cumlesinin butun icerigi ('kendi biriminden biriyle eslestirilir, on hafta boyunca haftada bir gorusur') Ingiliz is dunyasinda dogrudan 'mentor' rolunu tanimliyor; satirdan hangi ayrinti cikarilirsa cikarilsin kalan cerceve ayni sozcugu veriyor. E6 bu yuvayi staj suresinin baska bir ayrintisina (aylik ucret ya da on haftalik sure) tasimali."
-    },
-    {
-      "dosya": "content/reading/tests/AC4/summary-completion.json",
-      "numara": 36,
-      "tip": "summary_completion",
-      "pasaj": "A12",
-      "kacinilacak": {
-        "kanit_cumlesi": "The first experiment used a between-subjects design, meaning that different participants were assigned to a sleep group or a wake group, while the second used a within-subject design in which the same participants experienced both a nap and a period of wakefulness on different days, allowing more direct comparison.",
-        "ifade": "In the earlier one, different volunteers were placed in a sleeping group and a waking group; the later one instead used a (36) ........ design, so that the very same volunteers went through both a rest and a matching stretch of time without one."
-      },
-      "neden_elendi": "Bosluk 'within-subject' terimini hedefliyor ve bu terimin Ingilizcedeki tek tanimi 'ayni katilimcilar her iki kosuldan da gecer'. Ikinci deneyi durustce anlatan her ozet bu tanimi vermek zorunda, yani tanim sizintisi cerceveden degil boslugun hedefinden geliyor. Ustelik ayni ozetteki 37. cumle ilk deneyin iki ayri gruptan olustugunu soyluyor; bankadaki karsit terim C ('between-subjects') boylece ilk deneye baglanip eleniyor ve J elemeyle cikiyor. Tanimi ozetten silmek kalan cerceveyi anlamsiz birakiyor; bankadaki C'yi degistirmek ise J'yi bankadaki tek arastirma-deseni terimi haline getirip sizintiyi buyutuyor. Tek cikis boslugu baska bir ayrintiya tasimak, o da answer'i degistirmek demek - talimat bunu yarim duzeltme sayiyor. E6 bu yuvayi B ya da D paragrafinin baska bir ayrintisina capalamali (haftada en az bir kez sekerleme yapan 34 katilimci, ya da sersemligi azaltmak icin uygulanan 30 dakikalik bulmaca)."
-    },
-    {
-      "dosya": "content/reading/tests/AC4/summary-completion.json",
-      "numara": 38,
-      "tip": "summary_completion",
-      "pasaj": "A12",
-      "kacinilacak": {
-        "kanit_cumlesi": "For semantically related word pairs, nocturnal sleep produced a substantially larger improvement in recall than daytime napping did, with a standardised effect size of 0.58 compared with only 0.15 for napping.",
-        "ifade": "Where the two halves of a pair were already (38) ........ , a whole night of sleep improved recall far more than a rest of an hour and a half did."
-      },
-      "neden_elendi": "Sorunun ekseni, uykunun hangi tur malzemeyi daha cok kayirdigi - bilissel bilimin en cok aktarilan bulgularindan biri - ve kelime bankasi bu ekseni hazir bir zit cift olarak tasiyor (D 'connected in meaning' / I 'unrelated in meaning'). Ustelik hemen ardindan gelen 39. cumle 'Where no such link existed' diyerek 38'in 'baglantili' taraf oldugunu soyluyor, yani I ozetin kendi ic mantigiyla de eleniyor. Bosluk nasil yazilirsa yazilsin secim iki kutuptan birini isaretlemeye iniyor ve karar pasajdan degil dunya bilgisinden geliyor; kip ya da cerceve duzeltmesi bunu kapatmaz. E6 bu yuvayi E paragrafinin pasaja ozgu bir ayrintisina tasimali (0.58'e karsi 0.15 etki buyuklugu, ya da 40 iliskili + 40 iliskisiz cift bolusumu)."
-    },
-    {
-      "dosya": "content/reading/practice/true-false-not-given.json",
-      "numara": 4,
-      "tip": "true_false_not_given",
-      "pasaj": "A02",
-      "kacinilacak": {
-        "kanit_cumlesi": "Pairs made up of strangers, by contrast, interacted sooner, touched each other more often, and spent longer engaged with one another overall.",
-        "ifade": "Strangers devoted more of their time together to interaction than familiar pairs did."
-      },
-      "neden_elendi": "Kanit cumlesi (F/3) tek bir yon soyluyor: yabanci ciftler daha erken etkilesime giriyor, daha sik dokunuyor ve birlikte daha uzun vakit geciriyor. Cumleden cikarilabilecek her dogru ifade 'yabancilar tanidiklardan daha cok etkilesime girer' bicimini aliyor; yenilik arayisi davranis biyolojisinin en yaygin genellemelerinden biri oldugu icin cevap ifade nasil yazilirsa yazilsin pasaja bakilmadan cikiyor. Cumlede pasaja ozgu tek bir sayi ya da ad da yok. E6 bu yuvayi F paragrafinin sayisal ayrintilarina capalamali (baskinligin tersine dondugu on iki yabanci ciftin sekizi, ya da son sinamada hic murekkep birakilmamasi)."
-    },
-    {
-      "dosya": "content/reading/practice/yes-no-not-given.json",
-      "numara": 11,
-      "tip": "yes_no_not_given",
-      "pasaj": "A11",
-      "kacinilacak": {
-        "kanit_cumlesi": "The pattern after the building condition was essentially the reverse.",
-        "ifade": "Looking at campus buildings changed participants' moods in much the same way the forest did."
-      },
-      "neden_elendi": "1. calistirma bu soruyu dokunulmadan birakmis ve gerekcesini review_note alanina yazmisti: sizinti ifadenin kipinde degil, kanit cumlesinin kendisinde. G/1 'The pattern after the building condition was essentially the reverse' diyor; bu kanita dayanan her NO ifadesi 'kontrol kosulu tedavi kosuluyla ayni sonucu vermez' deney mantigiyla parcasiz cozulebiliyor. Ifadeyi olculu yazmak yetmiyor, farkli bir kanit cumlesi gerekiyor; talimat kanit degisimini yarim duzeltme saydigi icin yuva bu calistirmada elenenlere alindi. E6 bu yuvayi G paragrafinin sayisal ayrintisina capalamali (dinlendiricilik puanlarinin yaklasik yariya dusmesi) ya da H paragrafindaki karin canlilik uzerindeki etkisi savina tasimali."
-    },
-    {
-      "dosya": "content/reading/tests/AC1/matching-features.json",
-      "numara": 25,
-      "tip": "matching_features",
-      "pasaj": "A02",
-      "kacinilacak": {
-        "kanit_cumlesi": "The other half were separated by an opaque divider and had no contact of any kind.",
-        "ifade": "This group was given no way at all of sensing the other animal during the first stage."
-      },
-      "neden_elendi": "3. calistirma bu soruyu dokunulmadan birakmis ve gerekcesini review_note alanina yazmisti: sizinti ifadenin kipinde degil, kanit cumlesi ile secenek listesinin arasinda. Kanit cumlesi (C/3) yalniz bolmenin isik gecirip gecirmedigini soyluyor, secenek metinleri de iki grubu tam olarak bu ozellikle adlandiriyor (see-through screen / solid screen); ilk asamayla ilgili nasil yazilirsa yazilsin her ifade bu iki etiketten birine sozcuk duzeyinde baglaniyor. Duzeltmek icin ya kanit cumlesini ya secenek listesini degistirmek gerekiyor, talimat ikisini de yarim duzeltme saydigi icin yuva bu calistirmada elenenlere alindi. E6 icin en temiz cozum secenek listesini bolme turuyle degil asama/sira ile adlandirmak (ornegin 'ilk uc gunu ayri geciren birinci yari'); bu, AC1-26'yi da guclendirir."
-    },
-    {
-      "dosya": "content/reading/tests/AC1/true-false-not-given.json",
-      "numara": 10,
-      "tip": "true_false_not_given",
-      "pasaj": "A01",
-      "kacinilacak": {
-        "kanit_cumlesi": "When keepers moved the food to a new position, he adjusted by rolling the cube to the corresponding spot underneath.",
-        "ifade": "Kandula changed where he placed the cube when the food was moved."
-      },
-      "neden_elendi": "Kanit cumlesi (D/3) yalniz 'yiyecek yeri degistiginde Kandula kupu yeni noktaya yuvarladi' diyor; bu cumleden cikarilabilecek her dogru ifade 'akilli hayvan yeni duruma uyum sagladi' bicimini aliyor. Uyum saglama, akilli hayvan calismalarinin standart kanit yapisi olarak beklendigi icin cevap eksen degistirilmeden kapanmiyor; ekseni degistirmek ise kanit cumlesini degistirmek demek, talimat bunu yarim duzeltme sayiyor. E6 bu yuvayi D paragrafinin sayisal ya da nesnel ayrintilarina capalamali (ayni oturumda dokuz kez tekrarlamasi, kup kaldirilinca traktor lastigine gecmesi, kucuk nesneleri ust uste koyma denemesinin basarisiz olmasi)."
-    },
-    {
-      "dosya": "content/reading/tests/AC3/true-false-not-given.json",
-      "numara": 7,
-      "tip": "true_false_not_given",
-      "pasaj": "A07",
-      "kacinilacak": {
-        "kanit_cumlesi": "Whether the test measures genuine self-awareness or something narrower remains contested, but passing it is still treated as one of the clearest behavioural signs that an animal can distinguish its own reflection from that of another individual.",
-        "ifade": "Researchers still disagree about what a successful mirror test actually proves."
-      },
-      "neden_elendi": "Kanit cumlesi (A/3) ayna testinin gercekte neyi olctugu tartismasini ozetliyor: 'gercek oz farkindalik mi yoksa daha dar bir sey mi'. Bu tartisma hayvan bilisinin en cok aktarilan tartismalarindan biri ve cumlenin iki yarisi da (tartismanin varligi, testin yine de en net davranissal isaret sayilmasi) alan bilgisinden dogrudan cikiyor. Cumlede pasaja ozgu tek bir sayi, ad ya da olcu yok, dolayisiyla ifade nasil yazilirsa yazilsin eksen genel kultur kaliyor. E6 bu yuvayi B paragrafinin sayisal ayrintilarina capalamali (98 oturum, aynanin onunde 27 saate karsi seffaf panelin onunde 23 saat)."
-    },
-    {
-      "dosya": "content/reading/practice/sentence-completion.json",
-      "numara": 3,
-      "tip": "sentence_completion",
-      "pasaj": "A01",
-      "kacinilacak": {
-        "kanit_cumlesi": "More broadly, the study is a caution against judging an animal's intelligence from a single, narrowly designed test: a species may appear incapable of a mental feat simply because the equipment offered does not suit its particular anatomy, and a fairer test can reveal abilities that had been present all along.",
-        "ifade": "A species can look unable to perform a mental task merely because the apparatus it is given does not match its (3) ........"
-      },
-      "neden_elendi": "Cevap tek sozcuk ('anatomy') ve o sozcugun kendisi sizinti noktasi: model parcasiz uc turun ikisinde birebir 'anatomy', birinde tam es anlamlisi 'morphology' verdi. Boslugun hedefledigi kavram -- bir turun beden yapisi -- Ingilizcede birden cok sozcukle ayni sekilde adlandiriliyor (anatomy / morphology / body plan), ve 'cihaz turun X'ine uymuyordu' cercevesi hangi bicimde yazilirsa yazilsin bu kavrami zorunlu kiliyor. Ayirt edici oge cevabin kendisinde durdugu icin cerceve duzeltmesi sizintiya erisemiyor; kapatmak boslugu baska bir ayrintiya tasimayi, yani `answer` alanini degistirmeyi gerektirir. E6 onerisi: ayni paragrafin (H/1) icgoru olcutunu sayan yarisi -- cozumun hatasiz ve aniden ortaya cikmasi, yeni nesnelere uyarlanmasi, aletin birakildigi yerin hatirlanmasi."
-    },
-    {
-      "dosya": "content/reading/practice/sentence-completion.json",
-      "numara": 12,
-      "tip": "sentence_completion",
-      "pasaj": "A04",
-      "kacinilacak": {
-        "kanit_cumlesi": "For now, the discovery remains part of ongoing research rather than a finished, peer-reviewed result, but it illustrates a broader pattern in planetary astronomy: each generation of instruments reveals objects that the previous generation's technology, however capable at the time, simply could not see.",
-        "ifade": "At this stage the find counts as (12) ........ , since it has not yet been through peer review."
-      },
-      "neden_elendi": "Model parcasiz uc turda da 'preliminary' verdi: cevabin ('ongoing research') butun icerigini baska bir sozcukle karsiladi, yani eksik birakilan hicbir ayirt edici oge yok. Sizinti soru metninin bir yan cumlesinden degil, boslugun hedefinden geliyor: 'henuz hakem degerlendirmesinden gecmemis bulgu' kavraminin Ingilizcede hazir karsiligi vardir ve 'bitmis sonuc degil' karsitligini tasimayan bir cerceve de kurulamiyor, cunku kanit cumlesinin (H/1) ilk yarisi tam olarak bu karsitliktir. E6 onerisi: ayni cumlenin ikinci yarisi -- her yeni kusak aracin, onceki kusagin goremedigi nesneleri ortaya cikarmasi -- ya da H/2'deki El Moutamid degerlendirmesi."
-    },
-    {
-      "dosya": "content/reading/practice/short-answer.json",
-      "numara": 6,
-      "tip": "short_answer",
-      "pasaj": "A06",
-      "kacinilacak": {
-        "kanit_cumlesi": "The researchers interpret the pattern through the idea of a transactive memory system, in which effective teams develop a shared, largely implicit sense of who knows what, letting members find the right person to ask rather than needing constant interaction.",
-        "ifade": "Question 6 refers to Passage A06. Which idea do the researchers draw on to explain how a well-established team knows which member to turn to?"
-      },
-      "neden_elendi": "Model parcasiz uc turda da 'transactive memory' verdi, yani cevabin ayirt edici iki sozcugunu birebir tutturdu; dusen tek sey genel 'system' basiydi. Sorunun ekseni bir kurami ADIYLA sormak ('researchers hangi fikre dayaniyor'), o kuram da orgut psikolojisinin en cok atif yapilan kavramlarindan biri: 'kim neyi biliyor' ortak bellegi transaktif bellek diye adlandirilir. Bu yuzden sorun kip ya da konum degil eksenin kendisi -- kanit cumlesi ne kadar yeniden yazilirsa yazilsin, alani bilen cozucu adi metne bakmadan veriyor. E6 onerisi: H paragrafinin olcusel iddialari -- Caster'in yalniz bireysel ciktiya gore odeme yapmasi, ya da deneyimli meslektasin faydasinin daha AZ duzenli kesintiyle artmasi."
-    },
-    {
-      "dosya": "content/reading/tests/AC3/sentence-completion.json",
-      "numara": 22,
-      "tip": "sentence_completion",
-      "pasaj": "A08",
-      "kacinilacak": {
-        "kanit_cumlesi": "It does, however, create new hazards for mountaineers and scientific expeditions that use Yakutat as a staging point for trips into the St Elias Mountains, since previously stable slopes and crevasse fields may now be masked by loose debris or freshly exposed ice.",
-        "ifade": "No settlements were harmed, but slopes that used to be safe now put ........ and research parties setting out from Yakutat in danger."
-      },
-      "neden_elendi": "Kelime siniri ONE WORD ONLY ve cevap tek sozcuk ('mountaineers'); model parcasiz uc turda da tam es anlamlisi 'climbers' verdi. Boslugun hedefi 'daglara cikan insanlar' kavrami ve bu kavramin Ingilizcede birbirinin yerine gecen birden cok adi var (mountaineers / climbers / alpinists). Deprem yerlesimlere degil daga cikanlara zarar veriyor iddiasi kanit cumlesinin (G/2) tasidigi tek iddia oldugu icin, cerceve nasil yazilirsa yazilsin ayni kavram isteniyor; cerceve duzeltmesi cevaba erisemiyor. E6 onerisi: ayni cumlenin somut ayrintilari -- Yakutat'in cikis noktasi olarak kullanilmasi, ya da eskiden sabit olan yamaclarin gevsek enkaz ve yeni acilan buzla maskelenmesi."
-    },
-    {
-      "dosya": "content/reading/tests/AC4/sentence-completion.json",
-      "numara": 22,
-      "tip": "sentence_completion",
-      "pasaj": "A11",
-      "kacinilacak": {
-        "kanit_cumlesi": "The researchers suggest that snow itself may partly explain why vigour failed to rise after the forest visit, since a thick covering of snow hides the green vegetation that other studies have linked to increased energy and alertness, leaving only the calming, restorative effect intact rather than the more energising one.",
-        "ifade": "One explanation put forward for the absence of any rise in vigour is that a thick white layer conceals the green ........ which earlier work has tied to sharper alertness."
-      },
-      "neden_elendi": "Model parcasiz uc turun ikisinde birebir 'vegetation', birinde tam es anlamlisi 'foliage' verdi -- yani sizinti kelime duzeyinde bile neredeyse tam. Boslugun hedefi 'karin ortudugu yesillik' ve bunun Ingilizcede birden cok es adi var (vegetation / greenery / foliage / plant life). Kanit cumlesi (H/1) canliligin neden yukselmedigini yalniz bu tek nedenle acikliyor, dolayisiyla her cerceve 'kalin kar neyi gizler' sorusuna donuyor ve cevabi kendisi veriyor. E6 onerisi: ayni cumlenin son yarisi -- yalniz sakinlestirici etkinin ayakta kalmasi, canlandirici etkinin kalmamasi -- ya da H/2'deki orneklem sinirlari (tek kurum, kucuk orneklem, onerilen uc genisletme)."
-    },
-    {
-      "dosya": "content/reading/tests/GT1/sentence-completion.json",
-      "numara": 27,
-      "tip": "sentence_completion",
-      "pasaj": "G03",
-      "kacinilacak": {
-        "kanit_cumlesi": "Employees leaving the company are paid for any accrued but untaken leave as part of their final salary.",
-        "ifade": "Anyone who leaves the firm is given money for leave they had built up but never used, and this forms part of their (27) ........ ."
-      },
-      "neden_elendi": "Model parcasiz uc turda da 'final pay' verdi: cevabin ('final salary') ayirt edici sozcugunu ('final') birebir tutturdu, yalniz basi es anlamlisiyla degistirdi. Sizinti cerceveden degil eksenden geliyor: kanit cumlesi (B metni, D/2) 'isten ayrilan calisan kullanilmamis izninin karsiligini ne zaman alir' sorusuna cevap veriyor ve bu, calisma hayatinin standart uygulamasi -- ayrilista odenen sey son maastir. Ayrilma durumundan soz etmeyen bir cerceve kurmak mumkun degil, cunku kanit cumlesinin butun icerigi odur. E6 onerisi: ayni paragrafin birinci cumlesi -- en cok bes gunun yaziyla onay alinarak bir sonraki yila devredilebilmesi ve 31 Mart'ta yanmasi."
-    },
-    {
-      "dosya": "content/reading/tests/GT2/sentence-completion.json",
-      "numara": 25,
-      "tip": "sentence_completion",
-      "pasaj": "G04",
-      "kacinilacak": {
-        "kanit_cumlesi": "Employees who have completed their probationary period may apply to work remotely for up to three days per week, subject to line manager approval and the operational needs of their team.",
-        "ifade": "Staff can only ask to work from home once they have got through their (25) ........"
-      },
-      "neden_elendi": "Model parcasiz uc turda da 'probation period' verdi: ayni kelimenin baska cekimi, yani cevabin ('probationary period') ayirt edici ogesi tam olarak tutturuldu. Sorunun ekseni 'uzaktan calisma basvurusundan once neyin tamamlanmasi gerekir' ve bunun cevabi ise alma dunyasinin en yerlesik kuralidir; kanit cumlesi (B metni, A/1) baska hicbir on kosul icermiyor, dolayisiyla her cerceve ayni kavrami istiyor. E6 onerisi: ayni cumlenin sayisal siniri (haftada en cok uc gun) ya da A/2'deki musteriyle calisan roller istisnasi."
-    }
-  ]
+ "elenen": [
+  {
+   "dosya": "content/reading/practice/yes-no-not-given.json",
+   "numara": 2,
+   "tip": "yes_no_not_given",
+   "pasaj": "A06",
+   "kacinilacak": {
+    "kanit_cumlesi": "What made the study unusually rigorous was a quirk of company policy: new hires were placed into teams using a simple round-robin system based purely on the order in which they joined, a process neither managers nor employees could influence.",
+    "ifade": "The firm's way of assigning new staff to teams gave the research unusual scientific strength."
+   },
+   "neden_elendi": "Sorunun ekseni genel arastirma yontemi bilgisi: yeni calisanlarin sira ya da rastgele usulle takimlara dagitilmasinin nedensellik cikarimini guclendirdigi, pasajdan bagimsiz olarak bilinen bir metodoloji kurali. Kip dengelemesi ya da konum degisikligi bunu kapatmaz; ifade nasil yazilirsa yazilsin cevap yontem bilgisinden cikar."
+  },
+  {
+   "dosya": "content/reading/practice/yes-no-not-given.json",
+   "numara": 4,
+   "tip": "yes_no_not_given",
+   "pasaj": "A06",
+   "kacinilacak": {
+    "kanit_cumlesi": "Experienced colleagues, by contrast, seem able to give newcomers efficient, targeted guidance precisely when it is needed, a benefit that requires no visible display of productivity and, the study suggests, works better with less routine interruption rather than more.",
+    "ifade": "Longer-serving colleagues can offer newcomers precisely aimed support at the moments they need it."
+   },
+   "neden_elendi": "Sorunun ekseni genel is yasami bilgisi: deneyimli calisanlarin yeni gelenlere ihtiyac aninda hedefli rehberlik verebildigi, isyeri mentorlugu uzerine yaygin kabul goren bir onerme. Ifadenin kipi olculu ya da kesin yazilsa da cevap pasaja bakilmadan cikarilabiliyor."
+  },
+  {
+   "dosya": "content/reading/practice/yes-no-not-given.json",
+   "numara": 5,
+   "tip": "yes_no_not_given",
+   "pasaj": "A10",
+   "kacinilacak": {
+    "kanit_cumlesi": "Few questions in modern office design generate as much disagreement as whether open-plan layouts help or harm the people who work in them.",
+    "ifade": "Opinion is sharply divided over whether open-plan workplaces do their occupants good or harm."
+   },
+   "neden_elendi": "Sorunun ekseni genel kultur: acik plan ofislerin yararli mi zararli mi oldugunun tartismali olmasi, populer is yasami soyleminin bilinen bir gercegi. Tartismanin varligini soran her ifade, kipi ne olursa olsun, parcaya bakilmadan dogrulanabilir."
+  },
+  {
+   "dosya": "content/reading/practice/yes-no-not-given.json",
+   "numara": 9,
+   "tip": "yes_no_not_given",
+   "pasaj": "A11",
+   "kacinilacak": {
+    "kanit_cumlesi": "It is now widely accepted that spending time in natural surroundings can reduce stress and improve mood, an effect researchers often describe as psychological restoration.",
+    "ifade": "That natural surroundings can ease stress is now a widely shared view."
+   },
+   "neden_elendi": "Sorunun ekseni genel kultur: dogada vakit gecirmenin stresi azalttigi gorusunun yaygin kabul gordugu, pasajdan once bilinen bir sey. Ifade zaten 'yaygin kabul' iddiasinin kendisini sordugu icin dogrulanmasi pasaja hic bagli degil."
+  },
+  {
+   "dosya": "content/reading/practice/yes-no-not-given.json",
+   "numara": 12,
+   "tip": "yes_no_not_given",
+   "pasaj": "A11",
+   "kacinilacak": {
+    "kanit_cumlesi": "As a pilot study, its conclusions should be treated as an initial signal rather than a settled finding, but they nonetheless indicate that the calming effect of a forest is not simply switched off by the absence of green leaves and the presence of snow and near-freezing temperatures.",
+    "ifade": "A forest keeps its calming power even under snow and near-freezing cold."
+   },
+   "neden_elendi": "Sorunun ekseni cift katmanli genel bilgi: hem 'doganin sakinlestirici etkisi kisin da surer' sonucu sezgisel, hem de pilot calisma haberlerinin olagan olumlu sonuc kalibi ayni yone isaret ediyor. Kip dengelemesi bu iki katmanin ikisini de kapatmiyor."
+  },
+  {
+   "dosya": "content/reading/practice/yes-no-not-given.json",
+   "numara": 15,
+   "tip": "yes_no_not_given",
+   "pasaj": "A12",
+   "kacinilacak": {
+    "kanit_cumlesi": "However, the findings caution against assuming that a nap can substitute for a night's sleep when the task involves integrating new material with things already known, since that particular kind of consolidation seems to depend on the longer, more complex architecture of nocturnal sleep.",
+    "ifade": "A nap serves as well as a night of sleep for tying new material to existing knowledge."
+   },
+   "neden_elendi": "Sorunun ekseni genel uyku bilimi bilgisi: kisa bir sekerlemenin tam bir gece uykusunun yerini tutamayacagi populerlesmis bir bulgu. Ifadeyi olculu yazmak cevabi degistirmez; okur ifadenin kipinden bagimsiz olarak zaten NO bekler."
+  },
+  {
+   "dosya": "content/reading/tests/GT1/yes-no-not-given.json",
+   "numara": 33,
+   "tip": "yes_no_not_given",
+   "pasaj": "G05",
+   "kacinilacak": {
+    "kanit_cumlesi": "Rather than relying on households to estimate their own waste, which tends to produce unreliable figures, the research team physically collected, sorted and weighed the solid food waste from each home's rubbish over eight consecutive days, using digital scales accurate to two grams.",
+    "ifade": "Waste figures based on households' own estimates tend to be inaccurate."
+   },
+   "neden_elendi": "Sorunun ekseni genel arastirma yontemi bilgisi: oz-bildirime dayali tahminlerin dogrudan olcumden daha guvenilmez oldugu, pasajdan bagimsiz bilinen bir kural. Ifadedeki 'tend to' kipi kaldirilsa bile cevap ayni yerden cikar."
+  },
+  {
+   "dosya": "content/reading/tests/GT1/yes-no-not-given.json",
+   "numara": 34,
+   "tip": "yes_no_not_given",
+   "pasaj": "G05",
+   "kacinilacak": {
+    "kanit_cumlesi": "Just over a third of this, about 29 kilograms, was still perfectly edible when discarded; the remaining 48 kilograms consisted of inedible parts such as fruit peels, bones and eggshells that are a normal by-product of cooking rather than genuine waste.",
+    "ifade": "Fruit peelings and bones discarded during cooking should be counted as genuine food waste."
+   },
+   "neden_elendi": "Sorunun ekseni genel kultur: gida israfi tartismasinda kabuk, kemik ve yumurta kabugunun 'yenmeyen / onlenemez' kategoride sayilmasi yerlesik bir siniflandirma. Ifade normatif bicimden ('should be counted') cikarilsa bile cevap bu yerlesik ayrimdan okunuyor."
+  },
+  {
+   "dosya": "content/reading/tests/GT2/yes-no-not-given.json",
+   "numara": 34,
+   "tip": "yes_no_not_given",
+   "pasaj": "G06",
+   "kacinilacak": {
+    "kanit_cumlesi": "Self-rated health might seem like a subjective measure, but earlier research has repeatedly shown it to reliably predict future illness and mortality, which is one reason the team chose it as their main outcome.",
+    "ifade": "People's assessments of their own health are a dependable guide to their future health."
+   },
+   "neden_elendi": "Sorunun ekseni genel saglik arastirmasi bilgisi: oz-bildirimli sagligin gelecekteki hastalik ve olumu ongordugu, literaturde cok atif yapilan ve genel kulturlesmis bir bulgu. Soru ekseni bu bilginin kendisi oldugu icin mekanik duzeltmeye uygun degil."
+  },
+  {
+   "dosya": "content/reading/practice/multiple-choice.json",
+   "numara": 1,
+   "tip": "multiple_choice",
+   "pasaj": "A02",
+   "kacinilacak": {
+    "kanit_cumlesi": "The researchers collected sixty octopuses from the Bay of Naples over two summer seasons and formed twenty-four pairs, each matched so that the two animals differed in weight by no more than fifteen per cent.",
+    "soru_koku": "How were the octopuses matched into pairs?"
+   },
+   "neden_elendi": "Sorunun ekseni deney tasarimi genel bilgisi: hayvan deneylerinde deneklerin agirliga gore eslestirilmesi pasajdan bagimsiz bilinen standart bir uygulama. Cinsiyet, toplanma mevsimi ve komsuluk daha az tipik olcutler oldugu icin secenekler nasil yazilirsa yazilsin agirlik en olasi cevap kalir; kip dengelemesi ya da celdirici capalamasi bunu kapatmaz."
+  },
+  {
+   "dosya": "content/reading/practice/multiple-choice.json",
+   "numara": 6,
+   "tip": "multiple_choice",
+   "pasaj": "A05",
+   "kacinilacak": {
+    "kanit_cumlesi": "Some of these seeds looked, under the microscope, as though they belonged to hexaploid wheat, a genetically more complex form carrying six sets of chromosomes rather than the two or four sets typical of the simpler wheats usually associated with the earliest stages of farming.",
+    "soru_koku": "What distinguishes hexaploid wheat from the simpler wheats?"
+   },
+   "neden_elendi": "Sorunun ekseni terimin kendisi: soru kokundeki 'hexaploid' sozcugunun 'hexa-' oneki dogrudan alti kromozom takimini soyluyor, yani sizinti secenek diziliminde degil kokte. Terimi soru kokunden cikarmak kanit cumlesini de degistirmeyi gerektirir; bu, gorev kuralina gore yarim duzeltme sayilir."
+  },
+  {
+   "dosya": "content/reading/practice/multiple-choice.json",
+   "numara": "9-10",
+   "tip": "multiple_choice",
+   "pasaj": "A08",
+   "kacinilacak": {
+    "kanit_cumlesi": "On 6 December 2025 a magnitude 7.0 earthquake struck the St Elias Mountains, a heavily glaciated range straddling the border between the Yukon Territory in Canada and Alaska in the United States. Here, ice more than 700 metres thick in places sits on top of that bedrock.",
+    "soru_koku": "Which TWO things does the writer say about the region struck?"
+   },
+   "neden_elendi": "Sorunun ekseni cografya genel bilgisi: buyuk buzullu siradaglarin bir ulke siniri boyunca uzanmasi ve kalin buzla ortulu olmasi pasaja bakmadan bilinebiliyor. Iki dogru secenek de bolgenin ansiklopedik tanimini tekrarliyor; secenekleri yeniden yazmak bu ekseni degistirmez."
+  },
+  {
+   "dosya": "content/reading/practice/multiple-choice.json",
+   "numara": 11,
+   "tip": "multiple_choice",
+   "pasaj": "A08",
+   "kacinilacak": {
+    "kanit_cumlesi": "By comparing an image captured on 8 December, only two days after the earthquake, with a baseline image from 26 November, before the quake, analysts could see large new patches of brightness spreading across slopes that had previously appeared smooth and dark, a direct signature of freshly broken rock and snow.",
+    "soru_koku": "How did analysts spot the new damage from orbit?"
+   },
+   "neden_elendi": "Sorunun ekseni uzaktan algilama genel bilgisi: uydu goruntusuyle hasar tespitinin oncesi-sonrasi karsilastirmasiyla yapilmasi standart afet izleme yontemi. Kanit cumlesinin kendisi bu standardin anlatimi oldugu icin celdiricileri guclendirmek yetmiyor."
+  },
+  {
+   "dosya": "content/reading/practice/multiple-choice.json",
+   "numara": 13,
+   "tip": "multiple_choice",
+   "pasaj": "A11",
+   "kacinilacak": {
+    "kanit_cumlesi": "Randomly assigning the order in which each group encountered the two conditions also helped guard against the possibility that simply being tested a second time, regardless of environment, might by itself improve participants' reported mood.",
+    "soru_koku": "Why was the order of the two conditions randomised?"
+   },
+   "neden_elendi": "Sorunun ekseni arastirma yontemi kurali: kosul sirasinin rastgelestirilmesinin amaci tekrar test etme (sira/alistirma) etkisini kontrol altina almaktir ve bu, pasajdan bagimsiz olarak ogretilen bir kural. Seceneklerin kipi ya da capasi degistirilse de cevap yontem bilgisinden cikar."
+  },
+  {
+   "dosya": "content/reading/tests/AC1/multiple-choice.json",
+   "numara": 32,
+   "tip": "multiple_choice",
+   "pasaj": "A03",
+   "kacinilacak": {
+    "kanit_cumlesi": "The island's unusual chemistry comes from its geology. Magma still sits beneath the seafloor, and along the inner shoreline of the caldera it drives shallow vents that continuously release carbon dioxide gas directly into the water beside a living coral reef, a combination that is extremely rare anywhere on Earth.",
+    "soru_koku": "Why does the writer describe the island's geology?"
+   },
+   "neden_elendi": "Sorunun ekseni jeoloji genel bilgisi: volkanik adalarda magmanin deniz tabani bacalarindan surekli gaz salmasi bilinen bir olgu, dolayisiyla yazarin jeolojiyi neden anlattigi parcaya bakmadan cikarilabiliyor. Celdiricileri metne capalamak sorunun eksenini degistirmiyor."
+  },
+  {
+   "dosya": "content/reading/tests/AC1/multiple-choice.json",
+   "numara": "34-35",
+   "tip": "multiple_choice",
+   "pasaj": "A03",
+   "kacinilacak": {
+    "kanit_cumlesi": "The carbon dioxide appears to reshape the reef community itself, not just the water's chemistry. A related study of the Maug reef, published separately in the journal PLOS ONE, focused on what happens inside coral skeletons rather than on the seafloor surface.",
+    "soru_koku": "Which TWO aspects of the reef have studies at Maug examined?"
+   },
+   "neden_elendi": "Sorunun ekseni alan bilgisi: okyanus asitlenmesi calismalarinin biri deniz tabani toplulugu, digeri iskeletin ic yapisi olmak uzere iki eksende yurutuldugu genel olarak biliniyor. Yedi secenek arasindan hangilerinin 'calisilmis' oldugunu secmek pasaji degil bu yerlesik kalibi olcuyor."
+  },
+  {
+   "dosya": "content/reading/tests/AC3/multiple-choice.json",
+   "numara": 32,
+   "tip": "multiple_choice",
+   "pasaj": "A09",
+   "kacinilacak": {
+    "kanit_cumlesi": "These flows swept through the streets and buildings so quickly that many residents were killed almost instantly, and over the following days the town was sealed beneath roughly 20 metres of volcanic deposits, a burial so complete that timber roof beams, food, and even fabric survived for centuries in a way rarely seen at other Roman sites.",
+    "soru_koku": "Why does the writer mention timber roof beams, food and fabric?"
+   },
+   "neden_elendi": "Sorunun ekseni arkeoloji genel bilgisi: Herculaneum'un organik malzemeyi -- ahsap, yiyecek, kumas -- olaganustu iyi korumasiyla taninmasi yaygin bir bilgi. Sayilan nesnelerin neden anildigi bu bilgiyle dogrudan biliniyor; secenek dengelemesi bunu kapatmaz."
+  },
+  {
+   "dosya": "content/reading/tests/AC3/multiple-choice.json",
+   "numara": "34-35",
+   "tip": "multiple_choice",
+   "pasaj": "A09",
+   "kacinilacak": {
+    "kanit_cumlesi": "The team detected seven distinct proteins known to be expressed specifically in brain tissue, including one involved in stabilising the internal skeleton of nerve cells and another essential for communication between neurons. By atomic composition the vitrified material was dominated by carbon and oxygen, the two elements that make up the bulk of organic tissue, at roughly 65 and 31 per cent respectively.",
+    "soru_koku": "Which TWO points does the writer make about the material's chemistry?"
+   },
+   "neden_elendi": "Sorunun ekseni temel kimya/biyoloji bilgisi: organik dokunun buyuk kismini karbon ve oksijenin olusturmasi (B) ve beyin dokusunda noronlar arasi iletisimle ilgili bir proteinin bulunmasi (F) beklenen bulgular. Iki dogru secenek de pasaji degil alan bilgisini siniyor."
+  },
+  {
+   "dosya": "content/reading/tests/AC4/multiple-choice.json",
+   "numara": 33,
+   "tip": "multiple_choice",
+   "pasaj": "A12",
+   "kacinilacak": {
+    "kanit_cumlesi": "The sleep group learned a list of word pairs at nine in the evening and were tested on their recall the following morning at nine, after a normal night's sleep. The wake group learned the same material at nine in the morning and were tested twelve hours later, at nine that evening, having remained awake throughout.",
+    "soru_koku": "In the first experiment, how were the two groups alike?"
+   },
+   "neden_elendi": "Sorunun ekseni deney tasarimi kurali: uyku ile uyanikligi karsilastiran adil bir kiyaslamada ogrenme ile sinav arasindaki surenin esit tutulmasi gerektigi pasajdan bagimsiz biliniyor. Secenekler nasil dizilirse dizilsin 'esit sure' cevabi yontem mantigindan cikar."
+  },
+  {
+   "dosya": "content/reading/tests/AC4/multiple-choice.json",
+   "numara": "34-35",
+   "tip": "multiple_choice",
+   "pasaj": "A12",
+   "kacinilacak": {
+    "kanit_cumlesi": "Each learned 40 related and 40 unrelated word pairs at half past one in the afternoon, then either took a 90-minute nap, during which brain activity was recorded using polysomnography, or remained awake for an equivalent period. Naps in the second experiment lasted an average of 64.1 minutes and consisted mainly of Stage 2 sleep, a lighter stage than the deep sleep typically associated with the middle of a full night.",
+    "soru_koku": "Which TWO features of the naps in the second study are reported?"
+   },
+   "neden_elendi": "Sorunun ekseni uyku bilimi genel bilgisi: beyin etkinliginin polisomnografiyle kaydedilmesi (C) ve kisa sekerlemelerin agirlikla hafif 2. evre uykudan olusmasi (E) alan bilgisi olarak biliniyor. Yedi secenek arasindan bu ikisini secmek pasaji okumayi gerektirmiyor."
+  },
+  {
+   "dosya": "content/reading/tests/GT1/multiple-choice.json",
+   "numara": 22,
+   "tip": "multiple_choice",
+   "pasaj": "G03",
+   "kacinilacak": {
+    "kanit_cumlesi": "Both employees remain responsible for meeting their required weekly hours, and swaps that would leave fewer than eleven hours' rest between shifts will not be approved.",
+    "soru_koku": "A shift swap will be turned down if it would"
+   },
+   "neden_elendi": "Sorunun ekseni calisma mevzuati genel bilgisi: iki vardiya arasinda en az on bir saat dinlenme birakilmasi yaygin bilinen bir duzenleme. Secenekler yeniden yazilsa da 'yeterli dinlenme yok' cevabi mevzuat bilgisinden cikar."
+  },
+  {
+   "dosya": "content/reading/tests/GT1/multiple-choice.json",
+   "numara": "23-24",
+   "tip": "multiple_choice",
+   "pasaj": "G03",
+   "kacinilacak": {
+    "kanit_cumlesi": "Overtime must be authorised in advance by a line manager; unauthorised overtime will not be paid. Staff who accumulate more than ten hours of overtime in a single month may choose to take the excess as time off in lieu instead of payment.",
+    "soru_koku": "Which TWO statements about overtime are correct?"
+   },
+   "neden_elendi": "Sorunun ekseni is yeri politikalarinin standart maddeleri: fazla mesainin onceden amir onayi gerektirmesi (B) ve on saati asan kismin izne cevrilebilmesi (E) cok sayida is yerinde gecerli. Yedi secenek arasindan bu ikisini secmek metni degil is hayati bilgisini olcuyor."
+  },
+  {
+   "dosya": "content/reading/tests/GT2/multiple-choice.json",
+   "numara": "23-24",
+   "tip": "multiple_choice",
+   "pasaj": "G04",
+   "kacinilacak": {
+    "kanit_cumlesi": "Be available on instant messaging during core hours. Employees must designate a single working location for remote days and notify the HR team in advance if that location changes for more than two consecutive weeks, for insurance and tax purposes.",
+    "soru_koku": "Which TWO things must remote employees do?"
+   },
+   "neden_elendi": "Sorunun ekseni uzaktan calisma politikalarinin standart maddeleri: cekirdek saatlerde ulasilabilir olmak (B) ve kalici konum degisikligini IK'ya bildirmek (D) bu tur politikalarda neredeyse her zaman bulunur. Secenek dengelemesi bu ekseni degistirmez."
+  },
+  {
+   "dosya": "content/reading/practice/matching-features.json",
+   "numara": 1,
+   "tip": "matching_features",
+   "pasaj": "A10",
+   "kacinilacak": {
+    "kanit_cumlesi": "Noise levels in the open-plan office exceeded recommended safe limits between 20 and 30 per cent more often than in any of the alternative designs.",
+    "ifade": "Readings taken here showed sound going beyond the level regarded as safe more frequently than anywhere else."
+   },
+   "neden_elendi": "Sorunun ekseni ofis kulturu genel bilgisi: acik plan ofisin oteki duzenlerden daha gurultulu oldugu yaygin bir kani, soru da dort duzenden en gurultulusunu soruyor. Ifade nasil yazilirsa yazilsin cevap pasajdan degil bu kanidan cikiyor; kanit cumlesi (F/2) zaten yalniz 'hangisi en gurultuluydu' sorusunu destekliyor, baska bir eksene capalanamiyor."
+  },
+  {
+   "dosya": "content/reading/practice/matching-features.json",
+   "numara": 5,
+   "tip": "matching_features",
+   "pasaj": "A10",
+   "kacinilacak": {
+    "kanit_cumlesi": "Taken together, the researchers concluded that the open-plan office design, so often adopted as a cost-effective default, was rated more poorly by employees than every alternative tested, coincided with higher unsafe noise levels, and was the layout employees seemed least inclined to return to once they had experienced something else.",
+    "ifade": "Once people had tried the alternatives, this was the arrangement they appeared least willing to go back to."
+   },
+   "neden_elendi": "Sorunun ekseni yine acik plan ofis hakkindaki yaygin kani: calisanlarin en az geri donmek istedigi duzenin sade acik ofis olmasi beklenen sonuc. Kanit cumlesi (H/1) uc bulguyu birlikte veren bir ozet cumlesi ve ucu de ayni duzeni gosteriyor, yani ifadeyi baska bir ayrintiya tasimak da mumkun degil."
+  },
+  {
+   "dosya": "content/reading/tests/AC2/matching-features.json",
+   "numara": 24,
+   "tip": "matching_features",
+   "pasaj": "A05",
+   "kacinilacak": {
+    "kanit_cumlesi": "Simple wheat domestication is usually traced to the Fertile Crescent around twelve thousand years ago, with the region of Karacadağ in southern Turkey generally credited as the birthplace of einkorn cultivation specifically.",
+    "ifade": "The beginnings of growing the simpler wheats, some twelve thousand years back, are conventionally placed in this wide area."
+   },
+   "neden_elendi": "Sorunun ekseni dunya tarihi genel bilgisi: basit bugdaylarin yaklasik on iki bin yil once Bereketli Hilal'de ehlilestirildigi, okul duzeyinde bilinen en yaygin tarih onermelerinden biri. Kanit cumlesi (G/2) yalniz bu onermeyi tasiyor; kapsam sozcuklerini ('genis alan') temizlemek ekseni degistirmiyor, cevap yine bes secenek icinden genel bilgiyle secilebiliyor."
+  },
+  {
+   "dosya": "content/reading/tests/AC2/matching-features.json",
+   "numara": 25,
+   "tip": "matching_features",
+   "pasaj": "A05",
+   "kacinilacak": {
+    "kanit_cumlesi": "Simple wheat domestication is usually traced to the Fertile Crescent around twelve thousand years ago, with the region of Karacadağ in southern Turkey generally credited as the birthplace of einkorn cultivation specifically.",
+    "ifade": "One simple wheat in particular is usually said to have first been brought into cultivation here."
+   },
+   "neden_elendi": "Sorunun ekseni arkeoloji genel bilgisi: Karacadag'in einkorn ekiminin dogdugu yer olarak anilmasi, ayni kanit cumlesinde duran ve alanin disindan da bilinen spesifik bir bilgi. Kanit cumlesi degismeden ifadenin dayanabilecegi baska bir ayrinti yok."
+  },
+  {
+   "dosya": "content/reading/tests/AC2/matching-features.json",
+   "numara": 26,
+   "tip": "matching_features",
+   "pasaj": "A05",
+   "kacinilacak": {
+    "kanit_cumlesi": "What set the site apart was its scale: at a time when most human communities were still small and mobile, Çatalhöyük had grown into a dense, town-like settlement, sitting on routes that would later carry farming practices onward into Europe.",
+    "ifade": "Ways of farming are described as having carried on towards this area along the routes the settlement stood on."
+   },
+   "neden_elendi": "Sorunun ekseni tarimin Bereketli Hilal'den Avrupa'ya yayildigi anlatisi; bu anlati ders kitabi duzeyinde bilindigi icin 'yayilmanin gittigi yon' sorusunun cevabi secenekler arasinda pasaja bakmadan bulunabiliyor. Kanit cumlesi (A/3) yolun ucundaki yeri adlandirmaktan baska bir sey soylemiyor."
+  },
+  {
+   "dosya": "content/reading/tests/AC4/matching-features.json",
+   "numara": 24,
+   "tip": "matching_features",
+   "pasaj": "A11",
+   "kacinilacak": {
+    "kanit_cumlesi": "After the forest exposure, five of the six negative mood states measured by the Profile of Mood States, tension-anxiety, anger-hostility, depression-dejection, fatigue and confusion, all decreased significantly.",
+    "ifade": "Most of the unpleasant states it measures eased after the time among the trees."
+   },
+   "neden_elendi": "Sorunun ekseni psikolojik olcme araclari genel bilgisi: Profile of Mood States'in alti ayri duygu boyutu olctugu yaygin bilinen bir bilgi ve ifadedeki 'olculen hos olmayan durumlarin cogu' kaydi altidan bese dogal olarak oturuyor. Kanit cumlesi (F/1) 'alti olumsuz duygu durumundan besi' kalibini tasidigi icin, ifade nasil yazilirsa yazilsin ayni arac bilgisine geri donuyor."
+  },
+  {
+   "dosya": "content/reading/practice/summary-completion.json",
+   "numara": 1,
+   "tip": "summary_completion",
+   "pasaj": "A10",
+   "kacinilacak": {
+    "kanit_cumlesi": "The activity-based design, despite its popularity in contemporary office trends, performed worse than the open-plan baseline on both measures, with satisfaction and productivity scores roughly 14 per cent lower.",
+    "ifade": "Both the zoned open-plan room and the team office beat the plain open-plan baseline on how content the staff felt and on how productive they believed themselves to be, while the activity-based arrangement, for all its (1) ........ in current office fashion, finished below the baseline on both counts."
+   },
+   "neden_elendi": "Sizinti cercevede degil, boslugun hedefinde. Ozet cumlesi kanit cumlesinin (D/3) tasidigi 'moda olmasina ragmen kotu sonuc verdi' karsitligini aktarmak zorunda; bu karsitligi tasiyan her cumlede boslugun tek dogal sozcugu 'popularity' oluyor. Cerceveyi degistirmek boslugu acmiyor, boslugu baska bir yere tasimak ise cevabi degistirmek demek. E6 bu yuvayi ayni cumledeki sayisal ayrintiya (yuzde 14'luk dusus) capalamali."
+  },
+  {
+   "dosya": "content/reading/tests/AC2/flow-chart-completion.json",
+   "numara": 3,
+   "tip": "flow_chart_completion",
+   "pasaj": "A04",
+   "kacinilacak": {
+    "kanit_cumlesi": "Because it has not been imaged in enough detail to measure directly, its size has to be estimated: assuming it reflects light in a similar way to Uranus's other small moons, astronomers calculate a diameter of about six miles, or ten kilometres, making it one of the smallest moons known anywhere in the solar system.",
+    "ifade": "As the object is too faint to measure directly, its width is put at some ten kilometres, on the assumption that it (3) ........ light much as Uranus's other small moons do."
+   },
+   "neden_elendi": "Bosluk 'it ___ light' kalibinin ortasinda ve bir gok cisminin parlakligindan cap tahmin etme varsayimi Ingilizcede yalniz 'reflect' fiiliyle kuruluyor. Fiili baska bir cerceveye tasimak ya cumleyi bozuyor ya da cevabi sifat bicimine ('reflective') ceviriyor, yani korunan alani degistiriyor. E6 bu adimi cap tahmininin sayisina ya da 'too faint to measure directly' gerekcesine capalamali."
+  },
+  {
+   "dosya": "content/reading/tests/AC4/note-completion.json",
+   "numara": 4,
+   "tip": "note_completion",
+   "pasaj": "A10",
+   "kacinilacak": {
+    "kanit_cumlesi": "As an independent, behavioural proxy for technical output, the researchers also tracked the number of software code commits each team produced, and observers recorded how people actually used the different spaces, noting details such as how often employees wore headphones, retreated to quiet corners, or held impromptu conversations at their desks.",
+    "ifade": "How the layouts were judged: Watchers logged everyday habits, for example how often people put on (4) ........"
+   },
+   "neden_elendi": "'put on' fiili cikarilsa bile not, gurultu uzerine bir ofis calismasinda gozlemcilerin saydigi gunluk aliskanligi istiyor; bu cercevede 'headphones' pasajdan bagimsiz olarak akla gelen ilk ve neredeyse tek nesne. Kanit cumlesindeki oteki iki ornek (quiet corners, impromptu conversations) da ayni olcude tahmin edilebilir, yani hedefi cumle icinde kaydirmak da ise yaramiyor. E6 bu yuvayi ayni paragrafin olcum aracina (kod commit sayimi) tasimali."
+  },
+  {
+   "dosya": "content/reading/tests/AC4/sentence-completion.json",
+   "numara": 20,
+   "tip": "sentence_completion",
+   "pasaj": "A11",
+   "kacinilacak": {
+    "kanit_cumlesi": "The forest sessions took place in late January, in conditions typical of a Finnish winter: an average temperature of minus 7.23 degrees Celsius, 20 to 25 centimetres of snow covering the ground and trees, humidity of 94.25 per cent, and only a light wind of 1.13 metres per second.",
+    "ifade": "The air on the days of the outdoor sessions was almost windless and extremely damp, with ........ measured at 94.25 per cent."
+   },
+   "neden_elendi": "Bosluk yuzde olarak verilen bir hava olcumunu istiyor; pasajin siraladigi dort degerden (sicaklik, kar derinligi, nem, ruzgar) yalniz biri yuzdeyle ifade edilir, dolayisiyla sayinin birimi tek basina cevabi veriyor. Birimi gizlemek sayiyi da gizlemeyi gerektiriyor, o zaman da soru olculebilir bir ayrintiya dayanmaktan cikiyor. E6 bu yuvayi ruzgar hizina (1.13 m/s) ya da kar derinligine capalamali."
+  },
+  {
+   "dosya": "content/reading/tests/AC4/sentence-completion.json",
+   "numara": 21,
+   "tip": "sentence_completion",
+   "pasaj": "A11",
+   "kacinilacak": {
+    "kanit_cumlesi": "All four instruments were administered as paper questionnaires immediately before and again immediately after each 15-minute period, so that any change could be attributed specifically to the intervening exposure rather than to the simple passage of time.",
+    "ifade": "All four scales were filled in on paper right before and right after the quarter of an hour, making it possible to credit any shift to the setting itself rather than to the mere ........ of time."
+   },
+   "neden_elendi": "'the passage of time' Ingilizcede tam kaliplasmis bir ifade; bosluk bu kalibin icinde durdugu surece hangi cerceveye konursa konsun tek tamamlamasi var, 'of time' kaldirildiginda ise cumle anlamini yitiriyor. E6 bu yuvayi ayni cumlenin olculebilir ayrintisina (anketlerin kagit uzerinde, on bes dakikanin hemen oncesinde ve hemen sonrasinda uygulanmasi) tasimali."
+  },
+  {
+   "dosya": "content/reading/tests/GT2/table-completion.json",
+   "numara": 16,
+   "tip": "table_completion",
+   "pasaj": "G04",
+   "kacinilacak": {
+    "kanit_cumlesi": "Complete the online application form and upload a current CV by 28 February.",
+    "ifade": "Written stage: Form filled in online, an up-to-date (16) ........ , and 300 words on why you want the placement"
+   },
+   "neden_elendi": "Is basvurusu baglaminda 'guncel bir ___ yukleyin' satirinin tek yaygin tamamlamasi CV; sozcuk basvuru surecinin kendisinden cikiyor, pasajdan degil. Satiri yeniden yazmak bunu degistirmiyor. E6 bu yuvayi ayni paragrafin baska bir kosuluna (300 kelimelik gerekce metni ya da 28 Subat son basvuru tarihi) capalamali."
+  },
+  {
+   "dosya": "content/reading/tests/GT2/table-completion.json",
+   "numara": 20,
+   "tip": "table_completion",
+   "pasaj": "G04",
+   "kacinilacak": {
+    "kanit_cumlesi": "Each intern is paired with a mentor from their assigned department who meets with them weekly throughout the ten weeks.",
+    "ifade": "During the placement: A (20) ........ from the intern's own department sees them once a week"
+   },
+   "neden_elendi": "Kanit cumlesinin butun icerigi ('kendi biriminden biriyle eslestirilir, on hafta boyunca haftada bir gorusur') Ingiliz is dunyasinda dogrudan 'mentor' rolunu tanimliyor; satirdan hangi ayrinti cikarilirsa cikarilsin kalan cerceve ayni sozcugu veriyor. E6 bu yuvayi staj suresinin baska bir ayrintisina (aylik ucret ya da on haftalik sure) tasimali."
+  },
+  {
+   "dosya": "content/reading/tests/AC4/summary-completion.json",
+   "numara": 36,
+   "tip": "summary_completion",
+   "pasaj": "A12",
+   "kacinilacak": {
+    "kanit_cumlesi": "The first experiment used a between-subjects design, meaning that different participants were assigned to a sleep group or a wake group, while the second used a within-subject design in which the same participants experienced both a nap and a period of wakefulness on different days, allowing more direct comparison.",
+    "ifade": "In the earlier one, different volunteers were placed in a sleeping group and a waking group; the later one instead used a (36) ........ design, so that the very same volunteers went through both a rest and a matching stretch of time without one."
+   },
+   "neden_elendi": "Bosluk 'within-subject' terimini hedefliyor ve bu terimin Ingilizcedeki tek tanimi 'ayni katilimcilar her iki kosuldan da gecer'. Ikinci deneyi durustce anlatan her ozet bu tanimi vermek zorunda, yani tanim sizintisi cerceveden degil boslugun hedefinden geliyor. Ustelik ayni ozetteki 37. cumle ilk deneyin iki ayri gruptan olustugunu soyluyor; bankadaki karsit terim C ('between-subjects') boylece ilk deneye baglanip eleniyor ve J elemeyle cikiyor. Tanimi ozetten silmek kalan cerceveyi anlamsiz birakiyor; bankadaki C'yi degistirmek ise J'yi bankadaki tek arastirma-deseni terimi haline getirip sizintiyi buyutuyor. Tek cikis boslugu baska bir ayrintiya tasimak, o da answer'i degistirmek demek - talimat bunu yarim duzeltme sayiyor. E6 bu yuvayi B ya da D paragrafinin baska bir ayrintisina capalamali (haftada en az bir kez sekerleme yapan 34 katilimci, ya da sersemligi azaltmak icin uygulanan 30 dakikalik bulmaca)."
+  },
+  {
+   "dosya": "content/reading/tests/AC4/summary-completion.json",
+   "numara": 38,
+   "tip": "summary_completion",
+   "pasaj": "A12",
+   "kacinilacak": {
+    "kanit_cumlesi": "For semantically related word pairs, nocturnal sleep produced a substantially larger improvement in recall than daytime napping did, with a standardised effect size of 0.58 compared with only 0.15 for napping.",
+    "ifade": "Where the two halves of a pair were already (38) ........ , a whole night of sleep improved recall far more than a rest of an hour and a half did."
+   },
+   "neden_elendi": "Sorunun ekseni, uykunun hangi tur malzemeyi daha cok kayirdigi - bilissel bilimin en cok aktarilan bulgularindan biri - ve kelime bankasi bu ekseni hazir bir zit cift olarak tasiyor (D 'connected in meaning' / I 'unrelated in meaning'). Ustelik hemen ardindan gelen 39. cumle 'Where no such link existed' diyerek 38'in 'baglantili' taraf oldugunu soyluyor, yani I ozetin kendi ic mantigiyla de eleniyor. Bosluk nasil yazilirsa yazilsin secim iki kutuptan birini isaretlemeye iniyor ve karar pasajdan degil dunya bilgisinden geliyor; kip ya da cerceve duzeltmesi bunu kapatmaz. E6 bu yuvayi E paragrafinin pasaja ozgu bir ayrintisina tasimali (0.58'e karsi 0.15 etki buyuklugu, ya da 40 iliskili + 40 iliskisiz cift bolusumu)."
+  },
+  {
+   "dosya": "content/reading/practice/true-false-not-given.json",
+   "numara": 4,
+   "tip": "true_false_not_given",
+   "pasaj": "A02",
+   "kacinilacak": {
+    "kanit_cumlesi": "Pairs made up of strangers, by contrast, interacted sooner, touched each other more often, and spent longer engaged with one another overall.",
+    "ifade": "Strangers devoted more of their time together to interaction than familiar pairs did."
+   },
+   "neden_elendi": "Kanit cumlesi (F/3) tek bir yon soyluyor: yabanci ciftler daha erken etkilesime giriyor, daha sik dokunuyor ve birlikte daha uzun vakit geciriyor. Cumleden cikarilabilecek her dogru ifade 'yabancilar tanidiklardan daha cok etkilesime girer' bicimini aliyor; yenilik arayisi davranis biyolojisinin en yaygin genellemelerinden biri oldugu icin cevap ifade nasil yazilirsa yazilsin pasaja bakilmadan cikiyor. Cumlede pasaja ozgu tek bir sayi ya da ad da yok. E6 bu yuvayi F paragrafinin sayisal ayrintilarina capalamali (baskinligin tersine dondugu on iki yabanci ciftin sekizi, ya da son sinamada hic murekkep birakilmamasi)."
+  },
+  {
+   "dosya": "content/reading/practice/yes-no-not-given.json",
+   "numara": 11,
+   "tip": "yes_no_not_given",
+   "pasaj": "A11",
+   "kacinilacak": {
+    "kanit_cumlesi": "The pattern after the building condition was essentially the reverse.",
+    "ifade": "Looking at campus buildings changed participants' moods in much the same way the forest did."
+   },
+   "neden_elendi": "1. calistirma bu soruyu dokunulmadan birakmis ve gerekcesini review_note alanina yazmisti: sizinti ifadenin kipinde degil, kanit cumlesinin kendisinde. G/1 'The pattern after the building condition was essentially the reverse' diyor; bu kanita dayanan her NO ifadesi 'kontrol kosulu tedavi kosuluyla ayni sonucu vermez' deney mantigiyla parcasiz cozulebiliyor. Ifadeyi olculu yazmak yetmiyor, farkli bir kanit cumlesi gerekiyor; talimat kanit degisimini yarim duzeltme saydigi icin yuva bu calistirmada elenenlere alindi. E6 bu yuvayi G paragrafinin sayisal ayrintisina capalamali (dinlendiricilik puanlarinin yaklasik yariya dusmesi) ya da H paragrafindaki karin canlilik uzerindeki etkisi savina tasimali."
+  },
+  {
+   "dosya": "content/reading/tests/AC1/matching-features.json",
+   "numara": 25,
+   "tip": "matching_features",
+   "pasaj": "A02",
+   "kacinilacak": {
+    "kanit_cumlesi": "The other half were separated by an opaque divider and had no contact of any kind.",
+    "ifade": "This group was given no way at all of sensing the other animal during the first stage."
+   },
+   "neden_elendi": "3. calistirma bu soruyu dokunulmadan birakmis ve gerekcesini review_note alanina yazmisti: sizinti ifadenin kipinde degil, kanit cumlesi ile secenek listesinin arasinda. Kanit cumlesi (C/3) yalniz bolmenin isik gecirip gecirmedigini soyluyor, secenek metinleri de iki grubu tam olarak bu ozellikle adlandiriyor (see-through screen / solid screen); ilk asamayla ilgili nasil yazilirsa yazilsin her ifade bu iki etiketten birine sozcuk duzeyinde baglaniyor. Duzeltmek icin ya kanit cumlesini ya secenek listesini degistirmek gerekiyor, talimat ikisini de yarim duzeltme saydigi icin yuva bu calistirmada elenenlere alindi. E6 icin en temiz cozum secenek listesini bolme turuyle degil asama/sira ile adlandirmak (ornegin 'ilk uc gunu ayri geciren birinci yari'); bu, AC1-26'yi da guclendirir."
+  },
+  {
+   "dosya": "content/reading/tests/AC1/true-false-not-given.json",
+   "numara": 10,
+   "tip": "true_false_not_given",
+   "pasaj": "A01",
+   "kacinilacak": {
+    "kanit_cumlesi": "When keepers moved the food to a new position, he adjusted by rolling the cube to the corresponding spot underneath.",
+    "ifade": "Kandula changed where he placed the cube when the food was moved."
+   },
+   "neden_elendi": "Kanit cumlesi (D/3) yalniz 'yiyecek yeri degistiginde Kandula kupu yeni noktaya yuvarladi' diyor; bu cumleden cikarilabilecek her dogru ifade 'akilli hayvan yeni duruma uyum sagladi' bicimini aliyor. Uyum saglama, akilli hayvan calismalarinin standart kanit yapisi olarak beklendigi icin cevap eksen degistirilmeden kapanmiyor; ekseni degistirmek ise kanit cumlesini degistirmek demek, talimat bunu yarim duzeltme sayiyor. E6 bu yuvayi D paragrafinin sayisal ya da nesnel ayrintilarina capalamali (ayni oturumda dokuz kez tekrarlamasi, kup kaldirilinca traktor lastigine gecmesi, kucuk nesneleri ust uste koyma denemesinin basarisiz olmasi)."
+  },
+  {
+   "dosya": "content/reading/tests/AC3/true-false-not-given.json",
+   "numara": 7,
+   "tip": "true_false_not_given",
+   "pasaj": "A07",
+   "kacinilacak": {
+    "kanit_cumlesi": "Whether the test measures genuine self-awareness or something narrower remains contested, but passing it is still treated as one of the clearest behavioural signs that an animal can distinguish its own reflection from that of another individual.",
+    "ifade": "Researchers still disagree about what a successful mirror test actually proves."
+   },
+   "neden_elendi": "Kanit cumlesi (A/3) ayna testinin gercekte neyi olctugu tartismasini ozetliyor: 'gercek oz farkindalik mi yoksa daha dar bir sey mi'. Bu tartisma hayvan bilisinin en cok aktarilan tartismalarindan biri ve cumlenin iki yarisi da (tartismanin varligi, testin yine de en net davranissal isaret sayilmasi) alan bilgisinden dogrudan cikiyor. Cumlede pasaja ozgu tek bir sayi, ad ya da olcu yok, dolayisiyla ifade nasil yazilirsa yazilsin eksen genel kultur kaliyor. E6 bu yuvayi B paragrafinin sayisal ayrintilarina capalamali (98 oturum, aynanin onunde 27 saate karsi seffaf panelin onunde 23 saat)."
+  },
+  {
+   "dosya": "content/reading/practice/sentence-completion.json",
+   "numara": 3,
+   "tip": "sentence_completion",
+   "pasaj": "A01",
+   "kacinilacak": {
+    "kanit_cumlesi": "More broadly, the study is a caution against judging an animal's intelligence from a single, narrowly designed test: a species may appear incapable of a mental feat simply because the equipment offered does not suit its particular anatomy, and a fairer test can reveal abilities that had been present all along.",
+    "ifade": "A species can look unable to perform a mental task merely because the apparatus it is given does not match its (3) ........"
+   },
+   "neden_elendi": "Cevap tek sozcuk ('anatomy') ve o sozcugun kendisi sizinti noktasi: model parcasiz uc turun ikisinde birebir 'anatomy', birinde tam es anlamlisi 'morphology' verdi. Boslugun hedefledigi kavram -- bir turun beden yapisi -- Ingilizcede birden cok sozcukle ayni sekilde adlandiriliyor (anatomy / morphology / body plan), ve 'cihaz turun X'ine uymuyordu' cercevesi hangi bicimde yazilirsa yazilsin bu kavrami zorunlu kiliyor. Ayirt edici oge cevabin kendisinde durdugu icin cerceve duzeltmesi sizintiya erisemiyor; kapatmak boslugu baska bir ayrintiya tasimayi, yani `answer` alanini degistirmeyi gerektirir. E6 onerisi: ayni paragrafin (H/1) icgoru olcutunu sayan yarisi -- cozumun hatasiz ve aniden ortaya cikmasi, yeni nesnelere uyarlanmasi, aletin birakildigi yerin hatirlanmasi."
+  },
+  {
+   "dosya": "content/reading/practice/sentence-completion.json",
+   "numara": 12,
+   "tip": "sentence_completion",
+   "pasaj": "A04",
+   "kacinilacak": {
+    "kanit_cumlesi": "For now, the discovery remains part of ongoing research rather than a finished, peer-reviewed result, but it illustrates a broader pattern in planetary astronomy: each generation of instruments reveals objects that the previous generation's technology, however capable at the time, simply could not see.",
+    "ifade": "At this stage the find counts as (12) ........ , since it has not yet been through peer review."
+   },
+   "neden_elendi": "Model parcasiz uc turda da 'preliminary' verdi: cevabin ('ongoing research') butun icerigini baska bir sozcukle karsiladi, yani eksik birakilan hicbir ayirt edici oge yok. Sizinti soru metninin bir yan cumlesinden degil, boslugun hedefinden geliyor: 'henuz hakem degerlendirmesinden gecmemis bulgu' kavraminin Ingilizcede hazir karsiligi vardir ve 'bitmis sonuc degil' karsitligini tasimayan bir cerceve de kurulamiyor, cunku kanit cumlesinin (H/1) ilk yarisi tam olarak bu karsitliktir. E6 onerisi: ayni cumlenin ikinci yarisi -- her yeni kusak aracin, onceki kusagin goremedigi nesneleri ortaya cikarmasi -- ya da H/2'deki El Moutamid degerlendirmesi."
+  },
+  {
+   "dosya": "content/reading/practice/short-answer.json",
+   "numara": 6,
+   "tip": "short_answer",
+   "pasaj": "A06",
+   "kacinilacak": {
+    "kanit_cumlesi": "The researchers interpret the pattern through the idea of a transactive memory system, in which effective teams develop a shared, largely implicit sense of who knows what, letting members find the right person to ask rather than needing constant interaction.",
+    "ifade": "Question 6 refers to Passage A06. Which idea do the researchers draw on to explain how a well-established team knows which member to turn to?"
+   },
+   "neden_elendi": "Model parcasiz uc turda da 'transactive memory' verdi, yani cevabin ayirt edici iki sozcugunu birebir tutturdu; dusen tek sey genel 'system' basiydi. Sorunun ekseni bir kurami ADIYLA sormak ('researchers hangi fikre dayaniyor'), o kuram da orgut psikolojisinin en cok atif yapilan kavramlarindan biri: 'kim neyi biliyor' ortak bellegi transaktif bellek diye adlandirilir. Bu yuzden sorun kip ya da konum degil eksenin kendisi -- kanit cumlesi ne kadar yeniden yazilirsa yazilsin, alani bilen cozucu adi metne bakmadan veriyor. E6 onerisi: H paragrafinin olcusel iddialari -- Caster'in yalniz bireysel ciktiya gore odeme yapmasi, ya da deneyimli meslektasin faydasinin daha AZ duzenli kesintiyle artmasi."
+  },
+  {
+   "dosya": "content/reading/tests/AC3/sentence-completion.json",
+   "numara": 22,
+   "tip": "sentence_completion",
+   "pasaj": "A08",
+   "kacinilacak": {
+    "kanit_cumlesi": "It does, however, create new hazards for mountaineers and scientific expeditions that use Yakutat as a staging point for trips into the St Elias Mountains, since previously stable slopes and crevasse fields may now be masked by loose debris or freshly exposed ice.",
+    "ifade": "No settlements were harmed, but slopes that used to be safe now put ........ and research parties setting out from Yakutat in danger."
+   },
+   "neden_elendi": "Kelime siniri ONE WORD ONLY ve cevap tek sozcuk ('mountaineers'); model parcasiz uc turda da tam es anlamlisi 'climbers' verdi. Boslugun hedefi 'daglara cikan insanlar' kavrami ve bu kavramin Ingilizcede birbirinin yerine gecen birden cok adi var (mountaineers / climbers / alpinists). Deprem yerlesimlere degil daga cikanlara zarar veriyor iddiasi kanit cumlesinin (G/2) tasidigi tek iddia oldugu icin, cerceve nasil yazilirsa yazilsin ayni kavram isteniyor; cerceve duzeltmesi cevaba erisemiyor. E6 onerisi: ayni cumlenin somut ayrintilari -- Yakutat'in cikis noktasi olarak kullanilmasi, ya da eskiden sabit olan yamaclarin gevsek enkaz ve yeni acilan buzla maskelenmesi."
+  },
+  {
+   "dosya": "content/reading/tests/AC4/sentence-completion.json",
+   "numara": 22,
+   "tip": "sentence_completion",
+   "pasaj": "A11",
+   "kacinilacak": {
+    "kanit_cumlesi": "The researchers suggest that snow itself may partly explain why vigour failed to rise after the forest visit, since a thick covering of snow hides the green vegetation that other studies have linked to increased energy and alertness, leaving only the calming, restorative effect intact rather than the more energising one.",
+    "ifade": "One explanation put forward for the absence of any rise in vigour is that a thick white layer conceals the green ........ which earlier work has tied to sharper alertness."
+   },
+   "neden_elendi": "Model parcasiz uc turun ikisinde birebir 'vegetation', birinde tam es anlamlisi 'foliage' verdi -- yani sizinti kelime duzeyinde bile neredeyse tam. Boslugun hedefi 'karin ortudugu yesillik' ve bunun Ingilizcede birden cok es adi var (vegetation / greenery / foliage / plant life). Kanit cumlesi (H/1) canliligin neden yukselmedigini yalniz bu tek nedenle acikliyor, dolayisiyla her cerceve 'kalin kar neyi gizler' sorusuna donuyor ve cevabi kendisi veriyor. E6 onerisi: ayni cumlenin son yarisi -- yalniz sakinlestirici etkinin ayakta kalmasi, canlandirici etkinin kalmamasi -- ya da H/2'deki orneklem sinirlari (tek kurum, kucuk orneklem, onerilen uc genisletme)."
+  },
+  {
+   "dosya": "content/reading/tests/GT1/sentence-completion.json",
+   "numara": 27,
+   "tip": "sentence_completion",
+   "pasaj": "G03",
+   "kacinilacak": {
+    "kanit_cumlesi": "Employees leaving the company are paid for any accrued but untaken leave as part of their final salary.",
+    "ifade": "Anyone who leaves the firm is given money for leave they had built up but never used, and this forms part of their (27) ........ ."
+   },
+   "neden_elendi": "Model parcasiz uc turda da 'final pay' verdi: cevabin ('final salary') ayirt edici sozcugunu ('final') birebir tutturdu, yalniz basi es anlamlisiyla degistirdi. Sizinti cerceveden degil eksenden geliyor: kanit cumlesi (B metni, D/2) 'isten ayrilan calisan kullanilmamis izninin karsiligini ne zaman alir' sorusuna cevap veriyor ve bu, calisma hayatinin standart uygulamasi -- ayrilista odenen sey son maastir. Ayrilma durumundan soz etmeyen bir cerceve kurmak mumkun degil, cunku kanit cumlesinin butun icerigi odur. E6 onerisi: ayni paragrafin birinci cumlesi -- en cok bes gunun yaziyla onay alinarak bir sonraki yila devredilebilmesi ve 31 Mart'ta yanmasi."
+  },
+  {
+   "dosya": "content/reading/tests/GT2/sentence-completion.json",
+   "numara": 25,
+   "tip": "sentence_completion",
+   "pasaj": "G04",
+   "kacinilacak": {
+    "kanit_cumlesi": "Employees who have completed their probationary period may apply to work remotely for up to three days per week, subject to line manager approval and the operational needs of their team.",
+    "ifade": "Staff can only ask to work from home once they have got through their (25) ........"
+   },
+   "neden_elendi": "Model parcasiz uc turda da 'probation period' verdi: ayni kelimenin baska cekimi, yani cevabin ('probationary period') ayirt edici ogesi tam olarak tutturuldu. Sorunun ekseni 'uzaktan calisma basvurusundan once neyin tamamlanmasi gerekir' ve bunun cevabi ise alma dunyasinin en yerlesik kuralidir; kanit cumlesi (B metni, A/1) baska hicbir on kosul icermiyor, dolayisiyla her cerceve ayni kavrami istiyor. E6 onerisi: ayni cumlenin sayisal siniri (haftada en cok uc gun) ya da A/2'deki musteriyle calisan roller istisnasi."
+  },
+  {
+   "dosya": "content/reading/practice/note-completion.json",
+   "numara": 1,
+   "tip": "note_completion",
+   "pasaj": "A06",
+   "kacinilacak": {
+    "kanit_cumlesi": "Its roughly 900 employees, spread across all 47 of Japan's prefectures and 23 other countries as of March 2025, handle client work entirely through remote communication platforms.",
+    "soru_metni": "Staff based in every one of Japan's (1) ........ prefectures, plus 23 further countries"
+   },
+   "neden_elendi": "Cevabin kendisi bir dunya bilgisi: Japonya'nin 47 ile bolunmus olmasi cografya ders kitabi duzeyinde bilinir ve model parcasiz uc turda da '47' yazdi (3/3 PUAN alirdi). Nottan 'Japan's' kaldirilsa bile 'prefecture' sozcugu tek basina Japonya'yi adlandiriyor, yani cerceve duzeltmesi yariya kaliyor. E6 onerisi: ayni cumledeki calisan sayisi (yaklasik 900) ya da '23 other countries' yerine Mart 2025 tarihi."
+  },
+  {
+   "dosya": "content/reading/practice/note-completion.json",
+   "numara": 10,
+   "tip": "note_completion",
+   "pasaj": "A09",
+   "kacinilacak": {
+    "kanit_cumlesi": "At Herculaneum, closer to the volcano, the town was overwhelmed instead by a series of pyroclastic flows, fast-moving currents of superheated gas and volcanic debris that can reach temperatures of around 500 degrees Celsius.",
+    "soru_metni": "Pyroclastic flows, racing currents of hot gas and debris, can reach about (10) ........ degrees Celsius"
+   },
+   "neden_elendi": "Cevabin kendisi bir dunya bilgisi: piroklastik akintilarin yaklasik 500 santigrat dereceye ulastigi volkanoloji anlatilarinin standart rakami; model uc turda da '500' yazdi (3/3 PUAN). Not satirinin kendisi zaten bu genel gercegin ifadesi, dolayisiyla yeniden yazmak sizintiyi kapatmiyor. E6 onerisi: A paragrafinin Herculaneum'a olan uzakligi ya da Pompeii ile Herculaneum'un farkli gomulme bicimi."
+  },
+  {
+   "dosya": "content/reading/practice/sentence-completion.json",
+   "numara": 1,
+   "tip": "sentence_completion",
+   "pasaj": "A01",
+   "kacinilacak": {
+    "kanit_cumlesi": "Laboratory studies have shown that elephants can recognise themselves in a mirror, remember locations for years and use branches to swat flies.",
+    "soru_metni": "Questions 1-3 refer to Passage A01. Work in laboratories had already established that elephants make use of branches in order to (1) ........"
+   },
+   "neden_elendi": "Cevabin kendisi bir dunya bilgisi: fillerin dallari sinek kovmak icin kullandigi hayvan davranisi kulturunun en cok tekrarlanan ayrintilarindan biri; model uc turda da 'swat flies' yazdi (3/3 PUAN). Kanit cumlesi (A/2) uc ornek sayiyor ve ucu de ayni olcude taniniyor (ayna testi, yer bellegi, sinek kovma), dolayisiyla cerceveyi baska ornege tasimak da sizdirir. E6 onerisi: A paragrafinin laboratuvar ile arazi arasinda kurdugu karsitlik."
+  },
+  {
+   "dosya": "content/reading/practice/sentence-completion.json",
+   "numara": 10,
+   "tip": "sentence_completion",
+   "pasaj": "A04",
+   "kacinilacak": {
+    "kanit_cumlesi": "Uranus, the seventh planet from the Sun, is already known for an unusually crowded family of moons and a tilted, tangled system of rings.",
+    "soru_metni": "Questions 10-12 refer to Passage A04. In order of distance outwards from the Sun, Uranus comes (10) ........"
+   },
+   "neden_elendi": "Cevabin kendisi bir dunya bilgisi: Uranus'un Gunes'ten yedinci gezegen olmasi temel astronomi; model uc turda da 'seventh' yazdi (3/3 PUAN). Soru kokunun kendisi ('in order of distance outwards from the Sun') zaten dunya bilgisini cagiriyor. E6 onerisi: A/1'in oteki yarisi - uydu ailesinin kalabalikligi ya da halka sisteminin egikligi."
+  },
+  {
+   "dosya": "content/reading/practice/sentence-completion.json",
+   "numara": 11,
+   "tip": "sentence_completion",
+   "pasaj": "A04",
+   "kacinilacak": {
+    "kanit_cumlesi": "Its size simply placed it below the threshold that Voyager's instruments, or any Earth-based telescope in the decades since, could resolve, meaning the moon had been circling Uranus unnoticed for the nearly forty years between that flyby and Webb's observations.",
+    "soru_metni": "Being too small for the instruments of the day to resolve, the moon circled Uranus unseen for almost (11) ........ after the 1986 flyby."
+   },
+   "neden_elendi": "Sizinti aritmetik ve kapatilamiyor: cumle 1986 ucusunu veriyor, gunumuz tarihi de disaridan biliniyor, ikisinin farki dogrudan 'forty years' ediyor; model uc turda da '40 years' yazdi (kabul listesinde var, 3/3 PUAN). Cumleden 1986'yi kaldirmak yariya kalir, cunku Voyager 2'nin Uranus'e 1986'da ugradigi ayrica dunya bilgisidir - ayni depodaki practice/short-answer 4 bunun kaniti: model o tarihi gun gun bilerek yazdi. E6 onerisi: F/3'un cozunurluk esigi gerekcesi ya da uydunun yaklasik on kilometrelik capi."
+  },
+  {
+   "dosya": "content/reading/practice/short-answer.json",
+   "numara": 4,
+   "tip": "short_answer",
+   "pasaj": "A04",
+   "kacinilacak": {
+    "kanit_cumlesi": "NASA's Voyager 2 spacecraft flew past Uranus on 24 January 1986, capturing the only close-up images of the planet's moons that exist to this day, and yet it did not detect this moon at all.",
+    "soru_metni": "Question 4 refers to Passage A04. On what date did the earlier spacecraft mission make its close approach to Uranus?"
+   },
+   "neden_elendi": "Cevabin kendisi bir dunya bilgisi: Voyager 2'nin Uranus'e en yakin gecis tarihi (24 Ocak 1986) halka acik NASA kayitlarindan bilinen unlu bir tarih; model uc turda da gun/ay/yil dogru yazdi (3/3 PUAN). Soru kokunun tamami zaten 'o tarih neydi' sorusudur, yani eksen dunya bilgisinin kendisi. E6 onerisi: F/2'nin ikinci yarisi - Voyager'in cektigi yakin goruntulerin bugun hala tek ornek olmasi, ya da bu uydunun o gecise hic yakalanmamis olmasi."
+  },
+  {
+   "dosya": "content/reading/practice/short-answer.json",
+   "numara": 8,
+   "tip": "short_answer",
+   "pasaj": "A08",
+   "kacinilacak": {
+    "kanit_cumlesi": "The most conspicuous single event showed up as a wide cascade of debris pouring down the flank of Mount King George, while further landslide scars were visible around Mount Logan, Canada's tallest peak.",
+    "soru_metni": "Question 8 refers to Passage A08. Which summit does the passage identify as the highest in Canada?"
+   },
+   "neden_elendi": "Cevabin kendisi bir dunya bilgisi ve soru kokunun tamami onu soruyor: 'Kanada'nin en yuksek zirvesi' sorusunun cevabi Mount Logan'dir ve model uc turda da yazdi (3/3 PUAN). Kokten 'highest in Canada' ibaresini cikarmak soruyu duzeltmez, baska bir soru yazmak olur - talimatin yarim duzeltme saydigi sey budur. E6 onerisi: D/1'in oteki yarisi - Mount King George'un yamacindaki genis enkaz akmasi ya da uydu goruntusuyle yer arastirmasinin ortusmesi."
+  },
+  {
+   "dosya": "content/reading/practice/summary-completion.json",
+   "numara": 2,
+   "tip": "summary_completion",
+   "pasaj": "A10",
+   "kacinilacak": {
+    "kanit_cumlesi": "A similar pattern emerged for flow, the psychological state of being deeply absorbed and focused on a task.",
+    "soru_metni": "The same two layouts also came top for flow, the mental state in which a person is completely (2) ........ in the task at hand, which points to partial enclosure as an aid to lasting concentration."
+   },
+   "neden_elendi": "Cevabin kendisi, ozetin verdigi tanimin standart sozcugu: 'flow' kavraminin psikolojideki ders kitabi tanimi zaten 'bir ise tamamen dalmis (absorbed) olma hali'dir; model uc turda da 'absorbed' yazdi (3/3 PUAN). Tanimi ozetten cikarmak boslugu kapatmiyor, bosalttiyor: geriye kalan 'a person is completely ___' cercevesine absorbed, immersed, engrossed, focused esit derecede uyar ve soru cok cevapli hale gelir. E6 onerisi: E paragrafinin flow icin verdigi sayisal fark ya da kismi bolmenin rolu."
+  },
+  {
+   "dosya": "content/reading/practice/summary-completion.json",
+   "numara": 9,
+   "tip": "summary_completion",
+   "pasaj": "G05",
+   "kacinilacak": {
+    "kanit_cumlesi": "Rather than relying on households to estimate their own waste, which tends to produce unreliable figures, the research team physically collected, sorted and weighed the solid food waste from each home's rubbish over eight consecutive days, using digital scales accurate to two grams.",
+    "soru_metni": "Because families are poor judges of their own rubbish, the team gathered what each home actually binned on eight days in a row and put it on (9) ........ precise to within two grams."
+   },
+   "neden_elendi": "🔴 Sizinti kabul listesinin kendisinde ve o korunan bir alan: accepted_variants 'scales' tek basina kabul ediyor, model de uc turda 'scales' yazdi (3/3 PUAN). Cerceveden 'precise to within two grams' ibaresini kaldirmak 'digital' niteleyicisinin kaynagini kapatir ama cop tartilan seyin terazi olmasi zaten kacinilmaz oldugu icin 'scales' yine puan alir. Kabul listesini daraltmak talimatin korunan alan kuralina takiliyor, dolayisiyla mekanik duzeltme yolu yok. E6 onerisi: B/1'in ayirt edici ayrintisi - sekiz ardisik gun ya da atigin ayrica tasnif edilmesi."
+  },
+  {
+   "dosya": "content/reading/tests/AC1/sentence-completion.json",
+   "numara": 22,
+   "tip": "sentence_completion",
+   "pasaj": "A02",
+   "kacinilacak": {
+    "kanit_cumlesi": "Repeated costly fights between the same two animals would waste energy and risk injury to no purpose, so an octopus that can recognise a familiar neighbour and respond to it with reduced aggression, a pattern long described in other species as the \"dear enemy\" effect, stands to gain from avoiding needless conflict.",
+    "soru_metni": "Reacting with less hostility to an animal that is already known has been given the name of the (22) ........ effect by researchers working on other groups."
+   },
+   "neden_elendi": "Cevabin kendisi yerlesik bir literatur terimi: 'dear enemy effect' hayvan davranisi yazininin adiyla anilan bir kavramidir ve model uc turda da yazdi (3/3 PUAN). Cumleden tanimi ('reacting with less hostility to an animal that is already known') cikarmak mumkun degil, cunku hangi etkinin sorulduğunu belirleyen tek sey odur; kalan her cerceve ayni unlu terimi cagiriyor. E6 onerisi: H/2'nin gerekce yarisi - tekrarlanan kavgalarin enerji harcamasi ve yaralanma riski."
+  },
+  {
+   "dosya": "content/reading/tests/AC1/summary-completion.json",
+   "numara": 36,
+   "tip": "summary_completion",
+   "pasaj": "A03",
+   "kacinilacak": {
+    "kanit_cumlesi": "Maug is what remains of a volcano that collapsed long ago, leaving three small islands arranged in a rough circle around a flooded caldera.",
+    "soru_metni": "Maug is what is left of a volcano that fell in on itself, so that three small islands now sit in a ring around a drowned (36) ........ ."
+   },
+   "neden_elendi": "Cevabin kendisi yerlesik bir jeoloji terimi: cokmus bir yanardagin halka bicimli cukuru 'caldera' diye anilir ve ozetin kendisi bu tanimi ('a volcano that fell in on itself ... three small islands in a ring') veriyor; model uc turda da yazdi (3/3 PUAN). Tanimi cikarmak boslugu yanitlanamaz yapar, birakmak terimi verir. E6 onerisi: B/2'nin oteki ayrintisi - uc adanin sayisi ya da adalarin dizilisi yerine yanardagin cokme zamani."
+  },
+  {
+   "dosya": "content/reading/tests/AC1/summary-completion.json",
+   "numara": 38,
+   "tip": "summary_completion",
+   "pasaj": "A03",
+   "kacinilacak": {
+    "kanit_cumlesi": "Immediately around the vents, weedy algae tend to dominate the seafloor, while reefs only a short distance away, in less acidified water, remain visibly healthier and more coral-dominated.",
+    "soru_metni": "Their readings show that the water closest to the openings is slightly more acidic than the rest of the reef, and that the seabed there is taken over by (38) ........ instead of healthy coral."
+   },
+   "neden_elendi": "Cevap iki yonden sizdiriyor: asitlenen suda saglikli mercanin yerini yosunun almasi iklim habercilerinin en cok tekrarladigi oruntudur ve kabul listesi 'algae' sozcugunu tek basina kabul ediyor; model uc turda da 'algae' yazdi (3/3 PUAN). Niteleyiciyi ('weedy') zorunlu kilmak icin kabul listesini daraltmak gerekir, o da korunan bir alan. E6 onerisi: F/2'nin karsilastirma yarisi - bacalardan biraz uzaktaki mercanin gorunur bicimde saglikli kalmasi."
+  },
+  {
+   "dosya": "content/reading/tests/AC1/summary-completion.json",
+   "numara": 39,
+   "tip": "summary_completion",
+   "pasaj": "A03",
+   "kacinilacak": {
+    "kanit_cumlesi": "It found that in the naturally acidified water near the vents, microscopic boring organisms colonised coral skeletons more heavily, accelerating a process called bioerosion in which the skeleton is weakened and broken down from within.",
+    "soru_metni": "A second piece of research found that minute organisms bore into the skeletons far more heavily in this water, speeding up (39) ........ and weakening the reef from the inside."
+   },
+   "neden_elendi": "Cevabin kendisi yerlesik bir deniz biyolojisi terimi ve ozet onun tanimini veriyor: 'minute organisms bore into the skeletons ... weakening the reef from the inside' zaten bioerosion'un sozluk karsiligidir; model uc turda da yazdi (3/3 PUAN). Tanimi cikarinca bosluk yanitlanamaz hale geliyor. E6 onerisi: G/2'nin nicel yarisi - oyucu canlilarin bu suda ne kadar daha yogun yerlestigi."
+  },
+  {
+   "dosya": "content/reading/tests/AC2/flow-chart-completion.json",
+   "numara": 2,
+   "tip": "flow_chart_completion",
+   "pasaj": "A04",
+   "kacinilacak": {
+    "kanit_cumlesi": "The newly found body has been given the provisional designation S/2025 U1.",
+    "soru_metni": "The speck is accepted as a body circling Uranus and is entered in the records under the provisional (2) ........ S/2025 U1."
+   },
+   "neden_elendi": "Cevabin kendisi yerlesik bir astronomi terimi: yeni bulunan gok cisimlerine kalici ad verilmeden once 'provisional designation' atanmasi adlandirma geleneginin kendisidir ve S/2025 U1 bicimindeki kod bu terimin isaretidir; model uc turda da 'designation' yazdi (3/3 PUAN). Kutudan 'provisional' sozcugunu kaldirmak yetmiyor, cunku sizdiran sey sifat degil adlandirma gelenegini bilmek. E6 onerisi: C paragrafinin gozlem ayrintisi - cismin kac pozda izlendigi ya da hangi tarihte kaydedildigi."
+  },
+  {
+   "dosya": "content/reading/tests/AC2/flow-chart-completion.json",
+   "numara": 6,
+   "tip": "flow_chart_completion",
+   "pasaj": "A04",
+   "kacinilacak": {
+    "kanit_cumlesi": "Following long tradition, Uranus's moons are named not after figures from classical mythology, as is usual elsewhere in the solar system, but after characters drawn from the plays of Shakespeare and the poetry of Alexander Pope; the newcomer's eventual name will still need formal approval from the International Astronomical Union.",
+    "soru_metni": "A lasting name, drawn from plays and poetry rather than from myth, still has to be approved by the (6) ........ ."
+   },
+   "neden_elendi": "Cevabin kendisi bir ozel ad ve dunya bilgisi: gok cismi adlarini onaylayan kurumun Uluslararasi Astronomi Birligi olmasi astronominin en cok bilinen kurumsal gercegi; model uc turda da adin tamamini yazdi (3/3 PUAN). Kutunun kalan icerigi (Shakespeare ve Pope gelenegi) degistirilse bile 'onaylayan kurum' sorusunun tek cevabi ayni kalir. E6 onerisi: E/2'nin gelenek yarisi - adlarin mitolojiden degil oyun ve siirden secilmesi."
+  },
+  {
+   "dosya": "content/reading/tests/AC2/sentence-completion.json",
+   "numara": 21,
+   "tip": "sentence_completion",
+   "pasaj": "A05",
+   "kacinilacak": {
+    "kanit_cumlesi": "From these samples the team recovered thirty-two DNA sequences in total, and among them were fragments containing the so-called D genome, a segment of genetic material found only in hexaploid wheat.",
+    "soru_metni": "A stretch of genetic material carried only by six-chromosome wheat, known as the (21) ........ , turned up in grains that shape alone had put down as einkorn and emmer."
+   },
+   "neden_elendi": "Cevabin kendisi yerlesik bir bugday genetigi terimi ve cumle onun tanimini veriyor: 'alti kromozomlu bugdaya ozgu genetik bolge' zaten D genome'un tanimidir; model uc turda da yazdi (3/3 PUAN). Tanim cikarilirsa hangi dizinin soruldugu belirsizlesir. Ayrica 3. calistirma ayni pasajda hexaploid terimini tasiyan practice-6'yi da ayni gerekceyle elemisti. E6 onerisi: E/3'un sayisal yarisi - toplam otuz iki DNA dizisi."
+  },
+  {
+   "dosya": "content/reading/tests/AC2/sentence-completion.json",
+   "numara": 22,
+   "tip": "sentence_completion",
+   "pasaj": "A05",
+   "kacinilacak": {
+    "kanit_cumlesi": "Simple wheat domestication is usually traced to the Fertile Crescent around twelve thousand years ago, with the region of Karacadağ in southern Turkey generally credited as the birthplace of einkorn cultivation specifically.",
+    "soru_metni": "By the usual account, the growing of einkorn began in the (22) ........ area in the south of Turkey."
+   },
+   "neden_elendi": "Cevabin kendisi bir ozel ad ve arkeoloji ders kitabi bilgisi: einkorn ekiminin dogdugu yer olarak Karacadag anilir; model uc turda da yazdi (3/3 PUAN). 3. calistirma ayni pasajda ayni ekseni tasiyan AC2-24 ve AC2-25'i zaten elemisti, dolayisiyla bu yuva o kararin devami. 🔴 E6 dikkat: G/2 artik bu testte ucuncu kez elenen bir yuvanin kanit cumlesi; bu cumleye yeni soru yazilmamali. E6 onerisi: G paragrafinin yayilma anlatisi yerine E/3'teki korunma karsilastirmasi."
+  },
+  {
+   "dosya": "content/reading/tests/AC3/sentence-completion.json",
+   "numara": 19,
+   "tip": "sentence_completion",
+   "pasaj": "A08",
+   "kacinilacak": {
+    "kanit_cumlesi": "Mapping this kind of damage is unusually difficult in a glaciated landscape, because the usual method, comparing ground displacement before and after an earthquake, depends on being able to see the bedrock that has moved.",
+    "soru_metni": "Damage of this kind is hard to chart here because the technique normally relied on, which tracks the ........ of the ground before and after a quake, needs a clear view of the rock underneath."
+   },
+   "neden_elendi": "Cevabin kendisi yerlesik bir sismoloji terimi ve cumle onun tanimini veriyor: 'tracks the ___ of the ground before and after a quake' zaten ground displacement'in tanimidir; model uc turda da yazdi (3/3 PUAN). ONE WORD ONLY sinirinda bu tanimi tasimayan bir cerceve kurulamiyor. E6 onerisi: B/2'nin gerekce yarisi - yontemin buzul altindaki ana kayayi gorebilmeyi gerektirmesi."
+  },
+  {
+   "dosya": "content/reading/tests/AC3/sentence-completion.json",
+   "numara": 21,
+   "tip": "sentence_completion",
+   "pasaj": "A08",
+   "kacinilacak": {
+    "kanit_cumlesi": "Adding to the complexity, a tributary glacier flowing from the slopes near Mount King George had already entered a fast-moving surge phase in November, weeks before the earthquake struck, and was travelling downslope at up to 6,000 metres a year, roughly 50 feet every day.",
+    "soru_metni": "Even before the ground shook, a smaller glacier below Mount King George was covering some 50 feet a day, having entered a rapid ........ phase the month before the quake."
+   },
+   "neden_elendi": "Cevabin kendisi yerlesik bir buzulbilim terimi ve cumle onun tanimini veriyor: gunde 50 fit ilerleyen bir buzulun 'rapid ___ phase'i surge disinda adlandirilmiyor; model uc turda da yazdi (3/3 PUAN). Hizi cikarmak boslugu belirsizlestiriyor, birakmak terimi veriyor. E6 onerisi: F/1'in tarih yarisi - depremden haftalar once, kasim ayinda baslamis olmasi."
+  },
+  {
+   "dosya": "content/reading/tests/GT1/note-completion.json",
+   "numara": 19,
+   "tip": "note_completion",
+   "pasaj": "G03",
+   "kacinilacak": {
+    "kanit_cumlesi": "Full-time employees are entitled to 28 days of paid annual leave per year, including public holidays.",
+    "soru_metni": "Annual leave: Someone working full time receives (19) ........ of paid leave a year, with public holidays counted inside that total"
+   },
+   "neden_elendi": "Cevabin kendisi hukukla sabitlenmis bir sayi: Birlesik Krallik'ta tam zamanli calisanin yasal asgari yillik izni resmi tatiller dahil 28 gundur ve not satiri bu kosulun ikisini de ('full time', 'public holidays counted inside that total') veriyor; model uc turda da '28 days' yazdi (3/3 PUAN). Kosullari cikarmak sayiyi bulunamaz yapar. E6 onerisi: B metni A/1 yerine izin talebinin iki hafta onceden yapilmasi kurali - ama o yuva 20'de dolu oldugu icin baska bir paragraf secilmeli."
+  },
+  {
+   "dosya": "content/reading/tests/GT1/sentence-completion.json",
+   "numara": 26,
+   "tip": "sentence_completion",
+   "pasaj": "G03",
+   "kacinilacak": {
+    "kanit_cumlesi": "Overtime is paid at 1.5 times the standard hourly rate for hours worked beyond the 37.5-hour week, and at double time for work on public holidays.",
+    "soru_metni": "Hours put in on a public holiday are rewarded at (26) ........ , not at the one-and-a-half rate that applies to other extra hours."
+   },
+   "neden_elendi": "Cevabin kendisi Ingilizce is dunyasinin yerlesik terimi: resmi tatil calismasinin karsiligi 'double time'dir ve cumle bir bucuk kat karsitligini vererek terimi dogrudan cagiriyor; model uc turda da yazdi (3/3 PUAN). Karsitligi kaldirmak cumleyi anlamsiz birakir. E6 onerisi: B metni C/1'in oteki yarisi - haftalik 37,5 saatlik esik."
+  }
+ ]
 }

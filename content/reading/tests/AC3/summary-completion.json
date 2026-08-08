@@ -13,7 +13,7 @@
   "word_limit": "NO MORE THAN TWO WORDS",
   "word_bank": null,
   "visual": null,
-  "stem_block": "Analysing the glass from the skull\n\nThe dark material found inside the young man's skull proved to be brain tissue turned straight into a glassy solid. Such a change is very rare, since it happens only where tissue is made hot enough, fast enough, for ordinary (36) ........ never to begin, and is then chilled again before it burns away. Several methods were combined to test the identification: an electron microscope showed the fine internal structure of the glass, X-rays gave its chemical make-up, a purpose-built image-processing routine picked out the regular pattern of the covering around nerve fibres, and a check against (37) ........ of brain proteins independently confirmed where the tissue came from. The measurements were strikingly detailed. Nerve fibres were close in width to those of a living brain, their coverings kept a layered form, and even the (38) ........ , the smallest structures the team reports, were still in place. Chemistry pointed the same way: (39) ........ proteins that occur only in brain tissue were identified, one of them needed for signals to pass between nerve cells. The authors conclude that only a very narrow band of (40) ........ — heat applied in an instant, then cooling almost at once — could have left the tissue both scorched and structurally intact, since anything slower would have ruined it.",
+  "stem_block": "Analysing the glass from the skull\n\nThe dark material found inside the young man's skull proved to be brain tissue turned straight into a glassy solid. Such a change is very rare, since it happens only where tissue is made hot enough, fast enough, for ordinary (36) ........ never to begin, and is then chilled again before it burns away. Several methods were combined to test the identification: an electron microscope showed the fine internal structure of the glass, X-rays gave its chemical make-up, a purpose-built image-processing routine picked out the regular pattern of the covering around nerve fibres, and a check against (37) ........ of brain proteins independently confirmed where the tissue came from. The measurements were strikingly detailed. Nerve fibres were close in width to those of a living brain, their coverings kept a layered form, and even the (38) ........ , the smallest structures the team reports, were still in place. Chemistry pointed the same way: (39) ........ proteins that occur only in brain tissue were identified, one of them needed for signals to pass between nerve cells. The authors conclude that only a very narrow band of (40) ........ could have left the tissue both scorched and structurally intact, since anything slower would have ruined it.",
   "items": [
     {
       "number": 36,
@@ -36,7 +36,8 @@
       "blind_solvable_kelime_duzeyi": false,
       "blind_basis": "logic",
       "flag_reason": "Parça gösterilmeden anlamca 3/3 turda doğru bilindi: farklı kelimeyle ama doğru kavramla cevaplandı (3 turda da 'decay' verdi, gerçek cevap 'decomposition' — eş anlamlı).",
-      "flag_mechanism": "esdizim_kilidi"
+      "flag_mechanism": "esdizim_kilidi",
+      "review_note": "E5 / 8. calistirma: dokunulmadi. Model uc turda da 'decay' verdi; kabul listesi yalniz 'decomposition' kabul ettigi icin 3 turun 0'inda puan alirdi. Bas ad zorunlu: 'dokunun cok cabuk isitilmasi yuzunden siradan ___ hic baslamadi' cercevesinde curume disinda bir kavram okunamaz. Sorunun gercek kusuru cerceve degil, kabul listesinin darligi - o da korunan bir alan."
     },
     {
       "number": 37,
@@ -60,7 +61,8 @@
       "blind_solvable_kelime_duzeyi": false,
       "blind_basis": "logic",
       "flag_reason": "Parça gösterilmeden anlamca 3/3 turda doğru bilindi: farklı kelimeyle ama doğru kavramla cevaplandı (3 turda da 'databases' verdi, gerçek cevap 'reference databases').",
-      "flag_mechanism": "esdizim_kilidi"
+      "flag_mechanism": "esdizim_kilidi",
+      "review_note": "E5 / 8. calistirma: dokunulmadi. Model uc turda da 'databases' verdi; ayirt edici oge ('reference') hic gelmedi ve kabul listesi yalniz 'reference database(s)' kabul ettigi icin 3 turun 0'inda puan alirdi. Bas ad zorunlu: 'beyin proteinlerinin ___ ile karsilastirilmasi' cercevesinde veri tabani disinda bir sey okunamaz. Duzeltme yarim kalirdi."
     },
     {
       "number": 38,
@@ -114,7 +116,7 @@
     },
     {
       "number": 40,
-      "prompt": "The authors conclude that only a very narrow band of (40) ........ — heat applied in an instant, then cooling almost at once — could have left the tissue both scorched and structurally intact.",
+      "prompt": "The authors conclude that only a very narrow band of (40) ........ could have left the tissue both scorched and structurally intact.",
       "answer": [
         "thermal conditions"
       ],
@@ -126,14 +128,20 @@
         "paragraph": "G",
         "sentence": 2
       },
-      "explanation": "Paragraph G says only a very narrow range of thermal conditions could explain both the extreme heat exposure and the preservation of the structure; so the answer is 'thermal conditions'.",
+      "explanation": "Paragraph G says only a very narrow set of thermal conditions could explain both the extreme heat exposure and the preservation of the structure; so the answer is 'thermal conditions'.",
       "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
+      "status": "verified",
+      "blind_solvable": null,
       "blind_solvable_kelime_duzeyi": false,
       "blind_basis": "logic",
       "flag_reason": "Parça gösterilmeden anlamca 3/3 turda doğru bilindi: farklı kelimeyle ama doğru kavramla cevaplandı (3 turda da 'conditions' verdi, gerçek cevap 'thermal conditions'; cümlenin kendi açıklaması ('ani ısı, hemen ardından soğuma') aynı göndergeyi veriyor).",
-      "flag_mechanism": "esdizim_kilidi"
+      "flag_mechanism": "esdizim_kilidi",
+      "revision": {
+        "tarih": "2026-08-08",
+        "mekanizma": "tanim_sizintisi",
+        "onceki_prompt": "The authors conclude that only a very narrow band of (40) ........ — heat applied in an instant, then cooling almost at once — could have left the tissue both scorched and structurally intact.",
+        "ne_degisti": "Boslugun hemen ardindaki cizgi arasi ac tanim ('heat applied in an instant, then cooling almost at once') kaldirildi - bu, 'thermal' niteleyicisinin ozetteki tek kaynagiydi ve model uc turda da bas adi ('conditions') veriyordu. Niteleyici artik yalniz G/2'den okunabiliyor."
+      }
     }
   ]
 }

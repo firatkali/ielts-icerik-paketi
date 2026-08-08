@@ -61,11 +61,12 @@
       },
       "explanation": "Paragraph C says the newly found body has been given the provisional designation S/2025 U1; so the answer is 'designation'.",
       "difficulty": "medium",
-      "status": "flagged",
+      "status": "rejected",
       "blind_solvable": true,
       "blind_basis": "general_knowledge",
       "flag_reason": "Cevap 'designation', yeni kesfedilen gok cisimlerine resmi isim verilmeden once 'gecici designation' (kod) atanmasi astronomideki yerlesik, yaygin bilinen bir uygulama; bu genel bilgiyle bosluk parcaya bakmadan da doldurulabiliyor.",
-      "flag_mechanism": "genel_kultur"
+      "flag_mechanism": "genel_kultur",
+      "reject_reason": "Cevabin kendisi yerlesik bir astronomi terimi: yeni bulunan gok cisimlerine kalici ad verilmeden once 'provisional designation' atanmasi adlandirma geleneginin kendisidir ve S/2025 U1 bicimindeki kod bu terimin isaretidir; model uc turda da 'designation' yazdi (3/3 PUAN). Kutudan 'provisional' sozcugunu kaldirmak yetmiyor, cunku sizdiran sey sifat degil adlandirma gelenegini bilmek. E6 onerisi: C paragrafinin gozlem ayrintisi - cismin kac pozda izlendigi ya da hangi tarihte kaydedildigi."
     },
     {
       "number": 3,
@@ -149,11 +150,12 @@
       },
       "explanation": "Paragraph E states that the moon's lasting name requires formal approval from the International Astronomical Union; so the answer is 'International Astronomical Union'.",
       "difficulty": "medium",
-      "status": "flagged",
+      "status": "rejected",
       "blind_solvable": true,
       "blind_basis": "general_knowledge",
       "flag_reason": "Cevap 'International Astronomical Union', gok cismi adlarinin resmi onayini veren kurulusun Uluslararasi Astronomi Birligi olmasi astronomide yaygin bilinen bir gercek; bu genel bilgiyle bosluk parcaya bakmadan da doldurulabiliyor.",
-      "flag_mechanism": "genel_kultur"
+      "flag_mechanism": "genel_kultur",
+      "reject_reason": "Cevabin kendisi bir ozel ad ve dunya bilgisi: gok cismi adlarini onaylayan kurumun Uluslararasi Astronomi Birligi olmasi astronominin en cok bilinen kurumsal gercegi; model uc turda da adin tamamini yazdi (3/3 PUAN). Kutunun kalan icerigi (Shakespeare ve Pope gelenegi) degistirilse bile 'onaylayan kurum' sorusunun tek cevabi ayni kalir. E6 onerisi: E/2'nin gelenek yarisi - adlarin mitolojiden degil oyun ve siirden secilmesi."
     }
   ]
 }

@@ -1623,3 +1623,288 @@ python tools/dogrula.py
 - Şema hatası **0**; iki düzeltilen sorunun `explanation` alanı İngilizce yazıldı,
   `revision`, `reject_reason` ve `review_note` gibi iç denetim notları Türkçe
   kaldı.
+
+---
+
+## 8. çalıştırma — E10'dan gelen özet ailesi + genel-kültür temalıların elenme kararı · 2026-08-08
+
+### Kapsam ve kendi sayımım
+
+Talimatın 1. kuralı gereği yeniden saydım (`python tools/_e5_ozet_kapsam.py`).
+Bu son madde iki kümeyi birleştiriyor ve depoda ayakta kalan **bütün**
+`genel_kultur` sorularını kendine alıyor:
+
+| Küme | Nerede | İşaretli |
+|---|---|---|
+| **a) E10 — özet ailesi** | practice 3, 4, 6, 8, 11, 12, 14 · AC1 37, 40 · AC3 36, 37, 40 · GT1 37, 38 | **14** |
+| **b) `genel_kultur`, depo geneli** | 6 tipe yayılmış 23 soru | **23** |
+| **kapsam** | | **37** |
+
+Kesişim yok: 14'ün hepsi `esdizim_kilidi`, 23'ün hepsi `genel_kultur`. E10'un
+özet raporundaki 14 sayısıyla birebir aynı; 6. çalıştırmanın "8. çalıştırmaya
+kalıyor" dediği 23 genel-kültür sorusuyla da birebir aynı. Depoda bu
+çalıştırmadan sonra `genel_kultur` etiketli **hiç** işaretli soru kalmıyor.
+
+Kelime bankalı özetin 14 sorusu kapsam dışı: 4. ve 5. çalıştırmalarda
+`verified` ya da `rejected` oldular, hiçbiri hâlâ işaretli değil.
+
+### 🔴 Bulgu: tek bir ölçüm iki kümeyi tam olarak ayırıyor
+
+Kapsamı okumadan önce şunu sordum: **modelin parçasız verdiği cevap, cevap
+anahtarına göre gerçekten puan alır mıydı?** 7. çalıştırma bu soruyu `answer`
+alanına bakarak yanıtlamıştı; ben `accepted_variants` listesine karşı ölçtüm,
+çünkü asıl ölçüt anahtarın kabul ettiği şey (`python tools/_e5_ozet_sayim.py`).
+
+| Küme | Soru | Parçasız cevap 3/3 turda **puan alır** |
+|---|---|---|
+| E10 — özet ailesi | 14 | **0 (%0)** |
+| `genel_kultur` | 23 | **23 (%100)** |
+
+Sonuç ikiye ayrılmış değil, kutuplaşmış. Bu iki sayı bu çalıştırmanın bütün
+kararlarını belirledi:
+
+- **`genel_kultur` sorularında sızıntı gerçek ve tam.** Yirmi üçünün yirmi
+  üçünde model üç turun üçünde de anahtarın kabul ettiği cevabı yazdı. Bunlar
+  parçasız olarak **tam puan** alınabilen sorular; ürünün en ağır kusuru bu
+  kümede.
+- **E10'un özet işaretlerinde sızıntı kavram düzeyinde kalıyor.** On dördün
+  hiçbirinde model üç turda da puan alamadı: `decay` yazdı ama anahtar
+  `decomposition` istiyor, `databases` yazdı ama `reference databases`,
+  `fridge` yazdı ama `refrigerator`, `peel` yazdı ama `peelings`. E10'un
+  bulgusu doğru — kavram biliniyor — ama **elemeyi haklı çıkaran ölçü burada
+  yok.** Bu yüzden bu kümeden hiçbir soru elenmedi.
+
+Ölçümün kendi içinde bir yan bulgusu da var: dört soru 3 turun 2'sinde puan
+alıyor (practice-14 `mortality`, practice-12 `double`, AC1-37 `dye`,
+practice-6 `crossover`). Bunlar sınırdaki sorular; üçü düzeltildi, biri
+(practice-14) düzeltilemedi ve E7'ye ayrıca işaretlendi.
+
+### Sonuç dağılımı
+
+| Sonuç | Soru | Nerede |
+|---|---|---|
+| **Düzeltildi** | 8 | E10 özet 6 · `genel_kultur` 2 |
+| **Elendi** | 21 | `genel_kultur` 21 |
+| **Dokunulmadı** | 8 | E10 özet 8 |
+| **toplam** | **37** | |
+
+### a) Özet gövdesi, cümle tamamlamada bulunmayan fazladan bir sızıntı yüzeyi
+
+7. çalıştırma cümle tamamlamada 15 sorunun yalnız 2'sini düzeltebilmişti,
+çünkü orada soru **tek bir cümleden** ibaret: boşluğun çevresini gevşetecek
+yer yok. Özet ailesinde durum farklı — boşluğun etrafında paragraf uzunluğunda
+bir gövde var ve sızıntı çoğu zaman o gövdede duruyor. Altı düzeltmenin altısı
+da bunun örneği ve üç biçimde toplanıyor:
+
+**(1) Açık tanım — boşluğun hemen yanındaki yan cümle cevabı tanımlıyor** (3 soru)
+
+| Soru | Kaldırılan tanım | Artık uyan rakipler |
+|---|---|---|
+| practice-6 (`crossover`) | "…design **that let every volunteer serve as their own comparison**" — crossover'ın ders kitabı tanımı | within-subject · repeated-measures · counterbalanced |
+| AC3-40 (`thermal conditions`) | "…a very narrow band of ___ **— heat applied in an instant, then cooling almost at once —**" — `thermal` niteleyicisinin özetteki tek kaynağı | temperatures · heating rates · circumstances |
+| GT1-37 (`peelings`) | "…chiefly the **skins** of bananas and mangoes" — cevabın eş anlamlısı | trimmings · waste · scraps |
+
+GT1-37'de meyve adları (muz, mango) **korundu**, çünkü onlar E/3'ün gerçek
+ayırt edici ayrıntısı; kaldırılan tek şey cevabın sözlük karşılığı olan
+`skins`.
+
+**(2) Kaliplaşmış öbek — boşluk sabit bir eşdizimin ucunda** (2 soru)
+
+| Soru | Kaldırılan kilit | Yeni çerçeve |
+|---|---|---|
+| AC1-40 (`warning system`) | `an early ___` — "early warning system" tek parça bir öbek, model üç turda da `warning` yazdı | "the island is now **studied as a** (40) …… **for the rest of the ocean**" |
+| practice-4 (`software engineers`) | "The volume of **code** a team produced…" — mesleği tek başına adlandıran sözcük, model developers/programmers verdi | "**What the teams actually produced** barely moved…" |
+
+AC1-40'ta kanıt cümlesinin kendi kalıbı ("less as a curiosity than as an early
+warning system") bilinçli olarak yankılanmadı; yeni çerçeve başka bir fiil
+kullanıyor, yoksa eşdizim kilidi kanıt cümlesinden geri gelirdi.
+
+**(3) Aritmetik çapa — cevap özetin başka bir yerinde yazıyla duruyor** (1 soru)
+
+**practice-12** (`double`) bu çalıştırmanın en net bulgusu ve 4. çalıştırmadaki
+AC2-fc-1'in aynısı: boşluk bir kat sayısı istiyordu ("city households threw out
+almost (12) …… the weight recorded in the rural sub-district") ve **aynı
+cümlenin sonu** o kat sayısını yazıyla veriyordu — "the roughly **twofold** gap
+in what the two groups earned and spent". Boşluk ile cevabı arasında on iki
+sözcük vardı. `roughly twofold` çıkarıldı; oran artık yalnız D/2'nin 79,4 ve
+45,8 kilogramından çıkarılabiliyor.
+
+### b) Genel kültür — iki soru düzeltildi, yirmi bir soru elendi
+
+🔴 Bu, `genel_kultur` kümesinin **ilk kez ikiye ayrıldığı** çalıştırma. 1., 2.
+ve 3. çalıştırmalarda elenen küme ile `genel_kultur` kümesi birebir örtüşüyordu.
+Yirmi üç soruyu tek tek okuyunca ayrımın nerede olduğu netleşti:
+
+> **Cevabın kendisi bir dünya bilgisi mi, yoksa soru metninin çerçevesi mi onu
+> tek adaya kilitliyor?**
+>
+> Cevap bir **özel ad**, bir **terim**, hukukla ya da doğayla **sabitlenmiş bir
+> sayı** ya da **ünlü bir tarih** ise, soru metni nasıl yazılırsa yazılsın aynı
+> sözcük çıkar → **elendi.**
+> Cevap pasajın sıradan bir ayrıntısı ise ve onu kilitleyen şey çerçevedeki bir
+> eşdizim ya da çağrışım ise → **düzeltildi.**
+
+Yirmi üçün yalnız ikisi ikinci gruba düştü:
+
+| Soru | Cevap | Kaldırılan kilit | Sonuç |
+|---|---|---|---|
+| **AC1-nc-4** | `tyre` | Nottaki **`tractor`** sözcüğü. Sızıntı fil + traktör lastiği eşleşmesinin yaygın bilinmesindeydi ve `tractor ___` eşdizimi onu tamamlıyordu. Yeni çerçeve: "A large (4) …… **pushed into place**" | tyre · log · barrel · crate adayları eşit; seçim yalnız D/4'ten. Cevap bir dünya bilgisi değil, pasajın sıradan bir nesnesi |
+| **AC3-tc-6** | `right eye` | Hücrenin sonundaki "**hinting that one side of the brain deals with this task**". Yanallaşma çağrışımı, hayvan davranışında sıkça bildirilen sağ göz tercihini doğrudan hatırlatıyordu | **KISMİ**: "the **same** eye" artık en az "right eye" kadar uyuyor ve "Both / Each of them" vurgusu sezgiyi oraya çekiyor; geriye sağ/sol ikilisinde zayıf bir sağ önyargısı kalıyor |
+
+Kalan **21 soru elendi.** Hepsinde model üç turda da tam puan alırdı ve elemenin
+gerekçesi beş alt başlıkta toplanıyor:
+
+| Alt biçim | Soru | Örnekler |
+|---|---|---|
+| **Özel ad** | 4 | `Mount Logan` (soru kökü zaten "Kanada'nın en yükseği" diye soruyor) · `International Astronomical Union` · `Karacadağ` · `24 January 1986` |
+| **Terim + özetin verdiği tanım** | 9 | `caldera` ("çöken yanardağ, halka biçiminde adalar") · `bioerosion` ("iskeleti içten delen minik canlılar") · `dear enemy` ("tanıdık hayvana daha az düşmanlık") · `D genome` ("altı kromozomlu buğdaya özgü dizi") · `displacement` · `surge` · `designation` · `absorbed` (flow'un tanımı) · `double time` |
+| **Sabitlenmiş sayı** | 4 | `47` (Japonya'nın illeri) · `500` (piroklastik akıntı °C) · `28 days` (BK yasal asgari yıllık izin) · `seventh` (Uranüs) |
+| **Aritmetikle bulunan** | 1 | `forty years` — aşağıda |
+| **🔴 Kabul listesi sızıntısı** | 3 | `digital scales` · `weedy algae` · `swat flies` |
+
+Üç eleme gerekçesi ayrıca kayda değer:
+
+**`forty years` (practice-sc-11) — cümleden 1986'yı kaldırmak yetmiyor.**
+Sızıntı aritmetik: cümle 1986 uçuşunu veriyor, bugünün tarihi dışarıdan
+biliniyor, fark doğrudan kırk yıl ediyor. 4. çalıştırma AC2-fc-1'de aynı
+kusuru **düzeltmişti**, çünkü orada çarpanın ikisi de akış şemasının içindeydi;
+burada ikinci çarpan dışarıda. Üstelik 1986'nın kendisi dünya bilgisi ve bunun
+kanıtı aynı depoda duruyor: **practice/short-answer 4** o tarihi gün gün
+soruyor ve model üç turda da doğru yazdı. Yani cümleden 1986'yı silsem bile
+çözücü onu kendisi getirir.
+
+**🔴 Kabul listesi sızıntısı — bu çalıştırmada ilk kez adlandırılan bir biçim.**
+Üç soruda sızıntının yeri soru metni değil, `accepted_variants` listesinin
+kendisi. `digital scales`ın kabul listesi `scales`ı tek başına kabul ediyor ve
+model üç turda da `scales` yazdı; `weedy algae`ninki `algae`yi kabul ediyor,
+model üç turda da `algae` yazdı. Çerçeveyi ne kadar sıkılaştırırsam
+sıkılaştırayım — "iki gram hassasiyet" ibaresini kaldırsam bile — çöp tartılan
+şeyin terazi olması kaçınılmaz, dolayısıyla `scales` yine puan alır. Kapatmanın
+tek yolu kabul listesini daraltmak, o da talimatın 🔴 korunan alan kuralına
+takılıyor. Bu yüzden düzeltme değil eleme.
+
+**AC2-sc-22 (`Karacadağ`) — aynı pasajda üçüncü eleme.** 3. çalıştırma AC2'nin
+özellik eşleştirme 24 ve 25 numaralı sorularını zaten aynı eksenle (Bereketli
+Hilal / Karacadağ / einkorn) elemişti. Bu yuva o kararın devamı; G/2 artık
+AC2'de üçüncü kez elenen bir yuvanın kanıt cümlesi ve devir dosyasında
+`kacinilacak` altında duruyor.
+
+### Dokunulmayan 8 soru — E10 özet işaretleri
+
+Sekizinde de aynı tablo: model kavramı verdi, sözcüğü veremedi, dolayısıyla üç
+turun **hiçbirinde** puan almazdı. Kelime düzeyinde soru hâlâ ayırt ediyor.
+
+| Soru | Cevap | Modelin verdiği | 3 turda puan | Neden düzeltilemedi |
+|---|---|---|---|---|
+| practice-3 | `safe limits` | threshold / limit / threshold | 0 | "gürültü önerilen ___ aştı" çerçevesinde baş ad zorunlu; `safe` hiç gelmedi |
+| practice-8 | `draining` | stressful / draining / stressful | 1 | boşluktan önceki yarı (moral, canlılık, tazelenme) G/2'nin gerçek içeriği; kaldırmak kanıt bağını koparır |
+| practice-11 | `eggshells` | shells ×3 | 0 | sızıntı "skins, bones and ___" üçlüsünün kendisinde; listeyi kısaltmak soruyu **çok cevaplı** yapar (C/2 üç öğeyi de sayıyor) |
+| practice-14 | `mortality` | mortality / death / mortality | **2** | "illness and ___" ikilisi tıp yazınında kalıplaşmış; `illness`ı çıkarmak onu da geçerli cevap yapar |
+| AC1-37 | `dye` | dye / stains / dye | **2** | "yeni büyümeyi ___ ile işaretlediler" bir işaretleme maddesi istiyor; gevşetmek soruyu yanıtlanamaz yapar |
+| AC3-36 | `decomposition` | decay ×3 | 0 | baş ad zorunlu; gerçek kusur kabul listesinin `decay`i almaması, o da korunan alan |
+| AC3-37 | `reference databases` | databases ×3 | 0 | "beyin proteinleriyle karşılaştırma" veri tabanından başkasını okutmuyor |
+| GT1-38 | `refrigerator` | fridge ×3 | 0 | ONE WORD ONLY'de `fridge` pasajın dünyasında **doğru** bir cevap ama anahtar reddediyor; kusur sızıntı değil, anahtarın darlığı |
+
+Sekizine de `review_note` yazıldı (bulgu + ölçüm + E6 için somut yeni çapa
+önerisi), `status` `flagged` kaldı. Bu, 4. çalıştırmanın 11 ve 7. çalıştırmanın
+6 soru için verdiği kararın aynısı.
+
+### 🔴 Sekiz çalıştırmanın kapanışı — geriye ne kaldı
+
+Bu son madde, depodaki her işaretli sorunun bir çalıştırmaya düşmesini
+sağlıyordu. Sonuç:
+
+| | Soru |
+|---|---|
+| E5 başlarken işaretli | 221 |
+| düzeltildi (`verified`) | 117 |
+| elendi (`rejected`) | 71 |
+| **hâlâ `flagged`** | **33** |
+
+Kalan 33 sorunun 33'ü **bilinçli bir kararın** sonucu, hiçbiri atlanmış değil:
+
+| Kalan | Soru | Kararı veren |
+|---|---|---|
+| tamamlama ailesinde hedef kilidi (not/tablo/akış) | 11 | 4. çalıştırma |
+| `belirsiz` + `blind_basis: "guess"` | 8 | 6. çalıştırma |
+| cümle tamamlamada zorunlu baş ad | 6 | 7. çalıştırma |
+| özet ailesinde zorunlu baş ad / dar kabul listesi | 8 | bu çalıştırma |
+
+Üçü de aynı kalıba oturuyor: **sızıntı boşluğun hedefinde ya da anahtarın
+kendisinde olduğunda elden geçirme yetmiyor.** `genel_kultur` ve `kip_imzasi`
+mekanizmaları artık depoda hiç işaretli soru bırakmıyor; ayakta kalan tek
+mekanizma `esdizim_kilidi` (25) ve ölçülemeyen `belirsiz` (8).
+
+Devir dosyası 50 → **71** kayda çıktı. Denetim raporunun "genel kültür konulu
+~70 soru elenecek" beklentisiyle karşılaştırıldığında sayı **71**; kırılımı
+tipe göre şöyle:
+
+| tip | elenen | | tip | elenen |
+|---|---|---|---|---|
+| sentence_completion | 17 | | matching_features | 7 |
+| multiple_choice | 14 | | note_completion | 4 |
+| yes_no_not_given | 10 | | flow_chart / true_false / short_answer | 3 + 3 + 3 |
+| summary_completion | 8 | | table_completion | 2 |
+
+### 🔴 E6 ve E7'ye devir notları
+
+1. **Genel kültür sorusunun elenmesi bir üretim kuralı doğuruyor.** Yirmi bir
+   elemenin yirmi birinde cevap ya bir özel ad, ya bir terim, ya sabitlenmiş
+   bir sayı, ya ünlü bir tarihti. E6'nın kuralı: **boşluk/kısa cevap, dünyanın
+   zaten aynı adla andığı bir şeyi hedeflemesin.** Bu, 4. çalıştırmanın
+   ("tek karşılığı olan kavram olmasın") ve 7. çalıştırmanın ("ayırt edici öge
+   tek başına bir niteleyici olmasın") kurallarının üçüncüsü.
+2. **🔴 Kabul listesi bir sızıntı yüzeyi ve E5'in yetkisi dışındaydı.** Üç soru
+   yalnız `accepted_variants` genişliği yüzünden elendi (`scales`, `algae`),
+   iki soru da yalnız darlığı yüzünden dokunulmadan kaldı (`fridge`, `decay`).
+   E6 yeni soru yazarken kabul listesini soruyla birlikte tasarlamalı: liste ne
+   cevabın ayırt edici ögesini düşürecek kadar geniş, ne pasajın kendi
+   dünyasında doğru olan bir eşanlamlıyı reddedecek kadar dar olmalı.
+3. **En çok yuva açılan dosyalar.** Elenen 71 yuvanın 28'i `practice`
+   dosyalarında; tam testlerde AC4 9, AC1 8, AC2 8, GT1 7, AC3 6, GT2 5.
+   Bu çalıştırmanın açtığı yuvalar: practice 9, AC1 4, AC2 4, AC3 2, GT1 2.
+4. **🔴 AC1 özet tamamlamada beş yuvanın üçü elendi** (36, 38, 39). Ayakta
+   kalan 37 dokunulmadı, 40 düzeltildi. E6 A03 pasajından üç yeni soru
+   yazarken üçünü de ayrı paragraflara çapalamalı; 36 (B/2), 38 (F/2) ve
+   39 (G/2) kanıt cümleleri devir dosyasında `kacinilacak` altında.
+5. **AC2-sc-21 ve 22 aynı pasajın iki ucundan elendi** (E/3 ve G/2). G/2 bu
+   testte üçüncü kez eleniyor (3. çalıştırmada AC2-mf-24 ve 25 de oradan);
+   E6 o cümleye kesinlikle yeni soru yazmamalı.
+6. **Düzeltilen 8 soru ölçülmemiş sorudur.** `answer`, `accepted_variants` ve
+   `evidence` korundu ama soru metinleri ve özet/not gövdeleri yeniden yazıldı;
+   sekizinde de `blind_solvable: null` duruyor. E7 hepsini yeniden ölçmeli.
+7. **AC3-tc-6 kısmi düzeltme, ayrıca ölçülmeli.** Yanallaşma çağrışımı
+   kaldırıldı ama sağ/sol ikilisinde zayıf bir sağ önyargısı kalıyor; bu tür
+   ikili boşluklar tasarım olarak zaten kırılgan.
+8. **practice-14 (`mortality`) ve AC1-37 (`dye`) sınırdaki iki soru.** İkisi de
+   üç turun ikisinde puan alıyor — kapsamın en yükseği — ama düzeltilemedi.
+   E7 ölçümünde ikisine ayrıca bakılmalı.
+
+### Doğrulama
+
+```
+python tools/_e5_ozet_kapsam.py            # kapsam: 37 soru (14 E10 ozet + 23 genel_kultur)
+python tools/_e5_ozet_sayim.py             # 3/3 PUAN: genel_kultur 23/23, E10 ozet 0/14
+python tools/_e5_ozet_elden_gecir.py       # duzeltildi 8 - elendi 21 - dokunulmadi 8
+python tools/_e5_ozet_devir.py             # eklenen kayit 21 - toplam 71
+python tools/_e5_ozet_dogrula_degisim.py   # sinanan alan 1114 - KORUNAN ALAN HATASI: 0
+python tools/dogrula.py
+```
+
+- `answer`, `accepted_variants`, `evidence`, `evidence_locator`, `difficulty`
+  ve `passage_id` on beş dosyanın hepsinde **hiç değişmedi** (HEAD ile alan
+  alan karşılaştırıldı, 1.114 sınamada 0 fark). Üst düzeyde `instructions`,
+  `word_limit`, `question_type`, `word_bank`, `set_id` de korundu.
+- Özet/not gövdeleri bu çalıştırmada bilerek değişti (sızıntının bir kısmı
+  oradaydı), o yüzden ayrıca sınandı: her boşluk numarası gövdede duruyor ve
+  gövdede **yalnız** beklenen altı parça değişmiş; başka hiçbir cümleye
+  dokunulmamış.
+- Düzeltilmeyen 100 sorunun soru metni **harfi harfine aynı** kaldı; düzeltilen
+  8 sorunun eski metni `revision.onceki_prompt` içinde saklandı.
+- Soru sayısı ve numaralar değişmedi: 15 dosyada 108 soru girdi, 108 çıktı. On
+  iki tam testin hepsi 40/40 kaldı.
+- `isaretli (flagged)` 62 → **33** (8 verified + 21 rejected; dokunulmayan 8
+  soru `flagged` kaldı). `genel_kultur` işaretli soru 23 → **0**.
+- Şema hatası **0**; düzeltilen 8 sorunun `explanation` alanı İngilizce
+  yazıldı, `revision`, `reject_reason` ve `review_note` gibi iç denetim notları
+  Türkçe kaldı.

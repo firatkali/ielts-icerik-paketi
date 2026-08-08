@@ -52,11 +52,12 @@
       },
       "explanation": "Paragraph C of text B says that overtime beyond the weekly hours is paid at 1.5 times the rate, while work on public holidays is paid at double time; the answer is therefore 'double time'.",
       "difficulty": "easy",
-      "status": "flagged",
+      "status": "rejected",
       "blind_solvable": true,
       "blind_basis": "general_knowledge",
       "flag_reason": "Cevap 'double time', resmi tatil calismasinin 'bir bucuk kat' yerine 'double time' (iki kat ucret) ile odenmesinin Ingilizce is dunyasinda yaygin bilinen standart bir terim olmasi sayesinde parcaya bakmadan da tahmin edilebiliyor.",
-      "flag_mechanism": "genel_kultur"
+      "flag_mechanism": "genel_kultur",
+      "reject_reason": "Cevabin kendisi Ingilizce is dunyasinin yerlesik terimi: resmi tatil calismasinin karsiligi 'double time'dir ve cumle bir bucuk kat karsitligini vererek terimi dogrudan cagiriyor; model uc turda da yazdi (3/3 PUAN). Karsitligi kaldirmak cumleyi anlamsiz birakir. E6 onerisi: B metni C/1'in oteki yarisi - haftalik 37,5 saatlik esik."
     },
     {
       "number": 27,

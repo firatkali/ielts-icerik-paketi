@@ -32,11 +32,12 @@
       },
       "explanation": "Paragraph A states that laboratory studies showed elephants use branches to swat flies; since the gap asks what the branches are used for, the answer is 'swat flies'.",
       "difficulty": "easy",
-      "status": "flagged",
+      "status": "rejected",
       "blind_solvable": true,
       "blind_basis": "general_knowledge",
       "flag_reason": "Cevap 'swat flies', fillerin dallari sinek kovmak icin kullandigi bilgisinin hayvan davranisi konusunda yaygin bilinen bir gercek olmasi sayesinde parcaya bakmadan da tahmin edilebiliyor.",
-      "flag_mechanism": "genel_kultur"
+      "flag_mechanism": "genel_kultur",
+      "reject_reason": "Cevabin kendisi bir dunya bilgisi: fillerin dallari sinek kovmak icin kullandigi hayvan davranisi kulturunun en cok tekrarlanan ayrintilarindan biri; model uc turda da 'swat flies' yazdi (3/3 PUAN). Kanit cumlesi (A/2) uc ornek sayiyor ve ucu de ayni olcude taniniyor (ayna testi, yer bellegi, sinek kovma), dolayisiyla cerceveyi baska ornege tasimak da sizdirir. E6 onerisi: A paragrafinin laboratuvar ile arazi arasinda kurdugu karsitlik."
     },
     {
       "number": 2,
@@ -251,11 +252,12 @@
       },
       "explanation": "Paragraph A states that Uranus is the seventh planet from the Sun; since the gap asks for its position, the answer is 'seventh'.",
       "difficulty": "easy",
-      "status": "flagged",
+      "status": "rejected",
       "blind_solvable": true,
       "blind_basis": "general_knowledge",
       "flag_reason": "Cevap 'seventh', Uranus'un Gunes'ten yedinci gezegen oldugu temel astronomi bilgisiyle parcaya bakmadan da bilinir.",
-      "flag_mechanism": "genel_kultur"
+      "flag_mechanism": "genel_kultur",
+      "reject_reason": "Cevabin kendisi bir dunya bilgisi: Uranus'un Gunes'ten yedinci gezegen olmasi temel astronomi; model uc turda da 'seventh' yazdi (3/3 PUAN). Soru kokunun kendisi ('in order of distance outwards from the Sun') zaten dunya bilgisini cagiriyor. E6 onerisi: A/1'in oteki yarisi - uydu ailesinin kalabalikligi ya da halka sisteminin egikligi."
     },
     {
       "number": 11,
@@ -275,11 +277,12 @@
       },
       "explanation": "Paragraph F states that the moon's size was below the threshold instruments of the time could resolve, so it circled Uranus unnoticed for almost forty years after the 1986 flyby, so the answer is 'forty years'.",
       "difficulty": "medium",
-      "status": "flagged",
+      "status": "rejected",
       "blind_solvable": true,
       "blind_basis": "general_knowledge",
       "flag_reason": "Cevap 'forty years', Voyager 2'nin Uranus'e 1986'da ugradigi ve buradan gunumuze (2020'lerin ortasi) yaklasik kirk yil gectigi genel kronoloji bilgisiyle parcaya bakmadan da hesaplanabiliyor.",
-      "flag_mechanism": "genel_kultur"
+      "flag_mechanism": "genel_kultur",
+      "reject_reason": "Sizinti aritmetik ve kapatilamiyor: cumle 1986 ucusunu veriyor, gunumuz tarihi de disaridan biliniyor, ikisinin farki dogrudan 'forty years' ediyor; model uc turda da '40 years' yazdi (kabul listesinde var, 3/3 PUAN). Cumleden 1986'yi kaldirmak yariya kalir, cunku Voyager 2'nin Uranus'e 1986'da ugradigi ayrica dunya bilgisidir - ayni depodaki practice/short-answer 4 bunun kaniti: model o tarihi gun gun bilerek yazdi. E6 onerisi: F/3'un cozunurluk esigi gerekcesi ya da uydunun yaklasik on kilometrelik capi."
     },
     {
       "number": 12,
