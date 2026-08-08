@@ -395,6 +395,28 @@
         "ifade": "During the placement: A (20) ........ from the intern's own department sees them once a week"
       },
       "neden_elendi": "Kanit cumlesinin butun icerigi ('kendi biriminden biriyle eslestirilir, on hafta boyunca haftada bir gorusur') Ingiliz is dunyasinda dogrudan 'mentor' rolunu tanimliyor; satirdan hangi ayrinti cikarilirsa cikarilsin kalan cerceve ayni sozcugu veriyor. E6 bu yuvayi staj suresinin baska bir ayrintisina (aylik ucret ya da on haftalik sure) tasimali."
+    },
+    {
+      "dosya": "content/reading/tests/AC4/summary-completion.json",
+      "numara": 36,
+      "tip": "summary_completion",
+      "pasaj": "A12",
+      "kacinilacak": {
+        "kanit_cumlesi": "The first experiment used a between-subjects design, meaning that different participants were assigned to a sleep group or a wake group, while the second used a within-subject design in which the same participants experienced both a nap and a period of wakefulness on different days, allowing more direct comparison.",
+        "ifade": "In the earlier one, different volunteers were placed in a sleeping group and a waking group; the later one instead used a (36) ........ design, so that the very same volunteers went through both a rest and a matching stretch of time without one."
+      },
+      "neden_elendi": "Bosluk 'within-subject' terimini hedefliyor ve bu terimin Ingilizcedeki tek tanimi 'ayni katilimcilar her iki kosuldan da gecer'. Ikinci deneyi durustce anlatan her ozet bu tanimi vermek zorunda, yani tanim sizintisi cerceveden degil boslugun hedefinden geliyor. Ustelik ayni ozetteki 37. cumle ilk deneyin iki ayri gruptan olustugunu soyluyor; bankadaki karsit terim C ('between-subjects') boylece ilk deneye baglanip eleniyor ve J elemeyle cikiyor. Tanimi ozetten silmek kalan cerceveyi anlamsiz birakiyor; bankadaki C'yi degistirmek ise J'yi bankadaki tek arastirma-deseni terimi haline getirip sizintiyi buyutuyor. Tek cikis boslugu baska bir ayrintiya tasimak, o da answer'i degistirmek demek - talimat bunu yarim duzeltme sayiyor. E6 bu yuvayi B ya da D paragrafinin baska bir ayrintisina capalamali (haftada en az bir kez sekerleme yapan 34 katilimci, ya da sersemligi azaltmak icin uygulanan 30 dakikalik bulmaca)."
+    },
+    {
+      "dosya": "content/reading/tests/AC4/summary-completion.json",
+      "numara": 38,
+      "tip": "summary_completion",
+      "pasaj": "A12",
+      "kacinilacak": {
+        "kanit_cumlesi": "For semantically related word pairs, nocturnal sleep produced a substantially larger improvement in recall than daytime napping did, with a standardised effect size of 0.58 compared with only 0.15 for napping.",
+        "ifade": "Where the two halves of a pair were already (38) ........ , a whole night of sleep improved recall far more than a rest of an hour and a half did."
+      },
+      "neden_elendi": "Sorunun ekseni, uykunun hangi tur malzemeyi daha cok kayirdigi - bilissel bilimin en cok aktarilan bulgularindan biri - ve kelime bankasi bu ekseni hazir bir zit cift olarak tasiyor (D 'connected in meaning' / I 'unrelated in meaning'). Ustelik hemen ardindan gelen 39. cumle 'Where no such link existed' diyerek 38'in 'baglantili' taraf oldugunu soyluyor, yani I ozetin kendi ic mantigiyla de eleniyor. Bosluk nasil yazilirsa yazilsin secim iki kutuptan birini isaretlemeye iniyor ve karar pasajdan degil dunya bilgisinden geliyor; kip ya da cerceve duzeltmesi bunu kapatmaz. E6 bu yuvayi E paragrafinin pasaja ozgu bir ayrintisina tasimali (0.58'e karsi 0.15 etki buyuklugu, ya da 40 iliskili + 40 iliskisiz cift bolusumu)."
     }
   ]
 }

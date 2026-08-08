@@ -933,3 +933,171 @@ python tools/dogrula.py
 - Şema hatası **0**; `explanation` alanlarının hepsi İngilizce yazıldı,
   `revision`, `reject_reason` ve `review_note` gibi iç denetim notları Türkçe
   kaldı.
+
+---
+
+## 5. çalıştırma — kelime bankalı özet, tanım sızıntısı · 2026-08-08
+
+### Kapsam ve kendi sayımım
+
+Talimatın 1. kuralı gereği yeniden saydım (`python tools/_e5_wb_kapsam.py`). Bu
+çalıştırmanın kapsamı iki kümenin birleşimi: **kelime bankalı özet** alt tipindeki
+işaretli sorular ve depo genelinde `flag_mechanism: "tanim_sizintisi"` taşıyan
+sorular.
+
+| Küme | Nerede | Soru | Bu çalıştırmada işaretli |
+|---|---|---|---|
+| kelime bankalı özet | AC2 36–40 · AC4 36–40 · GT2 37–40 | 14 | **7** |
+| `tanim_sizintisi` | AC3-38 · AC4-36 | 2 | **1** (AC4-36 zaten üstteki 7'nin içinde) |
+| **kapsam** | | | **8** |
+
+Kelime bankalı özet üç dosyada 14 soru; bunların yedisi (GT2'nin dördü, AC4'ün
+37/39/40'ı) 4. çalıştırmada eşdizim kilidi kapsamında zaten `verified` olmuştu, o
+yüzden bu çalıştırmaya **AC2'nin beşi + AC4'ün 36 ve 38'i** kaldı. `tanim_sizintisi`
+mekanizması depo genelinde yalnız iki soruda var; biri AC4-36, öteki AC3-38.
+AC3-38 kelime bankalı değil (parçadan kelime), ama mekanizma bu maddenin başlığıyla
+birebir aynı olduğu için kapsama alındı — aksi hâlde depodaki iki tanım sızıntısı
+sorusundan biri hiçbir çalıştırmaya düşmüyordu.
+
+Parçadan kelime özet (29 soru, 22 işaretli) kapsam dışı; 8. çalıştırmanın maddesi
+E10'un özet ailesi işaretlerini açıkça kendine ayırıyor.
+
+### Sonuç dağılımı
+
+| Sonuç | Soru | Nerede |
+|---|---|---|
+| **Düzeltildi** | 6 | AC2 36, 37, 38, 39, 40 · AC3 38 |
+| **Elendi** | 2 | AC4 36, 38 |
+| **Dokunulmadı** | 0 | — |
+| **toplam** | **8** | |
+
+### Bu tipte sızıntının iki katmanı var
+
+Kelime bankalı özet, öteki tamamlama tiplerinden bir yönüyle ayrılıyor: cevap
+adayları **listelenmiş** durumda. Bu, sızıntıyı iki katmana bölüyor ve ikisini
+birden kapatmadan soru düzelmiyor:
+
+1. **Özet gövdesi katmanı** — boşluğun hemen yanında, cevabın *tanımını* veren bir
+   ibare duruyor. AC2'nin beşinde de vardı: `and the authors could argue for cause
+   rather than mere association` (= kontrollü deneyin tanımı), `standard hours and
+   fixed contracts turn into ___` (= ölçümün neden güvenilir olduğu),
+   `even in the most productive quarter of teams` ("bile" = boşluk olumsuz),
+   `teams whose members had stayed longest` (= `length of service`'in birebir
+   karşılığı), `rely on a shared, unspoken sense of who knows what` (= temasın
+   neden gereksiz olduğu).
+2. **Banka katmanı** — bankada o boşluğa dilbilgisi ve çerçeve bakımından uyan
+   ikinci bir aday yok. Tanım kaldırılsa bile boşluğa yalnız tek seçenek
+   oturuyorsa soru yine parçasız çözülüyor.
+
+AC2'nin bankası bu ikinci katmanın en net örneğiydi. On harften beşi doğru cevap
+(A, B, C, H, I), kalan beşi (D, E, F, G, J) hiçbir boşluğun gerçek rakibi
+değildi: `extra pay`, `face-to-face contact`, `a training period`, `a rough
+guide`, `social comparison`. Beş boşluğun beşinde çeldiriciler ya dilbilgisiyle
+ya çerçeveyle eleniyordu, yani banka fiilen beş seçenekli değil **bire bir
+eşleşen bir liste**ydi.
+
+### Düzeltme kuralı
+
+> Boşluğun yanındaki tanım ibaresi özet gövdesinden çıkarılır ve gerekçe pasaja
+> bırakılır; aynı anda bankadaki boş duran harf, o boşluğa dilbilgisiyle uyan ve
+> **yüzeydeki sezginin gideceği** gerçek bir rakip yapılır.
+
+İkinci yarı olmadan birincisi yetmiyor, çünkü tanımı silmek adayı tekleştirmeyi
+kaldırmıyor. AC2'de beş çeldiricinin beşi birden yeniden yazıldı:
+
+| Boşluk | Doğru | Kaldırılan tanım ibaresi | Yeni rakip | Sezgi artık nereye gidiyor |
+|---|---|---|---|---|
+| 36 | A `a controlled experiment` | "the authors could argue for cause rather than mere association" | D `a rough guide` → **`a natural experiment`** | D — şirket politikasından doğan rastgelelik yüzeyde "doğal deney"e benziyor |
+| 37 | C `a reliable measure` | "standard hours and fixed contracts turn into ___" | E `a training period` → **`a rough indicator`** | E — çıplak müşteri sayısı yüzeyde kaba bir gösterge |
+| 38 | I `no measurable benefit` | "even in the most productive quarter of teams" | F `extra pay` → **`a modest gain`** | F — yıldız çalışanın çevresini yükseltmesi yaygın beklenti |
+| 39 | H `length of service` | "teams whose members had stayed longest" | G `face-to-face contact` → **`time spent training`** | G — aynı cümlede takıma ait ikinci bir nitelik |
+| 40 | B `a distraction` | "rely on a shared, unspoken sense of who knows what" | J `social comparison` → **`a source of pressure`** | J — "is largely ___" çerçevesine uyan ikinci olumsuz seçenek |
+
+`python tools/_e5_wb_sayim.py` ölçümü: bir boşluğun gerçek rakibi olan çeldirici
+sayısı **1 → 5** (beş üzerinden); özet gövdesinde kalan tanım ibaresi **0**.
+
+38 ve 39'da düzeltme yalnız silmekle kalmadı, yerine pasajın kendi rakamını koydu:
+39'daki tanım cümlesi "people in the top quarter of teams by that measure produced
+roughly 12.2 per cent more" ile değiştirildi — bu, hangi niteliğin ölçüldüğünü
+söylemiyor, dolayısıyla H ile G arasındaki seçim ancak F/2 okunarak yapılıyor.
+
+🔴 Bankada **yalnız çeldirici metinleri** değişti. Harf kümesi, harflerin sırası ve
+**doğru seçeneklerin metinleri** (A, B, C, H, I) korundu; doğrulama betiği bunu
+ayrıca sınıyor.
+
+### AC3-38 — tanım sızıntısının saf hâli
+
+**AC3-38** (`microtubules`) kelime bankalı değil, parçadan kelime. Sızıntı burada
+bankada değil, boşluğun hemen ardındaki **açık tanımdaydı**: `the (38) ........ ,
+the minute rods that support a cell from within`. Bu, terimin sözlük karşılığıdır;
+terimi bilen bir çözücü pasaja hiç bakmadan yazıyordu. Tanımla birlikte çalışan
+23 nanometrelik ölçü de çıkarıldı (mikrotübül çapı ~25 nm olarak bilinir; ölçü tek
+başına da terimi çağırıyordu). Yerine hiçbir şey tanımlamayan bir sıra bilgisi
+kondu ("the smallest structures the team reports"); yeni çerçeveye pasajın kendi
+dünyasından birden çok aday uyuyor (`cell bodies`, `myelin sheaths`,
+`microtubules`) ve seçim yalnız E/4'ten yapılabiliyor.
+
+### Elenen 2 soru — AC4
+
+İkisi de AC4 özetinde ve ikisinde de sorun çerçevede değil, **boşluğun
+hedefinde**; 4. çalıştırmanın "hedef kilidi" başlığıyla aynı yapı.
+
+| Soru | Cevap | Neden mekanik düzeltmeye uygun değil |
+|---|---|---|
+| AC4-36 | J `within-subject` | Terimin İngilizcedeki tek tanımı "aynı katılımcılar her iki koşuldan da geçer"; ikinci deneyi dürüstçe anlatan her özet bu tanımı vermek zorunda. Üstelik 37. cümle ilk deneyin iki gruplu olduğunu söyleyince bankadaki karşıt terim C (`between-subjects`) ilk deneye bağlanıp eleniyor, J elemeyle çıkıyor. |
+| AC4-38 | D `connected in meaning` | Eksen, uykunun hangi tür malzemeyi kayırdığı — bilişsel bilimin en çok aktarılan bulgularından biri — ve banka bu ekseni hazır bir zıt çift olarak taşıyor (D / I `unrelated in meaning`). 39. cümle "Where no such link existed" diyerek 38'in "bağlantılı" taraf olduğunu ayrıca söylüyor. |
+
+AC4-36'da denenip bırakılan iki yol kayda değer: tanımı özetten silmek kalan
+çerçeveyi anlamsız bırakıyor, bankadaki C'yi değiştirmek ise J'yi bankadaki **tek**
+araştırma-deseni terimi hâline getirip sızıntıyı büyütüyor. Tek çıkış boşluğu başka
+bir ayrıntıya taşımak, o da `answer`'ı değiştirmek demek — talimat bunu yarım
+düzeltme sayıyor.
+
+İkisi de `status: "rejected"` + `reject_reason` aldı, dosyada **numaralarıyla
+duruyor** ve `content/DOGRULAMA/yeniden-uretim-listesi.json` dosyasına eklendi
+(liste 36 → **38** kayıt). Her kayıt kanıt cümlesini ve cümlenin kendisini
+`kacinilacak` altında, önerilen yeni çapayı `neden_elendi` içinde taşıyor.
+
+### 🔴 E6 ve E7'ye devir notları
+
+1. **AC2 bankasındaki beş yeni çeldirici beş boşluğun tek rakipleri.** E6 bu
+   bankaya dokunursa bunu bilmeli; biri kaldırılırsa o boşlukta tanım sızıntısı
+   geri gelir.
+2. **Elenen iki yuva da A12 pasajından** (AC4 36 ve 38). İkisi de kelime bankalı
+   özetin aynı gövdesinde; **ayrı paragraflara** çapalanmalı. Önerilen çapalar
+   `neden_elendi` içinde: 36 için B ya da D paragrafı (haftada en az bir kez
+   şekerleme yapan 34 katılımcı, ya da sersemliği azaltmak için uygulanan 30
+   dakikalık bulmaca), 38 için E paragrafı (0.58'e karşı 0.15 etki büyüklüğü, ya
+   da 40 ilişkili + 40 ilişkisiz çift bölüşümü).
+3. **Banka harfleri boşalmadı.** İki yuva elendi ama J ve D bankada duruyor; E6 bu
+   iki yuvayı doldururken ya aynı harfleri yeni bir çapayla kullanmalı ya da banka
+   metinlerini birlikte yenilemeli — 37/39/40'ın cevap harfleri (B, F, A) ve 4.
+   çalıştırmanın koyduğu iki çeldirici (E `an unbroken night`, H `in the
+   laboratory`) bozulmamalı.
+4. **Düzeltilen 6 soru ölçülmemiş sorudur.** `answer`, `accepted_variants` ve
+   `evidence` korundu ama özet gövdeleri ve soru metinleri baştan yazıldı;
+   hepsinde `blind_solvable: null` duruyor. E7 bunları yeniden ölçmeli. AC2'nin
+   beşi birden değiştiği için o dosya, kelime bankalı özette "banka tazelemesi"
+   yönteminin tek başına yeterli olup olmadığını gösteren en temiz örnek olacak.
+
+### Doğrulama
+
+```
+python tools/_e5_wb_kapsam.py            # kapsam: 8 soru (AC2 36-40, AC4 36/38, AC3 38)
+python tools/_e5_wb_elden_gecir.py       # duzeltildi 6 - elendi 2 - dokunulmadi 0
+python tools/_e5_wb_devir.py             # eklenen kayit 2 - toplam 38
+python tools/_e5_wb_sayim.py             # gercek rakip celdirici 1 -> 5, kalan tanim ibaresi 0
+python tools/_e5_wb_dogrula_degisim.py   # sinanan alan 133 - KORUNAN ALAN HATASI: 0
+python tools/dogrula.py
+```
+
+- `answer`, `accepted_variants`, `evidence`, `evidence_locator` ve `word_limit`
+  üç dosyanın hepsinde **hiç değişmedi** (HEAD ile alan alan karşılaştırıldı, 133
+  sınamada 0 fark). Kelime bankalarında harf kümesi, harf sırası ve doğru
+  seçeneklerin metinleri korundu; değişen tek şey AC2'deki beş çeldirici metni.
+- Her boşluk numarasının özet gövdesinde hâlâ durduğu ayrıca sınandı.
+- Soru sayısı ve numaralar değişmedi: 15 soru girdi, 15 çıktı. On iki tam testin
+  hepsi 40/40 kaldı.
+- `isaretli (flagged)` 120 → **112** (6 verified + 2 rejected).
+- Şema hatası **0**; `explanation` alanlarının hepsi İngilizce yazıldı, `revision`
+  ve `reject_reason` gibi iç denetim notları Türkçe kaldı.

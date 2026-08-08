@@ -26,19 +26,19 @@
     },
     {
       "letter": "D",
-      "text": "a rough guide"
+      "text": "a natural experiment"
     },
     {
       "letter": "E",
-      "text": "a training period"
+      "text": "a rough indicator"
     },
     {
       "letter": "F",
-      "text": "extra pay"
+      "text": "a modest gain"
     },
     {
       "letter": "G",
-      "text": "face-to-face contact"
+      "text": "time spent training"
     },
     {
       "letter": "H",
@@ -50,15 +50,15 @@
     },
     {
       "letter": "J",
-      "text": "social comparison"
+      "text": "a source of pressure"
     }
   ],
   "visual": null,
-  "stem_block": "Peer effects in a company with no offices\n\nCaster Inc has never run a physical office, which makes it an unusually clean setting in which to study how colleagues shape one another's output. New staff were sorted into teams purely by the order in which they arrived, a rule neither managers nor employees could bend, so team make-up amounted in practice to (36) ........ , and the authors could argue for cause rather than mere association. Output was recorded as the number of clients a person looked after in a month, a figure that standard hours and fixed contracts turn into (37) ........ of how much useful work was really done. Being placed beside the company's strongest performers brought (38) ........ , even in the most productive quarter of teams. What counted instead was (39) ........ : teams whose members had stayed longest raised the output of those around them, and the gain was largest for staff still in their first year. Since the most experienced teams in fact exchanged fewer messages than the rest, the authors conclude that such groups rely on a shared, unspoken sense of who knows what, and that steady contact is largely (40) ........ for people who already know their job.",
+  "stem_block": "Peer effects in a company with no offices\n\nCaster Inc has never run a physical office, which makes it an unusually clean setting in which to study how colleagues shape one another's output. New staff were sorted into teams purely by the order in which they arrived, a rule neither managers nor employees could bend, and the authors therefore treat team make-up as the product of (36) ........ . Output was recorded as the number of clients a person looked after in a month, a count the authors take to be (37) ........ of the useful work actually done. Being placed beside the company's strongest performers brought (38) ........ . What mattered instead was (39) ........ : people in the top quarter of teams by that measure produced roughly 12.2 per cent more. The most experienced teams also exchanged fewer messages than the rest, and the authors end by arguing that, for anyone who already knows the job, steady contact is largely (40) ........ .",
   "items": [
     {
       "number": 36,
-      "prompt": "New staff were sorted into teams purely by the order in which they arrived, a rule neither managers nor employees could bend, so team make-up amounted in practice to (36) ........ , and the authors could argue for cause rather than mere association.",
+      "prompt": "New staff were sorted into teams purely by the order in which they arrived, a rule neither managers nor employees could bend, and the authors therefore treat team make-up as the product of (36) ........ .",
       "answer": [
         "A"
       ],
@@ -72,17 +72,23 @@
         "paragraph": "C",
         "sentence": 2
       },
-      "explanation": "Paragraph C says that assigning staff by order of arrival made team composition effectively random, letting the researchers treat it almost like a controlled experiment; the correct answer is therefore A ('a controlled experiment').",
+      "explanation": "Paragraph C says the round-robin rule effectively randomised which colleagues an employee worked alongside, letting the researchers treat team composition almost as if it had been assigned in a controlled experiment; the correct option is therefore A. D ('a natural experiment') is the term the passage never uses, although the arrangement may look like one.",
       "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
+      "status": "verified",
+      "blind_solvable": null,
       "blind_basis": "logic",
       "flag_reason": "Cevap A ('a controlled experiment'), arastirma yontemi mantigiyla kelime bankasi icinde tek tutarli secenek: sira ile rastgele atama, deneysel kontrollu bir duzenlemeye esdeger sayilir -- bu standart arastirma yontemi kavramiyla parcaya bakmadan da secilebiliyor.",
-      "flag_mechanism": "konumsal_duzen"
+      "flag_mechanism": "konumsal_duzen",
+      "revision": {
+        "tarih": "2026-08-08",
+        "mekanizma": "tanim_sizintisi",
+        "onceki_prompt": "New staff were sorted into teams purely by the order in which they arrived, a rule neither managers nor employees could bend, so team make-up amounted in practice to (36) ........ , and the authors could argue for cause rather than mere association.",
+        "ne_degisti": "Bosluktan sonra gelen tanim ('the authors could argue for cause rather than mere association') kaldirildi; bu ibare 'kontrollu deney' kavraminin ders kitabi tanimiydi ve tek basina A'yi veriyordu. Bankadaki bos D harfi ('a rough guide' -> 'a natural experiment') ayni cerceveye oturan gercek bir rakip yapildi: sirket politikasindan dogan rastgelelik yuzeyde 'dogal deney'e benziyor, yani sezgi artik YANLIS secenegi gosteriyor; dogrusu yalniz C/2'den cikiyor."
+      }
     },
     {
       "number": 37,
-      "prompt": "Output was recorded as the number of clients a person looked after in a month, a figure that standard hours and fixed contracts turn into (37) ........ of how much useful work was really done.",
+      "prompt": "Output was recorded as the number of clients a person looked after in a month, a count the authors take to be (37) ........ of the useful work actually done.",
       "answer": [
         "C"
       ],
@@ -96,17 +102,23 @@
         "paragraph": "D",
         "sentence": 2
       },
-      "explanation": "Paragraph D says that, thanks to standardised working hours and the fixed thirty hours in each contract, the number of clients is a 'reliable' measure of work done; the correct answer is therefore C. Option D ('a rough guide') is wrong, because the text stresses that this measure avoids ambiguity.",
+      "explanation": "Paragraph D says that, because working hours are standardised and each client contract allocates a fixed thirty hours of monthly support, the number of clients is a dependable stand-in for the work actually completed, avoiding the ambiguity of self-reported effort; the correct option is therefore C. E ('a rough indicator') is exactly what the passage rules out.",
       "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
+      "status": "verified",
+      "blind_solvable": null,
       "blind_basis": "logic",
       "flag_reason": "Cevap C ('a reliable measure'), kelime bankasindaki en yakin celdirici D ('a rough guide' -- kabaca bir kilavuz) ile karsit; metindeki 'guvenilir' vurgusu D'nin tahmini/kaba tonuyla celisiyor, bu yuzden yalniz C metinle ortusuyor.",
-      "flag_mechanism": "konumsal_duzen"
+      "flag_mechanism": "konumsal_duzen",
+      "revision": {
+        "tarih": "2026-08-08",
+        "mekanizma": "tanim_sizintisi",
+        "onceki_prompt": "Output was recorded as the number of clients a person looked after in a month, a figure that standard hours and fixed contracts turn into (37) ........ of how much useful work was really done.",
+        "ne_degisti": "Ozet, boslugun cevabini kendi icinde gerekcelendiren ibareyi tasiyordu ('standard hours and fixed contracts turn into ___'): bu, olcumun neden guvenilir oldugunu soyluyor, yani cevabin tanimini veriyordu. Gerekce ozetten cikarilip pasaja (D/2) birakildi. Bankadaki bos E harfi ('a training period' -> 'a rough indicator') '___ of' cercevesine dilbilgisiyle uyan bir rakip yapildi; ciplak musteri sayisi yuzeyde 'kaba gosterge' gibi durdugu icin sezgi yine yanlis secenege gidiyor."
+      }
     },
     {
       "number": 38,
-      "prompt": "Being placed beside the company's strongest performers brought (38) ........ , even in the most productive quarter of teams.",
+      "prompt": "Being placed beside the company's strongest performers brought (38) ........ .",
       "answer": [
         "I"
       ],
@@ -119,17 +131,23 @@
         "paragraph": "E",
         "sentence": 2
       },
-      "explanation": "Paragraph E says that working alongside highly productive colleagues produced no measurable improvement in a person's own output, even in the top-quarter teams; the correct answer is therefore I.",
+      "explanation": "Paragraph E says that working alongside highly productive colleagues produced no measurable improvement in an individual's own output; the correct option is therefore I. F ('a modest gain') belongs to a different finding, the 8.6 per cent rise recorded for second-year staff in paragraph F.",
       "difficulty": "easy",
-      "status": "flagged",
-      "blind_solvable": true,
+      "status": "verified",
+      "blind_solvable": null,
       "blind_basis": "logic",
       "flag_reason": "Cevap I ('no measurable benefit'), kelime bankasindaki en yakin celdirici B ('a distraction') ile karistirilabilir, ama metin burada dikkat dagitmadan degil dogrudan bir fayda yoklugundan soz ediyor; 'en verimli ceyrekte bile' ifadesi yalniz I ile ortusuyor.",
-      "flag_mechanism": "konumsal_duzen"
+      "flag_mechanism": "konumsal_duzen",
+      "revision": {
+        "tarih": "2026-08-08",
+        "mekanizma": "tanim_sizintisi",
+        "onceki_prompt": "Being placed beside the company's strongest performers brought (38) ........ , even in the most productive quarter of teams.",
+        "ne_degisti": "Bosluktan sonraki taviz yan cumlesi ('even in the most productive quarter of teams') kaldirildi: 'bile' kalibi boslugun olumsuz bir sey oldugunu soyluyordu ve bankada olumsuz tek secenek vardi. Bankadaki bos F harfi ('extra pay' -> 'a modest gain') pasajin kendi rakamindan (F/3, %8.6) devsirilmis bir rakip yapildi; yildiz calisanin cevresini yukseltmesi yaygin bir beklenti oldugu icin sezgi F'ye, pasaj I'ya gidiyor."
+      }
     },
     {
       "number": 39,
-      "prompt": "What counted instead was (39) ........ : teams whose members had stayed longest raised the output of those around them, and the gain was largest for staff still in their first year.",
+      "prompt": "What mattered instead was (39) ........ : people in the top quarter of teams by that measure produced roughly 12.2 per cent more.",
       "answer": [
         "H"
       ],
@@ -142,17 +160,23 @@
         "paragraph": "F",
         "sentence": 2
       },
-      "explanation": "Paragraph F says that the deciding factor was not raw productivity but a team's average tenure, and that output rose by about 12.2% for staff in the highest-tenure teams; since tenure means length of service, the correct answer is H.",
+      "explanation": "Paragraph F says the deciding factor was a team's average tenure, with output rising by about 12.2 per cent for staff in the top quarter of teams on that measure; tenure is length of service, so the correct option is H. G ('time spent training') points instead to the first six months excluded from the sample in paragraph B.",
       "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
+      "status": "verified",
+      "blind_solvable": null,
       "blind_basis": "logic",
       "flag_reason": "Cevap H ('length of service'), metindeki 'ortalama kidem' (tenure) kavraminin dogrudan es anlamlisi; kelime bankasindaki digerleri (egitim suresi, sosyal kiyas, yuz yuze temas) bu kavrami karsilamiyor.",
-      "flag_mechanism": "konumsal_duzen"
+      "flag_mechanism": "konumsal_duzen",
+      "revision": {
+        "tarih": "2026-08-08",
+        "mekanizma": "tanim_sizintisi",
+        "onceki_prompt": "What counted instead was (39) ........ : teams whose members had stayed longest raised the output of those around them, and the gain was largest for staff still in their first year.",
+        "ne_degisti": "Iki nokta ustusteden sonra gelen aciklama ('teams whose members had stayed longest') 'length of service' ifadesinin birebir tanimiydi; yerine olcumun kendisini adlandirmayan bir rakam kondu (%12.2). Bankadaki bos G harfi ('face-to-face contact' -> 'time spent training') ayni cumlede takima ait bir baska nitelik olarak rakip yapildi; hangi niteligin olculdugu artik yalniz F/2'den anlasiliyor."
+      }
     },
     {
       "number": 40,
-      "prompt": "Since the most experienced teams in fact exchanged fewer messages than the rest, the authors conclude that such groups rely on a shared, unspoken sense of who knows what, and that steady contact is largely (40) ........ for people who already know their job.",
+      "prompt": "The most experienced teams also exchanged fewer messages than the rest, and the authors end by arguing that, for anyone who already knows the job, steady contact is largely (40) ........ .",
       "answer": [
         "B"
       ],
@@ -166,13 +190,19 @@
         "paragraph": "G",
         "sentence": 2
       },
-      "explanation": "Paragraph G says that frequent messaging may distract, rather than help, staff who already know their job; the correct answer is therefore B ('a distraction').",
+      "explanation": "Paragraph G says that frequent messaging may sometimes distract rather than assist workers who already know what they are doing; the correct option is therefore B. J ('a source of pressure') belongs to paragraph H, where pressure comes from social comparison in an office rather than from messaging.",
       "difficulty": "hard",
-      "status": "flagged",
-      "blind_solvable": true,
+      "status": "verified",
+      "blind_solvable": null,
       "blind_basis": "logic",
       "flag_reason": "Cevap B ('a distraction'), metindeki 'may sometimes distract rather than assist' ifadesinin dogrudan karsiligi; kelime bankasindaki oteki secenekler (guvenilir olcum, kontrollu deney, sosyal kiyas) bu baglama uymuyor.",
-      "flag_mechanism": "konumsal_duzen"
+      "flag_mechanism": "konumsal_duzen",
+      "revision": {
+        "tarih": "2026-08-08",
+        "mekanizma": "tanim_sizintisi",
+        "onceki_prompt": "Since the most experienced teams in fact exchanged fewer messages than the rest, the authors conclude that such groups rely on a shared, unspoken sense of who knows what, and that steady contact is largely (40) ........ for people who already know their job.",
+        "ne_degisti": "Bosluktan once duran 'rely on a shared, unspoken sense of who knows what' ibaresi kaldirildi: temassizligin gerekcesini ozetin kendisi veriyordu. Bankadaki bos J harfi ('social comparison' -> 'a source of pressure') 'is largely ___' cercevesine uyan ikinci bir olumsuz secenek yapildi ve H/2'deki akran baskisina capalandi; secim artik iki olumsuz aday arasinda ve yalniz G/2'nin 'distract rather than assist' ifadesiyle yapilabiliyor."
+      }
     }
   ]
 }

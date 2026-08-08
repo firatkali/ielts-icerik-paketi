@@ -74,11 +74,12 @@
       },
       "explanation": "Paragraph B says the second experiment used a 'within-subject' design in which the same participants experienced both the nap and the period of wakefulness; so the correct option is J.",
       "difficulty": "medium",
-      "status": "flagged",
+      "status": "rejected",
       "blind_solvable": true,
       "blind_basis": "logic",
       "flag_reason": "Cevap J ('within-subject'), cumlenin kendisi bosluktan hemen sonra terimin tanimini veriyor ('the very same volunteers went through both...'); kelime bankasindaki karsit terim C ('between-subjects') farkli katilimcilari gerektirdigi icin bu tanimla celisiyor, boylece terim parcaya bakmadan da secilebiliyor.",
-      "flag_mechanism": "tanim_sizintisi"
+      "flag_mechanism": "tanim_sizintisi",
+      "reject_reason": "Bosluk 'within-subject' terimini hedefliyor ve bu terimin Ingilizcedeki tek tanimi 'ayni katilimcilar her iki kosuldan da gecer'. Ikinci deneyi durustce anlatan her ozet bu tanimi vermek zorunda, yani tanim sizintisi cerceveden degil boslugun hedefinden geliyor. Ustelik ayni ozetteki 37. cumle ilk deneyin iki ayri gruptan olustugunu soyluyor; bankadaki karsit terim C ('between-subjects') boylece ilk deneye baglanip eleniyor ve J elemeyle cikiyor. Tanimi ozetten silmek kalan cerceveyi anlamsiz birakiyor; bankadaki C'yi degistirmek ise J'yi bankadaki tek arastirma-deseni terimi haline getirip sizintiyi buyutuyor. Tek cikis boslugu baska bir ayrintiya tasimak, o da answer'i degistirmek demek - talimat bunu yarim duzeltme sayiyor. E6 bu yuvayi B ya da D paragrafinin baska bir ayrintisina capalamali (haftada en az bir kez sekerleme yapan 34 katilimci, ya da sersemligi azaltmak icin uygulanan 30 dakikalik bulmaca)."
     },
     {
       "number": 37,
@@ -126,11 +127,12 @@
       },
       "explanation": "Paragraph E says nocturnal sleep's clear advantage over napping showed up for semantically related word pairs; so the correct option is D.",
       "difficulty": "medium",
-      "status": "flagged",
+      "status": "rejected",
       "blind_solvable": true,
       "blind_basis": "general_knowledge",
       "flag_reason": "Cevap D ('connected in meaning'), uykunun bellek pekistirmedeki katkisinin anlamca iliskili/cagrisimli bilgilerde daha guclu oldugu bilissel bilim bilgisiyle parcaya bakmadan da tahmin edilebiliyor; kelime bankasindaki karsit secenek I ('unrelated in meaning') bu ozelligin tam tersini tasiyor.",
-      "flag_mechanism": "genel_kultur"
+      "flag_mechanism": "genel_kultur",
+      "reject_reason": "Sorunun ekseni, uykunun hangi tur malzemeyi daha cok kayirdigi - bilissel bilimin en cok aktarilan bulgularindan biri - ve kelime bankasi bu ekseni hazir bir zit cift olarak tasiyor (D 'connected in meaning' / I 'unrelated in meaning'). Ustelik hemen ardindan gelen 39. cumle 'Where no such link existed' diyerek 38'in 'baglantili' taraf oldugunu soyluyor, yani I ozetin kendi ic mantigiyla de eleniyor. Bosluk nasil yazilirsa yazilsin secim iki kutuptan birini isaretlemeye iniyor ve karar pasajdan degil dunya bilgisinden geliyor; kip ya da cerceve duzeltmesi bunu kapatmaz. E6 bu yuvayi E paragrafinin pasaja ozgu bir ayrintisina tasimali (0.58'e karsi 0.15 etki buyuklugu, ya da 40 iliskili + 40 iliskisiz cift bolusumu)."
     },
     {
       "number": 39,

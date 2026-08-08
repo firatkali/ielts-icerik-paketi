@@ -13,7 +13,7 @@
   "word_limit": "NO MORE THAN TWO WORDS",
   "word_bank": null,
   "visual": null,
-  "stem_block": "Analysing the glass from the skull\n\nThe dark material found inside the young man's skull proved to be brain tissue turned straight into a glassy solid. Such a change is very rare, since it happens only where tissue is made hot enough, fast enough, for ordinary (36) ........ never to begin, and is then chilled again before it burns away. Several methods were combined to test the identification: an electron microscope showed the fine internal structure of the glass, X-rays gave its chemical make-up, a purpose-built image-processing routine picked out the regular pattern of the covering around nerve fibres, and a check against (37) ........ of brain proteins independently confirmed where the tissue came from. The measurements were strikingly detailed. Nerve fibres were close in width to those of a living brain, their coverings kept a layered form, and even the (38) ........ , the minute rods that support a cell from within, could still be measured at roughly 23 nanometres. Chemistry pointed the same way: (39) ........ proteins that occur only in brain tissue were identified, one of them needed for signals to pass between nerve cells. The authors conclude that only a very narrow band of (40) ........ — heat applied in an instant, then cooling almost at once — could have left the tissue both scorched and structurally intact, since anything slower would have ruined it.",
+  "stem_block": "Analysing the glass from the skull\n\nThe dark material found inside the young man's skull proved to be brain tissue turned straight into a glassy solid. Such a change is very rare, since it happens only where tissue is made hot enough, fast enough, for ordinary (36) ........ never to begin, and is then chilled again before it burns away. Several methods were combined to test the identification: an electron microscope showed the fine internal structure of the glass, X-rays gave its chemical make-up, a purpose-built image-processing routine picked out the regular pattern of the covering around nerve fibres, and a check against (37) ........ of brain proteins independently confirmed where the tissue came from. The measurements were strikingly detailed. Nerve fibres were close in width to those of a living brain, their coverings kept a layered form, and even the (38) ........ , the smallest structures the team reports, were still in place. Chemistry pointed the same way: (39) ........ proteins that occur only in brain tissue were identified, one of them needed for signals to pass between nerve cells. The authors conclude that only a very narrow band of (40) ........ — heat applied in an instant, then cooling almost at once — could have left the tissue both scorched and structurally intact, since anything slower would have ruined it.",
   "items": [
     {
       "number": 36,
@@ -64,7 +64,7 @@
     },
     {
       "number": 38,
-      "prompt": "Nerve fibres were close in width to those of a living brain, their coverings kept a layered form, and even the (38) ........ , the minute rods that support a cell from within, could still be measured at roughly 23 nanometres.",
+      "prompt": "Nerve fibres were close in width to those of a living brain, their coverings kept a layered form, and even the (38) ........ , the smallest structures the team reports, were still in place.",
       "answer": [
         "microtubules"
       ],
@@ -77,13 +77,19 @@
         "paragraph": "E",
         "sentence": 4
       },
-      "explanation": "Paragraph E says even the microtubules, the tiny internal scaffolding of the cell, could still be seen with a diameter of about 23 nanometres; so the answer is 'microtubules'.",
+      "explanation": "Paragraph E lists what survived in the vitrified tissue and ends with the microtubules, the smallest structures it records; so the answer is 'microtubules'.",
       "difficulty": "easy",
-      "status": "flagged",
-      "blind_solvable": true,
+      "status": "verified",
+      "blind_solvable": null,
       "blind_basis": "general_knowledge",
       "flag_reason": "Cevap 'microtubules', cumlenin kendisi bosluktan hemen sonra terimin tanimini veriyor ('the minute rods that support a cell from within'); bu tanim, terimi bilenler icin dogrudan cagristirdigindan parcaya bakmadan da tahmin edilebiliyor.",
-      "flag_mechanism": "tanim_sizintisi"
+      "flag_mechanism": "tanim_sizintisi",
+      "revision": {
+        "tarih": "2026-08-08",
+        "mekanizma": "tanim_sizintisi",
+        "onceki_prompt": "Nerve fibres were close in width to those of a living brain, their coverings kept a layered form, and even the (38) ........ , the minute rods that support a cell from within, could still be measured at roughly 23 nanometres.",
+        "ne_degisti": "Bosluktan hemen sonra gelen ac tanim ('the minute rods that support a cell from within') kaldirildi - bu, 'microtubules' sozcugunun sozluk karsiligiydi ve terimi bilen bir cozucuye cevabi dogrudan veriyordu. Ayrica taniyla birlikte calisan 23 nanometrelik olcu de ozetten cikarildi (microtubul capi ~25 nm olarak bilinir). Yerine, hicbir sey tanimlamayan bir sira bilgisi kondu; yeni cerceveye pasajin kendi dunyasindan birden cok aday uyuyor (cell bodies, myelin sheaths, microtubules), secim yalniz E/4'ten yapilabiliyor."
+      }
     },
     {
       "number": 39,
