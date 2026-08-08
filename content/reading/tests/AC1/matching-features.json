@@ -41,7 +41,7 @@
   "items": [
     {
       "number": 23,
-      "prompt": "Members of this group waited longer than the others before any touching took place.",
+      "prompt": "Meetings in this group began more slowly, with the two animals often keeping their distance instead of touching.",
       "answer": [
         "D"
       ],
@@ -50,15 +50,21 @@
         "paragraph": "F",
         "sentence": 2
       },
-      "feature_check": "Karıştırılabilecek öğe C: üç günlük birliktelik boyunca fiziksel temasın seyrekleştiği söyleniyor, bu yüzden 'daha az dokunma' aramak adayı C'ye çekebilir. Ama oradaki azalma günler içindeki genel eğilim; ilk temasa geç geçme, yedinci gündeki iki buluşma türünün karşılaştırmasında geçiyor ve tanıdık eşine kavuşan hayvanlara ait. E tam tersi: yabancılar daha erken temas ediyor.",
+      "feature_check": "Karistirilabilecek iki oge var. C: D paragrafi fiziksel temasin uc gun boyunca seyreklestigini soyluyor, yani 'temas etmeden mesafe koruma' tarifi o doneme de oturuyor. E: sezgi yabancilarin daha temkinli olacagini soyler, oysa F/3 tam tersini veriyor - yabancilar daha erken temas ediyor, daha cok dokunuyor. Dogru cevap D, yalnizca F/2 okunarak bulunuyor.",
       "grammar_check": null,
-      "explanation": "Paragraph F says that octopuses reunited with their former partner took noticeably longer before first contact and were more likely to keep a cautious distance without touching.",
+      "explanation": "Paragraph F says octopuses reunited with a familiar partner took noticeably longer to make first contact and were more likely to keep a cautious distance without touching.",
       "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
+      "status": "verified",
+      "blind_solvable": null,
       "blind_basis": "logic",
       "flag_reason": "Cevap D, secenekler arasinda elemeyle bulunuyor: C'deki azalma uc gunluk donem icindeki genel egilim, oysa ifade yedinci gundeki iki bulusma turunun karsilastirmasini soruyor; E ise tam ters yonde (yabancilar daha erken temas ediyor) -- bu ayrim yalniz D'yi (eski es) dogru birakiyor.",
-      "flag_mechanism": "konumsal_duzen"
+      "flag_mechanism": "konumsal_duzen",
+      "revision": {
+        "tarih": "2026-08-08",
+        "mekanizma": "konumsal_duzen",
+        "onceki_prompt": "Members of this group waited longer than the others before any touching took place.",
+        "ne_degisti": "Ifadedeki ustunluk kalibi ('otekilerden daha uzun bekledi') kaldirildi; bu kalip yedinci gun karsilastirmasini isaret edip C'yi kendiliginden eliyordu. Yeni ifade kanit cumlesinin iki yarisini (gec temas + mesafe koruma) birlikte veriyor ve sezginin yanlis yone, E'ye, cektigi bir soru haline geliyor."
+      }
     },
     {
       "number": 24,
@@ -97,11 +103,12 @@
       "blind_solvable": true,
       "blind_basis": "option_wording",
       "flag_reason": "Ifadedeki 'no way at all of sensing' (hicbir sekilde algilayamama) mutlak ifadesi, secenek metninde yalniz B'nin 'solid screen' (isik gecirmez bolme) tanimiyla ortusuyor; A'daki 'see-through screen' gorme yoluyla algilamaya izin verdigi icin bu mutlakliga uymuyor.",
-      "flag_mechanism": "kip_imzasi"
+      "flag_mechanism": "kip_imzasi",
+      "review_note": "Sizinti ifadenin kipinde degil, SECENEK LISTESININ kendisinde: kanit cumlesi (C/3) yalniz bolmenin isik gecirip gecirmedigini soyluyor, secenek metinleri de gruplari tam olarak bu ozellikle adlandiriyor ('see-through screen' / 'solid screen'). Ilk asamayla ilgili her ifade bu yuzden sozcuk duzeyinde cozuluyor. Duzeltmek icin ya kanit cumlesini ya da secenek listesini degistirmek gerekir; talimat ikisini de bu adimin disinda biraktigi icin soru oldugu gibi kaldi. E6'nin yeniden uretim kapsamina alinmasi ve gruplarin bolme turuyle degil asama/sira ile adlandirilmasi yerinde olur."
     },
     {
       "number": 26,
-      "prompt": "For this group, being able to see the other animal was on its own not enough to make a strong difference later on.",
+      "prompt": "Differences did turn up in this group, but they were weaker than the ones recorded later in the study.",
       "answer": [
         "A"
       ],
@@ -110,15 +117,21 @@
         "paragraph": "H",
         "sentence": 3
       },
-      "feature_check": "Karıştırılabilecek öğe B: ifade 'yeterli olmadı' dediği için, hiçbir farkın çıkmadığı grup sanılıp B seçilebilir. Ama B'deki hayvanlar karşısındakini hiç göremiyor; 'yalnızca görmenin' ne kadar iş gördüğü sorusu ancak görmeye izin verilen gruba, yani A'ya sorulabilir. C de elenir: orada hayvanlar hem görüyor hem dokunuyor.",
+      "feature_check": "Karistirilabilecek ogeler B ve C. B: hicbir duyuya izin verilmeyen grup, sezgisel olarak 'en zayif fark' beklenen yer - oysa pasaj zayif ama olculebilir farki gorme izni olan gruba bagliyor. C: uc gunluk birliktelikte de degisimler kaydediliyor, ama H/3'un sozunu ettigi asama alistirma asamasi. Cevap ancak H/3 okunarak A'ya gidiyor.",
       "grammar_check": null,
-      "explanation": "Paragraph H says that vision alone produced weaker differences in the earlier stage, and that recognition is most likely underpinned by sight and physical contact together.",
+      "explanation": "Paragraph H says that vision alone, without touch or water-borne chemical cues, produced weaker measurable differences at the earlier stage, which is why the team concludes that sight and physical contact together most likely underlie recognition.",
       "difficulty": "hard",
-      "status": "flagged",
-      "blind_solvable": true,
+      "status": "verified",
+      "blind_solvable": null,
       "blind_basis": "option_wording",
       "flag_reason": "Ifadedeki 'on its own' (tek basina) ifadesi, yalniz gormeye izin verilip baska hicbir duyuya izin verilmeyen bir grubu gerektiriyor; secenekler arasinda yalniz A (seffaf bolme) bu 'sadece gorme' kosuluna uyuyor, B'de hic gorme de yok, C'de gorme + dokunma birlikte var.",
-      "flag_mechanism": "kip_imzasi"
+      "flag_mechanism": "kip_imzasi",
+      "revision": {
+        "tarih": "2026-08-08",
+        "mekanizma": "kip_imzasi",
+        "onceki_prompt": "For this group, being able to see the other animal was on its own not enough to make a strong difference later on.",
+        "ne_degisti": "Ifadeden 'gormek' sozcugu tumden cikarildi. Eski metin ('being able to see ... on its own') seffaf bolme seceneginin adiyla birebir esleseyip cevabi sozcuk duzeyinde veriyordu. Yeni ifade sonucun buyuklugunu soruyor; yuzeydeki sezgi B'ye, dogru cevap A'ya gidiyor."
+      }
     }
   ]
 }

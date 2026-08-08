@@ -56,11 +56,12 @@
           "grammar_check": null,
           "explanation": "Paragraph F says that exceeding the safe limit was seen 20-30 per cent more often in the plain open-plan office than in any of the other layouts.",
           "difficulty": "medium",
-          "status": "flagged",
+          "status": "rejected",
           "blind_solvable": true,
           "blind_basis": "general_knowledge",
           "flag_reason": "Cevap A (sade acik ofis) parcaya bakmadan da tahmin edilebiliyor: acik ofislerin oteki duzenlere gore daha gurultulu oldugu yaygin bir genel bilgi; soru dort duzenden en gurultulusunu sordugu icin bu bilgiyle dogrudan A'ya varilabiliyor.",
-          "flag_mechanism": "genel_kultur"
+          "flag_mechanism": "genel_kultur",
+          "reject_reason": "Sorunun ekseni ofis kulturu genel bilgisi: acik plan ofisin oteki duzenlerden daha gurultulu oldugu yaygin bir kani, soru da dort duzenden en gurultulusunu soruyor. Ifade nasil yazilirsa yazilsin cevap pasajdan degil bu kanidan cikiyor; kanit cumlesi (F/2) zaten yalniz 'hangisi en gurultuluydu' sorusunu destekliyor, baska bir eksene capalanamiyor."
         },
         {
           "number": 2,
@@ -135,11 +136,12 @@
           "grammar_check": null,
           "explanation": "Paragraph H states that, after trying another layout, the plain open-plan office was the one employees were least willing to return to.",
           "difficulty": "medium",
-          "status": "flagged",
+          "status": "rejected",
           "blind_solvable": true,
           "blind_basis": "general_knowledge",
           "flag_reason": "Cevap A yine genel ofis kulturu bilgisiyle tahmin edilebiliyor: calisanlarin en az geri donmek istedigi duzenin sade acik ofis olmasi, acik ofislerin memnuniyetsizlik yarattigina dair yaygin kaniyla ortusuyor; parcaya bakilmadan da beklenen sonuc bu.",
-          "flag_mechanism": "genel_kultur"
+          "flag_mechanism": "genel_kultur",
+          "reject_reason": "Sorunun ekseni yine acik plan ofis hakkindaki yaygin kani: calisanlarin en az geri donmek istedigi duzenin sade acik ofis olmasi beklenen sonuc. Kanit cumlesi (H/1) uc bulguyu birlikte veren bir ozet cumlesi ve ucu de ayni duzeni gosteriyor, yani ifadeyi baska bir ayrintiya tasimak da mumkun degil."
         }
       ]
     },
@@ -235,7 +237,7 @@
         },
         {
           "number": 9,
-          "prompt": "Households kept a written record of what they threw out in this group instead of it being weighed from their bins.",
+          "prompt": "The record kept for this group covered fewer days than the method used for the others.",
           "answer": [
             "E"
           ],
@@ -244,20 +246,26 @@
             "paragraph": "B",
             "sentence": 2
           },
-          "feature_check": "Karıştırılabilecek öğe A: pirinç en çok atılan ürün olduğu için ölçüm yönteminin de ona özel olduğu düşünülebilir. Ama pasaj katı yiyeceklerin hepsinin sekiz gün boyunca toplanıp tartıldığını, yalnızca dökülen içeceklerin ayrı tutulup yedi günlük bir günlükle kaydedildiğini söylüyor. B, C ve D de aynı nedenle elenir: hepsi katı yiyecek, hepsi tartılmış.",
+          "feature_check": "Eski ifade olcum turunu ('tartilmak yerine yazili gunluk') soruyordu; bes kategori icinde tek sivi olan E bu turu pasaja bakmadan da ustune cekiyordu. Yeni ifade olcumun SURESINI soruyor: kati atik sekiz gun boyunca toplanip tartiliyor, icecek gunlugu yedi gun tutuluyor. Kategorinin sivi olmasi bu farki vermiyor; A, B, C ve D ancak B/1'deki sekiz gun okunarak elenebiliyor.",
           "heading_check": null,
           "grammar_check": null,
-          "explanation": "Paragraph B states that discarded drinks were not weighed, but recorded in a seven-day diary kept by the participants.",
+          "explanation": "Paragraph B says solid food waste was collected and weighed over eight consecutive days, while discarded drinks were recorded in a seven-day diary.",
           "difficulty": "medium",
-          "status": "flagged",
-          "blind_solvable": true,
+          "status": "verified",
+          "blind_solvable": null,
           "blind_basis": "logic",
           "flag_reason": "Cevap E (kahve ve cay), bes secenek arasinda sivi/icecek olan tek kategori; 'tartilmak yerine yazili gunlukle kaydedilme' olcum farki sivilari katı yiyeceklerden (pirinc, sebze, ekmek, et) elemeyle ayiriyor -- parcaya bakmadan da yalniz E bu olcum turune uyuyor.",
-          "flag_mechanism": "konumsal_duzen"
+          "flag_mechanism": "konumsal_duzen",
+          "revision": {
+            "tarih": "2026-08-08",
+            "mekanizma": "konumsal_duzen",
+            "onceki_prompt": "Households kept a written record of what they threw out in this group instead of it being weighed from their bins.",
+            "ne_degisti": "Ifade, olcum yonteminden (gunluk / tarti) olcum suresine (yedi gune karsi sekiz gun) tasindi. Boylece 'bes secenek icinde tek icecek hangisiyse odur' kestirmesi kapandi; cevap artik B paragrafindaki iki sayiyi karsilastirmayi gerektiriyor."
+          }
         },
         {
           "number": 10,
-          "prompt": "The usual reason for getting rid of this was that a larger amount had been made than anyone wanted to drink.",
+          "prompt": "The commonest reason for getting rid of this was that more had been prepared than anyone wanted to finish.",
           "answer": [
             "E"
           ],
@@ -266,16 +274,22 @@
             "paragraph": "F",
             "sentence": 1
           },
-          "feature_check": "Karıştırılabilecek öğe A: 'gereğinden fazla hazırlama' gerekçesi pasajda pirinç için de geçiyor — bir ailenin yiyebileceğinden çok pirinç ya da yemek pişirmek sayılan nedenler arasında. Ayrım fiilde: burada söz konusu olan içmek, yani demlenen ya da doldurulan miktarın fazla gelmesi; bu da yalnızca kahve ve çaya uyuyor. B, C, D elenir, onlar için verilen nedenler bozulma, raf ömrü ve doku değişikliği.",
+          "feature_check": "Karistirilabilecek oge A: G paragrafi 'bir ailenin yiyebileceginden cok pirinc ya da yan yemek pisirmeyi' de yaygin nedenler arasinda sayiyor, dolayisiyla asiri hazirlama ifadesi artik pirince de uyuyor. Ayrim 'commonest' sozcugunde: G/2 pirincin kayiplarinin cogunu bozulma ve kuflenmeye baglar, F/1 ise kahve ve cay icin en sik nedenin fazla demlenmis olmasi oldugunu soyler. B, C ve D icin verilen nedenler bozulma, raf omru ve doku degisimi.",
           "heading_check": null,
           "grammar_check": null,
-          "explanation": "Paragraph F says that coffee and tea were mostly poured away because more had been brewed or poured than anyone wanted to drink.",
+          "explanation": "Paragraph F says coffee and tea were most often poured away because a pot or cup had been made larger than anyone actually wanted to finish.",
           "difficulty": "hard",
-          "status": "flagged",
-          "blind_solvable": true,
+          "status": "verified",
+          "blind_solvable": null,
           "blind_basis": "option_wording",
           "flag_reason": "Cevap E, secenek metninde 'demlenen/doldurulan miktarin fazla gelmesi' gerekcesi yalnizca iceceklere ozgu; oteki dort secenek bozulma, raf omru ya da doku degisimi gibi kati yiyeceklere ozgu nedenlerle anlatiliyor, bu yuzden secenek metninin kendisi elemeyi sagliyor.",
-          "flag_mechanism": "konumsal_duzen"
+          "flag_mechanism": "konumsal_duzen",
+          "revision": {
+            "tarih": "2026-08-08",
+            "mekanizma": "konumsal_duzen",
+            "onceki_prompt": "The usual reason for getting rid of this was that a larger amount had been made than anyone wanted to drink.",
+            "ne_degisti": "Ifadeden 'icmek' fiili cikarildi. Eski metin ('anyone wanted to drink') kategoriyi dogrudan soyluyordu; yeni metin yalniz 'gereginden fazla hazirlama' diyor, bu da pasajda hem pirinc hem icecekler icin geciyor. Cevap artik hangi kategoride bu nedenin EN SIK oldugunu okumayi gerektiriyor."
+          }
         }
       ]
     }

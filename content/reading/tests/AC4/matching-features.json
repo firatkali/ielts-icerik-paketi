@@ -68,15 +68,16 @@
       "grammar_check": null,
       "explanation": "Paragraph F says that five of the six negative mood states recorded by this scale decreased significantly after the forest experience.",
       "difficulty": "hard",
-      "status": "flagged",
+      "status": "rejected",
       "blind_solvable": true,
       "blind_basis": "general_knowledge",
       "flag_reason": "Cevap A, 'Profile of Mood States' (POMS) olceginin psikoloji arastirmalarinda alti ayri olumsuz duygu boyutu (gerginlik, ofke, depresyon, yorgunluk, kafa karisikligi, vb.) olcen yaygin bilinen standart bir arac olmasi sayesinde; ifadedeki 'cogunun hafiflemesi' altidan besinin duzelmesine dogal olarak oturuyor, bu genel bilgiyle parcaya bakmadan da tahmin edilebiliyor.",
-      "flag_mechanism": "genel_kultur"
+      "flag_mechanism": "genel_kultur",
+      "reject_reason": "Sorunun ekseni psikolojik olcme araclari genel bilgisi: Profile of Mood States'in alti ayri duygu boyutu olctugu yaygin bilinen bir bilgi ve ifadedeki 'olculen hos olmayan durumlarin cogu' kaydi altidan bese dogal olarak oturuyor. Kanit cumlesi (F/1) 'alti olumsuz duygu durumundan besi' kalibini tasidigi icin, ifade nasil yazilirsa yazilsin ayni arac bilgisine geri donuyor."
     },
     {
       "number": 25,
-      "prompt": "After participants viewed the buildings, its scores fell to around half their earlier level.",
+      "prompt": "Of the falls recorded after the campus session, this was the only one whose size was actually given.",
       "answer": [
         "C"
       ],
@@ -85,19 +86,25 @@
         "paragraph": "G",
         "sentence": 2
       },
-      "feature_check": "Karıştırılabilecek öğe D: bina koşulundan sonra öznel canlılık da düştü, aynı cümlede anılıyor — 25 asıl ayırt ediciliğini buradan alıyor. Ama 'yaklaşık yarıya inme' ölçüsü pasajda yalnızca dinlendiricilik puanlarına bağlanmış; D'nin düşüşü için hiçbir büyüklük verilmiyor. Ölçünün sahibi C.",
+      "feature_check": "Karistirilabilecek ogeler D ve B: ayni cumlede ikisinin de dustugu soyleniyor (oznel canlilik geriledi, olumlu duygular azaldi), ama ikisi icin de bir buyukluk verilmiyor. 'Yaklasik yariya inme' olcusu yalniz dinlendiricilik puanlarina bagli. Olcegin adi bu kez yardim etmiyor, cunku soru dususun kendisini degil sayilastirilmis olmasini soruyor.",
       "grammar_check": null,
-      "explanation": "Paragraph G says that after the building condition, restorativeness scores fell to roughly half their level beforehand.",
+      "explanation": "Paragraph G says that after the building condition, restorativeness scores dropped by roughly half compared with their level beforehand; the other declines are reported without a figure.",
       "difficulty": "hard",
-      "status": "flagged",
-      "blind_solvable": true,
+      "status": "verified",
+      "blind_solvable": null,
       "blind_basis": "logic",
       "flag_reason": "Cevap C, secenekler arasinda elemeyle bulunuyor: D'nin (canlilik) de bina kosulundan sonra dustugu ayni cumlede geciyor, ama 'yaklasik yariya inme' gibi somut bir oran yalniz dinlendiricilik olcegine bagli; D icin boyle bir buyukluk verilmiyor.",
-      "flag_mechanism": "konumsal_duzen"
+      "flag_mechanism": "konumsal_duzen",
+      "revision": {
+        "tarih": "2026-08-08",
+        "mekanizma": "konumsal_duzen",
+        "onceki_prompt": "After participants viewed the buildings, its scores fell to around half their earlier level.",
+        "ne_degisti": "Ifade 'bina kosulundan sonra yariya indi' bicimindeki dogrudan bulgudan, 'dususlerden hangisi sayiyla verildi' sorusuna cevrildi. Boylece 'dinlendiricilik olcegi bina gorunce en cok duser' bicimindeki ad-sezgisi devre disi kaliyor; cozucu G/2'yi okumak zorunda."
+      }
     },
     {
       "number": 26,
-      "prompt": "Though briefer than the fullest measure, it registered feelings at both ends of the emotional range.",
+      "prompt": "It runs to twenty items, more than two of the other three but far fewer than the longest.",
       "answer": [
         "B"
       ],
@@ -106,15 +113,21 @@
         "paragraph": "E",
         "sentence": 3
       },
-      "feature_check": "Karıştırılabilecek öğe D: dört maddelik canlılık ölçeği listedeki en kısa araç, 'daha kısa' kaydını o da karşılıyor. Ama ifadenin ikinci yarısı eliyor: D yalnızca enerji duygusunu, yani tek ucu ölçüyor; duygu yelpazesinin iki ucunu birden (olumlu ve olumsuz) kaydeden, 65 maddelik en kapsamlı ölçekten kısa olan araç B. A da elenir: en dolu ölçek zaten kendisi, 'ondan kısa' tarifine uymaz.",
+      "feature_check": "Karistirilabilecek oge A: 'en uzun degil ama kisa da sayilmaz' tarifi, madde sayilari bilinmeden hicbir olcege baglanamiyor. C (alti madde) ve D (dort madde) yirmiden kisa, A (altmis bes madde) acik ara en uzun; dolayisiyla tarif yalniz B'ye oturuyor ama bu ancak E paragrafindaki dort sayi okunarak gorulebiliyor.",
       "grammar_check": null,
-      "explanation": "Paragraph E says that this scale is a shorter, 20-item tool that records both positive and negative mood states.",
+      "explanation": "Paragraph E says this is a shorter, 20-item scale; the Profile of Mood States has 65 items, the Restorative Outcome Scale six and the Subjective Vitality Scale four.",
       "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
+      "status": "verified",
+      "blind_solvable": null,
       "blind_basis": "general_knowledge",
       "flag_reason": "Cevap B, 'Positive and Negative Affect Schedule' (PANAS) adinin kendisinin hem olumlu hem olumsuz duygulari birlikte olctugunu belirtmesi, psikolojide yaygin bilinen standart bir olcme araci olmasi sayesinde parcaya bakmadan da tahmin edilebiliyor; D ise yalnizca enerjiyi (tek ucu) olcuyor.",
-      "flag_mechanism": "genel_kultur"
+      "flag_mechanism": "genel_kultur",
+      "revision": {
+        "tarih": "2026-08-08",
+        "mekanizma": "genel_kultur",
+        "onceki_prompt": "Though briefer than the fullest measure, it registered feelings at both ends of the emotional range.",
+        "ne_degisti": "Ifade olcegin ne olctugunden ('duygu yelpazesinin iki ucu') madde sayisina tasindi. Eski metin, seceneklerden birinin ADININ ('Positive and Negative Affect Schedule') birebir cevirisiydi; yeni metin adin tasimadigi bir ayrintiya, uzunluk siralamasina capalaniyor."
+      }
     }
   ]
 }

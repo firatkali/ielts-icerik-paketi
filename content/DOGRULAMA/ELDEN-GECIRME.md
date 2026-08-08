@@ -456,3 +456,245 @@ python tools/dogrula.py
 - `isaretli (flagged)` 199 → **169** (16 verified + 14 rejected).
 - Şema hatası **0**; `explanation` alanlarının hepsi İngilizce yazıldı,
   `distractor_analysis` ve `revision` gibi iç denetim notları Türkçe kaldı.
+
+---
+
+## 3. çalıştırma — cümle sonu eşleştirme + özellik eşleştirme · 2026-08-08
+
+### Kapsam ve kendi sayımım
+
+Talimatın 1. kuralı gereği yeniden saydım. Bu iki tipte `content/reading` altında
+altı dosya var; içlerindeki `status: "flagged"` soru sayısı **28**:
+
+| Dosya | Soru | İşaretli |
+|---|---|---|
+| `content/reading/practice/matching-sentence-endings.json` | 10 | 10 |
+| `content/reading/practice/matching-features.json` | 10 | 4 |
+| `content/reading/tests/AC1/matching-features.json` | 4 | 3 |
+| `content/reading/tests/AC2/matching-features.json` | 4 | 4 |
+| `content/reading/tests/AC3/matching-features.json` | 4 | 4 |
+| `content/reading/tests/AC4/matching-features.json` | 4 | 3 |
+| **toplam** | **36** | **28** |
+
+E1'in dağılım tablosuyla birebir aynı (`matching_features` 18, `matching_sentence_endings`
+10) ve mekanizma kırılımı da tuttu: cümle sonu eşleştirmede `konumsal_duzen` 10;
+özellik eşleştirmede `konumsal_duzen` 8, `genel_kultur` 6, `kip_imzasi` 4. E10 bu iki
+tipe hiç dokunmadı (üç çalıştırması da tamamlama ailesindeydi), ek işaretli yok.
+
+Cümle sonu eşleştirmenin **tamamı** işaretli; özellik eşleştirmede işaretsiz kalan
+sekiz sorunun altısı `practice` dosyasının sayısal karşılaştırma soruları.
+
+### Sonuç dağılımı
+
+| Sonuç | Soru | Nerede |
+|---|---|---|
+| **Düzeltildi** | 21 | cümle sonu 10 · özellik eşleştirme 11 |
+| **Elendi** | 6 | özellik eşleştirme 6 |
+| **Dokunulmadı** | 1 | AC1-25 |
+| **toplam** | **28** | |
+
+🔴 **Bu çalıştırmada elenen küme ile `genel_kultur` kümesi ilk kez örtüşmüyor.**
+1. ve 2. çalıştırmada ikisi birebir aynıydı; burada iki soru yer değiştirdi:
+
+- **AC4-26 `genel_kultur` etiketli ama düzeltildi.** Sızıntı sorunun ekseninde
+  değil, **seçeneğin kendi adında**ydı: "Positive and Negative Affect Schedule"
+  adı, ifadenin sorduğu şeyi ("duygu yelpazesinin iki ucunu birden kaydeder")
+  birebir söylüyordu. Adın taşımadığı bir ayrıntı — madde sayısı — kanıt
+  cümlesinin içinde duruyordu, o yüzden mekanik düzeltmeye uygun.
+- **AC2-24 `kip_imzasi` etiketli ama elendi.** Kapsam sözcüklerini ("geniş alan",
+  "özellikle") temizlemek imzayı kırıyor, ama geriye kalan soru "basit buğdaylar
+  yaklaşık on iki bin yıl önce nerede ehlileştirildi" oluyor; bu, ders kitabı
+  düzeyinde bilinen bir önerme. Eksen genel kültür, etiket ne derse desin.
+
+### a) Cümle sonu eşleştirme — 10 soru, tek bir mekanizma
+
+E1 onunu da `konumsal_duzen` saymıştı ve haklıydı, ama mekanizmanın tam adı şu:
+**her başlangıcın karşısında konu olarak yalnız tek bir son vardı.** Sekiz son
+dilbilgisi bakımından kusursuz biçimde birbirinin yerine geçiyordu (E1'in
+`grammar_check` notları bunu tek tek doğruluyor), dolayısıyla eleme biçimden
+değil konudan geliyordu — ve konu eşleşmesi birebir olduğu için pasaja bakmaya
+gerek kalmıyordu:
+
+| Başlangıç | Konusu | Bu konudaki son sayısı (eski) |
+|---|---|---|
+| 1 — şeffaf panel neden kullanıldı | kontrol koşulu gerekçesi | 1 (A) |
+| 2 — davranışlar neden ayrı sayıldı | "kendine yönelik" tanımı | 1 (E) |
+| 3 — işaret neden göz/kulak arkasına | işaretin konumu | 1 (B) |
+| 4 — gerçek/sahte işaret süre farkı | süreden çıkarılan sonuç | 1 (C) |
+| 5 — Maris neden başarısızlık sayılmadı | bireysel değişkenlik | 1 (D) |
+| 6 — kimler örneklemden çıkarıldı | eksik veri | 1 (B) |
+| 7 — farkın büyüklüğü | büyüklük kıyası | 1 (C) |
+| 8 — ülkeler arası karşıtlık | ülke oranları | 1 (D) |
+| 9 — gönüllülük geliri neden artırsın | gelir yolu | 1 (A) |
+| 10 — sağlık neden iyileşsin | bedensel hareket | 1 (E) |
+
+Onunda da aynı: **1**. Bu yüzden düzeltme tek tek ifadelerde değil, **son
+listesinin kendisinde** yapıldı. Kural:
+
+> Her başlangıcın karşısına, aynı çerçeveye oturan ama pasajın onaylamadığı en az
+> bir rakip son konur; rakip mümkün olduğunca pasajın kendi cümlelerinden
+> devşirilir, uydurulmaz.
+
+İki gruptaki üçer boş harf (F, G, H) bu iş için yeniden yazıldı; beş doğru sonun
+metni de kanıt cümlesinin sözcüklerinden uzaklaştırıldı. Yeni durum:
+
+| Başlangıç | Doğru son | Yeni rakip(ler) | Rakip nereden geliyor |
+|---|---|---|---|
+| 1 | A | H | sahte işlem de bir kontrol koşulu (D paragrafı) |
+| 2 | E | F, G | toplam 27 saatlik maruziyet (B/4) + reddedilen yorum |
+| 3 | B | H | sahte işlem aynı bölgeye uygulanıyor (D) |
+| 4 | C | G | pasajın açıkça çürüttüğü "sadece aynadan hoşlanma" (E/3) |
+| 5 | D | F | "yeterince fırsatı vardı" biçiminde hafifletici gerekçe |
+| 6 | B | — | *kısmi* — dışlanmayı anlatan hâlâ tek son |
+| 7 | C | G | "her sürümde aynı sonuç" (G paragrafı) |
+| 8 | D | F | gönüllü/gönüllü olmayan karşıtlığının başka ekseni (D/3) |
+| 9 | A | F | ters nedensellik: zaten daha eğitimli ve varlıklı (D/3 + E/2) |
+| 10 | E | H | aynı cümlenin üçüncü adayı: stres hormonları (H/2) |
+
+Üç düzeltme ayrıca **soruyu kanıt cümlesinin başka bir yarısına taşıdı**, çünkü
+eski hâlde son, kanıtın kendi sözlüğünü tekrarlıyordu:
+
+- **2. soru**: eski son "self-directed" teriminin sözlük karşılığıydı
+  (`self-directed` ↔ "own body rather than at another animal"). Yeni soru aynı
+  kanıt cümlesinin (C/3) öteki yarısını, davranışların ne kadar çabuk ortaya
+  çıktığını hedefliyor; karşısında iki süre rakibi var.
+- **7. soru**: "somutlaştırma" çağrışımı kaldırıldı, yalnız "gösterebildiler"
+  kaldı — böylece büyüklük sonu ile tutarlılık sonu eşit derecede cazip.
+- **10. soru**: "sağlık neden iyileşsin" sorusu, "yazarların sıraladığı üç
+  açıklamadan ortadaki hangisi" sorusuna çevrildi. Hareketin sağlığa iyi geldiği
+  genel bilgisi artık tek başına cevabı vermiyor; sıra ancak H/2 okunarak
+  bulunuyor.
+
+**6. soru kısmi düzeltme.** Örneklemin son büyüklüğü (42.926) başlangıca taşındı
+ve son sadeleştirildi, ama sekiz son arasında "örneklemden çıkarılma"yı anlatan
+hâlâ tek son var. Rakip yazmak için elimdeki tek gerçek malzeme, gelirini
+bildirmeyen %11'lik kesim (G/2) idi; o da dışlama ölçütüyle neredeyse aynı şeyi
+söylediği için **iki doğru cevaplı** bir soru üretirdi. Belirsizlik yaratmaktansa
+sızıntının bir kısmını bıraktım; E7 ölçümünde bu soruya ayrıca bakılmalı.
+
+### b) Özellik eşleştirme — 11 düzeltme, tek bir sızıntı biçimi
+
+Bu tipte `konumsal_duzen` ve `kip_imzasi` etiketlerinin altında aynı şey yatıyor:
+**ifade, seçeneklerden yalnız birinin TÜRÜNÜN taşıyabileceği bir özelliği
+adlandırıyor.** Cevap, pasajdan değil seçenek listesinin biçiminden çıkıyor —
+listeler tür bakımından karışık olduğu için (bir kazı yeri + bir dağ bölgesi +
+bir makro bölge + bir kıta + bir ülke) bu çok kolay oluyor.
+
+Kendi sınıflandırmamla, işaretli 18 özellik eşleştirme sorusunun **8'inde**
+sızıntı doğrudan bu biçimdeydi:
+
+| Soru | İfadenin adlandırdığı özellik | Yalnız hangi tür taşıyabilir |
+|---|---|---|
+| practice-9 | "tartılmak yerine yazılı günlük" | tek sıvı kategori (E) |
+| practice-10 | "kimsenin *içmek* istemediği kadar" | içecek (E) |
+| AC1-25 | "hiçbir şekilde algılayamama" | ışık geçirmez bölme (B) |
+| AC1-26 | "yalnızca görebilme" | şeffaf bölme (A) |
+| AC2-23 | "ekibin üzerinde çalıştığı tohumlar" | tek kazı yeri (A) |
+| AC3-23 | "üstünde duran yamaçlar" | siradağın üstünde yamaç olmaz (D) |
+| AC3-26 | "kıyıdaki bu yerleşim" | tek yerleşim (A) |
+| AC4-26 | "duygu yelpazesinin iki ucu" | ölçeğin adının çevirisi (B) |
+
+Sekizinin **yedisi** düzeltildi, biri (AC1-25) düzeltilemedi — aşağıda. Uygulanan
+kural:
+
+> İfade, seçenek listesinin biçiminden okunabilen özellikten alınıp pasajın
+> gerçekten karara bağladığı bir ayrıntıya çapalanır; mümkünse yüzeydeki sezgi
+> **yanlış** seçeneği gösterecek biçimde kurulur.
+
+| Soru | Eski çapa | Yeni çapa | Sezgi artık nereye gidiyor |
+|---|---|---|---|
+| practice-9 | ölçüm *türü* (günlük / tartı) | ölçüm *süresi*: yedi güne karşı sekiz gün (B/1–B/2) | hiçbir yere — süre kategoriden okunamıyor |
+| practice-10 | "içmek" fiili | "en sık neden" — pirinç için de fazla pişirme sayılıyor (G/3), ama pirincin baş nedeni bozulma (G/2) | A (pirinç) |
+| AC1-23 | "ötekilerden daha uzun bekledi" (üstünlük, C'yi eliyordu) | geç temas + mesafe koruma birlikte (F/2) | E (yabancılar daha temkinli sanılır) |
+| AC1-26 | "görebilmek" | farkın *büyüklüğü*: zayıf ama ölçülebilir (H/3) | B (hiç duyusu olmayan grup) |
+| AC2-23 | "ekibin çalıştığı tohumlar" | korunma karşılaştırmasının kendisi (B/1) | C (Bereketli Hilal) |
+| AC3-23 | "üstünde duran yamaçlar" | malzemenin nereye indiği (A/3) | E (aynı cümledeki "geniş kuşak") |
+| AC3-24 | 25 ile kurduğu tamamlayıcılık | "en çarpıcı tek olay" ölçüsü (D/1) | B (Kanada'nın en yüksek tepesi) |
+| AC3-25 | "ama en büyüğü orada değildi" | çevredeki izler (D/1) | C |
+| AC3-26 | "kıyıdaki bu yerleşim" | yalnız mesafe (A/2) | E (deprem siradağda oldu) |
+| AC4-25 | "yarıya indi" | dört düşüşten hangisi **sayıyla** verildi (G/2) | D (canlılık) |
+| AC4-26 | ölçeğin ne ölçtüğü | madde sayısı: 20 · 65 · 6 · 4 (E paragrafı) | A (en uzun sanılır) |
+
+**AC3-24 ve AC3-25 bir de birbirini ele veriyordu.** İkisi de aynı cümleye
+(D/1) dayanıyor, ikisinin cevabı da o cümlede geçen iki dağ, ve 25 "ama en büyük
+tek akış orada değildi" diyerek 24'ün cevabını dışarıda bırakıyordu: birini bilen
+ötekini pasaja hiç bakmadan çıkarabiliyordu. O kayıt kaldırıldı; iki soru artık
+cümlenin iki ayrı yarısına bağımsız olarak çapalanmış durumda. `allow_repeat`
+`false` olduğu için bu tür tamamlayıcılık bu tipte tek başına bir eleme yolu.
+
+### Elenen 6 soru
+
+| Soru | Cevap | Eksen |
+|---|---|---|
+| practice-1 | A | açık plan ofis en gürültülü düzendir (yaygın kanı) |
+| practice-5 | A | açık plan ofise en az geri dönülür (aynı kanı) |
+| AC2-24 | C | buğday ~12.000 yıl önce Bereketli Hilal'de ehlileştirildi |
+| AC2-25 | B | Karacadağ einkorn ekiminin doğduğu yerdir (arkeoloji) |
+| AC2-26 | D | tarım Bereketli Hilal'den Avrupa'ya yayıldı (ders kitabı anlatısı) |
+| AC4-24 | A | POMS altı olumsuz duygu boyutu ölçer (ölçme aracı bilgisi) |
+
+Altısı da `status: "rejected"` + `reject_reason` aldı, dosyalarında
+**numaralarıyla duruyor** ve `content/DOGRULAMA/yeniden-uretim-listesi.json`
+dosyasına eklendi (liste 23 → **29** kayıt). Her kayıt kanıt cümlesini ve
+ifadeyi `kacinilacak` altında taşıyor.
+
+🔴 **AC2-24 ile AC2-25 aynı kanıt cümlesini paylaşıyor** (G/2). E6 o cümleye
+tek bir soru yazmalı, ikisini birden değil; ikinci yuvayı başka bir paragraftan
+doldurmalı.
+
+### Dokunulmayan 1 soru
+
+**AC1-25** (B, A02). Sızıntı ifadenin kipinde değil, **seçenek listesinin
+kendisinde**: kanıt cümlesi (C/3) yalnız bölmenin ışık geçirip geçirmediğini
+söylüyor, seçenek metinleri de iki grubu tam olarak bu özellikle adlandırıyor
+(`see-through screen` / `solid screen`). İlk aşamayla ilgili nasıl yazılırsa
+yazılsın her ifade bu iki etiketten birine sözcük düzeyinde bağlanıyor.
+Düzeltmek için ya kanıt cümlesini ya seçenek listesini değiştirmek gerekiyordu;
+talimat ikisini de bu adımın dışında bıraktığı için soru olduğu gibi kaldı,
+gerekçe `review_note` alanına yazıldı, `status` hâlâ `flagged`.
+
+Kardeşi AC1-26 düzeltildiği için elemeyle çözülme yolu yine de daraldı: 26'nın
+yeni ifadesi "görmek" sözcüğünü hiç kullanmıyor ve `allow_repeat: false`
+altındaki harf elemesini de kesmek için üç aday (A, B, C) açık bırakıyor.
+
+### 🔴 E6 ve E7'ye devir notları
+
+1. **AC2 dosyasının dördünden üçü elendi.** Yeniden üretilecek üç yuvanın
+   ikisi (24, 25) aynı kanıt cümlesine bakıyordu; E6 bu cümleye tek soru
+   yazmalı. Ayakta kalan tek soru (23) A cevaplı ve `allow_repeat: false`,
+   yani yeni üç sorunun cevapları B, C, D, E arasından seçilmeli.
+2. **AC1-25 açık kalıyor.** Kanıt cümlesi ya da seçenek listesi değişmeden
+   düzeltilemez. En temiz çözüm seçenek listesini bölme türüyle değil
+   **aşama/sıra** ile adlandırmak (ör. "ilk üç günü ayrı geçiren birinci
+   yarı"); bu, AC1-26'yı da güçlendirir.
+3. **Cümle sonu eşleştirmenin 6. sorusu kısmi düzeltme.** Sekiz son arasında dışlanmayı
+   anlatan hâlâ tek son var; ikinci bir aday yazmak iki doğru cevaplı soru
+   üretme riski taşıdığı için yapılmadı. E7 ölçümünde ayrıca bakılmalı.
+4. **Düzeltilen 21 soru ölçülmemiş sorudur.** `answer` ve `evidence` korundu
+   ama ifadeler ve cümle sonu listelerinin tamamı baştan yazıldı; hepsinde
+   `blind_solvable: null` duruyor. E7 bunları yeniden ölçmeli.
+5. **Cümle sonu eşleştirmede son listesi set düzeyinde bir denge işi.** Bu
+   çalıştırma iki gruptaki altı boş harfi (F, G, H) rakip son yapmak için
+   kullandı; E6 bu tipte yeni soru yazarsa aynı kuralı sürdürmeli — her
+   başlangıcın karşısında aynı çerçeveden en az bir rakip son bulunmalı.
+
+### Doğrulama
+
+```
+python tools/_e5_mse_mf_elden_gecir.py       # duzeltildi 21 - elendi 6 - dokunulmadi 1
+python tools/_e5_mse_mf_devir.py             # eklenen kayit 6 - toplam 29
+python tools/_e5_mse_mf_dogrula_degisim.py   # KORUNAN ALAN HATASI: 0
+python tools/dogrula.py
+```
+
+- `answer`, `evidence`, `evidence_locator`, `allow_repeat` altı dosyanın
+  hepsinde **hiç değişmedi** (HEAD ile alan alan karşılaştırıldı, 0 fark).
+  Seçenek harflerinin kümesi ve sırası da korundu; `allow_repeat: false` olan
+  gruplarda harf tekrarı yok.
+- Soru sayısı ve numaralar değişmedi: 36 soru girdi, 36 çıktı. On iki tam
+  testin hepsi 40/40 kaldı.
+- `isaretli (flagged)` 169 → **142** (21 verified + 6 rejected; AC1-25 flagged
+  kaldı).
+- Şema hatası **0**; `explanation` alanlarının hepsi İngilizce yazıldı,
+  `feature_check`, `grammar_check`, `revision` ve `reject_reason` gibi iç
+  denetim notları Türkçe kaldı.

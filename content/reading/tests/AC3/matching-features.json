@@ -41,7 +41,7 @@
   "items": [
     {
       "number": 23,
-      "prompt": "In the first seconds of the shaking, rock and ice were torn away from the slopes standing over it.",
+      "prompt": "Within seconds of the first shaking, rock and ice broken loose by the quake were already coming down onto it.",
       "answer": [
         "D"
       ],
@@ -50,19 +50,25 @@
         "paragraph": "A",
         "sentence": 3
       },
-      "feature_check": "Karıştırılabilecek öğe E: aynı cümle çığ ve heyelanların 'dağların geniş bir kuşağı boyunca' tetiklendiğini söylüyor, dolayısıyla 'sarsıntının ilk anlarında koptu' bilgisi ilk bakışta bütün sıradağa bağlanabilir. Ayrım şurada: ifade koparılan malzemenin *üstünde durduğu* şeyi soruyor; pasajda yamaçların üzerinde yükseldiği şey olarak yalnızca bölgenin en büyük buz kütlelerinden biri, yani D adlandırılıyor. Bir sıradağın 'üstünde' yamaç bulunmaz; E yerin genel adı, kopan malzemenin indiği hedef değil.",
+      "feature_check": "Karistirilabilecek ogeler E ve C. E: ayni cumle heyelan ve ciglerin 'daglarin genis bir kusagi boyunca' tetiklendigini soyluyor, dolayisiyla malzemenin siradaginin uzerine dustugu dusunulebilir. C: F paragrafi King George yakinlarindaki bir kol buzulunun yeni enkazi tasidigini anlatiyor. Cumlenin adlandirdigi hedef ise D; ayrim A/3'u okumayi gerektiriyor.",
       "grammar_check": null,
-      "explanation": "Paragraph A says that within seconds the shaking tore rock and ice from the slopes above this large ice body.",
+      "explanation": "Paragraph A says that within seconds the shaking tore loose rock and ice from slopes above one of the region's largest ice bodies.",
       "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
+      "status": "verified",
+      "blind_solvable": null,
       "blind_basis": "logic",
       "flag_reason": "Cevap D, secenekler arasinda elemeyle bulunuyor: ifade 'kopan malzemenin ustunde durdugu' seyi soruyor, bir siradaginin (E) 'ustunde' yamac olmaz; pasajda yamaclarin yukseldigi sey olarak yalniz bolgenin en buyuk buz kutlelerinden biri, yani D adlandiriliyor.",
-      "flag_mechanism": "konumsal_duzen"
+      "flag_mechanism": "konumsal_duzen",
+      "revision": {
+        "tarih": "2026-08-08",
+        "mekanizma": "konumsal_duzen",
+        "onceki_prompt": "In the first seconds of the shaking, rock and ice were torn away from the slopes standing over it.",
+        "ne_degisti": "Ifadeden 'ustunde duran yamaclar' kaydi cikarildi. Bu kayit, secenekler icinde 'ustunde yamac bulunabilecek' tek ogeyi kendiliginden isaret ediyordu (bir siradaginin ustunde yamac olmaz). Yeni ifade yalniz malzemenin nereye indigini soruyor; ayni cumledeki 'genis bir kusak boyunca' kaydi E'yi gercek bir rakip yapiyor."
+      }
     },
     {
       "number": 24,
-      "prompt": "The clearest single event of all was a broad flow of loosened material down its side.",
+      "prompt": "A single wide fall of debris down its side was the most conspicuous thing the earthquake produced anywhere in the range.",
       "answer": [
         "C"
       ],
@@ -71,19 +77,25 @@
         "paragraph": "D",
         "sentence": 1
       },
-      "feature_check": "Karıştırılabilecek öğe B: iki dağ da aynı cümlede, ikisi de yeni yıkım izleriyle anılıyor, üstelik B ülkenin en yüksek tepesi olduğu için 'en büyük' çağrışımını da üstüne çekiyor — 24 ile 25 asıl ayırt ediciliğini buradan alıyor. Fark cümlenin iki yarısında: 'tek bir olay olarak en göze çarpanı' doğrudan C'nin yamacından inen geniş akışa bağlanmış; B'ye bağlanan ise tek bir büyük akış değil, çevrede görülen başkaca kopma izleri.",
+      "feature_check": "Karistirilabilecek oge B: ayni cumlede aniliyor, ulkenin en yuksek tepesi oldugu icin 'en carpici olay' sezgisini ustune cekiyor ve cevredeki heyelan izleriyle birlikte veriliyor. Cumlenin ilk yarisi tek bir genis enkaz akisini acikca C'ye bagliyor; ikinci yarisi B'ye bagladigi sey tek bir akis degil, dagilmis izler.",
       "grammar_check": null,
-      "explanation": "Paragraph D says that the most conspicuous single event was a wide cascade of debris pouring down the flank of this mountain.",
+      "explanation": "Paragraph D says the most conspicuous single event showed up as a wide cascade of debris pouring down the flank of this mountain.",
       "difficulty": "hard",
-      "status": "flagged",
-      "blind_solvable": true,
+      "status": "verified",
+      "blind_solvable": null,
       "blind_basis": "logic",
       "flag_reason": "Cevap C, secenekler arasinda elemeyle bulunuyor: B ulkenin en yuksek tepesi oldugu icin 'en buyuk' cagrisimini ustune cekse de, 'tek bir olay olarak en goze carpani' ifadesi dogrudan bu dagin yamacindan inen genis enkaz akisina baglaniyor; B'ye baglanan ise tek bir akis degil, cevredeki baska kopma izleri.",
-      "flag_mechanism": "konumsal_duzen"
+      "flag_mechanism": "konumsal_duzen",
+      "revision": {
+        "tarih": "2026-08-08",
+        "mekanizma": "konumsal_duzen",
+        "onceki_prompt": "The clearest single event of all was a broad flow of loosened material down its side.",
+        "ne_degisti": "Ifade 25 numarayla kurdugu tamamlayicilik iliskisinden kurtarildi ve pasajin kendi olcegine ('en carpici tek olay') capalandi. Sezgi B'ye (Kanada'nin en yuksek tepesi) gidiyor, dogru cevap D/1'i okumayi gerektiriyor."
+      }
     },
     {
       "number": 25,
-      "prompt": "Further marks left by slipping ground could be seen in the terrain around it, although the largest single flow was not there.",
+      "prompt": "Fresh scars left by slipping ground could be picked out in the country around it.",
       "answer": [
         "B"
       ],
@@ -92,19 +104,25 @@
         "paragraph": "D",
         "sentence": 1
       },
-      "feature_check": "Karıştırılabilecek öğe C: aday, aynı cümlede geçen ve daha çarpıcı yıkımla anılan dağı seçmeye eğilimli. Ama cümlenin ikinci yarısı 'çevresinde görülen başkaca heyelan izleri'ni açıkça B'ye bağlıyor; en büyük tek akış C'ye ait olduğu için ifadenin 'en büyüğü orada değildi' kaydı da B'yi işaret ediyor. E de elenir: izler bir sıradağın geneline değil, adı verilen bir zirvenin çevresine bağlanmış.",
+      "feature_check": "Karistirilabilecek ogeler C ve E. C: enkaz akisi da yeni bir kopma izi birakiyor, dolayisiyla 'yeni izler' ifadesi ona da uyuyor; ayrim izlerin dagin CEVRESINDE gorulmesinde. E: izler bir siradaginin geneline degil, adi verilen bir zirvenin cevresine baglanmis.",
       "grammar_check": null,
-      "explanation": "Paragraph D says that the largest single flow belonged to another peak, while further landslide scars were visible around this mountain.",
+      "explanation": "Paragraph D says that further landslide scars were visible around this mountain.",
       "difficulty": "hard",
-      "status": "flagged",
-      "blind_solvable": true,
+      "status": "verified",
+      "blind_solvable": null,
       "blind_basis": "logic",
       "flag_reason": "Cevap B, cumlenin ikinci yarisinda 'en buyuk tek akisin baska yerde oldugu' kaydiyla ayirt ediliyor: en buyuk akis C'ye ait oldugu icin, 'cevresinde baska heyelan izleri gorulen ama en buyugu orada olmayan' yer elemeyle B (Mount Logan) olarak kaliyor; E de elenir, cunku izler bir siradagin geneline degil belirli bir zirveye bagli.",
-      "flag_mechanism": "konumsal_duzen"
+      "flag_mechanism": "konumsal_duzen",
+      "revision": {
+        "tarih": "2026-08-08",
+        "mekanizma": "konumsal_duzen",
+        "onceki_prompt": "Further marks left by slipping ground could be seen in the terrain around it, although the largest single flow was not there.",
+        "ne_degisti": "Ifadeden 'ama en buyuk tek akis orada degildi' kaydi cikarildi. Bu kayit 24 ile 25'i birbirinin tersi haline getiriyordu: birini bilen otekini pasaja bakmadan cikarabiliyordu. Iki soru artik birbirinden bagimsiz iki ayrintiya capalanmis durumda."
+      }
     },
     {
       "number": 26,
-      "prompt": "The quake began in remote country roughly ninety kilometres away from this settlement on the shore.",
+      "prompt": "The epicentre is placed at a distance of about ninety kilometres from it.",
       "answer": [
         "A"
       ],
@@ -113,15 +131,21 @@
         "paragraph": "A",
         "sentence": 2
       },
-      "feature_check": "Karıştırılabilecek öğe E: depremin başladığı nokta sıradağın içinde kaldığı için 'deprem nerede başladı' diye okuyan aday E'yi işaretleyebilir. Ama ifade depremin başladığı yeri değil, uzaklığın *ölçüldüğü* yeri soruyor; pasajda kıyıda kurulmuş bir yerleşim olarak yalnızca A anılıyor ve mesafe ona göre veriliyor. B ile C de elenir: ikisi de dağ, yerleşim değil.",
+      "feature_check": "Karistirilabilecek oge E: acilis cumlesi depremin St Elias Daglari'nda oldugunu soyledigi icin uzakligin siradagdan olculdugu dusunulebilir. D de rakip, cunku ayni paragrafta merkez ussuyle birlikte aniliyor. Mesafenin olculdugu nokta yalniz A/2 okunarak bulunuyor.",
       "grammar_check": null,
-      "explanation": "Paragraph A says that the epicentre lay roughly 90 kilometres north of this coastal town, in remote terrain that is very thinly populated.",
+      "explanation": "Paragraph A says the epicentre lay in remote terrain roughly 90 kilometres north of this coastal town.",
       "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
+      "status": "verified",
+      "blind_solvable": null,
       "blind_basis": "option_wording",
       "flag_reason": "Ifadedeki 'this settlement on the shore' (kiyidaki bu yerlesim) tanimlayici ifadesi secenekler arasinda yalniz A'ya (Yakutat, bir kiyi kasabasi) uyuyor; B, C, D, E dag ya da buzul adlari, yerlesim degil -- bu tur uyusmasi parcaya bakmadan da A'yi isaret ediyor.",
-      "flag_mechanism": "kip_imzasi"
+      "flag_mechanism": "kip_imzasi",
+      "revision": {
+        "tarih": "2026-08-08",
+        "mekanizma": "kip_imzasi",
+        "onceki_prompt": "The quake began in remote country roughly ninety kilometres away from this settlement on the shore.",
+        "ne_degisti": "Ifadeden 'kiyidaki bu yerlesim' tanimi cikarildi. Bu tanim, bes secenek icinde tek yerlesim olan ogeyi tur uyusmasiyla dogrudan veriyordu; geri kalanlar dag, buzul ya da siradag adi. Yeni ifade yalniz mesafeyi soruyor."
+      }
     }
   ]
 }

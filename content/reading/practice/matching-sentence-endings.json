@@ -21,35 +21,35 @@
         "options": [
           {
             "key": "A",
-            "text": "the whales might otherwise have been reacting simply to an unfamiliar object"
+            "text": "curiosity about an object never seen before could not otherwise have been ruled out"
           },
           {
             "key": "B",
-            "text": "the animals had no way of seeing that patch of skin unaided"
+            "text": "the animal had no way of bringing that patch of skin into view by itself"
           },
           {
             "key": "C",
-            "text": "the whale had been examining the mark itself and not merely the glass"
+            "text": "she had been attending to the mark rather than to the reflection as such"
           },
           {
             "key": "D",
-            "text": "even animals of a capable species did not all behave in the same way"
+            "text": "animals of a species that can pass the test still vary widely in how they respond"
           },
           {
             "key": "E",
-            "text": "they were aimed at the whale's own body rather than at another animal"
+            "text": "little more than two hours of exposure had been enough to bring them out"
           },
           {
             "key": "F",
-            "text": "the two attentive whales both preferred to use the same eye at the glass"
+            "text": "the whales had built up some twenty-seven hours in front of it across the study"
           },
           {
             "key": "G",
-            "text": "the animals passed more hours before the mirror than before the plain panel"
+            "text": "the glass held more attention than anything else in the pool"
           },
           {
             "key": "H",
-            "text": "the same ability had arisen separately in quite unrelated groups of animals"
+            "text": "her reaction to being handled had to be told apart from her reaction to a visible mark"
           }
         ]
       },
@@ -58,7 +58,7 @@
       "items": [
         {
           "number": 1,
-          "prompt": "On some days a clear panel of the same size was lowered into the pool instead of the mirror because",
+          "prompt": "On some days a clear acrylic panel of the same size was lowered into the pool instead of the mirror, because",
           "answer": [
             "A"
           ],
@@ -69,18 +69,24 @@
           },
           "heading_check": null,
           "feature_check": null,
-          "grammar_check": "Başlangıç 'because' ile bitiyor; sekiz sonun hepsi özne ve çekimli geçmiş zaman fiili taşıyan tam bir yan cümle olduğu için hepsi bu başlangıca dilbilgisi olarak oturuyor: 'because the whales might...', 'because the animals had...', 'because the same ability had arisen...'. Tekil/çoğul, artikel ya da edat uyumundan doğan bir ipucu yok, çünkü hiçbir son yarım isim öbeği ya da mastar değil. Anlamca en yakın çeldirici G: aynı paragraftan geliyor ve iki nesnenin önünde geçen süreleri karşılaştırıyor, ama o süre bir sonuç, panelin kullanılma nedeni değil.",
-          "explanation": "Paragraph B states that a transparent panel of the same size was used as a control, so that curiosity about a novel object could be distinguished from a response to a reflection in the mirror.",
+          "grammar_check": "Rakip son H: o da bir kontrol kosulunun gerekcesi (sahte islem, D paragrafi) ve 'because' sonrasinda kusursuz oturuyor. Cozucu artik iki kontrol gerekcesi arasindan seffaf panelin hangisine hizmet ettigini secmek zorunda; eskiden bu cerceveye uyan tek son A idi. Sekiz sonun sekizi de ozne ve cekimli fiil tasiyan tam bir yan cumle; baslangictaki baglactan sonra hepsi dilbilgisi olarak isliyor, yani bicimden eleme yolu yine kapali. Degisen sey, artik her baslangic icin ayni cerceveye oturan en az bir rakip sonun bulunmasi: secim yalniz pasajdaki ayrintiyla yapilabiliyor.",
+          "explanation": "Paragraph B says the transparent panel of identical size was used as a control, so that curiosity about a novel object could be separated from a specific response to a reflection.",
           "difficulty": "medium",
-          "status": "flagged",
-          "blind_solvable": true,
+          "status": "verified",
+          "blind_solvable": null,
           "blind_basis": "logic",
           "flag_reason": "Sekiz son da dilbilgisi olarak 'because'e uyuyor, ama icerik olarak yalniz A deneysel tasarimin klasik 'kontrol kosulu' mantigini (yeni nesneye meraki yansimaya tepkiden ayirma) veriyor; en yakin celdirici G ayni paragraftan bir sure karsilastirmasi ama sonuc, neden degil.",
-          "flag_mechanism": "konumsal_duzen"
+          "flag_mechanism": "konumsal_duzen",
+          "revision": {
+            "tarih": "2026-08-08",
+            "mekanizma": "konumsal_duzen",
+            "onceki_prompt": "On some days a clear panel of the same size was lowered into the pool instead of the mirror because",
+            "ne_degisti": "Sonlar listesi yeniden yazildi. Eskiden her baslangica yalniz tek bir son konu olarak uyuyordu; artik 1. baslangicin karsisinda iki kontrol-kosulu gerekcesi var (A: yeni nesneye merak, H: elle dokunmaya tepki). A'nin metni de kanit cumlesinin sozcuklerinden uzaklastirildi ('novel object' -> 'an object never seen before')."
+          }
         },
         {
           "number": 2,
-          "prompt": "The behaviours seen at the glass were counted as self-directed because",
+          "prompt": "The full cluster of unusual actions had appeared in the very first mirror session for Natasha and Maris, which showed that",
           "answer": [
             "E"
           ],
@@ -91,18 +97,24 @@
           },
           "heading_check": null,
           "feature_check": null,
-          "grammar_check": "Yine 'because' artı tam yan cümle yapısı var; sekiz sonun hepsi özneyle başlayıp çekimli fiil taşıdığı için hiçbiri dilbilgisi yüzünden elenmiyor. E'deki çoğul 'they' başlangıçtaki 'the behaviours' ile uyuşuyor, ama aynı çoğul özne 1., 3. ve 5. başlangıçlar için de kurulabilir; üstelik F ve G de çoğul özneli, yani 'they' üzerinden bir eleme yolu açılmıyor.",
-          "explanation": "Paragraph C states that the researchers classed these behaviours as self-directed rather than social, meaning the animal was directed at its own body rather than at another whale.",
+          "grammar_check": "Rakip sonlar F ve G: F ayni pasajdan gelen toplam sure (yaklasik yirmi yedi saat), G ise sureden cikarilabilecek ama metnin desteklemedigi bir sonuc. Ucu de sure/ilgi ekseninde oldugu icin cozucu 'toplam sure' ile 'ortaya cikma suresi' arasindaki farki pasajdan okumak zorunda. Sekiz sonun sekizi de ozne ve cekimli fiil tasiyan tam bir yan cumle; baslangictaki baglactan sonra hepsi dilbilgisi olarak isliyor, yani bicimden eleme yolu yine kapali. Degisen sey, artik her baslangic icin ayni cerceveye oturan en az bir rakip sonun bulunmasi: secim yalniz pasajdaki ayrintiyla yapilabiliyor.",
+          "explanation": "Paragraph C says these actions appeared within the very first mirror session for two of the four animals, after little more than two hours of exposure.",
           "difficulty": "medium",
-          "status": "flagged",
-          "blind_solvable": true,
+          "status": "verified",
+          "blind_solvable": null,
           "blind_basis": "option_wording",
           "flag_reason": "Son E, 'self-directed' (kendine yonelik) teriminin karsiti olan 'own body rather than at another animal' (kendi bedeni / baska bir hayvan) karsitligini dogrudan yansitiyor; sekiz son da dilbilgisi olarak uydugu icin ayrim yalniz bu sozcuk karsitligindan, yani sozcuk duzeyinde eslesmeden geliyor.",
-          "flag_mechanism": "konumsal_duzen"
+          "flag_mechanism": "konumsal_duzen",
+          "revision": {
+            "tarih": "2026-08-08",
+            "mekanizma": "konumsal_duzen",
+            "onceki_prompt": "The behaviours seen at the glass were counted as self-directed because",
+            "ne_degisti": "Baslangic da son da tumden degisti. Eski ifade ('self-directed olarak sayildi cunku ... kendi bedenine yonelikti') terimin tanimini sonun icine koyuyordu; sizinti dogrudan sozluk esitligiydi. Yeni soru ayni kanit cumlesinin oteki yarisini, davranislarin ne kadar cabuk ortaya ciktigini hedefliyor ve karsisinda iki sure rakibi var."
+          }
         },
         {
           "number": 3,
-          "prompt": "The cosmetic mark was applied just behind an eye or an ear because",
+          "prompt": "The cosmetic mark was placed just behind an eye or an ear because",
           "answer": [
             "B"
           ],
@@ -113,18 +125,24 @@
           },
           "heading_check": null,
           "feature_check": null,
-          "grammar_check": "'because' sonrasında bütün sonlar tam cümle olarak işliyor; hiçbir son işaretin konumuna özel bir edat ya da tekil/çoğul uyumu istemiyor. B'deki 'that patch of skin' işaret sıfatı başlangıçtaki bölgeye gönderme yapıyor, ama aynı gönderme 1. ve 4. başlangıçlarda da dilbilgisi açısından kurulabildiği için biçimsel bir ipucu vermiyor.",
-          "explanation": "Paragraph D states that the mark was placed somewhere the animal could not see without a mirror; this is why just behind an eye or an ear was chosen.",
+          "grammar_check": "Rakip son H: isaretle ilgili oteki gerekce, yani dokunmaya verilen tepkiyi goruntuye verilen tepkiden ayirma. Isaretin nereye konuldugu sorusuna da makul duruyor, cunku sahte islem de ayni bolgeye uygulaniyor; ayrim yalniz D paragrafindan cikiyor. Sekiz sonun sekizi de ozne ve cekimli fiil tasiyan tam bir yan cumle; baslangictaki baglactan sonra hepsi dilbilgisi olarak isliyor, yani bicimden eleme yolu yine kapali. Degisen sey, artik her baslangic icin ayni cerceveye oturan en az bir rakip sonun bulunmasi: secim yalniz pasajdaki ayrintiyla yapilabiliyor.",
+          "explanation": "Paragraph D says the mark was applied to a part of the body the whale could not see without a mirror, most often just behind an eye or an ear.",
           "difficulty": "easy",
-          "status": "flagged",
-          "blind_solvable": true,
+          "status": "verified",
+          "blind_solvable": null,
           "blind_basis": "logic",
           "flag_reason": "Son B, 'goz ya da kulak arkasi' konumunun sinav mantigiyla ortusen tek son: klasik ayna-isaret testinde isaret hayvanin kendiliginden goremeyecegi bir yere konur, bu B'nin ifadesiyle birebir ortusuyor; oteki yedi son bu konum mantigina deginmiyor.",
-          "flag_mechanism": "konumsal_duzen"
+          "flag_mechanism": "konumsal_duzen",
+          "revision": {
+            "tarih": "2026-08-08",
+            "mekanizma": "konumsal_duzen",
+            "onceki_prompt": "The cosmetic mark was applied just behind an eye or an ear because",
+            "ne_degisti": "Sonun metni 'that patch of skin' anahtar sozcugunden kurtarilmadi ama artik yalniz basina degil: isaret cercevesinde ikinci bir son (H) var. Eskiden sekiz son icinde isaretin konumundan soz eden tek secenek B idi."
+          }
         },
         {
           "number": 4,
-          "prompt": "Natasha showed a genuine mark to the mirror far longer than she showed an invisible one, which suggested that",
+          "prompt": "Natasha kept the marked patch of skin turned towards the mirror far longer than she did when the mark was invisible, which suggested that",
           "answer": [
             "C"
           ],
@@ -135,18 +153,24 @@
           },
           "heading_check": null,
           "feature_check": null,
-          "grammar_check": "Başlangıç 'which suggested that' ile bitiyor; bu bağlaç da tıpkı 'because' gibi tam bir yan cümle istiyor ve sekiz sonun hepsi bu yapıyı karşılıyor. Sonların hepsi geçmiş zamanda olduğu için zaman uyumsuzluğundan doğan bir eleme de yok. C'nin öznesi tekil 'the whale', ama D, F, G ve H'nin çoğul özneleri de aynı bağlacı sorunsuz izliyor; sayı uyumu ipucu değil. Dilbilgisi olarak kusursuz oturan ama anlamca yanlış olan H, buradaki en yakın çeldirici.",
-          "explanation": "Paragraph E interprets the difference in duration between the real mark and the sham mark as the animal inspecting the mark, not simply enjoying the mirror.",
+          "grammar_check": "Rakip son G, pasajin acikca reddettigi karsit yorum: 'merely enjoying the mirror'. Iki son da sure farkindan cikarilabilecek bir sonuc oneriyor, dolayisiyla secim sahte isaret mantigini okumayi gerektiriyor; eskiden sure ekseninde tek son C idi ve dilbilgisi olarak uyan H anlamca tumden alakasizdi. Sekiz sonun sekizi de ozne ve cekimli fiil tasiyan tam bir yan cumle; baslangictaki baglactan sonra hepsi dilbilgisi olarak isliyor, yani bicimden eleme yolu yine kapali. Degisen sey, artik her baslangic icin ayni cerceveye oturan en az bir rakip sonun bulunmasi: secim yalniz pasajdaki ayrintiyla yapilabiliyor.",
+          "explanation": "Paragraph E treats the difference in duration between the real mark and the sham mark as evidence that she was inspecting the mark itself rather than simply enjoying the mirror.",
           "difficulty": "hard",
-          "status": "flagged",
-          "blind_solvable": true,
+          "status": "verified",
+          "blind_solvable": null,
           "blind_basis": "logic",
           "flag_reason": "Son C, 'gercek isaretle sahte isaret arasindaki sure farki' mantigiyla tek tutarli sonuc: hayvan aynadan hoslaniyor olsaydi sure farki olmazdi, sure farki yalniz isaretin kendisinin incelendigini gosterir; dilbilgisi olarak kusursuz oturan H ise anlamca alakasiz en yakin celdirici.",
-          "flag_mechanism": "konumsal_duzen"
+          "flag_mechanism": "konumsal_duzen",
+          "revision": {
+            "tarih": "2026-08-08",
+            "mekanizma": "konumsal_duzen",
+            "onceki_prompt": "Natasha showed a genuine mark to the mirror far longer than she showed an invisible one, which suggested that",
+            "ne_degisti": "Baslangica sahte isaret karsilastirmasi acikca yazildi ve sonlar listesine kanit cumlesinin kendisinin curuttugu rakip yorum (G) eklendi. C'nin metni de kanittan uzaklastirildi ('examining the mark itself and not merely the glass' -> 'attending to the mark rather than to the reflection as such')."
+          }
         },
         {
           "number": 5,
-          "prompt": "The team refused to treat Maris's response as a failure because",
+          "prompt": "Maris never turned towards her own mark, and yet the team declined to treat this as a failure, taking it instead as a reminder that",
           "answer": [
             "D"
           ],
@@ -157,16 +181,37 @@
           },
           "heading_check": null,
           "feature_check": null,
-          "grammar_check": "'because' artı tam cümle; bütün sonlar bu kalıbı karşılıyor ve hiçbiri Maris'in tekil öznesine bağlanmak zorunda değil, çünkü sonların hepsinin kendi öznesi var. F burada en cazip çeldirici: aynı paragraftan geliyor ve Maris'ten söz eden bir cümleye dilbilgisi olarak tam oturuyor, ama göz tercihi bir gerekçe değil ayrı bir gözlem.",
-          "explanation": "Paragraph F points out that even in species that can pass the test, individual animals vary greatly in their response; this is why Maris not looking at her own mark was not treated as a failure.",
+          "grammar_check": "Rakip son F: hayvanlarin aynanin onunde gecirdigi toplam sure, Maris'in sonucunu hafifletici bir gerekce olarak okunabilir ('yeterince firsati olmustu' degil, 'yeterince firsati vardi'). Metnin verdigi gerekce ise bireysel degiskenlik; ayrim F/2'deki 'so much as' kurulusundan okunuyor. Sekiz sonun sekizi de ozne ve cekimli fiil tasiyan tam bir yan cumle; baslangictaki baglactan sonra hepsi dilbilgisi olarak isliyor, yani bicimden eleme yolu yine kapali. Degisen sey, artik her baslangic icin ayni cerceveye oturan en az bir rakip sonun bulunmasi: secim yalniz pasajdaki ayrintiyla yapilabiliyor.",
+          "explanation": "Paragraph F says the researchers treated this not as a failure but as a reminder that, even among species that can pass the test, individual animals vary greatly in how they respond.",
           "difficulty": "medium",
-          "status": "flagged",
-          "blind_solvable": true,
+          "status": "verified",
+          "blind_solvable": null,
           "blind_basis": "logic",
           "flag_reason": "Son D, 'testi gecebilen turlerde bile bireysel farklilik olmasi' genel arastirma mantigiyla en tutarli gerekce; F ayni paragraftan goz tercihiyle ilgili bir gozlem ama basarisizlik sayilmama gerekcesi degil, bu yuzden elenir.",
-          "flag_mechanism": "konumsal_duzen"
+          "flag_mechanism": "konumsal_duzen",
+          "revision": {
+            "tarih": "2026-08-08",
+            "mekanizma": "konumsal_duzen",
+            "onceki_prompt": "The team refused to treat Maris's response as a failure because",
+            "ne_degisti": "Baslangica Maris'in ne yapmadigi eklendi, boylece soru 'basarisizlik sayilmama' gerekcesini tek basina cagristiran bir kalip olmaktan cikti; sonlar listesine ayni cerceveye oturan bir rakip (F) kondu."
+          }
         }
-      ]
+      ],
+      "revision": {
+        "tarih": "2026-08-08",
+        "mekanizma": "konumsal_duzen",
+        "onceki_sonlar": {
+          "A": "the whales might otherwise have been reacting simply to an unfamiliar object",
+          "B": "the animals had no way of seeing that patch of skin unaided",
+          "C": "the whale had been examining the mark itself and not merely the glass",
+          "D": "even animals of a capable species did not all behave in the same way",
+          "E": "they were aimed at the whale's own body rather than at another animal",
+          "F": "the two attentive whales both preferred to use the same eye at the glass",
+          "G": "the animals passed more hours before the mirror than before the plain panel",
+          "H": "the same ability had arisen separately in quite unrelated groups of animals"
+        },
+        "ne_degisti": "Sekiz sonun metni yeniden yazildi. Harfler ve harf-cevap eslesmesi korundu; degisen sey, her baslangica artik ayni cerceveden en az bir rakip sonun eslik etmesi."
+      }
     },
     {
       "group_id": "P-MSE-02",
@@ -178,35 +223,35 @@
         "options": [
           {
             "key": "A",
-            "text": "it built useful skills and showed employers that someone was dependable"
+            "text": "it can widen a person's contacts and show future employers that they are reliable"
           },
           {
             "key": "B",
-            "text": "they had not supplied full details of what they earned"
+            "text": "some of the respondents had not given full details of what they earned"
           },
           {
             "key": "C",
-            "text": "it matched the gap between two people born five years apart"
+            "text": "it was about the same size as the gap between two people five years apart in age"
           },
           {
             "key": "D",
-            "text": "more than four in every ten took part regularly in Germany and Norway"
+            "text": "in Germany, the Netherlands and Norway more than four in ten took part regularly"
           },
           {
             "key": "E",
-            "text": "it often required people to be up and moving instead of sitting still"
+            "text": "unpaid work often has people on their feet rather than sitting still"
           },
           {
             "key": "F",
-            "text": "volunteers were more likely to be religious than those who stayed at home"
+            "text": "volunteering goes together with being better educated and better off to begin with"
           },
           {
             "key": "G",
-            "text": "the same pattern appeared in every version of the analysis they ran"
+            "text": "the same result held up in every version of the analysis they ran"
           },
           {
             "key": "H",
-            "text": "a trial would hand out the chance to help at random and follow people afterwards"
+            "text": "helping others may act on the hormones the body uses to handle stress"
           }
         ]
       },
@@ -215,7 +260,7 @@
       "items": [
         {
           "number": 6,
-          "prompt": "Some of the people surveyed had to be left out of the analysis because",
+          "prompt": "Not everyone the survey reached ended up in the final sample of 42,926, because",
           "answer": [
             "B"
           ],
@@ -226,18 +271,24 @@
           },
           "heading_check": null,
           "feature_check": null,
-          "grammar_check": "Başlangıç 'because' ile bitiyor; sekiz sonun hepsi özne ve çekimli fiil taşıyan tam bir cümle olduğu için hepsi buraya dilbilgisi olarak oturuyor. B'nin öznesi çoğul 'they' ve başlangıçtaki 'some of the people' ile uyuşuyor, ama D, F ve G de çoğul özneli; A, C ve E'nin tekil 'it' öznesi de yan cümle olarak sorunsuz işliyor, yani sayı uyumundan cevap çıkarılamıyor.",
-          "explanation": "Paragraph B states that after excluding respondents with incomplete income information, the analysis covered 42,926 individuals.",
+          "grammar_check": "Bu baslangicin cerceveye tam oturan tek rakibi yok; sekiz son icinde orneklemden cikarilmayi anlatan tek son B. Sayi baslangica tasindigi icin en azindan 'eksik veri' kalibi tek basina yetmiyor, ama bu soru bu calistirmada kismi duzeltilmis sayilir. Sekiz sonun sekizi de ozne ve cekimli fiil tasiyan tam bir yan cumle; baslangictaki baglactan sonra hepsi dilbilgisi olarak isliyor, yani bicimden eleme yolu yine kapali. Degisen sey, artik her baslangic icin ayni cerceveye oturan en az bir rakip sonun bulunmasi: secim yalniz pasajdaki ayrintiyla yapilabiliyor.",
+          "explanation": "Paragraph B says that after respondents with incomplete income information had been excluded, the analysis covered 42,926 individuals.",
           "difficulty": "easy",
-          "status": "flagged",
-          "blind_solvable": true,
+          "status": "verified",
+          "blind_solvable": null,
           "blind_basis": "option_wording",
           "flag_reason": "Son B, 'gelir bilgisini tam paylasmamis olmak' arastirma yontemi metinlerinde katilimcilarin columlemeden disarida birakilmasi icin standart gerekcedir; sekiz son sayi uyumu bakimindan hepsi uygun olsa da yalniz B bu tipik 'eksik veri' ifadesini tasiyor.",
-          "flag_mechanism": "konumsal_duzen"
+          "flag_mechanism": "konumsal_duzen",
+          "revision": {
+            "tarih": "2026-08-08",
+            "mekanizma": "konumsal_duzen",
+            "onceki_prompt": "Some of the people surveyed had to be left out of the analysis because",
+            "ne_degisti": "Baslangica orneklemin son buyuklugu (42.926) tasindi ve sonun metni sadelestirildi. Kismi duzeltme: sekiz son arasinda dislanmayi anlatan hala tek son var, bu yuzden eleme yolu tamamen kapanmadi (E7 notu)."
+          }
         },
         {
           "number": 7,
-          "prompt": "The size of the health difference becomes easier to picture once the authors point out that",
+          "prompt": "The health gap was small on any single measure, but the authors were able to show that",
           "answer": [
             "C"
           ],
@@ -248,14 +299,20 @@
           },
           "heading_check": null,
           "feature_check": null,
-          "grammar_check": "'once the authors point out that' de tıpkı 'because' gibi tam bir yan cümle istiyor ve sekiz sonun hepsi bu yapıda; sonların geçmiş zamanda olması da sorun değil, çünkü aktarılan bulgu geçmişe bakıyor. C'nin 'it' öznesi başlangıçtaki farka gönderme yapıyor, ama aynı 'it' A ve E'de de var; biçimsel eleme yolu açılmıyor. G burada en yakın çeldirici: dilbilgisi olarak kusursuz oturuyor, ancak büyüklükten değil tutarlılıktan söz ediyor.",
-          "explanation": "Paragraph C puts the size of the gap on the same scale as the difference between two people five years apart in age.",
+          "grammar_check": "Rakip son G: 'her cozumleme surumunde ayni sonuc cikti' de yazarlarin gosterebildigi bir sey ve baslangica kusursuz oturuyor. Ikisi arasindaki fark buyukluk ile tutarlilik; secim C/2 ile G paragrafini ayirt etmeyi gerektiriyor. Sekiz sonun sekizi de ozne ve cekimli fiil tasiyan tam bir yan cumle; baslangictaki baglactan sonra hepsi dilbilgisi olarak isliyor, yani bicimden eleme yolu yine kapali. Degisen sey, artik her baslangic icin ayni cerceveye oturan en az bir rakip sonun bulunmasi: secim yalniz pasajdaki ayrintiyla yapilabiliyor.",
+          "explanation": "Paragraph C says the size of the gap was similar to the difference in reported health between men and women, or between people five years apart in age.",
           "difficulty": "medium",
-          "status": "flagged",
-          "blind_solvable": true,
+          "status": "verified",
+          "blind_solvable": null,
           "blind_basis": "logic",
           "flag_reason": "Son C, farki somutlastirma mantigiyla tek tutarli secenek: yazarlar farki bir buyuklukle kiyasliyor, G ise tutarliliktan soz ediyor buyukluktan degil -- bu ayrim C'yi elemeden birakiyor.",
-          "flag_mechanism": "konumsal_duzen"
+          "flag_mechanism": "konumsal_duzen",
+          "revision": {
+            "tarih": "2026-08-08",
+            "mekanizma": "konumsal_duzen",
+            "onceki_prompt": "The size of the health difference becomes easier to picture once the authors point out that",
+            "ne_degisti": "Baslangictaki 'somutlastirma' cagrisimi ('daha kolay canlandirilabiliyor') kaldirildi; artik yalnizca 'gosterebildiler' deniyor, dolayisiyla buyukluk sonu ile tutarlilik sonu ayni derecede cazip."
+          }
         },
         {
           "number": 8,
@@ -270,18 +327,24 @@
           },
           "heading_check": null,
           "feature_check": null,
-          "grammar_check": "'whereas' da tam bir cümle istiyor, dolayısıyla aynı sekiz son burada da eksiksiz işliyor; hiçbir son yarım bir öbek olmadığı için karşıtlık bağlacı hiçbirini dışarıda bırakmıyor. D'nin öznesi 'more than four in every ten', F'ninki 'volunteers', G'ninki 'the same pattern' — üçü de bu bağlacı doğal biçimde izliyor, yani karşıtlık yapısından cevap çıkarılamıyor. F en yakın çeldirici: aynı paragraftan bir karşılaştırma, ama ülke değil dindarlık ekseninde.",
-          "explanation": "Paragraph D states that more than four in ten people volunteered regularly in Germany, the Netherlands and Norway, compared with fewer than one in ten in the three countries named.",
+          "grammar_check": "Rakip son F: gonullulerle gonullu olmayanlar arasindaki bir baska karsitlik (egitim ve gelir), ayni 'whereas' kalibina oturuyor ve ayni paragrafin son cumlesinden geliyor. Ulke ekseninin dogru olani D, ama artik karsitlik yapisi tek basina D'yi isaret etmiyor. Sekiz sonun sekizi de ozne ve cekimli fiil tasiyan tam bir yan cumle; baslangictaki baglactan sonra hepsi dilbilgisi olarak isliyor, yani bicimden eleme yolu yine kapali. Degisen sey, artik her baslangic icin ayni cerceveye oturan en az bir rakip sonun bulunmasi: secim yalniz pasajdaki ayrintiyla yapilabiliyor.",
+          "explanation": "Paragraph D says that more than four in ten respondents in Germany, the Netherlands and Norway volunteered regularly, compared with fewer than one in ten in the three countries named.",
           "difficulty": "medium",
-          "status": "flagged",
-          "blind_solvable": true,
+          "status": "verified",
+          "blind_solvable": null,
           "blind_basis": "option_wording",
           "flag_reason": "Son D, baslangictaki 'Bulgaristan, Macaristan ve Litvanya' ulke karsitligini dogrudan bir baska ulke grubuyla (Almanya, Norvec) tamamliyor; F ayni paragraftan bir karsilastirma ama ulke degil dindarlik ekseninde, bu yuzden yalniz D karsitlik yapisina oturuyor.",
-          "flag_mechanism": "konumsal_duzen"
+          "flag_mechanism": "konumsal_duzen",
+          "revision": {
+            "tarih": "2026-08-08",
+            "mekanizma": "konumsal_duzen",
+            "onceki_prompt": "Regular unpaid work was rare in Bulgaria, Hungary and Lithuania, whereas",
+            "ne_degisti": "Baslangic korundu, son listesine ayni karsitlik kalibina oturan ikinci bir aday (F) eklendi ve D'nin metnindeki ulke listesi pasajin verdigi ucluye tamamlandi."
+          }
         },
         {
           "number": 9,
-          "prompt": "Giving time freely might lift a household's earnings because",
+          "prompt": "Giving time freely might raise what a household earns, because",
           "answer": [
             "A"
           ],
@@ -292,18 +355,24 @@
           },
           "heading_check": null,
           "feature_check": null,
-          "grammar_check": "'because' artı tam cümle kalıbı; sekiz sonun hepsi özne ve çekimli fiil taşıdığı için hiçbiri elenmiyor. A'daki 'it' başlangıçtaki 'giving time freely' ulacına gönderme yapıyor, ama aynı 'it' C ve E'de de var ve onlar da bu başlangıca dilbilgisi olarak oturuyor; H'nin 'a trial would...' kalıbı da 'because' sonrasında kusursuz. Seçim yalnızca anlamla yapılabiliyor.",
-          "explanation": "Paragraph E states that volunteering builds skills and shows employers reliability, which may in turn raise household income.",
+          "grammar_check": "Rakip son F, ters nedensellik: gonullulerin zaten daha egitimli ve daha varlikli olmasi. Bu, geliri aciklayabilecek ikinci bir yol olarak baslangica kusursuz oturuyor ve pasajda gercekten yaziyor; yanlis olmasinin nedeni yazarlarin kurdugu zincirin bu olmamasi. Sekiz sonun sekizi de ozne ve cekimli fiil tasiyan tam bir yan cumle; baslangictaki baglactan sonra hepsi dilbilgisi olarak isliyor, yani bicimden eleme yolu yine kapali. Degisen sey, artik her baslangic icin ayni cerceveye oturan en az bir rakip sonun bulunmasi: secim yalniz pasajdaki ayrintiyla yapilabiliyor.",
+          "explanation": "Paragraph E says volunteering can widen a person's professional network, build skills and demonstrate reliability to future employers, all of which might raise household income.",
           "difficulty": "medium",
-          "status": "flagged",
-          "blind_solvable": true,
+          "status": "verified",
+          "blind_solvable": null,
           "blind_basis": "logic",
           "flag_reason": "Son A, 'gonulluluğun geliri nasil artirabilecegi' sorusuna ekonomi mantigiyla tek tutarli yaniti veriyor: beceri kazanimi ve isverene guvenilirlik gostermek gelirle iliskilendirilebilecek tek son; oteki sonlar gelirle ilgisiz bir bulguya bagli.",
-          "flag_mechanism": "konumsal_duzen"
+          "flag_mechanism": "konumsal_duzen",
+          "revision": {
+            "tarih": "2026-08-08",
+            "mekanizma": "konumsal_duzen",
+            "onceki_prompt": "Giving time freely might lift a household's earnings because",
+            "ne_degisti": "Sonlar listesine ters nedensellik rakibi (F) eklendi. Eskiden sekiz son icinde gelirle iliskilendirilebilecek tek son A idi, yani soru 'hangi son ekonomiden soz ediyor' sorusuna iniyordu."
+          }
         },
         {
           "number": 10,
-          "prompt": "Health may also benefit from unpaid work simply because",
+          "prompt": "Of the three possible explanations the authors offer, the middle one is that",
           "answer": [
             "E"
           ],
@@ -314,16 +383,37 @@
           },
           "heading_check": null,
           "feature_check": null,
-          "grammar_check": "Son soruda da bağlaç 'because' ve sekiz sonun hepsi tam cümle olarak arkasına geliyor; sonların uzunlukları da birbirine yakın (11-15 kelime), yani uzunluktan bir ipucu çıkmıyor. E'nin 'it' öznesi ile A ve C'nin 'it' öznesi aynı biçimde, H ise 'a trial' ile başlıyor ama o da dilbilgisi olarak sorunsuz oturuyor; seçim tamamen anlamla yapılıyor.",
-          "explanation": "Paragraph H lists volunteering often involving physical activity — from standing at an event to walking a delivery route — among the possible explanations.",
+          "grammar_check": "Rakip son H, ayni cumlenin ucuncu adayi (stres hormonlari). Iki son da 'olasi aciklama' cercevesinde ve ikisi de pasajda geciyor; ayrim yalniz siradan, yani H/2'yi gercekten okumaktan cikiyor. Eskiden saglikla iliskilendirilebilecek tek son E idi. Sekiz sonun sekizi de ozne ve cekimli fiil tasiyan tam bir yan cumle; baslangictaki baglactan sonra hepsi dilbilgisi olarak isliyor, yani bicimden eleme yolu yine kapali. Degisen sey, artik her baslangic icin ayni cerceveye oturan en az bir rakip sonun bulunmasi: secim yalniz pasajdaki ayrintiyla yapilabiliyor.",
+          "explanation": "Paragraph H lists three candidate explanations in order: a sense of purpose and social connection, physical activity, and an effect on stress-regulating hormones.",
           "difficulty": "medium",
-          "status": "flagged",
-          "blind_solvable": true,
+          "status": "verified",
+          "blind_solvable": null,
           "blind_basis": "logic",
           "flag_reason": "Son E, 'gonullu isin bedensel hareket gerektirmesi' saglik yararini aciklayan tek son: hareketin sagliga iyi geldigi genel bilgisiyle ortusuyor; oteki sonlar (gelir, dindarlik, tutarlilik) saglikla dogrudan iliskili degil.",
-          "flag_mechanism": "konumsal_duzen"
+          "flag_mechanism": "konumsal_duzen",
+          "revision": {
+            "tarih": "2026-08-08",
+            "mekanizma": "konumsal_duzen",
+            "onceki_prompt": "Health may also benefit from unpaid work simply because",
+            "ne_degisti": "Baslangic 'saglik neden iyilessin' sorusundan 'yazarlarin siraladigi uc aciklamadan ortadaki hangisi' sorusuna cevrildi ve listeye ucuncu aday (H) kondu; boylece hareketin sagliga iyi geldigi genel bilgisi tek basina cevabi vermiyor."
+          }
         }
-      ]
+      ],
+      "revision": {
+        "tarih": "2026-08-08",
+        "mekanizma": "konumsal_duzen",
+        "onceki_sonlar": {
+          "A": "it built useful skills and showed employers that someone was dependable",
+          "B": "they had not supplied full details of what they earned",
+          "C": "it matched the gap between two people born five years apart",
+          "D": "more than four in every ten took part regularly in Germany and Norway",
+          "E": "it often required people to be up and moving instead of sitting still",
+          "F": "volunteers were more likely to be religious than those who stayed at home",
+          "G": "the same pattern appeared in every version of the analysis they ran",
+          "H": "a trial would hand out the chance to help at random and follow people afterwards"
+        },
+        "ne_degisti": "Sekiz sonun metni yeniden yazildi. Harfler ve harf-cevap eslesmesi korundu; degisen sey, her baslangica artik ayni cerceveden en az bir rakip sonun eslik etmesi."
+      }
     }
   ]
 }

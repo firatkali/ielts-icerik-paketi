@@ -41,7 +41,7 @@
   "items": [
     {
       "number": 23,
-      "prompt": "The seeds the team worked on had lasted better here than plant remains of much the same age found elsewhere.",
+      "prompt": "Wheat found at this place had come through the centuries in better condition than grain of the same age recovered elsewhere.",
       "answer": [
         "A"
       ],
@@ -50,15 +50,21 @@
         "paragraph": "B",
         "sentence": 1
       },
-      "feature_check": "Karıştırılabilecek öğe B: pasajdaki iki yer adı da Türkiye'de, bu yüzden 'Türkiye'de bir yer' bilgisi tek başına ayırt etmiyor. Fark şurada: kazıdan çıkan taneler yalnızca A'ya ait; B yalnızca einkorn ekiminin başladığı yer olarak anılıyor, oradan tohum çıktığı hiç söylenmiyor. E de elenir: orada tohum bulunmuyor, orada yalnızca inceleme yapılıyor.",
+      "feature_check": "Karistirilabilecek oge C: en eski bugday bulgulariyla anilan bolge oldugu icin 'iyi korunmus tane' ifadesi sezgisel olarak oraya cekiyor. Ama pasaj C'yi yalniz ehlilestirmenin izlendigi bolge olarak aniyor, oradan cikan tanelerden hic soz etmiyor; korunma karsilastirmasi B/1'de yalniz kazi yerine bagli. B ve E de elenir: B ekimin baslangic yeri, E yalnizca cozumlemenin yapildigi ulke.",
       "grammar_check": null,
-      "explanation": "Paragraph B says that the charred wheat grains studied came from this site and were unusually well preserved compared with plant remains from other sites of similar age.",
+      "explanation": "Paragraph B says that the charred wheat grains recovered from the site were unusually well preserved compared with plant remains from other ancient sites of similar age.",
       "difficulty": "easy",
-      "status": "flagged",
-      "blind_solvable": true,
+      "status": "verified",
+      "blind_solvable": null,
       "blind_basis": "logic",
       "flag_reason": "Cevap A, secenekler arasinda elemeyle bulunuyor: B yalniz einkorn ekiminin baslangic yeri olarak aniliyor, oradan tohum ciktigi soylenmiyor; E'de sadece inceleme yapiliyor, tohum yok -- yalniz A'da hem kazidan cikan taneler hem de bunlarin iyi korunmus olmasi birlikte geciyor.",
-      "flag_mechanism": "konumsal_duzen"
+      "flag_mechanism": "konumsal_duzen",
+      "revision": {
+        "tarih": "2026-08-08",
+        "mekanizma": "konumsal_duzen",
+        "onceki_prompt": "The seeds the team worked on had lasted better here than plant remains of much the same age found elsewhere.",
+        "ne_degisti": "Ifadeden 'ekibin uzerinde calistigi tohumlar' kaydi cikarildi; bu kayit dogrudan calismanin kazi yerini isaret ediyordu. Yeni ifade yalniz korunma karsilastirmasini soruyor, boylece sezgi Bereketli Hilal'e (C) kayiyor ve dogru cevap ancak B/1'den cikiyor."
+      }
     },
     {
       "number": 24,
@@ -75,11 +81,12 @@
       "grammar_check": null,
       "explanation": "Paragraph G says that the domestication of simple wheat is usually traced back to the Fertile Crescent around twelve thousand years ago.",
       "difficulty": "hard",
-      "status": "flagged",
+      "status": "rejected",
       "blind_solvable": true,
       "blind_basis": "option_wording",
       "flag_reason": "Metinde C 'generally traced' (genel olarak) bir bolgeye, B ise 'specifically' (ozellikle) tek bir bugday turune bagliyor; ifadenin sordugu 'basit bugdaylarin basi' butun basit bugdaylari kapsayan genis bir konu oldugu icin bu kapsam farki C'yi dogru birakiyor.",
-      "flag_mechanism": "kip_imzasi"
+      "flag_mechanism": "kip_imzasi",
+      "reject_reason": "Sorunun ekseni dunya tarihi genel bilgisi: basit bugdaylarin yaklasik on iki bin yil once Bereketli Hilal'de ehlilestirildigi, okul duzeyinde bilinen en yaygin tarih onermelerinden biri. Kanit cumlesi (G/2) yalniz bu onermeyi tasiyor; kapsam sozcuklerini ('genis alan') temizlemek ekseni degistirmiyor, cevap yine bes secenek icinden genel bilgiyle secilebiliyor."
     },
     {
       "number": 25,
@@ -96,11 +103,12 @@
       "grammar_check": null,
       "explanation": "Paragraph G says that the Karacadağ region in southern Turkey is credited specifically as the birthplace of einkorn cultivation.",
       "difficulty": "hard",
-      "status": "flagged",
+      "status": "rejected",
       "blind_solvable": true,
       "blind_basis": "general_knowledge",
       "flag_reason": "Cevap B, Karacadag'in ozellikle einkorn bugdayinin ekiminin dogdugu yer olarak arkeolojide anilan bilinen, spesifik bir bilgi olmasi sayesinde (Bereketli Hilal'in daha genis bolge olmasindan ayri) parcaya bakmadan da tahmin edilebiliyor.",
-      "flag_mechanism": "genel_kultur"
+      "flag_mechanism": "genel_kultur",
+      "reject_reason": "Sorunun ekseni arkeoloji genel bilgisi: Karacadag'in einkorn ekiminin dogdugu yer olarak anilmasi, ayni kanit cumlesinde duran ve alanin disindan da bilinen spesifik bir bilgi. Kanit cumlesi degismeden ifadenin dayanabilecegi baska bir ayrinti yok."
     },
     {
       "number": 26,
@@ -117,11 +125,12 @@
       "grammar_check": null,
       "explanation": "Paragraph A says that the routes the settlement stood on would later carry farming practices onward into Europe; paragraph G also treats the settlement as a staging point in this spread.",
       "difficulty": "medium",
-      "status": "flagged",
+      "status": "rejected",
       "blind_solvable": true,
       "blind_basis": "general_knowledge",
       "flag_reason": "Cevap D, tarimin Bereketli Hilal'den zamanla Avrupa'ya yayildigi bilgisinin arkeoloji/tarih derslerinde yaygin bilinen bir anlati olmasi sayesinde parcaya bakmadan da tahmin edilebiliyor.",
-      "flag_mechanism": "genel_kultur"
+      "flag_mechanism": "genel_kultur",
+      "reject_reason": "Sorunun ekseni tarimin Bereketli Hilal'den Avrupa'ya yayildigi anlatisi; bu anlati ders kitabi duzeyinde bilindigi icin 'yayilmanin gittigi yon' sorusunun cevabi secenekler arasinda pasaja bakmadan bulunabiliyor. Kanit cumlesi (A/3) yolun ucundaki yeri adlandirmaktan baska bir sey soylemiyor."
     }
   ]
 }
