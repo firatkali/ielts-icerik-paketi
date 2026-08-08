@@ -1,0 +1,46 @@
+{
+  "exam": "ielts",
+  "schema_version": "1.0",
+  "kind": "model_answer_set",
+  "skill": "speaking",
+  "part": 2,
+  "task_ref": "C08",
+  "answers": [
+    {
+      "band": 5.0,
+      "transcript": "Okay, I will talk about a gift what I gave to my sister last year.\nIt was her birthday, she become twenty-five years old.\nI thinked a lot about the present for two weeks because she is very difficult person.\nAt the end I buyed a camera, not a professional one, a small old style camera.\nShe likes to take photos of the street and the cats, she puts them in Instagram.\nI chose this camera because her old one broke during our holiday in Antalya two years ago.\nWhen she opened the box in the kitchen she was very very surprised and she screamed.\nShe hugged me and she said thank you many times, my mother also was crying.\nAfter that day she take photos of everything, even the food in the table.\nI am very happy because for her it was a really good surprise, and she uses it also today.",
+      "word_count": 153,
+      "approx_duration_seconds": 115,
+      "why_this_band": {
+        "fluency_coherence": "Hediye, kisi, sebep ve tepki sirasi duzgun ve konusma kesilmiyor, ama tepki bolumu iki cumlede bitiyor. Baglantilar 'At the end', 'After that day', 'because' ile sinirli ve cumleler ayni uzunlukta ilerliyor.",
+        "lexical_resource": "Hediye secimini anlatan sozcuk yok denecek kadar az: present, gift, camera, photos, surprised tekrarlaniyor. 'Old style camera' dogru fikir ama dogru bicime oturmuyor (vintage / second hand gelmiyor).",
+        "grammatical_range_accuracy": "Duzensiz fiillerde bicim hatasi (thinked, buyed, she become), ilgi adili (a gift what), edat (in Instagram, in the table) ve uyum (she take) cumlelerin cogunda. Yapilar basit; when ve because yan cumleleri disinda karmasik yapi yok."
+      },
+      "what_would_lift_it": "Kiz kardesin tepkisini bir sahne olarak anlatmak - ne dedi, ne yapti - cunku su an 'she screamed' ve 'she hugged me' ile geciliyor. Dilde once duzensiz fiilleri (thought / bought) duzeltmek, cunku ucu de anlatinin donum noktasinda."
+    },
+    {
+      "band": 6.5,
+      "transcript": "So the gift I want to talk about is a camera which I gave to my sister for her twenty-fifth birthday last year.\nShe is a person who is really difficult to buy something for, so I was thinking about it for maybe two weeks.\nIn the end I decided a camera, because her old one was broken during a holiday and after that she never replaced it.\nIt wasn't an expensive professional one, it was a small vintage camera, second hand actually, and I found it in a shop in the old bazaar.\nShe takes photos all the time, mostly of street cats and old doors, and she shares them in Instagram.\nSo I thought it was something that she would really use, not a present that stays in the cupboard for years.\nWhen she opened it, first she didn't say nothing for two seconds, and after that she started to shout.\nMy mother was crying also, which was a little bit exaggerated in my opinion.\nFor one month she was taking photos of everything, even our dinner table, and my father was complaining about this.\nSo I can say that it went down well, and honestly it was a big relief for me.",
+      "word_count": 205,
+      "approx_duration_seconds": 115,
+      "why_this_band": {
+        "fluency_coherence": "Dort maddeyi de gelistiriyor ve secim gerekcesi ile tepki arasindaki bag kuruluyor. Akis mekaniklesiyor: bolumler 'So', 'In the end', 'When she opened it', 'So I can say' ile ayni kalipta aciliyor ve anne ayrintisi anlatiyi bir cumle yavaslatiyor.",
+        "lexical_resource": "Hediye secimini anlatacak sozcugu var (second hand, vintage camera, went down well, relief) ve anlam her yerde acik. Secim iki noktada kayiyor: 'she shares them in Instagram', 'she would really use' yerine daha dogal bir kalip gelmiyor.",
+        "grammatical_range_accuracy": "Iliski cumlesi, gecmis surekli ve that yan cumleleri kontrollu, cumlelerin ucte ikisinden fazlasi hatasiz. Kalan hatalar dar bir kumede: fiil kalibi (I decided a camera), edat (in Instagram), cift olumsuz (she didn't say nothing)."
+      },
+      "what_would_lift_it": "Kamerayi neden bu kisiye sectigini bir cumle daha isletmek: 'difficult to buy for' iyi bir baslangic ama ornekle desteklenmiyor. Dilde 'decide on something' kalibini ve 'didn't say anything' olumsuzlugunu duzeltmek."
+    },
+    {
+      "band": 8.0,
+      "transcript": "Okay, so the gift I've chosen is a camera I bought my sister for her twenty-fifth, which was, what, about a year ago now.\nShe's notoriously impossible to buy for. She never wants anything, and if she does want something she's usually gone and bought it herself already, so I racked my brains for a good couple of weeks.\nWhat I landed on was an old film camera, a second-hand one from a little shop in the bazaar. Nothing fancy, and definitely not the sort of thing she'd have picked out herself.\nThe reason I went for it was that she's always photographing things, street cats, old doors, that kind of thing, but she does it all on her phone, and she'd been going on for ages about how film looks different.\nSo it was a bit of a gamble, but at least it was something she'd actually use rather than something that ends up at the back of a cupboard.\nAnd she loved it. She went completely silent for a second, which from her is saying something, and then she was straight out on the balcony taking pictures of the neighbour's washing.\nIt went down really well. She still uses it, which is the part I'm most pleased about, because most presents get put away after a fortnight and that's the last you see of them.",
+      "word_count": 227,
+      "approx_duration_seconds": 105,
+      "why_this_band": {
+        "fluency_coherence": "Anlatim akici ve tepki bolumu tek bir sahneye baglaniyor (balkonda komsunun camasirini cekmesi). Bir yerde kendini duzeltiyor ('which was, what, about a year ago now'), 8 satirinin izin verdigi turden seyrek bir duraklama.",
+        "lexical_resource": "Az rastlanan oge bol ve dogru yerlestirilmis: notoriously impossible to buy for, racked my brains, what I landed on, nothing fancy, going on for ages, a bit of a gamble, at the back of a cupboard, went down really well, that's the last you see of them.",
+        "grammatical_range_accuracy": "Yapi genis: gecmis mukemmel surekli (she'd been going on), 'if she does want something' ile vurgulu kosul, iliski cumleleri, 'she'd have picked out herself'. Hata seyrek; 'she's usually gone and bought it herself already' konusmada dogal, dinleyiciye hicbir sey kaybettirmiyor."
+      },
+      "what_would_lift_it": "Hedefte; bir ust duzey icin 'a bit of a gamble' fikrini kapanista geri cagirmak gerekir - riskin neden tuttugunu soylemek. Dilde yapacak bir sey kalmadi."
+    }
+  ]
+}

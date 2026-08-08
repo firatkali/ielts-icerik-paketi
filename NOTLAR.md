@@ -8670,3 +8670,69 @@ yerine cevap dagilimlari:
   listeleri KONTROL.md'deki dagilim tablosunda hazir.
 - Ornek cevaplar - konusma (1. calistirma) - 5 Part 2 karti x 3 seviye = 15 cevap,
   hepsi hedef bandin icinde (sapma 0), yeniden yazim yok.
+
+## OPUS5-C1 (konusma 2/4 - uretim yapildi, 8. grup = C02, C05, C08, C11, C15)
+- Tarih: 2026-08-08
+- Bagimlilik kontrolu gecti: `degerlendirme/DEGISIKLIK-KAYDI.md` ve
+  `kalibrasyon/olcum/SONUC.md` ikisi de yerinde.
+- **Oturum basi durumu:** `content/ornek-cevaplar/speaking/` altinda yalnizca 7. grubun
+  bes dosyasi (C01, C04, C07, C10, C14) vardi. Yani prompt'un konusma listesinde
+  uretilmemis ilk grup 8. grup; KONTROL.md'deki dort calistirmalik dagilim tablosuna
+  gore kartlari **C02 · C05 · C08 · C11 · C15** (bes kart turunun ikinci turu: kisi ·
+  yer · nesne · olay · soyut). Yazma tarafina (1-6) hic dokunulmadi, yeniden dogrulama
+  yapilmadi.
+- **Talimat cakismasi bu oturumda da yok:** tek gecerli is konusma kartlari icin gercek
+  cevap uretmekti. Sema denetimi yazmak ya da yazma dosyalarini yeniden dogrulamak
+  cikti sayilmadi (7. grup kaydindaki aciklamanin aynisi).
+- **Yarim kalmis uretim bulundu ve tamamlandi.** Depoda islenmemis iki dosya duruyordu:
+  `tools/_c1_uret8.py` (bes kartin 15 metni ve gerekceleri yazilmis) ve
+  `tools/_c1_olc8.py` (kelime/sure olcer). Script hic calistirilmamisti - `speaking/`
+  altinda 8. gruba ait dosya yoktu. Metinler sifirdan yazilmak yerine olculdu,
+  duzeltildi ve uretildi; asagidaki dort duzeltme bu denetimden cikti.
+- **Uretim:** `python tools/_c1_uret8.py` ->
+  `content/ornek-cevaplar/speaking/{C02,C05,C08,C11,C15}.json`, her birinde band
+  5,0 / 6,5 / 8,0 = **15 cevap**. Sema 7. grupla ayni: `transcript`, ucluk
+  `why_this_band` (fluency_coherence · lexical_resource ·
+  grammatical_range_accuracy), `approx_duration_seconds`, `part: 2`.
+- **Kapsam yine Part 2:** kartin `speaking_seconds` degeri (90-120 sn) tek kisilik
+  konusma icin; Part 3 karsilikli konusma oldugundan tek yonlu ornek metin o bolumu
+  yanlis gosterirdi. Gerekce KONTROL.md'de.
+- **Denetimden cikan dort duzeltme (KONTROL.md 8. grup bolumunde ayrintili):**
+  1. C11/6,5 ve C15/6,5 ilk yazimda 235 ve 230 kelimeydi; 105 kelime/dakikada 135 ve
+     130 saniye ediyor, yani kartin 120 saniyelik penceresini asiyordu. 210 ve 208
+     kelimeye indirildi (uretim script'i pencere disini zaten reddediyor).
+  2. C11/6,5'ta hatali cumle orani kisaltmadan sonra 4/10 = %40 cikti - talimatin 7
+     satiri (%20-40) ile 6 satiri (%40-60) arasindaki tam sinir. Bir edat hatasi
+     duzeltilerek (in my mind -> on my mind) %30'a cekildi.
+  3. C15/5,0'da oran 8/10 = %80'di, yani 5 satiri ile 4 satiri arasindaki sinir.
+     Konusmada olcut uc tane oldugu icin GRA 4 gelseydi genel band 4,5'e duserdi
+     (5+5+4 = 4,67); "in the university" -> "at the university" ile %70'e indi.
+  4. C05/6,5'ta metin degil **gerekce** duzeltildi: GRA gerekcesi ucuncu hata olarak
+     "instead of this" kurulusunu gosteriyordu, ama bu dilbilgisi degil esdizim
+     hatasi (LR gerekcesinde zaten sayili). Talimat hatayi ancak dilbilgisi
+     etiketiyle adlandirabiliyorsan saymayi soyluyor; gerekce sayimla ayni uc hatayi
+     gosterecek sekilde degistirildi.
+- **Kendi kendini denetim:** 15 cevabin hepsi hedef bandin icinde, **sapma 0**. Puanlama
+  etiketler ortulerek ve dokumler cumle cumle numaralanarak yapildi. Hatali cumle
+  oranlari: band 5'te 7/10 = %70, band 6,5'ta 3/10 = %30, band 8'de sifir (11-16
+  cumle). Uc metin yeniden yazildi ama hicbiri bandi kacirdigi icin degil, olcum
+  sinirinda kaldigi icin (yukaridaki 1-3).
+- **Bicim kontrolu:** 7. grubun `tools/_c1_k7_kontrol.py` denetimi on dosyanin hepsine
+  uygulandi - task_ref, band uclusu, word_count'un gercek sayimla uyusmasi, 80 kelime
+  alt siniri, 90-120 saniye penceresi, ucluk olcut ve gerekce alanlarinda 2 cumle
+  siniri. Ilk geciste alti bulgu cikti (bes kartta band 8'in `what_would_lift_it`
+  alani "Hedefte." ayri cumle oldugu icin uc cumle; C02/6,5'ta gerekcedeki "..."
+  cumle bolucusunu yaniltiyordu) ve altisi da duzeltildi. Ikinci gecis: bulgu yok.
+- **Bu grubun ogrettigi sey - 6,5'un tuzagi konusmada baska turlu:** yazmada 6,5
+  cevaplari fazla duzgun yazilip 7,0'a kayiyordu; konusmada karsiligi surenin tasmasi,
+  cunku sure kelime sayisindan hesaplaniyor ve kart 120 saniyeyle sinirli. Kelime
+  tavanlari: band 5 icin 160, band 6,5 icin 210, band 8 icin 254.
+- Yazilan: `tools/_c1_uret8.py` ve `tools/_c1_olc8.py` (yarim kalmislardi, tamamlandi),
+  `content/ornek-cevaplar/speaking/` (bes yeni dosya),
+  `content/ornek-cevaplar/KONTROL.md` (8. grup bolumu). `DURUM.txt` elle
+  degistirilmedi.
+- Atlanan/sorun: yok. Kalan konusma gruplari 9. calistirma (C16 · C19 · C22 · C25 ·
+  C29) ve 10. calistirma (Part 1 konu setleri); iki sayisal hedef KONTROL.md'nin
+  "9. gruba kalan" bolumunde yazili.
+- Ornek cevaplar - konusma (2. calistirma) - 5 Part 2 karti x 3 seviye = 15 cevap,
+  hepsi hedef bandin icinde (sapma 0), uc metin olcum siniri yuzunden yeniden yazildi.

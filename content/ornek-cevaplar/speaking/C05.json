@@ -1,0 +1,46 @@
+{
+  "exam": "ielts",
+  "schema_version": "1.0",
+  "kind": "model_answer_set",
+  "skill": "speaking",
+  "part": 2,
+  "task_ref": "C05",
+  "answers": [
+    {
+      "band": 5.0,
+      "transcript": "Er, okay, I want to describe a old building in my neighbourhood, it is near the bus station.\nIt is maybe two hundred years old, but I am not sure exactly about the date.\nThe building is made from red brick and it have very tall windows.\nIn the top there is a big clock but the clock is not working since many years.\nWhen I was child my grandfather said me that this building was a hospital before.\nNow it is a library and also there is a small cafe in the ground floor.\nMany student go there to study, especially in the exam period.\nI go there sometimes with my friends because it is quiet and the chairs are comfortable.\nI find this building interesting because it is very different from the new buildings around it.\nAll the other buildings is grey and modern, but this one have a character.",
+      "word_count": 152,
+      "approx_duration_seconds": 115,
+      "why_this_band": {
+        "fluency_coherence": "Binayi yer, gorunus, kullanim ve sebep sirasiyla anlatiyor, yani kartin dort maddesi de karsilaniyor, ama her madde bir cumlede bitiyor. Gecisler 'Now', 'Also', 'So' ile mekanik ve son iki cumle ayni fikri tekrarliyor.",
+        "lexical_resource": "Bina anlatimi en temel sozcuklerle yapiliyor: old, big, tall, quiet, grey, modern. 'This one have a character' iyi bir deneme ama tek basina kaliyor; mimariye ait baska bir oge yok.",
+        "grammatical_range_accuracy": "Tanimlik, uyum ve edat hatasi cumlelerin cogunda (a old building, it have, In the top, since many years, I was child, said me, in the ground floor, Many student, buildings is). Yapilar basit; when ve because ile kurulan iki yan cumle disinda karmasik yapi yok."
+      },
+      "what_would_lift_it": "Binanin nasil kutuphaneye donustugunu anlatmak - su an 'Now it is a library' tek cumlede geciliyor ve cevabin en ilginc kismi orada. Dilde once 'it have / buildings is' uyumunu, sonra 'since many years' sure yapisini duzeltmek."
+    },
+    {
+      "band": 6.5,
+      "transcript": "Okay, so I'd like to talk about a building in my neighbourhood, just next to the main bus station.\nIt's quite old, I think from the Ottoman period, but I'm not completely sure about the date.\nIt's made of red brick with very tall windows, and there is a big clock on the front which unfortunately doesn't work since many years.\nThe first time I saw it I was a child, and my grandfather told me that in the past it was used like a hospital.\nNow it has been converted into a public library, and they also opened a small cafe on the ground floor.\nA lot of students go there in the exam period because it's very quiet, and honestly the reading room is much nicer than the one in my university.\nI go there myself maybe two times in a month, when I need to concentrate.\nThe reason I find it interesting is that it stands out from everything around it.\nAll the other buildings in that street are grey blocks from the eighties, so when you turn the corner and see this old red building, it makes a big difference in the view.\nAlso I like that they didn't destroy it, they gave it a new life instead of this.",
+      "word_count": 214,
+      "approx_duration_seconds": 120,
+      "why_this_band": {
+        "fluency_coherence": "Dort maddeyi de gelistiriyor ve cocukluk hatirasi ile bugunku kullanim arasinda gercek bir baglanti kuruyor. Akis yer yer takiliyor: 'Now', 'Also', 'The reason' ile acilan bolumler ayni uzunlukta ve kapanis cumlesi aceleye geliyor.",
+        "lexical_resource": "Yeterli sozcukle binayi tarif ediyor (converted into, ground floor, stands out from, reading room) ve anlam hic kapanmiyor. Iki noktada esdizim kayiyor: 'it makes a big difference in the view', 'they gave it a new life instead of this'.",
+        "grammatical_range_accuracy": "Edilgen (has been converted), iliski cumlesi ve zaman yan cumlesi rahat kuruluyor, cumlelerin cogu hatasiz. Kalan hatalar belirli ve sayilabilir (3/10 cumle): sure yapisi (doesn't work since many years), edat secimi (used like a hospital), sikligin edati (two times in a month)."
+      },
+      "what_would_lift_it": "Kapanisi acmak: 'they gave it a new life' fikri cevabin en iyi fikri ama son cumlede tek nefeste soyleniyor. Dilde 'doesn't work since many years' yerine present perfect'e gecmek (hasn't worked for years)."
+    },
+    {
+      "band": 8.0,
+      "transcript": "Right, the building I've gone for is the old brick place right behind the main bus station. You can't really miss it, it's the only thing on that street that isn't a concrete block from the eighties.\nIt's Ottoman, apparently, although nobody seems to agree on the exact date. Red brick, tall arched windows, and this enormous clock on the front that's been stuck at twenty past four for as long as I can remember.\nWhen I was little my grandfather told me it had been a hospital, and for years I half believed the place was haunted, to be honest.\nIt sat empty for ages and it was starting to look like, well, a bit of an eyesore, but about six years ago the council gutted it and turned it into a public library, with a little cafe on the ground floor.\nNow it's packed, especially around exam time. You have to get there before nine or you won't get a seat anywhere near a plug.\nAnd why I find it interesting, well, part of it is that contrast, the way it stands out a mile from everything around it.\nBut mostly it's that they didn't knock it down. It would have been far cheaper to, I imagine, and instead the place has been given a new lease of life, which round here doesn't happen anywhere near often enough.",
+      "word_count": 230,
+      "approx_duration_seconds": 110,
+      "why_this_band": {
+        "fluency_coherence": "Anlatim rahat ve ayrintili; saatin 'stuck at twenty past four' ayrintisi ve dokuzdan once gitme uyarisi anlatiyi tasiyor, kapanista ise fikir kendi uzerine donuyor. Bir yerde kendini duzeltiyor ('it was starting to look like, well, a bit of an eyesore').",
+        "lexical_resource": "Deyimsel ve konuya ozgu oge cok: you can't really miss it, tall arched windows, half believed, an eyesore, gutted it, packed, stands out a mile, knock it down, a new lease of life. Kayit bastan sona konusma dili.",
+        "grammatical_range_accuracy": "Yapi genis: gecmis mukemmel (it had been a hospital), edilgen (has been given), 'would have been far cheaper to' ile eksiltili kosul, 'for as long as I can remember'. Sayilabilir hata yok."
+      },
+      "what_would_lift_it": "Hedefte; bir ust duzey icin son cumledeki 'round here doesn't happen often enough' yargisini bir ornekle desteklemek gerekir - yikilmis baska bir bina. Dilde yapacak bir sey kalmadi."
+    }
+  ]
+}

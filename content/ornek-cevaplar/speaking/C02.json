@@ -1,0 +1,46 @@
+{
+  "exam": "ielts",
+  "schema_version": "1.0",
+  "kind": "model_answer_set",
+  "skill": "speaking",
+  "part": 2,
+  "task_ref": "C02",
+  "answers": [
+    {
+      "band": 5.0,
+      "transcript": "Okay, so I want to talk about my grandfather, he is the father of my father.\nHe is eighty-two years old and he live alone in a small village.\nWe visit him in every summer holiday and we speak in the telephone every Sunday.\nMy mother calls him first and after that she gives the phone to me.\nHe always talks about the old times, when he was a young man in the army.\nHe tell me the same stories many times but I don't say nothing, I only listen.\nFor example, in his village before there was no electricity and the people go to the town with a horse.\nSometimes he talk about my grandmother also, she is died five years ago.\nI enjoy to listen him because his life is very very different from my life.\nIn my opinion the young people can learn many thing from this stories.",
+      "word_count": 151,
+      "approx_duration_seconds": 115,
+      "why_this_band": {
+        "fluency_coherence": "Kartin dort maddesine de deginiyor ve konusma kesilmiyor, ama her madde tek cumleyle gecistiriliyor ve baglantilar and / because / also / for example kalibinin disina cikmiyor. Dede ne anlatiyor bolumu iki cumleden sonra kapaniyor, ornek acilmadan birakiliyor.",
+        "lexical_resource": "Sozcuk gunluk cekirdekte kaliyor: old times, stories, listen, different tekrarlaniyor ve vurgu 'very very different' ile yapiliyor. Yasli birini dinlemeyi anlatan tek bir esdizim ya da deyim yok.",
+        "grammatical_range_accuracy": "Cumlelerin coguna uyum, zaman ya da edat hatasi yayilmis (he live, he tell, he talk, the people go, in the telephone, she is died, many thing, this stories) ama anlam hicbir yerde kapanmiyor. Yapilar basit; when ve because ile kurulan iki yan cumle disinda karmasik yapi yok."
+      },
+      "what_would_lift_it": "Once dedenin anlattigi seylerden birini gercek bir sahne olarak acmak - hangi hikaye, nerede, ne oldu - cunku su an konular sadece basliklar halinde siralaniyor. Sonra 'he live / he tell / he talk' turu uyum hatalarini duzeltmek, cunku her cumlede tekrarlaniyor."
+    },
+    {
+      "band": 6.5,
+      "transcript": "So the person I'm going to talk about is my grandfather, my father's father, and he's, er, eighty-two now.\nHe lives alone in a small village in the Black Sea region, so we can only visit him in the summer, but we speak on the phone every Sunday evening.\nUsually my mother calls him first and then she gives the phone to me, and we make a long conversation, maybe twenty minutes.\nThe thing he talks about the most is his memories from the past, especially the years of his military service.\nHe tells the same stories many times, I have to be honest, but somehow I don't get bored from them.\nFor example, he describes his village before the electricity came, when people were going to town by horse, and for me it's like another century.\nSometimes he talks about my grandmother also, she passed away five years ago, and in these moments he becomes quiet.\nThe reason I enjoy listening him is that his life was completely different from mine.\nWhen I have a problem, he never gives me an advice directly, he just tells one story and I understand the point by myself.\nI think this is very valuable, and, er, that's why I like our Sunday conversations.",
+      "word_count": 211,
+      "approx_duration_seconds": 120,
+      "why_this_band": {
+        "fluency_coherence": "Dort maddeyi de gelistiriyor ve telefon sahnesi ile koy ornegi arasindaki gecis dogal duruyor. Buna karsilik bolum acilislari 'Usually', 'For example', 'Sometimes', 'The reason' kalibinda tekrarlaniyor ve anlati bir yerde durup liste haline geliyor.",
+        "lexical_resource": "Konuyu tasiyacak sozcugu var (military service, passed away, memories, valuable) ve anlam her yerde acik. Esdizim iki noktada kayiyor: 'we make a long conversation', 'I don't get bored from them'.",
+        "grammatical_range_accuracy": "Iliski cumlesi, gecmis surekli, zaman yan cumlesi ve 'the reason' ile kurulan ad cumlesi kontrollu; cumlelerin ucte ikisinden fazlasi hatasiz. Kalan hatalar dar bir kumede: edat dusmesi (enjoy listening him), sayilamayan adda tanimlik (an advice), 'get bored from'."
+      },
+      "what_would_lift_it": "Dedenin hikayelerinden birini bastan sona anlatmak: su an 'he always describes his village' deniyor ama tek bir hikayenin kendisi hic gelmiyor. Dilde 'listening him' ve 'an advice' gibi tekil hatalari duzeltmek yeter, kalan yapi zaten saglam."
+    },
+    {
+      "band": 8.0,
+      "transcript": "So, the person I'd pick is my grandfather, my dad's father, who's eighty-two and still living on his own in a village up on the Black Sea coast.\nWe only get up there in the summer, but we ring him most Sunday evenings, and my mum always hands the phone over to me after about five minutes, so I've probably spoken to him more than anyone else in the family has.\nHe's absolutely full of stories, that's the thing.\nNine times out of ten it's his military service, or, well, the village the way it was before the road went in. No electricity, everyone going into town on horseback, which to me sounds like a completely different world.\nAnd yes, I've heard most of them before, but he has this way of putting things that means you don't really mind. He'll drop in some tiny detail he's never mentioned, and suddenly the whole story lands differently.\nHe talks about my grandmother as well. She died about five years ago, and he goes very quiet afterwards, so I've learnt to let the silence sit there rather than filling it.\nAs for why I enjoy it, I think it's that it puts things in perspective.\nIf I'm panicking about my exams, he'll never tell me straight out what to do. He just tells me something that happened to him in 1962 and leaves me to work out the connection myself, which sounds a bit roundabout, but it works every time.",
+      "word_count": 248,
+      "approx_duration_seconds": 115,
+      "why_this_band": {
+        "fluency_coherence": "Anlatim kendi sirasini kuruyor ve bolumler kendiliginden baglaniyor ('He's absolutely full of stories, that's the thing', 'As for why I enjoy it'). Bir yerde kendini duzeltiyor ('or, well, the village the way it was'), 8 satirinin izin verdigi turden seyrek bir duzeltme.",
+        "lexical_resource": "Az rastlanan oge bol ve yerinde: full of stories, nine times out of ten, has this way of putting things, a completely different world, on horseback, puts things in perspective, tell me straight out, work out the connection, a bit roundabout. Kayit bastan sona konusma dili.",
+        "grammatical_range_accuracy": "Yapi cesitliligi genis: iliski cumleleri, present perfect (I've probably spoken to him more than anyone else in the family has), kosul cumlesi, 'leaves me to work out' kalibi. Sayilabilir hata yok, hatasizlik dinleyiciyi hicbir yerde durdurmuyor."
+      },
+      "what_would_lift_it": "Hedefte; bir ust duzey icin dedenin anlattiklarindan cikan dersin bugun neye dokundugunu tek bir somut ornekle kapatmak gerekir; su an 1962 gondermesi ornek verilmeden birakiliyor. Dilde yapacak bir sey kalmadi."
+    }
+  ]
+}
