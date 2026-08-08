@@ -8484,3 +8484,48 @@ yerine cevap dagilimlari:
   olcum bu temiz surumle uretilmeli.
 - E7 2/2 (sizinti) icin: ayni 188 soru + AC1 TFNG #11 (E6 devri) olculmeli;
   blind_solvable alanlari o turda doldurulacak.
+
+
+## OPUS5-A1 5/5 — KONUSMA ornekleri metne dokuldu (12 ornek, band 5-9)
+
+- Tarih: 2026-08-08. Prompt dosyasinin **"4. CALISTIRMA — KONUSMA ORNEKLERI"** bolumu.
+  Bu, calistirma listesindeki **4. grup**; yazma gruplarina (23 ornek) dokunulmadi.
+  4/4 notunda "yapilacak is" olarak birakilan bosluk bu calistirmada kapandi.
+- **Kaynak dosya diskte yoktu**, `python tools/indir.py` calistirildi ve
+  `referans/konusma-band-ornekleri.txt` indi (71 KB, 773 satir). WebFetch'e gerek kalmadi.
+  Diger 43 belge zaten vardi, hata 0.
+- **12 ornegin 12'si ayiklandi.** Band dagilimi sayfada duyurulan diziyle birebir ayni:
+  **5 · 5 · 6 · 6 · 6,5 · 7 · 7 · 7,5 · 8 · 8 · 8,5 · 9**. Ayiklanamayan ornek yok.
+- **Bolum dagilimi: Part 1 → 0, Part 2 → 2, Part 3 → 10.** Prompt'ta ongorulen bosluk
+  aynen cikti: kaynakta hic Part 1 ornegi yok. Uydurma yapilmadi, bosluk bilerek kabul
+  edildi. Part 2 olanlar: SP-band5-1 (Tina, uzun tur - bir ilgi alani/hobi anlatimi) ve
+  SP-band6_5-1 (Michal, uzun tur - hayran olunan unlu kisi). Kalan 10'u Part 3 tartismasi.
+- **Kelime sayilari (yalniz aday, sinav gorevlisi haric):** 263 / 391 / 497 / 487 / 304 /
+  561 / 505 / 600 / 612 / 434 / 450 / 494 — toplam 5598 aday kelimesi. Sayim makineyle
+  yapildi (`tools/konusma_ayikla.py`), goz karari degil. Bu alan akicilik olcumunun
+  (kelime/dakika) girdisi.
+- **Yontem — neden elle yazilmadi:** konusma tarafinda el yazisi sorunu yok, sayfa zaten
+  duz metin. Elle kopyalamak aday hatalarini sessizce duzeltme riski tasidigi icin
+  ayiklama betige birakildi: `tools/konusma_ayikla.py` sayfa gurultusunu (menu satirlari,
+  "View transcript" dugmesi) atiyor, konusmaci etiketlerini `EXAMINER:` / `CANDIDATE:`
+  olarak normalize ediyor, kalan karakterlere dokunmuyor.
+- **Duzeltmeme denetimi gecildi:** `tools/_konusma_dogrula.py` her transkript satirinin ve
+  her yorum paragrafinin ham sayfa metninde birebir bulundugunu dogruluyor →
+  **322 satir denetlendi, kaynakta bulunamayan 0.** Yani dusuk bandlardaki hatalar
+  ("I want to do volunteers", "some of them has problem", "it can kill a spare time",
+  "there are a lot of job to do") yerinde duruyor. **Supheli isaretlenen dosya yok**,
+  hicbir dosyada `transcription_suspect` alani yok.
+- **Tek kayit notu:** SP-band8-1 (Monika, band 8) sayfada "Part 3: Famous people" basligi
+  altinda duruyor ama dokumun tamami hobiler ve bos zaman uzerine. Baslik kaynakta boyle
+  oldugu icin `topic` alani degistirilmedi; durum dosyanin `transcription_notes` alanina
+  ve KONTROL.md'ye yazildi.
+- Dosyalar: `kalibrasyon/ornekler/konusma/<kod>.json` (12 dosya) + `KONTROL.md`
+  (12 satirlik tablo, kod · band · bolum · aday kelime · konu). Klasor `.gitignore`'da,
+  depoya girmiyor; `git add -f` kullanilmadi. Kod duzeni `SP-band<band>-<sira>`, yarim
+  bandlarda nokta yerine alt cizgi: `SP-band6_5-1`, `SP-band7_5-1`, `SP-band8_5-1`.
+- **Olcum acisindan durum:** kalibrasyon ornekleri artik **35 ornek** — yazma 23
+  (Academic 12 + General Training 11, band 3,0-8,5) + konusma 12 (band 5-9). Konusma
+  ayagi ilk kez dolduruldu; SONNET5-A3 turu olcumler konusma icin de calistirilabilir,
+  ama yalnizca Part 2/Part 3 kapsamiyla.
+- **OPUS5-A1 prompt dosyasi bitti:** 4 grubun dordu de dokuldu, yapilacak is kalmadi.
+- Atlanan/sorun yok.
