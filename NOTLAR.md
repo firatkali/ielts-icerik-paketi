@@ -8876,3 +8876,7 @@ yerine cevap dagilimlari:
 ## SONNET5-A3 (puanlama olcumu, ozel tur5 — yalniz gercek bandi <=4,5 yazma ornekleri, mevcut talimat)
 
 - Tur 5 sonucu (tek seferlik puan, 4 ornek x 3 tekrar = 12 puanlama): ortalama mutlak fark 1,250 · egilim +1,250 (comert).
+
+## SONNET5-A3 (puanlama olcumu, tur6 — dogrulama turu, 3. duzeltmeden sonraki talimat)
+
+- Tur 6 sonucu (tum yazma+konusma ornekleri, 36 ornek x 1 tekrar = 36 puanlama): ortalama mutlak fark 0,389 · egilim -0,139 (hafif cimri).
