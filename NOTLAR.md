@@ -8736,3 +8736,67 @@ yerine cevap dagilimlari:
   "9. gruba kalan" bolumunde yazili.
 - Ornek cevaplar - konusma (2. calistirma) - 5 Part 2 karti x 3 seviye = 15 cevap,
   hepsi hedef bandin icinde (sapma 0), uc metin olcum siniri yuzunden yeniden yazildi.
+
+## OPUS5-C1 (konusma 3/4 - uretim yapildi, 9. grup = C16, C19, C22, C25, C29)
+- Tarih: 2026-08-08
+- Bagimlilik kontrolu gecti: `degerlendirme/DEGISIKLIK-KAYDI.md` ve
+  `kalibrasyon/olcum/SONUC.md` ikisi de yerinde.
+- **Oturum basi durumu:** `content/ornek-cevaplar/speaking/` altinda 7. ve 8. grubun on
+  dosyasi vardi (C01, C02, C04, C05, C07, C08, C10, C11, C14, C15). Yani prompt'un
+  konusma listesinde uretilmemis ilk grup 9. grup; KONTROL.md'deki dort calistirmalik
+  dagilim tablosuna gore kartlari **C16 · C19 · C22 · C25 · C29** (bes kart turunun
+  ucuncu turu: kisi · yer · nesne · olay · soyut). Yazma tarafina (1-6) hic dokunulmadi,
+  yeniden dogrulama yapilmadi.
+- **Talimat cakismasi bu oturumda da yok:** tek gecerli is konusma kartlari icin gercek
+  cevap uretmekti. Sema denetimi yazmak ya da yazma dosyalarini yeniden dogrulamak
+  cikti sayilmadi (7. ve 8. grup kayitlarindaki aciklamanin aynisi).
+- **Uretim:** `tools/_c1_uret9.py` sifirdan yazildi (8. grubun script'i birebir ornek
+  alindi, mekanik degistirilmedi) ve calistirildi ->
+  `content/ornek-cevaplar/speaking/{C16,C19,C22,C25,C29}.json`, her birinde band
+  5,0 / 6,5 / 8,0 = **15 cevap**. Sema onceki iki grupla ayni: `transcript`, ucluk
+  `why_this_band` (fluency_coherence · lexical_resource ·
+  grammatical_range_accuracy), `approx_duration_seconds`, `part: 2`.
+- **Kapsam yine Part 2:** kartin `speaking_seconds` degeri (90-120 sn) tek kisilik
+  konusma icin; Part 3 karsilikli konusma oldugundan tek yonlu ornek metin o bolumu
+  yanlis gosterirdi. Gerekce KONTROL.md'de (7. grupla ayni).
+- **8. gruptan tasinan iki sayi yazim sirasinda gozetildi, denetimde degil:** 6,5
+  metinlerinde kelime tavani 210 ve GRA sayimi hedefi %30. Ilk yazimda on bes metnin
+  hicbiri sure penceresinin disina cikmadi; kisaltmalar yalnizca tavana oturtmak icin
+  yapildi (ilk taslakta 6,5 metinleri 215-238 kelimeydi).
+- **Kendi kendini denetimden cikan uc duzeltme (KONTROL.md 9. grup bolumunde
+  ayrintili) - ucu de bandi kacirdigi icin degil, sayim iki satirin tam sinirinda
+  kaldigi icin:**
+  1. C29/5,0'da hatali cumle orani 8/10 = %80'di, yani GRA'da 5 satiri ile 4 satiri
+     arasindaki sinir. Bir belirtec hatasi duzeltilerek (speaking free -> speaking
+     freely) %70'e cekildi.
+  2. C16/6,5 ve C25/6,5'ta oran 4/10 = %40'ti, yani 7 satiri ile 6 satiri arasindaki
+     sinir. C16'da kapanistaki edat hatasi (he explains for the person -> he thinks
+     about the person), C25'te eksik edat (stays open one week -> stays open for one
+     week) duzeltildi; ikisi de %30'a dustu.
+  3. C16'nin kapanisi degistigi icin o cevabin LR gerekcesindeki ikinci esdizim ornegi
+     de degistirildi (I got a good result in the exam), yani gerekce metinle ayni
+     kaldi.
+- **Kendi kendini denetim sonucu:** 15 cevabin hepsi hedef bandin icinde, **sapma 0**.
+  Puanlama etiketler ortulerek ve dokumler cumle cumle numaralanarak yapildi. Hatali
+  cumle oranlari son halde: band 5'te 7/10 = %70, band 6,5'ta 3/10 = %30, band 8'de
+  sifir (15-17 cumle).
+- **Bicim kontrolu:** dosyalar uretildikten sonra task_ref-dosya adi uyumu, band
+  uclusu, `word_count`un gercek sayimla uyusmasi, 80 kelime alt siniri, 90-120 saniye
+  penceresi, ucluk olcut kumesi ve gerekce alanlarindaki "<=2 cumle" siniri tek tek
+  dogrulandi. Cumle sayimi ilk geciste alti alani uc cumle gosterdi; hepsi tirnak
+  icindeki dokum parcasindan ya da uc noktadan kaynaklaniyordu (*'I saw the date on the
+  department website. I remember reading it.'* gibi), tirnakli parcalar cikarilinca
+  bulgu kalmadi. Yeni bir denetim script'i eklenmedi - bu calistirmanin ciktisi cevap
+  dosyalari.
+- **Bu grubun ogrettigi sey - sinir degerlerinden kacinmak yazim isi, denetim isi
+  degil.** 8. grupta uc metin olcum sinirinda kaldigi icin yeniden yazilmisti; burada
+  ayni sey uc metinde yine oldu, ama sebep farkli: 8. grupta sinir kisaltmanin yan
+  etkisiydi, burada ilk taslagin kendi orani. Yani %40 ve %80 sayilari yazarken
+  kacinilacak sayilar; denetim onlari yakaliyor ama duzeltmesi metni her seferinde
+  bir kez daha elden geciriyor.
+- Atlanan/sorun: yok. Kalan tek konusma grubu 10. calistirma (Part 1 konu setleri);
+  ona tasinan uc not KONTROL.md'nin "10. gruba kalan" bolumunde yazili - Part 1'de
+  80 kelime capasinin gecerli olmadigi, GRA sayim hedeflerinin degistirilmemesi ve
+  6,5'ta LR oge sayisinin ucte tutulmasi.
+- Ornek cevaplar - konusma (3. calistirma) - 5 Part 2 karti x 3 seviye = 15 cevap,
+  hepsi hedef bandin icinde (sapma 0), uc metin olcum siniri yuzunden duzeltildi.

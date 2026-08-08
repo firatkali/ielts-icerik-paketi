@@ -1,0 +1,46 @@
+{
+  "exam": "ielts",
+  "schema_version": "1.0",
+  "kind": "model_answer_set",
+  "skill": "speaking",
+  "part": 2,
+  "task_ref": "C16",
+  "answers": [
+    {
+      "band": 5.0,
+      "transcript": "Okay, so I want to talk about my cousin Emre, he is a mathematics teacher.\nHe is only five years older than me but he explain everything very good.\nIn the last year of the lycee I had a big problem with the mathematic.\nMy teacher explained one time and after that he pass to the next subject.\nBut my cousin, he sit with me in the kitchen table and he draw the problem in a paper.\nHe always start with a easy example from the daily life, for example the football.\nAfter that he make the question more difficult, step by step, until I understand.\nHe never say to me that this question is easy, and this is very important.\nI passed my exam in the end and now I use the same method with my little sister.\nI find his way helpful because he is patient and he never makes me feel stupid.",
+      "word_count": 155,
+      "approx_duration_seconds": 115,
+      "why_this_band": {
+        "fluency_coherence": "Kartin uc maddesi de ve kapanis sorusu da siraya giriyor, konusma kesilmiyor; ama her madde tek cumlede bitiyor ve gecisler 'After that', 'for example', 'because' kalibinin disina cikmiyor. Kuzenin nasil anlattigi bolumu uc cumleyle gecistiriliyor, tek bir ders sahnesi acilmiyor.",
+        "lexical_resource": "Anlatma isini tarif eden sozcuk gunluk cekirdekte: explain, example, easy, difficult, patient tekrarlaniyor ve vurgu 'very good', 'very important' ile yapiliyor. 'Step by step' tek basina duruyor; kartin isteyecegi turden ikinci bir esdizim yok.",
+        "grammatical_range_accuracy": "Uyum hatasi cumlelerin cogunda ve ayni bicimde tekrarlaniyor (he explain, he pass, he sit, he draw, he start, he make, he never say), yaninda tanimlik (a easy, the mathematic) ve edat (in the kitchen table, in a paper) hatalari var; anlam yine de hicbir yerde kapanmiyor. Yapilar basit, when ve because yan cumleleri disinda karmasik yapi yok."
+      },
+      "what_would_lift_it": "Tek bir konuyu kuzenin nasil anlattigini bastan sona gostermek - hangi soru, once ne dedi, sonra ne cizdi - cunku su an yontem 'easy example' ve 'step by step' basliklariyla ozetleniyor. Dilde once ucuncu tekil -s'yi duzeltmek, cunku cevabin her cumlesinde ayni hata donuyor."
+    },
+    {
+      "band": 6.5,
+      "transcript": "So the person I'm going to talk about is my cousin Emre, who is a maths teacher.\nHe's only five years older than me, so when I was in my last year at high school he was already teaching.\nAt that time I was having serious problems with maths, especially with derivatives.\nThe problem was, my teacher at school explained the topic only once and then he passed directly to the next chapter.\nMy cousin was completely different, he used to sit with me at the kitchen table for two or three hours in the weekend.\nThe first thing he always did was to break the problem down into small pieces, and he never started from the formula.\nFor example, he explained the derivative with the speed of a car, and suddenly the whole subject was making sense for me.\nAnother thing, he never said me that a question is easy, because when somebody says this you feel even more stupid.\nIn the end I got a good result in the exam, and now I use the same method with my sister.\nSo the reason I find his way helpful is simple, he thinks about the person in front of him, not about himself.",
+      "word_count": 204,
+      "approx_duration_seconds": 115,
+      "why_this_band": {
+        "fluency_coherence": "Uc maddeyi de gelistiriyor ve okuldaki ogretmenle kuzeni karsilastirmasi anlatiyi tasiyor; turev ornegi somut ve yerinde. Akis mekaniklesiyor: bolumler 'The problem was', 'The first thing', 'Another thing', 'So the reason' ile ayni kalipta aciliyor ve cumleler ayni uzunlukta ilerliyor.",
+        "lexical_resource": "Konuyu tasiyacak sozcugu var (break the problem down into small pieces, make sense, derivatives, a good result) ve anlam hicbir yerde kapanmiyor. Ifade iki noktada duzlesiyor: 'making sense for me', 'I got a good result in the exam'.",
+        "grammatical_range_accuracy": "Iliski cumlesi, 'used to', gecmis surekli ve 'the first thing he did was' ile kurulan vurgulu yapi kontrollu; cumlelerin ucte ikisinden fazlasi hatasiz. Kalan hatalar dar bir kumede: edat (in the weekend, make sense for), fiil kalibi (he never said me)."
+      },
+      "what_would_lift_it": "Turev ornegini bir cumle daha isletmek: arabanin hizi fikri cevabin en iyi yeri ama tek cumlede birakiliyor. Dilde 'say something to somebody' kalibini ve 'at the weekend' edatini duzeltmek yeter, kalan yapi zaten saglam."
+    },
+    {
+      "band": 8.0,
+      "transcript": "So, someone who's good at explaining things. That would be my cousin Emre, who teaches maths at a state school about an hour outside the city.\nHe's only five years older than me, which meant that when I was in my final year and completely at sea with maths, he'd already been teaching for two years.\nAnd I was struggling, genuinely. My teacher at school would go through a topic once, at a hundred miles an hour, and then move straight on whether anyone had followed it or not.\nEmre took a completely different approach. He'd come round at the weekend, sit down at the kitchen table with me, and, well, not even open the textbook at first.\nWhat he does is break the thing down into pieces small enough that you can't get them wrong, and he never starts with the formula.\nDerivatives, for instance. He explained the whole thing through a car speeding up and slowing down, and it just clicked. Ten minutes, after months of getting nowhere.\nThe other thing, and this is the real skill, is that he never once told me a question was easy. Because the moment somebody says that, you feel like an idiot for not seeing it.\nI scraped through that exam in the end, and these days I catch myself using his tricks on my little sister.\nWhy it works, I suppose, is that he explains it for whoever is sitting in front of him, not for himself.",
+      "word_count": 247,
+      "approx_duration_seconds": 115,
+      "why_this_band": {
+        "fluency_coherence": "Anlatim kendi sirasini kuruyor: okuldaki ogretmen bir karsit olarak kuruluyor, sonra tek bir ornek (turev) uzerinden yontem gosteriliyor ve kapanis yontemi tek cumleye topluyor. Bir yerde kendini duzeltiyor ('and, well, not even open the textbook at first'), 8 satirinin izin verdigi turden seyrek bir duraklama.",
+        "lexical_resource": "Az rastlanan oge bol ve yerinde: completely at sea with, at a hundred miles an hour, move straight on, come round, break the thing down, it just clicked, months of getting nowhere, scraped through, catch myself using his tricks. Kayit bastan sona konusma dili.",
+        "grammatical_range_accuracy": "Yapi genis: gecmis mukemmel surekli (he'd already been teaching), aliskanlik 'would' (would go through a topic once), 'whether anyone had followed it or not' ile dolayli soru, 'pieces small enough that you can't get them wrong' ile sonuc yapisi. Sayilabilir hata yok."
+      },
+      "what_would_lift_it": "Hedefte; bir ust duzey icin kapanistaki 'he explains it for whoever is sitting in front of him' yargisini ikinci bir kisiyle desteklemek gerekir - kardesine ayni yontemi uygularken ne degistigi. Dilde yapacak bir sey kalmadi."
+    }
+  ]
+}

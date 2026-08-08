@@ -1,0 +1,46 @@
+{
+  "exam": "ielts",
+  "schema_version": "1.0",
+  "kind": "model_answer_set",
+  "skill": "speaking",
+  "part": 2,
+  "task_ref": "C25",
+  "answers": [
+    {
+      "band": 5.0,
+      "transcript": "Er, I want to talk about a mistake what I did in my first year in the university.\nIn our system every semester you must choose your lessons from the internet.\nI readed the date in the announcement but I didn't wrote it anywhere, I trusted my memory.\nThat week I was very busy with a project and I forgot completely this thing.\nWhen I opened the system in Monday morning the page was closed and my lessons was not saved.\nI go immediately to the department and I asked to the secretary.\nShe said me that the system is same for everybody and she cannot do nothing.\nSo in that semester I taked a lesson about statistics that I really didn't want.\nAfter this I bought a small calendar and now I write all the dates in it.\nIf the same thing happens today, I will check the deadline two or three times.",
+      "word_count": 154,
+      "approx_duration_seconds": 115,
+      "why_this_band": {
+        "fluency_coherence": "Hatanin ne oldugu, ne zaman oldugu, ne yapildigi ve bugun ne yapacagi sirayla veriliyor, ama her madde bir cumleyle kapaniyor. Gecisler 'So', 'After this', 'If' kalibinda ve bolume ayrilan cumle sayisi hicbir yerde artmiyor.",
+        "lexical_resource": "Kayit ve son tarih konusunu anlatan sozcuk cok dar: date, system, lesson, week tekrarlaniyor ve 'lesson' ders anlaminda kullaniliyor (course gelmiyor). Hatayi anlatan bir kalip ('I got it wrong', 'put it right') hic yok.",
+        "grammatical_range_accuracy": "Duzensiz fiil (readed, taked), yardimci fiilden sonra bicim (didn't wrote), ilgi adili (a mistake what), zarf yerlesimi (forgot completely this thing), edat (in Monday morning, asked to the secretary), uyum (my lessons was) ve cift olumsuz (cannot do nothing) hatalari cumlelerin cogunda; anlam yine de ayakta."
+      },
+      "what_would_lift_it": "Bolumdeki konusmayi acmak - sekretere ne dedi, o ne cevap verdi - cunku cevabin donum noktasi orasi ve iki cumlede bitiyor. Dilde once duzensiz fiilleri (read / took) ve 'didn't wrote' bicimini duzeltmek."
+    },
+    {
+      "band": 6.5,
+      "transcript": "So the mistake I want to talk about happened in my first year at university, and honestly it was my fault.\nIn our system, at the beginning of every semester, you choose your courses online, and the system stays open for one week.\nI read the date on the department website, but I didn't write it down, I just trusted my memory.\nAnd that week I was extremely busy with a group project, we were staying in the library until midnight, so it went out of my mind.\nWhen I opened the system on Monday morning, the page was already closed and none of my courses were saved.\nI went to the department and I explained to the secretary the situation, but she said the rule is the same for everybody.\nSo in that semester I had to take a statistics course I didn't want, only because it had free places.\nIt was not a disaster, I passed it with a good mark, but I lost the elective that I was planning since one year.\nAfter that I bought a small paper calendar, and now I write every deadline in it.\nIf the same situation happens now, I would put an alarm on my phone one week before.",
+      "word_count": 208,
+      "approx_duration_seconds": 120,
+      "why_this_band": {
+        "fluency_coherence": "Dort maddeyi de gelistiriyor; kutuphanede gecen hafta, pazartesi sabahi ve bolumdeki konusma ayri sahneler halinde duruyor ve anlati bunlarin uzerinde ilerliyor. Akis mekaniklesiyor: bolumler 'So', 'And that week', 'When I opened', 'After that' ile ayni kalipta aciliyor.",
+        "lexical_resource": "Konuyu tasiyacak sozcugu var (trusted my memory, elective, deadline, free places) ve anlam hicbir yerde kapanmiyor. Iki noktada secim kayiyor: 'it went out of my mind', 'I passed it with a good mark'.",
+        "grammatical_range_accuracy": "Iliski cumlesi, gecmis surekli, zorunluluk (I had to take) ve 'none of my courses were saved' kontrollu; cumlelerin ucte ikisinden fazlasi hatasiz. Kalan hatalar belirli: soz dizimi (I explained to the secretary the situation), sure yapisi (I was planning since one year), kosul cumlesinde zaman karisimi (If the same situation happens now, I would put)."
+      },
+      "what_would_lift_it": "Bugun ne yapardi bolumunu somutlastirmak: 'put an alarm on my phone' iyi ama tek cumlede kaliyor, oysa cevabin sonucu orasi. Dilde 'I had been planning for a year' ve kosul cumlesinin zamanini duzeltmek yeter."
+    },
+    {
+      "band": 8.0,
+      "transcript": "Okay, so the mistake. This was my first year at university, and it was entirely self-inflicted.\nThe way it works is that at the start of each semester there's a one-week window to pick your courses online, and once it shuts, that's that.\nI saw the date on the department website. I remember reading it. And then I didn't write it down, because obviously I'd remember, wouldn't I.\nThat week we were flat out on a group project, in the library till midnight most nights, and it went clean out of my head.\nSo I logged on on the Monday morning, all organised, and it had closed at midnight.\nI went down to the department and made my case to the secretary, who was very nice about it and completely unmovable, which, fair enough, the rule's the same for everyone.\nThe upshot was a semester of statistics I had no interest in, purely because it was the only thing left.\nIt wasn't the end of the world. I did quite well in it, oddly enough. But I lost an elective I'd been looking forward to for the best part of a year.\nWhat I'd do differently is embarrassingly simple. Write it down. I keep a paper diary now, and anything with a deadline goes in it the day I hear about it.\nA lesson learnt the hard way, I suppose, and the annoying part is it cost me a semester to learn something my mother had been telling me for years.",
+      "word_count": 251,
+      "approx_duration_seconds": 120,
+      "why_this_band": {
+        "fluency_coherence": "Anlati kendi ritmini kuruyor: kisa cumleler hatanin kacinilmazligi duygusunu veriyor ('I saw the date on the department website. I remember reading it.') ve kapanis dersi anneye baglayarak anlatiyi kendi uzerine donduruyor. Bir yerde araya giriyor ('which, fair enough, the rule's the same for everyone').",
+        "lexical_resource": "Az rastlanan oge bol ve dogru: entirely self-inflicted, once it shuts that's that, flat out, went clean out of my head, made my case, completely unmovable, the upshot was, the end of the world, for the best part of a year, a lesson learnt the hard way.",
+        "grammatical_range_accuracy": "Yapi genis: gecmis mukemmel (it had closed at midnight, I'd been looking forward to), 'because obviously I'd remember, wouldn't I' ile eklenti soru, 'What I'd do differently is' ile yarik cumle, eksiltili buyruk (Write it down). Sayilabilir hata yok."
+      },
+      "what_would_lift_it": "Hedefte; bir ust duzey icin kagit ajandanin gercekten ise yarayip yaramadigini bir ornekle soylemek gerekir; su an sistem anlatiliyor ama sonucu verilmiyor. Dilde yapacak bir sey kalmadi."
+    }
+  ]
+}

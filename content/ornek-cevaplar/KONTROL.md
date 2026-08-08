@@ -1109,3 +1109,156 @@ oraya tasiniyor: 6,5 metinlerinde kelime tavani 210 ve GRA sayimi %30 hedeflenme
 bandi 4,5'e dusuruyor).
 
 ---
+
+## 9. grup - konusma Part 2 (C16, C19, C22, C25, C29)
+
+Dagilim tablosunun ucuncu sirasi: ayni bes kart turunun ucuncu turu - **C16** (kisi /
+"Describe someone you know who is good at explaining things"), **C19** (yer / "a place
+near your home that has changed in recent years"), **C22** (nesne / "something you own
+that you have had for a long time"), **C25** (olay / "an occasion when you learnt
+something from a mistake"), **C29** (soyut / "a skill you would like to learn in the
+future").
+
+Yontem 7. ve 8. gruplarla ayni, bilerek degistirilmedi: talimat
+`degerlendirme/konusma.md`, olcut uc tane (akicilik-tutarlilik · sozcuk · dilbilgisi;
+telaffuz bu urunde puanlanmiyor), genel band ucunun ortalamasi en yakin yarim banda
+yuvarlanmis (.25 ve .75 yukari). Sure yine kelime sayisindan turetildi (band 5,0 -> 80,
+6,5 -> 105, 8,0 -> 127 kelime/dakika) ve uretim script'i (`tools/_c1_uret9.py`) kartin
+90-120 saniyelik penceresi disina cikan metni reddediyor.
+
+8. gruptan tasinan iki sayi bu sefer **yazim sirasinda** gozetildi, denetimde degil:
+6,5 metinlerinde kelime tavani 210 ve GRA sayimi hedefi %30.
+
+| Kart | Hedef | FC | LR | GRA | Genel | Sapma | Kelime | Sure | Kelime/dk | Yeniden yazildi mi |
+|---|---|---|---|---|---|---|---|---|---|---|
+| C16 | 5,0 | 5 | 5 | 5 | **5,0** | 0 | 155 | 115 | 81 | hayir |
+| C16 | 6,5 | 6 | 6 | 7 | **6,5** | 0 | 204 | 115 | 106 | **evet** (oran) |
+| C16 | 8,0 | 8 | 8 | 8 | **8,0** | 0 | 247 | 115 | 129 | hayir |
+| C19 | 5,0 | 5 | 5 | 5 | **5,0** | 0 | 155 | 115 | 81 | hayir |
+| C19 | 6,5 | 6 | 6 | 7 | **6,5** | 0 | 208 | 120 | 104 | hayir |
+| C19 | 8,0 | 8 | 8 | 8 | **8,0** | 0 | 242 | 115 | 126 | hayir |
+| C22 | 5,0 | 5 | 5 | 5 | **5,0** | 0 | 155 | 115 | 81 | hayir |
+| C22 | 6,5 | 6 | 6 | 7 | **6,5** | 0 | 202 | 115 | 105 | hayir |
+| C22 | 8,0 | 8 | 8 | 8 | **8,0** | 0 | 245 | 115 | 128 | hayir |
+| C25 | 5,0 | 5 | 5 | 5 | **5,0** | 0 | 154 | 115 | 80 | hayir |
+| C25 | 6,5 | 6 | 6 | 7 | **6,5** | 0 | 208 | 120 | 104 | **evet** (oran) |
+| C25 | 8,0 | 8 | 8 | 8 | **8,0** | 0 | 251 | 120 | 126 | hayir |
+| C29 | 5,0 | 5 | 5 | 5 | **5,0** | 0 | 153 | 115 | 80 | **evet** (oran) |
+| C29 | 6,5 | 6 | 6 | 7 | **6,5** | 0 | 206 | 120 | 103 | hayir |
+| C29 | 8,0 | 8 | 8 | 8 | **8,0** | 0 | 250 | 120 | 125 | hayir |
+
+Onbes cevabin son halinde sapma 0. Puanlama yine etiketler ortulerek ve dokumler cumle
+cumle numaralanarak yapildi.
+
+### Uc yeniden yazim: ucu de sinir degerinde kaldigi icin
+
+Prompt yeniden yazimi "kendi puanin hedef bandin 0,5'i disinda kalirsa" diye
+tanimliyor; bu grupta da o durum olusmadi (uc metnin de ilk yazimi hedef bandi
+veriyordu). Degistirilme sebebi ucunde de ayni: sayim iki satirin tam sinirina
+oturuyordu ve talimat sinirda **yukari** yuvarlamayi soyluyor, yani band dogru cikiyor
+ama gerekce tartismali kaliyor.
+
+- **C29 / 5,0 - %80 siniri.** Ilk yazimda on cumlenin sekizi hatali idi (%80), yani
+  GRA tablosunda 5 satiri ile 4 satirinin tam sinirinda. Sinirda yukari yuvarlanip 5
+  gelecekti, ama band 5 metninin band 4 tarifine bu kadar yakin durmasi ornek
+  kutuphanesinde yanlis bir sey ogretir. Sekizinci cumledeki belirtec hatasi
+  (*speaking free*) duzeltildi, sayim 7/10'a (%70) indi.
+- **C16 / 6,5 ve C25 / 6,5 - %40 siniri.** Ikisinde de dorduncu bir hata vardi (C16'da
+  kapanistaki *he explains for the person in front of him*, C25'te *the system stays
+  open one week*), yani 4/10 = %40 ile 7 satiri ile 6 satirinin sinirinda. Ikisi de
+  temizlendi ve sayim 3/10'a (%30) dustu. C16'nin kapanisi *he thinks about the person
+  in front of him*'e cevrildigi icin o cevabin LR gerekcesindeki ikinci esdizim ornegi
+  de degistirildi (*I got a good result in the exam*).
+
+Uc degisiklikte de band tasiyan ogeler - cift olumsuz, ilgi adili, sure yapisi,
+deyimler - korundu; cikarilan sey yalnizca sayimi sinira iten hata.
+
+### Hatali cumle orani (GRA'nin dayanagi)
+
+Talimatin GRA tablosu bandi hatali cumle oranindan okuyor: %20 alti 8-9 · %20-40 7 ·
+%40-60 6 · %60-80 5 · %80 ustu 4. Son haldeki sayim:
+
+| Kart | band 5 | band 6,5 | band 8 |
+|---|---|---|---|
+| C16 | 7/10 = %70 | 3/10 = %30 | 0/15 |
+| C19 | 7/10 = %70 | 3/10 = %30 | 0/16 |
+| C22 | 7/10 = %70 | 3/10 = %30 | 0/15 |
+| C25 | 7/10 = %70 | 3/10 = %30 | 0/17 |
+| C29 | 7/10 = %70 | 3/10 = %30 | 0/17 |
+
+Bes kartta da ayni oran cikmasi tesaduf degil: 8. gruptan tasinan hedef buydu ve
+metinler bu sayiya gore yazildi. Band 5'te hatanin yayildigi yerler kart basina
+degisiyor (C16'da ucuncu tekil -s'nin on cumlenin altisinda donmesi, C19'da cogul,
+C22'de fiil kalibi, C25'te duzensiz fiil, C29'da edat ve belirtec bicimi) - ayni oran,
+farkli hata ailesi, cunku ogrenci kendi hatasini taniyabilmeli.
+
+### Band ayriminin sozcuk tarafi
+
+Talimatin LR capasi: **7 ve uzeri icin dort ya da daha fazla dogru kullanilmis, az
+rastlanan ya da konuya ozgu oge** gerekiyor ve sayilabilmeli.
+
+- **band 5** - hicbir cevapta dort yok; sozcuk gunluk cekirdekte ("very good", "very
+  important", "big empty ground", "a big value", "very bad") ve paraphrase denemeleri
+  tutmuyor (*a little bit shame*, *it has a big value*, *walking road*).
+- **band 6,5** - kart basina iki ya da uc oge (break the problem down · from top to
+  bottom · for the better · hold on to it · sentimental · from scratch). Dordun altinda
+  tutuldu, cunku dorde ciksa band 7 acilirdi. Yaninda esdizim kaymalari duruyor:
+  *making sense for me*, *it went out of my mind*, *it had free places*, *a beautiful
+  language to watch*.
+- **band 8** - kart basina dokuz ve uzeri: *completely at sea with · at a hundred miles
+  an hour · it just clicked · scraped through · changed beyond recognition · wouldn't
+  look out of place · on balance · fair and square · worn but still going · a dodgy
+  corner · went clean out of my head · the upshot was · a lesson learnt the hard way ·
+  feeling two inches tall · holding my own · grammar and all*.
+
+### Denetimde dikkat cekenler
+
+- **Bu grupta band 8'in kusuru ilk kez iki farkli yerden geliyor.** 7. ve 8. gruplarda
+  8'i 9'dan ayiran sey hep kendini duzeltmeydi. Burada uc cevapta yine oyle (C16'da
+  *and, well, not even open the textbook at first*, C19'da *putting the world to rest.
+  Or, well, putting the world to rights*, C29'da *Or, well, that's what it looked like
+  to me anyway*), ama C22'de araya giren bir yorum (*which I thought at the time was,
+  well, borderline cruel*) ve C25'te bir kendi kendini onaylama (*which, fair enough,
+  the rule's the same for everyone*) var. Talimatin 8 satiri "occasional repetition or
+  self-correction" diyor; 9 satiri duraklamanin dil icin degil icerik icin olmasini
+  istiyor - bu bes cevapta duraklama zaten icerik icin, ama seyrekligi ve tonu 8'de
+  tutuyor.
+- **Kart maddesi "ne kadar surer" ilk kez sayiyla cevaplaniyor (C29).** Kart "how long
+  you think it would take" diyor ve uc seviyede de ayni iki sayi veriliyor (alti ay /
+  iki yil). Ayrim sayida degil sayinin dayanaginda: band 5 sayiyi ciplak veriyor, 6,5
+  "if I study regularly, maybe two evenings in a week" kosuluyla veriyor, band 8 sayiyi
+  arkadasinin deneyimine ve dilin kendi yapisina bagliyor (*it's a full language,
+  grammar and all, not a code for Turkish*). Gorev yanitinin band tasidigi yer burasi.
+- **210 kelime tavani bu sefer bir kez bile asilmadi.** 8. grupta iki 6,5 metni ilk
+  yazimda pencereyi asmisti; burada tavan bastan gozetildigi icin bes metin de 202-208
+  arasinda kaldi. Band 8 tarafinda tavan 254 (127 kelime/dakika x 2 dakika) ve en uzun
+  cevap 251 (C25).
+- **80 kelime capasi yine ateslenmedi.** En kisa cevap 153 kelime (C29 / band 5).
+- **Konusma dili korundu.** Doldurma sozcukleri (er, okay, honestly, obviously, I
+  suppose, oddly enough, fair enough), yarim cumleler (*Not a word.* / *Derivatives,
+  for instance.* / *Write it down.* / *Not once, not a single game.*), kendini duzeltme
+  ve yeniden baslama her seviyede var - band 5'te en yogun,
+  band 8'de en seyrek ve en kontrollu. Talimat eksiltili yapiyi ve onarilan yanlis
+  baslangici dilbilgisi hatasi saymiyor, bu yuzden hicbiri GRA sayimina girmedi.
+- **Gerekce alanlarindaki "<=2 cumle" siniri bicimsel olarak dogrulandi.** Ilk sayimda
+  alti alan uc cumle gorunuyordu; hepsi tirnak icindeki dokum parcasinin ya da uc
+  noktanin cumle sonu sanilmasindan kaynaklaniyordu (*'I saw the date on the department
+  website. I remember reading it.'* gibi). Tirnakli parcalar cikarildiginda alanlarin
+  hicbiri iki cumleyi asmiyor.
+
+### 10. gruba kalan
+
+Dagilim tablosuna gore 10. calistirma **Part 1 konu setleri** (part1 havuzundan bes
+set) ve konusma yarisinin sonu. Bu gruptan tasinan uc sey:
+
+1. Part 1 kisa soru-cevap oldugu icin sure ve kelime hesabi buradaki gibi tek bir
+   Part 2 penceresinden (90-120 saniye) gelmeyecek; hiz tablosu ayni kalsa da alt sinir
+   yeniden dusunulmeli, cunku talimatin 80 kelime capasi **Part 2 tek kisilik konusma**
+   icin tanimli ve Part 1'de ayni kapi yok.
+2. GRA sayim hedefleri bu grupta oturdu ve degistirilmemeli: band 5'te %70, band 6,5'ta
+   %30, band 8'de 0. Sinir degerleri (%40 ve %80) yazim sirasinda kacinilmasi gereken
+   sayilar, denetimde duzeltilecek sayilar degil.
+3. LR'de dort oge capasi 6,5'un tavani: 6,5 metinlerinde dogru kullanilmis az rastlanan
+   oge sayisi ucte tutulmali.
+
+---
