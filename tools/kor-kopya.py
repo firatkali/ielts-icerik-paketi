@@ -24,6 +24,11 @@ SIL = {
     "distractor_analysis", "heading_check", "feature_check", "grammar_check",
     "uniqueness_check", "answer_point_id", "turn_index", "distractor_used",
     "difficulty", "status", "flag_reason", "example", "notes",
+    # E5/E6 elden gecirme + yeniden uretim alanlari: eski cevabi, kanit cumlesini
+    # ve hatta yeni dogru cevabi anlatabiliyor; kor kopyada kalmalari dogrulamayi
+    # gecersiz kilar (E7 1. calistirmada fark edildi).
+    "revision", "yeniden_uretim", "review_note", "flag_mechanism",
+    "blind_solvable", "blind_basis", "reject_reason",
 }
 
 

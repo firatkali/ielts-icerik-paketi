@@ -1,0 +1,422 @@
+{
+  "tarih": "2026-08-08",
+  "rapor": "yeniden-olcum-cevap-anahtari",
+  "sonuclar": [
+    {
+      "file": "content/reading/practice/matching-features.json",
+      "toplam": 4,
+      "uyusan": 4,
+      "uyusmayan": 0,
+      "detay": []
+    },
+    {
+      "file": "content/reading/practice/matching-headings.json",
+      "toplam": 3,
+      "uyusan": 2,
+      "uyusmayan": 1,
+      "detay": [
+        {
+          "number": "15",
+          "dogrulayici": [
+            "ii"
+          ],
+          "orijinal": [
+            "v"
+          ],
+          "confidence": 3,
+          "gerekce": "A12 F'nin iki cumlesi de sekerlemelerin ic yapisiyla ilgili: once bilesimi (ortalama 64.1 dk, agirlikla 2. evre), sonra bu yapinin kazanci yordamadigi. 'The internal make-up of the daytime naps' iki yariyi da kapsiyor; v ('length') yalniz sureyi aniyor, evreleri disarida birakiyor.",
+          "durum": "uyusmadi"
+        }
+      ]
+    },
+    {
+      "file": "content/reading/practice/matching-information.json",
+      "toplam": 1,
+      "uyusan": 1,
+      "uyusmayan": 0,
+      "detay": []
+    },
+    {
+      "file": "content/reading/practice/matching-sentence-endings.json",
+      "toplam": 10,
+      "uyusan": 10,
+      "uyusmayan": 0,
+      "detay": []
+    },
+    {
+      "file": "content/reading/practice/multiple-choice.json",
+      "toplam": 12,
+      "uyusan": 12,
+      "uyusmayan": 0,
+      "detay": []
+    },
+    {
+      "file": "content/reading/practice/note-completion.json",
+      "toplam": 2,
+      "uyusan": 2,
+      "uyusmayan": 0,
+      "detay": []
+    },
+    {
+      "file": "content/reading/practice/sentence-completion.json",
+      "toplam": 6,
+      "uyusan": 5,
+      "uyusmayan": 1,
+      "detay": [
+        {
+          "number": "12",
+          "dogrulayici": [
+            "35,000 miles"
+          ],
+          "orijinal": [
+            "56,000 kilometres"
+          ],
+          "confidence": 4,
+          "gerekce": "A04 D: 'roughly 35,000 miles, or 56,000 kilometres, from the centre of Uranus'. Esdeger aday: '56,000 kilometres'.",
+          "durum": "uyusmadi"
+        }
+      ]
+    },
+    {
+      "file": "content/reading/practice/short-answer.json",
+      "toplam": 3,
+      "uyusan": 3,
+      "uyusmayan": 0,
+      "detay": []
+    },
+    {
+      "file": "content/reading/practice/summary-completion.json",
+      "toplam": 7,
+      "uyusan": 7,
+      "uyusmayan": 0,
+      "detay": []
+    },
+    {
+      "file": "content/reading/practice/true-false-not-given.json",
+      "toplam": 8,
+      "uyusan": 8,
+      "uyusmayan": 0,
+      "detay": []
+    },
+    {
+      "file": "content/reading/practice/yes-no-not-given.json",
+      "toplam": 15,
+      "uyusan": 15,
+      "uyusmayan": 0,
+      "detay": []
+    },
+    {
+      "file": "content/reading/tests/AC1/matching-features.json",
+      "toplam": 3,
+      "uyusan": 3,
+      "uyusmayan": 0,
+      "detay": []
+    },
+    {
+      "file": "content/reading/tests/AC1/multiple-choice.json",
+      "toplam": 3,
+      "uyusan": 3,
+      "uyusmayan": 0,
+      "detay": []
+    },
+    {
+      "file": "content/reading/tests/AC1/note-completion.json",
+      "toplam": 2,
+      "uyusan": 2,
+      "uyusmayan": 0,
+      "detay": []
+    },
+    {
+      "file": "content/reading/tests/AC1/sentence-completion.json",
+      "toplam": 3,
+      "uyusan": 3,
+      "uyusmayan": 0,
+      "detay": []
+    },
+    {
+      "file": "content/reading/tests/AC1/summary-completion.json",
+      "toplam": 4,
+      "uyusan": 4,
+      "uyusmayan": 0,
+      "detay": []
+    },
+    {
+      "file": "content/reading/tests/AC1/true-false-not-given.json",
+      "toplam": 5,
+      "uyusan": 5,
+      "uyusmayan": 0,
+      "detay": []
+    },
+    {
+      "file": "content/reading/tests/AC2/flow-chart-completion.json",
+      "toplam": 4,
+      "uyusan": 3,
+      "uyusmayan": 1,
+      "detay": [
+        {
+          "number": "3",
+          "dogrulayici": [
+            "six miles"
+          ],
+          "orijinal": [
+            "ten kilometres"
+          ],
+          "confidence": 4,
+          "gerekce": "C paragrafi: 'a diameter of about six miles, or ten kilometres'. Pasajin ilk verdigi bicim six miles; 'ten kilometres' esdeger aday.",
+          "durum": "uyusmadi"
+        }
+      ]
+    },
+    {
+      "file": "content/reading/tests/AC2/matching-features.json",
+      "toplam": 4,
+      "uyusan": 4,
+      "uyusmayan": 0,
+      "detay": []
+    },
+    {
+      "file": "content/reading/tests/AC2/matching-headings.json",
+      "toplam": 1,
+      "uyusan": 1,
+      "uyusmayan": 0,
+      "detay": []
+    },
+    {
+      "file": "content/reading/tests/AC2/multiple-choice.json",
+      "toplam": 3,
+      "uyusan": 3,
+      "uyusmayan": 0,
+      "detay": []
+    },
+    {
+      "file": "content/reading/tests/AC2/sentence-completion.json",
+      "toplam": 2,
+      "uyusan": 2,
+      "uyusmayan": 0,
+      "detay": []
+    },
+    {
+      "file": "content/reading/tests/AC2/summary-completion.json",
+      "toplam": 5,
+      "uyusan": 5,
+      "uyusmayan": 0,
+      "detay": []
+    },
+    {
+      "file": "content/reading/tests/AC2/true-false-not-given.json",
+      "toplam": 4,
+      "uyusan": 4,
+      "uyusmayan": 0,
+      "detay": []
+    },
+    {
+      "file": "content/reading/tests/AC3/matching-features.json",
+      "toplam": 4,
+      "uyusan": 4,
+      "uyusmayan": 0,
+      "detay": []
+    },
+    {
+      "file": "content/reading/tests/AC3/matching-headings.json",
+      "toplam": 1,
+      "uyusan": 1,
+      "uyusmayan": 0,
+      "detay": []
+    },
+    {
+      "file": "content/reading/tests/AC3/matching-information.json",
+      "toplam": 1,
+      "uyusan": 1,
+      "uyusmayan": 0,
+      "detay": []
+    },
+    {
+      "file": "content/reading/tests/AC3/multiple-choice.json",
+      "toplam": 3,
+      "uyusan": 3,
+      "uyusmayan": 0,
+      "detay": []
+    },
+    {
+      "file": "content/reading/tests/AC3/sentence-completion.json",
+      "toplam": 4,
+      "uyusan": 4,
+      "uyusmayan": 0,
+      "detay": []
+    },
+    {
+      "file": "content/reading/tests/AC3/summary-completion.json",
+      "toplam": 2,
+      "uyusan": 2,
+      "uyusmayan": 0,
+      "detay": []
+    },
+    {
+      "file": "content/reading/tests/AC3/table-completion.json",
+      "toplam": 1,
+      "uyusan": 1,
+      "uyusmayan": 0,
+      "detay": []
+    },
+    {
+      "file": "content/reading/tests/AC3/true-false-not-given.json",
+      "toplam": 1,
+      "uyusan": 1,
+      "uyusmayan": 0,
+      "detay": []
+    },
+    {
+      "file": "content/reading/tests/AC4/matching-features.json",
+      "toplam": 3,
+      "uyusan": 3,
+      "uyusmayan": 0,
+      "detay": []
+    },
+    {
+      "file": "content/reading/tests/AC4/matching-headings.json",
+      "toplam": 2,
+      "uyusan": 2,
+      "uyusmayan": 0,
+      "detay": []
+    },
+    {
+      "file": "content/reading/tests/AC4/multiple-choice.json",
+      "toplam": 3,
+      "uyusan": 3,
+      "uyusmayan": 0,
+      "detay": []
+    },
+    {
+      "file": "content/reading/tests/AC4/note-completion.json",
+      "toplam": 1,
+      "uyusan": 1,
+      "uyusmayan": 0,
+      "detay": []
+    },
+    {
+      "file": "content/reading/tests/AC4/sentence-completion.json",
+      "toplam": 3,
+      "uyusan": 3,
+      "uyusmayan": 0,
+      "detay": []
+    },
+    {
+      "file": "content/reading/tests/AC4/summary-completion.json",
+      "toplam": 5,
+      "uyusan": 5,
+      "uyusmayan": 0,
+      "detay": []
+    },
+    {
+      "file": "content/reading/tests/AC4/true-false-not-given.json",
+      "toplam": 2,
+      "uyusan": 2,
+      "uyusmayan": 0,
+      "detay": []
+    },
+    {
+      "file": "content/reading/tests/GT1/matching-headings.json",
+      "toplam": 1,
+      "uyusan": 1,
+      "uyusmayan": 0,
+      "detay": []
+    },
+    {
+      "file": "content/reading/tests/GT1/multiple-choice.json",
+      "toplam": 3,
+      "uyusan": 3,
+      "uyusmayan": 0,
+      "detay": []
+    },
+    {
+      "file": "content/reading/tests/GT1/note-completion.json",
+      "toplam": 3,
+      "uyusan": 3,
+      "uyusmayan": 0,
+      "detay": []
+    },
+    {
+      "file": "content/reading/tests/GT1/sentence-completion.json",
+      "toplam": 2,
+      "uyusan": 2,
+      "uyusmayan": 0,
+      "detay": []
+    },
+    {
+      "file": "content/reading/tests/GT1/summary-completion.json",
+      "toplam": 2,
+      "uyusan": 1,
+      "uyusmayan": 1,
+      "detay": [
+        {
+          "number": "40",
+          "dogrulayici": [
+            "reductions"
+          ],
+          "orijinal": [
+            "prevention"
+          ],
+          "confidence": 4,
+          "gerekce": "I paragrafi: 'meaningful reductions will depend on tackling the specific items and behaviours identified in the study'. ('prevention' de ayni cumle obeginde geciyor ama cumledeki bosluk 'real ___ will depend on campaigns' kalibiyla 'reductions'a oturuyor.)",
+          "durum": "uyusmadi"
+        }
+      ]
+    },
+    {
+      "file": "content/reading/tests/GT1/true-false-not-given.json",
+      "toplam": 4,
+      "uyusan": 4,
+      "uyusmayan": 0,
+      "detay": []
+    },
+    {
+      "file": "content/reading/tests/GT1/yes-no-not-given.json",
+      "toplam": 4,
+      "uyusan": 4,
+      "uyusmayan": 0,
+      "detay": []
+    },
+    {
+      "file": "content/reading/tests/GT2/multiple-choice.json",
+      "toplam": 3,
+      "uyusan": 3,
+      "uyusmayan": 0,
+      "detay": []
+    },
+    {
+      "file": "content/reading/tests/GT2/sentence-completion.json",
+      "toplam": 1,
+      "uyusan": 1,
+      "uyusmayan": 0,
+      "detay": []
+    },
+    {
+      "file": "content/reading/tests/GT2/summary-completion.json",
+      "toplam": 4,
+      "uyusan": 4,
+      "uyusmayan": 0,
+      "detay": []
+    },
+    {
+      "file": "content/reading/tests/GT2/table-completion.json",
+      "toplam": 2,
+      "uyusan": 2,
+      "uyusmayan": 0,
+      "detay": []
+    },
+    {
+      "file": "content/reading/tests/GT2/true-false-not-given.json",
+      "toplam": 5,
+      "uyusan": 5,
+      "uyusmayan": 0,
+      "detay": []
+    },
+    {
+      "file": "content/reading/tests/GT2/yes-no-not-given.json",
+      "toplam": 4,
+      "uyusan": 4,
+      "uyusmayan": 0,
+      "detay": []
+    }
+  ]
+}

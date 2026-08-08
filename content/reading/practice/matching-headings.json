@@ -489,10 +489,10 @@
           "grammar_check": null,
           "explanation": "Paragraph F states that neither the length of the daytime nap nor the stages it contained showed a significant relationship with the memory gain.",
           "difficulty": "hard",
-          "status": "verified",
+          "status": "flagged",
           "blind_solvable": null,
           "blind_basis": "logic",
-          "flag_reason": "Baslik 'v', en yakin celdirici 'ii' (gece uykusunu olusturan evreler) elenerek bulunuyor: paragraf evrelerden soz etse de onlari tanitmiyor, tersine bu evrelerin bellek kazancini aciklamadigini soyluyor -- olumsuz bulgu yalniz 'v'i (surenin aciklamadigi sey) dogru birakiyor.",
+          "flag_reason": "E7 cevap anahtari olcumu (2026-08-08): kor cozum ii dedi, anahtar v. A12 F paragrafi icin ii ('The internal make-up of the daytime naps') ve v ('What the length of the rest did not explain') YALNIZ bu paragrafa demirleniyor ve ikisi de paragrafin birer yarisini kapsiyor (bilesim + sonucsuzluk). AC3/14'teki oruntuyle ayni: celdirici baska paragrafa demirli degil. ii'yi baska bir paragrafa baglanabilir bir ifadeyle degistirmek soruyu tartismasiz yapar.",
           "flag_mechanism": "konumsal_duzen",
           "revision": {
             "tarih": "2026-08-08",

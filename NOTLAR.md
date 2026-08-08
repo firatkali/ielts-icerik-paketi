@@ -8468,3 +8468,19 @@ yerine cevap dagilimlari:
   sorularini kanit capasiyla listeler), `_e7_kontrol.py` (alti yuvanin sema ve
   artik-alan denetimi), `_e7_liste_doldur.py` (listeye isleme),
   `_e7_ozet.py` (kip ve kanit ozeti).
+
+---
+
+## E7 1/2 - cevap anahtari olcumu (2026-08-08, fable)
+
+- 188 hedef soru (E5 116 + E6 72), 52 dosya; uyusma 184/188 (%97,9), icerik
+  duzeyinde 186/188. Iki gercek uyusmazlik isaretlendi (practice MH #15 ii/v,
+  GT1 summary #40 prevention/reductions), ikisi de E5 duzeltmesi. Rapor:
+  content/DOGRULAMA/RAPOR-2.md.
+- ONEMLI ARAC DUZELTMESI: tools/kor-kopya.py, E5/E6'nin ekledigi revision /
+  yeniden_uretim / review_note / flag_mechanism / blind_basis alanlarini
+  SILMIYORDU ve bu alanlar kor kopyada cevabi acik edebiliyordu (orn. "dogru
+  harfler A ve E"). Alanlar SIL kumesine eklendi. Bundan sonraki her kor/metinsiz
+  olcum bu temiz surumle uretilmeli.
+- E7 2/2 (sizinti) icin: ayni 188 soru + AC1 TFNG #11 (E6 devri) olculmeli;
+  blind_solvable alanlari o turda doldurulacak.

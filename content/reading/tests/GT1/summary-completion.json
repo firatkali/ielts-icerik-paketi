@@ -103,10 +103,10 @@
       },
       "explanation": "Paragraph I says that food waste policy has focused on collection and disposal rather than prevention, and that meaningful reductions depend on tackling the specific items identified in the study; so the answer is 'prevention'.",
       "difficulty": "hard",
-      "status": "verified",
+      "status": "flagged",
       "blind_solvable": null,
       "blind_basis": "logic",
-      "flag_reason": "Bosluk 'dealt with collecting and disposing of waste rather than its ___' karsitligina dayaniyor; atik politikasi soyleminde 'toplama/bertaraf' ile karsit kavram olarak hep 'onleme' (prevention) anilir -- bu yerlesik karsitlik kalibiyla parcaya bakmadan da tahmin edilebiliyor.",
+      "flag_reason": "E7 cevap anahtari olcumu (2026-08-08): kor cozum 'reductions' dedi, anahtar 'prevention'. Kanit cumlesi iki adayi da tasiyor: 'has focused on collection and disposal rather than PREVENTION, and that meaningful REDUCTIONS will depend on tackling the specific items'. Ozet cumlesi 'real ___ will depend on campaigns' kalibiyla pasajin 'reductions will depend on' obegini nerdeyse birebir yankiladigi icin 'reductions' en az 'prevention' kadar savunulabilir. En az maliyetli duzeltme: accepted_variants listesine 'reductions' eklemek ya da boslugu tek adayli bir kaliba tasimak.",
       "flag_mechanism": "esdizim_kilidi",
       "revision": {
         "tarih": "2026-08-08",
