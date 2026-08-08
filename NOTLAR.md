@@ -8872,3 +8872,7 @@ yerine cevap dagilimlari:
   dokunmuyor).
 - Alt band ornekleri (E9) - 1 yeni ornek eklendi (band 4,0), toplam 4/8; hedef
   tutmadi, sebep Cambridge kitaplarina bu oturumda erisilememesi.
+
+## SONNET5-A3 (puanlama olcumu, ozel tur5 — yalniz gercek bandi <=4,5 yazma ornekleri, mevcut talimat)
+
+- Tur 5 sonucu (tek seferlik puan, 4 ornek x 3 tekrar = 12 puanlama): ortalama mutlak fark 1,250 · egilim +1,250 (comert).
