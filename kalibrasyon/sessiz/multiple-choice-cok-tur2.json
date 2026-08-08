@@ -1,0 +1,23 @@
+{
+  "tur": 2,
+  "paket": "multiple-choice-cok",
+  "note": "2. tur, bagimsiz cozum. Ses metni yine gorulmedi. 1-2'de karar degisti (tur bilgisinde hangi iki olgunun soylendigi secenek sozunden cikmiyor) - kararsizlik kayda gecti.",
+  "answers": [
+    {"id": "practice-multiple-choice-multi-1-2", "answer": ["A", "D"], "basis": "number_guess",
+     "gerekce": "Bu turda saat + sure ciftini sectim: A/B/D/E arasinda ayirt edici hicbir sey yok, karar sallaniyor."},
+    {"id": "practice-multiple-choice-multi-3-4", "answer": ["C", "E"], "basis": "option_wording",
+     "gerekce": "B'nin kendi sozu onu eliyor ('yalniz hafta sonu kullanilabilir' bir otopark icin anlamsiz kisit); A sokak adi tahmin edilemez. Ayni iki secenek kaliyor."},
+    {"id": "practice-multiple-choice-multi-5-6", "answer": ["A", "B"], "basis": "option_wording",
+     "gerekce": "D soru kokunun kendisiyle celisiyor (van izni siradan araba icin gerekli olamaz), E insaat atigi kabul edilmez. A ve B kaldi."},
+    {"id": "practice-multiple-choice-multi-7-8", "answer": ["D", "E"], "basis": "general_knowledge",
+     "gerekce": "Yine ayni iki gercek-hayat yasagi: konteynerden esya alma ve cocuklarin serbest dolasmasi."},
+    {"id": "practice-multiple-choice-multi-9-10", "answer": ["A", "C"], "basis": "general_knowledge",
+     "gerekce": "Aramanin kaydedilmesi + calistirma tarihinin not edilmesi; yontem bilgisi degismedi."},
+    {"id": "L1-multiple-choice-14-15", "answer": ["C", "E"], "basis": "option_wording",
+     "gerekce": "C tanim geregi dogru. Ikinci icin B (rezervasyon) ile E (ucretsiz) arasinda kaldim, yine E'ye meylettim."},
+    {"id": "L2-multiple-choice-14-15", "answer": ["C", "E"], "basis": "option_wording",
+     "gerekce": "Yerel okul cocuklari + acıklayici brosur; C ile D ayni yuvayi doldurdugu icin biri elenmeli, C daha stok anlati."},
+    {"id": "L5-multiple-choice-14-15", "answer": ["B", "C"], "basis": "general_knowledge",
+     "gerekce": "Yasak sorusu; cam ve kopek disindaki uc secenek yasaklanabilecek seyler degil. Ses gerekmedi."}
+  ]
+}

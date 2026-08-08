@@ -1,0 +1,53 @@
+{
+  "tarih": "2026-08-08",
+  "paket": "multiple-choice-cok",
+  "toplam_kalem": 8,
+  "toplam_numara": 16,
+  "uc_turda_bilinen_k1": [
+    "L1-multiple-choice-14-15",
+    "L2-multiple-choice-14-15",
+    "L5-multiple-choice-14-15",
+    "practice-multiple-choice-multi-3-4",
+    "practice-multiple-choice-multi-5-6",
+    "practice-multiple-choice-multi-7-8",
+    "practice-multiple-choice-multi-9-10"
+  ],
+  "uc_turda_bilinen_k3": [
+    "L1-multiple-choice-14-15",
+    "L2-multiple-choice-14-15",
+    "L5-multiple-choice-14-15",
+    "practice-multiple-choice-multi-3-4",
+    "practice-multiple-choice-multi-5-6",
+    "practice-multiple-choice-multi-7-8",
+    "practice-multiple-choice-multi-9-10"
+  ],
+  "tip_bazinda": {
+    "multiple_choice_multi": {
+      "toplam": 5,
+      "numara": 10,
+      "k1": 4,
+      "k3": 4
+    },
+    "multiple_choice": {
+      "toplam": 3,
+      "numara": 6,
+      "k1": 3,
+      "k3": 3
+    }
+  },
+  "dayanak_dagilimi": {
+    "number_guess": 3,
+    "option_wording": 12,
+    "general_knowledge": 9
+  },
+  "tur_basina_dogru": {
+    "L1-multiple-choice-14-15": 3,
+    "L2-multiple-choice-14-15": 3,
+    "L5-multiple-choice-14-15": 3,
+    "practice-multiple-choice-multi-1-2": 2,
+    "practice-multiple-choice-multi-3-4": 3,
+    "practice-multiple-choice-multi-5-6": 3,
+    "practice-multiple-choice-multi-7-8": 3,
+    "practice-multiple-choice-multi-9-10": 3
+  }
+}

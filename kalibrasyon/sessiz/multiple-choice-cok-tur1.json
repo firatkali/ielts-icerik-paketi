@@ -1,0 +1,23 @@
+{
+  "tur": 1,
+  "paket": "multiple-choice-cok",
+  "note": "Dinleme coktan secmeli (COK cevapli, 'Choose TWO letters'), 8 kalem / 16 numara. Ses metni HIC gorulmedi; yalniz dogrulama/sessiz/ kopyasi (yonerge + soru kokü + secenekler) okundu. script_id, context_line, section, turn_index kopyada yok; _e8_sizinti_kontrol.py 0 agir hata.",
+  "answers": [
+    {"id": "practice-multiple-choice-multi-1-2", "answer": ["B", "D"], "basis": "number_guess",
+     "gerekce": "Tur bilgisi: bulusma yeri + sure en olagan cift. A/E de ayni derecede olagan; secenek sozunden ayirt edilemiyor, sayi/deger tahmini."},
+    {"id": "practice-multiple-choice-multi-3-4", "answer": ["C", "E"], "basis": "option_wording",
+     "gerekce": "B ('otopark yalniz hafta sonu kullanilabilir') kendi sozuyle akil disi, elenir; A sokak adi (rastgele detay). Geriye ulasimin iki dogal bileseni kaliyor: hafta sonu ucretsiz park + kapinin onunde duran otobus."},
+    {"id": "practice-multiple-choice-multi-5-6", "answer": ["A", "B"], "basis": "option_wording",
+     "gerekce": "D ('siradan arabalar icin gerekli') soru kokuyle celisiyor - kok zaten VAN izninden soz ediyor. E (insaat atigi) atik sahasi kuralina aykiri. Uc secenek kaliyor, C ('kapida imzalanabilir') izin mantigina en uzak olani."},
+    {"id": "practice-multiple-choice-multi-7-8", "answer": ["D", "E"], "basis": "general_knowledge",
+     "gerekce": "Atik/geri donusum sahasinda gercek hayattaki iki klasik yasak: konteynerden esya geri almak ve cocuklarin sahada dolasmasi. A/B/C sahalarin izin verdigi seyler."},
+    {"id": "practice-multiple-choice-multi-9-10", "answer": ["A", "C"], "basis": "general_knowledge",
+     "gerekce": "Sistematik derleme yontemi ders kitabi bilgisi: veritabanini kapatmadan once arama kaydedilir ve aramanin CALISTIRILDIGI TARIH not edilir (yinelenebilirlik). B tam metin filtresi bu yontemde zaten onerilmez, D/E sonraki asama."},
+    {"id": "L1-multiple-choice-14-15", "answer": ["C", "E"], "basis": "option_wording",
+     "gerekce": "C, 'handling session'in tanimini yeniden soyluyor (normalde sergilenmeyen nesneye dokunmak) - seceneğin kendi sozu dogruyu isaretliyor. Ikinci harf zayif: muze etkinliklerinde 'ucretsiz' varsayimi."},
+    {"id": "L2-multiple-choice-14-15", "answer": ["C", "E"], "basis": "option_wording",
+     "gerekce": "Kutuphane duvar resmi anlatisinin stok hali: yerel okul cocuklari boyadi + iceriğini anlatan brosur var. A (1906) rastgele tarih, B yer detayi, D C ile ayni yuvayi doldurmaya calisan celiskili secenek."},
+    {"id": "L5-multiple-choice-14-15", "answer": ["B", "C"], "basis": "general_knowledge",
+     "gerekce": "Soru kokü YASAK soruyor; bes secenekten yalnizca ikisi gercek hayatta yasak olabilecek seyler (cam getirmek, aile alanina kopek sokmak). A/D/E etkinliklerin tanittigi imkanlar, yasak olamaz. Kutupsallik acik sizinti."}
+  ]
+}

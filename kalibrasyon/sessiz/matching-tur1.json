@@ -1,0 +1,56 @@
+{
+  "tur": 1,
+  "paket": "matching",
+  "note": "Dinleme eslestirme, 43 kalem. Ses metni HIC gorulmedi; yalniz dogrulama/sessiz/ kopyasi (yonerge + kutu secenekleri + soru kokleri) okundu. _e8_sizinti_kontrol.py 0 agir hata. basis alani: option_wording = kutu seceneginin sozu hangi koke ait oldugunu tek basina soyluyor (esas sizinti); coin_flip = iki secenek ayni koke esit uyuyor, yazi-tura; guess = hicbir dayanak yok (kisi-gorus eslestirmesi).",
+  "answers": [
+    {"id": "practice-matching-1", "answer": "A", "basis": "option_wording", "gerekce": "'Uzerinde cok fazla metin olmasi puan goturur' yalniz SLAYT icin soylenir."},
+    {"id": "practice-matching-2", "answer": "C", "basis": "option_wording", "gerekce": "'Iceriği guncelligini yitirmis' yalniz veri kaynagina (ulusal anket) uyar."},
+    {"id": "practice-matching-3", "answer": "B", "basis": "coin_flip", "gerekce": "Kalan uc secenek de dagitima (handout) uyuyor; 'bir gun once ogle vaktine kadar egitmene ulasmali' cogaltma mantigina en yakin, ama D/E de mumkun."},
+    {"id": "practice-matching-4", "answer": "C", "basis": "option_wording", "gerekce": "'Su anki uzunlugunun yarisi olmali' bir METIN bolumune (yontem) uyar, baslik/renk degil."},
+    {"id": "practice-matching-5", "answer": "B", "basis": "option_wording", "gerekce": "🔴 Dilbilgisi sizintisi: 'Two of THEM look alike' cogul kok gerektiriyor; kutudaki tek cogul kok 'the colours of the lines'. Ses gerekmiyor."},
+    {"id": "practice-matching-6", "answer": "E", "basis": "coin_flip", "gerekce": "A ve E'nin ikisi de posterde BASLIGA uyar (ilk gorulen sey / birkac metreden okunabilir); ikisinden biri celdirici, ayirt edilemiyor."},
+    {"id": "practice-matching-7", "answer": "C", "basis": "option_wording", "gerekce": "'Iki farkli stili karistirmali' = acik + kapali soru; anket koku."},
+    {"id": "practice-matching-8", "answer": "D", "basis": "general_knowledge", "gerekce": "Pilot uygulamanin klasik uyarisi: ogrencinin arkadaslariyla yapilmaz (ornek yanliligi)."},
+    {"id": "practice-matching-9", "answer": "E", "basis": "option_wording", "gerekce": "'Tek sayfaya sigmali' = katilimci bilgi formu."},
+    {"id": "practice-matching-10", "answer": "A", "basis": "option_wording", "gerekce": "'Dinleyici sorulari icin sure icerir' yalniz sunum koku."},
+
+    {"id": "L1-matching-24", "answer": "A", "basis": "logic", "gerekce": "Ogrencinin kendi gorusmeleri ana veri olacaksa, yayimlanmis ulusal anket arka plan kalir."},
+    {"id": "L1-matching-25", "answer": "C", "basis": "option_wording", "gerekce": "'Yalnizca ses olarak kaydedilecek' gorusme koku disinda hicbir koke uymuyor."},
+    {"id": "L1-matching-26", "answer": "B", "basis": "coin_flip", "gerekce": "B (iki konusmaci da katilir) ve F (bes dakikayla sinirli) ikisi de 'konusmanin ikinci yarisi' icin gecerli."},
+
+    {"id": "L2-matching-24", "answer": "A", "basis": "coin_flip", "gerekce": "Oksijen olcumlerine A/B/E ucu de uyuyor; elemede kalan tek kok oldugu icin buraya dusuyor."},
+    {"id": "L2-matching-25", "answer": "D", "basis": "option_wording", "gerekce": "'Tur duzeyinde kaydedildi' yalniz canliya (omurgasiz sayimi) soylenebilir."},
+    {"id": "L2-matching-26", "answer": "C", "basis": "option_wording", "gerekce": "'Bir ogrenci kimsenin okuyacagindan suphe ediyor' = ham veri (ek)."},
+
+    {"id": "L3-matching-11", "answer": "C", "basis": "option_wording", "gerekce": "'Tas ocagi atigindan yapilmis' yalniz TOPRAK koku."},
+    {"id": "L3-matching-12", "answer": "E", "basis": "option_wording", "gerekce": "'Duzgun yuruyus ayakkabisi gerektirir' yalniz bir YURUYUS ROTASI koku."},
+    {"id": "L3-matching-13", "answer": "A", "basis": "option_wording", "gerekce": "'Ucretsiz' odunc alma koku ile eslesir."},
+    {"id": "L3-matching-14", "answer": "F", "basis": "option_wording", "gerekce": "🔴 'Izin verilmiyor' kutudaki tek YASAK; koklerde de tek yasak-bicimli kok 'geceleyin park icinde araba birakmak'. Kutupsallik eslesmesi."},
+    {"id": "L3-matching-15", "answer": "D", "basis": "logic", "gerekce": "Dort kok baglandiktan sonra geriye tek kok kaliyor; 'acele etmeyi sevmeyenlere uygun' orkide sayimina da anlamca uyuyor."},
+    {"id": "L3-matching-24", "answer": "C", "basis": "logic", "gerekce": "'Tam kelime sayisini yazmaya gerek yok' bir usul gevsetmesi; bunu ancak EGITMEN soyleyebilir. Rol tabanli zayif sinyal."},
+    {"id": "L3-matching-25", "answer": "D", "basis": "guess", "gerekce": "Hangi ogrencinin hangi gorusu soyledigi senaryosuz bilinemez; dayanak yok."},
+    {"id": "L3-matching-26", "answer": "B", "basis": "guess", "gerekce": "Ayni sekilde dayanaksiz."},
+
+    {"id": "L4-matching-11", "answer": "E", "basis": "option_wording", "gerekce": "'Kuyruklari eskiden bir yolu tikardi' — gecmis zaman + 'used to', 'ESKI saha' koku."},
+    {"id": "L4-matching-12", "answer": "B", "basis": "option_wording", "gerekce": "'Yalniz magaza musterileri icin' otopark koku."},
+    {"id": "L4-matching-13", "answer": "G", "basis": "option_wording", "gerekce": "'Kilitli kapinin arkasinda tutuluyor' — elektrikli esya deposu (guvenlik)."},
+    {"id": "L4-matching-14", "answer": "A", "basis": "coin_flip", "gerekce": "A (gorevliler esyayi iceri tasir) ve F (hala aydinlatmasi yok) ikisi de ust kata uyuyor."},
+    {"id": "L4-matching-15", "answer": "C", "basis": "option_wording", "gerekce": "'Ayda bir kez oluyor' yalniz ETKINLIK bicimli kok (tamir seansi)."},
+    {"id": "L4-matching-21", "answer": "D", "basis": "option_wording", "gerekce": "'Uc farkli yuzeyi karsilastirdi' yalniz DENEY koku; C/F de deneye uyar ama D icerik olarak baglayici."},
+    {"id": "L4-matching-22", "answer": "A", "basis": "option_wording", "gerekce": "Yerlesim kokune A ve B rakip; B ('once yontem gosterilmeli') poster tasariminda bilinen YANLIS ogut, celdirici olarak elenir."},
+    {"id": "L4-matching-23", "answer": "E", "basis": "option_wording", "gerekce": "'Uc ayri grafik tek grafige donmeli' — 'charts' sozu grafikler kokunu birebir isaret ediyor."},
+
+    {"id": "L5-matching-24", "answer": "B", "basis": "option_wording", "gerekce": "'Sonuclar basitce toplanabilir' bir OLCEK koku (bes puanli olcek)."},
+    {"id": "L5-matching-25", "answer": "A", "basis": "option_wording", "gerekce": "'Cok uzun surerse insanlar birakir' yalniz 'gorusmenin uzunlugu' koku."},
+    {"id": "L5-matching-26", "answer": "C", "basis": "option_wording", "gerekce": "'Hem bir hafta ici hem bir cumartesi gerekli' yalniz GUN koku. Uc kok da kutudan tek tek zorlaniyor."},
+
+    {"id": "L6-matching-11", "answer": "C", "basis": "coin_flip", "gerekce": "C ve E ikisi de 'ikinci pazar gunu'ne uyuyor (baska gun denendi / eskiden onbirde baslardi)."},
+    {"id": "L6-matching-12", "answer": "D", "basis": "option_wording", "gerekce": "'Yeri kokusu icin secildi' yalniz CICEK tezgahi."},
+    {"id": "L6-matching-13", "answer": "F", "basis": "option_wording", "gerekce": "'Esnaf araclarina ayrilmis' yukleme avlusu."},
+    {"id": "L6-matching-14", "answer": "B", "basis": "coin_flip", "gerekce": "B ve G ikisi de otoparka uyan, birbirini disliyor gorunen ciftin uyeleri."},
+    {"id": "L6-matching-15", "answer": "A", "basis": "option_wording", "gerekce": "'Alisverisciler kendilerininkini getirmek zorunda' yalniz posetler koku."},
+    {"id": "L6-matching-24", "answer": "C", "basis": "logic", "gerekce": "'Kutuphaneci orta yol onerdi' bir SAYI pazarligina (kac veritabani) uyar."},
+    {"id": "L6-matching-25", "answer": "A", "basis": "guess", "gerekce": "Hangi ogrencinin onerisinin kabul edildigi senaryosuz bilinemez."},
+    {"id": "L6-matching-26", "answer": "D", "basis": "general_knowledge", "gerekce": "🔴 Sistematik derlemede kutuphaneci tam da 'full text available' filtresine karsi uyarir (ornek yanliligi). Ses gerekmiyor."}
+  ]
+}

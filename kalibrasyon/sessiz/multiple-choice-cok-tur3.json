@@ -1,0 +1,23 @@
+{
+  "tur": 3,
+  "paket": "multiple-choice-cok",
+  "note": "3. tur, bagimsiz cozum. Ses metni yine gorulmedi. 1-2 tekrar degisti (1. turdaki cifte dondu): o kalem uc turda kararli degil.",
+  "answers": [
+    {"id": "practice-multiple-choice-multi-1-2", "answer": ["B", "D"], "basis": "number_guess",
+     "gerekce": "Bu turda yine bulusma yeri + sure. Uc turda iki farkli cift verdim: bu kalem senaryosuz kararli degil."},
+    {"id": "practice-multiple-choice-multi-3-4", "answer": ["C", "E"], "basis": "option_wording",
+     "gerekce": "Eleme ayni: B akil disi kisit, A rastgele sokak adi, D bisiklet kuralı ulasimin ana ekseni degil."},
+    {"id": "practice-multiple-choice-multi-5-6", "answer": ["A", "B"], "basis": "option_wording",
+     "gerekce": "D kokle celisiyor, E gercek atik kuralina aykiri, C izin surecine uymuyor. A+B."},
+    {"id": "practice-multiple-choice-multi-7-8", "answer": ["D", "E"], "basis": "general_knowledge",
+     "gerekce": "Konteynerden esya geri almak ve cocuklarin dolasmasi - saha kurallarinin standardi."},
+    {"id": "practice-multiple-choice-multi-9-10", "answer": ["A", "C"], "basis": "general_knowledge",
+     "gerekce": "Arama kaydet + tarih not et. Uc turda da ayni; secenek sozü yontem bilgisiyle birebir ortusuyor."},
+    {"id": "L1-multiple-choice-14-15", "answer": ["C", "E"], "basis": "option_wording",
+     "gerekce": "C soru tipinin tanimini tekrarliyor; E icin muze etkinliklerinin ucretsiz olmasi varsayimi surdu."},
+    {"id": "L2-multiple-choice-14-15", "answer": ["C", "E"], "basis": "option_wording",
+     "gerekce": "Ayni iki secenek: cocuklarin boyamasi + brosur."},
+    {"id": "L5-multiple-choice-14-15", "answer": ["B", "C"], "basis": "general_knowledge",
+     "gerekce": "Kutupsallik sizintisi: yalniz iki secenek yasak olabilir, ucu imkan. Uc turda ayni."}
+  ]
+}

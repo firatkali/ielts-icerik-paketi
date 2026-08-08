@@ -903,3 +903,36 @@
   - Isaretleme YAPILMADI (plana gore 5. calistirmada, tek tip cumleyle).
   - dogrula.py: 12 tam test 40/40, sema hatasi 0, toplam soru 1310.
   - isaretli (flagged)     116  (degismedi)
+
+08.08.2026 14:54
+  - isaretli (flagged)     116
+
+08.08.2026 — E8 2/5: dinleme sizinti olcumu (coktan secmeli cok cevapli + eslestirme)
+  - Olculen: FABLE5-43'un kalan iki ailesi. Coktan secmeli cok cevapli 8 kalem /
+    16 numara, eslestirme 43 kalem / 43 numara. Toplam 51 kalem / 59 numara.
+    Ses metnine, senaryo klasorune, cevap anahtarina yine bakilmadi;
+    _e8_sizinti_kontrol.py iki kopya kumesinde de 0 agir hata.
+  - 3/3 turda senaryosuz bilinen: coktan secmeli cok cevapli 7/8 (%87.5),
+    eslestirme 29/43 (%67.4), toplam 36/51 (%70.6). Harf cevapli olduklari icin
+    K1 = K3.
+  - 1. calistirmanin actigi zayif nokta kapandi: karar dayanagi anlamsal /
+    sansa acik diye ayri kaydedildi (yeni arac tools/_e8_dayanak_capraz.py).
+    Sansa acik isaretlenen 11 kalemin HICBIRI 3/3 tutmadi, 3/3 tutan 36 kalemin
+    HEPSININ dayanagi anlamsal. Bu iki ailede ham oran = anlamsal oran.
+  - [!] Asil sizinti eslestirmede: option_wording dayanakli 27 kalemin 24'u (%89)
+    senaryosuz bilindi. Mekanizma tek: kutudaki secenegin sozu ait oldugu kokü
+    kendi basina adlandiriyor ("tas ocagi atigindan yapilmis" -> toprak,
+    "yeri kokusu icin secildi" -> cicek tezgahi, "esnaf araclarina ayrilmis" ->
+    yukleme avlusu).
+  - [!] Uc alt tur: (1) dilbilgisi sizintisi — alistirma 5'te "Two of THEM"
+    cogul zamiri kutudaki tek cogul koke isaret ediyor; (2) kutupsallik —
+    L3 14 tek yasak secenegi tek yasak koke; ayni desen L5 14-15 ve alistirma
+    7-8'de ("not allowed" sorusunda bes secenekten yalniz ikisi yasak olabilir);
+    (3) alan bilgisi — L6 26 ve alistirma 9-10 sistematik derleme yontemi ders
+    kitabi bilgisiyle biliniyor.
+  - [+] Sizdirmayan tasarim da belgelendi: kisi-gorus eslestirmesi (L3 24-26,
+    L6 24-26) ve birbirini dislayan secenek ciftleri (L6 14, L4 14, L1 26)
+    senaryosuz bilinemedi. Saglam soru tasariminin calisan ornegi.
+  - Isaretleme YAPILMADI (plana gore 5. calistirmada, tek tip cumleyle).
+  - dogrula.py: 12 tam test 40/40, sema hatasi 0, toplam soru 1310.
+  - isaretli (flagged)     116  (degismedi)
