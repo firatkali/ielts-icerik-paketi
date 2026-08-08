@@ -32,7 +32,8 @@
       "distractor_used": "two",
       "explanation": "Because everyone assumed it took two days, two groups missed the deadline last year; the plotter actually needs three working days.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 28,
@@ -50,7 +51,11 @@
       "distractor_used": null,
       "explanation": "Because the department has moved to large boards, there is plenty of space; the tutor advises against filling it, and to leave white space instead.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "general_knowledge",
+      "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'poster üzerinde bolca (28) bırakılırsa okunması kolaylaşır' grafik tasarımın standart öğüdü, boşluğa alanın ders kitabı terimi düşüyor.",
+      "flag_mechanism": "genel_kultur"
     },
     {
       "number": 29,
@@ -67,7 +72,8 @@
       "distractor_used": "the seminar block",
       "explanation": "Idris assumes it is the seminar block; the tutor corrects him: the event will be held in the library's atrium, a brighter but noisier space.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 30,
@@ -84,7 +90,8 @@
       "distractor_used": null,
       "explanation": "Because all eight weeks fell in the summer months, there is no data at all on frozen ground; the tutor wants them to write this up as a limitation.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     }
   ]
 }

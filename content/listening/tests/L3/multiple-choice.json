@@ -42,7 +42,11 @@
       },
       "explanation": "The tutor states the purpose of the meeting in the opening sentence: to decide together what has to be handed in and when.",
       "difficulty": "easy",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "option_wording",
+      "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'toplantının amacı' sorusunda yalnız 'öğrencilerin neyi teslim edeceğine karar vermek' bir toplantı amacı olarak kendini adlandırıyor, defter toplamak ve şirket seçmek idari işin tarifi.",
+      "flag_mechanism": "secenek_sozu"
     },
     {
       "number": 22,
@@ -74,7 +78,8 @@
       },
       "explanation": "Corin stayed for eight weeks because the company asked him to stay on for the last two weeks and he agreed.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 23,
@@ -106,7 +111,11 @@
       },
       "explanation": "What made the difference for Corin was being given a piece of work of his own (the counter data); if he made a mistake, it would go into a publication.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "option_wording",
+      "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'staja dair en çok neye değer verdi' sorusunda 'bir işin sorumluluğunun verilmesi' staj değerlendirmesinin kalıp cevabı, kalan iki seçenek yan kazanım olarak yazılmış.",
+      "flag_mechanism": "secenek_sozu"
     }
   ]
 }

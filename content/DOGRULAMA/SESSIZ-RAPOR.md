@@ -498,3 +498,210 @@ verdim: senaryo olmadan bilinmiyorlar, olmaları gerektiği gibi.
 - Kalan: 5. çalıştırma (toplu rapor + işaretleme).
 
 🔴 Bu ölçüm bozuk soruyu bulur, zorluk ölçmez.
+
+---
+
+## 5. çalıştırma — toplu rapor + işaretleme · 2026-08-08
+
+Ölçüm bitti; bu tur yeni tur çözmüyor, dört turun sonucunu tek tabloda toplayıp
+soru dosyalarına işliyor. Ham veri `content/DOGRULAMA/SESSIZ-TOPLU.json`
+(`tools/_e8_toplu.py --json` ile üretildi; kaynağı yalnız önceki turların kendi
+çıktıları — senaryo ve cevap anahtarı bu turda da açılmadı).
+
+### Sayım (rule 1, son kez yeniden sayıldı)
+
+`tools/sessiz-kopya.py` on paketi birden kopyaladığında **44 dosya, 307 kalem,
+315 numara** çıkıyor. Buna ölçülmeyen `plan-map-diagram-labelling` 45 kalem
+eklenince dinlemenin tamamı **352 kalem / 360 numara** — 360 hedefi tutuyor.
+307 kalemin 3'ü ölçüm dışı bırakıldığı için **oranların paydası 304**.
+`tools/dogrula.py`: 12 tam test 40/40, şema hatası 0, toplam 1310 soru.
+
+### Paket bazında ve toplu oran
+
+Ölçüt **K3 anlam düzeyi** (`OPUS5-E10` tanımı: kelime kelime tutturma değil,
+anlamca bilme). K1 (kelime düzeyi) karşılaştırma için yanında duruyor. Bir
+kalem, üç turun üçünde de doğru bilinmişse "senaryosuz çözülebilir" sayılır.
+
+| Paket | Çalıştırma | Ölçülen | K1 | K3 | K3 oranı | Dayanağı anlamsal |
+|---|---|---|---|---|---|---|
+| `multiple-choice-cok` | 2 | 8 | 7 | 7 | **%87.5** | 7 |
+| `multiple-choice-tek` | 1 | 37 | 25 | 25 | **%67.6** | 21 |
+| `matching` | 2 | 43 | 29 | 29 | **%67.4** | 29 |
+| `summary-completion` | 4 | 15 | 9 | 9 | **%60.0** | 9 |
+| `short-answer` | 4 | 28 | 13 | 15 | **%53.6** | 15 |
+| `flow-chart-completion` | 4 | 25 | 13 | 13 | **%52.0** | 13 |
+| `note-completion` | 3 | 40 | 9 | 10 | **%25.0** | 10 |
+| `sentence-completion` | 4 | 39 | 6 | 8 | **%20.5** | 8 |
+| `table-completion` | 3 | 29 | 4 | 4 | **%13.8** | 4 |
+| `form-completion` | 3 | 40 | 5 | 5 | **%12.5** | 5 |
+| **Toplam** | 1–4 | **304** | **120 (%39.5)** | **125 (%41.1)** | | **121 (%39.8)** |
+
+Aile bazında toplanınca ölçümün tek cümlelik sonucu görünüyor:
+
+| Aile | Ölçülen | 3/3 bilinen (K3) | Oran |
+|---|---|---|---|
+| Seçenekli tipler (çoktan seçmeli tek + çok + eşleştirme) | 88 | 61 | **%69.3** |
+| Tamamlama ailesi B (özet / akış / kısa cevap / cümle) | 107 | 45 | **%42.1** |
+| Tamamlama ailesi A (form / not / tablo) | 109 | 19 | **%17.4** |
+| `plan-map-diagram-labelling` | 45 | — | **ölçülmedi** |
+
+🔴 **`plan-map-diagram-labelling` ölçülmedi.** Görsel gerektirir; metin tabanlı
+ölçüm orada kördür. Bu, okuma tarafındaki diyagram etiketleme kararının aynısıdır
+ve bir eksiklik değil, kapsam sınırıdır — o 45 kalem işaretlenmedi, dokunulmadı.
+
+### 🔴 Düşük oran her yerde iyi haber değil, bazı yerlerde beklenen sonuç
+
+Yöntem notunun 3. maddesi ölçümle doğrulandı: form / not / tablo tamamlamada cevap
+çoğu zaman soyadı, cep telefonu, fiyat, saat, tarih — **yapısal olarak tahmin
+edilemez.** Oradaki %12–25, soruların iyi tasarlandığının kanıtı değil; ölçünün
+o tipte zaten bir şey söyleyemediğinin kanıtı. Dört turun dayanak çaprazı bunu
+sayıyla gösteriyor (`tools/_e8_dayanak_toplu.py`):
+
+| Dayanak | Kalem | 3/3 bilinen | Sınıf |
+|---|---|---|---|
+| `general_knowledge` | 78 | 45 | anlamsal |
+| `number_guess` | 74 | **4** | şansa açık |
+| `option_wording` | 41 | 37 | anlamsal |
+| `frame_wording` | 34 | 16 | anlamsal |
+| `guess` | 27 | **0** | şansa açık |
+| `logic` | 20 | 10 | anlamsal |
+| `cross_question` | 11 | 10 | anlamsal |
+| `name_guess` | 9 | **0** | şansa açık |
+| `coin_flip` | 7 | **0** | şansa açık |
+| `grammar_cue` | 3 | 3 | anlamsal |
+| **anlamsal** | **187** | **121** | |
+| **şansa açık** | **117** | **4** | |
+
+Soyadı, telefon, fiyat, saat ve tarih soran **117 kalemin yalnız 4'ü** 3/3
+tuttu — o dördü de 1. çalıştırmadaki üç seçenekli şans oranı kadar (aşağıya bak).
+
+Bu yüzden ölçünün asıl ilgilendiği yer seçenekli tiplerdir: cevap bir seçenek
+havuzundan geldiği için sızıntı seçeneğin sözünden okunabilir, ve orada oran
+**%69.3.** İkinci sırada tamamlama ailesi B var (%42.1) — orada da boşluğa
+düşen sözcük çoğu zaman alanın ders kitabı terimi.
+
+### İşaretleme
+
+`tools/_e8_isaretle.py` (`_b1_isaretle.py`nin dinleme sürümü; okuma dosyalarına
+dokunmaz, `skill != "listening"` olanı atlar) şunu yazdı:
+
+| Ne | Kaç kalem | Yazılan |
+|---|---|---|
+| 3/3 bilinen, dayanağı anlamsal | **121** | `blind_solvable` · `blind_basis` · `status: "flagged"` · `flag_reason` · `flag_mechanism` |
+| 3/3 bilinen, dayanağı şansa açık | 4 | `blind_solvable: true` + `blind_note`; **işaretlenmedi** |
+| Ölçüm aracının kirlettiği | 3 | yalnız `blind_note` |
+| Geri kalan | 179 | `blind_solvable: false` |
+
+Depo genelinde işaretli soru sayısı **116 → 237.** Hiçbir soru silinmedi, hiçbir
+sorunun metni ya da cevabı değiştirilmedi, tam testler 40/40 kaldı.
+
+**İşaretlenmeyen 4 kalem** (`L1-multiple-choice-11`, `L2-multiple-choice-11`,
+`L2-multiple-choice-13`, `L6-multiple-choice-21`) 1. çalıştırmanın kararıyla
+dışarıda: üçü de saat/fiyat/miktar seçimiydi, `number_guess` dayanaklı 12
+kalemde 4 tutturma tam olarak üç seçenekli şans oranı (%33). Kararlı ama şanslı
+bir sezgi sızıntı değildir. Şeffaflık için dosyada `blind_solvable: true` +
+`blind_note` ile duruyorlar; `status` değişmedi.
+
+**Ölçüm dışı 3 kalem** (`L1-note-completion-34`, `L1-note-completion-35`,
+`L2-table-completion-5`) 3. çalıştırmada ölçüm aracının kendisi tarafından
+kirletilmişti; kirlenmiş ölçüm ölçüm olmadığı için ne işaretlendiler ne de
+`blind_solvable: false` aldılar — yalnız `blind_note` taşıyorlar.
+
+### 🔴 `flag_reason` — E1'in dersi baştan uygulandı
+
+Denetim raporunun bulgusu (`denetim/DENETIM-RAPORU.md` §5, madde A2), 180 okuma
+sorusunun hepsine **aynı** cümlenin yazılmış olmasıydı. Burada 121 kalemin
+121 ayrı gerekçesi var; her biri o sorunun kendi kökünü, seçeneğini ya da
+çerçevesini adıyla anıyor. Tablo `tools/_e8_isaret_tablosu.py` içinde, elle
+yazıldı. Biçim tek tip, içerik değil:
+
+> `"Senaryo gösterilmeden 3/3 turda doğru bilindi: <bu soruya özel somut sebep>."`
+
+Gerekçeler yazılırken de senaryo ve cevap anahtarı açılmadı. Kullanılan iki
+kaynak: (a) `dogrulama/sessiz/` altındaki kör kopya (senaryo ve cevap zaten
+silinmiş), (b) modelin turlarda kendi verdiği cevap — kalemler 3/3 doğru
+bilindiği için verilen cevap zaten doğru cevap. Yardımcı
+`tools/_e8_gerekce_taslak.py` yalnız bu ikisini birleştirip basıyor.
+
+### `flag_mechanism` — okumanın sözlüğü + dinlemeye özgü üç ad
+
+Okuma tarafında kullanılan adlar korundu (`genel_kultur`, `kip_imzasi`,
+`esdizim_kilidi`, `konumsal_duzen`); dinlemede karşılığı olmayan üç mekanizma
+için yeni ad açıldı:
+
+- **`secenek_sozu`** — kutudaki/şıktaki seçeneğin kendi sözü ait olduğu kökü
+  adlandırıyor. Dinlemenin baskın sızıntısı, eşleştirmede neredeyse tek
+  mekanizma (29 kalemin 22'si).
+- **`cerceve_sozu`** — `secenek_sozu`nun tamamlamadaki karşılığı: seçenek yok,
+  ama form/not/cümle çerçevesinin sözü tek doldurmayı bırakıyor.
+- **`capraz_sizinti`** — başka bir soru ya da başka bir **paket** aynı bilgiyi
+  düz metin yazıyor. Bu adın açılması gerekti çünkü okumada karşılığı yoktu.
+
+| Soru tipi | capraz_sizinti | cerceve_sozu | esdizim_kilidi | genel_kultur | kip_imzasi | konumsal_duzen | secenek_sozu | Toplam |
+|---|---|---|---|---|---|---|---|---|
+| `flow_chart_completion` | 3 | 1 | 0 | 6 | 0 | 3 | 0 | **13** |
+| `form_completion` | 1 | 2 | 1 | 1 | 0 | 0 | 0 | **5** |
+| `matching` | 0 | 0 | 1 | 2 | 1 | 3 | 22 | **29** |
+| `multiple_choice` | 1 | 0 | 0 | 8 | 1 | 4 | 10 | **24** |
+| `multiple_choice_multi` | 0 | 0 | 0 | 1 | 1 | 0 | 2 | **4** |
+| `note_completion` | 2 | 4 | 1 | 3 | 0 | 0 | 0 | **10** |
+| `sentence_completion` | 0 | 4 | 2 | 1 | 0 | 1 | 0 | **8** |
+| `short_answer` | 1 | 2 | 0 | 12 | 0 | 0 | 0 | **15** |
+| `summary_completion` | 1 | 1 | 0 | 7 | 0 | 0 | 0 | **9** |
+| `table_completion` | 1 | 1 | 0 | 2 | 0 | 0 | 0 | **4** |
+| **Toplam** | **10** | **15** | **5** | **43** | **3** | **11** | **34** | **121** |
+
+Tabloda dinlemenin iki deseni net duruyor: **seçenekli tipler `secenek_sozu`
+taşıyor** (34 kalemin 34'ü orada), **tamamlama ailesi ise `genel_kultur`**
+(43 kalemin 32'si tamamlama tiplerinde). Yani dinlemenin iki ayrı hastalığı var
+ve ikisinin tedavisi ayrı: seçenekli tipte seçeneğin sözü yeniden yazılmalı,
+tamamlamada boşluğa düşen sözcük alanın ders kitabı terimi olmaktan çıkarılmalı.
+
+### Dört turdan çıkan üç yapısal bulgu
+
+1. **`capraz_sizinti` bir soru kusuru değil, paket mimarisi kusuru (10 kalem).**
+   Sekiz dinleme senaryosu bütün dinleme bacağında yeniden kullanılıyor; bir
+   pakette **boşluk** olan şey başka bir pakette **düz metin** olarak duruyor.
+   Alıştırma paketleri tam testlerden önce çalışılacağı için pratikte tam testin
+   sorusu önceden görülmüş oluyor. `cross_question` dayanaklı **11 kalemin
+   10'u** 3/3 bilindi (%91) — ölçümdeki en yüksek isabetli dayanak bu.
+2. **Dayanak ayrımı dört turda da tam çıktı.** Turlarda "şansa açık" işaretlenen
+   117 kalemden 3/3 tutan yalnız 4 tane (hepsi 1. çalıştırmada, hepsi şans
+   oranında); 3/3 tutan 125 kalemin 121'inin dayanağı anlamsal. Yani "üç turda
+   aynı cevap" ölçütü, 1. çalıştırmada korkulanın aksine kararlı-ama-şanslı
+   sezgiyi sistematik olarak üretmedi.
+3. **Sağlam soru tasarımının tarifi ölçümün karşı kutbundan çıktı.** Sızmayan
+   179 kalemin ortak yanı: cevap **konuşmanın seçtiği bir değer**, alanın ders
+   kitabı terimi değil; ve seçenekli tipte iki seçenek aynı köke eşit uyuyor
+   (kişi–görüş eşleştirmeleri, birbirini dışlayan çiftler). Ayrım ancak sesten
+   geliyor — olması gerektiği gibi.
+
+### Karşılaştırma tabanı yok — bu rapor onu uydurmuyor
+
+Yöntem notunun 4. maddesi burada da geçerli: dinlemede resmî örnek sorulardan
+ölçülmüş bir taban yok (`denetim/DENETIM-RAPORU.md` §5, madde A3). %39.8'in
+"yüksek" mi "normal" mi olduğunu söyleyecek sayı elde değil. Rapor bu yüzden
+tabanla karşılaştırma yapmıyor; oranlar tip bazında, kendi içinde okunmalı ve
+asıl ağırlık mekanizma tablosunda — bir kalemin neden bilindiği, kaçının
+bilindiğinden daha çok şey söylüyor.
+
+### Ne yapıldı, ne yapılmadı
+
+- Toplu rapor yazıldı; makine okunur hâli `content/DOGRULAMA/SESSIZ-TOPLU.json`.
+- 121 kalem işaretlendi, her birine kendine özgü `flag_reason` + `flag_mechanism`.
+- Hiçbir soru silinmedi; hiçbir sorunun metni/cevabı değiştirilmedi; tam testler
+  12/12 × 40 soru; şema hatası 0; toplam 1310 soru; işaretli 116 → 237.
+- Yeni araçlar: `tools/_e8_toplu.py`, `tools/_e8_isaret_tablosu.py`,
+  `tools/_e8_isaretle.py`, `tools/_e8_gerekce_taslak.py`,
+  `tools/_e8_mekanizma_tablo.py`, `tools/_e8_dayanak_toplu.py`.
+  `sessiz-kopya.py`ye yalnız yeni `blind_note`
+  alanı silinenler listesine eklendi (kopya `_e8_sizinti_kontrol.py`den 0 ağır
+  hatayla geçiyor).
+- `metinsiz-*` araçlarına ve okumanın ölçüm dosyalarına (`dogrulama/metinsiz/`,
+  `kalibrasyon/metinsiz/`, `content/DOGRULAMA/METINSIZ-*`) hiç dokunulmadı.
+- Ses metnine, `content/listening/scripts/` klasörüne ve cevap anahtarına beş
+  çalıştırmanın hiçbirinde bakılmadı.
+- **Bu adım işaretledi, düzeltmedi.** 121 kalemin yeniden yazılması ayrı bir iş;
+  hangi mekanizmanın nasıl onarılacağı yukarıdaki tabloda duruyor.
+
+🔴 Bu ölçüm bozuk soruyu bulur, zorluk ölçmez.

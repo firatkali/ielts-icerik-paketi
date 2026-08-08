@@ -50,7 +50,8 @@
           },
           "explanation": "The gates open at half past ten on Saturday; the eleven o'clock time in the brochure is an old time that was moved earlier once the bus timetable was published.",
           "difficulty": "easy",
-          "status": "verified"
+          "status": "verified",
+          "blind_solvable": false
         },
         {
           "number": 12,
@@ -84,7 +85,11 @@
           },
           "explanation": "The stage faced the river last year and the sound carried to the houses on the opposite bank; after complaints, it was turned to face the gate this year.",
           "difficulty": "medium",
-          "status": "verified"
+          "status": "flagged",
+          "blind_solvable": true,
+          "blind_basis": "logic",
+          "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: kiralama bedelinin artması sahnenin çevrilmesini açıklamıyor, arkadaki yolun tıkanması çevirmekle çözülmüyor, nedensel olarak tek uyan seçenek nehrin karşısındaki sakinlerin ses şikâyeti.",
+          "flag_mechanism": "konumsal_duzen"
         },
         {
           "number": 13,
@@ -118,7 +123,8 @@
           },
           "explanation": "The shuttle bus runs every fifteen minutes; the twenty minutes on the poster no longer applies because a second bus has been hired.",
           "difficulty": "medium",
-          "status": "verified"
+          "status": "verified",
+          "blind_solvable": false
         }
       ]
     },
@@ -170,7 +176,11 @@
           },
           "explanation": "Bringing glass onto the site is banned (C), and dogs are only allowed on a lead, outside the family field (B). Second answer point: L5-S2-29.",
           "difficulty": "medium",
-          "status": "verified"
+          "status": "flagged",
+          "blind_solvable": true,
+          "blind_basis": "general_knowledge",
+          "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: kök YASAK soruyor ve beş seçenekten yalnız ikisi (cam getirmek, aile alanına köpek sokmak) gerçek hayatta yasaklanabilecek şeyler, kalan üçü etkinliğin tanıttığı imkânlar.",
+          "flag_mechanism": "kip_imzasi"
         }
       ]
     },
@@ -212,7 +222,11 @@
           },
           "explanation": "The tutor is pleased about the disagreement: he says disagreeing now is far cheaper than disagreeing in three weeks' time.",
           "difficulty": "medium",
-          "status": "verified"
+          "status": "flagged",
+          "blind_solvable": true,
+          "blind_basis": "option_wording",
+          "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: kök bir tepki soruyor, seçeneklerden yalnız 'erken çıkmasına sevindi' bir duygu ifadesi, kalan ikisi talimat.",
+          "flag_mechanism": "secenek_sozu"
         },
         {
           "number": 22,
@@ -246,7 +260,11 @@
           },
           "explanation": "According to the tutor, the people who answer a link on the residents' page are already the ones who care about the high street; this self-selection skews all the findings.",
           "difficulty": "medium",
-          "status": "verified"
+          "status": "flagged",
+          "blind_solvable": true,
+          "blind_basis": "general_knowledge",
+          "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: çevrimiçi veri toplamanın tehlikesi sorulunca 'yalnız zaten ilgili olanlar katılır' örneklem yanlılığı uyarısının kendisi, kalan iki seçenek tikel ayrıntı.",
+          "flag_mechanism": "genel_kultur"
         },
         {
           "number": 23,
@@ -280,7 +298,11 @@
           },
           "explanation": "Without quotas, the sample fills up with whoever is easiest to stop: students and retired people dominate, and the age group in between is almost absent.",
           "difficulty": "hard",
-          "status": "verified"
+          "status": "flagged",
+          "blind_solvable": true,
+          "blind_basis": "general_knowledge",
+          "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: kotanın niçin kullanıldığının ders kitabı cevabı 'kolay ulaşılan grupların örneklemi ele geçirmesini önlemek', hedef sayısı ve bölüm kuralı kotanın tanımıyla ilgisiz.",
+          "flag_mechanism": "genel_kultur"
         }
       ]
     }

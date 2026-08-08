@@ -31,7 +31,8 @@
       "distractor_used": null,
       "explanation": "The three assumptions of the standard model are listed; the third one left blank in the notes is unlimited attention.",
       "difficulty": "easy",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 32,
@@ -51,7 +52,8 @@
       "distractor_used": "three to one",
       "explanation": "The lecturer corrects the commonly quoted ratio of three to one: careful estimates are closer to two to one.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 33,
@@ -68,7 +70,11 @@
       "distractor_used": null,
       "explanation": "When the same punctuality figures are worded negatively, the number of complaints in the following month nearly doubles.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "frame_wording",
+      "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'olumsuz sürüm ertesi ay (33) sayısını neredeyse iki katına çıkardı' çerçevesi olumsuz bir metnin artırabileceği tek sayılabilir şeyi bırakıyor.",
+      "flag_mechanism": "cerceve_sozu"
     },
     {
       "number": 34,
@@ -88,7 +94,8 @@
       "distractor_used": "nobody opted out",
       "explanation": "Under automatic enrolment, participation rises to nine in ten; the claim from that period that nobody opted out is not correct.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 35,
@@ -105,7 +112,8 @@
       "distractor_used": null,
       "explanation": "The third reason the default works is delay: people intend to fill in the form, but the intention is never carried out.",
       "difficulty": "easy",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 36,
@@ -124,7 +132,11 @@
       "distractor_used": null,
       "explanation": "To get around present bias, the extra contribution is taken not from current pay but starting from the next pay rise.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "general_knowledge",
+      "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'personel daha çok biriktirmeyi kabul ediyor ama fazla para yalnız (36) alınıyor' davranışsal iktisadın bilinen 'Save More Tomorrow' düzeneği, ek katkı bir sonraki zamdan kesilir.",
+      "flag_mechanism": "genel_kultur"
     }
   ]
 }

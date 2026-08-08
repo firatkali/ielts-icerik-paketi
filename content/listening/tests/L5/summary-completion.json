@@ -32,7 +32,11 @@
       "distractor_used": null,
       "explanation": "The layer that living organisms form on the surface of a broken fragment is called biofouling; it is this layer that weighs the particle down and sinks it.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "general_knowledge",
+      "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'canlı organizmalar her parçanın üstünü kaplar, dersteki adı (36)' bir terim tanımı, boşluğa alanın standart adı düşüyor.",
+      "flag_mechanism": "genel_kultur"
     },
     {
       "number": 37,
@@ -49,7 +53,11 @@
       "distractor_used": null,
       "explanation": "The finer the mesh, the more particles are counted per cubic metre; that is why two studies that don't report their mesh size cannot be compared.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "general_knowledge",
+      "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'iki çalışma ancak ikisi de ağın (37) boyutunu bildirdiğinde karşılaştırılabilir' — deniz plastiği yöntem literatüründe karşılaştırılabilirliğin standart koşulu.",
+      "flag_mechanism": "genel_kultur"
     },
     {
       "number": 38,
@@ -67,7 +75,11 @@
       "distractor_used": null,
       "explanation": "In dated cores taken from sheltered basins, plastic first appears in layers from the 1950s; the amount has roughly doubled every fifteen years since then.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "general_knowledge",
+      "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'ilk plastik parçacıklar (38) tortullarında görülüyor' — kütlesel plastik üretiminin başladığı onyıl genel kültür.",
+      "flag_mechanism": "genel_kultur"
     },
     {
       "number": 39,
@@ -85,7 +97,8 @@
       "distractor_used": null,
       "explanation": "Pellets are the raw granules that everything else is melted down from; since they are lost during transport rather than thrown away, they are counted as a separate category.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 40,
@@ -103,7 +116,11 @@
       "distractor_used": null,
       "explanation": "The fourth step, and according to the lecturer the most useful one, is standardising the monitoring; half the debate in the field is about arithmetic rather than the ocean.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "frame_wording",
+      "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'en değerlisi de izlemeyi (40), böylece boyut sınıfları ve raporlama birimleri anlaşılmış olur' — cümlenin ikinci yarısı standartlaştırmanın tanımını veriyor.",
+      "flag_mechanism": "cerceve_sozu"
     }
   ]
 }

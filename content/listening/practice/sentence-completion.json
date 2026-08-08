@@ -42,7 +42,8 @@
           "distractor_used": "six",
           "explanation": "The tutor points out that the proposal named six sites; the student says they could only get round five because the bridge was closed.",
           "difficulty": "easy",
-          "status": "verified"
+          "status": "verified",
+          "blind_solvable": false
         },
         {
           "number": 2,
@@ -60,7 +61,11 @@
           "distractor_used": "the meter",
           "explanation": "The oxygen meter could not be calibrated because the buffer solution had gone off, so the measurement on that visit was taken with the chemical test kit instead.",
           "difficulty": "medium",
-          "status": "verified"
+          "status": "flagged",
+          "blind_solvable": true,
+          "blind_basis": "frame_wording",
+          "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'oksijen kimyasal bir (2) ile ölçüldü, çünkü ölçer kurulamadı' çerçevesi 'kimyasal' sıfatı ve ölçere alternatif olma kaydıyla tek doldurmayı bırakıyor.",
+          "flag_mechanism": "cerceve_sozu"
         },
         {
           "number": 3,
@@ -79,7 +84,8 @@
           "distractor_used": "the top site in the woods",
           "explanation": "The students expected the cleanest water at the upper site in the woods; the best score actually came from the gravel-bedded stretch behind the allotments.",
           "difficulty": "medium",
-          "status": "verified"
+          "status": "verified",
+          "blind_solvable": false
         },
         {
           "number": 4,
@@ -98,7 +104,8 @@
           "distractor_used": null,
           "explanation": "When explaining how the report should be submitted, the tutor states that it must be sent in as one single file.",
           "difficulty": "easy",
-          "status": "verified"
+          "status": "verified",
+          "blind_solvable": false
         }
       ]
     },
@@ -129,7 +136,8 @@
           "distractor_used": "4,000",
           "explanation": "The handbook the student has is from last year and gives four thousand; now that a presentation has been added, the limit has been cut to three thousand five hundred.",
           "difficulty": "medium",
-          "status": "verified"
+          "status": "verified",
+          "blind_solvable": false
         },
         {
           "number": 6,
@@ -148,7 +156,11 @@
           "distractor_used": "handed in separately",
           "explanation": "The tutor says the log book used to be handed in separately, but this year it goes in as an appendix to the report.",
           "difficulty": "medium",
-          "status": "verified"
+          "status": "flagged",
+          "blind_solvable": true,
+          "blind_basis": "grammar_cue",
+          "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'artık bir (6) olarak veriliyor' cümlesindeki 'an' boşluğu ünlüyle başlayan sözcüğe kilitliyor, 'tek başına teslim edilmiyor' çerçevesiyle birleşince tek aday kalıyor.",
+          "flag_mechanism": "esdizim_kilidi"
         },
         {
           "number": 7,
@@ -166,7 +178,8 @@
           "distractor_used": "by email",
           "explanation": "When the submission route is explained, it is said that email produces no receipt, so the work must be uploaded through the module page.",
           "difficulty": "easy",
-          "status": "verified"
+          "status": "verified",
+          "blind_solvable": false
         },
         {
           "number": 8,
@@ -185,7 +198,8 @@
           "distractor_used": null,
           "explanation": "Asked who will request the reference, the tutor answers that the form reaches the supervisor directly from the department.",
           "difficulty": "medium",
-          "status": "verified"
+          "status": "verified",
+          "blind_solvable": false
         }
       ]
     },
@@ -216,7 +230,8 @@
           "distractor_used": null,
           "explanation": "Summing up the project in one sentence, the student says the measurements were taken on the same slope, over eight weeks.",
           "difficulty": "easy",
-          "status": "verified"
+          "status": "verified",
+          "blind_solvable": false
         },
         {
           "number": 10,
@@ -235,7 +250,8 @@
           "distractor_used": "24",
           "explanation": "The student has set the body text at twenty-four point; the tutor finds this too small and wants nothing under thirty.",
           "difficulty": "medium",
-          "status": "verified"
+          "status": "verified",
+          "blind_solvable": false
         },
         {
           "number": 11,
@@ -253,7 +269,8 @@
           "distractor_used": "the small ones",
           "explanation": "The student assumes the boards are small; the tutor says the department moved to the larger boards last year, but empty space should still be left.",
           "difficulty": "medium",
-          "status": "verified"
+          "status": "verified",
+          "blind_solvable": false
         },
         {
           "number": 12,
@@ -272,7 +289,11 @@
           "distractor_used": null,
           "explanation": "Asked where the QR code should go on the poster, the tutor wants it placed at eye height and tested on a phone before printing.",
           "difficulty": "easy",
-          "status": "verified"
+          "status": "flagged",
+          "blind_solvable": true,
+          "blind_basis": "frame_wording",
+          "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'kare kod köşeye değil (12) konmalı' çerçevesindeki karşıtlık köşenin karşısına konabilecek tek yer bildirimini bırakıyor.",
+          "flag_mechanism": "cerceve_sozu"
         }
       ]
     },
@@ -302,7 +323,8 @@
           "distractor_used": "100",
           "explanation": "The sample of a hundred the student suggests is not enough; the tutor says the department expects a minimum of a hundred and twenty completed responses at this level.",
           "difficulty": "medium",
-          "status": "verified"
+          "status": "verified",
+          "blind_solvable": false
         },
         {
           "number": 14,
@@ -321,7 +343,8 @@
           "distractor_used": null,
           "explanation": "Asked whether participants can be given a prize, the tutor says a prize draw with a small voucher is allowed, and its value must be stated on the information sheet.",
           "difficulty": "medium",
-          "status": "verified"
+          "status": "verified",
+          "blind_solvable": false
         },
         {
           "number": 15,
@@ -339,7 +362,8 @@
           "distractor_used": null,
           "explanation": "As the seminar room is being used for classes, the students will use the study pods on the second floor; these are booked through the library system, two hours at a time.",
           "difficulty": "easy",
-          "status": "verified"
+          "status": "verified",
+          "blind_solvable": false
         }
       ]
     }

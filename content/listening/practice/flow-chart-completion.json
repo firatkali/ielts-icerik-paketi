@@ -41,7 +41,11 @@
           "distractor_used": null,
           "explanation": "Seeds collected in the field are kept separate plant by plant; they are only combined once the material reaches the store.",
           "difficulty": "medium",
-          "status": "verified"
+          "status": "flagged",
+          "blind_solvable": true,
+          "blind_basis": "logic",
+          "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'her bitkinin tohumu depoya kadar (1) tutulur' — örnek bütünlüğü mantığı tek doldurmayı bırakıyor.",
+          "flag_mechanism": "konumsal_duzen"
         },
         {
           "number": 2,
@@ -60,7 +64,11 @@
           "distractor_used": "minus 18 degrees",
           "explanation": "The old household-freezer figure of minus 18 is still quoted, but the international standard moved to minus 20 years ago.",
           "difficulty": "medium",
-          "status": "verified"
+          "status": "flagged",
+          "blind_solvable": true,
+          "blind_basis": "general_knowledge",
+          "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'anlaşılan sıcaklık yıllardır eksi (2) derece' — tohum bankalarının standart depolama sıcaklığı, konuşmanın seçtiği bir değer değil.",
+          "flag_mechanism": "genel_kultur"
         },
         {
           "number": 3,
@@ -78,7 +86,11 @@
           "distractor_used": null,
           "explanation": "When a retest falls below the threshold, the remaining seed is grown on and a bigger batch is harvested; the speaker calls this step regeneration.",
           "difficulty": "easy",
-          "status": "verified"
+          "status": "flagged",
+          "blind_solvable": true,
+          "blind_basis": "general_knowledge",
+          "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'örnek yeniden yetiştirilip daha büyük hasat alınır, bankaların bu adıma verdiği ad (3)' bir terim tanımı.",
+          "flag_mechanism": "genel_kultur"
         },
         {
           "number": 4,
@@ -96,7 +108,8 @@
           "distractor_used": null,
           "explanation": "The backup copy is not kept in the same building; the portion set aside at the start is sent to a second site, in another country if possible.",
           "difficulty": "medium",
-          "status": "verified"
+          "status": "verified",
+          "blind_solvable": false
         }
       ]
     },
@@ -127,7 +140,11 @@
           "distractor_used": null,
           "explanation": "There is a huge gap between the estimated input into the sea and what can be found on the surface: the floating plastic is only about one per cent of the estimate.",
           "difficulty": "medium",
-          "status": "verified"
+          "status": "flagged",
+          "blind_solvable": true,
+          "blind_basis": "general_knowledge",
+          "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'yüzen ve taramalarla bulunabilen her şey tahmini girdinin yaklaşık (5) yüzdesi' — deniz plastiği literatürünün bilinen 'kayıp plastik' oranı.",
+          "flag_mechanism": "genel_kultur"
         },
         {
           "number": 6,
@@ -145,7 +162,11 @@
           "distractor_used": null,
           "explanation": "Sunlight and wave action make the polymer brittle, which is why the pieces keep breaking into smaller ones.",
           "difficulty": "medium",
-          "status": "verified"
+          "status": "flagged",
+          "blind_solvable": true,
+          "blind_basis": "cross_question",
+          "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'gün ışığı ve su hareketi polimeri (6) yapar' boşluğunu L5 özet paketi düz metin yazıyor: 'leave the polymer brittle enough to break apart'.",
+          "flag_mechanism": "capraz_sizinti"
         },
         {
           "number": 7,
@@ -164,7 +185,11 @@
           "distractor_used": "a third of a millimetre",
           "explanation": "The mesh size used in most research is a third of a millimetre; recent studies use a tenth and find far more particles per cubic metre.",
           "difficulty": "hard",
-          "status": "verified"
+          "status": "flagged",
+          "blind_solvable": true,
+          "blind_basis": "general_knowledge",
+          "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'şimdi kullanılan daha ince ağlar, milimetrenin (7) kadarı' — mikroplastik örneklemesinde standart göz açıklığı.",
+          "flag_mechanism": "genel_kultur"
         },
         {
           "number": 8,
@@ -182,7 +207,8 @@
           "distractor_used": null,
           "explanation": "The measure the speaker trusts most is design: sorting only becomes possible once a product contains fewer different polymers.",
           "difficulty": "medium",
-          "status": "verified"
+          "status": "verified",
+          "blind_solvable": false
         }
       ]
     },
@@ -212,7 +238,8 @@
           "distractor_used": null,
           "explanation": "Noise maps are produced by modelling rather than measurement; the inputs fed into the model include traffic counts, speeds, building heights and the hardness of the ground.",
           "difficulty": "medium",
-          "status": "verified"
+          "status": "verified",
+          "blind_solvable": false
         },
         {
           "number": 10,
@@ -233,7 +260,11 @@
           "distractor_used": null,
           "explanation": "At low speed what is heard is the engine and exhaust; above this speed the dominant source is the contact between the tyre and the road surface.",
           "difficulty": "medium",
-          "status": "verified"
+          "status": "flagged",
+          "blind_solvable": true,
+          "blind_basis": "general_knowledge",
+          "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'kırk km/s altında motor, üstünde yolu ezen (10)' — geçiş hızının üstünde baskın kaynağın lastik/yol gürültüsü olduğu ders kitabı bilgisi.",
+          "flag_mechanism": "genel_kultur"
         },
         {
           "number": 11,
@@ -252,7 +283,8 @@
           "distractor_used": "5 decibels",
           "explanation": "Open-textured asphalt is often quoted at five decibels; once the pores fill, the realistic gain drops to three to four decibels.",
           "difficulty": "hard",
-          "status": "verified"
+          "status": "verified",
+          "blind_solvable": false
         },
         {
           "number": 12,
@@ -271,7 +303,11 @@
           "distractor_used": null,
           "explanation": "Secondary glazing works, but on a hot night the window gets opened and the money spent on it is wasted.",
           "difficulty": "easy",
-          "status": "verified"
+          "status": "flagged",
+          "blind_solvable": true,
+          "blind_basis": "cross_question",
+          "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'sıcak bir gecede (12) yeniden açılır' boşluğunu L4 akış şeması düz metin yazıyor: 'the moment a window is opened'.",
+          "flag_mechanism": "capraz_sizinti"
         }
       ]
     },
@@ -301,7 +337,8 @@
           "distractor_used": null,
           "explanation": "The first reason a form makes such a difference is effort: however trivial it is, every small obstacle cuts down the number of people who get through.",
           "difficulty": "medium",
-          "status": "verified"
+          "status": "verified",
+          "blind_solvable": false
         },
         {
           "number": 14,
@@ -319,7 +356,11 @@
           "distractor_used": null,
           "explanation": "The fifteen-point rise reported in the papers comes from a single pilot in one town; in larger trials the effect turns out to be much smaller.",
           "difficulty": "medium",
-          "status": "verified"
+          "status": "flagged",
+          "blind_solvable": true,
+          "blind_basis": "cross_question",
+          "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'gazetelerin yazdığı on beş puanlık artış tek bir (14) dayanıyor' boşluğunu L6 özet paketi düz metin veriyor: 'the figure the papers carried came from one pilot in a single town'.",
+          "flag_mechanism": "capraz_sizinti"
         },
         {
           "number": 15,
@@ -337,7 +378,8 @@
           "distractor_used": "sixty students in the laboratory",
           "explanation": "The method that changed the field is the field experiment: sample sizes are measured in the tens of thousands, not the sixty students in early laboratory studies.",
           "difficulty": "medium",
-          "status": "verified"
+          "status": "verified",
+          "blind_solvable": false
         }
       ]
     }

@@ -50,7 +50,8 @@
           },
           "explanation": "The blue route is now four and a half miles; the five miles in the old brochures was its length before the riverside section was damaged.",
           "difficulty": "medium",
-          "status": "verified"
+          "status": "verified",
+          "blind_solvable": false
         },
         {
           "number": 2,
@@ -83,7 +84,11 @@
           },
           "explanation": "The monthly guided walk now takes place on the first Sunday of the month from this month onwards; the first Saturday was the old arrangement.",
           "difficulty": "medium",
-          "status": "verified"
+          "status": "flagged",
+          "blind_solvable": true,
+          "blind_basis": "logic",
+          "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: üç seçenekten ikisi aynı kalıbın (ayın ilk hafta sonu günü) iki hâli, üçüncüsü kalıp dışı; kökteki 'artık' bir değişikliği ima ettiği için kalıp dışı seçenek eski hâl olarak eleniyor.",
+          "flag_mechanism": "konumsal_duzen"
         }
       ]
     },
@@ -125,7 +130,8 @@
           },
           "explanation": "The weekend ticket is eighteen pounds this year; fifteen was last year's price, and eleven is the price of a single-day ticket.",
           "difficulty": "easy",
-          "status": "verified"
+          "status": "verified",
+          "blind_solvable": false
         },
         {
           "number": 4,
@@ -158,7 +164,11 @@
           },
           "explanation": "The riverside path is a public right of way, so nothing may be parked or stacked on it.",
           "difficulty": "medium",
-          "status": "verified"
+          "status": "flagged",
+          "blind_solvable": true,
+          "blind_basis": "option_wording",
+          "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: nehir kenarı yolu için sayılan üç seçenekten yalnız 'üzerine hiçbir şey bırakılamaz' bir yol kuralı, kapatılma ve servis otobüsü yolun kendisiyle değil programla ilgili.",
+          "flag_mechanism": "secenek_sozu"
         },
         {
           "number": 5,
@@ -191,7 +201,11 @@
           },
           "explanation": "The workshops now run on both days of the festival from this year onwards; the Saturday-only arrangement is in the past, and there is no charge.",
           "difficulty": "easy",
-          "status": "verified"
+          "status": "flagged",
+          "blind_solvable": true,
+          "blind_basis": "logic",
+          "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'yalnız cumartesileri' ile 'iki gün de' birbirini dışlıyor, kök 'bu yılki atölyeler' diyerek bir değişiklik ima ettiği için dışlayan çiftten geniş olanı kalıyor.",
+          "flag_mechanism": "konumsal_duzen"
         },
         {
           "number": 6,
@@ -224,7 +238,11 @@
           },
           "explanation": "Printed programmes will be at the information point from the tenth of August; the office is open only for enquiries.",
           "difficulty": "medium",
-          "status": "verified"
+          "status": "flagged",
+          "blind_solvable": true,
+          "blind_basis": "option_wording",
+          "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: kökteki 'toplama' (collect) fiili eve postayı eliyor, danışma noktası ise zaten bu iş için var olan yer.",
+          "flag_mechanism": "secenek_sozu"
         }
       ]
     },
@@ -266,7 +284,11 @@
           },
           "explanation": "The market is moving from Colworth Square to the old covered hall on Peveril Street; Baxter Street is only a car park.",
           "difficulty": "easy",
-          "status": "verified"
+          "status": "flagged",
+          "blind_solvable": true,
+          "blind_basis": "cross_question",
+          "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: pazarın nereye taşındığını aynı paketteki bir başka sorunun kökü ('yeni salon kaç tezgâh alacak') düpedüz söylüyor.",
+          "flag_mechanism": "capraz_sizinti"
         },
         {
           "number": 8,
@@ -299,7 +321,8 @@
           },
           "explanation": "The hall has room for thirty-two stalls; nineteen was the old square's limit, and twenty-eight are the stalls already spoken for.",
           "difficulty": "medium",
-          "status": "verified"
+          "status": "verified",
+          "blind_solvable": false
         },
         {
           "number": 9,
@@ -332,7 +355,11 @@
           },
           "explanation": "Since there is room for only thirty people, those who want to attend the demonstration must add their name to the list at the information desk.",
           "difficulty": "medium",
-          "status": "verified"
+          "status": "flagged",
+          "blind_solvable": true,
+          "blind_basis": "general_knowledge",
+          "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: yemek gösterisine katılma koşulu olarak 'adını listeye yazdırmak' ücretsiz etkinliklerin standart usulü, küçük ücret ve saat kaydı tikel ayrıntı olarak yazılmış.",
+          "flag_mechanism": "genel_kultur"
         },
         {
           "number": 10,
@@ -365,7 +392,11 @@
           },
           "explanation": "The loyalty card costs shoppers nothing: the five-pound plan was dropped once the traders agreed to cover the cost, so the card is free.",
           "difficulty": "medium",
-          "status": "verified"
+          "status": "flagged",
+          "blind_solvable": true,
+          "blind_basis": "general_knowledge",
+          "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: sadakat kartının ücreti sorulurken kartın tanımı gereği doğru olan 'hiç ücretsiz' seçeneği duruyor, yıllık beş sterlin ve bir sterlin çeldirici olarak konmuş.",
+          "flag_mechanism": "genel_kultur"
         }
       ]
     }

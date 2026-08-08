@@ -32,7 +32,8 @@
       "distractor_used": "10",
       "explanation": "Marit is planning to pilot with ten people; the supervisor raises the number to twenty and asks that it not be tried out on friends.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 28,
@@ -49,7 +50,8 @@
       "distractor_used": null,
       "explanation": "The report is 2,500 words; the tables and the questionnaire form are in the appendix, so they don't count towards this limit.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 29,
@@ -67,7 +69,8 @@
       "distractor_used": "the seminar room",
       "explanation": "The seminar room reserved for Thursdays has been given over to teaching; the students have been allocated the study pods on the second floor.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 30,
@@ -84,7 +87,11 @@
       "distractor_used": null,
       "explanation": "The supervisor's final reminder: the draft questionnaire must be sent to them before the pilot is carried out, not after.",
       "difficulty": "easy",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "logic",
+      "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'pilot uygulamadan önce gönderilecek olan (30)' — pilotlanan şeyin kendisi anket olduğu için boşluğa başka bir nesne konamıyor.",
+      "flag_mechanism": "konumsal_duzen"
     }
   ]
 }

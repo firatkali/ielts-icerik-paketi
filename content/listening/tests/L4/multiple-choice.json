@@ -42,7 +42,11 @@
       },
       "explanation": "The tutor wants red and green changed because roughly one man in twelve can't reliably tell the two colours apart, and one of the judges is among them.",
       "difficulty": "easy",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "general_knowledge",
+      "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: iki çizgi renginin neden değiştirildiği sorulurken 'bazı insanlar bunları ayırt edemiyor' renk körlüğüne dair standart tasarım uyarısı, jüri isteği ve baskı sapması ise sesten öğrenilecek tikel bilgiler.",
+      "flag_mechanism": "genel_kultur"
     },
     {
       "number": 25,
@@ -74,7 +78,11 @@
       },
       "explanation": "According to the tutor, the only test that works is printing one corner of the poster at full size, pinning it up and walking down the corridor to look at it.",
       "difficulty": "hard",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "option_wording",
+      "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: kök 'posteri sınamanın tek güvenilir yolu' diyerek bir sınama eylemi istiyor, 'bir bölümünü gerçek boyutta basmak' tek sınama, diğer ikisi (metni kısaltmak, punto ayarlamak) düzenleme.",
+      "flag_mechanism": "secenek_sozu"
     },
     {
       "number": 26,
@@ -106,7 +114,11 @@
       },
       "explanation": "Anneke would rather pay eighteen pounds than miss the deadline; she reminds them that two groups missed it last year.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "option_wording",
+      "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: kök 'Anneke ne diyor' diye görüş soruyor, üç seçenekten yalnız 'teslim tarihini kaçırmaya yeğdir' bir görüş bildiriyor, kalan ikisi olgu iddiası.",
+      "flag_mechanism": "secenek_sozu"
     }
   ]
 }

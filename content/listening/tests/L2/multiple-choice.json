@@ -50,7 +50,10 @@
           },
           "explanation": "The librarian says they expected to be closed for a year, but because of the heating pipes the work took eighteen months.",
           "difficulty": "medium",
-          "status": "verified"
+          "status": "verified",
+          "blind_solvable": true,
+          "blind_basis": "number_guess",
+          "blind_note": "3/3 turda tutturuldu ama dayanak sayi/saat tahminiydi; tutturma orani uc secenekli sans oranina esit, sizinti sayilmadi."
         },
         {
           "number": 12,
@@ -84,7 +87,8 @@
           },
           "explanation": "The borrowing limit was twelve before the refurbishment; members can now borrow fifteen items at a time.",
           "difficulty": "easy",
-          "status": "verified"
+          "status": "verified",
+          "blind_solvable": false
         },
         {
           "number": 13,
@@ -118,7 +122,10 @@
           },
           "explanation": "The reading group now meets on the second Tuesday of the month at seven; the choir has taken the first Tuesday evening.",
           "difficulty": "medium",
-          "status": "verified"
+          "status": "verified",
+          "blind_solvable": true,
+          "blind_basis": "number_guess",
+          "blind_note": "3/3 turda tutturuldu ama dayanak sayi/saat tahminiydi; tutturma orani uc secenekli sans oranina esit, sizinti sayilmadi."
         }
       ]
     },
@@ -170,7 +177,11 @@
           },
           "explanation": "The mural was painted by pupils from the primary schools on either side of the park (C), and a leaflet by the door explains what is in it (E). Second answer point: L2-S2-29.",
           "difficulty": "medium",
-          "status": "verified"
+          "status": "flagged",
+          "blind_solvable": true,
+          "blind_basis": "option_wording",
+          "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: kütüphane duvar resmi anlatısının stok hâli iki seçeneğe yazılmış (yerel okul çocuklarının boyaması + içeriğini anlatan broşür), 1906 tarihi rastgele, D ise C ile aynı yuvayı dolduran çelişkili seçenek.",
+          "flag_mechanism": "secenek_sozu"
         }
       ]
     },
@@ -212,7 +223,8 @@
           },
           "explanation": "The footbridge leading to the site below the weir has been closed since the winter storms, and there is no other way in without entering the water.",
           "difficulty": "medium",
-          "status": "verified"
+          "status": "verified",
+          "blind_solvable": false
         },
         {
           "number": 22,
@@ -246,7 +258,8 @@
           },
           "explanation": "The second round was planned for four weeks after the first, but because the brook was in flood throughout June it slipped to the middle of July.",
           "difficulty": "medium",
-          "status": "verified"
+          "status": "verified",
+          "blind_solvable": false
         },
         {
           "number": 23,
@@ -280,7 +293,11 @@
           },
           "explanation": "Marisol says that organising it site by site completely hides the overall pattern: the reader has to keep track of five separate sets of figures in their head.",
           "difficulty": "medium",
-          "status": "verified"
+          "status": "flagged",
+          "blind_solvable": true,
+          "blind_basis": "option_wording",
+          "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: kök 'önerilen yapının nesi yanlış' diye soruyor ve üç seçenekten yalnız 'genel deseni gizlerdi' bir yapı kusuru, kalan ikisi yapının değil sürecin özelliği.",
+          "flag_mechanism": "secenek_sozu"
         }
       ]
     }

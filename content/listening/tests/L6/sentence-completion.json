@@ -32,7 +32,8 @@
       "distractor_used": "86",
       "explanation": "Eighty-six is the number of results the search the librarian tried that morning returned in the first database; after screening abstracts, about thirty studies are expected to remain.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 28,
@@ -49,7 +50,8 @@
       "distractor_used": null,
       "explanation": "The librarian asks for the screening sheet on the module page to be used, with the reason for rejecting each source written down.",
       "difficulty": "easy",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 29,
@@ -66,7 +68,8 @@
       "distractor_used": null,
       "explanation": "Reference management software is suggested instead of a shared folder; they need to set up a group library so that both of them add to the same place.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 30,
@@ -84,7 +87,8 @@
       "distractor_used": null,
       "explanation": "The export process is limited to two hundred records at a time; the librarian gives this along with the reminder to save the search.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     }
   ]
 }

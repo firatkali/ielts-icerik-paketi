@@ -31,7 +31,8 @@
       "distractor_used": "lime plaster alone",
       "explanation": "The speaker says people used to just call it lime plaster; according to the analyses, the substance that actually keeps the lining flexible is crushed pottery.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 37,
@@ -48,7 +49,8 @@
       "distractor_used": null,
       "explanation": "In good systems the first rain does not go straight into the cistern; it passes through a small settling basin that catches the dust and droppings off the roof.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 38,
@@ -65,7 +67,11 @@
       "distractor_used": null,
       "explanation": "The first item of maintenance work is clearing the channels of silt every few years.",
       "difficulty": "easy",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "frame_wording",
+      "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'kanalların birkaç yılda bir (38) kazınması gerekiyordu' çerçevesi 'dig out of a channel' eşdizimiyle birleşince tek doldurma bırakıyor.",
+      "flag_mechanism": "cerceve_sozu"
     },
     {
       "number": 39,
@@ -83,7 +89,8 @@
       "distractor_used": "every ten days",
       "explanation": "Although older publications give ten days, the records for the region the speaker studied say twelve days.",
       "difficulty": "hard",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 40,
@@ -100,7 +107,11 @@
       "distractor_used": null,
       "explanation": "The systems broke down not because a better pump was found, but because the link between holding a water share and the obligation to maintain the channel was broken.",
       "difficulty": "hard",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "grammar_cue",
+      "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: cümledeki belirsiz tanımlık 'an' boşluğu ünlüyle başlayan bir sözcüğe kilitliyor, 'hisse tutmak artık ... getirmiyordu' çerçevesiyle birleşince tek aday kalıyor.",
+      "flag_mechanism": "esdizim_kilidi"
     }
   ]
 }

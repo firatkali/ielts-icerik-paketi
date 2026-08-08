@@ -65,7 +65,11 @@
       "distractor_used": "2",
       "explanation": "Older publications give the limit as two millimetres, and this inconsistency caused a lot of confusion in the field; today's agreed figure is five millimetres.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "general_knowledge",
+      "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: '(31) milimetreden küçük parçacıklar mikroplastik sayılır' — eşik literatürde tek ve sabit bir sayı, konuşmanın seçtiği bir değer değil.",
+      "flag_mechanism": "genel_kultur"
     },
     {
       "number": 32,
@@ -84,7 +88,8 @@
       "distractor_used": "a tenth",
       "explanation": "The share from lost fishing gear, lines and buoys was long thought to be a tenth; better surveys over the last decade have raised it closer to a fifth.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 33,
@@ -102,7 +107,8 @@
       "distractor_used": null,
       "explanation": "The load carried by rivers is not spread evenly across the year; most of it passes in a few weeks of high flow, which is also the hardest period to sample.",
       "difficulty": "hard",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 34,
@@ -120,7 +126,8 @@
       "distractor_used": "8",
       "explanation": "For years the figure of eight million tonnes was quoted; the revised estimate, using better waste data, is closer to eleven million tonnes.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 35,
@@ -137,7 +144,8 @@
       "distractor_used": null,
       "explanation": "The fourth of the four possible destinations is particles becoming too small for measuring instruments to detect; this is where the importance of nanoplastic comes from.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     }
   ]
 }

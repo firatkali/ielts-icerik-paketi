@@ -32,7 +32,11 @@
       "distractor_used": null,
       "explanation": "Nineteenth-century laws forced local councils to provide allotments to households without a garden.",
       "difficulty": "easy",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "cross_question",
+      "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'bahçesi olmayan hanelere (31) sağlamaya zorladı' boşluğunu alıştırma tablosunun 9. satırı boşluksuz yazıyor: 'bahçesi olmayan haneler için kiralık parseller'.",
+      "flag_mechanism": "capraz_sizinti"
     },
     {
       "number": 32,
@@ -50,7 +54,11 @@
       "distractor_used": null,
       "explanation": "By far the most common of the three forms is the community garden, set up on land no one else has a use for.",
       "difficulty": "easy",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "cross_question",
+      "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: '(32) — en yaygını, kimsenin işine yaramayan zeminde' boşluğunu alıştırma tablosunun 10. satırı sırayla sayıyor: 'topluluk bahçeleri, çatı çiftlikleri ve (10) tarım'.",
+      "flag_mechanism": "capraz_sizinti"
     },
     {
       "number": 33,
@@ -69,7 +77,8 @@
       "distractor_used": "5,000",
       "explanation": "The same survey also cites 5,000 square metres, but that figure includes paths, sheds and the car park; the median value is 2,000 square metres.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 34,
@@ -87,7 +96,8 @@
       "distractor_used": "fifteen",
       "explanation": "For years a yield of fifteen times was claimed; more careful studies put the realistic figure at about three times.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_note": "Sessiz olcum araci govde cakismasi uyarisiyla bu kalemi kirletti; olcum disi birakildi, soru degistirilmedi."
     },
     {
       "number": 35,
@@ -107,7 +117,8 @@
       "distractor_used": null,
       "explanation": "Measurements on a trial building show that about half of a heavy downpour was held back by the planted roof.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_note": "Sessiz olcum araci govde cakismasi uyarisiyla bu kalemi kirletti; olcum disi birakildi, soru degistirilmedi."
     },
     {
       "number": 36,
@@ -124,7 +135,11 @@
       "distractor_used": "exercise",
       "explanation": "The benefit participants mentioned most often was not the food or the exercise, but the contact with other people.",
       "difficulty": "hard",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "frame_wording",
+      "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'bahçıvanların en çok andığı şey (36), yemek değil' çerçevesi 'başka insanlarla' kaydıyla birleşince boşluğa insan ilişkisi dışında aday bırakmıyor.",
+      "flag_mechanism": "cerceve_sozu"
     }
   ]
 }

@@ -70,7 +70,8 @@
           "distractor_used": null,
           "explanation": "After explaining the rules for vacating the room, the advisor mentions a deposit of two hundred and fifty pounds; the money is returned after the final inspection.",
           "difficulty": "easy",
-          "status": "verified"
+          "status": "verified",
+          "blind_solvable": false
         },
         {
           "number": 2,
@@ -89,7 +90,8 @@
           "distractor_used": null,
           "explanation": "The student asks what to add to the form; the advisor asks for a copy of the offer letter and photo identification, giving a passport or driving licence as examples.",
           "difficulty": "easy",
-          "status": "verified"
+          "status": "verified",
+          "blind_solvable": false
         },
         {
           "number": 3,
@@ -111,7 +113,8 @@
           "distractor_used": "12 September",
           "explanation": "The letter the student has says the 12th, but that date is the welcome programme for students arriving from abroad; move-in day for everyone else is 14 September.",
           "difficulty": "medium",
-          "status": "verified"
+          "status": "verified",
+          "blind_solvable": false
         },
         {
           "number": 4,
@@ -130,7 +133,8 @@
           "distractor_used": "Wednesdays",
           "explanation": "The published schedule and some noticeboards still say Wednesday; the advisor says the cleaning moved to Thursdays last term.",
           "difficulty": "medium",
-          "status": "verified"
+          "status": "verified",
+          "blind_solvable": false
         }
       ]
     },
@@ -191,7 +195,8 @@
           "distractor_used": null,
           "explanation": "The passenger gives the departure time as \"twenty past four\"; the arrival time (a quarter to six) is separate information — the departure time is what is asked for.",
           "difficulty": "medium",
-          "status": "verified"
+          "status": "verified",
+          "blind_solvable": false
         },
         {
           "number": 6,
@@ -209,7 +214,8 @@
           "distractor_used": null,
           "explanation": "As the contents of the bag are listed, the keys are added last; the key fob is clearly said to be wooden.",
           "difficulty": "easy",
-          "status": "verified"
+          "status": "verified",
+          "blind_solvable": false
         },
         {
           "number": 7,
@@ -229,7 +235,8 @@
           "distractor_used": null,
           "explanation": "The clerk gives the reference by letter name and then digit by digit: M, followed by two-oh-seven-four.",
           "difficulty": "medium",
-          "status": "verified"
+          "status": "verified",
+          "blind_solvable": false
         },
         {
           "number": 8,
@@ -250,7 +257,8 @@
           "distractor_used": null,
           "explanation": "When the woman asks for the bag to be posted, the clerk says a rucksack that size costs twelve pounds.",
           "difficulty": "easy",
-          "status": "verified"
+          "status": "verified",
+          "blind_solvable": false
         }
       ]
     },
@@ -307,7 +315,11 @@
           "distractor_used": "1950s",
           "explanation": "The speaker says the peak was in the 1940s, and rules out the distractor herself by adding that the 1950s figure some sources give is actually already part of the decline.",
           "difficulty": "medium",
-          "status": "verified"
+          "status": "flagged",
+          "blind_solvable": true,
+          "blind_basis": "general_knowledge",
+          "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'bahçesi olmayan haneler için kiralık parseller en yüksek sayısına (9) ulaştı' — tahsis bahçelerinin zirvesi savaş yılları olarak tarihsel genel bilgi.",
+          "flag_mechanism": "genel_kultur"
         },
         {
           "number": 10,
@@ -325,7 +337,11 @@
           "distractor_used": null,
           "explanation": "The third form is introduced as a \"controlled-environment farm\", and its common name is said to be vertical farming.",
           "difficulty": "easy",
-          "status": "verified"
+          "status": "flagged",
+          "blind_solvable": true,
+          "blind_basis": "cross_question",
+          "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'topluluk bahçeleri, çatı çiftlikleri ve (10) tarım' boşluğunu L1 not paketi düz metin veriyor: 'lambayla aydınlatılan bir iç mekân çiftliği'.",
+          "flag_mechanism": "capraz_sizinti"
         },
         {
           "number": 11,
@@ -344,7 +360,8 @@
           "distractor_used": null,
           "explanation": "As the benefits named by participants are listed, saving money is said to come at the bottom of the list.",
           "difficulty": "medium",
-          "status": "verified"
+          "status": "verified",
+          "blind_solvable": false
         }
       ]
     },
@@ -405,7 +422,8 @@
           "distractor_used": null,
           "explanation": "The advisor gives the two membership types one after another; what is asked for is the monthly fee for the off-peak membership, not the full one.",
           "difficulty": "easy",
-          "status": "verified"
+          "status": "verified",
+          "blind_solvable": false
         },
         {
           "number": 13,
@@ -426,7 +444,8 @@
           "distractor_used": null,
           "explanation": "While explaining why he asks whether the man is a student, the advisor says students and the over-65s get a fifth off.",
           "difficulty": "medium",
-          "status": "verified"
+          "status": "verified",
+          "blind_solvable": false
         },
         {
           "number": 14,
@@ -444,7 +463,8 @@
           "distractor_used": "Thursday evening",
           "explanation": "The man first asks for Thursday evening, but it is full; the quarter-to-seven appointment is given for Friday instead.",
           "difficulty": "medium",
-          "status": "verified"
+          "status": "verified",
+          "blind_solvable": false
         },
         {
           "number": 15,
@@ -462,7 +482,8 @@
           "distractor_used": null,
           "explanation": "The advisor says the lockers no longer take coins, and members set their own code.",
           "difficulty": "easy",
-          "status": "verified"
+          "status": "verified",
+          "blind_solvable": false
         }
       ]
     }

@@ -31,7 +31,8 @@
       "distractor_used": "last year's handbook",
       "explanation": "The adviser says the version in last year's handbook is out of date; the referencing guide should be taken from the module page.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 28,
@@ -48,7 +49,8 @@
       "distractor_used": null,
       "explanation": "The media suite where the presentation will take place is booked through the department office.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 29,
@@ -66,7 +68,8 @@
       "distractor_used": null,
       "explanation": "Because the office only takes bookings up to a week in advance, Friday is the safe day.",
       "difficulty": "hard",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 30,
@@ -84,7 +87,11 @@
       "distractor_used": null,
       "explanation": "Because everyone in the room has read the same section, the adviser says not to open the presentation with a definition.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "frame_wording",
+      "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'açılışları topluluk enerjisinin bir (30) olmamalı' çerçevesi sunum öğüdünün kalıp cümlesi ('tanımla açma'), boşluk kendi kalıbının içinde.",
+      "flag_mechanism": "cerceve_sozu"
     }
   ]
 }

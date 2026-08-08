@@ -42,7 +42,10 @@
       },
       "explanation": "Tomas thinks it's 3,000 words; Rhian says the limit changed over the summer, the module page now says 2,500, and it's the handbook that hasn't been updated.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": true,
+      "blind_basis": "number_guess",
+      "blind_note": "3/3 turda tutturuldu ama dayanak sayi/saat tahminiydi; tutturma orani uc secenekli sans oranina esit, sizinti sayilmadi."
     },
     {
       "number": 22,
@@ -74,7 +77,11 @@
       },
       "explanation": "According to the librarian, the 412 results came from typing the whole question as a single sentence into the search box; the search will instead be built using lists of concepts.",
       "difficulty": "easy",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "general_knowledge",
+      "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: ilk aramanın 412 sonuç vermesinin sebebi olarak 'sorunun tümü cümle olarak girildi' veri tabanı arama eğitiminin klasik hatası, yazım yanlışı ve çoklu veri tabanı sonucu bu şekilde artırmaz.",
+      "flag_mechanism": "genel_kultur"
     },
     {
       "number": 23,
@@ -106,7 +113,11 @@
       },
       "explanation": "The asterisk on the stem 'activ' picks up the forms activity, active and activities all at once; searching for an exact phrase is instead the job of quotation marks.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "general_knowledge",
+      "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: yıldız işaretinin ne yaptığı arama sözdiziminin tanımlı bir olgusu (aynı sözcüğün farklı biçimlerini bulur), öbeği bir arada tutmak tırnağın işi.",
+      "flag_mechanism": "genel_kultur"
     }
   ]
 }

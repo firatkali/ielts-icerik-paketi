@@ -31,7 +31,8 @@
       "distractor_used": null,
       "explanation": "At the point where the high ground meets the plain, rain that fell higher up collects in gravel below the surface.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 32,
@@ -50,7 +51,11 @@
       "distractor_used": "one in a hundred",
       "explanation": "A gradient of one in a hundred is the figure for the air shafts, not the tunnel; the channel itself should rise at roughly one in a thousand.",
       "difficulty": "hard",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "general_knowledge",
+      "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'kuyuya doğru kabaca binde bir eğimle tünel kazılır' — yeraltı su tüneli eğiminin bilinen oranı, 'one in a ___' kalıbının ucunda alan bilgisi tek değeri bırakıyor.",
+      "flag_mechanism": "genel_kultur"
     },
     {
       "number": 33,
@@ -67,7 +72,11 @@
       "distractor_used": null,
       "explanation": "The vertical shafts have three functions; according to the speaker, the most important is that they give access for maintenance for as long as the system is in use.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "logic",
+      "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'toprağı çıkarır, hava verir ve her şeyden önce (33) sağlar' — üç işlevden ikisi sayıldıktan sonra dikey kuyuların kalan tek işlevi bakım erişimi.",
+      "flag_mechanism": "konumsal_duzen"
     },
     {
       "number": 34,
@@ -85,7 +94,8 @@
       "distractor_used": null,
       "explanation": "Losses from an open channel are around a third, while an underground channel keeps losses under five per cent.",
       "difficulty": "easy",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 35,
@@ -102,7 +112,8 @@
       "distractor_used": null,
       "explanation": "The flow cannot be switched off, so the water runs day and night; that's why almost every system of this type ends in a holding pond.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     }
   ]
 }

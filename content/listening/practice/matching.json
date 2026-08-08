@@ -65,7 +65,11 @@
           },
           "explanation": "The tutor says the single most common reason for losing marks is putting too much text on the screen and reading it out; that is why he also limits the number of slides to ten.",
           "difficulty": "medium",
-          "status": "verified"
+          "status": "flagged",
+          "blind_solvable": true,
+          "blind_basis": "option_wording",
+          "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'üzerinde çok fazla metin olması puan götürür' yalnız slayt için söylenir.",
+          "flag_mechanism": "secenek_sozu"
         },
         {
           "number": 2,
@@ -87,7 +91,11 @@
           },
           "explanation": "The tutor points out that the national survey is now three years old and will not tell them anything about their particular schools — in other words, its content is out of date.",
           "difficulty": "medium",
-          "status": "verified"
+          "status": "flagged",
+          "blind_solvable": true,
+          "blind_basis": "option_wording",
+          "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'içeriği güncelliğini yitirmiş' yalnız bir veri kaynağına (ulusal anket) uyar.",
+          "flag_mechanism": "secenek_sozu"
         },
         {
           "number": 3,
@@ -109,7 +117,8 @@
           },
           "explanation": "An electronic copy of the handout must reach the tutor by noon the day before, so that he can print it for everyone.",
           "difficulty": "easy",
-          "status": "verified"
+          "status": "verified",
+          "blind_solvable": false
         }
       ]
     },
@@ -166,7 +175,8 @@
           },
           "explanation": "In the tutor's standard answer, the method, along with its diagram, runs along the bottom of the poster as a narrow strip.",
           "difficulty": "medium",
-          "status": "verified"
+          "status": "verified",
+          "blind_solvable": false
         },
         {
           "number": 5,
@@ -188,7 +198,11 @@
           },
           "explanation": "The tutor has them change the red and the green: roughly one man in twelve cannot reliably tell these two colours apart.",
           "difficulty": "medium",
-          "status": "verified"
+          "status": "flagged",
+          "blind_solvable": true,
+          "blind_basis": "option_wording",
+          "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: seçenek 'Two of THEM look alike' diyor, çoğul zamir çoğul kök gerektiriyor ve kutuda tek çoğul kök var (çizgilerin renkleri); seçeneğin dilbilgisi cevabı veriyor.",
+          "flag_mechanism": "esdizim_kilidi"
         },
         {
           "number": 6,
@@ -210,7 +224,8 @@
           },
           "explanation": "The title needs to be readable from about three metres away; the tutor suggests they test this by printing a corner and looking from the corridor.",
           "difficulty": "easy",
-          "status": "verified"
+          "status": "verified",
+          "blind_solvable": false
         }
       ]
     },
@@ -272,7 +287,11 @@
           },
           "explanation": "The tutor combines the two styles: the body of the questionnaire will consist of closed (scaled) questions, with two open questions at the very end.",
           "difficulty": "medium",
-          "status": "verified"
+          "status": "flagged",
+          "blind_solvable": true,
+          "blind_basis": "option_wording",
+          "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'iki farklı stili karıştırmalı' (açık + kapalı soru) yalnız anket kökü için söylenebilir.",
+          "flag_mechanism": "secenek_sozu"
         },
         {
           "number": 8,
@@ -295,7 +314,11 @@
           },
           "explanation": "The pilot will not be run on each other or on friends: friends read the question you meant to write rather than the one you actually wrote, so people who have never heard of the project are needed.",
           "difficulty": "medium",
-          "status": "verified"
+          "status": "flagged",
+          "blind_solvable": true,
+          "blind_basis": "general_knowledge",
+          "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: pilot uygulamanın klasik uyarısı öğrencinin arkadaşlarıyla yapılmamasıdır (örneklem yanlılığı), ders kitabı bilgisi kökü seçeneğe bağlıyor.",
+          "flag_mechanism": "genel_kultur"
         },
         {
           "number": 9,
@@ -318,7 +341,11 @@
           },
           "explanation": "The information sheet goes with the consent wording as an attachment to the ethics form, and each one is limited to a single page.",
           "difficulty": "easy",
-          "status": "verified"
+          "status": "flagged",
+          "blind_solvable": true,
+          "blind_basis": "option_wording",
+          "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'tek sayfaya sığmalı' yalnız katılımcı bilgi formu için söylenebilir.",
+          "flag_mechanism": "secenek_sozu"
         },
         {
           "number": 10,
@@ -341,7 +368,11 @@
           },
           "explanation": "The presentation is defined as ten minutes of talking plus five minutes of questions; the full fifteen minutes does not belong to the students' own delivery.",
           "difficulty": "medium",
-          "status": "verified"
+          "status": "flagged",
+          "blind_solvable": true,
+          "blind_basis": "option_wording",
+          "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'dinleyici soruları için süre içerir' yalnız sunum kökü için söylenebilir.",
+          "flag_mechanism": "secenek_sozu"
         }
       ]
     }

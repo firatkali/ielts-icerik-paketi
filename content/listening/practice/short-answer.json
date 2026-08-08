@@ -42,7 +42,8 @@
           "distractor_used": null,
           "explanation": "The speaker says the number of plots fell steadily for fifty years after the peak; the question asks about the length of the decline, not the peak year.",
           "difficulty": "medium",
-          "status": "verified"
+          "status": "verified",
+          "blind_solvable": false
         },
         {
           "number": 2,
@@ -61,7 +62,11 @@
           "distractor_used": null,
           "explanation": "The second of the three forms is the commercial rooftop farm; it puts soil beds or greenhouses on the flat roof of an existing building.",
           "difficulty": "easy",
-          "status": "verified"
+          "status": "flagged",
+          "blind_solvable": true,
+          "blind_basis": "frame_wording",
+          "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'üç kentsel tarım biçiminden hangisi var olan bir binanın üstüne kurulur' — sorunun kendi tanımı çatı çiftliğini adlandırıyor.",
+          "flag_mechanism": "cerceve_sozu"
         },
         {
           "number": 3,
@@ -82,7 +87,8 @@
           "distractor_used": null,
           "explanation": "The survey, published two years ago, looked at forty-one cities across Europe and North America.",
           "difficulty": "easy",
-          "status": "verified"
+          "status": "verified",
+          "blind_solvable": false
         },
         {
           "number": 4,
@@ -100,7 +106,11 @@
           "distractor_used": null,
           "explanation": "When lead levels turn out to be high, the site is not abandoned; raised beds are built and clean compost is brought in from outside.",
           "difficulty": "medium",
-          "status": "verified"
+          "status": "flagged",
+          "blind_solvable": true,
+          "blind_basis": "general_knowledge",
+          "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'kurşun yüksek çıktığında yetiştiriciler sahayı terk etmek yerine ne inşa etmeli' — kirli kent toprağının standart çözümü.",
+          "flag_mechanism": "genel_kultur"
         }
       ]
     },
@@ -130,7 +140,8 @@
           "distractor_used": null,
           "explanation": "When the fall is too small, the silt that should be carried along settles on the floor of the channel and blocks it; when the fall is too great, the tunnel cuts into its own floor instead.",
           "difficulty": "medium",
-          "status": "verified"
+          "status": "verified",
+          "blind_solvable": false
         },
         {
           "number": 6,
@@ -150,7 +161,8 @@
           "distractor_used": "half",
           "explanation": "For the open canal crossing the hot plain, a half is often quoted; the field measurements point to a loss nearer a third.",
           "difficulty": "hard",
-          "status": "verified"
+          "status": "verified",
+          "blind_solvable": false
         },
         {
           "number": 7,
@@ -169,7 +181,8 @@
           "distractor_used": null,
           "explanation": "However well the tunnel has been dug, it depends on the water table beneath it; when a modern borehole lowers that level, an eight-hundred-year-old channel can run dry in a single season.",
           "difficulty": "hard",
-          "status": "verified"
+          "status": "verified",
+          "blind_solvable": false
         },
         {
           "number": 8,
@@ -188,7 +201,8 @@
           "distractor_used": null,
           "explanation": "Stepped wells are not just a water source; in high summer the lowest chambers stay about ten degrees cooler than the surface.",
           "difficulty": "medium",
-          "status": "verified"
+          "status": "verified",
+          "blind_solvable": false
         }
       ]
     },
@@ -218,7 +232,11 @@
           "distractor_used": null,
           "explanation": "Because the decibel scale is logarithmic, a ten-unit rise means ten times the energy, but roughly twice the perceived loudness.",
           "difficulty": "easy",
-          "status": "verified"
+          "status": "flagged",
+          "blind_solvable": true,
+          "blind_basis": "general_knowledge",
+          "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'desibel ne tür bir ölçek kullanır' desibelin tanımını soruyor.",
+          "flag_mechanism": "genel_kultur"
         },
         {
           "number": 10,
@@ -236,7 +254,11 @@
           "distractor_used": null,
           "explanation": "In the ranking of exposed population, road traffic is far ahead; railways come a long way second and aircraft third.",
           "difficulty": "medium",
-          "status": "verified"
+          "status": "flagged",
+          "blind_solvable": true,
+          "blind_basis": "general_knowledge",
+          "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'karayolundan sonra en çok insanı etkileyen kaynak hangisi' — gürültü maruziyeti sıralamasının bilinen ikinci sırası.",
+          "flag_mechanism": "genel_kultur"
         },
         {
           "number": 11,
@@ -255,7 +277,11 @@
           "distractor_used": null,
           "explanation": "A barrier works by breaking the line of sight between the source and the ear; if the wheels are still visible, the barrier is not doing its job.",
           "difficulty": "medium",
-          "status": "verified"
+          "status": "flagged",
+          "blind_solvable": true,
+          "blind_basis": "frame_wording",
+          "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'bir duvarın işe yaraması için trafikle dinleyici arasında neyi kesmesi gerekir' — sorunun kendi tanımı görüş hattını söylüyor, aynı alıştırma akış şeması da 'tekerlekleri görüşten gizleyecek yere konur' diye tekrarlıyor.",
+          "flag_mechanism": "cerceve_sozu"
         },
         {
           "number": 12,
@@ -275,7 +301,8 @@
           "distractor_used": null,
           "explanation": "For the practical, each student will choose two places and record for an hour at each, in fifteen-minute blocks.",
           "difficulty": "easy",
-          "status": "verified"
+          "status": "verified",
+          "blind_solvable": false
         }
       ]
     },
@@ -308,7 +335,8 @@
           "distractor_used": null,
           "explanation": "Below five millimetres it is microplastic; once you go below one micrometre, the speaker uses the term nanoplastic.",
           "difficulty": "medium",
-          "status": "verified"
+          "status": "verified",
+          "blind_solvable": false
         },
         {
           "number": 14,
@@ -326,7 +354,11 @@
           "distractor_used": null,
           "explanation": "Most of the share coming from the sea itself is fishing and sailing equipment; the speaker groups nets, lines, floats and strapping under the single word gear.",
           "difficulty": "medium",
-          "status": "verified"
+          "status": "flagged",
+          "blind_solvable": true,
+          "blind_basis": "general_knowledge",
+          "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'denizde etkinlik sırasında kaybedilen ekipman için konuşmacı hangi sözcüğü kullanıyor' — terimin yerleşik adını soran bir tanım sorusu.",
+          "flag_mechanism": "genel_kultur"
         },
         {
           "number": 15,
@@ -347,7 +379,11 @@
           "distractor_used": null,
           "explanation": "In cores taken from sheltered basins, plastic first appears in layers from the 1950s, and the quantity has roughly doubled every fifteen years since then.",
           "difficulty": "hard",
-          "status": "verified"
+          "status": "flagged",
+          "blind_solvable": true,
+          "blind_basis": "cross_question",
+          "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'miktar ne sıklıkla ikiye katlandı' sorusunun cevabını L5 özet paketi düz metin veriyor: 'the amount has roughly doubled every fifteen years since'.",
+          "flag_mechanism": "capraz_sizinti"
         }
       ]
     }

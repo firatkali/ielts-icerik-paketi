@@ -31,7 +31,11 @@
       "distractor_used": null,
       "explanation": "All the raw data goes in the appendix; according to the supervisor, the appendix is kept outside the word limit.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "grammar_cue",
+      "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'bir (27) içine konur, kelime sayısına girmez' çerçevesindeki 'an' boşluğu ünlüyle başlayan sözcüğe kilitliyor, kelime sayısı dışında kalma kaydı tek adayı bırakıyor.",
+      "flag_mechanism": "esdizim_kilidi"
     },
     {
       "number": 28,
@@ -49,7 +53,8 @@
       "distractor_used": "3,000",
       "explanation": "Last year's group had a limit of three thousand words; this year's limit is two thousand five hundred, and this is a maximum, not a target.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 29,
@@ -68,7 +73,8 @@
       "distractor_used": "the twelfth",
       "explanation": "The twelfth in the student's notebook is the draft date from the old schedule; the finished report is due on the nineteenth, at midday.",
       "difficulty": "hard",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 30,
@@ -85,7 +91,8 @@
       "distractor_used": null,
       "explanation": "Alongside the cover sheet, a signed risk assessment is also required; without it, the supervisor cannot assess the fieldwork.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     }
   ]
 }

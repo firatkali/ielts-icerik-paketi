@@ -56,7 +56,8 @@
       },
       "explanation": "Oxygen was measured with a chemical test kit on the first visit and with a meter in July; the supervisor stresses this by saying 'different method, different error'.",
       "difficulty": "hard",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 25,
@@ -77,7 +78,8 @@
       },
       "explanation": "The invertebrate counts show a sharp difference between the two sites: 11 families at the car-park site versus 23 behind the allotments.",
       "difficulty": "easy",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 26,
@@ -98,7 +100,11 @@
       },
       "explanation": "Rhys objects to putting all the raw data in the appendix: to him, that means fifteen pages of tables nobody will read.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "option_wording",
+      "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'bir öğrenci kimsenin okuyacağından şüphe ediyor' yalnız ham veri (ek) kökü için söylenebilir.",
+      "flag_mechanism": "secenek_sozu"
     }
   ]
 }

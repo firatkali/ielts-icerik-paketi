@@ -34,7 +34,8 @@
       "distractor_used": null,
       "explanation": "Sound is a physical event that can be measured; noise, on the other hand, is a judgement — sound that someone does not want. That is why two people hearing the same level can be bothered to different degrees.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 32,
@@ -55,7 +56,11 @@
       "distractor_used": "10 decibels",
       "explanation": "Because the scale is logarithmic, doubling the traffic adds three decibels, not ten; this is close to the smallest change most people can notice.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "general_knowledge",
+      "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'trafik ikiye katlanırsa ses düzeyi kaç desibel artar' akustiğin sabit kuralını soruyor, konuşmanın seçtiği bir değeri değil.",
+      "flag_mechanism": "genel_kultur"
     },
     {
       "number": 33,
@@ -76,7 +81,11 @@
       "distractor_used": null,
       "explanation": "Because the ear is much less sensitive to low frequencies, the measuring device applies a weighting and largely discounts sounds at the low end.",
       "difficulty": "hard",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "general_knowledge",
+      "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'çevre ölçümlerinde kullanılan ağırlıklama frekans aralığının hangi bölümünü bastırır' — A-ağırlıklamasının tanımı gereği alçak frekanslar.",
+      "flag_mechanism": "genel_kultur"
     },
     {
       "number": 34,
@@ -96,7 +105,11 @@
       "distractor_used": "every 3 years",
       "explanation": "The three-year figure in old textbooks is no longer valid; the map is renewed every five years.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "general_knowledge",
+      "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'büyük bir yerleşim stratejik gürültü haritasını hangi sıklıkla yeniler' — mevzuatın beş yıllık döngüsü.",
+      "flag_mechanism": "genel_kultur"
     },
     {
       "number": 35,
@@ -116,7 +129,8 @@
       "distractor_used": "two thirds",
       "explanation": "The proportion once given as two thirds is now nearer four fifths in the new figures; rail comes second and air comes third.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     }
   ]
 }

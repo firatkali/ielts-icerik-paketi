@@ -61,7 +61,11 @@
       },
       "explanation": "Defending the five-point scale, Marit says that at the end you have something you can actually add up; the interview takes ninety seconds in a doorway.",
       "difficulty": "hard",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "option_wording",
+      "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'sonuçlar basitçe toplanabilir' yalnız bir ölçek kökü (beş puanlı ölçek) için söylenebilir.",
+      "flag_mechanism": "secenek_sozu"
     },
     {
       "number": 25,
@@ -83,7 +87,11 @@
       },
       "explanation": "According to the adviser, past four minutes people start walking off mid-sentence, and a half-finished form is worse than no form at all.",
       "difficulty": "easy",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "option_wording",
+      "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'çok uzun sürerse insanlar bırakır' yalnız 'görüşmenin uzunluğu' kökünü yeniden söylüyor.",
+      "flag_mechanism": "secenek_sozu"
     },
     {
       "number": 26,
@@ -105,7 +113,11 @@
       },
       "explanation": "The adviser wants one weekday and one Saturday: a Saturday-only sample would represent only weekend shoppers.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "option_wording",
+      "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'hem bir hafta içi hem bir cumartesi gerekli' yalnız gün kökü için söylenebilir, kutunun her seçeneği kendi kökünü adlandırdığı için üç kök de zorlanmadan çıkıyor.",
+      "flag_mechanism": "secenek_sozu"
     }
   ]
 }

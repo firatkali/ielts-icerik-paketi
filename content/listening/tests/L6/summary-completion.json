@@ -32,7 +32,8 @@
       "distractor_used": "fifteen",
       "explanation": "The fifteen-point rise reported in the papers comes from a pilot in a single town; in the larger trials the effect stays around five points.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 38,
@@ -49,7 +50,11 @@
       "distractor_used": null,
       "explanation": "When the same intervention is repeated across many sites, the average effect comes out at roughly half of what the original study reported.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "general_knowledge",
+      "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'çok merkezde tekrarlandığında etki genelde ilk yayımlananın (38) kadarı kalır' — yineleme literatürünün bilinen 'etki yarıya iner' bulgusu.",
+      "flag_mechanism": "genel_kultur"
     },
     {
       "number": 39,
@@ -66,7 +71,8 @@
       "distractor_used": null,
       "explanation": "The usual question asked to distinguish helping from obstructing is whether the person's own goals are being served.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 40,
@@ -83,7 +89,8 @@
       "distractor_used": null,
       "explanation": "The second safeguard in the method section: registering the prediction openly before the data is collected stops the analysis from being altered afterwards.",
       "difficulty": "hard",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     }
   ]
 }

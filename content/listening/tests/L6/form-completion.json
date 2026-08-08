@@ -31,7 +31,8 @@
       "distractor_used": null,
       "explanation": "The surname is spelt out letter by letter on the recording: B-R-A-T-H-W-A-I-T-E; the student also adds that there is no extra letter in the middle.",
       "difficulty": "easy",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 2,
@@ -49,7 +50,8 @@
       "distractor_used": null,
       "explanation": "The student names the course and immediately adds that it is the three-year programme, not the four-year version with a placement.",
       "difficulty": "easy",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 3,
@@ -67,7 +69,8 @@
       "distractor_used": null,
       "explanation": "The address is given in words: twenty-two Hartlow Road; the town name (Marsden) is already given on the form.",
       "difficulty": "easy",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 4,
@@ -86,7 +89,8 @@
       "distractor_used": null,
       "explanation": "Although the student's friend suggests Thornbury, the hall is closed to applicants this year: its roof is being renewed over the winter.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 5,
@@ -105,7 +109,11 @@
       "distractor_used": null,
       "explanation": "Because Cadnam House is a newer block, the rooms have their own shower room; the adviser calls this en-suite.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "general_knowledge",
+      "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: karşı satır Wharton'ı 'mutfağı beş kişiyle paylaşılan' diye tanımlıyor, öğrenci konaklamasında kalan tek ayrım banyolu (en-suite) oda.",
+      "flag_mechanism": "genel_kultur"
     },
     {
       "number": 6,
@@ -124,7 +132,8 @@
       "distractor_used": "132",
       "explanation": "The student brings up the figure of one hundred and thirty-two from the website, but that is from last year; from September the en-suite room is one hundred and forty-five pounds a week.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 7,
@@ -142,7 +151,8 @@
       "distractor_used": null,
       "explanation": "Because the contract is shorter, the halls close over the spring break; only one box per person can be left in the basement store room.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 8,
@@ -162,7 +172,8 @@
       "distractor_used": "23",
       "explanation": "The twenty-third that the student notes down is the deadline for the scholarship application; the deadline for the accommodation form is the thirtieth of June.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 9,
@@ -181,7 +192,8 @@
       "distractor_used": "main reception",
       "explanation": "Most students go to the main reception first, but the keys are not kept there; the keys are collected from the porter's lodge on Cadnam Street.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 10,
@@ -201,7 +213,8 @@
       "distractor_used": null,
       "explanation": "The application reference given at the end of the conversation is H-R, nine four two; the student repeats it to confirm.",
       "difficulty": "easy",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     }
   ]
 }

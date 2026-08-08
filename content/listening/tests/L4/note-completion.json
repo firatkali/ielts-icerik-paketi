@@ -32,7 +32,8 @@
       "distractor_used": "486",
       "explanation": "The passenger first says four hundred and eighty-six; the assistant corrects this: that service goes to the retail park, the airport coach is the four eighty-two.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 2,
@@ -50,7 +51,8 @@
       "distractor_used": "Tuesday",
       "explanation": "The passenger first says Tuesday, then remembers that Tuesday is their day off and corrects themselves: the journey was made on Wednesday.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 3,
@@ -69,7 +71,8 @@
       "distractor_used": null,
       "explanation": "The bag was put in the rack above the seat and left behind there when the passenger got off; the assistant says most lost items turn up there.",
       "difficulty": "easy",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 4,
@@ -86,7 +89,8 @@
       "distractor_used": "navy",
       "explanation": "The passenger first says navy but corrects themselves at once: the navy one is their old bag; the lost bag is dark green.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 5,
@@ -103,7 +107,8 @@
       "distractor_used": null,
       "explanation": "The surname is spelt out letter by letter on the recording: T-H-U-R-L-B-E-C-K. It can only be answered because it is spelt out, as it is hard to spell.",
       "difficulty": "easy",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 6,
@@ -122,7 +127,8 @@
       "distractor_used": null,
       "explanation": "The number is given in groups; 'double four' means two fours, so it is 07793 441806.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 7,
@@ -139,7 +145,11 @@
       "distractor_used": null,
       "explanation": "Items not collected within three months are passed on to the charity the company works with.",
       "difficulty": "easy",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "general_knowledge",
+      "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'çantalar üç ay saklanır, sonra bir (7) gider' — kayıp eşya usulünün gerçek hayattaki standart devamı, konuşmanın seçtiği bir değer değil.",
+      "flag_mechanism": "genel_kultur"
     },
     {
       "number": 8,
@@ -157,7 +167,8 @@
       "distractor_used": null,
       "explanation": "The main gate is only for vehicles and the barrier does not lift for pedestrians; entry has to be made through the side entrance next to the fuel pumps.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 9,
@@ -174,7 +185,8 @@
       "distractor_used": null,
       "explanation": "Any document with the person's name on it is accepted: a driving licence or a bank card.",
       "difficulty": "easy",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 10,
@@ -194,7 +206,8 @@
       "distractor_used": "£5",
       "explanation": "The charge was five pounds until it changed in April; it is now three pounds.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     }
   ]
 }

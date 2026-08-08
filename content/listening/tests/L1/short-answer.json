@@ -31,7 +31,11 @@
       "distractor_used": null,
       "explanation": "Land that has previously been built on can contain residues from old industry; the metal most often worried about is lead.",
       "difficulty": "easy",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "general_knowledge",
+      "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'eski sanayinin bıraktığı hangi metal yetiştiricileri en çok kaygılandırıyor' — kentsel toprak kirliliğinin standart cevabı.",
+      "flag_mechanism": "genel_kultur"
     },
     {
       "number": 38,
@@ -48,7 +52,11 @@
       "distractor_used": null,
       "explanation": "The speaker illustrates the electricity cost of indoor growing using the example of a kilogram of lettuce.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "general_knowledge",
+      "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'iç mekân yetiştiriciliğinin ne kadar elektrik istediğini göstermek için hangi ürün örnek veriliyor' — dikey tarım tartışmasının kalıp örneği.",
+      "flag_mechanism": "genel_kultur"
     },
     {
       "number": 39,
@@ -69,7 +77,8 @@
       "distractor_used": "a third",
       "explanation": "A frequently repeated claim is that a city could grow a third of its vegetables; when tested on an actual street plan, the result came out closer to five per cent.",
       "difficulty": "hard",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 40,
@@ -87,7 +96,8 @@
       "distractor_used": null,
       "explanation": "Students are not expected to bring an example of a success; according to the speaker, failed projects are more instructive.",
       "difficulty": "easy",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     }
   ]
 }

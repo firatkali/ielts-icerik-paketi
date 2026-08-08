@@ -89,7 +89,8 @@
       "distractor_used": null,
       "explanation": "The surname is spelt out letter by letter in the recording: H-A-U-G-L-A-N-D.",
       "difficulty": "easy",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 2,
@@ -108,7 +109,8 @@
       "distractor_used": null,
       "explanation": "The customer gives her mobile number for moving day; 'double four' means two fours, so the number is 07633 441 902.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 3,
@@ -125,7 +127,8 @@
       "distractor_used": "Selby Lane",
       "explanation": "Even though everyone in the area calls it Selby Lane, that is the path next door; the postal address is Weir Street.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 4,
@@ -142,7 +145,8 @@
       "distractor_used": null,
       "explanation": "The place being moved to is a settlement called Ashcombe, about forty minutes to the north.",
       "difficulty": "easy",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 5,
@@ -161,7 +165,8 @@
       "distractor_used": "third",
       "explanation": "The customer had the 3rd, a Saturday, in mind; the clerk suggests the day before, Friday the 2nd, and the customer agrees.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_note": "Sessiz olcum araci govde cakismasi uyarisiyla bu kalemi kirletti; olcum disi birakildi, soru degistirilmedi."
     },
     {
       "number": 6,
@@ -185,7 +190,8 @@
       "distractor_used": "10.30",
       "explanation": "The clerk first mentions Tuesday at 10.30, then realises that slot is full; the survey visit is moved to Tuesday at 11.00.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 7,
@@ -204,7 +210,8 @@
       "distractor_used": null,
       "explanation": "The move with two men and a large van costs £340; if the firm packs as well, the price rises to £410.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 8,
@@ -222,7 +229,11 @@
       "distractor_used": "blankets",
       "explanation": "Fragile items are not wrapped in blankets; a wooden crate is built for items of this kind.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "frame_wording",
+      "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'kırılacak eşya: onlar için bir (8) yapılır' satırının not sütunu örneği veriyor ('müşterinin cam dolabı') ve nakliyede cam dolap için yerinde yapılan tek şey kasa.",
+      "flag_mechanism": "cerceve_sozu"
     },
     {
       "number": 9,
@@ -240,7 +251,8 @@
       "distractor_used": "five",
       "explanation": "A job of this size normally takes five hours; because of the second floor with no lift, it rises to six hours.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 10,
@@ -258,7 +270,8 @@
       "distractor_used": null,
       "explanation": "Under a rule set by the insurers, paint, aerosol cans and frozen food are not carried in the van.",
       "difficulty": "easy",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     }
   ]
 }

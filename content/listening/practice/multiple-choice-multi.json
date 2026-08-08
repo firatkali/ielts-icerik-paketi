@@ -60,7 +60,8 @@
           },
           "explanation": "The tours set off from the ticket desk (B) and last about forty-five minutes (D). Second answer point: L1-S2-10.",
           "difficulty": "medium",
-          "status": "verified"
+          "status": "verified",
+          "blind_solvable": false
         },
         {
           "number": "3-4",
@@ -103,7 +104,11 @@
           },
           "explanation": "The car park on Foundry Lane is free at weekends (C) and the number fourteen bus stops right outside the door (E). Second answer point: L1-S2-31.",
           "difficulty": "medium",
-          "status": "verified"
+          "status": "flagged",
+          "blind_solvable": true,
+          "blind_basis": "option_wording",
+          "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'otopark yalnız hafta sonu kullanılabilir' kendi sözüyle akıl dışı kalıp eleniyor, sokak adı rastgele ayrıntı, geriye ulaşımın iki doğal bileşeni kalıyor.",
+          "flag_mechanism": "secenek_sozu"
         }
       ]
     },
@@ -155,7 +160,11 @@
           },
           "explanation": "The permit is free (A) and gives twelve visits a year (B). Both answers are in the line at answer point L4-S2-20.",
           "difficulty": "easy",
-          "status": "verified"
+          "status": "flagged",
+          "blind_solvable": true,
+          "blind_basis": "option_wording",
+          "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'sıradan arabalar için gerekli' soru kökünün kendisiyle çelişiyor (kök zaten van iznini soruyor), inşaat atığı atık sahası kuralına aykırı, kapıda imzalanması izin mantığına en uzak olan.",
+          "flag_mechanism": "secenek_sozu"
         },
         {
           "number": "7-8",
@@ -198,7 +207,11 @@
           },
           "explanation": "Children getting out of the vehicle (D) and taking something back out of a container once it has been tipped (E) are both forbidden; the latter is for insurance reasons, since anything tipped becomes the council's property from that moment. Second answer point: L4-S2-35.",
           "difficulty": "medium",
-          "status": "verified"
+          "status": "flagged",
+          "blind_solvable": true,
+          "blind_basis": "general_knowledge",
+          "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: kök yine YASAK soruyor, konteynerden eşya geri almak ve çocukların sahada dolaşması atık sahalarının bilinen iki yasağı, kalan üç seçenek sahaların izin verdiği şeyler.",
+          "flag_mechanism": "kip_imzasi"
         }
       ]
     },
@@ -250,7 +263,11 @@
           },
           "explanation": "According to the librarian, the search must be saved before each database is closed (A) and the date it was run must be noted (C); the date will go into the methods section. Both answers are in the line at L6-S3-33.",
           "difficulty": "medium",
-          "status": "verified"
+          "status": "flagged",
+          "blind_solvable": true,
+          "blind_basis": "general_knowledge",
+          "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: sistematik derleme yöntemi ders kitabı bilgisi (veri tabanı kapatılmadan önce arama kaydedilir, çalıştırma tarihi not edilir), tam metin filtresi bu yöntemde zaten önerilmez.",
+          "flag_mechanism": "genel_kultur"
         }
       ]
     }

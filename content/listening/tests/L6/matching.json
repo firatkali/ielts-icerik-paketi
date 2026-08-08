@@ -75,7 +75,8 @@
           },
           "explanation": "The speaker says they trialled a Thursday last summer and hardly anybody came, so the extra market day will be a Wednesday.",
           "difficulty": "medium",
-          "status": "verified"
+          "status": "verified",
+          "blind_solvable": false
         },
         {
           "number": 12,
@@ -100,7 +101,11 @@
           },
           "explanation": "The flower stall has been placed by the doors on purpose, so that the scent reaches visitors as they come in.",
           "difficulty": "easy",
-          "status": "verified"
+          "status": "flagged",
+          "blind_solvable": true,
+          "blind_basis": "option_wording",
+          "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'yeri kokusu için seçildi' yalnız çiçek tezgâhı için söylenebilir.",
+          "flag_mechanism": "secenek_sozu"
         },
         {
           "number": 13,
@@ -125,7 +130,11 @@
           },
           "explanation": "The loading yard is behind the hall and is reserved only for traders' vans; bicycles must be locked at the bike rack outside the door.",
           "difficulty": "medium",
-          "status": "verified"
+          "status": "flagged",
+          "blind_solvable": true,
+          "blind_basis": "option_wording",
+          "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'esnaf araçlarına ayrılmış' yalnız yükleme avlusunu tarif ediyor.",
+          "flag_mechanism": "secenek_sozu"
         },
         {
           "number": 14,
@@ -150,7 +159,8 @@
           },
           "explanation": "The sign at the barrier still says two hours free, but the council extended it to three hours in the spring.",
           "difficulty": "medium",
-          "status": "verified"
+          "status": "verified",
+          "blind_solvable": false
         },
         {
           "number": 15,
@@ -175,7 +185,11 @@
           },
           "explanation": "From April, traders have agreed to stop handing out plastic bags altogether, so shoppers will need to bring their own.",
           "difficulty": "easy",
-          "status": "verified"
+          "status": "flagged",
+          "blind_solvable": true,
+          "blind_basis": "option_wording",
+          "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'alışverişçiler kendilerininkini getirmek zorunda' yalnız poşetler kökü için söylenebilir.",
+          "flag_mechanism": "secenek_sozu"
         }
       ]
     },
@@ -232,7 +246,8 @@
           },
           "explanation": "The librarian says they agree with Rhian on the number of databases; Tomas's plan for five databases is not accepted, and what gets added is not a database but a collection of local government reports.",
           "difficulty": "medium",
-          "status": "verified"
+          "status": "verified",
+          "blind_solvable": false
         },
         {
           "number": 25,
@@ -255,7 +270,8 @@
           },
           "explanation": "The librarian proposes a middle way: the systematic search will stay limited to ten years, and important older papers will be added deliberately through the citations of recent articles.",
           "difficulty": "medium",
-          "status": "verified"
+          "status": "verified",
+          "blind_solvable": false
         },
         {
           "number": 26,
@@ -278,7 +294,11 @@
           },
           "explanation": "The librarian tells them not to tick this box, because the filter hides a large amount of material the library can order in, limiting the evidence to what is already on the shelf.",
           "difficulty": "medium",
-          "status": "verified"
+          "status": "flagged",
+          "blind_solvable": true,
+          "blind_basis": "general_knowledge",
+          "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: sistematik derlemede kütüphaneci tam da 'full text available' filtresine karşı uyarır (örneklem yanlılığı), kök bir yöntem bilgisi sorusuna dönüşüyor.",
+          "flag_mechanism": "genel_kultur"
         }
       ]
     }

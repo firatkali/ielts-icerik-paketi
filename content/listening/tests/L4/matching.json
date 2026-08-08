@@ -75,7 +75,11 @@
           },
           "explanation": "The old site had a single lane and eleven containers; on Saturdays the queue reached back onto the bypass.",
           "difficulty": "medium",
-          "status": "verified"
+          "status": "flagged",
+          "blind_solvable": true,
+          "blind_basis": "option_wording",
+          "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'kuyrukları eskiden bir yolu tıkardı' cümlesindeki geçmiş zaman ve 'used to' kalıbı kökler arasından yalnız eski sahayı seçiyor.",
+          "flag_mechanism": "secenek_sozu"
         },
         {
           "number": 12,
@@ -100,7 +104,11 @@
           },
           "explanation": "The small car park is set aside not for people dropping off waste, but for visitors to the reuse shop.",
           "difficulty": "easy",
-          "status": "verified"
+          "status": "flagged",
+          "blind_solvable": true,
+          "blind_basis": "option_wording",
+          "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'yalnız mağaza müşterileri için' yalnız otopark kökü için söylenebilir.",
+          "flag_mechanism": "secenek_sozu"
         },
         {
           "number": 13,
@@ -125,7 +133,8 @@
           },
           "explanation": "Anything with a plug or a battery goes to the electrical store, and a member of staff carries the item in on the visitor's behalf.",
           "difficulty": "easy",
-          "status": "verified"
+          "status": "verified",
+          "blind_solvable": false
         },
         {
           "number": 14,
@@ -150,7 +159,8 @@
           },
           "explanation": "Between November and February the site closes early because the upper level still has no lighting.",
           "difficulty": "medium",
-          "status": "verified"
+          "status": "verified",
+          "blind_solvable": false
         },
         {
           "number": 15,
@@ -175,7 +185,11 @@
           },
           "explanation": "The repair session is held on the first Saturday of each month, from ten until one, in the room behind the shop.",
           "difficulty": "medium",
-          "status": "verified"
+          "status": "flagged",
+          "blind_solvable": true,
+          "blind_basis": "option_wording",
+          "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'ayda bir kez oluyor' bir sıklık bildirimi ve kökler arasında yalnız etkinlik biçimli kök (tamir seansı) sıklık alabilir.",
+          "flag_mechanism": "secenek_sozu"
         }
       ]
     },
@@ -237,7 +251,11 @@
           },
           "explanation": "Anneke describes the experiment: rainwater run-off from three types of paving (concrete slab, permeable block and gravel) on the same slope was measured for eight weeks.",
           "difficulty": "easy",
-          "status": "verified"
+          "status": "flagged",
+          "blind_solvable": true,
+          "blind_basis": "option_wording",
+          "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'üç farklı yüzeyi karşılaştırdı' yalnız deney kökü için söylenebilir, kalan seçenekler deneye uysa da bu seçeneğin içeriği bağlayıcı.",
+          "flag_mechanism": "secenek_sozu"
         },
         {
           "number": 22,
@@ -261,7 +279,11 @@
           },
           "explanation": "Anneke's view is that nobody stands in front of a poster for ten minutes; the finding should be at the top, with the method coming after.",
           "difficulty": "medium",
-          "status": "verified"
+          "status": "flagged",
+          "blind_solvable": true,
+          "blind_basis": "option_wording",
+          "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: yerleşim köküne iki seçenek rakip, 'önce yöntem gösterilmeli' poster tasarımında bilinen yanlış öğüt olduğu için çeldirici olarak eleniyor.",
+          "flag_mechanism": "secenek_sozu"
         },
         {
           "number": 23,
@@ -285,7 +307,11 @@
           },
           "explanation": "Anneke wants the three lines combined into a single graph instead of three separate charts with identical axes, with a photo taken after rainfall placed alongside it.",
           "difficulty": "medium",
-          "status": "verified"
+          "status": "flagged",
+          "blind_solvable": true,
+          "blind_basis": "option_wording",
+          "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'üç ayrı grafik tek grafiğe dönmeli' cümlesindeki 'charts' sözü grafikler kökünü birebir söylüyor.",
+          "flag_mechanism": "secenek_sozu"
         }
       ]
     }

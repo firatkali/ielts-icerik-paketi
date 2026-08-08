@@ -31,7 +31,11 @@
       "distractor_used": null,
       "explanation": "The order in noise control is always the same: measures are taken at the source first, then along the path, and last at the receiver.",
       "difficulty": "easy",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "frame_wording",
+      "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: aynı akış şemasının birkaç satır aşağıdaki başlığı 'AT THE RECEIVER' diye yazıyor, soru kendi cevabını sayfanın içinde basıyor.",
+      "flag_mechanism": "cerceve_sozu"
     },
     {
       "number": 37,
@@ -48,7 +52,8 @@
       "distractor_used": null,
       "explanation": "The benefit of open-textured asphalt decreases over time, because the pores fill up and the surface stops absorbing sound.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 38,
@@ -65,7 +70,8 @@
       "distractor_used": null,
       "explanation": "An earth bund does the same job as a wall, but it is preferred because it looks like part of the landscape.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 39,
@@ -83,7 +89,8 @@
       "distractor_used": "10 metres",
       "explanation": "The ten-metre strip of trees people have in mind does not change the measured level; a dense belt of close to thirty metres is needed for a few decibels.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 40,
@@ -101,7 +108,11 @@
       "distractor_used": null,
       "explanation": "The benefit is lost because the glazing that needs to stay closed gets opened in summer; the real solution is to place the bedrooms on the quiet side of the building.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "logic",
+      "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'sıcak bir gecede pencere açılır açılmaz boşa gider, bu yüzden binayı (40) yoldan uzak planlamak daha iyi' — açılan pencere zaten yatak odasını işaret ettiği için tek tutarlı doldurma kalıyor.",
+      "flag_mechanism": "konumsal_duzen"
     }
   ]
 }

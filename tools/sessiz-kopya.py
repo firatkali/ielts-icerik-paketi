@@ -38,7 +38,8 @@ SIL = {
     "grammar_check", "uniqueness_check", "useful_language",
     # denetim/isaretleme alanlari (cevabi acik edebiliyor)
     "difficulty", "difficulty_flags", "status", "flag_reason", "flag_mechanism",
-    "blind_solvable", "blind_basis", "revision", "yeniden_uretim", "review_note",
+    "blind_solvable", "blind_basis", "blind_note", "revision", "yeniden_uretim",
+    "review_note",
     "generated_by", "example", "notes",
     # DINLEME senaryo izleri: sorunun ses metnindeki yerini/kimligini verir
     "script_id", "turn_index", "answer_point_id", "transcript", "script",

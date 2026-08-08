@@ -66,7 +66,11 @@
       },
       "explanation": "The supervisor recommends the council portal for the actual generation figures; the national survey will only be used for general context.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "logic",
+      "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: öğrencinin kendi görüşmeleri ana veri olacaksa yayımlanmış ulusal ankete ancak arka plan rolü kalıyor, roller kökler arasında paylaştırılınca bu köke tek rol düşüyor.",
+      "flag_mechanism": "konumsal_duzen"
     },
     {
       "number": 25,
@@ -89,7 +93,11 @@
       },
       "explanation": "The supervisor says the video often breaks up and asks for the interviews to be recorded as audio, with the transcript shown on the slide.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "option_wording",
+      "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'yalnızca ses olarak kaydedilecek' seçeneği görüşme kökü dışında hiçbir köke uymuyor.",
+      "flag_mechanism": "secenek_sozu"
     },
     {
       "number": 26,
@@ -112,7 +120,8 @@
       },
       "explanation": "The supervisor wants both students to speak in the second half of the presentation; otherwise the group looks unbalanced.",
       "difficulty": "easy",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     }
   ]
 }

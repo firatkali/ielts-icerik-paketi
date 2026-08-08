@@ -34,7 +34,11 @@
       "distractor_used": null,
       "explanation": "The first deliberate collections date back to the twenties; cold storage did not come along until the seventies.",
       "difficulty": "easy",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "general_knowledge",
+      "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'tohum ilk kez ıslah amacıyla (31) yıllarında saklandı' — tohum bankacılığının başlangıç onyılı tarihsel genel bilgi.",
+      "flag_mechanism": "genel_kultur"
     },
     {
       "number": 32,
@@ -52,7 +56,11 @@
       "distractor_used": "30 plants",
       "explanation": "Older handbooks mention thirty plants, but later modelling raised the working minimum to fifty plants.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "general_knowledge",
+      "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'ekip en az (32) bitkiden tohum toplamakla yükümlü' — tohum toplama protokollerinin standart alt sınırı.",
+      "flag_mechanism": "genel_kultur"
     },
     {
       "number": 33,
@@ -70,7 +78,8 @@
       "distractor_used": null,
       "explanation": "Drying is deliberately slow: seed that dries quickly forms a hard skin on the outside and the water stays locked in.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 34,
@@ -87,7 +96,11 @@
       "distractor_used": null,
       "explanation": "A jar with a poor seal lets the seed reabsorb moisture from the air; that is why the seal matters more than the container itself.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "cross_question",
+      "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'mühürlendikten sonra hangi (34) iyi olduğu kavanozdan önemli' boşluğunu alıştırma akış şeması aynı cümleyle boşluksuz yazıyor: 'The quality of the seal counts for more than the jar itself.'.",
+      "flag_mechanism": "capraz_sizinti"
     },
     {
       "number": 35,
@@ -106,7 +119,8 @@
       "distractor_used": "75 per cent",
       "explanation": "The threshold the speaker learned was seventy-five per cent; it has since been raised to eighty-five per cent.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 36,
@@ -124,7 +138,11 @@
       "distractor_used": "five years",
       "explanation": "The retesting interval used to be five years; because each test uses up two hundred seeds, most banks now test only once every ten years.",
       "difficulty": "hard",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "general_knowledge",
+      "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'sonra test her (36) yılda bir tekrarlanır' — tohum canlılık testinin standart aralığı, konuşmanın seçtiği bir değer değil.",
+      "flag_mechanism": "genel_kultur"
     }
   ]
 }

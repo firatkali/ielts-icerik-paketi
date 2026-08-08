@@ -50,7 +50,10 @@
           },
           "explanation": "The speaker says the closing day used to be Monday but has been Tuesday since the start of this month.",
           "difficulty": "medium",
-          "status": "verified"
+          "status": "verified",
+          "blind_solvable": true,
+          "blind_basis": "number_guess",
+          "blind_note": "3/3 turda tutturuldu ama dayanak sayi/saat tahminiydi; tutturma orani uc secenekli sans oranina esit, sizinti sayilmadi."
         },
         {
           "number": 12,
@@ -84,7 +87,8 @@
           },
           "explanation": "The annual pass cost £25 when it launched, but the speaker says they have brought the price down to £22.",
           "difficulty": "medium",
-          "status": "verified"
+          "status": "verified",
+          "blind_solvable": false
         },
         {
           "number": 13,
@@ -118,7 +122,11 @@
           },
           "explanation": "The speaker says there are picnic tables in the courtyard garden; she also adds that food and drink are allowed there.",
           "difficulty": "easy",
-          "status": "verified"
+          "status": "flagged",
+          "blind_solvable": true,
+          "blind_basis": "general_knowledge",
+          "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: avlu bahçesinde ne yapılabileceği sorulurken üç seçenekten yalnız 'piknik' bir bahçenin sıradan ziyaretçi imkânı, dokuma gösterisi ile özel etkinlik kiralaması kapalı mekâna ait.",
+          "flag_mechanism": "genel_kultur"
         }
       ]
     },
@@ -170,7 +178,11 @@
           },
           "explanation": "In the sessions, visitors can handle objects that are not on display (C) and there is no charge (E). Second answer point: L1-S2-34.",
           "difficulty": "medium",
-          "status": "verified"
+          "status": "flagged",
+          "blind_solvable": true,
+          "blind_basis": "option_wording",
+          "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: C seçeneği 'handling session'ın tanımını yeniden söylüyor (normalde sergilenmeyen nesnelere dokunmak), ikinci harf de müze etkinliklerinde ücretsizlik varsayımıyla geliyor.",
+          "flag_mechanism": "secenek_sozu"
         }
       ]
     },
@@ -212,7 +224,8 @@
           },
           "explanation": "The tutor announces that the presentation has been moved from week 10 to week 9, that is, to the eighteenth of the month.",
           "difficulty": "medium",
-          "status": "verified"
+          "status": "verified",
+          "blind_solvable": false
         },
         {
           "number": 22,
@@ -246,7 +259,11 @@
           },
           "explanation": "Because three groups will present in the same session, the tutor has cut the talk time from 15 minutes to 12 minutes; five minutes is set aside for questions.",
           "difficulty": "easy",
-          "status": "verified"
+          "status": "flagged",
+          "blind_solvable": true,
+          "blind_basis": "option_wording",
+          "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'konuşmanın kendisi' kaydı on beş dakikalık yuvarlak slotu toplam süreye çevirip çeldiriciye düşürüyor, beş dakika bir sunum için fazla kısa kalınca geriye tek yuvarlak olmayan değer kalıyor.",
+          "flag_mechanism": "konumsal_duzen"
         },
         {
           "number": 23,
@@ -280,7 +297,8 @@
           },
           "explanation": "The tutor chooses the schools project for the reason Callum gives (original material); he suggests the wind project only as a comparison.",
           "difficulty": "medium",
-          "status": "verified"
+          "status": "verified",
+          "blind_solvable": false
         }
       ]
     }

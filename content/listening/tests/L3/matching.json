@@ -75,7 +75,11 @@
           },
           "explanation": "The guide says that what visitors are standing on is spoil — waste rock tipped here while the quarry was worked.",
           "difficulty": "medium",
-          "status": "verified"
+          "status": "flagged",
+          "blind_solvable": true,
+          "blind_basis": "option_wording",
+          "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'taş ocağı atığından yapılmış' yalnız topraktan söz edebilir, kutudaki seçenek kökü doğrudan adlandırıyor.",
+          "flag_mechanism": "secenek_sozu"
         },
         {
           "number": 12,
@@ -100,7 +104,11 @@
           },
           "explanation": "The red route needs boots, not trainers: much of it is on grass and stays wet well into the summer.",
           "difficulty": "easy",
-          "status": "verified"
+          "status": "flagged",
+          "blind_solvable": true,
+          "blind_basis": "option_wording",
+          "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'düzgün yürüyüş ayakkabısı gerektirir' yalnız bir yürüyüş rotası için söylenebilir, kalan kökler (toprak, ağ, orkide sayımı) bu seçenekle birleşmiyor.",
+          "flag_mechanism": "secenek_sozu"
         },
         {
           "number": 13,
@@ -125,7 +133,11 @@
           },
           "explanation": "Dipping nets can be borrowed free of charge from the information hut.",
           "difficulty": "easy",
-          "status": "verified"
+          "status": "flagged",
+          "blind_solvable": true,
+          "blind_basis": "option_wording",
+          "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'ücretsiz' seçeneği kökler içinde yalnız ödünç alma eylemiyle anlamlı.",
+          "flag_mechanism": "secenek_sozu"
         },
         {
           "number": 14,
@@ -150,7 +162,11 @@
           },
           "explanation": "Because the gates are locked at dusk, the guide asks visitors not to leave a car in the park overnight.",
           "difficulty": "medium",
-          "status": "verified"
+          "status": "flagged",
+          "blind_solvable": true,
+          "blind_basis": "option_wording",
+          "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: kutudaki tek yasak cümlesi ('izin verilmiyor') köklerdeki tek yasak-biçimli kökle (geceleyin parkta araba bırakmak) eşleşiyor, kutupsallık tek başına cevabı veriyor.",
+          "flag_mechanism": "kip_imzasi"
         },
         {
           "number": 15,
@@ -175,7 +191,11 @@
           },
           "explanation": "The orchid count is described as a slow, comfortable job that anyone who can kneel for an hour can do.",
           "difficulty": "medium",
-          "status": "verified"
+          "status": "flagged",
+          "blind_solvable": true,
+          "blind_basis": "logic",
+          "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: dört kök bağlandıktan sonra geriye tek kök kalıyor ve 'acele etmeyi sevmeyenlere uygun' seçeneği orkide sayımına anlamca da uyduğu için eleme kendini doğruluyor.",
+          "flag_mechanism": "konumsal_duzen"
         }
       ]
     },
@@ -232,7 +252,11 @@
           },
           "explanation": "The tutor says not to go hunting for the extra five hundred words: you don't need to fill the whole limit.",
           "difficulty": "hard",
-          "status": "verified"
+          "status": "flagged",
+          "blind_solvable": true,
+          "blind_basis": "logic",
+          "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'tam kelime sayısını yazmaya gerek yok' bir usul gevşetmesi ve kutudaki kişilerden bunu ancak eğitmen söyleyebilir.",
+          "flag_mechanism": "konumsal_duzen"
         },
         {
           "number": 25,
@@ -255,7 +279,8 @@
           },
           "explanation": "Tamsin finds the weekly journal too frequent: by the fourth week she was writing the same three sentences, and she says fortnightly would have been better.",
           "difficulty": "easy",
-          "status": "verified"
+          "status": "verified",
+          "blind_solvable": false
         },
         {
           "number": 26,
@@ -278,7 +303,8 @@
           },
           "explanation": "Corin points out that the same skill turns up again in the second week and the seventh, and chronological order splits up this material, so he will structure his report by skill instead.",
           "difficulty": "medium",
-          "status": "verified"
+          "status": "verified",
+          "blind_solvable": false
         }
       ]
     }

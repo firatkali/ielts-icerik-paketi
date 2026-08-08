@@ -34,7 +34,8 @@
       "distractor_used": null,
       "explanation": "Regrowing a sample makes a selection each time: some seeds fail to germinate, and some cross with plants in the neighbouring row.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 38,
@@ -53,7 +54,11 @@
       "distractor_used": null,
       "explanation": "The reason a backup of the collections is kept in a second location is mundane: the commonest cause of loss over fifty years has been a freezer failing quietly.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "general_knowledge",
+      "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'hangi ekipmanın arızası en sık kayıp sebebi olmuş' — tohum bankasında tek kritik ekipman dondurucu, soru kendi bağlamında tek cevabı bırakıyor.",
+      "flag_mechanism": "genel_kultur"
     },
     {
       "number": 39,
@@ -71,7 +76,11 @@
       "distractor_used": null,
       "explanation": "The whole method described applies to seeds that can withstand drying and freezing; these are called orthodox seeds.",
       "difficulty": "easy",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "general_knowledge",
+      "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'kurutulup dondurulduğunda ölmeyen tohumlara ne ad verilir' doğrudan bir terim tanımı sorusu.",
+      "flag_mechanism": "genel_kultur"
     },
     {
       "number": 40,
@@ -91,7 +100,11 @@
       "distractor_used": null,
       "explanation": "For species that cannot withstand drying, one option is to freeze only the embryo in liquid nitrogen, at minus 196 degrees.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "general_knowledge",
+      "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'yalnız embriyo sıvı azotta dondurulduğunda kaç derecede tutulur' — sıvı azotun kaynama noktası sabit bir fizik değeri.",
+      "flag_mechanism": "genel_kultur"
     }
   ]
 }

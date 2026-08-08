@@ -32,7 +32,11 @@
       "distractor_used": null,
       "explanation": "The adviser suggests that the student, who has chosen the skills-based structure, add a one-page timeline at the very start of the report so the story is not lost.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "flagged",
+      "blind_solvable": true,
+      "blind_basis": "frame_wording",
+      "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'olayların sırası yine açık olsun diye bir sayfalık (27) ekleyecek' çerçevesi olay sırası ve tek sayfa kayıtlarıyla tek doldurmayı bırakıyor.",
+      "flag_mechanism": "cerceve_sozu"
     },
     {
       "number": 28,
@@ -49,7 +53,8 @@
       "distractor_used": null,
       "explanation": "Not being able to show unpublished work is not a reason for a penalty; the penalty is for ignoring a confidentiality restriction.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 29,
@@ -67,7 +72,8 @@
       "distractor_used": "15 minutes",
       "explanation": "The presentation was fifteen minutes until last year; it was reduced to twelve minutes once the whole class started presenting.",
       "difficulty": "medium",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 30,
@@ -87,7 +93,8 @@
       "distractor_used": "13 November",
       "explanation": "The original schedule said the thirteenth of November, but the adviser has it crossed out: the deadline is the twentieth of November.",
       "difficulty": "hard",
-      "status": "verified"
+      "status": "verified",
+      "blind_solvable": false
     }
   ]
 }
