@@ -8261,3 +8261,210 @@ ciktisi:
   okunuyor, paragraf/cumle numarasi dogrulaniyor), `tools/
   _e6_mf_eslestirme_kontrol.py` (kontrol), `tools/_e6_mf_capraz.py` (yeni kanit
   cumleleri baska sorularda kullaniliyor mu taramasi).
+
+
+# OPUS5-E6-yeniden-uretim (6. calistirma - tamamlama ailesi yuvalari)
+
+> **Bu bolum geriye donuk yazildi.** 6. calistirma 34 yuvayi uretip calisma
+> agacina birakmis, ama ne `yeniden-uretim-listesi.json`'a islemis ne de commit
+> etmisti (`NOTLAR.md` ve `UYARILAR.txt` girdileri de yoktu). 7. calistirma o
+> sorulari **yeniden uretmedi** - oldugu gibi dogruladi, listeye isledi ve ayri
+> bir commit'te depoya aldi. Asagidaki sayimlar dosyalardaki icerikten
+> `tools/_e7_ozet.py` ile cikarildi.
+
+- **Kapsam:** listedeki tamamlama ailesinin **34 yuvasi** - sentence_completion
+  17, summary_completion 8, note_completion 4, flow_chart_completion 3,
+  table_completion 2. Onbes dosyaya dagiliyor: `practice/` not (2), cumle (5),
+  ozet (3); `AC1/` cumle (1), ozet (3); `AC2/` akis semasi (3), cumle (2);
+  `AC3/` cumle (3); `AC4/` not (1), cumle (3), ozet (2); `GT1/` not (1),
+  cumle (2); `GT2/` cumle (1), tablo (2).
+- Otuz dordu de **ayni dosyaya ayni numarayla** dolduruldu; soru silinmedi,
+  numara kaymadi. Her yuvada `status: verified`, `blind_solvable: null`,
+  `generated_by: opus` ve eski soruyu saklayan bir `yeniden_uretim` blogu var.
+- `python tools/dogrula.py`: **12 tam test 40/40, sema hatasi 0, toplam 1310
+  soru** - AC1, AC2, AC3, AC4, GT1, GT2'nin altisi da bu adimda dosya
+  degistirdigi halde toplamlar degismedi.
+- Uretim ve kontrol betikleri: `tools/_e6_comp_uret.py`, `_e6_comp_kontrol.py`,
+  `_e6_comp_capraz.py`, `_e6_comp_kip.py`, `_e6_comp_dok.py`, `_e6_comp_ozet.py`
+  (hepsi bu adimda eklendi, izlenmemis durumdaydi).
+
+### Kanit tasimalarindan ornekler
+
+| Yuva | Eski eksen (E5 eledi) | Yeni kanit | Yeni cevap |
+|---|---|---|---|
+| GT2 tablo #16 | B/2 - "guncel bir ___ yukleyin" (esdizim: CV) | G04 **B/3** | `300-word` |
+| GT2 tablo #20 | D/1 - "kendi biriminden biri haftada bir gorusur" (mentor) | G04 **D/2** | `five-week` |
+| practice not #1 | A/2 - Japonya'nin 47 vilayeti (cografya bilgisi) | A06 **B/1** | `977` |
+| AC4 cumle #21 | F/1 - POMS'un alti boyutu (arac bilgisi) | A11 **E/2** | `65-item` |
+| practice ozet #9 | ailelerin kendi cop miktarini kotu tahmin etmesi (klise) | G05 **A/3** | `150` |
+| AC1 ozet #39 | tanidik dergi adi cikarimi | A03 **G/1** | `PLOS ONE` |
+
+- Yeni cevaplarin agirligi **sayilar ve kod dizileri**: `977`, `717.7`, `150`,
+  `22.5`, `243`, `10 Mbps`, `37.5-hour`, `56,000 kilometres`, `S/2025 U1`,
+  `300-word`, `five-week`, `65-item`, `eleven hours`, `thirteen`. Bu bilincli:
+  E5'in eledigi tamamlama yuvalarinin cogunda kusur **esdizim kilidiydi**
+  (bosluktan onceki kalip tek bir sozcugu cagiriyordu) ve keyfi bir sayi o
+  kilidi tanim geregi kirar.
+
+### Kip imzasi (yasak 1) - bu tipte olculemiyor
+
+Tamamlama ailesinde **celdirici metni yok**: cevap ya bosluga yazilan bir
+sozcuk/sayi, ya da kelime bankasindan bir harf (AC1/AC4 ozet tamamlama). Kip
+kuralinin hedefledigi imza ("olculu ifade = dogru cevap, mutlaklik =
+celdirici") bu yuzden **kurulamiyor**. Yine de kaba bir anahtar sozcuk taramasi
+(`tools/_e7_ozet.py`) yapildi: 34 soru kokunun **8'i mutlak** (`only`, `both`,
+`each`, `at least`, `every`), **6'si olculu** (`about`, `roughly`, `up to`)
+ifade tasiyor, gerisi notr. Bu bir esik degil, kayit: soru koklerinin kipi tek
+bir banda toplanmis degil.
+
+### Konumsal duzen (yasak 2)
+
+- Harf dagilimi kurali yalnizca **kelime bankali ozet tamamlamada** anlamli
+  (AC4 #36 `J`, #38 `D`); ayni harf sette ikiden fazla tekrarlanmiyor.
+- Kanit paragraflari pasaj boyunca dagiliyor (A/2, A/3, B/1, B/2, B/3, C/1,
+  C/2, C/3, D/1, D/2, D/3, E/1, E/2, E/4, F/1, F/3, G/1, H/2); **son paragrafa
+  demirlenen tek yuva AC2 akis semasi #6**, o da akis semasinin son kutusu -
+  sira kurali baska yer birakmiyordu.
+
+
+# OPUS5-E6-yeniden-uretim (7. calistirma - kalanlar + tam test butunlugu kontrolu)
+
+- **Kendi sayimim:** `yeniden-uretim-listesi.json` icindeki `elenen` listesi
+  **71 yuva**. Onceki alti calistirma 65'ini kapatti (10 YNNG, 14 coktan
+  secmeli, 7 ozellik esleystirme, 34 tamamlama ailesi). Geriye kalan **6 yuva**
+  bu calistirmanin kapsami: `practice/true-false-not-given.json` **#4** (A02),
+  `tests/AC1/true-false-not-given.json` **#10** (A01),
+  `tests/AC3/true-false-not-given.json` **#7** (A07),
+  `practice/short-answer.json` **#4** (A04), **#6** (A06), **#8** (A08).
+  **Bu calistirmadan sonra listede acik yuva kalmadi (71/71).**
+- Alti yuva da ayni dosyaya ayni numarayla dolduruldu; hicbir soru silinmedi.
+  Depo genelinde **`status: rejected` kalan soru yok** (515 verified, 33
+  flagged - flaglilar E5'in bilerek birakip E7'ye devrettikleri).
+- `python tools/dogrula.py`: **AC1 40/40, AC3 40/40**, on iki tam testin hepsi
+  40/40, sema hatasi 0, toplam soru 1310 (degismedi).
+
+### Alti yuva: eski eksen -> yeni kanit
+
+| Yuva | Eski eksen (E5 eledi) | Yeni kanit | Cevap |
+|---|---|---|---|
+| practice TFNG #4 | A02 F/3 - "yabancilar tanidiklardan cok etkilesir" (davranis biyolojisi genellemesi) | A02 **F/4** - son sinamada hic murekkep birakilmamasi | TRUE |
+| AC1 TFNG #10 | A01 D/3 - "akilli hayvan yeni duruma uyum sagladi" (standart kanit yapisi) | A01 **D/4** - kucuk nesne istifleme denemesinin `less successfully` yurumesi | FALSE |
+| AC3 TFNG #7 | A07 A/3 - ayna testi ne olcuyor tartismasi (alan bilgisi) | A07 **B/4** - aynanin onunde 27 saate karsi panelin onunde 23 saat | FALSE |
+| kisa cevap #4 | A04 F/2 - Voyager 2'nin 24 Ocak 1986 gecisi (dunya bilgisi) | A04 **B/2** - gozlem dizisindeki poz sayisi | `ten` |
+| kisa cevap #6 | A06 H/1 - transaktif bellek kuraminin adi (orgut psikolojisi) | A06 **A/2** - Japonya disinda calisilan ulke sayisi | `23` |
+| kisa cevap #8 | A08 D/1 - Kanada'nin en yuksek zirvesi (cografya) | A08 **C/3** - deprem oncesi temel radar goruntusunun tarihi | `26 November` |
+
+Altisinda da yeni kanit E5'in yasakladigi cumleye **hic degmiyor**; dordunde
+kanit yasakli cumlenin **paragrafinin da disina** cikti. Iki istisna A01 D/4 ve
+A02 F/4: ayni paragrafin baska cumlesi, cunku sira kurali bu iki sette baska
+paragraf birakmiyordu.
+
+### E5'in onerdigi capalar neden uc yerde kullanilmadi
+
+E5 her yuva icin bir capa onermisti; ucunde oneri **baska sorularda zaten
+kullanilmis** oldugu icin baska yere gidildi (capraz tarama:
+`tools/_e7_capraz.py`):
+
+- **Kisa cevap #4:** E5'in iki onerisi de F/2'nin yarilariydi ve ikisinin de
+  cevabi `Voyager 2` olurdu - yani ayni dunya bilgisi kalirdi. Yuva B/2'ye
+  tasindi; o cumlenin oteki iki olcusu (poz basina kirk dakika, toplam alti
+  saat) AC2 akis semasi #1 ve practice cumle tamamlama #10'da kullanildigi icin
+  yuvaya **poz sayisi** birakildi.
+- **Kisa cevap #6:** E5'in onerdigi iki olcusel iddia da H/2'ye capaliydi; o
+  cumle practice not tamamlama #3 ve AC2 coktan secmeli #34-35'te kullanilmis
+  durumda. A/2'ye tasindi - ama ayni cumledeki `47 vilayet` tam da E5'in
+  eledigi cografya bilgisi oldugu icin soru **ulke sayisina** soruluyor ve kok
+  "Japonya disinda" diyerek `other` ayrimini korumayi zorunlu kiliyor.
+- **Kisa cevap #8:** E5'in onerdigi iki yari da D/1'deydi; Mount King George
+  enkaz akmasi AC3 ozellik esleystirme #24'te, 12 Aralik yer arastirmasi
+  practice not tamamlama #8 ve practice coktan secmeli #11'de kullanilmis.
+  Bos duran C paragrafina gidildi (8 Aralik yarisi AC3 cumle tamamlama #21'de
+  oldugu icin **temel goruntunun tarihi** alindi).
+
+### Sira kurali ve bir bilincli sapma
+
+TFNG setlerinde ifadeler pasaj sirasini izler. practice #4 (F/4; onceki uc yuva
+B, C ve kanitsiz) ve AC1 #10 (D/4; oncesi C/4, sonrasi E/4) sirayi koruyor.
+**AC3 #7 istisna:** E5 bu yuva icin acikca "B paragrafinin sayisal ayrintilarina
+capalanmali" dedi, ama #8 zaten B/1'e capali. A paragrafinda pasaja ozgu tek bir
+sayi ya da olcu yok (icindeki her sey - ayna testinin tarifi, testi gecen turler
+listesi, yarim yuzyillik gecmis - alan bilgisi), yani orada kalmak yuvanin
+elenme sebebini tekrar uretirdi. Sonuc: **paragraf sirasi korunuyor** (B, B, C,
+-, E, F, -), yalnizca B paragrafi icinde cumle sirasi tersine dondu (B/4 sonra
+B/1). E7 bunu bilerek yapilmis bir takas olarak degerlendirsin.
+
+### Kendi kendini sinama (pasaj kapali, K3 - anlamca bilme de bilinen sayilir)
+
+- **practice TFNG #4** (TRUE): pasajsiz sezgi "ahtapot gerilince murekkep
+  puskurtur" diyor, yani **FALSE'a** gidiyor - genel bilgi ters yone calisiyor.
+  Gecti.
+- **AC1 TFNG #10** (FALSE): "Kandula", "kup", "kucuk nesneler" disaridan hicbir
+  sey soylemiyor; karari yalniz D/4'teki `less successfully` zarfi veriyor.
+  Setin en zayif halkasi bu - "esitlik iddialari genelde yanlistir" turu bir
+  sinav kestirmesi (bilgi degil bicim ipucu) dogru tarafa da goturebilir. E7
+  blind olcumunde ozellikle baksin.
+- **AC3 TFNG #7** (FALSE): oran disaridan bilinemez; sezgi "ayna kontrolden cok
+  daha ilgi ceker" dedigi icin **TRUE'ya** gidiyor. Gecti.
+- **Kisa cevap #4** (`ten`): gozlem programina ozgu poz sayisi, hicbir dis
+  kaynaktan turetilemez. Sansla tutturma riski var (kucuk yuvarlak sayi), bilgi
+  temelli tahmin riski yok. Gecti.
+- **Kisa cevap #6** (`23`): tek bir sirketin kac ulkede calisani oldugu
+  disaridan bilinemez. Gecti.
+- **Kisa cevap #8** (`26 November`): keyfi bir uydu gecis tarihi. Gecti.
+
+### Kip imzasi sayimi (yasak 1)
+
+Bu calistirmada uretilen alti sorunun ucu kisa cevap (**soru koku notr, secenek
+yok**), ucu TFNG (**celdirici metni yok**). Kural gecerli oldugu tek duzeyde,
+ifadeler duzeyinde sayildi:
+
+- Uc ifadenin **ucu de mutlak** ifade tasiyor: `No octopus ... at any point`,
+  `as well as`, `at least twice as much`. Dogru cevaplarin **3/3'u = %100**
+  mutlak (esik 1/3) OK
+- Kritik olan sayi degil dagilim: bu uc mutlak ifadenin **biri TRUE
+  (practice #4), ikisi FALSE** (AC1 #10, AC3 #7). Yani "mutlak yazilmissa
+  yanlistir" kestirmesi calismiyor - E5'in FABLE5 setlerinde yakaladigi imza
+  tam olarak buydu.
+- "Celdiricilerin en az ucte biri olculu olsun" yarisi bu iki tipte
+  **karsiliksiz**: olculu/mutlak karsitligini tasiyacak bir celdirici metni yok.
+  Uydurma bir kip eklemek (ornegin "The whales are likely to have spent...")
+  olcum yaratmaz, yalnizca ifadeyi bulaniklastirirdi; eklenmedi.
+
+### Konumsal duzen sayimi (yasak 2)
+
+Harf dagilimi kurali TFNG ve kisa cevapta karsiliksiz (sik listesi yok). Onun
+yerine cevap dagilimlari:
+
+| Set | Dizi | Dagilim |
+|---|---|---|
+| practice TFNG 1-15 | T F NG T T F NG F T NG F T T NG F | TRUE 6 / FALSE 5 / NG 4 |
+| AC1 7-13 | T NG F F T F NG | TRUE 2 / FALSE 3 / NG 2 |
+| AC3 7-13 | F F T NG T F NG | TRUE 2 / FALSE 3 / NG 2 |
+
+- Ucunde de ardisik **uc** ayni cevap yok; en uzun tekrar iki (AC1 #9-10,
+  AC3 #7-8) ve ikisi de bilerek kabul edildi, cunku alternatifi cevabi kanit
+  yerine dagilima gore secmek olurdu.
+- **Hicbir yeni kanit son paragrafta degil**: F/4 (A02'de sekiz paragrafin
+  altincisi), D/4, B/4, B/2, A/2, C/3. "Sinirlilik beyani / hakem
+  degerlendirmesi" turu kapanis cumlelerine bu adimda hic dokunulmadi.
+- Yeni kanitlar pasajin **basi (A/2, B/2, B/4), ortasi (C/3, D/4) ve sonlarina
+  yakin (F/4)** dagiliyor.
+
+### Sonraki adimlara (E7) notlar
+
+- **Bu adimda dolan cumleler:** A01 D/4 (ikinci gorev - AC1 not tamamlama #4
+  ayni cumlenin traktor lastigi yarisini kullaniyor), A02 F/4 (ikinci gorev -
+  AC1 ozellik esleystirme #24 ve AC1 cumle tamamlama #21 ayni cumlenin
+  baskinlik yarisini kullaniyor), A07 B/4, A04 B/2 (ucuncu gorev), A06 A/2,
+  A08 C/3 (ikinci gorev).
+- **A01 D ve A02 F artik tamamen dolu.** Bu iki pasajda yeni bir yuva acilirsa
+  kanit bulmak zor olacak.
+- **AC1 #11 hala flagged** (E5 dokunmadi, `review_note`'unda "AC1-10 ile ayni
+  ekseni paylasiyor" yaziyordu). AC1 #10 artik FALSE ve bambaska bir eksende,
+  yani #11'in tekrarlilik gerekcesi ortadan kalkti; ama yuvanin kendi `guess`
+  gerekcesi duruyor - E7 yine de olcsun.
+- Araclar: `tools/_e7_durum.py` (hangi yuva gercekten uretilmis taramasi),
+  `_e7_yuvalar.py` (kapsam dokumu), `_e7_capraz.py` (bir pasajin butun
+  sorularini kanit capasiyla listeler), `_e7_kontrol.py` (alti yuvanin sema ve
+  artik-alan denetimi), `_e7_liste_doldur.py` (listeye isleme),
+  `_e7_ozet.py` (kip ve kanit ozeti).

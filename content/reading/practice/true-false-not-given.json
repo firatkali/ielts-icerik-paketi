@@ -89,26 +89,36 @@
     {
       "number": 4,
       "passage_id": "A02",
-      "prompt": "Strangers devoted more of their time together to interaction than familiar pairs did.",
+      "prompt": "No octopus released ink at any point during the test held on the seventh day.",
       "answer": [
         "TRUE"
       ],
-      "evidence": "Pairs made up of strangers, by contrast, interacted sooner, touched each other more often, and spent longer engaged with one another overall.",
+      "evidence": "Reversals of dominance, in which the previously subordinate animal became the stronger one, occurred only when the pair consisted of two strangers, in eight of the twelve such pairings; no reversal of this kind was seen among reunited familiar pairs, and no ink was released by any octopus during this final test.",
       "evidence_locator": {
         "paragraph": "F",
-        "sentence": 3
+        "sentence": 4
       },
       "contradiction_point": null,
       "not_given_justification": null,
-      "scan_note": "Son testteki davranış farkları F paragrafında (1.-4. cümle) veriliyor: F/2 tanıdık çiftlerin temkinli durduğunu, F/3 yabancı çiftlerin genel olarak daha uzun süre birbiriyle meşgul olduğunu söylüyor. G paragrafı da aynı yönde özetliyor; ters yönde bir cümle yok.",
-      "explanation": "Paragraph F says that pairs made up of strangers spent longer engaged with one another overall, while familiar pairs avoided contact.",
+      "scan_note": "Murekkep pasajda iki yerde geciyor: D/2 uc gunluk birlikte yasama boyunca savunma amacli murekkep puskurtmenin seyreldigini soyluyor, F/4 ise son sinamada hicbir ahtapotun murekkep birakmadigini belirtiyor. Sinamanin yedinci gunde yapildigini E/1 veriyor, F paragrafi da o sinamanin bulgularini aktariyor. Murekkep birakildigini soyleyen ters yonde bir cumle yok.",
+      "explanation": "Paragraph E says the decisive test came on the seventh day, and paragraph F reports that no ink was released by any octopus during that final test.",
       "difficulty": "medium",
-      "status": "rejected",
-      "blind_solvable": true,
-      "blind_basis": "general_knowledge",
-      "flag_reason": "Cevap TRUE, hayvan davranisinda yabanci bireylerin tanidiklara gore daha fazla etkilesime girdigi (yenilik arayisi/merak durtusu) yaygin davranis biyolojisi bilgisiyle parcaya bakmadan da tahmin edilebiliyor.",
-      "flag_mechanism": "genel_kultur",
-      "reject_reason": "Kanit cumlesi (F/3) tek bir yon soyluyor: yabanci ciftler daha erken etkilesime giriyor, daha sik dokunuyor ve birlikte daha uzun vakit geciriyor. Cumleden cikarilabilecek her dogru ifade 'yabancilar tanidiklardan daha cok etkilesime girer' bicimini aliyor; yenilik arayisi davranis biyolojisinin en yaygin genellemelerinden biri oldugu icin cevap ifade nasil yazilirsa yazilsin pasaja bakilmadan cikiyor. Cumlede pasaja ozgu tek bir sayi ya da ad da yok. E6 bu yuvayi F paragrafinin sayisal ayrintilarina capalamali (baskinligin tersine dondugu on iki yabanci ciftin sekizi, ya da son sinamada hic murekkep birakilmamasi)."
+      "status": "verified",
+      "blind_solvable": null,
+      "blind_basis": null,
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-08",
+        "kaynak_prompt": "prompts/OPUS5-E6-yeniden-uretim.md (7/7)",
+        "uretilen_grup": "Kalanlar + tam test butunlugu kontrolu",
+        "eski_prompt": "Strangers devoted more of their time together to interaction than familiar pairs did.",
+        "eski_cevap": [
+          "TRUE"
+        ],
+        "eski_kanit_cumlesi": "Pairs made up of strangers, by contrast, interacted sooner, touched each other more often, and spent longer engaged with one another overall.",
+        "neden_elendi": "Kanit cumlesi (F/3) tek bir yon soyluyor: yabanci ciftler daha erken etkilesime giriyor, daha sik dokunuyor ve birlikte daha uzun vakit geciriyor. Cumleden cikarilabilecek her dogru ifade 'yabancilar tanidiklardan daha cok etkilesime girer' bicimini aliyor; yenilik arayisi davranis biyolojisinin en yaygin genellemelerinden biri oldugu icin cevap ifade nasil yazilirsa yazilsin pasaja bakilmadan cikiyor. Cumlede pasaja ozgu tek bir sayi ya da ad da yok. E6 bu yuvayi F paragrafinin sayisal ayrintilarina capalamali (baskinligin tersine dondugu on iki yabanci ciftin sekizi, ya da son sinamada hic murekkep birakilmamasi).",
+        "ne_degisti": "Eski ifade F/3'e capaliydi ve ekseni 'yabancilar tanidiklardan daha cok etkilesime girer' genellemesiydi; bu davranis biyolojisinin ders kitabi bilgisi. Yeni ifade F/3'e hic degmiyor: kanit F/4'e, son sinamada hic murekkep birakilmamis olmasina tasindi. Bu olgu genel bilgiyle ters yonde calisiyor -- ahtapotun gerilim aninda murekkep puskurttugu yaygin bilindigi icin pasajsiz cozucu FALSE'a, dogru cevap ise TRUE'ya gidiyor. Ifade 'yedinci gun' demek icin E/1 ile F/4'un birlikte okunmasini da gerektiriyor."
+      }
     },
     {
       "number": 5,

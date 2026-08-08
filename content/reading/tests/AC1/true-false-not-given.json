@@ -90,26 +90,36 @@
     },
     {
       "number": 10,
-      "prompt": "Kandula changed where he placed the cube when the food was moved.",
+      "prompt": "Kandula's attempts to pile up smaller objects worked as well as his use of the cube.",
       "answer": [
-        "TRUE"
+        "FALSE"
       ],
-      "evidence": "When keepers moved the food to a new position, he adjusted by rolling the cube to the corresponding spot underneath.",
+      "evidence": "His success was not limited to the cube itself: when it was removed, he pushed a large tractor tyre into use as a substitute platform, and with smaller objects he attempted, less successfully, to stack them on top of one another.",
       "evidence_locator": {
         "paragraph": "D",
-        "sentence": 3
+        "sentence": 4
       },
-      "contradiction_point": null,
+      "contradiction_point": "Pasaj kucuk nesneleri ust uste koyma denemelerinin 'less successfully', yani daha az basariyla yurudugunu soyluyor; ifade bu denemelerin kup kullanimi kadar iyi sonuc verdigini iddia ediyor. Celiski tek noktada: iki yontemin basarisinin esitligi.",
       "not_given_justification": null,
-      "scan_note": "Küpün konumlandırılması C paragrafında (küpün dalın altına yuvarlanması), D paragrafında (yiyecek yer değiştirince ayarlaması) ve H paragrafında ('adapt it to new objects and locations') geçiyor; hepsi aynı yönde.",
-      "explanation": "Paragraph D says that when the keepers hung the food in a new spot, Kandula rolled the cube to the corresponding position.",
-      "difficulty": "easy",
-      "status": "rejected",
-      "blind_solvable": true,
-      "blind_basis": "general_knowledge",
-      "flag_reason": "Cevap TRUE, bir hayvanin arac kullanma zekasini gosteren calismalarda tipik kanitin, yiyecek yeri degistiginde davranisi buna gore uyarlamak olmasi -- bu tur 'akilli hayvan' anlatilarinin standart kanit yapisi -- genel bilgisiyle parcaya bakmadan da beklenen bir sonuc.",
-      "flag_mechanism": "genel_kultur",
-      "reject_reason": "Kanit cumlesi (D/3) yalniz 'yiyecek yeri degistiginde Kandula kupu yeni noktaya yuvarladi' diyor; bu cumleden cikarilabilecek her dogru ifade 'akilli hayvan yeni duruma uyum sagladi' bicimini aliyor. Uyum saglama, akilli hayvan calismalarinin standart kanit yapisi olarak beklendigi icin cevap eksen degistirilmeden kapanmiyor; ekseni degistirmek ise kanit cumlesini degistirmek demek, talimat bunu yarim duzeltme sayiyor. E6 bu yuvayi D paragrafinin sayisal ya da nesnel ayrintilarina capalamali (ayni oturumda dokuz kez tekrarlamasi, kup kaldirilinca traktor lastigine gecmesi, kucuk nesneleri ust uste koyma denemesinin basarisiz olmasi)."
+      "scan_note": "Kupun disindaki nesneler yalniz D/4'te ele aliniyor: traktor lastigi yerine gecen platform olarak isliyor, kucuk nesnelerin ust uste konmasi ise acikca 'less successfully' diye niteleniyor. C ve D'nin geri kalani kupun kendisiyle elde edilen basariyi anlatiyor, H ise cozumun 'hatasiz' ortaya ciktigini soyluyor ama bunu kupla yapilan cozum icin soyluyor; kucuk nesnelerin basarisini yukselten hicbir cumle yok.",
+      "explanation": "Paragraph D says that with smaller objects Kandula attempted to stack them 'less successfully', so those attempts did not work as well as his use of the cube, which he handled without difficulty.",
+      "difficulty": "medium",
+      "status": "verified",
+      "blind_solvable": null,
+      "blind_basis": null,
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-08",
+        "kaynak_prompt": "prompts/OPUS5-E6-yeniden-uretim.md (7/7)",
+        "uretilen_grup": "Kalanlar + tam test butunlugu kontrolu",
+        "eski_prompt": "Kandula changed where he placed the cube when the food was moved.",
+        "eski_cevap": [
+          "TRUE"
+        ],
+        "eski_kanit_cumlesi": "When keepers moved the food to a new position, he adjusted by rolling the cube to the corresponding spot underneath.",
+        "neden_elendi": "Kanit cumlesi (D/3) yalniz 'yiyecek yeri degistiginde Kandula kupu yeni noktaya yuvarladi' diyor; bu cumleden cikarilabilecek her dogru ifade 'akilli hayvan yeni duruma uyum sagladi' bicimini aliyor. Uyum saglama, akilli hayvan calismalarinin standart kanit yapisi olarak beklendigi icin cevap eksen degistirilmeden kapanmiyor; ekseni degistirmek ise kanit cumlesini degistirmek demek, talimat bunu yarim duzeltme sayiyor. E6 bu yuvayi D paragrafinin sayisal ya da nesnel ayrintilarina capalamali (ayni oturumda dokuz kez tekrarlamasi, kup kaldirilinca traktor lastigine gecmesi, kucuk nesneleri ust uste koyma denemesinin basarisiz olmasi).",
+        "ne_degisti": "Eski ifade D/3'e capaliydi ve ekseni 'akilli hayvan yeni duruma uyum saglar' beklentisiydi; bu, akilli hayvan calismalarinin standart kanit yapisi oldugu icin cevap pasajsiz cikiyordu. Yeni ifade D/3'e hic degmiyor: kanit E5'in kendi onerdigi noktaya, D/4'teki basarisiz istifleme denemesine tasindi. Metin bu denemeyi tek bir zarfla ('less successfully') nitelendirdigi icin cevap yalniz o zarftan cikiyor; yuvanin cevabi da TRUE'dan FALSE'a dondu, boylece 'etkileyici yetenek iddiasi -> TRUE' ekseni AC1'de bir kez daha kirildi. Kanit ayni test icindeki AC1 not tamamlama 4 ile ayni cumleyi paylasiyor ama onun hedefi cumlenin traktor lastigi yarisi; bu yuva yalniz kucuk nesneler yarisini kullaniyor."
+      }
     },
     {
       "number": 11,

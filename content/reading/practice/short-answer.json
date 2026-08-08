@@ -82,29 +82,39 @@
     {
       "number": 4,
       "passage_id": "A04",
-      "prompt": "Question 4 refers to Passage A04. On what date did the earlier spacecraft mission make its close approach to Uranus?",
+      "prompt": "Question 4 refers to Passage A04. In the observing run that revealed the moon, how many long-exposure images did the camera capture?",
       "answer": [
-        "24 January 1986"
+        "ten"
       ],
       "accepted_variants": [
-        "24 January 1986",
-        "24 January, 1986",
-        "January 24 1986",
-        "24 January"
+        "ten",
+        "10",
+        "ten images",
+        "10 images"
       ],
-      "evidence": "NASA's Voyager 2 spacecraft flew past Uranus on 24 January 1986, capturing the only close-up images of the planet's moons that exist to this day, and yet it did not detect this moon at all.",
+      "evidence": "On 2 February 2025, Webb's Near-Infrared Camera captured a series of ten long-exposure images, each lasting forty minutes, over a period of roughly six hours, tracking a faint point of light moving against the background of stars in a pattern consistent with an object orbiting Uranus itself.",
       "evidence_locator": {
-        "paragraph": "F",
+        "paragraph": "B",
         "sentence": 2
       },
-      "explanation": "Paragraph F says that Voyager 2 flew past Uranus on 24 January 1986; since the question asks for the date of this close approach, the answer is '24 January 1986'.",
-      "difficulty": "easy",
-      "status": "rejected",
-      "blind_solvable": true,
-      "blind_basis": "general_knowledge",
-      "flag_reason": "Cevap '24 January 1986', Voyager 2'nin Uranus'e en yakin gecisinin tarihi olarak halka acik NASA misyon kayitlarinda yer alan bilinen bir tarih; parcaya bakmadan da bu genel bilgiyle hatirlanabiliyor.",
-      "flag_mechanism": "genel_kultur",
-      "reject_reason": "Cevabin kendisi bir dunya bilgisi: Voyager 2'nin Uranus'e en yakin gecis tarihi (24 Ocak 1986) halka acik NASA kayitlarindan bilinen unlu bir tarih; model uc turda da gun/ay/yil dogru yazdi (3/3 PUAN). Soru kokunun tamami zaten 'o tarih neydi' sorusudur, yani eksen dunya bilgisinin kendisi. E6 onerisi: F/2'nin ikinci yarisi - Voyager'in cektigi yakin goruntulerin bugun hala tek ornek olmasi, ya da bu uydunun o gecise hic yakalanmamis olmasi."
+      "explanation": "Paragraph B says the Near-Infrared Camera captured a series of ten long-exposure images on the observing run of 2 February 2025; the answer is therefore 'ten'.",
+      "difficulty": "medium",
+      "status": "verified",
+      "blind_solvable": null,
+      "blind_basis": null,
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-08",
+        "kaynak_prompt": "prompts/OPUS5-E6-yeniden-uretim.md (7/7)",
+        "uretilen_grup": "Kalanlar + tam test butunlugu kontrolu",
+        "eski_prompt": "Question 4 refers to Passage A04. On what date did the earlier spacecraft mission make its close approach to Uranus?",
+        "eski_cevap": [
+          "24 January 1986"
+        ],
+        "eski_kanit_cumlesi": "NASA's Voyager 2 spacecraft flew past Uranus on 24 January 1986, capturing the only close-up images of the planet's moons that exist to this day, and yet it did not detect this moon at all.",
+        "neden_elendi": "Cevabin kendisi bir dunya bilgisi: Voyager 2'nin Uranus'e en yakin gecis tarihi (24 Ocak 1986) halka acik NASA kayitlarindan bilinen unlu bir tarih; model uc turda da gun/ay/yil dogru yazdi (3/3 PUAN). Soru kokunun tamami zaten 'o tarih neydi' sorusudur, yani eksen dunya bilgisinin kendisi. E6 onerisi: F/2'nin ikinci yarisi - Voyager'in cektigi yakin goruntulerin bugun hala tek ornek olmasi, ya da bu uydunun o gecise hic yakalanmamis olmasi.",
+        "ne_degisti": "Eski soru F/2'ye capaliydi ve cevabin kendisi (24 Ocak 1986) NASA kayitlarindan bilinen unlu bir tarihti. Yeni soru F paragrafina hic degmiyor: kanit B/2'ye, gozlem dizisindeki poz sayisina tasindi. E5'in onerdigi iki secenek de ayni cumlenin ikinci yarisiydi ve ikisinin de cevabi 'Voyager 2' olurdu, yani ayni dunya bilgisi kalirdi; bu yuzden yuva bastan baska bir paragrafa tasindi. Poz sayisi tek bir gozlem programina ozgu, disaridan turetilemeyen bir ayrinti. Ayni cumlenin oteki iki olcusu (poz basina kirk dakika, toplam alti saat) AC2 akis semasi 1 ve practice cumle tamamlama 10'da kullanildigi icin bu yuvaya poz sayisi birakildi."
+      }
     },
     {
       "number": 5,
@@ -132,28 +142,39 @@
     {
       "number": 6,
       "passage_id": "A06",
-      "prompt": "Question 6 refers to Passage A06. Which idea do the researchers draw on to explain how a well-established team knows which member to turn to?",
+      "prompt": "Question 6 refers to Passage A06. Besides Japan itself, in how many countries were the company's staff based?",
       "answer": [
-        "transactive memory system"
+        "23"
       ],
       "accepted_variants": [
-        "transactive memory system",
-        "a transactive memory system"
+        "23",
+        "twenty-three",
+        "23 countries",
+        "23 other countries"
       ],
-      "evidence": "The researchers interpret the pattern through the idea of a transactive memory system, in which effective teams develop a shared, largely implicit sense of who knows what, letting members find the right person to ask rather than needing constant interaction.",
+      "evidence": "Its roughly 900 employees, spread across all 47 of Japan's prefectures and 23 other countries as of March 2025, handle client work entirely through remote communication platforms.",
       "evidence_locator": {
-        "paragraph": "H",
-        "sentence": 1
+        "paragraph": "A",
+        "sentence": 2
       },
-      "explanation": "Paragraph H says that the findings are interpreted through the idea of a 'transactive memory system', in which teams develop a shared sense of who knows what; the answer is therefore 'transactive memory system'.",
-      "difficulty": "hard",
-      "status": "rejected",
-      "blind_solvable": true,
-      "blind_solvable_kelime_duzeyi": false,
-      "blind_basis": "logic",
-      "flag_reason": "Parça gösterilmeden anlamca 3/3 turda doğru bilindi: farklı kelimeyle ama doğru kavramla cevaplandı (3 turda da 'transactive memory' verdi, gerçek cevap 'transactive memory system').",
-      "flag_mechanism": "esdizim_kilidi",
-      "reject_reason": "Model parcasiz uc turda da 'transactive memory' verdi, yani cevabin ayirt edici iki sozcugunu birebir tutturdu; dusen tek sey genel 'system' basiydi. Sorunun ekseni bir kurami ADIYLA sormak ('researchers hangi fikre dayaniyor'), o kuram da orgut psikolojisinin en cok atif yapilan kavramlarindan biri: 'kim neyi biliyor' ortak bellegi transaktif bellek diye adlandirilir. Bu yuzden sorun kip ya da konum degil eksenin kendisi -- kanit cumlesi ne kadar yeniden yazilirsa yazilsin, alani bilen cozucu adi metne bakmadan veriyor. E6 onerisi: H paragrafinin olcusel iddialari -- Caster'in yalniz bireysel ciktiya gore odeme yapmasi, ya da deneyimli meslektasin faydasinin daha AZ duzenli kesintiyle artmasi."
+      "explanation": "Paragraph A says the company's employees are spread across all 47 of Japan's prefectures and 23 other countries; since the question asks how many countries besides Japan, the answer is '23'.",
+      "difficulty": "medium",
+      "status": "verified",
+      "blind_solvable": null,
+      "blind_basis": null,
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-08",
+        "kaynak_prompt": "prompts/OPUS5-E6-yeniden-uretim.md (7/7)",
+        "uretilen_grup": "Kalanlar + tam test butunlugu kontrolu",
+        "eski_prompt": "Question 6 refers to Passage A06. Which idea do the researchers draw on to explain how a well-established team knows which member to turn to?",
+        "eski_cevap": [
+          "transactive memory system"
+        ],
+        "eski_kanit_cumlesi": "The researchers interpret the pattern through the idea of a transactive memory system, in which effective teams develop a shared, largely implicit sense of who knows what, letting members find the right person to ask rather than needing constant interaction.",
+        "neden_elendi": "Model parcasiz uc turda da 'transactive memory' verdi, yani cevabin ayirt edici iki sozcugunu birebir tutturdu; dusen tek sey genel 'system' basiydi. Sorunun ekseni bir kurami ADIYLA sormak ('researchers hangi fikre dayaniyor'), o kuram da orgut psikolojisinin en cok atif yapilan kavramlarindan biri: 'kim neyi biliyor' ortak bellegi transaktif bellek diye adlandirilir. Bu yuzden sorun kip ya da konum degil eksenin kendisi -- kanit cumlesi ne kadar yeniden yazilirsa yazilsin, alani bilen cozucu adi metne bakmadan veriyor. E6 onerisi: H paragrafinin olcusel iddialari -- Caster'in yalniz bireysel ciktiya gore odeme yapmasi, ya da deneyimli meslektasin faydasinin daha AZ duzenli kesintiyle artmasi.",
+        "ne_degisti": "Eski soru H/1'e capaliydi ve bir kurami adiyla soruyordu; kuramin adi orgut psikolojisinin ders kitabi bilgisi oldugu icin cevap pasajsiz cikiyordu. Yeni soru H paragrafina hic degmiyor: kanit A/2'ye, sirketin calistigi ulke sayisina tasindi ve cevap bir kavram degil, disaridan bilinemeyecek bir sayi. E5'in onerdigi iki olcusel iddia (yalniz bireysel cikti uzerinden odeme, daha az kesintiyle artan fayda) bu adimda kullanilamadi, cunku ikisi de H/2'ye capali ve o cumle practice not tamamlama 3 ile AC2 coktan secmeli 34-35'te zaten kullanilmis durumda. A/2'nin oteki sayisi olan 47 vilayet E5 tarafindan tam da genel kultur oldugu icin elenmisti; bu yuzden soru ulke sayisina soruluyor ve kok 'Japonya disinda' diyerek 'other' ayrimini korumayi zorunlu kiliyor."
+      }
     },
     {
       "number": 7,
@@ -180,27 +201,39 @@
     {
       "number": 8,
       "passage_id": "A08",
-      "prompt": "Question 8 refers to Passage A08. Which summit does the passage identify as the highest in Canada?",
+      "prompt": "Question 8 refers to Passage A08. Which date's radar image did the analysts use as their pre-earthquake baseline?",
       "answer": [
-        "Mount Logan"
+        "26 November"
       ],
       "accepted_variants": [
-        "Mount Logan",
-        "Logan"
+        "26 November",
+        "November 26",
+        "26th November",
+        "26 Nov"
       ],
-      "evidence": "The most conspicuous single event showed up as a wide cascade of debris pouring down the flank of Mount King George, while further landslide scars were visible around Mount Logan, Canada's tallest peak.",
+      "evidence": "By comparing an image captured on 8 December, only two days after the earthquake, with a baseline image from 26 November, before the quake, analysts could see large new patches of brightness spreading across slopes that had previously appeared smooth and dark, a direct signature of freshly broken rock and snow.",
       "evidence_locator": {
-        "paragraph": "D",
-        "sentence": 1
+        "paragraph": "C",
+        "sentence": 3
       },
-      "explanation": "Paragraph D identifies Mount Logan as Canada's tallest peak and says that landslide scars were visible around this mountain; the answer is therefore 'Mount Logan'.",
+      "explanation": "Paragraph C says the post-earthquake image of 8 December was compared with a baseline image from 26 November, taken before the quake; the answer is therefore '26 November'.",
       "difficulty": "medium",
-      "status": "rejected",
-      "blind_solvable": true,
-      "blind_basis": "general_knowledge",
-      "flag_reason": "Cevap 'Mount Logan', Kanada'nin en yuksek zirvesi olarak bilinen bir cografya gercegi; soru zaten 'Kanada'daki en yuksek zirve' diye sordugu icin parcaya bakmadan da bilinebiliyor.",
-      "flag_mechanism": "genel_kultur",
-      "reject_reason": "Cevabin kendisi bir dunya bilgisi ve soru kokunun tamami onu soruyor: 'Kanada'nin en yuksek zirvesi' sorusunun cevabi Mount Logan'dir ve model uc turda da yazdi (3/3 PUAN). Kokten 'highest in Canada' ibaresini cikarmak soruyu duzeltmez, baska bir soru yazmak olur - talimatin yarim duzeltme saydigi sey budur. E6 onerisi: D/1'in oteki yarisi - Mount King George'un yamacindaki genis enkaz akmasi ya da uydu goruntusuyle yer arastirmasinin ortusmesi."
+      "status": "verified",
+      "blind_solvable": null,
+      "blind_basis": null,
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-08",
+        "kaynak_prompt": "prompts/OPUS5-E6-yeniden-uretim.md (7/7)",
+        "uretilen_grup": "Kalanlar + tam test butunlugu kontrolu",
+        "eski_prompt": "Question 8 refers to Passage A08. Which summit does the passage identify as the highest in Canada?",
+        "eski_cevap": [
+          "Mount Logan"
+        ],
+        "eski_kanit_cumlesi": "The most conspicuous single event showed up as a wide cascade of debris pouring down the flank of Mount King George, while further landslide scars were visible around Mount Logan, Canada's tallest peak.",
+        "neden_elendi": "Cevabin kendisi bir dunya bilgisi ve soru kokunun tamami onu soruyor: 'Kanada'nin en yuksek zirvesi' sorusunun cevabi Mount Logan'dir ve model uc turda da yazdi (3/3 PUAN). Kokten 'highest in Canada' ibaresini cikarmak soruyu duzeltmez, baska bir soru yazmak olur - talimatin yarim duzeltme saydigi sey budur. E6 onerisi: D/1'in oteki yarisi - Mount King George'un yamacindaki genis enkaz akmasi ya da uydu goruntusuyle yer arastirmasinin ortusmesi.",
+        "ne_degisti": "Eski soru D/1'e capaliydi ve cevap Kanada'nin en yuksek zirvesi olarak bilinen bir cografya gercegiydi. Yeni soru D paragrafina hic degmiyor: kanit C/3'e, karsilastirmada kullanilan deprem oncesi temel goruntunun tarihine tasindi. E5'in onerdigi iki secenek de D/1'in yarilariydi; ama Mount King George'un yamacindaki enkaz akmasi AC3 ozellik eslestirme 24'te, 12 Aralik'taki yer arastirmasi ise practice not tamamlama 8 ile practice coktan secmeli 11'de zaten kullanilmis durumda, bu yuzden yuva bos duran C paragrafina tasindi. 26 Kasim keyfi bir gecis tarihi, disaridan turetilemez; ayni cumlenin 8 Aralik yarisi AC3 cumle tamamlama 21'de kullanildigi icin bu yuvaya temel goruntunun tarihi birakildi."
+      }
     },
     {
       "number": 9,

@@ -18,26 +18,36 @@
   "items": [
     {
       "number": 7,
-      "prompt": "Researchers still disagree about what a successful mirror test actually proves.",
+      "prompt": "The whales spent at least twice as much time in front of the mirror as they did in front of the plain panel.",
       "answer": [
-        "TRUE"
+        "FALSE"
       ],
-      "evidence": "Whether the test measures genuine self-awareness or something narrower remains contested, but passing it is still treated as one of the clearest behavioural signs that an animal can distinguish its own reflection from that of another individual.",
+      "evidence": "Across the study the whales spent roughly 27 hours in front of the mirror and about 23 hours in front of the plain panel.",
       "evidence_locator": {
-        "paragraph": "A",
-        "sentence": 3
+        "paragraph": "B",
+        "sentence": 4
       },
-      "contradiction_point": null,
+      "contradiction_point": "Pasaj iki sureyi de veriyor: aynanin onunde yaklasik 27 saat, duz panelin onunde yaklasik 23 saat. Iki katindan fazlasi 46 saatten fazlasi demek olurdu; ifade bu esigi kuruyor, sayilar ise 27'de kaliyor. Celiski tek noktada: iki sure arasindaki oran.",
       "not_given_justification": null,
-      "scan_note": "Testin ne ölçtüğü tartışması A paragrafında (3. cümle) ve H paragrafında ('The authors are cautious about overstating what the test proves' ve 'does not necessarily mean an animal possesses the same rich sense of self') ele alınıyor; ikisi de aynı yönde, tartışmanın sürdüğünü destekliyor, çelişen cümle yok.",
-      "explanation": "Paragraph A says it is still debated whether the test measures genuine self-awareness or something narrower; the statement is a paraphrase of this.",
-      "difficulty": "easy",
-      "status": "rejected",
-      "blind_solvable": true,
-      "blind_basis": "general_knowledge",
-      "flag_reason": "Cevap TRUE, ayna testinin gercekte neyi olctugu (gercek oz farkindaligi mi yoksa daha dar bir seyi mi) konusundaki bilimsel tartismanin hayvan bilisi alaninda yaygin ve bilinen bir tartisma olmasi sayesinde parcaya bakmadan da tahmin edilebiliyor.",
-      "flag_mechanism": "genel_kultur",
-      "reject_reason": "Kanit cumlesi (A/3) ayna testinin gercekte neyi olctugu tartismasini ozetliyor: 'gercek oz farkindalik mi yoksa daha dar bir sey mi'. Bu tartisma hayvan bilisinin en cok aktarilan tartismalarindan biri ve cumlenin iki yarisi da (tartismanin varligi, testin yine de en net davranissal isaret sayilmasi) alan bilgisinden dogrudan cikiyor. Cumlede pasaja ozgu tek bir sayi, ad ya da olcu yok, dolayisiyla ifade nasil yazilirsa yazilsin eksen genel kultur kaliyor. E6 bu yuvayi B paragrafinin sayisal ayrintilarina capalamali (98 oturum, aynanin onunde 27 saate karsi seffaf panelin onunde 23 saat)."
+      "scan_note": "Aynanin ve kontrol panelinin onunde gecirilen sureler yalniz B/4'te veriliyor; B/3 iki duzenegin gun gun degistirildigini, C paragrafi ise aynanin farkli muamele gordugunu anlatiyor ama sure ya da oran vermiyor. Sureleri baska bicimde raporlayan ikinci bir cumle yok.",
+      "explanation": "Paragraph B gives the two totals as roughly 27 hours at the mirror and about 23 hours at the plain panel; 27 is well under twice 23, so the mirror did not take at least twice as much time, even though the whales did treat it differently.",
+      "difficulty": "medium",
+      "status": "verified",
+      "blind_solvable": null,
+      "blind_basis": null,
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-08",
+        "kaynak_prompt": "prompts/OPUS5-E6-yeniden-uretim.md (7/7)",
+        "uretilen_grup": "Kalanlar + tam test butunlugu kontrolu",
+        "eski_prompt": "Researchers still disagree about what a successful mirror test actually proves.",
+        "eski_cevap": [
+          "TRUE"
+        ],
+        "eski_kanit_cumlesi": "Whether the test measures genuine self-awareness or something narrower remains contested, but passing it is still treated as one of the clearest behavioural signs that an animal can distinguish its own reflection from that of another individual.",
+        "neden_elendi": "Kanit cumlesi (A/3) ayna testinin gercekte neyi olctugu tartismasini ozetliyor: 'gercek oz farkindalik mi yoksa daha dar bir sey mi'. Bu tartisma hayvan bilisinin en cok aktarilan tartismalarindan biri ve cumlenin iki yarisi da (tartismanin varligi, testin yine de en net davranissal isaret sayilmasi) alan bilgisinden dogrudan cikiyor. Cumlede pasaja ozgu tek bir sayi, ad ya da olcu yok, dolayisiyla ifade nasil yazilirsa yazilsin eksen genel kultur kaliyor. E6 bu yuvayi B paragrafinin sayisal ayrintilarina capalamali (98 oturum, aynanin onunde 27 saate karsi seffaf panelin onunde 23 saat).",
+        "ne_degisti": "Eski ifade A/3'e capaliydi ve ekseni ayna testinin ne olctugu tartismasiydi; alan bilgisi oldugu icin cevap pasajsiz cikiyordu. Yeni ifade A/3'e hic degmiyor: kanit E5'in kendi onerdigi noktaya, B/4'teki iki sureye tasindi ve cevap yalniz 27 ile 23 saat arasindaki orandan cikiyor. Genel beklenti ('ayna kontrolden cok daha ilgi ceker') TRUE'ya isaret ederken metnin sayilari FALSE veriyor, yani sezgi ters yone calisiyor. Sette pasaja ozgu sayi tasiyan ilk yuva bu oldu; #8 hala B/1'e capali oldugu icin bu iki yuva ayni paragrafta cumle sirasi tersine donmus durumda, paragraf sirasi (A/B -> C -> E -> F -> G) korunuyor."
+      }
     },
     {
       "number": 8,
