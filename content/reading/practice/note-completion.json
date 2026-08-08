@@ -13,32 +13,41 @@
   "word_limit": "NO MORE THAN TWO WORDS",
   "word_bank": null,
   "visual": null,
-  "stem_block": "Passage A06 — Why New Remote Workers Need Experienced Teammates, Not Star Performers\n- Staff based in every one of Japan's (1) ........ prefectures, plus 23 further countries\n- Data drawn from three in-house sources: personnel files, (2) ........ , and message records\n- Wages depend on (3) ........ alone, so matching the team's results brings no reward\n\nPassage A07 — The Whale That Recognised Herself in a Mirror\n- Species said to pass: orcas, bottlenose dolphins, Asian elephants, a few great apes, one cleaner fish species and, surprisingly, the (4) ........\n- Why it matters: an ability tied mainly to dolphins until now is shown in another toothed-whale line, the (5) ........\n- Warning: with one animal only, or a (6) ........ , such abilities are easily missed — just 2 of the 4 belugas reacted strongly\n\nPassage A08 — An Earthquake Writes Its Story Across a Glacier\n- Epicentre: about (7) ........ inland, north of Yakutat on the coast\n- What the satellite suggested was backed up by a survey on the ground on (8) ........\n- Lesson: without a device able to pick up small shifts in (9) ........ from orbit, a change on this scale might never have been noted\n\nPassage A09 — The Brain That Turned to Glass\n- Pyroclastic flows, racing currents of hot gas and debris, can reach about (10) ........ degrees Celsius\n- Victim: a man of roughly 20, lying on his front on a (11) ........ , seemingly asleep as the flows arrived\n- Value of the find: cell-level detail from antiquity that (12) ........ on their own hardly ever supply\n\nPassage A12 — Does a Nap Help You Remember as Well as a Night's Sleep?\n- Second study: after learning at 1.30 p.m., some took a 90-minute nap while their brain activity was tracked by (13) ........\n- Conclusion: sleep helps most with what is easiest to forget, namely (14) ........ with no tie to what is already known\n- A nap works about as well as a whole night for isolated facts, e.g. an (15) ........ or a single new vocabulary item",
+  "stem_block": "Passage A06 — Why New Remote Workers Need Experienced Teammates, Not Star Performers\n- Sample: (1) ........ employee-month records from a single department, April 2022 to March 2023\n- Data drawn from three in-house sources: personnel files, (2) ........ , and message records\n- Wages depend on (3) ........ alone, so matching the team's results brings no reward\n\nPassage A07 — The Whale That Recognised Herself in a Mirror\n- Species said to pass: orcas, bottlenose dolphins, Asian elephants, a few great apes, one cleaner fish species and, surprisingly, the (4) ........\n- Why it matters: an ability tied mainly to dolphins until now is shown in another toothed-whale line, the (5) ........\n- Warning: with one animal only, or a (6) ........ , such abilities are easily missed — just 2 of the 4 belugas reacted strongly\n\nPassage A08 — An Earthquake Writes Its Story Across a Glacier\n- Epicentre: about (7) ........ inland, north of Yakutat on the coast\n- What the satellite suggested was backed up by a survey on the ground on (8) ........\n- Lesson: without a device able to pick up small shifts in (9) ........ from orbit, a change on this scale might never have been noted\n\nPassage A09 — The Brain That Turned to Glass\n- Vitrified tissue: axons averaging (10) ........ nanometres across, close to the range for living white matter\n- Victim: a man of roughly 20, lying on his front on a (11) ........ , seemingly asleep as the flows arrived\n- Value of the find: cell-level detail from antiquity that (12) ........ on their own hardly ever supply\n\nPassage A12 — Does a Nap Help You Remember as Well as a Night's Sleep?\n- Second study: after learning at 1.30 p.m., some took a 90-minute nap while their brain activity was tracked by (13) ........\n- Conclusion: sleep helps most with what is easiest to forget, namely (14) ........ with no tie to what is already known\n- A nap works about as well as a whole night for isolated facts, e.g. an (15) ........ or a single new vocabulary item",
   "items": [
     {
       "number": 1,
       "passage_id": "A06",
-      "prompt": "Staff based in every one of Japan's (1) ........ prefectures, plus 23 further countries",
+      "prompt": "Sample: (1) ........ employee-month records from a single department, April 2022 to March 2023",
       "answer": [
-        "47"
+        "977"
       ],
       "accepted_variants": [
-        "47",
-        "forty-seven"
+        "977"
       ],
-      "evidence": "Its roughly 900 employees, spread across all 47 of Japan's prefectures and 23 other countries as of March 2025, handle client work entirely through remote communication platforms.",
+      "evidence": "A team of researchers analysed 977 employee-month records from one of the company's departments, covering April 2022 through March 2023.",
       "evidence_locator": {
-        "paragraph": "A",
-        "sentence": 2
+        "paragraph": "B",
+        "sentence": 1
       },
-      "explanation": "Paragraph A says the company's roughly 900 employees are spread across all 47 of Japan's prefectures and 23 other countries; so the answer is '47'.",
+      "explanation": "Paragraph B says the researchers analysed 977 employee-month records from one department, covering April 2022 through March 2023; so the answer is '977'.",
       "difficulty": "easy",
-      "status": "rejected",
-      "blind_solvable": true,
-      "blind_basis": "general_knowledge",
-      "flag_reason": "Cevap '47', Japonya'nin idari olarak 47 ile bolunmus olmasinin dunyaca bilinen bir cografya gercegi olmasi sayesinde parcaya bakmadan da tahmin edilebiliyor; bosluk zaten 'Japonya'nin ... illeri' kalibini veriyor, akla gelen tek yaygin sayi 47.",
-      "flag_mechanism": "genel_kultur",
-      "reject_reason": "Cevabin kendisi bir dunya bilgisi: Japonya'nin 47 ile bolunmus olmasi cografya ders kitabi duzeyinde bilinir ve model parcasiz uc turda da '47' yazdi (3/3 PUAN alirdi). Nottan 'Japan's' kaldirilsa bile 'prefecture' sozcugu tek basina Japonya'yi adlandiriyor, yani cerceve duzeltmesi yariya kaliyor. E6 onerisi: ayni cumledeki calisan sayisi (yaklasik 900) ya da '23 other countries' yerine Mart 2025 tarihi."
+      "status": "verified",
+      "blind_solvable": null,
+      "blind_basis": null,
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-08",
+        "kaynak_prompt": "prompts/OPUS5-E6-yeniden-uretim.md (6/7)",
+        "uretilen_grup": "Tamamlama ailesi yuvalari",
+        "eski_prompt": "Staff based in every one of Japan's (1) ........ prefectures, plus 23 further countries",
+        "eski_cevap": [
+          "47"
+        ],
+        "eski_kanit_cumlesi": "Its roughly 900 employees, spread across all 47 of Japan's prefectures and 23 other countries as of March 2025, handle client work entirely through remote communication platforms.",
+        "neden_elendi": "Cevabin kendisi bir dunya bilgisi: Japonya'nin 47 ile bolunmus olmasi cografya ders kitabi duzeyinde bilinir ve model parcasiz uc turda da '47' yazdi (3/3 PUAN alirdi). Nottan 'Japan's' kaldirilsa bile 'prefecture' sozcugu tek basina Japonya'yi adlandiriyor, yani cerceve duzeltmesi yariya kaliyor. E6 onerisi: ayni cumledeki calisan sayisi (yaklasik 900) ya da '23 other countries' yerine Mart 2025 tarihi.",
+        "ne_degisti": "Eski not satiri A/2'ye capaliydi ve cevap ('47') cografya ders kitabi duzeyinde bir dunya bilgisiydi; 'prefecture' sozcugu tek basina Japonya'yi adlandirdigi icin cerceve duzeltmesi de yetmiyordu. Yeni satir A paragrafina hic degmiyor: kanit B/1'e, orneklem buyukluguna tasindi. 977 keyfi bir kayit sayisi, disaridan bilinemez."
+      }
     },
     {
       "number": 2,
@@ -221,27 +230,36 @@
     {
       "number": 10,
       "passage_id": "A09",
-      "prompt": "Pyroclastic flows, racing currents of hot gas and debris, can reach about (10) ........ degrees Celsius",
+      "prompt": "Vitrified tissue: axons averaging (10) ........ nanometres across, close to the range for living white matter",
       "answer": [
-        "500"
+        "717.7"
       ],
       "accepted_variants": [
-        "500",
-        "five hundred"
+        "717.7"
       ],
-      "evidence": "At Herculaneum, closer to the volcano, the town was overwhelmed instead by a series of pyroclastic flows, fast-moving currents of superheated gas and volcanic debris that can reach temperatures of around 500 degrees Celsius.",
+      "evidence": "Axons in the vitrified brain tissue measured on average 717.7 nanometres in diameter, close to the typical range for white matter in a living brain, while axons from the preserved spinal cord measured around 672 nanometres.",
       "evidence_locator": {
-        "paragraph": "A",
+        "paragraph": "E",
         "sentence": 2
       },
-      "explanation": "Paragraph A says pyroclastic flows can reach temperatures of around 500 degrees Celsius; so the answer is '500'.",
-      "difficulty": "easy",
-      "status": "rejected",
-      "blind_solvable": true,
-      "blind_basis": "general_knowledge",
-      "flag_reason": "Cevap '500', piroklastik akintilarin sicakliginin yuzlerce dereceye ulastigi yaygin volkanoloji bilgisiyle (sikca '500 derece civari' olarak anilir) parcaya bakmadan da tahmin edilebiliyor.",
-      "flag_mechanism": "genel_kultur",
-      "reject_reason": "Cevabin kendisi bir dunya bilgisi: piroklastik akintilarin yaklasik 500 santigrat dereceye ulastigi volkanoloji anlatilarinin standart rakami; model uc turda da '500' yazdi (3/3 PUAN). Not satirinin kendisi zaten bu genel gercegin ifadesi, dolayisiyla yeniden yazmak sizintiyi kapatmiyor. E6 onerisi: A paragrafinin Herculaneum'a olan uzakligi ya da Pompeii ile Herculaneum'un farkli gomulme bicimi."
+      "explanation": "Paragraph E says axons in the vitrified brain tissue measured on average 717.7 nanometres in diameter, close to the typical range for white matter in a living brain; so the answer is '717.7'.",
+      "difficulty": "medium",
+      "status": "verified",
+      "blind_solvable": null,
+      "blind_basis": null,
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-08",
+        "kaynak_prompt": "prompts/OPUS5-E6-yeniden-uretim.md (6/7)",
+        "uretilen_grup": "Tamamlama ailesi yuvalari",
+        "eski_prompt": "Pyroclastic flows, racing currents of hot gas and debris, can reach about (10) ........ degrees Celsius",
+        "eski_cevap": [
+          "500"
+        ],
+        "eski_kanit_cumlesi": "At Herculaneum, closer to the volcano, the town was overwhelmed instead by a series of pyroclastic flows, fast-moving currents of superheated gas and volcanic debris that can reach temperatures of around 500 degrees Celsius.",
+        "neden_elendi": "Cevabin kendisi bir dunya bilgisi: piroklastik akintilarin yaklasik 500 santigrat dereceye ulastigi volkanoloji anlatilarinin standart rakami; model uc turda da '500' yazdi (3/3 PUAN). Not satirinin kendisi zaten bu genel gercegin ifadesi, dolayisiyla yeniden yazmak sizintiyi kapatmiyor. E6 onerisi: A paragrafinin Herculaneum'a olan uzakligi ya da Pompeii ile Herculaneum'un farkli gomulme bicimi.",
+        "ne_degisti": "Eski not satiri A/2'ye capaliydi ve cevap ('500') volkanoloji anlatilarinin standart rakamiydi; satirin kendisi zaten o genel gercegin ifadesiydi. Yeni satir A paragrafina hic degmiyor: kanit E/2'ye, olculen akson capina tasindi. Ondalikli olcum degeri pasaj disindan turetilemez. Ayni A paragrafinin oteki adaylari da (AD 79, yaklasik 20 metrelik gomulme) bilinen rakamlar oldugu icin bilerek kullanilmadi."
+      }
     },
     {
       "number": 11,

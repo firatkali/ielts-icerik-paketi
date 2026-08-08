@@ -22,11 +22,11 @@
     },
     {
       "letter": "C",
-      "text": "between-subjects"
+      "text": "an hour and a half"
     },
     {
       "letter": "D",
-      "text": "connected in meaning"
+      "text": "64.1 minutes"
     },
     {
       "letter": "E",
@@ -46,40 +46,50 @@
     },
     {
       "letter": "I",
-      "text": "unrelated in meaning"
+      "text": "a quiet walk"
     },
     {
       "letter": "J",
-      "text": "within-subject"
+      "text": "a puzzle game"
     }
   ],
   "visual": null,
-  "stem_block": "Sleep, naps and remembering word pairs\n\nTwo studies asked how well freshly learned word pairs survive either a night of sleep or a short daytime rest. In the earlier one, different volunteers were placed in a sleeping group and a waking group; the later one instead used a (36) ........ design, so that the very same volunteers went through both a rest and a matching stretch of time without one. In the earlier study, one group met 80 pairs late in the evening and was tested twelve hours afterwards, while the other met them at the start of the day and remained (37) ........ until an evening test. Where the two halves of a pair were already (38) ........ , a whole night of sleep improved recall far more than a rest of an hour and a half did. Where no such link existed, however, the picture changed: the two turned out to offer (39) ........ . Neither how long a rest ran nor which stages it contained predicted the size of the gain; what counted, the authors argue, was (40) ........ rather than anything about the internal shape of the sleep.",
+  "stem_block": "Sleep, naps and remembering word pairs\n\nTwo studies asked how well freshly learned word pairs survive either a night of sleep or a short daytime rest. In the earlier one, different volunteers were placed in a sleeping group and a waking group, while in the later one the same volunteers met both conditions on different days, each spending half an hour on (36) ........ before the final test so that grogginess would not distort it. In the earlier study, one group met 80 pairs late in the evening and was tested twelve hours afterwards, while the other met them at the start of the day and remained (37) ........ until an evening test. The naps themselves ran to an average of (38) ........ and were made up largely of a lighter stage of sleep. Where the two halves of a pair were already close in meaning, a whole night of sleep improved recall far more than the daytime rest did. Where no such link existed, however, the picture changed: the two turned out to offer (39) ........ . Neither how long a rest ran nor which stages it contained predicted the size of the gain; what counted, the authors argue, was (40) ........ rather than anything about the internal shape of the sleep.",
   "items": [
     {
       "number": 36,
-      "prompt": "In the earlier one, different volunteers were placed in a sleeping group and a waking group; the later one instead used a (36) ........ design, so that the very same volunteers went through both a rest and a matching stretch of time without one.",
+      "prompt": "In the earlier one, different volunteers were placed in a sleeping group and a waking group, while in the later one the same volunteers met both conditions on different days, each spending half an hour on (36) ........ before the final test so that grogginess would not distort it.",
       "answer": [
         "J"
       ],
       "accepted_variants": [
         "J",
-        "within-subject",
-        "within subject"
+        "a puzzle game",
+        "puzzle game"
       ],
-      "evidence": "The first experiment used a between-subjects design, meaning that different participants were assigned to a sleep group or a wake group, while the second used a within-subject design in which the same participants experienced both a nap and a period of wakefulness on different days, allowing more direct comparison.",
+      "evidence": "To reduce the grogginess that can follow a nap and distort test performance, all participants completed a 30-minute puzzle game before their final recall test.",
       "evidence_locator": {
-        "paragraph": "B",
-        "sentence": 2
+        "paragraph": "D",
+        "sentence": 3
       },
-      "explanation": "Paragraph B says the second experiment used a 'within-subject' design in which the same participants experienced both the nap and the period of wakefulness; so the correct option is J.",
+      "explanation": "Paragraph D says all participants completed a 30-minute puzzle game before the final recall test, to reduce grogginess; so the correct option is J.",
       "difficulty": "medium",
-      "status": "rejected",
-      "blind_solvable": true,
-      "blind_basis": "logic",
-      "flag_reason": "Cevap J ('within-subject'), cumlenin kendisi bosluktan hemen sonra terimin tanimini veriyor ('the very same volunteers went through both...'); kelime bankasindaki karsit terim C ('between-subjects') farkli katilimcilari gerektirdigi icin bu tanimla celisiyor, boylece terim parcaya bakmadan da secilebiliyor.",
-      "flag_mechanism": "tanim_sizintisi",
-      "reject_reason": "Bosluk 'within-subject' terimini hedefliyor ve bu terimin Ingilizcedeki tek tanimi 'ayni katilimcilar her iki kosuldan da gecer'. Ikinci deneyi durustce anlatan her ozet bu tanimi vermek zorunda, yani tanim sizintisi cerceveden degil boslugun hedefinden geliyor. Ustelik ayni ozetteki 37. cumle ilk deneyin iki ayri gruptan olustugunu soyluyor; bankadaki karsit terim C ('between-subjects') boylece ilk deneye baglanip eleniyor ve J elemeyle cikiyor. Tanimi ozetten silmek kalan cerceveyi anlamsiz birakiyor; bankadaki C'yi degistirmek ise J'yi bankadaki tek arastirma-deseni terimi haline getirip sizintiyi buyutuyor. Tek cikis boslugu baska bir ayrintiya tasimak, o da answer'i degistirmek demek - talimat bunu yarim duzeltme sayiyor. E6 bu yuvayi B ya da D paragrafinin baska bir ayrintisina capalamali (haftada en az bir kez sekerleme yapan 34 katilimci, ya da sersemligi azaltmak icin uygulanan 30 dakikalik bulmaca)."
+      "status": "verified",
+      "blind_solvable": null,
+      "blind_basis": null,
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-08",
+        "kaynak_prompt": "prompts/OPUS5-E6-yeniden-uretim.md (6/7)",
+        "uretilen_grup": "Tamamlama ailesi yuvalari",
+        "eski_prompt": "In the earlier one, different volunteers were placed in a sleeping group and a waking group; the later one instead used a (36) ........ design, so that the very same volunteers went through both a rest and a matching stretch of time without one.",
+        "eski_cevap": [
+          "J"
+        ],
+        "eski_kanit_cumlesi": "The first experiment used a between-subjects design, meaning that different participants were assigned to a sleep group or a wake group, while the second used a within-subject design in which the same participants experienced both a nap and a period of wakefulness on different days, allowing more direct comparison.",
+        "neden_elendi": "Bosluk 'within-subject' terimini hedefliyor ve bu terimin Ingilizcedeki tek tanimi 'ayni katilimcilar her iki kosuldan da gecer'. Ikinci deneyi durustce anlatan her ozet bu tanimi vermek zorunda, yani tanim sizintisi cerceveden degil boslugun hedefinden geliyor. Ustelik ayni ozetteki 37. cumle ilk deneyin iki ayri gruptan olustugunu soyluyor; bankadaki karsit terim C ('between-subjects') boylece ilk deneye baglanip eleniyor ve J elemeyle cikiyor. Tanimi ozetten silmek kalan cerceveyi anlamsiz birakiyor; bankadaki C'yi degistirmek ise J'yi bankadaki tek arastirma-deseni terimi haline getirip sizintiyi buyutuyor. Tek cikis boslugu baska bir ayrintiya tasimak, o da answer'i degistirmek demek - talimat bunu yarim duzeltme sayiyor. E6 bu yuvayi B ya da D paragrafinin baska bir ayrintisina capalamali (haftada en az bir kez sekerleme yapan 34 katilimci, ya da sersemligi azaltmak icin uygulanan 30 dakikalik bulmaca).",
+        "ne_degisti": "Eski bosluk B/2'ye capaliydi ve 'within-subject' terimini hedefliyordu; cumlenin kendisi terimin tek tanimini veriyor, bankadaki karsit terim de elemeyle cikiyordu. Yeni bosluk B/2'ye hic degmiyor: kanit D/3'e, sersemligi azaltmak icin uygulanan otuz dakikalik etkinlige tasindi (E5'in onerisi). Iki desen adi da bankadan cikarildi ve ikinci deneyin tasarimi artik BOSLUKSUZ metinde anlatiliyor, yani tanim sizintisi kaynagindan kaldirildi. Bankaya iki gercek rakip eklendi ('a quiet walk', ayrica 'in the laboratory' de bu cerceveye oturuyor)."
+      }
     },
     {
       "number": 37,
@@ -112,27 +122,37 @@
     },
     {
       "number": 38,
-      "prompt": "Where the two halves of a pair were already (38) ........ , a whole night of sleep improved recall far more than a rest of an hour and a half did.",
+      "prompt": "The naps themselves ran to an average of (38) ........ and were made up largely of a lighter stage of sleep.",
       "answer": [
         "D"
       ],
       "accepted_variants": [
         "D",
-        "connected in meaning"
+        "64.1 minutes"
       ],
-      "evidence": "For semantically related word pairs, nocturnal sleep produced a substantially larger improvement in recall than daytime napping did, with a standardised effect size of 0.58 compared with only 0.15 for napping.",
+      "evidence": "Naps in the second experiment lasted an average of 64.1 minutes and consisted mainly of Stage 2 sleep, a lighter stage than the deep sleep typically associated with the middle of a full night.",
       "evidence_locator": {
-        "paragraph": "E",
-        "sentence": 2
+        "paragraph": "F",
+        "sentence": 1
       },
-      "explanation": "Paragraph E says nocturnal sleep's clear advantage over napping showed up for semantically related word pairs; so the correct option is D.",
+      "explanation": "Paragraph F says naps in the second experiment lasted an average of 64.1 minutes and consisted mainly of Stage 2 sleep; so the correct option is D.",
       "difficulty": "medium",
-      "status": "rejected",
-      "blind_solvable": true,
-      "blind_basis": "general_knowledge",
-      "flag_reason": "Cevap D ('connected in meaning'), uykunun bellek pekistirmedeki katkisinin anlamca iliskili/cagrisimli bilgilerde daha guclu oldugu bilissel bilim bilgisiyle parcaya bakmadan da tahmin edilebiliyor; kelime bankasindaki karsit secenek I ('unrelated in meaning') bu ozelligin tam tersini tasiyor.",
-      "flag_mechanism": "genel_kultur",
-      "reject_reason": "Sorunun ekseni, uykunun hangi tur malzemeyi daha cok kayirdigi - bilissel bilimin en cok aktarilan bulgularindan biri - ve kelime bankasi bu ekseni hazir bir zit cift olarak tasiyor (D 'connected in meaning' / I 'unrelated in meaning'). Ustelik hemen ardindan gelen 39. cumle 'Where no such link existed' diyerek 38'in 'baglantili' taraf oldugunu soyluyor, yani I ozetin kendi ic mantigiyla de eleniyor. Bosluk nasil yazilirsa yazilsin secim iki kutuptan birini isaretlemeye iniyor ve karar pasajdan degil dunya bilgisinden geliyor; kip ya da cerceve duzeltmesi bunu kapatmaz. E6 bu yuvayi E paragrafinin pasaja ozgu bir ayrintisina tasimali (0.58'e karsi 0.15 etki buyuklugu, ya da 40 iliskili + 40 iliskisiz cift bolusumu)."
+      "status": "verified",
+      "blind_solvable": null,
+      "blind_basis": null,
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-08",
+        "kaynak_prompt": "prompts/OPUS5-E6-yeniden-uretim.md (6/7)",
+        "uretilen_grup": "Tamamlama ailesi yuvalari",
+        "eski_prompt": "Where the two halves of a pair were already (38) ........ , a whole night of sleep improved recall far more than a rest of an hour and a half did.",
+        "eski_cevap": [
+          "D"
+        ],
+        "eski_kanit_cumlesi": "For semantically related word pairs, nocturnal sleep produced a substantially larger improvement in recall than daytime napping did, with a standardised effect size of 0.58 compared with only 0.15 for napping.",
+        "neden_elendi": "Sorunun ekseni, uykunun hangi tur malzemeyi daha cok kayirdigi - bilissel bilimin en cok aktarilan bulgularindan biri - ve kelime bankasi bu ekseni hazir bir zit cift olarak tasiyor (D 'connected in meaning' / I 'unrelated in meaning'). Ustelik hemen ardindan gelen 39. cumle 'Where no such link existed' diyerek 38'in 'baglantili' taraf oldugunu soyluyor, yani I ozetin kendi ic mantigiyla de eleniyor. Bosluk nasil yazilirsa yazilsin secim iki kutuptan birini isaretlemeye iniyor ve karar pasajdan degil dunya bilgisinden geliyor; kip ya da cerceve duzeltmesi bunu kapatmaz. E6 bu yuvayi E paragrafinin pasaja ozgu bir ayrintisina tasimali (0.58'e karsi 0.15 etki buyuklugu, ya da 40 iliskili + 40 iliskisiz cift bolusumu).",
+        "ne_degisti": "Eski bosluk E/2'ye capaliydi ve secim, uykunun anlamca iliskili malzemeyi daha cok kayirdigi yolundaki bilissel bilim bilgisine iniyordu; banka da bu ekseni hazir bir zit cift olarak tasiyordu. Yeni bosluk E/2'ye hic degmiyor: kanit F/1'e, sekerlemelerin gercekte ne kadar surdugune tasindi. Iki kutuplu anlam cifti bankadan cikarildi; yerine olculebilir bir sure ve ona gercek bir rakip kondu ('an hour and a half'), cunku planlanan sure ile gerceklesen ortalama birbirinden farkli ve ozet planlanan sureyi artik anmiyor."
+      }
     },
     {
       "number": 39,

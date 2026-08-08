@@ -17,26 +17,37 @@
   "items": [
     {
       "number": 19,
-      "prompt": "Damage of this kind is hard to chart here because the technique normally relied on, which tracks the ........ of the ground before and after a quake, needs a clear view of the rock underneath.",
+      "prompt": "Most of the 700-plus slides later identified lay to the ........ of the epicentre, along the line of the fault rupture.",
       "answer": [
-        "displacement"
+        "northwest"
       ],
       "accepted_variants": [
-        "displacement"
+        "northwest",
+        "north-west"
       ],
-      "evidence": "Mapping this kind of damage is unusually difficult in a glaciated landscape, because the usual method, comparing ground displacement before and after an earthquake, depends on being able to see the bedrock that has moved.",
+      "evidence": "The United States Geological Survey later identified more than 700 potential landslides and snow avalanches associated with the earthquake, most of them concentrated to the northwest of the epicentre along the line of the fault rupture.",
       "evidence_locator": {
         "paragraph": "B",
-        "sentence": 2
+        "sentence": 1
       },
-      "explanation": "Paragraph B says the usual method is comparing ground displacement before and after an earthquake, and this requires being able to see the bedrock; so the answer is 'displacement'.",
-      "difficulty": "medium",
-      "status": "rejected",
-      "blind_solvable": true,
-      "blind_basis": "general_knowledge",
-      "flag_reason": "Cevap 'displacement', deprem izlemede kullanilan standart terimin 'yer degisimi' (ground displacement) olmasi yaygin sismoloji bilgisiyle parcaya bakmadan da tahmin edilebiliyor.",
-      "flag_mechanism": "genel_kultur",
-      "reject_reason": "Cevabin kendisi yerlesik bir sismoloji terimi ve cumle onun tanimini veriyor: 'tracks the ___ of the ground before and after a quake' zaten ground displacement'in tanimidir; model uc turda da yazdi (3/3 PUAN). ONE WORD ONLY sinirinda bu tanimi tasimayan bir cerceve kurulamiyor. E6 onerisi: B/2'nin gerekce yarisi - yontemin buzul altindaki ana kayayi gorebilmeyi gerektirmesi."
+      "explanation": "Paragraph B says most of the 700-plus landslides and avalanches were concentrated to the northwest of the epicentre, along the fault rupture; so the answer is 'northwest'.",
+      "difficulty": "easy",
+      "status": "verified",
+      "blind_solvable": null,
+      "blind_basis": null,
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-08",
+        "kaynak_prompt": "prompts/OPUS5-E6-yeniden-uretim.md (6/7)",
+        "uretilen_grup": "Tamamlama ailesi yuvalari",
+        "eski_prompt": "Damage of this kind is hard to chart here because the technique normally relied on, which tracks the ........ of the ground before and after a quake, needs a clear view of the rock underneath.",
+        "eski_cevap": [
+          "displacement"
+        ],
+        "eski_kanit_cumlesi": "Mapping this kind of damage is unusually difficult in a glaciated landscape, because the usual method, comparing ground displacement before and after an earthquake, depends on being able to see the bedrock that has moved.",
+        "neden_elendi": "Cevabin kendisi yerlesik bir sismoloji terimi ve cumle onun tanimini veriyor: 'tracks the ___ of the ground before and after a quake' zaten ground displacement'in tanimidir; model uc turda da yazdi (3/3 PUAN). ONE WORD ONLY sinirinda bu tanimi tasimayan bir cerceve kurulamiyor. E6 onerisi: B/2'nin gerekce yarisi - yontemin buzul altindaki ana kayayi gorebilmeyi gerektirmesi.",
+        "ne_degisti": "Eski soru B/2'ye capaliydi ve cevap yerlesik bir sismoloji terimiydi ('displacement'); cumle terimin tanimini veriyordu ve ONE WORD ONLY sinirinda tanimi tasimayan bir cerceve kurulamiyordu. Yeni soru B/2'ye hic degmiyor: kanit B/1'e, kaymalarin cografi dagilimina tasindi. Yon bilgisi olcumden gelir."
+      }
     },
     {
       "number": 20,
@@ -68,50 +79,70 @@
     },
     {
       "number": 21,
-      "prompt": "Even before the ground shook, a smaller glacier below Mount King George was covering some 50 feet a day, having entered a rapid ........ phase the month before the quake.",
+      "prompt": "The radar picture the analysts worked from was taken on 8 December, only ........ days after the shaking.",
       "answer": [
-        "surge"
+        "two"
       ],
       "accepted_variants": [
-        "surge"
+        "two",
+        "2"
       ],
-      "evidence": "Adding to the complexity, a tributary glacier flowing from the slopes near Mount King George had already entered a fast-moving surge phase in November, weeks before the earthquake struck, and was travelling downslope at up to 6,000 metres a year, roughly 50 feet every day.",
+      "evidence": "By comparing an image captured on 8 December, only two days after the earthquake, with a baseline image from 26 November, before the quake, analysts could see large new patches of brightness spreading across slopes that had previously appeared smooth and dark, a direct signature of freshly broken rock and snow.",
       "evidence_locator": {
-        "paragraph": "F",
-        "sentence": 1
+        "paragraph": "C",
+        "sentence": 3
       },
-      "explanation": "Paragraph F says that a tributary glacier near Mount King George entered a fast 'surge' phase in November, weeks before the earthquake; so the answer is 'surge'.",
-      "difficulty": "hard",
-      "status": "rejected",
-      "blind_solvable": true,
-      "blind_basis": "general_knowledge",
-      "flag_reason": "Cevap 'surge', buzulbiliminde hizli ilerleme donemleri icin kullanilan yerlesik terim olan 'surge' (ani ilerleme) ile taniniyor; bu genel bilgiyle bosluk parcaya bakmadan da doldurulabiliyor.",
-      "flag_mechanism": "genel_kultur",
-      "reject_reason": "Cevabin kendisi yerlesik bir buzulbilim terimi ve cumle onun tanimini veriyor: gunde 50 fit ilerleyen bir buzulun 'rapid ___ phase'i surge disinda adlandirilmiyor; model uc turda da yazdi (3/3 PUAN). Hizi cikarmak boslugu belirsizlestiriyor, birakmak terimi veriyor. E6 onerisi: F/1'in tarih yarisi - depremden haftalar once, kasim ayinda baslamis olmasi."
+      "explanation": "Paragraph C says the image used was captured on 8 December, only two days after the earthquake; so the answer is 'two'.",
+      "difficulty": "easy",
+      "status": "verified",
+      "blind_solvable": null,
+      "blind_basis": null,
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-08",
+        "kaynak_prompt": "prompts/OPUS5-E6-yeniden-uretim.md (6/7)",
+        "uretilen_grup": "Tamamlama ailesi yuvalari",
+        "eski_prompt": "Even before the ground shook, a smaller glacier below Mount King George was covering some 50 feet a day, having entered a rapid ........ phase the month before the quake.",
+        "eski_cevap": [
+          "surge"
+        ],
+        "eski_kanit_cumlesi": "Adding to the complexity, a tributary glacier flowing from the slopes near Mount King George had already entered a fast-moving surge phase in November, weeks before the earthquake struck, and was travelling downslope at up to 6,000 metres a year, roughly 50 feet every day.",
+        "neden_elendi": "Cevabin kendisi yerlesik bir buzulbilim terimi ve cumle onun tanimini veriyor: gunde 50 fit ilerleyen bir buzulun 'rapid ___ phase'i surge disinda adlandirilmiyor; model uc turda da yazdi (3/3 PUAN). Hizi cikarmak boslugu belirsizlestiriyor, birakmak terimi veriyor. E6 onerisi: F/1'in tarih yarisi - depremden haftalar once, kasim ayinda baslamis olmasi.",
+        "ne_degisti": "Eski soru F/1'e capaliydi ve cevap yerlesik bir buzulbilim terimiydi ('surge'); gunde 50 fit ilerleyen bir buzulun evresi baska turlu adlandirilmiyordu. Yeni soru F paragrafina hic degmiyor: kanit C/3'e, goruntunun depremden kac gun sonra cekildigine tasindi. Cerceve deprem tarihini vermiyor, dolayisiyla fark yalniz metinden okunur."
+      }
     },
     {
       "number": 22,
-      "prompt": "No settlements were harmed, but slopes that used to be safe now put ........ and research parties setting out from Yakutat in danger.",
+      "prompt": "The scale of the disturbance startled even the experienced ........ who were studying the imagery.",
       "answer": [
-        "mountaineers"
+        "glaciologists"
       ],
       "accepted_variants": [
-        "mountaineers"
+        "glaciologists"
       ],
-      "evidence": "It does, however, create new hazards for mountaineers and scientific expeditions that use Yakutat as a staging point for trips into the St Elias Mountains, since previously stable slopes and crevasse fields may now be masked by loose debris or freshly exposed ice.",
+      "evidence": "The scale of the disturbance startled even experienced glaciologists studying the imagery.",
       "evidence_locator": {
-        "paragraph": "G",
-        "sentence": 2
+        "paragraph": "E",
+        "sentence": 1
       },
-      "explanation": "Paragraph G says the earthquake did not harm any settlements but created new hazards for mountaineers and scientific expeditions setting out from Yakutat; so the answer is 'mountaineers'.",
+      "explanation": "Paragraph E says the scale of the disturbance startled even experienced glaciologists studying the imagery; so the answer is 'glaciologists'.",
       "difficulty": "medium",
-      "status": "rejected",
-      "blind_solvable": true,
-      "blind_solvable_kelime_duzeyi": false,
-      "blind_basis": "logic",
-      "flag_reason": "Parça gösterilmeden anlamca 3/3 turda doğru bilindi: farklı kelimeyle ama doğru kavramla cevaplandı (3 turda da 'climbers' verdi, gerçek cevap 'mountaineers' — eş anlamlı).",
-      "flag_mechanism": "esdizim_kilidi",
-      "reject_reason": "Kelime siniri ONE WORD ONLY ve cevap tek sozcuk ('mountaineers'); model parcasiz uc turda da tam es anlamlisi 'climbers' verdi. Boslugun hedefi 'daglara cikan insanlar' kavrami ve bu kavramin Ingilizcede birbirinin yerine gecen birden cok adi var (mountaineers / climbers / alpinists). Deprem yerlesimlere degil daga cikanlara zarar veriyor iddiasi kanit cumlesinin (G/2) tasidigi tek iddia oldugu icin, cerceve nasil yazilirsa yazilsin ayni kavram isteniyor; cerceve duzeltmesi cevaba erisemiyor. E6 onerisi: ayni cumlenin somut ayrintilari -- Yakutat'in cikis noktasi olarak kullanilmasi, ya da eskiden sabit olan yamaclarin gevsek enkaz ve yeni acilan buzla maskelenmesi."
+      "status": "verified",
+      "blind_solvable": null,
+      "blind_basis": null,
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-08",
+        "kaynak_prompt": "prompts/OPUS5-E6-yeniden-uretim.md (6/7)",
+        "uretilen_grup": "Tamamlama ailesi yuvalari",
+        "eski_prompt": "No settlements were harmed, but slopes that used to be safe now put ........ and research parties setting out from Yakutat in danger.",
+        "eski_cevap": [
+          "mountaineers"
+        ],
+        "eski_kanit_cumlesi": "It does, however, create new hazards for mountaineers and scientific expeditions that use Yakutat as a staging point for trips into the St Elias Mountains, since previously stable slopes and crevasse fields may now be masked by loose debris or freshly exposed ice.",
+        "neden_elendi": "Kelime siniri ONE WORD ONLY ve cevap tek sozcuk ('mountaineers'); model parcasiz uc turda da tam es anlamlisi 'climbers' verdi. Boslugun hedefi 'daglara cikan insanlar' kavrami ve bu kavramin Ingilizcede birbirinin yerine gecen birden cok adi var (mountaineers / climbers / alpinists). Deprem yerlesimlere degil daga cikanlara zarar veriyor iddiasi kanit cumlesinin (G/2) tasidigi tek iddia oldugu icin, cerceve nasil yazilirsa yazilsin ayni kavram isteniyor; cerceve duzeltmesi cevaba erisemiyor. E6 onerisi: ayni cumlenin somut ayrintilari -- Yakutat'in cikis noktasi olarak kullanilmasi, ya da eskiden sabit olan yamaclarin gevsek enkaz ve yeni acilan buzla maskelenmesi.",
+        "ne_degisti": "Eski soru G/2'ye capaliydi ve cevap tek sozcuktu ('mountaineers'); model parcasiz uc turda da tam es anlamlisini ('climbers') verdi, cunku 'daga cikan insanlar' kavraminin Ingilizcede birden cok adi var. Yeni soru G paragrafina hic degmiyor: kanit E/1'e tasindi. ONE WORD ONLY sinirinda A08'in kalan malzemesi dardi; bu yuva yine de en az es anlamli karsiligi olan adaylardan biri, ama kalan risk E7'ye not edildi."
+      }
     }
   ]
 }

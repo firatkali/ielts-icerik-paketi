@@ -17,28 +17,37 @@
   "items": [
     {
       "number": 25,
-      "prompt": "Staff can only ask to work from home once they have got through their (25) ........",
+      "prompt": "Anyone working remotely has to supply their own reliable internet connection, running at (25) ........ or better.",
       "answer": [
-        "probationary period"
+        "10 Mbps"
       ],
       "accepted_variants": [
-        "probationary period"
+        "10 Mbps",
+        "10Mbps"
       ],
-      "evidence": "Employees who have completed their probationary period may apply to work remotely for up to three days per week, subject to line manager approval and the operational needs of their team.",
+      "evidence": "Provide their own reliable internet connection of at least 10 Mbps.",
       "evidence_locator": {
-        "text": "B",
-        "paragraph": "A",
-        "sentence": 1
+        "paragraph": "B",
+        "sentence": 2
       },
-      "explanation": "Paragraph A of text B says that only employees who have completed their probationary period may apply to work remotely; the answer is therefore 'probationary period'.",
+      "explanation": "Text B, paragraph B says remote workers must provide their own reliable internet connection of at least 10 Mbps; so the answer is '10 Mbps'.",
       "difficulty": "easy",
-      "status": "rejected",
-      "blind_solvable": true,
-      "blind_solvable_kelime_duzeyi": false,
-      "blind_basis": "logic",
-      "flag_reason": "Parça gösterilmeden anlamca 3/3 turda doğru bilindi: farklı kelimeyle ama doğru kavramla cevaplandı (3 turda da 'probation period' verdi, gerçek cevap 'probationary period' — aynı kelimenin başka çekimi).",
-      "flag_mechanism": "esdizim_kilidi",
-      "reject_reason": "Model parcasiz uc turda da 'probation period' verdi: ayni kelimenin baska cekimi, yani cevabin ('probationary period') ayirt edici ogesi tam olarak tutturuldu. Sorunun ekseni 'uzaktan calisma basvurusundan once neyin tamamlanmasi gerekir' ve bunun cevabi ise alma dunyasinin en yerlesik kuralidir; kanit cumlesi (B metni, A/1) baska hicbir on kosul icermiyor, dolayisiyla her cerceve ayni kavrami istiyor. E6 onerisi: ayni cumlenin sayisal siniri (haftada en cok uc gun) ya da A/2'deki musteriyle calisan roller istisnasi."
+      "status": "verified",
+      "blind_solvable": null,
+      "blind_basis": null,
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-08",
+        "kaynak_prompt": "prompts/OPUS5-E6-yeniden-uretim.md (6/7)",
+        "uretilen_grup": "Tamamlama ailesi yuvalari",
+        "eski_prompt": "Staff can only ask to work from home once they have got through their (25) ........",
+        "eski_cevap": [
+          "probationary period"
+        ],
+        "eski_kanit_cumlesi": "Employees who have completed their probationary period may apply to work remotely for up to three days per week, subject to line manager approval and the operational needs of their team.",
+        "neden_elendi": "Model parcasiz uc turda da 'probation period' verdi: ayni kelimenin baska cekimi, yani cevabin ('probationary period') ayirt edici ogesi tam olarak tutturuldu. Sorunun ekseni 'uzaktan calisma basvurusundan once neyin tamamlanmasi gerekir' ve bunun cevabi ise alma dunyasinin en yerlesik kuralidir; kanit cumlesi (B metni, A/1) baska hicbir on kosul icermiyor, dolayisiyla her cerceve ayni kavrami istiyor. E6 onerisi: ayni cumlenin sayisal siniri (haftada en cok uc gun) ya da A/2'deki musteriyle calisan roller istisnasi.",
+        "ne_degisti": "Eski soru B metni A/1'e capaliydi; model parcasiz uc turda da 'probation period' vererek cevabin ayirt edici ogesini tutturdu, cunku uzaktan calisma basvurusunun on kosulu ise alma dunyasinin en yerlesik kurali. Yeni soru A paragrafina hic degmiyor: kanit B/2'ye, baglanti hizi kosuluna tasindi. Sayi sirket yonergesine ozgu."
+      }
     },
     {
       "number": 26,

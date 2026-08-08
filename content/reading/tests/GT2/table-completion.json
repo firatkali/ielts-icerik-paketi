@@ -86,28 +86,37 @@
     },
     {
       "number": 16,
-      "prompt": "Written stage: Form filled in online, an up-to-date (16) ........ , and 300 words on why you want the placement",
+      "prompt": "Written stage: Form filled in online and an up-to-date CV uploaded by 28 February, plus a (16) ........ statement explaining your interest",
       "answer": [
-        "CV"
+        "300-word"
       ],
       "accepted_variants": [
-        "CV",
-        "cv"
+        "300-word",
+        "300 word"
       ],
-      "evidence": "Complete the online application form and upload a current CV by 28 February.",
+      "evidence": "Submit a 300-word statement explaining your interest in the placement.",
       "evidence_locator": {
-        "text": "A",
         "paragraph": "B",
-        "sentence": 2
+        "sentence": 3
       },
-      "explanation": "Paragraph B of the passage says an up-to-date CV must be uploaded along with the online application form; that is why the answer is 'CV'.",
+      "explanation": "Text A, paragraph B says applicants must submit a 300-word statement explaining their interest in the placement; so the answer is '300-word'.",
       "difficulty": "easy",
-      "status": "rejected",
-      "blind_solvable": true,
-      "blind_basis": "logic",
-      "flag_reason": "Bosluk 'an up-to-date ___' kalibinin ucunda; is basvurularinda bu kalibin en dogal ve tek yaygin tamamlamasi 'CV' (ozgecmis) oldugu icin parcaya bakmadan da tahmin edilebiliyor.",
-      "flag_mechanism": "esdizim_kilidi",
-      "reject_reason": "Is basvurusu baglaminda 'guncel bir ___ yukleyin' satirinin tek yaygin tamamlamasi CV; sozcuk basvuru surecinin kendisinden cikiyor, pasajdan degil. Satiri yeniden yazmak bunu degistirmiyor. E6 bu yuvayi ayni paragrafin baska bir kosuluna (300 kelimelik gerekce metni ya da 28 Subat son basvuru tarihi) capalamali."
+      "status": "verified",
+      "blind_solvable": null,
+      "blind_basis": null,
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-08",
+        "kaynak_prompt": "prompts/OPUS5-E6-yeniden-uretim.md (6/7)",
+        "uretilen_grup": "Tamamlama ailesi yuvalari",
+        "eski_prompt": "Written stage: Form filled in online, an up-to-date (16) ........ , and 300 words on why you want the placement",
+        "eski_cevap": [
+          "CV"
+        ],
+        "eski_kanit_cumlesi": "Complete the online application form and upload a current CV by 28 February.",
+        "neden_elendi": "Is basvurusu baglaminda 'guncel bir ___ yukleyin' satirinin tek yaygin tamamlamasi CV; sozcuk basvuru surecinin kendisinden cikiyor, pasajdan degil. Satiri yeniden yazmak bunu degistirmiyor. E6 bu yuvayi ayni paragrafin baska bir kosuluna (300 kelimelik gerekce metni ya da 28 Subat son basvuru tarihi) capalamali.",
+        "ne_degisti": "Eski satir B/2'ye capaliydi ve cevap ('CV') basvuru surecinin kendisinden cikiyordu, pasajdan degil. Yeni satir B/2'ye hic degmiyor: kanit B/3'e, gerekce metninin uzunluguna tasindi; CV ve son basvuru tarihi artik VERILEN bilgi olarak satirda duruyor, sorulmuyor. Istenen uzunluk ilana ozgu bir sayi."
+      }
     },
     {
       "number": 17,
@@ -172,27 +181,38 @@
     },
     {
       "number": 20,
-      "prompt": "During the placement: A (20) ........ from the intern's own department sees them once a week",
+      "prompt": "During the placement: A short performance review at the (20) ........ mark, and a final one before leaving",
       "answer": [
-        "mentor"
+        "five-week"
       ],
       "accepted_variants": [
-        "mentor"
+        "five-week",
+        "five week",
+        "5-week"
       ],
-      "evidence": "Each intern is paired with a mentor from their assigned department who meets with them weekly throughout the ten weeks.",
+      "evidence": "Interns complete a short performance review at the five-week mark and a final review before departure; strong performers may be invited to apply for the graduate programme the following year, though this is not guaranteed and depends on business need.",
       "evidence_locator": {
-        "text": "A",
         "paragraph": "D",
-        "sentence": 1
+        "sentence": 2
       },
-      "explanation": "Paragraph D of the passage says each intern is paired with a mentor from their own department and meets them once a week; that is why the answer is 'mentor'.",
-      "difficulty": "hard",
-      "status": "rejected",
-      "blind_solvable": true,
-      "blind_basis": "logic",
-      "flag_reason": "Bosluk, stajyerlik programlarinda 'kendi bolumunden biriyle haftada bir gorusme' kalibinin tanimladigi rolu istiyor; bu rol Ingilizce is dunyasinda yerlesik bicimde 'mentor' olarak adlandirildigi icin parcaya bakmadan da tahmin edilebiliyor.",
-      "flag_mechanism": "esdizim_kilidi",
-      "reject_reason": "Kanit cumlesinin butun icerigi ('kendi biriminden biriyle eslestirilir, on hafta boyunca haftada bir gorusur') Ingiliz is dunyasinda dogrudan 'mentor' rolunu tanimliyor; satirdan hangi ayrinti cikarilirsa cikarilsin kalan cerceve ayni sozcugu veriyor. E6 bu yuvayi staj suresinin baska bir ayrintisina (aylik ucret ya da on haftalik sure) tasimali."
+      "explanation": "Text A, paragraph D says interns complete a short performance review at the five-week mark and a final review before departure; so the answer is 'five-week'.",
+      "difficulty": "medium",
+      "status": "verified",
+      "blind_solvable": null,
+      "blind_basis": null,
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-08",
+        "kaynak_prompt": "prompts/OPUS5-E6-yeniden-uretim.md (6/7)",
+        "uretilen_grup": "Tamamlama ailesi yuvalari",
+        "eski_prompt": "During the placement: A (20) ........ from the intern's own department sees them once a week",
+        "eski_cevap": [
+          "mentor"
+        ],
+        "eski_kanit_cumlesi": "Each intern is paired with a mentor from their assigned department who meets with them weekly throughout the ten weeks.",
+        "neden_elendi": "Kanit cumlesinin butun icerigi ('kendi biriminden biriyle eslestirilir, on hafta boyunca haftada bir gorusur') Ingiliz is dunyasinda dogrudan 'mentor' rolunu tanimliyor; satirdan hangi ayrinti cikarilirsa cikarilsin kalan cerceve ayni sozcugu veriyor. E6 bu yuvayi staj suresinin baska bir ayrintisina (aylik ucret ya da on haftalik sure) tasimali.",
+        "ne_degisti": "Eski satir D/1'e capaliydi ve cumlenin butun icerigi ('kendi biriminden biriyle eslestirilir, on hafta boyunca haftada bir gorusur') dogrudan 'mentor' rolunu tanimliyordu. Yeni satir D/1'e hic degmiyor: kanit D/2'ye, ara degerlendirmenin zamanina tasindi. Bu tarih programa ozgu; on haftalik surenin ortasi olmasi da zorunlu degil, dolayisiyla hesapla turetilemez."
+      }
     }
   ]
 }

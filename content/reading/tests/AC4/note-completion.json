@@ -13,7 +13,7 @@
   "word_limit": "ONE WORD ONLY",
   "word_bank": null,
   "visual": null,
-  "stem_block": "Testing four office layouts\n\nWhy firms pick the open-plan option\n- Costs less to put up, and is simple to (1) ........ once needs change\n\nThe four layouts, each tried for a fortnight\n- Plain open-plan, used as the point of comparison\n- Zoned open-plan: rooms holding at most 40 staff, shut off by (2) ........ doors\n- Activity-based: desks belonging to nobody, plus quiet rooms and shared areas\n- Team office: semi-enclosed cubicles for four to six people, screened by (3) ........ panels\n\nHow the layouts were judged\n- Repeated staff surveys, sensors reading the air and the room, a count of technical output\n- Watchers logged everyday habits, for example how often people put on (4) ........\n\nWhat people did rather than said\n- After a spell in the plain open-plan room, desk use in the next layout climbed by roughly 4 per cent\n- Read as a genuine preference, not merely a (5) ........ effect\n\nThe authors' warning\n- Results come from just one company, with a culture and (6) ........ of its own\n- Other organisations should try the alternatives on their own staff",
+  "stem_block": "Testing four office layouts\n\nWhy firms pick the open-plan option\n- Costs less to put up, and is simple to (1) ........ once needs change\n\nThe four layouts, each tried for a fortnight\n- Plain open-plan, used as the point of comparison\n- Zoned open-plan: rooms holding at most 40 staff, shut off by (2) ........ doors\n- Activity-based: desks belonging to nobody, plus quiet rooms and shared areas\n- Team office: semi-enclosed cubicles for four to six people, screened by (3) ........ panels\n\nHow the layouts were judged\n- Repeated staff surveys covering satisfaction, engagement, (4) ........ , energy, flow and how productive people felt\n- Sensors reading noise, temperature, light and air; a count of technical output; watchers logging everyday habits at people's desks\n\nWhat people did rather than said\n- After a spell in the plain open-plan room, desk use in the next layout climbed by roughly 4 per cent\n- Read as a genuine preference, not merely a (5) ........ effect\n\nThe authors' warning\n- Results come from just one company, with a culture and (6) ........ of its own\n- Other organisations should try the alternatives on their own staff",
   "items": [
     {
       "number": 1,
@@ -80,26 +80,36 @@
     },
     {
       "number": 4,
-      "prompt": "How the layouts were judged: Watchers logged everyday habits, for example how often people put on (4) ........",
+      "prompt": "How the layouts were judged: Repeated staff surveys covering satisfaction, engagement, (4) ........ , energy, flow and how productive people felt",
       "answer": [
-        "headphones"
+        "enjoyment"
       ],
       "accepted_variants": [
-        "headphones"
+        "enjoyment"
       ],
-      "evidence": "As an independent, behavioural proxy for technical output, the researchers also tracked the number of software code commits each team produced, and observers recorded how people actually used the different spaces, noting details such as how often employees wore headphones, retreated to quiet corners, or held impromptu conversations at their desks.",
+      "evidence": "Employees completed regular questionnaires measuring satisfaction, engagement, enjoyment, sense of energy, flow, and perceived productivity.",
       "evidence_locator": {
         "paragraph": "C",
-        "sentence": 4
+        "sentence": 2
       },
-      "explanation": "Paragraph C says that observers noted how often employees wore headphones; the answer is therefore 'headphones'.",
-      "difficulty": "easy",
-      "status": "rejected",
-      "blind_solvable": true,
-      "blind_basis": "logic",
-      "flag_reason": "Bosluk 'how often people put on ___' kalibinin ucunda; ofis ortaminda 'put on' fiiliyle en dogal eslesen nesne kulaklik oldugu icin parcaya bakmadan da tahmin edilebiliyor.",
-      "flag_mechanism": "esdizim_kilidi",
-      "reject_reason": "'put on' fiili cikarilsa bile not, gurultu uzerine bir ofis calismasinda gozlemcilerin saydigi gunluk aliskanligi istiyor; bu cercevede 'headphones' pasajdan bagimsiz olarak akla gelen ilk ve neredeyse tek nesne. Kanit cumlesindeki oteki iki ornek (quiet corners, impromptu conversations) da ayni olcude tahmin edilebilir, yani hedefi cumle icinde kaydirmak da ise yaramiyor. E6 bu yuvayi ayni paragrafin olcum aracina (kod commit sayimi) tasimali."
+      "explanation": "Paragraph C lists the things the regular questionnaires measured: satisfaction, engagement, enjoyment, sense of energy, flow and perceived productivity; the missing item is 'enjoyment'.",
+      "difficulty": "medium",
+      "status": "verified",
+      "blind_solvable": null,
+      "blind_basis": null,
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-08",
+        "kaynak_prompt": "prompts/OPUS5-E6-yeniden-uretim.md (6/7)",
+        "uretilen_grup": "Tamamlama ailesi yuvalari",
+        "eski_prompt": "How the layouts were judged: Watchers logged everyday habits, for example how often people put on (4) ........",
+        "eski_cevap": [
+          "headphones"
+        ],
+        "eski_kanit_cumlesi": "As an independent, behavioural proxy for technical output, the researchers also tracked the number of software code commits each team produced, and observers recorded how people actually used the different spaces, noting details such as how often employees wore headphones, retreated to quiet corners, or held impromptu conversations at their desks.",
+        "neden_elendi": "'put on' fiili cikarilsa bile not, gurultu uzerine bir ofis calismasinda gozlemcilerin saydigi gunluk aliskanligi istiyor; bu cercevede 'headphones' pasajdan bagimsiz olarak akla gelen ilk ve neredeyse tek nesne. Kanit cumlesindeki oteki iki ornek (quiet corners, impromptu conversations) da ayni olcude tahmin edilebilir, yani hedefi cumle icinde kaydirmak da ise yaramiyor. E6 bu yuvayi ayni paragrafin olcum aracina (kod commit sayimi) tasimali.",
+        "ne_degisti": "Eski satir C/4'e capaliydi ve cevap ('headphones') gurultu uzerine bir ofis calismasinda akla gelen ilk nesneydi; ayni cumledeki oteki ornekler de (sessiz koseler, ayakustu sohbetler) ayni olcude tahmin edilebilirdi, yani hedefi cumle icinde kaydirmak ise yaramiyordu. Yeni satir C/4'e hic degmiyor: kanit C/2'ye, anketin olctugu alt boyutlarin listesine tasindi. ONE WORD ONLY sinirinda kalan tek pasaja ozgu aday buydu; kod commit sayimi da C/4 icinde oldugu icin kullanilamadi."
+      }
     },
     {
       "number": 5,

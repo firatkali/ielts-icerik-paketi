@@ -18,26 +18,36 @@
     {
       "number": 1,
       "passage_id": "A01",
-      "prompt": "Questions 1-3 refer to Passage A01. Work in laboratories had already established that elephants make use of branches in order to (1) ........",
+      "prompt": "Questions 1-3 refer to Passage A01. Each animal was tested by itself in an enclosure where a heavy (1) ........ had already been placed.",
       "answer": [
-        "swat flies"
+        "concrete cube"
       ],
       "accepted_variants": [
-        "swat flies"
+        "concrete cube"
       ],
-      "evidence": "Laboratory studies have shown that elephants can recognise themselves in a mirror, remember locations for years and use branches to swat flies.",
+      "evidence": "Each was tested alone in an enclosure that already contained a heavy concrete cube.",
       "evidence_locator": {
-        "paragraph": "A",
+        "paragraph": "B",
         "sentence": 2
       },
-      "explanation": "Paragraph A states that laboratory studies showed elephants use branches to swat flies; since the gap asks what the branches are used for, the answer is 'swat flies'.",
+      "explanation": "Paragraph B says each elephant was tested alone in an enclosure that already contained a heavy concrete cube; so the answer is 'concrete cube'.",
       "difficulty": "easy",
-      "status": "rejected",
-      "blind_solvable": true,
-      "blind_basis": "general_knowledge",
-      "flag_reason": "Cevap 'swat flies', fillerin dallari sinek kovmak icin kullandigi bilgisinin hayvan davranisi konusunda yaygin bilinen bir gercek olmasi sayesinde parcaya bakmadan da tahmin edilebiliyor.",
-      "flag_mechanism": "genel_kultur",
-      "reject_reason": "Cevabin kendisi bir dunya bilgisi: fillerin dallari sinek kovmak icin kullandigi hayvan davranisi kulturunun en cok tekrarlanan ayrintilarindan biri; model uc turda da 'swat flies' yazdi (3/3 PUAN). Kanit cumlesi (A/2) uc ornek sayiyor ve ucu de ayni olcude taniniyor (ayna testi, yer bellegi, sinek kovma), dolayisiyla cerceveyi baska ornege tasimak da sizdirir. E6 onerisi: A paragrafinin laboratuvar ile arazi arasinda kurdugu karsitlik."
+      "status": "verified",
+      "blind_solvable": null,
+      "blind_basis": null,
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-08",
+        "kaynak_prompt": "prompts/OPUS5-E6-yeniden-uretim.md (6/7)",
+        "uretilen_grup": "Tamamlama ailesi yuvalari",
+        "eski_prompt": "Questions 1-3 refer to Passage A01. Work in laboratories had already established that elephants make use of branches in order to (1) ........",
+        "eski_cevap": [
+          "swat flies"
+        ],
+        "eski_kanit_cumlesi": "Laboratory studies have shown that elephants can recognise themselves in a mirror, remember locations for years and use branches to swat flies.",
+        "neden_elendi": "Cevabin kendisi bir dunya bilgisi: fillerin dallari sinek kovmak icin kullandigi hayvan davranisi kulturunun en cok tekrarlanan ayrintilarindan biri; model uc turda da 'swat flies' yazdi (3/3 PUAN). Kanit cumlesi (A/2) uc ornek sayiyor ve ucu de ayni olcude taniniyor (ayna testi, yer bellegi, sinek kovma), dolayisiyla cerceveyi baska ornege tasimak da sizdirir. E6 onerisi: A paragrafinin laboratuvar ile arazi arasinda kurdugu karsitlik.",
+        "ne_degisti": "Eski soru A/2'deki laboratuvar ornekleri cumlesine capaliydi ve cevap ('swat flies') hayvan davranisi kulturunun en cok tekrarlanan ayrintisiydi. Yeni yuva A paragrafina hic degmiyor: kanit B/2'ye, duzenegin fiziksel kurulumuna tasindi. Enclosure'da onceden duran nesnenin ne oldugu yalniz metinden okunur; disaridan kutu, kova, sandik gibi bircok aday esit derecede akla gelir."
+      }
     },
     {
       "number": 2,
@@ -67,27 +77,37 @@
     {
       "number": 3,
       "passage_id": "A01",
-      "prompt": "A species can look unable to perform a mental task merely because the apparatus it is given does not match its (3) ........",
+      "prompt": "After a spell of apparently unrelated activity, Kandula rolled the block (3) ........ across the enclosure until it stood beneath the branch he could not reach.",
       "answer": [
-        "anatomy"
+        "several metres"
       ],
       "accepted_variants": [
-        "anatomy"
+        "several metres",
+        "several meters"
       ],
-      "evidence": "More broadly, the study is a caution against judging an animal's intelligence from a single, narrowly designed test: a species may appear incapable of a mental feat simply because the equipment offered does not suit its particular anatomy, and a fairer test can reveal abilities that had been present all along.",
+      "evidence": "After a period of apparently unrelated activity, he walked over to the concrete cube, rolled it several metres across the enclosure until it sat beneath the dangling branch, climbed onto it with his front feet and used his trunk to take the food.",
       "evidence_locator": {
-        "paragraph": "H",
-        "sentence": 2
+        "paragraph": "C",
+        "sentence": 3
       },
-      "explanation": "Paragraph H states that a species can appear to lack a mental ability simply because the equipment provided does not suit its anatomy, so the answer is 'anatomy'.",
-      "difficulty": "hard",
-      "status": "rejected",
-      "blind_solvable": true,
-      "blind_solvable_kelime_duzeyi": false,
-      "blind_basis": "logic",
-      "flag_reason": "Parça gösterilmeden anlamca 3/3 turda doğru bilindi: farklı kelimeyle ama doğru kavramla cevaplandı ('anatomy / morphology / anatomy' verdi, 'morphology' anatomy'nin eş anlamlısı).",
-      "flag_mechanism": "esdizim_kilidi",
-      "reject_reason": "Cevap tek sozcuk ('anatomy') ve o sozcugun kendisi sizinti noktasi: model parcasiz uc turun ikisinde birebir 'anatomy', birinde tam es anlamlisi 'morphology' verdi. Boslugun hedefledigi kavram -- bir turun beden yapisi -- Ingilizcede birden cok sozcukle ayni sekilde adlandiriliyor (anatomy / morphology / body plan), ve 'cihaz turun X'ine uymuyordu' cercevesi hangi bicimde yazilirsa yazilsin bu kavrami zorunlu kiliyor. Ayirt edici oge cevabin kendisinde durdugu icin cerceve duzeltmesi sizintiya erisemiyor; kapatmak boslugu baska bir ayrintiya tasimayi, yani `answer` alanini degistirmeyi gerektirir. E6 onerisi: ayni paragrafin (H/1) icgoru olcutunu sayan yarisi -- cozumun hatasiz ve aniden ortaya cikmasi, yeni nesnelere uyarlanmasi, aletin birakildigi yerin hatirlanmasi."
+      "explanation": "Paragraph C says Kandula rolled the cube several metres across the enclosure until it sat beneath the dangling branch; so the answer is 'several metres'.",
+      "difficulty": "medium",
+      "status": "verified",
+      "blind_solvable": null,
+      "blind_basis": null,
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-08",
+        "kaynak_prompt": "prompts/OPUS5-E6-yeniden-uretim.md (6/7)",
+        "uretilen_grup": "Tamamlama ailesi yuvalari",
+        "eski_prompt": "A species can look unable to perform a mental task merely because the apparatus it is given does not match its (3) ........",
+        "eski_cevap": [
+          "anatomy"
+        ],
+        "eski_kanit_cumlesi": "More broadly, the study is a caution against judging an animal's intelligence from a single, narrowly designed test: a species may appear incapable of a mental feat simply because the equipment offered does not suit its particular anatomy, and a fairer test can reveal abilities that had been present all along.",
+        "neden_elendi": "Cevap tek sozcuk ('anatomy') ve o sozcugun kendisi sizinti noktasi: model parcasiz uc turun ikisinde birebir 'anatomy', birinde tam es anlamlisi 'morphology' verdi. Boslugun hedefledigi kavram -- bir turun beden yapisi -- Ingilizcede birden cok sozcukle ayni sekilde adlandiriliyor (anatomy / morphology / body plan), ve 'cihaz turun X'ine uymuyordu' cercevesi hangi bicimde yazilirsa yazilsin bu kavrami zorunlu kiliyor. Ayirt edici oge cevabin kendisinde durdugu icin cerceve duzeltmesi sizintiya erisemiyor; kapatmak boslugu baska bir ayrintiya tasimayi, yani `answer` alanini degistirmeyi gerektirir. E6 onerisi: ayni paragrafin (H/1) icgoru olcutunu sayan yarisi -- cozumun hatasiz ve aniden ortaya cikmasi, yeni nesnelere uyarlanmasi, aletin birakildigi yerin hatirlanmasi.",
+        "ne_degisti": "Eski soru H/2'ye capaliydi ve cevap tek sozcuktu ('anatomy'); model parcasiz uc turun ikisinde birebir, birinde tam es anlamlisiyla ('morphology') verdi, cunku 'cihaz turun X'ine uymuyordu' cercevesi kavrami zorunlu kiliyordu. Yeni yuva H paragrafina hic degmiyor: kanit C/3'e, cozumun fiziksel ayrintisina tasindi. Blogun kac metre itildigi olculebilir ve keyfi bir ayrinti; disaridan bilinemez. Cerceve 'cube' sozcugunu anmiyor, boylece 1. sorunun cevabini da sizdirmiyor."
+      }
     },
     {
       "number": 4,
@@ -237,78 +257,108 @@
     {
       "number": 10,
       "passage_id": "A04",
-      "prompt": "Questions 10-12 refer to Passage A04. In order of distance outwards from the Sun, Uranus comes (10) ........",
+      "prompt": "Questions 10-12 refer to Passage A04. A faint point of light was tracked against the background stars over a stretch of roughly (10) ........",
       "answer": [
-        "seventh"
+        "six hours"
       ],
       "accepted_variants": [
-        "seventh",
-        "7th"
+        "six hours",
+        "6 hours"
       ],
-      "evidence": "Uranus, the seventh planet from the Sun, is already known for an unusually crowded family of moons and a tilted, tangled system of rings.",
+      "evidence": "On 2 February 2025, Webb's Near-Infrared Camera captured a series of ten long-exposure images, each lasting forty minutes, over a period of roughly six hours, tracking a faint point of light moving against the background of stars in a pattern consistent with an object orbiting Uranus itself.",
       "evidence_locator": {
-        "paragraph": "A",
-        "sentence": 1
+        "paragraph": "B",
+        "sentence": 2
       },
-      "explanation": "Paragraph A states that Uranus is the seventh planet from the Sun; since the gap asks for its position, the answer is 'seventh'.",
+      "explanation": "Paragraph B says the faint point of light was tracked against the background of stars over a period of roughly six hours; so the answer is 'six hours'.",
       "difficulty": "easy",
-      "status": "rejected",
-      "blind_solvable": true,
-      "blind_basis": "general_knowledge",
-      "flag_reason": "Cevap 'seventh', Uranus'un Gunes'ten yedinci gezegen oldugu temel astronomi bilgisiyle parcaya bakmadan da bilinir.",
-      "flag_mechanism": "genel_kultur",
-      "reject_reason": "Cevabin kendisi bir dunya bilgisi: Uranus'un Gunes'ten yedinci gezegen olmasi temel astronomi; model uc turda da 'seventh' yazdi (3/3 PUAN). Soru kokunun kendisi ('in order of distance outwards from the Sun') zaten dunya bilgisini cagiriyor. E6 onerisi: A/1'in oteki yarisi - uydu ailesinin kalabalikligi ya da halka sisteminin egikligi."
+      "status": "verified",
+      "blind_solvable": null,
+      "blind_basis": null,
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-08",
+        "kaynak_prompt": "prompts/OPUS5-E6-yeniden-uretim.md (6/7)",
+        "uretilen_grup": "Tamamlama ailesi yuvalari",
+        "eski_prompt": "Questions 10-12 refer to Passage A04. In order of distance outwards from the Sun, Uranus comes (10) ........",
+        "eski_cevap": [
+          "seventh"
+        ],
+        "eski_kanit_cumlesi": "Uranus, the seventh planet from the Sun, is already known for an unusually crowded family of moons and a tilted, tangled system of rings.",
+        "neden_elendi": "Cevabin kendisi bir dunya bilgisi: Uranus'un Gunes'ten yedinci gezegen olmasi temel astronomi; model uc turda da 'seventh' yazdi (3/3 PUAN). Soru kokunun kendisi ('in order of distance outwards from the Sun') zaten dunya bilgisini cagiriyor. E6 onerisi: A/1'in oteki yarisi - uydu ailesinin kalabalikligi ya da halka sisteminin egikligi.",
+        "ne_degisti": "Eski soru A/1'e capaliydi ve cevap ('seventh') temel astronomi bilgisiydi; soru kokunun kendisi de dunya bilgisini cagiriyordu. Yeni yuva A paragrafina hic degmiyor: kanit B/2'ye, gozlem penceresinin uzunluguna tasindi. Bu sure yalniz gozlem kaydindan okunur. Pozlarin sayisi (on) ve tek poz suresi (kirk dakika) bilerek cerceveye alinmadi, boylece aritmetikle turetilemiyor."
+      }
     },
     {
       "number": 11,
       "passage_id": "A04",
-      "prompt": "Being too small for the instruments of the day to resolve, the moon circled Uranus unseen for almost (11) ........ after the 1986 flyby.",
+      "prompt": "Until a permanent name is settled, the moon is listed under the provisional label (11) ........",
       "answer": [
-        "forty years"
+        "S/2025 U1"
       ],
       "accepted_variants": [
-        "forty years",
-        "40 years"
+        "S/2025 U1"
       ],
-      "evidence": "Its size simply placed it below the threshold that Voyager's instruments, or any Earth-based telescope in the decades since, could resolve, meaning the moon had been circling Uranus unnoticed for the nearly forty years between that flyby and Webb's observations.",
+      "evidence": "The newly found body has been given the provisional designation S/2025 U1.",
       "evidence_locator": {
-        "paragraph": "F",
-        "sentence": 3
+        "paragraph": "C",
+        "sentence": 1
       },
-      "explanation": "Paragraph F states that the moon's size was below the threshold instruments of the time could resolve, so it circled Uranus unnoticed for almost forty years after the 1986 flyby, so the answer is 'forty years'.",
+      "explanation": "Paragraph C says the newly found body has been given the provisional designation S/2025 U1; so the answer is 'S/2025 U1'.",
       "difficulty": "medium",
-      "status": "rejected",
-      "blind_solvable": true,
-      "blind_basis": "general_knowledge",
-      "flag_reason": "Cevap 'forty years', Voyager 2'nin Uranus'e 1986'da ugradigi ve buradan gunumuze (2020'lerin ortasi) yaklasik kirk yil gectigi genel kronoloji bilgisiyle parcaya bakmadan da hesaplanabiliyor.",
-      "flag_mechanism": "genel_kultur",
-      "reject_reason": "Sizinti aritmetik ve kapatilamiyor: cumle 1986 ucusunu veriyor, gunumuz tarihi de disaridan biliniyor, ikisinin farki dogrudan 'forty years' ediyor; model uc turda da '40 years' yazdi (kabul listesinde var, 3/3 PUAN). Cumleden 1986'yi kaldirmak yariya kalir, cunku Voyager 2'nin Uranus'e 1986'da ugradigi ayrica dunya bilgisidir - ayni depodaki practice/short-answer 4 bunun kaniti: model o tarihi gun gun bilerek yazdi. E6 onerisi: F/3'un cozunurluk esigi gerekcesi ya da uydunun yaklasik on kilometrelik capi."
+      "status": "verified",
+      "blind_solvable": null,
+      "blind_basis": null,
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-08",
+        "kaynak_prompt": "prompts/OPUS5-E6-yeniden-uretim.md (6/7)",
+        "uretilen_grup": "Tamamlama ailesi yuvalari",
+        "eski_prompt": "Being too small for the instruments of the day to resolve, the moon circled Uranus unseen for almost (11) ........ after the 1986 flyby.",
+        "eski_cevap": [
+          "forty years"
+        ],
+        "eski_kanit_cumlesi": "Its size simply placed it below the threshold that Voyager's instruments, or any Earth-based telescope in the decades since, could resolve, meaning the moon had been circling Uranus unnoticed for the nearly forty years between that flyby and Webb's observations.",
+        "neden_elendi": "Sizinti aritmetik ve kapatilamiyor: cumle 1986 ucusunu veriyor, gunumuz tarihi de disaridan biliniyor, ikisinin farki dogrudan 'forty years' ediyor; model uc turda da '40 years' yazdi (kabul listesinde var, 3/3 PUAN). Cumleden 1986'yi kaldirmak yariya kalir, cunku Voyager 2'nin Uranus'e 1986'da ugradigi ayrica dunya bilgisidir - ayni depodaki practice/short-answer 4 bunun kaniti: model o tarihi gun gun bilerek yazdi. E6 onerisi: F/3'un cozunurluk esigi gerekcesi ya da uydunun yaklasik on kilometrelik capi.",
+        "ne_degisti": "Eski soru F/3'e capaliydi ve sizinti aritmetikti: cumle 1986 ucusunu veriyordu, gunumuz tarihi disaridan biliniyordu, fark dogrudan 'forty years' ediyordu. Yeni yuva F paragrafina hic degmiyor: kanit C/1'e tasindi. Bu yuvada istenen sey adlandirma gelenegi degil (E5 AC2-2'yi tam da onun icin elemisti) kodun kendisidir; S/2025 U1 dizisi pasaj disindan hicbir bicimde turetilemez."
+      }
     },
     {
       "number": 12,
       "passage_id": "A04",
-      "prompt": "At this stage the find counts as (12) ........ , since it has not yet been through peer review.",
+      "prompt": "Its orbit lies about (12) ........ from the centre of Uranus, in a gap between two moons that were already known.",
       "answer": [
-        "ongoing research"
+        "56,000 kilometres"
       ],
       "accepted_variants": [
-        "ongoing research",
-        "on-going research"
+        "56,000 kilometres",
+        "56,000 kilometers",
+        "56,000 km",
+        "35,000 miles"
       ],
-      "evidence": "For now, the discovery remains part of ongoing research rather than a finished, peer-reviewed result, but it illustrates a broader pattern in planetary astronomy: each generation of instruments reveals objects that the previous generation's technology, however capable at the time, simply could not see.",
+      "evidence": "Its orbit lies roughly 35,000 miles, or 56,000 kilometres, from the centre of Uranus, in the gap between two previously known moons, Ophelia and Bianca.",
       "evidence_locator": {
-        "paragraph": "H",
+        "paragraph": "D",
         "sentence": 1
       },
-      "explanation": "Paragraph H states that the discovery is for now part of ongoing research rather than a finished, peer-reviewed result, so the answer is 'ongoing research'.",
+      "explanation": "Paragraph D says the orbit lies roughly 35,000 miles, or 56,000 kilometres, from the centre of Uranus, in the gap between two previously known moons; so the answer is '56,000 kilometres' (or the same distance in miles).",
       "difficulty": "medium",
-      "status": "rejected",
-      "blind_solvable": true,
-      "blind_solvable_kelime_duzeyi": false,
-      "blind_basis": "logic",
-      "flag_reason": "Parça gösterilmeden anlamca 3/3 turda doğru bilindi: farklı kelimeyle ama doğru kavramla cevaplandı (3 turda da 'preliminary' verdi, gerçek cevap 'ongoing research' — aynı kavramın başka sözcüğü).",
-      "flag_mechanism": "esdizim_kilidi",
-      "reject_reason": "Model parcasiz uc turda da 'preliminary' verdi: cevabin ('ongoing research') butun icerigini baska bir sozcukle karsiladi, yani eksik birakilan hicbir ayirt edici oge yok. Sizinti soru metninin bir yan cumlesinden degil, boslugun hedefinden geliyor: 'henuz hakem degerlendirmesinden gecmemis bulgu' kavraminin Ingilizcede hazir karsiligi vardir ve 'bitmis sonuc degil' karsitligini tasimayan bir cerceve de kurulamiyor, cunku kanit cumlesinin (H/1) ilk yarisi tam olarak bu karsitliktir. E6 onerisi: ayni cumlenin ikinci yarisi -- her yeni kusak aracin, onceki kusagin goremedigi nesneleri ortaya cikarmasi -- ya da H/2'deki El Moutamid degerlendirmesi."
+      "status": "verified",
+      "blind_solvable": null,
+      "blind_basis": null,
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-08",
+        "kaynak_prompt": "prompts/OPUS5-E6-yeniden-uretim.md (6/7)",
+        "uretilen_grup": "Tamamlama ailesi yuvalari",
+        "eski_prompt": "At this stage the find counts as (12) ........ , since it has not yet been through peer review.",
+        "eski_cevap": [
+          "ongoing research"
+        ],
+        "eski_kanit_cumlesi": "For now, the discovery remains part of ongoing research rather than a finished, peer-reviewed result, but it illustrates a broader pattern in planetary astronomy: each generation of instruments reveals objects that the previous generation's technology, however capable at the time, simply could not see.",
+        "neden_elendi": "Model parcasiz uc turda da 'preliminary' verdi: cevabin ('ongoing research') butun icerigini baska bir sozcukle karsiladi, yani eksik birakilan hicbir ayirt edici oge yok. Sizinti soru metninin bir yan cumlesinden degil, boslugun hedefinden geliyor: 'henuz hakem degerlendirmesinden gecmemis bulgu' kavraminin Ingilizcede hazir karsiligi vardir ve 'bitmis sonuc degil' karsitligini tasimayan bir cerceve de kurulamiyor, cunku kanit cumlesinin (H/1) ilk yarisi tam olarak bu karsitliktir. E6 onerisi: ayni cumlenin ikinci yarisi -- her yeni kusak aracin, onceki kusagin goremedigi nesneleri ortaya cikarmasi -- ya da H/2'deki El Moutamid degerlendirmesi.",
+        "ne_degisti": "Eski soru H/1'e capaliydi; model parcasiz uc turda da 'preliminary' vererek cevabin ('ongoing research') butun icerigini karsiladi, cunku 'hakem degerlendirmesinden gecmemis bulgu' kavraminin hazir bir Ingilizce karsiligi var. Yeni yuva H paragrafina hic degmiyor: kanit D/1'e, yorungenin gezegen merkezine uzakligina tasindi. Sayi olculmus bir buyukluk; kavramdan turetilemez."
+      }
     },
     {
       "number": 13,

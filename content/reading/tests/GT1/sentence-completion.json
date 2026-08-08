@@ -37,52 +37,71 @@
     },
     {
       "number": 26,
-      "prompt": "Hours put in on a public holiday are rewarded at (26) ........ , not at the one-and-a-half rate that applies to other extra hours.",
+      "prompt": "Hours worked beyond the (26) ........ week are paid at one and a half times the standard hourly rate.",
       "answer": [
-        "double time"
+        "37.5-hour"
       ],
       "accepted_variants": [
-        "double time"
+        "37.5-hour",
+        "37.5 hour"
       ],
       "evidence": "Overtime is paid at 1.5 times the standard hourly rate for hours worked beyond the 37.5-hour week, and at double time for work on public holidays.",
       "evidence_locator": {
-        "text": "B",
         "paragraph": "C",
         "sentence": 1
       },
-      "explanation": "Paragraph C of text B says that overtime beyond the weekly hours is paid at 1.5 times the rate, while work on public holidays is paid at double time; the answer is therefore 'double time'.",
-      "difficulty": "easy",
-      "status": "rejected",
-      "blind_solvable": true,
-      "blind_basis": "general_knowledge",
-      "flag_reason": "Cevap 'double time', resmi tatil calismasinin 'bir bucuk kat' yerine 'double time' (iki kat ucret) ile odenmesinin Ingilizce is dunyasinda yaygin bilinen standart bir terim olmasi sayesinde parcaya bakmadan da tahmin edilebiliyor.",
-      "flag_mechanism": "genel_kultur",
-      "reject_reason": "Cevabin kendisi Ingilizce is dunyasinin yerlesik terimi: resmi tatil calismasinin karsiligi 'double time'dir ve cumle bir bucuk kat karsitligini vererek terimi dogrudan cagiriyor; model uc turda da yazdi (3/3 PUAN). Karsitligi kaldirmak cumleyi anlamsiz birakir. E6 onerisi: B metni C/1'in oteki yarisi - haftalik 37,5 saatlik esik."
+      "explanation": "Text B, paragraph C says overtime is paid at 1.5 times the standard rate for hours worked beyond the 37.5-hour week; so the answer is '37.5-hour'.",
+      "difficulty": "medium",
+      "status": "verified",
+      "blind_solvable": null,
+      "blind_basis": null,
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-08",
+        "kaynak_prompt": "prompts/OPUS5-E6-yeniden-uretim.md (6/7)",
+        "uretilen_grup": "Tamamlama ailesi yuvalari",
+        "eski_prompt": "Hours put in on a public holiday are rewarded at (26) ........ , not at the one-and-a-half rate that applies to other extra hours.",
+        "eski_cevap": [
+          "double time"
+        ],
+        "eski_kanit_cumlesi": "Overtime is paid at 1.5 times the standard hourly rate for hours worked beyond the 37.5-hour week, and at double time for work on public holidays.",
+        "neden_elendi": "Cevabin kendisi Ingilizce is dunyasinin yerlesik terimi: resmi tatil calismasinin karsiligi 'double time'dir ve cumle bir bucuk kat karsitligini vererek terimi dogrudan cagiriyor; model uc turda da yazdi (3/3 PUAN). Karsitligi kaldirmak cumleyi anlamsiz birakir. E6 onerisi: B metni C/1'in oteki yarisi - haftalik 37,5 saatlik esik.",
+        "ne_degisti": "Eski bosluk ayni cumleye capaliydi ama hedefi 'double time' idi: resmi tatil calismasinin karsiligi Ingiliz is dunyasinin yerlesik terimi ve cumle bir bucuk kat karsitligini vererek terimi dogrudan cagiriyordu. E5'in kendi onerisi uyarinca bosluk ayni cumlenin ESIK degerine tasindi; resmi tatil / cift ucret karsitligi cerceveden tumuyle cikarildi, yani sizdiran oge kaldirildi. Haftalik esik sirkete ozgu bir sayi."
+      }
     },
     {
       "number": 27,
-      "prompt": "Anyone who leaves the firm is given money for leave they had built up but never used, and this forms part of their (27) ........ .",
+      "prompt": "Anyone who builds up more than (27) ........ of overtime in a single month may take the excess as time off instead of pay.",
       "answer": [
-        "final salary"
+        "ten hours"
       ],
       "accepted_variants": [
-        "final salary"
+        "ten hours",
+        "10 hours"
       ],
-      "evidence": "Employees leaving the company are paid for any accrued but untaken leave as part of their final salary.",
+      "evidence": "Staff who accumulate more than ten hours of overtime in a single month may choose to take the excess as time off in lieu instead of payment.",
       "evidence_locator": {
-        "text": "B",
-        "paragraph": "D",
-        "sentence": 2
+        "paragraph": "C",
+        "sentence": 3
       },
-      "explanation": "Paragraph D of text B says that employees leaving the company are paid for accrued but untaken leave as part of their final salary; the answer is therefore 'final salary'.",
+      "explanation": "Text B, paragraph C says staff who accumulate more than ten hours of overtime in a single month may take the excess as time off in lieu; so the answer is 'ten hours'.",
       "difficulty": "medium",
-      "status": "rejected",
-      "blind_solvable": true,
-      "blind_solvable_kelime_duzeyi": false,
-      "blind_basis": "logic",
-      "flag_reason": "Parça gösterilmeden anlamca 3/3 turda doğru bilindi: farklı kelimeyle ama doğru kavramla cevaplandı (3 turda da 'final pay' verdi, gerçek cevap 'final salary' — pay/salary eş anlamlı).",
-      "flag_mechanism": "esdizim_kilidi",
-      "reject_reason": "Model parcasiz uc turda da 'final pay' verdi: cevabin ('final salary') ayirt edici sozcugunu ('final') birebir tutturdu, yalniz basi es anlamlisiyla degistirdi. Sizinti cerceveden degil eksenden geliyor: kanit cumlesi (B metni, D/2) 'isten ayrilan calisan kullanilmamis izninin karsiligini ne zaman alir' sorusuna cevap veriyor ve bu, calisma hayatinin standart uygulamasi -- ayrilista odenen sey son maastir. Ayrilma durumundan soz etmeyen bir cerceve kurmak mumkun degil, cunku kanit cumlesinin butun icerigi odur. E6 onerisi: ayni paragrafin birinci cumlesi -- en cok bes gunun yaziyla onay alinarak bir sonraki yila devredilebilmesi ve 31 Mart'ta yanmasi."
+      "status": "verified",
+      "blind_solvable": null,
+      "blind_basis": null,
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-08",
+        "kaynak_prompt": "prompts/OPUS5-E6-yeniden-uretim.md (6/7)",
+        "uretilen_grup": "Tamamlama ailesi yuvalari",
+        "eski_prompt": "Anyone who leaves the firm is given money for leave they had built up but never used, and this forms part of their (27) ........ .",
+        "eski_cevap": [
+          "final salary"
+        ],
+        "eski_kanit_cumlesi": "Employees leaving the company are paid for any accrued but untaken leave as part of their final salary.",
+        "neden_elendi": "Model parcasiz uc turda da 'final pay' verdi: cevabin ('final salary') ayirt edici sozcugunu ('final') birebir tutturdu, yalniz basi es anlamlisiyla degistirdi. Sizinti cerceveden degil eksenden geliyor: kanit cumlesi (B metni, D/2) 'isten ayrilan calisan kullanilmamis izninin karsiligini ne zaman alir' sorusuna cevap veriyor ve bu, calisma hayatinin standart uygulamasi -- ayrilista odenen sey son maastir. Ayrilma durumundan soz etmeyen bir cerceve kurmak mumkun degil, cunku kanit cumlesinin butun icerigi odur. E6 onerisi: ayni paragrafin birinci cumlesi -- en cok bes gunun yaziyla onay alinarak bir sonraki yila devredilebilmesi ve 31 Mart'ta yanmasi.",
+        "ne_degisti": "Eski soru B metni D/2'ye capaliydi; model parcasiz uc turda da 'final pay' vererek cevabin ayirt edici sozcugunu tutturdu, cunku isten ayrilista odenen seyin son maas olmasi calisma hayatinin standart uygulamasi. Yeni soru D paragrafina hic degmiyor: kanit C/3'e, fazla mesainin izne cevrilme esigine tasindi. Esik sirkete ozgu; ayrica cevabin 'time off in lieu' olmamasi icin o ifade cerceve icinde veriliyor."
+      }
     }
   ]
 }

@@ -13,30 +13,41 @@
   "word_limit": "NO MORE THAN TWO WORDS",
   "word_bank": null,
   "visual": null,
-  "stem_block": "A reef that is already living in tomorrow's sea\n\nMaug is what is left of a volcano that fell in on itself, so that three small islands now sit in a ring around a drowned (36) ........ . Molten rock below the seabed feeds openings that pour carbon dioxide straight into the water beside a living reef. A visiting team fixed recording instruments in place, while divers underwater marked fresh growth on the corals with (37) ........ and collected material to be examined later. Their readings show that the water closest to the openings is slightly more acidic than the rest of the reef, and that the seabed there is taken over by (38) ........ instead of healthy coral. A second piece of research found that minute organisms bore into the skeletons far more heavily in this water, speeding up (39) ........ and weakening the reef from the inside. Because these changes resemble what reefs elsewhere may meet before this century ends, the island is now studied as a (40) ........ for the rest of the ocean.",
+  "stem_block": "A reef that is already living in tomorrow's sea\n\nMaug's unusual chemistry comes from its geology. Magma still lies beneath the seafloor and, along the (36) ........ of the caldera, drives shallow vents that release carbon dioxide straight into the water beside a living reef. A visiting team fixed recording instruments in place, while divers underwater marked fresh growth on the corals with (37) ........ and collected material to be examined later. Reef scientists' wider worry is that corals will lose the contest for space, and that complex reef habitat will gradually give way to simpler (38) ........ . A second piece of research, published in the journal (39) ........ , looked at what happens inside the coral skeletons rather than on the seafloor surface. Because these changes resemble what reefs elsewhere may meet before this century ends, the island is now studied as a (40) ........ for the rest of the ocean.",
   "items": [
     {
       "number": 36,
-      "prompt": "Maug is what is left of a volcano that fell in on itself, so that three small islands now sit in a ring around a drowned (36) ........ .",
+      "prompt": "Magma still lies beneath the seafloor and, along the (36) ........ of the caldera, drives shallow vents that release carbon dioxide straight into the water beside a living reef.",
       "answer": [
-        "caldera"
+        "inner shoreline"
       ],
       "accepted_variants": [
-        "caldera"
+        "inner shoreline",
+        "inner shore"
       ],
-      "evidence": "Maug is what remains of a volcano that collapsed long ago, leaving three small islands arranged in a rough circle around a flooded caldera.",
+      "evidence": "Magma still sits beneath the seafloor, and along the inner shoreline of the caldera it drives shallow vents that continuously release carbon dioxide gas directly into the water beside a living coral reef, a combination that is extremely rare anywhere on Earth.",
       "evidence_locator": {
         "paragraph": "B",
-        "sentence": 2
+        "sentence": 3
       },
-      "explanation": "Paragraph B says that three small islands are arranged in a circle around a flooded caldera; the answer is therefore 'caldera'.",
-      "difficulty": "easy",
-      "status": "rejected",
-      "blind_solvable": true,
-      "blind_basis": "general_knowledge",
-      "flag_reason": "Cevap 'caldera', bir yanardagin cokmesiyle olusan halka bicimli cokuntu icin kullanilan yerlesik jeoloji terimi; sorunun kendisi zaten bu tanimi ('volcano that fell in on itself') verdigi icin terim genel bilgiyle parcaya bakmadan da tahmin edilebiliyor.",
-      "flag_mechanism": "genel_kultur",
-      "reject_reason": "Cevabin kendisi yerlesik bir jeoloji terimi: cokmus bir yanardagin halka bicimli cukuru 'caldera' diye anilir ve ozetin kendisi bu tanimi ('a volcano that fell in on itself ... three small islands in a ring') veriyor; model uc turda da yazdi (3/3 PUAN). Tanimi cikarmak boslugu yanitlanamaz yapar, birakmak terimi verir. E6 onerisi: B/2'nin oteki ayrintisi - uc adanin sayisi ya da adalarin dizilisi yerine yanardagin cokme zamani."
+      "explanation": "Paragraph B says magma beneath the seafloor drives shallow vents along the inner shoreline of the caldera; so the answer is 'inner shoreline'.",
+      "difficulty": "medium",
+      "status": "verified",
+      "blind_solvable": null,
+      "blind_basis": null,
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-08",
+        "kaynak_prompt": "prompts/OPUS5-E6-yeniden-uretim.md (6/7)",
+        "uretilen_grup": "Tamamlama ailesi yuvalari",
+        "eski_prompt": "Maug is what is left of a volcano that fell in on itself, so that three small islands now sit in a ring around a drowned (36) ........ .",
+        "eski_cevap": [
+          "caldera"
+        ],
+        "eski_kanit_cumlesi": "Maug is what remains of a volcano that collapsed long ago, leaving three small islands arranged in a rough circle around a flooded caldera.",
+        "neden_elendi": "Cevabin kendisi yerlesik bir jeoloji terimi: cokmus bir yanardagin halka bicimli cukuru 'caldera' diye anilir ve ozetin kendisi bu tanimi ('a volcano that fell in on itself ... three small islands in a ring') veriyor; model uc turda da yazdi (3/3 PUAN). Tanimi cikarmak boslugu yanitlanamaz yapar, birakmak terimi verir. E6 onerisi: B/2'nin oteki ayrintisi - uc adanin sayisi ya da adalarin dizilisi yerine yanardagin cokme zamani.",
+        "ne_degisti": "Eski soru B/2'ye capaliydi ve cevap yerlesik bir jeoloji terimiydi ('caldera'); ozet cumlesi terimin tanimini veriyordu. Yeni yuva B/2'ye hic degmiyor: kanit B/3'e, bacalarin kaldera icinde tam olarak nerede siralandigi ayrintisina tasindi. Konum bilgisi yalniz metinden okunur, terim bilgisinden cikmaz."
+      }
     },
     {
       "number": 37,
@@ -64,50 +75,71 @@
     },
     {
       "number": 38,
-      "prompt": "Their readings show that the water closest to the openings is slightly more acidic than the rest of the reef, and that the seabed there is taken over by (38) ........ instead of healthy coral.",
+      "prompt": "Reef scientists' wider worry is that corals will lose the contest for space, and that complex reef habitat will gradually give way to simpler (38) ........ .",
       "answer": [
-        "weedy algae"
+        "algal turf"
       ],
       "accepted_variants": [
-        "weedy algae",
-        "algae"
+        "algal turf"
       ],
-      "evidence": "Immediately around the vents, weedy algae tend to dominate the seafloor, while reefs only a short distance away, in less acidified water, remain visibly healthier and more coral-dominated.",
+      "evidence": "This pattern matches a broader concern among reef scientists: that as oceans acidify, algae may increasingly outcompete corals for space, gradually replacing complex reef habitat with simpler algal turf.",
       "evidence_locator": {
         "paragraph": "F",
-        "sentence": 2
+        "sentence": 3
       },
-      "explanation": "Paragraph F says that weedy algae dominate the seafloor immediately around the vents, while reefs a short distance away remain healthier; the answer is therefore 'weedy algae'.",
-      "difficulty": "medium",
-      "status": "rejected",
-      "blind_solvable": true,
-      "blind_basis": "general_knowledge",
-      "flag_reason": "Cevap 'weedy algae', asitlenen sularda saglikli mercanin yerini yosunun almasinin iklim/okyanus bilimi haberciliginde sikca tekrarlanan bilinen bir oruntu olmasi sayesinde parcaya bakmadan da tahmin edilebiliyor.",
-      "flag_mechanism": "genel_kultur",
-      "reject_reason": "Cevap iki yonden sizdiriyor: asitlenen suda saglikli mercanin yerini yosunun almasi iklim habercilerinin en cok tekrarladigi oruntudur ve kabul listesi 'algae' sozcugunu tek basina kabul ediyor; model uc turda da 'algae' yazdi (3/3 PUAN). Niteleyiciyi ('weedy') zorunlu kilmak icin kabul listesini daraltmak gerekir, o da korunan bir alan. E6 onerisi: F/2'nin karsilastirma yarisi - bacalardan biraz uzaktaki mercanin gorunur bicimde saglikli kalmasi."
+      "explanation": "Paragraph F says reef scientists fear that algae will outcompete corals for space, gradually replacing complex reef habitat with simpler algal turf; so the answer is 'algal turf'.",
+      "difficulty": "hard",
+      "status": "verified",
+      "blind_solvable": null,
+      "blind_basis": null,
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-08",
+        "kaynak_prompt": "prompts/OPUS5-E6-yeniden-uretim.md (6/7)",
+        "uretilen_grup": "Tamamlama ailesi yuvalari",
+        "eski_prompt": "Their readings show that the water closest to the openings is slightly more acidic than the rest of the reef, and that the seabed there is taken over by (38) ........ instead of healthy coral.",
+        "eski_cevap": [
+          "weedy algae"
+        ],
+        "eski_kanit_cumlesi": "Immediately around the vents, weedy algae tend to dominate the seafloor, while reefs only a short distance away, in less acidified water, remain visibly healthier and more coral-dominated.",
+        "neden_elendi": "Cevap iki yonden sizdiriyor: asitlenen suda saglikli mercanin yerini yosunun almasi iklim habercilerinin en cok tekrarladigi oruntudur ve kabul listesi 'algae' sozcugunu tek basina kabul ediyor; model uc turda da 'algae' yazdi (3/3 PUAN). Niteleyiciyi ('weedy') zorunlu kilmak icin kabul listesini daraltmak gerekir, o da korunan bir alan. E6 onerisi: F/2'nin karsilastirma yarisi - bacalardan biraz uzaktaki mercanin gorunur bicimde saglikli kalmasi.",
+        "ne_degisti": "Eski soru F/2'ye capaliydi; cevap ('weedy algae') hem iklim habercileri tarafindan surekli tekrarlanan bir oruntuydu hem de kabul listesi 'algae' sozcugunu tek basina kabul ediyordu. Yeni yuva F/2'ye hic degmiyor: kanit F/3'e, arastirmacilarin genel kaygisini anlatan cumleye tasindi ve cerceveden 'algae' sozcugu bilerek cikarildi, boylece bosluk artik yakin bir es anlamliyi cagirmiyor. Kabul listesi tek bicime indirilmedi, bastan tek bicimli yazildi."
+      }
     },
     {
       "number": 39,
-      "prompt": "A second piece of research found that minute organisms bore into the skeletons far more heavily in this water, speeding up (39) ........ and weakening the reef from the inside.",
+      "prompt": "A second piece of research, published in the journal (39) ........ , looked at what happens inside the coral skeletons rather than on the seafloor surface.",
       "answer": [
-        "bioerosion"
+        "PLOS ONE"
       ],
       "accepted_variants": [
-        "bioerosion"
+        "PLOS ONE",
+        "PLoS ONE",
+        "PLOS One"
       ],
-      "evidence": "It found that in the naturally acidified water near the vents, microscopic boring organisms colonised coral skeletons more heavily, accelerating a process called bioerosion in which the skeleton is weakened and broken down from within.",
+      "evidence": "A related study of the Maug reef, published separately in the journal PLOS ONE, focused on what happens inside coral skeletons rather than on the seafloor surface.",
       "evidence_locator": {
         "paragraph": "G",
-        "sentence": 2
+        "sentence": 1
       },
-      "explanation": "Paragraph G names the process accelerated by microscopic organisms boring into the skeleton from within as 'bioerosion'; the answer is therefore 'bioerosion'.",
-      "difficulty": "hard",
-      "status": "rejected",
-      "blind_solvable": true,
-      "blind_basis": "general_knowledge",
-      "flag_reason": "Cevap 'bioerosion', canlilarin oydugu bicimde iskeleti icten zayiflatan surec icin deniz biyolojisinde kullanilan yerlesik terim; cumledeki tanimin kendisi ('mikroskobik canlilarin iskeleti icten deldigi') bu terimi genel bilgiyle cagristirdigi icin parcaya bakmadan da tahmin edilebiliyor.",
-      "flag_mechanism": "genel_kultur",
-      "reject_reason": "Cevabin kendisi yerlesik bir deniz biyolojisi terimi ve ozet onun tanimini veriyor: 'minute organisms bore into the skeletons ... weakening the reef from the inside' zaten bioerosion'un sozluk karsiligidir; model uc turda da yazdi (3/3 PUAN). Tanimi cikarinca bosluk yanitlanamaz hale geliyor. E6 onerisi: G/2'nin nicel yarisi - oyucu canlilarin bu suda ne kadar daha yogun yerlestigi."
+      "explanation": "Paragraph G says a related study of the Maug reef was published in the journal PLOS ONE and looked inside coral skeletons rather than at the seafloor surface; so the answer is 'PLOS ONE'.",
+      "difficulty": "medium",
+      "status": "verified",
+      "blind_solvable": null,
+      "blind_basis": null,
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-08",
+        "kaynak_prompt": "prompts/OPUS5-E6-yeniden-uretim.md (6/7)",
+        "uretilen_grup": "Tamamlama ailesi yuvalari",
+        "eski_prompt": "A second piece of research found that minute organisms bore into the skeletons far more heavily in this water, speeding up (39) ........ and weakening the reef from the inside.",
+        "eski_cevap": [
+          "bioerosion"
+        ],
+        "eski_kanit_cumlesi": "It found that in the naturally acidified water near the vents, microscopic boring organisms colonised coral skeletons more heavily, accelerating a process called bioerosion in which the skeleton is weakened and broken down from within.",
+        "neden_elendi": "Cevabin kendisi yerlesik bir deniz biyolojisi terimi ve ozet onun tanimini veriyor: 'minute organisms bore into the skeletons ... weakening the reef from the inside' zaten bioerosion'un sozluk karsiligidir; model uc turda da yazdi (3/3 PUAN). Tanimi cikarinca bosluk yanitlanamaz hale geliyor. E6 onerisi: G/2'nin nicel yarisi - oyucu canlilarin bu suda ne kadar daha yogun yerlestigi.",
+        "ne_degisti": "Eski soru G/2'ye capaliydi ve cevap yerlesik bir deniz biyolojisi terimiydi ('bioerosion'); ozet cumlesi terimin sozluk tanimini veriyordu. Yeni yuva G/2'ye hic degmiyor: kanit G/1'e, ikinci calismanin yayimlandigi derginin adina tasindi. Dergi adi keyfi bir kunye bilgisi; tanimdan turetilemez."
+      }
     },
     {
       "number": 40,

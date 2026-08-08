@@ -13,7 +13,7 @@
   "word_limit": "NO MORE THAN THREE WORDS AND/OR A NUMBER",
   "word_bank": null,
   "visual": null,
-  "stem_block": "From first sighting to an official name\n\nThe Near-Infrared Camera records a run of long exposures, each of (1) ........ , as a faint speck is followed against the background of stars.\n    ↓\nThe speck is accepted as a body circling Uranus and is entered in the records under the provisional (2) ........ S/2025 U1.\n    ↓\nAs the object is too faint to measure directly, its width is put at some ten kilometres, on the assumption that it (3) ........ light much as Uranus's other small moons do.\n    ↓\nIts path proves to be almost circular and to lie in the gap between Bianca and (4) ........ , not far from the plane of the planet's equator.\n    ↓\nThe moon is counted as the (5) ........ member of the planet's crowd of small inner satellites.\n    ↓\nA lasting name, drawn from plays and poetry rather than from myth, still has to be approved by the (6) ........ .",
+  "stem_block": "From the first images to what the find shows\n\nThe Near-Infrared Camera records a run of long exposures, each of (1) ........ , as a faint speck is followed against the background of stars.\n    ↓\nThe speck is accepted as a body circling Uranus, and the addition to the planet's moon family is announced in (2) ........ .\n    ↓\nToo faint to be measured directly, the object has its width put at about (3) ........ , which makes it one of the smallest moons known anywhere.\n    ↓\nIts path proves to be almost circular and to lie in the gap between Bianca and (4) ........ , not far from the plane of the planet's equator.\n    ↓\nThe moon is counted as the (5) ........ member of the planet's crowd of small inner satellites.\n    ↓\nThe team lead's comment: an object that slipped past even a (6) ........ shows how much of a well-studied planetary system can still lie hidden.",
   "items": [
     {
       "number": 1,
@@ -47,49 +47,74 @@
     },
     {
       "number": 2,
-      "prompt": "The speck is accepted as a body circling Uranus and is entered in the records under the provisional (2) ........ S/2025 U1.",
+      "prompt": "The speck is accepted as a body circling Uranus, and the addition to the planet's moon family is announced in (2) ........ .",
       "answer": [
-        "designation"
+        "February 2025"
       ],
       "accepted_variants": [
-        "designation"
+        "February 2025",
+        "in February 2025"
       ],
-      "evidence": "The newly found body has been given the provisional designation S/2025 U1.",
+      "evidence": "In February 2025, astronomers added one more member to that family: a small moon so faint that no previous mission had ever recorded it, spotted only because a modern space telescope was powerful enough to catch its dim reflected light.",
       "evidence_locator": {
-        "paragraph": "C",
-        "sentence": 1
+        "paragraph": "A",
+        "sentence": 2
       },
-      "explanation": "Paragraph C says the newly found body has been given the provisional designation S/2025 U1; so the answer is 'designation'.",
-      "difficulty": "medium",
-      "status": "rejected",
-      "blind_solvable": true,
-      "blind_basis": "general_knowledge",
-      "flag_reason": "Cevap 'designation', yeni kesfedilen gok cisimlerine resmi isim verilmeden once 'gecici designation' (kod) atanmasi astronomideki yerlesik, yaygin bilinen bir uygulama; bu genel bilgiyle bosluk parcaya bakmadan da doldurulabiliyor.",
-      "flag_mechanism": "genel_kultur",
-      "reject_reason": "Cevabin kendisi yerlesik bir astronomi terimi: yeni bulunan gok cisimlerine kalici ad verilmeden once 'provisional designation' atanmasi adlandirma geleneginin kendisidir ve S/2025 U1 bicimindeki kod bu terimin isaretidir; model uc turda da 'designation' yazdi (3/3 PUAN). Kutudan 'provisional' sozcugunu kaldirmak yetmiyor, cunku sizdiran sey sifat degil adlandirma gelenegini bilmek. E6 onerisi: C paragrafinin gozlem ayrintisi - cismin kac pozda izlendigi ya da hangi tarihte kaydedildigi."
+      "explanation": "Paragraph A says that in February 2025 astronomers added one more member to Uranus's family of moons; so the answer is 'February 2025'.",
+      "difficulty": "easy",
+      "status": "verified",
+      "blind_solvable": null,
+      "blind_basis": null,
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-08",
+        "kaynak_prompt": "prompts/OPUS5-E6-yeniden-uretim.md (6/7)",
+        "uretilen_grup": "Tamamlama ailesi yuvalari",
+        "eski_prompt": "The speck is accepted as a body circling Uranus and is entered in the records under the provisional (2) ........ S/2025 U1.",
+        "eski_cevap": [
+          "designation"
+        ],
+        "eski_kanit_cumlesi": "The newly found body has been given the provisional designation S/2025 U1.",
+        "neden_elendi": "Cevabin kendisi yerlesik bir astronomi terimi: yeni bulunan gok cisimlerine kalici ad verilmeden once 'provisional designation' atanmasi adlandirma geleneginin kendisidir ve S/2025 U1 bicimindeki kod bu terimin isaretidir; model uc turda da 'designation' yazdi (3/3 PUAN). Kutudan 'provisional' sozcugunu kaldirmak yetmiyor, cunku sizdiran sey sifat degil adlandirma gelenegini bilmek. E6 onerisi: C paragrafinin gozlem ayrintisi - cismin kac pozda izlendigi ya da hangi tarihte kaydedildigi.",
+        "ne_degisti": "Eski kutu C/1'e capaliydi ve cevap ('designation') adlandirma gelenegini bilmekten cikiyordu. Yeni kutu C/1'e hic degmiyor: kanit A/2'ye, duyurunun tarihine tasindi. Kutudan S/2025 U1 kodu da kaldirildi, cunku kod yilin kendisini tasiyordu; tarih artik yalniz A/2'den okunuyor."
+      }
     },
     {
       "number": 3,
-      "prompt": "As the object is too faint to measure directly, its width is put at some ten kilometres, on the assumption that it (3) ........ light much as Uranus's other small moons do.",
+      "prompt": "Too faint to be measured directly, the object has its width put at about (3) ........ , which makes it one of the smallest moons known anywhere.",
       "answer": [
-        "reflects"
+        "ten kilometres"
       ],
       "accepted_variants": [
-        "reflects"
+        "ten kilometres",
+        "ten kilometers",
+        "10 kilometres",
+        "10 km",
+        "six miles"
       ],
       "evidence": "Because it has not been imaged in enough detail to measure directly, its size has to be estimated: assuming it reflects light in a similar way to Uranus's other small moons, astronomers calculate a diameter of about six miles, or ten kilometres, making it one of the smallest moons known anywhere in the solar system.",
       "evidence_locator": {
         "paragraph": "C",
         "sentence": 2
       },
-      "explanation": "Paragraph C states that the diameter estimate rests on the assumption that the object reflects light in a similar way to Uranus's other small moons; the gap asks for the verb in this assumption, so the answer is 'reflects'.",
-      "difficulty": "hard",
-      "status": "rejected",
-      "blind_solvable": true,
-      "blind_basis": "logic",
-      "flag_reason": "Bosluk 'on the assumption that it ___ light much as ... other small moons do' kalibinin ucunda; gok cisimleri icin 'isigi yansitmak' (reflect light) en dogal ve yaygin fiil oldugu icin parcaya bakmadan da tahmin edilebiliyor.",
-      "flag_mechanism": "esdizim_kilidi",
-      "reject_reason": "Bosluk 'it ___ light' kalibinin ortasinda ve bir gok cisminin parlakligindan cap tahmin etme varsayimi Ingilizcede yalniz 'reflect' fiiliyle kuruluyor. Fiili baska bir cerceveye tasimak ya cumleyi bozuyor ya da cevabi sifat bicimine ('reflective') ceviriyor, yani korunan alani degistiriyor. E6 bu adimi cap tahmininin sayisina ya da 'too faint to measure directly' gerekcesine capalamali."
+      "explanation": "Paragraph C says astronomers calculate a diameter of about six miles, or ten kilometres, making it one of the smallest moons known; so the answer is 'ten kilometres' (or the same figure in miles).",
+      "difficulty": "medium",
+      "status": "verified",
+      "blind_solvable": null,
+      "blind_basis": null,
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-08",
+        "kaynak_prompt": "prompts/OPUS5-E6-yeniden-uretim.md (6/7)",
+        "uretilen_grup": "Tamamlama ailesi yuvalari",
+        "eski_prompt": "As the object is too faint to measure directly, its width is put at some ten kilometres, on the assumption that it (3) ........ light much as Uranus's other small moons do.",
+        "eski_cevap": [
+          "reflects"
+        ],
+        "eski_kanit_cumlesi": "Because it has not been imaged in enough detail to measure directly, its size has to be estimated: assuming it reflects light in a similar way to Uranus's other small moons, astronomers calculate a diameter of about six miles, or ten kilometres, making it one of the smallest moons known anywhere in the solar system.",
+        "neden_elendi": "Bosluk 'it ___ light' kalibinin ortasinda ve bir gok cisminin parlakligindan cap tahmin etme varsayimi Ingilizcede yalniz 'reflect' fiiliyle kuruluyor. Fiili baska bir cerceveye tasimak ya cumleyi bozuyor ya da cevabi sifat bicimine ('reflective') ceviriyor, yani korunan alani degistiriyor. E6 bu adimi cap tahmininin sayisina ya da 'too faint to measure directly' gerekcesine capalamali.",
+        "ne_degisti": "Eski kutu ayni cumleye capaliydi ama bosluk 'it ___ light' kalibinin ortasindaydi ve parlakliktan cap tahmini Ingilizcede yalniz 'reflect' fiiliyle kuruluyordu. E5'in kendi onerisi uyarinca bosluk ayni cumlenin OLCULEN degerine tasindi: varsayimin fiili artik sorulmuyor, sorulan sey hesaplanan capin kendisi. Sizdiran oge (fiil kalibi) cerceveden tumuyle kalkti; yeni hedefin disaridan turetilebilir bir karsiligi yok."
+      }
     },
     {
       "number": 4,
@@ -136,26 +161,36 @@
     },
     {
       "number": 6,
-      "prompt": "A lasting name, drawn from plays and poetry rather than from myth, still has to be approved by the (6) ........ .",
+      "prompt": "The team lead's comment: an object that slipped past even a (6) ........ shows how much of a well-studied planetary system can still lie hidden.",
       "answer": [
-        "International Astronomical Union"
+        "dedicated flyby mission"
       ],
       "accepted_variants": [
-        "International Astronomical Union"
+        "dedicated flyby mission"
       ],
-      "evidence": "Following long tradition, Uranus's moons are named not after figures from classical mythology, as is usual elsewhere in the solar system, but after characters drawn from the plays of Shakespeare and the poetry of Alexander Pope; the newcomer's eventual name will still need formal approval from the International Astronomical Union.",
+      "evidence": "As El Moutamid noted, the moon is small, but finding something that even a dedicated flyby mission missed underlines how much of even a well-studied planetary system can still remain hidden from view.",
       "evidence_locator": {
-        "paragraph": "E",
+        "paragraph": "H",
         "sentence": 2
       },
-      "explanation": "Paragraph E states that the moon's lasting name requires formal approval from the International Astronomical Union; so the answer is 'International Astronomical Union'.",
-      "difficulty": "medium",
-      "status": "rejected",
-      "blind_solvable": true,
-      "blind_basis": "general_knowledge",
-      "flag_reason": "Cevap 'International Astronomical Union', gok cismi adlarinin resmi onayini veren kurulusun Uluslararasi Astronomi Birligi olmasi astronomide yaygin bilinen bir gercek; bu genel bilgiyle bosluk parcaya bakmadan da doldurulabiliyor.",
-      "flag_mechanism": "genel_kultur",
-      "reject_reason": "Cevabin kendisi bir ozel ad ve dunya bilgisi: gok cismi adlarini onaylayan kurumun Uluslararasi Astronomi Birligi olmasi astronominin en cok bilinen kurumsal gercegi; model uc turda da adin tamamini yazdi (3/3 PUAN). Kutunun kalan icerigi (Shakespeare ve Pope gelenegi) degistirilse bile 'onaylayan kurum' sorusunun tek cevabi ayni kalir. E6 onerisi: E/2'nin gelenek yarisi - adlarin mitolojiden degil oyun ve siirden secilmesi."
+      "explanation": "Paragraph H quotes the team lead as saying that finding something even a dedicated flyby mission missed shows how much of a well-studied planetary system can remain hidden; so the answer is 'dedicated flyby mission'.",
+      "difficulty": "hard",
+      "status": "verified",
+      "blind_solvable": null,
+      "blind_basis": null,
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-08",
+        "kaynak_prompt": "prompts/OPUS5-E6-yeniden-uretim.md (6/7)",
+        "uretilen_grup": "Tamamlama ailesi yuvalari",
+        "eski_prompt": "A lasting name, drawn from plays and poetry rather than from myth, still has to be approved by the (6) ........ .",
+        "eski_cevap": [
+          "International Astronomical Union"
+        ],
+        "eski_kanit_cumlesi": "Following long tradition, Uranus's moons are named not after figures from classical mythology, as is usual elsewhere in the solar system, but after characters drawn from the plays of Shakespeare and the poetry of Alexander Pope; the newcomer's eventual name will still need formal approval from the International Astronomical Union.",
+        "neden_elendi": "Cevabin kendisi bir ozel ad ve dunya bilgisi: gok cismi adlarini onaylayan kurumun Uluslararasi Astronomi Birligi olmasi astronominin en cok bilinen kurumsal gercegi; model uc turda da adin tamamini yazdi (3/3 PUAN). Kutunun kalan icerigi (Shakespeare ve Pope gelenegi) degistirilse bile 'onaylayan kurum' sorusunun tek cevabi ayni kalir. E6 onerisi: E/2'nin gelenek yarisi - adlarin mitolojiden degil oyun ve siirden secilmesi.",
+        "ne_degisti": "Eski kutu E/2'ye capaliydi ve cevap bir ozel ad ve dunya bilgisiydi (gok cismi adlarini onaylayan kurum). Ayni cumlenin oteki yarisi (Shakespeare ve Pope gelenegi) da ayni olcude taniniyor, o yuzden E/2 tumuyle birakildi ve akis semasinin son adimi adlandirmadan cikarildi; sema basligi da buna gore degistirildi. Kanit H/2'ye, ekip liderinin degerlendirmesine tasindi."
+      }
     }
   ]
 }

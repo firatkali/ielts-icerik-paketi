@@ -13,55 +13,75 @@
   "word_limit": "NO MORE THAN TWO WORDS",
   "word_bank": null,
   "visual": null,
-  "stem_block": "Passage A10 — What Kind of Office Actually Works?\n\nOnce all four layouts had been tried, two of them stood out. Both the zoned open-plan room and the team office beat the plain open-plan baseline on how content the staff felt and on how productive they believed themselves to be, while the activity-based arrangement, for all its (1) ........ in current office fashion, finished below the baseline on both counts. The same two layouts also came top for flow, the mental state in which a person is completely (2) ........ in the task at hand, which points to partial enclosure as an aid to lasting concentration. The sensors hinted at a reason: in the plain open-plan room, noise crossed the recommended (3) ........ far more often than in the other three rooms. Not everything shifted with the furniture, though. What the teams actually produced barely moved, which the authors read as a sign that seasoned (4) ........ using familiar tools are neither slowed nor hurried by a change of room, however differently that room makes them feel.\n\nPassage A11 — Why a Walk in a Snowy Forest Calms the Mind\n\nNature is widely believed to relieve stress, but almost all the proof comes from woodland that is green and (5) ........ , visited in the warmer months, which leaves open what happens where winter fills half the year. To find out, a small group of Finnish students each spent quiet time both among snow-covered trees and beside campus buildings, in an order-balanced (6) ........ design. The wood lowered five of the six negative moods on the main scale, though not the sixth; the strongest result of the whole study came on the measure of how mentally refreshing a place feels, which rose (7) ........ once the fifteen minutes among the trees were over. The buildings produced the opposite picture, with negative moods up, vitality down and refreshment roughly halved, so that even a quiet, traffic-free view of a campus proved mildly (8) ........ beside a spell in the snow.\n\nPassage G05 — What Ends Up in the Rubbish: A Household Food Waste Study\n\nBecause families are poor judges of their own rubbish, the team gathered what each home actually binned on eight days in a row and put it on (9) ........ precise to within two grams. Drinks were handled separately: instead of being weighed by the team, everything poured away was entered by the household itself in a seven-day (10) ........ , type and quantity alike. Across the two districts the yearly figure came to 77 kilograms a head, of which just over a third could still have been eaten; the rest was the sort of material any kitchen produces, such as skins, bones and (11) ........ . The sharpest contrast was between town and country: city households threw out almost (12) ........ the weight recorded in the rural sub-district, and a larger share of what they discarded was still fit to eat, a difference the researchers tied partly to the gap in what the two groups earned and spent.\n\nPassage G06 — Why Volunteers Tend to Report Better Health\n\nThe evidence came from a Europe-wide survey of nearly 43,000 people in 29 countries. Volunteering was reduced to a plain yes or no, while each respondent placed their own health somewhere on a (13) ........ scale whose ends were labelled 'very bad' and 'very good'. Those who gave their time rated themselves healthier than those who did not, and the gap survived adjustment for background differences; the team defends this apparently soft measure by pointing out that it has been shown again and again to forecast later illness and (14) ........ . How common volunteering was varied hugely from one country to the next, and volunteers as a group tended to be men, to have stayed longer in education and to be more religious, while they were less often (15) ........ or migrants from elsewhere.",
+  "stem_block": "Passage A10 — What Kind of Office Actually Works?\n\nOnce all four layouts had been tried, two of them stood out. Both the zoned open-plan room and the team office beat the plain open-plan baseline on how content the staff felt and on how productive they believed themselves to be, while the activity-based arrangement finished below the baseline on both counts, with scores about (1) ........ per cent lower. The same two layouts also came top for flow, the zoned room scoring (2) ........ per cent above the plain baseline and the team office 12 per cent above it, which points to partial enclosure as an aid to lasting concentration. The sensors hinted at a reason: in the plain open-plan room, noise crossed the recommended (3) ........ far more often than in the other three rooms. Not everything shifted with the furniture, though. What the teams actually produced barely moved, which the authors read as a sign that seasoned (4) ........ using familiar tools are neither slowed nor hurried by a change of room, however differently that room makes them feel.\n\nPassage A11 — Why a Walk in a Snowy Forest Calms the Mind\n\nNature is widely believed to relieve stress, but almost all the proof comes from woodland that is green and (5) ........ , visited in the warmer months, which leaves open what happens where winter fills half the year. To find out, a small group of Finnish students each spent quiet time both among snow-covered trees and beside campus buildings, in an order-balanced (6) ........ design. The wood lowered five of the six negative moods on the main scale, though not the sixth; the strongest result of the whole study came on the measure of how mentally refreshing a place feels, which rose (7) ........ once the fifteen minutes among the trees were over. The buildings produced the opposite picture, with negative moods up, vitality down and refreshment roughly halved, so that even a quiet, traffic-free view of a campus proved mildly (8) ........ beside a spell in the snow.\n\nPassage G05 — What Ends Up in the Rubbish: A Household Food Waste Study\n\nBecause families are poor judges of their own rubbish, the team followed 215 households for a year, (9) ........ of them in the urban sub-district of Cibinong, and weighed what each home actually put in the bin. Drinks were handled separately: instead of being weighed by the team, everything poured away was entered by the household itself in a seven-day (10) ........ , type and quantity alike. Across the two districts the yearly figure came to 77 kilograms a head, of which just over a third could still have been eaten; the rest was the sort of material any kitchen produces, such as skins, bones and (11) ........ . The sharpest contrast was between town and country: city households threw out almost (12) ........ the weight recorded in the rural sub-district, and a larger share of what they discarded was still fit to eat, a difference the researchers tied partly to the gap in what the two groups earned and spent.\n\nPassage G06 — Why Volunteers Tend to Report Better Health\n\nThe evidence came from a Europe-wide survey of nearly 43,000 people in 29 countries. Volunteering was reduced to a plain yes or no, while each respondent placed their own health somewhere on a (13) ........ scale whose ends were labelled 'very bad' and 'very good'. Those who gave their time rated themselves healthier than those who did not, and the gap survived adjustment for background differences; the team defends this apparently soft measure by pointing out that it has been shown again and again to forecast later illness and (14) ........ . How common volunteering was varied hugely from one country to the next, and volunteers as a group tended to be men, to have stayed longer in education and to be more religious, while they were less often (15) ........ or migrants from elsewhere.",
   "items": [
     {
       "number": 1,
       "passage_id": "A10",
-      "prompt": "Both the zoned open-plan room and the team office beat the plain open-plan baseline on how content the staff felt and on how productive they believed themselves to be, while the activity-based arrangement, for all its (1) ........ in current office fashion, finished below the baseline on both counts.",
+      "prompt": "Both the zoned open-plan room and the team office beat the plain open-plan baseline on how content the staff felt and on how productive they believed themselves to be, while the activity-based arrangement finished below the baseline on both counts, with scores about (1) ........ per cent lower.",
       "answer": [
-        "popularity"
+        "14"
       ],
       "accepted_variants": [
-        "popularity"
+        "14"
       ],
       "evidence": "The activity-based design, despite its popularity in contemporary office trends, performed worse than the open-plan baseline on both measures, with satisfaction and productivity scores roughly 14 per cent lower.",
       "evidence_locator": {
         "paragraph": "D",
         "sentence": 3
       },
-      "explanation": "Paragraph D says that despite its popularity in current office fashion, the activity-based design fell below the baseline on both measures; the gap corresponds to this popularity, so the answer is 'popularity'.",
+      "explanation": "Paragraph D says the activity-based design scored roughly 14 per cent lower than the open-plan baseline on both satisfaction and productivity; so the answer is '14 per cent'.",
       "difficulty": "medium",
-      "status": "rejected",
-      "blind_solvable": true,
-      "blind_basis": "logic",
-      "flag_reason": "Bosluk 'for all its ___ in current office fashion' kalibinin ucunda; 'moda icinde populerlik' en dogal eslesme oldugu icin parcaya bakmadan da 'popularity' tahmin edilebiliyor.",
-      "flag_mechanism": "esdizim_kilidi",
-      "reject_reason": "Sizinti cercevede degil, boslugun hedefinde. Ozet cumlesi kanit cumlesinin (D/3) tasidigi 'moda olmasina ragmen kotu sonuc verdi' karsitligini aktarmak zorunda; bu karsitligi tasiyan her cumlede boslugun tek dogal sozcugu 'popularity' oluyor. Cerceveyi degistirmek boslugu acmiyor, boslugu baska bir yere tasimak ise cevabi degistirmek demek. E6 bu yuvayi ayni cumledeki sayisal ayrintiya (yuzde 14'luk dusus) capalamali."
+      "status": "verified",
+      "blind_solvable": null,
+      "blind_basis": null,
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-08",
+        "kaynak_prompt": "prompts/OPUS5-E6-yeniden-uretim.md (6/7)",
+        "uretilen_grup": "Tamamlama ailesi yuvalari",
+        "eski_prompt": "Both the zoned open-plan room and the team office beat the plain open-plan baseline on how content the staff felt and on how productive they believed themselves to be, while the activity-based arrangement, for all its (1) ........ in current office fashion, finished below the baseline on both counts.",
+        "eski_cevap": [
+          "popularity"
+        ],
+        "eski_kanit_cumlesi": "The activity-based design, despite its popularity in contemporary office trends, performed worse than the open-plan baseline on both measures, with satisfaction and productivity scores roughly 14 per cent lower.",
+        "neden_elendi": "Sizinti cercevede degil, boslugun hedefinde. Ozet cumlesi kanit cumlesinin (D/3) tasidigi 'moda olmasina ragmen kotu sonuc verdi' karsitligini aktarmak zorunda; bu karsitligi tasiyan her cumlede boslugun tek dogal sozcugu 'popularity' oluyor. Cerceveyi degistirmek boslugu acmiyor, boslugu baska bir yere tasimak ise cevabi degistirmek demek. E6 bu yuvayi ayni cumledeki sayisal ayrintiya (yuzde 14'luk dusus) capalamali.",
+        "ne_degisti": "Eski bosluk ayni cumleye capaliydi ama hedefi 'moda olmasina ragmen kotu sonuc verdi' karsitligiydi ve o karsitligi tasiyan her cumlede boslugun tek dogal sozcugu 'popularity' oluyordu. E5'in kendi onerisi uyarinca bosluk ayni cumlenin OLCULEN degerine tasindi ve karsitlik ibaresi ('for all its ... in current office fashion') cerceveden tumuyle cikarildi. Yuzde 14'luk dusus calismanin kendi sayisi; disaridan tahmin edilemez."
+      }
     },
     {
       "number": 2,
       "passage_id": "A10",
-      "prompt": "The same two layouts also came top for flow, the mental state in which a person is completely (2) ........ in the task at hand, which points to partial enclosure as an aid to lasting concentration.",
+      "prompt": "The same two layouts also came top for flow, the zoned room scoring (2) ........ per cent above the plain baseline and the team office 12 per cent above it, which points to partial enclosure as an aid to lasting concentration.",
       "answer": [
-        "absorbed"
+        "15"
       ],
       "accepted_variants": [
-        "absorbed"
+        "15"
       ],
-      "evidence": "A similar pattern emerged for flow, the psychological state of being deeply absorbed and focused on a task.",
+      "evidence": "Employees in team offices reported flow scores 12 per cent higher than those in the open-plan condition, and employees in the zoned open-plan design reported flow scores 15 per cent higher, suggesting that both partly enclosed layouts allowed for more sustained concentration than either the fully open or the fully unassigned arrangement.",
       "evidence_locator": {
         "paragraph": "E",
-        "sentence": 1
+        "sentence": 2
       },
-      "explanation": "Paragraph E defines flow as the psychological state of being deeply absorbed and focused on a task; the gap needs the word 'absorbed' from this definition, so the answer is 'absorbed'.",
+      "explanation": "Paragraph E says flow scores were 12 per cent higher in team offices and 15 per cent higher in the zoned open-plan design; since the gap concerns the zoned room, the answer is '15'.",
       "difficulty": "medium",
-      "status": "rejected",
-      "blind_solvable": true,
-      "blind_basis": "general_knowledge",
-      "flag_reason": "Cevap 'absorbed', 'flow' kavraminin psikolojideki standart taniminin ('bir ise tamamen dalmis olma hali') genel bilgi olmasi sayesinde parcaya bakmadan da tahmin edilebiliyor.",
-      "flag_mechanism": "genel_kultur",
-      "reject_reason": "Cevabin kendisi, ozetin verdigi tanimin standart sozcugu: 'flow' kavraminin psikolojideki ders kitabi tanimi zaten 'bir ise tamamen dalmis (absorbed) olma hali'dir; model uc turda da 'absorbed' yazdi (3/3 PUAN). Tanimi ozetten cikarmak boslugu kapatmiyor, bosalttiyor: geriye kalan 'a person is completely ___' cercevesine absorbed, immersed, engrossed, focused esit derecede uyar ve soru cok cevapli hale gelir. E6 onerisi: E paragrafinin flow icin verdigi sayisal fark ya da kismi bolmenin rolu."
+      "status": "verified",
+      "blind_solvable": null,
+      "blind_basis": null,
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-08",
+        "kaynak_prompt": "prompts/OPUS5-E6-yeniden-uretim.md (6/7)",
+        "uretilen_grup": "Tamamlama ailesi yuvalari",
+        "eski_prompt": "The same two layouts also came top for flow, the mental state in which a person is completely (2) ........ in the task at hand, which points to partial enclosure as an aid to lasting concentration.",
+        "eski_cevap": [
+          "absorbed"
+        ],
+        "eski_kanit_cumlesi": "A similar pattern emerged for flow, the psychological state of being deeply absorbed and focused on a task.",
+        "neden_elendi": "Cevabin kendisi, ozetin verdigi tanimin standart sozcugu: 'flow' kavraminin psikolojideki ders kitabi tanimi zaten 'bir ise tamamen dalmis (absorbed) olma hali'dir; model uc turda da 'absorbed' yazdi (3/3 PUAN). Tanimi ozetten cikarmak boslugu kapatmiyor, bosalttiyor: geriye kalan 'a person is completely ___' cercevesine absorbed, immersed, engrossed, focused esit derecede uyar ve soru cok cevapli hale gelir. E6 onerisi: E paragrafinin flow icin verdigi sayisal fark ya da kismi bolmenin rolu.",
+        "ne_degisti": "Eski bosluk E/1'e capaliydi ve cevap ('absorbed') ozetin verdigi tanimin standart sozcuguydu; tanimi cikarmak da boslugu cok cevapli yapiyordu. Yeni bosluk E/1'e hic degmiyor: kanit E/2'ye, iki duzenin flow farkina tasindi ve 'flow' teriminin tanimi ozetten tumuyle kaldirildi. Iki yuzdeden biri cerceve icinde verildigi icin soru olculebilir kaliyor, ama istenen sayi disaridan turetilemiyor."
+      }
     },
     {
       "number": 3,
@@ -226,27 +246,36 @@
     {
       "number": 9,
       "passage_id": "G05",
-      "prompt": "Because families are poor judges of their own rubbish, the team gathered what each home actually binned on eight days in a row and put it on (9) ........ precise to within two grams.",
+      "prompt": "Because families are poor judges of their own rubbish, the team followed 215 households for a year, (9) ........ of them in the urban sub-district of Cibinong, and weighed what each home actually put in the bin.",
       "answer": [
-        "digital scales"
+        "150"
       ],
       "accepted_variants": [
-        "digital scales",
-        "scales"
+        "150"
       ],
-      "evidence": "Rather than relying on households to estimate their own waste, which tends to produce unreliable figures, the research team physically collected, sorted and weighed the solid food waste from each home's rubbish over eight consecutive days, using digital scales accurate to two grams.",
+      "evidence": "Over the course of a year, researchers followed 215 households, 150 in the urban sub-district of Cibinong and 65 in the rural sub-district of Sukajaya, to find out not just how much food they discarded but what kind, and why.",
       "evidence_locator": {
-        "paragraph": "B",
-        "sentence": 1
+        "paragraph": "A",
+        "sentence": 3
       },
-      "explanation": "Paragraph B says the team weighed the solid food waste collected over eight days using digital scales accurate to two grams; since the gap asks what the weighing was done with, the answer is 'digital scales'.",
+      "explanation": "Paragraph A says the researchers followed 215 households, 150 of them in the urban sub-district of Cibinong; so the answer is '150'.",
       "difficulty": "easy",
-      "status": "rejected",
-      "blind_solvable": true,
-      "blind_basis": "general_knowledge",
-      "flag_reason": "Cevap 'digital scales', 'iki gram hassasiyetli' bir olcum aracinin gunumuzde dijital terazi olmasi genel bilgisiyle (analog teraziler bu hassasiyeti vermez) parcaya bakmadan da tahmin edilebiliyor.",
-      "flag_mechanism": "genel_kultur",
-      "reject_reason": "🔴 Sizinti kabul listesinin kendisinde ve o korunan bir alan: accepted_variants 'scales' tek basina kabul ediyor, model de uc turda 'scales' yazdi (3/3 PUAN). Cerceveden 'precise to within two grams' ibaresini kaldirmak 'digital' niteleyicisinin kaynagini kapatir ama cop tartilan seyin terazi olmasi zaten kacinilmaz oldugu icin 'scales' yine puan alir. Kabul listesini daraltmak talimatin korunan alan kuralina takiliyor, dolayisiyla mekanik duzeltme yolu yok. E6 onerisi: B/1'in ayirt edici ayrintisi - sekiz ardisik gun ya da atigin ayrica tasnif edilmesi."
+      "status": "verified",
+      "blind_solvable": null,
+      "blind_basis": null,
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-08",
+        "kaynak_prompt": "prompts/OPUS5-E6-yeniden-uretim.md (6/7)",
+        "uretilen_grup": "Tamamlama ailesi yuvalari",
+        "eski_prompt": "Because families are poor judges of their own rubbish, the team gathered what each home actually binned on eight days in a row and put it on (9) ........ precise to within two grams.",
+        "eski_cevap": [
+          "digital scales"
+        ],
+        "eski_kanit_cumlesi": "Rather than relying on households to estimate their own waste, which tends to produce unreliable figures, the research team physically collected, sorted and weighed the solid food waste from each home's rubbish over eight consecutive days, using digital scales accurate to two grams.",
+        "neden_elendi": "🔴 Sizinti kabul listesinin kendisinde ve o korunan bir alan: accepted_variants 'scales' tek basina kabul ediyor, model de uc turda 'scales' yazdi (3/3 PUAN). Cerceveden 'precise to within two grams' ibaresini kaldirmak 'digital' niteleyicisinin kaynagini kapatir ama cop tartilan seyin terazi olmasi zaten kacinilmaz oldugu icin 'scales' yine puan alir. Kabul listesini daraltmak talimatin korunan alan kuralina takiliyor, dolayisiyla mekanik duzeltme yolu yok. E6 onerisi: B/1'in ayirt edici ayrintisi - sekiz ardisik gun ya da atigin ayrica tasnif edilmesi.",
+        "ne_degisti": "Eski bosluk B/1'e capaliydi ve sizinti kabul listesinin kendisindeydi: 'scales' tek basina kabul ediliyordu ve cop tartilan seyin terazi olmasi kacinilmazdi. Yeni bosluk B/1'e hic degmiyor: kanit A/3'e, orneklemin kentsel ayagina tasindi. Toplam (215) cercevede verildigi icin soru olculebilir, ama kentsel pay disaridan turetilemez; kirsal sayi (65) bilerek anilmadi ki cikarma islemiyle bulunmasin."
+      }
     },
     {
       "number": 10,

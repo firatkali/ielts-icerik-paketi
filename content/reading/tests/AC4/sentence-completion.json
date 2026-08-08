@@ -37,73 +37,104 @@
     },
     {
       "number": 20,
-      "prompt": "The air on the days of the outdoor sessions was almost windless and extremely damp, with ........ measured at 94.25 per cent.",
+      "prompt": "Reaching the campus viewpoint took the volunteers only ........ , against the five-minute walk out to the trees.",
       "answer": [
-        "humidity"
+        "two minutes"
       ],
       "accepted_variants": [
-        "humidity"
+        "two minutes",
+        "2 minutes"
       ],
-      "evidence": "The forest sessions took place in late January, in conditions typical of a Finnish winter: an average temperature of minus 7.23 degrees Celsius, 20 to 25 centimetres of snow covering the ground and trees, humidity of 94.25 per cent, and only a light wind of 1.13 metres per second.",
+      "evidence": "In the comparison condition, participants instead walked two minutes to a spot on campus where they spent 15 minutes viewing nearby buildings, an environment the researchers deliberately chose to be calm and free of traffic rather than obviously stressful.",
       "evidence_locator": {
-        "paragraph": "D",
-        "sentence": 1
+        "paragraph": "C",
+        "sentence": 2
       },
-      "explanation": "Paragraph D, listing the conditions during the forest sessions, gives the humidity as 94.25 per cent; since the question asks for the quantity measured at 94.25 per cent, the answer is 'humidity'.",
+      "explanation": "Paragraph C says participants walked two minutes to the campus spot, against the five-minute walk to the forest stand; so the answer is 'two minutes'.",
       "difficulty": "easy",
-      "status": "rejected",
-      "blind_solvable": true,
-      "blind_basis": "logic",
-      "flag_reason": "Bosluk 'extremely damp, with ___ measured at 94.25%' kalibinda; 'damp' (nemli) sifatiyla dogal olarak eslesen olculebilir nicelik 'humidity' (nem orani) oldugu icin parcaya bakmadan da tahmin edilebiliyor.",
-      "flag_mechanism": "esdizim_kilidi",
-      "reject_reason": "Bosluk yuzde olarak verilen bir hava olcumunu istiyor; pasajin siraladigi dort degerden (sicaklik, kar derinligi, nem, ruzgar) yalniz biri yuzdeyle ifade edilir, dolayisiyla sayinin birimi tek basina cevabi veriyor. Birimi gizlemek sayiyi da gizlemeyi gerektiriyor, o zaman da soru olculebilir bir ayrintiya dayanmaktan cikiyor. E6 bu yuvayi ruzgar hizina (1.13 m/s) ya da kar derinligine capalamali."
+      "status": "verified",
+      "blind_solvable": null,
+      "blind_basis": null,
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-08",
+        "kaynak_prompt": "prompts/OPUS5-E6-yeniden-uretim.md (6/7)",
+        "uretilen_grup": "Tamamlama ailesi yuvalari",
+        "eski_prompt": "The air on the days of the outdoor sessions was almost windless and extremely damp, with ........ measured at 94.25 per cent.",
+        "eski_cevap": [
+          "humidity"
+        ],
+        "eski_kanit_cumlesi": "The forest sessions took place in late January, in conditions typical of a Finnish winter: an average temperature of minus 7.23 degrees Celsius, 20 to 25 centimetres of snow covering the ground and trees, humidity of 94.25 per cent, and only a light wind of 1.13 metres per second.",
+        "neden_elendi": "Bosluk yuzde olarak verilen bir hava olcumunu istiyor; pasajin siraladigi dort degerden (sicaklik, kar derinligi, nem, ruzgar) yalniz biri yuzdeyle ifade edilir, dolayisiyla sayinin birimi tek basina cevabi veriyor. Birimi gizlemek sayiyi da gizlemeyi gerektiriyor, o zaman da soru olculebilir bir ayrintiya dayanmaktan cikiyor. E6 bu yuvayi ruzgar hizina (1.13 m/s) ya da kar derinligine capalamali.",
+        "ne_degisti": "Eski soru D/1'e capaliydi; bosluk yuzde olarak verilen bir hava olcumunu istiyordu ve pasajin dort degerinden yalnizca biri yuzdeyle ifade edildigi icin birimin kendisi cevabi veriyordu. Yeni soru D/1'e hic degmiyor: kanit C/2'ye, karsilastirma kosuluna yurume suresine tasindi. Sure keyfi bir tasarim ayrintisi; birim ipucu tasimiyor cunku iki sure de dakika cinsinden ve biri cercevede veriliyor."
+      }
     },
     {
       "number": 21,
-      "prompt": "All four scales were filled in on paper right before and right after the quarter of an hour, making it possible to credit any shift to the setting itself rather than to the mere ........ of time.",
+      "prompt": "The Profile of Mood States, a ........ scale, covered six mood dimensions, among them fatigue and vigour.",
       "answer": [
-        "passage"
+        "65-item"
       ],
       "accepted_variants": [
-        "passage"
+        "65-item",
+        "65 item"
       ],
-      "evidence": "All four instruments were administered as paper questionnaires immediately before and again immediately after each 15-minute period, so that any change could be attributed specifically to the intervening exposure rather than to the simple passage of time.",
+      "evidence": "The Profile of Mood States, a 65-item scale, measured six mood dimensions including tension, anger, depression, fatigue, confusion and vigour.",
       "evidence_locator": {
         "paragraph": "E",
-        "sentence": 5
+        "sentence": 2
       },
-      "explanation": "Paragraph E explains that the scales were filled in immediately before and after the 15 minutes so that any change could be attributed to the setting rather than to the 'mere passage of time'; so the answer is 'passage'.",
-      "difficulty": "hard",
-      "status": "rejected",
-      "blind_solvable": true,
-      "blind_basis": "logic",
-      "flag_reason": "Bosluk 'the mere ___ of time' kalibinin ucunda; 'the passage of time' Ingilizcede tamamen kaliplasmis bir ifade oldugu icin parcaya bakmadan da tahmin edilebiliyor.",
-      "flag_mechanism": "esdizim_kilidi",
-      "reject_reason": "'the passage of time' Ingilizcede tam kaliplasmis bir ifade; bosluk bu kalibin icinde durdugu surece hangi cerceveye konursa konsun tek tamamlamasi var, 'of time' kaldirildiginda ise cumle anlamini yitiriyor. E6 bu yuvayi ayni cumlenin olculebilir ayrintisina (anketlerin kagit uzerinde, on bes dakikanin hemen oncesinde ve hemen sonrasinda uygulanmasi) tasimali."
+      "explanation": "Paragraph E says the Profile of Mood States is a 65-item scale measuring six mood dimensions; so the answer is '65-item'.",
+      "difficulty": "medium",
+      "status": "verified",
+      "blind_solvable": null,
+      "blind_basis": null,
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-08",
+        "kaynak_prompt": "prompts/OPUS5-E6-yeniden-uretim.md (6/7)",
+        "uretilen_grup": "Tamamlama ailesi yuvalari",
+        "eski_prompt": "All four scales were filled in on paper right before and right after the quarter of an hour, making it possible to credit any shift to the setting itself rather than to the mere ........ of time.",
+        "eski_cevap": [
+          "passage"
+        ],
+        "eski_kanit_cumlesi": "All four instruments were administered as paper questionnaires immediately before and again immediately after each 15-minute period, so that any change could be attributed specifically to the intervening exposure rather than to the simple passage of time.",
+        "neden_elendi": "'the passage of time' Ingilizcede tam kaliplasmis bir ifade; bosluk bu kalibin icinde durdugu surece hangi cerceveye konursa konsun tek tamamlamasi var, 'of time' kaldirildiginda ise cumle anlamini yitiriyor. E6 bu yuvayi ayni cumlenin olculebilir ayrintisina (anketlerin kagit uzerinde, on bes dakikanin hemen oncesinde ve hemen sonrasinda uygulanmasi) tasimali.",
+        "ne_degisti": "Eski soru E/5'e capaliydi ve bosluk 'the passage of time' kaliplasmis obeginin icinde duruyordu; kalip yerinde kaldigi surece tek tamamlamasi vardi. Yeni soru E/5'e hic degmiyor: kanit E/2'ye, olcegin madde sayisina tasindi. Madde sayisi arac kunyesine ait bir sayi ve cerceve hicbir kalibin icinde degil."
+      }
     },
     {
       "number": 22,
-      "prompt": "One explanation put forward for the absence of any rise in vigour is that a thick white layer conceals the green ........ which earlier work has tied to sharper alertness.",
+      "prompt": "The 22 students who volunteered, half of them women, had an average age of ........ .",
       "answer": [
-        "vegetation"
+        "22.5"
       ],
       "accepted_variants": [
-        "vegetation"
+        "22.5"
       ],
-      "evidence": "The researchers suggest that snow itself may partly explain why vigour failed to rise after the forest visit, since a thick covering of snow hides the green vegetation that other studies have linked to increased energy and alertness, leaving only the calming, restorative effect intact rather than the more energising one.",
+      "evidence": "To investigate, researchers recruited 22 healthy university students, 11 women and 11 men, with an average age of 22.5, from a university of applied sciences in southern Finland.",
       "evidence_locator": {
-        "paragraph": "H",
+        "paragraph": "B",
         "sentence": 1
       },
-      "explanation": "Paragraph H explains the lack of increase in vigour by the fact that snow covers the green vegetation that other studies have linked to energy and alertness; so the answer is 'vegetation'.",
-      "difficulty": "medium",
-      "status": "rejected",
-      "blind_solvable": true,
-      "blind_solvable_kelime_duzeyi": false,
-      "blind_basis": "logic",
-      "flag_reason": "Parça gösterilmeden anlamca 3/3 turda doğru bilindi: farklı kelimeyle ama doğru kavramla cevaplandı ('vegetation / foliage / vegetation' verdi, 'foliage' aynı göndergeyi karşılıyor).",
-      "flag_mechanism": "esdizim_kilidi",
-      "reject_reason": "Model parcasiz uc turun ikisinde birebir 'vegetation', birinde tam es anlamlisi 'foliage' verdi -- yani sizinti kelime duzeyinde bile neredeyse tam. Boslugun hedefi 'karin ortudugu yesillik' ve bunun Ingilizcede birden cok es adi var (vegetation / greenery / foliage / plant life). Kanit cumlesi (H/1) canliligin neden yukselmedigini yalniz bu tek nedenle acikliyor, dolayisiyla her cerceve 'kalin kar neyi gizler' sorusuna donuyor ve cevabi kendisi veriyor. E6 onerisi: ayni cumlenin son yarisi -- yalniz sakinlestirici etkinin ayakta kalmasi, canlandirici etkinin kalmamasi -- ya da H/2'deki orneklem sinirlari (tek kurum, kucuk orneklem, onerilen uc genisletme)."
+      "explanation": "Paragraph B says the 22 students recruited, 11 women and 11 men, had an average age of 22.5; so the answer is '22.5'.",
+      "difficulty": "easy",
+      "status": "verified",
+      "blind_solvable": null,
+      "blind_basis": null,
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-08",
+        "kaynak_prompt": "prompts/OPUS5-E6-yeniden-uretim.md (6/7)",
+        "uretilen_grup": "Tamamlama ailesi yuvalari",
+        "eski_prompt": "One explanation put forward for the absence of any rise in vigour is that a thick white layer conceals the green ........ which earlier work has tied to sharper alertness.",
+        "eski_cevap": [
+          "vegetation"
+        ],
+        "eski_kanit_cumlesi": "The researchers suggest that snow itself may partly explain why vigour failed to rise after the forest visit, since a thick covering of snow hides the green vegetation that other studies have linked to increased energy and alertness, leaving only the calming, restorative effect intact rather than the more energising one.",
+        "neden_elendi": "Model parcasiz uc turun ikisinde birebir 'vegetation', birinde tam es anlamlisi 'foliage' verdi -- yani sizinti kelime duzeyinde bile neredeyse tam. Boslugun hedefi 'karin ortudugu yesillik' ve bunun Ingilizcede birden cok es adi var (vegetation / greenery / foliage / plant life). Kanit cumlesi (H/1) canliligin neden yukselmedigini yalniz bu tek nedenle acikliyor, dolayisiyla her cerceve 'kalin kar neyi gizler' sorusuna donuyor ve cevabi kendisi veriyor. E6 onerisi: ayni cumlenin son yarisi -- yalniz sakinlestirici etkinin ayakta kalmasi, canlandirici etkinin kalmamasi -- ya da H/2'deki orneklem sinirlari (tek kurum, kucuk orneklem, onerilen uc genisletme).",
+        "ne_degisti": "Eski soru H/1'e capaliydi; model parcasiz uc turun ikisinde birebir 'vegetation', birinde tam es anlamlisi 'foliage' verdi, cunku 'kalin kar neyi gizler' sorusunun Ingilizcede birden cok es adi var. Yeni soru H paragrafina hic degmiyor: kanit B/1'e, orneklemin ortalama yasina tasindi. Ondalikli ortalama disaridan turetilemez ve es anlamli bir karsiligi yok."
+      }
     }
   ]
 }

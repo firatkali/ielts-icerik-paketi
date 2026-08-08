@@ -13,7 +13,7 @@
   "word_limit": "NO MORE THAN THREE WORDS AND/OR A NUMBER",
   "word_bank": null,
   "visual": null,
-  "stem_block": "Notes for new employees\n\nShift pattern\n- The pattern changes every four weeks; the new one appears on the staff (15) ........ by the Friday before at the latest\n\nBreaks\n- Within a team, breaks are (16) ........ ; the rule exists to protect the production lines\n\nRecording hours\n- Coming in and going out, lunch included, is registered with the (17) ........ by the staff entrance\n\nExchanging a shift\n- Ask the supervisor in writing two days beforehand, on a (18) ........ picked up at the staff office\n\nAnnual leave\n- Someone working full time receives (19) ........ of paid leave a year, with public holidays counted inside that total\n- Time off is booked on the online (20) ........ , a fortnight ahead as a minimum",
+  "stem_block": "Notes for new employees\n\nShift pattern\n- The pattern changes every four weeks; the new one appears on the staff (15) ........ by the Friday before at the latest\n\nBreaks\n- Within a team, breaks are (16) ........ ; the rule exists to protect the production lines\n\nRecording hours\n- Coming in and going out, lunch included, is registered with the (17) ........ by the staff entrance\n\nExchanging a shift\n- Ask the supervisor in writing two days beforehand, on a (18) ........ picked up at the staff office\n- Both workers still have to meet their weekly hours, and a swap leaving under (19) ........ of rest between shifts is refused\n\nAnnual leave\n- Time off is booked on the online (20) ........ , a fortnight ahead as a minimum",
   "items": [
     {
       "number": 15,
@@ -128,28 +128,37 @@
     },
     {
       "number": 19,
-      "prompt": "Annual leave: Someone working full time receives (19) ........ of paid leave a year, with public holidays counted inside that total",
+      "prompt": "Exchanging a shift: Both workers still have to meet their weekly hours, and a swap leaving under (19) ........ of rest between shifts is refused",
       "answer": [
-        "28 days"
+        "eleven hours"
       ],
       "accepted_variants": [
-        "28 days",
-        "28"
+        "eleven hours",
+        "11 hours"
       ],
-      "evidence": "Full-time employees are entitled to 28 days of paid annual leave per year, including public holidays.",
+      "evidence": "Both employees remain responsible for meeting their required weekly hours, and swaps that would leave fewer than eleven hours' rest between shifts will not be approved.",
       "evidence_locator": {
-        "text": "B",
-        "paragraph": "A",
-        "sentence": 1
+        "paragraph": "D",
+        "sentence": 2
       },
-      "explanation": "Paragraph A of Text B says that full-time employees are entitled to 28 days of paid leave a year, including public holidays; so the answer is '28 days'.",
-      "difficulty": "easy",
-      "status": "rejected",
-      "blind_solvable": true,
-      "blind_basis": "general_knowledge",
-      "flag_reason": "Cevap '28 days', Birlesik Krallik'ta tam zamanli calisanlar icin yasal asgari yillik izin hakkinin (resmi tatiller dahil) 28 gun olmasi bilinen bir is hukuku gercegi; bu genel bilgiyle bosluk parcaya bakmadan da doldurulabiliyor.",
-      "flag_mechanism": "genel_kultur",
-      "reject_reason": "Cevabin kendisi hukukla sabitlenmis bir sayi: Birlesik Krallik'ta tam zamanli calisanin yasal asgari yillik izni resmi tatiller dahil 28 gundur ve not satiri bu kosulun ikisini de ('full time', 'public holidays counted inside that total') veriyor; model uc turda da '28 days' yazdi (3/3 PUAN). Kosullari cikarmak sayiyi bulunamaz yapar. E6 onerisi: B metni A/1 yerine izin talebinin iki hafta onceden yapilmasi kurali - ama o yuva 20'de dolu oldugu icin baska bir paragraf secilmeli."
+      "explanation": "Text A, paragraph D says swaps that would leave fewer than eleven hours' rest between shifts will not be approved; so the answer is 'eleven hours'.",
+      "difficulty": "medium",
+      "status": "verified",
+      "blind_solvable": null,
+      "blind_basis": null,
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-08",
+        "kaynak_prompt": "prompts/OPUS5-E6-yeniden-uretim.md (6/7)",
+        "uretilen_grup": "Tamamlama ailesi yuvalari",
+        "eski_prompt": "Annual leave: Someone working full time receives (19) ........ of paid leave a year, with public holidays counted inside that total",
+        "eski_cevap": [
+          "28 days"
+        ],
+        "eski_kanit_cumlesi": "Full-time employees are entitled to 28 days of paid annual leave per year, including public holidays.",
+        "neden_elendi": "Cevabin kendisi hukukla sabitlenmis bir sayi: Birlesik Krallik'ta tam zamanli calisanin yasal asgari yillik izni resmi tatiller dahil 28 gundur ve not satiri bu kosulun ikisini de ('full time', 'public holidays counted inside that total') veriyor; model uc turda da '28 days' yazdi (3/3 PUAN). Kosullari cikarmak sayiyi bulunamaz yapar. E6 onerisi: B metni A/1 yerine izin talebinin iki hafta onceden yapilmasi kurali - ama o yuva 20'de dolu oldugu icin baska bir paragraf secilmeli.",
+        "ne_degisti": "Eski satir B metni A/1'e capaliydi ve cevap ('28 days') hukukla sabitlenmis bir sayiydi; satir kosullarin ikisini birden verdigi icin sayi disaridan cikiyordu. Yeni satir o cumleye hic degmiyor: kanit A metni D/2'ye, vardiya degisimi kuralinin ikinci kosuluna tasindi ve satir 18. yuvanin dayandigi D/1'i tekrar etmiyor. Not bloguna yeni bir bosluk eklenmedi, var olan bolum bir satir genisletildi; bosluk sirasi 15-20 olarak korundu."
+      }
     },
     {
       "number": 20,

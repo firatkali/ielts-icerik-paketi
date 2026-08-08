@@ -61,50 +61,70 @@
     },
     {
       "number": 21,
-      "prompt": "A stretch of genetic material carried only by six-chromosome wheat, known as the (21) ........ , turned up in grains that shape alone had put down as einkorn and emmer.",
+      "prompt": "The markers designed for the work ran from about 106 to (21) ........ base pairs in length, short enough to pick up badly degraded fragments.",
       "answer": [
-        "D genome"
+        "243"
       ],
       "accepted_variants": [
-        "D genome"
+        "243"
       ],
-      "evidence": "From these samples the team recovered thirty-two DNA sequences in total, and among them were fragments containing the so-called D genome, a segment of genetic material found only in hexaploid wheat.",
+      "evidence": "The team focused on a gene responsible for a key wheat protein, designing several sets of short genetic markers, ranging from around 106 to 243 base pairs in length, specifically built to capture the small, degraded fragments of DNA that survive in seeds this old.",
       "evidence_locator": {
-        "paragraph": "E",
-        "sentence": 3
+        "paragraph": "D",
+        "sentence": 2
       },
-      "explanation": "Paragraph E names the genetic segment found only in six-chromosome-set (hexaploid) wheat as the 'D genome'; so the answer is 'D genome'.",
-      "difficulty": "hard",
-      "status": "rejected",
-      "blind_solvable": true,
-      "blind_basis": "general_knowledge",
-      "flag_reason": "Cevap 'D genome', alti kromozomlu (hexaploid) bugdaya ozgu genetik bolgenin bugday genetiginde yerlesik adi olan 'D genome' terimiyle bilinmesi sayesinde parcaya bakmadan da tahmin edilebiliyor.",
-      "flag_mechanism": "genel_kultur",
-      "reject_reason": "Cevabin kendisi yerlesik bir bugday genetigi terimi ve cumle onun tanimini veriyor: 'alti kromozomlu bugdaya ozgu genetik bolge' zaten D genome'un tanimidir; model uc turda da yazdi (3/3 PUAN). Tanim cikarilirsa hangi dizinin soruldugu belirsizlesir. Ayrica 3. calistirma ayni pasajda hexaploid terimini tasiyan practice-6'yi da ayni gerekceyle elemisti. E6 onerisi: E/3'un sayisal yarisi - toplam otuz iki DNA dizisi."
+      "explanation": "Paragraph D says the genetic markers ranged from around 106 to 243 base pairs in length; so the answer is '243'.",
+      "difficulty": "medium",
+      "status": "verified",
+      "blind_solvable": null,
+      "blind_basis": null,
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-08",
+        "kaynak_prompt": "prompts/OPUS5-E6-yeniden-uretim.md (6/7)",
+        "uretilen_grup": "Tamamlama ailesi yuvalari",
+        "eski_prompt": "A stretch of genetic material carried only by six-chromosome wheat, known as the (21) ........ , turned up in grains that shape alone had put down as einkorn and emmer.",
+        "eski_cevap": [
+          "D genome"
+        ],
+        "eski_kanit_cumlesi": "From these samples the team recovered thirty-two DNA sequences in total, and among them were fragments containing the so-called D genome, a segment of genetic material found only in hexaploid wheat.",
+        "neden_elendi": "Cevabin kendisi yerlesik bir bugday genetigi terimi ve cumle onun tanimini veriyor: 'alti kromozomlu bugdaya ozgu genetik bolge' zaten D genome'un tanimidir; model uc turda da yazdi (3/3 PUAN). Tanim cikarilirsa hangi dizinin soruldugu belirsizlesir. Ayrica 3. calistirma ayni pasajda hexaploid terimini tasiyan practice-6'yi da ayni gerekceyle elemisti. E6 onerisi: E/3'un sayisal yarisi - toplam otuz iki DNA dizisi.",
+        "ne_degisti": "Eski soru E/3'e capaliydi ve cevap yerlesik bir bugday genetigi terimiydi ('D genome'); cumle terimin tanimini veriyordu. Yeni soru E/3'e hic degmiyor: kanit D/2'ye, tasarlanan isaretcilerin uzunluk araligina tasindi. Ust sinir yalniz yontem bolumunden okunur."
+      }
     },
     {
       "number": 22,
-      "prompt": "By the usual account, the growing of einkorn began in the (22) ........ area in the south of Turkey.",
+      "prompt": "Of the seventeen distinct variants found at the first marker length, (22) ........ had never been recorded in any genetic database.",
       "answer": [
-        "Karacadağ"
+        "thirteen"
       ],
       "accepted_variants": [
-        "Karacadağ",
-        "Karacadag"
+        "thirteen",
+        "13"
       ],
-      "evidence": "Simple wheat domestication is usually traced to the Fertile Crescent around twelve thousand years ago, with the region of Karacadağ in southern Turkey generally credited as the birthplace of einkorn cultivation specifically.",
+      "evidence": "Of the sequences obtained at one marker length, twenty-two in all, seventeen distinct genetic variants emerged, thirteen of which had never before been recorded in any genetic database; a further ten sequences at a second marker length revealed five variants, two of them likewise entirely new.",
       "evidence_locator": {
-        "paragraph": "G",
-        "sentence": 2
+        "paragraph": "E",
+        "sentence": 4
       },
-      "explanation": "Paragraph G says that the region of Karacadağ in southern Turkey is generally credited as the birthplace of einkorn cultivation; so the answer is 'Karacadağ'.",
+      "explanation": "Paragraph E says seventeen distinct variants emerged at the first marker length, thirteen of which had never before been recorded in any genetic database; so the answer is 'thirteen'.",
       "difficulty": "medium",
-      "status": "rejected",
-      "blind_solvable": true,
-      "blind_basis": "general_knowledge",
-      "flag_reason": "Cevap 'Karacadag', einkorn bugdayinin ekiminin dogdugu yer olarak arkeolojide anilan, guney Turkiye'deki bilinen bir bolge adi; bu genel bilgiyle bosluk parcaya bakmadan da doldurulabiliyor.",
-      "flag_mechanism": "genel_kultur",
-      "reject_reason": "Cevabin kendisi bir ozel ad ve arkeoloji ders kitabi bilgisi: einkorn ekiminin dogdugu yer olarak Karacadag anilir; model uc turda da yazdi (3/3 PUAN). 3. calistirma ayni pasajda ayni ekseni tasiyan AC2-24 ve AC2-25'i zaten elemisti, dolayisiyla bu yuva o kararin devami. 🔴 E6 dikkat: G/2 artik bu testte ucuncu kez elenen bir yuvanin kanit cumlesi; bu cumleye yeni soru yazilmamali. E6 onerisi: G paragrafinin yayilma anlatisi yerine E/3'teki korunma karsilastirmasi."
+      "status": "verified",
+      "blind_solvable": null,
+      "blind_basis": null,
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-08",
+        "kaynak_prompt": "prompts/OPUS5-E6-yeniden-uretim.md (6/7)",
+        "uretilen_grup": "Tamamlama ailesi yuvalari",
+        "eski_prompt": "By the usual account, the growing of einkorn began in the (22) ........ area in the south of Turkey.",
+        "eski_cevap": [
+          "Karacadağ"
+        ],
+        "eski_kanit_cumlesi": "Simple wheat domestication is usually traced to the Fertile Crescent around twelve thousand years ago, with the region of Karacadağ in southern Turkey generally credited as the birthplace of einkorn cultivation specifically.",
+        "neden_elendi": "Cevabin kendisi bir ozel ad ve arkeoloji ders kitabi bilgisi: einkorn ekiminin dogdugu yer olarak Karacadag anilir; model uc turda da yazdi (3/3 PUAN). 3. calistirma ayni pasajda ayni ekseni tasiyan AC2-24 ve AC2-25'i zaten elemisti, dolayisiyla bu yuva o kararin devami. 🔴 E6 dikkat: G/2 artik bu testte ucuncu kez elenen bir yuvanin kanit cumlesi; bu cumleye yeni soru yazilmamali. E6 onerisi: G paragrafinin yayilma anlatisi yerine E/3'teki korunma karsilastirmasi.",
+        "ne_degisti": "Eski soru G/2'ye capaliydi ve cevap bir ozel ad ve arkeoloji ders kitabi bilgisiydi (Karacadag). E5 ayrica G/2'ye yeni soru yazilmamasini ozellikle istemisti. Yeni soru G paragrafina hic degmiyor: kanit E/4'e, veri tabaninda hic kayitli olmayan varyant sayisina tasindi. Sayim calismanin kendi sonucu."
+      }
     }
   ]
 }
