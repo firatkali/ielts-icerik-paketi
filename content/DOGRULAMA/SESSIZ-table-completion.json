@@ -1,0 +1,69 @@
+{
+  "tarih": "2026-08-08",
+  "paket": "table-completion",
+  "toplam_kalem": 29,
+  "toplam_numara": 29,
+  "uc_turda_bilinen_k1": [
+    "L2-table-completion-8",
+    "L5-table-completion-31",
+    "practice-table-completion-10",
+    "practice-table-completion-9"
+  ],
+  "uc_turda_bilinen_k3": [
+    "L2-table-completion-8",
+    "L5-table-completion-31",
+    "practice-table-completion-10",
+    "practice-table-completion-9"
+  ],
+  "tip_bazinda": {
+    "table_completion": {
+      "toplam": 29,
+      "numara": 29,
+      "k1": 4,
+      "k3": 4
+    }
+  },
+  "olcum_disi": [
+    "L2-table-completion-5"
+  ],
+  "dayanak_dagilimi": {
+    "number_guess": 30,
+    "guess": 9,
+    "logic": 9,
+    "cross_question": 6,
+    "general_knowledge": 15,
+    "name_guess": 9,
+    "frame_wording": 9
+  },
+  "tur_basina_dogru": {
+    "L2-table-completion-1": 0,
+    "L2-table-completion-10": 1,
+    "L2-table-completion-2": 0,
+    "L2-table-completion-3": 0,
+    "L2-table-completion-4": 0,
+    "L2-table-completion-6": 0,
+    "L2-table-completion-7": 0,
+    "L2-table-completion-8": 3,
+    "L2-table-completion-9": 1,
+    "L5-table-completion-31": 3,
+    "L5-table-completion-32": 2,
+    "L5-table-completion-33": 0,
+    "L5-table-completion-34": 0,
+    "L5-table-completion-35": 1,
+    "practice-table-completion-1": 1,
+    "practice-table-completion-10": 3,
+    "practice-table-completion-11": 2,
+    "practice-table-completion-12": 0,
+    "practice-table-completion-13": 0,
+    "practice-table-completion-14": 0,
+    "practice-table-completion-15": 0,
+    "practice-table-completion-2": 0,
+    "practice-table-completion-3": 1,
+    "practice-table-completion-4": 1,
+    "practice-table-completion-5": 0,
+    "practice-table-completion-6": 0,
+    "practice-table-completion-7": 0,
+    "practice-table-completion-8": 1,
+    "practice-table-completion-9": 3
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "tarih": "2026-08-08",
+  "paket": "form-completion",
+  "toplam_kalem": 40,
+  "toplam_numara": 40,
+  "uc_turda_bilinen_k1": [
+    "L1-form-completion-10",
+    "L3-form-completion-6",
+    "L3-form-completion-9",
+    "L5-form-completion-8",
+    "L6-form-completion-5"
+  ],
+  "uc_turda_bilinen_k3": [
+    "L1-form-completion-10",
+    "L3-form-completion-6",
+    "L3-form-completion-9",
+    "L5-form-completion-8",
+    "L6-form-completion-5"
+  ],
+  "tip_bazinda": {
+    "form_completion": {
+      "toplam": 40,
+      "numara": 40,
+      "k1": 5,
+      "k3": 5
+    }
+  },
+  "olcum_disi": [],
+  "dayanak_dagilimi": {
+    "name_guess": 15,
+    "guess": 15,
+    "number_guess": 51,
+    "general_knowledge": 12,
+    "frame_wording": 21,
+    "cross_question": 3,
+    "logic": 3
+  },
+  "tur_basina_dogru": {
+    "L1-form-completion-1": 0,
+    "L1-form-completion-10": 3,
+    "L1-form-completion-2": 0,
+    "L1-form-completion-3": 0,
+    "L1-form-completion-4": 0,
+    "L1-form-completion-5": 0,
+    "L1-form-completion-6": 1,
+    "L1-form-completion-7": 0,
+    "L1-form-completion-8": 0,
+    "L1-form-completion-9": 0,
+    "L3-form-completion-1": 0,
+    "L3-form-completion-10": 1,
+    "L3-form-completion-2": 0,
+    "L3-form-completion-3": 1,
+    "L3-form-completion-4": 1,
+    "L3-form-completion-5": 1,
+    "L3-form-completion-6": 3,
+    "L3-form-completion-7": 1,
+    "L3-form-completion-8": 1,
+    "L3-form-completion-9": 3,
+    "L5-form-completion-1": 0,
+    "L5-form-completion-10": 0,
+    "L5-form-completion-2": 0,
+    "L5-form-completion-3": 0,
+    "L5-form-completion-4": 0,
+    "L5-form-completion-5": 1,
+    "L5-form-completion-6": 0,
+    "L5-form-completion-7": 0,
+    "L5-form-completion-8": 3,
+    "L5-form-completion-9": 0,
+    "L6-form-completion-1": 0,
+    "L6-form-completion-10": 0,
+    "L6-form-completion-2": 0,
+    "L6-form-completion-3": 0,
+    "L6-form-completion-4": 0,
+    "L6-form-completion-5": 3,
+    "L6-form-completion-6": 1,
+    "L6-form-completion-7": 0,
+    "L6-form-completion-8": 1,
+    "L6-form-completion-9": 0
+  }
+}

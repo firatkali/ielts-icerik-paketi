@@ -2,6 +2,14 @@
 
 Kopyayi model okuyacak; once bu kontrol gecmeli. Cikti yalniz SAYI ve alan adi,
 cevap degeri basilmaz.
+
+🔴 "govdede birebir gecen cevap dizgisi: N" uyarisi bir ARASTIRMA isaretidir,
+agir hata degil: cevap sozcugu sorunun kendi govdesinde de geciyor olabilir
+(tablo basligi, not iskeletinin baska bir satiri) — kagida bakan aday da ayni
+seyi gorur. Uyarinin NEREDE oldugunu `tools/_e8_govde_cakismasi.py` soyler ve
+ayrintiyi bilerek dosyaya yazar: 3. calistirmada alan yolunu ekrana basmak,
+cevabi olcumu yapan model icin daraltti ve uc kalem olcum disi kalmak zorunda
+kaldi. Olcum turlarini yapan model bu ayrintiyi gormemeli.
 """
 
 import json

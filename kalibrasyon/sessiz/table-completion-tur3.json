@@ -1,0 +1,187 @@
+{
+  "paket": "table-completion",
+  "tur": 3,
+  "answers": [
+    {
+      "id": "practice-table-completion-1",
+      "answer": "200",
+      "basis": "number_guess",
+      "anlam": false
+    },
+    {
+      "id": "practice-table-completion-2",
+      "answer": "photograph",
+      "basis": "guess",
+      "anlam": false
+    },
+    {
+      "id": "practice-table-completion-3",
+      "answer": "28",
+      "basis": "number_guess",
+      "anlam": false
+    },
+    {
+      "id": "practice-table-completion-4",
+      "answer": "Wednesday",
+      "basis": "logic",
+      "anlam": false
+    },
+    {
+      "id": "practice-table-completion-5",
+      "answer": "3.45",
+      "basis": "number_guess",
+      "anlam": false
+    },
+    {
+      "id": "practice-table-completion-6",
+      "answer": "blue keyring",
+      "basis": "guess",
+      "anlam": false
+    },
+    {
+      "id": "practice-table-completion-7",
+      "answer": "reference number",
+      "basis": "cross_question",
+      "anlam": false
+    },
+    {
+      "id": "practice-table-completion-8",
+      "answer": "15",
+      "basis": "number_guess",
+      "anlam": false
+    },
+    {
+      "id": "practice-table-completion-9",
+      "answer": "1940s",
+      "basis": "general_knowledge",
+      "anlam": true
+    },
+    {
+      "id": "practice-table-completion-10",
+      "answer": "vertical",
+      "basis": "cross_question",
+      "anlam": true
+    },
+    {
+      "id": "practice-table-completion-11",
+      "answer": "fresh food",
+      "basis": "logic",
+      "anlam": false
+    },
+    {
+      "id": "practice-table-completion-12",
+      "answer": "30",
+      "basis": "number_guess",
+      "anlam": false
+    },
+    {
+      "id": "practice-table-completion-13",
+      "answer": "20 per cent",
+      "basis": "number_guess",
+      "anlam": false
+    },
+    {
+      "id": "practice-table-completion-14",
+      "answer": "Wednesday",
+      "basis": "guess",
+      "anlam": false
+    },
+    {
+      "id": "practice-table-completion-15",
+      "answer": "padlock",
+      "basis": "general_knowledge",
+      "anlam": false
+    },
+    {
+      "id": "L2-table-completion-1",
+      "answer": "Braithwaite",
+      "basis": "name_guess",
+      "anlam": false
+    },
+    {
+      "id": "L2-table-completion-2",
+      "answer": "07845 220719",
+      "basis": "number_guess",
+      "anlam": false
+    },
+    {
+      "id": "L2-table-completion-3",
+      "answer": "Beech Street",
+      "basis": "name_guess",
+      "anlam": false
+    },
+    {
+      "id": "L2-table-completion-4",
+      "answer": "Ashford",
+      "basis": "name_guess",
+      "anlam": false
+    },
+    {
+      "id": "L2-table-completion-5",
+      "answer": "second",
+      "basis": "arac_kirlenmesi",
+      "haric": true,
+      "anlam": true
+    },
+    {
+      "id": "L2-table-completion-6",
+      "answer": "11 a.m.",
+      "basis": "number_guess",
+      "anlam": true
+    },
+    {
+      "id": "L2-table-completion-7",
+      "answer": "450",
+      "basis": "number_guess",
+      "anlam": false
+    },
+    {
+      "id": "L2-table-completion-8",
+      "answer": "crate",
+      "basis": "frame_wording",
+      "anlam": true
+    },
+    {
+      "id": "L2-table-completion-9",
+      "answer": "8",
+      "basis": "number_guess",
+      "anlam": false
+    },
+    {
+      "id": "L2-table-completion-10",
+      "answer": "plants",
+      "basis": "general_knowledge",
+      "anlam": false
+    },
+    {
+      "id": "L5-table-completion-31",
+      "answer": "5",
+      "basis": "general_knowledge",
+      "anlam": true
+    },
+    {
+      "id": "L5-table-completion-32",
+      "answer": "half",
+      "basis": "logic",
+      "anlam": false
+    },
+    {
+      "id": "L5-table-completion-33",
+      "answer": "wet",
+      "basis": "frame_wording",
+      "anlam": false
+    },
+    {
+      "id": "L5-table-completion-34",
+      "answer": "10",
+      "basis": "general_knowledge",
+      "anlam": false
+    },
+    {
+      "id": "L5-table-completion-35",
+      "answer": "instruments",
+      "basis": "frame_wording",
+      "anlam": true
+    }
+  ]
+}

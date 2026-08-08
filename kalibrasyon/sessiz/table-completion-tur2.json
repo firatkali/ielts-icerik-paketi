@@ -1,0 +1,187 @@
+{
+  "paket": "table-completion",
+  "tur": 2,
+  "answers": [
+    {
+      "id": "practice-table-completion-1",
+      "answer": "300",
+      "basis": "number_guess",
+      "anlam": false
+    },
+    {
+      "id": "practice-table-completion-2",
+      "answer": "proof of identity",
+      "basis": "guess",
+      "anlam": false
+    },
+    {
+      "id": "practice-table-completion-3",
+      "answer": "14",
+      "basis": "number_guess",
+      "anlam": true
+    },
+    {
+      "id": "practice-table-completion-4",
+      "answer": "Thursday",
+      "basis": "logic",
+      "anlam": true
+    },
+    {
+      "id": "practice-table-completion-5",
+      "answer": "5.15",
+      "basis": "number_guess",
+      "anlam": false
+    },
+    {
+      "id": "practice-table-completion-6",
+      "answer": "leather fob",
+      "basis": "guess",
+      "anlam": false
+    },
+    {
+      "id": "practice-table-completion-7",
+      "answer": "reference number",
+      "basis": "cross_question",
+      "anlam": false
+    },
+    {
+      "id": "practice-table-completion-8",
+      "answer": "8",
+      "basis": "number_guess",
+      "anlam": false
+    },
+    {
+      "id": "practice-table-completion-9",
+      "answer": "1940s",
+      "basis": "general_knowledge",
+      "anlam": true
+    },
+    {
+      "id": "practice-table-completion-10",
+      "answer": "vertical",
+      "basis": "cross_question",
+      "anlam": true
+    },
+    {
+      "id": "practice-table-completion-11",
+      "answer": "saving money",
+      "basis": "logic",
+      "anlam": true
+    },
+    {
+      "id": "practice-table-completion-12",
+      "answer": "22",
+      "basis": "number_guess",
+      "anlam": false
+    },
+    {
+      "id": "practice-table-completion-13",
+      "answer": "5",
+      "basis": "number_guess",
+      "anlam": true
+    },
+    {
+      "id": "practice-table-completion-14",
+      "answer": "Monday",
+      "basis": "guess",
+      "anlam": false
+    },
+    {
+      "id": "practice-table-completion-15",
+      "answer": "padlock",
+      "basis": "general_knowledge",
+      "anlam": false
+    },
+    {
+      "id": "L2-table-completion-1",
+      "answer": "Kaminski",
+      "basis": "name_guess",
+      "anlam": false
+    },
+    {
+      "id": "L2-table-completion-2",
+      "answer": "01632 960118",
+      "basis": "number_guess",
+      "anlam": false
+    },
+    {
+      "id": "L2-table-completion-3",
+      "answer": "Hillside Avenue",
+      "basis": "name_guess",
+      "anlam": false
+    },
+    {
+      "id": "L2-table-completion-4",
+      "answer": "Kirkby",
+      "basis": "name_guess",
+      "anlam": false
+    },
+    {
+      "id": "L2-table-completion-5",
+      "answer": "second",
+      "basis": "arac_kirlenmesi",
+      "haric": true,
+      "anlam": true
+    },
+    {
+      "id": "L2-table-completion-6",
+      "answer": "2.15",
+      "basis": "number_guess",
+      "anlam": false
+    },
+    {
+      "id": "L2-table-completion-7",
+      "answer": "395",
+      "basis": "number_guess",
+      "anlam": false
+    },
+    {
+      "id": "L2-table-completion-8",
+      "answer": "wooden crate",
+      "basis": "frame_wording",
+      "anlam": true
+    },
+    {
+      "id": "L2-table-completion-9",
+      "answer": "6",
+      "basis": "number_guess",
+      "anlam": true
+    },
+    {
+      "id": "L2-table-completion-10",
+      "answer": "gas bottles",
+      "basis": "general_knowledge",
+      "anlam": false
+    },
+    {
+      "id": "L5-table-completion-31",
+      "answer": "5",
+      "basis": "general_knowledge",
+      "anlam": true
+    },
+    {
+      "id": "L5-table-completion-32",
+      "answer": "a fifth",
+      "basis": "logic",
+      "anlam": true
+    },
+    {
+      "id": "L5-table-completion-33",
+      "answer": "flood",
+      "basis": "frame_wording",
+      "anlam": false
+    },
+    {
+      "id": "L5-table-completion-34",
+      "answer": "8",
+      "basis": "general_knowledge",
+      "anlam": false
+    },
+    {
+      "id": "L5-table-completion-35",
+      "answer": "nets",
+      "basis": "frame_wording",
+      "anlam": false
+    }
+  ]
+}

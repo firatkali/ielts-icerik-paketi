@@ -193,3 +193,142 @@ dayanağım anlamsaldı ama tutmadı — orada seçenek beni yanlış köke çek
   `metinsiz-*` araçlarına ve okumanın ölçüm dosyalarına dokunulmadı.
 
 🔴 Bu ölçüm bozuk soruyu bulur, zorluk ölçmez.
+
+---
+
+## 3. çalıştırma — tamamlama ailesi A (form / not / tablo) · 2026-08-08
+
+**Kapsam:** `form-completion` 40 kalem (L1, L3, L5, L6 × 10), `note-completion` 42 kalem
+(alıştırma 15, L1 6, L2 5, L4 10, L6 6), `table-completion` 30 kalem (alıştırma 15, L2 10,
+L5 5) — **112 kalem / 112 numara**, dinlemedeki bu üç tipin tamamı (yeniden sayıldı:
+dinleme 352 kalem / 360 numara, aile A 112/112). Ses metnine, senaryo klasörüne ve cevap
+anahtarına yine hiç bakılmadı.
+
+**Bu ailede düşük oran beklenirdi ve düşük çıktı** — yöntem notunun 3. maddesi: cevap çoğu
+zaman soyadı, telefon, fiyat, saat, tarih. Aşağıdaki sayılar bu yüzden **başarısızlık değil,
+beklentinin doğrulanması**; ölçünün asıl bulgusu tabloda değil, altındaki iki başlıkta.
+
+| Paket | Ölçülen | K1 (kelime) | K3 (anlam) | Ölçüm dışı |
+|---|---|---|---|---|
+| `form-completion` | 40 kalem | 5 (%12.5) | **5 (%12.5)** | 0 |
+| `note-completion` | 40 kalem | 9 (%22.5) | **10 (%25.0)** | 2 |
+| `table-completion` | 29 kalem | 4 (%13.8) | **4 (%13.8)** | 1 |
+| **Toplam** | **109 kalem** | **18 (%16.5)** | **19 (%17.4)** | **3** |
+
+Karşılaştırma için: 1. çalıştırma (çoktan seçmeli tek) %67.6, 2. çalıştırma (çok cevaplı +
+eşleştirme) %70.6. Aradaki dört kat fark, yöntem notundaki ayrımın ölçümle doğrulanmış hâli.
+
+### K3 ilk kez K1'den ayrıldı — ve ayrımı script yaptı
+
+1. ve 2. çalıştırmada cevap harf olduğu için K1 = K3'tü. Burada ayrım anlamlı hâle geliyor:
+`L4-note-7`'de üç turun ikisinde "charity shop", birinde "charity" yazdım — K1'de üç turu
+tutturamıyor, K3'te aynı şeyi söylüyor. Tek fark bu (18 → 19).
+
+Bu kararı **ölçümü yapan model veremez**: anlamca eşitliğe bakmak cevap anahtarını görmeyi
+gerektirir, o da ölçümü bitirir. Bu yüzden `tools/_e8_anlam_esle.py` yazıldı — anahtarı
+yalnız script okuyor, dışarı **sayı** basıyor, tur dosyalarına `anlam: true/false` yazıyor.
+Eşleşme kuralı bilerek dar: küçük harf + noktalama/para sadeleştirmesi, baş takı (`a/an/the`)
+atma, yirmiye kadar sayı sözcüğü ↔ rakam, `per cent` → `%`, çoğul `-s`, ve biri diğerinin
+**sözcük düzeyinde alt dizisi** olması. Geniş bir eşleştirici sızıntıyı olduğundan büyük
+gösterirdi.
+
+### 🔴 Asıl bulgu: alıştırma paketleri tam testlerle aynı senaryoları kullanıyor
+
+Aile A'da sızıntının en güçlü kanalı seçenek sözü değil (zaten seçenek yok), **paketler arası
+çapraz**. Alıştırma `note-completion` dört bloğu ve alıştırma `table-completion` dört bloğu,
+tam testlerdeki sekiz senaryonun aynısını kullanıyor. Bir aday (ya da model) iki dosyayı yan
+yana koyduğunda, birinin boşluğunu diğerinin **düz metni** dolduruyor:
+
+- `L1-note-31` "19. yüzyıl yasaları bahçesi olmayan hanelere (31) sağlamaya zorladı" →
+  alıştırma tablo 9 aynı şeyi boşluksuz yazıyor: "**bahçesi olmayan haneler için kiralık
+  parseller** …". 3/3 bilindi.
+- `L1-note-32` "(32) — en yaygını, kimsenin işine yaramayan zeminde" → alıştırma tablo 10
+  üç biçimi sırayla sayıyor: "**topluluk bahçeleri**, çatı çiftlikleri ve (10) tarım". 3/3.
+- Aynı satır ters yönde de sızdırıyor: alıştırma tablo 10'un boşluğunu `L1-note` "lambayla
+  aydınlatılan bir iç mekân çiftliği" satırı + tablonun kendi notu ("raflarda, kapalı
+  alanda, lamba altında") veriyor → *dikey*. 3/3.
+- `L5-form-8` "Sürücünün getirmesi gereken: bir (8)" → alıştırma not bloğu düpedüz yazıyor:
+  "kasklar dağıtılıyor **ama sürücülerin kendi su şişesi** gerekiyor". 3/3.
+
+Bu, 2. çalıştırmadaki `cross_question`ın aynısı ama **dosya sınırını aşan** hâli: orada bir
+sorunun kökü komşu sorunun cevabını veriyordu, burada alıştırma paketi tam testin cevabını
+veriyor. Alıştırma paketi tam testten önce çalışılacağı için pratikte tam testin dört sorusu
+önceden görülmüş oluyor. **Paket içi tutarlılık kusuru değil, paketler arası kusur.**
+
+### İkinci mekanizma: çerçevenin kendi sözü (`frame_wording`)
+
+Çoktan seçmelideki `option_wording`in tamamlamadaki karşılığı: seçenek yok, ama form/not
+çerçevesinin sözü tek doldurmayı bırakıyor. 19 kalem böyle işaretlendi, 8'i 3/3 bilindi:
+
+- `L3-form-6` "İptal için: merkeze bir ay önceden (6) bildirin" → *yazılı olarak*. Deyimin
+  kendisi cevabı söylüyor; ses gereksiz.
+- `L3-form-9` "Dersler: internetten ya da uygulamadan — (9) ile değil" → *telefon*.
+  Çerçeve iki kanalı sayıp üçüncüyü dışlıyor; dışlanan kanal tek.
+- `L4-note-9` "ad kanıtı, örn. ehliyet ya da bir (9)" → *pasaport*.
+- `L2-note-38` "kanalların birkaç yılda bir (38) kazınması gerekiyordu" → *çamur/mil*.
+- `L6-form-5` "Cadnam House: daha büyük mutfaklar; her oda (5)" → karşı satır Wharton'ı
+  "mutfağı beş kişiyle paylaşılan" diye tanımlıyor; kalan tek ayrım *banyolu (en-suite)*.
+- `L6-note-33` "olumsuz sürüm ertesi ay (33) sayısını neredeyse iki katına çıkardı" →
+  *şikâyet*. `L6-note-35/36` (erteleme · bir sonraki zam) ise alan bilgisiyle biliniyor.
+
+**Dilbilgisi sızıntısı burada da var** (2. çalıştırmadaki alıştırma 5'in akrabası):
+`L2-note-40` "artık bir (40) getirmiyordu" cümlesindeki **"an"**, boşluğu ünlüyle başlayan
+sözcüğe kilitliyor; anlamla birleşince tek aday kalıyor. Bu yüzden ayrı bir dayanak adı
+açıldı: `grammar_cue`.
+
+### Dayanak çaprazı — 2. çalıştırmanın ayrımı burada da tuttu
+
+`tools/_e8_dayanak_capraz.py`, iki yeni dayanakla (`frame_wording`, `grammar_cue` anlamsal
+tarafa; `name_guess` şansa açık tarafa) güncellendi.
+
+| Dayanak | Kalem | 3/3 bilinen | Bilinmeyen |
+|---|---|---|---|
+| `cross_question` | 5 | **4** | 1 |
+| `frame_wording` | 19 | **8** | 11 |
+| `general_knowledge` | 20 | **6** | 14 |
+| `grammar_cue` | 1 | **1** | 0 |
+| `logic` | 5 | 0 | 5 |
+| `guess` | 14 | **0** | 14 |
+| `name_guess` | 9 | **0** | 9 |
+| `number_guess` | 37 | **0** | 37 |
+
+🔴 Ayrım yine tam: şansa açık işaretlenen **60 kalemin hiçbiri** 3/3 tutmadı; 3/3 tutan 19
+kalemin **hepsinin** dayanağı anlamsal. Yani ham oran = anlamsal-dayanaklı oran (%17.4),
+1. çalıştırmadaki `number_guess` gürültüsü bu ailede de yok. Soyadı, cep telefonu, fiyat,
+saat ve tarih soran 60 kalemde parçasız bilinme **sıfır** — bu tipler için beklenen ve
+doğru olan sonuç.
+
+### 🔴 Ölçüm aracının kendisi üç kalemi kirletti
+
+`tools/_e8_sizinti_kontrol.py` "gövdede birebir geçen cevap dizgisi: N" uyarısı veriyor.
+Uyarının nerede olduğunu görmek için `tools/_e8_govde_cakismasi.py` yazıldı; alan **yolunu**
+bastı (değeri değil), ama not iskeleti kısa olduğu için yol tek başına cevabı ölçümü yapan
+model açısından daralttı. Etkilenen üç kalem — `L1-note-34`, `L1-note-35`, `L2-table-5` —
+`haric: true` ile **ölçüm dışı** bırakıldı: kirlenmiş ölçüm, ölçüm değildir. Soruların
+kendisine dokunulmadı, dosyalarında duruyorlar.
+
+Üçünde de çakışma **rastlantısal**: cevap sözcüğü sayfanın başka bir yerinde (başka bir
+satırda, başka bir sütunda) geçen bir sözcüğün içinde kalıyor — kâğıda bakan aday bundan
+cevabı çıkaramaz. Yani bunlar gerçek sızıntı değil, alt dizi eşleşmesinin yan ürünü.
+
+Araç tarafında düzeltildi: `_e8_govde_cakismasi.py` artık ayrıntıyı ekrana değil
+`dogrulama/sessiz-tani.txt`e (gitignore'da) yazıyor, ekrana yalnız sayı geliyor;
+`_e8_sizinti_kontrol.py`nin başına da bu uyarının ağır hata olmadığı ve ayrıntısının ölçümü
+yapan modele gösterilmemesi gerektiği yazıldı. `sessiz-rapor.py` `haric` alanını tanıyor ve
+ölçüm dışı kalemi ayrıca raporluyor (geriye dönük uyumlu: 1. ve 2. çalıştırmanın tur
+dosyalarında bu alan yok, çıktıları değişmez).
+
+### Şimdilik ne yapıldı, ne yapılmadı
+
+- Ölçüm yapıldı; ham veri `content/DOGRULAMA/SESSIZ-{form,note,table}-completion.json`,
+  tur cevapları `kalibrasyon/sessiz/{form,note,table}-completion-tur{1,2,3}.json`
+  (her kalemde `basis` + `anlam`), turlar `tools/_e8_tamamlama_turlar.py` tablosundan üretildi.
+- **İşaretleme yapılmadı** — plana göre 5. çalıştırmada, tek tip cümleyle, bir kerede.
+  İşaretlemeye aday 19 kalemin listesi JSON'ların `uc_turda_bilinen_k3` alanında.
+- Hiçbir soru silinmedi; `tools/dogrula.py` bu turda da 12 tam test 40/40, şema hatası 0,
+  toplam 1310 soru, işaretli 116 (değişmedi).
+- `metinsiz-*` araçlarına ve okumanın ölçüm dosyalarına dokunulmadı.
+- Kalan: 4. çalıştırma (cümle/özet/akış/kısa cevap), 5. çalıştırma (toplu rapor +
+  işaretleme). `plan-map-diagram-labelling` (45 kalem) **ölçülmeyecek** — görsel gerekir.
+
+🔴 Bu ölçüm bozuk soruyu bulur, zorluk ölçmez.

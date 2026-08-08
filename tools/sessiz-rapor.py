@@ -114,10 +114,17 @@ def main():
     anahtar = anahtar_yukle()
 
     # id -> kac turda dogru (kelime duzeyi K1 / anlam duzeyi K3)
+    # "haric": true olan kalem olcume girmez — cevap bilgisi olcum aracindan
+    # modele sizdiysa o kalem artik kor degildir, orani sisirmemeli. Sayisi
+    # raporda ayrica yazilir; soru silinmez, yalniz oran disi kalir.
     k1, k3, bazlar, bilinmeyen = {}, {}, {}, []
+    haric = set()
     for t in turlar:
         for a in t.get("answers", []):
             sid = a.get("id")
+            if a.get("haric"):
+                haric.add(sid)
+                continue
             kayit = anahtar.get(sid)
             if kayit is None:
                 bilinmeyen.append(sid)
@@ -158,6 +165,9 @@ def main():
              % (u1, (u1 / toplam * 100) if toplam else 0))
     s.append("- Üç turun üçünde de senaryosuz bilinen — K3 anlam düzeyi: **%d** (%%%.1f)"
              % (u3, (u3 / toplam * 100) if toplam else 0))
+    if haric:
+        s.append("- Ölçüm dışı bırakılan kalem (`haric`, ölçüm aracından bilgi sızdı): **%d**"
+                 % len(haric))
     if bilinmeyen:
         s.append("- ⚠️ Anahtarda bulunamayan cevap kimliği: %d" % len(bilinmeyen))
     s.append("")
@@ -201,6 +211,7 @@ def main():
         "uc_turda_bilinen_k1": sorted(cozulebilir_k1),
         "uc_turda_bilinen_k3": sorted(cozulebilir_k3),
         "tip_bazinda": tipler,
+        "olcum_disi": sorted(haric),
         "dayanak_dagilimi": bazlar,
         "tur_basina_dogru": {sid: k1[sid] for sid in sorted(k1)},
     })

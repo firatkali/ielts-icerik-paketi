@@ -18,8 +18,14 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import ortak  # noqa: E402
 
 # Dayanagi anlamsal olan (isaretlemeye aday) vs sansa acik olan.
-ANLAMSAL = {"option_wording", "general_knowledge", "logic", "cross_question"}
-SANS = {"coin_flip", "guess", "number_guess"}
+# 3. calistirma (tamamlama ailesi) iki dayanak ekledi: `frame_wording`
+# (coktan secmelideki `option_wording`in tamamlamadaki karsiligi — orada
+# secenegin sozu, burada form/not cercevesinin sozu tek doldurmayi birakiyor)
+# ve `grammar_cue` (ornek: "an (40)" bosluga unlu ile baslayan sozcuk zorluyor).
+# Sansa acik tarafa `name_guess` eklendi (ozel ad tahmini).
+ANLAMSAL = {"option_wording", "frame_wording", "general_knowledge", "logic",
+            "cross_question", "grammar_cue"}
+SANS = {"coin_flip", "guess", "number_guess", "name_guess"}
 
 
 def main():

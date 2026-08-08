@@ -1,0 +1,260 @@
+{
+  "paket": "note-completion",
+  "tur": 3,
+  "answers": [
+    {
+      "id": "practice-note-completion-1",
+      "answer": "10",
+      "basis": "number_guess",
+      "anlam": false
+    },
+    {
+      "id": "practice-note-completion-2",
+      "answer": "5 p.m.",
+      "basis": "number_guess",
+      "anlam": false
+    },
+    {
+      "id": "practice-note-completion-3",
+      "answer": "sweets",
+      "basis": "frame_wording",
+      "anlam": false
+    },
+    {
+      "id": "practice-note-completion-4",
+      "answer": "15 June",
+      "basis": "number_guess",
+      "anlam": false
+    },
+    {
+      "id": "practice-note-completion-5",
+      "answer": "20",
+      "basis": "number_guess",
+      "anlam": false
+    },
+    {
+      "id": "practice-note-completion-6",
+      "answer": "sun cream",
+      "basis": "guess",
+      "anlam": false
+    },
+    {
+      "id": "practice-note-completion-7",
+      "answer": "two weeks",
+      "basis": "number_guess",
+      "anlam": false
+    },
+    {
+      "id": "practice-note-completion-8",
+      "answer": "ice",
+      "basis": "general_knowledge",
+      "anlam": false
+    },
+    {
+      "id": "practice-note-completion-9",
+      "answer": "2,700",
+      "basis": "general_knowledge",
+      "anlam": false
+    },
+    {
+      "id": "practice-note-completion-10",
+      "answer": "maintenance",
+      "basis": "frame_wording",
+      "anlam": false
+    },
+    {
+      "id": "practice-note-completion-11",
+      "answer": "seven storeys",
+      "basis": "number_guess",
+      "anlam": false
+    },
+    {
+      "id": "practice-note-completion-12",
+      "answer": "time",
+      "basis": "frame_wording",
+      "anlam": true
+    },
+    {
+      "id": "practice-note-completion-13",
+      "answer": "framing",
+      "basis": "general_knowledge",
+      "anlam": true
+    },
+    {
+      "id": "practice-note-completion-14",
+      "answer": "11",
+      "basis": "general_knowledge",
+      "anlam": true
+    },
+    {
+      "id": "practice-note-completion-15",
+      "answer": "ten days",
+      "basis": "guess",
+      "anlam": false
+    },
+    {
+      "id": "L1-note-completion-31",
+      "answer": "allotments",
+      "basis": "cross_question",
+      "anlam": true
+    },
+    {
+      "id": "L1-note-completion-32",
+      "answer": "community garden",
+      "basis": "cross_question",
+      "anlam": true
+    },
+    {
+      "id": "L1-note-completion-33",
+      "answer": "300",
+      "basis": "number_guess",
+      "anlam": false
+    },
+    {
+      "id": "L1-note-completion-34",
+      "answer": "three",
+      "basis": "arac_kirlenmesi",
+      "haric": true,
+      "anlam": true
+    },
+    {
+      "id": "L1-note-completion-35",
+      "answer": "half",
+      "basis": "arac_kirlenmesi",
+      "haric": true,
+      "anlam": true
+    },
+    {
+      "id": "L1-note-completion-36",
+      "answer": "contact",
+      "basis": "frame_wording",
+      "anlam": true
+    },
+    {
+      "id": "L2-note-completion-36",
+      "answer": "brick",
+      "basis": "general_knowledge",
+      "anlam": false
+    },
+    {
+      "id": "L2-note-completion-37",
+      "answer": "settling tank",
+      "basis": "frame_wording",
+      "anlam": false
+    },
+    {
+      "id": "L2-note-completion-38",
+      "answer": "silt",
+      "basis": "frame_wording",
+      "anlam": true
+    },
+    {
+      "id": "L2-note-completion-39",
+      "answer": "14",
+      "basis": "number_guess",
+      "anlam": false
+    },
+    {
+      "id": "L2-note-completion-40",
+      "answer": "obligation",
+      "basis": "grammar_cue",
+      "anlam": true
+    },
+    {
+      "id": "L4-note-completion-1",
+      "answer": "Airline",
+      "basis": "guess",
+      "anlam": false
+    },
+    {
+      "id": "L4-note-completion-2",
+      "answer": "Monday",
+      "basis": "guess",
+      "anlam": false
+    },
+    {
+      "id": "L4-note-completion-3",
+      "answer": "luggage rack",
+      "basis": "frame_wording",
+      "anlam": true
+    },
+    {
+      "id": "L4-note-completion-4",
+      "answer": "black",
+      "basis": "guess",
+      "anlam": false
+    },
+    {
+      "id": "L4-note-completion-5",
+      "answer": "Trelawney",
+      "basis": "name_guess",
+      "anlam": false
+    },
+    {
+      "id": "L4-note-completion-6",
+      "answer": "07892 441003",
+      "basis": "number_guess",
+      "anlam": false
+    },
+    {
+      "id": "L4-note-completion-7",
+      "answer": "charity shop",
+      "basis": "general_knowledge",
+      "anlam": true
+    },
+    {
+      "id": "L4-note-completion-8",
+      "answer": "cafe",
+      "basis": "guess",
+      "anlam": false
+    },
+    {
+      "id": "L4-note-completion-9",
+      "answer": "passport",
+      "basis": "frame_wording",
+      "anlam": false
+    },
+    {
+      "id": "L4-note-completion-10",
+      "answer": "8",
+      "basis": "number_guess",
+      "anlam": false
+    },
+    {
+      "id": "L6-note-completion-31",
+      "answer": "limitless",
+      "basis": "general_knowledge",
+      "anlam": false
+    },
+    {
+      "id": "L6-note-completion-32",
+      "answer": "1.5",
+      "basis": "general_knowledge",
+      "anlam": false
+    },
+    {
+      "id": "L6-note-completion-33",
+      "answer": "complaints",
+      "basis": "frame_wording",
+      "anlam": true
+    },
+    {
+      "id": "L6-note-completion-34",
+      "answer": "nine in ten",
+      "basis": "general_knowledge",
+      "anlam": true
+    },
+    {
+      "id": "L6-note-completion-35",
+      "answer": "procrastination",
+      "basis": "general_knowledge",
+      "anlam": false
+    },
+    {
+      "id": "L6-note-completion-36",
+      "answer": "next pay rise",
+      "basis": "general_knowledge",
+      "anlam": true
+    }
+  ]
+}

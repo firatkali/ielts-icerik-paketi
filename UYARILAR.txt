@@ -936,3 +936,56 @@
   - Isaretleme YAPILMADI (plana gore 5. calistirmada, tek tip cumleyle).
   - dogrula.py: 12 tam test 40/40, sema hatasi 0, toplam soru 1310.
   - isaretli (flagged)     116  (degismedi)
+
+08.08.2026 15:05
+  - isaretli (flagged)     116
+
+08.08.2026 - E8 3/5: dinleme sizinti olcumu (tamamlama ailesi A: form/not/tablo)
+  - Olculen: form-completion 40 kalem (L1,L3,L5,L6), note-completion 42 kalem
+    (alistirma 15, L1 6, L2 5, L4 10, L6 6), table-completion 30 kalem
+    (alistirma 15, L2 10, L5 5). 112 kalem / 112 numara = dinlemedeki bu uc
+    tipin TAMAMI. Yeniden sayim: dinleme 352 kalem / 360 numara.
+  - 3/3 turda senaryosuz bilinen: K1 18/109 (%16.5), K3 19/109 (%17.4).
+    Paket bazinda K3: form 5/40 (%12.5), not 10/40 (%25.0), tablo 4/29 (%13.8).
+    Bu oran DUSUK olmali ve dusuk cikti (yontem notu md.3) - cevap cogu zaman
+    soyadi, telefon, fiyat, saat, tarih. Karsilastirma: 1. cal. %67.6,
+    2. cal. %70.6. Dort kat fark, beklentinin olcumle dogrulanmasi.
+  - K3 ilk kez K1'den ayrildi (18 -> 19; L4-note-7 "charity" / "charity shop").
+    Karari model veremezdi (anahtari gormek gerekirdi), yeni arac verdi:
+    tools/_e8_anlam_esle.py - anahtari yalniz script okur, disari sayi basar.
+    Eslesme kurali bilerek dar (taki atma, sayi sozcugu<->rakam, cogul, sozcuk
+    duzeyinde alt dizi); genis eslestirici sizintiyi buyuk gosterirdi.
+  - [!] ASIL BULGU - alistirma paketleri tam testlerle AYNI senaryolari
+    kullaniyor. Alistirma note-completion'in 4 blogu ve table-completion'in
+    4 blogu, tam testlerdeki 8 senaryonun aynisi. Birinin boslugunu digerinin
+    DUZ METNI dolduruyor: L1-note-31 (kiralik parseller) ve L1-note-32
+    (topluluk bahceleri) alistirma tablo 9-10'da yazili; L5-form-8'i
+    ("surucunun getirmesi gereken") alistirma notu "kasklar dagitiliyor ama
+    surucunun kendi su sisesi gerekiyor" diye acikca soyluyor. Bu, 2.
+    calistirmadaki cross_question'in DOSYA SINIRINI ASAN hali: alistirma tam
+    testten once calisilacagi icin tam testin sorusu onceden gorulmus oluyor.
+  - [!] Ikinci mekanizma frame_wording (option_wording'in tamamlamadaki
+    karsiligi): cerceve tek doldurmayi birakiyor - L3-form-6 "bir ay onceden
+    (6) bildirin" -> yazili olarak; L3-form-9 "internetten ya da uygulamadan,
+    (9) ile degil" -> telefon; L4-note-9 "ehliyet ya da bir (9)" -> pasaport;
+    L6-form-5 karsi satir Wharton'i "mutfagi paylasilan" diye tanimlayinca
+    kalan tek ayrim banyolu oda. 19 kalemin 8'i 3/3.
+  - [!] Dilbilgisi sizintisi burada da var: L2-note-40 "artik bir AN (40)
+    getirmiyordu" - "an" boslugu unluyle baslayan sozcuge kilitliyor.
+    Yeni dayanak adi: grammar_cue.
+  - [+] Dayanak ayrimi yine TAM: sansa acik isaretlenen 60 kalemin (guess 14,
+    name_guess 9, number_guess 37) HICBIRI 3/3 tutmadi; 3/3 tutan 19 kalemin
+    HEPSININ dayanagi anlamsal. Ham oran = anlamsal oran.
+  - [!] OLCUM ARACININ KENDISI UC KALEMI KIRLETTI. _e8_sizinti_kontrol.py'nin
+    "govdede birebir gecen cevap dizgisi" uyarisinin yerini gormek icin yazilan
+    _e8_govde_cakismasi.py alan YOLUNU basti; not iskeleti kisa oldugu icin yol
+    tek basina cevabi daraltti. L1-note-34, L1-note-35, L2-table-5 "haric:true"
+    ile olcum disi birakildi (kirlenmis olcum, olcum degildir). Ucunde de
+    cakisma rastlantisal - kagida bakan aday cevabi cikaramaz.
+    Duzeltme: _e8_govde_cakismasi.py ayrintiyi artik dogrulama/sessiz-tani.txt'e
+    yaziyor (gitignore'da), ekrana yalniz sayi geliyor; sessiz-rapor.py "haric"
+    alanini taniyor (geriye donuk uyumlu, 1-2. calistirma ciktilari degismez).
+  - Isaretleme YAPILMADI (plana gore 5. calistirmada, tek tip cumleyle).
+    Isaretlemeye aday 19 kalem JSON'larin uc_turda_bilinen_k3 alaninda.
+  - dogrula.py: 12 tam test 40/40, sema hatasi 0, toplam soru 1310.
+  - isaretli (flagged)     116  (degismedi)
