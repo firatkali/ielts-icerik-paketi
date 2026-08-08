@@ -39,7 +39,7 @@
     },
     {
       "number": 20,
-      "prompt": "On the radar pictures, freshly shattered rock and snow appear ........ , whereas ice that has not been disturbed looks dark.",
+      "prompt": "On the radar pictures, freshly shattered rock and snow show up ........ , because a rough surface throws far more of the signal back to the satellite than a smooth one.",
       "answer": [
         "bright"
       ],
@@ -51,13 +51,19 @@
         "paragraph": "C",
         "sentence": 2
       },
-      "explanation": "Paragraph C says that rough, broken debris scatters radar waves strongly and so appears bright in the images, while smooth, undisturbed ice looks dark; so the answer is 'bright'.",
+      "explanation": "Paragraph C says rough, broken debris scatters radar energy strongly and appears bright in the resulting images, while smooth, undisturbed ice appears dark; the gap asks how the fresh debris shows up, so the answer is 'bright'.",
       "difficulty": "easy",
-      "status": "flagged",
-      "blind_solvable": true,
+      "status": "verified",
+      "blind_solvable": null,
       "blind_basis": "logic",
       "flag_reason": "Bosluk 'whereas... looks dark' karsitligina dayanan bir zit anlam boslugu; 'dark'in dogal karsiti 'bright' oldugu icin parcaya bakmadan da tahmin edilebiliyor.",
-      "flag_mechanism": "esdizim_kilidi"
+      "flag_mechanism": "esdizim_kilidi",
+      "revision": {
+        "tarih": "2026-08-08",
+        "mekanizma": "esdizim_kilidi",
+        "onceki_prompt": "On the radar pictures, freshly shattered rock and snow appear ........ , whereas ice that has not been disturbed looks dark.",
+        "ne_degisti": "'whereas ... looks dark' zitligi kaldirildi; bosluk artik 'dark'in sozluk karsitini isteyen bir yer degil. Yeni cercevede white, clearly, strongly adaylari da uyuyor, secim C paragrafina bagli."
+      }
     },
     {
       "number": 21,

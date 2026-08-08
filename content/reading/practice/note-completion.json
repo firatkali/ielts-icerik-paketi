@@ -81,7 +81,8 @@
       "blind_solvable_kelime_duzeyi": false,
       "blind_basis": "logic",
       "flag_reason": "Parça gösterilmeden anlamca 3/3 turda doğru bilindi: farklı kelimeyle ama doğru kavramla cevaplandı (3 turda da 'individual performance' verdi, gerçek cevap 'individual output' — ücretin yalnız kişinin kendi işine bağlı olduğu aynı iddia).",
-      "flag_mechanism": "esdizim_kilidi"
+      "flag_mechanism": "esdizim_kilidi",
+      "review_note": "E10 anlam duzeyi olcumunden gelen isaret: model parcasiz uc turda da dogru KAVRAMI verdi, tutmayan sey sozcugun kendisiydi. Bu bicimde sizinti cercevede degil boslugun hedefinde durur; kapatmak icin boslugu baska bir ayrintiya tasimak, yani `answer` alanini degistirmek gerekir. Talimatin korunan alan kurali buna izin vermedigi ve soru kelime duzeyinde hala calistigi icin soru oldugu gibi birakildi. Model uc turda 'individual performance' verdi. Not, ucretin yalniz kisinin kendi isine bagli oldugunu soylemek zorunda ve bu kavramin Ingilizce karsiligi zaten 'individual output/performance'. E6 onerisi: ayni paragrafin 'social comparison / peer pressure' ayrintisina capalanmis yeni bir yuva."
     },
     {
       "number": 4,
@@ -105,7 +106,8 @@
       "blind_solvable_kelime_duzeyi": false,
       "blind_basis": "logic",
       "flag_reason": "Parça gösterilmeden anlamca 3/3 turda doğru bilindi: farklı kelimeyle ama doğru kavramla cevaplandı (3 turda da 'magpie' verdi, gerçek cevap 'Eurasian magpie' — niteleyici düştü, aynanın önünde testi geçen kuş aynı).",
-      "flag_mechanism": "esdizim_kilidi"
+      "flag_mechanism": "esdizim_kilidi",
+      "review_note": "E10 anlam duzeyi olcumunden gelen isaret: model parcasiz uc turda da dogru KAVRAMI verdi, tutmayan sey sozcugun kendisiydi. Bu bicimde sizinti cercevede degil boslugun hedefinde durur; kapatmak icin boslugu baska bir ayrintiya tasimak, yani `answer` alanini degistirmek gerekir. Talimatin korunan alan kurali buna izin vermedigi ve soru kelime duzeyinde hala calistigi icin soru oldugu gibi birakildi. Model uc turda 'magpie' verdi; tutmayan tek sey niteleyici ('Eurasian'). Niteleyiciyi zorunlu kilmanin tek yolu pasajda ikinci bir saksagan turunun bulunmasi, oyle bir sey yok. E6 onerisi: listenin kendisi yerine A paragrafindaki temizlikci balik ornegine capalanmis yuva."
     },
     {
       "number": 5,
@@ -149,7 +151,8 @@
       "blind_solvable_kelime_duzeyi": false,
       "blind_basis": "logic",
       "flag_reason": "Parça gösterilmeden anlamca 3/3 turda doğru bilindi: farklı kelimeyle ama doğru kavramla cevaplandı ('small sample / small group / small sample' verdi; küçük grup ile küçük örneklem burada aynı uyarıyı kuruyor).",
-      "flag_mechanism": "esdizim_kilidi"
+      "flag_mechanism": "esdizim_kilidi",
+      "review_note": "E10 anlam duzeyi olcumunden gelen isaret: model parcasiz uc turda da dogru KAVRAMI verdi, tutmayan sey sozcugun kendisiydi. Bu bicimde sizinti cercevede degil boslugun hedefinde durur; kapatmak icin boslugu baska bir ayrintiya tasimak, yani `answer` alanini degistirmek gerekir. Talimatin korunan alan kurali buna izin vermedigi ve soru kelime duzeyinde hala calistigi icin soru oldugu gibi birakildi. Model 'small group / small sample' verdi. Uyarinin kendisi ('tek hayvan ya da az sayida hayvanla calisirsa yetenek gozden kacar') kavrami zaten tasiyor. E6 onerisi: dort belugadan ikisinin guclu tepki vermesi sayisina capalanmis yuva."
     },
     {
       "number": 7,
@@ -260,7 +263,8 @@
       "blind_solvable_kelime_duzeyi": false,
       "blind_basis": "logic",
       "flag_reason": "Parça gösterilmeden anlamca 3/3 turda doğru bilindi: farklı kelimeyle ama doğru kavramla cevaplandı (3 turda da 'bed' verdi, gerçek cevap 'wooden bed' — kurbanın üzerinde bulunduğu nesne aynı, yalnız malzeme niteleyicisi düştü).",
-      "flag_mechanism": "esdizim_kilidi"
+      "flag_mechanism": "esdizim_kilidi",
+      "review_note": "E10 anlam duzeyi olcumunden gelen isaret: model parcasiz uc turda da dogru KAVRAMI verdi, tutmayan sey sozcugun kendisiydi. Bu bicimde sizinti cercevede degil boslugun hedefinde durur; kapatmak icin boslugu baska bir ayrintiya tasimak, yani `answer` alanini degistirmek gerekir. Talimatin korunan alan kurali buna izin vermedigi ve soru kelime duzeyinde hala calistigi icin soru oldugu gibi birakildi. Model uc turda 'bed' verdi. 'Uyur halde bulunmus bir kurban' cercevesinde yatak kacinilmaz; ayirt edici olan yalniz malzeme niteleyicisi. E6 onerisi: kurbanin bulundugu yapinin adina (Collegium Augustalium) capalanmis yuva."
     },
     {
       "number": 12,
@@ -284,7 +288,8 @@
       "blind_solvable_kelime_duzeyi": false,
       "blind_basis": "logic",
       "flag_reason": "Parça gösterilmeden anlamca 3/3 turda doğru bilindi: farklı kelimeyle ama doğru kavramla cevaplandı (3 turda da 'bones' verdi, gerçek cevap 'skeletal remains' — eş anlamlı: tek başına kemiklerin veremediği hücre düzeyi ayrıntı).",
-      "flag_mechanism": "esdizim_kilidi"
+      "flag_mechanism": "esdizim_kilidi",
+      "review_note": "E10 anlam duzeyi olcumunden gelen isaret: model parcasiz uc turda da dogru KAVRAMI verdi, tutmayan sey sozcugun kendisiydi. Bu bicimde sizinti cercevede degil boslugun hedefinde durur; kapatmak icin boslugu baska bir ayrintiya tasimak, yani `answer` alanini degistirmek gerekir. Talimatin korunan alan kurali buna izin vermedigi ve soru kelime duzeyinde hala calistigi icin soru oldugu gibi birakildi. Model uc turda 'bones' verdi; 'skeletal remains' ile tam es anlamli. Antik donemden hucre duzeyi ayrinti iddiasinin karsit terimi kacinilmaz bicimde kemikler oluyor. E6 onerisi: H paragrafi yerine camlasma sicakligi ya da sogumanin hizina capalanmis yuva."
     },
     {
       "number": 13,

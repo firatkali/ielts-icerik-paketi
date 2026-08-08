@@ -50,11 +50,11 @@
     }
   ],
   "visual": null,
-  "stem_block": "What lies behind the health advantage of volunteers?\n\nOne suggested route runs through money: unpaid work can broaden a person's contacts, teach them new skills and show employers that they can be relied on, all of which may raise what the household brings in, and better-off people do tend to rate their own health more highly. The survey figures bore out that first step. Once the strength of the earnings route was measured, though, it turned out to carry only (37) ........ of the overall link, and the rest ran through something the income figures could not reach. The team then repeated the analysis with narrower samples, with different thresholds for how often someone had to help out before they were classed as a volunteer, and with extra background variables added, and the outcome stayed (38) ........ throughout. For the greater share of the effect that money cannot account for, the authors have (39) ........ rather than firm answers: a stronger sense of purpose and belonging, the walking and standing that helping often involves, or a possible influence on the hormones that govern stress. They are equally cautious about the finding as a whole, noting that people who choose to give their time may already be unlike those who do not in their spare hours, their starting health or their sociability; what the study demonstrates is therefore (40) ........ , and settling the matter would require a trial in which the chance to volunteer was handed out at random.",
+  "stem_block": "What lies behind the health advantage of volunteers?\n\nOne suggested route runs through money: unpaid work can broaden a person's contacts, teach them new skills and show employers that they can be relied on, all of which may raise what the household brings in, and better-off people do tend to rate their own health more highly. The survey figures bore out that first step. Once the strength of the earnings route was measured, though, it emerged that income carried (37) ........ of the overall link, with the remainder running through something the income figures could not reach. The team then repeated the analysis with narrower samples, with different thresholds for how often someone had to help out before they were classed as a volunteer, and with extra background variables added; across those versions the picture was (38) ........ . For the greater share of the effect that money cannot account for, the authors offer (39) ........ : a stronger sense of purpose and belonging, the walking and standing that helping often involves, or an influence on the hormones that govern stress. Turning to the finding as a whole, the authors describe what they have shown as (40) ........ .",
   "items": [
     {
       "number": 37,
-      "prompt": "Once the strength of the earnings route was measured, though, it turned out to carry only (37) ........ of the overall link, and the rest ran through something the income figures could not reach.",
+      "prompt": "Once the strength of the earnings route was measured, though, it emerged that income carried (37) ........ of the overall link, with the remainder running through something the income figures could not reach.",
       "answer": [
         "B"
       ],
@@ -67,17 +67,23 @@
         "paragraph": "F",
         "sentence": 2
       },
-      "explanation": "Paragraph F states that income differences account for well under a fifth of the link between volunteering and health; so the income route carries only a small part of the link, making the correct option B ('a small part').",
+      "explanation": "Paragraph F says that income differences accounted for well under a fifth of the total association between volunteering and self-rated health, so the earnings route carries only a small part of the link; the correct option is B.",
       "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
+      "status": "verified",
+      "blind_solvable": null,
       "blind_basis": "logic",
       "flag_reason": "Bosluk 'it turned out to carry only (37)___' ifadesindeki 'only' (sadece) sozcugu kucumseyici/azaltici bir anlam tasir ve kelime bankasindaki karsit secenek H ('the main driver') ile degil, kucukluk bildiren B ('a small part') ile dogal olarak eslesir.",
-      "flag_mechanism": "esdizim_kilidi"
+      "flag_mechanism": "esdizim_kilidi",
+      "revision": {
+        "tarih": "2026-08-08",
+        "mekanizma": "esdizim_kilidi",
+        "onceki_prompt": "Once the strength of the earnings route was measured, though, it turned out to carry only (37) ........ of the overall link, and the rest ran through something the income figures could not reach.",
+        "ne_degisti": "'it turned out to carry only (37)___' ifadesindeki 'only' kaldirildi: 'only' kucukluk bildirdigi icin bankadaki tek kucukluk ifadesini isaret ediyordu. Yeni cercevede F ('roughly half') ve H ('the main driver') de dilbilgisi ve anlam bakimindan uyuyor."
+      }
     },
     {
       "number": 38,
-      "prompt": "The team then repeated the analysis with narrower samples, with different thresholds for how often someone had to help out before they were classed as a volunteer, and with extra background variables added, and the outcome stayed (38) ........ throughout.",
+      "prompt": "The team then repeated the analysis with narrower samples, with different thresholds for how often someone had to help out before they were classed as a volunteer, and with extra background variables added; across those versions the picture was (38) ........ .",
       "answer": [
         "G"
       ],
@@ -90,17 +96,23 @@
         "paragraph": "G",
         "sentence": 3
       },
-      "explanation": "Paragraph G states that the same basic pattern held in every version of the analysis; since the outcome did not change, the correct option is G ('stable').",
+      "explanation": "Paragraph G says that in every version of the analysis the same basic pattern held; since the outcome did not change, the correct option is G.",
       "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
+      "status": "verified",
+      "blind_solvable": null,
       "blind_basis": "logic",
       "flag_reason": "Bosluk 'the outcome stayed (38)___ throughout' kalibinda; 'stay stable' Ingilizcede dogal bir eslesme, kelime bankasindaki karsit secenek C ('contradictory') ise 'stayed' fiiliyle anlamca celisir -- bu kalip parcaya bakmadan da 'stable'i isaret ediyor.",
-      "flag_mechanism": "esdizim_kilidi"
+      "flag_mechanism": "esdizim_kilidi",
+      "revision": {
+        "tarih": "2026-08-08",
+        "mekanizma": "esdizim_kilidi",
+        "onceki_prompt": "The team then repeated the analysis with narrower samples, with different thresholds for how often someone had to help out before they were classed as a volunteer, and with extra background variables added, and the outcome stayed (38) ........ throughout.",
+        "ne_degisti": "'the outcome stayed ___ throughout' kalibi kaldirildi: 'stay stable' esdizimi boslugu tek basina dolduruyor, 'stayed contradictory' ise uymuyordu. Yeni cercevede ('across those versions the picture was ___') C ('contradictory') ve D ('easily explained') de uyuyor."
+      }
     },
     {
       "number": 39,
-      "prompt": "For the greater share of the effect that money cannot account for, the authors have (39) ........ rather than firm answers: a stronger sense of purpose and belonging, the walking and standing that helping often involves, or a possible influence on the hormones that govern stress.",
+      "prompt": "For the greater share of the effect that money cannot account for, the authors offer (39) ........ : a stronger sense of purpose and belonging, the walking and standing that helping often involves, or an influence on the hormones that govern stress.",
       "answer": [
         "I"
       ],
@@ -113,17 +125,23 @@
         "paragraph": "H",
         "sentence": 1
       },
-      "explanation": "Paragraph H states that the authors suggest several possible explanations but stress that their data cannot directly confirm any of them; so the correct option is I ('unproven suggestions').",
+      "explanation": "Paragraph H says the authors put forward several candidate explanations for the unexplained majority of the effect while stressing that their data cannot confirm any of them directly; so the correct option is I.",
       "difficulty": "hard",
-      "status": "flagged",
-      "blind_solvable": true,
+      "status": "verified",
+      "blind_solvable": null,
       "blind_basis": "logic",
       "flag_reason": "Bosluk '(39)___ rather than firm answers' karsitligina dayaniyor; 'rather than firm' ifadesi bosluğun kesin olmayan bir sey oldugunu isaret ediyor, kelime bankasindaki 'unproven suggestions' bu karsitliga tam oturuyor, 'proof of a cause' ise 'firm answer'in kendisiyle es anlamli oldugu icin celisir.",
-      "flag_mechanism": "esdizim_kilidi"
+      "flag_mechanism": "esdizim_kilidi",
+      "revision": {
+        "tarih": "2026-08-08",
+        "mekanizma": "esdizim_kilidi",
+        "onceki_prompt": "For the greater share of the effect that money cannot account for, the authors have (39) ........ rather than firm answers: a stronger sense of purpose and belonging, the walking and standing that helping often involves, or a possible influence on the hormones that govern stress.",
+        "ne_degisti": "'___ rather than firm answers' karsitligi ve listedeki 'possible' niteleyicisi kaldirildi; ikisi de boslugun kesinlikten uzak bir sey oldugunu soyluyordu. Yeni cercevede E ('proof of a cause') de uyuyor ve secim H paragrafina bagli."
+      }
     },
     {
       "number": 40,
-      "prompt": "What the study demonstrates is therefore (40) ........ , and settling the matter would require a trial in which the chance to volunteer was handed out at random.",
+      "prompt": "Turning to the finding as a whole, the authors describe what they have shown as (40) ........ .",
       "answer": [
         "A"
       ],
@@ -136,13 +154,19 @@
         "paragraph": "I",
         "sentence": 1
       },
-      "explanation": "Paragraph I states that the authors describe their results as a link rather than proof that volunteering improves health; so the correct option is A ('a link rather than a cause').",
+      "explanation": "Paragraph I says the authors are careful to describe their results as an association rather than proof that volunteering causes better health; so the correct option is A.",
       "difficulty": "easy",
-      "status": "flagged",
-      "blind_solvable": true,
+      "status": "verified",
+      "blind_solvable": null,
       "blind_basis": "logic",
       "flag_reason": "Bosluk 'What the study demonstrates is therefore (40)___, and settling the matter would require a trial...' yapisindaki 'settling the matter would require a trial' ifadesi, sorunun henuz kanitlanmis bir nedensellik olmadigini, yalnizca bir iliski oldugunu ima ediyor; bu mantikla kelime bankasindaki 'a link rather than a cause' secenegi parcaya bakmadan da secilebiliyor.",
-      "flag_mechanism": "esdizim_kilidi"
+      "flag_mechanism": "esdizim_kilidi",
+      "revision": {
+        "tarih": "2026-08-08",
+        "mekanizma": "esdizim_kilidi",
+        "onceki_prompt": "What the study demonstrates is therefore (40) ........ , and settling the matter would require a trial in which the chance to volunteer was handed out at random.",
+        "ne_degisti": "Bosluktan hemen onceki 'karistirici etkenler' cumlesi ile hemen sonraki 'rastgele atamali bir deneme gerekir' kaydi ozetten cikarildi; ikisi birlikte cevabi (yalnizca bir iliski) pasaja bakmadan soyluyordu. Yeni cumlede D ('easily explained') ve E ('proof of a cause') de uyuyor."
+      }
     }
   ]
 }

@@ -36,7 +36,8 @@
       "blind_solvable_kelime_duzeyi": false,
       "blind_basis": "logic",
       "flag_reason": "Parça gösterilmeden anlamca 3/3 turda doğru bilindi: farklı kelimeyle ama doğru kavramla cevaplandı ('rearrange / reconfigure / rearrange' verdi; rearrange ile reconfigure aynı iddiayı (ihtiyaç değişince kolay yeniden düzenlenmesi) veriyor).",
-      "flag_mechanism": "esdizim_kilidi"
+      "flag_mechanism": "esdizim_kilidi",
+      "review_note": "E10 anlam duzeyi olcumunden gelen isaret: model parcasiz uc turda da dogru KAVRAMI verdi, tutmayan sey sozcugun kendisiydi. Bu bicimde sizinti cercevede degil boslugun hedefinde durur; kapatmak icin boslugu baska bir ayrintiya tasimak, yani `answer` alanini degistirmek gerekir. Talimatin korunan alan kurali buna izin vermedigi ve soru kelime duzeyinde hala calistigi icin soru oldugu gibi birakildi. Model 'rearrange / reconfigure' verdi. Acik plan ofisin ucuzluk disindaki ikinci gerekcesi kacinilmaz bicimde 'kolay yeniden duzenlenmesi'. E6 onerisi: ayni paragrafin kalici odali ofisle yapilan maliyet karsilastirmasina capalanmis yuva."
     },
     {
       "number": 2,
@@ -93,11 +94,12 @@
       },
       "explanation": "Paragraph C says that observers noted how often employees wore headphones; the answer is therefore 'headphones'.",
       "difficulty": "easy",
-      "status": "flagged",
+      "status": "rejected",
       "blind_solvable": true,
       "blind_basis": "logic",
       "flag_reason": "Bosluk 'how often people put on ___' kalibinin ucunda; ofis ortaminda 'put on' fiiliyle en dogal eslesen nesne kulaklik oldugu icin parcaya bakmadan da tahmin edilebiliyor.",
-      "flag_mechanism": "esdizim_kilidi"
+      "flag_mechanism": "esdizim_kilidi",
+      "reject_reason": "'put on' fiili cikarilsa bile not, gurultu uzerine bir ofis calismasinda gozlemcilerin saydigi gunluk aliskanligi istiyor; bu cercevede 'headphones' pasajdan bagimsiz olarak akla gelen ilk ve neredeyse tek nesne. Kanit cumlesindeki oteki iki ornek (quiet corners, impromptu conversations) da ayni olcude tahmin edilebilir, yani hedefi cumle icinde kaydirmak da ise yaramiyor. E6 bu yuvayi ayni paragrafin olcum aracina (kod commit sayimi) tasimali."
     },
     {
       "number": 5,

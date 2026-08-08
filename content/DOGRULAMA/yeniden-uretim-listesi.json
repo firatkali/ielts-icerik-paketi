@@ -318,6 +318,83 @@
         "ifade": "Most of the unpleasant states it measures eased after the time among the trees."
       },
       "neden_elendi": "Sorunun ekseni psikolojik olcme araclari genel bilgisi: Profile of Mood States'in alti ayri duygu boyutu olctugu yaygin bilinen bir bilgi ve ifadedeki 'olculen hos olmayan durumlarin cogu' kaydi altidan bese dogal olarak oturuyor. Kanit cumlesi (F/1) 'alti olumsuz duygu durumundan besi' kalibini tasidigi icin, ifade nasil yazilirsa yazilsin ayni arac bilgisine geri donuyor."
+    },
+    {
+      "dosya": "content/reading/practice/summary-completion.json",
+      "numara": 1,
+      "tip": "summary_completion",
+      "pasaj": "A10",
+      "kacinilacak": {
+        "kanit_cumlesi": "The activity-based design, despite its popularity in contemporary office trends, performed worse than the open-plan baseline on both measures, with satisfaction and productivity scores roughly 14 per cent lower.",
+        "ifade": "Both the zoned open-plan room and the team office beat the plain open-plan baseline on how content the staff felt and on how productive they believed themselves to be, while the activity-based arrangement, for all its (1) ........ in current office fashion, finished below the baseline on both counts."
+      },
+      "neden_elendi": "Sizinti cercevede degil, boslugun hedefinde. Ozet cumlesi kanit cumlesinin (D/3) tasidigi 'moda olmasina ragmen kotu sonuc verdi' karsitligini aktarmak zorunda; bu karsitligi tasiyan her cumlede boslugun tek dogal sozcugu 'popularity' oluyor. Cerceveyi degistirmek boslugu acmiyor, boslugu baska bir yere tasimak ise cevabi degistirmek demek. E6 bu yuvayi ayni cumledeki sayisal ayrintiya (yuzde 14'luk dusus) capalamali."
+    },
+    {
+      "dosya": "content/reading/tests/AC2/flow-chart-completion.json",
+      "numara": 3,
+      "tip": "flow_chart_completion",
+      "pasaj": "A04",
+      "kacinilacak": {
+        "kanit_cumlesi": "Because it has not been imaged in enough detail to measure directly, its size has to be estimated: assuming it reflects light in a similar way to Uranus's other small moons, astronomers calculate a diameter of about six miles, or ten kilometres, making it one of the smallest moons known anywhere in the solar system.",
+        "ifade": "As the object is too faint to measure directly, its width is put at some ten kilometres, on the assumption that it (3) ........ light much as Uranus's other small moons do."
+      },
+      "neden_elendi": "Bosluk 'it ___ light' kalibinin ortasinda ve bir gok cisminin parlakligindan cap tahmin etme varsayimi Ingilizcede yalniz 'reflect' fiiliyle kuruluyor. Fiili baska bir cerceveye tasimak ya cumleyi bozuyor ya da cevabi sifat bicimine ('reflective') ceviriyor, yani korunan alani degistiriyor. E6 bu adimi cap tahmininin sayisina ya da 'too faint to measure directly' gerekcesine capalamali."
+    },
+    {
+      "dosya": "content/reading/tests/AC4/note-completion.json",
+      "numara": 4,
+      "tip": "note_completion",
+      "pasaj": "A10",
+      "kacinilacak": {
+        "kanit_cumlesi": "As an independent, behavioural proxy for technical output, the researchers also tracked the number of software code commits each team produced, and observers recorded how people actually used the different spaces, noting details such as how often employees wore headphones, retreated to quiet corners, or held impromptu conversations at their desks.",
+        "ifade": "How the layouts were judged: Watchers logged everyday habits, for example how often people put on (4) ........"
+      },
+      "neden_elendi": "'put on' fiili cikarilsa bile not, gurultu uzerine bir ofis calismasinda gozlemcilerin saydigi gunluk aliskanligi istiyor; bu cercevede 'headphones' pasajdan bagimsiz olarak akla gelen ilk ve neredeyse tek nesne. Kanit cumlesindeki oteki iki ornek (quiet corners, impromptu conversations) da ayni olcude tahmin edilebilir, yani hedefi cumle icinde kaydirmak da ise yaramiyor. E6 bu yuvayi ayni paragrafin olcum aracina (kod commit sayimi) tasimali."
+    },
+    {
+      "dosya": "content/reading/tests/AC4/sentence-completion.json",
+      "numara": 20,
+      "tip": "sentence_completion",
+      "pasaj": "A11",
+      "kacinilacak": {
+        "kanit_cumlesi": "The forest sessions took place in late January, in conditions typical of a Finnish winter: an average temperature of minus 7.23 degrees Celsius, 20 to 25 centimetres of snow covering the ground and trees, humidity of 94.25 per cent, and only a light wind of 1.13 metres per second.",
+        "ifade": "The air on the days of the outdoor sessions was almost windless and extremely damp, with ........ measured at 94.25 per cent."
+      },
+      "neden_elendi": "Bosluk yuzde olarak verilen bir hava olcumunu istiyor; pasajin siraladigi dort degerden (sicaklik, kar derinligi, nem, ruzgar) yalniz biri yuzdeyle ifade edilir, dolayisiyla sayinin birimi tek basina cevabi veriyor. Birimi gizlemek sayiyi da gizlemeyi gerektiriyor, o zaman da soru olculebilir bir ayrintiya dayanmaktan cikiyor. E6 bu yuvayi ruzgar hizina (1.13 m/s) ya da kar derinligine capalamali."
+    },
+    {
+      "dosya": "content/reading/tests/AC4/sentence-completion.json",
+      "numara": 21,
+      "tip": "sentence_completion",
+      "pasaj": "A11",
+      "kacinilacak": {
+        "kanit_cumlesi": "All four instruments were administered as paper questionnaires immediately before and again immediately after each 15-minute period, so that any change could be attributed specifically to the intervening exposure rather than to the simple passage of time.",
+        "ifade": "All four scales were filled in on paper right before and right after the quarter of an hour, making it possible to credit any shift to the setting itself rather than to the mere ........ of time."
+      },
+      "neden_elendi": "'the passage of time' Ingilizcede tam kaliplasmis bir ifade; bosluk bu kalibin icinde durdugu surece hangi cerceveye konursa konsun tek tamamlamasi var, 'of time' kaldirildiginda ise cumle anlamini yitiriyor. E6 bu yuvayi ayni cumlenin olculebilir ayrintisina (anketlerin kagit uzerinde, on bes dakikanin hemen oncesinde ve hemen sonrasinda uygulanmasi) tasimali."
+    },
+    {
+      "dosya": "content/reading/tests/GT2/table-completion.json",
+      "numara": 16,
+      "tip": "table_completion",
+      "pasaj": "G04",
+      "kacinilacak": {
+        "kanit_cumlesi": "Complete the online application form and upload a current CV by 28 February.",
+        "ifade": "Written stage: Form filled in online, an up-to-date (16) ........ , and 300 words on why you want the placement"
+      },
+      "neden_elendi": "Is basvurusu baglaminda 'guncel bir ___ yukleyin' satirinin tek yaygin tamamlamasi CV; sozcuk basvuru surecinin kendisinden cikiyor, pasajdan degil. Satiri yeniden yazmak bunu degistirmiyor. E6 bu yuvayi ayni paragrafin baska bir kosuluna (300 kelimelik gerekce metni ya da 28 Subat son basvuru tarihi) capalamali."
+    },
+    {
+      "dosya": "content/reading/tests/GT2/table-completion.json",
+      "numara": 20,
+      "tip": "table_completion",
+      "pasaj": "G04",
+      "kacinilacak": {
+        "kanit_cumlesi": "Each intern is paired with a mentor from their assigned department who meets with them weekly throughout the ten weeks.",
+        "ifade": "During the placement: A (20) ........ from the intern's own department sees them once a week"
+      },
+      "neden_elendi": "Kanit cumlesinin butun icerigi ('kendi biriminden biriyle eslestirilir, on hafta boyunca haftada bir gorusur') Ingiliz is dunyasinda dogrudan 'mentor' rolunu tanimliyor; satirdan hangi ayrinti cikarilirsa cikarilsin kalan cerceve ayni sozcugu veriyor. E6 bu yuvayi staj suresinin baska bir ayrintisina (aylik ucret ya da on haftalik sure) tasimali."
     }
   ]
 }

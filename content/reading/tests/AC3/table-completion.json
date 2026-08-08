@@ -102,7 +102,8 @@
       "blind_solvable_kelime_duzeyi": false,
       "blind_basis": "logic",
       "flag_reason": "Parça gösterilmeden anlamca 3/3 turda doğru bilindi: farklı kelimeyle ama doğru kavramla cevaplandı (3 turda da 'dye' verdi, gerçek cevap 'cosmetic' — ayna testinde deriye uygulanan aynı zararsız boyalı işaret).",
-      "flag_mechanism": "esdizim_kilidi"
+      "flag_mechanism": "esdizim_kilidi",
+      "review_note": "E10 anlam duzeyi olcumunden gelen isaret: model parcasiz uc turda da dogru KAVRAMI verdi, tutmayan sey sozcugun kendisiydi. Bu bicimde sizinti cercevede degil boslugun hedefinde durur; kapatmak icin boslugu baska bir ayrintiya tasimak, yani `answer` alanini degistirmek gerekir. Talimatin korunan alan kurali buna izin vermedigi ve soru kelime duzeyinde hala calistigi icin soru oldugu gibi birakildi. Model uc turda 'dye' verdi. Ayna testinde deriye uygulanan zararsiz isareti soran her cerceve boya kavramini veriyor. E6 onerisi: isaretin turu yerine konuldugu yere (goz ya da kulak arkasi) capalanmis yuva."
     },
     {
       "number": 4,

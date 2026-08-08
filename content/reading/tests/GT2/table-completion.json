@@ -81,7 +81,8 @@
       "blind_solvable_kelime_duzeyi": false,
       "blind_basis": "logic",
       "flag_reason": "Parça gösterilmeden anlamca 3/3 turda doğru bilindi: farklı kelimeyle ama doğru kavramla cevaplandı ('sponsorship / a visa / sponsorship' verdi; 'vize gerektirmeden çalışma hakkı' ile 'sponsorluk gerektirmemesi' aynı koşul).",
-      "flag_mechanism": "esdizim_kilidi"
+      "flag_mechanism": "esdizim_kilidi",
+      "review_note": "E10 anlam duzeyi olcumunden gelen isaret: model parcasiz uc turda da dogru KAVRAMI verdi, tutmayan sey sozcugun kendisiydi. Bu bicimde sizinti cercevede degil boslugun hedefinde durur; kapatmak icin boslugu baska bir ayrintiya tasimak, yani `answer` alanini degistirmek gerekir. Talimatin korunan alan kurali buna izin vermedigi ve soru kelime duzeyinde hala calistigi icin soru oldugu gibi birakildi. Model 'a visa / sponsorship' verdi. On hafta boyunca calisma hakki kosulunu soran her cerceve ayni kavrami veriyor. E6 onerisi: calisma hakki yerine uygun lisans programi kosuluna (ekonomi, muhasebe, isletme) capalanmis yuva."
     },
     {
       "number": 16,
@@ -101,11 +102,12 @@
       },
       "explanation": "Paragraph B of the passage says an up-to-date CV must be uploaded along with the online application form; that is why the answer is 'CV'.",
       "difficulty": "easy",
-      "status": "flagged",
+      "status": "rejected",
       "blind_solvable": true,
       "blind_basis": "logic",
       "flag_reason": "Bosluk 'an up-to-date ___' kalibinin ucunda; is basvurularinda bu kalibin en dogal ve tek yaygin tamamlamasi 'CV' (ozgecmis) oldugu icin parcaya bakmadan da tahmin edilebiliyor.",
-      "flag_mechanism": "esdizim_kilidi"
+      "flag_mechanism": "esdizim_kilidi",
+      "reject_reason": "Is basvurusu baglaminda 'guncel bir ___ yukleyin' satirinin tek yaygin tamamlamasi CV; sozcuk basvuru surecinin kendisinden cikiyor, pasajdan degil. Satiri yeniden yazmak bunu degistirmiyor. E6 bu yuvayi ayni paragrafin baska bir kosuluna (300 kelimelik gerekce metni ya da 28 Subat son basvuru tarihi) capalamali."
     },
     {
       "number": 17,
@@ -185,11 +187,12 @@
       },
       "explanation": "Paragraph D of the passage says each intern is paired with a mentor from their own department and meets them once a week; that is why the answer is 'mentor'.",
       "difficulty": "hard",
-      "status": "flagged",
+      "status": "rejected",
       "blind_solvable": true,
       "blind_basis": "logic",
       "flag_reason": "Bosluk, stajyerlik programlarinda 'kendi bolumunden biriyle haftada bir gorusme' kalibinin tanimladigi rolu istiyor; bu rol Ingilizce is dunyasinda yerlesik bicimde 'mentor' olarak adlandirildigi icin parcaya bakmadan da tahmin edilebiliyor.",
-      "flag_mechanism": "esdizim_kilidi"
+      "flag_mechanism": "esdizim_kilidi",
+      "reject_reason": "Kanit cumlesinin butun icerigi ('kendi biriminden biriyle eslestirilir, on hafta boyunca haftada bir gorusur') Ingiliz is dunyasinda dogrudan 'mentor' rolunu tanimliyor; satirdan hangi ayrinti cikarilirsa cikarilsin kalan cerceve ayni sozcugu veriyor. E6 bu yuvayi staj suresinin baska bir ayrintisina (aylik ucret ya da on haftalik sure) tasimali."
     }
   ]
 }

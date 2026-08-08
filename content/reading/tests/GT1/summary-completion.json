@@ -13,7 +13,7 @@
   "word_limit": "ONE WORD ONLY",
   "word_bank": null,
   "visual": null,
-  "stem_block": "What was thrown out, and why\n\nCereals, and rice above all, made up the largest slice of the edible waste, with vegetables not far behind, while the biggest inedible category by some way was (37) ........ from fruit and vegetables, chiefly the skins of bananas and mangoes. Drinks added a little more: modest quantities of coffee and tea went down the sink, usually because more had been brewed than anyone meant to finish. Asked to account for their losses, families in the two districts said much the same things — food going mouldy, a change in the feel of meat or fish, and bread that keeps for too short a time. Dairy items, meanwhile, were regularly overlooked at the back of the (38) ........ and only thrown out once it was too late. Country households still wasted far less, since leftovers there were more often turned into compost or given to animals; town households leaned instead towards (39) ........ and bought more than they required. For the authors, the lesson is that policy has so far dealt with collecting and disposing of waste rather than its (40) ........ , and that campaigns need to name the particular foods concerned.",
+  "stem_block": "What was thrown out, and why\n\nCereals, and rice above all, made up the largest slice of the edible waste, with vegetables not far behind, while the biggest inedible category by some way was (37) ........ from fruit and vegetables, chiefly the skins of bananas and mangoes. Drinks added a little more: modest quantities of coffee and tea went down the sink, usually because more had been brewed than anyone meant to finish. Asked to account for their losses, families in the two districts said much the same things — food going mouldy, a change in the feel of meat or fish, and bread that keeps for too short a time. Dairy items, meanwhile, were regularly overlooked at the back of the (38) ........ and only thrown out once it was too late. Country households still wasted far less, since leftovers there were more often turned into compost or given to animals; town households leaned instead towards (39) ........ and bought more than they required. For the authors, the lesson is that policy has so far dealt with collecting and disposing of waste; real (40) ........ , they argue, will depend on campaigns that name the particular foods concerned.",
   "items": [
     {
       "number": 37,
@@ -82,7 +82,7 @@
     },
     {
       "number": 40,
-      "prompt": "For the authors, the lesson is that policy has so far dealt with collecting and disposing of waste rather than its (40) ........ , and that campaigns need to name the particular foods concerned.",
+      "prompt": "For the authors, the lesson is that policy has so far dealt with collecting and disposing of waste; real (40) ........ , they argue, will depend on campaigns that name the particular foods concerned.",
       "answer": [
         "prevention"
       ],
@@ -94,13 +94,19 @@
         "paragraph": "I",
         "sentence": 1
       },
-      "explanation": "Paragraph I says that food waste policy has so far focused on collection and disposal, neglecting prevention; so the answer is 'prevention'.",
+      "explanation": "Paragraph I says that food waste policy has focused on collection and disposal rather than prevention, and that meaningful reductions depend on tackling the specific items identified in the study; so the answer is 'prevention'.",
       "difficulty": "hard",
-      "status": "flagged",
-      "blind_solvable": true,
+      "status": "verified",
+      "blind_solvable": null,
       "blind_basis": "logic",
       "flag_reason": "Bosluk 'dealt with collecting and disposing of waste rather than its ___' karsitligina dayaniyor; atik politikasi soyleminde 'toplama/bertaraf' ile karsit kavram olarak hep 'onleme' (prevention) anilir -- bu yerlesik karsitlik kalibiyla parcaya bakmadan da tahmin edilebiliyor.",
-      "flag_mechanism": "esdizim_kilidi"
+      "flag_mechanism": "esdizim_kilidi",
+      "revision": {
+        "tarih": "2026-08-08",
+        "mekanizma": "esdizim_kilidi",
+        "onceki_prompt": "For the authors, the lesson is that policy has so far dealt with collecting and disposing of waste rather than its (40) ........ , and that campaigns need to name the particular foods concerned.",
+        "ne_degisti": "'collecting and disposing ... rather than its ___' karsitligi kaldirildi; atik politikasi soyleminde bu karsitligin oteki ucu her zaman 'prevention' oldugu icin bosluk tek basina doluyordu. Yeni cercevede reduction, progress, change adaylari da uyuyor."
+      }
     }
   ]
 }

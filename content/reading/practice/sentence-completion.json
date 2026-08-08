@@ -182,7 +182,7 @@
     {
       "number": 8,
       "passage_id": "A03",
-      "prompt": "Because its reef has already spent years in water the rest of the ocean will not reach for decades, Maug amounts to a (8) ........ of what is coming.",
+      "prompt": "Its reef has already spent years in water the rest of the ocean will not reach for decades, which is why the authors describe the site as a (8) ........ .",
       "answer": [
         "preview"
       ],
@@ -194,13 +194,19 @@
         "paragraph": "C",
         "sentence": 3
       },
-      "explanation": "Paragraph C states that the reef at Maug has already been living for years in conditions the wider ocean will not reach for decades, offering a preview of the future, so the answer is 'preview'.",
+      "explanation": "Paragraph C says that the reef at Maug has already been living for years in conditions the wider ocean is not expected to reach for decades, so that the site effectively offers a preview of the future; the gap asks what the authors call the site, so the answer is 'preview'.",
       "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
+      "status": "verified",
+      "blind_solvable": null,
       "blind_basis": "logic",
       "flag_reason": "Bosluk 'a ___ of what is coming' kalibinin ucunda; bu kalibin en dogal tamamlamasi 'preview' oldugu icin parcaya bakilmadan da tahmin edilebiliyor.",
-      "flag_mechanism": "esdizim_kilidi"
+      "flag_mechanism": "esdizim_kilidi",
+      "revision": {
+        "tarih": "2026-08-08",
+        "mekanizma": "esdizim_kilidi",
+        "onceki_prompt": "Because its reef has already spent years in water the rest of the ocean will not reach for decades, Maug amounts to a (8) ........ of what is coming.",
+        "ne_degisti": "Kaliplasmis 'a ___ of what is coming' cercevesi kaldirildi; bu cerceve bosluga tek bir dogal tamamlama birakiyordu. Yeni cumlede bosluk cumle sonunda ve cerceveden okunamiyor (warning, benchmark, window adaylari da uyuyor), dogru sozcuk ancak C paragrafindaki cumleden bulunuyor. 7. sorunun cevabi olan 'laboratory tank' ifadesi bilincli olarak yeni metne alinmadi."
+      }
     },
     {
       "number": 9,

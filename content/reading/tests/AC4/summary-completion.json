@@ -30,7 +30,7 @@
     },
     {
       "letter": "E",
-      "text": "deeper sleep"
+      "text": "an unbroken night"
     },
     {
       "letter": "F",
@@ -42,7 +42,7 @@
     },
     {
       "letter": "H",
-      "text": "the length of the nap"
+      "text": "in the laboratory"
     },
     {
       "letter": "I",
@@ -54,7 +54,7 @@
     }
   ],
   "visual": null,
-  "stem_block": "Sleep, naps and remembering word pairs\n\nTwo studies asked how well freshly learned word pairs survive either a night of sleep or a short daytime rest. In the earlier one, different volunteers were placed in a sleeping group and a waking group; the later one instead used a (36) ........ design, so that the very same volunteers went through both a rest and a matching stretch of time without one. In the earlier study, one group met 80 pairs late in the evening and was tested twelve hours afterwards, while the other met them at the start of the day and stayed (37) ........ until an evening test. Where the two halves of a pair were already (38) ........ , a whole night of sleep improved recall far more than a rest of an hour and a half did. Where no such link existed, the two produced almost (39) ........ . Neither how long a rest ran nor which stages it contained predicted the size of the gain, which suggests that simply getting (40) ........ counted for more than the internal shape of that sleep.",
+  "stem_block": "Sleep, naps and remembering word pairs\n\nTwo studies asked how well freshly learned word pairs survive either a night of sleep or a short daytime rest. In the earlier one, different volunteers were placed in a sleeping group and a waking group; the later one instead used a (36) ........ design, so that the very same volunteers went through both a rest and a matching stretch of time without one. In the earlier study, one group met 80 pairs late in the evening and was tested twelve hours afterwards, while the other met them at the start of the day and remained (37) ........ until an evening test. Where the two halves of a pair were already (38) ........ , a whole night of sleep improved recall far more than a rest of an hour and a half did. Where no such link existed, however, the picture changed: the two turned out to offer (39) ........ . Neither how long a rest ran nor which stages it contained predicted the size of the gain; what counted, the authors argue, was (40) ........ rather than anything about the internal shape of the sleep.",
   "items": [
     {
       "number": 36,
@@ -82,7 +82,7 @@
     },
     {
       "number": 37,
-      "prompt": "In the earlier study, one group met 80 pairs late in the evening and was tested twelve hours afterwards, while the other met them at the start of the day and stayed (37) ........ until an evening test.",
+      "prompt": "In the earlier study, one group met 80 pairs late in the evening and was tested twelve hours afterwards, while the other met them at the start of the day and remained (37) ........ until an evening test.",
       "answer": [
         "B"
       ],
@@ -95,13 +95,19 @@
         "paragraph": "C",
         "sentence": 3
       },
-      "explanation": "Paragraph C says the wake group learned the material at nine in the morning, was tested at nine in the evening, and stayed awake throughout; so the correct option is B.",
+      "explanation": "Paragraph C says the wake group learned the material at nine in the morning, was tested twelve hours later at nine that evening, and had remained awake throughout; so the correct option is B.",
       "difficulty": "easy",
-      "status": "flagged",
-      "blind_solvable": true,
+      "status": "verified",
+      "blind_solvable": null,
       "blind_basis": "logic",
       "flag_reason": "Bosluk 'stayed ___ until an evening test' kalibinin ucunda; 'stayed awake' Ingilizcede kaliplasmis bir ifade oldugu icin, kelime bankasindaki karsit secenek 'a chance to sleep' bu kaliba uymadigindan parcaya bakmadan da 'awake' tahmin edilebiliyor.",
-      "flag_mechanism": "esdizim_kilidi"
+      "flag_mechanism": "esdizim_kilidi",
+      "revision": {
+        "tarih": "2026-08-08",
+        "mekanizma": "esdizim_kilidi",
+        "onceki_prompt": "In the earlier study, one group met 80 pairs late in the evening and was tested twelve hours afterwards, while the other met them at the start of the day and stayed (37) ........ until an evening test.",
+        "ne_degisti": "'stayed ___' kalibi ('stay awake' esdizimi) 'remained ___' ile degistirildi ve kelime bankasindaki H secenegi ('the length of the nap' -> 'in the laboratory') ayni cerceveye oturan gercek bir rakip yapildi. Artik iki secenek de dilbilgisi ve anlam bakimindan uyuyor; secim C paragrafina bagli."
+      }
     },
     {
       "number": 38,
@@ -128,7 +134,7 @@
     },
     {
       "number": 39,
-      "prompt": "Where no such link existed, the two produced almost (39) ........ .",
+      "prompt": "Where no such link existed, however, the picture changed: the two turned out to offer (39) ........ .",
       "answer": [
         "F"
       ],
@@ -141,17 +147,23 @@
         "paragraph": "E",
         "sentence": 3
       },
-      "explanation": "Paragraph E says that for unrelated pairs, nocturnal sleep and napping produced very similar benefits (0.71 versus 0.68); so the correct option is F.",
+      "explanation": "Paragraph E says that for unrelated word pairs nocturnal sleep and napping produced very similar benefits, with effect sizes of 0.71 and 0.68; so the correct option is F.",
       "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
+      "status": "verified",
+      "blind_solvable": null,
       "blind_basis": "logic",
       "flag_reason": "Bosluk 'produced almost (39)___' kalibinda; 'almost' (neredeyse) sozcugu yakinlik/esitlik bildiren bir ifadeyle dogal olarak eslesiyor, kelime bankasindaki 'much weaker results' ise buyuk bir farki ima ettigi icin bu kalipla celisiyor -- bu dilbilgisel uyum yalniz 'equal benefits'i birakiyor.",
-      "flag_mechanism": "esdizim_kilidi"
+      "flag_mechanism": "esdizim_kilidi",
+      "revision": {
+        "tarih": "2026-08-08",
+        "mekanizma": "esdizim_kilidi",
+        "onceki_prompt": "Where no such link existed, the two produced almost (39) ........ .",
+        "ne_degisti": "'produced almost ___' kalibindaki 'almost' kaldirildi: 'almost' yakinlik bildirdigi icin bankadaki tek yakinlik ifadesini (F) isaret ediyor, G'yi ise dilbilgisiyle eliyordu. Yeni cercevede G ('much weaker results') de dilbilgisi ve anlam bakimindan uyuyor."
+      }
     },
     {
       "number": 40,
-      "prompt": "Neither how long a rest ran nor which stages it contained predicted the size of the gain, which suggests that simply getting (40) ........ counted for more than the internal shape of that sleep.",
+      "prompt": "Neither how long a rest ran nor which stages it contained predicted the size of the gain; what counted, the authors argue, was (40) ........ rather than anything about the internal shape of the sleep.",
       "answer": [
         "A"
       ],
@@ -165,13 +177,19 @@
         "paragraph": "F",
         "sentence": 2
       },
-      "explanation": "Paragraph F says that neither the length of the nap nor the sleep stages it contained showed a significant relationship with the memory gain, and that what mattered was simply having the chance to sleep; so the correct option is A.",
+      "explanation": "Paragraph F says that neither the length of a nap nor the sleep stages it contained showed a significant relationship with the memory gain, and that simply having the opportunity to sleep mattered more than the nap's internal structure; so the correct option is A.",
       "difficulty": "hard",
-      "status": "flagged",
-      "blind_solvable": true,
+      "status": "verified",
+      "blind_solvable": null,
       "blind_basis": "logic",
       "flag_reason": "Bosluk 'simply getting (40)___ counted for more...' kalibinda; 'getting a chance to X' Ingilizcede yerlesik bir ifade oldugu icin, sekerlemenin ic yapisindan degil firsatin kendisinden soz edildigi bu kalip parcaya bakmadan da 'a chance to sleep'i isaret ediyor.",
-      "flag_mechanism": "esdizim_kilidi"
+      "flag_mechanism": "esdizim_kilidi",
+      "revision": {
+        "tarih": "2026-08-08",
+        "mekanizma": "esdizim_kilidi",
+        "onceki_prompt": "Neither how long a rest ran nor which stages it contained predicted the size of the gain, which suggests that simply getting (40) ........ counted for more than the internal shape of that sleep.",
+        "ne_degisti": "'simply getting ___' kalibi ('get a chance to ...' yerlesik esdizimi) kaldirildi ve kelime bankasindaki E secenegi ('deeper sleep' -> 'an unbroken night') bu cerceveye oturan gercek bir rakip yapildi; 'deeper sleep' zaten uykunun IC YAPISI oldugu icin cumlenin kendisiyle celisiyor, yani rakip sayilmiyordu."
+      }
     }
   ]
 }

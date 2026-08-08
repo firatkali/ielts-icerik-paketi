@@ -51,11 +51,12 @@
       },
       "explanation": "Paragraph D, listing the conditions during the forest sessions, gives the humidity as 94.25 per cent; since the question asks for the quantity measured at 94.25 per cent, the answer is 'humidity'.",
       "difficulty": "easy",
-      "status": "flagged",
+      "status": "rejected",
       "blind_solvable": true,
       "blind_basis": "logic",
       "flag_reason": "Bosluk 'extremely damp, with ___ measured at 94.25%' kalibinda; 'damp' (nemli) sifatiyla dogal olarak eslesen olculebilir nicelik 'humidity' (nem orani) oldugu icin parcaya bakmadan da tahmin edilebiliyor.",
-      "flag_mechanism": "esdizim_kilidi"
+      "flag_mechanism": "esdizim_kilidi",
+      "reject_reason": "Bosluk yuzde olarak verilen bir hava olcumunu istiyor; pasajin siraladigi dort degerden (sicaklik, kar derinligi, nem, ruzgar) yalniz biri yuzdeyle ifade edilir, dolayisiyla sayinin birimi tek basina cevabi veriyor. Birimi gizlemek sayiyi da gizlemeyi gerektiriyor, o zaman da soru olculebilir bir ayrintiya dayanmaktan cikiyor. E6 bu yuvayi ruzgar hizina (1.13 m/s) ya da kar derinligine capalamali."
     },
     {
       "number": 21,
@@ -73,11 +74,12 @@
       },
       "explanation": "Paragraph E explains that the scales were filled in immediately before and after the 15 minutes so that any change could be attributed to the setting rather than to the 'mere passage of time'; so the answer is 'passage'.",
       "difficulty": "hard",
-      "status": "flagged",
+      "status": "rejected",
       "blind_solvable": true,
       "blind_basis": "logic",
       "flag_reason": "Bosluk 'the mere ___ of time' kalibinin ucunda; 'the passage of time' Ingilizcede tamamen kaliplasmis bir ifade oldugu icin parcaya bakmadan da tahmin edilebiliyor.",
-      "flag_mechanism": "esdizim_kilidi"
+      "flag_mechanism": "esdizim_kilidi",
+      "reject_reason": "'the passage of time' Ingilizcede tam kaliplasmis bir ifade; bosluk bu kalibin icinde durdugu surece hangi cerceveye konursa konsun tek tamamlamasi var, 'of time' kaldirildiginda ise cumle anlamini yitiriyor. E6 bu yuvayi ayni cumlenin olculebilir ayrintisina (anketlerin kagit uzerinde, on bes dakikanin hemen oncesinde ve hemen sonrasinda uygulanmasi) tasimali."
     },
     {
       "number": 22,

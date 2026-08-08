@@ -13,7 +13,7 @@
   "word_limit": "ONE WORD ONLY",
   "word_bank": null,
   "visual": null,
-  "stem_block": "Testing insight in an Asian elephant\n\nThe set-up\n- Food placed high above the ground, hanging from a (1) ........\n- A stick made of (2) ........ lay beside the animals but was ignored at first\n\nWhat Kandula did\n- First success came in session number (3) ........\n- A tractor (4) ........ served the same purpose once the cube was taken away\n- He recalled where the cube lay after it had been hidden round a (5) ........\n\nWhy earlier tests failed\n- The trunk picks up touch and smell as keenly as a human (6) ........ does",
+  "stem_block": "Testing insight in an Asian elephant\n\nThe set-up\n- Food placed high above the ground, hanging from a (1) ........\n- A stick made of (2) ........ lay beside the animals but was ignored at first\n\nWhat Kandula did\n- First success came in session number (3) ........\n- A tractor (4) ........ served the same purpose once the cube was taken away\n- He recalled where the cube lay after it had been moved out of sight, past a (5) ........ and into a walled passage\n\nWhy earlier tests failed\n- The trunk picks up touch and smell as keenly as a human (6) ........ does",
   "items": [
     {
       "number": 1,
@@ -97,7 +97,7 @@
     },
     {
       "number": 5,
-      "prompt": "He recalled where the cube lay after it had been hidden round a (5) ........",
+      "prompt": "He recalled where the cube lay after it had been moved out of sight, past a (5) ........ and into a walled passage",
       "answer": [
         "corner"
       ],
@@ -109,13 +109,19 @@
         "paragraph": "E",
         "sentence": 2
       },
-      "explanation": "Paragraph E says the cube was hidden round a corner, in a walled passage invisible from the entrance; the gap asks where it was hidden, so the answer is 'corner'.",
+      "explanation": "Paragraph E says the researchers hid the cube around a corner, in a walled passage invisible from the point where Kandula entered the enclosure; the gap asks what the cube was moved past, so the answer is 'corner'.",
       "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
+      "status": "verified",
+      "blind_solvable": null,
       "blind_basis": "logic",
       "flag_reason": "Bosluk 'hidden round a ___' kalibinin ucunda; 'a corner' (kose) bu kalibin en dogal ve yaygin tamamlamasi oldugu icin parcaya bakmadan da tahmin edilebiliyor.",
-      "flag_mechanism": "esdizim_kilidi"
+      "flag_mechanism": "esdizim_kilidi",
+      "revision": {
+        "tarih": "2026-08-08",
+        "mekanizma": "esdizim_kilidi",
+        "onceki_prompt": "He recalled where the cube lay after it had been hidden round a (5) ........",
+        "ne_degisti": "'hidden round a ___' esdizimi kaldirildi. Yeni cerceve boslugu 'duvarli gecide girmeden once gecilen sey' olarak kuruyor; door, wall, screen, gate adaylari da uyuyor, secim yalniz E paragrafina bagli."
+      }
     },
     {
       "number": 6,

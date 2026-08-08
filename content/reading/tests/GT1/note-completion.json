@@ -13,11 +13,11 @@
   "word_limit": "NO MORE THAN THREE WORDS AND/OR A NUMBER",
   "word_bank": null,
   "visual": null,
-  "stem_block": "Notes for new employees\n\nShift pattern\n- The pattern changes every four weeks; the new one is put up on the staff (15) ........ by the Friday before at the latest\n\nBreaks\n- Colleagues in one team do not stop at the same moment — their breaks are (16) ........ so that no line is left with nobody on it\n\nRecording hours\n- Coming in and going out, lunch included, is registered with the (17) ........ by the staff entrance\n\nExchanging a shift\n- Ask the supervisor in writing two days beforehand, on a (18) ........ picked up at the staff office\n\nAnnual leave\n- Someone working full time receives (19) ........ of paid leave a year, with public holidays counted inside that total\n- Time off is booked on the online (20) ........ , a fortnight ahead as a minimum",
+  "stem_block": "Notes for new employees\n\nShift pattern\n- The pattern changes every four weeks; the new one appears on the staff (15) ........ by the Friday before at the latest\n\nBreaks\n- Within a team, breaks are (16) ........ ; the rule exists to protect the production lines\n\nRecording hours\n- Coming in and going out, lunch included, is registered with the (17) ........ by the staff entrance\n\nExchanging a shift\n- Ask the supervisor in writing two days beforehand, on a (18) ........ picked up at the staff office\n\nAnnual leave\n- Someone working full time receives (19) ........ of paid leave a year, with public holidays counted inside that total\n- Time off is booked on the online (20) ........ , a fortnight ahead as a minimum",
   "items": [
     {
       "number": 15,
-      "prompt": "Shift pattern: The pattern changes every four weeks; the new one is put up on the staff (15) ........ by the Friday before at the latest",
+      "prompt": "Shift pattern: The pattern changes every four weeks; the new one appears on the staff (15) ........ by the Friday before at the latest",
       "answer": [
         "noticeboard"
       ],
@@ -31,17 +31,23 @@
         "paragraph": "A",
         "sentence": 3
       },
-      "explanation": "Paragraph A of Text A says that the shift pattern, which changes every four weeks, is posted on the staff noticeboard no later than the preceding Friday; so the answer is 'noticeboard'.",
+      "explanation": "Paragraph A of Text A says that the shift pattern, which rotates every four weeks, is published on the staff noticeboard no later than the preceding Friday; so the answer is 'noticeboard'.",
       "difficulty": "easy",
-      "status": "flagged",
-      "blind_solvable": true,
+      "status": "verified",
+      "blind_solvable": null,
       "blind_basis": "logic",
       "flag_reason": "Bosluk 'put up on the staff ___' kalibinin ucunda; 'put up' fiiliyle en dogal eslesen yer 'noticeboard' (ilan panosu) oldugu icin parcaya bakmadan da tahmin edilebiliyor.",
-      "flag_mechanism": "esdizim_kilidi"
+      "flag_mechanism": "esdizim_kilidi",
+      "revision": {
+        "tarih": "2026-08-08",
+        "mekanizma": "esdizim_kilidi",
+        "onceki_prompt": "Shift pattern: The pattern changes every four weeks; the new one is put up on the staff (15) ........ by the Friday before at the latest",
+        "ne_degisti": "'put up on the staff ___' esdizimi kaldirildi. Ayni belge kumesi cevrimici bir personel portalini da anlatiyor; 'appears on the staff ___' cercevesinde noticeboard, portal ve intranet esit derecede uyuyor, secim yalniz A metnine bakilarak yapilabiliyor."
+      }
     },
     {
       "number": 16,
-      "prompt": "Breaks: Colleagues in one team do not stop at the same moment — their breaks are (16) ........ so that no line is left with nobody on it",
+      "prompt": "Breaks: Within a team, breaks are (16) ........ ; the rule exists to protect the production lines",
       "answer": [
         "staggered"
       ],
@@ -54,13 +60,19 @@
         "paragraph": "B",
         "sentence": 5
       },
-      "explanation": "Paragraph B of Text A says that breaks within a team must be staggered so that production lines are never left unattended; so the answer is 'staggered'.",
+      "explanation": "Paragraph B of Text A says that breaks must be staggered within each team so that production lines are never left unattended; so the answer is 'staggered'.",
       "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
+      "status": "verified",
+      "blind_solvable": null,
       "blind_basis": "logic",
       "flag_reason": "Bosluk 'their breaks are ___ so that no line is left...' kalibinda; vardiya planlamasinda 'staggered breaks' (kaydirmali molalar) is yerinde yaygin kullanilan kaliplasmis bir ifade oldugu icin parcaya bakmadan da tahmin edilebiliyor.",
-      "flag_mechanism": "esdizim_kilidi"
+      "flag_mechanism": "esdizim_kilidi",
+      "revision": {
+        "tarih": "2026-08-08",
+        "mekanizma": "esdizim_kilidi",
+        "onceki_prompt": "Breaks: Colleagues in one team do not stop at the same moment — their breaks are (16) ........ so that no line is left with nobody on it",
+        "ne_degisti": "Boslugun onundeki 'colleagues do not stop at the same moment' aciklamasi kaldirildi: bu aciklama 'staggered' sozcugunun tanimini veriyordu. Yeni cercevede scheduled, rotated, limited, coordinated adaylari da uyuyor."
+      }
     },
     {
       "number": 17,
@@ -85,7 +97,8 @@
       "blind_solvable_kelime_duzeyi": false,
       "blind_basis": "logic",
       "flag_reason": "Parça gösterilmeden anlamca 3/3 turda doğru bilindi: farklı kelimeyle ama doğru kavramla cevaplandı ('time clock / card reader / clocking-in machine' verdi; üçü de personel girişindeki aynı cihazı adlandırıyor).",
-      "flag_mechanism": "esdizim_kilidi"
+      "flag_mechanism": "esdizim_kilidi",
+      "review_note": "E10 anlam duzeyi olcumunden gelen isaret: model parcasiz uc turda da dogru KAVRAMI verdi, tutmayan sey sozcugun kendisiydi. Bu bicimde sizinti cercevede degil boslugun hedefinde durur; kapatmak icin boslugu baska bir ayrintiya tasimak, yani `answer` alanini degistirmek gerekir. Talimatin korunan alan kurali buna izin vermedigi ve soru kelime duzeyinde hala calistigi icin soru oldugu gibi birakildi. Model 'time clock / card reader / clocking-in machine' verdi. Personel girisindeki giris-cikis kayit cihazi kavrami cerceveden dogrudan cikiyor. E6 onerisi: cihaz yerine ogle molasinin da kaydedilmesi kuralina capalanmis yuva."
     },
     {
       "number": 18,
@@ -110,7 +123,8 @@
       "blind_solvable_kelime_duzeyi": false,
       "blind_basis": "logic",
       "flag_reason": "Parça gösterilmeden anlamca 3/3 turda doğru bilindi: farklı kelimeyle ama doğru kavramla cevaplandı ('shift swap form / shift change form / shift swap form' verdi; vardiya değişimi için doldurulan aynı belge).",
-      "flag_mechanism": "esdizim_kilidi"
+      "flag_mechanism": "esdizim_kilidi",
+      "review_note": "E10 anlam duzeyi olcumunden gelen isaret: model parcasiz uc turda da dogru KAVRAMI verdi, tutmayan sey sozcugun kendisiydi. Bu bicimde sizinti cercevede degil boslugun hedefinde durur; kapatmak icin boslugu baska bir ayrintiya tasimak, yani `answer` alanini degistirmek gerekir. Talimatin korunan alan kurali buna izin vermedigi ve soru kelime duzeyinde hala calistigi icin soru oldugu gibi birakildi. Model 'shift swap / shift change form' verdi. Vardiya degisimi icin doldurulan belgeyi soran her cerceve ayni bilesigi uretiyor. E6 onerisi: belge yerine 48 saatlik onceden bildirim suresine capalanmis yuva."
     },
     {
       "number": 19,
@@ -158,7 +172,8 @@
       "blind_solvable_kelime_duzeyi": false,
       "blind_basis": "logic",
       "flag_reason": "Parça gösterilmeden anlamca 3/3 turda doğru bilindi: farklı kelimeyle ama doğru kavramla cevaplandı ('booking system / staff portal / booking system' verdi; izin taleplerinin girildiği aynı çevrimiçi sistem).",
-      "flag_mechanism": "esdizim_kilidi"
+      "flag_mechanism": "esdizim_kilidi",
+      "review_note": "E10 anlam duzeyi olcumunden gelen isaret: model parcasiz uc turda da dogru KAVRAMI verdi, tutmayan sey sozcugun kendisiydi. Bu bicimde sizinti cercevede degil boslugun hedefinde durur; kapatmak icin boslugu baska bir ayrintiya tasimak, yani `answer` alanini degistirmek gerekir. Talimatin korunan alan kurali buna izin vermedigi ve soru kelime duzeyinde hala calistigi icin soru oldugu gibi birakildi. Model 'booking system / staff portal' verdi. 'Cevrimici ___ uzerinden izin talebi' cercevesi kavrami veriyor. 15. sorunun duzeltilmesiyle bu iki bosluk artik birbirini kismen kisitliyor (noticeboard - portal), ama sozcuk duzeyi sizintisi kapanmiyor. E6 onerisi: iki haftalik asgari sureye capalanmis yuva."
     }
   ]
 }

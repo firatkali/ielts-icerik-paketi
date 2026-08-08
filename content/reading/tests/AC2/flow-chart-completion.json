@@ -13,11 +13,11 @@
   "word_limit": "NO MORE THAN THREE WORDS AND/OR A NUMBER",
   "word_bank": null,
   "visual": null,
-  "stem_block": "From first sighting to an official name\n\nThe Near-Infrared Camera records ten long exposures, each of (1) ........ , while a faint speck is followed against the star background for roughly six hours.\n    ↓\nThe speck is accepted as a body circling Uranus and is entered in the records under the provisional (2) ........ S/2025 U1.\n    ↓\nAs the object is too faint to measure directly, its width is put at some ten kilometres, on the assumption that it (3) ........ light much as Uranus's other small moons do.\n    ↓\nIts path proves to be almost circular and to lie in the gap between Bianca and (4) ........ , not far from the plane of the planet's equator.\n    ↓\nThe moon is counted as the (5) ........ member of the planet's crowd of small inner satellites.\n    ↓\nA lasting name, drawn from plays and poetry rather than from myth, still has to be approved by the (6) ........ .",
+  "stem_block": "From first sighting to an official name\n\nThe Near-Infrared Camera records a run of long exposures, each of (1) ........ , as a faint speck is followed against the background of stars.\n    ↓\nThe speck is accepted as a body circling Uranus and is entered in the records under the provisional (2) ........ S/2025 U1.\n    ↓\nAs the object is too faint to measure directly, its width is put at some ten kilometres, on the assumption that it (3) ........ light much as Uranus's other small moons do.\n    ↓\nIts path proves to be almost circular and to lie in the gap between Bianca and (4) ........ , not far from the plane of the planet's equator.\n    ↓\nThe moon is counted as the (5) ........ member of the planet's crowd of small inner satellites.\n    ↓\nA lasting name, drawn from plays and poetry rather than from myth, still has to be approved by the (6) ........ .",
   "items": [
     {
       "number": 1,
-      "prompt": "The Near-Infrared Camera records ten long exposures, each of (1) ........ , while a faint speck is followed against the star background for roughly six hours.",
+      "prompt": "The Near-Infrared Camera records a run of long exposures, each of (1) ........ , as a faint speck is followed against the background of stars.",
       "answer": [
         "forty minutes"
       ],
@@ -30,14 +30,20 @@
         "paragraph": "B",
         "sentence": 2
       },
-      "explanation": "Paragraph B says each of the ten separate images lasted forty minutes; the gap asks for the length of a single exposure, so the answer is 'forty minutes'. The six hours is the total span over which all ten exposures were spread.",
+      "explanation": "Paragraph B says Webb's Near-Infrared Camera captured a series of long-exposure images, each lasting forty minutes; the gap asks how long a single exposure ran, so the answer is 'forty minutes'.",
       "difficulty": "easy",
-      "status": "flagged",
-      "blind_solvable": true,
+      "status": "verified",
+      "blind_solvable": null,
       "blind_solvable_kelime_duzeyi": false,
       "blind_basis": "logic",
       "flag_reason": "Parça gösterilmeden anlamca 3/3 turda doğru bilindi: farklı kelimeyle ama doğru kavramla cevaplandı (3 turda da '40 minutes' verdi, gerçek cevap 'forty minutes' — aynı sayının rakamla yazılışı).",
-      "flag_mechanism": "esdizim_kilidi"
+      "flag_mechanism": "esdizim_kilidi",
+      "revision": {
+        "tarih": "2026-08-08",
+        "mekanizma": "esdizim_kilidi",
+        "onceki_prompt": "The Near-Infrared Camera records ten long exposures, each of (1) ........ , while a faint speck is followed against the star background for roughly six hours.",
+        "ne_degisti": "Kutu hem poz sayisini ('ten') hem toplam sureyi ('roughly six hours') veriyordu; 6 saat / 10 = 36 ~ 40 dakika islemi cevabi pasaja hic bakmadan veriyordu. Sizinti burada esdizim degil aritmetikti; iki sayi da kutudan cikarildi ve akis semasinin baska bir yerinde tekrar edilmedi."
+      }
     },
     {
       "number": 2,
@@ -77,11 +83,12 @@
       },
       "explanation": "Paragraph C states that the diameter estimate rests on the assumption that the object reflects light in a similar way to Uranus's other small moons; the gap asks for the verb in this assumption, so the answer is 'reflects'.",
       "difficulty": "hard",
-      "status": "flagged",
+      "status": "rejected",
       "blind_solvable": true,
       "blind_basis": "logic",
       "flag_reason": "Bosluk 'on the assumption that it ___ light much as ... other small moons do' kalibinin ucunda; gok cisimleri icin 'isigi yansitmak' (reflect light) en dogal ve yaygin fiil oldugu icin parcaya bakmadan da tahmin edilebiliyor.",
-      "flag_mechanism": "esdizim_kilidi"
+      "flag_mechanism": "esdizim_kilidi",
+      "reject_reason": "Bosluk 'it ___ light' kalibinin ortasinda ve bir gok cisminin parlakligindan cap tahmin etme varsayimi Ingilizcede yalniz 'reflect' fiiliyle kuruluyor. Fiili baska bir cerceveye tasimak ya cumleyi bozuyor ya da cevabi sifat bicimine ('reflective') ceviriyor, yani korunan alani degistiriyor. E6 bu adimi cap tahmininin sayisina ya da 'too faint to measure directly' gerekcesine capalamali."
     },
     {
       "number": 4,
