@@ -7688,3 +7688,133 @@ Her ifade, pasaj kapaliyken yalniz soru + uc secenekle cozulmeye calisildi
   calistirmanin isi. 2. calistirma buraya bakip ilk isaretsiz grubu almali.
 - Uygulayan betikler: `tools/_e6_ynng_uret.py` (uretim),
   `tools/_e6_liste_isaretle.py` (liste isaretleme).
+
+## OPUS5-E6-yeniden-uretim (2. calistirma - YES/NO/NOT GIVEN, alistirma)
+
+- **Kendi sayimim (yeniden yapildi, plana guvenilmedi):** `yeniden-uretim-listesi.json`
+  icindeki `elenen` listesi hala **71 yuva**. Bunlarin **10'u YNNG**: 3'u tam
+  testlerde (1. calistirma bitirdi), **7'si alistirma paketinde** - bu
+  calistirmanin kapsami tam olarak o 7:
+  `content/reading/practice/yes-no-not-given.json` **#2, #4, #5, #9, #11, #12,
+  #15**. Bu calistirma bitince kalan **61 yuva** (sentence_completion 17,
+  multiple_choice 14, summary_completion 8, matching_features 7,
+  note_completion 4, flow_chart_completion 3, true_false_not_given 3,
+  short_answer 3, table_completion 2). **YNNG tipi artik listede hic acik yuva
+  birakmiyor.**
+- Yedi yuva da **ayni dosyaya, ayni numarayla** yeniden dolduruldu; hicbir soru
+  silinmedi, hicbir numara kaymadi (15 soru girdi, 15 cikti). `python
+  tools/dogrula.py`: 12 tam testin hepsi 40/40, sema hatasi 0, toplam soru 1310
+  (degismedi). Alistirma paketi tam teste girmiyor ama bu calistirma bir tam
+  test dosyasina hic dokunmadigi icin butunluk zaten korunuyor.
+- Yeni kontrol betigi `tools/_e6_ynng_alistirma_kontrol.py`: **hata 0**. Sinadigi
+  seyler - kanit cumlesinin pasajda birebir gecmesi, `evidence_locator`in cumle
+  numarasinin gercekten o cumleye denk gelmesi, kanitlarin soru sirasiyla artmasi
+  (IELTS sira kurali), ifade ile pasaj arasinda 6 kelimelik birebir ortusme
+  olmamasi, cevap dagilimi, ardisik uc ayni cevap, kip esikleri.
+
+### Yeni yedi soru ve neden bu yerden yazildi
+
+| Yuva | Eski eksen (elenen) | Yeni kanit | Cevap | Kip |
+|---|---|---|---|---|
+| #2 A06 | C/1 - sira usulu atama "arastirmaya bilimsel guc verdi" (yontem kurali) | D/2 - standart calisma saati + sozlesme basina sabit 30 saat | YES | mutlak (`both fixed`) |
+| #4 A06 | H/3 - deneyimlinin yeni gelene hedefli rehberligi (mentorluk klisesi) | F/3 - birinci yil %26,2 / ikinci yil %8,6 | NO | olculu (`roughly twice`) |
+| #5 A10 | A/1 - acik ofis tartismasinin varligi (genel kultur) | B/2 - Latin karesi rotasyonu, her takim dort duzenden farkli sirayla | YES | mutlak (`Every ... all four`) |
+| #9 A11 | A/1 - "doganin stresi azalttigi yaygin kabul goruyor" | C/2 - kampuse iki dakika, ormana bes dakika yuruyus | NO | olculu (`seems ... about the same`) |
+| #11 A11 | G/1 - "kontrol kosulunun oruntusu tersiydi" (deney mantigi) | F/3 - en belirgin etki mood'da degil dinlendiricilik olceginde | YES | olculu (`seems to have concerned`) |
+| #12 A11 | H/3 - "orman kar altinda da sakinlestirir" (sezgisel + pilot kalibi) | H/1 - onceki calismalar yesilligi **enerjiyle** iliskilendirmisti | NO | olculu (`is said to ... mainly`) |
+| #15 A12 | H/3 - "sekerleme gece uykusunun yerini tutmaz" (populer bulgu) | kanitsiz - iki deneyin ayni kelime listesini kullanip kullanmadigi | NOT GIVEN | mutlak (`one and the same`) |
+
+- Alti yuvada E5'in "kacinilacak kanit cumlesi"nin bulundugu **paragrafa hic
+  dokunulmadi** (C'den D'ye, H'den F'ye, A'dan B'ye, A'dan C'ye, G'den F'ye,
+  H'den kanitsiza).
+- **Tek istisna #12**, ve bilerek: E5'in kendi notu bu pasaj icin "H paragrafindaki
+  karin canlilik uzerindeki etkisi savina tasinmali" diyordu. Yasak cumle H/3
+  (pilot calisma kapanisi), yeni kanit H/1 - araya H/2, yani sinirlilik beyani
+  giriyor ve o da bilerek bos birakildi. Yani paragraf ayni, iddia ve **kapanis
+  kalibi** baska.
+- #11 icin E5 iki capa onermisti: G/2 (dinlendiricilik yariya dustu) ya da H/1.
+  H/1 #12'ye verildi; G/2 **kullanilmadi** cunku dusus buyuklugu bilinmese de
+  yonu hala "kontrol kosulu kotu cikar" sezgisiyle tahmin edilebiliyor - yani
+  E5'in sikayet ettigi mekanizmanin aynisi. Onun yerine F/3 secildi: dort
+  olcekten hangisinin en guclu sonucu verdigi tamamen olcum-ici bir bilgi.
+- Yedi yeni ifadenin ekseni: iki tasarim sabiti (standart saat / 30 saat; Latin
+  karesi rotasyonu), iki sayisal buyukluk (%26,2'ye %8,6; bes dakikaya iki
+  dakika), bir olcek karsilastirmasi (en guclu etki hangi olcekte), bir
+  yazin-atifi yonu (yesillik enerjiyle mi sakinlikle mi anilmis) ve bir
+  sessizlik (iki deneyin liste ortakligi). Hicbiri disaridan bilinemez.
+
+### Kip imzasi sayimi (yasak 1)
+
+YNNG'de celdirici sik yok; esleme 1. calistirmadaki gibi: **YES = dogru taraf**,
+**NO/NOT GIVEN = celdirici taraf.** On bes soruluk paketin tamami:
+
+- **YES (4 soru): #2 mutlak, #5 mutlak, #7 mutlak, #11 olculu -> 3/4 = %75
+  mutlak** (esik 1/3) OK
+- **NO + NOT GIVEN (11 soru): #3, #4, #9, #12, #14 olculu -> 5/11 = %45 olculu**
+  (esik 1/3) OK
+
+Onemli olan esikler degil, ikisinin de her iki tarafta gorunmesi: mutlak ifade 3
+YES + 2 NO/NG'de (#6 `only`, #15 `one and the same`), olculu ifade 1 YES + 5
+NO/NG'de. Yani ne "mutlak yazilmissa yanlistir" ne de "olculu yazilmissa
+dogrudur" kestirmesi calisiyor. Elenen yedi yuvanin **hepsi** eski halinde bu
+kestirmelerden birine uyuyordu.
+
+### Konumsal duzen sayimi (yasak 2)
+
+- Harf cifti kurali YNNG'de karsiliksiz (sik listesi yok), 1. calistirmadaki
+  gibi uygulanmadi.
+- **Cevap dagilimi:** YES 4, NO 6, NOT GIVEN 5. Ucu de her pasaj obeginde temsil
+  ediliyor, hicbiri yariyi gecmiyor, ardisik uc ayni cevap yok (sira: NG, YES,
+  NO, NO, YES, NO, YES, NG, NO, NG, YES, NO, NG, NO, NG).
+- **Kanit paragraflari:** #2 D, #4 F, #5 B, #9 C, #11 F, #12 H. Basta (B, C),
+  ortada (D, F) ve sonda (H) - dogru cevap tek bir bolgeye toplanmiyor. Elenen
+  yedilinin eski hali ise iki ucta yiginlanmisti: uc soru **A/1'de** (pasajin
+  acilis genellemesi), uc soru **H/3'te** (kapanis cumlesi).
+- **Kapanis kalibi:** "sinirlilik beyani / pilot calisma / hakem degerlendirmesi"
+  turu kapanis cumlelerine (A10 H, A11 H/2-H/3, A12 H/3) **hicbir yeni soru
+  demirlenmedi**. Bu kalip zaten kendi basina parcasiz tahmine yol acan turden.
+
+### Kendi kendini sinama (uretim bitmeden; K3 olcutu - anlamca bilme de "bilinen")
+
+Her ifade **pasaj kapaliyken** yalniz soru + uc secenekle cozulmeye calisildi:
+
+- **#2 (saat/sozlesme sabit mi?)** - bilinemedi. Ustelik uzaktan calisma sirketi
+  cagrisimi esnek saate isaret ediyor, yani sezgi YES'i degil NO'yu destekliyor.
+- **#4 (birinci yil ikinci yilin kabaca iki kati mi?)** - bilinemedi. "Yeni gelen
+  daha cok kazanir" sezgisi *yonu* verir, **buyuklugu** vermez; soru tam olarak
+  buyuklugu soruyor (gercek oran ~3 kat).
+- **#5 (her takim dort duzenin hepsinden gecti mi?)** - bilinemedi. Takimlarin
+  duzenlere bolundugu bir tasarim da esit olculude makuldu.
+- **#9 (iki ortama yuruyus esit mi?)** - bilinemedi; burada sezgi **yanlis** yone
+  cekiyor: iyi bir deney tasarimcisinin yuruyusleri esitlemesi beklenir, yani
+  metodoloji bilgisi YES dedirtiyor, dogru cevap NO.
+- **#11 (en guclu etki hangi olcekte?)** - bilinemedi; sezgi mood olceklerini
+  soyler (pasajin basligi bile "calms the mind"), dogru cevap dinlendiricilik
+  olcegi.
+- **#12 (yesillik sakinlikle mi anilmis?)** - bilinemedi ve bu sorunun asil degeri
+  burada: yaygin kultur yesilligi **sakinlikle** ozdeslestirir, pasaj ise **enerji
+  ve tetikte olmayla** iliskilendiriyor. Disaridan gelen bilgi okuru dogrudan
+  yanlis cevaba goturuyor - genel kultur artik odul degil ceza.
+- **#15 (iki deney ayni listeyi mi kullandi?)** - bilinemedi. Tuzak metnin
+  icinden: iki deneyde de 40+40 boluntusu verildigi icin "demek ki ayni liste"
+  cikarimi cazip, ama yazar bunu hicbir yerde soylemiyor.
+
+Yedisinde de sinama gecildi, ucu (#9, #11, #12) genel bilgiyi acikca cezalandiran
+turden. Yine de olcum **E7'nin isi**: yedisi de `blind_solvable: null`,
+`blind_basis: null` birakildi.
+
+- Yuvalarda `status: "verified"`, `generated_by: "opus"` (dosya duzeyindeki
+  `generated_by: "fable"` elde degistirilmedi, 1. calistirmadaki gerekceyle).
+- Elenen sorunun izi silinmedi: her yuvada `yeniden_uretim` blogu var - eski
+  ifade, eski cevap, eski kanit cumlesi, E5'in eleme gerekcesi, ne degistigi;
+  #11'de ayrica E5'in `review_note` metni `e5_notu` alaninda korundu. Eskiyen
+  `flag_reason` / `flag_mechanism` / `reject_reason` / `review_note` alanlari
+  kaldirildi, cunku artik farkli bir soruyu anlatiyorlardi.
+- Listede bu yedi yuvaya `yeniden_uretildi` islendi; **kalan 61 yuva** sonraki
+  bes calistirmanin isi. 3. calistirma (coktan secmeli - tam testler) buraya
+  bakip ilk isaretsiz grubu almali.
+- Uygulayan betikler: `tools/_e6_ynng_alistirma.py` (uretim),
+  `tools/_e6_ynng_alistirma_kontrol.py` (kontrol),
+  `tools/_e6_liste_isaretle.py` (liste isaretleme; bu calistirmada docstring'inde
+  vaat edilen argumanli kullanim gercekten uygulandi, boylece 3-7. calistirmalar
+  betigi elle duzenlemeden isaretleyebilir).

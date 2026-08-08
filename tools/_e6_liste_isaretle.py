@@ -20,7 +20,22 @@ HEDEF = [("content/reading/tests/GT1/yes-no-not-given.json", 33),
          ("content/reading/tests/GT2/yes-no-not-given.json", 34)]
 
 
+def argumanlari_oku(argv):
+    """<calistirma-etiketi> <dosya:numara> ... -> (etiket, hedef listesi)"""
+    if not argv:
+        return ETIKET, list(HEDEF)
+    etiket, hedef = argv[0], []
+    for a in argv[1:]:
+        rel, _, no = a.rpartition(":")
+        hedef.append((rel, int(no)))
+    if not hedef:
+        raise SystemExit("en az bir <dosya:numara> gerekli")
+    return etiket, hedef
+
+
 def main():
+    global ETIKET, HEDEF
+    ETIKET, HEDEF = argumanlari_oku(sys.argv[1:])
     d = json.load(open(YOL, encoding="utf-8"))
     ifadeler = {}
     for rel in sorted(set(r for r, _ in HEDEF)):

@@ -702,3 +702,25 @@
 
 08.08.2026 06:07
   - isaretli (flagged)     33
+
+08.08.2026 06:19
+  - isaretli (flagged)     33
+
+08.08.2026 07:05  OPUS5-E6 2/7 - YES/NO/NOT GIVEN alistirma
+  - practice/yes-no-not-given.json #2, #4, #5, #9, #11, #12, #15 ayni
+    dosyada ayni numarayla yeniden dolduruldu. 15 soru girdi, 15 cikti;
+    hicbir soru silinmedi, hicbir numara kaymadi.
+  - E5 listesi: 71 yuvanin 10'u YNNG idi; 3'u 1. calistirmada, 7'si
+    burada bitti. YNNG tipi artik listede acik yuva birakmiyor.
+    Kalan 61 yuva sonraki bes calistirmanin isi.
+  - [!] 3. calistirmaya (coktan secmeli - tam testler): tools/
+    _e6_liste_isaretle.py artik argumanla calisiyor, betigi elle
+    duzenlemeye gerek yok. Kontrol icin _e6_ynng_alistirma_kontrol.py
+    ornek alinabilir (kanit-cumle esleme + locator + sira + kip esigi).
+  - [!] A11 pasajinda G/1 hala yasakli kanit (kontrol kosulu sezgisi);
+    G/2 de ayni sezgiyi tasidigi icin bu calistirmada kullanilmadi.
+    A10/A11/A12 H paragraflarindaki kapanis-sinirlilik cumleleri de
+    bilerek bos birakildi; sonraki calistirmalar oraya demirlemesin.
+  - dogrula.py: 12 tam test 40/40, sema hatasi 0, toplam soru 1310.
+  - _e6_ynng_alistirma_kontrol.py: hata 0.
+  - isaretli (flagged)     33

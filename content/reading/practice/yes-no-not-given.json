@@ -49,26 +49,36 @@
     {
       "number": 2,
       "passage_id": "A06",
-      "prompt": "The firm's way of assigning new staff to teams gave the research unusual scientific strength.",
+      "prompt": "Working hours and the support time attached to each client contract were both fixed across the company.",
       "answer": [
         "YES"
       ],
-      "evidence": "What made the study unusually rigorous was a quirk of company policy: new hires were placed into teams using a simple round-robin system based purely on the order in which they joined, a process neither managers nor employees could influence.",
+      "evidence": "Because the company standardises working hours and each client contract allocates a fixed thirty hours of monthly support, the number of clients handled is a dependable stand-in for how much useful work an individual completed, avoiding the ambiguity that self-reported effort or hours worked can introduce into workplace research.",
       "evidence_locator": {
-        "paragraph": "C",
-        "sentence": 1
+        "paragraph": "D",
+        "sentence": 2
       },
       "contradiction_point": null,
       "not_given_justification": null,
-      "scan_note": "Çalışmanın yöntem gücü C paragrafında işleniyor: C/1 sıra usulü yerleştirmenin çalışmayı alışılmadık ölçüde titiz kıldığını, C/2 bunun neden-sonuç çıkarımına izin verdiğini söylüyor. B veri kaynaklarını anlatıyor ama titizlik yargısı C'de; çelişen cümle yok.",
-      "explanation": "The writer presents the round-robin assignment of new hires to teams as the feature that made the study 'unusually rigorous'; the statement is a paraphrase of this claim.",
+      "scan_note": "Olcum tasarimi D paragrafinda: D/1 uretkenligin ayda hizmet verilen farkli musteri sayisiyla olculdugunu soyluyor, D/2 iki sabiti yan yana veriyor - sirketin calisma saatlerini standartlastirmasi ve her musteri sozlesmesinin aylik otuz saat ayirmasi. B/3 calisma saatlerini yalnizca operasyonel kayitlarin icerigi olarak aniyor, sabitlikten soz etmiyor; baska hicbir paragraf sozlesme suresi vermiyor.",
+      "explanation": "The writer says the company standardises working hours and that each client contract allocates a fixed thirty hours of monthly support, so both quantities were held constant.",
       "difficulty": "medium",
-      "status": "rejected",
-      "blind_solvable": true,
-      "blind_basis": "general_knowledge",
-      "flag_reason": "Cevap YES, yeni calisanlarin rastgele/sira usulu bicimde takimlara atanmasinin arastirmalarda nedensellik cikarimini guclendiren bilinen bir yontem (rastgele atama mantigi, deneysel kontrollu calismalara benzer) olmasi genel arastirma yontemi bilgisiyle parcaya bakmadan da tahmin edilebiliyor.",
-      "flag_mechanism": "genel_kultur",
-      "reject_reason": "Sorunun ekseni genel arastirma yontemi bilgisi: yeni calisanlarin sira ya da rastgele usulle takimlara dagitilmasinin nedensellik cikarimini guclendirdigi, pasajdan bagimsiz olarak bilinen bir metodoloji kurali. Kip dengelemesi ya da konum degisikligi bunu kapatmaz; ifade nasil yazilirsa yazilsin cevap yontem bilgisinden cikar."
+      "status": "verified",
+      "blind_solvable": null,
+      "blind_basis": null,
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-08",
+        "kaynak_prompt": "prompts/OPUS5-E6-yeniden-uretim.md (2/7)",
+        "uretilen_grup": "YES/NO/NOT GIVEN - alistirma",
+        "eski_prompt": "The firm's way of assigning new staff to teams gave the research unusual scientific strength.",
+        "eski_cevap": [
+          "YES"
+        ],
+        "eski_kanit_cumlesi": "What made the study unusually rigorous was a quirk of company policy: new hires were placed into teams using a simple round-robin system based purely on the order in which they joined, a process neither managers nor employees could influence.",
+        "neden_elendi": "Sorunun ekseni genel arastirma yontemi bilgisi: yeni calisanlarin sira ya da rastgele usulle takimlara dagitilmasinin nedensellik cikarimini guclendirdigi, pasajdan bagimsiz olarak bilinen bir metodoloji kurali. Kip dengelemesi ya da konum degisikligi bunu kapatmaz; ifade nasil yazilirsa yazilsin cevap yontem bilgisinden cikar.",
+        "ne_degisti": "Yuva bosaltilip ayni pasajdan yeni bir ifadeyle dolduruldu. Eski soru C/1'e dayaniyordu: yeni calisanlarin sira usulu takimlara dagitilmasinin arastirmaya 'olagandisi bilimsel guc' verdigi. Rastgeleye yakin atamanin nedensellik cikarimini guclendirdigi genel bir yontem kurali oldugu icin cevap pasajsiz da cikiyordu. Yeni ifade C paragrafina hic degmiyor: kanit D/2'ye, olcumun iki sabitine tasindi (standartlastirilmis calisma saati + sozlesme basina sabit otuz saat). Bunlar sirkete ozgu keyfi tasarim ayrintilari; disaridan bilinemez, cunku esnek saat ya da degisken sozlesme suresi de esit olculude makuldu. Kip dengesi icin ifade mutlak yazildi ('both fixed across the company') ve cevabi YES: mutlak kipin otomatik olarak yanlis tarafa isaret etmesi kirildi."
+      }
     },
     {
       "number": 3,
@@ -102,50 +112,70 @@
     {
       "number": 4,
       "passage_id": "A06",
-      "prompt": "Longer-serving colleagues can offer newcomers precisely aimed support at the moments they need it.",
+      "prompt": "Staff in their first year gained roughly twice as much from experienced teammates as second-year staff did.",
       "answer": [
-        "YES"
+        "NO"
       ],
-      "evidence": "Experienced colleagues, by contrast, seem able to give newcomers efficient, targeted guidance precisely when it is needed, a benefit that requires no visible display of productivity and, the study suggests, works better with less routine interruption rather than more.",
+      "evidence": "This benefit was strongly concentrated among newer staff: employees in their first year on the job gained around 26.2 per cent when surrounded by experienced teammates, second-year employees gained a more modest 8.6 per cent, and the effect shrank close to zero for longer-serving staff.",
       "evidence_locator": {
-        "paragraph": "H",
+        "paragraph": "F",
         "sentence": 3
       },
-      "contradiction_point": null,
+      "contradiction_point": "F/3 iki sayiyi da veriyor: birinci yil yaklasik %26,2, ikinci yil %8,6. Oran ikiye degil, uce yakin (yaklasik 3,05 kat). Celiski tek noktada: iki kidem grubu arasindaki kazanc orani. Ifadedeki 'roughly' esnekligi bunu kapatmiyor, cunku uc kat 'kabaca iki kat' sayilamaz.",
       "not_given_justification": null,
-      "scan_note": "Deneyimli çalışanların katkısı F (verim artışı, özellikle ilk yıl çalışanlarında) ve H/3–H/4'te (hedefli rehberlik, yeni gelenlerin deneyimlilerle eşleştirilmesi önerisi) geçiyor; H/3 ifadeyi tek başına doğruluyor, çelişen cümle yok.",
-      "explanation": "The writer argues that experienced colleagues can give newcomers efficient, targeted guidance exactly when it is needed; the statement matches this claim.",
+      "scan_note": "Kidem kirilimi yalnizca F/3'te sayiyla veriliyor (%26,2 / %8,6 / sifira yakin). F/2 takim duzeyindeki ortalama kazanci (%12,2) veriyor ama yila gore ayirmiyor; H/4 ayni oruntuyu sayisiz bicimde yonetici onerisine ceviriyor. Baska hicbir yerde ikinci bir oran yok, yani karsilastirma bu tek cumlenin icindeki iki sayiyla yapiliyor.",
+      "explanation": "The figures given are around 26.2 per cent for first-year staff against 8.6 per cent for second-year staff, a gap of about three times rather than two.",
       "difficulty": "medium",
-      "status": "rejected",
-      "blind_solvable": true,
-      "blind_basis": "general_knowledge",
-      "flag_reason": "Cevap YES, deneyimli calisanlarin yeni gelenlere hedefli rehberlik sunabildigi, isyeri mentorlugu uzerine yaygin genel bilgiyle (deneyim aktarimi) parcaya bakmadan da makul bir tahmin.",
-      "flag_mechanism": "genel_kultur",
-      "reject_reason": "Sorunun ekseni genel is yasami bilgisi: deneyimli calisanlarin yeni gelenlere ihtiyac aninda hedefli rehberlik verebildigi, isyeri mentorlugu uzerine yaygin kabul goren bir onerme. Ifadenin kipi olculu ya da kesin yazilsa da cevap pasaja bakilmadan cikarilabiliyor."
+      "status": "verified",
+      "blind_solvable": null,
+      "blind_basis": null,
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-08",
+        "kaynak_prompt": "prompts/OPUS5-E6-yeniden-uretim.md (2/7)",
+        "uretilen_grup": "YES/NO/NOT GIVEN - alistirma",
+        "eski_prompt": "Longer-serving colleagues can offer newcomers precisely aimed support at the moments they need it.",
+        "eski_cevap": [
+          "YES"
+        ],
+        "eski_kanit_cumlesi": "Experienced colleagues, by contrast, seem able to give newcomers efficient, targeted guidance precisely when it is needed, a benefit that requires no visible display of productivity and, the study suggests, works better with less routine interruption rather than more.",
+        "neden_elendi": "Sorunun ekseni genel is yasami bilgisi: deneyimli calisanlarin yeni gelenlere ihtiyac aninda hedefli rehberlik verebildigi, isyeri mentorlugu uzerine yaygin kabul goren bir onerme. Ifadenin kipi olculu ya da kesin yazilsa da cevap pasaja bakilmadan cikarilabiliyor.",
+        "ne_degisti": "Yuva bosaltilip ayni pasajdan yeni bir ifadeyle dolduruldu. Eski soru H/3'e dayaniyordu: deneyimli meslektaslarin yeni gelenlere tam ihtiyac aninda hedefli rehberlik verebildigi. Isyeri mentorlugu uzerine yaygin kabul goren bir onerme oldugu icin cevap pasaja bakilmadan cikiyordu. Yeni ifade H paragrafina hic degmiyor: kanit F/3'e, iki kidem grubunun kazanc oranina tasindi. Oranin iki mi uc mu bes kat mi oldugu disaridan kestirilemez - 'yeni gelen daha cok kazanir' sezgisi buyuklugu vermez, ki sorunun ekseni tam olarak buyukluk. Kip dengesi icin ifade olculu yazildi ('roughly twice as much') ve cevabi NO: olculu kipin otomatik olarak dogru cevaba isaret etmesi kirildi."
+      }
     },
     {
       "number": 5,
       "passage_id": "A10",
-      "prompt": "Opinion is sharply divided over whether open-plan workplaces do their occupants good or harm.",
+      "prompt": "Every team in the trial worked in all four of the layouts, though not in the same order as one another.",
       "answer": [
         "YES"
       ],
-      "evidence": "Few questions in modern office design generate as much disagreement as whether open-plan layouts help or harm the people who work in them.",
+      "evidence": "Using a Latin square design, in which every team eventually experienced every condition but in a different order, the teams rotated through four distinct office layouts, each for a two-week period: a conventional open-plan office with minimal separation between desks, acting as the baseline; a zoned open-plan design with soundproof doors dividing spaces into rooms holding no more than 40 people; an activity-based design offering unassigned desks alongside dedicated focus rooms and collaboration areas; and a team-office design with large, partly enclosed cubicles seating four to six people behind sound-absorbing panels.",
       "evidence_locator": {
-        "paragraph": "A",
-        "sentence": 1
+        "paragraph": "B",
+        "sentence": 2
       },
       "contradiction_point": null,
       "not_given_justification": null,
-      "scan_note": "Açık plan tartışması A paragrafında toplanıyor: A/1 görüş ayrılığının büyüklüğü, A/2 iki tarafın savları, A/4 tartışmanın kişisel izlenime dayandığı. H/1 çalışmanın vardığı yargıyı veriyor ama tartışmanın varlığını değiştirmiyor.",
-      "explanation": "The writer says that whether open-plan layouts help or harm the people who work in them is one of the most disputed questions in modern office design.",
+      "scan_note": "Deneyin kurulusu B paragrafinda: B/1 kac calisan ve kac takim oldugunu veriyor (288 calisan, 22 takim), B/2 her takimin dort duzenin hepsinden ikiser haftalik donemler halinde, birbirinden farkli siralarla gectigini soyluyor ve dort duzeni tanitiyor. C olcum araclarini, D-G sonuclari veriyor; rotasyon ya da sira baska hicbir paragrafta gecmiyor.",
+      "explanation": "The writer describes a Latin square design in which every team eventually experienced every one of the four layouts, but in a different order.",
       "difficulty": "easy",
-      "status": "rejected",
-      "blind_solvable": true,
-      "blind_basis": "general_knowledge",
-      "flag_reason": "Cevap YES, acik ofislerin yararli mi zararli mi oldugu tartismasinin populer is yasami soyleminde yaygin ve bilinen bir anlasmazlik konusu olmasi sayesinde parcaya bakmadan da tahmin edilebiliyor.",
-      "flag_mechanism": "genel_kultur",
-      "reject_reason": "Sorunun ekseni genel kultur: acik plan ofislerin yararli mi zararli mi oldugunun tartismali olmasi, populer is yasami soyleminin bilinen bir gercegi. Tartismanin varligini soran her ifade, kipi ne olursa olsun, parcaya bakilmadan dogrulanabilir."
+      "status": "verified",
+      "blind_solvable": null,
+      "blind_basis": null,
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-08",
+        "kaynak_prompt": "prompts/OPUS5-E6-yeniden-uretim.md (2/7)",
+        "uretilen_grup": "YES/NO/NOT GIVEN - alistirma",
+        "eski_prompt": "Opinion is sharply divided over whether open-plan workplaces do their occupants good or harm.",
+        "eski_cevap": [
+          "YES"
+        ],
+        "eski_kanit_cumlesi": "Few questions in modern office design generate as much disagreement as whether open-plan layouts help or harm the people who work in them.",
+        "neden_elendi": "Sorunun ekseni genel kultur: acik plan ofislerin yararli mi zararli mi oldugunun tartismali olmasi, populer is yasami soyleminin bilinen bir gercegi. Tartismanin varligini soran her ifade, kipi ne olursa olsun, parcaya bakilmadan dogrulanabilir.",
+        "ne_degisti": "Yuva bosaltilip ayni pasajdan yeni bir ifadeyle dolduruldu. Eski soru A/1'e dayaniyordu: acik plan ofislerin yararli mi zararli mi oldugunun tartismali olmasi. Bir tartismanin var oldugunu soran ifade, populer is yasami soyleminden zaten bilindigi icin kipi ne olursa olsun pasajsiz dogrulanabiliyordu. Yeni ifade A paragrafina hic degmiyor: kanit B/2'ye, deneyin rotasyon duzenine tasindi. Her takimin dort duzenin hepsinden farkli siralarla gecip gecmedigi tamamen arastirmaciya ait bir tasarim karari; takimlar duzenlere bolunmus de olabilirdi, yani disaridan bilinemez. Kip dengesi icin ifade mutlak yazildi ('Every team ... all four') ve cevabi YES."
+      }
     },
     {
       "number": 6,
@@ -234,26 +264,36 @@
     {
       "number": 9,
       "passage_id": "A11",
-      "prompt": "That natural surroundings can ease stress is now a widely shared view.",
+      "prompt": "Reaching the two settings seems to have involved about the same amount of walking for participants.",
       "answer": [
-        "YES"
+        "NO"
       ],
-      "evidence": "It is now widely accepted that spending time in natural surroundings can reduce stress and improve mood, an effect researchers often describe as psychological restoration.",
+      "evidence": "In the comparison condition, participants instead walked two minutes to a spot on campus where they spent 15 minutes viewing nearby buildings, an environment the researchers deliberately chose to be calm and free of traffic rather than obviously stressful.",
       "evidence_locator": {
-        "paragraph": "A",
-        "sentence": 1
+        "paragraph": "C",
+        "sentence": 2
       },
-      "contradiction_point": null,
+      "contradiction_point": "C/1 orman kosulu icin bes dakikalik, C/2 karsilastirma kosulu icin iki dakikalik yuruyus veriyor; ifade ikisini birbirine esitliyor. Celiski tek noktada: iki ortama ulasmak icin yurunen sure. 'seems to' ve 'about' esnekligi iki bucuk kati asan farki kapatmiyor. Iki kosulda esit olan yuruyus degil, ortamda gecirilen 15 dakikalik sure.",
       "not_given_justification": null,
-      "scan_note": "Doğanın strese etkisi A paragrafında (A/1 yaygın kabul yargısı, A/2 kanıtın kaynağı) ve H/3'te (karlı ormanda da etkinin sürdüğü) geçiyor; A/1 ifadeyi tek başına doğruluyor, çelişen cümle yok.",
-      "explanation": "The writer says it is now widely accepted that spending time in natural surroundings can reduce stress and improve mood; the statement is a paraphrase of the same view.",
-      "difficulty": "easy",
-      "status": "rejected",
-      "blind_solvable": true,
-      "blind_basis": "general_knowledge",
-      "flag_reason": "Cevap YES, dogal ortamlarin stres azalttigi gorusunun zaten toplumda yaygin kabul goren bir inanc olmasi nedeniyle, ifadenin dogrulugu parcaya bakmadan da tahmin edilebiliyor.",
-      "flag_mechanism": "genel_kultur",
-      "reject_reason": "Sorunun ekseni genel kultur: dogada vakit gecirmenin stresi azalttigi gorusunun yaygin kabul gordugu, pasajdan once bilinen bir sey. Ifade zaten 'yaygin kabul' iddiasinin kendisini sordugu icin dogrulanmasi pasaja hic bagli degil."
+      "scan_note": "Iki kosulun kurulusu C paragrafinda karsilikli veriliyor: C/1 orman (bes dakikalik yuruyus, agac turleri ve yaslari, 15 dakikalik kalis), C/2 kampus (iki dakikalik yuruyus, 15 dakikalik kalis), C/3 iki kosulda da gecerli kurallari sayiyor. B katilimcilari ve capraz tasarimi, D hava kosullarini veriyor; yuruyus suresi baska hicbir yerde gecmiyor.",
+      "explanation": "The forest condition began with a five-minute walk and the campus condition with a two-minute one, so the walking involved was not comparable.",
+      "difficulty": "medium",
+      "status": "verified",
+      "blind_solvable": null,
+      "blind_basis": null,
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-08",
+        "kaynak_prompt": "prompts/OPUS5-E6-yeniden-uretim.md (2/7)",
+        "uretilen_grup": "YES/NO/NOT GIVEN - alistirma",
+        "eski_prompt": "That natural surroundings can ease stress is now a widely shared view.",
+        "eski_cevap": [
+          "YES"
+        ],
+        "eski_kanit_cumlesi": "It is now widely accepted that spending time in natural surroundings can reduce stress and improve mood, an effect researchers often describe as psychological restoration.",
+        "neden_elendi": "Sorunun ekseni genel kultur: dogada vakit gecirmenin stresi azalttigi gorusunun yaygin kabul gordugu, pasajdan once bilinen bir sey. Ifade zaten 'yaygin kabul' iddiasinin kendisini sordugu icin dogrulanmasi pasaja hic bagli degil.",
+        "ne_degisti": "Yuva bosaltilip ayni pasajdan yeni bir ifadeyle dolduruldu. Eski soru A/1'e dayaniyordu: doganin stresi azalttigi gorusunun artik yaygin kabul gordugu. Ifade 'yaygin kabul' iddiasinin kendisini sordugu icin dogrulanmasi pasaja hic bagli degildi. Yeni ifade A paragrafina hic degmiyor: kanit C/2'ye, iki kosula ulasmak icin yurunen sureye tasindi (bes dakikaya karsi iki dakika). Bu sureler saha duzenlemesinin keyfi ayrintisi; ormanin kampustan daha uzakta olmasi zorunlu degil, esit uzaklikta iki nokta secilmis de olabilirdi. Kip dengesi icin ifade olculu yazildi ('seems to have involved about the same') ve cevabi NO."
+      }
     },
     {
       "number": 10,
@@ -284,51 +324,71 @@
     {
       "number": 11,
       "passage_id": "A11",
-      "prompt": "Looking at campus buildings changed participants' moods in much the same way the forest did.",
-      "answer": [
-        "NO"
-      ],
-      "evidence": "The pattern after the building condition was essentially the reverse.",
-      "evidence_locator": {
-        "paragraph": "G",
-        "sentence": 1
-      },
-      "contradiction_point": "Yazar bina koşulundan sonraki örüntünün ormandakinin 'esasen tersi' olduğunu söylüyor; ifade iki ortamın ruh hâlini aşağı yukarı aynı biçimde etkilediğini iddia ediyor. Çelişki tek noktada: etkinin aynı yönde mi ters yönde mi olduğu.",
-      "not_given_justification": null,
-      "scan_note": "Bina koşulunun etkisi G paragrafında (G/1 örüntünün tersine döndüğü yargısı, G/2 olumsuz duyguların artıp canlılığın düştüğü) anlatılıyor; C/2 bina ortamının sakin seçildiğini söylüyor ama etkinin ormanla aynı olduğunu söyleyen cümle hiçbir yerde yok.",
-      "explanation": "The writer says the pattern after the building condition was essentially the reverse of the forest's; the statement claims the two settings affected mood in much the same way.",
-      "difficulty": "medium",
-      "status": "rejected",
-      "blind_solvable": true,
-      "blind_basis": "logic",
-      "flag_reason": "Cevap NO, pasajda kampus noktasi ormana karsi bir 'kontrol kosulu' olarak tasarlanmis; deney mantiginda kontrol kosulunun tedavi kosuluyla (orman) ayni etkiyi gostermesi beklenmez -- bu genel deney mantigiyla ifadenin YANLIS olmasi parcaya bakmadan da tahmin edilebilir.",
-      "flag_mechanism": "konumsal_duzen",
-      "review_note": "E5/1: Duzeltilemedi, dokunulmadi. Sizinti kanit cumlesinin kendisinde: G/1 ('The pattern after the building condition was essentially the reverse') kontrol kosulunun tedavi kosulunun tersi sonuc verdigini soyluyor. Bu kanita dayanan her NO ifadesi, 'kontrol kosulu tedavi kosuluyla ayni sonucu vermez' deney mantigiyla parcasiz cozulebiliyor. Ifadeyi olculu yazmak yetmiyor, farkli bir kanit cumlesi gerekiyor - bu da gorev kuralina gore yarim duzeltme sayilir. Yuva olduğu gibi birakildi.",
-      "reject_reason": "1. calistirma bu soruyu dokunulmadan birakmis ve gerekcesini review_note alanina yazmisti: sizinti ifadenin kipinde degil, kanit cumlesinin kendisinde. G/1 'The pattern after the building condition was essentially the reverse' diyor; bu kanita dayanan her NO ifadesi 'kontrol kosulu tedavi kosuluyla ayni sonucu vermez' deney mantigiyla parcasiz cozulebiliyor. Ifadeyi olculu yazmak yetmiyor, farkli bir kanit cumlesi gerekiyor; talimat kanit degisimini yarim duzeltme saydigi icin yuva bu calistirmada elenenlere alindi. E6 bu yuvayi G paragrafinin sayisal ayrintisina capalamali (dinlendiricilik puanlarinin yaklasik yariya dusmesi) ya da H paragrafindaki karin canlilik uzerindeki etkisi savina tasimali."
-    },
-    {
-      "number": 12,
-      "passage_id": "A11",
-      "prompt": "A forest keeps its calming power even under snow and near-freezing cold.",
+      "prompt": "The study's sharpest single result seems to have concerned how refreshing participants found the forest rather than any shift in their mood.",
       "answer": [
         "YES"
       ],
-      "evidence": "As a pilot study, its conclusions should be treated as an initial signal rather than a settled finding, but they nonetheless indicate that the calming effect of a forest is not simply switched off by the absence of green leaves and the presence of snow and near-freezing temperatures.",
+      "evidence": "The clearest effect of the entire study appeared on the Restorative Outcome Scale, which increased sharply after time in the forest, indicating that participants found the snow-covered woodland strongly refreshing even though it produced no accompanying jump in energy.",
       "evidence_locator": {
-        "paragraph": "H",
+        "paragraph": "F",
         "sentence": 3
       },
       "contradiction_point": null,
       "not_given_justification": null,
-      "scan_note": "Karın etkiye ne yaptığı H paragrafında tartışılıyor: H/1 karın canlılık artışını engelleyebileceğini, H/3 ise sakinleştirici etkinin kar ve soğukla kapanmadığını söylüyor. F/3 ormanın güçlü tazeleyici etkisini destekliyor; çelişen cümle yok.",
-      "explanation": "The writer says that although the pilot study's findings should be treated with caution, they indicate that a forest's calming effect is not switched off by snow and near-freezing cold.",
+      "scan_note": "Orman kosulunun sonuclari F paragrafinda: F/1 alti olumsuz ruh halinden besinin anlamli olcude dustugunu, F/2 canliligin yukselmedigini, F/3 butun calismanin en belirgin etkisinin Restorative Outcome Scale'de - yani ortamin ne kadar dinlendirici bulundugunda - ortaya ciktigini soyluyor. E dort olcegi tanitiyor ama hangisinin en guclu sonucu verdigini soylemiyor; G kampus kosulunun sonuclarini veriyor.",
+      "explanation": "The writer says the clearest effect of the entire study appeared on the Restorative Outcome Scale, the measure of how mentally refreshing the environment felt, rather than on the mood scales.",
       "difficulty": "medium",
-      "status": "rejected",
-      "blind_solvable": true,
-      "blind_basis": "general_knowledge",
-      "flag_reason": "Cevap YES, bilim haberciliginde yayimlanan pilot calismalarin genelde ele aldiklari hipotezi destekleyen (olumlu) bir sonucla sunulmasi yaygin oruntusuyle -- 'doganin kisin da sakinlestirici etkisi surdugu' bulgusu parcaya bakmadan da beklenen sonuc.",
-      "flag_mechanism": "genel_kultur",
-      "reject_reason": "Sorunun ekseni cift katmanli genel bilgi: hem 'doganin sakinlestirici etkisi kisin da surer' sonucu sezgisel, hem de pilot calisma haberlerinin olagan olumlu sonuc kalibi ayni yone isaret ediyor. Kip dengelemesi bu iki katmanin ikisini de kapatmiyor."
+      "status": "verified",
+      "blind_solvable": null,
+      "blind_basis": null,
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-08",
+        "kaynak_prompt": "prompts/OPUS5-E6-yeniden-uretim.md (2/7)",
+        "uretilen_grup": "YES/NO/NOT GIVEN - alistirma",
+        "eski_prompt": "Looking at campus buildings changed participants' moods in much the same way the forest did.",
+        "eski_cevap": [
+          "NO"
+        ],
+        "eski_kanit_cumlesi": "The pattern after the building condition was essentially the reverse.",
+        "neden_elendi": "1. calistirma bu soruyu dokunulmadan birakmis ve gerekcesini review_note alanina yazmisti: sizinti ifadenin kipinde degil, kanit cumlesinin kendisinde. G/1 'The pattern after the building condition was essentially the reverse' diyor; bu kanita dayanan her NO ifadesi 'kontrol kosulu tedavi kosuluyla ayni sonucu vermez' deney mantigiyla parcasiz cozulebiliyor. Ifadeyi olculu yazmak yetmiyor, farkli bir kanit cumlesi gerekiyor; talimat kanit degisimini yarim duzeltme saydigi icin yuva bu calistirmada elenenlere alindi. E6 bu yuvayi G paragrafinin sayisal ayrintisina capalamali (dinlendiricilik puanlarinin yaklasik yariya dusmesi) ya da H paragrafindaki karin canlilik uzerindeki etkisi savina tasimali.",
+        "ne_degisti": "Yuva bosaltilip ayni pasajdan yeni bir ifadeyle dolduruldu. Eski soru G/1'e dayaniyordu ('The pattern after the building condition was essentially the reverse'); E5'in notu sizintinin ifadenin kipinde degil kanit cumlesinin kendisinde oldugunu yazmisti: bu cumleye dayanan her NO ifadesi 'kontrol kosulu tedavi kosuluyla ayni sonucu vermez' deney mantigiyla parcasiz cozulebiliyordu. E5 iki capa onermisti (G/2'deki 'dinlendiricilik yariya dustu' sayisi ya da H'deki karin canlilik uzerindeki etkisi). Ikisi de kullanildi ama yer degistirilerek: H capasi #12'ye verildi, bu yuva F/3'e tasindi. Gerekce: G/2 hala ayni kontrol-kosulu sezgisini tasiyor (dusus buyuklugu bilinmese de yonu tahmin edilebiliyor), oysa F/3 tamamen olcum-ici bir bilgi soruyor - dort olcekten hangisinin en guclu sonucu verdigi. Kip dengesi icin ifade olculu yazildi ('seems to have concerned') ve cevabi YES; ayni sette mutlak yazilmis YES'ler (#2, #5) de var.",
+        "e5_notu": "E5/1: Duzeltilemedi, dokunulmadi. Sizinti kanit cumlesinin kendisinde: G/1 ('The pattern after the building condition was essentially the reverse') kontrol kosulunun tedavi kosulunun tersi sonuc verdigini soyluyor. Bu kanita dayanan her NO ifadesi, 'kontrol kosulu tedavi kosuluyla ayni sonucu vermez' deney mantigiyla parcasiz cozulebiliyor. Ifadeyi olculu yazmak yetmiyor, farkli bir kanit cumlesi gerekiyor - bu da gorev kuralina gore yarim duzeltme sayilir. Yuva olduğu gibi birakildi."
+      }
+    },
+    {
+      "number": 12,
+      "passage_id": "A11",
+      "prompt": "Earlier research is said to have linked green vegetation mainly to a calming effect rather than an energising one.",
+      "answer": [
+        "NO"
+      ],
+      "evidence": "The researchers suggest that snow itself may partly explain why vigour failed to rise after the forest visit, since a thick covering of snow hides the green vegetation that other studies have linked to increased energy and alertness, leaving only the calming, restorative effect intact rather than the more energising one.",
+      "evidence_locator": {
+        "paragraph": "H",
+        "sentence": 1
+      },
+      "contradiction_point": "H/1 baska calismalarin yesil bitki ortusunu 'artan enerji ve tetikte olma' ile iliskilendirdigini soyluyor; ifade bu bagi tersine cevirip yesilligi asil sakinlestirici etkiye bagliyor. Celiski tek noktada: onceki arastirmalarin yesillige atfettigi etkinin hangisi oldugu. Ayni cumlede sakinlestirici etki, yesillik kar altinda kalinca geriye kalan sey olarak anlatiliyor - yani yesillige degil, karli ormanin kendisine ait.",
+      "not_given_justification": null,
+      "scan_note": "Yesillik ile canlilik arasindaki bag yalnizca H/1'de kuruluyor ve orada yon aciktir: yesillik enerji ve tetikte olmayla, kar altinda kalan orman ise sakinlestirici etkiyle anilan taraf. F/2 canliligin yukselmedigini bildiriyor ama nedenini vermiyor; A/1 doganin stresi azalttigi genel gorusunu aniyor, hangi ozelligin hangi etkiye baglandigini ayirmiyor.",
+      "explanation": "The writer reports that other studies connected green vegetation with increased energy and alertness; the calming effect is what remained once snow had hidden that greenery.",
+      "difficulty": "hard",
+      "status": "verified",
+      "blind_solvable": null,
+      "blind_basis": null,
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-08",
+        "kaynak_prompt": "prompts/OPUS5-E6-yeniden-uretim.md (2/7)",
+        "uretilen_grup": "YES/NO/NOT GIVEN - alistirma",
+        "eski_prompt": "A forest keeps its calming power even under snow and near-freezing cold.",
+        "eski_cevap": [
+          "YES"
+        ],
+        "eski_kanit_cumlesi": "As a pilot study, its conclusions should be treated as an initial signal rather than a settled finding, but they nonetheless indicate that the calming effect of a forest is not simply switched off by the absence of green leaves and the presence of snow and near-freezing temperatures.",
+        "neden_elendi": "Sorunun ekseni cift katmanli genel bilgi: hem 'doganin sakinlestirici etkisi kisin da surer' sonucu sezgisel, hem de pilot calisma haberlerinin olagan olumlu sonuc kalibi ayni yone isaret ediyor. Kip dengelemesi bu iki katmanin ikisini de kapatmiyor.",
+        "ne_degisti": "Yuva bosaltilip ayni pasajdan yeni bir ifadeyle dolduruldu. Eski soru H/3'e dayaniyordu: ormanin sakinlestirici gucunu kar altinda da korudugu. Hem sonuc sezgiseldi hem de pilot calisma haberlerinin olagan olumlu-sonuc kalibi ayni yone isaret ediyordu. Yeni ifade H/3'e ve komsusu H/2'ye (sinirlilik beyani) hic degmiyor; kanit H/1'e, yani E5'in bu pasaj icin acikca onerdigi 'karin canlilik uzerindeki etkisi' savina tasindi. Paragraf ayni ama cumle ve iddia baska: kapanistaki 'pilot calisma / sinirliliklar' kalibi bilerek bos birakildi. Ifade ustelik genel kulturu cezalandiriyor: yaygin sezgi yesilligi sakinlikle ozdeslestirir, oysa pasaj yesilligi enerji ve tetikte olmaya bagliyor - yani disaridan gelen bilgi okuru dogrudan yanlis cevaba goturuyor. Kip dengesi icin ifade olculu yazildi ('is said to ... mainly') ve cevabi NO."
+      }
     },
     {
       "number": 13,
@@ -388,26 +448,33 @@
     {
       "number": 15,
       "passage_id": "A12",
-      "prompt": "A nap serves as well as a night of sleep for tying new material to existing knowledge.",
+      "prompt": "The two experiments used one and the same set of word pairs.",
       "answer": [
-        "NO"
+        "NOT GIVEN"
       ],
-      "evidence": "However, the findings caution against assuming that a nap can substitute for a night's sleep when the task involves integrating new material with things already known, since that particular kind of consolidation seems to depend on the longer, more complex architecture of nocturnal sleep.",
-      "evidence_locator": {
-        "paragraph": "H",
-        "sentence": 3
-      },
-      "contradiction_point": "Yazar, yeni bilgiyi var olan bilgiyle bütünleştirme söz konusu olduğunda şekerlemenin gece uykusunun yerini tutabileceği varsayımına karşı bulguların uyardığını söylüyor; ifade tam bu görevde şekerlemenin gece kadar işe yaradığını iddia ediyor. Çelişki tek noktada: bütünleştirme görevinde ikame edilebilirlik.",
-      "not_given_justification": null,
-      "scan_note": "Şekerlemenin geceyi ikame edip edemeyeceği E/3 (ilişkisiz çiftlerde eşdeğer), G/2 (ilişkili çiftleri işlemekte şekerlemenin yetersiz kaldığı) ve H/2–H/3'te (ilişkisiz bilgide işe yaradığı, bütünleştirme görevinde ikame varsayımına karşı uyarı) işleniyor; H/3 ifadeyle doğrudan çelişiyor.",
-      "explanation": "The writer warns against assuming that a nap can substitute for a night's sleep when the task involves integrating new material with existing knowledge; the statement claims the opposite.",
+      "evidence": null,
+      "evidence_locator": null,
+      "contradiction_point": null,
+      "not_given_justification": "(1) Konu pasajda geciyor: C/4 birinci deneyde toplam 80 kelime cifti calisildigini (40 anlamca iliskili, 40 iliskisiz), D/2 ikinci deneyde yine 40 iliskili ve 40 iliskisiz cift ogrenildigini soyluyor. (2) Pasajda ifadeyi curuten hicbir cumle yok: iki deneyin malzemesinin farkli oldugunu, listenin yenilendigini ya da baska sozcuklerden secildigini soyleyen bir ifade bulunmuyor, dolayisiyla NO denemez. (3) Pasajda ifadeyi dogrulayan hicbir cumle yok - dolayli olarak bile: iki deneyde sayilarin ortusmesi listelerin ayni oldugu anlamina gelmez ve yazar hicbir yerde 'ayni liste', 'ayni malzeme' ya da benzeri bir ifade kullanmiyor. C/3'teki 'the same material' ifadesi birinci deneyin kendi iki grubunu karsilastiriyor, iki deneyi degil; B iki deneyin tasarim farkini anlatirken de malzemenin ortakligina hic deginmiyor.",
+      "scan_note": "Malzeme iki yerde tarif ediliyor: C/4 (birinci deney - 80 cift, 40 iliskili + 40 iliskisiz, ipuclu hatirlama sinamasi) ve D/2 (ikinci deney - 40 iliskili + 40 iliskisiz, ogleden sonra 13.30'da). Sayilar ortusuyor ama iki listenin ayniligi hakkinda tek bir cumle yok; B/1-2 tasarim farkini (denekler arasi / denek ici) anlatiyor, malzemeyi degil.",
+      "explanation": "The passage describes 40 related and 40 unrelated pairs in each experiment but never says whether the same list was used in both.",
       "difficulty": "hard",
-      "status": "rejected",
-      "blind_solvable": true,
-      "blind_basis": "general_knowledge",
-      "flag_reason": "Cevap NO, kisa sekerlemelerin tam bir gece uykusunun yerini butunuyle tutamayacagi, uyku biliminin populerlesmis temel bilgisiyle (derin/REM evrelerinin karmasik bellek gorevlerinde onemli oldugu) parcaya bakmadan da tahmin edilebiliyor.",
-      "flag_mechanism": "genel_kultur",
-      "reject_reason": "Sorunun ekseni genel uyku bilimi bilgisi: kisa bir sekerlemenin tam bir gece uykusunun yerini tutamayacagi populerlesmis bir bulgu. Ifadeyi olculu yazmak cevabi degistirmez; okur ifadenin kipinden bagimsiz olarak zaten NO bekler."
+      "status": "verified",
+      "blind_solvable": null,
+      "blind_basis": null,
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-08",
+        "kaynak_prompt": "prompts/OPUS5-E6-yeniden-uretim.md (2/7)",
+        "uretilen_grup": "YES/NO/NOT GIVEN - alistirma",
+        "eski_prompt": "A nap serves as well as a night of sleep for tying new material to existing knowledge.",
+        "eski_cevap": [
+          "NO"
+        ],
+        "eski_kanit_cumlesi": "However, the findings caution against assuming that a nap can substitute for a night's sleep when the task involves integrating new material with things already known, since that particular kind of consolidation seems to depend on the longer, more complex architecture of nocturnal sleep.",
+        "neden_elendi": "Sorunun ekseni genel uyku bilimi bilgisi: kisa bir sekerlemenin tam bir gece uykusunun yerini tutamayacagi populerlesmis bir bulgu. Ifadeyi olculu yazmak cevabi degistirmez; okur ifadenin kipinden bagimsiz olarak zaten NO bekler.",
+        "ne_degisti": "Yuva bosaltilip ayni pasajdan yeni bir ifadeyle dolduruldu. Eski soru H/3'e dayaniyordu: bir sekerlemenin yeni malzemeyi mevcut bilgiyle butunlestirmede tam bir gece uykusunun yerini tutmadigi. Kisa sekerlemenin gece uykusunun yerini tutamayacagi populerlesmis bir bulgu oldugu icin okur ifadenin kipinden bagimsiz olarak zaten NO bekliyordu. Yeni ifade H paragrafina hic degmiyor: iki deneyin malzemesinin ayni liste olup olmadigini soruyor ve pasaj bu konuda sessiz, yani cevap NOT GIVEN. Tuzak metnin icinden geliyor: iki deneyde de 40+40 boluntusu verildigi icin okur 'demek ki ayni liste' cikarimina meyilli, ama yazar bunu hic soylemiyor. Genel kultur burada islemiyor - bir arastirmacinin iki deneyde ayni kelime listesini kullanip kullanmadigi disaridan bilinebilecek bir sey degil. Kip dengesi icin ifade mutlak yazildi ('one and the same') ve cevabi NOT GIVEN."
+      }
     }
   ]
 }
