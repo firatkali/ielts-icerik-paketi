@@ -1,0 +1,46 @@
+{
+  "exam": "ielts",
+  "schema_version": "1.0",
+  "kind": "model_answer_set",
+  "skill": "speaking",
+  "part": 2,
+  "task_ref": "C10",
+  "answers": [
+    {
+      "band": 5.0,
+      "transcript": "Okay, I want to talk about one time I help a person that I don't know.\nIt was last year, in the winter.\nI was waiting my bus in the bus station near my house and it was very cold.\nThere was an old woman with two big bags.\nShe want to go to the hospital but she don't know which bus she must take.\nShe ask me and first I don't understand because she speak very fast.\nAfter I look in my phone and I find the number of the bus for the hospital.\nI carry her bags to the bus and I say to the driver the name of the hospital.\nShe was very happy and she said thank you many times.\nAfter this I feel very good, all the day I am in a good mood.\nIt was only five minutes, but for her it was important.",
+      "word_count": 150,
+      "approx_duration_seconds": 110,
+      "why_this_band": {
+        "fluency_coherence": "Olay bastan sona anlatiliyor ve sirasi takip edilebiliyor, ama her adim tek cumle ve gecisler after / and ile yapiliyor. Kartin son maddesi (sonrasinda nasil hissettigi) iki cumlede kapatiliyor.",
+        "lexical_resource": "Anlatim gunluk cekirdekle yurutuluyor: very cold, very happy, very good, big bags. Yardim etmeyi anlatan tek ifade 'I carry her bags'; kartin onerdigi turden bir esdizim yok.",
+        "grammatical_range_accuracy": "Anlatim gecmiste basliyor ama cogu yerde simdiki zamana kayiyor (she want, she don't know, I look, I find, I carry, I feel), edat dusmeleri var (waiting my bus). Yapilar basit cumle; bir tane which yan cumlesi var."
+      },
+      "what_would_lift_it": "Butun anlatimi gecmis zamana cekmek - hikaye dogru kurulmus, onu bozan tek sey zaman kaymasi. Ardindan son maddeyi acmak: 'very good' yerine o gun ne dusundugunu soylemek."
+    },
+    {
+      "band": 6.5,
+      "transcript": "I'd like to talk about a time when I helped an old lady at the bus station, it was maybe one year ago in winter.\nI was going to my cousin's house and I was waiting for my bus, and it was really cold that evening, so everybody was standing close to the wall.\nThen I noticed an old woman with two big bags. She was looking at the timetable and after that at the buses, and it was clear that she was lost.\nShe asked me something but at the beginning I didn't understand her, because she was speaking very fast and with a strong accent.\nAfter a moment I understood that she needed to go to the state hospital and she didn't know which bus goes there.\nSo I looked on my phone, I found the number, and I said her to wait with me, because the bus was coming after seven minutes.\nWhen it came I helped her with the bags and I explained to the driver where she wants to get off.\nHonestly, it took me five minutes, nothing more. But she thanked me so much that I felt a little bit ashamed, and for all the day I was in a good mood.",
+      "word_count": 208,
+      "approx_duration_seconds": 120,
+      "why_this_band": {
+        "fluency_coherence": "Olay sahne sahne gelisiyor (bekleme, fark etme, anlamama, cozum) ve dinleyici hicbir yerde kaybolmuyor. Gecisler then / after that / so ile duzenli ama tekdüze; kapanista 'Honestly, it took me five minutes' ile ton degistirmesi iyi.",
+        "lexical_resource": "Sahneyi kuracak sozcugu var (timetable, strong accent, lost, ashamed, in a good mood) ve anlam her yerde acik. Iki yerde secim kayiyor: 'for all the day', 'the bus was coming after seven minutes'.",
+        "grammatical_range_accuracy": "Gecmis surekli, dolayli anlatim ve that yan cumleleri kontrollu; cumlelerin ucte ikisi hatasiz. Kalan hatalar belirli: fiil kalibi (I said her to wait), aktarimda zaman uyumu (where she wants to get off), edat (after seven minutes)."
+      },
+      "what_would_lift_it": "Kapanisi biraz daha ileri goturmek: utanma duygusunu acikladigi cumle cevabin en ilginc yeri ama tek cumlede kaliyor. Dilde 'said her' / 'told her' ayrimini duzeltmek."
+    },
+    {
+      "band": 8.0,
+      "transcript": "This happened about a year ago, at the bus station near my flat, one of those freezing winter evenings where everyone's huddled up against the wall pretending they're not cold.\nI was waiting for a bus over to my cousin's place and I noticed an elderly woman with two enormous shopping bags. She kept looking up at the timetable and then back at the buses, and she just looked a bit lost, so I asked her if she was all right.\nIt took me a minute to work out what she needed, to be honest. She was speaking very quickly and she had quite a strong regional accent. But eventually I got that she was trying to reach the state hospital and she had no idea which bus went there. Nobody else had stopped, by the way, although half the queue must have heard her.\nSo I looked it up on my phone, found out it was the number twelve, and told her to wait with me.\nWhen it turned up I gave her a hand with the bags and had a quick word with the driver so he'd tell her when to get off.\nIt can't have taken more than five minutes, but she was so grateful that I felt slightly embarrassed, actually.\nAnd I'll admit it put me in a good mood for the rest of the evening, which probably says more about me than it does about her.",
+      "word_count": 241,
+      "approx_duration_seconds": 115,
+      "why_this_band": {
+        "fluency_coherence": "Anlati akici ve ayrintili; sahne tek cumleyle kuruluyor ('everyone's huddled up against the wall pretending they're not cold') ve 'Nobody else had stopped, by the way' gibi ara notlarla geliskin duruyor. Kapanis anlatiyi kendi uzerine dondurup baglaniyor.",
+        "lexical_resource": "Deyimsel oge cok ve yerinde: huddled up, looked a bit lost, work out, had no idea, turned up, gave her a hand with, had a quick word with, put me in a good mood, half the queue. Kayit bastan sona konusma dili.",
+        "grammatical_range_accuracy": "Genis yapi: gecmis mukemmel (Nobody else had stopped), cikarim yapisi (can't have taken), so + amac, dolayli anlatim. Hata seyrek; 'I got that she was trying to reach' konusmada dogal, dinleyiciye hicbir sey kaybettirmiyor."
+      },
+      "what_would_lift_it": "Hedefte. Daha yukarisi icin kimsenin durmamis olmasi gozlemini bir cumle daha isletmek gerekir; su an ilginc bir ayrinti olarak birakiliyor."
+    }
+  ]
+}

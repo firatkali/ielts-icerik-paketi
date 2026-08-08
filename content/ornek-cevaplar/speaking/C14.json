@@ -1,0 +1,46 @@
+{
+  "exam": "ielts",
+  "schema_version": "1.0",
+  "kind": "model_answer_set",
+  "skill": "speaking",
+  "part": 2,
+  "task_ref": "C14",
+  "answers": [
+    {
+      "band": 5.0,
+      "transcript": "Er, the habit I want to change is my phone, I look my phone too much in the night.\nEvery night I go to the bed at eleven o'clock, but after I take my phone and I watch videos.\nSometimes I sleep at two o'clock in the morning.\nI have this habit since two year, I think it start after the pandemic.\nBefore I read a book in the night but now I don't read.\nIn the morning I am very tired and I don't want to wake up.\nIn the class I cannot listen the teacher and I forget many thing.\nAlso my eyes is hurt in the afternoon.\nIt is difficult because the phone is always near my bed, and I say one video only but after it become five video.\nI try to put the phone in the other room but after three days I forget.\nYes, this is my bad habit.",
+      "word_count": 155,
+      "approx_duration_seconds": 115,
+      "why_this_band": {
+        "fluency_coherence": "Konusma suruyor ve dort maddeye de deginiyor, ama her madde bir cumleyle gecistiriliyor ve etkiler bolumunde ayni kalip (In the morning / In the class / Also) tekrarlaniyor. Zorluk maddesi tek uzun cumlede toplaniyor.",
+        "lexical_resource": "Aliskanligi anlatan sozcuk yok denecek kadar az: habit, phone, video, tired tekrarlaniyor. 'One video only, but after it become five video' iyi bir deneme ama dogru bicime oturmuyor.",
+        "grammatical_range_accuracy": "Zaman ve uyum hatasi cumlelerin cogunda (I look my phone, I have this habit since two year, it start, my eyes is hurt), cogul isaretleri dusuyor (two year, many thing, five video). Yapilar basit; because ile kurulan iki yan cumle disinda karmasik yapi yok."
+      },
+      "what_would_lift_it": "Etkiler bolumunu bir gunun icinden anlatmak - hangi derste ne oldugunu soylemek - cunku su an uc ayri cumlede uc ayri sonuc siralaniyor. Sonra 'since two year' yapisini duzeltmek: sureyi anlatan butun cumleler ayni hatayi tasiyor."
+    },
+    {
+      "band": 6.5,
+      "transcript": "The habit I would really like to change is looking at my phone before I sleep. It sounds like a small thing, but for me it's become a serious problem.\nEvery night I go to bed around eleven, and then I take my phone to check the notifications for two minutes.\nAnd after that I start watching short videos, and when I look at the clock again it's one o'clock or half past one in the morning.\nI have this habit since more or less two years, I think it started in the pandemic period when we were all closed at home. Before that I used to read a book in the evening and I slept much better.\nThe effect on my day is bad. In the morning I'm exhausted, I need two coffees before I can speak with anybody, and in my classes I lose the concentration after twenty minutes.\nAnd why is it difficult? Because the phone is next to my bed and it's the last thing that I see. And honestly these applications are made for you cannot stop, this is their job.\nI tried to leave the phone in the kitchen, but after three or four days I forgot, and everything came back like before.",
+      "word_count": 209,
+      "approx_duration_seconds": 120,
+      "why_this_band": {
+        "fluency_coherence": "Dort maddeyi de gelistiriyor ve 'And why is it difficult?' gibi kendi sorusuyla bolum aciyor, bu akisi tasiyor. Buna karsilik etkiler bolumu liste haline geliyor ve baglantilar and / because / also ile tekrarlaniyor.",
+        "lexical_resource": "Konuyu tasiyacak sozcuk var (notifications, exhausted, headaches, pandemic period) ve anlam hic kapanmiyor. Iki noktada kayiyor: 'I lose the concentration', 'we were all closed at home'.",
+        "grammatical_range_accuracy": "used to, gecmis zaman, zaman yan cumlesi ve dolayli soru kuruluyor; cumlelerin cogu hatasiz. Kalan hatalar dar bir kumede: sure yapisi (I have this habit since two years), 'made for you cannot stop' kurulusu, 'came back like before'."
+      },
+      "what_would_lift_it": "'These applications are made for you cannot stop' cumlesini duzgun kurmak - fikir cevabin en iyi fikri ama yapi cokuyor. Ayrica sure icin present perfect'e gecmek (I've had this habit for two years)."
+    },
+    {
+      "band": 8.0,
+      "transcript": "The habit I'd change, without a doubt, is scrolling on my phone in bed. It sounds trivial when you say it out loud, but it's got completely out of hand.\nThe pattern is always the same. I get into bed at about eleven, I pick up my phone just to check my messages, two minutes, that's the plan, and then one video leads into another and suddenly it's half one in the morning and I couldn't tell you a single thing I've watched.\nI've been doing it for a good two years now. It crept up on me during the lockdowns, when there wasn't a lot else to do, and it never really went away. Before that I used to read for half an hour and I slept like a log.\nThe knock-on effect is what actually bothers me. I'm shattered in the mornings, I'm useless before my second coffee, and by the middle of a lecture I've lost the thread completely. It's not that the material is harder, I mean, it's not the material at all, I'm just running on four hours' sleep.\nAnd as for why it's so hard to break, partly the phone is right there on the pillow, and partly these apps are designed by very clever people whose whole job is making sure you don't stop.\nI did try leaving it in the kitchen overnight, and it worked brilliantly, for about four days.",
+      "word_count": 238,
+      "approx_duration_seconds": 110,
+      "why_this_band": {
+        "fluency_coherence": "Anlatim rahat ve bolumler kendiliginden birbirine baglaniyor ('The pattern is always the same', 'The knock-on effect is what actually bothers me'). Bir yerde kendini duzeltiyor ('it's not that the material is harder, I mean, it's not the material at all'), 8 satirinin izin verdigi turden seyrek bir duzeltme.",
+        "lexical_resource": "Az rastlanan oge bol ve dogru: out of hand, crept up on me, slept like a log, knock-on effect, shattered, lost the thread, running on four hours' sleep, hard to break. Deyimler zorlanmadan yerlesiyor.",
+        "grammatical_range_accuracy": "Yapi genis: present perfect continuous (I've been doing it), iliski cumleleri (whose whole job is), 'It's not that ...' yapisi, edilgen. Hata seyrek ve dinleyiciyi durdurmuyor."
+      },
+      "what_would_lift_it": "Hedefte. Bir ust duzey icin son bolumdeki 'tasarim' fikrini biraz daha ileri goturmek gerekir - su an bir cumlede birakiliyor ve saka ile kapaniyor."
+    }
+  ]
+}

@@ -821,3 +821,138 @@ bulunup bulunmadigini olcer. Gerekcenin bandi dogru aciklayip aciklamadigi hala
 kaydin kendisi.
 
 ---
+
+## Konusma yarisinin dort calistirmalik kart dagilimi (20 kart)
+
+Prompt konusma icin "Part 2 kartlari oncelikli" diyor ve toplam 20 kart istiyor.
+Havuzda 60 Part 2 karti (C01-C60) ve 20 Part 1 konu seti var. Dagilim:
+
+| Calistirma | Grup | Kartlar |
+|---|---|---|
+| 7 | Part 2 - bes kart turunden birer tane | C01 (kisi) · C04 (yer) · C07 (nesne) · C10 (olay) · C14 (soyut) |
+| 8 | Part 2 - ikinci tur, ayni bes tur | C02 · C05 · C08 · C11 · C15 |
+| 9 | Part 2 - ucuncu tur, ayni bes tur | C16 · C19 · C22 · C25 · C29 |
+| 10 | Part 1 konu setleri | part1 havuzundan bes set |
+
+Toplam: 15 Part 2 karti + 5 Part 1 seti = 20 kart x 3 seviye = 60 cevap. Part 2
+onceligi bu oranla karsilaniyor (dortte uc). Her calistirma bes kart turunu de
+gordugu icin kutuphane tek grup uretilmis olsa bile kisi/yer/nesne/olay/soyut
+kartlarinin hepsine ornek veriyor.
+
+**Kapsam notu:** uretilen cevap kartin **Part 2 tek kisilik konusmasi**. Part 3
+tartismasi bu gruba dahil edilmedi: kartin `speaking_seconds` degeri (90-120 saniye)
+Part 2 icindir, sure alani (`approx_duration_seconds`) o pencereye gore hesaplaniyor,
+ve Part 3 sinav gorevlisiyle karsilikli konusma oldugu icin tek yonlu bir ornek metin
+o bolumun nasil gectigini yanlis gosterirdi.
+
+---
+
+## 7. grup - konusma Part 2 (C01, C04, C07, C10, C14)
+
+Talimat: `degerlendirme/konusma.md`. Yazma tarafindan iki fark var: olcut **uc**
+tanedir (akicilik-tutarlilik · sozcuk · dilbilgisi; telaffuz bu urunde puanlanmiyor)
+ve genel band ucunun ortalamasi, en yakin yarim banda yuvarlanmis (.25 ve .75 yukari).
+
+Konusma hizi cevabin kendi verisi degil, uretim parametresi: band basina bir hiz
+secilip (5,0 icin 80, 6,5 icin 105, 8,0 icin 127 kelime/dakika) sure kelime
+sayisindan hesaplandi, cunku talimat akiciligi bu orandan okuyor. Uc hiz da
+talimatin tablosunda "slow" ve "moderate" araliklarina denk geliyor; hicbir cevap
+kartin 90-120 saniyelik penceresinin disina cikmiyor (uretim script'i cikani
+reddediyor).
+
+| Kart | Hedef | FC | LR | GRA | Genel | Sapma | Kelime | Sure | Kelime/dk | Yeniden yazildi mi |
+|---|---|---|---|---|---|---|---|---|---|---|
+| C01 | 5,0 | 5 | 5 | 5 | **5,0** | 0 | 151 | 115 | 79 | hayir |
+| C01 | 6,5 | 6 | 6 | 7 | **6,5** | 0 | 203 | 115 | 106 | hayir |
+| C01 | 8,0 | 8 | 8 | 8 | **8,0** | 0 | 244 | 115 | 127 | hayir |
+| C04 | 5,0 | 5 | 5 | 5 | **5,0** | 0 | 154 | 115 | 80 | hayir |
+| C04 | 6,5 | 6 | 6 | 7 | **6,5** | 0 | 205 | 115 | 107 | hayir |
+| C04 | 8,0 | 8 | 8 | 8 | **8,0** | 0 | 251 | 120 | 126 | hayir |
+| C07 | 5,0 | 5 | 5 | 5 | **5,0** | 0 | 154 | 115 | 80 | hayir |
+| C07 | 6,5 | 6 | 6 | 7 | **6,5** | 0 | 207 | 120 | 104 | hayir |
+| C07 | 8,0 | 8 | 8 | 8 | **8,0** | 0 | 239 | 115 | 125 | hayir |
+| C10 | 5,0 | 5 | 5 | 5 | **5,0** | 0 | 150 | 110 | 82 | hayir |
+| C10 | 6,5 | 6,5 | 6 | 7 | **6,5** | 0 | 208 | 120 | 104 | hayir |
+| C10 | 8,0 | 8 | 8 | 8 | **8,0** | 0 | 241 | 115 | 126 | hayir |
+| C14 | 5,0 | 5 | 5 | 5 | **5,0** | 0 | 155 | 115 | 81 | hayir |
+| C14 | 6,5 | 6 | 6 | 7 | **6,5** | 0 | 209 | 120 | 104 | hayir |
+| C14 | 8,0 | 8 | 8 | 8 | **8,0** | 0 | 238 | 110 | 130 | hayir |
+
+Onbes cevabin hepsi hedef bandin icinde, sapma 0; hicbiri yeniden yazilmadi. Puanlama
+etiketler ortulerek, dokumler cumle cumle numaralanarak yapildi - talimat dilbilgisinde
+"izlenim" yasaklayip sayim istiyor.
+
+### Hatali cumle orani (GRA'nin dayanagi)
+
+Talimatin GRA tablosu bandi hatali cumle oranindan okuyor: %20 alti 8-9 · %20-40 7 ·
+%40-60 6 · %60-80 5 · %80 ustu 4. Sayilan degerler:
+
+| Kart | band 5 | band 6,5 | band 8 |
+|---|---|---|---|
+| C01 | 7/10 = %70 | 3/9 = %33 | 1/12 = %8 |
+| C04 | 7/10 = %70 | 3/10 = %30 | 0/12 |
+| C07 | 7/10 = %70 | 3/11 = %27 | 0/14 |
+| C10 | 7/11 = %64 | 3/10 = %30 | 0/11 |
+| C14 | 7/11 = %64 | 4/12 = %33 | 0/12 |
+
+Band 5 cevaplari %64-70 ile 5 satirinin ortasinda duruyor. Bu bilincli: yazma tarafinda
+band 5 metinleri %80'in uzerine cikip GRA'da 4 aliyordu ve genel bandi **dort** olcutun
+ortalamasi 5,0'da tutuyordu. Konusmada olcut ucte bir agirlikta, yani GRA 4 gelseydi
+5+5+4 = 4,67 -> **4,5** olurdu; cevap esigin icinde kalir ama yanlis etiketlenirdi.
+Bu yuzden konusmada band 5 metni yazilirken her kartta uc cumle bilerek hatasiz
+birakildi.
+
+Ters yondeki tehlike 6,5'ta ve yazma tarafinin 2. grubunda bir kez gerceklesmisti (bes
+cevabin hepsi 7,0 cikip yeniden yazilmisti). Burada oran bastan sayilarak yazildigi
+icin bes cevap da %27-33 araliginda: 7 satirinin icinde ama 8-9 esiginin (%20)
+belirgin uzaginda.
+
+### Band ayriminin sozcuk tarafi
+
+Talimatin LR capasi acik: **7 ve uzeri icin dort ya da daha fazla dogru kullanilmis,
+az rastlanan ya da konuya ozgu oge** gerekiyor ve sayilabilmeli. Bes karta gore:
+
+- **band 5** - hicbir cevapta yok; sozcuk gunluk cekirdegin ("very good", "very
+  patient", "big bags", "too much hot") disina cikmiyor, yani capa dogrudan atesleniyor.
+- **band 6,5** - kart basina iki ya da uc oge (strong accent · sentimental value ·
+  in a good mood · notifications). Dordun altinda tutuldu, cunku dorde ciksa band 7
+  acilirdi. Yaninda esdizim hatalari duruyor: *she has a very big patience*, *the
+  elbows are a little bit used*, *I lose the concentration*, *for all the day*.
+- **band 8** - kart basina sekiz ve uzeri: *takes it all in her stride · keeps a level
+  head · a stone's throw from · hear myself think · hard-wearing · nipping out ·
+  gave her a hand with · crept up on me · slept like a log · knock-on effect*.
+  Talimat sekiz ve uzeri dogru, dogal kullanilmis ogenin 8'i destekledigini soyluyor.
+
+### Denetimde dikkat cekenler
+
+- **Band 8 kusursuz degil, ama kusuru dilbilgisinde degil.** Bes cevabin dordunde
+  sayilabilir dilbilgisi hatasi yok; 8 ile 9 arasindaki fark akicilikta ve sozcukte
+  araniyor: C01'de bir kendini duzeltme (*I've watched her deal with, well, ...*),
+  C14'te bir yeniden kurus (*it's not that the material is harder, I mean, ...*),
+  C01'de konusmaya ozgu bir uyum kaymasi (*There's a lot of people*). Talimatin 8
+  satiri bunlarin ucune de acikca izin veriyor; 9 satiri "hesitation is for content,
+  not for language" diyor - bu yuzden hicbiri 9'a cikmiyor.
+- **Konusma dili gercekten konusma dili.** Yarim cumleler (*Nothing special, but the
+  material is really strong*), doldurma sozcukleri (er, okay, honestly, to be honest,
+  mind you), kendini duzeltme ve yeniden baslama var. Talimat bunlari dilbilgisi
+  hatasi saymiyor (eksiltili yapi ve onarilan yanlis baslangic hata degil) ama
+  akicilik kanitidir; band 5'te en yogun, band 8'de en seyrek.
+- **80 kelime capasi hicbir cevapta ateslenmedi.** Talimat Part 2 tek kisilik
+  konusmada 80 kelimenin altini akicilikta max 5 ile sinirliyor; en kisa cevap 150
+  kelime (C10 / band 5). Yani band 5'in dusuk olmasinin sebebi az konusmus olmak
+  degil, olcutlerin kendisi - yazma tarafindaki 150/250 kelime kuralinin konusmadaki
+  karsiligi bu.
+- **Tek yarim band burada:** C10 / 6,5'ta akicilik 6 degil **6,5** verildi. Anlati
+  sirali, dinleyici hicbir yerde kaybolmuyor ve gorunur duraklama yok; ama gecisler
+  then / after that / so kalibinda kaliyor, yani 7 satirinin istedigi baglac esnekligi
+  tam yok. Iki satir arasi yarim band talimatin sinir ornekte normal saydigi cevap.
+  Genel band degismiyor (6,5+6+7 = 6,5).
+- **Band 5'te oran yuksek ama anlam kapanmiyor.** Talimat "5 ve alti icin anlamin
+  bozulmaya baslamasi gerekir, hatanin sayilabilir olmasi yetmez" diyor. Bes cevapta da
+  anlam ayakta; oran 5 satirinda, tarif ise ("karmasik denemeler basitlerden daha
+  hatali, hatalar bir olcude zorluk cikariyor") *she listen everybody*, *it go with all
+  my trouser*, *my eyes is hurt* gibi yerlerde karsilaniyor. Daha asagi bir band icin
+  cevaplarin anlamini bozmak gerekirdi; bu ornek kutuphanesinin isine yaramaz -
+  ogrenci burada kendi hatasini taniyabilmeli.
+
+---

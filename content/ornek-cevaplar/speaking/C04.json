@@ -1,0 +1,46 @@
+{
+  "exam": "ielts",
+  "schema_version": "1.0",
+  "kind": "model_answer_set",
+  "skill": "speaking",
+  "part": 2,
+  "task_ref": "C04",
+  "answers": [
+    {
+      "band": 5.0,
+      "transcript": "Okay, the quiet place I want to talk about is a small park behind our building.\nIn this park there is many tree and a old fountain, and it don't have a playground, so the children don't come.\nI go there maybe two time in a week, usually in the evening after the work.\nSometimes I go in the morning also.\nWhen I am there I sit in a bench near the fountain and I drink my coffee.\nI don't listen music, I only look the trees and the people who pass in the street.\nSometimes I write some thing in my phone about my plan for the next day.\nThis place help me to think because it is very quiet and nobody know me there.\nIn my house my brother always watch the television very loud and I cannot concentrate.\nSo, er, this is my quiet place and I like it very much.",
+      "word_count": 154,
+      "approx_duration_seconds": 115,
+      "why_this_band": {
+        "fluency_coherence": "Kartin dort maddesini sirayla gecip birakiyor; her madde bir cumle. Baglaclar and / because / so ile sinirli ve 'so, er, this is my quiet place' ile aceleyle kapatiyor, yani konusma suresini dolduramiyor.",
+        "lexical_resource": "Yer anlatimi very quiet, small, old, cold gibi cekirdek sozcuklerle yurutuluyor; park iki kez 'quiet', ev iki kez 'loud' ile aciklaniyor. Kartin sundugu turden bir ifade (clear my head) hic denenmemis.",
+        "grammatical_range_accuracy": "Hatalar cumlelerin cogunda ve hep ayni turden: cogul dusmesi (two time, many tree), uyum (it don't have, nobody know), edat (sit in a bench, look the trees, listen music). Butun metin basit cumle; iki when yan cumlesi disinda karmasik yapi yok."
+      },
+      "what_would_lift_it": "'Why this place helps you to think' maddesini gercekten cevaplamak: sessizligin kafasinda ne yaptigini bir ornekle anlatmak. Sonra sit on / look at / listen to gibi fiil-edat esleslerini duzeltmek, cunku bunlar her cumlede tekrarlaniyor."
+    },
+    {
+      "band": 6.5,
+      "transcript": "The place I want to describe is a small park just behind our apartment building.\nIt's nothing special, honestly, only a few benches, some old trees and a fountain that doesn't work anymore, but there is no playground, so children don't really go there and it stays quiet.\nI go there maybe twice in a week, usually in the evening when I finish work, and sometimes at the weekend if the weather is good. In winter I go less, of course.\nWhat I do there is quite boring, actually. I take a coffee, I sit on the same bench near the fountain, and I watch the people who are passing.\nSometimes I make some notes in my phone about the things I have to do, but most of the time I only sit and I think.\nI think this place helps me because at home it's impossible to have a silence.\nMy brother is always watching television very loudly and my mother is calling me every five minutes for something, so I cannot follow one idea until the end.\nIn the park nobody knows me and nobody wants nothing from me, so my head becomes more clear and I can decide what I will do.",
+      "word_count": 205,
+      "approx_duration_seconds": 115,
+      "why_this_band": {
+        "fluency_coherence": "Kartin dort maddesini de gelistiriyor ve 'What I do there is quite boring, actually' gibi dogal bir doldurmayla devam ediyor. Buna karsilik I sit / I take / I watch dizisi mekaniklesiyor ve son boluma gecis 'I think this place helps me because' ile duz kuruluyor.",
+        "lexical_resource": "Yeri anlatacak kadar sozcugu var (benches, fountain, timetable yerine passing people, exhausted degil ama 'impossible to have a silence') ve anlam her yerde acik. Iki noktada esdizim kayiyor: 'to have a silence', 'my head becomes more clear'.",
+        "grammatical_range_accuracy": "Iliski cumlesi, kosul cumlesi ve zaman yan cumlesi kuruluyor, cumlelerin ucte ikisi hatasiz. Kalan hatalar belirli: cift olumsuzluk (nobody wants nothing), 'twice in a week', karsilastirma bicimi (more clear), gelecek zamanin yan cumlede kullanimi."
+      },
+      "what_would_lift_it": "Ev ile parkin karsilastirmasini tek cumlede toplamak yerine sesin dusuncelere ne yaptigini anlatmak - cevabin en zayif yeri kapanis. Dilde once 'nobody wants nothing' gibi cift olumsuzlugu duzeltmek."
+    },
+    {
+      "band": 8.0,
+      "transcript": "The place that came to mind straight away is a little park tucked in behind our block of flats.\nIt's a stone's throw from my front door, which is half the appeal, and because there's no playground and no café, hardly anyone bothers with it. You get a couple of dog walkers first thing and that's about it.\nI'd say I go two or three times a week, normally in the evening once I've finished work, and definitely more in the summer than in the winter, when it's freezing and pitch dark by five o'clock.\nWhat I actually do there is not much, if I'm honest. I take a coffee, I sit on the same bench by the old fountain, and I let my mind wander for twenty minutes or so.\nNow and then I'll jot something down on my phone if an idea seems worth keeping, but mostly I just sit there.\nAs for why it helps, at home I can never hear myself think. There's the television going, my brother on a call in the next room, my mother asking me to do something every ten minutes, and you can't follow a thought for more than about thirty seconds.\nIn the park nobody knows me and nobody wants anything from me, so whatever's been going round in my head all day finally settles, and I can usually work out what's really bothering me.\nIt's not much of a park, mind you. It's just the only quiet thing near me.",
+      "word_count": 251,
+      "approx_duration_seconds": 120,
+      "why_this_band": {
+        "fluency_coherence": "Anlatim kendi sirasini kuruyor ve maddeler arasinda gorunur bir kalip yok; 'As for why it helps' ile donuyor, 'It's not much of a park, mind you' ile de kendi anlattigina bir yorum ekliyor. Doldurmalar (if I'm honest, now and then) akisi bozmuyor.",
+        "lexical_resource": "Az rastlanan ogeler dogal yerde: a stone's throw from, hardly anyone bothers with it, let my mind wander, jot something down, hear myself think, going round in my head, pitch dark, half the appeal. Kayit bastan sona konusma dili.",
+        "grammatical_range_accuracy": "Genis yapi yelpazesi rahat kullaniliyor: 'once I've finished work', 'whatever's been going round in my head', kiyaslama, iliski cumleleri. Hata neredeyse yok; 'You get a couple of dog walkers first thing' gibi eksiltili konusma yapilari hata degil."
+      },
+      "what_would_lift_it": "Hedefte. Daha yukarisi icin son bolumdeki fikri biraz daha ileri goturmek gerekir - sessizligin neden dusunmeyi kolaylastirdigi hala sezgisel duzeyde kaliyor."
+    }
+  ]
+}

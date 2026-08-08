@@ -1,0 +1,46 @@
+{
+  "exam": "ielts",
+  "schema_version": "1.0",
+  "kind": "model_answer_set",
+  "skill": "speaking",
+  "part": 2,
+  "task_ref": "C07",
+  "answers": [
+    {
+      "band": 5.0,
+      "transcript": "Er, I want to describe a cloth that I wear very often, it is a black jacket.\nIt is not new, my father buy it for me three years ago in a shop in the city centre.\nIt was for my birthday, I remember this day very well.\nThe jacket is black and it have four pocket and a hood, and it is very warm.\nI wear it in the autumn and in the winter, almost every day.\nWhen I go to the university or when I meet my friend I take this jacket.\nI don't wear it in the summer because it is too much hot.\nI wear it very often because it is comfortable and it go with all my trouser.\nAlso my father gave it to me, so it is important for me.\nSo this is my favourite cloth, er, I think I will use it two or three year more.",
+      "word_count": 154,
+      "approx_duration_seconds": 115,
+      "why_this_band": {
+        "fluency_coherence": "Konusma kesilmeden suruyor ama her cumle yeni bir bilgi ekleyip duruyor; hicbir madde acilmiyor. Baglaclar and / because / also ve iki when yan cumlesinden ibaret.",
+        "lexical_resource": "Giysi icin 'cloth' secilmis ve tekrarlaniyor; geri kalan sozcukler black, warm, comfortable, favourite ile sinirli. Kartin verdigi turden bir ifade (hard-wearing, goes with everything) denenmiyor, 'it go with all my trouser' en yakin deneme.",
+        "grammatical_range_accuracy": "Uyum ve zaman hatasi cumlelerin cogunda (my father buy it, it have four pocket, it go with, too much hot), cogul isaretleri dusuyor (pocket, trouser, year). Anlam her yerde anlasiliyor, ama yapi tamamen basit cumle."
+      },
+      "what_would_lift_it": "Dorduncu maddeyi - neden bu kadar sik giydigini - tek bir sabahi anlatarak acmak, boylece cevap liste olmaktan cikar. Sonra gecmis zamani duzeltmek: ceketin alindigi bolum bastan sona simdiki zamanda anlatilmis."
+    },
+    {
+      "band": 6.5,
+      "transcript": "I'm going to talk about a black jacket that I wear all the time, probably too much.\nMy father bought it for me about three years ago for my birthday. We went together to a shop in the city centre and he said that I have to choose something warm, not something fashionable, and in the end he was right.\nIt's quite simple, black, with four pockets and a hood that you can remove. Nothing special, but the material is really strong, so after three years it still looks almost new, only the elbows are a little bit used.\nI wear it from October until maybe April, nearly every day. When I go to the university, when I meet with friends, even when I only go to the market for ten minutes, I take this jacket. In summer, of course, it's impossible, it's too hot.\nWhy I wear it so often, first, it's very comfortable and it goes with everything, so I don't lose time in the morning to think what I will wear.\nAnd second, it was a present from my father, so there is a sentimental value also. I think I will use it two or three years more, at least until it will break.",
+      "word_count": 207,
+      "approx_duration_seconds": 120,
+      "why_this_band": {
+        "fluency_coherence": "Dort maddeyi de karsiliyor ve sebepleri 'first' / 'And second' diye numaralayarak duzenli ilerliyor; bu duzen ayni zamanda biraz mekanik. Alisveris sahnesi guzel gelistirilmis, kapanis ise tek cumlede bitiyor.",
+        "lexical_resource": "Giysiyi anlatacak sozcuk var (hood, material, elbows, fashionable, sentimental value) ve 'it goes with everything' dogru kullanilmis. Buna karsilik 'the elbows are a little bit used' ve 'I don't lose time' esdizim olarak kaciyor.",
+        "grammatical_range_accuracy": "Iliski cumlesi, zaman yan cumlesi ve gecmis zaman kontrollu; cumlelerin cogu hatasiz. Kalan hatalar dar: aktarimda zaman uyumu (he said that I have to choose), zaman yan cumlesinde gelecek (until it will break)."
+      },
+      "what_would_lift_it": "Kapanisi genisletmek: babanin hediyesinin neden onemli oldugunu bir cumleyle gecistirmek yerine anlatmak. Dilde 'until it will break' gibi zaman yan cumlesindeki gelecek kullanimini duzeltmek."
+    },
+    {
+      "band": 8.0,
+      "transcript": "The thing I've picked is a black jacket that I wear far more than I probably should.\nMy dad bought it for me about three years ago as a birthday present. We went into town together and he insisted I choose something hard-wearing rather than something fashionable, and I remember being slightly annoyed about that at the time, but he was completely right, obviously.\nIt's a plain black jacket, four pockets, a hood you can zip off. Nothing about it stands out, but the material is tough as anything. Three years on, it's only just starting to look worn at the elbows.\nI more or less live in it from October through to April. If I'm heading to a lecture, meeting friends, nipping out for milk, I reach for it without even thinking about it. It's only in the summer that it goes to the back of the wardrobe.\nAs for why, I suppose there are two reasons. The practical one is that it goes with absolutely everything, so on a cold morning I don't have to stand there weighing up what to wear, I just grab it and go.\nThe other reason is sentimental, really. My dad isn't a person who says a great deal, so when he does buy you something he's clearly thought about, it stays with you.\nI'll probably keep wearing it until it falls apart, and then I'll be annoyed about that as well.",
+      "word_count": 239,
+      "approx_duration_seconds": 115,
+      "why_this_band": {
+        "fluency_coherence": "Konusma dogal bir sirayla ilerliyor ve 'As for why, I suppose there are two reasons' ile kendi yapisini kuruyor; kapanistaki sakayla da anlatim baglaniyor. Duraklama ve tekrar seyrek.",
+        "lexical_resource": "Az rastlanan oge bol: hard-wearing, tough as anything, worn at the elbows, live in it, nipping out, reach for it without thinking, goes to the back of the wardrobe, weighing up, falls apart. Kullanimlar dogru ve konusma diline uygun.",
+        "grammatical_range_accuracy": "Yapi cesitliligi acik: kosul cumlesi, vurgu yapisi ('It's only in the summer that ...'), iliski cumleleri, gecmis surekli. Hata seyrek ve dinleyiciyi hic durdurmuyor."
+      },
+      "what_would_lift_it": "Hedefte. Bir ust duzey icin ikinci sebebi - hediye olmasi - biraz daha ileri goturmek gerekir; su an tek cumleyle ozetlenip birakiliyor."
+    }
+  ]
+}

@@ -8600,3 +8600,73 @@ yerine cevap dagilimlari:
 - Puanlama olcumu tur 4 (konusma, 2. calistirma) — 12 ornek x 3 tekrar (tekrar 4-6) = 36
   puanlama, tek seferlik degerler degismedi (ort. mutlak fark 0,583, egilim -0,250);
   6 tekrarli tani ortalamasi 0,340, egilim -0,160.
+
+## OPUS5-C1 (konusma 1/4 - YENIDEN: bu sefer uretim yapildi, 7. grup = C01, C04, C07, C10, C14)
+- Tarih: 2026-08-08
+- Bagimlilik kontrolu gecti: `degerlendirme/DEGISIKLIK-KAYDI.md` ve
+  `kalibrasyon/olcum/SONUC.md` ikisi de yerinde.
+- **Onceki dort calistirmanin durumu:** bu prompt'un 7-10. calistirmalari daha once
+  dort kez acilmis ve **hicbirinde dosya uretilmemisti** (yukaridaki uc "uretim yok"
+  kaydi + dorduncusu): depoda uretilmemis tek grup konusmaydi, ayni oturumda konusma
+  uretilmesin diyen ikinci bir talimat da gecerli sayilmisti, iki talimat ayni grubu
+  isaret edip birbirini iptal edince geriye yapilacak grup kalmamis, onun yerine dort
+  denetim script'i yazilmisti. Bu oturumda talimat netlestirildi: **tek gecerli is
+  konusma kartlari icin gercek cevap uretmek**; sema denetimi ya da yazma dosyalarinin
+  yeniden dogrulanmasi cikti sayilmiyor. Yazma tarafina (1-6) hic dokunulmadi.
+- **Oturum basi durumu:** `content/ornek-cevaplar/` altinda yalnizca `writing/`
+  (30 dosya = 90 cevap, prompt'un yazma kapsaminin tamami) ve `KONTROL.md` vardi;
+  `speaking/` klasoru **yoktu**. Yani konusma yarisinin ilk grubu bu calistirmanin isi.
+- **Kart secimi:** part2-3 havuzunda 60 kart var ve bes kart turune ayrilmis
+  (kisi · yer · nesne · olay · soyut). Bu gruba her turden bir kart alindi, havuzun
+  bas tarafindaki ilk uygun dosya secilerek: **C01** (kisi / A patient person),
+  **C04** (yer / A quiet place for thinking), **C07** (nesne / An item of clothing),
+  **C10** (olay / Helping a stranger), **C14** (soyut / A habit you would like to
+  change). Boylece tek grup uretilmis olsa bile kutuphane bes kart turunun de nasil
+  konusuldugunu gosteriyor. Dort calistirmalik dagilim tablosu
+  `content/ornek-cevaplar/KONTROL.md` icinde (15 Part 2 karti + 5 Part 1 seti = 20);
+  8. ve 9. calistirmalar C02/C05/C08/C11/C15 ve C16/C19/C22/C25/C29, 10. calistirma
+  Part 1.
+- **Kapsam karari - Part 2, Part 3 degil:** uretilen cevap kartin Part 2 tek kisilik
+  konusmasi. Kartin `speaking_seconds` degeri (90-120 sn) Part 2 icin; Part 3 sinav
+  gorevlisiyle karsilikli konusma oldugu icin tek yonlu ornek metin o bolumu yanlis
+  gosterirdi. Gerekce KONTROL.md'de de yazili.
+- **Uretim:** `tools/_c1_uret7.py` (yazma tarafindaki `_c1_uret*.py` kalibi).
+  Uretilen: `content/ornek-cevaplar/speaking/{C01,C04,C07,C10,C14}.json`, her birinde
+  band 5,0 / 6,5 / 8,0 = **15 cevap**. Semada yazmadan farkli olan alanlar prompt'un
+  dedigi gibi: `text` yerine `transcript`, ucluk `why_this_band`
+  (`fluency_coherence` · `lexical_resource` · `grammatical_range_accuracy`) ve
+  `approx_duration_seconds`. Ayrica `part: 2` eklendi (kart hem Part 2 hem Part 3
+  iceriyor, hangi bolumun cevabi oldugu dosyadan anlasilsin diye).
+- **Sure alani elle yazilmiyor:** band basina bir konusma hizi secilip (5,0 -> 80,
+  6,5 -> 105, 8,0 -> 127 kelime/dk) sure kelime sayisindan hesaplaniyor, cunku
+  `konusma.md` akiciligi `speech_rate_wpm`'den okuyor ve bu hizlar talimatin
+  tablosunda "slow" / "moderate" araliklarina denk geliyor. Script sonucu kartin
+  90-120 saniye penceresine gore kontrol ediyor ve disari cikani reddediyor - bu
+  ayni zamanda kelime sayisini da bagliyor (ilk yazimda C04/5,0 ve C14/6,5 pencereyi
+  astigi icin kisaltildi). Kelime sayilari 150-251.
+- **Kendi kendini denetim (KONTROL.md 7. grup):** 15 cevabin hepsi hedef bandin
+  icinde, **sapma 0**, hicbiri yeniden yazilmadi. Puanlama etiketler ortulerek ve
+  dokumler cumle cumle numaralanarak yapildi; GRA icin talimatin istedigi sayim
+  yapildi (hatali cumle orani: band 5'te %64-70, band 6,5'ta %27-33, band 8'de %0-8).
+- **Konusmada band 5'in yazma tarafindan farki - onemli:** yazmada band 5 metinleri
+  hatali cumle oraninda %80'i asip GRA'da 4 aliyor ve genel band **dort** olcutun
+  ortalamasiyla yine 5,0'da duruyordu. Konusmada olcut uc tane, yani GRA 4 gelseydi
+  5+5+4 = 4,67 -> 4,5 olurdu. Bu yuzden band 5 dokumlerinde her kartta uc cumle
+  bilerek hatasiz birakildi ve oran 5 satirinin (%60-80) ortasina oturtuldu.
+- **6,5 tuzagi bu kez ateslenmedi:** yazmanin 2. grubunda bes cevap birden 7,0 cikip
+  yeniden yazilmisti. Burada hatali cumle orani metin yazilirken sayildi, bes cevap da
+  %27-33'te, yani 7 satirinin icinde ve %20 esiginin uzaginda. LR tarafinda da
+  talimatin "band 7 icin dort az rastlanan oge" capasi bilerek karsilanmadi (kart
+  basina 2-3 oge).
+- **Tek yarim band:** C10 / 6,5'ta akicilik 6 degil 6,5 verildi (anlati sirali ve
+  duraklamasiz ama gecisler then/after that/so kalibinda). Genel band degismiyor.
+- **80 kelime capasi:** Part 2 tek kisilik konusmada 80 kelimenin alti akicilikta
+  max 5; en kisa cevap 150 kelime, yani hicbir cevapta ateslenmedi -
+  band 5'in dusuklugunun sebebi az konusmak degil, olcutler.
+- Yazilan: `tools/_c1_uret7.py`, `content/ornek-cevaplar/speaking/` (5 dosya),
+  `content/ornek-cevaplar/KONTROL.md` (konusma dagilim tablosu + 7. grup bolumu).
+  `DURUM.txt` elle degistirilmedi (kendiliginden guncelleniyor).
+- Atlanan/sorun: yok. Kalan konusma gruplari 8., 9. ve 10. calistirmalarda; kart
+  listeleri KONTROL.md'deki dagilim tablosunda hazir.
+- Ornek cevaplar - konusma (1. calistirma) - 5 Part 2 karti x 3 seviye = 15 cevap,
+  hepsi hedef bandin icinde (sapma 0), yeniden yazim yok.

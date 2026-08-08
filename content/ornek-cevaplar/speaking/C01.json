@@ -1,0 +1,46 @@
+{
+  "exam": "ielts",
+  "schema_version": "1.0",
+  "kind": "model_answer_set",
+  "skill": "speaking",
+  "part": 2,
+  "task_ref": "C01",
+  "answers": [
+    {
+      "band": 5.0,
+      "transcript": "Okay, er, I want to talk about my aunt, she is the sister of my mother.\nShe is fifty years old and she work in a primary school.\nI know her since I am a child, because she live in the same street with us.\nEvery weekend we go to her house and we eat together, all the family.\nShe is very patient in many situation, er, for example in her class.\nWhen the children is very noisy she never shout, she only wait and she speak slow.\nAlso in my family, when we have a big problem, she stay calm and she listen everybody.\nMy father is not like this, he get angry very fast and after he is sorry.\nI think the patience is useful because the people can trust her and they tell her everything.\nEr, yes, this is my aunt, she is a very very patient person.",
+      "word_count": 151,
+      "approx_duration_seconds": 115,
+      "why_this_band": {
+        "fluency_coherence": "Konusma bastan sona suruyor ama tek kalipla ilerliyor: her cumle 'she ...' ile basliyor ve baglaclar and / because / also ile sinirli. Kartin dort maddesine de deginiyor, ancak her birine iki cumle dusuyor, ornekler acilmadan birakiliyor.",
+        "lexical_resource": "Sozcuk secimi gunluk cekirdegin disina cikmiyor: patient, calm, angry, problem tekrar tekrar geliyor ve 'very very patient' ile vurgu yapiliyor. Sabri anlatan tek bir deyim ya da esdizim yok.",
+        "grammatical_range_accuracy": "Cumlelerin cogunda ozne-yuklem uyumu ya da zaman hatasi var (she work, she live, the children is, he get angry, I know her since I am a child) ama anlam hicbir yerde kaybolmuyor. Yapilar neredeyse tamamen basit cumle; when ile kurulan iki yan cumle disinda karmasik yapi yok."
+      },
+      "what_would_lift_it": "Once kartin ucuncu maddesini gercek bir olayla acmak - sinifta ya da ailede yasanan tek bir sahneyi bastan sona anlatmak. Ardindan 'she work / she live' turu uyum hatalarini duzeltmek, cunku bunlar cevabin her cumlesine yayilmis durumda."
+    },
+    {
+      "band": 6.5,
+      "transcript": "So I'd like to talk about my aunt Nesrin, who is my mother's younger sister, and honestly she's the most patient person that I know.\nI've known her all my life, obviously, because we lived in the same neighbourhood when I was small, and I used to spend nearly every weekend in her flat.\nShe's a teacher in a primary school, so I think her job also taught her a lot of patience.\nWhen the children in her class are making noise, she doesn't shout at all, she just waits, she waits until they become quiet, and after that she starts the lesson again with a very soft voice.\nMy mother says that she has a very big patience, even with people who really deserve to be shouted.\nAnd in the family it's the same thing.\nLast year my cousin had a big problem in his university and everybody was giving him advice at the same time, but my aunt only listened him, I think for two hours, and she didn't say anything.\nI think this is useful because people trust her, and, er, they can tell her things that they cannot tell to other persons.\nThat's why I admire her a lot.",
+      "word_count": 203,
+      "approx_duration_seconds": 115,
+      "why_this_band": {
+        "fluency_coherence": "Uzun konusuyor ve kartin dort maddesini de gelistiriyor, ama akis yer yer takiliyor: 'she just waits, she waits until' gibi tekrarlar ve 'and after that', 'and in the family it's the same thing' gibi basit gecisler var. Kuzen ornegi guzel secilmis ama sonuca baglanmadan birakiliyor.",
+        "lexical_resource": "Konuyu rahatca anlatacak kadar sozcugu var (neighbourhood, advice, soft voice, admire) fakat esdizim kaziyor: 'she has a very big patience', 'deserve to be shouted', 'other persons'. Deyim kullanmiyor, anlatimi duz.",
+        "grammatical_range_accuracy": "Iliski cumlesi, used to, gecmis surekli ve zaman yan cumleleri rahat kuruluyor ve cumlelerin cogu hatasiz. Kalan hatalar dar bir kumede: aktarimda zaman uyumu (he said that I have to), edat dusmesi (listened him, tell to other persons)."
+      },
+      "what_would_lift_it": "Kuzen hikayesini bir sonuca baglamak: teyzenin ne yaptigini degil, o iki saatin ne degistirdigini soylemek. Sozcuk tarafinda 'big patience' gibi birebir cevirileri birakip 'she never loses her patience' turu dogal esdizime gecmek."
+    },
+    {
+      "band": 8.0,
+      "transcript": "Right, so the person I've chosen is my aunt Nesrin, my mum's younger sister, and she's easily the most patient person in our family.\nI've known her my whole life, obviously. We lived a couple of streets apart when I was growing up, so I was round at her place most weekends, and I suppose I've watched her deal with, well, a lot of situations that would have finished me off.\nShe teaches seven-year-olds, which I think would test anyone's patience, but she genuinely takes it all in her stride.\nIf the class is completely wild, she won't raise her voice, she'll just stand at the front and wait them out, and somehow that works far better than shouting ever does.\nWhere it really shows, though, is with my grandmother. She's got quite forgetful over the last few years and she'll ask the same question maybe ten times in an afternoon, and my aunt answers it every single time as if she's hearing it for the first time. I'd have lost my temper hours earlier, to be honest.\nAnd why I think that patience is useful, well, it's that people end up telling her things.\nThere's a lot of people in our family who ring her when something's gone wrong, because she doesn't jump straight in with advice and she doesn't judge you. She just keeps a level head and lets you talk yourself round to it.\nWhich is rarer than you'd think, actually.",
+      "word_count": 244,
+      "approx_duration_seconds": 115,
+      "why_this_band": {
+        "fluency_coherence": "Kendi kendine akan bir anlatim: konuyu kendi sectigi sirayla kuruyor ve 'Where it really shows, though, is with my grandmother' gibi kendi isaretleyicileriyle donuyor. Bir yerde kendini duzeltiyor ('I've watched her deal with, well, a lot of situations'), bu 8 satirinin izin verdigi seyrek duzeltme.",
+        "lexical_resource": "Deyimsel malzeme bol ve dogru yerde: takes it all in her stride, wait them out, raise her voice, lost my temper, keeps a level head, jump straight in with advice, talk yourself round. Konusma diline ait kayit tutarli (round at her place, to be honest).",
+        "grammatical_range_accuracy": "Yapi cesitliligi genis: kosul cumlesi, iliski cumlesi, as if yapisi, would have + gecmis katilim. Hata seyrek ve konusmaya ozgu ('There's a lot of people' - konusmada sik gorulen uyum kaymasi), dinleyiciye hicbir sey kaybettirmiyor."
+      },
+      "what_would_lift_it": "Bu cevap hedefte; bir ust duzey icin buyukanne ornegindeki degerlendirmeyi biraz daha ileri goturup sabrin bedelini de anlatmak gerekir (teyzesine neye mal oluyor). Dilde yapacak bir sey kalmadi."
+    }
+  ]
+}
