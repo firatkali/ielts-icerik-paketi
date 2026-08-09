@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07",
+  "generated_at": "2026-08-09",
   "schema_version": "1.0",
   "targets": {
     "reading": 400,
@@ -14,7 +14,7 @@
     "writing": 110
   },
   "total_questions": 1310,
-  "total_flagged": 180,
+  "total_flagged": 237,
   "entries": [
     {
       "path": "content/listening/scripts/L1-S1.json",
@@ -246,7 +246,7 @@
       "passage_id": null,
       "script_id": null,
       "count": 15,
-      "flagged": 0
+      "flagged": 9
     },
     {
       "path": "content/listening/practice/matching.json",
@@ -262,7 +262,7 @@
       "passage_id": null,
       "script_id": null,
       "count": 10,
-      "flagged": 0
+      "flagged": 7
     },
     {
       "path": "content/listening/practice/multiple-choice-multi.json",
@@ -278,7 +278,7 @@
       "passage_id": null,
       "script_id": null,
       "count": 10,
-      "flagged": 0
+      "flagged": 4
     },
     {
       "path": "content/listening/practice/multiple-choice.json",
@@ -294,7 +294,7 @@
       "passage_id": null,
       "script_id": null,
       "count": 10,
-      "flagged": 0
+      "flagged": 7
     },
     {
       "path": "content/listening/practice/note-completion.json",
@@ -310,7 +310,7 @@
       "passage_id": null,
       "script_id": null,
       "count": 15,
-      "flagged": 0
+      "flagged": 2
     },
     {
       "path": "content/listening/practice/plan-map-diagram-labelling.json",
@@ -342,7 +342,7 @@
       "passage_id": null,
       "script_id": null,
       "count": 15,
-      "flagged": 0
+      "flagged": 3
     },
     {
       "path": "content/listening/practice/short-answer.json",
@@ -358,7 +358,7 @@
       "passage_id": null,
       "script_id": null,
       "count": 15,
-      "flagged": 0
+      "flagged": 7
     },
     {
       "path": "content/listening/practice/table-completion.json",
@@ -374,7 +374,7 @@
       "passage_id": null,
       "script_id": null,
       "count": 15,
-      "flagged": 0
+      "flagged": 2
     },
     {
       "path": "content/listening/tests/L1/form-completion.json",
@@ -390,7 +390,7 @@
       "passage_id": null,
       "script_id": "L1-S1",
       "count": 10,
-      "flagged": 0
+      "flagged": 1
     },
     {
       "path": "content/listening/tests/L1/matching.json",
@@ -406,7 +406,7 @@
       "passage_id": null,
       "script_id": "L1-S3",
       "count": 3,
-      "flagged": 0
+      "flagged": 2
     },
     {
       "path": "content/listening/tests/L1/multiple-choice.json",
@@ -422,7 +422,7 @@
       "passage_id": null,
       "script_id": null,
       "count": 8,
-      "flagged": 0
+      "flagged": 3
     },
     {
       "path": "content/listening/tests/L1/note-completion.json",
@@ -438,7 +438,7 @@
       "passage_id": null,
       "script_id": "L1-S4",
       "count": 6,
-      "flagged": 0
+      "flagged": 3
     },
     {
       "path": "content/listening/tests/L1/plan-map-diagram-labelling.json",
@@ -470,7 +470,7 @@
       "passage_id": null,
       "script_id": "L1-S3",
       "count": 4,
-      "flagged": 0
+      "flagged": 1
     },
     {
       "path": "content/listening/tests/L1/short-answer.json",
@@ -486,7 +486,7 @@
       "passage_id": null,
       "script_id": "L1-S4",
       "count": 4,
-      "flagged": 0
+      "flagged": 2
     },
     {
       "path": "content/listening/tests/L2/flow-chart-completion.json",
@@ -502,7 +502,7 @@
       "passage_id": null,
       "script_id": "L2-S4",
       "count": 5,
-      "flagged": 0
+      "flagged": 2
     },
     {
       "path": "content/listening/tests/L2/matching.json",
@@ -518,7 +518,7 @@
       "passage_id": null,
       "script_id": "L2-S3",
       "count": 3,
-      "flagged": 0
+      "flagged": 1
     },
     {
       "path": "content/listening/tests/L2/multiple-choice.json",
@@ -534,7 +534,7 @@
       "passage_id": null,
       "script_id": null,
       "count": 8,
-      "flagged": 0
+      "flagged": 2
     },
     {
       "path": "content/listening/tests/L2/note-completion.json",
@@ -550,7 +550,7 @@
       "passage_id": null,
       "script_id": "L2-S4",
       "count": 5,
-      "flagged": 0
+      "flagged": 2
     },
     {
       "path": "content/listening/tests/L2/plan-map-diagram-labelling.json",
@@ -582,7 +582,7 @@
       "passage_id": null,
       "script_id": "L2-S3",
       "count": 4,
-      "flagged": 0
+      "flagged": 1
     },
     {
       "path": "content/listening/tests/L2/table-completion.json",
@@ -598,7 +598,7 @@
       "passage_id": null,
       "script_id": "L2-S1",
       "count": 10,
-      "flagged": 0
+      "flagged": 1
     },
     {
       "path": "content/listening/tests/L3/form-completion.json",
@@ -614,7 +614,7 @@
       "passage_id": null,
       "script_id": "L3-S1",
       "count": 10,
-      "flagged": 0
+      "flagged": 2
     },
     {
       "path": "content/listening/tests/L3/matching.json",
@@ -630,7 +630,7 @@
       "passage_id": null,
       "script_id": null,
       "count": 8,
-      "flagged": 0
+      "flagged": 6
     },
     {
       "path": "content/listening/tests/L3/multiple-choice.json",
@@ -646,7 +646,7 @@
       "passage_id": null,
       "script_id": "L3-S3",
       "count": 3,
-      "flagged": 0
+      "flagged": 2
     },
     {
       "path": "content/listening/tests/L3/plan-map-diagram-labelling.json",
@@ -678,7 +678,7 @@
       "passage_id": null,
       "script_id": "L3-S3",
       "count": 4,
-      "flagged": 0
+      "flagged": 1
     },
     {
       "path": "content/listening/tests/L3/short-answer.json",
@@ -694,7 +694,7 @@
       "passage_id": null,
       "script_id": "L3-S4",
       "count": 4,
-      "flagged": 0
+      "flagged": 3
     },
     {
       "path": "content/listening/tests/L3/summary-completion.json",
@@ -710,7 +710,7 @@
       "passage_id": null,
       "script_id": "L3-S4",
       "count": 6,
-      "flagged": 0
+      "flagged": 4
     },
     {
       "path": "content/listening/tests/L4/flow-chart-completion.json",
@@ -726,7 +726,7 @@
       "passage_id": null,
       "script_id": "L4-S4",
       "count": 5,
-      "flagged": 0
+      "flagged": 2
     },
     {
       "path": "content/listening/tests/L4/matching.json",
@@ -742,7 +742,7 @@
       "passage_id": null,
       "script_id": null,
       "count": 8,
-      "flagged": 0
+      "flagged": 6
     },
     {
       "path": "content/listening/tests/L4/multiple-choice.json",
@@ -758,7 +758,7 @@
       "passage_id": null,
       "script_id": "L4-S3",
       "count": 3,
-      "flagged": 0
+      "flagged": 3
     },
     {
       "path": "content/listening/tests/L4/note-completion.json",
@@ -774,7 +774,7 @@
       "passage_id": null,
       "script_id": "L4-S1",
       "count": 10,
-      "flagged": 0
+      "flagged": 1
     },
     {
       "path": "content/listening/tests/L4/plan-map-diagram-labelling.json",
@@ -806,7 +806,7 @@
       "passage_id": null,
       "script_id": "L4-S3",
       "count": 4,
-      "flagged": 0
+      "flagged": 1
     },
     {
       "path": "content/listening/tests/L4/short-answer.json",
@@ -822,7 +822,7 @@
       "passage_id": null,
       "script_id": "L4-S4",
       "count": 5,
-      "flagged": 0
+      "flagged": 3
     },
     {
       "path": "content/listening/tests/L5/form-completion.json",
@@ -838,7 +838,7 @@
       "passage_id": null,
       "script_id": "L5-S1",
       "count": 10,
-      "flagged": 0
+      "flagged": 1
     },
     {
       "path": "content/listening/tests/L5/matching.json",
@@ -854,7 +854,7 @@
       "passage_id": null,
       "script_id": "L5-S3",
       "count": 3,
-      "flagged": 0
+      "flagged": 3
     },
     {
       "path": "content/listening/tests/L5/multiple-choice.json",
@@ -870,7 +870,7 @@
       "passage_id": null,
       "script_id": null,
       "count": 8,
-      "flagged": 0
+      "flagged": 5
     },
     {
       "path": "content/listening/tests/L5/plan-map-diagram-labelling.json",
@@ -902,7 +902,7 @@
       "passage_id": null,
       "script_id": "L5-S3",
       "count": 4,
-      "flagged": 0
+      "flagged": 1
     },
     {
       "path": "content/listening/tests/L5/summary-completion.json",
@@ -918,7 +918,7 @@
       "passage_id": null,
       "script_id": "L5-S4",
       "count": 5,
-      "flagged": 0
+      "flagged": 4
     },
     {
       "path": "content/listening/tests/L5/table-completion.json",
@@ -934,7 +934,7 @@
       "passage_id": null,
       "script_id": "L5-S4",
       "count": 5,
-      "flagged": 0
+      "flagged": 1
     },
     {
       "path": "content/listening/tests/L6/form-completion.json",
@@ -950,7 +950,7 @@
       "passage_id": null,
       "script_id": "L6-S1",
       "count": 10,
-      "flagged": 0
+      "flagged": 1
     },
     {
       "path": "content/listening/tests/L6/matching.json",
@@ -966,7 +966,7 @@
       "passage_id": null,
       "script_id": null,
       "count": 8,
-      "flagged": 0
+      "flagged": 4
     },
     {
       "path": "content/listening/tests/L6/multiple-choice.json",
@@ -982,7 +982,7 @@
       "passage_id": null,
       "script_id": "L6-S3",
       "count": 3,
-      "flagged": 0
+      "flagged": 2
     },
     {
       "path": "content/listening/tests/L6/note-completion.json",
@@ -998,7 +998,7 @@
       "passage_id": null,
       "script_id": "L6-S4",
       "count": 6,
-      "flagged": 0
+      "flagged": 2
     },
     {
       "path": "content/listening/tests/L6/plan-map-diagram-labelling.json",
@@ -1046,7 +1046,7 @@
       "passage_id": null,
       "script_id": "L6-S4",
       "count": 4,
-      "flagged": 0
+      "flagged": 1
     },
     {
       "path": "content/reading/practice/diagram-labelling.json",
@@ -1078,7 +1078,7 @@
       "passage_id": null,
       "script_id": null,
       "count": 10,
-      "flagged": 4
+      "flagged": 2
     },
     {
       "path": "content/reading/practice/matching-headings.json",
@@ -1094,7 +1094,7 @@
       "passage_id": null,
       "script_id": null,
       "count": 15,
-      "flagged": 3
+      "flagged": 1
     },
     {
       "path": "content/reading/practice/matching-information.json",
@@ -1110,7 +1110,7 @@
       "passage_id": null,
       "script_id": null,
       "count": 15,
-      "flagged": 1
+      "flagged": 0
     },
     {
       "path": "content/reading/practice/matching-sentence-endings.json",
@@ -1126,7 +1126,7 @@
       "passage_id": null,
       "script_id": null,
       "count": 10,
-      "flagged": 10
+      "flagged": 9
     },
     {
       "path": "content/reading/practice/multiple-choice.json",
@@ -1142,7 +1142,7 @@
       "passage_id": null,
       "script_id": null,
       "count": 15,
-      "flagged": 12
+      "flagged": 8
     },
     {
       "path": "content/reading/practice/note-completion.json",
@@ -1158,7 +1158,7 @@
       "passage_id": null,
       "script_id": null,
       "count": 15,
-      "flagged": 2
+      "flagged": 5
     },
     {
       "path": "content/reading/practice/sentence-completion.json",
@@ -1174,7 +1174,7 @@
       "passage_id": null,
       "script_id": null,
       "count": 15,
-      "flagged": 4
+      "flagged": 8
     },
     {
       "path": "content/reading/practice/short-answer.json",
@@ -1190,7 +1190,7 @@
       "passage_id": null,
       "script_id": null,
       "count": 10,
-      "flagged": 2
+      "flagged": 1
     },
     {
       "path": "content/reading/practice/summary-completion.json",
@@ -1206,7 +1206,7 @@
       "passage_id": null,
       "script_id": null,
       "count": 15,
-      "flagged": 7
+      "flagged": 10
     },
     {
       "path": "content/reading/practice/true-false-not-given.json",
@@ -1222,7 +1222,7 @@
       "passage_id": null,
       "script_id": null,
       "count": 15,
-      "flagged": 8
+      "flagged": 1
     },
     {
       "path": "content/reading/practice/yes-no-not-given.json",
@@ -1238,7 +1238,7 @@
       "passage_id": null,
       "script_id": null,
       "count": 15,
-      "flagged": 15
+      "flagged": 5
     },
     {
       "path": "content/reading/tests/AC1/matching-features.json",
@@ -1254,7 +1254,7 @@
       "passage_id": "A02",
       "script_id": null,
       "count": 4,
-      "flagged": 3
+      "flagged": 0
     },
     {
       "path": "content/reading/tests/AC1/matching-headings.json",
@@ -1302,7 +1302,7 @@
       "passage_id": "A03",
       "script_id": null,
       "count": 4,
-      "flagged": 3
+      "flagged": 2
     },
     {
       "path": "content/reading/tests/AC1/note-completion.json",
@@ -1318,7 +1318,7 @@
       "passage_id": "A01",
       "script_id": null,
       "count": 6,
-      "flagged": 2
+      "flagged": 0
     },
     {
       "path": "content/reading/tests/AC1/sentence-completion.json",
@@ -1334,7 +1334,7 @@
       "passage_id": "A02",
       "script_id": null,
       "count": 4,
-      "flagged": 1
+      "flagged": 3
     },
     {
       "path": "content/reading/tests/AC1/summary-completion.json",
@@ -1350,7 +1350,7 @@
       "passage_id": "A03",
       "script_id": null,
       "count": 5,
-      "flagged": 3
+      "flagged": 2
     },
     {
       "path": "content/reading/tests/AC1/true-false-not-given.json",
@@ -1366,7 +1366,7 @@
       "passage_id": "A01",
       "script_id": null,
       "count": 7,
-      "flagged": 6
+      "flagged": 3
     },
     {
       "path": "content/reading/tests/AC2/flow-chart-completion.json",
@@ -1398,7 +1398,7 @@
       "passage_id": "A05",
       "script_id": null,
       "count": 4,
-      "flagged": 4
+      "flagged": 3
     },
     {
       "path": "content/reading/tests/AC2/matching-headings.json",
@@ -1414,7 +1414,7 @@
       "passage_id": "A05",
       "script_id": null,
       "count": 5,
-      "flagged": 1
+      "flagged": 0
     },
     {
       "path": "content/reading/tests/AC2/matching-information.json",
@@ -1446,7 +1446,7 @@
       "passage_id": "A06",
       "script_id": null,
       "count": 4,
-      "flagged": 3
+      "flagged": 2
     },
     {
       "path": "content/reading/tests/AC2/sentence-completion.json",
@@ -1462,7 +1462,7 @@
       "passage_id": "A05",
       "script_id": null,
       "count": 4,
-      "flagged": 2
+      "flagged": 1
     },
     {
       "path": "content/reading/tests/AC2/summary-completion.json",
@@ -1478,7 +1478,7 @@
       "passage_id": "A06",
       "script_id": null,
       "count": 5,
-      "flagged": 5
+      "flagged": 2
     },
     {
       "path": "content/reading/tests/AC2/true-false-not-given.json",
@@ -1494,7 +1494,7 @@
       "passage_id": "A04",
       "script_id": null,
       "count": 7,
-      "flagged": 4
+      "flagged": 2
     },
     {
       "path": "content/reading/tests/AC3/matching-features.json",
@@ -1510,7 +1510,7 @@
       "passage_id": "A08",
       "script_id": null,
       "count": 4,
-      "flagged": 4
+      "flagged": 2
     },
     {
       "path": "content/reading/tests/AC3/matching-headings.json",
@@ -1542,7 +1542,7 @@
       "passage_id": "A09",
       "script_id": null,
       "count": 5,
-      "flagged": 2
+      "flagged": 1
     },
     {
       "path": "content/reading/tests/AC3/multiple-choice.json",
@@ -1558,7 +1558,7 @@
       "passage_id": "A09",
       "script_id": null,
       "count": 4,
-      "flagged": 3
+      "flagged": 2
     },
     {
       "path": "content/reading/tests/AC3/sentence-completion.json",
@@ -1574,7 +1574,7 @@
       "passage_id": "A08",
       "script_id": null,
       "count": 4,
-      "flagged": 3
+      "flagged": 1
     },
     {
       "path": "content/reading/tests/AC3/summary-completion.json",
@@ -1590,7 +1590,7 @@
       "passage_id": "A09",
       "script_id": null,
       "count": 5,
-      "flagged": 1
+      "flagged": 2
     },
     {
       "path": "content/reading/tests/AC3/table-completion.json",
@@ -1622,7 +1622,7 @@
       "passage_id": "A07",
       "script_id": null,
       "count": 7,
-      "flagged": 1
+      "flagged": 0
     },
     {
       "path": "content/reading/tests/AC4/matching-features.json",
@@ -1638,7 +1638,7 @@
       "passage_id": "A11",
       "script_id": null,
       "count": 4,
-      "flagged": 3
+      "flagged": 1
     },
     {
       "path": "content/reading/tests/AC4/matching-headings.json",
@@ -1654,7 +1654,7 @@
       "passage_id": "A11",
       "script_id": null,
       "count": 5,
-      "flagged": 2
+      "flagged": 0
     },
     {
       "path": "content/reading/tests/AC4/matching-information.json",
@@ -1686,7 +1686,7 @@
       "passage_id": "A12",
       "script_id": null,
       "count": 4,
-      "flagged": 3
+      "flagged": 0
     },
     {
       "path": "content/reading/tests/AC4/note-completion.json",
@@ -1718,7 +1718,7 @@
       "passage_id": "A11",
       "script_id": null,
       "count": 4,
-      "flagged": 2
+      "flagged": 1
     },
     {
       "path": "content/reading/tests/AC4/summary-completion.json",
@@ -1734,7 +1734,7 @@
       "passage_id": "A12",
       "script_id": null,
       "count": 5,
-      "flagged": 5
+      "flagged": 4
     },
     {
       "path": "content/reading/tests/AC4/true-false-not-given.json",
@@ -1750,7 +1750,7 @@
       "passage_id": "A10",
       "script_id": null,
       "count": 7,
-      "flagged": 2
+      "flagged": 0
     },
     {
       "path": "content/reading/tests/GT1/matching-headings.json",
@@ -1766,7 +1766,7 @@
       "passage_id": "G05",
       "script_id": null,
       "count": 5,
-      "flagged": 1
+      "flagged": 0
     },
     {
       "path": "content/reading/tests/GT1/matching-information.json",
@@ -1814,7 +1814,7 @@
       "passage_id": "G03",
       "script_id": null,
       "count": 6,
-      "flagged": 3
+      "flagged": 5
     },
     {
       "path": "content/reading/tests/GT1/sentence-completion.json",
@@ -1830,7 +1830,7 @@
       "passage_id": "G03",
       "script_id": null,
       "count": 3,
-      "flagged": 1
+      "flagged": 0
     },
     {
       "path": "content/reading/tests/GT1/summary-completion.json",
@@ -1846,7 +1846,7 @@
       "passage_id": "G05",
       "script_id": null,
       "count": 4,
-      "flagged": 1
+      "flagged": 3
     },
     {
       "path": "content/reading/tests/GT1/true-false-not-given.json",
@@ -1862,7 +1862,7 @@
       "passage_id": "G01",
       "script_id": null,
       "count": 7,
-      "flagged": 4
+      "flagged": 1
     },
     {
       "path": "content/reading/tests/GT1/yes-no-not-given.json",
@@ -1878,7 +1878,7 @@
       "passage_id": "G05",
       "script_id": null,
       "count": 4,
-      "flagged": 4
+      "flagged": 2
     },
     {
       "path": "content/reading/tests/GT2/matching-headings.json",
@@ -1926,7 +1926,7 @@
       "passage_id": "G04",
       "script_id": null,
       "count": 4,
-      "flagged": 3
+      "flagged": 1
     },
     {
       "path": "content/reading/tests/GT2/sentence-completion.json",
@@ -1942,7 +1942,7 @@
       "passage_id": "G04",
       "script_id": null,
       "count": 3,
-      "flagged": 0
+      "flagged": 1
     },
     {
       "path": "content/reading/tests/GT2/summary-completion.json",
@@ -1974,7 +1974,7 @@
       "passage_id": "G04",
       "script_id": null,
       "count": 6,
-      "flagged": 2
+      "flagged": 1
     },
     {
       "path": "content/reading/tests/GT2/true-false-not-given.json",
@@ -1990,7 +1990,7 @@
       "passage_id": "G02",
       "script_id": null,
       "count": 7,
-      "flagged": 5
+      "flagged": 0
     },
     {
       "path": "content/reading/tests/GT2/yes-no-not-given.json",
@@ -2006,7 +2006,7 @@
       "passage_id": "G06",
       "script_id": null,
       "count": 4,
-      "flagged": 4
+      "flagged": 2
     },
     {
       "path": "content/speaking/part1/T01-hometown.json",
