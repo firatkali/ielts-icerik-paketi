@@ -14,6 +14,31 @@
 
 ---
 
+## 0. KARARLAR — 2026-08-11 (proje sahibi)
+
+Raporun §5'inde açık bırakılan maddelerin üçü karara bağlandı. Bu bölüm rapora sonradan
+eklendi: §5 durum tespitidir ve olduğu gibi duruyor, burası ne yapılacağını söyler.
+
+**Yürütme değişti:** içerik işi artık dışarıya verilmiyor, proje sahibi + asistan
+yapıyor. Yani aşağıdaki üç madde "birinden beklenen" değil, sıradaki iş.
+
+| # | Karar | Seçilen yol |
+|---|---|---|
+| **B3** | Aynı pasaj/senaryo birden çok pakette — alıştırma, testin cevabını düz metin veriyor | **(a) "bir olgu, bir paket" taraması.** Kanıt-çakışması aracı paket arası köke genişletilecek; en acil çiftler §5-B3'te listeli. Gerçek kullanıcıyı da etkileyen tek sızıntı kanalı olduğu için **önce bu**. |
+| **B1** | 121 işaretli dinleme sorusu | **(b) mekanizma bazında elden geçirme.** Tip tip gidilecek: `secenek_sozu`+`cerceve_sozu` (49 kalem) yazım işi, `genel_kultur` (43) senaryo/konu değişikliği, `capraz_sizinti` (10) B3'e bağlı — B3 bitmeden başlanmaz. Atma seçeneği elendi: altı testin altısı da 40 sorunun altına düşerdi. |
+| **B2** | Reçetesi tükenen iki okuma tipi (cümle tamamlama, cümle sonu eşleştirme) | **(b) yeniden üretim.** Üçüncü elden geçirme turu elendi — iki ölçüm de düzelmediğini gösterdi. **Havuzdan çıkarma da elendi:** iki tip de gerçek sınavda çıkıyor, çıkarmak adayı hazırlıksız bırakır; sorun tipin kendisinde değil, sorunun yazımında. Cümle sonu eşleştirmede E7'nin reçetesi bağlayıcı: yanlış sonlardan en az ikisi aynı köke anlamca oturacak. |
+
+**Üçüne birden geçerli kabul şartı:** yeniden üretilen ya da elden geçirilen her soru,
+onu işaretleyen ölçümün aynısından geçecek. Ölçümsüz düzeltme "düzeltildi" sayılmaz —
+E5/E6 turunda tam olarak bu yüzden iki tip elde patladı.
+
+**Açık kalanlar (karar verilmedi):** B4 (gerçek olaya dayalı pasajlar) · B5 (konuşma
+puanlamasının üç eksiği) · B6 (ezber şüphesi) · B7 (dil kalıntıları) · B8 (boş
+`flag_mechanism`) · B9 (iki çift-cevap sorusu) · B10 (görsel tipler hiç ölçülmedi) ·
+B11 (ertelenmiş puanlama küçükleri).
+
+---
+
 ## 1. Genel durum
 
 Birinci turun on iki açık maddesinden onu kapatılmış ya da ciddi ilerletilmiş durumda:
