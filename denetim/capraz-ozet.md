@@ -1,265 +1,258 @@
 # Çapraz Kontrol Özeti — 2. tur (Denetim, 2. çalıştırma)
 
-- **Tarih:** 2026-08-09
-- **Kaynaklar:** `content/DOGRULAMA/` altındaki bütün raporlar ve JSON'lar — `RAPOR.md`
-  (ilk çapraz doğrulama), `RAPOR-2.md` (E7 cevap anahtarı yeniden ölçümü),
-  `METINSIZ-RAPOR.md` + `METINSIZ-RAPOR-2.md` (okuma parçasız çözüm, ilk + yeniden),
-  `ANLAM-DUZEYI-RAPOR.md` (K3 ölçütü), `SESSIZ-RAPOR.md` (dinleme sızıntı, 5 çalıştırma),
-  `ISARET-GEREKCELERI.md`, `ELDEN-GECIRME.md` — ve `content/` altındaki 237 işaretli
-  sorunun `flag_reason` / `flag_mechanism` / `blind_basis` alanları (bu denetimde
-  dosyalardan yeniden sayıldı).
-- **1. tur karşılaştırması:** `denetim/tur1/capraz-ozet.md`.
+- **Tarih:** 2026-08-12 (bu turun 2. çalıştırmasının yeniden koşumu; önceki koşum 2026-08-09).
+  `git log 5f24bde..HEAD -- content/` boş: içerik 9 Ağustos koşumundan bu yana **hiç değişmedi**.
+  Aşağıdaki bütün sayılar bu çalıştırmada dosyalardan yeniden sayıldı; önceki koşumun
+  sayılarıyla **birebir uyuştu** (işaretli 237/250, mekanizma dağılımı, model kırılımı).
+- **Kaynaklar:** `content/DOGRULAMA/` altındaki bütün JSON raporları ve `RAPOR.md`
+  (ilk çapraz doğrulama, 7 oturum), `RAPOR-2.md` (E7 cevap anahtarı yeniden ölçümü),
+  `METINSIZ-RAPOR-2.md` + `METINSIZ-yeniden-olcum.md` (okuma parçasız çözüm),
+  `SESSIZ-RAPOR.md` + `SESSIZ-TOPLU.json` (dinleme sızıntı ölçümü, 5 çalıştırma),
+  `ISARET-GEREKCELERI.md` — ve `content/` altındaki **237 işaretli sorunun**
+  `flag_reason` / `flag_mechanism` alanları (383 JSON dosyası bu denetimde tarandı).
+- **1. tur karşılaştırması:** `denetim/tur1/capraz-ozet.md` (2026-08-07).
 - **Kural gereği bu rapor sadece durum tespiti yapar; hiçbir içerik dosyası değiştirilmemiştir.**
-
-1. turdan bu yana kontrol mekanizması ikiden dörde çıktı:
-
-1. **Cevap anahtarı (kör çapraz çözüm):** ilk tur 743 soru + E7 yeniden ölçümü 188 soru.
-2. **Okuma parçasız çözüm:** ilk ölçüm 381 soru; E5/E6 düzeltmelerinden sonra değişen
-   189 soru E7'de yeniden ölçüldü (K3 anlam düzeyi dahil).
-3. **Anlam düzeyi ölçütü (E10):** eski kelime-düzeyi ölçümünün kaçırdığı sızıntıyı aynı
-   tur dökümlerinden yeniden değerlendirdi.
-4. **Dinleme sızıntı ölçümü (E8, YENİ):** 1. turun en büyük ölçüm boşluğu kapandı —
-   304 dinleme kalemi senaryo gösterilmeden 3'er turda çözüldü.
 
 ---
 
-## 1. Toplam sayılar
+## 1. Toplam sayılar: kaç soru doğrulandı, kaçı işaretli, uyuşma ne
 
-### 1a. Cevap anahtarı doğrulaması (kör çapraz çözüm, üretmeyen model)
+### 1a. Cevap anahtarı doğrulaması (kör çapraz çözüm — üretmeyen model çözer)
 
 | Ölçüm | Soru | Uyuşan | İçerik düzeyinde | Kalıcı işaret |
 |---|---:|---:|---:|---:|
-| İlk tur (CAPRAZ-90, 7 oturum) | 743 | 718 (%96,6) | pratikte %100 (24 biçim eksiği kapatıldı, 1 yanlış alarm) | 0 |
-| E7 yeniden ölçümü (E5/E6 sonrası değişen 188 soru) | 188 | 184 (%97,9) | 186 (%98,9; 2 uyuşmazlık birim/varyant yanlış alarmı) | **2** |
+| İlk tur (CAPRAZ-90, 7 oturum, 2026-08-06) | 743 | 718 (%96,6) | pratikte %100 — 25 uyuşmazlığın 23'ü rakam/yazı-belirteç-boşluk biçimi, 1'i varyant yanlış alarmı, 1'i eksik varyant | 0 |
+| E7 yeniden ölçümü (E5/E6 sonrası değişen 188 soru, 2026-08-08) | 188 | 184 (%97,9) | 186 (%98,9) — 2 uyuşmazlık birim/varyant yanlış alarmı | **2** |
 
-E7'nin işaretlediği iki soru "yanlış cevap" değil "iki savunulabilir cevap" türünden:
-`practice/matching-headings` 15 (v↔ii) ve `GT1/summary-completion` 40
-(prevention↔reductions). İkisi de hâlâ `flagged` duruyor; karar bekliyor.
-E6'nın 72 yeni sorusunun 72'si de anahtarla uyuştu. 1. turun açık bıraktığı tek anahtar
-eksiği (`AC2/flow-chart` 1'e `40 minutes` varyantı) **kapatılmış** — dosyada doğrulandı.
+Toplam **931 kör çözümden ayakta kalan gerçek uyuşmazlık 2** — ikisi de "yanlış cevap"
+değil, "**iki savunulabilir cevap**" vakası: `practice/matching-headings` 15 (v↔ii,
+iki başlık da aynı paragrafa demirli) ve `GT1/summary-completion` 40
+(prevention↔reductions, kanıt cümlesi iki adayı birden taşıyor). İkisi de bugün
+`flagged` duruyor, dosyada doğrulandı. E6'nın yeniden ürettiği 72 sorunun 72'si
+anahtarla uyuştu. **Cevap anahtarı cephesi temiz; işaret yükünün kaynağı burası değil.**
 
-**Cevap anahtarı cephesinin net sonucu 1. turla aynı: içerik düzeyinde pratikte %100.**
-Toplamda 931 kör çözümden ayakta kalan gerçek uyuşmazlık 2 (ikisi de çift-cevap
-belirsizliği).
+### 1b. Sızıntı ölçümleri (işaretlerin asıl kaynağı)
 
-### 1b. Sızıntı ölçümleri (işaretlerin kaynağı)
+"Sızıntı" = soru, pasaj/senaryo hiç gösterilmeden 3 bağımsız turun üçünde de doğru
+biliniyor (K3 = anlam düzeyinde).
 
-| Ölçüm | Kapsam | 3/3 bilinen | İşaret |
+| Ölçüm | Kapsam | 3/3 bilinen | Bugün ayakta kalan işaret |
 |---|---:|---:|---:|
-| Okuma ilk ölçüm (B1, kelime düzeyi) | 381 | 180 (%47) | 180 → E5/E6 elden geçirme/yeniden üretimle bileşim değişti |
-| Okuma E10 (anlam düzeyi, aynı dökümler) | aynı | cümle tam. %73, özet %93 (anlamca) | +~29 (bugün 25'i duruyor) |
-| Okuma E7 yeniden ölçümü (E5/E6 sonrası 189 soru) | 189 | 82 (%43,4 K3) | 81 yeni + 1 eski |
-| **Dinleme (E8, YENİ)** | 304 (352 kalemin ölçülebilenleri) | 125 K3 (%41,1) | **121** (dayanağı anlamsal olanlar) |
+| Okuma ilk ölçüm (B1, kelime düzeyi) + E10 (anlam düzeyi) | 381 | 180 (%47) + E10 ekleri | E5/E6 elden geçirme/yeniden üretim sonrası bileşim tümüyle yenilendi |
+| Okuma E7 yeniden ölçümü (E5/E6 sonrası 189 soru) | 189 | 82 (%43,4 K3) | 81 yeni + 1 eski işaret |
+| Dinleme E8 (bu turda yeni; 1. turda hiç ölçülmemişti) | 304 kalem (352'nin ölçülebilenleri; 45 plan/harita görsel gerektirdiği için ölçüm dışı) | 125 K3 (%41,1) | **121** (yalnız dayanağı anlamsal olanlar; şans oranında tutturan 4 `number_guess` bilerek işaretlenmedi) |
 
-Bugünkü işaretli stok (dosyalardan sayıldı): **okuma 116 kalem** (122 numara) +
-**dinleme 121 kalem** (128 numara) = **237 kalem / 250 numara.**
-
-Okuma işaretlerinin kaynağı (gerekçe metninden sınıflandı):
-
-| Kaynak | Kalem |
-|---|---:|
-| E7 parçasız yeniden ölçüm (K3, 3/3) | 81 |
-| E10 anlam düzeyi ölçütü | 25 |
-| E7 cevap anahtarı (çift-cevap) | 2 |
-| "Belirsiz — net mekanizma yok" (E1'in sınıfladığı, E5'in elden çıkarmadığı) | 8 |
-| **Toplam** | **116** |
+**Bugünkü işaretli stok (bu çalıştırmada dosyalardan sayıldı): 237 kalem / 250 numara**
+= okuma 116 kalem (122 numara) + dinleme 121 kalem (128 numara). Toplam 1.310 sorunun
+%19'u. 1. turda 180 (yalnız okuma) idi; okuma 180 → 116'ya indi (düzelme), dinleme
+0 → 121 (bozulma değil — 1. turun "dinleme hiç ölçülmedi" karanlık bölgesi ilk kez
+ölçüldü).
 
 ---
 
-## 2. Soru tipi bazında işaretlenme oranı
+## 2. Soru tipi bazında işaretlenme oranı — işaretler tipte yoğunlaşıyor mu?
 
-### Okuma (bugünkü durum, test + alıştırma birlikte)
+Evet, çok belirgin biçimde. İki beceride de aynı uçlar.
 
-| Soru tipi | Üretilen | İşaretli | Oran | 1. turda oran |
+### Okuma (test + alıştırma birlikte, numara bazında)
+
+| Soru tipi | Üretilen | İşaretli | Oran | 1. turda |
 |---|---:|---:|---:|---:|
 | Cümle sonu eşleştirme | 10 | 9 | **%90** | %100 |
-| Özet tamamlama | 43 | 27 | **%63** | %60 |
 | Akış şeması tamamlama | 6 | 4 | %67 | %67 |
+| Özet tamamlama | 43 | 27 | **%63** | %60 |
 | Çoktan seçmeli | 39 | 24 | **%62** | %100 |
 | Cümle tamamlama | 37 | 15 | %41 | %35 |
 | YES / NO / NOT GIVEN | 23 | 9 | %39 | %100 |
-| Not tamamlama | 33 | 12 | %36 | %27 |
+| Not/tablo ailesi (not 33 + tablo 12) | 45 | 15 | %33 | ~%29 |
 | Özellik eşleştirme | 26 | 8 | %31 | %69 |
-| Tablo tamamlama | 27 | 5 | %19 | %33 |
 | TRUE / FALSE / NOT GIVEN | 57 | 7 | %12 | %53 |
 | Kısa cevap | 10 | 1 | %10 | %20 |
 | Başlık eşleştirme | 45 | 2 | %4 | %18 |
 | Bilgi eşleştirme | 49 | 1 | %2 | %6 |
 | Diyagram etiketleme | 10 | — | ölçülemedi (görsel) | — |
 
-Cümle tamamlama, not tamamlama ve özet oranlarının 1. turdan **yüksek** görünmesi
-kötüleşme değil: E10/E7'nin anlam-düzeyi (K3) ölçütü, 1. turun kelime-düzeyi ölçütünün
-göremediği sızıntıyı sayıyor (1. tur raporunun kendisi bu iyimserliği not etmişti).
+Cümle tamamlama ve özetin 1. turdan yüksek görünmesi kötüleşme değil: E7/E10'un anlam
+düzeyi (K3) ölçütü, 1. turun kelime düzeyi ölçütünün göremediği sızıntıyı sayıyor.
 E7'nin kendi kabul ölçütüne göre bir tip açıkça **düzelmedi**: `sentence_completion`
-(%43 > resmî taban %20); `matching_sentence_endings` fiilen yerinde saydı (9/10).
+(%43 > resmî taban %20). `matching_sentence_endings` fiilen yerinde saydı (9/10 hâlâ
+parçasız çözülüyor; E7 raporu bu iki tip için elden geçirme yerine yeniden üretim öneriyor).
 
-### Dinleme (E8, K3; işaretlenme = 3/3 bilinen ∧ dayanak anlamsal)
+### Dinleme (E8 ölçümü, kalem bazında; işaret = 3/3 bilinen ∧ dayanak anlamsal)
 
-| Soru tipi | Ölçülen kalem | İşaretli | Oran |
+| Soru tipi | Ölçülen | İşaretli | Oran |
 |---|---:|---:|---:|
-| Çoktan seçmeli (çok cevaplı) | 8 | 4 kalem (8 numaranın 8'i değil — çift sayım numarada) | **%87,5 (3/3 bilinme)** |
-| Çoktan seçmeli (tek) | 37 | 24* | %67,6 (3/3), işaretli %64,9 |
+| Çoktan seçmeli (çok cevaplı) | 8 | 4 | 3/3 bilinme **%87,5** (7/8) |
 | Eşleştirme | 43 | 29 | **%67,4** |
-| Özet tamamlama | 15 | 9 | %60,0 |
-| Kısa cevap | 28 | 15 | %53,6 |
-| Akış şeması | 25 | 13 | %52,0 |
-| Not tamamlama | 40 | 10 | %25,0 |
-| Cümle tamamlama | 39 | 8 | %20,5 |
-| Tablo tamamlama | 29 | 4 | %13,8 |
-| Form tamamlama | 40 | 5 | %12,5 |
+| Çoktan seçmeli (tek) | 37 | 24 | %64,9 (3/3 bilinme %67,6) |
+| Özet tamamlama | 15 | 9 | %60 |
+| Kısa cevap | 28 | 15 | %54 |
+| Akış şeması tamamlama | 25 | 13 | %52 |
+| Not tamamlama | 40 | 10 | %25 |
+| Cümle tamamlama | 39 | 8 | %21 |
+| Tablo tamamlama | 29 | 4 | %14 |
+| Form tamamlama | 40 | 5 | %13 |
 | Plan / harita / diyagram | 45 | — | ölçülmedi (görsel) |
 
-\* 3/3 bilinen 25'in 4'ü `number_guess` (şans oranında tutturma) — bilerek işaretlenmedi,
-dosyada `blind_note` ile duruyor.
-
-**Evet, işaretler iki beceride de aynı yerlerde yoğunlaşıyor:** yazılı seçenek/ifade
-metni taşıyan tipler (çoktan seçmeli, eşleştirme, özet) en üstte; cevabı özel ad / sayı /
-saat olan tipler (form, tablo) en altta — dinlemede bu düşüklük "iyi tasarım" değil,
-o tiplerin yapısal tahmin edilemezliği (raporun kendi tespiti).
+Desen iki beceride aynı: **yazılı seçenek/ifade metni taşıyan tipler üstte** (çoktan
+seçmeli, eşleştirme, özet, MSE), **cevabı özel ad / sayı / saat olan tipler altta**
+(form, tablo). Alttakilerin düşüklüğü "iyi tasarım" kanıtı değil; o tiplerin cevabı
+yapısal olarak tahmin edilemez (SESSIZ raporunun kendi tespiti).
 
 ---
 
 ## 3. Üreten model bazında kırılım
 
-Önemli şerh: `generated_by` alanı artık **son üreteni** gösteriyor. E6'nın yeniden
-ürettiği ~41 okuma sorusu Fable yuvalarında olduğu hâlde `opus` imzalı; bu yüzden
-1. turdaki "yuva = model" eşlemesi artık geçerli değil ve aşağıdaki tablo 1. turla
-birebir kıyaslanamaz.
+Kim neyi üretmişti: okumada TFNG/YNNG, çoktan seçmeli ve başlık/özellik/cümle-sonu
+eşleştirme paketleri **Fable**, tamamlama ailesi + bilgi eşleştirme + kısa cevap +
+diyagram **Opus**; dinlemede çoktan seçmeli + eşleştirme (`FABLE5-43`) **Fable**,
+form/tamamlama/plan-harita (`OPUS5-21`) **Opus**. Şerh: `generated_by` alanı **son
+üreteni** gösteriyor — E6'nın yeniden ürettiği ~41 okuma sorusu Fable yuvalarında
+olsa da artık `opus` imzalı; bu yüzden okuma satırları 1. turla birebir kıyaslanamaz.
 
-| Beceri, model (son üreten) | Soru | İşaretli | Oran |
+| Beceri, model (son üreten) | Soru (numara) | İşaretli | Oran |
 |---|---:|---:|---:|
-| Dinleme, fable (`FABLE5-43`: MC + eşleştirme) | 96 | 64 | **%66,7** |
-| Dinleme, opus (`OPUS5-21`: form/tamamlama/plan) | 264 | 64 | %24,2 |
+| Dinleme, fable (MC + eşleştirme) | 96 | 64 | **%66,7** |
+| Dinleme, opus (form/tamamlama) | 264 | 64 | %24,2 |
 | Okuma, opus | 241 | 82 | %34,0 |
 | Okuma, fable | 159 | 40 | %25,2 |
 
-İki okuma net değişti: 1. turda Fable %62 / Opus %32 idi; E5/E6 sonrası %25 / %34.
-Bu, Fable'ın ilk üretimdeki iki sistematik kusurunun (kip imzası, konumsal düzen)
-elden geçirmeyle büyük ölçüde kapandığını, kalan yükün ağırlıkla Opus'un tamamlama/özet
-ailesine (eşdizim kilidi + genel kültür + çapraz-pasaj) kaydığını gösteriyor.
+(Bu çalıştırmada `generated_by` alanından numara bazında yeniden sayıldı; dört hücre de
+önceki koşumla aynı çıktı.)
 
-Dinlemede ise 1. turun öngörüsü aynen doğrulandı: okumada %100 sızdıran prompt ailesinin
-dinleme akrabası (`FABLE5-43`) ölçülür ölçülmez %66,7 ile en yüksek işaret oranını verdi.
-**Aynı ailenin aynı hastalığı iki beceride bağımsız çıktı — bu artık desen, tesadüf değil.**
+İki okuma: 1. turda Fable %62 / Opus %32 idi; E5/E6 elden geçirmesi sonrası %25 / %34.
+Fable'ın ilk üretimdeki iki sistematik kusuru (kip imzası, konumsal düzen) büyük ölçüde
+kapanmış; kalan yük Opus'un tamamlama/özet ailesinde (eşdizim + genel kültür + çapraz-pasaj).
+
+Dinlemede ise 1. turun öngörüsü aynen çıktı: okumada en çok sızdıran prompt ailesinin
+dinleme akrabası `FABLE5-43`, ölçülür ölçülmez %66,7 ile en yüksek işaret oranını verdi
+ve altı dinleme testinin altısına da işaret düştü (L1 13 · L2 10 · L3 18 · L4 16 ·
+L5 16 · L6 10). **Aynı ailenin aynı hastalığı iki beceride bağımsız olarak çıktı —
+bu bir üretim deseni, tesadüf değil.**
 
 ---
 
 ## 4. `flag_reason` temaları
 
-1. turun bulgusu ("180 işaretin hepsinde birebir aynı cümle") **kapanmış**: E1 gerekçeleri
-mekanizmaya göre yeniden yazdı, E7/E8/E10 işaretleri de baştan soru-özel gerekçeyle geldi.
-Bugün 237 işaretin gerekçeleri soruya özgü; tema analizi artık `flag_mechanism` alanından
-doğrudan yapılabiliyor (küçük istisna: 26 okuma işaretinde mekanizma alanı boş — gerekçe
-metninde dayanak yazıyor ama alan doldurulmamış; envanter raporu §5).
+1. turun kusuru ("180 işaretin hepsinde birebir aynı gerekçe cümlesi") kapanmış durumda:
+bugünkü 237 gerekçe soruya özgü ve 211'inde `flag_mechanism` alanı dolu (26 okuma
+işaretinde alan boş; gerekçe metninde dayanak yazıyor ama mekanizma seçilmemiş —
+envanter raporu §5'in tespiti, hâlâ geçerli).
 
-Mekanizma dağılımı (dosyalardan sayıldı, kalem bazında):
+Mekanizma dağılımı (bu çalıştırmada dosyalardan sayıldı, kalem bazında):
 
-| Mekanizma | Okuma | Dinleme | Toplam | Ne demek |
-|---|---:|---:|---:|---|
-| `genel_kultur` | 5 | 43 | 48 | cevap dünya bilgisi/ders kitabı terimi; ses/parça süs |
-| `esdizim_kilidi` | 43 | 5 | 48 | boşluk kalıp öbeğin tahmin edilen ucunda |
-| `konumsal_duzen` | 29 | 11 | 40 | elemeyle/yapısal düzenden çözülüyor |
-| `secenek_sozu` | — | 34 | 34 | seçeneğin sözü ait olduğu kökü kendisi adlandırıyor |
-| `cerceve_sozu` | — | 15 | 15 | form/not çerçevesinin sözü tek doldurmayı bırakıyor |
-| `capraz_sizinti` | — | 10 | 10 | başka soru/paket aynı bilgiyi düz metin yazıyor |
-| `kip_imzasi` | 5 | 3 | 8 | ölçülü=doğru / mutlak=çeldirici imzası |
-| `belirsiz` | 8 | — | 8 | net mekanizma yok (şans) |
-| (mekanizma alanı boş) | 26 | — | 26 | E7 işaretleri; gerekçede dayanak var |
-| **Toplam** | **116** | **121** | **237** | |
+| Mekanizma | Okuma | Dinleme | Toplam |
+|---|---:|---:|---:|
+| `genel_kultur` | 5 | 43 | 48 |
+| `esdizim_kilidi` | 43 | 5 | 48 |
+| `konumsal_duzen` | 29 | 11 | 40 |
+| `secenek_sozu` | — | 34 | 34 |
+| (alan boş — E7 işaretleri; gerekçedeki dayanak: genel kültür 11, mantık 11, seçenek sözü 4) | 26 | — | 26 |
+| `cerceve_sozu` | — | 15 | 15 |
+| `capraz_sizinti` | — | 10 | 10 |
+| `kip_imzasi` | 5 | 3 | 8 |
+| `belirsiz` | 8 | — | 8 |
+| **Toplam** | **116** | **121** | **237** |
 
 En sık temalar, her birine bir örnek:
 
-**Tema 1 — Genel kültür / alanın ders kitabı terimi (≈48 + okuma "boş" grubunun bir
-kısmı; iki becerinin ortak en büyük teması).** *Örnek (dinleme):* "tohum bankalarının
-depolama sıcaklığı −20" — literatür sabiti, senaryoyu dinlemeye gerek yok. *Örnek
-(okuma):* PANAS/POMS madde sayıları, JWST/Uranus keşif sayıları — E5'in düzeltmesi
-işlemedi çünkü sayının kendisi kamuoyu bilgisi. **Soru yazımıyla kapanmaz; pasaj/konu
-seçimi kararı ister.**
+**Tema 1 — Genel kültür / gerçek olay bilgisi (48 + boş gruptan 11 ≈ 59; iki becerinin
+ortak en büyük teması).** *Dinleme:* "anlaşılan sıcaklık yıllardır eksi (2) derece" —
+tohum bankalarının standart depolama sıcaklığı, senaryonun seçtiği bir değer değil.
+*Okuma:* GT1 not-19 "28 days" (Birleşik Krallık yasal yıllık izin), JWST/Uranus keşif
+sayıları, PANAS/POMS ölçek madde sayıları — E5'in düzeltmesi burada işlemedi, çünkü
+sayının kendisi kamuoyu bilgisi. **Soru yazımıyla kapanmaz; pasaj/konu (gerçek olay
+yerine kurgusal/az bilinen olgu) kararı ister.**
 
-**Tema 2 — Seçenek/çerçeve sözü (dinleme 49; okumadaki karşılığı kip imzası+tanım
-sızıntısının devamı).** *Örnek:* eşleştirmede "yeri kokusu için seçildi" → yalnız
-*çiçek tezgâhı* kökü mümkün; formda "internetten ya da uygulamadan — (9) ile değil" →
-*telefon*. Eşleştirmede `option_wording` dayanaklı kalemlerin %89'u senaryosuz bilindi.
-**Prompt/yazım düzeyinde düzeltilebilir** (seçeneğin sözünü kökten koparmak).
+**Tema 2 — Seçenek/çerçeve sözü (dinlemede 34+15=49).** Seçeneğin ya da form/not
+çerçevesinin kendi sözü cevabı adlandırıyor. *Örnek:* eşleştirmede "üzerinde çok fazla
+metin olması puan götürür" yalnız *slayt* için söylenebilir; notta "bir hanenin payı
+(12) ile ölçülürdü, hacimle asla" karşıtlığı hacmin karşısına konabilecek tek ölçüyü
+bırakıyor. Dinleme işaretlerinin %40'ı bu kanaldan. **Yazım düzeyinde düzeltilebilir**
+(seçeneğin sözünü kökten koparmak, çerçeve karşıtlığını sese taşımak).
 
-**Tema 3 — Eşdizim kilidi (okuma 43).** *Örnek:* "an up-to-date ___" → *CV*;
-"a ___ of what is coming" → *preview*. E5 sonrası bile okumadaki en büyük tek mekanizma;
-`sentence_completion`ın "düzelmedi" çıkmasının ana nedeni. Düzeltmesi mekanik (boşluğu
-öbeğin öbür ucuna/parçaya özgü değere taşımak) ama bu tipte **ikinci denemede de
-tutmadı** — E7 raporu yeniden üretimi öneriyor.
+**Tema 3 — Eşdizim kilidi (48; 43'ü okumada).** Boşluk, kalıp öbeğin tahmin edilebilir
+ucunda. *Örnek:* "an up-to-date ___" → *CV*; "a ___ of what is coming" → *preview*;
+dinlemede "artık bir **an** (6) olarak veriliyor" — ünlüyle başlama zorunluluğu tek aday
+bırakıyor. E5 sonrası bile okumadaki en büyük tek mekanizma ve `sentence_completion`ın
+"düzelmedi" çıkmasının ana nedeni; bu tipte elden geçirme reçetesi **ikinci denemede de
+tutmadı**.
 
-**Tema 4 — Çapraz sızıntı: pasaj/senaryo paylaşımı (dinleme 10 + okumada E7'nin "3/3
-bilinenlerin en az 20'si bu kanaldan" tespiti).** Aynı pasaj/senaryo hem alıştırma hem
-tam test paketlerinde kullanılıyor; birinin boşluğu diğerinin **düz metni**. *Örnek:*
-alıştırma akış şemasının "SEALING AND FREEZING" adımı, L3 özetinin 34. boşluğunu
-kelimesi kelimesine yazıyor; practice MC-11'in cevabını practice TFNG-10'un kökü veriyor.
-**1. turda hiç görünmeyen, bu turun en önemli yeni teması: soru kusuru değil, paket
-mimarisi kusuru.** Soru elden geçirmeyle kapanmaz; "bir olgu, bir paket" kuralı ya da
-alıştırma pasajlarının ayrılması gerekir.
+**Tema 4 — Konumsal/yapısal düzen — elemeyle çözülme (40).** *Örnek:* practice MH-15'te
+iki başlık da aynı paragrafa demirli (E7'nin çift-cevap işaretiyle aynı soru); L3
+eşleştirmede kutudaki tek yasak-biçimli cümle köklerdeki tek yasak-biçimli kökle
+eşleşiyor. Elden geçirmeyle en çok gerileyen tema (TFNG %53→%12, MF %69→%31); kalanı
+MSE'de yoğun.
 
-**Tema 5 — Konumsal/yapısal düzen (40).** *Örnek:* başlık eşleştirmede iki başlığın da
-aynı paragrafa demirlenmesi (practice MH-15, E7'nin çift-cevap işareti); "sınırlılık
-beyanı hep son paragrafta" kalıbı. Büyük ölçüde elden geçirmeyle azaldı (TFNG %53→%12,
-MF %69→%31); kalanı MSE'de yoğun.
+**Tema 5 — Çapraz sızıntı: pasaj/senaryo paylaşımı (dinleme 10 + E7'nin okuma tespiti:
+3/3 bilinenlerin en az 20'si bu kanaldan).** Aynı pasaj/senaryo hem alıştırma hem tam
+test paketlerinde kullanılıyor ve birinin soru kökü diğerinin cevabını **düz metin**
+yazıyor. *Örnek:* practice MC-11'in cevabını practice TFNG-10'un kökü veriyor ("The
+ground survey of 12 December…"); alıştırma akış şemasının boşluğunu L5 özet paketi
+kelimesi kelimesine yazıyor. **1. turda hiç görünmeyen, bu turun en önemli yeni teması:
+soru kusuru değil paket mimarisi kusuru** — tek tek soru düzeltmek bu kanalı kapatmaz,
+"bir olgu, bir paket" kuralı ya da alıştırma içeriğinin ayrı pasaj/senaryolara taşınması
+gerekir.
 
-Tema olmayan ama kayda değer iki bulgu: (a) **NOT GIVEN/FALSE karışıklığı bu turda da
+Kayda değer iki "olmayan" tema: (a) **NOT GIVEN/FALSE ayrım karışıklığı bu turda da
 çıkmadı** — E7, E5'in yeniden çapaladığı NOT GIVEN'ların kör çözümde de NOT GIVEN'a
-düştüğünü ayrıca doğruladı. (b) **Kip imzası kusuru fiilen kapandı** (180'de ~53 →
-bugün 8): E7'nin tespitiyle eski "mutlak→NO / ölçülü→YES" kuralı artık çalışmıyor.
+düştüğünü doğruladı. (b) **Kip imzası fiilen kapandı** (1. turda ~53 işaretin gerekçesi,
+bugün 8): eski "mutlak→NO / ölçülü→YES" kestirmesi artık çalışmıyor.
 
 ---
 
-## 5. Desen yorumu: sistematik mi, dağınık mı?
+## 5. Desen yorumu: sistematik mi, dağınık tekil mi?
 
-**Sistematik — ve 1. turdan daha net, çünkü aynı desenler ikinci beceride bağımsız olarak
-tekrar etti:**
+**Sistematik — ve 1. turdan daha net, çünkü aynı desenler ikinci beceride bağımsız
+olarak tekrar etti:**
 
-1. **Seçenek metni taşıyan tipler sızdırır** (üretim ailesi fark etmeksizin): okumada MC /
-   YNNG / MSE (%100'lerden geldiler), dinlemede MC + eşleştirme (%67-88). Dinleme bu
-   desenin **bağımsız doğrulamasıdır** — ölçülmeden önce 1. tur "orası da risk altında,
-   veri yok" demişti; veri geldi ve tam öngörülen yerde çıktı.
-2. **Tamamlama ailesinin sızıntısı boşluğun nereye açıldığında**: alan terimi/eşdizim ucu
-   sızdırıyor (okuma özet/cümle, dinleme özet/kısa cevap/akış %52-63), konuşmanın/parçanın
-   seçtiği değer sızdırmıyor (form/tablo %12-19, sayı-ad soran 117 dinleme kaleminde
-   sızıntı 0). İki beceride aynı ayrım.
-3. **Yeni ve yapısal: çapraz-pasaj/senaryo sızıntısı.** 12 pasaj + 24 senaryonun hem
-   alıştırma hem test paketlerince paylaşılması, tek tek soruları değil **paket mimarisini**
-   sızdırır hâle getirmiş. `cross_question` dayanaklı kalemlerin %91'i 3/3 bilindi —
-   ölçümdeki en isabetli dayanak.
-4. **Elden geçirme çalışıyor ama tipe göre:** TFNG, YNNG, MF, MH, tablo belirgin düzeldi;
-   `sentence_completion` düzelmedi (%43 > %20 taban), `matching_sentence_endings` yerinde
-   saydı (9/10). Yani "elden geçir" reçetesi evrensel değil — iki tip için E7 raporu
-   açıkça yeniden üretim/tasarım değişikliği öneriyor.
+1. **Seçenek metni taşıyan tipler sızdırır**, üretim ailesi fark etmeksizin: okumada
+   MC/YNNG/MSE (1. turda %100'lerdeydi), dinlemede MC + eşleştirme (%65-88). Dinleme
+   ölçümü bu desenin bağımsız doğrulaması: 1. tur "orası da risk altında, veri yok"
+   demişti; veri geldi ve tam öngörülen yerde çıktı. **Risk altındaki tipler:** dinleme
+   MC (tek+çoklu) ve eşleştirme, okuma MSE ve çoktan seçmeli.
+2. **Tamamlama ailesinde sızıntı, boşluğun nereye açıldığına bağlı:** alan terimi /
+   eşdizim ucu / genel kültür değeri sızdırıyor (okuma özet %63, dinleme özet %60,
+   kısa cevap %54); konuşmanın/pasajın kendi seçtiği ad-sayı-saat sızdırmıyor (form %13,
+   tablo %14-19). İki beceride aynı ayrım — bu, üretim şartnamesine çevrilebilir somut
+   bir kural ("boşluğu kalıbın ucuna değil, kaynağın seçtiği değere aç").
+3. **Yapısal ve yeni: çapraz-pasaj/senaryo sızıntısı.** 12 pasaj + 24 senaryonun
+   alıştırma ve test paketlerince paylaşılması, sızıntıyı tek soru düzeyinden **paket
+   mimarisi** düzeyine taşımış. Soru elden geçirme bu kanalı yapısal olarak kapatamaz.
+4. **Elden geçirme reçetesi tipe göre çalışıyor:** TFNG, YNNG, MF, MH, tablo belirgin
+   düzeldi; `sentence_completion` düzelmedi (%43 > %20 taban), `matching_sentence_endings`
+   yerinde saydı (9/10). İki tip için E7 raporunun kendisi yeniden üretim/tasarım
+   değişikliği öneriyor.
 
-Dağınık-tekil kısım da net: bilgi eşleştirme (%2), başlık eşleştirme (%4), kısa cevap
-(%10), dinleme form/tablo (%12-14) fiilen temiz; kişi-görüş eşleştirmeleri ve birbirini
-dışlayan çift tasarımı ölçümün karşı kutbunda "sağlam tasarımın çalışan örneği" olarak
-kayıtlı.
+Dağınık-tekil kutup da net: bilgi eşleştirme (%2), başlık eşleştirme (%4), kısa cevap
+okuma (%10), dinleme form/tablo (%13-14) fiilen temiz; cevap anahtarı cephesinde ayakta
+kalan yalnız 2 çift-cevap vakası var. Yani sorun "her yerde biraz" değil — **belirli
+tiplerde ve belirli mimari kararlarda yoğunlaşmış, tekrarlayan bir üretim deseni.**
 
-**Sonuç cümlesi:** Cevap anahtarları iki ölçüm turunda da içerik düzeyinde pratikte %100
-doğrulandı (ayakta kalan yalnız 2 çift-cevap vakası); sızıntı cephesinde ise okuma
-işaretleri 180'den 116'ya inerken dinlemenin ilk ölçümü 121 yeni işaret ekledi — desen
-iki beceride aynı: seçenek sözü + alan terimi + paylaşılan pasaj/senaryo. Asıl karar
-yükü artık okumada değil, **dinlemenin seçenekli tipleri ile paket mimarisinde** (aynı
-senaryonun/pasajın çok pakette kullanılması).
+**Sonuç cümlesi:** Cevap anahtarları 931 kör çözümde içerik düzeyinde pratikte %100
+doğrulandı; işaret yükü tümüyle sızıntı cephesinde — okuma 180'den 116'ya indi, dinlemenin
+ilk ölçümü 121 işaret ekledi ve desen iki beceride aynı: seçenek/çerçeve sözü + genel
+kültür/eşdizim + paylaşılan pasaj-senaryo. Karar yükü artık okumada değil, **dinlemenin
+seçenekli tipleri ile paket mimarisinde.**
 
-### Bu rapordan çıkan, karar bekleyen maddeler (karar proje sahibinin)
+### Karar bekleyen maddeler (karar proje sahibinin; burada yalnız seçenekler listelenir)
 
-1. **121 işaretli dinleme sorusu** — seçenekler: işaretlileri at (6 dinleme testinin
-   hiçbiri 40/40 kalmaz) / mekanizma bazında elden geçir (`secenek_sozu`+`cerceve_sozu`
-   49 kalem yazımla düzelir; `genel_kultur` 43 kalem senaryo/konu değişikliği ister) /
+1. **121 işaretli dinleme sorusu** — seçenekler: işaretlileri at (hiçbir dinleme testi
+   40/40 kalmaz) / mekanizma bazında elden geçir (`secenek_sozu`+`cerceve_sozu` 49 kalem
+   yazımla düzelebilir; `genel_kultur` 43 kalem senaryo/konu değişikliği ister) /
    seçenekli tiplerde yeniden üretim.
-2. **116 işaretli okuma sorusu** — E5/E6'nın ikinci turundan sağ çıkanlar; özellikle
-   `sentence_completion` (E7: "düzelmedi") ve MSE (9/10) için elden geçirme reçetesi
-   tükendi, seçenekler yeniden üretim ya da tipin havuzdan çıkarılması.
+2. **116 işaretli okuma sorusu** — özellikle `sentence_completion` (E7: "düzelmedi") ve
+   MSE (9/10) için elden geçirme reçetesi tükendi; seçenekler yeniden üretim ya da tipin
+   havuzdan çıkarılması.
 3. **Çapraz-pasaj/senaryo kuralı** — "bir olgu, bir paket" taraması ya da alıştırma
-   içeriğinin ayrı pasaj/senaryolara taşınması; soru düzeyinde düzeltme bu kanalı kapatmaz.
-4. **Gerçek olaya dayalı pasajlar** (A04/JWST, A01/Kandula, Britanya mevzuatı, A05
-   verimlilik çalışmaları) — sayısal cevapları haberlerden biliniyor; pasaj/olgu seçimi
+   içeriğinin ayrı pasaj/senaryolara ayrılması.
+4. **Gerçek olaya dayalı pasajlar** (A04/JWST, A01/Kandula, Britanya mevzuatı,
+   PANAS/POMS) — sayısal cevapları haberlerden/literatürden biliniyor; pasaj/olgu seçimi
    kararı.
 5. **İki çift-cevap işareti** (practice MH-15, GT1 özet-40) — varyant ekle / boşluğu
    taşı / başlığı değiştir; tek satırlık işler ama karar ister.
 6. **26 okuma işaretinde `flag_mechanism` boş** — elden geçirme yapılacaksa önce
-   doldurulmalı (E1 dersinin kalıntısı).
-7. **Görsel tipler ölçüsüz:** okuma diyagram etiketleme 10 + dinleme plan/harita 45 —
-   metin tabanlı ölçüm kör; ya görselli bir ölçüm tasarlanır ya risk belgelenip kabul edilir.
+   doldurulmalı.
+7. **Görsel tipler ölçüsüz** (okuma diyagram 10 + dinleme plan/harita 45) — metin
+   tabanlı sızıntı ölçümü bu tiplerde kör; ya görselli ölçüm tasarlanır ya risk
+   belgelenip kabul edilir.
