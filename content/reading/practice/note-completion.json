@@ -206,8 +206,8 @@
     {
       "group_id": "P-NC-A18",
       "passage_id": "A18",
-      "instructions": "Questions 7-12 refer to Passage A18 - Naming a Species from a Short Piece of DNA\n\nComplete the notes below.\n\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\nWrite your answers in boxes 7-12 on your answer sheet.",
-      "stem_block": "Passage A18 - Naming a Species from a Short Piece of DNA\n\nBuilding one entry for the library\n- Step 1: take a specimen an expert has already named, usually out of a (7) ........ , and write down where and when it was caught\n- Step 2: remove a single leg as the tissue sample, so that the rest of the animal survives as a (8) ........ and can be examined again later\n- Step 3: copy the gene fragment in a machine that runs (9) ........ rounds of heating and cooling\n- Step 4: read the sequence of the copy\n- Step 5: upload the sequence to a shared online database, beside a photograph of the specimen and its collection record\n\nThree routes to a name (share of species correctly named)\n- barcodes alone: 89.9 per cent\n- appearance alone: females 89.7 per cent, males (10) ........ per cent\n- the two used together: females 96.3 per cent, males (11) ........ per cent\n- of eight pairs that are notoriously hard to tell apart by eye, (12) ........ were divided cleanly by their barcodes",
+      "instructions": "Questions 7-13 refer to Passage A18 - Naming a Species from a Short Piece of DNA\n\nComplete the notes below.\n\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\nWrite your answers in boxes 7-13 on your answer sheet.",
+      "stem_block": "Passage A18 - Naming a Species from a Short Piece of DNA\n\nBuilding one entry for the library\n- Step 1: take a specimen an expert has already named, usually out of a (7) ........ , and write down where and when it was caught\n- Step 2: remove a single leg as the tissue sample, so that the rest of the animal survives as a (8) ........ and can be examined again later\n- Step 3: copy the gene fragment in a machine that runs (9) ........ rounds of heating and cooling\n- Step 4: read the sequence of the copy\n- Step 5: upload the sequence to a shared online database, beside a photograph of the specimen and its collection record\n\nThree routes to a name (share of species correctly named)\n- barcodes alone: 89.9 per cent\n- appearance alone: females 89.7 per cent, males (10) ........ per cent\n- the two used together: females 96.3 per cent, males (11) ........ per cent\n- of eight pairs that are notoriously hard to tell apart by eye, (12) ........ were divided cleanly by their barcodes\n\nHow much of the fauna the library covers\n- 868 sequences from 218 species, 217 of them resident — (13) ........ per cent of the country's resident fauna\n",
       "items": [
         {
           "number": 7,
@@ -378,19 +378,49 @@
             "uretilen_grup": "B3 okuma - not tamamlama, yeni alistirma pasajlari",
             "ne_degisti": "Yeni yuva: A18 H/5. Ayni cumlenin 'ikisi ayrilamadi' kismi bilerek iskelete yazilmadi; yazilsaydi cevap sekizden cikarma ile bulunurdu."
           }
+        },
+        {
+          "number": 13,
+          "passage_id": "A18",
+          "prompt": "coverage: 868 sequences from 218 species, 217 of them resident — (13) ........ per cent of the country's resident fauna",
+          "answer": [
+            "96.9"
+          ],
+          "accepted_variants": [
+            "96.9",
+            "96.9 per cent",
+            "96.9%"
+          ],
+          "evidence": "Since 224 resident species are currently recognised there, the library reached 96.9 per cent of the resident fauna.",
+          "evidence_locator": {
+            "paragraph": "C",
+            "sentence": 3
+          },
+          "explanation": "Paragraph C says that, against the 224 resident species currently recognised, the library reached 96.9 per cent of the resident fauna; so the answer is '96.9'.",
+          "difficulty": "medium",
+          "status": "verified",
+          "blind_solvable": false,
+          "blind_basis": null,
+          "generated_by": "opus",
+          "yeniden_uretim": {
+            "tarih": "2026-08-18",
+            "kaynak_prompt": "denetim/UYGULAMA-PLANI.md 1.5 + content/PLAN-EK-kurallar.md (paragraf basina en cok 3 soru)",
+            "uretilen_grup": "B3 okuma - not tamamlama, butce ihlali duzeltmesi",
+            "ne_degisti": "A19 paragraf H'de 4 soru toplanmisti (sinir 3) ve H/2 cumlesinde iki soru vardi (NC #15 + SUM #6). NC'nin son kalemi A19'dan A18'e tasindi; A18 paragraf C o ana kadar hic soru tasimiyordu. Yeni bosluk kutuphanenin kapsama yuzdesine acildi; 224 sayisi bosluk cumlesinde verilmedigi icin deger metinsiz hesaplanamiyor."
+          }
         }
       ]
     },
     {
       "group_id": "P-NC-A19",
       "passage_id": "A19",
-      "instructions": "Questions 13-15 refer to Passage A19 - Turning Salt Water into Drinking Water with Sunlight\n\nComplete the notes below.\n\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\nWrite your answers in boxes 13-15 on your answer sheet.",
-      "stem_block": "Passage A19 - Turning Salt Water into Drinking Water with Sunlight\n\nWhat the trials produced (readings taken every hour from 08:00 to 17:00)\n- best day, both sets of mirrors in use and the water 2 centimetres deep: basin water at 72.5 degrees Celsius, output peaking at (13) ........ millilitres in the hour around noon\n- that same arrangement across a full day: (14) ........ litres\n- with the outside mirror taken away: 7.84 litres from the shallow layer, but only (15) ........ litres from the deeper one, the poorest of the four trials",
+      "instructions": "Questions 14-15 refer to Passage A19 - Turning Salt Water into Drinking Water with Sunlight\n\nComplete the notes below.\n\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\nWrite your answers in boxes 14-15 on your answer sheet.",
+      "stem_block": "Passage A19 - Turning Salt Water into Drinking Water with Sunlight\n\nWhat the trials produced (readings taken every hour from 08:00 to 17:00)\n- best day, both sets of mirrors in use and the water 2 centimetres deep: basin water at 72.5 degrees Celsius, output peaking at (14) ........ millilitres in the hour around noon\n- that same arrangement across a full day: (15) ........ litres",
       "items": [
         {
-          "number": 13,
+          "number": 14,
           "passage_id": "A19",
-          "prompt": "best day, both sets of mirrors in use and the water 2 centimetres deep: basin water at 72.5 degrees Celsius, output peaking at (13) ........ millilitres in the hour around noon",
+          "prompt": "best day, both sets of mirrors in use and the water 2 centimetres deep: basin water at 72.5 degrees Celsius, output peaking at (14) ........ millilitres in the hour around noon",
           "answer": [
             "1,058.4"
           ],
@@ -417,9 +447,9 @@
           }
         },
         {
-          "number": 14,
+          "number": 15,
           "passage_id": "A19",
-          "prompt": "that same arrangement across a full day: (14) ........ litres",
+          "prompt": "that same arrangement across a full day: (15) ........ litres",
           "answer": [
             "8.37"
           ],
@@ -442,34 +472,6 @@
             "kaynak_prompt": "denetim/UYGULAMA-PLANI.md 1.5 (not/tablo/akis recetesi) + denetim/B3-pasaj-dagitimi.md",
             "uretilen_grup": "B3 okuma - not tamamlama, yeni alistirma pasajlari",
             "ne_degisti": "Yeni yuva: A19 H/1. Ayni cumledeki 4 santimetrelik denemenin degeri (8.06) bilerek iskelete yazilmadi."
-          }
-        },
-        {
-          "number": 15,
-          "passage_id": "A19",
-          "prompt": "with the outside mirror taken away: 7.84 litres from the shallow layer, but only (15) ........ litres from the deeper one, the poorest of the four trials",
-          "answer": [
-            "6.92"
-          ],
-          "accepted_variants": [
-            "6.92"
-          ],
-          "evidence": "With the external mirror taken away the shallow still still managed 7.84 litres, but the deeper one fell to 6.92 litres, the poorest result of the four trials.",
-          "evidence_locator": {
-            "paragraph": "H",
-            "sentence": 2
-          },
-          "explanation": "Paragraph H says that with the external mirror removed the shallow still managed 7.84 litres while the deeper one fell to 6.92 litres, the poorest of the four trials; so the answer is '6.92'.",
-          "difficulty": "hard",
-          "status": "verified",
-          "blind_solvable": false,
-          "blind_basis": null,
-          "generated_by": "opus",
-          "yeniden_uretim": {
-            "tarih": "2026-08-18",
-            "kaynak_prompt": "denetim/UYGULAMA-PLANI.md 1.5 (not/tablo/akis recetesi) + denetim/B3-pasaj-dagitimi.md",
-            "uretilen_grup": "B3 okuma - not tamamlama, yeni alistirma pasajlari",
-            "ne_degisti": "IKI KEZ KAYDIRILDI (paketler arasi cakisma): ilk yuva A19 I/2 idi (litre basina maliyet) ve ayni deger kisa cevap + ozet paketinde de soruluyordu; I paragrafi kisa cevap paketine birakildi. Ikinci deneme B/2 idi, ama diyagram etiketleme paketi B/1-B/2-B/3'u doldurdu. Son yuva H/2: dis aynasiz derin katman denemesinin sonucu. Ayni cumledeki sig katman degeri (7.84) iskelete baglam olarak yazildi, cevap ondan turetilemiyor."
           }
         }
       ]
