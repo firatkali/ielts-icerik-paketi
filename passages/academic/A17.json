@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.0",
+  "exam": "ielts",
+  "passage_id": "A17",
+  "module": "academic",
+  "section": null,
+  "title": "What Settles First on a Surface Under Water",
+  "topic": "microbiology / microbial colonisation of submerged surfaces",
+  "word_count": 896,
+  "paragraphs": [
+    {
+      "label": "A",
+      "text": "Leave a clean surface in water and it does not stay clean for long. Within minutes, dissolved organic molecules stick to it and build a thin layer called a conditioning film. This layer is not alive, but it alters the surface chemically and makes it far more welcoming than bare metal or plastic. Bacteria arrive next, fasten themselves to the film and begin to release extracellular polymeric substances, a sticky mixture of sugars and proteins that glues the cells down and to one another. The living crust that results is called a biofilm."
+    },
+    {
+      "label": "B",
+      "text": "Where seawater is drawn into machinery, this crust becomes an expensive nuisance. Coastal industrial plants pull large volumes of water through pipes and condensers to carry heat away, and the surfaces that guide the water also offer bacteria somewhere to settle. A thickening film narrows pipes, slows the flow and acts as insulation exactly where heat is meant to pass through metal quickly. Over longer periods the chemistry beneath the film can begin to attack the metal itself. Cleaning and replacement are therefore routine running costs rather than rare accidents."
+    },
+    {
+      "label": "C",
+      "text": "The obvious response is to choose a better material, and much effort has gone into comparing metals and plastics for their resistance to colonisation. An alternative explanation has been put forward, however: that what grows on a submerged surface is decided less by what the surface is made of than by how long it has been under water, since the species drifting past change from one day to the next. A research group in southern India set out to establish which of the two mattered more during the opening fortnight."
+    },
+    {
+      "label": "D",
+      "text": "Their test surfaces were flat coupons measuring 15 centimetres by 10 centimetres and 2 millimetres thick, giving roughly 300 square centimetres of exposed area each. Three materials were used, all of them ordinary in coastal installations: stainless steel of grade 316L, high-density polyethylene and grade 1 titanium. Every coupon was sandblasted first, so that no material began with an advantage in smoothness, and then held in frames of polypropylene. The frames hung vertically in the seawater intake channel of a power station, one metre below the surface."
+    },
+    {
+      "label": "E",
+      "text": "Panels were brought up on the first, third, sixth, ninth, twelfth and fifteenth days, two frames at a time so that every retrieval produced a duplicate. Loosely attached material was rinsed away with sterile seawater, because the question concerned organisms that had genuinely fastened themselves down rather than those merely resting there. What remained was scraped off with sterile brushes into a suspension. A parallel set of surfaces was reserved for an electron microscope, which showed the spreading patches directly instead of as a measurement."
+    },
+    {
+      "label": "F",
+      "text": "Since the water itself might have altered during the fortnight, its condition was recorded at every retrieval. The temperature stayed between 26 and 27.5 degrees Celsius and the acidity between pH 8.01 and 8.15. Dissolved oxygen ranged from 5.8 to 6.9 milligrams per litre, while nitrate, nitrite and phosphate were all present in small and fairly steady quantities. None of these figures moved enough to count as a real change, which meant that any pattern in the biofilms could not be blamed on the water turning warmer, staler or richer partway through."
+    },
+    {
+      "label": "G",
+      "text": "Weighing settled one question at once. Averaged across the trial, a bare plate of high-density polyethylene carried 10.2 grams of accumulated growth, stainless steel carried 7.6 grams and titanium only 5.4 grams. The plastic thus gathered nearly twice the mass that the titanium did, and the ranking held across the sampling days. Material clearly influenced how much crust a surface acquired. What the balance could not reveal was whether the three surfaces had also acquired different kinds of organism, and answering that called for a different tool."
+    },
+    {
+      "label": "H",
+      "text": "To name the residents, the team read a short stretch of DNA that every bacterium carries: the V3 to V4 section of the 16S ribosomal RNA gene, copied into fragments of about 464 base pairs and then sequenced. The run produced 4,608,494 raw paired readings, which quality filtering cut to roughly a third of that number. Sorted by sequence, the survivors fell into 3,655 distinct types, with individual samples holding anywhere between 56 and 1,167 of them. Counts were finally levelled to a common depth so that samples could be compared fairly."
+    },
+    {
+      "label": "I",
+      "text": "The comparison gave a plain answer. Samples grouped according to the day they were taken rather than the material they came from, and no bacterial group could be tied to steel, plastic or titanium in particular. Time, by contrast, rearranged everything. One order dominated the first day's surfaces and a different one the third; by the sixth day several groups shared the space and variety reached its highest point, fell back by the ninth day, then rose again by the fifteenth. Proteobacteria declined steadily as slower arrivals took their place."
+    },
+    {
+      "label": "J",
+      "text": "The authors are careful about how far the result reaches. Only three materials were compared, all picked because coastal plants already use them, and a wider range might still reveal the sorting by surface that these three did not show. Fifteen days is also a short window, and larger fouling organisms, which arrive later, were left out. Within those limits the practical message is straightforward: a plant that cleans an intake surface is choosing a moment in a predictable sequence, and the moment may matter as much as the metal."
+    }
+  ],
+  "texts": null,
+  "source": {
+    "origin": "PLOS ONE",
+    "title": "Bacterial community structure of early-stage biofilms is dictated by temporal succession rather than substrate types in the southern coastal seawater of India",
+    "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0257961",
+    "license": "CC BY 4.0",
+    "attribution": "Adapted from Sushmitha TJ, Rajeev M, Sriyutha Murthy P, Ganesh S, Toleti SR, Pandian SK (2021) Bacterial community structure of early-stage biofilms is dictated by temporal succession rather than substrate types in the southern coastal seawater of India. PLoS ONE 16(9): e0257961, published under CC BY 4.0.",
+    "adapted": true
+  },
+  "notes": "Alistirma havuzu (pool=practice). 10 paragraf, 8 bilgi eslestirme kalemi icin 8 ayri paragraf + kisa cevap icin dokunulmamis paragraf F ayrildi. Kaynak makalenin Giris/Yontem/Bulgular/Tartisma bolumlerinden yeniden yazildi; istatistik testleri, cesitlilik indeksleri, cins/familya listeleri, atif numaralari ve sekil gondermeleri cikarildi. Santral ve saha adi genellestirildi (gercek tesis adi kullanilmadi); korozyonun GSYH payi / kamuya acik maliyet rakamlari bilerek atildi (PLAN-EK-kurallar 4). Saglik/enfeksiyon eksenine girilmedi; odak yuzey, malzeme ve mikrobiyal ardisiklik."
+}

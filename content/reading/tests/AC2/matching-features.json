@@ -77,7 +77,8 @@
           "ne_degisti": "Ifadeden 'ekibin uzerinde calistigi tohumlar' kaydi cikarildi; bu kayit dogrudan calismanin kazi yerini isaret ediyordu. Yeni ifade yalniz korunma karsilastirmasini soruyor, boylece sezgi Bereketli Hilal'e (C) kayiyor ve dogru cevap ancak B/1'den cikiyor."
         }
       },
-      "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: option_wording. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md"
+      "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: option_wording. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md",
+      "flag_mechanism": "secenek_sozu"
     },
     {
       "number": 24,
@@ -111,7 +112,8 @@
         "neden_elendi": "Sorunun ekseni dunya tarihi genel bilgisi: basit bugdaylarin yaklasik on iki bin yil once Bereketli Hilal'de ehlilestirildigi, okul duzeyinde bilinen en yaygin tarih onermelerinden biri. Kanit cumlesi (G/2) yalniz bu onermeyi tasiyor; kapsam sozcuklerini ('genis alan') temizlemek ekseni degistirmiyor, cevap yine bes secenek icinden genel bilgiyle secilebiliyor.",
         "ne_degisti": "Eski soru G/2'ye dayaniyordu: basit bugday ehlilestirmesinin yaklasik on iki bin yil once Bereketli Hilal'de baslamasi. Bu ders kitabi duzeyinde bir tarih onermesi oldugu icin cevap pasajsiz da bulunuyordu. Yeni kanit hem baska bir paragrafa (F/2) hem de bambaska bir eksene tasindi: arastirmacilarin hangi bulguyu 'ilk' ve 'ihtiyatla' diye nitelendirdigi. Secenek listesi de yer adlarindan bugday turlerine cevrildigi icin, eski sorunun dayandigi 'genis bolge / dar bolge' ayrimi artik yok. Kip: ifade olculu ('cautiously')."
       },
-      "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: logic. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md"
+      "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: logic. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md",
+      "flag_mechanism": "konumsal_duzen"
     },
     {
       "number": 25,
@@ -178,7 +180,8 @@
         "neden_elendi": "Sorunun ekseni tarimin Bereketli Hilal'den Avrupa'ya yayildigi anlatisi; bu anlati ders kitabi duzeyinde bilindigi icin 'yayilmanin gittigi yon' sorusunun cevabi secenekler arasinda pasaja bakmadan bulunabiliyor. Kanit cumlesi (A/3) yolun ucundaki yeri adlandirmaktan baska bir sey soylemiyor.",
         "ne_degisti": "Eski soru A/3'e dayaniyordu: yerlesimin uzerinde bulundugu yollarin tarim uygulamalarini Avrupa'ya tasimasi. Tarimin Bereketli Hilal'den Avrupa'ya yayildigi anlatisi ders kitabi duzeyinde bilindigi icin 'yayilmanin yonu' sorusu pasajsiz cevaplanabiliyordu. Yeni kanit G/3'un yon bildiren kismina degil, tarih ve uzaklik iddiasina baglandi ve cevap bir yer degil bir bugday turu oldu; boylece yayilma anlatisi sorunun disinda kaldi. Kip: ifade olculu ('may')."
       },
-      "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: logic. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md"
+      "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: logic. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md",
+      "flag_mechanism": "konumsal_duzen"
     }
   ]
 }

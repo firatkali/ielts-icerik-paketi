@@ -13,364 +13,466 @@
   "word_limit": "NO MORE THAN TWO WORDS",
   "word_bank": null,
   "visual": null,
-  "stem_block": "Passage A06 — Why New Remote Workers Need Experienced Teammates, Not Star Performers\n- Sample: (1) ........ employee-month records from a single department, April 2022 to March 2023\n- Data drawn from three in-house sources: personnel files, (2) ........ , and message records\n- Wages depend on (3) ........ alone, so matching the team's results brings no reward\n\nPassage A07 — The Whale That Recognised Herself in a Mirror\n- Species said to pass: orcas, bottlenose dolphins, Asian elephants, a few great apes, one cleaner fish species and, surprisingly, the (4) ........\n- Why it matters: an ability tied mainly to dolphins until now is shown in another toothed-whale line, the (5) ........\n- Warning: with one animal only, or a (6) ........ , such abilities are easily missed — just 2 of the 4 belugas reacted strongly\n\nPassage A08 — An Earthquake Writes Its Story Across a Glacier\n- Epicentre: about (7) ........ inland, north of Yakutat on the coast\n- What the satellite suggested was backed up by a survey on the ground on (8) ........\n- Lesson: without a device able to pick up small shifts in (9) ........ from orbit, a change on this scale might never have been noted\n\nPassage A09 — The Brain That Turned to Glass\n- Vitrified tissue: axons averaging (10) ........ nanometres across, close to the range for living white matter\n- Victim: a man of roughly 20, lying on his front on a (11) ........ , seemingly asleep as the flows arrived\n- Value of the find: cell-level detail from antiquity that (12) ........ on their own hardly ever supply\n\nPassage A12 — Does a Nap Help You Remember as Well as a Night's Sleep?\n- Second study: after learning at 1.30 p.m., some took a 90-minute nap while their brain activity was tracked by (13) ........\n- Conclusion: sleep helps most with what is easiest to forget, namely (14) ........ with no tie to what is already known\n- A nap works about as well as a whole night for isolated facts, e.g. an (15) ........ or a single new vocabulary item",
-  "items": [
+  "stem_block": null,
+  "groups": [
     {
-      "number": 1,
-      "passage_id": "A06",
-      "prompt": "Sample: (1) ........ employee-month records from a single department, April 2022 to March 2023",
-      "answer": [
-        "977"
-      ],
-      "accepted_variants": [
-        "977"
-      ],
-      "evidence": "A team of researchers analysed 977 employee-month records from one of the company's departments, covering April 2022 through March 2023.",
-      "evidence_locator": {
-        "paragraph": "B",
-        "sentence": 1
-      },
-      "explanation": "Paragraph B says the researchers analysed 977 employee-month records from one department, covering April 2022 through March 2023; so the answer is '977'.",
-      "difficulty": "easy",
-      "status": "verified",
-      "blind_solvable": false,
-      "blind_basis": null,
-      "generated_by": "opus",
-      "yeniden_uretim": {
-        "tarih": "2026-08-08",
-        "kaynak_prompt": "prompts/OPUS5-E6-yeniden-uretim.md (6/7)",
-        "uretilen_grup": "Tamamlama ailesi yuvalari",
-        "eski_prompt": "Staff based in every one of Japan's (1) ........ prefectures, plus 23 further countries",
-        "eski_cevap": [
-          "47"
-        ],
-        "eski_kanit_cumlesi": "Its roughly 900 employees, spread across all 47 of Japan's prefectures and 23 other countries as of March 2025, handle client work entirely through remote communication platforms.",
-        "neden_elendi": "Cevabin kendisi bir dunya bilgisi: Japonya'nin 47 ile bolunmus olmasi cografya ders kitabi duzeyinde bilinir ve model parcasiz uc turda da '47' yazdi (3/3 PUAN alirdi). Nottan 'Japan's' kaldirilsa bile 'prefecture' sozcugu tek basina Japonya'yi adlandiriyor, yani cerceve duzeltmesi yariya kaliyor. E6 onerisi: ayni cumledeki calisan sayisi (yaklasik 900) ya da '23 other countries' yerine Mart 2025 tarihi.",
-        "ne_degisti": "Eski not satiri A/2'ye capaliydi ve cevap ('47') cografya ders kitabi duzeyinde bir dunya bilgisiydi; 'prefecture' sozcugu tek basina Japonya'yi adlandirdigi icin cerceve duzeltmesi de yetmiyordu. Yeni satir A paragrafina hic degmiyor: kanit B/1'e, orneklem buyukluguna tasindi. 977 keyfi bir kayit sayisi, disaridan bilinemez."
-      }
+      "group_id": "P-NC-A15",
+      "passage_id": "A15",
+      "instructions": "Questions 1-3 refer to Passage A15 - Teaching a Plant to Defend Itself Faster\n\nComplete the notes below.\n\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\nWrite your answers in boxes 1-3 on your answer sheet.",
+      "stem_block": "Passage A15 - Teaching a Plant to Defend Itself Faster\n\nTreating the plants\n- maize seedlings of the variety (1) ........ , ten to twelve days old, sprayed with a water-based emulsion of the compound\n- control seedlings sprayed with the wetting agent on its own; both groups then left untouched for a full day\n- leafhoppers then released at a density of (2) ........ insects to a single seedling\n\nCollecting the air around a seedling\n- each seedling enclosed in its own sealed chamber\n- outgoing air passed through a short tube of porous polymer, then separated and identified by gas chromatography\n- collections made in a series of windows, beginning the moment the insects arrived and running on for more than (3) ........",
+      "items": [
+        {
+          "number": 1,
+          "passage_id": "A15",
+          "prompt": "maize seedlings of the variety (1) ........ , ten to twelve days old, sprayed with a water-based emulsion of the compound",
+          "answer": [
+            "Delprim"
+          ],
+          "accepted_variants": [
+            "Delprim"
+          ],
+          "evidence": "Maize seedlings of the variety Delprim, between ten and twelve days old, were sprayed with a 0.1 per cent water-based emulsion of the compound, while control seedlings received the wetting agent on its own.",
+          "evidence_locator": {
+            "paragraph": "D",
+            "sentence": 1
+          },
+          "explanation": "Paragraph D names the plants used as maize seedlings of the variety Delprim, between ten and twelve days old; so the answer is 'Delprim'.",
+          "difficulty": "easy",
+          "status": "verified",
+          "blind_solvable": false,
+          "blind_basis": null,
+          "generated_by": "opus",
+          "yeniden_uretim": {
+            "tarih": "2026-08-18",
+            "kaynak_prompt": "denetim/UYGULAMA-PLANI.md 1.5 (not/tablo/akis recetesi) + denetim/B3-pasaj-dagitimi.md",
+            "uretilen_grup": "B3 okuma - not tamamlama, yeni alistirma pasajlari",
+            "ne_degisti": "Yeni yuva: A15 D/1. Bosluk calismanin sectigi cesit adina aciliyor; disaridan bilinemez, kalip sonu degil."
+          }
+        },
+        {
+          "number": 2,
+          "passage_id": "A15",
+          "prompt": "leafhoppers then released at a density of (2) ........ insects to a single seedling",
+          "answer": [
+            "one hundred"
+          ],
+          "accepted_variants": [
+            "one hundred",
+            "100"
+          ],
+          "evidence": "Only after that waiting period were leafhoppers released onto the plants, at a density of one hundred insects to a single seedling.",
+          "evidence_locator": {
+            "paragraph": "D",
+            "sentence": 3
+          },
+          "explanation": "Paragraph D says the leafhoppers were released at a density of one hundred insects to a single seedling; so the answer is 'one hundred'.",
+          "difficulty": "medium",
+          "status": "verified",
+          "blind_solvable": false,
+          "blind_basis": null,
+          "generated_by": "opus",
+          "yeniden_uretim": {
+            "tarih": "2026-08-18",
+            "kaynak_prompt": "denetim/UYGULAMA-PLANI.md 1.5 (not/tablo/akis recetesi) + denetim/B3-pasaj-dagitimi.md",
+            "uretilen_grup": "B3 okuma - not tamamlama, yeni alistirma pasajlari",
+            "ne_degisti": "Yeni yuva: A15 D/3. Bosluk sayisal yogunluk degerine aciliyor; iskelette karsit deger verilmedi, tahmin capa bulamiyor."
+          }
+        },
+        {
+          "number": 3,
+          "passage_id": "A15",
+          "prompt": "collections made in a series of windows, beginning the moment the insects arrived and running on for more than (3) ........",
+          "answer": [
+            "three days"
+          ],
+          "accepted_variants": [
+            "three days",
+            "3 days"
+          ],
+          "evidence": "Collections were made in a series of windows that began at the moment of infestation and continued for more than three days.",
+          "evidence_locator": {
+            "paragraph": "E",
+            "sentence": 4
+          },
+          "explanation": "Paragraph E says the air collections were made in a series of windows that began at the moment of infestation and continued for more than three days; so the answer is 'three days'.",
+          "difficulty": "medium",
+          "status": "verified",
+          "blind_solvable": false,
+          "blind_basis": null,
+          "generated_by": "opus",
+          "yeniden_uretim": {
+            "tarih": "2026-08-18",
+            "kaynak_prompt": "denetim/UYGULAMA-PLANI.md 1.5 (not/tablo/akis recetesi) + denetim/B3-pasaj-dagitimi.md",
+            "uretilen_grup": "B3 okuma - not tamamlama, yeni alistirma pasajlari",
+            "ne_degisti": "KAYDIRILDI (paketler arasi cakisma): onceki yuva A15 E/2 idi (hava debisi, cevap 'seven hundred') ve ayni kanit cumlesi kisa cevap paketinin 4. kaleminde de kullaniliyordu. Kanit cumlesi basina bir soru kurali geregi bu kalem E/4'e, orneklemenin suresine tasindi; E/2 tamamen bosaltildi (debi degerleri artik not iskeletinde de gecmiyor)."
+          }
+        }
+      ]
     },
     {
-      "number": 2,
-      "passage_id": "A06",
-      "prompt": "Data drawn from three in-house sources: personnel files, (2) ........ , and message records",
-      "answer": [
-        "operational logs"
-      ],
-      "accepted_variants": [
-        "operational logs"
-      ],
-      "evidence": "The dataset combined three separate internal sources: human resources records giving background details on each employee, operational logs tracking which clients each person served and how many hours they worked, and records of internal messaging activity.",
-      "evidence_locator": {
-        "paragraph": "B",
-        "sentence": 3
-      },
-      "explanation": "Paragraph B says the dataset combined three internal sources: human resources records, operational logs tracking which clients each person served and how many hours they worked, and internal messaging records; so the answer is 'operational logs'.",
-      "difficulty": "medium",
-      "status": "verified",
-      "blind_solvable": false
+      "group_id": "P-NC-A16",
+      "passage_id": "A16",
+      "instructions": "Questions 4-6 refer to Passage A16 - What Changes When the Ground Gets Harder\n\nComplete the notes below.\n\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\nWrite your answers in boxes 4-6 on your answer sheet.",
+      "stem_block": "Passage A16 - What Changes When the Ground Gets Harder\n\nPutting a number on each surface (drop test: a basketball released from two metres, rebound height recorded)\n- the coefficient of restitution rises as a surface gives back more of the energy delivered to it\n- artificial grass, which gave back the least: (4) ........\n- synthetic rubber: 0.320\n- concrete, the hardest of the three: (5) ........\n\nIn the laboratory\n- runway fifteen metres long and one metre wide; ten cameras, plus a force plate set flush into the floor at the midpoint\n- runners crossed at (6) ........ metres per second, a run counting only if the measured speed stayed within 0.2 of that figure and the whole foot landed on the plate\n- five clean runs collected from every runner on every surface",
+      "items": [
+        {
+          "number": 4,
+          "passage_id": "A16",
+          "prompt": "artificial grass, which gave back the least: (4) ........",
+          "answer": [
+            "0.290"
+          ],
+          "accepted_variants": [
+            "0.290",
+            "0.29"
+          ],
+          "evidence": "Artificial grass returned the least, at 0.290.",
+          "evidence_locator": {
+            "paragraph": "B",
+            "sentence": 5
+          },
+          "explanation": "Paragraph B reports the drop-test figures for the three coverings and says artificial grass returned the least, at 0.290; so the answer is '0.290'.",
+          "difficulty": "medium",
+          "status": "verified",
+          "blind_solvable": false,
+          "blind_basis": null,
+          "generated_by": "opus",
+          "yeniden_uretim": {
+            "tarih": "2026-08-18",
+            "kaynak_prompt": "denetim/UYGULAMA-PLANI.md 1.5 (not/tablo/akis recetesi) + denetim/B3-pasaj-dagitimi.md",
+            "uretilen_grup": "B3 okuma - not tamamlama, yeni alistirma pasajlari",
+            "ne_degisti": "Yeni yuva: A16 B/5. Bosluk olculen bir orana aciliyor; iskelet yalniz siralamayi veriyor, ondalikli degerin kendisini turetmeye yetmiyor."
+          }
+        },
+        {
+          "number": 5,
+          "passage_id": "A16",
+          "prompt": "concrete, the hardest of the three: (5) ........",
+          "answer": [
+            "0.420"
+          ],
+          "accepted_variants": [
+            "0.420",
+            "0.42"
+          ],
+          "evidence": "Concrete, the hardest of the three, reached 0.420.",
+          "evidence_locator": {
+            "paragraph": "B",
+            "sentence": 7
+          },
+          "explanation": "Paragraph B says concrete, the hardest of the three coverings, reached 0.420 in the drop test; so the answer is '0.420'.",
+          "difficulty": "medium",
+          "status": "verified",
+          "blind_solvable": false,
+          "blind_basis": null,
+          "generated_by": "opus",
+          "yeniden_uretim": {
+            "tarih": "2026-08-18",
+            "kaynak_prompt": "denetim/UYGULAMA-PLANI.md 1.5 (not/tablo/akis recetesi) + denetim/B3-pasaj-dagitimi.md",
+            "uretilen_grup": "B3 okuma - not tamamlama, yeni alistirma pasajlari",
+            "ne_degisti": "Yeni yuva: A16 B/7. Kanit cumlesi 4. kalemden ayri; iskelette yalniz ortadaki deger (0.320) veriliyor, iki bosluk da tahminle kapanmiyor."
+          }
+        },
+        {
+          "number": 6,
+          "passage_id": "A16",
+          "prompt": "runners crossed at (6) ........ metres per second, a run counting only if the measured speed stayed within 0.2 of that figure and the whole foot landed on the plate",
+          "answer": [
+            "3.3"
+          ],
+          "accepted_variants": [
+            "3.3"
+          ],
+          "evidence": "Runners crossed at 3.3 metres per second, and a trial counted only if the measured speed stayed within 0.2 metres per second of that figure and the whole foot landed cleanly on the plate.",
+          "evidence_locator": {
+            "paragraph": "D",
+            "sentence": 3
+          },
+          "explanation": "Paragraph D says runners crossed the runway at 3.3 metres per second, with a tolerance of 0.2 metres per second; so the answer is '3.3'.",
+          "difficulty": "medium",
+          "status": "verified",
+          "blind_solvable": false,
+          "blind_basis": null,
+          "generated_by": "opus",
+          "yeniden_uretim": {
+            "tarih": "2026-08-18",
+            "kaynak_prompt": "denetim/UYGULAMA-PLANI.md 1.5 (not/tablo/akis recetesi) + denetim/B3-pasaj-dagitimi.md",
+            "uretilen_grup": "B3 okuma - not tamamlama, yeni alistirma pasajlari",
+            "ne_degisti": "Yeni yuva: A16 D/3. Bosluk calismanin sectigi kosu hizina aciliyor; tolerans degeri (0.2) verilse bile hizin kendisi turetilemiyor. Onceki taslakta buradaki yuva 'bes temiz deneme' idi, korlemesine tahmin edilebildigi icin degistirildi."
+          }
+        }
+      ]
     },
     {
-      "number": 3,
-      "passage_id": "A06",
-      "prompt": "Wages depend on (3) ........ alone, so matching the team's results brings no reward",
-      "answer": [
-        "individual output"
-      ],
-      "accepted_variants": [
-        "individual output"
-      ],
-      "evidence": "In an office, visibly high-performing colleagues can motivate others through social comparison and peer pressure, but Caster pays employees according to individual output alone, removing much of the incentive to match a team's overall performance; without face-to-face contact to reinforce that pressure further, it appears to have little effect at all.",
-      "evidence_locator": {
-        "paragraph": "H",
-        "sentence": 2
-      },
-      "explanation": "Paragraph H says the company pays employees according to individual output alone, which removes much of the incentive to match the team's overall performance; so the answer is 'individual output'.",
-      "difficulty": "hard",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_solvable_kelime_duzeyi": false,
-      "blind_basis": "logic",
-      "flag_reason": "Parça gösterilmeden anlamca 3/3 turda doğru bilindi: farklı kelimeyle ama doğru kavramla cevaplandı (3 turda da 'individual performance' verdi, gerçek cevap 'individual output' — ücretin yalnız kişinin kendi işine bağlı olduğu aynı iddia).",
-      "flag_mechanism": "esdizim_kilidi",
-      "review_note": "E10 anlam duzeyi olcumunden gelen isaret: model parcasiz uc turda da dogru KAVRAMI verdi, tutmayan sey sozcugun kendisiydi. Bu bicimde sizinti cercevede degil boslugun hedefinde durur; kapatmak icin boslugu baska bir ayrintiya tasimak, yani `answer` alanini degistirmek gerekir. Talimatin korunan alan kurali buna izin vermedigi ve soru kelime duzeyinde hala calistigi icin soru oldugu gibi birakildi. Model uc turda 'individual performance' verdi. Not, ucretin yalniz kisinin kendi isine bagli oldugunu soylemek zorunda ve bu kavramin Ingilizce karsiligi zaten 'individual output/performance'. E6 onerisi: ayni paragrafin 'social comparison / peer pressure' ayrintisina capalanmis yeni bir yuva."
+      "group_id": "P-NC-A18",
+      "passage_id": "A18",
+      "instructions": "Questions 7-12 refer to Passage A18 - Naming a Species from a Short Piece of DNA\n\nComplete the notes below.\n\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\nWrite your answers in boxes 7-12 on your answer sheet.",
+      "stem_block": "Passage A18 - Naming a Species from a Short Piece of DNA\n\nBuilding one entry for the library\n- Step 1: take a specimen an expert has already named, usually out of a (7) ........ , and write down where and when it was caught\n- Step 2: remove a single leg as the tissue sample, so that the rest of the animal survives as a (8) ........ and can be examined again later\n- Step 3: copy the gene fragment in a machine that runs (9) ........ rounds of heating and cooling\n- Step 4: read the sequence of the copy\n- Step 5: upload the sequence to a shared online database, beside a photograph of the specimen and its collection record\n\nThree routes to a name (share of species correctly named)\n- barcodes alone: 89.9 per cent\n- appearance alone: females 89.7 per cent, males (10) ........ per cent\n- the two used together: females 96.3 per cent, males (11) ........ per cent\n- of eight pairs that are notoriously hard to tell apart by eye, (12) ........ were divided cleanly by their barcodes",
+      "items": [
+        {
+          "number": 7,
+          "passage_id": "A18",
+          "prompt": "Step 1: take a specimen an expert has already named, usually out of a (7) ........ , and write down where and when it was caught",
+          "answer": [
+            "museum drawer"
+          ],
+          "accepted_variants": [
+            "museum drawer"
+          ],
+          "evidence": "First, a specimen an expert had already identified was chosen, usually from a museum drawer, and its place and date of capture recorded.",
+          "evidence_locator": {
+            "paragraph": "B",
+            "sentence": 2
+          },
+          "explanation": "Paragraph B says the first step was choosing a specimen an expert had already identified, usually from a museum drawer, and recording its place and date of capture; so the answer is 'museum drawer'.",
+          "difficulty": "medium",
+          "status": "verified",
+          "blind_solvable": false,
+          "blind_basis": null,
+          "generated_by": "opus",
+          "yeniden_uretim": {
+            "tarih": "2026-08-18",
+            "kaynak_prompt": "denetim/UYGULAMA-PLANI.md 1.5 (not/tablo/akis recetesi) + denetim/B3-pasaj-dagitimi.md",
+            "uretilen_grup": "B3 okuma - not tamamlama, yeni alistirma pasajlari",
+            "ne_degisti": "Yeni yuva: A18 B/2. Bosluk ornegin alindigi yerin adina aciliyor."
+          }
+        },
+        {
+          "number": 8,
+          "passage_id": "A18",
+          "prompt": "Step 2: remove a single leg as the tissue sample, so that the rest of the animal survives as a (8) ........ and can be examined again later",
+          "answer": [
+            "voucher"
+          ],
+          "accepted_variants": [
+            "voucher"
+          ],
+          "evidence": "Second, a single leg was removed as the tissue sample, so the rest survived as a voucher for later re-examination.",
+          "evidence_locator": {
+            "paragraph": "B",
+            "sentence": 3
+          },
+          "explanation": "Paragraph B says one leg was removed as the tissue sample so that the rest of the specimen survived as a voucher for later re-examination; so the answer is 'voucher'.",
+          "difficulty": "hard",
+          "status": "verified",
+          "blind_solvable": false,
+          "blind_basis": null,
+          "generated_by": "opus",
+          "yeniden_uretim": {
+            "tarih": "2026-08-18",
+            "kaynak_prompt": "denetim/UYGULAMA-PLANI.md 1.5 (not/tablo/akis recetesi) + denetim/B3-pasaj-dagitimi.md",
+            "uretilen_grup": "B3 okuma - not tamamlama, yeni alistirma pasajlari",
+            "ne_degisti": "Yeni yuva: A18 B/3. Bosluk saklanan parcanin adina aciliyor; doku ornegi olarak alinan bacak bilerek iskelete yazildi, cunku o kelime disaridan tahmin edilebilirdi."
+          }
+        },
+        {
+          "number": 9,
+          "passage_id": "A18",
+          "prompt": "Step 3: copy the gene fragment in a machine that runs (9) ........ rounds of heating and cooling",
+          "answer": [
+            "35"
+          ],
+          "accepted_variants": [
+            "35",
+            "thirty-five"
+          ],
+          "evidence": "Third, the gene fragment was copied in a machine that ran 35 rounds of heating and cooling until there was enough material to read.",
+          "evidence_locator": {
+            "paragraph": "B",
+            "sentence": 4
+          },
+          "explanation": "Paragraph B says the gene fragment was copied in a machine that ran 35 rounds of heating and cooling; so the answer is '35'.",
+          "difficulty": "medium",
+          "status": "verified",
+          "blind_solvable": false,
+          "blind_basis": null,
+          "generated_by": "opus",
+          "yeniden_uretim": {
+            "tarih": "2026-08-18",
+            "kaynak_prompt": "denetim/UYGULAMA-PLANI.md 1.5 (not/tablo/akis recetesi) + denetim/B3-pasaj-dagitimi.md",
+            "uretilen_grup": "B3 okuma - not tamamlama, yeni alistirma pasajlari",
+            "ne_degisti": "Yeni yuva: A18 B/4. Bosluk laboratuvar rutininin kendi sectigi tur sayisina aciliyor."
+          }
+        },
+        {
+          "number": 10,
+          "passage_id": "A18",
+          "prompt": "appearance alone: females 89.7 per cent, males (10) ........ per cent",
+          "answer": [
+            "92.6"
+          ],
+          "accepted_variants": [
+            "92.6"
+          ],
+          "evidence": "Appearance alone did almost as well for females, at 89.7 per cent, and slightly better for males, at 92.6 per cent, since males carry more diagnostic external detail.",
+          "evidence_locator": {
+            "paragraph": "H",
+            "sentence": 3
+          },
+          "explanation": "Paragraph H says identification by appearance alone reached 89.7 per cent for females and 92.6 per cent for males; so the answer is '92.6'.",
+          "difficulty": "medium",
+          "status": "verified",
+          "blind_solvable": false,
+          "blind_basis": null,
+          "generated_by": "opus",
+          "yeniden_uretim": {
+            "tarih": "2026-08-18",
+            "kaynak_prompt": "denetim/UYGULAMA-PLANI.md 1.5 (not/tablo/akis recetesi) + denetim/B3-pasaj-dagitimi.md",
+            "uretilen_grup": "B3 okuma - not tamamlama, yeni alistirma pasajlari",
+            "ne_degisti": "Yeni yuva: A18 H/3. Karsilastirma iskeleti notr: her satirda disi degeri verilip erkek degeri soruluyor, ama iki deger arasinda turetilebilir bir baginti yok."
+          }
+        },
+        {
+          "number": 11,
+          "passage_id": "A18",
+          "prompt": "the two used together: females 96.3 per cent, males (11) ........ per cent",
+          "answer": [
+            "98.2"
+          ],
+          "accepted_variants": [
+            "98.2"
+          ],
+          "evidence": "Used together, the two approaches rose to 96.3 per cent for females and 98.2 per cent for males, gains of 6.4 and 8.3 percentage points over the genetic method alone.",
+          "evidence_locator": {
+            "paragraph": "H",
+            "sentence": 4
+          },
+          "explanation": "Paragraph H says the two approaches used together rose to 96.3 per cent for females and 98.2 per cent for males; so the answer is '98.2'.",
+          "difficulty": "hard",
+          "status": "verified",
+          "blind_solvable": false,
+          "blind_basis": null,
+          "generated_by": "opus",
+          "yeniden_uretim": {
+            "tarih": "2026-08-18",
+            "kaynak_prompt": "denetim/UYGULAMA-PLANI.md 1.5 (not/tablo/akis recetesi) + denetim/B3-pasaj-dagitimi.md",
+            "uretilen_grup": "B3 okuma - not tamamlama, yeni alistirma pasajlari",
+            "ne_degisti": "Yeni yuva: A18 H/4. Ayni cumledeki kazanc puanlari (6.4 ve 8.3) bilerek iskelete yazilmadi; yazilsaydi cevap toplama ile bulunurdu."
+          }
+        },
+        {
+          "number": 12,
+          "passage_id": "A18",
+          "prompt": "of eight pairs that are notoriously hard to tell apart by eye, (12) ........ were divided cleanly by their barcodes",
+          "answer": [
+            "six"
+          ],
+          "accepted_variants": [
+            "six",
+            "6"
+          ],
+          "evidence": "The team also took eight pairs notoriously hard to separate by eye: six were cleanly divided by their barcodes, two were not.",
+          "evidence_locator": {
+            "paragraph": "H",
+            "sentence": 5
+          },
+          "explanation": "Paragraph H says that of eight pairs notoriously hard to separate by eye, six were cleanly divided by their barcodes; so the answer is 'six'.",
+          "difficulty": "hard",
+          "status": "verified",
+          "blind_solvable": false,
+          "blind_basis": null,
+          "generated_by": "opus",
+          "yeniden_uretim": {
+            "tarih": "2026-08-18",
+            "kaynak_prompt": "denetim/UYGULAMA-PLANI.md 1.5 (not/tablo/akis recetesi) + denetim/B3-pasaj-dagitimi.md",
+            "uretilen_grup": "B3 okuma - not tamamlama, yeni alistirma pasajlari",
+            "ne_degisti": "Yeni yuva: A18 H/5. Ayni cumlenin 'ikisi ayrilamadi' kismi bilerek iskelete yazilmadi; yazilsaydi cevap sekizden cikarma ile bulunurdu."
+          }
+        }
+      ]
     },
     {
-      "number": 4,
-      "passage_id": "A07",
-      "prompt": "Species said to pass: orcas, bottlenose dolphins, Asian elephants, a few great apes, one cleaner fish species and, surprisingly, the (4) ........",
-      "answer": [
-        "Eurasian magpie"
-      ],
-      "accepted_variants": [
-        "Eurasian magpie"
-      ],
-      "evidence": "Only a short list of species has ever been reported to pass: a few great apes, Asian elephants, bottlenose dolphins, orcas, a species of cleaner fish and, remarkably, the Eurasian magpie.",
-      "evidence_locator": {
-        "paragraph": "A",
-        "sentence": 2
-      },
-      "explanation": "Paragraph A says the short list of species reported to pass the test ends, surprisingly, with the Eurasian magpie; so the answer is 'Eurasian magpie'.",
-      "difficulty": "easy",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_solvable_kelime_duzeyi": false,
-      "blind_basis": "logic",
-      "flag_reason": "Parça gösterilmeden anlamca 3/3 turda doğru bilindi: farklı kelimeyle ama doğru kavramla cevaplandı (3 turda da 'magpie' verdi, gerçek cevap 'Eurasian magpie' — niteleyici düştü, aynanın önünde testi geçen kuş aynı).",
-      "flag_mechanism": "esdizim_kilidi",
-      "review_note": "E10 anlam duzeyi olcumunden gelen isaret: model parcasiz uc turda da dogru KAVRAMI verdi, tutmayan sey sozcugun kendisiydi. Bu bicimde sizinti cercevede degil boslugun hedefinde durur; kapatmak icin boslugu baska bir ayrintiya tasimak, yani `answer` alanini degistirmek gerekir. Talimatin korunan alan kurali buna izin vermedigi ve soru kelime duzeyinde hala calistigi icin soru oldugu gibi birakildi. Model uc turda 'magpie' verdi; tutmayan tek sey niteleyici ('Eurasian'). Niteleyiciyi zorunlu kilmanin tek yolu pasajda ikinci bir saksagan turunun bulunmasi, oyle bir sey yok. E6 onerisi: listenin kendisi yerine A paragrafindaki temizlikci balik ornegine capalanmis yuva."
-    },
-    {
-      "number": 5,
-      "passage_id": "A07",
-      "prompt": "Why it matters: an ability tied mainly to dolphins until now is shown in another toothed-whale line, the (5) ........",
-      "answer": [
-        "Monodontidae"
-      ],
-      "accepted_variants": [
-        "Monodontidae"
-      ],
-      "evidence": "The result is significant because it extends a capacity long associated mainly with the dolphin family to a different lineage of toothed whales, the Monodontidae, which includes belugas and narwhals.",
-      "evidence_locator": {
-        "paragraph": "G",
-        "sentence": 1
-      },
-      "explanation": "Paragraph G says the finding extends an ability long associated with the dolphin family to a different lineage of toothed whales, the Monodontidae, which includes belugas and narwhals; so the answer is 'Monodontidae'.",
-      "difficulty": "medium",
-      "status": "verified",
-      "blind_solvable": false
-    },
-    {
-      "number": 6,
-      "passage_id": "A07",
-      "prompt": "Warning: with one animal only, or a (6) ........ , such abilities are easily missed — just 2 of the 4 belugas reacted strongly",
-      "answer": [
-        "small sample"
-      ],
-      "accepted_variants": [
-        "small sample"
-      ],
-      "evidence": "Passing it does not necessarily mean an animal possesses the same rich sense of self reported by humans, and the fact that only two of the four belugas tested responded strongly shows how easily such abilities can be missed if only a single individual, or a small sample, is studied.",
-      "evidence_locator": {
-        "paragraph": "H",
-        "sentence": 2
-      },
-      "explanation": "Paragraph H says how easily such abilities can be missed when only a single individual, or a small sample, is studied; so the answer is 'small sample'.",
-      "difficulty": "hard",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_solvable_kelime_duzeyi": false,
-      "blind_basis": "logic",
-      "flag_reason": "Parça gösterilmeden anlamca 3/3 turda doğru bilindi: farklı kelimeyle ama doğru kavramla cevaplandı ('small sample / small group / small sample' verdi; küçük grup ile küçük örneklem burada aynı uyarıyı kuruyor).",
-      "flag_mechanism": "esdizim_kilidi",
-      "review_note": "E10 anlam duzeyi olcumunden gelen isaret: model parcasiz uc turda da dogru KAVRAMI verdi, tutmayan sey sozcugun kendisiydi. Bu bicimde sizinti cercevede degil boslugun hedefinde durur; kapatmak icin boslugu baska bir ayrintiya tasimak, yani `answer` alanini degistirmek gerekir. Talimatin korunan alan kurali buna izin vermedigi ve soru kelime duzeyinde hala calistigi icin soru oldugu gibi birakildi. Model 'small group / small sample' verdi. Uyarinin kendisi ('tek hayvan ya da az sayida hayvanla calisirsa yetenek gozden kacar') kavrami zaten tasiyor. E6 onerisi: dort belugadan ikisinin guclu tepki vermesi sayisina capalanmis yuva."
-    },
-    {
-      "number": 7,
-      "passage_id": "A08",
-      "prompt": "Epicentre: about (7) ........ inland, north of Yakutat on the coast",
-      "answer": [
-        "90 kilometres"
-      ],
-      "accepted_variants": [
-        "90 kilometres",
-        "90 kilometers",
-        "90 km"
-      ],
-      "evidence": "The epicentre lay in remote terrain roughly 90 kilometres north of the coastal town of Yakutat, Alaska, an area so thinly populated that the quake caused no reported casualties, yet its effects on the surrounding landscape were extraordinary.",
-      "evidence_locator": {
-        "paragraph": "A",
-        "sentence": 2
-      },
-      "explanation": "Paragraph A says the epicentre lay in remote terrain roughly 90 kilometres north of the coastal town of Yakutat; so the answer is '90 kilometres'.",
-      "difficulty": "easy",
-      "status": "verified",
-      "blind_solvable": false
-    },
-    {
-      "number": 8,
-      "passage_id": "A08",
-      "prompt": "What the satellite suggested was backed up by a survey on the ground on (8) ........",
-      "answer": [
-        "12 December"
-      ],
-      "accepted_variants": [
-        "12 December",
-        "December 12"
-      ],
-      "evidence": "A ground survey carried out on 12 December confirmed what the satellite images had suggested from orbit: extensive new debris fields, some stretching for kilometres, now lay across terrain that had been buried under clean snow and ice only weeks before.",
-      "evidence_locator": {
-        "paragraph": "D",
-        "sentence": 2
-      },
-      "explanation": "Paragraph D says a ground survey carried out on 12 December confirmed what the satellite images had shown from orbit; so the answer is '12 December'.",
-      "difficulty": "medium",
-      "status": "verified",
-      "blind_solvable": false
-    },
-    {
-      "number": 9,
-      "passage_id": "A08",
-      "prompt": "Lesson: without a device able to pick up small shifts in (9) ........ from orbit, a change on this scale might never have been noted",
-      "answer": [
-        "surface roughness"
-      ],
-      "accepted_variants": [
-        "surface roughness"
-      ],
-      "evidence": "Without an instrument able to detect subtle changes in surface roughness from space, a transformation of this scale, more than 700 landslides across a mountain range few people will ever visit, could easily have gone unrecorded.",
-      "evidence_locator": {
-        "paragraph": "H",
-        "sentence": 2
-      },
-      "explanation": "Paragraph H says that without an instrument able to detect subtle changes in surface roughness from space, a transformation of this scale could have gone unrecorded; so the answer is 'surface roughness'.",
-      "difficulty": "hard",
-      "status": "verified",
-      "blind_solvable": false
-    },
-    {
-      "number": 10,
-      "passage_id": "A09",
-      "prompt": "Vitrified tissue: axons averaging (10) ........ nanometres across, close to the range for living white matter",
-      "answer": [
-        "717.7"
-      ],
-      "accepted_variants": [
-        "717.7"
-      ],
-      "evidence": "Axons in the vitrified brain tissue measured on average 717.7 nanometres in diameter, close to the typical range for white matter in a living brain, while axons from the preserved spinal cord measured around 672 nanometres.",
-      "evidence_locator": {
-        "paragraph": "E",
-        "sentence": 2
-      },
-      "explanation": "Paragraph E says axons in the vitrified brain tissue measured on average 717.7 nanometres in diameter, close to the typical range for white matter in a living brain; so the answer is '717.7'.",
-      "difficulty": "medium",
-      "status": "verified",
-      "blind_solvable": false,
-      "blind_basis": null,
-      "generated_by": "opus",
-      "yeniden_uretim": {
-        "tarih": "2026-08-08",
-        "kaynak_prompt": "prompts/OPUS5-E6-yeniden-uretim.md (6/7)",
-        "uretilen_grup": "Tamamlama ailesi yuvalari",
-        "eski_prompt": "Pyroclastic flows, racing currents of hot gas and debris, can reach about (10) ........ degrees Celsius",
-        "eski_cevap": [
-          "500"
-        ],
-        "eski_kanit_cumlesi": "At Herculaneum, closer to the volcano, the town was overwhelmed instead by a series of pyroclastic flows, fast-moving currents of superheated gas and volcanic debris that can reach temperatures of around 500 degrees Celsius.",
-        "neden_elendi": "Cevabin kendisi bir dunya bilgisi: piroklastik akintilarin yaklasik 500 santigrat dereceye ulastigi volkanoloji anlatilarinin standart rakami; model uc turda da '500' yazdi (3/3 PUAN). Not satirinin kendisi zaten bu genel gercegin ifadesi, dolayisiyla yeniden yazmak sizintiyi kapatmiyor. E6 onerisi: A paragrafinin Herculaneum'a olan uzakligi ya da Pompeii ile Herculaneum'un farkli gomulme bicimi.",
-        "ne_degisti": "Eski not satiri A/2'ye capaliydi ve cevap ('500') volkanoloji anlatilarinin standart rakamiydi; satirin kendisi zaten o genel gercegin ifadesiydi. Yeni satir A paragrafina hic degmiyor: kanit E/2'ye, olculen akson capina tasindi. Ondalikli olcum degeri pasaj disindan turetilemez. Ayni A paragrafinin oteki adaylari da (AD 79, yaklasik 20 metrelik gomulme) bilinen rakamlar oldugu icin bilerek kullanilmadi."
-      }
-    },
-    {
-      "number": 11,
-      "passage_id": "A09",
-      "prompt": "Victim: a man of roughly 20, lying on his front on a (11) ........ , seemingly asleep as the flows arrived",
-      "answer": [
-        "wooden bed"
-      ],
-      "accepted_variants": [
-        "wooden bed"
-      ],
-      "evidence": "Among the victims uncovered during excavations of the Collegium Augustalium, a public building in the town centre, was a young man of around 20 years old, found lying face down on a wooden bed where he had apparently been sleeping when the flows arrived.",
-      "evidence_locator": {
-        "paragraph": "B",
-        "sentence": 1
-      },
-      "explanation": "Paragraph B says the victim, around 20 years old, was found lying face down on a wooden bed, apparently asleep when the flows arrived; so the answer is 'wooden bed'.",
-      "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_solvable_kelime_duzeyi": false,
-      "blind_basis": "logic",
-      "flag_reason": "Parça gösterilmeden anlamca 3/3 turda doğru bilindi: farklı kelimeyle ama doğru kavramla cevaplandı (3 turda da 'bed' verdi, gerçek cevap 'wooden bed' — kurbanın üzerinde bulunduğu nesne aynı, yalnız malzeme niteleyicisi düştü).",
-      "flag_mechanism": "esdizim_kilidi",
-      "review_note": "E10 anlam duzeyi olcumunden gelen isaret: model parcasiz uc turda da dogru KAVRAMI verdi, tutmayan sey sozcugun kendisiydi. Bu bicimde sizinti cercevede degil boslugun hedefinde durur; kapatmak icin boslugu baska bir ayrintiya tasimak, yani `answer` alanini degistirmek gerekir. Talimatin korunan alan kurali buna izin vermedigi ve soru kelime duzeyinde hala calistigi icin soru oldugu gibi birakildi. Model uc turda 'bed' verdi. 'Uyur halde bulunmus bir kurban' cercevesinde yatak kacinilmaz; ayirt edici olan yalniz malzeme niteleyicisi. E6 onerisi: kurbanin bulundugu yapinin adina (Collegium Augustalium) capalanmis yuva."
-    },
-    {
-      "number": 12,
-      "passage_id": "A09",
-      "prompt": "Value of the find: cell-level detail from antiquity that (12) ........ on their own hardly ever supply",
-      "answer": [
-        "skeletal remains"
-      ],
-      "accepted_variants": [
-        "skeletal remains"
-      ],
-      "evidence": "The case is regarded as a rare and valuable window into human biology at the cellular level from antiquity, offering detail that is almost never available from skeletal remains alone.",
-      "evidence_locator": {
-        "paragraph": "H",
-        "sentence": 1
-      },
-      "explanation": "Paragraph H says the find offers cell-level detail that is almost never available from skeletal remains alone; so the answer is 'skeletal remains'.",
-      "difficulty": "hard",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_solvable_kelime_duzeyi": false,
-      "blind_basis": "logic",
-      "flag_reason": "Parça gösterilmeden anlamca 3/3 turda doğru bilindi: farklı kelimeyle ama doğru kavramla cevaplandı (3 turda da 'bones' verdi, gerçek cevap 'skeletal remains' — eş anlamlı: tek başına kemiklerin veremediği hücre düzeyi ayrıntı).",
-      "flag_mechanism": "esdizim_kilidi",
-      "review_note": "E10 anlam duzeyi olcumunden gelen isaret: model parcasiz uc turda da dogru KAVRAMI verdi, tutmayan sey sozcugun kendisiydi. Bu bicimde sizinti cercevede degil boslugun hedefinde durur; kapatmak icin boslugu baska bir ayrintiya tasimak, yani `answer` alanini degistirmek gerekir. Talimatin korunan alan kurali buna izin vermedigi ve soru kelime duzeyinde hala calistigi icin soru oldugu gibi birakildi. Model uc turda 'bones' verdi; 'skeletal remains' ile tam es anlamli. Antik donemden hucre duzeyi ayrinti iddiasinin karsit terimi kacinilmaz bicimde kemikler oluyor. E6 onerisi: H paragrafi yerine camlasma sicakligi ya da sogumanin hizina capalanmis yuva."
-    },
-    {
-      "number": 13,
-      "passage_id": "A12",
-      "prompt": "Second study: after learning at 1.30 p.m., some took a 90-minute nap while their brain activity was tracked by (13) ........",
-      "answer": [
-        "polysomnography"
-      ],
-      "accepted_variants": [
-        "polysomnography"
-      ],
-      "evidence": "Each learned 40 related and 40 unrelated word pairs at half past one in the afternoon, then either took a 90-minute nap, during which brain activity was recorded using polysomnography, or remained awake for an equivalent period.",
-      "evidence_locator": {
-        "paragraph": "D",
-        "sentence": 2
-      },
-      "explanation": "Paragraph D says brain activity was recorded using polysomnography during the 90-minute nap; so the answer is 'polysomnography'.",
-      "difficulty": "medium",
-      "status": "verified",
-      "blind_solvable": false
-    },
-    {
-      "number": 14,
-      "passage_id": "A12",
-      "prompt": "Conclusion: sleep helps most with what is easiest to forget, namely (14) ........ with no tie to what is already known",
-      "answer": [
-        "brand-new associations"
-      ],
-      "accepted_variants": [
-        "brand-new associations",
-        "brand new associations"
-      ],
-      "evidence": "The researchers concluded that sleep, whether at night or during the day, preferentially benefits the kind of memory processing that is more vulnerable to being forgotten in the first place, namely brand-new associations with no existing link to prior knowledge.",
-      "evidence_locator": {
-        "paragraph": "G",
-        "sentence": 1
-      },
-      "explanation": "Paragraph G says sleep helps most with the kind of memory processing that is most vulnerable to being forgotten, namely brand-new associations with no link to prior knowledge; so the answer is 'brand-new associations'.",
-      "difficulty": "hard",
-      "status": "verified",
-      "blind_solvable": false
-    },
-    {
-      "number": 15,
-      "passage_id": "A12",
-      "prompt": "A nap works about as well as a whole night for isolated facts, e.g. an (15) ........ or a single new vocabulary item",
-      "answer": [
-        "unfamiliar name"
-      ],
-      "accepted_variants": [
-        "unfamiliar name"
-      ],
-      "evidence": "A nap appears genuinely useful for retaining new, unconnected information, such as an unfamiliar name or a new vocabulary item studied in isolation, about as effectively as a full night's sleep would.",
-      "evidence_locator": {
-        "paragraph": "H",
-        "sentence": 2
-      },
-      "explanation": "Paragraph H says a nap works about as well as a full night's sleep for retaining unconnected information such as an unfamiliar name or a single new word; so the answer is 'unfamiliar name'.",
-      "difficulty": "medium",
-      "status": "verified",
-      "blind_solvable": false
+      "group_id": "P-NC-A19",
+      "passage_id": "A19",
+      "instructions": "Questions 13-15 refer to Passage A19 - Turning Salt Water into Drinking Water with Sunlight\n\nComplete the notes below.\n\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\nWrite your answers in boxes 13-15 on your answer sheet.",
+      "stem_block": "Passage A19 - Turning Salt Water into Drinking Water with Sunlight\n\nWhat the trials produced (readings taken every hour from 08:00 to 17:00)\n- best day, both sets of mirrors in use and the water 2 centimetres deep: basin water at 72.5 degrees Celsius, output peaking at (13) ........ millilitres in the hour around noon\n- that same arrangement across a full day: (14) ........ litres\n- with the outside mirror taken away: 7.84 litres from the shallow layer, but only (15) ........ litres from the deeper one, the poorest of the four trials",
+      "items": [
+        {
+          "number": 13,
+          "passage_id": "A19",
+          "prompt": "best day, both sets of mirrors in use and the water 2 centimetres deep: basin water at 72.5 degrees Celsius, output peaking at (13) ........ millilitres in the hour around noon",
+          "answer": [
+            "1,058.4"
+          ],
+          "accepted_variants": [
+            "1,058.4",
+            "1058.4"
+          ],
+          "evidence": "On the best day of testing, with both sets of reflectors in use and the water only 2 centimetres deep, the basin reached 72.5 degrees Celsius while the surrounding air ranged between 41.2 and 44.7 degrees, and output peaked at 1,058.4 millilitres in the hour around noon.",
+          "evidence_locator": {
+            "paragraph": "G",
+            "sentence": 3
+          },
+          "explanation": "Paragraph G says that on the best day of testing output peaked at 1,058.4 millilitres in the hour around noon; so the answer is '1,058.4'.",
+          "difficulty": "medium",
+          "status": "verified",
+          "blind_solvable": false,
+          "blind_basis": null,
+          "generated_by": "opus",
+          "yeniden_uretim": {
+            "tarih": "2026-08-18",
+            "kaynak_prompt": "denetim/UYGULAMA-PLANI.md 1.5 (not/tablo/akis recetesi) + denetim/B3-pasaj-dagitimi.md",
+            "uretilen_grup": "B3 okuma - not tamamlama, yeni alistirma pasajlari",
+            "ne_degisti": "Yeni yuva: A19 G/3. Bosluk olculen saatlik uretim degerine aciliyor; duzenek parcalarinin ADLARI bilerek kullanilmadi (o adlar diyagram etiketleme paketinin alani)."
+          }
+        },
+        {
+          "number": 14,
+          "passage_id": "A19",
+          "prompt": "that same arrangement across a full day: (14) ........ litres",
+          "answer": [
+            "8.37"
+          ],
+          "accepted_variants": [
+            "8.37"
+          ],
+          "evidence": "Over a full day that arrangement delivered 8.37 litres, against 8.06 litres for the same reflectors with a 4-centimetre layer of water.",
+          "evidence_locator": {
+            "paragraph": "H",
+            "sentence": 1
+          },
+          "explanation": "Paragraph H says the best arrangement delivered 8.37 litres over a full day; so the answer is '8.37'.",
+          "difficulty": "medium",
+          "status": "verified",
+          "blind_solvable": false,
+          "blind_basis": null,
+          "generated_by": "opus",
+          "yeniden_uretim": {
+            "tarih": "2026-08-18",
+            "kaynak_prompt": "denetim/UYGULAMA-PLANI.md 1.5 (not/tablo/akis recetesi) + denetim/B3-pasaj-dagitimi.md",
+            "uretilen_grup": "B3 okuma - not tamamlama, yeni alistirma pasajlari",
+            "ne_degisti": "Yeni yuva: A19 H/1. Ayni cumledeki 4 santimetrelik denemenin degeri (8.06) bilerek iskelete yazilmadi."
+          }
+        },
+        {
+          "number": 15,
+          "passage_id": "A19",
+          "prompt": "with the outside mirror taken away: 7.84 litres from the shallow layer, but only (15) ........ litres from the deeper one, the poorest of the four trials",
+          "answer": [
+            "6.92"
+          ],
+          "accepted_variants": [
+            "6.92"
+          ],
+          "evidence": "With the external mirror taken away the shallow still still managed 7.84 litres, but the deeper one fell to 6.92 litres, the poorest result of the four trials.",
+          "evidence_locator": {
+            "paragraph": "H",
+            "sentence": 2
+          },
+          "explanation": "Paragraph H says that with the external mirror removed the shallow still managed 7.84 litres while the deeper one fell to 6.92 litres, the poorest of the four trials; so the answer is '6.92'.",
+          "difficulty": "hard",
+          "status": "verified",
+          "blind_solvable": false,
+          "blind_basis": null,
+          "generated_by": "opus",
+          "yeniden_uretim": {
+            "tarih": "2026-08-18",
+            "kaynak_prompt": "denetim/UYGULAMA-PLANI.md 1.5 (not/tablo/akis recetesi) + denetim/B3-pasaj-dagitimi.md",
+            "uretilen_grup": "B3 okuma - not tamamlama, yeni alistirma pasajlari",
+            "ne_degisti": "IKI KEZ KAYDIRILDI (paketler arasi cakisma): ilk yuva A19 I/2 idi (litre basina maliyet) ve ayni deger kisa cevap + ozet paketinde de soruluyordu; I paragrafi kisa cevap paketine birakildi. Ikinci deneme B/2 idi, ama diyagram etiketleme paketi B/1-B/2-B/3'u doldurdu. Son yuva H/2: dis aynasiz derin katman denemesinin sonucu. Ayni cumledeki sig katman degeri (7.84) iskelete baglam olarak yazildi, cevap ondan turetilemiyor."
+          }
+        }
+      ]
     }
   ]
 }

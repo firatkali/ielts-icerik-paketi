@@ -13,43 +13,43 @@
   "groups": [
     {
       "group_id": "P-MSE-01",
-      "passage_id": "A07",
-      "instructions": "Questions 1-5 refer to Passage A07 - The Whale That Recognised Herself in a Mirror\n\nComplete each sentence with the correct ending, A-H.\nWrite the correct letter, A-H, in boxes 1-5 on your answer sheet.",
+      "passage_id": "G07",
+      "instructions": "Questions 1-5 refer to Passage G07 - What Houseplants Really Do to the Air Indoors\n\nComplete each sentence with the correct ending, A-H.\nWrite the correct letter, A-H, in boxes 1-5 on your answer sheet.",
       "option_list": {
         "label": "List of Endings",
         "numbering": "letter",
         "options": [
           {
             "key": "A",
-            "text": "curiosity about an object never seen before could not otherwise have been ruled out"
+            "text": "the wettest reading of all was still twenty points short of the seventy per cent at which mould sets in"
           },
           {
             "key": "B",
-            "text": "the animal had no way of bringing that patch of skin into view by itself"
+            "text": "a room of that standard brings in fresh air quickly enough to undo whatever the leaves take up"
           },
           {
             "key": "C",
-            "text": "she had been attending to the mark rather than to the reflection as such"
+            "text": "otherwise the light falling into one of them could have been blamed for anything the plants appeared to do"
           },
           {
             "key": "D",
-            "text": "animals of a species that can pass the test still vary widely in how they respond"
+            "text": "the air in the rooms would otherwise have been swapped so often that any change the plants made would have been buried"
           },
           {
             "key": "E",
-            "text": "little more than two hours of exposure had been enough to bring them out"
+            "text": "the dampest room in the trial was still drier than the air outside the building that day"
           },
           {
             "key": "F",
-            "text": "the whales had built up some twenty-seven hours in front of it across the study"
+            "text": "the workers marked them just as accurately, and just as fast, as they had in a bare room"
           },
           {
             "key": "G",
-            "text": "the glass held more attention than anything else in the pool"
+            "text": "it left the workers less unhappy than the bare room did without leaving them any more cheerful"
           },
           {
             "key": "H",
-            "text": "her reaction to being handled had to be told apart from her reaction to a visible mark"
+            "text": "the tropical arrangement did more for the workers' mood than the Japanese one did"
           }
         ]
       },
@@ -58,200 +58,150 @@
       "items": [
         {
           "number": 1,
-          "prompt": "On some days a clear acrylic panel of the same size was lowered into the pool instead of the mirror, because",
+          "passage_id": "G07",
+          "prompt": "The team saw no danger in the moisture the ferns released, because",
           "answer": [
             "A"
           ],
-          "evidence": "In the first phase a large two-way mirror was lowered into one section of their pool on some days and, on other days, a transparent acrylic panel of identical size was used instead as a control, so that researchers could distinguish curiosity about a novel object from a specific response to a reflection.",
+          "evidence": "Damp air brings its own risks, but the readings never passed 70 per cent, the level at which mould becomes a concern.",
           "evidence_locator": {
-            "paragraph": "B",
-            "sentence": 3
+            "paragraph": "C",
+            "sentence": 5
           },
           "heading_check": null,
           "feature_check": null,
-          "grammar_check": "Rakip son H: o da bir kontrol kosulunun gerekcesi (sahte islem, D paragrafi) ve 'because' sonrasinda kusursuz oturuyor. Cozucu artik iki kontrol gerekcesi arasindan seffaf panelin hangisine hizmet ettigini secmek zorunda; eskiden bu cerceveye uyan tek son A idi. Sekiz sonun sekizi de ozne ve cekimli fiil tasiyan tam bir yan cumle; baslangictaki baglactan sonra hepsi dilbilgisi olarak isliyor, yani bicimden eleme yolu yine kapali. Degisen sey, artik her baslangic icin ayni cerceveye oturan en az bir rakip sonun bulunmasi: secim yalniz pasajdaki ayrintiyla yapilabiliyor.",
-          "explanation": "Paragraph B says the transparent panel of identical size was used as a control, so that curiosity about a novel object could be separated from a specific response to a reflection.",
+          "grammar_check": "Oturan iki rakip son tek tek: (1) E — 'the dampest room in the trial was still drier than the air outside the building that day': dogru cevapla ayni isi goren bir 'nem hicbir zaman yuksege cikmadi' ifadesi, 'because' sonrasinda dilbilgisi olarak kusursuz ve anlamca en az A kadar cazip; metin dis havanin nemi hakkinda hicbir sey soylemiyor. (2) B — 'a room of that standard brings in fresh air quickly enough to undo whatever the leaves take up': surekli tazelenen bir odada nemin birikmeyecegi okumasini veriyor, tam bir yan cumle; metinde gecen bir cumledir ama orada nemin degil karbondioksitin akibetini acikliyor. Ayrica D ('the air in the rooms would otherwise have been swapped so often...') de ayni cerceveye oturuyor. Dordu de 'nem neden sorun degil' sorusuna cevap veriyor; ayrim yalniz C paragrafinin son cumlesindeki yetmis puanlik mantar esiginden yapilabiliyor.",
+          "explanation": "Paragraph C says that although damp air carries its own risks, the readings never passed 70 per cent, the level at which mould becomes a concern; the highest figure recorded was 49.2 per cent.",
           "difficulty": "medium",
-          "status": "flagged",
-          "blind_solvable": true,
-          "blind_basis": "logic",
-          "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: logic. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md",
-          "flag_mechanism": "konumsal_duzen",
-          "revision": {
-            "tarih": "2026-08-08",
-            "mekanizma": "konumsal_duzen",
-            "onceki_prompt": "On some days a clear panel of the same size was lowered into the pool instead of the mirror because",
-            "ne_degisti": "Sonlar listesi yeniden yazildi. Eskiden her baslangica yalniz tek bir son konu olarak uyuyordu; artik 1. baslangicin karsisinda iki kontrol-kosulu gerekcesi var (A: yeni nesneye merak, H: elle dokunmaya tepki). A'nin metni de kanit cumlesinin sozcuklerinden uzaklastirildi ('novel object' -> 'an object never seen before')."
-          }
+          "status": "verified",
+          "blind_solvable": false,
+          "blind_basis": null
         },
         {
           "number": 2,
-          "prompt": "The full cluster of unusual actions had appeared in the very first mirror session for Natasha and Maris, which showed that",
-          "answer": [
-            "E"
-          ],
-          "evidence": "These actions, described by the researchers as self-directed rather than social, appeared within the very first mirror session for two of the four animals, Natasha and Maris, after little more than two hours of exposure.",
-          "evidence_locator": {
-            "paragraph": "C",
-            "sentence": 3
-          },
-          "heading_check": null,
-          "feature_check": null,
-          "grammar_check": "Rakip sonlar F ve G: F ayni pasajdan gelen toplam sure (yaklasik yirmi yedi saat), G ise sureden cikarilabilecek ama metnin desteklemedigi bir sonuc. Ucu de sure/ilgi ekseninde oldugu icin cozucu 'toplam sure' ile 'ortaya cikma suresi' arasindaki farki pasajdan okumak zorunda. Sekiz sonun sekizi de ozne ve cekimli fiil tasiyan tam bir yan cumle; baslangictaki baglactan sonra hepsi dilbilgisi olarak isliyor, yani bicimden eleme yolu yine kapali. Degisen sey, artik her baslangic icin ayni cerceveye oturan en az bir rakip sonun bulunmasi: secim yalniz pasajdaki ayrintiyla yapilabiliyor.",
-          "explanation": "Paragraph C says these actions appeared within the very first mirror session for two of the four animals, after little more than two hours of exposure.",
-          "difficulty": "medium",
-          "status": "flagged",
-          "blind_solvable": true,
-          "blind_basis": "logic",
-          "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: logic. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md",
-          "flag_mechanism": "konumsal_duzen",
-          "revision": {
-            "tarih": "2026-08-08",
-            "mekanizma": "konumsal_duzen",
-            "onceki_prompt": "The behaviours seen at the glass were counted as self-directed because",
-            "ne_degisti": "Baslangic da son da tumden degisti. Eski ifade ('self-directed olarak sayildi cunku ... kendi bedenine yonelikti') terimin tanimini sonun icine koyuyordu; sizinti dogrudan sozluk esitligiydi. Yeni soru ayni kanit cumlesinin oteki yarisini, davranislarin ne kadar cabuk ortaya ciktigini hedefliyor ve karsisinda iki sure rakibi var."
-          }
-        },
-        {
-          "number": 3,
-          "prompt": "The cosmetic mark was placed just behind an eye or an ear because",
-          "answer": [
-            "B"
-          ],
-          "evidence": "A harmless cosmetic mark, five to eight centimetres across, was applied to a part of the body the whale could not see without a mirror, most often just behind an eye or an ear.",
-          "evidence_locator": {
-            "paragraph": "D",
-            "sentence": 2
-          },
-          "heading_check": null,
-          "feature_check": null,
-          "grammar_check": "Rakip son H: isaretle ilgili oteki gerekce, yani dokunmaya verilen tepkiyi goruntuye verilen tepkiden ayirma. Isaretin nereye konuldugu sorusuna da makul duruyor, cunku sahte islem de ayni bolgeye uygulaniyor; ayrim yalniz D paragrafindan cikiyor. Sekiz sonun sekizi de ozne ve cekimli fiil tasiyan tam bir yan cumle; baslangictaki baglactan sonra hepsi dilbilgisi olarak isliyor, yani bicimden eleme yolu yine kapali. Degisen sey, artik her baslangic icin ayni cerceveye oturan en az bir rakip sonun bulunmasi: secim yalniz pasajdaki ayrintiyla yapilabiliyor.",
-          "explanation": "Paragraph D says the mark was applied to a part of the body the whale could not see without a mirror, most often just behind an eye or an ear.",
-          "difficulty": "easy",
-          "status": "flagged",
-          "blind_solvable": true,
-          "blind_basis": "logic",
-          "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: logic. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md",
-          "flag_mechanism": "konumsal_duzen",
-          "revision": {
-            "tarih": "2026-08-08",
-            "mekanizma": "konumsal_duzen",
-            "onceki_prompt": "The cosmetic mark was applied just behind an eye or an ear because",
-            "ne_degisti": "Sonun metni 'that patch of skin' anahtar sozcugunden kurtarilmadi ama artik yalniz basina degil: isaret cercevesinde ikinci bir son (H) var. Eskiden sekiz son icinde isaretin konumundan soz eden tek secenek B idi."
-          }
-        },
-        {
-          "number": 4,
-          "prompt": "Natasha kept the marked patch of skin turned towards the mirror far longer than she did when the mark was invisible, which suggested that",
+          "passage_id": "G07",
+          "prompt": "One of the things the three rooms had in common was chosen with a particular worry in mind, because",
           "answer": [
             "C"
           ],
-          "evidence": "When she carried an invisible sham mark instead, the equivalent behaviour lasted only twenty-three seconds across four approaches, a difference the researchers regarded as strong evidence that she was inspecting the mark itself rather than merely enjoying the mirror.",
+          "evidence": "The rooms were chosen because they resembled one another closely: each had a ceiling 3.0 metres high, a window area of 4.3 square metres and the same northern outlook, so that daylight could not be blamed for whatever the plants appeared to do.",
           "evidence_locator": {
-            "paragraph": "E",
-            "sentence": 3
-          },
-          "heading_check": null,
-          "feature_check": null,
-          "grammar_check": "Rakip son G, pasajin acikca reddettigi karsit yorum: 'merely enjoying the mirror'. Iki son da sure farkindan cikarilabilecek bir sonuc oneriyor, dolayisiyla secim sahte isaret mantigini okumayi gerektiriyor; eskiden sure ekseninde tek son C idi ve dilbilgisi olarak uyan H anlamca tumden alakasizdi. Sekiz sonun sekizi de ozne ve cekimli fiil tasiyan tam bir yan cumle; baslangictaki baglactan sonra hepsi dilbilgisi olarak isliyor, yani bicimden eleme yolu yine kapali. Degisen sey, artik her baslangic icin ayni cerceveye oturan en az bir rakip sonun bulunmasi: secim yalniz pasajdaki ayrintiyla yapilabiliyor.",
-          "explanation": "Paragraph E treats the difference in duration between the real mark and the sham mark as evidence that she was inspecting the mark itself rather than simply enjoying the mirror.",
-          "difficulty": "hard",
-          "status": "flagged",
-          "blind_solvable": true,
-          "blind_basis": "logic",
-          "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: logic. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md",
-          "flag_mechanism": "konumsal_duzen",
-          "revision": {
-            "tarih": "2026-08-08",
-            "mekanizma": "konumsal_duzen",
-            "onceki_prompt": "Natasha showed a genuine mark to the mirror far longer than she showed an invisible one, which suggested that",
-            "ne_degisti": "Baslangica sahte isaret karsilastirmasi acikca yazildi ve sonlar listesine kanit cumlesinin kendisinin curuttugu rakip yorum (G) eklendi. C'nin metni de kanittan uzaklastirildi ('examining the mark itself and not merely the glass' -> 'attending to the mark rather than to the reflection as such')."
-          }
-        },
-        {
-          "number": 5,
-          "prompt": "Maris never turned towards her own mark, and yet the team declined to treat this as a failure, taking it instead as a reminder that",
-          "answer": [
-            "D"
-          ],
-          "evidence": "The researchers were careful not to treat this as a failure so much as a reminder that, even among species that can pass the test, individual animals vary enormously in how, and how quickly, they respond, a pattern also documented in chimpanzees and dolphins.",
-          "evidence_locator": {
-            "paragraph": "F",
+            "paragraph": "B",
             "sentence": 2
           },
           "heading_check": null,
           "feature_check": null,
-          "grammar_check": "Rakip son F: hayvanlarin aynanin onunde gecirdigi toplam sure, Maris'in sonucunu hafifletici bir gerekce olarak okunabilir ('yeterince firsati olmustu' degil, 'yeterince firsati vardi'). Metnin verdigi gerekce ise bireysel degiskenlik; ayrim F/2'deki 'so much as' kurulusundan okunuyor. Sekiz sonun sekizi de ozne ve cekimli fiil tasiyan tam bir yan cumle; baslangictaki baglactan sonra hepsi dilbilgisi olarak isliyor, yani bicimden eleme yolu yine kapali. Degisen sey, artik her baslangic icin ayni cerceveye oturan en az bir rakip sonun bulunmasi: secim yalniz pasajdaki ayrintiyla yapilabiliyor.",
-          "explanation": "Paragraph F says the researchers treated this not as a failure but as a reminder that, even among species that can pass the test, individual animals vary greatly in how they respond.",
-          "difficulty": "medium",
-          "status": "flagged",
-          "blind_solvable": true,
-          "blind_basis": "logic",
-          "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: logic. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md",
-          "flag_mechanism": "konumsal_duzen",
-          "revision": {
-            "tarih": "2026-08-08",
-            "mekanizma": "konumsal_duzen",
-            "onceki_prompt": "The team refused to treat Maris's response as a failure because",
-            "ne_degisti": "Baslangica Maris'in ne yapmadigi eklendi, boylece soru 'basarisizlik sayilmama' gerekcesini tek basina cagristiran bir kalip olmaktan cikti; sonlar listesine ayni cerceveye oturan bir rakip (F) kondu."
-          }
-        }
-      ],
-      "revision": {
-        "tarih": "2026-08-08",
-        "mekanizma": "konumsal_duzen",
-        "onceki_sonlar": {
-          "A": "the whales might otherwise have been reacting simply to an unfamiliar object",
-          "B": "the animals had no way of seeing that patch of skin unaided",
-          "C": "the whale had been examining the mark itself and not merely the glass",
-          "D": "even animals of a capable species did not all behave in the same way",
-          "E": "they were aimed at the whale's own body rather than at another animal",
-          "F": "the two attentive whales both preferred to use the same eye at the glass",
-          "G": "the animals passed more hours before the mirror than before the plain panel",
-          "H": "the same ability had arisen separately in quite unrelated groups of animals"
+          "grammar_check": "Oturan iki rakip son tek tek: (1) D — 'the air in the rooms would otherwise have been swapped so often that any change the plants made would have been buried': bir karistirici degiskeni disarida birakma gerekcesi olarak koke birebir oturuyor, tam bir yan cumle ve C ile ayni 'otherwise' kalibinda. (2) B — 'a room of that standard brings in fresh air quickly enough to undo whatever the leaves take up': odalarin ortak ozelliginin neden onemsendigini aciklayan ikinci bir gerekce olarak dilbilgisi ve anlam bakimindan sorunsuz. Kok hangi ortak ozellikten soz ettigini soylemedigi icin isiga giden bir sozcuk koprusu yok; secim yalniz B paragrafinin ikinci cumlesindeki 'so that daylight could not be blamed' ifadesinden yapilabiliyor.",
+          "explanation": "Paragraph B says the rooms were matched for ceiling height, window area and outlook so that daylight could not be blamed for whatever the plants appeared to do.",
+          "difficulty": "hard",
+          "status": "verified",
+          "blind_solvable": false,
+          "blind_basis": null
         },
-        "ne_degisti": "Sekiz sonun metni yeniden yazildi. Harfler ve harf-cevap eslesmesi korundu; degisen sey, her baslangica artik ayni cerceveden en az bir rakip sonun eslik etmesi."
-      }
+        {
+          "number": 3,
+          "passage_id": "G07",
+          "prompt": "One piece of the building's equipment stayed switched off from the first reading to the last, because",
+          "answer": [
+            "D"
+          ],
+          "evidence": "The air conditioning was switched off throughout, because a running system shifts so much air that it would have buried any effect the plants had.",
+          "evidence_locator": {
+            "paragraph": "B",
+            "sentence": 4
+          },
+          "heading_check": null,
+          "feature_check": null,
+          "grammar_check": "Oturan iki rakip son tek tek: (1) C — 'otherwise the light falling into one of them could have been blamed for anything the plants appeared to do': kok hangi cihazdan soz ettigini soylemedigi icin aydinlatma da okunabiliyor, dolayisiyla bu gerekce hem dilbilgisi hem anlam olarak tam oturuyor. (2) B — 'a room of that standard brings in fresh air quickly enough to undo whatever the leaves take up': bir seyi kapatmanin gerekcesi olarak makul duruyor ve metinde gercekten yazan bir cumle, ama orada klimayla degil karbondioksit sonucuyla ilgili. Kok cihazin adini vermedigi icin isik/havalandirma ikilemi ancak metinden cozuluyor: secim yalniz B paragrafinin dorduncu cumlesini okumaktan cikiyor.",
+          "explanation": "Paragraph B says the air conditioning was switched off throughout, because a running system shifts so much air that it would have buried any effect the plants had.",
+          "difficulty": "medium",
+          "status": "verified",
+          "blind_solvable": false,
+          "blind_basis": null
+        },
+        {
+          "number": 4,
+          "passage_id": "G07",
+          "prompt": "After five minutes in each of the three rooms the workers sat a set of attention tests, and the results showed that",
+          "answer": [
+            "F"
+          ],
+          "evidence": "Performance was untouched, since accuracy and reaction times were the same in all three rooms.",
+          "evidence_locator": {
+            "paragraph": "I",
+            "sentence": 4
+          },
+          "heading_check": null,
+          "feature_check": null,
+          "grammar_check": "Oturan iki rakip son tek tek: (1) G — 'it left the workers less unhappy than the bare room did without leaving them any more cheerful': 'the results showed that' sonrasinda dilbilgisi olarak isliyor ve ayni calismanin gercek bir bulgusu oldugu icin anlamca da tam oturuyor; yanlis olmasinin tek nedeni kokun testlerin sonucunu sormasi. (2) H — 'the tropical arrangement did more for the workers' mood than the Japanese one did': ayni cerceveden bir bulgu ifadesi, sezgisel olarak da cazip (gur bitkili oda daha iyi hissettirir beklentisi), ama metin bunun tersini soyluyor. Kok hangi olcumun sonucunu istedigini soylemiyor, bu yuzden uc bulgu da aday; ayrim yalniz I paragrafinin ucuncu ve dorduncu cumlelerini karsilastirmaktan cikiyor.",
+          "explanation": "Paragraph I says performance was untouched, since accuracy and reaction times were the same in all three rooms.",
+          "difficulty": "medium",
+          "status": "verified",
+          "blind_solvable": false,
+          "blind_basis": null
+        },
+        {
+          "number": 5,
+          "passage_id": "G07",
+          "prompt": "Even the better of the two planted rooms fell short of what might have been hoped, because",
+          "answer": [
+            "G"
+          ],
+          "evidence": "The planted rooms did something to mood: the Japanese arrangement produced less negative feeling than the bare room, and less than the tropical arrangement, although neither lifted positive feeling.",
+          "evidence_locator": {
+            "paragraph": "I",
+            "sentence": 3
+          },
+          "heading_check": null,
+          "feature_check": null,
+          "grammar_check": "Oturan iki rakip son tek tek: (1) F — 'the workers marked them just as accurately, and just as fast, as they had in a bare room': 'fell short ... because' cercevesine kusursuz oturan bir eksiklik gerekcesi ve metinde dogru bir cumle; yanlis olmasinin nedeni kokun iki bitkili odadan iyisini, yani ruh haliyle ilgili sinirlamayi sormasi. (2) H — 'the tropical arrangement did more for the workers' mood than the Japanese one did': ayni karsilastirma cercevesinde, dilbilgisi olarak sorunsuz ve sezgisel olarak inandirici; metin bunun tersini soyluyor. Cozucu bu yuzden 'hangi eksiklik' sorusunu ancak I paragrafinin ucuncu cumlesindeki 'although neither lifted positive feeling' kaydiyla yanitlayabiliyor.",
+          "explanation": "Paragraph I says the Japanese arrangement produced less negative feeling than the bare room and less than the tropical arrangement, although neither arrangement lifted positive feeling.",
+          "difficulty": "hard",
+          "status": "verified",
+          "blind_solvable": false,
+          "blind_basis": null
+        }
+      ]
     },
     {
       "group_id": "P-MSE-02",
-      "passage_id": "G06",
-      "instructions": "Questions 6-10 refer to Passage G06 - Why Volunteers Tend to Report Better Health\n\nComplete each sentence with the correct ending, A-H.\nWrite the correct letter, A-H, in boxes 6-10 on your answer sheet.",
+      "passage_id": "G07",
+      "instructions": "Questions 6-10 refer to Passage G07 - What Houseplants Really Do to the Air Indoors\n\nComplete each sentence with the correct ending, A-H.\nWrite the correct letter, A-H, in boxes 6-10 on your answer sheet.",
       "option_list": {
         "label": "List of Endings",
         "numbering": "letter",
         "options": [
           {
             "key": "A",
-            "text": "it can widen a person's contacts and show future employers that they are reliable"
+            "text": "it took out 33.12 per cent of the coarsest material sent through the box"
           },
           {
             "key": "B",
-            "text": "some of the respondents had not given full details of what they earned"
+            "text": "it led the field on the finest particles, removing 39.86 per cent of them"
           },
           {
             "key": "C",
-            "text": "it was about the same size as the gap between two people five years apart in age"
+            "text": "the rougher leaf was holding 5.286 micrograms of sulphate on every square centimetre, against 1.714 on the smoother one"
           },
           {
             "key": "D",
-            "text": "in Germany, the Netherlands and Norway more than four in ten took part regularly"
+            "text": "it gathered between one and a half and two times as much as the smoothest-leaved of the five"
           },
           {
             "key": "E",
-            "text": "unpaid work often has people on their feet rather than sitting still"
+            "text": "at eight in the morning the box holding a plant read higher than the box holding none"
           },
           {
             "key": "F",
-            "text": "volunteering goes together with being better educated and better off to begin with"
+            "text": "a bushy plant slows the air moving through a small space, so that particles linger instead of passing through"
           },
           {
             "key": "G",
-            "text": "the same result held up in every version of the analysis they ran"
+            "text": "what a leaf catches in a sealed box is a poor guide to a home with people living in it"
           },
           {
             "key": "H",
-            "text": "helping others may act on the hormones the body uses to handle stress"
+            "text": "the leaves were giving back some of the dust they had taken up earlier in the day"
           }
         ]
       },
@@ -260,160 +210,110 @@
       "items": [
         {
           "number": 6,
-          "prompt": "Not everyone the survey reached ended up in the final sample of 42,926, because",
-          "answer": [
-            "B"
-          ],
-          "evidence": "After excluding respondents with incomplete income information, the analysis covered 42,926 individuals.",
-          "evidence_locator": {
-            "paragraph": "B",
-            "sentence": 2
-          },
-          "heading_check": null,
-          "feature_check": null,
-          "grammar_check": "Bu baslangicin cerceveye tam oturan tek rakibi yok; sekiz son icinde orneklemden cikarilmayi anlatan tek son B. Sayi baslangica tasindigi icin en azindan 'eksik veri' kalibi tek basina yetmiyor, ama bu soru bu calistirmada kismi duzeltilmis sayilir. Sekiz sonun sekizi de ozne ve cekimli fiil tasiyan tam bir yan cumle; baslangictaki baglactan sonra hepsi dilbilgisi olarak isliyor, yani bicimden eleme yolu yine kapali. Degisen sey, artik her baslangic icin ayni cerceveye oturan en az bir rakip sonun bulunmasi: secim yalniz pasajdaki ayrintiyla yapilabiliyor.",
-          "explanation": "Paragraph B says that after respondents with incomplete income information had been excluded, the analysis covered 42,926 individuals.",
-          "difficulty": "easy",
-          "status": "flagged",
-          "blind_solvable": true,
-          "blind_basis": "option_wording",
-          "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: option_wording. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md",
-          "flag_mechanism": "konumsal_duzen",
-          "revision": {
-            "tarih": "2026-08-08",
-            "mekanizma": "konumsal_duzen",
-            "onceki_prompt": "Some of the people surveyed had to be left out of the analysis because",
-            "ne_degisti": "Baslangica orneklemin son buyuklugu (42.926) tasindi ve sonun metni sadelestirildi. Kismi duzeltme: sekiz son arasinda dislanmayi anlatan hala tek son var, bu yuzden eleme yolu tamamen kapanmadi (E7 notu)."
-          }
-        },
-        {
-          "number": 7,
-          "prompt": "The health gap was small on any single measure, but the authors were able to show that",
-          "answer": [
-            "C"
-          ],
-          "evidence": "The size of this gap was similar to the difference in reported health between men and women, or between people five years apart in age, small on any single measure but consistent and unlikely to be due to chance.",
-          "evidence_locator": {
-            "paragraph": "C",
-            "sentence": 2
-          },
-          "heading_check": null,
-          "feature_check": null,
-          "grammar_check": "Rakip son G: 'her cozumleme surumunde ayni sonuc cikti' de yazarlarin gosterebildigi bir sey ve baslangica kusursuz oturuyor. Ikisi arasindaki fark buyukluk ile tutarlilik; secim C/2 ile G paragrafini ayirt etmeyi gerektiriyor. Sekiz sonun sekizi de ozne ve cekimli fiil tasiyan tam bir yan cumle; baslangictaki baglactan sonra hepsi dilbilgisi olarak isliyor, yani bicimden eleme yolu yine kapali. Degisen sey, artik her baslangic icin ayni cerceveye oturan en az bir rakip sonun bulunmasi: secim yalniz pasajdaki ayrintiyla yapilabiliyor.",
-          "explanation": "Paragraph C says the size of the gap was similar to the difference in reported health between men and women, or between people five years apart in age.",
-          "difficulty": "medium",
-          "status": "verified",
-          "blind_solvable": false,
-          "blind_basis": null,
-          "flag_reason": "Son C, farki somutlastirma mantigiyla tek tutarli secenek: yazarlar farki bir buyuklukle kiyasliyor, G ise tutarliliktan soz ediyor buyukluktan degil -- bu ayrim C'yi elemeden birakiyor.",
-          "flag_mechanism": "konumsal_duzen",
-          "revision": {
-            "tarih": "2026-08-08",
-            "mekanizma": "konumsal_duzen",
-            "onceki_prompt": "The size of the health difference becomes easier to picture once the authors point out that",
-            "ne_degisti": "Baslangictaki 'somutlastirma' cagrisimi ('daha kolay canlandirilabiliyor') kaldirildi; artik yalnizca 'gosterebildiler' deniyor, dolayisiyla buyukluk sonu ile tutarlilik sonu ayni derecede cazip."
-          }
-        },
-        {
-          "number": 8,
-          "prompt": "Regular unpaid work was rare in Bulgaria, Hungary and Lithuania, whereas",
-          "answer": [
-            "D"
-          ],
-          "evidence": "More than four in ten respondents in Germany, the Netherlands and Norway said they volunteered regularly, compared with fewer than one in ten in Bulgaria, Hungary and Lithuania.",
-          "evidence_locator": {
-            "paragraph": "D",
-            "sentence": 2
-          },
-          "heading_check": null,
-          "feature_check": null,
-          "grammar_check": "Rakip son F: gonullulerle gonullu olmayanlar arasindaki bir baska karsitlik (egitim ve gelir), ayni 'whereas' kalibina oturuyor ve ayni paragrafin son cumlesinden geliyor. Ulke ekseninin dogru olani D, ama artik karsitlik yapisi tek basina D'yi isaret etmiyor. Sekiz sonun sekizi de ozne ve cekimli fiil tasiyan tam bir yan cumle; baslangictaki baglactan sonra hepsi dilbilgisi olarak isliyor, yani bicimden eleme yolu yine kapali. Degisen sey, artik her baslangic icin ayni cerceveye oturan en az bir rakip sonun bulunmasi: secim yalniz pasajdaki ayrintiyla yapilabiliyor.",
-          "explanation": "Paragraph D says that more than four in ten respondents in Germany, the Netherlands and Norway volunteered regularly, compared with fewer than one in ten in the three countries named.",
-          "difficulty": "medium",
-          "status": "flagged",
-          "blind_solvable": true,
-          "blind_basis": "logic",
-          "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: logic. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md",
-          "flag_mechanism": "konumsal_duzen",
-          "revision": {
-            "tarih": "2026-08-08",
-            "mekanizma": "konumsal_duzen",
-            "onceki_prompt": "Regular unpaid work was rare in Bulgaria, Hungary and Lithuania, whereas",
-            "ne_degisti": "Baslangic korundu, son listesine ayni karsitlik kalibina oturan ikinci bir aday (F) eklendi ve D'nin metnindeki ulke listesi pasajin verdigi ucluye tamamlandi."
-          }
-        },
-        {
-          "number": 9,
-          "prompt": "Giving time freely might raise what a household earns, because",
+          "passage_id": "G07",
+          "prompt": "In the runs with a prepared mist, the Chinese honey locust stood out in one respect:",
           "answer": [
             "A"
           ],
-          "evidence": "One plausible explanation is that volunteering pays off financially: it can widen a person's professional network, build skills and demonstrate reliability to future employers, all of which might raise household income, and higher income is itself strongly linked to better self-rated health.",
+          "evidence": "The Chinese honey locust, with thicker and waxier leaves, did its best work on the largest particles, removing 33.12 per cent of the coarse fraction.",
           "evidence_locator": {
-            "paragraph": "E",
-            "sentence": 1
+            "paragraph": "F",
+            "sentence": 4
           },
           "heading_check": null,
           "feature_check": null,
-          "grammar_check": "Rakip son F, ters nedensellik: gonullulerin zaten daha egitimli ve daha varlikli olmasi. Bu, geliri aciklayabilecek ikinci bir yol olarak baslangica kusursuz oturuyor ve pasajda gercekten yaziyor; yanlis olmasinin nedeni yazarlarin kurdugu zincirin bu olmamasi. Sekiz sonun sekizi de ozne ve cekimli fiil tasiyan tam bir yan cumle; baslangictaki baglactan sonra hepsi dilbilgisi olarak isliyor, yani bicimden eleme yolu yine kapali. Degisen sey, artik her baslangic icin ayni cerceveye oturan en az bir rakip sonun bulunmasi: secim yalniz pasajdaki ayrintiyla yapilabiliyor.",
-          "explanation": "Paragraph E says volunteering can widen a person's professional network, build skills and demonstrate reliability to future employers, all of which might raise household income.",
+          "grammar_check": "Oturan iki rakip son tek tek: (1) B — 'it led the field on the finest particles, removing 39.86 per cent of them': ayni cerceveden (bir turun one ciktigi olcum) tam bir cumle, iki noktadan sonra dilbilgisi olarak sorunsuz; metinde baska bir ture ait. (2) D — 'it gathered between one and a half and two times as much as the smoothest-leaved of the five': yine 'bir turun ustunlugu' ifadesi, koke birebir oturuyor; metinde bu deger pagoda agacinin. Kok tur adini veriyor ama hangi olcumde one ciktigini soylemiyor, ve sonlarin hicbiri tur adi tasimiyor; dolayisiyla eslestirme yalniz F paragrafindaki sayilardan yapilabiliyor. Cift dogru kontrolu: E kokun disinda birakildi (E disari havasiyla yapilan kosuya ait, kok ise hazirlanmis sisli kosuyu adlandiriyor), boylece bal keciboynuzuna ait ikinci bir dogru son olusmuyor.",
+          "explanation": "Paragraph F says the Chinese honey locust did its best work on the largest particles, removing 33.12 per cent of the coarse fraction.",
           "difficulty": "medium",
-          "status": "flagged",
-          "blind_solvable": true,
-          "blind_basis": "logic",
-          "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: logic. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md",
-          "flag_mechanism": "konumsal_duzen",
-          "revision": {
-            "tarih": "2026-08-08",
-            "mekanizma": "konumsal_duzen",
-            "onceki_prompt": "Giving time freely might lift a household's earnings because",
-            "ne_degisti": "Sonlar listesine ters nedensellik rakibi (F) eklendi. Eskiden sekiz son icinde gelirle iliskilendirilebilecek tek son A idi, yani soru 'hangi son ekonomiden soz ediyor' sorusuna iniyordu."
-          }
+          "status": "verified",
+          "blind_solvable": false,
+          "blind_basis": null
         },
         {
-          "number": 10,
-          "prompt": "Of the three possible explanations the authors offer, the middle one is that",
+          "number": 7,
+          "passage_id": "G07",
+          "prompt": "The purple-leaf peach carries grooves on its leaves but hardly any hairs, and yet",
           "answer": [
-            "E"
+            "B"
           ],
-          "evidence": "Volunteering may build a sense of purpose and social connection, both repeatedly linked to wellbeing in other research; it often involves physical activity, from standing at a community event to walking a delivery route; and some physiologists have proposed that helping others may even influence the body's stress-regulating hormones.",
+          "evidence": "The purple-leaf peach has grooves but few hairs, yet it led on the smallest particles, taking out 39.86 per cent.",
           "evidence_locator": {
-            "paragraph": "H",
+            "paragraph": "F",
+            "sentence": 5
+          },
+          "heading_check": null,
+          "feature_check": null,
+          "grammar_check": "Oturan iki rakip son tek tek: (1) A — 'it took out 33.12 per cent of the coarsest material sent through the box': 'and yet' baglacindan sonra beklenmedik bir basari ifadesi olarak dilbilgisi ve anlam bakimindan kusursuz; metinde bal keciboynuzuna ait. (2) D — 'it gathered between one and a half and two times as much as the smoothest-leaved of the five': ayni sasirtici-ustunluk cercevesine oturuyor; metinde pagoda agacina ait. C de bicimsel olarak isliyor. Hicbir son tur adi tasimadigi ve sayilar disaridan bilinemeyecegi icin secim yalniz F paragrafinin son cumlesinden yapilabiliyor.",
+          "explanation": "Paragraph F says the purple-leaf peach has grooves but few hairs, yet it led on the smallest particles, taking out 39.86 per cent.",
+          "difficulty": "hard",
+          "status": "verified",
+          "blind_solvable": false,
+          "blind_basis": null
+        },
+        {
+          "number": 8,
+          "passage_id": "G07",
+          "prompt": "The leaves were rinsed and shaken before the two extremes were weighed against each other, and it emerged that",
+          "answer": [
+            "C"
+          ],
+          "evidence": "A pagoda tree leaf was carrying 5.286 micrograms of sulphate for every square centimetre; the same area of kerria leaf held 1.714 micrograms.",
+          "evidence_locator": {
+            "paragraph": "G",
             "sentence": 2
           },
           "heading_check": null,
           "feature_check": null,
-          "grammar_check": "Rakip son H, ayni cumlenin ucuncu adayi (stres hormonlari). Iki son da 'olasi aciklama' cercevesinde ve ikisi de pasajda geciyor; ayrim yalniz siradan, yani H/2'yi gercekten okumaktan cikiyor. Eskiden saglikla iliskilendirilebilecek tek son E idi. Sekiz sonun sekizi de ozne ve cekimli fiil tasiyan tam bir yan cumle; baslangictaki baglactan sonra hepsi dilbilgisi olarak isliyor, yani bicimden eleme yolu yine kapali. Degisen sey, artik her baslangic icin ayni cerceveye oturan en az bir rakip sonun bulunmasi: secim yalniz pasajdaki ayrintiyla yapilabiliyor.",
-          "explanation": "Paragraph H lists three candidate explanations in order: a sense of purpose and social connection, physical activity, and an effect on stress-regulating hormones.",
+          "grammar_check": "Oturan iki rakip son tek tek: (1) D — 'it gathered between one and a half and two times as much as the smoothest-leaved of the five': kokun 'iki uc' karsilastirmasina tam oturan bir oran ifadesi, dilbilgisi olarak sorunsuz; ama bu oran yikama isleminden degil, F paragrafindaki birikim hizi olcumunden geliyor. (2) A — 'it took out 33.12 per cent of the coarsest material sent through the box': 'it emerged that' sonrasinda isleyen, ayni deneyden gelen bir baska sayi; hangi sayinin yikanan yapraklardan cikan sayi oldugu ancak G paragrafi okunarak bilinebiliyor. B de bicimsel olarak isliyor. Uc sayi da metnin kendi olctugu degerler oldugu icin disaridan tahmin edilemiyor.",
+          "explanation": "Paragraph G says that after the leaves had been rinsed in deionised water and shaken, a pagoda tree leaf was carrying 5.286 micrograms of sulphate per square centimetre against 1.714 micrograms on the same area of kerria leaf.",
           "difficulty": "medium",
-          "status": "flagged",
-          "blind_solvable": true,
-          "blind_basis": "logic",
-          "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: logic. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md",
-          "flag_mechanism": "konumsal_duzen",
-          "revision": {
-            "tarih": "2026-08-08",
-            "mekanizma": "konumsal_duzen",
-            "onceki_prompt": "Health may also benefit from unpaid work simply because",
-            "ne_degisti": "Baslangic 'saglik neden iyilessin' sorusundan 'yazarlarin siraladigi uc aciklamadan ortadaki hangisi' sorusuna cevrildi ve listeye ucuncu aday (H) kondu; boylece hareketin sagliga iyi geldigi genel bilgisi tek basina cevabi vermiyor."
-          }
-        }
-      ],
-      "revision": {
-        "tarih": "2026-08-08",
-        "mekanizma": "konumsal_duzen",
-        "onceki_sonlar": {
-          "A": "it built useful skills and showed employers that someone was dependable",
-          "B": "they had not supplied full details of what they earned",
-          "C": "it matched the gap between two people born five years apart",
-          "D": "more than four in every ten took part regularly in Germany and Norway",
-          "E": "it often required people to be up and moving instead of sitting still",
-          "F": "volunteers were more likely to be religious than those who stayed at home",
-          "G": "the same pattern appeared in every version of the analysis they ran",
-          "H": "a trial would hand out the chance to help at random and follow people afterwards"
+          "status": "verified",
+          "blind_solvable": false,
+          "blind_basis": null
         },
-        "ne_degisti": "Sekiz sonun metni yeniden yazildi. Harfler ve harf-cevap eslesmesi korundu; degisen sey, her baslangica artik ayni cerceveden en az bir rakip sonun eslik etmesi."
-      }
+        {
+          "number": 9,
+          "passage_id": "G07",
+          "prompt": "When ordinary outdoor air was used, the boxes with plants in them sometimes read higher than the box without, and the team put this down to the fact that",
+          "answer": [
+            "F"
+          ],
+          "evidence": "The likely reason is not that the leaves gave dust back, but that a bushy plant slows the air moving through a small space, so particles linger instead of passing through.",
+          "evidence_locator": {
+            "paragraph": "H",
+            "sentence": 3
+          },
+          "heading_check": null,
+          "feature_check": null,
+          "grammar_check": "Oturan iki rakip son tek tek: (1) H — 'the leaves were giving back some of the dust they had taken up earlier in the day': 'put this down to the fact that' cercevesine kusursuz oturuyor ve sezgisel olarak en cazip aciklama; metin bu aciklamayi acikca reddediyor ('not that the leaves gave dust back'). (2) G — 'what a leaf catches in a sealed box is a poor guide to a home with people living in it': ayni sekilde tam bir yan cumle ve makul bir gerekce; metinde ise bu, son paragraftaki genel sonuc, bu kosunun aciklamasi degil. Cozucu ancak H paragrafinin son cumlesini okuyarak reddedilen aciklamayi kabul edilenden ayirabiliyor.",
+          "explanation": "Paragraph H says the likely reason is not that the leaves gave dust back, but that a bushy plant slows the air moving through a small space, so particles linger instead of passing through.",
+          "difficulty": "hard",
+          "status": "verified",
+          "blind_solvable": false,
+          "blind_basis": null
+        },
+        {
+          "number": 10,
+          "passage_id": "G07",
+          "prompt": "The word filtering is the wrong one for what a shelf of pots does at home, because",
+          "answer": [
+            "G"
+          ],
+          "evidence": "Filtering, though, is the wrong word for what a shelf of pots does, because what a leaf catches in a sealed chamber is a poor guide to an occupied home, where opening a window still shifts more of everything than the plants ever will.",
+          "evidence_locator": {
+            "paragraph": "J",
+            "sentence": 3
+          },
+          "heading_check": null,
+          "feature_check": null,
+          "grammar_check": "Oturan iki rakip son tek tek: (1) F — 'a bushy plant slows the air moving through a small space, so that particles linger instead of passing through': 'because' sonrasinda dilbilgisi olarak sorunsuz ve suzgec benzetmesini curuten cok makul bir gerekce; metinde ise H paragrafindaki tek bir kosunun aciklamasi. (2) E — 'at eight in the morning the box holding a plant read higher than the box holding none': ayni sekilde tam bir yan cumle ve 'suzmuyor' iddiasini destekleyen bir gozlem; metin bunu son paragrafin gerekcesi olarak kullanmiyor. H de bicimsel ve anlamsal olarak isliyor. Ayrim yalniz J paragrafinin son cumlesindeki gerekceden yapilabiliyor.",
+          "explanation": "Paragraph J says filtering is the wrong word because what a leaf catches in a sealed chamber is a poor guide to an occupied home, where opening a window still shifts more of everything than the plants ever will.",
+          "difficulty": "medium",
+          "status": "verified",
+          "blind_solvable": false,
+          "blind_basis": null
+        }
+      ]
     }
   ]
 }

@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0",
+  "exam": "ielts",
+  "passage_id": "A19",
+  "module": "academic",
+  "section": null,
+  "title": "Turning Salt Water into Drinking Water with Sunlight",
+  "topic": "water technology / solar distillation apparatus",
+  "word_count": 896,
+  "paragraphs": [
+    {
+      "label": "A",
+      "text": "In dry regions where the only water within reach is too salty to drink, a solar still separates fresh water from salt using nothing but sunlight. A shallow tray of saline water is sealed under a sloping sheet of glass; the sun heats the water until it evaporates, and the vapour condenses on the cooler glass and runs off as distilled water. The difficulty is that a plain still of this kind produces disappointingly little. A team at an engineering university in northern Pakistan therefore rebuilt the design piece by piece and measured what each change was worth."
+    },
+    {
+      "label": "B",
+      "text": "The still they assembled sat inside a wooden box with a base area of 1.08 square metres. Because the glass had to slope, the box was not a plain rectangle: its back wall stood 0.87 metres high while the front wall was only 0.254 metres, so that the transparent cover, a single sheet of glass 8 millimetres thick, rested at an inclination of 30 degrees. Every outer surface was lined with a 2.54-centimetre layer of thermocole, an expanded plastic insulation whose only job is to stop heat leaking out through the walls and floor before the water can use it."
+    },
+    {
+      "label": "C",
+      "text": "Inside the box lay the basin, an aluminium tray of exactly one square metre and 20.32 centimetres deep, painted black so that it would absorb as much of the incoming radiation as possible instead of reflecting it away. The novelty of this basin was its floor. Sixty-four aluminium fins, each 6.35 centimetres tall and 2 millimetres across, stood upright in rows spaced 10.16 centimetres apart. Fins add surface area, and surface area is what allows heat to pass quickly out of the hot metal and into the water resting on it."
+    },
+    {
+      "label": "D",
+      "text": "Water reached the basin from a feed tank made of galvanised iron, 0.37 square metres in area and 30.48 centimetres tall, mounted 0.91 metres above the still so that gravity alone kept the basin topped up as distillation drew the level down. The tank was filled with saline water prepared at a concentration of 35 grams of salt per litre. Two basin depths were compared throughout the study, 2 centimetres and 4 centimetres, since the depth of the layer decides how much water has to be heated before evaporation can properly begin."
+    },
+    {
+      "label": "E",
+      "text": "Two sets of mirrors gathered extra light for the basin. Inside the box, mirrors 5 millimetres thick were fixed to the side and back walls; these internal reflectors catch rays that would otherwise fall on the wooden walls and turn them back down onto the water. Outside, a separate plane mirror of 0.60 square metres, also 5 millimetres thick, was mounted on a movable steel frame standing behind the still. Because the frame could be tilted as the sun moved, this external reflector threw additional sunlight down through the glass cover for most of the day."
+    },
+    {
+      "label": "F",
+      "text": "The sequence of events inside the still is short and always the same. Sunlight passes through the glass cover, is absorbed by the black basin and its fins, and is passed on to the shallow layer of water above them. As the water warms it evaporates, and because the space above it is sealed the vapour has nowhere to go but upwards. It meets the underside of the glass, which stays cooler because the outside air carries heat away from it, and there it condenses into droplets. The slope then does the moving: droplets slide down the inner face into a channel along the lower edge, and from that channel a short outlet pipe carries the distillate into a calibrated flask."
+    },
+    {
+      "label": "G",
+      "text": "Readings were taken every hour from 08:00 to 17:00. K-type thermocouples recorded the temperature of the outside air, of the water in the basin and of the enclosed space under the glass, while the flask was emptied and measured at the end of each hour. On the best day of testing, with both sets of reflectors in use and the water only 2 centimetres deep, the basin reached 72.5 degrees Celsius while the surrounding air ranged between 41.2 and 44.7 degrees, and output peaked at 1,058.4 millilitres in the hour around noon."
+    },
+    {
+      "label": "H",
+      "text": "Over a full day that arrangement delivered 8.37 litres, against 8.06 litres for the same reflectors with a 4-centimetre layer of water. With the external mirror taken away the shallow still still managed 7.84 litres, but the deeper one fell to 6.92 litres, the poorest result of the four trials. Energy efficiency in the best case reached 60.19 per cent. The exergy efficiency, a stricter measure of how much genuinely useful work the sunlight performed, was only 21.57 per cent, a reminder that most of the captured energy ends up as low-grade heat rather than as fresh water."
+    },
+    {
+      "label": "I",
+      "text": "Cost was the last question the team put to the device. The still was built for 150 dollars and, over an assumed working life of ten years, was reckoned to cost 600 dollars in total, which works out at 0.033 dollars for every litre of drinking water it produces. The energy spent in manufacturing the parts was judged to be recovered after 0.88 years of operation, and the best case was given a sustainability index of 1.27. The authors draw a modest conclusion: a still of this kind will never supply a town, but for a household beyond the reach of a piped network the arithmetic already works."
+    }
+  ],
+  "texts": null,
+  "source": {
+    "origin": "PLOS ONE",
+    "title": "Energy, exergy, exergo-economic, enviro-economic, exergo-environmental, exergo-enviro-economic, sustainability and sensitivity (6E,2S) analysis on single slope solar still - An experimental study",
+    "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0290250",
+    "license": "CC BY 4.0",
+    "attribution": "Adapted from Khan MAZ, Wahab A, Khan K, Ahmad N, Kamran MA (2023) Energy, exergy, exergo-economic, enviro-economic, exergo-environmental, exergo-enviro-economic, sustainability and sensitivity (6E,2S) analysis on single slope solar still - An experimental study. PLoS ONE 18(8): e0290250, published under CC BY 4.0.",
+    "adapted": true
+  },
+  "notes": "Surec metni: alistirma havuzu (pool=practice), diyagram etiketleme 10 kalemin tasiyicisi. Kaynak makalenin duzenek tanimi, calisma yontemi ve sonuc bolumlerinden yeniden yazildi; denklemler, exergy analizi formulleri, atif numaralari ve sekil gondermeleri cikarildi, sehir/kurum adi genellestirildi. Duzenegin adlandirilmis parcalari sirayla: dis yansitici, ic yansiticilar, cam ortu, besleme deposu, havuz (basin), kanatciklar, siyah kaplama, yalitim tabakasi, ahsap kasa, yogusma kanali, cikis borusu, olcekli sise, isil ciftler."
+}

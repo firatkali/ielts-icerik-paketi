@@ -3,218 +3,252 @@
   "exam": "ielts",
   "set_id": "practice-diagram-labelling",
   "skill": "reading",
-  "module": "general",
+  "module": "academic",
   "test_id": null,
   "practice": true,
   "passage_id": null,
   "question_type": "diagram_labelling",
   "generated_by": "opus",
-  "instructions": "Label the diagrams below. Each diagram is based on the passage named in its title. Choose NO MORE THAN THREE WORDS AND/OR A NUMBER from the passage for each answer.",
+  "instructions": "Label the diagram below. Choose NO MORE THAN THREE WORDS AND/OR A NUMBER from the passage for each answer.",
   "word_limit": "NO MORE THAN THREE WORDS AND/OR A NUMBER",
   "word_bank": null,
-  "visual": {
-    "kind": "diagram",
-    "svg": "<svg viewBox=\"0 0 760 1070\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\"><text x=\"20\" y=\"26\" font-size=\"13\">Diagram A - Elm Court Apartments: where each kind of waste goes (Passage G01)</text><rect x=\"30\" y=\"60\" width=\"150\" height=\"130\" fill=\"#fff\" stroke=\"#000\"/><text x=\"105\" y=\"118\" text-anchor=\"middle\">Elm Court</text><text x=\"105\" y=\"134\" text-anchor=\"middle\">Apartments</text><line x1=\"180\" y1=\"78\" x2=\"252\" y2=\"78\" stroke=\"#000\"/><polygon points=\"252,74 260,78 252,82\" fill=\"#000\" stroke=\"#000\"/><line x1=\"180\" y1=\"125\" x2=\"252\" y2=\"136\" stroke=\"#000\"/><polygon points=\"251,132 260,137 250,140\" fill=\"#000\" stroke=\"#000\"/><line x1=\"180\" y1=\"170\" x2=\"252\" y2=\"194\" stroke=\"#000\"/><polygon points=\"250,190 260,195 248,198\" fill=\"#000\" stroke=\"#000\"/><rect x=\"260\" y=\"55\" width=\"470\" height=\"46\" fill=\"#fff\" stroke=\"#000\"/><text x=\"272\" y=\"74\">General waste, out by 7 a.m. every Monday</text><text x=\"272\" y=\"92\">picked up from the bin area at the back of (1) ........</text><rect x=\"260\" y=\"113\" width=\"470\" height=\"46\" fill=\"#fff\" stroke=\"#000\"/><text x=\"272\" y=\"132\">Recycling (paper, glass, plastic bottles), every second Thursday</text><text x=\"272\" y=\"150\">dates come from the colour-coded calendar posted in the (2) ........</text><rect x=\"260\" y=\"171\" width=\"470\" height=\"46\" fill=\"#fff\" stroke=\"#000\"/><text x=\"272\" y=\"190\">Furniture and other bulky items, not part of the normal rounds</text><text x=\"272\" y=\"208\">booked five working days ahead with the (3) ........</text><line x1=\"20\" y1=\"245\" x2=\"740\" y2=\"245\" stroke=\"#000\"/><text x=\"20\" y=\"286\" font-size=\"13\">Diagram B - Millbrook Cycle Hire: taking out a bicycle (Passage G02)</text><line x1=\"40\" y1=\"390\" x2=\"200\" y2=\"390\" stroke=\"#000\"/><rect x=\"55\" y=\"330\" width=\"12\" height=\"60\" fill=\"#fff\" stroke=\"#000\"/><rect x=\"100\" y=\"330\" width=\"12\" height=\"60\" fill=\"#fff\" stroke=\"#000\"/><rect x=\"145\" y=\"330\" width=\"12\" height=\"60\" fill=\"#fff\" stroke=\"#000\"/><circle cx=\"61\" cy=\"324\" r=\"6\" fill=\"#fff\" stroke=\"#000\"/><circle cx=\"106\" cy=\"324\" r=\"6\" fill=\"#fff\" stroke=\"#000\"/><circle cx=\"151\" cy=\"324\" r=\"6\" fill=\"#fff\" stroke=\"#000\"/><circle cx=\"280\" cy=\"360\" r=\"34\" fill=\"#fff\" stroke=\"#000\"/><circle cx=\"390\" cy=\"360\" r=\"34\" fill=\"#fff\" stroke=\"#000\"/><line x1=\"280\" y1=\"360\" x2=\"325\" y2=\"308\" stroke=\"#000\"/><line x1=\"325\" y1=\"308\" x2=\"335\" y2=\"360\" stroke=\"#000\"/><line x1=\"335\" y1=\"360\" x2=\"280\" y2=\"360\" stroke=\"#000\"/><line x1=\"325\" y1=\"308\" x2=\"378\" y2=\"310\" stroke=\"#000\"/><line x1=\"378\" y1=\"310\" x2=\"390\" y2=\"360\" stroke=\"#000\"/><line x1=\"335\" y1=\"360\" x2=\"390\" y2=\"360\" stroke=\"#000\"/><line x1=\"313\" y1=\"306\" x2=\"338\" y2=\"306\" stroke=\"#000\"/><line x1=\"368\" y1=\"304\" x2=\"392\" y2=\"300\" stroke=\"#000\"/><circle cx=\"330\" cy=\"268\" r=\"15\" fill=\"#fff\" stroke=\"#000\"/><path d=\"M 312 265 A 18 18 0 0 1 348 265\" fill=\"none\" stroke=\"#000\"/><line x1=\"348\" y1=\"262\" x2=\"456\" y2=\"266\" stroke=\"#000\"/><rect x=\"460\" y=\"246\" width=\"270\" height=\"46\" fill=\"#fff\" stroke=\"#000\"/><text x=\"472\" y=\"265\">(5) ........</text><text x=\"472\" y=\"283\">not supplied: riders bring their own</text><line x1=\"106\" y1=\"390\" x2=\"106\" y2=\"418\" stroke=\"#000\"/><rect x=\"40\" y=\"420\" width=\"300\" height=\"46\" fill=\"#fff\" stroke=\"#000\"/><text x=\"52\" y=\"439\">(4) ........</text><text x=\"52\" y=\"457\">twelve of these around the town</text><line x1=\"20\" y1=\"490\" x2=\"740\" y2=\"490\" stroke=\"#000\"/><text x=\"20\" y=\"530\" font-size=\"13\">Diagram C - Fernbridge Manufacturing: one working day (Passage G03)</text><rect x=\"140\" y=\"570\" width=\"320\" height=\"22\" fill=\"#fff\" stroke=\"#000\"/><text x=\"300\" y=\"585\" text-anchor=\"middle\">(6) ........</text><text x=\"470\" y=\"585\">every employee at work, 8 a.m. to 4 p.m.</text><rect x=\"60\" y=\"602\" width=\"320\" height=\"22\" fill=\"#fff\" stroke=\"#000\"/><text x=\"70\" y=\"617\">(7) ........ shift: 6 a.m. to 2 p.m.</text><rect x=\"380\" y=\"634\" width=\"320\" height=\"22\" fill=\"#fff\" stroke=\"#000\"/><text x=\"390\" y=\"649\">late shift: 2 p.m. to 10 p.m.</text><line x1=\"60\" y1=\"670\" x2=\"700\" y2=\"670\" stroke=\"#000\"/><line x1=\"60\" y1=\"665\" x2=\"60\" y2=\"675\" stroke=\"#000\"/><line x1=\"140\" y1=\"665\" x2=\"140\" y2=\"675\" stroke=\"#000\"/><line x1=\"220\" y1=\"665\" x2=\"220\" y2=\"675\" stroke=\"#000\"/><line x1=\"300\" y1=\"665\" x2=\"300\" y2=\"675\" stroke=\"#000\"/><line x1=\"380\" y1=\"665\" x2=\"380\" y2=\"675\" stroke=\"#000\"/><line x1=\"460\" y1=\"665\" x2=\"460\" y2=\"675\" stroke=\"#000\"/><line x1=\"540\" y1=\"665\" x2=\"540\" y2=\"675\" stroke=\"#000\"/><line x1=\"620\" y1=\"665\" x2=\"620\" y2=\"675\" stroke=\"#000\"/><line x1=\"700\" y1=\"665\" x2=\"700\" y2=\"675\" stroke=\"#000\"/><text x=\"60\" y=\"688\" text-anchor=\"middle\">6 a.m.</text><text x=\"140\" y=\"688\" text-anchor=\"middle\">8</text><text x=\"220\" y=\"688\" text-anchor=\"middle\">10</text><text x=\"300\" y=\"688\" text-anchor=\"middle\">12</text><text x=\"380\" y=\"688\" text-anchor=\"middle\">2 p.m.</text><text x=\"460\" y=\"688\" text-anchor=\"middle\">4</text><text x=\"540\" y=\"688\" text-anchor=\"middle\">6</text><text x=\"620\" y=\"688\" text-anchor=\"middle\">8</text><text x=\"700\" y=\"688\" text-anchor=\"middle\">10 p.m.</text><text x=\"60\" y=\"718\">Breaks inside a full shift:</text><rect x=\"60\" y=\"726\" width=\"300\" height=\"46\" fill=\"#fff\" stroke=\"#000\"/><text x=\"72\" y=\"745\">12 p.m.-1.30 p.m.: lunch, unpaid (30 min)</text><text x=\"72\" y=\"763\">plus two paid breaks of 10 minutes each</text><rect x=\"380\" y=\"726\" width=\"320\" height=\"46\" fill=\"#fff\" stroke=\"#000\"/><text x=\"392\" y=\"745\">once the shift passes eight hours:</text><text x=\"392\" y=\"763\">one further (8) ........ break</text><line x1=\"20\" y1=\"795\" x2=\"740\" y2=\"795\" stroke=\"#000\"/><text x=\"20\" y=\"835\" font-size=\"13\">Diagram D - Cedarline Financial Services: a remote working day (Passage G04)</text><rect x=\"80\" y=\"900\" width=\"110\" height=\"62\" fill=\"#fff\" stroke=\"#000\"/><polygon points=\"75,962 195,962 210,978 60,978\" fill=\"#fff\" stroke=\"#000\"/><text x=\"135\" y=\"936\" text-anchor=\"middle\">laptop</text><rect x=\"240\" y=\"944\" width=\"70\" height=\"36\" fill=\"#fff\" stroke=\"#000\"/><line x1=\"255\" y1=\"944\" x2=\"248\" y2=\"918\" stroke=\"#000\"/><line x1=\"295\" y1=\"944\" x2=\"302\" y2=\"918\" stroke=\"#000\"/><text x=\"275\" y=\"966\" text-anchor=\"middle\">router</text><rect x=\"350\" y=\"932\" width=\"28\" height=\"48\" fill=\"#fff\" stroke=\"#000\"/><rect x=\"355\" y=\"940\" width=\"18\" height=\"30\" fill=\"#fff\" stroke=\"#000\"/><text x=\"364\" y=\"926\" text-anchor=\"middle\">phone</text><rect x=\"60\" y=\"980\" width=\"340\" height=\"10\" fill=\"#fff\" stroke=\"#000\"/><line x1=\"80\" y1=\"990\" x2=\"80\" y2=\"1045\" stroke=\"#000\"/><line x1=\"380\" y1=\"990\" x2=\"380\" y2=\"1045\" stroke=\"#000\"/><line x1=\"302\" y1=\"918\" x2=\"436\" y2=\"900\" stroke=\"#000\"/><rect x=\"440\" y=\"878\" width=\"290\" height=\"46\" fill=\"#fff\" stroke=\"#000\"/><text x=\"452\" y=\"897\">(9) ........</text><text x=\"452\" y=\"915\">the slowest link the policy will accept</text><line x1=\"378\" y1=\"950\" x2=\"436\" y2=\"970\" stroke=\"#000\"/><rect x=\"440\" y=\"948\" width=\"290\" height=\"46\" fill=\"#fff\" stroke=\"#000\"/><text x=\"452\" y=\"967\">(10) ........</text><text x=\"452\" y=\"985\">how remote staff answer, 10 a.m. to 4 p.m.</text></svg>",
-    "alt": "Four separate diagrams. A: three routes for waste leaving Elm Court apartments; blanks 1, 2 and 3 ask about the block behind the bin area, the place where the recycling calendar is posted, and the office that arranges bulky-item collection. B: a bicycle hire station, a bicycle and a helmeted rider; blank 4 asks for the name of the station, blank 5 asks for the item the rider must bring themselves. C: a timeline of a working day at Fernbridge; blank 6 asks for the name of the band when everyone is at work, blank 7 asks for the name of the 6 a.m.-2 p.m. shift, blank 8 asks for the length of the extra break given on shifts longer than eight hours. D: a remote working setup (router, laptop, phone); blank 9 asks for the minimum connection speed allowed, blank 10 asks for the channel remote staff must answer on during core hours."
-  },
+  "visual": null,
   "stem_block": null,
-  "items": [
+  "groups": [
     {
-      "number": 1,
-      "passage_id": "G01",
-      "prompt": "Diagram A (Passage G01) - label 1: general waste, put out by 7 a.m. every Monday, is picked up from the bin area at the back of (1) ........",
-      "answer": [
-        "Block C"
-      ],
-      "accepted_variants": [
-        "Block C"
-      ],
-      "evidence": "General waste is collected every Monday from the bins behind Block C; please have bags out by 7 a.m.",
-      "evidence_locator": {
-        "text": "D",
-        "sentence": 1
+      "group_id": "P-DL-A19",
+      "passage_id": "A19",
+      "question_type": "diagram_labelling",
+      "instructions": "Questions 1-10 refer to Passage A19 - Turning Salt Water into Drinking Water with Sunlight\n\nLabel the diagram below.\n\nChoose NO MORE THAN THREE WORDS AND/OR A NUMBER from the passage for each answer.\nWrite your answers in boxes 1-10 on your answer sheet.",
+      "word_limit": "NO MORE THAN THREE WORDS AND/OR A NUMBER",
+      "visual": {
+        "kind": "diagram",
+        "svg": "<svg viewBox=\"0 0 760 620\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\" font-size=\"12\"><text x=\"20\" y=\"26\" font-size=\"13\">Diagram - the solar still tested in Passage A19 (cross-section, not to scale)</text><line x1=\"30\" y1=\"420\" x2=\"730\" y2=\"420\" stroke=\"#000\"/><polyline points=\"210,150 210,420 520,420 520,300\" fill=\"none\" stroke=\"#000\"/><polyline points=\"224,164 224,406 506,406 506,312\" fill=\"none\" stroke=\"#000\"/><line x1=\"210\" y1=\"210\" x2=\"224\" y2=\"198\" stroke=\"#000\"/><line x1=\"210\" y1=\"250\" x2=\"224\" y2=\"238\" stroke=\"#000\"/><line x1=\"210\" y1=\"290\" x2=\"224\" y2=\"278\" stroke=\"#000\"/><line x1=\"210\" y1=\"330\" x2=\"224\" y2=\"318\" stroke=\"#000\"/><line x1=\"210\" y1=\"370\" x2=\"224\" y2=\"358\" stroke=\"#000\"/><line x1=\"210\" y1=\"404\" x2=\"224\" y2=\"392\" stroke=\"#000\"/><line x1=\"506\" y1=\"342\" x2=\"520\" y2=\"330\" stroke=\"#000\"/><line x1=\"506\" y1=\"376\" x2=\"520\" y2=\"364\" stroke=\"#000\"/><line x1=\"506\" y1=\"410\" x2=\"520\" y2=\"398\" stroke=\"#000\"/><line x1=\"262\" y1=\"420\" x2=\"250\" y2=\"406\" stroke=\"#000\"/><line x1=\"312\" y1=\"420\" x2=\"300\" y2=\"406\" stroke=\"#000\"/><line x1=\"362\" y1=\"420\" x2=\"350\" y2=\"406\" stroke=\"#000\"/><line x1=\"412\" y1=\"420\" x2=\"400\" y2=\"406\" stroke=\"#000\"/><line x1=\"462\" y1=\"420\" x2=\"450\" y2=\"406\" stroke=\"#000\"/><line x1=\"504\" y1=\"420\" x2=\"492\" y2=\"406\" stroke=\"#000\"/><line x1=\"204\" y1=\"144\" x2=\"526\" y2=\"296\" stroke=\"#000\" stroke-width=\"3\"/><text x=\"286\" y=\"170\">glass cover</text><line x1=\"70\" y1=\"300\" x2=\"140\" y2=\"180\" stroke=\"#000\" stroke-width=\"4\"/><line x1=\"105\" y1=\"240\" x2=\"105\" y2=\"420\" stroke=\"#000\"/><line x1=\"86\" y1=\"420\" x2=\"124\" y2=\"420\" stroke=\"#000\" stroke-width=\"2\"/><text x=\"105\" y=\"166\" text-anchor=\"middle\">external reflector</text><rect x=\"600\" y=\"80\" width=\"120\" height=\"70\" fill=\"#fff\" stroke=\"#000\"/><text x=\"660\" y=\"70\" text-anchor=\"middle\">feed tank</text><polyline points=\"600,112 166,112 166,346 262,346\" fill=\"none\" stroke=\"#000\"/><polyline points=\"600,118 174,118 174,354 262,354\" fill=\"none\" stroke=\"#000\"/><polygon points=\"262,342 276,350 262,358\" fill=\"#000\" stroke=\"#000\"/><line x1=\"228\" y1=\"200\" x2=\"228\" y2=\"330\" stroke=\"#000\" stroke-width=\"4\"/><text x=\"252\" y=\"252\" font-size=\"10\">internal reflectors</text><polyline points=\"270,340 270,398 480,398 480,340\" fill=\"none\" stroke=\"#000\"/><rect x=\"270\" y=\"390\" width=\"210\" height=\"8\" fill=\"#333\" stroke=\"none\"/><rect x=\"284\" y=\"366\" width=\"4\" height=\"24\" fill=\"#fff\" stroke=\"#000\"/><rect x=\"312\" y=\"366\" width=\"4\" height=\"24\" fill=\"#fff\" stroke=\"#000\"/><rect x=\"340\" y=\"366\" width=\"4\" height=\"24\" fill=\"#fff\" stroke=\"#000\"/><rect x=\"368\" y=\"366\" width=\"4\" height=\"24\" fill=\"#fff\" stroke=\"#000\"/><rect x=\"396\" y=\"366\" width=\"4\" height=\"24\" fill=\"#fff\" stroke=\"#000\"/><rect x=\"424\" y=\"366\" width=\"4\" height=\"24\" fill=\"#fff\" stroke=\"#000\"/><rect x=\"452\" y=\"366\" width=\"4\" height=\"24\" fill=\"#fff\" stroke=\"#000\"/><line x1=\"272\" y1=\"378\" x2=\"478\" y2=\"378\" stroke=\"#000\" stroke-dasharray=\"4 3\"/><text x=\"430\" y=\"356\">basin</text><text x=\"350\" y=\"332\">fins</text><line x1=\"352\" y1=\"336\" x2=\"342\" y2=\"364\" stroke=\"#000\"/><line x1=\"470\" y1=\"340\" x2=\"470\" y2=\"398\" stroke=\"#000\"/><polygon points=\"466,344 474,344 470,338\" fill=\"#000\" stroke=\"#000\"/><polygon points=\"466,394 474,394 470,400\" fill=\"#000\" stroke=\"#000\"/><line x1=\"286\" y1=\"356\" x2=\"314\" y2=\"356\" stroke=\"#000\"/><line x1=\"286\" y1=\"351\" x2=\"286\" y2=\"361\" stroke=\"#000\"/><line x1=\"314\" y1=\"351\" x2=\"314\" y2=\"361\" stroke=\"#000\"/><polyline points=\"506,300 506,314 530,314 530,296\" fill=\"none\" stroke=\"#000\"/><text x=\"300\" y=\"286\">condensation channel</text><line x1=\"424\" y1=\"282\" x2=\"502\" y2=\"302\" stroke=\"#000\"/><line x1=\"530\" y1=\"308\" x2=\"628\" y2=\"348\" stroke=\"#000\" stroke-width=\"2\"/><text x=\"534\" y=\"356\">outlet pipe</text><rect x=\"622\" y=\"344\" width=\"14\" height=\"22\" fill=\"#fff\" stroke=\"#000\"/><polygon points=\"616,366 642,366 662,418 596,418\" fill=\"#fff\" stroke=\"#000\"/><text x=\"560\" y=\"244\" text-anchor=\"middle\" font-size=\"13\">x</text><text x=\"400\" y=\"310\" text-anchor=\"middle\" font-size=\"13\">x</text><text x=\"432\" y=\"386\" text-anchor=\"middle\" font-size=\"13\">x</text><line x1=\"210\" y1=\"444\" x2=\"344\" y2=\"444\" stroke=\"#000\"/><line x1=\"386\" y1=\"444\" x2=\"520\" y2=\"444\" stroke=\"#000\"/><line x1=\"210\" y1=\"438\" x2=\"210\" y2=\"450\" stroke=\"#000\"/><line x1=\"520\" y1=\"438\" x2=\"520\" y2=\"450\" stroke=\"#000\"/><line x1=\"66\" y1=\"219\" x2=\"97\" y2=\"236\" stroke=\"#000\"/><circle cx=\"55\" cy=\"215\" r=\"11\" fill=\"#fff\" stroke=\"#000\"/><text x=\"55\" y=\"219\" text-anchor=\"middle\" font-size=\"11\">1</text><line x1=\"470\" y1=\"261\" x2=\"470\" y2=\"268\" stroke=\"#000\"/><circle cx=\"470\" cy=\"250\" r=\"11\" fill=\"#fff\" stroke=\"#000\"/><text x=\"470\" y=\"254\" text-anchor=\"middle\" font-size=\"11\">2</text><circle cx=\"365\" cy=\"444\" r=\"11\" fill=\"#fff\" stroke=\"#000\"/><text x=\"365\" y=\"448\" text-anchor=\"middle\" font-size=\"11\">3</text><line x1=\"545\" y1=\"378\" x2=\"519\" y2=\"378\" stroke=\"#000\"/><circle cx=\"556\" cy=\"378\" r=\"11\" fill=\"#fff\" stroke=\"#000\"/><text x=\"556\" y=\"382\" text-anchor=\"middle\" font-size=\"11\">4</text><circle cx=\"660\" cy=\"115\" r=\"11\" fill=\"#fff\" stroke=\"#000\"/><text x=\"660\" y=\"119\" text-anchor=\"middle\" font-size=\"11\">5</text><line x1=\"263\" y1=\"216\" x2=\"233\" y2=\"206\" stroke=\"#000\"/><circle cx=\"274\" cy=\"214\" r=\"11\" fill=\"#fff\" stroke=\"#000\"/><text x=\"274\" y=\"218\" text-anchor=\"middle\" font-size=\"11\">6</text><line x1=\"483\" y1=\"369\" x2=\"472\" y2=\"369\" stroke=\"#000\"/><circle cx=\"494\" cy=\"369\" r=\"11\" fill=\"#fff\" stroke=\"#000\"/><text x=\"494\" y=\"373\" text-anchor=\"middle\" font-size=\"11\">7</text><line x1=\"300\" y1=\"343\" x2=\"300\" y2=\"352\" stroke=\"#000\"/><circle cx=\"300\" cy=\"332\" r=\"11\" fill=\"#fff\" stroke=\"#000\"/><text x=\"300\" y=\"336\" text-anchor=\"middle\" font-size=\"11\">8</text><line x1=\"566\" y1=\"219\" x2=\"562\" y2=\"234\" stroke=\"#000\"/><circle cx=\"566\" cy=\"208\" r=\"11\" fill=\"#fff\" stroke=\"#000\"/><text x=\"566\" y=\"212\" text-anchor=\"middle\" font-size=\"11\">9</text><line x1=\"681\" y1=\"392\" x2=\"661\" y2=\"402\" stroke=\"#000\"/><circle cx=\"692\" cy=\"392\" r=\"11\" fill=\"#fff\" stroke=\"#000\"/><text x=\"692\" y=\"396\" text-anchor=\"middle\" font-size=\"11\">10</text><line x1=\"30\" y1=\"462\" x2=\"730\" y2=\"462\" stroke=\"#000\"/><text x=\"40\" y=\"486\" font-size=\"11\">1  external reflector - plane mirror, area ........</text><text x=\"40\" y=\"514\" font-size=\"11\">2  glass cover - a single sheet, ........ thick</text><text x=\"40\" y=\"542\" font-size=\"11\">3  wooden box - base area ........</text><text x=\"40\" y=\"570\" font-size=\"11\">4  lining on every outer surface - a layer of ........</text><text x=\"40\" y=\"598\" font-size=\"11\">5  feed tank - made of ........</text><text x=\"400\" y=\"486\" font-size=\"11\">6  internal reflectors - wall mirrors, ........ thick</text><text x=\"400\" y=\"514\" font-size=\"11\">7  basin - black aluminium tray, ........ deep</text><text x=\"400\" y=\"542\" font-size=\"11\">8  fins - rows spaced ........ apart</text><text x=\"400\" y=\"570\" font-size=\"11\">9  the three points marked x - ........</text><text x=\"400\" y=\"598\" font-size=\"11\">10  the distillate is collected in a ........</text></svg>",
+        "alt": "Cross-section of a single-slope solar still, with a numbered key below the drawing. On the left a tilted plane mirror on a frame stands behind the still (1). A sheet of glass slopes from the tall back wall down to the low front wall (2). The still sits in a box whose base is dimensioned along the bottom (3), and the gap between the outer and inner wall faces is hatched to show the lining (4). A raised tank on the right feeds water through a pipe into the still (5). Mirrors are drawn on the inner face of the back wall (6). Inside, an open tray with a dark floor holds a shallow, dashed water layer; the tray depth is dimensioned on its right side (7) and the gap between two upright fins on its floor is dimensioned above them (8). Three points marked x - one in the outside air, one in the space under the glass and one in the water - show where temperature was measured (9). A channel runs along the lower edge of the glass and a short pipe leads from it into a vessel standing on the ground (10).",
+        "labels": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10"
+        ]
       },
-      "explanation": "Text D says that general waste is collected every Monday from the bins behind Block C, so the name for blank 1 is 'Block C'.",
-      "difficulty": "medium",
-      "status": "verified"
-    },
-    {
-      "number": 2,
-      "passage_id": "G01",
-      "prompt": "Diagram A (Passage G01) - label 2: the colour-coded calendar giving the recycling dates is displayed in the (2) ........",
-      "answer": [
-        "entrance hall"
-      ],
-      "accepted_variants": [
-        "entrance hall"
-      ],
-      "evidence": "Recycling, including paper, glass and plastic bottles, is collected on alternate Thursdays — check the colour-coded calendar in the entrance hall for exact dates.",
-      "evidence_locator": {
-        "text": "D",
-        "sentence": 2
-      },
-      "explanation": "According to text D, the exact recycling dates are on the colour-coded calendar in the entrance hall, so the answer is 'entrance hall'.",
-      "difficulty": "easy",
-      "status": "verified"
-    },
-    {
-      "number": 3,
-      "passage_id": "G01",
-      "prompt": "Diagram A (Passage G01) - label 3: a separate pick-up for furniture and other bulky items has to be booked five working days ahead with the (3) ........",
-      "answer": [
-        "estate office"
-      ],
-      "accepted_variants": [
-        "estate office"
-      ],
-      "evidence": "Large items such as furniture are not collected with regular waste; residents must book a separate collection through the estate office at least five working days in advance.",
-      "evidence_locator": {
-        "text": "D",
-        "sentence": 4
-      },
-      "explanation": "Text D says that a separate collection for large items such as furniture must be arranged with the estate office at least five working days in advance; the answer is 'estate office'.",
-      "difficulty": "hard",
-      "status": "verified"
-    },
-    {
-      "number": 4,
-      "passage_id": "G02",
-      "prompt": "Diagram B (Passage G02) - label 4: a bicycle is picked up at one of the town's twelve (4) ........",
-      "answer": [
-        "docking stations"
-      ],
-      "accepted_variants": [
-        "docking stations"
-      ],
-      "evidence": "Bicycles may be hired from any of the twelve docking stations across Millbrook for £1 per 30 minutes, with the first ten minutes free for annual members.",
-      "evidence_locator": {
-        "text": "A",
-        "sentence": 1
-      },
-      "explanation": "Text A says that bicycles are hired from any of the twelve docking stations across town; the answer is 'docking stations'.",
-      "difficulty": "easy",
-      "status": "verified"
-    },
-    {
-      "number": 5,
-      "passage_id": "G02",
-      "prompt": "Diagram B (Passage G02) - label 5: the scheme supplies no (5) ........ , so riders have to bring their own",
-      "answer": [
-        "helmets"
-      ],
-      "accepted_variants": [
-        "helmets"
-      ],
-      "evidence": "Helmets are not provided and riders are responsible for their own safety equipment.",
-      "evidence_locator": {
-        "text": "A",
-        "sentence": 3
-      },
-      "explanation": "According to text A, helmets are not provided and safety equipment is the rider's own responsibility, so the answer for blank 5 is 'helmets'.",
-      "difficulty": "easy",
-      "status": "verified"
-    },
-    {
-      "number": 6,
-      "passage_id": "G03",
-      "prompt": "Diagram C (Passage G03) - label 6: the band from 8 a.m. to 4 p.m., when every employee is expected to be at work, is called the (6) ........",
-      "answer": [
-        "core hours"
-      ],
-      "accepted_variants": [
-        "core hours"
-      ],
-      "evidence": "All production staff at Fernbridge Manufacturing work a standard 37.5-hour week across five days, with core hours between 8 a.m. and 4 p.m.",
-      "evidence_locator": {
-        "text": "A",
-        "paragraph": "A",
-        "sentence": 1
-      },
-      "explanation": "The first paragraph of text A calls the period from 8 a.m. to 4 p.m. 'core hours'; that is the name of the band in the diagram.",
-      "difficulty": "medium",
-      "status": "verified"
-    },
-    {
-      "number": 7,
-      "passage_id": "G03",
-      "prompt": "Diagram C (Passage G03) - label 7: the shift that runs from 6 a.m. to 2 p.m. is known as the (7) ........ shift",
-      "answer": [
-        "early"
-      ],
-      "accepted_variants": [
-        "early"
-      ],
-      "evidence": "Employees on the early shift begin at 6 a.m. and finish at 2 p.m., while those on the late shift work from 2 p.m. to 10 p.m.",
-      "evidence_locator": {
-        "text": "A",
-        "paragraph": "A",
-        "sentence": 2
-      },
-      "explanation": "The text refers to the shift that starts at 6 a.m. and ends at 2 p.m. as the 'early shift'; only 'early' goes in the blank.",
-      "difficulty": "easy",
-      "status": "verified"
-    },
-    {
-      "number": 8,
-      "passage_id": "G03",
-      "prompt": "Diagram C (Passage G03) - label 8: once a shift passes eight hours, one further (8) ........ break is given",
-      "answer": [
-        "15-minute"
-      ],
-      "accepted_variants": [
-        "15-minute",
-        "15 minute"
-      ],
-      "evidence": "An additional 15-minute break for shifts longer than eight hours.",
-      "evidence_locator": {
-        "text": "A",
-        "paragraph": "B",
-        "sentence": 4
-      },
-      "explanation": "The break list in text A allows an extra 15-minute break for shifts longer than eight hours; the answer is '15-minute'.",
-      "difficulty": "medium",
-      "status": "verified"
-    },
-    {
-      "number": 9,
-      "passage_id": "G04",
-      "prompt": "Diagram D (Passage G04) - label 9: the connection at the remote worker's own home must run at (9) ........ or faster",
-      "answer": [
-        "10 Mbps"
-      ],
-      "accepted_variants": [
-        "10 Mbps",
-        "10Mbps"
-      ],
-      "evidence": "Provide their own reliable internet connection of at least 10 Mbps.",
-      "evidence_locator": {
-        "text": "B",
-        "paragraph": "B",
-        "sentence": 2
-      },
-      "explanation": "The remote-working list in text B requires the employee to provide their own connection of at least 10 Mbps; the answer is '10 Mbps'.",
-      "difficulty": "medium",
-      "status": "verified"
-    },
-    {
-      "number": 10,
-      "passage_id": "G04",
-      "prompt": "Diagram D (Passage G04) - label 10: between 10 a.m. and 4 p.m. remote staff have to answer on (10) ........",
-      "answer": [
-        "instant messaging"
-      ],
-      "accepted_variants": [
-        "instant messaging"
-      ],
-      "evidence": "Be available on instant messaging during core hours.",
-      "evidence_locator": {
-        "text": "B",
-        "paragraph": "B",
-        "sentence": 4
-      },
-      "explanation": "Text B requires remote staff to be reachable on instant messaging during core hours; the answer is 'instant messaging'.",
-      "difficulty": "hard",
-      "status": "verified"
+      "stem_block": null,
+      "items": [
+        {
+          "number": 1,
+          "passage_id": "A19",
+          "prompt": "Diagram (Passage A19) - label 1: the external reflector is a plane mirror of (1) ........ mounted on a movable steel frame behind the still",
+          "answer": [
+            "0.60 square metres"
+          ],
+          "accepted_variants": [
+            "0.60 square metres",
+            "0.6 square metres",
+            "0.60 square meters",
+            "0.6 square meters"
+          ],
+          "evidence": "Outside, a separate plane mirror of 0.60 square metres, also 5 millimetres thick, was mounted on a movable steel frame standing behind the still.",
+          "evidence_locator": {
+            "paragraph": "E",
+            "sentence": 3
+          },
+          "explanation": "Paragraph E says the mirror mounted outside on the movable steel frame measured 0.60 square metres, so that is the area for blank 1.",
+          "difficulty": "medium",
+          "status": "verified"
+        },
+        {
+          "number": 2,
+          "passage_id": "A19",
+          "prompt": "Diagram (Passage A19) - label 2: the transparent cover is a single sheet of glass (2) ........ thick",
+          "answer": [
+            "8 millimetres"
+          ],
+          "accepted_variants": [
+            "8 millimetres",
+            "8 millimeters",
+            "8 mm",
+            "8mm"
+          ],
+          "evidence": "Because the glass had to slope, the box was not a plain rectangle: its back wall stood 0.87 metres high while the front wall was only 0.254 metres, so that the transparent cover, a single sheet of glass 8 millimetres thick, rested at an inclination of 30 degrees.",
+          "evidence_locator": {
+            "paragraph": "B",
+            "sentence": 2
+          },
+          "explanation": "Paragraph B describes the transparent cover as a single sheet of glass 8 millimetres thick; the thickness goes in blank 2.",
+          "difficulty": "medium",
+          "status": "verified"
+        },
+        {
+          "number": 3,
+          "passage_id": "A19",
+          "prompt": "Diagram (Passage A19) - label 3: the still sits inside a wooden box with a base area of (3) ........",
+          "answer": [
+            "1.08 square metres"
+          ],
+          "accepted_variants": [
+            "1.08 square metres",
+            "1.08 square meters"
+          ],
+          "evidence": "The still they assembled sat inside a wooden box with a base area of 1.08 square metres.",
+          "evidence_locator": {
+            "paragraph": "B",
+            "sentence": 1
+          },
+          "explanation": "The first sentence of paragraph B gives the wooden box a base area of 1.08 square metres, which is the figure for blank 3.",
+          "difficulty": "easy",
+          "status": "verified"
+        },
+        {
+          "number": 4,
+          "passage_id": "A19",
+          "prompt": "Diagram (Passage A19) - label 4: every outer surface of the box is lined with a layer of (4) ........",
+          "answer": [
+            "thermocole"
+          ],
+          "accepted_variants": [
+            "thermocole"
+          ],
+          "evidence": "Every outer surface was lined with a 2.54-centimetre layer of thermocole, an expanded plastic insulation whose only job is to stop heat leaking out through the walls and floor before the water can use it.",
+          "evidence_locator": {
+            "paragraph": "B",
+            "sentence": 3
+          },
+          "explanation": "Paragraph B names the expanded plastic insulation lining every outer surface as thermocole, so blank 4 takes that word.",
+          "difficulty": "hard",
+          "status": "verified"
+        },
+        {
+          "number": 5,
+          "passage_id": "A19",
+          "prompt": "Diagram (Passage A19) - label 5: water reaches the basin from a feed tank made of (5) ........",
+          "answer": [
+            "galvanised iron"
+          ],
+          "accepted_variants": [
+            "galvanised iron",
+            "galvanized iron"
+          ],
+          "evidence": "Water reached the basin from a feed tank made of galvanised iron, 0.37 square metres in area and 30.48 centimetres tall, mounted 0.91 metres above the still so that gravity alone kept the basin topped up as distillation drew the level down.",
+          "evidence_locator": {
+            "paragraph": "D",
+            "sentence": 1
+          },
+          "explanation": "Paragraph D says the feed tank supplying the basin was made of galvanised iron; that material fills blank 5.",
+          "difficulty": "medium",
+          "status": "verified"
+        },
+        {
+          "number": 6,
+          "passage_id": "A19",
+          "prompt": "Diagram (Passage A19) - label 6: the mirrors fixed to the side and back walls inside the box are (6) ........ thick",
+          "answer": [
+            "5 millimetres"
+          ],
+          "accepted_variants": [
+            "5 millimetres",
+            "5 millimeters",
+            "5 mm",
+            "5mm"
+          ],
+          "evidence": "Inside the box, mirrors 5 millimetres thick were fixed to the side and back walls; these internal reflectors catch rays that would otherwise fall on the wooden walls and turn them back down onto the water.",
+          "evidence_locator": {
+            "paragraph": "E",
+            "sentence": 2
+          },
+          "explanation": "Paragraph E says the mirrors fixed to the side and back walls inside the box were 5 millimetres thick, which is the answer to blank 6.",
+          "difficulty": "hard",
+          "status": "verified"
+        },
+        {
+          "number": 7,
+          "passage_id": "A19",
+          "prompt": "Diagram (Passage A19) - label 7: the basin is a black-painted aluminium tray (7) ........ deep",
+          "answer": [
+            "20.32 centimetres"
+          ],
+          "accepted_variants": [
+            "20.32 centimetres",
+            "20.32 centimeters",
+            "20.32 cm"
+          ],
+          "evidence": "Inside the box lay the basin, an aluminium tray of exactly one square metre and 20.32 centimetres deep, painted black so that it would absorb as much of the incoming radiation as possible instead of reflecting it away.",
+          "evidence_locator": {
+            "paragraph": "C",
+            "sentence": 1
+          },
+          "explanation": "Paragraph C gives the black-painted aluminium basin a depth of 20.32 centimetres, so that measurement belongs in blank 7.",
+          "difficulty": "easy",
+          "status": "verified"
+        },
+        {
+          "number": 8,
+          "passage_id": "A19",
+          "prompt": "Diagram (Passage A19) - label 8: the fins on the floor of the basin stand in rows spaced (8) ........ apart",
+          "answer": [
+            "10.16 centimetres"
+          ],
+          "accepted_variants": [
+            "10.16 centimetres",
+            "10.16 centimeters",
+            "10.16 cm"
+          ],
+          "evidence": "Sixty-four aluminium fins, each 6.35 centimetres tall and 2 millimetres across, stood upright in rows spaced 10.16 centimetres apart.",
+          "evidence_locator": {
+            "paragraph": "C",
+            "sentence": 3
+          },
+          "explanation": "Paragraph C says the upright fins stood in rows spaced 10.16 centimetres apart; the spacing, not the height of the fins, fills blank 8.",
+          "difficulty": "medium",
+          "status": "verified"
+        },
+        {
+          "number": 9,
+          "passage_id": "A19",
+          "prompt": "Diagram (Passage A19) - label 9: the temperatures of the outside air, the basin water and the space under the glass were recorded by (9) ........",
+          "answer": [
+            "K-type thermocouples"
+          ],
+          "accepted_variants": [
+            "K-type thermocouples",
+            "K-type thermocouple",
+            "K type thermocouples"
+          ],
+          "evidence": "K-type thermocouples recorded the temperature of the outside air, of the water in the basin and of the enclosed space under the glass, while the flask was emptied and measured at the end of each hour.",
+          "evidence_locator": {
+            "paragraph": "G",
+            "sentence": 2
+          },
+          "explanation": "Paragraph G says the three temperatures were recorded by K-type thermocouples, which is what the three marked points stand for.",
+          "difficulty": "medium",
+          "status": "verified"
+        },
+        {
+          "number": 10,
+          "passage_id": "A19",
+          "prompt": "Diagram (Passage A19) - label 10: from the channel a short outlet pipe carries the distillate into a (10) ........",
+          "answer": [
+            "calibrated flask"
+          ],
+          "accepted_variants": [
+            "calibrated flask"
+          ],
+          "evidence": "The slope then does the moving: droplets slide down the inner face into a channel along the lower edge, and from that channel a short outlet pipe carries the distillate into a calibrated flask.",
+          "evidence_locator": {
+            "paragraph": "F",
+            "sentence": 5
+          },
+          "explanation": "Paragraph F says the outlet pipe leads from the channel into a calibrated flask, so blank 10 takes the name of that vessel.",
+          "difficulty": "hard",
+          "status": "verified"
+        }
+      ]
     }
-  ]
+  ],
+  "notes": "2026-08-18 sifirdan yeniden yazildi (B3 FAZ 1). Eski hali dort GT duyuru metnine (G01-G04) bagli dort ayri diyagramdi; hepsi tek akademik metne (A19, gunes enerjili damitma duzenegi) tasindi. Kalem sayisi ve numaralar degismedi (10 kalem, 1-10). passage_id grup ve kalem duzeyinde yazili, dosya duzeyinde null (PLAN-EK-kurallar.md 6). Paragraf yuku: B 3, C 2, D 1, E 2, F 1, G 1 - her kalem ayri kanit cumlesinden. A, H, I paragraflari bu pakete dokunmuyor. Kor sinama: metinsiz tahmin edilebilir iki cevap degistirildi - cam ortunun 30 derecelik egimi (gunes duzeneklerinde egim = enlem sezgisiyle bilinebiliyordu) yerine camin 8 mm kalinligi; besleme suyunun litrede 35 gram tuz derisimi (deniz suyu derisimi olarak genel kultur) yerine ic yansiticilarin 5 mm kalinligi."
 }

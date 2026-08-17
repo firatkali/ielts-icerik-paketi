@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0",
+  "exam": "ielts",
+  "passage_id": "A14",
+  "module": "academic",
+  "section": null,
+  "title": "The Data That Never Arrived",
+  "topic": "science practice / research data sharing",
+  "word_count": 899,
+  "paragraphs": [
+    {
+      "label": "A",
+      "text": "Every published scientific paper makes a promise that is almost never tested. Its tables and figures are meant to summarise something larger, a body of raw measurements that any reader could in principle ask to see and analyse again. Several professional bodies make this explicit: authors sign an agreement to keep their measurements and supply them on request. A team of psychologists in the Netherlands began from the observation that this obligation is stated far more often than it is honoured, and argued that a paper whose underlying material cannot be inspected is unfinished work rather than settled work."
+    },
+    {
+      "label": "B",
+      "text": "Their method was deliberately plain. They selected forty-nine papers published within a single six-month period in two leading psychology journals, both of which obliged their authors to make research material available to other scholars. In the following summer the team wrote to the authors of each paper, explained that they wished to re-examine the reported analyses, and asked for the files behind them. Two reminders followed. The request itself was the experiment: the question was never what the numbers would show, but who would send them at all."
+    },
+    {
+      "label": "C",
+      "text": "The replies fell into four groups. Twenty-one of the forty-nine teams, fewer than half, eventually supplied usable material. Thirteen never answered, despite the reminders. Three replied that the files no longer existed, lost in an office move or left on a machine long since replaced. The remaining twelve agreed to help and then did not: they promised the material and nothing arrived. The authors regard this last group as the most revealing, since an outright refusal at least closes the matter honestly, while an unkept promise leaves the record looking cooperative when it is not."
+    },
+    {
+      "label": "D",
+      "text": "Silence did not end the investigation, because a surprising amount can be checked without any raw material at all. Papers in these fields report their statistics in a redundant form: a test statistic, the size of the sample behind it, and the probability value that follows from those two quantities. Given any two of the three, a reader can recalculate the third. The team extracted one thousand one hundred and forty-eight results reported as statistically significant and recomputed every one, looking for cases in which the printed probability did not follow from the figures beside it."
+    },
+    {
+      "label": "E",
+      "text": "Forty-nine of those results, roughly four in every hundred, did not add up. The direction of the discrepancy was almost uniform: in nearly every instance the probability printed in the paper was smaller, and therefore more impressive, than the one its own figures implied. More striking still was where the errors sat. About three quarters of them came from papers whose authors had not supplied their material, and among the larger discrepancies the concentration was heavier again. A split this lopsided, the authors contend, is difficult to attribute to accident alone."
+    },
+    {
+      "label": "F",
+      "text": "Ten of the inconsistencies were of a different order. In these the recalculated probability crossed the conventional threshold of significance altogether, so that the paper announced a significant finding which its own reported numbers did not support. Every one of the ten came from a paper whose material had not been shared. The team treats this as the sharpest result in the study, and argues that it is exactly the errors capable of overturning a conclusion, rather than the harmless arithmetic slips, that an unwilling author has a reason to keep out of view."
+    },
+    {
+      "label": "G",
+      "text": "A second pattern concerned not mistakes but margins. Comparing the significant results in the two sets of papers, the team found that those from non-sharing authors clustered closer to the conventional cut-off, while the shared papers reported firmer evidence on average. Results falling in the narrow band just below the threshold made up about seventeen per cent of the non-sharing group and about nine per cent of the sharing group. In the authors' reading, a conclusion that only just qualifies is the one whose owner has most to lose from an outside inspection."
+    },
+    {
+      "label": "H",
+      "text": "The team took seriously two rival explanations. The first is that careful researchers are careful in everything: those who design stronger studies would produce lower probabilities and fewer slips without any concealment. Sample sizes gave this little support: the sharing papers were not built on systematically larger samples. The second explanation is harder to set aside. Keeping material in retrievable order is itself a skill, and a survey of one hundred and ninety-two psychologists found that only about a third stored their files in a form likely to survive the years; most relied on personal computers, discs or an office shelf. An author who cannot locate the files, on that account, is also an author who cannot catch an error."
+    },
+    {
+      "label": "I",
+      "text": "The authors concede that a study of this shape can establish an association and nothing stronger, and that the inconsistencies they counted are the visible edge of a larger problem, since only errors visible on the printed page could be counted. Their remedy is aimed at systems, not individuals. They call for archiving to be made a condition of publication rather than a promise attached to it, for data management to be taught as routine training, and for at least two members of every team to run the central analyses independently before a paper is submitted. A discipline that leaves verification to the goodwill of the person being verified, they conclude, should not be surprised by what it discovers when it finally asks."
+    }
+  ],
+  "texts": null,
+  "source": {
+    "origin": "PLOS ONE",
+    "title": "Willingness to Share Research Data Is Related to the Strength of the Evidence and the Quality of Reporting of Statistical Results",
+    "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0026828",
+    "license": "CC BY 4.0",
+    "attribution": "Adapted from Wicherts JM, Bakker M, Molenaar D (2011) Willingness to Share Research Data Is Related to the Strength of the Evidence and the Quality of Reporting of Statistical Results. PLoS ONE 6(11): e26828, published under CC BY 4.0.",
+    "adapted": true
+  },
+  "notes": "Kaynak makalenin giris / yontem / bulgular / tartisma bolumlerinden yeniden yazildi. Istatistiksel testler (Cohen's d, Wilcoxon, bootstrap), tablo verileri, atif numaralari ve sekil gondermeleri cikarildi; dergi adlari ve yayin yili genellestirildi, oranlar metnin kendi calismasinin degerleri olarak birakildi. Alistirma havuzu (pool=practice), teste atanmadi. Metnin bilerek hic deginmedigi alanlar (NOT GIVEN icin): veri paylasiminin atif sayisina etkisi, verinin saklanmasinin maliyeti/finansmani, hatalarin kasitli olup olmadigi, dergilerin calismadan sonra kurallarini degistirip degistirmedigi, baska bilim dallariyla karsilastirma, yazarlarin kariyer asamasi."
+}

@@ -189,7 +189,8 @@
         "neden_elendi": "Sorunun ekseni temel kimya/biyoloji bilgisi: organik dokunun buyuk kismini karbon ve oksijenin olusturmasi (B) ve beyin dokusunda noronlar arasi iletisimle ilgili bir proteinin bulunmasi (F) beklenen bulgular. Iki dogru secenek de pasaji degil alan bilgisini siniyor.",
         "ne_degisti": "Yuva bosaltilip ayni pasajdan yeni bir soruyla dolduruldu. Eski soru F/2 ve G/1'e dayaniyordu: karbon-oksijen agirligi ve noronlar arasi iletisim proteini. Organik dokunun karbon temelli olmasi da beyin dokusunda sinyal proteini bulunmasi da beklenen bulgular oldugu icin B+F ikilisi pasajsiz seciliyordu. Yeni soru F ve G paragraflarina hic degmiyor: kanit E/3'e, olculen buyukluklere tasindi. Hucre govdesi araliginin genis mi dar mi oldugu ve kiliflarin desenini koruyup korumadigi ancak olcum sonucundan bilinir; celdiriciler de ayni paragrafin gercek sayilarini ters cevirerek kuruldu (omurilik/beyin siralamasi, akson genisligi, olcum kesinligi), yani alan bilgisi hicbir secenegi elemiyor. Konumsal duzen icin harf cifti B+F secildi; C+F ikilisi bu calistirmada hicbir yuvada kullanilmadi."
       },
-      "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: logic. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md"
+      "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: logic. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md",
+      "flag_mechanism": "konumsal_duzen"
     }
   ]
 }

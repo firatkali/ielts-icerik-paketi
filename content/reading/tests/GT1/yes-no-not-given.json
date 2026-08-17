@@ -48,7 +48,8 @@
         "neden_elendi": "Sorunun ekseni genel arastirma yontemi bilgisi: oz-bildirime dayali tahminlerin dogrudan olcumden daha guvenilmez oldugu, pasajdan bagimsiz bilinen bir kural. Ifadedeki 'tend to' kipi kaldirilsa bile cevap ayni yerden cikar.",
         "ne_degisti": "Yuva bosaltilip ayni pasajdan yeni bir ifadeyle dolduruldu. Eski soru B/1'deki 'oz-bildirime dayali tahminler guvenilmez' yargisini soruyordu; bu, pasajdan bagimsiz bilinen bir yontem kuraliydi. Yeni ifade B paragrafina hic degmiyor: kanit D/2'ye, kentsel ve kirsal atigin yenilebilir paylarina tasindi. Pay yalnizca calismanin kendi sayilarindan (%38,2'ye %23,4) okunabiliyor ve ayni cumlede duran kisi basi agirlik farkiyla karistirilmamasi gerekiyor, yani miktar-oran ayrimini yapmak sart. Kip dengesi icin ifade mutlak yazildi ('clearly larger') ve cevabi YES: olculu kipin dogru, mutlak kipin yanlis tarafa ayrilmasi kirildi."
       },
-      "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: logic. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md"
+      "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: logic. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md",
+      "flag_mechanism": "konumsal_duzen"
     },
     {
       "number": 34,

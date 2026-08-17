@@ -72,7 +72,8 @@
             "neden_elendi": "Sorunun ekseni ofis kulturu genel bilgisi: acik plan ofisin oteki duzenlerden daha gurultulu oldugu yaygin bir kani, soru da dort duzenden en gurultulusunu soruyor. Ifade nasil yazilirsa yazilsin cevap pasajdan degil bu kanidan cikiyor; kanit cumlesi (F/2) zaten yalniz 'hangisi en gurultuluydu' sorusunu destekliyor, baska bir eksene capalanamiyor.",
             "ne_degisti": "Yuva bosaltilip ayni pasajdan yeni bir soruyla dolduruldu. Eski soru F/2'ye, gurultunun guvenli sinirini en cok asan duzene dayaniyordu; 'acik ofis en gurultuludur' yaygin kanisi cevabi pasajsiz veriyordu. Yeni kanit baska bir paragrafa (D/3) ve baska bir olcuye tasindi: iki anket olcumunde de karsilastirma duzeninin ALTINA dusen tek tasarim. Bu, disaridan beklenenin tersi bir bulgu oldugu icin genel kultur artik yanlis secenege (A) capalaniyor. Kip: ifade mutlak ('the only design')."
           },
-          "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: general_knowledge. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md"
+          "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: general_knowledge. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md",
+          "flag_mechanism": "genel_kultur"
         },
         {
           "number": 2,

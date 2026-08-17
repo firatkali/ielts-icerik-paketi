@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0",
+  "exam": "ielts",
+  "passage_id": "A18",
+  "module": "academic",
+  "section": null,
+  "title": "Naming a Species from a Short Piece of DNA",
+  "topic": "genetic method / species identification by DNA barcoding",
+  "word_count": 899,
+  "paragraphs": [
+    {
+      "label": "A",
+      "text": "Naming the species a specimen belongs to has traditionally been the work of an expert with a microscope. That approach breaks down when the specimen is an egg or a larva, when it is damaged, or when two species differ only in features invisible from the outside. A genetic shortcut has grown up alongside the microscope: a short stretch of one mitochondrial gene is read from the unknown specimen and compared with a library of sequences from named individuals. The method is only as good as that library, and a team working on the butterflies and forester moths of one alpine country built one, then reported what it could not do."
+    },
+    {
+      "label": "B",
+      "text": "Every entry was produced by the same routine. First, a specimen an expert had already identified was chosen, usually from a museum drawer, and its place and date of capture recorded. Second, a single leg was removed as the tissue sample, so the rest survived as a voucher for later re-examination. Third, the gene fragment was copied in a machine that ran 35 rounds of heating and cooling until there was enough material to read. Fourth, the copy was sequenced. Finally the sequence was uploaded to a shared online database beside a photograph of the specimen and its collection record, so later users could check the identification behind it."
+    },
+    {
+      "label": "C",
+      "text": "The finished library held 868 sequences. These covered 218 species, of which 217 are resident in the country and one is a regular migrant. Since 224 resident species are currently recognised there, the library reached 96.9 per cent of the resident fauna. On average four specimens were sequenced per species, enough to reveal some of the variation within it. Seven resident species produced no usable sequence at all, and that gap is not random: six of the seven are classed as critically endangered, the rarest animals being both hardest to collect and the ones a library would serve best."
+    },
+    {
+      "label": "D",
+      "text": "Identification rests on comparing two distances: the largest genetic difference among individuals of the same species, and the difference between that species and its nearest neighbour, the most similar species in the library. Where the second is comfortably larger there is a gap, and an unknown sequence falls clearly on one side of it. Across this library the average difference within a species was 0.59 per cent, while the average distance to the nearest neighbour was 4.48 per cent. The extremes are less comfortable: within-species figures ran as high as 5.63 per cent, nearest-neighbour distances from zero to 11.63 per cent."
+    },
+    {
+      "label": "E",
+      "text": "Against that standard the library performed well. 174 species, or 80.2 per cent of the resident total, formed clean clusters containing their own members and nobody else. Twenty-three species were represented by a single sequence each, so no internal variation could be measured; of the twenty-one that could still be tested against the rest of the library, twenty matched the expected species. Counting both kinds together, the barcodes were diagnostic for 195 of the 217 resident species, a rate of 89.9 per cent."
+    },
+    {
+      "label": "F",
+      "text": "The remaining 22 species, 10.1 per cent of the total, failed in the same way: their sequences did not form a cluster of their own but were interleaved with those of a close relative. Six groups, mostly pairs, shared barcodes outright, so no sequence could be assigned to one member rather than another. Four further pairs kept distinct sequences but sat so close that the gap vanished. Almost all are recently separated species, and where two populations parted company only a short time ago the gene has not had time to accumulate differences."
+    },
+    {
+      "label": "G",
+      "text": "The opposite problem also appeared. In 10 species, 4.6 per cent of the total, individuals of one supposed species differed from each other by more than 2 per cent, and in five of those by more than 3 per cent. The widest internal split, 5.63 per cent, was found within one burnet moth. Divergence on that scale normally means one of two things: either the name covers more than one species, or the populations sat out the ice ages in separate refuges long enough to drift apart while remaining one. The authors decline to choose, since deciding would need evidence a barcode cannot supply."
+    },
+    {
+      "label": "H",
+      "text": "The study then compared three ways of naming a specimen. Barcodes alone identified 89.9 per cent of species. Appearance alone did almost as well for females, at 89.7 per cent, and slightly better for males, at 92.6 per cent, since males carry more diagnostic external detail. Used together, the two approaches rose to 96.3 per cent for females and 98.2 per cent for males, gains of 6.4 and 8.3 percentage points over the genetic method alone. The team also took eight pairs notoriously hard to separate by eye: six were cleanly divided by their barcodes, two were not."
+    },
+    {
+      "label": "I",
+      "text": "What a library of this kind is really for, the authors argue, is the work the microscope cannot do. Eggs, larvae and broken specimens can be named; tissue from a predator's gut or a bulk trap sample can be assigned without a specialist; and a survey can be rechecked against its vouchers. What it cannot do is retire the specialist. Every sequence is only as trustworthy as the identification attached to it, and neither known trouble spot will be repaired by adding more sequences. It is a fast first pass whose failures are known in advance, not a replacement for taxonomy."
+    }
+  ],
+  "texts": null,
+  "source": {
+    "origin": "PLOS ONE",
+    "title": "A DNA barcode reference library for Swiss butterflies and forester moths as a tool for species identification, systematics and conservation",
+    "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0208639",
+    "license": "CC BY 4.0",
+    "attribution": "Adapted from Litman J, Chittaro Y, Birrer S, Praz C, Wermeille E, Fluri M, Stalling T, Schmid S, Wyler S, Gonseth Y (2018) A DNA barcode reference library for Swiss butterflies and forester moths as a tool for species identification, systematics and conservation. PLoS ONE 13(12): e0208639, published under CC BY 4.0.",
+    "adapted": true
+  },
+  "notes": "Yontem metni: alistirma havuzu (pool=practice), somut deger yuku agir (not tamamlama 6 + cumle tamamlama 3 + kisa cevap 2). Kaynak makalenin yontem, sonuc ve tartisma bolumlerinden yeniden yazildi; atif numaralari, sekil gondermeleri, filogenetik yazilim adlari, primer adlari, Latince tur adlari ve standart barkod uzunlugu (genel kulturden bilinebilecek sabit) cikarildi, ulke adi genellestirildi. Hayvan davranisi anlatilmiyor; odak laboratuvar yontemi, referans veri tabani ve yontemin iki basarisizlik bicimi. Nota dokulebilir iskelet iki yerde: B paragrafi (bes adimli laboratuvar rutini) ve H paragrafi (uc tanimlama yolunun disi/erkek karsilastirmasi). Dokunulmamis birakilabilecek paragraflar: A, B, I."
+}

@@ -115,7 +115,8 @@
         "neden_elendi": "Bosluk 'it ___ light' kalibinin ortasinda ve bir gok cisminin parlakligindan cap tahmin etme varsayimi Ingilizcede yalniz 'reflect' fiiliyle kuruluyor. Fiili baska bir cerceveye tasimak ya cumleyi bozuyor ya da cevabi sifat bicimine ('reflective') ceviriyor, yani korunan alani degistiriyor. E6 bu adimi cap tahmininin sayisina ya da 'too faint to measure directly' gerekcesine capalamali.",
         "ne_degisti": "Eski kutu ayni cumleye capaliydi ama bosluk 'it ___ light' kalibinin ortasindaydi ve parlakliktan cap tahmini Ingilizcede yalniz 'reflect' fiiliyle kuruluyordu. E5'in kendi onerisi uyarinca bosluk ayni cumlenin OLCULEN degerine tasindi: varsayimin fiili artik sorulmuyor, sorulan sey hesaplanan capin kendisi. Sizdiran oge (fiil kalibi) cerceveden tumuyle kalkti; yeni hedefin disaridan turetilebilir bir karsiligi yok."
       },
-      "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: general_knowledge. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md"
+      "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: general_knowledge. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md",
+      "flag_mechanism": "genel_kultur"
     },
     {
       "number": 4,
@@ -192,7 +193,8 @@
         "neden_elendi": "Cevabin kendisi bir ozel ad ve dunya bilgisi: gok cismi adlarini onaylayan kurumun Uluslararasi Astronomi Birligi olmasi astronominin en cok bilinen kurumsal gercegi; model uc turda da adin tamamini yazdi (3/3 PUAN). Kutunun kalan icerigi (Shakespeare ve Pope gelenegi) degistirilse bile 'onaylayan kurum' sorusunun tek cevabi ayni kalir. E6 onerisi: E/2'nin gelenek yarisi - adlarin mitolojiden degil oyun ve siirden secilmesi.",
         "ne_degisti": "Eski kutu E/2'ye capaliydi ve cevap bir ozel ad ve dunya bilgisiydi (gok cismi adlarini onaylayan kurum). Ayni cumlenin oteki yarisi (Shakespeare ve Pope gelenegi) da ayni olcude taniniyor, o yuzden E/2 tumuyle birakildi ve akis semasinin son adimi adlandirmadan cikarildi; sema basligi da buna gore degistirildi. Kanit H/2'ye, ekip liderinin degerlendirmesine tasindi."
       },
-      "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: general_knowledge. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md"
+      "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: general_knowledge. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md",
+      "flag_mechanism": "genel_kultur"
     }
   ]
 }

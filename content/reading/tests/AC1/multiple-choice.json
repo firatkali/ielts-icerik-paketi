@@ -64,7 +64,8 @@
         "neden_elendi": "Sorunun ekseni jeoloji genel bilgisi: volkanik adalarda magmanin deniz tabani bacalarindan surekli gaz salmasi bilinen bir olgu, dolayisiyla yazarin jeolojiyi neden anlattigi parcaya bakmadan cikarilabiliyor. Celdiricileri metne capalamak sorunun eksenini degistirmiyor.",
         "ne_degisti": "Yuva bosaltilip ayni pasajdan yeni bir soruyla dolduruldu. Eski soru B/3'e dayaniyordu: yazarin jeolojiyi neden anlattigi. Volkanik adalarda magmanin deniz tabani bacalarindan gaz salmasi ders kitabi duzeyinde bir olgu oldugu icin 'suyun kimyasini aciklamak icin' cevabi pasajsiz da cikiyordu. Yeni soru B paragrafina hic degmiyor: kanit A/1'e, adanin konumuna tasindi. Guam'in kac mil kuzeyinde oldugu keyfi bir olcu; disaridan bilinemez, cunku 200 ya da 700 mil de esit olculude makuldu. Uc celdirici de pasajin kendi ayrintilarini tersine ceviriyor (insansizlik, sig su, uc adaci), yani 'akla yatkin olani sec' stratejisi calismiyor. Kip dengesi icin dogru secenek olculu ('roughly'), iki celdirici mutlak ('all year round', 'a single peak') yazildi."
       },
-      "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: general_knowledge. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md"
+      "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: general_knowledge. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md",
+      "flag_mechanism": "genel_kultur"
     },
     {
       "number": 33,
@@ -190,7 +191,8 @@
         "neden_elendi": "Sorunun ekseni alan bilgisi: okyanus asitlenmesi calismalarinin biri deniz tabani toplulugu, digeri iskeletin ic yapisi olmak uzere iki eksende yurutuldugu genel olarak biliniyor. Yedi secenek arasindan hangilerinin 'calisilmis' oldugunu secmek pasaji degil bu yerlesik kalibi olcuyor.",
         "ne_degisti": "Yuva bosaltilip ayni pasajdan yeni bir soruyla dolduruldu. Eski soru F/1 ve G/1'e dayaniyordu: calismalarin biri deniz tabani toplulugunu, digeri iskelet ic yapisini incelemesi. Asitlenme arastirmalarinin bu iki eksene ayrilmasi bilim haberciliginin yerlesik kalibi oldugu icin C+F ikilisi pasajsiz seciliyordu. Yeni soru F ve G paragraflarina hic degmiyor: kanit D/2'ye, sahada yapilan islere tasindi. Hangi buyuklugun surekli kaydedildigi ve kacan gazin ne yapildigi sahaya ozgu yontem kararlari; kamera, alg temizligi ya da baska resiflerle karsilastirma da esit olculude makul oldugu icin disaridan secilemez. Konumsal duzen icin dogru harfler A ve E: bu tipteki ayakta kalan uc yuvanin ucu de C+F oldugu icin (E5 2. calistirma olcumu) A harfi bilerek dogru yapildi ve C+F ikilisi kullanilmadi."
       },
-      "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: logic. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md"
+      "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: logic. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md",
+      "flag_mechanism": "konumsal_duzen"
     }
   ]
 }

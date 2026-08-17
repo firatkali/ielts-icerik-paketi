@@ -159,7 +159,8 @@
         "neden_elendi": "Cevabin kendisi hukukla sabitlenmis bir sayi: Birlesik Krallik'ta tam zamanli calisanin yasal asgari yillik izni resmi tatiller dahil 28 gundur ve not satiri bu kosulun ikisini de ('full time', 'public holidays counted inside that total') veriyor; model uc turda da '28 days' yazdi (3/3 PUAN). Kosullari cikarmak sayiyi bulunamaz yapar. E6 onerisi: B metni A/1 yerine izin talebinin iki hafta onceden yapilmasi kurali - ama o yuva 20'de dolu oldugu icin baska bir paragraf secilmeli.",
         "ne_degisti": "Eski satir B metni A/1'e capaliydi ve cevap ('28 days') hukukla sabitlenmis bir sayiydi; satir kosullarin ikisini birden verdigi icin sayi disaridan cikiyordu. Yeni satir o cumleye hic degmiyor: kanit A metni D/2'ye, vardiya degisimi kuralinin ikinci kosuluna tasindi ve satir 18. yuvanin dayandigi D/1'i tekrar etmiyor. Not bloguna yeni bir bosluk eklenmedi, var olan bolum bir satir genisletildi; bosluk sirasi 15-20 olarak korundu."
       },
-      "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: general_knowledge. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md"
+      "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: general_knowledge. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md",
+      "flag_mechanism": "genel_kultur"
     },
     {
       "number": 20,

@@ -17,411 +17,542 @@
   "items": [
     {
       "number": 1,
-      "passage_id": "A01",
-      "prompt": "Questions 1-3 refer to Passage A01. Each animal was tested by itself in an enclosure where a heavy (1) ........ had already been placed.",
+      "passage_id": "A13",
+      "prompt": "Questions 1-6 refer to Passage A13. Cracks of this kind are hard to locate in a structure such as a (1) ........ or a foundation slab.",
       "answer": [
-        "concrete cube"
+        "tunnel lining"
       ],
       "accepted_variants": [
-        "concrete cube"
+        "tunnel lining"
       ],
-      "evidence": "Each was tested alone in an enclosure that already contained a heavy concrete cube.",
+      "evidence": "Finding such damage is rarely straightforward in a tunnel lining or a foundation slab, so materials scientists have pursued a more elegant answer: a mix that seals its own cracks.",
+      "evidence_locator": {
+        "paragraph": "A",
+        "sentence": 4
+      },
+      "explanation": "Paragraph A says that finding such damage is rarely straightforward in a tunnel lining or a foundation slab, so the answer is 'tunnel lining'.",
+      "difficulty": "easy",
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "faz": "FAZ 1 / B3 yeniden uretim (UYGULAMA-PLANI 1.5)",
+        "yeni_pasaj": "A13",
+        "eski_pasaj": "A01",
+        "eski_prompt": "Questions 1-3 refer to Passage A01. Each animal was tested by itself in an enclosure where a heavy (1) ........ had already been placed.",
+        "eski_cevap": [
+          "concrete cube"
+        ],
+        "neden_elendi": "E7 parcasiz olcumde uc turun ucunde de bilindi (dayanak: logic); ayrica kanit cumlesi artik alistirma havuzuna ait olmayan A01 pasajina aitti.",
+        "ne_degisti": "Kalem bastan yazildi ve A13'e baglandi. Bosluk kalibin ucuna degil, metnin kendi verdigi ornek cifte acildi: yapinin adi. Kok tek basina okundugunda bridge deck, dam wall, retaining wall gibi bircok aday esit derecede oturuyor; dogru karsilik yalniz A/4'ten okunur.",
+        "recete_sinamasi": "Kok metinsiz okundu: tek aday cikmadi (en az dort esit derecede dogal aday). GECTI."
+      }
+    },
+    {
+      "number": 2,
+      "passage_id": "A13",
+      "prompt": "Most of the capsules built by Li's team measured between 100 and (2) ........ micrometres across.",
+      "answer": [
+        "150"
+      ],
+      "accepted_variants": [
+        "150",
+        "one hundred and fifty"
+      ],
+      "evidence": "A team led by Li built tiny capsules with a rigid polymer shell around a liquid epoxy core, most of them between 100 and 150 micrometres across, and stirred them into a cement paste mixed at a water-to-cement ratio of 0.3.",
       "evidence_locator": {
         "paragraph": "B",
         "sentence": 2
       },
-      "explanation": "Paragraph B says each elephant was tested alone in an enclosure that already contained a heavy concrete cube; so the answer is 'concrete cube'.",
+      "explanation": "Paragraph B says most of the capsules were between 100 and 150 micrometres across, so the answer is '150'.",
       "difficulty": "easy",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_basis": "logic",
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
       "generated_by": "opus",
       "yeniden_uretim": {
-        "tarih": "2026-08-08",
-        "kaynak_prompt": "prompts/OPUS5-E6-yeniden-uretim.md (6/7)",
-        "uretilen_grup": "Tamamlama ailesi yuvalari",
-        "eski_prompt": "Questions 1-3 refer to Passage A01. Work in laboratories had already established that elephants make use of branches in order to (1) ........",
+        "tarih": "2026-08-18",
+        "faz": "FAZ 1 / B3 yeniden uretim (UYGULAMA-PLANI 1.5)",
+        "yeni_pasaj": "A13",
+        "eski_pasaj": "A01",
+        "eski_prompt": "Pushing a heavy object into place suits an elephant because the end of its trunk stays open and in unbroken (2) ........ with that object.",
         "eski_cevap": [
-          "swat flies"
+          "sensory contact"
         ],
-        "eski_kanit_cumlesi": "Laboratory studies have shown that elephants can recognise themselves in a mirror, remember locations for years and use branches to swat flies.",
-        "neden_elendi": "Cevabin kendisi bir dunya bilgisi: fillerin dallari sinek kovmak icin kullandigi hayvan davranisi kulturunun en cok tekrarlanan ayrintilarindan biri; model uc turda da 'swat flies' yazdi (3/3 PUAN). Kanit cumlesi (A/2) uc ornek sayiyor ve ucu de ayni olcude taniniyor (ayna testi, yer bellegi, sinek kovma), dolayisiyla cerceveyi baska ornege tasimak da sizdirir. E6 onerisi: A paragrafinin laboratuvar ile arazi arasinda kurdugu karsitlik.",
-        "ne_degisti": "Eski soru A/2'deki laboratuvar ornekleri cumlesine capaliydi ve cevap ('swat flies') hayvan davranisi kulturunun en cok tekrarlanan ayrintisiydi. Yeni yuva A paragrafina hic degmiyor: kanit B/2'ye, duzenegin fiziksel kurulumuna tasindi. Enclosure'da onceden duran nesnenin ne oldugu yalniz metinden okunur; disaridan kutu, kova, sandik gibi bircok aday esit derecede akla gelir."
-      },
-      "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: logic. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md"
-    },
-    {
-      "number": 2,
-      "passage_id": "A01",
-      "prompt": "Pushing a heavy object into place suits an elephant because the end of its trunk stays open and in unbroken (2) ........ with that object.",
-      "answer": [
-        "sensory contact"
-      ],
-      "accepted_variants": [
-        "sensory contact"
-      ],
-      "evidence": "A cube used as a platform, by contrast, plays to the trunk's strengths rather than against them: rolling and positioning a heavy object keeps the trunk tip open and in constant sensory contact with the object, while also physically lifting the animal's whole body closer to the food.",
-      "evidence_locator": {
-        "paragraph": "G",
-        "sentence": 1
-      },
-      "explanation": "Paragraph G states that rolling and positioning a heavy object keeps the trunk tip open and in constant sensory contact with the object, so the answer is 'sensory contact'.",
-      "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_solvable_kelime_duzeyi": false,
-      "blind_basis": "logic",
-      "flag_reason": "Parça gösterilmeden anlamca 3/3 turda doğru bilindi: farklı kelimeyle ama doğru kavramla cevaplandı (3 turda da 'contact' verdi, gerçek cevap 'sensory contact').",
-      "flag_mechanism": "esdizim_kilidi",
-      "review_note": "E10 anlam duzeyi olcumunden gelen isaret. Modelin parcasiz cevabi cevabin yalniz BAS ADINI veriyor, ayirt edici niteleyicisini vermiyor: uc turda da 'contact' verdi, ayirt edici 'sensory' hic gelmedi. Dolayisiyla soru kelime duzeyinde hala ayirt ediyor (bu cevabi yazan aday puan alamaz) ve elenmesi icin yeterli gerekce yok. Duzeltilmesi de mumkun degil, cunku boslugun bas adi cumlenin anlamsal rolunden zorunlu olarak cikiyor: hortum ucunun acik kalmasi ve nesneyle iliskisi anlatildiginda bas ad kacinilmaz bicimde 'contact' olur. Cerceve ne yapilirsa yapilsin ayni bas ad okunacagi icin yeniden yazmak sizintiyi kapatmadan olculmemis yeni bir soru uretirdi (yarim duzeltme). Talimatin 3. sonucu geregi soru oldugu gibi birakildi. E6 onerisi: G/1'in ikinci yarisi -- kubun hayvanin butun govdesini yiyecege yaklastirmasi -- ya da G/2'deki 'sempanzenin kucuk bir surumu degil' degerlendirmesi."
+        "neden_elendi": "esdizim_kilidi: cerceve boslugun bas adini ('contact') zorunlu kiliyordu; eski kayit da duzeltilemez oldugunu yaziyordu.",
+        "ne_degisti": "Kalem bastan yazildi ve A13'e baglandi. Bosluk bir ad obeginin ucuna degil, calismanin kendi olctugu bir buyuklugun ust sinirina acildi. Cerceve hicbir sayiyi zorunlu kilmiyor; deger yalniz B/2'den okunur.",
+        "recete_sinamasi": "Kok metinsiz okundu: 200, 300, 250 gibi adaylar da ayni olcude oturuyor. GECTI."
+      }
     },
     {
       "number": 3,
-      "passage_id": "A01",
-      "prompt": "After a spell of apparently unrelated activity, Kandula rolled the block (3) ........ across the enclosure until it stood beneath the branch he could not reach.",
+      "passage_id": "A13",
+      "prompt": "In their calculations Lv and Chen kept capsule volume and a volume fraction of (3) ........ unchanged while they altered the shape.",
       "answer": [
-        "several metres"
+        "0.10"
       ],
       "accepted_variants": [
-        "several metres",
-        "several meters"
+        "0.10",
+        "0.1"
       ],
-      "evidence": "After a period of apparently unrelated activity, he walked over to the concrete cube, rolled it several metres across the enclosure until it sat beneath the dangling branch, climbed onto it with his front feet and used his trunk to take the food.",
+      "evidence": "Holding capsule volume and a volume fraction of 0.10 constant, they replaced spheres with elongated capsules shaped like cylinders with rounded ends.",
       "evidence_locator": {
-        "paragraph": "C",
+        "paragraph": "E",
         "sentence": 3
       },
-      "explanation": "Paragraph C says Kandula rolled the cube several metres across the enclosure until it sat beneath the dangling branch; so the answer is 'several metres'.",
+      "explanation": "Paragraph E says Lv and Chen held capsule volume and a volume fraction of 0.10 constant while replacing spheres with elongated capsules, so the answer is '0.10'.",
       "difficulty": "medium",
       "status": "verified",
       "blind_solvable": false,
       "blind_basis": null,
       "generated_by": "opus",
       "yeniden_uretim": {
-        "tarih": "2026-08-08",
-        "kaynak_prompt": "prompts/OPUS5-E6-yeniden-uretim.md (6/7)",
-        "uretilen_grup": "Tamamlama ailesi yuvalari",
-        "eski_prompt": "A species can look unable to perform a mental task merely because the apparatus it is given does not match its (3) ........",
+        "tarih": "2026-08-18",
+        "faz": "FAZ 1 / B3 yeniden uretim (UYGULAMA-PLANI 1.5)",
+        "yeni_pasaj": "A13",
+        "eski_pasaj": "A01",
+        "eski_prompt": "After a spell of apparently unrelated activity, Kandula rolled the block (3) ........ across the enclosure until it stood beneath the branch he could not reach.",
         "eski_cevap": [
-          "anatomy"
+          "several metres"
         ],
-        "eski_kanit_cumlesi": "More broadly, the study is a caution against judging an animal's intelligence from a single, narrowly designed test: a species may appear incapable of a mental feat simply because the equipment offered does not suit its particular anatomy, and a fairer test can reveal abilities that had been present all along.",
-        "neden_elendi": "Cevap tek sozcuk ('anatomy') ve o sozcugun kendisi sizinti noktasi: model parcasiz uc turun ikisinde birebir 'anatomy', birinde tam es anlamlisi 'morphology' verdi. Boslugun hedefledigi kavram -- bir turun beden yapisi -- Ingilizcede birden cok sozcukle ayni sekilde adlandiriliyor (anatomy / morphology / body plan), ve 'cihaz turun X'ine uymuyordu' cercevesi hangi bicimde yazilirsa yazilsin bu kavrami zorunlu kiliyor. Ayirt edici oge cevabin kendisinde durdugu icin cerceve duzeltmesi sizintiya erisemiyor; kapatmak boslugu baska bir ayrintiya tasimayi, yani `answer` alanini degistirmeyi gerektirir. E6 onerisi: ayni paragrafin (H/1) icgoru olcutunu sayan yarisi -- cozumun hatasiz ve aniden ortaya cikmasi, yeni nesnelere uyarlanmasi, aletin birakildigi yerin hatirlanmasi.",
-        "ne_degisti": "Eski soru H/2'ye capaliydi ve cevap tek sozcuktu ('anatomy'); model parcasiz uc turun ikisinde birebir, birinde tam es anlamlisiyla ('morphology') verdi, cunku 'cihaz turun X'ine uymuyordu' cercevesi kavrami zorunlu kiliyordu. Yeni yuva H paragrafina hic degmiyor: kanit C/3'e, cozumun fiziksel ayrintisina tasindi. Blogun kac metre itildigi olculebilir ve keyfi bir ayrinti; disaridan bilinemez. Cerceve 'cube' sozcugunu anmiyor, boylece 1. sorunun cevabini da sizdirmiyor."
+        "neden_elendi": "Kanit cumlesi test havuzuna ait A01 pasajindaydi ve kok gercek bir hayvani adiyla aniyordu (PLAN-EK-kurallar 4).",
+        "ne_degisti": "Kalem bastan yazildi ve A13'e baglandi. Cevap modelin kendi sectigi bir parametre; disaridan turetilemiyor ve cerceve hicbir degeri isaret etmiyor.",
+        "recete_sinamasi": "Kok metinsiz okundu: 0.05, 0.2, 0.15 esit derecede oturuyor. GECTI."
       }
     },
     {
       "number": 4,
-      "passage_id": "A02",
-      "prompt": "Questions 4-6 refer to Passage A02. Each pair had a tank to itself, fed with (4) ........ that was held at an unchanging temperature.",
+      "passage_id": "A13",
+      "prompt": "At an aspect ratio of five, elongated capsules were calculated to release roughly (4) ........ per cent more healing agent than spherical ones.",
       "answer": [
-        "running seawater"
+        "57"
       ],
       "accepted_variants": [
-        "running seawater",
-        "running sea water"
+        "57"
       ],
-      "evidence": "Every pair was housed in its own tank, measuring sixty-five by one hundred by fifty centimetres and supplied with running seawater kept at a constant 24°C, so that any behavioural change could be attributed to the animals' experience of one another rather than to differences in their surroundings.",
+      "evidence": "At an aspect ratio of five, the elongated form delivered about 57 per cent more healing agent than the spherical one.",
       "evidence_locator": {
-        "paragraph": "B",
-        "sentence": 3
+        "paragraph": "E",
+        "sentence": 4
       },
-      "explanation": "Paragraph B states that each pair was kept in its own tank supplied with running seawater held at a constant 24°C, so the answer is 'running seawater'.",
-      "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_solvable_kelime_duzeyi": false,
-      "blind_basis": "logic",
-      "flag_reason": "Parça gösterilmeden anlamca 3/3 turda doğru bilindi: farklı kelimeyle ama doğru kavramla cevaplandı (3 turda da 'seawater' verdi, gerçek cevap 'running seawater').",
-      "flag_mechanism": "esdizim_kilidi",
-      "review_note": "E10 anlam duzeyi olcumunden gelen isaret. Modelin parcasiz cevabi cevabin yalniz BAS ADINI veriyor, ayirt edici niteleyicisini vermiyor: uc turda da 'seawater' verdi, ayirt edici 'running' hic gelmedi. Dolayisiyla soru kelime duzeyinde hala ayirt ediyor (bu cevabi yazan aday puan alamaz) ve elenmesi icin yeterli gerekce yok. Duzeltilmesi de mumkun degil, cunku boslugun bas adi cumlenin anlamsal rolunden zorunlu olarak cikiyor: ahtapot tankina ne verildigi soruldugunda bas ad zorunlu olarak 'seawater' olur. Cerceve ne yapilirsa yapilsin ayni bas ad okunacagi icin yeniden yazmak sizintiyi kapatmadan olculmemis yeni bir soru uretirdi (yarim duzeltme). Talimatin 3. sonucu geregi soru oldugu gibi birakildi. E6 onerisi: B/3'un olcu ayrintisi (altmis bes x yuz x elli santimetre) ya da B/1'deki %15'lik agirlik eslestirme olcutu."
-    },
-    {
-      "number": 5,
-      "passage_id": "A02",
-      "prompt": "An octopus put back with a partner it already knew delayed (5) ........ and was inclined to hold back at a wary distance.",
-      "answer": [
-        "first contact"
-      ],
-      "accepted_variants": [
-        "first contact"
-      ],
-      "evidence": "Octopuses reunited with a familiar partner took noticeably longer to make first contact and were more likely to keep a cautious distance without touching.",
-      "evidence_locator": {
-        "paragraph": "F",
-        "sentence": 2
-      },
-      "explanation": "Paragraph F states that octopuses reunited with a familiar partner took noticeably longer to make first contact, so the answer is 'first contact'.",
+      "explanation": "Paragraph E states that at an aspect ratio of five the elongated form delivered about 57 per cent more healing agent than the spherical one, so the answer is '57'.",
       "difficulty": "medium",
       "status": "verified",
-      "blind_solvable": false
-    },
-    {
-      "number": 6,
-      "passage_id": "A02",
-      "prompt": "An octopus does not have to pick out a (6) ........ ; sorting the animals it meets into two broad groups is enough.",
-      "answer": [
-        "unique individual"
-      ],
-      "accepted_variants": [
-        "unique individual"
-      ],
-      "evidence": "The authors describe this as class-level, or binary, recognition: an octopus need not identify a unique individual by name, so to speak, only sort others into the broad categories of \"known\" and \"unknown\" and adjust its behaviour accordingly.",
-      "evidence_locator": {
-        "paragraph": "G",
-        "sentence": 2
-      },
-      "explanation": "Paragraph G states that an octopus does not need to identify a unique individual, only sort those it meets into the broad categories of 'known' and 'unknown', so the answer is 'unique individual'.",
-      "difficulty": "hard",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_solvable_kelime_duzeyi": false,
-      "blind_basis": "logic",
-      "flag_reason": "Parça gösterilmeden anlamca 3/3 turda doğru bilindi: farklı kelimeyle ama doğru kavramla cevaplandı (3 turda da 'individual' verdi, gerçek cevap 'unique individual').",
-      "flag_mechanism": "esdizim_kilidi",
-      "review_note": "E10 anlam duzeyi olcumunden gelen isaret. Modelin parcasiz cevabi cevabin yalniz BAS ADINI veriyor, ayirt edici niteleyicisini vermiyor: uc turda da 'individual' verdi, ayirt edici 'unique' hic gelmedi. Dolayisiyla soru kelime duzeyinde hala ayirt ediyor (bu cevabi yazan aday puan alamaz) ve elenmesi icin yeterli gerekce yok. Duzeltilmesi de mumkun degil, cunku boslugun bas adi cumlenin anlamsal rolunden zorunlu olarak cikiyor: 'birini tek tek ayirt etmek zorunda degil' iddiasinin bas adi zorunlu olarak 'individual' olur. Cerceve ne yapilirsa yapilsin ayni bas ad okunacagi icin yeniden yazmak sizintiyi kapatmadan olculmemis yeni bir soru uretirdi (yarim duzeltme). Talimatin 3. sonucu geregi soru oldugu gibi birakildi. E6 onerisi: G/1'deki zaman ayrintisi -- bellegin bir tam gun sonra hala davranisi degistirmesi -- ya da G/2'nin 'class-level, or binary' adlandirmasi."
-    },
-    {
-      "number": 7,
-      "passage_id": "A03",
-      "prompt": "Questions 7-9 refer to Passage A03. What Maug gives researchers is something that no (7) ........ is able to reproduce completely.",
-      "answer": [
-        "laboratory tank"
-      ],
-      "accepted_variants": [
-        "laboratory tank"
-      ],
-      "evidence": "Few people ever visit it, yet the shallow waters around it have become one of the most closely studied coral reef sites in the world, because Maug offers scientists something no laboratory tank can fully replicate: a real reef living permanently in the acidified seawater that much of the ocean is expected to experience within decades.",
-      "evidence_locator": {
-        "paragraph": "A",
-        "sentence": 2
-      },
-      "explanation": "Paragraph A states that Maug offers scientists something no laboratory tank can fully replicate, so the answer is 'laboratory tank'.",
-      "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_solvable_kelime_duzeyi": false,
-      "blind_basis": "logic",
-      "flag_reason": "Parça gösterilmeden anlamca 3/3 turda doğru bilindi: farklı kelimeyle ama doğru kavramla cevaplandı (3 turda da 'laboratory' verdi, gerçek cevap 'laboratory tank').",
-      "flag_mechanism": "esdizim_kilidi",
-      "review_note": "E10 anlam duzeyi olcumunden gelen isaret. Modelin parcasiz cevabi cevabin yalniz BAS ADINI veriyor, ayirt edici niteleyicisini vermiyor: uc turda da 'laboratory' verdi, ayirt edici 'tank' hic gelmedi. Dolayisiyla soru kelime duzeyinde hala ayirt ediyor (bu cevabi yazan aday puan alamaz) ve elenmesi icin yeterli gerekce yok. Duzeltilmesi de mumkun degil, cunku boslugun bas adi cumlenin anlamsal rolunden zorunlu olarak cikiyor: 'hicbir X bunu tam olarak taklit edemez' cercevesinde bilimsel bir metinde bas ad zorunlu olarak laboratuvar olur. Cerceve ne yapilirsa yapilsin ayni bas ad okunacagi icin yeniden yazmak sizintiyi kapatmadan olculmemis yeni bir soru uretirdi (yarim duzeltme). Talimatin 3. sonucu geregi soru oldugu gibi birakildi. E6 onerisi: A/2'nin ikinci yarisi -- resifin surekli olarak, onlarca yil sonra beklenen asitlenmis suda yasamasi -- ya da A/3'teki 'tek tek organizma degil ekosistem' ayrimi."
-    },
-    {
-      "number": 8,
-      "passage_id": "A03",
-      "prompt": "Its reef has already spent years in water the rest of the ocean will not reach for decades, which is why the authors describe the site as a (8) ........ .",
-      "answer": [
-        "preview"
-      ],
-      "accepted_variants": [
-        "preview"
-      ],
-      "evidence": "At Maug, by contrast, the reef has already been living for years in conditions similar to those the wider ocean is not expected to reach for decades, effectively offering a preview of the future.",
-      "evidence_locator": {
-        "paragraph": "C",
-        "sentence": 3
-      },
-      "explanation": "Paragraph C says that the reef at Maug has already been living for years in conditions the wider ocean is not expected to reach for decades, so that the site effectively offers a preview of the future; the gap asks what the authors call the site, so the answer is 'preview'.",
-      "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_basis": "guess",
-      "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: guess. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md",
-      "flag_mechanism": "esdizim_kilidi",
-      "revision": {
-        "tarih": "2026-08-08",
-        "mekanizma": "esdizim_kilidi",
-        "onceki_prompt": "Because its reef has already spent years in water the rest of the ocean will not reach for decades, Maug amounts to a (8) ........ of what is coming.",
-        "ne_degisti": "Kaliplasmis 'a ___ of what is coming' cercevesi kaldirildi; bu cerceve bosluga tek bir dogal tamamlama birakiyordu. Yeni cumlede bosluk cumle sonunda ve cerceveden okunamiyor (warning, benchmark, window adaylari da uyuyor), dogru sozcuk ancak C paragrafindaki cumleden bulunuyor. 7. sorunun cevabi olan 'laboratory tank' ifadesi bilincli olarak yeni metne alinmadi."
+      "blind_solvable": false,
+      "blind_basis": null,
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "faz": "FAZ 1 / B3 yeniden uretim (UYGULAMA-PLANI 1.5)",
+        "yeni_pasaj": "A13",
+        "eski_pasaj": "A02",
+        "eski_prompt": "Questions 4-6 refer to Passage A02. Each pair had a tank to itself, fed with (4) ........ that was held at an unchanging temperature.",
+        "eski_cevap": [
+          "running seawater"
+        ],
+        "neden_elendi": "esdizim_kilidi: ahtapot tankina ne verildigi soruldugunda bas ad zorunlu olarak 'seawater' oluyordu.",
+        "ne_degisti": "Kalem bastan yazildi ve A13'e baglandi. Bosluk bir ad obeginin degil, hesaplanmis bir farkin degerine acildi; yuzde 'per cent' cerceveye alinarak iki kelime siniri korundu.",
+        "recete_sinamasi": "Kok metinsiz okundu: 20, 40, 80 gibi her yuzde ayni olcude oturuyor. GECTI."
       }
     },
     {
-      "number": 9,
-      "passage_id": "A03",
-      "prompt": "The site is so useful because an actual reef community can be measured instead of a (9) ........ being modelled.",
+      "number": 5,
+      "passage_id": "A13",
+      "prompt": "In Murugan's trial the culture that worked most efficiently was the one grown to an optical density of (5) ........",
       "answer": [
-        "hypothetical future"
+        "0.4"
       ],
       "accepted_variants": [
-        "hypothetical future"
+        "0.4"
       ],
-      "evidence": "That is the same order of change scientists project for the global ocean as a whole due to human carbon dioxide emissions, which is what makes the site so valuable: rather than modelling a hypothetical future, researchers can measure how a real reef community actually behaves under it.",
+      "evidence": "The middle of the range proved the most efficient: at an optical density of 0.4, roughly 50 grams of precipitate per litre appeared within about six hours, whereas the most dilute culture needed more than 35 hours to reach the same stage.",
       "evidence_locator": {
-        "paragraph": "E",
-        "sentence": 2
+        "paragraph": "G",
+        "sentence": 3
       },
-      "explanation": "Paragraph E states that researchers can measure how a real reef community behaves rather than modelling a hypothetical future, so the answer is 'hypothetical future'.",
-      "difficulty": "hard",
+      "explanation": "Paragraph G says the middle of the range proved most efficient, with an optical density of 0.4 producing roughly 50 grams of precipitate per litre in about six hours, so the answer is '0.4'.",
+      "difficulty": "medium",
       "status": "verified",
-      "blind_solvable": false
+      "blind_solvable": false,
+      "blind_basis": null,
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "faz": "FAZ 1 / B3 yeniden uretim (UYGULAMA-PLANI 1.5)",
+        "yeni_pasaj": "A13",
+        "eski_pasaj": "A02",
+        "eski_prompt": "An octopus put back with a partner it already knew delayed (5) ........ and was inclined to hold back at a wary distance.",
+        "eski_cevap": [
+          "first contact"
+        ],
+        "neden_elendi": "Kanit cumlesi test havuzuna ait A02 pasajindaydi; alistirma havuzu ile test havuzu ayrildi (PLAN-EK-kurallar 1).",
+        "ne_degisti": "Kalem bastan yazildi ve A13'e baglandi. Cevap calismanin taradigi araligin icinden secilmis bir deger; 'en verimli' olmasi cerceveden degil G/3'ten okunuyor.",
+        "recete_sinamasi": "Kok metinsiz okundu: 0.1'den 1.0'a kadar her deger oturuyor, tek aday cikmiyor. GECTI."
+      }
     },
     {
-      "number": 10,
-      "passage_id": "A04",
-      "prompt": "Questions 10-12 refer to Passage A04. A faint point of light was tracked against the background stars over a stretch of roughly (10) ........",
+      "number": 6,
+      "passage_id": "A13",
+      "prompt": "Before their spores were added, the mortar bars in Stanaszek-Tomal's study each held five per cent of a (6) ........",
       "answer": [
-        "six hours"
+        "polycarboxylate resin"
       ],
       "accepted_variants": [
-        "six hours",
-        "6 hours"
+        "polycarboxylate resin",
+        "polycarboxylate"
       ],
-      "evidence": "On 2 February 2025, Webb's Near-Infrared Camera captured a series of ten long-exposure images, each lasting forty minutes, over a period of roughly six hours, tracking a faint point of light moving against the background of stars in a pattern consistent with an object orbiting Uranus itself.",
+      "evidence": "Mortar bars containing five per cent of a polycarboxylate resin were seeded with the spores of two common moulds and kept at 25 degrees Celsius and 95 per cent humidity for 18 months.",
       "evidence_locator": {
-        "paragraph": "B",
+        "paragraph": "H",
         "sentence": 2
       },
-      "explanation": "Paragraph B says the faint point of light was tracked against the background of stars over a period of roughly six hours; so the answer is 'six hours'.",
+      "explanation": "Paragraph H says the mortar bars contained five per cent of a polycarboxylate resin before being seeded with mould spores, so the answer is 'polycarboxylate resin'.",
+      "difficulty": "hard",
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "faz": "FAZ 1 / B3 yeniden uretim (UYGULAMA-PLANI 1.5)",
+        "yeni_pasaj": "A13",
+        "eski_pasaj": "A02",
+        "eski_prompt": "An octopus does not have to pick out a (6) ........ ; sorting the animals it meets into two broad groups is enough.",
+        "eski_cevap": [
+          "unique individual"
+        ],
+        "neden_elendi": "esdizim_kilidi: 'birini tek tek ayirt etmek zorunda degil' iddiasinin bas adi zorunlu olarak 'individual' oluyordu.",
+        "ne_degisti": "Kalem bastan yazildi ve A13'e baglandi. Bosluk bir kavramin adina degil, calismanin karisimina koydugu somut katki maddesinin adina acildi. Bas ad cerceveden okunamiyor: katkinin adi cimento kimyasinda cok sayida secenekten biri.",
+        "recete_sinamasi": "Kok metinsiz okundu: silika dumani, ucucu kul, akrilik recine, lateks gibi adaylar ayni olcude oturuyor. GECTI."
+      }
+    },
+    {
+      "number": 7,
+      "passage_id": "A14",
+      "prompt": "Questions 7-9 refer to Passage A14. Results sitting in the narrow band just below the threshold made up about (7) ........ per cent of the papers whose authors had not shared.",
+      "answer": [
+        "seventeen"
+      ],
+      "accepted_variants": [
+        "seventeen",
+        "17"
+      ],
+      "evidence": "Results falling in the narrow band just below the threshold made up about seventeen per cent of the non-sharing group and about nine per cent of the sharing group.",
+      "evidence_locator": {
+        "paragraph": "G",
+        "sentence": 3
+      },
+      "explanation": "Paragraph G says results falling in the narrow band just below the threshold made up about seventeen per cent of the non-sharing group, so the answer is 'seventeen'.",
       "difficulty": "easy",
       "status": "verified",
       "blind_solvable": false,
       "blind_basis": null,
       "generated_by": "opus",
       "yeniden_uretim": {
-        "tarih": "2026-08-08",
-        "kaynak_prompt": "prompts/OPUS5-E6-yeniden-uretim.md (6/7)",
-        "uretilen_grup": "Tamamlama ailesi yuvalari",
-        "eski_prompt": "Questions 10-12 refer to Passage A04. In order of distance outwards from the Sun, Uranus comes (10) ........",
+        "tarih": "2026-08-18",
+        "faz": "FAZ 1 / B3 yeniden uretim (UYGULAMA-PLANI 1.5)",
+        "yeni_pasaj": "A14",
+        "eski_pasaj": "A03",
+        "eski_prompt": "Questions 7-9 refer to Passage A03. What Maug gives researchers is something that no (7) ........ is able to reproduce completely.",
         "eski_cevap": [
-          "seventh"
+          "laboratory tank"
         ],
-        "eski_kanit_cumlesi": "Uranus, the seventh planet from the Sun, is already known for an unusually crowded family of moons and a tilted, tangled system of rings.",
-        "neden_elendi": "Cevabin kendisi bir dunya bilgisi: Uranus'un Gunes'ten yedinci gezegen olmasi temel astronomi; model uc turda da 'seventh' yazdi (3/3 PUAN). Soru kokunun kendisi ('in order of distance outwards from the Sun') zaten dunya bilgisini cagiriyor. E6 onerisi: A/1'in oteki yarisi - uydu ailesinin kalabalikligi ya da halka sisteminin egikligi.",
-        "ne_degisti": "Eski soru A/1'e capaliydi ve cevap ('seventh') temel astronomi bilgisiydi; soru kokunun kendisi de dunya bilgisini cagiriyordu. Yeni yuva A paragrafina hic degmiyor: kanit B/2'ye, gozlem penceresinin uzunluguna tasindi. Bu sure yalniz gozlem kaydindan okunur. Pozlarin sayisi (on) ve tek poz suresi (kirk dakika) bilerek cerceveye alinmadi, boylece aritmetikle turetilemiyor."
+        "neden_elendi": "esdizim_kilidi: 'hicbir X bunu tam taklit edemez' cercevesi bilimsel bir metinde bas adi zorunlu olarak laboratuvar yapiyordu.",
+        "ne_degisti": "Kalem bastan yazildi ve A14'e baglandi. Bosluk kalibin ucundaki ad obegine degil, calismanin kendi olctugu bir orana acildi.",
+        "recete_sinamasi": "Kok metinsiz okundu: herhangi bir yuzde oturuyor, tek aday yok. GECTI.",
+        "kaydirma": {
+          "tarih": "2026-08-18",
+          "onceki_kanit": "A14 B/2 (forty-nine papers) - cevap 'forty-nine'",
+          "yeni_kanit": "A14 G/3 - cevap 'seventeen'",
+          "neden": "Paketler arasi cakisma: short-answer.json 3. kalem ayni cumleden 'six months' degerini soruyordu (kanit cumlesi basina en cok 1 soru). Ayrica A14 B paragrafi kisa cevap paketine 'baska sorunun dokunmadigi paragraf' kuraliyla rezerve edildi. Yeni yuva G paragrafinda; C ve H sende zaten doluydu.",
+          "yeni_recete_sinamasi": "Yeni kok metinsiz okundu: 'esikte kalan sonuclar paylasmayan grubun yaklasik ___ yuzdesini olusturdu' - 10, 15, 20, 25 gibi adaylar ayni olcude oturuyor; kok karsilastirma degerini (paylasan grup icin yuzde dokuz) bilerek disarida biraktigi icin ayrica turetilemiyor. GECTI."
+        }
+      }
+    },
+    {
+      "number": 8,
+      "passage_id": "A14",
+      "prompt": "Three teams answered that their files were gone, lost in an (8) ........ or left behind on a machine that had since been replaced.",
+      "answer": [
+        "office move"
+      ],
+      "accepted_variants": [
+        "office move"
+      ],
+      "evidence": "Three replied that the files no longer existed, lost in an office move or left on a machine long since replaced.",
+      "evidence_locator": {
+        "paragraph": "C",
+        "sentence": 4
+      },
+      "explanation": "Paragraph C says three teams replied that the files no longer existed, lost in an office move or left on a machine long since replaced, so the answer is 'office move'.",
+      "difficulty": "medium",
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "faz": "FAZ 1 / B3 yeniden uretim (UYGULAMA-PLANI 1.5)",
+        "yeni_pasaj": "A14",
+        "eski_pasaj": "A03",
+        "eski_prompt": "Its reef has already spent years in water the rest of the ocean will not reach for decades, which is why the authors describe the site as a (8) ........ .",
+        "eski_cevap": [
+          "preview"
+        ],
+        "neden_elendi": "E7 parcasiz olcumde uc turun ucunde de bilindi (dayanak: guess); cerceve boslugu tek bir dogal tamamlamaya birakiyordu.",
+        "ne_degisti": "Kalem bastan yazildi ve A14'e baglandi. Bosluk, metnin sayip gectigi iki somut kayip nedeninden birine acildi; kok ikinci nedeni acikca veriyor, dolayisiyla bosluk 'dosya nasil kaybolur' kalibinin ucunda degil.",
+        "recete_sinamasi": "Kok metinsiz okundu: yangin, su baskini, bilgisayar cokmesi, sabit disk arizasi gibi adaylar ayni olcude oturuyor. GECTI."
+      }
+    },
+    {
+      "number": 9,
+      "passage_id": "A14",
+      "prompt": "A separate survey of psychologists found that only about (9) ........ of them kept their files in a form likely to last.",
+      "answer": [
+        "a third"
+      ],
+      "accepted_variants": [
+        "a third",
+        "one third",
+        "one-third"
+      ],
+      "evidence": "Keeping material in retrievable order is itself a skill, and a survey of one hundred and ninety-two psychologists found that only about a third stored their files in a form likely to survive the years; most relied on personal computers, discs or an office shelf.",
+      "evidence_locator": {
+        "paragraph": "H",
+        "sentence": 5
+      },
+      "explanation": "Paragraph H reports a survey finding that only about a third of the psychologists stored their files in a form likely to survive the years, so the answer is 'a third'.",
+      "difficulty": "hard",
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "faz": "FAZ 1 / B3 yeniden uretim (UYGULAMA-PLANI 1.5)",
+        "yeni_pasaj": "A14",
+        "eski_pasaj": "A03",
+        "eski_prompt": "The site is so useful because an actual reef community can be measured instead of a (9) ........ being modelled.",
+        "eski_cevap": [
+          "hypothetical future"
+        ],
+        "neden_elendi": "Kanit cumlesi test havuzuna ait A03 pasajindaydi; alistirma havuzu ile test havuzu ayrildi (PLAN-EK-kurallar 1).",
+        "ne_degisti": "Kalem bastan yazildi ve A14'e baglandi. Bosluk bir oran degerine acildi ve cerceve hicbir orani zorunlu kilmiyor.",
+        "recete_sinamasi": "Kok metinsiz okundu: yarisi, dortte biri, yuzde onu gibi adaylar ayni olcude oturuyor. GECTI."
+      }
+    },
+    {
+      "number": 10,
+      "passage_id": "A17",
+      "prompt": "Questions 10-12 refer to Passage A17. Every coupon was sandblasted before use and then held in frames made of (10) ........",
+      "answer": [
+        "polypropylene"
+      ],
+      "accepted_variants": [
+        "polypropylene"
+      ],
+      "evidence": "Every coupon was sandblasted first, so that no material began with an advantage in smoothness, and then held in frames of polypropylene.",
+      "evidence_locator": {
+        "paragraph": "D",
+        "sentence": 3
+      },
+      "explanation": "Paragraph D says every coupon was sandblasted first and then held in frames of polypropylene, so the answer is 'polypropylene'.",
+      "difficulty": "medium",
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "faz": "FAZ 1 / B3 yeniden uretim (UYGULAMA-PLANI 1.5)",
+        "yeni_pasaj": "A17",
+        "eski_pasaj": "A04",
+        "eski_prompt": "Questions 10-12 refer to Passage A04. A faint point of light was tracked against the background stars over a stretch of roughly (10) ........",
+        "eski_cevap": [
+          "six hours"
+        ],
+        "neden_elendi": "Kanit cumlesi test havuzuna ait A04 pasajindaydi ve pasajin butunu gercek bir gozlem olayina dayaniyordu (PLAN-EK-kurallar 1 ve 4).",
+        "ne_degisti": "Kalem bastan yazildi ve A17'ye baglandi. Bosluk duzenegin gercek bir ayrintisina acildi; cerceve malzemeyi zorunlu kilmiyor, cunku bir cerceve malzemesi metal de plastik de olabilir.",
+        "recete_sinamasi": "Kok metinsiz okundu: PVC, naylon, paslanmaz celik, titanyum gibi adaylar ayni olcude oturuyor. GECTI."
       }
     },
     {
       "number": 11,
-      "passage_id": "A04",
-      "prompt": "Until a permanent name is settled, the moon is listed under the provisional label (11) ........",
+      "passage_id": "A17",
+      "prompt": "Averaged over the trial, a bare titanium plate carried (11) ........ grams of growth, the smallest amount of the three materials.",
       "answer": [
-        "S/2025 U1"
+        "5.4"
       ],
       "accepted_variants": [
-        "S/2025 U1"
+        "5.4"
       ],
-      "evidence": "The newly found body has been given the provisional designation S/2025 U1.",
+      "evidence": "Averaged across the trial, a bare plate of high-density polyethylene carried 10.2 grams of accumulated growth, stainless steel carried 7.6 grams and titanium only 5.4 grams.",
       "evidence_locator": {
-        "paragraph": "C",
-        "sentence": 1
+        "paragraph": "G",
+        "sentence": 2
       },
-      "explanation": "Paragraph C says the newly found body has been given the provisional designation S/2025 U1; so the answer is 'S/2025 U1'.",
+      "explanation": "Paragraph G gives the average accumulated growth for each material and states that titanium carried only 5.4 grams, the lowest of the three, so the answer is '5.4'.",
       "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_basis": "general_knowledge",
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
       "generated_by": "opus",
       "yeniden_uretim": {
-        "tarih": "2026-08-08",
-        "kaynak_prompt": "prompts/OPUS5-E6-yeniden-uretim.md (6/7)",
-        "uretilen_grup": "Tamamlama ailesi yuvalari",
-        "eski_prompt": "Being too small for the instruments of the day to resolve, the moon circled Uranus unseen for almost (11) ........ after the 1986 flyby.",
+        "tarih": "2026-08-18",
+        "faz": "FAZ 1 / B3 yeniden uretim (UYGULAMA-PLANI 1.5)",
+        "yeni_pasaj": "A17",
+        "eski_pasaj": "A04",
+        "eski_prompt": "Until a permanent name is settled, the moon is listed under the provisional label (11) ........",
         "eski_cevap": [
-          "forty years"
+          "S/2025 U1"
         ],
-        "eski_kanit_cumlesi": "Its size simply placed it below the threshold that Voyager's instruments, or any Earth-based telescope in the decades since, could resolve, meaning the moon had been circling Uranus unnoticed for the nearly forty years between that flyby and Webb's observations.",
-        "neden_elendi": "Sizinti aritmetik ve kapatilamiyor: cumle 1986 ucusunu veriyor, gunumuz tarihi de disaridan biliniyor, ikisinin farki dogrudan 'forty years' ediyor; model uc turda da '40 years' yazdi (kabul listesinde var, 3/3 PUAN). Cumleden 1986'yi kaldirmak yariya kalir, cunku Voyager 2'nin Uranus'e 1986'da ugradigi ayrica dunya bilgisidir - ayni depodaki practice/short-answer 4 bunun kaniti: model o tarihi gun gun bilerek yazdi. E6 onerisi: F/3'un cozunurluk esigi gerekcesi ya da uydunun yaklasik on kilometrelik capi.",
-        "ne_degisti": "Eski soru F/3'e capaliydi ve sizinti aritmetikti: cumle 1986 ucusunu veriyordu, gunumuz tarihi disaridan biliniyordu, fark dogrudan 'forty years' ediyordu. Yeni yuva F paragrafina hic degmiyor: kanit C/1'e tasindi. Bu yuvada istenen sey adlandirma gelenegi degil (E5 AC2-2'yi tam da onun icin elemisti) kodun kendisidir; S/2025 U1 dizisi pasaj disindan hicbir bicimde turetilemez."
-      },
-      "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: general_knowledge. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md"
+        "neden_elendi": "genel_kultur: E7 parcasiz olcumde uc turun ucunde de bilindi; kod haber metinlerinden ezberlenebilir durumdaydi.",
+        "ne_degisti": "Kalem bastan yazildi ve A17'ye baglandi. Cevap calismanin kendi tartisinda olctugu bir kutle; disaridan dogrulanabilir hicbir karsiligi yok.",
+        "recete_sinamasi": "Kok metinsiz okundu: herhangi bir kucuk gram degeri oturuyor, tek aday yok. GECTI."
+      }
     },
     {
       "number": 12,
-      "passage_id": "A04",
-      "prompt": "Its orbit lies about (12) ........ from the centre of Uranus, in a gap between two moons that were already known.",
+      "passage_id": "A17",
+      "prompt": "Once the surviving readings had been sorted by sequence, they fell into (12) ........ distinct types.",
       "answer": [
-        "56,000 kilometres"
+        "3,655"
       ],
       "accepted_variants": [
-        "56,000 kilometres",
-        "56,000 kilometers",
-        "56,000 km",
-        "35,000 miles"
+        "3,655",
+        "3655"
       ],
-      "evidence": "Its orbit lies roughly 35,000 miles, or 56,000 kilometres, from the centre of Uranus, in the gap between two previously known moons, Ophelia and Bianca.",
+      "evidence": "Sorted by sequence, the survivors fell into 3,655 distinct types, with individual samples holding anywhere between 56 and 1,167 of them.",
       "evidence_locator": {
-        "paragraph": "D",
-        "sentence": 1
+        "paragraph": "H",
+        "sentence": 3
       },
-      "explanation": "Paragraph D says the orbit lies roughly 35,000 miles, or 56,000 kilometres, from the centre of Uranus, in the gap between two previously known moons; so the answer is '56,000 kilometres' (or the same distance in miles).",
-      "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_basis": "general_knowledge",
+      "explanation": "Paragraph H says that, sorted by sequence, the surviving readings fell into 3,655 distinct types, so the answer is '3,655'.",
+      "difficulty": "hard",
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
       "generated_by": "opus",
       "yeniden_uretim": {
-        "tarih": "2026-08-08",
-        "kaynak_prompt": "prompts/OPUS5-E6-yeniden-uretim.md (6/7)",
-        "uretilen_grup": "Tamamlama ailesi yuvalari",
-        "eski_prompt": "At this stage the find counts as (12) ........ , since it has not yet been through peer review.",
+        "tarih": "2026-08-18",
+        "faz": "FAZ 1 / B3 yeniden uretim (UYGULAMA-PLANI 1.5)",
+        "yeni_pasaj": "A17",
+        "eski_pasaj": "A04",
+        "eski_prompt": "Its orbit lies about (12) ........ from the centre of Uranus, in a gap between two moons that were already known.",
         "eski_cevap": [
-          "ongoing research"
+          "56,000 kilometres"
         ],
-        "eski_kanit_cumlesi": "For now, the discovery remains part of ongoing research rather than a finished, peer-reviewed result, but it illustrates a broader pattern in planetary astronomy: each generation of instruments reveals objects that the previous generation's technology, however capable at the time, simply could not see.",
-        "neden_elendi": "Model parcasiz uc turda da 'preliminary' verdi: cevabin ('ongoing research') butun icerigini baska bir sozcukle karsiladi, yani eksik birakilan hicbir ayirt edici oge yok. Sizinti soru metninin bir yan cumlesinden degil, boslugun hedefinden geliyor: 'henuz hakem degerlendirmesinden gecmemis bulgu' kavraminin Ingilizcede hazir karsiligi vardir ve 'bitmis sonuc degil' karsitligini tasimayan bir cerceve de kurulamiyor, cunku kanit cumlesinin (H/1) ilk yarisi tam olarak bu karsitliktir. E6 onerisi: ayni cumlenin ikinci yarisi -- her yeni kusak aracin, onceki kusagin goremedigi nesneleri ortaya cikarmasi -- ya da H/2'deki El Moutamid degerlendirmesi.",
-        "ne_degisti": "Eski soru H/1'e capaliydi; model parcasiz uc turda da 'preliminary' vererek cevabin ('ongoing research') butun icerigini karsiladi, cunku 'hakem degerlendirmesinden gecmemis bulgu' kavraminin hazir bir Ingilizce karsiligi var. Yeni yuva H paragrafina hic degmiyor: kanit D/1'e, yorungenin gezegen merkezine uzakligina tasindi. Sayi olculmus bir buyukluk; kavramdan turetilemez."
-      },
-      "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: general_knowledge. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md"
+        "neden_elendi": "genel_kultur: E7 parcasiz olcumde uc turun ucunde de bilindi; deger kamuya acik gozlem haberlerinden turetilebiliyordu.",
+        "ne_degisti": "Kalem bastan yazildi ve A17'ye baglandi. Cevap yalniz bu calismanin dizileme cikti sayisidir; ne aritmetikle ne de disaridan turetilebilir.",
+        "recete_sinamasi": "Kok metinsiz okundu: dort haneli herhangi bir sayi oturuyor, tek aday yok. GECTI."
+      }
     },
     {
       "number": 13,
-      "passage_id": "A05",
-      "prompt": "Questions 13-15 refer to Passage A05. The settlement first came to attention in (13) ........ , although thorough digging did not begin until 1961.",
+      "passage_id": "A18",
+      "prompt": "Questions 13-15 refer to Passage A18. Across the library, the average distance between a species and its nearest neighbour was (13) ........ per cent.",
       "answer": [
-        "1952"
+        "4.48"
       ],
       "accepted_variants": [
-        "1952"
+        "4.48"
       ],
-      "evidence": "Occupied from roughly 7400 to 6000 BC, it was first noticed in 1952 and then excavated in detail between 1961 and 1965 by the British archaeologist James Mellaart.",
+      "evidence": "Across this library the average difference within a species was 0.59 per cent, while the average distance to the nearest neighbour was 4.48 per cent.",
       "evidence_locator": {
-        "paragraph": "A",
-        "sentence": 2
+        "paragraph": "D",
+        "sentence": 3
       },
-      "explanation": "Paragraph A states that the settlement was first noticed in 1952, while detailed excavation took place between 1961 and 1965, so the answer is '1952'.",
-      "difficulty": "easy",
+      "explanation": "Paragraph D states that the average distance to the nearest neighbour across the library was 4.48 per cent, so the answer is '4.48'.",
+      "difficulty": "medium",
       "status": "verified",
-      "blind_solvable": false
+      "blind_solvable": false,
+      "blind_basis": null,
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "faz": "FAZ 1 / B3 yeniden uretim (UYGULAMA-PLANI 1.5)",
+        "yeni_pasaj": "A18",
+        "eski_pasaj": "A05",
+        "eski_prompt": "Questions 13-15 refer to Passage A05. The settlement first came to attention in (13) ........ , although thorough digging did not begin until 1961.",
+        "eski_cevap": [
+          "1952"
+        ],
+        "neden_elendi": "Kanit cumlesi test havuzuna ait A05 pasajindaydi ve tarih gercek bir kazi kaydindan geliyordu (PLAN-EK-kurallar 1 ve 4).",
+        "ne_degisti": "Kalem bastan yazildi ve A18'e baglandi. Cevap bu kitapligin kendi hesapladigi bir ortalama; cerceve hicbir degeri isaret etmiyor.",
+        "recete_sinamasi": "Kok metinsiz okundu: her ondalik yuzde degeri oturuyor, tek aday yok. GECTI."
+      }
     },
     {
       "number": 14,
-      "passage_id": "A05",
-      "prompt": "For the team, the sequences point to an early (14) ........ in the growing of hexaploid wheat.",
+      "passage_id": "A18",
+      "prompt": "Barcodes failed for 22 species, or (14) ........ per cent of the resident total, whose sequences were interleaved with those of a close relative.",
       "answer": [
-        "transitional stage"
+        "10.1"
       ],
       "accepted_variants": [
-        "transitional stage"
+        "10.1"
       ],
-      "evidence": "The researchers interpret this as evidence of an early, transitional stage in the cultivation of hexaploid wheat, and note that this is the first genetic evidence hinting at the presence of a spelt-like wheat in the Neolithic Near East at all, a possibility they treat cautiously given how limited the surviving evidence is.",
+      "evidence": "The remaining 22 species, 10.1 per cent of the total, failed in the same way: their sequences did not form a cluster of their own but were interleaved with those of a close relative.",
       "evidence_locator": {
         "paragraph": "F",
-        "sentence": 2
+        "sentence": 1
       },
-      "explanation": "Paragraph F states that the researchers interpret the finding as an early transitional stage in the cultivation of hexaploid wheat, so the answer is 'transitional stage'.",
+      "explanation": "Paragraph F says the remaining 22 species, 10.1 per cent of the total, failed because their sequences were interleaved with those of a close relative, so the answer is '10.1'.",
       "difficulty": "medium",
       "status": "verified",
-      "blind_solvable": false
+      "blind_solvable": false,
+      "blind_basis": null,
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "faz": "FAZ 1 / B3 yeniden uretim (UYGULAMA-PLANI 1.5)",
+        "yeni_pasaj": "A18",
+        "eski_pasaj": "A05",
+        "eski_prompt": "For the team, the sequences point to an early (14) ........ in the growing of hexaploid wheat.",
+        "eski_cevap": [
+          "transitional stage"
+        ],
+        "neden_elendi": "Kanit cumlesi test havuzuna ait A05 pasajindaydi; alistirma havuzu ile test havuzu ayrildi (PLAN-EK-kurallar 1).",
+        "ne_degisti": "Kalem bastan yazildi ve A18'e baglandi. Bosluk 'erken bir X asamasi' gibi bir kalibin ucunda degil; cevap bu kitapligin kendi basarisizlik oranidir. Oran ancak yerlesik tur sayisi (217) bilinirse turetilebilir, o da yalniz metinde.",
+        "recete_sinamasi": "Kok metinsiz okundu: 22 sayisi verilse bile pay bilinmedigi icin oran cikmiyor. GECTI."
+      }
     },
     {
       "number": 15,
-      "passage_id": "A05",
-      "prompt": "Studying ancient DNA brings to light parts of farming history that the (15) ........ could never detect.",
+      "passage_id": "A18",
+      "prompt": "The widest internal split of all, 5.63 per cent, was found inside a single (15) ........",
       "answer": [
-        "naked eye"
+        "burnet moth"
       ],
       "accepted_variants": [
-        "naked eye"
+        "burnet moth"
       ],
-      "evidence": "More broadly, the study demonstrates that examining ancient DNA can uncover agricultural history that is simply invisible to the naked eye, since grains that look like one species under a microscope can turn out, genetically, to be something else entirely.",
+      "evidence": "The widest internal split, 5.63 per cent, was found within one burnet moth.",
       "evidence_locator": {
-        "paragraph": "H",
-        "sentence": 1
+        "paragraph": "G",
+        "sentence": 3
       },
-      "explanation": "Paragraph H states that studying ancient DNA can uncover agricultural history that is invisible to the naked eye, so the answer is 'naked eye'.",
+      "explanation": "Paragraph G says the widest internal split, 5.63 per cent, was found within one burnet moth, so the answer is 'burnet moth'.",
       "difficulty": "hard",
       "status": "verified",
-      "blind_solvable": false
+      "blind_solvable": false,
+      "blind_basis": null,
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "faz": "FAZ 1 / B3 yeniden uretim (UYGULAMA-PLANI 1.5)",
+        "yeni_pasaj": "A18",
+        "eski_pasaj": "A05",
+        "eski_prompt": "Studying ancient DNA brings to light parts of farming history that the (15) ........ could never detect.",
+        "eski_cevap": [
+          "naked eye"
+        ],
+        "neden_elendi": "Kalip kilidi: 'gozle gorulemeyen' karsitligi bosluga tek bir dogal tamamlama birakiyordu ve kanit cumlesi test havuzundaki A05'e aitti.",
+        "ne_degisti": "Kalem bastan yazildi ve A18'e baglandi. Bosluk bir deyim kalibinin ucuna degil, en genis ayrismanin bulundugu somut gruba acildi; hangi kelebek ya da guve grubu oldugu yalniz G/3'ten okunur.",
+        "recete_sinamasi": "Kok metinsiz okundu: kelebek/guve adlarindan bircogu ayni olcude oturuyor, tek aday yok. GECTI."
+      }
     }
   ]
 }

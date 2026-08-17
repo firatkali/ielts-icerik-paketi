@@ -120,7 +120,8 @@
         "neden_elendi": "Kanit cumlesi (D/3) yalniz 'yiyecek yeri degistiginde Kandula kupu yeni noktaya yuvarladi' diyor; bu cumleden cikarilabilecek her dogru ifade 'akilli hayvan yeni duruma uyum sagladi' bicimini aliyor. Uyum saglama, akilli hayvan calismalarinin standart kanit yapisi olarak beklendigi icin cevap eksen degistirilmeden kapanmiyor; ekseni degistirmek ise kanit cumlesini degistirmek demek, talimat bunu yarim duzeltme sayiyor. E6 bu yuvayi D paragrafinin sayisal ya da nesnel ayrintilarina capalamali (ayni oturumda dokuz kez tekrarlamasi, kup kaldirilinca traktor lastigine gecmesi, kucuk nesneleri ust uste koyma denemesinin basarisiz olmasi).",
         "ne_degisti": "Eski ifade D/3'e capaliydi ve ekseni 'akilli hayvan yeni duruma uyum saglar' beklentisiydi; bu, akilli hayvan calismalarinin standart kanit yapisi oldugu icin cevap pasajsiz cikiyordu. Yeni ifade D/3'e hic degmiyor: kanit E5'in kendi onerdigi noktaya, D/4'teki basarisiz istifleme denemesine tasindi. Metin bu denemeyi tek bir zarfla ('less successfully') nitelendirdigi icin cevap yalniz o zarftan cikiyor; yuvanin cevabi da TRUE'dan FALSE'a dondu, boylece 'etkileyici yetenek iddiasi -> TRUE' ekseni AC1'de bir kez daha kirildi. Kanit ayni test icindeki AC1 not tamamlama 4 ile ayni cumleyi paylasiyor ama onun hedefi cumlenin traktor lastigi yarisi; bu yuva yalniz kucuk nesneler yarisini kullaniyor."
       },
-      "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: option_wording. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md"
+      "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: option_wording. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md",
+      "flag_mechanism": "secenek_sozu"
     },
     {
       "number": 11,

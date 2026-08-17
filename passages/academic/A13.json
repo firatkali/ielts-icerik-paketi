@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0",
+  "exam": "ielts",
+  "passage_id": "A13",
+  "module": "academic",
+  "section": null,
+  "title": "The Concrete That Mends Its Own Cracks",
+  "topic": "engineering / materials science",
+  "word_count": 896,
+  "paragraphs": [
+    {
+      "label": "A",
+      "text": "Concrete's greatest weakness is also its most ordinary one: it cracks. Shrinkage as it dries, shifting loads and the slow settling of the ground beneath a structure all open narrow channels through the hardened cement paste. Once a channel reaches the outside air, water and oxygen travel along it into the interior and attack the steel bars that give the material its tensile strength. Finding such damage is rarely straightforward in a tunnel lining or a foundation slab, so materials scientists have pursued a more elegant answer: a mix that seals its own cracks."
+    },
+    {
+      "label": "B",
+      "text": "One line of work packs the repair material into the concrete in advance. A team led by Li built tiny capsules with a rigid polymer shell around a liquid epoxy core, most of them between 100 and 150 micrometres across, and stirred them into a cement paste mixed at a water-to-cement ratio of 0.3. The capsules are meant to be the weakest bodies in the hardened paste, so that a crack splits them open and releases the adhesive into the gap, where it hardens and bonds the two faces. Two doses were compared, one and two per cent of the mass of the cement."
+    },
+    {
+      "label": "C",
+      "text": "The researchers cast notched bars measuring 40 by 40 by 160 millimetres and loaded each specimen to 30, 60 or 100 per cent of the force needed to destroy it. The damaged bars were then left for a single day before being loaded again. Mixes carrying capsules recovered strength that the control mix did not, and the best result came from the lower dose paired with the lightest damage. Doubling the capsule content did not double the benefit. Stiffness barely moved in any mix, which the authors attribute to its being a property of the whole specimen rather than of the narrow healing zone."
+    },
+    {
+      "label": "D",
+      "text": "Li's group also followed the repair as it happened, by a second route. Flat discs cut from the same material were stood in shallow water and weighed repeatedly; the rate at which they drew liquid upwards revealed how open their internal channels still were. In specimens holding the lower dose, absorption began to slow about a day after damage, roughly the time the epoxy needs to set, and then fell sharply at four days. The heavier dose behaved differently: those specimens took up more water overall, because the surfactant used in making the capsules had left extra voids in the paste."
+    },
+    {
+      "label": "E",
+      "text": "Whether a crack meets a capsule at all is a matter of geometry, which Lv and Chen set out to describe. Instead of casting specimens, they modelled a crack cutting at random through a capsule-seeded material and calculated how much liquid reached each unit of crack surface. Holding capsule volume and a volume fraction of 0.10 constant, they replaced spheres with elongated capsules shaped like cylinders with rounded ends. At an aspect ratio of five, the elongated form delivered about 57 per cent more healing agent than the spherical one. Their wider point corrected earlier claims: shape alone decides nothing, since the advantage also depends on volume."
+    },
+    {
+      "label": "F",
+      "text": "A different school of thought puts something alive inside the material. Certain soil bacteria, among them Sporosarcina pasteurii, break down urea and raise the alkalinity of their surroundings until dissolved calcium settles out around them as solid carbonate. Sealed into concrete as dormant spores with a food supply, they wait, sometimes for years, until a crack admits the moisture that wakes them, and the mineral they deposit grows across the opening. In the laboratory the reaction is driven by a cementation medium built around 0.5 molar urea, which supplies the raw material the organisms consume."
+    },
+    {
+      "label": "G",
+      "text": "How many bacteria to add is less obvious than it sounds. Murugan and co-workers cultured the same species at optical densities from 0.1 to 0.5 and tracked how quickly each culture turned the medium into solid carbonate. The middle of the range proved the most efficient: at an optical density of 0.4, roughly 50 grams of precipitate per litre appeared within about six hours, whereas the most dilute culture needed more than 35 hours to reach the same stage. Higher concentrations raised the raw rate but not the yield per cell."
+    },
+    {
+      "label": "H",
+      "text": "Living agents can also work against the material that houses them, as a long study by Stanaszek-Tomal showed. Mortar bars containing five per cent of a polycarboxylate resin were seeded with the spores of two common moulds and kept at 25 degrees Celsius and 95 per cent humidity for 18 months. For the first six months the colonised bars grew stronger in bending, by 35 to 40 per cent, as carbonate crystals filled their pores. By twelve months the same bars had given up 21 to 27 per cent of that strength. The moulds sealed the material and then began to take it apart."
+    },
+    {
+      "label": "I",
+      "text": "The four approaches point in the same direction without agreeing on a route. Capsules act once, and only where a crack cuts them; bacteria can act repeatedly, but only while they remain alive and fed; and the fungal results are a reminder that a biological agent has an agenda of its own. What the evidence does not settle is how these mixes behave over the decades a structure must last. The most useful lesson so far may be the least dramatic: in every study, the best-performing mix was not the one carrying the most repair material."
+    }
+  ],
+  "texts": null,
+  "source": {
+    "origin": "PLOS ONE",
+    "title": "Self-Healing Efficiency of Cementitious Materials Containing Microcapsules Filled with Healing Adhesive (and three further PLOS ONE studies on capsule geometry, microbially induced carbonate precipitation and fungal colonisation of mortar)",
+    "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0081616",
+    "license": "CC BY 3.0 / CC BY 4.0",
+    "attribution": "Adapted from four PLOS ONE articles, all published under a Creative Commons Attribution licence: Li W, Jiang Z, Yang Z, Zhao N, Yuan W (2013) Self-Healing Efficiency of Cementitious Materials Containing Microcapsules Filled with Healing Adhesive, PLoS ONE 8(11): e81616 (CC BY 3.0); Lv Z, Li S, Chen H (2017) Analytical model for effects of capsule shape on the healing efficiency in self-healing materials, PLoS ONE 12(11): e0187299 (CC BY 4.0); Murugan R, Suraishkumar GK, Mukherjee A, Dhami NK (2021) Insights into the influence of cell concentration in design and development of microbially induced calcium carbonate precipitation (MICP) process, PLoS ONE 16(7): e0254536 (CC BY 4.0); Stanaszek-Tomal E (2024) Sealing and unsealing effect of filamentous fungi in CEM I cement mortars with polycarboxylic admixture, PLoS ONE 19(3): e0299221 (CC BY 4.0).",
+    "adapted": true
+  },
+  "notes": "Alistirma havuzu metni: pool = practice, assigned_test = null (INDEX.json'a en sonda tek elden yazilacak; bu dosyada mevcut pasaj semasi birebir korundu, ek alan eklenmedi). Dort ayri PLOS ONE makalesinin yontem/bulgu bolumlerinden yeniden yazildi; istatistik testleri, atif numaralari, sekil gondermeleri ve kimyasal formuller cikarildi. Ozellik eslestirme icin dort ad birakildi: Li (2 iddia: kapsul tasarimi/doz sonucu ve su emme takibi), Lv ve Chen (kapsul bicimi/en-boy orani), Murugan (optik yogunluk), Stanaszek-Tomal (once guclendirme sonra bozunma). Kisa cevap icin baska soru dokunmayacak iki paragraf ayrildi: D (dort gun) ve F (0.5 molar ure). NOT GIVEN alani icin metin su konularda bilerek sessiz: maliyet/fiyat, bu karisimlarin gercek bir yapida kullanilip kullanilmadigi, dort yaklasimin ortak bir olcutle karsilastirilmasi, calismalarin yapildigi ulke/kurum. Ozel adlarin tamami ASCII (Stanaszek-Tomal'in adi yalniz soyadiyla anildi)."
+}

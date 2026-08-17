@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0",
+  "exam": "ielts",
+  "passage_id": "A15",
+  "module": "academic",
+  "section": null,
+  "title": "Teaching a Plant to Defend Itself Faster",
+  "topic": "plant biology / chemical defence",
+  "word_count": 842,
+  "paragraphs": [
+    {
+      "label": "A",
+      "text": "Plants cannot walk away from the insects that eat them, so their protection is largely chemical. Part of that chemistry is permanent: bitter compounds and toughened tissue that sit in a leaf whether or not anything is chewing it. Much of it, however, is switched on only after damage occurs. Among the substances a wounded leaf gives off are volatiles, light airborne molecules that drift away from the injury and can be picked up some distance from the plant that produced them. A leaf that builds such chemistry only on demand is said to be induced, rather than permanently armed."
+    },
+    {
+      "label": "B",
+      "text": "Between the permanent state and the induced one lies a third condition, which researchers call priming. A primed plant has not yet built anything; it has merely been put on alert, and when an attack finally arrives it reacts sooner and more forcefully than an unprepared neighbour would. The distinction matters because defence is expensive. The researchers behind the study described here argue that a plant manufacturing protective chemicals around the clock pays for that insurance in lost growth, and that priming is the better bargain, since nothing is spent until a threat is real."
+    },
+    {
+      "label": "C",
+      "text": "The trigger they chose was cis-jasmone, a small molecule that many plants make naturally and release in larger quantities from damaged tissue. It is a relative of jasmonic acid, the hormone governing most wound responses, yet it seems to travel a separate route through the plant. Earlier work had established that treated plants became less appealing to certain insects. What nobody had settled was the more interesting question: does the compound switch defences on directly, or does it merely leave them poised? Distinguishing between those two possibilities was the whole purpose of the experiment."
+    },
+    {
+      "label": "D",
+      "text": "Maize seedlings of the variety Delprim, between ten and twelve days old, were sprayed with a 0.1 per cent water-based emulsion of the compound, while control seedlings received the wetting agent on its own. Both groups then went back to a glasshouse kept at twenty-five degrees, with sixteen hours of light in every twenty-four, and were left untouched for a full day before any insect came near them. Only after that waiting period were leafhoppers released onto the plants, at a density of one hundred insects to a single seedling."
+    },
+    {
+      "label": "E",
+      "text": "Discovering what the leaves were giving off required a sealed chamber around each seedling. Clean air entered at seven hundred millilitres a minute and was drawn out at six hundred, so that the small imbalance kept room air from seeping in. The outgoing stream passed through a short tube of porous polymer which trapped the volatiles, and the trapped material was later separated and identified by gas chromatography. Collections were made in a series of windows that began at the moment of infestation and continued for more than three days."
+    },
+    {
+      "label": "F",
+      "text": "The differences showed up almost immediately and then faded. Across the first six hours, pre-treated seedlings gave off significantly more of two sesquiterpenes, known as (E)-beta-farnesene and (E)-alpha-bergamotene, than untreated seedlings carrying an identical insect load; where the insects were immature, extra caryophyllene and the homoterpene DMNT appeared as well. In parallel choice tests, leafhoppers offered two air streams settled more often on the side carrying air from untreated plants during those early hours. By twenty-two hours the two groups had converged, and for the remainder of the sampling their emissions could not be told apart."
+    },
+    {
+      "label": "G",
+      "text": "A second experiment removed the insects from the picture altogether. Leaves were lightly scratched and then painted with jasmonic acid at 250 micromolar, a standard way of imitating an attack, and the surrounding air was sampled without a break for ninety-six hours. Pre-treated plants once again responded harder during the first day, this time adding myrcene and beta-sesquiphellandrene to the compounds already recorded. That the same advantage appeared with no insect anywhere near the leaf persuaded the team that they were watching a change inside the plant rather than a change in insect appetite."
+    },
+    {
+      "label": "H",
+      "text": "Why should such an advantage vanish so quickly? In the team's view the disappearance is precisely what priming predicts and is not a flaw in the result. An untreated plant, they point out, will have mounted its own full response within roughly a day; the treated plant simply arrived there first. They believe the likeliest site of the effect is the family of enzymes that assemble sesquiterpene molecules, which the pre-treatment appears to leave in a readier state. In their judgement it is the timing of the increase, not its size, that carries the real weight."
+    },
+    {
+      "label": "I",
+      "text": "The authors present the work as the first experimental evidence that this compound prepares a plant for making defensive volatiles instead of merely switching them on, and they consider such an approach more promising than strategies that permanently rewrite a plant's chemistry. They remain cautious, however, about the choice tests, which they regard as a crude guide to what an insect does in a crowded stand of plants. Trials on plants grown outdoors, they conclude, are the necessary next step before anything is claimed for the method."
+    }
+  ],
+  "texts": null,
+  "source": {
+    "origin": "PLOS ONE",
+    "title": "Priming of Production in Maize of Volatile Organic Defence Compounds by the Natural Plant Activator cis-Jasmone",
+    "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0062299",
+    "license": "CC BY 4.0",
+    "attribution": "Adapted from Oluwafemi S, Dewhirst SY, Veyrat N, Powers S, Bruce TJA, Caulfield JC, Pickett JA, Birkett MA (2013) Priming of Production in Maize of Volatile Organic Defence Compounds by the Natural Plant Activator cis-Jasmone. PLoS ONE 8(6): e62299, published under CC BY 4.0.",
+    "adapted": true
+  },
+  "notes": "Lisans Crossref kaydindan dogrulandi (creativecommons.org/licenses/by/4.0). Kaynak makalenin Giris/Yontem/Bulgular/Tartisma bolumlerinden genel okur icin yeniden yazildi; istatistik degerleri (P degerleri), cihaz model adlari, atif numaralari ve sekil gondermeleri cikarildi. Kaynak makalenin motivasyonundaki virus/bolgesel kayip oranlari, kamuya acik ezberlenebilir sayi yasagi (PLAN-EK-kurallar 4) geregi metne alinmadi. Sayisal degerlerin tamami calismanin kendi sectigi degerlerdir. NOT GIVEN bosluklari: maliyet/ticari erisim, misir disinda herhangi bir bitki turu, uygulamanin verim veya buyume uzerindeki etkisi, calismanin yapildigi ulke."
+}

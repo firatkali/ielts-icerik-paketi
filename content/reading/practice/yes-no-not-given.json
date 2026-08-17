@@ -79,7 +79,8 @@
         "neden_elendi": "Sorunun ekseni genel arastirma yontemi bilgisi: yeni calisanlarin sira ya da rastgele usulle takimlara dagitilmasinin nedensellik cikarimini guclendirdigi, pasajdan bagimsiz olarak bilinen bir metodoloji kurali. Kip dengelemesi ya da konum degisikligi bunu kapatmaz; ifade nasil yazilirsa yazilsin cevap yontem bilgisinden cikar.",
         "ne_degisti": "Yuva bosaltilip ayni pasajdan yeni bir ifadeyle dolduruldu. Eski soru C/1'e dayaniyordu: yeni calisanlarin sira usulu takimlara dagitilmasinin arastirmaya 'olagandisi bilimsel guc' verdigi. Rastgeleye yakin atamanin nedensellik cikarimini guclendirdigi genel bir yontem kurali oldugu icin cevap pasajsiz da cikiyordu. Yeni ifade C paragrafina hic degmiyor: kanit D/2'ye, olcumun iki sabitine tasindi (standartlastirilmis calisma saati + sozlesme basina sabit otuz saat). Bunlar sirkete ozgu keyfi tasarim ayrintilari; disaridan bilinemez, cunku esnek saat ya da degisken sozlesme suresi de esit olculude makuldu. Kip dengesi icin ifade mutlak yazildi ('both fixed across the company') ve cevabi YES: mutlak kipin otomatik olarak yanlis tarafa isaret etmesi kirildi."
       },
-      "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: logic. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md"
+      "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: logic. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md",
+      "flag_mechanism": "konumsal_duzen"
     },
     {
       "number": 3,
@@ -295,7 +296,8 @@
         "neden_elendi": "Sorunun ekseni genel kultur: dogada vakit gecirmenin stresi azalttigi gorusunun yaygin kabul gordugu, pasajdan once bilinen bir sey. Ifade zaten 'yaygin kabul' iddiasinin kendisini sordugu icin dogrulanmasi pasaja hic bagli degil.",
         "ne_degisti": "Yuva bosaltilip ayni pasajdan yeni bir ifadeyle dolduruldu. Eski soru A/1'e dayaniyordu: doganin stresi azalttigi gorusunun artik yaygin kabul gordugu. Ifade 'yaygin kabul' iddiasinin kendisini sordugu icin dogrulanmasi pasaja hic bagli degildi. Yeni ifade A paragrafina hic degmiyor: kanit C/2'ye, iki kosula ulasmak icin yurunen sureye tasindi (bes dakikaya karsi iki dakika). Bu sureler saha duzenlemesinin keyfi ayrintisi; ormanin kampustan daha uzakta olmasi zorunlu degil, esit uzaklikta iki nokta secilmis de olabilirdi. Kip dengesi icin ifade olculu yazildi ('seems to have involved about the same') ve cevabi NO."
       },
-      "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: logic. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md"
+      "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: logic. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md",
+      "flag_mechanism": "konumsal_duzen"
     },
     {
       "number": 10,

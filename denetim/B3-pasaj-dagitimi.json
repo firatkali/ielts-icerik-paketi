@@ -1,0 +1,2229 @@
+{
+  "olusturma_tarihi": "2026-08-17",
+  "arac": "tools/b3-dagitim.py",
+  "kaynak": "content/reading/practice/*.json",
+  "butce": {
+    "paragraf_basi_soru": 3,
+    "kanit_cumlesi_basi_soru": 1,
+    "metin_basi_kalem_hedefi": 20,
+    "metin_basi_paket_ust": 5,
+    "paragraf_alt": 7,
+    "paragraf_ust": 10
+  },
+  "korunum": {
+    "kaynak_kalem": 157,
+    "kaynak_numara": 160,
+    "hedef_kalem": 157,
+    "hedef_numara": 160,
+    "paket_kalem_kaynak": {
+      "DL": 10,
+      "MF": 10,
+      "MH": 15,
+      "MI": 15,
+      "MSE": 10,
+      "MC": 12,
+      "NC": 15,
+      "SC": 15,
+      "SA": 10,
+      "SUM": 15,
+      "TFNG": 15,
+      "YNNG": 15
+    },
+    "paket_kalem_hedef": {
+      "SC": 15,
+      "SA": 10,
+      "TFNG": 15,
+      "MC": 12,
+      "MF": 10,
+      "YNNG": 15,
+      "MH": 15,
+      "NC": 15,
+      "SUM": 15,
+      "MI": 15,
+      "DL": 10,
+      "MSE": 10
+    }
+  },
+  "hatalar": [],
+  "uyarilar": [
+    "A13: 21 soru numarasi (kalem 20) — cift cevapli coktan secmeli kalem numarayi kalemden fazla gosteriyor; cevap kagidinda 21 satir",
+    "A14: 21 soru numarasi (kalem 20) — cift cevapli coktan secmeli kalem numarayi kalemden fazla gosteriyor; cevap kagidinda 21 satir",
+    "A16: 21 soru numarasi (kalem 20) — cift cevapli coktan secmeli kalem numarayi kalemden fazla gosteriyor; cevap kagidinda 21 satir",
+    "G07: 22 kalem — metin basina hedef ~20 asildi (paragraf butcesi hala tutuyor: 10 paragrafta paragraf basina 2.20 soru)"
+  ],
+  "kaynak_kumeler": [
+    {
+      "paket": "diagram-labelling.json",
+      "kod": "DL",
+      "eski_passage_id": "G01",
+      "question_type": "diagram_labelling",
+      "eski_group_id": null,
+      "kalem": 3,
+      "numara": 3,
+      "numara_araligi": "1-3"
+    },
+    {
+      "paket": "diagram-labelling.json",
+      "kod": "DL",
+      "eski_passage_id": "G02",
+      "question_type": "diagram_labelling",
+      "eski_group_id": null,
+      "kalem": 2,
+      "numara": 2,
+      "numara_araligi": "4-5"
+    },
+    {
+      "paket": "diagram-labelling.json",
+      "kod": "DL",
+      "eski_passage_id": "G03",
+      "question_type": "diagram_labelling",
+      "eski_group_id": null,
+      "kalem": 3,
+      "numara": 3,
+      "numara_araligi": "6-8"
+    },
+    {
+      "paket": "diagram-labelling.json",
+      "kod": "DL",
+      "eski_passage_id": "G04",
+      "question_type": "diagram_labelling",
+      "eski_group_id": null,
+      "kalem": 2,
+      "numara": 2,
+      "numara_araligi": "9-10"
+    },
+    {
+      "paket": "matching-features.json",
+      "kod": "MF",
+      "eski_passage_id": "A10",
+      "question_type": "matching_features",
+      "eski_group_id": "P-MF-01",
+      "kalem": 5,
+      "numara": 5,
+      "numara_araligi": "1-5"
+    },
+    {
+      "paket": "matching-features.json",
+      "kod": "MF",
+      "eski_passage_id": "G05",
+      "question_type": "matching_features",
+      "eski_group_id": "P-MF-02",
+      "kalem": 5,
+      "numara": 5,
+      "numara_araligi": "6-10"
+    },
+    {
+      "paket": "matching-headings.json",
+      "kod": "MH",
+      "eski_passage_id": "A01",
+      "question_type": "matching_headings",
+      "eski_group_id": "P-MH-01",
+      "kalem": 5,
+      "numara": 5,
+      "numara_araligi": "1-5"
+    },
+    {
+      "paket": "matching-headings.json",
+      "kod": "MH",
+      "eski_passage_id": "A09",
+      "question_type": "matching_headings",
+      "eski_group_id": "P-MH-02",
+      "kalem": 5,
+      "numara": 5,
+      "numara_araligi": "6-10"
+    },
+    {
+      "paket": "matching-headings.json",
+      "kod": "MH",
+      "eski_passage_id": "A12",
+      "question_type": "matching_headings",
+      "eski_group_id": "P-MH-03",
+      "kalem": 5,
+      "numara": 5,
+      "numara_araligi": "11-15"
+    },
+    {
+      "paket": "matching-information.json",
+      "kod": "MI",
+      "eski_passage_id": "A01",
+      "question_type": "matching_information",
+      "eski_group_id": null,
+      "kalem": 4,
+      "numara": 4,
+      "numara_araligi": "1-4"
+    },
+    {
+      "paket": "matching-information.json",
+      "kod": "MI",
+      "eski_passage_id": "A04",
+      "question_type": "matching_information",
+      "eski_group_id": null,
+      "kalem": 4,
+      "numara": 4,
+      "numara_araligi": "5-8"
+    },
+    {
+      "paket": "matching-information.json",
+      "kod": "MI",
+      "eski_passage_id": "A07",
+      "question_type": "matching_information",
+      "eski_group_id": null,
+      "kalem": 4,
+      "numara": 4,
+      "numara_araligi": "9-12"
+    },
+    {
+      "paket": "matching-information.json",
+      "kod": "MI",
+      "eski_passage_id": "A11",
+      "question_type": "matching_information",
+      "eski_group_id": null,
+      "kalem": 3,
+      "numara": 3,
+      "numara_araligi": "13-15"
+    },
+    {
+      "paket": "matching-sentence-endings.json",
+      "kod": "MSE",
+      "eski_passage_id": "A07",
+      "question_type": "matching_sentence_endings",
+      "eski_group_id": "P-MSE-01",
+      "kalem": 5,
+      "numara": 5,
+      "numara_araligi": "1-5"
+    },
+    {
+      "paket": "matching-sentence-endings.json",
+      "kod": "MSE",
+      "eski_passage_id": "G06",
+      "question_type": "matching_sentence_endings",
+      "eski_group_id": "P-MSE-02",
+      "kalem": 5,
+      "numara": 5,
+      "numara_araligi": "6-10"
+    },
+    {
+      "paket": "multiple-choice.json",
+      "kod": "MC",
+      "eski_passage_id": "A02",
+      "question_type": "multiple_choice",
+      "eski_group_id": null,
+      "kalem": 3,
+      "numara": 4,
+      "numara_araligi": "1-4"
+    },
+    {
+      "paket": "multiple-choice.json",
+      "kod": "MC",
+      "eski_passage_id": "A05",
+      "question_type": "multiple_choice",
+      "eski_group_id": null,
+      "kalem": 3,
+      "numara": 4,
+      "numara_araligi": "5-8"
+    },
+    {
+      "paket": "multiple-choice.json",
+      "kod": "MC",
+      "eski_passage_id": "A08",
+      "question_type": "multiple_choice",
+      "eski_group_id": null,
+      "kalem": 3,
+      "numara": 4,
+      "numara_araligi": "9-12"
+    },
+    {
+      "paket": "multiple-choice.json",
+      "kod": "MC",
+      "eski_passage_id": "A11",
+      "question_type": "multiple_choice",
+      "eski_group_id": null,
+      "kalem": 3,
+      "numara": 3,
+      "numara_araligi": "13-15"
+    },
+    {
+      "paket": "note-completion.json",
+      "kod": "NC",
+      "eski_passage_id": "A06",
+      "question_type": "note_completion",
+      "eski_group_id": null,
+      "kalem": 3,
+      "numara": 3,
+      "numara_araligi": "1-3"
+    },
+    {
+      "paket": "note-completion.json",
+      "kod": "NC",
+      "eski_passage_id": "A07",
+      "question_type": "note_completion",
+      "eski_group_id": null,
+      "kalem": 3,
+      "numara": 3,
+      "numara_araligi": "4-6"
+    },
+    {
+      "paket": "note-completion.json",
+      "kod": "NC",
+      "eski_passage_id": "A08",
+      "question_type": "note_completion",
+      "eski_group_id": null,
+      "kalem": 3,
+      "numara": 3,
+      "numara_araligi": "7-9"
+    },
+    {
+      "paket": "note-completion.json",
+      "kod": "NC",
+      "eski_passage_id": "A09",
+      "question_type": "note_completion",
+      "eski_group_id": null,
+      "kalem": 3,
+      "numara": 3,
+      "numara_araligi": "10-12"
+    },
+    {
+      "paket": "note-completion.json",
+      "kod": "NC",
+      "eski_passage_id": "A12",
+      "question_type": "note_completion",
+      "eski_group_id": null,
+      "kalem": 3,
+      "numara": 3,
+      "numara_araligi": "13-15"
+    },
+    {
+      "paket": "sentence-completion.json",
+      "kod": "SC",
+      "eski_passage_id": "A01",
+      "question_type": "sentence_completion",
+      "eski_group_id": null,
+      "kalem": 3,
+      "numara": 3,
+      "numara_araligi": "1-3"
+    },
+    {
+      "paket": "sentence-completion.json",
+      "kod": "SC",
+      "eski_passage_id": "A02",
+      "question_type": "sentence_completion",
+      "eski_group_id": null,
+      "kalem": 3,
+      "numara": 3,
+      "numara_araligi": "4-6"
+    },
+    {
+      "paket": "sentence-completion.json",
+      "kod": "SC",
+      "eski_passage_id": "A03",
+      "question_type": "sentence_completion",
+      "eski_group_id": null,
+      "kalem": 3,
+      "numara": 3,
+      "numara_araligi": "7-9"
+    },
+    {
+      "paket": "sentence-completion.json",
+      "kod": "SC",
+      "eski_passage_id": "A04",
+      "question_type": "sentence_completion",
+      "eski_group_id": null,
+      "kalem": 3,
+      "numara": 3,
+      "numara_araligi": "10-12"
+    },
+    {
+      "paket": "sentence-completion.json",
+      "kod": "SC",
+      "eski_passage_id": "A05",
+      "question_type": "sentence_completion",
+      "eski_group_id": null,
+      "kalem": 3,
+      "numara": 3,
+      "numara_araligi": "13-15"
+    },
+    {
+      "paket": "short-answer.json",
+      "kod": "SA",
+      "eski_passage_id": "A01",
+      "question_type": "short_answer",
+      "eski_group_id": null,
+      "kalem": 1,
+      "numara": 1,
+      "numara_araligi": "1"
+    },
+    {
+      "paket": "short-answer.json",
+      "kod": "SA",
+      "eski_passage_id": "A02",
+      "question_type": "short_answer",
+      "eski_group_id": null,
+      "kalem": 1,
+      "numara": 1,
+      "numara_araligi": "2"
+    },
+    {
+      "paket": "short-answer.json",
+      "kod": "SA",
+      "eski_passage_id": "A03",
+      "question_type": "short_answer",
+      "eski_group_id": null,
+      "kalem": 1,
+      "numara": 1,
+      "numara_araligi": "3"
+    },
+    {
+      "paket": "short-answer.json",
+      "kod": "SA",
+      "eski_passage_id": "A04",
+      "question_type": "short_answer",
+      "eski_group_id": null,
+      "kalem": 1,
+      "numara": 1,
+      "numara_araligi": "4"
+    },
+    {
+      "paket": "short-answer.json",
+      "kod": "SA",
+      "eski_passage_id": "A05",
+      "question_type": "short_answer",
+      "eski_group_id": null,
+      "kalem": 1,
+      "numara": 1,
+      "numara_araligi": "5"
+    },
+    {
+      "paket": "short-answer.json",
+      "kod": "SA",
+      "eski_passage_id": "A06",
+      "question_type": "short_answer",
+      "eski_group_id": null,
+      "kalem": 1,
+      "numara": 1,
+      "numara_araligi": "6"
+    },
+    {
+      "paket": "short-answer.json",
+      "kod": "SA",
+      "eski_passage_id": "A07",
+      "question_type": "short_answer",
+      "eski_group_id": null,
+      "kalem": 1,
+      "numara": 1,
+      "numara_araligi": "7"
+    },
+    {
+      "paket": "short-answer.json",
+      "kod": "SA",
+      "eski_passage_id": "A08",
+      "question_type": "short_answer",
+      "eski_group_id": null,
+      "kalem": 1,
+      "numara": 1,
+      "numara_araligi": "8"
+    },
+    {
+      "paket": "short-answer.json",
+      "kod": "SA",
+      "eski_passage_id": "A09",
+      "question_type": "short_answer",
+      "eski_group_id": null,
+      "kalem": 1,
+      "numara": 1,
+      "numara_araligi": "9"
+    },
+    {
+      "paket": "short-answer.json",
+      "kod": "SA",
+      "eski_passage_id": "A12",
+      "question_type": "short_answer",
+      "eski_group_id": null,
+      "kalem": 1,
+      "numara": 1,
+      "numara_araligi": "10"
+    },
+    {
+      "paket": "summary-completion.json",
+      "kod": "SUM",
+      "eski_passage_id": "A10",
+      "question_type": "summary_completion",
+      "eski_group_id": null,
+      "kalem": 4,
+      "numara": 4,
+      "numara_araligi": "1-4"
+    },
+    {
+      "paket": "summary-completion.json",
+      "kod": "SUM",
+      "eski_passage_id": "A11",
+      "question_type": "summary_completion",
+      "eski_group_id": null,
+      "kalem": 4,
+      "numara": 4,
+      "numara_araligi": "5-8"
+    },
+    {
+      "paket": "summary-completion.json",
+      "kod": "SUM",
+      "eski_passage_id": "G05",
+      "question_type": "summary_completion",
+      "eski_group_id": null,
+      "kalem": 4,
+      "numara": 4,
+      "numara_araligi": "9-12"
+    },
+    {
+      "paket": "summary-completion.json",
+      "kod": "SUM",
+      "eski_passage_id": "G06",
+      "question_type": "summary_completion",
+      "eski_group_id": null,
+      "kalem": 3,
+      "numara": 3,
+      "numara_araligi": "13-15"
+    },
+    {
+      "paket": "true-false-not-given.json",
+      "kod": "TFNG",
+      "eski_passage_id": "A02",
+      "question_type": "true_false_not_given",
+      "eski_group_id": null,
+      "kalem": 4,
+      "numara": 4,
+      "numara_araligi": "1-4"
+    },
+    {
+      "paket": "true-false-not-given.json",
+      "kod": "TFNG",
+      "eski_passage_id": "A05",
+      "question_type": "true_false_not_given",
+      "eski_group_id": null,
+      "kalem": 4,
+      "numara": 4,
+      "numara_araligi": "5-8"
+    },
+    {
+      "paket": "true-false-not-given.json",
+      "kod": "TFNG",
+      "eski_passage_id": "A08",
+      "question_type": "true_false_not_given",
+      "eski_group_id": null,
+      "kalem": 4,
+      "numara": 4,
+      "numara_araligi": "9-12"
+    },
+    {
+      "paket": "true-false-not-given.json",
+      "kod": "TFNG",
+      "eski_passage_id": "A09",
+      "question_type": "true_false_not_given",
+      "eski_group_id": null,
+      "kalem": 3,
+      "numara": 3,
+      "numara_araligi": "13-15"
+    },
+    {
+      "paket": "yes-no-not-given.json",
+      "kod": "YNNG",
+      "eski_passage_id": "A06",
+      "question_type": "yes_no_not_given",
+      "eski_group_id": null,
+      "kalem": 4,
+      "numara": 4,
+      "numara_araligi": "1-4"
+    },
+    {
+      "paket": "yes-no-not-given.json",
+      "kod": "YNNG",
+      "eski_passage_id": "A10",
+      "question_type": "yes_no_not_given",
+      "eski_group_id": null,
+      "kalem": 4,
+      "numara": 4,
+      "numara_araligi": "5-8"
+    },
+    {
+      "paket": "yes-no-not-given.json",
+      "kod": "YNNG",
+      "eski_passage_id": "A11",
+      "question_type": "yes_no_not_given",
+      "eski_group_id": null,
+      "kalem": 4,
+      "numara": 4,
+      "numara_araligi": "9-12"
+    },
+    {
+      "paket": "yes-no-not-given.json",
+      "kod": "YNNG",
+      "eski_passage_id": "A12",
+      "question_type": "yes_no_not_given",
+      "eski_group_id": null,
+      "kalem": 3,
+      "numara": 3,
+      "numara_araligi": "13-15"
+    }
+  ],
+  "metinler": [
+    {
+      "passage_id": "A13",
+      "module": "academic",
+      "section": null,
+      "konu": "malzeme muhendisligi / kendi kendini onaran beton",
+      "konu_ozeti": "Bakteri tasiyan kapsullerle catlagini kendi kapatan beton karisimlarinin farkli laboratuvarlarda denenmesi; hangi ekip hangi kosulda ne olctu.",
+      "kaynak": "PLOS ONE (biyo-beton / self-healing concrete calismalari)",
+      "kaynak_yedegi": "OpenStax Chemistry (baglayici malzeme bolumu)",
+      "en_yakin_mevcut": "yok — mevcut 18 metinde muhendislik/malzeme konusu hic yok",
+      "ayrim": "Mevcut konularin hicbirine degmiyor (hayvan davranisi, iklim/jeoloji, uzay, tarih/arkeoloji, toplum/is, saglik/davranis disinda yeni bir alan).",
+      "kumeler": [
+        {
+          "paket": "sentence-completion.json",
+          "kod": "SC",
+          "question_type": "sentence_completion",
+          "eski_passage_id": "A01",
+          "eski_group_id": null,
+          "kalem": 3,
+          "numara": 3,
+          "numaralar": [
+            1,
+            2,
+            3
+          ],
+          "numara_araligi": "1-3"
+        },
+        {
+          "paket": "sentence-completion.json",
+          "kod": "SC",
+          "question_type": "sentence_completion",
+          "eski_passage_id": "A02",
+          "eski_group_id": null,
+          "kalem": 3,
+          "numara": 3,
+          "numaralar": [
+            4,
+            5,
+            6
+          ],
+          "numara_araligi": "4-6"
+        },
+        {
+          "paket": "short-answer.json",
+          "kod": "SA",
+          "question_type": "short_answer",
+          "eski_passage_id": "A01",
+          "eski_group_id": null,
+          "kalem": 1,
+          "numara": 1,
+          "numaralar": [
+            1
+          ],
+          "numara_araligi": "1"
+        },
+        {
+          "paket": "short-answer.json",
+          "kod": "SA",
+          "question_type": "short_answer",
+          "eski_passage_id": "A02",
+          "eski_group_id": null,
+          "kalem": 1,
+          "numara": 1,
+          "numaralar": [
+            2
+          ],
+          "numara_araligi": "2"
+        },
+        {
+          "paket": "true-false-not-given.json",
+          "kod": "TFNG",
+          "question_type": "true_false_not_given",
+          "eski_passage_id": "A02",
+          "eski_group_id": null,
+          "kalem": 4,
+          "numara": 4,
+          "numaralar": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "numara_araligi": "1-4"
+        },
+        {
+          "paket": "multiple-choice.json",
+          "kod": "MC",
+          "question_type": "multiple_choice",
+          "eski_passage_id": "A02",
+          "eski_group_id": null,
+          "kalem": 3,
+          "numara": 4,
+          "numaralar": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "numara_araligi": "1-4"
+        },
+        {
+          "paket": "matching-features.json",
+          "kod": "MF",
+          "question_type": "matching_features",
+          "eski_passage_id": "A10",
+          "eski_group_id": "P-MF-01",
+          "kalem": 5,
+          "numara": 5,
+          "numaralar": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "numara_araligi": "1-5"
+        }
+      ],
+      "kalem": 20,
+      "numara": 21,
+      "paket_kalem": {
+        "SC": 6,
+        "SA": 2,
+        "TFNG": 4,
+        "MC": 3,
+        "MF": 5
+      },
+      "paket_sayisi": 5,
+      "paragraf_en_az": 8,
+      "paragraf_onerilen": 9,
+      "kelime_alt": 800,
+      "kelime_ust": 900,
+      "kisa_cevap_kalem": 2,
+      "paragraf_basi_soru": 2.57,
+      "on_kosullar": [
+        {
+          "kaynak": "prompts/01-pasaj-secimi.md + butce",
+          "kosul": "7-10 harflendirilmis paragraf (en az 8, onerilen 9)"
+        },
+        {
+          "kaynak": "butce (kanit cumlesi basina en cok 1 soru)",
+          "kosul": "birbirinden ayri en az 20 kanit cumlesi (her kalem kendi cumlesini alacak)"
+        },
+        {
+          "kaynak": "plan 1.2 tablosu (tamamlama ailesi)",
+          "kosul": "en az 8 ayri somut sayi/olcu/ad, en az 4 ayri paragrafa dagilmis — hepsi metnin kendi calismasina ozgu (kamuya acik/ezberlenebilir deger yasak)"
+        },
+        {
+          "kaynak": "plan 1.2 tablosu (ozellik eslestirme)",
+          "kosul": "3-4 adi gecen arastirmaci/kurum ve toplam 5 ayirt edici iddia (her iddia tek bir ada baglanacak)"
+        },
+        {
+          "kaynak": "turetilmis (butce)",
+          "kosul": "en az 4 dogrulanabilir OLGU cumlesi (yazar gorusu degil); NOT GIVEN kalemleri icin metnin sessiz kaldigi komsu noktalar birakilacak"
+        },
+        {
+          "kaynak": "turetilmis (butce)",
+          "kosul": "3 ayri odak noktasi; her birinde 4 secenegi ayirt edecek kadar ayrinti (genel kultur yanlis secenege capalanacak)"
+        },
+        {
+          "kaynak": "plan 1.4",
+          "kosul": "2 paragraf BASKA hicbir sorunun dokunmadigi hale birakilacak; her birinde 3 kelime veya bir sayiyla cevaplanabilen, calismanin kendi sectigi bir deger"
+        }
+      ],
+      "sikisikliklar": [
+        "paragraf basina 2.57 soru — 3'luk tavana yakin"
+      ],
+      "onerilen_gruplar": [
+        {
+          "kod": "SC",
+          "paket": "sentence-completion.json",
+          "question_type": "sentence_completion",
+          "onerilen_group_id": "P-SC-A13",
+          "kalem": 6,
+          "numara_araligi": "1-6",
+          "birlesen_kume_sayisi": 2,
+          "yonerge_ilk_satiri": "Questions 1-6 refer to Passage A13",
+          "numaralar_bitisik": true
+        },
+        {
+          "kod": "SA",
+          "paket": "short-answer.json",
+          "question_type": "short_answer",
+          "onerilen_group_id": "P-SA-A13",
+          "kalem": 2,
+          "numara_araligi": "1-2",
+          "birlesen_kume_sayisi": 2,
+          "yonerge_ilk_satiri": "Questions 1-2 refer to Passage A13",
+          "numaralar_bitisik": true
+        },
+        {
+          "kod": "TFNG",
+          "paket": "true-false-not-given.json",
+          "question_type": "true_false_not_given",
+          "onerilen_group_id": "P-TF-A13",
+          "kalem": 4,
+          "numara_araligi": "1-4",
+          "birlesen_kume_sayisi": 1,
+          "yonerge_ilk_satiri": "Questions 1-4 refer to Passage A13",
+          "numaralar_bitisik": true
+        },
+        {
+          "kod": "MC",
+          "paket": "multiple-choice.json",
+          "question_type": "multiple_choice",
+          "onerilen_group_id": "P-MC-A13",
+          "kalem": 3,
+          "numara_araligi": "1-4",
+          "birlesen_kume_sayisi": 1,
+          "yonerge_ilk_satiri": "Questions 1-4 refer to Passage A13",
+          "numaralar_bitisik": true
+        },
+        {
+          "kod": "MF",
+          "paket": "matching-features.json",
+          "question_type": "matching_features",
+          "onerilen_group_id": "P-MF-A13",
+          "kalem": 5,
+          "numara_araligi": "1-5",
+          "birlesen_kume_sayisi": 1,
+          "yonerge_ilk_satiri": "Questions 1-5 refer to Passage A13",
+          "numaralar_bitisik": true
+        }
+      ]
+    },
+    {
+      "passage_id": "A14",
+      "module": "academic",
+      "section": null,
+      "konu": "bilim pratigi / arastirma verisinin paylasilmamasi",
+      "konu_ozeti": "Arastirmacilarin ham verisini neden paylasmadigi uzerine meta-arastirma; yazarin degerlendirme ve itiraz cumleleri bol.",
+      "kaynak": "PLOS ONE (meta-research / data sharing calismalari)",
+      "kaynak_yedegi": "OpenStax Sociology (arastirma yontemleri bolumu)",
+      "en_yakin_mevcut": "A06/A10 (toplum-is) — ofis duzeni ve uzaktan calisma",
+      "ayrim": "Konu is yeri duzeni degil, bilimsel calismanin kendi pratigi; ofis/uzaktan calisma alt konularina hic girmiyor.",
+      "kumeler": [
+        {
+          "paket": "sentence-completion.json",
+          "kod": "SC",
+          "question_type": "sentence_completion",
+          "eski_passage_id": "A03",
+          "eski_group_id": null,
+          "kalem": 3,
+          "numara": 3,
+          "numaralar": [
+            7,
+            8,
+            9
+          ],
+          "numara_araligi": "7-9"
+        },
+        {
+          "paket": "short-answer.json",
+          "kod": "SA",
+          "question_type": "short_answer",
+          "eski_passage_id": "A03",
+          "eski_group_id": null,
+          "kalem": 1,
+          "numara": 1,
+          "numaralar": [
+            3
+          ],
+          "numara_araligi": "3"
+        },
+        {
+          "paket": "yes-no-not-given.json",
+          "kod": "YNNG",
+          "question_type": "yes_no_not_given",
+          "eski_passage_id": "A06",
+          "eski_group_id": null,
+          "kalem": 4,
+          "numara": 4,
+          "numaralar": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "numara_araligi": "1-4"
+        },
+        {
+          "paket": "yes-no-not-given.json",
+          "kod": "YNNG",
+          "question_type": "yes_no_not_given",
+          "eski_passage_id": "A10",
+          "eski_group_id": null,
+          "kalem": 4,
+          "numara": 4,
+          "numaralar": [
+            5,
+            6,
+            7,
+            8
+          ],
+          "numara_araligi": "5-8"
+        },
+        {
+          "paket": "multiple-choice.json",
+          "kod": "MC",
+          "question_type": "multiple_choice",
+          "eski_passage_id": "A05",
+          "eski_group_id": null,
+          "kalem": 3,
+          "numara": 4,
+          "numaralar": [
+            5,
+            6,
+            7,
+            8
+          ],
+          "numara_araligi": "5-8"
+        },
+        {
+          "paket": "matching-headings.json",
+          "kod": "MH",
+          "question_type": "matching_headings",
+          "eski_passage_id": "A01",
+          "eski_group_id": "P-MH-01",
+          "kalem": 5,
+          "numara": 5,
+          "numaralar": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "numara_araligi": "1-5"
+        }
+      ],
+      "kalem": 20,
+      "numara": 21,
+      "paket_kalem": {
+        "SC": 3,
+        "SA": 1,
+        "YNNG": 8,
+        "MC": 3,
+        "MH": 5
+      },
+      "paket_sayisi": 5,
+      "paragraf_en_az": 8,
+      "paragraf_onerilen": 9,
+      "kelime_alt": 800,
+      "kelime_ust": 900,
+      "kisa_cevap_kalem": 1,
+      "paragraf_basi_soru": 2.38,
+      "on_kosullar": [
+        {
+          "kaynak": "prompts/01-pasaj-secimi.md + butce",
+          "kosul": "7-10 harflendirilmis paragraf (en az 8, onerilen 9)"
+        },
+        {
+          "kaynak": "butce (kanit cumlesi basina en cok 1 soru)",
+          "kosul": "birbirinden ayri en az 20 kanit cumlesi (her kalem kendi cumlesini alacak)"
+        },
+        {
+          "kaynak": "plan 1.2 tablosu (baslik eslestirme)",
+          "kosul": "8-10 paragraf ve HER paragrafin ayirt edilebilir tek ana fikri; 5 paragraf baslik sorusuna acik olacak"
+        },
+        {
+          "kaynak": "plan 1.2 tablosu (YES/NO/NOT GIVEN)",
+          "kosul": "en az 8 yazar gorusu/degerlendirme cumlesi (tablo tabani 4; kalem sayisi 8 oldugu icin cumle basina 1 kural bunu yukseltiyor)"
+        },
+        {
+          "kaynak": "plan 1.2 tablosu (tamamlama ailesi)",
+          "kosul": "en az 4 ayri somut sayi/olcu/ad, en az 4 ayri paragrafa dagilmis — hepsi metnin kendi calismasina ozgu (kamuya acik/ezberlenebilir deger yasak)"
+        },
+        {
+          "kaynak": "turetilmis (butce)",
+          "kosul": "3 ayri odak noktasi; her birinde 4 secenegi ayirt edecek kadar ayrinti (genel kultur yanlis secenege capalanacak)"
+        },
+        {
+          "kaynak": "plan 1.4",
+          "kosul": "1 paragraf BASKA hicbir sorunun dokunmadigi hale birakilacak; her birinde 3 kelime veya bir sayiyla cevaplanabilen, calismanin kendi sectigi bir deger"
+        }
+      ],
+      "sikisikliklar": [],
+      "onerilen_gruplar": [
+        {
+          "kod": "SC",
+          "paket": "sentence-completion.json",
+          "question_type": "sentence_completion",
+          "onerilen_group_id": "P-SC-A14",
+          "kalem": 3,
+          "numara_araligi": "7-9",
+          "birlesen_kume_sayisi": 1,
+          "yonerge_ilk_satiri": "Questions 7-9 refer to Passage A14",
+          "numaralar_bitisik": true
+        },
+        {
+          "kod": "SA",
+          "paket": "short-answer.json",
+          "question_type": "short_answer",
+          "onerilen_group_id": "P-SA-A14",
+          "kalem": 1,
+          "numara_araligi": "3",
+          "birlesen_kume_sayisi": 1,
+          "yonerge_ilk_satiri": "Question 3 refers to Passage A14",
+          "numaralar_bitisik": true
+        },
+        {
+          "kod": "YNNG",
+          "paket": "yes-no-not-given.json",
+          "question_type": "yes_no_not_given",
+          "onerilen_group_id": "P-YN-A14",
+          "kalem": 8,
+          "numara_araligi": "1-8",
+          "birlesen_kume_sayisi": 2,
+          "yonerge_ilk_satiri": "Questions 1-8 refer to Passage A14",
+          "numaralar_bitisik": true
+        },
+        {
+          "kod": "MC",
+          "paket": "multiple-choice.json",
+          "question_type": "multiple_choice",
+          "onerilen_group_id": "P-MC-A14",
+          "kalem": 3,
+          "numara_araligi": "5-8",
+          "birlesen_kume_sayisi": 1,
+          "yonerge_ilk_satiri": "Questions 5-8 refer to Passage A14",
+          "numaralar_bitisik": true
+        },
+        {
+          "kod": "MH",
+          "paket": "matching-headings.json",
+          "question_type": "matching_headings",
+          "onerilen_group_id": "P-MH-A14",
+          "kalem": 5,
+          "numara_araligi": "1-5",
+          "birlesen_kume_sayisi": 1,
+          "yonerge_ilk_satiri": "Questions 1-5 refer to Passage A14",
+          "numaralar_bitisik": true
+        }
+      ]
+    },
+    {
+      "passage_id": "A15",
+      "module": "academic",
+      "section": null,
+      "konu": "bitki biyolojisi / bitkilerin kimyasal savunmasi",
+      "konu_ozeti": "Yaprak zedelendiginde salinan kimyasallarin komsu bitkilerde tepki baslatmasi; olculen degerler ve arastirmacinin yorum cumleleri.",
+      "kaynak": "PLOS Biology / PLOS ONE (bitki savunma kimyasi)",
+      "kaynak_yedegi": "OpenStax Biology (bitki tepkileri bolumu)",
+      "en_yakin_mevcut": "A01/A02/A07 (doga) — ama ucu de HAYVAN davranisi",
+      "ayrim": "Hayvan yok; konu bitki fizyolojisi/kimyasi. Mevcut doga metinlerinin alt konusu (fil, ahtapot, balina davranisi) ile ortusmuyor.",
+      "kumeler": [
+        {
+          "paket": "note-completion.json",
+          "kod": "NC",
+          "question_type": "note_completion",
+          "eski_passage_id": "A06",
+          "eski_group_id": null,
+          "kalem": 3,
+          "numara": 3,
+          "numaralar": [
+            1,
+            2,
+            3
+          ],
+          "numara_araligi": "1-3"
+        },
+        {
+          "paket": "summary-completion.json",
+          "kod": "SUM",
+          "question_type": "summary_completion",
+          "eski_passage_id": "A10",
+          "eski_group_id": null,
+          "kalem": 4,
+          "numara": 4,
+          "numaralar": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "numara_araligi": "1-4"
+        },
+        {
+          "paket": "short-answer.json",
+          "kod": "SA",
+          "question_type": "short_answer",
+          "eski_passage_id": "A04",
+          "eski_group_id": null,
+          "kalem": 1,
+          "numara": 1,
+          "numaralar": [
+            4
+          ],
+          "numara_araligi": "4"
+        },
+        {
+          "paket": "matching-information.json",
+          "kod": "MI",
+          "question_type": "matching_information",
+          "eski_passage_id": "A01",
+          "eski_group_id": null,
+          "kalem": 4,
+          "numara": 4,
+          "numaralar": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "numara_araligi": "1-4"
+        },
+        {
+          "paket": "yes-no-not-given.json",
+          "kod": "YNNG",
+          "question_type": "yes_no_not_given",
+          "eski_passage_id": "A11",
+          "eski_group_id": null,
+          "kalem": 4,
+          "numara": 4,
+          "numaralar": [
+            9,
+            10,
+            11,
+            12
+          ],
+          "numara_araligi": "9-12"
+        },
+        {
+          "paket": "yes-no-not-given.json",
+          "kod": "YNNG",
+          "question_type": "yes_no_not_given",
+          "eski_passage_id": "A12",
+          "eski_group_id": null,
+          "kalem": 3,
+          "numara": 3,
+          "numaralar": [
+            13,
+            14,
+            15
+          ],
+          "numara_araligi": "13-15"
+        }
+      ],
+      "kalem": 19,
+      "numara": 19,
+      "paket_kalem": {
+        "NC": 3,
+        "SUM": 4,
+        "SA": 1,
+        "MI": 4,
+        "YNNG": 7
+      },
+      "paket_sayisi": 5,
+      "paragraf_en_az": 8,
+      "paragraf_onerilen": 9,
+      "kelime_alt": 700,
+      "kelime_ust": 900,
+      "kisa_cevap_kalem": 1,
+      "paragraf_basi_soru": 2.25,
+      "on_kosullar": [
+        {
+          "kaynak": "prompts/01-pasaj-secimi.md + butce",
+          "kosul": "7-10 harflendirilmis paragraf (en az 8, onerilen 9)"
+        },
+        {
+          "kaynak": "butce (kanit cumlesi basina en cok 1 soru)",
+          "kosul": "birbirinden ayri en az 19 kanit cumlesi (her kalem kendi cumlesini alacak)"
+        },
+        {
+          "kaynak": "plan 1.2 tablosu (YES/NO/NOT GIVEN)",
+          "kosul": "en az 7 yazar gorusu/degerlendirme cumlesi (tablo tabani 4; kalem sayisi 7 oldugu icin cumle basina 1 kural bunu yukseltiyor)"
+        },
+        {
+          "kaynak": "plan 1.2 tablosu (tamamlama ailesi)",
+          "kosul": "en az 8 ayri somut sayi/olcu/ad, en az 4 ayri paragrafa dagilmis — hepsi metnin kendi calismasina ozgu (kamuya acik/ezberlenebilir deger yasak)"
+        },
+        {
+          "kaynak": "turetilmis (butce + bugunku yonerge)",
+          "kosul": "en az 8 harflendirilmis paragraf ve 4 ayri paragrafta bulunabilir olgu (ayni paragraf iki bilgi sorusuna kaynak olmayacak)"
+        },
+        {
+          "kaynak": "plan 1.4",
+          "kosul": "1 paragraf BASKA hicbir sorunun dokunmadigi hale birakilacak; her birinde 3 kelime veya bir sayiyla cevaplanabilen, calismanin kendi sectigi bir deger"
+        }
+      ],
+      "sikisikliklar": [],
+      "onerilen_gruplar": [
+        {
+          "kod": "NC",
+          "paket": "note-completion.json",
+          "question_type": "note_completion",
+          "onerilen_group_id": "P-NC-A15",
+          "kalem": 3,
+          "numara_araligi": "1-3",
+          "birlesen_kume_sayisi": 1,
+          "yonerge_ilk_satiri": "Questions 1-3 refer to Passage A15",
+          "numaralar_bitisik": true
+        },
+        {
+          "kod": "SUM",
+          "paket": "summary-completion.json",
+          "question_type": "summary_completion",
+          "onerilen_group_id": "P-SUM-A15",
+          "kalem": 4,
+          "numara_araligi": "1-4",
+          "birlesen_kume_sayisi": 1,
+          "yonerge_ilk_satiri": "Questions 1-4 refer to Passage A15",
+          "numaralar_bitisik": true
+        },
+        {
+          "kod": "SA",
+          "paket": "short-answer.json",
+          "question_type": "short_answer",
+          "onerilen_group_id": "P-SA-A15",
+          "kalem": 1,
+          "numara_araligi": "4",
+          "birlesen_kume_sayisi": 1,
+          "yonerge_ilk_satiri": "Question 4 refers to Passage A15",
+          "numaralar_bitisik": true
+        },
+        {
+          "kod": "MI",
+          "paket": "matching-information.json",
+          "question_type": "matching_information",
+          "onerilen_group_id": "P-MI-A15",
+          "kalem": 4,
+          "numara_araligi": "1-4",
+          "birlesen_kume_sayisi": 1,
+          "yonerge_ilk_satiri": "Questions 1-4 refer to Passage A15",
+          "numaralar_bitisik": true
+        },
+        {
+          "kod": "YNNG",
+          "paket": "yes-no-not-given.json",
+          "question_type": "yes_no_not_given",
+          "onerilen_group_id": "P-YN-A15",
+          "kalem": 7,
+          "numara_araligi": "9-15",
+          "birlesen_kume_sayisi": 2,
+          "yonerge_ilk_satiri": "Questions 9-15 refer to Passage A15",
+          "numaralar_bitisik": true
+        }
+      ]
+    },
+    {
+      "passage_id": "A16",
+      "module": "academic",
+      "section": null,
+      "konu": "spor bilimi / kosu biyomekanigi ve zemin degisimi",
+      "konu_ozeti": "Kosucularin zemin sertligi degistiginde adim uzunlugu ve temas suresini nasil degistirdigi; olcum agirlikli olgusal anlatim.",
+      "kaynak": "PLOS ONE (kosu biyomekanigi calismalari)",
+      "kaynak_yedegi": "OpenStax Anatomy & Physiology (hareket sistemi bolumu)",
+      "en_yakin_mevcut": "A11/A12 (saglik-davranis) — ruh hali ve bellek",
+      "ayrim": "Konu ruh hali/bellek degil, olculen hareket mekanigi; psikolojik sonuc iddiasi tasimayacak.",
+      "kumeler": [
+        {
+          "paket": "note-completion.json",
+          "kod": "NC",
+          "question_type": "note_completion",
+          "eski_passage_id": "A07",
+          "eski_group_id": null,
+          "kalem": 3,
+          "numara": 3,
+          "numaralar": [
+            4,
+            5,
+            6
+          ],
+          "numara_araligi": "4-6"
+        },
+        {
+          "paket": "short-answer.json",
+          "kod": "SA",
+          "question_type": "short_answer",
+          "eski_passage_id": "A05",
+          "eski_group_id": null,
+          "kalem": 1,
+          "numara": 1,
+          "numaralar": [
+            5
+          ],
+          "numara_araligi": "5"
+        },
+        {
+          "paket": "true-false-not-given.json",
+          "kod": "TFNG",
+          "question_type": "true_false_not_given",
+          "eski_passage_id": "A05",
+          "eski_group_id": null,
+          "kalem": 4,
+          "numara": 4,
+          "numaralar": [
+            5,
+            6,
+            7,
+            8
+          ],
+          "numara_araligi": "5-8"
+        },
+        {
+          "paket": "true-false-not-given.json",
+          "kod": "TFNG",
+          "question_type": "true_false_not_given",
+          "eski_passage_id": "A08",
+          "eski_group_id": null,
+          "kalem": 4,
+          "numara": 4,
+          "numaralar": [
+            9,
+            10,
+            11,
+            12
+          ],
+          "numara_araligi": "9-12"
+        },
+        {
+          "paket": "multiple-choice.json",
+          "kod": "MC",
+          "question_type": "multiple_choice",
+          "eski_passage_id": "A08",
+          "eski_group_id": null,
+          "kalem": 3,
+          "numara": 4,
+          "numaralar": [
+            9,
+            10,
+            11,
+            12
+          ],
+          "numara_araligi": "9-12"
+        },
+        {
+          "paket": "matching-headings.json",
+          "kod": "MH",
+          "question_type": "matching_headings",
+          "eski_passage_id": "A09",
+          "eski_group_id": "P-MH-02",
+          "kalem": 5,
+          "numara": 5,
+          "numaralar": [
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "numara_araligi": "6-10"
+        }
+      ],
+      "kalem": 20,
+      "numara": 21,
+      "paket_kalem": {
+        "NC": 3,
+        "SA": 1,
+        "TFNG": 8,
+        "MC": 3,
+        "MH": 5
+      },
+      "paket_sayisi": 5,
+      "paragraf_en_az": 8,
+      "paragraf_onerilen": 9,
+      "kelime_alt": 800,
+      "kelime_ust": 900,
+      "kisa_cevap_kalem": 1,
+      "paragraf_basi_soru": 2.38,
+      "on_kosullar": [
+        {
+          "kaynak": "prompts/01-pasaj-secimi.md + butce",
+          "kosul": "7-10 harflendirilmis paragraf (en az 8, onerilen 9)"
+        },
+        {
+          "kaynak": "butce (kanit cumlesi basina en cok 1 soru)",
+          "kosul": "birbirinden ayri en az 20 kanit cumlesi (her kalem kendi cumlesini alacak)"
+        },
+        {
+          "kaynak": "plan 1.2 tablosu (baslik eslestirme)",
+          "kosul": "8-10 paragraf ve HER paragrafin ayirt edilebilir tek ana fikri; 5 paragraf baslik sorusuna acik olacak"
+        },
+        {
+          "kaynak": "plan 1.2 tablosu (tamamlama ailesi)",
+          "kosul": "en az 4 ayri somut sayi/olcu/ad, en az 4 ayri paragrafa dagilmis — hepsi metnin kendi calismasina ozgu (kamuya acik/ezberlenebilir deger yasak)"
+        },
+        {
+          "kaynak": "turetilmis (butce)",
+          "kosul": "en az 8 dogrulanabilir OLGU cumlesi (yazar gorusu degil); NOT GIVEN kalemleri icin metnin sessiz kaldigi komsu noktalar birakilacak"
+        },
+        {
+          "kaynak": "turetilmis (butce)",
+          "kosul": "3 ayri odak noktasi; her birinde 4 secenegi ayirt edecek kadar ayrinti (genel kultur yanlis secenege capalanacak)"
+        },
+        {
+          "kaynak": "plan 1.4",
+          "kosul": "1 paragraf BASKA hicbir sorunun dokunmadigi hale birakilacak; her birinde 3 kelime veya bir sayiyla cevaplanabilen, calismanin kendi sectigi bir deger"
+        }
+      ],
+      "sikisikliklar": [],
+      "onerilen_gruplar": [
+        {
+          "kod": "NC",
+          "paket": "note-completion.json",
+          "question_type": "note_completion",
+          "onerilen_group_id": "P-NC-A16",
+          "kalem": 3,
+          "numara_araligi": "4-6",
+          "birlesen_kume_sayisi": 1,
+          "yonerge_ilk_satiri": "Questions 4-6 refer to Passage A16",
+          "numaralar_bitisik": true
+        },
+        {
+          "kod": "SA",
+          "paket": "short-answer.json",
+          "question_type": "short_answer",
+          "onerilen_group_id": "P-SA-A16",
+          "kalem": 1,
+          "numara_araligi": "5",
+          "birlesen_kume_sayisi": 1,
+          "yonerge_ilk_satiri": "Question 5 refers to Passage A16",
+          "numaralar_bitisik": true
+        },
+        {
+          "kod": "TFNG",
+          "paket": "true-false-not-given.json",
+          "question_type": "true_false_not_given",
+          "onerilen_group_id": "P-TF-A16",
+          "kalem": 8,
+          "numara_araligi": "5-12",
+          "birlesen_kume_sayisi": 2,
+          "yonerge_ilk_satiri": "Questions 5-12 refer to Passage A16",
+          "numaralar_bitisik": true
+        },
+        {
+          "kod": "MC",
+          "paket": "multiple-choice.json",
+          "question_type": "multiple_choice",
+          "onerilen_group_id": "P-MC-A16",
+          "kalem": 3,
+          "numara_araligi": "9-12",
+          "birlesen_kume_sayisi": 1,
+          "yonerge_ilk_satiri": "Questions 9-12 refer to Passage A16",
+          "numaralar_bitisik": true
+        },
+        {
+          "kod": "MH",
+          "paket": "matching-headings.json",
+          "question_type": "matching_headings",
+          "onerilen_group_id": "P-MH-A16",
+          "kalem": 5,
+          "numara_araligi": "6-10",
+          "birlesen_kume_sayisi": 1,
+          "yonerge_ilk_satiri": "Questions 6-10 refer to Passage A16",
+          "numaralar_bitisik": true
+        }
+      ]
+    },
+    {
+      "passage_id": "A17",
+      "module": "academic",
+      "section": null,
+      "konu": "mikrobiyoloji / biyofilmlerin yuzeyleri kolonilestirmesi",
+      "konu_ozeti": "Yeni bir yuzeyde mikroorganizma tabakasinin asama asama olusmasi; her paragrafta ayri bir bulunabilir olgu.",
+      "kaynak": "PLOS ONE (biyofilm olusumu calismalari)",
+      "kaynak_yedegi": "OpenStax Microbiology",
+      "en_yakin_mevcut": "yok — mevcut 18 metinde mikrobiyoloji hic yok",
+      "ayrim": "Saglik/tedavi iddiasina girmeden mikrobiyal ekoloji anlatiliyor.",
+      "kumeler": [
+        {
+          "paket": "sentence-completion.json",
+          "kod": "SC",
+          "question_type": "sentence_completion",
+          "eski_passage_id": "A04",
+          "eski_group_id": null,
+          "kalem": 3,
+          "numara": 3,
+          "numaralar": [
+            10,
+            11,
+            12
+          ],
+          "numara_araligi": "10-12"
+        },
+        {
+          "paket": "short-answer.json",
+          "kod": "SA",
+          "question_type": "short_answer",
+          "eski_passage_id": "A06",
+          "eski_group_id": null,
+          "kalem": 1,
+          "numara": 1,
+          "numaralar": [
+            6
+          ],
+          "numara_araligi": "6"
+        },
+        {
+          "paket": "matching-information.json",
+          "kod": "MI",
+          "question_type": "matching_information",
+          "eski_passage_id": "A04",
+          "eski_group_id": null,
+          "kalem": 4,
+          "numara": 4,
+          "numaralar": [
+            5,
+            6,
+            7,
+            8
+          ],
+          "numara_araligi": "5-8"
+        },
+        {
+          "paket": "matching-information.json",
+          "kod": "MI",
+          "question_type": "matching_information",
+          "eski_passage_id": "A07",
+          "eski_group_id": null,
+          "kalem": 4,
+          "numara": 4,
+          "numaralar": [
+            9,
+            10,
+            11,
+            12
+          ],
+          "numara_araligi": "9-12"
+        },
+        {
+          "paket": "true-false-not-given.json",
+          "kod": "TFNG",
+          "question_type": "true_false_not_given",
+          "eski_passage_id": "A09",
+          "eski_group_id": null,
+          "kalem": 3,
+          "numara": 3,
+          "numaralar": [
+            13,
+            14,
+            15
+          ],
+          "numara_araligi": "13-15"
+        },
+        {
+          "paket": "multiple-choice.json",
+          "kod": "MC",
+          "question_type": "multiple_choice",
+          "eski_passage_id": "A11",
+          "eski_group_id": null,
+          "kalem": 3,
+          "numara": 3,
+          "numaralar": [
+            13,
+            14,
+            15
+          ],
+          "numara_araligi": "13-15"
+        }
+      ],
+      "kalem": 18,
+      "numara": 18,
+      "paket_kalem": {
+        "SC": 3,
+        "SA": 1,
+        "MI": 8,
+        "TFNG": 3,
+        "MC": 3
+      },
+      "paket_sayisi": 5,
+      "paragraf_en_az": 9,
+      "paragraf_onerilen": 10,
+      "kelime_alt": 700,
+      "kelime_ust": 900,
+      "kisa_cevap_kalem": 1,
+      "paragraf_basi_soru": 1.89,
+      "on_kosullar": [
+        {
+          "kaynak": "prompts/01-pasaj-secimi.md + butce",
+          "kosul": "7-10 harflendirilmis paragraf (en az 9, onerilen 10)"
+        },
+        {
+          "kaynak": "butce (kanit cumlesi basina en cok 1 soru)",
+          "kosul": "birbirinden ayri en az 18 kanit cumlesi (her kalem kendi cumlesini alacak)"
+        },
+        {
+          "kaynak": "plan 1.2 tablosu (tamamlama ailesi)",
+          "kosul": "en az 4 ayri somut sayi/olcu/ad, en az 4 ayri paragrafa dagilmis — hepsi metnin kendi calismasina ozgu (kamuya acik/ezberlenebilir deger yasak)"
+        },
+        {
+          "kaynak": "turetilmis (butce)",
+          "kosul": "en az 3 dogrulanabilir OLGU cumlesi (yazar gorusu degil); NOT GIVEN kalemleri icin metnin sessiz kaldigi komsu noktalar birakilacak"
+        },
+        {
+          "kaynak": "turetilmis (butce + bugunku yonerge)",
+          "kosul": "en az 8 harflendirilmis paragraf ve 8 ayri paragrafta bulunabilir olgu (ayni paragraf iki bilgi sorusuna kaynak olmayacak)"
+        },
+        {
+          "kaynak": "turetilmis (butce)",
+          "kosul": "3 ayri odak noktasi; her birinde 4 secenegi ayirt edecek kadar ayrinti (genel kultur yanlis secenege capalanacak)"
+        },
+        {
+          "kaynak": "plan 1.4",
+          "kosul": "1 paragraf BASKA hicbir sorunun dokunmadigi hale birakilacak; her birinde 3 kelime veya bir sayiyla cevaplanabilen, calismanin kendi sectigi bir deger"
+        }
+      ],
+      "sikisikliklar": [
+        "paragraf sayisi ust sinirda (10) — metin kisaltilirsa butce bozulur",
+        "ayri paragraf isteyen kalemler (baslik/bilgi eslestirme + kisa cevap) 9 paragraf tutuyor, metinde 10 paragraf var — yedek paragraf yok"
+      ],
+      "onerilen_gruplar": [
+        {
+          "kod": "SC",
+          "paket": "sentence-completion.json",
+          "question_type": "sentence_completion",
+          "onerilen_group_id": "P-SC-A17",
+          "kalem": 3,
+          "numara_araligi": "10-12",
+          "birlesen_kume_sayisi": 1,
+          "yonerge_ilk_satiri": "Questions 10-12 refer to Passage A17",
+          "numaralar_bitisik": true
+        },
+        {
+          "kod": "SA",
+          "paket": "short-answer.json",
+          "question_type": "short_answer",
+          "onerilen_group_id": "P-SA-A17",
+          "kalem": 1,
+          "numara_araligi": "6",
+          "birlesen_kume_sayisi": 1,
+          "yonerge_ilk_satiri": "Question 6 refers to Passage A17",
+          "numaralar_bitisik": true
+        },
+        {
+          "kod": "MI",
+          "paket": "matching-information.json",
+          "question_type": "matching_information",
+          "onerilen_group_id": "P-MI-A17",
+          "kalem": 8,
+          "numara_araligi": "5-12",
+          "birlesen_kume_sayisi": 2,
+          "yonerge_ilk_satiri": "Questions 5-12 refer to Passage A17",
+          "numaralar_bitisik": true
+        },
+        {
+          "kod": "TFNG",
+          "paket": "true-false-not-given.json",
+          "question_type": "true_false_not_given",
+          "onerilen_group_id": "P-TF-A17",
+          "kalem": 3,
+          "numara_araligi": "13-15",
+          "birlesen_kume_sayisi": 1,
+          "yonerge_ilk_satiri": "Questions 13-15 refer to Passage A17",
+          "numaralar_bitisik": true
+        },
+        {
+          "kod": "MC",
+          "paket": "multiple-choice.json",
+          "question_type": "multiple_choice",
+          "onerilen_group_id": "P-MC-A17",
+          "kalem": 3,
+          "numara_araligi": "13-15",
+          "birlesen_kume_sayisi": 1,
+          "yonerge_ilk_satiri": "Questions 13-15 refer to Passage A17",
+          "numaralar_bitisik": true
+        }
+      ]
+    },
+    {
+      "passage_id": "A18",
+      "module": "academic",
+      "section": null,
+      "konu": "genetik yontem / DNA barkodlamayla tur tanimlama",
+      "konu_ozeti": "Kucuk bir gen parcasindan tur tanimlama yonteminin nasil kuruldugu ve nerede yaniltici oldugu; somut deger ve ad yogun.",
+      "kaynak": "PLOS ONE (DNA barcoding calismalari)",
+      "kaynak_yedegi": "OpenStax Biology (biyoteknoloji bolumu)",
+      "en_yakin_mevcut": "A01/A02/A07 (doga) — hayvan davranisi",
+      "ayrim": "Davranis anlatmiyor; laboratuvar yontemi ve yontemin sinirlari anlatiliyor.",
+      "kumeler": [
+        {
+          "paket": "sentence-completion.json",
+          "kod": "SC",
+          "question_type": "sentence_completion",
+          "eski_passage_id": "A05",
+          "eski_group_id": null,
+          "kalem": 3,
+          "numara": 3,
+          "numaralar": [
+            13,
+            14,
+            15
+          ],
+          "numara_araligi": "13-15"
+        },
+        {
+          "paket": "note-completion.json",
+          "kod": "NC",
+          "question_type": "note_completion",
+          "eski_passage_id": "A08",
+          "eski_group_id": null,
+          "kalem": 3,
+          "numara": 3,
+          "numaralar": [
+            7,
+            8,
+            9
+          ],
+          "numara_araligi": "7-9"
+        },
+        {
+          "paket": "note-completion.json",
+          "kod": "NC",
+          "question_type": "note_completion",
+          "eski_passage_id": "A09",
+          "eski_group_id": null,
+          "kalem": 3,
+          "numara": 3,
+          "numaralar": [
+            10,
+            11,
+            12
+          ],
+          "numara_araligi": "10-12"
+        },
+        {
+          "paket": "short-answer.json",
+          "kod": "SA",
+          "question_type": "short_answer",
+          "eski_passage_id": "A07",
+          "eski_group_id": null,
+          "kalem": 1,
+          "numara": 1,
+          "numaralar": [
+            7
+          ],
+          "numara_araligi": "7"
+        },
+        {
+          "paket": "short-answer.json",
+          "kod": "SA",
+          "question_type": "short_answer",
+          "eski_passage_id": "A08",
+          "eski_group_id": null,
+          "kalem": 1,
+          "numara": 1,
+          "numaralar": [
+            8
+          ],
+          "numara_araligi": "8"
+        },
+        {
+          "paket": "matching-information.json",
+          "kod": "MI",
+          "question_type": "matching_information",
+          "eski_passage_id": "A11",
+          "eski_group_id": null,
+          "kalem": 3,
+          "numara": 3,
+          "numaralar": [
+            13,
+            14,
+            15
+          ],
+          "numara_araligi": "13-15"
+        },
+        {
+          "paket": "matching-headings.json",
+          "kod": "MH",
+          "question_type": "matching_headings",
+          "eski_passage_id": "A12",
+          "eski_group_id": "P-MH-03",
+          "kalem": 5,
+          "numara": 5,
+          "numaralar": [
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "numara_araligi": "11-15"
+        }
+      ],
+      "kalem": 19,
+      "numara": 19,
+      "paket_kalem": {
+        "SC": 3,
+        "NC": 6,
+        "SA": 2,
+        "MI": 3,
+        "MH": 5
+      },
+      "paket_sayisi": 5,
+      "paragraf_en_az": 8,
+      "paragraf_onerilen": 9,
+      "kelime_alt": 700,
+      "kelime_ust": 900,
+      "kisa_cevap_kalem": 2,
+      "paragraf_basi_soru": 2.43,
+      "on_kosullar": [
+        {
+          "kaynak": "prompts/01-pasaj-secimi.md + butce",
+          "kosul": "7-10 harflendirilmis paragraf (en az 8, onerilen 9)"
+        },
+        {
+          "kaynak": "butce (kanit cumlesi basina en cok 1 soru)",
+          "kosul": "birbirinden ayri en az 19 kanit cumlesi (her kalem kendi cumlesini alacak)"
+        },
+        {
+          "kaynak": "plan 1.2 tablosu (baslik eslestirme)",
+          "kosul": "8-10 paragraf ve HER paragrafin ayirt edilebilir tek ana fikri; 5 paragraf baslik sorusuna acik olacak"
+        },
+        {
+          "kaynak": "plan 1.2 tablosu (tamamlama ailesi)",
+          "kosul": "en az 11 ayri somut sayi/olcu/ad, en az 4 ayri paragrafa dagilmis — hepsi metnin kendi calismasina ozgu (kamuya acik/ezberlenebilir deger yasak)"
+        },
+        {
+          "kaynak": "turetilmis (butce + bugunku yonerge)",
+          "kosul": "en az 8 harflendirilmis paragraf ve 3 ayri paragrafta bulunabilir olgu (ayni paragraf iki bilgi sorusuna kaynak olmayacak)"
+        },
+        {
+          "kaynak": "plan 1.4",
+          "kosul": "2 paragraf BASKA hicbir sorunun dokunmadigi hale birakilacak; her birinde 3 kelime veya bir sayiyla cevaplanabilen, calismanin kendi sectigi bir deger"
+        }
+      ],
+      "sikisikliklar": [],
+      "onerilen_gruplar": [
+        {
+          "kod": "SC",
+          "paket": "sentence-completion.json",
+          "question_type": "sentence_completion",
+          "onerilen_group_id": "P-SC-A18",
+          "kalem": 3,
+          "numara_araligi": "13-15",
+          "birlesen_kume_sayisi": 1,
+          "yonerge_ilk_satiri": "Questions 13-15 refer to Passage A18",
+          "numaralar_bitisik": true
+        },
+        {
+          "kod": "NC",
+          "paket": "note-completion.json",
+          "question_type": "note_completion",
+          "onerilen_group_id": "P-NC-A18",
+          "kalem": 6,
+          "numara_araligi": "7-12",
+          "birlesen_kume_sayisi": 2,
+          "yonerge_ilk_satiri": "Questions 7-12 refer to Passage A18",
+          "numaralar_bitisik": true
+        },
+        {
+          "kod": "SA",
+          "paket": "short-answer.json",
+          "question_type": "short_answer",
+          "onerilen_group_id": "P-SA-A18",
+          "kalem": 2,
+          "numara_araligi": "7-8",
+          "birlesen_kume_sayisi": 2,
+          "yonerge_ilk_satiri": "Questions 7-8 refer to Passage A18",
+          "numaralar_bitisik": true
+        },
+        {
+          "kod": "MI",
+          "paket": "matching-information.json",
+          "question_type": "matching_information",
+          "onerilen_group_id": "P-MI-A18",
+          "kalem": 3,
+          "numara_araligi": "13-15",
+          "birlesen_kume_sayisi": 1,
+          "yonerge_ilk_satiri": "Questions 13-15 refer to Passage A18",
+          "numaralar_bitisik": true
+        },
+        {
+          "kod": "MH",
+          "paket": "matching-headings.json",
+          "question_type": "matching_headings",
+          "onerilen_group_id": "P-MH-A18",
+          "kalem": 5,
+          "numara_araligi": "11-15",
+          "birlesen_kume_sayisi": 1,
+          "yonerge_ilk_satiri": "Questions 11-15 refer to Passage A18",
+          "numaralar_bitisik": true
+        }
+      ]
+    },
+    {
+      "passage_id": "A19",
+      "module": "academic",
+      "section": null,
+      "konu": "su teknolojisi / gunes enerjili damitma duzenegi (SUREC METNI)",
+      "konu_ozeti": "Tuzlu suyun gunesle buharlastirilip yogusturuldugu duzenegin asamalari; cizilebilir duzenek — diyagram etiketlemenin 10 kalemi buraya.",
+      "kaynak": "PLOS ONE (gunes damitma / solar still calismalari)",
+      "kaynak_yedegi": "OpenStax Chemistry (faz degisimi bolumu) · USGS su bilimi sayfalari",
+      "en_yakin_mevcut": "A03/A08 (iklim-jeoloji-okyanus)",
+      "ayrim": "Iklim/jeoloji olgusu degil, insan yapimi bir duzenegin isleyisi; deniz/okyanus surec anlatimina girmeyecek.",
+      "kumeler": [
+        {
+          "paket": "note-completion.json",
+          "kod": "NC",
+          "question_type": "note_completion",
+          "eski_passage_id": "A12",
+          "eski_group_id": null,
+          "kalem": 3,
+          "numara": 3,
+          "numaralar": [
+            13,
+            14,
+            15
+          ],
+          "numara_araligi": "13-15"
+        },
+        {
+          "paket": "summary-completion.json",
+          "kod": "SUM",
+          "question_type": "summary_completion",
+          "eski_passage_id": "A11",
+          "eski_group_id": null,
+          "kalem": 4,
+          "numara": 4,
+          "numaralar": [
+            5,
+            6,
+            7,
+            8
+          ],
+          "numara_araligi": "5-8"
+        },
+        {
+          "paket": "short-answer.json",
+          "kod": "SA",
+          "question_type": "short_answer",
+          "eski_passage_id": "A09",
+          "eski_group_id": null,
+          "kalem": 1,
+          "numara": 1,
+          "numaralar": [
+            9
+          ],
+          "numara_araligi": "9"
+        },
+        {
+          "paket": "short-answer.json",
+          "kod": "SA",
+          "question_type": "short_answer",
+          "eski_passage_id": "A12",
+          "eski_group_id": null,
+          "kalem": 1,
+          "numara": 1,
+          "numaralar": [
+            10
+          ],
+          "numara_araligi": "10"
+        },
+        {
+          "paket": "diagram-labelling.json",
+          "kod": "DL",
+          "question_type": "diagram_labelling",
+          "eski_passage_id": "G01",
+          "eski_group_id": null,
+          "kalem": 3,
+          "numara": 3,
+          "numaralar": [
+            1,
+            2,
+            3
+          ],
+          "numara_araligi": "1-3"
+        },
+        {
+          "paket": "diagram-labelling.json",
+          "kod": "DL",
+          "question_type": "diagram_labelling",
+          "eski_passage_id": "G02",
+          "eski_group_id": null,
+          "kalem": 2,
+          "numara": 2,
+          "numaralar": [
+            4,
+            5
+          ],
+          "numara_araligi": "4-5"
+        },
+        {
+          "paket": "diagram-labelling.json",
+          "kod": "DL",
+          "question_type": "diagram_labelling",
+          "eski_passage_id": "G03",
+          "eski_group_id": null,
+          "kalem": 3,
+          "numara": 3,
+          "numaralar": [
+            6,
+            7,
+            8
+          ],
+          "numara_araligi": "6-8"
+        },
+        {
+          "paket": "diagram-labelling.json",
+          "kod": "DL",
+          "question_type": "diagram_labelling",
+          "eski_passage_id": "G04",
+          "eski_group_id": null,
+          "kalem": 2,
+          "numara": 2,
+          "numaralar": [
+            9,
+            10
+          ],
+          "numara_araligi": "9-10"
+        }
+      ],
+      "kalem": 19,
+      "numara": 19,
+      "paket_kalem": {
+        "NC": 3,
+        "SUM": 4,
+        "SA": 2,
+        "DL": 10
+      },
+      "paket_sayisi": 4,
+      "paragraf_en_az": 8,
+      "paragraf_onerilen": 9,
+      "kelime_alt": 700,
+      "kelime_ust": 900,
+      "kisa_cevap_kalem": 2,
+      "paragraf_basi_soru": 2.43,
+      "on_kosullar": [
+        {
+          "kaynak": "prompts/01-pasaj-secimi.md + butce",
+          "kosul": "7-10 harflendirilmis paragraf (en az 8, onerilen 9)"
+        },
+        {
+          "kaynak": "butce (kanit cumlesi basina en cok 1 soru)",
+          "kosul": "birbirinden ayri en az 19 kanit cumlesi (her kalem kendi cumlesini alacak)"
+        },
+        {
+          "kaynak": "plan 1.2 tablosu (tamamlama ailesi)",
+          "kosul": "en az 19 ayri somut sayi/olcu/ad, en az 7 ayri paragrafa dagilmis — hepsi metnin kendi calismasina ozgu (kamuya acik/ezberlenebilir deger yasak)"
+        },
+        {
+          "kaynak": "plan 1.2 tablosu (diyagram etiketleme)",
+          "kosul": "cizilebilir tek bir surec/duzenek anlatimi; en az 10 etiketlenebilir bilesen/asama, sirasi metinden izlenebilir"
+        },
+        {
+          "kaynak": "plan 1.4",
+          "kosul": "2 paragraf BASKA hicbir sorunun dokunmadigi hale birakilacak; her birinde 3 kelime veya bir sayiyla cevaplanabilen, calismanin kendi sectigi bir deger"
+        }
+      ],
+      "sikisikliklar": [],
+      "onerilen_gruplar": [
+        {
+          "kod": "NC",
+          "paket": "note-completion.json",
+          "question_type": "note_completion",
+          "onerilen_group_id": "P-NC-A19",
+          "kalem": 3,
+          "numara_araligi": "13-15",
+          "birlesen_kume_sayisi": 1,
+          "yonerge_ilk_satiri": "Questions 13-15 refer to Passage A19",
+          "numaralar_bitisik": true
+        },
+        {
+          "kod": "SUM",
+          "paket": "summary-completion.json",
+          "question_type": "summary_completion",
+          "onerilen_group_id": "P-SUM-A19",
+          "kalem": 4,
+          "numara_araligi": "5-8",
+          "birlesen_kume_sayisi": 1,
+          "yonerge_ilk_satiri": "Questions 5-8 refer to Passage A19",
+          "numaralar_bitisik": true
+        },
+        {
+          "kod": "SA",
+          "paket": "short-answer.json",
+          "question_type": "short_answer",
+          "onerilen_group_id": "P-SA-A19",
+          "kalem": 2,
+          "numara_araligi": "9-10",
+          "birlesen_kume_sayisi": 2,
+          "yonerge_ilk_satiri": "Questions 9-10 refer to Passage A19",
+          "numaralar_bitisik": true
+        },
+        {
+          "kod": "DL",
+          "paket": "diagram-labelling.json",
+          "question_type": "diagram_labelling",
+          "onerilen_group_id": "P-DL-A19",
+          "kalem": 10,
+          "numara_araligi": "1-10",
+          "birlesen_kume_sayisi": 4,
+          "yonerge_ilk_satiri": "Questions 1-10 refer to Passage A19",
+          "numaralar_bitisik": true
+        }
+      ]
+    },
+    {
+      "passage_id": "G07",
+      "module": "general",
+      "section": 3,
+      "konu": "ev bitkileri ve ic hava kalitesi (GT 3. bolum, uzun genel ilgi metni)",
+      "konu_ozeti": "Evlerdeki bitkilerin ic hava olcumlerine etkisi uzerine birbiriyle cekisen ekipler; neden-sonuc ve karsitlik cumlesi yogun anlati.",
+      "kaynak": "PLOS ONE (ic mekan bitkileri / hava kalitesi calismalari)",
+      "kaynak_yedegi": "OpenStax Biology (bitki fizyolojisi) — anlatim sadelestirilerek",
+      "en_yakin_mevcut": "G05 (gida israfi), G06 (gonulluluk) — ikisi de GT 3. bolum",
+      "ayrim": "Tuketim davranisi ve gonullu calisma alt konularina girmiyor; olcum agirlikli ev ici hava konusu. (prompts/01-pasaj-secimi.md'nin GT 3. bolum ornek listesinde zaten geciyor.)",
+      "kumeler": [
+        {
+          "paket": "summary-completion.json",
+          "kod": "SUM",
+          "question_type": "summary_completion",
+          "eski_passage_id": "G05",
+          "eski_group_id": null,
+          "kalem": 4,
+          "numara": 4,
+          "numaralar": [
+            9,
+            10,
+            11,
+            12
+          ],
+          "numara_araligi": "9-12"
+        },
+        {
+          "paket": "summary-completion.json",
+          "kod": "SUM",
+          "question_type": "summary_completion",
+          "eski_passage_id": "G06",
+          "eski_group_id": null,
+          "kalem": 3,
+          "numara": 3,
+          "numaralar": [
+            13,
+            14,
+            15
+          ],
+          "numara_araligi": "13-15"
+        },
+        {
+          "paket": "matching-features.json",
+          "kod": "MF",
+          "question_type": "matching_features",
+          "eski_passage_id": "G05",
+          "eski_group_id": "P-MF-02",
+          "kalem": 5,
+          "numara": 5,
+          "numaralar": [
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "numara_araligi": "6-10"
+        },
+        {
+          "paket": "matching-sentence-endings.json",
+          "kod": "MSE",
+          "question_type": "matching_sentence_endings",
+          "eski_passage_id": "A07",
+          "eski_group_id": "P-MSE-01",
+          "kalem": 5,
+          "numara": 5,
+          "numaralar": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "numara_araligi": "1-5"
+        },
+        {
+          "paket": "matching-sentence-endings.json",
+          "kod": "MSE",
+          "question_type": "matching_sentence_endings",
+          "eski_passage_id": "G06",
+          "eski_group_id": "P-MSE-02",
+          "kalem": 5,
+          "numara": 5,
+          "numaralar": [
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "numara_araligi": "6-10"
+        }
+      ],
+      "kalem": 22,
+      "numara": 22,
+      "paket_kalem": {
+        "SUM": 7,
+        "MF": 5,
+        "MSE": 10
+      },
+      "paket_sayisi": 3,
+      "paragraf_en_az": 8,
+      "paragraf_onerilen": 10,
+      "kelime_alt": 850,
+      "kelime_ust": 900,
+      "kisa_cevap_kalem": 0,
+      "paragraf_basi_soru": 2.2,
+      "on_kosullar": [
+        {
+          "kaynak": "prompts/01-pasaj-secimi.md + butce",
+          "kosul": "7-10 harflendirilmis paragraf (en az 8, onerilen 10)"
+        },
+        {
+          "kaynak": "butce (kanit cumlesi basina en cok 1 soru)",
+          "kosul": "birbirinden ayri en az 22 kanit cumlesi (her kalem kendi cumlesini alacak)"
+        },
+        {
+          "kaynak": "plan 1.2 tablosu (tamamlama ailesi)",
+          "kosul": "en az 7 ayri somut sayi/olcu/ad, en az 4 ayri paragrafa dagilmis — hepsi metnin kendi calismasina ozgu (kamuya acik/ezberlenebilir deger yasak)"
+        },
+        {
+          "kaynak": "plan 1.2 tablosu (ozellik eslestirme)",
+          "kosul": "3-4 adi gecen arastirmaci/kurum ve toplam 5 ayirt edici iddia (her iddia tek bir ada baglanacak)"
+        },
+        {
+          "kaynak": "plan 1.2 tablosu (cumle sonu eslestirme)",
+          "kosul": "en az 10 neden-sonuc/karsitlik cumlesi (tablo tabani 5; iki grup tasindigi icin kalem sayisi belirleyici) — E7 recetesi burada uygulanacak"
+        }
+      ],
+      "sikisikliklar": [
+        "22 kalem — metin basina hedef ~20 asiliyor; yuk ancak 10 paragrafla tasiniyor",
+        "paragraf sayisi ust sinirda (10) — metin kisaltilirsa butce bozulur"
+      ],
+      "onerilen_gruplar": [
+        {
+          "kod": "SUM",
+          "paket": "summary-completion.json",
+          "question_type": "summary_completion",
+          "onerilen_group_id": "P-SUM-G07",
+          "kalem": 7,
+          "numara_araligi": "9-15",
+          "birlesen_kume_sayisi": 2,
+          "yonerge_ilk_satiri": "Questions 9-15 refer to Passage G07",
+          "numaralar_bitisik": true
+        },
+        {
+          "kod": "MF",
+          "paket": "matching-features.json",
+          "question_type": "matching_features",
+          "onerilen_group_id": "P-MF-G07",
+          "kalem": 5,
+          "numara_araligi": "6-10",
+          "birlesen_kume_sayisi": 1,
+          "yonerge_ilk_satiri": "Questions 6-10 refer to Passage G07",
+          "numaralar_bitisik": true
+        },
+        {
+          "kod": "MSE",
+          "paket": "matching-sentence-endings.json",
+          "question_type": "matching_sentence_endings",
+          "onerilen_group_id": "P-MSE-G07",
+          "kalem": 10,
+          "numara_araligi": "1-10",
+          "birlesen_kume_sayisi": 2,
+          "yonerge_ilk_satiri": "Questions 1-10 refer to Passage G07",
+          "numaralar_bitisik": true
+        }
+      ]
+    }
+  ],
+  "icloud_kopyalari_denetim": [
+    "DENETIM-RAPORU 2.md",
+    "capraz-ozet 2.md",
+    "envanter 2.md"
+  ]
+}
