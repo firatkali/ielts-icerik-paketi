@@ -8,7 +8,7 @@
   "practice": true,
   "passage_id": null,
   "question_type": "true_false_not_given",
-  "generated_by": "fable",
+  "generated_by": "opus",
   "instructions": "Do the following statements agree with the information given in the passage?\n\nIn boxes 1-15 on your answer sheet, write\n\nTRUE if the statement agrees with the information\nFALSE if the statement contradicts the information\nNOT GIVEN if there is no information on this",
   "options": [
     "TRUE",
@@ -18,371 +18,519 @@
   "word_limit": null,
   "word_bank": null,
   "visual": null,
-  "stem_block": "Questions 1-4 refer to Passage A02 - How Octopuses Tell Friend from Stranger\nQuestions 5-8 refer to Passage A05 - The Wheat That Was Ahead of Its Time\nQuestions 9-12 refer to Passage A08 - An Earthquake Writes Its Story Across a Glacier\nQuestions 13-15 refer to Passage A09 - The Brain That Turned to Glass",
+  "stem_block": "Questions 1-4 refer to Passage A13 - The Concrete That Mends Its Own Cracks\nQuestions 5-12 refer to Passage A16 - What Changes When the Ground Gets Harder\nQuestions 13-15 refer to Passage A17 - What Settles First on a Surface Under Water",
   "items": [
     {
       "number": 1,
-      "passage_id": "A02",
-      "prompt": "Males outnumbered females among the sixty animals used in the study.",
-      "answer": [
-        "TRUE"
-      ],
-      "evidence": "Individual octopuses ranged from 114 to 324 grams, and the sample of sixty animals included forty-two males and eighteen females.",
-      "evidence_locator": {
-        "paragraph": "B",
-        "sentence": 2
-      },
-      "contradiction_point": null,
-      "not_given_justification": null,
-      "scan_note": "Hayvanların cinsiyeti pasajda yalnızca B paragrafında (2. cümle) geçiyor; B/1 altmış hayvanın toplandığını ve yirmi dört çift kurulduğunu söylüyor ama cinsiyetten söz etmiyor, E paragrafındaki değiştirme de yalnızca boy ve ağırlığa dayanıyor. Sayıyla çelişen başka cümle yok.",
-      "explanation": "Paragraph B says that the sample of sixty animals included forty-two males and eighteen females; since forty-two is greater than eighteen, the statement is true.",
-      "difficulty": "easy",
-      "status": "verified",
-      "blind_solvable": false
-    },
-    {
-      "number": 2,
-      "passage_id": "A02",
-      "prompt": "The pairs placed behind an opaque divider were still able to smell each other.",
+      "passage_id": "A13",
+      "prompt": "Cracking opens narrow channels through the stone aggregate rather than through the hardened cement paste.",
       "answer": [
         "FALSE"
       ],
-      "evidence": "The other half were separated by an opaque divider and had no contact of any kind.",
+      "evidence": "Shrinkage as it dries, shifting loads and the slow settling of the ground beneath a structure all open narrow channels through the hardened cement paste.",
       "evidence_locator": {
-        "paragraph": "C",
-        "sentence": 3
+        "paragraph": "A",
+        "sentence": 2
       },
-      "contradiction_point": "Pasaj mat bölmeyle ayrılan çiftlerin 'hiçbir türden teması olmadığını' söylüyor; ifade ise koku yoluyla temas kurabildiklerini iddia ediyor. Çelişki tek noktada: temasın hiç olmaması / koku temasının bulunması.",
+      "contradiction_point": "Pasaj dar kanalların sertleşmiş çimento hamurunun içinden açıldığını söylüyor; ifade ise kanalların taş agregadan geçtiğini, hamurdan geçmediğini iddia ediyor. Çelişki tek noktada: kanalın içinden açıldığı malzeme.",
       "not_given_justification": null,
-      "scan_note": "Bölme türleri ve duyusal temas C paragrafında (2.-4. cümle) anlatılıyor; C/2 şeffaf bölmeli grubun bile su hatları ayrı olduğu için birbirini koklayamadığını söylüyor, C/3 mat bölmeli grupta hiç temas olmadığını belirtiyor. Koku konusu ayrıca H paragrafının son cümlesinde geçiyor ama orada da deney sırasında koklaşma olduğu söylenmiyor.",
-      "explanation": "Paragraph C says that pairs separated by an opaque divider had no contact of any kind; since the water lines were also kept separate, smelling each other was not possible.",
-      "difficulty": "medium",
-      "status": "verified",
-      "blind_solvable": false
-    },
-    {
-      "number": 3,
-      "passage_id": "A02",
-      "prompt": "In each pair, the animal that came to dominate was the heavier of the two.",
-      "answer": [
-        "NOT GIVEN"
-      ],
-      "evidence": null,
-      "evidence_locator": null,
-      "contradiction_point": null,
-      "not_given_justification": "(1) Konu pasajda var: B paragrafi esleme olcutunu ve tek tek agirliklari, D paragrafi her ciftte bir baskinlik siralamasi olustugunu veriyor. (2) Ifadeyi curuten cumle yok: baskin hayvanin hafif olan oldugu hicbir yerde soylenmiyor. (3) Dogrulayan cumle de yok: metin agirligi ve baskinligi ayri ayri veriyor, ikisini hicbir yerde caprazlamiyor.",
-      "scan_note": "Agirlik B paragrafinin 1. ve 2. cumlelerinde, baskinlik D paragrafinin 2. cumlesinde ve F paragrafinda (baskinligin tersine donmesi) geciyor; hicbiri iki olcuyu birbirine baglamiyor.",
-      "explanation": "Paragraph B says the two animals in a pair were matched to differ in weight by no more than fifteen per cent, and paragraph D says a dominance hierarchy emerged in every pair, but the passage never says whether the dominant animal was the heavier one.",
-      "difficulty": "medium",
-      "status": "verified",
-      "blind_solvable": false,
-      "blind_basis": null,
-      "flag_reason": "Ifade 'her gun ayni saatte' gibi pasajin ana konusuna (oturum suresi ve gun sayisi) eklenen, ayrica dogrulanmasi gereken dar bir ayrintı ekliyor; bu turden 'konudan sapan ekstra ayrinti' kalibi genelde NOT GIVEN'a isaret eder, parcaya bakmadan da bu oruntuyle tahmin edilebilir.",
-      "flag_mechanism": "konumsal_duzen",
-      "revision": {
-        "tarih": "2026-08-08",
-        "mekanizma": "eksen_disi_ayrinti",
-        "onceki_prompt": "The daily fifteen-minute sessions were held at the same time each day.",
-        "ne_degisti": "Eski ifade oturumlarin gunun ayni saatinde yapilip yapilmadigini soruyordu; pasajin hic konusmadigi bir boyut (gunun saati) ekleyen bu kalip tek basina NOT GIVEN'i veriyordu. Yeni ifade metnin bol bol konustugu iki ekseni (agirlik eslemesi ve baskinlik siralamasi) kesistiriyor; ikisi de ayrintisiyla veriliyor ama hic caprazlanmiyor."
-      }
-    },
-    {
-      "number": 4,
-      "passage_id": "A02",
-      "prompt": "No octopus released ink at any point during the test held on the seventh day.",
-      "answer": [
-        "TRUE"
-      ],
-      "evidence": "Reversals of dominance, in which the previously subordinate animal became the stronger one, occurred only when the pair consisted of two strangers, in eight of the twelve such pairings; no reversal of this kind was seen among reunited familiar pairs, and no ink was released by any octopus during this final test.",
-      "evidence_locator": {
-        "paragraph": "F",
-        "sentence": 4
-      },
-      "contradiction_point": null,
-      "not_given_justification": null,
-      "scan_note": "Murekkep pasajda iki yerde geciyor: D/2 uc gunluk birlikte yasama boyunca savunma amacli murekkep puskurtmenin seyreldigini soyluyor, F/4 ise son sinamada hicbir ahtapotun murekkep birakmadigini belirtiyor. Sinamanin yedinci gunde yapildigini E/1 veriyor, F paragrafi da o sinamanin bulgularini aktariyor. Murekkep birakildigini soyleyen ters yonde bir cumle yok.",
-      "explanation": "Paragraph E says the decisive test came on the seventh day, and paragraph F reports that no ink was released by any octopus during that final test.",
+      "scan_note": "Kanalın hangi malzemenin içinden açıldığı yalnız A/2'de söyleniyor. A/3 kanal dışarıya ulaştığında su ve oksijenin içeri girdiğini, B/3 çatlağın kapsülleri yardığını, F ise çatlağın nemi içeri aldığını anlatıyor; hiçbiri kanalın geçtiği malzemeyi yeniden tanımlamıyor. 'Agrega' sözcüğü metinde hiç geçmiyor, dolayısıyla hamur dışında bir malzeme gösteren cümle de yok; ifadenin 'hamurdan değil' bölümü A/2 ile doğrudan çelişiyor.",
+      "explanation": "Paragraph A says that shrinkage, shifting loads and settling all open narrow channels through the hardened cement paste. The statement places those channels in the stone aggregate instead of the paste, which contradicts what the passage states.",
       "difficulty": "medium",
       "status": "verified",
       "blind_solvable": false,
       "blind_basis": null,
       "generated_by": "opus",
       "yeniden_uretim": {
-        "tarih": "2026-08-08",
-        "kaynak_prompt": "prompts/OPUS5-E6-yeniden-uretim.md (7/7)",
-        "uretilen_grup": "Kalanlar + tam test butunlugu kontrolu",
-        "eski_prompt": "Strangers devoted more of their time together to interaction than familiar pairs did.",
+        "tarih": "2026-08-18",
+        "faz": "FAZ 1 / B3 yeniden uretim (UYGULAMA-PLANI 1.5)",
+        "yeni_pasaj": "A13",
+        "eski_pasaj": "A02",
+        "eski_prompt": "Males outnumbered females among the sixty animals used in the study.",
         "eski_cevap": [
           "TRUE"
         ],
-        "eski_kanit_cumlesi": "Pairs made up of strangers, by contrast, interacted sooner, touched each other more often, and spent longer engaged with one another overall.",
-        "neden_elendi": "Kanit cumlesi (F/3) tek bir yon soyluyor: yabanci ciftler daha erken etkilesime giriyor, daha sik dokunuyor ve birlikte daha uzun vakit geciriyor. Cumleden cikarilabilecek her dogru ifade 'yabancilar tanidiklardan daha cok etkilesime girer' bicimini aliyor; yenilik arayisi davranis biyolojisinin en yaygin genellemelerinden biri oldugu icin cevap ifade nasil yazilirsa yazilsin pasaja bakilmadan cikiyor. Cumlede pasaja ozgu tek bir sayi ya da ad da yok. E6 bu yuvayi F paragrafinin sayisal ayrintilarina capalamali (baskinligin tersine dondugu on iki yabanci ciftin sekizi, ya da son sinamada hic murekkep birakilmamasi).",
-        "ne_degisti": "Eski ifade F/3'e capaliydi ve ekseni 'yabancilar tanidiklardan daha cok etkilesime girer' genellemesiydi; bu davranis biyolojisinin ders kitabi bilgisi. Yeni ifade F/3'e hic degmiyor: kanit F/4'e, son sinamada hic murekkep birakilmamis olmasina tasindi. Bu olgu genel bilgiyle ters yonde calisiyor -- ahtapotun gerilim aninda murekkep puskurttugu yaygin bilindigi icin pasajsiz cozucu FALSE'a, dogru cevap ise TRUE'ya gidiyor. Ifade 'yedinci gun' demek icin E/1 ile F/4'un birlikte okunmasini da gerektiriyor."
+        "neden_elendi": "Kanit cumlesi artik alistirma havuzuna ait olmayan A02 pasajindaydi (test havuzu ile alistirma havuzu ayrildi).",
+        "ne_degisti": "Kalem bastan yazildi ve A13'e baglandi. Cevap, metnin kendi cumlesinde kanalin acildigi malzemeye (sertlesmis cimento hamuru) capalandi; ifadenin yerine koydugu 'tas agrega' metinde hic gecmiyor, bu yuzden dogru cevap yalniz A/2 okunarak verilebiliyor.",
+        "recete_sinamasi": "Metinsiz okundu: catlagin agregadan mi hamurdan mi gectigi genel kulturle bilinemiyor (bir sivil muhendis bile ikisini de savunabilir), kalip ya da mantiksal zorunluluk kanali yok. Ayrica eslesmeyen bir sozcuk (agrega) tasidigi icin parcasiz cozucunun sezgisi NOT GIVEN'a gidiyor, dogru cevap FALSE. GECTI."
+      }
+    },
+    {
+      "number": 2,
+      "passage_id": "A13",
+      "prompt": "The channels opened by the settling of the ground are wider than those opened by drying shrinkage.",
+      "answer": [
+        "NOT GIVEN"
+      ],
+      "evidence": null,
+      "evidence_locator": null,
+      "contradiction_point": null,
+      "not_given_justification": "(1) Konu pasajda var: A/2 hem kuruma büzülmesini hem de zeminin yavaş oturmasını kanal açan süreçler arasında tek tek sayıyor ve açılan kanalların hepsine 'dar' diyor. (2) İfadeyi çürüten cümle yok: iki nedenin açtığı kanalların eşit genişlikte olduğu ya da oturmanın açtıklarının daha dar olduğu hiçbir yerde söylenmiyor. (3) Doğrulayan cümle de yok: metin üç nedeni tek bir sonuca (dar kanallar) bağlıyor, nedenler arasında genişlik karşılaştırması hiç yapmıyor.",
+      "scan_note": "Çatlak genişliğine değen tek yer A/2'deki 'dar kanallar' nitelemesi. C paragrafı hasarı kırılma yükünün yüzdesiyle (30, 60, 100) ölçüyor, D paragrafı iyileşmeyi su emiliminin hızıyla izliyor, E paragrafı çatlağın bir kapsüle rastlama olasılığını hesaplıyor; hiçbiri çatlakları açan nedene göre genişlik ayrımı yapmıyor. Pasajın geri kalanında çatlak genişliği hiç ölçülmüyor.",
+      "explanation": "Paragraph A names drying shrinkage and the slow settling of the ground among the processes that open narrow channels through the cement paste, but the passage never compares the width of the channels produced by one of these causes with that of the channels produced by another.",
+      "difficulty": "medium",
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "faz": "FAZ 1 / B3 yeniden uretim (UYGULAMA-PLANI 1.5)",
+        "yeni_pasaj": "A13",
+        "eski_pasaj": "A02",
+        "eski_prompt": "The pairs placed behind an opaque divider were still able to smell each other.",
+        "eski_cevap": [
+          "FALSE"
+        ],
+        "neden_elendi": "Kanit cumlesi artik alistirma havuzuna ait olmayan A02 pasajindaydi.",
+        "ne_degisti": "Kalem bastan yazildi ve A13'e baglandi. NOT GIVEN yuvasi 'konudan sapan ek ayrinti' kalibiyla degil, metnin bol bol konustugu iki nedeni (kuruma buzulmesi ve zeminin oturmasi) kesistirerek kuruldu: iki neden de adiyla veriliyor, acilan kanallarin hepsi 'dar' diye niteleniyor, ama nedenler arasinda hicbir yerde genislik karsilastirmasi yapilmiyor.",
+        "recete_sinamasi": "Metinsiz okundu: iki nedenin actigi catlaklarin goreli genisligi ne genel kulturle ne mantikla cikarilabiliyor; ifade pasajin ana eksenindeki iki ogeyi karsilastirdigi icin 'parcanin hic konusmadigi ayrinti' sezgisi de calismiyor. GECTI."
+      }
+    },
+    {
+      "number": 3,
+      "passage_id": "A13",
+      "prompt": "The capsules were designed to break more easily than the hardened paste around them.",
+      "answer": [
+        "TRUE"
+      ],
+      "evidence": "The capsules are meant to be the weakest bodies in the hardened paste, so that a crack splits them open and releases the adhesive into the gap, where it hardens and bonds the two faces.",
+      "evidence_locator": {
+        "paragraph": "B",
+        "sentence": 3
+      },
+      "contradiction_point": null,
+      "not_given_justification": null,
+      "scan_note": "Kapsülün dayanımı yalnız B/3'te ele alınıyor. B/2 kapsülün sert bir polimer kabuğu olduğunu söylüyor, bu ters yönde bir izlenim verse de kapsülün çevresindeki hamura göre en zayıf cisim olması gerektiğini yalnız B/3 söylüyor. C paragrafı numunelerin kırılma yükünün yüzde kaçına kadar yüklendiğini, D paragrafı yüksek dozun bıraktığı boşlukları anlatıyor; ikisi de kapsülün göreli dayanımını değiştirmiyor.",
+      "explanation": "Paragraph B says the capsules are meant to be the weakest bodies in the hardened paste, so that a crack splits them open and releases the adhesive, which is exactly the design the statement describes.",
+      "difficulty": "medium",
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "faz": "FAZ 1 / B3 yeniden uretim (UYGULAMA-PLANI 1.5)",
+        "yeni_pasaj": "A13",
+        "eski_pasaj": "A02",
+        "eski_prompt": "In each pair, the animal that came to dominate was the heavier of the two.",
+        "eski_cevap": [
+          "NOT GIVEN"
+        ],
+        "neden_elendi": "Kanit A02 pasajina aitti; ayrica kalem konumsal_duzen isaretini tasiyordu (cevap ifadenin kalibindan tahmin edilebiliyordu).",
+        "ne_degisti": "Kalem bastan yazildi ve A13'e baglandi. Cevap, sezgiye ters calisan bir tasarim kararina capalandi: kapsulun kirilgan olmasi istenir. Parcasiz cozucunun beklentisi (dayanikli kapsul) yanlis yone gittigi icin dogru cevap yalniz B/3'ten okunur.",
+        "recete_sinamasi": "Metinsiz okundu: 'kapsul cevresindeki malzemeden daha kolay kirilsin diye tasarlandi' ifadesi genel sezgiye aykiri; parcasiz cozucu FALSE'a, dogru cevap TRUE'ya gidiyor. Kalip ya da mantiksal zorunluluk kanali yok. GECTI."
+      }
+    },
+    {
+      "number": 4,
+      "passage_id": "A13",
+      "prompt": "The two capsule doses that were compared were measured as a percentage of the total mass of the specimen.",
+      "answer": [
+        "FALSE"
+      ],
+      "evidence": "Two doses were compared, one and two per cent of the mass of the cement.",
+      "evidence_locator": {
+        "paragraph": "B",
+        "sentence": 4
+      },
+      "contradiction_point": "Pasaj iki dozun çimentonun kütlesinin yüzdesi olarak verildiğini söylüyor; ifade ise numunenin toplam kütlesine göre ölçüldüğünü iddia ediyor. Çelişki tek noktada: yüzdenin hesaplandığı taban (çimentonun kütlesi / numunenin toplam kütlesi).",
+      "not_given_justification": null,
+      "scan_note": "Doz yalnız B/4'te tanımlanıyor. C ve D paragrafları dozları 'düşük doz' ve 'daha ağır doz' diye anıyor ama tabanı yeniden tanımlamıyor. B/2'deki 0.3 su-çimento oranı ve E paragrafındaki 0.10 hacim oranı karışımın başka oranları; ikisi de kapsül dozunun tabanı değil, dolayısıyla ifadeyi doğrulayan bir cümle yok.",
+      "explanation": "Paragraph B states that the two doses compared were one and two per cent of the mass of the cement, not of the mass of the whole specimen.",
+      "difficulty": "medium",
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "faz": "FAZ 1 / B3 yeniden uretim (UYGULAMA-PLANI 1.5)",
+        "yeni_pasaj": "A13",
+        "eski_pasaj": "A02",
+        "eski_prompt": "No octopus released ink at any point during the test held on the seventh day.",
+        "eski_cevap": [
+          "TRUE"
+        ],
+        "neden_elendi": "Kanit cumlesi artik alistirma havuzuna ait olmayan A02 pasajindaydi.",
+        "ne_degisti": "Kalem bastan yazildi ve A13'e baglandi. Celiski, calismanin kendi sectigi bir olcum tabanina (cimentonun kutlesi) capalandi; disaridan bilinebilir hicbir olgu ise karismiyor.",
+        "recete_sinamasi": "Metinsiz okundu: dozun cimento kutlesine mi numune kutlesine mi gore verildigi tamamen calismaya ozgu bir secim, genel kulturle ya da mantikla cikarilamiyor. GECTI."
       }
     },
     {
       "number": 5,
-      "passage_id": "A05",
-      "prompt": "The wheat grains from the site were better preserved than plant remains of similar age elsewhere.",
+      "passage_id": "A16",
+      "prompt": "The stiffness calculated for the leg as a whole increased as the ground became harder.",
       "answer": [
-        "TRUE"
+        "FALSE"
       ],
-      "evidence": "Among the many finds recovered from the site were charred grains of wheat, unusually well preserved compared with plant remains from other ancient sites of similar age.",
+      "evidence": "So were the rates at which vertical force built up in the instant after touchdown, and so were the stiffness values calculated for the leg as a whole and for the body's vertical motion.",
       "evidence_locator": {
-        "paragraph": "B",
-        "sentence": 1
+        "paragraph": "E",
+        "sentence": 3
       },
-      "contradiction_point": null,
+      "contradiction_point": "Pasaj bacağın bütünü için hesaplanan sertlik değerlerinin üç zeminde de istatistiksel olarak ayırt edilemez çıktığını söylüyor; ifade ise zemin sertleştikçe bu değerin arttığını iddia ediyor. Çelişki tek noktada: değerin zeminle birlikte değişip değişmemesi.",
       "not_given_justification": null,
-      "scan_note": "Tanelerin korunma durumu B paragrafının 1. cümlesinde geçiyor; C paragrafı tanelerin yaşını (yaklaşık 8.400 yıl), D paragrafı DNA parçalarının bozulmuş olduğunu anlatıyor ama hiçbiri başka bölgelerdeki bitki kalıntılarıyla karşılaştırmayı tersine çevirmiyor.",
-      "explanation": "Paragraph B says that the charred grains of wheat were unusually well preserved compared with plant remains from other ancient sites of similar age.",
-      "difficulty": "easy",
+      "scan_note": "Bacak sertliği yalnız E/3'te geçiyor. B paragrafındaki 0.290, 0.320 ve 0.420 değerleri zeminlerin kendi sertliğini sayısallaştırıyor, koşucununkini değil. H paragrafı eklem momentlerinin zeminle değiştiğini gösteriyor ama moment ile sertlik ayrı ölçüler; I paragrafı da adımın görünen geometrisinin yerinde kaldığını yineliyor. Hiçbir cümle sertlik değerlerini zemine bağlı olarak artırmıyor.",
+      "explanation": "Paragraph E says that the stiffness values calculated for the leg as a whole and for the body's vertical motion were statistically indistinguishable across the three surfaces, so they did not increase as the ground became harder.",
+      "difficulty": "medium",
       "status": "verified",
-      "blind_solvable": false
+      "blind_solvable": false,
+      "blind_basis": null,
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "faz": "FAZ 1 / B3 yeniden uretim (UYGULAMA-PLANI 1.5)",
+        "yeni_pasaj": "A16",
+        "eski_pasaj": "A05",
+        "eski_prompt": "The wheat grains from the site were better preserved than plant remains of similar age elsewhere.",
+        "eski_cevap": [
+          "TRUE"
+        ],
+        "neden_elendi": "Kanit cumlesi artik alistirma havuzuna ait olmayan A05 pasajindaydi.",
+        "ne_degisti": "Kalem bastan yazildi ve A16'ya baglandi. Cevap, calismanin bulamadigi bir farka capalandi: zemin sertlestikce bacak sertliginin degistigi beklentisi yaygin oldugu icin parcasiz cozucu TRUE'ya gidiyor, dogru cevap FALSE.",
+        "recete_sinamasi": "Metinsiz okundu: 'zemin sertlestikce bacak sertligi artar' ifadesi sezgisel olarak dogru gorunuyor, dolayisiyla parcasiz cozucu yanlis yone gidiyor; cevap yalniz E/3'teki 'ayirt edilemez' bulgusundan cikiyor. GECTI."
+      }
     },
     {
       "number": 6,
-      "passage_id": "A05",
-      "prompt": "The seeds had already been analysed genetically before this research team began work.",
-      "answer": [
-        "FALSE"
-      ],
-      "evidence": "For decades, however, no one had examined these seeds at the molecular level to confirm what species they truly represented.",
-      "evidence_locator": {
-        "paragraph": "B",
-        "sentence": 3
-      },
-      "contradiction_point": "Pasaj on yıllar boyunca hiç kimsenin bu tohumları moleküler düzeyde incelemediğini söylüyor; ifade ise daha önce genetik analiz yapıldığını iddia ediyor. Çelişki tek noktada: önceden genetik inceleme yapılmış olması / hiç yapılmamış olması.",
-      "not_given_justification": null,
-      "scan_note": "Tohumların daha önce nasıl incelendiği B paragrafında (2.-3. cümle: yalnızca mikroskopla şekil incelemesi) ve C paragrafının 1. cümlesinde ('bunu değiştirmek için yola çıktı') geçiyor; ikisi de daha önce moleküler analiz yapılmadığını doğruluyor.",
-      "explanation": "Paragraph B says that for decades no one had examined these seeds at the molecular level — the statement claims the opposite.",
-      "difficulty": "medium",
-      "status": "verified",
-      "blind_solvable": false
-    },
-    {
-      "number": 7,
-      "passage_id": "A05",
-      "prompt": "Each of the two laboratories analysed the same samples independently of the other.",
-      "answer": [
-        "NOT GIVEN"
-      ],
-      "evidence": null,
-      "evidence_locator": null,
-      "contradiction_point": null,
-      "not_given_justification": "(1) Konu pasajda var: D paragrafinin 1. cumlesi iki laboratuvari ve neden ayri tutulduklarini anlatiyor. (2) Ifadeyi curuten cumle yok: isin bolusuldugu hicbir yerde soylenmiyor. (3) Dogrulayan cumle de yok: ayni orneklerin iki kez, bagimsiz olarak incelendigi de soylenmiyor.",
-      "scan_note": "Iki laboratuvar yalniz D paragrafinin 1. cumlesinde geciyor; D'nin geri kalani isaretleyici uzunluklarini ve dizilemeyi anlatiyor, E paragrafi sonuclari veriyor.",
-      "explanation": "Paragraph D says the extraction and analysis were carried out in two physically separate laboratories so that the ancient samples would not be contaminated, but it never says whether the two laboratories duplicated each other's work or divided it between them.",
-      "difficulty": "medium",
-      "status": "verified",
-      "blind_solvable": false,
-      "blind_basis": null,
-      "flag_reason": "Ifade, pasajin verdigi zaman bilgilerine (kazi yillari, tanelerin yasi) ek olarak laboratuvar isleminin suresine dair yeni ve dogrulanamayan bir ayrinti ekliyor; bu 'konudan sapan ek sure iddiasi' kalibi genelde NOT GIVEN'a isaret eder.",
-      "flag_mechanism": "konumsal_duzen",
-      "revision": {
-        "tarih": "2026-08-08",
-        "mekanizma": "eksen_disi_ayrinti",
-        "onceki_prompt": "Sequencing the recovered fragments took the team several months to complete.",
-        "ne_degisti": "Eski ifade dizilemenin kac ay surdugunu soruyordu; pasajin hic vermedigi bir sure ayrintisi ekleyen bu kalip tek basina NOT GIVEN'i veriyordu. Yeni ifade metnin ayrintisiyla anlattigi iki laboratuvarli duzenegi hedefliyor; is bolusumunun bicimi metinde karara baglanmiyor."
-      }
-    },
-    {
-      "number": 8,
-      "passage_id": "A05",
-      "prompt": "Catalhoyuk is described as the place where the spread of hexaploid wheat came to an end.",
-      "answer": [
-        "FALSE"
-      ],
-      "evidence": "Finding genetic traces of hexaploid wheat at Çatalhöyük this early suggests that the more advanced, six-chromosome form of wheat may have emerged sooner, and further from the traditional Fertile Crescent core, than researchers had assumed, with Çatalhöyük potentially serving as a staging point on its spread toward Europe.",
-      "evidence_locator": {
-        "paragraph": "G",
-        "sentence": 3
-      },
-      "contradiction_point": "Pasaj Catalhoyuk'u yayilmanin Avrupa'ya dogru surdugu yol ustundeki bir durak sayiyor; ifade ise yayilmanin orada bittigini soyluyor. Celiski tek noktada: ara durak / son nokta.",
-      "not_given_justification": null,
-      "scan_note": "Catalhoyuk'un yayilmadaki rolu G paragrafinin 3. cumlesinde; A paragrafi da yerlesimin ilerideki tarim yollari uzerinde bulundugunu soyluyor, H paragrafi ayni yonu yineliyor.",
-      "explanation": "Paragraph G describes Catalhoyuk as a possible staging point on the spread of hexaploid wheat towards Europe, that is, a place along the route rather than the point at which that spread stopped.",
-      "difficulty": "hard",
-      "status": "verified",
-      "blind_solvable": false,
-      "blind_basis": null,
-      "flag_reason": "Cevap FALSE, bugday evcillestirmesinin geleneksel oykusunun Bereketli Hilal'i tek merkez saydigi bilgisiyle ve 'yeni bulgu' haberlerinin genelde bu tur yerlesik anlatilari sorguladigi yaygin bilim-haberciligi oruntusuyle tahmin edilebiliyor; ifade geleneksel anlatiyi oldugu gibi dogruluyor, bu da genelde boyle pasajlarda curutulen taraf.",
-      "flag_mechanism": "genel_kultur",
-      "revision": {
-        "tarih": "2026-08-08",
-        "mekanizma": "genel_kultur",
-        "onceki_prompt": "The new evidence places the origin of hexaploid wheat within the Fertile Crescent core.",
-        "ne_degisti": "Eski ifade bugday evcillestirmesinin Bereketli Hilal merkezli klasik anlatisini soruyordu; bu ders kitabi bilgisi oldugu icin cevap pasaja bakilmadan cikiyordu. Yeni ifade ayni kanit cumlesinin oteki yarisini, Catalhoyuk'a bicilen rolu hedefliyor; 'ara durak mi son nokta mi' ayrimi yalniz G/3'ten yapilabiliyor."
-      }
-    },
-    {
-      "number": 9,
-      "passage_id": "A08",
-      "prompt": "Most of the landslides and avalanches recorded lay north-west of the epicentre.",
+      "passage_id": "A16",
+      "prompt": "The same runner would look much the same on turf as on concrete when filmed from the side.",
       "answer": [
         "TRUE"
       ],
-      "evidence": "The United States Geological Survey later identified more than 700 potential landslides and snow avalanches associated with the earthquake, most of them concentrated to the northwest of the epicentre along the line of the fault rupture.",
+      "evidence": "Filmed from the side, the same runner on turf and on concrete would look alike.",
       "evidence_locator": {
-        "paragraph": "B",
-        "sentence": 1
+        "paragraph": "E",
+        "sentence": 4
       },
       "contradiction_point": null,
       "not_given_justification": null,
-      "scan_note": "Heyelanların konumu B paragrafının 1. cümlesinde veriliyor; A paragrafı sarsıntının geniş bir alanda heyelan tetiklediğini, D paragrafı iki dağ çevresindeki izleri anlatıyor ama hiçbiri dağılımı başka bir yöne kaydırmıyor.",
-      "explanation": "Paragraph B says that most of the more than 700 landslides and avalanches recorded were concentrated to the northwest of the epicentre.",
+      "scan_note": "Yandan görünüşün aynı kalması yalnız E/4'te söyleniyor; E/2 ve E/3 hangi ölçülerin ayırt edilemez çıktığını sıralıyor, I paragrafı ise adımın görünen geometrisinin yerinde kaldığını, altındaki kuvvetlerin sessizce yeniden dağıldığını söylüyor. F, G ve H'de bildirilen bütün farklar kuvvet ve moment ölçümlerine ait; hiçbiri yandan çekilmiş bir görüntüde ayırt edilebilecek bir fark bildirmiyor.",
+      "explanation": "Paragraph E says that, filmed from the side, the same runner on turf and on concrete would look alike, because the joint angles did not differ between surfaces.",
       "difficulty": "easy",
-      "status": "verified",
-      "blind_solvable": false
-    },
-    {
-      "number": 10,
-      "passage_id": "A08",
-      "prompt": "The ground survey of 12 December covered the slopes of Mount Logan as well as those of Mount King George.",
-      "answer": [
-        "NOT GIVEN"
-      ],
-      "evidence": null,
-      "evidence_locator": null,
-      "contradiction_point": null,
-      "not_given_justification": "(1) Konu pasajda var: D paragrafinin 1. cumlesi iki dagi adiyla aniyor, 2. cumlesi 12 Aralik'taki yer arastirmasini anlatiyor. (2) Ifadeyi curuten cumle yok. (3) Dogrulayan cumle de yok: arastirmanin kapsami hicbir yerde verilmiyor.",
-      "scan_note": "Iki dagin adi D paragrafinin 1. cumlesinde, yer arastirmasi 2. cumlesinde geciyor; B ve C paragraflari uydu verisini anlatiyor, arastirmanin hangi yamaclari kapsadigina hicbiri deginmiyor.",
-      "explanation": "Paragraph D names both Mount King George and Mount Logan and reports that a ground survey on 12 December confirmed what the satellite images had shown, but it never says which slopes that survey actually visited.",
-      "difficulty": "medium",
       "status": "verified",
       "blind_solvable": false,
       "blind_basis": null,
-      "flag_reason": "Ifade, pasajin anlattigi yer arastirmasina ('12 Aralik'ta araziye gidildi') ek olarak ulasim bicimine dair dogrulanamayan yeni bir ayrinti (yuruyerek) ekliyor; bu tur somut ama pasajda karsiligi olmayan yontem ayrintilari genelde NOT GIVEN'a isaret eder.",
-      "flag_mechanism": "konumsal_duzen",
-      "revision": {
-        "tarih": "2026-08-08",
-        "mekanizma": "eksen_disi_ayrinti",
-        "onceki_prompt": "The scientists who carried out the December ground survey travelled there on foot.",
-        "ne_degisti": "Eski ifade arastirmacilarin araziye yuruyerek gidip gitmedigini soruyordu; pasajda hic karsiligi olmayan bir ulasim ayrintisi ekleyen bu kalip tek basina NOT GIVEN'i veriyordu. Yeni ifade metnin ayrintisiyla verdigi iki dagi ve yer arastirmasini birlikte hedefliyor; kapsam metinde karara baglanmiyor."
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "faz": "FAZ 1 / B3 yeniden uretim (UYGULAMA-PLANI 1.5)",
+        "yeni_pasaj": "A16",
+        "eski_pasaj": "A05",
+        "eski_prompt": "The seeds had already been analysed genetically before this research team began work.",
+        "eski_cevap": [
+          "FALSE"
+        ],
+        "neden_elendi": "Kanit cumlesi artik alistirma havuzuna ait olmayan A05 pasajindaydi.",
+        "ne_degisti": "Kalem bastan yazildi ve A16'ya baglandi. Cevap, calismanin gorsel duzeyde bulamadigi farka capalandi; yaygin sezgi kosucunun zemine gore bicim degistirdigini soyledigi icin parcasiz cozucu FALSE'a yoneliyor, dogru cevap TRUE.",
+        "recete_sinamasi": "Metinsiz okundu: 'ayni kosucu cimde ve betonda yandan ayni gorunur' ifadesi sezgiye aykiri; parcasiz cozucu FALSE'a gidiyor. Kalip ya da genel kultur kanali yok. GECTI."
       }
     },
     {
-      "number": 11,
-      "passage_id": "A08",
-      "prompt": "The debris shaken loose by the earthquake is being carried inland, away from the coast.",
+      "number": 7,
+      "passage_id": "A16",
+      "prompt": "Stance was divided into fifty equal slices so that curves from different surfaces could be compared.",
       "answer": [
         "FALSE"
       ],
-      "evidence": "Rather than being interrupted by the earthquake, this surging glacier appears to be acting as a natural conveyor belt, carrying the newly generated avalanche and landslide debris steadily downhill towards the sea.",
+      "evidence": "Stance, the period between touchdown and toe-off, was divided into a hundred equal slices so that curves from different surfaces could be compared.",
       "evidence_locator": {
         "paragraph": "F",
         "sentence": 2
       },
-      "contradiction_point": "Pasaj enkazin denize dogru tasindigini soyluyor; ifade ic kesimlere, kiyidan uzaga tasindigini iddia ediyor. Celiski tek noktada: tasimanin yonu.",
+      "contradiction_point": "Pasaj duruş evresinin yüz eşit dilime bölündüğünü söylüyor; ifade elli dilim diyor. Çelişki tek noktada: dilim sayısı.",
       "not_given_justification": null,
-      "scan_note": "Enkazin tasinmasi F paragrafinin 2. cumlesinde; A ve D paragraflari enkazin nerede olustugunu anlatiyor, yonunden soz etmiyor.",
-      "explanation": "Paragraph F says the surging glacier is carrying the newly generated avalanche and landslide debris steadily downhill towards the sea, that is, towards the coast rather than away from it.",
-      "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_basis": "general_knowledge",
-      "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: general_knowledge. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md",
-      "flag_mechanism": "konumsal_duzen",
-      "revision": {
-        "tarih": "2026-08-08",
-        "mekanizma": "kalip_beklentisi",
-        "onceki_prompt": "The earthquake brought the tributary glacier's rapid advance to a halt.",
-        "ne_degisti": "Eski ifade depremin buzulun hizli ilerleyisini durdurdugunu soyluyordu; 'buyuk bir sarsinti surmekte olan bir sureci durdurur mu' kalibi doga pasajlarinda neredeyse her zaman FALSE cikar. Yeni ifade ayni kanit cumlesindeki tasima yonunu hedefliyor; deniz mi ic kesim mi sorusu hicbir genel kaliptan cikarilamiyor."
+      "scan_note": "Dilim sayısı yalnız F/2'de veriliyor. F/3, F/4, F/5 ve G paragrafı bu bölünmenin yüzdeleriyle konuşuyor (ilk yüzde iki, yüzde 17-36, son yüzde altı, yüzde 20-38), yani hepsi yüzlük ölçeğe dayanıyor ve elli dilimi destekleyen bir cümle yok. D paragrafındaki 200 ve 1000 sayıları kameranın ve kuvvet platformunun örnekleme hızları, duruş evresinin bölünmesi değil.",
+      "explanation": "Paragraph F says that stance was divided into a hundred equal slices, not fifty, so that curves from different surfaces could be compared.",
+      "difficulty": "easy",
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "faz": "FAZ 1 / B3 yeniden uretim (UYGULAMA-PLANI 1.5)",
+        "yeni_pasaj": "A16",
+        "eski_pasaj": "A05",
+        "eski_prompt": "Each of the two laboratories analysed the same samples independently of the other.",
+        "eski_cevap": [
+          "NOT GIVEN"
+        ],
+        "neden_elendi": "Kanit A05 pasajina aitti; ayrica kalem konumsal_duzen isaretini tasiyordu (cevap ifadenin ekledigi 'eksen disi ayrinti' kalibindan tahmin edilebiliyordu).",
+        "ne_degisti": "Kalem bastan yazildi ve A16'ya baglandi. Cevap, calismanin kendi sectigi bir isleme (duruş evresinin yuz esit dilime bolunmesi) capalandi; sayi degistirilerek net bir celiski kuruldu.",
+        "recete_sinamasi": "Metinsiz okundu: bir calismanin duruş evresini elli mi yuz mu dilime boldugu disaridan bilinemez, kalip ya da mantik kanali yok. GECTI."
       }
     },
     {
-      "number": 12,
-      "passage_id": "A08",
-      "prompt": "No towns or built structures were placed at direct risk by the quake.",
+      "number": 8,
+      "passage_id": "A16",
+      "prompt": "In the opening moments of stance, braking force was higher on artificial grass than on either of the other two coverings.",
       "answer": [
         "TRUE"
       ],
-      "evidence": "Because the affected region is essentially uninhabited, the earthquake caused no direct threat to towns or infrastructure.",
+      "evidence": "In the opening two per cent of stance, braking force was higher on artificial grass than on either of the other coverings.",
       "evidence_locator": {
-        "paragraph": "G",
-        "sentence": 1
-      },
-      "contradiction_point": null,
-      "not_given_justification": null,
-      "scan_note": "İnsan yerleşimlerine etkisi A paragrafında (2. cümle, can kaybı bildirilmedi) ve G paragrafında (1. cümle) geçiyor; G/2 yalnızca dağcılar ve bilimsel ekipler için yeni tehlikelerden söz ediyor, kasabalar ya da altyapı için değil.",
-      "explanation": "Paragraph G says that because the affected region is essentially uninhabited, the earthquake caused no direct threat to towns or infrastructure.",
-      "difficulty": "easy",
-      "status": "verified",
-      "blind_solvable": false
-    },
-    {
-      "number": 13,
-      "passage_id": "A09",
-      "prompt": "The volcanic material that sealed the town built up over more than a single day.",
-      "answer": [
-        "TRUE"
-      ],
-      "evidence": "These flows swept through the streets and buildings so quickly that many residents were killed almost instantly, and over the following days the town was sealed beneath roughly 20 metres of volcanic deposits, a burial so complete that timber roof beams, food, and even fabric survived for centuries in a way rarely seen at other Roman sites.",
-      "evidence_locator": {
-        "paragraph": "A",
+        "paragraph": "F",
         "sentence": 3
       },
       "contradiction_point": null,
       "not_given_justification": null,
-      "scan_note": "Gomulmenin suresi A paragrafinin 3. cumlesinde geciyor ('over the following days'); ayni cumle olumlerin 'neredeyse aninda' gerceklestigini de soyluyor, iki ayri zaman olcegi bilincli olarak yan yana duruyor.",
-      "explanation": "Paragraph A says the town was sealed beneath roughly 20 metres of volcanic deposits over the following days, so the covering accumulated over more than one day, even though the flows themselves killed residents almost instantly.",
+      "scan_note": "Frenleme kuvvetinin karşılaştırıldığı üç yer var: F/3 (ilk yüzde iki), F/4 (yüzde 17-36) ve F/5 (son yüzde altı). F/4 iki yumuşak zemini tek grup olarak betonla karşılaştırıyor, F/5 ise itme kuvvetinden söz ediyor; ikisi de başka zaman aralıklarına ait olduğu için ilk anlardaki sıralamayı değiştirmiyor. B paragrafındaki sıçrama katsayıları zeminlerin sertliğini veriyor ama kuvvet ölçümü içermiyor.",
+      "explanation": "Paragraph F says that in the opening two per cent of stance, braking force was higher on artificial grass than on either of the other coverings.",
       "difficulty": "medium",
       "status": "verified",
       "blind_solvable": false,
       "blind_basis": null,
-      "flag_reason": "Cevap TRUE, Herculaneum'un (Pompeii ile birlikte) volkanik kullerin altinda kalarak organik malzemelerin olaganustu iyi korunmasiyla unlu bir arkeoloji sitesi olmasi yaygin bilgisiyle parcaya bakmadan da tahmin edilebiliyor.",
-      "flag_mechanism": "genel_kultur",
-      "revision": {
-        "tarih": "2026-08-08",
-        "mekanizma": "genel_kultur",
-        "onceki_prompt": "Fabric at Herculaneum survived in a condition seldom found at other Roman sites.",
-        "ne_degisti": "Eski ifade kumasin baska Roma sitelerinde ender gorulen bir durumda korunmasini soruyordu; Herculaneum'un organik malzemeyi esssiz bicimde korumasi arkeolojinin en cok bilinen olgularindan biri. Yeni ifade ayni cumlenin oteki yarisini, ortu tabakasinin ne kadar surede olustugunu hedefliyor; yaygin sezgi 'kasaba bir anda gomuldu' dedigi icin sezgi artik YANLIS yone gidiyor, dogru cevap yalniz A/3'teki 'over the following days' ibaresinden cikiyor."
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "faz": "FAZ 1 / B3 yeniden uretim (UYGULAMA-PLANI 1.5)",
+        "yeni_pasaj": "A16",
+        "eski_pasaj": "A05",
+        "eski_prompt": "Catalhoyuk is described as the place where the spread of hexaploid wheat came to an end.",
+        "eski_cevap": [
+          "FALSE"
+        ],
+        "neden_elendi": "Kanit A05 pasajina aitti; ayrica kalem genel_kultur isaretini tasiyordu (bugday evcillestirmesi anlatisi ders kitabi bilgisi).",
+        "ne_degisti": "Kalem bastan yazildi ve A16'ya baglandi. Cevap, yalniz bu calismanin olctugu bir siralamaya capalandi; 'yumusak zemin daha az kuvvet uretir' seklindeki yaygin beklenti dogru cevabin tersini soyluyor.",
+        "recete_sinamasi": "Metinsiz okundu: en yumusak zeminin (suni cim) ilk anlarda en yuksek frenleme kuvvetini uretmesi sezgiye aykiri; parcasiz cozucu FALSE'a gidiyor, dogru cevap TRUE. Disaridan dogrulanabilir hicbir olgu yok. GECTI."
       }
     },
     {
-      "number": 14,
-      "passage_id": "A09",
-      "prompt": "The young man's age was estimated from an examination of his bones.",
+      "number": 9,
+      "passage_id": "A16",
+      "prompt": "Between the seventeenth and thirty-sixth per cent of stance, braking force was greater on artificial grass than on synthetic rubber.",
       "answer": [
         "NOT GIVEN"
       ],
       "evidence": null,
       "evidence_locator": null,
       "contradiction_point": null,
-      "not_given_justification": "(1) Konu pasajda var: B paragrafı kurbanın yaklaşık 20 yaşında genç bir adam olduğunu söylüyor ve kalıntılarının 1960'lardan beri bilindiğini belirtiyor, yani yaş bilgisi açıkça veriliyor. (2) Pasajda ifadeyi çürüten hiçbir cümle yok: yaşın başka bir yöntemle, örneğin dişlerden ya da yazılı kayıtlardan belirlendiği hiçbir yerde söylenmiyor. (3) Pasajda ifadeyi doğrulayan hiçbir cümle de yok: D, E ve F paragraflarında anlatılan bütün inceleme yöntemleri camlaşmış dokuya yöneliktir; kemiklerin incelenip incelenmediğine, yaşın nasıl saptandığına dolaylı olarak bile değinilmiyor.",
-      "scan_note": "Kurbanın yaşı B paragrafının 1. cümlesinde veriliyor; kullanılan yöntemler D paragrafında (1.-4. cümle) ve ölçümler E paragrafında sıralanıyor, F paragrafı protein analizini anlatıyor — hiçbiri yaş tayinine değinmiyor. Kemik sözcüğü yalnızca B/2 ve F/3'te, camlaşmış maddenin çevresindeki malzeme bağlamında geçiyor.",
-      "explanation": "The passage says that the man was about 20 years old but never mentions which examination was used to determine his age.",
+      "not_given_justification": "(1) Konu pasajda var: F/4 tam bu aralığı (duruş evresinin yüzde 17'si ile 36'sı arası) ele alıyor ve frenleme kuvvetini karşılaştırıyor. (2) İfadeyi çürüten cümle yok: bu aralıkta iki yumuşak zeminin eşit olduğu ya da sentetik kauçuğun önde olduğu hiçbir yerde söylenmiyor. (3) Doğrulayan cümle de yok: F/4 iki yumuşak zemini tek grup olarak betonla karşılaştırıyor, ikisini birbiriyle karşılaştırmıyor. Suni çimin diğer iki zemini geçtiğini söyleyen F/3 ise başka bir zaman aralığına, ilk yüzde ikiye ait.",
+      "scan_note": "Suni çim ile sentetik kauçuğun doğrudan karşılaştırıldığı tek yer F/3 (ilk yüzde iki). G paragrafındaki yanal kuvvet karşılaştırması suni çim ile beton arasında, H paragrafı ise iki yumuşak zemini yine birlikte ele alıyor. B paragrafındaki 0.290 ve 0.320 değerleri iki zeminin sertlik sırasını veriyor ama kuvvet eğrisi hakkında bir şey söylemiyor; sertlik sırasından frenleme kuvvetine geçmek okuyucunun çıkarımı olur, metinde yazılı değil.",
+      "explanation": "Paragraph F says that between the seventeenth and thirty-sixth per cent of stance braking force was higher on both of the softer surfaces than on concrete, but it never compares artificial grass with synthetic rubber during that part of stance.",
       "difficulty": "hard",
       "status": "verified",
-      "blind_solvable": false
+      "blind_solvable": false,
+      "blind_basis": null,
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "faz": "FAZ 1 / B3 yeniden uretim (UYGULAMA-PLANI 1.5)",
+        "yeni_pasaj": "A16",
+        "eski_pasaj": "A08",
+        "eski_prompt": "Most of the landslides and avalanches recorded lay north-west of the epicentre.",
+        "eski_cevap": [
+          "TRUE"
+        ],
+        "neden_elendi": "Kanit cumlesi artik alistirma havuzuna ait olmayan A08 pasajindaydi.",
+        "ne_degisti": "Kalem bastan yazildi ve A16'ya baglandi. NOT GIVEN yuvasi, metnin en ayrintili anlattigi olcumun (yuzde dilimlerine bolunmus frenleme kuvveti) tam ortasina yerlestirildi: pasaj bu aralikta iki yumusak zemini betonla karsilastiriyor, ama birbiriyle hic karsilastirmiyor.",
+        "recete_sinamasi": "Metinsiz okundu: iki yumusak zeminin bu aralikta hangisinin onde oldugu disaridan bilinemez; ifade pasajin ana ekseninde durdugu icin 'konudan sapan ayrinti' sezgisi de yardim etmiyor. GECTI."
+      }
     },
     {
-      "number": 15,
-      "passage_id": "A09",
-      "prompt": "The brain tissue is thought to have melted into a liquid before hardening into glass.",
+      "number": 10,
+      "passage_id": "A16",
+      "prompt": "The differences between the surfaces at the ankle appeared during the last third of stance.",
       "answer": [
-        "FALSE"
+        "TRUE"
       ],
-      "evidence": "Detailed analysis showed that this material was not a mineral deposit or later contamination but vitrified human brain tissue, tissue that had been converted directly into a glass-like solid.",
+      "evidence": "At the ankle, the moment that points the toes downward and the moment that rolls the foot outward were both smaller on the two softer coverings than on concrete through the last third of stance.",
       "evidence_locator": {
-        "paragraph": "C",
-        "sentence": 1
+        "paragraph": "H",
+        "sentence": 2
       },
-      "contradiction_point": "Pasaj dokunun DOGRUDAN cam benzeri bir kati hale gectigini soyluyor; ifade once sivilasip sonra katilastigini iddia ediyor. Celiski tek noktada: 'dogrudan' gecis / ara sivi asamasi.",
+      "contradiction_point": null,
       "not_given_justification": null,
-      "scan_note": "Donusumun bicimi C paragrafinin 1. cumlesinde, gereken kosullar 2. cumlesinde, isil kosullarin dar araligi G paragrafinda anlatiliyor; hicbirinde sivi bir ara asamadan soz edilmiyor.",
-      "explanation": "Paragraph C says the tissue was converted directly into a glass-like solid; no intermediate liquid stage is described anywhere in the passage, so the statement contradicts it.",
+      "scan_note": "Ayak bileğindeki farkın zaman aralığı yalnız H/2'de veriliyor. H/3 dizdeki farkın duruş evresinin ilk yarısında göründüğünü söylüyor, yani başka bir eklem ve başka bir aralık; F ve G paragrafları kuvvet bileşenlerinin başka yüzde aralıklarını (ilk yüzde iki, 17-36, son yüzde altı, 20-38) veriyor. E paragrafı eklem açılarının hiç değişmediğini söylüyor ama açı ile moment ayrı ölçüler.",
+      "explanation": "Paragraph H says that at the ankle both of the moments measured were smaller on the two softer coverings than on concrete through the last third of stance, which is where the ankle differences appeared.",
       "difficulty": "medium",
       "status": "verified",
       "blind_solvable": false,
       "blind_basis": null,
-      "flag_reason": "Cevap FALSE, Herculaneum kurbaninin kafatasindaki koyu maddenin camlasmis beyin dokusu oldugu, bilim habercilikte genis yer bulmus bilinen bir bulgu; bu genel bilgiyle ifadenin (mineral cokelti) yanlis oldugu parcaya bakmadan da tahmin edilebiliyor.",
-      "flag_mechanism": "genel_kultur",
-      "revision": {
-        "tarih": "2026-08-08",
-        "mekanizma": "genel_kultur",
-        "onceki_prompt": "Analysis identified the dark material inside the skull as a mineral deposit.",
-        "ne_degisti": "Eski ifade kafatasindaki koyu maddenin mineral cokelti olup olmadigini soruyordu; camlasmis beyin dokusu bulgusu bilim haberciliginde genis yer buldugu icin cevap pasajsiz cikiyordu. Yeni ifade ayni cumledeki 'directly' sozcugunu hedefliyor; camlasmanin malzeme biliminde bir sivinin hizla sogutulmasi demek olmasi, bilgili bir cozucuyu TRUE'ya iterek sezgiyi ters yone ceviriyor."
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "faz": "FAZ 1 / B3 yeniden uretim (UYGULAMA-PLANI 1.5)",
+        "yeni_pasaj": "A16",
+        "eski_pasaj": "A08",
+        "eski_prompt": "The ground survey of 12 December covered the slopes of Mount Logan as well as those of Mount King George.",
+        "eski_cevap": [
+          "NOT GIVEN"
+        ],
+        "neden_elendi": "Kanit A08 pasajina aitti; ayrica kalem konumsal_duzen isaretini tasiyordu.",
+        "ne_degisti": "Kalem bastan yazildi ve A16'ya baglandi. Cevap, calismanin kendi olctugu bir zaman araligina (duruş evresinin son ucte biri) capalandi; hangi eklemde farkin hangi evrede cikacagi disaridan turetilemez.",
+        "recete_sinamasi": "Metinsiz okundu: ayak bilegi farkinin duruş evresinin basinda mi sonunda mi cikacagi genel kulturle bilinemez, kalip kanali yok. GECTI."
+      }
+    },
+    {
+      "number": 11,
+      "passage_id": "A16",
+      "prompt": "At the knee the effect of the softer coverings ran in the opposite direction to the effect measured at the ankle.",
+      "answer": [
+        "TRUE"
+      ],
+      "evidence": "At the knee the direction of the effect reversed: the moment bending the joint during the first half of stance was larger on turf and rubber.",
+      "evidence_locator": {
+        "paragraph": "H",
+        "sentence": 3
+      },
+      "contradiction_point": null,
+      "not_given_justification": null,
+      "scan_note": "Yönün tersine dönmesi yalnız H/3'te söyleniyor; H/2 ayak bileğinde yumuşak zeminlerin momenti küçülttüğünü veriyor, H/3 ise dizde büyüttüğünü. H/4 ve H/5 iki koşucu grubunun hangi eklemde en çok değiştiğini anlatıyor, yönle ilgili değil. E paragrafı açıların hiç değişmediğini söylüyor, bu da momentlerin yönü hakkında bir şey söylemiyor.",
+      "explanation": "Paragraph H says that the ankle moments were smaller on the softer coverings, while at the knee the direction of the effect reversed, the bending moment being larger on turf and rubber.",
+      "difficulty": "hard",
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "faz": "FAZ 1 / B3 yeniden uretim (UYGULAMA-PLANI 1.5)",
+        "yeni_pasaj": "A16",
+        "eski_pasaj": "A08",
+        "eski_prompt": "The debris shaken loose by the earthquake is being carried inland, away from the coast.",
+        "eski_cevap": [
+          "FALSE"
+        ],
+        "neden_elendi": "E7 parcasiz olcumde uc turun ucunde de bilindi (dayanak: general_knowledge) ve kalem 'flagged' durumundaydi; ayrica kanit A08 pasajina aitti.",
+        "ne_degisti": "Kalem bastan yazildi ve A16'ya baglandi. Cevap, calismanin en beklenmedik bulgusuna capalandi: iki eklemde etkinin yonu birbirinin tersi. Bu iliski hicbir genel egilimden turetilemiyor.",
+        "recete_sinamasi": "Metinsiz okundu: iki eklemde etkinin ayni mi ters mi yonde oldugu disaridan bilinemez; sezgi genelde 'yumusak zemin her eklemde yuku azaltir' der, dogru cevap bunu bozuyor. GECTI."
+      }
+    },
+    {
+      "number": 12,
+      "passage_id": "A16",
+      "prompt": "The heel-landers produced larger knee moments than the runners who landed on the middle or front of the foot.",
+      "answer": [
+        "NOT GIVEN"
+      ],
+      "evidence": null,
+      "evidence_locator": null,
+      "contradiction_point": null,
+      "not_given_justification": "(1) Konu pasajda var: C paragrafı iki koşucu grubunu ayakla ilk temas eden bölgeye göre tanımlıyor, H/4 iki grubun aynı biçimde etkilenmediğini söylüyor, H/5 ise topuğa basanların en büyük değişimi dizde gösterdiğini bildiriyor. (2) İfadeyi çürüten cümle yok: iki grubun diz momentlerinin eşit olduğu ya da öbür grubun daha büyük değer ürettiği hiçbir yerde söylenmiyor. (3) Doğrulayan cümle de yok: H/5 her grubun kendi içinde en büyük değişimi hangi eklemde gösterdiğini söylüyor, iki grubun moment büyüklüklerini birbirine karşı ölçmüyor.",
+      "scan_note": "İki koşucu grubu C paragrafında (basış biçimine göre otuzar kişi) ve H/4-H/5'te geçiyor. D paragrafı ölçüm düzeneğini, I paragrafı sınırlılıkları anlatıyor; hiçbiri iki grubun moment değerlerini birbiriyle karşılaştırmıyor. H/2 ve H/3 zeminler arasındaki farkları veriyor, koşucu grupları arasındaki farkları değil.",
+      "explanation": "Paragraph H says that the two groups were not affected identically and that the heel-landers showed their largest changes at the knee, but it never compares the size of one group's knee moments with the other group's.",
+      "difficulty": "hard",
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "faz": "FAZ 1 / B3 yeniden uretim (UYGULAMA-PLANI 1.5)",
+        "yeni_pasaj": "A16",
+        "eski_pasaj": "A08",
+        "eski_prompt": "No towns or built structures were placed at direct risk by the quake.",
+        "eski_cevap": [
+          "TRUE"
+        ],
+        "neden_elendi": "Kanit cumlesi artik alistirma havuzuna ait olmayan A08 pasajindaydi.",
+        "ne_degisti": "Kalem bastan yazildi ve A16'ya baglandi. NOT GIVEN yuvasi, pasajin ayrintisiyla anlattigi iki koşucu grubunun kesisiminde kuruldu: metin her grubun en cok hangi eklemde degistigini soyluyor, ama iki grubun degerlerini birbirine karsi hic olcmuyor.",
+        "recete_sinamasi": "Metinsiz okundu: hangi grubun daha buyuk diz momenti urettigi disaridan bilinemez; ifade metnin en cok konustugu ayrimi kullandigi icin NOT GIVEN sezgisi de calismiyor. GECTI."
+      }
+    },
+    {
+      "number": 13,
+      "passage_id": "A17",
+      "prompt": "The order of the three materials by the amount of growth they carried changed from one sampling day to the next.",
+      "answer": [
+        "FALSE"
+      ],
+      "evidence": "The plastic thus gathered nearly twice the mass that the titanium did, and the ranking held across the sampling days.",
+      "evidence_locator": {
+        "paragraph": "G",
+        "sentence": 3
+      },
+      "contradiction_point": "Pasaj üç malzemenin sıralamasının bütün örnekleme günlerinde korunduğunu söylüyor; ifade ise sıralamanın günden güne değiştiğini iddia ediyor. Çelişki tek noktada: sıralamanın sabit kalması / değişmesi.",
+      "not_given_justification": null,
+      "scan_note": "Malzeme sıralaması G/2'de sayılarla (10.2, 7.6 ve 5.4 gram) ve G/3'te 'sıralama günler boyunca korundu' diye veriliyor. I paragrafı günden güne değişenin bakteri toplulukları olduğunu söylüyor, biriken kütlenin sıralaması değil; E paragrafı yalnızca hangi günlerde panel çıkarıldığını, F paragrafı ise su koşullarının değişmediğini anlatıyor. Sıralamayı bozan bir cümle yok.",
+      "explanation": "Paragraph G says that the plastic gathered nearly twice the mass that the titanium did and that this ranking held across the sampling days, so the order did not change from one day to the next.",
+      "difficulty": "medium",
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "faz": "FAZ 1 / B3 yeniden uretim (UYGULAMA-PLANI 1.5)",
+        "yeni_pasaj": "A17",
+        "eski_pasaj": "A09",
+        "eski_prompt": "The volcanic material that sealed the town built up over more than a single day.",
+        "eski_cevap": [
+          "TRUE"
+        ],
+        "neden_elendi": "Kanit A09 pasajina aitti; ayrica kalem genel_kultur isaretini tasiyordu (Herculaneum'un gomulmesi yaygin bilinen bir olgu).",
+        "ne_degisti": "Kalem bastan yazildi ve A17'ye baglandi. Celiski, yalniz bu calismanin bildirdigi bir kararliliga (siralamanin gunler boyunca korunmasi) capalandi; disaridan bilinebilir bir olgu icermiyor.",
+        "recete_sinamasi": "Metinsiz okundu: uc malzemenin siralamasinin gunler boyunca sabit kalip kalmadigi disaridan bilinemez; ifade ne kalip ne de genel kultur kanali aciyor. GECTI."
+      }
+    },
+    {
+      "number": 14,
+      "passage_id": "A17",
+      "prompt": "More readings were obtained from the plastic coupons than from the metal ones.",
+      "answer": [
+        "NOT GIVEN"
+      ],
+      "evidence": null,
+      "evidence_locator": null,
+      "contradiction_point": null,
+      "not_given_justification": "(1) Konu pasajda var: H/2 dizileme çalışmasının ürettiği ham okuma sayısını (4.608.494 çift okuma) veriyor, G paragrafı da üç malzemeyi birikmiş kütleye göre sıralıyor, yani hem okuma sayısı hem de malzeme karşılaştırması metnin konusu. (2) İfadeyi çürüten cümle yok: okuma sayısının üç malzemede eşit olduğu ya da metallerin daha çok okuma verdiği hiçbir yerde söylenmiyor. (3) Doğrulayan cümle de yok: okuma sayısı yalnızca çalışmanın bütünü için tek bir toplam olarak veriliyor, malzemelere hiç bölünmüyor.",
+      "scan_note": "Malzemeye göre ayrılan tek sayısal veri G paragrafındaki kütleler (10.2 / 7.6 / 5.4 gram). H paragrafı okuma sayısını, süzmeden geçen oranı ve tip sayısını yalnızca çalışmanın bütünü ya da tek tek örnekler için veriyor; H/4'teki ortak derinliğe eşitleme örneklerin adil karşılaştırılmasıyla ilgili, malzeme başına okuma sayısıyla değil. I paragrafı örneklerin malzemeye göre değil güne göre kümelendiğini söylüyor, ama bu topluluk bileşimine dair, okuma sayısına dair değil. Plastiğin daha çok kütle toplaması okuma sayısını belirlemez; metin bu adımı hiç atmıyor.",
+      "explanation": "Paragraph H reports a single total of raw readings for the whole sequencing run and never breaks that total down by material, so the passage does not say whether the plastic coupons yielded more readings than the metal ones.",
+      "difficulty": "hard",
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "faz": "FAZ 1 / B3 yeniden uretim (UYGULAMA-PLANI 1.5)",
+        "yeni_pasaj": "A17",
+        "eski_pasaj": "A09",
+        "eski_prompt": "The young man's age was estimated from an examination of his bones.",
+        "eski_cevap": [
+          "NOT GIVEN"
+        ],
+        "neden_elendi": "Kanit cumlesi artik alistirma havuzuna ait olmayan A09 pasajindaydi.",
+        "ne_degisti": "Kalem bastan yazildi ve A17'ye baglandi. NOT GIVEN yuvasi, pasajin iki ana ekseninin (malzeme karsilastirmasi ve dizileme sayilari) kesisimine yerlestirildi: ikisi de ayrintisiyla veriliyor, ama hicbir yerde caprazlanmiyor.",
+        "recete_sinamasi": "Metinsiz okundu: okuma sayisinin malzemeye gore degisip degismedigi disaridan bilinemez; ifade metnin en cok konustugu iki olcuyu birlestirdigi icin 'eksen disi ayrinti' sezgisi de yardim etmiyor. GECTI."
+      }
+    },
+    {
+      "number": 15,
+      "passage_id": "A17",
+      "prompt": "About two thirds of the raw readings were discarded during quality filtering.",
+      "answer": [
+        "TRUE"
+      ],
+      "evidence": "The run produced 4,608,494 raw paired readings, which quality filtering cut to roughly a third of that number.",
+      "evidence_locator": {
+        "paragraph": "H",
+        "sentence": 2
+      },
+      "contradiction_point": null,
+      "not_given_justification": null,
+      "scan_note": "Süzme yalnız H/2'de anlatılıyor ('kabaca bu sayının üçte birine indirildi'), dolayısıyla elenen pay yaklaşık üçte iki. H/3 süzmeden geçenlerin kaç ayrı tipe düştüğünü, H/4 ise sayıların ortak derinliğe eşitlendiğini söylüyor; ikisi de elenen payı değiştirmiyor. E paragrafındaki durulama gevşek tutunmuş canlıların ayıklanmasıyla ilgili, okumaların süzülmesiyle değil.",
+      "explanation": "Paragraph H says the run produced 4,608,494 raw paired readings and that quality filtering cut them to roughly a third of that number, which means about two thirds of the readings were discarded.",
+      "difficulty": "medium",
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "faz": "FAZ 1 / B3 yeniden uretim (UYGULAMA-PLANI 1.5)",
+        "yeni_pasaj": "A17",
+        "eski_pasaj": "A09",
+        "eski_prompt": "The brain tissue is thought to have melted into a liquid before hardening into glass.",
+        "eski_cevap": [
+          "FALSE"
+        ],
+        "neden_elendi": "Kanit A09 pasajina aitti; ayrica kalem genel_kultur isaretini tasiyordu (camlasmis beyin dokusu bulgusu bilim habercilikte genis yer bulmustu).",
+        "ne_degisti": "Kalem bastan yazildi ve A17'ye baglandi. Cevap, yalniz bu calismanin bildirdigi bir orana capalandi ve okuyucudan 'ucte birine indirildi' ifadesini elenen paya cevirmesi isteniyor; disaridan bilinebilir hicbir olgu karismiyor.",
+        "recete_sinamasi": "Metinsiz okundu: bir dizileme calismasinda okumalarin ne kadarinin elendigi disaridan bilinemez; yaygin sezgi suzmenin kucuk bir pay attigini soyledigi icin parcasiz cozucu FALSE'a gidiyor, dogru cevap TRUE. GECTI."
       }
     }
   ]

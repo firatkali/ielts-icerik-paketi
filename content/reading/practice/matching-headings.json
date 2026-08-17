@@ -7,498 +7,672 @@
   "test_id": null,
   "practice": true,
   "question_type": "matching_headings",
-  "generated_by": "fable",
+  "generated_by": "opus",
   "passage_id": null,
-  "instructions": "Choose the correct heading for each paragraph from the list of headings given with each passage. Write the correct number, i-x, on your answer sheet.",
+  "instructions": "Choose the correct heading for each paragraph from the list of headings given with each passage. Write the correct number in the boxes on your answer sheet.",
   "groups": [
     {
-      "group_id": "P-MH-01",
-      "passage_id": "A01",
-      "instructions": "Questions 1-5 refer to Passage A01 - The Elephant Who Solved a Puzzle Without Practice\n\nThe passage has EIGHT paragraphs, A-H.\n\nChoose the correct heading for paragraphs B-F from the list of headings below.\nWrite the correct number, i-x, in boxes 1-5 on your answer sheet.",
+      "group_id": "P-MH-A14",
+      "passage_id": "A14",
+      "instructions": "Questions 1-5 refer to Passage A14 - The Data That Never Arrived\n\nThe passage has NINE paragraphs, A-I.\n\nChoose the correct heading for paragraphs A, D, E, F and I from the list of headings below.\nWrite the correct number, i-viii, in boxes 1-5 on your answer sheet.",
       "option_list": {
         "label": "List of Headings",
         "numbering": "roman",
         "options": [
           {
             "key": "i",
-            "text": "A skill acquired little by little"
+            "text": "Four kinds of answer to one request"
           },
           {
             "key": "ii",
-            "text": "Recalling where something had been left"
+            "text": "Where an error was large enough to matter"
           },
           {
             "key": "iii",
-            "text": "The arrangement, and an unpromising start"
+            "text": "An experiment about who would reply"
           },
           {
             "key": "iv",
-            "text": "What other clever species manage"
+            "text": "A duty recorded in the rules and ignored in practice"
           },
           {
             "key": "v",
-            "text": "A solution that appeared all at once"
+            "text": "Whether care alone could explain the pattern"
           },
           {
             "key": "vi",
-            "text": "How the keepers taught the young male"
+            "text": "Three measures that would not rely on trust"
           },
           {
             "key": "vii",
-            "text": "Why the earlier equipment worked against the animal"
+            "text": "How a paper can be tested against itself"
           },
           {
             "key": "viii",
-            "text": "Three animals of different ages"
-          },
-          {
-            "key": "ix",
-            "text": "A clever species with a puzzling record"
-          },
-          {
-            "key": "x",
-            "text": "Repeating the feat and varying it"
+            "text": "Errors that all lean the same way"
           }
         ]
       },
-      "example": {
-        "key": "ix",
-        "target": "Paragraph A"
-      },
+      "example": null,
       "allow_repeat": false,
       "items": [
         {
           "number": 1,
-          "prompt": "Paragraph B",
+          "prompt": "Paragraph A",
           "answer": [
-            "iii"
+            "iv"
           ],
-          "evidence": "For the first several sessions none of the three animals paid the stick any attention at all, even though it lay directly beside them.",
+          "evidence": "A team of psychologists in the Netherlands began from the observation that this obligation is stated far more often than it is honoured, and argued that a paper whose underlying material cannot be inspected is unfinished work rather than settled work.",
           "evidence_locator": {
-            "paragraph": "B",
-            "sentence": 5
+            "paragraph": "A",
+            "sentence": null
           },
-          "heading_check": "B paragrafı iki işi birden yapıyor ve ikisi de kurulumla ilgili: kimlerin katıldığı, kapalı alanda neyin bulunduğu, meyvenin nereye asıldığı, hangi aracın verildiği — ve sonunda hiçbir hayvanın o araca dönüp bakmadığı. 'iii' hem düzeneği hem de sonuçsuz açılışı karşılıyor. En yakın çeldirici 'viii' (farklı yaşlardan üç hayvan) — ilk cümle gerçekten 33, 61 ve 7 yaşındaki üç fili sayıyor, ama paragraf yaşları hiç karşılaştırmıyor; katılımcı listesi düzeneğin bir ayrıntısı, ana fikri değil.",
+          "heading_check": "A paragrafinin butunu tek bir karsitlik uzerine kurulu: kural var (meslek kuruluslari acikca yaziyor, yazarlar imzaliyor), uygulama yok (yerine getirilmesi cok daha seyrek). 'iv' bu ikiligi karsiliyor ve paragrafin hicbir anahtar sozcugunu tekrarlamiyor.",
+          "scan_note": "En yakin celdirici 'iii' (kimin cevap verecegi uzerine bir deney): A paragrafi arastirmaci ekibi tanittigi icin calisma tasariminin burada anlatildigi sanilabilir. Ama A'da ne bir istek mektubu ne bir orneklem var; mektuplarin yazilmasi ve 'asil deney istegin kendisidir' cumlesi B paragrafinda. Ikinci celdirici 'vi' (guvene dayanmayan uc onlem) — o da bir kural konusunu isliyor, ama A'daki kural zaten var olan ve tutulmayan bir kural; 'vi' henuz kurulmamis, onerilen duzenlemeleri anlatiyor (I paragrafi).",
           "feature_check": null,
           "grammar_check": null,
-          "explanation": "Paragraph B describes how the experiment was set up and says that none of the animals paid any attention to the stick they were given during the first sessions.",
+          "explanation": "Paragraph A explains that professional bodies require authors to keep their measurements and hand them over on request, but that this requirement is stated far more often than it is met.",
           "difficulty": "medium",
           "status": "verified",
-          "blind_solvable": false
+          "blind_solvable": false,
+          "blind_basis": null,
+          "generated_by": "opus",
+          "yeniden_uretim": {
+            "tarih": "2026-08-18",
+            "faz": "FAZ 1 / B3 yeniden uretim (UYGULAMA-PLANI 1.5)",
+            "yeni_pasaj": "A14",
+            "eski_pasaj": "A01",
+            "eski_prompt": "Paragraph B",
+            "eski_cevap": [
+              "iii"
+            ],
+            "neden_elendi": "Kalem A01 pasajina capaliydi; A01 artik tam deneme havuzuna ait ve alistirma sorularinda kullanilamiyor (PLAN-EK-kurallar 1: iki havuz ayri). Baslik listesi de A01'in anlati sirasina gore kuruldugu icin yeniden yazildi.",
+            "ne_degisti": "Kalem bastan yazildi ve A14'un A paragrafina baglandi. Baslik paragrafin ana fikrini (yazili yukumluluk ile fiili uygulama arasindaki acik) bambaska sozcuklerle soyluyor; 'obligation', 'promise', 'unfinished' gibi paragraf sozcukleri baslikta gecmiyor.",
+            "recete_sinamasi": "Baslik listesi tek basina okundugunda 'iv' A, D, E, F ve I paragraflarindan yalnizca birine oturuyor; ilk paragraf oldugu icin secilmesini engellemek uzere listede ikinci bir kurulus/cerceve tonlu baslik ('iii') var ve o B'ye demirli."
+          }
         },
         {
           "number": 2,
-          "prompt": "Paragraph C",
-          "answer": [
-            "v"
-          ],
-          "evidence": "There had been no earlier attempts to push, climb or stack anything nearby; the behaviour appeared abruptly, in a single uninterrupted sequence.",
-          "evidence_locator": {
-            "paragraph": "C",
-            "sentence": 4
-          },
-          "heading_check": "C paragrafının bütün ağırlığı davranışın **birdenbire** ortaya çıkmasında: yedinci oturumda, önceden hiçbir deneme yapılmamışken, küp yuvarlanıyor, üstüne çıkılıyor ve yiyecek alınıyor — hepsi tek ve kesintisiz bir dizide. 'v' bunu veriyor. En yakın çeldirici 'i' (adım adım kazanılan beceri) — altı oturumluk sonuçsuz bir dönem gerçekten geçmiş, aday bunu 'yavaş öğrenme' diye okuyabilir; ama son cümle tam tersini söylüyor, öncesinde itme, tırmanma ya da üst üste koyma denemesi hiç olmamış.",
-          "feature_check": null,
-          "grammar_check": null,
-          "explanation": "Paragraph C describes how the solution appeared abruptly in the seventh session, with no earlier attempts beforehand.",
-          "difficulty": "medium",
-          "status": "verified",
-          "blind_solvable": false
-        },
-        {
-          "number": 3,
           "prompt": "Paragraph D",
-          "answer": [
-            "x"
-          ],
-          "evidence": "His success was not limited to the cube itself: when it was removed, he pushed a large tractor tyre into use as a substitute platform, and with smaller objects he attempted, less successfully, to stack them on top of one another.",
-          "evidence_locator": {
-            "paragraph": "D",
-            "sentence": 4
-          },
-          "heading_check": "D paragrafı iki şeyi birlikte gösteriyor: aynı çözümün tekrarlanması (tek oturumda dokuz kez) ve değiştirilerek uygulanması (yiyecek yer değiştirince küpün yeni noktaya yuvarlanması, küp alınınca traktör lastiğinin kullanılması). 'x' ikisini de kapsıyor. En yakın çeldirici 'vi' (bakıcıların genç erkeği eğitmesi) — bakıcılar bu paragrafta geçiyor, ama yaptıkları tek şey yiyeceği başka yere asmak; pasajın hiçbir yerinde öğretme ya da eğitme yok.",
-          "feature_check": null,
-          "grammar_check": null,
-          "explanation": "Paragraph D describes how the solution was repeated many times the next day and adapted to new locations and other objects.",
-          "difficulty": "medium",
-          "status": "verified",
-          "blind_solvable": false
-        },
-        {
-          "number": 4,
-          "prompt": "Paragraph E",
-          "answer": [
-            "ii"
-          ],
-          "evidence": "The following day, without any hesitation, he walked straight to the passageway where the cube had been left and rolled it out, evidence, the researchers argued, that he recalled precisely where a useful object had been the day before rather than searching at random.",
-          "evidence_locator": {
-            "paragraph": "E",
-            "sentence": 4
-          },
-          "heading_check": "E paragrafının tek konusu bellek: küp görünmeyen bir geçide saklanıyor, ertesi gün hayvan hiç aramadan doğruca oraya gidiyor. 'ii' bunu karşılıyor. En yakın çeldirici 'x' (tekrarlama ve değiştirme) — burada da bir davranış ertesi gün yineleniyor, ama yinelenen şey çözümün kendisi değil; paragrafın ölçtüğü şey nesnenin **nerede bırakıldığının** hatırlanması.",
-          "feature_check": null,
-          "grammar_check": null,
-          "explanation": "Paragraph E describes the animal going straight to an object the next day after seeing where it had been left the day before — in other words, spatial memory.",
-          "difficulty": "hard",
-          "status": "verified",
-          "blind_solvable": false
-        },
-        {
-          "number": 5,
-          "prompt": "Paragraph F",
           "answer": [
             "vii"
           ],
-          "evidence": "The authors suggest that the problem lay in the tools previous experiments had offered, not in the animals' intelligence.",
+          "evidence": "Silence did not end the investigation, because a surprising amount can be checked without any raw material at all.",
           "evidence_locator": {
-            "paragraph": "F",
-            "sentence": 2
+            "paragraph": "D",
+            "sentence": null
           },
-          "heading_check": "F paragrafı tek bir soruya cevap veriyor: önceki çalışmalar bu yeteneği neden bulamadı? Cevap, sunulan aracın hayvanın en çok güvendiği duyuyu engellemesi. 'vii' bu ana fikri veriyor. En yakın çeldirici 'iv' (başka zeki türlerin başardıkları) — paragrafın ilk cümlesi benzer bulmacaları kolayca çözen akraba türlere değiniyor, ama bu yalnızca sorunun kurulması; paragraf o türleri hiç anlatmıyor, kendi hayvanının donanımını anlatıyor.",
+          "heading_check": "D paragrafinin tamami tek bir olanagi anlatiyor: bildirilen istatistikler birbirini iceren bicimde yazildigi icin, ucunden ikisi verildiginde ucuncusu yeniden hesaplanabiliyor; yani makale kendi rakamlariyla sinanabiliyor. 'vii' bu ana fikri veriyor.",
+          "scan_note": "En yakin celdirici 'viii' (hepsi ayni yone egilen hatalar): D paragrafi 'basilan olasiligin yanindaki rakamlardan cikmadigi durumlari aramak' diyerek hatalardan soz ediyor, bu yuzden bulgu paragrafi sanilabilir. Ama D hicbir hata sayisi ya da yonu vermiyor; kac sonucun tutmadigi ve hatalarin hangi yone egildigi E paragrafinda. D yontemi, E sonucu anlatiyor.",
           "feature_check": null,
           "grammar_check": null,
-          "explanation": "Paragraph F attributes the failure of earlier experiments not to the animal's intelligence, but to the tool it was given blocking the trunk's senses.",
+          "explanation": "Paragraph D explains that because these papers report a test statistic, a sample size and a probability value, any two of the three allow the third to be recalculated, so the reported results could be checked even without the missing files.",
           "difficulty": "medium",
           "status": "verified",
-          "blind_solvable": false
+          "blind_solvable": false,
+          "blind_basis": null,
+          "generated_by": "opus",
+          "yeniden_uretim": {
+            "tarih": "2026-08-18",
+            "faz": "FAZ 1 / B3 yeniden uretim (UYGULAMA-PLANI 1.5)",
+            "yeni_pasaj": "A14",
+            "eski_pasaj": "A01",
+            "eski_prompt": "Paragraph C",
+            "eski_cevap": [
+              "v"
+            ],
+            "neden_elendi": "Kalem A01 pasajina capaliydi; A01 artik tam deneme havuzuna ait ve alistirma sorularinda kullanilamiyor (PLAN-EK-kurallar 1: iki havuz ayri). Baslik listesi de A01'in anlati sirasina gore kuruldugu icin yeniden yazildi.",
+            "ne_degisti": "Kalem bastan yazildi ve A14'un D paragrafina baglandi. Baslik, paragrafin sayisal ayrintisina (bin yuz kirk sekiz sonuc) degil, paragrafi bir arada tutan fikre — makalenin kendi rakamlariyla denetlenebilmesine — bakiyor.",
+            "recete_sinamasi": "'vii' listedeki oteki yedi baslikla tek tek denendi: hicbir paragrafta ikinci bir karsiligi yok; D'nin komsusu E ise kendi basligini ('viii') aliyor."
+          }
+        },
+        {
+          "number": 3,
+          "prompt": "Paragraph E",
+          "answer": [
+            "viii"
+          ],
+          "evidence": "The direction of the discrepancy was almost uniform: in nearly every instance the probability printed in the paper was smaller, and therefore more impressive, than the one its own figures implied.",
+          "evidence_locator": {
+            "paragraph": "E",
+            "sentence": null
+          },
+          "heading_check": "E paragrafi iki olcumu birlikte veriyor ama ikisi de ayni yonelime isaret ediyor: tutarsizliklarin neredeyse tamami makaleyi daha etkileyici gosteren yonde, ve dortte uce yakini malzemesini vermeyen yazarlardan geliyor. 'viii' bu tek yonlulugu karsiliyor.",
+          "scan_note": "En yakin celdirici 'v' (bu oruntuyu yalniz ozen aciklayabilir mi): E'nin son cumlesi 'bu kadar dengesiz bir dagilim rastlantiya baglanamaz' diyor, dolayisiyla aciklama tartismasi burada saniliyor. Ama E rakip aciklamalari tartmiyor, yalnizca bulguyu koyuyor; ozenli arastirmaci ve dosya saklama becerisi gibi rakip aciklamalar sorulmayan H paragrafinda tartisiliyor.",
+          "feature_check": null,
+          "grammar_check": null,
+          "explanation": "Paragraph E reports that the mismatched results nearly all ran in the same direction, making the findings look stronger than the papers' own figures allowed, and that most of them came from authors who had withheld their material.",
+          "difficulty": "hard",
+          "status": "verified",
+          "blind_solvable": false,
+          "blind_basis": null,
+          "generated_by": "opus",
+          "yeniden_uretim": {
+            "tarih": "2026-08-18",
+            "faz": "FAZ 1 / B3 yeniden uretim (UYGULAMA-PLANI 1.5)",
+            "yeni_pasaj": "A14",
+            "eski_pasaj": "A01",
+            "eski_prompt": "Paragraph D",
+            "eski_cevap": [
+              "x"
+            ],
+            "neden_elendi": "Kalem A01 pasajina capaliydi; A01 artik tam deneme havuzuna ait ve alistirma sorularinda kullanilamiyor (PLAN-EK-kurallar 1: iki havuz ayri). Baslik listesi de A01'in anlati sirasina gore kuruldugu icin yeniden yazildi.",
+            "ne_degisti": "Kalem bastan yazildi ve A14'un E paragrafina baglandi. Baslikta 'discrepancy', 'probability', 'material' gibi paragraf sozcukleri yok; aday hatalarin sayisini degil, hepsinin ayni yone egildigini anlamak zorunda.",
+            "recete_sinamasi": "'viii' oteki paragraflarla denendi: F paragrafinda da hatalar var ve onlarin hepsi de paylasmayan yazarlardan geliyor, ama F'nin olcusu yon degil buyukluk; bu ayrimi acik tutmak icin F'nin basligi ('ii') buyuklukten soz ediyor, E'ninki yonden."
+          }
+        },
+        {
+          "number": 4,
+          "prompt": "Paragraph F",
+          "answer": [
+            "ii"
+          ],
+          "evidence": "In these the recalculated probability crossed the conventional threshold of significance altogether, so that the paper announced a significant finding which its own reported numbers did not support.",
+          "evidence_locator": {
+            "paragraph": "F",
+            "sentence": null
+          },
+          "heading_check": "F paragrafi hatalari buyukluklerine gore ayiriyor: on tanesi zararsiz hesap kaymasi degil, makalenin ilan ettigi sonucu ortadan kaldiran turden. 'ii' bu ana fikri — hatanin sonucu degistirecek kadar buyuk oldugu yeri — veriyor.",
+          "scan_note": "En yakin celdirici 'viii' (hepsi ayni yone egilen hatalar): F'deki on ornegin onu da malzemesini paylasmayan makalelerden geldigi icin 'ayni yone egilme' burada da dogru gorunuyor. Ama F o dagilimi olcmuyor, onu E yapiyor; F'nin kendi olcusu hatanin siddeti, yani sonucu tasiyip tasimadigi.",
+          "feature_check": null,
+          "grammar_check": null,
+          "explanation": "Paragraph F singles out ten inconsistencies serious enough to remove the significance of the finding altogether, all of them in papers whose material was never shared.",
+          "difficulty": "medium",
+          "status": "verified",
+          "blind_solvable": false,
+          "blind_basis": null,
+          "generated_by": "opus",
+          "yeniden_uretim": {
+            "tarih": "2026-08-18",
+            "faz": "FAZ 1 / B3 yeniden uretim (UYGULAMA-PLANI 1.5)",
+            "yeni_pasaj": "A14",
+            "eski_pasaj": "A01",
+            "eski_prompt": "Paragraph E",
+            "eski_cevap": [
+              "ii"
+            ],
+            "neden_elendi": "Kalem A01 pasajina capaliydi; A01 artik tam deneme havuzuna ait ve alistirma sorularinda kullanilamiyor (PLAN-EK-kurallar 1: iki havuz ayri). Baslik listesi de A01'in anlati sirasina gore kuruldugu icin yeniden yazildi.",
+            "ne_degisti": "Kalem bastan yazildi ve A14'un F paragrafina baglandi. Basliktan 'threshold', 'significant', 'inconsistency' gibi sozcukler bilerek cikarildi; secim ancak paragrafin E'den farkini (yon degil siddet) gormekle yapiliyor.",
+            "recete_sinamasi": "Ters sinama: 'ii' E'ye de, D'ye de oturmuyor — E'de hatalarin buyuklugu degil dagilimi, D'de hic hata sonucu yok."
+          }
+        },
+        {
+          "number": 5,
+          "prompt": "Paragraph I",
+          "answer": [
+            "vi"
+          ],
+          "evidence": "Their remedy is aimed at systems, not individuals.",
+          "evidence_locator": {
+            "paragraph": "I",
+            "sentence": null
+          },
+          "heading_check": "I paragrafinin agirligi uc somut oneride: arsivlemenin yayin sarti olmasi, veri yonetiminin egitimin parcasi olmasi, merkezi cozumlemelerin en az iki kisi tarafindan bagimsiz yurutulmesi. Ucu de kisisel iyi niyeti devre disi birakmayi amacliyor; 'vi' bunu karsiliyor.",
+          "scan_note": "En yakin celdirici 'iv' (kurallarda yazili, uygulamada gecersiz bir yukumluluk): I de kurallardan soz ettigi icin yuzeyden oturuyor. Ama 'iv'un anlattigi kural zaten var olan ve tutulmayan kural (A paragrafi); I'nin anlattigi kurallar henuz yok, oneriliyor. Aradaki fark zaman: biri ihlal edilen bir yukumluluk, oteki kurulmasi istenen bir sart.",
+          "feature_check": null,
+          "grammar_check": null,
+          "explanation": "Paragraph I says the authors' remedy is aimed at systems rather than individuals, and sets out three changes to publishing and training so that checking a result no longer depends on the willingness of the person being checked.",
+          "difficulty": "hard",
+          "status": "verified",
+          "blind_solvable": false,
+          "blind_basis": null,
+          "generated_by": "opus",
+          "yeniden_uretim": {
+            "tarih": "2026-08-18",
+            "faz": "FAZ 1 / B3 yeniden uretim (UYGULAMA-PLANI 1.5)",
+            "yeni_pasaj": "A14",
+            "eski_pasaj": "A01",
+            "eski_prompt": "Paragraph F",
+            "eski_cevap": [
+              "vii"
+            ],
+            "neden_elendi": "Kalem A01 pasajina capaliydi; A01 artik tam deneme havuzuna ait ve alistirma sorularinda kullanilamiyor (PLAN-EK-kurallar 1: iki havuz ayri). Baslik listesi de A01'in anlati sirasina gore kuruldugu icin yeniden yazildi.",
+            "ne_degisti": "Kalem bastan yazildi ve A14'un I paragrafina baglandi. Pasajin son paragrafi oldugu icin 'sonuc' ya da 'gelecek' tonlu bir baslik bilerek yazilmadi; baslik onerilerin sayisini ve niteligini adlandiriyor, paragrafin metindeki yerini degil.",
+            "recete_sinamasi": "Konum sinamasi: listede sonuc tonlu baska bir baslik yok, dolayisiyla 'son paragraf = sonuc basligi' kestirmesi calismiyor. 'vi' oteki dort paragrafla denendi, hicbirine oturmadi."
+          }
         }
       ]
     },
     {
-      "group_id": "P-MH-02",
-      "passage_id": "A09",
-      "instructions": "Questions 6-10 refer to Passage A09 - The Brain That Turned to Glass\n\nThe passage has EIGHT paragraphs, A-H.\n\nChoose the correct heading for paragraphs B-F from the list of headings below.\nWrite the correct number, i-x, in boxes 6-10 on your answer sheet.",
+      "group_id": "P-MH-A16",
+      "passage_id": "A16",
+      "instructions": "Questions 6-10 refer to Passage A16 - What Changes When the Ground Gets Harder\n\nThe passage has NINE paragraphs, A-I.\n\nChoose the correct heading for paragraphs A, C, E, G and I from the list of headings below.\nWrite the correct number, i-viii, in boxes 6-10 on your answer sheet.",
       "option_list": {
         "label": "List of Headings",
         "numbering": "roman",
         "options": [
           {
             "key": "i",
-            "text": "Doubts about where the material came from"
+            "text": "Slowing down and pushing off along the runway"
           },
           {
             "key": "ii",
-            "text": "The methods used to check the claim"
+            "text": "Who ran, and what was held constant about them"
           },
           {
             "key": "iii",
-            "text": "A different kind of destruction, and what it saved"
+            "text": "What the runway cannot show about real running"
           },
           {
             "key": "iv",
-            "text": "Why the material could not be a later addition"
+            "text": "Putting numbers to words like soft and hard"
           },
           {
             "key": "v",
-            "text": "An old find, looked at again"
+            "text": "Measurements that showed no change at all"
           },
           {
             "key": "vi",
-            "text": "Chemical clues pointing to one source"
+            "text": "Why the street cannot answer the question"
           },
           {
             "key": "vii",
-            "text": "Comparing the victim with others in the town"
+            "text": "Trials that were allowed to count"
           },
           {
             "key": "viii",
-            "text": "What the dark substance proved to be"
-          },
-          {
-            "key": "ix",
-            "text": "Equipment built especially for the site"
-          },
-          {
-            "key": "x",
-            "text": "Fine structures that survived intact"
+            "text": "The cost of a surface that will not stay flat"
           }
         ]
       },
-      "example": {
-        "key": "iii",
-        "target": "Paragraph A"
-      },
+      "example": null,
       "allow_repeat": false,
       "items": [
         {
           "number": 6,
-          "prompt": "Paragraph B",
+          "prompt": "Paragraph A",
           "answer": [
-            "v"
+            "vi"
           ],
-          "evidence": "His remains had been known to archaeologists since the 1960s, but a more recent examination revealed something unexpected: a dark, glassy material inside his skull, distinct in appearance from the surrounding bone and ash.",
+          "evidence": "Movement scientists therefore brought the problem indoors, laying three coverings over one laboratory runway so that nothing but the ground changed.",
           "evidence_locator": {
-            "paragraph": "B",
-            "sentence": 2
+            "paragraph": "A",
+            "sentence": null
           },
-          "heading_check": "B paragrafının kurduğu karşıtlık zaman üzerine: kalıntılar 1960'lardan beri biliniyordu, yeni bir inceleme beklenmedik bir şey gösterdi. 'v' bu ana fikri veriyor. En yakın çeldirici 'vii' (kurbanın kasabadaki ötekilerle karşılaştırılması) — ilk cümle 'kazılarda ortaya çıkarılan kurbanlar arasında' diye başlıyor, ama paragraf tek bir kişiyi anlatıyor, hiçbir karşılaştırma yapmıyor.",
+          "heading_check": "A paragrafinin ana fikri, sorunun disarida neden cevaplanamayacagi: acik havada zemin tek basina degismiyor, hiz, egim, ayakkabi ve hava onunla birlikte degisiyor, bu yuzden kosucudaki fark hangisine ait belli olmuyor. 'vi' bunu karsiliyor.",
+          "scan_note": "En yakin celdirici 'iv' (yumusak ve sert sozlerinin sayiya cevrilmesi): A paragrafi zeminlerin ayak altinda farkli miktarda cokmesinden soz ettigi icin olcum konusu burada saniliyor. Ama A'da tek bir sayi yok; sicrama testi ve uc yuzeyin degerleri B paragrafinda. Ikinci celdirici 'iii' (kosu yolunun gercek kosu hakkinda gosteremedikleri) — o da laboratuvar ile gercek kosu arasindaki farki isliyor, ama ters yonde: 'vi' laboratuvara neden girildigini, 'iii' laboratuvardan cikan sonucun nereye ulasamadigini anlatiyor (I paragrafi). Iki baslik da laboratuvar-gerceklik ekseninde durdugu icin, hangisinin ilk hangisinin son paragrafa ait oldugu paragraf sirasindan cikarilamiyor.",
           "feature_check": null,
           "grammar_check": null,
-          "explanation": "Paragraph B describes how a re-examination of remains that had been known for decades revealed an unexpected glassy material inside the skull.",
+          "explanation": "Paragraph A explains that outside, several things change at once alongside the ground, so the effect of the surface cannot be separated from them, which is why the work was moved into a laboratory.",
           "difficulty": "medium",
           "status": "verified",
-          "blind_solvable": false
+          "blind_solvable": false,
+          "blind_basis": null,
+          "generated_by": "opus",
+          "yeniden_uretim": {
+            "tarih": "2026-08-18",
+            "faz": "FAZ 1 / B3 yeniden uretim (UYGULAMA-PLANI 1.5)",
+            "yeni_pasaj": "A16",
+            "eski_pasaj": "A09",
+            "eski_prompt": "Paragraph B",
+            "eski_cevap": [
+              "v"
+            ],
+            "neden_elendi": "Kalem A09 pasajina capaliydi; A09 artik tam deneme havuzuna ait ve alistirma sorularinda kullanilamiyor (PLAN-EK-kurallar 1: iki havuz ayri). Baslik listesi de A09'un anlati sirasina gore kuruldugu icin yeniden yazildi.",
+            "ne_degisti": "Kalem bastan yazildi ve A16'nin A paragrafina baglandi. Baslik paragrafin sozcuklerini (outdoors, surface, laboratory) kullanmiyor; aday, disarida degiskenlerin birlikte degistigi savini anlamak zorunda.",
+            "recete_sinamasi": "Baslik listesi paragraf sayisindan uzun tutuldu (5 paragraf / 8 baslik) ve fazladan uc baslik sorulmayan paragraflara demirlendi, boylece hicbir baslik elemeyle bulunamiyor. Liste sirasi paragraf sirasindan bagimsiz karistirildi; dogru cevaplar listede artan sirada degil."
+          }
         },
         {
           "number": 7,
           "prompt": "Paragraph C",
           "answer": [
-            "viii"
-          ],
-          "evidence": "Detailed analysis showed that this material was not a mineral deposit or later contamination but vitrified human brain tissue, tissue that had been converted directly into a glass-like solid.",
-          "evidence_locator": {
-            "paragraph": "C",
-            "sentence": 1
-          },
-          "heading_check": "C paragrafı camsı maddenin ne olduğunu söylüyor — cama dönüşmüş insan beyin dokusu — ve bunun neden bu kadar ender olduğunu ekliyor. 'viii' maddenin kimliğine, yani paragrafın ana fikrine bağlanıyor. En yakın çeldirici 'iv' (maddenin sonradan eklenmiş olamayacağı) — ilk cümle gerçekten mineral birikimi ve sonraki bulaşma ihtimalini eliyor, ama bu, kimliğin ortaya konuşunun bir adımı; paragraf elemeyi değil, sonucu anlatıyor.",
-          "feature_check": null,
-          "grammar_check": null,
-          "explanation": "Paragraph C explains that the material inside the skull was vitrified brain tissue, and how rare this kind of transformation is in nature.",
-          "difficulty": "medium",
-          "status": "verified",
-          "blind_solvable": false
-        },
-        {
-          "number": 8,
-          "prompt": "Paragraph D",
-          "answer": [
             "ii"
           ],
-          "evidence": "To confirm and characterise the discovery, the research team combined several techniques.",
+          "evidence": "Sixty men took part, split into two groups of thirty according to which part of the foot met the ground first.",
           "evidence_locator": {
-            "paragraph": "D",
-            "sentence": 1
+            "paragraph": "C",
+            "sentence": null
           },
-          "heading_check": "D paragrafının dört cümlesi de aynı işi sayıyor: bulguyu doğrulamak için kullanılan yöntemler — mikroskopla görüntüleme, kimyasal bileşim ölçümü, örüntü tanıma, veri tabanıyla karşılaştırma. 'ii' bu bütünü karşılıyor. En yakın çeldirici 'ix' (bu alan için özel yapılmış donanım) — üçüncü cümle gerçekten bu iş için geliştirilmiş bir görüntü işleme yönteminden söz ediyor, ama bu dört yöntemden yalnızca biri ve donanım değil; paragrafın ana fikri yöntemlerin bir arada kullanılması.",
+          "heading_check": "C paragrafinin tamami katilimcilarla ilgili: kac kisi, hangi olcute gore ikiye ayrildiklari, aliskanliklarinin nasil dogrulandigi, yaslari ve haftalik mesafeleri, ve ayni ayakkabi modelinin verilmesi. 'ii' hem kimlerin kostugunu hem de aralarinda sabit tutulan seyi karsiliyor.",
+          "scan_note": "En yakin celdirici 'vii' (sayilmasina izin verilen denemeler): C'de dogrulama ve esitleme var (tabanlik olcumu, tek ayakkabi modeli), bu yuzden kabul olcutu burada saniliyor. Ama C hicbir denemeden soz etmiyor; hangi gecisin gecerli sayildigi (hiz araligi, ayagin plakaya tam basmasi) D paragrafinda.",
           "feature_check": null,
           "grammar_check": null,
-          "explanation": "Paragraph D lists the methods used together to confirm the finding.",
-          "difficulty": "medium",
-          "status": "verified",
-          "blind_solvable": false
-        },
-        {
-          "number": 9,
-          "prompt": "Paragraph E",
-          "answer": [
-            "x"
-          ],
-          "evidence": "The structural measurements were remarkably precise.",
-          "evidence_locator": {
-            "paragraph": "E",
-            "sentence": 1
-          },
-          "heading_check": "E paragrafı baştan sona ölçülen yapıları sıralıyor: sinir liflerinin çapı, hücre gövdelerinin boyu, kılıfların çok katmanlı düzeni, hücre içi iskeletin görülebilmesi — hepsi yaşayan dokudakine yakın. 'x' bu ana fikri, yani ince yapıların bozulmadan kalışını veriyor. En yakın çeldirici 'iv' (maddenin sonradan eklenmiş olamayacağı) — böylesine düzenli yapılar dolaylı olarak bunu da destekliyor, ama paragraf bir itirazı çürütmüyor, ölçüm sonuçlarını veriyor.",
-          "feature_check": null,
-          "grammar_check": null,
-          "explanation": "Paragraph E gives the figures showing that the fine structures of nerve cells in the vitrified tissue were preserved well enough to be measured. Note: the measurement tool's 'lexical_overlap_answer: 1.0' finding is misleading — the answer 'x' (the roman numeral) coincidentally matches the 'X' in 'X-ray spectroscopy' in paragraph D; it has nothing to do with this paragraph (E). The heading itself ('Fine structures that survived intact') requires understanding the paragraph's detailed list of measurements (axon diameter, cell body size, myelin layers, microtubules), and cannot be chosen without reading the passage.",
+          "explanation": "Paragraph C describes the runners themselves: how many there were, how they were divided by the way they land, and what was kept identical between them, including the shoe model.",
           "difficulty": "medium",
           "status": "verified",
           "blind_solvable": false,
-          "difficulty_flags": {
-            "lexical_overlap_answer": 1.0,
-            "lexical_overlap_prompt": 0.0,
-            "evidence_spread": 1,
-            "distractor_distance": null
+          "blind_basis": null,
+          "generated_by": "opus",
+          "yeniden_uretim": {
+            "tarih": "2026-08-18",
+            "faz": "FAZ 1 / B3 yeniden uretim (UYGULAMA-PLANI 1.5)",
+            "yeni_pasaj": "A16",
+            "eski_pasaj": "A09",
+            "eski_prompt": "Paragraph C",
+            "eski_cevap": [
+              "viii"
+            ],
+            "neden_elendi": "Kalem A09 pasajina capaliydi; A09 artik tam deneme havuzuna ait ve alistirma sorularinda kullanilamiyor (PLAN-EK-kurallar 1: iki havuz ayri). Baslik listesi de A09'un anlati sirasina gore kuruldugu icin yeniden yazildi.",
+            "ne_degisti": "Kalem bastan yazildi ve A16'nin C paragrafina baglandi. Baslikta 'heel', 'foot', 'shoe' gibi paragrafin tarama sozcukleri yok; secim, paragrafin katilimci paragrafi oldugunu gormekten geciyor.",
+            "recete_sinamasi": "Baslik listesi paragraf sayisindan uzun tutuldu (5 paragraf / 8 baslik) ve fazladan uc baslik sorulmayan paragraflara demirlendi, boylece hicbir baslik elemeyle bulunamiyor. Liste sirasi paragraf sirasindan bagimsiz karistirildi; dogru cevaplar listede artan sirada degil."
+          }
+        },
+        {
+          "number": 8,
+          "prompt": "Paragraph E",
+          "answer": [
+            "v"
+          ],
+          "evidence": "Across all three surfaces the angles taken up by the hip, the knee and the ankle were statistically indistinguishable.",
+          "evidence_locator": {
+            "paragraph": "E",
+            "sentence": null
+          },
+          "heading_check": "E paragrafi bastan sona ayni sonucu sayiyor: eklem acilari, kuvvetin yukselme hizi ve hesaplanan sertlik degerleri uc zeminde de ayirt edilemiyor; yandan cekilmis goruntude ayni kosucu turf ile beton arasinda farksiz gorunuyor. 'v' bu ana fikri veriyor.",
+          "scan_note": "En yakin celdirici 'iii' (kosu yolunun gercek kosu hakkinda gosteremedikleri): E bir yokluk bildirdigi icin sinirlama paragrafi sanilabilir. Ama E'deki yokluk olculmus bir sonuc, calismanin kapsam siniri degil; hangi durumlara uzanmadigi (viraj, daha yuksek hiz, secilmeyen ayakkabi) I paragrafinda soyleniyor.",
+          "feature_check": null,
+          "grammar_check": null,
+          "explanation": "Paragraph E reports a negative finding: joint angles, loading rates and stiffness values came out the same on all three surfaces, so the movement itself looked unchanged.",
+          "difficulty": "medium",
+          "status": "verified",
+          "blind_solvable": false,
+          "blind_basis": null,
+          "generated_by": "opus",
+          "yeniden_uretim": {
+            "tarih": "2026-08-18",
+            "faz": "FAZ 1 / B3 yeniden uretim (UYGULAMA-PLANI 1.5)",
+            "yeni_pasaj": "A16",
+            "eski_pasaj": "A09",
+            "eski_prompt": "Paragraph D",
+            "eski_cevap": [
+              "ii"
+            ],
+            "neden_elendi": "Kalem A09 pasajina capaliydi; A09 artik tam deneme havuzuna ait ve alistirma sorularinda kullanilamiyor (PLAN-EK-kurallar 1: iki havuz ayri). Baslik listesi de A09'un anlati sirasina gore kuruldugu icin yeniden yazildi.",
+            "ne_degisti": "Kalem bastan yazildi ve A16'nin E paragrafina baglandi. Baslik paragrafin anahtar terimlerini (stiffness, loading rate, angle) tekrarlamiyor; bunun yerine sonucun turunu — olcumlerin ayni cikmasini — adlandiriyor.",
+            "recete_sinamasi": "Ters sinama: 'v' ozellikle I paragrafina karsi denendi, cunku I'nin son cumlesi de adimin gorunur bicimini degismez sayiyor; ayrim korunsun diye 'v' olcumlerden, I'nin basligi 'iii' ise kapsamdan soz ediyor."
+          }
+        },
+        {
+          "number": 9,
+          "prompt": "Paragraph G",
+          "answer": [
+            "viii"
+          ],
+          "evidence": "A soft covering deforms unevenly beneath a foot that is never placed perfectly square, so the ground yields slightly more in one direction than in another, and the runner spends force resisting a drift that a rigid floor would never allow.",
+          "evidence_locator": {
+            "paragraph": "G",
+            "sentence": null
+          },
+          "heading_check": "G paragrafinin agirligi aciklamada: yana dogru kuvvetin yumusak zeminde buyuk cikmasinin nedeni, zeminin ayagin altinda esit olmayan bicimde cokmesi ve kosucunun bu kaymaya direnmek icin kuvvet harcamasi. 'viii' bu bedeli adlandiriyor.",
+          "scan_note": "En yakin celdirici 'i' (kosu yolu boyunca yavaslama ve itme): G, bir onceki paragrafla 'benzer bir oruntu' dedigi ve ayni yuzde dilimlerini kullandigi icin ayni olcumun devami sanilabilir. Ama 'i'deki kuvvet hareket dogrultusunda, once yavaslatan sonra ileri iten bilesen; G'nin olctugu kuvvet hareket dogrultusuna dik, yani yana dogru olan bilesen.",
+          "feature_check": null,
+          "grammar_check": null,
+          "explanation": "Paragraph G reports larger sideways forces on the softer covering and explains them: a surface that sinks unevenly under the foot pushes the runner off line, and force has to be spent resisting that drift.",
+          "difficulty": "hard",
+          "status": "verified",
+          "blind_solvable": false,
+          "blind_basis": null,
+          "generated_by": "opus",
+          "yeniden_uretim": {
+            "tarih": "2026-08-18",
+            "faz": "FAZ 1 / B3 yeniden uretim (UYGULAMA-PLANI 1.5)",
+            "yeni_pasaj": "A16",
+            "eski_pasaj": "A09",
+            "eski_prompt": "Paragraph E",
+            "eski_cevap": [
+              "x"
+            ],
+            "neden_elendi": "Kalem A09 pasajina capaliydi; A09 artik tam deneme havuzuna ait ve alistirma sorularinda kullanilamiyor (PLAN-EK-kurallar 1: iki havuz ayri). Baslik listesi de A09'un anlati sirasina gore kuruldugu icin yeniden yazildi.",
+            "ne_degisti": "Kalem bastan yazildi ve A16'nin G paragrafina baglandi. Baslik 'sideways', 'deform', 'stance' gibi sozcukleri kullanmiyor; secim, yandaki kuvveti fore-aft kuvvetinden ayirmakla yapiliyor.",
+            "recete_sinamasi": "Baslik listesi paragraf sayisindan uzun tutuldu (5 paragraf / 8 baslik) ve fazladan uc baslik sorulmayan paragraflara demirlendi, boylece hicbir baslik elemeyle bulunamiyor. Liste sirasi paragraf sirasindan bagimsiz karistirildi; dogru cevaplar listede artan sirada degil."
           }
         },
         {
           "number": 10,
-          "prompt": "Paragraph F",
+          "prompt": "Paragraph I",
           "answer": [
-            "vi"
+            "iii"
           ],
-          "evidence": "Because these proteins are not associated with bone, ash or other materials likely to be found inside a skull, their presence strongly supports the conclusion that the glassy material genuinely originated from the man's brain and spinal cord rather than from some other source.",
+          "evidence": "Someone turning a corner, or moving considerably faster, may not behave as the runway suggests.",
           "evidence_locator": {
-            "paragraph": "F",
-            "sentence": 3
+            "paragraph": "I",
+            "sentence": null
           },
-          "heading_check": "F paragrafı yalnızca beyinde bulunan yedi proteinin saptanmasını anlatıyor ve bunları maddenin kaynağını belirlemekte kullanıyor. 'vi' hem kimyasal kanıtı hem de tek bir kaynağa işaret etmesini karşılıyor. En yakın çeldirici 'i' (maddenin kaynağına duyulan kuşku) — paragraf gerçekten 'başka bir kaynak' ihtimaline değiniyor, ama onu tartışmıyor, kapatıyor; kuşku değil kanıt paragrafı.",
+          "heading_check": "I paragrafi bulgularin nereye kadar uzandigini ciziyor: tek hiz, duz zemin, on bes metre ve deneycilerin sectigi ayakkabi. Viraj alan ya da cok daha hizli kosan biri bu sonuclarin disinda kaliyor. 'iii' bu ana fikri veriyor.",
+          "scan_note": "En yakin celdirici 'vi' (sokagin bu soruyu neden cevaplayamayacagi): I de laboratuvar ile gercek kosuyu karsi karsiya getiriyor, bu yuzden ayni konu sanilabilir. Ama 'vi' calismanin neden ice tasindigini anlatir (A paragrafi), 'iii' ise ice tasinmis calismanin disariya nereye kadar tasinabildigini. Ikinci celdirici 'v' — I'nin kapanis cumlesi de adimin gorunur bicimini degismez sayiyor, ama bu bir ozet cumlesi; olcumlerin kendisi E paragrafinda.",
           "feature_check": null,
           "grammar_check": null,
-          "explanation": "Paragraph F describes how detecting proteins found only in brain tissue confirmed the origin of the material.",
+          "explanation": "Paragraph I marks out the boundaries of the study: one speed, level ground, a short runway and shoes chosen by the experimenters, so runners cornering or moving much faster are outside what the results describe.",
           "difficulty": "hard",
           "status": "verified",
-          "blind_solvable": false
+          "blind_solvable": false,
+          "blind_basis": null,
+          "generated_by": "opus",
+          "yeniden_uretim": {
+            "tarih": "2026-08-18",
+            "faz": "FAZ 1 / B3 yeniden uretim (UYGULAMA-PLANI 1.5)",
+            "yeni_pasaj": "A16",
+            "eski_pasaj": "A09",
+            "eski_prompt": "Paragraph F",
+            "eski_cevap": [
+              "vi"
+            ],
+            "neden_elendi": "Kalem A09 pasajina capaliydi; A09 artik tam deneme havuzuna ait ve alistirma sorularinda kullanilamiyor (PLAN-EK-kurallar 1: iki havuz ayri). Baslik listesi de A09'un anlati sirasina gore kuruldugu icin yeniden yazildi.",
+            "ne_degisti": "Kalem bastan yazildi ve A16'nin I paragrafina baglandi. Pasajin son paragrafi oldugu icin listede 'sonuc' ya da 'oneri' tonlu bir baslik bulundurulmadi; 'iii' sinirlama iceriginin kendisini adlandiriyor.",
+            "recete_sinamasi": "Konum sinamasi: 'son paragraf = sonuc basligi' kestirmesinin isleyecegi bir baslik listede yok; ayrica listedeki kurulus tonlu baslik ('iv') sorulmayan B paragrafina demirli, boylece 'ilk paragraf = kurulus' kestirmesi de kapali."
+          }
         }
       ]
     },
     {
-      "group_id": "P-MH-03",
-      "passage_id": "A12",
-      "instructions": "Questions 11-15 refer to Passage A12 - Does a Nap Help You Remember as Well as a Night's Sleep?\n\nThe passage has EIGHT paragraphs, A-H.\n\nChoose the correct heading for paragraphs B-F from the list of headings below.\nWrite the correct number, i-x, in boxes 11-15 on your answer sheet.",
+      "group_id": "P-MH-A18",
+      "passage_id": "A18",
+      "instructions": "Questions 11-15 refer to Passage A18 - Naming a Species from a Short Piece of DNA\n\nThe passage has NINE paragraphs, A-I.\n\nChoose the correct heading for paragraphs C, D, E, F and G from the list of headings below.\nWrite the correct number, i-viii, in boxes 11-15 on your answer sheet.",
       "option_list": {
         "label": "List of Headings",
         "numbering": "roman",
         "options": [
           {
             "key": "i",
-            "text": "Two designs for the same question"
+            "text": "Better together than either alone"
           },
           {
             "key": "ii",
-            "text": "The internal make-up of the daytime naps"
+            "text": "Species too young to tell apart"
           },
           {
             "key": "iii",
-            "text": "A short daytime rest, and a pause before testing"
+            "text": "What the collection covers, and who is missing from it"
           },
           {
             "key": "iv",
-            "text": "An everyday habit, and an open question"
+            "text": "What the shortcut cannot replace"
           },
           {
             "key": "v",
-            "text": "What the length of the rest did not explain"
+            "text": "Deep divisions with two possible explanations"
           },
           {
             "key": "vi",
-            "text": "Practical advice for people who rely on naps"
+            "text": "How far apart two species have to be"
           },
           {
             "key": "vii",
-            "text": "Learning in the evening, recall in the morning"
+            "text": "Each entry, from museum drawer to database"
           },
           {
             "key": "viii",
-            "text": "Why some memories need a whole night"
-          },
-          {
-            "key": "ix",
-            "text": "A result that depended on the material"
-          },
-          {
-            "key": "x",
-            "text": "How often the volunteers usually slept in the day"
+            "text": "How often the method got it right"
           }
         ]
       },
-      "example": {
-        "key": "iv",
-        "target": "Paragraph A"
-      },
+      "example": null,
       "allow_repeat": false,
       "items": [
         {
           "number": 11,
-          "prompt": "Paragraph B",
+          "prompt": "Paragraph C",
           "answer": [
-            "i"
+            "iii"
           ],
-          "evidence": "The first experiment used a between-subjects design, meaning that different participants were assigned to a sleep group or a wake group, while the second used a within-subject design in which the same participants experienced both a nap and a period of wakefulness on different days, allowing more direct comparison.",
+          "evidence": "Seven resident species produced no usable sequence at all, and that gap is not random: six of the seven are classed as critically endangered, the rarest animals being both hardest to collect and the ones a library would serve best.",
           "evidence_locator": {
-            "paragraph": "B",
-            "sentence": 2
+            "paragraph": "C",
+            "sentence": null
           },
-          "heading_check": "B paragrafı iki deneyin **kuruluşunu** karşılaştırıyor: birinde farklı kişiler iki gruba ayrılıyor, ötekinde aynı kişiler her iki durumu da yaşıyor. 'i' bu ana fikri veriyor. En yakın çeldirici 'vii' (akşam öğrenip sabah hatırlama) — B genel olarak gece uykusu ile gündüz uykusunun karşılaştırıldığını söylüyor, ama saatleri ve sınama düzenini vermiyor; o ayrıntı C paragrafında.",
+          "heading_check": "C paragrafi bitmis derlemenin kapsamini veriyor: kac dizi, kac tur, yerlesik turlerin yuzde kaci, tur basina ortalama kac ornek — ve hemen ardindan disarida kalan yedi turu, cogunun en tehlike altindaki turler olmasiyla birlikte. 'iii' hem kapsami hem de bosluğu karsiliyor.",
+          "scan_note": "En yakin celdirici 'vii' (her kaydin muze cekmecesinden veri tabanina yolculugu): C sayilarla dolu oldugu icin kayitlarin nasil uretildigi burada saniliyor. Ama C tek bir islem adimi anlatmiyor; ornek secimi, bacagin alinmasi, cogaltma ve yukleme sirasi B paragrafinda. C uretimi degil, uretilmis olanin bilancosunu veriyor.",
           "feature_check": null,
           "grammar_check": null,
-          "explanation": "Paragraph B introduces two different experimental designs set up to test the same question.",
+          "explanation": "Paragraph C reports how much of the resident fauna the finished collection holds and which animals it lacks, noting that most of the missing ones are critically endangered.",
           "difficulty": "medium",
           "status": "verified",
           "blind_solvable": false,
           "blind_basis": null,
-          "flag_reason": "Baslik 'i', secenekler arasinda elemeyle bulunuyor: en yakin celdirici 'vii' (aksamdan sabaha hatirlama) konuca yakin duruyor ama paragraf saat ya da sinama ayrintisi vermiyor, yalniz iki deneyin farkli kisiler/ayni kisiler kurulusunu karsilastiriyor -- bu yuzden yalniz 'i' (ayni soru icin iki tasarim) ana fikri tam karsiliyor.",
-          "flag_mechanism": "konumsal_duzen",
-          "revision": {
-            "tarih": "2026-08-08",
-            "mekanizma": "konumsal_duzen",
-            "onceki_prompt": "Paragraph B",
-            "ne_degisti": "Baslik listesindeki iki olu harf yeniden yazildi (vi, viii). B paragrafinin rakibi artik iv ('An everyday habit, and an open question'), yani A paragrafinin gercek konusu; anlati sirasindan 'B = tasarim' diye okunmasi engellendi."
+          "generated_by": "opus",
+          "yeniden_uretim": {
+            "tarih": "2026-08-18",
+            "faz": "FAZ 1 / B3 yeniden uretim (UYGULAMA-PLANI 1.5)",
+            "yeni_pasaj": "A18",
+            "eski_pasaj": "A12",
+            "eski_prompt": "Paragraph B",
+            "eski_cevap": [
+              "i"
+            ],
+            "neden_elendi": "Kalem A12 pasajina capaliydi; A12 artik tam deneme havuzuna ait ve alistirma sorularinda kullanilamiyor (PLAN-EK-kurallar 1: iki havuz ayri). Ayrica kalem 'konumsal_duzen' ile isaretliydi: dogru baslik paragrafin metindeki sirasindan (girise giris, sona sonuc tonlu baslik) tahmin edilebiliyordu.",
+            "ne_degisti": "Kalem bastan yazildi ve A18'in C paragrafina baglandi. Baslik 'library', 'sequence', 'resident' gibi tarama sozcuklerini kullanmiyor ve paragrafin iki yarisini (kapsam + eksik kalanlar) birlikte adlandiriyor, boylece yarim oturan bir celdirici kalmiyor.",
+            "recete_sinamasi": "Baslik listesi paragraf sayisindan uzun tutuldu (5 paragraf / 8 baslik) ve fazladan uc baslik sorulmayan paragraflara demirlendi, boylece hicbir baslik elemeyle bulunamiyor. Liste sirasi paragraf sirasindan bagimsiz karistirildi; dogru cevaplar listede artan sirada degil."
           }
         },
         {
           "number": 12,
-          "prompt": "Paragraph C",
+          "prompt": "Paragraph D",
           "answer": [
-            "vii"
+            "vi"
           ],
-          "evidence": "The sleep group learned a list of word pairs at nine in the evening and were tested on their recall the following morning at nine, after a normal night's sleep.",
+          "evidence": "Identification rests on comparing two distances: the largest genetic difference among individuals of the same species, and the difference between that species and its nearest neighbour, the most similar species in the library.",
           "evidence_locator": {
-            "paragraph": "C",
-            "sentence": 2
+            "paragraph": "D",
+            "sentence": null
           },
-          "heading_check": "C paragrafı bir deneyin akışını saat saat veriyor: bir grup akşam öğrenip sabah sınanıyor, öteki grup sabah öğrenip akşam sınanıyor, arada on iki saat var. 'vii' bu düzeni karşılıyor. En yakın çeldirici 'i' (aynı soru için iki düzen) — burada da iki grup var, ama bunlar iki ayrı deney değil, tek deneyin iki kolu; kuruluşun karşılaştırılması B'nin işi.",
+          "heading_check": "D paragrafi yontemin dayandigi olcutu kuruyor: bir turun kendi icindeki en buyuk fark ile en yakin komsusuna olan fark karsilastiriliyor, ikincisi rahatca buyukse tanimlama guvenli oluyor. 'vi' bu olcutu — iki turun birbirinden ne kadar uzak olmasi gerektigini — adlandiriyor.",
+          "scan_note": "En yakin celdirici 'ii' (birbirinden ayirt edilemeyecek kadar genc turler): D'nin son cumlesi en yakin komsu uzakliginin sifira kadar inebildigini soyluyor, bu yuzden basarisiz durumlar burada saniliyor. Ama D bir olcut paragrafi; hangi turlerin bu olcutu saglayamadigi ve nedeni (yakin zamanda ayrilmis olmalari) F paragrafinda.",
           "feature_check": null,
           "grammar_check": null,
-          "explanation": "Paragraph C gives the detail of the experiment testing night-time sleep: one group learns in the evening and is tested in the morning, the other learns in the morning and is tested in the evening.",
+          "explanation": "Paragraph D sets out the rule the method depends on: the difference within a species has to be clearly smaller than the difference to the most similar species, and it gives the average and extreme figures for both.",
           "difficulty": "hard",
           "status": "verified",
-          "blind_solvable": false
+          "blind_solvable": false,
+          "blind_basis": null,
+          "generated_by": "opus",
+          "yeniden_uretim": {
+            "tarih": "2026-08-18",
+            "faz": "FAZ 1 / B3 yeniden uretim (UYGULAMA-PLANI 1.5)",
+            "yeni_pasaj": "A18",
+            "eski_pasaj": "A12",
+            "eski_prompt": "Paragraph C",
+            "eski_cevap": [
+              "vii"
+            ],
+            "neden_elendi": "Kalem A12 pasajina capaliydi; A12 artik tam deneme havuzuna ait ve alistirma sorularinda kullanilamiyor (PLAN-EK-kurallar 1: iki havuz ayri).",
+            "ne_degisti": "Kalem bastan yazildi ve A18'in D paragrafina baglandi. Baslikta 'distance', 'gap', 'nearest neighbour' gecmiyor; aday, paragrafin bir kural koydugunu, sonuc bildirmedigini gormek zorunda.",
+            "recete_sinamasi": "Baslik listesi paragraf sayisindan uzun tutuldu (5 paragraf / 8 baslik) ve fazladan uc baslik sorulmayan paragraflara demirlendi, boylece hicbir baslik elemeyle bulunamiyor. Liste sirasi paragraf sirasindan bagimsiz karistirildi; dogru cevaplar listede artan sirada degil."
+          }
         },
         {
           "number": 13,
-          "prompt": "Paragraph D",
+          "prompt": "Paragraph E",
           "answer": [
-            "iii"
+            "viii"
           ],
-          "evidence": "To reduce the grogginess that can follow a nap and distort test performance, all participants completed a 30-minute puzzle game before their final recall test.",
+          "evidence": "Counting both kinds together, the barcodes were diagnostic for 195 of the 217 resident species, a rate of 89.9 per cent.",
           "evidence_locator": {
-            "paragraph": "D",
-            "sentence": 3
+            "paragraph": "E",
+            "sentence": null
           },
-          "heading_check": "D paragrafı gündüz uykusunu sınayan deneyi anlatıyor: kısa bir uyku, beyin etkinliğinin kaydı ve son sınamadan önce konan ara. 'iii' ikisini birden karşılıyor. En yakın çeldirici 'vi' (bulmaca oyununun puanları nasıl değiştirdiği) — oyun bu paragrafta gerçekten geçiyor, ama bir ölçüm değil bir önlem; pasaj oyunun puanlara etkisini hiçbir yerde vermiyor.",
+          "heading_check": "E paragrafi tek bir soruyu cevapliyor: yontem kac turde dogru sonuc verdi? Temiz kume olusturan turler, tek diziyle temsil edilen turlerin sinanabilenleri ve ikisinin toplami veriliyor. 'viii' bu ana fikri karsiliyor.",
+          "scan_note": "En yakin celdirici 'i' (ikisi birlikte, her birinden iyi): E de iki grubu toplayarak bir oran cikardigi icin ve ayni yuzde 89,9 degeri yontemlerin birlestirildigi yerde yeniden gectigi icin oturuyor gorunuyor. Ama E'de toplanan sey iki tanimlama yontemi degil, ayni yontemin iki tur basari bicimi; barkod ile dis gorunusun birlikte kullanilmasi sorulmayan H paragrafinda.",
           "feature_check": null,
           "grammar_check": null,
-          "explanation": "Paragraph D describes the daytime nap experiment: a short nap or an equal period spent awake, followed by a break before the final test.",
-          "difficulty": "medium",
+          "explanation": "Paragraph E gives the success rate of the genetic method: the species that formed clean clusters plus the single-sequence species that still matched, adding up to just under ninety per cent.",
+          "difficulty": "hard",
           "status": "verified",
-          "blind_solvable": false
+          "blind_solvable": false,
+          "blind_basis": null,
+          "generated_by": "opus",
+          "yeniden_uretim": {
+            "tarih": "2026-08-18",
+            "faz": "FAZ 1 / B3 yeniden uretim (UYGULAMA-PLANI 1.5)",
+            "yeni_pasaj": "A18",
+            "eski_pasaj": "A12",
+            "eski_prompt": "Paragraph D",
+            "eski_cevap": [
+              "iii"
+            ],
+            "neden_elendi": "Kalem A12 pasajina capaliydi; A12 artik tam deneme havuzuna ait ve alistirma sorularinda kullanilamiyor (PLAN-EK-kurallar 1: iki havuz ayri).",
+            "ne_degisti": "Kalem bastan yazildi ve A18'in E paragrafina baglandi. Baslikta hicbir sayi ya da teknik terim yok; secim, E'deki toplamanin ne ile ne arasinda yapildigini ayirt etmeye dayaniyor.",
+            "recete_sinamasi": "Baslik listesi paragraf sayisindan uzun tutuldu (5 paragraf / 8 baslik) ve fazladan uc baslik sorulmayan paragraflara demirlendi, boylece hicbir baslik elemeyle bulunamiyor. Liste sirasi paragraf sirasindan bagimsiz karistirildi; dogru cevaplar listede artan sirada degil."
+          }
         },
         {
           "number": 14,
-          "prompt": "Paragraph E",
+          "prompt": "Paragraph F",
           "answer": [
-            "ix"
+            "ii"
           ],
-          "evidence": "The results revealed a clear difference depending on the type of material being remembered.",
+          "evidence": "Almost all are recently separated species, and where two populations parted company only a short time ago the gene has not had time to accumulate differences.",
           "evidence_locator": {
-            "paragraph": "E",
-            "sentence": 1
+            "paragraph": "F",
+            "sentence": null
           },
-          "heading_check": "E paragrafı sonucu tek bir ayrım üzerine kuruyor: anlamca bağlantılı çiftlerde gece uykusu açık ara önde, bağlantısız çiftlerde iki uyku eşit. 'ix' bu ana fikri, yani sonucun malzemenin türüne bağlı olmasını veriyor. En yakın çeldirici 'viii' (bazı çiftlerin neden daha zor öğrenildiği) — paragraf iki çift türünü karşılaştırıyor, ama öğrenme zorluğundan hiç söz etmiyor; ölçtüğü şey öğrenmenin değil, hatırlamanın uyku sonrası kazancı.",
+          "heading_check": "F paragrafi basarisizligin tek bir nedenini gosteriyor: diziler kendi kumesini olusturmuyor, yakin bir akrabaninkilerle ic ice geciyor; cunku bu turler yakin zamanda ayrilmis ve gen henuz fark biriktirememis. 'ii' bu ana fikri veriyor.",
+          "scan_note": "En yakin celdirici 'vi' (iki turun birbirinden ne kadar uzak olmasi gerektigi): F araligin kapanmasindan soz ettigi icin olcut paragrafi sanilabilir. Ama olcutu koyan D paragrafi; F o olcutun saglanmadigi durumlari ve nedenini anlatiyor. Ikinci celdirici 'v' (iki olasi aciklamayla derin ayrimlar) — o da tur icindeki farklardan soz eder, ama ters yonde: F'de fark az, 'v'de cok.",
           "feature_check": null,
           "grammar_check": null,
-          "explanation": "Paragraph E shows that the benefit of sleep depended on the type of material to be remembered: night-time sleep was superior for related pairs, but there was no difference for unrelated pairs.",
+          "explanation": "Paragraph F explains why one species in ten could not be identified: their sequences are mixed in with those of a close relative because the species separated too recently for differences to build up.",
           "difficulty": "medium",
           "status": "verified",
           "blind_solvable": false,
           "blind_basis": null,
-          "flag_reason": "Baslik 'ix', en yakin celdirici 'viii' (bazi ciftlerin neden zor ogrenildigi) elenerek bulunuyor: paragraf ogrenme zorlugundan degil, hatirlama kazanciminin malzeme turune gore degismesinden soz ediyor; bu ayrim yalniz 'ix'i (sonucun malzemeye bagli olmasi) dogru birakiyor.",
-          "flag_mechanism": "konumsal_duzen",
-          "revision": {
-            "tarih": "2026-08-08",
-            "mekanizma": "konumsal_duzen",
-            "onceki_prompt": "Paragraph E",
-            "ne_degisti": "Eski celdirici viii ('Why some pairs were harder to learn') pasajda hic karsiligi olmadigi icin okumadan eleniyordu; yerine G paragrafinin gercek savini tasiyan 'Why some memories need a whole night' kondu. E paragrafinin sonucunu aciklayan bu baslik artik gercek bir rakip."
+          "generated_by": "opus",
+          "yeniden_uretim": {
+            "tarih": "2026-08-18",
+            "faz": "FAZ 1 / B3 yeniden uretim (UYGULAMA-PLANI 1.5)",
+            "yeni_pasaj": "A18",
+            "eski_pasaj": "A12",
+            "eski_prompt": "Paragraph E",
+            "eski_cevap": [
+              "ix"
+            ],
+            "neden_elendi": "Kalem A12 pasajina capaliydi; A12 artik tam deneme havuzuna ait ve alistirma sorularinda kullanilamiyor (PLAN-EK-kurallar 1: iki havuz ayri). Ayrica kalem 'konumsal_duzen' ile isaretliydi: dogru baslik paragrafin metindeki sirasindan (girise giris, sona sonuc tonlu baslik) tahmin edilebiliyordu.",
+            "ne_degisti": "Kalem bastan yazildi ve A18'in F paragrafina baglandi. Baslik 'cluster', 'gap', 'barcode' gibi sozcukleri kullanmiyor ve nedeni (turlerin yakin zamanda ayrilmasi) baska sozcuklerle soyluyor.",
+            "recete_sinamasi": "Baslik listesi paragraf sayisindan uzun tutuldu (5 paragraf / 8 baslik) ve fazladan uc baslik sorulmayan paragraflara demirlendi, boylece hicbir baslik elemeyle bulunamiyor. Liste sirasi paragraf sirasindan bagimsiz karistirildi; dogru cevaplar listede artan sirada degil."
           }
         },
         {
           "number": 15,
-          "prompt": "Paragraph F",
+          "prompt": "Paragraph G",
           "answer": [
             "v"
           ],
-          "evidence": "Neither the exact length of a nap nor the particular stages of sleep it contained showed any significant relationship with how much memory improved, suggesting that simply having the opportunity to nap mattered more than its precise internal structure.",
+          "evidence": "Divergence on that scale normally means one of two things: either the name covers more than one species, or the populations sat out the ice ages in separate refuges long enough to drift apart while remaining one.",
           "evidence_locator": {
-            "paragraph": "F",
-            "sentence": 2
+            "paragraph": "G",
+            "sentence": null
           },
-          "heading_check": "F paragrafı bir olumsuz bulgu paragrafı: süre de, uykunun içindeki evreler de bellek kazancıyla ilişkili çıkmıyor. 'v' bu ana fikri veriyor. En yakın çeldirici 'ii' (gece uykusunu oluşturan evreler) — paragraf gerçekten hafif bir evreden ve derin uykuyla karşılaştırmadan söz ediyor, ama evreleri tanıtmıyor; söylediği şey bu evrelerin sonucu **açıklamadığı**.",
+          "heading_check": "G paragrafi ters yondeki sorunu anlatiyor: ayni turden sayilan bireyler birbirinden beklenmedik olcude farkli cikiyor, ve bu genislik iki bicimde okunabiliyor — ya ad birden fazla turu ortuyor ya da populasyonlar uzun sure ayri kalmis ama tek tur kalmis. 'v' hem derinligi hem de iki aciklamayi karsiliyor.",
+          "scan_note": "En yakin celdirici 'iv' (kestirmenin yerini alamayacagi is): G'nin son cumlesi yazarlarin karar vermeyi reddettigini, cunku bunun barkodun saglayamayacagi bir kanit istedigini soyluyor; bu, yontemin sinirlarini cizen baslikla ortusuyor gorunuyor. Ama yontemin nerede yetersiz kaldigi butun olarak sorulmayan I paragrafinda tartisiliyor; G tek bir oruntuyu ve onun iki okumasini veriyor.",
           "feature_check": null,
           "grammar_check": null,
-          "explanation": "Paragraph F states that neither the length of the daytime nap nor the stages it contained showed a significant relationship with the memory gain.",
+          "explanation": "Paragraph G describes the opposite failure — unusually large differences inside a single named species — and gives the two readings it allows, without choosing between them.",
           "difficulty": "hard",
-          "status": "flagged",
+          "status": "verified",
           "blind_solvable": false,
           "blind_basis": null,
-          "flag_reason": "E7 cevap anahtari olcumu (2026-08-08): kor cozum ii dedi, anahtar v. A12 F paragrafi icin ii ('The internal make-up of the daytime naps') ve v ('What the length of the rest did not explain') YALNIZ bu paragrafa demirleniyor ve ikisi de paragrafin birer yarisini kapsiyor (bilesim + sonucsuzluk). AC3/14'teki oruntuyle ayni: celdirici baska paragrafa demirli degil. ii'yi baska bir paragrafa baglanabilir bir ifadeyle degistirmek soruyu tartismasiz yapar.",
-          "flag_mechanism": "konumsal_duzen",
-          "revision": {
-            "tarih": "2026-08-08",
-            "mekanizma": "konumsal_duzen",
-            "onceki_prompt": "Paragraph F",
-            "ne_degisti": "Eski celdirici ii ('The stages that make up a night's sleep') paragrafin tanitmadigi bir konuyu adlandirdigi icin eleniyordu; yerine F paragrafinin ilk cumlesinin gercek icerigi ('The internal make-up of the daytime naps') kondu. Artik F'nin ilk cumlesi ile ana fikri iki ayri basliga karsilik geliyor, secim ancak paragrafin tamami okunarak yapilabiliyor."
+          "generated_by": "opus",
+          "yeniden_uretim": {
+            "tarih": "2026-08-18",
+            "faz": "FAZ 1 / B3 yeniden uretim (UYGULAMA-PLANI 1.5)",
+            "yeni_pasaj": "A18",
+            "eski_pasaj": "A12",
+            "eski_prompt": "Paragraph F",
+            "eski_cevap": [
+              "v"
+            ],
+            "neden_elendi": "Kalem A12 pasajina capaliydi; A12 artik tam deneme havuzuna ait ve alistirma sorularinda kullanilamiyor (PLAN-EK-kurallar 1: iki havuz ayri). Ayrica kalem 'konumsal_duzen' ile isaretliydi: dogru baslik paragrafin metindeki sirasindan (girise giris, sona sonuc tonlu baslik) tahmin edilebiliyordu.",
+            "ne_degisti": "Kalem bastan yazildi ve A18'in G paragrafina baglandi. Eski kalemde iki baslik paragrafin birer yarisini kapsiyordu (bilesim + sonucsuzluk) ve ikisi de baska paragrafa demirli degildi; yeni baslik paragrafin iki yarisini (derin ayrim + iki aciklama) tek basina topluyor, en yakin celdirici ise sorulmayan I paragrafina demirli.",
+            "recete_sinamasi": "Ters sinama: 'v' F paragrafina karsi ozellikle denendi — F'de tur ici fark az, G'de cok; ayni baslik ikisine birden oturmuyor."
           }
         }
       ]

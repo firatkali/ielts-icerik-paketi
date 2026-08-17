@@ -7,33 +7,33 @@
   "test_id": null,
   "practice": true,
   "question_type": "matching_features",
-  "generated_by": "fable",
+  "generated_by": "opus",
   "passage_id": null,
   "instructions": "Look at the statements in each set and the list of options given with that set. Match each statement with the correct letter and write it on your answer sheet.",
   "groups": [
     {
       "group_id": "P-MF-01",
-      "passage_id": "A10",
-      "instructions": "Questions 1-5 refer to Passage A10 - What Kind of Office Actually Works?\n\nLook at the following statements and the list of office layouts below.\n\nMatch each statement with the correct layout, A-D.\nWrite the correct letter, A-D, in boxes 1-5 on your answer sheet.\n\nNB You may use any letter more than once.",
+      "passage_id": "A13",
+      "instructions": "Questions 1-5 refer to Passage A13 - The Concrete That Mends Its Own Cracks\n\nLook at the following statements and the list of researchers below.\n\nMatch each statement with the correct researcher or team, A-D.\nWrite the correct letter, A-D, in boxes 1-5 on your answer sheet.\n\nNB You may use any letter more than once.",
       "option_list": {
-        "label": "List of Office Layouts",
+        "label": "List of Researchers",
         "numbering": "letter",
         "options": [
           {
             "key": "A",
-            "text": "the plain open-plan office used as the point of comparison"
+            "text": "Murugan and co-workers"
           },
           {
             "key": "B",
-            "text": "the zoned open-plan design"
+            "text": "Li and colleagues"
           },
           {
             "key": "C",
-            "text": "the activity-based design"
+            "text": "Stanaszek-Tomal"
           },
           {
             "key": "D",
-            "text": "the team-office design"
+            "text": "Lv and Chen"
           }
         ]
       },
@@ -42,158 +42,210 @@
       "items": [
         {
           "number": 1,
-          "prompt": "Of the four, this was the only design whose satisfaction and productivity scores came out below those of the layout used for comparison.",
+          "passage_id": "A13",
+          "prompt": "Each of this team's test pieces was taken to one of three set fractions of the load that would have destroyed it.",
           "answer": [
-            "C"
+            "B"
           ],
-          "evidence": "The activity-based design, despite its popularity in contemporary office trends, performed worse than the open-plan baseline on both measures, with satisfaction and productivity scores roughly 14 per cent lower.",
+          "evidence": "The researchers cast notched bars measuring 40 by 40 by 160 millimetres and loaded each specimen to 30, 60 or 100 per cent of the force needed to destroy it.",
           "evidence_locator": {
-            "paragraph": "D",
-            "sentence": 3
+            "paragraph": "C",
+            "sentence": 1
           },
           "heading_check": null,
-          "feature_check": "Karistirilabilecek oge A: 'en kotu duzen sade acik ofistir' kanisi disaridan hazir geldigi icin aday once oraya bakiyor -- oysa A olcumun kendisine gore yapildigi duzen, yani kendi altina dusmesi tanimsiz. B ve D de elenir: D/2 ikisini de karsilastirma duzeninin ustune koyuyor (memnuniyette yuzde 12 ve yuzde 8 daha yuksek). Iki olcumde birden altina dusen tek duzen D/3'te veriliyor ve o duzen, pasajin 'gunumuz ofis modasinda populer olmasina ragmen' diye andigi etkinlik temelli tasarim. Disaridan getirilen sezgi burada bilerek yanlis yone gidiyor.",
+          "feature_check": "Iddia tek bir ada baglaniyor: C paragrafi B paragrafinda tanitilan ekibin calismasini surduruyor, dolayisiyla centikli cubuklari doken ve her numuneyi kirilma yukunun 30, 60 ya da 100'de birine goturen ekip Li'nin ekibi. Metinde baska hicbir calisma numuneyi belirlenmis yuk oranlarina goturmuyor.",
           "grammar_check": null,
-          "explanation": "Paragraph D says the activity-based design performed worse than the open-plan baseline on both measures, with satisfaction and productivity scores roughly 14 per cent lower.",
+          "distractor_analysis": "Yuzeyden oturan rakip C: Stanaszek-Tomal da harc cubuklariyla calisiyor ve onlarin da dayanimini olcuyor, bu yuzden 'cubuklari yukleyen ekip' ifadesi ilk anda oraya kayiyor; ama o cubuklar belirlenmis yuk oranlarina goturulmuyor, 25 derecede ve yuzde 95 nemde 18 ay bekletiliyor ve olculen sey egilme dayanimindaki degisim. Ikinci rakip A: Murugan'in ekibi de derecelenmis bir seri kuruyor (0,1'den 0,5'e optik yogunluklar), yani 'uc ayri basamak' sezgisi oraya da oturuyor; fakat oradaki seri uygulanan yukun degil bakteri derisiminin serisi ve o calismada hic numune dokulmuyor. D elenir: Lv ve Chen hicbir sey dokmuyor, hesap yapiyor.",
+          "scan_note": "Ayni ekibin numuneleri B/2'de (kapsullerin macuna karistirilmasi) ve D/2'de (sudan cekilen disklerin tartilmasi) yeniden aniliyor; hasar duzeyleri C/3'te 'en hafif hasar' olarak tekrar geciyor. Cubuk sinamasi yapan oteki calisma H paragrafinda.",
+          "explanation": "Paragraph C says the notched bars were loaded to 30, 60 or 100 per cent of the force needed to destroy them, and Paragraph B shows that these specimens were cast by the team led by Li.",
           "difficulty": "medium",
-          "status": "flagged",
-          "blind_solvable": true,
-          "blind_basis": "general_knowledge",
+          "status": "verified",
+          "blind_solvable": false,
+          "blind_basis": null,
           "generated_by": "opus",
           "yeniden_uretim": {
-            "tarih": "2026-08-08",
-            "kaynak_prompt": "prompts/OPUS5-E6-yeniden-uretim.md (5/7)",
-            "uretilen_grup": "Cumle sonu esleystirme + ozellik esleystirme",
-            "eski_prompt": "Readings taken here showed sound going beyond the level regarded as safe more frequently than anywhere else.",
+            "tarih": "2026-08-18",
+            "faz": "FAZ 1 / B3 yeniden uretim (UYGULAMA-PLANI 1.5)",
+            "yeni_pasaj": "A13",
+            "eski_pasaj": "A10",
+            "eski_prompt": "Of the four, this was the only design whose satisfaction and productivity scores came out below those of the layout used for comparison.",
             "eski_cevap": [
-              "A"
+              "C"
             ],
-            "eski_kanit_cumlesi": "Noise levels in the open-plan office exceeded recommended safe limits between 20 and 30 per cent more often than in any of the alternative designs.",
-            "neden_elendi": "Sorunun ekseni ofis kulturu genel bilgisi: acik plan ofisin oteki duzenlerden daha gurultulu oldugu yaygin bir kani, soru da dort duzenden en gurultulusunu soruyor. Ifade nasil yazilirsa yazilsin cevap pasajdan degil bu kanidan cikiyor; kanit cumlesi (F/2) zaten yalniz 'hangisi en gurultuluydu' sorusunu destekliyor, baska bir eksene capalanamiyor.",
-            "ne_degisti": "Yuva bosaltilip ayni pasajdan yeni bir soruyla dolduruldu. Eski soru F/2'ye, gurultunun guvenli sinirini en cok asan duzene dayaniyordu; 'acik ofis en gurultuludur' yaygin kanisi cevabi pasajsiz veriyordu. Yeni kanit baska bir paragrafa (D/3) ve baska bir olcuye tasindi: iki anket olcumunde de karsilastirma duzeninin ALTINA dusen tek tasarim. Bu, disaridan beklenenin tersi bir bulgu oldugu icin genel kultur artik yanlis secenege (A) capalaniyor. Kip: ifade mutlak ('the only design')."
-          },
-          "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: general_knowledge. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md",
-          "flag_mechanism": "genel_kultur"
+            "neden_elendi": "Kanit cumlesi test havuzuna ait A10 pasajindaydi (PLAN-EK-kurallar 1); ayrica secenek listesi ofis duzenlerinden olustugu icin dunya bilgisi her ifadeye bir secenek onerebiliyordu.",
+            "ne_degisti": "Kalem bastan yazildi ve A13'e baglandi. Secenek sinifi ofis duzeninden ARASTIRMACI ADINA cevrildi: dort ad da kamuya mal olmus bir cagrisim tasimadigi icin dunya bilgisi hicbir secenege baglanamiyor. Ifade, hasarin uygulanma bicimine dayaniyor ve cevabi adlandiran hicbir sozcuk tasimiyor.",
+            "recete_sinamasi": "Ifade ve secenek listesi pasajsiz okundu: dort soyaddan hicbiri 'yuk orani' ile iliskilendirilemiyor, tek aday cikmiyor. GECTI."
+          }
         },
         {
           "number": 2,
-          "prompt": "Of the four arrangements, this one brought the largest rise in how much work staff believed they were getting done.",
-          "answer": [
-            "B"
-          ],
-          "evidence": "Compared with the open-plan baseline, the zoned open-plan layout produced 12 per cent higher satisfaction scores and 17 per cent higher perceived productivity, while the team-office design produced 8 per cent higher satisfaction and 10 per cent higher perceived productivity.",
-          "evidence_locator": {
-            "paragraph": "D",
-            "sentence": 2
-          },
-          "feature_check": "Karıştırılabilecek öğe D: takım ofisi de karşılaştırma düzenine göre algılanan üretkenliği artırıyor, dolayısıyla 'yükseldi' bilgisi tek başına ayırt etmiyor. Ayırt edici olan büyüklük: bölgelere ayrılmış açık ofiste yüzde 17, takım ofisinde yüzde 10. C zaten elenir, çünkü onun puanları karşılaştırma düzeninin altına düşüyor; A da elenir, ölçümün kendisi ona göre yapılıyor.",
-          "heading_check": null,
-          "grammar_check": null,
-          "explanation": "Paragraph D states that the largest rise in perceived productivity (17 per cent) was seen in the zoned open-plan office.",
-          "difficulty": "medium",
-          "status": "verified",
-          "blind_solvable": false
-        },
-        {
-          "number": 3,
-          "prompt": "Staff here were more content than in the layout used for comparison, but the gain fell short of what one of the other alternatives achieved.",
+          "passage_id": "A13",
+          "prompt": "Rather than making any test pieces at all, this team worked out by calculation how much repair liquid a break running at random through the material would receive over each unit of its surface.",
           "answer": [
             "D"
           ],
-          "evidence": "Compared with the open-plan baseline, the zoned open-plan layout produced 12 per cent higher satisfaction scores and 17 per cent higher perceived productivity, while the team-office design produced 8 per cent higher satisfaction and 10 per cent higher perceived productivity.",
-          "evidence_locator": {
-            "paragraph": "D",
-            "sentence": 2
-          },
-          "feature_check": "Karıştırılabilecek öğe B: iki düzen de memnuniyeti yükseltiyor, bu yüzden ifadenin ilk yarısı ikisine de uyuyor. Ayrım ikinci yarıda: 'bir başka seçeneğin ulaştığı artışın altında kalma' yalnızca yüzde 8'lik takım ofisi için doğru; yüzde 12 ile bölgelere ayrılmış açık ofis dördünün en yükseği, onun üstünde bir seçenek yok. C de yanlış olur, çünkü orada memnuniyet artmıyor, düşüyor.",
-          "heading_check": null,
-          "grammar_check": null,
-          "explanation": "According to Paragraph D, the team office raises satisfaction by 8 per cent; this falls short of the zoned open-plan office's 12 per cent rise.",
-          "difficulty": "hard",
-          "status": "verified",
-          "blind_solvable": false
-        },
-        {
-          "number": 4,
-          "prompt": "Employees working here said they were more deeply caught up in the task in front of them than in any other arrangement.",
-          "answer": [
-            "B"
-          ],
-          "evidence": "Employees in team offices reported flow scores 12 per cent higher than those in the open-plan condition, and employees in the zoned open-plan design reported flow scores 15 per cent higher, suggesting that both partly enclosed layouts allowed for more sustained concentration than either the fully open or the fully unassigned arrangement.",
+          "evidence": "Instead of casting specimens, they modelled a crack cutting at random through a capsule-seeded material and calculated how much liquid reached each unit of crack surface.",
           "evidence_locator": {
             "paragraph": "E",
             "sentence": 2
           },
-          "feature_check": "Karıştırılabilecek öğe D: cümlede önce takım ofisi geçiyor ve o da açık ofisten yüzde 12 yüksek çıkıyor; sırayı takip eden aday ilk gördüğü seçeneği işaretleyebilir. Ama aynı cümlenin devamı bölgelere ayrılmış açık ofis için yüzde 15 veriyor, yani en yüksek değer onda. A ve C elenir: cümlenin sonu, kısmen kapalı iki düzenin hem tamamen açık hem de sabit masası olmayan düzenden daha sürekli bir odaklanma sağladığını söylüyor.",
           "heading_check": null,
+          "feature_check": "Iddia tek bir ada baglaniyor: E paragrafi, hic numune dokmeden rastgele bir catlagi modelleyen ve birim catlak yuzeyine ulasan sivi miktarini hesaplayan tek calismayi Lv ve Chen'e veriyor. Oteki uc calismanin hepsinde fiziksel numune ya da canli kultur var.",
           "grammar_check": null,
-          "explanation": "Paragraph E shows that the layout with the highest flow scores, at 15 per cent, was the zoned open-plan office.",
-          "difficulty": "hard",
+          "distractor_analysis": "Yuzeyden oturan rakip B: ayni onarim gövdeleri ve ayni kirik yuzeyler once Li'nin ekibinde anlatildigi icin 'catlaga ulasan sivi' ifadesi dogal olarak oraya cekiyor; ayrim, o ekibin centikli cubuk dokmesi ve disk tartmasi, yani tam olarak ifadenin disladigi seyi yapmasi. Ikinci rakip A: Murugan'in ekibi de bir miktari (litrede olusan cokelti) hesaplayip raporluyor, 'hesap yapan ekip' okumasi oraya da oturuyor; ama o olcum bir besiyerinde yapiliyor, catlak yuzeyi diye bir sey yok. C elenir: orada 18 ay boyunca gercek harc cubuklari izleniyor.",
+          "scan_note": "Ayni ekibin isi E/1'de (catlagin bir kapsule rastlayip rastlamamasinin geometri sorunu olmasi), E/3'te (hacim ve hacim orani sabit tutularak sekil degistirme) ve E/5'te (sekil tek basina hicbir seyi belirlemez duzeltmesi) devam ediyor. Numune dokerek calisan ekipler B, C ve H'de.",
+          "explanation": "Paragraph E says that instead of casting specimens, Lv and Chen modelled a crack cutting at random through a capsule-seeded material and calculated how much liquid reached each unit of crack surface.",
+          "difficulty": "medium",
           "status": "verified",
-          "blind_solvable": false
+          "blind_solvable": false,
+          "blind_basis": null,
+          "generated_by": "opus",
+          "yeniden_uretim": {
+            "tarih": "2026-08-18",
+            "faz": "FAZ 1 / B3 yeniden uretim (UYGULAMA-PLANI 1.5)",
+            "yeni_pasaj": "A13",
+            "eski_pasaj": "A10",
+            "eski_prompt": "Of the four arrangements, this one brought the largest rise in how much work staff believed they were getting done.",
+            "eski_cevap": [
+              "B"
+            ],
+            "neden_elendi": "Kanit cumlesi test havuzuna ait A10 pasajindaydi (PLAN-EK-kurallar 1); ayrica bu kalem, kanit cumlesini bir sonraki kalemle paylasiyordu (A10 D/2'de iki soru), bu da kanit cumlesi basina en cok bir soru kuralini ciğniyordu.",
+            "ne_degisti": "Kalem bastan yazildi ve A13'e baglandi. Kendi kanit cumlesini aldi (E/2) ve ekseni 'en yuksek yuzde hangisinde' karsilastirmasindan yontem farkina tasindi: numune doken ekiplerle hesapla calisan ekibin ayrimi. Boylece ne sayi siralamasi ne de secenek adi ipucu veriyor.",
+            "recete_sinamasi": "Ifade ve secenek listesi pasajsiz okundu: dort soyaddan hangisinin numune dokmedigi disaridan bilinemiyor; iki adli secenegin 'kuramci' oldugu sezgisi dayanaksiz. GECTI."
+          }
         },
         {
-          "number": 5,
-          "prompt": "Its part-enclosed spaces were screened by panels that absorbed sound rather than by doors.",
+          "number": 3,
+          "passage_id": "A13",
+          "prompt": "This team set two quantities of the same repair agent against each other and found that using twice as much did not bring twice the gain.",
           "answer": [
-            "D"
+            "B"
           ],
-          "evidence": "Using a Latin square design, in which every team eventually experienced every condition but in a different order, the teams rotated through four distinct office layouts, each for a two-week period: a conventional open-plan office with minimal separation between desks, acting as the baseline; a zoned open-plan design with soundproof doors dividing spaces into rooms holding no more than 40 people; an activity-based design offering unassigned desks alongside dedicated focus rooms and collaboration areas; and a team-office design with large, partly enclosed cubicles seating four to six people behind sound-absorbing panels.",
+          "evidence": "Doubling the capsule content did not double the benefit.",
           "evidence_locator": {
-            "paragraph": "B",
-            "sentence": 2
+            "paragraph": "C",
+            "sentence": 4
           },
           "heading_check": null,
-          "feature_check": "Karistirilabilecek oge B: secenek adlarindan gidildiginde sezgi iki yone birden calisiyor -- 'zoned' sozcugu bolmeyi ve kapiyi, 'team office' sozcugu ise kabini ve paneli cagristiriyor, yani ad duzeyinde ayirt edici bir ipucu yok. Ayrim yalniz B/2'de: ses yalitimli KAPILAR bolgelere ayrilmis acik ofiste, sesi EMEN PANELLER takim ofisinde. A elenir, cunku karsilastirma duzeninde masalar arasinda neredeyse hic ayirici yok; C de elenir, orada sabit masa yerine serbest masa, ayri odaklanma odalari ve ortak calisma alanlari var, panelli kabin degil.",
+          "feature_check": "Iddia tek bir ada baglaniyor: iki miktarin karsilastirilmasi B/4'te ('cimentonun kutlesinin yuzde biri ve yuzde ikisi') yalniz Li'nin ekibi icin kuruluyor ve iki katina cikarmanin faydayi ikiye katlamadigi sonucu C/4'te ayni ekip icin veriliyor. Metinde baska hicbir calisma ayni maddenin iki miktarini karsilastirmiyor.",
           "grammar_check": null,
-          "explanation": "Paragraph B describes the team-office design as large, partly enclosed cubicles seating four to six people behind sound-absorbing panels, whereas the zoned open-plan design is divided by soundproof doors.",
+          "distractor_analysis": "Yuzeyden oturan rakip A: Murugan'in ekibi de 'daha cok her zaman daha iyi degil' bicimindeki ayni sonucu bildiriyor (G/4: yuksek derisimler ham hizi artiriyor ama hucre basina verimi artirmiyor), ustelik kendi kendini onaran betonla ilgili disaridan gelen bilgi de bakteri tarafina yakin durdugu icin ifade oraya cok kolay kayiyor. Ayrim sayidadir: orada bes ayri kultur ve surekli bir derisim araligi var, burada ise tam olarak IKI miktar ve bunlarin faydasinin karsilastirilmasi. Ikinci rakip D: Lv ve Chen de iki bicimi (kure ve uzatilmis govde) karsilastiriyor, dolayisiyla 'ikili karsilastirma' oraya da oturuyor; ama orada degisen miktar degil sekil, hacim bilerek sabit tutuluyor. C elenir: orada eklenen recinenin tek bir orani (yuzde bes) var, karsilastirma yok.",
+          "scan_note": "Ayni doz tartismasi B/4'te (iki dozun tanitilmasi), C/3'te (en iyi sonucun dusuk dozdan gelmesi) ve D/4'te (agir dozun daha cok su almasi) suruyor; miktar-verim iliskisi G/4'te bakteriler icin, I/4'te ise butun calismalar icin yeniden ele aliniyor.",
+          "explanation": "Paragraph C, reporting on Li's mixes, says that doubling the capsule content did not double the benefit, and Paragraph B says the two doses compared were one and two per cent of the mass of the cement.",
           "difficulty": "hard",
           "status": "verified",
           "blind_solvable": false,
           "blind_basis": null,
           "generated_by": "opus",
           "yeniden_uretim": {
-            "tarih": "2026-08-08",
-            "kaynak_prompt": "prompts/OPUS5-E6-yeniden-uretim.md (5/7)",
-            "uretilen_grup": "Cumle sonu esleystirme + ozellik esleystirme",
-            "eski_prompt": "Once people had tried the alternatives, this was the arrangement they appeared least willing to go back to.",
+            "tarih": "2026-08-18",
+            "faz": "FAZ 1 / B3 yeniden uretim (UYGULAMA-PLANI 1.5)",
+            "yeni_pasaj": "A13",
+            "eski_pasaj": "A10",
+            "eski_prompt": "Staff here were more content than in the layout used for comparison, but the gain fell short of what one of the other alternatives achieved.",
             "eski_cevap": [
-              "A"
+              "D"
             ],
-            "eski_kanit_cumlesi": "Taken together, the researchers concluded that the open-plan office design, so often adopted as a cost-effective default, was rated more poorly by employees than every alternative tested, coincided with higher unsafe noise levels, and was the layout employees seemed least inclined to return to once they had experienced something else.",
-            "neden_elendi": "Sorunun ekseni yine acik plan ofis hakkindaki yaygin kani: calisanlarin en az geri donmek istedigi duzenin sade acik ofis olmasi beklenen sonuc. Kanit cumlesi (H/1) uc bulguyu birlikte veren bir ozet cumlesi ve ucu de ayni duzeni gosteriyor, yani ifadeyi baska bir ayrintiya tasimak da mumkun degil.",
-            "ne_degisti": "Yuva bosaltilip ayni pasajdan yeni bir soruyla dolduruldu. Eski soru H/1'e, 'calisanlarin en az geri donmek istedigi duzen' bulgusuna dayaniyordu; bu da acik ofis hakkindaki yaygin kaniyla birebir ortustugu icin pasajsiz cevaplanabiliyordu. Yeni kanit sonuc paragrafindan cikip yontem paragrafina (B/2) tasindi ve eksen bulgu degil, duzenin fiziksel tarifi oldu: kapi mi, ses emici panel mi. Iki secenek arasindaki bu ayrim disaridan bilinemez, cunku hangi tasarimin hangi engeli kullandigi keyfi bir tercih. Kip: ifade olculu-notr, mutlaklik tasimiyor."
+            "neden_elendi": "Kanit cumlesi test havuzuna ait A10 pasajindaydi (PLAN-EK-kurallar 1) ve bu kalem kanit cumlesini bir onceki kalemle paylasiyordu (A10 D/2'de iki soru).",
+            "ne_degisti": "Kalem bastan yazildi ve A13'e baglandi. Kendi kanit cumlesini aldi (C/4). Ifade artik bir siralama sorusu degil, bir doz-fayda iliskisi; 'daha cok daha iyi degildir' sezgisi metinde iki ayri calismaya birden oturdugu icin ayrim yalniz kac miktarin karsilastirildigini okumakla yapilabiliyor.",
+            "recete_sinamasi": "Ifade ve secenek listesi pasajsiz okundu: dort soyaddan hicbiri doz karsilastirmasiyla iliskilendirilemiyor. Kismi disaridan bilgiyle (kendi kendini onaran beton = bakteri) A'ya gidiliyor, yani yanlis secenege. GECTI."
+          }
+        },
+        {
+          "number": 4,
+          "passage_id": "A13",
+          "prompt": "This work is held up as a reminder that an agent which is alive will pursue purposes of its own.",
+          "answer": [
+            "C"
+          ],
+          "evidence": "Capsules act once, and only where a crack cuts them; bacteria can act repeatedly, but only while they remain alive and fed; and the fungal results are a reminder that a biological agent has an agenda of its own.",
+          "evidence_locator": {
+            "paragraph": "I",
+            "sentence": 2
+          },
+          "heading_check": null,
+          "feature_check": "Iddia tek bir ada baglaniyor: kapanis paragrafi ayni cumlede uc yaklasimi ayri ayri niteliyor ve 'kendi gundemi olan bir biyolojik etken' uyarisini yalnizca kuf sonuclarina veriyor. Kuf calismasi H paragrafinda Stanaszek-Tomal'a ait, dolayisiyla iddia tek bir ada oturuyor.",
+          "grammar_check": null,
+          "distractor_analysis": "GENEL KULTUR BURADA YANLIS SECENEGE CAPALANDI. Yuzeyden oturan rakip A: kendi kendini onaran beton hakkinda disaridan gelen bilgi neredeyse tumuyle bakteriyle ilgilidir, bu yuzden 'canli etken' diyen her ifade sezgisel olarak bakteri ekibine, yani Murugan'a gider. Metin bunu bilerek karsiliyor: ayni cumlede bakterilere BASKA bir nitelik veriliyor (tekrar tekrar is gorebilirler, ama yalniz canli ve beslenmis kaldiklari surece), 'kendi gundemi var' uyarisi ise kuf calismasina ayriliyor. Dolayisiyla dunya bilgisiyle secen aday A'yi isaretler ve yanilir. Ikinci rakip B: 'etken' sozcugu Li'nin onarim maddesini de karsilar, ama kapsuller canli degil, ustelik ayni cumle onlari 'yalniz bir kez ve yalniz catlagin kestigi yerde is gorur' diye niteliyor. D elenir: orada hicbir canli etken yok, yalnizca geometri hesabi var.",
+          "scan_note": "Ayni kuf calismasinin ayrintilari H/1-H/5'te: yuzde bes recine iceren harc cubuklari, iki yaygin kufun sporlari, 18 ay, once yuzde 35-40 dayanim artisi sonra yuzde 21-27 kayip. Bakterilerin nasil calistigi F ve G paragraflarinda, kapsullerin bir kez is gormesi B ve C'de.",
+          "explanation": "Paragraph I says the fungal results are the reminder that a biological agent has an agenda of its own, and Paragraph H attributes the fungal study to Stanaszek-Tomal.",
+          "difficulty": "hard",
+          "status": "verified",
+          "blind_solvable": false,
+          "blind_basis": null,
+          "generated_by": "opus",
+          "yeniden_uretim": {
+            "tarih": "2026-08-18",
+            "faz": "FAZ 1 / B3 yeniden uretim (UYGULAMA-PLANI 1.5)",
+            "yeni_pasaj": "A13",
+            "eski_pasaj": "A10",
+            "eski_prompt": "Employees working here said they were more deeply caught up in the task in front of them than in any other arrangement.",
+            "eski_cevap": [
+              "B"
+            ],
+            "neden_elendi": "Kanit cumlesi test havuzuna ait A10 pasajindaydi (PLAN-EK-kurallar 1); ayrica ifade 'hangisinde en yuksek' kalibindaydi ve secenek adlari (acik / bolgeli / etkinlik temelli / takim) disaridan gelen ofis kanilarina acik kapi birakiyordu.",
+            "ne_degisti": "Kalem bastan yazildi ve A13'e baglandi. Bu kalem, E6 recetesinin uygulandigi yer: dunya bilgisi ('kendi kendini onaran beton demek bakteri demek') bilerek YANLIS secenege, A'ya capalandi; dogru eslesme metnin kendi ayrimindan, kapanis cumlesinin kufe ayirdigi uyaridan cikiyor.",
+            "recete_sinamasi": "Ifade ve secenek listesi pasajsiz okundu: disaridan gelen tek sezgi bakteriye, yani A'ya goturuyor; dogru cevap C oldugu icin sezgi eleyici degil, aldatici. GECTI."
+          }
+        },
+        {
+          "number": 5,
+          "passage_id": "A13",
+          "prompt": "One measured property barely moved in any of this team's mixes, which the authors put down to its belonging to the whole test piece rather than to the thin band where mending happens.",
+          "answer": [
+            "B"
+          ],
+          "evidence": "Stiffness barely moved in any mix, which the authors attribute to its being a property of the whole specimen rather than of the narrow healing zone.",
+          "evidence_locator": {
+            "paragraph": "C",
+            "sentence": 5
+          },
+          "heading_check": null,
+          "feature_check": "Iddia tek bir ada baglaniyor: butun-parca ayrimina dayanan bu gerekce C/5'te, yani B paragrafinda tanitilan Li ekibinin karisimlarini anlatan paragrafta veriliyor ve 'the authors' o calismanin yazarlarina isaret ediyor. Metinde baska hicbir yerde degismeyen bir ozellik bu bicimde aciklanmiyor.",
+          "grammar_check": null,
+          "distractor_analysis": "Yuzeyden oturan rakip D: kucuk bir onarim govdesinin butun malzeme icindeki payini tartisan tek calisma Lv ve Chen'inki oldugu icin 'butune mi parcaya mi ait' akil yurutmesi ilk anda onlara benziyor; ama onlar hicbir numune dokmedikleri icin herhangi bir numune ozelligini olcmus de degiller, oraya hicbir 'neredeyse hic degismedi' bulgusu baglanamaz. Ikinci rakip C: Stanaszek-Tomal da bir dayanim ozelligini uzun sure izliyor, dolayisiyla 'olculen ozellik' ifadesi oraya da oturuyor; fakat orada ozellik hic de yerinde durmuyor, once yuzde 35-40 yukseliyor sonra yuzde 21-27 geri veriliyor. A elenir: orada olculen sey bir numunenin ozelligi degil, bir kulturun cokelti uretme hizi.",
+          "scan_note": "Ayni ekibin oteki olcumleri C/3'te (dayanim geri kazanimi) ve D/2-D/4'te (su emme hizinin yavaslamasi) veriliyor; dayanimin zaman icinde degismesi H/3 ve H/4'te baska bir calisma icin anlatiliyor.",
+          "explanation": "Paragraph C says stiffness barely moved in any mix, which the authors attribute to its being a property of the whole specimen rather than of the narrow healing zone; Paragraph B identifies these mixes as Li's.",
+          "difficulty": "hard",
+          "status": "verified",
+          "blind_solvable": false,
+          "blind_basis": null,
+          "generated_by": "opus",
+          "yeniden_uretim": {
+            "tarih": "2026-08-18",
+            "faz": "FAZ 1 / B3 yeniden uretim (UYGULAMA-PLANI 1.5)",
+            "yeni_pasaj": "A13",
+            "eski_pasaj": "A10",
+            "eski_prompt": "Its part-enclosed spaces were screened by panels that absorbed sound rather than by doors.",
+            "eski_cevap": [
+              "D"
+            ],
+            "neden_elendi": "Kanit cumlesi test havuzuna ait A10 pasajindaydi (PLAN-EK-kurallar 1); alistirma havuzu ile test havuzu ayrildigi icin kalemin yeniden yazilmasi gerekti.",
+            "ne_degisti": "Kalem bastan yazildi ve A13'e baglandi. Ifade fiziksel bir tarif olmaktan cikip bir aciklama bicimine dayandirildi: degismeyen bir olcumun neden degismedigi. Cevabi adlandiran hicbir sozcuk yok; ayrim, numune olcen ekiple hesap yapan ekip arasindaki farkin okunmasini gerektiriyor.",
+            "recete_sinamasi": "Ifade ve secenek listesi pasajsiz okundu: hangi soyadin numune olctugu disaridan bilinemiyor, dort secenek de esit derecede acik. GECTI."
           }
         }
       ]
     },
     {
       "group_id": "P-MF-02",
-      "passage_id": "G05",
-      "instructions": "Questions 6-10 refer to Passage G05 - What Ends Up in the Rubbish: A Household Food Waste Study\n\nLook at the following statements and the list of food and drink types below.\n\nMatch each statement with the correct type, A-E.\nWrite the correct letter, A-E, in boxes 6-10 on your answer sheet.\n\nNB You may use any letter more than once.",
+      "passage_id": "G07",
+      "instructions": "Questions 6-10 refer to Passage G07 - What Houseplants Really Do to the Air Indoors\n\nLook at the following statements and the list of research teams below.\n\nMatch each statement with the correct team, A-C.\nWrite the correct letter, A-C, in boxes 6-10 on your answer sheet.\n\nNB You may use any letter more than once.",
       "option_list": {
-        "label": "List of Food and Drink Types",
+        "label": "List of Research Teams",
         "numbering": "letter",
         "options": [
           {
             "key": "A",
-            "text": "rice and other cereals"
+            "text": "Fukumoto and colleagues"
           },
           {
             "key": "B",
-            "text": "vegetables"
+            "text": "Chen and colleagues"
           },
           {
             "key": "C",
-            "text": "bread"
-          },
-          {
-            "key": "D",
-            "text": "meat, fish and eggs"
-          },
-          {
-            "key": "E",
-            "text": "coffee and tea"
+            "text": "Jiang and colleagues"
           }
         ]
       },
@@ -202,115 +254,187 @@
       "items": [
         {
           "number": 6,
-          "prompt": "By weight, households got rid of more of this than of anything else they could still have eaten.",
-          "answer": [
-            "A"
-          ],
-          "evidence": "Rice and other cereals accounted for the single largest share of edible waste, at nearly 17 kilograms per person annually, with vegetables close behind.",
-          "evidence_locator": {
-            "paragraph": "E",
-            "sentence": 1
-          },
-          "feature_check": "Karıştırılabilecek öğe B: aynı cümle sebzeleri hemen arkada gösteriyor ve pasajın başka yerlerinde sebzeler tahıllarla birlikte anılıyor, bu yüzden ikisi de akla yakın duruyor. Ama 'en büyük tek pay' açıkça pirinç ve tahıllara veriliyor; sebzeler ikinci sırada. D ve E elenir: bunların ağırlıkları çok daha küçük, içecekler kişi başına yarım kilonun altında.",
-          "heading_check": null,
-          "grammar_check": null,
-          "explanation": "Paragraph E says that the largest single share of edible waste, at nearly 17 kilograms per person annually, belonged to rice and other cereals, with vegetables close behind.",
-          "difficulty": "medium",
-          "status": "verified",
-          "blind_solvable": false
-        },
-        {
-          "number": 7,
-          "prompt": "What was thrown out in this group was lost mainly because the food no longer felt as it should.",
-          "answer": [
-            "D"
-          ],
-          "evidence": "Spoilage and mould accounted for most losses of rice, vegetables, bread and packaged goods; changes in texture explained much of the waste among meat, fish, eggs, tofu and tempeh; and short shelf life was blamed for bread in particular.",
-          "evidence_locator": {
-            "paragraph": "G",
-            "sentence": 2
-          },
-          "feature_check": "Karıştırılabilecek öğe A ve B: aynı cümle onların da neden atıldığını veriyor, dolayısıyla 'bozulma' ile 'dokunun değişmesi' birbirine karışabilir. Ama cümle bu iki nedeni ayrı ayrı ve farklı yiyeceklere bağlıyor: küflenme pirinç, sebze, ekmek ve paketli ürünler için; dokudaki değişme ise et, balık, yumurta ve soya ürünleri için. C de elenir, ekmeğin kendi nedeni cümlenin sonunda ayrıca veriliyor.",
-          "heading_check": null,
-          "grammar_check": null,
-          "explanation": "Paragraph G states that changes in texture explained most of the waste in products such as meat, fish and eggs.",
-          "difficulty": "medium",
-          "status": "verified",
-          "blind_solvable": false
-        },
-        {
-          "number": 8,
-          "prompt": "This one was named on its own as being thrown away because it stayed usable for only a short while.",
+          "passage_id": "G07",
+          "prompt": "This team found that crowding a space with far more greenery left both its warmth and the amount of one gas in it essentially where they had been.",
           "answer": [
             "C"
           ],
-          "evidence": "Spoilage and mould accounted for most losses of rice, vegetables, bread and packaged goods; changes in texture explained much of the waste among meat, fish, eggs, tofu and tempeh; and short shelf life was blamed for bread in particular.",
+          "evidence": "Neither the air temperature nor the carbon dioxide concentration differed meaningfully between the bare offices and the crowded ones.",
           "evidence_locator": {
-            "paragraph": "G",
+            "paragraph": "D",
             "sentence": 2
           },
-          "feature_check": "Karıştırılabilecek öğe D: et ve balık da çabuk bozulan ürünler olduğu için 'kısa süre dayanma' onlara da yakışıyor. Ama pasaj bu nedeni tek bir ürüne, ekmeğe bağlıyor ve bunu 'özellikle' diyerek ayırıyor; et ve balık için verdiği neden dokudaki değişiklik. A ve B elenir: onların nedeni küflenme olarak veriliyor.",
           "heading_check": null,
+          "feature_check": "Iddia tek bir ada baglaniyor: sicaklik ve karbondioksit yalnizca B paragrafinda tanitilan uc ofislik denemede olculuyor ve o deneme Jiang'in ekibine ait. Oteki iki calismada ne sicaklik ne de bir gaz olculuyor, dolayisiyla bu bulgu baska bir ada baglanamaz.",
           "grammar_check": null,
-          "explanation": "The final part of Paragraph G says that short shelf life was the reason given specifically for bread.",
+          "distractor_analysis": "Yuzeyden oturan rakip B: 'bitkiler hicbir seyi degistirmedi' ifadesi Chen'in ekibine cok yakisiyor, cunku H paragrafinda tam olarak bu soyleniyor (disari havasi kullanildiginda bitkiler artik guvenilir bicimde hicbir seyi dusurmuyor); ayrim olculen seyde: orada olculen parcacik sayisi, burada sicaklik ve bir gaz. Ustelik oradaki ortam kalabalik bir oda degil, tek bitkilik kapali bir kutu. Ikinci rakip A: Fukumoto'nun ekibi de 'hicbir fark cikmadi' turunden bir sonuc bildiriyor (dogruluk ve tepki sureleri uc odada da ayni), bu yuzden 'degismedi' kalibi oraya da oturuyor; ama orada olculen sey havanin degil insanlarin performansi.",
+          "scan_note": "Ayni sonucun ozeti D/1'de ('The other two measures refused to move'), gerekcesi D/3'te; degisen tek olcum olan nem C paragrafinda; bitkilerin hicbir seyi dusurmedigi oteki durum H/1 ve H/2'de.",
+          "explanation": "Paragraph D says that neither the air temperature nor the carbon dioxide concentration differed meaningfully between the bare offices and the crowded ones; Paragraph B identifies this office trial as the one run by Jiang's team.",
           "difficulty": "medium",
           "status": "verified",
-          "blind_solvable": false
-        },
-        {
-          "number": 9,
-          "prompt": "The record kept for this group covered fewer days than the method used for the others.",
-          "answer": [
-            "E"
-          ],
-          "evidence": "Discarded drinks were tracked separately: participants kept a seven-day diary noting the type and amount of any beverage poured away.",
-          "evidence_locator": {
-            "paragraph": "B",
-            "sentence": 2
-          },
-          "feature_check": "Eski ifade olcum turunu ('tartilmak yerine yazili gunluk') soruyordu; bes kategori icinde tek sivi olan E bu turu pasaja bakmadan da ustune cekiyordu. Yeni ifade olcumun SURESINI soruyor: kati atik sekiz gun boyunca toplanip tartiliyor, icecek gunlugu yedi gun tutuluyor. Kategorinin sivi olmasi bu farki vermiyor; A, B, C ve D ancak B/1'deki sekiz gun okunarak elenebiliyor.",
-          "heading_check": null,
-          "grammar_check": null,
-          "explanation": "Paragraph B says solid food waste was collected and weighed over eight consecutive days, while discarded drinks were recorded in a seven-day diary.",
-          "difficulty": "medium",
-          "status": "flagged",
-          "blind_solvable": true,
-          "blind_basis": "logic",
-          "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: logic. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md",
-          "flag_mechanism": "konumsal_duzen",
-          "revision": {
-            "tarih": "2026-08-08",
-            "mekanizma": "konumsal_duzen",
-            "onceki_prompt": "Households kept a written record of what they threw out in this group instead of it being weighed from their bins.",
-            "ne_degisti": "Ifade, olcum yonteminden (gunluk / tarti) olcum suresine (yedi gune karsi sekiz gun) tasindi. Boylece 'bes secenek icinde tek icecek hangisiyse odur' kestirmesi kapandi; cevap artik B paragrafindaki iki sayiyi karsilastirmayi gerektiriyor."
+          "blind_solvable": false,
+          "blind_basis": null,
+          "generated_by": "opus",
+          "yeniden_uretim": {
+            "tarih": "2026-08-18",
+            "faz": "FAZ 1 / B3 yeniden uretim (UYGULAMA-PLANI 1.5)",
+            "yeni_pasaj": "G07",
+            "eski_pasaj": "G05",
+            "eski_prompt": "By weight, households got rid of more of this than of anything else they could still have eaten.",
+            "eski_cevap": [
+              "A"
+            ],
+            "neden_elendi": "Kanit cumlesi test havuzuna ait G05 pasajindaydi (PLAN-EK-kurallar 1); ayrica secenek listesi yiyecek turlerinden olustugu icin 'en cok atilan yiyecek hangisidir' sorusu disaridan gelen mutfak sezgisine acikti.",
+            "ne_degisti": "Kalem bastan yazildi ve G07'ye baglandi. Secenek sinifi yiyecek turunden ARASTIRMA EKIBI ADINA cevrildi; uc soyad da kamuya mal olmus bir cagrisim tasimadigi icin dunya bilgisi hicbir secenege baglanamiyor. Ifade, hangi olcumlerin yerinde kaldigini okumayi gerektiriyor.",
+            "recete_sinamasi": "Ifade ve secenek listesi pasajsiz okundu: uc soyaddan hicbiri sicaklik ya da gaz olcumuyle iliskilendirilemiyor. GECTI."
           }
         },
         {
-          "number": 10,
-          "prompt": "The commonest reason for getting rid of this was that more had been prepared than anyone wanted to finish.",
+          "number": 7,
+          "passage_id": "G07",
+          "prompt": "Ten minutes were allowed to pass after each subject had been shut in before this team recorded anything.",
           "answer": [
-            "E"
+            "B"
           ],
-          "evidence": "Beverages made up a smaller but still measurable part of the total: households poured away an average of 0.3 kilograms of coffee and 0.2 kilograms of tea per person each year, most often because a pot or cup had been made larger than anyone actually wanted to finish.",
+          "evidence": "After a plant was sealed in, the team waited ten minutes before recording anything, so that the air inside had time to settle.",
           "evidence_locator": {
-            "paragraph": "F",
-            "sentence": 1
+            "paragraph": "E",
+            "sentence": 4
           },
-          "feature_check": "Karistirilabilecek oge A: G paragrafi 'bir ailenin yiyebileceginden cok pirinc ya da yan yemek pisirmeyi' de yaygin nedenler arasinda sayiyor, dolayisiyla asiri hazirlama ifadesi artik pirince de uyuyor. Ayrim 'commonest' sozcugunde: G/2 pirincin kayiplarinin cogunu bozulma ve kuflenmeye baglar, F/1 ise kahve ve cay icin en sik nedenin fazla demlenmis olmasi oldugunu soyler. B, C ve D icin verilen nedenler bozulma, raf omru ve doku degisimi.",
           "heading_check": null,
+          "feature_check": "Iddia tek bir ada baglaniyor: kapali bir hacme tek bir denegi kapatip once beklemek yalnizca E paragrafindaki kutu duzeneginde geciyor ve o duzenek Chen'in ekibine ait. Oteki iki calismada kapatilan bir sey yok, dolayisiyla 'kapatildiktan sonra beklendi' baska bir ada oturmuyor.",
           "grammar_check": null,
-          "explanation": "Paragraph F says coffee and tea were most often poured away because a pot or cup had been made larger than anyone actually wanted to finish.",
+          "distractor_analysis": "Yuzeyden oturan rakip A: Fukumoto'nun ekibinde de olcumden once gecen belirli bir sure var, uc odanin her birinde bes dakika, bu yuzden 'kayda gecmeden once bir sure beklendi' ifadesi oraya cok kolay kayiyor; ayrim iki yerde: sure on dakika degil bes dakika ve bekleyen sey bir odada oturan insanlar, kapatilmis bir denek degil. Ikinci rakip C: Jiang'in ekibinin de bir olcum duzeni var (her ofis uc kez, sensorler yerden 0,8 metre yukarida), yani 'olcum protokolu' cagrisimi oraya da oturuyor; ama orada kapali bir hacim yok, olcum surekli ve ofis kullanimda.",
+          "scan_note": "Ayni duzenegin oteki ayrintilari E/2'de (her kenari bir metre olan kutu, iceride tek bitki) ve E/3'te (bes turun dort yasindaki fidanlari, uc ayri parcacik derisimi); ayni kutularin disari havasiyla yeniden kullanilmasi H/1'de.",
+          "explanation": "Paragraph E says that after a plant was sealed in, Chen's team waited ten minutes before recording anything so that the air inside had time to settle.",
+          "difficulty": "medium",
+          "status": "verified",
+          "blind_solvable": false,
+          "blind_basis": null,
+          "generated_by": "opus",
+          "yeniden_uretim": {
+            "tarih": "2026-08-18",
+            "faz": "FAZ 1 / B3 yeniden uretim (UYGULAMA-PLANI 1.5)",
+            "yeni_pasaj": "G07",
+            "eski_pasaj": "G05",
+            "eski_prompt": "What was thrown out in this group was lost mainly because the food no longer felt as it should.",
+            "eski_cevap": [
+              "D"
+            ],
+            "neden_elendi": "Kanit cumlesi test havuzuna ait G05 pasajindaydi (PLAN-EK-kurallar 1); ayrica bu kalem kanit cumlesini bir sonraki kalemle paylasiyordu (G05 G/2'de iki soru), bu da kanit cumlesi basina en cok bir soru kuralini ciğniyordu.",
+            "ne_degisti": "Kalem bastan yazildi ve G07'ye baglandi. Kendi kanit cumlesini aldi (E/4). Ifade 'hangi yiyecek' sorusundan bir yontem ayrintisina tasindi; cevap ancak hangi ekibin denegini kapali bir hacme koydugu okunarak bulunabiliyor.",
+            "recete_sinamasi": "Ifade ve secenek listesi pasajsiz okundu: uc soyaddan hangisinin kapali duzenek kullandigi disaridan bilinemiyor. GECTI."
+          }
+        },
+        {
+          "number": 8,
+          "passage_id": "G07",
+          "prompt": "Because every reading this team took was collected while it was light, its work can say nothing about what happens after dark.",
+          "answer": [
+            "C"
+          ],
+          "evidence": "Because the readings were collected only in daylight hours, when the plants were most active, the trial says nothing about the night.",
+          "evidence_locator": {
+            "paragraph": "D",
+            "sentence": 4
+          },
+          "heading_check": null,
+          "feature_check": "Iddia tek bir ada baglaniyor: gunduz saatleriyle sinirli olma ve bu yuzden gece hakkinda hicbir sey soyleyememe kaydi yalnizca D paragrafinda, yani B paragrafinda tanitilan Jiang ekibinin ofis denemesi icin veriliyor. Oteki iki calisma icin boyle bir sinirlama metinde hic yazmiyor.",
+          "grammar_check": null,
+          "distractor_analysis": "Yuzeyden oturan rakip B: gun icindeki saati anan tek yer Chen'in ekibinin disari havasiyla yaptigi kosu (sabah sekiz ve aksam alti), bu yuzden 'saat / gunun bolumu' cagrisimini tasiyan aday dogrudan oraya gidiyor; ama o iki okuma tam da gunun iki ucunu kapsiyor ve o calisma icin gunduzle sinirli olma diye bir kayit dusulmuyor. Ikinci rakip A: Fukumoto'nun ekibinin oturumlari da kisa ve sinirli (her odada bes dakika), dolayisiyla 'sinirli kapsam' okumasi oraya da oturuyor; ama oradaki sinir sure uzunlugu, gunun hangi saatinde olculdugu degil.",
+          "scan_note": "Ayni denemenin oteki sinirlari ve kosullari B/4'te (klimanin bastan sona kapali tutulmasi) ve B/5'te (sensorlerin yerden 0,8 metre yukarida durmasi); saat belirten tek baska yer H/2.",
+          "explanation": "Paragraph D says the readings were collected only in daylight hours, when the plants were most active, so the trial says nothing about the night.",
+          "difficulty": "medium",
+          "status": "verified",
+          "blind_solvable": false,
+          "blind_basis": null,
+          "generated_by": "opus",
+          "yeniden_uretim": {
+            "tarih": "2026-08-18",
+            "faz": "FAZ 1 / B3 yeniden uretim (UYGULAMA-PLANI 1.5)",
+            "yeni_pasaj": "G07",
+            "eski_pasaj": "G05",
+            "eski_prompt": "This one was named on its own as being thrown away because it stayed usable for only a short while.",
+            "eski_cevap": [
+              "C"
+            ],
+            "neden_elendi": "Kanit cumlesi test havuzuna ait G05 pasajindaydi (PLAN-EK-kurallar 1) ve bu kalem kanit cumlesini bir onceki kalemle paylasiyordu (G05 G/2'de iki soru).",
+            "ne_degisti": "Kalem bastan yazildi ve G07'ye baglandi. Kendi kanit cumlesini aldi (D/4). Ifade bir yiyecegin raf omrunden bir calismanin kapsam sinirina tasindi; 'ekmek cabuk bayatlar' turunden disaridan gelen bilgi artik hicbir ise yaramiyor, cunku secenekler arastirma ekibi.",
+            "recete_sinamasi": "Ifade ve secenek listesi pasajsiz okundu: hangi ekibin yalniz gunduz olctugu disaridan bilinemiyor; uc secenek de esit derecede acik. GECTI."
+          }
+        },
+        {
+          "number": 9,
+          "passage_id": "G07",
+          "prompt": "The closing paragraph lets one of this team's findings stand: a well-chosen arrangement may make a room feel calmer to sit in.",
+          "answer": [
+            "A"
+          ],
+          "evidence": "A generous number of plants will make a dry room noticeably less dry, and a well-chosen arrangement may make it feel calmer to sit in.",
+          "evidence_locator": {
+            "paragraph": "J",
+            "sentence": 2
+          },
+          "heading_check": null,
+          "feature_check": "Iddia tek bir ada baglaniyor: kapanis cumlesi ayakta kalan iki sonucu yan yana koyuyor ve bunlardan 'odanin daha sakin hissettirmesi' yalnizca I paragrafindaki ruh hali bulgusuna, yani Fukumoto'nun ekibine karsilik geliyor. Oteki iki calismada insanlarin nasil hissettigi hic olculmuyor.",
+          "grammar_check": null,
+          "distractor_analysis": "Yuzeyden oturan rakip C: ayni cumlenin ilk yarisi ayakta kalan oteki sonucu, kuru bir odanin belirgin bicimde daha az kuru olmasini soyluyor ve o da Jiang'in ekibine ait; cumlenin tamamina bakan aday iki yarisi arasinda secim yapmak zorunda, ayrim 'sit in / feel' yariminin oda havasini degil odada oturan insani anlatmasinda. Ikinci rakip B: kapanis paragrafi Chen'in ekibinin isini de aniyor, ama ayakta birakmak icin degil, tam tersine sinirlandirmak icin ('kapali bir kutuda bir yapragin yakaladigi sey, icinde insan yasayan bir eve kotu bir kilavuzdur'), dolayisiyla ona ait ayakta kalan bir sonuc yok.",
+          "scan_note": "Ayni ruh hali bulgusunun ayrintisi I/3'te (Japon duzenlemesinin cıplak odadan ve tropik duzenlemeden daha az olumsuz duygu uretmesi, ama hicbirinin olumlu duyguyu yukseltmemesi); kuruluk bulgusu C/2 ve C/3'te; kapanis paragrafinin sinirlama cumlesi J/3'te.",
+          "explanation": "The second sentence of Paragraph J keeps two results: that plenty of plants make a dry room less dry, which comes from the office trial, and that a well-chosen arrangement may make a room feel calmer, which is the mood result reported in Paragraph I for Fukumoto's team.",
           "difficulty": "hard",
           "status": "verified",
           "blind_solvable": false,
           "blind_basis": null,
-          "flag_reason": "Cevap E, secenek metninde 'demlenen/doldurulan miktarin fazla gelmesi' gerekcesi yalnizca iceceklere ozgu; oteki dort secenek bozulma, raf omru ya da doku degisimi gibi kati yiyeceklere ozgu nedenlerle anlatiliyor, bu yuzden secenek metninin kendisi elemeyi sagliyor.",
-          "flag_mechanism": "konumsal_duzen",
-          "revision": {
-            "tarih": "2026-08-08",
-            "mekanizma": "konumsal_duzen",
-            "onceki_prompt": "The usual reason for getting rid of this was that a larger amount had been made than anyone wanted to drink.",
-            "ne_degisti": "Ifadeden 'icmek' fiili cikarildi. Eski metin ('anyone wanted to drink') kategoriyi dogrudan soyluyordu; yeni metin yalniz 'gereginden fazla hazirlama' diyor, bu da pasajda hem pirinc hem icecekler icin geciyor. Cevap artik hangi kategoride bu nedenin EN SIK oldugunu okumayi gerektiriyor."
+          "generated_by": "opus",
+          "yeniden_uretim": {
+            "tarih": "2026-08-18",
+            "faz": "FAZ 1 / B3 yeniden uretim (UYGULAMA-PLANI 1.5)",
+            "yeni_pasaj": "G07",
+            "eski_pasaj": "G05",
+            "eski_prompt": "The record kept for this group covered fewer days than the method used for the others.",
+            "eski_cevap": [
+              "E"
+            ],
+            "neden_elendi": "E7 parcasiz olcumde uc turun ucunde de pasaj olmadan bilindi (dayanak: logic, mekanizma: konumsal_duzen): bes yiyecek seceneginin icinde tek sivi olan grup, farkli bir kayit yontemi anlatan her ifadeyi ustune cekiyordu. Kanit cumlesi ayrica test havuzuna ait G05 pasajindaydi.",
+            "ne_degisti": "Kalem bastan yazildi ve G07'ye baglandi. Secenekler artik ayni sinifin uc uyesi (uc arastirma ekibi) oldugu icin 'digerlerine benzemeyen tek uye' kestirmesi kapandi. Ifade, ayni kanit cumlesinin iki yarisi arasinda secim yapmayi gerektiriyor: ayni cumle iki ayri ekibe iki ayri sonuc yaziyor.",
+            "recete_sinamasi": "Ifade ve secenek listesi pasajsiz okundu: uc ekipten hicbiri 'sakinlik' ile disaridan iliskilendirilemiyor; ustelik ayni cumlede rakip bir ekip daha var. GECTI."
+          }
+        },
+        {
+          "number": 10,
+          "passage_id": "G07",
+          "prompt": "This team accounted for one of its flat results by pointing out that a single person at work gives off the gas far faster than a few pots of leaves can take it in.",
+          "answer": [
+            "C"
+          ],
+          "evidence": "Photosynthesis does take up carbon dioxide, but a person working in a small room releases it far faster than a few pots of leaves can absorb it, and in a building of this standard whatever they take up is quickly diluted by ventilation.",
+          "evidence_locator": {
+            "paragraph": "D",
+            "sentence": 3
+          },
+          "heading_check": null,
+          "feature_check": "Iddia tek bir ada baglaniyor: odada calisan bir insanin gazi bitkilerden hizli saliverdigi gerekcesi, D paragrafinda yalnizca Jiang ekibinin degismeyen karbondioksit okumasini aciklamak icin veriliyor. Oteki iki calismada ne bir gaz olculuyor ne de odada calisan biri var.",
+          "grammar_check": null,
+          "distractor_analysis": "Yuzeyden oturan rakip B: beklenmedik bir sonucu aciklamak icin gerekce sunan oteki ekip Chen'inki (H/3: gur bir bitki kucuk bir hacimdeki havayi yavaslatiyor, parcaciklar gecip gitmek yerine oyalaniyor), bu yuzden 'sonucunu aciklamak zorunda kalan ekip' ifadesi oraya da oturuyor; ayrim, oradaki aciklamanin bir gazla ve odadaki insanla degil, kutu icinde oyalanan parcaciklarla ilgili olmasi. Ikinci rakip A: Fukumoto'nun ekibinde de degismeyen bir sonuc var (uc odada da ayni dogruluk ve tepki suresi), ama o sonuc icin metin bir gerekce vermiyor ve orada olculen sey hava degil insan.",
+          "scan_note": "Ayni gerekcenin devami D/3'un sonunda (bu standarttaki bir binada alinan seyin havalandirmayla hemen seyreltilmesi) ve B/4'te (klimanin kapali tutulmasi, cunku calisan bir sistem bitkilerin etkisini gomerdi); Chen ekibinin kendi aciklamasi H/3'te.",
+          "explanation": "Paragraph D explains the unchanged carbon dioxide reading by saying that a person working in a small room releases it far faster than a few pots of leaves can absorb it, and that in a building of this standard whatever they take up is quickly diluted by ventilation.",
+          "difficulty": "hard",
+          "status": "verified",
+          "blind_solvable": false,
+          "blind_basis": null,
+          "generated_by": "opus",
+          "yeniden_uretim": {
+            "tarih": "2026-08-18",
+            "faz": "FAZ 1 / B3 yeniden uretim (UYGULAMA-PLANI 1.5)",
+            "yeni_pasaj": "G07",
+            "eski_pasaj": "G05",
+            "eski_prompt": "The commonest reason for getting rid of this was that more had been prepared than anyone wanted to finish.",
+            "eski_cevap": [
+              "E"
+            ],
+            "neden_elendi": "Isaretli kalemdi (mekanizma: konumsal_duzen): 'fazla hazirlanmis olmasi' gerekcesi yalnizca iceceklere yakisiyordu, oteki dort secenek bozulma, raf omru ve doku degisimi gibi kati yiyecege ozgu nedenlerle anlatildigi icin secenek metninin kendisi elemeyi sagliyordu. Kanit cumlesi ayrica test havuzuna ait G05 pasajindaydi.",
+            "ne_degisti": "Kalem bastan yazildi ve G07'ye baglandi. Secenekler ayni sinifin uc uyesi oldugu icin 'tek farkli uye' kestirmesi kapandi; ustelik bu kez rakip secenek de aciklama sunan bir ekip, yani ifade iki ekibe birden yuzeyden oturuyor ve ayrim ancak neyin olculdugunu okumakla yapilabiliyor.",
+            "recete_sinamasi": "Ifade ve secenek listesi pasajsiz okundu: 'sonucunu aciklayan ekip' ifadesi uc secenekten ikisine esit derecede oturuyor, tek aday cikmiyor. GECTI."
           }
         }
       ]

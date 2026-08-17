@@ -8,731 +8,740 @@
   "practice": true,
   "passage_id": null,
   "question_type": "multiple_choice",
-  "generated_by": "fable",
+  "generated_by": "opus",
   "instructions": "Choose the correct letter, A, B, C or D.\nWrite the correct letter in boxes 1-15 on your answer sheet.\n\nWhere a question covers two boxes, choose TWO letters, A-G.\nWrite the correct letters in those two boxes on your answer sheet.",
-  "stem_block": "Questions 1-4 refer to Passage A02 - How Octopuses Tell Friend from Stranger\nQuestions 5-8 refer to Passage A05 - The Wheat That Was Ahead of Its Time\nQuestions 9-12 refer to Passage A08 - An Earthquake Writes Its Story Across a Glacier\nQuestions 13-15 refer to Passage A11 - Why a Walk in a Snowy Forest Calms the Mind",
+  "stem_block": "Questions 1-4 refer to Passage A13 - The Concrete That Mends Its Own Cracks\nQuestions 5-8 refer to Passage A14 - The Data That Never Arrived\nQuestions 9-12 refer to Passage A16 - What Changes When the Ground Gets Harder\nQuestions 13-15 refer to Passage A17 - What Settles First on a Surface Under Water",
   "items": [
     {
       "number": 1,
-      "passage_id": "A02",
+      "passage_id": "A13",
       "select_count": 1,
-      "prompt": "What does the writer say about the sixty octopuses collected for the study?",
+      "prompt": "What does the writer say about the way the cultures were compared?",
       "options": [
         {
           "letter": "A",
-          "text": "Their weights varied by roughly a factor of ten."
+          "text": "The strength of the concrete made with each culture was measured."
         },
         {
           "letter": "B",
-          "text": "Some of them weighed less than 100 grams."
+          "text": "The number of bacterial cells still alive at the end of each run was counted."
         },
         {
           "letter": "C",
-          "text": "Each tank was shared by four of the animals."
+          "text": "The speed at which each culture turned the medium solid was followed."
         },
         {
           "letter": "D",
-          "text": "Males made up more than two thirds of the whole sample."
+          "text": "A different species of bacterium was grown at each of the densities."
         }
       ],
       "answer": [
-        "D"
+        "C"
       ],
-      "evidence": "Individual octopuses ranged from 114 to 324 grams, and the sample of sixty animals included forty-two males and eighteen females.",
+      "evidence": "Murugan and co-workers cultured the same species at optical densities from 0.1 to 0.5 and tracked how quickly each culture turned the medium into solid carbonate.",
       "evidence_locator": {
-        "paragraph": "B",
+        "paragraph": "G",
         "sentence": 2
       },
       "distractor_analysis": {
-        "A": "Kapsam kaydirma -- B/2 agirlik araligini 114 ile 324 gram arasinda veriyor; en agir hayvan en hafifin yaklasik uc kati, on kati degil.",
-        "B": "Yakin ama eksik -- araligin alt ucu 114 gram, yani yuz gramin altinda tek bir ornek bile yok. Sinira yakin oldugu icin akla yatkin goruyor.",
-        "C": "Yer degistirme -- B/3 her ciftin kendi tankinda barindirildigini soyluyor, yani tank basina iki hayvan; dortlu gruplardan soz edilmiyor."
+        "A": "Yer degistirme -- genel kulturun capalandigi secenek: kendi kendini onaran beton anlatisinda beklenen olcut dayanimdir, ustelik pasajin baska yerlerinde (C/3 egilme dayanimi, H/3 egilmede guclenme) gercekten dayanim olculuyor. Murugan denemesinde olculen sey dayanim degil, coktelmenin hizi.",
+        "B": "Cazip ama yok -- canli hucre sayimi mikrobiyoloji calismasi icin akla ilk gelen olcum; metinde boyle bir sayim hic gecmiyor, yogunluk optik olarak veriliyor.",
+        "D": "Ters yon -- butun yogunluklarda AYNI tur kullaniliyor; secenek denemenin tek degiskenini turlestirerek tersine ceviriyor."
       },
-      "explanation": "Paragraph B says the sample of sixty animals included forty-two males and eighteen females, so males accounted for more than two thirds of the total.",
+      "scan_note": "Kanit G/2. Ayni konunun oteki gecisleri: G/1 ne kadar bakteri eklenecegi sorusu, G/3 en verimli yogunluk ve sureler (bu cumle cumle tamamlama paketinin 5. kalemine ait, dokunulmadi), G/4 daha yuksek yogunlugun etkisi (bu paketin 2. kalemi). Karbonat coktelmesinin kimyasi F/2-4'te.",
+      "explanation": "Paragraph G says that Murugan and co-workers cultured the same species at a range of optical densities and tracked how quickly each culture turned the medium into solid carbonate.",
       "difficulty": "medium",
       "status": "verified",
       "blind_solvable": false,
       "blind_basis": null,
       "generated_by": "opus",
       "yeniden_uretim": {
-        "tarih": "2026-08-08",
-        "kaynak_prompt": "prompts/OPUS5-E6-yeniden-uretim.md (4/7)",
-        "uretilen_grup": "Coktan secmeli - alistirma",
-        "eski_prompt": "How were the octopuses matched into pairs?",
+        "tarih": "2026-08-18",
+        "faz": "FAZ 1 / B3 yeniden uretim (UYGULAMA-PLANI 1.5)",
+        "yeni_pasaj": "A13",
+        "eski_pasaj": "A02",
+        "eski_prompt": "What does the writer say about the sixty octopuses collected for the study?",
         "eski_cevap": [
-          "B"
+          "D"
         ],
-        "eski_kanit_cumlesi": "The researchers collected sixty octopuses from the Bay of Naples over two summer seasons and formed twenty-four pairs, each matched so that the two animals differed in weight by no more than fifteen per cent.",
-        "neden_elendi": "Sorunun ekseni deney tasarimi genel bilgisi: hayvan deneylerinde deneklerin agirliga gore eslestirilmesi pasajdan bagimsiz bilinen standart bir uygulama. Cinsiyet, toplanma mevsimi ve komsuluk daha az tipik olcutler oldugu icin secenekler nasil yazilirsa yazilsin agirlik en olasi cevap kalir; kip dengelemesi ya da celdirici capalamasi bunu kapatmaz.",
-        "ne_degisti": "Yuva bosaltilip ayni pasajdan yeni bir soruyla dolduruldu. Eski soru B/1'e dayaniyordu: ahtapotlarin ciftlere nasil eslestirildigi. Hayvan deneylerinde deneklerin agirliga gore eslestirilmesi yontem bilgisinin kendisi oldugu icin 'agirlikca yakin' cevabi pasajsiz da cikiyordu. Yeni soru o cumleye hic degmiyor: kanit B/2'ye, orneklemin bilesimine tasindi. Kirk iki erkek ile on sekiz disi keyfi bir dagilim -- yabani yakalanan bir ahtapot orneklemi icin disaridan beklenen bir oran yok, cunku dengeli bir dagilim da esit olculude makuldu. Uc celdirici de ayni cumlenin sayilarini ya da B/3'un barindirma duzenini tersine ceviriyor; ustelik B secenegi ('yuz gramin altinda olanlar') gercek alt sinira bilerek yakin yazildi ki 'buyuk yuvarlak sayiyi sec' sezgisi yanlisa gitsin. Kip dengesi icin dogru secenek mutlak ('the whole sample'), iki celdirici olculu ('roughly', 'some') yazildi."
+        "neden_elendi": "Kanit cumlesi artik alistirma havuzuna ait olmayan A02 pasajina aitti (test havuzu sizintisi).",
+        "ne_degisti": "Kalem bastan yazildi ve A13'un G paragrafina baglandi. ILK capa G/3'tu; paketler arasi tarama o cumlenin cumle tamamlama paketinin 5. kalemince de kullanildigini gosterince (bir kanit cumlesine bir soru kurali, daha kisitli tip kalir) kalem G/2'ye kaydirildi ve bastan yazildi. Yeni dogru cevap denemenin kendi olcutu: coktelme hizi. Genel kultur ('beton calismasinda dayanim olculur' -- ustelik pasajin baska yerlerinde gercekten olculuyor) A secenegine capalandi ve yanlis. Konumsal duzen icin dogru harf C korundu; en uzun secenek B, yani yanlis.",
+        "recete_sinamasi": "Kok ve secenekler yeniden, metinsiz okundu: bir beton-bakteri denemesi icin dort olcut de makul, hatta dunya bilgisiyle en beklenen olan A. Tek aday cikmadi. GECTI."
       }
     },
     {
       "number": 2,
-      "passage_id": "A02",
+      "passage_id": "A13",
       "select_count": 1,
-      "prompt": "In the three days before the octopuses met, the researchers were trying to find out",
+      "prompt": "What does the writer say about using still denser cultures?",
       "options": [
         {
           "letter": "A",
-          "text": "whether seeing a partner, with no other contact, would matter later on."
+          "text": "They raised the speed of the reaction without improving output per cell."
         },
         {
           "letter": "B",
-          "text": "whether one steady water temperature removed differences between tanks."
+          "text": "They raised output per cell without changing the speed of the reaction."
         },
         {
           "letter": "C",
-          "text": "which animal in each pair would win most of its encounters."
+          "text": "They slowed the reaction down once a certain density of cells had been passed."
         },
         {
           "letter": "D",
-          "text": "whether water-borne chemical cues on their own would be enough."
+          "text": "They gave the highest yield of any density tested."
         }
       ],
       "answer": [
         "A"
       ],
-      "evidence": "This stage let the researchers ask whether visual exposure alone, before any physical encounter, was enough to influence later behaviour.",
+      "evidence": "Higher concentrations raised the raw rate but not the yield per cell.",
       "evidence_locator": {
-        "paragraph": "C",
+        "paragraph": "G",
         "sentence": 4
       },
       "distractor_analysis": {
-        "B": "Yer degistirme -- suyun sabit 24 derecede tutulmasi gercek bir tasarim kararidir ve amaci B paragrafinda veriliyor: davranis degisikligi cevre farkina degil hayvanlarin birbirini yasamasina baglanabilsin diye. Ama bu, barindirma duzeninin amaci; uc gunluk evrenin degil.",
-        "C": "Yer degistirme -- ustunluk siralamasi gercekten olculuyor (D/1, guclu hayvan etkilesimlerin ortalama yuzde 76'sini kazaniyor), ama bu birlikte yasama evresinde, hayvanlar bulustuktan sonra.",
-        "D": "Yakin ama eksik -- kimyasal ipuclarinin tek basina ne yaptigi tam olarak sinanmayan sey: su hatlari bilerek tamamen ayri tutuluyor, yani bu evrede koku disarida birakiliyor. Secenek sinanan duyunun yerine sinanmayani koyuyor."
+        "B": "Ters yon -- A secenegiyle bilerek ayna simetrisinde yazildi: hiz ile hucre basina verim yer degistiriyor. Iki secenek de ayni olcude 'incelikli' gorundugu icin, pasaji okumamis bir aday ikisi arasinda hicbir gerekce bulamaz.",
+        "C": "Cazip ama yok -- bir esikten sonra yavaslama metinde hic gecmiyor; doygunluk sezgisi tasidigi icin akla yatkin goruyor.",
+        "D": "Yer degistirme -- en verimli sonucu araligin ortasi veriyor (G/3, optik yogunluk 0.4); secenek en yuksek yogunlugu en iyi sonuca bagliyor, yani 'daha cok bakteri daha iyidir' genel sezgisini yanlisa capaliyor."
       },
-      "explanation": "Paragraph C says the animals spent three days either side of a transparent divider, able to see but not touch or smell one another, and that this stage let the researchers ask whether visual exposure alone was enough to influence later behaviour.",
-      "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_basis": "logic",
-      "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: logic. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md",
-      "flag_mechanism": "konumsal_duzen",
-      "revision": {
-        "tarih": "2026-08-08",
-        "mekanizma": "konumsal_duzen",
-        "onceki_prompt": "What was the purpose of the three days before the animals met?",
-        "onceki_secenekler": {
-          "A": "To see whether sight alone could shape later behaviour.",
-          "B": "To let the animals recover from being caught.",
-          "C": "To establish which animal in each pair was stronger.",
-          "D": "To test whether smell by itself mattered."
-        },
-        "ne_degisti": "Celdiriciler soru kokunun cercevesine tasindi: dorttu de artik pasajda gercekten anlatilan bir arastirma amaci (sabit sicaklik, ustunluk siralamasi, kimyasal ipuclari) ve ucu de baska bir evreye ait. Eskiden yalniz A bir 'duyuyu yalitma' amaciydi; simdi A ve D ayni bicimde kuruldugu icin 'tek duyu yalitan secenek dogrudur' elemesi calismiyor. Dogru secenek kanit cumlesinin sozcuklerinden ('visual exposure alone... influence later behaviour') uzaklastirildi."
+      "scan_note": "Kanit G/4. Yogunluk-verim iliskisi G/2 ve G/3'te de geciyor, ama oradaki cumleler aralik ile en verimli noktayi anlatiyor; 'daha yuksek yogunluk' ifadesi yalniz G/4'te. I/4 ise butun calismalarda en iyi karisimin en cok onarim maddesi tasiyan karisim olmadigini soyluyor -- ayni fikrin pasaj capinda tekrari, ama bu kalemin kaniti degil.",
+      "explanation": "Paragraph G says that higher concentrations raised the raw rate but not the yield per cell.",
+      "difficulty": "hard",
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "faz": "FAZ 1 / B3 yeniden uretim (UYGULAMA-PLANI 1.5)",
+        "yeni_pasaj": "A13",
+        "eski_pasaj": "A02",
+        "eski_prompt": "In the three days before the octopuses met, the researchers were trying to find out",
+        "eski_cevap": [
+          "A"
+        ],
+        "neden_elendi": "E7 parcasiz olcumde uc turun ucunde de bilindi (dayanak: logic, mekanizma: konumsal_duzen); ayrica kanit cumlesi artik alistirma havuzuna ait olmayan A02 pasajina aitti.",
+        "ne_degisti": "Kalem bastan yazildi ve A13'un G/4 cumlesine baglandi. Konumsal duzen panzehiri olarak dogru secenek A harfine kondu ve uzunlukca ortalarda birakildi; en uzun secenek (C) bilerek yanlis. Ayna simetrisi teknigi kullanildi: A ve B ayni iki degiskeni ters cevirerek soyluyor, bu yuzden 'incelikli olani sec' sezgisi calismiyor. Genel kultur ('daha cok bakteri = daha iyi sonuc') D secenegine capalandi.",
+        "recete_sinamasi": "Kok ve secenekler metinsiz okundu: A ile B arasinda ayrim yapacak hicbir dayanak yok. GECTI."
       }
     },
     {
       "number": "3-4",
-      "passage_id": "A02",
+      "passage_id": "A13",
       "select_count": 2,
-      "prompt": "Which TWO points does the writer make about the senses behind recognition?",
+      "prompt": "Which TWO things does the writer say about the mortar bars seeded with mould spores?",
       "options": [
         {
           "letter": "A",
-          "text": "Sound carried through water may also play a part."
+          "text": "The two moulds turned out to affect the bars differently."
         },
         {
           "letter": "B",
-          "text": "Sight on its own appears to leave behaviour unchanged."
+          "text": "Their bending strength rose by between a third and two fifths at first."
         },
         {
           "letter": "C",
-          "text": "Sight and touch probably work together."
+          "text": "Their bending strength roughly doubled while the crystals were forming."
         },
         {
           "letter": "D",
-          "text": "Smell on its own probably gives the clearest signal."
+          "text": "They were weaker in bending than untouched bars from the start."
         },
         {
           "letter": "E",
-          "text": "The early stage tested touch, not sight."
+          "text": "Their pores were emptied of carbonate crystals as the moulds spread."
         },
         {
           "letter": "F",
-          "text": "The senses of smell and taste remain too poorly understood."
+          "text": "A fifth or more of their bending strength was gone by the twelfth month."
         },
         {
           "letter": "G",
-          "text": "Taste is better understood than smell."
+          "text": "They were seeded with the moulds only after cracks had appeared."
         }
       ],
       "answer": [
-        "C",
+        "B",
         "F"
       ],
-      "evidence": "Because vision alone, without touch or water-borne chemical cues, was enough to produce weaker measurable differences in the earlier acclimatisation stage, the team suggests that sight and physical contact together, rather than either sense alone, most likely underlie this recognition, though they note that octopuses' sense of smell and taste remains too poorly understood to rule out a contribution from chemical signals as well.",
+      "evidence": "For the first six months the colonised bars grew stronger in bending, by 35 to 40 per cent, as carbonate crystals filled their pores. By twelve months the same bars had given up 21 to 27 per cent of that strength.",
       "evidence_locator": {
         "paragraph": "H",
         "sentence": 3
       },
       "distractor_analysis": {
-        "A": "Cazip ama yok -- su icinde tasinan sesten hic soz edilmiyor; secenek artik olculu yazildigi icin kipine bakarak elenemiyor, yalniz pasajda karsiligi olmadigi icin yanlis.",
-        "B": "Kapsam kaydirma -- H/3 gormenin tek basina 'daha zayif ama olculebilir' farklar urettigini soyluyor; secenek bunu hicbir degisiklik olmadigina cekiyor.",
-        "D": "Yer degistirme -- 'tek basina' denemesi gorme icin yapiliyor; kokunun tek basina ne yaptigi hic olculmuyor, ustelik ayni cumle koku ve tat duyusunun yeterince bilinmedigini soyluyor.",
-        "E": "Yer degistirme -- ilk evrede seffaf bolme yalnizca gormeye izin veriyor, dokunma ve koku disarida birakiliyor; secenek iki duyunun yerini degistiriyor.",
-        "G": "Yakin ama eksik -- pasaj tat ile kokuyu birlikte, ikisi de yeterince bilinmeyen duyular olarak aniyor; aralarinda bir siralama yapmiyor."
+        "A": "Cazip ama yok -- iki kuf birlikte kullaniliyor ve aralarinda hicbir karsilastirma yapilmiyor; 'iki tur farkli davranmistir' beklentisi tamamen okurdan geliyor.",
+        "C": "Kapsam kaydirma -- B ile ayni cumleyi hedefleyen buyukluk celdiricisi: artis yuzde 35-40, yani iki katina cikma degil. Iki secenek de ayni bicimde yazildigi icin ayrim ancak sayiyi okumakla yapilir.",
+        "D": "Ters yon -- ilk alti ayda kuflenmis cubuklar egilmede GUCLENIYOR. Bu secenek genel kulturun capalandigi yer: kufun malzemeyi bastan bozdugu herkesin bildigi bir sey oldugu icin pasaji okumayan aday buraya cekiliyor.",
+        "E": "Ters yon -- H/3 karbonat kristallerinin gozenekleri DOLDURDUGUNU soyluyor; secenek ayni cumleyi tersine ceviriyor.",
+        "G": "Cazip ama yok -- sporlar cubuklara bastan ekiliyor; catlak sonrasi asilama metinde hic gecmiyor, ama kendi kendini onaran beton anlatisina yakistigi icin akla yatkin goruyor."
       },
-      "explanation": "Paragraph H says that sight and physical contact together, rather than either sense alone, most likely underlie this recognition, and that octopuses' sense of smell and taste remains too poorly understood for a contribution from chemical signals to be ruled out.",
-      "difficulty": "hard",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_basis": "general_knowledge",
-      "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: general_knowledge. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md",
-      "flag_mechanism": "kip_imzasi",
-      "revision": {
-        "tarih": "2026-08-08",
-        "mekanizma": "kip_imzasi",
-        "onceki_prompt": "Which TWO points does the writer make about the senses behind recognition?",
-        "onceki_secenekler": {
-          "A": "Sound carried through water is essential.",
-          "B": "Sight alone changed nothing at all.",
-          "C": "Sight and touch probably work together.",
-          "D": "Smell alone gave the sharpest results.",
-          "E": "The early stage tested touch, not sight.",
-          "F": "Chemical cues cannot yet be excluded.",
-          "G": "Taste is better understood than smell."
-        },
-        "ne_degisti": "Kip iki yone birden dagitildi. Dogru seceneklerden F mutlak/kesin kipe cekildi ('cannot yet be excluded' -> 'remain too poorly understood'), boylece kesin yazilmis bir dogru secenek olustu. Buna karsilik uc celdirici olculu kipe cekildi (A 'may also', B 'appears to', D 'probably'). Yeni dagilim: olculu 4 secenegin 1'i dogru, kesin 3 secenegin 1'i dogru -- 'olculu = dogru' kurali da 'mutlak = yanlis' kurali da artik calismiyor."
-      }
-    },
-    {
-      "number": 5,
-      "passage_id": "A05",
-      "select_count": 1,
-      "prompt": "What does the writer say set the site apart from others of its time?",
-      "options": [
-        {
-          "letter": "A",
-          "text": "The unusual length of time people went on living there."
-        },
-        {
-          "letter": "B",
-          "text": "Its size, when most communities were still small and mobile."
-        },
-        {
-          "letter": "C",
-          "text": "The far better state of its grain than at sites of the same age."
-        },
-        {
-          "letter": "D",
-          "text": "Its place on a route already used for trading grain."
-        }
-      ],
-      "answer": [
-        "B"
-      ],
-      "evidence": "What set the site apart was its scale: at a time when most human communities were still small and mobile, Çatalhöyük had grown into a dense, town-like settlement, sitting on routes that would later carry farming practices onward into Europe.",
-      "evidence_locator": {
-        "paragraph": "A",
-        "sentence": 3
-      },
-      "distractor_analysis": {
-        "A": "Yakin ama eksik -- yerlesimin kabaca MO 7400-6000 arasinda iskan edildigi A/2'de veriliyor, ama bu surenin cagdaslarina gore olagandisi oldugu soylenmiyor; siti ayiran ozellik olarak olcek gosteriliyor.",
-        "C": "Yer degistirme -- tahillarin benzer yastaki baska sitlerden belirgin bicimde iyi korunmus olmasi B/1'de, buluntular icin soyleniyor; yerlesimin kendisini cagdaslarindan ayiran ozellik olarak degil.",
-        "D": "Kapsam kaydirma -- A/3 sitin, tarim uygulamalarini *sonradan* Avrupa'ya tasiyacak yollar uzerinde bulundugunu soyluyor; secenek bunu o donemde zaten isleyen bir tahil ticareti yoluna cekiyor."
-      },
-      "explanation": "Paragraph A says that what set the site apart was its scale: at a time when most human communities were still small and mobile, Catalhoyuk had grown into a dense, town-like settlement.",
-      "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_basis": "general_knowledge",
-      "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: general_knowledge. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md",
-      "flag_mechanism": "konumsal_duzen",
-      "revision": {
-        "tarih": "2026-08-08",
-        "mekanizma": "konumsal_duzen",
-        "onceki_prompt": "What does the writer say made the site stand out?",
-        "onceki_secenekler": {
-          "A": "The length of the excavation carried out there.",
-          "B": "Its size, at a time of small mobile groups.",
-          "C": "The state of the plant remains found there.",
-          "D": "Its place on a route used for grain trade."
-        },
-        "ne_degisti": "Eskiden yalniz B siti kendi cagiyla karsilastiran bir cerceve tasiyordu, oteki ucu ise sure/buluntu/ticaret gibi baska eksenlere kayiyordu; bu yuzden 'ayirt eden ozellik' sorusuna uyan tek secenek B kaliyordu. Simdi A ve C de acikca cag-ici karsilastirma kuruyor ('cagdaslarina gore uzun iskan', 'ayni yastaki sitlerden iyi korunmus tahil') ve ikisi de pasajin gercek ayrintilarina capalandi; secenek bicimi artik dogruyu ele vermiyor."
-      }
-    },
-    {
-      "number": 6,
-      "passage_id": "A05",
-      "select_count": 1,
-      "prompt": "What does the writer say about the sequences obtained at the two marker lengths?",
-      "options": [
-        {
-          "letter": "A",
-          "text": "Only about half as many sequences came from the second length."
-        },
-        {
-          "letter": "B",
-          "text": "Most of the unrecorded variants appear to have come from the second length."
-        },
-        {
-          "letter": "C",
-          "text": "The variants found at the first length were generally ones already on record."
-        },
-        {
-          "letter": "D",
-          "text": "Each length produced much the same number of distinct variants."
-        }
-      ],
-      "answer": [
-        "A"
-      ],
-      "evidence": "Of the sequences obtained at one marker length, twenty-two in all, seventeen distinct genetic variants emerged, thirteen of which had never before been recorded in any genetic database; a further ten sequences at a second marker length revealed five variants, two of them likewise entirely new.",
-      "evidence_locator": {
-        "paragraph": "E",
-        "sentence": 4
-      },
-      "distractor_analysis": {
-        "B": "Ters yon -- daha once kaydedilmemis varyantlarin on ucu birinci marker uzunlugundan, yalniz ikisi ikincisinden geliyor; secenek orani tersine ceviriyor.",
-        "C": "Ters yon -- birinci uzunlukta cikan on yedi varyantin on ucu hicbir veri tabaninda daha once kayitli degildi, yani cogu yeni.",
-        "D": "Kapsam kaydirma -- birinci uzunluk on yedi, ikincisi bes ayri varyant verdi; iki sayi birbirine yakin degil."
-      },
-      "explanation": "Paragraph E says twenty-two sequences were obtained at one marker length and a further ten at a second marker length, so the second yielded only about half as many.",
+      "scan_note": "Kanit H/3 ve H/4. Ayni deneyin baska yonleri H/1 (canli ajanin malzemeye zarar verebilecegi), H/2 (recine orani ve kosullar -- bu cumle cumle tamamlama paketinin 6. kalemine ait, dokunulmadi) ve H/5 (once muhurleyip sonra sokme) cumlelerinde; I/2 fungal sonuclari 'biyolojik ajanin kendi gundemi vardir' diye ozetliyor. Bu kalem yalniz H/3 ile H/4'e dayaniyor; H paragrafindan baska kalem uretilmedi.",
+      "explanation": "Paragraph H says the bars grew stronger in bending by 35 to 40 per cent over the first six months, and that by twelve months they had given up 21 to 27 per cent of that strength.",
       "difficulty": "hard",
       "status": "verified",
       "blind_solvable": false,
       "blind_basis": null,
       "generated_by": "opus",
       "yeniden_uretim": {
-        "tarih": "2026-08-08",
-        "kaynak_prompt": "prompts/OPUS5-E6-yeniden-uretim.md (4/7)",
-        "uretilen_grup": "Coktan secmeli - alistirma",
-        "eski_prompt": "What distinguishes hexaploid wheat from the simpler wheats?",
+        "tarih": "2026-08-18",
+        "faz": "FAZ 1 / B3 yeniden uretim (UYGULAMA-PLANI 1.5)",
+        "yeni_pasaj": "A13",
+        "eski_pasaj": "A02",
+        "eski_prompt": "Which TWO points does the writer make about the senses behind recognition?",
         "eski_cevap": [
-          "D"
+          "C",
+          "F"
         ],
-        "eski_kanit_cumlesi": "Some of these seeds looked, under the microscope, as though they belonged to hexaploid wheat, a genetically more complex form carrying six sets of chromosomes rather than the two or four sets typical of the simpler wheats usually associated with the earliest stages of farming.",
-        "neden_elendi": "Sorunun ekseni terimin kendisi: soru kokundeki 'hexaploid' sozcugunun 'hexa-' oneki dogrudan alti kromozom takimini soyluyor, yani sizinti secenek diziliminde degil kokte. Terimi soru kokunden cikarmak kanit cumlesini de degistirmeyi gerektirir; bu, gorev kuralina gore yarim duzeltme sayilir.",
-        "ne_degisti": "Yuva bosaltilip ayni pasajdan yeni bir soruyla dolduruldu. Eski soru B/2'ye dayaniyordu: hexaploid bugdayi basit bugdaylardan ayiran sey. Sizinti secenek diziliminde degil soru kokundeydi -- 'hexaploid' sozcugunun 'hexa-' oneki alti kromozom takimini zaten soyluyordu. Yeni soru B paragrafina hic degmiyor ve 'hexaploid' terimini hic anmiyor: kanit E/4'e, iki marker uzunlugunda elde edilen dizi ve varyant sayilarina tasindi. Dort secenegin dordu de bu keyfi sayilar uzerine kurulu aritmetik iddialar; disaridan bilinebilecek bir yani yok. Ustelik 'yeni bulgu = yenilik vurgusu' sezgisi bilerek celdirici tarafa kondu (B ve C), dogru secenek ise yalin bir sayi karsilastirmasi. Kip dengesi icin dogru secenek mutlak/karma ('Only about half'), iki celdirici olculu ('appear', 'generally'), biri mutlak ('Each length')."
+        "neden_elendi": "E7 parcasiz olcumde uc turun ucunde de bilindi (dayanak: general_knowledge, mekanizma: kip_imzasi); ayrica kanit cumlesi artik alistirma havuzuna ait olmayan A02 pasajina aitti.",
+        "ne_degisti": "Kalem bastan yazildi ve A13'un H paragrafina baglandi; cift cevapli yapisi korundu (iki numara). ILK capa H/2 ile H/4'tu; paketler arasi tarama H/2'nin cumle tamamlama paketinin 6. kalemince de kullanildigini gosterince (bir kanit cumlesine bir soru kurali) B bacagi H/3'e kaydirildi ve yeniden yazildi. Iki dogru cevap yine ayni paragrafin iki AYRI cumlesinden geliyor (H/3 ve H/4); bu paragraftan baska kalem cikarilmadi. B kaydirilirken C celdiricisi de degistirildi: eski C recine oranina (H/2) dayaniyordu, yeni C B ile ayni cumleyi hedefleyen bir buyukluk celdiricisi, boylece dogru secenek bicimiyle ele vermiyor. Kip imzasi panzehiri: dogru seceneklerden ikisi de olculu-sayisal, celdiriciler arasinda hem kesin (D 'from the start', G 'only after') hem olculu (A, C 'roughly') olanlar var. Harf cifti B+F korundu.",
+        "recete_sinamasi": "Yedi secenek yeniden, metinsiz okundu: dunya bilgisiyle en makul goruneni D (kuf malzemeyi bastan zayiflatir) ve o bilerek YANLIS; B ile C arasinda buyukluk ayrimi ancak H/3 okunarak yapiliyor. GECTI."
+      }
+    },
+    {
+      "number": 5,
+      "passage_id": "A14",
+      "select_count": 1,
+      "prompt": "What does the writer say the team did with the results they took from the papers?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "They compared the printed figures with the files that the authors eventually supplied."
+        },
+        {
+          "letter": "B",
+          "text": "They rechecked a few dozen results chosen at random from each paper."
+        },
+        {
+          "letter": "C",
+          "text": "They set aside any result taken from a paper with no material available."
+        },
+        {
+          "letter": "D",
+          "text": "They recomputed more than a thousand results that had been reported as significant."
+        }
+      ],
+      "answer": [
+        "D"
+      ],
+      "evidence": "The team extracted one thousand one hundred and forty-eight results reported as statistically significant and recomputed every one, looking for cases in which the printed probability did not follow from the figures beside it.",
+      "evidence_locator": {
+        "paragraph": "D",
+        "sentence": 4
+      },
+      "distractor_analysis": {
+        "A": "Yer degistirme -- genel kulturun capalandigi secenek: bir makaleyi denetlemenin ham veriyle karsilastirmak demek oldugu yaygin bir varsayim. Oysa D/1-3 tam tersini kuruyor: bu denetim hic ham veri olmadan, makalenin kendi ic tutarliligindan yapiliyor.",
+        "B": "Kapsam kaydirma -- secim rastgele degil ve kapsam birkac duzine degil; anlamli bildirilen sonuclarin TAMAMI yeniden hesaplaniyor. Ornekleme sezgisi tasidigi icin akla yatkin goruyor.",
+        "C": "Ters yon -- verisi paylasilmayan makaleler disarida birakilmiyor; E/4 hatalarin dortte ucunun tam da o makalelerden ciktigini soyluyor, yani onlar analizin merkezinde."
+      },
+      "scan_note": "Kanit D/4. Yeniden hesaplamanin sonuclari E (kirk dokuz tutarsizlik), F (anlamliligi bozan on vaka) ve G (esige yakinlik) paragraflarinda; yontemin mantigi D/2-3'te. Bu kalem yalniz D/4'teki islemin kendisine ve olcegine dayaniyor.",
+      "explanation": "Paragraph D says the team extracted one thousand one hundred and forty-eight results reported as statistically significant and recomputed every one.",
+      "difficulty": "medium",
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "faz": "FAZ 1 / B3 yeniden uretim (UYGULAMA-PLANI 1.5)",
+        "yeni_pasaj": "A14",
+        "eski_pasaj": "A05",
+        "eski_prompt": "What does the writer say set the site apart from others of its time?",
+        "eski_cevap": [
+          "B"
+        ],
+        "neden_elendi": "E7 parcasiz olcumde uc turun ucunde de bilindi (dayanak: general_knowledge, mekanizma: konumsal_duzen); ayrica kanit cumlesi artik alistirma havuzuna ait olmayan A05 pasajina aitti.",
+        "ne_degisti": "Kalem bastan yazildi ve A14'un D paragrafina baglandi. E6 teknigi uygulandi: dunya bilgisiyle en makul goruneni A ('denetim ham veriyle yapilir') ve o bilerek yanlis; dogru cevap metnin kendi calismasinin sectigi olcek (bin yuz kirk sekiz sonuc). Konumsal duzen panzehiri: dogru secenek D harfinde ama en uzun secenek degil (A ondan uzun).",
+        "recete_sinamasi": "Kok ve secenekler metinsiz okundu: bir meta-arastirma icin dordu de makul yontem; sayi bilinmeden secim yapilamiyor. GECTI."
+      }
+    },
+    {
+      "number": 6,
+      "passage_id": "A14",
+      "select_count": 1,
+      "prompt": "What does the writer say about the results that failed the recalculation?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "They were divided fairly evenly between overstatements and understatements."
+        },
+        {
+          "letter": "B",
+          "text": "They came to about four in every hundred of the results checked."
+        },
+        {
+          "letter": "C",
+          "text": "They were almost all found in papers whose files had been supplied."
+        },
+        {
+          "letter": "D",
+          "text": "They amounted to roughly a quarter of the significant results."
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "evidence": "Forty-nine of those results, roughly four in every hundred, did not add up.",
+      "evidence_locator": {
+        "paragraph": "E",
+        "sentence": 1
+      },
+      "distractor_analysis": {
+        "A": "Ters yon -- genel kulturun capalandigi secenek: aritmetik hatalarin rastgele, yani iki yone esit dagilmasi beklenir. E/2 tam tersini soyluyor: neredeyse her vakada basili olasilik kendi rakamlarinin gerektirdiginden KUCUK, yani daha etkileyici.",
+        "C": "Ters yon -- hatalarin yaklasik dortte ucu verisini paylasmayan makalelerden geliyor (E/4); secenek yonu tersine ceviriyor.",
+        "D": "Kapsam kaydirma -- oran yuzde dort civari; secenek bunu yuzde yirmi bese cikariyor. Iki sayi da 'kucuk bir azinlik' gibi durdugu icin ayrim yalniz metinden yapilir."
+      },
+      "scan_note": "Kanit E/1. Ayni paragrafin devami hatalarin yonunu (E/2) ve nerede toplandigini (E/3-4) anlatiyor; F on vakayi, G esige yakinligi ayri ayri ele aliyor. Bu kalem yalniz E/1'deki orana dayaniyor, E paragrafindan baska kalem uretilmedi.",
+      "explanation": "Paragraph E says that forty-nine of the results checked, roughly four in every hundred, did not add up.",
+      "difficulty": "medium",
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "faz": "FAZ 1 / B3 yeniden uretim (UYGULAMA-PLANI 1.5)",
+        "yeni_pasaj": "A14",
+        "eski_pasaj": "A05",
+        "eski_prompt": "What does the writer say about the sequences obtained at the two marker lengths?",
+        "eski_cevap": [
+          "A"
+        ],
+        "neden_elendi": "Kanit cumlesi artik alistirma havuzuna ait olmayan A05 pasajina aitti (test havuzu sizintisi).",
+        "ne_degisti": "Kalem bastan yazildi ve A14'un E/1 cumlesine baglandi. Dogru cevap metnin kendi olcumu olan keyfi bir oran (yuzde dort civari); disaridan bilinemez. Genel kultur ('hatalar rastgeledir, iki yone esit dagilir') A secenegine capalandi ve o secenek yanlis. Kip dengesi icin dogru secenek olculu ('about four in every hundred'), celdiricilerden biri olculu (D 'roughly'), biri kesine yakin (C 'almost all').",
+        "recete_sinamasi": "Kok ve secenekler metinsiz okundu: dordu de bir hata taramasi icin makul sonuc; oran bilinmeden secim yapilamiyor. GECTI."
       }
     },
     {
       "number": "7-8",
-      "passage_id": "A05",
+      "passage_id": "A14",
       "select_count": 2,
-      "prompt": "Which TWO conclusions do the researchers draw from the sequences?",
+      "prompt": "Which TWO points does the writer make about the ten inconsistencies of a different order?",
       "options": [
         {
           "letter": "A",
-          "text": "Einkorn farming began outside Turkey."
+          "text": "The recalculated figure took away the significance the paper had claimed."
         },
         {
           "letter": "B",
-          "text": "Bread wheat was unknown in Europe."
+          "text": "All ten of them appeared in a single journal."
         },
         {
           "letter": "C",
-          "text": "Hexaploid wheat may have appeared earlier than assumed."
+          "text": "They were the only inconsistencies the team was unable to explain."
         },
         {
           "letter": "D",
-          "text": "The Fertile Crescent account may have to be abandoned."
+          "text": "Their authors corrected them once the team had pointed them out."
         },
         {
           "letter": "E",
-          "text": "Modern spelt probably descends from this very wheat."
+          "text": "Not one of them came from a team that had handed over its files."
         },
         {
           "letter": "F",
-          "text": "This is the first genetic sign of a spelt-like wheat in the region."
+          "text": "They were smaller in size than the other discrepancies found."
         },
         {
           "letter": "G",
-          "text": "The team examined a protein gene."
+          "text": "They arose where the size of the sample had been reported wrongly."
         }
       ],
       "answer": [
-        "C",
-        "F"
+        "A",
+        "E"
       ],
-      "evidence": "The researchers interpret this as evidence of an early, transitional stage in the cultivation of hexaploid wheat, and note that this is the first genetic evidence hinting at the presence of a spelt-like wheat in the Neolithic Near East at all, a possibility they treat cautiously given how limited the surviving evidence is. Finding genetic traces of hexaploid wheat at Çatalhöyük this early suggests that the more advanced, six-chromosome form of wheat may have emerged sooner, and further from the traditional Fertile Crescent core, than researchers had assumed, with Çatalhöyük potentially serving as a staging point on its spread toward Europe.",
+      "evidence": "In these the recalculated probability crossed the conventional threshold of significance altogether, so that the paper announced a significant finding which its own reported numbers did not support. Every one of the ten came from a paper whose material had not been shared.",
       "evidence_locator": {
         "paragraph": "F",
         "sentence": 2
       },
       "distractor_analysis": {
-        "A": "Yer degistirme -- G/2 einkorn tariminin dogdugu yer olarak guney Turkiye'deki Karacadag bolgesini gosteriyor; secenek bu bilgiyi ulke disina tasiyor.",
-        "B": "Cazip ama yok -- ekmeklik bugday modern karsilastirma turleri arasinda, Avrupa da yayilma yonu olarak aniliyor, ama Avrupa'da bilinip bilinmedigine dair hicbir ifade yok.",
-        "D": "Kapsam kaydirma -- G/1 bulgunun standart anlatiyi 'karmasiklastirdigini' soyluyor; secenek artik olculu yazilmis olsa da anlatinin buutunuyle birakilmasini one suruyor, bu da metnin soylediginden fazlasi.",
-        "E": "Kapsam kaydirma -- F/1 eski dizilerin speltayi da iceren modern hexaploid bicimlere *benzedigini* soyluyor; benzerlik, olculu yazilsa bile dogrudan soy bagi iddiasina genisletilemez.",
-        "G": "Yakin ama eksik -- ekibin onemli bir bugday proteininden sorumlu gen uzerinde calistigi D/2'de veriliyor, ama bu bir yontem ayrintisi; dizilerden cikarilan bir sonuc degil."
+        "B": "Cazip ama yok -- iki dergi secildigi B/2'de soyleniyor, ama on vakanin dergilere dagilimi hic verilmiyor.",
+        "C": "Kapsam kaydirma -- bu on vaka aciklanamaz olduklari icin degil, sonucu devirdikleri icin ayri tutuluyor (F/4).",
+        "D": "Cazip ama yok -- genel kulturun capalandigi ikinci yer: bilimsel yayincilikta hatanin bildirildiginde duzeltilmesi beklenen davranistir. Metinde duzeltme, geri cekilme ya da yazarlarla temas sonrasi bir islem hic gecmiyor.",
+        "F": "Ters yon -- bu on vaka 'farkli bir mertebede', yani sonucun kendisini deviren buyuk tutarsizliklar; E/4 zaten buyuk sapmalarda yogunlasmanin daha da agir oldugunu soyluyor.",
+        "G": "Cazip ama yok -- yeniden hesaplama test istatistigi, ornek buyuklugu ve olasilik ucgenine dayaniyor (D/2), ama hatanin kaynagi olarak yanlis bildirilen ornek buyuklugu gosterilmiyor; yontemi bilen bir okur icin akla yatkin bir mekanizma oldugu icin cekici."
       },
-      "explanation": "Paragraph F says this is the first genetic evidence hinting at a spelt-like wheat in the Neolithic Near East, and paragraph G says the six-chromosome form of wheat may have emerged sooner than researchers had assumed.",
+      "scan_note": "Kanit F/2 ve F/3. On vakanin yorumu F/4'te (calismanin en keskin sonucu), daha genis hata tablosu E'de, esige yakinlik ayrimi G'de. Cift cevapli kalem oldugu icin F paragrafindan baska kalem uretilmedi.",
+      "explanation": "Paragraph F says that in these ten cases the recalculated probability crossed the threshold of significance altogether, and that every one of the ten came from a paper whose material had not been shared.",
       "difficulty": "hard",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_basis": "logic",
-      "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: logic. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md",
-      "flag_mechanism": "kip_imzasi",
-      "revision": {
-        "tarih": "2026-08-08",
-        "mekanizma": "kip_imzasi",
-        "onceki_prompt": "Which TWO conclusions do the researchers draw from the sequences?",
-        "onceki_secenekler": {
-          "A": "Einkorn farming began outside Turkey.",
-          "B": "Bread wheat was unknown in Europe.",
-          "C": "Hexaploid wheat may have appeared earlier.",
-          "D": "The Fertile Crescent account is disproved.",
-          "E": "Modern spelt descends directly from this wheat.",
-          "F": "A spelt-like wheat may have been present.",
-          "G": "The team examined a protein gene."
-        },
-        "ne_degisti": "Dogru seceneklerden F kesin kipe cekildi ('may have been present' -> 'is the first genetic sign'), celdiricilerden D ve E ise olculu kipe cekildi ('is disproved' -> 'may have to be abandoned', 'descends directly' -> 'probably descends'). Yeni dagilim: olculu 3 secenegin 1'i dogru, kesin 4 secenegin 1'i dogru. 'Temkinli yazilan ikili dogrudur' imzasi kirildi."
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "faz": "FAZ 1 / B3 yeniden uretim (UYGULAMA-PLANI 1.5)",
+        "yeni_pasaj": "A14",
+        "eski_pasaj": "A05",
+        "eski_prompt": "Which TWO conclusions do the researchers draw from the sequences?",
+        "eski_cevap": [
+          "C",
+          "F"
+        ],
+        "neden_elendi": "E7 parcasiz olcumde uc turun ucunde de bilindi (dayanak: logic, mekanizma: kip_imzasi); ayrica kanit cumlesi artik alistirma havuzuna ait olmayan A05 pasajina aitti.",
+        "ne_degisti": "Kalem bastan yazildi ve A14'un F paragrafina baglandi; cift cevapli yapisi korundu. Iki dogru cevap ayni paragrafin iki ayri cumlesinden geliyor (F/2, F/3). Kip imzasi panzehiri: dogru seceneklerden E MUTLAK kipte ('Not one of them'), yani kesin dilli bir secenek dogru; buna karsilik celdiricilerden B ('All ten') ve C ('the only') de mutlak ve ikisi de yanlis. Genel kultur ('hata bildirilince duzeltilir') D secenegine capalandi. Harf cifti A+E secildi.",
+        "recete_sinamasi": "Yedi secenek metinsiz okundu: dunya bilgisiyle en makul goruneni D (yazarlar hatayi duzeltti) ve o bilerek yanlis; A ile E arasinda metinsiz ayrim yok. GECTI."
       }
     },
     {
       "number": "9-10",
-      "passage_id": "A08",
+      "passage_id": "A16",
       "select_count": 2,
-      "prompt": "Which TWO things does the writer say about the earthquake and the slides it set off?",
+      "prompt": "Which TWO things does the writer say about the force directed sideways?",
       "options": [
         {
           "letter": "A",
-          "text": "It was probably the strongest quake ever recorded in the range."
+          "text": "It was recorded only in the closing moments of stance."
         },
         {
           "letter": "B",
-          "text": "The nearest town was badly damaged by the shaking."
+          "text": "It was larger on concrete than on either of the softer coverings."
         },
         {
           "letter": "C",
-          "text": "Aftershocks are likely to have gone on for several weeks."
+          "text": "It was the largest of the three directions of force measured."
         },
         {
           "letter": "D",
-          "text": "Its epicentre lay some 90 kilometres away from a coastal town."
+          "text": "It was greater on turf than on concrete through part of the middle of stance."
         },
         {
           "letter": "E",
-          "text": "More than 700 possible slides were identified in all."
+          "text": "Runners widen their stride a little in order to keep their balance on soft ground."
         },
         {
           "letter": "F",
-          "text": "The slides appear to have been spread evenly around the epicentre."
+          "text": "It was greater among the heel-landers than among the other group."
         },
         {
           "letter": "G",
-          "text": "Every slope in the range was left scarred in some way."
+          "text": "A covering that gives way does so unevenly under a foot that never lands square."
         }
       ],
       "answer": [
         "D",
-        "E"
+        "G"
       ],
-      "evidence": "The epicentre lay in remote terrain roughly 90 kilometres north of the coastal town of Yakutat, Alaska, an area so thinly populated that the quake caused no reported casualties, yet its effects on the surrounding landscape were extraordinary. The United States Geological Survey later identified more than 700 potential landslides and snow avalanches associated with the earthquake, most of them concentrated to the northwest of the epicentre along the line of the fault rupture.",
+      "evidence": "Between the twentieth and thirty-eighth per cent of stance, and again in the last two per cent, that sideways force was larger on artificial grass than on concrete. A soft covering deforms unevenly beneath a foot that is never placed perfectly square, so the ground yields slightly more in one direction than in another, and the runner spends force resisting a drift that a rigid floor would never allow.",
       "evidence_locator": {
-        "paragraph": "A",
+        "paragraph": "G",
         "sentence": 2
       },
       "distractor_analysis": {
-        "A": "Cazip ama yok -- depremin buyuklugu 7.0 olarak veriliyor, ama siradaglarda daha once olculen depremlerle hicbir karsilastirma yapilmiyor.",
-        "B": "Ters yon -- A/2 bolgenin cok seyrek nufuslu oldugunu ve bildirilen can kaybi olmadigini soyluyor; G/1 de yerlesime ve altyapiya dogrudan tehdit olusmadigini yaziyor.",
-        "C": "Cazip ama yok -- artcilardan hic soz edilmiyor; buyuk depremlerden sonra beklenen bir sey oldugu icin secilebilir.",
-        "F": "Ters yon -- B/1 heyelanlarin cogunun merkez ussunun kuzeybatisinda, fay yirtilmasi hatti boyunca toplandigini soyluyor; esit dagilim degil.",
-        "G": "Kapsam kaydirma -- A/3 sarsintinin daglarin genis bir kusaginda heyelan ve cig tetikledigini soyluyor, siradagin her yamacinda degil."
+        "A": "Kapsam kaydirma -- yan kuvvet basma evresinin tamami boyunca kaydediliyor; fark yalniz iki pencerede (yuzde 20-38 ve son yuzde 2) ortaya cikiyor. Secenek olcumu farkin gorundugu yere daraltiyor.",
+        "B": "Ters yon -- genel kulturun capalandigi secenek: sert zeminin daha buyuk kuvvet uretmesi beklenir. Yan kuvvette olculen tam tersi; sertligin ustunlugu yalniz ileri itiste ve yalniz son yuzde altida (F/5) gecerli.",
+        "C": "Cazip ama yok -- uc kuvvet yonunun buyuklukleri birbiriyle karsilastirilmiyor; kuvvet plakasinin uc yonde olcum yaptigi D/2'de soyleniyor, siralama yok.",
+        "E": "Cazip ama yok -- ikinci mekanizma secenegi olarak bilerek yazildi ki 'aciklama bicimindeki tek secenegi sec' sezgisi calismasin. Ustelik E/1-5 adim geometrisinin degismedigini soyluyor, yani adim genisletme metinle celisiyor.",
+        "F": "Yer degistirme -- iki kosucu grubunun farkli etkilenmesi H/4-5'te, eklem torklari icin soyleniyor (on ayak basanlar ayak bileginde, topuk basanlar dizde); yan kuvvet icin boyle bir ayrim verilmiyor."
       },
-      "explanation": "Paragraph A places the epicentre in remote terrain roughly 90 kilometres north of the coastal town of Yakutat, and paragraph B says the United States Geological Survey later identified more than 700 potential landslides and snow avalanches.",
+      "scan_note": "Kanit G/2 ve G/4. Yatay/frenleme kuvvetinin zaman pencereleri F'de, eklem torklari H'de, degismeyen aci ve sertlik degerleri E'de. Cift cevapli kalem oldugu icin G paragrafindan baska kalem uretilmedi.",
+      "explanation": "Paragraph G says the sideways force was larger on artificial grass than on concrete between the twentieth and thirty-eighth per cent of stance, and explains that a soft covering deforms unevenly beneath a foot that is never placed perfectly square.",
       "difficulty": "hard",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_basis": "logic",
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
       "generated_by": "opus",
       "yeniden_uretim": {
-        "tarih": "2026-08-08",
-        "kaynak_prompt": "prompts/OPUS5-E6-yeniden-uretim.md (4/7)",
-        "uretilen_grup": "Coktan secmeli - alistirma",
-        "eski_prompt": "Which TWO things does the writer say about the region struck?",
+        "tarih": "2026-08-18",
+        "faz": "FAZ 1 / B3 yeniden uretim (UYGULAMA-PLANI 1.5)",
+        "yeni_pasaj": "A16",
+        "eski_pasaj": "A08",
+        "eski_prompt": "Which TWO things does the writer say about the earthquake and the slides it set off?",
         "eski_cevap": [
-          "B",
+          "D",
           "E"
         ],
-        "eski_kanit_cumlesi": "On 6 December 2025 a magnitude 7.0 earthquake struck the St Elias Mountains, a heavily glaciated range straddling the border between the Yukon Territory in Canada and Alaska in the United States. Here, ice more than 700 metres thick in places sits on top of that bedrock.",
-        "neden_elendi": "Sorunun ekseni cografya genel bilgisi: buyuk buzullu siradaglarin bir ulke siniri boyunca uzanmasi ve kalin buzla ortulu olmasi pasaja bakmadan bilinebiliyor. Iki dogru secenek de bolgenin ansiklopedik tanimini tekrarliyor; secenekleri yeniden yazmak bu ekseni degistirmez.",
-        "ne_degisti": "Yuva bosaltilip ayni pasajdan yeni bir soruyla dolduruldu. Eski soru A/1 ile B/3'e dayaniyordu: bolgenin bir ulke siniri boyunca uzanmasi ve kalin buzla ortulu olmasi. Iki dogru secenek de buzullu bir siradagin ansiklopedik tanimini tekrarladigi icin B+E ikilisi pasajsiz seciliyordu. Yeni soru o iki cumleye hic degmiyor: kanit A/2 ile B/1'e, merkez ussunun uzakligina ve sayilan heyelan sayisina tasindi. Doksan kilometre ve yedi yuzden cok heyelan keyfi olculer; disaridan bilinemez. Bes celdiricinin ucu bilerek 'buyuk depremde beklenen sey' kalibina yazildi (kayitlardaki en buyuk deprem, haftalarca suren artcilar, en yakin kasabanin agir hasari), yani genel bilgiyle cozmeye calisan bir okur yanlisa gidiyor. Konumsal duzen icin harf cifti D+E: bu tipte C+F ikilisi zaten iki kez dogru (alistirma #3-4 ve #7-8) ve 3. calistirmanin notu bu yuvaya C+F verilmemesini istiyordu."
-      },
-      "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: logic. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md",
-      "flag_mechanism": "konumsal_duzen"
+        "neden_elendi": "E7 parcasiz olcumde uc turun ucunde de bilindi (dayanak: logic, mekanizma: konumsal_duzen); ayrica kanit cumlesi artik alistirma havuzuna ait olmayan A08 pasajina aitti.",
+        "ne_degisti": "Kalem bastan yazildi ve A16'nin G paragrafina baglandi; cift cevapli yapisi korundu. Iki dogru cevap ayni paragrafin iki ayri cumlesinden geliyor (G/2 olcum, G/4 mekanizma). Genel kultur ('sert zemin daha buyuk kuvvet uretir') B secenegine capalandi. Ikinci mekanizma secenegi (E) eklendi ki dogru secenek G bicimiyle ele vermesin. Konumsal duzen panzehiri: en uzun secenek G dogru, ama ikinci dogru cevap D orta uzunlukta ve yedi secenegin ortasinda; harf cifti D+G, paketteki oteki ciftlerden (B+F, A+E) ayri.",
+        "recete_sinamasi": "Yedi secenek metinsiz okundu: dunya bilgisiyle en makul goruneni B (beton daha buyuk kuvvet) ve o bilerek yanlis; iki mekanizma secenegi birbirini otelediginden G de tek basina secilemiyor. GECTI."
+      }
     },
     {
       "number": 11,
-      "passage_id": "A08",
+      "passage_id": "A16",
       "select_count": 1,
-      "prompt": "What does the writer say about the survey carried out on the ground?",
+      "prompt": "What does the writer say makes the effect of the ground hard to establish outdoors?",
       "options": [
         {
           "letter": "A",
-          "text": "It was probably completed within a day of the earthquake."
+          "text": "Runners tend to avoid the hardest surfaces on a long route."
         },
         {
           "letter": "B",
-          "text": "It took place on 12 December."
+          "text": "The wind, the temperature, the wetness of the ground and the light all change too."
         },
         {
           "letter": "C",
-          "text": "It found the new debris lying on ground that had long been bare of snow."
+          "text": "The pace, the slope, the shoes and the weather change along with the surface."
         },
         {
           "letter": "D",
-          "text": "It appears to have covered only the slopes closest to Yakutat."
+          "text": "Stride length and time on the ground cannot be recorded away from a laboratory."
         }
       ],
       "answer": [
-        "B"
+        "C"
       ],
-      "evidence": "A ground survey carried out on 12 December confirmed what the satellite images had suggested from orbit: extensive new debris fields, some stretching for kilometres, now lay across terrain that had been buried under clean snow and ice only weeks before.",
+      "evidence": "Outdoors the surface never varies on its own: speed, slope, footwear and weather vary with it, and any difference in the runner could belong to any of them.",
       "evidence_locator": {
-        "paragraph": "D",
-        "sentence": 2
+        "paragraph": "A",
+        "sentence": 4
       },
       "distractor_analysis": {
-        "A": "Yer degistirme -- yer arastirmasi 12 Aralik'ta yapiliyor, deprem ise 6 Aralik'ta oldu (A/1); arada bir gunden cok daha uzun bir sure var.",
-        "C": "Ters yon -- D/2 yeni enkazin, haftalar oncesine kadar temiz kar ve buzun altinda kalan arazinin uzerinde durdugunu soyluyor; uzun suredir ciplak olan bir zeminden soz edilmiyor.",
-        "D": "Cazip ama yok -- arastirmanin hangi yamaclari kapsadigi hic soylenmiyor; Yakutat pasajda yalniz merkez ussunun konumu (A/2) ve daga cikanlarin hareket noktasi (G/1) olarak geciyor."
+        "A": "Cazip ama yok -- kosucularin zemin secmesinden hic soz edilmiyor; A/2 yalnizca bir antrenman rotasinin uc ayri zemini kesebilecegini soyluyor.",
+        "B": "Kapsam kaydirma -- C ile ayni bicimde, dort ogeli ve disarida kosarken gercekten degisen seylerden kurulu bir liste; ama metnin saydigi dort etken bunlar degil. Iki liste birbirini otelediginden 'liste bicimindeki secenegi sec' sezgisi ise yaramiyor.",
+        "D": "Cazip ama yok -- genel kulturun capalandigi secenek: bu olcumlerin laboratuvar donanimi istedigi disaridan makul gorunur. Metnin verdigi gerekce donanim degil, degiskenlerin birlikte degismesi; ustelik olcumler icin gereken duzenek D paragrafinda anlatiliyor, imkansizlik olarak degil."
       },
-      "explanation": "Paragraph D says a ground survey carried out on 12 December confirmed what the satellite images had suggested from orbit.",
-      "difficulty": "easy",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_basis": "logic",
+      "scan_note": "Kanit A/4. Ayni paragrafta A/2 bir rotanin uc zemini kestigini, A/5 sorunun bu yuzden ic mekana tasindigini soyluyor; C/3 ayakkabinin, D/3 hizin nasil sabitlendigini anlatiyor. Bu kalem yalniz A/4'teki etken listesine dayaniyor ve A paragrafindan baska kalem uretilmedi.",
+      "explanation": "Paragraph A says that outdoors the surface never varies on its own: speed, slope, footwear and weather vary with it, so any difference in the runner could belong to any of them.",
+      "difficulty": "medium",
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
       "generated_by": "opus",
       "yeniden_uretim": {
-        "tarih": "2026-08-08",
-        "kaynak_prompt": "prompts/OPUS5-E6-yeniden-uretim.md (4/7)",
-        "uretilen_grup": "Coktan secmeli - alistirma",
-        "eski_prompt": "How did analysts spot the new damage from orbit?",
+        "tarih": "2026-08-18",
+        "faz": "FAZ 1 / B3 yeniden uretim (UYGULAMA-PLANI 1.5)",
+        "yeni_pasaj": "A16",
+        "eski_pasaj": "A08",
+        "eski_prompt": "What does the writer say about the survey carried out on the ground?",
         "eski_cevap": [
-          "D"
+          "B"
         ],
-        "eski_kanit_cumlesi": "By comparing an image captured on 8 December, only two days after the earthquake, with a baseline image from 26 November, before the quake, analysts could see large new patches of brightness spreading across slopes that had previously appeared smooth and dark, a direct signature of freshly broken rock and snow.",
-        "neden_elendi": "Sorunun ekseni uzaktan algilama genel bilgisi: uydu goruntusuyle hasar tespitinin oncesi-sonrasi karsilastirmasiyla yapilmasi standart afet izleme yontemi. Kanit cumlesinin kendisi bu standardin anlatimi oldugu icin celdiricileri guclendirmek yetmiyor.",
-        "ne_degisti": "Yuva bosaltilip ayni pasajdan yeni bir soruyla dolduruldu. Eski soru C/3'e dayaniyordu: analistlerin hasari yorungeden nasil gordugu. Uydu goruntusuyle hasar tespitinin oncesi-sonrasi karsilastirmasiyla yapilmasi standart afet izleme yontemi oldugu icin cevap pasajsiz cikiyordu. Yeni soru C paragrafina hic degmiyor: kanit D/2'ye, yerden yapilan arastirmaya tasindi. Dogru secenek keyfi bir tarih; disaridan bilinemez, cunku 9, 12 ya da 20 Aralik esit olculude makuldu. Celdiricilerden ikisi zamana, ikisi kapsama dayaniyor, yani 'somut olani sec' ya da 'olculu olani sec' sezgisi ise yaramiyor; ustelik C secenegi ayni cumlenin ayrintisini tersine ceviriyor. Kip dengesi icin iki celdirici olculu ('probably', 'appears ... only') yazildi."
-      },
-      "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: logic. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md",
-      "flag_mechanism": "konumsal_duzen"
+        "neden_elendi": "E7 parcasiz olcumde uc turun ucunde de bilindi (dayanak: logic, mekanizma: konumsal_duzen); ayrica kanit cumlesi artik alistirma havuzuna ait olmayan A08 pasajina aitti.",
+        "ne_degisti": "Kalem bastan yazildi ve A16'nin A/4 cumlesine baglandi. Dogru cevap metnin kendi sectigi dort etken; ayni bicimde ikinci bir dort ogeli liste (B) yazildi ki bicim dogruyu ele vermesin. Genel kultur ('bu olcumler ancak laboratuvarda yapilir') D secenegine capalandi.",
+        "recete_sinamasi": "Kok ve secenekler metinsiz okundu: iki liste esit derecede makul, ayrim ancak A/4 okunarak yapiliyor. GECTI."
+      }
     },
     {
       "number": 12,
-      "passage_id": "A08",
+      "passage_id": "A16",
       "select_count": 1,
-      "prompt": "Why does the writer quote a researcher's reaction to the images?",
+      "prompt": "How do the authors sum up what their measurements show?",
       "options": [
         {
           "letter": "A",
-          "text": "To explain why the region's ice has been watched for years."
+          "text": "Runners adjust the shape of their stride to suit the hardness of the ground."
         },
         {
           "letter": "B",
-          "text": "To stress how little of the range can be checked from the ground."
+          "text": "Softer ground lowers the total force that passes through the leg."
         },
         {
           "letter": "C",
-          "text": "To show how unusual a disturbance on this scale is."
+          "text": "The findings hold for running at any speed and on any surface."
         },
         {
           "letter": "D",
-          "text": "To confirm that the ground survey matched the satellite images."
-        }
-      ],
-      "answer": [
-        "C"
-      ],
-      "evidence": "One researcher who had spent years monitoring the region's ice remarked that the sheer number and magnitude of the avalanches and landslides was astounding, adding that nothing comparable had been documented there before. The comment reflects how unusual it is for a single earthquake to reshape so much terrain across such a wide and largely inaccessible mountain range in a matter of seconds.",
-      "evidence_locator": {
-        "paragraph": "E",
-        "sentence": 2
-      },
-      "distractor_analysis": {
-        "A": "Yakin ama eksik -- arastirmacinin bolgenin buzunu yillardir izledigi tam da bu cumlede (E/2) soyleniyor, ama bu, sozun aktarilma amaci degil, konusani tanitan bir ayrinti.",
-        "B": "Yakin ama eksik -- daglik alanin buyuk olcude ulasilmaz oldugu hem E/3'te hem H/1'de geciyor; yine de alintinin islevi erisim sorununu anlatmak degil, olayin buyuklugunu vurgulamak.",
-        "D": "Yer degistirme -- yer arastirmasinin uydu goruntulerini dogrulamasi D/2'de, ayri bir cumlede anlatiliyor; arastirmacinin sozu bir dogrulama degil bir sasirma ifadesi."
-      },
-      "explanation": "Paragraph E reports a researcher saying that the number and magnitude of the avalanches and landslides was astounding and that nothing comparable had been documented there before; the writer adds that this reflects how unusual such an event is.",
-      "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_basis": "general_knowledge",
-      "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: general_knowledge. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md",
-      "flag_mechanism": "konumsal_duzen",
-      "revision": {
-        "tarih": "2026-08-08",
-        "mekanizma": "konumsal_duzen",
-        "onceki_prompt": "Why does the writer report a researcher's reaction to the images?",
-        "onceki_secenekler": {
-          "A": "To suggest the damage had been expected.",
-          "B": "To explain why the range is hard to reach.",
-          "C": "To show how rare a disturbance this large is.",
-          "D": "To cast doubt on the satellite pictures."
-        },
-        "ne_degisti": "Eski A ('hasar beklenmisti') ve D ('uydu goruntulerine kusku dusurmek') alintinin icerigiyle acikca celisiyor, B ise cerceve disinda kaliyordu; ucu de pasaja bakmadan elenebiliyordu. Dort secenek de artik pasajin gercek ayrintilarina capalanmis, kendi icinde tutarli yazarlik amaclari: yillardir suren izleme (E/2), yerden denetlenemezlik (H/1), olcegin sira disiligi (E/3), yer arastirmasinin dogrulamasi (D/2)."
-      }
-    },
-    {
-      "number": 13,
-      "passage_id": "A11",
-      "select_count": 1,
-      "prompt": "What does the writer say about the stand of trees the participants visited?",
-      "options": [
-        {
-          "letter": "A",
-          "text": "The two species were present in roughly equal numbers."
-        },
-        {
-          "letter": "B",
-          "text": "None of the trees was more than fifty years old."
-        },
-        {
-          "letter": "C",
-          "text": "All the trees in it were at least eighty years old."
-        },
-        {
-          "letter": "D",
-          "text": "The stand seems to have been made up mainly of birch."
-        }
-      ],
-      "answer": [
-        "C"
-      ],
-      "evidence": "In the forest condition, participants walked for five minutes to reach a stand of Norway spruce and silver birch trees, roughly 80 and 20 per cent of the stand respectively, ranging in age from 80 to 108 years and fully covered in snow, where they spent 15 minutes simply standing or sitting quietly.",
-      "evidence_locator": {
-        "paragraph": "C",
-        "sentence": 1
-      },
-      "distractor_analysis": {
-        "A": "Kapsam kaydirma -- C/1 ladin ile husun paylarini kabaca yuzde 80'e yuzde 20 olarak veriyor; esit degil.",
-        "B": "Ters yon -- agaclarin yasi 80 ile 108 arasinda degisiyor; elli yasin altinda tek bir agactan soz edilmiyor.",
-        "D": "Ters yon -- stanttaki agaclarin yaklasik yuzde 80'i Norvec ladini, hus yuzde 20'lik kucuk paya sahip."
-      },
-      "explanation": "Paragraph C says the stand was made up of Norway spruce and silver birch, roughly 80 and 20 per cent respectively, ranging in age from 80 to 108 years.",
-      "difficulty": "medium",
-      "status": "verified",
-      "blind_solvable": false,
-      "blind_basis": null,
-      "generated_by": "opus",
-      "yeniden_uretim": {
-        "tarih": "2026-08-08",
-        "kaynak_prompt": "prompts/OPUS5-E6-yeniden-uretim.md (4/7)",
-        "uretilen_grup": "Coktan secmeli - alistirma",
-        "eski_prompt": "Why was the order of the two conditions randomised?",
-        "eski_cevap": [
-          "A"
-        ],
-        "eski_kanit_cumlesi": "Randomly assigning the order in which each group encountered the two conditions also helped guard against the possibility that simply being tested a second time, regardless of environment, might by itself improve participants' reported mood.",
-        "neden_elendi": "Sorunun ekseni arastirma yontemi kurali: kosul sirasinin rastgelestirilmesinin amaci tekrar test etme (sira/alistirma) etkisini kontrol altina almaktir ve bu, pasajdan bagimsiz olarak ogretilen bir kural. Seceneklerin kipi ya da capasi degistirilse de cevap yontem bilgisinden cikar.",
-        "ne_degisti": "Yuva bosaltilip ayni pasajdan yeni bir soruyla dolduruldu. Eski soru B/3'e dayaniyordu: iki kosulun sirasinin neden rastgelestirildigi. Sira etkisinin kontrol altina alinmasi ogretilen bir yontem kurali oldugu icin cevap pasajsiz cikiyordu. Yeni soru B paragrafina hic degmiyor: kanit C/1'e, ziyaret edilen agac stantinin bilesimine ve yasina tasindi. Seksen ile yuz sekiz yil arasi bir yas araligi keyfi bir olcu; disaridan bilinemez. Celdiricilerin ikisi ayni cumlenin oranini (yuzde 80 ladin / yuzde 20 hus) tersine ceviriyor ya da esitliyor, biri yas araligini asagi cekiyor; hicbiri kendi icinde tutarsiz degil. Kip dengesi icin dogru secenek mutlak ('All the trees'), iki celdirici olculu ('roughly', 'seems ... mainly') yazildi. Kanit, calistirmanin kapanis kalibi yasagina uyarak son paragrafa degil metnin ortasina demirlendi."
-      }
-    },
-    {
-      "number": 14,
-      "passage_id": "A11",
-      "select_count": 1,
-      "prompt": "What reason does the writer give for the choice of the campus spot?",
-      "options": [
-        {
-          "letter": "A",
-          "text": "Reaching it involved a walk, as the forest did."
-        },
-        {
-          "letter": "B",
-          "text": "Its noise was measured alongside the forest's."
-        },
-        {
-          "letter": "C",
-          "text": "It was calm rather than obviously stressful."
-        },
-        {
-          "letter": "D",
-          "text": "Participants already knew the place from daily use."
-        }
-      ],
-      "answer": [
-        "C"
-      ],
-      "evidence": "In the comparison condition, participants instead walked two minutes to a spot on campus where they spent 15 minutes viewing nearby buildings, an environment the researchers deliberately chose to be calm and free of traffic rather than obviously stressful.",
-      "evidence_locator": {
-        "paragraph": "C",
-        "sentence": 2
-      },
-      "distractor_analysis": {
-        "A": "Yakin ama eksik -- iki kosulda da yurunuyor (ormana bes, kampus noktasina iki dakika, C/1-2), ama yurumek yerin secilme gerekcesi olarak verilmiyor.",
-        "B": "Yer degistirme -- olculen cevre degiskenleri D paragrafinda sayiliyor (sicaklik, kar kalinligi, nem, ruzgar) ve bunlar yalniz orman oturumlari icin; gurultu hic olculmuyor.",
-        "D": "Cazip ama yok -- katilimcilar bir uygulamali bilimler universitesinin ogrencileri (B/1), ama noktayi gunluk olarak kullandiklarina dair bir ifade yok."
-      },
-      "explanation": "Paragraph C says the researchers deliberately chose a comparison environment that was calm and free of traffic rather than obviously stressful.",
-      "difficulty": "medium",
-      "status": "verified",
-      "blind_solvable": false,
-      "blind_basis": null,
-      "flag_reason": "Cevap C, karsilastirma ortaminin bir deneyde 'notr/sakin kontrol kosulu' olarak secilmesinin arastirma mantigiyla tek tutarli gerekce oldugunu gosteriyor; B ortami tam tersine ceviriyor, A ve D ilgisiz ayrintilara dayaniyor, bu yuzden elenir.",
-      "flag_mechanism": "konumsal_duzen",
-      "revision": {
-        "tarih": "2026-08-08",
-        "mekanizma": "konumsal_duzen",
-        "onceki_prompt": "Why was the campus spot chosen as the comparison setting?",
-        "onceki_secenekler": {
-          "A": "Because it lay a short walk from the trees.",
-          "B": "Because its noise matched that of a city street.",
-          "C": "Because it was calm rather than clearly stressful.",
-          "D": "Because participants already spent time there daily."
-        },
-        "ne_degisti": "Eskiden B ortami tam tersine ceviriyordu ('kent caddesi gibi gurultulu'), A ve D ise pasajla hic baglanti kurmayan ayrintilardi; kontrol kosulu mantigini bilen bir cozucu C'yi elemeyle buluyordu. Yeni celdiricilerin ucu de pasajin gercek ayrintilarina dayaniyor (yurume suresi C/1-2, olculen cevre degiskenleri D, katilimcilarin universite ogrencisi olmasi B/1) ve hicbiri ortamin niteligini tersine cevirmiyor."
-      }
-    },
-    {
-      "number": 15,
-      "passage_id": "A11",
-      "select_count": 1,
-      "prompt": "What do the researchers recommend that future studies test?",
-      "options": [
-        {
-          "letter": "A",
-          "text": "Busier streets, measured noise levels and heart-rate readings."
-        },
-        {
-          "letter": "B",
-          "text": "Repeat visits, longer gaps between them and follow-up surveys."
-        },
-        {
-          "letter": "C",
-          "text": "Older participants, other tree species and evening rather than daytime visits."
-        },
-        {
-          "letter": "D",
-          "text": "Longer visits, other seasons and other cultural backgrounds."
+          "text": "The stride keeps its shape while the forces beneath it are rearranged."
         }
       ],
       "answer": [
         "D"
       ],
-      "evidence": "They stress that their sample was small and drawn from a single institution, and recommend that future work test longer exposure times, other seasons, and participants from different cultural backgrounds before the findings are treated as general conclusions about winter forests.",
+      "evidence": "What the study establishes is narrower and firmer than a general rule about surfaces: when the ground under a runner changes in hardness, the visible geometry of the stride stays where it was, while the forces underneath it are quietly redistributed.",
       "evidence_locator": {
-        "paragraph": "H",
-        "sentence": 2
+        "paragraph": "I",
+        "sentence": 4
       },
       "distractor_analysis": {
-        "A": "Yer degistirme -- karsilastirma ortami bilerek trafiksiz seciliyor (C/2) ve olculen degiskenler arasinda gurultu ya da nabiz yok; secenek onerilmemis bir olcum setini siraliyor.",
-        "B": "Cazip ama yok -- sakinlestirici etkinin ne kadar surdugu ilgi cekici bir devam adimi gibi gorunuyor, ama H/2'deki oneri listesinde tekrar ziyaret ya da takip anketi gecmiyor.",
-        "C": "Cazip ama yok -- agac turleri (yuzde 80 ladin, yuzde 20 hus) ve oturum zamani C ve D'de veriliyor, ama bunlarin sinanmasi onerilmiyor; oneri yas degil kultur ekseninde."
+        "A": "Ters yon -- genel kulturun capalandigi secenek: yumusak zeminde adimin kisaldigi ya da degistigi yaygin bir inanis. Calismanin ilk bulgusu tam tersi (E/1-4): kalca, diz ve ayak bilegi acilari uc zeminde ayirt edilemiyor.",
+        "B": "Cazip ama yok -- toplam kuvvetin azaldigi hic soylenmiyor; olculen sey kuvvetin yeniden dagilmasi, buyuklugunun dusmesi degil. Yumusak zeminin 'daha az yuk' anlamina geldigi sezgisi yuzunden cekici.",
+        "C": "Ters yon -- I/2-3 tam tersini soyluyor: tek hiz, duz zemin, on bes metre ve deneycilerin sectigi ayakkabi; viraj alan ya da cok daha hizli kosan biri icin sonuc gecerli olmayabilir."
       },
-      "explanation": "Paragraph H says the researchers recommend that future work test longer exposure times, other seasons, and participants from different cultural backgrounds.",
-      "difficulty": "easy",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_basis": "logic",
-      "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: logic. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md",
-      "flag_mechanism": "konumsal_duzen",
-      "revision": {
-        "tarih": "2026-08-08",
-        "mekanizma": "konumsal_duzen",
-        "onceki_prompt": "What do the researchers recommend for future studies?",
-        "onceki_secenekler": {
-          "A": "Measuring how long the calming effect lasts.",
-          "B": "Comparing forests with busy city streets.",
-          "C": "Concentrating on the winter months alone.",
-          "D": "Trying longer visits, other seasons, other cultures."
+      "scan_note": "Kanit I/4. Ayni paragrafin I/2-3 cumleleri calismanin sinirlarini sayiyor; degismeyen aci ve sertlik degerleri E'de, yeniden dagilan kuvvetler F, G ve H'de ayrintiliyor. Bu kalem yalniz I/4'teki ozet cumleye dayaniyor.",
+      "explanation": "Paragraph I says that when the ground changes in hardness the visible geometry of the stride stays where it was, while the forces underneath it are quietly redistributed.",
+      "difficulty": "medium",
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "faz": "FAZ 1 / B3 yeniden uretim (UYGULAMA-PLANI 1.5)",
+        "yeni_pasaj": "A16",
+        "eski_pasaj": "A08",
+        "eski_prompt": "Why does the writer quote a researcher's reaction to the images?",
+        "eski_cevap": [
+          "C"
+        ],
+        "neden_elendi": "E7 parcasiz olcumde uc turun ucunde de bilindi (dayanak: general_knowledge, mekanizma: konumsal_duzen); ayrica kanit cumlesi artik alistirma havuzuna ait olmayan A08 pasajina aitti.",
+        "ne_degisti": "Kalem bastan yazildi ve A16'nin I/4 cumlesine baglandi. E6 tekniginin en net uygulandigi kalem: 'kosucu yumusak zeminde adimini degistirir' herkesin bildigi sey ve tam olarak YANLIS secenege (A) kondu; dogru cevap calismanin kendi sasirtici bulgusu. Konumsal duzen panzehiri: dogru secenek D harfinde ve en KISA secenek, yani uzunluk imzasi yok.",
+        "recete_sinamasi": "Kok ve secenekler metinsiz okundu: dunya bilgisiyle en makul goruneni A ve o yanlis; D ancak I/4 okunarak secilir. GECTI."
+      }
+    },
+    {
+      "number": 13,
+      "passage_id": "A17",
+      "select_count": 1,
+      "prompt": "What does the writer say about the way the panels were taken out of the water?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "They were brought up at regular three-day intervals."
         },
-        "ne_degisti": "Eskiden yalniz D uc ogeli bir liste bicimindeydi, yani bilimsel makalelerin 'gelecek calisma onerisi' kalibini tasiyan tek secenekti; C ise oneriyi tersine cevirdigi icin (yalniz kisa daraltma) parcasiz elenebiliyordu. Dort secenek de artik uc ogeli, akla yatkin birer oneri listesi ve hicbiri kendi icinde tutarsiz degil; ayirt etme yalniz H/2'yi okumakla mumkun."
+        {
+          "letter": "B",
+          "text": "Every retrieval produced a pair of samples."
+        },
+        {
+          "letter": "C",
+          "text": "Collection appears to have gone on for about a month."
+        },
+        {
+          "letter": "D",
+          "text": "The last of them were left down until growth stopped increasing."
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "evidence": "Panels were brought up on the first, third, sixth, ninth, twelfth and fifteenth days, two frames at a time so that every retrieval produced a duplicate.",
+      "evidence_locator": {
+        "paragraph": "E",
+        "sentence": 1
+      },
+      "distractor_analysis": {
+        "A": "Kapsam kaydirma -- gunler 1, 3, 6, 9, 12 ve 15; ilk aralik iki gun, sonrakiler uc gun. Duzenli bir tasarim beklendigi icin secenek akla yatkin goruyor, ama listeyi okumadan elenemez.",
+        "C": "Kapsam kaydirma -- pencere on bes gun; secenek bunu iki katina cikariyor. J/3 de on bes gunun kisa bir pencere oldugunu soyluyor.",
+        "D": "Cazip ama yok -- toplama takvimi bastan sabit; buyumenin durmasina bagli bir olcut hic gecmiyor, ama deney tasarimi olarak makul goruyor."
+      },
+      "scan_note": "Kanit E/1. Ayni paragrafin devami ornegin nasil yikanip kazindigini (E/2-3) ve elektron mikroskobu icin ayrilan yuzeyleri (E/4) anlatiyor; toplama gunlerinin sonuclari I'de, su kosullarinin her toplamada olculmesi F/1'de geciyor. Bu kalem yalniz E/1'e dayaniyor ve E paragrafindan baska kalem uretilmedi.",
+      "explanation": "Paragraph E says the panels were brought up two frames at a time so that every retrieval produced a duplicate.",
+      "difficulty": "easy",
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "faz": "FAZ 1 / B3 yeniden uretim (UYGULAMA-PLANI 1.5)",
+        "yeni_pasaj": "A17",
+        "eski_pasaj": "A11",
+        "eski_prompt": "What does the writer say about the stand of trees the participants visited?",
+        "eski_cevap": [
+          "C"
+        ],
+        "neden_elendi": "Kanit cumlesi artik alistirma havuzuna ait olmayan A11 pasajina aitti (test havuzu sizintisi).",
+        "ne_degisti": "Kalem bastan yazildi ve A17'nin E/1 cumlesine baglandi. Dogru cevap calismanin kendi tasarim karari (her toplamada ikili ornek); disaridan bilinemez. Duzenli aralik beklentisi -- yani okuru cezbeden 'temiz tasarim' sezgisi -- A secenegine capalandi ve yanlis. Kip dengesi icin dogru secenek mutlak ('Every retrieval'), iki celdirici olculu ('appears to', 'were left').",
+        "recete_sinamasi": "Kok ve secenekler metinsiz okundu: dordu de bir daldirma deneyi icin makul; gun listesi bilinmeden secim yapilamiyor. GECTI."
+      }
+    },
+    {
+      "number": 14,
+      "passage_id": "A17",
+      "select_count": 1,
+      "prompt": "What does the writer say about the variety of bacteria across the fortnight?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "It reached its highest point at the sixth day, fell back, then climbed again."
+        },
+        {
+          "letter": "B",
+          "text": "It appears to have risen steadily from the first day of the trial through to the last."
+        },
+        {
+          "letter": "C",
+          "text": "It was at its greatest on the final day of the trial."
+        },
+        {
+          "letter": "D",
+          "text": "It changed very little once the third day had passed."
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "evidence": "One order dominated the first day's surfaces and a different one the third; by the sixth day several groups shared the space and variety reached its highest point, fell back by the ninth day, then rose again by the fifteenth.",
+      "evidence_locator": {
+        "paragraph": "I",
+        "sentence": 4
+      },
+      "distractor_analysis": {
+        "B": "Kapsam kaydirma -- genel kulturun capalandigi secenek: bir yuzey kolonilesirken cesitliligin duzenli olarak artmasi beklenir. Metnin verdigi egri duz degil: tepe, dusus ve yeniden yukselis.",
+        "C": "Yakin ama eksik -- on besinci gunde cesitlilik yeniden yukseliyor, ama en yuksek noktanin altinci gun oldugu ayni cumlede soyleniyor.",
+        "D": "Ters yon -- ucuncu gunden sonrasi tam da en hareketli bolum; ustelik I/3 zamanin her seyi yeniden duzenledigini soyluyor."
+      },
+      "scan_note": "Kanit I/4. Ayni paragrafta I/2 orneklerin malzemeye gore degil gune gore kumelendigini, I/5 Proteobacteria'nin duzenli azalisini soyluyor; kutle farklari G'de, dizileme sayilari H'de. Bu kalem yalniz I/4'teki cesitlilik egrisine dayaniyor ve I paragrafindan baska kalem uretilmedi.",
+      "explanation": "Paragraph I says variety reached its highest point by the sixth day, fell back by the ninth day, then rose again by the fifteenth.",
+      "difficulty": "medium",
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "faz": "FAZ 1 / B3 yeniden uretim (UYGULAMA-PLANI 1.5)",
+        "yeni_pasaj": "A17",
+        "eski_pasaj": "A11",
+        "eski_prompt": "What reason does the writer give for the choice of the campus spot?",
+        "eski_cevap": [
+          "C"
+        ],
+        "neden_elendi": "Isaretli kalem (mekanizma: konumsal_duzen) -- dogru secenek kontrol kosulu mantigiyla elemeyle bulunabiliyordu; ayrica kanit cumlesi artik alistirma havuzuna ait olmayan A11 pasajina aitti.",
+        "ne_degisti": "Kalem bastan yazildi ve A17'nin I/4 cumlesine baglandi. Genel kultur ('kolonilesme ilerledikce cesitlilik artar') B secenegine capalandi ve yanlis; dogru cevap metnin kendi olctugu duzensiz egri (tepe-dusus-yeniden yukselis). Konumsal duzen panzehiri: dogru secenek A harfinde, boylece pakette dogru harf dagilimi dengeleniyor.",
+        "recete_sinamasi": "Kok ve secenekler metinsiz okundu: dort egri de bir on bes gunluk kolonilesme icin makul; ancak I/4 okunarak ayirt ediliyor. GECTI."
+      }
+    },
+    {
+      "number": 15,
+      "passage_id": "A17",
+      "select_count": 1,
+      "prompt": "What practical point do the authors make at the end?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Titanium should be chosen for intake surfaces wherever it is affordable."
+        },
+        {
+          "letter": "B",
+          "text": "Cleaning is best done before the sixth day, while variety is still rising."
+        },
+        {
+          "letter": "C",
+          "text": "When a surface is cleaned may count for as much as what it is made of."
+        },
+        {
+          "letter": "D",
+          "text": "A wider range of materials would show the same absence of sorting."
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "evidence": "Within those limits the practical message is straightforward: a plant that cleans an intake surface is choosing a moment in a predictable sequence, and the moment may matter as much as the metal.",
+      "evidence_locator": {
+        "paragraph": "J",
+        "sentence": 4
+      },
+      "distractor_analysis": {
+        "A": "Yakin ama eksik -- genel kulturun capalandigi secenek: 'en dayanikli malzemeyi sec' hem sezgisel hem de G/1'deki kutle siralamasiyla (titanyum en az birikim) desteklenir gorunur. Ama kapanis paragrafi boyle bir tavsiye vermiyor; verdigi mesaj malzeme degil zamanlama uzerine.",
+        "B": "Cazip ama yok -- belirli bir temizlik gunu hicbir yerde onerilmiyor; I/4'teki cesitlilik egrisinden turetilmis gibi durdugu icin cekici.",
+        "D": "Ters yon -- J/2 tam tersini soyluyor: daha genis bir malzeme yelpazesi, bu ucunde gorulmeyen malzemeye gore ayrismayi yine de ortaya cikarabilir."
+      },
+      "scan_note": "Kanit J/4. Ayni paragrafta J/2 malzeme sayisinin, J/3 on bes gunluk pencerenin sinirlarini anlatiyor; malzemenin kutleye etkisi G'de, zamanin toplulugu belirlemesi I'de. Bu kalem yalniz J/4'teki pratik mesaja dayaniyor.",
+      "explanation": "Paragraph J says a plant that cleans an intake surface is choosing a moment in a predictable sequence, and that the moment may matter as much as the metal.",
+      "difficulty": "medium",
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "faz": "FAZ 1 / B3 yeniden uretim (UYGULAMA-PLANI 1.5)",
+        "yeni_pasaj": "A17",
+        "eski_pasaj": "A11",
+        "eski_prompt": "What do the researchers recommend that future studies test?",
+        "eski_cevap": [
+          "D"
+        ],
+        "neden_elendi": "E7 parcasiz olcumde uc turun ucunde de bilindi (dayanak: logic, mekanizma: konumsal_duzen); ayrica kanit cumlesi artik alistirma havuzuna ait olmayan A11 pasajina aitti.",
+        "ne_degisti": "Kalem bastan yazildi ve A17'nin J/4 cumlesine baglandi. Genel kultur ('en iyi malzemeyi sec') A secenegine capalandi; ustelik bu secenek pasajin BASKA bir yerindeki bulguyla (G/1 titanyum en az birikim) desteklenir gorundugu icin yalniz kapanis paragrafini okuyan aday ayirt edebiliyor. Kip dengesi icin dogru secenek olculu ('may count'), celdiricilerden A ve D kesin.",
+        "recete_sinamasi": "Kok ve secenekler metinsiz okundu: dunya bilgisiyle en makul goruneni A ve o yanlis; C ancak J/4 okunarak secilir. GECTI."
       }
     }
   ]

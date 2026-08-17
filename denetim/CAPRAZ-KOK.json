@@ -13,27 +13,25 @@
   },
   "ozet": {
     "kanit_cakismasi": {
-      "okuma": 61,
+      "okuma": 12,
       "dinleme": 0
     },
     "kok_cakismasi": {
-      "okuma": 15,
+      "okuma": 5,
       "dinleme": 94
     },
     "pasaj_senaryo_payi": {
-      "okuma": 17,
+      "okuma": 0,
       "dinleme": 22
     },
     "alistirma_sorusu_test_cevabi_veren_kalem": {
-      "okuma": 7,
+      "okuma": 0,
       "dinleme": 14
     }
   },
   "kok_yon_dagilimi": {
     "okuma": {
-      "alistirma_cevabi -> alistirma_prompt": 4,
-      "test_cevabi -> alistirma_prompt": 7,
-      "alistirma_cevabi -> test_prompt": 1,
+      "alistirma_cevabi -> test_prompt": 2,
       "test_cevabi -> test_prompt": 3
     },
     "dinleme": {
@@ -45,292 +43,6 @@
   },
   "kanit_cakismasi": {
     "okuma": [
-      {
-        "evidence_ornek": "Using a Latin square design, in which every team eventually experienced every condition but in a different order, the teams rotated through four distinct office layouts, each for a two-week period: a conventional open-plan office with minimal separation between desks, acting as the baseline; a zoned open-plan design with soundproof doors dividing spaces into rooms holding no more than 40 people; an activity-based design offering unassigned desks alongside dedicated focus rooms and collaboration areas; and a team-office design with large, partly enclosed cubicles seating four to six people behind sound-absorbing panels.",
-        "normalize": "using a latin square design in which every team eventually experienced every condition but in a different order the teams rotated through four distinct office layouts each for a two week period a conventional open plan office with minimal separation between desks acting as the baseline a zoned open plan design with soundproof doors dividing spaces into rooms holding no more than 40 people an activity based design offering unassigned desks alongside dedicated focus rooms and collaboration areas and a team office design with large partly enclosed cubicles seating four to six people behind sound absorbing panels",
-        "kalem_sayisi": 4,
-        "paket_sayisi": 3,
-        "kalemler": [
-          {
-            "paket": "content/reading/practice/matching-features.json",
-            "number": 5,
-            "practice": true
-          },
-          {
-            "paket": "content/reading/practice/yes-no-not-given.json",
-            "number": 5,
-            "practice": true
-          },
-          {
-            "paket": "content/reading/tests/AC4/note-completion.json",
-            "number": 2,
-            "practice": false
-          },
-          {
-            "paket": "content/reading/tests/AC4/note-completion.json",
-            "number": 3,
-            "practice": false
-          }
-        ]
-      },
-      {
-        "evidence_ornek": "The clearest effect of the entire study appeared on the Restorative Outcome Scale, which increased sharply after time in the forest, indicating that participants found the snow-covered woodland strongly refreshing even though it produced no accompanying jump in energy.",
-        "normalize": "the clearest effect of the entire study appeared on the restorative outcome scale which increased sharply after time in the forest indicating that participants found the snow covered woodland strongly refreshing even though it produced no accompanying jump in energy",
-        "kalem_sayisi": 4,
-        "paket_sayisi": 4,
-        "kalemler": [
-          {
-            "paket": "content/reading/practice/summary-completion.json",
-            "number": 7,
-            "practice": true
-          },
-          {
-            "paket": "content/reading/practice/yes-no-not-given.json",
-            "number": 11,
-            "practice": true
-          },
-          {
-            "paket": "content/reading/tests/AC4/matching-features.json",
-            "number": 23,
-            "practice": false
-          },
-          {
-            "paket": "content/reading/tests/AC4/matching-headings.json",
-            "number": 18,
-            "practice": false
-          }
-        ]
-      },
-      {
-        "evidence_ornek": "The activity-based design, despite its popularity in contemporary office trends, performed worse than the open-plan baseline on both measures, with satisfaction and productivity scores roughly 14 per cent lower.",
-        "normalize": "the activity based design despite its popularity in contemporary office trends performed worse than the open plan baseline on both measures with satisfaction and productivity scores roughly 14 per cent lower",
-        "kalem_sayisi": 3,
-        "paket_sayisi": 3,
-        "kalemler": [
-          {
-            "paket": "content/reading/practice/matching-features.json",
-            "number": 1,
-            "practice": true
-          },
-          {
-            "paket": "content/reading/practice/summary-completion.json",
-            "number": 1,
-            "practice": true
-          },
-          {
-            "paket": "content/reading/tests/AC4/true-false-not-given.json",
-            "number": 11,
-            "practice": false
-          }
-        ]
-      },
-      {
-        "evidence_ornek": "Employees in team offices reported flow scores 12 per cent higher than those in the open-plan condition, and employees in the zoned open-plan design reported flow scores 15 per cent higher, suggesting that both partly enclosed layouts allowed for more sustained concentration than either the fully open or the fully unassigned arrangement.",
-        "normalize": "employees in team offices reported flow scores 12 per cent higher than those in the open plan condition and employees in the zoned open plan design reported flow scores 15 per cent higher suggesting that both partly enclosed layouts allowed for more sustained concentration than either the fully open or the fully unassigned arrangement",
-        "kalem_sayisi": 3,
-        "paket_sayisi": 3,
-        "kalemler": [
-          {
-            "paket": "content/reading/practice/matching-features.json",
-            "number": 4,
-            "practice": true
-          },
-          {
-            "paket": "content/reading/practice/summary-completion.json",
-            "number": 2,
-            "practice": true
-          },
-          {
-            "paket": "content/reading/practice/yes-no-not-given.json",
-            "number": 7,
-            "practice": true
-          }
-        ]
-      },
-      {
-        "evidence_ornek": "His success was not limited to the cube itself: when it was removed, he pushed a large tractor tyre into use as a substitute platform, and with smaller objects he attempted, less successfully, to stack them on top of one another.",
-        "normalize": "his success was not limited to the cube itself when it was removed he pushed a large tractor tyre into use as a substitute platform and with smaller objects he attempted less successfully to stack them on top of one another",
-        "kalem_sayisi": 3,
-        "paket_sayisi": 3,
-        "kalemler": [
-          {
-            "paket": "content/reading/practice/matching-headings.json",
-            "number": 3,
-            "practice": true
-          },
-          {
-            "paket": "content/reading/tests/AC1/note-completion.json",
-            "number": 4,
-            "practice": false
-          },
-          {
-            "paket": "content/reading/tests/AC1/true-false-not-given.json",
-            "number": 10,
-            "practice": false
-          }
-        ]
-      },
-      {
-        "evidence_ornek": "To reduce the grogginess that can follow a nap and distort test performance, all participants completed a 30-minute puzzle game before their final recall test.",
-        "normalize": "to reduce the grogginess that can follow a nap and distort test performance all participants completed a 30 minute puzzle game before their final recall test",
-        "kalem_sayisi": 3,
-        "paket_sayisi": 3,
-        "kalemler": [
-          {
-            "paket": "content/reading/practice/matching-headings.json",
-            "number": 13,
-            "practice": true
-          },
-          {
-            "paket": "content/reading/tests/AC4/matching-information.json",
-            "number": 27,
-            "practice": false
-          },
-          {
-            "paket": "content/reading/tests/AC4/summary-completion.json",
-            "number": 36,
-            "practice": false
-          }
-        ]
-      },
-      {
-        "evidence_ornek": "These actions, described by the researchers as self-directed rather than social, appeared within the very first mirror session for two of the four animals, Natasha and Maris, after little more than two hours of exposure.",
-        "normalize": "these actions described by the researchers as self directed rather than social appeared within the very first mirror session for two of the four animals natasha and maris after little more than two hours of exposure",
-        "kalem_sayisi": 3,
-        "paket_sayisi": 3,
-        "kalemler": [
-          {
-            "paket": "content/reading/practice/matching-information.json",
-            "number": 12,
-            "practice": true
-          },
-          {
-            "paket": "content/reading/practice/matching-sentence-endings.json",
-            "number": 2,
-            "practice": true
-          },
-          {
-            "paket": "content/reading/tests/AC3/true-false-not-given.json",
-            "number": 9,
-            "practice": false
-          }
-        ]
-      },
-      {
-        "evidence_ornek": "One plausible explanation is that volunteering pays off financially: it can widen a person's professional network, build skills and demonstrate reliability to future employers, all of which might raise household income, and higher income is itself strongly linked to better self-rated health.",
-        "normalize": "one plausible explanation is that volunteering pays off financially it can widen a person s professional network build skills and demonstrate reliability to future employers all of which might raise household income and higher income is itself strongly linked to better self rated health",
-        "kalem_sayisi": 3,
-        "paket_sayisi": 3,
-        "kalemler": [
-          {
-            "paket": "content/reading/practice/matching-sentence-endings.json",
-            "number": 9,
-            "practice": true
-          },
-          {
-            "paket": "content/reading/tests/GT2/matching-headings.json",
-            "number": 30,
-            "practice": false
-          },
-          {
-            "paket": "content/reading/tests/GT2/yes-no-not-given.json",
-            "number": 35,
-            "practice": false
-          }
-        ]
-      },
-      {
-        "evidence_ornek": "A ground survey carried out on 12 December confirmed what the satellite images had suggested from orbit: extensive new debris fields, some stretching for kilometres, now lay across terrain that had been buried under clean snow and ice only weeks before.",
-        "normalize": "a ground survey carried out on 12 december confirmed what the satellite images had suggested from orbit extensive new debris fields some stretching for kilometres now lay across terrain that had been buried under clean snow and ice only weeks before",
-        "kalem_sayisi": 3,
-        "paket_sayisi": 3,
-        "kalemler": [
-          {
-            "paket": "content/reading/practice/multiple-choice.json",
-            "number": 11,
-            "practice": true
-          },
-          {
-            "paket": "content/reading/practice/note-completion.json",
-            "number": 8,
-            "practice": true
-          },
-          {
-            "paket": "content/reading/tests/AC3/matching-headings.json",
-            "number": 16,
-            "practice": false
-          }
-        ]
-      },
-      {
-        "evidence_ornek": "In the forest condition, participants walked for five minutes to reach a stand of Norway spruce and silver birch trees, roughly 80 and 20 per cent of the stand respectively, ranging in age from 80 to 108 years and fully covered in snow, where they spent 15 minutes simply standing or sitting quietly.",
-        "normalize": "in the forest condition participants walked for five minutes to reach a stand of norway spruce and silver birch trees roughly 80 and 20 per cent of the stand respectively ranging in age from 80 to 108 years and fully covered in snow where they spent 15 minutes simply standing or sitting quietly",
-        "kalem_sayisi": 3,
-        "paket_sayisi": 3,
-        "kalemler": [
-          {
-            "paket": "content/reading/practice/multiple-choice.json",
-            "number": 13,
-            "practice": true
-          },
-          {
-            "paket": "content/reading/tests/AC4/matching-headings.json",
-            "number": 15,
-            "practice": false
-          },
-          {
-            "paket": "content/reading/tests/AC4/sentence-completion.json",
-            "number": 19,
-            "practice": false
-          }
-        ]
-      },
-      {
-        "evidence_ornek": "In the comparison condition, participants instead walked two minutes to a spot on campus where they spent 15 minutes viewing nearby buildings, an environment the researchers deliberately chose to be calm and free of traffic rather than obviously stressful.",
-        "normalize": "in the comparison condition participants instead walked two minutes to a spot on campus where they spent 15 minutes viewing nearby buildings an environment the researchers deliberately chose to be calm and free of traffic rather than obviously stressful",
-        "kalem_sayisi": 3,
-        "paket_sayisi": 3,
-        "kalemler": [
-          {
-            "paket": "content/reading/practice/multiple-choice.json",
-            "number": 14,
-            "practice": true
-          },
-          {
-            "paket": "content/reading/practice/yes-no-not-given.json",
-            "number": 9,
-            "practice": true
-          },
-          {
-            "paket": "content/reading/tests/AC4/sentence-completion.json",
-            "number": 20,
-            "practice": false
-          }
-        ]
-      },
-      {
-        "evidence_ornek": "Reversals of dominance, in which the previously subordinate animal became the stronger one, occurred only when the pair consisted of two strangers, in eight of the twelve such pairings; no reversal of this kind was seen among reunited familiar pairs, and no ink was released by any octopus during this final test.",
-        "normalize": "reversals of dominance in which the previously subordinate animal became the stronger one occurred only when the pair consisted of two strangers in eight of the twelve such pairings no reversal of this kind was seen among reunited familiar pairs and no ink was released by any octopus during this final test",
-        "kalem_sayisi": 3,
-        "paket_sayisi": 3,
-        "kalemler": [
-          {
-            "paket": "content/reading/practice/true-false-not-given.json",
-            "number": 4,
-            "practice": true
-          },
-          {
-            "paket": "content/reading/tests/AC1/matching-features.json",
-            "number": 24,
-            "practice": false
-          },
-          {
-            "paket": "content/reading/tests/AC1/sentence-completion.json",
-            "number": 21,
-            "practice": false
-          }
-        ]
-      },
       {
         "evidence_ornek": "Across these encounters a dominance hierarchy consistently emerged, with the stronger animal in each pair winning an average of seventy-six per cent of interactions, and physical contact and defensive ink-jetting both became less frequent as the three days went on and the pair grew more familiar with one another.",
         "normalize": "across these encounters a dominance hierarchy consistently emerged with the stronger animal in each pair winning an average of seventy six per cent of interactions and physical contact and defensive ink jetting both became less frequent as the three days went on and the pair grew more familiar with one another",
@@ -355,775 +67,19 @@
         ]
       },
       {
-        "evidence_ornek": "Recycling, including paper, glass and plastic bottles, is collected on alternate Thursdays — check the colour-coded calendar in the entrance hall for exact dates.",
-        "normalize": "recycling including paper glass and plastic bottles is collected on alternate thursdays check the colour coded calendar in the entrance hall for exact dates",
+        "evidence_ornek": "Reversals of dominance, in which the previously subordinate animal became the stronger one, occurred only when the pair consisted of two strangers, in eight of the twelve such pairings; no reversal of this kind was seen among reunited familiar pairs, and no ink was released by any octopus during this final test.",
+        "normalize": "reversals of dominance in which the previously subordinate animal became the stronger one occurred only when the pair consisted of two strangers in eight of the twelve such pairings no reversal of this kind was seen among reunited familiar pairs and no ink was released by any octopus during this final test",
         "kalem_sayisi": 2,
         "paket_sayisi": 2,
         "kalemler": [
-          {
-            "paket": "content/reading/practice/diagram-labelling.json",
-            "number": 2,
-            "practice": true
-          },
-          {
-            "paket": "content/reading/tests/GT1/matching-information.json",
-            "number": 5,
-            "practice": false
-          }
-        ]
-      },
-      {
-        "evidence_ornek": "Helmets are not provided and riders are responsible for their own safety equipment.",
-        "normalize": "helmets are not provided and riders are responsible for their own safety equipment",
-        "kalem_sayisi": 2,
-        "paket_sayisi": 2,
-        "kalemler": [
-          {
-            "paket": "content/reading/practice/diagram-labelling.json",
-            "number": 5,
-            "practice": true
-          },
-          {
-            "paket": "content/reading/tests/GT2/true-false-not-given.json",
-            "number": 8,
-            "practice": false
-          }
-        ]
-      },
-      {
-        "evidence_ornek": "Provide their own reliable internet connection of at least 10 Mbps.",
-        "normalize": "provide their own reliable internet connection of at least 10 mbps",
-        "kalem_sayisi": 2,
-        "paket_sayisi": 2,
-        "kalemler": [
-          {
-            "paket": "content/reading/practice/diagram-labelling.json",
-            "number": 9,
-            "practice": true
-          },
-          {
-            "paket": "content/reading/tests/GT2/sentence-completion.json",
-            "number": 25,
-            "practice": false
-          }
-        ]
-      },
-      {
-        "evidence_ornek": "Rice and other cereals accounted for the single largest share of edible waste, at nearly 17 kilograms per person annually, with vegetables close behind.",
-        "normalize": "rice and other cereals accounted for the single largest share of edible waste at nearly 17 kilograms per person annually with vegetables close behind",
-        "kalem_sayisi": 2,
-        "paket_sayisi": 2,
-        "kalemler": [
-          {
-            "paket": "content/reading/practice/matching-features.json",
-            "number": 6,
-            "practice": true
-          },
-          {
-            "paket": "content/reading/tests/GT1/matching-headings.json",
-            "number": 31,
-            "practice": false
-          }
-        ]
-      },
-      {
-        "evidence_ornek": "Discarded drinks were tracked separately: participants kept a seven-day diary noting the type and amount of any beverage poured away.",
-        "normalize": "discarded drinks were tracked separately participants kept a seven day diary noting the type and amount of any beverage poured away",
-        "kalem_sayisi": 2,
-        "paket_sayisi": 2,
-        "kalemler": [
-          {
-            "paket": "content/reading/practice/matching-features.json",
-            "number": 9,
-            "practice": true
-          },
-          {
-            "paket": "content/reading/practice/summary-completion.json",
-            "number": 10,
-            "practice": true
-          }
-        ]
-      },
-      {
-        "evidence_ornek": "Beverages made up a smaller but still measurable part of the total: households poured away an average of 0.3 kilograms of coffee and 0.2 kilograms of tea per person each year, most often because a pot or cup had been made larger than anyone actually wanted to finish.",
-        "normalize": "beverages made up a smaller but still measurable part of the total households poured away an average of 0 3 kilograms of coffee and 0 2 kilograms of tea per person each year most often because a pot or cup had been made larger than anyone actually wanted to finish",
-        "kalem_sayisi": 2,
-        "paket_sayisi": 2,
-        "kalemler": [
-          {
-            "paket": "content/reading/practice/matching-features.json",
-            "number": 10,
-            "practice": true
-          },
-          {
-            "paket": "content/reading/tests/GT1/matching-headings.json",
-            "number": 32,
-            "practice": false
-          }
-        ]
-      },
-      {
-        "evidence_ornek": "There had been no earlier attempts to push, climb or stack anything nearby; the behaviour appeared abruptly, in a single uninterrupted sequence.",
-        "normalize": "there had been no earlier attempts to push climb or stack anything nearby the behaviour appeared abruptly in a single uninterrupted sequence",
-        "kalem_sayisi": 2,
-        "paket_sayisi": 2,
-        "kalemler": [
-          {
-            "paket": "content/reading/practice/matching-headings.json",
-            "number": 2,
-            "practice": true
-          },
-          {
-            "paket": "content/reading/tests/AC1/true-false-not-given.json",
-            "number": 9,
-            "practice": false
-          }
-        ]
-      },
-      {
-        "evidence_ornek": "The following day, without any hesitation, he walked straight to the passageway where the cube had been left and rolled it out, evidence, the researchers argued, that he recalled precisely where a useful object had been the day before rather than searching at random.",
-        "normalize": "the following day without any hesitation he walked straight to the passageway where the cube had been left and rolled it out evidence the researchers argued that he recalled precisely where a useful object had been the day before rather than searching at random",
-        "kalem_sayisi": 2,
-        "paket_sayisi": 2,
-        "kalemler": [
-          {
-            "paket": "content/reading/practice/matching-headings.json",
-            "number": 4,
-            "practice": true
-          },
-          {
-            "paket": "content/reading/tests/AC1/true-false-not-given.json",
-            "number": 11,
-            "practice": false
-          }
-        ]
-      },
-      {
-        "evidence_ornek": "The authors suggest that the problem lay in the tools previous experiments had offered, not in the animals' intelligence.",
-        "normalize": "the authors suggest that the problem lay in the tools previous experiments had offered not in the animals intelligence",
-        "kalem_sayisi": 2,
-        "paket_sayisi": 2,
-        "kalemler": [
-          {
-            "paket": "content/reading/practice/matching-headings.json",
-            "number": 5,
-            "practice": true
-          },
-          {
-            "paket": "content/reading/tests/AC1/true-false-not-given.json",
-            "number": 12,
-            "practice": false
-          }
-        ]
-      },
-      {
-        "evidence_ornek": "His remains had been known to archaeologists since the 1960s, but a more recent examination revealed something unexpected: a dark, glassy material inside his skull, distinct in appearance from the surrounding bone and ash.",
-        "normalize": "his remains had been known to archaeologists since the 1960s but a more recent examination revealed something unexpected a dark glassy material inside his skull distinct in appearance from the surrounding bone and ash",
-        "kalem_sayisi": 2,
-        "paket_sayisi": 2,
-        "kalemler": [
-          {
-            "paket": "content/reading/practice/matching-headings.json",
-            "number": 6,
-            "practice": true
-          },
-          {
-            "paket": "content/reading/tests/AC3/matching-information.json",
-            "number": 27,
-            "practice": false
-          }
-        ]
-      },
-      {
-        "evidence_ornek": "Detailed analysis showed that this material was not a mineral deposit or later contamination but vitrified human brain tissue, tissue that had been converted directly into a glass-like solid.",
-        "normalize": "detailed analysis showed that this material was not a mineral deposit or later contamination but vitrified human brain tissue tissue that had been converted directly into a glass like solid",
-        "kalem_sayisi": 2,
-        "paket_sayisi": 2,
-        "kalemler": [
-          {
-            "paket": "content/reading/practice/matching-headings.json",
-            "number": 7,
-            "practice": true
-          },
-          {
-            "paket": "content/reading/practice/true-false-not-given.json",
-            "number": 15,
-            "practice": true
-          }
-        ]
-      },
-      {
-        "evidence_ornek": "Because these proteins are not associated with bone, ash or other materials likely to be found inside a skull, their presence strongly supports the conclusion that the glassy material genuinely originated from the man's brain and spinal cord rather than from some other source.",
-        "normalize": "because these proteins are not associated with bone ash or other materials likely to be found inside a skull their presence strongly supports the conclusion that the glassy material genuinely originated from the man s brain and spinal cord rather than from some other source",
-        "kalem_sayisi": 2,
-        "paket_sayisi": 2,
-        "kalemler": [
-          {
-            "paket": "content/reading/practice/matching-headings.json",
-            "number": 10,
-            "practice": true
-          },
-          {
-            "paket": "content/reading/tests/AC3/matching-information.json",
-            "number": 31,
-            "practice": false
-          }
-        ]
-      },
-      {
-        "evidence_ornek": "The results revealed a clear difference depending on the type of material being remembered.",
-        "normalize": "the results revealed a clear difference depending on the type of material being remembered",
-        "kalem_sayisi": 2,
-        "paket_sayisi": 2,
-        "kalemler": [
-          {
-            "paket": "content/reading/practice/matching-headings.json",
-            "number": 14,
-            "practice": true
-          },
-          {
-            "paket": "content/reading/practice/yes-no-not-given.json",
-            "number": 14,
-            "practice": true
-          }
-        ]
-      },
-      {
-        "evidence_ornek": "Neither the exact length of a nap nor the particular stages of sleep it contained showed any significant relationship with how much memory improved, suggesting that simply having the opportunity to nap mattered more than its precise internal structure.",
-        "normalize": "neither the exact length of a nap nor the particular stages of sleep it contained showed any significant relationship with how much memory improved suggesting that simply having the opportunity to nap mattered more than its precise internal structure",
-        "kalem_sayisi": 2,
-        "paket_sayisi": 2,
-        "kalemler": [
-          {
-            "paket": "content/reading/practice/matching-headings.json",
-            "number": 15,
-            "practice": true
-          },
-          {
-            "paket": "content/reading/tests/AC4/summary-completion.json",
-            "number": 40,
-            "practice": false
-          }
-        ]
-      },
-      {
-        "evidence_ornek": "According to team member Matthew Tiscareno of the SETI Institute, no other planet in the solar system has as many small inner moons as Uranus, and the complicated gravitational relationships between these moons and the planet's faint rings point to a chaotic early history, one in which the line between \"ring\" and \"moon\" may not always have been as clear as it is today.",
-        "normalize": "according to team member matthew tiscareno of the seti institute no other planet in the solar system has as many small inner moons as uranus and the complicated gravitational relationships between these moons and the planet s faint rings point to a chaotic early history one in which the line between ring and moon may not always have been as clear as it is today",
-        "kalem_sayisi": 2,
-        "paket_sayisi": 2,
-        "kalemler": [
-          {
-            "paket": "content/reading/practice/matching-information.json",
-            "number": 5,
-            "practice": true
-          },
-          {
-            "paket": "content/reading/tests/AC2/true-false-not-given.json",
-            "number": 12,
-            "practice": false
-          }
-        ]
-      },
-      {
-        "evidence_ornek": "The observations were taken through a wide infrared filter sensitive to wavelengths between one and two and a half microns, well beyond what the human eye can detect, and formed part of a broader Webb research programme open to scientists from around the world who compete for a limited amount of telescope time.",
-        "normalize": "the observations were taken through a wide infrared filter sensitive to wavelengths between one and two and a half microns well beyond what the human eye can detect and formed part of a broader webb research programme open to scientists from around the world who compete for a limited amount of telescope time",
-        "kalem_sayisi": 2,
-        "paket_sayisi": 2,
-        "kalemler": [
-          {
-            "paket": "content/reading/practice/matching-information.json",
-            "number": 7,
-            "practice": true
-          },
-          {
-            "paket": "content/reading/tests/AC2/true-false-not-given.json",
-            "number": 7,
-            "practice": false
-          }
-        ]
-      },
-      {
-        "evidence_ornek": "Its size simply placed it below the threshold that Voyager's instruments, or any Earth-based telescope in the decades since, could resolve, meaning the moon had been circling Uranus unnoticed for the nearly forty years between that flyby and Webb's observations.",
-        "normalize": "its size simply placed it below the threshold that voyager s instruments or any earth based telescope in the decades since could resolve meaning the moon had been circling uranus unnoticed for the nearly forty years between that flyby and webb s observations",
-        "kalem_sayisi": 2,
-        "paket_sayisi": 2,
-        "kalemler": [
-          {
-            "paket": "content/reading/practice/matching-information.json",
-            "number": 8,
-            "practice": true
-          },
-          {
-            "paket": "content/reading/tests/AC2/true-false-not-given.json",
-            "number": 11,
-            "practice": false
-          }
-        ]
-      },
-      {
-        "evidence_ornek": "Across the study the whales spent roughly 27 hours in front of the mirror and about 23 hours in front of the plain panel.",
-        "normalize": "across the study the whales spent roughly 27 hours in front of the mirror and about 23 hours in front of the plain panel",
-        "kalem_sayisi": 2,
-        "paket_sayisi": 2,
-        "kalemler": [
-          {
-            "paket": "content/reading/practice/matching-information.json",
-            "number": 11,
-            "practice": true
-          },
-          {
-            "paket": "content/reading/tests/AC3/true-false-not-given.json",
-            "number": 7,
-            "practice": false
-          }
-        ]
-      },
-      {
-        "evidence_ornek": "A six-item Restorative Outcome Scale assessed how mentally refreshing participants found the environment, and a four-item Subjective Vitality Scale measured their sense of energy.",
-        "normalize": "a six item restorative outcome scale assessed how mentally refreshing participants found the environment and a four item subjective vitality scale measured their sense of energy",
-        "kalem_sayisi": 2,
-        "paket_sayisi": 2,
-        "kalemler": [
-          {
-            "paket": "content/reading/practice/matching-information.json",
-            "number": 13,
-            "practice": true
-          },
-          {
-            "paket": "content/reading/tests/AC4/matching-features.json",
-            "number": 24,
-            "practice": false
-          }
-        ]
-      },
-      {
-        "evidence_ornek": "In the first phase a large two-way mirror was lowered into one section of their pool on some days and, on other days, a transparent acrylic panel of identical size was used instead as a control, so that researchers could distinguish curiosity about a novel object from a specific response to a reflection.",
-        "normalize": "in the first phase a large two way mirror was lowered into one section of their pool on some days and on other days a transparent acrylic panel of identical size was used instead as a control so that researchers could distinguish curiosity about a novel object from a specific response to a reflection",
-        "kalem_sayisi": 2,
-        "paket_sayisi": 2,
-        "kalemler": [
-          {
-            "paket": "content/reading/practice/matching-sentence-endings.json",
-            "number": 1,
-            "practice": true
-          },
-          {
-            "paket": "content/reading/tests/AC3/table-completion.json",
-            "number": 1,
-            "practice": false
-          }
-        ]
-      },
-      {
-        "evidence_ornek": "A harmless cosmetic mark, five to eight centimetres across, was applied to a part of the body the whale could not see without a mirror, most often just behind an eye or an ear.",
-        "normalize": "a harmless cosmetic mark five to eight centimetres across was applied to a part of the body the whale could not see without a mirror most often just behind an eye or an ear",
-        "kalem_sayisi": 2,
-        "paket_sayisi": 2,
-        "kalemler": [
-          {
-            "paket": "content/reading/practice/matching-sentence-endings.json",
-            "number": 3,
-            "practice": true
-          },
-          {
-            "paket": "content/reading/tests/AC3/table-completion.json",
-            "number": 3,
-            "practice": false
-          }
-        ]
-      },
-      {
-        "evidence_ornek": "When she carried an invisible sham mark instead, the equivalent behaviour lasted only twenty-three seconds across four approaches, a difference the researchers regarded as strong evidence that she was inspecting the mark itself rather than merely enjoying the mirror.",
-        "normalize": "when she carried an invisible sham mark instead the equivalent behaviour lasted only twenty three seconds across four approaches a difference the researchers regarded as strong evidence that she was inspecting the mark itself rather than merely enjoying the mirror",
-        "kalem_sayisi": 2,
-        "paket_sayisi": 2,
-        "kalemler": [
-          {
-            "paket": "content/reading/practice/matching-sentence-endings.json",
-            "number": 4,
-            "practice": true
-          },
-          {
-            "paket": "content/reading/tests/AC3/table-completion.json",
-            "number": 5,
-            "practice": false
-          }
-        ]
-      },
-      {
-        "evidence_ornek": "Individual octopuses ranged from 114 to 324 grams, and the sample of sixty animals included forty-two males and eighteen females.",
-        "normalize": "individual octopuses ranged from 114 to 324 grams and the sample of sixty animals included forty two males and eighteen females",
-        "kalem_sayisi": 2,
-        "paket_sayisi": 2,
-        "kalemler": [
-          {
-            "paket": "content/reading/practice/multiple-choice.json",
-            "number": 1,
-            "practice": true
-          },
-          {
-            "paket": "content/reading/practice/true-false-not-given.json",
-            "number": 1,
-            "practice": true
-          }
-        ]
-      },
-      {
-        "evidence_ornek": "Because vision alone, without touch or water-borne chemical cues, was enough to produce weaker measurable differences in the earlier acclimatisation stage, the team suggests that sight and physical contact together, rather than either sense alone, most likely underlie this recognition, though they note that octopuses' sense of smell and taste remains too poorly understood to rule out a contribution from chemical signals as well.",
-        "normalize": "because vision alone without touch or water borne chemical cues was enough to produce weaker measurable differences in the earlier acclimatisation stage the team suggests that sight and physical contact together rather than either sense alone most likely underlie this recognition though they note that octopuses sense of smell and taste remains too poorly understood to rule out a contribution from chemical signals as well",
-        "kalem_sayisi": 2,
-        "paket_sayisi": 2,
-        "kalemler": [
-          {
-            "paket": "content/reading/practice/multiple-choice.json",
-            "number": "3-4",
-            "practice": true
-          },
           {
             "paket": "content/reading/tests/AC1/matching-features.json",
-            "number": 26,
+            "number": 24,
             "practice": false
-          }
-        ]
-      },
-      {
-        "evidence_ornek": "Of the sequences obtained at one marker length, twenty-two in all, seventeen distinct genetic variants emerged, thirteen of which had never before been recorded in any genetic database; a further ten sequences at a second marker length revealed five variants, two of them likewise entirely new.",
-        "normalize": "of the sequences obtained at one marker length twenty two in all seventeen distinct genetic variants emerged thirteen of which had never before been recorded in any genetic database a further ten sequences at a second marker length revealed five variants two of them likewise entirely new",
-        "kalem_sayisi": 2,
-        "paket_sayisi": 2,
-        "kalemler": [
-          {
-            "paket": "content/reading/practice/multiple-choice.json",
-            "number": 6,
-            "practice": true
           },
           {
-            "paket": "content/reading/tests/AC2/sentence-completion.json",
-            "number": 22,
-            "practice": false
-          }
-        ]
-      },
-      {
-        "evidence_ornek": "In an office, visibly high-performing colleagues can motivate others through social comparison and peer pressure, but Caster pays employees according to individual output alone, removing much of the incentive to match a team's overall performance; without face-to-face contact to reinforce that pressure further, it appears to have little effect at all.",
-        "normalize": "in an office visibly high performing colleagues can motivate others through social comparison and peer pressure but caster pays employees according to individual output alone removing much of the incentive to match a team s overall performance without face to face contact to reinforce that pressure further it appears to have little effect at all",
-        "kalem_sayisi": 2,
-        "paket_sayisi": 2,
-        "kalemler": [
-          {
-            "paket": "content/reading/practice/note-completion.json",
-            "number": 3,
-            "practice": true
-          },
-          {
-            "paket": "content/reading/tests/AC2/multiple-choice.json",
-            "number": "34-35",
-            "practice": false
-          }
-        ]
-      },
-      {
-        "evidence_ornek": "The epicentre lay in remote terrain roughly 90 kilometres north of the coastal town of Yakutat, Alaska, an area so thinly populated that the quake caused no reported casualties, yet its effects on the surrounding landscape were extraordinary.",
-        "normalize": "the epicentre lay in remote terrain roughly 90 kilometres north of the coastal town of yakutat alaska an area so thinly populated that the quake caused no reported casualties yet its effects on the surrounding landscape were extraordinary",
-        "kalem_sayisi": 2,
-        "paket_sayisi": 2,
-        "kalemler": [
-          {
-            "paket": "content/reading/practice/note-completion.json",
-            "number": 7,
-            "practice": true
-          },
-          {
-            "paket": "content/reading/tests/AC3/matching-features.json",
-            "number": 26,
-            "practice": false
-          }
-        ]
-      },
-      {
-        "evidence_ornek": "Axons in the vitrified brain tissue measured on average 717.7 nanometres in diameter, close to the typical range for white matter in a living brain, while axons from the preserved spinal cord measured around 672 nanometres.",
-        "normalize": "axons in the vitrified brain tissue measured on average 717 7 nanometres in diameter close to the typical range for white matter in a living brain while axons from the preserved spinal cord measured around 672 nanometres",
-        "kalem_sayisi": 2,
-        "paket_sayisi": 2,
-        "kalemler": [
-          {
-            "paket": "content/reading/practice/note-completion.json",
-            "number": 10,
-            "practice": true
-          },
-          {
-            "paket": "content/reading/tests/AC3/matching-information.json",
-            "number": 29,
-            "practice": false
-          }
-        ]
-      },
-      {
-        "evidence_ornek": "Among the victims uncovered during excavations of the Collegium Augustalium, a public building in the town centre, was a young man of around 20 years old, found lying face down on a wooden bed where he had apparently been sleeping when the flows arrived.",
-        "normalize": "among the victims uncovered during excavations of the collegium augustalium a public building in the town centre was a young man of around 20 years old found lying face down on a wooden bed where he had apparently been sleeping when the flows arrived",
-        "kalem_sayisi": 2,
-        "paket_sayisi": 2,
-        "kalemler": [
-          {
-            "paket": "content/reading/practice/note-completion.json",
-            "number": 11,
-            "practice": true
-          },
-          {
-            "paket": "content/reading/tests/AC3/multiple-choice.json",
-            "number": 32,
-            "practice": false
-          }
-        ]
-      },
-      {
-        "evidence_ornek": "The researchers concluded that sleep, whether at night or during the day, preferentially benefits the kind of memory processing that is more vulnerable to being forgotten in the first place, namely brand-new associations with no existing link to prior knowledge.",
-        "normalize": "the researchers concluded that sleep whether at night or during the day preferentially benefits the kind of memory processing that is more vulnerable to being forgotten in the first place namely brand new associations with no existing link to prior knowledge",
-        "kalem_sayisi": 2,
-        "paket_sayisi": 2,
-        "kalemler": [
-          {
-            "paket": "content/reading/practice/note-completion.json",
-            "number": 14,
-            "practice": true
-          },
-          {
-            "paket": "content/reading/tests/AC4/matching-information.json",
-            "number": 30,
-            "practice": false
-          }
-        ]
-      },
-      {
-        "evidence_ornek": "A nap appears genuinely useful for retaining new, unconnected information, such as an unfamiliar name or a new vocabulary item studied in isolation, about as effectively as a full night's sleep would.",
-        "normalize": "a nap appears genuinely useful for retaining new unconnected information such as an unfamiliar name or a new vocabulary item studied in isolation about as effectively as a full night s sleep would",
-        "kalem_sayisi": 2,
-        "paket_sayisi": 2,
-        "kalemler": [
-          {
-            "paket": "content/reading/practice/note-completion.json",
-            "number": 15,
-            "practice": true
-          },
-          {
-            "paket": "content/reading/tests/AC4/matching-information.json",
-            "number": 29,
-            "practice": false
-          }
-        ]
-      },
-      {
-        "evidence_ornek": "They selected forty-nine papers published within a single six-month period in two leading psychology journals, both of which obliged their authors to make research material available to other scholars.",
-        "normalize": "they selected forty nine papers published within a single six month period in two leading psychology journals both of which obliged their authors to make research material available to other scholars",
-        "kalem_sayisi": 2,
-        "paket_sayisi": 2,
-        "kalemler": [
-          {
-            "paket": "content/reading/practice/sentence-completion.json",
-            "number": 7,
-            "practice": true
-          },
-          {
-            "paket": "content/reading/practice/short-answer.json",
-            "number": 3,
-            "practice": true
-          }
-        ]
-      },
-      {
-        "evidence_ornek": "The participants were split into two groups and took part in a crossover experiment, meaning that each person experienced both a forest condition and a comparison condition, in a different order depending on their group, allowing the researchers to compare each person against themselves rather than relying solely on differences between separate groups.",
-        "normalize": "the participants were split into two groups and took part in a crossover experiment meaning that each person experienced both a forest condition and a comparison condition in a different order depending on their group allowing the researchers to compare each person against themselves rather than relying solely on differences between separate groups",
-        "kalem_sayisi": 2,
-        "paket_sayisi": 2,
-        "kalemler": [
-          {
-            "paket": "content/reading/practice/summary-completion.json",
-            "number": 6,
-            "practice": true
-          },
-          {
-            "paket": "content/reading/tests/AC4/matching-headings.json",
-            "number": 14,
-            "practice": false
-          }
-        ]
-      },
-      {
-        "evidence_ornek": "All five of the same negative mood indicators increased significantly, positive emotions on the broader affect scale fell while negative emotions rose, subjective vitality declined, and restorativeness scores dropped by roughly half compared with their level before the exposure, suggesting that even a calm, traffic-free campus scene was mildly draining relative to a walk in the snow.",
-        "normalize": "all five of the same negative mood indicators increased significantly positive emotions on the broader affect scale fell while negative emotions rose subjective vitality declined and restorativeness scores dropped by roughly half compared with their level before the exposure suggesting that even a calm traffic free campus scene was mildly draining relative to a walk in the snow",
-        "kalem_sayisi": 2,
-        "paket_sayisi": 2,
-        "kalemler": [
-          {
-            "paket": "content/reading/practice/summary-completion.json",
-            "number": 8,
-            "practice": true
-          },
-          {
-            "paket": "content/reading/tests/AC4/matching-features.json",
-            "number": 25,
-            "practice": false
-          }
-        ]
-      },
-      {
-        "evidence_ornek": "Just over a third of this, about 29 kilograms, was still perfectly edible when discarded; the remaining 48 kilograms consisted of inedible parts such as fruit peels, bones and eggshells that are a normal by-product of cooking rather than genuine waste.",
-        "normalize": "just over a third of this about 29 kilograms was still perfectly edible when discarded the remaining 48 kilograms consisted of inedible parts such as fruit peels bones and eggshells that are a normal by product of cooking rather than genuine waste",
-        "kalem_sayisi": 2,
-        "paket_sayisi": 2,
-        "kalemler": [
-          {
-            "paket": "content/reading/practice/summary-completion.json",
-            "number": 11,
-            "practice": true
-          },
-          {
-            "paket": "content/reading/tests/GT1/matching-headings.json",
-            "number": 29,
-            "practice": false
-          }
-        ]
-      },
-      {
-        "evidence_ornek": "City dwellers in Cibinong generated 79.4 kilograms of food waste per person a year, almost double the 45.8 kilograms recorded in rural Sukajaya, and a significantly higher proportion of the urban total, 38.2%, was edible food compared with 23.4% in rural areas.",
-        "normalize": "city dwellers in cibinong generated 79 4 kilograms of food waste per person a year almost double the 45 8 kilograms recorded in rural sukajaya and a significantly higher proportion of the urban total 38 2 was edible food compared with 23 4 in rural areas",
-        "kalem_sayisi": 2,
-        "paket_sayisi": 2,
-        "kalemler": [
-          {
-            "paket": "content/reading/practice/summary-completion.json",
-            "number": 12,
-            "practice": true
-          },
-          {
-            "paket": "content/reading/tests/GT1/yes-no-not-given.json",
-            "number": 33,
-            "practice": false
-          }
-        ]
-      },
-      {
-        "evidence_ornek": "Volunteering was recorded as a simple yes-or-no measure, based on whether a person had taken part in unpaid work for an organisation at least once every six months, while health was self-reported on a five-point scale running from \"very bad\" to \"very good\".",
-        "normalize": "volunteering was recorded as a simple yes or no measure based on whether a person had taken part in unpaid work for an organisation at least once every six months while health was self reported on a five point scale running from very bad to very good",
-        "kalem_sayisi": 2,
-        "paket_sayisi": 2,
-        "kalemler": [
-          {
-            "paket": "content/reading/practice/summary-completion.json",
-            "number": 13,
-            "practice": true
-          },
-          {
-            "paket": "content/reading/tests/GT2/yes-no-not-given.json",
-            "number": 34,
-            "practice": false
-          }
-        ]
-      },
-      {
-        "evidence_ornek": "For decades, however, no one had examined these seeds at the molecular level to confirm what species they truly represented.",
-        "normalize": "for decades however no one had examined these seeds at the molecular level to confirm what species they truly represented",
-        "kalem_sayisi": 2,
-        "paket_sayisi": 2,
-        "kalemler": [
-          {
-            "paket": "content/reading/practice/true-false-not-given.json",
-            "number": 6,
-            "practice": true
-          },
-          {
-            "paket": "content/reading/tests/AC2/matching-headings.json",
-            "number": 14,
-            "practice": false
-          }
-        ]
-      },
-      {
-        "evidence_ornek": "Finding genetic traces of hexaploid wheat at Çatalhöyük this early suggests that the more advanced, six-chromosome form of wheat may have emerged sooner, and further from the traditional Fertile Crescent core, than researchers had assumed, with Çatalhöyük potentially serving as a staging point on its spread toward Europe.",
-        "normalize": "finding genetic traces of hexaploid wheat at çatalhöyük this early suggests that the more advanced six chromosome form of wheat may have emerged sooner and further from the traditional fertile crescent core than researchers had assumed with çatalhöyük potentially serving as a staging point on its spread toward europe",
-        "kalem_sayisi": 2,
-        "paket_sayisi": 2,
-        "kalemler": [
-          {
-            "paket": "content/reading/practice/true-false-not-given.json",
-            "number": 8,
-            "practice": true
-          },
-          {
-            "paket": "content/reading/tests/AC2/matching-features.json",
-            "number": 26,
-            "practice": false
-          }
-        ]
-      },
-      {
-        "evidence_ornek": "The United States Geological Survey later identified more than 700 potential landslides and snow avalanches associated with the earthquake, most of them concentrated to the northwest of the epicentre along the line of the fault rupture.",
-        "normalize": "the united states geological survey later identified more than 700 potential landslides and snow avalanches associated with the earthquake most of them concentrated to the northwest of the epicentre along the line of the fault rupture",
-        "kalem_sayisi": 2,
-        "paket_sayisi": 2,
-        "kalemler": [
-          {
-            "paket": "content/reading/practice/true-false-not-given.json",
-            "number": 9,
-            "practice": true
-          },
-          {
-            "paket": "content/reading/tests/AC3/sentence-completion.json",
-            "number": 19,
-            "practice": false
-          }
-        ]
-      },
-      {
-        "evidence_ornek": "Rather than being interrupted by the earthquake, this surging glacier appears to be acting as a natural conveyor belt, carrying the newly generated avalanche and landslide debris steadily downhill towards the sea.",
-        "normalize": "rather than being interrupted by the earthquake this surging glacier appears to be acting as a natural conveyor belt carrying the newly generated avalanche and landslide debris steadily downhill towards the sea",
-        "kalem_sayisi": 2,
-        "paket_sayisi": 2,
-        "kalemler": [
-          {
-            "paket": "content/reading/practice/true-false-not-given.json",
-            "number": 11,
-            "practice": true
-          },
-          {
-            "paket": "content/reading/tests/AC3/matching-headings.json",
-            "number": 18,
-            "practice": false
-          }
-        ]
-      },
-      {
-        "evidence_ornek": "Because the company standardises working hours and each client contract allocates a fixed thirty hours of monthly support, the number of clients handled is a dependable stand-in for how much useful work an individual completed, avoiding the ambiguity that self-reported effort or hours worked can introduce into workplace research.",
-        "normalize": "because the company standardises working hours and each client contract allocates a fixed thirty hours of monthly support the number of clients handled is a dependable stand in for how much useful work an individual completed avoiding the ambiguity that self reported effort or hours worked can introduce into workplace research",
-        "kalem_sayisi": 2,
-        "paket_sayisi": 2,
-        "kalemler": [
-          {
-            "paket": "content/reading/practice/yes-no-not-given.json",
-            "number": 2,
-            "practice": true
-          },
-          {
-            "paket": "content/reading/tests/AC2/summary-completion.json",
-            "number": 37,
-            "practice": false
-          }
-        ]
-      },
-      {
-        "evidence_ornek": "This benefit was strongly concentrated among newer staff: employees in their first year on the job gained around 26.2 per cent when surrounded by experienced teammates, second-year employees gained a more modest 8.6 per cent, and the effect shrank close to zero for longer-serving staff.",
-        "normalize": "this benefit was strongly concentrated among newer staff employees in their first year on the job gained around 26 2 per cent when surrounded by experienced teammates second year employees gained a more modest 8 6 per cent and the effect shrank close to zero for longer serving staff",
-        "kalem_sayisi": 2,
-        "paket_sayisi": 2,
-        "kalemler": [
-          {
-            "paket": "content/reading/practice/yes-no-not-given.json",
-            "number": 4,
-            "practice": true
-          },
-          {
-            "paket": "content/reading/tests/AC2/matching-information.json",
-            "number": 27,
+            "paket": "content/reading/tests/AC1/sentence-completion.json",
+            "number": 21,
             "practice": false
           }
         ]
@@ -1142,6 +98,24 @@
           {
             "paket": "content/reading/tests/AC1/summary-completion.json",
             "number": 37,
+            "practice": false
+          }
+        ]
+      },
+      {
+        "evidence_ornek": "His success was not limited to the cube itself: when it was removed, he pushed a large tractor tyre into use as a substitute platform, and with smaller objects he attempted, less successfully, to stack them on top of one another.",
+        "normalize": "his success was not limited to the cube itself when it was removed he pushed a large tractor tyre into use as a substitute platform and with smaller objects he attempted less successfully to stack them on top of one another",
+        "kalem_sayisi": 2,
+        "paket_sayisi": 2,
+        "kalemler": [
+          {
+            "paket": "content/reading/tests/AC1/note-completion.json",
+            "number": 4,
+            "practice": false
+          },
+          {
+            "paket": "content/reading/tests/AC1/true-false-not-given.json",
+            "number": 10,
             "practice": false
           }
         ]
@@ -1178,6 +152,78 @@
           {
             "paket": "content/reading/tests/AC3/sentence-completion.json",
             "number": 21,
+            "practice": false
+          }
+        ]
+      },
+      {
+        "evidence_ornek": "The clearest effect of the entire study appeared on the Restorative Outcome Scale, which increased sharply after time in the forest, indicating that participants found the snow-covered woodland strongly refreshing even though it produced no accompanying jump in energy.",
+        "normalize": "the clearest effect of the entire study appeared on the restorative outcome scale which increased sharply after time in the forest indicating that participants found the snow covered woodland strongly refreshing even though it produced no accompanying jump in energy",
+        "kalem_sayisi": 2,
+        "paket_sayisi": 2,
+        "kalemler": [
+          {
+            "paket": "content/reading/tests/AC4/matching-features.json",
+            "number": 23,
+            "practice": false
+          },
+          {
+            "paket": "content/reading/tests/AC4/matching-headings.json",
+            "number": 18,
+            "practice": false
+          }
+        ]
+      },
+      {
+        "evidence_ornek": "In the forest condition, participants walked for five minutes to reach a stand of Norway spruce and silver birch trees, roughly 80 and 20 per cent of the stand respectively, ranging in age from 80 to 108 years and fully covered in snow, where they spent 15 minutes simply standing or sitting quietly.",
+        "normalize": "in the forest condition participants walked for five minutes to reach a stand of norway spruce and silver birch trees roughly 80 and 20 per cent of the stand respectively ranging in age from 80 to 108 years and fully covered in snow where they spent 15 minutes simply standing or sitting quietly",
+        "kalem_sayisi": 2,
+        "paket_sayisi": 2,
+        "kalemler": [
+          {
+            "paket": "content/reading/tests/AC4/matching-headings.json",
+            "number": 15,
+            "practice": false
+          },
+          {
+            "paket": "content/reading/tests/AC4/sentence-completion.json",
+            "number": 19,
+            "practice": false
+          }
+        ]
+      },
+      {
+        "evidence_ornek": "To reduce the grogginess that can follow a nap and distort test performance, all participants completed a 30-minute puzzle game before their final recall test.",
+        "normalize": "to reduce the grogginess that can follow a nap and distort test performance all participants completed a 30 minute puzzle game before their final recall test",
+        "kalem_sayisi": 2,
+        "paket_sayisi": 2,
+        "kalemler": [
+          {
+            "paket": "content/reading/tests/AC4/matching-information.json",
+            "number": 27,
+            "practice": false
+          },
+          {
+            "paket": "content/reading/tests/AC4/summary-completion.json",
+            "number": 36,
+            "practice": false
+          }
+        ]
+      },
+      {
+        "evidence_ornek": "One plausible explanation is that volunteering pays off financially: it can widen a person's professional network, build skills and demonstrate reliability to future employers, all of which might raise household income, and higher income is itself strongly linked to better self-rated health.",
+        "normalize": "one plausible explanation is that volunteering pays off financially it can widen a person s professional network build skills and demonstrate reliability to future employers all of which might raise household income and higher income is itself strongly linked to better self rated health",
+        "kalem_sayisi": 2,
+        "paket_sayisi": 2,
+        "kalemler": [
+          {
+            "paket": "content/reading/tests/GT2/matching-headings.json",
+            "number": 30,
+            "practice": false
+          },
+          {
+            "paket": "content/reading/tests/GT2/yes-no-not-given.json",
+            "number": 35,
             "practice": false
           }
         ]
@@ -1225,86 +271,16 @@
     "okuma": [
       {
         "skill": "reading",
-        "cevap_kalemi": "content/reading/practice/short-answer.json#3",
-        "cevap_paketi": "content/reading/practice/short-answer.json",
+        "cevap_kalemi": "content/reading/practice/note-completion.json#3",
+        "cevap_paketi": "content/reading/practice/note-completion.json",
         "cevap_number": 3,
         "cevap_practice": true,
-        "cevap_dizgi": "six-month period",
-        "sizdiran_kalem": "content/reading/practice/sentence-completion.json#7",
-        "sizdiran_paketi": "content/reading/practice/sentence-completion.json",
-        "sizdiran_number": 7,
-        "sizdiran_practice": true,
-        "sizdiran_prompt": "Questions 7-9 refer to Passage A14. The team wrote to the authors of (7) ........ papers, all published in the same six-month period.",
-        "eslesme_uzunlugu": 16
-      },
-      {
-        "skill": "reading",
-        "cevap_kalemi": "content/reading/tests/AC1/sentence-completion.json#22",
-        "cevap_paketi": "content/reading/tests/AC1/sentence-completion.json",
-        "cevap_number": 22,
-        "cevap_practice": false,
-        "cevap_dizgi": "fifteen minutes",
-        "sizdiran_kalem": "content/reading/practice/summary-completion.json#7",
-        "sizdiran_paketi": "content/reading/practice/summary-completion.json",
-        "sizdiran_number": 7,
-        "sizdiran_practice": true,
-        "sizdiran_prompt": "The wood lowered five of the six negative moods on the main scale, though not the sixth; the strongest result of the whole study came on the measure of how mentally refreshing a place feels, which rose (7) ........ once the fifteen minutes among the trees were over.",
-        "eslesme_uzunlugu": 15
-      },
-      {
-        "skill": "reading",
-        "cevap_kalemi": "content/reading/tests/AC1/sentence-completion.json#22",
-        "cevap_paketi": "content/reading/tests/AC1/sentence-completion.json",
-        "cevap_number": 22,
-        "cevap_practice": false,
-        "cevap_dizgi": "fifteen minutes",
-        "sizdiran_kalem": "content/reading/practice/yes-no-not-given.json#10",
-        "sizdiran_paketi": "content/reading/practice/yes-no-not-given.json",
-        "sizdiran_number": 10,
-        "sizdiran_practice": true,
-        "sizdiran_prompt": "The forest's restorative effect built up gradually over the fifteen minutes participants spent there.",
-        "eslesme_uzunlugu": 15
-      },
-      {
-        "skill": "reading",
-        "cevap_kalemi": "content/reading/practice/note-completion.json#5",
-        "cevap_paketi": "content/reading/practice/note-completion.json",
-        "cevap_number": 5,
-        "cevap_practice": true,
-        "cevap_dizgi": "Monodontidae",
-        "sizdiran_kalem": "content/reading/tests/AC3/true-false-not-given.json#13",
-        "sizdiran_paketi": "content/reading/tests/AC3/true-false-not-given.json",
-        "sizdiran_number": 13,
+        "cevap_dizgi": "three days",
+        "sizdiran_kalem": "content/reading/tests/AC1/sentence-completion.json#20",
+        "sizdiran_paketi": "content/reading/tests/AC1/sentence-completion.json",
+        "sizdiran_number": 20,
         "sizdiran_practice": false,
-        "sizdiran_prompt": "Belugas and narwhals are the only members of the Monodontidae family.",
-        "eslesme_uzunlugu": 12
-      },
-      {
-        "skill": "reading",
-        "cevap_kalemi": "content/reading/practice/note-completion.json#8",
-        "cevap_paketi": "content/reading/practice/note-completion.json",
-        "cevap_number": 8,
-        "cevap_practice": true,
-        "cevap_dizgi": "12 December",
-        "sizdiran_kalem": "content/reading/practice/true-false-not-given.json#10",
-        "sizdiran_paketi": "content/reading/practice/true-false-not-given.json",
-        "sizdiran_number": 10,
-        "sizdiran_practice": true,
-        "sizdiran_prompt": "The ground survey of 12 December covered the slopes of Mount Logan as well as those of Mount King George.",
-        "eslesme_uzunlugu": 11
-      },
-      {
-        "skill": "reading",
-        "cevap_kalemi": "content/reading/tests/AC3/sentence-completion.json#19",
-        "cevap_paketi": "content/reading/tests/AC3/sentence-completion.json",
-        "cevap_number": 19,
-        "cevap_practice": false,
-        "cevap_dizgi": "north-west",
-        "sizdiran_kalem": "content/reading/practice/true-false-not-given.json#9",
-        "sizdiran_paketi": "content/reading/practice/true-false-not-given.json",
-        "sizdiran_number": 9,
-        "sizdiran_practice": true,
-        "sizdiran_prompt": "Most of the landslides and avalanches recorded lay north-west of the epicentre.",
+        "sizdiran_prompt": "Over the three days of daily fifteen-minute meetings a (20) ........ emerged in every pair, while ink-jetting and physical contact both grew less frequent.",
         "eslesme_uzunlugu": 10
       },
       {
@@ -1323,59 +299,17 @@
       },
       {
         "skill": "reading",
-        "cevap_kalemi": "content/reading/tests/AC3/table-completion.json#3",
-        "cevap_paketi": "content/reading/tests/AC3/table-completion.json",
-        "cevap_number": 3,
-        "cevap_practice": false,
-        "cevap_dizgi": "cosmetic",
-        "sizdiran_kalem": "content/reading/practice/matching-sentence-endings.json#3",
-        "sizdiran_paketi": "content/reading/practice/matching-sentence-endings.json",
-        "sizdiran_number": 3,
-        "sizdiran_practice": true,
-        "sizdiran_prompt": "The cosmetic mark was placed just behind an eye or an ear because",
-        "eslesme_uzunlugu": 8
-      },
-      {
-        "skill": "reading",
-        "cevap_kalemi": "content/reading/practice/sentence-completion.json#9",
+        "cevap_kalemi": "content/reading/practice/sentence-completion.json#7",
         "cevap_paketi": "content/reading/practice/sentence-completion.json",
-        "cevap_number": 9,
-        "cevap_practice": true,
-        "cevap_dizgi": "a third",
-        "sizdiran_kalem": "content/reading/practice/summary-completion.json#11",
-        "sizdiran_paketi": "content/reading/practice/summary-completion.json",
-        "sizdiran_number": 11,
-        "sizdiran_practice": true,
-        "sizdiran_prompt": "Across the two districts the yearly figure came to 77 kilograms a head, of which just over a third could still have been eaten; the rest was the sort of material any kitchen produces, such as skins, bones and (11) ........ .",
-        "eslesme_uzunlugu": 7
-      },
-      {
-        "skill": "reading",
-        "cevap_kalemi": "content/reading/practice/summary-completion.json#7",
-        "cevap_paketi": "content/reading/practice/summary-completion.json",
         "cevap_number": 7,
         "cevap_practice": true,
-        "cevap_dizgi": "sharply",
-        "sizdiran_kalem": "content/reading/practice/short-answer.json#1",
-        "sizdiran_paketi": "content/reading/practice/short-answer.json",
-        "sizdiran_number": 1,
-        "sizdiran_practice": true,
-        "sizdiran_prompt": "In the specimens carrying the lower dose of capsules, how long after the damage did water absorption drop sharply?",
-        "eslesme_uzunlugu": 7
-      },
-      {
-        "skill": "reading",
-        "cevap_kalemi": "content/reading/tests/AC1/note-completion.json#3",
-        "cevap_paketi": "content/reading/tests/AC1/note-completion.json",
-        "cevap_number": 3,
-        "cevap_practice": false,
-        "cevap_dizgi": "seventh",
-        "sizdiran_kalem": "content/reading/practice/true-false-not-given.json#4",
-        "sizdiran_paketi": "content/reading/practice/true-false-not-given.json",
-        "sizdiran_number": 4,
-        "sizdiran_practice": true,
-        "sizdiran_prompt": "No octopus released ink at any point during the test held on the seventh day.",
-        "eslesme_uzunlugu": 7
+        "cevap_dizgi": "seventeen",
+        "sizdiran_kalem": "content/reading/tests/AC2/sentence-completion.json#22",
+        "sizdiran_paketi": "content/reading/tests/AC2/sentence-completion.json",
+        "sizdiran_number": 22,
+        "sizdiran_practice": false,
+        "sizdiran_prompt": "Of the seventeen distinct variants found at the first marker length, (22) ........ had never been recorded in any genetic database.",
+        "eslesme_uzunlugu": 9
       },
       {
         "skill": "reading",
@@ -1393,20 +327,6 @@
       },
       {
         "skill": "reading",
-        "cevap_kalemi": "content/reading/tests/AC3/table-completion.json#1",
-        "cevap_paketi": "content/reading/tests/AC3/table-completion.json",
-        "cevap_number": 1,
-        "cevap_practice": false,
-        "cevap_dizgi": "acrylic",
-        "sizdiran_kalem": "content/reading/practice/matching-sentence-endings.json#1",
-        "sizdiran_paketi": "content/reading/practice/matching-sentence-endings.json",
-        "sizdiran_number": 1,
-        "sizdiran_practice": true,
-        "sizdiran_prompt": "On some days a clear acrylic panel of the same size was lowered into the pool instead of the mirror, because",
-        "eslesme_uzunlugu": 7
-      },
-      {
-        "skill": "reading",
         "cevap_kalemi": "content/reading/tests/AC1/note-completion.json#2",
         "cevap_paketi": "content/reading/tests/AC1/note-completion.json",
         "cevap_number": 2,
@@ -1418,20 +338,6 @@
         "sizdiran_practice": false,
         "sizdiran_prompt": "The bamboo stick was taken out of the enclosure once Kandula began using the cube.",
         "eslesme_uzunlugu": 6
-      },
-      {
-        "skill": "reading",
-        "cevap_kalemi": "content/reading/tests/AC3/summary-completion.json#39",
-        "cevap_paketi": "content/reading/tests/AC3/summary-completion.json",
-        "cevap_number": 39,
-        "cevap_practice": false,
-        "cevap_dizgi": "seven",
-        "sizdiran_kalem": "content/reading/practice/summary-completion.json#10",
-        "sizdiran_paketi": "content/reading/practice/summary-completion.json",
-        "sizdiran_number": 10,
-        "sizdiran_practice": true,
-        "sizdiran_prompt": "Drinks were handled separately: instead of being weighed by the team, everything poured away was entered by the household itself in a seven-day (10) ........ , type and quantity alike.",
-        "eslesme_uzunlugu": 5
       }
     ],
     "dinleme": [
@@ -2754,276 +1660,7 @@
     ]
   },
   "pasaj_senaryo_payi": {
-    "okuma": [
-      {
-        "pid": "A11",
-        "alistirma_paket_sayisi": 4,
-        "test_paket_sayisi": 3,
-        "alistirma_paketleri": [
-          "content/reading/practice/matching-information.json",
-          "content/reading/practice/multiple-choice.json",
-          "content/reading/practice/summary-completion.json",
-          "content/reading/practice/yes-no-not-given.json"
-        ],
-        "test_paketleri": [
-          "content/reading/tests/AC4/matching-features.json",
-          "content/reading/tests/AC4/matching-headings.json",
-          "content/reading/tests/AC4/sentence-completion.json"
-        ],
-        "alistirma_kalem_sayisi": 14,
-        "test_kalem_sayisi": 13
-      },
-      {
-        "pid": "A10",
-        "alistirma_paket_sayisi": 3,
-        "test_paket_sayisi": 2,
-        "alistirma_paketleri": [
-          "content/reading/practice/matching-features.json",
-          "content/reading/practice/summary-completion.json",
-          "content/reading/practice/yes-no-not-given.json"
-        ],
-        "test_paketleri": [
-          "content/reading/tests/AC4/note-completion.json",
-          "content/reading/tests/AC4/true-false-not-given.json"
-        ],
-        "alistirma_kalem_sayisi": 13,
-        "test_kalem_sayisi": 13
-      },
-      {
-        "pid": "A07",
-        "alistirma_paket_sayisi": 3,
-        "test_paket_sayisi": 2,
-        "alistirma_paketleri": [
-          "content/reading/practice/matching-information.json",
-          "content/reading/practice/matching-sentence-endings.json",
-          "content/reading/practice/note-completion.json"
-        ],
-        "test_paketleri": [
-          "content/reading/tests/AC3/table-completion.json",
-          "content/reading/tests/AC3/true-false-not-given.json"
-        ],
-        "alistirma_kalem_sayisi": 12,
-        "test_kalem_sayisi": 13
-      },
-      {
-        "pid": "A09",
-        "alistirma_paket_sayisi": 3,
-        "test_paket_sayisi": 3,
-        "alistirma_paketleri": [
-          "content/reading/practice/matching-headings.json",
-          "content/reading/practice/note-completion.json",
-          "content/reading/practice/true-false-not-given.json"
-        ],
-        "test_paketleri": [
-          "content/reading/tests/AC3/matching-information.json",
-          "content/reading/tests/AC3/multiple-choice.json",
-          "content/reading/tests/AC3/summary-completion.json"
-        ],
-        "alistirma_kalem_sayisi": 11,
-        "test_kalem_sayisi": 13
-      },
-      {
-        "pid": "A12",
-        "alistirma_paket_sayisi": 3,
-        "test_paket_sayisi": 3,
-        "alistirma_paketleri": [
-          "content/reading/practice/matching-headings.json",
-          "content/reading/practice/note-completion.json",
-          "content/reading/practice/yes-no-not-given.json"
-        ],
-        "test_paketleri": [
-          "content/reading/tests/AC4/matching-information.json",
-          "content/reading/tests/AC4/multiple-choice.json",
-          "content/reading/tests/AC4/summary-completion.json"
-        ],
-        "alistirma_kalem_sayisi": 11,
-        "test_kalem_sayisi": 13
-      },
-      {
-        "pid": "A08",
-        "alistirma_paket_sayisi": 3,
-        "test_paket_sayisi": 3,
-        "alistirma_paketleri": [
-          "content/reading/practice/multiple-choice.json",
-          "content/reading/practice/note-completion.json",
-          "content/reading/practice/true-false-not-given.json"
-        ],
-        "test_paketleri": [
-          "content/reading/tests/AC3/matching-features.json",
-          "content/reading/tests/AC3/matching-headings.json",
-          "content/reading/tests/AC3/sentence-completion.json"
-        ],
-        "alistirma_kalem_sayisi": 10,
-        "test_kalem_sayisi": 13
-      },
-      {
-        "pid": "G05",
-        "alistirma_paket_sayisi": 2,
-        "test_paket_sayisi": 3,
-        "alistirma_paketleri": [
-          "content/reading/practice/matching-features.json",
-          "content/reading/practice/summary-completion.json"
-        ],
-        "test_paketleri": [
-          "content/reading/tests/GT1/matching-headings.json",
-          "content/reading/tests/GT1/summary-completion.json",
-          "content/reading/tests/GT1/yes-no-not-given.json"
-        ],
-        "alistirma_kalem_sayisi": 9,
-        "test_kalem_sayisi": 13
-      },
-      {
-        "pid": "A01",
-        "alistirma_paket_sayisi": 2,
-        "test_paket_sayisi": 2,
-        "alistirma_paketleri": [
-          "content/reading/practice/matching-headings.json",
-          "content/reading/practice/matching-information.json"
-        ],
-        "test_paketleri": [
-          "content/reading/tests/AC1/note-completion.json",
-          "content/reading/tests/AC1/true-false-not-given.json"
-        ],
-        "alistirma_kalem_sayisi": 9,
-        "test_kalem_sayisi": 13
-      },
-      {
-        "pid": "G06",
-        "alistirma_paket_sayisi": 2,
-        "test_paket_sayisi": 3,
-        "alistirma_paketleri": [
-          "content/reading/practice/matching-sentence-endings.json",
-          "content/reading/practice/summary-completion.json"
-        ],
-        "test_paketleri": [
-          "content/reading/tests/GT2/matching-headings.json",
-          "content/reading/tests/GT2/summary-completion.json",
-          "content/reading/tests/GT2/yes-no-not-given.json"
-        ],
-        "alistirma_kalem_sayisi": 8,
-        "test_kalem_sayisi": 13
-      },
-      {
-        "pid": "A02",
-        "alistirma_paket_sayisi": 2,
-        "test_paket_sayisi": 3,
-        "alistirma_paketleri": [
-          "content/reading/practice/multiple-choice.json",
-          "content/reading/practice/true-false-not-given.json"
-        ],
-        "test_paketleri": [
-          "content/reading/tests/AC1/matching-features.json",
-          "content/reading/tests/AC1/matching-headings.json",
-          "content/reading/tests/AC1/sentence-completion.json"
-        ],
-        "alistirma_kalem_sayisi": 7,
-        "test_kalem_sayisi": 13
-      },
-      {
-        "pid": "A05",
-        "alistirma_paket_sayisi": 2,
-        "test_paket_sayisi": 3,
-        "alistirma_paketleri": [
-          "content/reading/practice/multiple-choice.json",
-          "content/reading/practice/true-false-not-given.json"
-        ],
-        "test_paketleri": [
-          "content/reading/tests/AC2/matching-features.json",
-          "content/reading/tests/AC2/matching-headings.json",
-          "content/reading/tests/AC2/sentence-completion.json"
-        ],
-        "alistirma_kalem_sayisi": 7,
-        "test_kalem_sayisi": 13
-      },
-      {
-        "pid": "A06",
-        "alistirma_paket_sayisi": 2,
-        "test_paket_sayisi": 3,
-        "alistirma_paketleri": [
-          "content/reading/practice/note-completion.json",
-          "content/reading/practice/yes-no-not-given.json"
-        ],
-        "test_paketleri": [
-          "content/reading/tests/AC2/matching-information.json",
-          "content/reading/tests/AC2/multiple-choice.json",
-          "content/reading/tests/AC2/summary-completion.json"
-        ],
-        "alistirma_kalem_sayisi": 7,
-        "test_kalem_sayisi": 13
-      },
-      {
-        "pid": "G01",
-        "alistirma_paket_sayisi": 1,
-        "test_paket_sayisi": 2,
-        "alistirma_paketleri": [
-          "content/reading/practice/diagram-labelling.json"
-        ],
-        "test_paketleri": [
-          "content/reading/tests/GT1/matching-information.json",
-          "content/reading/tests/GT1/true-false-not-given.json"
-        ],
-        "alistirma_kalem_sayisi": 3,
-        "test_kalem_sayisi": 14
-      },
-      {
-        "pid": "A04",
-        "alistirma_paket_sayisi": 1,
-        "test_paket_sayisi": 2,
-        "alistirma_paketleri": [
-          "content/reading/practice/matching-information.json"
-        ],
-        "test_paketleri": [
-          "content/reading/tests/AC2/flow-chart-completion.json",
-          "content/reading/tests/AC2/true-false-not-given.json"
-        ],
-        "alistirma_kalem_sayisi": 4,
-        "test_kalem_sayisi": 13
-      },
-      {
-        "pid": "G02",
-        "alistirma_paket_sayisi": 1,
-        "test_paket_sayisi": 2,
-        "alistirma_paketleri": [
-          "content/reading/practice/diagram-labelling.json"
-        ],
-        "test_paketleri": [
-          "content/reading/tests/GT2/matching-information.json",
-          "content/reading/tests/GT2/true-false-not-given.json"
-        ],
-        "alistirma_kalem_sayisi": 2,
-        "test_kalem_sayisi": 14
-      },
-      {
-        "pid": "G03",
-        "alistirma_paket_sayisi": 1,
-        "test_paket_sayisi": 3,
-        "alistirma_paketleri": [
-          "content/reading/practice/diagram-labelling.json"
-        ],
-        "test_paketleri": [
-          "content/reading/tests/GT1/multiple-choice.json",
-          "content/reading/tests/GT1/note-completion.json",
-          "content/reading/tests/GT1/sentence-completion.json"
-        ],
-        "alistirma_kalem_sayisi": 3,
-        "test_kalem_sayisi": 12
-      },
-      {
-        "pid": "G04",
-        "alistirma_paket_sayisi": 1,
-        "test_paket_sayisi": 3,
-        "alistirma_paketleri": [
-          "content/reading/practice/diagram-labelling.json"
-        ],
-        "test_paketleri": [
-          "content/reading/tests/GT2/multiple-choice.json",
-          "content/reading/tests/GT2/sentence-completion.json",
-          "content/reading/tests/GT2/table-completion.json"
-        ],
-        "alistirma_kalem_sayisi": 2,
-        "test_kalem_sayisi": 12
-      }
-    ],
+    "okuma": [],
     "dinleme": [
       {
         "pid": "L4-S4",
@@ -3350,86 +1987,16 @@
   "en_agir_10": [
     {
       "skill": "reading",
-      "cevap_kalemi": "content/reading/practice/short-answer.json#3",
-      "cevap_paketi": "content/reading/practice/short-answer.json",
+      "cevap_kalemi": "content/reading/practice/note-completion.json#3",
+      "cevap_paketi": "content/reading/practice/note-completion.json",
       "cevap_number": 3,
       "cevap_practice": true,
-      "cevap_dizgi": "six-month period",
-      "sizdiran_kalem": "content/reading/practice/sentence-completion.json#7",
-      "sizdiran_paketi": "content/reading/practice/sentence-completion.json",
-      "sizdiran_number": 7,
-      "sizdiran_practice": true,
-      "sizdiran_prompt": "Questions 7-9 refer to Passage A14. The team wrote to the authors of (7) ........ papers, all published in the same six-month period.",
-      "eslesme_uzunlugu": 16
-    },
-    {
-      "skill": "reading",
-      "cevap_kalemi": "content/reading/tests/AC1/sentence-completion.json#22",
-      "cevap_paketi": "content/reading/tests/AC1/sentence-completion.json",
-      "cevap_number": 22,
-      "cevap_practice": false,
-      "cevap_dizgi": "fifteen minutes",
-      "sizdiran_kalem": "content/reading/practice/summary-completion.json#7",
-      "sizdiran_paketi": "content/reading/practice/summary-completion.json",
-      "sizdiran_number": 7,
-      "sizdiran_practice": true,
-      "sizdiran_prompt": "The wood lowered five of the six negative moods on the main scale, though not the sixth; the strongest result of the whole study came on the measure of how mentally refreshing a place feels, which rose (7) ........ once the fifteen minutes among the trees were over.",
-      "eslesme_uzunlugu": 15
-    },
-    {
-      "skill": "reading",
-      "cevap_kalemi": "content/reading/tests/AC1/sentence-completion.json#22",
-      "cevap_paketi": "content/reading/tests/AC1/sentence-completion.json",
-      "cevap_number": 22,
-      "cevap_practice": false,
-      "cevap_dizgi": "fifteen minutes",
-      "sizdiran_kalem": "content/reading/practice/yes-no-not-given.json#10",
-      "sizdiran_paketi": "content/reading/practice/yes-no-not-given.json",
-      "sizdiran_number": 10,
-      "sizdiran_practice": true,
-      "sizdiran_prompt": "The forest's restorative effect built up gradually over the fifteen minutes participants spent there.",
-      "eslesme_uzunlugu": 15
-    },
-    {
-      "skill": "reading",
-      "cevap_kalemi": "content/reading/practice/note-completion.json#5",
-      "cevap_paketi": "content/reading/practice/note-completion.json",
-      "cevap_number": 5,
-      "cevap_practice": true,
-      "cevap_dizgi": "Monodontidae",
-      "sizdiran_kalem": "content/reading/tests/AC3/true-false-not-given.json#13",
-      "sizdiran_paketi": "content/reading/tests/AC3/true-false-not-given.json",
-      "sizdiran_number": 13,
+      "cevap_dizgi": "three days",
+      "sizdiran_kalem": "content/reading/tests/AC1/sentence-completion.json#20",
+      "sizdiran_paketi": "content/reading/tests/AC1/sentence-completion.json",
+      "sizdiran_number": 20,
       "sizdiran_practice": false,
-      "sizdiran_prompt": "Belugas and narwhals are the only members of the Monodontidae family.",
-      "eslesme_uzunlugu": 12
-    },
-    {
-      "skill": "reading",
-      "cevap_kalemi": "content/reading/practice/note-completion.json#8",
-      "cevap_paketi": "content/reading/practice/note-completion.json",
-      "cevap_number": 8,
-      "cevap_practice": true,
-      "cevap_dizgi": "12 December",
-      "sizdiran_kalem": "content/reading/practice/true-false-not-given.json#10",
-      "sizdiran_paketi": "content/reading/practice/true-false-not-given.json",
-      "sizdiran_number": 10,
-      "sizdiran_practice": true,
-      "sizdiran_prompt": "The ground survey of 12 December covered the slopes of Mount Logan as well as those of Mount King George.",
-      "eslesme_uzunlugu": 11
-    },
-    {
-      "skill": "reading",
-      "cevap_kalemi": "content/reading/tests/AC3/sentence-completion.json#19",
-      "cevap_paketi": "content/reading/tests/AC3/sentence-completion.json",
-      "cevap_number": 19,
-      "cevap_practice": false,
-      "cevap_dizgi": "north-west",
-      "sizdiran_kalem": "content/reading/practice/true-false-not-given.json#9",
-      "sizdiran_paketi": "content/reading/practice/true-false-not-given.json",
-      "sizdiran_number": 9,
-      "sizdiran_practice": true,
-      "sizdiran_prompt": "Most of the landslides and avalanches recorded lay north-west of the epicentre.",
+      "sizdiran_prompt": "Over the three days of daily fifteen-minute meetings a (20) ........ emerged in every pair, while ink-jetting and physical contact both grew less frequent.",
       "eslesme_uzunlugu": 10
     },
     {
@@ -3448,45 +2015,115 @@
     },
     {
       "skill": "reading",
-      "cevap_kalemi": "content/reading/tests/AC3/table-completion.json#3",
-      "cevap_paketi": "content/reading/tests/AC3/table-completion.json",
-      "cevap_number": 3,
-      "cevap_practice": false,
-      "cevap_dizgi": "cosmetic",
-      "sizdiran_kalem": "content/reading/practice/matching-sentence-endings.json#3",
-      "sizdiran_paketi": "content/reading/practice/matching-sentence-endings.json",
-      "sizdiran_number": 3,
-      "sizdiran_practice": true,
-      "sizdiran_prompt": "The cosmetic mark was placed just behind an eye or an ear because",
-      "eslesme_uzunlugu": 8
-    },
-    {
-      "skill": "reading",
-      "cevap_kalemi": "content/reading/practice/sentence-completion.json#9",
+      "cevap_kalemi": "content/reading/practice/sentence-completion.json#7",
       "cevap_paketi": "content/reading/practice/sentence-completion.json",
-      "cevap_number": 9,
-      "cevap_practice": true,
-      "cevap_dizgi": "a third",
-      "sizdiran_kalem": "content/reading/practice/summary-completion.json#11",
-      "sizdiran_paketi": "content/reading/practice/summary-completion.json",
-      "sizdiran_number": 11,
-      "sizdiran_practice": true,
-      "sizdiran_prompt": "Across the two districts the yearly figure came to 77 kilograms a head, of which just over a third could still have been eaten; the rest was the sort of material any kitchen produces, such as skins, bones and (11) ........ .",
-      "eslesme_uzunlugu": 7
-    },
-    {
-      "skill": "reading",
-      "cevap_kalemi": "content/reading/practice/summary-completion.json#7",
-      "cevap_paketi": "content/reading/practice/summary-completion.json",
       "cevap_number": 7,
       "cevap_practice": true,
-      "cevap_dizgi": "sharply",
-      "sizdiran_kalem": "content/reading/practice/short-answer.json#1",
-      "sizdiran_paketi": "content/reading/practice/short-answer.json",
-      "sizdiran_number": 1,
-      "sizdiran_practice": true,
-      "sizdiran_prompt": "In the specimens carrying the lower dose of capsules, how long after the damage did water absorption drop sharply?",
+      "cevap_dizgi": "seventeen",
+      "sizdiran_kalem": "content/reading/tests/AC2/sentence-completion.json#22",
+      "sizdiran_paketi": "content/reading/tests/AC2/sentence-completion.json",
+      "sizdiran_number": 22,
+      "sizdiran_practice": false,
+      "sizdiran_prompt": "Of the seventeen distinct variants found at the first marker length, (22) ........ had never been recorded in any genetic database.",
+      "eslesme_uzunlugu": 9
+    },
+    {
+      "skill": "reading",
+      "cevap_kalemi": "content/reading/tests/AC1/note-completion.json#3",
+      "cevap_paketi": "content/reading/tests/AC1/note-completion.json",
+      "cevap_number": 3,
+      "cevap_practice": false,
+      "cevap_dizgi": "seventh",
+      "sizdiran_kalem": "content/reading/tests/AC1/sentence-completion.json#22",
+      "sizdiran_paketi": "content/reading/tests/AC1/sentence-completion.json",
+      "sizdiran_number": 22,
+      "sizdiran_practice": false,
+      "sizdiran_prompt": "Each reunion on the seventh day again ran for (22) ........ , and the same behaviours were recorded as in the earlier phase.",
       "eslesme_uzunlugu": 7
+    },
+    {
+      "skill": "reading",
+      "cevap_kalemi": "content/reading/tests/AC1/note-completion.json#2",
+      "cevap_paketi": "content/reading/tests/AC1/note-completion.json",
+      "cevap_number": 2,
+      "cevap_practice": false,
+      "cevap_dizgi": "bamboo",
+      "sizdiran_kalem": "content/reading/tests/AC1/true-false-not-given.json#13",
+      "sizdiran_paketi": "content/reading/tests/AC1/true-false-not-given.json",
+      "sizdiran_number": 13,
+      "sizdiran_practice": false,
+      "sizdiran_prompt": "The bamboo stick was taken out of the enclosure once Kandula began using the cube.",
+      "eslesme_uzunlugu": 6
+    },
+    {
+      "skill": "listening",
+      "cevap_kalemi": "content/listening/tests/L1/note-completion.json#32",
+      "cevap_paketi": "content/listening/tests/L1/note-completion.json",
+      "cevap_number": 32,
+      "cevap_practice": false,
+      "cevap_dizgi": "community gardens",
+      "sizdiran_kalem": "content/listening/practice/table-completion.json#10",
+      "sizdiran_paketi": "content/listening/practice/table-completion.json",
+      "sizdiran_number": 10,
+      "sizdiran_practice": true,
+      "sizdiran_prompt": "community gardens, rooftop farms and (10) ........ farming",
+      "eslesme_uzunlugu": 17
+    },
+    {
+      "skill": "listening",
+      "cevap_kalemi": "content/listening/tests/L4/plan-map-diagram-labelling.json#20",
+      "cevap_paketi": "content/listening/tests/L4/plan-map-diagram-labelling.json",
+      "cevap_number": 20,
+      "cevap_practice": false,
+      "cevap_dizgi": "electrical store",
+      "sizdiran_kalem": "content/listening/tests/L4/matching.json#13",
+      "sizdiran_paketi": "content/listening/tests/L4/matching.json",
+      "sizdiran_number": 13,
+      "sizdiran_practice": false,
+      "sizdiran_prompt": "the electrical store",
+      "eslesme_uzunlugu": 16
+    },
+    {
+      "skill": "listening",
+      "cevap_kalemi": "content/listening/tests/L6/plan-map-diagram-labelling.json#16",
+      "cevap_paketi": "content/listening/tests/L6/plan-map-diagram-labelling.json",
+      "cevap_number": 16,
+      "cevap_practice": false,
+      "cevap_dizgi": "flower stall",
+      "sizdiran_kalem": "content/listening/tests/L6/matching.json#12",
+      "sizdiran_paketi": "content/listening/tests/L6/matching.json",
+      "sizdiran_number": 12,
+      "sizdiran_practice": false,
+      "sizdiran_prompt": "the flower stall",
+      "eslesme_uzunlugu": 12
+    },
+    {
+      "skill": "listening",
+      "cevap_kalemi": "content/listening/practice/sentence-completion.json#7",
+      "cevap_paketi": "content/listening/practice/sentence-completion.json",
+      "cevap_number": 7,
+      "cevap_practice": true,
+      "cevap_dizgi": "module page",
+      "sizdiran_kalem": "content/listening/tests/L6/sentence-completion.json#28",
+      "sizdiran_paketi": "content/listening/tests/L6/sentence-completion.json",
+      "sizdiran_number": 28,
+      "sizdiran_practice": false,
+      "sizdiran_prompt": "Reasons for rejecting an item have to be written on the (28) ........ from the module page.",
+      "eslesme_uzunlugu": 11
+    },
+    {
+      "skill": "listening",
+      "cevap_kalemi": "content/listening/practice/sentence-completion.json#9",
+      "cevap_paketi": "content/listening/practice/sentence-completion.json",
+      "cevap_number": 9,
+      "cevap_practice": true,
+      "cevap_dizgi": "eight weeks",
+      "sizdiran_kalem": "content/listening/tests/L3/multiple-choice.json#22",
+      "sizdiran_paketi": "content/listening/tests/L3/multiple-choice.json",
+      "sizdiran_number": 22,
+      "sizdiran_practice": false,
+      "sizdiran_prompt": "Why did Corin's placement last eight weeks?",
+      "eslesme_uzunlugu": 11
     }
   ],
   "icloud_kopyalari_denetim": [

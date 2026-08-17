@@ -8,7 +8,7 @@
   "practice": true,
   "passage_id": null,
   "question_type": "yes_no_not_given",
-  "generated_by": "fable",
+  "generated_by": "opus",
   "instructions": "Do the following statements agree with the claims of the writer in the passage?\n\nIn boxes 1-15 on your answer sheet, write\n\nYES if the statement agrees with the claims of the writer\nNO if the statement contradicts the claims of the writer\nNOT GIVEN if it is impossible to say what the writer thinks about this",
   "options": [
     "YES",
@@ -18,466 +18,516 @@
   "word_limit": null,
   "word_bank": null,
   "visual": null,
-  "stem_block": "Questions 1-4 refer to Passage A06 - Why New Remote Workers Need Experienced Teammates, Not Star Performers\nQuestions 5-8 refer to Passage A10 - What Kind of Office Actually Works?\nQuestions 9-12 refer to Passage A11 - Why a Walk in a Snowy Forest Calms the Mind\nQuestions 13-15 refer to Passage A12 - Does a Nap Help You Remember as Well as a Night's Sleep?",
+  "stem_block": null,
   "items": [
     {
       "number": 1,
-      "passage_id": "A06",
-      "prompt": "Experienced employees paid a price in their own output for the guidance they gave to newcomers.",
+      "passage_id": "A14",
+      "prompt": "Questions 1-8 refer to Passage A14. In the writer's view, the promise a published paper makes about its raw measurements is usually put to the test.",
+      "answer": [
+        "NO"
+      ],
+      "evidence": "Every published scientific paper makes a promise that is almost never tested.",
+      "evidence_locator": {
+        "paragraph": "A",
+        "sentence": 1
+      },
+      "contradiction_point": "A/1 her yayimlanmis makalenin verdigi sozun 'neredeyse hicbir zaman sinanmadigini' soyluyor; ifade bu sozun cogu zaman sinandigini one suruyor. Celiski tek noktada: sozun sinanma sikligi. Ifadedeki 'usually' esnekligi bunu kapatmiyor, cunku 'almost never' ile 'usually' arasinda ara bir okuma yok.",
+      "not_given_justification": null,
+      "scan_note": "Sozun ne oldugu A/2'de (tablolarin arkasindaki ham olcumlerin istenebilir olmasi), kimin dayattigi A/3'te (meslek kuruluslarina imzalanan taahhut) anlatiliyor. Sinama yalniz bu calismanin kendi girisimi olarak gorunuyor: B/3 ekibin dosyalari istemesi, B/5 istegin kendisinin deney oldugu. Hicbir paragraf sozun rutin olarak denetlendigini soylemiyor; tersine C sonuclari yarisindan azinin karsilik verdigini gosteriyor.",
+      "explanation": "The writer opens by saying that the promise every published paper makes is almost never tested, which contradicts the claim that it is usually tested.",
+      "difficulty": "medium",
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "faz": "FAZ 1 / B3 yeniden uretim (UYGULAMA-PLANI 1.5)",
+        "yeni_pasaj": "A14",
+        "eski_pasaj": "A06",
+        "eski_prompt": "Experienced employees paid a price in their own output for the guidance they gave to newcomers.",
+        "eski_cevap": [
+          "NOT GIVEN"
+        ],
+        "neden_elendi": "Konu cumleleri artik alistirma havuzuna ait olmayan A06 pasajindaydi (test havuzu ile alistirma havuzu ayrildi). Kalem ayrica konumsal_duzen isaretini tasiyordu.",
+        "ne_degisti": "Kalem bastan yazildi ve A14'e baglandi. Kanit A/1'e, yazarin acilis degerlendirmesine tasindi. Ifade bilerek genel kulturun tersine calisiyor: disaridan gelen sezgi 'hakemlik surecinde veriler denetlenir' dedigi icin metinsiz okur YES'e meylediyor, oysa yazar sozun neredeyse hic sinanmadigini soyluyor. Kip olculu yazildi ('usually') ve cevabi NO - olculu ifadenin otomatik olarak YES'e isaret etmesi kirildi.",
+        "recete_sinamasi": "Metinsiz okundu: dis bilgi (hakemlik/denetim sezgisi) YES'e goturuyor, dogru cevap NO. Kip sicakligi kanali kapali (olculu ifade, NO). GECTI."
+      }
+    },
+    {
+      "number": 2,
+      "passage_id": "A14",
+      "prompt": "The authors seem to find the teams who promised their material and then sent nothing the most revealing of the four kinds of reply.",
+      "answer": [
+        "YES"
+      ],
+      "evidence": "The authors regard this last group as the most revealing, since an outright refusal at least closes the matter honestly, while an unkept promise leaves the record looking cooperative when it is not.",
+      "evidence_locator": {
+        "paragraph": "C",
+        "sentence": 6
+      },
+      "contradiction_point": null,
+      "not_given_justification": null,
+      "scan_note": "Dort yanit turu C/1-C/5'te sirayla veriliyor (malzemeyi gonderen yirmi bir takim, hic yanit vermeyen on uc, dosyasi kalmayan uc, soz verip gondermeyen on iki). Degerlendirme yalnizca C/6'da: en aydinlatici bulunan grup sonuncusu. E/4 ve F/3 hatalarin paylasmayanlarda yogunlastigini soyluyor ama yanit turlerini birbirine gore siralamiyor, yani hangi grubun 'en aydinlatici' sayildigi baska hicbir yerden okunamiyor.",
+      "explanation": "The writer says the authors regard this last group - those who agreed to help and then sent nothing - as the most revealing, because an outright refusal at least closes the matter honestly.",
+      "difficulty": "medium",
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "faz": "FAZ 1 / B3 yeniden uretim (UYGULAMA-PLANI 1.5)",
+        "yeni_pasaj": "A14",
+        "eski_pasaj": "A06",
+        "eski_prompt": "Working hours and the support time attached to each client contract were both fixed across the company.",
+        "eski_cevap": [
+          "YES"
+        ],
+        "neden_elendi": "E7 parcasiz olcumde uc turun ucunde de bilindi (dayanak: logic) ve kalem isaretli (flagged) durumdaydi; ayrica kanit cumlesi artik alistirma havuzuna ait olmayan A06 pasajindaydi.",
+        "ne_degisti": "Kalem bastan yazildi ve A14'e baglandi. Kanit C/6'ya, yazarin dort yanit turu arasindan birini secen degerlendirmesine tasindi. Hangi grubun 'en aydinlatici' sayildigi tamamen yazara ait bir tercih: sessiz kalan on uc takim ya da dosyasini kaybeden uc takim da esit derecede makul adaydi, yani disaridan turetilemiyor. Kip olculu yazildi ('seem to find') ve cevabi YES.",
+        "recete_sinamasi": "Metinsiz okundu: dort gruptan hangisinin secildigi konusunda tek bir dogal aday cikmadi. GECTI."
+      }
+    },
+    {
+      "number": 3,
+      "passage_id": "A14",
+      "prompt": "In the authors' view, the teams whose files had been lost deserve less blame than those who never replied at all.",
       "answer": [
         "NOT GIVEN"
       ],
       "evidence": null,
       "evidence_locator": null,
       "contradiction_point": null,
-      "not_given_justification": "(1) Konu pasajda geciyor: F deneyimli takimlarin yaninda calisanlarin kazancini kidem gruplarina gore veriyor, H/3 deneyimlilerin yeni gelenlere hedefli rehberlik verdigini soyluyor. (2) Pasajda ifadeyi curuten hicbir cumle yok: deneyimli calisanlarin uretkenliginin rehberlikten etkilenmedigini soyleyen bir ifade bulunmuyor, dolayisiyla NO denemez. (3) Pasajda ifadeyi dogrulayan hicbir cumle yok - dolayli olarak bile: G deneyimli calisanlarin dusuk iletisimli ortamlarda daha iyi calistigini soyluyor ama bunu yeni gelenlere rehberlik etmenin bedeliyle hic iliskilendirmiyor; H/4 deneyimli personele daha az kontrol toplantisi onerirken de bir uretkenlik kaybindan soz etmiyor.",
-      "scan_note": "Deneyimlilerin rolu F (yeni gelenlerdeki kazanc), G (dusuk iletisimli ortamda daha iyi performans) ve H/3-H/4'te (hedefli rehberlik, yonetici onerisi) geciyor; hicbir paragraf rehberligin deneyimlinin kendi ciktisina maliyetini olcmuyor ya da anmiyor.",
-      "explanation": "The passage measures what newcomers gained from experienced teammates but never reports whether the experienced employees' own output suffered as a result.",
+      "not_given_justification": "(1) Konu pasajda geciyor: C/3 hatirlatmalara ragmen hic yanit vermeyen on uc takimi, C/4 dosyalari artik var olmayan uc takimi aniyor; C/6 yanit turlerini durustluk olcusuyle degerlendiriyor; H/5 dosya saklamanin bir beceri oldugunu soyluyor. (2) Pasajda ifadeyi curuten hicbir cumle yok: yazar dosyasini kaybedenleri sessiz kalanlardan daha agir da bulmuyor, dolayisiyla NO denemez. (3) Pasajda ifadeyi dogrulayan hicbir cumle yok - dolayli olarak bile: C/6'daki tek karsilastirma 'acik red' ile 'tutulmayan soz' arasinda; kayip dosya ile sessizlik hicbir yerde birbiriyle tartilmiyor. H/5-H/6 dosyalarini saklayamamayi bir beceri eksigine bagliyor ama bunu hafifletici sebep saymiyor, sessizlikle de kiyaslamiyor.",
+      "scan_note": "Yanit turleri C/1-C/6'da sayiliyor ve orada tek bir ahlaki karsilastirma var (acik red - tutulmayan soz). Dosya saklama becerisi H/5-H/6'da geciyor, orada da kayip dosyali yazar bir kusurun tarafi olarak aniliyor, mazur gorulen taraf olarak degil. Hicbir paragraf iki kusuru birbirine gore tartmiyor.",
+      "explanation": "The passage lists both the teams whose files had vanished and those who never answered, but the writer never weighs one failing against the other.",
       "difficulty": "hard",
       "status": "verified",
       "blind_solvable": false,
       "blind_basis": null,
-      "flag_reason": "Ifade, pasajin tek bir tam uzaktan sirketi anlattigi bir calismada, hic ele alinmayan bir baska kategoriyle (ofis tabanli sirketler) karsilastirma kuruyor; pasaj tek vaka inceledigi icin boyle bir kiyaslama iddiasi genelde NOT GIVEN'a isaret eder.",
-      "flag_mechanism": "konumsal_duzen",
-      "revision": {
-        "tarih": "2026-08-08",
-        "mekanizma": "konumsal_duzen",
-        "onceki_prompt": "Companies that operate entirely remotely are more productive than those based in offices.",
-        "ne_degisti": "Ifade artik pasajin hic incelemedigi bir kategoriyle (ofis tabanli sirketler) kiyaslama kurmuyor. Eski bicim, tek bir sirketi inceleyen bir pasaja disaridan ikinci bir kategori ekledigi icin okunur okunmaz NOT GIVEN'a isaret ediyordu. Yeni ifade pasajin merkezindeki eksende (deneyimli-yeni calisan dinamigi) duruyor ve metnin gercekten sessiz kaldigi bir noktayi soruyor; elemek icin F, G ve H'yi okumak gerekiyor. Cevap NOT GIVEN ve evidence null olarak korundu."
-      }
-    },
-    {
-      "number": 2,
-      "passage_id": "A06",
-      "prompt": "Working hours and the support time attached to each client contract were both fixed across the company.",
-      "answer": [
-        "YES"
-      ],
-      "evidence": "Because the company standardises working hours and each client contract allocates a fixed thirty hours of monthly support, the number of clients handled is a dependable stand-in for how much useful work an individual completed, avoiding the ambiguity that self-reported effort or hours worked can introduce into workplace research.",
-      "evidence_locator": {
-        "paragraph": "D",
-        "sentence": 2
-      },
-      "contradiction_point": null,
-      "not_given_justification": null,
-      "scan_note": "Olcum tasarimi D paragrafinda: D/1 uretkenligin ayda hizmet verilen farkli musteri sayisiyla olculdugunu soyluyor, D/2 iki sabiti yan yana veriyor - sirketin calisma saatlerini standartlastirmasi ve her musteri sozlesmesinin aylik otuz saat ayirmasi. B/3 calisma saatlerini yalnizca operasyonel kayitlarin icerigi olarak aniyor, sabitlikten soz etmiyor; baska hicbir paragraf sozlesme suresi vermiyor.",
-      "explanation": "The writer says the company standardises working hours and that each client contract allocates a fixed thirty hours of monthly support, so both quantities were held constant.",
-      "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_basis": "logic",
       "generated_by": "opus",
       "yeniden_uretim": {
-        "tarih": "2026-08-08",
-        "kaynak_prompt": "prompts/OPUS5-E6-yeniden-uretim.md (2/7)",
-        "uretilen_grup": "YES/NO/NOT GIVEN - alistirma",
-        "eski_prompt": "The firm's way of assigning new staff to teams gave the research unusual scientific strength.",
+        "tarih": "2026-08-18",
+        "faz": "FAZ 1 / B3 yeniden uretim (UYGULAMA-PLANI 1.5)",
+        "yeni_pasaj": "A14",
+        "eski_pasaj": "A06",
+        "eski_prompt": "Employees placed alongside star performers tended to produce a little more than they otherwise would.",
         "eski_cevap": [
-          "YES"
+          "NO"
         ],
-        "eski_kanit_cumlesi": "What made the study unusually rigorous was a quirk of company policy: new hires were placed into teams using a simple round-robin system based purely on the order in which they joined, a process neither managers nor employees could influence.",
-        "neden_elendi": "Sorunun ekseni genel arastirma yontemi bilgisi: yeni calisanlarin sira ya da rastgele usulle takimlara dagitilmasinin nedensellik cikarimini guclendirdigi, pasajdan bagimsiz olarak bilinen bir metodoloji kurali. Kip dengelemesi ya da konum degisikligi bunu kapatmaz; ifade nasil yazilirsa yazilsin cevap yontem bilgisinden cikar.",
-        "ne_degisti": "Yuva bosaltilip ayni pasajdan yeni bir ifadeyle dolduruldu. Eski soru C/1'e dayaniyordu: yeni calisanlarin sira usulu takimlara dagitilmasinin arastirmaya 'olagandisi bilimsel guc' verdigi. Rastgeleye yakin atamanin nedensellik cikarimini guclendirdigi genel bir yontem kurali oldugu icin cevap pasajsiz da cikiyordu. Yeni ifade C paragrafina hic degmiyor: kanit D/2'ye, olcumun iki sabitine tasindi (standartlastirilmis calisma saati + sozlesme basina sabit otuz saat). Bunlar sirkete ozgu keyfi tasarim ayrintilari; disaridan bilinemez, cunku esnek saat ya da degisken sozlesme suresi de esit olculude makuldu. Kip dengesi icin ifade mutlak yazildi ('both fixed across the company') ve cevabi YES: mutlak kipin otomatik olarak yanlis tarafa isaret etmesi kirildi."
-      },
-      "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: logic. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md",
-      "flag_mechanism": "konumsal_duzen"
-    },
-    {
-      "number": 3,
-      "passage_id": "A06",
-      "prompt": "Employees placed alongside star performers tended to produce a little more than they otherwise would.",
-      "answer": [
-        "NO"
-      ],
-      "evidence": "Whatever benefit workers usually gain from watching or being motivated by star performers, it did not appear here.",
-      "evidence_locator": {
-        "paragraph": "E",
-        "sentence": 3
-      },
-      "contradiction_point": "E/3, yildiz calisanlardan genelde elde edilen faydanin 'burada gorulmedigini' soyluyor; ifade kucuk de olsa bir artis oldugunu one suruyor. Celiski tek noktada: artisin var olup olmadigi.",
-      "not_given_justification": null,
-      "scan_note": "Yildiz calisanlarin etkisi E paragrafinda (E/2 olculebilir iyilesme yok, E/3 faydanin burada gorulmedigi) ve H/2'de ele aliniyor; hicbir cumle olculu de olsa bir artistan soz etmiyor.",
-      "explanation": "The writer states that whatever benefit workers usually gain from star performers did not appear in this study at all, so even a small rise is ruled out.",
-      "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_basis": "logic",
-      "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: logic. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md",
-      "flag_mechanism": "kip_imzasi",
-      "revision": {
-        "tarih": "2026-08-08",
-        "mekanizma": "kip_imzasi",
-        "onceki_prompt": "In the study, working beside star performers clearly improved an employee's own output.",
-        "ne_degisti": "Ifadedeki 'clearly' mutlak zarfi kaldirildi; iddia 'tended to produce a little more' bicimine, yani olculu kipe cekildi. Boylece 'mutlak ifade = NO' imzasi kirildi: artik olculu yazilmis bir NO var. Kanit cumlesi (E/3) faydanin hic gorulmedigini soyledigi icin olculu iddiayi da ayni netlikte curutuyor."
+        "neden_elendi": "E7 parcasiz olcumde uc turun ucunde de bilindi (dayanak: logic), kalem isaretliydi ve mekanizmasi kip_imzasi olarak kayitliydi; kanit cumlesi ayrica artik alistirma havuzuna ait olmayan A06 pasajindaydi.",
+        "ne_degisti": "Kalem bastan yazildi ve A14'e baglandi; yuvanin cevabi NOT GIVEN'a cevrildi. Ifade pasajin disindan bir kategori getirmiyor - klasik 'hic incelenmemis grupla kiyas' kalibi bilerek kullanilmadi. Karsilastirilan iki grup da metnin icinde ve ikisi de degerlendirilmis gibi duruyor; okurun C/6'nin tam olarak neyi neyle karsilastirdigini gormesi gerekiyor. Boylece 'kalip olarak NOT GIVEN' sezgisi kanali kapaniyor.",
+        "recete_sinamasi": "Metinsiz okundu: iki grup arasindaki suc paylasimi hakkinda disaridan hicbir sey soylenemiyor ve ifade disaridan kategori eklemiyor. GECTI."
       }
     },
     {
       "number": 4,
-      "passage_id": "A06",
-      "prompt": "Staff in their first year gained roughly twice as much from experienced teammates as second-year staff did.",
+      "passage_id": "A14",
+      "prompt": "The second of the two patterns the team describe has to do with the size of the mistakes found rather than with how close results came to the threshold.",
       "answer": [
         "NO"
       ],
-      "evidence": "This benefit was strongly concentrated among newer staff: employees in their first year on the job gained around 26.2 per cent when surrounded by experienced teammates, second-year employees gained a more modest 8.6 per cent, and the effect shrank close to zero for longer-serving staff.",
+      "evidence": "A second pattern concerned not mistakes but margins.",
       "evidence_locator": {
-        "paragraph": "F",
-        "sentence": 3
+        "paragraph": "G",
+        "sentence": 1
       },
-      "contradiction_point": "F/3 iki sayiyi da veriyor: birinci yil yaklasik %26,2, ikinci yil %8,6. Oran ikiye degil, uce yakin (yaklasik 3,05 kat). Celiski tek noktada: iki kidem grubu arasindaki kazanc orani. Ifadedeki 'roughly' esnekligi bunu kapatmiyor, cunku uc kat 'kabaca iki kat' sayilamaz.",
+      "contradiction_point": "G/1 ikinci oruntunun hatalarla degil marjlarla ilgili oldugunu acikca soyluyor; ifade tam tersini, oruntunun hatalarin buyuklugu hakkinda oldugunu one suruyor. Celiski tek noktada: ikinci oruntunun konusu. Hatalarin buyuklugu E/4'te birinci oruntunun icinde geciyor, ikincisinin icinde degil.",
       "not_given_justification": null,
-      "scan_note": "Kidem kirilimi yalnizca F/3'te sayiyla veriliyor (%26,2 / %8,6 / sifira yakin). F/2 takim duzeyindeki ortalama kazanci (%12,2) veriyor ama yila gore ayirmiyor; H/4 ayni oruntuyu sayisiz bicimde yonetici onerisine ceviriyor. Baska hicbir yerde ikinci bir oran yok, yani karsilastirma bu tek cumlenin icindeki iki sayiyla yapiliyor.",
-      "explanation": "The figures given are around 26.2 per cent for first-year staff against 8.6 per cent for second-year staff, a gap of about three times rather than two.",
+      "scan_note": "Iki oruntu ayri paragraflarda duruyor: hatalar E ve F'de (E/1 tutarsiz sonuclarin sayisi, E/4 hatalarin nerede yogunlastigi, F/2 sonucu devirebilecek olanlar), marjlar G'de (G/2 iki grubun kanit gucu, G/3 esigin hemen altindaki dar bant, G/4 yazarlarin bunu nasil okudugu). Ikisini birbirinden ayiran tek cumle G/1; baska hicbir yerde ikinci oruntunun konusu tanimlanmiyor.",
+      "explanation": "The writer introduces the second pattern by saying that it concerned not mistakes but margins - how close the results sat to the conventional cut-off.",
       "difficulty": "medium",
       "status": "verified",
       "blind_solvable": false,
       "blind_basis": null,
       "generated_by": "opus",
       "yeniden_uretim": {
-        "tarih": "2026-08-08",
-        "kaynak_prompt": "prompts/OPUS5-E6-yeniden-uretim.md (2/7)",
-        "uretilen_grup": "YES/NO/NOT GIVEN - alistirma",
-        "eski_prompt": "Longer-serving colleagues can offer newcomers precisely aimed support at the moments they need it.",
+        "tarih": "2026-08-18",
+        "faz": "FAZ 1 / B3 yeniden uretim (UYGULAMA-PLANI 1.5)",
+        "yeni_pasaj": "A14",
+        "eski_pasaj": "A06",
+        "eski_prompt": "Staff in their first year gained roughly twice as much from experienced teammates as second-year staff did.",
         "eski_cevap": [
-          "YES"
+          "NO"
         ],
-        "eski_kanit_cumlesi": "Experienced colleagues, by contrast, seem able to give newcomers efficient, targeted guidance precisely when it is needed, a benefit that requires no visible display of productivity and, the study suggests, works better with less routine interruption rather than more.",
-        "neden_elendi": "Sorunun ekseni genel is yasami bilgisi: deneyimli calisanlarin yeni gelenlere ihtiyac aninda hedefli rehberlik verebildigi, isyeri mentorlugu uzerine yaygin kabul goren bir onerme. Ifadenin kipi olculu ya da kesin yazilsa da cevap pasaja bakilmadan cikarilabiliyor.",
-        "ne_degisti": "Yuva bosaltilip ayni pasajdan yeni bir ifadeyle dolduruldu. Eski soru H/3'e dayaniyordu: deneyimli meslektaslarin yeni gelenlere tam ihtiyac aninda hedefli rehberlik verebildigi. Isyeri mentorlugu uzerine yaygin kabul goren bir onerme oldugu icin cevap pasaja bakilmadan cikiyordu. Yeni ifade H paragrafina hic degmiyor: kanit F/3'e, iki kidem grubunun kazanc oranina tasindi. Oranin iki mi uc mu bes kat mi oldugu disaridan kestirilemez - 'yeni gelen daha cok kazanir' sezgisi buyuklugu vermez, ki sorunun ekseni tam olarak buyukluk. Kip dengesi icin ifade olculu yazildi ('roughly twice as much') ve cevabi NO: olculu kipin otomatik olarak dogru cevaba isaret etmesi kirildi."
+        "neden_elendi": "Kanit cumlesi artik alistirma havuzuna ait olmayan A06 pasajindaydi (test havuzu ayrimi).",
+        "ne_degisti": "Kalem bastan yazildi ve A14'e baglandi. Ilk taslak G/4'e (yazarlarin marj yorumu) dayaniyordu; kendi metinsiz sinamamda elendi, cunku 'zar zor anlamli cikan sonucun sahibi denetimden en cok korkar' onermesi kulaga makul geldigi icin pasajsiz da secilebiliyordu. Kanit G/1'e tasindi: ikinci oruntunun hatalarla mi marjlarla mi ilgili oldugu tamamen metne ozgu bir ayrim ve disaridan kestirilemiyor. Kip kesin yazildi ve cevabi NO.",
+        "recete_sinamasi": "Metinsiz okundu: ikinci oruntunun konusu icin iki secenek de esit derecede makul; makullugu tercih ettiren bir kanal kalmadi. GECTI."
       }
     },
     {
       "number": 5,
-      "passage_id": "A10",
-      "prompt": "Every team in the trial worked in all four of the layouts, though not in the same order as one another.",
+      "passage_id": "A14",
+      "prompt": "The authors argue that the conventional cut-off used to judge significance is itself set at the wrong point.",
+      "answer": [
+        "NOT GIVEN"
+      ],
+      "evidence": null,
+      "evidence_locator": null,
+      "contradiction_point": null,
+      "not_given_justification": "(1) Konu pasajda geciyor: F/2 yeniden hesaplanan olasiligin 'gelenek olan anlamlilik esigini' asmasindan soz ediyor, G/2 iki grubun sonuclarinin bu esige uzakligini karsilastiriyor, G/3 esigin hemen altindaki bandin oranlarini veriyor. (2) Pasajda ifadeyi curuten hicbir cumle yok: yazar esigin dogru yerde oldugunu savunan bir ifade de kurmuyor, dolayisiyla NO denemez. (3) Pasajda ifadeyi dogrulayan hicbir cumle yok - dolayli olarak bile: esik butun metinde sabit bir olcu cizgisi olarak kullaniliyor, hicbir yerde degerlendirilmiyor. I/3 yazarlarin taleplerini toplu halde veriyor (arsivlemenin yayin sarti olmasi, veri yonetiminin rutin egitime girmesi, merkezi analizlerin en az iki kisice bagimsiz yurutulmesi) ve esigin duzeyi bunlarin arasinda yok.",
+      "scan_note": "'Gelenek olan esik' uc yerde geciyor: F/2, G/2 ve G/3. Ucunde de referans cizgisi islevi goruyor, tartisma konusu degil. Yazarin ne istedigi yalniz I/2-I/3'te toplaniyor ve orada da esik hic anilmiyor.",
+      "explanation": "The threshold is used throughout as a fixed reference line and is never evaluated; the remedies the authors call for concern archiving, training and independent analysis instead.",
+      "difficulty": "medium",
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "faz": "FAZ 1 / B3 yeniden uretim (UYGULAMA-PLANI 1.5)",
+        "yeni_pasaj": "A14",
+        "eski_pasaj": "A10",
+        "eski_prompt": "Every team in the trial worked in all four of the layouts, though not in the same order as one another.",
+        "eski_cevap": [
+          "YES"
+        ],
+        "neden_elendi": "Kanit cumlesi artik alistirma havuzuna ait olmayan A10 pasajindaydi (test havuzu ayrimi).",
+        "ne_degisti": "Kalem bastan yazildi ve A14'e baglandi; yuvanin cevabi NOT GIVEN'a cevrildi. Ifade kesin dilli yazildi ('argue that ... is itself set at the wrong point') ve cevabi NOT GIVEN - boylece 'kesin dilli ifade = NO' imzasi bir kez daha bozuluyor. Dis bilgi burada okuru yanlis yone cekiyor: anlamlilik esiginin tartismali oldugu populer bilim soyleminden bilindigi icin metinsiz okur YES'e meylediyor, oysa bu yazar esigi hic tartismiyor.",
+        "recete_sinamasi": "Metinsiz okundu: dis bilgi YES'e goturuyor, dogru cevap NOT GIVEN. Kalip kanali da kapali (ifade metnin merkezindeki olcu cizgisi uzerine). GECTI."
+      }
+    },
+    {
+      "number": 6,
+      "passage_id": "A14",
+      "prompt": "The sample sizes behind the two sets of papers gave little support to the first of the two rival explanations.",
       "answer": [
         "YES"
       ],
-      "evidence": "Using a Latin square design, in which every team eventually experienced every condition but in a different order, the teams rotated through four distinct office layouts, each for a two-week period: a conventional open-plan office with minimal separation between desks, acting as the baseline; a zoned open-plan design with soundproof doors dividing spaces into rooms holding no more than 40 people; an activity-based design offering unassigned desks alongside dedicated focus rooms and collaboration areas; and a team-office design with large, partly enclosed cubicles seating four to six people behind sound-absorbing panels.",
+      "evidence": "Sample sizes gave this little support: the sharing papers were not built on systematically larger samples.",
       "evidence_locator": {
-        "paragraph": "B",
+        "paragraph": "H",
+        "sentence": 3
+      },
+      "contradiction_point": null,
+      "not_given_justification": null,
+      "scan_note": "Iki rakip aciklama yalniz H'de: H/2 birincisi (titiz arastirmacilarin her seyde titiz oldugu), H/4-H/5 ikincisi (dosya saklamanin bir beceri olmasi). Ornek buyuklugu tek bir yerde, H/3'te geciyor. B/2 kirk dokuz makalenin nasil secildigini anlatiyor ama ornek buyuklugu vermiyor; D ve E yeniden hesaplamanin yontemiyle ilgili. Baska hicbir cumle iki grubun ornek buyuklugunu karsilastirmiyor.",
+      "explanation": "The writer says sample sizes gave that explanation little support, because the papers whose authors shared their material were not built on systematically larger samples.",
+      "difficulty": "medium",
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "faz": "FAZ 1 / B3 yeniden uretim (UYGULAMA-PLANI 1.5)",
+        "yeni_pasaj": "A14",
+        "eski_pasaj": "A10",
+        "eski_prompt": "The researchers were able to rank only two of the four office designs against each other.",
+        "eski_cevap": [
+          "NO"
+        ],
+        "neden_elendi": "E7 parcasiz olcumde uc turun ucunde de bilindi (dayanak: logic), kalem isaretliydi ve mekanizmasi konumsal_duzen olarak kayitliydi; kanit cumlesi ayrica artik alistirma havuzuna ait olmayan A10 pasajindaydi.",
+        "ne_degisti": "Kalem bastan yazildi ve A14'e baglandi. Kanit H/3'e, yazarin birinci rakip aciklamayi degerlendirdigi cumleye tasindi. Kalem iki cumleyi birlikte okumayi gerektiriyor: hangi aciklamanin 'birinci' oldugu H/2'de, ornek buyukluklerinin ne gosterdigi H/3'te. Metinsiz okur ifadedeki 'birinci aciklamanin' ne oldugunu bilemedigi icin degerlendirmeyi de yapamiyor. Kip olculu yazildi ('little support') ve cevabi YES.",
+        "recete_sinamasi": "Metinsiz okundu: 'birinci aciklama' ifadesi pasaj disinda bos bir gonderme; hicbir yon secilemedi. GECTI."
+      }
+    },
+    {
+      "number": 7,
+      "passage_id": "A14",
+      "prompt": "The team appear to find the explanation resting on the researchers' general carefulness the harder of the two to set aside.",
+      "answer": [
+        "NO"
+      ],
+      "evidence": "The second explanation is harder to set aside.",
+      "evidence_locator": {
+        "paragraph": "H",
+        "sentence": 4
+      },
+      "contradiction_point": "H/2 titizlik aciklamasini acikca 'birinci' aciklama olarak veriyor; H/4 ise elenmesi zor olanin 'ikinci' aciklama, yani H/5'te anlatilan dosya saklama becerisiyle ilgili olan oldugunu soyluyor. Celiski tek noktada: iki aciklamadan hangisinin daha zor elendigi. Ifadenin olculu kipi ('appear to find') bunu kapatmiyor, cunku yazar iki aciklamayi acikca sirayla karsilastiriyor.",
+      "not_given_justification": null,
+      "scan_note": "Rakip aciklamalarin ikisi de H'de: H/1 iki aciklamanin ciddiye alindigini, H/2 birincisini, H/3 birincisinin neden zayif kaldigini, H/4 ikincisinin daha zor elendigini, H/5-H/6 ikincisinin icerigini veriyor. E/5 dengesiz dagilimin kazayla aciklanmasinin zor oldugunu soyluyor ama rakip aciklamalari siralamiyor; baska hicbir cumle bu ikisini birbirine gore tartmiyor.",
+      "explanation": "The account based on general carefulness is the first explanation, and the writer says it is the second one - the account based on record-keeping - that is harder to set aside.",
+      "difficulty": "hard",
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "faz": "FAZ 1 / B3 yeniden uretim (UYGULAMA-PLANI 1.5)",
+        "yeni_pasaj": "A14",
+        "eski_pasaj": "A10",
+        "eski_prompt": "On sustained concentration, both partly enclosed layouts outscored every other design in the trial.",
+        "eski_cevap": [
+          "YES"
+        ],
+        "neden_elendi": "E7 parcasiz olcumde uc turun ucunde de bilindi (dayanak: logic), kalem isaretliydi ve mekanizmasi konumsal_duzen olarak kayitliydi; kanit cumlesi ayrica artik alistirma havuzuna ait olmayan A10 pasajindaydi.",
+        "ne_degisti": "Kalem bastan yazildi ve A14'e baglandi. Kanit H/4'e tasindi. Iki rakip aciklamadan hangisinin daha zor elendigi yalniz yazarin degerlendirmesi; disaridan bakan biri icin ikisi de esit derecede makul. Kalem ayrica iki cumleyi birlikte okumayi gerektiriyor (H/2 hangisinin 'birinci' oldugunu, H/4 hangisinin zor elendigini soyluyor). Kip olculu yazildi ('appear to find') ve cevabi NO - olculu ifadenin YES'e isaret etmesi kirildi.",
+        "recete_sinamasi": "Metinsiz okundu: iki aciklamanin icerigi bilinmedigi icin hangisinin 'birinci' oldugu bile secilemedi. GECTI."
+      }
+    },
+    {
+      "number": 8,
+      "passage_id": "A14",
+      "prompt": "The authors want at least two members of every team to run the central analyses independently before a paper is submitted.",
+      "answer": [
+        "YES"
+      ],
+      "evidence": "They call for archiving to be made a condition of publication rather than a promise attached to it, for data management to be taught as routine training, and for at least two members of every team to run the central analyses independently before a paper is submitted.",
+      "evidence_locator": {
+        "paragraph": "I",
+        "sentence": 3
+      },
+      "contradiction_point": null,
+      "not_given_justification": null,
+      "scan_note": "Yazarlarin talepleri yalniz I/3'te bir arada veriliyor; I/2 bu taleplerin kisilere degil sistemlere yoneldigini soyluyor, I/4 kapanis yargisini kuruyor. A/3 mevcut yukumlulugu (imzalanan taahhut) anlatiyor ama bir sayi vermiyor; H/5'teki psikolog anketi saklama aliskanligiyla ilgili, analizi kimin yurutecegiyle degil. Analizi kac kisinin yapacagini soyleyen baska cumle yok.",
+      "explanation": "Among the remedies listed, the authors call for at least two members of every team to run the central analyses independently before a paper is submitted.",
+      "difficulty": "medium",
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "faz": "FAZ 1 / B3 yeniden uretim (UYGULAMA-PLANI 1.5)",
+        "yeni_pasaj": "A14",
+        "eski_pasaj": "A10",
+        "eski_prompt": "Noise levels in the activity-based design were lower than those in the team-office design.",
+        "eski_cevap": [
+          "NOT GIVEN"
+        ],
+        "neden_elendi": "Konu cumleleri artik alistirma havuzuna ait olmayan A10 pasajindaydi; kalem ayrica konumsal_duzen isaretini tasiyordu.",
+        "ne_degisti": "Kalem bastan yazildi ve A14'e baglandi. Kanit I/3'e, yazarlarin somut talebine tasindi. Onerinin icerigi metne ozgu bir sayiya dayaniyor: 'her takimdan tek bir sorumlu' ya da 'dis bir denetci' de esit derecede makul bir oneri olurdu, yani disaridan bilinemiyor. Bilerek 'daha fazla veri paylasilmali' gibi genel bir savunuculuk cumlesi secilmedi, cunku o tur bir ifade pasajin tavrindan tahmin edilebilirdi. Kip kesin yazildi ('at least two members ... independently') ve cevabi YES.",
+        "recete_sinamasi": "Metinsiz okundu: onerinin kac kisi oldugu icin tek bir dogal aday cikmadi; pasajin genel tavri bu ayrintiyi vermiyor. GECTI."
+      }
+    },
+    {
+      "number": 9,
+      "passage_id": "A15",
+      "prompt": "Questions 9-15 refer to Passage A15. Although it is a relative of the hormone behind most wound responses, the compound appears to travel through the plant by a route of its own.",
+      "answer": [
+        "YES"
+      ],
+      "evidence": "It is a relative of jasmonic acid, the hormone governing most wound responses, yet it seems to travel a separate route through the plant.",
+      "evidence_locator": {
+        "paragraph": "C",
         "sentence": 2
       },
       "contradiction_point": null,
       "not_given_justification": null,
-      "scan_note": "Deneyin kurulusu B paragrafinda: B/1 kac calisan ve kac takim oldugunu veriyor (288 calisan, 22 takim), B/2 her takimin dort duzenin hepsinden ikiser haftalik donemler halinde, birbirinden farkli siralarla gectigini soyluyor ve dort duzeni tanitiyor. C olcum araclarini, D-G sonuclari veriyor; rotasyon ya da sira baska hicbir paragrafta gecmiyor.",
-      "explanation": "The writer describes a Latin square design in which every team eventually experienced every one of the four layouts, but in a different order.",
+      "scan_note": "Bilesigin kimligi C/1-C/2'de veriliyor: C/1 dogal olarak uretildigini ve zedelenmis dokudan bol salindigini, C/2 hormonla akrabaligini ve ayri bir yol izledigini soyluyor. C/3 onceki calismalarin ne kanitladigini, C/4-C/5 sinanan asil soruyu veriyor. Ayri yol iddiasi yalniz C/2'de geciyor; H/4 etkinin muhtemelen hangi enzim ailesinde oturduguna deginiyor ama tasima yolundan hic soz etmiyor.",
+      "explanation": "The writer says the compound is a relative of the wound hormone yet seems to travel a separate route through the plant.",
       "difficulty": "easy",
       "status": "verified",
       "blind_solvable": false,
       "blind_basis": null,
       "generated_by": "opus",
       "yeniden_uretim": {
-        "tarih": "2026-08-08",
-        "kaynak_prompt": "prompts/OPUS5-E6-yeniden-uretim.md (2/7)",
-        "uretilen_grup": "YES/NO/NOT GIVEN - alistirma",
-        "eski_prompt": "Opinion is sharply divided over whether open-plan workplaces do their occupants good or harm.",
+        "tarih": "2026-08-18",
+        "faz": "FAZ 1 / B3 yeniden uretim (UYGULAMA-PLANI 1.5)",
+        "yeni_pasaj": "A15",
+        "eski_pasaj": "A11",
+        "eski_prompt": "Reaching the two settings seems to have involved about the same amount of walking for participants.",
         "eski_cevap": [
-          "YES"
+          "NO"
         ],
-        "eski_kanit_cumlesi": "Few questions in modern office design generate as much disagreement as whether open-plan layouts help or harm the people who work in them.",
-        "neden_elendi": "Sorunun ekseni genel kultur: acik plan ofislerin yararli mi zararli mi oldugunun tartismali olmasi, populer is yasami soyleminin bilinen bir gercegi. Tartismanin varligini soran her ifade, kipi ne olursa olsun, parcaya bakilmadan dogrulanabilir.",
-        "ne_degisti": "Yuva bosaltilip ayni pasajdan yeni bir ifadeyle dolduruldu. Eski soru A/1'e dayaniyordu: acik plan ofislerin yararli mi zararli mi oldugunun tartismali olmasi. Bir tartismanin var oldugunu soran ifade, populer is yasami soyleminden zaten bilindigi icin kipi ne olursa olsun pasajsiz dogrulanabiliyordu. Yeni ifade A paragrafina hic degmiyor: kanit B/2'ye, deneyin rotasyon duzenine tasindi. Her takimin dort duzenin hepsinden farkli siralarla gecip gecmedigi tamamen arastirmaciya ait bir tasarim karari; takimlar duzenlere bolunmus de olabilirdi, yani disaridan bilinemez. Kip dengesi icin ifade mutlak yazildi ('Every team ... all four') ve cevabi YES."
+        "neden_elendi": "E7 parcasiz olcumde uc turun ucunde de bilindi (dayanak: logic), kalem isaretliydi ve mekanizmasi konumsal_duzen olarak kayitliydi; kanit cumlesi ayrica artik alistirma havuzuna ait olmayan A11 pasajindaydi.",
+        "ne_degisti": "Kalem bastan yazildi ve A15'e baglandi. Kanit C/2'ye, yazarin ihtiyatli degerlendirme cumlesine tasindi. Iki molekulun ayni mi ayri mi yol izledigi disaridan bilinemez; akraba olmalari aksine 'ayni yolu izler' beklentisi yaratiyor, yani genel sezgi okuru yanlis yone cekiyor. Kip olculu yazildi ('appears to') ve cevabi YES.",
+        "recete_sinamasi": "Metinsiz okundu: akrabalik sezgisi ayni yolu isaret ediyor, dogru cevap ayri yol (YES). Kanal ters yone calisiyor. GECTI."
       }
-    },
-    {
-      "number": 6,
-      "passage_id": "A10",
-      "prompt": "The researchers were able to rank only two of the four office designs against each other.",
-      "answer": [
-        "NO"
-      ],
-      "evidence": "The results showed a clear ranking among the four designs.",
-      "evidence_locator": {
-        "paragraph": "D",
-        "sentence": 1
-      },
-      "contradiction_point": "D/1 sonuclarin dort tasarim arasinda net bir siralama gosterdigini soyluyor; ifade siralamanin yalnizca ikisini kapsadigini iddia ediyor. Celiski tek noktada: siralamanin kac tasarimi kapsadigi.",
-      "not_given_justification": null,
-      "scan_note": "Siralama D paragrafinda veriliyor: D/1 dort tasarimi kapsayan net siralama yargisi, D/2-D/3 dort tasarimin da sayilari. E akis puanlarini ekliyor; hicbir cumle siralamayi iki tasarimla sinirlamiyor.",
-      "explanation": "The writer reports a clear ranking covering all four designs, not just two of them.",
-      "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_basis": "logic",
-      "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: logic. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md",
-      "flag_mechanism": "konumsal_duzen",
-      "revision": {
-        "tarih": "2026-08-08",
-        "mekanizma": "konumsal_duzen",
-        "onceki_prompt": "The trial failed to produce a clear ordering of the four office designs.",
-        "ne_degisti": "Blanket olumsuzlama ('failed to produce a clear ordering') yerine belirli sayisal bir iddia kondu. Eski bicim, 'arastirma pasajlari sonuc bildirir' sezgisiyle mutlak olumsuzlamanin yanlis cikacagi tahmininden coziluyordu; yeni bicim pasajdaki siralamanin kapsamini bilmeyi gerektiriyor. Kanit cumlesi (D/1) degismedi."
-      }
-    },
-    {
-      "number": 7,
-      "passage_id": "A10",
-      "prompt": "On sustained concentration, both partly enclosed layouts outscored every other design in the trial.",
-      "answer": [
-        "YES"
-      ],
-      "evidence": "Employees in team offices reported flow scores 12 per cent higher than those in the open-plan condition, and employees in the zoned open-plan design reported flow scores 15 per cent higher, suggesting that both partly enclosed layouts allowed for more sustained concentration than either the fully open or the fully unassigned arrangement.",
-      "evidence_locator": {
-        "paragraph": "E",
-        "sentence": 2
-      },
-      "contradiction_point": null,
-      "not_given_justification": null,
-      "scan_note": "Odaklanma ve akis E paragrafinda: E/2 iki yari kapali duzenin hem tamamen acik hem de sabit masasiz duzenden daha surekli konsantrasyon sagladigini soyluyor. Denenen dort duzenden geri kalan ikisi tam olarak bunlar; F gurultu verisiyle destekliyor, celisen cumle yok.",
-      "explanation": "The writer reports higher flow scores for both the team-office and the zoned design than for either the fully open or the fully unassigned arrangement, which are the only other layouts tested.",
-      "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_basis": "logic",
-      "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: logic. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md",
-      "flag_mechanism": "konumsal_duzen",
-      "revision": {
-        "tarih": "2026-08-08",
-        "mekanizma": "konumsal_duzen",
-        "onceki_prompt": "Sustained focus came more easily in the two partly enclosed layouts than in the remaining designs.",
-        "ne_degisti": "Olculu karsilastirma ('came more easily ... than the remaining designs') yerine kapsayici/mutlak bir ifade kondu ('outscored every other design in the trial'). Kip imzasini kirmanin ikinci yonu: artik mutlak yazilmis bir YES var, yani 'mutlak = NO' kurali bu sette yanlis cevap veriyor. Kanit cumlesi (E/2) iddiayi aynen karsiliyor: geri kalan iki duzen zaten tam acik ve sabit masasiz duzenler."
-      }
-    },
-    {
-      "number": 8,
-      "passage_id": "A10",
-      "prompt": "Noise levels in the activity-based design were lower than those in the team-office design.",
-      "answer": [
-        "NOT GIVEN"
-      ],
-      "evidence": null,
-      "evidence_locator": null,
-      "contradiction_point": null,
-      "not_given_justification": "(1) Konu pasajda geciyor: F/1 gurultu olcumlerini veriyor, B dort duzeni tanitirken ses yalitimli kapilari ve ses emici panelleri anlatiyor. (2) Pasajda ifadeyi curuten hicbir cumle yok: etkinlik tabanli duzenin takim ofisinden gurultulu oldugunu soyleyen bir ifade bulunmuyor, dolayisiyla NO denemez. (3) Pasajda ifadeyi dogrulayan hicbir cumle yok - dolayli olarak bile: F/1 yalnizca acik plan ofisi 'alternatif tasarimlarin herhangi biriyle' karsilastiriyor, alternatifleri kendi aralarinda hic siralamiyor; D ve E'deki siralamalar memnuniyet, algilanan verim ve akisa ait, gurultuye degil.",
-      "scan_note": "Gurultu verisi yalniz F/1'de (acik planin guvenli siniri asma sikligi, alternatiflere gore %20-30 fazla) ve C'de (sensorlerin ses duzeyini kaydettigi) geciyor; hicbir paragraf iki alternatif tasarimin gurultusunu birbiriyle karsilastirmiyor.",
-      "explanation": "The passage compares noise in the open-plan office with the alternative designs as a group, but never compares the alternative designs with one another.",
-      "difficulty": "hard",
-      "status": "verified",
-      "blind_solvable": false,
-      "blind_basis": null,
-      "flag_reason": "Ifade, pasajin yalnizca deney sonuclarini ve onerileri sundugu bir baglamda, sirketin deney sonrasi ne karar verdigine dair hic ele alinmayan bir uygulama ayrintisi ekliyor; bu tur 'deneyden sonra ne oldu' sorularinin pasajda karsiligi cogu zaman yoktur, bu oruntuyle NOT GIVEN tahmin edilebilir.",
-      "flag_mechanism": "konumsal_duzen",
-      "revision": {
-        "tarih": "2026-08-08",
-        "mekanizma": "konumsal_duzen",
-        "onceki_prompt": "After the experiment, the zoned design was rolled out across the whole campus.",
-        "ne_degisti": "Ifade artik 'deneyden sonra ne oldu' turunden bir uygulama ayrintisi sormuyor. Eski bicim, sonuclari ve onerileri sunan bir pasaja deney sonrasi bir karar ekledigi icin kalip olarak NOT GIVEN'a isaret ediyordu. Yeni ifade pasajin olctugu bir degiskenin (gurultu) icinde kaliyor; elemek icin F/1'in tam olarak neyi neyle karsilastirdigini gormek gerekiyor. Cevap NOT GIVEN ve evidence null olarak korundu."
-      }
-    },
-    {
-      "number": 9,
-      "passage_id": "A11",
-      "prompt": "Reaching the two settings seems to have involved about the same amount of walking for participants.",
-      "answer": [
-        "NO"
-      ],
-      "evidence": "In the comparison condition, participants instead walked two minutes to a spot on campus where they spent 15 minutes viewing nearby buildings, an environment the researchers deliberately chose to be calm and free of traffic rather than obviously stressful.",
-      "evidence_locator": {
-        "paragraph": "C",
-        "sentence": 2
-      },
-      "contradiction_point": "C/1 orman kosulu icin bes dakikalik, C/2 karsilastirma kosulu icin iki dakikalik yuruyus veriyor; ifade ikisini birbirine esitliyor. Celiski tek noktada: iki ortama ulasmak icin yurunen sure. 'seems to' ve 'about' esnekligi iki bucuk kati asan farki kapatmiyor. Iki kosulda esit olan yuruyus degil, ortamda gecirilen 15 dakikalik sure.",
-      "not_given_justification": null,
-      "scan_note": "Iki kosulun kurulusu C paragrafinda karsilikli veriliyor: C/1 orman (bes dakikalik yuruyus, agac turleri ve yaslari, 15 dakikalik kalis), C/2 kampus (iki dakikalik yuruyus, 15 dakikalik kalis), C/3 iki kosulda da gecerli kurallari sayiyor. B katilimcilari ve capraz tasarimi, D hava kosullarini veriyor; yuruyus suresi baska hicbir yerde gecmiyor.",
-      "explanation": "The forest condition began with a five-minute walk and the campus condition with a two-minute one, so the walking involved was not comparable.",
-      "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_basis": "logic",
-      "generated_by": "opus",
-      "yeniden_uretim": {
-        "tarih": "2026-08-08",
-        "kaynak_prompt": "prompts/OPUS5-E6-yeniden-uretim.md (2/7)",
-        "uretilen_grup": "YES/NO/NOT GIVEN - alistirma",
-        "eski_prompt": "That natural surroundings can ease stress is now a widely shared view.",
-        "eski_cevap": [
-          "YES"
-        ],
-        "eski_kanit_cumlesi": "It is now widely accepted that spending time in natural surroundings can reduce stress and improve mood, an effect researchers often describe as psychological restoration.",
-        "neden_elendi": "Sorunun ekseni genel kultur: dogada vakit gecirmenin stresi azalttigi gorusunun yaygin kabul gordugu, pasajdan once bilinen bir sey. Ifade zaten 'yaygin kabul' iddiasinin kendisini sordugu icin dogrulanmasi pasaja hic bagli degil.",
-        "ne_degisti": "Yuva bosaltilip ayni pasajdan yeni bir ifadeyle dolduruldu. Eski soru A/1'e dayaniyordu: doganin stresi azalttigi gorusunun artik yaygin kabul gordugu. Ifade 'yaygin kabul' iddiasinin kendisini sordugu icin dogrulanmasi pasaja hic bagli degildi. Yeni ifade A paragrafina hic degmiyor: kanit C/2'ye, iki kosula ulasmak icin yurunen sureye tasindi (bes dakikaya karsi iki dakika). Bu sureler saha duzenlemesinin keyfi ayrintisi; ormanin kampustan daha uzakta olmasi zorunlu degil, esit uzaklikta iki nokta secilmis de olabilirdi. Kip dengesi icin ifade olculu yazildi ('seems to have involved about the same') ve cevabi NO."
-      },
-      "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: logic. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md",
-      "flag_mechanism": "konumsal_duzen"
     },
     {
       "number": 10,
-      "passage_id": "A11",
-      "prompt": "The forest's restorative effect built up gradually over the fifteen minutes participants spent there.",
+      "passage_id": "A15",
+      "prompt": "In the writer's account, earlier work had already settled the question of whether the compound switches a plant's defences on directly.",
       "answer": [
-        "NOT GIVEN"
+        "NO"
       ],
-      "evidence": null,
-      "evidence_locator": null,
-      "contradiction_point": null,
-      "not_given_justification": "(1) Konu pasajda geciyor: F, Restorative Outcome Scale'in calismanin en belirgin etkisi oldugunu ve orman sonrasi keskin bicimde yukseldigini soyluyor. (2) Pasajda ifadeyi curuten hicbir cumle yok: etkinin ani ya da hemen doygunluga ulasan bir etki oldugunu soyleyen bir ifade bulunmuyor, dolayisiyla NO denemez. (3) Pasajda ifadeyi dogrulayan hicbir cumle yok - dolayli olarak bile: E, dort olcegin de yalnizca 15 dakikalik surenin hemen oncesinde ve hemen sonrasinda uygulandigini soyluyor; sure icinde ara olcum alinmadigi icin etkinin nasil bir seyir izledigi hic raporlanmiyor.",
-      "scan_note": "Olcum takvimi E'de veriliyor (yalniz oncesi ve sonrasi, kagit anket); sonuc F'de (tazeleyicilik puaninda keskin artis) ve G'de (bina kosulunda dusme) toplam degisim olarak raporlaniyor. Hicbir paragraf 15 dakika icindeki seyri anlatmiyor.",
-      "explanation": "The questionnaires were given only immediately before and immediately after each fifteen-minute period, so the passage never reports how the effect developed during the stay.",
-      "difficulty": "hard",
+      "evidence": "What nobody had settled was the more interesting question: does the compound switch defences on directly, or does it merely leave them poised?",
+      "evidence_locator": {
+        "paragraph": "C",
+        "sentence": 4
+      },
+      "contradiction_point": "C/3 onceki calismalarin yalnizca islem gormus bitkilerin bazi boceklere daha az cazip geldigini kanitladigini soyluyor; C/4 ise savunmalarin dogrudan acilip acilmadigi sorusunun 'kimsece cozulmedigini' bildiriyor. Ifade bu sorunun onceden cozuldugunu one suruyor. Celiski tek noktada: mekanizma sorusunun onceki calismalarca cozulup cozulmedigi.",
+      "not_given_justification": null,
+      "scan_note": "Onceki calismalarin ne kanitladigi C/3'te, cozulmemis sorunun ne oldugu C/4'te, deneyin amaci C/5'te veriliyor. I/1 bu calismanin kendisini ilk deneysel kanit olarak sunuyor, yani soruyu cozdugu soylenen taraf bu calisma. Baska hicbir cumle onceki calismalara bir mekanizma yaniti atfetmiyor.",
+      "explanation": "Earlier work had only shown that treated plants became less appealing to insects; the writer says nobody had settled whether the compound switches defences on directly.",
+      "difficulty": "medium",
       "status": "verified",
       "blind_solvable": false,
       "blind_basis": null,
-      "flag_reason": "Ifade, pasajin yalnizca grup toplami olarak rapor ettigi sonuclari cinsiyete gore ayristiriyor; toplulastirilmis sonuclar veren arastirma pasajlarinda boyle alt-grup kiyaslamalari genelde verilmez, bu oruntuyle NOT GIVEN tahmin edilebilir.",
-      "flag_mechanism": "konumsal_duzen",
-      "revision": {
-        "tarih": "2026-08-08",
-        "mekanizma": "konumsal_duzen",
-        "onceki_prompt": "The snowy forest lifted the women's moods more than the men's.",
-        "ne_degisti": "Ifade artik pasajin toplulastirilmis olarak verdigi sonuclari cinsiyete gore ayristirmiyor. Eski bicim, alt-grup kiyasi ekleyen her ifade gibi kalip olarak NOT GIVEN'a isaret ediyordu. Yeni ifade calismanin en belirgin bulgusunun (tazeleyicilik) icinde kaliyor ve olcum tasariminin ayrintisini (E'deki once/sonra sinirlamasi) bilmeyi gerektiriyor. Cevap NOT GIVEN ve evidence null olarak korundu."
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "faz": "FAZ 1 / B3 yeniden uretim (UYGULAMA-PLANI 1.5)",
+        "yeni_pasaj": "A15",
+        "eski_pasaj": "A11",
+        "eski_prompt": "The forest's restorative effect built up gradually over the fifteen minutes participants spent there.",
+        "eski_cevap": [
+          "NOT GIVEN"
+        ],
+        "neden_elendi": "Konu cumleleri artik alistirma havuzuna ait olmayan A11 pasajindaydi; kalem ayrica konumsal_duzen isaretini tasiyordu.",
+        "ne_degisti": "Kalem bastan yazildi ve A15'e baglandi. Kanit C/4'e, yazarin hangi sorunun acik kaldigini bildirdigi cumleye tasindi. Onceki calismalarin nereye kadar geldigi metne ozgu bir sinir; disaridan bakan biri icin mekanizmanin cozulmus ya da cozulmemis olmasi esit derecede makul. Kip kesin yazildi ('had already settled') ve cevabi NO.",
+        "recete_sinamasi": "Metinsiz okundu: onceki calismalarin kapsami hakkinda tek bir dogal aday cikmadi. GECTI."
       }
     },
     {
       "number": 11,
-      "passage_id": "A11",
-      "prompt": "The study's sharpest single result seems to have concerned how refreshing participants found the forest rather than any shift in their mood.",
+      "passage_id": "A15",
+      "prompt": "The writer regards the strength of the spray used on the seedlings as the lowest that could still produce an effect.",
       "answer": [
-        "YES"
+        "NOT GIVEN"
       ],
-      "evidence": "The clearest effect of the entire study appeared on the Restorative Outcome Scale, which increased sharply after time in the forest, indicating that participants found the snow-covered woodland strongly refreshing even though it produced no accompanying jump in energy.",
-      "evidence_locator": {
-        "paragraph": "F",
-        "sentence": 3
-      },
+      "evidence": null,
+      "evidence_locator": null,
       "contradiction_point": null,
-      "not_given_justification": null,
-      "scan_note": "Orman kosulunun sonuclari F paragrafinda: F/1 alti olumsuz ruh halinden besinin anlamli olcude dustugunu, F/2 canliligin yukselmedigini, F/3 butun calismanin en belirgin etkisinin Restorative Outcome Scale'de - yani ortamin ne kadar dinlendirici bulundugunda - ortaya ciktigini soyluyor. E dort olcegi tanitiyor ama hangisinin en guclu sonucu verdigini soylemiyor; G kampus kosulunun sonuclarini veriyor.",
-      "explanation": "The writer says the clearest effect of the entire study appeared on the Restorative Outcome Scale, the measure of how mentally refreshing the environment felt, rather than on the mood scales.",
-      "difficulty": "medium",
+      "not_given_justification": "(1) Konu pasajda geciyor: D/1 fidelere su bazli bir emulsiyon puskurtuldugunu ve kontrol grubunun yalnizca islatici maddeyi aldigini, derisimiyle birlikte soyluyor. (2) Pasajda ifadeyi curuten hicbir cumle yok: secilen derisimin gereginden yuksek oldugunu ya da daha dusugunun de ise yarayacagini soyleyen bir ifade bulunmuyor, dolayisiyla NO denemez. (3) Pasajda ifadeyi dogrulayan hicbir cumle yok - dolayli olarak bile: tek bir derisim deneniyor, ikinci bir derisimle karsilastirma yapilmiyor ve yazar secilen degeri hicbir yerde degerlendirmiyor. G/2'deki hormon derisimi de ayni bicimde, yalnizca 'standart yol' denerek veriliyor.",
+      "scan_note": "Derisim iki yerde geciyor: D/1 (fidelere puskurtulen emulsiyon) ve G/2 (yapraga surulen hormon). Ikisi de tasarim ayrintisi olarak veriliyor. B/3-B/4 savunmanin maliyetini tartisiyor ama doz secimine hic girmiyor; hicbir paragraf alternatif bir dozdan ya da doz denemesinden soz etmiyor.",
+      "explanation": "Only one spray strength is used in the study, and the writer never says whether a weaker one would still have worked.",
+      "difficulty": "hard",
       "status": "verified",
       "blind_solvable": false,
       "blind_basis": null,
       "generated_by": "opus",
       "yeniden_uretim": {
-        "tarih": "2026-08-08",
-        "kaynak_prompt": "prompts/OPUS5-E6-yeniden-uretim.md (2/7)",
-        "uretilen_grup": "YES/NO/NOT GIVEN - alistirma",
-        "eski_prompt": "Looking at campus buildings changed participants' moods in much the same way the forest did.",
+        "tarih": "2026-08-18",
+        "faz": "FAZ 1 / B3 yeniden uretim (UYGULAMA-PLANI 1.5)",
+        "yeni_pasaj": "A15",
+        "eski_pasaj": "A11",
+        "eski_prompt": "The study's sharpest single result seems to have concerned how refreshing participants found the forest rather than any shift in their mood.",
         "eski_cevap": [
-          "NO"
+          "YES"
         ],
-        "eski_kanit_cumlesi": "The pattern after the building condition was essentially the reverse.",
-        "neden_elendi": "1. calistirma bu soruyu dokunulmadan birakmis ve gerekcesini review_note alanina yazmisti: sizinti ifadenin kipinde degil, kanit cumlesinin kendisinde. G/1 'The pattern after the building condition was essentially the reverse' diyor; bu kanita dayanan her NO ifadesi 'kontrol kosulu tedavi kosuluyla ayni sonucu vermez' deney mantigiyla parcasiz cozulebiliyor. Ifadeyi olculu yazmak yetmiyor, farkli bir kanit cumlesi gerekiyor; talimat kanit degisimini yarim duzeltme saydigi icin yuva bu calistirmada elenenlere alindi. E6 bu yuvayi G paragrafinin sayisal ayrintisina capalamali (dinlendiricilik puanlarinin yaklasik yariya dusmesi) ya da H paragrafindaki karin canlilik uzerindeki etkisi savina tasimali.",
-        "ne_degisti": "Yuva bosaltilip ayni pasajdan yeni bir ifadeyle dolduruldu. Eski soru G/1'e dayaniyordu ('The pattern after the building condition was essentially the reverse'); E5'in notu sizintinin ifadenin kipinde degil kanit cumlesinin kendisinde oldugunu yazmisti: bu cumleye dayanan her NO ifadesi 'kontrol kosulu tedavi kosuluyla ayni sonucu vermez' deney mantigiyla parcasiz cozulebiliyordu. E5 iki capa onermisti (G/2'deki 'dinlendiricilik yariya dustu' sayisi ya da H'deki karin canlilik uzerindeki etkisi). Ikisi de kullanildi ama yer degistirilerek: H capasi #12'ye verildi, bu yuva F/3'e tasindi. Gerekce: G/2 hala ayni kontrol-kosulu sezgisini tasiyor (dusus buyuklugu bilinmese de yonu tahmin edilebiliyor), oysa F/3 tamamen olcum-ici bir bilgi soruyor - dort olcekten hangisinin en guclu sonucu verdigi. Kip dengesi icin ifade olculu yazildi ('seems to have concerned') ve cevabi YES; ayni sette mutlak yazilmis YES'ler (#2, #5) de var.",
-        "e5_notu": "E5/1: Duzeltilemedi, dokunulmadi. Sizinti kanit cumlesinin kendisinde: G/1 ('The pattern after the building condition was essentially the reverse') kontrol kosulunun tedavi kosulunun tersi sonuc verdigini soyluyor. Bu kanita dayanan her NO ifadesi, 'kontrol kosulu tedavi kosuluyla ayni sonucu vermez' deney mantigiyla parcasiz cozulebiliyor. Ifadeyi olculu yazmak yetmiyor, farkli bir kanit cumlesi gerekiyor - bu da gorev kuralina gore yarim duzeltme sayilir. Yuva olduğu gibi birakildi."
+        "neden_elendi": "Kanit cumlesi artik alistirma havuzuna ait olmayan A11 pasajindaydi (test havuzu ayrimi).",
+        "ne_degisti": "Kalem bastan yazildi ve A15'e baglandi; yuvanin cevabi NOT GIVEN'a cevrildi. Ifade 'deneyden sonra ne oldu' ya da 'hic sinanmamis alt grup' gibi kalip NOT GIVEN bicimlerinden kaciniyor: sorulan sey metnin acikca verdigi bir tasarim degerinin (puskurtme derisimi) yazar tarafindan nasil degerlendirildigi. Deger metinde var, degerlendirme yok - okurun bu ikisini ayirmasi gerekiyor. Kip kesin yazildi ('the lowest that could still produce an effect').",
+        "recete_sinamasi": "Metinsiz okundu: dozun en dusuk etkili doz olup olmadigi disaridan bilinemiyor ve ifade kalip NOT GIVEN bicimlerinden birine benzemiyor. GECTI."
       }
     },
     {
       "number": 12,
-      "passage_id": "A11",
-      "prompt": "Earlier research is said to have linked green vegetation mainly to a calming effect rather than an energising one.",
+      "passage_id": "A15",
+      "prompt": "The writer holds that the pre-treatment left the seedlings' growth unaffected over the sampling period.",
       "answer": [
-        "NO"
+        "NOT GIVEN"
       ],
-      "evidence": "The researchers suggest that snow itself may partly explain why vigour failed to rise after the forest visit, since a thick covering of snow hides the green vegetation that other studies have linked to increased energy and alertness, leaving only the calming, restorative effect intact rather than the more energising one.",
-      "evidence_locator": {
-        "paragraph": "H",
-        "sentence": 1
-      },
-      "contradiction_point": "H/1 baska calismalarin yesil bitki ortusunu 'artan enerji ve tetikte olma' ile iliskilendirdigini soyluyor; ifade bu bagi tersine cevirip yesilligi asil sakinlestirici etkiye bagliyor. Celiski tek noktada: onceki arastirmalarin yesillige atfettigi etkinin hangisi oldugu. Ayni cumlede sakinlestirici etki, yesillik kar altinda kalinca geriye kalan sey olarak anlatiliyor - yani yesillige degil, karli ormanin kendisine ait.",
-      "not_given_justification": null,
-      "scan_note": "Yesillik ile canlilik arasindaki bag yalnizca H/1'de kuruluyor ve orada yon aciktir: yesillik enerji ve tetikte olmayla, kar altinda kalan orman ise sakinlestirici etkiyle anilan taraf. F/2 canliligin yukselmedigini bildiriyor ama nedenini vermiyor; A/1 doganin stresi azalttigi genel gorusunu aniyor, hangi ozelligin hangi etkiye baglandigini ayirmiyor.",
-      "explanation": "The writer reports that other studies connected green vegetation with increased energy and alertness; the calming effect is what remained once snow had hidden that greenery.",
+      "evidence": null,
+      "evidence_locator": null,
+      "contradiction_point": null,
+      "not_given_justification": "(1) Konu pasajda geciyor: B/3-B/4 savunmanin pahali oldugunu, surekli kimyasal ureten bir bitkinin bunu buyumeden odedigini ve hazirlanmanin daha iyi bir pazarlik oldugunu soyluyor - yani buyume maliyeti metnin kendi savinin merkezinde. (2) Pasajda ifadeyi curuten hicbir cumle yok: on islemin buyumeyi yavaslattigini soyleyen bir olcum de bulunmuyor, dolayisiyla NO denemez. (3) Pasajda ifadeyi dogrulayan hicbir cumle yok - dolayli olarak bile: D, E, F ve G yalnizca ne puskurtuldugunu, havanin nasil toplandigini, hangi ucucu maddelerin salindigini ve boceklerin ne yaptigini anlatiyor; hicbir yerde bitkilerin boyu, agirligi ya da buyume hizi olculmuyor. B/4'teki maliyet savi bir beklenti, bu deneyde sinanmis bir sonuc degil.",
+      "scan_note": "Buyume maliyeti yalniz B/3-B/4'te ve genel bir sav olarak geciyor. Olcum paragraflari (D, E, F, G) bastan sona ucucu madde salinimi ve bocek davranisi uzerine; ne kontrol ne de islem gormus grubun buyumesi hakkinda tek bir sayi ya da yargi var. H ve I sonuclari yorumlarken de buyumeye donmuyor.",
+      "explanation": "The passage argues in general terms that permanent defence costs a plant growth, but the study itself measures only volatile emissions and insect behaviour, never the seedlings' growth.",
       "difficulty": "hard",
       "status": "verified",
       "blind_solvable": false,
       "blind_basis": null,
       "generated_by": "opus",
       "yeniden_uretim": {
-        "tarih": "2026-08-08",
-        "kaynak_prompt": "prompts/OPUS5-E6-yeniden-uretim.md (2/7)",
-        "uretilen_grup": "YES/NO/NOT GIVEN - alistirma",
-        "eski_prompt": "A forest keeps its calming power even under snow and near-freezing cold.",
+        "tarih": "2026-08-18",
+        "faz": "FAZ 1 / B3 yeniden uretim (UYGULAMA-PLANI 1.5)",
+        "yeni_pasaj": "A15",
+        "eski_pasaj": "A11",
+        "eski_prompt": "Earlier research is said to have linked green vegetation mainly to a calming effect rather than an energising one.",
         "eski_cevap": [
-          "YES"
+          "NO"
         ],
-        "eski_kanit_cumlesi": "As a pilot study, its conclusions should be treated as an initial signal rather than a settled finding, but they nonetheless indicate that the calming effect of a forest is not simply switched off by the absence of green leaves and the presence of snow and near-freezing temperatures.",
-        "neden_elendi": "Sorunun ekseni cift katmanli genel bilgi: hem 'doganin sakinlestirici etkisi kisin da surer' sonucu sezgisel, hem de pilot calisma haberlerinin olagan olumlu sonuc kalibi ayni yone isaret ediyor. Kip dengelemesi bu iki katmanin ikisini de kapatmiyor.",
-        "ne_degisti": "Yuva bosaltilip ayni pasajdan yeni bir ifadeyle dolduruldu. Eski soru H/3'e dayaniyordu: ormanin sakinlestirici gucunu kar altinda da korudugu. Hem sonuc sezgiseldi hem de pilot calisma haberlerinin olagan olumlu-sonuc kalibi ayni yone isaret ediyordu. Yeni ifade H/3'e ve komsusu H/2'ye (sinirlilik beyani) hic degmiyor; kanit H/1'e, yani E5'in bu pasaj icin acikca onerdigi 'karin canlilik uzerindeki etkisi' savina tasindi. Paragraf ayni ama cumle ve iddia baska: kapanistaki 'pilot calisma / sinirliliklar' kalibi bilerek bos birakildi. Ifade ustelik genel kulturu cezalandiriyor: yaygin sezgi yesilligi sakinlikle ozdeslestirir, oysa pasaj yesilligi enerji ve tetikte olmaya bagliyor - yani disaridan gelen bilgi okuru dogrudan yanlis cevaba goturuyor. Kip dengesi icin ifade olculu yazildi ('is said to ... mainly') ve cevabi NO."
+        "neden_elendi": "Kanit cumlesi artik alistirma havuzuna ait olmayan A11 pasajindaydi (test havuzu ayrimi).",
+        "ne_degisti": "Kalem bastan yazildi ve A15'e baglandi; yuvanin cevabi NOT GIVEN'a cevrildi. Ilk taslak F/1'e dayanan bir NO idi (farkin zamanla buyudugu iddiasi); metinsiz sinamada zayif bulundu, cunku ayni paragrafi olcen baska paketlerle ayni ekseni kullaniyordu. Yerine metnin kendi ekonomik savinin (savunma buyumeden odenir) hic olculmemis tarafi soruldu: buyume. Konu pasajin merkezinde, olcum ise hic yok - yani NOT GIVEN'i vermek icin okurun hangi paragraflarin ne olctugunu gormesi gerekiyor.",
+        "recete_sinamasi": "Metinsiz okundu: buyumenin etkilenip etkilenmedigi disaridan bilinemiyor; ifade metnin kendi savina bagli oldugu icin kalip NOT GIVEN sezgisi de calismiyor. GECTI."
       }
     },
     {
       "number": 13,
-      "passage_id": "A12",
-      "prompt": "The researchers checked whether the time of day at which the word pairs were learned affected recall.",
+      "passage_id": "A15",
+      "prompt": "The second experiment was carried out with no insects present at all.",
       "answer": [
-        "NOT GIVEN"
+        "YES"
       ],
-      "evidence": null,
-      "evidence_locator": null,
+      "evidence": "A second experiment removed the insects from the picture altogether.",
+      "evidence_locator": {
+        "paragraph": "G",
+        "sentence": 1
+      },
       "contradiction_point": null,
-      "not_given_justification": "(1) Konu pasajda geciyor: C, birinci deneyde ogrenme ve sinama saatlerini tek tek veriyor (aksam dokuz / sabah dokuz ve tersi), D ikinci deneyde ogrenmenin bir bucukta oldugunu soyluyor. (2) Pasajda ifadeyi curuten hicbir cumle yok: gunun saatinin denetlenmedigini ya da goz ardi edildigini soyleyen bir ifade bulunmuyor, dolayisiyla NO denemez. (3) Pasajda ifadeyi dogrulayan hicbir cumle yok - dolayli olarak bile: F yalnizca sekerleme suresinin ve uyku evrelerinin bellek gelisimiyle iliskisinin sinandigini soyluyor, gunun saatini anmiyor; saatler yalnizca tasarimi anlatmak icin veriliyor, sinanan bir degisken olarak degil.",
-      "scan_note": "Saatler C/2-C/3 ve D/2'de tasarim ayrintisi olarak geciyor; sinanan degiskenler E (malzeme turu) ve F'de (sekerleme suresi, uyku evreleri) sayiliyor. Hicbir paragraf gunun saatini bir analiz degiskeni olarak anmiyor.",
-      "explanation": "The passage gives the exact times of learning and testing in both experiments but never says that time of day was itself examined as a possible influence on recall.",
-      "difficulty": "hard",
+      "not_given_justification": null,
+      "scan_note": "Ikinci deneyin kurulusu G'de: G/1 boceklerin tamamen cikarildigini, G/2 yapragin hafifce cizilip hormonla boyandigini ve havanin doksan alti saat kesintisiz orneklendigini, G/3 sonucu, G/4 ekibin bundan cikardigi yargiyi veriyor. Bocekler yalniz birinci deneyde bulunuyor (D/3 ve F); iki deneyi ayiran nokta tam olarak bu.",
+      "explanation": "The writer says the second experiment removed the insects from the picture altogether, wounding the leaves and applying the hormone instead.",
+      "difficulty": "easy",
       "status": "verified",
       "blind_solvable": false,
       "blind_basis": null,
-      "flag_reason": "Ifade, pasajin yalnizca genc yetiskinlerle yuruttugu bir calismaya, hic sinanmamis bir yas grubunu (yasli yetiskinler) ekleyerek karsilastirma kuruyor; tek bir yas grubuyla calisan pasajlarda boyle capraz-yas kiyaslamalari genelde verilmez, bu oruntuyle NOT GIVEN tahmin edilebilir.",
-      "flag_mechanism": "konumsal_duzen",
-      "revision": {
-        "tarih": "2026-08-08",
-        "mekanizma": "konumsal_duzen",
-        "onceki_prompt": "Daytime naps aid memory in older adults as much as in the young.",
-        "ne_degisti": "Ifade artik pasajin hic sinamadigi bir yas grubunu (yasli yetiskinler) eklemiyor. Eski bicim, tek yas grubuyla calisan bir pasaja capraz-yas kiyasi ekledigi icin kalip olarak NOT GIVEN'a isaret ediyordu. Yeni ifade pasajin ayrintisiyla verdigi bir tasarim ogesinin (ogrenme ve sinama saatleri) uzerine kuruluyor; elemek icin F'deki sinanan degisken listesini gormek gerekiyor. Cevap NOT GIVEN ve evidence null olarak korundu."
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "faz": "FAZ 1 / B3 yeniden uretim (UYGULAMA-PLANI 1.5)",
+        "yeni_pasaj": "A15",
+        "eski_pasaj": "A12",
+        "eski_prompt": "The researchers checked whether the time of day at which the word pairs were learned affected recall.",
+        "eski_cevap": [
+          "NOT GIVEN"
+        ],
+        "neden_elendi": "Konu cumleleri artik alistirma havuzuna ait olmayan A12 pasajindaydi; kalem ayrica konumsal_duzen isaretini tasiyordu.",
+        "ne_degisti": "Kalem bastan yazildi ve A15'e baglandi. Ilk taslak G/4'e (ekibin ikinci deneyden cikardigi yargi) dayaniyordu; kendi metinsiz sinamamda elendi, cunku setteki diger ifadelerden pasajin 'bitkinin icindeki degisim' uzerine oldugu anlasilabiliyor ve yargi pasajsiz secilebiliyordu. Kanit G/1'e tasindi: ikinci deneyde bocek olup olmadigi tamamen tasarim ayrintisi ve disaridan bilinemiyor. Kip kesin yazildi ('no insects present at all') ve cevabi YES - kesin dilli ifadenin NO'ya isaret etmesi kirildi.",
+        "recete_sinamasi": "Metinsiz okundu: ikinci deneyin bocekli mi boceksiz mi oldugu icin tek bir dogal aday cikmadi. GECTI."
       }
     },
     {
       "number": 14,
-      "passage_id": "A12",
-      "prompt": "Whether the word pairs were related or unrelated seems to have mattered little to how well they were later recalled.",
-      "answer": [
-        "NO"
-      ],
-      "evidence": "The results revealed a clear difference depending on the type of material being remembered.",
-      "evidence_locator": {
-        "paragraph": "E",
-        "sentence": 1
-      },
-      "contradiction_point": "E/1 sonuclarin 'hatirlanan malzemenin turune bagli net bir fark' ortaya koydugunu soyluyor; ifade bu farkin onemsiz oldugunu one suruyor. Celiski tek noktada: turun yarattigi farkin buyuklugu.",
-      "not_given_justification": null,
-      "scan_note": "Malzeme turunun etkisi E paragrafinda (E/1 net fark yargisi, E/2 iliskili ve iliskisiz ciftler icin ayri etki buyuklukleri) ve G'de isleniyor; ikisi de farkin belirgin oldugunu soyluyor.",
-      "explanation": "The writer reports a clear difference in recall depending on the type of material, so the distinction mattered a great deal.",
-      "difficulty": "medium",
-      "status": "verified",
-      "blind_solvable": false,
-      "blind_basis": null,
-      "flag_reason": "Ifadedeki 'made no difference' (hic fark yaratmadi) mutlak olumsuzlamasi, arastirma temelli pasajlarda genelde yanlis cikan bir kalip: pasaj bir calismayi anlattigina gore malzeme turunun sonucu etkiledigi (bir farkin bulundugu) beklenir; bu genel oruntuyle ifadenin YANLIS oldugu parcaya bakmadan da tahmin edilebilir.",
-      "flag_mechanism": "kip_imzasi",
-      "revision": {
-        "tarih": "2026-08-08",
-        "mekanizma": "kip_imzasi",
-        "onceki_prompt": "The kind of material studied made no difference to how well it was later recalled.",
-        "ne_degisti": "Mutlak olumsuzlama ('made no difference') yerine olculu bir kucumseme ('seems to have mattered little') kondu. Eski bicim, arastirma pasajlarinda mutlak olumsuzlamanin neredeyse her zaman yanlis cikmasi kaliyla parcasiz coziluyordu. Kanit cumlesi (E/1) 'net bir fark' dedigi icin olculu iddiayi da curutuyor."
-      }
-    },
-    {
-      "number": 15,
-      "passage_id": "A12",
-      "prompt": "The two experiments used one and the same set of word pairs.",
+      "passage_id": "A15",
+      "prompt": "The team single out the two extra substances found in the second experiment as the most important of all the compounds they recorded.",
       "answer": [
         "NOT GIVEN"
       ],
       "evidence": null,
       "evidence_locator": null,
       "contradiction_point": null,
-      "not_given_justification": "(1) Konu pasajda geciyor: C/4 birinci deneyde toplam 80 kelime cifti calisildigini (40 anlamca iliskili, 40 iliskisiz), D/2 ikinci deneyde yine 40 iliskili ve 40 iliskisiz cift ogrenildigini soyluyor. (2) Pasajda ifadeyi curuten hicbir cumle yok: iki deneyin malzemesinin farkli oldugunu, listenin yenilendigini ya da baska sozcuklerden secildigini soyleyen bir ifade bulunmuyor, dolayisiyla NO denemez. (3) Pasajda ifadeyi dogrulayan hicbir cumle yok - dolayli olarak bile: iki deneyde sayilarin ortusmesi listelerin ayni oldugu anlamina gelmez ve yazar hicbir yerde 'ayni liste', 'ayni malzeme' ya da benzeri bir ifade kullanmiyor. C/3'teki 'the same material' ifadesi birinci deneyin kendi iki grubunu karsilastiriyor, iki deneyi degil; B iki deneyin tasarim farkini anlatirken de malzemenin ortakligina hic deginmiyor.",
-      "scan_note": "Malzeme iki yerde tarif ediliyor: C/4 (birinci deney - 80 cift, 40 iliskili + 40 iliskisiz, ipuclu hatirlama sinamasi) ve D/2 (ikinci deney - 40 iliskili + 40 iliskisiz, ogleden sonra 13.30'da). Sayilar ortusuyor ama iki listenin ayniligi hakkinda tek bir cumle yok; B/1-2 tasarim farkini (denekler arasi / denek ici) anlatiyor, malzemeyi degil.",
-      "explanation": "The passage describes 40 related and 40 unrelated pairs in each experiment but never says whether the same list was used in both.",
+      "not_given_justification": "(1) Konu pasajda geciyor: G/3 ikinci deneyde daha once kaydedilenlere iki maddenin daha eklendigini soyluyor; F/2 ilk deneyde olculen maddeleri sayiyor. (2) Pasajda ifadeyi curuten hicbir cumle yok: bu iki maddenin digerlerinden daha onemsiz oldugunu soyleyen bir ifade de bulunmuyor, dolayisiyla NO denemez. (3) Pasajda ifadeyi dogrulayan hicbir cumle yok - dolayli olarak bile: maddeler her iki paragrafta da yalnizca listeleniyor, aralarinda hicbir siralama yapilmiyor. H/5 agirligin artisin buyuklugunde degil zamanlamasinda oldugunu soyluyor; bu cumle maddeler arasinda degil, olcutler arasinda bir tercih kuruyor.",
+      "scan_note": "Madde adlari iki yerde listeleniyor: F/2 (ilk deney) ve G/3 (ikinci deney). H/4 etkinin muhtemel yerini bir enzim ailesine bagliyor ama tek tek maddeleri siralamiyor. Hicbir cumle bir maddeyi digerinin onune koymuyor.",
+      "explanation": "The passage simply lists the substances recorded in each experiment and never ranks any of them against the others.",
       "difficulty": "hard",
       "status": "verified",
       "blind_solvable": false,
       "blind_basis": null,
       "generated_by": "opus",
       "yeniden_uretim": {
-        "tarih": "2026-08-08",
-        "kaynak_prompt": "prompts/OPUS5-E6-yeniden-uretim.md (2/7)",
-        "uretilen_grup": "YES/NO/NOT GIVEN - alistirma",
-        "eski_prompt": "A nap serves as well as a night of sleep for tying new material to existing knowledge.",
+        "tarih": "2026-08-18",
+        "faz": "FAZ 1 / B3 yeniden uretim (UYGULAMA-PLANI 1.5)",
+        "yeni_pasaj": "A15",
+        "eski_pasaj": "A12",
+        "eski_prompt": "Whether the word pairs were related or unrelated seems to have mattered little to how well they were later recalled.",
         "eski_cevap": [
           "NO"
         ],
-        "eski_kanit_cumlesi": "However, the findings caution against assuming that a nap can substitute for a night's sleep when the task involves integrating new material with things already known, since that particular kind of consolidation seems to depend on the longer, more complex architecture of nocturnal sleep.",
-        "neden_elendi": "Sorunun ekseni genel uyku bilimi bilgisi: kisa bir sekerlemenin tam bir gece uykusunun yerini tutamayacagi populerlesmis bir bulgu. Ifadeyi olculu yazmak cevabi degistirmez; okur ifadenin kipinden bagimsiz olarak zaten NO bekler.",
-        "ne_degisti": "Yuva bosaltilip ayni pasajdan yeni bir ifadeyle dolduruldu. Eski soru H/3'e dayaniyordu: bir sekerlemenin yeni malzemeyi mevcut bilgiyle butunlestirmede tam bir gece uykusunun yerini tutmadigi. Kisa sekerlemenin gece uykusunun yerini tutamayacagi populerlesmis bir bulgu oldugu icin okur ifadenin kipinden bagimsiz olarak zaten NO bekliyordu. Yeni ifade H paragrafina hic degmiyor: iki deneyin malzemesinin ayni liste olup olmadigini soruyor ve pasaj bu konuda sessiz, yani cevap NOT GIVEN. Tuzak metnin icinden geliyor: iki deneyde de 40+40 boluntusu verildigi icin okur 'demek ki ayni liste' cikarimina meyilli, ama yazar bunu hic soylemiyor. Genel kultur burada islemiyor - bir arastirmacinin iki deneyde ayni kelime listesini kullanip kullanmadigi disaridan bilinebilecek bir sey degil. Kip dengesi icin ifade mutlak yazildi ('one and the same') ve cevabi NOT GIVEN."
+        "neden_elendi": "Kanit cumlesi artik alistirma havuzuna ait olmayan A12 pasajindaydi; kalem ayrica kip_imzasi isaretini tasiyordu.",
+        "ne_degisti": "Kalem bastan yazildi ve A15'e baglandi; yuvanin cevabi NOT GIVEN'a cevrildi. Ifade metnin gercekten listeledigi maddeler uzerine kuruluyor, disaridan bir kategori eklemiyor; eksik olan sey bir siralama yargisi. Okurun H/5'teki 'agirlik buyuklukte degil zamanlamada' cumlesini gorup bunun maddeleri siralamadigini fark etmesi gerekiyor. Kip kesin yazildi ('the most important of all') ve cevabi NOT GIVEN - kesin dilli ifadenin NO'ya isaret etmesi bir kez daha kirildi.",
+        "recete_sinamasi": "Metinsiz okundu: maddeler arasinda bir onem sirasi olup olmadigi disaridan bilinemiyor; ifade kalip NOT GIVEN bicimlerine benzemiyor. GECTI."
+      }
+    },
+    {
+      "number": 15,
+      "passage_id": "A15",
+      "prompt": "The reservation the authors express concerns the sealed-chamber measurements rather than the choice tests.",
+      "answer": [
+        "NO"
+      ],
+      "evidence": "They remain cautious, however, about the choice tests, which they regard as a crude guide to what an insect does in a crowded stand of plants.",
+      "evidence_locator": {
+        "paragraph": "I",
+        "sentence": 2
+      },
+      "contradiction_point": "I/2 yazarlarin cekincesini acikca tercih denemelerine bagliyor ve onlari 'kaba bir gosterge' sayiyor; ifade cekinceyi kapali oda olcumlerine kaydiriyor. Celiski tek noktada: cekincenin hangi yontemle ilgili oldugu. Kapali oda duzenegi E'de hicbir kayit dusulmeden anlatiliyor.",
+      "not_given_justification": null,
+      "scan_note": "Kapali oda olcumu E'de tarif ediliyor (hava akisi, gozenekli polimer tup, gaz kromatografisi) ve hicbir yerde sorgulanmiyor. Tercih denemeleri F/3'te sonucuyla, I/2'de degerlendirmesiyle geciyor. Yazarlarin tek acik cekincesi I/2'de; I/3 bir sonraki adimi soyluyor ama yontem elestirisi tasimiyor.",
+      "explanation": "The authors' stated reservation is about the choice tests, which they call a crude guide to insect behaviour; the chamber measurements are described without any such qualification.",
+      "difficulty": "medium",
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "faz": "FAZ 1 / B3 yeniden uretim (UYGULAMA-PLANI 1.5)",
+        "yeni_pasaj": "A15",
+        "eski_pasaj": "A12",
+        "eski_prompt": "The two experiments used one and the same set of word pairs.",
+        "eski_cevap": [
+          "NOT GIVEN"
+        ],
+        "neden_elendi": "Konu cumleleri artik alistirma havuzuna ait olmayan A12 pasajindaydi (test havuzu ayrimi).",
+        "ne_degisti": "Kalem bastan yazildi ve A15'e baglandi. Ilk taslak I/1'e dayaniyordu (yazarlarin kendi yaklasimlarini daha umut verici bulmasi); kendi metinsiz sinamamda elendi, cunku 'arastirmaci kendi yontemini savunur' ve 'daha fazla saha calismasi gerekir' gibi kapanis kaliplari pasaj okunmadan da bilinir. Kanit I/2'ye tasindi ve soru cekincenin varligina degil hangi yonteme yoneldigine baglandi: kapali oda olcumu mu, tercih denemeleri mi. Bu ayrim yalniz metinden okunur. Kip kesin yazildi ve cevabi NO.",
+        "recete_sinamasi": "Metinsiz okundu: bilimsel alcakgonulluluk kalibi cekincenin varligini tahmin ettiriyor ama hangi yontemle ilgili oldugunu vermiyor; iki yontem de esit derecede makul aday. GECTI."
       }
     }
   ]
