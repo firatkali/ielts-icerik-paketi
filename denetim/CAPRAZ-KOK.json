@@ -13,11 +13,11 @@
   },
   "ozet": {
     "kanit_cakismasi": {
-      "okuma": 12,
+      "okuma": 0,
       "dinleme": 0
     },
     "kok_cakismasi": {
-      "okuma": 5,
+      "okuma": 32,
       "dinleme": 94
     },
     "pasaj_senaryo_payi": {
@@ -25,14 +25,15 @@
       "dinleme": 22
     },
     "alistirma_sorusu_test_cevabi_veren_kalem": {
-      "okuma": 0,
+      "okuma": 5,
       "dinleme": 14
     }
   },
   "kok_yon_dagilimi": {
     "okuma": {
-      "alistirma_cevabi -> test_prompt": 2,
-      "test_cevabi -> test_prompt": 3
+      "alistirma_cevabi -> test_prompt": 8,
+      "test_cevabi -> test_prompt": 19,
+      "test_cevabi -> alistirma_prompt": 5
     },
     "dinleme": {
       "test_cevabi -> alistirma_prompt": 22,
@@ -42,260 +43,66 @@
     }
   },
   "kanit_cakismasi": {
-    "okuma": [
-      {
-        "evidence_ornek": "Across these encounters a dominance hierarchy consistently emerged, with the stronger animal in each pair winning an average of seventy-six per cent of interactions, and physical contact and defensive ink-jetting both became less frequent as the three days went on and the pair grew more familiar with one another.",
-        "normalize": "across these encounters a dominance hierarchy consistently emerged with the stronger animal in each pair winning an average of seventy six per cent of interactions and physical contact and defensive ink jetting both became less frequent as the three days went on and the pair grew more familiar with one another",
-        "kalem_sayisi": 3,
-        "paket_sayisi": 3,
-        "kalemler": [
-          {
-            "paket": "content/reading/tests/AC1/matching-features.json",
-            "number": 25,
-            "practice": false
-          },
-          {
-            "paket": "content/reading/tests/AC1/matching-headings.json",
-            "number": 16,
-            "practice": false
-          },
-          {
-            "paket": "content/reading/tests/AC1/sentence-completion.json",
-            "number": 20,
-            "practice": false
-          }
-        ]
-      },
-      {
-        "evidence_ornek": "Reversals of dominance, in which the previously subordinate animal became the stronger one, occurred only when the pair consisted of two strangers, in eight of the twelve such pairings; no reversal of this kind was seen among reunited familiar pairs, and no ink was released by any octopus during this final test.",
-        "normalize": "reversals of dominance in which the previously subordinate animal became the stronger one occurred only when the pair consisted of two strangers in eight of the twelve such pairings no reversal of this kind was seen among reunited familiar pairs and no ink was released by any octopus during this final test",
-        "kalem_sayisi": 2,
-        "paket_sayisi": 2,
-        "kalemler": [
-          {
-            "paket": "content/reading/tests/AC1/matching-features.json",
-            "number": 24,
-            "practice": false
-          },
-          {
-            "paket": "content/reading/tests/AC1/sentence-completion.json",
-            "number": 21,
-            "practice": false
-          }
-        ]
-      },
-      {
-        "evidence_ornek": "The team deployed instruments to continuously record temperature, light, the partial pressure of carbon dioxide, seawater pH and water currents, while divers collected coral cores, applied dye to mark new growth, and used funnels to capture bubbles of gas escaping from the vents for laboratory analysis.",
-        "normalize": "the team deployed instruments to continuously record temperature light the partial pressure of carbon dioxide seawater ph and water currents while divers collected coral cores applied dye to mark new growth and used funnels to capture bubbles of gas escaping from the vents for laboratory analysis",
-        "kalem_sayisi": 2,
-        "paket_sayisi": 2,
-        "kalemler": [
-          {
-            "paket": "content/reading/tests/AC1/multiple-choice.json",
-            "number": "34-35",
-            "practice": false
-          },
-          {
-            "paket": "content/reading/tests/AC1/summary-completion.json",
-            "number": 37,
-            "practice": false
-          }
-        ]
-      },
-      {
-        "evidence_ornek": "His success was not limited to the cube itself: when it was removed, he pushed a large tractor tyre into use as a substitute platform, and with smaller objects he attempted, less successfully, to stack them on top of one another.",
-        "normalize": "his success was not limited to the cube itself when it was removed he pushed a large tractor tyre into use as a substitute platform and with smaller objects he attempted less successfully to stack them on top of one another",
-        "kalem_sayisi": 2,
-        "paket_sayisi": 2,
-        "kalemler": [
-          {
-            "paket": "content/reading/tests/AC1/note-completion.json",
-            "number": 4,
-            "practice": false
-          },
-          {
-            "paket": "content/reading/tests/AC1/true-false-not-given.json",
-            "number": 10,
-            "practice": false
-          }
-        ]
-      },
-      {
-        "evidence_ornek": "To avoid contaminating the ancient samples with modern DNA, the extraction and analysis were carried out in two physically separate laboratories, one at the University of Manchester in the United Kingdom and the other at Middle East Technical University in Turkey.",
-        "normalize": "to avoid contaminating the ancient samples with modern dna the extraction and analysis were carried out in two physically separate laboratories one at the university of manchester in the united kingdom and the other at middle east technical university in turkey",
-        "kalem_sayisi": 2,
-        "paket_sayisi": 2,
-        "kalemler": [
-          {
-            "paket": "content/reading/tests/AC2/matching-headings.json",
-            "number": 16,
-            "practice": false
-          },
-          {
-            "paket": "content/reading/tests/AC2/sentence-completion.json",
-            "number": 20,
-            "practice": false
-          }
-        ]
-      },
-      {
-        "evidence_ornek": "By comparing an image captured on 8 December, only two days after the earthquake, with a baseline image from 26 November, before the quake, analysts could see large new patches of brightness spreading across slopes that had previously appeared smooth and dark, a direct signature of freshly broken rock and snow.",
-        "normalize": "by comparing an image captured on 8 december only two days after the earthquake with a baseline image from 26 november before the quake analysts could see large new patches of brightness spreading across slopes that had previously appeared smooth and dark a direct signature of freshly broken rock and snow",
-        "kalem_sayisi": 2,
-        "paket_sayisi": 2,
-        "kalemler": [
-          {
-            "paket": "content/reading/tests/AC3/matching-headings.json",
-            "number": 15,
-            "practice": false
-          },
-          {
-            "paket": "content/reading/tests/AC3/sentence-completion.json",
-            "number": 21,
-            "practice": false
-          }
-        ]
-      },
-      {
-        "evidence_ornek": "The clearest effect of the entire study appeared on the Restorative Outcome Scale, which increased sharply after time in the forest, indicating that participants found the snow-covered woodland strongly refreshing even though it produced no accompanying jump in energy.",
-        "normalize": "the clearest effect of the entire study appeared on the restorative outcome scale which increased sharply after time in the forest indicating that participants found the snow covered woodland strongly refreshing even though it produced no accompanying jump in energy",
-        "kalem_sayisi": 2,
-        "paket_sayisi": 2,
-        "kalemler": [
-          {
-            "paket": "content/reading/tests/AC4/matching-features.json",
-            "number": 23,
-            "practice": false
-          },
-          {
-            "paket": "content/reading/tests/AC4/matching-headings.json",
-            "number": 18,
-            "practice": false
-          }
-        ]
-      },
-      {
-        "evidence_ornek": "In the forest condition, participants walked for five minutes to reach a stand of Norway spruce and silver birch trees, roughly 80 and 20 per cent of the stand respectively, ranging in age from 80 to 108 years and fully covered in snow, where they spent 15 minutes simply standing or sitting quietly.",
-        "normalize": "in the forest condition participants walked for five minutes to reach a stand of norway spruce and silver birch trees roughly 80 and 20 per cent of the stand respectively ranging in age from 80 to 108 years and fully covered in snow where they spent 15 minutes simply standing or sitting quietly",
-        "kalem_sayisi": 2,
-        "paket_sayisi": 2,
-        "kalemler": [
-          {
-            "paket": "content/reading/tests/AC4/matching-headings.json",
-            "number": 15,
-            "practice": false
-          },
-          {
-            "paket": "content/reading/tests/AC4/sentence-completion.json",
-            "number": 19,
-            "practice": false
-          }
-        ]
-      },
-      {
-        "evidence_ornek": "To reduce the grogginess that can follow a nap and distort test performance, all participants completed a 30-minute puzzle game before their final recall test.",
-        "normalize": "to reduce the grogginess that can follow a nap and distort test performance all participants completed a 30 minute puzzle game before their final recall test",
-        "kalem_sayisi": 2,
-        "paket_sayisi": 2,
-        "kalemler": [
-          {
-            "paket": "content/reading/tests/AC4/matching-information.json",
-            "number": 27,
-            "practice": false
-          },
-          {
-            "paket": "content/reading/tests/AC4/summary-completion.json",
-            "number": 36,
-            "practice": false
-          }
-        ]
-      },
-      {
-        "evidence_ornek": "One plausible explanation is that volunteering pays off financially: it can widen a person's professional network, build skills and demonstrate reliability to future employers, all of which might raise household income, and higher income is itself strongly linked to better self-rated health.",
-        "normalize": "one plausible explanation is that volunteering pays off financially it can widen a person s professional network build skills and demonstrate reliability to future employers all of which might raise household income and higher income is itself strongly linked to better self rated health",
-        "kalem_sayisi": 2,
-        "paket_sayisi": 2,
-        "kalemler": [
-          {
-            "paket": "content/reading/tests/GT2/matching-headings.json",
-            "number": 30,
-            "practice": false
-          },
-          {
-            "paket": "content/reading/tests/GT2/yes-no-not-given.json",
-            "number": 35,
-            "practice": false
-          }
-        ]
-      },
-      {
-        "evidence_ornek": "Income differences accounted for well under a fifth of the total association between volunteering and self-rated health.",
-        "normalize": "income differences accounted for well under a fifth of the total association between volunteering and self rated health",
-        "kalem_sayisi": 2,
-        "paket_sayisi": 2,
-        "kalemler": [
-          {
-            "paket": "content/reading/tests/GT2/matching-headings.json",
-            "number": 31,
-            "practice": false
-          },
-          {
-            "paket": "content/reading/tests/GT2/summary-completion.json",
-            "number": 37,
-            "practice": false
-          }
-        ]
-      },
-      {
-        "evidence_ornek": "Interns complete a short performance review at the five-week mark and a final review before departure; strong performers may be invited to apply for the graduate programme the following year, though this is not guaranteed and depends on business need.",
-        "normalize": "interns complete a short performance review at the five week mark and a final review before departure strong performers may be invited to apply for the graduate programme the following year though this is not guaranteed and depends on business need",
-        "kalem_sayisi": 2,
-        "paket_sayisi": 2,
-        "kalemler": [
-          {
-            "paket": "content/reading/tests/GT2/multiple-choice.json",
-            "number": 21,
-            "practice": false
-          },
-          {
-            "paket": "content/reading/tests/GT2/table-completion.json",
-            "number": 20,
-            "practice": false
-          }
-        ]
-      }
-    ],
+    "okuma": [],
     "dinleme": []
   },
   "kok_cakismasi": {
     "okuma": [
       {
         "skill": "reading",
-        "cevap_kalemi": "content/reading/practice/note-completion.json#3",
+        "cevap_kalemi": "content/reading/practice/note-completion.json#2",
         "cevap_paketi": "content/reading/practice/note-completion.json",
-        "cevap_number": 3,
+        "cevap_number": 2,
         "cevap_practice": true,
-        "cevap_dizgi": "three days",
+        "cevap_dizgi": "one hundred",
         "sizdiran_kalem": "content/reading/tests/AC1/sentence-completion.json#20",
         "sizdiran_paketi": "content/reading/tests/AC1/sentence-completion.json",
         "sizdiran_number": 20,
         "sizdiran_practice": false,
-        "sizdiran_prompt": "Over the three days of daily fifteen-minute meetings a (20) ........ emerged in every pair, while ink-jetting and physical contact both grew less frequent.",
-        "eslesme_uzunlugu": 10
+        "sizdiran_prompt": "Each pair lived in its own tank measuring (20) ........ by one hundred by fifty centimetres, supplied with running seawater at a constant temperature.",
+        "eslesme_uzunlugu": 11
       },
       {
         "skill": "reading",
-        "cevap_kalemi": "content/reading/tests/GT2/sentence-completion.json#27",
-        "cevap_paketi": "content/reading/tests/GT2/sentence-completion.json",
-        "cevap_number": 27,
+        "cevap_kalemi": "content/reading/tests/GT2/summary-completion.json#39",
+        "cevap_paketi": "content/reading/tests/GT2/summary-completion.json",
+        "cevap_number": 39,
         "cevap_practice": false,
-        "cevap_dizgi": "four weeks",
-        "sizdiran_kalem": "content/reading/tests/GT1/note-completion.json#15",
-        "sizdiran_paketi": "content/reading/tests/GT1/note-completion.json",
-        "sizdiran_number": 15,
+        "cevap_dizgi": "four-fifths",
+        "sizdiran_kalem": "content/reading/tests/AC4/sentence-completion.json#19",
+        "sizdiran_paketi": "content/reading/tests/AC4/sentence-completion.json",
+        "sizdiran_number": 19,
         "sizdiran_practice": false,
-        "sizdiran_prompt": "Shift pattern: The pattern changes every four weeks; the new one appears on the staff (15) ........ by the Friday before at the latest",
-        "eslesme_uzunlugu": 10
+        "sizdiran_prompt": "Four fifths of the trees the volunteers stood among were Norway spruce, the remaining fifth being ........ .",
+        "eslesme_uzunlugu": 11
+      },
+      {
+        "skill": "reading",
+        "cevap_kalemi": "content/reading/tests/GT2/summary-completion.json#39",
+        "cevap_paketi": "content/reading/tests/GT2/summary-completion.json",
+        "cevap_number": 39,
+        "cevap_practice": false,
+        "cevap_dizgi": "four fifths",
+        "sizdiran_kalem": "content/reading/tests/AC4/sentence-completion.json#19",
+        "sizdiran_paketi": "content/reading/tests/AC4/sentence-completion.json",
+        "sizdiran_number": 19,
+        "sizdiran_practice": false,
+        "sizdiran_prompt": "Four fifths of the trees the volunteers stood among were Norway spruce, the remaining fifth being ........ .",
+        "eslesme_uzunlugu": 11
+      },
+      {
+        "skill": "reading",
+        "cevap_kalemi": "content/reading/tests/GT2/summary-completion.json#40",
+        "cevap_paketi": "content/reading/tests/GT2/summary-completion.json",
+        "cevap_number": 40,
+        "cevap_practice": false,
+        "cevap_dizgi": "11 per cent",
+        "sizdiran_kalem": "content/reading/practice/note-completion.json#11",
+        "sizdiran_paketi": "content/reading/practice/note-completion.json",
+        "sizdiran_number": 11,
+        "sizdiran_practice": true,
+        "sizdiran_prompt": "the two used together: females 96.3 per cent, males (11) ........ per cent",
+        "eslesme_uzunlugu": 11
       },
       {
         "skill": "reading",
@@ -313,31 +120,381 @@
       },
       {
         "skill": "reading",
-        "cevap_kalemi": "content/reading/tests/AC1/note-completion.json#3",
-        "cevap_paketi": "content/reading/tests/AC1/note-completion.json",
-        "cevap_number": 3,
+        "cevap_kalemi": "content/reading/tests/AC2/flow-chart-completion.json#6",
+        "cevap_paketi": "content/reading/tests/AC2/flow-chart-completion.json",
+        "cevap_number": 6,
         "cevap_practice": false,
-        "cevap_dizgi": "seventh",
-        "sizdiran_kalem": "content/reading/tests/AC1/sentence-completion.json#22",
-        "sizdiran_paketi": "content/reading/tests/AC1/sentence-completion.json",
-        "sizdiran_number": 22,
+        "cevap_dizgi": "limits",
+        "sizdiran_kalem": "content/reading/tests/AC4/note-completion.json#5",
+        "sizdiran_paketi": "content/reading/tests/AC4/note-completion.json",
+        "sizdiran_number": 5,
         "sizdiran_practice": false,
-        "sizdiran_prompt": "Each reunion on the seventh day again ran for (22) ........ , and the same behaviours were recorded as in the earlier phase.",
-        "eslesme_uzunlugu": 7
+        "sizdiran_prompt": "What the sensors and the desks showed: Noise in the plain open-plan room went over the recommended (5) ........ limits 20-30 per cent more often than in any rival design",
+        "eslesme_uzunlugu": 6
       },
       {
         "skill": "reading",
-        "cevap_kalemi": "content/reading/tests/AC1/note-completion.json#2",
-        "cevap_paketi": "content/reading/tests/AC1/note-completion.json",
-        "cevap_number": 2,
+        "cevap_kalemi": "content/reading/tests/AC3/summary-completion.json#39",
+        "cevap_paketi": "content/reading/tests/AC3/summary-completion.json",
+        "cevap_number": 39,
         "cevap_practice": false,
-        "cevap_dizgi": "bamboo",
-        "sizdiran_kalem": "content/reading/tests/AC1/true-false-not-given.json#13",
-        "sizdiran_paketi": "content/reading/tests/AC1/true-false-not-given.json",
-        "sizdiran_number": 13,
+        "cevap_dizgi": "seven",
+        "sizdiran_kalem": "content/reading/tests/AC2/multiple-choice.json#34-35",
+        "sizdiran_paketi": "content/reading/tests/AC2/multiple-choice.json",
+        "sizdiran_number": "34-35",
         "sizdiran_practice": false,
-        "sizdiran_prompt": "The bamboo stick was taken out of the enclosure once Kandula began using the cube.",
-        "eslesme_uzunlugu": 6
+        "sizdiran_prompt": "All seven statements below are true of Caster. Which TWO does the passage give as reasons why the example set by high performers has little effect there?",
+        "eslesme_uzunlugu": 5
+      },
+      {
+        "skill": "reading",
+        "cevap_kalemi": "content/reading/practice/true-false-not-given.json#3",
+        "cevap_paketi": "content/reading/practice/true-false-not-given.json",
+        "cevap_number": 3,
+        "cevap_practice": true,
+        "cevap_dizgi": "TRUE",
+        "sizdiran_kalem": "content/reading/tests/AC2/multiple-choice.json#34-35",
+        "sizdiran_paketi": "content/reading/tests/AC2/multiple-choice.json",
+        "sizdiran_number": "34-35",
+        "sizdiran_practice": false,
+        "sizdiran_prompt": "All seven statements below are true of Caster. Which TWO does the passage give as reasons why the example set by high performers has little effect there?",
+        "eslesme_uzunlugu": 4
+      },
+      {
+        "skill": "reading",
+        "cevap_kalemi": "content/reading/practice/true-false-not-given.json#6",
+        "cevap_paketi": "content/reading/practice/true-false-not-given.json",
+        "cevap_number": 6,
+        "cevap_practice": true,
+        "cevap_dizgi": "TRUE",
+        "sizdiran_kalem": "content/reading/tests/AC2/multiple-choice.json#34-35",
+        "sizdiran_paketi": "content/reading/tests/AC2/multiple-choice.json",
+        "sizdiran_number": "34-35",
+        "sizdiran_practice": false,
+        "sizdiran_prompt": "All seven statements below are true of Caster. Which TWO does the passage give as reasons why the example set by high performers has little effect there?",
+        "eslesme_uzunlugu": 4
+      },
+      {
+        "skill": "reading",
+        "cevap_kalemi": "content/reading/practice/true-false-not-given.json#8",
+        "cevap_paketi": "content/reading/practice/true-false-not-given.json",
+        "cevap_number": 8,
+        "cevap_practice": true,
+        "cevap_dizgi": "TRUE",
+        "sizdiran_kalem": "content/reading/tests/AC2/multiple-choice.json#34-35",
+        "sizdiran_paketi": "content/reading/tests/AC2/multiple-choice.json",
+        "sizdiran_number": "34-35",
+        "sizdiran_practice": false,
+        "sizdiran_prompt": "All seven statements below are true of Caster. Which TWO does the passage give as reasons why the example set by high performers has little effect there?",
+        "eslesme_uzunlugu": 4
+      },
+      {
+        "skill": "reading",
+        "cevap_kalemi": "content/reading/practice/true-false-not-given.json#10",
+        "cevap_paketi": "content/reading/practice/true-false-not-given.json",
+        "cevap_number": 10,
+        "cevap_practice": true,
+        "cevap_dizgi": "TRUE",
+        "sizdiran_kalem": "content/reading/tests/AC2/multiple-choice.json#34-35",
+        "sizdiran_paketi": "content/reading/tests/AC2/multiple-choice.json",
+        "sizdiran_number": "34-35",
+        "sizdiran_practice": false,
+        "sizdiran_prompt": "All seven statements below are true of Caster. Which TWO does the passage give as reasons why the example set by high performers has little effect there?",
+        "eslesme_uzunlugu": 4
+      },
+      {
+        "skill": "reading",
+        "cevap_kalemi": "content/reading/practice/true-false-not-given.json#11",
+        "cevap_paketi": "content/reading/practice/true-false-not-given.json",
+        "cevap_number": 11,
+        "cevap_practice": true,
+        "cevap_dizgi": "TRUE",
+        "sizdiran_kalem": "content/reading/tests/AC2/multiple-choice.json#34-35",
+        "sizdiran_paketi": "content/reading/tests/AC2/multiple-choice.json",
+        "sizdiran_number": "34-35",
+        "sizdiran_practice": false,
+        "sizdiran_prompt": "All seven statements below are true of Caster. Which TWO does the passage give as reasons why the example set by high performers has little effect there?",
+        "eslesme_uzunlugu": 4
+      },
+      {
+        "skill": "reading",
+        "cevap_kalemi": "content/reading/practice/true-false-not-given.json#15",
+        "cevap_paketi": "content/reading/practice/true-false-not-given.json",
+        "cevap_number": 15,
+        "cevap_practice": true,
+        "cevap_dizgi": "TRUE",
+        "sizdiran_kalem": "content/reading/tests/AC2/multiple-choice.json#34-35",
+        "sizdiran_paketi": "content/reading/tests/AC2/multiple-choice.json",
+        "sizdiran_number": "34-35",
+        "sizdiran_practice": false,
+        "sizdiran_prompt": "All seven statements below are true of Caster. Which TWO does the passage give as reasons why the example set by high performers has little effect there?",
+        "eslesme_uzunlugu": 4
+      },
+      {
+        "skill": "reading",
+        "cevap_kalemi": "content/reading/tests/AC1/true-false-not-given.json#10",
+        "cevap_paketi": "content/reading/tests/AC1/true-false-not-given.json",
+        "cevap_number": 10,
+        "cevap_practice": false,
+        "cevap_dizgi": "TRUE",
+        "sizdiran_kalem": "content/reading/tests/AC2/multiple-choice.json#34-35",
+        "sizdiran_paketi": "content/reading/tests/AC2/multiple-choice.json",
+        "sizdiran_number": "34-35",
+        "sizdiran_practice": false,
+        "sizdiran_prompt": "All seven statements below are true of Caster. Which TWO does the passage give as reasons why the example set by high performers has little effect there?",
+        "eslesme_uzunlugu": 4
+      },
+      {
+        "skill": "reading",
+        "cevap_kalemi": "content/reading/tests/AC1/true-false-not-given.json#11",
+        "cevap_paketi": "content/reading/tests/AC1/true-false-not-given.json",
+        "cevap_number": 11,
+        "cevap_practice": false,
+        "cevap_dizgi": "TRUE",
+        "sizdiran_kalem": "content/reading/tests/AC2/multiple-choice.json#34-35",
+        "sizdiran_paketi": "content/reading/tests/AC2/multiple-choice.json",
+        "sizdiran_number": "34-35",
+        "sizdiran_practice": false,
+        "sizdiran_prompt": "All seven statements below are true of Caster. Which TWO does the passage give as reasons why the example set by high performers has little effect there?",
+        "eslesme_uzunlugu": 4
+      },
+      {
+        "skill": "reading",
+        "cevap_kalemi": "content/reading/tests/AC2/true-false-not-given.json#7",
+        "cevap_paketi": "content/reading/tests/AC2/true-false-not-given.json",
+        "cevap_number": 7,
+        "cevap_practice": false,
+        "cevap_dizgi": "TRUE",
+        "sizdiran_kalem": "content/reading/tests/AC2/multiple-choice.json#34-35",
+        "sizdiran_paketi": "content/reading/tests/AC2/multiple-choice.json",
+        "sizdiran_number": "34-35",
+        "sizdiran_practice": false,
+        "sizdiran_prompt": "All seven statements below are true of Caster. Which TWO does the passage give as reasons why the example set by high performers has little effect there?",
+        "eslesme_uzunlugu": 4
+      },
+      {
+        "skill": "reading",
+        "cevap_kalemi": "content/reading/tests/AC2/true-false-not-given.json#11",
+        "cevap_paketi": "content/reading/tests/AC2/true-false-not-given.json",
+        "cevap_number": 11,
+        "cevap_practice": false,
+        "cevap_dizgi": "TRUE",
+        "sizdiran_kalem": "content/reading/tests/AC2/multiple-choice.json#34-35",
+        "sizdiran_paketi": "content/reading/tests/AC2/multiple-choice.json",
+        "sizdiran_number": "34-35",
+        "sizdiran_practice": false,
+        "sizdiran_prompt": "All seven statements below are true of Caster. Which TWO does the passage give as reasons why the example set by high performers has little effect there?",
+        "eslesme_uzunlugu": 4
+      },
+      {
+        "skill": "reading",
+        "cevap_kalemi": "content/reading/tests/AC2/true-false-not-given.json#13",
+        "cevap_paketi": "content/reading/tests/AC2/true-false-not-given.json",
+        "cevap_number": 13,
+        "cevap_practice": false,
+        "cevap_dizgi": "TRUE",
+        "sizdiran_kalem": "content/reading/tests/AC2/multiple-choice.json#34-35",
+        "sizdiran_paketi": "content/reading/tests/AC2/multiple-choice.json",
+        "sizdiran_number": "34-35",
+        "sizdiran_practice": false,
+        "sizdiran_prompt": "All seven statements below are true of Caster. Which TWO does the passage give as reasons why the example set by high performers has little effect there?",
+        "eslesme_uzunlugu": 4
+      },
+      {
+        "skill": "reading",
+        "cevap_kalemi": "content/reading/tests/AC3/true-false-not-given.json#9",
+        "cevap_paketi": "content/reading/tests/AC3/true-false-not-given.json",
+        "cevap_number": 9,
+        "cevap_practice": false,
+        "cevap_dizgi": "TRUE",
+        "sizdiran_kalem": "content/reading/tests/AC2/multiple-choice.json#34-35",
+        "sizdiran_paketi": "content/reading/tests/AC2/multiple-choice.json",
+        "sizdiran_number": "34-35",
+        "sizdiran_practice": false,
+        "sizdiran_prompt": "All seven statements below are true of Caster. Which TWO does the passage give as reasons why the example set by high performers has little effect there?",
+        "eslesme_uzunlugu": 4
+      },
+      {
+        "skill": "reading",
+        "cevap_kalemi": "content/reading/tests/AC3/true-false-not-given.json#11",
+        "cevap_paketi": "content/reading/tests/AC3/true-false-not-given.json",
+        "cevap_number": 11,
+        "cevap_practice": false,
+        "cevap_dizgi": "TRUE",
+        "sizdiran_kalem": "content/reading/tests/AC2/multiple-choice.json#34-35",
+        "sizdiran_paketi": "content/reading/tests/AC2/multiple-choice.json",
+        "sizdiran_number": "34-35",
+        "sizdiran_practice": false,
+        "sizdiran_prompt": "All seven statements below are true of Caster. Which TWO does the passage give as reasons why the example set by high performers has little effect there?",
+        "eslesme_uzunlugu": 4
+      },
+      {
+        "skill": "reading",
+        "cevap_kalemi": "content/reading/tests/AC4/sentence-completion.json#21",
+        "cevap_paketi": "content/reading/tests/AC4/sentence-completion.json",
+        "cevap_number": 21,
+        "cevap_practice": false,
+        "cevap_dizgi": "five",
+        "sizdiran_kalem": "content/reading/practice/matching-sentence-endings.json#4",
+        "sizdiran_paketi": "content/reading/practice/matching-sentence-endings.json",
+        "sizdiran_number": 4,
+        "sizdiran_practice": true,
+        "sizdiran_prompt": "After five minutes in each of the three rooms the workers sat a set of attention tests, and the results showed that",
+        "eslesme_uzunlugu": 4
+      },
+      {
+        "skill": "reading",
+        "cevap_kalemi": "content/reading/tests/AC4/sentence-completion.json#21",
+        "cevap_paketi": "content/reading/tests/AC4/sentence-completion.json",
+        "cevap_number": 21,
+        "cevap_practice": false,
+        "cevap_dizgi": "five",
+        "sizdiran_kalem": "content/reading/practice/sentence-completion.json#4",
+        "sizdiran_paketi": "content/reading/practice/sentence-completion.json",
+        "sizdiran_number": 4,
+        "sizdiran_practice": true,
+        "sizdiran_prompt": "At an aspect ratio of five, elongated capsules were calculated to release roughly (4) ........ per cent more healing agent than spherical ones.",
+        "eslesme_uzunlugu": 4
+      },
+      {
+        "skill": "reading",
+        "cevap_kalemi": "content/reading/tests/AC4/sentence-completion.json#21",
+        "cevap_paketi": "content/reading/tests/AC4/sentence-completion.json",
+        "cevap_number": 21,
+        "cevap_practice": false,
+        "cevap_dizgi": "five",
+        "sizdiran_kalem": "content/reading/practice/sentence-completion.json#6",
+        "sizdiran_paketi": "content/reading/practice/sentence-completion.json",
+        "sizdiran_number": 6,
+        "sizdiran_practice": true,
+        "sizdiran_prompt": "Before their spores were added, the mortar bars in Stanaszek-Tomal's study each held five per cent of a (6) ........",
+        "eslesme_uzunlugu": 4
+      },
+      {
+        "skill": "reading",
+        "cevap_kalemi": "content/reading/tests/AC4/sentence-completion.json#21",
+        "cevap_paketi": "content/reading/tests/AC4/sentence-completion.json",
+        "cevap_number": 21,
+        "cevap_practice": false,
+        "cevap_dizgi": "five",
+        "sizdiran_kalem": "content/reading/practice/summary-completion.json#15",
+        "sizdiran_paketi": "content/reading/practice/summary-completion.json",
+        "sizdiran_number": 15,
+        "sizdiran_practice": true,
+        "sizdiran_prompt": "The third study asked about people rather than air. (15) ........ office workers each sat for five minutes in a bare room, in a room planted in a Japanese style and in a room of tropical species before taking attention tests.",
+        "eslesme_uzunlugu": 4
+      },
+      {
+        "skill": "reading",
+        "cevap_kalemi": "content/reading/tests/AC4/sentence-completion.json#21",
+        "cevap_paketi": "content/reading/tests/AC4/sentence-completion.json",
+        "cevap_number": 21,
+        "cevap_practice": false,
+        "cevap_dizgi": "five",
+        "sizdiran_kalem": "content/reading/tests/AC2/true-false-not-given.json#9",
+        "sizdiran_paketi": "content/reading/tests/AC2/true-false-not-given.json",
+        "sizdiran_number": 9,
+        "sizdiran_practice": false,
+        "sizdiran_prompt": "Miranda is the smallest of Uranus's five major satellites.",
+        "eslesme_uzunlugu": 4
+      },
+      {
+        "skill": "reading",
+        "cevap_kalemi": "content/reading/tests/AC4/sentence-completion.json#21",
+        "cevap_paketi": "content/reading/tests/AC4/sentence-completion.json",
+        "cevap_number": 21,
+        "cevap_practice": false,
+        "cevap_dizgi": "five",
+        "sizdiran_kalem": "content/reading/tests/AC3/table-completion.json#3",
+        "sizdiran_paketi": "content/reading/tests/AC3/table-completion.json",
+        "sizdiran_number": 3,
+        "sizdiran_practice": false,
+        "sizdiran_prompt": "Phase two — What the researchers did: A harmless mark measuring five to (3) ........ across was put where the animal could not see it unaided; on other trials the same contact left nothing visible.",
+        "eslesme_uzunlugu": 4
+      },
+      {
+        "skill": "reading",
+        "cevap_kalemi": "content/reading/tests/AC4/true-false-not-given.json#10",
+        "cevap_paketi": "content/reading/tests/AC4/true-false-not-given.json",
+        "cevap_number": 10,
+        "cevap_practice": false,
+        "cevap_dizgi": "TRUE",
+        "sizdiran_kalem": "content/reading/tests/AC2/multiple-choice.json#34-35",
+        "sizdiran_paketi": "content/reading/tests/AC2/multiple-choice.json",
+        "sizdiran_number": "34-35",
+        "sizdiran_practice": false,
+        "sizdiran_prompt": "All seven statements below are true of Caster. Which TWO does the passage give as reasons why the example set by high performers has little effect there?",
+        "eslesme_uzunlugu": 4
+      },
+      {
+        "skill": "reading",
+        "cevap_kalemi": "content/reading/tests/AC4/true-false-not-given.json#13",
+        "cevap_paketi": "content/reading/tests/AC4/true-false-not-given.json",
+        "cevap_number": 13,
+        "cevap_practice": false,
+        "cevap_dizgi": "TRUE",
+        "sizdiran_kalem": "content/reading/tests/AC2/multiple-choice.json#34-35",
+        "sizdiran_paketi": "content/reading/tests/AC2/multiple-choice.json",
+        "sizdiran_number": "34-35",
+        "sizdiran_practice": false,
+        "sizdiran_prompt": "All seven statements below are true of Caster. Which TWO does the passage give as reasons why the example set by high performers has little effect there?",
+        "eslesme_uzunlugu": 4
+      },
+      {
+        "skill": "reading",
+        "cevap_kalemi": "content/reading/tests/GT1/true-false-not-given.json#10",
+        "cevap_paketi": "content/reading/tests/GT1/true-false-not-given.json",
+        "cevap_number": 10,
+        "cevap_practice": false,
+        "cevap_dizgi": "TRUE",
+        "sizdiran_kalem": "content/reading/tests/AC2/multiple-choice.json#34-35",
+        "sizdiran_paketi": "content/reading/tests/AC2/multiple-choice.json",
+        "sizdiran_number": "34-35",
+        "sizdiran_practice": false,
+        "sizdiran_prompt": "All seven statements below are true of Caster. Which TWO does the passage give as reasons why the example set by high performers has little effect there?",
+        "eslesme_uzunlugu": 4
+      },
+      {
+        "skill": "reading",
+        "cevap_kalemi": "content/reading/tests/GT1/true-false-not-given.json#13",
+        "cevap_paketi": "content/reading/tests/GT1/true-false-not-given.json",
+        "cevap_number": 13,
+        "cevap_practice": false,
+        "cevap_dizgi": "TRUE",
+        "sizdiran_kalem": "content/reading/tests/AC2/multiple-choice.json#34-35",
+        "sizdiran_paketi": "content/reading/tests/AC2/multiple-choice.json",
+        "sizdiran_number": "34-35",
+        "sizdiran_practice": false,
+        "sizdiran_prompt": "All seven statements below are true of Caster. Which TWO does the passage give as reasons why the example set by high performers has little effect there?",
+        "eslesme_uzunlugu": 4
+      },
+      {
+        "skill": "reading",
+        "cevap_kalemi": "content/reading/tests/GT2/true-false-not-given.json#10",
+        "cevap_paketi": "content/reading/tests/GT2/true-false-not-given.json",
+        "cevap_number": 10,
+        "cevap_practice": false,
+        "cevap_dizgi": "TRUE",
+        "sizdiran_kalem": "content/reading/tests/AC2/multiple-choice.json#34-35",
+        "sizdiran_paketi": "content/reading/tests/AC2/multiple-choice.json",
+        "sizdiran_number": "34-35",
+        "sizdiran_practice": false,
+        "sizdiran_prompt": "All seven statements below are true of Caster. Which TWO does the passage give as reasons why the example set by high performers has little effect there?",
+        "eslesme_uzunlugu": 4
+      },
+      {
+        "skill": "reading",
+        "cevap_kalemi": "content/reading/tests/GT2/true-false-not-given.json#11",
+        "cevap_paketi": "content/reading/tests/GT2/true-false-not-given.json",
+        "cevap_number": 11,
+        "cevap_practice": false,
+        "cevap_dizgi": "TRUE",
+        "sizdiran_kalem": "content/reading/tests/AC2/multiple-choice.json#34-35",
+        "sizdiran_paketi": "content/reading/tests/AC2/multiple-choice.json",
+        "sizdiran_number": "34-35",
+        "sizdiran_practice": false,
+        "sizdiran_prompt": "All seven statements below are true of Caster. Which TWO does the passage give as reasons why the example set by high performers has little effect there?",
+        "eslesme_uzunlugu": 4
       }
     ],
     "dinleme": [
@@ -1987,31 +2144,59 @@
   "en_agir_10": [
     {
       "skill": "reading",
-      "cevap_kalemi": "content/reading/practice/note-completion.json#3",
+      "cevap_kalemi": "content/reading/practice/note-completion.json#2",
       "cevap_paketi": "content/reading/practice/note-completion.json",
-      "cevap_number": 3,
+      "cevap_number": 2,
       "cevap_practice": true,
-      "cevap_dizgi": "three days",
+      "cevap_dizgi": "one hundred",
       "sizdiran_kalem": "content/reading/tests/AC1/sentence-completion.json#20",
       "sizdiran_paketi": "content/reading/tests/AC1/sentence-completion.json",
       "sizdiran_number": 20,
       "sizdiran_practice": false,
-      "sizdiran_prompt": "Over the three days of daily fifteen-minute meetings a (20) ........ emerged in every pair, while ink-jetting and physical contact both grew less frequent.",
-      "eslesme_uzunlugu": 10
+      "sizdiran_prompt": "Each pair lived in its own tank measuring (20) ........ by one hundred by fifty centimetres, supplied with running seawater at a constant temperature.",
+      "eslesme_uzunlugu": 11
     },
     {
       "skill": "reading",
-      "cevap_kalemi": "content/reading/tests/GT2/sentence-completion.json#27",
-      "cevap_paketi": "content/reading/tests/GT2/sentence-completion.json",
-      "cevap_number": 27,
+      "cevap_kalemi": "content/reading/tests/GT2/summary-completion.json#39",
+      "cevap_paketi": "content/reading/tests/GT2/summary-completion.json",
+      "cevap_number": 39,
       "cevap_practice": false,
-      "cevap_dizgi": "four weeks",
-      "sizdiran_kalem": "content/reading/tests/GT1/note-completion.json#15",
-      "sizdiran_paketi": "content/reading/tests/GT1/note-completion.json",
-      "sizdiran_number": 15,
+      "cevap_dizgi": "four-fifths",
+      "sizdiran_kalem": "content/reading/tests/AC4/sentence-completion.json#19",
+      "sizdiran_paketi": "content/reading/tests/AC4/sentence-completion.json",
+      "sizdiran_number": 19,
       "sizdiran_practice": false,
-      "sizdiran_prompt": "Shift pattern: The pattern changes every four weeks; the new one appears on the staff (15) ........ by the Friday before at the latest",
-      "eslesme_uzunlugu": 10
+      "sizdiran_prompt": "Four fifths of the trees the volunteers stood among were Norway spruce, the remaining fifth being ........ .",
+      "eslesme_uzunlugu": 11
+    },
+    {
+      "skill": "reading",
+      "cevap_kalemi": "content/reading/tests/GT2/summary-completion.json#39",
+      "cevap_paketi": "content/reading/tests/GT2/summary-completion.json",
+      "cevap_number": 39,
+      "cevap_practice": false,
+      "cevap_dizgi": "four fifths",
+      "sizdiran_kalem": "content/reading/tests/AC4/sentence-completion.json#19",
+      "sizdiran_paketi": "content/reading/tests/AC4/sentence-completion.json",
+      "sizdiran_number": 19,
+      "sizdiran_practice": false,
+      "sizdiran_prompt": "Four fifths of the trees the volunteers stood among were Norway spruce, the remaining fifth being ........ .",
+      "eslesme_uzunlugu": 11
+    },
+    {
+      "skill": "reading",
+      "cevap_kalemi": "content/reading/tests/GT2/summary-completion.json#40",
+      "cevap_paketi": "content/reading/tests/GT2/summary-completion.json",
+      "cevap_number": 40,
+      "cevap_practice": false,
+      "cevap_dizgi": "11 per cent",
+      "sizdiran_kalem": "content/reading/practice/note-completion.json#11",
+      "sizdiran_paketi": "content/reading/practice/note-completion.json",
+      "sizdiran_number": 11,
+      "sizdiran_practice": true,
+      "sizdiran_prompt": "the two used together: females 96.3 per cent, males (11) ........ per cent",
+      "eslesme_uzunlugu": 11
     },
     {
       "skill": "reading",
@@ -2029,101 +2214,73 @@
     },
     {
       "skill": "reading",
-      "cevap_kalemi": "content/reading/tests/AC1/note-completion.json#3",
-      "cevap_paketi": "content/reading/tests/AC1/note-completion.json",
-      "cevap_number": 3,
+      "cevap_kalemi": "content/reading/tests/AC2/flow-chart-completion.json#6",
+      "cevap_paketi": "content/reading/tests/AC2/flow-chart-completion.json",
+      "cevap_number": 6,
       "cevap_practice": false,
-      "cevap_dizgi": "seventh",
-      "sizdiran_kalem": "content/reading/tests/AC1/sentence-completion.json#22",
-      "sizdiran_paketi": "content/reading/tests/AC1/sentence-completion.json",
-      "sizdiran_number": 22,
+      "cevap_dizgi": "limits",
+      "sizdiran_kalem": "content/reading/tests/AC4/note-completion.json#5",
+      "sizdiran_paketi": "content/reading/tests/AC4/note-completion.json",
+      "sizdiran_number": 5,
       "sizdiran_practice": false,
-      "sizdiran_prompt": "Each reunion on the seventh day again ran for (22) ........ , and the same behaviours were recorded as in the earlier phase.",
-      "eslesme_uzunlugu": 7
-    },
-    {
-      "skill": "reading",
-      "cevap_kalemi": "content/reading/tests/AC1/note-completion.json#2",
-      "cevap_paketi": "content/reading/tests/AC1/note-completion.json",
-      "cevap_number": 2,
-      "cevap_practice": false,
-      "cevap_dizgi": "bamboo",
-      "sizdiran_kalem": "content/reading/tests/AC1/true-false-not-given.json#13",
-      "sizdiran_paketi": "content/reading/tests/AC1/true-false-not-given.json",
-      "sizdiran_number": 13,
-      "sizdiran_practice": false,
-      "sizdiran_prompt": "The bamboo stick was taken out of the enclosure once Kandula began using the cube.",
+      "sizdiran_prompt": "What the sensors and the desks showed: Noise in the plain open-plan room went over the recommended (5) ........ limits 20-30 per cent more often than in any rival design",
       "eslesme_uzunlugu": 6
     },
     {
-      "skill": "listening",
-      "cevap_kalemi": "content/listening/tests/L1/note-completion.json#32",
-      "cevap_paketi": "content/listening/tests/L1/note-completion.json",
-      "cevap_number": 32,
+      "skill": "reading",
+      "cevap_kalemi": "content/reading/tests/AC3/summary-completion.json#39",
+      "cevap_paketi": "content/reading/tests/AC3/summary-completion.json",
+      "cevap_number": 39,
       "cevap_practice": false,
-      "cevap_dizgi": "community gardens",
-      "sizdiran_kalem": "content/listening/practice/table-completion.json#10",
-      "sizdiran_paketi": "content/listening/practice/table-completion.json",
-      "sizdiran_number": 10,
-      "sizdiran_practice": true,
-      "sizdiran_prompt": "community gardens, rooftop farms and (10) ........ farming",
-      "eslesme_uzunlugu": 17
-    },
-    {
-      "skill": "listening",
-      "cevap_kalemi": "content/listening/tests/L4/plan-map-diagram-labelling.json#20",
-      "cevap_paketi": "content/listening/tests/L4/plan-map-diagram-labelling.json",
-      "cevap_number": 20,
-      "cevap_practice": false,
-      "cevap_dizgi": "electrical store",
-      "sizdiran_kalem": "content/listening/tests/L4/matching.json#13",
-      "sizdiran_paketi": "content/listening/tests/L4/matching.json",
-      "sizdiran_number": 13,
+      "cevap_dizgi": "seven",
+      "sizdiran_kalem": "content/reading/tests/AC2/multiple-choice.json#34-35",
+      "sizdiran_paketi": "content/reading/tests/AC2/multiple-choice.json",
+      "sizdiran_number": "34-35",
       "sizdiran_practice": false,
-      "sizdiran_prompt": "the electrical store",
-      "eslesme_uzunlugu": 16
+      "sizdiran_prompt": "All seven statements below are true of Caster. Which TWO does the passage give as reasons why the example set by high performers has little effect there?",
+      "eslesme_uzunlugu": 5
     },
     {
-      "skill": "listening",
-      "cevap_kalemi": "content/listening/tests/L6/plan-map-diagram-labelling.json#16",
-      "cevap_paketi": "content/listening/tests/L6/plan-map-diagram-labelling.json",
-      "cevap_number": 16,
-      "cevap_practice": false,
-      "cevap_dizgi": "flower stall",
-      "sizdiran_kalem": "content/listening/tests/L6/matching.json#12",
-      "sizdiran_paketi": "content/listening/tests/L6/matching.json",
-      "sizdiran_number": 12,
-      "sizdiran_practice": false,
-      "sizdiran_prompt": "the flower stall",
-      "eslesme_uzunlugu": 12
-    },
-    {
-      "skill": "listening",
-      "cevap_kalemi": "content/listening/practice/sentence-completion.json#7",
-      "cevap_paketi": "content/listening/practice/sentence-completion.json",
-      "cevap_number": 7,
+      "skill": "reading",
+      "cevap_kalemi": "content/reading/practice/true-false-not-given.json#3",
+      "cevap_paketi": "content/reading/practice/true-false-not-given.json",
+      "cevap_number": 3,
       "cevap_practice": true,
-      "cevap_dizgi": "module page",
-      "sizdiran_kalem": "content/listening/tests/L6/sentence-completion.json#28",
-      "sizdiran_paketi": "content/listening/tests/L6/sentence-completion.json",
-      "sizdiran_number": 28,
+      "cevap_dizgi": "TRUE",
+      "sizdiran_kalem": "content/reading/tests/AC2/multiple-choice.json#34-35",
+      "sizdiran_paketi": "content/reading/tests/AC2/multiple-choice.json",
+      "sizdiran_number": "34-35",
       "sizdiran_practice": false,
-      "sizdiran_prompt": "Reasons for rejecting an item have to be written on the (28) ........ from the module page.",
-      "eslesme_uzunlugu": 11
+      "sizdiran_prompt": "All seven statements below are true of Caster. Which TWO does the passage give as reasons why the example set by high performers has little effect there?",
+      "eslesme_uzunlugu": 4
     },
     {
-      "skill": "listening",
-      "cevap_kalemi": "content/listening/practice/sentence-completion.json#9",
-      "cevap_paketi": "content/listening/practice/sentence-completion.json",
-      "cevap_number": 9,
+      "skill": "reading",
+      "cevap_kalemi": "content/reading/practice/true-false-not-given.json#6",
+      "cevap_paketi": "content/reading/practice/true-false-not-given.json",
+      "cevap_number": 6,
       "cevap_practice": true,
-      "cevap_dizgi": "eight weeks",
-      "sizdiran_kalem": "content/listening/tests/L3/multiple-choice.json#22",
-      "sizdiran_paketi": "content/listening/tests/L3/multiple-choice.json",
-      "sizdiran_number": 22,
+      "cevap_dizgi": "TRUE",
+      "sizdiran_kalem": "content/reading/tests/AC2/multiple-choice.json#34-35",
+      "sizdiran_paketi": "content/reading/tests/AC2/multiple-choice.json",
+      "sizdiran_number": "34-35",
       "sizdiran_practice": false,
-      "sizdiran_prompt": "Why did Corin's placement last eight weeks?",
-      "eslesme_uzunlugu": 11
+      "sizdiran_prompt": "All seven statements below are true of Caster. Which TWO does the passage give as reasons why the example set by high performers has little effect there?",
+      "eslesme_uzunlugu": 4
+    },
+    {
+      "skill": "reading",
+      "cevap_kalemi": "content/reading/practice/true-false-not-given.json#8",
+      "cevap_paketi": "content/reading/practice/true-false-not-given.json",
+      "cevap_number": 8,
+      "cevap_practice": true,
+      "cevap_dizgi": "TRUE",
+      "sizdiran_kalem": "content/reading/tests/AC2/multiple-choice.json#34-35",
+      "sizdiran_paketi": "content/reading/tests/AC2/multiple-choice.json",
+      "sizdiran_number": "34-35",
+      "sizdiran_practice": false,
+      "sizdiran_prompt": "All seven statements below are true of Caster. Which TWO does the passage give as reasons why the example set by high performers has little effect there?",
+      "eslesme_uzunlugu": 4
     }
   ],
   "icloud_kopyalari_denetim": [

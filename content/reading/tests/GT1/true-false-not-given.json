@@ -18,87 +18,96 @@
   "items": [
     {
       "number": 8,
-      "prompt": "A book returned fifty days late costs no more in charges than one returned thirty days late.",
+      "prompt": "The maximum charge for a single overdue item is reached after ten days.",
       "answer": [
-        "TRUE"
+        "FALSE"
       ],
       "evidence": "Overdue items are charged at 20 pence per day, up to a maximum of £5 per item.",
       "evidence_locator": {
         "text": "A",
         "sentence": 4
       },
-      "contradiction_point": null,
+      "contradiction_point": "Metin gunluk 20 peni ve eser basina en cok 5 sterlin veriyor; gunde 20 peniyle 5 sterlin ancak 25. gunde dolar, on gun 2 sterlin eder. Celiski tek noktada: ust sinira kac gunde varildigi.",
       "not_given_justification": null,
-      "scan_note": "Gecikme ucreti A metninin 4. cumlesinde; ayni metnin 3. cumlesi odunc suresini (uc hafta) veriyor, ucretle ilgili baska bir kayit yok.",
-      "explanation": "Text A says overdue items are charged at 20 pence a day up to a maximum of five pounds per item; the maximum is reached after 25 days, so an item returned thirty days late and one returned fifty days late both incur the same five-pound charge.",
+      "scan_note": "Gecikme ucreti yalniz A metninin 4. cumlesinde; ayni metnin 3. cumlesi odunc suresini (uc hafta) veriyor, baska hicbir metinde gecikme ucreti gecmiyor.",
+      "explanation": "Text A charges overdue items at 20 pence a day up to a maximum of £5 per item; at that daily rate the £5 ceiling is only reached on the twenty-fifth day, so ten days' lateness costs £2 and is well below the maximum.",
       "difficulty": "medium",
       "status": "verified",
       "blind_solvable": false,
       "blind_basis": null,
-      "flag_reason": "Cevap TRUE, kutuphanelerde gecikme cezalarinin genelde eser basina bir ust sinirla sinirlandirilmasi yaygin bilinen bir kutuphane politikasi olmasi sayesinde parcaya bakmadan da tahmin edilebiliyor.",
-      "flag_mechanism": "genel_kultur",
-      "revision": {
-        "tarih": "2026-08-08",
-        "mekanizma": "genel_kultur",
-        "onceki_prompt": "There is an upper limit to the charge for returning a single item late.",
-        "ne_degisti": "Eski ifade gecikme ucretinde bir ust sinir bulunup bulunmadigini soruyordu; kutuphane cezalarinin eser basina sinirli olmasi cok yaygin bir uygulama. Yeni ifade ayni cumledeki iki sayiyi (gunluk 20 peni, ust sinir 5 sterlin) birlikte kullanmayi gerektiriyor: ust sinira 25. gunde ulasildigi ancak hesapla goruluyor."
-      }
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "uretilen_grup": "GT1 dogru/yanlis/verilmemis",
+        "eski_prompt": "A book returned fifty days late costs no more in charges than one returned thirty days late.",
+        "eski_cevap": [
+          "TRUE"
+        ],
+        "eski_kanit_cumlesi": "Overdue items are charged at 20 pence per day, up to a maximum of £5 per item.",
+        "neden_elendi": "Genel kultur: kutuphane gecikme cezalarinin eser basina bir ust sinirla sinirlanmasi cok yaygin bir uygulama; 'otuz gun de elli gun de ayni' iddiasi tavanin varligini varsaydigi icin cevap TRUE metne bakilmadan veriliyordu.",
+        "ne_degisti": "Kanit cumlesi ayni kaldi ama iddia tavanin VARLIGINDAN esigin YERINE cevrildi: on gunun tavani doldurup doldurmadigi ancak iki sayiyi (gunluk 20 peni, tavan 5 sterlin) bolerek bulunur ve hicbir genel uygulamadan cikarilamaz. Cevap TRUE'dan FALSE'a dondu."
+      },
+      "generated_by": "opus"
     },
     {
       "number": 9,
-      "prompt": "The library is open for eight hours on a Saturday.",
+      "prompt": "Members have to pay a charge to reserve an item that is already on loan.",
       "answer": [
-        "FALSE"
+        "NOT GIVEN"
       ],
-      "evidence": "The library opens Monday to Friday, 9 a.m. to 7 p.m., and Saturday, 10 a.m. to 4 p.m.; it is closed on Sundays and public holidays.",
-      "evidence_locator": {
-        "text": "A",
-        "sentence": 5
-      },
-      "contradiction_point": "Metin cumartesi saatlerini 10.00-16.00 veriyor, yani alti saat; ifade sekiz saat diyor. Celiski tek noktada: acik kalinan saat sayisi.",
-      "not_given_justification": null,
-      "scan_note": "Acilis saatleri A metninin 5. cumlesinde: hafta ici 9.00-19.00, cumartesi 10.00-16.00, pazar ve resmi tatillerde kapali.",
-      "explanation": "Text A says the library opens on Saturday from 10 a.m. to 4 p.m., which is six hours, not eight.",
-      "difficulty": "easy",
+      "evidence": null,
+      "evidence_locator": null,
+      "contradiction_point": null,
+      "not_given_justification": "(1) Konu pasajda geciyor: A metninin 3. cumlesi cevrimici uzatmanin baska bir okuyucu eseri ayirtmadigi surece yapilabildigini soyluyor, yani ayirtma islemi acikca aniliyor; ayni metnin 4. cumlesi de kutuphanenin ucret aldigi tek durumu (gecikme) veriyor. (2) Hicbir cumle ifadeyi curutmuyor: ayirtmanin ucretsiz oldugunu soyleyen bir kayit yok, dolayisiyla FALSE denemez. (3) Hicbir cumle ifadeyi dogrulamiyor - dolayli olarak bile: uyelik ucretsiz, gecikme ucretli; ikisi de ayirtmanin bedeli hakkinda hicbir sey soylemez.",
+      "scan_note": "Ayirtma yalniz A metninin 3. cumlesinde geciyor. Ucret bilgisi A/4'te (gecikme), B/2'de (yuzme), C metninde (ulasim) ve E/3'te (kurs materyali) var; hicbirinde kutuphane ayirtma ucreti verilmiyor.",
+      "explanation": "Text A mentions that an item may have been reserved by another reader, and it gives the charge for overdue items, but it never says whether making a reservation costs anything.",
+      "difficulty": "medium",
       "status": "verified",
       "blind_solvable": false,
       "blind_basis": null,
-      "flag_reason": "Cevap FALSE, kutuphane ve benzeri kamu hizmetlerinde cumartesi calisma saatlerinin hafta ici saatlerden daha kisa tutulmasinin cok yaygin bir uygulama olmasi genel bilgisiyle, 'saatler ayni' iddiasinin yanlis olmasi parcaya bakmadan da tahmin edilebiliyor.",
-      "flag_mechanism": "genel_kultur",
-      "revision": {
-        "tarih": "2026-08-08",
-        "mekanizma": "genel_kultur",
-        "onceki_prompt": "The library's Saturday opening hours are the same as its weekday hours.",
-        "ne_degisti": "Eski ifade cumartesi saatlerinin hafta iciyle ayni olup olmadigini soruyordu; kamu hizmetlerinde cumartesinin daha kisa olmasi cok yaygin oldugu icin cevap metne bakilmadan cikiyordu. Yeni ifade ayni cumleden bir sure hesabi istiyor (10.00-16.00 = alti saat); sekiz saat esigi hicbir genel kuraldan cikarilamaz."
-      }
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "uretilen_grup": "GT1 dogru/yanlis/verilmemis",
+        "eski_prompt": "The library is open for eight hours on a Saturday.",
+        "eski_cevap": [
+          "FALSE"
+        ],
+        "eski_kanit_cumlesi": "The library opens Monday to Friday, 9 a.m. to 7 p.m., and Saturday, 10 a.m. to 4 p.m.; it is closed on Sundays and public holidays.",
+        "neden_elendi": "Genel kultur: kamu hizmetlerinde cumartesinin hafta iciden kisa olmasi yerlesik bir beklenti, sekiz saatlik cumartesi iddiasi bu beklentiyle carpistigi icin FALSE metne bakilmadan veriliyordu. Ayrica A metni butce disina tasmisti: bilgi eslestirmenin iki kalemiyle (2 ve 6) birlikte tek paragrafta dort soru bulunuyordu.",
+        "ne_degisti": "Kalem kanit tasimayan bir NOT GIVEN'a cevrildi; boylece hem genel kultur kanali kapandi hem de A metnindeki soru yuku dorde degil uce indi (bilgi eslestirme 2 ve 6, bu paketten yalniz 8. kalem). Yeni iddia pasajda gecen bir islemi (ayirtma) ucretle birlestiriyor; pasaj ikisini hicbir yerde birbirine baglamiyor. Acilis saatleri cumlesi (A/5) bosaldi."
+      },
+      "generated_by": "opus"
     },
     {
       "number": 10,
-      "prompt": "Both of the weekly beginner swimming sessions start at the same time of day.",
+      "prompt": "Places in the yoga class have to be reserved more than twenty-four hours in advance.",
       "answer": [
         "TRUE"
       ],
-      "evidence": "Beginner swimming is held on Tuesdays and Thursdays at 6 p.m., £4.50 per session or £38 for the term if paid in advance.",
+      "evidence": "Yoga classes take place on Monday mornings at 9.30 a.m.; places are limited to eighteen and must be booked two days ahead through reception.",
       "evidence_locator": {
         "text": "B",
-        "sentence": 2
+        "sentence": 3
       },
       "contradiction_point": null,
       "not_given_justification": null,
-      "scan_note": "Yeni baslayanlar yuzme dersi B metninin 2. cumlesinde; ayni metnin 3. cumlesi yogayi sabah 9.30'a, 4. cumlesi badmintonu cumartesi 10.00'a koyuyor.",
-      "explanation": "Text B says beginner swimming is held on Tuesdays and Thursdays at 6 p.m., so both sessions start at the same time.",
-      "difficulty": "easy",
+      "scan_note": "Yer ayirtma suresi yalniz B metninin 3. cumlesinde (iki gun once, resepsiyondan). Ayni metnin 2. cumlesi yuzmeyi, 4. cumlesi badmintonu anlatiyor ve ikisinde de onceden yer ayirtma suresi verilmiyor; D metnindeki bes is gunu kurali buyuk esya toplamasina ait.",
+      "explanation": "Text B says yoga places must be booked two days ahead through reception, and two days is longer than twenty-four hours.",
+      "difficulty": "medium",
       "status": "verified",
       "blind_solvable": false,
       "blind_basis": null,
-      "flag_reason": "Net bir mekanizma yok: dersin haftada kac kez yapildigi (iki gun mu, uc gun mu) parcaya bakmadan tahmin edilemeyecek somut bir ayrinti; 'twice a week' ifadesinin dogrulugu buyuk olcude sansa dayaniyor.",
-      "flag_mechanism": "belirsiz",
-      "revision": {
-        "tarih": "2026-08-08",
-        "mekanizma": "belirsiz",
-        "onceki_prompt": "Beginner swimming classes take place twice a week.",
-        "ne_degisti": "Eski ifade dersin haftada kac kez yapildigini soruyordu; E1 bunu 'net mekanizma yok, dogruluk buyuk olcude sansa dayaniyor' diye isaretlemisti, cunku 'sali ve persembe' ile 'haftada iki kez' arasindaki eslesme tek adimlik bir cikarim ve gunluk hayatta yeni baslayan kurslari cogunlukla haftada iki gundur. Yeni ifade ayni cumledeki saat bilgisini hedefliyor: iki oturumun ayni saatte olup olmadigi metinden baska hicbir yerden bilinemez."
-      }
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "uretilen_grup": "GT1 dogru/yanlis/verilmemis",
+        "eski_prompt": "Both of the weekly beginner swimming sessions start at the same time of day.",
+        "eski_cevap": [
+          "TRUE"
+        ],
+        "eski_kanit_cumlesi": "Beginner swimming is held on Tuesdays and Thursdays at 6 p.m., £4.50 per session or £38 for the term if paid in advance.",
+        "neden_elendi": "Belirsiz olarak isaretlenmisti; incelemede kanal netlesti: haftada iki kez tekrarlanan bir kursun her iki gun de ayni saatte yapilmasi gunluk hayatta neredeyse kural oldugu icin TRUE metne bakilmadan veriliyordu.",
+        "ne_degisti": "Kanit ayni metnin bir sonraki cumlesine (B/3) tasindi ve iddia bir sure karsilastirmasina cevrildi: iki gun onceden yer ayirtma kuralinin yirmi dort saati asip asmadigi ancak metinden okunur, hicbir yaygin uygulamadan cikmaz. Yuzme cumlesi (B/2) bosaldi ve B metnindeki soru yuku ucte kaldi."
+      },
+      "generated_by": "opus"
     },
     {
       "number": 11,
@@ -118,31 +127,35 @@
     },
     {
       "number": 12,
-      "prompt": "Credit can only be added to the travel card at a station machine.",
+      "prompt": "An adult travelling with three children under eleven pays no fare for any of the children.",
       "answer": [
         "FALSE"
       ],
-      "evidence": "The Cloverfield Travel Card can be loaded with credit at any station machine or via the free mobile app.",
+      "evidence": "Children under eleven travel free when accompanied by a fare-paying adult, up to two per adult.",
       "evidence_locator": {
         "text": "C",
-        "sentence": 1
+        "sentence": 3
       },
-      "contradiction_point": "Metin krediyi hem istasyon makinesinden hem de ucretsiz mobil uygulamadan yuklenebilecegini soyluyor; ifade tek yolun makine oldugunu iddia ediyor. Celiski tek noktada: uygulama uzerinden yukleme secenegi.",
+      "contradiction_point": "Metin ucretsiz seyahat eden cocuk sayisini yetiskin basina ikiyle sinirliyor; ifade uc cocugun da ucretsiz oldugunu soyluyor. Celiski tek noktada: bir yetiskine dusen ucretsiz cocuk sayisi.",
       "not_given_justification": null,
-      "scan_note": "Kredi yukleme C metninin 1. cumlesinde; ayni metnin geri kalani ucretleri, cocuk indirimini, gecis kuralini ve kart degisimini anlatiyor.",
-      "explanation": "Text C says the card can be loaded with credit at any station machine or through the free mobile app, so a machine is not the only way.",
+      "scan_note": "Cocuk ucreti yalniz C metninin 3. cumlesinde. Ayni metnin 2. cumlesi yetiskin ucretlerini, 4. cumlesi giris-cikis kuralini ve varsayilan 6,50 sterlinlik cezayi, 5. cumlesi kayip kart bedelini veriyor; hicbiri cocuk sayisina deginmiyor.",
+      "explanation": "Text C says children under eleven travel free with a fare-paying adult, but only up to two children per adult, so a third child would not travel free.",
       "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_basis": "general_knowledge",
-      "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: general_knowledge. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md",
-      "flag_mechanism": "genel_kultur",
-      "revision": {
-        "tarih": "2026-08-08",
-        "mekanizma": "genel_kultur",
-        "onceki_prompt": "Passengers have to pay to download the travel card's mobile app.",
-        "ne_degisti": "Eski ifade uygulamanin indirilmesinin ucretli olup olmadigini soruyordu; resmi ulasim uygulamalarinin ucretsiz olmasi neredeyse evrensel bir bilgi. Yeni ifade ayni cumledeki 'or' baglacini hedefliyor: kac yukleme kanali oldugu ancak C/1 okunarak bilinir."
-      }
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "uretilen_grup": "GT1 dogru/yanlis/verilmemis",
+        "eski_prompt": "Credit can only be added to the travel card at a station machine.",
+        "eski_cevap": [
+          "FALSE"
+        ],
+        "eski_kanit_cumlesi": "The Cloverfield Travel Card can be loaded with credit at any station machine or via the free mobile app.",
+        "neden_elendi": "Genel kultur: bugun her ulasim kartinin makine disinda bir mobil uygulamayla da yuklenebilmesi neredeyse evrensel; 'yalnizca makineden' iddiasi bu bilgiyle carpistigi icin FALSE metne bakilmadan veriliyordu.",
+        "ne_degisti": "Kanit ayni metnin 3. cumlesine, ucretsiz seyahat eden cocuk sayisina tasindi. Yetiskin basina kac cocugun ucretsiz oldugu sirketten sirkete degisen keyfi bir sinir; iddia bu sayinin uzerine kuruldu. Kredi yukleme cumlesi (C/1) bosaldi."
+      },
+      "generated_by": "opus"
     },
     {
       "number": 13,

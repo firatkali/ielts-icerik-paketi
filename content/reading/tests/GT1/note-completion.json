@@ -13,102 +13,127 @@
   "word_limit": "NO MORE THAN THREE WORDS AND/OR A NUMBER",
   "word_bank": null,
   "visual": null,
-  "stem_block": "Notes for new employees\n\nShift pattern\n- The pattern changes every four weeks; the new one appears on the staff (15) ........ by the Friday before at the latest\n\nBreaks\n- Within a team, breaks are (16) ........ ; the rule exists to protect the production lines\n\nRecording hours\n- Coming in and going out, lunch included, is registered with the (17) ........ by the staff entrance\n\nExchanging a shift\n- Ask the supervisor in writing two days beforehand, on a (18) ........ picked up at the staff office\n- Both workers still have to meet their weekly hours, and a swap leaving under (19) ........ of rest between shifts is refused\n\nAnnual leave\n- Time off is booked on the online (20) ........ , a fortnight ahead as a minimum",
+  "stem_block": "Notes for new employees\n\nWorking hours\n- The early shift hands over to the late shift at (15) ........\n\nBreaks\n- The unpaid 30-minute lunch break must be taken between 12 p.m. and (16) ........\n- On top of lunch there are two paid breaks of (17) ........ each, one in each half of the shift\n\nExchanging a shift\n- Put the request to the supervisor in writing at least (18) ........ ahead, on the shift-swap form from the staff office\n\nAnnual leave\n- A request covering more than (19) ........ needs a longer notice period than usual\n- No more than (20) ........ from one section may be on leave at once",
   "items": [
     {
       "number": 15,
-      "prompt": "Shift pattern: The pattern changes every four weeks; the new one appears on the staff (15) ........ by the Friday before at the latest",
+      "prompt": "Working hours: The early shift hands over to the late shift at (15) ........",
       "answer": [
-        "noticeboard"
+        "2 p.m."
       ],
       "accepted_variants": [
-        "noticeboard",
-        "notice board"
+        "2 p.m.",
+        "2 pm",
+        "2pm",
+        "2.00 p.m.",
+        "2:00 p.m."
       ],
-      "evidence": "Shift patterns rotate every four weeks and are published on the staff noticeboard no later than the preceding Friday.",
+      "evidence": "Employees on the early shift begin at 6 a.m. and finish at 2 p.m., while those on the late shift work from 2 p.m. to 10 p.m.",
       "evidence_locator": {
         "text": "A",
         "paragraph": "A",
-        "sentence": 3
+        "sentence": 2
       },
-      "explanation": "Paragraph A of Text A says that the shift pattern, which rotates every four weeks, is published on the staff noticeboard no later than the preceding Friday; so the answer is 'noticeboard'.",
+      "explanation": "Paragraph A of Text A says the early shift finishes at 2 p.m. and the late shift then runs from 2 p.m. to 10 p.m., so the changeover time is 2 p.m.",
+      "difficulty": "medium",
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "uretilen_grup": "GT1 not tamamlama - paketin tamami yeniden dusunuldu",
+        "eski_prompt": "Shift pattern: The pattern changes every four weeks; the new one appears on the staff (15) ........ by the Friday before at the latest",
+        "eski_cevap": [
+          "noticeboard"
+        ],
+        "eski_kanit_cumlesi": "Shift patterns rotate every four weeks and are published on the staff noticeboard no later than the preceding Friday.",
+        "neden_elendi": "Esdizim kilidi: 'appears on the staff ___' kokunun ucu tek adayla doluyor; personel duyurusunun asildigi yeri soran her cerceve 'noticeboard' uretiyor. Ayrica cerceve 'four weeks' dizgisini tasiyordu ve denetim/CAPRAZ-KOK.md bunu GT2 cumle tamamlama 27. kalemin cevabini sizdiran kok cakismasi olarak kaydetmisti.",
+        "ne_degisti": "Bosluk kalibin ucundan metnin kendi sectigi bir degere kaydirildi. Kanit ayni metnin bir onceki cumlesine (A metni A/2) tasindi ve cevap vardiya devir saati oldu; devir saati sirkete ozgu, disaridan cikarilamaz. Cerceve erken vardiyanin baslangicini vermiyor, boylece sekiz saatlik vardiya varsayimiyla hesaplanamiyor. 'four weeks' not blogundan tumuyle kaldirildi, capraz kok cakismasi kendi tarafimizdan kapatildi. A/3 (ilan panosu / cuma) coktan secmeli 23-24'un dogru seceneklerinden birine kanit oldu."
+      },
+      "generated_by": "opus"
+    },
+    {
+      "number": 16,
+      "prompt": "Breaks: The unpaid 30-minute lunch break must be taken between 12 p.m. and (16) ........",
+      "answer": [
+        "1.30 p.m."
+      ],
+      "accepted_variants": [
+        "1.30 p.m.",
+        "1.30 pm",
+        "1.30pm",
+        "1:30 p.m.",
+        "1:30 pm",
+        "1.30"
+      ],
+      "evidence": "A 30-minute unpaid lunch break, taken between 12 p.m. and 1.30 p.m.",
+      "evidence_locator": {
+        "text": "A",
+        "paragraph": "B",
+        "sentence": 2
+      },
+      "explanation": "Paragraph B of Text A says the 30-minute unpaid lunch break is taken between 12 p.m. and 1.30 p.m., so the closing time of the window is 1.30 p.m.",
       "difficulty": "easy",
       "status": "verified",
       "blind_solvable": false,
       "blind_basis": null,
-      "flag_reason": "Bosluk 'put up on the staff ___' kalibinin ucunda; 'put up' fiiliyle en dogal eslesen yer 'noticeboard' (ilan panosu) oldugu icin parcaya bakmadan da tahmin edilebiliyor.",
-      "flag_mechanism": "esdizim_kilidi",
-      "revision": {
-        "tarih": "2026-08-08",
-        "mekanizma": "esdizim_kilidi",
-        "onceki_prompt": "Shift pattern: The pattern changes every four weeks; the new one is put up on the staff (15) ........ by the Friday before at the latest",
-        "ne_degisti": "'put up on the staff ___' esdizimi kaldirildi. Ayni belge kumesi cevrimici bir personel portalini da anlatiyor; 'appears on the staff ___' cercevesinde noticeboard, portal ve intranet esit derecede uyuyor, secim yalniz A metnine bakilarak yapilabiliyor."
-      }
-    },
-    {
-      "number": 16,
-      "prompt": "Breaks: Within a team, breaks are (16) ........ ; the rule exists to protect the production lines",
-      "answer": [
-        "staggered"
-      ],
-      "accepted_variants": [
-        "staggered"
-      ],
-      "evidence": "Breaks must be staggered within each team so that production lines are never left unattended.",
-      "evidence_locator": {
-        "text": "A",
-        "paragraph": "B",
-        "sentence": 5
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "uretilen_grup": "GT1 not tamamlama - paketin tamami yeniden dusunuldu",
+        "eski_prompt": "Breaks: Within a team, breaks are (16) ........ ; the rule exists to protect the production lines",
+        "eski_cevap": [
+          "staggered"
+        ],
+        "eski_kanit_cumlesi": "Breaks must be staggered within each team so that production lines are never left unattended.",
+        "neden_elendi": "Esdizim kilidi: uretim hattinin bos kalmamasi gerekcesi tek basina 'staggered' sozcugunu cagiriyor; kok metinsiz okundugunda da ayni cevap cikiyordu.",
+        "ne_degisti": "Bosluk ayni paragrafin sozcuk degil deger tasiyan cumlesine (A metni B/2) tasindi; cevap artik ogle molasi penceresinin bitis saati. Saat sirkete ozgu bir deger, hicbir yaygin uygulamadan cikarilamiyor. Mola sirasi kurali (B/5) not blogundan cikarildi ve o cumle bosaldi."
       },
-      "explanation": "Paragraph B of Text A says that breaks must be staggered within each team so that production lines are never left unattended; so the answer is 'staggered'.",
-      "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_basis": "logic",
-      "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: logic. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md",
-      "flag_mechanism": "esdizim_kilidi",
-      "revision": {
-        "tarih": "2026-08-08",
-        "mekanizma": "esdizim_kilidi",
-        "onceki_prompt": "Breaks: Colleagues in one team do not stop at the same moment — their breaks are (16) ........ so that no line is left with nobody on it",
-        "ne_degisti": "Boslugun onundeki 'colleagues do not stop at the same moment' aciklamasi kaldirildi: bu aciklama 'staggered' sozcugunun tanimini veriyordu. Yeni cercevede scheduled, rotated, limited, coordinated adaylari da uyuyor."
-      }
+      "generated_by": "opus"
     },
     {
       "number": 17,
-      "prompt": "Recording hours: Coming in and going out, lunch included, is registered with the (17) ........ by the staff entrance",
+      "prompt": "Breaks: On top of lunch there are two paid breaks of (17) ........ each, one in each half of the shift",
       "answer": [
-        "card reader"
+        "10 minutes"
       ],
       "accepted_variants": [
-        "card reader",
-        "card-reader"
+        "10 minutes",
+        "10-minute",
+        "10 minute",
+        "10 mins"
       ],
-      "evidence": "All staff must clock in and out using the card reader at the staff entrance, including for lunch breaks.",
+      "evidence": "Two paid 10-minute breaks, one in the first half of the shift and one in the second.",
       "evidence_locator": {
         "text": "A",
-        "paragraph": "C",
-        "sentence": 1
+        "paragraph": "B",
+        "sentence": 3
       },
-      "explanation": "Paragraph C of Text A says that clocking in and out, including lunch breaks, is recorded with the card reader at the staff entrance; so the answer is 'card reader'.",
-      "difficulty": "easy",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_solvable_kelime_duzeyi": false,
-      "blind_basis": "logic",
-      "flag_reason": "Parça gösterilmeden anlamca 3/3 turda doğru bilindi: farklı kelimeyle ama doğru kavramla cevaplandı ('time clock / card reader / clocking-in machine' verdi; üçü de personel girişindeki aynı cihazı adlandırıyor).",
-      "flag_mechanism": "esdizim_kilidi",
-      "review_note": "E10 anlam duzeyi olcumunden gelen isaret: model parcasiz uc turda da dogru KAVRAMI verdi, tutmayan sey sozcugun kendisiydi. Bu bicimde sizinti cercevede degil boslugun hedefinde durur; kapatmak icin boslugu baska bir ayrintiya tasimak, yani `answer` alanini degistirmek gerekir. Talimatin korunan alan kurali buna izin vermedigi ve soru kelime duzeyinde hala calistigi icin soru oldugu gibi birakildi. Model 'time clock / card reader / clocking-in machine' verdi. Personel girisindeki giris-cikis kayit cihazi kavrami cerceveden dogrudan cikiyor. E6 onerisi: cihaz yerine ogle molasinin da kaydedilmesi kuralina capalanmis yuva."
+      "explanation": "Paragraph B of Text A lists two paid 10-minute breaks, one in the first half of the shift and one in the second, so each of them lasts 10 minutes.",
+      "difficulty": "medium",
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "uretilen_grup": "GT1 not tamamlama - paketin tamami yeniden dusunuldu",
+        "eski_prompt": "Recording hours: Coming in and going out, lunch included, is registered with the (17) ........ by the staff entrance",
+        "eski_cevap": [
+          "card reader"
+        ],
+        "eski_kanit_cumlesi": "All staff must clock in and out using the card reader at the staff entrance, including for lunch breaks.",
+        "neden_elendi": "Esdizim kilidi: personel girisindeki giris-cikis kayit cihazini soran cerceve kavrami dogrudan veriyor; parcasiz olcumde uc turda da dogru kavram ('time clock / card reader / clocking-in machine') uretildi.",
+        "ne_degisti": "Bosluk cihazdan sureye kaydirildi; kanit A metni B/3'e, iki ucretli molanin uzunluguna tasindi. On dakika yaygin beklentinin (on bes dakika) disinda, sirkete ozgu bir deger. Kart okuyucu cumlesi (A metni C/1) bosaldi ve coktan secmeli 21. kaleme kanit oldu."
+      },
+      "generated_by": "opus"
     },
     {
       "number": 18,
-      "prompt": "Exchanging a shift: Ask the supervisor in writing two days beforehand, on a (18) ........ picked up at the staff office",
+      "prompt": "Exchanging a shift: Put the request to the supervisor in writing at least (18) ........ ahead, on the shift-swap form from the staff office",
       "answer": [
-        "shift-swap form"
+        "48 hours"
       ],
       "accepted_variants": [
-        "shift-swap form",
-        "shift swap form"
+        "48 hours"
       ],
       "evidence": "Employees who wish to swap an assigned shift with a colleague must submit the request in writing to their supervisor at least 48 hours in advance, using the shift-swap form available from the staff office.",
       "evidence_locator": {
@@ -116,76 +141,93 @@
         "paragraph": "D",
         "sentence": 1
       },
-      "explanation": "Paragraph D of Text A says that a shift-swap request must be made 48 hours in advance using the shift-swap form obtained from the staff office; since 'shift-swap' is hyphenated, the answer counts as two words.",
+      "explanation": "Paragraph D of Text A says a swap request must be put in writing to the supervisor at least 48 hours in advance on the shift-swap form from the staff office, so the answer is '48 hours'.",
       "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_solvable_kelime_duzeyi": false,
-      "blind_basis": "logic",
-      "flag_reason": "Parça gösterilmeden anlamca 3/3 turda doğru bilindi: farklı kelimeyle ama doğru kavramla cevaplandı ('shift swap form / shift change form / shift swap form' verdi; vardiya değişimi için doldurulan aynı belge).",
-      "flag_mechanism": "esdizim_kilidi",
-      "review_note": "E10 anlam duzeyi olcumunden gelen isaret: model parcasiz uc turda da dogru KAVRAMI verdi, tutmayan sey sozcugun kendisiydi. Bu bicimde sizinti cercevede degil boslugun hedefinde durur; kapatmak icin boslugu baska bir ayrintiya tasimak, yani `answer` alanini degistirmek gerekir. Talimatin korunan alan kurali buna izin vermedigi ve soru kelime duzeyinde hala calistigi icin soru oldugu gibi birakildi. Model 'shift swap / shift change form' verdi. Vardiya degisimi icin doldurulan belgeyi soran her cerceve ayni bilesigi uretiyor. E6 onerisi: belge yerine 48 saatlik onceden bildirim suresine capalanmis yuva."
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "uretilen_grup": "GT1 not tamamlama - paketin tamami yeniden dusunuldu",
+        "eski_prompt": "Exchanging a shift: Ask the supervisor in writing two days beforehand, on a (18) ........ picked up at the staff office",
+        "eski_cevap": [
+          "shift-swap form"
+        ],
+        "eski_kanit_cumlesi": "Employees who wish to swap an assigned shift with a colleague must submit the request in writing to their supervisor at least 48 hours in advance, using the shift-swap form available from the staff office.",
+        "neden_elendi": "Esdizim kilidi: vardiya degisimi icin personel ofisinden alinan belgeyi soran her cerceve ayni bilesigi ('shift swap form') uretiyor; ustelik eski cerceve 'two days beforehand' diyerek 48 saati de kendisi soyluyordu.",
+        "ne_degisti": "Ayni cumle korundu ama bosluk belgeden bildirim suresine kaydirildi ve belgenin adi artik cercevede veriliyor, yani sizdiran oge cevap olmaktan cikip verilen bilgiye dondu. 'two days' ibaresi kaldirildi; sure artik metinden okunuyor."
+      },
+      "generated_by": "opus"
     },
     {
       "number": 19,
-      "prompt": "Exchanging a shift: Both workers still have to meet their weekly hours, and a swap leaving under (19) ........ of rest between shifts is refused",
+      "prompt": "Annual leave: A request covering more than (19) ........ needs a longer notice period than usual",
       "answer": [
-        "eleven hours"
+        "five consecutive days"
       ],
       "accepted_variants": [
-        "eleven hours",
-        "11 hours"
+        "five consecutive days",
+        "5 consecutive days",
+        "five days",
+        "5 days"
       ],
-      "evidence": "Both employees remain responsible for meeting their required weekly hours, and swaps that would leave fewer than eleven hours' rest between shifts will not be approved.",
-      "evidence_locator": {
-        "paragraph": "D",
-        "sentence": 2
-      },
-      "explanation": "Text A, paragraph D says swaps that would leave fewer than eleven hours' rest between shifts will not be approved; so the answer is 'eleven hours'.",
-      "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_basis": "general_knowledge",
-      "generated_by": "opus",
-      "yeniden_uretim": {
-        "tarih": "2026-08-08",
-        "kaynak_prompt": "prompts/OPUS5-E6-yeniden-uretim.md (6/7)",
-        "uretilen_grup": "Tamamlama ailesi yuvalari",
-        "eski_prompt": "Annual leave: Someone working full time receives (19) ........ of paid leave a year, with public holidays counted inside that total",
-        "eski_cevap": [
-          "28 days"
-        ],
-        "eski_kanit_cumlesi": "Full-time employees are entitled to 28 days of paid annual leave per year, including public holidays.",
-        "neden_elendi": "Cevabin kendisi hukukla sabitlenmis bir sayi: Birlesik Krallik'ta tam zamanli calisanin yasal asgari yillik izni resmi tatiller dahil 28 gundur ve not satiri bu kosulun ikisini de ('full time', 'public holidays counted inside that total') veriyor; model uc turda da '28 days' yazdi (3/3 PUAN). Kosullari cikarmak sayiyi bulunamaz yapar. E6 onerisi: B metni A/1 yerine izin talebinin iki hafta onceden yapilmasi kurali - ama o yuva 20'de dolu oldugu icin baska bir paragraf secilmeli.",
-        "ne_degisti": "Eski satir B metni A/1'e capaliydi ve cevap ('28 days') hukukla sabitlenmis bir sayiydi; satir kosullarin ikisini birden verdigi icin sayi disaridan cikiyordu. Yeni satir o cumleye hic degmiyor: kanit A metni D/2'ye, vardiya degisimi kuralinin ikinci kosuluna tasindi ve satir 18. yuvanin dayandigi D/1'i tekrar etmiyor. Not bloguna yeni bir bosluk eklenmedi, var olan bolum bir satir genisletildi; bosluk sirasi 15-20 olarak korundu."
-      },
-      "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: general_knowledge. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md",
-      "flag_mechanism": "genel_kultur"
-    },
-    {
-      "number": 20,
-      "prompt": "Annual leave: Time off is booked on the online (20) ........ , a fortnight ahead as a minimum",
-      "answer": [
-        "staff portal"
-      ],
-      "accepted_variants": [
-        "staff portal"
-      ],
-      "evidence": "Submit requests through the online staff portal at least two weeks in advance.",
+      "evidence": "Requests for more than five consecutive days require four weeks' notice.",
       "evidence_locator": {
         "text": "B",
         "paragraph": "B",
-        "sentence": 2
+        "sentence": 3
       },
-      "explanation": "Paragraph B of Text B says that leave requests are submitted through the online staff portal at least two weeks in advance; since 'online' is already given in the prompt, the gap needs 'staff portal'.",
+      "explanation": "Paragraph B of Text B says requests for more than five consecutive days need longer notice than the usual two weeks, so the answer is 'five consecutive days'.",
       "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_solvable_kelime_duzeyi": false,
-      "blind_basis": "logic",
-      "flag_reason": "Parça gösterilmeden anlamca 3/3 turda doğru bilindi: farklı kelimeyle ama doğru kavramla cevaplandı ('booking system / staff portal / booking system' verdi; izin taleplerinin girildiği aynı çevrimiçi sistem).",
-      "flag_mechanism": "esdizim_kilidi",
-      "review_note": "E10 anlam duzeyi olcumunden gelen isaret: model parcasiz uc turda da dogru KAVRAMI verdi, tutmayan sey sozcugun kendisiydi. Bu bicimde sizinti cercevede degil boslugun hedefinde durur; kapatmak icin boslugu baska bir ayrintiya tasimak, yani `answer` alanini degistirmek gerekir. Talimatin korunan alan kurali buna izin vermedigi ve soru kelime duzeyinde hala calistigi icin soru oldugu gibi birakildi. Model 'booking system / staff portal' verdi. 'Cevrimici ___ uzerinden izin talebi' cercevesi kavrami veriyor. 15. sorunun duzeltilmesiyle bu iki bosluk artik birbirini kismen kisitliyor (noticeboard - portal), ama sozcuk duzeyi sizintisi kapanmiyor. E6 onerisi: iki haftalik asgari sureye capalanmis yuva."
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "uretilen_grup": "GT1 not tamamlama - paketin tamami yeniden dusunuldu",
+        "eski_prompt": "Exchanging a shift: Both workers still have to meet their weekly hours, and a swap leaving under (19) ........ of rest between shifts is refused",
+        "eski_cevap": [
+          "eleven hours"
+        ],
+        "eski_kanit_cumlesi": "Both employees remain responsible for meeting their required weekly hours, and swaps that would leave fewer than eleven hours' rest between shifts will not be approved.",
+        "neden_elendi": "Genel kultur: iki vardiya arasinda en az on bir saat dinlenme birakilmasi calisma mevzuatinin yaygin bilinen bir maddesi; cerceve 'vardiyalar arasi dinlenme' dedigi anda sayi disaridan geliyor.",
+        "ne_degisti": "Yuva bosaltilip B metni B/3'e, uzun izinlerde daha uzun bildirim suresi isteyen kurala tasindi; esik (bes ardisik gun) sirkete ozgu. Bosluk bildirim suresine degil esige acildi, cunku bildirim suresi 'four weeks' dizgisini tasiyor ve o dizgi GT2'nin cevabidir. On bir saatlik dinlenme cumlesi (A metni D/2) hicbir kaleme birakilmadi."
+      }
+    },
+    {
+      "number": 20,
+      "prompt": "Annual leave: No more than (20) ........ from one section may be on leave at once",
+      "answer": [
+        "three team members"
+      ],
+      "accepted_variants": [
+        "three team members",
+        "3 team members"
+      ],
+      "evidence": "No more than three team members from the same section may be on leave at the same time.",
+      "evidence_locator": {
+        "text": "B",
+        "paragraph": "B",
+        "sentence": 4
+      },
+      "explanation": "Paragraph B of Text B says no more than three team members from the same section may be on leave at the same time.",
+      "difficulty": "medium",
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "uretilen_grup": "GT1 not tamamlama - paketin tamami yeniden dusunuldu",
+        "eski_prompt": "Annual leave: Time off is booked on the online (20) ........ , a fortnight ahead as a minimum",
+        "eski_cevap": [
+          "staff portal"
+        ],
+        "eski_kanit_cumlesi": "Submit requests through the online staff portal at least two weeks in advance.",
+        "neden_elendi": "Esdizim kilidi: 'cevrimici ___ uzerinden izin talebi' kalibi kavrami dogrudan veriyor; parcasiz olcumde uc turda da dogru kavram ('booking system / staff portal') uretildi.",
+        "ne_degisti": "Bosluk sistemin adindan metnin sectigi bir sayiya kaydirildi: ayni bolumden en fazla kac kisinin ayni anda izinde olabilecegi. Sayi keyfi ve sirkete ozgu. Cevrimici portal cumlesi (B metni B/2) bosaldi. Kabul listesinden ciplak 'three' cikarildi: dort karakterlik capraz-kok esigi bu sozcugu on alti pakette yanlis pozitif olarak yakaliyordu ve pasajdan kopyalanacak karsilik zaten 'three team members'."
+      },
+      "generated_by": "opus"
     }
   ]
 }

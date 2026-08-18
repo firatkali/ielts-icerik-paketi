@@ -14,58 +14,54 @@
     {
       "number": 32,
       "select_count": 1,
-      "prompt": "Which of these statements about the island of Maug is correct?",
+      "prompt": "What does the passage say about the present shape of Maug?",
       "options": [
         {
           "letter": "A",
-          "text": "Scientists are stationed on the island all year round"
+          "text": "It is a single peak rising steeply from the seabed"
         },
         {
           "letter": "B",
-          "text": "Its coral reef is mainly found in deep water offshore"
+          "text": "Its central crater has been sealed off from the sea"
         },
         {
           "letter": "C",
-          "text": "The island is a single peak rising from the seabed"
+          "text": "What is left above water is three small islands set in a rough ring"
         },
         {
           "letter": "D",
-          "text": "It lies roughly 450 miles to the north of Guam"
+          "text": "It was formed when two separate volcanoes merged"
         }
       ],
       "answer": [
-        "D"
+        "C"
       ],
-      "evidence": "Maug is an uninhabited volcanic island in the Commonwealth of the Northern Mariana Islands, roughly 450 miles north of Guam in the western Pacific.",
+      "evidence": "Maug is what remains of a volcano that collapsed long ago, leaving three small islands arranged in a rough circle around a flooded caldera.",
       "evidence_locator": {
-        "paragraph": "A",
-        "sentence": 1
+        "paragraph": "B",
+        "sentence": 2
       },
       "distractor_analysis": {
-        "A": "Cazip ama yok -- A/1 adayi 'uninhabited' (insansiz) diye tanitiyor; arastirmacilar disaridan gelip olcum yapiyor, adada yil boyu kalan kimseden soz edilmiyor.",
-        "B": "Yer degistirme -- resif A/2'de adanin cevresindeki SIG sulara yerlestiriliyor ve gaz cikisi kalderanin ic kiyisinda; secenek hem derinligi hem yonu tersine ceviriyor.",
-        "C": "Kapsam kaydirma -- B/2 Maug'u cokmus bir yanardagdan geriye kalan, kabaca daire bicimindeki uc kucuk ada olarak anlatiyor; tek zirve degil."
+        "A": "Sezgiye capalanmis yanlis -- 'volkanik ada' denince akla tek bir koni gelir. B/2 ise cokmus bir yanardagdan geriye UC ayri adacik kaldigini soyluyor. Pasaja bakmadan cevaplayan bu secenege gider.",
+        "B": "Tersine cevirme -- kaldera su basmis durumda ('a flooded caldera') ve B/3 bacalarin kalderanin IC KIYISINDA oldugunu soyluyor; yani denizden yalitilmis degil, deniz iceride.",
+        "D": "Uydurma koken -- B/2 tek bir yanardagin cokmesinden soz ediyor; iki yanardagin birlesmesi pasajda hic gecmiyor."
       },
-      "explanation": "Paragraph A places Maug in the Commonwealth of the Northern Mariana Islands, roughly 450 miles north of Guam in the western Pacific.",
-      "difficulty": "easy",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_basis": "general_knowledge",
+      "explanation": "Paragraph B says Maug is what remains of a volcano that collapsed long ago, leaving three small islands arranged in a rough circle around a flooded caldera.",
+      "difficulty": "medium",
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
       "generated_by": "opus",
       "yeniden_uretim": {
-        "tarih": "2026-08-08",
-        "kaynak_prompt": "prompts/OPUS5-E6-yeniden-uretim.md (3/7)",
-        "uretilen_grup": "Coktan secmeli - tam testler",
-        "eski_prompt": "Why does the writer describe the island's geology?",
+        "tarih": "2026-08-18",
+        "mekanizma": "genel_kultur",
+        "eski_kanit_cumlesi": "Maug is an uninhabited volcanic island in the Commonwealth of the Northern Mariana Islands, roughly 450 miles north of Guam in the western Pacific.",
         "eski_cevap": [
-          "B"
+          "D"
         ],
-        "eski_kanit_cumlesi": "The island's unusual chemistry comes from its geology. Magma still sits beneath the seafloor, and along the inner shoreline of the caldera it drives shallow vents that continuously release carbon dioxide gas directly into the water beside a living coral reef, a combination that is extremely rare anywhere on Earth.",
-        "neden_elendi": "Sorunun ekseni jeoloji genel bilgisi: volkanik adalarda magmanin deniz tabani bacalarindan surekli gaz salmasi bilinen bir olgu, dolayisiyla yazarin jeolojiyi neden anlattigi parcaya bakmadan cikarilabiliyor. Celdiricileri metne capalamak sorunun eksenini degistirmiyor.",
-        "ne_degisti": "Yuva bosaltilip ayni pasajdan yeni bir soruyla dolduruldu. Eski soru B/3'e dayaniyordu: yazarin jeolojiyi neden anlattigi. Volkanik adalarda magmanin deniz tabani bacalarindan gaz salmasi ders kitabi duzeyinde bir olgu oldugu icin 'suyun kimyasini aciklamak icin' cevabi pasajsiz da cikiyordu. Yeni soru B paragrafina hic degmiyor: kanit A/1'e, adanin konumuna tasindi. Guam'in kac mil kuzeyinde oldugu keyfi bir olcu; disaridan bilinemez, cunku 200 ya da 700 mil de esit olculude makuldu. Uc celdirici de pasajin kendi ayrintilarini tersine ceviriyor (insansizlik, sig su, uc adaci), yani 'akla yatkin olani sec' stratejisi calismiyor. Kip dengesi icin dogru secenek olculu ('roughly'), iki celdirici mutlak ('all year round', 'a single peak') yazildi."
-      },
-      "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: general_knowledge. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md",
-      "flag_mechanism": "genel_kultur"
+        "neden_elendi": "Eski dogru secenek adanin Guam'a uzakligiydi (roughly 450 miles north). Olcum bu yuvayi uc turun ucunde de pasajsiz dogru buldu: Maug'un konumu cografya bilgisi olarak taniniyor ve ustelik olculu yazilmis tek somut secenek oydu, oteki uc secenek mutlak ('all year round', 'a single peak') ya da belirsizdi.",
+        "ne_degisti": "Kanit ayni pasajda A paragrafindan B paragrafinin 2. cumlesine tasindi; artik soru konumu degil, adanin bugunku bicimini soruyor. Dort secenek de ayni somutlukta olgu iddiasi ve ucu pasajin kendi ayrintisini tersine ceviriyor (tek koni, kapali kaldera, iki yanardag). Genel kultur bilerek YANLIS secenege capalandi: 'volkanik ada = tek koni' sezgisi A'ya gidiyor, dogru cevap C. Dogru harf de D'den C'ye alindi, boylece pakette 33'un A'si ve 34-35'in B+F'siyle birlikte harf dagilimi duzlestirildi."
+      }
     },
     {
       "number": 33,
@@ -107,8 +103,6 @@
       "status": "verified",
       "blind_solvable": false,
       "blind_basis": null,
-      "flag_reason": "Secenek A, 'baslanan tarama' ile ayni yil icinde planlanmis bir takip ziyaretini eslestiren tek secenek; B taramanin ilkligini iddia ediyor (kapsam abartma), C yontemin yerini degistiriyor, D var olmayan bir basarisiz denemeden soz ediyor -- yalniz A metnin verdigi somut ayrintiyla (Agustos'taki takip ziyareti) birebir ortusuyor.",
-      "flag_mechanism": "konumsal_duzen",
       "revision": {
         "tarih": "2026-08-08",
         "mekanizma": "konumsal_duzen",
@@ -120,45 +114,55 @@
           "D": "It replaced an earlier attempt that had failed"
         },
         "ne_degisti": "Eski celdiriciler bicimlerinden taniniyordu: B 'ilk kez yapilan calisma' seklinde bir kapsam abartmasi, D var olmayan basarisiz bir denemeye gonderme, C ise gorunurde ilgisiz bir yer degisikligiydi; olculu ve somut yazilmis tek secenek A kaliyordu. Simdi dort secenek de ayni somutlukta, pasajin gercek ayrintilarina capalanmis olgu iddialari (cihaz yerlestirme D/2, laboratuvar analizi D/2, ekibin bagli oldugu kurum D/1)."
+      },
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "mekanizma": "konumsal_duzen",
+        "eski_kanit_cumlesi": "A research team led by the coral ecologist Ian Enochs, of NOAA's Cooperative Institute for Marine and Atmospheric Studies at the University of Miami, carried out a detailed survey at Maug beginning in May 2014, with a follow-up visit planned for that August.",
+        "eski_cevap": [
+          "A"
+        ],
+        "neden_elendi": "Kanit, ifade ve cevap degismedi. 2026-08-08 duzeltmesi celdiricileri yeniden yazmisti: eskiden B bir kapsam abartmasi ('ilk kez yapilan calisma'), D var olmayan basarisiz bir denemeye gonderme, C gorunurde ilgisiz bir yer degisikligiydi; olculu ve somut yazilmis tek secenek A kaliyordu. Bu turda yeniden olculdu: dort secenek de pasajin gercek ayrintilarina capali (cihaz yerlestirme D/2, laboratuvar analizi D/2, ekibin bagli oldugu kurum D/1) ve bicimlerinden ayirt edilemiyor.",
+        "ne_degisti": "Kalemin kendisi degismedi. Kanit cumlesi (D/1) yalnizca bu kaleme ait; ayni paragrafta duran 34-35 D/2'ye dayaniyor, dolayisiyla D paragrafinin yuku iki ve cumle basina bir soru dusuyor."
       }
     },
     {
       "number": "34-35",
       "select_count": 2,
-      "prompt": "Which TWO things does the writer say the research team did at Maug?",
+      "prompt": "Which TWO things does the writer say the divers did at Maug?",
       "options": [
         {
           "letter": "A",
-          "text": "Left instruments running the whole time to record how the water moved"
+          "text": "Compared the reef at Maug with reefs elsewhere in the Pacific"
         },
         {
           "letter": "B",
-          "text": "Filmed the reef from cameras fixed to the seabed"
+          "text": "Took samples from inside the corals"
         },
         {
           "letter": "C",
-          "text": "Counted the fish likely to be sheltering in the reef"
+          "text": "Filmed the reef from cameras fixed to the seabed"
         },
         {
           "letter": "D",
-          "text": "Compared Maug with reefs elsewhere in the Pacific"
+          "text": "Counted the species sheltering in the reef structure"
         },
         {
           "letter": "E",
-          "text": "Gathered bubbles rising from the seabed vents to study on land"
+          "text": "Measured how quickly gas escapes from the vents"
         },
         {
           "letter": "F",
-          "text": "Cleared weedy algae from part of the seafloor"
+          "text": "Marked fresh coral growth with a coloured substance"
         },
         {
           "letter": "G",
-          "text": "Measured the rate at which the vents usually release gas"
+          "text": "Tagged individual corals so that they could be found again"
         }
       ],
       "answer": [
-        "A",
-        "E"
+        "B",
+        "F"
       ],
       "evidence": "The team deployed instruments to continuously record temperature, light, the partial pressure of carbon dioxide, seawater pH and water currents, while divers collected coral cores, applied dye to mark new growth, and used funnels to capture bubbles of gas escaping from the vents for laboratory analysis.",
       "evidence_locator": {
@@ -166,33 +170,29 @@
         "sentence": 2
       },
       "distractor_analysis": {
-        "B": "Cazip ama yok -- surekli kayit alan cihazlar var, ama kaydettikleri sicaklik, isik, karbondioksit basinci, pH ve akinti; deniz tabanina sabitlenmis kameradan hic soz edilmiyor.",
-        "C": "Yakin ama eksik -- resif iskeletinin cok sayida baska deniz turune barinak sagladigi G/3'te geciyor, ama bu turlerin sayildigi soylenmiyor.",
-        "D": "Yer degistirme -- H/1 Maug'daki degisimleri dunya genelindeki resiflerin yuzyil sonunda yasayacagi seyle karsilastiriyor; bu bir projeksiyon, ekibin baska Pasifik resiflerinde olcum yaptigi anlamina gelmiyor.",
-        "F": "Yer degistirme -- otsu alglerin bacalarin cevresinde deniz tabanina egemen olmasi bir BULGU (F/2); ekibin onlari temizledigi degil, gozledigi anlatiliyor.",
-        "G": "Yakin ama eksik -- bacalardan kacan kabarciklar hunilerle toplaniyor, ama salim hizinin olculdugune dair tek bir ifade yok."
+        "A": "Yer degistirme -- H/1 Maug'daki degisimleri dunya genelindeki resiflerin yuzyil sonunda yasayacagiyla karsilastiriyor; bu bir projeksiyon, ekibin baska Pasifik resiflerinde olcum yaptigi anlamina gelmiyor.",
+        "C": "Cazip ama yok -- surekli kayit alan cihazlar var, ama kaydettikleri sicaklik, isik, karbondioksit basinci, pH ve akinti; deniz tabanina sabitlenmis kameradan hic soz edilmiyor.",
+        "D": "Yakin ama eksik -- resif iskeletinin cok sayida baska deniz turune barinak sagladigi G/3'te geciyor, ama bu turlerin sayildigi soylenmiyor.",
+        "E": "Sezgiye capalanmis yanlis -- karbondioksit bacasi denince en akla yatkin olcum salim hizidir ve pasajsiz okuyan once bunu secer. Metin ise yalnizca kabarciklarin hunilerle TOPLANDIGINI soyluyor; hiz olcumunden tek bir cumlede bile soz etmiyor.",
+        "G": "Cazip ama yok -- dalgiclar yeni buyumeyi boyayla isaretliyor, ama tek tek mercanlarin etiketlendigi ya da sonradan yeniden bulundugu hicbir yerde soylenmiyor."
       },
-      "explanation": "Paragraph D says the team deployed instruments to record water currents, among other things, continuously, and that divers used funnels to capture bubbles of gas escaping from the vents for laboratory analysis.",
+      "explanation": "Paragraph D says that divers collected coral cores and applied dye to mark new growth, alongside the instruments left recording at the site.",
       "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_basis": "logic",
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
       "generated_by": "opus",
       "yeniden_uretim": {
-        "tarih": "2026-08-08",
-        "kaynak_prompt": "prompts/OPUS5-E6-yeniden-uretim.md (3/7)",
-        "uretilen_grup": "Coktan secmeli - tam testler",
-        "eski_prompt": "Which TWO aspects of the reef have studies at Maug examined?",
+        "tarih": "2026-08-18",
+        "mekanizma": "konumsal_duzen",
+        "eski_kanit_cumlesi": "The team deployed instruments to continuously record temperature, light, the partial pressure of carbon dioxide, seawater pH and water currents, while divers collected coral cores, applied dye to mark new growth, and used funnels to capture bubbles of gas escaping from the vents for laboratory analysis.",
         "eski_cevap": [
-          "C",
-          "F"
+          "A",
+          "E"
         ],
-        "eski_kanit_cumlesi": "The carbon dioxide appears to reshape the reef community itself, not just the water's chemistry. A related study of the Maug reef, published separately in the journal PLOS ONE, focused on what happens inside coral skeletons rather than on the seafloor surface.",
-        "neden_elendi": "Sorunun ekseni alan bilgisi: okyanus asitlenmesi calismalarinin biri deniz tabani toplulugu, digeri iskeletin ic yapisi olmak uzere iki eksende yurutuldugu genel olarak biliniyor. Yedi secenek arasindan hangilerinin 'calisilmis' oldugunu secmek pasaji degil bu yerlesik kalibi olcuyor.",
-        "ne_degisti": "Yuva bosaltilip ayni pasajdan yeni bir soruyla dolduruldu. Eski soru F/1 ve G/1'e dayaniyordu: calismalarin biri deniz tabani toplulugunu, digeri iskelet ic yapisini incelemesi. Asitlenme arastirmalarinin bu iki eksene ayrilmasi bilim haberciliginin yerlesik kalibi oldugu icin C+F ikilisi pasajsiz seciliyordu. Yeni soru F ve G paragraflarina hic degmiyor: kanit D/2'ye, sahada yapilan islere tasindi. Hangi buyuklugun surekli kaydedildigi ve kacan gazin ne yapildigi sahaya ozgu yontem kararlari; kamera, alg temizligi ya da baska resiflerle karsilastirma da esit olculude makul oldugu icin disaridan secilemez. Konumsal duzen icin dogru harfler A ve E: bu tipteki ayakta kalan uc yuvanin ucu de C+F oldugu icin (E5 2. calistirma olcumu) A harfi bilerek dogru yapildi ve C+F ikilisi kullanilmadi."
-      },
-      "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: logic. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md",
-      "flag_mechanism": "konumsal_duzen"
+        "neden_elendi": "Eski dogru ikili A+E idi (surekli kayit alan cihazlar + kacan gazin toplanmasi) ve olcum uc turun ucunde de pasajsiz dogru buldu. Sebep celdiricilerin makul olmamasiydi: kamera cekimi, balik sayimi, alg temizligi bir asitlenme calismasinda beklenmeyecek isler oldugu icin eleme pasajsiz yapilabiliyordu. Ayrica kanit cumlesi ayni testteki summary-completion 37 ile paylasiliyordu.",
+        "ne_degisti": "Ifade daraltilip yalniz dalgiclarin yaptigi islere baglandi ve yedi secenegin hepsi bir saha calismasinda esit olculude makul isler haline getirildi. Dogru ikili artik mercanin icinden alinan karotlar ile yeni buyumenin boyayla isaretlenmesi; ikisi de bu calismaya ozgu yontem kararlari. Genel sezgi bilerek yanlis secenege capalandi: 'karbondioksit bacasi -> salim hizini olcerler' beklentisi E'ye gidiyor. Dogru harfler de A+E'den B+F'ye alindi. Kanit cumlesi yalnizca bu kaleme birakildi, summary-completion 37 baska paragrafa tasindi."
+      }
     }
   ]
 }

@@ -18,38 +18,35 @@
   "items": [
     {
       "number": 33,
-      "prompt": "Edible food made up a clearly larger part of urban waste than of rural waste.",
+      "prompt": "The amount of drink poured away was recorded by the households themselves.",
       "answer": [
         "YES"
       ],
-      "evidence": "City dwellers in Cibinong generated 79.4 kilograms of food waste per person a year, almost double the 45.8 kilograms recorded in rural Sukajaya, and a significantly higher proportion of the urban total, 38.2%, was edible food compared with 23.4% in rural areas.",
+      "evidence": "Discarded drinks were tracked separately: participants kept a seven-day diary noting the type and amount of any beverage poured away.",
       "evidence_locator": {
-        "paragraph": "D",
+        "paragraph": "B",
         "sentence": 2
       },
       "contradiction_point": null,
       "not_given_justification": null,
-      "scan_note": "Kentsel-kirsal karsilastirma D paragrafinda: D/1 farkin varligini duyuruyor, D/2 hem kisi basi agirliklari (79,4'e 45,8) hem yenilebilir payi (%38,2'ye %23,4) veriyor, D/3 geliri neden olarak aniyor. Miktar ile pay ayni cumlede yan yana durdugu icin sorunun ekseni hangisinin sorulduguna dikkat etmek. H/1-2 kirsalin daha az attigini yineliyor ama yenilebilir payi hakkinda ayri bir sayi vermiyor.",
-      "explanation": "The writer reports that 38.2% of the urban total was edible food, against 23.4% in rural areas, so edible food formed a larger share of city waste.",
+      "scan_note": "Iceceklerin nasil kaydedildigi yalniz B paragrafinin 2. cumlesinde: katilimcilar yedi gunluk gunluk tutuyor. Ayni paragrafin 1. cumlesi kati atigin arastirma ekibince toplanip tartildigini, 3. cumlesi ev kadinlariyla gorusuldugunu soyluyor; F/1 dokulen kahve ve cayin miktarini veriyor ama kaydi kimin tuttuguna hic girmiyor.",
+      "explanation": "Paragraph B says that discarded drinks were tracked separately, with the participants themselves keeping a seven-day diary of the type and amount of any beverage poured away.",
       "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_basis": "logic",
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
       "generated_by": "opus",
       "yeniden_uretim": {
-        "tarih": "2026-08-08",
-        "kaynak_prompt": "prompts/OPUS5-E6-yeniden-uretim.md (1/7)",
-        "uretilen_grup": "YES/NO/NOT GIVEN - tam testler",
-        "eski_prompt": "Waste figures based on households' own estimates tend to be inaccurate.",
+        "tarih": "2026-08-18",
+        "uretilen_grup": "GT1 evet/hayir/verilmemis - paketin dizisi yeniden kuruldu",
+        "eski_prompt": "Edible food made up a clearly larger part of urban waste than of rural waste.",
         "eski_cevap": [
           "YES"
         ],
-        "eski_kanit_cumlesi": "Rather than relying on households to estimate their own waste, which tends to produce unreliable figures, the research team physically collected, sorted and weighed the solid food waste from each home's rubbish over eight consecutive days, using digital scales accurate to two grams.",
-        "neden_elendi": "Sorunun ekseni genel arastirma yontemi bilgisi: oz-bildirime dayali tahminlerin dogrudan olcumden daha guvenilmez oldugu, pasajdan bagimsiz bilinen bir kural. Ifadedeki 'tend to' kipi kaldirilsa bile cevap ayni yerden cikar.",
-        "ne_degisti": "Yuva bosaltilip ayni pasajdan yeni bir ifadeyle dolduruldu. Eski soru B/1'deki 'oz-bildirime dayali tahminler guvenilmez' yargisini soruyordu; bu, pasajdan bagimsiz bilinen bir yontem kuraliydi. Yeni ifade B paragrafina hic degmiyor: kanit D/2'ye, kentsel ve kirsal atigin yenilebilir paylarina tasindi. Pay yalnizca calismanin kendi sayilarindan (%38,2'ye %23,4) okunabiliyor ve ayni cumlede duran kisi basi agirlik farkiyla karistirilmamasi gerekiyor, yani miktar-oran ayrimini yapmak sart. Kip dengesi icin ifade mutlak yazildi ('clearly larger') ve cevabi YES: olculu kipin dogru, mutlak kipin yanlis tarafa ayrilmasi kirildi."
-      },
-      "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: logic. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md",
-      "flag_mechanism": "konumsal_duzen"
+        "eski_kanit_cumlesi": "City dwellers in Cibinong generated 79.4 kilograms of food waste per person a year, almost double the 45.8 kilograms recorded in rural Sukajaya, and a significantly higher proportion of the urban total, 38.2%, was edible food compared with 23.4% in rural areas.",
+        "neden_elendi": "Konumsal duzen: paketin cevap dizisi YES-NO-YES-NOT GIVEN idi, yani tek NOT GIVEN sona yigilmisti ve kalan uc kalem duzenli olarak yer degistiriyordu. Ayrica kentte israfin daha bol olmasi pasajdan bagimsiz beklenen bir sonuc; kanit D/2'de kentsel-kirsal karsilastirmasinin ortasinda durdugu icin cevap konumdan da okunuyordu.",
+        "ne_degisti": "Kanit pasajin cok daha erken bir yerine, yontem paragrafina (B/2) tasindi. Iddia artik bir sonucu degil olcumun kimin elinde yapildigini soruyor: icecekleri hanenin kendisinin mi yoksa ekibin mi kaydettigi ancak B/2 okunarak bilinir. D paragrafi bu paketten tumuyle cikti ve D/2 bosaldi."
+      }
     },
     {
       "number": 34,
@@ -86,34 +83,6 @@
     },
     {
       "number": 35,
-      "prompt": "Food that households composted or gave to animals was left out of the study's main waste totals.",
-      "answer": [
-        "YES"
-      ],
-      "evidence": "Food that was composted, fed to animals or disposed of in some other way outside the regular bin was not captured in the main waste totals, meaning the true scale of food loss, particularly in rural areas where composting was more common, may be somewhat higher than the headline figures suggest.",
-      "evidence_locator": {
-        "paragraph": "F",
-        "sentence": 3
-      },
-      "contradiction_point": null,
-      "not_given_justification": null,
-      "scan_note": "Yontemin kapsam siniri F paragrafinda: F/2 olcumun yalnizca cop kutusuna gideni kapsadigini (%82,8), F/3 kompost ve hayvan yemine gidenin ana toplamlara girmedigini soyluyor. H/2 kirsalda kompostun yayginligini yineliyor; celisen cumle yok.",
-      "explanation": "The writer states that food composted, fed to animals or disposed of outside the regular bin was not captured in the main waste totals.",
-      "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_basis": "logic",
-      "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: logic. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md",
-      "flag_mechanism": "konumsal_duzen",
-      "revision": {
-        "tarih": "2026-08-08",
-        "mekanizma": "konumsal_duzen",
-        "onceki_prompt": "The study's headline figures may understate the true extent of food loss.",
-        "ne_degisti": "Olculu kip belirteci ('may understate') tasiyan yargi cumlesi yerine, ayni kanit cumlesinin duz bildirimsel ilk yarisi soruldu. Eski bicimde 'may' zaten YES'e isaret ediyordu; yeni bicimde kip belirteci yok, dolayisiyla ifadenin kipinden cevap okunamiyor. Kanit cumlesi (F/3) degismedi, iddiayi birebir karsiliyor."
-      }
-    },
-    {
-      "number": 36,
       "prompt": "The 215 households were chosen at random from the two sub-districts.",
       "answer": [
         "NOT GIVEN"
@@ -121,21 +90,57 @@
       "evidence": null,
       "evidence_locator": null,
       "contradiction_point": null,
-      "not_given_justification": "(1) Konu pasajda geciyor: A, 215 hanenin 150'sinin Cibinong'da 65'inin Sukajaya'da oldugunu ve bir yil boyunca izlendigini soyluyor. (2) Pasajda ifadeyi curuten hicbir cumle yok: hanelerin gonullulukten, kota ya da baska bir olcutten secildigini soyleyen bir ifade bulunmuyor, dolayisiyla NO denemez. (3) Pasajda ifadeyi dogrulayan hicbir cumle yok - dolayli olarak bile: B yontem ayrintilarini (tartma, icecek gunlugu, gorusmeler) tek tek sayiyor ama orneklemin nasil secildigine hic girmiyor; I/3 yontemin sinirlarini sayarken de sekiz gunluk anlik goruntu ve mevsim sorununu aniyor, secim yontemini degil.",
-      "scan_note": "Orneklem bilgisi A/2-A/3'te (215 hane, iki alt bolge, bir yil) ve D'de (kentsel-kirsal karsilastirma) geciyor; yontem B'de ve sinirlar I/3'te anlatiliyor. Hicbir paragraf hanelerin nasil secildigini soylemiyor.",
-      "explanation": "The passage says how many households took part and where they were, but never explains how they were selected.",
+      "not_given_justification": "(1) Konu pasajda geciyor: A paragrafi 215 hanenin 150'sinin Cibinong'da, 65'inin Sukajaya'da oldugunu ve bir yil boyunca izlendigini soyluyor. (2) Pasajda ifadeyi curuten hicbir cumle yok: hanelerin gonullulukten, kotadan ya da baska bir olcutten secildigini soyleyen bir ifade bulunmuyor, dolayisiyla NO denemez. (3) Pasajda ifadeyi dogrulayan hicbir cumle yok - dolayli olarak bile: B paragrafi yontem ayrintilarini (tartma, icecek gunlugu, gorusmeler) tek tek sayiyor ama orneklemin nasil secildigine hic girmiyor; I/3 yontemin sinirlarini sayarken de sekiz gunluk anlik goruntuyu ve mevsim sorununu aniyor, secim yontemini degil.",
+      "scan_note": "Orneklem bilgisi A/2-A/3'te (215 hane, iki alt bolge, bir yil) ve D'de (kentsel-kirsal karsilastirma) geciyor; yontem B'de, sinirlar I/3'te anlatiliyor. Hicbir paragraf hanelerin nasil secildigini soylemiyor.",
+      "explanation": "The passage says how many households took part and where they were, but it never explains how they were selected.",
       "difficulty": "hard",
       "status": "verified",
       "blind_solvable": false,
       "blind_basis": null,
-      "flag_reason": "Ifade, pasajin gidanin atilma nedenlerini ayrintili sekilde saydigi bir yerde, bu listede hic gecmeyen baska bir neden (tarih etiketi karisikligi) one suruyor; boyle 'listede olmayan neden' iddialari genelde NOT GIVEN'a isaret eder.",
-      "flag_mechanism": "konumsal_duzen",
-      "revision": {
-        "tarih": "2026-08-08",
-        "mekanizma": "konumsal_duzen",
-        "onceki_prompt": "Confusing date labels are one of the main reasons food is thrown away.",
-        "ne_degisti": "Ifade artik pasajin ayrintili neden listesinde bulunmayan bir neden (tarih etiketi karisikligi) one surmuyor. Eski bicim, 'listede olmayan neden' kalibi oldugu icin G paragrafini okumadan da NOT GIVEN olarak tahmin edilebiliyordu. Yeni ifade pasajin uzun uzun anlattigi yontem ekseninde duruyor ve B ile I/3'u okuyup orada olmayan tek seyi fark etmeyi gerektiriyor. Cevap NOT GIVEN ve evidence null olarak korundu."
-      }
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "uretilen_grup": "GT1 evet/hayir/verilmemis - paketin dizisi yeniden kuruldu",
+        "eski_prompt": "Food that households composted or gave to animals was left out of the study's main waste totals.",
+        "eski_cevap": [
+          "YES"
+        ],
+        "eski_kanit_cumlesi": "Food that was composted, fed to animals or disposed of in some other way outside the regular bin was not captured in the main waste totals, meaning the true scale of food loss, particularly in rural areas where composting was more common, may be somewhat higher than the headline figures suggest.",
+        "neden_elendi": "Konumsal duzen: eski dizide iki YES kaleminin ikisi de kanitli, tek NOT GIVEN ise en sondaydi; ayrica bu kalem hemen oncesindeki 34. kalemle ayni paragrafin (F) ardisik iki cumlesine dayaniyordu, yani cevabin yeri sirayla kestirilebiliyordu. F paragrafi da ucuncu soruyla butce sinirina dayanmisti.",
+        "ne_degisti": "NOT GIVEN yuvasi sondan uc numaraya alindi: bu kalem, eskiden 36. sirada duran ve orneklemin nasil secildigini soran kanitsiz iddiayi devraldi. Boylece cevap dizisi YES-NO-NOT GIVEN-YES oldu ve 'sona yigilan NOT GIVEN' oruntusu kirildi. F/3 bosaldi, F paragrafinin soru yuku ucten ikiye indi."
+      },
+      "generated_by": "opus"
+    },
+    {
+      "number": 36,
+      "prompt": "The writer says the two districts differed less in why food was wasted than in what households did with it.",
+      "answer": [
+        "YES"
+      ],
+      "evidence": "Despite these similar reasons, rural households ended up throwing away far less, largely because of what they did instead of putting food straight in the bin.",
+      "evidence_locator": {
+        "paragraph": "H",
+        "sentence": 1
+      },
+      "contradiction_point": null,
+      "not_given_justification": null,
+      "scan_note": "Nedenlerin benzerligi G/1'de ('strikingly similar answers'), farkin nereden geldigi H/1'de veriliyor. H/2 kirsalin kompost ve hayvan yemi yolunu, H/3 kentin satin alma egilimini anlatiyor; D paragrafi farkin buyuklugunu sayiyla verir ama nedenlerle davranisi karsilastirmaz. Celisen cumle yok.",
+      "explanation": "Paragraph H opens by saying that, despite these similar reasons, rural households threw away far less, largely because of what they did with food instead of putting it straight in the bin.",
+      "difficulty": "medium",
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "uretilen_grup": "GT1 evet/hayir/verilmemis - paketin dizisi yeniden kuruldu",
+        "eski_prompt": "The 215 households were chosen at random from the two sub-districts.",
+        "eski_cevap": [
+          "NOT GIVEN"
+        ],
+        "eski_kanit_cumlesi": null,
+        "neden_elendi": "Konumsal duzen: kanitsiz NOT GIVEN paketin son kalemiydi ve bu, IELTS adayinin ezberledigi en guclu oruntulerden biridir; 'son soru genelde NOT GIVEN' sezgisi metne bakmadan puan veriyordu.",
+        "ne_degisti": "Ayni iddia 35. yuvaya tasindi, bu yuva ise pasajin ilerisinden kanitli bir kalemle dolduruldu: H/1, kentle kirsalin nedenlerde degil davranista ayristigini soyluyor. Boylece son kalem artik kanit tasiyor ve dizinin sonundaki NOT GIVEN beklentisi bosa cikiyor. Kanit H/1 daha once hicbir kalemde kullanilmamisti."
+      },
+      "generated_by": "opus"
     }
   ]
 }

@@ -18,30 +18,39 @@
   "items": [
     {
       "number": 7,
-      "prompt": "The company where the study was carried out has more than five thousand staff at its main site.",
+      "prompt": "The company at which the study was carried out has fewer than a thousand people on its main campus.",
       "answer": [
-        "TRUE"
+        "FALSE"
       ],
       "evidence": "Much of this debate rests on personal impression rather than controlled comparison, which is what prompted researchers at a technology company headquartered in Amsterdam, with 5,580 employees at its main campus, to test the question directly rather than rely on opinion alone.",
       "evidence_locator": {
         "paragraph": "A",
         "sentence": 4
       },
-      "contradiction_point": null,
+      "contradiction_point": "Pasaj ana kampuste 5.580 calisan oldugunu soyluyor; ifade bin kisinin altini iddia ediyor.",
       "not_given_justification": null,
-      "scan_note": "Calisan sayisi A paragrafinin 4. cumlesinde; B paragrafi deneye katilan 288 kisiyi ve 22 takimi veriyor, bunlar kampusun toplami degil orneklem.",
-      "explanation": "Paragraph A says the technology company that ran the study has 5,580 employees at its main campus, which is more than five thousand.",
+      "scan_note": "Calisan sayisi A paragrafinin 4. cumlesinde. B paragrafinin verdigi 288 kisi ve 22 takim deneye katilan orneklem, kampusun toplami degil; iki sayiyi karistirmak ifadeyi yanlislikla dogru gosterebilir.",
+      "explanation": "Paragraph A says the technology company that ran the study has 5,580 employees at its main campus, so the claim that it has fewer than a thousand is contradicted.",
       "difficulty": "medium",
       "status": "verified",
       "blind_solvable": false,
       "blind_basis": null,
-      "flag_reason": "Cevap TRUE, bilimsel arastirma makalelerinin girisinde tartismali bir konunun 'kisisel izlenime dayali, kontrollu kanittan yoksun' oldugunu soyleyip bunu arastirmanin motivasyonu olarak sunmasi cok yaygin bir akademik yazim kalibi; bu genel bilgiyle ifadenin dogru olmasi parcaya bakmadan da beklenen bir sonuc.",
-      "flag_mechanism": "genel_kultur",
       "revision": {
         "tarih": "2026-08-08",
         "mekanizma": "genel_kultur",
         "onceki_prompt": "The experiment was prompted by a shortage of controlled evidence in the debate.",
         "ne_degisti": "Eski ifade calismanin kontrollu kanit eksikligi yuzunden yapildigini soyluyordu; bir tartismayi 'kisisel izlenime dayaniyor' diye cerceveleyip arastirmanin gerekcesi yapmak akademik girislerin standart kalibi. Yeni ifade ayni cumledeki sayiyi (5.580) hedefliyor; bes bin esigi ancak A/4 okunarak dogrulanabiliyor."
+      },
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "mekanizma": "genel_kultur + konumsal_duzen",
+        "eski_prompt": "The company where the study was carried out has more than five thousand staff at its main site.",
+        "eski_cevap": [
+          "TRUE"
+        ],
+        "eski_kanit_cumlesi": "Much of this debate rests on personal impression rather than controlled comparison, which is what prompted researchers at a technology company headquartered in Amsterdam, with 5,580 employees at its main campus, to test the question directly rather than rely on opinion alone.",
+        "neden_elendi": "Iki sorun vardi. (1) Eski isaretin gerekcesi paketin bir onceki halinden kalmaydi ve akademik giris kalibina dayaniyordu. (2) Asil kanal konumsaldi: yedi kalemin cevap dizisi TRUE-FALSE-NOT GIVEN, TRUE-FALSE-NOT GIVEN, TRUE seklinde kusursuz bir ucluk dongusuydu; ilk alti kalemi cozen aday yedinciyi okumadan isaretleyebiliyordu.",
+        "ne_degisti": "Kalem ayni cumlede kaldi ama kutup ters cevrildi: esik simdi bin kisi ve iddia pasajin kendi sectigi sayiyla (5.580) celisiyor, yani cevap FALSE. Dizinin ilk halkasi kirildigi icin TRUE-FALSE-NOT GIVEN dongusu artik yok (yeni dizi F, F, NG, T, F, NG, T). Sirket buyuklugu dunya bilgisiyle bilinemez, dolayisiyla karar yalniz A/4'u okumaya bagli."
       }
     },
     {
@@ -135,30 +144,39 @@
     },
     {
       "number": 13,
-      "prompt": "How energetic employees said they felt did not differ significantly between the four layouts.",
+      "prompt": "The writer attributes the unchanged output of code partly to how well the engineers knew the tools they worked with.",
       "answer": [
         "TRUE"
       ],
-      "evidence": "Neither the number of software code commits produced by each team nor employees' self-reported energy levels showed a statistically significant difference between the four layouts, indicating that at least some aspects of daily work performance were largely unaffected by where people happened to be sitting that fortnight.",
+      "evidence": "This absence of any measurable effect on code output is itself informative, since it suggests that experienced software engineers accustomed to their tools were not obviously slowed down or sped up by a change of layout, even though the same change clearly affected how comfortable they felt while working.",
       "evidence_locator": {
         "paragraph": "G",
-        "sentence": 2
+        "sentence": 3
       },
       "contradiction_point": null,
       "not_given_justification": null,
-      "scan_note": "Enerji olcumu G paragrafinin 2. cumlesinde kod commit sayisiyla birlikte veriliyor; C paragrafi enerjinin anketle olculdugunu, D ve E paragraflari degisen olcumleri (memnuniyet, uretkenlik, akis) ayri ayri veriyor.",
-      "explanation": "Paragraph G says that neither the number of software code commits nor employees' self-reported energy levels showed a statistically significant difference between the four layouts.",
+      "scan_note": "Gerekce G paragrafinin 3. cumlesinde: yazar sabit kod ciktisini muhendislerin deneyimli olmasina ve araclarina alisik olmasina bagliyor. G/2 yalnizca farkin anlamli olmadigini soyluyor, nedenini vermiyor; C/4 kod commit sayisinin neden bagimsiz bir olcut sayildigini anlatiyor ama aciklama sunmuyor.",
+      "explanation": "Paragraph G says the absence of any effect on code output suggests that experienced software engineers accustomed to their tools were not slowed down or sped up by a change of layout.",
       "difficulty": "medium",
       "status": "verified",
       "blind_solvable": false,
       "blind_basis": null,
-      "flag_reason": "Cevap TRUE, bu tur ofis-duzeni calismalarinda oznel olcumlerin (memnuniyet, algi) etkilenip nesnel/davranissal ciktı olcumlerinin (kod uretimi gibi) genelde degismedigi bilinen bir arastirma orntusu; bu genel orntuyle ifadenin dogru olmasi parcaya bakmadan da tahmin edilebiliyor.",
-      "flag_mechanism": "konumsal_duzen",
       "revision": {
         "tarih": "2026-08-08",
         "mekanizma": "kalip_beklentisi",
         "onceki_prompt": "The volume of code a team produced was unaffected by the layout it worked in.",
         "ne_degisti": "Eski ifade kod uretiminin duzenden etkilenmedigini soyluyordu; ofis calismalarinda OZNEL olcumlerin degisip NESNEL ciktinin degismemesi bilinen bir arastirma orgusu oldugu icin cevap pasajsiz cikiyordu. Yeni ifade ayni cumlenin oteki yarisini, oznel bir olcumun (kendi bildirdikleri enerji) degismedigini hedefliyor; ayni orgu bu kez YANLIS yone isaret ediyor, dogru cevap yalniz G/2'den cikiyor."
+      },
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "mekanizma": "konumsal_duzen",
+        "eski_prompt": "How energetic employees said they felt did not differ significantly between the four layouts.",
+        "eski_cevap": [
+          "TRUE"
+        ],
+        "eski_kanit_cumlesi": "Neither the number of software code commits produced by each team nor employees' self-reported energy levels showed a statistically significant difference between the four layouts, indicating that at least some aspects of daily work performance were largely unaffected by where people happened to be sitting that fortnight.",
+        "neden_elendi": "Kalem, paketin TRUE-FALSE-NOT GIVEN dongusunun yedinci halkasiydi: ilk alti kalemi cozen aday sirayi surdurerek TRUE yazabiliyordu. Ayrica ifade 'oznel olcum degismedi' seklindeydi ve ayni cumlenin oteki yarisiyla (kod ciktisi) neredeyse ayni iddiayi tasiyordu; ayrim ince kaliyordu.",
+        "ne_degisti": "7. kalemin kutbu FALSE'a cevrilerek dongu kirildi (yeni dizi F, F, NG, T, F, NG, T), yani sira artik cevabi vermiyor. Kanit ayni paragrafin bir sonraki cumlesine (G/3) tasindi ve hedef degisti: olcum sonucunun kendisi degil, yazarin bu sonuca getirdigi aciklama soruluyor. Bu aciklamanin metinde bulunup bulunmadigi ancak G/3 okunarak gorulebiliyor; G/2 nedeni hic vermiyor."
       }
     }
   ]

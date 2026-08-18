@@ -9,8 +9,8 @@
   "passage_id": "G04",
   "question_type": "sentence_completion",
   "generated_by": "opus",
-  "instructions": "Complete the sentences below. Choose NO MORE THAN TWO WORDS from the passage for each answer.",
-  "word_limit": "NO MORE THAN TWO WORDS",
+  "instructions": "Complete the sentences below. Choose NO MORE THAN TWO WORDS AND/OR A NUMBER from the passage for each answer.",
+  "word_limit": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
   "word_bank": null,
   "visual": null,
   "stem_block": null,
@@ -27,6 +27,7 @@
       ],
       "evidence": "Provide their own reliable internet connection of at least 10 Mbps.",
       "evidence_locator": {
+        "text": "B",
         "paragraph": "B",
         "sentence": 2
       },
@@ -51,29 +52,40 @@
     },
     {
       "number": 26,
-      "prompt": "The cost of (26) ........ that has been approved can be claimed back, but not more than £150 in any one year.",
+      "prompt": "Whether they are at home or in the office, employees have to be reachable by phone or video call from 10 a.m. until (26) ........",
       "answer": [
-        "home-office equipment"
+        "4 p.m."
       ],
       "accepted_variants": [
-        "home-office equipment",
-        "home office equipment"
+        "4 p.m.",
+        "4 p.m",
+        "4pm",
+        "4 pm"
       ],
-      "evidence": "Claim reimbursement for approved home-office equipment, up to £150 per year, through the expenses system.",
+      "evidence": "Core hours for all staff, whether remote or office-based, are 10 a.m. to 4 p.m., during which employees must be reachable by phone or video call.",
       "evidence_locator": {
         "text": "B",
-        "paragraph": "B",
-        "sentence": 5
+        "paragraph": "C",
+        "sentence": 1
       },
-      "explanation": "Paragraph B of text B says that reimbursement of up to £150 a year can be claimed for approved home-office equipment; the answer is therefore 'home-office equipment' (the hyphenated word counts as one word).",
+      "explanation": "Paragraph C of text B says core hours for all staff, remote or office-based, run from 10 a.m. to 4 p.m., and that employees must be reachable by phone or video call during them; the answer is therefore '4 p.m.'.",
       "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_solvable_kelime_duzeyi": false,
-      "blind_basis": "logic",
-      "flag_reason": "Parça gösterilmeden anlamca 3/3 turda doğru bilindi: farklı kelimeyle ama doğru kavramla cevaplandı (3 turda da 'office equipment' verdi, gerçek cevap 'home-office equipment').",
-      "flag_mechanism": "esdizim_kilidi",
-      "review_note": "E10 anlam duzeyi olcumunden gelen isaret. Modelin parcasiz cevabi cevabin yalniz BAS ADINI veriyor, ayirt edici niteleyicisini vermiyor: uc turda da 'office equipment' verdi, ayirt edici 'home-' on eki hic gelmedi. Dolayisiyla soru kelime duzeyinde hala ayirt ediyor (bu cevabi yazan aday puan alamaz) ve elenmesi icin yeterli gerekce yok. Duzeltilmesi de mumkun degil, cunku boslugun bas adi cumlenin anlamsal rolunden zorunlu olarak cikiyor: uzaktan calisma politikasinda masrafi geri alinan seyin bas adi zorunlu olarak 'equipment' olur. Cerceve ne yapilirsa yapilsin ayni bas ad okunacagi icin yeniden yazmak sizintiyi kapatmadan olculmemis yeni bir soru uretirdi (yarim duzeltme). Talimatin 3. sonucu geregi soru oldugu gibi birakildi. E6 onerisi: ayni madde listesindeki olculebilir kosullar -- en az 10 Mbps'lik internet baglantisi ya da sirketin verdigi dizustu bilgisayarin kullanilmasi zorunlulugu."
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "kaynak_prompt": "GT2 okuma - isaretli kalem elden gecirme (2026-08-18)",
+        "uretilen_grup": "Tamamlama ailesi yuvalari - GT2",
+        "eski_prompt": "The cost of (26) ........ that has been approved can be claimed back, but not more than £150 in any one year.",
+        "eski_cevap": [
+          "home-office equipment"
+        ],
+        "eski_kanit_cumlesi": "Claim reimbursement for approved home-office equipment, up to £150 per year, through the expenses system.",
+        "neden_elendi": "Esdizim kilidi: bosluk bir kalibin ucuna aciliyordu ve kok tek basina okundugunda cevabin bas adi zorunlu olarak cikiyordu -- uzaktan calisma yonergesinde masrafi geri odenen seyin adi 'equipment' olur. Anlam duzeyi olcumunde model uc turun ucunde de 'office equipment' verdi. Onceki turda 'cerceve ne yapilirsa yapilsin ayni bas ad okunur' denip kalem oldugu gibi birakilmisti; bu turda karar degisti, cunku sizintiyi kapatmanin tek yolu boslugun HEDEFINI degistirmek.",
+        "ne_degisti": "Bosluk kalibin ucundan alinip metnin kendi sectigi bir DEGERE acildi: kanit B metni B/5'ten C/1'e, cekirdek calisma saatlerine tasindi ve cevap bir saat oldu. Kok metinsiz okundugunda ('10 a.m. until ___') hicbir tek aday cikmiyor; ustelik genel kultur yanlis yone cekiyor, cunku beklenen mesai bitisi 5 ya da 6, metindeki deger 4. Butce: C paragrafinda artik iki soru var (23-24 ve 26), C/1 cumlesi daha once bos idi. GT1'in not tamamlamasiyla capraz kok cakismasi olan 'four weeks' dizgisi bilerek kullanilmadi (o dizgi bu dosyada 27. kalemde duruyor ve baska bir ajanin isi)."
+      }
     },
     {
       "number": 27,

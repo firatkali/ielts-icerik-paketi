@@ -14,46 +14,57 @@
     {
       "number": 21,
       "select_count": 1,
-      "prompt": "What does the writer say about the graduate programme?",
+      "prompt": "What does the writer say about the summer internship?",
       "options": [
         {
           "letter": "A",
-          "text": "Interns may apply for it once their placement ends"
+          "text": "Students may apply for it once they have graduated"
         },
         {
           "letter": "B",
-          "text": "Fifteen places on it are shared out across the departments"
+          "text": "A new group of interns is taken on twice a year"
         },
         {
           "letter": "C",
-          "text": "Invitations to apply are tied to what the business needs"
+          "text": "It may be taken by students who have just finished their first year"
         },
         {
           "letter": "D",
-          "text": "It is likely to start within weeks of the internship finishing"
+          "text": "It is intended mainly for students of economics"
         }
       ],
       "answer": [
         "C"
       ],
-      "evidence": "Interns complete a short performance review at the five-week mark and a final review before departure; strong performers may be invited to apply for the graduate programme the following year, though this is not guaranteed and depends on business need.",
+      "evidence": "Cedarline Financial Services offers a ten-week summer internship each year to undergraduate students entering their second or final year of study.",
       "evidence_locator": {
         "text": "A",
-        "paragraph": "D",
-        "sentence": 2
+        "paragraph": "A",
+        "sentence": 1
       },
       "distractor_analysis": {
-        "A": "Kapsam kaydirma -- basvuru daveti yalniz guclu performans gosteren stajyerlere taniniyor ve ertesi yil icin geciyor (A metni D/2); secenek olculu yazilmis olsa da hakki butun stajyerlere ve stajin bitisine tasiyor.",
-        "B": "Yer degistirme -- on bes kisilik kontenjan staj programina ait (A metni C/2); secenek bu sayiyi mezun programina yukluyor.",
-        "D": "Yakin ama eksik -- metin davetin ertesi yil icin oldugunu soyluyor; stajin bitisinden birkac hafta sonra baslayan bir programdan soz edilmiyor."
+        "A": "Kapsam kaydirma -- program lisans OGRENCILERINE aciliyor (A metni A/1); secenek hakki mezun olmuslara tasiyor.",
+        "B": "Sayi kaydirma -- staj yilda bir kez, yaz doneminde aciliyor ('each year', A metni A/1); secenek bunu yilda iki gruba cikariyor.",
+        "D": "Cazip ama yanlis -- bir finans sirketi soz konusu oldugu icin en akla yatkin gorunen secenek bu, ama metin uc alani esit sayiyor: 'economics, accounting or business studies' (A metni A/2). Hicbiri otekinin onune konmuyor."
       },
-      "explanation": "Paragraph D of Text A says that strong performers may be invited to apply for the graduate programme the following year, though this is not guaranteed and depends on business need.",
+      "explanation": "Paragraph A of Text A says the internship is offered to undergraduate students entering their second or final year, so a student who has just completed a first year is eligible.",
       "difficulty": "medium",
       "status": "verified",
       "blind_solvable": false,
       "blind_basis": null,
-      "flag_reason": "Secenek C'deki 'depends partly on' (kismen bagli) olculu ifadesi, metnin kendi hedge'iyle ('not guaranteed... depends on business need') ortusuyor; A'daki 'any intern' (herhangi bir stajyer) mutlak genellemesi ise metnin 'guclu performans gosterenler' sinirlamasiyla celisiyor -- bu kesinlik farki parcaya bakmadan da C'yi isaret ediyor.",
-      "flag_mechanism": "kip_imzasi",
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "kaynak_prompt": "GT2 okuma - isaretli kalem elden gecirme (2026-08-18)",
+        "uretilen_grup": "Coktan secmeli - GT2",
+        "eski_prompt": "What does the writer say about the graduate programme?",
+        "eski_cevap": [
+          "C"
+        ],
+        "eski_kanit_cumlesi": "Interns complete a short performance review at the five-week mark and a final review before departure; strong performers may be invited to apply for the graduate programme the following year, though this is not guaranteed and depends on business need.",
+        "neden_elendi": "Iki gerekce. (1) Butce ihlali: kalemin kaniti (A metni D/2) tablo tamamlamanin 20. kalemiyle ORTAKTI, yani tek bir cumlede iki soru vardi; 'bir kanit cumlesinde en cok 1 soru' kurali asiliyordu. (2) Kalan kip riski: cumlenin kendi hedge'i ('not guaranteed... depends on business need') dogru secenegin ifadesiyle ortusuyordu, secenek kesin dile cevrilmis olsa bile ayni cumleye bagliydi.",
+        "ne_degisti": "Yuva ayni metnin bos bir cumlesine tasindi: kanit D/2'den A/1'e (kimlerin basvurabilecegi) gecti; D paragrafi artik yalniz 20. kaleme ait, cumle cakismasi kalkti. Genel kultur bilerek YANLIS secenege capalandi: bir finans sirketinde stajin 'aslinda ekonomi ogrencileri icin' oldugu sezgisi D'ye goturuyor, oysa metin uc alani esit sayiyor. Kip dengesi: olculu iki secenegin (A, C) biri dogru, kesin iki secenegin (B, D) hicbiri dogru degil; 22. kalemle birlikte sette olculu 3 secenegin 1'i, kesin 5 secenegin 1'i dogru."
+      },
       "revision": {
         "tarih": "2026-08-08",
         "mekanizma": "kip_imzasi",
@@ -70,46 +81,57 @@
     {
       "number": 22,
       "select_count": 1,
-      "prompt": "What does the writer say about staff who deal directly with clients?",
+      "prompt": "What does the writer say about applying to work remotely?",
       "options": [
         {
           "letter": "A",
-          "text": "They can be asked to come in on more days than others"
+          "text": "The final say rests with the HR team"
         },
         {
           "letter": "B",
-          "text": "They are not allowed to work remotely at all"
+          "text": "A request can be refused because of what the applicant's team needs"
         },
         {
           "letter": "C",
-          "text": "They might also need written approval from the HR team"
+          "text": "Employees who deal with clients are barred from applying"
         },
         {
           "letter": "D",
-          "text": "They receive a larger equipment allowance than other staff"
+          "text": "Successful applicants may work remotely on four days a week"
         }
       ],
       "answer": [
-        "A"
+        "B"
       ],
-      "evidence": "Staff in client-facing roles may be required to attend the office more frequently regardless of general policy.",
+      "evidence": "Employees who have completed their probationary period may apply to work remotely for up to three days per week, subject to line manager approval and the operational needs of their team.",
       "evidence_locator": {
         "text": "B",
         "paragraph": "A",
-        "sentence": 2
+        "sentence": 1
       },
       "distractor_analysis": {
-        "B": "Kapsam kaydirma -- metin bu rollerin ofise daha sik cagrilabilecegini soyluyor (B metni A/2); secenek bunu tam bir uzaktan calisma yasagina buyutuyor.",
-        "C": "Yer degistirme -- hem IK'dan hem ilgili ulke ofisinden yazili onay sarti yurt disindan calismak icin gecerli (B metni D/2); musteriyle calisan roller icin degil.",
-        "D": "Yakin ama eksik -- ev ofisi ekipmani icin yillik 150 sterlinlik geri odeme butun uzaktan calisanlar icin ayni (B metni B/4); bu gruba ek bir odenek taninmiyor."
+        "A": "Cazip ama yanlis -- calisma duzeni degisikliklerinin IK'da karara baglandigi yaygin bir is dunyasi beklentisi, ama metin onayi acikca amire birakiyor: 'subject to line manager approval' (B metni A/1). IK yalnizca kalici konum degisikliginde ve yurt disi izninde geciyor (B metni D).",
+        "C": "Cazip ama yanlis -- musteriyle calisanlarin uzaktan calisamayacagi sezgisi guclu, ama metin bu rollerin YASAKLANDIGINI degil, ofise daha sik cagrilabilecegini soyluyor: 'may be required to attend the office more frequently' (B metni A/2).",
+        "D": "Sayi kaydirma -- ust sinir haftada uc gun (B metni A/1); secenek bunu dorde cikariyor."
       },
-      "explanation": "Paragraph A of Text B says that staff in client-facing roles may be required to attend the office more frequently, regardless of the general policy on remote days.",
-      "difficulty": "easy",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_basis": "general_knowledge",
-      "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: general_knowledge. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md",
-      "flag_mechanism": "kip_imzasi",
+      "explanation": "Paragraph A of Text B says that applications to work remotely are subject to line manager approval and to the operational needs of the team, so the team's needs can be a reason for refusal.",
+      "difficulty": "medium",
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "kaynak_prompt": "GT2 okuma - isaretli kalem elden gecirme (2026-08-18)",
+        "uretilen_grup": "Coktan secmeli - GT2",
+        "eski_prompt": "What does the writer say about staff who deal directly with clients?",
+        "eski_cevap": [
+          "A"
+        ],
+        "eski_kanit_cumlesi": "Staff in client-facing roles may be required to attend the office more frequently regardless of general policy.",
+        "neden_elendi": "E7 2/2 parcasiz olcumunde uc turun ucunde de dogru bilindi, dayanak acikca general_knowledge. Sorunun ekseni 'musteriyle calisanlar ofise daha sik gelir' onermesiydi ve bu, herhangi bir sirket yonergesi okunmadan da bilinen bir is dunyasi gercegi. Secenekleri dengelemek ekseni degistirmiyordu.",
+        "ne_degisti": "Yuva ayni paragrafin bir ust cumlesine tasindi (B metni A/2 -> A/1) ve soru 'kimin ofise gelmesi gerekir'den 'basvuru nasil karara baglanir'a cevrildi. Genel kulturun iki guclu magneti (kararin IK'da olmasi, musteriyle calisanlarin yasakli olmasi) bilerek YANLIS seceneklere -- A ve C'ye -- capalandi; dogru secenek B, metnin kendi kaydina ('the operational needs of their team') bagli. 23-24 kalemiyle secenek ortusmesi olmamasi icin D, oradaki celdiricilerden farkli bir ayrinti (gun sayisi) uzerine kuruldu. Kip dengesi: kesin uc secenegin (A, B, C) biri dogru, olculu tek secenek (D) yanlis. Dogru harf 21. kalemle ayni olmasin diye B'ye alindi (21 = C, 22 = B)."
+      },
       "revision": {
         "tarih": "2026-08-08",
         "mekanizma": "kip_imzasi",

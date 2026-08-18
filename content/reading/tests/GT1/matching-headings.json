@@ -24,7 +24,7 @@
       },
       {
         "key": "iii",
-        "text": "Which foods were lost in the greatest quantity"
+        "text": "The single heaviest loss in each category"
       },
       {
         "key": "iv",
@@ -130,21 +130,26 @@
         "paragraph": "E",
         "sentence": 1
       },
-      "heading_check": "E paragrafı baştan sona hangi yiyeceğin ne kadar atıldığını sıralıyor: tahıllar ve pirinç başta, sebzeler hemen arkada, ardından havuç, lahana, tofu ve tempe. 'iii' bu sıralamayı karşılıyor. En yakın çeldirici 'vii' (kabuklar ve mutfak artıkları) — paragrafın son cümlesi muz ve mango kabuklarının yenmeyen atıkta başı çektiğini söylüyor, ama bu üç cümlelik sıralamanın yalnızca sonuncusu; paragraf ağırlıkla yenebilir yiyeceklerin dökümü.",
+      "heading_check": "E paragrafi iki ayri siralamanin da basini adlandiriyor: yenilebilir atikta tahillar ve pirinc kisi basina yaklasik 17 kilogramla ilk sirada (E/1), yenmeyen atikta ise meyve ve sebze kabuklari acik farkla en buyuk kalem (E/3). Yeni 'iii' bu iki basi birden karsiliyor, dolayisiyla paragrafin yalniz bir yakasini okuyan adayi tutmuyor. En yakin celdirici 'vii' (kabuklar ve mutfak artiklari) yalniz ikinci siralamanin basini adlandiriyor ve paragrafin ilk iki cumlesini disarida birakiyor; 'i' ise C paragrafinin isi, cunku orada toplam ikiye bolunuyor ama tek bir kalem adlandirilmiyor.",
       "feature_check": null,
       "grammar_check": null,
-      "explanation": "Paragraph E lists which foods were thrown away in the greatest quantity: cereals and rice first, then vegetables and other items.",
-      "difficulty": "medium",
+      "explanation": "Paragraph E names the largest item on each side of the count: cereals, and rice above all, among the edible waste, and fruit and vegetable peelings among the inedible waste.",
+      "difficulty": "hard",
       "status": "verified",
       "blind_solvable": false,
       "blind_basis": null,
-      "flag_reason": "Baslik 'iii', en yakin celdirici 'vii' (kabuklar ve mutfak artiklari) elenerek bulunuyor: paragrafin ilk iki cumlesi yenilebilir yiyeceklerin dokumunu siraliyor, kabuklardan soz eden yalniz son cumle; agirlik yenilebilir kalemlerde oldugu icin bu ayrim 'iii'u dogru birakiyor.",
-      "flag_mechanism": "konumsal_duzen",
-      "revision": {
-        "tarih": "2026-08-08",
-        "mekanizma": "konumsal_duzen",
-        "onceki_prompt": "Paragraph E",
-        "ne_degisti": "Iki olu baslik yeniden yazildi: v ('How the amounts changed across the seasons') metnin acikca olcmedigini soyledigi bir seyi adlandiriyordu, yerine G metninin gercek icerigi ('The reasons householders themselves gave') kondu; x ('Why one district earns more than another') pasajda aciklanmayan bir nedeni adlandiriyordu, yerine H metninin gercek icerigi ('What rural families did with their scraps') kondu. E paragrafinin rakibi vii zaten E/3'e capalanmis durumda."
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "uretilen_grup": "GT1 baslik eslestirme",
+        "eski_prompt": "Paragraph E",
+        "eski_cevap": [
+          "iii"
+        ],
+        "eski_kanit_cumlesi": "Rice and other cereals accounted for the single largest share of edible waste, at nearly 17 kilograms per person annually, with vegetables close behind.",
+        "eski_baslik_metni": "Which foods were lost in the greatest quantity",
+        "neden_elendi": "Konumsal duzen: eski 'iii' bir arastirma yazisinin beklenen akisindaki bir duragi ('hangi yiyecekler en cok atildi') genel bir konu etiketiyle adlandiriyordu. Boyle bir etiket, paragraf hic okunmadan yalniz pasajin tahmin edilebilir sirasindan (giris - yontem - toplam - kent/kirsal - yiyecekler - icecekler) dogru paragrafa oturtulabiliyordu.",
+        "ne_degisti": "Kanit cumlesi ve cevap anahtari (iii) korundu; degisen sey basligin kendisi. Yeni baslik genel bir konu etiketi degil, paragrafin ic yapisina dair bir iddia: E'nin hem yenilebilir hem yenmeyen atikta birer 'en agir kalem' adlandirdigini soyluyor. Bu iddia ancak E/1 ile E/3 birlikte okunarak dogrulanir, akistan tahmin edilemez, ve en yakin celdirici vii karsisinda ayrimi metnin agirlik dagilimina birakir. 37. kalemin kabuk cumlesinden cikarilmasiyla vii artik hicbir cevabin es anlamlisini da yazmiyor."
       }
     },
     {

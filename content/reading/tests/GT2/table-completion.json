@@ -22,14 +22,14 @@
     ],
     "rows": [
       [
-        "Eligibility",
+        "Overall",
         "—",
-        "Undergraduate on a suitable degree, free to work here for the whole placement with no need for (15) ........"
+        "Ten weeks in the summer; (15) ........ places across all departments"
       ],
       [
         "Written stage",
         "closes 28 February",
-        "Form filled in online, an up-to-date (16) ........ , and 300 words on why you want the placement"
+        "Form filled in online and an up-to-date CV uploaded by 28 February, plus a (16) ........ statement explaining your interest"
       ],
       [
         "Interview",
@@ -54,35 +54,45 @@
       [
         "During the placement",
         "across the ten weeks",
-        "A (20) ........ from the intern's own department sees them once a week"
+        "A short performance review at the (20) ........ mark, and a final one before leaving"
       ]
     ]
   },
   "items": [
     {
       "number": 15,
-      "prompt": "Eligibility: Undergraduate on a suitable degree, free to work here for the whole placement with no need for (15) ........",
+      "prompt": "Overall: Ten weeks in the summer; (15) ........ places across all departments",
       "answer": [
-        "sponsorship"
+        "fifteen"
       ],
       "accepted_variants": [
-        "sponsorship"
+        "fifteen",
+        "15"
       ],
-      "evidence": "Applicants must be enrolled in a relevant degree, such as economics, accounting or business studies, and hold the right to work in the country for the full ten weeks without requiring sponsorship.",
+      "evidence": "Places are limited to fifteen interns across all departments.",
       "evidence_locator": {
         "text": "A",
-        "paragraph": "A",
-        "sentence": 2
+        "paragraph": "C",
+        "sentence": 3
       },
-      "explanation": "Paragraph A of the passage says applicants must have the right to work here for the whole ten weeks without requiring sponsorship; that is why the answer is 'sponsorship'.",
+      "explanation": "Paragraph C of Text A says places are limited to fifteen interns across all departments; that is why the answer is 'fifteen'.",
       "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_solvable_kelime_duzeyi": false,
-      "blind_basis": "logic",
-      "flag_reason": "Parça gösterilmeden anlamca 3/3 turda doğru bilindi: farklı kelimeyle ama doğru kavramla cevaplandı ('sponsorship / a visa / sponsorship' verdi; 'vize gerektirmeden çalışma hakkı' ile 'sponsorluk gerektirmemesi' aynı koşul).",
-      "flag_mechanism": "esdizim_kilidi",
-      "review_note": "E10 anlam duzeyi olcumunden gelen isaret: model parcasiz uc turda da dogru KAVRAMI verdi, tutmayan sey sozcugun kendisiydi. Bu bicimde sizinti cercevede degil boslugun hedefinde durur; kapatmak icin boslugu baska bir ayrintiya tasimak, yani `answer` alanini degistirmek gerekir. Talimatin korunan alan kurali buna izin vermedigi ve soru kelime duzeyinde hala calistigi icin soru oldugu gibi birakildi. Model 'a visa / sponsorship' verdi. On hafta boyunca calisma hakki kosulunu soran her cerceve ayni kavrami veriyor. E6 onerisi: calisma hakki yerine uygun lisans programi kosuluna (ekonomi, muhasebe, isletme) capalanmis yuva."
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "kaynak_prompt": "GT2 okuma - isaretli kalem elden gecirme (2026-08-18)",
+        "uretilen_grup": "Tamamlama ailesi yuvalari - GT2",
+        "eski_prompt": "Eligibility: Undergraduate on a suitable degree, free to work here for the whole placement with no need for (15) ........",
+        "eski_cevap": [
+          "sponsorship"
+        ],
+        "eski_kanit_cumlesi": "Applicants must be enrolled in a relevant degree, such as economics, accounting or business studies, and hold the right to work in the country for the full ten weeks without requiring sponsorship.",
+        "neden_elendi": "Esdizim kilidi: bosluk 'calisma hakki' kosulunun ucuna aciliyordu ve bu kosulu soran her cerceve ayni kavrami veriyor. Anlam duzeyi olcumunde model uc turda 'sponsorship / a visa / sponsorship' verdi, yani dogru kavrami parcasiz buldu. Onceki turda 'answer alani korunur' gerekcesiyle kalem oldugu gibi birakilmisti; bu turda hedefi degistirme izni oldugu icin kapatildi.",
+        "ne_degisti": "Bosluk kaliptan cikarilip metnin kendi sectigi bir SAYIYA acildi: kanit A metni A/2'den C/3'e (kontenjan) tasindi, cevap 'fifteen' oldu. Kok metinsiz okundugunda ('___ places across all departments') hicbir tek aday cikmiyor. Satirin basligi da degisti ('Eligibility' -> 'Overall'), cunku uygunluk kosullari artik tabloda degil 21. coktan secmeli kaleminde soruluyor; boylece iki gorev arasinda bilgi ortusmesi de kalkti. Butce: A metninin A paragrafi bosaldi (21. kalem oraya tasindi ve yalniz A/1'i kullaniyor), C paragrafi uc soruya cikti (18, 19, 15) -- sinirin icinde, C/3 daha once bostu."
+      }
     },
     {
       "number": 16,
@@ -96,6 +106,7 @@
       ],
       "evidence": "Submit a 300-word statement explaining your interest in the placement.",
       "evidence_locator": {
+        "text": "A",
         "paragraph": "B",
         "sentence": 3
       },
@@ -192,6 +203,7 @@
       ],
       "evidence": "Interns complete a short performance review at the five-week mark and a final review before departure; strong performers may be invited to apply for the graduate programme the following year, though this is not guaranteed and depends on business need.",
       "evidence_locator": {
+        "text": "A",
         "paragraph": "D",
         "sentence": 2
       },

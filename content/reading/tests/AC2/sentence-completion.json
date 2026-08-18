@@ -36,28 +36,35 @@
     },
     {
       "number": 20,
-      "prompt": "So that no modern genetic material could reach the ancient samples, the work was split between two (20) ........ , one in Britain and one in Turkey.",
+      "prompt": "While most communities of the period were still small and mobile, the site had grown into a dense, (20) ........ settlement.",
       "answer": [
-        "separate laboratories"
+        "town-like"
       ],
       "accepted_variants": [
-        "separate laboratories",
-        "separate labs"
+        "town-like",
+        "townlike"
       ],
-      "evidence": "To avoid contaminating the ancient samples with modern DNA, the extraction and analysis were carried out in two physically separate laboratories, one at the University of Manchester in the United Kingdom and the other at Middle East Technical University in Turkey.",
+      "evidence": "What set the site apart was its scale: at a time when most human communities were still small and mobile, Çatalhöyük had grown into a dense, town-like settlement, sitting on routes that would later carry farming practices onward into Europe.",
       "evidence_locator": {
-        "paragraph": "D",
-        "sentence": 1
+        "paragraph": "A",
+        "sentence": 3
       },
-      "explanation": "Paragraph D says the work was carried out in two physically separate laboratories to avoid contamination by modern DNA; since the word limit is two, the answer is 'separate laboratories'.",
-      "difficulty": "easy",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_solvable_kelime_duzeyi": false,
-      "blind_basis": "logic",
-      "flag_reason": "Parça gösterilmeden anlamca 3/3 turda doğru bilindi: farklı kelimeyle ama doğru kavramla cevaplandı (3 turda da 'laboratories' verdi, gerçek cevap 'separate laboratories').",
-      "flag_mechanism": "esdizim_kilidi",
-      "review_note": "E10 anlam duzeyi olcumunden gelen isaret. Modelin parcasiz cevabi cevabin yalniz BAS ADINI veriyor, ayirt edici niteleyicisini vermiyor: uc turda da 'laboratories' verdi, ayirt edici 'separate' hic gelmedi. Dolayisiyla soru kelime duzeyinde hala ayirt ediyor (bu cevabi yazan aday puan alamaz) ve elenmesi icin yeterli gerekce yok. Duzeltilmesi de mumkun degil, cunku boslugun bas adi cumlenin anlamsal rolunden zorunlu olarak cikiyor: eski DNA'nin cikarilip cozumlendigi yer soruldugunda bas ad zorunlu olarak laboratuvar olur. Cerceve ne yapilirsa yapilsin ayni bas ad okunacagi icin yeniden yazmak sizintiyi kapatmadan olculmemis yeni bir soru uretirdi (yarim duzeltme). Talimatin 3. sonucu geregi soru oldugu gibi birakildi. E6 onerisi: D/2'nin sayisal ayrintisi (106-243 baz cifti uzunlugunda isaretleyici kumeleri) ya da hedeflenen gen -- bir anahtar bugday proteini."
+      "explanation": "Paragraph A says that at a time when most human communities were still small and mobile, the site had grown into a dense, town-like settlement; so the answer is 'town-like'.",
+      "difficulty": "medium",
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "mekanizma": "esdizim_kilidi",
+        "eski_prompt": "So that no modern genetic material could reach the ancient samples, the work was split between two (20) ........ , one in Britain and one in Turkey.",
+        "eski_cevap": [
+          "separate laboratories"
+        ],
+        "eski_kanit_cumlesi": "To avoid contaminating the ancient samples with modern DNA, the extraction and analysis were carried out in two physically separate laboratories, one at the University of Manchester in the United Kingdom and the other at Middle East Technical University in Turkey.",
+        "neden_elendi": "Bosluk 'two ........ , one in Britain and one in Turkey' kalibinin ucundaydi ve eski DNA'nin cikarildigi yer soruldugunda bas ad zorunlu olarak 'laboratories' oluyordu; model uc turda da pasajsiz bu bas adi yazdi. Ayrica kalem, matching-headings 16 ile AYNI kanit cumlesini (D/1) paylasiyordu -- CAPRAZ-KOK'un AC2'ye ait tek kanit cakismasi buydu.",
+        "ne_degisti": "Bosluk kalibin ucundan kaynagin sectigi nitelemeye tasindi: sorulan sey artik isin nerede yapildigi degil, yerlesimin pasajda nasil tarif edildigi. Kanit A/3'e alindi; boylece D/1 cakismasi kapandi (D/1 yalniz matching-headings 16'ya kaldi) ve 19-22 tamamlama dizisi pasaji bastan sona duzenli yuruyen bir sirada olmaktan cikti. Bosluk 'a dense, ___ settlement' cercevesinde: disaridan urban / permanent / large gibi bircok aday geliyor, dogru sozcuk yalniz pasajdan okunuyor."
+      }
     },
     {
       "number": 21,

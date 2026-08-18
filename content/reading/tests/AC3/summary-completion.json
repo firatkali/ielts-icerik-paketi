@@ -13,84 +13,107 @@
   "word_limit": "NO MORE THAN TWO WORDS",
   "word_bank": null,
   "visual": null,
-  "stem_block": "Analysing the glass from the skull\n\nThe dark material found inside the young man's skull proved to be brain tissue turned straight into a glassy solid. Such a change is very rare, since it happens only where tissue is made hot enough, fast enough, for ordinary (36) ........ never to begin, and is then chilled again before it burns away. Several methods were combined to test the identification: an electron microscope showed the fine internal structure of the glass, X-rays gave its chemical make-up, a purpose-built image-processing routine picked out the regular pattern of the covering around nerve fibres, and a check against (37) ........ of brain proteins independently confirmed where the tissue came from. The measurements were strikingly detailed. Nerve fibres were close in width to those of a living brain, their coverings kept a layered form, and even the (38) ........ , the smallest structures the team reports, were still in place. Chemistry pointed the same way: (39) ........ proteins that occur only in brain tissue were identified, one of them needed for signals to pass between nerve cells. The authors conclude that only a very narrow band of (40) ........ could have left the tissue both scorched and structurally intact, since anything slower would have ruined it.",
+  "stem_block": "Analysing the glass from the skull\n\nThe dark material found inside the young man's skull proved to be nervous tissue that had been turned straight into a glassy solid. Such a change is very rare, since it happens only where tissue is made hot enough, fast enough, for ordinary decay never to begin, and is then chilled again before it has time to (36) ........ entirely. Once the identification had been confirmed in the laboratory, the measurements proved strikingly detailed: nerve fibres in the brain averaged (37) ........ nanometres across, close to the figure for white matter in a living brain. Even the tiny scaffolding inside the cells could still be made out, at about (38) ........ nanometres. Chemistry pointed the same way: (39) ........ proteins that occur only in brain tissue were identified, one of them needed for signals to pass between nerve cells. By atomic composition the glass was dominated by carbon, at roughly 65 per cent, and oxygen, at about (40) ........ per cent.",
   "items": [
     {
       "number": 36,
-      "prompt": "Such a change is very rare, since it happens only where tissue is made hot enough, fast enough, for ordinary (36) ........ never to begin, and is then chilled again before it burns away.",
+      "prompt": "Such a change is very rare, since it happens only where tissue is made hot enough, fast enough, for ordinary decay never to begin, and is then chilled again before it has time to (36) ........ entirely.",
       "answer": [
-        "decomposition"
+        "burn away"
       ],
       "accepted_variants": [
-        "decomposition"
+        "burn away"
       ],
       "evidence": "Vitrification of this kind is exceptionally rare in the natural world because it demands a very particular sequence of events: organic material must be heated fast enough and to a high enough temperature to prevent normal decomposition, and then cooled again almost as quickly, before it has time to burn away entirely.",
       "evidence_locator": {
         "paragraph": "C",
         "sentence": 2
       },
-      "explanation": "Paragraph C says that for vitrification to occur, the tissue must be heated fast enough and to a high enough temperature to prevent normal decomposition; so the answer is 'decomposition'.",
+      "explanation": "Paragraph C says the tissue must be cooled again almost as quickly, before it has time to burn away entirely; so the answer is 'burn away'.",
       "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_solvable_kelime_duzeyi": false,
-      "blind_basis": "logic",
-      "flag_reason": "Parça gösterilmeden anlamca 3/3 turda doğru bilindi: farklı kelimeyle ama doğru kavramla cevaplandı (3 turda da 'decay' verdi, gerçek cevap 'decomposition' — eş anlamlı).",
-      "flag_mechanism": "esdizim_kilidi",
-      "review_note": "E5 / 8. calistirma: dokunulmadi. Model uc turda da 'decay' verdi; kabul listesi yalniz 'decomposition' kabul ettigi icin 3 turun 0'inda puan alirdi. Bas ad zorunlu: 'dokunun cok cabuk isitilmasi yuzunden siradan ___ hic baslamadi' cercevesinde curume disinda bir kavram okunamaz. Sorunun gercek kusuru cerceve degil, kabul listesinin darligi - o da korunan bir alan."
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "tur": "AC3 isaretli kalem elden gecirme",
+        "eski_prompt": "Such a change is very rare, since it happens only where tissue is made hot enough, fast enough, for ordinary (36) ........ never to begin, and is then chilled again before it burns away.",
+        "eski_cevap": [
+          "decomposition"
+        ],
+        "eski_kanit_cumlesi": "Vitrification of this kind is exceptionally rare in the natural world because it demands a very particular sequence of events: organic material must be heated fast enough and to a high enough temperature to prevent normal decomposition, and then cooled again almost as quickly, before it has time to burn away entirely.",
+        "neden_elendi": "Bosluk curume kavramina aciliyordu ve cerceve o kavrami kendisi tanimliyordu ('cok cabuk isitildigi icin siradan ___ hic baslamadi'); model parcasiz uc turda da dogru kavrami yazdi ama sozcugu tutturamadi ('decay'), yani hem sizinti hem de haksiz bir es anlamli tuzagi ayni yuvadaydi.",
+        "ne_degisti": "Sizdiran kavram artik ozetin VERILEN metninde duruyor ('ordinary decay never to begin'), bosluk ise ayni cumlenin karsilanmasi gereken ikinci sartina, dokunun tumuyle yanip gitmeden sogutulmasina acildi. Kanit cumlesi C/2 olarak kaldi, hedefi degisti; cevap yalniz pasajdan okunur ve tek karsiligi var."
+      }
     },
     {
       "number": 37,
-      "prompt": "... and a check against (37) ........ of brain proteins independently confirmed where the tissue came from.",
+      "prompt": "Once the identification had been confirmed in the laboratory, the measurements proved strikingly detailed: nerve fibres in the brain averaged (37) ........ nanometres across, close to the figure for white matter in a living brain.",
       "answer": [
-        "reference databases"
+        "717.7"
       ],
       "accepted_variants": [
-        "reference databases",
-        "reference database"
+        "717.7",
+        "717.7 nanometres"
       ],
-      "evidence": "Finally, comparison against reference databases of proteins expressed in the human brain provided independent confirmation of the tissue's origin.",
+      "evidence": "Axons in the vitrified brain tissue measured on average 717.7 nanometres in diameter, close to the typical range for white matter in a living brain, while axons from the preserved spinal cord measured around 672 nanometres.",
       "evidence_locator": {
-        "paragraph": "D",
-        "sentence": 4
+        "paragraph": "E",
+        "sentence": 2
       },
-      "explanation": "Paragraph D says the tissue's origin was independently confirmed by comparing it against reference databases of proteins expressed in the human brain; so the answer is 'reference databases'.",
-      "difficulty": "hard",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_solvable_kelime_duzeyi": false,
-      "blind_basis": "logic",
-      "flag_reason": "Parça gösterilmeden anlamca 3/3 turda doğru bilindi: farklı kelimeyle ama doğru kavramla cevaplandı (3 turda da 'databases' verdi, gerçek cevap 'reference databases').",
-      "flag_mechanism": "esdizim_kilidi",
-      "review_note": "E5 / 8. calistirma: dokunulmadi. Model uc turda da 'databases' verdi; ayirt edici oge ('reference') hic gelmedi ve kabul listesi yalniz 'reference database(s)' kabul ettigi icin 3 turun 0'inda puan alirdi. Bas ad zorunlu: 'beyin proteinlerinin ___ ile karsilastirilmasi' cercevesinde veri tabani disinda bir sey okunamaz. Duzeltme yarim kalirdi."
+      "explanation": "Paragraph E says axons in the vitrified brain tissue measured on average 717.7 nanometres in diameter, close to the typical range for white matter in a living brain; so the answer is '717.7'.",
+      "difficulty": "medium",
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "tur": "AC3 isaretli kalem elden gecirme",
+        "eski_prompt": "... and a check against (37) ........ of brain proteins independently confirmed where the tissue came from.",
+        "eski_cevap": [
+          "reference databases"
+        ],
+        "eski_kanit_cumlesi": "Finally, comparison against reference databases of proteins expressed in the human brain provided independent confirmation of the tissue's origin.",
+        "neden_elendi": "Cerceve cevabin bas adini kendisi veriyordu: 'beyin proteinlerinin ___ ile karsilastirilmasi' okununca veri tabani disinda bir sey dusunulemiyor; model uc turda da 'databases' yazdi, ayirt edici sifat ('reference') hic gelmedi. Ayrica D/4 artik coktan secmeli 34-35'in kanitinin bir parcasi.",
+        "ne_degisti": "Bosluk yontem adindan calismanin kendi olctugu sayiya tasindi: beyindeki sinir liflerinin ortalama kalinligi (E/2). Bu sayi tahmin edilemez ve tek bir yazimi var."
+      }
     },
     {
       "number": 38,
-      "prompt": "Nerve fibres were close in width to those of a living brain, their coverings kept a layered form, and even the (38) ........ , the smallest structures the team reports, were still in place.",
+      "prompt": "Even the tiny scaffolding inside the cells could still be made out, at about (38) ........ nanometres.",
       "answer": [
-        "microtubules"
+        "23"
       ],
       "accepted_variants": [
-        "microtubules",
-        "microtubule"
+        "23",
+        "23 nanometres"
       ],
       "evidence": "Even microtubules, the tiny internal scaffolding of individual cells, were still visible, measuring around 23 nanometres in diameter.",
       "evidence_locator": {
         "paragraph": "E",
         "sentence": 4
       },
-      "explanation": "Paragraph E lists what survived in the vitrified tissue and ends with the microtubules, the smallest structures it records; so the answer is 'microtubules'.",
-      "difficulty": "easy",
+      "explanation": "Paragraph E says the microtubules, the tiny internal scaffolding of individual cells, were still visible and measured around 23 nanometres in diameter; so the answer is '23'.",
+      "difficulty": "medium",
       "status": "verified",
       "blind_solvable": false,
       "blind_basis": null,
-      "flag_reason": "Cevap 'microtubules', cumlenin kendisi bosluktan hemen sonra terimin tanimini veriyor ('the minute rods that support a cell from within'); bu tanim, terimi bilenler icin dogrudan cagristirdigindan parcaya bakmadan da tahmin edilebiliyor.",
-      "flag_mechanism": "tanim_sizintisi",
       "revision": {
         "tarih": "2026-08-08",
         "mekanizma": "tanim_sizintisi",
         "onceki_prompt": "Nerve fibres were close in width to those of a living brain, their coverings kept a layered form, and even the (38) ........ , the minute rods that support a cell from within, could still be measured at roughly 23 nanometres.",
         "ne_degisti": "Bosluktan hemen sonra gelen ac tanim ('the minute rods that support a cell from within') kaldirildi - bu, 'microtubules' sozcugunun sozluk karsiligiydi ve terimi bilen bir cozucuye cevabi dogrudan veriyordu. Ayrica taniyla birlikte calisan 23 nanometrelik olcu de ozetten cikarildi (microtubul capi ~25 nm olarak bilinir). Yerine, hicbir sey tanimlamayan bir sira bilgisi kondu; yeni cerceveye pasajin kendi dunyasindan birden cok aday uyuyor (cell bodies, myelin sheaths, microtubules), secim yalniz E/4'ten yapilabiliyor."
+      },
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "tur": "AC3 isaretli kalem elden gecirme",
+        "eski_prompt": "Nerve fibres were close in width to those of a living brain, their coverings kept a layered form, and even the (38) ........ , the smallest structures the team reports, were still in place.",
+        "eski_cevap": [
+          "microtubules"
+        ],
+        "eski_kanit_cumlesi": "Even microtubules, the tiny internal scaffolding of individual cells, were still visible, measuring around 23 nanometres in diameter.",
+        "neden_elendi": "Cevap bir terimdi ve cerceve terimi tanimliyordu: 'hucrenin en kucuk yapilari' denince mikrotubul disinda bir sey okunmuyor. 2026-08-08'de ac tanim cikarilmisti ama alan bilgisi olan bir cozucu icin bosluk hala terimin kendisini istiyordu (tanim_sizintisi).",
+        "ne_degisti": "Bosluk terimden olcuye cevrildi: yapinin adi ozetin verilen metninde tarif ediliyor, istenen sey capi. Bu, ayni zamanda genel bilgiyi yanlisa capaliyor -- mikrotubul capi ders kitaplarinda yaklasik 25 nanometre diye gecer, pasajin verdigi olcu ise 23. Kanit cumlesi E/4 olarak kaldi."
       }
     },
     {
@@ -116,31 +139,40 @@
     },
     {
       "number": 40,
-      "prompt": "The authors conclude that only a very narrow band of (40) ........ could have left the tissue both scorched and structurally intact.",
+      "prompt": "By atomic composition the glass was dominated by carbon, at roughly 65 per cent, and oxygen, at about (40) ........ per cent.",
       "answer": [
-        "thermal conditions"
+        "31"
       ],
       "accepted_variants": [
-        "thermal conditions"
+        "31",
+        "31 per cent"
       ],
-      "evidence": "Researchers argue that only an extremely narrow set of thermal conditions, rapid heating followed by almost immediate cooling, could have produced this particular combination of extreme temperature exposure and structural preservation, since either slower heating or slower cooling would most likely have destroyed the tissue rather than turning it to glass.",
+      "evidence": "By atomic composition the vitrified material was dominated by carbon and oxygen, the two elements that make up the bulk of organic tissue, at roughly 65 and 31 per cent respectively.",
       "evidence_locator": {
         "paragraph": "G",
-        "sentence": 2
+        "sentence": 1
       },
-      "explanation": "Paragraph G says only a very narrow set of thermal conditions could explain both the extreme heat exposure and the preservation of the structure; so the answer is 'thermal conditions'.",
+      "explanation": "Paragraph G says the vitrified material was dominated by carbon and oxygen at roughly 65 and 31 per cent respectively; since the carbon figure is given, the answer is '31'.",
       "difficulty": "medium",
       "status": "verified",
       "blind_solvable": false,
-      "blind_solvable_kelime_duzeyi": false,
       "blind_basis": null,
-      "flag_reason": "Parça gösterilmeden anlamca 3/3 turda doğru bilindi: farklı kelimeyle ama doğru kavramla cevaplandı (3 turda da 'conditions' verdi, gerçek cevap 'thermal conditions'; cümlenin kendi açıklaması ('ani ısı, hemen ardından soğuma') aynı göndergeyi veriyor).",
-      "flag_mechanism": "esdizim_kilidi",
       "revision": {
         "tarih": "2026-08-08",
         "mekanizma": "tanim_sizintisi",
         "onceki_prompt": "The authors conclude that only a very narrow band of (40) ........ — heat applied in an instant, then cooling almost at once — could have left the tissue both scorched and structurally intact.",
         "ne_degisti": "Boslugun hemen ardindaki cizgi arasi ac tanim ('heat applied in an instant, then cooling almost at once') kaldirildi - bu, 'thermal' niteleyicisinin ozetteki tek kaynagiydi ve model uc turda da bas adi ('conditions') veriyordu. Niteleyici artik yalniz G/2'den okunabiliyor."
+      },
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "tur": "AC3 isaretli kalem elden gecirme",
+        "eski_prompt": "The authors conclude that only a very narrow band of (40) ........ could have left the tissue both scorched and structurally intact.",
+        "eski_cevap": [
+          "thermal conditions"
+        ],
+        "eski_kanit_cumlesi": "Researchers argue that only an extremely narrow set of thermal conditions, rapid heating followed by almost immediate cooling, could have produced this particular combination of extreme temperature exposure and structural preservation, since either slower heating or slower cooling would most likely have destroyed the tissue rather than turning it to glass.",
+        "neden_elendi": "Cerceve bas adi ('conditions') kendisi veriyordu, ayirt edici sifat ('thermal') ise ayni cumlenin kendi aciklamasindan cikiyordu; model uc turda da yarim cevap yazdi. Iki sozcuklu bir kavram boslugu bu cumlede kapatilamiyordu.",
+        "ne_degisti": "Bosluk kavramdan sayiya tasindi: maddenin atom bilesiminde oksijenin payi (G/1). Karbonun payi ozette verildigi icin cevap tek, ama toplam bilinmedigi icin oksijenin payi disaridan hesaplanamiyor."
       }
     }
   ]

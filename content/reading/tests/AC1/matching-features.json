@@ -57,13 +57,21 @@
       "status": "verified",
       "blind_solvable": false,
       "blind_basis": null,
-      "flag_reason": "Cevap D, secenekler arasinda elemeyle bulunuyor: C'deki azalma uc gunluk donem icindeki genel egilim, oysa ifade yedinci gundeki iki bulusma turunun karsilastirmasini soruyor; E ise tam ters yonde (yabancilar daha erken temas ediyor) -- bu ayrim yalniz D'yi (eski es) dogru birakiyor.",
-      "flag_mechanism": "konumsal_duzen",
       "revision": {
         "tarih": "2026-08-08",
         "mekanizma": "konumsal_duzen",
         "onceki_prompt": "Members of this group waited longer than the others before any touching took place.",
         "ne_degisti": "Ifadedeki ustunluk kalibi ('otekilerden daha uzun bekledi') kaldirildi; bu kalip yedinci gun karsilastirmasini isaret edip C'yi kendiliginden eliyordu. Yeni ifade kanit cumlesinin iki yarisini (gec temas + mesafe koruma) birlikte veriyor ve sezginin yanlis yone, E'ye, cektigi bir soru haline geliyor."
+      },
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "mekanizma": "konumsal_duzen",
+        "eski_kanit_cumlesi": "Octopuses reunited with a familiar partner took noticeably longer to make first contact and were more likely to keep a cautious distance without touching.",
+        "eski_cevap": [
+          "D"
+        ],
+        "neden_elendi": "Kanit ve ifade degismedi. 2026-08-08 duzeltmesi ifadedeki ustunluk kalibini ('otekilerden daha uzun bekledi') kaldirmisti; o kalip yedinci gun karsilastirmasini isaret edip C secenegini kendiliginden eliyordu. Bu turda yeniden olculdu: yeni ifade kanit cumlesinin iki yarisini birlikte veriyor ve yuzeydeki sezgi yanlis yone, E'ye (yabanci es) gidiyor -- oysa pasaj tam tersini soyluyor.",
+        "ne_degisti": "Kalemin kendisi degismedi. Bu turda kapatilan sey paragraf butcesiydi: F paragrafinda dort soru birikmisti, sentence-completion 21 E paragrafina tasinarak yuk uce indirildi ve bu kalemin kanit cumlesi (F/2) tek basina kaldi."
       }
     },
     {
@@ -136,15 +144,23 @@
       "status": "verified",
       "blind_solvable": false,
       "blind_basis": null,
-      "flag_reason": "Ifadedeki 'on its own' (tek basina) ifadesi, yalniz gormeye izin verilip baska hicbir duyuya izin verilmeyen bir grubu gerektiriyor; secenekler arasinda yalniz A (seffaf bolme) bu 'sadece gorme' kosuluna uyuyor, B'de hic gorme de yok, C'de gorme + dokunma birlikte var.",
-      "flag_mechanism": "kip_imzasi",
       "revision": {
         "tarih": "2026-08-08",
         "mekanizma": "kip_imzasi",
         "onceki_prompt": "For this group, being able to see the other animal was on its own not enough to make a strong difference later on.",
         "ne_degisti": "Ifadeden 'gormek' sozcugu tumden cikarildi. Eski metin ('being able to see ... on its own') seffaf bolme seceneginin adiyla birebir esleseyip cevabi sozcuk duzeyinde veriyordu. Yeni ifade sonucun buyuklugunu soruyor; yuzeydeki sezgi B'ye, dogru cevap A'ya gidiyor."
       },
-      "review_note": "OPUS5-E6 5/7: secenek listesi degistigi icin bu yuvanin kip/secenek sizintisi kapandi. Eski listede yalniz A 'see-through screen' diye adlandirildigi icin 'tek basina gormek' diyen her ifade sozcuk duzeyinde A'ya bagliydi; yeni listede A ve B yalniz SIRAYLA aniliyor, dolayisiyla cozucu once C/2'yi okuyup ilk kosulun gorme izni veren kosul oldugunu bulmak, sonra H/3'e gitmek zorunda. Ifade, cevap ve kanit degismedi."
+      "review_note": "OPUS5-E6 5/7: secenek listesi degistigi icin bu yuvanin kip/secenek sizintisi kapandi. Eski listede yalniz A 'see-through screen' diye adlandirildigi icin 'tek basina gormek' diyen her ifade sozcuk duzeyinde A'ya bagliydi; yeni listede A ve B yalniz SIRAYLA aniliyor, dolayisiyla cozucu once C/2'yi okuyup ilk kosulun gorme izni veren kosul oldugunu bulmak, sonra H/3'e gitmek zorunda. Ifade, cevap ve kanit degismedi.",
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "mekanizma": "kip_imzasi",
+        "eski_kanit_cumlesi": "Because vision alone, without touch or water-borne chemical cues, was enough to produce weaker measurable differences in the earlier acclimatisation stage, the team suggests that sight and physical contact together, rather than either sense alone, most likely underlie this recognition, though they note that octopuses' sense of smell and taste remains too poorly understood to rule out a contribution from chemical signals as well.",
+        "eski_cevap": [
+          "A"
+        ],
+        "neden_elendi": "Kanit, ifade ve cevap degismedi. 2026-08-08 duzeltmesi ifadeden 'gormek' sozcugunu tumden cikarmisti; eski metin ('being able to see ... on its own') secenek listesindeki seffaf bolmenin adiyla birebir eslesip cevabi sozcuk duzeyinde veriyordu. Secenek listesi de A ve B'yi artik yalniz SIRAYLA aniyor. Bu turda yeniden olculdu: cozucu once C paragrafinin 2. cumlesinden ilk kosulun gorme izni veren kosul oldugunu bulmak, sonra H paragrafinin 3. cumlesine gitmek zorunda; kip sozcugu tasiyan tek bir imza kalmadi.",
+        "ne_degisti": "Kalemin kendisi degismedi. Kanit cumlesi (H/3) yalnizca bu kaleme ait, H paragrafinin yuku bir."
+      }
     }
   ]
 }

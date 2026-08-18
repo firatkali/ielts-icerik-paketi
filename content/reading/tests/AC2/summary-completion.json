@@ -14,56 +14,94 @@
   "word_bank": [
     {
       "letter": "A",
-      "text": "a controlled experiment"
-    },
-    {
-      "letter": "B",
-      "text": "a distraction"
-    },
-    {
-      "letter": "C",
-      "text": "a reliable measure"
-    },
-    {
-      "letter": "D",
       "text": "a natural experiment"
     },
     {
+      "letter": "B",
+      "text": "a controlled experiment"
+    },
+    {
+      "letter": "C",
+      "text": "a rise of about 26.2 per cent"
+    },
+    {
+      "letter": "D",
+      "text": "the top quarter of the company"
+    },
+    {
       "letter": "E",
-      "text": "a rough indicator"
+      "text": "face-to-face contact"
     },
     {
       "letter": "F",
-      "text": "a modest gain"
+      "text": "the teammates around them"
     },
     {
       "letter": "G",
-      "text": "time spent training"
+      "text": "the hours each client is given"
     },
     {
       "letter": "H",
-      "text": "length of service"
+      "text": "the top half of the company"
     },
     {
       "letter": "I",
-      "text": "no measurable benefit"
+      "text": "visible display of productivity"
     },
     {
       "letter": "J",
-      "text": "a source of pressure"
+      "text": "a rise of about 12.2 per cent"
     }
   ],
   "visual": null,
-  "stem_block": "Peer effects in a company with no offices\n\nCaster Inc has never run a physical office, which makes it an unusually clean setting in which to study how colleagues shape one another's output. New staff were sorted into teams purely by the order in which they arrived, a rule neither managers nor employees could bend, and the authors therefore treat team make-up as the product of (36) ........ . Output was recorded as the number of clients a person looked after in a month, a count the authors take to be (37) ........ of the useful work actually done. Being placed beside the company's strongest performers brought (38) ........ . What mattered instead was (39) ........ : people in the top quarter of teams by that measure produced roughly 12.2 per cent more. The most experienced teams also exchanged fewer messages than the rest, and the authors end by arguing that, for anyone who already knows the job, steady contact is largely (40) ........ .",
+  "stem_block": "Peer effects in a company with no offices\n\nCaster Inc has never run a physical office, which makes it an unusually clean setting in which to study how colleagues shape one another's output. The researchers drew on three internal record sets, and merging them produced a monthly picture of each person's output and of (36) ........ . Because new staff were placed in teams by joining order, a rule neither managers nor employees could bend, the authors treat team make-up as something close to (37) ........ . Sitting among the company's strongest performers produced no measurable improvement in a person's own output, and this held even for teams whose average productivity put them in (38) ........ . The study also looked at how long a team's members had been with the company: staff in the most experienced quarter of teams recorded (39) ........ . The authors close by arguing that experienced colleagues give newcomers guidance exactly when it is needed, a benefit that calls for no (40) ........ .",
   "items": [
     {
       "number": 36,
-      "prompt": "New staff were sorted into teams purely by the order in which they arrived, a rule neither managers nor employees could bend, and the authors therefore treat team make-up as the product of (36) ........ .",
+      "prompt": "The researchers drew on three internal record sets, and merging them produced a monthly picture of each person's output and of (36) ........ .",
       "answer": [
-        "A"
+        "F"
       ],
       "accepted_variants": [
-        "A",
+        "F",
+        "the teammates around them"
+      ],
+      "evidence": "Combining these three sources let the researchers see not only how much each employee produced, but who they were working alongside and how often they exchanged messages with teammates in a given month.",
+      "evidence_locator": {
+        "paragraph": "B",
+        "sentence": 4
+      },
+      "explanation": "Paragraph B says that combining the three sources let the researchers see not only how much each employee produced but also who they were working alongside; the correct option is therefore F. G ('the hours each client is given') belongs to paragraph D, where the fixed thirty hours per contract explain why the client count is a dependable measure.",
+      "difficulty": "medium",
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
+      "revision": {
+        "tarih": "2026-08-08",
+        "mekanizma": "tanim_sizintisi",
+        "onceki_prompt": "New staff were sorted into teams purely by the order in which they arrived, a rule neither managers nor employees could bend, so team make-up amounted in practice to (36) ........ , and the authors could argue for cause rather than mere association.",
+        "ne_degisti": "Bosluktan sonra gelen tanim ('the authors could argue for cause rather than mere association') kaldirildi; bu ibare 'kontrollu deney' kavraminin ders kitabi tanimiydi ve tek basina A'yi veriyordu. Bankadaki bos D harfi ('a rough guide' -> 'a natural experiment') ayni cerceveye oturan gercek bir rakip yapildi: sirket politikasindan dogan rastgelelik yuzeyde 'dogal deney'e benziyor, yani sezgi artik YANLIS secenegi gosteriyor; dogrusu yalniz C/2'den cikiyor."
+      },
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "mekanizma": "konumsal_duzen",
+        "eski_prompt": "New staff were sorted into teams purely by the order in which they arrived, a rule neither managers nor employees could bend, and the authors therefore treat team make-up as the product of (36) ........ .",
+        "eski_cevap": [
+          "A"
+        ],
+        "eski_kanit_cumlesi": "This effectively randomised which colleagues an employee ended up working alongside, letting the researchers treat team composition almost as if it had been assigned in a controlled experiment, and so identify cause and effect rather than mere correlation.",
+        "neden_elendi": "Isaretin gerekcesi paketin BUTUNUNDEYDI. Ozet metni calismayi bastan sona anlatiyor, kelime bankasi ise her bosluk icin tek bir anlam kutbu birakiyordu (guvenilir/kaba olcu, kazanc/kazanc yok, deneyim/egitim, dikkat dagitici/baski), yani aday bes bosluktan hicbirini pasajda aramadan yalnizca ozetin kendi mantigiyla dolduruyordu. Ustune kanitlar C, D, E, F, G paragraflarinda tam birer paragraf araliginda ilerliyordu: kalem sirasi dogrudan paragraf sirasini veriyordu (konumsal_duzen). Baglayici gecisler de sizdiriyordu: 39'daki 'instead' 38'in olumsuz oldugunu, 38'deki 'even' kalibi da yonu soyluyordu.",
+        "ne_degisti": "Kanit C/2'den B/4'e alindi ve bosluk artik bir yontem kavraminin adini degil, birlestirmenin ne gorunur kildigini soruyor. Bankadaki rakip (G, musteri basina ayrilan saat) hem dilbilgisiyle hem de icerikce olasi: kayitlarin biri zaten calisilan saatleri tutuyor, yani sezgi saatlere de gidebiliyor."
+      }
+    },
+    {
+      "number": 37,
+      "prompt": "Because new staff were placed in teams by joining order, a rule neither managers nor employees could bend, the authors treat team make-up as something close to (37) ........ .",
+      "answer": [
+        "B"
+      ],
+      "accepted_variants": [
+        "B",
         "a controlled experiment",
         "controlled experiment"
       ],
@@ -72,136 +110,141 @@
         "paragraph": "C",
         "sentence": 2
       },
-      "explanation": "Paragraph C says the round-robin rule effectively randomised which colleagues an employee worked alongside, letting the researchers treat team composition almost as if it had been assigned in a controlled experiment; the correct option is therefore A. D ('a natural experiment') is the term the passage never uses, although the arrangement may look like one.",
+      "explanation": "Paragraph C says the joining-order rule effectively randomised which colleagues an employee worked alongside, letting the researchers treat team composition almost as if it had been assigned in a controlled experiment; the correct option is therefore B. A ('a natural experiment') is the term the passage never uses, although the arrangement may look like one.",
       "difficulty": "medium",
       "status": "verified",
       "blind_solvable": false,
       "blind_basis": null,
-      "flag_reason": "Cevap A ('a controlled experiment'), arastirma yontemi mantigiyla kelime bankasi icinde tek tutarli secenek: sira ile rastgele atama, deneysel kontrollu bir duzenlemeye esdeger sayilir -- bu standart arastirma yontemi kavramiyla parcaya bakmadan da secilebiliyor.",
-      "flag_mechanism": "konumsal_duzen",
-      "revision": {
-        "tarih": "2026-08-08",
-        "mekanizma": "tanim_sizintisi",
-        "onceki_prompt": "New staff were sorted into teams purely by the order in which they arrived, a rule neither managers nor employees could bend, so team make-up amounted in practice to (36) ........ , and the authors could argue for cause rather than mere association.",
-        "ne_degisti": "Bosluktan sonra gelen tanim ('the authors could argue for cause rather than mere association') kaldirildi; bu ibare 'kontrollu deney' kavraminin ders kitabi tanimiydi ve tek basina A'yi veriyordu. Bankadaki bos D harfi ('a rough guide' -> 'a natural experiment') ayni cerceveye oturan gercek bir rakip yapildi: sirket politikasindan dogan rastgelelik yuzeyde 'dogal deney'e benziyor, yani sezgi artik YANLIS secenegi gosteriyor; dogrusu yalniz C/2'den cikiyor."
-      }
-    },
-    {
-      "number": 37,
-      "prompt": "Output was recorded as the number of clients a person looked after in a month, a count the authors take to be (37) ........ of the useful work actually done.",
-      "answer": [
-        "C"
-      ],
-      "accepted_variants": [
-        "C",
-        "a reliable measure",
-        "reliable measure"
-      ],
-      "evidence": "Because the company standardises working hours and each client contract allocates a fixed thirty hours of monthly support, the number of clients handled is a dependable stand-in for how much useful work an individual completed, avoiding the ambiguity that self-reported effort or hours worked can introduce into workplace research.",
-      "evidence_locator": {
-        "paragraph": "D",
-        "sentence": 2
-      },
-      "explanation": "Paragraph D says that, because working hours are standardised and each client contract allocates a fixed thirty hours of monthly support, the number of clients is a dependable stand-in for the work actually completed, avoiding the ambiguity of self-reported effort; the correct option is therefore C. E ('a rough indicator') is exactly what the passage rules out.",
-      "difficulty": "medium",
-      "status": "verified",
-      "blind_solvable": false,
-      "blind_basis": null,
-      "flag_reason": "Cevap C ('a reliable measure'), kelime bankasindaki en yakin celdirici D ('a rough guide' -- kabaca bir kilavuz) ile karsit; metindeki 'guvenilir' vurgusu D'nin tahmini/kaba tonuyla celisiyor, bu yuzden yalniz C metinle ortusuyor.",
-      "flag_mechanism": "konumsal_duzen",
       "revision": {
         "tarih": "2026-08-08",
         "mekanizma": "tanim_sizintisi",
         "onceki_prompt": "Output was recorded as the number of clients a person looked after in a month, a figure that standard hours and fixed contracts turn into (37) ........ of how much useful work was really done.",
         "ne_degisti": "Ozet, boslugun cevabini kendi icinde gerekcelendiren ibareyi tasiyordu ('standard hours and fixed contracts turn into ___'): bu, olcumun neden guvenilir oldugunu soyluyor, yani cevabin tanimini veriyordu. Gerekce ozetten cikarilip pasaja (D/2) birakildi. Bankadaki bos E harfi ('a training period' -> 'a rough indicator') '___ of' cercevesine dilbilgisiyle uyan bir rakip yapildi; ciplak musteri sayisi yuzeyde 'kaba gosterge' gibi durdugu icin sezgi yine yanlis secenege gidiyor."
+      },
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "mekanizma": "konumsal_duzen",
+        "eski_prompt": "Output was recorded as the number of clients a person looked after in a month, a count the authors take to be (37) ........ of the useful work actually done.",
+        "eski_cevap": [
+          "C"
+        ],
+        "eski_kanit_cumlesi": "Because the company standardises working hours and each client contract allocates a fixed thirty hours of monthly support, the number of clients handled is a dependable stand-in for how much useful work an individual completed, avoiding the ambiguity that self-reported effort or hours worked can introduce into workplace research.",
+        "neden_elendi": "Isaretin gerekcesi paketin BUTUNUNDEYDI. Ozet metni calismayi bastan sona anlatiyor, kelime bankasi ise her bosluk icin tek bir anlam kutbu birakiyordu (guvenilir/kaba olcu, kazanc/kazanc yok, deneyim/egitim, dikkat dagitici/baski), yani aday bes bosluktan hicbirini pasajda aramadan yalnizca ozetin kendi mantigiyla dolduruyordu. Ustune kanitlar C, D, E, F, G paragraflarinda tam birer paragraf araliginda ilerliyordu: kalem sirasi dogrudan paragraf sirasini veriyordu (konumsal_duzen). Baglayici gecisler de sizdiriyordu: 39'daki 'instead' 38'in olumsuz oldugunu, 38'deki 'even' kalibi da yonu soyluyordu.",
+        "ne_degisti": "Yuva C/2'de kaldi ama artik pakette ikinci sirada ve komsu kalemlerle paragraf arasi duzenli bir adim olusturmuyor (B, C, E, F, H). Rakip secenek A korunup basa alindi: sirket politikasindan dogan rastgelelik yuzeyde 'dogal deney'e benziyor, yani sezgi YANLIS secenege gidiyor."
       }
     },
     {
       "number": 38,
-      "prompt": "Being placed beside the company's strongest performers brought (38) ........ .",
+      "prompt": "Sitting among the company's strongest performers produced no measurable improvement in a person's own output, and this held even for teams whose average productivity put them in (38) ........ .",
       "answer": [
-        "I"
+        "D"
       ],
       "accepted_variants": [
-        "I",
-        "no measurable benefit"
+        "D",
+        "the top quarter of the company"
       ],
       "evidence": "Working alongside colleagues who were themselves highly productive produced no measurable improvement in an individual's own output, even for employees placed in teams whose average productivity ranked in the top quarter of the company.",
       "evidence_locator": {
         "paragraph": "E",
         "sentence": 2
       },
-      "explanation": "Paragraph E says that working alongside highly productive colleagues produced no measurable improvement in an individual's own output; the correct option is therefore I. F ('a modest gain') belongs to a different finding, the 8.6 per cent rise recorded for second-year staff in paragraph F.",
-      "difficulty": "easy",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_basis": "logic",
-      "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: logic. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md",
-      "flag_mechanism": "konumsal_duzen",
+      "explanation": "Paragraph E says the absence of any measurable improvement held even for employees in teams whose average productivity ranked in the top quarter of the company; the correct option is therefore D. H ('the top half of the company') is a threshold the passage never gives.",
+      "difficulty": "medium",
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
       "revision": {
         "tarih": "2026-08-08",
         "mekanizma": "tanim_sizintisi",
         "onceki_prompt": "Being placed beside the company's strongest performers brought (38) ........ , even in the most productive quarter of teams.",
         "ne_degisti": "Bosluktan sonraki taviz yan cumlesi ('even in the most productive quarter of teams') kaldirildi: 'bile' kalibi boslugun olumsuz bir sey oldugunu soyluyordu ve bankada olumsuz tek secenek vardi. Bankadaki bos F harfi ('extra pay' -> 'a modest gain') pasajin kendi rakamindan (F/3, %8.6) devsirilmis bir rakip yapildi; yildiz calisanin cevresini yukseltmesi yaygin bir beklenti oldugu icin sezgi F'ye, pasaj I'ya gidiyor."
+      },
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "mekanizma": "konumsal_duzen",
+        "eski_prompt": "Being placed beside the company's strongest performers brought (38) ........ .",
+        "eski_cevap": [
+          "I"
+        ],
+        "eski_kanit_cumlesi": "Working alongside colleagues who were themselves highly productive produced no measurable improvement in an individual's own output, even for employees placed in teams whose average productivity ranked in the top quarter of the company.",
+        "neden_elendi": "Isaretin gerekcesi paketin BUTUNUNDEYDI. Ozet metni calismayi bastan sona anlatiyor, kelime bankasi ise her bosluk icin tek bir anlam kutbu birakiyordu (guvenilir/kaba olcu, kazanc/kazanc yok, deneyim/egitim, dikkat dagitici/baski), yani aday bes bosluktan hicbirini pasajda aramadan yalnizca ozetin kendi mantigiyla dolduruyordu. Ustune kanitlar C, D, E, F, G paragraflarinda tam birer paragraf araliginda ilerliyordu: kalem sirasi dogrudan paragraf sirasini veriyordu (konumsal_duzen). Baglayici gecisler de sizdiriyordu: 39'daki 'instead' 38'in olumsuz oldugunu, 38'deki 'even' kalibi da yonu soyluyordu.",
+        "ne_degisti": "Bulgunun kendisi (olculebilir bir iyilesme yok) artik ozet metninde acikca yaziyor, bosluk ise bulgunun gecerli oldugu ESIGE tasindi. Boylece kalem bir olumlu/olumsuz kutup secimi olmaktan cikti: iki aday (ust ceyrek / ust yari) arasindaki fark yalnizca E/2 okunarak bilinebiliyor. 39'daki 'instead' bagi da kaldirildi, cunku bu kalemin yonunu sizdiriyordu."
       }
     },
     {
       "number": 39,
-      "prompt": "What mattered instead was (39) ........ : people in the top quarter of teams by that measure produced roughly 12.2 per cent more.",
+      "prompt": "The study also looked at how long a team's members had been with the company: staff in the most experienced quarter of teams recorded (39) ........ .",
       "answer": [
-        "H"
+        "J"
       ],
       "accepted_variants": [
-        "H",
-        "length of service"
+        "J",
+        "a rise of about 12.2 per cent"
       ],
       "evidence": "Employees placed in teams with the most experienced average tenure, the top twenty-five per cent of teams by this measure, saw their own productivity rise by roughly 12.2 per cent.",
       "evidence_locator": {
         "paragraph": "F",
         "sentence": 2
       },
-      "explanation": "Paragraph F says the deciding factor was a team's average tenure, with output rising by about 12.2 per cent for staff in the top quarter of teams on that measure; tenure is length of service, so the correct option is H. G ('time spent training') points instead to the first six months excluded from the sample in paragraph B.",
-      "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_basis": "logic",
-      "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: logic. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md",
-      "flag_mechanism": "konumsal_duzen",
+      "explanation": "Paragraph F says employees in the top twenty-five per cent of teams by average tenure saw their productivity rise by roughly 12.2 per cent; the correct option is therefore J. C ('a rise of about 26.2 per cent') is the separate figure for staff in their first year on the job.",
+      "difficulty": "hard",
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
       "revision": {
         "tarih": "2026-08-08",
         "mekanizma": "tanim_sizintisi",
         "onceki_prompt": "What counted instead was (39) ........ : teams whose members had stayed longest raised the output of those around them, and the gain was largest for staff still in their first year.",
         "ne_degisti": "Iki nokta ustusteden sonra gelen aciklama ('teams whose members had stayed longest') 'length of service' ifadesinin birebir tanimiydi; yerine olcumun kendisini adlandirmayan bir rakam kondu (%12.2). Bankadaki bos G harfi ('face-to-face contact' -> 'time spent training') ayni cumlede takima ait bir baska nitelik olarak rakip yapildi; hangi niteligin olculdugu artik yalniz F/2'den anlasiliyor."
+      },
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "mekanizma": "konumsal_duzen",
+        "eski_prompt": "What mattered instead was (39) ........ : people in the top quarter of teams by that measure produced roughly 12.2 per cent more.",
+        "eski_cevap": [
+          "H"
+        ],
+        "eski_kanit_cumlesi": "Employees placed in teams with the most experienced average tenure, the top twenty-five per cent of teams by this measure, saw their own productivity rise by roughly 12.2 per cent.",
+        "neden_elendi": "Isaretin gerekcesi paketin BUTUNUNDEYDI. Ozet metni calismayi bastan sona anlatiyor, kelime bankasi ise her bosluk icin tek bir anlam kutbu birakiyordu (guvenilir/kaba olcu, kazanc/kazanc yok, deneyim/egitim, dikkat dagitici/baski), yani aday bes bosluktan hicbirini pasajda aramadan yalnizca ozetin kendi mantigiyla dolduruyordu. Ustune kanitlar C, D, E, F, G paragraflarinda tam birer paragraf araliginda ilerliyordu: kalem sirasi dogrudan paragraf sirasini veriyordu (konumsal_duzen). Baglayici gecisler de sizdiriyordu: 39'daki 'instead' 38'in olumsuz oldugunu, 38'deki 'even' kalibi da yonu soyluyordu.",
+        "ne_degisti": "Bosluk 'hangi nitelik onemliydi' sorusundan calismanin kendi sayisina cevrildi. Iki rakip da pasajin gercek rakamlari (12.2 ve 26.2) ve ikisi de ayni cerceveye dilbilgisiyle oturuyor; hangisinin en deneyimli ceyrege, hangisinin ilk yil personeline ait oldugu yalniz F/2 ile F/3 ayirt edilerek bulunuyor. Ozetten 'instead' ve deneyim-egitim karsitligi cikarildi."
       }
     },
     {
       "number": 40,
-      "prompt": "The most experienced teams also exchanged fewer messages than the rest, and the authors end by arguing that, for anyone who already knows the job, steady contact is largely (40) ........ .",
+      "prompt": "The authors close by arguing that experienced colleagues give newcomers guidance exactly when it is needed, a benefit that calls for no (40) ........ .",
       "answer": [
-        "B"
+        "I"
       ],
       "accepted_variants": [
-        "B",
-        "a distraction",
-        "distraction"
+        "I",
+        "visible display of productivity"
       ],
-      "evidence": "In fact, teams with the highest average tenure communicated internally less than other teams, a statistically significant difference, and experienced or already highly productive employees tended to perform best in exactly these lower-communication settings, suggesting that frequent messaging may sometimes distract rather than assist workers who already know what they are doing.",
+      "evidence": "Experienced colleagues, by contrast, seem able to give newcomers efficient, targeted guidance precisely when it is needed, a benefit that requires no visible display of productivity and, the study suggests, works better with less routine interruption rather than more.",
       "evidence_locator": {
-        "paragraph": "G",
-        "sentence": 2
+        "paragraph": "H",
+        "sentence": 3
       },
-      "explanation": "Paragraph G says that frequent messaging may sometimes distract rather than assist workers who already know what they are doing; the correct option is therefore B. J ('a source of pressure') belongs to paragraph H, where pressure comes from social comparison in an office rather than from messaging.",
+      "explanation": "Paragraph H says the targeted guidance experienced colleagues give newcomers is a benefit that requires no visible display of productivity; the correct option is therefore I. E ('face-to-face contact') belongs to the previous sentence, where it is what an office supplies to reinforce peer pressure.",
       "difficulty": "hard",
       "status": "verified",
       "blind_solvable": false,
       "blind_basis": null,
-      "flag_reason": "Cevap B ('a distraction'), metindeki 'may sometimes distract rather than assist' ifadesinin dogrudan karsiligi; kelime bankasindaki oteki secenekler (guvenilir olcum, kontrollu deney, sosyal kiyas) bu baglama uymuyor.",
-      "flag_mechanism": "konumsal_duzen",
       "revision": {
         "tarih": "2026-08-08",
         "mekanizma": "tanim_sizintisi",
         "onceki_prompt": "Since the most experienced teams in fact exchanged fewer messages than the rest, the authors conclude that such groups rely on a shared, unspoken sense of who knows what, and that steady contact is largely (40) ........ for people who already know their job.",
         "ne_degisti": "Bosluktan once duran 'rely on a shared, unspoken sense of who knows what' ibaresi kaldirildi: temassizligin gerekcesini ozetin kendisi veriyordu. Bankadaki bos J harfi ('social comparison' -> 'a source of pressure') 'is largely ___' cercevesine uyan ikinci bir olumsuz secenek yapildi ve H/2'deki akran baskisina capalandi; secim artik iki olumsuz aday arasinda ve yalniz G/2'nin 'distract rather than assist' ifadesiyle yapilabiliyor."
+      },
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "mekanizma": "konumsal_duzen",
+        "eski_prompt": "The most experienced teams also exchanged fewer messages than the rest, and the authors end by arguing that, for anyone who already knows the job, steady contact is largely (40) ........ .",
+        "eski_cevap": [
+          "B"
+        ],
+        "eski_kanit_cumlesi": "In fact, teams with the highest average tenure communicated internally less than other teams, a statistically significant difference, and experienced or already highly productive employees tended to perform best in exactly these lower-communication settings, suggesting that frequent messaging may sometimes distract rather than assist workers who already know what they are doing.",
+        "neden_elendi": "Isaretin gerekcesi paketin BUTUNUNDEYDI. Ozet metni calismayi bastan sona anlatiyor, kelime bankasi ise her bosluk icin tek bir anlam kutbu birakiyordu (guvenilir/kaba olcu, kazanc/kazanc yok, deneyim/egitim, dikkat dagitici/baski), yani aday bes bosluktan hicbirini pasajda aramadan yalnizca ozetin kendi mantigiyla dolduruyordu. Ustune kanitlar C, D, E, F, G paragraflarinda tam birer paragraf araliginda ilerliyordu: kalem sirasi dogrudan paragraf sirasini veriyordu (konumsal_duzen). Baglayici gecisler de sizdiriyordu: 39'daki 'instead' 38'in olumsuz oldugunu, 38'deki 'even' kalibi da yonu soyluyordu.",
+        "ne_degisti": "Kanit G/2'den H/3'e alindi ve eksen 'surekli temas kotudur' genellemesinden deneyimli meslektasin verdigi yardimin NEYE ihtiyac duymadigina cevrildi. Sezgi burada YANLIS secenege capali: tam uzaktan calisan bir sirkette 'yuz yuze temas gerekmez' en akla yatkin tamamlama, oysa metin 'gorunur verimlilik gosterisi' diyor. Ozetin sonundaki 'daha az kesinti' kaydi da kaldirildi; 33. soruya sizmasin diye."
       }
     }
   ]

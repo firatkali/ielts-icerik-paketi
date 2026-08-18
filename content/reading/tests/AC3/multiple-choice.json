@@ -68,45 +68,43 @@
     {
       "number": 33,
       "select_count": 1,
-      "prompt": "What was the team's purpose-built image-processing method used for?",
+      "prompt": "What does the writer say about the 20 metres of volcanic material that covered the town?",
       "options": [
         {
           "letter": "A",
-          "text": "Working out which elements the glassy material contained"
+          "text": "It was laid down within minutes of the first flow reaching the town"
         },
         {
           "letter": "B",
-          "text": "Checking that the sheaths still had all their layers"
+          "text": "It consisted mainly of ash that had fallen from the air"
         },
         {
           "letter": "C",
-          "text": "Picking out real nerve tissue among the glass around it"
+          "text": "It protected stone buildings but destroyed everything made of wood"
         },
         {
           "letter": "D",
-          "text": "Matching the proteins found against brain reference databases"
+          "text": "It built up over the days that followed the eruption"
         }
       ],
       "answer": [
-        "C"
+        "D"
       ],
-      "evidence": "A custom image-processing method, developed to detect the repeating pattern typical of myelin, the fatty sheath that wraps around nerve fibres, helped distinguish genuine neural structures from random glassy debris.",
+      "evidence": "These flows swept through the streets and buildings so quickly that many residents were killed almost instantly, and over the following days the town was sealed beneath roughly 20 metres of volcanic deposits, a burial so complete that timber roof beams, food, and even fabric survived for centuries in a way rarely seen at other Roman sites.",
       "evidence_locator": {
-        "paragraph": "D",
+        "paragraph": "A",
         "sentence": 3
       },
       "distractor_analysis": {
-        "A": "Yer degistirme -- kimyasal bilesimi olcen is, ayni paragrafta sayilan enerji dagilimli X isini yontemine ait (D/2); goruntu isleme rutininin islevi bu degil.",
-        "B": "Kapsam kaydirma -- kiliflarin cok katmanli yapisini korudugu E/2'de bir olcum sonucu olarak veriliyor; yontem katmanlarin eksiksizligini dogrulamak icin degil, miyeline ozgu tekrarlayan deseni yakalamak icin gelistirildi.",
-        "D": "Yer degistirme -- proteinlerin referans veri tabanlariyla karsilastirilmasi D/4'te ayri ve son basamak olarak sayiliyor; goruntu isleme rutini protein degil desen ariyor."
+        "A": "Hiz kaydirma -- A/3 akintilarin sokaklari 'cok cabuk' supurdugunu soyluyor, ama 20 metrelik ortu icin verdigi sure bu degil: gomulme 'izleyen gunler boyunca' tamamlaniyor. Sezgi burada calisir, cunku felaketin hepsinin birkac dakikada bittigi yaygin bir varsayimdir.",
+        "B": "Yer degistirme -- A/1 patlamanin kentleri 'yalnizca kulle gomdugu' anlatisinin komsu Pompeii'ye ait yaygin bir anlati oldugunu soyleyip bu kasaba icin reddediyor; A/2 kasabayi supuren seyin bir dizi piroklastik akinti oldugunu belirtiyor. Genel kultur bu secenege gidiyor ve yaniliyor.",
+        "C": "Ters yon -- ayni cumle gomulmenin oylesine eksiksiz oldugunu, ahsap cati kirislerinin, yiyecegin ve hatta kumasin yuzyillar boyu dayandigini soyluyor; ahsabin yok oldugu iddiasi metnin tersi."
       },
-      "explanation": "Paragraph D says the custom image-processing method, developed to detect the repeating pattern typical of myelin, helped distinguish genuine neural structures from random glassy debris.",
-      "difficulty": "hard",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_basis": "logic",
-      "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: logic. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md",
-      "flag_mechanism": "konumsal_duzen",
+      "explanation": "Paragraph A says that over the following days the town was sealed beneath roughly 20 metres of volcanic deposits.",
+      "difficulty": "medium",
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
       "revision": {
         "tarih": "2026-08-08",
         "mekanizma": "konumsal_duzen",
@@ -118,79 +116,91 @@
           "D": "Examining a much larger set of samples"
         },
         "ne_degisti": "Eski D ('cok daha buyuk bir ornek kumesi') uydurmaydi ve buluntunun tek bir bireye ait olmasiyla acikca celisiyordu; B ise dogrulanamayan bir mutlaklik ('her katman') tasiyordu. Dort secenek de artik D ve E paragraflarinda gercekten anlatilan islerden biri (X isini olcumu, katmanli yapinin olculmesi, desen ayikliyici rutin, veri tabani karsilastirmasi); hangi isin hangi yontemin oldugunu bilmek icin paragrafi okumak gerekiyor. Dogru secenek kanit cumlesinin sozcuklerinden de uzaklastirildi."
+      },
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "tur": "AC3 isaretli kalem elden gecirme",
+        "eski_prompt": "What was the team's purpose-built image-processing method used for?",
+        "eski_cevap": [
+          "C"
+        ],
+        "eski_kanit_cumlesi": "A custom image-processing method, developed to detect the repeating pattern typical of myelin, the fatty sheath that wraps around nerve fibres, helped distinguish genuine neural structures from random glassy debris.",
+        "neden_elendi": "Sorunun ekseni yontem adiyla islev arasindaki apacik eslesmeydi: 'goruntu isleme' denince elementleri olcmek, protein veri tabani taramak ya da katman saymak kendiliginden eleniyor, geriye 'goruntude gercek dokuyu ayirt etmek' kaliyordu. Aday pasaji hic gormeden akil yurutmeyle dogruyu buluyordu (blind_basis: logic).",
+        "ne_degisti": "Yuva bosaltilip pasajin baska bir yerine tasindi: kasabanin ustunu ortan 20 metrelik malzemenin ne zaman biriktigi (A/3). Genel kultur burada YANLIS secenege capalanmis durumda -- A (her seyin dakikalar icinde bittigi) ve B (kul yagmuruyla gomulme, yani Pompeii anlatisi) sezgisel olan ama metnin curuttugu iki secenek. Dogru secenek yalniz A/3'un 'izleyen gunler boyunca' kaydiyla bulunuyor."
       }
     },
     {
       "number": "34-35",
       "select_count": 2,
-      "prompt": "Which TWO findings about the structures inside the tissue does the writer report?",
+      "prompt": "Which TWO of the following did the research team use in identifying the glassy material?",
       "options": [
         {
           "letter": "A",
-          "text": "Individual cell bodies were all much the same width"
+          "text": "Sequencing DNA extracted from the remains"
         },
         {
           "letter": "B",
-          "text": "Cell bodies ranged from under 3 to over 14 micrometres across"
+          "text": "Radiocarbon dating of the material taken from the skull"
         },
         {
           "letter": "C",
-          "text": "The axons were probably wider than those of a living brain"
+          "text": "A routine written specially to recognise one repeating pattern"
         },
         {
           "letter": "D",
-          "text": "The sheaths had lost the layered form they once had"
+          "text": "A scan of the intact skull made with hospital imaging equipment"
         },
         {
           "letter": "E",
-          "text": "Axons from the spinal cord were usually thicker than those in the brain"
+          "text": "An experiment in which fresh tissue was heated to reproduce the effect"
         },
         {
           "letter": "F",
-          "text": "The sheaths kept exactly the repeating pattern of ordinary nerve tissue"
+          "text": "A comparison with existing records of proteins found in the brain"
         },
         {
           "letter": "G",
-          "text": "The measurements were probably only approximate"
+          "text": "Measurements of the heat still held by the deposits around the building"
         }
       ],
       "answer": [
-        "B",
+        "C",
         "F"
       ],
-      "evidence": "Individual cell bodies ranged from 2.7 to 14.2 micrometres across, and the myelin sheaths retained their characteristic multilayered structure, complete with the regular repeating pattern seen under a microscope in ordinary, unfossilised nervous tissue.",
+      "evidence": "A custom image-processing method, developed to detect the repeating pattern typical of myelin, the fatty sheath that wraps around nerve fibres, helped distinguish genuine neural structures from random glassy debris. Finally, comparison against reference databases of proteins expressed in the human brain provided independent confirmation of the tissue's origin.",
       "evidence_locator": {
-        "paragraph": "E",
-        "sentence": 3
+        "paragraph": "D",
+        "sentence": 3,
+        "sentences": [
+          3,
+          4
+        ]
       },
       "distractor_analysis": {
-        "A": "Kapsam kaydirma -- E/3 hucre govdelerini 2,7 ile 14,2 mikrometre arasinda veriyor; bes kattan fazla fark eden bir araligi 'hemen hemen ayni' diye ozetlemek olcuyu siliyor.",
-        "C": "Yer degistirme -- E/2 camlasmis dokudaki aksonlarin ortalama 717,7 nanometre oldugunu ve bunun canli beyindeki ak madde araligina YAKIN dustugunu soyluyor; daha genis olduklari soylenmiyor.",
-        "D": "Ters yon -- ayni cumle miyelin kiliflarinin cok katmanli yapiyi KORUDUGUNU soyluyor.",
-        "E": "Sayi kaydirma -- omurilikten gelen aksonlar yaklasik 672, beyindekiler 717,7 nanometre; siralama secenektekinin tersi.",
-        "G": "Ters yon -- E/1 yapisal olcumlerin 'remarkably precise' (dikkate deger olcude kesin) oldugunu soyluyor."
+        "A": "Metinde yok -- eski DNA dizilemesi arkeolojik kalintilarda en cok anlatilan is oldugu icin sezgi buraya gidiyor; D paragrafinin sayilan hicbir basamagi DNA'ya degmiyor, F/2'de anilan sey protein, gen degil.",
+        "B": "Metinde yok -- radyokarbon tarihleme de kalintilarla birlikte anilan tanidik bir yontem, ama pasajda hicbir tarihleme islemi gecmiyor; buluntunun yasi patlamanin tarihinden (A/1) biliniyor.",
+        "D": "Metinde yok -- kafatasini bozmadan goruntuleme sezgisel bir adim gibi durur; D/2'de anilan goruntuleme taramali elektron mikroskobu, yani orneklerin cok yuksek buyutmede incelenmesi, hastane cihaziyla tarama degil.",
+        "E": "Metinde yok -- camlasmayi laboratuvarda yeniden uretme fikri G/2'nin isil kosul tartismasindan cagrisim yapiyor, ama orada anlatilan sey bir deney degil bir cikarim.",
+        "G": "Metinde yok -- cevredeki tortularin isisi olculmus gibi gorunebilir, cunku A/2 akintilarin sicakligini veriyor; o sayi bu calismanin olcumu degil, olayin tarifi."
       },
-      "explanation": "Paragraph E reports that individual cell bodies ranged from 2.7 to 14.2 micrometres across, and that the myelin sheaths kept the regular repeating pattern seen in ordinary, unfossilised nervous tissue.",
+      "explanation": "Paragraph D says a custom image-processing method was developed to detect the repeating pattern typical of myelin, and that comparison against reference databases of brain proteins gave independent confirmation of the tissue's origin.",
       "difficulty": "hard",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_basis": "logic",
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
       "generated_by": "opus",
       "yeniden_uretim": {
-        "tarih": "2026-08-08",
-        "kaynak_prompt": "prompts/OPUS5-E6-yeniden-uretim.md (3/7)",
-        "uretilen_grup": "Coktan secmeli - tam testler",
-        "eski_prompt": "Which TWO points does the writer make about the material's chemistry?",
+        "tarih": "2026-08-18",
+        "tur": "AC3 isaretli kalem elden gecirme",
+        "eski_prompt": "Which TWO findings about the structures inside the tissue does the writer report?",
         "eski_cevap": [
           "B",
           "F"
         ],
-        "eski_kanit_cumlesi": "The team detected seven distinct proteins known to be expressed specifically in brain tissue, including one involved in stabilising the internal skeleton of nerve cells and another essential for communication between neurons. By atomic composition the vitrified material was dominated by carbon and oxygen, the two elements that make up the bulk of organic tissue, at roughly 65 and 31 per cent respectively.",
-        "neden_elendi": "Sorunun ekseni temel kimya/biyoloji bilgisi: organik dokunun buyuk kismini karbon ve oksijenin olusturmasi (B) ve beyin dokusunda noronlar arasi iletisimle ilgili bir proteinin bulunmasi (F) beklenen bulgular. Iki dogru secenek de pasaji degil alan bilgisini siniyor.",
-        "ne_degisti": "Yuva bosaltilip ayni pasajdan yeni bir soruyla dolduruldu. Eski soru F/2 ve G/1'e dayaniyordu: karbon-oksijen agirligi ve noronlar arasi iletisim proteini. Organik dokunun karbon temelli olmasi da beyin dokusunda sinyal proteini bulunmasi da beklenen bulgular oldugu icin B+F ikilisi pasajsiz seciliyordu. Yeni soru F ve G paragraflarina hic degmiyor: kanit E/3'e, olculen buyukluklere tasindi. Hucre govdesi araliginin genis mi dar mi oldugu ve kiliflarin desenini koruyup korumadigi ancak olcum sonucundan bilinir; celdiriciler de ayni paragrafin gercek sayilarini ters cevirerek kuruldu (omurilik/beyin siralamasi, akson genisligi, olcum kesinligi), yani alan bilgisi hicbir secenegi elemiyor. Konumsal duzen icin harf cifti B+F secildi; C+F ikilisi bu calistirmada hicbir yuvada kullanilmadi."
-      },
-      "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: logic. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md",
-      "flag_mechanism": "konumsal_duzen"
+        "eski_kanit_cumlesi": "Individual cell bodies ranged from 2.7 to 14.2 micrometres across, and the myelin sheaths retained their characteristic multilayered structure, complete with the regular repeating pattern seen under a microscope in ordinary, unfossilised nervous tissue.",
+        "neden_elendi": "Secenekler bicimlerinden ayirt ediliyordu: yanlislar ya mutlak ('hepsi hemen hemen ayni genislikte') ya da metnin butun tonuna ters ('olcumler herhalde yaklasikti', 'kiliflar katmanli yapisini yitirmisti') yazilmisti; pasajin butun ekseni korunmusluk oldugu icin 'olculmus ve korunmus' diyen iki secenek okumadan seciliyordu (blind_basis: logic).",
+        "ne_degisti": "Yuva olcum bulgularindan yontem secimine tasindi (kanit D/3 + D/4) ve genel kultur bilincli olarak yanlis seceneklere capalandi: DNA dizileme, radyokarbon tarihleme ve kafatasi taramasi -- eski kalintilar denince ilk akla gelen ucu de metinde yok. Dogru ikili ise ancak D paragrafi okunarak bulunan iki alisilmadik basamak. Ayrica E/3 kanit olarak bosaltildi ve matching-information 29'a birakildi."
+      }
     }
   ]
 }

@@ -16,7 +16,7 @@
     "options": [
       {
         "key": "i",
-        "text": "Trade links between distant settlements"
+        "text": "Chromosome counts that set the wheats apart"
       },
       {
         "key": "ii",
@@ -28,7 +28,7 @@
       },
       {
         "key": "iv",
-        "text": "Finds whose identity was still an open question"
+        "text": "Promising grains, unconfirmed identity"
       },
       {
         "key": "v",
@@ -48,7 +48,7 @@
       },
       {
         "key": "ix",
-        "text": "Remains better preserved than at comparable sites"
+        "text": "Remains in better condition than at comparable sites"
       },
       {
         "key": "x",
@@ -73,21 +73,36 @@
         "paragraph": "B",
         "sentence": 3
       },
-      "heading_check": "B paragrafının üç cümlesi de aynı yere varıyor: elde iyi korunmuş taneler var, göze karmaşık bir buğday gibi görünüyorlar, ama hangi türe ait oldukları hiçbir zaman kesinleştirilmemiş. 'iv' bu askıda kalmışlığı veriyor. En yakın çeldirici 'ix' (tanelerin saklanma biçimi) — paragrafın ilk cümlesi tanelerin benzer yaştaki başka yerlerin bitki kalıntılarına göre alışılmadık ölçüde iyi korunduğunu söylüyor, bu yüzden koruma/saklama başlığı çekici duruyor; ama pasaj hiçbir yerde saklama yönteminden söz etmiyor ve paragrafın derdi korunmuşluk değil, kimliğin belirsizliği.",
+      "heading_check": "B paragrafinin uc cumlesi de ayni yere variyor: elde alisilmadik olcude iyi korunmus taneler var (B/1), bazilari mikroskop altinda alti takim kromozomlu karmasik forma ait gibi duruyor (B/2), ama hicbir zaman molekuler duzeyde dogrulanmamislar (B/3). Ana fikir bu askida kalmislik, yani 'iv'. Paragrafin kendi ayrintilarina capali IKI guclu celdirici var: 'ix' B/1'in korunma karsilastirmasini, 'i' ise B/2'nin kromozom takimi ayrimini birebir karsiliyor. Ikisi de dogru ayrinti ama paragrafin butunu degil; secim ancak paragraf okunup ana fikir ile ayrinti ayrildiginda yapilabiliyor.",
       "feature_check": null,
       "grammar_check": null,
-      "explanation": "Paragraph B describes how the grains from the excavation look like a complex wheat under the microscope, but their species identity had never been confirmed at the molecular level.",
+      "explanation": "Paragraph B describes grains that survive unusually well and look like a complex wheat under the microscope, but whose species had never been confirmed at the molecular level.",
       "difficulty": "medium",
       "status": "verified",
       "blind_solvable": false,
       "blind_basis": null,
-      "flag_reason": "Baslik 'iv', en yakin celdirici 'ix' (saklama bicimi) elenerek bulunuyor: paragrafin ilk cumlesi korunmusluktan soz etse de asil konu tanelerin turunun hic dogrulanmamis olmasi; bu ayrim yalniz 'iv'i (kimligi belirsiz kalan bulgular) dogru birakiyor.",
-      "flag_mechanism": "konumsal_duzen",
       "revision": {
         "tarih": "2026-08-08",
         "mekanizma": "konumsal_duzen",
         "onceki_prompt": "Paragraph B",
         "ne_degisti": "Eski celdirici ix ('Storage methods that kept the harvest edible') pasajda hic karsiligi olmadigi icin okumadan eleniyordu; yerine B paragrafinin ilk cumlesinin gercek icerigi ('Remains better preserved than at comparable sites') kondu. Ayrica olu vi basligi C ve H paragraflarindaki 'tane bicimi yaniltir' savina capalandi. B artik iki basligin arasinda."
+      },
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "mekanizma": "konumsal_duzen",
+        "eski_prompt": "Paragraph B",
+        "eski_cevap": [
+          "iv"
+        ],
+        "eski_kanit_cumlesi": "For decades, however, no one had examined these seeds at the molecular level to confirm what species they truly represented.",
+        "eski_heading_check": "B paragrafının üç cümlesi de aynı yere varıyor: elde iyi korunmuş taneler var, göze karmaşık bir buğday gibi görünüyorlar, ama hangi türe ait oldukları hiçbir zaman kesinleştirilmemiş. 'iv' bu askıda kalmışlığı veriyor. En yakın çeldirici 'ix' (tanelerin saklanma biçimi) — paragrafın ilk cümlesi tanelerin benzer yaştaki başka yerlerin bitki kalıntılarına göre alışılmadık ölçüde iyi korunduğunu söylüyor, bu yüzden koruma/saklama başlığı çekici duruyor; ama pasaj hiçbir yerde saklama yönteminden söz etmiyor ve paragrafın derdi korunmuşluk değil, kimliğin belirsizliği.",
+        "eski_basliklar": {
+          "i": "Trade links between distant settlements",
+          "iv": "Finds whose identity was still an open question",
+          "ix": "Remains better preserved than at comparable sites"
+        },
+        "neden_elendi": "Baslik listesi bir arastirma makalesinin standart akisi gibi okunuyordu (giris - amac - yontem - sonuc - tartisma) ve paragraf sirasina birebir oturuyordu; B'nin karsiligi olan 'Finds whose identity was still an open question' bu akista ikinci duragin genel etiketiydi, yani paragraf okunmadan konumdan secilebiliyordu. Ayrica kalemin gerekcesi hala kaldirilmis eski 'ix' basligini (saklama bicimi) tarif ediyordu.",
+        "ne_degisti": "Cevabin harfi ve paragrafi korundu, ama B artik uc basligin cekistigi bir paragraf: olu duran 'i' basligi B/2'nin kromozom takimi ayrintisina, 'ix' B/1'in korunma karsilastirmasina capalandi ve 'iv' genel asama etiketi olmaktan cikip paragrafin kendi durumunu adlandirir hale getirildi. Konum artik tek basina hicbir basligi vermiyor."
       }
     },
     {

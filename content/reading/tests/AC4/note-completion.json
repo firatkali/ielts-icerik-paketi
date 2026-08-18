@@ -13,31 +13,38 @@
   "word_limit": "ONE WORD ONLY",
   "word_bank": null,
   "visual": null,
-  "stem_block": "Testing four office layouts\n\nWhy firms pick the open-plan option\n- Costs less to put up, and is simple to (1) ........ once needs change\n\nThe four layouts, each tried for a fortnight\n- Plain open-plan, used as the point of comparison\n- Zoned open-plan: rooms holding at most 40 staff, shut off by (2) ........ doors\n- Activity-based: desks belonging to nobody, plus quiet rooms and shared areas\n- Team office: semi-enclosed cubicles for four to six people, screened by (3) ........ panels\n\nHow the layouts were judged\n- Repeated staff surveys covering satisfaction, engagement, (4) ........ , energy, flow and how productive people felt\n- Sensors reading noise, temperature, light and air; a count of technical output; watchers logging everyday habits at people's desks\n\nWhat people did rather than said\n- After a spell in the plain open-plan room, desk use in the next layout climbed by roughly 4 per cent\n- Read as a genuine preference, not merely a (5) ........ effect\n\nThe authors' warning\n- Results come from just one company, with a culture and (6) ........ of its own\n- Other organisations should try the alternatives on their own staff",
+  "stem_block": "Testing four office layouts\n\nWhy firms pick the open-plan option\n- Cheaper to build than an office cut up into (1) ........ rooms\n\nThe four layouts, each tried for a fortnight\n- Plain open-plan, used as the point of comparison\n- Zoned open-plan: rooms holding at most 40 staff, shut off by (2) ........ doors\n- Activity-based: desks belonging to nobody, plus quiet rooms and shared areas\n- Team office: semi-enclosed cubicles for four to six people, screened by sound-absorbing panels\n\nHow the layouts were judged\n- Several separate (3) ........ of evidence were brought together\n- Repeated staff surveys covering satisfaction, engagement, (4) ........ , energy, flow and how productive people felt\n- Sensors reading noise, temperature, light and air; a count of technical output; watchers logging everyday habits at people's desks\n\nWhat the sensors and the desks showed\n- Noise in the plain open-plan room went over the recommended (5) ........ limits 20-30 per cent more often than in any rival design\n- After a spell in that room, desk use in the next layout climbed by roughly 4 per cent - read as a real preference, not just a novelty effect\n\nThe authors' warning\n- Results come from just one company, with a culture and (6) ........ of its own\n- Other organisations should try the alternatives on their own staff",
   "items": [
     {
       "number": 1,
-      "prompt": "Why firms pick the open-plan option: Costs less to put up, and is simple to (1) ........ once needs change",
+      "prompt": "Why firms pick the open-plan option: Cheaper to build than an office cut up into (1) ........ rooms",
       "answer": [
-        "reconfigure"
+        "permanent"
       ],
       "accepted_variants": [
-        "reconfigure"
+        "permanent"
       ],
       "evidence": "Open-plan arrangements have nonetheless become the default choice for many growing companies, partly because they are cheaper to build and easier to reconfigure than offices divided into permanent rooms.",
       "evidence_locator": {
         "paragraph": "A",
         "sentence": 3
       },
-      "explanation": "Paragraph A attributes the popularity of open-plan offices both to their lower cost and to the fact that they are easier to reconfigure than offices divided by permanent walls; the answer is therefore 'reconfigure'.",
+      "explanation": "Paragraph A contrasts open-plan arrangements, which are cheaper to build, with offices divided into permanent rooms; the answer is therefore 'permanent'.",
       "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_solvable_kelime_duzeyi": false,
-      "blind_basis": "logic",
-      "flag_reason": "Parça gösterilmeden anlamca 3/3 turda doğru bilindi: farklı kelimeyle ama doğru kavramla cevaplandı ('rearrange / reconfigure / rearrange' verdi; rearrange ile reconfigure aynı iddiayı (ihtiyaç değişince kolay yeniden düzenlenmesi) veriyor).",
-      "flag_mechanism": "esdizim_kilidi",
-      "review_note": "E10 anlam duzeyi olcumunden gelen isaret: model parcasiz uc turda da dogru KAVRAMI verdi, tutmayan sey sozcugun kendisiydi. Bu bicimde sizinti cercevede degil boslugun hedefinde durur; kapatmak icin boslugu baska bir ayrintiya tasimak, yani `answer` alanini degistirmek gerekir. Talimatin korunan alan kurali buna izin vermedigi ve soru kelime duzeyinde hala calistigi icin soru oldugu gibi birakildi. Model 'rearrange / reconfigure' verdi. Acik plan ofisin ucuzluk disindaki ikinci gerekcesi kacinilmaz bicimde 'kolay yeniden duzenlenmesi'. E6 onerisi: ayni paragrafin kalici odali ofisle yapilan maliyet karsilastirmasina capalanmis yuva."
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "mekanizma": "esdizim_kilidi",
+        "eski_prompt": "Why firms pick the open-plan option: Costs less to put up, and is simple to (1) ........ once needs change",
+        "eski_cevap": [
+          "reconfigure"
+        ],
+        "eski_kanit_cumlesi": "Open-plan arrangements have nonetheless become the default choice for many growing companies, partly because they are cheaper to build and easier to reconfigure than offices divided into permanent rooms.",
+        "neden_elendi": "Bosluk 'easy/simple to ___ once needs change' kalibinin ucuna aciliyordu; kalip tek bir kavrami cagiriyor (yeniden duzenleme) ve E10 olcumunde model uc turun ucunde de dogru kavrami parcasiz verdi (rearrange / reconfigure). Acik plan ofisin ucuzluk disindaki ikinci gerekcesi kacinilmaz bicimde 'kolay yeniden duzenlenmesi' oldugu icin cerceve degisikligi kilidi acmiyordu.",
+        "ne_degisti": "Bosluk ayni cumlede kalip kaynagin kendi sectigi karsilastirma terimine kaydirildi: artik hedef, acik planin karsisina konan ofis turunu niteleyen sozcuk ('permanent'). Not satirindaki 'once needs change' ipucu kaldirildi, boylece kalicilik kavrami cerceveden cagrilmiyor. Parcasiz doldurma denemesinde 'separate / private / enclosed / individual' gibi rakipler ayni kaliba oturuyor ve dogru sozcugu vermiyor."
+      }
     },
     {
       "number": 2,
@@ -60,23 +67,33 @@
     },
     {
       "number": 3,
-      "prompt": "The four layouts: Team office: semi-enclosed cubicles for four to six people, screened by (3) ........ panels",
+      "prompt": "How the layouts were judged: Several separate (3) ........ of evidence were brought together",
       "answer": [
-        "sound-absorbing"
+        "sources"
       ],
       "accepted_variants": [
-        "sound-absorbing",
-        "sound absorbing"
+        "sources"
       ],
-      "evidence": "Using a Latin square design, in which every team eventually experienced every condition but in a different order, the teams rotated through four distinct office layouts, each for a two-week period: a conventional open-plan office with minimal separation between desks, acting as the baseline; a zoned open-plan design with soundproof doors dividing spaces into rooms holding no more than 40 people; an activity-based design offering unassigned desks alongside dedicated focus rooms and collaboration areas; and a team-office design with large, partly enclosed cubicles seating four to six people behind sound-absorbing panels.",
+      "evidence": "To evaluate the four designs, the researchers combined several sources of evidence.",
       "evidence_locator": {
-        "paragraph": "B",
-        "sentence": 2
+        "paragraph": "C",
+        "sentence": 1
       },
-      "explanation": "Paragraph B says that in the team office, the semi-enclosed cubicles for four to six people are screened by sound-absorbing panels; unlike the 'soundproof' doors in question 2, the panel quality required here is 'sound-absorbing'.",
+      "explanation": "Paragraph C says that to evaluate the four designs the researchers combined several sources of evidence; the answer is therefore 'sources'.",
       "difficulty": "medium",
       "status": "verified",
-      "blind_solvable": false
+      "blind_solvable": false,
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "mekanizma": "kanit_cakismasi",
+        "eski_prompt": "The four layouts: Team office: semi-enclosed cubicles for four to six people, screened by (3) ........ panels",
+        "eski_cevap": [
+          "sound-absorbing"
+        ],
+        "eski_kanit_cumlesi": "Using a Latin square design, in which every team eventually experienced every condition but in a different order, the teams rotated through four distinct office layouts, each for a two-week period: a conventional open-plan office with minimal separation between desks, acting as the baseline; a zoned open-plan design with soundproof doors dividing spaces into rooms holding no more than 40 people; an activity-based design offering unassigned desks alongside dedicated focus rooms and collaboration areas; and a team-office design with large, partly enclosed cubicles seating four to six people behind sound-absorbing panels.",
+        "neden_elendi": "2 ve 3 numarali yuvalarin ikisi de ayni kanit cumlesine (B/2) capaliydi; bir kanit cumlesinde en cok bir soru kurali bozuluyordu. B paragrafi iki cumleden olusuyor ve ilk cumle zaten true-false 8 numaraya ait, dolayisiyla iki yuvadan biri paragrafin disina cikmak zorundaydi. Not blogu pasaj sirasini izledigi icin tasinabilecek tek yer C paragrafinin ilk cumlesiydi.",
+        "ne_degisti": "Yuva C/1'e tasindi ve hedef, takim ofisinin panel turu yerine calismanin dort tasarimi nasil degerlendirdigi oldu. 'Sound-absorbing panels' bilgisi not blogunda bosluksuz olarak duruyor, yani ozetin icerigi korundu. Not: yeni yuva eskisinden daha kolay ('sources of evidence' yerlesik bir obek); butce kurali ile kalem gucu arasindaki bu takas raporda ayrica belirtildi."
+      }
     },
     {
       "number": 4,
@@ -113,26 +130,34 @@
     },
     {
       "number": 5,
-      "prompt": "What people did rather than said: Read as a genuine preference, not merely a (5) ........ effect",
+      "prompt": "What the sensors and the desks showed: Noise in the plain open-plan room went over the recommended (5) ........ limits 20-30 per cent more often than in any rival design",
       "answer": [
-        "novelty"
+        "safe"
       ],
       "accepted_variants": [
-        "novelty"
+        "safe"
       ],
-      "evidence": "Employees appeared to respond to this with their feet as well as their opinions: once a team's exposure to the open-plan condition ended, desk occupancy in whichever design followed it rose by about 4 per cent, a change the researchers interpreted as a behavioural preference for the newer arrangement rather than simply a novelty effect.",
+      "evidence": "Noise levels in the open-plan office exceeded recommended safe limits between 20 and 30 per cent more often than in any of the alternative designs.",
       "evidence_locator": {
         "paragraph": "F",
-        "sentence": 3
+        "sentence": 2
       },
-      "explanation": "Paragraph F says that the roughly 4 per cent rise in desk occupancy after leaving the open-plan office was interpreted as a genuine preference rather than merely a 'novelty' effect; the answer is therefore 'novelty'.",
-      "difficulty": "hard",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_basis": "guess",
-      "flag_reason": "Net bir mekanizma yok: 'merely a ___ effect' kalibinda 'novelty' en olasi sozcuklerden biri olsa da 'temporary', 'short-term', 'placebo' gibi alternatifler de ayni kaliba uyuyor; dogru sozcugun tutturulmasi parcaya bakmadan buyuk olcude sansa dayaniyor.",
-      "flag_mechanism": "belirsiz",
-      "review_note": "E5 / 6. calistirma: dokunulmadi, ama mekanizma etiketi tartismali. E1 'belirsiz' demis ve blind_basis alanina 'guess' yazmis; oysa 'merely a ___ effect' cercevesi 4. calistirmanin tanimladigi ESDIZIM KILIDI bicimine yakin duruyor ('novelty effect' yerlesik bir esdizim). Kilidi acmanin tek yolu boslugu baska bir ayrintiya tasimak, o da answer'i degistirmek demek - yani bu bir duzeltme degil eleme olurdu. Yuvayi elemek yerine kayda gecirmeyi sectim: AC4 dosyasinda bu calistirmadan once zaten iki elenen yuva var (36 ve 38, 5. calistirma) ve ucuncu bir yuva ayni pasaji yeniden uretime iyice bagimli kilardi. E6 isterse bu yuvayi da kapsama alabilir; onerilen yeni capa F paragrafindaki %4'luk masa doluluk artisi."
+      "explanation": "Paragraph F says noise levels in the open-plan office exceeded recommended safe limits between 20 and 30 per cent more often than in any of the alternative designs; the answer is therefore 'safe'.",
+      "difficulty": "medium",
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "mekanizma": "belirsiz",
+        "eski_prompt": "What people did rather than said: Read as a genuine preference, not merely a (5) ........ effect",
+        "eski_cevap": [
+          "novelty"
+        ],
+        "eski_kanit_cumlesi": "Employees appeared to respond to this with their feet as well as their opinions: once a team's exposure to the open-plan condition ended, desk occupancy in whichever design followed it rose by about 4 per cent, a change the researchers interpreted as a behavioural preference for the newer arrangement rather than simply a novelty effect.",
+        "neden_elendi": "Bosluk 'merely a ___ effect' kalibinin icindeydi. E1 mekanizmayi 'belirsiz' isaretlemis, E5 ise bunun esdizim kilidine yakin durdugunu yazmisti: 'novelty effect' yerlesik bir esdizim, ama 'temporary / short-term / placebo' da ayni kaliba oturdugu icin dogru sozcugu tutturmak buyuk olcude sansa kaliyordu. Yani kalem hem sizintili hem de karari sansa birakan bir yuvaydi; iki savunulabilir cevap birakmamak icin yuva tasindi.",
+        "ne_degisti": "Kanit ayni pasajin F/2 cumlesine tasindi ve bosluk artik calismanin kendi olctugu esige aciliyor (gurultunun asdigi 'recommended safe limits'). Rakip doldurmalar ('noise / legal / maximum / decibel') cerceveye oturuyor ama pasajin kullandigi sozcuk degil, dolayisiyla karar F/2'yi okumaya bagli. 'Novelty effect' ifadesi not blogunda bosluksuz olarak duruyor, yani ozetin anlami korundu."
+      }
     },
     {
       "number": 6,

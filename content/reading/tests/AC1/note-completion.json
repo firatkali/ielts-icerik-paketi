@@ -92,13 +92,21 @@
       "status": "verified",
       "blind_solvable": false,
       "blind_basis": null,
-      "flag_reason": "Cevap 'tyre', fil bakimevlerinde/hayvanat bahcelerinde traktor lastiklerinin sik kullanilan bir zenginlestirme/oyuncak nesnesi olmasi yaygin bilgisiyle (fil + traktor lastigi eslesmesi) parcaya bakmadan da tahmin edilebiliyor.",
-      "flag_mechanism": "genel_kultur",
       "revision": {
         "tarih": "2026-08-08",
         "mekanizma": "genel_kultur",
         "onceki_prompt": "A tractor (4) ........ served the same purpose once the cube was taken away",
         "ne_degisti": "Nottaki 'tractor' sozcugu kaldirildi. Sizinti sorunun ekseninde degil, 'tractor ___' esdiziminde ve fil + traktor lastigi eslesmesinin yaygin bilinmesindeydi; model uc turda da 'tyre' yazdi. Yeni cerceveye ('a large ___ pushed into place') tyre, log, barrel, crate gibi adaylar esit derecede uyuyor, secim yalniz D/4'ten yapilabiliyor. Cevabin kendisi bir dunya bilgisi degil, pasajin siradan bir ayrintisi oldugu icin bu yuva elenmedi."
+      },
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "mekanizma": "genel_kultur",
+        "eski_kanit_cumlesi": "His success was not limited to the cube itself: when it was removed, he pushed a large tractor tyre into use as a substitute platform, and with smaller objects he attempted, less successfully, to stack them on top of one another.",
+        "eski_cevap": [
+          "tyre"
+        ],
+        "neden_elendi": "Kanit ve cevap degismedi. 2026-08-08 duzeltmesi notun icinden 'tractor' sozcugunu cikarmisti; sizinti sorunun ekseninde degil, 'tractor ___' esdiziminde ve fil + traktor lastigi eslesmesinin yaygin bilinmesindeydi. Bu turda yeniden olculdu: 'a large ___ pushed into place' cercevesine log, barrel, crate, rock adaylari esit olculude uyuyor, secim yalniz D paragrafinin son cumlesinden yapilabiliyor.",
+        "ne_degisti": "Kalemin kendisi degismedi; bu turda kapatilan sey kanit cakismasiydi. Ayni cumleyi paylasan true-false-not-given 10 baska bir cumleye tasindi, boylece bu kanit cumlesinde tek soru kaldi."
       }
     },
     {
@@ -120,13 +128,21 @@
       "status": "verified",
       "blind_solvable": false,
       "blind_basis": null,
-      "flag_reason": "Bosluk 'hidden round a ___' kalibinin ucunda; 'a corner' (kose) bu kalibin en dogal ve yaygin tamamlamasi oldugu icin parcaya bakmadan da tahmin edilebiliyor.",
-      "flag_mechanism": "esdizim_kilidi",
       "revision": {
         "tarih": "2026-08-08",
         "mekanizma": "esdizim_kilidi",
         "onceki_prompt": "He recalled where the cube lay after it had been hidden round a (5) ........",
         "ne_degisti": "'hidden round a ___' esdizimi kaldirildi. Yeni cerceve boslugu 'duvarli gecide girmeden once gecilen sey' olarak kuruyor; door, wall, screen, gate adaylari da uyuyor, secim yalniz E paragrafina bagli."
+      },
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "mekanizma": "esdizim_kilidi",
+        "eski_kanit_cumlesi": "On one occasion the researchers hid the cube around a corner, in a walled passage invisible from the point where he entered the enclosure.",
+        "eski_cevap": [
+          "corner"
+        ],
+        "neden_elendi": "Kanit ve cevap degismedi. 2026-08-08 duzeltmesi 'hidden round a ___' esdizimini kaldirmisti; kilit kalibin ucundaydi, cevabin kendisinde degil. Bu turda yeniden olculdu: yeni cerceve boslugu 'duvarli gecide girmeden once gecilen sey' olarak kuruyor ve door, gate, screen, wall adaylari da uyuyor.",
+        "ne_degisti": "Kalemin kendisi degismedi. Yuvanin paragraf yuku de kontrol edildi: E paragrafinda bu kalemle birlikte yalnizca true-false-not-given 11 duruyor ve ikisi ayri cumlelere dayaniyor."
       }
     },
     {

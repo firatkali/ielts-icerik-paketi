@@ -16,15 +16,15 @@
     "options": [
       {
         "key": "i",
-        "text": "A violent shock in empty country"
+        "text": "A tally of the slopes that failed"
       },
       {
         "key": "ii",
-        "text": "Why the usual approach did not work"
+        "text": "Ice that keeps the rubble moving"
       },
       {
         "key": "iii",
-        "text": "The change between two radar images"
+        "text": "New dangers for climbers and expeditions"
       },
       {
         "key": "iv",
@@ -32,32 +32,32 @@
       },
       {
         "key": "v",
-        "text": "A scale with no recorded parallel"
+        "text": "A violent shock in empty country"
       },
       {
         "key": "vi",
-        "text": "Ice that keeps the rubble moving"
-      },
-      {
-        "key": "vii",
-        "text": "A tally of the slopes that failed"
-      },
-      {
-        "key": "viii",
         "text": "A partnership between two space agencies"
       },
       {
+        "key": "vii",
+        "text": "Why the usual approach did not work"
+      },
+      {
+        "key": "viii",
+        "text": "A scale with no recorded parallel"
+      },
+      {
         "key": "ix",
-        "text": "The highest summit in the country"
+        "text": "The change between two radar images"
       },
       {
         "key": "x",
-        "text": "New dangers for climbers and expeditions"
+        "text": "The highest summit in the country"
       }
     ]
   },
   "example": {
-    "key": "i",
+    "key": "v",
     "target": "Paragraph A"
   },
   "allow_repeat": false,
@@ -66,45 +66,54 @@
       "number": 14,
       "prompt": "Paragraph B",
       "answer": [
-        "ii"
+        "vii"
       ],
-      "evidence": "As one geophysicist involved in the analysis put it, in this setting the cryosphere is effectively covering up the geosphere, so scientists had to look for other clues.",
+      "evidence": "Mapping this kind of damage is unusually difficult in a glaciated landscape, because the usual method, comparing ground displacement before and after an earthquake, depends on being able to see the bedrock that has moved.",
       "evidence_locator": {
         "paragraph": "B",
-        "sentence": 4
+        "sentence": 2
       },
-      "heading_check": "B paragrafının dört cümlesinden üçü tek bir noktaya çalışıyor: depremden önceki ve sonraki yer değişimini karşılaştıran alışılmış yöntem burada işlemiyor, çünkü hareket eden ana kayanın üstünü yer yer 700 metreyi aşan buz örtüyor; paragraf da bu yüzden 'başka ipuçlarına bakmak zorunda kaldılar' diye bitiyor. 'ii' bu ana fikri veriyor. En yakın çeldirici 'vii' (yıkılan yamaçların sayımı) — paragrafın ilk cümlesi gerçekten 700'ü aşkın heyelan ve çığdan söz ediyor ve sayı göze çarpıyor; ama bu tek cümlelik bir giriş bilgisi, paragrafın geri kalanı sayımı değil sayımın neden zor olduğunu anlatıyor.",
+      "heading_check": "B paragrafinin dort cumlesinden ucu tek bir noktaya calisiyor: depremden onceki ve sonraki yer degisimini karsilastiran alisilmis yontem burada islemiyor, cunku hareket eden ana kayanin ustunu yer yer 700 metreyi asan buz ortuyor; paragraf 'baska ipuclarina bakmak zorunda kaldilar' diye bitiyor. 'vii' bu ana fikri veriyor. En yakin celdirici 'i' (yikilan yamaclarin sayimi) - paragrafin ilk cumlesi 700'u askin heyelan ve cigden soz ediyor ve sayi goze carpiyor; ama bu tek cumlelik bir giris bilgisi, paragrafin geri kalani sayimi degil sayimin neden zor oldugunu anlatiyor.",
       "feature_check": null,
       "grammar_check": null,
       "explanation": "Paragraph B explains that because the bedrock beneath the glacier cannot be seen, the usual method of comparing displacement before and after the earthquake could not be used here.",
       "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_basis": "logic",
-      "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: logic. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md",
-      "flag_mechanism": "konumsal_duzen",
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
       "revision": {
         "tarih": "2026-08-08",
         "mekanizma": "konumsal_duzen",
         "onceki_prompt": "Paragraph B",
         "ne_degisti": "Baslik listesindeki tek olu harf (x, 'A glacier stopped in its tracks') pasajin acikca curuttugu bir iddiaydi ve okumadan eleniyordu; yerine G paragrafinin gercek icerigi ('New dangers for climbers and expeditions') kondu. B paragrafinin rakibi olan vii ('A tally of the slopes that failed') zaten B/1'e capalanmis durumda, yani secim artik yalniz paragrafin ana fikrini tartarak yapilabiliyor."
+      },
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "tur": "AC3 isaretli kalem elden gecirme",
+        "eski_prompt": "Paragraph B",
+        "eski_cevap": [
+          "ii"
+        ],
+        "eski_kanit_cumlesi": "As one geophysicist involved in the analysis put it, in this setting the cryosphere is effectively covering up the geosphere, so scientists had to look for other clues.",
+        "neden_elendi": "Sizinti tek kalemde degil paketin dizilisindeydi: ornek i -> A paragrafi veriliyordu ve cevaplar ii, iii, iv, v, vi diye kesintisiz sayarak gidiyordu. Ornegi goren bir aday B'den F'ye kadar butun paragraflari pasaji hic okumadan sirayla doldurabiliyordu; 14 numara bu zincirin ilk halkasiydi.",
+        "ne_degisti": "Baslik metinlerinin hicbiri degismedi, roma rakamlari yeniden dagitildi: ornek artik v (A paragrafi), cevap dizisi ise vii, ix, iv, viii, ii oldu - ne artan ne duzenli atlayan bir dizi. Ayrica bu kalemin kaniti paragrafin sonundaki benzetmeden (B/4) yontemi acikca anlatan cumleye (B/2) alindi; bu cumle sentence-completion 19 numaranin kaniti olan B/1 ile de cakismiyor."
       }
     },
     {
       "number": 15,
       "prompt": "Paragraph C",
       "answer": [
-        "iii"
+        "ix"
       ],
-      "evidence": "By comparing an image captured on 8 December, only two days after the earthquake, with a baseline image from 26 November, before the quake, analysts could see large new patches of brightness spreading across slopes that had previously appeared smooth and dark, a direct signature of freshly broken rock and snow.",
+      "evidence": "The clue researchers turned to came from a newly launched satellite instrument, NISAR, a joint mission of NASA and the Indian Space Research Organisation that carries a synthetic aperture radar capable of measuring subtle changes in surface texture.",
       "evidence_locator": {
         "paragraph": "C",
-        "sentence": 3
+        "sentence": 1
       },
-      "heading_check": "C paragrafı baştan sona tek bir işi kuruyor: kırık enkaz radar dalgalarını güçlü saçtığı için parlak, bozulmamış buz koyu görünür; öyleyse depremden önce ve sonra çekilmiş iki görüntüyü yan yana koyunca yeni parlak lekeler yıkımın kendisini gösterir. 'iii' bu ana fikri veriyor. En yakın çeldirici 'viii' (iki uzay kurumunun ortaklığı) — aracın iki ülkenin ortak işi olduğu bu paragrafta geçiyor ve dikkat çekici duruyor; ama bu, aracı tanıtan bir yan bilgi, paragrafın derdi ortaklık değil iki görüntü arasındaki farkın neyi ele verdiği.",
+      "heading_check": "C paragrafi bastan sona tek bir isi kuruyor: yeni firlatilan radar araci yuzey dokusundaki ince degisimleri olcebiliyor; kirik enkaz radar dalgalarini guclu sactigi icin parlak, bozulmamis buz koyu gorunuyor; oyleyse depremden once ve sonra cekilmis iki goruntuyu yan yana koyunca yeni parlak lekeler yikimin kendisini gosteriyor. 'ix' bu ana fikri veriyor. En yakin celdirici 'vi' (iki uzay kurumunun ortakligi) - aracin iki ulkenin ortak isi oldugu tam da bu paragrafta, kanit cumlesinin icinde geciyor ve dikkat cekici duruyor; ama bu, araci tanitan bir yan bilgi, paragrafin derdi ortaklik degil iki goruntu arasindaki farkin neyi ele verdigi.",
       "feature_check": null,
       "grammar_check": null,
-      "explanation": "Paragraph C explains how comparing a radar image taken two days after the earthquake with one taken before it made the newly broken rock and snow visible.",
+      "explanation": "Paragraph C explains that the newly launched radar instrument measures changes in surface texture, so that comparing an image taken after the earthquake with one taken before it revealed the newly broken rock and snow.",
       "difficulty": "medium",
       "status": "verified",
       "blind_solvable": false
@@ -120,7 +129,7 @@
         "paragraph": "D",
         "sentence": 2
       },
-      "heading_check": "D paragrafı iki cümlede tek bir hat izliyor: uydu görüntüsünde belli olan yerler adlarıyla veriliyor, sonra 12 Aralık'ta yapılan yer incelemesi bu yerlerdeki yıkımı doğruluyor. 'iv' ikisini birden karşılıyor. En yakın çeldirici 'ix' (ülkenin en yüksek zirvesi) — paragrafta Mount Logan'ın Kanada'nın en yüksek tepesi olduğu geçiyor, üstelik bu kolay yakalanan bir bilgi; ama zirvenin yüksekliği paragrafın söylediği hiçbir şeyi taşımıyor, yalnızca yer tarif eden bir sıfat.",
+      "heading_check": "D paragrafi iki cumlede tek bir hat izliyor: uydu goruntusunde belli olan yerler adlariyla veriliyor, sonra 12 Aralik'ta yapilan yer incelemesi bu yerlerdeki yikimi dogruluyor. 'iv' ikisini birden karsiliyor. En yakin celdirici 'x' (ulkenin en yuksek zirvesi) - paragrafta Mount Logan'in Kanada'nin en yuksek tepesi oldugu geciyor, ustelik bu kolay yakalanan bir bilgi; ama zirvenin yuksekligi paragrafin soyledigi hicbir seyi tasimiyor, yalnizca yer tarif eden bir sifat.",
       "feature_check": null,
       "grammar_check": null,
       "explanation": "Paragraph D lists the places where the damage was most visible and states that the ground survey on 12 December confirmed what was seen from the satellite.",
@@ -132,14 +141,14 @@
       "number": 17,
       "prompt": "Paragraph E",
       "answer": [
-        "v"
+        "viii"
       ],
       "evidence": "One researcher who had spent years monitoring the region's ice remarked that the sheer number and magnitude of the avalanches and landslides was astounding, adding that nothing comparable had been documented there before.",
       "evidence_locator": {
         "paragraph": "E",
         "sentence": 2
       },
-      "heading_check": "E paragrafının üç cümlesi de aynı şeyi söylüyor: bölgeyi yıllardır izleyen uzmanlar bile gördükleri karşısında şaşırdı, çünkü bu ölçekte bir şey daha önce hiç kayda geçmemişti. 'v' bu benzersizliği veriyor. En yakın çeldirici 'vii' (yıkılan yamaçların sayımı) — paragraf çığ ve heyelanların 'sayısı ve büyüklüğü'nden söz ettiği için sayım başlığı yakın duruyor; ama E hiçbir sayı vermiyor, sayıyı veren B paragrafı; buradaki mesele rakam değil, rakamın karşılaştırılacak bir örneğinin olmaması.",
+      "heading_check": "E paragrafinin uc cumlesi de ayni seyi soyluyor: bolgeyi yillardir izleyen uzmanlar bile gordukleri karsisinda sasirdi, cunku bu olcekte bir sey daha once hic kayda gecmemisti. 'viii' bu benzersizligi veriyor. En yakin celdirici 'i' (yikilan yamaclarin sayimi) - paragraf cig ve heyelanlarin 'sayisi ve buyuklugu'nden soz ettigi icin sayim basligi yakin duruyor; ama E hicbir sayi vermiyor, sayiyi veren B paragrafi; buradaki mesele rakam degil, rakamin karsilastirilacak bir orneginin olmamasi.",
       "feature_check": null,
       "grammar_check": null,
       "explanation": "Paragraph E explains that even experienced glacier researchers were astonished by the scale of the destruction, and that nothing comparable had been documented in the region before.",
@@ -151,14 +160,14 @@
       "number": 18,
       "prompt": "Paragraph F",
       "answer": [
-        "vi"
+        "ii"
       ],
       "evidence": "Rather than being interrupted by the earthquake, this surging glacier appears to be acting as a natural conveyor belt, carrying the newly generated avalanche and landslide debris steadily downhill towards the sea.",
       "evidence_locator": {
         "paragraph": "F",
         "sentence": 2
       },
-      "heading_check": "F paragrafının iki cümlesi tek bir sonuca varıyor: depremden haftalar önce hızlanmış olan kol buzul deprem yüzünden durmadı, tersine yeni oluşan enkazı yamaç aşağı denize doğru taşıyan bir bant gibi çalışıyor. 'vi' bu ana fikri veriyor. En yakın çeldirici 'x' (yerinde donup kalan buzul) — paragraf 'deprem tarafından kesintiye uğramak yerine' diye kurulduğu için durma ihtimali okuyucunun aklına paragrafın kendisi tarafından sokuluyor; ama cümle tam da bunun olmadığını söylüyor, yani 'x' paragrafın tersini iddia ediyor.",
+      "heading_check": "F paragrafinin iki cumlesi tek bir sonuca variyor: depremden haftalar once hizlanmis olan kol buzul deprem yuzunden durmadi, tersine yeni olusan enkazi yamac asagi denize dogru tasiyan bir bant gibi calisiyor. 'ii' bu ana fikri veriyor. En yakin celdirici 'iii' (dagcilar ve seferler icin yeni tehlikeler) - paragraf yamaclardan asagi inen gevsek enkazi anlattigi icin tehlike basligi yakin duruyor; ama F hicbir insan ya da sefer anmiyor, tehlikeyi anlatan G paragrafi; buradaki mesele risk degil enkazin tasinmasi.",
       "feature_check": null,
       "grammar_check": null,
       "explanation": "Paragraph F explains that the surging glacier, which had sped up before the earthquake, did not stop, and instead carries the new debris steadily downhill towards the sea.",

@@ -41,7 +41,7 @@
   "items": [
     {
       "number": 23,
-      "prompt": "Within seconds of the first shaking, rock and ice broken loose by the quake were already coming down onto it.",
+      "prompt": "The slopes standing over it were stripped of rock and ice in the first seconds of the shaking.",
       "answer": [
         "D"
       ],
@@ -50,51 +50,33 @@
         "paragraph": "A",
         "sentence": 3
       },
-      "feature_check": "Karistirilabilecek ogeler E ve C. E: ayni cumle heyelan ve ciglerin 'daglarin genis bir kusagi boyunca' tetiklendigini soyluyor, dolayisiyla malzemenin siradaginin uzerine dustugu dusunulebilir. C: F paragrafi King George yakinlarindaki bir kol buzulunun yeni enkazi tasidigini anlatiyor. Cumlenin adlandirdigi hedef ise D; ayrim A/3'u okumayi gerektiriyor.",
+      "feature_check": "Sezgi A'ya (Yakutat) gidiyor: 'ustunde yamaclar bulunan yer' denince akla once bir yerlesim geliyor, ustelik Yakutat pasajda kiyi kasabasi olarak taniliyor - ama A/3 malzemenin bir yerlesime degil bolgenin en buyuk buz kutlelerinden birinin ustundeki yamaclardan koptugunu soyluyor. Ikinci rakip E: ayni cumle heyelanlarin 'daglarin genis bir kusagi boyunca' tetiklendigini soyluyor, dolayisiyla malzemenin siradaga dustugu dusunulebilir; cumlenin adlandirdigi hedef ise D. Ayrim yalniz A/3 okunarak yapiliyor.",
       "grammar_check": null,
-      "explanation": "Paragraph A says that within seconds the shaking tore loose rock and ice from slopes above one of the region's largest ice bodies.",
+      "explanation": "Paragraph A says the shaking tore loose rock and ice from the slopes above one of the region's largest ice bodies.",
       "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_basis": "option_wording",
-      "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: option_wording. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md",
-      "flag_mechanism": "konumsal_duzen",
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
       "revision": {
         "tarih": "2026-08-08",
         "mekanizma": "konumsal_duzen",
         "onceki_prompt": "In the first seconds of the shaking, rock and ice were torn away from the slopes standing over it.",
         "ne_degisti": "Ifadeden 'ustunde duran yamaclar' kaydi cikarildi. Bu kayit, secenekler icinde 'ustunde yamac bulunabilecek' tek ogeyi kendiliginden isaret ediyordu (bir siradaginin ustunde yamac olmaz). Yeni ifade yalniz malzemenin nereye indigini soruyor; ayni cumledeki 'genis bir kusak boyunca' kaydi E'yi gercek bir rakip yapiyor."
+      },
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "tur": "AC3 isaretli kalem elden gecirme (ozellik eslestirme paketi butun olarak yeniden kuruldu)",
+        "eski_prompt": "Within seconds of the first shaking, rock and ice broken loose by the quake were already coming down onto it.",
+        "eski_cevap": [
+          "D"
+        ],
+        "eski_kanit_cumlesi": "Within seconds the shaking triggered landslides and snow avalanches across a wide swathe of the mountains, tearing loose rock and ice from slopes above one of the region's largest ice bodies, Hubbard Glacier.",
+        "neden_elendi": "Ifade malzemenin nereye 'indigini' soruyordu; bes secenek icinde ustune bir seyin inebilecegi tek dusuk kotlu oge buzuldu, yani cevap secenek listesindeki tur uyusmasindan okunuyordu (olculen dayanak: option_wording). Sezgi dogrudan dogru cevaba gidiyordu.",
+        "ne_degisti": "Kanit ayni cumlede kaldi ama ifadenin ekseni 'nereye indi'den 'nerenin ustundeki yamaclar soyuldu'ya kaydirildi. Yeni ifadede sezgi yanlis secenege (A / Yakutat, pasajdaki tek yerlesim) capalandi; dogru cevap ancak A/3'un 'bolgenin en buyuk buz kutlelerinden birinin ustundeki yamaclar' kaydi okunarak bulunuyor."
       }
     },
     {
       "number": 24,
-      "prompt": "A single wide fall of debris down its side was the most conspicuous thing the earthquake produced anywhere in the range.",
-      "answer": [
-        "C"
-      ],
-      "evidence": "The most conspicuous single event showed up as a wide cascade of debris pouring down the flank of Mount King George, while further landslide scars were visible around Mount Logan, Canada's tallest peak.",
-      "evidence_locator": {
-        "paragraph": "D",
-        "sentence": 1
-      },
-      "feature_check": "Karistirilabilecek oge B: ayni cumlede aniliyor, ulkenin en yuksek tepesi oldugu icin 'en carpici olay' sezgisini ustune cekiyor ve cevredeki heyelan izleriyle birlikte veriliyor. Cumlenin ilk yarisi tek bir genis enkaz akisini acikca C'ye bagliyor; ikinci yarisi B'ye bagladigi sey tek bir akis degil, dagilmis izler.",
-      "grammar_check": null,
-      "explanation": "Paragraph D says the most conspicuous single event showed up as a wide cascade of debris pouring down the flank of this mountain.",
-      "difficulty": "hard",
-      "status": "verified",
-      "blind_solvable": false,
-      "blind_basis": null,
-      "flag_reason": "Cevap C, secenekler arasinda elemeyle bulunuyor: B ulkenin en yuksek tepesi oldugu icin 'en buyuk' cagrisimini ustune cekse de, 'tek bir olay olarak en goze carpani' ifadesi dogrudan bu dagin yamacindan inen genis enkaz akisina baglaniyor; B'ye baglanan ise tek bir akis degil, cevredeki baska kopma izleri.",
-      "flag_mechanism": "konumsal_duzen",
-      "revision": {
-        "tarih": "2026-08-08",
-        "mekanizma": "konumsal_duzen",
-        "onceki_prompt": "The clearest single event of all was a broad flow of loosened material down its side.",
-        "ne_degisti": "Ifade 25 numarayla kurdugu tamamlayicilik iliskisinden kurtarildi ve pasajin kendi olcegine ('en carpici tek olay') capalandi. Sezgi B'ye (Kanada'nin en yuksek tepesi) gidiyor, dogru cevap D/1'i okumayi gerektiriyor."
-      }
-    },
-    {
-      "number": 25,
       "prompt": "Fresh scars left by slipping ground could be picked out in the country around it.",
       "answer": [
         "B"
@@ -104,47 +86,101 @@
         "paragraph": "D",
         "sentence": 1
       },
-      "feature_check": "Karistirilabilecek ogeler C ve E. C: enkaz akisi da yeni bir kopma izi birakiyor, dolayisiyla 'yeni izler' ifadesi ona da uyuyor; ayrim izlerin dagin CEVRESINDE gorulmesinde. E: izler bir siradaginin geneline degil, adi verilen bir zirvenin cevresine baglanmis.",
+      "feature_check": "Karistirilabilecek ogeler C ve E. C: ayni cumlede anilan enkaz akisi da yeni bir kopma izi birakiyor ve 'en carpici olay' oldugu icin dikkati ustune cekiyor; ayrim izlerin dagin CEVRESINDE gorulmesinde. E: izler bir siradagin geneline degil, adi verilen tek bir zirvenin cevresine baglanmis. Cumlenin ikinci yarisi izleri acikca B'ye baglar.",
       "grammar_check": null,
       "explanation": "Paragraph D says that further landslide scars were visible around this mountain.",
       "difficulty": "hard",
       "status": "verified",
       "blind_solvable": false,
       "blind_basis": null,
-      "flag_reason": "Cevap B, cumlenin ikinci yarisinda 'en buyuk tek akisin baska yerde oldugu' kaydiyla ayirt ediliyor: en buyuk akis C'ye ait oldugu icin, 'cevresinde baska heyelan izleri gorulen ama en buyugu orada olmayan' yer elemeyle B (Mount Logan) olarak kaliyor; E de elenir, cunku izler bir siradagin geneline degil belirli bir zirveye bagli.",
-      "flag_mechanism": "konumsal_duzen",
+      "revision": {
+        "tarih": "2026-08-08",
+        "mekanizma": "konumsal_duzen",
+        "onceki_prompt": "The clearest single event of all was a broad flow of loosened material down its side.",
+        "ne_degisti": "Ifade 25 numarayla kurdugu tamamlayicilik iliskisinden kurtarildi ve pasajin kendi olcegine ('en carpici tek olay') capalandi. Sezgi B'ye (Kanada'nin en yuksek tepesi) gidiyor, dogru cevap D/1'i okumayi gerektiriyor."
+      },
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "tur": "AC3 isaretli kalem elden gecirme (ozellik eslestirme paketi butun olarak yeniden kuruldu)",
+        "eski_prompt": "A single wide fall of debris down its side was the most conspicuous thing the earthquake produced anywhere in the range.",
+        "eski_cevap": [
+          "C"
+        ],
+        "eski_kanit_cumlesi": "The most conspicuous single event showed up as a wide cascade of debris pouring down the flank of Mount King George, while further landslide scars were visible around Mount Logan, Canada's tallest peak.",
+        "neden_elendi": "24 ve 25 ayni kanit cumlesini (D/1) paylasiyordu; kanit butcesi bir cumlede en cok bir soruya izin veriyor. Ustelik ikisi birlikte okununca birbirini tamamliyordu: 'en buyuk akis' ile 'cevredeki izler' ayni cumlenin iki yarisi oldugu icin birini bilen otekini pasaja bakmadan cikarabiliyordu.",
+        "ne_degisti": "D/1 tek soruya birakildi: eski 25'in ifadesi (cevredeki kopma izleri) 24 numarali yuvaya alindi ve cevap B oldu. 'En carpici tek olay' kaydi hic kullanilmadigi icin B ile C arasindaki ayrim yalniz cumlenin ikinci yarisindan okunuyor."
+      }
+    },
+    {
+      "number": 25,
+      "prompt": "Parties setting out from the coast now face fresh dangers on its slopes, where firm ground may be hidden under loose debris.",
+      "answer": [
+        "E"
+      ],
+      "evidence": "It does, however, create new hazards for mountaineers and scientific expeditions that use Yakutat as a staging point for trips into the St Elias Mountains, since previously stable slopes and crevasse fields may now be masked by loose debris or freshly exposed ice.",
+      "evidence_locator": {
+        "paragraph": "G",
+        "sentence": 2
+      },
+      "feature_check": "Sezgi A'ya (Yakutat) gidiyor, cunku cumlede kiyidan yola cikma kaydi var ve Yakutat cikis noktasi olarak adlandiriliyor - ama tehlike Yakutat'ta degil, ekiplerin gittigi yerde, yani siradagin yamaclarinda. Ikinci rakip C: adi verilen bir zirvenin yamaclari da 'yamac' sayilir; G/2 tehlikeyi tek bir zirveye degil bolgenin tamamina bagliyor.",
+      "grammar_check": null,
+      "explanation": "Paragraph G says that expeditions setting out from the coast now face new hazards because previously stable slopes in this mountain range may be masked by loose debris.",
+      "difficulty": "hard",
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
       "revision": {
         "tarih": "2026-08-08",
         "mekanizma": "konumsal_duzen",
         "onceki_prompt": "Further marks left by slipping ground could be seen in the terrain around it, although the largest single flow was not there.",
         "ne_degisti": "Ifadeden 'ama en buyuk tek akis orada degildi' kaydi cikarildi. Bu kayit 24 ile 25'i birbirinin tersi haline getiriyordu: birini bilen otekini pasaja bakmadan cikarabiliyordu. Iki soru artik birbirinden bagimsiz iki ayrintiya capalanmis durumda."
+      },
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "tur": "AC3 isaretli kalem elden gecirme (ozellik eslestirme paketi butun olarak yeniden kuruldu)",
+        "eski_prompt": "Fresh scars left by slipping ground could be picked out in the country around it.",
+        "eski_cevap": [
+          "B"
+        ],
+        "eski_kanit_cumlesi": "The most conspicuous single event showed up as a wide cascade of debris pouring down the flank of Mount King George, while further landslide scars were visible around Mount Logan, Canada's tallest peak.",
+        "neden_elendi": "Kanit cumlesi (D/1) 24 ile paylasiliyordu ve pakette hicbir kalem A ile F paragraflari disina cikmiyordu; dort ifadenin dordu de isaretliydi, dolayisiyla paket bir butun olarak yeniden kuruldu.",
+        "ne_degisti": "Bu yuva D/1'den cikarilip pasajin hic kullanilmayan G paragrafina tasindi. Yeni ifade sezgiyi yanlis secenege (A / Yakutat) capaliyor: kiyidan yola cikilan yer Yakutat ama tehlikenin bulundugu yer siradag. Cevap E oldu."
       }
     },
     {
       "number": 26,
-      "prompt": "The epicentre is placed at a distance of about ninety kilometres from it.",
+      "prompt": "A glacier running down from its slopes was already moving unusually fast before the quake struck.",
       "answer": [
-        "A"
+        "C"
       ],
-      "evidence": "The epicentre lay in remote terrain roughly 90 kilometres north of the coastal town of Yakutat, Alaska, an area so thinly populated that the quake caused no reported casualties, yet its effects on the surrounding landscape were extraordinary.",
+      "evidence": "Adding to the complexity, a tributary glacier flowing from the slopes near Mount King George had already entered a fast-moving surge phase in November, weeks before the earthquake struck, and was travelling downslope at up to 6,000 metres a year, roughly 50 feet every day.",
       "evidence_locator": {
-        "paragraph": "A",
-        "sentence": 2
+        "paragraph": "F",
+        "sentence": 1
       },
-      "feature_check": "Karistirilabilecek oge E: acilis cumlesi depremin St Elias Daglari'nda oldugunu soyledigi icin uzakligin siradagdan olculdugu dusunulebilir. D de rakip, cunku ayni paragrafta merkez ussuyle birlikte aniliyor. Mesafenin olculdugu nokta yalniz A/2 okunarak bulunuyor.",
+      "feature_check": "Sezgi D'ye (Hubbard Glacier) gidiyor: ifadede buzul gecince secenek listesindeki tek buzul kendini one atiyor, oysa soru buzulun kendisini degil buzulun indigi yamaclarin sahibini istiyor. Ikinci rakip B: Kanada'nin en yuksek tepesi olmasi 'buyuk buzul' cagrisimini ustune cekiyor. F/1 hizli hareket eden kol buzulu acikca C'nin yamaclarina bagliyor.",
       "grammar_check": null,
-      "explanation": "Paragraph A says the epicentre lay in remote terrain roughly 90 kilometres north of this coastal town.",
-      "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_basis": "logic",
-      "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: logic. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md",
-      "flag_mechanism": "kip_imzasi",
+      "explanation": "Paragraph F says that a tributary glacier flowing from the slopes near this mountain had already entered a fast-moving phase before the earthquake.",
+      "difficulty": "hard",
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
       "revision": {
         "tarih": "2026-08-08",
         "mekanizma": "kip_imzasi",
         "onceki_prompt": "The quake began in remote country roughly ninety kilometres away from this settlement on the shore.",
         "ne_degisti": "Ifadeden 'kiyidaki bu yerlesim' tanimi cikarildi. Bu tanim, bes secenek icinde tek yerlesim olan ogeyi tur uyusmasiyla dogrudan veriyordu; geri kalanlar dag, buzul ya da siradag adi. Yeni ifade yalniz mesafeyi soruyor."
+      },
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "tur": "AC3 isaretli kalem elden gecirme (ozellik eslestirme paketi butun olarak yeniden kuruldu)",
+        "eski_prompt": "The epicentre is placed at a distance of about ninety kilometres from it.",
+        "eski_cevap": [
+          "A"
+        ],
+        "eski_kanit_cumlesi": "The epicentre lay in remote terrain roughly 90 kilometres north of the coastal town of Yakutat, Alaska, an area so thinly populated that the quake caused no reported casualties, yet its effects on the surrounding landscape were extraordinary.",
+        "neden_elendi": "Uzaklik bir yerlesimden olculur varsayimi bes secenek icindeki tek kasabayi (Yakutat) dogrudan veriyordu; olculen dayanak 'logic' idi. Ayrica A/2'nin sayisi tamamlama sorusuna daha uygun bir yuva.",
+        "ne_degisti": "Yuva A/2'den F/1'e tasindi ve cevap C oldu. Yeni ifadede sezgi yanlis secenege (D / Hubbard Glacier) capalandi: cumlede 'buzul' gectigi icin secenek listesindeki tek buzul kendini one atiyor, oysa istenen buzulun indigi yamaclarin sahibi. A/2 ise ayni testin tamamlama sorusuna (20) birakildi."
       }
     }
   ]

@@ -9,163 +9,145 @@
   "passage_id": "G06",
   "question_type": "summary_completion",
   "generated_by": "opus",
-  "instructions": "Complete the summary using the list of words and phrases, A-I, below.",
-  "word_limit": null,
-  "word_bank": [
-    {
-      "letter": "A",
-      "text": "a link rather than a cause"
-    },
-    {
-      "letter": "B",
-      "text": "a small part"
-    },
-    {
-      "letter": "C",
-      "text": "contradictory"
-    },
-    {
-      "letter": "D",
-      "text": "easily explained"
-    },
-    {
-      "letter": "E",
-      "text": "proof of a cause"
-    },
-    {
-      "letter": "F",
-      "text": "roughly half"
-    },
-    {
-      "letter": "G",
-      "text": "stable"
-    },
-    {
-      "letter": "H",
-      "text": "the main driver"
-    },
-    {
-      "letter": "I",
-      "text": "unproven suggestions"
-    }
-  ],
+  "instructions": "Complete the summary below.\n\nChoose NO MORE THAN THREE WORDS AND/OR A NUMBER from the passage for each answer.\n\nWrite your answers in boxes 37-40 on your answer sheet.",
+  "word_limit": "NO MORE THAN THREE WORDS AND/OR A NUMBER",
+  "word_bank": null,
   "visual": null,
-  "stem_block": "What lies behind the health advantage of volunteers?\n\nOne suggested route runs through money: unpaid work can broaden a person's contacts, teach them new skills and show employers that they can be relied on, all of which may raise what the household brings in, and better-off people do tend to rate their own health more highly. The survey figures bore out that first step. Once the strength of the earnings route was measured, though, it emerged that income carried (37) ........ of the overall link, with the remainder running through something the income figures could not reach. The team then repeated the analysis with narrower samples, with different thresholds for how often someone had to help out before they were classed as a volunteer, and with extra background variables added; across those versions the picture was (38) ........ . For the greater share of the effect that money cannot account for, the authors offer (39) ........ : a stronger sense of purpose and belonging, the walking and standing that helping often involves, or an influence on the hormones that govern stress. Turning to the finding as a whole, the authors describe what they have shown as (40) ........ .",
+  "stem_block": "The survey behind the study\n\nThe findings come from the sixth round of a large European survey, carried out in 2012 and 2013 across 29 countries. Once people who had not stated their earnings in full had been set aside, (37) ........ respondents were left in the analysis. How common regular volunteering was differed sharply from one country to another: in Germany, the Netherlands and Norway more than (38) ........ of those questioned said they took part, against fewer than one in ten in Bulgaria, Hungary and Lithuania. Turning to the money side of the story, the share of the link between volunteering and health that the income figures could not reach came to (39) ........ . As a further check, the team looked separately at the (40) ........ or so of the original sample who would not say what they earned, in case those people were unlike the rest.",
   "items": [
     {
       "number": 37,
-      "prompt": "Once the strength of the earnings route was measured, though, it emerged that income carried (37) ........ of the overall link, with the remainder running through something the income figures could not reach.",
+      "prompt": "Once people who had not stated their earnings in full had been set aside, (37) ........ respondents were left in the analysis.",
       "answer": [
-        "B"
+        "42,926"
       ],
       "accepted_variants": [
-        "B",
-        "a small part"
+        "42,926",
+        "42926"
       ],
-      "evidence": "Income differences accounted for well under a fifth of the total association between volunteering and self-rated health.",
+      "evidence": "After excluding respondents with incomplete income information, the analysis covered 42,926 individuals.",
       "evidence_locator": {
-        "paragraph": "F",
+        "paragraph": "B",
         "sentence": 2
       },
-      "explanation": "Paragraph F says that income differences accounted for well under a fifth of the total association between volunteering and self-rated health, so the earnings route carries only a small part of the link; the correct option is B.",
-      "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_basis": "logic",
-      "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: logic. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md",
-      "flag_mechanism": "esdizim_kilidi",
-      "revision": {
-        "tarih": "2026-08-08",
-        "mekanizma": "esdizim_kilidi",
-        "onceki_prompt": "Once the strength of the earnings route was measured, though, it turned out to carry only (37) ........ of the overall link, and the rest ran through something the income figures could not reach.",
-        "ne_degisti": "'it turned out to carry only (37)___' ifadesindeki 'only' kaldirildi: 'only' kucukluk bildirdigi icin bankadaki tek kucukluk ifadesini isaret ediyordu. Yeni cercevede F ('roughly half') ve H ('the main driver') de dilbilgisi ve anlam bakimindan uyuyor."
+      "explanation": "Paragraph B says that after respondents with incomplete income information were excluded, the analysis covered 42,926 individuals.",
+      "difficulty": "easy",
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "kaynak_prompt": "GT2 okuma - isaretli kalem elden gecirme (2026-08-18)",
+        "uretilen_grup": "Ozet tamamlama - GT2 (paket butun olarak yeniden kuruldu)",
+        "eski_prompt": "Once the strength of the earnings route was measured, though, it emerged that income carried (37) ........ of the overall link, with the remainder running through something the income figures could not reach.",
+        "eski_cevap": [
+          "B"
+        ],
+        "eski_kanit_cumlesi": "Income differences accounted for well under a fifth of the total association between volunteering and self-rated health.",
+        "neden_elendi": "Paketin dordu birden E7 2/2 parcasiz olcumunde dogru bilindi (dayanak: logic). Kok sebep tek tek kalemlerde degil paketin kurulusundaydi: kelime bankasi soyut nitelemelerden olusuyordu ('a small part', 'stable', 'unproven suggestions', 'a link rather than a cause') ve ozet metni yazinin muhakemesini bastan sona anlatiyordu; parcasiz bir aday yalnizca soylem mantigini izleyerek dordunu de yerlestirebiliyordu. Ayrica bu kalemin kaniti (F/2) baslik eslestirmesinin 31. kalemiyle ORTAKTI, yani tek cumlede iki soru vardi.",
+        "ne_degisti": "Paket bastan kuruldu. Bosluklar artik nitelemelere degil metnin kendi sectigi DEGERLERE aciliyor (sayi, oran, yuzde), boylece muhakemeyle doldurulamiyor; bunu mumkun kilmak icin kelime bankasi kaldirildi ve gorev 'pasajdan en cok uc kelime ve/veya bir sayi' bicimine gecirildi (soru tipi degismedi). Ozetin konusu da yazinin muhakemesinden (E-I) arastirmanin verisine kaydirildi. Bu kalem F/2'den B/2'ye tasindi; F/2'deki cumle cakismasi kalkti."
       }
     },
     {
       "number": 38,
-      "prompt": "The team then repeated the analysis with narrower samples, with different thresholds for how often someone had to help out before they were classed as a volunteer, and with extra background variables added; across those versions the picture was (38) ........ .",
+      "prompt": "In Germany, the Netherlands and Norway more than (38) ........ of those questioned said they took part, against fewer than one in ten in Bulgaria, Hungary and Lithuania.",
       "answer": [
-        "G"
+        "four in ten"
       ],
       "accepted_variants": [
-        "G",
-        "stable"
+        "four in ten",
+        "4 in 10"
       ],
-      "evidence": "In every version of the analysis the same basic pattern held: a small, statistically reliable health advantage for volunteers, only a modest share of which ran through income.",
+      "evidence": "More than four in ten respondents in Germany, the Netherlands and Norway said they volunteered regularly, compared with fewer than one in ten in Bulgaria, Hungary and Lithuania.",
       "evidence_locator": {
-        "paragraph": "G",
-        "sentence": 3
+        "paragraph": "D",
+        "sentence": 2
       },
-      "explanation": "Paragraph G says that in every version of the analysis the same basic pattern held; since the outcome did not change, the correct option is G.",
+      "explanation": "Paragraph D says more than four in ten respondents in Germany, the Netherlands and Norway said they volunteered regularly.",
       "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_basis": "logic",
-      "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: logic. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md",
-      "flag_mechanism": "esdizim_kilidi",
-      "revision": {
-        "tarih": "2026-08-08",
-        "mekanizma": "esdizim_kilidi",
-        "onceki_prompt": "The team then repeated the analysis with narrower samples, with different thresholds for how often someone had to help out before they were classed as a volunteer, and with extra background variables added, and the outcome stayed (38) ........ throughout.",
-        "ne_degisti": "'the outcome stayed ___ throughout' kalibi kaldirildi: 'stay stable' esdizimi boslugu tek basina dolduruyor, 'stayed contradictory' ise uymuyordu. Yeni cercevede ('across those versions the picture was ___') C ('contradictory') ve D ('easily explained') de uyuyor."
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "kaynak_prompt": "GT2 okuma - isaretli kalem elden gecirme (2026-08-18)",
+        "uretilen_grup": "Ozet tamamlama - GT2 (paket butun olarak yeniden kuruldu)",
+        "eski_prompt": "The team then repeated the analysis with narrower samples, with different thresholds for how often someone had to help out before they were classed as a volunteer, and with extra background variables added; across those versions the picture was (38) ........ .",
+        "eski_cevap": [
+          "G"
+        ],
+        "eski_kanit_cumlesi": "In every version of the analysis the same basic pattern held: a small, statistically reliable health advantage for volunteers, only a modest share of which ran through income.",
+        "neden_elendi": "Esdizim kilidi ve soylem mantigi bir arada: 'dayaniklilik sinamalari yapildi' diye baslayan bir cumlenin sonundaki bosluk, bankadaki tek 'degismedi' anlamli secenegi ('stable') zorunlu kiliyordu; parcaya bakmaya gerek kalmiyordu.",
+        "ne_degisti": "Bosluk bir nitelemeden bir ORANA cevrildi ve kanit G/3'ten D/2'ye, ulkeler arasi gonulluluk oranlarina tasindi. Cevap ('four in ten') metnin verdigi bir sayi; ozetin kalan kismi karsi ucu ('fewer than one in ten') verili olarak tasidigi icin bosluga muhakemeyle ulasmak mumkun degil, sayiyi bulmak gerekiyor."
       }
     },
     {
       "number": 39,
-      "prompt": "For the greater share of the effect that money cannot account for, the authors offer (39) ........ : a stronger sense of purpose and belonging, the walking and standing that helping often involves, or an influence on the hormones that govern stress.",
+      "prompt": "Turning to the money side of the story, the share of the link between volunteering and health that the income figures could not reach came to (39) ........ .",
       "answer": [
-        "I"
+        "four-fifths"
       ],
       "accepted_variants": [
-        "I",
-        "unproven suggestions"
+        "four-fifths",
+        "four fifths"
       ],
-      "evidence": "The authors suggest several candidate explanations for this unexplained majority of the effect, while stressing that their data cannot confirm any of them directly.",
+      "evidence": "The remaining four-fifths, the larger part of the story by a wide margin, operated through some other mechanism the income data could not capture.",
       "evidence_locator": {
-        "paragraph": "H",
-        "sentence": 1
+        "paragraph": "F",
+        "sentence": 3
       },
-      "explanation": "Paragraph H says the authors put forward several candidate explanations for the unexplained majority of the effect while stressing that their data cannot confirm any of them directly; so the correct option is I.",
-      "difficulty": "hard",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_basis": "logic",
-      "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: logic. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md",
-      "flag_mechanism": "esdizim_kilidi",
-      "revision": {
-        "tarih": "2026-08-08",
-        "mekanizma": "esdizim_kilidi",
-        "onceki_prompt": "For the greater share of the effect that money cannot account for, the authors have (39) ........ rather than firm answers: a stronger sense of purpose and belonging, the walking and standing that helping often involves, or a possible influence on the hormones that govern stress.",
-        "ne_degisti": "'___ rather than firm answers' karsitligi ve listedeki 'possible' niteleyicisi kaldirildi; ikisi de boslugun kesinlikten uzak bir sey oldugunu soyluyordu. Yeni cercevede E ('proof of a cause') de uyuyor ve secim H paragrafina bagli."
+      "explanation": "Paragraph F says the remaining four-fifths of the association operated through some other mechanism that the income data could not capture.",
+      "difficulty": "medium",
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "kaynak_prompt": "GT2 okuma - isaretli kalem elden gecirme (2026-08-18)",
+        "uretilen_grup": "Ozet tamamlama - GT2 (paket butun olarak yeniden kuruldu)",
+        "eski_prompt": "For the greater share of the effect that money cannot account for, the authors offer (39) ........ : a stronger sense of purpose and belonging, the walking and standing that helping often involves, or an influence on the hormones that govern stress.",
+        "eski_cevap": [
+          "I"
+        ],
+        "eski_kanit_cumlesi": "The authors suggest several candidate explanations for this unexplained majority of the effect, while stressing that their data cannot confirm any of them directly.",
+        "neden_elendi": "Bosluktan sonra gelen liste ('sunlar olabilir' bicimindeki uc olasilik) tek basina, bankadaki 'kanitlanmamis oneriler' secenegini zorunlu kiliyordu; parcasiz aday listeye bakip dogru harfi buluyordu.",
+        "ne_degisti": "Bosluk bir nitelemeden bir ORANA cevrildi; kanit H/1'den F/3'e tasindi. Cumle artik payin buyuk mu kucuk mu oldugunu ima etmiyor ('the share ... came to ___'), dolayisiyla muhakemeyle yon bulunamiyor, sayiyi metinden okumak gerekiyor. F/3 kalemi bugun 36. kalemin oradan cikmasiyla bosaldi."
       }
     },
     {
       "number": 40,
-      "prompt": "Turning to the finding as a whole, the authors describe what they have shown as (40) ........ .",
+      "prompt": "As a further check, the team looked separately at the (40) ........ or so of the original sample who would not say what they earned, in case those people were unlike the rest.",
       "answer": [
-        "A"
+        "eleven per cent"
       ],
       "accepted_variants": [
-        "A",
-        "a link rather than a cause"
+        "eleven per cent",
+        "11 per cent",
+        "eleven percent",
+        "11 percent",
+        "11%"
       ],
-      "evidence": "The authors are careful to describe their results as an association rather than proof that volunteering causes better health.",
+      "evidence": "They also examined whether people who declined to report their income, about eleven per cent of the original sample, differed systematically from those who did, since this could have biased the results.",
       "evidence_locator": {
-        "paragraph": "I",
-        "sentence": 1
+        "paragraph": "G",
+        "sentence": 2
       },
-      "explanation": "Paragraph I says the authors are careful to describe their results as an association rather than proof that volunteering causes better health; so the correct option is A.",
-      "difficulty": "easy",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_basis": "logic",
-      "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: logic. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md",
-      "flag_mechanism": "esdizim_kilidi",
-      "revision": {
-        "tarih": "2026-08-08",
-        "mekanizma": "esdizim_kilidi",
-        "onceki_prompt": "What the study demonstrates is therefore (40) ........ , and settling the matter would require a trial in which the chance to volunteer was handed out at random.",
-        "ne_degisti": "Bosluktan hemen onceki 'karistirici etkenler' cumlesi ile hemen sonraki 'rastgele atamali bir deneme gerekir' kaydi ozetten cikarildi; ikisi birlikte cevabi (yalnizca bir iliski) pasaja bakmadan soyluyordu. Yeni cumlede D ('easily explained') ve E ('proof of a cause') de uyuyor."
+      "explanation": "Paragraph G says the researchers examined whether the people who declined to report their income — about eleven per cent of the original sample — differed systematically from those who did.",
+      "difficulty": "hard",
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "kaynak_prompt": "GT2 okuma - isaretli kalem elden gecirme (2026-08-18)",
+        "uretilen_grup": "Ozet tamamlama - GT2 (paket butun olarak yeniden kuruldu)",
+        "eski_prompt": "Turning to the finding as a whole, the authors describe what they have shown as (40) ........ .",
+        "eski_cevap": [
+          "A"
+        ],
+        "eski_kanit_cumlesi": "The authors are careful to describe their results as an association rather than proof that volunteering causes better health.",
+        "neden_elendi": "Bir gozlem arastirmasinin bulgusunu 'neden degil iliski' diye nitelemek arastirma yazininin standart kapanisi; banka bu nitelemeyi hazir secenek olarak sundugu icin cevap parcasiz da biliniyordu.",
+        "ne_degisti": "Bosluk bir nitelemeden bir YUZDEYE cevrildi; kanit I/1'den G/2'ye, gelirini bildirmeyenlerin payina tasindi. Bu sayi arastirmanin kendi verisine ozgu, disaridan turetilemiyor. Not: paketin dordu de artik sayisal deger istedigi icin bu yuvanin cevabi ('eleven per cent') sette tekrar etmiyor ve baska hicbir GT2 kaleminin cevabiyla cakismiyor."
       }
     }
   ]

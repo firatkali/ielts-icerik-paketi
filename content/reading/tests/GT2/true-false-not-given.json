@@ -51,8 +51,19 @@
       "status": "verified",
       "blind_solvable": false,
       "blind_basis": null,
-      "flag_reason": "Ifadedeki 'every year' (her yil) genellemesi, metnin yalnizca 'this year's' (bu yilki) diye belirttigi tekil bir olayla celisiyor; bu kapsam genisletme sinyali parcaya bakmadan da NOT GIVEN'i isaret ediyor.",
-      "flag_mechanism": "kip_imzasi",
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "kaynak_prompt": "GT2 okuma - isaretli kalem elden gecirme (2026-08-18)",
+        "uretilen_grup": "TRUE/FALSE/NOT GIVEN - GT2",
+        "eski_prompt": "The festival takes place in Castle Park every year.",
+        "eski_cevap": [
+          "NOT GIVEN"
+        ],
+        "eski_kanit_cumlesi": null,
+        "neden_elendi": "Kip imzasi: tekil bir olayi anlatan metne 'her yil' kapsami eklendigi icin NOT GIVEN parcaya bakilmadan okunuyordu. Bu eski bicim 2026-08-08'de zaten degistirilmisti; bugunku turda kalemin uzerinde yalnizca eski isaret alanlari kalmisti.",
+        "ne_degisti": "Icerik degismedi, isaret alanlari temizlendi. Korunan bicim kor sinamadan geciyor: metni okumamis bir aday, festivallerin disaridan yiyecek sokmayi genelde yasakladigi genel bilgisiyle FALSE'a yoneliyor, dogru cevap ise NOT GIVEN. Kanit yok (NOT GIVEN), tarama alani B metninin son cumlesi; B metninin kanit yuku iki soruda kaliyor.",
+        "not": "Kanit cumlesi tasinmadi; kalem 2026-08-08 revizyonundan sonra olculup temiz cikmisti (blind_solvable false)."
+      },
       "revision": {
         "tarih": "2026-08-08",
         "mekanizma": "kip_imzasi",
@@ -79,8 +90,19 @@
       "status": "verified",
       "blind_solvable": false,
       "blind_basis": null,
-      "flag_reason": "Cevap TRUE, etkinliklerde onceden alinan biletlerin kapida alinandan daha ucuz olmasi yaygin ve evrensel bir bilet fiyatlandirma kurali; bu genel bilgiyle ifadenin dogru olmasi parcaya bakmadan da tahmin edilebiliyor.",
-      "flag_mechanism": "genel_kultur",
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "kaynak_prompt": "GT2 okuma - isaretli kalem elden gecirme (2026-08-18)",
+        "uretilen_grup": "TRUE/FALSE/NOT GIVEN - GT2",
+        "eski_prompt": "A weekend ticket bought in advance costs less than one bought at the gate.",
+        "eski_cevap": [
+          "TRUE"
+        ],
+        "eski_kanit_cumlesi": "Weekend tickets cost £45 in advance or £55 on the gate; day tickets are available only for Friday and Saturday.",
+        "neden_elendi": "Genel kultur: erken bilet indirimi evrensel bir fiyatlandirma kurali oldugu icin TRUE parcaya bakilmadan biliniyordu. Bu eski bicim 2026-08-08'de degistirilmisti; bugunku turda kalemin uzerinde yalnizca eski isaret alanlari kalmisti.",
+        "ne_degisti": "Icerik degismedi, isaret alanlari temizlendi. Korunan bicim genel kulturu tersine cevirdigi icin kor sinamadan geciyor: gunluk biletlerin her gun icin satildigi yaygin beklentisiyle hareket eden aday FALSE diyor, dogru cevap TRUE. Kanit B/3'te kaliyor, B metninin yuku iki soru.",
+        "not": "Kanit cumlesi tasinmadi; kalem 2026-08-08 revizyonundan sonra olculup temiz cikmisti (blind_solvable false)."
+      },
       "revision": {
         "tarih": "2026-08-08",
         "mekanizma": "genel_kultur",
@@ -107,8 +129,19 @@
       "status": "verified",
       "blind_solvable": false,
       "blind_basis": null,
-      "flag_reason": "Cevap TRUE, parsel/kiralama politikalarinda bir hakkin geri alinmasindan once yazili uyari verilmesinin yaygin bir idari adillik kurali olmasi genel bilgisiyle parcaya bakmadan da tahmin edilebiliyor.",
-      "flag_mechanism": "genel_kultur",
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "kaynak_prompt": "GT2 okuma - isaretli kalem elden gecirme (2026-08-18)",
+        "uretilen_grup": "TRUE/FALSE/NOT GIVEN - GT2",
+        "eski_prompt": "Plot holders are warned in writing before an uncultivated plot is offered to someone else.",
+        "eski_cevap": [
+          "TRUE"
+        ],
+        "eski_kanit_cumlesi": "Plot holders must keep at least 75% of their plot cultivated; uncultivated plots may be reassigned after two written warnings.",
+        "neden_elendi": "Genel kultur: bir hakkin geri alinmasindan once yazili uyari verilmesi yaygin idari adillik kurali oldugu icin TRUE parcaya bakilmadan tahmin ediliyordu. Bu eski bicim 2026-08-08'de degistirilmisti; bugunku turda kalemin uzerinde yalnizca eski isaret alanlari kalmisti.",
+        "ne_degisti": "Icerik degismedi, isaret alanlari temizlendi. Korunan bicim kor sinamadan geciyor: cevap metnin kendi sectigi %75 esiginin yuzde hesabina bagli, disaridan kestirilecek bir yani yok; ustelik boylesine ozgul bir oran gorunce aday NOT GIVEN'a yoneliyor, dogru cevap TRUE. Kanit C/3'te kaliyor.",
+        "not": "Kanit cumlesi tasinmadi; kalem 2026-08-08 revizyonundan sonra olculup temiz cikmisti (blind_solvable false)."
+      },
       "revision": {
         "tarih": "2026-08-08",
         "mekanizma": "genel_kultur",
@@ -151,8 +184,19 @@
       "status": "verified",
       "blind_solvable": false,
       "blind_basis": null,
-      "flag_reason": "Ifadedeki 'most popular' (en populer) ustunluk ifadesi, metnin comlekciligi yalniz elli dersten biri olarak andigi, hicbir ragbet siralamasi vermedigi bir yerde kurulmus; boyle bir siralama/ustunluk iddiasinin metinde karsiligi olmadigi icin bu tur mutlak dereceleme ifadeleri genelde NOT GIVEN'a isaret eder.",
-      "flag_mechanism": "kip_imzasi",
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "kaynak_prompt": "GT2 okuma - isaretli kalem elden gecirme (2026-08-18)",
+        "uretilen_grup": "TRUE/FALSE/NOT GIVEN - GT2",
+        "eski_prompt": "Pottery is the centre's most popular evening class.",
+        "eski_cevap": [
+          "NOT GIVEN"
+        ],
+        "eski_kanit_cumlesi": null,
+        "neden_elendi": "Kip imzasi: hicbir ragbet siralamasi verilmeyen bir metinde kurulan 'en populer' ustunluk kalibi tek basina NOT GIVEN'i veriyordu. Bu eski bicim 2026-08-08'de degistirilmisti; bugunku turda kalemin uzerinde yalnizca eski isaret alanlari kalmisti.",
+        "ne_degisti": "Icerik degismedi, isaret alanlari temizlendi. Korunan bicimde ustunluk ya da kapsam sozcugu yok; metnin ayrintisiyla duzenledigi iptal kuralinin karara baglanmamis bir yani soruluyor. Kanit yok (NOT GIVEN), tarama alani E metninin son cumlesi; E metninin kanit yuku bugun ucten ikiye dustu (14. kalem C metnine tasindi).",
+        "not": "Kanit cumlesi tasinmadi; kalem 2026-08-08 revizyonundan sonra olculup temiz cikmisti (blind_solvable false). Kalan risk: NOT GIVEN kalemlerinin dogasi geregi 'ilan bunu duzenlemez' sezgisi adayi dogru cevaba yaklastirabilir; sette ikinci bir NOT GIVEN (9) bulundugu icin bu risk tek kaleme yigilmiyor."
+      },
       "revision": {
         "tarih": "2026-08-08",
         "mekanizma": "kip_imzasi",
@@ -162,25 +206,36 @@
     },
     {
       "number": 14,
-      "prompt": "Job seekers are entitled to the same reduction as students.",
+      "prompt": "Renting a half plot costs less than half as much as renting a full plot.",
       "answer": [
-        "TRUE"
+        "FALSE"
       ],
-      "evidence": "Fees range from £60 to £110 depending on materials required; concessions of 50% are available to job seekers and students with valid identification.",
+      "evidence": "The annual rent is £45 for a full plot or £25 for a half plot, due by 1 March each year.",
       "evidence_locator": {
-        "text": "E",
-        "sentence": 3
+        "text": "C",
+        "sentence": 2
       },
-      "contradiction_point": null,
+      "contradiction_point": "Pasaj tam parselin yillik kirasini 45 sterlin, yarim parselinkini 25 sterlin veriyor. 45 sterlinin yarisi 22,50 sterlin oldugundan yarim parsel, tam parselin yarisindan daha PAHALI. Ifade bunun tersini soyluyor. Celiski tek noktada: 25 sterlin, 22,50 sterlinden buyuk.",
       "not_given_justification": null,
-      "scan_note": "Indirim E metninin 3. cumlesinde geciyor; ayni cumle ucret araligini (60-110 sterlin) de veriyor, indirimden yararlanan baska bir grup sayilmiyor.",
-      "explanation": "Text E says concessions of 50 per cent are available to job seekers and to students with valid identification, so both groups receive the same reduction.",
+      "scan_note": "Iki kira rakami yalniz C metninin 2. cumlesinde yan yana veriliyor. C/1 bekleme listesini, C/3 ekim oranini, C/4 sera-kulube iznini duzenliyor; parsel kirasi baska hicbir metinde gecmiyor, E metnindeki 60-110 sterlinlik rakamlar aksam kurslarinin ucreti.",
+      "explanation": "Notice C gives the annual rent as £45 for a full plot and £25 for a half plot. Half of £45 is £22.50, so a half plot in fact costs more than half the price of a full one, not less.",
       "difficulty": "medium",
       "status": "verified",
       "blind_solvable": false,
       "blind_basis": null,
-      "flag_reason": "Net bir mekanizma yok: gecerli kimlikli ogrencilere uygulanan indirim oraninin ('%50', yani yarisi) tam olarak ifadedeki 'half' ile eslesmesi, parcaya bakmadan tahmin edilemeyecek somut bir sayi; dogrulugu buyuk olcude sansa dayaniyor.",
-      "flag_mechanism": "belirsiz",
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "kaynak_prompt": "GT2 okuma - isaretli kalem elden gecirme (2026-08-18)",
+        "uretilen_grup": "TRUE/FALSE/NOT GIVEN - GT2",
+        "eski_prompt": "Job seekers are entitled to the same reduction as students.",
+        "eski_cevap": [
+          "TRUE"
+        ],
+        "eski_kanit_cumlesi": "Fees range from £60 to £110 depending on materials required; concessions of 50% are available to job seekers and students with valid identification.",
+        "neden_elendi": "Iki ayri sizinti bir aradaydi. (1) Genel kultur: yetiskin egitiminde is arayanlarla ogrencilere ayni indirimin taninmasi yerlesik uygulama, dolayisiyla TRUE parcaya bakilmadan tahmin edilebiliyordu. (2) Belirsizlik: cumledeki 'with valid identification' kaydinin yalniz ogrencilere mi yoksa iki gruba da mi bagli oldugu acik degil; bu yuzden 'tam olarak ayni indirim' iddiasi savunulabilir bicimde NOT GIVEN de sayilabiliyordu. Isaretin 'belirsiz' mekanizmasi tam olarak bu ikinci nokta.",
+        "ne_degisti": "Yuva ayni pasajin baska bir metnine tasindi: kanit E/3'ten C/2'ye (parsel kiralari) gecti; yeni kalem ne genel kulturle ne de kip sezgisiyle cozulmuyor, iki rakami karsilastirmayi gerektiriyor. Genel kultur bu kez YANLIS yone capalandi: 'yarim parsel yarim fiyat' beklentisiyle TRUE diyen aday yaniliyor, cevap FALSE. Butce etkisi: E metninin kanit yuku ucten ikiye dustu, C metni ikiden uce cikti (sinirin icinde), C/2 daha once hicbir soru tarafindan kullanilmiyordu. Set dagilimi da duzeldi: 2 TRUE / 3 FALSE / 2 NOT GIVEN, kesin dilli 4 ifadenin 1'i TRUE, olculu 3 ifadenin 1'i TRUE."
+      },
       "revision": {
         "tarih": "2026-08-08",
         "mekanizma": "belirsiz",

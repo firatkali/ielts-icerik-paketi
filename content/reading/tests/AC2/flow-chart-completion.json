@@ -13,36 +13,44 @@
   "word_limit": "NO MORE THAN THREE WORDS AND/OR A NUMBER",
   "word_bank": null,
   "visual": null,
-  "stem_block": "From the first images to what the find shows\n\nThe Near-Infrared Camera records a run of long exposures, each of (1) ........ , as a faint speck is followed against the background of stars.\n    ↓\nThe speck is accepted as a body circling Uranus, and the addition to the planet's moon family is announced in (2) ........ .\n    ↓\nToo faint to be measured directly, the object has its width put at about (3) ........ , which makes it one of the smallest moons known anywhere.\n    ↓\nIts path proves to be almost circular and to lie in the gap between Bianca and (4) ........ , not far from the plane of the planet's equator.\n    ↓\nThe moon is counted as the (5) ........ member of the planet's crowd of small inner satellites.\n    ↓\nThe team lead's comment: an object that slipped past even a (6) ........ shows how much of a well-studied planetary system can still lie hidden.",
+  "stem_block": "From the first images to what the find shows\n\nWebb's Near-Infrared Camera records a run of (1) ........ long exposures, tracking a faint speck against the background of stars.\n    ↓\nThe speck is accepted as a body circling Uranus, and the addition to the planet's moon family is announced in (2) ........ .\n    ↓\nWith the newcomer counted in, the number of moons known to circle Uranus reaches (3) ........ .\n    ↓\nIts path proves to be almost circular and to lie in the gap between Bianca and (4) ........ , not far from the plane of the planet's equator.\n    ↓\nBecause of its size, the object had gone unnoticed for the nearly (5) ........ between Voyager 2's flyby and Webb's images.\n    ↓\nThe find is presented in the end as much a tribute to Voyager 2's legacy as a correction of its (6) ........ .",
   "items": [
     {
       "number": 1,
-      "prompt": "The Near-Infrared Camera records a run of long exposures, each of (1) ........ , as a faint speck is followed against the background of stars.",
+      "prompt": "Webb's Near-Infrared Camera records a run of (1) ........ long exposures, tracking a faint speck against the background of stars.",
       "answer": [
-        "forty minutes"
+        "ten"
       ],
       "accepted_variants": [
-        "forty minutes",
-        "40 minutes"
+        "ten",
+        "10"
       ],
       "evidence": "On 2 February 2025, Webb's Near-Infrared Camera captured a series of ten long-exposure images, each lasting forty minutes, over a period of roughly six hours, tracking a faint point of light moving against the background of stars in a pattern consistent with an object orbiting Uranus itself.",
       "evidence_locator": {
         "paragraph": "B",
         "sentence": 2
       },
-      "explanation": "Paragraph B says Webb's Near-Infrared Camera captured a series of long-exposure images, each lasting forty minutes; the gap asks how long a single exposure ran, so the answer is 'forty minutes'.",
-      "difficulty": "easy",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_solvable_kelime_duzeyi": false,
-      "blind_basis": "general_knowledge",
-      "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: general_knowledge. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md",
-      "flag_mechanism": "esdizim_kilidi",
+      "explanation": "Paragraph B says the Near-Infrared Camera captured a series of ten long-exposure images; the gap asks how many exposures the run contained, so the answer is 'ten'.",
+      "difficulty": "medium",
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
       "revision": {
         "tarih": "2026-08-08",
         "mekanizma": "esdizim_kilidi",
         "onceki_prompt": "The Near-Infrared Camera records ten long exposures, each of (1) ........ , while a faint speck is followed against the star background for roughly six hours.",
         "ne_degisti": "Kutu hem poz sayisini ('ten') hem toplam sureyi ('roughly six hours') veriyordu; 6 saat / 10 = 36 ~ 40 dakika islemi cevabi pasaja hic bakmadan veriyordu. Sizinti burada esdizim degil aritmetikti; iki sayi da kutudan cikarildi ve akis semasinin baska bir yerinde tekrar edilmedi."
+      },
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "mekanizma": "esdizim_kilidi",
+        "eski_prompt": "The Near-Infrared Camera records a run of long exposures, each of (1) ........ , as a faint speck is followed against the background of stars.",
+        "eski_cevap": [
+          "forty minutes"
+        ],
+        "eski_kanit_cumlesi": "On 2 February 2025, Webb's Near-Infrared Camera captured a series of ten long-exposure images, each lasting forty minutes, over a period of roughly six hours, tracking a faint point of light moving against the background of stars in a pattern consistent with an object orbiting Uranus itself.",
+        "neden_elendi": "Bosluk 'each of ___' esdizim obeginin ucuna aciliyordu: kok tek basina okununca istenen seyin bir sure oldugu belliydi ve poz suresi olarak 'forty minutes' anlam duzeyinde parcasiz uretilebiliyordu (E7 3/3 anlam, kelime duzeyi degil).",
+        "ne_degisti": "Bosluk ayni cumlede kalibin ucundan kaynagin sectigi sayima tasindi: sorulan sey artik pozun suresi degil, cekilen poz sayisi. Kutudan 'forty minutes' de cikarildi, boylece 5. kutudaki 'forty years' ile sozcuk yankisi kalmadi ve hicbir aritmetik kestirme kurulamiyor."
       }
     },
     {
@@ -81,42 +89,36 @@
     },
     {
       "number": 3,
-      "prompt": "Too faint to be measured directly, the object has its width put at about (3) ........ , which makes it one of the smallest moons known anywhere.",
+      "prompt": "With the newcomer counted in, the number of moons known to circle Uranus reaches (3) ........ .",
       "answer": [
-        "ten kilometres"
+        "twenty-nine"
       ],
       "accepted_variants": [
-        "ten kilometres",
-        "ten kilometers",
-        "10 kilometres",
-        "10 km",
-        "six miles"
+        "twenty-nine",
+        "29"
       ],
-      "evidence": "Because it has not been imaged in enough detail to measure directly, its size has to be estimated: assuming it reflects light in a similar way to Uranus's other small moons, astronomers calculate a diameter of about six miles, or ten kilometres, making it one of the smallest moons known anywhere in the solar system.",
+      "evidence": "With this addition, Uranus's known moon count rises to twenty-nine, and the new object becomes the fourteenth member of its group of small inner moons, a crowd that orbits far closer to the planet than its five largest and best-known satellites, Miranda, Ariel, Umbriel, Titania and Oberon.",
       "evidence_locator": {
-        "paragraph": "C",
-        "sentence": 2
+        "paragraph": "E",
+        "sentence": 1
       },
-      "explanation": "Paragraph C says astronomers calculate a diameter of about six miles, or ten kilometres, making it one of the smallest moons known; so the answer is 'ten kilometres' (or the same figure in miles).",
+      "explanation": "Paragraph E says that with this addition Uranus's known moon count rises to twenty-nine; the fourteenth in the same sentence counts only the group of small inner moons, so the answer is 'twenty-nine'.",
       "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_basis": "general_knowledge",
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
       "generated_by": "opus",
       "yeniden_uretim": {
-        "tarih": "2026-08-08",
-        "kaynak_prompt": "prompts/OPUS5-E6-yeniden-uretim.md (6/7)",
-        "uretilen_grup": "Tamamlama ailesi yuvalari",
-        "eski_prompt": "As the object is too faint to measure directly, its width is put at some ten kilometres, on the assumption that it (3) ........ light much as Uranus's other small moons do.",
+        "tarih": "2026-08-18",
+        "mekanizma": "genel_kultur",
+        "eski_prompt": "Too faint to be measured directly, the object has its width put at about (3) ........ , which makes it one of the smallest moons known anywhere.",
         "eski_cevap": [
-          "reflects"
+          "ten kilometres"
         ],
         "eski_kanit_cumlesi": "Because it has not been imaged in enough detail to measure directly, its size has to be estimated: assuming it reflects light in a similar way to Uranus's other small moons, astronomers calculate a diameter of about six miles, or ten kilometres, making it one of the smallest moons known anywhere in the solar system.",
-        "neden_elendi": "Bosluk 'it ___ light' kalibinin ortasinda ve bir gok cisminin parlakligindan cap tahmin etme varsayimi Ingilizcede yalniz 'reflect' fiiliyle kuruluyor. Fiili baska bir cerceveye tasimak ya cumleyi bozuyor ya da cevabi sifat bicimine ('reflective') ceviriyor, yani korunan alani degistiriyor. E6 bu adimi cap tahmininin sayisina ya da 'too faint to measure directly' gerekcesine capalamali.",
-        "ne_degisti": "Eski kutu ayni cumleye capaliydi ama bosluk 'it ___ light' kalibinin ortasindaydi ve parlakliktan cap tahmini Ingilizcede yalniz 'reflect' fiiliyle kuruluyordu. E5'in kendi onerisi uyarinca bosluk ayni cumlenin OLCULEN degerine tasindi: varsayimin fiili artik sorulmuyor, sorulan sey hesaplanan capin kendisi. Sizdiran oge (fiil kalibi) cerceveden tumuyle kalkti; yeni hedefin disaridan turetilebilir bir karsiligi yok."
-      },
-      "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: general_knowledge. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md",
-      "flag_mechanism": "genel_kultur"
+        "neden_elendi": "Cevap ('ten kilometres') dunya bilgisiyle uretilebiliyordu: kucuk bir ic uydunun capinin on kilometre mertebesinde olmasi gezegen bilimi genel kulturu; E7 uc turda da anlam duzeyinde dogru bildi.",
+        "ne_degisti": "Kanit ayni pasajin baska bir cumlesine (E/1) kaydirildi ve hedef, calismanin kendi sectigi bir sayima cevrildi. Yaygin bilgi burada YANLIS secenege capali: Uranus'un uydu sayisi olarak genel kulturde 27 dolasiyor, metnin verdigi sayi ise 29. C/2'ye artik hicbir soru degmiyor."
+      }
     },
     {
       "number": 4,
@@ -139,62 +141,67 @@
     },
     {
       "number": 5,
-      "prompt": "The moon is counted as the (5) ........ member of the planet's crowd of small inner satellites.",
+      "prompt": "Because of its size, the object had gone unnoticed for the nearly (5) ........ between Voyager 2's flyby and Webb's images.",
       "answer": [
-        "fourteenth"
+        "forty years"
       ],
       "accepted_variants": [
-        "fourteenth",
-        "14th"
+        "forty years",
+        "40 years"
       ],
-      "evidence": "With this addition, Uranus's known moon count rises to twenty-nine, and the new object becomes the fourteenth member of its group of small inner moons, a crowd that orbits far closer to the planet than its five largest and best-known satellites, Miranda, Ariel, Umbriel, Titania and Oberon.",
+      "evidence": "Its size simply placed it below the threshold that Voyager's instruments, or any Earth-based telescope in the decades since, could resolve, meaning the moon had been circling Uranus unnoticed for the nearly forty years between that flyby and Webb's observations.",
       "evidence_locator": {
-        "paragraph": "E",
-        "sentence": 1
+        "paragraph": "F",
+        "sentence": 3
       },
-      "explanation": "Paragraph E says the new object is the fourteenth member of the group of small inner moons; the number twenty-nine is the total count of all of Uranus's known moons, so the answer is 'fourteenth'.",
+      "explanation": "Paragraph F says the moon had been circling Uranus unnoticed for the nearly forty years between the flyby and Webb's observations, so the answer is 'forty years'.",
       "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_basis": "guess",
-      "flag_reason": "Net bir mekanizma yok: bosluk kucuk ic uydular grubundaki sira numarasini istiyor, bu sayi parcaya bakmadan tahmin edilemeyecek kadar spesifik; dogru sayinin (fourteenth) tutturulmasi buyuk olcude sansa dayaniyor.",
-      "flag_mechanism": "belirsiz",
-      "review_note": "E5 / 6. calistirma: dokunulmadi. E1'in gerekcesi boslugun istedigi sira numarasinin 'parcaya bakmadan tahmin edilemeyecek kadar spesifik' oldugunu soyluyor - yani gerekce sizintiyi degil sizintinin yoklugunu anlatiyor; blind_basis 'guess'. 4. calistirma ayni akis semasinin 1. kutusundaki hesaplanabilir bosluk sorununu zaten kapatmisti. Duzeltme yapilmadi, E7 yeniden olcmeli."
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "mekanizma": "belirsiz",
+        "eski_prompt": "The moon is counted as the (5) ........ member of the planet's crowd of small inner satellites.",
+        "eski_cevap": [
+          "fourteenth"
+        ],
+        "eski_kanit_cumlesi": "With this addition, Uranus's known moon count rises to twenty-nine, and the new object becomes the fourteenth member of its group of small inner moons, a crowd that orbits far closer to the planet than its five largest and best-known satellites, Miranda, Ariel, Umbriel, Titania and Oberon.",
+        "neden_elendi": "Gerekce iki cevabin savunulabildigini soyluyordu: kanit cumlesi ayni anda iki sayi tasiyor (yirmi dokuz toplam uydu, on dorduncu ic uydu) ve kutu hangisinin istendigini yeterince ayirmiyordu; dogru sirayi tutturmak buyuk olcude sansa kaliyordu.",
+        "ne_degisti": "Rakip sayi sorunu kokten kaldirildi: kutu artik iki sayili E/1 cumlesine degil, tek bir sureyi veren F/3'e capali. Rakip aday (1986'yi bilip 2025'ten cikaran adayin bulacagi 'thirty-nine years') metinde yok; pasaj 'nearly forty years' diyor, yani disaridan hesaplayan aday yanlis yazar."
+      }
     },
     {
       "number": 6,
-      "prompt": "The team lead's comment: an object that slipped past even a (6) ........ shows how much of a well-studied planetary system can still lie hidden.",
+      "prompt": "The find is presented in the end as much a tribute to Voyager 2's legacy as a correction of its (6) ........ .",
       "answer": [
-        "dedicated flyby mission"
+        "limits"
       ],
       "accepted_variants": [
-        "dedicated flyby mission"
+        "limits"
       ],
-      "evidence": "As El Moutamid noted, the moon is small, but finding something that even a dedicated flyby mission missed underlines how much of even a well-studied planetary system can still remain hidden from view.",
+      "evidence": "In that sense, the discovery is as much a tribute to Voyager 2's legacy as a correction of its limits: it is precisely because scientists have spent decades studying the images that spacecraft sent back that they know exactly where, and how carefully, to look with today's far more sensitive instruments.",
       "evidence_locator": {
         "paragraph": "H",
-        "sentence": 2
+        "sentence": 3
       },
-      "explanation": "Paragraph H quotes the team lead as saying that finding something even a dedicated flyby mission missed shows how much of a well-studied planetary system can remain hidden; so the answer is 'dedicated flyby mission'.",
+      "explanation": "Paragraph H says the discovery is as much a tribute to Voyager 2's legacy as a correction of its limits, so the answer is 'limits'.",
       "difficulty": "hard",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_basis": "general_knowledge",
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
       "generated_by": "opus",
       "yeniden_uretim": {
-        "tarih": "2026-08-08",
-        "kaynak_prompt": "prompts/OPUS5-E6-yeniden-uretim.md (6/7)",
-        "uretilen_grup": "Tamamlama ailesi yuvalari",
-        "eski_prompt": "A lasting name, drawn from plays and poetry rather than from myth, still has to be approved by the (6) ........ .",
+        "tarih": "2026-08-18",
+        "mekanizma": "genel_kultur",
+        "eski_prompt": "The team lead's comment: an object that slipped past even a (6) ........ shows how much of a well-studied planetary system can still lie hidden.",
         "eski_cevap": [
-          "International Astronomical Union"
+          "dedicated flyby mission"
         ],
-        "eski_kanit_cumlesi": "Following long tradition, Uranus's moons are named not after figures from classical mythology, as is usual elsewhere in the solar system, but after characters drawn from the plays of Shakespeare and the poetry of Alexander Pope; the newcomer's eventual name will still need formal approval from the International Astronomical Union.",
-        "neden_elendi": "Cevabin kendisi bir ozel ad ve dunya bilgisi: gok cismi adlarini onaylayan kurumun Uluslararasi Astronomi Birligi olmasi astronominin en cok bilinen kurumsal gercegi; model uc turda da adin tamamini yazdi (3/3 PUAN). Kutunun kalan icerigi (Shakespeare ve Pope gelenegi) degistirilse bile 'onaylayan kurum' sorusunun tek cevabi ayni kalir. E6 onerisi: E/2'nin gelenek yarisi - adlarin mitolojiden degil oyun ve siirden secilmesi.",
-        "ne_degisti": "Eski kutu E/2'ye capaliydi ve cevap bir ozel ad ve dunya bilgisiydi (gok cismi adlarini onaylayan kurum). Ayni cumlenin oteki yarisi (Shakespeare ve Pope gelenegi) da ayni olcude taniniyor, o yuzden E/2 tumuyle birakildi ve akis semasinin son adimi adlandirmadan cikarildi; sema basligi da buna gore degistirildi. Kanit H/2'ye, ekip liderinin degerlendirmesine tasindi."
-      },
-      "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: general_knowledge. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md",
-      "flag_mechanism": "genel_kultur"
+        "eski_kanit_cumlesi": "As El Moutamid noted, the moon is small, but finding something that even a dedicated flyby mission missed underlines how much of even a well-studied planetary system can still remain hidden from view.",
+        "neden_elendi": "Cevap ('dedicated flyby mission') dunya bilgisiyle geliyordu: bir gezegenin uydularini yakindan goren seyin yakin gecis gorevi olmasi uzay haberlerinin standart bilgisi; E7 uc turda da anlam duzeyinde dogru bildi.",
+        "ne_degisti": "Kanit ayni paragrafta bir sonraki cumleye (H/3) kaydirildi ve hedef gorev turunun adi olmaktan cikip metnin kendi degerlendirme sozcugune cevrildi. 'a correction of its ___' cercevesine disaridan bir tek aday gelmiyor (limitations, errors, blind spots hepsi olasi), yani kelime duzeyinde pasaj zorunlu."
+      }
     }
   ]
 }

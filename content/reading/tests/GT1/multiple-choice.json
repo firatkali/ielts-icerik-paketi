@@ -8,29 +8,83 @@
   "practice": false,
   "passage_id": "G03",
   "question_type": "multiple_choice",
-  "generated_by": "fable",
+  "generated_by": "opus",
   "instructions": "Choose the correct letter, A, B, C or D.\nWrite the correct letter in boxes 21 and 22 on your answer sheet.\n\nChoose TWO letters, A-G.\nWrite the correct letters in boxes 23 and 24 on your answer sheet.",
   "items": [
     {
       "number": 21,
       "select_count": 1,
-      "prompt": "What must an employee who forgets their clock-in card do?",
+      "prompt": "What does the handbook say about the card reader at the staff entrance?",
       "options": [
         {
           "letter": "A",
-          "text": "Report to their supervisor before that shift ends"
+          "text": "It is used only at the beginning and the end of the working day"
         },
         {
           "letter": "B",
-          "text": "Collect a form for it from the staff office"
+          "text": "Supervisors enter the hours of staff who have lost their card"
         },
         {
           "letter": "C",
-          "text": "Have the day's hours checked by hand instead"
+          "text": "It must also be used at the start and the end of the lunch break"
         },
         {
           "letter": "D",
-          "text": "Have the day recorded as a formal attendance concern"
+          "text": "It notes automatically when someone arrives more than ten minutes late"
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "evidence": "All staff must clock in and out using the card reader at the staff entrance, including for lunch breaks.",
+      "evidence_locator": {
+        "text": "A",
+        "paragraph": "C",
+        "sentence": 1
+      },
+      "distractor_analysis": {
+        "A": "Genel is yeri sezgisi -- ucretsiz ogle molasinda kart basilmamasi cok yaygin bir uygulama ve parcasiz okuyan buraya gidiyor; C/1 tam tersini soyluyor, ogle molasi da dahil giris ve cikis kart okuyucuya isleniyor.",
+        "B": "Cazip ama yok -- kartini kaybeden calisanin saatlerini amirin girmesinden hic soz edilmiyor; C/2 yalniz amire bildirmeyi ve tekrarlanan hatada saatlerin elle dogrulanmasini anlatiyor.",
+        "D": "Yer degistirme -- on dakikadan fazla gecikme C/3'te gecer, ama orada olcut kart okuyucunun otomatik kaydi degil, bir aylik donem icinde uc kez tekrarlanmasidir."
+      },
+      "explanation": "Paragraph C of Text A says all staff must clock in and out using the card reader at the staff entrance, including for lunch breaks.",
+      "difficulty": "medium",
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "uretilen_grup": "GT1 coktan secmeli - paketin ucu de yeniden dusunuldu",
+        "eski_prompt": "What must an employee who forgets their clock-in card do?",
+        "eski_cevap": [
+          "A"
+        ],
+        "eski_kanit_cumlesi": "Employees who forget their card should report to their supervisor within the same shift; repeated failure to clock in correctly may result in pay being withheld until hours are verified manually.",
+        "neden_elendi": "Genel kultur: 'kartini unuttuysan amirine haber ver' her is yerinde gecerli refleks; dogru secenek genel kulturun ta kendisi oldugu icin secenekler yeniden yazilsa da cevap disaridan cikiyordu.",
+        "ne_degisti": "Kanit ayni paragrafin ilk cumlesine (A metni C/1) tasindi ve E6 tekniği uygulandi: genel kultur artik YANLIS secenege capali. Parcasiz okuyan 'ucretsiz ogle molasinda kart basilmaz' beklentisiyle A'ya gider; metin bunun tersini soyledigi icin dogru cevap C. Cevap harfi A'dan C'ye kaydirildi."
+      },
+      "generated_by": "opus"
+    },
+    {
+      "number": 22,
+      "select_count": 1,
+      "prompt": "What may happen to an employee who repeatedly fails to clock in correctly?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Their pay may be held back until their hours are checked by hand"
+        },
+        {
+          "letter": "B",
+          "text": "They may have a formal attendance concern recorded against them"
+        },
+        {
+          "letter": "C",
+          "text": "They may have to collect a replacement card from the staff office"
+        },
+        {
+          "letter": "D",
+          "text": "They may lose the right to swap shifts with a colleague"
         }
       ],
       "answer": [
@@ -43,159 +97,97 @@
         "sentence": 2
       },
       "distractor_analysis": {
-        "B": "Yer degistirme -- personel ofisinden alinan form, C paragrafinda degil D paragrafinda geciyor ve vardiya takasi icin kullaniliyor; kartini unutan calisan icin bir form ongorulmuyor.",
-        "C": "Kapsam kaydirma -- saatlerin elle dogrulanmasi tek seferlik unutmanin degil, tekrar tekrar dogru giris yapmamanin sonucu olarak veriliyor (C/2).",
-        "D": "Yer degistirme -- resmi devamsizlik kaydi, bir aylik donem icinde uc kez on dakikadan fazla gec kalmanin sonucu (C/3); kart unutmanin degil."
+        "B": "Genel is yeri sezgisi -- tekrarlanan kusurun karsiligi cogu yerde yazili uyaridir ve parcasiz okuyan buraya gidiyor; ama C/3'teki resmi devamsizlik kaydi gecikme icin ongoruluyor (bir aylik donem icinde uc kez on dakikadan fazla), kart basma hatasi icin degil.",
+        "C": "Cazip ama yok -- personel ofisinden alinan tek belge vardiya takasi formu (D/1); yedek karttan hicbir yerde soz edilmiyor.",
+        "D": "Cazip ama yok -- vardiya takasi hakkinin kaybi metinde gecmiyor; D paragrafi takasi yalniz yazili bildirim, haftalik saat ve dinlenme suresi kosullarina bagliyor."
       },
-      "explanation": "Paragraph C of Text A says that employees who forget their card should report to their supervisor within the same shift.",
+      "explanation": "Paragraph C of Text A says that repeated failure to clock in correctly may result in pay being withheld until the hours are verified manually.",
       "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_basis": "general_knowledge",
-      "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: general_knowledge. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md",
-      "flag_mechanism": "konumsal_duzen",
-      "revision": {
-        "tarih": "2026-08-08",
-        "mekanizma": "konumsal_duzen",
-        "onceki_prompt": "What must an employee who forgets their clock-in card do?",
-        "onceki_secenekler": {
-          "A": "Tell their supervisor before the shift is over",
-          "B": "Ask the staff office to record their hours",
-          "C": "Collect a spare card from the staff entrance",
-          "D": "Accept that the day's pay will be delayed"
-        },
-        "ne_degisti": "Eski C ('personel girisinden yedek kart almak') pasajda hic gecmeyen uydurma bir islemdi ve parcasiz elenebiliyordu; B ve D ise cerceve disinda kaliyordu. Dort secenek de artik el kitabinin C ve D paragraflarinda gercekten bulunan islemler (amire bildirme, personel ofisi formu, saatlerin elle dogrulanmasi, resmi devamsizlik kaydi); hangisinin kart unutmaya ait oldugunu bulmak icin C/2'yi okumak gerekiyor."
-      }
-    },
-    {
-      "number": 22,
-      "select_count": 1,
-      "prompt": "When is lateness recorded as a formal attendance concern?",
-      "options": [
-        {
-          "letter": "A",
-          "text": "After a single delay of about half an hour"
-        },
-        {
-          "letter": "B",
-          "text": "After being more than ten minutes late three times in a rolling month"
-        },
-        {
-          "letter": "C",
-          "text": "After ten minutes' lateness on two shifts in the same week"
-        },
-        {
-          "letter": "D",
-          "text": "After any lateness that leaves a production line unattended"
-        }
-      ],
-      "answer": [
-        "B"
-      ],
-      "evidence": "Persistent lateness of more than ten minutes on three occasions within a rolling month will be recorded as a formal attendance concern.",
-      "evidence_locator": {
-        "text": "A",
-        "paragraph": "C",
-        "sentence": 3
-      },
-      "distractor_analysis": {
-        "A": "Cazip ama yok -- tek seferlik uzun bir gecikme icin ayri bir kural verilmiyor; olcut gecikmenin uzunlugu degil tekrar sayisi.",
-        "C": "Sayi kaydirma -- esik bir hafta icinde iki degil, bir aylik donem icinde UC kez on dakikadan fazla gecikme.",
-        "D": "Yer degistirme -- uretim hattinin bos kalmamasi molalarin donusumlu kullanilmasiyla ilgili bir kural (B/2); devamsizlik kaydinin olcutu degil."
-      },
-      "explanation": "Paragraph C of Text A says that lateness of more than ten minutes on three occasions within a rolling month will be recorded as a formal attendance concern.",
-      "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_basis": "option_wording",
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
       "generated_by": "opus",
       "yeniden_uretim": {
-        "tarih": "2026-08-08",
-        "kaynak_prompt": "prompts/OPUS5-E6-yeniden-uretim.md (3/7)",
-        "uretilen_grup": "Coktan secmeli - tam testler",
-        "eski_prompt": "A shift swap will be turned down if it would",
+        "tarih": "2026-08-18",
+        "uretilen_grup": "GT1 coktan secmeli - paketin ucu de yeniden dusunuldu",
+        "eski_prompt": "When is lateness recorded as a formal attendance concern?",
         "eski_cevap": [
-          "C"
+          "B"
         ],
-        "eski_kanit_cumlesi": "Both employees remain responsible for meeting their required weekly hours, and swaps that would leave fewer than eleven hours' rest between shifts will not be approved.",
-        "neden_elendi": "Sorunun ekseni calisma mevzuati genel bilgisi: iki vardiya arasinda en az on bir saat dinlenme birakilmasi yaygin bilinen bir duzenleme. Secenekler yeniden yazilsa da 'yeterli dinlenme yok' cevabi mevzuat bilgisinden cikar.",
-        "ne_degisti": "Yuva bosaltilip ayni metinden yeni bir soruyla dolduruldu. Eski soru D/2'ye dayaniyordu: iki vardiya arasinda on bir saat dinlenme birakmayan takasin reddedilmesi. On bir saatlik dinlenme araligi calisma mevzuatinin yaygin bilinen bir maddesi oldugu icin cevap metne bakilmadan veriliyordu. Yeni soru D paragrafina hic degmiyor: kanit C/3'e tasindi ve cevap tek bir sayida degil, UC sayinin birlikte tuttugu bir esikte (on dakika + uc kez + bir aylik donem). Celdiriciler de ayni bicimde sayili yazildi, boylece 'somut olani sec' sezgisi ayirt edici olmaktan cikti; hicbir is yeri bu ucluyu disaridan bilinebilecek bir standart olarak tasimiyor. Kip dengesi icin bir celdirici olculu ('about half an hour'), bir digeri mutlak ('any lateness') yazildi."
-      },
-      "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: option_wording. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md",
-      "flag_mechanism": "secenek_sozu"
+        "eski_kanit_cumlesi": "Persistent lateness of more than ten minutes on three occasions within a rolling month will be recorded as a formal attendance concern.",
+        "neden_elendi": "Secenek sozu: dogru secenek kanit cumlesini nerdeyse birebir tekrarliyordu ve dordu icinde acik ara en uzun, en ayrintili secenekti; 'en somut olani sec' sezgisi metinsiz de dogru harfe goturuyordu.",
+        "ne_degisti": "Yuva ayni paragrafin bir onceki cumlesine (A metni C/2) tasindi. Dort secenek de ayni uzunlukta ve ayni bicimde ('Their/They may ...') yazildi, boylece sozcuk hacminden okunabilecek ipucu kalmadi. Genel kultur ('tekrarlanan kusur = yazili uyari') bilerek B'ye, yani yanlis secenege capalandi; metnin sectigi yaptirim ucretin bekletilmesi. Gecikme kurali (C/3) hicbir kaleme birakilmadi. Cevap harfi B'den A'ya kaydirildi."
+      }
     },
     {
       "number": "23-24",
       "select_count": 2,
-      "prompt": "Which TWO statements about annual leave are correct?",
+      "prompt": "Which TWO statements about working time at Fernbridge Manufacturing are correct?",
       "options": [
         {
           "letter": "A",
-          "text": "Part-time staff receive the same 28 days as full-time staff"
+          "text": "Staff find out about a new shift pattern only on the day it begins"
         },
         {
           "letter": "B",
-          "text": "Unused leave is always lost at the end of December"
+          "text": "A new shift pattern goes up no later than the Friday before it starts"
         },
         {
           "letter": "C",
-          "text": "Up to five unused days may be carried into the next leave year"
+          "text": "Everyone in a team stops for their break at the same moment"
         },
         {
           "letter": "D",
-          "text": "Public holidays are counted separately from the 28-day entitlement"
+          "text": "Work done on a public holiday is paid at one and a half times the usual rate"
         },
         {
           "letter": "E",
-          "text": "Leave requests usually need at least four weeks' notice"
+          "text": "Shifts of more than eight hours carry one further break of fifteen minutes"
         },
         {
           "letter": "F",
-          "text": "A manager may refuse a request without giving a reason"
+          "text": "Hours missed during a shift may be made up later in the same week"
         },
         {
           "letter": "G",
-          "text": "The leave year always begins on the first day of April"
+          "text": "The two short breaks taken during a shift are unpaid"
         }
       ],
       "answer": [
-        "C",
-        "G"
+        "B",
+        "E"
       ],
-      "evidence": "Leave entitlement is calculated on a pro-rata basis for part-time staff and for anyone joining partway through the leave year, which runs from 1 April to 31 March. Up to five days of unused annual leave may be carried forward into the following leave year with written approval from a manager, but any leave not taken or approved for carry-over by 31 March is forfeited.",
+      "evidence": "Shift patterns rotate every four weeks and are published on the staff noticeboard no later than the preceding Friday. An additional 15-minute break for shifts longer than eight hours.",
       "evidence_locator": {
-        "text": "B",
+        "text": "A",
         "paragraph": "A",
-        "sentence": 2
+        "sentence": 3
       },
       "distractor_analysis": {
-        "A": "Ters yon -- A/2 yarim zamanli calisanlarin hakkinin orantili (pro-rata) hesaplandigini soyluyor; 28 gun tam zamanlilar icin.",
-        "B": "Yer degistirme -- aralik ayinin son iki haftasi yalniz onay makamini degistiriyor (B/5); kullanilmayan izin 31 Mart'ta yaniyor.",
-        "D": "Ters yon -- A/1 28 gunun resmi tatilleri de KAPSADIGINI acikca soyluyor.",
-        "E": "Kapsam kaydirma -- dort haftalik bildirim yalniz bes gunden uzun kesintisiz izinler icin; olagan istek iki hafta once veriliyor (B/2, B/3).",
-        "F": "Cazip ama yok -- yoneticinin gerekcesiz ret yetkisinden hic soz edilmiyor; metin yalniz kimin onaylayacagini ve hangi bildirim surelerinin gerektigini duzenliyor."
+        "A": "Ters yon -- A/3 yeni vardiya duzeninin en gec bir onceki cuma yayimlandigini soyluyor; duzen basladigi gun ogrenilmiyor.",
+        "C": "Ters yon -- B/5 molalarin takim icinde donusumlu alindigini, uretim hattinin hicbir an bos kalmadigini soyluyor.",
+        "D": "Genel is yeri bilgisi -- resmi tatil calismasinin bir bucuk katla odenmesi cok yaygin bir uygulama ve parcasiz okuyan buraya gidiyor; B metni C/1 bu is icin cift ucret veriyor, bir bucuk kat haftalik esigi asan saatlere ait.",
+        "F": "Cazip ama yok -- eksik saatlerin hafta icinde sonradan tamamlanmasindan hicbir yerde soz edilmiyor.",
+        "G": "Ters yon -- B/3 gun icindeki iki kisa molanin UCRETLI oldugunu acikca soyluyor."
       },
-      "explanation": "Paragraph A of Text B says the leave year runs from 1 April to 31 March, and paragraph D says up to five days of unused leave may be carried forward into the following year with written approval.",
+      "explanation": "Paragraph A of Text A says a new shift pattern is published on the staff noticeboard no later than the preceding Friday, and paragraph B says an additional 15-minute break is given for shifts longer than eight hours.",
       "difficulty": "hard",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_basis": "general_knowledge",
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
       "generated_by": "opus",
       "yeniden_uretim": {
-        "tarih": "2026-08-08",
-        "kaynak_prompt": "prompts/OPUS5-E6-yeniden-uretim.md (3/7)",
-        "uretilen_grup": "Coktan secmeli - tam testler",
-        "eski_prompt": "Which TWO statements about overtime are correct?",
+        "tarih": "2026-08-18",
+        "uretilen_grup": "GT1 coktan secmeli - paketin ucu de yeniden dusunuldu",
+        "eski_prompt": "Which TWO statements about annual leave are correct?",
         "eski_cevap": [
-          "B",
-          "E"
+          "C",
+          "G"
         ],
-        "eski_kanit_cumlesi": "Overtime must be authorised in advance by a line manager; unauthorised overtime will not be paid. Staff who accumulate more than ten hours of overtime in a single month may choose to take the excess as time off in lieu instead of payment.",
-        "neden_elendi": "Sorunun ekseni is yeri politikalarinin standart maddeleri: fazla mesainin onceden amir onayi gerektirmesi (B) ve on saati asan kismin izne cevrilebilmesi (E) cok sayida is yerinde gecerli. Yedi secenek arasindan bu ikisini secmek metni degil is hayati bilgisini olcuyor.",
-        "ne_degisti": "Yuva bosaltilip ayni metinden yeni bir soruyla dolduruldu. Eski soru C/2 ve C/3'e dayaniyordu: fazla mesainin onceden onaylanmasi ve fazlaliginin izne cevrilebilmesi. Ikisi de sayisiz is yerinde ayni bicimde gecen standart maddeler oldugu icin B+E ikilisi metne bakilmadan seciliyordu. Yeni soru C paragrafina hic degmiyor: kanit A/2 ile D/1'e tasindi. Asil savunma harf seciminde degil kurgudadir - is hayatinda EN yaygin uc madde (resmi tatillerin izinden ayri sayilmasi, dort haftalik bildirim, yoneticinin gerekcesiz reddi) bilerek CELDIRICI yapildi, dogru iki secenek ise yalniz bu sirkete ozgu iki keyfi sayiya baglandi (bes gun devir, 1 Nisan). Boylece 'standart politikayi sec' stratejisi sistematik olarak yanlis harfe goturuyor. Konumsal duzen icin harf cifti C+G; E5'in istedigi gibi G harfi dogru cevaplarin arasina alindi."
-      },
-      "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: general_knowledge. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md",
-      "flag_mechanism": "genel_kultur"
+        "eski_kanit_cumlesi": "Leave entitlement is calculated on a pro-rata basis for part-time staff and for anyone joining partway through the leave year, which runs from 1 April to 31 March. Up to five days of unused annual leave may be carried forward into the following leave year with written approval from a manager, but any leave not taken or approved for carry-over by 31 March is forfeited.",
+        "neden_elendi": "Genel kultur: eski dogru ikili de yerlesik uygulamaydi. Kullanilmayan iznin en cok bes gununun devredilmesi cok yaygin bir sirket maddesi, izin yilinin 1 Nisan'da baslamasi ise Birlesik Krallik'ta bilinen bir takvim; celdiriciler genel kulturden secilse bile cevap yine genel kulturden geliyordu.",
+        "ne_degisti": "Konu izinden calisma zamanina cevrildi ve kanit A metni A/3 ile B/4'e tasindi. Dogru iki secenek yalniz bu sirkete ozgu iki keyfi ayrintiya bagli: yeni vardiya duzeninin bir onceki cumaya kadar asilmasi ve sekiz saati asan vardiyaya eklenen on bes dakikalik mola. Genel kulturun en guclu maddesi (resmi tatilde bir bucuk kat ucret) bilerek CELDIRICI yapildi; metin orada cift ucret veriyor. Cevap cifti C+G'den B+E'ye kaydirildi."
+      }
     }
   ]
 }

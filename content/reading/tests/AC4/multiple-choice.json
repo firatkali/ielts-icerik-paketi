@@ -18,23 +18,23 @@
       "options": [
         {
           "letter": "A",
-          "text": "Employers now offer rest breaks and shorter working days"
+          "text": "Employers are starting to set aside rooms where staff can sleep during the working day"
         },
         {
           "letter": "B",
-          "text": "Students rely on naps to revise and to make up lost sleep"
+          "text": "In some places a daytime sleep is routine, while in others a whole night of sleep is scarce"
         },
         {
           "letter": "C",
-          "text": "In some cultures napping is ordinary; in others a full night is hard to get"
+          "text": "Students revising for examinations rely on naps to make up the sleep they have lost"
         },
         {
           "letter": "D",
-          "text": "Researchers disagree about what consolidation is and when it happens"
+          "text": "People who have to learn unfamiliar names and words could plan their rest around the findings"
         }
       ],
       "answer": [
-        "C"
+        "B"
       ],
       "evidence": "What is less well understood is whether a brief nap during the day offers the same benefit as an entire night of sleep, a question with practical relevance in cultures where daytime napping is common and in societies where a full night's sleep is often in short supply.",
       "evidence_locator": {
@@ -42,28 +42,31 @@
         "sentence": 2
       },
       "distractor_analysis": {
-        "A": "Cazip ama yok -- isverenlerden, dinlenme molasindan ya da kisa is gununden hic soz edilmiyor; gunduz uykusunun yayginligi anlatildigi icin akla yatkin gorunuyor.",
-        "B": "Yakin ama eksik -- ders calismak ya da kaybedilen uykuyu telafi etmek icin sekerlemeye guvenenler H/1-2'de geciyor; ama bu, bulgularin uygulamadaki karsiligi, sorunun A paragrafinda verilen gerekcesi degil.",
-        "D": "Yer degistirme -- pekistirme A/1'de tanimlaniyor ve yerlesik bir surec olarak sunuluyor; belirsiz olan sey pekistirmenin ne oldugu degil, kisa bir sekerlemenin gece uykusuyla ayni yarari saglayip saglamadigi."
+        "A": "Cazip ama yok -- isverenlerden, uyku odasindan ya da is gunu duzenlemesinden pasajda hic soz edilmiyor; gunduz uykusunun bazi yerlerde olagan oldugu anlatildigi icin akla yatkin duruyor.",
+        "C": "Yakin ama eksik -- ders calismak ya da kaybedilen uykuyu telafi etmek icin sekerlemeye guvenenler H/1'de geciyor. Bu, bulgularin uygulamadaki karsiligi; sorunun A paragrafinda verilen gerekcesi degil. Gunumuzde en akla yatkin gorunen secenek bu oldugu icin sezgi bilerek buraya capalandi.",
+        "D": "Yer degistirme -- yabanci ad ve sozcuk ornegi H/2'de, bulgunun sonucu olarak veriliyor; yazarin sorunun neden onemli oldugunu acikladigi yer degil."
       },
       "explanation": "Paragraph A ties the practical importance of the question to two situations: cultures where daytime napping is common, and societies where a full night's sleep is often in short supply.",
       "difficulty": "medium",
       "status": "verified",
       "blind_solvable": false,
       "blind_basis": null,
-      "flag_reason": "Secenek C, pasajin 'gunduz uykusunun alisildik oldugu kulturler ve tam bir gece uykusunun kit oldugu toplumlar' seklindeki iki parcali karsitligini birebir yansitan tek secenek; B bulgunun uygulamadaki bir sonucunu anlatiyor, sorunun ilk paragrafta verilen gerekcesi degil; D pekistirmenin tanimini hedef aliyor, sorunun oz konusunu degil.",
-      "flag_mechanism": "konumsal_duzen",
-      "revision": {
-        "tarih": "2026-08-08",
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
         "mekanizma": "konumsal_duzen",
-        "onceki_prompt": "Why does the writer say the nap question has practical importance?",
-        "onceki_secenekler": {
-          "A": "Employers have begun offering staff rest breaks",
-          "B": "Students often depend on naps before examinations",
-          "C": "Napping is routine in some societies, sleep scarce in others",
-          "D": "Researchers disagree over what consolidation involves"
+        "eski_prompt": "Why does the writer say the nap question has practical importance?",
+        "eski_cevap": [
+          "C"
+        ],
+        "eski_secenekler": {
+          "A": "Employers now offer rest breaks and shorter working days",
+          "B": "Students rely on naps to revise and to make up lost sleep",
+          "C": "In some cultures napping is ordinary; in others a full night is hard to get",
+          "D": "Researchers disagree about what consolidation is and when it happens"
         },
-        "ne_degisti": "Eskiden yalniz C iki parcali karsitlik bicimindeydi ve pasajin kendi ikili cercevesini birebir yansitiyordu; ustelik en uzun secenekti. Dort secenek de artik iki ogeli yazildi ve ucu pasajin gercek ayrintilarina capalandi (H/1-2 ogrencilerin sekerlemeye guvenmesi, A/1 pekistirmenin tanimi); dogru secenegin dis bicimi artik ayirt edici degil."
+        "eski_kanit_cumlesi": "What is less well understood is whether a brief nap during the day offers the same benefit as an entire night of sleep, a question with practical relevance in cultures where daytime napping is common and in societies where a full night's sleep is often in short supply.",
+        "neden_elendi": "Dogru cevap C harfindeydi ve paketin uc kaleminin cevap dizisi C, D, (A+D) seklinde ilerliyordu: ilk kalem C, ikinci D, ucuncu ikili A ve D. Harfler kaleme gore ust uste binmis durumdaydi ve 'ortadaki uzun secenegi sec' stratejisi calisiyordu. Ayrica sezgisel olarak en akla yatkin secenek (ogrencilerin sekerlemeye guvenmesi) B harfinde duruyordu, yani sezgi dogruya degil ona komsu bir harfe gidiyordu.",
+        "ne_degisti": "Secenekler yeniden yazildi. 2026-08-18 kor turunda olctugum sizinti: parcayi hic gormeyen cozucu dogru secenegi %80 guvenle buldu, cunku soru 'pratik onem' diye soruyordu ve DORT secenekten yalnizca biri gercek hayatta bir durumu anlatiyordu; digerleri arastirma ayrintisiydi. Yeni surumde dort secenegin dordu de pratik bir durum anlatiyor (isyeri duzenlemesi, kulturel aliskanlik, ogrenciler, yeni sozcuk ogrenenler), dolayisiyla 'pratik olani sec' stratejisi hicbir seceneği elemiyor. Ucu pasajin gercek ayrintilarina capalandi (H/1 ogrenciler, H/2 yabanci ad ve sozcuk ornegi) ve en akla yatkin gorunen secenek yanlis harfe kondu. Dogru cevap C'den B'ye alindi, boylece paketin harf dizisi B, D, (A+D) oldu. Secenek uzunluklari esitlendi."
       }
     },
     {

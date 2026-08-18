@@ -14,15 +14,15 @@
   "word_bank": [
     {
       "letter": "A",
-      "text": "a chance to sleep"
+      "text": "0.70"
     },
     {
       "letter": "B",
-      "text": "awake"
+      "text": "nine in the morning"
     },
     {
       "letter": "C",
-      "text": "an hour and a half"
+      "text": "eight in the morning"
     },
     {
       "letter": "D",
@@ -30,23 +30,23 @@
     },
     {
       "letter": "E",
-      "text": "an unbroken night"
+      "text": "0.15"
     },
     {
       "letter": "F",
-      "text": "equal benefits"
+      "text": "a quiet walk"
     },
     {
       "letter": "G",
-      "text": "much weaker results"
+      "text": "half past one"
     },
     {
       "letter": "H",
-      "text": "in the laboratory"
+      "text": "0.68"
     },
     {
       "letter": "I",
-      "text": "a quiet walk"
+      "text": "48.6 minutes"
     },
     {
       "letter": "J",
@@ -54,7 +54,7 @@
     }
   ],
   "visual": null,
-  "stem_block": "Sleep, naps and remembering word pairs\n\nTwo studies asked how well freshly learned word pairs survive either a night of sleep or a short daytime rest. In the earlier one, different volunteers were placed in a sleeping group and a waking group, while in the later one the same volunteers met both conditions on different days, each spending half an hour on (36) ........ before the final test so that grogginess would not distort it. In the earlier study, one group met 80 pairs late in the evening and was tested twelve hours afterwards, while the other met them at the start of the day and remained (37) ........ until an evening test. The naps themselves ran to an average of (38) ........ and were made up largely of a lighter stage of sleep. Where the two halves of a pair were already close in meaning, a whole night of sleep improved recall far more than the daytime rest did. Where no such link existed, however, the picture changed: the two turned out to offer (39) ........ . Neither how long a rest ran nor which stages it contained predicted the size of the gain; what counted, the authors argue, was (40) ........ rather than anything about the internal shape of the sleep.",
+  "stem_block": "Sleep, naps and remembering word pairs\n\nTwo studies asked how well freshly learned word pairs survive either a night of sleep or a short daytime rest. In the earlier one, different volunteers were placed in a sleeping group and a waking group, while in the later one the same volunteers met both conditions on different days, each spending half an hour on (36) ........ before the final test so that grogginess would not distort it. In the earlier study one group met 80 pairs late in the evening, while the other met the same 80 pairs at (37) ........ ; one of the two groups slept before the recall test and the other did not. The naps in the later study came out shorter than the stretch of time set aside for them, running to (38) ........ and consisting largely of a lighter stage of sleep. Where the two halves of a pair were already close in meaning, the night's effect size reached 0.58 and the daytime rest's (39) ........ . Where no such link existed, the night's effect size was 0.71 and the daytime rest's (40) ........ .",
   "items": [
     {
       "number": 36,
@@ -93,36 +93,39 @@
     },
     {
       "number": 37,
-      "prompt": "In the earlier study, one group met 80 pairs late in the evening and was tested twelve hours afterwards, while the other met them at the start of the day and remained (37) ........ until an evening test.",
+      "prompt": "In the earlier study one group met 80 pairs late in the evening, while the other met the same 80 pairs at (37) ........ ; one of the two groups slept before the recall test and the other did not.",
       "answer": [
         "B"
       ],
       "accepted_variants": [
         "B",
-        "awake"
+        "nine in the morning"
       ],
       "evidence": "The wake group learned the same material at nine in the morning and were tested twelve hours later, at nine that evening, having remained awake throughout.",
       "evidence_locator": {
         "paragraph": "C",
         "sentence": 3
       },
-      "explanation": "Paragraph C says the wake group learned the material at nine in the morning, was tested twelve hours later at nine that evening, and had remained awake throughout; so the correct option is B.",
-      "difficulty": "easy",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_basis": "logic",
-      "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: logic. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md",
-      "flag_mechanism": "esdizim_kilidi",
-      "revision": {
-        "tarih": "2026-08-08",
+      "explanation": "Paragraph C says the wake group learned the same material at nine in the morning and were tested twelve hours later, at nine that evening; so the correct option is B.",
+      "difficulty": "medium",
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
         "mekanizma": "esdizim_kilidi",
-        "onceki_prompt": "In the earlier study, one group met 80 pairs late in the evening and was tested twelve hours afterwards, while the other met them at the start of the day and stayed (37) ........ until an evening test.",
-        "ne_degisti": "'stayed ___' kalibi ('stay awake' esdizimi) 'remained ___' ile degistirildi ve kelime bankasindaki H secenegi ('the length of the nap' -> 'in the laboratory') ayni cerceveye oturan gercek bir rakip yapildi. Artik iki secenek de dilbilgisi ve anlam bakimindan uyuyor; secim C paragrafina bagli."
+        "eski_prompt": "In the earlier study, one group met 80 pairs late in the evening and was tested twelve hours afterwards, while the other met them at the start of the day and remained (37) ........ until an evening test.",
+        "eski_cevap": [
+          "B"
+        ],
+        "eski_kanit_cumlesi": "The wake group learned the same material at nine in the morning and were tested twelve hours later, at nine that evening, having remained awake throughout.",
+        "neden_elendi": "Bosluk 'remained ___ until an evening test' kalibinin ucundaydi. Uyku grubunun karsisina konan grubun uyanik kaldigini soylemek tasarimin kendi mantigi; ozeti durustce yazan her cumle bunu ima ediyor. E7 parcasiz olcumunde uc turun ucunde de dogru bilindi; dayanak logic. Cerceve nasil yazilirsa yazilsin kalibin tek doldurmasi vardi.",
+        "ne_degisti": "Bosluk ayni cumlede kalibin ucundan kaynagin sectigi SAATE kaydirildi. Ilk denemede cerceve hala 'aksam sinandi, arada uyanik kaldi' diyordu ve 2026-08-18 kor turunda parcayi hic gormeyen cozucu bunu %80 guvenle sabaha cevirdi: aksam sinanan uyanik grup zorunlu olarak sabah ogrenir. Bu yuzden cerceveden hem sinav saati hem de hangi grubun uyanik kaldigi cikarildi; ozet artik yalnizca iki gruptan birinin uyudugunu soyluyor, hangisinin uyudugunu soylemiyor. Kelime bankasina ucuncu bir saat eklendi ('eight in the morning'), boylece on iki saatlik araligi hesaplayan aday bile iki sabah saati arasinda karar veremiyor. Secim yalniz C/3'u okumaya bagli."
       }
     },
     {
       "number": 38,
-      "prompt": "The naps themselves ran to an average of (38) ........ and were made up largely of a lighter stage of sleep.",
+      "prompt": "The naps in the later study came out shorter than the stretch of time set aside for them, running to (38) ........ and consisting largely of a lighter stage of sleep.",
       "answer": [
         "D"
       ],
@@ -137,82 +140,84 @@
       },
       "explanation": "Paragraph F says naps in the second experiment lasted an average of 64.1 minutes and consisted mainly of Stage 2 sleep; so the correct option is D.",
       "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_basis": "option_wording",
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
       "generated_by": "opus",
       "yeniden_uretim": {
-        "tarih": "2026-08-08",
-        "kaynak_prompt": "prompts/OPUS5-E6-yeniden-uretim.md (6/7)",
-        "uretilen_grup": "Tamamlama ailesi yuvalari",
-        "eski_prompt": "Where the two halves of a pair were already (38) ........ , a whole night of sleep improved recall far more than a rest of an hour and a half did.",
+        "tarih": "2026-08-18",
+        "mekanizma": "secenek_sozu",
+        "eski_prompt": "The naps themselves ran to an average of (38) ........ and were made up largely of a lighter stage of sleep.",
         "eski_cevap": [
           "D"
         ],
-        "eski_kanit_cumlesi": "For semantically related word pairs, nocturnal sleep produced a substantially larger improvement in recall than daytime napping did, with a standardised effect size of 0.58 compared with only 0.15 for napping.",
-        "neden_elendi": "Sorunun ekseni, uykunun hangi tur malzemeyi daha cok kayirdigi - bilissel bilimin en cok aktarilan bulgularindan biri - ve kelime bankasi bu ekseni hazir bir zit cift olarak tasiyor (D 'connected in meaning' / I 'unrelated in meaning'). Ustelik hemen ardindan gelen 39. cumle 'Where no such link existed' diyerek 38'in 'baglantili' taraf oldugunu soyluyor, yani I ozetin kendi ic mantigiyla de eleniyor. Bosluk nasil yazilirsa yazilsin secim iki kutuptan birini isaretlemeye iniyor ve karar pasajdan degil dunya bilgisinden geliyor; kip ya da cerceve duzeltmesi bunu kapatmaz. E6 bu yuvayi E paragrafinin pasaja ozgu bir ayrintisina tasimali (0.58'e karsi 0.15 etki buyuklugu, ya da 40 iliskili + 40 iliskisiz cift bolusumu).",
-        "ne_degisti": "Eski bosluk E/2'ye capaliydi ve secim, uykunun anlamca iliskili malzemeyi daha cok kayirdigi yolundaki bilissel bilim bilgisine iniyordu; banka da bu ekseni hazir bir zit cift olarak tasiyordu. Yeni bosluk E/2'ye hic degmiyor: kanit F/1'e, sekerlemelerin gercekte ne kadar surdugune tasindi. Iki kutuplu anlam cifti bankadan cikarildi; yerine olculebilir bir sure ve ona gercek bir rakip kondu ('an hour and a half'), cunku planlanan sure ile gerceklesen ortalama birbirinden farkli ve ozet planlanan sureyi artik anmiyor."
-      },
-      "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: option_wording. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md",
-      "flag_mechanism": "secenek_sozu"
+        "eski_kanit_cumlesi": "Naps in the second experiment lasted an average of 64.1 minutes and consisted mainly of Stage 2 sleep, a lighter stage than the deep sleep typically associated with the middle of a full night.",
+        "neden_elendi": "Bankada tek bir ondalikli sure vardi ('64.1 minutes'); rakibi ise yuvarlak ve sozel bir ifadeydi ('an hour and a half'). Cerceve 'an average of' dedigi anda ortalamanin yuvarlak olmayacagi sezgisiyle dogru secenek bicimden okunuyordu. E7 parcasiz olcumunde uc turun ucunde de dogru bilindi; dayanak option_wording.",
+        "ne_degisti": "Bankaya ayni bicimde ikinci bir ondalikli sure eklendi ('48.6 minutes'), boylece bicim artik ayirt etmiyor. Cerceveden 'an average of' kalibi cikarildi ve yerine sekerlemelerin ayrilan sureden KISA ciktigi bilgisi kondu; bu, plamlanan bir bucuk saatlik sureyi eliyor ama iki ondalikli sure arasinda karar vermiyor. Secim yalniz F/1'i okuyarak yapilabiliyor."
+      }
     },
     {
       "number": 39,
-      "prompt": "Where no such link existed, however, the picture changed: the two turned out to offer (39) ........ .",
+      "prompt": "Where the two halves of a pair were already close in meaning, the night's effect size reached 0.58 and the daytime rest's (39) ........ .",
       "answer": [
-        "F"
+        "E"
       ],
       "accepted_variants": [
-        "F",
-        "equal benefits"
+        "E",
+        "0.15"
+      ],
+      "evidence": "For semantically related word pairs, nocturnal sleep produced a substantially larger improvement in recall than daytime napping did, with a standardised effect size of 0.58 compared with only 0.15 for napping.",
+      "evidence_locator": {
+        "paragraph": "E",
+        "sentence": 2
+      },
+      "explanation": "Paragraph E gives an effect size of 0.58 for nocturnal sleep and 0.15 for napping with semantically related word pairs; so the correct option is E.",
+      "difficulty": "medium",
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "mekanizma": "esdizim_kilidi",
+        "eski_prompt": "Where no such link existed, however, the picture changed: the two turned out to offer (39) ........ .",
+        "eski_cevap": [
+          "F"
+        ],
+        "eski_kanit_cumlesi": "For unrelated word pairs, however, nocturnal sleep and napping produced very similar benefits, with effect sizes of 0.71 and 0.68 respectively, showing that a nap could match a full night's sleep when the material being learned had no prior connection to existing knowledge.",
+        "neden_elendi": "Bosluk 'the picture changed' karsitliginin ucundaydi: bir onceki cumle gece uykusunun cok daha iyi oldugunu soyledigi icin, 'tablo degisti' dendiginde geriye tek anlamli doldurma kaliyordu ('equal benefits'). Karar pasajdan degil ozetin kendi ic mantigindan cikiyordu. E7 parcasiz olcumunde uc turun ucunde de dogru bilindi; dayanak logic.",
+        "ne_degisti": "Kanit ayni pasajin E/2 cumlesine tasindi ve bosluk artik calismanin kendi olctugu sayiya aciliyor (etki buyuklugu). Ozetteki karsitlik cumleleri kaldirildi; iki cerceve de ayni bicimde, yalnizca gece degerini vererek gunduz degerini soruyor. Bankada uc ondalikli deger var (0.70, 0.15, 0.68); yakinlik sezgisiyle secen aday bu kalemde yanlisa gidiyor, cunku 0.58'e en yakin degerler yanlis olanlar."
+      }
+    },
+    {
+      "number": 40,
+      "prompt": "Where no such link existed, the night's effect size was 0.71 and the daytime rest's (40) ........ .",
+      "answer": [
+        "H"
+      ],
+      "accepted_variants": [
+        "H",
+        "0.68"
       ],
       "evidence": "For unrelated word pairs, however, nocturnal sleep and napping produced very similar benefits, with effect sizes of 0.71 and 0.68 respectively, showing that a nap could match a full night's sleep when the material being learned had no prior connection to existing knowledge.",
       "evidence_locator": {
         "paragraph": "E",
         "sentence": 3
       },
-      "explanation": "Paragraph E says that for unrelated word pairs nocturnal sleep and napping produced very similar benefits, with effect sizes of 0.71 and 0.68; so the correct option is F.",
-      "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_basis": "logic",
-      "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: logic. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md",
-      "flag_mechanism": "esdizim_kilidi",
-      "revision": {
-        "tarih": "2026-08-08",
-        "mekanizma": "esdizim_kilidi",
-        "onceki_prompt": "Where no such link existed, the two produced almost (39) ........ .",
-        "ne_degisti": "'produced almost ___' kalibindaki 'almost' kaldirildi: 'almost' yakinlik bildirdigi icin bankadaki tek yakinlik ifadesini (F) isaret ediyor, G'yi ise dilbilgisiyle eliyordu. Yeni cercevede G ('much weaker results') de dilbilgisi ve anlam bakimindan uyuyor."
-      }
-    },
-    {
-      "number": 40,
-      "prompt": "Neither how long a rest ran nor which stages it contained predicted the size of the gain; what counted, the authors argue, was (40) ........ rather than anything about the internal shape of the sleep.",
-      "answer": [
-        "A"
-      ],
-      "accepted_variants": [
-        "A",
-        "a chance to sleep",
-        "chance to sleep"
-      ],
-      "evidence": "Neither the exact length of a nap nor the particular stages of sleep it contained showed any significant relationship with how much memory improved, suggesting that simply having the opportunity to nap mattered more than its precise internal structure.",
-      "evidence_locator": {
-        "paragraph": "F",
-        "sentence": 2
-      },
-      "explanation": "Paragraph F says that neither the length of a nap nor the sleep stages it contained showed a significant relationship with the memory gain, and that simply having the opportunity to sleep mattered more than the nap's internal structure; so the correct option is A.",
+      "explanation": "Paragraph E gives effect sizes of 0.71 for nocturnal sleep and 0.68 for napping with unrelated word pairs; so the correct option is H.",
       "difficulty": "hard",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_basis": "logic",
-      "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: logic. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md",
-      "flag_mechanism": "esdizim_kilidi",
-      "revision": {
-        "tarih": "2026-08-08",
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
         "mekanizma": "esdizim_kilidi",
-        "onceki_prompt": "Neither how long a rest ran nor which stages it contained predicted the size of the gain, which suggests that simply getting (40) ........ counted for more than the internal shape of that sleep.",
-        "ne_degisti": "'simply getting ___' kalibi ('get a chance to ...' yerlesik esdizimi) kaldirildi ve kelime bankasindaki E secenegi ('deeper sleep' -> 'an unbroken night') bu cerceveye oturan gercek bir rakip yapildi; 'deeper sleep' zaten uykunun IC YAPISI oldugu icin cumlenin kendisiyle celisiyor, yani rakip sayilmiyordu."
+        "eski_prompt": "Neither how long a rest ran nor which stages it contained predicted the size of the gain; what counted, the authors argue, was (40) ........ rather than anything about the internal shape of the sleep.",
+        "eski_cevap": [
+          "A"
+        ],
+        "eski_kanit_cumlesi": "Neither the exact length of a nap nor the particular stages of sleep it contained showed any significant relationship with how much memory improved, suggesting that simply having the opportunity to nap mattered more than its precise internal structure.",
+        "neden_elendi": "Cerceve 'rather than anything about the internal shape of the sleep' diyerek uykunun ic yapisina dair butun secenekleri kendi icinde eliyordu; geriye yapisal olmayan tek secenek kaliyor ve cevap pasajsiz cikiyordu. E7 parcasiz olcumunde uc turun ucunde de dogru bilindi; dayanak logic.",
+        "ne_degisti": "Kanit ayni pasajin E/3 cumlesine tasindi ve bosluk calismanin kendi olctugu sayiya acildi. Cerceve artik hicbir secenegi elemiyor: gece degeri veriliyor, gunduz degeri soruluyor. Bankadaki ucuncu ondalikli deger (0.70) 0.71'e cok yakin oldugu icin 'en yakin sayiyi sec' stratejisi de is gormuyor; karar E/3'u okumaya bagli."
       }
     }
   ]

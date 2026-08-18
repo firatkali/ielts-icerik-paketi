@@ -13,7 +13,7 @@
   "word_limit": "NO MORE THAN TWO WORDS",
   "word_bank": null,
   "visual": null,
-  "stem_block": "A reef that is already living in tomorrow's sea\n\nMaug's unusual chemistry comes from its geology. Magma still lies beneath the seafloor and, along the (36) ........ of the caldera, drives shallow vents that release carbon dioxide straight into the water beside a living reef. A visiting team fixed recording instruments in place, while divers underwater marked fresh growth on the corals with (37) ........ and collected material to be examined later. Reef scientists' wider worry is that corals will lose the contest for space, and that complex reef habitat will gradually give way to simpler (38) ........ . A second piece of research, published in the journal (39) ........ , looked at what happens inside the coral skeletons rather than on the seafloor surface. Because these changes resemble what reefs elsewhere may meet before this century ends, the island is now studied as a (40) ........ for the rest of the ocean.",
+  "stem_block": "A reef that is already living in tomorrow's sea\n\nMaug's unusual chemistry comes from its geology. Magma still lies beneath the seafloor and, along the (36) ........ of the caldera, drives shallow vents that release carbon dioxide straight into the water beside a living reef. Instruments there recorded a drop in pH of just the size scientists project for the whole ocean, which is why the island matters so much: what would elsewhere be only a (37) ........ can here be observed directly. Right beside the vents the seafloor is taken over by (38) ........ algae, while reefs a short way off, in less acidified water, stay visibly healthier. A second piece of research, published in the journal (39) ........ , looked at what happens inside the coral skeletons rather than on the seafloor surface. Because these changes resemble what reefs elsewhere may meet before this century ends, the island is now studied as a (40) ........ for the rest of the ocean.",
   "items": [
     {
       "number": 36,
@@ -51,62 +51,66 @@
     },
     {
       "number": 37,
-      "prompt": "A visiting team fixed recording instruments in place, while divers underwater marked fresh growth on the corals with (37) ........ and collected material to be examined later.",
+      "prompt": "Instruments there recorded a drop in pH of just the size scientists project for the whole ocean, which is why the island matters so much: what would elsewhere be only a (37) ........ can here be observed directly.",
       "answer": [
-        "dye"
+        "hypothetical future"
       ],
       "accepted_variants": [
-        "dye"
+        "hypothetical future"
       ],
-      "evidence": "The team deployed instruments to continuously record temperature, light, the partial pressure of carbon dioxide, seawater pH and water currents, while divers collected coral cores, applied dye to mark new growth, and used funnels to capture bubbles of gas escaping from the vents for laboratory analysis.",
+      "evidence": "That is the same order of change scientists project for the global ocean as a whole due to human carbon dioxide emissions, which is what makes the site so valuable: rather than modelling a hypothetical future, researchers can measure how a real reef community actually behaves under it.",
       "evidence_locator": {
-        "paragraph": "D",
+        "paragraph": "E",
         "sentence": 2
       },
-      "explanation": "Paragraph D states that divers applied dye to mark new growth; since the gap asks what this marking was done with, the answer is 'dye'.",
-      "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
+      "explanation": "Paragraph E says the change is of the same order as the one projected for the global ocean, so that instead of modelling a hypothetical future researchers can measure a real reef community.",
+      "difficulty": "hard",
+      "status": "verified",
+      "blind_solvable": false,
       "blind_solvable_kelime_duzeyi": false,
-      "blind_basis": "logic",
-      "flag_reason": "Parça gösterilmeden anlamca 3/3 turda doğru bilindi: farklı kelimeyle ama doğru kavramla cevaplandı ('dye / stains / dye' verdi; boyama maddesi olarak stain ile dye aynı şeyi adlandırıyor).",
-      "flag_mechanism": "esdizim_kilidi",
-      "review_note": "E5 / 8. calistirma: dokunulmadi. Model dye / stains / dye verdi, yani 3 turun 2'sinde puan alirdi. Bas ad cumlenin anlamsal rolunce zorunlu: 'yeni buyumeyi ___ ile isaretlediler' cercevesinde bir isaretleme maddesi okunur ve D/2'de o maddenin adi zaten tek. Cerceveyi gevsetmek boslugu tags/markers gibi pasajda bulunmayan adaylara acar, yani soruyu yanitlanamaz yapar. 🔴 E7 ayrica olcmeli."
+      "blind_basis": null,
+      "review_note": "E5 / 8. calistirma: dokunulmadi. Model dye / stains / dye verdi, yani 3 turun 2'sinde puan alirdi. Bas ad cumlenin anlamsal rolunce zorunlu: 'yeni buyumeyi ___ ile isaretlediler' cercevesinde bir isaretleme maddesi okunur ve D/2'de o maddenin adi zaten tek. Cerceveyi gevsetmek boslugu tags/markers gibi pasajda bulunmayan adaylara acar, yani soruyu yanitlanamaz yapar. 🔴 E7 ayrica olcmeli.",
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "mekanizma": "esdizim_kilidi",
+        "eski_kanit_cumlesi": "The team deployed instruments to continuously record temperature, light, the partial pressure of carbon dioxide, seawater pH and water currents, while divers collected coral cores, applied dye to mark new growth, and used funnels to capture bubbles of gas escaping from the vents for laboratory analysis.",
+        "eski_cevap": [
+          "dye"
+        ],
+        "neden_elendi": "Eski bosluk boyama maddesiydi ('dye'). Cerceve 'yeni buyumeyi ___ ile isaretlediler' dedigi icin bosluga zorunlu olarak bir isaretleme maddesi okunuyordu ve kaynakta o maddenin adi zaten tek; uc turun ucunde de pasajsiz dogru kavramla cevaplandi (dye / stains / dye). Ayrica kanit cumlesi ayni testteki 34-35 ile paylasiliyordu.",
+        "ne_degisti": "Yuva ayni pasajda E paragrafinin 2. cumlesine tasindi; artik D paragrafina hic degmiyor, boylece 34-35 ile paylasilan kanit cumlesi bosaldi. Yeni bosluk kaynagin kendi sectigi nitelemeye aciliyor: olculebilen gercek bir resif toplulugunun karsisina konan sey 'varsayimsal bir gelecek'. Cerceve isaretleme/olcme fiilinden bagimsiz, dolayisiyla eski esdizim kilidi kalmadi. Cerceve ikinci kez sikilastirildi: 'gercek bir topluluk OLCULUR, varsayimsal gelecek MODELLENIR' karsitligi kaldirildi, cunku bu karsitlik boslugun sifatini ('hypothetical') kismen geri veriyordu. Yeni cerceve yalnizca 'baska yerde ancak ... olabilecek sey burada dogrudan gozlenebiliyor' diyor."
+      }
     },
     {
       "number": 38,
-      "prompt": "Reef scientists' wider worry is that corals will lose the contest for space, and that complex reef habitat will gradually give way to simpler (38) ........ .",
+      "prompt": "Right beside the vents the seafloor is taken over by (38) ........ algae, while reefs a short way off, in less acidified water, stay visibly healthier.",
       "answer": [
-        "algal turf"
+        "weedy"
       ],
       "accepted_variants": [
-        "algal turf"
+        "weedy"
       ],
-      "evidence": "This pattern matches a broader concern among reef scientists: that as oceans acidify, algae may increasingly outcompete corals for space, gradually replacing complex reef habitat with simpler algal turf.",
+      "evidence": "Immediately around the vents, weedy algae tend to dominate the seafloor, while reefs only a short distance away, in less acidified water, remain visibly healthier and more coral-dominated.",
       "evidence_locator": {
         "paragraph": "F",
-        "sentence": 3
+        "sentence": 2
       },
-      "explanation": "Paragraph F says reef scientists fear that algae will outcompete corals for space, gradually replacing complex reef habitat with simpler algal turf; so the answer is 'algal turf'.",
-      "difficulty": "hard",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_basis": "general_knowledge",
+      "explanation": "Paragraph F says that immediately around the vents weedy algae tend to dominate the seafloor, while reefs a short distance away remain healthier.",
+      "difficulty": "medium",
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
       "generated_by": "opus",
       "yeniden_uretim": {
-        "tarih": "2026-08-08",
-        "kaynak_prompt": "prompts/OPUS5-E6-yeniden-uretim.md (6/7)",
-        "uretilen_grup": "Tamamlama ailesi yuvalari",
-        "eski_prompt": "Their readings show that the water closest to the openings is slightly more acidic than the rest of the reef, and that the seabed there is taken over by (38) ........ instead of healthy coral.",
+        "tarih": "2026-08-18",
+        "mekanizma": "genel_kultur",
+        "eski_kanit_cumlesi": "This pattern matches a broader concern among reef scientists: that as oceans acidify, algae may increasingly outcompete corals for space, gradually replacing complex reef habitat with simpler algal turf.",
         "eski_cevap": [
-          "weedy algae"
+          "algal turf"
         ],
-        "eski_kanit_cumlesi": "Immediately around the vents, weedy algae tend to dominate the seafloor, while reefs only a short distance away, in less acidified water, remain visibly healthier and more coral-dominated.",
-        "neden_elendi": "Cevap iki yonden sizdiriyor: asitlenen suda saglikli mercanin yerini yosunun almasi iklim habercilerinin en cok tekrarladigi oruntudur ve kabul listesi 'algae' sozcugunu tek basina kabul ediyor; model uc turda da 'algae' yazdi (3/3 PUAN). Niteleyiciyi ('weedy') zorunlu kilmak icin kabul listesini daraltmak gerekir, o da korunan bir alan. E6 onerisi: F/2'nin karsilastirma yarisi - bacalardan biraz uzaktaki mercanin gorunur bicimde saglikli kalmasi.",
-        "ne_degisti": "Eski soru F/2'ye capaliydi; cevap ('weedy algae') hem iklim habercileri tarafindan surekli tekrarlanan bir oruntuydu hem de kabul listesi 'algae' sozcugunu tek basina kabul ediyordu. Yeni yuva F/2'ye hic degmiyor: kanit F/3'e, arastirmacilarin genel kaygisini anlatan cumleye tasindi ve cerceveden 'algae' sozcugu bilerek cikarildi, boylece bosluk artik yakin bir es anlamliyi cagirmiyor. Kabul listesi tek bicime indirilmedi, bastan tek bicimli yazildi."
-      },
-      "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: general_knowledge. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md",
-      "flag_mechanism": "genel_kultur"
+        "neden_elendi": "Eski cevap 'algal turf' idi. Asitlenen suda mercanin yerini yosunun almasi iklim habercilerinin en cok tekrarladigi kaliptir; cerceve 'karmasik resif habitatinin yerini daha basit ___ aliyor' dedigi icin dunya bilgisiyle dogrudan yaziliyordu ve uc turun ucunde de pasajsiz bilindi.",
+        "ne_degisti": "Yuva ayni pasajda F paragrafinin 2. cumlesine tasindi ve yon tersine cevrildi: kavramin kendisi (yosunun deniz tabanina egemen olmasi) artik CERCEVEDE veriliyor, bosluk ise kaynagin o yosun icin sectigi nitelemeye aciliyor. Boylece dunya bilgisi soruyu cozmuyor; cozucunun metinde gecen sifati bulmasi gerekiyor."
+      }
     },
     {
       "number": 39,
@@ -163,13 +167,21 @@
       "blind_solvable": false,
       "blind_solvable_kelime_duzeyi": false,
       "blind_basis": null,
-      "flag_reason": "Parça gösterilmeden anlamca 3/3 turda doğru bilindi: farklı kelimeyle ama doğru kavramla cevaplandı (3 turda da 'warning' verdi, gerçek cevap 'warning system' — 'early warning' aynı göndergenin yerleşik kalıbı).",
-      "flag_mechanism": "esdizim_kilidi",
       "revision": {
         "tarih": "2026-08-08",
         "mekanizma": "esdizim_kilidi",
         "onceki_prompt": "Because these changes resemble what reefs elsewhere may meet before this century ends, the island is now treated as an early (40) ........ .",
         "ne_degisti": "'an early ___' kalibi kaldirildi: 'early warning system' kaliplasmis bir obek oldugu icin 'early' sozcugu boslugun bas adini tek basina veriyordu (model uc turda da 'warning' yazdi). Yeni cerceveye warning system, test case, preview, model gibi birden cok aday uyuyor; secim H/2'den yapiliyor. Kanit cumlesinin 'less as a curiosity than as' kalibi bilincli olarak yankilanmadi."
+      },
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "mekanizma": "esdizim_kilidi",
+        "eski_kanit_cumlesi": "For that reason, scientists regard the island less as a curiosity than as an early warning system, showing in the present what the consequences of a warmer, more acidic ocean could look like almost everywhere else.",
+        "eski_cevap": [
+          "warning system"
+        ],
+        "neden_elendi": "Kanit ve cevap degismedi. 2026-08-08 duzeltmesi 'an early ___' kalibini kaldirmisti; 'early warning system' kaliplasmis bir obek oldugu icin 'early' sozcugu boslugun bas adini tek basina veriyordu. Bu turda yeniden olculdu: yeni cerceveye warning system, test case, preview, model gibi birden cok aday uyuyor ve secim yalniz H paragrafinin 2. cumlesinden yapilabiliyor.",
+        "ne_degisti": "Kalemin kendisi degismedi. Ozet metninde 37 ve 38 numarali bosluklarin cumleleri degistigi icin stem_block yeniden yazildi; 40. bosluğun cumlesi aynen korundu."
       }
     }
   ]

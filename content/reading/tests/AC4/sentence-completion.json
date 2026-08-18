@@ -71,39 +71,36 @@
     },
     {
       "number": 21,
-      "prompt": "The Profile of Mood States, a ........ scale, covered six mood dimensions, among them fatigue and vigour.",
+      "prompt": "Of the six negative mood states the study tracked, ........ fell significantly after the visit to the forest.",
       "answer": [
-        "65-item"
+        "five"
       ],
       "accepted_variants": [
-        "65-item",
-        "65 item"
+        "five"
       ],
-      "evidence": "The Profile of Mood States, a 65-item scale, measured six mood dimensions including tension, anger, depression, fatigue, confusion and vigour.",
+      "evidence": "After the forest exposure, five of the six negative mood states measured by the Profile of Mood States, tension-anxiety, anger-hostility, depression-dejection, fatigue and confusion, all decreased significantly.",
       "evidence_locator": {
-        "paragraph": "E",
-        "sentence": 2
+        "paragraph": "F",
+        "sentence": 1
       },
-      "explanation": "Paragraph E says the Profile of Mood States is a 65-item scale measuring six mood dimensions; so the answer is '65-item'.",
+      "explanation": "Paragraph F says that after the forest exposure five of the six negative mood states decreased significantly; so the answer is 'five'.",
       "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_basis": "general_knowledge",
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
       "generated_by": "opus",
       "yeniden_uretim": {
-        "tarih": "2026-08-08",
-        "kaynak_prompt": "prompts/OPUS5-E6-yeniden-uretim.md (6/7)",
-        "uretilen_grup": "Tamamlama ailesi yuvalari",
-        "eski_prompt": "All four scales were filled in on paper right before and right after the quarter of an hour, making it possible to credit any shift to the setting itself rather than to the mere ........ of time.",
+        "tarih": "2026-08-18",
+        "mekanizma": "genel_kultur",
+        "kaynak_prompt": "denetim/UYGULAMA-PLANI.md FAZ 4 (E6 yontemi)",
+        "eski_prompt": "The Profile of Mood States, a ........ scale, covered six mood dimensions, among them fatigue and vigour.",
         "eski_cevap": [
-          "passage"
+          "65-item"
         ],
-        "eski_kanit_cumlesi": "All four instruments were administered as paper questionnaires immediately before and again immediately after each 15-minute period, so that any change could be attributed specifically to the intervening exposure rather than to the simple passage of time.",
-        "neden_elendi": "'the passage of time' Ingilizcede tam kaliplasmis bir ifade; bosluk bu kalibin icinde durdugu surece hangi cerceveye konursa konsun tek tamamlamasi var, 'of time' kaldirildiginda ise cumle anlamini yitiriyor. E6 bu yuvayi ayni cumlenin olculebilir ayrintisina (anketlerin kagit uzerinde, on bes dakikanin hemen oncesinde ve hemen sonrasinda uygulanmasi) tasimali.",
-        "ne_degisti": "Eski soru E/5'e capaliydi ve bosluk 'the passage of time' kaliplasmis obeginin icinde duruyordu; kalip yerinde kaldigi surece tek tamamlamasi vardi. Yeni soru E/5'e hic degmiyor: kanit E/2'ye, olcegin madde sayisina tasindi. Madde sayisi arac kunyesine ait bir sayi ve cerceve hicbir kalibin icinde degil."
-      },
-      "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: general_knowledge. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md",
-      "flag_mechanism": "genel_kultur"
+        "eski_kanit_cumlesi": "The Profile of Mood States, a 65-item scale, measured six mood dimensions including tension, anger, depression, fatigue, confusion and vigour.",
+        "neden_elendi": "Bosluk olcegin madde sayisini hedefliyordu ve Profile of Mood States'in 65 maddelik olmasi pasajin sectigi bir deger degil, olcegin gercek dunyadaki kunyesi. E7 parcasiz olcumunde uc turun ucunde de dogru bilindi; dayanak general_knowledge. Ayni sorun ayni paragraftaki oteki olcek adlari icin de gecerliydi (PANAS 20 madde), dolayisiyla yuvanin E paragrafinda kalmasi mumkun degildi.",
+        "ne_degisti": "Kanit ayni pasajin F/1 cumlesine tasindi ve hedef, olcegin kunyesi yerine calismanin kendi olctugu sayiya cevrildi: alti olumsuz duygu durumundan kaci ormandan sonra anlamli bicimde dustu. Bu oran ne olcegin adindan ne de alan bilgisinden cikarilabiliyor; yalniz F/1 veriyor. Ayrica E paragrafinin yuku dortten uce indi ve olcek adi soruda hic gecmedigi icin matching-features kalemlerine ipucu sizmiyor."
+      }
     },
     {
       "number": 22,

@@ -87,18 +87,29 @@
       "answer": [
         "v"
       ],
-      "evidence": "In the forest condition, participants walked for five minutes to reach a stand of Norway spruce and silver birch trees, roughly 80 and 20 per cent of the stand respectively, ranging in age from 80 to 108 years and fully covered in snow, where they spent 15 minutes simply standing or sitting quietly.",
+      "evidence": "In both conditions participants were asked not to talk, use their phones or smoke, and were positioned apart from one another to avoid distraction.",
       "evidence_locator": {
         "paragraph": "C",
-        "sentence": 1
+        "sentence": 3
       },
-      "heading_check": "C paragrafı iki koşulda da yapılan işi adım adım tarif ediyor: ormanda 15 dakika sessizce durmak, kampüste binalara bakmak, iki yerde de konuşma ve telefon yasağı. 'v' bu ana fikri veriyor. En yakın çeldirici 'vii' (stres yaratsın diye seçilmiş şehir görüntüsü) — kampüs sahnesi bu paragrafta geçiyor ve 'deliberately' kelimesi göze takılıyor; ama cümle tam tersini söylüyor: yer bilerek sakin ve trafiksiz seçilmiş, bariz stresli olsun diye değil.",
+      "heading_check": "C paragrafi iki kosulda da yapilan isi adim adim tarif ediyor: ormanda bes dakika yuruyup on bes dakika sessizce durmak, kampuste iki dakika yuruyup on bes dakika binalara bakmak, iki yerde de konusma, telefon ve sigara yasagi ve birbirinden ayri durma. Kanit olarak paragrafin son cumlesi secildi, cunku bu cumle 'in both conditions' diyerek paragrafin ortak eksenini adlandiriyor; ilk cumle (SC 19'un capasi) tek basina yalniz orman kosulunu veriyor. En yakin celdirici 'vii' (karsilastirma icin sakin bir sehir sahnesi) - kampus sahnesi bu paragrafta geciyor ve tek basina bir baslik gibi duruyor; ama paragrafin uc cumlesinden yalniz biri kampuse ait, ana fikir iki kosulda da ne yapildigi.",
       "feature_check": null,
       "grammar_check": null,
-      "explanation": "Paragraph C describes exactly what participants did in the forest and building conditions, and the rules followed; the comparison site was not stressful but deliberately chosen to be calm.",
+      "explanation": "Paragraph C sets out what participants actually did at both sites, ending with the rules that applied in both conditions.",
       "difficulty": "medium",
       "status": "verified",
-      "blind_solvable": false
+      "blind_solvable": false,
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "mekanizma": "kanit_cakismasi",
+        "eski_prompt": "Paragraph C",
+        "eski_cevap": [
+          "v"
+        ],
+        "eski_kanit_cumlesi": "In the forest condition, participants walked for five minutes to reach a stand of Norway spruce and silver birch trees, roughly 80 and 20 per cent of the stand respectively, ranging in age from 80 to 108 years and fully covered in snow, where they spent 15 minutes simply standing or sitting quietly.",
+        "neden_elendi": "denetim/CAPRAZ-KOK.md: bu cumle ayni testte sentence-completion 21 numaraya (eski 19) da capaliydi; bir kanit cumlesinde en cok bir soru kurali bozuluyordu.",
+        "ne_degisti": "Cevap ve baslik degismedi; kanit ayni paragrafin bos olan son cumlesine (C/3) tasindi. C/3 iki kosulu birlikte adlandirdigi icin 'v' basligini ilk cumleden daha iyi tasiyor. Cakisma kapandi."
+      }
     },
     {
       "number": 16,
@@ -125,26 +136,29 @@
       "answer": [
         "vi"
       ],
-      "evidence": "Before and after each 15-minute exposure, participants completed four separate questionnaires.",
+      "evidence": "All four instruments were administered as paper questionnaires immediately before and again immediately after each 15-minute period, so that any change could be attributed specifically to the intervening exposure rather than to the simple passage of time.",
       "evidence_locator": {
         "paragraph": "E",
-        "sentence": 1
+        "sentence": 5
       },
-      "heading_check": "E paragrafı dört ölçeği tanıtıyor ve hepsinin her 15 dakikalık sürenin hemen öncesinde ve hemen sonrasında doldurulduğunu, böylece değişimin araya giren deneyime bağlanabildiğini söylüyor. 'vi' bu ana fikri veriyor. En yakın çeldirici 'x' (anketlerin doldurulmasının ne kadar sürdüğü) — paragraf 65, 20, 6 ve 4 maddelik ölçekler sayarak uzunluk izlenimi bırakıyor; ama doldurma süresi hiçbir yerde verilmiyor, madde sayısı süre değil.",
+      "heading_check": "E paragrafi dort olcegi tanitiyor, sonra hepsinin her on bes dakikalik surenin hemen oncesinde ve hemen sonrasinda doldurduldugunu soyluyor; ana fikir olceklerin kunyesi degil, duygularin her ziyaretin oncesinde ve sonrasinda izlenmesi. Kanit olarak ilk cumle degil son cumle (E/5) secildi: ilk cumle konu cumlesi oldugu icin basligi bedava veriyordu, E/5 ise ayni iddiayi paragrafin sonunda ve gerekcesiyle birlikte kuruyor. En yakin celdirici 'x' (her olcegin madde sayisi) gercekten bu paragrafta duruyor - 65, 20, 6 ve 4 madde sirayla veriliyor - ama bu paragrafin ana fikri degil ayrintisi; secim iki basligi tartmayi gerektiriyor.",
       "feature_check": null,
       "grammar_check": null,
-      "explanation": "Paragraph E describes how mood was measured with four separate scales before and after each experience.",
+      "explanation": "Paragraph E describes how mood was measured with four separate scales, each completed immediately before and immediately after every 15-minute exposure.",
       "difficulty": "medium",
       "status": "verified",
       "blind_solvable": false,
       "blind_basis": null,
-      "flag_reason": "Baslik 'vi', en yakin celdirici 'x' (anketlerin doldurulma suresi) elenerek bulunuyor: paragraf dort olcegin madde sayilarini sayarak uzunluk izlenimi birakiyor, ama doldurma suresi hic verilmiyor; asil vurgu her olcegin deneyimin oncesinde ve sonrasinda doldurulmasi, bu da yalniz 'vi'yi dogru birakiyor.",
-      "flag_mechanism": "konumsal_duzen",
-      "revision": {
-        "tarih": "2026-08-08",
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
         "mekanizma": "konumsal_duzen",
-        "onceki_prompt": "Paragraph E",
-        "ne_degisti": "Eski celdirici x ('How long each questionnaire took to complete') pasajda hic verilmeyen bir olcuyu adlandirdigi icin okumadan eleniyordu; yerine E paragrafinin gercekten verdigi madde sayilari ('The number of items in each scale') kondu. E artik iki basligin arasinda ve secim ana fikri tartmayi gerektiriyor."
+        "eski_prompt": "Paragraph E",
+        "eski_cevap": [
+          "vi"
+        ],
+        "eski_kanit_cumlesi": "Before and after each 15-minute exposure, participants completed four separate questionnaires.",
+        "neden_elendi": "Kanit paragrafin ilk cumlesiydi ve o cumle basligi neredeyse birebir tekrar ediyordu ('before and after each 15-minute exposure'). Basligi paragrafin ilk cumlesinden almak, baslik eslestirmede konumsal duzenin en yaygin bicimi: aday paragrafi okumadan, yalniz acilis cumlesine bakarak isaretliyor. Ayrica E paragrafi dort kaleme birden ev sahipligi ediyordu (paragraf basina en cok uc kural).",
+        "ne_degisti": "Kanit ayni paragrafin son cumlesine (E/5) tasindi; artik dogru baslik acilis cumlesinden degil paragrafin butununden cikiyor ve 'x' basligi (madde sayilari) gercek bir rakip olarak ayakta kaliyor. Paragraf yuku de dorde degil uce indi: sentence-completion 21 bu turda E paragrafindan cikarildi."
       }
     },
     {
@@ -153,26 +167,29 @@
       "answer": [
         "viii"
       ],
-      "evidence": "The clearest effect of the entire study appeared on the Restorative Outcome Scale, which increased sharply after time in the forest, indicating that participants found the snow-covered woodland strongly refreshing even though it produced no accompanying jump in energy.",
+      "evidence": "Vigour, unusually, did not rise.",
       "evidence_locator": {
         "paragraph": "F",
-        "sentence": 3
+        "sentence": 2
       },
-      "heading_check": "F paragrafının üç cümlesi tek bir tabloyu kuruyor: olumsuz duygu durumlarının beşi düştü, dinlendiricilik keskin biçimde arttı, ama beklenenin aksine canlılık yükselmedi. 'viii' bu iki yönü birden veriyor: sakinleşme var, enerji artışı yok. En yakın çeldirici 'i' (katılımcıların enerjisinde şaşırtıcı artış) — paragraf enerjiden söz ettiği için yakın duruyor; ama söylediği tam tersi: 'Vigour, unusually, did not rise', yani 'i' paragrafın bulgusunu tersine çeviriyor.",
+      "heading_check": "F paragrafinin uc cumlesi tek bir tabloyu kuruyor: olumsuz duygu durumlarinin altisindan besi dustu, dinlendiricilik keskin bicimde artti, ama canlilik yukselmedi. 'viii' bu iki yonu birden veriyor. Kanit olarak paragrafin donum cumlesi (F/2) secildi: basligin ikinci yarisini ('not more energetic') yalniz bu cumle tasiyor ve tek basina okununca sasirtici geldigi icin adayi paragrafin tamamini okumaya zorluyor. En yakin celdirici 'i' (ikinci mekanda ters oru) - G paragrafinin gercek bulgusu, ama F'yi okuyan aday ormandaki dususlerle kampustaki artislari karistirabilir; 'x' ise olceklerin madde sayilarini adlandirir, F'de madde sayisi hic gecmez.",
       "feature_check": null,
       "grammar_check": null,
-      "explanation": "Paragraph F describes how negative emotions fell and the restorative-outcome score rose sharply after time in the forest, while energy levels did not rise.",
+      "explanation": "Paragraph F reports that negative moods fell and the restorative score rose sharply after the forest, while vigour, unusually, did not rise.",
       "difficulty": "hard",
       "status": "verified",
       "blind_solvable": false,
       "blind_basis": null,
-      "flag_reason": "Baslik 'viii', en yakin celdirici 'i' (katilimcilarin enerjisinde sasirtici artis) ile tam ters yonde: paragraf 'canlilik, alisilmadik bicimde, yukselmedi' diyor, yani 'i' bulguyu tersine ceviriyor; olumsuz duygularin azalip dinlendiriciligin arttigi ama enerjinin artmadigi ikili tablo yalniz 'viii'i dogru birakiyor.",
-      "flag_mechanism": "konumsal_duzen",
-      "revision": {
-        "tarih": "2026-08-08",
-        "mekanizma": "konumsal_duzen",
-        "onceki_prompt": "Paragraph F",
-        "ne_degisti": "Eski celdirici i ('A surprising rise in participants' energy') pasajin acikca curuttugu bir iddiaydi; yerine G paragrafinin gercek bulgusu ('The reverse pattern at the second site') kondu, olu iv basligi da H paragrafinin karin acikladigi savina capalandi. F paragrafinin karsisinda artik ayni cerceveden iki rakip var."
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "mekanizma": "konumsal_duzen + kanit_cakismasi",
+        "eski_prompt": "Paragraph F",
+        "eski_cevap": [
+          "viii"
+        ],
+        "eski_kanit_cumlesi": "The clearest effect of the entire study appeared on the Restorative Outcome Scale, which increased sharply after time in the forest, indicating that participants found the snow-covered woodland strongly refreshing even though it produced no accompanying jump in energy.",
+        "neden_elendi": "Iki sorun vardi. (1) denetim/CAPRAZ-KOK.md: bu cumle ayni testte matching-features 23 numaraya da capaliydi, yani bir kanit cumlesine iki soru dusuyordu. (2) Cumle 'butun calismanin en acik etkisi' diyerek paragrafin ozetini kendi icinde veriyordu; basligi paragrafin en gosterisli cumlesinden okumak konumsal duzenin bir bicimi.",
+        "ne_degisti": "Cevap ve baslik degismedi; kanit paragrafin donum cumlesine (F/2) tasindi. Cakisma kapandi ve baslik artik tek bir ozet cumleden degil paragrafin iki yonlu tablosundan cikiyor."
       }
     }
   ]

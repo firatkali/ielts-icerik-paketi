@@ -13,60 +13,71 @@
   "word_limit": "ONE WORD ONLY",
   "word_bank": null,
   "visual": null,
-  "stem_block": "What was thrown out, and why\n\nCereals, and rice above all, made up the largest slice of the edible waste, with vegetables not far behind, while the biggest inedible category by some way was (37) ........ from fruit and vegetables, above all from bananas and mangoes. Drinks added a little more: modest quantities of coffee and tea went down the sink, usually because more had been brewed than anyone meant to finish. Asked to account for their losses, families in the two districts said much the same things — food going mouldy, a change in the feel of meat or fish, and bread that keeps for too short a time. Dairy items, meanwhile, were regularly overlooked at the back of the (38) ........ and only thrown out once it was too late. Country households still wasted far less, since leftovers there were more often turned into compost or given to animals; town households leaned instead towards (39) ........ and bought more than they required. For the authors, the lesson is that policy has so far dealt with collecting and disposing of waste; real (40) ........ , they argue, will depend on campaigns that name the particular foods concerned.",
+  "stem_block": "What was thrown out, and why\n\nLooked at item by item, rice was easily the heaviest single loss, followed by smaller but still notable amounts of carrots, (37) ........ , tofu and tempeh. Asked to account for what they had thrown out, families in the two districts said much the same things: mould and spoilage lay behind most of the rice, vegetables and bread that was lost, while a change in (38) ........ explained much of the waste of meat, fish and eggs. Country households still wasted far less, since leftovers there were more often turned into compost or given to animals; town households leaned instead towards (39) ........ and bought more than they required. For the authors, the answer is not to treat food waste as one undifferentiated problem: they call for city campaigns aimed at rice, vegetables and (40) ........ , together with help for households in keeping perishable goods edible for longer.",
   "items": [
     {
       "number": 37,
-      "prompt": "The biggest inedible category by some way was (37) ........ from fruit and vegetables, above all from bananas and mangoes.",
+      "prompt": "Rice was easily the heaviest single loss, followed by smaller but still notable amounts of carrots, (37) ........ , tofu and tempeh.",
       "answer": [
-        "peelings"
+        "cabbage"
       ],
       "accepted_variants": [
-        "peelings"
+        "cabbage"
       ],
-      "evidence": "Among inedible waste, fruit and vegetable peelings, dominated by banana and mango skins, made up the largest category by far.",
+      "evidence": "Individual items told a similar story: households discarded an average of 14.2 kilograms of rice a year, alongside smaller but still notable amounts of carrots, cabbage, tofu and tempeh.",
       "evidence_locator": {
         "paragraph": "E",
-        "sentence": 3
+        "sentence": 2
       },
-      "explanation": "Paragraph E says that among inedible waste, fruit and vegetable peelings, led by banana and mango skins, made up the largest share; so the answer is 'peelings'.",
-      "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_solvable_kelime_duzeyi": false,
-      "blind_basis": "general_knowledge",
-      "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: general_knowledge. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md",
-      "flag_mechanism": "esdizim_kilidi",
-      "revision": {
-        "tarih": "2026-08-08",
-        "mekanizma": "tanim_sizintisi",
-        "onceki_prompt": "The biggest inedible category by some way was (37) ........ from fruit and vegetables, chiefly the skins of bananas and mangoes.",
-        "ne_degisti": "Ozetteki 'chiefly the skins of bananas and mangoes' ibaresindeki 'skins' sozcugu kaldirildi; bu sozcuk boslugun karsiligini es anlamlisiyla yaziyordu ve model uc turda da 'peel' verdi. Meyve adlari korundu, cunku onlar E/3'un ayirt edici ayrintisi; kaldirilan tek sey cevabin sozluk karsiligi."
-      }
+      "explanation": "Paragraph E lists the individual foods discarded: rice by far the heaviest, together with smaller amounts of carrots, cabbage, tofu and tempeh; so the answer is 'cabbage'.",
+      "difficulty": "easy",
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "uretilen_grup": "GT1 ozet tamamlama",
+        "eski_prompt": "The biggest inedible category by some way was (37) ........ from fruit and vegetables, above all from bananas and mangoes.",
+        "eski_cevap": [
+          "peelings"
+        ],
+        "eski_kanit_cumlesi": "Among inedible waste, fruit and vegetable peelings, dominated by banana and mango skins, made up the largest category by far.",
+        "neden_elendi": "Esdizim kilidi: 'meyve ve sebzeden gelen, ozellikle muz ve mangodan' cercevesi tek bir adayla doluyor; kok metinsiz okundugunda da peelings/peel/skins ciktisi geliyordu. Ayrica basliklar listesindeki vii ('Skins and other leftovers...') cevabin es anlamlisini ayni testin baska bir paketinde acikca yaziyordu.",
+        "ne_degisti": "Bosluk ayni paragrafin bir onceki cumlesine (E/2), tek tek tartilan yiyeceklerin dokumune tasindi. Cevap artik bir kategori adi degil, listede gecen belirli bir sebze; hangi sebzenin sayildigi yalniz metinden okunur. Kabuk cumlesi (E/3) bu paketten cikti ve basliklar listesindeki vii ile arasindaki es anlamli cakismasi da kapandi."
+      },
+      "generated_by": "opus"
     },
     {
       "number": 38,
-      "prompt": "Dairy items, meanwhile, were regularly overlooked at the back of the (38) ........ and only thrown out once it was too late.",
+      "prompt": "Mould and spoilage lay behind most of the rice, vegetables and bread that was lost, while a change in (38) ........ explained much of the waste of meat, fish and eggs.",
       "answer": [
-        "refrigerator"
+        "texture"
       ],
       "accepted_variants": [
-        "refrigerator"
+        "texture"
       ],
-      "evidence": "Dairy products were frequently forgotten at the back of the refrigerator until they had to be discarded.",
+      "evidence": "Spoilage and mould accounted for most losses of rice, vegetables, bread and packaged goods; changes in texture explained much of the waste among meat, fish, eggs, tofu and tempeh; and short shelf life was blamed for bread in particular.",
       "evidence_locator": {
         "paragraph": "G",
-        "sentence": 4
+        "sentence": 2
       },
-      "explanation": "Paragraph G says that dairy products were often forgotten at the back of the refrigerator and had to be thrown out; so the answer is 'refrigerator'.",
-      "difficulty": "easy",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_solvable_kelime_duzeyi": false,
-      "blind_basis": "logic",
-      "flag_reason": "Parça gösterilmeden anlamca 3/3 turda doğru bilindi: farklı kelimeyle ama doğru kavramla cevaplandı (3 turda da 'fridge' verdi, gerçek cevap 'refrigerator' — aynı nesnenin günlük dildeki adı).",
-      "flag_mechanism": "esdizim_kilidi",
-      "review_note": "E5 / 8. calistirma: dokunulmadi. Model uc turda da 'fridge' verdi; kabul listesi yalniz 'refrigerator' kabul ettigi icin 3 turun 0'inda puan alirdi. Sorunun gercek kusuru sizinti degil kabul listesinin darligi: ONE WORD ONLY sinirinda 'fridge' pasajin dunyasinda dogru bir cevaptir ama anahtar reddediyor. Kabul listesi korunan alan oldugu icin bu calistirmada duzeltilemiyor. 🔴 E6/E7 bu yuvada anahtarin 'fridge'i de kabul etmesi gerekip gerekmedigine karar vermeli."
+      "explanation": "Paragraph G says that changes in texture explained much of the waste among meat, fish, eggs, tofu and tempeh; so the answer is 'texture'.",
+      "difficulty": "medium",
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "uretilen_grup": "GT1 ozet tamamlama",
+        "eski_prompt": "Dairy items, meanwhile, were regularly overlooked at the back of the (38) ........ and only thrown out once it was too late.",
+        "eski_cevap": [
+          "refrigerator"
+        ],
+        "eski_kanit_cumlesi": "Dairy products were frequently forgotten at the back of the refrigerator until they had to be discarded.",
+        "neden_elendi": "Esdizim kilidi: 'sut urunleri ___ arkasinda unutuluyor' kalibinin tek adayi var; ustelik parcasiz olcumde uc turda da 'fridge' geldi ve dar kabul listesi bunu reddediyordu, yani kalem hem sizdiriyor hem haksiz puan kaybettiriyordu.",
+        "ne_degisti": "Bosluk ayni paragrafin 2. cumlesine tasindi ve hedefi bir nesne olmaktan cikip israfin nedeni oldu. 'Etin, baligin ve yumurtanin neyi degisince atildigi' sorusunun ilk akla gelen yanitlari koku ve renktir; metin dokuyu seciyor, yani cevap ancak G/2 okunarak bulunuyor. Sut urunleri cumlesi (G/4) bu paketten cikti."
+      },
+      "generated_by": "opus"
     },
     {
       "number": 39,
@@ -89,31 +100,35 @@
     },
     {
       "number": 40,
-      "prompt": "For the authors, the lesson is that policy has so far dealt with collecting and disposing of waste; real (40) ........ , they argue, will depend on campaigns that name the particular foods concerned.",
+      "prompt": "They call for city campaigns aimed at rice, vegetables and (40) ........ , together with help for households in keeping perishable goods edible for longer.",
       "answer": [
-        "prevention"
+        "legumes"
       ],
       "accepted_variants": [
-        "prevention"
+        "legumes"
       ],
-      "evidence": "The authors argue that food waste policy in Indonesia, as in many countries, has focused on collection and disposal rather than prevention, and that meaningful reductions will depend on tackling the specific items and behaviours identified in the study, rather than treating food waste as a single undifferentiated problem.",
+      "evidence": "They recommend urban campaigns aimed specifically at rice, vegetables and legumes, alongside wider efforts to help households extend the shelf life of perishable goods.",
       "evidence_locator": {
         "paragraph": "I",
-        "sentence": 1
+        "sentence": 2
       },
-      "explanation": "Paragraph I says that food waste policy has focused on collection and disposal rather than prevention, and that meaningful reductions depend on tackling the specific items identified in the study; so the answer is 'prevention'.",
-      "difficulty": "hard",
-      "status": "flagged",
+      "explanation": "Paragraph I says the authors recommend urban campaigns aimed specifically at rice, vegetables and legumes; so the answer is 'legumes'.",
+      "difficulty": "medium",
+      "status": "verified",
       "blind_solvable": false,
       "blind_basis": null,
-      "flag_reason": "E7 cevap anahtari olcumu (2026-08-08): kor cozum 'reductions' dedi, anahtar 'prevention'. Kanit cumlesi iki adayi da tasiyor: 'has focused on collection and disposal rather than PREVENTION, and that meaningful REDUCTIONS will depend on tackling the specific items'. Ozet cumlesi 'real ___ will depend on campaigns' kalibiyla pasajin 'reductions will depend on' obegini nerdeyse birebir yankiladigi icin 'reductions' en az 'prevention' kadar savunulabilir. En az maliyetli duzeltme: accepted_variants listesine 'reductions' eklemek ya da boslugu tek adayli bir kaliba tasimak.",
-      "flag_mechanism": "esdizim_kilidi",
-      "revision": {
-        "tarih": "2026-08-08",
-        "mekanizma": "esdizim_kilidi",
-        "onceki_prompt": "For the authors, the lesson is that policy has so far dealt with collecting and disposing of waste rather than its (40) ........ , and that campaigns need to name the particular foods concerned.",
-        "ne_degisti": "'collecting and disposing ... rather than its ___' karsitligi kaldirildi; atik politikasi soyleminde bu karsitligin oteki ucu her zaman 'prevention' oldugu icin bosluk tek basina doluyordu. Yeni cercevede reduction, progress, change adaylari da uyuyor."
-      }
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "uretilen_grup": "GT1 ozet tamamlama",
+        "eski_prompt": "For the authors, the lesson is that policy has so far dealt with collecting and disposing of waste; real (40) ........ , they argue, will depend on campaigns that name the particular foods concerned.",
+        "eski_cevap": [
+          "prevention"
+        ],
+        "eski_kanit_cumlesi": "The authors argue that food waste policy in Indonesia, as in many countries, has focused on collection and disposal rather than prevention, and that meaningful reductions will depend on tackling the specific items and behaviours identified in the study, rather than treating food waste as a single undifferentiated problem.",
+        "neden_elendi": "Esdizim kilidi ve cift aday: kanit cumlesi hem 'prevention' hem 'reductions' tasiyor, ozet cumlesi ise pasajin 'reductions will depend on' obegini nerdeyse birebir yankiladigi icin 'reductions' en az anahtar kadar savunulabiliyordu. Ayrica atik politikasi soyleminde 'toplama ve bertaraf' karsitliginin oteki ucu her zaman 'prevention'dir.",
+        "ne_degisti": "Bosluk ayni paragrafin 2. cumlesine, yazarlarin somut kampanya onerisine tasindi. Cevap artik bir politika terimi degil, onerinin adini verdigi ucuncu yiyecek grubu; tek adayi var ve yalniz I/2'den okunuyor. Politika karsitligi cumlesi (I/1) bu paketten cikti."
+      },
+      "generated_by": "opus"
     }
   ]
 }

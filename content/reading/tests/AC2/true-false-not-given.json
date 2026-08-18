@@ -72,111 +72,147 @@
     },
     {
       "number": 10,
-      "prompt": "The orbits of the small inner moons are affected by the planet's rings as well as by one another.",
+      "prompt": "The moon's diameter was obtained by measuring the object directly in the new images.",
       "answer": [
-        "TRUE"
+        "FALSE"
       ],
-      "evidence": "Even among planetary scientists, keeping track of so many small, closely spaced bodies is a demanding task, since their orbits interact with one another and with the planet's faint rings in ways that are still not fully mapped out.",
+      "evidence": "Because it has not been imaged in enough detail to measure directly, its size has to be estimated: assuming it reflects light in a similar way to Uranus's other small moons, astronomers calculate a diameter of about six miles, or ten kilometres, making it one of the smallest moons known anywhere in the solar system.",
       "evidence_locator": {
-        "paragraph": "E",
-        "sentence": 3
+        "paragraph": "C",
+        "sentence": 2
       },
-      "contradiction_point": null,
+      "contradiction_point": "Pasaj cismin dogrudan olculecek ayrintida goruntulenemedigini ve bu yuzden capin TAHMIN edilmek zorunda kaldigini soyluyor; ifade ise capin dogrudan olcumle elde edildigini iddia ediyor. Celiski tek noktada: olcum mu tahmin mi.",
       "not_given_justification": null,
-      "scan_note": "Ic uydularin yorunge etkilesimi E paragrafinin 3. cumlesinde; G paragrafinin 2. cumlesi ayni etkilesimi 'karmasik kutlecekim iliskileri' olarak yineliyor.",
-      "explanation": "Paragraph E says the orbits of these small, closely spaced bodies interact with one another and with the planet's faint rings, so both influences are stated.",
-      "difficulty": "easy",
+      "scan_note": "Cap ve boyut C paragrafinin 2. cumlesinde geciyor; F/3 boyutun neden gorunurluk esiginin altinda kaldigini anlatiyor ama olcum yontemine degmiyor. Baska hicbir cumle dogrudan olcum iddia etmiyor.",
+      "explanation": "Paragraph C says the object has not been imaged in enough detail to be measured directly, so its size had to be estimated from an assumption about how it reflects light; the statement claims the opposite.",
+      "difficulty": "medium",
       "status": "verified",
       "blind_solvable": false,
       "blind_basis": null,
-      "flag_reason": "Cevap TRUE, birbirine yakin kucuk gok cisimlerinin yorungelerini izlemenin (cok-cisim etkilesimi) uzmanlar icin bile zorlu bir problem olmasi genel astronomi/fizik bilgisiyle parcaya bakmadan da tahmin edilebiliyor.",
-      "flag_mechanism": "genel_kultur",
       "revision": {
         "tarih": "2026-08-08",
         "mekanizma": "genel_kultur",
         "onceki_prompt": "Monitoring the planet's many small, close-together moons is difficult even for professional researchers.",
         "ne_degisti": "Eski ifade 'bu kadar cok ve birbirine yakin cismi izlemek uzmanlar icin bile zordur' diyordu; cok-cisim probleminin zorlugu genel fizik bilgisi oldugu icin cevap pasajsiz cikiyordu. Yeni ifade ayni cumlenin oteki yarisini, etkilesimin halkalari da kapsayip kapsamadigini hedefliyor; halkalarin isin icinde olmasi pasaja ozgu bir ayrinti."
+      },
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "mekanizma": "genel_kultur",
+        "eski_prompt": "The orbits of the small inner moons are affected by the planet's rings as well as by one another.",
+        "eski_cevap": [
+          "TRUE"
+        ],
+        "eski_kanit_cumlesi": "Even among planetary scientists, keeping track of so many small, closely spaced bodies is a demanding task, since their orbits interact with one another and with the planet's faint rings in ways that are still not fully mapped out.",
+        "neden_elendi": "Cevap genel astronomi bilgisiyle geliyordu: birbirine yakin kucuk cisimlerin yorungelerinin hem birbirini hem halkalari etkiledigi cok-cisim probleminin bilinen tarifidir.",
+        "ne_degisti": "Kanit ayni pasajda C/2'ye kaydirildi ve eksen fizik genellemesinden calismanin kendi yontem kaydina cevrildi. Sezgi burada YANLIS tarafa capali: yeni bir uydu goruntulendiyse olculdugu de varsayilir, oysa metin olcum degil tahmin diyor. Cevap ayrica TRUE'dan FALSE'a alindi."
       }
     },
     {
       "number": 11,
-      "prompt": "What kept the moon out of sight was its size rather than its distance from Earth.",
+      "prompt": "At the time of writing, the find had not yet appeared as a completed, peer-reviewed result.",
       "answer": [
         "TRUE"
       ],
-      "evidence": "Its size simply placed it below the threshold that Voyager's instruments, or any Earth-based telescope in the decades since, could resolve, meaning the moon had been circling Uranus unnoticed for the nearly forty years between that flyby and Webb's observations.",
+      "evidence": "For now, the discovery remains part of ongoing research rather than a finished, peer-reviewed result, but it illustrates a broader pattern in planetary astronomy: each generation of instruments reveals objects that the previous generation's technology, however capable at the time, simply could not see.",
       "evidence_locator": {
-        "paragraph": "F",
-        "sentence": 3
+        "paragraph": "H",
+        "sentence": 1
       },
       "contradiction_point": null,
       "not_given_justification": null,
-      "scan_note": "Gorunmezligin nedeni F paragrafinin 3. cumlesinde; C paragrafi da cismin dogrudan olculemeyecek kadar kucuk oldugunu soyluyor. Uzaklik hicbir yerde neden olarak gosterilmiyor.",
-      "explanation": "Paragraph F says it was the moon's size that placed it below the threshold Voyager's instruments and Earth-based telescopes could resolve, so size rather than distance is given as the reason it went unseen.",
+      "scan_note": "Calismanin yayin durumu yalniz H paragrafinin 1. cumlesinde geciyor; B paragrafi gozlem programini, G paragrafi ekip yorumunu anlatiyor ama hicbiri hakemli yayindan soz etmiyor, celisen cumle yok.",
+      "explanation": "Paragraph H says that for now the discovery remains part of ongoing research rather than a finished, peer-reviewed result, which is what the statement asserts.",
       "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_basis": "logic",
-      "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: logic. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md",
-      "flag_mechanism": "genel_kultur",
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
       "revision": {
         "tarih": "2026-08-08",
         "mekanizma": "genel_kultur",
         "onceki_prompt": "After the flyby, ground-based telescopes were likewise unable to make the moon out.",
         "ne_degisti": "Eski ifade ucus sonrasinda yer teleskoplarinin da goremedigini soyluyordu; yer teleskoplarinin uzay araclarindan daha sinirli oldugu yaygin bilgisiyle cevap pasajsiz cikiyordu. Yeni ifade ayni cumlenin NEDEN kismini hedefliyor: boyut mu uzaklik mi sorusu iki secenek de makul oldugu icin ancak F/3 okunarak yanitlanabiliyor."
+      },
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "mekanizma": "genel_kultur",
+        "eski_prompt": "What kept the moon out of sight was its size rather than its distance from Earth.",
+        "eski_cevap": [
+          "TRUE"
+        ],
+        "eski_kanit_cumlesi": "Its size simply placed it below the threshold that Voyager's instruments, or any Earth-based telescope in the decades since, could resolve, meaning the moon had been circling Uranus unnoticed for the nearly forty years between that flyby and Webb's observations.",
+        "neden_elendi": "Cevap dunya bilgisiyle cikiyordu: bir gok cisminin gorunmezliginin nedeninin uzaklik degil boyut/cozunurluk esigi olmasi teleskop mantiginin standart bilgisi; E7 uc turda da bildi.",
+        "ne_degisti": "Kanit ayni pasajda H/1'e kaydirildi ve eksen fizik genellemesinden calismanin kendi durumuna (henuz hakemden gecmemis olmasi) cevrildi. Bu, disaridan bilinemeyecek, yalniz metnin soyledigi bir olgu."
       }
     },
     {
       "number": 12,
-      "prompt": "Tiscareno maintains that the difference between a ring and a moon has always been clear-cut.",
-      "answer": [
-        "FALSE"
-      ],
-      "evidence": "According to team member Matthew Tiscareno of the SETI Institute, no other planet in the solar system has as many small inner moons as Uranus, and the complicated gravitational relationships between these moons and the planet's faint rings point to a chaotic early history, one in which the line between \"ring\" and \"moon\" may not always have been as clear as it is today.",
-      "evidence_locator": {
-        "paragraph": "G",
-        "sentence": 2
-      },
-      "contradiction_point": "Pasaj halka ile uydu arasindaki cizginin gecmiste bugunku kadar net olmayabilecegini soyluyor; ifade ayrimin her zaman net oldugunu iddia ediyor. Celiski tek noktada: ayrimin gecmisteki netligi.",
-      "not_given_justification": null,
-      "scan_note": "Tiscareno'nun sozleri G paragrafinin 2. cumlesinde; A ve E paragraflari halka-uydu sistemini tanitiyor ama ayrimin netligine deginmiyor.",
-      "explanation": "Paragraph G reports Tiscareno as saying the line between ring and moon may not always have been as clear as it is today, which contradicts the claim that the distinction has always been clear-cut.",
-      "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_basis": "option_wording",
-      "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: option_wording. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md",
-      "flag_mechanism": "genel_kultur",
-      "revision": {
-        "tarih": "2026-08-08",
-        "mekanizma": "genel_kultur",
-        "onceki_prompt": "A team member stated that another planet possesses more small inner moons than Uranus.",
-        "ne_degisti": "Eski ifade 'baska bir gezegen daha fazla kucuk ic uyduya sahiptir' diyordu; kesif haberlerinin konu gezegeni benzersiz gosterme kalibi yuzunden cevap pasajsiz cikiyordu. Yeni ifade ayni cumlenin ikinci yarisini, halka ile uydu arasindaki sinirin tarihsel netligini hedefliyor."
-      }
-    },
-    {
-      "number": 13,
-      "prompt": "A name taken from Shakespeare has already been put forward for the new moon.",
+      "prompt": "The new moon completes an orbit of Uranus more quickly than Bianca does.",
       "answer": [
         "NOT GIVEN"
       ],
       "evidence": null,
       "evidence_locator": null,
       "contradiction_point": null,
-      "not_given_justification": "(1) Konu pasajda var: E paragrafinin 2. cumlesi adlandirma gelenegini ve onay surecini ayrintisiyla anlatiyor. (2) Ifadeyi curuten cumle yok. (3) Dogrulayan cumle de yok: metin yalniz 'eventual name' diyor, herhangi bir adin onerildigini soylemiyor.",
-      "scan_note": "Adlandirma E paragrafinin 2. cumlesinde; C paragrafi gecici tanimlamayi (S/2025 U1) veriyor, o da bir ad onerisi degil.",
-      "explanation": "Paragraph E explains the naming tradition and says the newcomer's eventual name will need formal approval, but it never says whether any particular name has yet been proposed.",
-      "difficulty": "medium",
+      "not_given_justification": "(1) Konu pasajda var: D paragrafinin 1. cumlesi yeni uydunun yorungesini Uranus'un merkezinden uzakligiyla veriyor ve onu Ophelia ile Bianca arasindaki bosluga yerlestiriyor. (2) Hicbir cumle ifadeyi curutmuyor. (3) Hicbir cumle dogrulamiyor da: pasaj bu uc uydudan hicbirinin dolanim suresini vermiyor ve Ophelia ile Bianca'dan hangisinin gezegene daha yakin oldugunu soylemiyor, dolayisiyla yeni cismin hangisinden hizli dolandigi metinden cikarilamaz.",
+      "scan_note": "Yorunge bilgisi D paragrafinin 1.-2. cumlelerinde; E paragrafi ic uydularin gezegene daha yakin dolandigini soyluyor ama tek tek uydu siralamasi ya da dolanim suresi hicbir paragrafta yok.",
+      "explanation": "The passage places the new moon's orbit in the gap between Ophelia and Bianca but gives no orbital period for any of them, and never says which of the two lies closer to the planet, so the comparison cannot be made from the text.",
+      "difficulty": "hard",
       "status": "verified",
       "blind_solvable": false,
       "blind_basis": null,
-      "flag_reason": "Ifade, pasajin sonucun henuz hakemli bir yayina donusmedigini soyledigi bir yerde, hic verilmeyen bir zaman cizelgesi (bir yil icinde) iddiasi ekliyor; boyle somut ama pasajda karsiligi olmayan takvim iddialari genelde NOT GIVEN'a isaret eder.",
-      "flag_mechanism": "konumsal_duzen",
+      "revision": {
+        "tarih": "2026-08-08",
+        "mekanizma": "genel_kultur",
+        "onceki_prompt": "A team member stated that another planet possesses more small inner moons than Uranus.",
+        "ne_degisti": "Eski ifade 'baska bir gezegen daha fazla kucuk ic uyduya sahiptir' diyordu; kesif haberlerinin konu gezegeni benzersiz gosterme kalibi yuzunden cevap pasajsiz cikiyordu. Yeni ifade ayni cumlenin ikinci yarisini, halka ile uydu arasindaki sinirin tarihsel netligini hedefliyor."
+      },
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "mekanizma": "genel_kultur",
+        "eski_prompt": "Tiscareno maintains that the difference between a ring and a moon has always been clear-cut.",
+        "eski_cevap": [
+          "FALSE"
+        ],
+        "eski_kanit_cumlesi": "According to team member Matthew Tiscareno of the SETI Institute, no other planet in the solar system has as many small inner moons as Uranus, and the complicated gravitational relationships between these moons and the planet's faint rings point to a chaotic early history, one in which the line between \"ring\" and \"moon\" may not always have been as clear as it is today.",
+        "neden_elendi": "Cevap ifadenin kendi sozunden cikiyordu: 'her zaman net olmustur' bicimindeki mutlak iddialar TFNG'de neredeyse her zaman FALSE'tur ve halka-uydu sinirinin bulanikligi ayrica gezegen bilimi genel kulturu; E7 uc turda da bildi (option_wording).",
+        "ne_degisti": "Mutlak kalip tumuyle atildi ve kalem NOT GIVEN'a cevrildi. Yeni ifade pasajin gercekten konu ettigi bir seyi (yorungelerin konumu) hic verilmeyen bir olcuye (dolanim suresi) baglıyor; G/2'ye artik hicbir soru degmiyor. NOT GIVEN'lar da 7-13 dizisinde sona yigilmaktan cikarildi (9 ve 12)."
+      }
+    },
+    {
+      "number": 13,
+      "prompt": "The scientist who led the observing programme works for a research institute.",
+      "answer": [
+        "TRUE"
+      ],
+      "evidence": "The discovery was made using NASA's James Webb Space Telescope, in a programme led by planetary scientist Maryame El Moutamid of the Southwest Research Institute in Boulder, Colorado.",
+      "evidence_locator": {
+        "paragraph": "B",
+        "sentence": 1
+      },
+      "contradiction_point": null,
+      "not_given_justification": null,
+      "scan_note": "Programi kimin yonettigi yalniz B paragrafinin 1. cumlesinde; G/2 baska bir ekip uyesini ve kurumunu aniyor, H/2 ekip liderinin sozunu aktariyor ama yonetim bilgisini yinelemiyor, celisen cumle yok.",
+      "explanation": "Paragraph B says the programme was led by planetary scientist Maryame El Moutamid of the Southwest Research Institute, so the statement agrees with the passage.",
+      "difficulty": "easy",
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
       "revision": {
         "tarih": "2026-08-08",
         "mekanizma": "eksen_disi_ayrinti",
         "onceki_prompt": "The team intends to submit its findings for publication within the next year.",
         "ne_degisti": "Eski ifade ekibin bulguyu bir yil icinde yayina gonderme niyetini soruyordu; pasajda hic gecmeyen bir takvim ayrintisi ekleyen bu kalip tek basina NOT GIVEN'i veriyordu. Yeni ifade metnin ayrintisiyla anlattigi adlandirma surecini hedefliyor; bir ad onerilip onerilmedigi karara baglanmiyor."
+      },
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "mekanizma": "konumsal_duzen",
+        "eski_prompt": "A name taken from Shakespeare has already been put forward for the new moon.",
+        "eski_cevap": [
+          "NOT GIVEN"
+        ],
+        "eski_kanit_cumlesi": null,
+        "neden_elendi": "7-13 cevap dizisi duzenli bir dongu kuruyordu (T, F, NG, T, T, F, NG): ilk uclu ile son uclu birebir ayni sirayi tekrarliyor ve NOT GIVEN dizinin sonuna dusuyordu; aday son kalemi okumadan NG isaretleyebilirdi. Ayrica kalemin flag gerekcesi hala kaldirilmis eski takvim ifadesini tarif ediyordu, yani gerekce ile kalem uyusmuyordu.",
+        "ne_degisti": "Dizi 10-13 uzerinden yeniden dagitildi: T, F, NG, F, T, NG, T. Dongu kirildi, NOT GIVEN'lar 9 ve 12'ye alinip sondan cikarildi, uc ayni cevabin ust uste gelmesi engellendi. Bu kalem TRUE'ya cevrilip B/1'e, programi kimin yonettigi bilgisine capalandi; sezgi NASA'nin teleskopu oldugu icin NASA'yi gosteriyor, metin ise bagimsiz bir arastirma enstitusunu soyluyor."
       }
     }
   ]

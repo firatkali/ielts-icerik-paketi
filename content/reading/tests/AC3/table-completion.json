@@ -23,44 +23,53 @@
     "rows": [
       [
         "Phase one: reaction to a reflection",
-        "On certain days one part of the pool held a big two-way mirror; on the rest it was replaced by a clear (1) ........ screen of the same size.",
+        "The animals took part in (1) ........ sessions in all; in the first of these one part of the pool held a big two-way mirror on some days and a clear panel of the same size on the rest.",
         "Acts hardly ever seen at other times — trails of bubbles, gentle (2) ........ , necks stretched out, a flipper turned round — occurred only at the mirror."
       ],
       [
         "Phase two: the mark test",
-        "A safe (3) ........ mark 5–8 cm wide was put where the animal could not see it unaided; on other trials the same contact left nothing visible.",
+        "A harmless mark measuring five to (3) ........ across was put where the animal could not see it unaided; on other trials the same contact left nothing visible.",
         "With a visible mark Natasha held the spot up to the glass for 3 minutes 40 seconds over (4) ........ visits, but with an unseen mark for only (5) ........ over four visits."
       ],
       [
-        "Both responsive animals",
-        "Their viewing position at the mirror was noted.",
-        "Each of them studied the reflection with the (6) ........ , hinting that one side of the brain deals with this task."
+        "The wider picture",
+        "Earlier passes by other species were set beside the beluga result.",
+        "The list already included elephants, magpies and even a cleaner fish no bigger than a (6) ........ ."
       ]
     ]
   },
   "items": [
     {
       "number": 1,
-      "prompt": "Phase one — What the researchers did: On certain days one part of the pool held a big two-way mirror; on the rest it was replaced by a clear (1) ........ screen of the same size.",
+      "prompt": "Phase one — What the researchers did: The animals took part in (1) ........ sessions in all; in the first of these one part of the pool held a big two-way mirror on some days and a clear panel of the same size on the rest.",
       "answer": [
-        "acrylic"
+        "98"
       ],
       "accepted_variants": [
-        "acrylic"
+        "98",
+        "ninety-eight"
       ],
-      "evidence": "In the first phase a large two-way mirror was lowered into one section of their pool on some days and, on other days, a transparent acrylic panel of identical size was used instead as a control, so that researchers could distinguish curiosity about a novel object from a specific response to a reflection.",
+      "evidence": "Between February and November 2001 the animals took part in 98 separate sessions split into two phases.",
       "evidence_locator": {
         "paragraph": "B",
-        "sentence": 3
+        "sentence": 2
       },
-      "explanation": "Paragraph B says that on days without the mirror, a transparent acrylic panel of the same size was used as a control; since the gap asks for the panel's material, the answer is 'acrylic'.",
+      "explanation": "Paragraph B says that between February and November 2001 the animals took part in 98 separate sessions split into two phases; so the answer is '98'.",
       "difficulty": "easy",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_basis": "guess",
-      "flag_reason": "Net bir mekanizma yok: bosluk levhanin malzemesini istiyor, 'acrylic' disinda 'plastic', 'glass', 'plexiglass' gibi baska malzeme adlari da esit derecede olasi; dogru sozcugun tutturulmasi buyuk olcude sansa dayaniyor.",
-      "flag_mechanism": "belirsiz",
-      "review_note": "E5 / 6. calistirma: dokunulmadi. E1'in gerekcesi 'plastic', 'glass', 'plexiglass' gibi alternatiflerin ayni cerceveye uydugunu soyluyor, yani bosluk tek adaya kilitli degil; blind_basis 'guess'. Malzeme adi isteyen bu bosluk ancak B/3 okunarak dogru yazilabiliyor. Duzeltme yapilmadi, E7 yeniden olcmeli."
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "tur": "AC3 isaretli kalem elden gecirme",
+        "eski_prompt": "Phase one — What the researchers did: On certain days one part of the pool held a big two-way mirror; on the rest it was replaced by a clear (1) ........ screen of the same size.",
+        "eski_cevap": [
+          "acrylic"
+        ],
+        "eski_kanit_cumlesi": "In the first phase a large two-way mirror was lowered into one section of their pool on some days and, on other days, a transparent acrylic panel of identical size was used instead as a control, so that researchers could distinguish curiosity about a novel object from a specific response to a reflection.",
+        "neden_elendi": "Bosluk levhanin malzemesini istiyordu ve o cerceveye 'plastic', 'glass', 'plexiglass' gibi baska malzeme adlari da esit derecede oturuyordu; dogru sozcugu tutturmak buyuk olcude sansa kaliyordu (blind_basis: guess). Malzeme adi isteyen bir bosluk tek adaya kilitlenemedigi icin yuva bosaltildi.",
+        "ne_degisti": "Bosluk malzemeden calismanin kendi sayisina tasindi: butun calismanin kac oturumdan olustugu (B/2). Tek dogru var, tahmin edilemiyor. Kanit B/3'ten B/2'ye gectigi icin B paragrafinda ucu de ayri cumleye oturuyor (dogru-yanlis 8 -> B/1, bu soru -> B/2, dogru-yanlis 7 -> B/4)."
+      }
     },
     {
       "number": 2,
@@ -84,27 +93,37 @@
     },
     {
       "number": 3,
-      "prompt": "Phase two — What the researchers did: A safe (3) ........ mark 5–8 cm wide was put where the animal could not see it unaided; on other trials the same contact left nothing visible.",
+      "prompt": "Phase two — What the researchers did: A harmless mark measuring five to (3) ........ across was put where the animal could not see it unaided; on other trials the same contact left nothing visible.",
       "answer": [
-        "cosmetic"
+        "eight centimetres"
       ],
       "accepted_variants": [
-        "cosmetic"
+        "eight centimetres",
+        "8 centimetres",
+        "eight cm",
+        "8 cm"
       ],
       "evidence": "A harmless cosmetic mark, five to eight centimetres across, was applied to a part of the body the whale could not see without a mirror, most often just behind an eye or an ear.",
       "evidence_locator": {
         "paragraph": "D",
         "sentence": 2
       },
-      "explanation": "Paragraph D says that the mark was a harmless cosmetic dye, five to eight centimetres wide; the answer is therefore 'cosmetic'.",
+      "explanation": "Paragraph D says the harmless mark measured five to eight centimetres across; since the cell already gives the lower figure, the answer is 'eight centimetres'.",
       "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_solvable_kelime_duzeyi": false,
-      "blind_basis": "logic",
-      "flag_reason": "Parça gösterilmeden anlamca 3/3 turda doğru bilindi: farklı kelimeyle ama doğru kavramla cevaplandı (3 turda da 'dye' verdi, gerçek cevap 'cosmetic' — ayna testinde deriye uygulanan aynı zararsız boyalı işaret).",
-      "flag_mechanism": "esdizim_kilidi",
-      "review_note": "E10 anlam duzeyi olcumunden gelen isaret: model parcasiz uc turda da dogru KAVRAMI verdi, tutmayan sey sozcugun kendisiydi. Bu bicimde sizinti cercevede degil boslugun hedefinde durur; kapatmak icin boslugu baska bir ayrintiya tasimak, yani `answer` alanini degistirmek gerekir. Talimatin korunan alan kurali buna izin vermedigi ve soru kelime duzeyinde hala calistigi icin soru oldugu gibi birakildi. Model uc turda 'dye' verdi. Ayna testinde deriye uygulanan zararsiz isareti soran her cerceve boya kavramini veriyor. E6 onerisi: isaretin turu yerine konuldugu yere (goz ya da kulak arkasi) capalanmis yuva."
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "tur": "AC3 isaretli kalem elden gecirme",
+        "eski_prompt": "Phase two — What the researchers did: A safe (3) ........ mark 5–8 cm wide was put where the animal could not see it unaided; on other trials the same contact left nothing visible.",
+        "eski_cevap": [
+          "cosmetic"
+        ],
+        "eski_kanit_cumlesi": "A harmless cosmetic mark, five to eight centimetres across, was applied to a part of the body the whale could not see without a mirror, most often just behind an eye or an ear.",
+        "neden_elendi": "Bosluk deriye uygulanan zararsiz isaretin turunu soruyordu ve bu kavramin karsiligi cerceveden okunuyordu: model parcasiz uc turda da dogru kavrami ('dye') verdi. Ayna testinde deriye konan zararsiz isareti soran her cerceve boya kavramini kendiliginden veriyor, yani sizinti cercevede degil boslugun hedefindeydi.",
+        "ne_degisti": "Bosluk kavramdan olcuye kaydirildi: isaretin buyuklugunun ust ucu. Alt uc ('five to') hucrede verildigi icin cevap yalniz D/2'den okunur, tahminle bulunamaz. Kanit cumlesi degismedi, hedefi degisti."
+      }
     },
     {
       "number": 4,
@@ -148,30 +167,39 @@
     },
     {
       "number": 6,
-      "prompt": "Both responsive animals — What they saw: Each of them studied the reflection with the (6) ........ .",
+      "prompt": "The wider picture — What they saw: The list already included elephants, magpies and even a cleaner fish no bigger than a (6) ........ .",
       "answer": [
-        "right eye"
+        "human finger"
       ],
       "accepted_variants": [
-        "right eye"
+        "human finger"
       ],
-      "evidence": "Both whales, notably, preferred to view the mirror with their right eye, a bias that hints at some degree of lateralised processing in how the brain handles this kind of visual information.",
+      "evidence": "Combined with earlier reports in elephants, magpies and even a species of cleaner wrasse no larger than a human finger, the beluga findings support the view that some form of mirror self-recognition has evolved independently, more than once, in animals with very different brains and very different lifestyles, rather than being a single trait inherited from a common ancestor.",
       "evidence_locator": {
-        "paragraph": "F",
-        "sentence": 3
+        "paragraph": "G",
+        "sentence": 2
       },
-      "explanation": "Paragraph F says that both whales preferred to view the mirror with their right eye; the answer is therefore 'right eye'.",
+      "explanation": "Paragraph G says earlier reports of this ability include elephants, magpies and even a species of cleaner wrasse no larger than a human finger; so the answer is 'human finger'.",
       "difficulty": "hard",
       "status": "verified",
       "blind_solvable": false,
       "blind_basis": null,
-      "flag_reason": "Cevap 'right eye', hayvan davranisi arastirmalarinda sosyal/gorsel uyaranlarin islenmesinde sikca sag goz tercihinin (sol beyin yarikuresi baskinligi) bildirilmesi bilinen bir oruntu; bu genel bilgiyle bosluk parcaya bakmadan da tahmin edilebiliyor.",
-      "flag_mechanism": "genel_kultur",
       "revision": {
         "tarih": "2026-08-08",
         "mekanizma": "genel_kultur",
         "onceki_prompt": "Both responsive animals — What they saw: Each of them studied the reflection with the (6) ........ , hinting that one side of the brain deals with this task.",
         "ne_degisti": "Hucrenin sonundaki 'hinting that one side of the brain deals with this task' ibaresi kaldirildi. Yanallasma (lateralisation) cagrisimi, hayvan davranisinda sikca bildirilen sag goz tercihini dogrudan hatirlatiyordu. Ibare gidince hucreye 'the same eye' de en az 'right eye' kadar uyuyor - ustelik 'Both / Each of them' vurgusu sezgiyi oraya cekiyor. KISMI duzeltme: geriye sag/sol ikilisinde zayif bir sag onyargisi kaliyor, E7 ayrica olcmeli."
+      },
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "tur": "AC3 isaretli kalem elden gecirme",
+        "eski_prompt": "Both responsive animals — What they saw: Each of them studied the reflection with the (6) ........ .",
+        "eski_cevap": [
+          "right eye"
+        ],
+        "eski_kanit_cumlesi": "Both whales, notably, preferred to view the mirror with their right eye, a bias that hints at some degree of lateralised processing in how the brain handles this kind of visual information.",
+        "neden_elendi": "Cevap genel bilgiyle geliyordu: hayvan davranisi calismalarinda gorsel uyaranlarin islenmesinde sag goz tercihinin bildirilmesi bilinen bir oruntu, ustelik sag/sol ikilisinde tahminin tutma sansi zaten yuksekti. 2026-08-08'deki kismi duzeltme (beyin ibaresinin cikarilmasi) bu sag onyargisini kapatmamisti.",
+        "ne_degisti": "Satirin ekseni degistirildi: son satir artik iki hayvanin bakis yonunu degil, bulgunun daha once hangi turlerde bildirildigini ozetliyor ve bosluk kaynagin kendi olcusune ('bir insan parmagindan buyuk olmayan') aciliyor. Kanit F/3'ten pasajda hic kullanilmayan G/2'ye tasindi; sag/sol tahmini artik hicbir sey kazandirmiyor. Ayrica pasajin A/2 cumlesi 'cleaner fish' dedigi icin hucredeki ifade oraya benziyor ama olcuyu yalniz G/2 veriyor."
       }
     }
   ]

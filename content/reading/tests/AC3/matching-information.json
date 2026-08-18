@@ -43,56 +43,75 @@
     },
     {
       "number": 28,
-      "prompt": "a reference to a second town where the same kind of preservation cannot be taken for granted",
+      "prompt": "a statement that more than one kind of laboratory analysis was brought to bear on the same find",
       "answer": [
-        "H"
+        "D"
       ],
       "accepted_variants": [
-        "H"
+        "D"
       ],
-      "evidence": "At the same time, the researchers are careful to note that the finding describes a single individual under an unusual and highly specific set of volcanic conditions, and cannot be assumed to apply broadly across other victims at Herculaneum or Pompeii.",
+      "evidence": "To confirm and characterise the discovery, the research team combined several techniques.",
       "evidence_locator": {
-        "paragraph": "H",
-        "sentence": 2
+        "paragraph": "D",
+        "sentence": 1
       },
-      "uniqueness_check": "Bulgunun tek bir kişiye ait olduğu ve başkalarına genellenemeyeceği uyarısı yalnız H paragrafında. G paragrafı da bir sınırlamadan söz ediyor ama orada dar olan şey ısıl koşullar aralığıdır, bulgunun kapsamı değil; C bulgunun ne kadar ender olduğunu söylüyor, genellenemezliğini değil.",
-      "explanation": "Paragraph H says the finding cannot be assumed to apply broadly across other victims at Herculaneum or Pompeii, naming a second town where the same preservation cannot be taken for granted.",
+      "uniqueness_check": "Birden fazla yontemin BIR ARADA kullanildigini soyleyen tek paragraf D; acilis cumlesi bulguyu dogrulamak ve nitelemek icin birkac teknigin birlestirildigini acikca kuruyor. C de bir 'ayrintili analiz'den soz ediyor ama tek bir sonucu bildiriyor, yontem coklugundan soz etmiyor; F yalniz kimyasal analizin katkisini anlatiyor, yani tek bir yontem; H hicbir yontem anmiyor.",
+      "explanation": "Paragraph D opens by saying that, to confirm and characterise the discovery, the research team combined several techniques.",
       "difficulty": "medium",
       "status": "verified",
       "blind_solvable": false,
       "blind_basis": null,
-      "flag_reason": "Cevap H, benzer 'sinirlilik' iceren paragraflar elenerek bulunuyor: G'deki sinirlama isil kosullarin dar araligiyla ilgili, C bulgunun ne kadar ender oldugunu soyluyor; yalniz H bulgunun tek bir bireye ait oldugunu ve baska kurbanlara genellenemeyecegini acikca soyluyor.",
-      "flag_mechanism": "konumsal_duzen",
       "revision": {
         "tarih": "2026-08-08",
         "mekanizma": "konumsal_duzen",
         "onceki_prompt": "a warning against assuming that the same thing happened to other victims",
         "ne_degisti": "Eski kok ('baska kurbanlar icin ayni seyin varsayilmamasi uyarisi') pasajda tek bir cumleye birebir oturuyordu; G'deki dar isil kosul sinirlamasi ve C'deki 'ender bulunma' kaydi kolayca eleniyordu. Yeni kok ayni cumlede gecen ikinci kasaba adini hedefliyor; A paragrafi da Pompeii'yi anip iki kasabanin gomulme bicimini karsilastirdigi icin artik gercek bir rakip, ayrim ancak paragraflar okunarak yapilabiliyor."
+      },
+      "scan_note": "Onceki kok bir uyariydi ('bulgunun baska kurbanlara genellenemeyecegi') ve uyari/sinirlilik kayitlari akademik metinlerde neredeyse her zaman son paragrafta durur; aday H'yi pasaji hic okumadan isaretleyebiliyordu. Yeni kok yontem birlestirmesini hedefliyor ve bunun metnin neresinde duracagi disaridan kestirilemiyor.",
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "tur": "AC3 isaretli kalem elden gecirme",
+        "eski_prompt": "a reference to a second town where the same kind of preservation cannot be taken for granted",
+        "eski_cevap": [
+          "H"
+        ],
+        "eski_kanit_cumlesi": "At the same time, the researchers are careful to note that the finding describes a single individual under an unusual and highly specific set of volcanic conditions, and cannot be assumed to apply broadly across other victims at Herculaneum or Pompeii.",
+        "neden_elendi": "Sizinti kokun turundeydi: 'genellenemez' uyarisi bir arastirma metninde kapanis paragrafina aittir, dolayisiyla sekiz secenek icinden H pasaj okunmadan seciliyordu (konumsal duzen).",
+        "ne_degisti": "Kok, konumu ele vermeyen bir bilgiye tasindi: birkac ayri laboratuvar yonteminin ayni buluntu uzerinde birlestirilmesi (D/1). Cevap H'den D'ye gecti; boylece paketin cevap dizisi de B, D, E, A, F oldu."
       }
     },
     {
       "number": 29,
-      "prompt": "measurements showing that preserved nerve fibres were close in width to those of a living person",
+      "prompt": "figures showing how widely the sizes of individual cells varied",
       "answer": [
         "E"
       ],
       "accepted_variants": [
         "E"
       ],
-      "evidence": "Axons in the vitrified brain tissue measured on average 717.7 nanometres in diameter, close to the typical range for white matter in a living brain, while axons from the preserved spinal cord measured around 672 nanometres.",
+      "evidence": "Individual cell bodies ranged from 2.7 to 14.2 micrometres across, and the myelin sheaths retained their characteristic multilayered structure, complete with the regular repeating pattern seen under a microscope in ordinary, unfossilised nervous tissue.",
       "evidence_locator": {
         "paragraph": "E",
-        "sentence": 2
+        "sentence": 3
       },
-      "uniqueness_check": "Korunmuş sinir liflerinin kalınlığını yaşayan bir beyindekilerle karşılaştıran sayılar yalnız E paragrafında. G paragrafı da sayı veriyor ama bunlar madde içindeki elementlerin yüzdeleri; D hangi cihazların kullanıldığını anlatıyor, hiçbir ölçüm sonucu vermiyor.",
-      "explanation": "Paragraph E says the axons in the vitrified tissue averaged 717.7 nanometres in diameter, close to the typical range for white matter in a living brain.",
+      "uniqueness_check": "Tek tek hucrelerin buyuklugunu bir alt ve bir ust deger vererek bildiren tek paragraf E: hucre govdeleri 2,7 ile 14,2 mikrometre arasinda. Ayni paragrafin baska cumleleri sinir lifi kalinliklarini veriyor, yani okuyucu E/2'ye de dusse cevap yine E. Sayi tasiyan oteki paragraflar farkli seyleri olcuyor: G maddedeki elementlerin yuzdesini veriyor, hucre buyuklugu vermiyor; D hangi cihazlarin kullanildigini sayiyor ama tek bir olcum sonucu bildirmiyor; B'deki tarih (1960'lar) buluntunun bilinme suresine ait.",
+      "explanation": "Paragraph E reports that individual cell bodies ranged from 2.7 to 14.2 micrometres across.",
       "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_basis": "guess",
-      "flag_reason": "Net bir mekanizma yok: sinir liflerinin kalinligini yasayan bir beyinle karsilastiran sayisal olcum birden fazla paragrafta (D, E, G) sayisal veri barindirdigi icin, dogru paragrafi (E) bulmak parcaya bakmadan buyuk olcude sansa dayaniyor.",
-      "flag_mechanism": "belirsiz",
-      "review_note": "E5 / 6. calistirma: dokunulmadi. E1 mekanizmayi 'belirsiz' bulmus ve blind_basis alanina 'guess' yazmisti. Soru kokunun istedigi olcum (sinir liflerinin kalinligi) pasajda yalniz E paragrafinda var, dolayisiyla cevap paragraf okunarak bulunuyor; sekiz paragrafli bir kumede dogru harfin bir kez tutturulmasi bir imza degil. Duzeltme yapilmadi, E7 tekrarli olarak yeniden olcmeli."
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
+      "scan_note": "'Belirsiz' isareti sayi tasiyan birden cok paragrafin (D, E, G) ayni koke uyabilmesindendi. Rakipler ayiklandi: G'nin sayilari element yuzdesi, D'ninki cihaz adi; kok artik 'tek tek hucrelerin buyukluk araligi' diyerek yalniz E/3'e oturuyor ve E paragrafi disinda savunulabilir ikinci bir cevap kalmiyor.",
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "tur": "AC3 isaretli kalem elden gecirme",
+        "eski_prompt": "measurements showing that preserved nerve fibres were close in width to those of a living person",
+        "eski_cevap": [
+          "E"
+        ],
+        "eski_kanit_cumlesi": "Axons in the vitrified brain tissue measured on average 717.7 nanometres in diameter, close to the typical range for white matter in a living brain, while axons from the preserved spinal cord measured around 672 nanometres.",
+        "neden_elendi": "Kok 'sayisal olcum' isteyince D, E ve G paragraflarinin ucu de savunulabilir gorunuyordu; dogru harfi bulmak buyuk olcude sansa kaliyordu (blind_basis: guess). Ayrica kanit cumlesi (E/2) ozet tamamlama 37 numaraya verildigi icin yuvanin ayni paragrafta baska bir cumleye tasinmasi gerekiyordu.",
+        "ne_degisti": "Kok belirsizlikten kurtarildi: artik genel olarak 'olcum' degil, tek tek hucrelerin buyukluk araligi isteniyor; bu araligi veren tek yer E/3. Cevap yine E, ama rakipler elendi ve gerekcesi scan_note'a yazildi."
+      }
     },
     {
       "number": 30,

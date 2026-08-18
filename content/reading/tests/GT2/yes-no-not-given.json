@@ -32,8 +32,19 @@
       "status": "verified",
       "blind_solvable": false,
       "blind_basis": null,
-      "flag_reason": "Ifade, pasajin hukumetlerin gonulluluğu tesvik ettigini yalnizca aktardigi bir yerde, hic yer almayan bir politika onerisi/yeterlilik yargisi ('daha fazla yapilmali') ekliyor; boyle 'yazarin gorusu' iddialari, metin salt durum tespiti yaptiginda genelde NOT GIVEN'a isaret eder.",
-      "flag_mechanism": "konumsal_duzen",
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "kaynak_prompt": "GT2 okuma - isaretli kalem elden gecirme (2026-08-18)",
+        "uretilen_grup": "YES/NO/NOT GIVEN - GT2",
+        "eski_prompt": "Governments should be doing more to encourage people to volunteer.",
+        "eski_cevap": [
+          "NOT GIVEN"
+        ],
+        "eski_kanit_cumlesi": null,
+        "neden_elendi": "Metin salt durum tespiti yaparken kaleme 'yazar ne onerir' turunden bir politika yargisi eklendigi icin NOT GIVEN kalip olarak okunuyordu. Bu eski bicim 2026-08-08'de degistirilmisti; bugunku turda kalemin uzerinde yalnizca eski isaret alanlari kalmisti.",
+        "ne_degisti": "Icerik degismedi, isaret alanlari temizlendi. Korunan bicim pasajin acikca verdigi iki bulguyu (D'deki ulke farklari ile C'deki saglik avantaji) caprazliyor; elemek icin C, D ve G'yi okuyup bu caprazlamanin hic yapilmadigini gormek gerekiyor. Kanit yok (NOT GIVEN), dolayisiyla hicbir cumleyi isgal etmiyor. Cevap dizisi bugun NG - YES - NO - YES oldu; artan ya da yigilan bir oruntu kalmadi.",
+        "not": "Kanit tasinmadi; kalem 2026-08-08 revizyonundan sonra olculup temiz cikmisti (blind_solvable false)."
+      },
       "revision": {
         "tarih": "2026-08-08",
         "mekanizma": "konumsal_duzen",
@@ -76,25 +87,36 @@
     },
     {
       "number": 35,
-      "prompt": "Volunteering may improve a person's health indirectly, by raising the income of their household.",
+      "prompt": "Volunteers in the survey were more likely than other people to be elderly.",
       "answer": [
-        "YES"
+        "NO"
       ],
-      "evidence": "One plausible explanation is that volunteering pays off financially: it can widen a person's professional network, build skills and demonstrate reliability to future employers, all of which might raise household income, and higher income is itself strongly linked to better self-rated health.",
+      "evidence": "Across the whole sample, volunteers were somewhat more likely to be male, more highly educated and more religious than non-volunteers, and somewhat less likely to be elderly or to have migrated from another country.",
       "evidence_locator": {
-        "paragraph": "E",
-        "sentence": 1
+        "paragraph": "D",
+        "sentence": 3
       },
-      "contradiction_point": null,
+      "contradiction_point": "D/3 gonullulerin gonullu olmayanlara gore yasli olma ihtimalinin biraz DAHA DUSUK oldugunu soyluyor; ifade tam tersini, daha yuksek oldugunu iddia ediyor. Celiski tek noktada: yaslilik yonu.",
       "not_given_justification": null,
-      "scan_note": "Mali aciklama E paragrafinda kuruluyor: E/1 zinciri (gonulluluk -> ag, beceri, guvenilirlik -> hane geliri -> saglik), E/2 verinin zincirin ilk yarisini destekledigini soyluyor. F payin bestebirin altinda kaldigini gosteriyor ama yolun varligini reddetmiyor; G/3 ayni bulguyu yineliyor.",
-      "explanation": "The writer sets out this indirect route from volunteering through household income to health as a plausible explanation, and the survey data support the first step of the chain.",
-      "difficulty": "hard",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_basis": "logic",
-      "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: logic. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md",
-      "flag_mechanism": "konumsal_duzen",
+      "scan_note": "Gonullulerin demografik profili yalniz D/3'te veriliyor (erkek, egitimli, dindar yonunde daha yuksek; yasli ve gocmen yonunde daha dusuk). D/1 ve D/2 ulkeler arasi oranlari anlatiyor, kisi ozelliklerine girmiyor; C paragrafi arastirmacilarin kontrol ettigi degiskenler arasinda yasi sayiyor ama gonullulerin yas dagilimini vermiyor.",
+      "explanation": "Paragraph D reports that volunteers were somewhat LESS likely than non-volunteers to be elderly, which contradicts the statement.",
+      "difficulty": "medium",
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "kaynak_prompt": "GT2 okuma - isaretli kalem elden gecirme (2026-08-18)",
+        "uretilen_grup": "YES/NO/NOT GIVEN - GT2",
+        "eski_prompt": "Volunteering may improve a person's health indirectly, by raising the income of their household.",
+        "eski_cevap": [
+          "YES"
+        ],
+        "eski_kanit_cumlesi": "One plausible explanation is that volunteering pays off financially: it can widen a person's professional network, build skills and demonstrate reliability to future employers, all of which might raise household income, and higher income is itself strongly linked to better self-rated health.",
+        "neden_elendi": "E7 2/2 parcasiz olcumunde uc turun ucunde de dogru bilindi (dayanak: logic). Sizinti kalemin konumundaydi: gelir uzerinden isleyen dolayli yol, yazinin anlatisinin tasidigi ana fikir; boyle bir kalemi 'yazar bunu one suruyor mu' diye sormak, parcasiz bir adayin da YES demesini sagliyor. Ayrica kanit cumlesi (E/1) baslik eslestirmesinin 30. kalemiyle ortakti: ayni cumlede iki soru vardi, cumle basina 1 soru butcesi asiliyordu.",
+        "ne_degisti": "Kalem anlatinin omurgasindan cikarilip pasajin arka planina, D/3'teki demografik profile tasindi. Yeni ifade anlatidan turetilemiyor ve genel kulturu YANLIS yone capaliyor: emeklilerin daha cok gonullu oldugu yaygin kanisiyla hareket eden aday YES diyor, dogru cevap NO. E/1'deki cumle-cakismasi da boylece kalkti (E paragrafinda artik tek soru var, 30. kalem). Cevap dizisi NG - YES - NO - YES oldu."
+      },
       "revision": {
         "tarih": "2026-08-08",
         "mekanizma": "konumsal_duzen",
@@ -104,25 +126,36 @@
     },
     {
       "number": 36,
-      "prompt": "Income differences appear to account for a little over half of the health advantage linked to volunteering.",
+      "prompt": "The health gap between volunteers and non-volunteers was about as wide as the gap in reported health between men and women.",
       "answer": [
-        "NO"
+        "YES"
       ],
-      "evidence": "The remaining four-fifths, the larger part of the story by a wide margin, operated through some other mechanism the income data could not capture.",
+      "evidence": "The size of this gap was similar to the difference in reported health between men and women, or between people five years apart in age, small on any single measure but consistent and unlikely to be due to chance.",
       "evidence_locator": {
-        "paragraph": "F",
-        "sentence": 3
+        "paragraph": "C",
+        "sentence": 2
       },
-      "contradiction_point": "F/3, gelirle aciklanamayan kalan bestedortluk payin 'acik farkla hikayenin daha buyuk kismi' oldugunu soyluyor; buna gore gelirin payi bestebir dolayinda. Ifade bu payi yarinin biraz uzerine cikariyor. Celiski tek noktada: gelir payinin buyuklugu.",
+      "contradiction_point": null,
       "not_given_justification": null,
-      "scan_note": "Gelir mekanizmasinin payi E (bagin kurulmasi), F/2 (bestebirin epey altinda), F/3 (kalan bestedortlugun baska mekanizmada oldugu) ve G/3'te (her analizde payin mutevazi kaldigi) isleniyor.",
-      "explanation": "The writer states that the remaining four-fifths of the association ran through some other mechanism, leaving income with far less than half.",
-      "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_basis": "logic",
-      "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: logic. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md",
-      "flag_mechanism": "konumsal_duzen",
+      "scan_note": "Avantajin buyuklugu yalniz C/2'de bir olcege baglaniyor (kadin-erkek farki ya da bes yas farki). C/1 avantajin varligini ve kontrol edilen degiskenleri, C/3 oz-bildirimli saglik olcusunun secilme gerekcesini veriyor; F paragrafi gelirin payini tartisiyor, avantajin mutlak buyuklugunu degil.",
+      "explanation": "Paragraph C says the size of the gap was similar to the difference in reported health between men and women, so the statement agrees with the writer.",
+      "difficulty": "hard",
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
+      "generated_by": "opus",
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "kaynak_prompt": "GT2 okuma - isaretli kalem elden gecirme (2026-08-18)",
+        "uretilen_grup": "YES/NO/NOT GIVEN - GT2",
+        "eski_prompt": "Income differences appear to account for a little over half of the health advantage linked to volunteering.",
+        "eski_cevap": [
+          "NO"
+        ],
+        "eski_kanit_cumlesi": "The remaining four-fifths, the larger part of the story by a wide margin, operated through some other mechanism the income data could not capture.",
+        "neden_elendi": "E7 2/2 parcasiz olcumunde uc turun ucunde de dogru bilindi (dayanak: logic). Kalem yazinin 'beklenen aciklama sanildigi kadar guclu cikmadi' anlati kalibinin tam ustunde duruyordu: parcaya bakmayan aday da, gelire yarinin uzerinde bir pay veren iddiayi reddedip NO diyordu. Kalemin konumu cevabi soyluyordu.",
+        "ne_degisti": "Kalem anlatinin donum noktasindan (F paragrafi) uzaklastirilip C/2'ye, avantajin BUYUKLUGUNU baska farklarla karsilastiran cumleye tasindi. Bu karsilastirma (kadin-erkek farki, bes yas farki) tamamen keyfi bir olcum ayrintisi; disaridan turetilemedigi gibi anlatidan da cikarilamiyor - parcasiz bir aday burada NOT GIVEN'a yoneliyor, dogru cevap YES. Ayrica F/3 bosaldi ve ozet tamamlamanin 39. kalemine acildi; cevap dizisi NG - YES - NO - YES oldu, hicbir yonde oruntu kalmadi."
+      },
       "revision": {
         "tarih": "2026-08-08",
         "mekanizma": "konumsal_duzen",

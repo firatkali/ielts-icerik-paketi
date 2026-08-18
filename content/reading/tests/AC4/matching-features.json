@@ -88,56 +88,62 @@
     },
     {
       "number": 25,
-      "prompt": "Of the falls recorded after the campus session, this was the only one whose size was actually given.",
+      "prompt": "The gap between this one and the shortest of the four comes to exactly sixty-one questions.",
       "answer": [
-        "C"
+        "A"
+      ],
+      "evidence": "The Profile of Mood States, a 65-item scale, measured six mood dimensions including tension, anger, depression, fatigue, confusion and vigour.",
+      "evidence_locator": {
+        "paragraph": "E",
+        "sentence": 2
+      },
+      "feature_check": "Alan bilgisiyle secen aday burada yanlis sayiya variyor. Gercek dunyada bu olceklerin en kisasi dort degil alti-yedi maddeliktir; o sayilarla fark altmis bir degil elli dokuz ya da elli sekiz cikar ve aday A'yi eler. Altmis bir farki yalniz PASAJIN verdigi iki sayi uretiyor: altmis bes madde ile dort madde. B ile en kisasi arasindaki fark on alti, C ile arasindaki fark iki; D zaten kiyasin kendisi. Karar E/2 ile E/4'u birlikte okumaya bagli.",
+      "grammar_check": null,
+      "explanation": "Paragraph E gives the Profile of Mood States as a 65-item scale and the Subjective Vitality Scale as a four-item one; the difference between them is sixty-one questions, and no other pairing in the passage produces that figure.",
+      "difficulty": "hard",
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "mekanizma": "konumsal_duzen",
+        "eski_prompt": "Of the falls recorded after the campus session, this was the only one whose size was actually given.",
+        "eski_cevap": [
+          "C"
+        ],
+        "eski_kanit_cumlesi": "All five of the same negative mood indicators increased significantly, positive emotions on the broader affect scale fell while negative emotions rose, subjective vitality declined, and restorativeness scores dropped by roughly half compared with their level before the exposure, suggesting that even a calm, traffic-free campus scene was mildly draining relative to a walk in the snow.",
+        "neden_elendi": "Cevap tek bir cumlede eleme yaparak buluniyordu: ayni cumlede dusen iki olcekten (D ve C) yalniz birine sayi verildigi icin, aday olcekleri tanimadan 'sayi hangisinde varsa o' diyerek isaretleyebiliyordu. Ustelik dort kalemin cevap dizisi C, D, C, B idi; C iki kez kullaniliyor, A hic kullanilmiyordu.",
+        "ne_degisti": "Kalem ayni pasajin E/2 cumlesine tasindi ve karar noktasi olcegin ICERIGINDEN (hangi duygu boyutlarini kapsadigi) pasajin verdigi iki sayinin FARKINA cevrildi. Gerekce 2026-08-18'de yaptigim iki kor tur: (1) icerik uzerinden kurulan surumu parcayi hic gormeyen cozucu %65 guvenle bildi, cunku bu olceklerin gercek dunyadaki alt boyutlarini biliyor; (2) 'on alti katindan fazla' bicimindeki oran surumu %78'e cikardi, cunku oran dogrudan en uzun olcege isaret ediyordu. Son surumde belirleyici sayi pasajin sectigi ve gercek olcekle ORTUSMEYEN degerden geliyor: metin en kisa olcegi dort maddelik gosteriyor, gercekte alti-yedi maddelik; alan bilgisiyle hesap yapan aday altmis bir farkini bulamiyor. Cevap dizisi de C, D, A, D oldu; artik tek harf ust uste gelmiyor ve A dizinin icine girdi. Kalan risk raporda ayrica belirtildi: dort secenek de gercek, belgelenmis olcek adi tasidigi icin bu tipte dunya bilgisi kanali tamamen kapanmiyor."
+      }
+    },
+    {
+      "number": 26,
+      "prompt": "It went down after the campus session, having failed to go up after the forest one.",
+      "answer": [
+        "D"
       ],
       "evidence": "All five of the same negative mood indicators increased significantly, positive emotions on the broader affect scale fell while negative emotions rose, subjective vitality declined, and restorativeness scores dropped by roughly half compared with their level before the exposure, suggesting that even a calm, traffic-free campus scene was mildly draining relative to a walk in the snow.",
       "evidence_locator": {
         "paragraph": "G",
         "sentence": 2
       },
-      "feature_check": "Karistirilabilecek ogeler D ve B: ayni cumlede ikisinin de dustugu soyleniyor (oznel canlilik geriledi, olumlu duygular azaldi), ama ikisi icin de bir buyukluk verilmiyor. 'Yaklasik yariya inme' olcusu yalniz dinlendiricilik puanlarina bagli. Olcegin adi bu kez yardim etmiyor, cunku soru dususun kendisini degil sayilastirilmis olmasini soruyor.",
+      "feature_check": "Karistirilabilecek oge C: kampus oturumundan sonra o da dustu, hatta dususunun buyuklugu verilen tek olcek o. Ama sorunun ikinci yarisi C'yi eliyor: C ormandan sonra keskin bicimde YUKSELDI (F/3), yani 'yukselmeyi basaramadi' tarifi ona uymuyor. A kampusten sonra dusmedi, arttı (olumsuz gostergeler yukseldi); B icin iki yonlu bir hareket veriliyor, tek bir dusus degil. Geriye yalniz D kaliyor: ormandan sonra enerjide bir siçrama olmadigi F/3'te, kampusten sonraki dusus G/2'de.",
       "grammar_check": null,
-      "explanation": "Paragraph G says that after the building condition, restorativeness scores dropped by roughly half compared with their level beforehand; the other declines are reported without a figure.",
+      "explanation": "Paragraph F says the forest produced no accompanying jump in energy, and paragraph G says subjective vitality declined after the campus session; the Restorative Outcome Scale, by contrast, rose sharply after the forest.",
       "difficulty": "hard",
       "status": "verified",
       "blind_solvable": false,
       "blind_basis": null,
-      "flag_reason": "Cevap C, secenekler arasinda elemeyle bulunuyor: D'nin (canlilik) de bina kosulundan sonra dustugu ayni cumlede geciyor, ama 'yaklasik yariya inme' gibi somut bir oran yalniz dinlendiricilik olcegine bagli; D icin boyle bir buyukluk verilmiyor.",
-      "flag_mechanism": "konumsal_duzen",
-      "revision": {
-        "tarih": "2026-08-08",
-        "mekanizma": "konumsal_duzen",
-        "onceki_prompt": "After participants viewed the buildings, its scores fell to around half their earlier level.",
-        "ne_degisti": "Ifade 'bina kosulundan sonra yariya indi' bicimindeki dogrudan bulgudan, 'dususlerden hangisi sayiyla verildi' sorusuna cevrildi. Boylece 'dinlendiricilik olcegi bina gorunce en cok duser' bicimindeki ad-sezgisi devre disi kaliyor; cozucu G/2'yi okumak zorunda."
-      }
-    },
-    {
-      "number": 26,
-      "prompt": "It runs to twenty items, more than two of the other three but far fewer than the longest.",
-      "answer": [
-        "B"
-      ],
-      "evidence": "The Positive and Negative Affect Schedule, a shorter 20-item scale, captured broader positive and negative emotional states.",
-      "evidence_locator": {
-        "paragraph": "E",
-        "sentence": 3
-      },
-      "feature_check": "Karistirilabilecek oge A: 'en uzun degil ama kisa da sayilmaz' tarifi, madde sayilari bilinmeden hicbir olcege baglanamiyor. C (alti madde) ve D (dort madde) yirmiden kisa, A (altmis bes madde) acik ara en uzun; dolayisiyla tarif yalniz B'ye oturuyor ama bu ancak E paragrafindaki dort sayi okunarak gorulebiliyor.",
-      "grammar_check": null,
-      "explanation": "Paragraph E says this is a shorter, 20-item scale; the Profile of Mood States has 65 items, the Restorative Outcome Scale six and the Subjective Vitality Scale four.",
-      "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_basis": "general_knowledge",
-      "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: general_knowledge. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md",
-      "flag_mechanism": "genel_kultur",
-      "revision": {
-        "tarih": "2026-08-08",
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
         "mekanizma": "genel_kultur",
-        "onceki_prompt": "Though briefer than the fullest measure, it registered feelings at both ends of the emotional range.",
-        "ne_degisti": "Ifade olcegin ne olctugunden ('duygu yelpazesinin iki ucu') madde sayisina tasindi. Eski metin, seceneklerden birinin ADININ ('Positive and Negative Affect Schedule') birebir cevirisiydi; yeni metin adin tasimadigi bir ayrintiya, uzunluk siralamasina capalaniyor."
+        "eski_prompt": "It runs to twenty items, more than two of the other three but far fewer than the longest.",
+        "eski_cevap": [
+          "B"
+        ],
+        "eski_kanit_cumlesi": "The Positive and Negative Affect Schedule, a shorter 20-item scale, captured broader positive and negative emotional states.",
+        "neden_elendi": "Kalem olceklerin madde sayilarina dayaniyordu; oysa bu sayilar pasajin sectigi degerler degil, olceklerin gercek dunyadaki kunyeleri (PANAS 20, POMS 65, ROS 6). E7 parcasiz olcumunde uc turun ucunde de dogru bilindi; dayanak general_knowledge. Ayrica B secenegi (Positive and Negative Affect Schedule) adinda kendi icerigini tasidigi icin, iceriginden yola cikan her soru secenek sozu sizintisi uretiyordu; bu yuzden yuva B'den cikarildi.",
+        "ne_degisti": "Kanit ayni pasajin G/2 cumlesine tasindi ve hedef madde sayisindan calismanin kendi olctugu iki yonlu hareket tablosuna cevrildi. Ayrimi yapmak icin F/3 ile G/2'yi birlikte okumak gerekiyor: kampusten sonra dusen iki olcekten biri (C) ormandan sonra keskin bicimde yukselmisti, digeri (D) yukselmemisti. Hicbir asamada olcegin adi ya da alan bilgisi yardim etmiyor."
       }
     }
   ]

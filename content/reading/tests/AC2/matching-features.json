@@ -28,7 +28,7 @@
       },
       {
         "key": "D",
-        "text": "the simpler wheats"
+        "text": "the two- and four-chromosome wheats"
       },
       {
         "key": "E",
@@ -51,38 +51,30 @@
         "sentence": 1
       },
       "heading_check": null,
-      "feature_check": "Karistirilabilecek ogeler B ve C: ayni cumle iki ornegi einkorn ve emmer diye tek tek adlandirdigi icin iki secenek de dogruymus gibi duruyor. Ama ifade IKI ornegi birden ayni kumeye koyuyor ve pasaj o ortak kumeyi 'both simpler wheats' diye adlandiriyor -- tek bir tur degil, basit bugdaylar butunu. A ve E elenir: ikisi de tane bicimine degil, DNA okunduktan sonra cikan sonuclara bagli (A icin B/2 ve G/3, E icin F/1-2).",
+      "feature_check": "Karistirilabilecek ogeler B ve C: ayni cumle iki ornegi einkorn ve emmer diye tek tek adlandirdigi icin iki secenek de dogruymus gibi duruyor. Ama ifade IKI ornegi birden ayni kumeye koyuyor; pasajin o kumeye verdigi ortak nitelik B/2'de duruyor -- basit bugdaylar iki ya da dort takim kromozom tasir. Yani D'yi secmek icin iki cumleyi (E/1 ve B/2) birlestirmek gerekiyor, secenegin sozu tek basina yetmiyor. A ve E elenir: ikisi de tane bicimine degil, DNA okunduktan sonra cikan sonuclara bagli (A icin B/2 ve G/3, E icin F/2).",
       "grammar_check": null,
-      "explanation": "Paragraph E says the two main samples had originally been classified, from their shape alone, as einkorn and emmer, both simpler wheats.",
+      "explanation": "Paragraph E says the two main samples had originally been classified, from their shape alone, as einkorn and emmer, both simpler wheats; paragraph B states that such simpler wheats carry two or four sets of chromosomes.",
       "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_basis": "option_wording",
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
       "generated_by": "opus",
       "yeniden_uretim": {
-        "tarih": "2026-08-08",
-        "kaynak_prompt": "prompts/OPUS5-E6-yeniden-uretim.md (5/7)",
-        "uretilen_grup": "Cumle sonu esleystirme + ozellik esleystirme",
-        "eski_prompt": "Wheat found at this place had come through the centuries in better condition than grain of the same age recovered elsewhere.",
+        "tarih": "2026-08-18",
+        "mekanizma": "secenek_sozu",
+        "eski_prompt": "Grain shape alone had placed both of the main samples among wheats of this kind before any DNA was read.",
         "eski_cevap": [
-          "A"
+          "D"
         ],
-        "eski_kanit_cumlesi": "Among the many finds recovered from the site were charred grains of wheat, unusually well preserved compared with plant remains from other ancient sites of similar age.",
-        "neden_elendi": null,
-        "ne_degisti": "Bu yuva E5 listesinde YOK; secenek listesi bugday turlerine cevrildigi icin zorunlu olarak yeniden yazildi. Eski soru bir YER sorusuydu (B/1: tanelerin baska kazilardakinden iyi korunmus olmasi) ve yeni listede karsiligi kalmiyordu. Eski cevabin ekseni de listenin kendisiyle cozuluyordu: bes secenekten yalniz biri kazi yeri oldugu icin 'buradan tane cikti' diyen her ifade tur elemesiyle bulunuyordu. Yeni soru ayni pasajdan, E/1'den yazildi ve dogru cevap ancak 'iki ornek birden' kaydinin okunmasiyla bulunuyor.",
-        "onceki_revizyon": {
-          "tarih": "2026-08-08",
-          "mekanizma": "konumsal_duzen",
-          "onceki_prompt": "The seeds the team worked on had lasted better here than plant remains of much the same age found elsewhere.",
-          "ne_degisti": "Ifadeden 'ekibin uzerinde calistigi tohumlar' kaydi cikarildi; bu kayit dogrudan calismanin kazi yerini isaret ediyordu. Yeni ifade yalniz korunma karsilastirmasini soruyor, boylece sezgi Bereketli Hilal'e (C) kayiyor ve dogru cevap ancak B/1'den cikiyor."
-        }
-      },
-      "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: option_wording. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md",
-      "flag_mechanism": "secenek_sozu"
+        "eski_kanit_cumlesi": "The two main samples analysed had originally been classified, from their shape alone, as einkorn and emmer, both simpler wheats.",
+        "eski_secenek_D": "the simpler wheats",
+        "neden_elendi": "Secenegin metni cevabi adlandiriyordu: 'the simpler wheats' ifadesi kanit cumlesindeki 'both simpler wheats' ile birebir ayni sozcugu tasiyor, dolayisiyla dogru secenek pasaja bakilmadan da bir kume adi olarak taniniyordu (E7 3/3, dayanak option_wording).",
+        "ne_degisti": "Secenekten ad kaldirildi: D artik 'the two- and four-chromosome wheats'. Ayrim yalniz pasaj ayrintisiyla kaldi -- adayin E/1'den iki ornegin ortak kumeye konuldugunu, B/2'den de o kumenin kac takim kromozom tasidigini okumasi gerekiyor. Kanit cumlesi ve cevap harfi degismedi."
+      }
     },
     {
       "number": 24,
-      "prompt": "The team's evidence is put forward, cautiously, as the first genetic sign that a wheat of this kind was present in the Neolithic Near East.",
+      "prompt": "The researchers are prepared to describe the presence of this type in the Neolithic Near East only as a possibility.",
       "answer": [
         "E"
       ],
@@ -92,28 +84,25 @@
         "sentence": 2
       },
       "heading_check": null,
-      "feature_check": "Karistirilabilecek oge A: ayni cumle once hexaploid bugdayin ekiminde erken bir gecis asamasindan soz ediyor, bu yuzden 'ilk genetik isaret' kaydi ona da yakisiyor. Ama cumle 'ilk kez' iddiasini acikca spelt benzeri bugdayin varligina bagliyor ve 'at all' diyerek bunu ayirt ediyor; hexaploid icin soylenen sey ilk kanit degil, gecis asamasi yorumu. B, C ve D elenir: basit bugdaylarin Neolitik Yakin Dogu'da bulunmasi zaten beklenen durum, pasaj onlar icin boyle bir ilk iddiasinda bulunmuyor.",
+      "feature_check": "Karistirilabilecek oge A: calismanin manseti hexaploid bugdayin beklenenden erken gorulmesi, o yuzden 'ihtiyatla ele alinan bulgu' kaydi sezgisel olarak ona yakisiyor. Ama F/2 ihtiyat kaydini acikca spelt benzeri bugdayin varligina bagliyor ('a possibility they treat cautiously'); hexaploid icin ayni cumlede soylenen sey ihtiyat degil, erken gecis asamasi yorumu. B, C ve D elenir: basit bugdaylarin Neolitik Yakin Dogu'da bulunmasi zaten beklenen durum, pasaj onlar icin ne bir ilk ne de bir ihtiyat kaydi tutuyor.",
       "grammar_check": null,
-      "explanation": "Paragraph F says this is the first genetic evidence hinting at the presence of a spelt-like wheat in the Neolithic Near East at all, a possibility the researchers treat cautiously.",
+      "explanation": "Paragraph F says the presence of a spelt-like wheat in the Neolithic Near East is a possibility the researchers treat cautiously, given how limited the surviving evidence is.",
       "difficulty": "hard",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_basis": "logic",
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
       "generated_by": "opus",
       "yeniden_uretim": {
-        "tarih": "2026-08-08",
-        "kaynak_prompt": "prompts/OPUS5-E6-yeniden-uretim.md (5/7)",
-        "uretilen_grup": "Cumle sonu esleystirme + ozellik esleystirme",
-        "eski_prompt": "The beginnings of growing the simpler wheats, some twelve thousand years back, are conventionally placed in this wide area.",
+        "tarih": "2026-08-18",
+        "mekanizma": "konumsal_duzen",
+        "eski_prompt": "The team's evidence is put forward, cautiously, as the first genetic sign that a wheat of this kind was present in the Neolithic Near East.",
         "eski_cevap": [
-          "C"
+          "E"
         ],
-        "eski_kanit_cumlesi": "Simple wheat domestication is usually traced to the Fertile Crescent around twelve thousand years ago, with the region of Karacadağ in southern Turkey generally credited as the birthplace of einkorn cultivation specifically.",
-        "neden_elendi": "Sorunun ekseni dunya tarihi genel bilgisi: basit bugdaylarin yaklasik on iki bin yil once Bereketli Hilal'de ehlilestirildigi, okul duzeyinde bilinen en yaygin tarih onermelerinden biri. Kanit cumlesi (G/2) yalniz bu onermeyi tasiyor; kapsam sozcuklerini ('genis alan') temizlemek ekseni degistirmiyor, cevap yine bes secenek icinden genel bilgiyle secilebiliyor.",
-        "ne_degisti": "Eski soru G/2'ye dayaniyordu: basit bugday ehlilestirmesinin yaklasik on iki bin yil once Bereketli Hilal'de baslamasi. Bu ders kitabi duzeyinde bir tarih onermesi oldugu icin cevap pasajsiz da bulunuyordu. Yeni kanit hem baska bir paragrafa (F/2) hem de bambaska bir eksene tasindi: arastirmacilarin hangi bulguyu 'ilk' ve 'ihtiyatla' diye nitelendirdigi. Secenek listesi de yer adlarindan bugday turlerine cevrildigi icin, eski sorunun dayandigi 'genis bolge / dar bolge' ayrimi artik yok. Kip: ifade olculu ('cautiously')."
-      },
-      "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: logic. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md",
-      "flag_mechanism": "konumsal_duzen"
+        "eski_kanit_cumlesi": "The researchers interpret this as evidence of an early, transitional stage in the cultivation of hexaploid wheat, and note that this is the first genetic evidence hinting at the presence of a spelt-like wheat in the Neolithic Near East at all, a possibility they treat cautiously given how limited the surviving evidence is.",
+        "neden_elendi": "Ifade 'ilk genetik isaret' cercevesindeydi ve bes secenek arasinda bir 'ilk'in ancak beklenmedik/nadir ture ait olabilecegi salt mantikla cikiyordu; aday listeye bakip en egzotik secenegi isaretliyordu (E7 3/3, dayanak logic).",
+        "ne_degisti": "Eksen 'ilk olma'dan 'arastirmacinin kipi'ne cevrildi: hangi tur icin yalnizca bir OLASILIK dendigi soruluyor. Sezgi artik YANLIS secenege capali, cunku calismanin carpici bulgusu hexaploid (A) ve ihtiyatli kip ona yakisiyor gorunuyor; dogru cevap ancak F/2'nin son yan cumlesi okununca cikiyor. Kanit cumlesi ve cevap harfi korundu, kalem F/2'de tek soru olarak kaldi."
+      }
     },
     {
       "number": 25,
@@ -150,7 +139,7 @@
     },
     {
       "number": 26,
-      "prompt": "The sequences recovered from the settlement suggest this form may have arisen earlier, and further from the usual heartland, than researchers had thought.",
+      "prompt": "The settlement is put forward as a possible staging point on this type's spread towards Europe.",
       "answer": [
         "A"
       ],
@@ -160,28 +149,25 @@
         "sentence": 3
       },
       "heading_check": null,
-      "feature_check": "Karistirilabilecek oge E: F/1 eski dizilerin modern hexaploid turlere, bu arada spelt gibi kavuzlu turlere benzedigini soyledigi icin 'daha erken ortaya cikmis olabilir' kaydi spelt'e de yakisiyor. Ama G/3 yorumunu acikca alti kromozom takimli forma bagliyor; spelt icin soylenen sey erken cikis degil, benzerlik. B, C ve D elenir: basit bugdaylarin erken oldugu zaten standart anlatinin kendisi, pasajin sasirtici buldugu sey bu degil.",
+      "feature_check": "Karistirilabilecek oge D: tarimin Bereketli Hilal'den Avrupa'ya yayilmasi anlatisi her zaman basit bugdaylar uzerinden kurulur ve A/3 de yerlesimin 'tarim uygulamalarini' Avrupa'ya tasiyan yollar uzerinde durdugunu soyler; bu yuzden sezgi iki-dort takim kromozomlu bugdaylara gidiyor. Ama G/3'te Avrupa'ya dogru yayilan sey acikca alti kromozomlu form: 'its spread' zamiri o cumlenin oznesine bagli. B ve C elenir: einkorn ve emmer G paragrafinda yalnizca standart anlatinin parcasi olarak aniliyor, yayilma iddiasinin oznesi degiller. E elenir: spelt yalniz F paragrafinda, benzerlik baglaminda geciyor.",
       "grammar_check": null,
-      "explanation": "Paragraph G says that finding genetic traces of hexaploid wheat at the site this early suggests the six-chromosome form may have emerged sooner, and further from the traditional core, than researchers had assumed.",
+      "explanation": "Paragraph G says that finding genetic traces of hexaploid wheat at the site this early suggests the six-chromosome form emerged sooner and further from the traditional core than assumed, with the settlement potentially serving as a staging point on its spread toward Europe.",
       "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_basis": "logic",
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
       "generated_by": "opus",
       "yeniden_uretim": {
-        "tarih": "2026-08-08",
-        "kaynak_prompt": "prompts/OPUS5-E6-yeniden-uretim.md (5/7)",
-        "uretilen_grup": "Cumle sonu esleystirme + ozellik esleystirme",
-        "eski_prompt": "Ways of farming are described as having carried on towards this area along the routes the settlement stood on.",
+        "tarih": "2026-08-18",
+        "mekanizma": "konumsal_duzen",
+        "eski_prompt": "The sequences recovered from the settlement suggest this form may have arisen earlier, and further from the usual heartland, than researchers had thought.",
         "eski_cevap": [
-          "D"
+          "A"
         ],
-        "eski_kanit_cumlesi": "What set the site apart was its scale: at a time when most human communities were still small and mobile, Çatalhöyük had grown into a dense, town-like settlement, sitting on routes that would later carry farming practices onward into Europe.",
-        "neden_elendi": "Sorunun ekseni tarimin Bereketli Hilal'den Avrupa'ya yayildigi anlatisi; bu anlati ders kitabi duzeyinde bilindigi icin 'yayilmanin gittigi yon' sorusunun cevabi secenekler arasinda pasaja bakmadan bulunabiliyor. Kanit cumlesi (A/3) yolun ucundaki yeri adlandirmaktan baska bir sey soylemiyor.",
-        "ne_degisti": "Eski soru A/3'e dayaniyordu: yerlesimin uzerinde bulundugu yollarin tarim uygulamalarini Avrupa'ya tasimasi. Tarimin Bereketli Hilal'den Avrupa'ya yayildigi anlatisi ders kitabi duzeyinde bilindigi icin 'yayilmanin yonu' sorusu pasajsiz cevaplanabiliyordu. Yeni kanit G/3'un yon bildiren kismina degil, tarih ve uzaklik iddiasina baglandi ve cevap bir yer degil bir bugday turu oldu; boylece yayilma anlatisi sorunun disinda kaldi. Kip: ifade olculu ('may')."
-      },
-      "flag_reason": "E7 2/2 parcasiz olcum (2026-08-08): uc bagimsiz turun ucunde de pasaj olmadan anlam duzeyinde (K3) dogru bilindi; dayanak: logic. Ayrinti: content/DOGRULAMA/METINSIZ-RAPOR-2.md",
-      "flag_mechanism": "konumsal_duzen"
+        "eski_kanit_cumlesi": "Finding genetic traces of hexaploid wheat at Çatalhöyük this early suggests that the more advanced, six-chromosome form of wheat may have emerged sooner, and further from the traditional Fertile Crescent core, than researchers had assumed, with Çatalhöyük potentially serving as a staging point on its spread toward Europe.",
+        "neden_elendi": "Ifade 'beklenenden erken ve cekirdek bolgeden uzakta ortaya cikmis olabilir' diyordu; bes secenek icinde 'sasirtici olan' tek aday ileri/karmasik form oldugu icin cevap salt mantikla, pasaj okunmadan seciliyordu (E7 3/3, dayanak logic).",
+        "ne_degisti": "Eksen 'sasirticilik'tan yayilma yonune cevrildi ve sezgi YANLIS secenege capalandi: tarimin Avrupa'ya yayilmasi anlatisi genel kulturde basit bugdaylarla anilir (secenek D), oysa G/3'te Avrupa'ya dogru yayilan sey alti kromozomlu form. Ayrica secenek D'nin 'simpler' sozcugu kaldirildigi icin liste artik 'basit / ileri' diye siralanip mantikla cozulemiyor."
+      }
     }
   ]
 }
