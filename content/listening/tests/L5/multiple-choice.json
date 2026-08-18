@@ -271,76 +271,98 @@
           "section": 3,
           "script_id": "L5-S3",
           "select_count": 1,
-          "prompt": "What danger does Dr Osgood see in collecting answers online?",
+          "prompt": "What is Dr Osgood's own objection to collecting answers online?",
           "options": [
             {
               "letter": "A",
-              "text": "It would use up two of the students' weekends."
+              "text": "The same person could send in more than one reply."
             },
             {
               "letter": "B",
-              "text": "Only people already interested would take part."
+              "text": "Only people who already care would answer the link."
             },
             {
               "letter": "C",
-              "text": "It would produce fewer than a hundred and twenty replies."
+              "text": "Some of the replies would come from people who no longer live there."
             }
           ],
           "answer": [
-            "B"
+            "C"
           ],
-          "evidence": "The people who answer a link on a residents' page are the people who already care about the high street. That's self-selection, and it will bend everything you find.",
+          "evidence": "Mine is a different one. You have no way of knowing who is answering: a good half of that page is people who moved away years ago and still like reading about the place, and their replies will look exactly like a shopper's.",
           "answer_point_id": "L5-S3-03",
           "turn_index": 5,
           "distractor_analysis": {
-            "A": "Başkası söyledi — iki kayıp hafta sonu Marit'in yüz kişilik sokak anketi için yakınması; danışmanın çevrimiçi bağlantıya itirazı değil.",
-            "C": "Söylendi ama sorulan bu değil — yüz yirmi, bölümün istediği alt sınır; danışmanın çevrimiçi yöntemde gördüğü tehlike örneklemin kendine seçilmesi."
+            "A": "Sesle hiç geçmeyen çeldirici — aynı kişinin bağlantıyı birden çok kez doldurabileceğinden hiç söz edilmiyor.",
+            "B": "Söylendi ama danışmanın kendi itirazı değil — kendine seçilme itirazını 'her yöntem kitabında yazan itiraz' diye anıp hemen ardından 'benimki başka bir şey' diyor."
           },
-          "explanation": "According to the tutor, the people who answer a link on the residents' page are already the ones who care about the high street; this self-selection skews all the findings.",
+          "explanation": "The tutor puts the textbook objection — self-selection — to one side and gives his own: on a residents' page you have no way of knowing who is answering, and a good half of that page is people who moved away years ago, whose replies look exactly like a shopper's.",
           "difficulty": "medium",
-          "status": "flagged",
-          "blind_solvable": true,
-          "blind_basis": "general_knowledge",
-          "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: çevrimiçi veri toplamanın tehlikesi sorulunca 'yalnız zaten ilgili olanlar katılır' örneklem yanlılığı uyarısının kendisi, kalan iki seçenek tikel ayrıntı.",
-          "flag_mechanism": "genel_kultur"
+          "status": "verified",
+          "blind_solvable": false,
+          "blind_basis": null,
+          "yeniden_uretim": {
+            "tarih": "2026-08-18",
+            "uretilen_grup": "L5 çoktan seçmeli 22 (S3)",
+            "eski_mekanizma": "genel_kultur",
+            "eski_prompt": "What danger does Dr Osgood see in collecting answers online?",
+            "eski_secenekler": [
+              "It would use up two of the students' weekends.",
+              "Only people already interested would take part.",
+              "It would produce fewer than a hundred and twenty replies."
+            ],
+            "neden_elendi": "Senaryo gösterilmeden 3/3 turda doğru bilindi: çevrimiçi veri toplamanın tehlikesi sorulunca 'yalnız zaten ilgili olanlar katılır' örneklem yanlılığı uyarısının kendisiydi, kalan iki seçenek tikel ayrıntıydı.",
+            "ne_degisti": "Senaryo turu (3. reçete). Tur 5 yerinde yeniden yazıldı: danışman ders kitabı cevabını (kendine seçilme) önce sesli olarak anıyor ama sahiplenmiyor, kendi itirazı olarak 'yanıt vereni tanıyamamak — sayfanın yarısı kasabadan taşınmış insanlar' diyor. Beklenen cevap artık B çeldiricisi; üç seçenek de çevrimiçi anketin gerçek bir riski, aralarındaki seçim yalnız kayıttan yapılıyor. Tur sayısı ve konuşmacı sırası değişmedi."
+          }
         },
         {
           "number": 23,
           "section": 3,
           "script_id": "L5-S3",
           "select_count": 1,
-          "prompt": "Why does Dr Osgood tell the students to use quotas?",
+          "prompt": "Why does Dr Osgood want the students to use quotas?",
           "options": [
             {
               "letter": "A",
-              "text": "To reach Marit's target of a hundred and fifty."
+              "text": "So that the answers can be reported separately for each age group."
             },
             {
               "letter": "B",
-              "text": "To meet a rule set by the department."
+              "text": "So that they do not simply stop whoever is easiest to stop."
             },
             {
               "letter": "C",
-              "text": "To stop easy-to-reach groups dominating the sample."
+              "text": "So that the department's minimum number of replies is reached."
             }
           ],
           "answer": [
-            "C"
+            "A"
           ],
-          "evidence": "If you stop whoever is easiest to stop, you will come back with students and retired people and almost nobody in between.",
+          "evidence": "The council will read this report, and the first thing they will ask is how the answers differ by age; you can say nothing at all about a band that has only a handful of people in it.",
           "answer_point_id": "L5-S3-06",
           "turn_index": 9,
           "distractor_analysis": {
-            "A": "Başkası söyledi — yüz elli Marit'in önerdiği toplam; kotanın amacı sayıyı büyütmek değil dengeyi korumak.",
-            "B": "Söylendi ama sorulan bu değil — bölümün şartı en az yüz yirmi tamamlanmış yanıt; kotaları isteyen bölüm değil danışmanın kendisi."
+            "B": "Söylendi ama sorulan bu değil — danışman bunu 'kitaptaki gerekçe' diye anıp doğru olduğunu kabul ediyor, hemen ardından kotaları burada istemesinin sebebinin bu olmadığını söylüyor.",
+            "C": "Söylendi ama sorulan bu değil — yüz yirmilik alt sınır bölümün şartı ve daha önce konuşuldu; kota toplam sayıyı büyütmüyor, sayıyı bantlara dağıtıyor."
           },
-          "explanation": "Without quotas, the sample fills up with whoever is easiest to stop: students and retired people dominate, and the age group in between is almost absent.",
+          "explanation": "The tutor accepts the textbook reason for quotas but says it is not why he wants them here: the council will ask how the answers differ by age, and nothing can be said about a band with only a handful of people in it.",
           "difficulty": "hard",
-          "status": "flagged",
-          "blind_solvable": true,
-          "blind_basis": "general_knowledge",
-          "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: kotanın niçin kullanıldığının ders kitabı cevabı 'kolay ulaşılan grupların örneklemi ele geçirmesini önlemek', hedef sayısı ve bölüm kuralı kotanın tanımıyla ilgisiz.",
-          "flag_mechanism": "genel_kultur"
+          "status": "verified",
+          "blind_solvable": false,
+          "blind_basis": null,
+          "yeniden_uretim": {
+            "tarih": "2026-08-18",
+            "uretilen_grup": "L5 çoktan seçmeli 23 (S3)",
+            "eski_mekanizma": "genel_kultur",
+            "eski_prompt": "Why does Dr Osgood tell the students to use quotas?",
+            "eski_secenekler": [
+              "To reach Marit's target of a hundred and fifty.",
+              "To meet a rule set by the department.",
+              "To stop easy-to-reach groups dominating the sample."
+            ],
+            "neden_elendi": "Senaryo gösterilmeden 3/3 turda doğru bilindi: kotanın ders kitabı gerekçesi 'kolay ulaşılan grupların örneklemi ele geçirmesini önlemek', hedef sayısı ve bölüm kuralı ise kotanın tanımıyla ilgisizdi.",
+            "ne_degisti": "Senaryo turu (3. reçete). Tur 9 yerinde yeniden yazıldı: danışman ders kitabı gerekçesini sesli olarak anıp 'burada istememin sebebi bu değil' diyor ve kendi gerekçesini veriyor (belediye yanıtların yaşa göre farkını soracak, avuç içi kadar kişi kalan bant hakkında hiçbir şey söylenemez). Beklenen cevap artık B çeldiricisi. Tur sayısı ve konuşmacı sırası değişmedi."
+          }
         }
       ]
     }

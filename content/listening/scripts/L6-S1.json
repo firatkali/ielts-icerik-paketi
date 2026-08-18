@@ -8,8 +8,8 @@
   "generated_by": "opus",
   "setting": "Bir ogrencinin telefonla yurt (konaklama) basvurusu yapmasi",
   "context_line": "You will hear a student telephoning a college accommodation office about applying for a room in a hall of residence.",
-  "word_count": 837,
-  "estimated_minutes": 5.6,
+  "word_count": 858,
+  "estimated_minutes": 5.7,
   "turn_index_base": 0,
   "speakers": [
     {
@@ -114,7 +114,7 @@
     },
     {
       "speaker": "F1",
-      "text": "Cadnam House is the newer block, so the rooms there are en-suite — you have your own shower room. The kitchens are bigger and they're shared between eight."
+      "text": "Cadnam House is the newer block, so the rooms there are en-suite — you have your own shower room. The kitchens are bigger, too. They were shared between eight when the block opened, but we put a second kitchen on the top floor last year, so it's seven now."
     },
     {
       "speaker": "M1",
@@ -370,12 +370,13 @@
     {
       "id": "L6-S1-10",
       "kind": "number",
-      "value": "eight",
+      "value": "seven (Cadnam kitchen, reduced from eight)",
       "speaker": "F1",
-      "quote": "The kitchens are bigger and they're shared between eight.",
+      "quote": "we put a second kitchen on the top floor last year, so it's seven now",
       "turn_index": 20,
-      "distractor": null,
+      "distractor": "eight",
       "suggested_types": [
+        "form_completion",
         "table_completion"
       ]
     },
@@ -650,5 +651,5 @@
     }
   ],
   "spatial_description": null,
-  "notes": "turn_index degerleri 0 tabanlidir. Yedi celdirici duzeltme var: yurt (Thornbury -> Wharton/Cadnam), en-suite ucreti (yuz otuz iki -> yuz kirk bes), sozlesme suresi (kirk -> otuz sekiz hafta), son basvuru (yirmi uc -> otuz Haziran), giris gunu (on iki -> on dort Eylul), anahtar yeri (ana resepsiyon -> Cadnam Street kapicilik), temizlik gunu (Carsamba -> Persembe). Harf harf soyleme bir kez: Brathwaite."
+  "notes": "turn_index degerleri 0 tabanlidir. Yedi celdirici duzeltme var: yurt (Thornbury -> Wharton/Cadnam), en-suite ucreti (yuz otuz iki -> yuz kirk bes), sozlesme suresi (kirk -> otuz sekiz hafta), son basvuru (yirmi uc -> otuz Haziran), giris gunu (on iki -> on dort Eylul), anahtar yeri (ana resepsiyon -> Cadnam Street kapicilik), temizlik gunu (Carsamba -> Persembe). Cadnam mutfagi ayrica sesli rakiple veriliyor (sekiz -> yedi). Harf harf soyleme bir kez: Brathwaite."
 }

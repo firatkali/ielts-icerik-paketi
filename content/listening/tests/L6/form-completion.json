@@ -13,7 +13,7 @@
   "word_limit": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
   "options": null,
   "visual": null,
-  "stem_block": "ARDLEIGH COLLEGE - HALL OF RESIDENCE APPLICATION\n\nApplicant\nSurname: (1) ........\nCourse: (2) ........ (three-year programme)\nAddress: (3) ........, Marsden\n\nHalls open to first-year applicants\nThornbury Hall: closed to applicants this year - the building is being (4) ........\nWharton Court: study bedroom, kitchen shared with five other students, £118 a week\nCadnam House: bigger kitchens; every room is (5) ........\nRent at Cadnam House from September: £(6) ........ a week\n\nContract (38 weeks)\nRooms are emptied over the spring break, but (7) ........ may be left in the basement store room\nCompleted form must reach the office by (8) ........ June\n\nArrival\nKeys are handed out at the (9) ........ on Cadnam Street\nWrite reference (10) ........ on anything sent to the office",
+  "stem_block": "ARDLEIGH COLLEGE - HALL OF RESIDENCE APPLICATION\n\nApplicant\nSurname: (1) ........\nCourse: (2) ........ (three-year programme)\nAddress: (3) ........, Marsden\n\nHalls open to first-year applicants\nThornbury Hall: closed to applicants this year - the building is being (4) ........\nWharton Court: study bedroom, kitchen shared with five other students, £118 a week\nCadnam House: rooms are en-suite; kitchen now shared between (5) ........ students\nRent at Cadnam House from September: £(6) ........ a week\n\nContract (38 weeks)\nRooms are emptied over the spring break, but (7) ........ may be left in the basement store room\nCompleted form must reach the office by (8) ........ June\n\nArrival\nKeys are handed out at the (9) ........ on Cadnam Street\nWrite reference (10) ........ on anything sent to the office",
   "table": null,
   "items": [
     {
@@ -94,26 +94,32 @@
     },
     {
       "number": 5,
-      "prompt": "Cadnam House: bigger kitchens; every room is (5) ........",
+      "prompt": "Cadnam House: rooms are en-suite; kitchen now shared between (5) ........ students",
       "answer": [
-        "en-suite"
+        "seven"
       ],
       "accepted_variants": [
-        "en-suite",
-        "ensuite",
-        "en suite"
+        "seven",
+        "7"
       ],
-      "evidence": "the rooms there are en-suite — you have your own shower room",
-      "answer_point_id": "L6-S1-09",
+      "evidence": "we put a second kitchen on the top floor last year, so it's seven now",
+      "answer_point_id": "L6-S1-10",
       "turn_index": 20,
-      "distractor_used": null,
-      "explanation": "Because Cadnam House is a newer block, the rooms have their own shower room; the adviser calls this en-suite.",
+      "distractor_used": "eight",
+      "explanation": "Cadnam House kitchens were shared between eight students when the block opened, but a second kitchen was added on the top floor last year, so each kitchen is now shared between seven.",
       "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_basis": "general_knowledge",
-      "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: karşı satır Wharton'ı 'mutfağı beş kişiyle paylaşılan' diye tanımlıyor, öğrenci konaklamasında kalan tek ayrım banyolu (en-suite) oda.",
-      "flag_mechanism": "genel_kultur"
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "uretilen_grup": "L6 form tamamlama 5 (S1)",
+        "eski_mekanizma": "genel_kultur",
+        "eski_cevap": "en-suite",
+        "eski_cevap_noktasi": "L6-S1-09 (tur 20)",
+        "neden_elendi": "Senaryo gosterilmeden 3/3 turda dogru bilindi: karsi satir Wharton'i 'mutfagi bes kisiyle paylasilan' diye tanimlayinca ogrenci konaklamasinda geriye kalan tek ayrim banyolu (en-suite) oda oluyordu.",
+        "ne_degisti": "Senaryo turu (2026-08-18). Recete 1 + 3: bosluk ayni turdaki baska bir olguya kaydirildi (L6-S1-09 -> L6-S1-10, tur 20 degismedi) ve o olguya sesli bir rakip kuruldu. 'En-suite' artik boslugun degil, kokun icinde bedava veriliyor; sorulan sey Cadnam mutfagini kac kisinin paylastigi. Senaryoda tur 20 yerinde degistirildi: 'shared between eight' -> 'were shared between eight when the block opened, but we put a second kitchen on the top floor last year, so it's seven now'. Dunyanin bekledigi buyuk yuvarlak sayi (sekiz) celdiriciye dondu; cevap yalnizca duzeltmeyi duyanda cikiyor. Tur sayisi, konusmaci sirasi ve turn_index degerleri degismedi."
+      }
     },
     {
       "number": 6,

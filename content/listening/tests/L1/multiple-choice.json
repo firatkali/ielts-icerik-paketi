@@ -39,21 +39,37 @@
             }
           ],
           "answer": [
-            "B"
+            "C"
           ],
-          "evidence": "Our closing day used to be Monday, and that's what the leaflet still says, but since the beginning of this month we've closed on Tuesdays instead.",
+          "evidence": "Our closing day used to be Tuesday, and that's what the leaflet still says, but since the beginning of this month we've closed on Thursdays instead.",
           "answer_point_id": "L1-S2-07",
           "turn_index": 2,
           "distractor_analysis": {
-            "A": "Söylendi sonra düzeltildi — broşürdeki kapalı gün Pazartesi'ydi; konuşmacı bu ayın başından beri Salı günleri kapalı olduklarını söylüyor.",
-            "C": "Söylendi ama sorulan bu değil — Perşembe, müzenin geç saate kadar açık kaldığı gün; kapalı gün değil."
+            "A": "Dunyanin bekledigi deger celdiriciye verildi: muzelerin geleneksel kapali gunu Pazartesi'dir ve konusmada da aniliyor — ama burada Pazartesi, muzenin aksam sekize kadar acik kaldigi gundur, kapali gun degil.",
+            "B": "Soylendi sonra duzeltildi — brosurdeki kapali gun Sali'ydi; konusmaci bu ayin basindan beri Persembe gunleri kapandiklarini soyluyor."
           },
-          "explanation": "The speaker says the closing day used to be Monday but has been Tuesday since the start of this month.",
+          "explanation": "The closing day used to be Tuesday, which is what the leaflet still says, but since the beginning of this month the museum has closed on Thursdays instead. Monday is the late-opening evening, not a closing day.",
           "difficulty": "medium",
           "status": "verified",
-          "blind_solvable": true,
-          "blind_basis": "number_guess",
-          "blind_note": "3/3 turda tutturuldu ama dayanak sayi/saat tahminiydi; tutturma orani uc secenekli sans oranina esit, sizinti sayilmadi."
+          "blind_solvable": false,
+          "blind_basis": null,
+          "yeniden_uretim": {
+            "tarih": "2026-08-18",
+            "uretilen_grup": "L1 dinleme - senaryo turu",
+            "recete": "2 (senaryoda yerinde deger degisimi) - beklenen deger celdiriciye verildi",
+            "eski_prompt": "On which day is the museum now closed?",
+            "eski_cevap": [
+              "B"
+            ],
+            "eski_secenekler": [
+              "Monday",
+              "Tuesday",
+              "Thursday"
+            ],
+            "neden_elendi": "Senaryo gorulmeden 3/3 turda tutturuldu. Yol dunya bilgisiydi: Pazartesi muzelerin geleneksel kapali gunu, koktoki 'now' ise degisimi haber verdigi icin Pazartesi eleniyordu; Persembe de gec acilisin klise gunu oldugu icin kapali gun olamazdi. Geriye tek aday olarak Sali kaliyordu.",
+            "ne_degisti": "Kok ve secenek dizisi ayni birakildi, senaryodaki gun degerleri yerinde dondu (turn 2): gec acilis Persembe -> Pazartesi, eski kapali gun Pazartesi -> Sali, yeni kapali gun Sali -> Persembe. Boylece dunyanin bekledigi deger (Pazartesi) dogru cevap degil celdirici oldu ve klise gec-acilis gunu (Persembe) dogru cevaba tasindi; her iki dis ipucu da artik yanlis secenegi gosteriyor. answer_point_id (L1-S2-07) ve turn_index (2) degismedi; senaryonun kelime sayisi da degismedi.",
+            "sessiz_sinama_son": null
+          }
         },
         {
           "number": 12,

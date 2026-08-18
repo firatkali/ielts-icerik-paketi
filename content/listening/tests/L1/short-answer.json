@@ -18,45 +18,67 @@
   "items": [
     {
       "number": 37,
-      "prompt": "Which metal left behind by earlier industry worries growers most?",
+      "prompt": "Which metal does the speaker's own group worry about more?",
       "answer": [
-        "lead"
+        "cadmium"
       ],
       "accepted_variants": [
-        "lead"
+        "cadmium"
       ],
-      "evidence": "lead is the usual concern",
+      "evidence": "the one my own group worries about more is cadmium",
       "answer_point_id": "L1-S4-21",
       "turn_index": 8,
-      "distractor_used": null,
-      "explanation": "Land that has previously been built on can contain residues from old industry; the metal most often worried about is lead.",
-      "difficulty": "easy",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_basis": "general_knowledge",
-      "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'eski sanayinin bıraktığı hangi metal yetiştiricileri en çok kaygılandırıyor' — kentsel toprak kirliliğinin standart cevabı.",
-      "flag_mechanism": "genel_kultur"
+      "distractor_used": "lead",
+      "explanation": "Lead is the metal everyone names first, but the speaker says lead largely stays where it is in the ground; the metal his own group worries about more is cadmium, because the plant takes it up into the leaf.",
+      "difficulty": "medium",
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "uretilen_grup": "L1 dinleme - senaryo turu",
+        "recete": "2+3 (senaryoda yerinde deger degisimi, sesli rakip)",
+        "eski_prompt": "Which metal left behind by earlier industry worries growers most?",
+        "eski_cevap": [
+          "lead"
+        ],
+        "eski_kanit_cumlesi": "lead is the usual concern",
+        "neden_elendi": "Senaryo gorulmeden 3/3 turda dogru bilindi. 'Eski sanayinin biraktigi hangi metal yetistiricileri kaygilandirir' sorusunun dunya bilgisindeki tek standart cevabi kursundur; hicbir cerceve yazimi bunu kapatmiyordu.",
+        "ne_degisti": "Turn 8'in icine yan cumlecik konarak konusmaci sesli bir rakip kurdu: 'lead is the metal everyone names first. But lead largely stays where it is in the ground; the one my own group worries about more is cadmium, because the plant lifts it into the leaf you eat.' Dunyanin bekledigi deger (lead) artik acikca soylenen celdirici, dogru cevap konusmanin kendi kurgusunun sectigi deger (cadmium). Kurson senaryoda korundu, cunku alistirma paketindeki 4. soru ('Where lead levels turn out to be high...') ayni turdaki L1-S4-22 noktasina bagli ve o cerceve bozulmamaliydi. answer_point_id (L1-S4-21) ve turn_index (8) degismedi.",
+        "sessiz_sinama_son": null
+      }
     },
     {
       "number": 38,
-      "prompt": "Which crop does the speaker use to show how much electricity indoor growing needs?",
+      "prompt": "Which crop's electricity figure does the speaker want students to remember?",
       "answer": [
-        "lettuce"
+        "strawberries"
       ],
       "accepted_variants": [
-        "lettuce"
+        "strawberries"
       ],
-      "evidence": "the electricity needed to raise a kilogram of lettuce is substantial",
+      "evidence": "the number I would rather you carried away is the one for a kilogram of strawberries",
       "answer_point_id": "L1-S4-28",
       "turn_index": 9,
-      "distractor_used": null,
-      "explanation": "The speaker illustrates the electricity cost of indoor growing using the example of a kilogram of lettuce.",
+      "distractor_used": "lettuce",
+      "explanation": "The figure that is always quoted is the one for a kilogram of lettuce, which the speaker calls the easy case; the number he wants students to carry away is the one for a kilogram of strawberries, which is several times larger.",
       "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_basis": "general_knowledge",
-      "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'iç mekân yetiştiriciliğinin ne kadar elektrik istediğini göstermek için hangi ürün örnek veriliyor' — dikey tarım tartışmasının kalıp örneği.",
-      "flag_mechanism": "genel_kultur"
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "uretilen_grup": "L1 dinleme - senaryo turu",
+        "recete": "2+3 (senaryoda yerinde deger degisimi, sesli rakip)",
+        "eski_prompt": "Which crop does the speaker use to show how much electricity indoor growing needs?",
+        "eski_cevap": [
+          "lettuce"
+        ],
+        "eski_kanit_cumlesi": "the electricity needed to raise a kilogram of lettuce is substantial",
+        "neden_elendi": "Senaryo gorulmeden 3/3 turda dogru bilindi. Dikey tarim tartismasinin kalip ornegi marildir; soru 'ic mekan yetistiriciliginin elektrik ihtiyacini hangi urun gosteriyor' diye sordugu anda cevap disaridan geliyordu.",
+        "ne_degisti": "Turn 9 icinde deger degistirildi ve rakip sesli kuruldu: 'The figure people quote is always the one for a kilogram of lettuce, which is the easy case; the number I would rather you carried away is the one for a kilogram of strawberries, which is several times larger.' Beklenen deger (lettuce) celdirici oldu, dogru cevap cilek. Kok da buna gore daraltildi ('hangi urunun rakamini hatirlamanizi istiyor'), boylece iki aday arasinda ayrim ancak sesi duyarak yapilabiliyor. answer_point_id (L1-S4-28) ve turn_index (9) degismedi.",
+        "sessiz_sinama_son": null
+      }
     },
     {
       "number": 39,

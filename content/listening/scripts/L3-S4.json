@@ -8,8 +8,8 @@
   "generated_by": "opus",
   "setting": "Tohum bankalari uzerine akademik ders",
   "context_line": "You will hear part of a lecture about how seed banks store and check plant seeds.",
-  "word_count": 949,
-  "estimated_minutes": 6.3,
+  "word_count": 1041,
+  "estimated_minutes": 6.9,
   "turn_index_base": 0,
   "speakers": [
     {
@@ -29,15 +29,15 @@
     },
     {
       "speaker": "F1",
-      "text": "The idea is older than people assume. The first collections kept deliberately for future breeding date from the nineteen twenties, and they were built by plant breeders who had noticed that the varieties they wanted to work with were disappearing from farms. What changed in the nineteen seventies was the cold store. Before that, a collection had to be grown out every few years simply to stay alive."
+      "text": "The idea is older than people assume. The first collections kept deliberately for future breeding date from the nineteen twenties, and they were built by plant breeders who had noticed that the varieties they wanted to work with were disappearing from farms — one collection made in those years is still being drawn on today, and everybody assumes it must be wheat, but it is barley. What changed in the nineteen seventies was the cold store. Before that, a collection had to be grown out every few years simply to stay alive."
     },
     {
       "speaker": "F1",
-      "text": "So: collection. A field team does not take every seed it can find, for two reasons. The first is obvious — you leave the population able to reproduce, and the convention is to take no more than a fifth of the seed that is ripe on the day you visit. The second reason is genetic. Collect from three plants and you capture almost none of the variation, so the guidance is to sample from at least fifty plants, spread across the whole stand, and to keep the seed from each plant separate until it reaches the store."
+      "text": "So: collection. A field team does not take every seed it can find, for two reasons. The first is obvious — you leave the population able to reproduce, and the convention is to take no more than a fifth of the seed that is ripe on the day you visit. The second reason is genetic. Collect from three plants and you capture almost none of the variation, so the guidance is to sample from at least a hundred plants, spread across the whole stand, and to keep the seed from each plant separate until it reaches the store."
     },
     {
       "speaker": "F1",
-      "text": "You will hear thirty plants quoted, and that figure does appear in the older manuals, but the modelling done since points to fifty as the working minimum."
+      "text": "You will hear fifty plants quoted, and that figure does appear in the older manuals, but the modelling done since points to a hundred as the working minimum."
     },
     {
       "speaker": "F1",
@@ -53,7 +53,7 @@
     },
     {
       "speaker": "F1",
-      "text": "That baseline has to be repeated. Every accession is retested at intervals, and the interval most banks now work to is ten years. It was five, and for some species it still is, but testing consumes seed — every test takes two hundred seeds out of a store that may hold only a few thousand. When a retest falls below the threshold, the remaining seed is sown out and a fresh, larger batch is harvested. That process is called regeneration, and it is the most expensive thing a seed bank does."
+      "text": "That baseline has to be repeated. Every accession is retested at intervals, and the figure printed in the standards is ten years. That is the figure in print, but the banks I have worked in have stretched the gap to fifteen, because testing consumes seed — every test takes two hundred seeds out of a store that may hold only a few thousand. When a retest falls below the threshold, the remaining seed is sown out and a fresh, larger batch is harvested. That process is called regeneration, and it is the most expensive thing a seed bank does."
     },
     {
       "speaker": "F1",
@@ -61,15 +61,15 @@
     },
     {
       "speaker": "F1",
-      "text": "Now, duplication. No serious collection keeps its only copy of anything in one building. The rule is that a duplicate goes to a second site, in a different country wherever that can be arranged, and that it is a separately packaged portion set aside at the outset, not a subsample of the same jar. The reason is mundane: the commonest cause of loss over the past fifty years has been a freezer failing quietly over a long weekend."
+      "text": "Now, duplication. No serious collection keeps its only copy of anything in one building. The rule is that a duplicate goes to a second site, in a different country wherever that can be arranged, and that it is a separately packaged portion set aside at the outset, not a subsample of the same jar. The reason is mundane: it is not the freezer that loses a collection — freezers do fail, but a freezer that fails while somebody is watching costs you nothing — it is the alarm, and an alarm that stayed silent over a long weekend has been the commonest cause of loss over the past fifty years."
     },
     {
       "speaker": "F1",
-      "text": "Which brings me to the limitation. Everything I have described works for what are called orthodox seeds — seeds that tolerate drying and freezing. Many species have seeds that do not. Take the moisture content of an acorn down to five per cent and you have killed it. Those seeds are called recalcitrant, and they include oak, chestnut, mango, cocoa, rubber and most of the large-seeded trees of wet tropical forest. The figure usually given is that about eight per cent of the world's plant species are recalcitrant."
+      "text": "Which brings me to the limitation. Everything I have described works for what are called orthodox seeds — seeds that tolerate drying and freezing. Many species have seeds that do not. Take the moisture content of an acorn down to five per cent and you have killed it. Those seeds are called recalcitrant, and they include oak, chestnut, mango, cocoa, rubber and most of the large-seeded trees of wet tropical forest. The figure usually given is that about eight per cent of the world's plant species are recalcitrant, though that global average flatters the problem: in wet tropical forest the last review put it at a third of the tree species there."
     },
     {
       "speaker": "F1",
-      "text": "For those species every option is more expensive. You can keep a living collection — an orchard, in effect — which takes land and is exposed to weather and to pests. You can freeze the embryo alone in liquid nitrogen, at minus a hundred and ninety-six degrees, which works for a growing number of species but has to be worked out one species at a time. Or you can hold tissue in slow growth in culture, which buys you a year or two rather than a century."
+      "text": "For those species every option is more expensive. You can keep a living collection — an orchard, in effect — which takes land and is exposed to weather and to pests. You can freeze the embryo alone in liquid nitrogen, at minus a hundred and ninety-six degrees, though the method has to be worked out one species at a time and stands at about thirty species so far. Or you can hold tissue in slow growth in culture, which buys you a year or two rather than a century."
     },
     {
       "speaker": "F1",
@@ -132,11 +132,11 @@
     {
       "id": "L3-S4-05",
       "kind": "rule",
-      "value": "sample at least 50 plants",
-      "quote": "the guidance is to sample from at least fifty plants",
+      "value": "sample at least 100 plants",
+      "quote": "the guidance is to sample from at least a hundred plants",
       "turn_index": 2,
       "speaker": "F1",
-      "distractor": "30 plants",
+      "distractor": "50 plants",
       "suggested_types": [
         "note_completion",
         "multiple_choice"
@@ -262,11 +262,11 @@
     {
       "id": "L3-S4-15",
       "kind": "duration",
-      "value": "retested every 10 years",
-      "quote": "the interval most banks now work to is ten years",
+      "value": "retested every 15 years in practice",
+      "quote": "the banks I have worked in have stretched the gap to fifteen",
       "turn_index": 7,
       "speaker": "F1",
-      "distractor": "five years",
+      "distractor": "ten years (the figure in the standards)",
       "suggested_types": [
         "note_completion",
         "multiple_choice"
@@ -340,11 +340,11 @@
     {
       "id": "L3-S4-20",
       "kind": "reason",
-      "value": "the usual cause of loss is freezer failure",
-      "quote": "the commonest cause of loss over the past fifty years has been a freezer failing quietly over a long weekend",
+      "value": "the usual cause of loss is a silent alarm, not the freezer",
+      "quote": "an alarm that stayed silent over a long weekend has been the commonest cause of loss over the past fifty years",
       "turn_index": 9,
       "speaker": "F1",
-      "distractor": null,
+      "distractor": "a freezer",
       "suggested_types": [
         "multiple_choice",
         "short_answer"
@@ -427,8 +427,47 @@
         "summary_completion",
         "multiple_choice"
       ]
+    },
+    {
+      "id": "L3-S4-28",
+      "kind": "object",
+      "value": "the oldest collection still in use is barley, not wheat",
+      "quote": "everybody assumes it must be wheat, but it is barley",
+      "turn_index": 1,
+      "speaker": "F1",
+      "distractor": "wheat",
+      "suggested_types": [
+        "summary_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L3-S4-29",
+      "kind": "number",
+      "value": "a third of wet tropical forest tree species are recalcitrant",
+      "quote": "in wet tropical forest the last review put it at a third of the tree species",
+      "turn_index": 10,
+      "speaker": "F1",
+      "distractor": "eight per cent",
+      "suggested_types": [
+        "short_answer",
+        "note_completion"
+      ]
+    },
+    {
+      "id": "L3-S4-30",
+      "kind": "number",
+      "value": "embryo freezing worked out for about 30 species so far",
+      "quote": "stands at about thirty species so far",
+      "turn_index": 11,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "short_answer",
+        "note_completion"
+      ]
     }
   ],
   "spatial_description": null,
-  "notes": "turn_index degerleri 0 tabanlidir. Dort celdirici duzeltme var: ornekleme (otuz bitki -> elli bitki), depolama sicakligi (eksi on sekiz -> eksi yirmi), cimlenme esigi (yuzde yetmis bes -> yuzde seksen bes), yeniden test araligi (bes yil -> on yil). Metinde rakam yok."
+  "notes": "turn_index degerleri 0 tabanlidir. Sesli celdirici duzeltmeleri: en eski koleksiyon (bugday -> arpa), ornekleme (elli bitki -> yuz bitki), depolama sicakligi (eksi on sekiz -> eksi yirmi), cimlenme esigi (yuzde yetmis bes -> yuzde seksen bes), yeniden test araligi (standarttaki on yil -> uygulamada on bes yil), kayip sebebi (dondurucu -> sessiz kalan alarm), recalcitrant orani (kuresel yuzde sekiz -> yas tropik ormanda ucte bir). Metinde rakam yok. 2026-08-18 senaryo turu: L3-S4-28/29/30 eklendi, tur sayisi ve konusmaci sirasi degismedi."
 }

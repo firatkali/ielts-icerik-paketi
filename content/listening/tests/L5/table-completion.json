@@ -23,8 +23,8 @@
     "rows": [
       [
         "Size classes",
-        "particles smaller than (31) ........ millimetres count as microplastic",
-        "anything below one micrometre is called nanoplastic"
+        "counted again under the five-millimetre limit, one survey's total was (31) ........ per cent higher",
+        "older papers set the limit at two millimetres; the agreed figure now is five"
       ],
       [
         "Origin",
@@ -51,25 +51,31 @@
   "items": [
     {
       "number": 31,
-      "prompt": "particles smaller than (31) ........ millimetres count as microplastic",
+      "prompt": "counted again under the five-millimetre limit, one survey's total was (31) ........ per cent higher",
       "answer": [
-        "5"
+        "60"
       ],
       "accepted_variants": [
-        "5",
-        "five"
+        "60",
+        "sixty"
       ],
-      "evidence": "A microplastic is a particle below five millimetres.",
-      "answer_point_id": "L5-S4-01",
+      "evidence": "the five-millimetre total came out sixty per cent higher",
+      "answer_point_id": "L5-S4-31",
       "turn_index": 1,
-      "distractor_used": "2",
-      "explanation": "Older publications give the limit as two millimetres, and this inconsistency caused a lot of confusion in the field; today's agreed figure is five millimetres.",
+      "distractor_used": null,
+      "explanation": "The lecturer's group counted one survey's samples again under both limits: the total under the five-millimetre limit came out sixty per cent higher than under the old two-millimetre one.",
       "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_basis": "general_knowledge",
-      "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: '(31) milimetreden küçük parçacıklar mikroplastik sayılır' — eşik literatürde tek ve sabit bir sayı, konuşmanın seçtiği bir değer değil.",
-      "flag_mechanism": "genel_kultur"
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "uretilen_grup": "L5 tablo tamamlama 31 (S4)",
+        "eski_mekanizma": "genel_kultur",
+        "eski_prompt": "particles smaller than (31) ........ millimetres count as microplastic",
+        "neden_elendi": "Senaryo gösterilmeden 3/3 turda doğru bilindi: mikroplastik eşiği (beş milimetre) yazının tek ve sabit değeri, konuşmanın seçtiği bir değer değil.",
+        "ne_degisti": "Senaryo turu (2. reçete). Tur 1'e yerinde bir yan cümle eklendi: aynı anket iki sınıra göre yeniden sayıldığında beş milimetrelik toplam yüzde altmış yüksek çıkıyor. Boşluk artık dünyanın bildiği eşiği değil, konuşmacının kendi sayımından çıkan oranı soruyor; beklenen değerler (iki ve beş milimetre) not sütununa verildi. Tur sayısı ve konuşmacı sırası değişmedi; yeni cevap noktası L5-S4-31 aynı turun içinde. Ayrıca eski not sütunundaki 'bir mikrometrenin altı nanoplastik' ifadesi kaldırıldı — alıştırma kısa cevap sorusunun cevabını düz metin veriyordu."
+      }
     },
     {
       "number": 32,

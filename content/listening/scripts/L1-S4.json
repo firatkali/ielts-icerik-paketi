@@ -8,8 +8,8 @@
   "generated_by": "opus",
   "setting": "Kentsel tarim uzerine akademik ders",
   "context_line": "You will hear a lecturer giving a talk about growing food in cities.",
-  "word_count": 949,
-  "estimated_minutes": 6.3,
+  "word_count": 1013,
+  "estimated_minutes": 6.7,
   "turn_index_base": 0,
   "speakers": [
     {
@@ -57,11 +57,11 @@
     },
     {
       "speaker": "M1",
-      "text": "Now the limitations — three you should always raise. The first is soil. Ground that has been built on may carry residues from earlier industry, and lead is the usual concern. Testing is inexpensive and should come first. Where levels are high, the standard response is not to abandon the site, but to build raised beds and bring in clean compost from outside."
+      "text": "Now the limitations — three you should always raise. The first is soil. Ground that has been built on may carry residues from earlier industry, and lead is the metal everyone names first. But lead largely stays where it is in the ground; the one my own group worries about more is cadmium, because the plant lifts it into the leaf you eat. Testing is inexpensive and should come first. Where levels are high, the standard response is not to abandon the site, but to build raised beds and bring in clean compost from outside."
     },
     {
       "speaker": "M1",
-      "text": "The second limitation is energy, and this is where vertical farming struggles. Growing indoors means supplying the light the sun provides free. Even with efficient lamps, the electricity needed to raise a kilogram of lettuce is substantial, and the environmental case for the whole system rests entirely on where that electricity comes from. A vertical farm on a low-carbon grid may make sense; the same building on a coal-fired grid does not."
+      "text": "The second limitation is energy, and this is where vertical farming struggles. Growing indoors means supplying the light the sun provides free. Even with efficient lamps the bill is substantial. The figure people quote is always the one for a kilogram of lettuce, which is the easy case; the number I would rather you carried away is the one for a kilogram of strawberries, which is several times larger. And the environmental case for the whole system rests entirely on where that electricity comes from. A vertical farm on a low-carbon grid may make sense; the same building on a coal-fired grid does not."
     },
     {
       "speaker": "M1",
@@ -340,11 +340,11 @@
     {
       "id": "L1-S4-21",
       "kind": "object",
-      "value": "lead",
-      "quote": "lead is the usual concern",
+      "value": "cadmium",
+      "quote": "the one my own group worries about more is cadmium",
       "turn_index": 8,
       "speaker": "M1",
-      "distractor": null,
+      "distractor": "lead",
       "suggested_types": [
         "short_answer",
         "note_completion"
@@ -379,11 +379,11 @@
     {
       "id": "L1-S4-28",
       "kind": "object",
-      "value": "lettuce",
-      "quote": "the electricity needed to raise a kilogram of lettuce is substantial",
+      "value": "strawberries",
+      "quote": "the number I would rather you carried away is the one for a kilogram of strawberries",
       "turn_index": 9,
       "speaker": "M1",
-      "distractor": null,
+      "distractor": "lettuce",
       "suggested_types": [
         "short_answer",
         "note_completion"

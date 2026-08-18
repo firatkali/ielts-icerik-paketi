@@ -8,8 +8,8 @@
   "generated_by": "opus",
   "setting": "Iki ogrenci ve danismanlarinin bir anket calismasinin tasarimini gorusmesi",
   "context_line": "You will hear two students discussing the design of a questionnaire with their tutor.",
-  "word_count": 892,
-  "estimated_minutes": 5.9,
+  "word_count": 994,
+  "estimated_minutes": 6.5,
   "turn_index_base": 0,
   "speakers": [
     {
@@ -63,7 +63,7 @@
     },
     {
       "speaker": "M2",
-      "text": "A hundred and fifty is the better number, Marit, but you can't reach it that way. The people who answer a link on a residents' page are the people who already care about the high street. That's self-selection, and it will bend everything you find."
+      "text": "A hundred and fifty is the better number, Marit, but you can't reach it that way. The objection you will find in every methods textbook is self-selection — that the only people who answer a link on a residents' page are the people who already care about the high street. Mine is a different one. You have no way of knowing who is answering: a good half of that page is people who moved away years ago and still like reading about the place, and their replies will look exactly like a shopper's."
     },
     {
       "speaker": "F1",
@@ -79,7 +79,7 @@
     },
     {
       "speaker": "M2",
-      "text": "With quotas. If you stop whoever is easiest to stop, you will come back with students and retired people and almost nobody in between. Set a target for each age band and hold yourselves to it."
+      "text": "With quotas. The textbook reason for those is that otherwise you stop whoever is easiest to stop — true enough, but it is not why I want them here. The council will read this report, and the first thing they will ask is how the answers differ by age; you can say nothing at all about a band that has only a handful of people in it. Set a target for each age band and hold yourselves to it."
     },
     {
       "speaker": "F1",
@@ -236,8 +236,8 @@
     {
       "id": "L5-S3-03",
       "kind": "limitation",
-      "value": "self-selection in an online sample",
-      "quote": "That's self-selection, and it will bend everything you find.",
+      "value": "tutor's own objection: online replies may come from people who no longer live in the town",
+      "quote": "a good half of that page is people who moved away years ago",
       "turn_index": 5,
       "speaker": "M2",
       "distractor": null,
@@ -275,8 +275,8 @@
     {
       "id": "L5-S3-06",
       "kind": "rule",
-      "value": "quotas for each age band",
-      "quote": "Set a target for each age band and hold yourselves to it.",
+      "value": "quotas so that each age band is big enough to report on separately",
+      "quote": "the first thing they will ask is how the answers differ by age",
       "turn_index": 9,
       "speaker": "M2",
       "distractor": null,
@@ -611,5 +611,5 @@
     }
   ],
   "spatial_description": null,
-  "notes": "turn_index degerleri 0 tabanlidir. Alti celdirici duzeltme var: ornek buyuklugu (yuz -> yuz yirmi), pilot sayisi (on -> yirmi), etik formu tarihi (on iki -> bes), rapor kelime siniri (iki bin -> iki bin bes yuz), sunum suresi (on bes -> on arti bes), calisma mekani (seminer odasi -> ikinci kattaki calisma kabinleri). Gorus ayrimi dort eksende: ornekleme yontemi, soru tipi, saha gunu, kayit araci; ucunun de gorusu ayri ayri isaretli. Metinde rakam yok."
+  "notes": "turn_index degerleri 0 tabanlidir. Alti celdirici duzeltme var: ornek buyuklugu (yuz -> yuz yirmi), pilot sayisi (on -> yirmi), etik formu tarihi (on iki -> bes), rapor kelime siniri (iki bin -> iki bin bes yuz), sunum suresi (on bes -> on arti bes), calisma mekani (seminer odasi -> ikinci kattaki calisma kabinleri). Gorus ayrimi dort eksende: ornekleme yontemi, soru tipi, saha gunu, kayit araci; ucunun de gorusu ayri ayri isaretli. Metinde rakam yok. 2026-08-18 senaryo turu: iki tur yerinde degistirildi (tur sayisi ayni). Tur 5'te danisman kendine secilme itirazini 'kitaptaki itiraz' diye anip kendi itirazini (yanit vereni tanimama, tasinip gitmis kisiler) one koyuyor; tur 9'da kota gerekcesi 'en kolay durdurulani durdurmak' yerine 'her yas bandini ayri raporlayabilmek' oldu. Amac: 22 ve 23 numarali sorularin ders kitabi cevabinin celdirici olmasi."
 }

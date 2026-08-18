@@ -41,70 +41,105 @@
       "number": 38,
       "prompt": "Which piece of equipment failing has been the commonest cause of losses?",
       "answer": [
-        "a freezer"
+        "the alarm"
       ],
       "accepted_variants": [
-        "a freezer",
-        "freezer",
-        "the freezer"
+        "the alarm",
+        "alarm",
+        "an alarm"
       ],
-      "evidence": "the commonest cause of loss over the past fifty years has been a freezer failing quietly over a long weekend",
+      "evidence": "an alarm that stayed silent over a long weekend has been the commonest cause of loss over the past fifty years",
       "answer_point_id": "L3-S4-20",
       "turn_index": 9,
-      "distractor_used": null,
-      "explanation": "The reason a backup of the collections is kept in a second location is mundane: the commonest cause of loss over fifty years has been a freezer failing quietly.",
+      "distractor_used": "a freezer",
+      "explanation": "The speaker says it is not the freezer that loses a collection — a freezer that fails while somebody is watching costs nothing — but the alarm: an alarm that stayed silent over a long weekend.",
       "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_basis": "general_knowledge",
-      "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'hangi ekipmanın arızası en sık kayıp sebebi olmuş' — tohum bankasında tek kritik ekipman dondurucu, soru kendi bağlamında tek cevabı bırakıyor.",
-      "flag_mechanism": "genel_kultur"
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
+      "yeniden_uretim": {
+        "uretilen_kalem": "L3 kisa cevap #38 (dinleme, bolum 4)",
+        "eski_cerceve": "Which piece of equipment failing has been the commonest cause of losses?",
+        "eski_cevap": [
+          "a freezer"
+        ],
+        "eski_cevap_noktasi": "L3-S4-20 (tur 9) — degismedi",
+        "neden_elendi": "Tohum bankasinda akla gelen tek kritik ekipman dondurucu; soru kendi baginda tek cevabi birakiyordu ve 3/3 turda bilindi.",
+        "ne_degisti": "Recete 3: tur 9'un son cumlesi sesli rakiple yeniden yazildi — 'it is not the freezer that loses a collection — freezers do fail, but a freezer that fails while somebody is watching costs you nothing — it is the alarm, and an alarm that stayed silent over a long weekend has been the commonest cause of loss over the past fifty years.' Dunyanin bekledigi dondurucu artik celdirici, cevap alarm. Cumle/tur sayisi degismedi; ayni turdaki ikinci-saha kurali cumlesi (alistirma paketinin dayanagi) aynen korundu.",
+        "tarih": "2026-08-18",
+        "kaynak_prompt": "denetim turu: dinleme senaryo turu (2026-08-18)"
+      }
     },
     {
       "number": 39,
-      "prompt": "What term is used for seeds that can be dried and frozen without being killed?",
+      "prompt": "In wet tropical forest, what proportion of the tree species have seeds that cannot be dried and frozen?",
       "answer": [
-        "orthodox"
+        "a third"
       ],
       "accepted_variants": [
-        "orthodox",
-        "orthodox seeds"
+        "a third",
+        "one third",
+        "one-third",
+        "a third of them",
+        "1/3"
       ],
-      "evidence": "Everything I have described works for what are called orthodox seeds — seeds that tolerate drying and freezing.",
-      "answer_point_id": "L3-S4-21",
+      "evidence": "in wet tropical forest the last review put it at a third of the tree species there",
+      "answer_point_id": "L3-S4-29",
       "turn_index": 10,
-      "distractor_used": null,
-      "explanation": "The whole method described applies to seeds that can withstand drying and freezing; these are called orthodox seeds.",
-      "difficulty": "easy",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_basis": "general_knowledge",
-      "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'kurutulup dondurulduğunda ölmeyen tohumlara ne ad verilir' doğrudan bir terim tanımı sorusu.",
-      "flag_mechanism": "genel_kultur"
+      "distractor_used": "eight per cent",
+      "explanation": "Eight per cent is the global figure the speaker calls a flattering average; in wet tropical forest the last review put it at a third of the tree species.",
+      "difficulty": "medium",
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
+      "yeniden_uretim": {
+        "uretilen_kalem": "L3 kisa cevap #39 (dinleme, bolum 4)",
+        "eski_cerceve": "What term is used for seeds that can be dried and frozen without being killed?",
+        "eski_cevap": [
+          "orthodox"
+        ],
+        "eski_cevap_noktasi": "L3-S4-21 (tur 10, 'orthodox')",
+        "neden_elendi": "'Kurutulup dondurulabilen tohumlara ne ad verilir' duz bir terim tanimi sorusuydu; konusma duyulmadan 3/3 turda bilindi.",
+        "ne_degisti": "Recete 1+2: soru ayni turun icinde baska bir cevap noktasina tasindi (yeni L3-S4-29) ve o nokta icin tur 10'un son cumlesine yan cumlecik sigdirildi: '...though that global average flatters the problem: in wet tropical forest the last review put it at a third of the tree species there.' Kuresel yuzde sekiz artik celdirici. 'Orthodox' terimi seste duruyor, artik sorulmuyor. Cumle/tur sayisi degismedi, soru sirasi (38 tur 9 < 39 tur 10 < 40 tur 11) korundu.",
+        "tarih": "2026-08-18",
+        "kaynak_prompt": "denetim turu: dinleme senaryo turu (2026-08-18)"
+      }
     },
     {
       "number": 40,
-      "prompt": "How cold is it kept when only the embryo is frozen in liquid nitrogen?",
+      "prompt": "Freezing the embryo has to be worked out species by species. For roughly how many species has that been done so far?",
       "answer": [
-        "minus 196 degrees"
+        "about thirty"
       ],
       "accepted_variants": [
-        "minus 196 degrees",
-        "-196 degrees",
-        "minus 196",
-        "-196"
+        "about thirty",
+        "thirty",
+        "30",
+        "about 30",
+        "thirty species",
+        "30 species"
       ],
-      "evidence": "You can freeze the embryo alone in liquid nitrogen, at minus a hundred and ninety-six degrees",
-      "answer_point_id": "L3-S4-25",
+      "evidence": "stands at about thirty species so far",
+      "answer_point_id": "L3-S4-30",
       "turn_index": 11,
       "distractor_used": null,
-      "explanation": "For species that cannot withstand drying, one option is to freeze only the embryo in liquid nitrogen, at minus 196 degrees.",
+      "explanation": "Freezing the embryo in liquid nitrogen has to be worked out one species at a time, and the speaker says it stands at about thirty species so far.",
       "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_basis": "general_knowledge",
-      "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'yalnız embriyo sıvı azotta dondurulduğunda kaç derecede tutulur' — sıvı azotun kaynama noktası sabit bir fizik değeri.",
-      "flag_mechanism": "genel_kultur"
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
+      "yeniden_uretim": {
+        "uretilen_kalem": "L3 kisa cevap #40 (dinleme, bolum 4)",
+        "eski_cerceve": "How cold is it kept when only the embryo is frozen in liquid nitrogen?",
+        "eski_cevap": [
+          "minus 196 degrees"
+        ],
+        "eski_cevap_noktasi": "L3-S4-25 (tur 11, 'minus 196 degrees')",
+        "neden_elendi": "Sivi azotun sicakligi sabit bir fizik degeri; soru konusmadan bagimsiz cevaplanabiliyordu ve 3/3 turda bilindi.",
+        "ne_degisti": "Recete 1+2: soru ayni turun icinde yeni bir cevap noktasina tasindi (L3-S4-30). Tur 11'de 'which works for a growing number of species but has to be worked out one species at a time' ifadesi 'though the method has to be worked out one species at a time and stands at about thirty species so far' oldu; sayi konusmanin kendi sectigi bir deger. Eksi 196 seste duruyor, artik sorulmuyor. Cumle/tur sayisi degismedi.",
+        "tarih": "2026-08-18",
+        "kaynak_prompt": "denetim turu: dinleme senaryo turu (2026-08-18)"
+      }
     }
   ]
 }

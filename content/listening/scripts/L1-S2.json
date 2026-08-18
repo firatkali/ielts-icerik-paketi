@@ -33,7 +33,7 @@
     },
     {
       "speaker": "F1",
-      "text": "We're open every day from ten in the morning until five in the afternoon, and on Thursdays we stay open late — until eight — which is when the evening talks are held. Our closing day used to be Monday, and that's what the leaflet still says, but since the beginning of this month we've closed on Tuesdays instead. Do make a note of that if you're thinking of coming back."
+      "text": "We're open every day from ten in the morning until five in the afternoon, and on Mondays we stay open late — until eight — which is when the evening talks are held. Our closing day used to be Tuesday, and that's what the leaflet still says, but since the beginning of this month we've closed on Thursdays instead. Do make a note of that if you're thinking of coming back."
     },
     {
       "speaker": "F1",
@@ -149,8 +149,8 @@
     {
       "id": "L1-S2-06",
       "kind": "time",
-      "value": "20.00 on Thursdays",
-      "quote": "on Thursdays we stay open late — until eight",
+      "value": "20.00 on Mondays",
+      "quote": "on Mondays we stay open late — until eight",
       "turn_index": 2,
       "speaker": "F1",
       "distractor": null,
@@ -162,11 +162,11 @@
     {
       "id": "L1-S2-07",
       "kind": "rule",
-      "value": "closed on Tuesdays",
-      "quote": "we've closed on Tuesdays instead",
+      "value": "closed on Thursdays",
+      "quote": "we've closed on Thursdays instead",
       "turn_index": 2,
       "speaker": "F1",
-      "distractor": "Monday",
+      "distractor": "Tuesday (the old closing day) / Monday (late opening)",
       "suggested_types": [
         "multiple_choice",
         "note_completion"

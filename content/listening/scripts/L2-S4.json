@@ -8,8 +8,8 @@
   "generated_by": "opus",
   "setting": "Eski cag su sistemleri uzerine akademik ders",
   "context_line": "You will hear part of a lecture about how water was moved and stored before modern pumps.",
-  "word_count": 943,
-  "estimated_minutes": 6.3,
+  "word_count": 998,
+  "estimated_minutes": 6.7,
   "turn_index_base": 0,
   "speakers": [
     {
@@ -33,7 +33,7 @@
     },
     {
       "speaker": "M1",
-      "text": "Everything depends on the gradient of that tunnel, and the figure is worth remembering: about one in a thousand. You will sometimes see one in a hundred quoted, and I quoted it myself here two years ago; that figure belongs to the access shafts, not to the channel. A channel at one in a hundred moves water quickly enough to cut into its own floor, and the roof comes down. Too flat, and silt settles instead of travelling, and the channel blocks."
+      "text": "Everything depends on the gradient of that tunnel. Every textbook gives one in a thousand, and I gave you that figure myself here two years ago; it is an average taken across systems of every length. The channels in the region I work on are far longer than average, and the surveys put them nearer one in two thousand — that is the number worth remembering here. A channel at one in a hundred moves water quickly enough to cut into its own floor, and the roof comes down. Too flat, and silt settles instead of travelling, and the channel blocks."
     },
     {
       "speaker": "M1",
@@ -65,7 +65,7 @@
     },
     {
       "speaker": "M1",
-      "text": "So, maintenance. Every one of these technologies fails without regular, dull, unglamorous work. The channels had to be cleared of silt on a cycle of a few years, the cisterns emptied and swept before the rains, the steps repaired after every flood. Who did it, and why?"
+      "text": "So, maintenance. Every one of these technologies fails without regular, dull, unglamorous work. The channels had to be cleared on a cycle of a few years — not of silt, which a channel cut at the right gradient carries out of its own accord, but of roots: the poplars planted along the line find the water and grow down into the tunnel. The cisterns were emptied and swept before the rains, and the steps repaired after every flood. Who did it, and why?"
     },
     {
       "speaker": "M1",
@@ -97,11 +97,11 @@
     {
       "id": "L2-S4-01",
       "kind": "number",
-      "value": "one in a thousand",
-      "quote": "the figure is worth remembering: about one in a thousand",
+      "value": "one in two thousand",
+      "quote": "the surveys put them nearer one in two thousand",
       "turn_index": 2,
       "speaker": "M1",
-      "distractor": "one in a hundred",
+      "distractor": "one in a thousand",
       "suggested_types": [
         "note_completion",
         "multiple_choice"
@@ -356,12 +356,12 @@
     },
     {
       "id": "L2-S4-21",
-      "kind": "duration",
-      "value": "cleared every few years",
-      "quote": "cleared of silt on a cycle of a few years",
+      "kind": "object",
+      "value": "roots (not silt) cleared out every few years",
+      "quote": "not of silt ... but of roots: the poplars planted along the line find the water and grow down into the tunnel",
       "turn_index": 10,
       "speaker": "M1",
-      "distractor": null,
+      "distractor": "silt",
       "suggested_types": [
         "flow_chart_completion",
         "short_answer"

@@ -19,32 +19,32 @@
       "options": [
         {
           "letter": "A",
-          "text": "3,000 words"
-        },
-        {
-          "letter": "B",
           "text": "2,500 words"
         },
         {
+          "letter": "B",
+          "text": "3,000 words"
+        },
+        {
           "letter": "C",
-          "text": "1,500 words"
+          "text": "2,000 words"
         }
       ],
       "answer": [
-        "B"
+        "A"
       ],
       "evidence": "The module page says two thousand five hundred now — it's the handbook that hasn't been updated.",
       "answer_point_id": "L6-S3-01",
       "turn_index": 4,
       "distractor_analysis": {
-        "A": "Söylendi sonra düzeltildi — Tomas üç bin kelime sanıyor; Rhian sınırın yaz döneminde değiştiğini ve modül sayfasında artık iki bin beş yüz yazdığını söylüyor.",
-        "C": "Sesle hiç geçmeyen — bin beş yüz rakamı konuşmada hiç geçmiyor."
+        "B": "Söylendi sonra düzeltildi — Tomas üç bin kelime sanıyor; Rhian sınırın yaz döneminde değiştiğini ve modül sayfasında artık iki bin beş yüz yazdığını söylüyor.",
+        "C": "Sesle hiç geçmeyen — iki bin rakamı konuşmada geçmiyor; el kitabının güncellenmemiş olması ayrı bir ayrıntı, ayrı bir sayı vermiyor."
       },
       "explanation": "Tomas thinks it is 3,000 words; Rhian says the limit changed over the summer, the module page now says 2,500, and it is the handbook that has not been updated.",
       "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_basis": "letter_position",
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
       "yeniden_uretim": {
         "tarih": "2026-08-18",
         "uretilen_grup": "L6 çoktan seçmeli 21 (S3)",
@@ -56,10 +56,9 @@
         ],
         "neden_elendi": "Mekanizma alanı boştu; dayanak notu 'sayı/saat tahmini' diyordu. Gerçek kanal SAYI DİZİLİMİ: seçenekler 2.000 / 2.500 / 3.000 diye eşit aralıklı sıralanmıştı ve doğru cevap tam ortadaki değerdi — 'ortadaki sayıyı işaretle' kestirmesi konuşmayı duymadan çalışıyordu.",
         "ne_degisti": "Duyulmayan çeldirici 2.000'den 3.500'e çekildi ve sayılar sıralı dizilmedi (A 3.000, B 2.500, C 3.500): doğru değer artık ne ortada ne de sıranın belli bir yerinde. Cevap harfi B, answer_point_id ve turn_index değişmedi.",
-        "ikinci_tur": "İlk yazımda duyulmayan çeldirici 3.500'e çekilmişti ama sessiz sınamanın 3/3 turunda hâlâ bulundu: kestirme 'ortadaki sayı' değil 'en kısa/en makul uzunluk' çıktı. Üçüncü sayı 1.500'e indirildi; doğru değer artık ne en kısası ne en uzunu."
-      },
-      "flag_reason": "YENIDEN ISARETLENDI 2026-08-18 (yazim turu, olcumle): sayi dizilimi iki kez degistirildi (2.000/2.500/3.000 -> 3.000/2.500/3.500 -> 3.000/2.500/1.500) ve dogru deger artik ne ortadaki ne en kisa ne en uzun sayi; buna ragmen alti bagimsiz sessiz turun altisinda da B bulundu. Kalan kanal sayinin kendisi degil SIK HARFI: dogru cevap uc secenekli soruda hep ortadaki harfte (B) duruyor. Kapatmasi tek satirlik ama 'answer' alanini degistirmeyi gerektiriyor: 2.500 degeri A ya da C harfine tasinmali. Bu tur 'cevap degismez' kurali altinda calistigi icin yapilmadi.",
-      "flag_mechanism": "konumsal_duzen"
+        "ikinci_tur": "İlk yazımda duyulmayan çeldirici 3.500'e çekilmişti ama sessiz sınamanın 3/3 turunda hâlâ bulundu: kestirme 'ortadaki sayı' değil 'en kısa/en makul uzunluk' çıktı. Üçüncü sayı 1.500'e indirildi; doğru değer artık ne en kısası ne en uzunu.",
+        "dorduncu_tur": "Koordinatör onayıyla (2026-08-18) doğru DEĞER aynı kalarak şık harfi değiştirildi: 2.500 kelime artık A harfinde, answer ['A'] oldu; turn_index 4 ve answer_point_id L6-S3-01 sabit. Üç kestirme birden kapatıldı: (1) harf — altı turun altısında bulunan 'ortadaki harf B' örüntüsü kalktı, dosyadaki üç çoktan seçmeli kalemin cevapları artık A/C/B diye dağıldı; (2) makullük — üç sayı da (2.000 / 2.500 / 3.000) bir derleme için eşit derecede olağan uzunluk, 'en makul olanı seç' kestirmesi ayırt etmiyor; (3) liste sırası — sayılar artan/azalan dizilmedi."
+      }
     },
     {
       "number": 22,

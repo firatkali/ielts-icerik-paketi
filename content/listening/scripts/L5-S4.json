@@ -8,8 +8,8 @@
   "generated_by": "opus",
   "setting": "Deniz ortamindaki plastikler uzerine akademik ders",
   "context_line": "You will hear a lecturer talking about plastics in the sea and about how they are measured.",
-  "word_count": 938,
-  "estimated_minutes": 6.3,
+  "word_count": 995,
+  "estimated_minutes": 6.6,
   "turn_index_base": 0,
   "speakers": [
     {
@@ -29,7 +29,7 @@
     },
     {
       "speaker": "F1",
-      "text": "Some vocabulary first, because it is used loosely. A macroplastic is anything you can pick up with your fingers. A microplastic is a particle below five millimetres. You will see two millimetres in older papers, and that inconsistency has caused a great deal of trouble in the literature, but the convention now is five. Below one micrometre we say nanoplastic, and I'll come back to why that category is so awkward."
+      "text": "Some vocabulary first, because it is used loosely. A macroplastic is anything you can pick up with your fingers. A microplastic is a particle below five millimetres. You will see two millimetres in older papers, and that inconsistency has caused a great deal of trouble in the literature; when our group counted one survey's samples again under both limits, the five-millimetre total came out sixty per cent higher. The convention now is five. Below one micrometre we say nanoplastic, and I'll come back to why that category is so awkward."
     },
     {
       "speaker": "F1",
@@ -53,7 +53,7 @@
     },
     {
       "speaker": "F1",
-      "text": "Which brings me to measurement, and to my favourite awkward fact. The standard surface sampler is a manta trawl, towed alongside a vessel. The net that most surveys have used has a mesh of a third of a millimetre. A good deal of recent work uses a tenth, and, as you would expect, it finds several times more particles per cubic metre. Neither result is wrong. But you cannot put two studies side by side unless you know the mesh each of them used, and a distressing number of papers do not say."
+      "text": "Which brings me to measurement, and to my favourite awkward fact. The standard surface sampler is a manta trawl, towed alongside a vessel. The net that most surveys have used has a mesh of a third of a millimetre. A good deal of recent work uses a tenth, and, as you would expect, it finds several times more particles per cubic metre. Neither result is wrong. But you cannot put two studies side by side unless you know the mesh each of them used and how long each net was towed — forty minutes is the standard here, and a shorter tow in patchy water tells you very little. A distressing number of papers give neither figure."
     },
     {
       "speaker": "F1",
@@ -466,8 +466,34 @@
         "note_completion",
         "multiple_choice"
       ]
+    },
+    {
+      "id": "L5-S4-31",
+      "kind": "number",
+      "value": "60 per cent (rise in the total when one survey was counted again under the five-millimetre limit)",
+      "quote": "the five-millimetre total came out sixty per cent higher",
+      "turn_index": 1,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "table_completion",
+        "note_completion"
+      ]
+    },
+    {
+      "id": "L5-S4-32",
+      "kind": "number",
+      "value": "40 minutes (standard tow length, which must be reported alongside the mesh)",
+      "quote": "forty minutes is the standard here",
+      "turn_index": 7,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "summary_completion",
+        "note_completion"
+      ]
     }
   ],
   "spatial_description": null,
-  "notes": "turn_index degerleri 0 tabanlidir. Bes celdirici duzeltme var: mikroplastik siniri (iki mm -> bes mm), av takimi payi (onda bir -> beste bir), yillik miktar (sekiz milyon ton -> on bir milyon), ag gozu (ucte bir mm -> onda bir mm), odev teslimi (altinci hafta -> yedinci hafta). Batma-yukselme dizisi (kirilma -> biyokirlenme -> batma -> otlanma -> yukselme) akis semasi sorusu icin uygun. Gercek ulke, kurum ya da sirket adi yok. Metinde rakam yok."
+  "notes": "turn_index degerleri 0 tabanlidir. Bes celdirici duzeltme var: mikroplastik siniri (iki mm -> bes mm), av takimi payi (onda bir -> beste bir), yillik miktar (sekiz milyon ton -> on bir milyon), ag gozu (ucte bir mm -> onda bir mm), odev teslimi (altinci hafta -> yedinci hafta). Batma-yukselme dizisi (kirilma -> biyokirlenme -> batma -> otlanma -> yukselme) akis semasi sorusu icin uygun. Gercek ulke, kurum ya da sirket adi yok. Metinde rakam yok. 2026-08-18 senaryo turu: iki tur yerinde degistirildi (tur sayisi ayni). Tur 1'e mikroplastik sinirinin yeniden sayim etkisi eklendi (yeni cevap noktasi L5-S4-31, yuzde altmis); tur 7'ye cekim suresi eklendi (yeni cevap noktasi L5-S4-32, kirk dakika). Amac: 31 ve 37 numarali sorularin cevabinin dunya bilgisiyle degil konusmanin kendi sectigi degerle bulunmasi."
 }

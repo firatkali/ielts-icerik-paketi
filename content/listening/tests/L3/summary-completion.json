@@ -13,54 +13,73 @@
   "word_limit": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
   "options": null,
   "visual": null,
-  "stem_block": "HOW SEED REACHES THE STORE\n\nSeed was first stored with future plant breeding in mind in the (31) ........, when breeders saw older varieties vanishing from farms; cold stores came about half a century later.\n\nIn the field, a team is told to gather seed from a minimum of (32) ........ plants and to leave at least four-fifths of the ripe seed behind. Drying is deliberately slow, because seed that dries too quickly on the surface forms a (33) ........ and the moisture is then locked in. Once the seed has been sealed, how good the (34) ........ is matters more than which jar has been used.\n\nA sample is germinated before anything is put away, and the whole collection goes back to the field team if fewer than (35) ........ per cent of the seeds grow. After that the test is repeated every (36) ........ years, although each one uses up seed.",
+  "stem_block": "HOW SEED REACHES THE STORE\n\nCollections kept with future plant breeding in mind go back to the 1920s, when breeders saw older varieties vanishing from farms; one collection made then is still being drawn on today, and it is a collection of (31) ........\n\nIn the field, a team is told to gather seed from a minimum of (32) ........ plants and to leave at least four-fifths of the ripe seed behind. Drying is deliberately slow, because seed that dries too quickly on the surface forms a (33) ........ and the moisture is then locked in. Once the seed has been sealed, how good the (34) ........ is matters more than which jar has been used.\n\nA sample is germinated before anything is put away, and the whole collection goes back to the field team if fewer than (35) ........ per cent of the seeds grow. After that the test is repeated every (36) ........ years in the banks the speaker has worked in, although each one uses up seed.",
   "table": null,
   "items": [
     {
       "number": 31,
-      "prompt": "Seed was first stored with future plant breeding in mind in the (31) ........",
+      "prompt": "one collection made then is still being drawn on today, and it is a collection of (31) ........",
       "answer": [
-        "1920s"
+        "barley"
       ],
       "accepted_variants": [
-        "1920s",
-        "the 1920s",
-        "nineteen twenties",
-        "1920's"
+        "barley"
       ],
-      "evidence": "The first collections kept deliberately for future breeding date from the nineteen twenties",
-      "answer_point_id": "L3-S4-01",
+      "evidence": "everybody assumes it must be wheat, but it is barley",
+      "answer_point_id": "L3-S4-28",
       "turn_index": 1,
-      "distractor_used": null,
-      "explanation": "The first deliberate collections date back to the twenties; cold storage did not come along until the seventies.",
-      "difficulty": "easy",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_basis": "general_knowledge",
-      "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'tohum ilk kez ıslah amacıyla (31) yıllarında saklandı' — tohum bankacılığının başlangıç onyılı tarihsel genel bilgi.",
-      "flag_mechanism": "genel_kultur"
+      "distractor_used": "wheat",
+      "explanation": "One of the collections made in the twenties is still in use; the speaker says everyone assumes it must be wheat, but it is barley.",
+      "difficulty": "medium",
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
+      "yeniden_uretim": {
+        "uretilen_kalem": "L3 ozet tamamlama #31 (dinleme, bolum 4)",
+        "eski_cerceve": "Seed was first stored with future plant breeding in mind in the (31) ........",
+        "eski_cevap": [
+          "1920s"
+        ],
+        "eski_cevap_noktasi": "L3-S4-01 (tur 1, 'nineteen twenties')",
+        "neden_elendi": "Bosluk tohum bankaciliginin baslangic onyilini soruyordu; 1920'ler tarihsel genel bilgi oldugu icin konusma duyulmadan 3/3 turda dolduruldu.",
+        "ne_degisti": "Recete 2+3: tarih artik cerceve icinde VERILIYOR, bosluk konusmanin kendi sectigi bir ayrintiya tasindi. Senaryoda tur 1'in ikinci cumlesine yan cumlecik sigdirildi: 'one collection made in those years is still being drawn on today, and everybody assumes it must be wheat, but it is barley.' Dunyanin bekledigi deger (bugday) sesli celdirici oldu, cevap arpa. Cumle/tur sayisi degismedi.",
+        "tarih": "2026-08-18",
+        "kaynak_prompt": "denetim turu: dinleme senaryo turu (2026-08-18)"
+      }
     },
     {
       "number": 32,
       "prompt": "a team is told to gather seed from a minimum of (32) ........ plants",
       "answer": [
-        "fifty"
+        "a hundred"
       ],
       "accepted_variants": [
-        "fifty",
-        "50"
+        "a hundred",
+        "100",
+        "one hundred",
+        "hundred"
       ],
-      "evidence": "the guidance is to sample from at least fifty plants",
+      "evidence": "the guidance is to sample from at least a hundred plants",
       "answer_point_id": "L3-S4-05",
       "turn_index": 2,
-      "distractor_used": "30 plants",
-      "explanation": "Older handbooks mention thirty plants, but later modelling raised the working minimum to fifty plants.",
+      "distractor_used": "50 plants",
+      "explanation": "Fifty plants is the figure in the older manuals; the modelling done since points to a hundred plants as the working minimum.",
       "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_basis": "general_knowledge",
-      "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'ekip en az (32) bitkiden tohum toplamakla yükümlü' — tohum toplama protokollerinin standart alt sınırı.",
-      "flag_mechanism": "genel_kultur"
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
+      "yeniden_uretim": {
+        "uretilen_kalem": "L3 ozet tamamlama #32 (dinleme, bolum 4)",
+        "eski_cerceve": "a team is told to gather seed from a minimum of (32) ........ plants",
+        "eski_cevap": [
+          "fifty"
+        ],
+        "eski_cevap_noktasi": "L3-S4-05 (tur 2) — degismedi",
+        "neden_elendi": "Elli bitki, tohum toplama protokollerinin ders kitabi alt siniri; konusma duyulmadan 3/3 turda yazildi.",
+        "ne_degisti": "Recete 2: cevap noktasi ayni kaldi, senaryodaki deger yerinde degistirildi. Tur 2 'at least fifty plants' -> 'at least a hundred plants'; tur 3'teki sesli rakip de 'thirty plants quoted' -> 'fifty plants quoted' oldu, yani dunyanin bekledigi elli artik celdirici. Cerceve metni degismedi.",
+        "tarih": "2026-08-18",
+        "kaynak_prompt": "denetim turu: dinleme senaryo turu (2026-08-18)"
+      }
     },
     {
       "number": 33,
@@ -124,25 +143,35 @@
     },
     {
       "number": 36,
-      "prompt": "After that the test is repeated every (36) ........ years, although each one uses up seed.",
+      "prompt": "After that the test is repeated every (36) ........ years in the banks the speaker has worked in, although each one uses up seed.",
       "answer": [
-        "ten"
+        "fifteen"
       ],
       "accepted_variants": [
-        "ten",
-        "10"
+        "fifteen",
+        "15"
       ],
-      "evidence": "the interval most banks now work to is ten years",
+      "evidence": "the banks I have worked in have stretched the gap to fifteen",
       "answer_point_id": "L3-S4-15",
       "turn_index": 7,
-      "distractor_used": "five years",
-      "explanation": "The retesting interval used to be five years; because each test uses up two hundred seeds, most banks now test only once every ten years.",
+      "distractor_used": "ten years (the figure printed in the standards)",
+      "explanation": "Ten years is the figure printed in the standards; because each test takes two hundred seeds, the banks the speaker has worked in have stretched the gap to fifteen years.",
       "difficulty": "hard",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_basis": "general_knowledge",
-      "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'sonra test her (36) yılda bir tekrarlanır' — tohum canlılık testinin standart aralığı, konuşmanın seçtiği bir değer değil.",
-      "flag_mechanism": "genel_kultur"
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
+      "yeniden_uretim": {
+        "uretilen_kalem": "L3 ozet tamamlama #36 (dinleme, bolum 4)",
+        "eski_cerceve": "After that the test is repeated every (36) ........ years, although each one uses up seed.",
+        "eski_cevap": [
+          "ten"
+        ],
+        "eski_cevap_noktasi": "L3-S4-15 (tur 7) — degismedi",
+        "neden_elendi": "On yil, tohum canlilik testinin bilinen standart araligi; konusma duyulmadan 3/3 turda yazildi.",
+        "ne_degisti": "Recete 2+3: cevap noktasi ayni, senaryodaki deger yerinde degisti. Tur 7 artik 'the figure printed in the standards is ten years. That is the figure in print, but the banks I have worked in have stretched the gap to fifteen' diyor; on yil sesli celdirici oldu. Cerceve 'in the banks the speaker has worked in' diyerek hangi degerin istendigini isaretliyor ama sayiyi vermiyor.",
+        "tarih": "2026-08-18",
+        "kaynak_prompt": "denetim turu: dinleme senaryo turu (2026-08-18)"
+      }
     }
   ]
 }

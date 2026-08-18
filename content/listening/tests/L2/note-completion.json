@@ -13,7 +13,7 @@
   "word_limit": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
   "options": null,
   "visual": null,
-  "stem_block": "STORING AND SHARING THE WATER\n\nRock-cut cisterns\n• the chamber leaked until it was coated with lime mixed with powdered\n  (36) ........\n• the first rain off the roof was held in a small (37) ........ and only\n  overflowed into the tank afterwards\n\nKeeping the systems working\n• every few years each channel had to be cleared, because (38) ........\n  built up in it\n• a share was defined as, for instance, an hour of flow once every\n  (39) ........ days\n• the systems failed once a share stopped carrying the (40) ........\n  with it",
+  "stem_block": "STORING AND SHARING THE WATER\n\nRock-cut cisterns\n• the chamber leaked until it was coated with lime mixed with powdered\n  (36) ........\n• the first rain off the roof was held in a small (37) ........ and only\n  overflowed into the tank afterwards\n\nKeeping the systems working\n• every few years each channel had to be cleared — what came out of it was\n  not silt but (38) ........\n• a share was defined as, for instance, an hour of flow once every\n  (39) ........ days\n• the systems failed once a share stopped carrying the (40) ........\n  with it",
   "table": null,
   "items": [
     {
@@ -54,22 +54,23 @@
     },
     {
       "number": 38,
-      "prompt": "every few years each channel had to be cleared, because (38) ........ built up in it",
+      "prompt": "every few years each channel had to be cleared — what came out of it was not silt but (38) ........",
       "answer": [
-        "silt"
+        "roots"
       ],
       "accepted_variants": [
-        "silt"
+        "roots",
+        "tree roots"
       ],
-      "evidence": "cleared of silt on a cycle of a few years",
+      "evidence": "not of silt, which a channel cut at the right gradient carries out of its own accord, but of roots",
       "answer_point_id": "L2-S4-21",
       "turn_index": 10,
-      "distractor_used": null,
-      "explanation": "The first item of maintenance work is clearing the channels every few years of the silt that settles in them.",
-      "difficulty": "easy",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_basis": "general_knowledge",
+      "distractor_used": "silt",
+      "explanation": "A channel cut at the right gradient carries its silt out by itself; what has to be dug out every few years is roots, because the poplars planted along the line find the water and grow down into the tunnel.",
+      "difficulty": "medium",
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
       "yeniden_uretim": {
         "tarih": "2026-08-18",
         "mekanizma": "cerceve_sozu",
@@ -85,10 +86,22 @@
         "sessiz_sinama_1": "Uc turun ikisinde dogru bilindi (silt, silt, sediment). Tamamlama ailesinin toplam orani esikte kaldi.",
         "kalan_risk": "Cerceve notrlestirildi ama artik sozcuksel bir kalinti var: 'su kanalinda birikip birkac yilda bir temizlenen sey' icin Ingilizcede tek dogal terim silt. Bunu tamamen kapatmak icin konusmacinin sesli bir rakip kurmasi gerekir (or. 'not the weed, the silt') — bu SENARYO isi, bu turda YAPILMADI, ayri bir turda ele alinmali.",
         "sessiz_sinama_son": "Son sessiz sinama (2026-08-18, uc bagimsiz tur, senaryo GORULMEDEN, ayni turlarda dokunulmamis kalemlerin taban orani %15): 3/3 (silt, silt, silt) — cerceve duzeltmesi yetmedi.",
-        "sonuc": "ERTELENDI. Cerceve kusuru (belirli tanimlik + 'dig out of a channel' esdizimi) giderildi ve dosyada birakildi, ama kalem hala sizdiriyor: kalinti cerceveden degil alan bilgisinden geliyor. 'Su kanalinda birikip birkac yilda bir temizlenen sey' icin Ingilizcede tek dogal terim silt oldugundan, hicbir cerceve yazimi bunu kapatmiyor. Kapatmak icin konusmacinin sesli bir rakip kurmasi gerekir (or. once yosun/kum anilip sonra silt'e duzeltilmesi) — bu SENARYO isi ve bu turda YAPILMADI. Kalem bu yuzden isaretli birakildi, mekanizmasi genel_kultur olarak yeniden siniflandirildi."
-      },
-      "flag_reason": "Cerceve notrlestirildikten sonra bile senaryo gosterilmeden 3/3 turda dogru bilindi: bosluk artik esdizimle kilitli degil, ama 'kanalda birikip birkac yilda bir temizlenen madde' kavraminin Ingilizcede tek dogal karsiligi oldugu icin cevap alan bilgisiyle disaridan cikiyor. Cozum sesli rakip kurmayi, yani senaryo degisikligini gerektiriyor.",
-      "flag_mechanism": "genel_kultur"
+        "sonuc": "ERTELENDI. Cerceve kusuru (belirli tanimlik + 'dig out of a channel' esdizimi) giderildi ve dosyada birakildi, ama kalem hala sizdiriyor: kalinti cerceveden degil alan bilgisinden geliyor. 'Su kanalinda birikip birkac yilda bir temizlenen sey' icin Ingilizcede tek dogal terim silt oldugundan, hicbir cerceve yazimi bunu kapatmiyor. Kapatmak icin konusmacinin sesli bir rakip kurmasi gerekir (or. once yosun/kum anilip sonra silt'e duzeltilmesi) — bu SENARYO isi ve bu turda YAPILMADI. Kalem bu yuzden isaretli birakildi, mekanizmasi genel_kultur olarak yeniden siniflandirildi.",
+        "tur2": {
+          "tarih": "2026-08-18",
+          "uretilen_grup": "L2 dinleme - senaryo turu",
+          "recete": "3 (sesli rakip) + 2 (cevap degeri degisti)",
+          "eski_prompt": "every few years each channel had to be cleared, because (38) ........ built up in it",
+          "eski_cevap": [
+            "silt"
+          ],
+          "eski_stem_satiri": "• every few years each channel had to be cleared, because (38) ........\n  built up in it",
+          "yeni_stem_satiri": "• every few years each channel had to be cleared — what came out of it was\n  not silt but (38) ........",
+          "neden_elendi": "Bir onceki turda cerceve notrlestirilmisti ama kalem yine 3/3 sizdirdi: 'su kanalinda birikip birkac yilda bir temizlenen madde' icin Ingilizcede tek dogal terim silt oldugundan cevap disaridan geliyordu. Devredilen taniya gore cozum senaryo isiydi.",
+          "ne_degisti": "Turn 10 icinde bakim cumlesi yerinde yeniden yazildi ve sesli rakip kuruldu: 'The channels had to be cleared on a cycle of a few years — not of silt, which a channel cut at the right gradient carries out of its own accord, but of roots: the poplars planted along the line find the water and grow down into the tunnel.' Dunyanin bekledigi deger (silt) artik hem seste hem de basili notta acikca elenen celdirici; dogru cevap konusmanin kendi kurgusunun sectigi deger (roots). Senaryonun 2. turundaki 'too flat, and silt settles' cumlesi harfiyen korundu, cunku alistirma paketinin 5. sorusu (L2-S4-03) ona bagli ve iki ifade celismiyor: silt yalnizca egim yanlissa cokuyor. answer_point_id (L2-S4-21) ve turn_index (10) degismedi.",
+          "sessiz_sinama_son": null
+        }
+      }
     },
     {
       "number": 39,

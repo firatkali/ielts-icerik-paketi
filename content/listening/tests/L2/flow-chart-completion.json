@@ -13,7 +13,7 @@
   "word_limit": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
   "options": null,
   "visual": null,
-  "stem_block": "HOW AN UNDERGROUND CHANNEL WAS BUILT AND USED\n\nFind the point where the high ground meets the plain — rain that fell on\nthe hills is lying in (31) ........ under the surface\n↓\nSink a well down to that water\n↓\nFrom out on the plain, dig a tunnel back towards the well, rising at\nroughly one in a (32) ........\n↓\nSink vertical shafts along the line of the tunnel — their most important\njob is to allow (33) ........\n↓\nThe water reaches the surface under its own weight; under (34) ........\nper cent of it is lost on the way\n↓\nThe flow cannot be switched off, so the channel ends in a (35) ........",
+  "stem_block": "HOW AN UNDERGROUND CHANNEL WAS BUILT AND USED\n\nFind the point where the high ground meets the plain — rain that fell on\nthe hills is lying in (31) ........ under the surface\n↓\nSink a well down to that water\n↓\nFrom out on the plain, dig a tunnel back towards the well, rising at\nroughly one in (32) ........\n↓\nSink vertical shafts along the line of the tunnel — their most important\njob is to allow (33) ........\n↓\nThe water reaches the surface under its own weight; under (34) ........\nper cent of it is lost on the way\n↓\nThe flow cannot be switched off, so the channel ends in a (35) ........",
   "table": null,
   "items": [
     {
@@ -36,26 +36,39 @@
     },
     {
       "number": 32,
-      "prompt": "dig a tunnel back towards the well, rising at roughly one in a (32) ........",
+      "prompt": "dig a tunnel back towards the well, rising at roughly one in (32) ........",
       "answer": [
-        "thousand"
+        "two thousand"
       ],
       "accepted_variants": [
-        "thousand",
-        "1,000",
-        "1000"
+        "two thousand",
+        "2,000",
+        "2000"
       ],
-      "evidence": "the figure is worth remembering: about one in a thousand",
+      "evidence": "the surveys put them nearer one in two thousand",
       "answer_point_id": "L2-S4-01",
       "turn_index": 2,
-      "distractor_used": "one in a hundred",
-      "explanation": "A gradient of one in a hundred is the figure for the air shafts, not the tunnel; the channel itself should rise at roughly one in a thousand.",
+      "distractor_used": "one in a thousand",
+      "explanation": "One in a thousand is the textbook figure, an average taken across channels of every length; the channels in the region the speaker works on are far longer than average and the surveys put them nearer one in two thousand.",
       "difficulty": "hard",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_basis": "general_knowledge",
-      "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'kuyuya doğru kabaca binde bir eğimle tünel kazılır' — yeraltı su tüneli eğiminin bilinen oranı, 'one in a ___' kalıbının ucunda alan bilgisi tek değeri bırakıyor.",
-      "flag_mechanism": "genel_kultur"
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "uretilen_grup": "L2 dinleme - senaryo turu",
+        "recete": "2 (senaryoda yerinde deger degisimi) - beklenen deger celdiriciye verildi",
+        "eski_prompt": "dig a tunnel back towards the well, rising at roughly one in a (32) ........",
+        "eski_cevap": [
+          "thousand"
+        ],
+        "eski_kanit_cumlesi": "the figure is worth remembering: about one in a thousand",
+        "eski_stem_satiri": "From out on the plain, dig a tunnel back towards the well, rising at\nroughly one in a (32) ........",
+        "yeni_stem_satiri": "From out on the plain, dig a tunnel back towards the well, rising at\nroughly one in (32) ........",
+        "neden_elendi": "Senaryo gorulmeden 3/3 turda dogru bilindi. 'one in a ___' kalibi zaten sayi bekliyordu ve yeralti su tunellerinin ders kitabi egimi binde birdir; dogru cevap tam da dunyanin bekledigi degerdi, bu yuzden senaryoda hazir duran sesli rakip (yuzde bir = kuyular) hicbir ise yaramiyordu.",
+        "ne_degisti": "Turn 2 icinde deger degistirildi: ders kitabi rakami (one in a thousand) artik acikca soylenen celdirici, dogru cevap konusmacinin kendi bolgesindeki uzun kanallar icin verdigi olcum (one in two thousand). 'one in a hundred' cok dik ornegi olarak yerinde kaldi. Kalip 'one in a ___' iken 'one in ___' oldu, cunku cevap artik iki sozcuk. answer_point_id (L2-S4-01) ve turn_index (2) degismedi; ayni turdaki L2-S4-02 ve L2-S4-03 cumleleri (alistirma 5. soru bunlardan birine bagli) harfiyen korundu.",
+        "sessiz_sinama_son": null
+      }
     },
     {
       "number": 33,
