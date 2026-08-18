@@ -1,150 +1,155 @@
 {
-  "schema_version": "1.0",
-  "exam": "ielts",
-  "set_id": "L5-summary-completion",
-  "skill": "listening",
-  "test_id": "L5",
-  "section": 4,
-  "practice": false,
-  "script_id": "L5-S4",
-  "question_type": "summary_completion",
-  "generated_by": "opus",
-  "instructions": "Complete the summary below. Write ONE WORD AND/OR A NUMBER for each answer.",
-  "word_limit": "ONE WORD AND/OR A NUMBER",
-  "options": null,
-  "visual": null,
-  "stem_block": "HOW THE PLASTIC MOVES, AND HOW IT IS COUNTED\n\nA fragment reaching the sea floats to begin with. Sunlight and the movement of the water leave the polymer brittle enough to break apart, and living organisms then form a coating over each piece. The added weight takes the particle downwards; in the colder water below, that coating is (36) ........ away, the particle lifts again, and a great deal of the material is therefore oscillating rather than lying still on the bottom.\n\nSamples at the surface are taken with a manta trawl pulled along beside a boat. Two such studies can be set against each other only when both of them report the mesh of the net and the length of the tow, for which the standard is (37) ........ minutes. Dated cores give the other half of the picture: in sheltered basins the first plastic particles turn up in layers from the nineteen fifties, and the record they give is cleaner than anything taken at the surface, because the sediment does not (38) ........ away. On beaches, where the counting is largely done by volunteers, ten kinds of product make up some three quarters of what is recorded, and (39) ........, which escape during transport rather than being thrown away, are listed on their own in almost every survey.\n\nFour responses are ranked: better design, extended producer responsibility, interception in rivers — of limited use, since booms work only in low flow — and, fourth on the lecturer's list, (40) ........ the monitoring.",
-  "table": null,
-  "items": [
-    {
-      "number": 36,
-      "prompt": "in the colder water below, that coating is (36) ........ away, the particle lifts again",
-      "answer": [
-        "grazed"
-      ],
-      "accepted_variants": [
-        "grazed"
-      ],
-      "evidence": "that film is grazed away, the particle becomes buoyant again, and some of it rises",
-      "answer_point_id": "L5-S4-15",
-      "turn_index": 6,
-      "distractor_used": null,
-      "explanation": "In the colder water below the surface the film of organisms is grazed away; the particle then becomes buoyant again and some of it rises, which is why so much of the material is oscillating rather than resting on the seabed.",
-      "difficulty": "medium",
-      "status": "verified",
-      "blind_solvable": false,
-      "blind_basis": null,
-      "yeniden_uretim": {
-        "tarih": "2026-08-18",
-        "uretilen_grup": "L5 özet tamamlama 36 (S4)",
-        "eski_mekanizma": "genel_kultur",
-        "eski_prompt": "living organisms then form a coating over each piece — the lecturer's name for this is (36) ........",
-        "neden_elendi": "Senaryo gösterilmeden 3/3 turda doğru bilindi: boşluk bir terim tanımıydı ('canlıların oluşturduğu kaplamanın adı'), alanın standart adı doğrudan düşüyordu.",
-        "ne_degisti": "Senaryo turu (1. reçete). Senaryo metni hiç değişmedi: kalem aynı turun (tur 6) başka bir cevap noktasına kaydırıldı — kaplamanın soğuk suda 'otlanarak' sıyrılması. Terimin adı artık sorulmuyor, özet metninde de geçmiyor. Cevap kaydın kendi seçtiği fiil; dünya bilgisiyle üretilecek karşılıklar (washed, worn, stripped) tutmuyor."
-      }
-    },
-    {
-      "number": 37,
-      "prompt": "both of them report the mesh of the net and the length of the tow, for which the standard is (37) ........ minutes",
-      "answer": [
-        "forty"
-      ],
-      "accepted_variants": [
-        "forty",
-        "40"
-      ],
-      "evidence": "forty minutes is the standard here",
-      "answer_point_id": "L5-S4-32",
-      "turn_index": 7,
-      "distractor_used": null,
-      "explanation": "Mesh size is not the only thing that has to be reported: the lecturer adds the length of the tow, for which forty minutes is the standard, and warns that a shorter tow in patchy water tells you very little.",
-      "difficulty": "medium",
-      "status": "verified",
-      "blind_solvable": false,
-      "blind_basis": null,
-      "yeniden_uretim": {
-        "tarih": "2026-08-18",
-        "uretilen_grup": "L5 özet tamamlama 37 (S4)",
-        "eski_mekanizma": "genel_kultur",
-        "eski_prompt": "Two such studies can be set against each other only when both of them report the (37) ........ size of the net",
-        "neden_elendi": "Senaryo gösterilmeden 3/3 turda doğru bilindi: iki çalışmanın karşılaştırılabilmesi için ağ gözü boyutunun bildirilmesi gerektiği, deniz plastiği yöntem yazınının standart koşulu.",
-        "ne_degisti": "Senaryo turu (2. reçete). Turun içine yerinde bir yan cümle eklendi: ağ gözünün yanında çekim süresinin de bildirilmesi gerekiyor ve buradaki standart kırk dakika. Beklenen cevap ('mesh') artık özet metninde verili bilgi olarak duruyor, boşluk konuşmanın kendi seçtiği sayıyı soruyor. Tur sayısı değişmedi; yeni cevap noktası L5-S4-32 aynı turun içinde."
-      }
-    },
-    {
-      "number": 38,
-      "prompt": "the record they give is cleaner than anything taken at the surface, because the sediment does not (38) ........ away",
-      "answer": [
-        "blow"
-      ],
-      "accepted_variants": [
-        "blow"
-      ],
-      "evidence": "because sediment does not blow away",
-      "answer_point_id": "L5-S4-21",
-      "turn_index": 8,
-      "distractor_used": null,
-      "explanation": "Sediment cores are described as a cleaner record than anything collected at the surface, and the reason the lecturer gives is that sediment does not blow away.",
-      "difficulty": "medium",
-      "status": "verified",
-      "blind_solvable": false,
-      "blind_basis": null,
-      "yeniden_uretim": {
-        "tarih": "2026-08-18",
-        "uretilen_grup": "L5 özet tamamlama 38 (S4)",
-        "eski_mekanizma": "genel_kultur",
-        "eski_prompt": "the first plastic particles turn up in sediment from the (38) ........",
-        "neden_elendi": "Senaryo gösterilmeden 3/3 turda doğru bilindi: kütlesel plastik üretiminin başladığı onyıl (1950'ler) genel kültür.",
-        "ne_degisti": "Senaryo turu (1. reçete). Senaryo metni hiç değişmedi: kalem aynı turun (tur 8) başka bir cevap noktasına kaydırıldı — tortul kaydının neden daha temiz olduğu. Onyıl artık özet metninde verili bilgi. Ayrıca özetten 'her on beş yılda bir ikiye katlanıyor' cümleciği çıkarıldı; alıştırma kısa cevap sorusunun cevabını düz metin veriyordu."
-      }
-    },
-    {
-      "number": 39,
-      "prompt": "and (39) ........, which escape during transport rather than being thrown away, are listed on their own in almost every survey",
-      "answer": [
-        "pellets"
-      ],
-      "accepted_variants": [
-        "pellets",
-        "pellet"
-      ],
-      "evidence": "The other category worth naming is pellets — the raw granules that are melted down to make everything else.",
-      "answer_point_id": "L5-S4-23",
-      "turn_index": 9,
-      "distractor_used": null,
-      "explanation": "Pellets are the raw granules that everything else is melted down from; since they are lost during transport rather than thrown away, they are counted as a separate category.",
-      "difficulty": "medium",
-      "status": "verified",
-      "blind_solvable": false
-    },
-    {
-      "number": 40,
-      "prompt": "and, fourth on the lecturer's list, (40) ........ the monitoring",
-      "answer": [
-        "standardising"
-      ],
-      "accepted_variants": [
-        "standardising",
-        "standardizing"
-      ],
-      "evidence": "And fourth — least photogenic, most useful — standardising the monitoring.",
-      "answer_point_id": "L5-S4-28",
-      "turn_index": 11,
-      "distractor_used": null,
-      "explanation": "The fourth item on the lecturer's list, and the one they call the most useful, is standardising the monitoring: agreed mesh sizes, agreed size classes and agreed reporting units.",
-      "difficulty": "medium",
-      "status": "verified",
-      "blind_solvable": false,
-      "blind_basis": null,
-      "yeniden_uretim": {
-        "tarih": "2026-08-18",
-        "uretilen_grup": "L5 özet tamamlama 40 (S4)",
-        "eski_mekanizma": "cerceve_sozu",
-        "eski_prompt": "and, most valuable of all, (40) ........ the monitoring, so that size classes and reporting units are agreed",
-        "neden_elendi": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'en değerlisi de izlemeyi (40), böylece boyut sınıfları ve raporlama birimleri anlaşılmış olur' — cümlenin ikinci yarısı standartlaştırmanın tanımını veriyordu.",
-        "ne_degisti": "Tanımı veren 'so that size classes and reporting units are agreed' kısmı çerçeveden çıkarıldı ve sese bırakıldı; boşluk artık yalnız 'izlemeye yapılacak dördüncü şey' diyor (fonlamak / genişletmek / iyileştirmek / standartlaştırmak hepsi mümkün). Cevap, answer_point_id ve turn_index değişmedi.",
-        "ikinci_tur": "Sessiz sınamanın 2/2 turunda hâlâ bulundu. Özetin kendi gövdesindeki 've pek çok makale bunu hiç bildirmiyor' cümleciği (37. boşluğun kökünün DIŞINDA, yalnız özet metninde) çıkarıldı; 40. boşluğa giden 'karşılaştırılamıyor -> standartlaştır' zinciri zayıflatıldı. Kalan risk konu düzeyinde genel kültür (deniz plastiği yazınının standart çağrısı) ve aynı dosyadaki genel_kultur işaretli kalemlerle birlikte ayrı turda ele alınmalı."
-      }
-    }
-  ]
+ "schema_version": "1.0",
+ "exam": "ielts",
+ "set_id": "L5-summary-completion",
+ "skill": "listening",
+ "test_id": "L5",
+ "section": 4,
+ "practice": false,
+ "script_id": "L5-S4",
+ "question_type": "summary_completion",
+ "generated_by": "opus",
+ "instructions": "Complete the summary below. Write ONE WORD AND/OR A NUMBER for each answer.",
+ "word_limit": "ONE WORD AND/OR A NUMBER",
+ "options": null,
+ "visual": null,
+ "stem_block": "HOW THE PLASTIC MOVES, AND HOW IT IS COUNTED\n\nA fragment reaching the sea floats to begin with. Sunlight and the movement of the water leave the polymer brittle enough to break apart, and living organisms then form a coating over each piece. The added weight takes the particle downwards; in the colder water below, that coating is (36) ........ away, the particle lifts again, and a great deal of the material is therefore oscillating rather than lying still on the bottom.\n\nSamples at the surface are taken with a manta trawl pulled along beside a boat. Two such studies can be set against each other only when both of them report the mesh of the net and the length of the tow, for which the standard is (37) ........ minutes. Dated cores give the other half of the picture: in sheltered basins the first plastic particles turn up in layers from the nineteen fifties, and the record they give is cleaner than anything taken at the surface, because the sediment does not (38) ........ away. On beaches, where the counting is largely done by volunteers, ten kinds of product make up some three quarters of what is recorded, and (39) ........, which escape during transport rather than being thrown away, are listed on their own in almost every survey.\n\nFour responses are ranked: better design, extended producer responsibility, interception in rivers — of limited use, since booms work only in low flow — and, fourth on the lecturer's list, (40) ........ the monitoring.",
+ "table": null,
+ "items": [
+  {
+   "number": 36,
+   "prompt": "in the colder water below, that coating is (36) ........ away, the particle lifts again",
+   "answer": [
+    "scoured"
+   ],
+   "accepted_variants": [
+    "scoured"
+   ],
+   "evidence": "that film is scoured away",
+   "answer_point_id": "L5-S4-15",
+   "turn_index": 6,
+   "distractor_used": "grazed",
+   "explanation": "The lecturer rejects the textbook word: grazing thins the film nearer the surface, but at depth the grazers are absent and it is the moving water that scours the film off, so the particle becomes buoyant again and rises.",
+   "difficulty": "medium",
+   "status": "verified",
+   "blind_solvable": false,
+   "blind_basis": null,
+   "yeniden_uretim": {
+    "tarih": "2026-08-18",
+    "uretilen_kalem": "L5 ozet tamamlama #36 (dinleme, bolum 4)",
+    "eski_cerceve": "in the colder water below, that coating is (36) ........ away, the particle lifts again",
+    "eski_cevap": [
+     "grazed"
+    ],
+    "eski_cevap_noktasi": "L5-S4-15 (tur 6) — degismedi",
+    "eski_mekanizma": "genel_kultur",
+    "neden_elendi": "Kor olcumde 3 turun 2'sinde bilindi (%67, tamamlama esigi %20). Biyokirlenme-batma-yukselme dongusu ders kitabi bilgisi; 'grazed' o mekanizmanin standart fiili ve senaryo gorulmeden dusuyor.",
+    "ne_degisti": "Recete 2+3: tur 6'nin ilgili cumlesi yerinde degistirildi, cumle/tur sayisi ayni kaldi. Beklenen deger sesli celdiriciye verildi — 'the textbooks all say grazed, and grazing does thin it nearer the surface, but at that depth the grazers are absent and it is the moving water that scours it off'. Cevap artik 'scoured'. Ayni turdaki 'brittle' cevap noktasi (L5-S4-12, alistirma akis semasi #6) aynen korundu.",
+    "kaynak_prompt": "olcum turu: dinleme kor olcumu (2026-08-18)"
+   }
+  },
+  {
+   "number": 37,
+   "prompt": "both of them report the mesh of the net and the length of the tow, for which the standard is (37) ........ minutes",
+   "answer": [
+    "forty"
+   ],
+   "accepted_variants": [
+    "forty",
+    "40"
+   ],
+   "evidence": "forty minutes is the standard here",
+   "answer_point_id": "L5-S4-32",
+   "turn_index": 7,
+   "distractor_used": null,
+   "explanation": "Mesh size is not the only thing that has to be reported: the lecturer adds the length of the tow, for which forty minutes is the standard, and warns that a shorter tow in patchy water tells you very little.",
+   "difficulty": "medium",
+   "status": "verified",
+   "blind_solvable": false,
+   "blind_basis": null,
+   "yeniden_uretim": {
+    "tarih": "2026-08-18",
+    "uretilen_grup": "L5 özet tamamlama 37 (S4)",
+    "eski_mekanizma": "genel_kultur",
+    "eski_prompt": "Two such studies can be set against each other only when both of them report the (37) ........ size of the net",
+    "neden_elendi": "Senaryo gösterilmeden 3/3 turda doğru bilindi: iki çalışmanın karşılaştırılabilmesi için ağ gözü boyutunun bildirilmesi gerektiği, deniz plastiği yöntem yazınının standart koşulu.",
+    "ne_degisti": "Senaryo turu (2. reçete). Turun içine yerinde bir yan cümle eklendi: ağ gözünün yanında çekim süresinin de bildirilmesi gerekiyor ve buradaki standart kırk dakika. Beklenen cevap ('mesh') artık özet metninde verili bilgi olarak duruyor, boşluk konuşmanın kendi seçtiği sayıyı soruyor. Tur sayısı değişmedi; yeni cevap noktası L5-S4-32 aynı turun içinde."
+   }
+  },
+  {
+   "number": 38,
+   "prompt": "the record they give is cleaner than anything taken at the surface, because the sediment does not (38) ........ away",
+   "answer": [
+    "blow"
+   ],
+   "accepted_variants": [
+    "blow"
+   ],
+   "evidence": "because sediment does not blow away",
+   "answer_point_id": "L5-S4-21",
+   "turn_index": 8,
+   "distractor_used": null,
+   "explanation": "Sediment cores are described as a cleaner record than anything collected at the surface, and the reason the lecturer gives is that sediment does not blow away.",
+   "difficulty": "medium",
+   "status": "verified",
+   "blind_solvable": false,
+   "blind_basis": null,
+   "yeniden_uretim": {
+    "tarih": "2026-08-18",
+    "uretilen_grup": "L5 özet tamamlama 38 (S4)",
+    "eski_mekanizma": "genel_kultur",
+    "eski_prompt": "the first plastic particles turn up in sediment from the (38) ........",
+    "neden_elendi": "Senaryo gösterilmeden 3/3 turda doğru bilindi: kütlesel plastik üretiminin başladığı onyıl (1950'ler) genel kültür.",
+    "ne_degisti": "Senaryo turu (1. reçete). Senaryo metni hiç değişmedi: kalem aynı turun (tur 8) başka bir cevap noktasına kaydırıldı — tortul kaydının neden daha temiz olduğu. Onyıl artık özet metninde verili bilgi. Ayrıca özetten 'her on beş yılda bir ikiye katlanıyor' cümleciği çıkarıldı; alıştırma kısa cevap sorusunun cevabını düz metin veriyordu."
+   }
+  },
+  {
+   "number": 39,
+   "prompt": "and (39) ........, which escape during transport rather than being thrown away, are listed on their own in almost every survey",
+   "answer": [
+    "pellets"
+   ],
+   "accepted_variants": [
+    "pellets",
+    "pellet"
+   ],
+   "evidence": "The other category worth naming is pellets — the raw granules that are melted down to make everything else.",
+   "answer_point_id": "L5-S4-23",
+   "turn_index": 9,
+   "distractor_used": null,
+   "explanation": "Pellets are the raw granules that everything else is melted down from; since they are lost during transport rather than thrown away, they are counted as a separate category.",
+   "difficulty": "medium",
+   "status": "verified",
+   "blind_solvable": false
+  },
+  {
+   "number": 40,
+   "prompt": "and, fourth on the lecturer's list, (40) ........ the monitoring",
+   "answer": [
+    "standardising"
+   ],
+   "accepted_variants": [
+    "standardising",
+    "standardizing"
+   ],
+   "evidence": "And fourth — least photogenic, most useful — standardising the monitoring.",
+   "answer_point_id": "L5-S4-28",
+   "turn_index": 11,
+   "distractor_used": null,
+   "explanation": "The fourth item on the lecturer's list, and the one they call the most useful, is standardising the monitoring: agreed mesh sizes, agreed size classes and agreed reporting units.",
+   "difficulty": "medium",
+   "status": "verified",
+   "blind_solvable": false,
+   "blind_basis": null,
+   "yeniden_uretim": {
+    "tarih": "2026-08-18",
+    "uretilen_grup": "L5 özet tamamlama 40 (S4)",
+    "eski_mekanizma": "cerceve_sozu",
+    "eski_prompt": "and, most valuable of all, (40) ........ the monitoring, so that size classes and reporting units are agreed",
+    "neden_elendi": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'en değerlisi de izlemeyi (40), böylece boyut sınıfları ve raporlama birimleri anlaşılmış olur' — cümlenin ikinci yarısı standartlaştırmanın tanımını veriyordu.",
+    "ne_degisti": "Tanımı veren 'so that size classes and reporting units are agreed' kısmı çerçeveden çıkarıldı ve sese bırakıldı; boşluk artık yalnız 'izlemeye yapılacak dördüncü şey' diyor (fonlamak / genişletmek / iyileştirmek / standartlaştırmak hepsi mümkün). Cevap, answer_point_id ve turn_index değişmedi.",
+    "ikinci_tur": "Sessiz sınamanın 2/2 turunda hâlâ bulundu. Özetin kendi gövdesindeki 've pek çok makale bunu hiç bildirmiyor' cümleciği (37. boşluğun kökünün DIŞINDA, yalnız özet metninde) çıkarıldı; 40. boşluğa giden 'karşılaştırılamıyor -> standartlaştır' zinciri zayıflatıldı. Kalan risk konu düzeyinde genel kültür (deniz plastiği yazınının standart çağrısı) ve aynı dosyadaki genel_kultur işaretli kalemlerle birlikte ayrı turda ele alınmalı."
+   }
+  }
+ ]
 }
