@@ -13,7 +13,7 @@
   "word_limit": "ONE WORD AND/OR A NUMBER",
   "options": null,
   "visual": null,
-  "stem_block": "QUARRY FIELDS LEISURE CENTRE - MEMBERSHIP FORM\n\nPersonal details\nSurname: (1) ........\nAddress: flat (2) ........, Pennyfield Court, Pennyfield Road\n\nMembership\nType chosen: full membership\nCost: £(3) ........ a month\n(off-peak membership: weekdays only, ends at (4) ........ p.m.)\nPayment: direct debit, taken on the (5) ........ of each month\nTo cancel: inform the centre in (6) ........, one month beforehand\n\nBefore using the gym\nInduction with an instructor: lasts roughly (7) ........ minutes\nWhat to bring: a towel, plus indoor (8) ........\n\nOther information\nClasses: booked online or through the app - not by (9) ........\nClimbing wall: shut until the end of (10) ........",
+  "stem_block": "QUARRY FIELDS LEISURE CENTRE - MEMBERSHIP FORM\n\nPersonal details\nSurname: (1) ........\nAddress: flat (2) ........, Pennyfield Court, Pennyfield Road\n\nMembership\nType chosen: full membership\nCost: £(3) ........ a month\n(off-peak membership: weekdays only, ends at (4) ........ p.m.)\nPayment: direct debit, taken on the (5) ........ of each month\nTo cancel: no minimum contract - just tell the centre in (6) ........\n\nBefore using the gym\nInduction with an instructor: lasts roughly (7) ........ minutes\nWhat to bring: a towel, plus indoor (8) ........\n\nOther information\nClasses: bookings are no longer taken over the (9) ........\nClimbing wall: shut until the end of (10) ........",
   "table": null,
   "items": [
     {
@@ -115,7 +115,7 @@
     },
     {
       "number": 6,
-      "prompt": "To cancel: inform the centre in (6) ........, one month beforehand",
+      "prompt": "To cancel: no minimum contract - just tell the centre in (6) ........",
       "answer": [
         "writing"
       ],
@@ -126,13 +126,23 @@
       "answer_point_id": "L3-S1-11",
       "turn_index": 18,
       "distractor_used": null,
-      "explanation": "The minimum contract period has been removed; a month's written notice is now enough to cancel membership.",
+      "explanation": "The minimum contract period has been removed; a month's notice in writing is now all that is needed to stop the membership.",
       "difficulty": "easy",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_basis": "frame_wording",
-      "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'merkeze bir ay önceden (6) bildirin' çerçevesi 'inform in writing' eşdiziminin ucunu açık bırakıyor, kalıbın kendisi cevabı söylüyor.",
-      "flag_mechanism": "esdizim_kilidi"
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "kaynak": "sizinti yazim turu - dinleme L3 (kardes ajan gorevi)",
+        "mekanizma": "esdizim_kilidi",
+        "eski_prompt": "To cancel: inform the centre in (6) ........, one month beforehand",
+        "eski_cevap": [
+          "writing"
+        ],
+        "eski_kanit_cumlesi": "you just give us a month's notice in writing if you want to stop",
+        "neden_isaretlendi": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'merkeze bir ay önceden (6) bildirin' çerçevesi 'inform in writing' eşdiziminin ucunu açık bırakıyor, kalıbın kendisi cevabı söylüyor.",
+        "ne_degisti": "Cerceve 'inform the centre in (6) ........, one month beforehand' idi: 'notice ... in' esdiziminin ucu acik kaliyordu ve 'one month beforehand' zaten yazili oldugu icin boslugu doldurabilecek tek dogal sozcuk 'writing' kaliyordu. Yeni cercevede hem 'notice' sozcugu hem de sure bilgisi cikarildi; 'tell the centre in ........' boslugu 'advance', 'person' ve 'writing' arasinda aciliyor. Sessiz sinamada 'let the centre know in ...' bicimi 3/3, 'tell the centre in ...' bicimi 2/3 verdigi icin ikincisi secildi. NOT: 'writing' sozcugunun kendisi hala genel bilgiyle tahmin edilebiliyor; kalan sizinti cerceve kusuru degil genel_kultur ve boslugun sesteki baska bir degere tasinmasini, yani senaryo isini gerektiriyor."
+      }
     },
     {
       "number": 7,
@@ -173,7 +183,7 @@
     },
     {
       "number": 9,
-      "prompt": "Classes: booked online or through the app - not by (9) ........",
+      "prompt": "Classes: bookings are no longer taken over the (9) ........",
       "answer": [
         "telephone"
       ],
@@ -185,13 +195,23 @@
       "answer_point_id": "L3-S1-21",
       "turn_index": 30,
       "distractor_used": null,
-      "explanation": "Classes can only be booked through the website or the app; phone bookings have been discontinued.",
+      "explanation": "Class bookings are all made through the website or the app; the centre stopped taking bookings over the telephone.",
       "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_basis": "frame_wording",
-      "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'internetten ya da uygulamadan — (9) ile değil' çerçevesi iki kanalı sayıp üçüncüyü dışlıyor ve dışlanabilecek tek kanal telefon.",
-      "flag_mechanism": "cerceve_sozu"
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "kaynak": "sizinti yazim turu - dinleme L3 (kardes ajan gorevi)",
+        "mekanizma": "cerceve_sozu",
+        "eski_prompt": "Classes: booked online or through the app - not by (9) ........",
+        "eski_cevap": [
+          "telephone"
+        ],
+        "eski_kanit_cumlesi": "we stopped taking bookings over the telephone",
+        "neden_isaretlendi": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'internetten ya da uygulamadan — (9) ile değil' çerçevesi iki kanalı sayıp üçüncüyü dışlıyor ve dışlanabilecek tek kanal telefon.",
+        "ne_degisti": "Cerceve 'booked online or through the app - not by (9) ........' idi: iki kanali sayip ucuncuyu disliyordu, yani karsitligi cerceve kuruyordu ve dislanabilecek tek kanal kaliyordu. Kanal listesi cerceveden tumuyle cikarildi - karsitlik artik yalniz seste ('It's all done through the website or the app; we stopped taking bookings over the telephone'). Bosluk sesteki 'over the ...' kalibina acildi; bu kalipta 'counter' en az 'telephone' kadar dogal, dolayisiyla cerceve tek adayi ayakta birakmiyor. NOT: sessiz sinamada uc turda da 'phone' yazildi. Kanal listesi cerceveden cikarildigi icin isaretlenen cerceve_sozu kusuru kapandi, ama 'rezervasyon artik su yolla alinmiyor' cumlesinin kendisi dunya bilgisiyle telefonu isaret ediyor; kalan sizinti genel_kultur ve boslugun sesteki baska bir degere tasinmasini, yani senaryo isini gerektiriyor. Bu turda duzeltilmedi, raporlandi."
+      }
     },
     {
       "number": 10,

@@ -15,31 +15,31 @@
     "options": [
       {
         "letter": "A",
-        "text": "It will be used for background information only."
-      },
-      {
-        "letter": "B",
-        "text": "Both speakers will take part in it."
-      },
-      {
-        "letter": "C",
         "text": "It will be recorded as sound only."
       },
       {
+        "letter": "B",
+        "text": "It will be the students' main source of data."
+      },
+      {
+        "letter": "C",
+        "text": "Both speakers will take part in it."
+      },
+      {
         "letter": "D",
-        "text": "It will be left out of the presentation."
+        "text": "It will be filmed and played as two clips."
       },
       {
         "letter": "E",
-        "text": "It will be booked through the department office."
+        "text": "It will be dropped in favour of a better source."
       },
       {
         "letter": "F",
-        "text": "It will be limited to five minutes."
+        "text": "It will be used for background only."
       },
       {
         "letter": "G",
-        "text": "It will be the students' main source of data."
+        "text": "It will be given by one speaker only."
       }
     ]
   },
@@ -51,26 +51,64 @@
       "prompt": "the national energy survey",
       "options": null,
       "answer": [
-        "A"
+        "F"
       ],
       "evidence": "The council's open data portal has the actual generation figures, updated every month — start there, and use the national survey only for context.",
       "answer_point_id": "L1-S3-29",
       "turn_index": 18,
       "distractor_analysis": {
-        "B": "Söylendi ama sorulan bu değil — iki konuşmacının birlikte yer alması sunumun ikinci yarısı için isteniyor.",
-        "C": "Söylendi ama sorulan bu değil — ses kaydı kararı yönetici görüşmeleri için veriliyor.",
-        "D": "Söylendi ama sorulan bu değil — anket çıkarılmıyor, bağlam için tutuluyor; 'çıkarma' tartışması video klipler hakkındaydı.",
-        "E": "Söylendi ama sorulan bu değil — bölüm bürosundan rezerve edilen şey medya odası.",
-        "F": "Söylendi ama sorulan bu değil — beş dakika sınırı sunum sonundaki soru bölümüne ait.",
-        "G": "Söylendi sonra düzeltildi — Callum önce ulusal anketi kullanacaklarını söylüyor; danışman asıl kaynak olarak belediyenin açık veri portalını gösterip anketi yalnızca bağlama indiriyor."
+        "A": "Söylendi ama sorulan bu değil — ses kaydı kararı yönetici görüşmeleri için veriliyor.",
+        "B": "Ayni koke oturan rakip: anketin rolu iki secenek arasinda. Callum once ulusal anketi ana kaynak olarak kullanacaklarini soyluyor; danisman anketi baglama indirip belediyenin acik veri portalini one cikariyor. Hangisinin gecerli oldugu ancak konusmadan cikar.",
+        "C": "Söylendi ama sorulan bu değil — iki konuşmacının birlikte yer alması sunumun ikinci yarısı için isteniyor.",
+        "D": "Söylendi ama sorulan bu değil — filme alınıp klip olarak oynatılması görüşmeler için önerilip reddedildi.",
+        "E": "Ayni koke oturan ikinci rakip: danisman anket icin daha iyi bir kaynak (belediyenin acik veri portali) gosteriyor, ama anketi tamamen birakmiyor - baglam icin tutuyor. 'Daha iyi bir kaynak lehine birakilacak' ile 'yalniz arka planda kullanilacak' arasindaki fark ancak konusmadan cikar.",
+        "G": "Sesle geçmeyen çeldirici — anketin tek bir öğrenciye bırakıldığı söylenmiyor; iş bölümü giriş/vaka çalışması üzerinden yapılıyor."
       },
       "explanation": "The supervisor recommends the council portal for the actual generation figures; the national survey will only be used for general context.",
       "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_basis": "logic",
-      "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: öğrencinin kendi görüşmeleri ana veri olacaksa yayımlanmış ulusal ankete ancak arka plan rolü kalıyor, roller kökler arasında paylaştırılınca bu köke tek rol düşüyor.",
-      "flag_mechanism": "konumsal_duzen"
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "uretilen_grup": "L1 dinleme - sizinti onarimi (yalniz kok / secenek / cerceve)",
+        "eski_prompt": "the national energy survey",
+        "eski_kutu": [
+          {
+            "letter": "A",
+            "text": "It will be used for background information only."
+          },
+          {
+            "letter": "B",
+            "text": "Both speakers will take part in it."
+          },
+          {
+            "letter": "C",
+            "text": "It will be recorded as sound only."
+          },
+          {
+            "letter": "D",
+            "text": "It will be left out of the presentation."
+          },
+          {
+            "letter": "E",
+            "text": "It will be booked through the department office."
+          },
+          {
+            "letter": "F",
+            "text": "It will be limited to five minutes."
+          },
+          {
+            "letter": "G",
+            "text": "It will be the students' main source of data."
+          }
+        ],
+        "eski_cevap": [
+          "A"
+        ],
+        "neden_elendi": "Senaryo gösterilmeden 3/3 turda doğru bilindi: öğrencinin kendi görüşmeleri ana veri olacaksa yayımlanmış ulusal ankete ancak arka plan rolü kalıyor, roller kökler arasında paylaştırılınca bu köke tek rol düşüyor.",
+        "ne_degisti": "Kok, dayanak noktasi ve cevabin kendisi (anket yalnizca arka planda kullanilacak) ayni kaldi; degisen kutu ve harf. Eski kutuda secenekler uc koke birebir dagildigi icin cozucu 'ana veri kaynagi' rolunu gorusmelere verip ankete tek kalan 'arka plan' rolunu yakistiriyordu. Yeni kutuda gorusmelerin (ses kaydi / filme alinip klip) ve ikinci yarinin (iki konusmaci / tek konusmaci) kendi rakip ciftleri var, yani roller artik koklere birebir dagilmiyor. Ankete ise ucu birden oturan uc karar birakildi: ana veri kaynagi olacak, daha iyi bir kaynak lehine birakilacak, yalniz arka planda kullanilacak. Hangisinin gecerli oldugu yalnizca konusmadan cikiyor. Harfler de dagitildi: 24/25/26 artik A-B-C kumesinde toplanmiyor."
+      }
     },
     {
       "number": 25,
@@ -78,26 +116,64 @@
       "prompt": "the interviews with the school governors",
       "options": null,
       "answer": [
-        "C"
+        "A"
       ],
       "evidence": "Record audio instead, keep each clip to about twenty seconds, and have the transcript on the slide behind it.",
       "answer_point_id": "L1-S3-17",
       "turn_index": 21,
       "distractor_analysis": {
-        "A": "Söylendi ama sorulan bu değil — arka plan bölümünde kullanılacak olan rüzgar projesi, görüşmeler değil.",
-        "B": "Söylendi ama sorulan bu değil — ortak katılım kuralı sunumun ikinci yarısı hakkında.",
-        "D": "Başkası söyledi — klipleri bırakıp alıntıları slayta yazmayı Callum önermişti; danışman görüşmeleri ses kaydı olarak koruyor.",
-        "E": "Söylendi ama sorulan bu değil — büro üzerinden yapılan işlem oda rezervasyonu.",
-        "F": "Söylendi ama sorulan bu değil — beş dakika soru bölümünün süresi; kliplere yirmi saniye sınırı konuyor.",
-        "G": "Söylendi ama sorulan bu değil — ana veri kaynağı belediyenin açık veri portalı."
+        "B": "Söylendi ama sorulan bu değil — ana veri kaynağı tartışması ulusal anket ve belediye portalı hakkında.",
+        "C": "Söylendi ama sorulan bu değil — ortak katılım kuralı sunumun ikinci yarısı hakkında.",
+        "D": "Ayni koke oturan rakip: kliplerin biçimi iki secenek arasinda. Filme alip iki klip oynatmak Nadia'nin onerisiydi; danisman goruntunun bozulmasindan cekindigi icin ses kaydini secti - hangisi oldugu ancak konusmadan cikar.",
+        "E": "Başkası söyledi — klipleri bırakıp alıntıları slayta yazmayı Callum önermişti; danışman görüşmeleri ses kaydı olarak koruyor.",
+        "F": "Söylendi ama sorulan bu değil — arka planda kullanılacak olan rüzgar projesi, görüşmeler değil.",
+        "G": "Sesle geçmeyen çeldirici — görüşmeleri tek bir öğrencinin üstlenmesi hiç konuşulmuyor."
       },
       "explanation": "The supervisor says the video often breaks up and asks for the interviews to be recorded as audio, with the transcript shown on the slide.",
       "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_basis": "option_wording",
-      "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'yalnızca ses olarak kaydedilecek' seçeneği görüşme kökü dışında hiçbir köke uymuyor.",
-      "flag_mechanism": "secenek_sozu"
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "uretilen_grup": "L1 dinleme - sizinti onarimi (yalniz kok / secenek / cerceve)",
+        "eski_prompt": "the interviews with the school governors",
+        "eski_kutu": [
+          {
+            "letter": "A",
+            "text": "It will be used for background information only."
+          },
+          {
+            "letter": "B",
+            "text": "Both speakers will take part in it."
+          },
+          {
+            "letter": "C",
+            "text": "It will be recorded as sound only."
+          },
+          {
+            "letter": "D",
+            "text": "It will be left out of the presentation."
+          },
+          {
+            "letter": "E",
+            "text": "It will be booked through the department office."
+          },
+          {
+            "letter": "F",
+            "text": "It will be limited to five minutes."
+          },
+          {
+            "letter": "G",
+            "text": "It will be the students' main source of data."
+          }
+        ],
+        "eski_cevap": [
+          "C"
+        ],
+        "neden_elendi": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'yalnızca ses olarak kaydedilecek' seçeneği görüşme kökü dışında hiçbir köke uymuyor.",
+        "ne_degisti": "Kok, dayanak noktasi ve cevabin kendisi (yalnizca ses kaydi) ayni kaldi; degisen kutu ve harf. Eski kutuda 'yalnizca ses olarak kaydedilecek' secenegi uc kokten yalniz gorusmelere uyuyordu, yani kendi sozuyle esleniyordu. Kutuya ayni koke oturan dogrudan rakip eklendi: 'filme alinip iki klip halinde oynatilacak'. Iki secenek de gorusmelere dilbilgisi ve anlam olarak oturuyor; hangisinin secildigi yalnizca konusmadaki gerekceyle (goruntu bozuluyor) anlasiliyor."
+      }
     },
     {
       "number": 26,
@@ -105,23 +181,63 @@
       "prompt": "the second half of the talk",
       "options": null,
       "answer": [
-        "B"
+        "C"
       ],
       "evidence": "Make sure you both speak in the second half as well — a group where one person disappears after five minutes always looks unbalanced.",
       "answer_point_id": "L1-S3-19",
       "turn_index": 25,
       "distractor_analysis": {
-        "A": "Söylendi ama sorulan bu değil — arka plan kullanımı rüzgar projesiyle ilgili karar.",
-        "C": "Söylendi ama sorulan bu değil — ses kaydı görüşme klipleri için.",
-        "D": "Söylendi ama sorulan bu değil — 'bir kişinin beş dakika sonra ortadan kaybolması' kötü örnek olarak anılıyor; bölümün çıkarılması söz konusu değil.",
-        "E": "Söylendi ama sorulan bu değil — büroya yapılan başvuru medya odasını ayırtmak için.",
-        "F": "Söylendi ama sorulan bu değil — aynı replikte geçen 'beş dakika', kaybolan konuşmacı örneğine ait; ikinci yarıya süre sınırı konmuyor.",
-        "G": "Söylendi ama sorulan bu değil — veri kaynağı kararı anket ve portal hakkında."
+        "A": "Söylendi ama sorulan bu değil — ses kaydı görüşme klipleri için.",
+        "B": "Söylendi ama sorulan bu değil — ana veri kaynağı kararı anketle ilgili.",
+        "D": "Söylendi ama sorulan bu değil — filme alma önerisi görüşmelerle ilgiliydi ve kabul edilmedi.",
+        "E": "Söylendi ama sorulan bu değil — 'bir kişinin beş dakika sonra ortadan kaybolması' kötü örnek olarak anılıyor; bölümün bırakılması söz konusu değil.",
+        "F": "Söylendi ama sorulan bu değil — arka plan kullanımı rüzgar projesiyle ilgili karar.",
+        "G": "Ayni koke oturan rakip: ikinci yariyi kimin konusacagi iki secenek arasinda; danisman tek kisinin ortadan kaybolmasini kotu ornek olarak aniyor."
       },
       "explanation": "The supervisor wants both students to speak in the second half of the presentation; otherwise the group looks unbalanced.",
       "difficulty": "easy",
       "status": "verified",
-      "blind_solvable": false
+      "blind_solvable": false,
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "uretilen_grup": "L1 dinleme - sizinti onarimi (yalniz kok / secenek / cerceve)",
+        "eski_prompt": "the second half of the talk",
+        "eski_kutu": [
+          {
+            "letter": "A",
+            "text": "It will be used for background information only."
+          },
+          {
+            "letter": "B",
+            "text": "Both speakers will take part in it."
+          },
+          {
+            "letter": "C",
+            "text": "It will be recorded as sound only."
+          },
+          {
+            "letter": "D",
+            "text": "It will be left out of the presentation."
+          },
+          {
+            "letter": "E",
+            "text": "It will be booked through the department office."
+          },
+          {
+            "letter": "F",
+            "text": "It will be limited to five minutes."
+          },
+          {
+            "letter": "G",
+            "text": "It will be the students' main source of data."
+          }
+        ],
+        "eski_cevap": [
+          "B"
+        ],
+        "neden_elendi": "Bu kalem isaretli degildi; kutu 24 ve 25 icin yeniden yazildigi icin harfi kaydi.",
+        "ne_degisti": "Kok, dayanak noktasi ve cevabin kendisi (ikinci yarida iki ogrenci de konusacak) ayni; secenek metni de ayni, yalnizca kutudaki harfi B'den C'ye kaydi. Kutuya bu kokun dogrudan rakibi olan 'tek konusmaci yapacak' secenegi eklendi."
+      }
     }
   ]
 }

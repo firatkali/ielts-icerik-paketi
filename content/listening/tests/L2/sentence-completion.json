@@ -18,7 +18,7 @@
   "items": [
     {
       "number": 27,
-      "prompt": "Every reading the students took should be placed in an (27) ........, which is left out of the word count.",
+      "prompt": "The supervisor confirms that the (27) ........ does not count towards the word limit.",
       "answer": [
         "appendix"
       ],
@@ -29,13 +29,24 @@
       "answer_point_id": "L2-S3-17",
       "turn_index": 34,
       "distractor_used": null,
-      "explanation": "All the raw data goes in the appendix; according to the supervisor, the appendix is kept outside the word limit.",
+      "explanation": "All the raw data goes at the back of the report; the supervisor confirms that this section is kept outside the word limit.",
       "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_basis": "grammar_cue",
-      "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'bir (27) içine konur, kelime sayısına girmez' çerçevesindeki 'an' boşluğu ünlüyle başlayan sözcüğe kilitliyor, kelime sayısı dışında kalma kaydı tek adayı bırakıyor.",
-      "flag_mechanism": "esdizim_kilidi"
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "mekanizma": "esdizim_kilidi",
+        "eski_prompt": "Every reading the students took should be placed in an (27) ........, which is left out of the word count.",
+        "eski_cevap": [
+          "appendix"
+        ],
+        "eski_kanit_cumlesi": "The raw data goes in the appendix, and the appendix doesn't count towards your word limit.",
+        "neden_elendi": "Bosluk esdizim obeginin ucundaydi: belirsiz tanimlik 'an' adayi unluyle baslayan bir sozcuge kilitliyor, 'her olcumun icine konuldugu yer' + 'kelime sayisina girmez' cercevesi de tek adayi ayakta birakiyordu.",
+        "ne_degisti": "Tanimlik 'an'dan 'the'ye cevrildi (unlu kilidi kalkti) ve 'her olcum oraya konur' ipucu cumleden cikarildi. Kalan cerceve tek basina okununca bibliography, references, footnotes, abstract gibi bircok adayi ayni derecede mumkun kiliyor; dogru sozcuk ancak danismanin sesteki cumlesiyle secilebiliyor. Cevap, accepted_variants, answer_point_id ve turn_index degismedi.",
+        "sessiz_sinama_son": "Son sessiz sinama (2026-08-18, uc bagimsiz tur, senaryo GORULMEDEN, ayni turlarda dokunulmamis kalemlerin taban orani %15): 1/3 (appendices — tam esleme degil, appendix, references).",
+        "kalan_risk": "Uc partide toplam 9 turun 2'sinde tam dogru yazildi (ayrica bir turda 'appendices'). Kalinti sozcukseldir: 'kelime sayisina girmeyen bolum' kavramini Ingilizcede karsilayan aday sayisi az. Cerceve yine de eski halinden cok daha acik — eski cerceve uc turda da 3/3 tutturuluyordu, simdi bibliography ve references rakip olarak cikiyor."
+      }
     },
     {
       "number": 28,

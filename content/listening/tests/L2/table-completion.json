@@ -58,8 +58,8 @@
       ],
       [
         "Fragile items",
-        "a (8) ........ is built for them",
-        "e.g. the customer's glass cabinet"
+        "protected by a (8) ........",
+        "the customer is anxious about one item"
       ],
       [
         "Time needed",
@@ -215,7 +215,7 @@
     },
     {
       "number": 8,
-      "prompt": "a (8) ........ is built for them",
+      "prompt": "protected by a (8) ........",
       "answer": [
         "wooden crate"
       ],
@@ -227,13 +227,28 @@
       "answer_point_id": "L2-S1-14",
       "turn_index": 29,
       "distractor_used": "blankets",
-      "explanation": "Fragile items are not wrapped in blankets; a wooden crate is built for items of this kind.",
+      "explanation": "Items of this kind are not simply wrapped in blankets; the firm builds a wooden crate for them.",
       "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_basis": "frame_wording",
-      "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'kırılacak eşya: onlar için bir (8) yapılır' satırının not sütunu örneği veriyor ('müşterinin cam dolabı') ve nakliyede cam dolap için yerinde yapılan tek şey kasa.",
-      "flag_mechanism": "cerceve_sozu"
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "mekanizma": "cerceve_sozu",
+        "eski_prompt": "a (8) ........ is built for them",
+        "eski_satir": [
+          "Fragile items",
+          "a (8) ........ is built for them",
+          "e.g. the customer's glass cabinet"
+        ],
+        "eski_cevap": [
+          "wooden crate"
+        ],
+        "eski_kanit_cumlesi": "We build a wooden crate for anything of that sort.",
+        "neden_elendi": "Cerceve tek adayi ayakta birakiyordu: 'onlar icin bir (8) YAPILIR' fiili yerinde imal edilen bir sey oldugunu soyluyor, not sutunundaki ornek de ('musterinin cam dolabi') o seyin ne olabilecegini tek basina belirliyordu.",
+        "ne_degisti": "Karsitlik cerceveden sese tasindi: fiil 'is built' yerine notr 'protected by' oldu ve not sutunundaki cam dolap ornegi cikarilip yerine musterinin bir esya icin endiseli oldugu genel notu kondu. Cerceve artik blankets, box, case, cover gibi adaylari ayni derecede mumkun kiliyor - hatta konusmadaki celdirici olan blankets'i davet ediyor; dogru cevap ancak gorevlinin cumlesini duymakla secilir. Cevap, accepted_variants, answer_point_id ve turn_index degismedi.",
+        "sessiz_sinama_son": "Son sessiz sinama (2026-08-18, uc bagimsiz tur, senaryo GORULMEDEN, ayni turlarda dokunulmamis kalemlerin taban orani %15): 1/3 (blanket, wooden crate, blanket) — cerceve artik konusmadaki celdiriciye (blankets) davet ediyor."
+      }
     },
     {
       "number": 9,

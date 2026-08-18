@@ -74,7 +74,7 @@
     },
     {
       "number": 30,
-      "prompt": "The tutor asks to be sent the (30) ........ before the pilot is carried out rather than after it.",
+      "prompt": "Dr Osgood ends by asking the students to send him a copy of the (30) ........ sooner than they had intended.",
       "answer": [
         "draft questionnaire"
       ],
@@ -85,13 +85,19 @@
       "answer_point_id": "L5-S3-30",
       "turn_index": 40,
       "distractor_used": null,
-      "explanation": "The supervisor's final reminder: the draft questionnaire must be sent to them before the pilot is carried out, not after.",
+      "explanation": "The supervisor's closing request is that the draft questionnaire reaches him before the pilot is carried out, not after it.",
       "difficulty": "easy",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_basis": "logic",
-      "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'pilot uygulamadan önce gönderilecek olan (30)' — pilotlanan şeyin kendisi anket olduğu için boşluğa başka bir nesne konamıyor.",
-      "flag_mechanism": "konumsal_duzen"
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "uretilen_grup": "L5 cümle tamamlama 30 (S3)",
+        "eski_mekanizma": "konumsal_duzen",
+        "eski_prompt": "The tutor asks to be sent the (30) ........ before the pilot is carried out rather than after it.",
+        "neden_elendi": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'pilot uygulamadan önce gönderilecek olan (30)' — pilotlanan şeyin kendisi anket olduğu için boşluğa başka bir nesne konamıyordu.",
+        "ne_degisti": "Çerçevedeki 'pilot' kelimesi kaldırıldı; boşluk artık yalnız 'danışmana daha erken gönderilecek bir belge' diyor, etik formu / bilgi sayfası / rapor gibi birden çok aday ayakta kalıyor. Cevap, answer_point_id ve turn_index değişmedi."
+      }
     }
   ]
 }

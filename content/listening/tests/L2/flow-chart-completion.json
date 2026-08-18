@@ -13,7 +13,7 @@
   "word_limit": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
   "options": null,
   "visual": null,
-  "stem_block": "HOW AN UNDERGROUND CHANNEL WAS BUILT AND USED\n\nFind the point where the high ground meets the plain — rain that fell on\nthe hills is lying in (31) ........ under the surface\n↓\nSink a well down to that water\n↓\nFrom out on the plain, dig a tunnel back towards the well, rising at\nroughly one in a (32) ........\n↓\nSink vertical shafts along the line of the tunnel — they take out the\nspoil, bring in air and, above all, allow (33) ........\n↓\nThe water reaches the surface under its own weight; under (34) ........\nper cent of it is lost on the way\n↓\nThe flow cannot be switched off, so the channel ends in a (35) ........",
+  "stem_block": "HOW AN UNDERGROUND CHANNEL WAS BUILT AND USED\n\nFind the point where the high ground meets the plain — rain that fell on\nthe hills is lying in (31) ........ under the surface\n↓\nSink a well down to that water\n↓\nFrom out on the plain, dig a tunnel back towards the well, rising at\nroughly one in a (32) ........\n↓\nSink vertical shafts along the line of the tunnel — their most important\njob is to allow (33) ........\n↓\nThe water reaches the surface under its own weight; under (34) ........\nper cent of it is lost on the way\n↓\nThe flow cannot be switched off, so the channel ends in a (35) ........",
   "table": null,
   "items": [
     {
@@ -59,7 +59,7 @@
     },
     {
       "number": 33,
-      "prompt": "they take out the spoil, bring in air and, above all, allow (33) ........",
+      "prompt": "their most important job is to allow (33) ........",
       "answer": [
         "maintenance"
       ],
@@ -70,13 +70,25 @@
       "answer_point_id": "L2-S4-05",
       "turn_index": 3,
       "distractor_used": null,
-      "explanation": "The vertical shafts have three functions; according to the speaker, the most important is that they give access for maintenance for as long as the system is in use.",
+      "explanation": "The vertical shafts have several uses, but according to the speaker the one that matters most is that they give access for maintenance for as long as the system is in use.",
       "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_basis": "logic",
-      "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'toprağı çıkarır, hava verir ve her şeyden önce (33) sağlar' — üç işlevden ikisi sayıldıktan sonra dikey kuyuların kalan tek işlevi bakım erişimi.",
-      "flag_mechanism": "konumsal_duzen"
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "mekanizma": "konumsal_duzen",
+        "eski_prompt": "they take out the spoil, bring in air and, above all, allow (33) ........",
+        "eski_cevap": [
+          "maintenance"
+        ],
+        "eski_kanit_cumlesi": "they give access for maintenance for as long as the system is in use",
+        "neden_elendi": "Cevap kalemin dizideki konumundan cikariliyordu: cerceve dikey kuyularin uc isleviden ikisini ('topragi cikarir, hava verir') zaten sayip ucuncusunu bosluga birakiyordu, yani sesi duymayan cozucu kalan tek isleve eleme yoluyla ulasiyordu.",
+        "ne_degisti": "Sayim cerceveden kaldirildi; adim artik yalnizca 'en onemli isi ...' diyor. Boylece ventilation/air ve access gibi adaylar yeniden yarisa giriyor ve dizideki hicbir yerde eleme yoluyla ilerlenebilecek bir oruntu kalmiyor. Cevap, answer_point_id ve turn_index degismedi; 32 numarali genel_kultur kalemi bu turda ELE ALINMADI ve isaretleri korundu.",
+        "eski_stem_satiri": "Sink vertical shafts along the line of the tunnel — they take out the\nspoil, bring in air and, above all, allow (33) ........",
+        "yeni_stem_satiri": "Sink vertical shafts along the line of the tunnel — their most important\njob is to allow (33) ........",
+        "sessiz_sinama_son": "Son sessiz sinama (2026-08-18, uc bagimsiz tur, senaryo GORULMEDEN, ayni turlarda dokunulmamis kalemlerin taban orani %15): 1/3 (ventilation, maintenance, ventilation) — cerceveden sayim kalkinca ventilation rakip oldu."
+      }
     },
     {
       "number": 34,

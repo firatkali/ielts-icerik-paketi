@@ -23,7 +23,7 @@
       },
       {
         "letter": "C",
-        "text": "One student doubts anyone will read them."
+        "text": "The two students do not agree about how much detail to give."
       },
       {
         "letter": "D",
@@ -50,7 +50,7 @@
       "turn_index": 22,
       "distractor_analysis": {
         "A": "Söylendi ama sorulan bu değil — iki alan arasındaki keskin fark omurgasız sayımlarına ait.",
-        "C": "Söylendi ama sorulan bu değil — Rhys'in 'kimse okumaz' yorumu ekteki ham veri tabloları için.",
+        "C": "Söylendi ama sorulan bu değil — ayrıntı düzeyi anlaşmazlığı ham veri için; oksijende iki öğrenci hemfikir, uyarıyı yapan danışman.",
         "D": "Söylendi ama sorulan bu değil — familya/tür düzeltmesi omurgasız tayiniyle ilgili, oksijenle değil.",
         "E": "Söylendi sonra düzeltildi — danışman iki ölçüm setinin aynı çizgiye konmasını yasaklıyor; Rhys iki ayrı çizgi çizdiklerini söylüyor."
       },
@@ -72,7 +72,7 @@
       "turn_index": 26,
       "distractor_analysis": {
         "B": "Söylendi ama sorulan bu değil — iki farklı yöntem oksijen ölçümüne ait; omurgasızlar hep tekme örneklemesiyle toplandı.",
-        "C": "Söylendi ama sorulan bu değil — 'kimse okumaz' yorumu ham veri hakkında.",
+        "C": "Söylendi ama sorulan bu değil — omurgasızlarda familya düzeyinde çalışmakta ikisi de hemfikirdi; ayrıntı düzeyi anlaşmazlığı ham veri hakkında.",
         "D": "Söylendi sonra düzeltildi — tayin tür düzeyinde değil familya düzeyinde yapıldı; tür düzeyi vakit yüzünden bilerek bırakıldı.",
         "E": "Söylendi ama sorulan bu değil — grafik çizgisi tartışması oksijen verisine ait."
       },
@@ -89,7 +89,7 @@
       "answer": [
         "C"
       ],
-      "evidence": "That's fifteen pages of tables nobody will ever read.",
+      "evidence": "I want all of it in an appendix. Every reading, every count. — That's fifteen pages of tables nobody will ever read. A summary table in the text does the same job.",
       "answer_point_id": "L2-S3-26",
       "turn_index": 33,
       "distractor_analysis": {
@@ -98,13 +98,29 @@
         "D": "Söylendi ama sorulan bu değil — familya/tür kararı omurgasız tayiniyle ilgili.",
         "E": "Söylendi ama sorulan bu değil — tek çizgi uyarısı oksijen grafiği hakkında."
       },
-      "explanation": "Rhys objects to putting all the raw data in the appendix: to him, that means fifteen pages of tables nobody will read.",
+      "explanation": "Marisol wants every reading and every count in an appendix, while Rhys thinks a summary table in the text would do the same job: the two do not agree on how much of the raw data to show.",
       "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_basis": "option_wording",
-      "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'bir öğrenci kimsenin okuyacağından şüphe ediyor' yalnız ham veri (ek) kökü için söylenebilir.",
-      "flag_mechanism": "secenek_sozu"
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "mekanizma": "secenek_sozu",
+        "eski_prompt": "the raw data",
+        "eski_secenek_C": "One student doubts anyone will read them.",
+        "eski_cevap": [
+          "C"
+        ],
+        "eski_kanit_cumlesi": "That's fifteen pages of tables nobody will ever read.",
+        "neden_elendi": "C secenegi ('bir ogrenci kimsenin okuyacagindan suphe ediyor') yalnizca ham veri koku icin soylenebilecek bir cumleydi: kutunun icinde tek basina 'ek/ham veri' adresini tasiyordu, kok okunur okunmaz eslesiyordu.",
+        "ne_degisti": "Secenegin sozu kokten koparildi: 'One student thinks a summary would be enough.' Bu cumle kutudaki uc kokun hepsine (oksijen okumalari, omurgasiz sayimlari, ham veri) esit derecede oturuyor - omurgasizlarda familya duzeyi de bir tur ozetlemedir - ve ayrim yalnizca Rhys'in sesteki itirazini duymakla acilir. Kanit ayni tura (33) ait ikinci cumleyle guclendirildi; cevap harfi C, answer_point_id ve turn_index degismedi. IKINCI ELDEN GECIRME: secenek 'The two students disagree about how to present them.' oldu. Bu cumle kutudaki uc kokun hicbirini adlandirmiyor; oksijen grafigi de omurgasiz tayin duzeyi de ayni derecede bir sunum anlasmazligi konusu olabilir. Hangisinin dogru oldugu ancak Marisol ile Rhys'in ek tartismasini duymakla belirlenir. Cevap harfi C, answer_point_id ve turn_index degismedi. UCUNCU ELDEN GECIRME: secenek 'The two students do not agree about how much detail to give.' oldu. Bu ifade artik omurgasiz kokunu da guclu bicimde cagiriyor (familya mi tur mu = ne kadar ayrinti), yani eleme kestirmesini tersine cevirip cozucuyu yanlis koke davet ediyor. Benzersizlik korundu: omurgasizlarda iki ogrenci hemfikir, anlasmazlik yalnizca ham veride. Cevap harfi C, answer_point_id ve turn_index degismedi.",
+        "ara_secenek_C_2026_08_18": "One student thinks a summary would be enough.",
+        "sessiz_sinama_1": "Uc turun ikisinde dogru bilindi (2/3). 'Ozet yeter' sozu hala dogrudan ham veriyi adresliyordu.",
+        "ara_secenek_C_2_2026_08_18": "The two students disagree about how to present them.",
+        "sessiz_sinama_2": "Uc turun ikisinde dogru bilindi (2/3): kutudaki dort secenek acikca oksijen ya da omurgasiz kokune ait oldugu icin ucuncu secenek eleme yoluyla ham veriye dusuyordu.",
+        "sessiz_sinama_son": "Son sessiz sinama (2026-08-18, uc bagimsiz tur, senaryo GORULMEDEN, ayni turlarda dokunulmamis kalemlerin taban orani %15): 2/3 (C, C, E).",
+        "kalan_risk": "Kalan sizinti kutunun yapisindan geliyor, secenegin sozunden degil: kutudaki diger dort secenek (iki alan farki, iki yontem, tur duzeyi, tek grafik cizgisi) acikca oksijen ya da omurgasiz kokune ait oldugu icin ucuncu secenek eleme yoluyla ham veriye dusebiliyor. Bunu tam kapatmak icin D ve E secenekleri de gevsetilmeli, ama ikisi 24 ve 25 numarali DOGRULANMIS kalemlerin tasarlanmis tuzaklari (familya/tur ve tek cizgi); onlara dokunmak baska kalemleri bozar. Bu yuzden bu turda birakildi."
+      }
     }
   ]
 }

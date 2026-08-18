@@ -19,15 +19,15 @@
       "options": [
         {
           "letter": "A",
-          "text": "to collect the students' completed log books"
+          "text": "to arrange the students' end-of-module assessment interviews"
         },
         {
           "letter": "B",
-          "text": "to decide what work the students must submit"
+          "text": "to agree what work has to be handed in and when"
         },
         {
           "letter": "C",
-          "text": "to choose companies for next year's placements"
+          "text": "to collect the students' feedback on their placement companies"
         }
       ],
       "answer": [
@@ -37,16 +37,40 @@
       "answer_point_id": "L3-S3-31",
       "turn_index": 0,
       "distractor_analysis": {
-        "A": "Söylendi ama sorulan bu değil — günlükler bu toplantıda toplanmıyor; raporla birlikte 20 Kasım'da modül sayfasından teslim edilecek.",
-        "C": "Sesle hiç geçmeyen — gelecek yılın staj yerleri konuşmada hiç anılmıyor."
+        "A": "Ayni koke oturuyor - toplantida degerlendirmenin uc parcasi da (defter, rapor, sunum) konusuluyor ve sunum suresi veriliyor, ama boyle bir gorusme hic yok.",
+        "C": "Ayni koke oturuyor - iki ogrenci de calistiklari yeri uzun uzun anlatiyor, ama sirketler hakkinda geri bildirim toplanmiyor; anlatilanlarin raporlara girmesi isteniyor."
       },
-      "explanation": "The tutor states the purpose of the meeting in the opening sentence: to decide together what has to be handed in and when.",
+      "explanation": "The tutor states the purpose in the opening sentence: this is the meeting where they work out what has to be handed in and when.",
       "difficulty": "easy",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_basis": "option_wording",
-      "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'toplantının amacı' sorusunda yalnız 'öğrencilerin neyi teslim edeceğine karar vermek' bir toplantı amacı olarak kendini adlandırıyor, defter toplamak ve şirket seçmek idari işin tarifi.",
-      "flag_mechanism": "secenek_sozu"
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "kaynak": "sizinti yazim turu - dinleme L3 (kardes ajan gorevi)",
+        "mekanizma": "secenek_sozu",
+        "eski_prompt": "What is the purpose of the meeting?",
+        "eski_secenekler": [
+          {
+            "letter": "A",
+            "text": "to collect the students' completed log books"
+          },
+          {
+            "letter": "B",
+            "text": "to decide what work the students must submit"
+          },
+          {
+            "letter": "C",
+            "text": "to choose companies for next year's placements"
+          }
+        ],
+        "eski_cevap": [
+          "B"
+        ],
+        "eski_kanit_cumlesi": "this is the meeting where we work out what you have to hand in and when",
+        "neden_isaretlendi": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'toplantının amacı' sorusunda yalnız 'öğrencilerin neyi teslim edeceğine karar vermek' bir toplantı amacı olarak kendini adlandırıyor, defter toplamak ve şirket seçmek idari işin tarifi.",
+        "ne_degisti": "Uc secenek de artik ayni koke - 'staj sonrasi toplantinin amaci' - oturuyor. Eski kurguda yalniz B bir toplanti amaci gibi yazilmisti, defter toplamak ve sirket secmek idari islerin tarifiydi. Ilk yeniden yazimda A ('sunum tarihlerini belirlemek') ve C ('danisman secmek') B'den dar kaldigi icin sessiz sinamada hala 3/3 B seciliyordu; A ve C artik B kadar genis ve B kadar toplanti-bicimli iki amac."
+      }
     },
     {
       "number": 22,
@@ -88,15 +112,15 @@
       "options": [
         {
           "letter": "A",
-          "text": "being given responsibility for a piece of work"
+          "text": "being given a piece of work of his own"
         },
         {
           "letter": "B",
-          "text": "the meetings that he went to"
+          "text": "seeing how decisions were really made"
         },
         {
           "letter": "C",
-          "text": "the chance to help with a publication"
+          "text": "finding a fault that others had missed"
         }
       ],
       "answer": [
@@ -106,16 +130,40 @@
       "answer_point_id": "L3-S3-06",
       "turn_index": 6,
       "distractor_analysis": {
-        "B": "Başkası söyledi + söylendi sonra düzeltildi — toplantıları en değerli bulan Tamsin; Corin kendi gittiği toplantıları 'birbirine slayt okuyan insanlar' diye küçümsüyor.",
-        "C": "Söylendi ama sorulan bu değil — yayın, sayım verisinin şirketçe yayımlanacak bir işte kullanılacağı bağlamında geçiyor; Corin'in değer verdiği şey işin kendisine ait olması."
+        "B": "Ayni koke oturuyor ve baskasi soyledi - kararlarin nasil alindigini gormeyi en degerli bulan Tamsin; Corin kendi gittigi toplantilari 'birbirine slayt okuyan insanlar' diye kucumsuyor.",
+        "C": "Ayni koke oturuyor ve seste gecti - Corin gercekten de bes aydir kimsenin fark etmedigi, kamyonun carptigi sayaci buluyor; ama hemen ardindan 'asil mesele onun bana ait olmasiydi' diyerek degeri buluşa degil ise atfediyor."
       },
-      "explanation": "What made the difference for Corin was being given a piece of work of his own (the counter data); if he made a mistake, it would go into a publication.",
+      "explanation": "What made the difference for Corin was being handed something of his own: part of the cycle-count data was his to work on, and a mistake would have gone into something the company was going to publish.",
       "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_basis": "option_wording",
-      "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'staja dair en çok neye değer verdi' sorusunda 'bir işin sorumluluğunun verilmesi' staj değerlendirmesinin kalıp cevabı, kalan iki seçenek yan kazanım olarak yazılmış.",
-      "flag_mechanism": "secenek_sozu"
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "kaynak": "sizinti yazim turu - dinleme L3 (kardes ajan gorevi)",
+        "mekanizma": "secenek_sozu",
+        "eski_prompt": "What did Corin value most about his placement?",
+        "eski_secenekler": [
+          {
+            "letter": "A",
+            "text": "being given responsibility for a piece of work"
+          },
+          {
+            "letter": "B",
+            "text": "the meetings that he went to"
+          },
+          {
+            "letter": "C",
+            "text": "the chance to help with a publication"
+          }
+        ],
+        "eski_cevap": [
+          "A"
+        ],
+        "eski_kanit_cumlesi": "What made the difference for me was being handed something of my own",
+        "neden_isaretlendi": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'staja dair en çok neye değer verdi' sorusunda 'bir işin sorumluluğunun verilmesi' staj değerlendirmesinin kalıp cevabı, kalan iki seçenek yan kazanım olarak yazılmış.",
+        "ne_degisti": "Uc secenek de artik staj icin klasik 'en degerli kazanim' cumlesi; ayrim yalniz sesteki ayrintiyla kaliyor. Eski kurguda 'bir isin sorumlulugunun verilmesi' staj degerlendirmesinin kalip cevabiydi, kalan iki secenek yan kazanim gibi yazilmisti. Yeni B, Tamsin'in gorusu (konusmaci capraz tuzagi), yeni C ise Corin'in gercekten yaptigi ama degeri atfetmedigi sey."
+      }
     }
   ]
 }

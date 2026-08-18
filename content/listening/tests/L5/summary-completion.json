@@ -13,7 +13,7 @@
   "word_limit": "ONE WORD AND/OR A NUMBER",
   "options": null,
   "visual": null,
-  "stem_block": "HOW THE PLASTIC MOVES, AND HOW IT IS COUNTED\n\nA fragment reaching the sea floats to begin with. Sunlight and the movement of the water leave the polymer brittle enough to break apart, and living organisms then form a coating over each piece — the lecturer's name for this is (36) ......... The added weight takes the particle downwards; in colder water the coating is grazed off, the particle lifts again, and a great deal of the material is therefore oscillating rather than lying still on the bottom.\n\nSamples at the surface are taken with a manta trawl pulled along beside a boat. Two such studies can be set against each other only when both of them report the (37) ........ size of the net, and a great many papers never do. Dated cores give a cleaner record: the first plastic particles turn up in sediment from the (38) ........, and the amount has roughly doubled every fifteen years since. On beaches, where the counting is largely done by volunteers, ten kinds of product make up some three quarters of what is recorded, and (39) ........, which escape during transport rather than being thrown away, are listed on their own in almost every survey.\n\nFour responses are ranked: better design, extended producer responsibility, interception in rivers — of limited use, since booms work only in low flow — and, most valuable of all, (40) ........ the monitoring, so that size classes and reporting units are agreed.",
+  "stem_block": "HOW THE PLASTIC MOVES, AND HOW IT IS COUNTED\n\nA fragment reaching the sea floats to begin with. Sunlight and the movement of the water leave the polymer brittle enough to break apart, and living organisms then form a coating over each piece — the lecturer's name for this is (36) ......... The added weight takes the particle downwards; in colder water the coating is grazed off, the particle lifts again, and a great deal of the material is therefore oscillating rather than lying still on the bottom.\n\nSamples at the surface are taken with a manta trawl pulled along beside a boat. Two such studies can be set against each other only when both of them report the (37) ........ size of the net. Dated cores give a cleaner record: the first plastic particles turn up in sediment from the (38) ........, and the amount has roughly doubled every fifteen years since. On beaches, where the counting is largely done by volunteers, ten kinds of product make up some three quarters of what is recorded, and (39) ........, which escape during transport rather than being thrown away, are listed on their own in almost every survey.\n\nFour responses are ranked: better design, extended producer responsibility, interception in rivers — of limited use, since booms work only in low flow — and, fourth on the lecturer's list, (40) ........ the monitoring.",
   "table": null,
   "items": [
     {
@@ -102,7 +102,7 @@
     },
     {
       "number": 40,
-      "prompt": "and, most valuable of all, (40) ........ the monitoring, so that size classes and reporting units are agreed",
+      "prompt": "and, fourth on the lecturer's list, (40) ........ the monitoring",
       "answer": [
         "standardising"
       ],
@@ -114,13 +114,20 @@
       "answer_point_id": "L5-S4-28",
       "turn_index": 11,
       "distractor_used": null,
-      "explanation": "The fourth step, and according to the lecturer the most useful one, is standardising the monitoring; half the debate in the field is about arithmetic rather than the ocean.",
+      "explanation": "The fourth item on the lecturer's list, and the one they call the most useful, is standardising the monitoring: agreed mesh sizes, agreed size classes and agreed reporting units.",
       "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_basis": "frame_wording",
-      "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'en değerlisi de izlemeyi (40), böylece boyut sınıfları ve raporlama birimleri anlaşılmış olur' — cümlenin ikinci yarısı standartlaştırmanın tanımını veriyor.",
-      "flag_mechanism": "cerceve_sozu"
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "uretilen_grup": "L5 özet tamamlama 40 (S4)",
+        "eski_mekanizma": "cerceve_sozu",
+        "eski_prompt": "and, most valuable of all, (40) ........ the monitoring, so that size classes and reporting units are agreed",
+        "neden_elendi": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'en değerlisi de izlemeyi (40), böylece boyut sınıfları ve raporlama birimleri anlaşılmış olur' — cümlenin ikinci yarısı standartlaştırmanın tanımını veriyordu.",
+        "ne_degisti": "Tanımı veren 'so that size classes and reporting units are agreed' kısmı çerçeveden çıkarıldı ve sese bırakıldı; boşluk artık yalnız 'izlemeye yapılacak dördüncü şey' diyor (fonlamak / genişletmek / iyileştirmek / standartlaştırmak hepsi mümkün). Cevap, answer_point_id ve turn_index değişmedi.",
+        "ikinci_tur": "Sessiz sınamanın 2/2 turunda hâlâ bulundu. Özetin kendi gövdesindeki 've pek çok makale bunu hiç bildirmiyor' cümleciği (37. boşluğun kökünün DIŞINDA, yalnız özet metninde) çıkarıldı; 40. boşluğa giden 'karşılaştırılamıyor -> standartlaştır' zinciri zayıflatıldı. Kalan risk konu düzeyinde genel kültür (deniz plastiği yazınının standart çağrısı) ve aynı dosyadaki genel_kultur işaretli kalemlerle birlikte ayrı turda ele alınmalı."
+      }
     }
   ]
 }

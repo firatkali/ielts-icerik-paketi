@@ -13,12 +13,12 @@
   "word_limit": "ONE WORD AND/OR A NUMBER",
   "options": null,
   "visual": null,
-  "stem_block": "BRINGING DOWN THE NOISE FROM A ROAD\n\nWork through the options in this order:\nat the source → along the path → at the (36) ........\n↓\nAT THE SOURCE\nA surface with an open texture takes in part of the noise made in the\ntyre tread, but the gain shrinks as the (37) ........ fill\nA lower speed limit is worth two to three decibels and costs almost nothing\n↓\nALONG THE PATH\nA barrier is only working while it hides the wheels from view\nAn earth bund does the same job and passes for (38) ........\nA line of trees changes nothing unless the belt is some (39) ........ metres deep\n↓\nAT THE RECEIVER\nSecondary glazing is thrown away the moment a window is opened, so it is\nbetter to plan the building with its (40) ........ away from the road",
+  "stem_block": "BRINGING DOWN THE NOISE FROM A ROAD\n\nThe three places where something can be done, in the order they should be tried:\n↓\nSTAGE 1 — the road itself\nA surface with an open texture takes in part of the noise made in the\ntyre tread, but the gain shrinks as the (37) ........ fill\nA lower speed limit is worth two to three decibels and costs almost nothing\n↓\nSTAGE 2 — the ground in between\nA barrier is only working while it hides the wheels from view\nAn earth bund does the same job and passes for (38) ........\nA line of trees changes nothing unless the belt is some (39) ........ metres deep\n↓\nSTAGE 3 — at the (36) ........\nSecondary glazing only works up to a point\nIt is better to decide at the design stage which side of the building the (40) ........ are on",
   "table": null,
   "items": [
     {
       "number": 36,
-      "prompt": "at the source → along the path → at the (36) ........",
+      "prompt": "STAGE 3 — at the (36) ........",
       "answer": [
         "receiver"
       ],
@@ -29,13 +29,19 @@
       "answer_point_id": "L4-S4-18",
       "turn_index": 7,
       "distractor_used": null,
-      "explanation": "The order in noise control is always the same: measures are taken at the source first, then along the path, and last at the receiver.",
+      "explanation": "The lecturer says the hierarchy always runs in the same order: measures are taken at the source first, then along the path, and last of all at the receiver.",
       "difficulty": "easy",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_basis": "frame_wording",
-      "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: aynı akış şemasının birkaç satır aşağıdaki başlığı 'AT THE RECEIVER' diye yazıyor, soru kendi cevabını sayfanın içinde basıyor.",
-      "flag_mechanism": "cerceve_sozu"
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "uretilen_grup": "L4 akış şeması 36 - şemanın çerçevesi yeniden yazıldı",
+        "eski_prompt": "at the source → along the path → at the (36) ........",
+        "eski_stem_block": "BRINGING DOWN THE NOISE FROM A ROAD\n\nWork through the options in this order:\nat the source → along the path → at the (36) ........\n↓\nAT THE SOURCE\nA surface with an open texture takes in part of the noise made in the\ntyre tread, but the gain shrinks as the (37) ........ fill\nA lower speed limit is worth two to three decibels and costs almost nothing\n↓\nALONG THE PATH\nA barrier is only working while it hides the wheels from view\nAn earth bund does the same job and passes for (38) ........\nA line of trees changes nothing unless the belt is some (39) ........ metres deep\n↓\nAT THE RECEIVER\nSecondary glazing is thrown away the moment a window is opened, so it is\nbetter to plan the building with its (40) ........ away from the road",
+        "neden_elendi": "Çerçeve sözü: aynı akış şemasının birkaç satır aşağıdaki üçüncü başlığı 'AT THE RECEIVER' yazıyordu; soru kendi cevabını sayfanın içinde basıyordu.",
+        "ne_degisti": "Şemadan gürültü denetimi üçlüsünün yazılı hâli tümüyle çıkarıldı: ne 'AT THE RECEIVER' başlığı ne de 'at the source → along the path → ...' sırası sayfada geçiyor. Bölümler artık içerikleriyle adlandırılıyor ('yolun kendisi', 'aradaki zemin') ve boşluk üçüncü bölümün başlığında duruyor; sayfada cevabı çağıran bir kalıp kalmadı. Cevap ('receiver'), kanıt cümlesi, answer_point_id ve turn_index değişmedi."
+      }
     },
     {
       "number": 37,
@@ -94,7 +100,7 @@
     },
     {
       "number": 40,
-      "prompt": "Secondary glazing is thrown away the moment a window is opened, so it is better to plan the building with its (40) ........ away from the road",
+      "prompt": "It is better to decide at the design stage which side of the building the (40) ........ are on",
       "answer": [
         "bedrooms"
       ],
@@ -106,13 +112,19 @@
       "answer_point_id": "L4-S4-29",
       "turn_index": 11,
       "distractor_used": null,
-      "explanation": "The benefit is lost because the glazing that needs to stay closed gets opened in summer; the real solution is to place the bedrooms on the quiet side of the building.",
+      "explanation": "Glazing only helps while the window stays shut, so the lecturer says the better answer is planning: put the bedrooms on the quiet side of the building.",
       "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_basis": "logic",
-      "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'sıcak bir gecede pencere açılır açılmaz boşa gider, bu yüzden binayı (40) yoldan uzak planlamak daha iyi' — açılan pencere zaten yatak odasını işaret ettiği için tek tutarlı doldurma kalıyor.",
-      "flag_mechanism": "konumsal_duzen"
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "uretilen_grup": "L4 akış şeması 40 - çerçeve cümlesi yeniden yazıldı",
+        "eski_prompt": "Secondary glazing is thrown away the moment a window is opened, so it is better to plan the building with its (40) ........ away from the road",
+        "eski_stem_block": "BRINGING DOWN THE NOISE FROM A ROAD\n\nWork through the options in this order:\nat the source → along the path → at the (36) ........\n↓\nAT THE SOURCE\nA surface with an open texture takes in part of the noise made in the\ntyre tread, but the gain shrinks as the (37) ........ fill\nA lower speed limit is worth two to three decibels and costs almost nothing\n↓\nALONG THE PATH\nA barrier is only working while it hides the wheels from view\nAn earth bund does the same job and passes for (38) ........\nA line of trees changes nothing unless the belt is some (39) ........ metres deep\n↓\nAT THE RECEIVER\nSecondary glazing is thrown away the moment a window is opened, so it is\nbetter to plan the building with its (40) ........ away from the road",
+        "neden_elendi": "Konumsal düzen / çerçeve mantığı: 'pencere açılır açılmaz boşa gider, bu yüzden binayı (40) yoldan uzak planlamak daha iyi' cümlesi açılan pencereyi zaten anıyordu ve boşluğa oturan tek tutarlı sözcük kalıyordu.",
+        "ne_degisti": "Çerçeveden 'pencere açılır açılmaz boşa gider' karşıtlığı da 'sessiz taraf' sözü de çıkarıldı; ikisi de boşluğa oturan tek sözcüğü daraltıyordu. Yazılı çerçeve artık yalnız 'binanın hangi tarafında olacağına tasarım aşamasında karar vermek daha iyi' diyor; boşluğa pencereler, odalar, bahçe ya da yatak odaları eşit ölçüde oturuyor ve ayrımı yalnız ses kuruyor (temmuzda kapalı yatak odası dayanılmaz olduğu için pencere açılıyor, bu yüzden yatak odaları sessiz tarafa konuyor). Cevap ('bedrooms'), kabul edilen varyantlar, kanıt cümlesi, answer_point_id ve turn_index değişmedi."
+      }
     }
   ]
 }

@@ -13,7 +13,7 @@
   "word_limit": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
   "options": null,
   "visual": null,
-  "stem_block": "STORING AND SHARING THE WATER\n\nRock-cut cisterns\n• the chamber leaked until it was coated with lime mixed with powdered\n  (36) ........\n• the first rain off the roof was held in a small (37) ........ and only\n  overflowed into the tank afterwards\n\nKeeping the systems working\n• every few years the channels had to have the (38) ........ dug out of\n  them\n• a share was defined as, for instance, an hour of flow once every\n  (39) ........ days\n• the systems broke down once holding a share no longer brought an\n  (40) ........ to help with the clearing work",
+  "stem_block": "STORING AND SHARING THE WATER\n\nRock-cut cisterns\n• the chamber leaked until it was coated with lime mixed with powdered\n  (36) ........\n• the first rain off the roof was held in a small (37) ........ and only\n  overflowed into the tank afterwards\n\nKeeping the systems working\n• every few years each channel had to be cleared, because (38) ........\n  built up in it\n• a share was defined as, for instance, an hour of flow once every\n  (39) ........ days\n• the systems failed once a share stopped carrying the (40) ........\n  with it",
   "table": null,
   "items": [
     {
@@ -54,7 +54,7 @@
     },
     {
       "number": 38,
-      "prompt": "every few years the channels had to have the (38) ........ dug out of them",
+      "prompt": "every few years each channel had to be cleared, because (38) ........ built up in it",
       "answer": [
         "silt"
       ],
@@ -65,13 +65,30 @@
       "answer_point_id": "L2-S4-21",
       "turn_index": 10,
       "distractor_used": null,
-      "explanation": "The first item of maintenance work is clearing the channels of silt every few years.",
+      "explanation": "The first item of maintenance work is clearing the channels every few years of the silt that settles in them.",
       "difficulty": "easy",
       "status": "flagged",
       "blind_solvable": true,
-      "blind_basis": "frame_wording",
-      "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'kanalların birkaç yılda bir (38) kazınması gerekiyordu' çerçevesi 'dig out of a channel' eşdizimiyle birleşince tek doldurma bırakıyor.",
-      "flag_mechanism": "cerceve_sozu"
+      "blind_basis": "general_knowledge",
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "mekanizma": "cerceve_sozu",
+        "eski_prompt": "every few years the channels had to have the (38) ........ dug out of them",
+        "eski_cevap": [
+          "silt"
+        ],
+        "eski_kanit_cumlesi": "cleared of silt on a cycle of a few years",
+        "neden_elendi": "Cerceve tek adayi ayakta birakiyordu: 'kanallardan (38) kazinmasi gerekiyordu' kalibindaki belirli tanimlik 'the' bilinen bir maddeyi isaret ediyor, 'dig out of a channel' esdizimi de o maddenin adini kendiliginden soyluyordu.",
+        "ne_degisti": "Karsitlik ve esdizim cerceveden cikarildi: 'dug out of them' yerine notr bir neden cumlesi ('had to be cleared, because ... built up in it') kondu, belirli tanimlik da atildi. Cerceve artik sand, mud, weed, debris, sediment gibi adaylari ayni derecede mumkun kiliyor; dogru sozcuk ancak konusmacinin bakim listesini duymakla secilebiliyor. Cevap, answer_point_id ve turn_index degismedi.",
+        "eski_stem_satiri": "• every few years the channels had to have the (38) ........ dug out of\n  them",
+        "yeni_stem_satiri": "• every few years each channel had to be cleared, because (38) ........\n  built up in it",
+        "sessiz_sinama_1": "Uc turun ikisinde dogru bilindi (silt, silt, sediment). Tamamlama ailesinin toplam orani esikte kaldi.",
+        "kalan_risk": "Cerceve notrlestirildi ama artik sozcuksel bir kalinti var: 'su kanalinda birikip birkac yilda bir temizlenen sey' icin Ingilizcede tek dogal terim silt. Bunu tamamen kapatmak icin konusmacinin sesli bir rakip kurmasi gerekir (or. 'not the weed, the silt') — bu SENARYO isi, bu turda YAPILMADI, ayri bir turda ele alinmali.",
+        "sessiz_sinama_son": "Son sessiz sinama (2026-08-18, uc bagimsiz tur, senaryo GORULMEDEN, ayni turlarda dokunulmamis kalemlerin taban orani %15): 3/3 (silt, silt, silt) — cerceve duzeltmesi yetmedi.",
+        "sonuc": "ERTELENDI. Cerceve kusuru (belirli tanimlik + 'dig out of a channel' esdizimi) giderildi ve dosyada birakildi, ama kalem hala sizdiriyor: kalinti cerceveden degil alan bilgisinden geliyor. 'Su kanalinda birikip birkac yilda bir temizlenen sey' icin Ingilizcede tek dogal terim silt oldugundan, hicbir cerceve yazimi bunu kapatmiyor. Kapatmak icin konusmacinin sesli bir rakip kurmasi gerekir (or. once yosun/kum anilip sonra silt'e duzeltilmesi) — bu SENARYO isi ve bu turda YAPILMADI. Kalem bu yuzden isaretli birakildi, mekanizmasi genel_kultur olarak yeniden siniflandirildi."
+      },
+      "flag_reason": "Cerceve notrlestirildikten sonra bile senaryo gosterilmeden 3/3 turda dogru bilindi: bosluk artik esdizimle kilitli degil, ama 'kanalda birikip birkac yilda bir temizlenen madde' kavraminin Ingilizcede tek dogal karsiligi oldugu icin cevap alan bilgisiyle disaridan cikiyor. Cozum sesli rakip kurmayi, yani senaryo degisikligini gerektiriyor.",
+      "flag_mechanism": "genel_kultur"
     },
     {
       "number": 39,
@@ -94,7 +111,7 @@
     },
     {
       "number": 40,
-      "prompt": "the systems broke down once holding a share no longer brought an (40) ........ to help with the clearing work",
+      "prompt": "the systems failed once a share stopped carrying the (40) ........ with it",
       "answer": [
         "obligation"
       ],
@@ -105,13 +122,25 @@
       "answer_point_id": "L2-S4-25",
       "turn_index": 12,
       "distractor_used": null,
-      "explanation": "The systems broke down not because a better pump was found, but because the link between holding a water share and the obligation to maintain the channel was broken.",
+      "explanation": "The systems broke down not because a better pump was found, but because a water share stopped carrying with it the obligation to maintain the channel.",
       "difficulty": "hard",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_basis": "grammar_cue",
-      "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: cümledeki belirsiz tanımlık 'an' boşluğu ünlüyle başlayan bir sözcüğe kilitliyor, 'hisse tutmak artık ... getirmiyordu' çerçevesiyle birleşince tek aday kalıyor.",
-      "flag_mechanism": "esdizim_kilidi"
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "mekanizma": "esdizim_kilidi",
+        "eski_prompt": "the systems broke down once holding a share no longer brought an (40) ........ to help with the clearing work",
+        "eski_cevap": [
+          "obligation"
+        ],
+        "eski_kanit_cumlesi": "when the share stopped carrying the obligation with it",
+        "neden_elendi": "Bosluk esdizim obeginin ucundaydi: belirsiz tanimlik 'an' adayi unluyle baslayan bir sozcuge kilitliyor, 'hisse tutmak artik ... getirmiyordu' + 'temizlik isine yardim etmek icin' kuyrugu da tek adayi birakiyordu.",
+        "ne_degisti": "Tanimlik 'an'dan 'the'ye cevrildi (unlu kilidi kalkti) ve amac kuyrugu ('to help with the clearing work') atildi. Kalan cerceve duty, responsibility, right, cost gibi adaylari ayni derecede mumkun kiliyor; hangisinin dogru oldugu ancak dersin son cumlesini duymakla belirlenir. Cevap, answer_point_id ve turn_index degismedi.",
+        "eski_stem_satiri": "• the systems broke down once holding a share no longer brought an\n  (40) ........ to help with the clearing work",
+        "yeni_stem_satiri": "• the systems failed once a share stopped carrying the (40) ........\n  with it",
+        "sessiz_sinama_son": "Son sessiz sinama (2026-08-18, uc bagimsiz tur, senaryo GORULMEDEN, ayni turlarda dokunulmamis kalemlerin taban orani %15): 0/3 (sediment, sediment, sediment) — hicbir turda bulunamadi."
+      }
     }
   ]
 }

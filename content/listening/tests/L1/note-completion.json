@@ -13,7 +13,7 @@
   "word_limit": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
   "options": null,
   "visual": null,
-  "stem_block": "GROWING FOOD IN CITIES\n\nBackground\n• 19th-century laws forced councils to supply (31) ........ to households without a garden\n• the number of plots then dropped for half a century\n\nThree forms today\n• the (32) ........ — much the commonest, on ground nobody else has a use for\n• a farm on the flat roof of an existing building\n• an indoor farm lit by lamps\n\nWhat the survey found\n• a typical shared garden covers roughly (33) ........ square metres\n• a realistic yield is about (34) ........ times that of a field, and only for salad and soft fruit\n\nWhat it does for the city\n• a planted roof held back about (35) ........ of one heavy downpour\n• what gardeners mentioned most was (36) ........ with other people, not the food",
+  "stem_block": "GROWING FOOD IN CITIES\n\nBackground\n• 19th-century laws forced councils to supply (31) ........ to households without a garden\n• the number of plots then dropped for half a century\n\nThree forms today\n• the (32) ........ — much the commonest, on ground nobody else has a use for\n• a farm on the flat roof of an existing building\n• an indoor farm lit by lamps\n\nWhat the survey found\n• a typical shared garden covers roughly (33) ........ square metres\n• a realistic yield is about (34) ........ times that of a field, and only for salad and soft fruit\n\nWhat it does for the city\n• a planted roof held back about (35) ........ of one heavy downpour\n• the benefit named most often: (36) ........ with other people (exercise came second)",
   "table": null,
   "items": [
     {
@@ -122,7 +122,7 @@
     },
     {
       "number": 36,
-      "prompt": "what gardeners mentioned most was (36) ........ with other people, not the food",
+      "prompt": "the benefit named most often: (36) ........ with other people (exercise came second)",
       "answer": [
         "contact"
       ],
@@ -133,13 +133,22 @@
       "answer_point_id": "L1-S4-19",
       "turn_index": 7,
       "distractor_used": "exercise",
-      "explanation": "The benefit participants mentioned most often was not the food or the exercise, but the contact with other people.",
+      "explanation": "Sixty-eight per cent of the gardeners in the study named contact with other people; exercise came second and saving money came last.",
       "difficulty": "hard",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_basis": "frame_wording",
-      "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'bahçıvanların en çok andığı şey (36), yemek değil' çerçevesi 'başka insanlarla' kaydıyla birleşince boşluğa insan ilişkisi dışında aday bırakmıyor.",
-      "flag_mechanism": "cerceve_sozu"
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "uretilen_grup": "L1 dinleme - sizinti onarimi (yalniz kok / secenek / cerceve)",
+        "eski_prompt": "what gardeners mentioned most was (36) ........ with other people, not the food",
+        "eski_cevap": [
+          "contact"
+        ],
+        "neden_elendi": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'bahçıvanların en çok andığı şey (36), yemek değil' çerçevesi 'başka insanlarla' kaydıyla birleşince boşluğa insan ilişkisi dışında aday bırakmıyor.",
+        "ne_degisti": "Cevap (contact) ve dayanak noktasi ayni; degisen yalnizca not satiri. Eski cerceve 'yemek degil' karsitligini kendi icinde tasiyordu; 'baska insanlarla' kaydiyla birleserek bosluga insan iliskisi disinda aday birakmiyordu. Karsitlik cerceveden cikarilip sese birakildi - konusmada zaten 'not the food at all, but the contact with other people' diye geciyor. Cerceve notrlestirildi ve yerine, cevabi ele vermeyen ama dinleyene yer gosteren bir ayrinti kondu: egzersizin ikinci sirada gelmesi.",
+        "eski_cerceve_satiri": "• what gardeners mentioned most was (36) ........ with other people, not the food"
+      }
     }
   ]
 }

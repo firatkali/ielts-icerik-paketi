@@ -73,7 +73,7 @@
     },
     {
       "number": 30,
-      "prompt": "The tutor tells them that their opening should not be a (30) ........ of community energy.",
+      "prompt": "The tutor warns the group against opening their talk with a (30) ........ .",
       "answer": [
         "definition"
       ],
@@ -85,13 +85,21 @@
       "answer_point_id": "L1-S3-28",
       "turn_index": 33,
       "distractor_used": null,
-      "explanation": "Because everyone in the room has read the same section, the adviser says not to open the presentation with a definition.",
+      "explanation": "The adviser gives two things to avoid; the first is opening with a definition, because everyone in the room has read the same chapter.",
       "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_basis": "frame_wording",
-      "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'açılışları topluluk enerjisinin bir (30) olmamalı' çerçevesi sunum öğüdünün kalıp cümlesi ('tanımla açma'), boşluk kendi kalıbının içinde.",
-      "flag_mechanism": "cerceve_sozu"
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "uretilen_grup": "L1 dinleme - sizinti onarimi (yalniz kok / secenek / cerceve)",
+        "eski_prompt": "The tutor tells them that their opening should not be a (30) ........ of community energy.",
+        "eski_cevap": [
+          "definition"
+        ],
+        "neden_elendi": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'açılışları topluluk enerjisinin bir (30) olmamalı' çerçevesi sunum öğüdünün kalıp cümlesi ('tanımla açma'), boşluk kendi kalıbının içinde.",
+        "ne_degisti": "Cevap (definition) ve dayanak noktasi ayni; degisen yalnizca cumle cercevesi. Eski cerceve 'topluluk enerjisinin bir (30) olmamali' diyerek boslugu kendi kalibinin icine koyuyordu: 'X'in tanimi' tamlamasi ve 'acilista tanim yapma' ogudu birlikte cevabi sunum kliseleri bilgisiyle veriyordu. Yeni cerceveden hem 'of community energy' tamlamasi hem de kalibi tamamlayan karsitlik cikarildi; bosluga artik joke, apology, quotation, summary gibi adaylar da esit oturuyor, secim konusmadan yapiliyor."
+      }
     }
   ]
 }

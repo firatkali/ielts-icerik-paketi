@@ -19,7 +19,7 @@
       "options": [
         {
           "letter": "A",
-          "text": "2,000 words"
+          "text": "3,000 words"
         },
         {
           "letter": "B",
@@ -27,7 +27,7 @@
         },
         {
           "letter": "C",
-          "text": "3,000 words"
+          "text": "1,500 words"
         }
       ],
       "answer": [
@@ -37,15 +37,29 @@
       "answer_point_id": "L6-S3-01",
       "turn_index": 4,
       "distractor_analysis": {
-        "A": "Sesle hiç geçmeyen — 2.000 rakamı konuşmada yok; tartışma 3.000 ile 2.500 arasında.",
-        "C": "Söylendi sonra düzeltildi — Tomas 3.000 kelime sanıyor; Rhian sınırın yaz döneminde değiştiğini ve modül sayfasında artık 2.500 yazdığını söylüyor."
+        "A": "Söylendi sonra düzeltildi — Tomas üç bin kelime sanıyor; Rhian sınırın yaz döneminde değiştiğini ve modül sayfasında artık iki bin beş yüz yazdığını söylüyor.",
+        "C": "Sesle hiç geçmeyen — bin beş yüz rakamı konuşmada hiç geçmiyor."
       },
-      "explanation": "Tomas thinks it's 3,000 words; Rhian says the limit changed over the summer, the module page now says 2,500, and it's the handbook that hasn't been updated.",
+      "explanation": "Tomas thinks it is 3,000 words; Rhian says the limit changed over the summer, the module page now says 2,500, and it is the handbook that has not been updated.",
       "difficulty": "medium",
-      "status": "verified",
+      "status": "flagged",
       "blind_solvable": true,
-      "blind_basis": "number_guess",
-      "blind_note": "3/3 turda tutturuldu ama dayanak sayi/saat tahminiydi; tutturma orani uc secenekli sans oranina esit, sizinti sayilmadi."
+      "blind_basis": "letter_position",
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "uretilen_grup": "L6 çoktan seçmeli 21 (S3)",
+        "eski_mekanizma": null,
+        "eski_secenekler": [
+          "2,000 words",
+          "2,500 words",
+          "3,000 words"
+        ],
+        "neden_elendi": "Mekanizma alanı boştu; dayanak notu 'sayı/saat tahmini' diyordu. Gerçek kanal SAYI DİZİLİMİ: seçenekler 2.000 / 2.500 / 3.000 diye eşit aralıklı sıralanmıştı ve doğru cevap tam ortadaki değerdi — 'ortadaki sayıyı işaretle' kestirmesi konuşmayı duymadan çalışıyordu.",
+        "ne_degisti": "Duyulmayan çeldirici 2.000'den 3.500'e çekildi ve sayılar sıralı dizilmedi (A 3.000, B 2.500, C 3.500): doğru değer artık ne ortada ne de sıranın belli bir yerinde. Cevap harfi B, answer_point_id ve turn_index değişmedi.",
+        "ikinci_tur": "İlk yazımda duyulmayan çeldirici 3.500'e çekilmişti ama sessiz sınamanın 3/3 turunda hâlâ bulundu: kestirme 'ortadaki sayı' değil 'en kısa/en makul uzunluk' çıktı. Üçüncü sayı 1.500'e indirildi; doğru değer artık ne en kısası ne en uzunu."
+      },
+      "flag_reason": "YENIDEN ISARETLENDI 2026-08-18 (yazim turu, olcumle): sayi dizilimi iki kez degistirildi (2.000/2.500/3.000 -> 3.000/2.500/3.500 -> 3.000/2.500/1.500) ve dogru deger artik ne ortadaki ne en kisa ne en uzun sayi; buna ragmen alti bagimsiz sessiz turun altisinda da B bulundu. Kalan kanal sayinin kendisi degil SIK HARFI: dogru cevap uc secenekli soruda hep ortadaki harfte (B) duruyor. Kapatmasi tek satirlik ama 'answer' alanini degistirmeyi gerektiriyor: 2.500 degeri A ya da C harfine tasinmali. Bu tur 'cevap degismez' kurali altinda calistigi icin yapilmadi.",
+      "flag_mechanism": "konumsal_duzen"
     },
     {
       "number": 22,

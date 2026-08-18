@@ -213,7 +213,7 @@
       "instructions": "Complete the notes below. Write NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
       "word_limit": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
       "table": null,
-      "stem_block": "MOVING AND STORING WATER BEFORE MODERN PUMPS\n\nUnderground channels\n- age of the examples that can be dated with confidence: about (9) ........ years\n- water moves by gravity, so what has to be paid for is (10) ........ , not fuel\n\nStepped wells\n- the deepest of them descend as far as (11) ........\n\nOwnership and upkeep\n- a household's share was measured in (12) ........ , never in volume",
+      "stem_block": "MOVING AND STORING WATER BEFORE MODERN PUMPS\n\nUnderground channels\n- age of the examples that can be dated with confidence: about (9) ........ years\n- water moves by gravity, so what has to be paid for is (10) ........ , not fuel\n\nStepped wells\n- the deepest of them descend as far as (11) ........\n\nOwnership and upkeep\n- a household's share of the water was owned as (12) ........",
       "items": [
         {
           "number": 9,
@@ -281,7 +281,7 @@
         {
           "number": 12,
           "script_id": "L2-S4",
-          "prompt": "a household's share was measured in (12) ........ , never in volume",
+          "prompt": "a household's share of the water was owned as (12) ........",
           "answer": [
             "time"
           ],
@@ -292,13 +292,23 @@
           "answer_point_id": "L2-S4-22",
           "turn_index": 11,
           "distractor_used": null,
-          "explanation": "Because volume could not be measured, shares were defined as time; upkeep obligations were tied to that share too.",
+          "explanation": "Water from a shared channel was never sold by volume, since nobody could measure volume; a share was owned as time — an hour of the flow every twelve days, for example.",
           "difficulty": "medium",
-          "status": "flagged",
-          "blind_solvable": true,
-          "blind_basis": "frame_wording",
-          "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'bir hanenin payı (12) ile ölçülürdü, hacimle asla' çerçevesindeki karşıtlık hacmin karşısına konabilecek tek ölçüyü bırakıyor.",
-          "flag_mechanism": "cerceve_sozu"
+          "status": "verified",
+          "blind_solvable": false,
+          "blind_basis": null,
+          "yeniden_uretim": {
+            "uretilen_grup": "P-FN-03 cerceve (dinleme alistirma / note completion)",
+            "eski_cerceve": "a household's share was measured in (12) ........ , never in volume",
+            "eski_stem_block_satiri": "a household's share was measured in (12) ........ , never in volume",
+            "eski_cevap": [
+              "time"
+            ],
+            "neden_elendi": "cerceve_sozu: 'hacimle asla, (12) ile olculurdu' satirindaki karsitlik, hacmin karsisina konabilecek tek olcuyu birakiyordu.",
+            "ne_degisti": "Hacim karsitligi not satirindan cikarildi; satir notr bir 'neyle sahiplenildigi' sorusuna dondu. Karsitlik yalniz seste kaldi: 'Water from a shared channel was not sold by volume; nobody could measure volume. It was owned as time.' Not blogu da ayni sekilde guncellendi. Cevap, kanit ve turn_index degismedi.",
+            "tarih": "2026-08-18",
+            "kaynak_prompt": "denetim turu: dinleme alistirma yazim kusurlari (2026-08-18)"
+          }
         }
       ]
     },

@@ -13,7 +13,7 @@
   "word_limit": "NO MORE THAN THREE WORDS AND/OR A NUMBER",
   "options": null,
   "visual": null,
-  "stem_block": "BEHAVIOURAL ECONOMICS\n\nThe standard model\n- a decision-maker whose preferences never change\n- someone who holds every piece of information needed\n- attention that is (31) ........\n\nReference points\n- an outcome is read as a gain or a loss from where we happen to be\n- the ratio of a loss to a gain of the same size is nearer (32) ........ than the figure usually quoted\n\nFraming\n- one rail company printed the same punctuality figures two ways\n- the negative version almost doubled the number of (33) ........ in the month that followed\n\nDefaults\n- form needed in order to join a workplace savings scheme: about one in four took part\n- automatic enrolment, form needed in order to leave: about (34) ........ took part\n\nWhy a default works\n- effort: even a trivial obstacle reduces the numbers\n- the default quietly says what is normal\n- (35) ........: the intention to act is never carried out\n\nPresent bias\n- staff agree now to save more, but the extra money is only taken from the (36) ........",
+  "stem_block": "BEHAVIOURAL ECONOMICS\n\nThe standard model\n- a decision-maker whose preferences never change\n- someone who holds every piece of information needed\n- attention that is (31) ........\n\nReference points\n- an outcome is read as a gain or a loss from where we happen to be\n- the ratio of a loss to a gain of the same size is nearer (32) ........ than the figure usually quoted\n\nFraming\n- a rail operator put one punctuality statistic on its leaflets in two different wordings\n- a month later the two versions differed sharply in the number of (33) ........\n\nDefaults\n- form needed in order to join a workplace savings scheme: about one in four took part\n- automatic enrolment, form needed in order to leave: about (34) ........ took part\n\nWhy a default works\n- effort: even a trivial obstacle reduces the numbers\n- the default quietly says what is normal\n- (35) ........: the intention to act is never carried out\n\nPresent bias\n- staff agree now to save more, but the extra money is only taken from the (36) ........",
   "table": null,
   "items": [
     {
@@ -57,7 +57,7 @@
     },
     {
       "number": 33,
-      "prompt": "- the negative version almost doubled the number of (33) ........ in the month that followed",
+      "prompt": "- a month later the two versions differed sharply in the number of (33) ........",
       "answer": [
         "complaints"
       ],
@@ -68,13 +68,21 @@
       "answer_point_id": "L6-S4-08",
       "turn_index": 2,
       "distractor_used": null,
-      "explanation": "When the same punctuality figures are worded negatively, the number of complaints in the following month nearly doubles.",
+      "explanation": "The two leaflets carried identical information — nine in ten trains arrive on time, or one in ten trains is delayed — but the second wording produced nearly twice as many complaints over the following month.",
       "difficulty": "medium",
       "status": "flagged",
       "blind_solvable": true,
-      "blind_basis": "frame_wording",
-      "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'olumsuz sürüm ertesi ay (33) sayısını neredeyse iki katına çıkardı' çerçevesi olumsuz bir metnin artırabileceği tek sayılabilir şeyi bırakıyor.",
-      "flag_mechanism": "cerceve_sozu"
+      "blind_basis": "general_knowledge",
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "uretilen_grup": "L6 not tamamlama 33 (S4)",
+        "eski_mekanizma": "cerceve_sozu",
+        "eski_prompt": "- the negative version almost doubled the number of (33) ........ in the month that followed",
+        "neden_elendi": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'olumsuz sürüm ertesi ay (33) sayısını neredeyse iki katına çıkardı' çerçevesi olumsuz bir metnin artırabileceği tek sayılabilir şeyi bırakıyordu.",
+        "ne_degisti": "Karşıtlık çerçeveden sese taşındı: hangi sürümün hangi yönde etki ettiği ve 'iki katı' bilgisi artık yalnız konuşmada. Boşluk 'iki sürüm arasında farklılaşan sayı' diyor, şikâyet dışında yolcu / bilet / iade gibi adaylar da ayakta. Cevap, answer_point_id ve turn_index değişmedi."
+      },
+      "flag_reason": "YENIDEN ISARETLENDI 2026-08-18 (yazim turu, olcumle): cerceve_sozu kanali KAPANDI ('olumsuz surum ... iki katina cikardi' belirlenimi kaldirildi, karsitlik sese tasindi) ve alti sessiz turun ikisinde artik 'passengers' geldi. Ama 'complaints' hala en olasi tahmin (6 turun 4'u): olumsuz cerceveli bir metnin artirabilecegi sayilabilir tek sey sikayettir - bu GENEL KULTUR kanali. Kalici cozum bosluga senaryodaki baska bir olguyu anahtarlamak, yani cevabi degistirmek; senaryo isi, genel_kultur turuna birakildi.",
+      "flag_mechanism": "genel_kultur"
     },
     {
       "number": 34,

@@ -99,15 +99,15 @@
           "options": [
             {
               "letter": "A",
-              "text": "watch a weaving demonstration"
+              "text": "leave a bicycle in the racks"
             },
             {
               "letter": "B",
-              "text": "have a picnic"
+              "text": "sit at the tables provided"
             },
             {
               "letter": "C",
-              "text": "book it for private events"
+              "text": "watch the mill wheel turning"
             }
           ],
           "answer": [
@@ -117,16 +117,38 @@
           "answer_point_id": "L1-S2-32",
           "turn_index": 8,
           "distractor_analysis": {
-            "A": "Söylendi ama sorulan bu değil — dokuma gösterileri avluda değil, dokuma galerisinde yapılıyor.",
-            "C": "Sesle hiç geçmeyen çeldirici — özel etkinlik için kiralama hiç anılmıyor."
+            "A": "Ayni koke oturan cift (1): bisiklet standlari da bina disinda, konusmada gercekten aniliyor ve avlu kadar makul bir yer; ama konusmaci onlari kapinin hemen icinde gosteriyor.",
+            "C": "Ayni koke oturan cift (2): degirmen carki da acik havada gorulecek somut bir sey ve konusmada aniliyor; ama su anda yeniden yapiliyor, cevresi cevrili ve sonbahardan once donmeyecek."
           },
-          "explanation": "The speaker says there are picnic tables in the courtyard garden; she also adds that food and drink are allowed there.",
+          "explanation": "The speaker says there are picnic tables in the courtyard garden, and that food and drink are allowed out there.",
           "difficulty": "easy",
-          "status": "flagged",
-          "blind_solvable": true,
-          "blind_basis": "general_knowledge",
-          "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: avlu bahçesinde ne yapılabileceği sorulurken üç seçenekten yalnız 'piknik' bir bahçenin sıradan ziyaretçi imkânı, dokuma gösterisi ile özel etkinlik kiralaması kapalı mekâna ait.",
-          "flag_mechanism": "genel_kultur"
+          "status": "verified",
+          "blind_solvable": false,
+          "blind_basis": null,
+          "yeniden_uretim": {
+            "tarih": "2026-08-18",
+            "uretilen_grup": "L1 dinleme - sizinti onarimi (yalniz kok / secenek / cerceve)",
+            "eski_prompt": "What does the speaker say visitors can do in the courtyard garden?",
+            "eski_secenekler": [
+              {
+                "letter": "A",
+                "text": "watch a weaving demonstration"
+              },
+              {
+                "letter": "B",
+                "text": "have a picnic"
+              },
+              {
+                "letter": "C",
+                "text": "book it for private events"
+              }
+            ],
+            "eski_cevap": [
+              "B"
+            ],
+            "neden_elendi": "Senaryo gösterilmeden 3/3 turda doğru bilindi: avlu bahçesinde ne yapılabileceği sorulurken üç seçenekten yalnız 'piknik' bir bahçenin sıradan ziyaretçi imkânı, dokuma gösterisi ile özel etkinlik kiralaması kapalı mekâna ait.",
+            "ne_degisti": "Kok, cevap harfi (B) ve dayanak noktasi ayni kaldi; uc secenek de yeniden yazildi. Eski celdiriciler (dokuma gosterisi, ozel etkinlik kiralamasi) kapali mekana ait oldugu icin bahce sorusu duyulmadan eleniyordu ve geriye tek 'bahce isi' olan piknik kaliyordu. Yeni dizide ucu de acik havada gecen, konusmada gercekten anilan somut seyler; hicbiri digerinden daha 'bahceye ait' degil. Dogru secenek de 'piknik' gibi bahce klisesi bir sozle degil, konusmadaki ayrintiyla (disarida masa var) yazildi; ayrim artik yalnizca 'standlar nerede' ve 'cark su anda donuyor mu' bilgisiyle yapilabiliyor."
+          }
         }
       ]
     },
@@ -145,23 +167,23 @@
           "options": [
             {
               "letter": "A",
-              "text": "They take place on Sunday mornings."
+              "text": "They are held on Sunday mornings."
             },
             {
               "letter": "B",
-              "text": "Booking is required at the front desk."
+              "text": "Visitors must wear gloves to handle the objects."
             },
             {
               "letter": "C",
-              "text": "Visitors can handle objects not usually displayed."
+              "text": "The objects used are ones the galleries do not show."
             },
             {
               "letter": "D",
-              "text": "They happen twice a day."
+              "text": "Places must be booked in advance."
             },
             {
               "letter": "E",
-              "text": "There is no charge for them."
+              "text": "There is no charge to take part."
             }
           ],
           "answer": [
@@ -172,17 +194,48 @@
           "answer_point_id": "L1-S2-33",
           "turn_index": 11,
           "distractor_analysis": {
-            "A": "Söylendi sonra düzeltildi — seanslar başlangıçta Pazar sabahlarıydı; artık Cumartesi günleri yapılıyor.",
-            "B": "Söylendi ama sorulan bu değil — ön bankodaki form gönüllülük başvurusu için; seans rezervasyonu hiç istenmiyor.",
-            "D": "Söylendi ama sorulan bu değil — günde iki kez yapılan şey rehberli turlar, dokunma seansları değil."
+            "A": "Soylendi sonra duzeltildi - seanslar baslangicta Pazar sabahlariydi; artik Cumartesi gunleri, saat on birde yapiliyor.",
+            "B": "Genel kultur bilerek YANLIS secenege capandi: muzede nesneye eldivenle dokunulmasi herkesin bildigi bir kural gibi durur, ama konusmaci eldivenden hic soz etmiyor. C ile ayni yuvayi paylasiyor - iki secenek de 'nesnelere nasil/hangi nesnelere dokunuluyor' kokune oturuyor.",
+            "D": "Genel kultur yine YANLIS secenege capandi ve E ile ayni yuvayi paylasiyor: kontenjani sinirli bir seans icin rezervasyon beklenir, bu yuzden ikinci harf 'muzede bunlar ucretsizdir' varsayimiyla degil bu secenekle yarisarak seciliyor. Konusmada rezervasyon yalnizca sekiz kisiden kalabalik tur gruplari icin isteniyor; on bankodaki form ise gonulluluk basvurusu."
           },
-          "explanation": "In the sessions, visitors can handle objects that are not on display (C) and there is no charge (E). Second answer point: L1-S2-34.",
+          "explanation": "In the handling sessions visitors examine objects that are not on display (C), and there is no charge (E). Second answer point: L1-S2-34.",
           "difficulty": "medium",
-          "status": "flagged",
-          "blind_solvable": true,
-          "blind_basis": "option_wording",
-          "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: C seçeneği 'handling session'ın tanımını yeniden söylüyor (normalde sergilenmeyen nesnelere dokunmak), ikinci harf de müze etkinliklerinde ücretsizlik varsayımıyla geliyor.",
-          "flag_mechanism": "secenek_sozu"
+          "status": "verified",
+          "blind_solvable": false,
+          "blind_basis": null,
+          "yeniden_uretim": {
+            "tarih": "2026-08-18",
+            "uretilen_grup": "L1 dinleme - sizinti onarimi (yalniz kok / secenek / cerceve)",
+            "eski_prompt": "Which TWO statements about the handling sessions are correct?",
+            "eski_secenekler": [
+              {
+                "letter": "A",
+                "text": "They take place on Sunday mornings."
+              },
+              {
+                "letter": "B",
+                "text": "Booking is required at the front desk."
+              },
+              {
+                "letter": "C",
+                "text": "Visitors can handle objects not usually displayed."
+              },
+              {
+                "letter": "D",
+                "text": "They happen twice a day."
+              },
+              {
+                "letter": "E",
+                "text": "There is no charge for them."
+              }
+            ],
+            "eski_cevap": [
+              "C",
+              "E"
+            ],
+            "neden_elendi": "Senaryo gösterilmeden 3/3 turda doğru bilindi: C seçeneği 'handling session'ın tanımını yeniden söylüyor (normalde sergilenmeyen nesnelere dokunmak), ikinci harf de müze etkinliklerinde ücretsizlik varsayımıyla geliyor.",
+            "ne_degisti": "Kok, cevap harfleri (C, E) ve dayanak noktalari ayni kaldi; uc celdirici de yeniden yazildi. Eskiden C 'dokunma seansi'nin tanimini tekrarliyordu (cevap seansin adindan cikiyordu), E ise 'muzede bunlar ucretsizdir' varsayimiyla tek basina ayakta kaliyordu; kalan celdiriciler baska koklerle ilgiliydi, yani iki dogru secenegin karsisinda rakip yoktu. Yeni dizide iki celdirici genel kulturun cektigi yone yazildi - eldiven kurali ve on rezervasyon, dokunma seanslari icin herkesin dogru sandigi iki sey, ikisi de konusmada gecmiyor. C artik 'seansin tanimi' gibi degil duz bir bilgi olarak yazili ve eldiven secenegiyle ayni yuvayi paylasiyor; E ise rezervasyon secenegiyle yarisiyor. Disaridan gelen bilgi artik yanlis cevaba goturuyor."
+          }
         }
       ]
     },
@@ -232,15 +285,15 @@
           "section": 3,
           "script_id": "L1-S3",
           "select_count": 1,
-          "prompt": "How much time will the students have for the talk itself?",
+          "prompt": "How long will each group's talk last?",
           "options": [
             {
               "letter": "A",
-              "text": "five minutes"
+              "text": "fifteen minutes"
             },
             {
               "letter": "B",
-              "text": "fifteen minutes"
+              "text": "seventeen minutes"
             },
             {
               "letter": "C",
@@ -254,16 +307,38 @@
           "answer_point_id": "L1-S3-03",
           "turn_index": 6,
           "distractor_analysis": {
-            "A": "Söylendi ama sorulan bu değil — beş dakika sunum sonundaki soru bölümünün süresi.",
-            "B": "Söylendi sonra düzeltildi — özgün plan 15 dakikaydı; danışman süreyi 12 dakikaya indirdiğini söylüyor."
+            "A": "Soylendi sonra duzeltildi - ozgun plan on bes dakikaydi; ayni oturumda uc grup sunum yapacagi icin danisman sureyi kisaltiyor.",
+            "B": "Sesle gecmeyen ama sayilardan turetilen celdirici - on iki dakikalik konusma ile bes dakikalik soru bolumunun toplami; oturumun tamami bu kadar surer, konusmanin kendisi degil."
           },
-          "explanation": "Because three groups will present in the same session, the tutor has cut the talk time from 15 minutes to 12 minutes; five minutes is set aside for questions.",
+          "explanation": "Because three groups present in the same session, the tutor has cut the talk from fifteen minutes to twelve; the five minutes of questions come on top of that.",
           "difficulty": "easy",
-          "status": "flagged",
-          "blind_solvable": true,
-          "blind_basis": "option_wording",
-          "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'konuşmanın kendisi' kaydı on beş dakikalık yuvarlak slotu toplam süreye çevirip çeldiriciye düşürüyor, beş dakika bir sunum için fazla kısa kalınca geriye tek yuvarlak olmayan değer kalıyor.",
-          "flag_mechanism": "konumsal_duzen"
+          "status": "verified",
+          "blind_solvable": false,
+          "blind_basis": null,
+          "yeniden_uretim": {
+            "tarih": "2026-08-18",
+            "uretilen_grup": "L1 dinleme - sizinti onarimi (yalniz kok / secenek / cerceve)",
+            "eski_prompt": "How much time will the students have for the talk itself?",
+            "eski_secenekler": [
+              {
+                "letter": "A",
+                "text": "five minutes"
+              },
+              {
+                "letter": "B",
+                "text": "fifteen minutes"
+              },
+              {
+                "letter": "C",
+                "text": "twelve minutes"
+              }
+            ],
+            "eski_cevap": [
+              "C"
+            ],
+            "neden_elendi": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'konuşmanın kendisi' kaydı on beş dakikalık yuvarlak slotu toplam süreye çevirip çeldiriciye düşürüyor, beş dakika bir sunum için fazla kısa kalınca geriye tek yuvarlak olmayan değer kalıyor.",
+            "ne_degisti": "Cevap (12 dakika), harf (C) ve dayanak noktasi ayni kaldi. Kokteki 'the talk itself' vurgusu kaldirildi; bu vurgu tek basina 'demek ki toplamdan soru suresi dusulecek' hesabini davet ediyordu. 'Bes dakika' secenegi cikarildi: bir sunum icin acikca kisa oldugu icin duyulmadan eleniyordu ve geriye yuvarlak olmayan tek deger olarak dogru cevap kaliyordu. Yerine 12 + 5 toplamindan turetilen 'on yedi dakika' kondu; boylece yuvarlak olmayan iki deger var ve 'yuvarlak olani ele' refleksi tek basina cevabi vermiyor."
+          }
         },
         {
           "number": 23,

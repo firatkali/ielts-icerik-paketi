@@ -15,27 +15,27 @@
     "options": [
       {
         "letter": "A",
-        "text": "People will give up if it takes too long."
+        "text": "the adviser puts a firm limit on it"
       },
       {
         "letter": "B",
-        "text": "The results can simply be added together."
+        "text": "it will save them time once the fieldwork is over"
       },
       {
         "letter": "C",
-        "text": "Both a weekday and a Saturday are needed."
+        "text": "using only one of the two would give a misleading picture"
       },
       {
         "letter": "D",
-        "text": "They belong at the very end of the form."
+        "text": "it must be settled before the ethics form goes in"
       },
       {
         "letter": "E",
-        "text": "No two people would record them the same way."
+        "text": "the department lays down a minimum they must meet"
       },
       {
         "letter": "F",
-        "text": "Unfinished forms can still provide useful data."
+        "text": "the handbook's advice on it is out of date"
       }
     ]
   },
@@ -53,19 +53,33 @@
       "answer_point_id": "L5-S3-09",
       "turn_index": 13,
       "distractor_analysis": {
-        "A": "Söylendi ama sorulan bu değil — vazgeçip gitme uyarısı görüşmenin toplam süresi hakkında.",
-        "C": "Söylendi ama sorulan bu değil — bir hafta içi bir Cumartesi kuralı görüşme günlerine ait.",
-        "D": "Söylendi ama sorulan bu değil — formun en sonuna konacak olanlar iki açık uçlu soru, ölçek değil.",
-        "E": "Söylendi ama sorulan bu değil — aynı replikte geçen tutarsız kodlama Marit'in açık uçlu yanıtlara itirazı; ölçek tam tersine toplanabilir.",
-        "F": "Söylendi ama tersine çevrildi — danışmana göre yarım kalan form hiç formdan beterdir."
+        "A": "Söylendi ama sorulan bu değil — danışmanın koyduğu kesin sınır görüşmenin süresine ait: dört dakikanın altında kalacak, sonrasında insanlar cümlenin ortasında yürüyüp gidiyor.",
+        "C": "Söylendi ama sorulan bu değil — 'ikisinden yalnız biri yanıltır' kıyası görüşme günlerine ait: tek başına Cumartesi yalnız hafta sonu alışveriş edenleri anlatıyor.",
+        "D": "Sesle hiç geçmeyen — etik formunun teslimi ayrı bir konu (tarih beşine çekildi); ne ölçeğin, ne sürenin, ne de günlerin ondan önce kesinleşmesi gerektiği söyleniyor.",
+        "E": "Söylendi ama sorulan bu değil — bölümün koyduğu alt sınır tamamlanmış yanıt sayısı (yüz yirmi); anketin biçimiyle ilgisi yok.",
+        "F": "Söylendi ama sorulan bu değil — el kitabının geride kalması rapor uzunluğuna ait; iki bin yerine iki bin beş yüz kelime."
       },
-      "explanation": "Defending the five-point scale, Marit says that at the end you have something you can actually add up; the interview takes ninety seconds in a doorway.",
+      "explanation": "Defending the five-point scale, Marit says that no two people would code open answers the same way, whereas at the end of a scale you have something you can actually add up.",
       "difficulty": "hard",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_basis": "option_wording",
-      "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'sonuçlar basitçe toplanabilir' yalnız bir ölçek kökü (beş puanlı ölçek) için söylenebilir.",
-      "flag_mechanism": "secenek_sozu"
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "uretilen_grup": "L5 eşleştirme 24-26 (A-F kutusu bütün olarak yeniden yazıldı)",
+        "eski_mekanizma": "secenek_sozu",
+        "eski_kutu": [
+          "People will give up if it takes too long.",
+          "The results can simply be added together.",
+          "Both a weekday and a Saturday are needed.",
+          "They belong at the very end of the form.",
+          "No two people would record them the same way.",
+          "Unfinished forms can still provide useful data."
+        ],
+        "eski_secenek_metni": "The results can simply be added together.",
+        "neden_elendi": "'sonuçlar basitçe toplanabilir' yalnız bir ölçek kökü için söylenebiliyordu; kutunun her seçeneği kendi kökünü adlandırdığı için üç kök de konuşma duyulmadan çıkıyordu.",
+        "ne_degisti": "Seçeneklerin sözü kökten koparıldı: altı seçeneğin altısı da üç kökün en az ikisine oturuyor, ayrım yalnız konuşmadaki ayrıntıda. Cevap harfleri (24=B, 25=A, 26=C), answer_point_id ve turn_index değişmedi."
+      }
     },
     {
       "number": 25,
@@ -79,19 +93,34 @@
       "answer_point_id": "L5-S3-11",
       "turn_index": 16,
       "distractor_analysis": {
-        "B": "Söylendi ama sorulan bu değil — toplanabilirlik beşli ölçeğin üstünlüğü olarak geçiyor.",
-        "C": "Söylendi ama sorulan bu değil — gün seçimi kuralı görüşme günlerine ait.",
-        "D": "Söylendi ama sorulan bu değil — form sonu, açık uçlu soruların yeri.",
-        "E": "Söylendi ama sorulan bu değil — kodlama itirazı açık uçlu yanıtlar hakkında.",
-        "F": "Söylendi ama tersine çevrildi — aynı replikte danışman yarım formun hiç formdan beter olduğunu söylüyor; işe yarar demiyor."
+        "B": "Söylendi ama sorulan bu değil — saha sonrası iş yükünü azaltan şey beşli ölçek: açık uçlu yanıtları iki kişi aynı şekilde kodlamıyor, ölçek ise doğrudan toplanabiliyor.",
+        "C": "Söylendi ama sorulan bu değil — 'ikisinden yalnız biri yanıltır' kıyası görüşme günlerine ait: tek başına Cumartesi yalnız hafta sonu alışveriş edenleri anlatıyor.",
+        "D": "Sesle hiç geçmeyen — etik formunun teslimi ayrı bir konu (tarih beşine çekildi); ne ölçeğin, ne sürenin, ne de günlerin ondan önce kesinleşmesi gerektiği söyleniyor.",
+        "E": "Söylendi ama sorulan bu değil — bölümün koyduğu alt sınır tamamlanmış yanıt sayısı (yüz yirmi); anketin biçimiyle ilgisi yok.",
+        "F": "Söylendi ama sorulan bu değil — el kitabının geride kalması rapor uzunluğuna ait; iki bin yerine iki bin beş yüz kelime."
       },
-      "explanation": "According to the adviser, past four minutes people start walking off mid-sentence, and a half-finished form is worse than no form at all.",
+      "explanation": "According to the adviser, the interview must stay under four minutes: past that point people begin walking off mid-sentence, and a half-finished form is worse than no form at all.",
       "difficulty": "easy",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_basis": "option_wording",
-      "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'çok uzun sürerse insanlar bırakır' yalnız 'görüşmenin uzunluğu' kökünü yeniden söylüyor.",
-      "flag_mechanism": "secenek_sozu"
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "uretilen_grup": "L5 eşleştirme 24-26 (A-F kutusu bütün olarak yeniden yazıldı)",
+        "eski_mekanizma": "secenek_sozu",
+        "eski_kutu": [
+          "People will give up if it takes too long.",
+          "The results can simply be added together.",
+          "Both a weekday and a Saturday are needed.",
+          "They belong at the very end of the form.",
+          "No two people would record them the same way.",
+          "Unfinished forms can still provide useful data."
+        ],
+        "eski_secenek_metni": "People will give up if it takes too long.",
+        "neden_elendi": "'çok uzun sürerse insanlar bırakır' kökü aynen tekrar ediyordu; kutunun her seçeneği kendi kökünü adlandırdığı için üç kök de konuşma duyulmadan çıkıyordu.",
+        "ne_degisti": "Seçeneklerin sözü kökten koparıldı: altı seçeneğin altısı da üç kökün en az ikisine oturuyor, ayrım yalnız konuşmadaki ayrıntıda. Cevap harfleri (24=B, 25=A, 26=C), answer_point_id ve turn_index değişmedi.",
+        "ikinci_tur": "İlk yazımda A seçeneği ('getting it wrong means losing people part-way through') hâlâ süre kökünü tekrarlıyordu ve sessiz sınamanın 2/2 turunda bulundu; 'danışman ona kesin bir sınır koyuyor' hâline getirildi, artık ölçek ve günler kökleri için de söylenebiliyor."
+      }
     },
     {
       "number": 26,
@@ -105,19 +134,33 @@
       "answer_point_id": "L5-S3-14",
       "turn_index": 19,
       "distractor_analysis": {
-        "A": "Söylendi ama sorulan bu değil — vazgeçme uyarısı görüşmenin süresiyle ilgili.",
-        "B": "Söylendi ama sorulan bu değil — toplanabilirlik ölçeğin özelliği.",
-        "D": "Söylendi ama sorulan bu değil — açık uçluların yeri form sonu; günlerle ilgisi yok.",
-        "E": "Söylendi ama sorulan bu değil — kodlama itirazı açık uçlu yanıtlara ait.",
-        "F": "Söylendi ama tersine çevrildi — yarım formun beter olduğu söyleniyor, işe yaradığı değil."
+        "A": "Söylendi ama sorulan bu değil — danışmanın koyduğu kesin sınır görüşmenin süresine ait: dört dakikanın altında kalacak, sonrasında insanlar cümlenin ortasında yürüyüp gidiyor.",
+        "B": "Söylendi ama sorulan bu değil — saha sonrası iş yükünü azaltan şey beşli ölçek: açık uçlu yanıtları iki kişi aynı şekilde kodlamıyor, ölçek ise doğrudan toplanabiliyor.",
+        "D": "Sesle hiç geçmeyen — etik formunun teslimi ayrı bir konu (tarih beşine çekildi); ne ölçeğin, ne sürenin, ne de günlerin ondan önce kesinleşmesi gerektiği söyleniyor.",
+        "E": "Söylendi ama sorulan bu değil — bölümün koyduğu alt sınır tamamlanmış yanıt sayısı (yüz yirmi); anketin biçimiyle ilgisi yok.",
+        "F": "Söylendi ama sorulan bu değil — el kitabının geride kalması rapor uzunluğuna ait; iki bin yerine iki bin beş yüz kelime."
       },
-      "explanation": "The adviser wants one weekday and one Saturday: a Saturday-only sample would represent only weekend shoppers.",
+      "explanation": "The adviser wants one weekday and one Saturday: a Saturday sample on its own would only tell them about people who shop at weekends, which is not the question they set out to answer.",
       "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_basis": "option_wording",
-      "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'hem bir hafta içi hem bir cumartesi gerekli' yalnız gün kökü için söylenebilir, kutunun her seçeneği kendi kökünü adlandırdığı için üç kök de zorlanmadan çıkıyor.",
-      "flag_mechanism": "secenek_sozu"
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "uretilen_grup": "L5 eşleştirme 24-26 (A-F kutusu bütün olarak yeniden yazıldı)",
+        "eski_mekanizma": "secenek_sozu",
+        "eski_kutu": [
+          "People will give up if it takes too long.",
+          "The results can simply be added together.",
+          "Both a weekday and a Saturday are needed.",
+          "They belong at the very end of the form.",
+          "No two people would record them the same way.",
+          "Unfinished forms can still provide useful data."
+        ],
+        "eski_secenek_metni": "Both a weekday and a Saturday are needed.",
+        "neden_elendi": "'hem bir hafta içi hem bir cumartesi gerekli' yalnız gün kökü için söylenebiliyordu; kutunun her seçeneği kendi kökünü adlandırdığı için üç kök de konuşma duyulmadan çıkıyordu.",
+        "ne_degisti": "Seçeneklerin sözü kökten koparıldı: altı seçeneğin altısı da üç kökün en az ikisine oturuyor, ayrım yalnız konuşmadaki ayrıntıda. Cevap harfleri (24=B, 25=A, 26=C), answer_point_id ve turn_index değişmedi."
+      }
     }
   ]
 }

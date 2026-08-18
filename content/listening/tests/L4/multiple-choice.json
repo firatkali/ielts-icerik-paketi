@@ -51,19 +51,19 @@
     {
       "number": 25,
       "select_count": 1,
-      "prompt": "According to the tutor, what is the only reliable way to test the poster?",
+      "prompt": "The tutor says they should print part of the poster at its final size as a test. How much does she tell them to print?",
       "options": [
         {
           "letter": "A",
-          "text": "cutting the text to four hundred words"
+          "text": "the title on its own"
         },
         {
           "letter": "B",
-          "text": "printing one part of it at full size"
+          "text": "one corner of it"
         },
         {
           "letter": "C",
-          "text": "setting the body text at twenty-four point"
+          "text": "the top half of it"
         }
       ],
       "answer": [
@@ -73,33 +73,43 @@
       "answer_point_id": "L4-S3-16",
       "turn_index": 17,
       "distractor_analysis": {
-        "A": "Söylendi ama sorulan bu değil — metni yarıya (yaklaşık 400 kelimeye) indirmek danışmanın gerçek bir tavsiyesi ama 'işe yarayan tek test' dediği şey değil.",
-        "C": "Söylendi sonra düzeltildi — 24 punto Idris'in çalıştığı boyut; danışman bunu 'çok küçük, gövdede 30'un altı olmaz' diye düzeltiyor."
+        "A": "Söylendi ama sorulan bu değil — başlıkla ilgili söylenen şey üç metre uzaktan okunabilmesi gerektiği; basılması istenen parça başlık değil.",
+        "C": "Sesle hiç geçmeyen — posterin yarısı diye bir ölçü geçmiyor; deneme baskısı posterin bir köşesi kadar."
       },
-      "explanation": "According to the tutor, the only test that works is printing one corner of the poster at full size, pinning it up and walking down the corridor to look at it.",
+      "explanation": "Before the whole poster goes to be printed, the tutor tells them to print one corner of it at full size, pin it up and walk down the corridor to look at it.",
       "difficulty": "hard",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_basis": "option_wording",
-      "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: kök 'posteri sınamanın tek güvenilir yolu' diyerek bir sınama eylemi istiyor, 'bir bölümünü gerçek boyutta basmak' tek sınama, diğer ikisi (metni kısaltmak, punto ayarlamak) düzenleme.",
-      "flag_mechanism": "secenek_sozu"
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "uretilen_grup": "L4 çoktan seçmeli 25 - kök ve seçenekler yeniden yazıldı",
+        "eski_prompt": "According to the tutor, what is the only reliable way to test the poster?",
+        "eski_secenekler": [
+          "cutting the text to four hundred words",
+          "printing one part of it at full size",
+          "setting the body text at twenty-four point"
+        ],
+        "neden_elendi": "Seçenek sözü: kök bir sınama eylemi istiyordu ama üç seçenekten yalnız biri sınamaydı; kalan ikisi (metni kısaltmak, punto ayarlamak) düzenleme işiydi ve konuşma dinlenmeden eleniyordu.",
+        "ne_degisti": "Kök iki kez elden geçti. Önce 'işe yarayan tek sınama hangisi' biçimi bırakıldı; o biçim poster tasarımında bilinen doğru cevaba davet çıkarıyordu. Sonuçta kalan biçim de aynı sızıntıyı verdi (üç turda da 'gerçek boyutta parça baskı' bilindi), çünkü doğru seçenek dünyada bilinen tavsiyeydi. Son hâlde tavsiyenin kendisi köke taşındı ('bir parçasını gerçek boyutta basın' artık soruda yazılı) ve soru tümüyle keyfî bir ayrıntıya indi: ne kadarı? Üç seçenek de (başlık, bir köşe, üst yarı) eşit ölçüde akla yatkın; ayrımı yalnız ses kuruyor. Cevap harfi (B), kanıt cümlesi, answer_point_id ve turn_index değişmedi."
+      }
     },
     {
       "number": 26,
       "select_count": 1,
-      "prompt": "What does Anneke say about paying the copy shop?",
+      "prompt": "What does Anneke say about paying the copy shop to print the poster?",
       "options": [
         {
           "letter": "A",
-          "text": "It is unnecessary because the plotter is free."
+          "text": "It is worth it for the better quality of the printing."
         },
         {
           "letter": "B",
-          "text": "Two groups paid it last year."
+          "text": "It becomes unnecessary once the plotter is booked."
         },
         {
           "letter": "C",
-          "text": "It is preferable to missing the deadline."
+          "text": "It is worth it to be sure of meeting the deadline."
         }
       ],
       "answer": [
@@ -109,16 +119,26 @@
       "answer_point_id": "L4-S3-18",
       "turn_index": 20,
       "distractor_analysis": {
-        "A": "Başkası söyledi — hiç para harcamak istemeyen Idris; plotter'ın ücretsiz olduğunu Anneke söylüyor ama vardığı sonuç bunun tersi.",
-        "B": "Söylendi ama sorulan bu değil (çarpıtma) — geçen yıl iki grup parayı ödemedi, son teslim tarihini kaçırdı."
+        "A": "Sesle hiç geçmeyen — baskı kalitesinden hiç söz edilmiyor; kopya dükkânı için söylenen tek şey on sekiz sterlin ücreti.",
+        "B": "Başkası söyledi — plotter'ın hemen ayırtılmasını, üç iş günü sürdüğünü söyleyen danışman."
       },
-      "explanation": "Anneke would rather pay eighteen pounds than miss the deadline; she reminds them that two groups missed it last year.",
+      "explanation": "Anneke says she would rather pay the eighteen pounds than miss the deadline, reminding them that two groups missed it last year.",
       "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_basis": "option_wording",
-      "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: kök 'Anneke ne diyor' diye görüş soruyor, üç seçenekten yalnız 'teslim tarihini kaçırmaya yeğdir' bir görüş bildiriyor, kalan ikisi olgu iddiası.",
-      "flag_mechanism": "secenek_sozu"
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "uretilen_grup": "L4 çoktan seçmeli 26 - kök ve seçenekler yeniden yazıldı",
+        "eski_prompt": "What does Anneke say about paying the copy shop?",
+        "eski_secenekler": [
+          "It is unnecessary because the plotter is free.",
+          "Two groups paid it last year.",
+          "It is preferable to missing the deadline."
+        ],
+        "neden_elendi": "Seçenek sözü: kök bir görüş soruyordu ama üç seçenekten yalnız biri görüş bildiriyordu, kalan ikisi olgu iddiasıydı; konuşma dinlenmeden eleniyorlardı.",
+        "ne_degisti": "Seçenekler iki kez elden geçti. İlk elden geçirmede üçü de karşılaştırma kalıbına sokuldu ama sızıntı sürdü: üç seçenekten yalnız doğru olan para ödemeyi SAVUNUYORDU, kök de 'ödeme konusunda ne diyor' diye sorduğu için savunan seçenek kendiliğinden cevap gibi duruyordu. Son hâlde iki seçenek ödemeyi savunuyor (biri kalite, biri teslim tarihi gerekçesiyle), biri karşı çıkıyor; hangi gerekçenin Anneke'ye ait olduğu ancak sesle biliniyor. Cevap harfi (C), kanıt cümlesi, answer_point_id ve turn_index değişmedi."
+      }
     }
   ]
 }

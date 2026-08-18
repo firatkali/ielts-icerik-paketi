@@ -23,19 +23,19 @@
           "section": 2,
           "script_id": "L2-S2",
           "select_count": 1,
-          "prompt": "How long was the library closed for the refurbishment?",
+          "prompt": "What does the librarian say about the length of the closure?",
           "options": [
             {
               "letter": "A",
-              "text": "twelve months"
+              "text": "It was three months longer than planned."
             },
             {
               "letter": "B",
-              "text": "eighteen months"
+              "text": "It was six months longer than planned."
             },
             {
               "letter": "C",
-              "text": "two years"
+              "text": "It was a year longer than planned."
             }
           ],
           "answer": [
@@ -45,15 +45,38 @@
           "answer_point_id": "L2-S2-02",
           "turn_index": 1,
           "distractor_analysis": {
-            "A": "Söylendi sonra düzeltildi — konuşmacı bir yıl kapalı kalmayı beklediklerini söylüyor; iş sonunda on sekiz ay sürdü.",
-            "C": "Sesle hiç geçmeyen çeldirici — iki yıllık bir süre hiç anılmıyor."
+            "A": "Sesle hiç geçmeyen çeldirici — üç aylık bir gecikme hiç anılmıyor; konuşmadaki iki süre bir yıllık plan ve on sekiz aylık gerçekleşme.",
+            "C": "Sesle hiç geçmeyen çeldirici — bir yıllık gecikme planın iki katı demek olurdu; iş bir yıl değil altı ay sarktı."
           },
-          "explanation": "The librarian says they expected to be closed for a year, but because of the heating pipes the work took eighteen months.",
-          "difficulty": "medium",
+          "explanation": "The library expected to be shut for a year, but once the floorboards came up the heating pipes turned out to be past saving and the work took eighteen months — six months longer than planned.",
+          "difficulty": "hard",
           "status": "verified",
-          "blind_solvable": true,
-          "blind_basis": "number_guess",
-          "blind_note": "3/3 turda tutturuldu ama dayanak sayi/saat tahminiydi; tutturma orani uc secenekli sans oranina esit, sizinti sayilmadi."
+          "blind_solvable": false,
+          "blind_basis": null,
+          "yeniden_uretim": {
+            "tarih": "2026-08-18",
+            "mekanizma": "mekanizmasiz - sayi/saat tahmini (Goldilocks + bicim tekligi)",
+            "eski_prompt": "How long was the library closed for the refurbishment?",
+            "eski_secenekler": [
+              "twelve months",
+              "eighteen months",
+              "two years"
+            ],
+            "eski_cevap": [
+              "B"
+            ],
+            "eski_kanit_cumlesi": "We closed in March last year expecting to be shut for a year; in the end it took eighteen months",
+            "eski_blind_note": "3/3 turda tutturuldu ama dayanak sayi/saat tahminiydi; tutturma orani uc secenekli sans oranina esit, sizinti sayilmadi.",
+            "neden_elendi": "Kanal: secenek kumesi 'plan / makul asim / asiri asim' merdiveni kuruyordu. 'twelve months' plan degeriydi, 'two years' asiri ucdu; sesi duymayan cozucu ikisini eleyip ortadaki on sekiz aya gidiyordu (bicim tekligi: tek ay-cinsinden olmayan secenek 'two years' idi).",
+            "ne_degisti": "Uc secenek de ay cinsinden ve esit arali yapildi (15/18/21). Plan degeri secenekten cikarildi, boylece 'plani ele, asimi sec' kestirmesi kalmadi; ayirt etme yalnizca konusmadaki sayiyi duymaya bagli. Cevap harfi B, gercek (18 ay) ve turn_index degismedi. IKINCI ELDEN GECIRME: mutlak sayilar seceneklerden tumden cikarildi; uc secenek de gecikmeyi plana gore ifade ediyor (uc ay / alti ay / bir yil sarkma). Boylece 'bir kutuphane tadilati genelde on sekiz ay surer' onsezisi devre disi kaldi ve kalem artik iki sayiyi birden (planlanan bir yil ve gerceklesen on sekiz ay) duymayi gerektiriyor. Cevap harfi B, gercek (18 ay), answer_point_id ve turn_index degismedi.",
+            "ara_secenekler_2026_08_18": [
+              "fifteen months",
+              "eighteen months",
+              "twenty-one months"
+            ],
+            "sessiz_sinama_1": "Uc turun ucunde de dogru bilindi (3/3). 15/18/21 ay kumesinde 'eighteen months' tek deyimsel deger oldugu icin sayi onsezisi hala calisiyordu.",
+            "sessiz_sinama_son": "Son sessiz sinama (2026-08-18, uc bagimsiz tur, senaryo GORULMEDEN, ayni turlarda dokunulmamis kalemlerin taban orani %15): 1/3 (B, A, C) — uc secenekli sans orani; oruntu kalmadi."
+          }
         },
         {
           "number": 12,
@@ -95,11 +118,11 @@
           "section": 2,
           "script_id": "L2-S2",
           "select_count": 1,
-          "prompt": "When does the reading group now meet?",
+          "prompt": "When does the reading group meet?",
           "options": [
             {
               "letter": "A",
-              "text": "on the first Tuesday of the month"
+              "text": "on the second Monday of the month"
             },
             {
               "letter": "B",
@@ -107,7 +130,7 @@
             },
             {
               "letter": "C",
-              "text": "on Saturday mornings at half past ten"
+              "text": "on the second Thursday of the month"
             }
           ],
           "answer": [
@@ -117,15 +140,44 @@
           "answer_point_id": "L2-S2-21",
           "turn_index": 9,
           "distractor_analysis": {
-            "A": "Söylendi sonra düzeltildi — okuma grubu eskiden ayın ilk Salı'sında toplanıyordu; o akşam artık koronun.",
-            "C": "Söylendi ama sorulan bu değil — Cumartesi sabahı on buçuk, beş yaş altı için masal saatinin zamanı."
+            "A": "Sesle hiç geçmeyen çeldirici — Pazartesi hiç anılmıyor. Üç seçenek de 'ayın ikinci ...' kalıbını paylaştığı için sıra sayısı hiçbir ipucu taşımıyor; ayrım yalnız gün adını duymakla açılıyor.",
+            "C": "Söylendi ama sorulan bu değil — Perşembe kütüphanenin sekize kadar açık kaldığı gün; okuma grubunun toplandığı gün değil."
           },
-          "explanation": "The reading group now meets on the second Tuesday of the month at seven; the choir has taken the first Tuesday evening.",
+          "explanation": "The reading group now meets on the second Tuesday of the month at seven, the choir having taken over the first Tuesday evening.",
           "difficulty": "medium",
           "status": "verified",
-          "blind_solvable": true,
-          "blind_basis": "number_guess",
-          "blind_note": "3/3 turda tutturuldu ama dayanak sayi/saat tahminiydi; tutturma orani uc secenekli sans oranina esit, sizinti sayilmadi."
+          "blind_solvable": false,
+          "blind_basis": null,
+          "yeniden_uretim": {
+            "tarih": "2026-08-18",
+            "mekanizma": "mekanizmasiz - sayi/saat tahmini (bicim tekligi + 'now' degisim isareti)",
+            "eski_prompt": "When does the reading group now meet?",
+            "eski_secenekler": [
+              "on the first Tuesday of the month",
+              "on the second Tuesday of the month",
+              "on Saturday mornings at half past ten"
+            ],
+            "eski_cevap": [
+              "B"
+            ],
+            "eski_kanit_cumlesi": "The reading group meets on the second Tuesday of the month at seven; it used to be the first Tuesday, but the choir has that evening now.",
+            "eski_blind_note": "3/3 turda tutturuldu ama dayanak sayi/saat tahminiydi; tutturma orani uc secenekli sans oranina esit, sizinti sayilmadi.",
+            "neden_elendi": "Kanal: C secenegi ('Cumartesi sabahi on bucuk') bicim olarak digerlerinden farkliydi ve duyulmadan eleniyordu; geriye kalan 'ilk Sali / ikinci Sali' ikilisinde kokteki 'now' bir degisim oldugunu haber verdigi icin 'eski olan ilk, yeni olan ikinci' kestirmesi caliyordu.",
+            "ne_degisti": "Uc secenek de ayni bicime oturtuldu (ilk / ikinci / ucuncu Sali) ve kokten 'now' cikarildi; artik hangisinin eski hangisinin yeni oldugu ancak sesten anlasiliyor. Cevap harfi B, gercek (ayin ikinci Sali'si) ve turn_index degismedi. IKINCI ELDEN GECIRME: merdiven yerine capraz ozellik kuruldu — C secenegi B ile 'ayin ikinci'sini, A ile de gun adini (Sali) paylasiyor. Hicbir secenek tek basina ayirt edici bir ozellik tasimadigi icin sesi duymadan eleme yapilamiyor. Cevap harfi B, gercek ve turn_index degismedi. UCUNCU ELDEN GECIRME: sira sayisi uc secenekte de sabitlendi ('ayin ikinci ...'), degisken yalnizca gun adi birakildi (Pazartesi / Sali / Persembe). Boylece 'ikinci' sozcugu artik hicbir ayirt edici bilgi tasimiyor ve sesi duymayan cozucunun elinde yalnizca gun adi tahmini kaliyor. Cevap harfi B, gercek (ayin ikinci Sali'si), answer_point_id ve turn_index degismedi.",
+            "ara_secenekler_2026_08_18": [
+              "on the first Tuesday of the month",
+              "on the second Tuesday of the month",
+              "on the third Tuesday of the month"
+            ],
+            "sessiz_sinama_1": "Uc turun ikisinde dogru bilindi (2/3). Ilk/ikinci/ucuncu Sali merdiveninde ortadaki secenek hala one cikiyordu.",
+            "ara_secenekler_2_2026_08_18": [
+              "on the first Tuesday of the month",
+              "on the second Tuesday of the month",
+              "on the second Thursday of the month"
+            ],
+            "sessiz_sinama_2": "Ilk/ikinci Sali + ikinci Persembe kumesinde uc turun ucunde de dogru bilindi (3/3): 'ayin ikinci Sali'si' aday olarak tek basina one cikiyordu.",
+            "sessiz_sinama_son": "Son sessiz sinama (2026-08-18, uc bagimsiz tur, senaryo GORULMEDEN, ayni turlarda dokunulmamis kalemlerin taban orani %15): 1/3 (C, B, A) — uc secenekli sans orani; uc tur uc ayri harf verdi."
+          }
         }
       ]
     },
@@ -144,23 +196,23 @@
           "options": [
             {
               "letter": "A",
-              "text": "It shows the building as it looked in 1906."
+              "text": "It shows the town as it looked in 1906."
             },
             {
               "letter": "B",
-              "text": "It is displayed in the children's library."
+              "text": "A plaque beside it names everyone who worked on it."
             },
             {
               "letter": "C",
-              "text": "It was painted by local schoolchildren."
+              "text": "Children from two local primary schools painted it."
             },
             {
               "letter": "D",
-              "text": "It was designed by the community librarian."
+              "text": "Pupils from the secondary school across the park painted it."
             },
             {
               "letter": "E",
-              "text": "A leaflet explains what it contains."
+              "text": "A leaflet by the door explains what is in it."
             }
           ],
           "answer": [
@@ -171,17 +223,43 @@
           "answer_point_id": "L2-S2-25",
           "turn_index": 12,
           "distractor_analysis": {
-            "A": "Söylendi ama sorulan bu değil — bin dokuz yüz altı binanın açılış yılı; resmin içeriği olarak anılmıyor.",
-            "B": "Söylendi ama sorulan bu değil — çocuk kütüphanesi konuşmanın başka yerinde geçiyor; resim merdiven boşluğunda.",
-            "D": "Sesle hiç geçmeyen çeldirici — resmi kütüphanecinin tasarladığı hiç söylenmiyor."
+            "A": "Söylendi ama sorulan bu değil — bin dokuz yüz altı binanın açılış yılı; resmin kasabayı o günkü hâliyle gösterdiği söylenmiyor.",
+            "B": "Sesle hiç geçmeyen çeldirici — resmin yanında bir plaket bulunduğu söylenmiyor. B ile E aynı köke oturuyor: ikisi de 'resmin yanında okunacak bir şey var' yuvasını dolduruyor; ayrım yalnız sesteki ayrıntıyla (kapının yanındaki broşür) açılıyor.",
+            "D": "Söylendi ama sorulan bu değil — resmi parkın iki yanındaki iki ilkokulun çocukları boyadı; ortaokuldan hiç söz edilmiyor. D ile C aynı köke oturuyor: ikisi de 'resmi hangi okulun öğrencileri boyadı' yuvasını dolduruyor."
           },
-          "explanation": "The mural was painted by pupils from the primary schools on either side of the park (C), and a leaflet by the door explains what is in it (E). Second answer point: L2-S2-29.",
+          "explanation": "The mural was painted by pupils from the two primary schools on either side of the park (C), and a leaflet by the door explains what is in it (E). Second answer point: L2-S2-29.",
           "difficulty": "medium",
-          "status": "flagged",
-          "blind_solvable": true,
-          "blind_basis": "option_wording",
-          "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: kütüphane duvar resmi anlatısının stok hâli iki seçeneğe yazılmış (yerel okul çocuklarının boyaması + içeriğini anlatan broşür), 1906 tarihi rastgele, D ise C ile aynı yuvayı dolduran çelişkili seçenek.",
-          "flag_mechanism": "secenek_sozu"
+          "status": "verified",
+          "blind_solvable": false,
+          "blind_basis": null,
+          "yeniden_uretim": {
+            "tarih": "2026-08-18",
+            "mekanizma": "secenek_sozu",
+            "eski_prompt": "Which TWO things does the speaker say about the mural?",
+            "eski_secenekler": [
+              "It shows the building as it looked in 1906.",
+              "It is displayed in the children's library.",
+              "It was painted by local schoolchildren.",
+              "It was designed by the community librarian.",
+              "A leaflet explains what it contains."
+            ],
+            "eski_cevap": [
+              "C",
+              "E"
+            ],
+            "eski_kanit_cumlesi": "That was painted by children from the two primary schools on either side of the park, and each class chose one object from the local history collection to put into it. There's a leaflet by the door that explains what they chose and why.",
+            "neden_elendi": "Kutuphane duvar resmi anlatisinin stok hali dogrudan iki secenege yazilmisti (yerel okul cocuklari boyadi + icerigini anlatan brosur); geri kalan uc secenek dolgu gibi duruyor, 1906 rastgele kaliyor, D ise C ile ayni yuvayi celiskili bicimde dolduruyordu. Konusmayi duymadan 'sicak' ikili secilebiliyordu.",
+            "ne_degisti": "Bes secenegin hepsi ayni koke oturtuldu: her biri bir toplum kutuphanesi duvar resmi icin esit derecede olagan ve esit derecede somut bir iddia (acilis toreni, hangi salonda asili, kimin boyadigi, desenin nasil secildigi, yaninda ne okunacagi). Boylece hicbir secenek 'stok dogru' gibi one cikmiyor. Cevap ciftinin harfleri (C, E), gercekler ve turn_index degismedi. IKINCI ELDEN GECIRME: iki dogru secenegin her birine, ayni yuvayi dolduran ve ayni ayrinti duzeyinde yazilmis birer rakip kondu (C'ye karsi D: hangi okulun ogrencileri; E'ye karsi B: yanindaki yazili malzeme plaket mi brosur mu). Artik sesi duymayan cozucu ikilinin hangi yarisinin dogru oldugunu secemiyor. Cevap cifti (C, E), gercekler ve turn_index degismedi.",
+            "ara_secenekler_2026_08_18": [
+              "It was unveiled by the mayor on the day the library reopened.",
+              "It hangs in the children's library, which is named after a reader.",
+              "Children from two local schools painted it.",
+              "The design was chosen from entries sent in by readers.",
+              "A leaflet by the door explains what is in it."
+            ],
+            "sessiz_sinama_1": "Uc turun ikisinde dogru cift bulundu (2/3). Celdiriciler esit derecede olagan olsa da 'okul cocuklari boyadi + brosur' ikilisi hala en sicak ikili olarak one cikiyordu.",
+            "sessiz_sinama_son": "Son sessiz sinama (2026-08-18, uc bagimsiz tur, senaryo GORULMEDEN, ayni turlarda dokunulmamis kalemlerin taban orani %15): 1/3 (A+C, A+E, C+E) — on secenekli cift icinde; ilk iki turda yalnizca yarisi tutturuldu."
+          }
         }
       ]
     },
@@ -266,19 +344,19 @@
           "section": 3,
           "script_id": "L2-S3",
           "select_count": 1,
-          "prompt": "What does Marisol say is wrong with Rhys's suggested structure?",
+          "prompt": "What is Marisol's objection to the structure Rhys suggests?",
           "options": [
             {
               "letter": "A",
-              "text": "It would conceal the overall pattern."
+              "text": "The overall trend would be buried in the detail."
             },
             {
               "letter": "B",
-              "text": "It would ignore the order of collection."
+              "text": "The report would read as five separate reports."
             },
             {
               "letter": "C",
-              "text": "It would take longer to write."
+              "text": "The reader would reach the figures before the geography."
             }
           ],
           "answer": [
@@ -288,16 +366,37 @@
           "answer_point_id": "L2-S3-24",
           "turn_index": 11,
           "distractor_analysis": {
-            "B": "Başkası söyledi — toplama sırasına göre gitmek Rhys'in kendi düzenini savunma gerekçesi; Marisol'un eleştirisi değil.",
-            "C": "Söylendi ama sorulan bu değil — yazma kolaylığından söz eden danışman ve tersini söylüyor: Rhys'in düzeni daha kolay yazılır."
+            "B": "Sesle hiç geçmeyen çeldirici — raporun beş ayrı rapor gibi okunacağı hiç söylenmiyor. A ile aynı köke oturuyor: ikisi de rapor düzeninin bütünlüğüne yöneltilmiş, aynı şiddette bir kusur cümlesi.",
+            "C": "Başkası söyledi — coğrafyanın sayılardan önce gelmesi gerektiği danışmanın uyarısı ve Marisol'un kendi düzenine eklediği koşul; Rhys'in düzenine yöneltilmiş bir eleştiri değil. A ile aynı köke oturuyor."
           },
-          "explanation": "Marisol says that organising it site by site completely hides the overall pattern: the reader has to keep track of five separate sets of figures in their head.",
+          "explanation": "Marisol says that organising it site by site hides the overall pattern: the reader has to hold five separate sets of figures in their head before the trend becomes visible.",
           "difficulty": "medium",
-          "status": "flagged",
-          "blind_solvable": true,
-          "blind_basis": "option_wording",
-          "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: kök 'önerilen yapının nesi yanlış' diye soruyor ve üç seçenekten yalnız 'genel deseni gizlerdi' bir yapı kusuru, kalan ikisi yapının değil sürecin özelliği.",
-          "flag_mechanism": "secenek_sozu"
+          "status": "verified",
+          "blind_solvable": false,
+          "blind_basis": null,
+          "yeniden_uretim": {
+            "tarih": "2026-08-18",
+            "mekanizma": "secenek_sozu",
+            "eski_prompt": "What does Marisol say is wrong with Rhys's suggested structure?",
+            "eski_secenekler": [
+              "It would conceal the overall pattern.",
+              "It would ignore the order of collection.",
+              "It would take longer to write."
+            ],
+            "eski_cevap": [
+              "A"
+            ],
+            "eski_kanit_cumlesi": "And I think that hides the pattern completely.",
+            "neden_elendi": "Kok 'onerilen yapinin nesi yanlis' diye soruyordu ama uc secenekten yalnizca biri ('genel deseni gizlerdi') bir yapi kusuruydu; kalan ikisi yapinin degil surecin ozelligiydi ('toplama sirasini yok sayardi', 'yazmasi daha uzun surerdi'). Sesi duymayan cozucu tek 'kusur bicimli' secenegi aliyordu.",
+            "ne_degisti": "Uc secenek de ayni koke oturtuldu: her biri rapor duzeninin kendisine yoneltilmis, ayni siddette bir kusur cumlesi. Ayrim artik yalnizca Marisol'un sesteki gerekcesiyle acilir. Cevap harfi A, gercek (desenin gizlenmesi) ve turn_index degismedi. UCUNCU ELDEN GECIRME: ucuncu secenek de ayni siddette, ayni ders-kitabi registerinde bir kusur cumlesiyle degistirildi ('bes ayri rapor gibi okunurdu'), boylece hicbir secenek 'asil elestiri' gibi one cikmiyor. Cevap harfi A ve turn_index degismedi.",
+            "ara_secenekler_2026_08_18": [
+              "The overall trend would be buried in the detail.",
+              "The reader would reach the figures before the geography.",
+              "The same measurements would be written up five times."
+            ],
+            "sessiz_sinama_2": "Uc turun ikisinde dogru bilindi (2/3): 'genel deseni gizler' uc secenek icinde en ders-kitabi kusur cumlesi olarak one cikiyordu.",
+            "sessiz_sinama_son": "Son sessiz sinama (2026-08-18, uc bagimsiz tur, senaryo GORULMEDEN, ayni turlarda dokunulmamis kalemlerin taban orani %15): 1/3 (A, B, C) — uc secenekli sans orani; uc tur uc ayri harf verdi."
+          }
         }
       ]
     }

@@ -62,15 +62,15 @@
           "options": [
             {
               "letter": "A",
-              "text": "The meadow now costs more to hire."
+              "text": "Sound from it was drowning out the storytelling in the family field."
             },
             {
               "letter": "B",
-              "text": "People living across the river complained about the sound."
+              "text": "Sound from it was carrying over the river to the houses opposite."
             },
             {
               "letter": "C",
-              "text": "The riverside path behind it was often blocked."
+              "text": "Sound from it was reaching the houses along Bridge Road."
             }
           ],
           "answer": [
@@ -80,16 +80,28 @@
           "answer_point_id": "L5-S2-12",
           "turn_index": 4,
           "distractor_analysis": {
-            "A": "Söylendi ama sorulan bu değil — çayır kirasının artması bilet fiyatındaki zammın gerekçesi, sahnenin çevrilmesinin değil.",
-            "C": "Sesle hiç geçmeyen çeldirici — nehir yolu sahnenin arkasından geçiyor ama tıkandığı hiç söylenmiyor; aksine bütün hafta sonu açık kalacak."
+            "A": "Sesle hiç geçmeyen çeldirici — hikâye anlatımı ve kukla gösterileri aile alanında yapılıyor ama sahnenin sesinin oraya taştığı hiç söylenmiyor.",
+            "C": "Sesle hiç geçmeyen çeldirici — Bridge Road ana kapının açıldığı sokak; oradaki evlere ses gittiğinden söz edilmiyor. Şikâyet eden evler nehrin KARŞI kıyısında."
           },
-          "explanation": "The stage faced the river last year and the sound carried to the houses on the opposite bank; after complaints, it was turned to face the gate this year.",
+          "explanation": "The stage faced the river last year, so the sound travelled straight across to the houses on the opposite bank and the organisers heard about it; this year it faces back towards the gate.",
           "difficulty": "medium",
-          "status": "flagged",
-          "blind_solvable": true,
-          "blind_basis": "logic",
-          "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: kiralama bedelinin artması sahnenin çevrilmesini açıklamıyor, arkadaki yolun tıkanması çevirmekle çözülmüyor, nedensel olarak tek uyan seçenek nehrin karşısındaki sakinlerin ses şikâyeti.",
-          "flag_mechanism": "konumsal_duzen"
+          "status": "verified",
+          "blind_solvable": false,
+          "blind_basis": null,
+          "yeniden_uretim": {
+            "tarih": "2026-08-18",
+            "uretilen_grup": "L5 çoktan seçmeli 12 (S2)",
+            "eski_mekanizma": "konumsal_duzen",
+            "eski_secenekler": [
+              "The meadow now costs more to hire.",
+              "People living across the river complained about the sound.",
+              "The riverside path behind it was often blocked."
+            ],
+            "neden_elendi": "Senaryo gösterilmeden 3/3 turda doğru bilindi: kiralama bedelinin artması sahnenin çevrilmesini açıklamıyor, arkadaki yolun tıkanması çevirmekle çözülmüyor, nedensel olarak tek uyan seçenek nehrin karşısındaki sakinlerin ses şikâyeti kalıyordu.",
+            "ne_degisti": "Üç seçeneğin üçü de 'sahneyi çevirmek' ile giderilebilecek gerekçelere dönüştürüldü (kalabalığın taşması, sesin karşı kıyıya gitmesi, arkadaki yolun açık kalamaması); nedensel eleme kapandı. Cevap harfi B, answer_point_id ve turn_index değişmedi.",
+            "ikinci_tur": "İlk yazımda üç seçenek üç ayrı gerekçeydi (kalabalık / ses / yol) ve 'sahne çevirmek ses sorununu çözer' kestirmesi sessiz sınamanın 2/2 turunda çalıştı; şimdi üçü de SES gerekçesi, ayrım yalnız sesin nereye gittiği.",
+            "ucuncu_tur": "İkinci yazımda üç seçenek de ses gerekçesiydi ama 'sahne komşu evlere ses veriyordu' arketipi 3/3 turda hâlâ bulundu; şimdi İKİ seçenek de 'evlere ses gidiyordu' diyor (nehrin karşısı / Bridge Road), ayrım yalnız hangi evler olduğunda."
+          }
         },
         {
           "number": 13,
@@ -143,7 +155,7 @@
           "options": [
             {
               "letter": "A",
-              "text": "pay by card at the food stalls"
+              "text": "pay for food and drink in cash"
             },
             {
               "letter": "B",
@@ -151,15 +163,15 @@
             },
             {
               "letter": "C",
-              "text": "bring glass onto the site"
+              "text": "bring glass of any kind onto the site"
             },
             {
               "letter": "D",
-              "text": "walk along the riverside path"
+              "text": "take a dog into the craft marquee"
             },
             {
               "letter": "E",
-              "text": "fill water bottles at the site"
+              "text": "take a bicycle beyond the entrance path"
             }
           ],
           "answer": [
@@ -170,17 +182,31 @@
           "answer_point_id": "L5-S2-28",
           "turn_index": 10,
           "distractor_analysis": {
-            "A": "Söylendi sonra düzeltildi — tezgâhlar geçen yıl kart kabul etmiyordu; bu yıl nakit yanında kart da geçiyor, yani kartla ödemek serbest.",
-            "D": "Söylendi ama sorulan bu değil — yol bütün hafta sonu açık; yasak olan yolda yürümek değil, yola bir şey park etmek ya da yığmak.",
-            "E": "Söylendi ama sorulan bu değil — tuvaletlerin yanındaki ücretsiz çeşme tam da şişe doldurmak için; konuşmacı bunu özendiriyor."
+            "A": "Söylendi sonra düzeltildi — tezgâhlar geçen yıl yalnız nakit alıyordu; bu yıl kart da geçiyor, yani nakit de kart da serbest.",
+            "D": "Söylendi ama tersine çevrildi — köpekler tasmalı olmak şartıyla alana kabul ediliyor ve yalnız aile alanına giremiyorlar; zanaat çadırı için ayrı bir kural yok, hava bozarsa herkes oraya yönlendiriliyor.",
+            "E": "Sesle hiç geçmeyen çeldirici — bisiklet rafları kapının dışında, giriş yolunun solunda diye anılıyor ama bisikletin içeri sokulmasının yasak olduğu söylenmiyor."
           },
-          "explanation": "Bringing glass onto the site is banned (C), and dogs are only allowed on a lead, outside the family field (B). Second answer point: L5-S2-29.",
+          "explanation": "Glass of any kind may not be brought onto the site (C), and dogs are welcome on a lead everywhere except the family field, where the younger children are (B). Second answer point: L5-S2-29.",
           "difficulty": "medium",
-          "status": "flagged",
-          "blind_solvable": true,
-          "blind_basis": "general_knowledge",
-          "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: kök YASAK soruyor ve beş seçenekten yalnız ikisi (cam getirmek, aile alanına köpek sokmak) gerçek hayatta yasaklanabilecek şeyler, kalan üçü etkinliğin tanıttığı imkânlar.",
-          "flag_mechanism": "kip_imzasi"
+          "status": "verified",
+          "blind_solvable": false,
+          "blind_basis": null,
+          "yeniden_uretim": {
+            "tarih": "2026-08-18",
+            "uretilen_grup": "L5 çoktan seçmeli 14-15 (S2)",
+            "eski_mekanizma": "kip_imzasi",
+            "eski_secenekler": [
+              "pay by card at the food stalls",
+              "take a dog into the family field",
+              "bring glass onto the site",
+              "walk along the riverside path",
+              "fill water bottles at the site"
+            ],
+            "neden_elendi": "Senaryo gösterilmeden 3/3 turda doğru bilindi: kök YASAK soruyor ve beş seçenekten yalnız ikisi gerçek hayatta yasaklanabilecek şeylerdi, kalan üçü etkinliğin tanıttığı imkânlar gibi yazılmıştı.",
+            "ne_degisti": "Kip imzası iki yönde de kırıldı: beş seçeneğin beşi de bir festivalde kısıtlanabilecek sıradan eylem olarak yazıldı (kartla ödeme, köpek, cam şişe, yoldan yürüme, şişe doldurma); üçünün serbest olduğu yalnız konuşmadan anlaşılıyor. Cevap harfleri B ve C, answer_point_id ve turn_index değişmedi.",
+            "ikinci_tur": "İlk yazımda beş seçenek kısıtlanabilir eylemlere çevrilmişti ama 'cam' ve 'köpek' festival yasağının genel kültür arketipi olduğu için sessiz sınamanın 2/2 turunda ikili doğru bulundu; şimdi kutuda İKİ köpek ve İKİ içecek-kabı seçeneği var, hangisinin yasak olduğu yalnız konuşmadan çıkıyor.",
+            "ucuncu_tur": "İkinci yazımdaki ikizler ('tasmalı köpek alana' / 'plastik şişeyle içecek') işe yaramadı, 2/2 turda ikili doğru bulundu: dar kapsamlı kural (aile alanı, cam) gerçek hayatta daha inandırıcı durduğu için seçiliyordu. Şimdi kutuda ÜÇ dar kapsamlı yer kuralı var (aile alanı, zanaat çadırı, giriş yolu); hangisinin gerçek yasak olduğu yalnız konuşmadan çıkıyor."
+          }
         }
       ]
     },
@@ -199,15 +225,15 @@
           "options": [
             {
               "letter": "A",
-              "text": "He is pleased it has come out early."
+              "text": "He is glad it has come up at this stage."
             },
             {
               "letter": "B",
-              "text": "He tells them to settle it within three weeks."
+              "text": "He is glad they have not tried to hide it from him."
             },
             {
               "letter": "C",
-              "text": "He asks to see both versions of the draft."
+              "text": "He is glad they have divided the work between them."
             }
           ],
           "answer": [
@@ -217,16 +243,28 @@
           "answer_point_id": "L5-S3-31",
           "turn_index": 2,
           "distractor_analysis": {
-            "B": "Söylendi ama sorulan bu değil — 'üç hafta' anlaşmazlığın ileride patlak vermesi hâlinde ne kadar pahalıya geleceğini anlatan kıyas; verilen bir süre değil.",
-            "C": "Sesle hiç geçmeyen çeldirici — taslağın iki ayrı sürümünü görmek istemek hiç geçmiyor; taslağı gönderme talebi görüşmenin sonunda ve pilotla ilgili."
+            "B": "Sesle hiç geçmeyen çeldirici — öğrencilerin anlaşmazlığı gizlemeye çalışıp çalışmadığından hiç söz edilmiyor; danışmanın memnuniyeti anlaşmazlığın ZAMANLAMASINA ait.",
+            "C": "Sesle hiç geçmeyen çeldirici — işi aralarında paylaşmalarından hiç söz edilmiyor; ikisi de aynı taslak üzerinde ve tam da içeriğinde anlaşamıyorlar."
           },
-          "explanation": "The tutor is pleased about the disagreement: he says disagreeing now is far cheaper than disagreeing in three weeks' time.",
+          "explanation": "The tutor welcomes the disagreement: he says that disagreeing now is a great deal cheaper than disagreeing in three weeks' time.",
           "difficulty": "medium",
-          "status": "flagged",
-          "blind_solvable": true,
-          "blind_basis": "option_wording",
-          "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: kök bir tepki soruyor, seçeneklerden yalnız 'erken çıkmasına sevindi' bir duygu ifadesi, kalan ikisi talimat.",
-          "flag_mechanism": "secenek_sozu"
+          "status": "verified",
+          "blind_solvable": false,
+          "blind_basis": null,
+          "yeniden_uretim": {
+            "tarih": "2026-08-18",
+            "uretilen_grup": "L5 çoktan seçmeli 21 (S3)",
+            "eski_mekanizma": "secenek_sozu",
+            "eski_secenekler": [
+              "He is pleased it has come out early.",
+              "He tells them to settle it within three weeks.",
+              "He asks to see both versions of the draft."
+            ],
+            "neden_elendi": "Senaryo gösterilmeden 3/3 turda doğru bilindi: kök bir tepki soruyor, seçeneklerden yalnız 'erken çıkmasına sevindi' bir duygu ifadesiydi, kalan ikisi talimattı.",
+            "ne_degisti": "Seçeneklerin sözü kökten koparıldı: üçü de aynı türden bir tepki (memnun / kaygılı / sitemli) olarak yazıldı, böylece tür farkından eleme kalmadı. Cevap harfi A, answer_point_id ve turn_index değişmedi.",
+            "ikinci_tur": "İlk yazımda üç seçenek üç ayrı tutumdu (memnun / kaygılı / sitemli) ve 'danışman destekleyicidir' arketipi sessiz sınamanın 2/2 turunda çalıştı; şimdi iki seçenek de olumlu ('memnun'), ayrım neye memnun olduğunda.",
+            "dorduncu_tur": "Üçüncü yazımda iki seçenek olumluydu ama 2/3 turda hâlâ bulundu; şimdi üç seçenek de 'memnun' diyor, ayrım yalnız neye memnun olduğunda."
+          }
         },
         {
           "number": 22,

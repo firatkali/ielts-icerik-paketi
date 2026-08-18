@@ -22,7 +22,7 @@
         "options": [
           {
             "letter": "A",
-            "text": "shoppers will have to bring their own"
+            "text": "the traders themselves agreed to it"
           },
           {
             "letter": "B",
@@ -34,19 +34,19 @@
           },
           {
             "letter": "D",
-            "text": "its position was chosen for its scent"
+            "text": "its position was a deliberate choice"
           },
           {
             "letter": "E",
-            "text": "it used to start at eleven o'clock"
+            "text": "it is not in the place people expect"
           },
           {
             "letter": "F",
-            "text": "it is kept for traders' vehicles"
+            "text": "visitors are directed somewhere else instead"
           },
           {
             "letter": "G",
-            "text": "it now costs more than it used to"
+            "text": "the traders have agreed to pay for it themselves"
           }
         ]
       },
@@ -66,12 +66,12 @@
           "answer_point_id": "L6-S2-05",
           "turn_index": 2,
           "distractor_analysis": {
-            "A": "Söylendi ama sorulan bu değil — kendi çantasını getirme kuralı poşetlere ait (14. replik).",
+            "A": "Söylendi ama sorulan bu değil — esnafın kendi arasında karara bağladığı şey poşetler: Nisan'dan itibaren plastik poşet dağıtmayı bırakıyorlar.",
             "B": "Söylendi ama sorulan bu değil — uzatılan ücretsiz süre Baxter Street otoparkına ait.",
-            "D": "Söylendi ama sorulan bu değil — koku gerekçesi çiçek tezgâhının yerine ait.",
-            "E": "Söylendi sonra düzeltildi kökenli — on birde başlayan şey eskiden yemek gösterileriydi; ilk gösteri artık 12.30'da.",
-            "F": "Söylendi ama sorulan bu değil — satıcı araçlarına ayrılan yer yükleme avlusu.",
-            "G": "Söylendi sonra düzeltildi kökenli — 15'ten 18 sterline çıkan şey tezgâh ücreti; ek pazar gününün ücretle ilgisi yok."
+            "D": "Söylendi ama sorulan bu değil — yerin bilerek seçilmiş olması çiçek tezgâhına ait: kapının yanına konmasının gerekçesi kokusunun girişte karşılaması.",
+            "E": "Söylendi ama sorulan bu değil — beklenen yerde olmayan şey balık tezgâhı; ek pazar gününün yeri değil günü tartışılıyor.",
+            "F": "Söylendi ama sorulan bu değil — başka bir yere yönlendirme yükleme avlusuna ait: bisikletler avluya değil, kapı dışındaki raflara kilitlenecek.",
+            "G": "Söylendi ama sorulan bu değil — masrafını esnafın kendi arasında üstlendiği şey sadakat kartı; beş sterlin olacakken ücretsiz oldu."
           },
           "explanation": "The speaker says they trialled a Thursday last summer and hardly anybody came, so the extra market day will be a Wednesday.",
           "difficulty": "medium",
@@ -92,20 +92,35 @@
           "answer_point_id": "L6-S2-13",
           "turn_index": 5,
           "distractor_analysis": {
-            "A": "Söylendi ama sorulan bu değil — kendi çantasını getirme kuralı poşetlere ait.",
-            "B": "Söylendi ama sorulan bu değil — uzatılan ücretsiz süre otoparka ait.",
+            "A": "Söylendi ama sorulan bu değil — esnafın kendi arasında karara bağladığı şey poşetler: Nisan'dan itibaren plastik poşet dağıtmayı bırakıyorlar.",
+            "B": "Söylendi ama sorulan bu değil — uzatılan ücretsiz süre Baxter Street otoparkına ait.",
             "C": "Söylendi ama sorulan bu değil — başarısız Perşembe denemesi ek pazar gününe ait.",
-            "E": "Söylendi sonra düzeltildi kökenli — eski saat yemek gösterilerine ait; çiçek tezgâhının saati yok.",
-            "F": "Söylendi ama sorulan bu değil — satıcı araçları kuralı yükleme avlusuna ait.",
-            "G": "Söylendi sonra düzeltildi kökenli — ücret artışı tezgâh kirasına ait; çiçek tezgâhının fiyatından söz edilmiyor."
+            "E": "Söylendi ama sorulan bu değil — beklenen yerde olmayan şey balık tezgâhı; girişin yanında sanılıyor ama drenaj yüzünden sol koridorun ucunda.",
+            "F": "Söylendi ama sorulan bu değil — başka bir yere yönlendirme yükleme avlusuna ait: bisikletler avluya değil, kapı dışındaki raflara kilitlenecek.",
+            "G": "Söylendi ama sorulan bu değil — masrafını esnafın kendi arasında üstlendiği şey sadakat kartı; beş sterlin olacakken ücretsiz oldu."
           },
-          "explanation": "The flower stall has been placed by the doors on purpose, so that the scent reaches visitors as they come in.",
+          "explanation": "The flower stall is opposite the information desk, by the doors: the speaker says it was put there on purpose, so that the scent reaches visitors as they come in.",
           "difficulty": "easy",
-          "status": "flagged",
-          "blind_solvable": true,
-          "blind_basis": "option_wording",
-          "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'yeri kokusu için seçildi' yalnız çiçek tezgâhı için söylenebilir.",
-          "flag_mechanism": "secenek_sozu"
+          "status": "verified",
+          "blind_solvable": false,
+          "blind_basis": null,
+          "yeniden_uretim": {
+            "tarih": "2026-08-18",
+            "uretilen_grup": "L6 eşleştirme 11-15 (A-G kutusu yeniden yazıldı; 11 ve 14'ün cevap seçenekleri B ve C korundu)",
+            "eski_mekanizma": "secenek_sozu",
+            "eski_kutu": [
+              "shoppers will have to bring their own",
+              "its free period has been made longer",
+              "a different day was tried without success",
+              "its position was chosen for its scent",
+              "it used to start at eleven o'clock",
+              "it is kept for traders' vehicles",
+              "it now costs more than it used to"
+            ],
+            "eski_secenek_metni": "its position was chosen for its scent",
+            "neden_elendi": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'yeri kokusu için seçildi' yalnız çiçek tezgâhı için söylenebiliyordu.",
+            "ne_degisti": "Seçeneklerin sözü kökten koparıldı: A, D, E, F ve G artık kendi kökünü adlandırmıyor, her biri birden çok köke oturuyor (yer gerekçesi hem çiçek tezgâhına hem avluya, 'kendi hazırlığını yap' hem poşetlere hem otoparka). Cevap harfleri, answer_point_id ve turn_index değişmedi."
+          }
         },
         {
           "number": 13,
@@ -121,20 +136,37 @@
           "answer_point_id": "L6-S2-37",
           "turn_index": 8,
           "distractor_analysis": {
-            "A": "Söylendi ama sorulan bu değil — kendi çantasını getirme kuralı poşetlere ait.",
-            "B": "Söylendi ama sorulan bu değil — uzatılan süre Baxter Street otoparkına ait; avluya araç bırakma süresi yok.",
-            "C": "Söylendi ama sorulan bu değil — Perşembe denemesi ek pazar gününe ait.",
-            "D": "Söylendi ama sorulan bu değil — koku gerekçesi çiçek tezgâhına ait.",
-            "E": "Söylendi sonra düzeltildi kökenli — eski saat yemek gösterilerine ait.",
-            "G": "Söylendi sonra düzeltildi kökenli — 15'ten 18 sterline çıkan şey tezgâh ücreti."
+            "A": "Söylendi ama sorulan bu değil — esnafın kendi arasında karara bağladığı şey poşetler: Nisan'dan itibaren plastik poşet dağıtmayı bırakıyorlar.",
+            "B": "Söylendi ama sorulan bu değil — uzatılan ücretsiz süre Baxter Street otoparkına ait.",
+            "C": "Söylendi ama sorulan bu değil — başarısız Perşembe denemesi ek pazar gününe ait.",
+            "D": "Söylendi ama sorulan bu değil — yerin bilerek seçilmesi çiçek tezgâhına ait; avlunun binanın arkasında olmasının gerekçesi verilmiyor.",
+            "E": "Söylendi ama sorulan bu değil — beklenen yerde olmayan şey balık tezgâhı; girişin yanında sanılıyor ama drenaj yüzünden sol koridorun ucunda.",
+            "G": "Söylendi ama sorulan bu değil — masrafını esnafın kendi arasında üstlendiği şey sadakat kartı; beş sterlin olacakken ücretsiz oldu."
           },
-          "explanation": "The loading yard is behind the hall and is reserved only for traders' vans; bicycles must be locked at the bike rack outside the door.",
+          "explanation": "The loading yard behind the hall is for traders' vans; the speaker asks visitors to lock their bicycles at the racks outside the gate instead of leaving them there.",
           "difficulty": "medium",
-          "status": "flagged",
-          "blind_solvable": true,
-          "blind_basis": "option_wording",
-          "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'esnaf araçlarına ayrılmış' yalnız yükleme avlusunu tarif ediyor.",
-          "flag_mechanism": "secenek_sozu"
+          "status": "verified",
+          "blind_solvable": false,
+          "blind_basis": null,
+          "yeniden_uretim": {
+            "tarih": "2026-08-18",
+            "uretilen_grup": "L6 eşleştirme 11-15 (A-G kutusu yeniden yazıldı; 11 ve 14'ün cevap seçenekleri B ve C korundu)",
+            "eski_mekanizma": "secenek_sozu",
+            "eski_kutu": [
+              "shoppers will have to bring their own",
+              "its free period has been made longer",
+              "a different day was tried without success",
+              "its position was chosen for its scent",
+              "it used to start at eleven o'clock",
+              "it is kept for traders' vehicles",
+              "it now costs more than it used to"
+            ],
+            "eski_secenek_metni": "it is kept for traders' vehicles",
+            "neden_elendi": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'esnaf araçlarına ayrılmış' yalnız yükleme avlusunu tarif ediyordu.",
+            "ne_degisti": "Seçeneklerin sözü kökten koparıldı: A, D, E, F ve G artık kendi kökünü adlandırmıyor, her biri birden çok köke oturuyor (yer gerekçesi hem çiçek tezgâhına hem avluya, 'kendi hazırlığını yap' hem poşetlere hem otoparka). Cevap harfleri, answer_point_id ve turn_index değişmedi.",
+            "ikinci_tur": "İlk yazımda F seçeneği ('visitors are asked not to leave anything there') bir avluyu birebir tarif ediyordu ve sessiz sınamanın 2/2 turunda bulundu; 'bisikletler oraya bırakılamaz' hâline getirildi — otopark ve çiçek tezgâhı için de söylenebilir, hangisi olduğu yalnız konuşmadan çıkıyor.",
+            "ucuncu_tur": "İkinci yazım ('bisikletler oraya bırakılamaz') de 2/2 bulundu: avlu, bir şeyin bırakılacağı yerin ta kendisi. Şimdi F ile E ikiz yapıldı (ikisi de 'yer şaşırması'); F 'ziyaretçiler başka yere yönlendiriliyor' oldu, çiçek tezgâhı ve otopark için de söylenebiliyor."
+          }
         },
         {
           "number": 14,
@@ -150,12 +182,12 @@
           "answer_point_id": "L6-S2-29",
           "turn_index": 11,
           "distractor_analysis": {
-            "A": "Söylendi ama sorulan bu değil — kendi çantasını getirme kuralı poşetlere ait.",
-            "C": "Söylendi ama sorulan bu değil — Perşembe denemesi ek pazar gününe ait.",
-            "D": "Söylendi ama sorulan bu değil — koku gerekçesi çiçek tezgâhına ait.",
-            "E": "Söylendi sonra düzeltildi kökenli — gösterilerin eski saati; otoparkla ilgisi yok.",
-            "F": "Söylendi ama sorulan bu değil — satıcı araçları kuralı yükleme avlusuna ait; Baxter Street otoparkı herkese açık.",
-            "G": "Söylendi sonra düzeltildi kökenli — ücret artışı tezgâh kirasına ait; otoparkın ücretsiz süresi tam tersine uzatıldı."
+            "A": "Söylendi ama sorulan bu değil — esnafın kendi arasında karara bağladığı şey poşetler: Nisan'dan itibaren plastik poşet dağıtmayı bırakıyorlar.",
+            "C": "Söylendi ama sorulan bu değil — başarısız Perşembe denemesi ek pazar gününe ait.",
+            "D": "Söylendi ama sorulan bu değil — bilerek seçilmiş yer çiçek tezgâhına ait; otopark yalnız iki dakikalık yürüme mesafesi diye anılıyor.",
+            "E": "Söylendi ama sorulan bu değil — beklenen yerde olmayan şey balık tezgâhı; girişin yanında sanılıyor ama drenaj yüzünden sol koridorun ucunda.",
+            "F": "Söylendi ama sorulan bu değil — başka bir yere yönlendirme yükleme avlusuna ait: bisikletler avluya değil, kapı dışındaki raflara kilitlenecek.",
+            "G": "Söylendi ama sorulan bu değil — esnafın masrafını üstlendiği şey sadakat kartı; otoparkın ücretsiz süresini belediye uzattı."
           },
           "explanation": "The sign at the barrier still says two hours free, but the council extended it to three hours in the spring.",
           "difficulty": "medium",
@@ -176,20 +208,37 @@
           "answer_point_id": "L6-S2-36",
           "turn_index": 14,
           "distractor_analysis": {
-            "B": "Söylendi ama sorulan bu değil — uzatılan ücretsiz süre otoparka ait.",
-            "C": "Söylendi ama sorulan bu değil — Perşembe denemesi ek pazar gününe ait.",
-            "D": "Söylendi ama sorulan bu değil — koku gerekçesi çiçek tezgâhına ait.",
-            "E": "Söylendi sonra düzeltildi kökenli — eski saat yemek gösterilerine ait.",
-            "F": "Söylendi ama sorulan bu değil — satıcı araçları kuralı yükleme avlusuna ait.",
-            "G": "Söylendi sonra düzeltildi kökenli — ücret artışı tezgâh kirasına ait; poşetler para karşılığı satılmıyor, hiç verilmeyecek."
+            "B": "Söylendi ama sorulan bu değil — uzatılan ücretsiz süre Baxter Street otoparkına ait.",
+            "C": "Söylendi ama sorulan bu değil — başarısız Perşembe denemesi ek pazar gününe ait.",
+            "D": "Söylendi ama sorulan bu değil — yerin bilerek seçilmiş olması çiçek tezgâhına ait: kapının yanına konmasının gerekçesi kokusunun girişte karşılaması.",
+            "E": "Söylendi ama sorulan bu değil — beklenen yerde olmayan şey balık tezgâhı; girişin yanında sanılıyor ama drenaj yüzünden sol koridorun ucunda.",
+            "F": "Söylendi ama sorulan bu değil — başka bir yere yönlendirme yükleme avlusuna ait: bisikletler avluya değil, kapı dışındaki raflara kilitlenecek.",
+            "G": "Söylendi ama tersine çevrildi — esnafın parasını üstlendiği şey sadakat kartı; poşetlerde esnafın yaptığı, dağıtmayı tümden bırakmak."
           },
-          "explanation": "From April, traders have agreed to stop handing out plastic bags altogether, so shoppers will need to bring their own.",
+          "explanation": "From April the traders have agreed to stop handing out plastic bags altogether, so shoppers will have to bring their own.",
           "difficulty": "easy",
-          "status": "flagged",
-          "blind_solvable": true,
-          "blind_basis": "option_wording",
-          "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'alışverişçiler kendilerininkini getirmek zorunda' yalnız poşetler kökü için söylenebilir.",
-          "flag_mechanism": "secenek_sozu"
+          "status": "verified",
+          "blind_solvable": false,
+          "blind_basis": null,
+          "yeniden_uretim": {
+            "tarih": "2026-08-18",
+            "uretilen_grup": "L6 eşleştirme 11-15 (A-G kutusu yeniden yazıldı; 11 ve 14'ün cevap seçenekleri B ve C korundu)",
+            "eski_mekanizma": "secenek_sozu",
+            "eski_kutu": [
+              "shoppers will have to bring their own",
+              "its free period has been made longer",
+              "a different day was tried without success",
+              "its position was chosen for its scent",
+              "it used to start at eleven o'clock",
+              "it is kept for traders' vehicles",
+              "it now costs more than it used to"
+            ],
+            "eski_secenek_metni": "shoppers will have to bring their own",
+            "neden_elendi": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'alışverişçiler kendilerininkini getirmek zorunda' yalnız poşetler kökü için söylenebiliyordu.",
+            "ne_degisti": "Seçeneklerin sözü kökten koparıldı: A, D, E, F ve G artık kendi kökünü adlandırmıyor, her biri birden çok köke oturuyor (yer gerekçesi hem çiçek tezgâhına hem avluya, 'kendi hazırlığını yap' hem poşetlere hem otoparka). Cevap harfleri, answer_point_id ve turn_index değişmedi.",
+            "ikinci_tur": "İlk yazımda A seçeneği ('shoppers will have to make their own arrangements') 'alışverişçi' sözcüğüyle poşet kökünü çağırıyordu ve sessiz sınamanın 2/2 turunda bulundu; 'belli bir aydan sonra tümden bitecek' hâline getirildi, artık ek pazar günü ve otoparkın ücretsiz süresi için de söylenebiliyor.",
+            "ucuncu_tur": "İkinci yazım ('belli bir aydan sonra tümden bitecek') de 2/2 bulundu: plastik poşet yasağı gerçek hayattan bilinen bir politika. Şimdi A ile G ikiz yapıldı ('esnaf kendi aralarında karar verdi' / 'masrafını esnaf üstlendi'); hangisinin poşet olduğu yalnız konuşmadan çıkıyor."
+          }
         }
       ]
     },

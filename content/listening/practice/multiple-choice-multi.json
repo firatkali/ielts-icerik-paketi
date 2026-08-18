@@ -71,44 +71,76 @@
           "options": [
             {
               "letter": "A",
-              "text": "The car park is on Bridge Street."
+              "text": "There is no charge for parking at weekends."
             },
             {
               "letter": "B",
-              "text": "The car park can only be used at weekends."
+              "text": "The museum has its own car park."
             },
             {
               "letter": "C",
-              "text": "Parking is free at weekends."
+              "text": "Bicycles have to be left outside the gate."
             },
             {
               "letter": "D",
-              "text": "Bicycles must be left outside the gate."
+              "text": "The number fourteen bus stops outside the museum."
             },
             {
               "letter": "E",
-              "text": "The number fourteen bus stops right outside."
+              "text": "The car park is signposted from the main road."
             }
           ],
           "answer": [
-            "C",
-            "E"
+            "A",
+            "D"
           ],
           "evidence": "it's free at weekends. The number fourteen bus stops directly outside our door",
           "answer_point_id": "L1-S2-30",
           "turn_index": 13,
           "distractor_analysis": {
-            "A": "Söylendi ama sorulan bu değil — Bridge Street müzenin ana girişinin açıldığı cadde; en yakın otopark Foundry Lane'de.",
-            "B": "Söylendi ama sorulan bu değil — hafta sonu, otoparkın ücretsiz olduğu zaman; yalnızca hafta sonları kullanılabildiği söylenmiyor.",
-            "D": "Söylenenin tersine çevrilmiş hâli — bisiklet rafları kapının hemen içinde, dışında değil."
+            "B": "Sesle hiç geçmeyen çeldirici — en yakın otopark Foundry Lane'de ve müzeye ait olduğu söylenmiyor. Aynı köke oturuyor: otoparkla ilgili, ulaşım sorusuna doğal düşen bir bilgi.",
+            "C": "Söylenenin tersine çevrilmiş hâli — bisiklet rafları kapının hemen içinde, dışında değil.",
+            "E": "Sesle hiç geçmeyen çeldirici — otoparkın levhalarından hiç söz edilmiyor. Aynı köke oturuyor: bu da otoparka nasıl varılacağına dair akla yatkın bir ayrıntı."
           },
-          "explanation": "The car park on Foundry Lane is free at weekends (C) and the number fourteen bus stops right outside the door (E). Second answer point: L1-S2-31.",
+          "explanation": "The nearest car park, on Foundry Lane, is free at weekends (A), and the number fourteen bus stops directly outside the museum door (D). Second answer point: L1-S2-31.",
           "difficulty": "medium",
-          "status": "flagged",
-          "blind_solvable": true,
-          "blind_basis": "option_wording",
-          "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'otopark yalnız hafta sonu kullanılabilir' kendi sözüyle akıl dışı kalıp eleniyor, sokak adı rastgele ayrıntı, geriye ulaşımın iki doğal bileşeni kalıyor.",
-          "flag_mechanism": "secenek_sozu"
+          "status": "verified",
+          "blind_solvable": false,
+          "blind_basis": null,
+          "yeniden_uretim": {
+            "uretilen_grup": "P-MCM-01 secenekler (dinleme alistirma / multiple choice multi)",
+            "eski_prompt": "Which TWO things does the speaker say about getting to the museum?",
+            "eski_secenekler": [
+              {
+                "letter": "A",
+                "text": "The car park is on Bridge Street."
+              },
+              {
+                "letter": "B",
+                "text": "The car park can only be used at weekends."
+              },
+              {
+                "letter": "C",
+                "text": "Parking is free at weekends."
+              },
+              {
+                "letter": "D",
+                "text": "Bicycles must be left outside the gate."
+              },
+              {
+                "letter": "E",
+                "text": "The number fourteen bus stops right outside."
+              }
+            ],
+            "eski_cevap": [
+              "C",
+              "E"
+            ],
+            "neden_elendi": "secenek_sozu: 'otopark yalniz hafta sonu kullanilabilir' kendi sozuyle akil disi kalip kendiliginden eleniyor, sokak adi rastgele bir ayrinti olarak duruyordu; geriye ulasimin iki dogal bileseni kaliyordu.",
+            "ne_degisti": "Kendini eleyen secenek ve sokak adi cikarildi; bes secenek de ayni gucte, akla yatkin ulasim bilgisi olacak sekilde yazildi (hafta sonu ucretsiz park / muzenin kendi otoparki / bisiklet kapinin disinda / on dort numarali otobus / otoparkin levhalari). Ayrim konusmacinin 'it's free at weekends' ve 'The number fourteen bus stops directly outside our door' cumlelerinde kaliyor. Harfler C-E'den A-D'ye alindi. Cevaplarin icerigi, kanit ve turn_index degismedi.",
+            "tarih": "2026-08-18",
+            "kaynak_prompt": "denetim turu: dinleme alistirma yazim kusurlari (2026-08-18)"
+          }
         }
       ]
     },
@@ -127,44 +159,76 @@
           "options": [
             {
               "letter": "A",
-              "text": "There is no charge for it."
+              "text": "It can be arranged on the day of the visit."
             },
             {
               "letter": "B",
-              "text": "It covers twelve visits a year."
+              "text": "There is nothing to pay for it."
             },
             {
               "letter": "C",
-              "text": "It can be signed for at the gate."
+              "text": "It can be passed on to another household."
             },
             {
               "letter": "D",
-              "text": "It is needed for ordinary cars."
+              "text": "It has to be displayed in the windscreen."
             },
             {
               "letter": "E",
-              "text": "Holders may bring building waste in."
+              "text": "It allows twelve visits a year."
             }
           ],
           "answer": [
-            "A",
-            "B"
+            "B",
+            "E"
           ],
           "evidence": "The permit is free and it gives you twelve visits a year.",
           "answer_point_id": "L4-S2-20",
           "turn_index": 9,
           "distractor_analysis": {
-            "C": "Söylendi sonra düzeltildi — kapıda form imzalama usulü sahanın yeniden açıldığı gün kaldırıldı; başvuru artık en az üç iş günü önceden ve yalnız çevrimiçi.",
-            "D": "Söylenenin tersine çevrilmiş hâli — otomobiller eskisi gibi giriyor: rezervasyon da form da yok; izin kamyonet, pikap ve römork çekenler için.",
-            "E": "Söylenenin tersine çevrilmiş hâli — ödünç kamyonetle gelen inşaat atığı ticari atık sayılıyor ve saha bunu kabul edemiyor."
+            "A": "Söylendi sonra düzeltildi — kapıda form imzalama usulü sahanın yeniden açıldığı gün kaldırıldı; başvuru artık en az üç iş günü önceden ve yalnız çevrimiçi. Aynı köke oturuyor: bu da iznin nasıl alındığına dair bir bilgi.",
+            "C": "Sesle hiç geçmeyen çeldirici — iznin başkasına devredilmesinden söz edilmiyor. Aynı köke oturuyor: bu da iznin sahibine tanıdığı bir hak biçiminde yazıldı.",
+            "D": "Sesle hiç geçmeyen çeldirici — iznin araçta gösterilmesi gerektiği hiç söylenmiyor."
           },
-          "explanation": "The permit is free (A) and gives twelve visits a year (B). Both answers are in the line at answer point L4-S2-20.",
+          "explanation": "The permit is free (B) and it gives the holder twelve visits a year (E); it has to be applied for online at least three working days ahead. Both answers are in the line at answer point L4-S2-20.",
           "difficulty": "easy",
-          "status": "flagged",
-          "blind_solvable": true,
-          "blind_basis": "option_wording",
-          "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'sıradan arabalar için gerekli' soru kökünün kendisiyle çelişiyor (kök zaten van iznini soruyor), inşaat atığı atık sahası kuralına aykırı, kapıda imzalanması izin mantığına en uzak olan.",
-          "flag_mechanism": "secenek_sozu"
+          "status": "verified",
+          "blind_solvable": false,
+          "blind_basis": null,
+          "yeniden_uretim": {
+            "uretilen_grup": "P-MCM-02 secenekler (dinleme alistirma / multiple choice multi)",
+            "eski_prompt": "Which TWO things does the speaker say about the van permit?",
+            "eski_secenekler": [
+              {
+                "letter": "A",
+                "text": "There is no charge for it."
+              },
+              {
+                "letter": "B",
+                "text": "It covers twelve visits a year."
+              },
+              {
+                "letter": "C",
+                "text": "It can be signed for at the gate."
+              },
+              {
+                "letter": "D",
+                "text": "It is needed for ordinary cars."
+              },
+              {
+                "letter": "E",
+                "text": "Holders may bring building waste in."
+              }
+            ],
+            "eski_cevap": [
+              "A",
+              "B"
+            ],
+            "neden_elendi": "secenek_sozu: 'siradan arabalar icin gerekli' kokun kendisiyle celisiyordu (kok zaten kamyonet iznini soruyor), insaat atigi atik sahasi kuralina acikca aykiriydi, kapida imzalanmasi da izin mantigina en uzak secenekti; uc celdiricinin ucu de okunur okunmaz eleniyordu.",
+            "ne_degisti": "Uc celdirici de kokle celismeyen, akla yatkin izin bilgileriyle degistirildi (ayni gun ayarlanabilme / baskasina devredilebilme / on camda gosterilme) ve dogru cevaplarla ayni bicimde yazildi. Ayrica 'ucretsiz' secenegiyle dogrudan celisen bir ucret secenegi konmadi, boylece disleyen cift olusmadi. Ayrim 'The permit is free and it gives you twelve visits a year' cumlesinde kaliyor. Harfler A-B'den B-E'ye alindi. Cevaplarin icerigi, kanit ve turn_index degismedi.",
+            "tarih": "2026-08-18",
+            "kaynak_prompt": "denetim turu: dinleme alistirma yazim kusurlari (2026-08-18)"
+          }
         },
         {
           "number": "7-8",
@@ -174,44 +238,76 @@
           "options": [
             {
               "letter": "A",
-              "text": "drive a car in without booking"
+              "text": "let children out of the vehicle"
             },
             {
               "letter": "B",
-              "text": "bring garden soil to the site"
+              "text": "bring plasterboard to the site"
             },
             {
               "letter": "C",
-              "text": "buy secondhand goods at the site"
+              "text": "take something home from the swap shelf"
             },
             {
               "letter": "D",
-              "text": "let children move around the site"
+              "text": "take an item back out of a container"
             },
             {
               "letter": "E",
-              "text": "take items back out of a container"
+              "text": "arrive by car without booking"
             }
           ],
           "answer": [
-            "D",
-            "E"
+            "A",
+            "D"
           ],
           "evidence": "Children stay in the vehicle, please. Nobody reverses onto the ramp on their own — a member of staff will guide you in, and will park it for you if you'd rather. Closed shoes rather than sandals. And you can't take anything back out of a container once it's been tipped",
           "answer_point_id": "L4-S2-34",
           "turn_index": 14,
           "distractor_analysis": {
-            "A": "Söylenenin tersine çevrilmiş hâli — otomobiller her zamanki gibi giriyor: rezervasyon yok, doldurulacak bir şey yok.",
-            "B": "Söylendi ama sorulan bu değil — evden gelen toprak ve moloz ziyaret başına dört torbaya kadar kabul ediliyor; yasak değil.",
-            "C": "Söylendi ama sorulan bu değil — yeniden kullanım dükkânındaki her şey denenip test edilmiş ve satışta; almak serbest."
+            "B": "Söylendi ama sorulan bu değil — alçıpan kabul ediliyor, yalnız ayrı tutulup sarı bölmeye konması isteniyor. Aynı köke oturuyor: pek çok sahada kısıtlı olduğu için akla yatkın bir yasak gibi duruyor.",
+            "C": "Söylendi ama sorulan bu değil — dükkân kapısındaki takas rafından ücretsiz alınabiliyor. Aynı köke oturuyor: konteynerden eşya almanın yasak olması bu rafı da yasak gibi gösteriyor.",
+            "E": "Söylenenin tersine çevrilmiş hâli — otomobiller her zamanki gibi rezervasyonsuz giriyor; ön izin yalnız kamyonet, pikap ve römork çekenler için."
           },
-          "explanation": "Children getting out of the vehicle (D) and taking something back out of a container once it has been tipped (E) are both forbidden; the latter is for insurance reasons, since anything tipped becomes the council's property from that moment. Second answer point: L4-S2-35.",
+          "explanation": "Children have to stay in the vehicle (A), and once a container has been tipped nothing may be taken back out of it (D), because from that moment the material belongs to the council. Second answer point: L4-S2-35.",
           "difficulty": "medium",
-          "status": "flagged",
-          "blind_solvable": true,
-          "blind_basis": "general_knowledge",
-          "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: kök yine YASAK soruyor, konteynerden eşya geri almak ve çocukların sahada dolaşması atık sahalarının bilinen iki yasağı, kalan üç seçenek sahaların izin verdiği şeyler.",
-          "flag_mechanism": "kip_imzasi"
+          "status": "verified",
+          "blind_solvable": false,
+          "blind_basis": null,
+          "yeniden_uretim": {
+            "uretilen_grup": "P-MCM-02 secenekler (dinleme alistirma / multiple choice multi)",
+            "eski_prompt": "Which TWO things are visitors not allowed to do?",
+            "eski_secenekler": [
+              {
+                "letter": "A",
+                "text": "drive a car in without booking"
+              },
+              {
+                "letter": "B",
+                "text": "bring garden soil to the site"
+              },
+              {
+                "letter": "C",
+                "text": "buy secondhand goods at the site"
+              },
+              {
+                "letter": "D",
+                "text": "let children move around the site"
+              },
+              {
+                "letter": "E",
+                "text": "take items back out of a container"
+              }
+            ],
+            "eski_cevap": [
+              "D",
+              "E"
+            ],
+            "neden_elendi": "kip_imzasi: kok YASAK soruyordu ve seceneklerin kip imzasi ayrimi kendiliginden yapiyordu — iki dogru secenek zorunluluk/yasak kipiyle ('must not', 'may not' cagrisimli) yazilmisken kalan uc secenek sahanin acikca izin verdigi, kip bakimindan noter eylemlerdi.",
+            "ne_degisti": "Imza iki yonde de kirildi: (1) bes secenek de kipsiz, yalin mastar oldu, yani hicbirinde yasak isareti kalmadi; (2) uc celdirici, baska sahalarda gercekten kisitlanan ama bu sahada serbest olan eylemlerle degistirildi (alcipan getirmek, takas rafindan esya almak, rezervasyonsuz arabayla gelmek), boylece 'yasak gibi duran' secenek sayisi ucten bese cikti. Ayrim konusmacinin guvenlik paragrafina tasindi. Harfler D-E'den A-D'ye alindi. Cevaplarin icerigi, kanit ve turn_index degismedi.",
+            "tarih": "2026-08-18",
+            "kaynak_prompt": "denetim turu: dinleme alistirma yazim kusurlari (2026-08-18)"
+          }
         }
       ]
     },

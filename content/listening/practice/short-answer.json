@@ -48,7 +48,7 @@
         {
           "number": 2,
           "script_id": "L1-S4",
-          "prompt": "Which of the three forms of urban agriculture is set up on top of a building that already stands?",
+          "prompt": "Which of the three forms of urban agriculture does the speaker describe second?",
           "answer": [
             "rooftop farm"
           ],
@@ -60,13 +60,22 @@
           "answer_point_id": "L1-S4-06",
           "turn_index": 2,
           "distractor_used": null,
-          "explanation": "The second of the three forms is the commercial rooftop farm; it puts soil beds or greenhouses on the flat roof of an existing building.",
+          "explanation": "The speaker lists the three forms in order: the community garden first, the commercial rooftop farm second, and the controlled-environment farm third.",
           "difficulty": "easy",
-          "status": "flagged",
-          "blind_solvable": true,
-          "blind_basis": "frame_wording",
-          "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'üç kentsel tarım biçiminden hangisi var olan bir binanın üstüne kurulur' — sorunun kendi tanımı çatı çiftliğini adlandırıyor.",
-          "flag_mechanism": "cerceve_sozu"
+          "status": "verified",
+          "blind_solvable": false,
+          "blind_basis": null,
+          "yeniden_uretim": {
+            "uretilen_grup": "P-SA-01 cerceve (dinleme alistirma / short answer)",
+            "eski_cerceve": "Which of the three forms of urban agriculture is set up on top of a building that already stands?",
+            "eski_cevap": [
+              "rooftop farm"
+            ],
+            "neden_elendi": "cerceve_sozu: soru 'var olan bir binanin ustune kurulan' diyerek cevabin tanimini kendi icinde veriyordu; cati ciftligi adi bu tanimdan dogrudan okunuyordu.",
+            "ne_degisti": "Tanim cerceveden tumuyle cikarildi; soru artik konusmacinin sayma sirasini soruyor. Cevap yalniz 'The second is the commercial rooftop farm' cumlesi duyulunca yazilabiliyor. Cevap, kanit ve turn_index degismedi.",
+            "tarih": "2026-08-18",
+            "kaynak_prompt": "denetim turu: dinleme alistirma yazim kusurlari (2026-08-18)"
+          }
         },
         {
           "number": 3,
@@ -263,7 +272,7 @@
         {
           "number": 11,
           "script_id": "L4-S4",
-          "prompt": "What has a wall got to interrupt between the traffic and the listener if it is to do any good?",
+          "prompt": "What does the speaker say a barrier works by breaking?",
           "answer": [
             "line of sight"
           ],
@@ -275,13 +284,22 @@
           "answer_point_id": "L4-S4-22",
           "turn_index": 9,
           "distractor_used": null,
-          "explanation": "A barrier works by breaking the line of sight between the source and the ear; if the wheels are still visible, the barrier is not doing its job.",
+          "explanation": "The speaker says a barrier works by breaking the line of sight between the source and the ear; if the wheels are still visible, the wall is not working.",
           "difficulty": "medium",
-          "status": "flagged",
-          "blind_solvable": true,
-          "blind_basis": "frame_wording",
-          "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'bir duvarın işe yaraması için trafikle dinleyici arasında neyi kesmesi gerekir' — sorunun kendi tanımı görüş hattını söylüyor, aynı alıştırma akış şeması da 'tekerlekleri görüşten gizleyecek yere konur' diye tekrarlıyor.",
-          "flag_mechanism": "cerceve_sozu"
+          "status": "verified",
+          "blind_solvable": false,
+          "blind_basis": null,
+          "yeniden_uretim": {
+            "uretilen_grup": "P-SA-03 cerceve (dinleme alistirma / short answer)",
+            "eski_cerceve": "What has a wall got to interrupt between the traffic and the listener if it is to do any good?",
+            "eski_cevap": [
+              "line of sight"
+            ],
+            "neden_elendi": "cerceve_sozu: 'trafikle dinleyici arasinda neyi kesmesi gerekir' cercevesi kaynak-kulak geometrisini kendisi kurup cevabi adlandiriyordu.",
+            "ne_degisti": "Cerceveden 'trafikle dinleyici arasinda' geometrisi silindi; soru artik yalnizca konusmacinin ne dedigini soruyor. Not: bu kalemin ayni alistirmadaki akis semasiyla ortusen ('tekerlekleri gorusten gizleyecek yerde') capraz tekrari senaryo/sema isi oldugu icin bu turda ellenmedi.",
+            "tarih": "2026-08-18",
+            "kaynak_prompt": "denetim turu: dinleme alistirma yazim kusurlari (2026-08-18)"
+          }
         },
         {
           "number": 12,

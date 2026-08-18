@@ -18,7 +18,7 @@
   "items": [
     {
       "number": 27,
-      "prompt": "So that the order of events is still clear, Tamsin will add a one-page (27) ........ , which does not count towards the word limit.",
+      "prompt": "Tamsin will add a one-page (27) ........ at the front of her report, which will not count towards the word limit.",
       "answer": [
         "timeline"
       ],
@@ -30,13 +30,23 @@
       "answer_point_id": "L3-S3-21",
       "turn_index": 19,
       "distractor_used": null,
-      "explanation": "The adviser suggests that the student, who has chosen the skills-based structure, add a one-page timeline at the very start of the report so the story is not lost.",
+      "explanation": "The tutor tells Tamsin to put a one-page timeline at the front of the report as a figure; it does not count towards the word limit.",
       "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_basis": "frame_wording",
-      "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'olayların sırası yine açık olsun diye bir sayfalık (27) ekleyecek' çerçevesi olay sırası ve tek sayfa kayıtlarıyla tek doldurmayı bırakıyor.",
-      "flag_mechanism": "cerceve_sozu"
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "kaynak": "sizinti yazim turu - dinleme L3 (kardes ajan gorevi)",
+        "mekanizma": "cerceve_sozu",
+        "eski_prompt": "So that the order of events is still clear, Tamsin will add a one-page (27) ........ , which does not count towards the word limit.",
+        "eski_cevap": [
+          "timeline"
+        ],
+        "eski_kanit_cumlesi": "put a one-page timeline at the front as a figure",
+        "neden_isaretlendi": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'olayların sırası yine açık olsun diye bir sayfalık (27) ekleyecek' çerçevesi olay sırası ve tek sayfa kayıtlarıyla tek doldurmayı bırakıyor.",
+        "ne_degisti": "Cerceve 'So that the order of events is still clear, Tamsin will add a one-page (27) ........' idi: 'olaylarin sirasi' ile 'tek sayfa' bir arada tek bir doldurmayi ayakta birakiyordu. Karsitlik cerceveden sese tasindi - sesteki gerekce ('if you're worried about losing the story') artik cerceveden okunmuyor. Kalan cerceve 'raporun basina konacak, kelime sinirina sayilmayan bir sayfalik sey' oldugu icin bosluk summary / contents / plan / diagram / timeline arasinda aciliyor."
+      }
     },
     {
       "number": 28,

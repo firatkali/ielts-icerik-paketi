@@ -57,7 +57,7 @@
           "number": 2,
           "script_id": "L3-S2",
           "select_count": 1,
-          "prompt": "When does the guided walk now take place?",
+          "prompt": "When does the guided walk take place?",
           "options": [
             {
               "letter": "A",
@@ -65,30 +65,54 @@
             },
             {
               "letter": "B",
-              "text": "on the first Sunday of the month"
+              "text": "on the last Saturday of the month"
             },
             {
               "letter": "C",
-              "text": "on a Tuesday each month"
+              "text": "on the first Sunday of the month"
             }
           ],
           "answer": [
-            "B"
+            "C"
           ],
           "evidence": "from this month it's the first Sunday instead",
           "answer_point_id": "L3-S2-31",
           "turn_index": 12,
           "distractor_analysis": {
-            "A": "Söylendi sonra düzeltildi — yürüyüş yıllarca ayın ilk Cumartesi'siydi; sayım gönüllüleri Cumartesilerini geri isteyince bu aydan itibaren ilk Pazar'a alındı.",
-            "C": "Söylendi ama sorulan bu değil — Salı, çalılık temizleme ekibinin yeni toplanma günü; rehberli yürüyüşle ilgisi yok."
+            "A": "Söylendi sonra düzeltildi — yürüyüş yıllarca ayın ilk Cumartesi'siydi; sayım gönüllüleri Cumartesilerini geri isteyince bu aydan itibaren değişti.",
+            "B": "Sesle hiç geçmeyen çeldirici — ayın son Cumartesi'sinden hiç söz edilmiyor."
           },
-          "explanation": "The monthly guided walk now takes place on the first Sunday of the month from this month onwards; the first Saturday was the old arrangement.",
+          "explanation": "The monthly guided walk now takes place on the first Sunday of the month; the first Saturday was the old arrangement, dropped this month because the survey volunteers wanted their Saturdays back.",
           "difficulty": "medium",
-          "status": "flagged",
-          "blind_solvable": true,
-          "blind_basis": "logic",
-          "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: üç seçenekten ikisi aynı kalıbın (ayın ilk hafta sonu günü) iki hâli, üçüncüsü kalıp dışı; kökteki 'artık' bir değişikliği ima ettiği için kalıp dışı seçenek eski hâl olarak eleniyor.",
-          "flag_mechanism": "konumsal_duzen"
+          "status": "verified",
+          "blind_solvable": false,
+          "blind_basis": null,
+          "yeniden_uretim": {
+            "uretilen_grup": "P-MC-01 kok + secenekler (dinleme alistirma / multiple choice)",
+            "eski_prompt": "When does the guided walk now take place?",
+            "eski_secenekler": [
+              {
+                "letter": "A",
+                "text": "on the first Saturday of the month"
+              },
+              {
+                "letter": "B",
+                "text": "on the first Sunday of the month"
+              },
+              {
+                "letter": "C",
+                "text": "on a Tuesday each month"
+              }
+            ],
+            "eski_cevap": [
+              "B"
+            ],
+            "neden_elendi": "konumsal_duzen: uc secenekten ikisi ayni kalibin (ayin ilk hafta sonu gunu) iki hali, ucuncusu (Sali) kalip disiydi; koktekI 'artik' bir degisiklik ima ettigi icin kalip disi secenek eleniyor ve geriye ikili bir yazi-tura kaliyordu.",
+            "ne_degisti": "Kokten 'artik' cikarildi ve uc secenek de ayni bicime getirildi (sira + gun): ilk Cumartesi / son Pazar / ilk Pazar. Artik hicbir secenek bicimiyle one cikmiyor; her secenek digerlerinin biriyle gunu, otekiyle sirayi paylasiyor. Dogru sik harfi B'den C'ye alindi. Cevabin icerigi (ayin ilk Pazari), kanit ve turn_index degismedi. Ilk sessiz olcumde uc turun ucunde de bulundu: uc secenek 'sira + gun' olarak yazilinca dogru secenek digerlerinin biriyle gunu, otekiyle sirayi paylasan MERKEZ secenek oluyor ve 'en cok ortak ozelligi tasiyan sik' kestirmesiyle bulunuyordu. Ikinci duzeltmede merkez secenek yer degistirdi: artik merkez 'ilk Cumartesi' (yani sesin duzelttigi eski hal), dogru cevap ise cevre seceneklerden biri.",
+            "tarih": "2026-08-18",
+            "kaynak_prompt": "denetim turu: dinleme alistirma yazim kusurlari (2026-08-18)",
+            "ikinci_tur": "2026-08-18 sessiz olcum 1: 3/3 bulundu; secenekler yeniden dagitildi (ilk Cumartesi / son Cumartesi / ilk Pazar)."
+          }
         }
       ]
     },
@@ -141,89 +165,136 @@
           "options": [
             {
               "letter": "A",
-              "text": "It will be shut at the weekend."
+              "text": "It must be kept clear at all times."
             },
             {
               "letter": "B",
-              "text": "Nothing may be left on it."
+              "text": "It will be closed once the main stage is in use."
             },
             {
               "letter": "C",
-              "text": "The shuttle bus runs along it."
+              "text": "Only people with wristbands may walk along it."
             }
           ],
           "answer": [
-            "B"
+            "A"
           ],
           "evidence": "it's a public right of way, so nothing may be parked or stacked on it",
           "answer_point_id": "L5-S2-16",
           "turn_index": 6,
           "distractor_analysis": {
-            "A": "Söylenenin tersine çevrilmiş hâli — konuşmacı yolun bütün hafta sonu açık kalacağını söylüyor; kapatılacağı söylenmiyor.",
-            "C": "Söylendi ama sorulan bu değil — servis otobüsü park-and-ride hattında, eğlence merkezinden çalışıyor; nehir yoluyla ilgisi yok."
+            "B": "Söylenenin tersine çevrilmiş hâli — konuşmacı yolun bütün hafta sonu açık kalacağını söylüyor. Aynı köke oturuyor: bu da doğrudan yolun kendisine konmuş bir kural.",
+            "C": "Sesle hiç geçmeyen çeldirici — bileklik yalnız kapıdan girişte isteniyor, yolda değil. Aynı köke oturuyor: bu da yolu kimin kullanabileceğine dair bir kural."
           },
-          "explanation": "The riverside path is a public right of way, so nothing may be parked or stacked on it.",
+          "explanation": "The riverside path is a public right of way, so nothing may be parked or stacked on it — it has to be kept clear right through the festival.",
           "difficulty": "medium",
-          "status": "flagged",
-          "blind_solvable": true,
-          "blind_basis": "option_wording",
-          "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: nehir kenarı yolu için sayılan üç seçenekten yalnız 'üzerine hiçbir şey bırakılamaz' bir yol kuralı, kapatılma ve servis otobüsü yolun kendisiyle değil programla ilgili.",
-          "flag_mechanism": "secenek_sozu"
+          "status": "verified",
+          "blind_solvable": false,
+          "blind_basis": null,
+          "yeniden_uretim": {
+            "uretilen_grup": "P-MC-02 secenekler (dinleme alistirma / multiple choice)",
+            "eski_prompt": "What does the speaker say about the riverside path?",
+            "eski_secenekler": [
+              {
+                "letter": "A",
+                "text": "It will be shut at the weekend."
+              },
+              {
+                "letter": "B",
+                "text": "Nothing may be left on it."
+              },
+              {
+                "letter": "C",
+                "text": "The shuttle bus runs along it."
+              }
+            ],
+            "eski_cevap": [
+              "B"
+            ],
+            "neden_elendi": "secenek_sozu: uc secenekten yalniz biri ('uzerine hicbir sey birakilamaz') yolun kendisine ait bir kuraldi; kapatilma ve servis otobusu programla ilgiliydi, yani secenek dizisinin bicimi cevabi veriyordu.",
+            "ne_degisti": "Ucu de yola konmus birer kural olacak sekilde yeniden yazildi: bos tutulmasi / sahne calisirken kapatilmasi / yalniz bileklikliler. Ayrim konusmacinin 'it's a public right of way, so nothing may be parked or stacked on it' cumlesine tasindi. Harf B'den A'ya alindi. Cevabin icerigi, kanit ve turn_index degismedi.",
+            "tarih": "2026-08-18",
+            "kaynak_prompt": "denetim turu: dinleme alistirma yazim kusurlari (2026-08-18)"
+          }
         },
         {
           "number": 5,
           "script_id": "L5-S2",
           "select_count": 1,
-          "prompt": "What does the speaker say about this year's workshops?",
+          "prompt": "What does the speaker say about the workshops?",
           "options": [
             {
               "letter": "A",
-              "text": "They are held on Saturdays only."
+              "text": "They have to be booked in advance."
             },
             {
               "letter": "B",
-              "text": "They charge a small fee."
+              "text": "They run on both days of the festival."
             },
             {
               "letter": "C",
-              "text": "They run on both days."
+              "text": "They are held only in the afternoons."
             }
           ],
           "answer": [
-            "C"
+            "B"
           ],
           "evidence": "The workshops used to be Saturday only; from this year they run on both days.",
           "answer_point_id": "L5-S2-24",
           "turn_index": 9,
           "distractor_analysis": {
-            "A": "Söylendi sonra düzeltildi — atölyeler eskiden yalnız Cumartesi günleriydi; bu yıldan itibaren iki gün de yapılıyor.",
-            "B": "Söylenenin tersine çevrilmiş hâli — konuşmacı atölyelerin ücretsiz olduğunu açıkça söylüyor."
+            "A": "Söylenenin tersine çevrilmiş hâli — yer ayırtma festivalden önce değil, o günün sabahı danışma noktasında yapılıyor.",
+            "C": "Sesle hiç geçmeyen çeldirici — atölyelerin öğleden sonraya sınırlandığı hiç söylenmiyor."
           },
-          "explanation": "The workshops now run on both days of the festival from this year onwards; the Saturday-only arrangement is in the past, and there is no charge.",
+          "explanation": "The workshops used to be Saturday only; from this year they run on both days. They are free, and names are put down at the information point on the morning itself.",
           "difficulty": "easy",
-          "status": "flagged",
-          "blind_solvable": true,
-          "blind_basis": "logic",
-          "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'yalnız cumartesileri' ile 'iki gün de' birbirini dışlıyor, kök 'bu yılki atölyeler' diyerek bir değişiklik ima ettiği için dışlayan çiftten geniş olanı kalıyor.",
-          "flag_mechanism": "konumsal_duzen"
+          "status": "verified",
+          "blind_solvable": false,
+          "blind_basis": null,
+          "yeniden_uretim": {
+            "uretilen_grup": "P-MC-02 secenekler (dinleme alistirma / multiple choice)",
+            "eski_prompt": "What does the speaker say about this year's workshops?",
+            "eski_secenekler": [
+              {
+                "letter": "A",
+                "text": "They are held on Saturdays only."
+              },
+              {
+                "letter": "B",
+                "text": "They charge a small fee."
+              },
+              {
+                "letter": "C",
+                "text": "They run on both days."
+              }
+            ],
+            "eski_cevap": [
+              "C"
+            ],
+            "neden_elendi": "konumsal_duzen: 'yalniz cumartesileri' ile 'iki gun de' birbirini disliyordu; kok 'bu yilki atolyeler' diyerek bir degisiklik ima ettigi icin disleyen ciftin genis olani otomatik kaliyordu.",
+            "ne_degisti": "Birbirini dislayan cift bozuldu: 'yalniz cumartesileri' secenegi tumden cikarildi, yerine birbirinden bagimsiz uc iddia kondu (onceden yer ayirtma / iki gun de yapilma / kucuk ucret). Hicbir secenek otekinin mantiksal tersi degil. Ayrim konusmacinin 'used to be Saturday only; from this year they run on both days' cumlesinde kaliyor. Harf C'den B'ye alindi. Cevabin icerigi, kanit ve turn_index degismedi.",
+            "tarih": "2026-08-18",
+            "kaynak_prompt": "denetim turu: dinleme alistirma yazim kusurlari (2026-08-18)",
+            "ikinci_tur": "2026-08-18 sessiz olcum 2: 3/3 bulundu. Kokteki 'bu yilki' bir degisiklik ima ediyordu ve uc secenekten yalniz biri degisiklik bildiriyordu; ayrica oteki ikisi kisitlama, dogru secenek ise 'iyi haber' bicimindeydi. Kokten 'bu yilki' cikarildi ve uc secenek de ayni bicimde, notr program bilgisi olarak yeniden yazildi (onceden yer ayirtma / iki gun de yapilma / yalniz ogleden sonra)."
+          }
         },
         {
           "number": 6,
           "script_id": "L5-S2",
           "select_count": 1,
-          "prompt": "Where can printed copies of the programme be collected?",
+          "prompt": "Where will printed copies of the programme be available?",
           "options": [
             {
               "letter": "A",
-              "text": "from the information point"
+              "text": "at the information point"
             },
             {
               "letter": "B",
-              "text": "from the festival office"
+              "text": "at the main gate"
             },
             {
               "letter": "C",
-              "text": "by post, to people's homes"
+              "text": "at the box office"
             }
           ],
           "answer": [
@@ -233,16 +304,42 @@
           "answer_point_id": "L5-S2-32",
           "turn_index": 12,
           "distractor_analysis": {
-            "B": "Söylendi ama sorulan bu değil — festival bürosu hafta içi sabahları yüz yüze soru sormak isteyenler için açık; basılı program orada dağıtılmıyor.",
-            "C": "Sesle hiç geçmeyen çeldirici — programın eve postalanacağı hiç söylenmiyor."
+            "B": "Sesle hiç geçmeyen çeldirici — ana kapıda program dağıtımından hiç söz edilmiyor; kapının yanında kutu ofisi, danışma noktası ve kayıp eşya kabini var.",
+            "C": "Söylendi ama sorulan bu değil — kutu ofisi çevrimiçi kodların bileklikle değiştirildiği yer."
           },
-          "explanation": "Printed programmes will be at the information point from the tenth of August; the office is open only for enquiries.",
+          "explanation": "Printed programmes will be at the information point from the tenth of August; the box office swaps booking codes for wristbands and the main gate is only the way in.",
           "difficulty": "medium",
           "status": "flagged",
           "blind_solvable": true,
-          "blind_basis": "option_wording",
-          "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: kökteki 'toplama' (collect) fiili eve postayı eliyor, danışma noktası ise zaten bu iş için var olan yer.",
-          "flag_mechanism": "secenek_sozu"
+          "blind_basis": "general_knowledge",
+          "yeniden_uretim": {
+            "uretilen_grup": "P-MC-02 kok + secenekler (dinleme alistirma / multiple choice)",
+            "eski_prompt": "Where can printed copies of the programme be collected?",
+            "eski_secenekler": [
+              {
+                "letter": "A",
+                "text": "from the information point"
+              },
+              {
+                "letter": "B",
+                "text": "from the festival office"
+              },
+              {
+                "letter": "C",
+                "text": "by post, to people's homes"
+              }
+            ],
+            "eski_cevap": [
+              "A"
+            ],
+            "neden_elendi": "secenek_sozu: koktekI 'collected' fiili posta secenegini kendiliginden eliyor, geriye kalan iki yerden danisma noktasi zaten bu is icin var olan yer oldugundan konusma duyulmadan 3/3 turda bulunuyordu.",
+            "ne_degisti": "Kok notrlestirildi ('nerede bulunabilir'), posta secenegi kaldirildi ve uc secenek de sahada gercekten bulunan, program dagitabilecek uc nokta oldu (kutu ofisi / festival burosu / danisma noktasi). Ayrim konusmacinin 'printed copies will be at the information point from the tenth of August' cumlesinde kaliyor. Cevabin icerigi (danisma noktasi), harf, kanit ve turn_index degismedi. Ilk sessiz olcumde uc turun ucunde de bulundu (bir tur 'kesin' dedi): 'festival burosu' basili malzeme dagitacak bir yer gibi durmadigi icin danisma noktasi tek makul aday kaliyordu. Ikinci duzeltmede buro cikarilip yerine ana kapi kondu; artik ucu de festivale gelenin ilk ugradigi, elden bir sey alabilecegi noktalar. Dogru sik harfi C'den A'ya alindi.",
+            "tarih": "2026-08-18",
+            "kaynak_prompt": "denetim turu: dinleme alistirma yazim kusurlari (2026-08-18)",
+            "ikinci_tur": "2026-08-18 sessiz olcum 1 ve 2: her ikisinde de 3/3. Secenek dizisi iki kez yenilendi (once posta secenegi cikarildi, sonra festival burosu yerine ana kapi kondu); ikisi de yetmedi. Kalem yazim tarafinda iyilestirilmis hâliyle birakildi ama senaryo degisikligi gerektirdigi icin yeniden isaretlendi."
+          },
+          "flag_reason": "Iki ayri yazim turundan sonra da senaryo gosterilmeden 3/3 turda dogru bilindi: cevabin kendisi ('danisma noktasi') basili programin dagitilacagi EN DOGAL yer oldugu icin, secenekler ne kadar dengelenirse dengelensin genel bilgiyle bulunuyor. Yazimla kapanmiyor: kapanmasi icin senaryoda basili programin daha az beklenen bir noktaya (or. kutu ofisi ya da el sanatlari cadiri) tasinmasi gerekiyor. SENARYO ISI - ertelendi.",
+          "flag_mechanism": "genel_kultur"
         }
       ]
     },

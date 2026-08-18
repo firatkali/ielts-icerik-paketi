@@ -22,13 +22,13 @@
       "context_line": "You will hear part of a lecture about how seed banks store and check plant seeds.",
       "instructions": "Complete the flow-chart below. Write NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
       "word_limit": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
-      "stem_block": "GETTING A WILD SEED SAMPLE INTO A SEED BANK\n\nIN THE FIELD\nNot more than a fifth of the ripe seed is taken, and the seed of every plant\nis kept (1) ........ all the way to the store\n↓\nDRYING\nSlow drying in a warm, dry room brings the seed down to about five per cent moisture\n↓\nSEALING AND FREEZING\nThe quality of the seal counts for more than the jar itself; the agreed\ntemperature has been minus (2) ........ degrees for years now\n↓\nCHECKING\nX-ray picks out the hollow seeds, then two hundred of them are germinated\n↓\nRETESTING\nIf a later test falls short, the sample is grown on and a bigger crop is taken —\nthe step banks call (3) ........\n↓\nDUPLICATION\nA portion put aside at the start travels to a (4) ........, in another country\nif that can be managed",
+      "stem_block": "GETTING A WILD SEED SAMPLE INTO A SEED BANK\n\nIN THE FIELD\nNot more than a fifth of the ripe seed is taken, and the material is kept\n(1) ........ until it reaches the store\n↓\nDRYING\nSlow drying in a warm, dry room brings the seed down to about five per cent moisture\n↓\nSEALING AND FREEZING\nThe quality of the seal counts for more than the jar itself; the agreed\ntemperature has been minus (2) ........ degrees for years now\n↓\nCHECKING\nX-ray picks out the hollow seeds, then two hundred of them are germinated\n↓\nRETESTING\nIf a later test falls short, the sample is grown on and a bigger crop is taken —\nthe step banks call (3) ........\n↓\nDUPLICATION\nA portion put aside at the start travels to a (4) ........, in another country\nif that can be managed",
       "table": null,
       "items": [
         {
           "number": 1,
           "script_id": "L3-S4",
-          "prompt": "Not more than a fifth of the ripe seed is taken, and the seed of every plant is kept (1) ........ all the way to the store",
+          "prompt": "Not more than a fifth of the ripe seed is taken, and the material is kept (1) ........ until it reaches the store",
           "answer": [
             "separate"
           ],
@@ -39,13 +39,23 @@
           "answer_point_id": "L3-S4-06",
           "turn_index": 2,
           "distractor_used": null,
-          "explanation": "Seeds collected in the field are kept separate plant by plant; they are only combined once the material reaches the store.",
+          "explanation": "Seed collected in the field is kept plant by plant: the seed from each plant stays separate until it reaches the store, where it can be combined.",
           "difficulty": "medium",
-          "status": "flagged",
-          "blind_solvable": true,
-          "blind_basis": "logic",
-          "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'her bitkinin tohumu depoya kadar (1) tutulur' — örnek bütünlüğü mantığı tek doldurmayı bırakıyor.",
-          "flag_mechanism": "konumsal_duzen"
+          "status": "verified",
+          "blind_solvable": false,
+          "blind_basis": null,
+          "yeniden_uretim": {
+            "uretilen_grup": "P-FC-01 cerceve (dinleme alistirma / flow chart completion)",
+            "eski_cerceve": "Not more than a fifth of the ripe seed is taken, and the seed of every plant is kept (1) ........ all the way to the store",
+            "eski_stem_block_satiri": "Not more than a fifth of the ripe seed is taken, and the seed of every plant\nis kept (1) ........ all the way to the store",
+            "eski_cevap": [
+              "separate"
+            ],
+            "neden_elendi": "cerceveden okunuyordu: 'her bitkinin tohumu depoya kadar (1) tutulur' — 'her bitkinin' ifadesi ornek butunlugu mantigini kurup tek doldurmayi birakiyordu; konusma duyulmadan 3/3 turda yazildi.",
+            "ne_degisti": "'Her bitkinin tohumu' ifadesi cerceveden cikarildi; satir artik yalnizca 'malzeme depoya varana kadar (1) tutulur' diyor ve bu cerceveye 'dry', 'cool', 'labelled', 'sealed' gibi adaylar da (asagidaki KURUTMA adimi yuzunden ozellikle 'dry') en az cevap kadar oturuyor. Ayrim konusmacinin 'keep the seed from each plant separate until it reaches the store' cumlesine tasindi. Cevap, kanit ve turn_index degismedi.",
+            "tarih": "2026-08-18",
+            "kaynak_prompt": "denetim turu: dinleme alistirma yazim kusurlari (2026-08-18)"
+          }
         },
         {
           "number": 2,

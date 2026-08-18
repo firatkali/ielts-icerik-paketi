@@ -22,31 +22,31 @@
         "options": [
           {
             "letter": "A",
-            "text": "It is free of charge."
+            "text": "Trainers are not suitable for it."
           },
           {
             "letter": "B",
-            "text": "It has changed to a different day."
+            "text": "It is not available after dark."
           },
           {
             "letter": "C",
-            "text": "It is made from quarry waste."
+            "text": "The surface underfoot is uneven."
           },
           {
             "letter": "D",
-            "text": "It suits people who like unhurried work."
+            "text": "It dates from the working quarry."
           },
           {
             "letter": "E",
-            "text": "It requires proper walking footwear."
+            "text": "It suits people who are not in a hurry."
           },
           {
             "letter": "F",
-            "text": "It is not permitted."
+            "text": "It costs nothing."
           },
           {
             "letter": "G",
-            "text": "It takes place once a month."
+            "text": "Its day has recently been changed."
           }
         ]
       },
@@ -57,29 +57,69 @@
           "section": 2,
           "script_id": "L3-S2",
           "select_count": 1,
-          "prompt": "the soil in the park",
+          "prompt": "the ground in the park",
           "options": null,
           "answer": [
-            "C"
+            "D"
           ],
           "evidence": "What you're standing on is spoil — waste rock tipped here while the quarry was worked",
           "answer_point_id": "L3-S2-36",
           "turn_index": 1,
           "distractor_analysis": {
-            "A": "Başka öğe için söylendi (tür 3) — ücretsiz olanlar ödünç ağlar ve Çarşamba günü otopark.",
-            "B": "Söylendi sonra düzeltildi kökenli — günü değişenler rehberli yürüyüş ve çalılık ekibi, toprak değil.",
-            "D": "Başka öğe için söylendi — yavaş ve rahat iş orkide sayımı.",
-            "E": "Başka öğe için söylendi — bot gerektiren şey kırmızı rota.",
-            "F": "Başka öğe için söylendi — yasak olan, arabayı gece parkta bırakmak.",
-            "G": "Başka öğe için söylendi — ayda bir yapılan şey rehberli yürüyüş."
+            "A": "Ayni koke oturuyor - ince, islak, doseme olmayan bir zeminde ayakkabi meselesi akla geliyor; ama uygun ayakkabi sarti seste yalniz kirmizi rota icin soyleniyor.",
+            "B": "Sesle bagi yok - zeminin karanlikta kullanilamayacagina dair bir sey soylenmiyor.",
+            "C": "Ayni koke oturuyor - dokuntu kayanin engebeli olmasi beklenir ve kutudaki en yakin ikinci secenek bu; konusmada zeminin yuzeyi hic nitelenmiyor, yalnizca nereden geldigi soyleniyor.",
+            "E": "Baska oge icin soylendi - acele etmeyene uygunluk orkide sayimina ait.",
+            "F": "Baska oge icin soylendi - ucretsiz olan, bilgi kulubesinden odunc alinan daldirma aglari.",
+            "G": "Baska oge icin soylendi - gunu degisenler rehberli yuruyus ve calilik ekibi."
           },
-          "explanation": "The guide says that what visitors are standing on is spoil — waste rock tipped here while the quarry was worked.",
+          "explanation": "The ground is spoil: waste rock tipped on the site while the quarry was still being worked, which is why the soil is so thin.",
           "difficulty": "medium",
-          "status": "flagged",
-          "blind_solvable": true,
-          "blind_basis": "option_wording",
-          "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'taş ocağı atığından yapılmış' yalnız topraktan söz edebilir, kutudaki seçenek kökü doğrudan adlandırıyor.",
-          "flag_mechanism": "secenek_sozu"
+          "status": "verified",
+          "blind_solvable": false,
+          "blind_basis": null,
+          "yeniden_uretim": {
+            "tarih": "2026-08-18",
+            "kaynak": "sizinti yazim turu - dinleme L3 (kardes ajan gorevi)",
+            "mekanizma": "secenek_sozu",
+            "eski_prompt": "the soil in the park",
+            "eski_cevap": [
+              "C"
+            ],
+            "eski_kanit_cumlesi": "What you're standing on is spoil — waste rock tipped here while the quarry was worked",
+            "eski_kutu": [
+              {
+                "letter": "A",
+                "text": "It is free of charge."
+              },
+              {
+                "letter": "B",
+                "text": "It has changed to a different day."
+              },
+              {
+                "letter": "C",
+                "text": "It is made from quarry waste."
+              },
+              {
+                "letter": "D",
+                "text": "It suits people who like unhurried work."
+              },
+              {
+                "letter": "E",
+                "text": "It requires proper walking footwear."
+              },
+              {
+                "letter": "F",
+                "text": "It is not permitted."
+              },
+              {
+                "letter": "G",
+                "text": "It takes place once a month."
+              }
+            ],
+            "neden_isaretlendi": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'taş ocağı atığından yapılmış' yalnız topraktan söz edebilir, kutudaki seçenek kökü doğrudan adlandırıyor.",
+            "ne_degisti": "Kok 'the soil in the park' yerine 'the ground in the park'; kutu bastan yazildi. Eski dogru secenek 'It is made from quarry waste' tas ocagi atigini adiyla aniyordu ve kutudaki tek zemin cumlesiydi; yeni dogru secenek 'It dates from the working quarry' parkin tamami eski bir tas ocagi oldugu icin otopark, kirmizi rota ve gol kenari icin de soylenebiliyor. Koke ayrica iki celdirici oturuyor: A (ayakkabi) ve C (engebeli yuzey)."
+          }
         },
         {
           "number": 12,
@@ -89,84 +129,204 @@
           "prompt": "the red route",
           "options": null,
           "answer": [
-            "E"
+            "A"
           ],
           "evidence": "Boots, not trainers — much of it is on grass and stays wet well into the summer.",
           "answer_point_id": "L3-S2-12",
           "turn_index": 4,
           "distractor_analysis": {
-            "A": "Başka öğe için söylendi — ücretsizlik ağlara ve Çarşamba otoparkına ait; kırmızı rota için ücret hiç anılmıyor.",
-            "B": "Söylendi sonra düzeltildi kökenli — gün değişikliği rehberli yürüyüşe ve çalılık ekibine ait.",
-            "C": "Başka öğe için söylendi — atık kaya parkın zeminini anlatıyor.",
-            "D": "Başka öğe için söylendi — yavaş ve rahat iş orkide sayımı.",
-            "F": "Söylendi ama sorulan bu değil — yasaklar başka şeylere ait: köpekler mavi rotaya sokulmuyor, araba gece bırakılamıyor; kırmızı rotada köpek bile serbest.",
-            "G": "Başka öğe için söylendi — ayda bir olan rehberli yürüyüş."
+            "B": "Ayni koke oturuyor - yedi millik bir rotanin karanlikta yurunmemesi akla yatkin; ama seste boyle bir sinir yalniz otopark icin kuruluyor.",
+            "C": "Ayni koke oturuyor - cimen ustunde giden bir rotanin yuzeyi engebeli sanilabilir; konusmada rotanin yuzeyi degil islakligi anlatiliyor.",
+            "D": "Baska oge icin soylendi - tas ocagi donemine dayanan sey, uzerinde durulan zemin.",
+            "E": "Baska oge icin soylendi - acele etmeyene uygunluk orkide sayimina ait.",
+            "F": "Baska oge icin soylendi - ucretsiz olan, bilgi kulubesinden odunc alinan aglar.",
+            "G": "Baska oge icin soylendi - gunu degisenler rehberli yuruyus ve calilik ekibi."
           },
-          "explanation": "The red route needs boots, not trainers: much of it is on grass and stays wet well into the summer.",
-          "difficulty": "easy",
-          "status": "flagged",
-          "blind_solvable": true,
-          "blind_basis": "option_wording",
-          "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'düzgün yürüyüş ayakkabısı gerektirir' yalnız bir yürüyüş rotası için söylenebilir, kalan kökler (toprak, ağ, orkide sayımı) bu seçenekle birleşmiyor.",
-          "flag_mechanism": "secenek_sozu"
+          "explanation": "For the red route the guide says boots rather than trainers: much of it is on grass and stays wet well into the summer.",
+          "difficulty": "medium",
+          "status": "verified",
+          "blind_solvable": false,
+          "blind_basis": null,
+          "yeniden_uretim": {
+            "tarih": "2026-08-18",
+            "kaynak": "sizinti yazim turu - dinleme L3 (kardes ajan gorevi)",
+            "mekanizma": "secenek_sozu",
+            "eski_prompt": "the red route",
+            "eski_cevap": [
+              "E"
+            ],
+            "eski_kanit_cumlesi": "Boots, not trainers — much of it is on grass and stays wet well into the summer.",
+            "eski_kutu": [
+              {
+                "letter": "A",
+                "text": "It is free of charge."
+              },
+              {
+                "letter": "B",
+                "text": "It has changed to a different day."
+              },
+              {
+                "letter": "C",
+                "text": "It is made from quarry waste."
+              },
+              {
+                "letter": "D",
+                "text": "It suits people who like unhurried work."
+              },
+              {
+                "letter": "E",
+                "text": "It requires proper walking footwear."
+              },
+              {
+                "letter": "F",
+                "text": "It is not permitted."
+              },
+              {
+                "letter": "G",
+                "text": "It takes place once a month."
+              }
+            ],
+            "neden_isaretlendi": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'düzgün yürüyüş ayakkabısı gerektirir' yalnız bir yürüyüş rotası için söylenebilir, kalan kökler (toprak, ağ, orkide sayımı) bu seçenekle birleşmiyor.",
+            "ne_degisti": "Kok ayni kaldi; secenek 'It requires proper walking footwear' yerine 'Trainers are not suitable for it' oldu ve kutuya bu koke de oturan iki celdirici kondu: B (kapi saati) ve C (engebeli yuzey). Eski kutuda 'yuruyus ayakkabisi' cumlesi kokler icinde yalniz bir rotaya yakisiyordu; yeni kutuda ayni cumle zemin, golet daldirmasi ve orkide sayimi icin de okunabiliyor."
+          }
         },
         {
           "number": 13,
           "section": 2,
           "script_id": "L3-S2",
           "select_count": 1,
-          "prompt": "borrowing a dipping net",
+          "prompt": "pond dipping",
           "options": null,
           "answer": [
-            "A"
+            "F"
           ],
           "evidence": "Nets are free to borrow from the information hut.",
           "answer_point_id": "L3-S2-37",
           "turn_index": 7,
           "distractor_analysis": {
-            "B": "Söylendi sonra düzeltildi kökenli — günü değişen etkinlikler rehberli yürüyüş ve çalılık ekibi; ağlarla ilgisi yok.",
-            "C": "Başka öğe için söylendi — atık kaya zemini anlatıyor.",
-            "D": "Başka öğe için söylendi — yavaş ve rahat iş orkide sayımı.",
-            "E": "Başka öğe için söylendi — bot şartı kırmızı rotaya ait.",
-            "F": "Başka öğe için söylendi — yasak olan gece park etmek; ağ ödünç almak serbest ve teşvik ediliyor.",
-            "G": "Başka öğe için söylendi — ayda bir yapılan rehberli yürüyüş."
+            "A": "Ayni koke oturuyor - golun sig ucunda su kenarinda durulacagi icin ayakkabi sarti beklenir; ses bu sarti yalniz kirmizi rotaya bagliyor.",
+            "B": "Ayni koke oturuyor - suya ag daldirmak gunduz isi gibi gorunur; ses bu sinirlamayi yalniz otoparka bagliyor.",
+            "C": "Sesle bagi yok - tahta platformun yuzeyi hic nitelenmiyor.",
+            "D": "Baska oge icin soylendi - tas ocagi donemine dayanan sey zemin.",
+            "E": "Baska oge icin soylendi - acele etmeyene uygunluk orkide sayimina ait.",
+            "G": "Ayni koke oturuyor - cocuklu etkinliklerin gunu degisebilir; gunu degisenler aslinda rehberli yuruyus ve calilik ekibi."
           },
-          "explanation": "Dipping nets can be borrowed free of charge from the information hut.",
-          "difficulty": "easy",
-          "status": "flagged",
-          "blind_solvable": true,
-          "blind_basis": "option_wording",
-          "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'ücretsiz' seçeneği kökler içinde yalnız ödünç alma eylemiyle anlamlı.",
-          "flag_mechanism": "secenek_sozu"
+          "explanation": "Pond dipping costs nothing: the nets can be borrowed free of charge from the information hut.",
+          "difficulty": "medium",
+          "status": "verified",
+          "blind_solvable": false,
+          "blind_basis": null,
+          "yeniden_uretim": {
+            "tarih": "2026-08-18",
+            "kaynak": "sizinti yazim turu - dinleme L3 (kardes ajan gorevi)",
+            "mekanizma": "secenek_sozu",
+            "eski_prompt": "borrowing a dipping net",
+            "eski_cevap": [
+              "A"
+            ],
+            "eski_kanit_cumlesi": "Nets are free to borrow from the information hut.",
+            "eski_kutu": [
+              {
+                "letter": "A",
+                "text": "It is free of charge."
+              },
+              {
+                "letter": "B",
+                "text": "It has changed to a different day."
+              },
+              {
+                "letter": "C",
+                "text": "It is made from quarry waste."
+              },
+              {
+                "letter": "D",
+                "text": "It suits people who like unhurried work."
+              },
+              {
+                "letter": "E",
+                "text": "It requires proper walking footwear."
+              },
+              {
+                "letter": "F",
+                "text": "It is not permitted."
+              },
+              {
+                "letter": "G",
+                "text": "It takes place once a month."
+              }
+            ],
+            "neden_isaretlendi": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'ücretsiz' seçeneği kökler içinde yalnız ödünç alma eylemiyle anlamlı.",
+            "ne_degisti": "Kok 'borrowing a dipping net' yerine 'pond dipping'; secenek 'It is free of charge' yerine 'It costs nothing'. Eski kurgu odunc alma eylemini adlandirdigi icin 'ucretsiz' cumlesi yalniz o koke yapisiyordu. Yeni kutuda ayni cumle otopark (Carsamba gunleri ucretsiz) ve orkide sayimi (gonullu is) icin de okunabiliyor; koke ayrica A ve B celdiricileri oturuyor."
+          }
         },
         {
           "number": 14,
           "section": 2,
           "script_id": "L3-S2",
           "select_count": 1,
-          "prompt": "leaving a car in the park overnight",
+          "prompt": "the car park",
           "options": null,
           "answer": [
-            "F"
+            "B"
           ],
-          "evidence": "please don't leave a car in overnight",
+          "evidence": "The gates are unlocked at eight in the morning and locked at dusk, whenever dusk happens to be, so please don't leave a car in overnight.",
           "answer_point_id": "L3-S2-38",
           "turn_index": 10,
           "distractor_analysis": {
-            "A": "Söylendi ama sorulan bu değil — aynı replikte Çarşamba günleri otoparkın ücretsiz olduğu söyleniyor; gece bırakmaksa ücret meselesi değil, yasak.",
-            "B": "Söylendi sonra düzeltildi kökenli — gün değişikliği yürüyüşe ve çalılık ekibine ait.",
-            "C": "Başka öğe için söylendi — atık kaya zemini anlatıyor.",
-            "D": "Başka öğe için söylendi — yavaş iş orkide sayımı.",
-            "E": "Başka öğe için söylendi — bot şartı kırmızı rotaya ait.",
-            "G": "Başka öğe için söylendi — ayda bir olan rehberli yürüyüş."
+            "A": "Sesle bagi yok - otopark icin ayakkabidan soz edilmiyor.",
+            "C": "Ayni koke oturuyor - eski tas ocagi sahasindaki bir otoparkin yuzeyi engebeli sanilabilir; konusmada yuzeyden hic soz edilmiyor.",
+            "D": "Ayni koke oturuyor - otoparkin eski ocak sahasinda olmasi akla yatkin; ses tas ocagi donemini yalniz zemine bagliyor.",
+            "E": "Baska oge icin soylendi - acele etmeyene uygunluk orkide sayimina ait.",
+            "F": "Ayni koke oturuyor ve tuzak - ayni replikte otoparkin Carsamba gunleri ucretsiz oldugu soyleniyor, ama normalde gunluk iki pound; yani otopark icin 'hicbir sey tutmuyor' dogru degil.",
+            "G": "Baska oge icin soylendi - gunu degisenler rehberli yuruyus ve calilik ekibi."
           },
-          "explanation": "Because the gates are locked at dusk, the guide asks visitors not to leave a car in the park overnight.",
+          "explanation": "The gates are unlocked at eight and locked at dusk, so the car park is not available after dark: the guide asks visitors not to leave a car in the park overnight.",
           "difficulty": "medium",
-          "status": "flagged",
-          "blind_solvable": true,
-          "blind_basis": "option_wording",
-          "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: kutudaki tek yasak cümlesi ('izin verilmiyor') köklerdeki tek yasak-biçimli kökle (geceleyin parkta araba bırakmak) eşleşiyor, kutupsallık tek başına cevabı veriyor.",
-          "flag_mechanism": "kip_imzasi"
+          "status": "verified",
+          "blind_solvable": false,
+          "blind_basis": null,
+          "yeniden_uretim": {
+            "tarih": "2026-08-18",
+            "kaynak": "sizinti yazim turu - dinleme L3 (kardes ajan gorevi)",
+            "mekanizma": "kip_imzasi",
+            "eski_prompt": "leaving a car in the park overnight",
+            "eski_cevap": [
+              "F"
+            ],
+            "eski_kanit_cumlesi": "please don't leave a car in overnight",
+            "eski_kutu": [
+              {
+                "letter": "A",
+                "text": "It is free of charge."
+              },
+              {
+                "letter": "B",
+                "text": "It has changed to a different day."
+              },
+              {
+                "letter": "C",
+                "text": "It is made from quarry waste."
+              },
+              {
+                "letter": "D",
+                "text": "It suits people who like unhurried work."
+              },
+              {
+                "letter": "E",
+                "text": "It requires proper walking footwear."
+              },
+              {
+                "letter": "F",
+                "text": "It is not permitted."
+              },
+              {
+                "letter": "G",
+                "text": "It takes place once a month."
+              }
+            ],
+            "neden_isaretlendi": "Senaryo gösterilmeden 3/3 turda doğru bilindi: kutudaki tek yasak cümlesi ('izin verilmiyor') köklerdeki tek yasak-biçimli kökle (geceleyin parkta araba bırakmak) eşleşiyor, kutupsallık tek başına cevabı veriyor.",
+            "ne_degisti": "Kok 'leaving a car in the park overnight' yerine 'the car park'; dogru secenek 'It is not permitted' yerine 'It is not available after dark'. Eski kurguda kutudaki tek yasak cumlesi kutudaki tek yasak bicimli kokle eslesiyordu, yani kutupsallik tek basina cevabi veriyordu. Yeni secenekte kip imzasi iki yonde de kirildi: cumle bir yasak degil bir zaman sinirini bildiriyor ve ayni cumle kirmizi rota, golet daldirmasi ve orkide sayimi icin de okunabiliyor. Sessiz sinamanin ilk turunda 'kapilarin kilitlendigi saat' ifadesi hala 3/3 otoparki isaret ettigi icin 'kapi' sozcugu secenekten cikarildi. Koke ayrica C, D ve F celdiricileri oturuyor."
+          }
         },
         {
           "number": 15,
@@ -176,26 +336,66 @@
           "prompt": "the orchid count",
           "options": null,
           "answer": [
-            "D"
+            "E"
           ],
           "evidence": "a slow, comfortable job for anybody who can kneel for an hour",
           "answer_point_id": "L3-S2-39",
           "turn_index": 13,
           "distractor_analysis": {
-            "A": "Söylendi ama sorulan bu değil — ücretsiz olan ödünç ağlar; gönüllü iş için zaten ücret söz konusu değil.",
-            "B": "Söylendi sonra düzeltildi — aynı replikte çalılık temizleme ekibinin Perşembe'den Salı'ya taşındığı söyleniyor; orkide sayımının günü değişmiyor.",
-            "C": "Başka öğe için söylendi — atık kaya zemini anlatıyor.",
-            "E": "Başka öğe için söylendi — bot şartı kırmızı rotaya ait.",
-            "F": "Başka öğe için söylendi — yasak olan gece park etmek; sayım için gönüllü aranıyor.",
-            "G": "Söylendi ama sorulan bu değil — ayda bir olan, bir önceki replikte anlatılan rehberli yürüyüş; sayım yılda bir, Haziran'da."
+            "A": "Ayni koke oturuyor - cayirda diz cokerek yapilan bir is icin ayakkabi sarti beklenir; ses bu sarti yalniz kirmizi rotaya bagliyor.",
+            "B": "Ayni koke oturuyor - cayirdaki sayim gunduz yapilir; ses karanlik sinirini yalniz otoparka bagliyor.",
+            "C": "Sesle bagi yok - sayimin yapildigi yerin yuzeyi nitelenmiyor.",
+            "D": "Baska oge icin soylendi - tas ocagi donemine dayanan sey zemin.",
+            "F": "Ayni koke oturuyor - gonullu is oldugu icin ucretsizlik akla yatkin; ses ucretsizligi yalniz odunc aglara bagliyor.",
+            "G": "Ayni replikte soylendi ve tuzak - gunu degisen, hemen once anilan calilik temizleme ekibi (Persembe'den Sali'ya); orkide sayiminin gunu degismiyor."
           },
-          "explanation": "The orchid count is described as a slow, comfortable job that anyone who can kneel for an hour can do.",
+          "explanation": "The orchid count is described as a slow, comfortable job for anybody who can kneel for an hour, so it suits people who are not in a hurry.",
           "difficulty": "medium",
-          "status": "flagged",
-          "blind_solvable": true,
-          "blind_basis": "logic",
-          "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: dört kök bağlandıktan sonra geriye tek kök kalıyor ve 'acele etmeyi sevmeyenlere uygun' seçeneği orkide sayımına anlamca da uyduğu için eleme kendini doğruluyor.",
-          "flag_mechanism": "konumsal_duzen"
+          "status": "verified",
+          "blind_solvable": false,
+          "blind_basis": null,
+          "yeniden_uretim": {
+            "tarih": "2026-08-18",
+            "kaynak": "sizinti yazim turu - dinleme L3 (kardes ajan gorevi)",
+            "mekanizma": "konumsal_duzen",
+            "eski_prompt": "the orchid count",
+            "eski_cevap": [
+              "D"
+            ],
+            "eski_kanit_cumlesi": "a slow, comfortable job for anybody who can kneel for an hour",
+            "eski_kutu": [
+              {
+                "letter": "A",
+                "text": "It is free of charge."
+              },
+              {
+                "letter": "B",
+                "text": "It has changed to a different day."
+              },
+              {
+                "letter": "C",
+                "text": "It is made from quarry waste."
+              },
+              {
+                "letter": "D",
+                "text": "It suits people who like unhurried work."
+              },
+              {
+                "letter": "E",
+                "text": "It requires proper walking footwear."
+              },
+              {
+                "letter": "F",
+                "text": "It is not permitted."
+              },
+              {
+                "letter": "G",
+                "text": "It takes place once a month."
+              }
+            ],
+            "neden_isaretlendi": "Senaryo gösterilmeden 3/3 turda doğru bilindi: dört kök bağlandıktan sonra geriye tek kök kalıyor ve 'acele etmeyi sevmeyenlere uygun' seçeneği orkide sayımına anlamca da uyduğu için eleme kendini doğruluyor.",
+            "ne_degisti": "Kok ayni kaldi; secenek 'It suits people who like unhurried work' yerine 'It suits people who are not in a hurry' - icindeki 'work' sozcugu cikarilinca cumle gonullu is disindaki koklere de (kirmizi rota, golet daldirmasi) oturuyor. Kutunun geri kalani da yeniden yazildi, boylece kalem artik 'dort kok baglaninca geriye tek sey kalir' elemesiyle cozulmuyor: koke A, B, F ve G celdiricileri de oturuyor. Harf dizisi D-A-F-B-E oldu; artan/azalan bir orunru yok ve hicbir harf ust uste iki kalemin cevabi degil."
+          }
         }
       ]
     },
@@ -217,7 +417,7 @@
           },
           {
             "letter": "C",
-            "text": "There is no need to write the full word count."
+            "text": "Chasing the full word count is not worth the effort."
           },
           {
             "letter": "D",
@@ -245,18 +445,50 @@
           "answer_point_id": "L3-S3-32",
           "turn_index": 11,
           "distractor_analysis": {
-            "A": "Başkası söyledi — girişlerin seyrekleşmesini isteyen Tamsin; danışman haftalık ritmi doğru bulup girişlerin kısalmasını istiyor.",
-            "B": "Söylendi sonra düzeltildi kökenli — 4.000 kelime geçen yılın el kitabında kalan rakam; danışman sınırın 3.500'e indirildiğini söylüyor, kimse artırılmasını savunmuyor.",
-            "D": "Başkası söyledi — kronolojik sıranın benzer malzemeyi böldüğünü söyleyen Corin; danışman Corin'in yapısını önerirken kendi gerekçesi 'karşılaştırmaya zorlaması'.",
-            "E": "Sesle hiç geçmeyen — kimse yazım için ek süre istemiyor; teslimin 13'ünden 20'sine kayması bir talep değil, verili takvim."
+            "A": "Baskasi soyledi - girislerin seyrekleşmesini isteyen Tamsin; danisman haftalik ritmi dogru bulup girislerin kisalmasini istiyor.",
+            "B": "Soylendi sonra duzeltildi kokenli - 4.000 kelime gecen yilin el kitabinda kalan rakam; sinir 3.500'e indirildi, kimse artirilmasini savunmuyor.",
+            "D": "Baskasi soyledi - kronolojik siranin benzer malzemeyi boldugunu soyleyen Corin.",
+            "E": "Sesle hic gecmeyen - kimse yazim icin ek sure istemiyor; teslimin 13'unden 20'sine kaymasi bir talep degil, verili takvim."
           },
-          "explanation": "The tutor says not to go hunting for the extra five hundred words: you don't need to fill the whole limit.",
+          "explanation": "The tutor says there is a ten per cent margin either way and tells the students not to go hunting for the extra five hundred words.",
           "difficulty": "hard",
-          "status": "flagged",
-          "blind_solvable": true,
-          "blind_basis": "logic",
-          "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'tam kelime sayısını yazmaya gerek yok' bir usul gevşetmesi ve kutudaki kişilerden bunu ancak eğitmen söyleyebilir.",
-          "flag_mechanism": "konumsal_duzen"
+          "status": "verified",
+          "blind_solvable": false,
+          "blind_basis": null,
+          "yeniden_uretim": {
+            "tarih": "2026-08-18",
+            "kaynak": "sizinti yazim turu - dinleme L3 (kardes ajan gorevi)",
+            "mekanizma": "konumsal_duzen",
+            "eski_prompt": "the tutor",
+            "eski_cevap": [
+              "C"
+            ],
+            "eski_kanit_cumlesi": "Don't go hunting for the extra five hundred words.",
+            "eski_kutu": [
+              {
+                "letter": "A",
+                "text": "Entries should be made less often."
+              },
+              {
+                "letter": "B",
+                "text": "The word limit ought to be higher."
+              },
+              {
+                "letter": "C",
+                "text": "There is no need to write the full word count."
+              },
+              {
+                "letter": "D",
+                "text": "A time-based order splits up similar material."
+              },
+              {
+                "letter": "E",
+                "text": "More time should be allowed for writing."
+              }
+            ],
+            "neden_isaretlendi": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'tam kelime sayısını yazmaya gerek yok' bir usul gevşetmesi ve kutudaki kişilerden bunu ancak eğitmen söyleyebilir.",
+            "ne_degisti": "Kok ('the tutor') ve cevap harfi (C) degismedi; degisen yalniz C secenegi: 'There is no need to write the full word count' yerine 'Chasing the full word count is not worth the effort'. Eski cumle bir usul gevsetmesiydi - izin veren konumdaki kisi, yani yalnizca danisman soyleyebilirdi; yenisi ucunun de savunabilecegi bir kanaat, dolayisiyla kutuda kisiyi ele veren imza kalmadi."
+          }
         },
         {
           "number": 25,
@@ -273,7 +505,7 @@
           "turn_index": 14,
           "distractor_analysis": {
             "B": "Söylendi sonra düzeltildi — Tamsin el kitabındaki 4.000'i aktarıyor ama sınırın yükseltilmesini savunmuyor; rakam 3.500 olarak düzeltiliyor.",
-            "C": "Başkası söyledi — fazladan 500 kelimenin peşine düşülmemesini söyleyen danışman.",
+            "C": "Baskasi soyledi - fazladan bes yuz kelimenin pesine dusmeye degmedigini soyleyen danisman.",
             "D": "Başkası söyledi — beceri temelli düzeni savunan Corin; Tamsin haftalık kronolojiyi 'takibi kolay' buluyor.",
             "E": "Sesle hiç geçmeyen — ek süre talebi konuşmada yok."
           },
@@ -298,7 +530,7 @@
           "distractor_analysis": {
             "A": "Başkası söyledi — iki haftada bir girişi öneren Tamsin; Corin tam tersine günlüğün haftalık kalmasını savunuyor.",
             "B": "Söylendi sonra düzeltildi kökenli — 4.000 rakamı düzeltilen eski sınır; Corin kelime sınırı hakkında görüş bildirmiyor.",
-            "C": "Başkası söyledi — tam sınıra yazmaya gerek olmadığını söyleyen danışman.",
+            "C": "Baskasi soyledi - fazladan bes yuz kelimenin pesine dusmeye degmedigini soyleyen danisman.",
             "E": "Sesle hiç geçmeyen — ek süre talebi konuşmada yok."
           },
           "explanation": "Corin points out that the same skill turns up again in the second week and the seventh, and chronological order splits up this material, so he will structure his report by skill instead.",

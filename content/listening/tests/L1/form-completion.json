@@ -13,7 +13,7 @@
   "word_limit": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
   "options": null,
   "visual": null,
-  "stem_block": "WILLOWBANK ACTIVITY CAMPS — SUMMER BOOKING\n\nFamily name: (1) ........\nAge band the child joins: the (2) ........ group\nSession starts on: (3) ........\nChildren handed over at: (4) ........\nPrice if booked in advance: £(5) ........\nAmount payable today: £(6) ........\nPayment now made by: (7) ........\nBest number to ring during the day: (8) ........\nActivity chosen for the fortnight: (9) ........\nTo bring: a (10) ........, a sun hat and a refillable bottle",
+  "stem_block": "WILLOWBANK ACTIVITY CAMPS — SUMMER BOOKING\n\nFamily name: (1) ........\nAge band the child joins: the (2) ........ group\nSession starts on: (3) ........\nChildren handed over at: (4) ........\nPrice if booked in advance: £(5) ........\nAmount payable today: £(6) ........\nPayment now made by: (7) ........\nBest number to ring during the day: (8) ........\nActivity chosen for the fortnight: (9) ........\nTo bring: a packed lunch on four days, a (10) ........ and a sun hat\nNot to be sent with the child: mobile phones, fizzy drinks",
   "table": null,
   "items": [
     {
@@ -195,7 +195,7 @@
     },
     {
       "number": 10,
-      "prompt": "To bring: a (10) ........, a sun hat and a refillable bottle",
+      "prompt": "To bring: a packed lunch on four days, a (10) ........ and a sun hat",
       "answer": [
         "waterproof jacket"
       ],
@@ -207,13 +207,22 @@
       "answer_point_id": "L1-S1-17",
       "turn_index": 34,
       "distractor_used": null,
-      "explanation": "Because the group goes outside in almost any weather, the child is asked to bring a waterproof jacket.",
+      "explanation": "The list of things to bring is given in order: a packed lunch on four days, then a waterproof jacket, then a sun hat and a refillable bottle.",
       "difficulty": "easy",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_basis": "frame_wording",
-      "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'getirilecekler: bir (10), güneş şapkası ve yeniden doldurulabilir şişe' listesi güneş ve su kalemlerini zaten sayıp geriye tek eksik hava koşulu kalemini bırakıyor.",
-      "flag_mechanism": "cerceve_sozu"
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "uretilen_grup": "L1 dinleme - sizinti onarimi (yalniz kok / secenek / cerceve)",
+        "eski_prompt": "To bring: a (10) ........, a sun hat and a refillable bottle",
+        "eski_cevap": [
+          "waterproof jacket"
+        ],
+        "neden_elendi": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'getirilecekler: bir (10), güneş şapkası ve yeniden doldurulabilir şişe' listesi güneş ve su kalemlerini zaten sayıp geriye tek eksik hava koşulu kalemini bırakıyor.",
+        "ne_degisti": "Cevap (waterproof jacket) ve dayanak noktasi ayni; degisen yalnizca form satiri. Eski satirda bosluk 'gunes sapkasi + su sisesi' ikilisinin yanindaydi: gunes ve su kalemleri zaten yazili oldugu icin geriye tek eksik kategori olarak hava kosulu kalemi kaliyordu ve soru duyulmadan cozuluyordu. Yeni satirda su sisesi yazili degil, yerine oglen yemegi yazili; boylece bosluga hem 'icecek' hem 'yagmurluk' hem 'gunes kremi' gibi birden fazla aday oturuyor. Dinleyen icin ayirt edici olan sira: konusmada kalemler oglen yemegi - yagmurluk - gunes sapkasi - sise diye siralaniyor ve bosluk formda tam olarak yagmurlugun yerinde duruyor. Forma ayrica 'getirilmeyecekler' satiri eklendi; gazli icecek yasagi kor cozucunun tahminini bilerek sise/icecek tarafina cekiyor.",
+        "eski_cerceve_satiri": "To bring: a (10) ........, a sun hat and a refillable bottle"
+      }
     }
   ]
 }
