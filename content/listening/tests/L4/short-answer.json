@@ -39,77 +39,66 @@
     },
     {
       "number": 32,
-      "prompt": "If the amount of traffic on a road doubles, by how many decibels does the level go up?",
+      "prompt": "In the lecturer's own roadside surveys, how many decibels must the change reach before residents reliably notice it?",
       "answer": [
-        "3"
+        "6"
       ],
       "accepted_variants": [
-        "3",
-        "three",
-        "3 decibels",
-        "three decibels",
-        "3 dB"
+        "6",
+        "six",
+        "6 decibels",
+        "six decibels",
+        "6 dB"
       ],
-      "evidence": "You add three.",
-      "answer_point_id": "L4-S4-05",
+      "evidence": "nobody reliably reports a change until it reaches six",
+      "answer_point_id": "L4-S4-06",
       "turn_index": 2,
-      "distractor_used": "10 decibels",
-      "explanation": "Because the scale is logarithmic, doubling the traffic adds three decibels, not ten; this is close to the smallest change most people can notice.",
+      "distractor_used": "3 decibels (the laboratory figure)",
+      "explanation": "Three decibels is the smallest change a listener can pick out under laboratory conditions, but the speaker's own roadside surveys found that residents do not reliably notice a change until it reaches six — which means quadrupling the traffic.",
       "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_basis": "general_knowledge",
-      "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'trafik ikiye katlanırsa ses düzeyi kaç desibel artar' akustiğin sabit kuralını soruyor, konuşmanın seçtiği bir değeri değil.",
-      "flag_mechanism": "genel_kultur"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 33,
-      "prompt": "Which part of the frequency range does the weighting used for environmental work play down?",
+      "prompt": "When residents are asked what actually wakes them, what do they name?",
       "answer": [
-        "the low end"
+        "the delivery van"
       ],
       "accepted_variants": [
-        "the low end",
-        "low end",
-        "low frequencies",
-        "the low frequencies",
-        "low"
+        "the delivery van",
+        "a delivery van",
+        "delivery van"
       ],
-      "evidence": "the weighting used for environmental work discounts the low end heavily",
-      "answer_point_id": "L4-S4-07",
+      "evidence": "they name the delivery van reversing into the shop yard at two in the morning",
+      "answer_point_id": "L4-S4-08",
       "turn_index": 3,
-      "distractor_used": null,
-      "explanation": "Because the ear is much less sensitive to low frequencies, the measuring device applies a weighting and largely discounts sounds at the low end.",
+      "distractor_used": "the motorway / the night lorry",
+      "explanation": "The whole-day indicator penalises evening and night, but when residents are asked what actually wakes them they name neither the motorway nor the night lorry — it is the delivery van reversing into the shop yard at two in the morning.",
       "difficulty": "hard",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_basis": "general_knowledge",
-      "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'çevre ölçümlerinde kullanılan ağırlıklama frekans aralığının hangi bölümünü bastırır' — A-ağırlıklamasının tanımı gereği alçak frekanslar.",
-      "flag_mechanism": "genel_kultur"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 34,
-      "prompt": "How often does a large built-up area have to renew its strategic noise map?",
+      "prompt": "What renewal interval for noise maps do the older textbooks still print?",
       "answer": [
-        "every five years"
+        "every three years"
       ],
       "accepted_variants": [
-        "every five years",
-        "every 5 years",
-        "five years",
-        "5 years"
+        "every three years",
+        "three years",
+        "every 3 years",
+        "3 years"
       ],
-      "evidence": "refresh it every five years",
+      "evidence": "not every three, the interval the older textbooks still print",
       "answer_point_id": "L4-S4-09",
       "turn_index": 4,
-      "distractor_used": "every 3 years",
-      "explanation": "The three-year figure in old textbooks is no longer valid; the map is renewed every five years.",
+      "distractor_used": "every five years (the current requirement)",
+      "explanation": "The requirement now is a refresh every five years; the three-year interval is the figure the older textbooks still print, relaxed once authorities saw what the modelling cost.",
       "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_basis": "general_knowledge",
-      "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'büyük bir yerleşim stratejik gürültü haritasını hangi sıklıkla yeniler' — mevzuatın beş yıllık döngüsü.",
-      "flag_mechanism": "genel_kultur"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 35,

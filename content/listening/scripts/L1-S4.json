@@ -8,7 +8,7 @@
   "generated_by": "opus",
   "setting": "Kentsel tarim uzerine akademik ders",
   "context_line": "You will hear a lecturer giving a talk about growing food in cities.",
-  "word_count": 1013,
+  "word_count": 1040,
   "estimated_minutes": 6.7,
   "turn_index_base": 0,
   "speakers": [
@@ -29,11 +29,11 @@
     },
     {
       "speaker": "M1",
-      "text": "Let's start with the history, because growing food in towns is not a new invention. In this country the practice was formalised in the nineteenth century, when a series of Acts obliged local authorities to provide allotments — small rented plots — for households with no garden. The number of plots reached its peak in the nineteen forties. You'll see the nineteen fifties in some textbooks, but that is already the downward slope. From the peak the total fell steadily for fifty years, as plot land was sold off for housing. What is new is the scale of today's revival, and the fact that councils and companies now drive it as much as individual growers."
+      "text": "Let's start with the history, because growing food in towns is not a new invention. In this country the practice was formalised in the nineteenth century, when a series of Acts obliged local authorities to provide small rented plots for households with no garden — we all say allotments now, but the word the Acts themselves use is field gardens, and that is the one to write down. The number of plots reached its peak in the nineteen forties. You'll see the nineteen fifties in some textbooks, but that is already the downward slope. From the peak the total fell steadily for fifty years, as plot land was sold off for housing. What is new is the scale of today's revival, and the fact that councils and companies now drive it as much as individual growers."
     },
     {
       "speaker": "M1",
-      "text": "Broadly, urban agriculture takes three forms. The first, and by far the most common, is the community garden: a shared piece of ground, usually on land that has no other use — the edge of a housing estate, a former car park. The second is the commercial rooftop farm, which puts soil beds or greenhouses on the flat roof of an existing building. And the third is the controlled-environment farm, often called vertical farming, in which crops are grown in stacked trays indoors under artificial light."
+      "text": "Broadly, urban agriculture takes three forms. The first, and by far the most common, is the community garden: a shared piece of ground on a site nobody else has a use for — the newspapers call that brownfield, but the word in the planning documents is meanwhile land. The second is the commercial rooftop farm, which puts soil beds or greenhouses on the flat roof of an existing building. And the third is the controlled-environment farm, often called vertical farming, in which crops are grown in stacked trays indoors under artificial light."
     },
     {
       "speaker": "M1",
@@ -80,11 +80,11 @@
     {
       "id": "L1-S4-01",
       "kind": "object",
-      "value": "allotments",
-      "quote": "obliged local authorities to provide allotments",
+      "value": "field gardens",
+      "quote": "the word the Acts themselves use is field gardens",
       "turn_index": 1,
       "speaker": "M1",
-      "distractor": null,
+      "distractor": "allotments",
       "suggested_types": [
         "note_completion",
         "short_answer"
@@ -140,6 +140,19 @@
       "suggested_types": [
         "flow_chart_completion",
         "note_completion"
+      ]
+    },
+    {
+      "id": "L1-S4-30",
+      "kind": "object",
+      "value": "meanwhile land",
+      "quote": "the word in the planning documents is meanwhile land",
+      "turn_index": 2,
+      "speaker": "M1",
+      "distractor": "brownfield",
+      "suggested_types": [
+        "note_completion",
+        "short_answer"
       ]
     },
     {
@@ -456,5 +469,5 @@
     }
   ],
   "spatial_description": null,
-  "notes": "turn_index degerleri 0 tabanlidir. Bes celdirici duzeltme var: zirve yili (1950'ler -> 1940'lar), bahce alani (5.000 -> 2.000 metrekare), verim (on bes kat -> yaklasik uc kat), en cok bildirilen fayda (egzersiz -> insanlarla temas), sehrin kendi sebzesini uretme orani (ucte bir -> yaklasik yuzde bes). L1 icin 4. bolum aksani en-GB."
+  "notes": "turn_index degerleri 0 tabanlidir. Yedi celdirici duzeltme var: Acts'in kendi sozcugu (allotments -> field gardens), planlama belgesindeki terim (brownfield -> meanwhile land), zirve yili (1950'ler -> 1940'lar), bahce alani (5.000 -> 2.000 metrekare), verim (on bes kat -> yaklasik uc kat), en cok bildirilen fayda (egzersiz -> insanlarla temas), sehrin kendi sebzesini uretme orani (ucte bir -> yaklasik yuzde bes). L1 icin 4. bolum aksani en-GB."
 }

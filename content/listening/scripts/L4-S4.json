@@ -8,8 +8,8 @@
   "generated_by": "opus",
   "setting": "Cevre bilimi dersinde gurultu kirliligi uzerine ders anlatimi",
   "context_line": "You will hear part of a lecture about noise pollution, how it is measured and how it can be reduced.",
-  "word_count": 949,
-  "estimated_minutes": 6.3,
+  "word_count": 1027,
+  "estimated_minutes": 6.8,
   "turn_index_base": 0,
   "speakers": [
     {
@@ -33,15 +33,15 @@
     },
     {
       "speaker": "F1",
-      "text": "The unit is the decibel, and the scale is logarithmic. A rise of ten decibels represents ten times the sound energy, and is heard as roughly twice as loud. So if you double the traffic on a road, you do not add ten decibels. You add three. That is twice the energy, and it is close to the smallest change most people notice at all."
+      "text": "The unit is the decibel, and the scale is logarithmic. A rise of ten decibels represents ten times the sound energy, and is heard as roughly twice as loud. So if you double the traffic on a road, you do not add ten decibels. You add three. That is twice the energy, and here the textbook and the street part company: three decibels is the smallest change a listener can pick out in the quiet of a laboratory, but in our own roadside surveys nobody reliably reports a change until it reaches six, which is to say you have to quadruple the traffic before anybody living on it notices at all."
     },
     {
       "speaker": "F1",
-      "text": "Measurement. A sound level meter applies a weighting, because the ear is far less sensitive to low frequencies, and the weighting used for environmental work discounts the low end heavily. The level is then averaged over time, and for policy we use a whole-day indicator which adds a penalty of five decibels to the evening and ten to the night: the same lorry is judged far more intrusive at two in the morning."
+      "text": "Measurement. A sound level meter applies a weighting, because the ear is far less sensitive to low frequencies, and the weighting used for environmental work discounts the low end heavily. The level is then averaged over time, and for policy we use a whole-day indicator which adds a penalty of five decibels to the evening and ten to the night: ask residents what actually wakes them and they do not name the motorway, nor even the night lorry, they name the delivery van reversing into the shop yard at two in the morning."
     },
     {
       "speaker": "F1",
-      "text": "Mapping. In many countries any built-up area above a threshold population must produce a strategic noise map and refresh it every five years — not every three, the figure in older textbooks. The maps are modelled rather than measured. You feed in traffic counts, speeds, the heights of the buildings and the hardness of the ground, and the model predicts a level at a grid of points across each frontage. Then you count the people living behind those frontages."
+      "text": "Mapping. In many countries any built-up area above a threshold population must produce a strategic noise map and refresh it every five years — not every three, the interval the older textbooks still print, which was relaxed once authorities saw what the modelling cost. The maps are modelled rather than measured. You feed in traffic counts, speeds, the heights of the buildings and the hardness of the ground, and the model predicts a level at a grid of points across each frontage. Then you count the people living behind those frontages."
     },
     {
       "speaker": "F1",
@@ -152,14 +152,14 @@
     },
     {
       "id": "L4-S4-06",
-      "kind": "limitation",
-      "value": "3 dB is about the smallest change people notice",
-      "quote": "it is close to the smallest change most people notice at all",
+      "kind": "number",
+      "value": "in roadside surveys a change is only reported once it reaches 6 dB",
+      "quote": "nobody reliably reports a change until it reaches six",
       "turn_index": 2,
       "speaker": "F1",
-      "distractor": null,
+      "distractor": "3 decibels (the laboratory figure)",
       "suggested_types": [
-        "sentence_completion",
+        "short_answer",
         "multiple_choice"
       ]
     },
@@ -179,26 +179,26 @@
     {
       "id": "L4-S4-08",
       "kind": "number",
-      "value": "penalty of 5 dB for evening, 10 dB for night",
-      "quote": "adds a penalty of five decibels to the evening and ten to the night",
+      "value": "penalty of 5 dB for evening, 10 dB for night; residents name a delivery van at 2 a.m.",
+      "quote": "they name the delivery van reversing into the shop yard at two in the morning",
       "turn_index": 3,
       "speaker": "F1",
-      "distractor": null,
+      "distractor": "the motorway / the night lorry",
       "suggested_types": [
-        "note_completion",
-        "flow_chart_completion"
+        "short_answer",
+        "note_completion"
       ]
     },
     {
       "id": "L4-S4-09",
       "kind": "duration",
-      "value": "noise maps refreshed every 5 years",
-      "quote": "refresh it every five years",
+      "value": "older textbooks still print a 3-year interval; the requirement is now every 5 years",
+      "quote": "not every three, the interval the older textbooks still print",
       "turn_index": 4,
       "speaker": "F1",
-      "distractor": "every 3 years",
+      "distractor": "every five years",
       "suggested_types": [
-        "note_completion",
+        "short_answer",
         "multiple_choice"
       ]
     },
@@ -529,5 +529,5 @@
     }
   ],
   "spatial_description": null,
-  "notes": "turn_index degerleri 0 tabanlidir. Bes celdirici duzeltme var: trafigin iki katina cikmasi (on desibel -> uc desibel), gurultu haritasi yenileme araligi (uc yil -> bes yil), karayolu payi (ucte iki -> yaklasik beste dort), gozenekli asfaltin kazanci (bes desibel -> uc-dort desibel), agac seridi derinligi (on metre -> otuz metre). Ingiliz Ingilizcesinde 'meter' olcum aleti, 'metre' uzunluk birimidir; ikisi de bilerek kullanildi. Metinde rakam yok."
+  "notes": "turn_index degerleri 0 tabanlidir. Bes celdirici duzeltme var: trafigin iki katina cikmasi (on desibel -> uc desibel), gurultu haritasi yenileme araligi (uc yil -> bes yil), karayolu payi (ucte iki -> yaklasik beste dort), gozenekli asfaltin kazanci (bes desibel -> uc-dort desibel), agac seridi derinligi (on metre -> otuz metre). Ingiliz Ingilizcesinde 'meter' olcum aleti, 'metre' uzunluk birimidir; ikisi de bilerek kullanildi. Metinde rakam yok. 2026-08-18 sizinti turu (L4-S4): tur 2, 3 ve 4'te yerinde ifade degisikligi yapildi, tur sayisi ve tur ici cumle sayisi degismedi. (a) tur 2: 'uc desibel en kucuk fark edilir degisim' iddiasi laboratuvara baglandi, sokak anketinde esik ALTI desibel (trafigi dorte katlamak); test 32 artik bu yerel degeri soruyor. (b) tur 3: gece cezasini ornekleyen arac 'lorry' yerine 'delivery van', motorway ve night lorry sesli rakip olarak reddediliyor; test 33 bunu soruyor. (c) tur 4: eski ders kitabi araligi acikca isaretlendi; test 34 artik guncel bes yil yerine eski UC yil degerini soruyor, bes yil celdirici oldu."
 }

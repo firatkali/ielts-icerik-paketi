@@ -37,25 +37,34 @@
     },
     {
       "number": 28,
-      "prompt": "The tutor says a poster becomes far easier to read if a good deal of (28) ........ is left on it.",
+      "prompt": "The abstract has to be handed in on the (28) ........ , not on the date Anneke had written in her diary.",
       "answer": [
-        "white space"
+        "eighteenth"
       ],
       "accepted_variants": [
-        "white space",
-        "whitespace"
+        "eighteenth",
+        "18th",
+        "18",
+        "the eighteenth"
       ],
-      "evidence": "White space is a large part of what makes a poster readable",
-      "answer_point_id": "L4-S3-22",
-      "turn_index": 23,
-      "distractor_used": null,
-      "explanation": "Because the department has moved to large boards, there is plenty of space; the tutor advises against filling it, and to leave white space instead.",
+      "evidence": "The abstract is due on the eighteenth.",
+      "answer_point_id": "L4-S3-23",
+      "turn_index": 25,
+      "distractor_used": "the eleventh",
+      "explanation": "Anneke has the eleventh in her diary, but that date was only for registering a title; the tutor tells them the abstract itself is due on the eighteenth.",
       "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_basis": "general_knowledge",
-      "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'poster üzerinde bolca (28) bırakılırsa okunması kolaylaşır' grafik tasarımın standart öğüdü, boşluğa alanın ders kitabı terimi düşüyor.",
-      "flag_mechanism": "genel_kultur"
+      "status": "verified",
+      "blind_solvable": false,
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "uretilen_grup": "L4 cumle tamamlama 28 - bosluk baska bir cevap noktasina tasindi",
+        "eski_prompt": "The tutor says a poster becomes far easier to read if a good deal of (28) ........ is left on it.",
+        "eski_cevap": [
+          "white space"
+        ],
+        "neden_elendi": "Genel kultur: 'posterde bolca ... birakilirsa okumak kolaylasir' kalibi grafik tasarimin ders kitabi ogudu; bosluga 'white space' 3/3 turda sesi dinlemeden yazildi. Sozcugun kendisi sizdiriyordu, cerceve degil.",
+        "ne_degisti": "Recete 1 (kaydirma). Senaryoya HIC dokunulmadi; bosluk ayni senaryonun keyfi bir degerine tasindi: ozet teslim tarihi (tur 25, L4-S3-23). Tarih dunya bilgisiyle tahmin edilemiyor ve senaryoda canli bir celdirici var (Anneke'nin ajandasindaki on bir, ki o tarih baslik kaydi icindi). Beyaz alan cumlesi senaryoda duruyor ama artik soruya bagli degil. Kalem sirasi korundu: 27 tur 21 < 28 tur 25 < 29 tur 27."
+      }
     },
     {
       "number": 29,

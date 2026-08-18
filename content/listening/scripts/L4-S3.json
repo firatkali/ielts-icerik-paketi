@@ -8,7 +8,7 @@
   "generated_by": "opus",
   "setting": "Iki ogrenci ve danismanlarinin bolum arastirma gununde sunulacak posteri hazirlamasi",
   "context_line": "You will hear two students discussing a conference poster with their tutor.",
-  "word_count": 946,
+  "word_count": 997,
   "estimated_minutes": 6.3,
   "turn_index_base": 0,
   "speakers": [
@@ -95,7 +95,7 @@
     },
     {
       "speaker": "F2",
-      "text": "Change the red and the green. Roughly one man in twelve can't reliably tell those two apart, and one of your judges is among them. Use different line shapes as well — dashed, dotted, solid — and it stops mattering."
+      "text": "Change the red and the green — and not for the reason you're expecting; it isn't colour blindness, I've checked, and nobody on this year's panel has any trouble there. The plotter is the problem: green comes off that paper so dark that it sits almost on top of the red, and one of your judges marks from the printed sheet rather than from the board, so on her copy your two lines read as one. Use different line shapes as well — dashed, dotted, solid — and it stops mattering."
     },
     {
       "speaker": "F1",
@@ -333,7 +333,7 @@
       "id": "L4-S3-11",
       "kind": "rule",
       "value": "avoid red and green together; vary line shapes",
-      "quote": "Change the red and the green.",
+      "quote": "Change the red and the green — and not for the reason you're expecting",
       "turn_index": 13,
       "speaker": "F2",
       "distractor": null,
@@ -345,11 +345,11 @@
     {
       "id": "L4-S3-12",
       "kind": "reason",
-      "value": "roughly one man in twelve cannot tell red from green",
-      "quote": "Roughly one man in twelve can't reliably tell those two apart",
+      "value": "the plotter prints green too dark, so red and green merge on the printed sheet one judge marks from",
+      "quote": "The plotter is the problem: green comes off that paper so dark that it sits almost on top of the red",
       "turn_index": 13,
       "speaker": "F2",
-      "distractor": null,
+      "distractor": "colour blindness (raised and rejected)",
       "suggested_types": [
         "multiple_choice",
         "short_answer"
@@ -630,5 +630,5 @@
     }
   ],
   "spatial_description": null,
-  "notes": "turn_index degerleri 0 tabanlidir. Yedi celdirici duzeltme var: govde punto (yirmi dort -> otuz), plotter suresi (iki gun -> uc is gunu), pano boyu (kucuk -> buyuk), ozet teslim tarihi (on bir -> on sekiz), ozet kelime siniri (uc yuz -> iki yuz elli), mekan (seminer blogu -> kutuphane atriyumu), konusma suresi (bes dakika -> iki dakika). Uc konusmacinin gorusu uc eksende ayrisiyor: yerlesim duzeni, sekil sayisi, baski yeri. Metinde rakam yok."
+  "notes": "turn_index degerleri 0 tabanlidir. Yedi celdirici duzeltme var: govde punto (yirmi dort -> otuz), plotter suresi (iki gun -> uc is gunu), pano boyu (kucuk -> buyuk), ozet teslim tarihi (on bir -> on sekiz), ozet kelime siniri (uc yuz -> iki yuz elli), mekan (seminer blogu -> kutuphane atriyumu), konusma suresi (bes dakika -> iki dakika). Uc konusmacinin gorusu uc eksende ayrisiyor: yerlesim duzeni, sekil sayisi, baski yeri. Renk turunda sesli rakip var: konusmaci once beklenen gerekceyi (renk korlugu) acikca reddediyor, gercek gerekceyi (plotter yesili cok koyu basiyor) sonra veriyor. Metinde rakam yok."
 }

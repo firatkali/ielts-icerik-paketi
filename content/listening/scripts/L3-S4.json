@@ -8,7 +8,7 @@
   "generated_by": "opus",
   "setting": "Tohum bankalari uzerine akademik ders",
   "context_line": "You will hear part of a lecture about how seed banks store and check plant seeds.",
-  "word_count": 1041,
+  "word_count": 1066,
   "estimated_minutes": 6.9,
   "turn_index_base": 0,
   "speakers": [
@@ -45,7 +45,7 @@
     },
     {
       "speaker": "F1",
-      "text": "Then it is sealed, and the seal matters more than the container. A jar with a poor gasket lets the seed take water back out of the air, and that seed is worse off than one never dried at all. Once sealed, the standard storage temperature is minus twenty degrees. You will still see minus eighteen quoted — the old domestic-freezer figure — but the international standard moved to minus twenty years ago."
+      "text": "Then it is sealed, and the seal matters more than the container. A jar with a poor gasket lets the seed take water back out of the air: the manuals put that at a climb of one or two per cent over a season, but in our own store we have measured six, and that seed is worse off than one never dried at all. Once sealed, the standard storage temperature is minus twenty degrees. You will still see minus eighteen quoted — the old domestic-freezer figure — but the international standard moved to minus twenty years ago."
     },
     {
       "speaker": "F1",
@@ -465,6 +465,19 @@
       "suggested_types": [
         "short_answer",
         "note_completion"
+      ]
+    },
+    {
+      "id": "L3-S4-30",
+      "kind": "number",
+      "value": "in the speaker's own store a worn gasket let moisture climb back by 6 per cent over a season",
+      "quote": "in our own store we have measured six",
+      "turn_index": 5,
+      "speaker": "F1",
+      "distractor": "one or two per cent (the manual figure)",
+      "suggested_types": [
+        "summary_completion",
+        "short_answer"
       ]
     }
   ],

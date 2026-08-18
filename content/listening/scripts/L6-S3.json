@@ -8,7 +8,7 @@
   "generated_by": "opus",
   "setting": "Iki ogrencinin bir derleme odevi icin kaynak taramasini konu uzmani kutuphaneciyle planlamasi",
   "context_line": "You will hear two students discussing their literature search for a review assignment with a subject librarian.",
-  "word_count": 898,
+  "word_count": 987,
   "estimated_minutes": 6.0,
   "turn_index_base": 0,
   "speakers": [
@@ -79,7 +79,7 @@
     },
     {
       "speaker": "F2",
-      "text": "Four hundred and twelve is what a whole sentence gets you. Let's build the search properly instead. How many ideas are there in your question?"
+      "text": "Four hundred and twelve isn't the sentence, whatever they tell you in the workshops — that box searches the whole regional consortium, so you were getting every other college library in the county along with ours. Let's build the search properly, and in ours only. How many ideas are there in your question?"
     },
     {
       "speaker": "F1",
@@ -95,7 +95,7 @@
     },
     {
       "speaker": "F2",
-      "text": "'Or' within a list, 'and' between the two lists. Put the phrases in inverted commas so they're searched as phrases, and put an asterisk after 'activ' — that picks up activity, active and activities in one go."
+      "text": "'Or' within a list, 'and' between the two lists, and put the phrases in inverted commas so they're searched as phrases. Every guide will tell you to put an asterisk after 'activ' as well, but these two databases take no notice of it — you'll have to type activity, active and activities out in full."
     },
     {
       "speaker": "M1",
@@ -139,15 +139,15 @@
     },
     {
       "speaker": "M1",
-      "text": "Why not? That's the box I always tick."
+      "text": "Right, I'll leave that one alone. Can we tick the English box instead — neither of us reads German, and a paper we can't read is no use to us?"
     },
     {
       "speaker": "F2",
-      "text": "Because it hides everything we can order in for you, and that's a great deal of material. You'd be choosing your evidence by what happens to be on the shelf."
+      "text": "Yes, do that one. I'd normally tell you to leave the language box alone, but with two and a half thousand words you can't be commissioning translations — just put a line in your method saying you kept it to English."
     },
     {
       "speaker": "M1",
-      "text": "Fair enough. So how many results should we be expecting?"
+      "text": "Right, I'll note that down. So how many results should we be expecting?"
     },
     {
       "speaker": "F2",
@@ -278,11 +278,11 @@
     {
       "id": "L6-S3-05",
       "kind": "reason",
-      "value": "the whole question was typed in as one sentence",
+      "value": "the search box was covering the whole regional consortium, not just this library",
       "speaker": "F2",
-      "quote": "Four hundred and twelve is what a whole sentence gets you.",
+      "quote": "that box searches the whole regional consortium, so you were getting every other college library in the county along with ours",
       "turn_index": 9,
-      "distractor": null,
+      "distractor": "typing the whole question in as one sentence",
       "suggested_types": [
         "multiple_choice"
       ]
@@ -305,7 +305,7 @@
       "kind": "rule",
       "value": "OR within a list, AND between the lists",
       "speaker": "F2",
-      "quote": "'Or' within a list, 'and' between the two lists.",
+      "quote": "'Or' within a list, 'and' between the two lists",
       "turn_index": 13,
       "distractor": null,
       "suggested_types": [
@@ -318,7 +318,7 @@
       "kind": "rule",
       "value": "inverted commas for phrases",
       "speaker": "F2",
-      "quote": "Put the phrases in inverted commas so they're searched as phrases",
+      "quote": "put the phrases in inverted commas so they're searched as phrases",
       "turn_index": 13,
       "distractor": null,
       "suggested_types": [
@@ -328,12 +328,12 @@
     },
     {
       "id": "L6-S3-09",
-      "kind": "object",
-      "value": "an asterisk after 'activ'",
+      "kind": "rule",
+      "value": "the asterisk is ignored by these two databases; the endings must be typed out",
       "speaker": "F2",
-      "quote": "put an asterisk after 'activ' — that picks up activity, active and activities in one go",
+      "quote": "these two databases take no notice of it — you'll have to type activity, active and activities out in full",
       "turn_index": 13,
-      "distractor": null,
+      "distractor": "an asterisk after 'activ'",
       "suggested_types": [
         "short_answer",
         "sentence_completion"
@@ -471,12 +471,12 @@
     },
     {
       "id": "L6-S3-20",
-      "kind": "reason",
-      "value": "it hides material the library can order in",
+      "kind": "opinion",
+      "value": "Tomas's English-only limit is accepted, against the librarian's usual advice",
       "speaker": "F2",
-      "quote": "Because it hides everything we can order in for you",
+      "quote": "I'd normally tell you to leave the language box alone, but with two and a half thousand words you can't be commissioning translations",
       "turn_index": 25,
-      "distractor": null,
+      "distractor": "leaving the language filter off",
       "suggested_types": [
         "multiple_choice",
         "short_answer"
@@ -692,5 +692,5 @@
     }
   ],
   "spatial_description": null,
-  "notes": "turn_index degerleri 0 tabanlidir. Bes celdirici duzeltme var: kelime siniri (uc bin -> iki bin bes yuz), veri tabani sayisi (bes -> iki + rapor koleksiyonu), tarih araligi (yirmi -> on yil + atif takibi), oturum yeri (Room B -> ikinci kattaki egitim odasi), haftalik bulusma (Cuma -> Persembe). Gorus ayrimi dort eksende: veri tabani sayisi, tarih araligi, tarama isbolumu, kaynak yonetimi. Rhian (F1) ve Tomas (M1) her seferinde ayri, kutuphaneci (F2) her seferinde gerekcesiyle taraf tutuyor ya da uzlasma oneriyor."
+  "notes": "turn_index degerleri 0 tabanlidir. Bes celdirici duzeltme var: kelime siniri (uc bin -> iki bin bes yuz), veri tabani sayisi (bes -> iki + rapor koleksiyonu), tarih araligi (yirmi -> on yil + atif takibi), oturum yeri (Room B -> ikinci kattaki egitim odasi), haftalik bulusma (Cuma -> Persembe). Uc yerde sesli rakip var: ilk aramanin 412 sonucu (cumle degil, bolge konsorsiyumu), yildiz isareti (kilavuzlar oner, bu iki veri tabani yok sayar) ve dil filtresi (kutuphaneci normalde karsi, burada Tomas'in onerisini kabul ediyor). Gorus ayrimi dort eksende: veri tabani sayisi, tarih araligi, tarama isbolumu, kaynak yonetimi. Rhian (F1) ve Tomas (M1) her seferinde ayri, kutuphaneci (F2) her seferinde gerekcesiyle taraf tutuyor ya da uzlasma oneriyor."
 }

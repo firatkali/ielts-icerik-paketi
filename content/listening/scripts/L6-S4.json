@@ -8,7 +8,7 @@
   "generated_by": "opus",
   "setting": "Davranissal ekonomi uzerine akademik ders",
   "context_line": "You will hear a lecturer talking about behavioural economics and how findings from it are tested in the field.",
-  "word_count": 942,
+  "word_count": 965,
   "estimated_minutes": 6.3,
   "turn_index_base": 0,
   "speakers": [
@@ -33,7 +33,7 @@
     },
     {
       "speaker": "M1",
-      "text": "Because judgements are made against a reference point, the wording of a choice changes the choice. That's framing. In one study a rail operator described the same service in two ways on identical leaflets: nine in ten trains arrive on time, or one in ten trains is delayed. Identical information — and the second version produced nearly twice as many complaints over the following month."
+      "text": "Because judgements are made against a reference point, the wording of a choice changes the choice. That's framing. In one study a rail operator described the same service in two ways on identical leaflets: nine in ten trains arrive on time, or one in ten trains is delayed. Identical information — and it was not complaints that moved: over the following month the leaflet that mentioned delays was followed by a fall of nearly a fifth in season-ticket renewals."
     },
     {
       "speaker": "M1",
@@ -45,7 +45,7 @@
     },
     {
       "speaker": "M1",
-      "text": "That third reason takes us to present bias. When we compare a cost today with a benefit next year, we discount the future steeply, and inconsistently: next month's version of us is expected to be disciplined in a way that this month's never is. One well-known scheme works around the problem: people commit today to saving more later, with the extra contribution starting only when their next pay rise arrives, so nothing leaves the current pay packet. In the firms that trialled it, the average saving rate went from about three per cent to eleven per cent over four years."
+      "text": "That third reason takes us to present bias. When we compare a cost today with a benefit next year, we discount the future steeply, and inconsistently: next month's version of us is expected to be disciplined in a way that this month's never is. One well-known scheme works around the problem: people commit today to saving more later, with the extra contribution fixed at three quarters of each future pay rise, so nothing leaves the current pay packet. In the firms that trialled it, the average saving rate went from about three per cent to eleven per cent over four years."
     },
     {
       "speaker": "M1",
@@ -57,7 +57,7 @@
     },
     {
       "speaker": "M1",
-      "text": "Now, the criticisms. First, size. When one of these interventions is repeated across many sites, the average effect is often around half of what the original study reported, partly because striking results are more likely to be published than dull ones. Second, durability: several effects shrink once the novelty goes, and a few disappear within a year. Third, scope. A nudge cannot do the work of a price or a regulation."
+      "text": "Now, the criticisms. First, size. When one of these interventions is repeated across many sites, the average effect is often around forty per cent of what the original study reported, partly because striking results are more likely to be published than dull ones. Second, durability: several effects shrink once the novelty goes, and a few disappear within a year. Third, scope. A nudge cannot do the work of a price or a regulation."
     },
     {
       "speaker": "M1",
@@ -167,11 +167,11 @@
     {
       "id": "L6-S4-08",
       "kind": "number",
-      "value": "nearly twice as many complaints",
+      "value": "a fall of nearly a fifth in season-ticket renewals",
       "speaker": "M1",
-      "quote": "the second version produced nearly twice as many complaints over the following month",
+      "quote": "over the following month the leaflet that mentioned delays was followed by a fall of nearly a fifth in season-ticket renewals",
       "turn_index": 2,
-      "distractor": null,
+      "distractor": "complaints",
       "suggested_types": [
         "summary_completion",
         "short_answer"
@@ -271,9 +271,9 @@
     {
       "id": "L6-S4-16",
       "kind": "rule",
-      "value": "the extra contribution starts with the next pay rise",
+      "value": "the extra contribution is three quarters of each future pay rise",
       "speaker": "M1",
-      "quote": "with the extra contribution starting only when their next pay rise arrives",
+      "quote": "with the extra contribution fixed at three quarters of each future pay rise",
       "turn_index": 5,
       "distractor": null,
       "suggested_types": [
@@ -375,9 +375,9 @@
     {
       "id": "L6-S4-24",
       "kind": "number",
-      "value": "about half the original effect",
+      "value": "about 40 per cent of the original effect",
       "speaker": "M1",
-      "quote": "the average effect is often around half of what the original study reported",
+      "quote": "the average effect is often around forty per cent of what the original study reported",
       "turn_index": 8,
       "distractor": null,
       "suggested_types": [
@@ -556,5 +556,5 @@
     }
   ],
   "spatial_description": null,
-  "notes": "turn_index degerleri 0 tabanlidir. Alti celdirici duzeltme var: kayip kacinma orani (uc'e bir -> ikiye bir), otomatik kayitta cikan olmadigi iddiasi (kimse cikmadi -> kucuk bir azinlik cikiyor), mektup etkisi (on bes puan -> bes puan), hatirlatma zamani (iki hafta -> iki gun once), odev teslimi (dokuzuncu hafta, sekizinci degil), okuma (dorduncu bolum, ucuncu degil). Gercek kisi, kurum ya da ulke adi anilmadi; deneyler tarif edilerek verildi."
+  "notes": "turn_index degerleri 0 tabanlidir. Alti celdirici duzeltme var: kayip kacinma orani (uc'e bir -> ikiye bir), otomatik kayitta cikan olmadigi iddiasi (kimse cikmadi -> kucuk bir azinlik cikiyor), mektup etkisi (on bes puan -> bes puan), hatirlatma zamani (iki hafta -> iki gun once), odev teslimi (dokuzuncu hafta, sekizinci degil), okuma (dorduncu bolum, ucuncu degil). Ek olarak L6-S4-08 (celdirici: sikayet sayisi; olcum season-ticket yenilemesi), L6-S4-16 (katki oraninin ucte-dordu) ve L6-S4-24 (yuzde kirk) yalniz sesle bilinebilecek degerlere cekildi. Gercek kisi, kurum ya da ulke adi anilmadi; deneyler tarif edilerek verildi."
 }

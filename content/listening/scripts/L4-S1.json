@@ -8,7 +8,7 @@
   "generated_by": "opus",
   "setting": "Bir otobus sirketinin kayip esya burosuna telefonla kayip canta bildirimi",
   "context_line": "You will hear a woman telephoning a coach company's lost property office about a bag she has left behind.",
-  "word_count": 842,
+  "word_count": 863,
   "estimated_minutes": 5.6,
   "turn_index_base": 0,
   "speakers": [
@@ -146,7 +146,7 @@
     },
     {
       "speaker": "M1",
-      "text": "That's the town buses. On the coaches we keep everything for three months, and anything unclaimed after that goes to the charity we work with."
+      "text": "That's the town buses. On the coaches we keep everything for three months, and anything unclaimed after that used to go to a charity, but since last year the whole lot is sent to a public auction, with the money going into the drivers' welfare fund."
     },
     {
       "speaker": "F1",
@@ -439,12 +439,12 @@
     },
     {
       "id": "L4-S1-17",
-      "kind": "rule",
-      "value": "unclaimed items go to a charity",
-      "quote": "anything unclaimed after that goes to the charity we work with",
+      "kind": "object",
+      "value": "a public auction (no longer a charity)",
+      "quote": "since last year the whole lot is sent to a public auction",
       "turn_index": 28,
       "speaker": "M1",
-      "distractor": null,
+      "distractor": "charity",
       "suggested_types": [
         "sentence_completion",
         "short_answer"

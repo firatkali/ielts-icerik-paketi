@@ -327,12 +327,12 @@
           "section": 3,
           "script_id": "L6-S3",
           "select_count": 1,
-          "prompt": "the 'full text available' filter",
+          "prompt": "the language filter",
           "options": null,
           "answer": [
-            "D"
+            "B"
           ],
-          "evidence": "Because it hides everything we can order in for you, and that's a great deal of material.",
+          "evidence": "I'd normally tell you to leave the language box alone, but with two and a half thousand words you can't be commissioning translations",
           "answer_point_id": "L6-S3-20",
           "turn_index": 25,
           "distractor_analysis": {
@@ -341,13 +341,11 @@
             "C": "Söylendi ama sorulan bu değil — orta yol tarih aralığına ait.",
             "E": "Sesle hiç geçmeyen — karar ertelenmiyor; filtre hemen karara bağlanıyor."
           },
-          "explanation": "The librarian tells them not to tick this box, because the filter hides a large amount of material the library can order in, limiting the evidence to what is already on the shelf.",
+          "explanation": "Tomas proposes ticking the English box because neither student reads German. The librarian says she would normally tell them to leave the language box alone, but at two and a half thousand words they cannot commission translations - so Tomas's suggestion is accepted, with a line in the method noting the limit.",
           "difficulty": "medium",
-          "status": "flagged",
-          "blind_solvable": true,
-          "blind_basis": "general_knowledge",
-          "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: sistematik derlemede kütüphaneci tam da 'full text available' filtresine karşı uyarır (örneklem yanlılığı), kök bir yöntem bilgisi sorusuna dönüşüyor.",
-          "flag_mechanism": "genel_kultur"
+          "status": "verified",
+          "blind_solvable": false,
+          "distractor_used": "D (a librarian would normally warn against a language limit)"
         }
       ]
     }

@@ -47,6 +47,11 @@ kullaniyor, oranlar bu yonde YANLI.
 
 Isaretli dinleme kalemi: **39** (okuma tarafinda isaretli KALMADI).
 
+## GUNCEL DURUM 2026-08-18 aksami — SENARYO TURU BITTI
+Isaretli dinleme kalemi: **23**. `content/listening/tests/` altinda isaretli kalem KALMADI;
+kalan 23'un tamami `content/listening/practice/` icinde. Tur sonucu + dersler + siradaki is:
+`denetim/BULUT-OTURUM-BRIEF.md` icindeki "TUR SONUCU" bolumu.
+
 ## 1) ONCE BUNLAR OLCULECEK — duzeltildi ama kor olcumden gecmedi (11 kalem)
 Ajanlar yazma asamasindayken durduruldu; isaretleri kalkti ama olcum yapilmadi.
 - L3 short-answer 38, 39, 40 · L3 summary-completion 31, 32, 36

@@ -13,7 +13,7 @@
   "word_limit": "ONE WORD AND/OR A NUMBER",
   "options": null,
   "visual": null,
-  "stem_block": "NUDGES IN PUBLIC POLICY, AND HOW THEY ARE TESTED\n\nHouseholds behind with a bill were sent a letter saying that most of their neighbours had already paid, and payment rates went up. How far up is disputed: the figure the papers carried came from one pilot in a single town, while the larger trials put the rise at about (37) ........ percentage points. Repeating an intervention across many sites usually leaves an effect only around (38) ........ the size of the one first published, partly because striking results are easier to publish than dull ones, and some effects fade once the novelty has gone. There is also the question of who chooses the default, since that person has interests of their own; what separates help from obstruction is whether the arrangement advances the (39) ........ of the individual concerned. Method matters as well: allocating real customers at random is what shows that the wording caused the difference, and (40) ........ the prediction openly in advance keeps the analysis from being reworked later.",
+  "stem_block": "NUDGES IN PUBLIC POLICY, AND HOW THEY ARE TESTED\n\nHouseholds behind with a bill were sent a letter saying that most of their neighbours had already paid, and payment rates went up. How far up is disputed: the figure the papers carried came from one pilot in a single town, while the larger trials put the rise at about (37) ........ percentage points. Repeating an intervention across many sites usually leaves an effect only around (38) ........ per cent of the size first published, partly because striking results are easier to publish than dull ones, and some effects fade once the novelty has gone. There is also the question of who chooses the default, since that person has interests of their own; what separates help from obstruction is whether the arrangement advances the (39) ........ of the individual concerned. Method matters as well: allocating real customers at random is what shows that the wording caused the difference, and (40) ........ the prediction openly in advance keeps the analysis from being reworked later.",
   "table": null,
   "items": [
     {
@@ -37,24 +37,30 @@
     },
     {
       "number": 38,
-      "prompt": "Repeating an intervention across many sites usually leaves an effect only around (38) ........ the size of the one first published",
+      "prompt": "Repeating an intervention across many sites usually leaves an effect only around (38) ........ per cent of the size first published",
       "answer": [
-        "half"
+        "40"
       ],
       "accepted_variants": [
-        "half"
+        "40",
+        "forty"
       ],
-      "evidence": "the average effect is often around half of what the original study reported",
+      "evidence": "the average effect is often around forty per cent of what the original study reported",
       "answer_point_id": "L6-S4-24",
       "turn_index": 8,
       "distractor_used": null,
-      "explanation": "When the same intervention is repeated across many sites, the average effect comes out at roughly half of what the original study reported.",
+      "explanation": "When the same intervention is repeated across many sites, the average effect comes out at about forty per cent of what the original study reported.",
       "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_basis": "general_knowledge",
-      "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'çok merkezde tekrarlandığında etki genelde ilk yayımlananın (38) kadarı kalır' — yineleme literatürünün bilinen 'etki yarıya iner' bulgusu.",
-      "flag_mechanism": "genel_kultur"
+      "status": "verified",
+      "blind_solvable": false,
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "uretilen_grup": "L6 ozet tamamlama 38 (S4)",
+        "eski_mekanizma": "genel_kultur",
+        "eski_cevap": "half",
+        "neden_elendi": "3/3 kor turda bilindi: yineleme yazininin bilinen 'etki yariya iner' bulgusu bosluga tek dogal aday birakiyordu.",
+        "ne_degisti": "Recete 2: senaryodaki deger yerinde degistirildi (half -> forty per cent) ve bosluk sayisal hale getirildi ('(38) per cent'). Kuyruk sozcukler ('per cent of the size first published') tek basina bir deger onermiyor. Turn_index ve answer_point_id degismedi."
+      }
     },
     {
       "number": 39,

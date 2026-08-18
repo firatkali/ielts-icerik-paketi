@@ -67,7 +67,7 @@
       "options": [
         {
           "letter": "A",
-          "text": "too many databases were searched at once"
+          "text": "the whole question was entered as a sentence"
         },
         {
           "letter": "B",
@@ -75,62 +75,74 @@
         },
         {
           "letter": "C",
-          "text": "the whole question was entered as a sentence"
+          "text": "other libraries' collections were included"
         }
       ],
       "answer": [
         "C"
       ],
-      "evidence": "Four hundred and twelve is what a whole sentence gets you.",
+      "evidence": "that box searches the whole regional consortium, so you were getting every other college library in the county along with ours",
       "answer_point_id": "L6-S3-05",
       "turn_index": 9,
       "distractor_analysis": {
-        "A": "Söylendi ama sorulan bu değil — beş veri tabanı Tomas'ın sonraki önerisi; ilk arama yalnızca kütüphanenin ana arama kutusunda yapıldı.",
+        "A": "Söylendi sonra çürütüldü — Tomas soruyu bütün bir cümle olarak yazdığını söylüyor, ama kütüphaneci sayının sebebinin bu olmadığını açıkça belirtiyor: 'atölyelerde ne derlerse desinler, mesele cümle değil'.",
         "B": "Sesle hiç geçmeyen — yazım hatasından hiç söz edilmiyor."
       },
-      "explanation": "According to the librarian, the 412 results came from typing the whole question as a single sentence into the search box; the search will instead be built using lists of concepts.",
+      "explanation": "The librarian rejects the explanation the students expect: the number has nothing to do with typing the question in as a sentence. That search box covers the whole regional consortium, so the 412 records came from every other college library in the county as well as their own.",
       "difficulty": "easy",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_basis": "general_knowledge",
-      "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: ilk aramanın 412 sonuç vermesinin sebebi olarak 'sorunun tümü cümle olarak girildi' veri tabanı arama eğitiminin klasik hatası, yazım yanlışı ve çoklu veri tabanı sonucu bu şekilde artırmaz.",
-      "flag_mechanism": "genel_kultur"
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "uretilen_grup": "L6 çoktan seçmeli 22 (S3)",
+        "eski_mekanizma": "genel_kultur",
+        "eski_cevap_metni": "the whole question was entered as a sentence",
+        "neden_elendi": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'soruyu cümle olarak yazdın' arama eğitiminin klasik açıklaması; yazım hatası ve çoklu veri tabanı sonuç sayısını böyle şişirmez, kalem dünya bilgisiyle çözülüyordu.",
+        "ne_degisti": "Reçete 3 (sesli rakip) + reçete 2: senaryodaki dayanak olgu yerinde değiştirildi. Kütüphaneci artık beklenen/kitabî açıklamayı önce yüksek sesle çürütüyor ('mesele cümle değil, atölyelerde ne derlerse desinler') ve gerçek sebebi veriyor: arama kutusu bölge konsorsiyumunu tarıyor, sonuçlara ilçedeki diğer kolej kütüphaneleri de giriyor. Eski beklenen değer A çeldiricisine verildi. Tur sayısı ve turn_index (9) değişmedi."
+      }
     },
     {
       "number": 23,
       "select_count": 1,
-      "prompt": "What does the librarian say the asterisk will do?",
+      "prompt": "What does the librarian say about the asterisk after 'activ'?",
       "options": [
         {
           "letter": "A",
-          "text": "keep a phrase together in the search"
+          "text": "it picks up several forms of one word"
         },
         {
           "letter": "B",
-          "text": "find different forms of the same word"
+          "text": "these two databases take no notice of it"
         },
         {
           "letter": "C",
-          "text": "correct any spelling errors automatically"
+          "text": "it can be used instead of inverted commas"
         }
       ],
       "answer": [
         "B"
       ],
-      "evidence": "put an asterisk after 'activ' — that picks up activity, active and activities in one go",
+      "evidence": "Every guide will tell you to put an asterisk after 'activ' as well, but these two databases take no notice of it",
       "answer_point_id": "L6-S3-09",
       "turn_index": 13,
       "distractor_analysis": {
-        "A": "Söylendi ama sorulan bu değil — öbeği bir arada tutan şey tırnak işaretleri, yıldız değil.",
-        "C": "Sesle hiç geçmeyen — yazım düzeltme konuşmada geçmiyor."
+        "A": "Söylendi sonra çürütüldü — kütüphaneci bunun her kılavuzun verdiği tavsiye olduğunu söylüyor, ama bu iki veri tabanında işe yaramadığını, biçimlerin tek tek yazılması gerektiğini ekliyor.",
+        "C": "Söylendi ama sorulan bu değil — tırnak işaretleri aynı turda geçiyor; öbekleri bir arada aratmak için kullanılıyorlar, yıldızın yerine geçmiyorlar."
       },
-      "explanation": "The asterisk on the stem 'activ' picks up the forms activity, active and activities all at once; searching for an exact phrase is instead the job of quotation marks.",
+      "explanation": "Every guide recommends truncating with an asterisk, but the librarian says these two databases ignore it, so the students will have to type activity, active and activities out in full. Inverted commas are used for a different job: keeping a phrase together.",
       "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_basis": "general_knowledge",
-      "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: yıldız işaretinin ne yaptığı arama sözdiziminin tanımlı bir olgusu (aynı sözcüğün farklı biçimlerini bulur), öbeği bir arada tutmak tırnağın işi.",
-      "flag_mechanism": "genel_kultur"
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "uretilen_grup": "L6 çoktan seçmeli 23 (S3)",
+        "eski_mekanizma": "genel_kultur",
+        "eski_cevap_metni": "find different forms of the same word",
+        "neden_elendi": "Senaryo gösterilmeden 3/3 turda doğru bilindi: yıldızın aynı sözcüğün farklı biçimlerini bulması arama sözdiziminin tanımlı olgusu; sesi dinlemeye gerek kalmıyordu.",
+        "ne_degisti": "Reçete 3 (sesli rakip): senaryoda yıldızın işlevi tersine çevrildi. Kütüphaneci önce kitabî tavsiyeyi anıyor ('her kılavuz yıldız koy der'), sonra çürütüyor: bu iki veri tabanı yıldızı yok sayıyor, üç biçim tek tek yazılacak. Kitabî bilgi A çeldiricisine taşındı; doğru cevap yalnız konuşmadan çıkıyor. Cevap harfi B, turn_index 13 ve answer_point_id L6-S3-09 değişmedi."
+      }
     }
   ]
 }

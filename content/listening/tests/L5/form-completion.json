@@ -13,7 +13,7 @@
   "word_limit": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
   "options": null,
   "visual": null,
-  "stem_block": "HOLLOWFIELD CYCLE TOURS - GREENWAY RIDE\nBooking form\n\nDate of ride: Saturday (1) ........ August\nDeparture: (2) ........ a.m.\nName: (3) ........\nLocal address: (4) ........ Mill Lane\nPrice per rider: £(5) ........\nLength of route: (6) ........ kilometres\nLunch: included; the group stops at a (7) ........ halfway round\nRider must bring: a (8) ........\nMeeting point: the (9) ........, Priory Street\nBooking reference: (10) ........",
+  "stem_block": "HOLLOWFIELD CYCLE TOURS - GREENWAY RIDE\nBooking form\n\nDate of ride: Saturday (1) ........ August\nDeparture: (2) ........ a.m.\nName: (3) ........\nLocal address: (4) ........ Mill Lane\nPrice per rider: £(5) ........\nLength of route: (6) ........ kilometres\nLunch: included; the group stops at a (7) ........ halfway round\nMinimum age for riders: (8) ........\nMeeting point: the (9) ........, Priory Street\nBooking reference: (10) ........",
   "table": null,
   "items": [
     {
@@ -155,24 +155,34 @@
     },
     {
       "number": 8,
-      "prompt": "Rider must bring: a (8) ........",
+      "prompt": "Minimum age for riders: (8) ........",
       "answer": [
-        "water bottle"
+        "15"
       ],
       "accepted_variants": [
-        "water bottle"
+        "15",
+        "fifteen"
       ],
-      "evidence": "What we can't lend you is a water bottle, so do bring one of those.",
-      "answer_point_id": "L5-S1-18",
-      "turn_index": 32,
-      "distractor_used": null,
-      "explanation": "The helmet is provided by the company; the one thing that cannot be lent, so the rider must bring it themselves, is a water bottle.",
+      "evidence": "our minimum age is fifteen — a lot of companies say twelve",
+      "answer_point_id": "L5-S1-21",
+      "turn_index": 34,
+      "distractor_used": "12",
+      "explanation": "The staff member says most other companies set the minimum age at twelve, but because the loop is forty-two kilometres with a climb in it, this company's minimum age is fifteen.",
       "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_basis": "cross_question",
-      "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'sürücünün getirmesi gereken: bir (8)' boşluğunu alıştırma not paketi düz metin yazıyor: 'kasklar dağıtılıyor ama sürücülerin kendi su şişesi gerekiyor'.",
-      "flag_mechanism": "capraz_sizinti"
+      "status": "verified",
+      "blind_solvable": false,
+      "yeniden_uretim": {
+        "uretilen_grup": "L5 form-completion soru 8 (dinleme testi)",
+        "eski_cerceve": "Rider must bring: a (8) ........",
+        "eski_cevap": [
+          "water bottle"
+        ],
+        "eski_dayanak": "L5-S1-18 / turn 32",
+        "neden_elendi": "capraz_sizinti + genel_kultur: 'surucunun getirmesi gereken sey' bosluguna dunya bilgisiyle su sisesi dusuyordu; ayrica alistirma not paketinin (practice/note-completion, P-FN-02) not blogu 'kasklar dagitiliyor ama suruculer kendi su sisesini getiriyor' diye duz metin yaziyordu.",
+        "ne_degisti": "Bosluk ayni senaryonun baska bir cevap noktasina tasindi (recete 1) ve o noktaya sesli rakip kuruldu (recete 3): senaryoda en kucuk yas on ikiden ON BESe cikarildi, konusmaci once yaygin/kitabi degeri ('a lot of companies say twelve') soyleyip curutuyor. Su sisesi cumlesi ve waterproof jacket cumlesi senaryoda AYNEN korundu (alistirma soru 6 ona bagli). Tur sayisi ve turn_index'ler degismedi.",
+        "tarih": "2026-08-18",
+        "kaynak_prompt": "dinleme senaryo turu 2: L5-S1 blind_solvable temizligi"
+      }
     },
     {
       "number": 9,

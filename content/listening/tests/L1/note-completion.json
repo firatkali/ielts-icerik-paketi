@@ -13,52 +13,45 @@
   "word_limit": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
   "options": null,
   "visual": null,
-  "stem_block": "GROWING FOOD IN CITIES\n\nBackground\n• 19th-century laws forced councils to supply (31) ........ to households without a garden\n• the number of plots then dropped for half a century\n\nThree forms today\n• the (32) ........ — much the commonest, on ground nobody else has a use for\n• a farm on the flat roof of an existing building\n• an indoor farm lit by lamps\n\nWhat the survey found\n• a typical shared garden covers roughly (33) ........ square metres\n• a realistic yield is about (34) ........ times that of a field, and only for salad and soft fruit\n\nWhat it does for the city\n• a planted roof held back about (35) ........ of one heavy downpour\n• the benefit named most often: (36) ........ with other people (exercise came second)",
+  "stem_block": "GROWING FOOD IN CITIES\n\nBackground\n• 19th-century laws forced councils to supply rented plots, which the Acts themselves call (31) ........\n• the number of plots then dropped for half a century\n\nThree forms today\n• the commonest form sits on ground that planning documents term (32) ........\n• a farm on the flat roof of an existing building\n• an indoor farm lit by lamps\n\nWhat the survey found\n• a typical shared garden covers roughly (33) ........ square metres\n• a realistic yield is about (34) ........ times that of a field, and only for salad and soft fruit\n\nWhat it does for the city\n• a planted roof held back about (35) ........ of one heavy downpour\n• the benefit named most often: (36) ........ with other people (exercise came second)",
   "table": null,
   "items": [
     {
       "number": 31,
-      "prompt": "19th-century laws forced councils to supply (31) ........ to households without a garden",
+      "prompt": "19th-century laws forced councils to supply rented plots, which the Acts themselves call (31) ........",
       "answer": [
-        "allotments"
+        "field gardens"
       ],
       "accepted_variants": [
-        "allotments",
-        "allotment"
+        "field gardens",
+        "field garden"
       ],
-      "evidence": "a series of Acts obliged local authorities to provide allotments",
+      "evidence": "the word the Acts themselves use is field gardens",
       "answer_point_id": "L1-S4-01",
       "turn_index": 1,
-      "distractor_used": null,
-      "explanation": "Nineteenth-century laws forced local councils to provide allotments to households without a garden.",
+      "distractor_used": "allotments",
+      "explanation": "Everyone says allotments today, but the speaker points out that the term written into the nineteenth-century Acts is field gardens, and tells the listener to write that one down.",
       "difficulty": "easy",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_basis": "cross_question",
-      "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'bahçesi olmayan hanelere (31) sağlamaya zorladı' boşluğunu alıştırma tablosunun 9. satırı boşluksuz yazıyor: 'bahçesi olmayan haneler için kiralık parseller'.",
-      "flag_mechanism": "capraz_sizinti"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 32,
-      "prompt": "the (32) ........ — much the commonest, on ground nobody else has a use for",
+      "prompt": "the commonest form sits on ground that planning documents term (32) ........",
       "answer": [
-        "community garden"
+        "meanwhile land"
       ],
       "accepted_variants": [
-        "community garden",
-        "community gardens"
+        "meanwhile land"
       ],
-      "evidence": "The first, and by far the most common, is the community garden",
-      "answer_point_id": "L1-S4-05",
+      "evidence": "the word in the planning documents is meanwhile land",
+      "answer_point_id": "L1-S4-30",
       "turn_index": 2,
-      "distractor_used": null,
-      "explanation": "By far the most common of the three forms is the community garden, set up on land no one else has a use for.",
+      "distractor_used": "brownfield",
+      "explanation": "The press calls this kind of unused ground brownfield, but the speaker says the term used in the planning documents themselves is meanwhile land.",
       "difficulty": "easy",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_basis": "cross_question",
-      "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: '(32) — en yaygını, kimsenin işine yaramayan zeminde' boşluğunu alıştırma tablosunun 10. satırı sırayla sayıyor: 'topluluk bahçeleri, çatı çiftlikleri ve (10) tarım'.",
-      "flag_mechanism": "capraz_sizinti"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 33,

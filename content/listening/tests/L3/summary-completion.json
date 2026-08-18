@@ -13,7 +13,7 @@
   "word_limit": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
   "options": null,
   "visual": null,
-  "stem_block": "HOW SEED REACHES THE STORE\n\nCollections kept with future plant breeding in mind go back to the 1920s, when breeders saw older varieties vanishing from farms; one collection made then is still being drawn on today, and it is a collection of (31) ........\n\nIn the field, a team is told to gather seed from a minimum of (32) ........ plants and to leave at least four-fifths of the ripe seed behind. Drying is deliberately slow, because seed that dries too quickly on the surface forms a (33) ........ and the moisture is then locked in. Once the seed has been sealed, how good the (34) ........ is matters more than which jar has been used.\n\nA sample is germinated before anything is put away, and the whole collection goes back to the field team if fewer than (35) ........ per cent of the seeds grow. After that the test is repeated every (36) ........ years in the banks the speaker has worked in, although each one uses up seed.",
+  "stem_block": "HOW SEED REACHES THE STORE\n\nCollections kept with future plant breeding in mind go back to the 1920s, when breeders saw older varieties vanishing from farms; one collection made then is still being drawn on today, and it is a collection of (31) ........\n\nIn the field, a team is told to gather seed from a minimum of (32) ........ plants and to leave at least four-fifths of the ripe seed behind. Drying is deliberately slow, because seed that dries too quickly on the surface forms a (33) ........ and the moisture is then locked in. A worn gasket lets water back in: the manuals allow one or two per cent, but in the speaker's own store the moisture climbed back by (34) ........ per cent over a season.\n\nA sample is germinated before anything is put away, and the whole collection goes back to the field team if fewer than (35) ........ per cent of the seeds grow. After that the test is repeated every (36) ........ years in the banks the speaker has worked in, although each one uses up seed.",
   "table": null,
   "items": [
     {
@@ -102,24 +102,22 @@
     },
     {
       "number": 34,
-      "prompt": "Once the seed has been sealed, how good the (34) ........ is matters more than which jar has been used.",
+      "prompt": "in the speaker's own store the moisture climbed back by (34) ........ per cent over a season",
       "answer": [
-        "seal"
+        "6"
       ],
       "accepted_variants": [
-        "seal"
+        "6",
+        "six"
       ],
-      "evidence": "the seal matters more than the container",
-      "answer_point_id": "L3-S4-10",
+      "evidence": "in our own store we have measured six",
+      "answer_point_id": "L3-S4-30",
       "turn_index": 5,
-      "distractor_used": null,
-      "explanation": "A jar with a poor seal lets the seed reabsorb moisture from the air; that is why the seal matters more than the container itself.",
+      "distractor_used": "one or two per cent (the manual figure)",
+      "explanation": "The manuals allow a climb of one or two per cent over a season, but the speaker says that in her own store a jar with a poor gasket let the moisture climb back by six per cent.",
       "difficulty": "medium",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_basis": "cross_question",
-      "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'mühürlendikten sonra hangi (34) iyi olduğu kavanozdan önemli' boşluğunu alıştırma akış şeması aynı cümleyle boşluksuz yazıyor: 'The quality of the seal counts for more than the jar itself.'.",
-      "flag_mechanism": "capraz_sizinti"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 35,

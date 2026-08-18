@@ -14,7 +14,7 @@ Esik (2. tur, kok cakismasi): aday dizgi en az **4 karakter** ve normalize edilm
 | tur | okuma | dinleme | toplam |
 |---|---|---|---|
 | 1. kanit cakismasi (paylasilan kanit sayisi) | 0 | 0 | 0 |
-| 2. kok cakismasi (prompt<-cevap ciftleri) | 6 | 40 | 46 |
+| 2. kok cakismasi (prompt<-cevap ciftleri) | 7 | 37 | 44 |
 | 3. pasaj/senaryo paylasimi (paylasilan id sayisi) | 0 | 22 | 22 |
 
 ### Asil kanal: alistirma sorusu -> test cevabi
@@ -23,16 +23,16 @@ Kac alistirma sorusunun (kalem) gercekten bir test sorusunun cevabini prompt'und
 
 | okuma | dinleme | toplam |
 |---|---|---|
-| 0 | 8 | 8 |
+| 0 | 4 | 4 |
 
 ### Kok cakismasi yon dagilimi
 
 | yon (cevap_sahibi -> prompt_sahibi) | okuma | dinleme |
 |---|---|---|
 | alistirma_cevabi -> alistirma_prompt | 0 | 6 |
-| alistirma_cevabi -> test_prompt | 2 | 10 |
-| test_cevabi -> alistirma_prompt | 0 | 8 |
-| test_cevabi -> test_prompt | 4 | 16 |
+| alistirma_cevabi -> test_prompt | 2 | 9 |
+| test_cevabi -> alistirma_prompt | 0 | 7 |
+| test_cevabi -> test_prompt | 5 | 15 |
 
 ## En agir 10 cift (kok cakismasi, eslesme uzunluguna gore)
 
@@ -42,9 +42,9 @@ Kac alistirma sorusunun (kalem) gercekten bir test sorusunun cevabini prompt'und
 | reading | content/reading/tests/AC4/sentence-completion.json#19 | test | content/reading/tests/GT2/summary-completion.json#39 | test | `four-fifths` | 11 |
 | reading | content/reading/tests/AC4/sentence-completion.json#19 | test | content/reading/tests/GT2/summary-completion.json#39 | test | `four fifths` | 11 |
 | reading | content/reading/tests/AC2/sentence-completion.json#22 | test | content/reading/practice/sentence-completion.json#7 | practice | `seventeen` | 9 |
+| reading | content/reading/tests/GT1/note-completion.json#16 | test | content/reading/tests/AC4/summary-completion.json#36 | test | `30-minute` | 9 |
 | reading | content/reading/tests/AC4/note-completion.json#5 | test | content/reading/tests/AC2/flow-chart-completion.json#6 | test | `limits` | 6 |
 | reading | content/reading/tests/AC2/multiple-choice.json#34-35 | test | content/reading/tests/AC3/summary-completion.json#39 | test | `seven` | 5 |
-| listening | content/listening/practice/table-completion.json#10 | practice | content/listening/tests/L1/note-completion.json#32 | test | `community gardens` | 17 |
 | listening | content/listening/tests/L4/matching.json#13 | test | content/listening/tests/L4/plan-map-diagram-labelling.json#20 | test | `electrical store` | 16 |
 | listening | content/listening/tests/L6/matching.json#12 | test | content/listening/tests/L6/plan-map-diagram-labelling.json#16 | test | `flower stall` | 12 |
 | listening | content/listening/tests/L6/sentence-completion.json#28 | test | content/listening/practice/sentence-completion.json#7 | practice | `module page` | 11 |
@@ -57,6 +57,7 @@ Kac alistirma sorusunun (kalem) gercekten bir test sorusunun cevabini prompt'und
 | content/reading/tests/AC4/sentence-completion.json#19 | test | content/reading/tests/GT2/summary-completion.json#39 | test | `four-fifths` |
 | content/reading/tests/AC4/sentence-completion.json#19 | test | content/reading/tests/GT2/summary-completion.json#39 | test | `four fifths` |
 | content/reading/tests/AC2/sentence-completion.json#22 | test | content/reading/practice/sentence-completion.json#7 | practice | `seventeen` |
+| content/reading/tests/GT1/note-completion.json#16 | test | content/reading/tests/AC4/summary-completion.json#36 | test | `30-minute` |
 | content/reading/tests/AC4/note-completion.json#5 | test | content/reading/tests/AC2/flow-chart-completion.json#6 | test | `limits` |
 | content/reading/tests/AC2/multiple-choice.json#34-35 | test | content/reading/tests/AC3/summary-completion.json#39 | test | `seven` |
 
@@ -64,7 +65,6 @@ Kac alistirma sorusunun (kalem) gercekten bir test sorusunun cevabini prompt'und
 
 | prompt (sizdiran) | havuz | cevap sahibi | havuz | sizan dizgi |
 |---|---|---|---|---|
-| content/listening/practice/table-completion.json#10 | practice | content/listening/tests/L1/note-completion.json#32 | test | `community gardens` |
 | content/listening/tests/L4/matching.json#13 | test | content/listening/tests/L4/plan-map-diagram-labelling.json#20 | test | `electrical store` |
 | content/listening/tests/L6/matching.json#12 | test | content/listening/tests/L6/plan-map-diagram-labelling.json#16 | test | `flower stall` |
 | content/listening/tests/L6/sentence-completion.json#28 | test | content/listening/practice/sentence-completion.json#7 | practice | `module page` |
@@ -77,9 +77,10 @@ Kac alistirma sorusunun (kalem) gercekten bir test sorusunun cevabini prompt'und
 | content/listening/practice/flow-chart-completion.json#10 | practice | content/listening/practice/short-answer.json#12 | practice | `an hour` |
 | content/listening/tests/L2/note-completion.json#39 | test | content/listening/practice/short-answer.json#12 | practice | `an hour` |
 | content/listening/practice/flow-chart-completion.json#1 | practice | content/listening/practice/table-completion.json#13 | practice | `a fifth` |
+| content/listening/practice/flow-chart-completion.json#14 | practice | content/listening/tests/L3/summary-completion.json#36 | test | `fifteen` |
 | content/listening/tests/L2/table-completion.json#4 | test | content/listening/tests/L4/flow-chart-completion.json#40 | test | `bedroom` |
+| content/listening/practice/flow-chart-completion.json#14 | practice | content/listening/tests/L5/form-completion.json#8 | test | `fifteen` |
 | content/listening/practice/flow-chart-completion.json#1 | practice | content/listening/tests/L5/table-completion.json#32 | test | `a fifth` |
-| content/listening/tests/L4/flow-chart-completion.json#40 | test | content/listening/practice/flow-chart-completion.json#12 | practice | `window` |
 | content/listening/tests/L6/summary-completion.json#37 | test | content/listening/practice/sentence-completion.json#11 | practice | `larger` |
 | content/listening/tests/L2/table-completion.json#5 | test | content/listening/practice/table-completion.json#14 | practice | `Friday` |
 | content/listening/tests/L2/table-completion.json#5 | test | content/listening/tests/L1/sentence-completion.json#29 | test | `Friday` |
@@ -87,15 +88,15 @@ Kac alistirma sorusunun (kalem) gercekten bir test sorusunun cevabini prompt'und
 | content/listening/tests/L6/form-completion.json#10 | test | content/listening/tests/L4/plan-map-diagram-labelling.json#16 | test | `office` |
 | content/listening/tests/L2/table-completion.json#10 | test | content/listening/tests/L4/sentence-completion.json#30 | test | `frozen` |
 | content/listening/tests/L3/short-answer.json#39 | test | content/listening/tests/L4/sentence-completion.json#30 | test | `frozen` |
-| content/listening/tests/L3/short-answer.json#40 | test | content/listening/tests/L4/sentence-completion.json#30 | test | `frozen` |
 | content/listening/practice/matching.json#8 | practice | content/listening/practice/flow-chart-completion.json#14 | practice | `pilot` |
-| content/listening/tests/L5/sentence-completion.json#30 | test | content/listening/practice/flow-chart-completion.json#14 | practice | `pilot` |
 | content/listening/tests/L6/note-completion.json#36 | test | content/listening/practice/table-completion.json#11 | practice | `money` |
 | content/listening/practice/flow-chart-completion.json#1 | practice | content/listening/practice/table-completion.json#13 | practice | `fifth` |
 | content/listening/practice/flow-chart-completion.json#10 | practice | content/listening/tests/L3/form-completion.json#7 | test | `forty` |
 | content/listening/tests/L1/short-answer.json#37 | test | content/listening/tests/L4/plan-map-diagram-labelling.json#19 | test | `metal` |
+| content/listening/practice/flow-chart-completion.json#10 | practice | content/listening/tests/L5/summary-completion.json#37 | test | `forty` |
+| content/listening/tests/L1/sentence-completion.json#29 | test | content/listening/tests/L6/form-completion.json#5 | test | `seven` |
 
-(+10 kayit daha, `denetim/CAPRAZ-KOK.json` -> kok_cakismasi.dinleme)
+(+7 kayit daha, `denetim/CAPRAZ-KOK.json` -> kok_cakismasi.dinleme)
 
 ## Kanit cakismasi detay — Okuma (ilk 20, tumu JSON'da)
 

@@ -92,3 +92,60 @@ Eşikler: cümle sonu eşleştirme ≤%20 · dinleme seçenekli ≤%30 · dinlem
 ## 7) BU OTURUMDA YAPILMAYACAK
 Uygulama kodu (`firatkali/ielts-app`), simulator/screenshot işleri, puanlama, mağaza maddeleri.
 Onlar bilgisayar başındayken yapılacak.
+
+---
+
+# TUR SONUCU — 2026-08-18 akşamı
+
+**İşaretli dinleme kalemi: 39 → 23.** `content/listening/tests/` altında işaretli kalem KALMADI;
+kalan 23'ün tamamı `content/listening/practice/` içinde (ayrı alt turun işi).
+
+Tur sayıları 8 senaryoda da korundu (13/13 · 13/13 · 49/49 · 39/39 · 15/15 · 49/49 · 45/45 · 12/12)
+→ hiçbir `turn_index` kaymadı. `python3 tools/dogrula.py`: şema 0 hata · 12 sınav 40/40 · toplam 1310.
+
+## Kapanan 16 kalem
+
+| senaryo | kalem | eski cevap | yeni cevap | reçete |
+|---|---|---|---|---|
+| L1-S4 | not 31 | allotments | field gardens | 2+3 (Acts'in kendi sözcüğü; "allotments" çeldirici) |
+| L1-S4 | not 32 | community garden | meanwhile land | 1+3 (planlama terimi; "brownfield" çeldirici) |
+| L3-S4 | özet 34 | seal | 6 | 2+3 (kılavuz %1-2 der, konuşmacının kendi deposunda %6) |
+| L4-S1 | not 7 | charity | public auction | 3 (eskiden hayır kurumuna giderdi, artık açık artırma) |
+| L4-S3 | çoktan seçmeli 24 | A | A (dayanak değişti) | 2 |
+| L4-S3 | cümle 28 | white space | eighteenth | 2 |
+| L4-S4 | kısa 32 | 3 | 6 | 1+3 (3 dB laboratuvar, sokak anketinde 6) |
+| L4-S4 | kısa 33 | the low end | the delivery van | 1+3 (otoyol/gece kamyonu reddediliyor) |
+| L4-S4 | kısa 34 | every five years | every three years | 1 (eski ders kitabı aralığı soruluyor) |
+| L5-S1 | form 8 | water bottle | 15 | 1+3 (asgari yaş; "on iki" sesli çeldirici) |
+| L6-S3 | çoktan seçmeli 22 | C | C (dayanak değişti) | 2 |
+| L6-S3 | çoktan seçmeli 23 | B | B (dayanak değişti) | 2 |
+| L6-S3 | eşleştirme 26 | D (full-text filtresi) | B (dil filtresi) | 1+3 (kütüphaneci normalde karşı, burada kabul ediyor) |
+| L6-S4 | not 33 | complaints | season-ticket renewals | 2+3 |
+| L6-S4 | not 36 | next pay rise | three quarters | 2 |
+| L6-S4 | özet 38 | half | 40 | 2 |
+
+## 🔑 Bu turun dersleri
+
+1. **Paralel ajanlar bu turda güvenilmezdi.** 12 ajandan 9'u ~600 saniyede takılıp öldü; ikisi
+   senaryoyu değiştirmiş ama soruyu bağlamamış hâlde bıraktı (yarım iş, JSON geçerli olduğu için
+   hiçbir testte görünmezdi). **Yarım kalan işi merkezden tamamlamak zorunludur** — ajanın "bitti"
+   demesi bir yana, ajanın ÖLMESİ bile sessiz kalabiliyor.
+2. **Merkezî tarama yine kazandırdı.** Ajanların temiz dediği durumda kanıt taraması 1 gerçek kusur
+   yakaladı: L4-S3 turu değişince kilitli `practice/matching.json` #5'in kanıt cümlesi metinden
+   silinmişti. Cevap (B) hâlâ doğru olduğu için yalnız kanıt/açıklama yeni cümleye bağlandı.
+3. **`capraz-kok.py`'nin ayırt edicilik filtresi havuz genelinde çalışıyor.** Dinleme metnini
+   değiştirmek, okuma tarafında daha önce "yaygın" diye elenen bir çifti rapora sokabiliyor:
+   okuma 6 → 7 oldu ama **okuma dosyalarına hiç dokunulmadı**. Yeni görünen çift
+   `tests/GT1/note-completion#16` ↔ `tests/AC4/summary-completion#36` (`30-minute`) — gerçek bir
+   çapraz-sınav sızıntısı olabilir, **sonraki turun işi**.
+4. Dinleme sızıntı sayıları düştü: kök çakışması 40 → 37, alıştırma→test sızıntısı **8 → 4**.
+
+## ⏭️ SIRADAKİ İŞ
+
+1. **Alıştırma alt turu — 23 kalem.** Dosya bazlı bölüşme YOK: bir alıştırma dosyası 4 ayrı
+   senaryoya bağlı. Senaryoya göre dağılım: L5-S4 5 · L4-S4 4 · L6-S2 3 · L1-S4 3 · L3-S4 2 ·
+   L6-S4 2 · L5-S3 2 · L5-S2 1 · L6-S3 1.
+2. **Bağımsız kör ölçüm turu (borç).** Bu turu YAZAN oturum ölçemez. Araç:
+   `python3 tools/sessiz-kopya.py <paket>` → 3 tur çözüm → `tools/sessiz-rapor.py`.
+   Eşikler: dinleme seçenekli ≤%30 · dinleme tamamlama ≤%20.
+3. Okuma tarafındaki `30-minute` çifti (yukarıda 3. ders).

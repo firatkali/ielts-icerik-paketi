@@ -134,22 +134,20 @@
       "number": 7,
       "prompt": "Bags are held for three months; after that they go to a (7) ........",
       "answer": [
-        "charity"
+        "public auction"
       ],
       "accepted_variants": [
-        "charity"
+        "public auction",
+        "auction"
       ],
-      "evidence": "anything unclaimed after that goes to the charity we work with",
+      "evidence": "since last year the whole lot is sent to a public auction",
       "answer_point_id": "L4-S1-17",
       "turn_index": 28,
-      "distractor_used": null,
-      "explanation": "Items not collected within three months are passed on to the charity the company works with.",
+      "distractor_used": "charity",
+      "explanation": "Unclaimed bags used to go to a charity, but the clerk says that since last year everything left after three months is sent to a public auction, with the proceeds going to the drivers' welfare fund.",
       "difficulty": "easy",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_basis": "general_knowledge",
-      "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'çantalar üç ay saklanır, sonra bir (7) gider' — kayıp eşya usulünün gerçek hayattaki standart devamı, konuşmanın seçtiği bir değer değil.",
-      "flag_mechanism": "genel_kultur"
+      "status": "verified",
+      "blind_solvable": false
     },
     {
       "number": 8,

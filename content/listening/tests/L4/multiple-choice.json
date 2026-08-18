@@ -19,34 +19,44 @@
       "options": [
         {
           "letter": "A",
-          "text": "Some people cannot tell them apart."
+          "text": "One of them will not come out of the plotter as it should."
         },
         {
           "letter": "B",
-          "text": "One of the judges asked for different colours."
+          "text": "One of the judges asked for a different colour scheme."
         },
         {
           "letter": "C",
-          "text": "They may not print accurately."
+          "text": "Some people are unable to tell the two colours apart."
         }
       ],
       "answer": [
         "A"
       ],
-      "evidence": "Roughly one man in twelve can't reliably tell those two apart, and one of your judges is among them.",
+      "evidence": "The plotter is the problem: green comes off that paper so dark that it sits almost on top of the red, and one of your judges marks from the printed sheet rather than from the board, so on her copy your two lines read as one.",
       "answer_point_id": "L4-S3-12",
       "turn_index": 13,
       "distractor_analysis": {
-        "B": "Söylendi ama sorulan bu değil (çarpıtma) — jürilerden birinin kırmızıyla yeşili ayıramadığı söyleniyor; değişikliği bir jüri istemedi, danışman istiyor.",
-        "C": "Sesle hiç geçmeyen — baskı kalitesinden hiç söz edilmiyor."
+        "B": "Soylendi ama sorulan bu degil (carpitma) — juri uyelerinden biri anilir, ama renk degisikligini o istemez; degisikligi danisman ister.",
+        "C": "Sesli rakip — danisman bu gerekceyi acikca gundeme getirip reddeder: bu yilki juride renk ayirt etme sorunu olan kimse yok."
       },
-      "explanation": "The tutor wants red and green changed because roughly one man in twelve can't reliably tell the two colours apart, and one of the judges is among them.",
-      "difficulty": "easy",
-      "status": "flagged",
-      "blind_solvable": true,
-      "blind_basis": "general_knowledge",
-      "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: iki çizgi renginin neden değiştirildiği sorulurken 'bazı insanlar bunları ayırt edemiyor' renk körlüğüne dair standart tasarım uyarısı, jüri isteği ve baskı sapması ise sesten öğrenilecek tikel bilgiler.",
-      "flag_mechanism": "genel_kultur"
+      "explanation": "The tutor rejects the colour-blindness explanation outright and gives a different reason: the plotter lays green down so dark on that paper that it sits almost on top of the red, and one judge marks from the printed sheet, where the two lines then read as one.",
+      "difficulty": "hard",
+      "status": "verified",
+      "blind_solvable": false,
+      "blind_basis": null,
+      "yeniden_uretim": {
+        "tarih": "2026-08-18",
+        "uretilen_grup": "L4 coktan secmeli 24 - senaryoda sesli rakip kuruldu, secenekler yeniden yazildi",
+        "eski_prompt": "Why does the tutor want two of the line colours changed?",
+        "eski_secenekler": [
+          "Some people cannot tell them apart.",
+          "One of the judges asked for different colours.",
+          "They may not print accurately."
+        ],
+        "neden_elendi": "Genel kultur: iki cizgi renginin neden degistirildigi sorulunca 'bazi insanlar bunlari ayirt edemiyor' (renk korlugu) grafik tasarimin ders kitabi cevabi; 3/3 turda sesi dinlemeden bilindi. Secenek sozunu kapatmak yetmedi, cunku sizan sey cevabin KENDISIYDI.",
+        "ne_degisti": "Recete 3 (sesli rakip). Senaryoda tek turun (13) icinde yerinde degisiklik: danisman once beklenen gerekceyi soyleyip CURUTUYOR ('renk korlugu degil, kontrol ettim, bu yilki juride kimsenin sikintisi yok'), gercek gerekceyi sonra veriyor (plotter yesili o kagitta neredeyse siyah basiyor, bir juri uyesi basili sayfadan not veriyor). Beklenen kitabi cevap artik C secenegi olarak canli tuzak. Cevap harfi A'da tutuldu (anahtar dagilimi A-B-C korundu); kanit cumlesi, answer_point_id ve turn_index yenilendi/ayni turda kaldi. Tur sayisi 39, degismedi."
+      }
     },
     {
       "number": 25,

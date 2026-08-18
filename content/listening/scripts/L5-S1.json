@@ -8,7 +8,7 @@
   "generated_by": "opus",
   "setting": "Rehberli bir bisiklet turu icin telefonla rezervasyon",
   "context_line": "You will hear a woman telephoning a cycle tour company to book places on a guided ride.",
-  "word_count": 828,
+  "word_count": 856,
   "estimated_minutes": 5.5,
   "turn_index_base": 0,
   "speakers": [
@@ -170,7 +170,7 @@
     },
     {
       "speaker": "M1",
-      "text": "You'd be surprised. Oh — and I should mention that we don't allow trailers on this route. Children are welcome, but they ride their own bikes, and the minimum age is twelve."
+      "text": "You'd be surprised. Oh — and I should mention that we don't allow trailers on this route. Children are welcome, but they ride their own bikes, and our minimum age is fifteen — a lot of companies say twelve, but forty-two kilometres with that climb in it is too much for a twelve-year-old."
     },
     {
       "speaker": "F1",
@@ -489,11 +489,11 @@
     {
       "id": "L5-S1-21",
       "kind": "limitation",
-      "value": "minimum age 12",
-      "quote": "and the minimum age is twelve",
+      "value": "minimum age 15",
+      "quote": "our minimum age is fifteen",
       "turn_index": 34,
       "speaker": "M1",
-      "distractor": null,
+      "distractor": "12 (the age other companies set)",
       "suggested_types": [
         "form_completion",
         "short_answer"
@@ -578,5 +578,5 @@
     }
   ],
   "spatial_description": null,
-  "notes": "turn_index degerleri 0 tabanlidir. Alti celdirici duzeltme var: tarih (yirmi iki -> yirmi dokuz), kalkis saati (dokuz kirk bes -> dokuz on bes), adres (on dort -> on dort A), ucret birimi (saat basi -> gun basi/bisiklet basi), mesafe (otuz sekiz -> kirk iki), bulusma yeri (istasyon otoparki -> Waterside Depot). Harf harf soyleme bir kez var (Ferrandez). Metinde rakam yok."
+  "notes": "turn_index degerleri 0 tabanlidir. Yedi celdirici duzeltme var: tarih (yirmi iki -> yirmi dokuz), kalkis saati (dokuz kirk bes -> dokuz on bes), adres (on dort -> on dort A), ucret birimi (saat basi -> gun basi/bisiklet basi), mesafe (otuz sekiz -> kirk iki), bulusma yeri (istasyon otoparki -> Waterside Depot), en kucuk yas (on iki -> on bes). Harf harf soyleme bir kez var (Ferrandez). Metinde rakam yok."
 }
