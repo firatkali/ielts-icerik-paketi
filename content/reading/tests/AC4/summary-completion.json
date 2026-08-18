@@ -34,11 +34,11 @@
     },
     {
       "letter": "F",
-      "text": "a quiet walk"
+      "text": "20 minutes"
     },
     {
       "letter": "G",
-      "text": "half past one"
+      "text": "0.24"
     },
     {
       "letter": "H",
@@ -50,50 +50,52 @@
     },
     {
       "letter": "J",
-      "text": "a puzzle game"
+      "text": "30 minutes"
     }
   ],
   "visual": null,
-  "stem_block": "Sleep, naps and remembering word pairs\n\nTwo studies asked how well freshly learned word pairs survive either a night of sleep or a short daytime rest. In the earlier one, different volunteers were placed in a sleeping group and a waking group, while in the later one the same volunteers met both conditions on different days, each spending half an hour on (36) ........ before the final test so that grogginess would not distort it. In the earlier study one group met 80 pairs late in the evening, while the other met the same 80 pairs at (37) ........ ; one of the two groups slept before the recall test and the other did not. The naps in the later study came out shorter than the stretch of time set aside for them, running to (38) ........ and consisting largely of a lighter stage of sleep. Where the two halves of a pair were already close in meaning, the night's effect size reached 0.58 and the daytime rest's (39) ........ . Where no such link existed, the night's effect size was 0.71 and the daytime rest's (40) ........ .",
+  "stem_block": "Sleep, naps and remembering word pairs\n\nTwo studies asked how well freshly learned word pairs survive either a night of sleep or a short daytime rest. In the earlier one, different volunteers were placed in a sleeping group and a waking group, while in the later one the same volunteers met both conditions on different days, each spending (36) ........ on a puzzle game before the final test so that grogginess would not distort it. In the earlier study the two groups met the same 80 pairs at different times, and the group that had slept in between sat the recall test at (37) ........ . The naps in the later study came out shorter than the stretch of time set aside for them, running to (38) ........ and consisting largely of a lighter stage of sleep. Where the two halves of a pair were already close in meaning, the night's effect size reached 0.58 and the daytime rest's (39) ........ . Where no such link existed, the night's effect size was 0.71 and the daytime rest's (40) ........ .",
   "items": [
     {
       "number": 36,
-      "prompt": "In the earlier one, different volunteers were placed in a sleeping group and a waking group, while in the later one the same volunteers met both conditions on different days, each spending half an hour on (36) ........ before the final test so that grogginess would not distort it.",
+      "prompt": "while in the later one the same volunteers met both conditions on different days, each spending (36) ........ on a puzzle game before the final test so that grogginess would not distort it.",
       "answer": [
         "J"
       ],
       "accepted_variants": [
         "J",
-        "a puzzle game",
-        "puzzle game"
+        "30 minutes",
+        "30-minute",
+        "half an hour",
+        "thirty minutes"
       ],
       "evidence": "To reduce the grogginess that can follow a nap and distort test performance, all participants completed a 30-minute puzzle game before their final recall test.",
       "evidence_locator": {
         "paragraph": "D",
         "sentence": 3
       },
-      "explanation": "Paragraph D says all participants completed a 30-minute puzzle game before the final recall test, to reduce grogginess; so the correct option is J.",
+      "explanation": "Paragraph D says all participants completed a 30-minute puzzle game before their final recall test, to reduce grogginess; so the correct option is J.",
       "difficulty": "medium",
       "status": "verified",
       "blind_solvable": false,
       "blind_basis": null,
       "generated_by": "opus",
       "yeniden_uretim": {
-        "tarih": "2026-08-08",
-        "kaynak_prompt": "prompts/OPUS5-E6-yeniden-uretim.md (6/7)",
-        "uretilen_grup": "Tamamlama ailesi yuvalari",
-        "eski_prompt": "In the earlier one, different volunteers were placed in a sleeping group and a waking group; the later one instead used a (36) ........ design, so that the very same volunteers went through both a rest and a matching stretch of time without one.",
+        "tarih": "2026-08-18",
+        "tur": "kor olcum turu",
+        "mekanizma": "esdizim_kilidi",
+        "eski_prompt": "In the earlier one, different volunteers were placed in a sleeping group and a waking group, while in the later one the same volunteers met both conditions on different days, each spending half an hour on (36) ........ before the final test so that grogginess would not distort it.",
         "eski_cevap": [
           "J"
         ],
-        "eski_kanit_cumlesi": "The first experiment used a between-subjects design, meaning that different participants were assigned to a sleep group or a wake group, while the second used a within-subject design in which the same participants experienced both a nap and a period of wakefulness on different days, allowing more direct comparison.",
-        "neden_elendi": "Bosluk 'within-subject' terimini hedefliyor ve bu terimin Ingilizcedeki tek tanimi 'ayni katilimcilar her iki kosuldan da gecer'. Ikinci deneyi durustce anlatan her ozet bu tanimi vermek zorunda, yani tanim sizintisi cerceveden degil boslugun hedefinden geliyor. Ustelik ayni ozetteki 37. cumle ilk deneyin iki ayri gruptan olustugunu soyluyor; bankadaki karsit terim C ('between-subjects') boylece ilk deneye baglanip eleniyor ve J elemeyle cikiyor. Tanimi ozetten silmek kalan cerceveyi anlamsiz birakiyor; bankadaki C'yi degistirmek ise J'yi bankadaki tek arastirma-deseni terimi haline getirip sizintiyi buyutuyor. Tek cikis boslugu baska bir ayrintiya tasimak, o da answer'i degistirmek demek - talimat bunu yarim duzeltme sayiyor. E6 bu yuvayi B ya da D paragrafinin baska bir ayrintisina capalamali (haftada en az bir kez sekerleme yapan 34 katilimci, ya da sersemligi azaltmak icin uygulanan 30 dakikalik bulmaca).",
-        "ne_degisti": "Eski bosluk B/2'ye capaliydi ve 'within-subject' terimini hedefliyordu; cumlenin kendisi terimin tek tanimini veriyor, bankadaki karsit terim de elemeyle cikiyordu. Yeni bosluk B/2'ye hic degmiyor: kanit D/3'e, sersemligi azaltmak icin uygulanan otuz dakikalik etkinlige tasindi (E5'in onerisi). Iki desen adi da bankadan cikarildi ve ikinci deneyin tasarimi artik BOSLUKSUZ metinde anlatiliyor, yani tanim sizintisi kaynagindan kaldirildi. Bankaya iki gercek rakip eklendi ('a quiet walk', ayrica 'in the laboratory' de bu cerceveye oturuyor)."
+        "eski_kanit_cumlesi": "To reduce the grogginess that can follow a nap and distort test performance, all participants completed a 30-minute puzzle game before their final recall test.",
+        "neden_elendi": "Bagimsiz kor turda uc turun ucunde de dogru bilindi (guven ~%70). Kanal esdizim kilidiydi: bosluk 'spending half an hour ON ___' kalibinin ucuna aciliyordu ve bu kalip bir ETKINLIK, ustelik oturarak yapilan bir ugras cagiriyor. Bankadaki iki etkinlik seceneginden biri yuruyustu; 'yuruyuse yarim saat harcamak' kalibi kotu oturdugu ve sersemligi giderme gerekcesi masa basi bir ugrasi ima ettigi icin aday pasaji hic acmadan bulmaca oyununu isaretliyordu.",
+        "ne_degisti": "Kanit cumlesi (D/3) ayni kaldi ama bosluk esdizim obeginin ucundan calismanin kendi sectigi DEGERE kaydirildi: etkinlik artik cercevede acikca veriliyor, sorulan sey o etkinligin ne kadar surdugudur. Banka da buna gore degisti: iki etkinlik secenegi cikarilip dort sureye gecildi (20 dakika, 30 dakika, 64.1 dakika, 48.6 dakika). Kokun tek basina okunmasi artik tek aday uretmiyor; on bes, yirmi, otuz, kirk bes dakikanin hepsi ayni cerceveye oturuyor. Sure yuvalari da birbirini elemiyor: 36 planlanmis yuvarlak bir sure, 38 ise olculmus ondalikli bir ortalama istiyor, yani her yuvada iki gercek aday kaliyor."
       }
     },
     {
       "number": 37,
-      "prompt": "In the earlier study one group met 80 pairs late in the evening, while the other met the same 80 pairs at (37) ........ ; one of the two groups slept before the recall test and the other did not.",
+      "prompt": "In the earlier study the two groups met the same 80 pairs at different times, and the group that had slept in between sat the recall test at (37) ........ .",
       "answer": [
         "B"
       ],
@@ -101,12 +103,12 @@
         "B",
         "nine in the morning"
       ],
-      "evidence": "The wake group learned the same material at nine in the morning and were tested twelve hours later, at nine that evening, having remained awake throughout.",
+      "evidence": "The sleep group learned a list of word pairs at nine in the evening and were tested on their recall the following morning at nine, after a normal night's sleep.",
       "evidence_locator": {
         "paragraph": "C",
-        "sentence": 3
+        "sentence": 2
       },
-      "explanation": "Paragraph C says the wake group learned the same material at nine in the morning and were tested twelve hours later, at nine that evening; so the correct option is B.",
+      "explanation": "Paragraph C says the sleep group learned the word pairs at nine in the evening and were tested the following morning at nine; so the correct option is B.",
       "difficulty": "medium",
       "status": "verified",
       "blind_solvable": false,
@@ -120,7 +122,19 @@
         ],
         "eski_kanit_cumlesi": "The wake group learned the same material at nine in the morning and were tested twelve hours later, at nine that evening, having remained awake throughout.",
         "neden_elendi": "Bosluk 'remained ___ until an evening test' kalibinin ucundaydi. Uyku grubunun karsisina konan grubun uyanik kaldigini soylemek tasarimin kendi mantigi; ozeti durustce yazan her cumle bunu ima ediyor. E7 parcasiz olcumunde uc turun ucunde de dogru bilindi; dayanak logic. Cerceve nasil yazilirsa yazilsin kalibin tek doldurmasi vardi.",
-        "ne_degisti": "Bosluk ayni cumlede kalibin ucundan kaynagin sectigi SAATE kaydirildi. Ilk denemede cerceve hala 'aksam sinandi, arada uyanik kaldi' diyordu ve 2026-08-18 kor turunda parcayi hic gormeyen cozucu bunu %80 guvenle sabaha cevirdi: aksam sinanan uyanik grup zorunlu olarak sabah ogrenir. Bu yuzden cerceveden hem sinav saati hem de hangi grubun uyanik kaldigi cikarildi; ozet artik yalnizca iki gruptan birinin uyudugunu soyluyor, hangisinin uyudugunu soylemiyor. Kelime bankasina ucuncu bir saat eklendi ('eight in the morning'), boylece on iki saatlik araligi hesaplayan aday bile iki sabah saati arasinda karar veremiyor. Secim yalniz C/3'u okumaya bagli."
+        "ne_degisti": "Bosluk ayni cumlede kalibin ucundan kaynagin sectigi SAATE kaydirildi. Ilk denemede cerceve hala 'aksam sinandi, arada uyanik kaldi' diyordu ve 2026-08-18 kor turunda parcayi hic gormeyen cozucu bunu %80 guvenle sabaha cevirdi: aksam sinanan uyanik grup zorunlu olarak sabah ogrenir. Bu yuzden cerceveden hem sinav saati hem de hangi grubun uyanik kaldigi cikarildi; ozet artik yalnizca iki gruptan birinin uyudugunu soyluyor, hangisinin uyudugunu soylemiyor. Kelime bankasina ucuncu bir saat eklendi ('eight in the morning'), boylece on iki saatlik araligi hesaplayan aday bile iki sabah saati arasinda karar veremiyor. Secim yalniz C/3'u okumaya bagli.",
+        "kor_olcum_turu": {
+          "tarih": "2026-08-18",
+          "tur": "kor olcum turu",
+          "mekanizma": "mantik + secenek_sozu",
+          "eski_prompt": "In the earlier study one group met 80 pairs late in the evening, while the other met the same 80 pairs at (37) ........ ; one of the two groups slept before the recall test and the other did not.",
+          "eski_cevap": [
+            "B"
+          ],
+          "eski_kanit_cumlesi": "The wake group learned the same material at nine in the morning and were tested twelve hours later, at nine that evening, having remained awake throughout.",
+          "neden_elendi": "Bagimsiz kor turun ucunde de dogru bilindi. Kanal su: cerceve oteki grubun oturumunu 'gecenin gec saati' diye veriyordu; bankadaki iki sabah saatinden hangisinin secilecegi, aksam oturumunun dokuzda oldugu varsayimindan ve on iki saatlik standart uyku-uyaniklik tasariminin simetrisinden cikiyordu (dokuz aksam - dokuz sabah). Aday pasaji hic acmadan 'dokuz' diyordu.",
+          "ne_degisti": "Kanit ayni pasajin C/2 cumlesine tasindi ve bosluk artik uyanik grubun ogrenme saatini degil, UYUYAN grubun hatirlama sinavina girdigi saati soruyor. Cerceveden 'gecenin gec saati' ifadesi ve on iki saatlik aralik tumuyle cikarildi; ozet yalnizca iki grubun gununun ayri saatlerinde calistigini soyluyor. Simetri zinciri boylece koptu: geriye kalan iki sabah saati (sekiz ve dokuz) arasinda karar vermenin pasaj disi bir yolu kalmadi. Yeniden olcumde iki bagimsiz cozucu de uc turda tutturamadi."
+        }
       }
     },
     {
@@ -171,7 +185,7 @@
         "paragraph": "E",
         "sentence": 2
       },
-      "explanation": "Paragraph E gives an effect size of 0.58 for nocturnal sleep and 0.15 for napping with semantically related word pairs; so the correct option is E.",
+      "explanation": "Paragraph E gives an effect size of 0.58 for nocturnal sleep and only 0.15 for napping with semantically related word pairs; so the correct option is E.",
       "difficulty": "medium",
       "status": "verified",
       "blind_solvable": false,
@@ -185,7 +199,19 @@
         ],
         "eski_kanit_cumlesi": "For unrelated word pairs, however, nocturnal sleep and napping produced very similar benefits, with effect sizes of 0.71 and 0.68 respectively, showing that a nap could match a full night's sleep when the material being learned had no prior connection to existing knowledge.",
         "neden_elendi": "Bosluk 'the picture changed' karsitliginin ucundaydi: bir onceki cumle gece uykusunun cok daha iyi oldugunu soyledigi icin, 'tablo degisti' dendiginde geriye tek anlamli doldurma kaliyordu ('equal benefits'). Karar pasajdan degil ozetin kendi ic mantigindan cikiyordu. E7 parcasiz olcumunde uc turun ucunde de dogru bilindi; dayanak logic.",
-        "ne_degisti": "Kanit ayni pasajin E/2 cumlesine tasindi ve bosluk artik calismanin kendi olctugu sayiya aciliyor (etki buyuklugu). Ozetteki karsitlik cumleleri kaldirildi; iki cerceve de ayni bicimde, yalnizca gece degerini vererek gunduz degerini soruyor. Bankada uc ondalikli deger var (0.70, 0.15, 0.68); yakinlik sezgisiyle secen aday bu kalemde yanlisa gidiyor, cunku 0.58'e en yakin degerler yanlis olanlar."
+        "ne_degisti": "Kanit ayni pasajin E/2 cumlesine tasindi ve bosluk artik calismanin kendi olctugu sayiya aciliyor (etki buyuklugu). Ozetteki karsitlik cumleleri kaldirildi; iki cerceve de ayni bicimde, yalnizca gece degerini vererek gunduz degerini soruyor. Bankada uc ondalikli deger var (0.70, 0.15, 0.68); yakinlik sezgisiyle secen aday bu kalemde yanlisa gidiyor, cunku 0.58'e en yakin degerler yanlis olanlar.",
+        "kor_olcum_turu": {
+          "tarih": "2026-08-18",
+          "tur": "kor olcum turu",
+          "mekanizma": "secenek_sozu (banka bilesimi)",
+          "eski_prompt": "Where the two halves of a pair were already close in meaning, the night's effect size reached 0.58 and the daytime rest's (39) ........ .",
+          "eski_cevap": [
+            "E"
+          ],
+          "eski_kanit_cumlesi": "For semantically related word pairs, nocturnal sleep produced a substantially larger improvement in recall than daytime napping did, with a standardised effect size of 0.58 compared with only 0.15 for napping.",
+          "neden_elendi": "Bagimsiz kor turun ucunde de dogru bilindi. Kanal bankanin bilesimiydi: uc ondalikli degerin (0.70, 0.15, 0.68) yalnizca biri kucuktu. Gunduz dinlenmesinin gece uykusundan zayif kaldigi sezgisi 39. yuvaya kucuk degeri; 0.71'e yakin iki buyuk deger ise 40. yuvaya dogru itiyordu. Yani karar pasajdan degil, bankadaki tek kucuk degerin elenmeyle kalmasindan cikiyordu.",
+          "ne_degisti": "Yuva, kanit cumlesi ve cevap degismedi; sizdiran sey bankaydi, banka degisti. Ise yaramayan afternoon capasi ('half past one') cikarilip yerine IKINCI bir kucuk etki buyuklugu konuldu (0.24). Artik kucuk degerler iki tane; 'gunduz dinlenmesi zayiftir' sezgisi bandi daraltiyor ama sayiyi vermiyor, secim yalniz E/2'yi okumaya bagli. Ayni degisiklik 40. yuvanin elemeyle cozulmesini de kapatiyor."
+        }
       }
     },
     {

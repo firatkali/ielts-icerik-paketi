@@ -55,20 +55,20 @@
     },
     {
       "number": 24,
-      "prompt": "Of the four, this one puts the fewest questions to participants, two fewer than the next shortest.",
+      "prompt": "Of the four, this is the only one for which the writer never reports an increase anywhere in the study.",
       "answer": [
         "D"
       ],
-      "evidence": "A six-item Restorative Outcome Scale assessed how mentally refreshing participants found the environment, and a four-item Subjective Vitality Scale measured their sense of energy.",
+      "evidence": "All five of the same negative mood indicators increased significantly, positive emotions on the broader affect scale fell while negative emotions rose, subjective vitality declined, and restorativeness scores dropped by roughly half compared with their level before the exposure, suggesting that even a calm, traffic-free campus scene was mildly draining relative to a walk in the snow.",
       "evidence_locator": {
-        "paragraph": "E",
-        "sentence": 4
+        "paragraph": "G",
+        "sentence": 2
       },
       "heading_check": null,
-      "feature_check": "Karistirilabilecek oge C: ayni cumlede gecen dinlendiricilik olcegi de kisa, alti maddelik; olceklerin adlari uzunluk hakkinda hicbir sey soylemedigi icin 'en kisa hangisi' sezgisi bu ikisi arasinda bolunuyor. Ayrim iki sayida: alti maddeye karsi dort madde, yani fark tam iki madde. A ve B elenir; E/2 ve E/3 onlari altmis bes ve yirmi madde olarak veriyor, ikisi de dortten uzun.",
+      "feature_check": "Karistirilabilecek oge A: alan bilgisi A'yi 'duygu bozuklugu' olcegi sayar ve doga calismalarinda hep dusen taraf olarak bekler, bu yuzden sezgi once oraya gidiyor. Ama G/2 A icin acik bir artis veriyor: bes olumsuz gosterge kampus oturumundan sonra anlamli bicimde YUKSELDI. B de ayni cumlede yukseliyor (olumsuz duygular artti). C ise F/3'te ormandan sonra keskin bicimde yukseliyor. Geriye yalniz D kaliyor: ormandan sonra enerjide bir sicrama YOK (F/3), kampusten sonra dusuyor (G/2); pasajin hicbir yerinde yukselmis olarak gecmiyor.",
       "grammar_check": null,
-      "explanation": "Paragraph E gives the Subjective Vitality Scale four items and the Restorative Outcome Scale six, so it is the shortest of the four instruments, by two items.",
-      "difficulty": "medium",
+      "explanation": "Paragraph G reports increases for three of the instruments after the campus session and paragraph F reports a sharp rise in the Restorative Outcome Scale after the forest, but subjective vitality is only ever reported as failing to rise or declining.",
+      "difficulty": "hard",
       "status": "verified",
       "blind_solvable": false,
       "blind_basis": null,
@@ -83,23 +83,35 @@
         ],
         "eski_kanit_cumlesi": "After the forest exposure, five of the six negative mood states measured by the Profile of Mood States, tension-anxiety, anger-hostility, depression-dejection, fatigue and confusion, all decreased significantly.",
         "neden_elendi": "Sorunun ekseni psikolojik olcme araclari genel bilgisi: Profile of Mood States'in alti ayri duygu boyutu olctugu yaygin bilinen bir bilgi ve ifadedeki 'olculen hos olmayan durumlarin cogu' kaydi altidan bese dogal olarak oturuyor. Kanit cumlesi (F/1) 'alti olumsuz duygu durumundan besi' kalibini tasidigi icin, ifade nasil yazilirsa yazilsin ayni arac bilgisine geri donuyor.",
-        "ne_degisti": "Eski soru F/1'e dayaniyordu: alti olumsuz duygu durumundan besinin orman sonrasi anlamli bicimde dusmesi. Profile of Mood States'in alti duygu boyutu olctugu psikolojide yaygin bilinen bir bilgi oldugu icin 'olculen hos olmayan durumlarin cogu' kaydi pasajsiz da o araca oturuyordu. Yeni kanit E/4'e tasindi ve eksen olcegin NE OLCTUGUNDEN kac maddeden olustuguna gecti; madde sayilari (alti ve dort) disaridan bilinemez, araclarin adlari da uzunluk hakkinda hicbir sey soylemez. Kip: ifade mutlak ('the fewest ... of the four')."
+        "ne_degisti": "Eski soru F/1'e dayaniyordu: alti olumsuz duygu durumundan besinin orman sonrasi anlamli bicimde dusmesi. Profile of Mood States'in alti duygu boyutu olctugu psikolojide yaygin bilinen bir bilgi oldugu icin 'olculen hos olmayan durumlarin cogu' kaydi pasajsiz da o araca oturuyordu. Yeni kanit E/4'e tasindi ve eksen olcegin NE OLCTUGUNDEN kac maddeden olustuguna gecti; madde sayilari (alti ve dort) disaridan bilinemez, araclarin adlari da uzunluk hakkinda hicbir sey soylemez. Kip: ifade mutlak ('the fewest ... of the four').",
+        "kor_olcum_turu": {
+          "tarih": "2026-08-18",
+          "tur": "kor olcum turu",
+          "mekanizma": "genel_kultur (kamuya acik sabit)",
+          "eski_prompt": "Of the four, this one puts the fewest questions to participants, two fewer than the next shortest.",
+          "eski_cevap": [
+            "D"
+          ],
+          "eski_kanit_cumlesi": "A six-item Restorative Outcome Scale assessed how mentally refreshing participants found the environment, and a four-item Subjective Vitality Scale measured their sense of energy.",
+          "neden_elendi": "Iki ayri gerekce. (1) Olcum: dort bagimsiz kor turun ikisinde uc turun ucunde de dogru bilindi. Kanal olceklerin GERCEK madde sayilariydi; bu sayilar alan yazininda kamuya acik sabitler oldugu icin iki secenek soru okunur okunmaz eleniyordu, geriye kalan ikisi arasindan da kisa olan tahmin ediliyordu. (2) Kural: cevap calismanin kendi sectigi bir degere dayanmali, alan yazinindan bilinen bir sabite degil. Pasajin dort maddelik degeri uydurma olsa bile, kalemin AYIRT EDICI mantigi hala kamuya acik sayilarin uzerinde yuruyordu.",
+          "ne_degisti": "Kanit ayni pasajin G/2 cumlesine tasindi ve karar noktasi madde sayilarindan calismanin kendi olctugu HAREKET YONUNE cevrildi: dort olcekten yalnizca biri pasajin hicbir yerinde yukselmis olarak gecmiyor. Madde sayisi kaleme hic girmedigi icin kamuya acik sabit kanali tamamen kapandi. Genel kultur artik yanlis siga capaliyor: alan bilgisi olan cozucu A'yi 'duygu bozuklugu olcegidir, doga calismasinda hep duser' diye isaretliyor, oysa pasaj A icin kampus sonrasinda acik bir ARTIS veriyor (G/2). Yeniden olcumde pasaji gormeyen cozucu uc turun ucunde de A dedi, yani sifir dogru."
+        }
       }
     },
     {
       "number": 25,
-      "prompt": "The gap between this one and the shortest of the four comes to exactly sixty-one questions.",
+      "prompt": "The researchers use the snow to account for one unexpected reading on this one.",
       "answer": [
         "A"
       ],
-      "evidence": "The Profile of Mood States, a 65-item scale, measured six mood dimensions including tension, anger, depression, fatigue, confusion and vigour.",
+      "evidence": "The researchers suggest that snow itself may partly explain why vigour failed to rise after the forest visit, since a thick covering of snow hides the green vegetation that other studies have linked to increased energy and alertness, leaving only the calming, restorative effect intact rather than the more energising one.",
       "evidence_locator": {
-        "paragraph": "E",
-        "sentence": 2
+        "paragraph": "H",
+        "sentence": 1
       },
-      "feature_check": "Alan bilgisiyle secen aday burada yanlis sayiya variyor. Gercek dunyada bu olceklerin en kisasi dort degil alti-yedi maddeliktir; o sayilarla fark altmis bir degil elli dokuz ya da elli sekiz cikar ve aday A'yi eler. Altmis bir farki yalniz PASAJIN verdigi iki sayi uretiyor: altmis bes madde ile dort madde. B ile en kisasi arasindaki fark on alti, C ile arasindaki fark iki; D zaten kiyasin kendisi. Karar E/2 ile E/4'u birlikte okumaya bagli.",
+      "feature_check": "Karistirilabilecek oge D: ormandan sonra yukselmeyen sey enerjiydi ve D'nin adi dogrudan dinclik diyor, bu yuzden sezgi once oraya gidiyor. Ama H/1'in adlandirdigi okuma 'vigour' ve E/2 vigour'u A'nin olctugu alti boyuttan biri olarak sayiyor; D tek bir yapiyi olcuyor, 'okumalarindan biri' tarifi ona oturmuyor. C ormandan sonra keskin bicimde yukseldi, yani beklenmedik bir okuma uretmedi; B icin ormandan sonra hicbir sonuc verilmiyor. Karar H/1 ile E/2'yi birlikte okumaya bagli.",
       "grammar_check": null,
-      "explanation": "Paragraph E gives the Profile of Mood States as a 65-item scale and the Subjective Vitality Scale as a four-item one; the difference between them is sixty-one questions, and no other pairing in the passage produces that figure.",
+      "explanation": "Paragraph H says the snow may explain why vigour failed to rise after the forest visit, and paragraph E lists vigour among the six mood dimensions measured by the Profile of Mood States.",
       "difficulty": "hard",
       "status": "verified",
       "blind_solvable": false,
@@ -113,23 +125,35 @@
         ],
         "eski_kanit_cumlesi": "All five of the same negative mood indicators increased significantly, positive emotions on the broader affect scale fell while negative emotions rose, subjective vitality declined, and restorativeness scores dropped by roughly half compared with their level before the exposure, suggesting that even a calm, traffic-free campus scene was mildly draining relative to a walk in the snow.",
         "neden_elendi": "Cevap tek bir cumlede eleme yaparak buluniyordu: ayni cumlede dusen iki olcekten (D ve C) yalniz birine sayi verildigi icin, aday olcekleri tanimadan 'sayi hangisinde varsa o' diyerek isaretleyebiliyordu. Ustelik dort kalemin cevap dizisi C, D, C, B idi; C iki kez kullaniliyor, A hic kullanilmiyordu.",
-        "ne_degisti": "Kalem ayni pasajin E/2 cumlesine tasindi ve karar noktasi olcegin ICERIGINDEN (hangi duygu boyutlarini kapsadigi) pasajin verdigi iki sayinin FARKINA cevrildi. Gerekce 2026-08-18'de yaptigim iki kor tur: (1) icerik uzerinden kurulan surumu parcayi hic gormeyen cozucu %65 guvenle bildi, cunku bu olceklerin gercek dunyadaki alt boyutlarini biliyor; (2) 'on alti katindan fazla' bicimindeki oran surumu %78'e cikardi, cunku oran dogrudan en uzun olcege isaret ediyordu. Son surumde belirleyici sayi pasajin sectigi ve gercek olcekle ORTUSMEYEN degerden geliyor: metin en kisa olcegi dort maddelik gosteriyor, gercekte alti-yedi maddelik; alan bilgisiyle hesap yapan aday altmis bir farkini bulamiyor. Cevap dizisi de C, D, A, D oldu; artik tek harf ust uste gelmiyor ve A dizinin icine girdi. Kalan risk raporda ayrica belirtildi: dort secenek de gercek, belgelenmis olcek adi tasidigi icin bu tipte dunya bilgisi kanali tamamen kapanmiyor."
+        "ne_degisti": "Kalem ayni pasajin E/2 cumlesine tasindi ve karar noktasi olcegin ICERIGINDEN (hangi duygu boyutlarini kapsadigi) pasajin verdigi iki sayinin FARKINA cevrildi. Gerekce 2026-08-18'de yaptigim iki kor tur: (1) icerik uzerinden kurulan surumu parcayi hic gormeyen cozucu %65 guvenle bildi, cunku bu olceklerin gercek dunyadaki alt boyutlarini biliyor; (2) 'on alti katindan fazla' bicimindeki oran surumu %78'e cikardi, cunku oran dogrudan en uzun olcege isaret ediyordu. Son surumde belirleyici sayi pasajin sectigi ve gercek olcekle ORTUSMEYEN degerden geliyor: metin en kisa olcegi dort maddelik gosteriyor, gercekte alti-yedi maddelik; alan bilgisiyle hesap yapan aday altmis bir farkini bulamiyor. Cevap dizisi de C, D, A, D oldu; artik tek harf ust uste gelmiyor ve A dizinin icine girdi. Kalan risk raporda ayrica belirtildi: dort secenek de gercek, belgelenmis olcek adi tasidigi icin bu tipte dunya bilgisi kanali tamamen kapanmiyor.",
+        "kor_olcum_turu": {
+          "tarih": "2026-08-18",
+          "tur": "kor olcum turu",
+          "mekanizma": "genel_kultur",
+          "eski_prompt": "The gap between this one and the shortest of the four comes to exactly sixty-one questions.",
+          "eski_cevap": [
+            "A"
+          ],
+          "eski_kanit_cumlesi": "The Profile of Mood States, a 65-item scale, measured six mood dimensions including tension, anger, depression, fatigue, confusion and vigour.",
+          "neden_elendi": "Bagimsiz kor turun ucunde de dogru bilindi. Onceki turun kendi notu bu riski zaten yaziyordu ama kapanmamis: 'altmis bir soruluk fark' gibi BUYUK bir aralik, dort olcekten yalnizca en uzun olanini isaret edebilir. Aday sayilari bilmese bile 'fark altmis biriyse taraflardan biri cok uzun olmali' diyerek uzun olcegi seciyor; pasajin sectigi dort maddelik degerin gercek dunyayla celismesi bu kanali kapatmiyor, cunku aritmetigi yapmaya gerek kalmiyor.",
+          "ne_degisti": "Kanit ayni pasajin H/1 cumlesine tasindi ve karar noktasi madde sayisindan arastirmacilarin KENDI aciklamasina cevrildi: kar, ormandan sonra yukselmeyen tek okumanin gerekcesi olarak sunuluyor. Genel kultur artik yanlis siga capalaniyor: 'ormanda yukselmeyen sey enerjiydi' sezgisi dogrudan D'ye (oznel dinclik) gidiyor, oysa H/1'in adlandirdigi 'vigour' E/2'de A'nin alt boyutlarindan biri olarak sayiliyor. Yeniden olcumde iki bagimsiz cozucu de A'yi bulamadi; biri uc turun ucunde de B dedi."
+        }
       }
     },
     {
       "number": 26,
-      "prompt": "It went down after the campus session, having failed to go up after the forest one.",
+      "prompt": "The writer describes this one as covering emotional states in broader terms.",
       "answer": [
-        "D"
+        "B"
       ],
-      "evidence": "All five of the same negative mood indicators increased significantly, positive emotions on the broader affect scale fell while negative emotions rose, subjective vitality declined, and restorativeness scores dropped by roughly half compared with their level before the exposure, suggesting that even a calm, traffic-free campus scene was mildly draining relative to a walk in the snow.",
+      "evidence": "The Positive and Negative Affect Schedule, a shorter 20-item scale, captured broader positive and negative emotional states.",
       "evidence_locator": {
-        "paragraph": "G",
-        "sentence": 2
+        "paragraph": "E",
+        "sentence": 3
       },
-      "feature_check": "Karistirilabilecek oge C: kampus oturumundan sonra o da dustu, hatta dususunun buyuklugu verilen tek olcek o. Ama sorunun ikinci yarisi C'yi eliyor: C ormandan sonra keskin bicimde YUKSELDI (F/3), yani 'yukselmeyi basaramadi' tarifi ona uymuyor. A kampusten sonra dusmedi, arttı (olumsuz gostergeler yukseldi); B icin iki yonlu bir hareket veriliyor, tek bir dusus degil. Geriye yalniz D kaliyor: ormandan sonra enerjide bir siçrama olmadigi F/3'te, kampusten sonraki dusus G/2'de.",
+      "feature_check": "Karistirilabilecek oge A: adi dogrudan duygu durumlari dedigi icin 'duygu durumlarini kapsayan olcek' tarifi once ona gidiyor. Ama E/2 A'yi alti AYRI boyutu (gerginlik, ofke, cokkunluk, yorgunluk, karisiklik, dinclik) olcen olcek diye tanitiyor, yani daha dar ve ayrintili; 'daha genis' nitelemesini pasaj yalnizca B icin kullaniyor. C ve D birer tek yapiyi olcuyor (dinlendiricilik ve enerji), genislik iddiasi onlar icin hic kurulmuyor.",
       "grammar_check": null,
-      "explanation": "Paragraph F says the forest produced no accompanying jump in energy, and paragraph G says subjective vitality declined after the campus session; the Restorative Outcome Scale, by contrast, rose sharply after the forest.",
+      "explanation": "Paragraph E describes the Positive and Negative Affect Schedule as capturing broader positive and negative emotional states, in contrast to the six specific mood dimensions of the Profile of Mood States.",
       "difficulty": "hard",
       "status": "verified",
       "blind_solvable": false,
@@ -143,7 +167,19 @@
         ],
         "eski_kanit_cumlesi": "The Positive and Negative Affect Schedule, a shorter 20-item scale, captured broader positive and negative emotional states.",
         "neden_elendi": "Kalem olceklerin madde sayilarina dayaniyordu; oysa bu sayilar pasajin sectigi degerler degil, olceklerin gercek dunyadaki kunyeleri (PANAS 20, POMS 65, ROS 6). E7 parcasiz olcumunde uc turun ucunde de dogru bilindi; dayanak general_knowledge. Ayrica B secenegi (Positive and Negative Affect Schedule) adinda kendi icerigini tasidigi icin, iceriginden yola cikan her soru secenek sozu sizintisi uretiyordu; bu yuzden yuva B'den cikarildi.",
-        "ne_degisti": "Kanit ayni pasajin G/2 cumlesine tasindi ve hedef madde sayisindan calismanin kendi olctugu iki yonlu hareket tablosuna cevrildi. Ayrimi yapmak icin F/3 ile G/2'yi birlikte okumak gerekiyor: kampusten sonra dusen iki olcekten biri (C) ormandan sonra keskin bicimde yukselmisti, digeri (D) yukselmemisti. Hicbir asamada olcegin adi ya da alan bilgisi yardim etmiyor."
+        "ne_degisti": "Kanit ayni pasajin G/2 cumlesine tasindi ve hedef madde sayisindan calismanin kendi olctugu iki yonlu hareket tablosuna cevrildi. Ayrimi yapmak icin F/3 ile G/2'yi birlikte okumak gerekiyor: kampusten sonra dusen iki olcekten biri (C) ormandan sonra keskin bicimde yukselmisti, digeri (D) yukselmemisti. Hicbir asamada olcegin adi ya da alan bilgisi yardim etmiyor.",
+        "kor_olcum_turu": {
+          "tarih": "2026-08-18",
+          "tur": "kor olcum turu",
+          "mekanizma": "secenek_sozu",
+          "eski_prompt": "It went down after the campus session, having failed to go up after the forest one.",
+          "eski_cevap": [
+            "D"
+          ],
+          "eski_kanit_cumlesi": "All five of the same negative mood indicators increased significantly, positive emotions on the broader affect scale fell while negative emotions rose, subjective vitality declined, and restorativeness scores dropped by roughly half compared with their level before the exposure, suggesting that even a calm, traffic-free campus scene was mildly draining relative to a walk in the snow.",
+          "neden_elendi": "Bagimsiz kor turun ucunde de dogru bilindi. Kanal secenegin kendi adiydi: kalem 'ormandan sonra yukselmedi, kampusten sonra dustu' diyerek dogrudan ENERJI kavramini cagiriyor ve dort secenekten yalnizca birinin adi dinclik diyor. Aday olceklerin sonuclarini hic okumadan, yalnizca adlardan D'yi isaretleyebiliyordu.",
+          "ne_degisti": "Kanit ayni pasajin E/3 cumlesine tasindi ve hedef, sonuclarin yonu yerine yazarin olcegi nasil tanittigi oldu: pasaj bu olcegi duygu durumlarini daha GENIS terimlerle kapsayan olcek diye tanimliyor. Kalem artik hicbir sonuc yonu icermedigi icin 'enerji -> dinclik' kestirmesi is gormuyor; ustelik 'duygu durumu' ifadesi A'nin adiyla ortustugu icin sezgi yanlis siga, A'ya kayiyor. Yeniden olcumde iki bagimsiz cozucu de uc turda tutturamadi (ikisinde de bir tur A'ya dustu)."
+        }
       }
     }
   ]
