@@ -43,6 +43,22 @@ def normalize(s):
     return re.sub(r"\s+", " ", s).strip()
 
 
+SABIT_CEVAPLAR = {"true", "false", "not given", "yes", "no"}
+YAYGIN_ESIK = 3  # aday dizgi bu kadar FARKLI pakette geciyorsa ayirt edici degil
+
+
+def normalize_prompt(s):
+    """Kok metnini normalize eder, ama once bosluk isaretlerini atar.
+
+    Bunlar olmadan `(11) ........ per cent` normalize edilince `11 per cent`
+    oluyordu ve bosluk NUMARASI sanki metinde gecen bir deger gibi eslesiyordu
+    (2026-08-18'de olculdu: 32 kok cakismasinin biri tam bu artefakt).
+    """
+    s = re.sub(r"\(\s*\d+\s*\)", " ", s or "")
+    s = re.sub(r"\.{3,}", " ", s)
+    return normalize(s)
+
+
 def kalemler(dosya, skill):
     d = ortak.oku(dosya)
     if d.get("skill") != skill:
@@ -139,7 +155,7 @@ def adaylar(it):
 def kok_cakismasi(skill, kalemler_):
     hedefler = []
     for it in kalemler_:
-        hedefler.append((it, normalize(it["prompt"])))
+        hedefler.append((it, normalize_prompt(it["prompt"])))
 
     sonuc = []
     for cevap_sahibi in kalemler_:
@@ -168,8 +184,40 @@ def kok_cakismasi(skill, kalemler_):
                         "sizdiran_prompt": hedef["prompt"],
                         "eslesme_uzunlugu": len(aday_norm),
                     })
-    sonuc.sort(key=lambda x: -x["eslesme_uzunlugu"])
-    return sonuc
+    # --- ayirt edicilik filtresi (2026-08-18) --------------------------------
+    # Ham tarama, "TRUE" ya da "five" gibi dizgilerde kaciniImaz olarak yanlis
+    # pozitif uretiyor: bir sorunun kokunde "five" gecmesi, baska bir sorunun
+    # cevabinin five oldugunu ele vermez. Iki kural eliyor:
+    #   1) cevap sabit sozlukten geliyorsa (TRUE/FALSE/NOT GIVEN/YES/NO),
+    #   2) dizgi havuzdaki >= YAYGIN_ESIK farkli pakette geciyorsa.
+    # Elenenler silinmiyor, ayri listede gerekceleriyle raporlaniyor.
+    paket_sayisi = {}
+    for kayit in sonuc:
+        aday_norm = normalize(kayit["cevap_dizgi"])
+        if aday_norm in paket_sayisi:
+            continue
+        desen2 = re.compile(r"(?<!\w)" + re.escape(aday_norm) + r"(?!\w)", re.UNICODE)
+        paket_sayisi[aday_norm] = len({
+            h["paket"] for h, hn in hedefler if hn and desen2.search(hn)
+        })
+
+    gercek, elenen = [], []
+    for kayit in sonuc:
+        aday_norm = normalize(kayit["cevap_dizgi"])
+        n = paket_sayisi.get(aday_norm, 0)
+        kayit["gectigi_paket_sayisi"] = n
+        if aday_norm in SABIT_CEVAPLAR:
+            kayit["eleme_nedeni"] = "sabit sozluk cevabi (TRUE/FALSE/NOT GIVEN/YES/NO)"
+            elenen.append(kayit)
+        elif n >= YAYGIN_ESIK:
+            kayit["eleme_nedeni"] = "yaygin dizgi: %d farkli pakette geciyor" % n
+            elenen.append(kayit)
+        else:
+            gercek.append(kayit)
+
+    gercek.sort(key=lambda x: -x["eslesme_uzunlugu"])
+    elenen.sort(key=lambda x: -x["eslesme_uzunlugu"])
+    return gercek, elenen
 
 
 def yon_etiketi(kayit):
@@ -247,8 +295,8 @@ def main():
     kanit_okuma = kanit_cakismasi(okuma)
     kanit_dinleme = kanit_cakismasi(dinleme)
 
-    kok_okuma = kok_cakismasi("reading", okuma)
-    kok_dinleme = kok_cakismasi("listening", dinleme)
+    kok_okuma, kok_okuma_elenen = kok_cakismasi("reading", okuma)
+    kok_dinleme, kok_dinleme_elenen = kok_cakismasi("listening", dinleme)
 
     pasaj_okuma = pasaj_paylasimi(okuma)
     pasaj_dinleme = pasaj_paylasimi(dinleme)
@@ -275,12 +323,14 @@ def main():
         "ozet": {
             "kanit_cakismasi": {"okuma": len(kanit_okuma), "dinleme": len(kanit_dinleme)},
             "kok_cakismasi": {"okuma": len(kok_okuma), "dinleme": len(kok_dinleme)},
+            "kok_cakismasi_elenen": {"okuma": len(kok_okuma_elenen), "dinleme": len(kok_dinleme_elenen)},
             "pasaj_senaryo_payi": {"okuma": len(pasaj_okuma), "dinleme": len(pasaj_dinleme)},
             "alistirma_sorusu_test_cevabi_veren_kalem": {"okuma": az_okuma, "dinleme": az_dinleme},
         },
         "kok_yon_dagilimi": {"okuma": yon_dagilimi(kok_okuma), "dinleme": yon_dagilimi(kok_dinleme)},
         "kanit_cakismasi": {"okuma": kanit_okuma, "dinleme": kanit_dinleme},
         "kok_cakismasi": {"okuma": kok_okuma, "dinleme": kok_dinleme},
+        "kok_cakismasi_elenen": {"okuma": kok_okuma_elenen, "dinleme": kok_dinleme_elenen},
         "pasaj_senaryo_payi": {"okuma": pasaj_okuma, "dinleme": pasaj_dinleme},
         "en_agir_10": en_agir,
         "icloud_kopyalari_denetim": icloud_kopyalari(),
