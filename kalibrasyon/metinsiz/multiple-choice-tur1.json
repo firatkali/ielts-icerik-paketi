@@ -1,43 +1,219 @@
 {
   "tur": 1,
   "paket": "multiple-choice",
-  "note": "Parca ve cevap anahtari gorulmeden verildi.",
+  "note": "Bagimsiz kor olcum - parca ve cevap anahtari gorulmeden verildi (2026-08-18).",
   "answers": [
-    { "id": "practice-multiple-choice-1", "answer": ["B"], "basis": "general_knowledge" },
-    { "id": "practice-multiple-choice-2", "answer": ["A"], "basis": "logic" },
-    { "id": "practice-multiple-choice-3-4", "answer": ["C", "F"], "basis": "option_wording" },
-    { "id": "practice-multiple-choice-5", "answer": ["B"], "basis": "option_wording" },
-    { "id": "practice-multiple-choice-6", "answer": ["D"], "basis": "general_knowledge" },
-    { "id": "practice-multiple-choice-7-8", "answer": ["C", "F"], "basis": "option_wording" },
-    { "id": "practice-multiple-choice-9-10", "answer": ["B", "E"], "basis": "general_knowledge" },
-    { "id": "practice-multiple-choice-11", "answer": ["D"], "basis": "general_knowledge" },
-    { "id": "practice-multiple-choice-12", "answer": ["C"], "basis": "logic" },
-    { "id": "practice-multiple-choice-13", "answer": ["A"], "basis": "general_knowledge" },
-    { "id": "practice-multiple-choice-14", "answer": ["C"], "basis": "logic" },
-    { "id": "practice-multiple-choice-15", "answer": ["D"], "basis": "option_wording" },
-
-    { "id": "AC1-multiple-choice-32", "answer": ["B"], "basis": "general_knowledge" },
-    { "id": "AC1-multiple-choice-33", "answer": ["A"], "basis": "option_wording" },
-    { "id": "AC1-multiple-choice-34-35", "answer": ["C", "F"], "basis": "general_knowledge" },
-
-    { "id": "AC2-multiple-choice-32", "answer": ["B"], "basis": "logic" },
-    { "id": "AC2-multiple-choice-33", "answer": ["D"], "basis": "logic" },
-    { "id": "AC2-multiple-choice-34-35", "answer": ["C", "F"], "basis": "logic" },
-
-    { "id": "AC3-multiple-choice-32", "answer": ["B"], "basis": "general_knowledge" },
-    { "id": "AC3-multiple-choice-33", "answer": ["C"], "basis": "logic" },
-    { "id": "AC3-multiple-choice-34-35", "answer": ["B", "F"], "basis": "general_knowledge" },
-
-    { "id": "AC4-multiple-choice-32", "answer": ["C"], "basis": "option_wording" },
-    { "id": "AC4-multiple-choice-33", "answer": ["B"], "basis": "general_knowledge" },
-    { "id": "AC4-multiple-choice-34-35", "answer": ["C", "E"], "basis": "general_knowledge" },
-
-    { "id": "GT1-multiple-choice-21", "answer": ["A"], "basis": "logic" },
-    { "id": "GT1-multiple-choice-22", "answer": ["C"], "basis": "general_knowledge" },
-    { "id": "GT1-multiple-choice-23-24", "answer": ["B", "E"], "basis": "general_knowledge" },
-
-    { "id": "GT2-multiple-choice-21", "answer": ["C"], "basis": "option_wording" },
-    { "id": "GT2-multiple-choice-22", "answer": ["A"], "basis": "option_wording" },
-    { "id": "GT2-multiple-choice-23-24", "answer": ["B", "D"], "basis": "general_knowledge" }
+    {
+      "id": "practice-multiple-choice-1",
+      "answer": [
+        "A"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "practice-multiple-choice-2",
+      "answer": [
+        "A"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "practice-multiple-choice-3-4",
+      "answer": [
+        "A"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "practice-multiple-choice-5",
+      "answer": [
+        "A"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "practice-multiple-choice-6",
+      "answer": [
+        "A"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "practice-multiple-choice-7-8",
+      "answer": [
+        "A"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "practice-multiple-choice-9-10",
+      "answer": [
+        "A"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "practice-multiple-choice-11",
+      "answer": [
+        "C"
+      ],
+      "basis": "reasoning"
+    },
+    {
+      "id": "practice-multiple-choice-12",
+      "answer": [
+        "D"
+      ],
+      "basis": "reasoning"
+    },
+    {
+      "id": "practice-multiple-choice-13",
+      "answer": [
+        "A"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "practice-multiple-choice-14",
+      "answer": [
+        "A"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "practice-multiple-choice-15",
+      "answer": [
+        "C"
+      ],
+      "basis": "reasoning"
+    },
+    {
+      "id": "AC1-multiple-choice-32",
+      "answer": [
+        "C"
+      ],
+      "basis": "reasoning"
+    },
+    {
+      "id": "AC1-multiple-choice-33",
+      "answer": [
+        "A"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "AC1-multiple-choice-34-35",
+      "answer": [
+        "A"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "AC2-multiple-choice-32",
+      "answer": [
+        "A"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "AC2-multiple-choice-33",
+      "answer": [
+        "A"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "AC2-multiple-choice-34-35",
+      "answer": [
+        "A",
+        "F"
+      ],
+      "basis": "reasoning"
+    },
+    {
+      "id": "AC3-multiple-choice-32",
+      "answer": [
+        "D"
+      ],
+      "basis": "reasoning"
+    },
+    {
+      "id": "AC3-multiple-choice-33",
+      "answer": [
+        "A"
+      ],
+      "basis": "reasoning"
+    },
+    {
+      "id": "AC3-multiple-choice-34-35",
+      "answer": [
+        "E",
+        "F"
+      ],
+      "basis": "reasoning"
+    },
+    {
+      "id": "AC4-multiple-choice-32",
+      "answer": [
+        "D"
+      ],
+      "basis": "reasoning"
+    },
+    {
+      "id": "AC4-multiple-choice-33",
+      "answer": [
+        "A"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "AC4-multiple-choice-34-35",
+      "answer": [
+        "A"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "GT1-multiple-choice-21",
+      "answer": [
+        "A"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "GT1-multiple-choice-22",
+      "answer": [
+        "A"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "GT1-multiple-choice-23-24",
+      "answer": [
+        "A"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "GT2-multiple-choice-21",
+      "answer": [
+        "A"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "GT2-multiple-choice-22",
+      "answer": [
+        "A"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "GT2-multiple-choice-23-24",
+      "answer": [
+        "A"
+      ],
+      "basis": "no_signal_default"
+    }
   ]
 }

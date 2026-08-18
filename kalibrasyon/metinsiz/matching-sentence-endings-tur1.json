@@ -1,14 +1,77 @@
 {
+  "tur": 1,
+  "paket": "matching-sentence-endings",
+  "note": "Bagimsiz kor olcum - parca ve cevap anahtari gorulmeden verildi (2026-08-18).",
   "answers": [
-    { "id": "practice-matching-sentence-endings-1", "answer": ["A"], "basis": "logic" },
-    { "id": "practice-matching-sentence-endings-2", "answer": ["E"], "basis": "logic" },
-    { "id": "practice-matching-sentence-endings-3", "answer": ["B"], "basis": "logic" },
-    { "id": "practice-matching-sentence-endings-4", "answer": ["C"], "basis": "logic" },
-    { "id": "practice-matching-sentence-endings-5", "answer": ["D"], "basis": "logic" },
-    { "id": "practice-matching-sentence-endings-6", "answer": ["B"], "basis": "option_wording" },
-    { "id": "practice-matching-sentence-endings-7", "answer": ["C"], "basis": "logic" },
-    { "id": "practice-matching-sentence-endings-8", "answer": ["D"], "basis": "option_wording" },
-    { "id": "practice-matching-sentence-endings-9", "answer": ["A"], "basis": "logic" },
-    { "id": "practice-matching-sentence-endings-10", "answer": ["E"], "basis": "logic" }
+    {
+      "id": "practice-matching-sentence-endings-1",
+      "answer": [
+        "A"
+      ],
+      "basis": "reasoning"
+    },
+    {
+      "id": "practice-matching-sentence-endings-2",
+      "answer": [
+        "D"
+      ],
+      "basis": "reasoning"
+    },
+    {
+      "id": "practice-matching-sentence-endings-3",
+      "answer": [
+        "C"
+      ],
+      "basis": "reasoning"
+    },
+    {
+      "id": "practice-matching-sentence-endings-4",
+      "answer": [
+        "F"
+      ],
+      "basis": "reasoning"
+    },
+    {
+      "id": "practice-matching-sentence-endings-5",
+      "answer": [
+        "G"
+      ],
+      "basis": "reasoning"
+    },
+    {
+      "id": "practice-matching-sentence-endings-6",
+      "answer": [
+        "B"
+      ],
+      "basis": "reasoning"
+    },
+    {
+      "id": "practice-matching-sentence-endings-7",
+      "answer": [
+        "D"
+      ],
+      "basis": "reasoning"
+    },
+    {
+      "id": "practice-matching-sentence-endings-8",
+      "answer": [
+        "C"
+      ],
+      "basis": "reasoning"
+    },
+    {
+      "id": "practice-matching-sentence-endings-9",
+      "answer": [
+        "H"
+      ],
+      "basis": "reasoning"
+    },
+    {
+      "id": "practice-matching-sentence-endings-10",
+      "answer": [
+        "G"
+      ],
+      "basis": "reasoning"
+    }
   ]
 }

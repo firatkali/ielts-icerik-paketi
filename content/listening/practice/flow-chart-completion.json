@@ -22,7 +22,7 @@
       "context_line": "You will hear part of a lecture about how seed banks store and check plant seeds.",
       "instructions": "Complete the flow-chart below. Write NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
       "word_limit": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
-      "stem_block": "GETTING A WILD SEED SAMPLE INTO A SEED BANK\n\nIN THE FIELD\nNot more than a fifth of the ripe seed is taken, and the material is kept\n(1) ........ until it reaches the store\n↓\nDRYING\nSlow drying in a warm, dry room brings the seed down to about five per cent moisture\n↓\nSEALING AND FREEZING\nThe quality of the seal counts for more than the jar itself; the agreed\ntemperature has been minus (2) ........ degrees for years now\n↓\nCHECKING\nX-ray picks out the hollow seeds, then two hundred of them are germinated\n↓\nRETESTING\nIf a later test falls short, the sample is grown on and a bigger crop is taken —\nthe step banks call (3) ........\n↓\nDUPLICATION\nA portion put aside at the start travels to a (4) ........, in another country\nif that can be managed",
+      "stem_block": "GETTING A WILD SEED SAMPLE INTO A SEED BANK\n\nIN THE FIELD\nNot more than a fifth of the ripe seed is taken, and the material is kept\n(1) ........ until it reaches the store\n↓\nDRYING\nSlow drying in a warm, dry room brings the seed down to about five per cent moisture\n↓\nSEALING AND FREEZING\nThe quality of the seal counts for more than the jar itself. This bank runs its store\ncolder than the international standard, at minus (2) ........\n↓\nCHECKING\nX-ray picks out the hollow seeds, then two hundred of them are germinated\n↓\nRETESTING\nIf a later test falls short, the sample is grown on and a bigger crop is taken — the step\nbanks call regeneration. A little is lost each time: the speaker calls a seed bank a\n(3) ........ that fades whenever it is copied\n↓\nDUPLICATION\nA portion put aside at the start travels to a (4) ........, in another country\nif that can be managed",
       "table": null,
       "items": [
         {
@@ -60,47 +60,67 @@
         {
           "number": 2,
           "script_id": "L3-S4",
-          "prompt": "The quality of the seal counts for more than the jar itself; the agreed temperature has been minus (2) ........ degrees for years now",
+          "prompt": "This bank runs its store colder than the international standard, at minus (2) ........",
           "answer": [
-            "20"
+            "30"
           ],
           "accepted_variants": [
-            "20",
-            "twenty"
+            "30",
+            "thirty",
+            "30 degrees",
+            "thirty degrees"
           ],
-          "evidence": "the standard storage temperature is minus twenty degrees",
-          "answer_point_id": "L3-S4-11",
+          "evidence": "Our own store runs colder than the standard, at minus thirty",
+          "answer_point_id": "L3-S4-31",
           "turn_index": 5,
-          "distractor_used": "minus 18 degrees",
-          "explanation": "The old household-freezer figure of minus 18 is still quoted, but the international standard moved to minus 20 years ago.",
+          "distractor_used": "minus 20 (the international standard) / minus 18 (the old domestic-freezer figure)",
+          "explanation": "Minus twenty is the international standard and minus eighteen the old domestic-freezer figure, but the speaker's own store is run at minus thirty, because the power supply is intermittent and the extra ten degrees buy about three days of grace when a compressor stops.",
           "difficulty": "medium",
-          "status": "flagged",
-          "blind_solvable": true,
-          "blind_basis": "general_knowledge",
-          "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'anlaşılan sıcaklık yıllardır eksi (2) derece' — tohum bankalarının standart depolama sıcaklığı, konuşmanın seçtiği bir değer değil.",
-          "flag_mechanism": "genel_kultur"
+          "status": "verified",
+          "blind_solvable": false,
+          "blind_basis": null,
+          "yeniden_uretim": {
+            "tarih": "2026-08-18",
+            "uretilen_kalem": "alistirma akis semasi #2 (L3-S4)",
+            "eski_cevap": [
+              "20"
+            ],
+            "eski_mekanizma": "genel_kultur",
+            "neden_elendi": "Kor olcumde 3/3 bilindi: tohum bankasi depolama sicakligi eksi 20 derece, alanin yerlesik standardi. Senaryodaki 'eksi 18' rakibi yanlis yone isaret ettigi icin ise yaramiyordu.",
+            "ne_degisti": "Recete 2+3. Tur 5 yerinde genisletildi (tur sayisi ayni): standart eksi yirmi olarak ANILIYOR ama konusmacinin kendi deposu eksi otuzda calisiyor, gerekcesiyle birlikte. Kor cozucunun uretecegi 'yirmi' seste acikca baska bir seye ait. Tur 5'e bagli sinav kalemi L3 ozet #34 (yuzde 6) korundu.",
+            "not": "Kok metninden 'minus twenty' ifadesi cikarildi: (a) capraz tarama bunu L5 cumle tamamlama #27'nin cevabi ('20') ile cakisiyor diye rapora sokuyordu, (b) standardin kokte yazili olmasi, standardi bilen adayin 'on derece daha soguk' turu bir cikarim yapmasina kapi araliyordu. Standart yalniz seste kaliyor."
+          }
         },
         {
           "number": 3,
           "script_id": "L3-S4",
-          "prompt": "If a later test falls short, the sample is grown on and a bigger crop is taken — the step banks call (3) ........",
+          "prompt": "A little is lost each time: the speaker calls a seed bank a (3) ........ that fades whenever it is copied",
           "answer": [
-            "regeneration"
+            "photograph"
           ],
           "accepted_variants": [
-            "regeneration"
+            "photograph",
+            "photo"
           ],
-          "evidence": "That process is called regeneration",
-          "answer_point_id": "L3-S4-17",
-          "turn_index": 7,
+          "evidence": "A seed bank is less a photograph than a photograph that fades a little every time you copy it.",
+          "answer_point_id": "L3-S4-32",
+          "turn_index": 8,
           "distractor_used": null,
-          "explanation": "When a retest falls below the threshold, the remaining seed is grown on and a bigger batch is harvested; the speaker calls this step regeneration.",
+          "explanation": "Every regeneration selects a little — some seeds fail, some cross with the neighbouring row — so the speaker says a seed bank is less a photograph than a photograph that fades a little every time you copy it.",
           "difficulty": "easy",
-          "status": "flagged",
-          "blind_solvable": true,
-          "blind_basis": "general_knowledge",
-          "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'örnek yeniden yetiştirilip daha büyük hasat alınır, bankaların bu adıma verdiği ad (3)' bir terim tanımı.",
-          "flag_mechanism": "genel_kultur"
+          "status": "verified",
+          "blind_solvable": false,
+          "blind_basis": null,
+          "yeniden_uretim": {
+            "tarih": "2026-08-18",
+            "uretilen_kalem": "alistirma akis semasi #3 (L3-S4)",
+            "eski_cevap": [
+              "regeneration"
+            ],
+            "eski_mekanizma": "genel_kultur",
+            "neden_elendi": "Kor olcumde 3/3 bilindi: 'ornegi yeniden yetistirip taze tohum almak' isleminin adi tohum bankaciliginda tek ve yerlesik terim.",
+            "ne_degisti": "Recete 1. 'regeneration' semada verili bilgiye cevrildi; bosluk tur 8'e kaydirildi (yeni cevap noktasi L3-S4-32): konusmacinin benzetmesi. Kor cozucunun 'her kopyalandiginda solan sey' icin uretecegi ilk sozcuk 'photocopy'; seste gecen sozcuk 'photograph'. Tur 8'e bagli sinav kalemi L3 kisa cevap #37 ('the neighbouring row') korundu."
+          }
         },
         {
           "number": 4,
@@ -130,76 +150,102 @@
       "context_line": "You will hear a lecturer talking about plastics in the sea and about how they are measured.",
       "instructions": "Complete the flow-chart below. Write NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
       "word_limit": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
-      "stem_block": "PLASTIC IN THE SEA: WHAT GOES IN, WHAT WE FIND\n\nANNUAL INPUT\nRevised upwards once better waste figures became available\n↓\nSURFACE SEARCH\nEverything floating that surveys can locate adds up to something like\n(5) ........ per cent of the estimated input\n↓\nBREAK-UP\nDaylight and moving water turn the polymer (6) ........, so the pieces keep\ngetting smaller; a coat of organisms then weighs each piece down until it sinks\n↓\nSAMPLING\nA net is towed alongside the vessel. The finer nets now in use,\n(7) ........ of a millimetre, return several times as many particles\n↓\nWHAT WOULD HELP FIRST\nDesign: with fewer different polymers in one item, (8) ........ becomes practicable",
+      "stem_block": "PLASTIC IN THE SEA: WHAT GOES IN, WHAT WE FIND\n\nANNUAL INPUT\nRevised upwards once better waste figures became available\n↓\nSURFACE SEARCH\nEverything floating that surveys can locate adds up to something like\n(5) ........ of one per cent of the estimated input\n↓\nSINKING\nSunlight and moving water break the pieces up; a coat of organisms then weighs\neach piece down, and the people who do the counting call that step (6) ........\n↓\nSAMPLING\nA net is towed alongside the vessel. The finest nets the speaker trusts,\n(7) ........ of a millimetre, return several times as many particles\n↓\nWHAT WOULD HELP FIRST\nDesign: with fewer different polymers in one item, (8) ........ becomes practicable",
       "table": null,
       "items": [
         {
           "number": 5,
           "script_id": "L5-S4",
-          "prompt": "Everything floating that surveys can locate adds up to something like (5) ........ per cent of the estimated input",
+          "prompt": "Everything floating that surveys can locate adds up to something like (5) ........ of one per cent of the estimated input",
           "answer": [
-            "1"
+            "a quarter"
           ],
           "accepted_variants": [
-            "1",
-            "one"
+            "a quarter",
+            "one quarter",
+            "quarter"
           ],
-          "evidence": "accounts for perhaps one per cent of what we think has gone in",
+          "evidence": "accounts for perhaps a quarter of one per cent of what we think has gone in",
           "answer_point_id": "L5-S4-09",
           "turn_index": 4,
-          "distractor_used": null,
-          "explanation": "There is a huge gap between the estimated input into the sea and what can be found on the surface: the floating plastic is only about one per cent of the estimate.",
+          "distractor_used": "one per cent (the figure quoted everywhere)",
+          "explanation": "The one per cent everyone quotes was worked out against the old eight-million input and coarse nets; set against eleven million and the finer nets, the speaker puts the surface share at a quarter of one per cent.",
           "difficulty": "medium",
-          "status": "flagged",
-          "blind_solvable": true,
-          "blind_basis": "general_knowledge",
-          "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'yüzen ve taramalarla bulunabilen her şey tahmini girdinin yaklaşık (5) yüzdesi' — deniz plastiği literatürünün bilinen 'kayıp plastik' oranı.",
-          "flag_mechanism": "genel_kultur"
+          "status": "verified",
+          "blind_solvable": false,
+          "blind_basis": null,
+          "yeniden_uretim": {
+            "tarih": "2026-08-18",
+            "uretilen_kalem": "alistirma akis semasi #5 (L5-S4)",
+            "eski_cevap": [
+              "1"
+            ],
+            "eski_mekanizma": "genel_kultur",
+            "neden_elendi": "Kor olcumde 3/3 bilindi: deniz plastigi yazininin taninmis 'kayip plastik' orani yuzde bir.",
+            "ne_degisti": "Recete 2+3. Tur 4 yerinde degistirildi (tur sayisi ayni): konusmaci yuzde biri acikca reddediyor ('sekiz milyonluk eski girdiye ve kaba aglara gore dogruydu'), kendi rakami ceyrek. Cerceve '(5) of one per cent' oldu, cevap 'a quarter'. Tur 4'e bagli sinav kalemi L5 tablo #34 (11 milyon ton) korundu."
+          }
         },
         {
           "number": 6,
           "script_id": "L5-S4",
-          "prompt": "Daylight and moving water turn the polymer (6) ........, so the pieces keep getting smaller",
+          "prompt": "a coat of organisms then weighs each piece down, and the people who do the counting call that step (6) ........",
           "answer": [
-            "brittle"
+            "ballasting"
           ],
           "accepted_variants": [
-            "brittle"
+            "ballasting"
           ],
-          "evidence": "Sunlight and wave action make the polymer brittle, so it breaks into smaller pieces.",
-          "answer_point_id": "L5-S4-12",
+          "evidence": "the people who do the counting say ballasting",
+          "answer_point_id": "L5-S4-13",
           "turn_index": 6,
-          "distractor_used": null,
-          "explanation": "Sunlight and wave action make the polymer brittle, which is why the pieces keep breaking into smaller ones.",
+          "distractor_used": "biofouling (the textbook word)",
+          "explanation": "Biofouling is the textbook word for the film itself; the speaker says the people who do the counting call the weighing-down step ballasting, because it is the added weight and not the fouling that makes the particle sink.",
           "difficulty": "medium",
-          "status": "flagged",
-          "blind_solvable": true,
-          "blind_basis": "cross_question",
-          "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'gün ışığı ve su hareketi polimeri (6) yapar' boşluğunu L5 özet paketi düz metin yazıyor: 'leave the polymer brittle enough to break apart'.",
-          "flag_mechanism": "capraz_sizinti"
+          "status": "verified",
+          "blind_solvable": false,
+          "blind_basis": null,
+          "yeniden_uretim": {
+            "tarih": "2026-08-18",
+            "uretilen_kalem": "alistirma akis semasi #6 (L5-S4)",
+            "eski_cevap": [
+              "brittle"
+            ],
+            "eski_mekanizma": "capraz_sizinti",
+            "neden_elendi": "L5 ozet paketinin verili metni 'leave the polymer brittle enough to break apart' diyerek cevabi duz yaziyordu.",
+            "ne_degisti": "Recete 1+3. Bosluk ayni turun (6) baska bir cevap noktasina kaydirildi (L5-S4-12 -> L5-S4-13) ve o nokta sesli rakiple kuruldu: 'the textbooks call that biofouling, but the people who do the counting say ballasting'. 'brittle' artik semada verili bilgi. Ayni turdaki sinav kalemi L5 ozet #36 ('scoured') ve onun 'that film' oncülü korundu."
+          }
         },
         {
           "number": 7,
           "script_id": "L5-S4",
-          "prompt": "The finer nets now in use, (7) ........ of a millimetre, return several times as many particles",
+          "prompt": "The finest nets the speaker trusts, (7) ........ of a millimetre, return several times as many particles",
           "answer": [
-            "a tenth"
+            "a twentieth"
           ],
           "accepted_variants": [
-            "a tenth",
-            "one tenth"
+            "a twentieth",
+            "one twentieth",
+            "twentieth"
           ],
-          "evidence": "A good deal of recent work uses a tenth",
+          "evidence": "the surveys I would actually trust have gone finer still, to a twentieth",
           "answer_point_id": "L5-S4-17",
           "turn_index": 7,
-          "distractor_used": "a third of a millimetre",
-          "explanation": "The mesh size used in most research is a third of a millimetre; recent studies use a tenth and find far more particles per cubic metre.",
+          "distractor_used": "a tenth of a millimetre (a good deal of recent work) / a third of a millimetre (most surveys)",
+          "explanation": "Most surveys use a third of a millimetre and a good deal of recent work a tenth, but the surveys the speaker trusts have gone finer still, to a twentieth.",
           "difficulty": "hard",
-          "status": "flagged",
-          "blind_solvable": true,
-          "blind_basis": "general_knowledge",
-          "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'şimdi kullanılan daha ince ağlar, milimetrenin (7) kadarı' — mikroplastik örneklemesinde standart göz açıklığı.",
-          "flag_mechanism": "genel_kultur"
+          "status": "verified",
+          "blind_solvable": false,
+          "blind_basis": null,
+          "yeniden_uretim": {
+            "tarih": "2026-08-18",
+            "uretilen_kalem": "alistirma akis semasi #7 (L5-S4)",
+            "eski_cevap": [
+              "a tenth"
+            ],
+            "eski_mekanizma": "genel_kultur",
+            "neden_elendi": "Kor olcumde 3/3 bilindi: mikroplastik orneklemesinde ince agin yerlesik olcusu (0,1 mm).",
+            "ne_degisti": "Recete 2. Tur 7 yerinde degistirildi: 'a tenth' artik sadece yaygin uygulama, konusmacinin guvendigi taramalar 'a twentieth'. Cevap 'a twentieth', celdirici olarak hem 'a third' hem 'a tenth' seste duruyor. Ayni turdaki sinav kalemi L5 ozet #37 (kirk dakika) korundu."
+          }
         },
         {
           "number": 8,
@@ -229,7 +275,7 @@
       "context_line": "You will hear part of a lecture about noise pollution, how it is measured and how it can be reduced.",
       "instructions": "Complete the flow-chart below. Write NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
       "word_limit": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
-      "stem_block": "ROAD NOISE: FROM MAP TO REMEDY\n\nSTRATEGIC MAP\nPredicted rather than measured: among the figures fed in are vehicle numbers,\nspeeds, building heights and ground (9) ........\n↓\nWHERE THE SOUND COMES FROM\nUnder about forty kilometres an hour it is the engine; faster than that it is\nthe (10) ........ running over the road surface\n↓\nAT THE SOURCE\nOpen-textured asphalt: (11) ........ to four decibels on a road that is no longer new\nA limit dropped from fifty to thirty buys two to three decibels for almost nothing\n↓\nALONG THE PATH\nA wall or an earth bund, set where it hides the wheels from view\n↓\nAT THE RECEIVER\nSecondary glazing helps until a hot night, when the (12) ........ is opened again\nand the outlay is thrown away",
+      "stem_block": "ROAD NOISE: FROM MAP TO REMEDY\n\nSTRATEGIC MAP\nPredicted rather than measured: among the figures fed in are vehicle numbers,\nspeeds, building heights and ground (9) ........\n↓\nWHERE THE SOUND COMES FROM\nUnder about forty kilometres an hour it is the engine; faster than that it is the\ntyre on the road — which is why an electric car is quiet in a car park and no\nquieter at all on a (10) ........\n↓\nAT THE SOURCE\nOpen-textured asphalt: (11) ........ to four decibels on a road that is no longer new\nA limit dropped from fifty to thirty buys two to three decibels for almost nothing\n↓\nALONG THE PATH\nA wall or an earth bund, set where it hides the wheels from view\n↓\nAT THE RECEIVER\nSecondary glazing: what the catalogues sell is the thickness of the glass, but under\n(12) ........ millimetres of gap between the panes very little is bought",
       "table": null,
       "items": [
         {
@@ -254,27 +300,32 @@
         {
           "number": 10,
           "script_id": "L4-S4",
-          "prompt": "Under about forty kilometres an hour it is the engine; faster than that it is the (10) ........ running over the road surface",
+          "prompt": "which is why an electric car is quiet in a car park and no quieter at all on a (10) ........",
           "answer": [
-            "tyre"
+            "bypass"
           ],
           "accepted_variants": [
-            "tyre",
-            "tire",
-            "tyres",
-            "tires"
+            "bypass"
           ],
-          "evidence": "the dominant source is the contact between the tyre and the road surface",
-          "answer_point_id": "L4-S4-16",
+          "evidence": "they are quiet in a car park and no quieter at all on a bypass",
+          "answer_point_id": "L4-S4-17",
           "turn_index": 6,
           "distractor_used": null,
-          "explanation": "At low speed what is heard is the engine and exhaust; above this speed the dominant source is the contact between the tyre and the road surface.",
+          "explanation": "Above about forty kilometres an hour the tyre-road contact dominates, so an electric car is quiet in a car park and, as the speaker puts it, no quieter at all on a bypass.",
           "difficulty": "medium",
-          "status": "flagged",
-          "blind_solvable": true,
-          "blind_basis": "general_knowledge",
-          "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'kırk km/s altında motor, üstünde yolu ezen (10)' — geçiş hızının üstünde baskın kaynağın lastik/yol gürültüsü olduğu ders kitabı bilgisi.",
-          "flag_mechanism": "genel_kultur"
+          "status": "verified",
+          "blind_solvable": false,
+          "blind_basis": null,
+          "yeniden_uretim": {
+            "tarih": "2026-08-18",
+            "uretilen_kalem": "alistirma akis semasi #10 (L4-S4)",
+            "eski_cevap": [
+              "tyre"
+            ],
+            "eski_mekanizma": "genel_kultur",
+            "neden_elendi": "Kor olcumde 3/3 bilindi: belli bir hizin uzerinde yol gurultusunun lastik-yol temasindan geldigi ders kitabi bilgisi; ayrica L4 akis semasi sinav kaleminin verili metni 'noise made in the tyre tread' diyor.",
+            "ne_degisti": "Recete 1. Senaryo degismedi; bosluk ayni turun (6) baska bir cevap noktasina kaydirildi (L4-S4-16 -> L4-S4-17). 'tyre' artik semada verili bilgi, sorulan sey konusmacinin kendi sozcugu: 'no quieter at all on a bypass'."
+          }
         },
         {
           "number": 11,
@@ -299,25 +350,35 @@
         {
           "number": 12,
           "script_id": "L4-S4",
-          "prompt": "Secondary glazing helps until a hot night, when the (12) ........ is opened again and the outlay is thrown away",
+          "prompt": "Secondary glazing: what the catalogues sell is the thickness of the glass, but under (12) ........ millimetres of gap between the panes very little is bought",
           "answer": [
-            "window"
+            "100"
           ],
           "accepted_variants": [
-            "window",
-            "windows"
+            "100",
+            "a hundred",
+            "one hundred",
+            "hundred"
           ],
-          "evidence": "the window gets opened and everything that was paid for is lost",
-          "answer_point_id": "L4-S4-28",
+          "evidence": "under a hundred millimetres of gap you are buying very little",
+          "answer_point_id": "L4-S4-27",
           "turn_index": 11,
-          "distractor_used": null,
-          "explanation": "Secondary glazing works, but on a hot night the window gets opened and the money spent on it is wasted.",
+          "distractor_used": "the thickness of the glass (what the catalogues sell)",
+          "explanation": "The catalogues sell secondary glazing on the thickness of the glass, but the speaker says it is the width of the gap that does the work, and under a hundred millimetres of gap very little is bought.",
           "difficulty": "easy",
-          "status": "flagged",
-          "blind_solvable": true,
-          "blind_basis": "cross_question",
-          "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'sıcak bir gecede (12) yeniden açılır' boşluğunu L4 akış şeması düz metin yazıyor: 'the moment a window is opened'.",
-          "flag_mechanism": "capraz_sizinti"
+          "status": "verified",
+          "blind_solvable": false,
+          "blind_basis": null,
+          "yeniden_uretim": {
+            "tarih": "2026-08-18",
+            "uretilen_kalem": "alistirma akis semasi #12 (L4-S4)",
+            "eski_cevap": [
+              "window"
+            ],
+            "eski_mekanizma": "capraz_sizinti",
+            "neden_elendi": "'Sicak gecede acilan sey' boslugu tek dogal cevaba (pencere) kapaniyordu; ses gerekmiyordu.",
+            "ne_degisti": "Recete 1+2. Bosluk ayni turun (11) baska bir cevap noktasina kaydirildi (L4-S4-28 -> L4-S4-27) ve o noktaya yerinde bir esik degeri verildi: 'every catalogue sells you on the thickness of the glass, but it is the width of the gap between the panes that does the work — under a hundred millimetres of gap you are buying very little'. Tur 11'e bagli sinav kalemi L4 akis semasi #40 ('bedrooms') korundu."
+          }
         }
       ]
     },
@@ -328,7 +389,7 @@
       "context_line": "You will hear a lecturer talking about behavioural economics and how findings from it are tested in the field.",
       "instructions": "Complete the flow-chart below. Write NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
       "word_limit": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
-      "stem_block": "FROM A LABORATORY FINDING TO A TESTED POLICY\n\nTHE DEFAULT\nAutomatic enrolment lifts membership of a workplace saving scheme sharply,\nthough the paperwork is identical in both directions\n↓\nWHY IT WORKS — THREE SEPARATE REASONS\n1 (13) ........ : even the smallest obstacle cuts down how many people come through\n2 the quiet message that this is what is normally done\n3 the form put off, and then put off again\n↓\nEARLY EVIDENCE\nThe fifteen-point rise that the papers printed rests on one (14) ........ in a single town\n↓\nTHE METHOD NOW\nA field experiment on real customers, allocated at random to one wording or\nanother, with samples running into (15) ........ of thousands",
+      "stem_block": "FROM A LABORATORY FINDING TO A TESTED POLICY\n\nTHE DEFAULT\nAutomatic enrolment lifts membership of a workplace saving scheme sharply,\nthough the paperwork is identical in both directions\n↓\nWHY IT WORKS — THREE SEPARATE REASONS\n1 (13) ........ : even the smallest obstacle cuts down how many people come through\n2 the quiet message that this is what is normally done\n3 the form put off, and then put off again\n↓\nWHEN THE SAME TOOL IS TURNED ROUND\nWhoever picks the default has interests of their own, and the technique that helps you\nsave can keep you subscribed to something you no longer want — an (14) ........\nrather than a nudge\n↓\nTHE METHOD NOW\nA field experiment on real customers, allocated at random to one wording or\nanother, with samples running into (15) ........ of thousands",
       "table": null,
       "items": [
         {
@@ -353,24 +414,32 @@
         {
           "number": 14,
           "script_id": "L6-S4",
-          "prompt": "The fifteen-point rise that the papers printed rests on one (14) ........ in a single town",
+          "prompt": "the technique that helps you save can keep you subscribed to something you no longer want — an (14) ........ rather than a nudge",
           "answer": [
-            "pilot"
+            "obstacle course"
           ],
           "accepted_variants": [
-            "pilot"
+            "obstacle course"
           ],
-          "evidence": "which came from a single pilot in one town",
-          "answer_point_id": "L6-S4-22",
-          "turn_index": 7,
+          "evidence": "an obstacle course rather than a nudge",
+          "answer_point_id": "L6-S4-38",
+          "turn_index": 9,
           "distractor_used": null,
-          "explanation": "The fifteen-point rise reported in the papers comes from a single pilot in one town; in larger trials the effect turns out to be much smaller.",
+          "explanation": "The fourth criticism: whoever chooses the default has interests of their own, and the same technique that helps you save can keep you subscribed to something you no longer want — what the speaker calls an obstacle course rather than a nudge.",
           "difficulty": "medium",
-          "status": "flagged",
-          "blind_solvable": true,
-          "blind_basis": "cross_question",
-          "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'gazetelerin yazdığı on beş puanlık artış tek bir (14) dayanıyor' boşluğunu L6 özet paketi düz metin veriyor: 'the figure the papers carried came from one pilot in a single town'.",
-          "flag_mechanism": "capraz_sizinti"
+          "status": "verified",
+          "blind_solvable": false,
+          "blind_basis": null,
+          "yeniden_uretim": {
+            "tarih": "2026-08-18",
+            "uretilen_kalem": "alistirma akis semasi #14 (L6-S4)",
+            "eski_cevap": [
+              "pilot"
+            ],
+            "eski_mekanizma": "capraz_sizinti",
+            "neden_elendi": "'tek bir kasabada tek bir (14)' cercevesi tek dogal sozcuge kapaniyordu; ayrica tur 7 zaten iki baska kaleme (sinav ozet #37 ve alistirma not #15) bagliydi.",
+            "ne_degisti": "Recete 1. Bosluk tur 9'a kaydirildi (yeni cevap noktasi L6-S4-38): konusmacinin dorduncu elestiride kullandigi ifade. Alanin yerlesik terimi ('sludge') seste GECMIYOR, konusmacinin sozcugu 'obstacle course' — kor cozucunun ureteceginden farkli. Tur 9'a bagli sinav kalemi L6 ozet #39 ('goals') semada ANILMADI."
+          }
         },
         {
           "number": 15,

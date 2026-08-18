@@ -8,7 +8,7 @@
   "generated_by": "opus",
   "setting": "Iki ogrenci ve danismanlarinin bir anket calismasinin tasarimini gorusmesi",
   "context_line": "You will hear two students discussing the design of a questionnaire with their tutor.",
-  "word_count": 994,
+  "word_count": 1023,
   "estimated_minutes": 6.5,
   "turn_index_base": 0,
   "speakers": [
@@ -139,7 +139,7 @@
     },
     {
       "speaker": "M2",
-      "text": "Twenty, and not on each other. Friends read the question you meant to write rather than the one you actually wrote. Try it on people who have never heard of the project."
+      "text": "Twenty, and not on each other. Friends read the question you meant to write rather than the one you actually wrote. Try it on people who have never heard of the project. And leave the wording alone until all twenty are done — the temptation is to fix it after the third person, and then you have piloted three different questionnaires."
     },
     {
       "speaker": "M1",
@@ -607,6 +607,19 @@
       "distractor": null,
       "suggested_types": [
         "multiple_choice"
+      ]
+    },
+    {
+      "id": "L5-S3-32",
+      "kind": "rule",
+      "value": "the pilot wording must not be altered until all twenty are done",
+      "quote": "leave the wording alone until all twenty are done",
+      "turn_index": 24,
+      "speaker": "M2",
+      "distractor": null,
+      "suggested_types": [
+        "matching",
+        "sentence_completion"
       ]
     }
   ],

@@ -1,10 +1,49 @@
 {
+  "tur": 1,
+  "paket": "flow-chart-completion",
+  "note": "Bagimsiz kor olcum - parca ve cevap anahtari gorulmeden verildi (2026-08-18).",
   "answers": [
-    { "id": "AC2-flow-chart-completion-1", "answer": ["40 minutes"], "basis": "general_knowledge" },
-    { "id": "AC2-flow-chart-completion-2", "answer": ["designation"], "basis": "general_knowledge" },
-    { "id": "AC2-flow-chart-completion-3", "answer": ["reflects"], "basis": "logic" },
-    { "id": "AC2-flow-chart-completion-4", "answer": ["Cressida"], "basis": "general_knowledge" },
-    { "id": "AC2-flow-chart-completion-5", "answer": ["14th"], "basis": "guess" },
-    { "id": "AC2-flow-chart-completion-6", "answer": ["International Astronomical Union"], "basis": "general_knowledge" }
+    {
+      "id": "AC2-flow-chart-completion-1",
+      "answer": [
+        "__no_signal_1__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "AC2-flow-chart-completion-2",
+      "answer": [
+        "February 2024"
+      ],
+      "basis": "reasoning"
+    },
+    {
+      "id": "AC2-flow-chart-completion-3",
+      "answer": [
+        "28"
+      ],
+      "basis": "reasoning"
+    },
+    {
+      "id": "AC2-flow-chart-completion-4",
+      "answer": [
+        "__no_signal_1__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "AC2-flow-chart-completion-5",
+      "answer": [
+        "40 years"
+      ],
+      "basis": "reasoning"
+    },
+    {
+      "id": "AC2-flow-chart-completion-6",
+      "answer": [
+        "__no_signal_1__"
+      ],
+      "basis": "no_signal_default"
+    }
   ]
 }

@@ -89,7 +89,7 @@
       "answer": [
         "C"
       ],
-      "evidence": "I want all of it in an appendix. Every reading, every count. — That's fifteen pages of tables nobody will ever read. A summary table in the text does the same job.",
+      "evidence": "That's fifteen pages of tables nobody will ever read. A summary table in the text does the same job.",
       "answer_point_id": "L2-S3-26",
       "turn_index": 33,
       "distractor_analysis": {
@@ -119,7 +119,8 @@
         "ara_secenek_C_2_2026_08_18": "The two students disagree about how to present them.",
         "sessiz_sinama_2": "Uc turun ikisinde dogru bilindi (2/3): kutudaki dort secenek acikca oksijen ya da omurgasiz kokune ait oldugu icin ucuncu secenek eleme yoluyla ham veriye dusuyordu.",
         "sessiz_sinama_son": "Son sessiz sinama (2026-08-18, uc bagimsiz tur, senaryo GORULMEDEN, ayni turlarda dokunulmamis kalemlerin taban orani %15): 2/3 (C, C, E).",
-        "kalan_risk": "Kalan sizinti kutunun yapisindan geliyor, secenegin sozunden degil: kutudaki diger dort secenek (iki alan farki, iki yontem, tur duzeyi, tek grafik cizgisi) acikca oksijen ya da omurgasiz kokune ait oldugu icin ucuncu secenek eleme yoluyla ham veriye dusebiliyor. Bunu tam kapatmak icin D ve E secenekleri de gevsetilmeli, ama ikisi 24 ve 25 numarali DOGRULANMIS kalemlerin tasarlanmis tuzaklari (familya/tur ve tek cizgi); onlara dokunmak baska kalemleri bozar. Bu yuzden bu turda birakildi."
+        "kalan_risk": "Kalan sizinti kutunun yapisindan geliyor, secenegin sozunden degil: kutudaki diger dort secenek (iki alan farki, iki yontem, tur duzeyi, tek grafik cizgisi) acikca oksijen ya da omurgasiz kokune ait oldugu icin ucuncu secenek eleme yoluyla ham veriye dusebiliyor. Bunu tam kapatmak icin D ve E secenekleri de gevsetilmeli, ama ikisi 24 ve 25 numarali DOGRULANMIS kalemlerin tasarlanmis tuzaklari (familya/tur ve tek cizgi); onlara dokunmak baska kalemleri bozar. Bu yuzden bu turda birakildi.",
+        "not_2026_08_18": "Kanit alani duzeltildi: eski deger iki AYRI turu (32 ve 33) ' — ' ile birlestirip tek dizgi yapiyordu, bu yuzden 'kacirdigim yeri tekrar dinlet' islevi metinde bulunamayan bir dizgi ariyordu. Kanit artik turn_index 33'un birebir metni; Marisol'un karsit gorusu explanation'da duruyor. Cevap (C), turn_index ve answer_point_id degismedi."
       }
     }
   ]

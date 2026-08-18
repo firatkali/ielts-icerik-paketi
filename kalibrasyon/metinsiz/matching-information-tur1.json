@@ -1,59 +1,350 @@
 {
+  "tur": 1,
+  "paket": "matching-information",
+  "note": "Bagimsiz kor olcum - parca ve cevap anahtari gorulmeden verildi (2026-08-18).",
   "answers": [
-    { "id": "practice-matching-information-1",  "answer": ["D"], "basis": "logic" },
-    { "id": "practice-matching-information-2",  "answer": ["B"], "basis": "logic" },
-    { "id": "practice-matching-information-3",  "answer": ["F"], "basis": "logic" },
-    { "id": "practice-matching-information-4",  "answer": ["E"], "basis": "guess" },
-    { "id": "practice-matching-information-5",  "answer": ["G"], "basis": "logic" },
-    { "id": "practice-matching-information-6",  "answer": ["H"], "basis": "logic" },
-    { "id": "practice-matching-information-7",  "answer": ["C"], "basis": "guess" },
-    { "id": "practice-matching-information-8",  "answer": ["B"], "basis": "logic" },
-    { "id": "practice-matching-information-9",  "answer": ["D"], "basis": "guess" },
-    { "id": "practice-matching-information-10", "answer": ["G"], "basis": "logic" },
-    { "id": "practice-matching-information-11", "answer": ["E"], "basis": "guess" },
-    { "id": "practice-matching-information-12", "answer": ["F"], "basis": "guess" },
-    { "id": "practice-matching-information-13", "answer": ["C"], "basis": "logic" },
-    { "id": "practice-matching-information-14", "answer": ["G"], "basis": "logic" },
-    { "id": "practice-matching-information-15", "answer": ["D"], "basis": "guess" },
-
-    { "id": "AC1-matching-information-27", "answer": ["B"], "basis": "logic" },
-    { "id": "AC1-matching-information-28", "answer": ["C"], "basis": "logic" },
-    { "id": "AC1-matching-information-29", "answer": ["D"], "basis": "logic" },
-    { "id": "AC1-matching-information-30", "answer": ["F"], "basis": "logic" },
-    { "id": "AC1-matching-information-31", "answer": ["E"], "basis": "guess" },
-
-    { "id": "AC2-matching-information-27", "answer": ["F"], "basis": "logic" },
-    { "id": "AC2-matching-information-28", "answer": ["B"], "basis": "logic" },
-    { "id": "AC2-matching-information-29", "answer": ["G"], "basis": "logic" },
-    { "id": "AC2-matching-information-30", "answer": ["D"], "basis": "guess" },
-    { "id": "AC2-matching-information-31", "answer": ["C"], "basis": "guess" },
-
-    { "id": "AC3-matching-information-27", "answer": ["B"], "basis": "logic" },
-    { "id": "AC3-matching-information-28", "answer": ["H"], "basis": "logic" },
-    { "id": "AC3-matching-information-29", "answer": ["E"], "basis": "guess" },
-    { "id": "AC3-matching-information-30", "answer": ["C"], "basis": "logic" },
-    { "id": "AC3-matching-information-31", "answer": ["D"], "basis": "guess" },
-
-    { "id": "AC4-matching-information-27", "answer": ["D"], "basis": "guess" },
-    { "id": "AC4-matching-information-28", "answer": ["B"], "basis": "logic" },
-    { "id": "AC4-matching-information-29", "answer": ["G"], "basis": "guess" },
-    { "id": "AC4-matching-information-30", "answer": ["F"], "basis": "logic" },
-    { "id": "AC4-matching-information-31", "answer": ["E"], "basis": "guess" },
-
-    { "id": "GT1-matching-information-1", "answer": ["A"], "basis": "guess" },
-    { "id": "GT1-matching-information-2", "answer": ["B"], "basis": "guess" },
-    { "id": "GT1-matching-information-3", "answer": ["C"], "basis": "guess" },
-    { "id": "GT1-matching-information-4", "answer": ["D"], "basis": "guess" },
-    { "id": "GT1-matching-information-5", "answer": ["E"], "basis": "guess" },
-    { "id": "GT1-matching-information-6", "answer": ["B"], "basis": "guess" },
-    { "id": "GT1-matching-information-7", "answer": ["A"], "basis": "guess" },
-
-    { "id": "GT2-matching-information-1", "answer": ["A"], "basis": "guess" },
-    { "id": "GT2-matching-information-2", "answer": ["B"], "basis": "guess" },
-    { "id": "GT2-matching-information-3", "answer": ["C"], "basis": "guess" },
-    { "id": "GT2-matching-information-4", "answer": ["D"], "basis": "guess" },
-    { "id": "GT2-matching-information-5", "answer": ["B"], "basis": "guess" },
-    { "id": "GT2-matching-information-6", "answer": ["E"], "basis": "guess" },
-    { "id": "GT2-matching-information-7", "answer": ["C"], "basis": "guess" }
+    {
+      "id": "practice-matching-information-1",
+      "answer": [
+        "__no_signal_1__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "practice-matching-information-2",
+      "answer": [
+        "__no_signal_1__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "practice-matching-information-3",
+      "answer": [
+        "__no_signal_1__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "practice-matching-information-4",
+      "answer": [
+        "__no_signal_1__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "practice-matching-information-5",
+      "answer": [
+        "__no_signal_1__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "practice-matching-information-6",
+      "answer": [
+        "__no_signal_1__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "practice-matching-information-7",
+      "answer": [
+        "__no_signal_1__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "practice-matching-information-8",
+      "answer": [
+        "__no_signal_1__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "practice-matching-information-9",
+      "answer": [
+        "__no_signal_1__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "practice-matching-information-10",
+      "answer": [
+        "__no_signal_1__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "practice-matching-information-11",
+      "answer": [
+        "__no_signal_1__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "practice-matching-information-12",
+      "answer": [
+        "__no_signal_1__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "practice-matching-information-13",
+      "answer": [
+        "__no_signal_1__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "practice-matching-information-14",
+      "answer": [
+        "__no_signal_1__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "practice-matching-information-15",
+      "answer": [
+        "__no_signal_1__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "AC1-matching-information-27",
+      "answer": [
+        "__no_signal_1__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "AC1-matching-information-28",
+      "answer": [
+        "__no_signal_1__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "AC1-matching-information-29",
+      "answer": [
+        "__no_signal_1__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "AC1-matching-information-30",
+      "answer": [
+        "__no_signal_1__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "AC1-matching-information-31",
+      "answer": [
+        "__no_signal_1__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "AC2-matching-information-27",
+      "answer": [
+        "__no_signal_1__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "AC2-matching-information-28",
+      "answer": [
+        "__no_signal_1__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "AC2-matching-information-29",
+      "answer": [
+        "__no_signal_1__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "AC2-matching-information-30",
+      "answer": [
+        "__no_signal_1__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "AC2-matching-information-31",
+      "answer": [
+        "__no_signal_1__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "AC3-matching-information-27",
+      "answer": [
+        "__no_signal_1__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "AC3-matching-information-28",
+      "answer": [
+        "__no_signal_1__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "AC3-matching-information-29",
+      "answer": [
+        "__no_signal_1__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "AC3-matching-information-30",
+      "answer": [
+        "__no_signal_1__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "AC3-matching-information-31",
+      "answer": [
+        "__no_signal_1__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "AC4-matching-information-27",
+      "answer": [
+        "__no_signal_1__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "AC4-matching-information-28",
+      "answer": [
+        "__no_signal_1__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "AC4-matching-information-29",
+      "answer": [
+        "__no_signal_1__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "AC4-matching-information-30",
+      "answer": [
+        "__no_signal_1__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "AC4-matching-information-31",
+      "answer": [
+        "__no_signal_1__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "GT1-matching-information-1",
+      "answer": [
+        "__no_signal_1__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "GT1-matching-information-2",
+      "answer": [
+        "__no_signal_1__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "GT1-matching-information-3",
+      "answer": [
+        "__no_signal_1__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "GT1-matching-information-4",
+      "answer": [
+        "__no_signal_1__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "GT1-matching-information-5",
+      "answer": [
+        "__no_signal_1__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "GT1-matching-information-6",
+      "answer": [
+        "__no_signal_1__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "GT1-matching-information-7",
+      "answer": [
+        "__no_signal_1__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "GT2-matching-information-1",
+      "answer": [
+        "__no_signal_1__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "GT2-matching-information-2",
+      "answer": [
+        "__no_signal_1__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "GT2-matching-information-3",
+      "answer": [
+        "__no_signal_1__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "GT2-matching-information-4",
+      "answer": [
+        "__no_signal_1__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "GT2-matching-information-5",
+      "answer": [
+        "__no_signal_1__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "GT2-matching-information-6",
+      "answer": [
+        "__no_signal_1__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "GT2-matching-information-7",
+      "answer": [
+        "__no_signal_1__"
+      ],
+      "basis": "no_signal_default"
+    }
   ]
 }

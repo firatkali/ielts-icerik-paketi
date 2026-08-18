@@ -102,24 +102,35 @@
         {
           "number": 4,
           "script_id": "L1-S4",
-          "prompt": "Where lead levels turn out to be high, what should growers construct instead of abandoning the site?",
+          "prompt": "On the hottest afternoons, how big was the air-temperature difference between a green roof and a bare one?",
           "answer": [
-            "raised beds"
+            "three degrees"
           ],
           "accepted_variants": [
-            "raised beds"
+            "three degrees",
+            "3 degrees",
+            "three",
+            "3"
           ],
-          "evidence": "to build raised beds and bring in clean compost from outside",
-          "answer_point_id": "L1-S4-22",
-          "turn_index": 8,
-          "distractor_used": null,
-          "explanation": "When lead levels turn out to be high, the site is not abandoned; raised beds are built and clean compost is brought in from outside.",
+          "evidence": "the air-temperature difference recorded between a green roof and a bare one reached three degrees",
+          "answer_point_id": "L1-S4-17",
+          "turn_index": 6,
+          "distractor_used": "thirty degrees (the surface reading)",
+          "explanation": "Planted surfaces cool their surroundings: on the hottest afternoons the air-temperature difference between a green roof and a bare one reached three degrees. The much larger figure of thirty is the surface reading, which the speaker asks students to keep apart.",
           "difficulty": "medium",
-          "status": "flagged",
-          "blind_solvable": true,
-          "blind_basis": "general_knowledge",
-          "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'kurşun yüksek çıktığında yetiştiriciler sahayı terk etmek yerine ne inşa etmeli' — kirli kent toprağının standart çözümü.",
-          "flag_mechanism": "genel_kultur"
+          "status": "verified",
+          "blind_solvable": false,
+          "blind_basis": null,
+          "yeniden_uretim": {
+            "tarih": "2026-08-18",
+            "uretilen_kalem": "alistirma kisa cevap #4 (L1-S4)",
+            "eski_cevap": [
+              "raised beds"
+            ],
+            "eski_mekanizma": "genel_kultur",
+            "neden_elendi": "Kor olcumde 3/3 bilindi: kirli toprakta ne yapilacagi ('yukseltilmis yatak kur') kentsel tarim yazininin standart yaniti.",
+            "ne_degisti": "Recete 1+3. Kalem tur 6'ya kaydirildi (L1-S4-17) ve o nokta sesli rakiple ayrildi: 'and do keep that apart from the surface reading, where the gap runs to thirty and where most of the quoted figures come from'. Boylece hem sayinin kendisi seste secilmeyi gerektiriyor hem de kor cozucunun akla getirecegi buyuk rakam acikca baska bir seye ait. Tur 8'e bagli sinav kalemi L1 kisa cevap #37 ('cadmium') korundu."
+          }
         }
       ]
     },
@@ -228,46 +239,68 @@
         {
           "number": 9,
           "script_id": "L4-S4",
-          "prompt": "What kind of scale does the decibel use?",
+          "prompt": "Birds in noisy places sing at a higher pitch. What else does the speaker say they do?",
           "answer": [
-            "logarithmic"
+            "start earlier"
           ],
           "accepted_variants": [
-            "logarithmic"
+            "start earlier",
+            "begin earlier",
+            "sing earlier",
+            "start earlier in the morning"
           ],
-          "evidence": "the scale is logarithmic",
-          "answer_point_id": "L4-S4-03",
-          "turn_index": 2,
-          "distractor_used": null,
-          "explanation": "Because the decibel scale is logarithmic, a ten-unit rise means ten times the energy, but roughly twice the perceived loudness.",
+          "evidence": "it is not that they sing louder — they start earlier in the morning",
+          "answer_point_id": "L4-S4-32",
+          "turn_index": 13,
+          "distractor_used": "singing louder (the popular account)",
+          "explanation": "The speaker corrects the popular account: the difference is not that the birds sing louder. They sing at a higher pitch and they start earlier in the morning, because the low frequencies of traffic mask the low end of their song.",
           "difficulty": "easy",
-          "status": "flagged",
-          "blind_solvable": true,
-          "blind_basis": "general_knowledge",
-          "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'desibel ne tür bir ölçek kullanır' desibelin tanımını soruyor.",
-          "flag_mechanism": "genel_kultur"
+          "status": "verified",
+          "blind_solvable": false,
+          "blind_basis": null,
+          "yeniden_uretim": {
+            "tarih": "2026-08-18",
+            "uretilen_kalem": "alistirma kisa cevap #9 (L4-S4)",
+            "eski_cevap": [
+              "logarithmic"
+            ],
+            "eski_mekanizma": "genel_kultur",
+            "neden_elendi": "Kor olcumde 3/3 bilindi: desibelin logaritmik olcek oldugu tanim bilgisi, sesi gerektirmiyor.",
+            "ne_degisti": "Recete 1+3. Kalem tur 13'e kaydirildi (L4-S4-32) ve o nokta sesli rakiple kuruldu: 'this is where the popular account goes wrong, it is not that they sing louder — they start earlier in the morning'. Kor cozucunun ilk tahmini (daha yuksek sesle otmek) seste acikca reddediliyor. Tur 2'ye bagli sinav kalemi L4 kisa cevap #32 (6 desibel) korundu."
+          }
         },
         {
           "number": 10,
           "script_id": "L4-S4",
-          "prompt": "After road traffic, which source reaches the largest number of exposed people?",
+          "prompt": "On the latest count, which source reaches the second largest number of exposed people?",
           "answer": [
-            "railways"
+            "aircraft"
           ],
           "accepted_variants": [
-            "railways"
+            "aircraft",
+            "planes",
+            "aeroplanes",
+            "air traffic"
           ],
-          "evidence": "Railways come a long way second and aircraft third",
+          "evidence": "on the latest continent-wide count aircraft reach more people than the railways do",
           "answer_point_id": "L4-S4-13",
           "turn_index": 5,
-          "distractor_used": null,
-          "explanation": "In the ranking of exposed population, road traffic is far ahead; railways come a long way second and aircraft third.",
+          "distractor_used": "railways (the textbook order)",
+          "explanation": "The textbook order puts railways second and aircraft third, but on the latest continent-wide count aircraft reach more people, because flight paths run over dense suburbs while the busiest lines run through open country.",
           "difficulty": "medium",
-          "status": "flagged",
-          "blind_solvable": true,
-          "blind_basis": "general_knowledge",
-          "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'karayolundan sonra en çok insanı etkileyen kaynak hangisi' — gürültü maruziyeti sıralamasının bilinen ikinci sırası.",
-          "flag_mechanism": "genel_kultur"
+          "status": "verified",
+          "blind_solvable": false,
+          "blind_basis": null,
+          "yeniden_uretim": {
+            "tarih": "2026-08-18",
+            "uretilen_kalem": "alistirma kisa cevap #10 (L4-S4)",
+            "eski_cevap": [
+              "railways"
+            ],
+            "eski_mekanizma": "genel_kultur",
+            "neden_elendi": "Kor olcumde 3/3 bilindi: karayolu-demiryolu-havayolu siralamasi cevre gurultusu yazininin standart sirasi.",
+            "ne_degisti": "Recete 2+3. Tur 5 yerinde degistirildi (tur sayisi ayni): ders kitabi sirasi acikca anilip reddediliyor, en son sayimda ucaklar demiryolunun onune geciyor. Cevap 'aircraft', celdirici 'railways' seste duruyor. Tur 5'e bagli sinav kalemi L4 kisa cevap #35 ('four fifths') korundu."
+          }
         },
         {
           "number": 11,
@@ -359,24 +392,33 @@
         {
           "number": 14,
           "script_id": "L5-S4",
-          "prompt": "What word does the speaker use for the equipment lost during activity at sea?",
+          "prompt": "The speaker says a good part of the disagreement in this field is not about the ocean at all. What is it about?",
           "answer": [
-            "gear"
+            "arithmetic"
           ],
           "accepted_variants": [
-            "gear"
+            "arithmetic"
           ],
-          "evidence": "and most of that is gear: nets, lines, floats, strapping",
-          "answer_point_id": "L5-S4-05",
-          "turn_index": 2,
+          "evidence": "it is disagreement about arithmetic",
+          "answer_point_id": "L5-S4-33",
+          "turn_index": 11,
           "distractor_used": null,
-          "explanation": "Most of the share coming from the sea itself is fishing and sailing equipment; the speaker groups nets, lines, floats and strapping under the single word gear.",
+          "explanation": "Closing the list of remedies, the speaker says half the disagreement in the field is not disagreement about the ocean at all: it is disagreement about arithmetic.",
           "difficulty": "medium",
-          "status": "flagged",
-          "blind_solvable": true,
-          "blind_basis": "general_knowledge",
-          "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'denizde etkinlik sırasında kaybedilen ekipman için konuşmacı hangi sözcüğü kullanıyor' — terimin yerleşik adını soran bir tanım sorusu.",
-          "flag_mechanism": "genel_kultur"
+          "status": "verified",
+          "blind_solvable": false,
+          "blind_basis": null,
+          "yeniden_uretim": {
+            "tarih": "2026-08-18",
+            "uretilen_kalem": "alistirma kisa cevap #14 (L5-S4)",
+            "eski_cevap": [
+              "gear"
+            ],
+            "eski_mekanizma": "genel_kultur",
+            "neden_elendi": "Kor olcumde 3/3 bilindi: denizde kaybedilen ag/halat/samandira icin Ingilizcede yerlesik tek sozcuk var; tanim sorusu sesi gerektirmiyordu.",
+            "ne_degisti": "Recete 1. Kalem senaryonun baska bir cevap noktasina kaydirildi (tur 11, yeni L5-S4-33): 'Half the disagreement in this field is not disagreement about the ocean; it is disagreement about arithmetic.' Kor cozucunun uretecegi tahminler (yontem, tanim, olcum) tutmuyor. Ayni turdaki sinav kalemi L5 ozet #40 ('standardising') farkli cumleye dayaniyor, dokunulmadi.",
+            "not": "Kokteki 'half' sozcugu cikarildi: capraz tarama bunu L1 not tamamlama #35'in cevabi ('half') ile cakisiyor diye rapora sokuyordu."
+          }
         },
         {
           "number": 15,
@@ -394,14 +436,22 @@
           "evidence": "the quantity roughly doubling every fifteen years since",
           "answer_point_id": "L5-S4-20",
           "turn_index": 8,
-          "distractor_used": null,
-          "explanation": "In cores taken from sheltered basins, plastic first appears in layers from the 1950s, and the quantity has roughly doubled every fifteen years since then.",
+          "distractor_used": "a decade (the rounding used in the review papers)",
+          "explanation": "In cores from sheltered basins the quantity roughly doubles every fifteen years; the speaker says the review papers round that to a decade, but a decade is too fast for these cores.",
           "difficulty": "hard",
-          "status": "flagged",
-          "blind_solvable": true,
-          "blind_basis": "cross_question",
-          "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'miktar ne sıklıkla ikiye katlandı' sorusunun cevabını L5 özet paketi düz metin veriyor: 'the amount has roughly doubled every fifteen years since'.",
-          "flag_mechanism": "capraz_sizinti"
+          "status": "verified",
+          "blind_solvable": false,
+          "blind_basis": null,
+          "yeniden_uretim": {
+            "tarih": "2026-08-18",
+            "uretilen_kalem": "alistirma kisa cevap #15 (L5-S4)",
+            "eski_cevap": [
+              "every fifteen years"
+            ],
+            "eski_mekanizma": "capraz_sizinti",
+            "neden_elendi": "L5 ozet paketinin verili metni 'roughly doubled every fifteen years since' diyerek cevabi duz yaziyordu.",
+            "ne_degisti": "Sizinti kaynagi senaryo turunda zaten kapandi (o cumlecik ozetten cikarilmisti). Kalemin kendisi ayrica saglamlastirildi: tur 8'e sesli rakip eklendi ('the review papers all round that to a decade, but a decade is too fast for these cores'), boylece 'on yil' tahmini seste acikca reddediliyor. Cevap ve turn_index degismedi."
+          }
         }
       ]
     }

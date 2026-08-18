@@ -322,48 +322,58 @@
           "number": "9-10",
           "script_id": "L6-S3",
           "select_count": 2,
-          "prompt": "Which TWO things does the librarian tell the students to do before closing a database?",
+          "prompt": "Which TWO things does the librarian say about the session on the reference software?",
           "options": [
             {
               "letter": "A",
-              "text": "save the search"
+              "text": "it starts at half past two"
             },
             {
               "letter": "B",
-              "text": "tick the full text filter"
+              "text": "it is held in Room B"
             },
             {
               "letter": "C",
-              "text": "note the date it was run"
+              "text": "it is now in the training room"
             },
             {
               "letter": "D",
-              "text": "export all the records in one batch"
+              "text": "a place has to be booked for it"
             },
             {
               "letter": "E",
-              "text": "fill in the screening sheet"
+              "text": "it is repeated later in the term"
             }
           ],
           "answer": [
             "A",
             "C"
           ],
-          "evidence": "save your search in each database before you close it, and note down the date you ran it",
-          "answer_point_id": "L6-S3-33",
-          "turn_index": 39,
+          "evidence": "it's in the training room on the second floor now, half past two as before",
+          "answer_point_id": "L6-S3-31",
+          "turn_index": 37,
           "distractor_analysis": {
-            "B": "Söylenenin tersine çevrilmiş hâli — kütüphaneci tam metin filtresini özellikle işaretlemeyin diyor; filtre kütüphanenin getirtebileceği her şeyi gizliyor.",
-            "D": "Başkası söyledi — hepsini tek seferde dışa aktarmayı Tomas soruyor; kütüphaneci sınırın tek seferde iki yüz kayıt olduğunu söylüyor.",
-            "E": "Söylendi ama sorulan bu değil — tarama sayfası özetleri elerken ret gerekçelerini yazmak için; veri tabanını kapatmadan önce yapılacak iş değil."
+            "B": "Söylendi sonra düzeltildi — Rhian 'Room B'deki oturum mu?' diye soruyor, kütüphaneci 'öyleydi ama taşındı' diyor.",
+            "D": "Sesle hiç geçmeyen çeldirici — oturum için yer ayırtmaktan söz edilmiyor; iki gün önceden ayırtma kuralı takip randevusuna ait.",
+            "E": "Sesle hiç geçmeyen çeldirici — oturumun tekrarlanacağı söylenmiyor."
           },
-          "explanation": "According to the librarian, the search must be saved before each database is closed (A) and the date it was run must be noted (C); the date will go into the methods section. Both answers are in the line at L6-S3-33.",
+          "explanation": "The session on the reference software has moved out of Room B into the training room on the second floor, and it still starts at half past two.",
           "difficulty": "medium",
-          "status": "flagged",
-          "blind_solvable": true,
-          "blind_basis": "general_knowledge",
-          "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: sistematik derleme yöntemi ders kitabı bilgisi (veri tabanı kapatılmadan önce arama kaydedilir, çalıştırma tarihi not edilir), tam metin filtresi bu yöntemde zaten önerilmez.",
-          "flag_mechanism": "genel_kultur"
+          "status": "verified",
+          "blind_solvable": false,
+          "blind_basis": null,
+          "yeniden_uretim": {
+            "tarih": "2026-08-18",
+            "uretilen_kalem": "alistirma coklu secim #9-10 (L6-S3)",
+            "eski_kok": "Which TWO things does the librarian tell the students to do before closing a database?",
+            "eski_cevap": [
+              "A",
+              "C"
+            ],
+            "eski_mekanizma": "genel_kultur",
+            "neden_elendi": "Kor olcumde 3/3 bilindi: sistematik derleme yontemi ders kitabi bilgisi — aramayi kaydet, calistirma tarihini not et; 'tam metin filtresi' zaten onerilmez. Iki dogru secenek de ses olmadan bulunuyordu.",
+            "ne_degisti": "Recete 1+2. Kok tur 39'dan tur 37'ye tasindi (o tur ayrica L6 cumle tamamlama #30 ile paylasiliyordu). Tur 37 yerinde genisletildi (tur sayisi ayni): saat de ayni cumleye kondu. Iki dogru secenek de yalniz seste var; 'Room B' seste soylenip duzeltilen guclu tuzak olarak kutuda birakildi."
+          }
         }
       ]
     }

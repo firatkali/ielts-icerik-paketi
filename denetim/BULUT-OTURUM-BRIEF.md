@@ -149,3 +149,104 @@ Tur sayıları 8 senaryoda da korundu (13/13 · 13/13 · 49/49 · 39/39 · 15/15
    `python3 tools/sessiz-kopya.py <paket>` → 3 tur çözüm → `tools/sessiz-rapor.py`.
    Eşikler: dinleme seçenekli ≤%30 · dinleme tamamlama ≤%20.
 3. Okuma tarafındaki `30-minute` çifti (yukarıda 3. ders).
+
+---
+
+# ALIŞTIRMA ALT TURU SONUCU — 2026-08-18 gecesi
+
+**İşaretli dinleme kalemi: 23 → 0.** Havuzun tamamında (okuma + dinleme, alıştırma + test)
+`blind_solvable: true` kalem kalmadı: `python3 tools/dogrula.py` → **işaretli (flagged) 0**.
+
+Kural gereği hiçbir senaryoya cümle EKLENMEDİ/ÇIKARILMADI; yalnız var olan turların içinde
+yerinde değişiklik yapıldı. `content/reading/` klasörüne hiç dokunulmadı (paralel ajan orada).
+
+## Kapanan 23 kalem
+
+| senaryo | kalem | eski cevap | yeni cevap | reçete |
+|---|---|---|---|---|
+| L5-S4 | akış 5 | 1 (yüzde) | a quarter (of one per cent) | 2+3 (yüzde bir "eski sekiz milyona ve kaba ağlara göre doğruydu" denip reddediliyor) |
+| L5-S4 | akış 6 | brittle | ballasting | 1+3 (kitaplar *biofouling* der, sayımı yapanlar *ballasting*; "brittle" artık verili) |
+| L5-S4 | akış 7 | a tenth | a twentieth | 2 (a third / a tenth ikisi de sesli çeldirici) |
+| L5-S4 | kısa 14 | gear | arithmetic | 1 (tur 11'e kaydı: "tartışma okyanus hakkında değil, aritmetik hakkında") |
+| L5-S4 | kısa 15 | every fifteen years | every fifteen years (dayanak güçlendi) | 3 ("derleme makaleleri on yıla yuvarlıyor, bu karotlara on yıl uymuyor") |
+| L4-S4 | akış 10 | tyre | bypass | 1 ("lastik" verili oldu; sorulan konuşmacının sözü: otoparkta sessiz, çevre yolunda değil) |
+| L4-S4 | akış 12 | window | 100 (mm boşluk) | 1+2 (kataloglar camın kalınlığını satar; iş yapan panolar arası boşluk) |
+| L4-S4 | kısa 9 | logarithmic | start earlier | 1+3 ("popüler anlatı yanlış, daha yüksek sesle ötmüyorlar" — kuşlar erken başlıyor) |
+| L4-S4 | kısa 10 | railways | aircraft | 2+3 (ders kitabı sırası anılıp reddediliyor: son sayımda uçak demiryolunun önünde) |
+| L6-S2 | çoktan seçmeli 7 | B (nereye taşınıyor) | B (ilk pazar 5 Nisan) | 1 (üç seçenek de seste geçen ama farklı şeylere ait tarihler) |
+| L6-S2 | çoktan seçmeli 9 | A (adını listeye yazdır) | B (12.30) | 1 (eski saat 11, ikinci gösteri 14.30 sesli çeldirici) |
+| L6-S2 | çoktan seçmeli 10 | B (bedava) | A (Salı teslim) | 1 (Çarşamba = yeni pazar günü, Perşembe = elenen deneme günü) |
+| L1-S4 | tablo 9 | 1940s | 5 (beş şehirden birinden az) | 1 (Tarih satırı çıktı, Anket satırı geldi) |
+| L1-S4 | tablo 10 | vertical | 15 (kat) | 1 (yıllarca tekrarlanan verim iddiası; düzeltilmiş "üç kat" sınav #34'ün cevabı olduğu için tabloda ANILMADI) |
+| L1-S4 | kısa 4 | raised beds | three degrees | 1+3 (hava sıcaklığı farkı; "yüzey okuması otuz" ayrı tutuluyor) |
+| L3-S4 | akış 2 | 20 (eksi) | 30 (eksi) | 2+3 (uluslararası standart anılıyor, bu deponun kendisi daha soğuk çalışıyor) |
+| L3-S4 | akış 3 | regeneration | photograph | 1 ("regeneration" verili oldu; kör çözücünün üreteceği sözcük *photocopy*) |
+| L6-S4 | akış 14 | pilot | obstacle course | 1 (alanın yerleşik terimi *sludge* seste hiç geçmiyor) |
+| L6-S4 | not 13 | framing | 30 (otuzda bir) | 1 (reçel tezgâhı deneyi; aynı cümlede "one in three" çeldirici) |
+| L5-S3 | eşleştirme 8 | D = arkadaşlarla yapılmamalı | D = yirmisi bitmeden ifadeye dokunulmamalı | 2 (ders kitabı seçeneği kutudan TAMAMEN çıkarıldı) |
+| L5-S3 | eşleştirme 9 | F (bilgi formu, 3 turdur kapanmıyordu) | E (sunum) — kök değişti | 1 ("bilgi formu" kökü havuzdan çıkarıldı) |
+| L5-S2 | çoktan seçmeli 6 | A (danışma noktası) | B (dört saat) | 1 (kök tamamen değişti: gönüllü vardiyası) |
+| L6-S3 | çoklu seçim 9-10 | A+C (aramayı kaydet / tarihi not et) | A+C (14.30 / eğitim odası) | 1+2 (kök tur 39'dan 37'ye taşındı; "Room B" sesli tuzak olarak kaldı) |
+
+**Kalan işaretli kalem: 0.**
+
+Yan üretim: L5-S3 eşleştirme #10 yeni bir köke oturdu ("sokakta cevaplar nasıl kaydedilecek",
+tur 38). Kutudaki "kâğıtla yapılmalı" seçeneği bilerek tuzak olarak bırakıldı — kâğıt Devan'ın
+görüşü, danışmanın söylediği tek şey tutarlılık.
+
+## Kapanış taraması
+
+| kontrol | sonuç |
+|---|---|
+| `tools/dogrula.py` | şema **0 hata** · 12 sınav **40/40** · toplam **1310** · işaretli **0** |
+| `tools/turn-index-kontrol.py` | tur sayıları **24/24 aynı** · turn_index aralık dışı 0 · evidence tutmayan 0 |
+| `tools/capraz-kok.py` — dinleme kök çakışması | **37 → 28** (düştü) |
+| `tools/capraz-kok.py` — alıştırma→test sızıntısı | **4 → 2** (düştü) |
+| `tools/capraz-kok.py` — okuma | **7 → 7** (değişmedi; okuma dosyalarına dokunulmadı) |
+| senaryo payı (dinleme) | 22 → 22 |
+
+Değişen her senaryoya bağlı **her** soru tek tek doğrulandı (352 dinleme kalemi): evidence'ı
+kendi turunda birebir geçmeyen kalem kalmadı. Cevap dizgisi taramasındaki 25 uyarının tamamı
+bilinen yanlış pozitif (rakam/kod seste harfle söyleniyor: "nine fifteen" ↔ `9.15`,
+"G W nine four one" ↔ `GW941`, "a hundred and twenty" ↔ `120`) — elle bakıldı.
+
+## Tarama sırasında bulunan ve düzeltilen 3 gerçek kusur (listede yoktu)
+
+1. **Çift `answer_point_id`: `L3-S4-30` iki ayrı noktaya veriliyordu** (tur 5'teki "yüzde 6" ve
+   tur 11'deki "otuz tür"). İki farklı sınav sorusu (`tests/L3/summary-completion#34` ve
+   `tests/L3/short-answer#40`) aynı kimliği gösteriyordu; "kaçırdığım yeri tekrar dinlet"
+   yarısında yanlış yeri çalardı. Tur 5'teki nokta `L3-S4-33` yapıldı, referansı güncellendi.
+2. **`tests/L2/matching#26` kanıtı senaryoda hiç geçmiyordu** — kanıt alanı iki AYRI turu (32 ve
+   33) ` — ` ile birleştirip tek dizgi yapmıştı. Kanıt turn_index 33'ün birebir metnine çekildi;
+   cevap (C), turn_index ve answer_point_id değişmedi.
+3. **Alıştırma içi sızıntı:** L1-S4 tablosunun "Tarih" satırının Detay hücresi
+   (`the total then fell for fifty years`) aynı alıştırma paketindeki kısa cevap #1'in cevabını
+   düz yazıyordu. Satır değişince kapandı.
+
+Ayrıca `tools/turn-index-kontrol.py` **yoktu** (brief onu koşmayı istiyor) — yazıldı; referans
+tur sayıları `denetim/TUR-SAYILARI.json` içinde. Senaryoya bilerek tur eklenirse `--yaz` ile
+güncellenir.
+
+## ⚠️ Dürüstlük notu — ölçüm YAPILMADI
+
+Bu turu yazan oturum kendi işini ölçemez (brief §5 ve geçen turun 1. dersi). Yukarıdaki 23
+kalem **"kapatıldı" değil, "kapatılacak şekilde yeniden kuruldu"**; kör sınamadan geçmediler.
+Bağımsız kör ölçüm turunda **önce şu üçüne bakılsın**, çünkü kalan tahmin payı en yüksek onlarda:
+
+- **L1-S4 kısa 4** (`three degrees`) — yeşil çatı ile çıplak çatı arasındaki 3 °C fark, sesli
+  rakip (yüzey okuması 30) konmasına rağmen makul bir ön tahmin.
+- **L3-S4 akış 2** (`30`) — "standarttan daha soğuk" çerçevesi seçenek kümesini
+  (−25/−30/−40/−80) daraltıyor.
+- **L5-S4 akış 5** (`a quarter`) — "(5) of one per cent" çerçevesi küçük bir küme bırakıyor
+  (a half / a quarter / a tenth).
+
+## ⏭️ SIRADAKİ İŞ (güncellendi)
+
+1. **Bağımsız kör ölçüm turu (borç, artık tek engel).** `python3 tools/sessiz-kopya.py <paket>`
+   → 3 tur çözüm → `tools/sessiz-rapor.py`. Eşikler: dinleme seçenekli ≤%30 · tamamlama ≤%20.
+   Önce yukarıdaki üç kalem.
+2. Okuma tarafındaki `30-minute` çifti (`tests/GT1/note-completion#16` ↔
+   `tests/AC4/summary-completion#36`) — hâlâ açık, okuma ajanının işi.
+3. Dinlemede kalan 2 alıştırma→test kök çakışması (`practice/sentence-completion#15` ↔
+   `tests/L5/sentence-completion#29` = `study pods`; `practice/flow-chart-completion#1` ↔
+   `tests/L5/table-completion#32` = `a fifth`) — ikisi de bu turun kalemleri değil, ayrı iş.

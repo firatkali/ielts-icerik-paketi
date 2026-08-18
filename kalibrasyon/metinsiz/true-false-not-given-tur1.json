@@ -1,70 +1,406 @@
 {
   "tur": 1,
   "paket": "true-false-not-given",
-  "note": "Parca ve cevap anahtari gorulmeden verildi.",
+  "note": "Bagimsiz kor olcum - parca ve cevap anahtari gorulmeden verildi (2026-08-18).",
   "answers": [
-    { "id": "practice-true-false-not-given-1", "answer": ["NOT GIVEN"], "basis": "logic" },
-    { "id": "practice-true-false-not-given-2", "answer": ["TRUE"], "basis": "general_knowledge" },
-    { "id": "practice-true-false-not-given-3", "answer": ["NOT GIVEN"], "basis": "logic" },
-    { "id": "practice-true-false-not-given-4", "answer": ["TRUE"], "basis": "general_knowledge" },
-    { "id": "practice-true-false-not-given-5", "answer": ["NOT GIVEN"], "basis": "logic" },
-    { "id": "practice-true-false-not-given-6", "answer": ["FALSE"], "basis": "guess" },
-    { "id": "practice-true-false-not-given-7", "answer": ["NOT GIVEN"], "basis": "logic" },
-    { "id": "practice-true-false-not-given-8", "answer": ["FALSE"], "basis": "general_knowledge" },
-    { "id": "practice-true-false-not-given-9", "answer": ["TRUE"], "basis": "guess" },
-    { "id": "practice-true-false-not-given-10", "answer": ["NOT GIVEN"], "basis": "logic" },
-    { "id": "practice-true-false-not-given-11", "answer": ["FALSE"], "basis": "logic" },
-    { "id": "practice-true-false-not-given-12", "answer": ["FALSE"], "basis": "option_wording" },
-    { "id": "practice-true-false-not-given-13", "answer": ["TRUE"], "basis": "general_knowledge" },
-    { "id": "practice-true-false-not-given-14", "answer": ["TRUE"], "basis": "general_knowledge" },
-    { "id": "practice-true-false-not-given-15", "answer": ["FALSE"], "basis": "general_knowledge" },
-
-    { "id": "AC1-true-false-not-given-7", "answer": ["TRUE"], "basis": "general_knowledge" },
-    { "id": "AC1-true-false-not-given-8", "answer": ["NOT GIVEN"], "basis": "logic" },
-    { "id": "AC1-true-false-not-given-9", "answer": ["FALSE"], "basis": "general_knowledge" },
-    { "id": "AC1-true-false-not-given-10", "answer": ["TRUE"], "basis": "general_knowledge" },
-    { "id": "AC1-true-false-not-given-11", "answer": ["TRUE"], "basis": "guess" },
-    { "id": "AC1-true-false-not-given-12", "answer": ["FALSE"], "basis": "general_knowledge" },
-    { "id": "AC1-true-false-not-given-13", "answer": ["NOT GIVEN"], "basis": "logic" },
-
-    { "id": "AC2-true-false-not-given-7", "answer": ["NOT GIVEN"], "basis": "logic" },
-    { "id": "AC2-true-false-not-given-8", "answer": ["NOT GIVEN"], "basis": "logic" },
-    { "id": "AC2-true-false-not-given-9", "answer": ["TRUE"], "basis": "general_knowledge" },
-    { "id": "AC2-true-false-not-given-10", "answer": ["TRUE"], "basis": "general_knowledge" },
-    { "id": "AC2-true-false-not-given-11", "answer": ["TRUE"], "basis": "general_knowledge" },
-    { "id": "AC2-true-false-not-given-12", "answer": ["FALSE"], "basis": "general_knowledge" },
-    { "id": "AC2-true-false-not-given-13", "answer": ["NOT GIVEN"], "basis": "logic" },
-
-    { "id": "AC3-true-false-not-given-7", "answer": ["TRUE"], "basis": "general_knowledge" },
-    { "id": "AC3-true-false-not-given-8", "answer": ["TRUE"], "basis": "guess" },
-    { "id": "AC3-true-false-not-given-9", "answer": ["FALSE"], "basis": "general_knowledge" },
-    { "id": "AC3-true-false-not-given-10", "answer": ["FALSE"], "basis": "general_knowledge" },
-    { "id": "AC3-true-false-not-given-11", "answer": ["FALSE"], "basis": "logic" },
-    { "id": "AC3-true-false-not-given-12", "answer": ["TRUE"], "basis": "logic" },
-    { "id": "AC3-true-false-not-given-13", "answer": ["TRUE"], "basis": "general_knowledge" },
-
-    { "id": "AC4-true-false-not-given-7", "answer": ["TRUE"], "basis": "general_knowledge" },
-    { "id": "AC4-true-false-not-given-8", "answer": ["TRUE"], "basis": "guess" },
-    { "id": "AC4-true-false-not-given-9", "answer": ["FALSE"], "basis": "logic" },
-    { "id": "AC4-true-false-not-given-10", "answer": ["FALSE"], "basis": "general_knowledge" },
-    { "id": "AC4-true-false-not-given-11", "answer": ["TRUE"], "basis": "general_knowledge" },
-    { "id": "AC4-true-false-not-given-12", "answer": ["FALSE"], "basis": "logic" },
-    { "id": "AC4-true-false-not-given-13", "answer": ["TRUE"], "basis": "logic" },
-
-    { "id": "GT1-true-false-not-given-8", "answer": ["TRUE"], "basis": "general_knowledge" },
-    { "id": "GT1-true-false-not-given-9", "answer": ["FALSE"], "basis": "general_knowledge" },
-    { "id": "GT1-true-false-not-given-10", "answer": ["TRUE"], "basis": "guess" },
-    { "id": "GT1-true-false-not-given-11", "answer": ["FALSE"], "basis": "guess" },
-    { "id": "GT1-true-false-not-given-12", "answer": ["FALSE"], "basis": "general_knowledge" },
-    { "id": "GT1-true-false-not-given-13", "answer": ["FALSE"], "basis": "guess" },
-    { "id": "GT1-true-false-not-given-14", "answer": ["TRUE"], "basis": "guess" },
-
-    { "id": "GT2-true-false-not-given-8", "answer": ["TRUE"], "basis": "guess" },
-    { "id": "GT2-true-false-not-given-9", "answer": ["NOT GIVEN"], "basis": "option_wording" },
-    { "id": "GT2-true-false-not-given-10", "answer": ["TRUE"], "basis": "general_knowledge" },
-    { "id": "GT2-true-false-not-given-11", "answer": ["TRUE"], "basis": "general_knowledge" },
-    { "id": "GT2-true-false-not-given-12", "answer": ["TRUE"], "basis": "guess" },
-    { "id": "GT2-true-false-not-given-13", "answer": ["NOT GIVEN"], "basis": "option_wording" },
-    { "id": "GT2-true-false-not-given-14", "answer": ["TRUE"], "basis": "guess" }
+    {
+      "id": "practice-true-false-not-given-1",
+      "answer": [
+        "__no_signal_1__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "practice-true-false-not-given-2",
+      "answer": [
+        "__no_signal_1__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "practice-true-false-not-given-3",
+      "answer": [
+        "__no_signal_1__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "practice-true-false-not-given-4",
+      "answer": [
+        "__no_signal_1__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "practice-true-false-not-given-5",
+      "answer": [
+        "__no_signal_1__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "practice-true-false-not-given-6",
+      "answer": [
+        "__no_signal_1__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "practice-true-false-not-given-7",
+      "answer": [
+        "__no_signal_1__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "practice-true-false-not-given-8",
+      "answer": [
+        "__no_signal_1__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "practice-true-false-not-given-9",
+      "answer": [
+        "__no_signal_1__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "practice-true-false-not-given-10",
+      "answer": [
+        "__no_signal_1__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "practice-true-false-not-given-11",
+      "answer": [
+        "__no_signal_1__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "practice-true-false-not-given-12",
+      "answer": [
+        "__no_signal_1__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "practice-true-false-not-given-13",
+      "answer": [
+        "__no_signal_1__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "practice-true-false-not-given-14",
+      "answer": [
+        "__no_signal_1__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "practice-true-false-not-given-15",
+      "answer": [
+        "__no_signal_1__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "AC1-true-false-not-given-7",
+      "answer": [
+        "__no_signal_1__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "AC1-true-false-not-given-8",
+      "answer": [
+        "__no_signal_1__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "AC1-true-false-not-given-9",
+      "answer": [
+        "__no_signal_1__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "AC1-true-false-not-given-10",
+      "answer": [
+        "__no_signal_1__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "AC1-true-false-not-given-11",
+      "answer": [
+        "__no_signal_1__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "AC1-true-false-not-given-12",
+      "answer": [
+        "__no_signal_1__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "AC1-true-false-not-given-13",
+      "answer": [
+        "__no_signal_1__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "AC2-true-false-not-given-7",
+      "answer": [
+        "__no_signal_1__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "AC2-true-false-not-given-8",
+      "answer": [
+        "__no_signal_1__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "AC2-true-false-not-given-9",
+      "answer": [
+        "__no_signal_1__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "AC2-true-false-not-given-10",
+      "answer": [
+        "__no_signal_1__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "AC2-true-false-not-given-11",
+      "answer": [
+        "__no_signal_1__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "AC2-true-false-not-given-12",
+      "answer": [
+        "__no_signal_1__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "AC2-true-false-not-given-13",
+      "answer": [
+        "__no_signal_1__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "AC3-true-false-not-given-7",
+      "answer": [
+        "__no_signal_1__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "AC3-true-false-not-given-8",
+      "answer": [
+        "__no_signal_1__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "AC3-true-false-not-given-9",
+      "answer": [
+        "__no_signal_1__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "AC3-true-false-not-given-10",
+      "answer": [
+        "__no_signal_1__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "AC3-true-false-not-given-11",
+      "answer": [
+        "__no_signal_1__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "AC3-true-false-not-given-12",
+      "answer": [
+        "__no_signal_1__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "AC3-true-false-not-given-13",
+      "answer": [
+        "TRUE"
+      ],
+      "basis": "reasoning"
+    },
+    {
+      "id": "AC4-true-false-not-given-7",
+      "answer": [
+        "__no_signal_1__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "AC4-true-false-not-given-8",
+      "answer": [
+        "__no_signal_1__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "AC4-true-false-not-given-9",
+      "answer": [
+        "__no_signal_1__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "AC4-true-false-not-given-10",
+      "answer": [
+        "__no_signal_1__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "AC4-true-false-not-given-11",
+      "answer": [
+        "__no_signal_1__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "AC4-true-false-not-given-12",
+      "answer": [
+        "__no_signal_1__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "AC4-true-false-not-given-13",
+      "answer": [
+        "__no_signal_1__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "GT1-true-false-not-given-8",
+      "answer": [
+        "__no_signal_1__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "GT1-true-false-not-given-9",
+      "answer": [
+        "__no_signal_1__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "GT1-true-false-not-given-10",
+      "answer": [
+        "__no_signal_1__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "GT1-true-false-not-given-11",
+      "answer": [
+        "__no_signal_1__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "GT1-true-false-not-given-12",
+      "answer": [
+        "__no_signal_1__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "GT1-true-false-not-given-13",
+      "answer": [
+        "__no_signal_1__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "GT1-true-false-not-given-14",
+      "answer": [
+        "__no_signal_1__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "GT2-true-false-not-given-8",
+      "answer": [
+        "__no_signal_1__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "GT2-true-false-not-given-9",
+      "answer": [
+        "__no_signal_1__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "GT2-true-false-not-given-10",
+      "answer": [
+        "__no_signal_1__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "GT2-true-false-not-given-11",
+      "answer": [
+        "__no_signal_1__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "GT2-true-false-not-given-12",
+      "answer": [
+        "__no_signal_1__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "GT2-true-false-not-given-13",
+      "answer": [
+        "__no_signal_1__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "GT2-true-false-not-given-14",
+      "answer": [
+        "__no_signal_1__"
+      ],
+      "basis": "no_signal_default"
+    }
   ]
 }

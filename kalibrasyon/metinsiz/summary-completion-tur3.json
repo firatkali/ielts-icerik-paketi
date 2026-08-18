@@ -1,53 +1,308 @@
 {
+  "tur": 3,
+  "paket": "summary-completion",
+  "note": "Bagimsiz kor olcum - parca ve cevap anahtari gorulmeden verildi (2026-08-18).",
   "answers": [
-    { "id": "practice-summary-completion-1", "answer": ["popularity"], "basis": "logic" },
-    { "id": "practice-summary-completion-2", "answer": ["absorbed"], "basis": "general_knowledge" },
-    { "id": "practice-summary-completion-3", "answer": ["threshold"], "basis": "logic" },
-    { "id": "practice-summary-completion-4", "answer": ["developers"], "basis": "general_knowledge" },
-    { "id": "practice-summary-completion-5", "answer": ["leafy"], "basis": "guess" },
-    { "id": "practice-summary-completion-6", "answer": ["crossover"], "basis": "general_knowledge" },
-    { "id": "practice-summary-completion-7", "answer": ["sharply"], "basis": "guess" },
-    { "id": "practice-summary-completion-8", "answer": ["stressful"], "basis": "logic" },
-    { "id": "practice-summary-completion-9", "answer": ["scales"], "basis": "general_knowledge" },
-    { "id": "practice-summary-completion-10", "answer": ["diary"], "basis": "logic" },
-    { "id": "practice-summary-completion-11", "answer": ["shells"], "basis": "guess" },
-    { "id": "practice-summary-completion-12", "answer": ["double"], "basis": "logic" },
-    { "id": "practice-summary-completion-13", "answer": ["five-point"], "basis": "guess" },
-    { "id": "practice-summary-completion-14", "answer": ["mortality"], "basis": "general_knowledge" },
-    { "id": "practice-summary-completion-15", "answer": ["unemployed"], "basis": "logic" },
-
-    { "id": "AC1-summary-completion-36", "answer": ["caldera"], "basis": "general_knowledge" },
-    { "id": "AC1-summary-completion-37", "answer": ["dye"], "basis": "general_knowledge" },
-    { "id": "AC1-summary-completion-38", "answer": ["algae"], "basis": "general_knowledge" },
-    { "id": "AC1-summary-completion-39", "answer": ["bioerosion"], "basis": "general_knowledge" },
-    { "id": "AC1-summary-completion-40", "answer": ["warning"], "basis": "logic" },
-
-    { "id": "AC2-summary-completion-36", "answer": ["A"], "basis": "logic" },
-    { "id": "AC2-summary-completion-37", "answer": ["C"], "basis": "logic" },
-    { "id": "AC2-summary-completion-38", "answer": ["I"], "basis": "logic" },
-    { "id": "AC2-summary-completion-39", "answer": ["H"], "basis": "logic" },
-    { "id": "AC2-summary-completion-40", "answer": ["B"], "basis": "logic" },
-
-    { "id": "AC3-summary-completion-36", "answer": ["decay"], "basis": "general_knowledge" },
-    { "id": "AC3-summary-completion-37", "answer": ["databases"], "basis": "guess" },
-    { "id": "AC3-summary-completion-38", "answer": ["microtubules"], "basis": "general_knowledge" },
-    { "id": "AC3-summary-completion-39", "answer": ["nine"], "basis": "guess" },
-    { "id": "AC3-summary-completion-40", "answer": ["conditions"], "basis": "logic" },
-
-    { "id": "AC4-summary-completion-36", "answer": ["J"], "basis": "logic" },
-    { "id": "AC4-summary-completion-37", "answer": ["B"], "basis": "logic" },
-    { "id": "AC4-summary-completion-38", "answer": ["D"], "basis": "general_knowledge" },
-    { "id": "AC4-summary-completion-39", "answer": ["F"], "basis": "logic" },
-    { "id": "AC4-summary-completion-40", "answer": ["A"], "basis": "logic" },
-
-    { "id": "GT1-summary-completion-37", "answer": ["peel"], "basis": "logic" },
-    { "id": "GT1-summary-completion-38", "answer": ["fridge"], "basis": "general_knowledge" },
-    { "id": "GT1-summary-completion-39", "answer": ["convenience"], "basis": "guess" },
-    { "id": "GT1-summary-completion-40", "answer": ["prevention"], "basis": "logic" },
-
-    { "id": "GT2-summary-completion-37", "answer": ["B"], "basis": "logic" },
-    { "id": "GT2-summary-completion-38", "answer": ["G"], "basis": "logic" },
-    { "id": "GT2-summary-completion-39", "answer": ["I"], "basis": "logic" },
-    { "id": "GT2-summary-completion-40", "answer": ["A"], "basis": "logic" }
+    {
+      "id": "practice-summary-completion-1",
+      "answer": [
+        "jasmonic acid"
+      ],
+      "basis": "reasoning"
+    },
+    {
+      "id": "practice-summary-completion-2",
+      "answer": [
+        "__no_signal_3__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "practice-summary-completion-3",
+      "answer": [
+        "__no_signal_3__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "practice-summary-completion-4",
+      "answer": [
+        "__no_signal_3__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "practice-summary-completion-5",
+      "answer": [
+        "__no_signal_3__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "practice-summary-completion-6",
+      "answer": [
+        "__no_signal_3__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "practice-summary-completion-7",
+      "answer": [
+        "__no_signal_3__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "practice-summary-completion-8",
+      "answer": [
+        "__no_signal_3__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "practice-summary-completion-9",
+      "answer": [
+        "__no_signal_3__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "practice-summary-completion-10",
+      "answer": [
+        "__no_signal_3__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "practice-summary-completion-11",
+      "answer": [
+        "__no_signal_3__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "practice-summary-completion-12",
+      "answer": [
+        "__no_signal_3__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "practice-summary-completion-13",
+      "answer": [
+        "__no_signal_3__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "practice-summary-completion-14",
+      "answer": [
+        "__no_signal_3__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "practice-summary-completion-15",
+      "answer": [
+        "__no_signal_3__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "AC1-summary-completion-36",
+      "answer": [
+        "rim"
+      ],
+      "basis": "reasoning"
+    },
+    {
+      "id": "AC1-summary-completion-37",
+      "answer": [
+        "__no_signal_3__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "AC1-summary-completion-38",
+      "answer": [
+        "turf"
+      ],
+      "basis": "reasoning"
+    },
+    {
+      "id": "AC1-summary-completion-39",
+      "answer": [
+        "__no_signal_3__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "AC1-summary-completion-40",
+      "answer": [
+        "analogue"
+      ],
+      "basis": "reasoning"
+    },
+    {
+      "id": "AC2-summary-completion-36",
+      "answer": [
+        "F"
+      ],
+      "basis": "reasoning"
+    },
+    {
+      "id": "AC2-summary-completion-37",
+      "answer": [
+        "A"
+      ],
+      "basis": "reasoning"
+    },
+    {
+      "id": "AC2-summary-completion-38",
+      "answer": [
+        "D"
+      ],
+      "basis": "reasoning"
+    },
+    {
+      "id": "AC2-summary-completion-39",
+      "answer": [
+        "__no_signal_3__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "AC2-summary-completion-40",
+      "answer": [
+        "E"
+      ],
+      "basis": "reasoning"
+    },
+    {
+      "id": "AC3-summary-completion-36",
+      "answer": [
+        "decompose"
+      ],
+      "basis": "reasoning"
+    },
+    {
+      "id": "AC3-summary-completion-37",
+      "answer": [
+        "__no_signal_3__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "AC3-summary-completion-38",
+      "answer": [
+        "__no_signal_3__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "AC3-summary-completion-39",
+      "answer": [
+        "__no_signal_3__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "AC3-summary-completion-40",
+      "answer": [
+        "__no_signal_3__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "AC4-summary-completion-36",
+      "answer": [
+        "__no_signal_3__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "AC4-summary-completion-37",
+      "answer": [
+        "__no_signal_3__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "AC4-summary-completion-38",
+      "answer": [
+        "__no_signal_3__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "AC4-summary-completion-39",
+      "answer": [
+        "__no_signal_3__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "AC4-summary-completion-40",
+      "answer": [
+        "__no_signal_3__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "GT1-summary-completion-37",
+      "answer": [
+        "__no_signal_3__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "GT1-summary-completion-38",
+      "answer": [
+        "plans"
+      ],
+      "basis": "reasoning"
+    },
+    {
+      "id": "GT1-summary-completion-39",
+      "answer": [
+        "__no_signal_3__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "GT1-summary-completion-40",
+      "answer": [
+        "bread"
+      ],
+      "basis": "reasoning"
+    },
+    {
+      "id": "GT2-summary-completion-37",
+      "answer": [
+        "__no_signal_3__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "GT2-summary-completion-38",
+      "answer": [
+        "__no_signal_3__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "GT2-summary-completion-39",
+      "answer": [
+        "__no_signal_3__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "GT2-summary-completion-40",
+      "answer": [
+        "__no_signal_3__"
+      ],
+      "basis": "no_signal_default"
+    }
   ]
 }

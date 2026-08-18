@@ -344,7 +344,7 @@
           },
           {
             "letter": "D",
-            "text": "It must not involve the students' friends."
+            "text": "Nothing about it should be altered until it is all finished."
           },
           {
             "letter": "E",
@@ -352,7 +352,7 @@
           },
           {
             "letter": "F",
-            "text": "It has to go in with the ethics form."
+            "text": "Whichever the students choose, it must stay the same throughout."
           }
         ]
       },
@@ -371,11 +371,11 @@
           "answer_point_id": "L5-S3-10",
           "turn_index": 14,
           "distractor_analysis": {
-            "A": "Söylenenin tersine çevrilmiş hâli — bir hafta kayan tek şey etik formu ve ileri değil geriye alındı (on ikisinden beşine); anketle ilgisi yok.",
-            "C": "Aynı köke oturuyor: anketin kâğıtla mı ekranla mı yürütüleceği zaten tartışılıyor, ama danışman aracı öğrencilere bırakıp yalnızca baştan sona aynı yöntemi istiyor.",
-            "D": "Başka öğe için söylendi — arkadaş yasağı pilot denemeye ait.",
-            "E": "Aynı köke oturuyor: ankete ayrılan süre de konuşuluyor, ama fazla süre biçme eleştirisi sunuma yönelik; ankete danışman yalnızca dört dakikalık bir üst sınır koyuyor.",
-            "F": "Başka öğe için söylendi — etik formuyla birlikte gidecek olan bilgi formu ile onam metni."
+            "A": "Söylenenin tersine çevrilmiş hâli — bir hafta kayan tek şey etik formu ve ileri değil geriye alındı (on ikisinden beşine).",
+            "C": "Aynı köke oturuyor: anketin kâğıtla mı ekranla mı yürütüleceği de tartışılıyor, ama o tartışma sokakta cevapların nasıl kaydedileceğiyle ilgili ve danışman taraf tutmuyor.",
+            "D": "Başka öğe için söylendi — 'yirmisi bitmeden ifadeye dokunmayın' uyarısı pilot denemeye ait.",
+            "E": "Başka öğe için söylendi — fazla süre biçme eleştirisi sunuma yönelik.",
+            "F": "Başka öğe için söylendi — 'hangisini seçerseniz seçin baştan sona aynısını yapın' sokaktaki kayıt yöntemi için söyleniyor."
           },
           "explanation": "The tutor tells the students they are each half right: the body of the questionnaire will use Marit's closed scale and two open questions go at the very end, so Devan gets his surprises and Marit gets her numbers.",
           "difficulty": "medium",
@@ -428,91 +428,34 @@
           "answer": [
             "D"
           ],
-          "evidence": "Twenty, and not on each other. Friends read the question you meant to write rather than the one you actually wrote.",
-          "answer_point_id": "L5-S3-17",
+          "evidence": "leave the wording alone until all twenty are done — the temptation is to fix it after the third person, and then you have piloted three different questionnaires",
+          "answer_point_id": "L5-S3-32",
           "turn_index": 24,
           "distractor_analysis": {
-            "A": "Söylenenin tersine çevrilmiş hâli — bir hafta kayan tek şey etik formu ve öne alındı; pilot için tarih verilmiyor.",
-            "B": "Başka öğe için söylendi — iki tarafın da istediğini alması anket sorularının biçimine ait.",
-            "C": "Başkası söyledi — kâğıt tercihi Devan'ın saha kaydı görüşü; pilotun kâğıtla yapılacağı söylenmiyor.",
-            "E": "Başka öğe için söylendi — fazla süre biçme eleştirisi sunuma ait.",
-            "F": "Başka öğe için söylendi — etik formuyla birlikte gidecek olan bilgi formu."
+            "A": "Söylenenin tersine çevrilmiş hâli — bir hafta kayan tek şey etik formu ve ileri değil geriye alındı (on ikisinden beşine).",
+            "B": "Başka öğe için söylendi — 'her biriniz yarı yarıya haklısınız' sözü anket sorularının biçimine ait.",
+            "C": "Başkası söyledi — kâğıt tercihi Devan'ın kendi görüşü; danışman kâğıt ya da ekran arasında seçim yapmıyor.",
+            "E": "Başka öğe için söylendi — fazla süre biçme eleştirisi sunuma yönelik.",
+            "F": "Başka öğe için söylendi — 'hangisini seçerseniz seçin baştan sona aynısını yapın' sokaktaki kayıt yöntemi için söyleniyor."
           },
-          "explanation": "The pilot will not be run on each other or on friends: friends read the question you meant to write rather than the one you actually wrote, so people who have never heard of the project are needed.",
+          "explanation": "The tutor's warning about the pilot is that the wording must be left alone until all twenty are done: fixing it after the third person means three different questionnaires have been piloted.",
           "difficulty": "medium",
-          "status": "flagged",
-          "blind_solvable": true,
-          "blind_basis": "general_knowledge",
-          "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: pilot uygulamanın klasik uyarısı öğrencinin arkadaşlarıyla yapılmamasıdır (örneklem yanlılığı), ders kitabı bilgisi kökü seçeneğe bağlıyor.",
-          "flag_mechanism": "genel_kultur"
+          "status": "verified",
+          "blind_solvable": false,
+          "blind_basis": null,
+          "yeniden_uretim": {
+            "tarih": "2026-08-18",
+            "uretilen_kalem": "alistirma eslestirme #8 (L5-S3)",
+            "eski_cevap": [
+              "D (arkadaslarla yapilmamali)"
+            ],
+            "eski_mekanizma": "genel_kultur",
+            "neden_elendi": "Uc yazim turuna ragmen 3/3 bilindi: 'pilot uygulamayi arkadaslarinizla yapmayin' arastirma yontemi ders kitabinin yerlesik uyarisi; kok secenege dunya bilgisiyle bagliyordu.",
+            "ne_degisti": "Recete 2. Kutudan 'arkadaslarla yapilmamali' secenegi TAMAMEN cikarildi, boylece ders kitabi kisayolunun inecegi yer kalmadi. Tur 24'e yerinde bir uyari eklendi (tur sayisi ayni): 'leave the wording alone until all twenty are done'. Yeni dogru secenek D bu uyari; ayni soz ankete, rapora ve sunuma da oturdugu icin ses olmadan secilemiyor. Tur 24'e bagli sinav kalemi L5 cumle tamamlama #27 ('20' + 'projeyle baglantisi olmayan kisiler') aynen korundu."
+          }
         },
         {
           "number": 9,
-          "script_id": "L5-S3",
-          "select_count": 1,
-          "prompt": "the information sheet",
-          "options": null,
-          "answer": [
-            "F"
-          ],
-          "evidence": "It does, along with the consent wording. One page each, and no more than that.",
-          "answer_point_id": "L5-S3-20",
-          "turn_index": 28,
-          "distractor_analysis": {
-            "A": "Söylenenin tersine çevrilmiş hâli — bir hafta kayan tek şey etik formu ve öne alındı; bilgi formu için ayrı bir tarih verilmiyor.",
-            "B": "Başka öğe için söylendi — iki tarafın da istediğini alması anket sorularının biçimine ait.",
-            "C": "Aynı köke oturuyor: bilgi formunun kâğıda basılması akla yatkın, ama kâğıt/ekran tartışması sokakta cevapların nasıl kaydedileceğiyle ilgili.",
-            "D": "Başka öğe için söylendi — arkadaş yasağı pilotun kuralı.",
-            "E": "Aynı köke oturuyor: formu hazırlamaya ayrılan süre eleştirilebilirdi, ama fazla süre biçme eleştirisi sunum için yapılıyor."
-          },
-          "explanation": "Asked whether the information sheet goes in with the ethics form, the tutor says it does, along with the consent wording, and limits each of them to one page.",
-          "difficulty": "easy",
-          "status": "flagged",
-          "blind_solvable": true,
-          "blind_basis": "general_knowledge",
-          "yeniden_uretim": {
-            "uretilen_grup": "P-MA-03 kutu secenekleri (dinleme alistirma / matching)",
-            "eski_secenekler": [
-              {
-                "letter": "A",
-                "text": "It includes time for audience questions."
-              },
-              {
-                "letter": "B",
-                "text": "It comes a week later than originally planned."
-              },
-              {
-                "letter": "C",
-                "text": "It should mix two different styles."
-              },
-              {
-                "letter": "D",
-                "text": "It must not involve the students' friends."
-              },
-              {
-                "letter": "E",
-                "text": "It must fit on a single page."
-              },
-              {
-                "letter": "F",
-                "text": "It should be carried out on paper."
-              }
-            ],
-            "eski_cevap": [
-              "E"
-            ],
-            "neden_elendi": "secenek_sozu: 'Tek sayfaya sigmali' yalniz katilimci bilgi formu icin soylenebilirdi.",
-            "ne_degisti": "Sayfa sinirinin sozu korundu ama kokten koparildi: yeni kutuda anket de kagit/ekran secenegiyle, sunum da sure secenegiyle ayni gucte cekiyor; ayrica secenek harfi E'den F'ye alinarak C-D-E-A dizisi kirildi. Ayrim danismanin 'One page each, and no more than that' cumlesinde kaliyor. Cevabin icerigi, kanit ve turn_index degismedi.",
-            "tarih": "2026-08-18",
-            "kaynak_prompt": "denetim turu: dinleme alistirma yazim kusurlari (2026-08-18)",
-            "ikinci_tur": "2026-08-18 sessiz olcum 1 ve 2: 3/3 bulundu. 'Tek sayfaya sigmali' sozu belge kategorisini isaret ediyor ve kutudaki dort kokten yalniz ikisi belge oldugu icin alan kendiliginden daraliyordu. Secenek 'etik formuyla birlikte veriliyor' olarak degistirildi; bu soz anket icin de en az o kadar akla yatkin (etik basvurusuna anket ornegi eklenmesi olagan), ama seste yalniz bilgi formu icin dogru. Kanit cumlesi ve turn_index degismedi.",
-            "ucuncu_tur": "2026-08-18 sessiz olcum 3: yine 3/3. Kalem yazim tarafinda iyilestirilmis hâliyle birakildi (secenek artik sayfa sinirindan cok formla birlikte gitmeyi soyluyor ve anket kokune de oturuyor) ama olcum kapanmadigi icin yeniden isaretlendi."
-          },
-          "flag_mechanism": "genel_kultur",
-          "flag_reason": "Iki ayri yazim turundan sonra da senaryo gosterilmeden 3/3 turda dogru bilindi. Seceneklerin sozu iki kez degistirildi (once 'tek sayfaya sigmali', sonra 'etik formuyla birlikte veriliyor') ve ikisi de kapatmadi: kokun kendisi ('the information sheet') arastirma etigi terminolojisinin yerlesik bir parcasi ve katilimci bilgi formunun hem tek sayfa olmasi hem de onam metniyle birlikte etik basvurusuna eklenmesi ders kitabi bilgisi. Yazimla kapanmiyor: kapanmasi icin senaryoda bilgi formuna dair soylenenin degismesi ya da kokun baska bir seye cevrilmesi gerekiyor. SENARYO ISI - ertelendi."
-        },
-        {
-          "number": 10,
           "script_id": "L5-S3",
           "select_count": 1,
           "prompt": "the presentation",
@@ -524,52 +467,58 @@
           "answer_point_id": "L5-S3-23",
           "turn_index": 32,
           "distractor_analysis": {
-            "A": "Söylenenin tersine çevrilmiş hâli — bir hafta kayan tek şey etik formu ve geriye alındı; sunumun tarihi değişmiyor.",
-            "B": "Aynı köke oturuyor: sunumda da iki öğrencinin isteğinin ortalanması akla yatkın, ama 'her biri yarı yarıya haklı' sözü anket sorularının biçimi için söyleniyor.",
-            "C": "Başkası söyledi — kâğıt tercihi Devan'ın saha kaydı görüşü.",
-            "D": "Başka öğe için söylendi — arkadaş yasağı pilotun kuralı.",
-            "F": "Aynı köke oturuyor: sunum planının da etik formuyla verilmesi akla yatkın, ama formla birlikte giden bilgi formu ile onam metni."
+            "A": "Söylenenin tersine çevrilmiş hâli — bir hafta kayan tek şey etik formu ve ileri değil geriye alındı (on ikisinden beşine).",
+            "B": "Başka öğe için söylendi — 'her biriniz yarı yarıya haklısınız' sözü anket sorularının biçimine ait.",
+            "C": "Başkası söyledi — kâğıt tercihi Devan'ın kendi görüşü; danışman kâğıt ya da ekran arasında seçim yapmıyor.",
+            "D": "Başka öğe için söylendi — 'yirmisi bitmeden ifadeye dokunmayın' uyarısı pilot denemeye ait.",
+            "F": "Başka öğe için söylendi — 'hangisini seçerseniz seçin baştan sona aynısını yapın' sokaktaki kayıt yöntemi için söyleniyor."
           },
           "explanation": "The students have set aside the whole fifteen minutes for their own talk; the tutor says only ten of those minutes are theirs, with five kept for questions.",
           "difficulty": "medium",
           "status": "verified",
           "blind_solvable": false,
+          "yeniden_uretim": {
+            "tarih": "2026-08-18",
+            "uretilen_kalem": "alistirma eslestirme #9 (L5-S3)",
+            "eski_kok": "the information sheet",
+            "eski_cevap": [
+              "F"
+            ],
+            "eski_mekanizma": "genel_kultur",
+            "neden_elendi": "Uc yazim turunda da 3/3 bilindi. Sorun secenegin sozunde degil KOKTE idi: 'katilimci bilgi formu' arastirma etiginin yerlesik terimi ve hem tek sayfa olmasi hem onam metniyle birlikte etik basvurusuna eklenmesi ders kitabi bilgisi.",
+            "ne_degisti": "Recete 1. Kok TAMAMEN degistirildi: 'bilgi formu' kutudan da koklerden de cikarildi. #9 artik sunum (tur 32, olculmus ve temiz kalem, eski #10) ve #10 sokaktaki kayit yontemi (tur 38) oldu; sira kayit sirasina (14 - 24 - 32 - 38) uygun."
+          },
+          "blind_basis": null
+        },
+        {
+          "number": 10,
+          "script_id": "L5-S3",
+          "select_count": 1,
+          "prompt": "the way the answers are recorded in the street",
+          "options": null,
+          "answer": [
+            "F"
+          ],
+          "evidence": "Whichever you settle on, do the same thing all the way through.",
+          "answer_point_id": "L5-S3-28",
+          "turn_index": 38,
+          "distractor_analysis": {
+            "A": "Söylenenin tersine çevrilmiş hâli — bir hafta kayan tek şey etik formu ve ileri değil geriye alındı (on ikisinden beşine).",
+            "B": "Başka öğe için söylendi — 'her biriniz yarı yarıya haklısınız' sözü anket sorularının biçimine ait.",
+            "C": "Söylendi ama danışman söylemedi — kâğıt Devan'ın görüşü, tablet Marit'in; danışman ikisi arasında seçim yapmayı reddediyor.",
+            "D": "Başka öğe için söylendi — 'yirmisi bitmeden ifadeye dokunmayın' uyarısı pilot denemeye ait.",
+            "E": "Başka öğe için söylendi — fazla süre biçme eleştirisi sunuma yönelik."
+          },
+          "explanation": "Devan wants paper and Marit wants a tablet; the tutor refuses to choose between them and says only that whichever they settle on must be used all the way through.",
+          "difficulty": "hard",
+          "status": "verified",
+          "blind_solvable": false,
           "blind_basis": null,
           "yeniden_uretim": {
-            "uretilen_grup": "P-MA-03 kutu secenekleri (dinleme alistirma / matching)",
-            "eski_secenekler": [
-              {
-                "letter": "A",
-                "text": "It includes time for audience questions."
-              },
-              {
-                "letter": "B",
-                "text": "It comes a week later than originally planned."
-              },
-              {
-                "letter": "C",
-                "text": "It should mix two different styles."
-              },
-              {
-                "letter": "D",
-                "text": "It must not involve the students' friends."
-              },
-              {
-                "letter": "E",
-                "text": "It must fit on a single page."
-              },
-              {
-                "letter": "F",
-                "text": "It should be carried out on paper."
-              }
-            ],
-            "eski_cevap": [
-              "A"
-            ],
-            "neden_elendi": "secenek_sozu: 'Dinleyici sorulari icin sure icerir' yalniz sunum koku icin soylenebilirdi.",
-            "ne_degisti": "Secenekten 'dinleyici sorulari' sozu cikarildi; yerine kokun adini anmayan 'ogrenciler ona gerekenden fazla sure ayirmis' kondu; bu soz ankete de pilota da oturuyor. Ayrim danismanin 'Ten minutes, and then five for questions. Not fifteen of your own' cumlesinde kaliyor. Harf A'dan E'ye alinarak dizi kirildi. Cevabin icerigi, kanit ve turn_index degismedi.",
             "tarih": "2026-08-18",
-            "kaynak_prompt": "denetim turu: dinleme alistirma yazim kusurlari (2026-08-18)"
+            "uretilen_kalem": "alistirma eslestirme #10 (L5-S3)",
+            "eski_kok": "the presentation (yeni #9 oldu)",
+            "ne_degisti": "Yeni kok. Kutudaki 'kagitla yapilmali' secenegi (C) bilerek tuzak olarak birakildi: kor cozucu 'cevaplar nasil kaydedilecek' kokunu dogrudan C'ye baglar, oysa kagit Devan'in gorusu; danismanin soyledigi tek sey tutarlilik (F)."
           }
         }
       ]

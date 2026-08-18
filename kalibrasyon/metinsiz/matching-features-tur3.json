@@ -1,34 +1,189 @@
 {
+  "tur": 3,
+  "paket": "matching-features",
+  "note": "Bagimsiz kor olcum - parca ve cevap anahtari gorulmeden verildi (2026-08-18).",
   "answers": [
-    { "id": "practice-matching-features-1", "answer": ["A"], "basis": "general_knowledge" },
-    { "id": "practice-matching-features-2", "answer": ["C"], "basis": "general_knowledge" },
-    { "id": "practice-matching-features-3", "answer": ["B"], "basis": "logic" },
-    { "id": "practice-matching-features-4", "answer": ["D"], "basis": "logic" },
-    { "id": "practice-matching-features-5", "answer": ["A"], "basis": "general_knowledge" },
-    { "id": "practice-matching-features-6", "answer": ["B"], "basis": "general_knowledge" },
-    { "id": "practice-matching-features-7", "answer": ["C"], "basis": "general_knowledge" },
-    { "id": "practice-matching-features-8", "answer": ["D"], "basis": "general_knowledge" },
-    { "id": "practice-matching-features-9", "answer": ["E"], "basis": "logic" },
-    { "id": "practice-matching-features-10", "answer": ["E"], "basis": "option_wording" },
-
-    { "id": "AC1-matching-features-23", "answer": ["D"], "basis": "logic" },
-    { "id": "AC1-matching-features-24", "answer": ["E"], "basis": "logic" },
-    { "id": "AC1-matching-features-25", "answer": ["B"], "basis": "option_wording" },
-    { "id": "AC1-matching-features-26", "answer": ["A"], "basis": "option_wording" },
-
-    { "id": "AC2-matching-features-23", "answer": ["A"], "basis": "logic" },
-    { "id": "AC2-matching-features-24", "answer": ["C"], "basis": "option_wording" },
-    { "id": "AC2-matching-features-25", "answer": ["B"], "basis": "general_knowledge" },
-    { "id": "AC2-matching-features-26", "answer": ["D"], "basis": "general_knowledge" },
-
-    { "id": "AC3-matching-features-23", "answer": ["D"], "basis": "logic" },
-    { "id": "AC3-matching-features-24", "answer": ["C"], "basis": "guess" },
-    { "id": "AC3-matching-features-25", "answer": ["B"], "basis": "logic" },
-    { "id": "AC3-matching-features-26", "answer": ["A"], "basis": "option_wording" },
-
-    { "id": "AC4-matching-features-23", "answer": ["D"], "basis": "guess" },
-    { "id": "AC4-matching-features-24", "answer": ["A"], "basis": "general_knowledge" },
-    { "id": "AC4-matching-features-25", "answer": ["C"], "basis": "logic" },
-    { "id": "AC4-matching-features-26", "answer": ["B"], "basis": "general_knowledge" }
+    {
+      "id": "practice-matching-features-1",
+      "answer": [
+        "__no_signal_3__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "practice-matching-features-2",
+      "answer": [
+        "__no_signal_3__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "practice-matching-features-3",
+      "answer": [
+        "__no_signal_3__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "practice-matching-features-4",
+      "answer": [
+        "__no_signal_3__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "practice-matching-features-5",
+      "answer": [
+        "__no_signal_3__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "practice-matching-features-6",
+      "answer": [
+        "__no_signal_3__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "practice-matching-features-7",
+      "answer": [
+        "__no_signal_3__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "practice-matching-features-8",
+      "answer": [
+        "__no_signal_3__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "practice-matching-features-9",
+      "answer": [
+        "__no_signal_3__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "practice-matching-features-10",
+      "answer": [
+        "__no_signal_3__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "AC1-matching-features-23",
+      "answer": [
+        "__no_signal_3__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "AC1-matching-features-24",
+      "answer": [
+        "__no_signal_3__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "AC1-matching-features-25",
+      "answer": [
+        "__no_signal_3__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "AC1-matching-features-26",
+      "answer": [
+        "__no_signal_3__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "AC2-matching-features-23",
+      "answer": [
+        "__no_signal_3__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "AC2-matching-features-24",
+      "answer": [
+        "__no_signal_3__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "AC2-matching-features-25",
+      "answer": [
+        "__no_signal_3__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "AC2-matching-features-26",
+      "answer": [
+        "__no_signal_3__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "AC3-matching-features-23",
+      "answer": [
+        "__no_signal_3__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "AC3-matching-features-24",
+      "answer": [
+        "__no_signal_3__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "AC3-matching-features-25",
+      "answer": [
+        "__no_signal_3__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "AC3-matching-features-26",
+      "answer": [
+        "__no_signal_3__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "AC4-matching-features-23",
+      "answer": [
+        "__no_signal_3__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "AC4-matching-features-24",
+      "answer": [
+        "__no_signal_3__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "AC4-matching-features-25",
+      "answer": [
+        "__no_signal_3__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "AC4-matching-features-26",
+      "answer": [
+        "B"
+      ],
+      "basis": "reasoning"
+    }
   ]
 }

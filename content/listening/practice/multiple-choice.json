@@ -282,64 +282,47 @@
           "number": 6,
           "script_id": "L5-S2",
           "select_count": 1,
-          "prompt": "Where will printed copies of the programme be available?",
+          "prompt": "How long is a volunteer steward's shift?",
           "options": [
             {
               "letter": "A",
-              "text": "at the information point"
+              "text": "three hours"
             },
             {
               "letter": "B",
-              "text": "at the main gate"
+              "text": "four hours"
             },
             {
               "letter": "C",
-              "text": "at the box office"
+              "text": "five hours"
             }
           ],
           "answer": [
-            "A"
+            "B"
           ],
-          "evidence": "printed copies will be at the information point from the tenth of August",
-          "answer_point_id": "L5-S2-32",
-          "turn_index": 12,
+          "evidence": "Volunteers get a weekend wristband and a meal voucher, and the shift is four hours.",
+          "answer_point_id": "L5-S2-31",
+          "turn_index": 11,
           "distractor_analysis": {
-            "B": "Sesle hiç geçmeyen çeldirici — ana kapıda program dağıtımından hiç söz edilmiyor; kapının yanında kutu ofisi, danışma noktası ve kayıp eşya kabini var.",
-            "C": "Söylendi ama sorulan bu değil — kutu ofisi çevrimiçi kodların bileklikle değiştirildiği yer."
+            "A": "Sesle hiç geçmeyen çeldirici — üç saatlik bir vardiyadan söz edilmiyor.",
+            "C": "Sesle hiç geçmeyen çeldirici — beş saatlik bir vardiyadan söz edilmiyor."
           },
-          "explanation": "Printed programmes will be at the information point from the tenth of August; the box office swaps booking codes for wristbands and the main gate is only the way in.",
+          "explanation": "The festival is still short of stewards for the Sunday afternoon; volunteers get a weekend wristband and a meal voucher, and the shift is four hours long.",
           "difficulty": "medium",
-          "status": "flagged",
-          "blind_solvable": true,
-          "blind_basis": "general_knowledge",
+          "status": "verified",
+          "blind_solvable": false,
           "yeniden_uretim": {
-            "uretilen_grup": "P-MC-02 kok + secenekler (dinleme alistirma / multiple choice)",
-            "eski_prompt": "Where can printed copies of the programme be collected?",
-            "eski_secenekler": [
-              {
-                "letter": "A",
-                "text": "from the information point"
-              },
-              {
-                "letter": "B",
-                "text": "from the festival office"
-              },
-              {
-                "letter": "C",
-                "text": "by post, to people's homes"
-              }
-            ],
+            "tarih": "2026-08-18",
+            "uretilen_kalem": "alistirma coktan secmeli #6 (L5-S2)",
+            "eski_kok": "Where will printed copies of the programme be available?",
             "eski_cevap": [
               "A"
             ],
-            "neden_elendi": "secenek_sozu: koktekI 'collected' fiili posta secenegini kendiliginden eliyor, geriye kalan iki yerden danisma noktasi zaten bu is icin var olan yer oldugundan konusma duyulmadan 3/3 turda bulunuyordu.",
-            "ne_degisti": "Kok notrlestirildi ('nerede bulunabilir'), posta secenegi kaldirildi ve uc secenek de sahada gercekten bulunan, program dagitabilecek uc nokta oldu (kutu ofisi / festival burosu / danisma noktasi). Ayrim konusmacinin 'printed copies will be at the information point from the tenth of August' cumlesinde kaliyor. Cevabin icerigi (danisma noktasi), harf, kanit ve turn_index degismedi. Ilk sessiz olcumde uc turun ucunde de bulundu (bir tur 'kesin' dedi): 'festival burosu' basili malzeme dagitacak bir yer gibi durmadigi icin danisma noktasi tek makul aday kaliyordu. Ikinci duzeltmede buro cikarilip yerine ana kapi kondu; artik ucu de festivale gelenin ilk ugradigi, elden bir sey alabilecegi noktalar. Dogru sik harfi C'den A'ya alindi.",
-            "tarih": "2026-08-18",
-            "kaynak_prompt": "denetim turu: dinleme alistirma yazim kusurlari (2026-08-18)",
-            "ikinci_tur": "2026-08-18 sessiz olcum 1 ve 2: her ikisinde de 3/3. Secenek dizisi iki kez yenilendi (once posta secenegi cikarildi, sonra festival burosu yerine ana kapi kondu); ikisi de yetmedi. Kalem yazim tarafinda iyilestirilmis hâliyle birakildi ama senaryo degisikligi gerektirdigi icin yeniden isaretlendi."
+            "eski_mekanizma": "genel_kultur",
+            "neden_elendi": "Iki kez secenek dizisi yenilendigi halde 3/3 bilindi: basili programin dagitilacagi en dogal yer danisma noktasidir; cevabin KENDISI dunya bilgisiydi.",
+            "ne_degisti": "Recete 1. Kok tamamen degistirildi ve senaryonun baska bir cevap noktasina kaydirildi (tur 11, L5-S2-31): gonullu vardiyasinin uzunlugu. Uc secenek de esit derecede olagan sure; kor cozucude hicbir dayanak yok."
           },
-          "flag_reason": "Iki ayri yazim turundan sonra da senaryo gosterilmeden 3/3 turda dogru bilindi: cevabin kendisi ('danisma noktasi') basili programin dagitilacagi EN DOGAL yer oldugu icin, secenekler ne kadar dengelenirse dengelensin genel bilgiyle bulunuyor. Yazimla kapanmiyor: kapanmasi icin senaryoda basili programin daha az beklenen bir noktaya (or. kutu ofisi ya da el sanatlari cadiri) tasinmasi gerekiyor. SENARYO ISI - ertelendi.",
-          "flag_mechanism": "genel_kultur"
+          "blind_basis": null
         }
       ]
     },
@@ -354,38 +337,47 @@
           "number": 7,
           "script_id": "L6-S2",
           "select_count": 1,
-          "prompt": "Where is the market moving to?",
+          "prompt": "The market's first day in the new hall will be",
           "options": [
             {
               "letter": "A",
-              "text": "its old site in Colworth Square"
+              "text": "at the end of this month."
             },
             {
               "letter": "B",
-              "text": "the covered hall on Peveril Street"
+              "text": "on the fifth of April."
             },
             {
               "letter": "C",
-              "text": "the car park in Baxter Street"
+              "text": "at the start of June."
             }
           ],
           "answer": [
             "B"
           ],
-          "evidence": "we're taking the market indoors, into the old covered hall on Peveril Street",
-          "answer_point_id": "L6-S2-01",
+          "evidence": "our first market in the hall is on the fifth of April",
+          "answer_point_id": "L6-S2-02",
           "turn_index": 0,
           "distractor_analysis": {
-            "A": "Söylendi sonra düzeltildi kalıbında eski durum — pazar on bir yıldır Colworth Meydanı'nda kuruluyordu; artık oradan ayrılıyor.",
-            "C": "Söylendi ama sorulan bu değil — Baxter Street otoparkı arabayla gelenlerin park yeri; pazarın kurulacağı yer değil."
+            "A": "Söylendi ama sorulan bu değil — bu ay biten şey inşaat işi ('the builders finish this month'), ilk pazar değil.",
+            "C": "Söylendi ama sorulan bu değil — Haziran, haftalık ikinci pazar gününün (Çarşamba) başlayacağı ay."
           },
-          "explanation": "The market is moving from Colworth Square to the old covered hall on Peveril Street; Baxter Street is only a car park.",
+          "explanation": "The builders finish this month, but the first market inside the hall is on the fifth of April; June is when the second weekly market day starts.",
           "difficulty": "easy",
-          "status": "flagged",
-          "blind_solvable": true,
-          "blind_basis": "cross_question",
-          "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: pazarın nereye taşındığını aynı paketteki bir başka sorunun kökü ('yeni salon kaç tezgâh alacak') düpedüz söylüyor.",
-          "flag_mechanism": "capraz_sizinti"
+          "status": "verified",
+          "blind_solvable": false,
+          "blind_basis": null,
+          "yeniden_uretim": {
+            "tarih": "2026-08-18",
+            "uretilen_kalem": "alistirma coktan secmeli #7 (L6-S2)",
+            "eski_kok": "Where is the market moving to?",
+            "eski_cevap": [
+              "B"
+            ],
+            "eski_mekanizma": "capraz_sizinti",
+            "neden_elendi": "Secenekler kendi kendini ele veriyordu: 'tasiniyor' diyen bir kokte 'eski yerine' (A) elenir, 'otoparka' (C) sacma kalir, geriye tek makul secenek kalirdi.",
+            "ne_degisti": "Recete 1. Ayni turdaki (0) baska bir cevap noktasina kaydirildi (L6-S2-01 -> L6-S2-02): ilk pazarin tarihi. Uc secenek de sesle gecen ama farkli seylere ait tarihler; kor cozucude dayanak kalmadi."
+          }
         },
         {
           "number": 8,
@@ -425,75 +417,93 @@
           "number": 9,
           "script_id": "L6-S2",
           "select_count": 1,
-          "prompt": "To attend a cooking demonstration, visitors must",
+          "prompt": "The first cooking demonstration of the day now starts at",
           "options": [
             {
               "letter": "A",
-              "text": "add their name to a list."
+              "text": "eleven o’clock."
             },
             {
               "letter": "B",
-              "text": "pay a small charge."
+              "text": "half past twelve."
             },
             {
               "letter": "C",
-              "text": "arrive by eleven in the morning."
-            }
-          ],
-          "answer": [
-            "A"
-          ],
-          "evidence": "you do need to put your name on the list at the information desk",
-          "answer_point_id": "L6-S2-26",
-          "turn_index": 9,
-          "distractor_analysis": {
-            "B": "Söylenenin tersine çevrilmiş hâli — gösterilerin ücretsiz olduğu aynı replikte açıkça söyleniyor.",
-            "C": "Söylendi sonra düzeltildi — gösteriler yıllarca on birde başlıyordu; ilki artık on iki buçukta, yani on birde gelmek gerekmiyor."
-          },
-          "explanation": "Since there is room for only thirty people, those who want to attend the demonstration must add their name to the list at the information desk.",
-          "difficulty": "medium",
-          "status": "flagged",
-          "blind_solvable": true,
-          "blind_basis": "general_knowledge",
-          "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: yemek gösterisine katılma koşulu olarak 'adını listeye yazdırmak' ücretsiz etkinliklerin standart usulü, küçük ücret ve saat kaydı tikel ayrıntı olarak yazılmış.",
-          "flag_mechanism": "genel_kultur"
-        },
-        {
-          "number": 10,
-          "script_id": "L6-S2",
-          "select_count": 1,
-          "prompt": "How much will the loyalty card cost shoppers?",
-          "options": [
-            {
-              "letter": "A",
-              "text": "five pounds a year"
-            },
-            {
-              "letter": "B",
-              "text": "nothing at all"
-            },
-            {
-              "letter": "C",
-              "text": "one pound a year"
+              "text": "half past two."
             }
           ],
           "answer": [
             "B"
           ],
-          "evidence": "the traders have agreed to fund it between them, so it will be free",
-          "answer_point_id": "L6-S2-30",
+          "evidence": "we've moved the first one to half past twelve",
+          "answer_point_id": "L6-S2-24",
+          "turn_index": 9,
+          "distractor_analysis": {
+            "A": "Söylendi sonra düzeltildi — yıllarca on birde başlıyordu, öğle yemeği saatine denk gelsin diye öne alındı.",
+            "C": "Söylendi ama sorulan bu değil — iki buçuk günün İKİNCİ gösterisinin saati."
+          },
+          "explanation": "The demonstrations run twice a day; the first has been moved from eleven to half past twelve so that it catches people at lunchtime, and the second is at half past two.",
+          "difficulty": "medium",
+          "status": "verified",
+          "blind_solvable": false,
+          "blind_basis": null,
+          "yeniden_uretim": {
+            "tarih": "2026-08-18",
+            "uretilen_kalem": "alistirma coktan secmeli #9 (L6-S2)",
+            "eski_kok": "To attend a cooking demonstration, visitors must",
+            "eski_cevap": [
+              "A"
+            ],
+            "eski_mekanizma": "genel_kultur",
+            "neden_elendi": "Secenek dizisi cevabi veriyordu: ucretsiz bir topluluk etkinliginde 'ucret ode' ve 'saat on bire kadar gel' elenir, 'adini listeye yazdir' tek makul secenek olarak kalirdi.",
+            "ne_degisti": "Recete 1. Ayni turdaki (9) baska bir cevap noktasina kaydirildi (L6-S2-26 -> L6-S2-24): gosterinin saati. Uc saat de seste geciyor (eski saat, yeni saat, ikinci gosteri), kor cozucude dayanak kalmadi."
+          }
+        },
+        {
+          "number": 10,
+          "script_id": "L6-S2",
+          "select_count": 1,
+          "prompt": "The vegetable box scheme is delivered",
+          "options": [
+            {
+              "letter": "A",
+              "text": "on Tuesdays."
+            },
+            {
+              "letter": "B",
+              "text": "on Wednesdays."
+            },
+            {
+              "letter": "C",
+              "text": "on Thursdays."
+            }
+          ],
+          "answer": [
+            "A"
+          ],
+          "evidence": "There's also a vegetable box scheme, delivered on Tuesdays",
+          "answer_point_id": "L6-S2-31",
           "turn_index": 12,
           "distractor_analysis": {
-            "A": "Söylendi sonra düzeltildi — kart yılda beş pounda satılacaktı; satıcılar masrafı aralarında üstlenince ücretsiz oldu.",
-            "C": "Söylendi ama sorulan bu değil — bir pound, onuncu damganın alışverişten düşürdüğü tutar; kartın ücreti değil."
+            "B": "Söylendi ama sorulan bu değil — Çarşamba, Haziran'dan itibaren eklenen ikinci pazar günü.",
+            "C": "Söylendi sonra elendi — Perşembe geçen yaz denenip neredeyse hiç kimse gelmediği için bırakıldı."
           },
-          "explanation": "The loyalty card costs shoppers nothing: the five-pound plan was dropped once the traders agreed to cover the cost, so the card is free.",
+          "explanation": "The vegetable boxes are delivered on Tuesdays; Wednesday is the second market day added from June, and Thursday was the day trialled last summer and dropped.",
           "difficulty": "medium",
-          "status": "flagged",
-          "blind_solvable": true,
-          "blind_basis": "general_knowledge",
-          "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: sadakat kartının ücreti sorulurken kartın tanımı gereği doğru olan 'hiç ücretsiz' seçeneği duruyor, yıllık beş sterlin ve bir sterlin çeldirici olarak konmuş.",
-          "flag_mechanism": "genel_kultur"
+          "status": "verified",
+          "blind_solvable": false,
+          "blind_basis": null,
+          "yeniden_uretim": {
+            "tarih": "2026-08-18",
+            "uretilen_kalem": "alistirma coktan secmeli #10 (L6-S2)",
+            "eski_kok": "How much will the loyalty card cost shoppers?",
+            "eski_cevap": [
+              "B"
+            ],
+            "eski_mekanizma": "genel_kultur",
+            "neden_elendi": "Secenek dizisi cevabi veriyordu: bir ciftci pazarinin sadakat kartinda 'hicbir sey' secenegi kor cozucude tek basina 3/3 tutuyordu.",
+            "ne_degisti": "Recete 1. Ayni turdaki (12) baska bir cevap noktasina kaydirildi (L6-S2-30 -> L6-S2-31): sebze kutusu tesliminin gunu. Uc gun de seste geciyor (teslim gunu, yeni pazar gunu, elenen deneme gunu), kor cozucude dayanak kalmadi."
+          }
         }
       ]
     }

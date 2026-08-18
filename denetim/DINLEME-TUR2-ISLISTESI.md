@@ -72,3 +72,14 @@ Senaryoya cumle EKLEME/CIKARMA yasak — yalniz var olan turun icinde yerinde de
 boylece turn_index hic kaymiyor (bu turda 7 senaryoda 7/7 korundu).
 Alistirma paketleri (practice/) senaryo turunda KILITLI kalir, ayri bir alt turda ele alinir —
 cunku bir practice dosyasi 4 ayri senaryoya bagli olabiliyor.
+
+## GUNCEL DURUM 2026-08-18 gecesi — ALISTIRMA ALT TURU BITTI
+Isaretli dinleme kalemi: **0**. Havuzun tamaminda (okuma + dinleme, alistirma + test)
+`blind_solvable: true` kalem KALMADI (`tools/dogrula.py` -> isaretli 0).
+Kapanan 23 kalemin tablosu + kapanis taramasi + bulunan 3 ek kusur:
+`denetim/BULUT-OTURUM-BRIEF.md` icindeki "ALISTIRMA ALT TURU SONUCU" bolumu.
+
+🔴 **Kalemler OLCULMEDI.** Turu yazan oturum kendi isini olcemez. Tek kalan engel bagimsiz
+kor olcum turu: `tools/sessiz-kopya.py` -> 3 tur -> `tools/sessiz-rapor.py`.
+Once bakilacak uc kalem (tahmin payi en yuksek): L1-S4 kisa 4 (`three degrees`) ·
+L3-S4 akis 2 (`30`) · L5-S4 akis 5 (`a quarter`).

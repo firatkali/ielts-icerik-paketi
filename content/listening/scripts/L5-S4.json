@@ -1,499 +1,512 @@
 {
- "schema_version": "1.0",
- "exam": "ielts",
- "script_id": "L5-S4",
- "skill": "listening",
- "test_id": "L5",
- "section": 4,
- "generated_by": "opus",
- "setting": "Deniz ortamindaki plastikler uzerine akademik ders",
- "context_line": "You will hear a lecturer talking about plastics in the sea and about how they are measured.",
- "word_count": 1028,
- "estimated_minutes": 6.6,
- "turn_index_base": 0,
- "speakers": [
-  {
-   "code": "F1",
-   "role": "ogretim uyesi",
-   "gender": "female",
-   "accent": "en-AU",
-   "voice": "en-AU",
-   "age_band": "35-55",
-   "pace": "olculu, veri verirken yavaslar"
-  }
- ],
- "turns": [
-  {
-   "speaker": "F1",
-   "text": "Good morning. Today I want to look at plastics in the sea, and I want to organise the hour around three questions: how much is going in, where it ends up, and — the one people skip — how confident we are that we are measuring any of it properly."
-  },
-  {
-   "speaker": "F1",
-   "text": "Some vocabulary first, because it is used loosely. A macroplastic is anything you can pick up with your fingers. A microplastic is a particle below five millimetres. You will see two millimetres in older papers, and that inconsistency has caused a great deal of trouble in the literature; when our group counted one survey's samples again under both limits, the five-millimetre total came out sixty per cent higher. The convention now is five. Below one micrometre we say nanoplastic, and I'll come back to why that category is so awkward."
-  },
-  {
-   "speaker": "F1",
-   "text": "Where does it come from? Roughly four fifths of what reaches the sea originates on land — packaging, construction, textiles washed out of drains. The remainder comes from activity at sea, and most of that is gear: nets, lines, floats, strapping. For a long time gear lost at sea was put at about a tenth of the total. The better surveys of the last decade put it nearer a fifth, and in some regions higher than that."
-  },
-  {
-   "speaker": "F1",
-   "text": "Rivers carry a great deal of the land-based share, and two things about that surprise people. The first is how concentrated it is: a small number of catchments carry a disproportionate amount, so intervening in a few places does more than spreading effort thinly. The second is timing. It is not spread evenly through the year — most of the annual load moves in a handful of high-flow weeks, which is exactly when nobody wants to be out on the water sampling."
-  },
-  {
-   "speaker": "F1",
-   "text": "Now, quantity. The figure quoted for years was eight million tonnes entering the ocean annually. The revised estimate, using better waste data, is closer to eleven, and you should treat both as order-of-magnitude statements rather than measurements. Against that, all the floating plastic we can actually find at the surface accounts for perhaps one per cent of what we think has gone in. That gap — the missing plastic problem — is the most interesting thing in the field."
-  },
-  {
-   "speaker": "F1",
-   "text": "There are four candidate destinations. Shorelines, where material is thrown back and buried in sand. The water column, where particles drift below the reach of surface nets. The seabed, where fine sediment accumulates in basins and canyons. And fragmentation below the detection limit — particles that have simply become too small for our instruments, which is precisely why nanoplastic matters."
-  },
-  {
-   "speaker": "F1",
-   "text": "The mechanism that moves material downward is worth learning as a sequence. A fragment enters the water and floats. Sunlight and wave action make the polymer brittle, so it breaks into smaller pieces. A film of organisms then grows on the surface of each piece — we call that biofouling — and the added weight makes the particle denser than seawater, so it sinks. In colder water below, that film is scoured away — the textbooks all say grazed, and grazing does thin it nearer the surface, but at that depth the grazers are absent and it is the moving water that scours it off — the particle becomes buoyant again, and some of it rises. So a great many particles are not sitting still on the seabed; they are oscillating."
-  },
-  {
-   "speaker": "F1",
-   "text": "Which brings me to measurement, and to my favourite awkward fact. The standard surface sampler is a manta trawl, towed alongside a vessel. The net that most surveys have used has a mesh of a third of a millimetre. A good deal of recent work uses a tenth, and, as you would expect, it finds several times more particles per cubic metre. Neither result is wrong. But you cannot put two studies side by side unless you know the mesh each of them used and how long each net was towed — forty minutes is the standard here, and a shorter tow in patchy water tells you very little. A distressing number of papers give neither figure."
-  },
-  {
-   "speaker": "F1",
-   "text": "Sediment cores give us the other half of the picture, because they are dated. Cores taken from sheltered basins show plastic particles appearing first in layers laid down in the nineteen fifties, and the quantity roughly doubling every fifteen years since. That is a cleaner record than anything we have from the surface, because sediment does not blow away."
-  },
-  {
-   "speaker": "F1",
-   "text": "On beaches, the counting is done largely by volunteers, and the results are more consistent than you might assume. Across very different coastlines, ten product types account for about three quarters of the items recorded. The other category worth naming is pellets — the raw granules that are melted down to make everything else. They are lost in transport rather than discarded, which makes them a supply-chain problem rather than a consumer one, and they are the one item counted separately in almost every survey."
-  },
-  {
-   "speaker": "F1",
-   "text": "So what actually helps? Four things, in my order of confidence. Design comes first: reducing the number of different polymers in a single product, so that sorting is possible at all. Second, extended producer responsibility — putting the cost of collection back onto whoever put the material on the market. Third, interception in rivers. Booms and traps are photogenic and they do work, but understand the limitation: they catch floating debris in low flow, which is the smaller part of the load, and they are least effective in the high-flow weeks that carry most of it."
-  },
-  {
-   "speaker": "F1",
-   "text": "And fourth — least photogenic, most useful — standardising the monitoring. Agreed mesh sizes, agreed size classes, agreed reporting units. Half the disagreement in this field is not disagreement about the ocean; it is disagreement about arithmetic."
-  },
-  {
-   "speaker": "F1",
-   "text": "For next week, read the chapter on polymer types, and bring in one everyday item that you think is badly designed for recovery — be ready to say why in two minutes. Your written assignment is twelve hundred words, and it is due on the Friday of week seven, not week six as the module outline says. The outline was written before the timetable changed."
-  }
- ],
- "answer_points": [
-  {
-   "id": "L5-S4-01",
-   "kind": "number",
-   "value": "5 mm (upper size limit of a microplastic)",
-   "quote": "A microplastic is a particle below five millimetres.",
-   "turn_index": 1,
-   "speaker": "F1",
-   "distractor": "2 mm (used in older papers)",
-   "suggested_types": [
-    "note_completion",
-    "multiple_choice"
-   ]
-  },
-  {
-   "id": "L5-S4-02",
-   "kind": "number",
-   "value": "1 micrometre (upper limit of a nanoplastic)",
-   "quote": "Below one micrometre we say nanoplastic",
-   "turn_index": 1,
-   "speaker": "F1",
-   "distractor": null,
-   "suggested_types": [
-    "note_completion",
-    "short_answer"
-   ]
-  },
-  {
-   "id": "L5-S4-03",
-   "kind": "number",
-   "value": "four fifths (share originating on land)",
-   "quote": "Roughly four fifths of what reaches the sea originates on land",
-   "turn_index": 2,
-   "speaker": "F1",
-   "distractor": null,
-   "suggested_types": [
-    "note_completion",
-    "summary_completion"
-   ]
-  },
-  {
-   "id": "L5-S4-04",
-   "kind": "number",
-   "value": "about a fifth (share from fishing and shipping gear)",
-   "quote": "The better surveys of the last decade put it nearer a fifth",
-   "turn_index": 2,
-   "speaker": "F1",
-   "distractor": "a tenth",
-   "suggested_types": [
-    "multiple_choice",
-    "note_completion"
-   ]
-  },
-  {
-   "id": "L5-S4-05",
-   "kind": "object",
-   "value": "gear: nets, lines, floats, strapping",
-   "quote": "and most of that is gear: nets, lines, floats, strapping",
-   "turn_index": 2,
-   "speaker": "F1",
-   "distractor": null,
-   "suggested_types": [
-    "short_answer",
-    "note_completion"
-   ]
-  },
-  {
-   "id": "L5-S4-06",
-   "kind": "advantage",
-   "value": "a few catchments carry a disproportionate amount, so targeted action is efficient",
-   "quote": "a small number of catchments carry a disproportionate amount, so intervening in a few places does more than spreading effort thinly",
-   "turn_index": 3,
-   "speaker": "F1",
-   "distractor": null,
-   "suggested_types": [
-    "summary_completion",
-    "multiple_choice"
-   ]
-  },
-  {
-   "id": "L5-S4-07",
-   "kind": "limitation",
-   "value": "most of the annual river load moves in a few high-flow weeks",
-   "quote": "most of the annual load moves in a handful of high-flow weeks",
-   "turn_index": 3,
-   "speaker": "F1",
-   "distractor": null,
-   "suggested_types": [
-    "sentence_completion",
-    "multiple_choice"
-   ]
-  },
-  {
-   "id": "L5-S4-08",
-   "kind": "number",
-   "value": "11 million tonnes a year (revised estimate)",
-   "quote": "The revised estimate, using better waste data, is closer to eleven",
-   "turn_index": 4,
-   "speaker": "F1",
-   "distractor": "8 million tonnes a year",
-   "suggested_types": [
-    "note_completion",
-    "multiple_choice"
-   ]
-  },
-  {
-   "id": "L5-S4-09",
-   "kind": "number",
-   "value": "about 1 per cent (floating plastic found at the surface)",
-   "quote": "accounts for perhaps one per cent of what we think has gone in",
-   "turn_index": 4,
-   "speaker": "F1",
-   "distractor": null,
-   "suggested_types": [
-    "summary_completion",
-    "short_answer"
-   ]
-  },
-  {
-   "id": "L5-S4-10",
-   "kind": "place",
-   "value": "four destinations: shorelines, water column, seabed, fragments below detection",
-   "quote": "There are four candidate destinations.",
-   "turn_index": 5,
-   "speaker": "F1",
-   "distractor": null,
-   "suggested_types": [
-    "note_completion",
-    "flow_chart_completion"
-   ]
-  },
-  {
-   "id": "L5-S4-11",
-   "kind": "reason",
-   "value": "particles become too small for instruments to detect",
-   "quote": "particles that have simply become too small for our instruments",
-   "turn_index": 5,
-   "speaker": "F1",
-   "distractor": null,
-   "suggested_types": [
-    "sentence_completion",
-    "multiple_choice"
-   ]
-  },
-  {
-   "id": "L5-S4-12",
-   "kind": "reason",
-   "value": "sunlight and wave action make the polymer brittle",
-   "quote": "Sunlight and wave action make the polymer brittle, so it breaks into smaller pieces.",
-   "turn_index": 6,
-   "speaker": "F1",
-   "distractor": null,
-   "suggested_types": [
-    "flow_chart_completion",
-    "short_answer"
-   ]
-  },
-  {
-   "id": "L5-S4-13",
-   "kind": "object",
-   "value": "biofouling (film of organisms growing on the particle)",
-   "quote": "we call that biofouling",
-   "turn_index": 6,
-   "speaker": "F1",
-   "distractor": null,
-   "suggested_types": [
-    "flow_chart_completion",
-    "short_answer"
-   ]
-  },
-  {
-   "id": "L5-S4-14",
-   "kind": "reason",
-   "value": "the added weight makes the particle denser than seawater, so it sinks",
-   "quote": "the added weight makes the particle denser than seawater, so it sinks",
-   "turn_index": 6,
-   "speaker": "F1",
-   "distractor": null,
-   "suggested_types": [
-    "flow_chart_completion",
-    "sentence_completion"
-   ]
-  },
-  {
-   "id": "L5-S4-15",
-   "kind": "reason",
-   "value": "in colder water the film is scoured away by the moving water and the particle rises again",
-   "quote": "that film is scoured away",
-   "turn_index": 6,
-   "speaker": "F1",
-   "distractor": "grazed",
-   "suggested_types": [
-    "flow_chart_completion",
-    "summary_completion"
-   ]
-  },
-  {
-   "id": "L5-S4-16",
-   "kind": "object",
-   "value": "manta trawl (standard surface sampler)",
-   "quote": "The standard surface sampler is a manta trawl, towed alongside a vessel.",
-   "turn_index": 7,
-   "speaker": "F1",
-   "distractor": null,
-   "suggested_types": [
-    "short_answer",
-    "note_completion"
-   ]
-  },
-  {
-   "id": "L5-S4-17",
-   "kind": "number",
-   "value": "a tenth of a millimetre (mesh used in recent work)",
-   "quote": "A good deal of recent work uses a tenth, and, as you would expect, it finds several times more particles per cubic metre.",
-   "turn_index": 7,
-   "speaker": "F1",
-   "distractor": "a third of a millimetre",
-   "suggested_types": [
-    "multiple_choice",
-    "note_completion"
-   ]
-  },
-  {
-   "id": "L5-S4-18",
-   "kind": "limitation",
-   "value": "studies are not comparable unless the mesh size is reported",
-   "quote": "you cannot put two studies side by side unless you know the mesh each of them used",
-   "turn_index": 7,
-   "speaker": "F1",
-   "distractor": null,
-   "suggested_types": [
-    "sentence_completion",
-    "multiple_choice"
-   ]
-  },
-  {
-   "id": "L5-S4-19",
-   "kind": "date",
-   "value": "the 1950s (first plastic in dated sediment layers)",
-   "quote": "show plastic particles appearing first in layers laid down in the nineteen fifties",
-   "turn_index": 8,
-   "speaker": "F1",
-   "distractor": null,
-   "suggested_types": [
-    "note_completion",
-    "short_answer"
-   ]
-  },
-  {
-   "id": "L5-S4-20",
-   "kind": "duration",
-   "value": "doubling roughly every 15 years",
-   "quote": "and the quantity roughly doubling every fifteen years since",
-   "turn_index": 8,
-   "speaker": "F1",
-   "distractor": null,
-   "suggested_types": [
-    "summary_completion",
-    "note_completion"
-   ]
-  },
-  {
-   "id": "L5-S4-21",
-   "kind": "advantage",
-   "value": "sediment is a cleaner record because it does not blow away",
-   "quote": "because sediment does not blow away",
-   "turn_index": 8,
-   "speaker": "F1",
-   "distractor": null,
-   "suggested_types": [
-    "multiple_choice",
-    "sentence_completion"
-   ]
-  },
-  {
-   "id": "L5-S4-22",
-   "kind": "number",
-   "value": "ten product types make up about three quarters of beach items",
-   "quote": "ten product types account for about three quarters of the items recorded",
-   "turn_index": 9,
-   "speaker": "F1",
-   "distractor": null,
-   "suggested_types": [
-    "note_completion",
-    "summary_completion"
-   ]
-  },
-  {
-   "id": "L5-S4-23",
-   "kind": "object",
-   "value": "pellets (raw granules lost in transport)",
-   "quote": "The other category worth naming is pellets — the raw granules that are melted down to make everything else.",
-   "turn_index": 9,
-   "speaker": "F1",
-   "distractor": null,
-   "suggested_types": [
-    "short_answer",
-    "note_completion"
-   ]
-  },
-  {
-   "id": "L5-S4-24",
-   "kind": "reason",
-   "value": "pellets are lost in transport, so it is a supply-chain problem",
-   "quote": "They are lost in transport rather than discarded, which makes them a supply-chain problem rather than a consumer one",
-   "turn_index": 9,
-   "speaker": "F1",
-   "distractor": null,
-   "suggested_types": [
-    "multiple_choice",
-    "summary_completion"
-   ]
-  },
-  {
-   "id": "L5-S4-25",
-   "kind": "rule",
-   "value": "design: fewer polymers per product so sorting is possible",
-   "quote": "reducing the number of different polymers in a single product, so that sorting is possible at all",
-   "turn_index": 10,
-   "speaker": "F1",
-   "distractor": null,
-   "suggested_types": [
-    "summary_completion",
-    "sentence_completion"
-   ]
-  },
-  {
-   "id": "L5-S4-26",
-   "kind": "rule",
-   "value": "extended producer responsibility",
-   "quote": "extended producer responsibility — putting the cost of collection back onto whoever put the material on the market",
-   "turn_index": 10,
-   "speaker": "F1",
-   "distractor": null,
-   "suggested_types": [
-    "note_completion",
-    "summary_completion"
-   ]
-  },
-  {
-   "id": "L5-S4-27",
-   "kind": "limitation",
-   "value": "river booms catch floating debris in low flow only",
-   "quote": "they catch floating debris in low flow, which is the smaller part of the load",
-   "turn_index": 10,
-   "speaker": "F1",
-   "distractor": null,
-   "suggested_types": [
-    "multiple_choice",
-    "sentence_completion"
-   ]
-  },
-  {
-   "id": "L5-S4-28",
-   "kind": "rule",
-   "value": "standardised monitoring: agreed mesh sizes, size classes, reporting units",
-   "quote": "Agreed mesh sizes, agreed size classes, agreed reporting units.",
-   "turn_index": 11,
-   "speaker": "F1",
-   "distractor": null,
-   "suggested_types": [
-    "note_completion",
-    "summary_completion"
-   ]
-  },
-  {
-   "id": "L5-S4-29",
-   "kind": "number",
-   "value": "1,200 words (assignment length)",
-   "quote": "Your written assignment is twelve hundred words",
-   "turn_index": 12,
-   "speaker": "F1",
-   "distractor": null,
-   "suggested_types": [
-    "note_completion",
-    "short_answer"
-   ]
-  },
-  {
-   "id": "L5-S4-30",
-   "kind": "date",
-   "value": "Friday of week 7 (assignment deadline)",
-   "quote": "it is due on the Friday of week seven, not week six as the module outline says",
-   "turn_index": 12,
-   "speaker": "F1",
-   "distractor": "Friday of week 6 (as in the module outline)",
-   "suggested_types": [
-    "note_completion",
-    "multiple_choice"
-   ]
-  },
-  {
-   "id": "L5-S4-31",
-   "kind": "number",
-   "value": "60 per cent (rise in the total when one survey was counted again under the five-millimetre limit)",
-   "quote": "the five-millimetre total came out sixty per cent higher",
-   "turn_index": 1,
-   "speaker": "F1",
-   "distractor": null,
-   "suggested_types": [
-    "table_completion",
-    "note_completion"
-   ]
-  },
-  {
-   "id": "L5-S4-32",
-   "kind": "number",
-   "value": "40 minutes (standard tow length, which must be reported alongside the mesh)",
-   "quote": "forty minutes is the standard here",
-   "turn_index": 7,
-   "speaker": "F1",
-   "distractor": null,
-   "suggested_types": [
-    "summary_completion",
-    "note_completion"
-   ]
-  }
- ],
- "spatial_description": null,
- "notes": "turn_index degerleri 0 tabanlidir. Bes celdirici duzeltme var: mikroplastik siniri (iki mm -> bes mm), av takimi payi (onda bir -> beste bir), yillik miktar (sekiz milyon ton -> on bir milyon), ag gozu (ucte bir mm -> onda bir mm), odev teslimi (altinci hafta -> yedinci hafta). Batma-yukselme dizisi (kirilma -> biyokirlenme -> batma -> siyrilma -> yukselme) akis semasi sorusu icin uygun. Gercek ulke, kurum ya da sirket adi yok. Metinde rakam yok. 2026-08-18 senaryo turu: iki tur yerinde degistirildi (tur sayisi ayni). Tur 1'e mikroplastik sinirinin yeniden sayim etkisi eklendi (yeni cevap noktasi L5-S4-31, yuzde altmis); tur 7'ye cekim suresi eklendi (yeni cevap noktasi L5-S4-32, kirk dakika). Amac: 31 ve 37 numarali sorularin cevabinin dunya bilgisiyle degil konusmanin kendi sectigi degerle bulunmasi."
+  "schema_version": "1.0",
+  "exam": "ielts",
+  "script_id": "L5-S4",
+  "skill": "listening",
+  "test_id": "L5",
+  "section": 4,
+  "generated_by": "opus",
+  "setting": "Deniz ortamindaki plastikler uzerine akademik ders",
+  "context_line": "You will hear a lecturer talking about plastics in the sea and about how they are measured.",
+  "word_count": 1130,
+  "estimated_minutes": 6.6,
+  "turn_index_base": 0,
+  "speakers": [
+    {
+      "code": "F1",
+      "role": "ogretim uyesi",
+      "gender": "female",
+      "accent": "en-AU",
+      "voice": "en-AU",
+      "age_band": "35-55",
+      "pace": "olculu, veri verirken yavaslar"
+    }
+  ],
+  "turns": [
+    {
+      "speaker": "F1",
+      "text": "Good morning. Today I want to look at plastics in the sea, and I want to organise the hour around three questions: how much is going in, where it ends up, and — the one people skip — how confident we are that we are measuring any of it properly."
+    },
+    {
+      "speaker": "F1",
+      "text": "Some vocabulary first, because it is used loosely. A macroplastic is anything you can pick up with your fingers. A microplastic is a particle below five millimetres. You will see two millimetres in older papers, and that inconsistency has caused a great deal of trouble in the literature; when our group counted one survey's samples again under both limits, the five-millimetre total came out sixty per cent higher. The convention now is five. Below one micrometre we say nanoplastic, and I'll come back to why that category is so awkward."
+    },
+    {
+      "speaker": "F1",
+      "text": "Where does it come from? Roughly four fifths of what reaches the sea originates on land — packaging, construction, textiles washed out of drains. The remainder comes from activity at sea, and most of that is gear: nets, lines, floats, strapping. For a long time gear lost at sea was put at about a tenth of the total. The better surveys of the last decade put it nearer a fifth, and in some regions higher than that."
+    },
+    {
+      "speaker": "F1",
+      "text": "Rivers carry a great deal of the land-based share, and two things about that surprise people. The first is how concentrated it is: a small number of catchments carry a disproportionate amount, so intervening in a few places does more than spreading effort thinly. The second is timing. It is not spread evenly through the year — most of the annual load moves in a handful of high-flow weeks, which is exactly when nobody wants to be out on the water sampling."
+    },
+    {
+      "speaker": "F1",
+      "text": "Now, quantity. The figure quoted for years was eight million tonnes entering the ocean annually. The revised estimate, using better waste data, is closer to eleven, and you should treat both as order-of-magnitude statements rather than measurements. Against that, all the floating plastic we can actually find at the surface accounts for perhaps a quarter of one per cent of what we think has gone in. You will see one per cent quoted everywhere, and it was a fair figure when the input estimate was eight million and the nets were coarse; set against eleven, and against what the fine nets now recover, a quarter is the honest number. That gap — the missing plastic problem — is the most interesting thing in the field."
+    },
+    {
+      "speaker": "F1",
+      "text": "There are four candidate destinations. Shorelines, where material is thrown back and buried in sand. The water column, where particles drift below the reach of surface nets. The seabed, where fine sediment accumulates in basins and canyons. And fragmentation below the detection limit — particles that have simply become too small for our instruments, which is precisely why nanoplastic matters."
+    },
+    {
+      "speaker": "F1",
+      "text": "The mechanism that moves material downward is worth learning as a sequence. A fragment enters the water and floats. Sunlight and wave action make the polymer brittle, so it breaks into smaller pieces. A film of organisms then grows on the surface of each piece — the textbooks call that biofouling, but the people who do the counting say ballasting, because it is the added weight and not the fouling itself that does the work — and the film makes the particle denser than seawater, so it sinks. In colder water below, that film is scoured away — the textbooks all say grazed, and grazing does thin it nearer the surface, but at that depth the grazers are absent and it is the moving water that scours it off — the particle becomes buoyant again, and some of it rises. So a great many particles are not sitting still on the seabed; they are oscillating."
+    },
+    {
+      "speaker": "F1",
+      "text": "Which brings me to measurement, and to my favourite awkward fact. The standard surface sampler is a manta trawl, towed alongside a vessel. The net that most surveys have used has a mesh of a third of a millimetre. A good deal of recent work uses a tenth; the surveys I would actually trust have gone finer still, to a twentieth, and, as you would expect, they find several times more particles per cubic metre. Neither result is wrong. But you cannot put two studies side by side unless you know the mesh each of them used and how long each net was towed — forty minutes is the standard here, and a shorter tow in patchy water tells you very little. A distressing number of papers give neither figure."
+    },
+    {
+      "speaker": "F1",
+      "text": "Sediment cores give us the other half of the picture, because they are dated. Cores taken from sheltered basins show plastic particles appearing first in layers laid down in the nineteen fifties, and the quantity roughly doubling every fifteen years since — the review papers all round that to a decade, but a decade is too fast for these cores. That is a cleaner record than anything we have from the surface, because sediment does not blow away."
+    },
+    {
+      "speaker": "F1",
+      "text": "On beaches, the counting is done largely by volunteers, and the results are more consistent than you might assume. Across very different coastlines, ten product types account for about three quarters of the items recorded. The other category worth naming is pellets — the raw granules that are melted down to make everything else. They are lost in transport rather than discarded, which makes them a supply-chain problem rather than a consumer one, and they are the one item counted separately in almost every survey."
+    },
+    {
+      "speaker": "F1",
+      "text": "So what actually helps? Four things, in my order of confidence. Design comes first: reducing the number of different polymers in a single product, so that sorting is possible at all. Second, extended producer responsibility — putting the cost of collection back onto whoever put the material on the market. Third, interception in rivers. Booms and traps are photogenic and they do work, but understand the limitation: they catch floating debris in low flow, which is the smaller part of the load, and they are least effective in the high-flow weeks that carry most of it."
+    },
+    {
+      "speaker": "F1",
+      "text": "And fourth — least photogenic, most useful — standardising the monitoring. Agreed mesh sizes, agreed size classes, agreed reporting units. Half the disagreement in this field is not disagreement about the ocean; it is disagreement about arithmetic."
+    },
+    {
+      "speaker": "F1",
+      "text": "For next week, read the chapter on polymer types, and bring in one everyday item that you think is badly designed for recovery — be ready to say why in two minutes. Your written assignment is twelve hundred words, and it is due on the Friday of week seven, not week six as the module outline says. The outline was written before the timetable changed."
+    }
+  ],
+  "answer_points": [
+    {
+      "id": "L5-S4-01",
+      "kind": "number",
+      "value": "5 mm (upper size limit of a microplastic)",
+      "quote": "A microplastic is a particle below five millimetres.",
+      "turn_index": 1,
+      "speaker": "F1",
+      "distractor": "2 mm (used in older papers)",
+      "suggested_types": [
+        "note_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L5-S4-02",
+      "kind": "number",
+      "value": "1 micrometre (upper limit of a nanoplastic)",
+      "quote": "Below one micrometre we say nanoplastic",
+      "turn_index": 1,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "note_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L5-S4-03",
+      "kind": "number",
+      "value": "four fifths (share originating on land)",
+      "quote": "Roughly four fifths of what reaches the sea originates on land",
+      "turn_index": 2,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "note_completion",
+        "summary_completion"
+      ]
+    },
+    {
+      "id": "L5-S4-04",
+      "kind": "number",
+      "value": "about a fifth (share from fishing and shipping gear)",
+      "quote": "The better surveys of the last decade put it nearer a fifth",
+      "turn_index": 2,
+      "speaker": "F1",
+      "distractor": "a tenth",
+      "suggested_types": [
+        "multiple_choice",
+        "note_completion"
+      ]
+    },
+    {
+      "id": "L5-S4-05",
+      "kind": "object",
+      "value": "gear: nets, lines, floats, strapping",
+      "quote": "and most of that is gear: nets, lines, floats, strapping",
+      "turn_index": 2,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "short_answer",
+        "note_completion"
+      ]
+    },
+    {
+      "id": "L5-S4-06",
+      "kind": "advantage",
+      "value": "a few catchments carry a disproportionate amount, so targeted action is efficient",
+      "quote": "a small number of catchments carry a disproportionate amount, so intervening in a few places does more than spreading effort thinly",
+      "turn_index": 3,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "summary_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L5-S4-07",
+      "kind": "limitation",
+      "value": "most of the annual river load moves in a few high-flow weeks",
+      "quote": "most of the annual load moves in a handful of high-flow weeks",
+      "turn_index": 3,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "sentence_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L5-S4-08",
+      "kind": "number",
+      "value": "11 million tonnes a year (revised estimate)",
+      "quote": "The revised estimate, using better waste data, is closer to eleven",
+      "turn_index": 4,
+      "speaker": "F1",
+      "distractor": "8 million tonnes a year",
+      "suggested_types": [
+        "note_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L5-S4-09",
+      "kind": "number",
+      "value": "about a quarter of one per cent (floating plastic found at the surface)",
+      "quote": "accounts for perhaps a quarter of one per cent of what we think has gone in",
+      "turn_index": 4,
+      "speaker": "F1",
+      "distractor": "one per cent (the figure quoted everywhere, worked out against the old 8-million input and coarse nets)",
+      "suggested_types": [
+        "summary_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L5-S4-10",
+      "kind": "place",
+      "value": "four destinations: shorelines, water column, seabed, fragments below detection",
+      "quote": "There are four candidate destinations.",
+      "turn_index": 5,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "note_completion",
+        "flow_chart_completion"
+      ]
+    },
+    {
+      "id": "L5-S4-11",
+      "kind": "reason",
+      "value": "particles become too small for instruments to detect",
+      "quote": "particles that have simply become too small for our instruments",
+      "turn_index": 5,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "sentence_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L5-S4-12",
+      "kind": "reason",
+      "value": "sunlight and wave action make the polymer brittle",
+      "quote": "Sunlight and wave action make the polymer brittle, so it breaks into smaller pieces.",
+      "turn_index": 6,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "flow_chart_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L5-S4-13",
+      "kind": "object",
+      "value": "ballasting (the counters’ word for the film weighing the particle down)",
+      "quote": "the people who do the counting say ballasting",
+      "turn_index": 6,
+      "speaker": "F1",
+      "distractor": "biofouling (the textbook word)",
+      "suggested_types": [
+        "flow_chart_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L5-S4-14",
+      "kind": "reason",
+      "value": "the added weight makes the particle denser than seawater, so it sinks",
+      "quote": "the added weight makes the particle denser than seawater, so it sinks",
+      "turn_index": 6,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "flow_chart_completion",
+        "sentence_completion"
+      ]
+    },
+    {
+      "id": "L5-S4-15",
+      "kind": "reason",
+      "value": "in colder water the film is scoured away by the moving water and the particle rises again",
+      "quote": "that film is scoured away",
+      "turn_index": 6,
+      "speaker": "F1",
+      "distractor": "grazed",
+      "suggested_types": [
+        "flow_chart_completion",
+        "summary_completion"
+      ]
+    },
+    {
+      "id": "L5-S4-16",
+      "kind": "object",
+      "value": "manta trawl (standard surface sampler)",
+      "quote": "The standard surface sampler is a manta trawl, towed alongside a vessel.",
+      "turn_index": 7,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "short_answer",
+        "note_completion"
+      ]
+    },
+    {
+      "id": "L5-S4-17",
+      "kind": "number",
+      "value": "a twentieth of a millimetre (mesh used by the surveys the speaker trusts)",
+      "quote": "the surveys I would actually trust have gone finer still, to a twentieth",
+      "turn_index": 7,
+      "speaker": "F1",
+      "distractor": "a tenth of a millimetre (a good deal of recent work) / a third of a millimetre (most surveys)",
+      "suggested_types": [
+        "multiple_choice",
+        "note_completion"
+      ]
+    },
+    {
+      "id": "L5-S4-18",
+      "kind": "limitation",
+      "value": "studies are not comparable unless the mesh size is reported",
+      "quote": "you cannot put two studies side by side unless you know the mesh each of them used",
+      "turn_index": 7,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "sentence_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L5-S4-19",
+      "kind": "date",
+      "value": "the 1950s (first plastic in dated sediment layers)",
+      "quote": "show plastic particles appearing first in layers laid down in the nineteen fifties",
+      "turn_index": 8,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "note_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L5-S4-20",
+      "kind": "duration",
+      "value": "doubling roughly every 15 years",
+      "quote": "the quantity roughly doubling every fifteen years since",
+      "turn_index": 8,
+      "speaker": "F1",
+      "distractor": "a decade (the rounding used in the review papers, rejected)",
+      "suggested_types": [
+        "summary_completion",
+        "note_completion"
+      ]
+    },
+    {
+      "id": "L5-S4-21",
+      "kind": "advantage",
+      "value": "sediment is a cleaner record because it does not blow away",
+      "quote": "because sediment does not blow away",
+      "turn_index": 8,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "multiple_choice",
+        "sentence_completion"
+      ]
+    },
+    {
+      "id": "L5-S4-22",
+      "kind": "number",
+      "value": "ten product types make up about three quarters of beach items",
+      "quote": "ten product types account for about three quarters of the items recorded",
+      "turn_index": 9,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "note_completion",
+        "summary_completion"
+      ]
+    },
+    {
+      "id": "L5-S4-23",
+      "kind": "object",
+      "value": "pellets (raw granules lost in transport)",
+      "quote": "The other category worth naming is pellets — the raw granules that are melted down to make everything else.",
+      "turn_index": 9,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "short_answer",
+        "note_completion"
+      ]
+    },
+    {
+      "id": "L5-S4-24",
+      "kind": "reason",
+      "value": "pellets are lost in transport, so it is a supply-chain problem",
+      "quote": "They are lost in transport rather than discarded, which makes them a supply-chain problem rather than a consumer one",
+      "turn_index": 9,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "multiple_choice",
+        "summary_completion"
+      ]
+    },
+    {
+      "id": "L5-S4-25",
+      "kind": "rule",
+      "value": "design: fewer polymers per product so sorting is possible",
+      "quote": "reducing the number of different polymers in a single product, so that sorting is possible at all",
+      "turn_index": 10,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "summary_completion",
+        "sentence_completion"
+      ]
+    },
+    {
+      "id": "L5-S4-26",
+      "kind": "rule",
+      "value": "extended producer responsibility",
+      "quote": "extended producer responsibility — putting the cost of collection back onto whoever put the material on the market",
+      "turn_index": 10,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "note_completion",
+        "summary_completion"
+      ]
+    },
+    {
+      "id": "L5-S4-27",
+      "kind": "limitation",
+      "value": "river booms catch floating debris in low flow only",
+      "quote": "they catch floating debris in low flow, which is the smaller part of the load",
+      "turn_index": 10,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "multiple_choice",
+        "sentence_completion"
+      ]
+    },
+    {
+      "id": "L5-S4-28",
+      "kind": "rule",
+      "value": "standardised monitoring: agreed mesh sizes, size classes, reporting units",
+      "quote": "Agreed mesh sizes, agreed size classes, agreed reporting units.",
+      "turn_index": 11,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "note_completion",
+        "summary_completion"
+      ]
+    },
+    {
+      "id": "L5-S4-29",
+      "kind": "number",
+      "value": "1,200 words (assignment length)",
+      "quote": "Your written assignment is twelve hundred words",
+      "turn_index": 12,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "note_completion",
+        "short_answer"
+      ]
+    },
+    {
+      "id": "L5-S4-30",
+      "kind": "date",
+      "value": "Friday of week 7 (assignment deadline)",
+      "quote": "it is due on the Friday of week seven, not week six as the module outline says",
+      "turn_index": 12,
+      "speaker": "F1",
+      "distractor": "Friday of week 6 (as in the module outline)",
+      "suggested_types": [
+        "note_completion",
+        "multiple_choice"
+      ]
+    },
+    {
+      "id": "L5-S4-31",
+      "kind": "number",
+      "value": "60 per cent (rise in the total when one survey was counted again under the five-millimetre limit)",
+      "quote": "the five-millimetre total came out sixty per cent higher",
+      "turn_index": 1,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "table_completion",
+        "note_completion"
+      ]
+    },
+    {
+      "id": "L5-S4-32",
+      "kind": "number",
+      "value": "40 minutes (standard tow length, which must be reported alongside the mesh)",
+      "quote": "forty minutes is the standard here",
+      "turn_index": 7,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "summary_completion",
+        "note_completion"
+      ]
+    },
+    {
+      "id": "L5-S4-33",
+      "kind": "reason",
+      "value": "half the disagreement in the field is disagreement about arithmetic, not about the ocean",
+      "quote": "it is disagreement about arithmetic",
+      "turn_index": 11,
+      "speaker": "F1",
+      "distractor": null,
+      "suggested_types": [
+        "short_answer",
+        "summary_completion"
+      ]
+    }
+  ],
+  "spatial_description": null,
+  "notes": "turn_index degerleri 0 tabanlidir. Bes celdirici duzeltme var: mikroplastik siniri (iki mm -> bes mm), av takimi payi (onda bir -> beste bir), yillik miktar (sekiz milyon ton -> on bir milyon), ag gozu (ucte bir mm -> onda bir mm), odev teslimi (altinci hafta -> yedinci hafta). Batma-yukselme dizisi (kirilma -> biyokirlenme -> batma -> siyrilma -> yukselme) akis semasi sorusu icin uygun. Gercek ulke, kurum ya da sirket adi yok. Metinde rakam yok. 2026-08-18 senaryo turu: iki tur yerinde degistirildi (tur sayisi ayni). Tur 1'e mikroplastik sinirinin yeniden sayim etkisi eklendi (yeni cevap noktasi L5-S4-31, yuzde altmis); tur 7'ye cekim suresi eklendi (yeni cevap noktasi L5-S4-32, kirk dakika). Amac: 31 ve 37 numarali sorularin cevabinin dunya bilgisiyle degil konusmanin kendi sectigi degerle bulunmasi."
 }

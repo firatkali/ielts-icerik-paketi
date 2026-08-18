@@ -1,17 +1,91 @@
 {
+  "tur": 3,
+  "paket": "table-completion",
+  "note": "Bagimsiz kor olcum - parca ve cevap anahtari gorulmeden verildi (2026-08-18).",
   "answers": [
-    { "id": "AC3-table-completion-1", "answer": ["acrylic"], "basis": "guess" },
-    { "id": "AC3-table-completion-2", "answer": ["head turns"], "basis": "guess" },
-    { "id": "AC3-table-completion-3", "answer": ["dye"], "basis": "general_knowledge" },
-    { "id": "AC3-table-completion-4", "answer": ["six"], "basis": "guess" },
-    { "id": "AC3-table-completion-5", "answer": ["45 seconds"], "basis": "guess" },
-    { "id": "AC3-table-completion-6", "answer": ["right eye"], "basis": "general_knowledge" },
-
-    { "id": "GT2-table-completion-15", "answer": ["sponsorship"], "basis": "logic" },
-    { "id": "GT2-table-completion-16", "answer": ["CV"], "basis": "logic" },
-    { "id": "GT2-table-completion-17", "answer": ["video interview"], "basis": "guess" },
-    { "id": "GT2-table-completion-18", "answer": ["two weeks"], "basis": "guess" },
-    { "id": "GT2-table-completion-19", "answer": ["relocation allowance"], "basis": "logic" },
-    { "id": "GT2-table-completion-20", "answer": ["mentor"], "basis": "logic" }
+    {
+      "id": "AC3-table-completion-1",
+      "answer": [
+        "__no_signal_3__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "AC3-table-completion-2",
+      "answer": [
+        "__no_signal_3__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "AC3-table-completion-3",
+      "answer": [
+        "__no_signal_3__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "AC3-table-completion-4",
+      "answer": [
+        "__no_signal_3__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "AC3-table-completion-5",
+      "answer": [
+        "__no_signal_3__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "AC3-table-completion-6",
+      "answer": [
+        "__no_signal_3__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "GT2-table-completion-15",
+      "answer": [
+        "__no_signal_3__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "GT2-table-completion-16",
+      "answer": [
+        "personal"
+      ],
+      "basis": "reasoning"
+    },
+    {
+      "id": "GT2-table-completion-17",
+      "answer": [
+        "__no_signal_3__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "GT2-table-completion-18",
+      "answer": [
+        "__no_signal_3__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "GT2-table-completion-19",
+      "answer": [
+        "relocation"
+      ],
+      "basis": "reasoning"
+    },
+    {
+      "id": "GT2-table-completion-20",
+      "answer": [
+        "halfway"
+      ],
+      "basis": "reasoning"
+    }
   ]
 }

@@ -1,29 +1,168 @@
 {
+  "tur": 3,
+  "paket": "yes-no-not-given",
+  "note": "Bagimsiz kor olcum - parca ve cevap anahtari gorulmeden verildi (2026-08-18).",
   "answers": [
-    { "id": "practice-yes-no-not-given-1", "answer": ["NOT GIVEN"], "basis": "logic" },
-    { "id": "practice-yes-no-not-given-2", "answer": ["YES"], "basis": "general_knowledge" },
-    { "id": "practice-yes-no-not-given-3", "answer": ["NO"], "basis": "option_wording" },
-    { "id": "practice-yes-no-not-given-4", "answer": ["YES"], "basis": "general_knowledge" },
-    { "id": "practice-yes-no-not-given-5", "answer": ["YES"], "basis": "general_knowledge" },
-    { "id": "practice-yes-no-not-given-6", "answer": ["NO"], "basis": "logic" },
-    { "id": "practice-yes-no-not-given-7", "answer": ["YES"], "basis": "logic" },
-    { "id": "practice-yes-no-not-given-8", "answer": ["NOT GIVEN"], "basis": "logic" },
-    { "id": "practice-yes-no-not-given-9", "answer": ["YES"], "basis": "general_knowledge" },
-    { "id": "practice-yes-no-not-given-10", "answer": ["NOT GIVEN"], "basis": "logic" },
-    { "id": "practice-yes-no-not-given-11", "answer": ["NO"], "basis": "logic" },
-    { "id": "practice-yes-no-not-given-12", "answer": ["YES"], "basis": "general_knowledge" },
-    { "id": "practice-yes-no-not-given-13", "answer": ["NOT GIVEN"], "basis": "logic" },
-    { "id": "practice-yes-no-not-given-14", "answer": ["NO"], "basis": "option_wording" },
-    { "id": "practice-yes-no-not-given-15", "answer": ["NO"], "basis": "general_knowledge" },
-
-    { "id": "GT1-yes-no-not-given-33", "answer": ["YES"], "basis": "general_knowledge" },
-    { "id": "GT1-yes-no-not-given-34", "answer": ["NO"], "basis": "general_knowledge" },
-    { "id": "GT1-yes-no-not-given-35", "answer": ["YES"], "basis": "logic" },
-    { "id": "GT1-yes-no-not-given-36", "answer": ["NOT GIVEN"], "basis": "logic" },
-
-    { "id": "GT2-yes-no-not-given-33", "answer": ["NOT GIVEN"], "basis": "logic" },
-    { "id": "GT2-yes-no-not-given-34", "answer": ["YES"], "basis": "general_knowledge" },
-    { "id": "GT2-yes-no-not-given-35", "answer": ["YES"], "basis": "logic" },
-    { "id": "GT2-yes-no-not-given-36", "answer": ["NO"], "basis": "logic" }
+    {
+      "id": "practice-yes-no-not-given-1",
+      "answer": [
+        "__no_signal_3__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "practice-yes-no-not-given-2",
+      "answer": [
+        "__no_signal_3__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "practice-yes-no-not-given-3",
+      "answer": [
+        "__no_signal_3__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "practice-yes-no-not-given-4",
+      "answer": [
+        "__no_signal_3__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "practice-yes-no-not-given-5",
+      "answer": [
+        "__no_signal_3__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "practice-yes-no-not-given-6",
+      "answer": [
+        "__no_signal_3__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "practice-yes-no-not-given-7",
+      "answer": [
+        "__no_signal_3__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "practice-yes-no-not-given-8",
+      "answer": [
+        "__no_signal_3__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "practice-yes-no-not-given-9",
+      "answer": [
+        "__no_signal_3__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "practice-yes-no-not-given-10",
+      "answer": [
+        "__no_signal_3__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "practice-yes-no-not-given-11",
+      "answer": [
+        "__no_signal_3__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "practice-yes-no-not-given-12",
+      "answer": [
+        "__no_signal_3__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "practice-yes-no-not-given-13",
+      "answer": [
+        "__no_signal_3__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "practice-yes-no-not-given-14",
+      "answer": [
+        "__no_signal_3__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "practice-yes-no-not-given-15",
+      "answer": [
+        "__no_signal_3__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "GT1-yes-no-not-given-33",
+      "answer": [
+        "__no_signal_3__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "GT1-yes-no-not-given-34",
+      "answer": [
+        "__no_signal_3__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "GT1-yes-no-not-given-35",
+      "answer": [
+        "__no_signal_3__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "GT1-yes-no-not-given-36",
+      "answer": [
+        "__no_signal_3__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "GT2-yes-no-not-given-33",
+      "answer": [
+        "__no_signal_3__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "GT2-yes-no-not-given-34",
+      "answer": [
+        "__no_signal_3__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "GT2-yes-no-not-given-35",
+      "answer": [
+        "__no_signal_3__"
+      ],
+      "basis": "no_signal_default"
+    },
+    {
+      "id": "GT2-yes-no-not-given-36",
+      "answer": [
+        "__no_signal_3__"
+      ],
+      "basis": "no_signal_default"
+    }
   ]
 }

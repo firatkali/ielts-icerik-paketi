@@ -320,29 +320,38 @@
       "instructions": "Complete the notes below. Write NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
       "word_limit": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
       "table": null,
-      "stem_block": "BEHAVIOURAL ECONOMICS — SEMINAR NOTES\n\n- changing the wording of a choice changes the choice: this is called (13) ........\n- automatic saving scheme: average share of pay saved rose to (14) ........ per cent in four years\n- letters about unpaid bills: a reminder sent (15) ........ before the deadline works best",
+      "stem_block": "BEHAVIOURAL ECONOMICS — SEMINAR NOTES\n\n- jam stall: two dozen varieties stopped six in ten passers-by, but only about\n  one in (13) ........ of those who stopped actually bought a jar\n- automatic saving scheme: average share of pay saved rose to (14) ........ per cent in four years\n- letters about unpaid bills: a reminder sent (15) ........ before the deadline works best",
       "items": [
         {
           "number": 13,
           "script_id": "L6-S4",
-          "prompt": "changing the wording of a choice changes the choice: this is called (13) ........",
+          "prompt": "jam stall: two dozen varieties stopped six in ten passers-by, but only about one in (13) ........ of those who stopped actually bought a jar",
           "answer": [
-            "framing"
+            "30"
           ],
           "accepted_variants": [
-            "framing"
+            "30",
+            "thirty"
           ],
-          "evidence": "the wording of a choice changes the choice. That's framing.",
-          "answer_point_id": "L6-S4-07",
-          "turn_index": 2,
-          "distractor_used": null,
-          "explanation": "Because judgements are made relative to a reference point, how a choice is worded changes the choice itself; this effect is called framing.",
+          "evidence": "about one in thirty bought a jar at the large display, against nearly one in three at the small one",
+          "answer_point_id": "L6-S4-19",
+          "turn_index": 6,
+          "distractor_used": "one in three (the small display)",
+          "explanation": "The large display stopped more people — six in ten against three in ten — but of those who stopped only about one in thirty bought, against nearly one in three at the small display.",
           "difficulty": "easy",
-          "status": "flagged",
-          "blind_solvable": true,
-          "blind_basis": "general_knowledge",
-          "flag_reason": "Senaryo gösterilmeden 3/3 turda doğru bilindi: 'bir seçimin sözünü değiştirmek seçimi değiştirir: buna (13) denir' bir terim tanımı, boşluğa alanın standart adı düşüyor.",
-          "flag_mechanism": "genel_kultur"
+          "status": "verified",
+          "blind_solvable": false,
+          "blind_basis": null,
+          "yeniden_uretim": {
+            "tarih": "2026-08-18",
+            "uretilen_kalem": "alistirma not tamamlama #13 (L6-S4)",
+            "eski_cevap": [
+              "framing"
+            ],
+            "eski_mekanizma": "genel_kultur",
+            "neden_elendi": "Kor olcumde 3/3 bilindi: 'secimin ifadesi secimi degistirir, buna ... denir' bir tanim sorusu; davranissal iktisadin en bilinen terimi.",
+            "ne_degisti": "Recete 1. Bosluk tur 6'ya kaydirildi (L6-S4-19): recel tezgahi deneyinin satin alma orani. Tur 6'ya bagli baska hicbir kalem yok; sayi yalniz seste geciyor ve ayni cumledeki 'one in three' celdirici olarak duruyor. Tur 2'ye bagli sinav kalemi L6 not #33 ('season-ticket renewals') korundu."
+          }
         },
         {
           "number": 14,

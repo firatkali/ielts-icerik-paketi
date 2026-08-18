@@ -8,7 +8,7 @@
   "generated_by": "opus",
   "setting": "Kentsel tarim uzerine akademik ders",
   "context_line": "You will hear a lecturer giving a talk about growing food in cities.",
-  "word_count": 1040,
+  "word_count": 1066,
   "estimated_minutes": 6.7,
   "turn_index_base": 0,
   "speakers": [
@@ -49,7 +49,7 @@
     },
     {
       "speaker": "M1",
-      "text": "The stronger environmental arguments concern the fabric of the city itself. A planted roof holds back rainfall: measurements on one test building suggested that around half of a heavy shower was retained rather than running straight into the drains, which matters in cities with combined sewers. Planted surfaces also cool their surroundings. On the hottest afternoons, the difference recorded between a green roof and a bare one reached three degrees."
+      "text": "The stronger environmental arguments concern the fabric of the city itself. A planted roof holds back rainfall: measurements on one test building suggested that around half of a heavy shower was retained rather than running straight into the drains, which matters in cities with combined sewers. Planted surfaces also cool their surroundings. On the hottest afternoons, the air-temperature difference recorded between a green roof and a bare one reached three degrees — and do keep that apart from the surface reading, where the gap runs to thirty and where most of the quoted figures come from."
     },
     {
       "speaker": "M1",
@@ -301,11 +301,11 @@
     {
       "id": "L1-S4-17",
       "kind": "number",
-      "value": "three degrees",
-      "quote": "the difference recorded between a green roof and a bare one reached three degrees",
+      "value": "3 degrees (air-temperature difference between a green roof and a bare one)",
+      "quote": "the air-temperature difference recorded between a green roof and a bare one reached three degrees",
       "turn_index": 6,
       "speaker": "M1",
-      "distractor": null,
+      "distractor": "30 degrees (the surface reading, where most quoted figures come from)",
       "suggested_types": [
         "note_completion",
         "short_answer"
@@ -465,6 +465,19 @@
       "suggested_types": [
         "short_answer",
         "multiple_choice"
+      ]
+    },
+    {
+      "id": "L1-S4-31",
+      "kind": "number",
+      "value": "up to 15 times a field (the old yield claim, later corrected to about 3)",
+      "quote": "a well-run urban plot produces up to fifteen times as much per square metre as a conventional field",
+      "turn_index": 4,
+      "speaker": "M1",
+      "distractor": "about three times (the realistic figure)",
+      "suggested_types": [
+        "table_completion",
+        "note_completion"
       ]
     }
   ],

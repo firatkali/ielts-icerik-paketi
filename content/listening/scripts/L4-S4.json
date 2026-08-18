@@ -8,7 +8,7 @@
   "generated_by": "opus",
   "setting": "Cevre bilimi dersinde gurultu kirliligi uzerine ders anlatimi",
   "context_line": "You will hear part of a lecture about noise pollution, how it is measured and how it can be reduced.",
-  "word_count": 1027,
+  "word_count": 1108,
   "estimated_minutes": 6.8,
   "turn_index_base": 0,
   "speakers": [
@@ -45,7 +45,7 @@
     },
     {
       "speaker": "F1",
-      "text": "So what dominates? Road traffic, overwhelmingly. You will sometimes see it put at two thirds of the exposed population; the more recent figures put it nearer four fifths. Railways come a long way second and aircraft third, though aircraft generate a far higher volume of complaint per person exposed."
+      "text": "So what dominates? Road traffic, overwhelmingly. You will sometimes see it put at two thirds of the exposed population; the more recent figures put it nearer four fifths. After that the ranking is not the one you would expect. The textbook order puts railways second and aircraft third, but on the latest continent-wide count aircraft reach more people than the railways do, because flight paths run over dense suburbs while the busiest lines run through open country — and aircraft generate a far higher volume of complaint per person exposed as well."
     },
     {
       "speaker": "F1",
@@ -69,7 +69,7 @@
     },
     {
       "speaker": "F1",
-      "text": "At the receiver you are into glazing, and there is a trap. Secondary glazing works, and the width of the gap between the panes matters more than the thickness of the glass; but a sealed bedroom in July is unbearable, so the window gets opened and everything that was paid for is lost. The better answer is planning: put the bedrooms on the quiet side of the building."
+      "text": "At the receiver you are into glazing, and there is a trap. Secondary glazing works, and every catalogue sells you on the thickness of the glass, but it is the width of the gap between the panes that does the work — under a hundred millimetres of gap you are buying very little; but a sealed bedroom in July is unbearable, so the window gets opened and everything that was paid for is lost. The better answer is planning: put the bedrooms on the quiet side of the building."
     },
     {
       "speaker": "F1",
@@ -77,7 +77,7 @@
     },
     {
       "speaker": "F1",
-      "text": "The ecology, briefly — that is where the field is moving. Birds in noisy places sing at a higher pitch than the same species in quiet places, and they start earlier in the morning; the low frequencies of traffic mask the low end of their song. Some species simply thin out within a few hundred metres of a busy road, on otherwise good habitat — so a road takes away more habitat than the strip of asphalt it occupies."
+      "text": "The ecology, briefly — that is where the field is moving. Birds in noisy places sing at a higher pitch than the same species in quiet places, and — this is where the popular account goes wrong, it is not that they sing louder — they start earlier in the morning; the low frequencies of traffic mask the low end of their song. Some species simply thin out within a few hundred metres of a busy road, on otherwise good habitat — so a road takes away more habitat than the strip of asphalt it occupies."
     },
     {
       "speaker": "F1",
@@ -244,11 +244,11 @@
     {
       "id": "L4-S4-13",
       "kind": "rule",
-      "value": "railways second, aircraft third",
-      "quote": "Railways come a long way second and aircraft third",
+      "value": "on the latest count aircraft reach more people than railways; the textbook order is the reverse",
+      "quote": "on the latest continent-wide count aircraft reach more people than the railways do",
       "turn_index": 5,
       "speaker": "F1",
-      "distractor": null,
+      "distractor": "railways second (the textbook order, explicitly rejected)",
       "suggested_types": [
         "note_completion",
         "short_answer"
@@ -426,11 +426,11 @@
     {
       "id": "L4-S4-27",
       "kind": "rule",
-      "value": "the gap between the panes matters more than the thickness of the glass",
-      "quote": "the width of the gap between the panes matters more than the thickness of the glass",
+      "value": "the gap between the panes matters more than the glass; under 100 mm of gap buys very little",
+      "quote": "under a hundred millimetres of gap you are buying very little",
       "turn_index": 11,
       "speaker": "F1",
-      "distractor": null,
+      "distractor": "the thickness of the glass (what the catalogues sell)",
       "suggested_types": [
         "sentence_completion",
         "short_answer"
@@ -491,11 +491,11 @@
     {
       "id": "L4-S4-32",
       "kind": "rule",
-      "value": "birds in noisy places sing higher and start earlier",
-      "quote": "sing at a higher pitch than the same species in quiet places",
+      "value": "birds in noisy places sing higher and start earlier — not louder",
+      "quote": "it is not that they sing louder — they start earlier in the morning",
       "turn_index": 13,
       "speaker": "F1",
-      "distractor": null,
+      "distractor": "singing louder (the popular account, rejected)",
       "suggested_types": [
         "note_completion",
         "short_answer"

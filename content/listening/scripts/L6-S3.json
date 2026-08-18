@@ -8,7 +8,7 @@
   "generated_by": "opus",
   "setting": "Iki ogrencinin bir derleme odevi icin kaynak taramasini konu uzmani kutuphaneciyle planlamasi",
   "context_line": "You will hear two students discussing their literature search for a review assignment with a subject librarian.",
-  "word_count": 987,
+  "word_count": 992,
   "estimated_minutes": 6.0,
   "turn_index_base": 0,
   "speakers": [
@@ -191,7 +191,7 @@
     },
     {
       "speaker": "F2",
-      "text": "It was, but it's moved — it's in the training room on the second floor now. Bring a laptop if you can."
+      "text": "It was, but it's moved — it's in the training room on the second floor now, half past two as before. Bring a laptop if you can."
     },
     {
       "speaker": "M1",
@@ -615,11 +615,11 @@
     {
       "id": "L6-S3-31",
       "kind": "place",
-      "value": "the training room on the second floor",
+      "value": "the training room on the second floor, half past two as before",
       "speaker": "F2",
-      "quote": "it's in the training room on the second floor now",
+      "quote": "it's in the training room on the second floor now, half past two as before",
       "turn_index": 37,
-      "distractor": "Room B",
+      "distractor": "Room B (where it used to be)",
       "suggested_types": [
         "multiple_choice",
         "note_completion"
